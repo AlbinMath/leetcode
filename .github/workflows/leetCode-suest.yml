@@ -1,8 +1,7 @@
-name: LeetCode Quest
+name: Sync LeetCode Quest
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: "0 * * * *"
 
@@ -14,14 +13,12 @@ jobs:
       contents: write
 
     steps:
-      - name: Sync LeetCode Quest
+      - name: Sync LeetCode Quest submissions
         uses: joshcai/leetcode-sync@v1.7
         with:
           github-token: ${{ github.token }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
-
-          destination-folder: leetcode
-
+          destination-folder: leetcode Quest
           verbose: true
           commit-header: "[LeetCode Quest]"
