@@ -1,17 +1,17 @@
-# LeetCode 2216: Minimum Deletions to Make Array Beautiful
+# LeetCode 2095: Delete the Middle Node of a Linked List
 
-**LeetCode Problem #2216 — Minimum Deletions to Make Array Beautiful**
-Solve LeetCode Minimum Deletions to Make Array Beautiful using Java and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
+**LeetCode Problem #2095 — Delete the Middle Node of a Linked List**
+Solve LeetCode Delete the Middle Node of a Linked List using Java and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Deletions to Make Array Beautiful |
-| LeetCode | #2216 |
+| Problem | Delete the Middle Node of a Linked List |
+| LeetCode | #2095 |
 | Difficulty | Medium |
 | Language | Java |
 | Algorithm | Floyd Cycle Detection |
-| Data Structure | Linked List / Array |
+| Data Structure | Linked List / Pointer |
 | Pattern | Fast & Slow Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,18 +20,18 @@ Solve LeetCode Minimum Deletions to Make Array Beautiful using Java and Fast & S
 You are given the  head  of a linked list.  Delete  the  middle node , and return  the   head   of the modified linked list .
 
 ## Key Insight
-Leverage **Fast & Slow Pointers** with **Linked List / Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Fast & Slow Pointers** with **Linked List / Pointer** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 Use **fast and slow pointers**. Fast moves 2 steps while slow moves 1. When fast reaches the end, slow is just before the middle. Delete the middle by setting `slow.next = slow.next.next`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Linked List / Array**).
+1. Initialize state variables / data structure (**Linked List / Pointer**).
 2. Process elements sequentially using **Floyd Cycle Detection**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Deletions to Make Array Beautiful**. Applying **Floyd Cycle Detection** yields the target result step by step.
+Consider the standard input for **Delete the Middle Node of a Linked List**. Applying **Floyd Cycle Detection** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 
 ## Related Problems
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [2236. Root Equals Sum of Children](../2236-maximum-twin-sum-of-a-linked-list/)
+- [2130. Maximum Twin Sum of a Linked List](../2236-maximum-twin-sum-of-a-linked-list/)
 - [61. Rotate List](../0061-rotate-list/)
 
 ## LeetCode

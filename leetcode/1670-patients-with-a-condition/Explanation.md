@@ -1,16 +1,16 @@
-# LeetCode 1670: Design Front Middle Back Queue
+# LeetCode 1527: Patients With a Condition
 
-**LeetCode Problem #1670 — Design Front Middle Back Queue**
-Solve LeetCode Design Front Middle Back Queue using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1527 — Patients With a Condition**
+Solve LeetCode Patients With a Condition using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Design Front Middle Back Queue |
-| LeetCode | #1670 |
-| Difficulty | Medium |
+| Problem | Patients With a Condition |
+| LeetCode | #1527 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Design Front Middle Back Queue**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Patients With a Condition**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3932. Count K-th Roots in a Range](../3932-find-covid-recovery-patients/)
+- [3586. Find COVID Recovery Patients](../3932-find-covid-recovery-patients/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
 - [176. Second Highest Salary](../0176-second-highest-salary/)
 

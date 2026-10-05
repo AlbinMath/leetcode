@@ -74,9 +74,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [2766. Relocate Marbles](../2766-find-the-prefix-common-array-of-two-arrays/)
-- [2858. Minimum Edge Reversals So Every Node Is Reachable](../2858-join-two-arrays-by-id/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
+- [2722. Join Two Arrays by ID](../2858-join-two-arrays-by-id/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/)

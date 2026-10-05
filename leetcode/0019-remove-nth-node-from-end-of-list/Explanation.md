@@ -11,7 +11,7 @@ Solve LeetCode Remove Nth Node From End of List using JavaScript and Fast & Slow
 | Difficulty | Medium |
 | Language | JavaScript |
 | Algorithm | Floyd Cycle Detection |
-| Data Structure | Linked List / Array |
+| Data Structure | Linked List / Pointer |
 | Pattern | Fast & Slow Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,7 +20,7 @@ Solve LeetCode Remove Nth Node From End of List using JavaScript and Fast & Slow
 Given the  head  of a linked list, remove the  n th   node from the end of the list and return its head.
 
 ## Key Insight
-Leverage **Fast & Slow Pointers** with **Linked List / Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Fast & Slow Pointers** with **Linked List / Pointer** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses the **Two Pointer (Fast & Slow)** technique to find the target node in a single pass.
@@ -34,7 +34,7 @@ The code uses the **Two Pointer (Fast & Slow)** technique to find the target nod
 Time complexity is $O(L)$ where $L$ is the length of the list. Space complexity is $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Linked List / Array**).
+1. Initialize state variables / data structure (**Linked List / Pointer**).
 2. Process elements sequentially using **Floyd Cycle Detection**.
 3. Validate boundary conditions and return optimal result.
 
@@ -71,9 +71,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2216. Minimum Deletions to Make Array Beautiful](../2216-delete-the-middle-node-of-a-linked-list/)
-- [3062. Winner of the Linked List Game](../3062-create-a-dataframe-from-list/)
-- [3561. Resulting String After Adjacent Removals](../3561-remove-methods-from-project/)
+- [2095. Delete the Middle Node of a Linked List](../2216-delete-the-middle-node-of-a-linked-list/)
+- [2877. Create a DataFrame from List](../3062-create-a-dataframe-from-list/)
+- [3310. Remove Methods From Project](../3561-remove-methods-from-project/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)

@@ -1,14 +1,14 @@
-# LeetCode 1570: Dot Product of Two Sparse Vectors
+# LeetCode 1475: Final Prices With a Special Discount in a Shop
 
-**LeetCode Problem #1570 — Dot Product of Two Sparse Vectors**
-Solve LeetCode Dot Product of Two Sparse Vectors using TypeScript and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
+**LeetCode Problem #1475 — Final Prices With a Special Discount in a Shop**
+Solve LeetCode Final Prices With a Special Discount in a Shop using TypeScript and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Dot Product of Two Sparse Vectors |
-| LeetCode | #1570 |
-| Difficulty | Medium |
+| Problem | Final Prices With a Special Discount in a Shop |
+| LeetCode | #1475 |
+| Difficulty | Easy |
 | Language | TypeScript |
 | Algorithm | Monotonic Stack Filtering |
 | Data Structure | Stack |
@@ -33,7 +33,7 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Dot Product of Two Sparse Vectors**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+Consider the standard input for **Final Prices With a Special Discount in a Shop**. Applying **Monotonic Stack Filtering** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,9 +66,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [2024. Maximize the Confusion of an Exam](../2024-calculate-special-bonus/)
-- [2248. Intersection of Multiple Arrays](../2248-minimum-cost-of-buying-candies-with-discount/)
-- [3408. Design Task Manager](../3408-count-the-number-of-special-characters-i/)
+- [1873. Calculate Special Bonus](../2024-calculate-special-bonus/)
+- [2144. Minimum Cost of Buying Candies With Discount](../2248-minimum-cost-of-buying-candies-with-discount/)
+- [3120. Count the Number of Special Characters I](../3408-count-the-number-of-special-characters-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)

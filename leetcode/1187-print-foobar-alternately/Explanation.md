@@ -1,14 +1,14 @@
-# LeetCode 1187: Make Array Strictly Increasing
+# LeetCode 1115: Print FooBar Alternately
 
-**LeetCode Problem #1187 — Make Array Strictly Increasing**
-Solve LeetCode Make Array Strictly Increasing using Java and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #1115 — Print FooBar Alternately**
+Solve LeetCode Print FooBar Alternately using Java and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Make Array Strictly Increasing |
-| LeetCode | #1187 |
-| Difficulty | Hard |
+| Problem | Print FooBar Alternately |
+| LeetCode | #1115 |
+| Difficulty | Medium |
 | Language | Java |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -37,7 +37,7 @@ This ping-pong of semaphores ensures strict alternation for `n` iterations.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Make Array Strictly Increasing**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Print FooBar Alternately**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -70,8 +70,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1203. Sort Items by Groups Respecting Dependencies](../1203-print-in-order/)
-- [1216. Valid Palindrome III](../1216-print-zero-even-odd/)
+- [1114. Print in Order](../1203-print-in-order/)
+- [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
 - [1. Two Sum](../0001-two-sum/)
 
 ## LeetCode

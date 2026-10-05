@@ -1,16 +1,16 @@
-# LeetCode 2813: Maximum Elegance of a K-Length Subsequence
+# LeetCode 2704: To Be Or Not To Be
 
-**LeetCode Problem #2813 — Maximum Elegance of a K-Length Subsequence**
-Solve LeetCode Maximum Elegance of a K-Length Subsequence using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2704 — To Be Or Not To Be**
+Solve LeetCode To Be Or Not To Be using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Elegance of a K-Length Subsequence |
-| LeetCode | #2813 |
-| Difficulty | Hard |
+| Problem | To Be Or Not To Be |
+| LeetCode | #2704 |
+| Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Leverage **Array / General** with **Array** to process inputs efficiently and ac
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Elegance of a K-Length Subsequence**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **To Be Or Not To Be**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [620. Not Boring Movies](../0620-not-boring-movies/)
-- [1724. Checking Existence of Edge Length Limited Paths II](../1724-customer-who-visited-but-did-not-make-any-transactions/)
+- [1581. Customer Who Visited but Did Not Make Any Transactions](../1724-customer-who-visited-but-did-not-make-any-transactions/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode

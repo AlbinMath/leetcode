@@ -1,16 +1,16 @@
-# LeetCode 2347: Best Poker Hand
+# LeetCode 2265: Count Nodes Equal to Average of Subtree
 
-**LeetCode Problem #2347 — Best Poker Hand**
-Solve LeetCode Best Poker Hand using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+**LeetCode Problem #2265 — Count Nodes Equal to Average of Subtree**
+Solve LeetCode Count Nodes Equal to Average of Subtree using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Best Poker Hand |
-| LeetCode | #2347 |
-| Difficulty | Easy |
+| Problem | Count Nodes Equal to Average of Subtree |
+| LeetCode | #2265 |
+| Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Use **DFS** (post-order traversal). Each recursive call returns the `(sum, count
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Best Poker Hand**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Count Nodes Equal to Average of Subtree**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1390. Four Divisors](../1390-average-selling-price/)
-- [1801. Number of Orders in the Backlog](../1801-average-time-of-process-per-machine/)
-- [1877. Minimize Maximum Pair Sum in Array](../1877-find-followers-count/)
+- [1251. Average Selling Price](../1390-average-selling-price/)
+- [1661. Average Time of Process per Machine](../1801-average-time-of-process-per-machine/)
+- [1729. Find Followers Count](../1877-find-followers-count/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)

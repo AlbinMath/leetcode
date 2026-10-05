@@ -1,16 +1,16 @@
-# LeetCode 1811: Find Interview Candidates
+# LeetCode 1667: Fix Names in a Table
 
-**LeetCode Problem #1811 — Find Interview Candidates**
-Solve LeetCode Find Interview Candidates using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1667 — Fix Names in a Table**
+Solve LeetCode Fix Names in a Table using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Find Interview Candidates |
-| LeetCode | #1811 |
-| Difficulty | Medium |
+| Problem | Fix Names in a Table |
+| LeetCode | #1667 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Interview Candidates**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Fix Names in a Table**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,8 +64,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1301. Number of Paths with Max Score](../1301-reformat-department-table/)
-- [1948. Delete Duplicate Folders in System](../1948-rearrange-products-table/)
+- [1179. Reformat Department Table](../1301-reformat-department-table/)
+- [1795. Rearrange Products Table](../1948-rearrange-products-table/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
 
 ## LeetCode

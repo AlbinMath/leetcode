@@ -1,14 +1,14 @@
-# LeetCode 3931: Check Adjacent Digit Differences
+# LeetCode 3612: Process String with Special Operations I
 
-**LeetCode Problem #3931 — Check Adjacent Digit Differences**
-Solve LeetCode Check Adjacent Digit Differences using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3612 — Process String with Special Operations I**
+Solve LeetCode Process String with Special Operations I using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Check Adjacent Digit Differences |
-| LeetCode | #3931 |
-| Difficulty | Easy |
+| Problem | Process String with Special Operations I |
+| LeetCode | #3612 |
+| Difficulty | Medium |
 | Language | Java |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Check Adjacent Digit Differences**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Process String with Special Operations I**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3939. Count Non Adjacent Subsets in a Rooted Tree](../3939-process-string-with-special-operations-ii/)
-- [3408. Design Task Manager](../3408-count-the-number-of-special-characters-i/)
-- [812. Largest Triangle Area](../0812-rotate-string/)
+- [3614. Process String with Special Operations II](../3939-process-string-with-special-operations-ii/)
+- [3120. Count the Number of Special Characters I](../3408-count-the-number-of-special-characters-i/)
+- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-string-with-special-operations-i/)

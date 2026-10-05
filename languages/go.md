@@ -6,4 +6,4 @@ A collection of LeetCode problems implemented in **Go** with detailed complexity
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 3347 | [Maximum Frequency of an Element After Performing Operations II](../leetcode/3347-distribute-elements-into-two-arrays-i/) | Hard | Hash Map | O(n) | O(n) |
+| 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3347-distribute-elements-into-two-arrays-i/) | Easy | Hash Map | O(n) | O(n) |

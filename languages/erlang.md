@@ -6,4 +6,4 @@ A collection of LeetCode problems implemented in **Erlang** with detailed comple
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 3859 | [Count Subarrays With K Distinct Integers](../leetcode/3859-maximum-product-of-two-digits/) | Hard | Math & Logic | O(n) | O(1) |
+| 3536 | [Maximum Product of Two Digits](../leetcode/3859-maximum-product-of-two-digits/) | Easy | Math & Logic | O(n) | O(1) |

@@ -1,18 +1,18 @@
-# LeetCode 2245: Maximum Trailing Zeros in a Cornered Path
+# LeetCode 2126: Destroying Asteroids
 
-**LeetCode Problem #2245 — Maximum Trailing Zeros in a Cornered Path**
-Solve LeetCode Maximum Trailing Zeros in a Cornered Path using Java and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2126 — Destroying Asteroids**
+Solve LeetCode Destroying Asteroids using Java and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Trailing Zeros in a Cornered Path |
-| LeetCode | #2245 |
+| Problem | Destroying Asteroids |
+| LeetCode | #2126 |
 | Difficulty | Medium |
 | Language | Java |
-| Algorithm | Iterative Traversal |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Maximum Trailing Zeros in a Cornered Path using Java and Array / 
 You are given an integer  mass , which represents the original mass of a planet. You are further given an integer array  asteroids , where  asteroids[i]  is the mass of the  i th   asteroid.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 Sort asteroids in ascending order. Greedily absorb from smallest to largest. If at any point the planet's mass is less than the current asteroid, return `false`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Trailing Zeros in a Cornered Path**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Destroying Asteroids**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 Java
@@ -50,7 +51,7 @@ Java
 - [solution.java](./solution.java)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
-- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
+- [7. Reverse Integer](../0007-reverse-integer/)
+- [396. Rotate Function](../0396-rotate-function/)
+- [835. Image Overlap](../0864-image-overlap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/destroying-asteroids/)

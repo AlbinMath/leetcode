@@ -1,16 +1,16 @@
-# LeetCode 2248: Intersection of Multiple Arrays
+# LeetCode 2144: Minimum Cost of Buying Candies With Discount
 
-**LeetCode Problem #2248 — Intersection of Multiple Arrays**
-Solve LeetCode Intersection of Multiple Arrays using Kotlin and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2144 — Minimum Cost of Buying Candies With Discount**
+Solve LeetCode Minimum Cost of Buying Candies With Discount using Kotlin and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Intersection of Multiple Arrays |
-| LeetCode | #2248 |
+| Problem | Minimum Cost of Buying Candies With Discount |
+| LeetCode | #2144 |
 | Difficulty | Easy |
 | Language | Kotlin |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Sort costs in descending order. Every third candy (index 2, 5, 8, ...) is free. 
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Intersection of Multiple Arrays**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Minimum Cost of Buying Candies With Discount**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [1570. Dot Product of Two Sparse Vectors](../1570-final-prices-with-a-special-discount-in-a-shop/)
+- [1475. Final Prices With a Special Discount in a Shop](../1570-final-prices-with-a-special-discount-in-a-shop/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)

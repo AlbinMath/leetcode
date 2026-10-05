@@ -1,13 +1,13 @@
-# LeetCode 1428: Leftmost Column with at Least a One
+# LeetCode 1306: Jump Game III
 
-**LeetCode Problem #1428 — Leftmost Column with at Least a One**
-Solve LeetCode Leftmost Column with at Least a One using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #1306 — Jump Game III**
+Solve LeetCode Jump Game III using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Leftmost Column with at Least a One |
-| LeetCode | #1428 |
+| Problem | Jump Game III |
+| LeetCode | #1306 |
 | Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -38,7 +38,7 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Leftmost Column with at Least a One**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Jump Game III**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -72,9 +72,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1447. Simplified Fractions](../1447-jump-game-iv/)
-- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../1466-jump-game-v/)
-- [1522. Diameter of N-Ary Tree](../1522-stone-game-iii/)
+- [1340. Jump Game V](../1466-jump-game-v/)
+- [1345. Jump Game IV](../1447-jump-game-iv/)
+- [1406. Stone Game III](../1522-stone-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-iii/)

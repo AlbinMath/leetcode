@@ -1,16 +1,16 @@
-# LeetCode 2788: Split Strings by Separator
+# LeetCode 2650: Design Cancellable Function
 
-**LeetCode Problem #2788 — Split Strings by Separator**
-Solve LeetCode Split Strings by Separator using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2650 — Design Cancellable Function**
+Solve LeetCode Design Cancellable Function using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Split Strings by Separator |
-| LeetCode | #2788 |
-| Difficulty | Easy |
+| Problem | Design Cancellable Function |
+| LeetCode | #2650 |
+| Difficulty | Hard |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Wraps the generator execution in a promise. Maintains a reference to allow cance
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Split Strings by Separator**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Design Cancellable Function**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [396. Rotate Function](../0396-rotate-function/)
-- [2741. Special Permutations](../2741-function-composition/)
-- [2790. Maximum Number of Groups With Increasing Length](../2790-call-function-with-custom-context/)
+- [2629. Function Composition](../2741-function-composition/)
+- [2666. Allow One Function Call](../2796-allow-one-function-call/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-cancellable-function/)

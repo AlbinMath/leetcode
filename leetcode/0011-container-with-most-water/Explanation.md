@@ -1,7 +1,7 @@
 # LeetCode 11: Container With Most Water
 
 **LeetCode Problem #11 — Container With Most Water**
-Solve LeetCode Container With Most Water using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+Solve LeetCode Container With Most Water using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Container With Most Water using JavaScript and Two Pointers. This
 | LeetCode | #11 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -37,11 +37,11 @@ This approach evaluates the array in a single pass, resulting in an $O(N)$ time 
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Container With Most Water**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Container With Most Water**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -75,8 +75,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
-- [3225. Maximum Score From Grid Operations](../3225-length-of-longest-subarray-with-at-most-k-frequency/)
-- [3965. Finish Time of Tasks I](../3965-earliest-finish-time-for-land-and-water-rides-i/)
+- [2958. Length of Longest Subarray With at Most K Frequency](../3225-length-of-longest-subarray-with-at-most-k-frequency/)
+- [3633. Earliest Finish Time for Land and Water Rides I](../3965-earliest-finish-time-for-land-and-water-rides-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/container-with-most-water/)

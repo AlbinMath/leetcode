@@ -1,7 +1,7 @@
 # LeetCode 620: Not Boring Movies
 
 **LeetCode Problem #620 — Not Boring Movies**
-Solve LeetCode Not Boring Movies using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Not Boring Movies using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Not Boring Movies using SQL and Database / SQL. This solution fin
 | LeetCode | #620 |
 | Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Not Boring Movies**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Not Boring Movies**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,8 +64,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1724. Checking Existence of Edge Length Limited Paths II](../1724-customer-who-visited-but-did-not-make-any-transactions/)
-- [2813. Maximum Elegance of a K-Length Subsequence](../2813-to-be-or-not-to-be/)
+- [1581. Customer Who Visited but Did Not Make Any Transactions](../1724-customer-who-visited-but-did-not-make-any-transactions/)
+- [2704. To Be Or Not To Be](../2813-to-be-or-not-to-be/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
 
 ## LeetCode

@@ -1,16 +1,16 @@
-# LeetCode 2798: Number of Employees Who Met the Target
+# LeetCode 2677: Chunk Array
 
-**LeetCode Problem #2798 — Number of Employees Who Met the Target**
-Solve LeetCode Number of Employees Who Met the Target using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2677 — Chunk Array**
+Solve LeetCode Chunk Array using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number of Employees Who Met the Target |
-| LeetCode | #2798 |
+| Problem | Chunk Array |
+| LeetCode | #2677 |
 | Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Iterates through the array in steps of `size`, slicing `arr.slice(i, i + size)` 
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number of Employees Who Met the Target**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Chunk Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

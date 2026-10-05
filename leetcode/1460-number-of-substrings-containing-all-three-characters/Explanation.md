@@ -1,14 +1,14 @@
-# LeetCode 1460: Make Two Arrays Equal by Reversing Subarrays
+# LeetCode 1358: Number of Substrings Containing All Three Characters
 
-**LeetCode Problem #1460 — Make Two Arrays Equal by Reversing Subarrays**
-Solve LeetCode Make Two Arrays Equal by Reversing Subarrays using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #1358 — Number of Substrings Containing All Three Characters**
+Solve LeetCode Number of Substrings Containing All Three Characters using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Make Two Arrays Equal by Reversing Subarrays |
-| LeetCode | #1460 |
-| Difficulty | Easy |
+| Problem | Number of Substrings Containing All Three Characters |
+| LeetCode | #1358 |
+| Difficulty | Medium |
 | Language | Java |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -39,7 +39,7 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Make Two Arrays Equal by Reversing Subarrays**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Number of Substrings Containing All Three Characters**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -73,9 +73,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1644. Lowest Common Ancestor of a Binary Tree II](../1644-maximum-number-of-non-overlapping-substrings/)
-- [2099. Find Subsequence of Length K With the Largest Sum](../2099-number-of-strings-that-appear-as-substrings-in-word/)
-- [2559. Count Vowel Strings in Ranges](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [1967. Number of Strings That Appear as Substrings in Word](../2099-number-of-strings-that-appear-as-substrings-in-word/)
+- [2472. Maximum Number of Non-overlapping Palindrome Substrings](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)

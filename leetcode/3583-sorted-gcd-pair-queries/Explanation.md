@@ -1,16 +1,16 @@
-# LeetCode 3583: Count Special Triplets
+# LeetCode 3312: Sorted GCD Pair Queries
 
-**LeetCode Problem #3583 — Count Special Triplets**
-Solve LeetCode Count Special Triplets using PHP and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+**LeetCode Problem #3312 — Sorted GCD Pair Queries**
+Solve LeetCode Sorted GCD Pair Queries using PHP and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Special Triplets |
-| LeetCode | #3583 |
-| Difficulty | Medium |
+| Problem | Sorted GCD Pair Queries |
+| LeetCode | #3312 |
+| Difficulty | Hard |
 | Language | PHP |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Memoization / Bottom-Up State Transition**.
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Special Triplets**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Sorted GCD Pair Queries**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

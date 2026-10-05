@@ -1,14 +1,14 @@
-# LeetCode 1482: Minimum Number of Days to Make m Bouquets
+# LeetCode 1365: How Many Numbers Are Smaller Than the Current Number
 
-**LeetCode Problem #1482 — Minimum Number of Days to Make m Bouquets**
-Solve LeetCode Minimum Number of Days to Make m Bouquets using TypeScript and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
+**LeetCode Problem #1365 — How Many Numbers Are Smaller Than the Current Number**
+Solve LeetCode How Many Numbers Are Smaller Than the Current Number using TypeScript and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Number of Days to Make m Bouquets |
-| LeetCode | #1482 |
-| Difficulty | Medium |
+| Problem | How Many Numbers Are Smaller Than the Current Number |
+| LeetCode | #1365 |
+| Difficulty | Easy |
 | Language | TypeScript |
 | Algorithm | Prefix Sum Precomputation |
 | Data Structure | Prefix Array |
@@ -37,7 +37,7 @@ Time complexity is $O(N + K)$ where $K = 100$, and space complexity is $O(K)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Number of Days to Make m Bouquets**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+Consider the standard input for **How Many Numbers Are Smaller Than the Current Number**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

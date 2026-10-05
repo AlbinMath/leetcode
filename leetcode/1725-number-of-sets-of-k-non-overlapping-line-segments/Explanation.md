@@ -1,14 +1,14 @@
-# LeetCode 1725: Number Of Rectangles That Can Form The Largest Square
+# LeetCode 1621: Number of Sets of K Non-Overlapping Line Segments
 
-**LeetCode Problem #1725 — Number Of Rectangles That Can Form The Largest Square**
-Solve LeetCode Number Of Rectangles That Can Form The Largest Square using JavaScript and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
+**LeetCode Problem #1621 — Number of Sets of K Non-Overlapping Line Segments**
+Solve LeetCode Number of Sets of K Non-Overlapping Line Segments using JavaScript and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number Of Rectangles That Can Form The Largest Square |
-| LeetCode | #1725 |
-| Difficulty | Easy |
+| Problem | Number of Sets of K Non-Overlapping Line Segments |
+| LeetCode | #1621 |
+| Difficulty | Medium |
 | Language | JavaScript |
 | Algorithm | Prefix Sum Precomputation |
 | Data Structure | Prefix Array |
@@ -37,7 +37,7 @@ Time complexity is $O(N \times K)$ and space complexity is $O(K)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number Of Rectangles That Can Form The Largest Square**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+Consider the standard input for **Number of Sets of K Non-Overlapping Line Segments**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -69,9 +69,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1644. Lowest Common Ancestor of a Binary Tree II](../1644-maximum-number-of-non-overlapping-substrings/)
-- [2559. Count Vowel Strings in Ranges](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
-- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [2472. Maximum Number of Non-overlapping Palindrome Substrings](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/)

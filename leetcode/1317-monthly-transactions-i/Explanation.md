@@ -1,16 +1,16 @@
-# LeetCode 1317: Convert Integer to the Sum of Two No-Zero Integers
+# LeetCode 1193: Monthly Transactions I
 
-**LeetCode Problem #1317 — Convert Integer to the Sum of Two No-Zero Integers**
-Solve LeetCode Convert Integer to the Sum of Two No-Zero Integers using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1193 — Monthly Transactions I**
+Solve LeetCode Monthly Transactions I using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Convert Integer to the Sum of Two No-Zero Integers |
-| LeetCode | #1317 |
-| Difficulty | Easy |
+| Problem | Monthly Transactions I |
+| LeetCode | #1193 |
+| Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Convert Integer to the Sum of Two No-Zero Integers**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Monthly Transactions I**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1153. String Transforms Into Another String](../1153-product-sales-analysis-i/)
-- [1161. Maximum Level Sum of a Binary Tree](../1161-project-employees-i/)
-- [1179. Reformat Department Table](../1179-game-play-analysis-i/)
+- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
+- [1068. Product Sales Analysis I](../1153-product-sales-analysis-i/)
+- [1075. Project Employees I](../1161-project-employees-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/monthly-transactions-i/)

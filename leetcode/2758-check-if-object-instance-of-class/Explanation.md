@@ -1,16 +1,16 @@
-# LeetCode 2758: Next Day
+# LeetCode 2618: Check if Object Instance of Class
 
-**LeetCode Problem #2758 — Next Day**
-Solve LeetCode Next Day using JavaScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2618 — Check if Object Instance of Class**
+Solve LeetCode Check if Object Instance of Class using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Next Day |
-| LeetCode | #2758 |
-| Difficulty | Easy |
+| Problem | Check if Object Instance of Class |
+| LeetCode | #2618 |
+| Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Walk up the prototype chain of `obj` using `Object.getPrototypeOf()`. At each st
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Next Day**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Check if Object Instance of Class**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1878. Get Biggest Three Rhombus Sums in a Grid](../1878-check-if-array-is-sorted-and-rotated/)
-- [2349. Design a Number Container System](../2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [2892. Minimizing Array After Replacing Pairs With Their Product](../2892-check-if-array-is-good/)
+- [1752. Check if Array Is Sorted and Rotated](../1878-check-if-array-is-sorted-and-rotated/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [2784. Check if Array is Good](../2892-check-if-array-is-good/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-object-instance-of-class/)

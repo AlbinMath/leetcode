@@ -1,7 +1,7 @@
 # LeetCode 396: Rotate Function
 
 **LeetCode Problem #396 — Rotate Function**
-Solve LeetCode Rotate Function using C++ and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+Solve LeetCode Rotate Function using C++ and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Rotate Function using C++ and Math & Logic. This solution finds t
 | LeetCode | #396 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
-| Pattern | Math & Logic |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Rotate Function using C++ and Math & Logic. This solution finds t
 You are given an integer array  nums  of length  n .
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a mathematical relationship between consecutive rotation functions to compute all values in $O(N)$ time.
@@ -32,23 +32,23 @@ The code uses a mathematical relationship between consecutive rotation functions
 Time complexity is $O(N)$ and space complexity is $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Rotate Function**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Rotate Function**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Math & Logic**
+**Bit Manipulation**
 
 ## Topics
-- Math
-- Simulation
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 C++
@@ -57,7 +57,7 @@ C++
 - [solution.cpp](./solution.cpp)
 
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -71,7 +71,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [48. Rotate Image](../0048-rotate-image/)
 - [61. Rotate List](../0061-rotate-list/)
-- [812. Largest Triangle Area](../0812-rotate-string/)
+- [796. Rotate String](../0812-rotate-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-function/)

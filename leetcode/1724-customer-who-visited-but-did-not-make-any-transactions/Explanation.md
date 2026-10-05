@@ -1,16 +1,16 @@
-# LeetCode 1724: Checking Existence of Edge Length Limited Paths II
+# LeetCode 1581: Customer Who Visited but Did Not Make Any Transactions
 
-**LeetCode Problem #1724 — Checking Existence of Edge Length Limited Paths II**
-Solve LeetCode Checking Existence of Edge Length Limited Paths II using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1581 — Customer Who Visited but Did Not Make Any Transactions**
+Solve LeetCode Customer Who Visited but Did Not Make Any Transactions using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Checking Existence of Edge Length Limited Paths II |
-| LeetCode | #1724 |
-| Difficulty | Hard |
+| Problem | Customer Who Visited but Did Not Make Any Transactions |
+| LeetCode | #1581 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Checking Existence of Edge Length Limited Paths II**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Customer Who Visited but Did Not Make Any Transactions**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

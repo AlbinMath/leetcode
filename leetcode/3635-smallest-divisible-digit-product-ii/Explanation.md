@@ -1,17 +1,17 @@
-# LeetCode 3635: Earliest Finish Time for Land and Water Rides II
+# LeetCode 3348: Smallest Divisible Digit Product II
 
-**LeetCode Problem #3635 — Earliest Finish Time for Land and Water Rides II**
-Solve LeetCode Earliest Finish Time for Land and Water Rides II using Python, TypeScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+**LeetCode Problem #3348 — Smallest Divisible Digit Product II**
+Solve LeetCode Smallest Divisible Digit Product II using Python, TypeScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Earliest Finish Time for Land and Water Rides II |
-| LeetCode | #3635 |
-| Difficulty | Medium |
+| Problem | Smallest Divisible Digit Product II |
+| LeetCode | #3348 |
+| Difficulty | Hard |
 | Language | Python, TypeScript |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
 | Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,18 +20,18 @@ Solve LeetCode Earliest Finish Time for Land and Water Rides II using Python, Ty
 You are given a string  num  which represents a  positive  integer, and an integer  t .
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Mathematical Simulation / Modular Arithmetic**. By maintaining state efficiently in a **Primitive Data Types**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Earliest Finish Time for Land and Water Rides II**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Smallest Divisible Digit Product II**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3626. Find Stores with Inventory Imbalance](../3626-smallest-divisible-digit-product-i/)
-- [3813. Vowel-Consonant Score](../3813-smallest-palindromic-rearrangement-ii/)
-- [3869. Count Fancy Numbers in a Range](../3869-smallest-index-with-digit-sum-equal-to-index/)
+- [3345. Smallest Divisible Digit Product I](../3626-smallest-divisible-digit-product-i/)
+- [3518. Smallest Palindromic Rearrangement II](../3813-smallest-palindromic-rearrangement-ii/)
+- [3550. Smallest Index With Digit Sum Equal to Index](../3869-smallest-index-with-digit-sum-equal-to-index/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-ii/)

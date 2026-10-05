@@ -1,16 +1,16 @@
-# LeetCode 3705: Find Golden Hour Customers
+# LeetCode 3471: Find the Largest Almost Missing Integer
 
-**LeetCode Problem #3705 — Find Golden Hour Customers**
-Solve LeetCode Find Golden Hour Customers using Kotlin and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3471 — Find the Largest Almost Missing Integer**
+Solve LeetCode Find the Largest Almost Missing Integer using Kotlin and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Find Golden Hour Customers |
-| LeetCode | #3705 |
-| Difficulty | Medium |
+| Problem | Find the Largest Almost Missing Integer |
+| LeetCode | #3471 |
+| Difficulty | Easy |
 | Language | Kotlin |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Golden Hour Customers**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find the Largest Almost Missing Integer**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3236. CEO Subordinate Hierarchy](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
-- [4107. Find Missing Elements](../4107-find-missing-elements/)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
+- [3731. Find Missing Elements](../4107-find-missing-elements/)
 - [7. Reverse Integer](../0007-reverse-integer/)
 
 ## LeetCode

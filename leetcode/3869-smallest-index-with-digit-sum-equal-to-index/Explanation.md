@@ -1,17 +1,17 @@
-# LeetCode 3869: Count Fancy Numbers in a Range
+# LeetCode 3550: Smallest Index With Digit Sum Equal to Index
 
-**LeetCode Problem #3869 — Count Fancy Numbers in a Range**
-Solve LeetCode Count Fancy Numbers in a Range using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+**LeetCode Problem #3550 — Smallest Index With Digit Sum Equal to Index**
+Solve LeetCode Smallest Index With Digit Sum Equal to Index using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Fancy Numbers in a Range |
-| LeetCode | #3869 |
-| Difficulty | Hard |
+| Problem | Smallest Index With Digit Sum Equal to Index |
+| LeetCode | #3550 |
+| Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
 | Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,7 +20,7 @@ Solve LeetCode Count Fancy Numbers in a Range using JavaScript and Math & Logic.
 You are given an integer array  nums .
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a straightforward iterative approach.
@@ -35,12 +35,12 @@ The code uses a straightforward iterative approach.
 5. If the loop finishes checking all elements without returning, it means no such index exists, so it returns `-1`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Fancy Numbers in a Range**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Smallest Index With Digit Sum Equal to Index**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -72,9 +72,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3236. CEO Subordinate Hierarchy](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
-- [3606. Coupon Code Validator](../3606-minimum-element-after-replacement-with-digit-sum/)
-- [3626. Find Stores with Inventory Imbalance](../3626-smallest-divisible-digit-product-i/)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
+- [3300. Minimum Element After Replacement With Digit Sum](../3606-minimum-element-after-replacement-with-digit-sum/)
+- [3345. Smallest Divisible Digit Product I](../3626-smallest-divisible-digit-product-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/)

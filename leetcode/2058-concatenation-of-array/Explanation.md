@@ -1,16 +1,16 @@
-# LeetCode 2058: Find the Minimum and Maximum Number of Nodes Between Critical Points
+# LeetCode 1929: Concatenation of Array
 
-**LeetCode Problem #2058 — Find the Minimum and Maximum Number of Nodes Between Critical Points**
-Solve LeetCode Find the Minimum and Maximum Number of Nodes Between Critical Points using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #1929 — Concatenation of Array**
+Solve LeetCode Concatenation of Array using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Find the Minimum and Maximum Number of Nodes Between Critical Points |
-| LeetCode | #2058 |
-| Difficulty | Medium |
+| Problem | Concatenation of Array |
+| LeetCode | #1929 |
+| Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -29,11 +29,11 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find the Minimum and Maximum Number of Nodes Between Critical Points**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Concatenation of Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

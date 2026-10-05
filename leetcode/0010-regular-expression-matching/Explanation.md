@@ -1,7 +1,7 @@
 # LeetCode 10: Regular Expression Matching
 
 **LeetCode Problem #10 — Regular Expression Matching**
-Solve LeetCode Regular Expression Matching using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+Solve LeetCode Regular Expression Matching using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Regular Expression Matching using JavaScript and Dynamic Programm
 | LeetCode | #10 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -39,11 +39,11 @@ By memoizing the states, the time complexity is reduced to $O(S \times P)$ where
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Regular Expression Matching**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Regular Expression Matching**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -78,7 +78,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [115. Distinct Subsequences](../0115-distinct-subsequences/)
 - [486. Predict the Winner](../0486-predict-the-winner/)
-- [977. Squares of a Sorted Array](../0977-distinct-subsequences-ii/)
+- [940. Distinct Subsequences II](../0977-distinct-subsequences-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/regular-expression-matching/)

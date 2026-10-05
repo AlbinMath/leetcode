@@ -1,13 +1,13 @@
-# LeetCode 3962: Maximum Subarray Sum After at Most K Swaps
+# LeetCode 3699: Number of ZigZag Arrays I
 
-**LeetCode Problem #3962 — Maximum Subarray Sum After at Most K Swaps**
-Solve LeetCode Maximum Subarray Sum After at Most K Swaps using PHP and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #3699 — Number of ZigZag Arrays I**
+Solve LeetCode Number of ZigZag Arrays I using PHP and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Subarray Sum After at Most K Swaps |
-| LeetCode | #3962 |
+| Problem | Number of ZigZag Arrays I |
+| LeetCode | #3699 |
 | Difficulty | Hard |
 | Language | PHP |
 | Algorithm | Complement Lookup / Hash Table Frequency |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Subarray Sum After at Most K Swaps**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Number of ZigZag Arrays I**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3964. Minimum Lights to Illuminate a Road](../3964-number-of-zigzag-arrays-ii/)
-- [3275. K-th Nearest Obstacle Queries](../3275-minimum-number-of-pushes-to-type-word-i/)
-- [3347. Maximum Frequency of an Element After Performing Operations II](../3347-distribute-elements-into-two-arrays-i/)
+- [3700. Number of ZigZag Arrays II](../3964-number-of-zigzag-arrays-ii/)
+- [3014. Minimum Number of Pushes to Type Word I](../3275-minimum-number-of-pushes-to-type-word-i/)
+- [3069. Distribute Elements Into Two Arrays I](../3347-distribute-elements-into-two-arrays-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-zigzag-arrays-i/)

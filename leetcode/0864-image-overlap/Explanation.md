@@ -1,18 +1,18 @@
-# LeetCode 864: Shortest Path to Get All Keys
+# LeetCode 835: Image Overlap
 
-**LeetCode Problem #864 — Shortest Path to Get All Keys**
-Solve LeetCode Shortest Path to Get All Keys using JavaScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n²) time.
+**LeetCode Problem #835 — Image Overlap**
+Solve LeetCode Image Overlap using JavaScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n²) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Shortest Path to Get All Keys |
-| LeetCode | #864 |
-| Difficulty | Hard |
+| Problem | Image Overlap |
+| LeetCode | #835 |
+| Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Iterative Traversal |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n²) |
 | Space Complexity | O(1) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Shortest Path to Get All Keys using JavaScript and Array / Genera
 You are given two images,  img1  and  img2 , represented as binary, square matrices of size  n x n . A binary matrix has only  0 s and  1 s as values.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a **brute force** approach, trying every possible translation.
@@ -32,22 +32,23 @@ The code uses a **brute force** approach, trying every possible translation.
 Time complexity is $O(N^4)$ (trying $O(N^2)$ translations, each requiring an $O(N^2)$ comparison) and space complexity is $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Shortest Path to Get All Keys**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Image Overlap**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n²)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 JavaScript
@@ -56,7 +57,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -69,8 +70,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [48. Rotate Image](../0048-rotate-image/)
-- [866. Prime Palindrome](../0866-rectangle-overlap/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [836. Rectangle Overlap](../0866-rectangle-overlap/)
+- [7. Reverse Integer](../0007-reverse-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/image-overlap/)

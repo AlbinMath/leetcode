@@ -1,16 +1,16 @@
-# LeetCode 1522: Diameter of N-Ary Tree
+# LeetCode 1406: Stone Game III
 
-**LeetCode Problem #1522 — Diameter of N-Ary Tree**
-Solve LeetCode Diameter of N-Ary Tree using PHP and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+**LeetCode Problem #1406 — Stone Game III**
+Solve LeetCode Stone Game III using PHP and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Diameter of N-Ary Tree |
-| LeetCode | #1522 |
-| Difficulty | Medium |
+| Problem | Stone Game III |
+| LeetCode | #1406 |
+| Difficulty | Hard |
 | Language | PHP |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -33,11 +33,11 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Diameter of N-Ary Tree**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Stone Game III**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -70,9 +70,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [909. Snakes and Ladders](../0909-stone-game/)
-- [1240. Tiling a Rectangle with the Fewest Squares](../1240-stone-game-ii/)
-- [1428. Leftmost Column with at Least a One](../1428-jump-game-iii/)
+- [877. Stone Game](../0909-stone-game/)
+- [1140. Stone Game II](../1240-stone-game-ii/)
+- [1306. Jump Game III](../1428-jump-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stone-game-iii/)

@@ -1,17 +1,17 @@
-# LeetCode 1212: Team Scores in Football Tournament
+# LeetCode 1291: Sequential Digits
 
-**LeetCode Problem #1212 — Team Scores in Football Tournament**
-Solve LeetCode Team Scores in Football Tournament using C++ and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+**LeetCode Problem #1291 — Sequential Digits**
+Solve LeetCode Sequential Digits using C++ and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Team Scores in Football Tournament |
-| LeetCode | #1212 |
+| Problem | Sequential Digits |
+| LeetCode | #1291 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
 | Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,7 +20,7 @@ Solve LeetCode Team Scores in Football Tournament using C++ and Math & Logic. Th
 An integer has  sequential digits  if and only if each digit in the number is one more than the previous digit.
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code generates all possible sequential digit numbers and filters those within the range.
@@ -34,12 +34,12 @@ The code generates all possible sequential digit numbers and filters those withi
 Since there are at most 36 sequential-digit numbers (9 possible lengths × varying starts), this runs in $O(1)$ time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Team Scores in Football Tournament**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Sequential Digits**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -71,9 +71,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [804. Unique Morse Code Words](../0804-rotated-digits/)
-- [2639. Find the Width of Columns of a Grid](../2639-separate-the-digits-in-an-array/)
-- [3236. CEO Subordinate Hierarchy](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
+- [788. Rotated Digits](../0804-rotated-digits/)
+- [2553. Separate the Digits in an Array](../2639-separate-the-digits-in-an-array/)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sequential-digits/)

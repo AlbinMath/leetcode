@@ -1,13 +1,13 @@
-# LeetCode 2265: Count Nodes Equal to Average of Subtree
+# LeetCode 2161: Partition Array According to Given Pivot
 
-**LeetCode Problem #2265 — Count Nodes Equal to Average of Subtree**
-Solve LeetCode Count Nodes Equal to Average of Subtree using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #2161 — Partition Array According to Given Pivot**
+Solve LeetCode Partition Array According to Given Pivot using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Nodes Equal to Average of Subtree |
-| LeetCode | #2265 |
+| Problem | Partition Array According to Given Pivot |
+| LeetCode | #2161 |
 | Difficulty | Medium |
 | Language | Java |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -31,7 +31,7 @@ Three-pass approach: collect elements < pivot, then == pivot, then > pivot, and 
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Nodes Equal to Average of Subtree**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Partition Array According to Given Pivot**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

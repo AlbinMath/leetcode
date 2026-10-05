@@ -1,16 +1,16 @@
-# LeetCode 3961: Maximize Sum of Device Ratings
+# LeetCode 3617: Find Students with Study Spiral Pattern
 
-**LeetCode Problem #3961 — Maximize Sum of Device Ratings**
-Solve LeetCode Maximize Sum of Device Ratings using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #3617 — Find Students with Study Spiral Pattern**
+Solve LeetCode Find Students with Study Spiral Pattern using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximize Sum of Device Ratings |
-| LeetCode | #3961 |
-| Difficulty | Medium |
+| Problem | Find Students with Study Spiral Pattern |
+| LeetCode | #3617 |
+| Difficulty | Hard |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximize Sum of Device Ratings**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Find Students with Study Spiral Pattern**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3767. Maximize Points After Choosing K Tasks](../3767-find-students-who-improved/)
+- [3421. Find Students Who Improved](../3767-find-students-who-improved/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 

@@ -1,14 +1,14 @@
-# LeetCode 2156: Find Substring With Given Hash Value
+# LeetCode 2029: Stone Game IX
 
-**LeetCode Problem #2156 — Find Substring With Given Hash Value**
-Solve LeetCode Find Substring With Given Hash Value using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #2029 — Stone Game IX**
+Solve LeetCode Stone Game IX using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Find Substring With Given Hash Value |
-| LeetCode | #2156 |
-| Difficulty | Hard |
+| Problem | Stone Game IX |
+| LeetCode | #2029 |
+| Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -36,7 +36,7 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Substring With Given Hash Value**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Stone Game IX**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -70,9 +70,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [909. Snakes and Ladders](../0909-stone-game/)
-- [1240. Tiling a Rectangle with the Fewest Squares](../1240-stone-game-ii/)
-- [1522. Diameter of N-Ary Tree](../1522-stone-game-iii/)
+- [877. Stone Game](../0909-stone-game/)
+- [1140. Stone Game II](../1240-stone-game-ii/)
+- [1406. Stone Game III](../1522-stone-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stone-game-ix/)

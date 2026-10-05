@@ -1,16 +1,16 @@
-# LeetCode 3965: Finish Time of Tasks I
+# LeetCode 3633: Earliest Finish Time for Land and Water Rides I
 
-**LeetCode Problem #3965 — Finish Time of Tasks I**
-Solve LeetCode Finish Time of Tasks I using Kotlin and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3633 — Earliest Finish Time for Land and Water Rides I**
+Solve LeetCode Earliest Finish Time for Land and Water Rides I using Kotlin and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Finish Time of Tasks I |
-| LeetCode | #3965 |
-| Difficulty | Medium |
+| Problem | Earliest Finish Time for Land and Water Rides I |
+| LeetCode | #3633 |
+| Difficulty | Easy |
 | Language | Kotlin |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Finish Time of Tasks I**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Earliest Finish Time for Land and Water Rides I**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3967. Finish Time of Tasks II](../3967-earliest-finish-time-for-land-and-water-rides-ii/)
+- [3635. Earliest Finish Time for Land and Water Rides II](../3967-earliest-finish-time-for-land-and-water-rides-ii/)
 - [11. Container With Most Water](../0011-container-with-most-water/)
-- [636. Exclusive Time of Functions](../0636-exclusive-time-of-functions/)
+- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/)

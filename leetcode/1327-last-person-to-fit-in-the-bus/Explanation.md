@@ -1,16 +1,16 @@
-# LeetCode 1327: List the Products Ordered in a Period
+# LeetCode 1204: Last Person to Fit in the Bus
 
-**LeetCode Problem #1327 — List the Products Ordered in a Period**
-Solve LeetCode List the Products Ordered in a Period using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1204 — Last Person to Fit in the Bus**
+Solve LeetCode Last Person to Fit in the Bus using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | List the Products Ordered in a Period |
-| LeetCode | #1327 |
-| Difficulty | Easy |
+| Problem | Last Person to Fit in the Bus |
+| LeetCode | #1204 |
+| Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **List the Products Ordered in a Period**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Last Person to Fit in the Bus**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [607. Sales Person](../0607-sales-person/)
-- [2734. Lexicographically Smallest String After Substring Operation](../2734-array-prototype-last/)
-- [2855. Minimum Right Shifts to Sort the Array](../2855-maximum-number-of-jumps-to-reach-the-last-index/)
+- [2619. Array Prototype Last](../2734-array-prototype-last/)
+- [2770. Maximum Number of Jumps to Reach the Last Index](../2855-maximum-number-of-jumps-to-reach-the-last-index/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)

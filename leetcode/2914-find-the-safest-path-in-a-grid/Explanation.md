@@ -1,13 +1,13 @@
-# LeetCode 2914: Minimum Number of Changes to Make Binary String Beautiful
+# LeetCode 2812: Find the Safest Path in a Grid
 
-**LeetCode Problem #2914 — Minimum Number of Changes to Make Binary String Beautiful**
-Solve LeetCode Minimum Number of Changes to Make Binary String Beautiful using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #2812 — Find the Safest Path in a Grid**
+Solve LeetCode Find the Safest Path in a Grid using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Number of Changes to Make Binary String Beautiful |
-| LeetCode | #2914 |
+| Problem | Find the Safest Path in a Grid |
+| LeetCode | #2812 |
 | Difficulty | Medium |
 | Language | Java |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Number of Changes to Make Binary String Beautiful**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Find the Safest Path in a Grid**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3558. Number of Ways to Assign Edge Weights I](../3558-find-a-safe-walk-through-a-grid/)
-- [3986. Number of Elapsed Seconds Between Two Times](../3986-maximum-path-score-in-a-grid/)
+- [3286. Find a Safe Walk Through a Grid](../3558-find-a-safe-walk-through-a-grid/)
+- [3742. Maximum Path Score in a Grid](../3986-maximum-path-score-in-a-grid/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode

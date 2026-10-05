@@ -1,13 +1,13 @@
-# LeetCode 1487: Making File Names Unique
+# LeetCode 1386: Cinema Seat Allocation
 
-**LeetCode Problem #1487 — Making File Names Unique**
-Solve LeetCode Making File Names Unique using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #1386 — Cinema Seat Allocation**
+Solve LeetCode Cinema Seat Allocation using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Making File Names Unique |
-| LeetCode | #1487 |
+| Problem | Cinema Seat Allocation |
+| LeetCode | #1386 |
 | Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Complement Lookup / Hash Table Frequency |
@@ -41,7 +41,7 @@ Time complexity is $O(R)$ where $R$ is the number of reserved seats, and space c
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Making File Names Unique**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Cinema Seat Allocation**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -76,7 +76,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1. Two Sum](../0001-two-sum/)
 - [13. Roman to Integer](../0013-roman-to-integer/)
-- [14. Longest Common Prefix](../0014-longest-common-prefix/)
+- [192. Word Frequency](../0192-word-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cinema-seat-allocation/)

@@ -6,7 +6,9 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 
 ### Easy
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/Explanation.md) |
 
 ### Medium
 
@@ -14,13 +16,11 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 |---|---|---|---|---|---|
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/0739-daily-temperatures/Explanation.md) |
 
-| 1570 | [Dot Product of Two Sparse Vectors](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/Explanation.md) |
+| 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1159-smallest-subsequence-of-distinct-characters/Explanation.md) |
 
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 84 | [Largest Rectangle in Histogram](../leetcode/0084-largest-rectangle-in-histogram/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/0084-largest-rectangle-in-histogram/Explanation.md) |
-
-| 1159 | [Market Analysis II](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1159-smallest-subsequence-of-distinct-characters/Explanation.md) |
 

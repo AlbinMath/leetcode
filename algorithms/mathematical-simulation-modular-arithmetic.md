@@ -1,26 +1,22 @@
-# Mathematical Simulation / Modular Arithmetic Algorithm Problems
+# Mathematical Simulation & Modular Arithmetic Algorithm Problems
 
-A curated selection of LeetCode problems solved using the **Mathematical Simulation / Modular Arithmetic** algorithmic approach.
+A curated selection of LeetCode problems solved using the **Mathematical Simulation & Modular Arithmetic** algorithmic approach.
 
 ## Problems
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 7 | [Reverse Integer](../leetcode/0007-reverse-integer/) | Medium | Math & Logic | O(n) | O(1) |
 | 48 | [Rotate Image](../leetcode/0048-rotate-image/) | Medium | Math & Logic | O(n²) | O(1) |
-| 396 | [Rotate Function](../leetcode/0396-rotate-function/) | Medium | Math & Logic | O(n) | O(1) |
-| 812 | [Largest Triangle Area](../leetcode/0812-rotate-string/) | Easy | Math & Logic | O(n) | O(1) |
-| 866 | [Prime Palindrome](../leetcode/0866-rectangle-overlap/) | Medium | Math & Logic | O(n) | O(1) |
-| 1212 | [Team Scores in Football Tournament](../leetcode/1212-sequential-digits/) | Medium | Math & Logic | O(n) | O(1) |
-| 1446 | [Consecutive Characters](../leetcode/1446-angle-between-hands-of-a-clock/) | Easy | Math & Logic | O(n) | O(1) |
-| 1501 | [Countries You Can Safely Invest In](../leetcode/1501-circle-and-rectangle-overlapping/) | Medium | Math & Logic | O(n) | O(1) |
-| 2639 | [Find the Width of Columns of a Grid](../leetcode/2639-separate-the-digits-in-an-array/) | Easy | Math & Logic | O(n) | O(1) |
-| 2749 | [Minimum Operations to Make the Integer Zero](../leetcode/2749-promise-time-limit/) | Medium | Math & Logic | O(n) | O(1) |
-| 3606 | [Coupon Code Validator](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | Easy | Math & Logic | O(n) | O(1) |
-| 3635 | [Earliest Finish Time for Land and Water Rides II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Medium | Math & Logic | O(n) | O(1) |
-| 3799 | [Word Squares II](../leetcode/3799-unique-3-digit-even-numbers/) | Medium | Math & Logic | O(n) | O(1) |
-| 3859 | [Count Subarrays With K Distinct Integers](../leetcode/3859-maximum-product-of-two-digits/) | Hard | Math & Logic | O(n) | O(1) |
-| 3869 | [Count Fancy Numbers in a Range](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | Hard | Math & Logic | O(n) | O(1) |
-| 3918 | [Sum of Primes Between Number and Its Reverse](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Medium | Math & Logic | O(n) | O(1) |
-| 4135 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | Math & Logic | O(n) | O(1) |
-| 4136 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | Math & Logic | O(n) | O(1) |
+| 796 | [Rotate String](../leetcode/0812-rotate-string/) | Easy | Math & Logic | O(n) | O(1) |
+| 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Easy | Math & Logic | O(n) | O(1) |
+| 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | Medium | Math & Logic | O(n) | O(1) |
+| 1344 | [Angle Between Hands of a Clock](../leetcode/1446-angle-between-hands-of-a-clock/) | Medium | Math & Logic | O(n) | O(1) |
+| 1401 | [Circle and Rectangle Overlapping](../leetcode/1501-circle-and-rectangle-overlapping/) | Medium | Math & Logic | O(n) | O(1) |
+| 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | Easy | Math & Logic | O(n) | O(1) |
+| 2637 | [Promise Time Limit](../leetcode/2749-promise-time-limit/) | Medium | Math & Logic | O(n) | O(1) |
+| 3300 | [Minimum Element After Replacement With Digit Sum](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | Easy | Math & Logic | O(n) | O(1) |
+| 3348 | [Smallest Divisible Digit Product II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Hard | Math & Logic | O(n) | O(1) |
+| 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Easy | Math & Logic | O(n) | O(1) |
+| 3536 | [Maximum Product of Two Digits](../leetcode/3859-maximum-product-of-two-digits/) | Easy | Math & Logic | O(n) | O(1) |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | Easy | Math & Logic | O(n) | O(1) |
+| 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Easy | Math & Logic | O(n) | O(1) |

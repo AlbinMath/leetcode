@@ -1,7 +1,7 @@
 # LeetCode 12: Integer to Roman
 
 **LeetCode Problem #12 — Integer to Roman**
-Solve LeetCode Integer to Roman using JavaScript and Heap. This solution finds the optimal result using Priority Queue Selection in O(n) time.
+Solve LeetCode Integer to Roman using JavaScript and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,8 +10,8 @@ Solve LeetCode Integer to Roman using JavaScript and Heap. This solution finds t
 | LeetCode | #12 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Priority Queue Selection |
-| Data Structure | Min/Max Heap |
+| Algorithm | Min/Max Heap Priority Selection |
+| Data Structure | Heap / Priority Queue |
 | Pattern | Heap |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
@@ -20,7 +20,7 @@ Solve LeetCode Integer to Roman using JavaScript and Heap. This solution finds t
 Seven different symbols represent Roman numerals with the following values:
 
 ## Key Insight
-Leverage **Heap** with **Min/Max Heap** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a greedy approach to convert the integer by repeatedly subtracting the largest possible Roman numeral values.
@@ -36,12 +36,12 @@ The code uses a greedy approach to convert the integer by repeatedly subtracting
 The time complexity is $O(1)$ because the number of values is fixed (13 symbols) and the `while` loop will run at most a constant number of times (since the maximum input is 3999). The space complexity is also $O(1)$ since the arrays are of fixed size.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Min/Max Heap**).
-2. Process elements sequentially using **Priority Queue Selection**.
+1. Initialize state variables / data structure (**Heap / Priority Queue**).
+2. Process elements sequentially using **Min/Max Heap Priority Selection**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Integer to Roman**. Applying **Priority Queue Selection** yields the target result step by step.
+Consider the standard input for **Integer to Roman**. Applying **Min/Max Heap Priority Selection** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -76,7 +76,7 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [13. Roman to Integer](../0013-roman-to-integer/)
 - [7. Reverse Integer](../0007-reverse-integer/)
-- [3236. CEO Subordinate Hierarchy](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/integer-to-roman/)

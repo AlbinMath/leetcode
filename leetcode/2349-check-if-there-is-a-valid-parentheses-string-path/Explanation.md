@@ -1,14 +1,14 @@
-# LeetCode 2349: Design a Number Container System
+# LeetCode 2267:  Check if There Is a Valid Parentheses String Path
 
-**LeetCode Problem #2349 — Design a Number Container System**
-Solve LeetCode Design a Number Container System using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+**LeetCode Problem #2267 —  Check if There Is a Valid Parentheses String Path**
+Solve LeetCode  Check if There Is a Valid Parentheses String Path using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Design a Number Container System |
-| LeetCode | #2349 |
-| Difficulty | Medium |
+| Problem |  Check if There Is a Valid Parentheses String Path |
+| LeetCode | #2267 |
+| Difficulty | Hard |
 | Language | C++ |
 | Algorithm | Stack Push / Pop Parsing |
 | Data Structure | Stack |
@@ -31,7 +31,7 @@ Uses **DP with state tracking**. At each cell, track the set of possible open-pa
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Design a Number Container System**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+Consider the standard input for ** Check if There Is a Valid Parentheses String Path**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,8 +64,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [20. Valid Parentheses](../0020-valid-parentheses/)
-- [1208. Get Equal Substrings Within Budget](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [1878. Get Biggest Three Rhombus Sums in a Grid](../1878-check-if-array-is-sorted-and-rotated/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [1752. Check if Array Is Sorted and Rotated](../1878-check-if-array-is-sorted-and-rotated/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/)

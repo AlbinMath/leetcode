@@ -4,11 +4,10 @@ import json
 import urllib.request
 
 # ---------------------------------------------------------
-# 1. Fetch official LeetCode metadata (Difficulty, Title, Slug)
+# 1. Fetch official LeetCode metadata (Difficulty, Title, Slug, Frontend ID)
 # ---------------------------------------------------------
 def fetch_leetcode_metadata():
-    lc_map_id = {}
-    lc_map_slug = {}
+    lc_slug_map = {}
     url = 'https://leetcode.com/api/problems/all/'
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
@@ -27,11 +26,10 @@ def fetch_leetcode_metadata():
                     'slug': slug,
                     'difficulty': diff_str
                 }
-                lc_map_id[frontend_id] = info
-                lc_map_slug[slug] = info
+                lc_slug_map[slug] = info
     except Exception as e:
         print(f"Warning: Could not fetch online LeetCode data: {e}")
-    return lc_map_id, lc_map_slug
+    return lc_slug_map
 
 # ---------------------------------------------------------
 # 2. File extension to Language mapping
@@ -61,11 +59,11 @@ LANG_MAP = {
 }
 
 # ---------------------------------------------------------
-# 3. Categorization logic for Pattern, Algorithm, Data Structure
+# 3. Precise Categorization for Pattern, Algorithm, Data Structure
 # ---------------------------------------------------------
-def classify_problem(num, title, slug, content, sol_exts):
+def classify_problem(slug, content, sol_exts):
     pattern = 'Array / General'
-    algorithm = 'Iterative Traversal'
+    algorithm = 'In-Place Array Traversal & Index Mapping'
     ds = 'Array'
     topics = ['Array']
     
@@ -74,29 +72,29 @@ def classify_problem(num, title, slug, content, sol_exts):
 
     if '.sql' in sol_exts:
         pattern = 'Database / SQL'
-        algorithm = 'SQL Query / Relational Join & Grouping'
+        algorithm = 'SQL Query / Relational Join & Window Function'
         ds = 'Relational Table'
         topics = ['Database', 'SQL', 'Data Aggregation']
 
     elif 'trie' in slug_lower or 'prefix tree' in content_lower:
         pattern = 'Trie'
-        algorithm = 'Prefix Tree Traversal'
-        ds = 'Trie'
+        algorithm = 'Prefix Tree Lookup'
+        ds = 'Trie Node'
         topics = ['Trie', 'String', 'Prefix Search']
 
     elif 'heap' in slug_lower or 'priority queue' in content_lower or 'priority_queue' in content_lower:
         pattern = 'Heap'
-        algorithm = 'Priority Queue Selection'
-        ds = 'Min/Max Heap'
+        algorithm = 'Min/Max Heap Priority Selection'
+        ds = 'Heap / Priority Queue'
         topics = ['Heap', 'Priority Queue', 'Sorting']
 
     elif 'backtrack' in content_lower or 'permutation' in slug_lower or 'combination' in slug_lower:
         pattern = 'Backtracking'
-        algorithm = 'Backtracking Search'
-        ds = 'Recursion Tree / Array'
+        algorithm = 'Backtracking Recursive Search'
+        ds = 'Recursion Tree'
         topics = ['Backtracking', 'Recursion']
 
-    elif 'prefix sum' in content_lower:
+    elif 'prefix sum' in content_lower or 'prefix' in slug_lower:
         pattern = 'Prefix Sum'
         algorithm = 'Prefix Sum Precomputation'
         ds = 'Prefix Array'
@@ -105,7 +103,7 @@ def classify_problem(num, title, slug, content, sol_exts):
     elif ('fast' in content_lower and 'slow' in content_lower) or 'cycle' in slug_lower:
         pattern = 'Fast & Slow Pointers'
         algorithm = 'Floyd Cycle Detection'
-        ds = 'Linked List / Array'
+        ds = 'Linked List / Pointer'
         topics = ['Two Pointers', 'Cycle Detection']
 
     elif 'binary search' in content_lower or 'rotated' in slug_lower or 'search space' in content_lower or 'log n' in content_lower or 'log(n)' in content_lower:
@@ -122,7 +120,7 @@ def classify_problem(num, title, slug, content, sol_exts):
 
     elif 'two pointer' in content_lower or 'two sum' in slug_lower or '3sum' in slug_lower or '4sum' in slug_lower or 'container with' in slug_lower or 'palindrome' in slug_lower:
         pattern = 'Two Pointers'
-        algorithm = 'Two Pointer Convergence / Scanning'
+        algorithm = 'Two Pointer Convergence & Scanning'
         ds = 'Array'
         topics = ['Two Pointers', 'Array', 'Sorting']
 
@@ -146,13 +144,13 @@ def classify_problem(num, title, slug, content, sol_exts):
 
     elif 'dp' in content_lower or 'dynamic programming' in content_lower or 'stone game' in slug_lower or 'jump game' in slug_lower or 'subsequence' in slug_lower or 'predict the winner' in slug_lower:
         pattern = 'Dynamic Programming'
-        algorithm = 'Memoization / Bottom-Up State Transition'
+        algorithm = 'Memoization & State Transition'
         ds = 'DP Table / Array'
         topics = ['Dynamic Programming', 'Memoization', 'State Transition']
 
     elif 'greedy' in content_lower or 'interval' in slug_lower or 'ice cream' in slug_lower or 'energy' in slug_lower:
         pattern = 'Greedy'
-        algorithm = 'Greedy Choice Property'
+        algorithm = 'Greedy Choice Strategy'
         ds = 'Array / Priority Queue'
         topics = ['Greedy', 'Sorting']
 
@@ -168,10 +166,16 @@ def classify_problem(num, title, slug, content, sol_exts):
         ds = 'Tree / Graph / Grid'
         topics = ['Tree', 'Graph', 'DFS', 'BFS']
 
+    elif 'bit' in content_lower or 'xor' in slug_lower or 'binary' in slug_lower:
+        pattern = 'Bit Manipulation'
+        algorithm = 'Bitwise Masking & Bit Shift'
+        ds = 'Integer Bitmask'
+        topics = ['Bit Manipulation', 'Bitwise Math']
+
     elif 'roman' in slug_lower or 'math' in content_lower or 'digit' in slug_lower or 'rotate' in slug_lower or 'angle' in slug_lower or 'circle' in slug_lower:
         pattern = 'Math & Logic'
-        algorithm = 'Mathematical Simulation / Modular Arithmetic'
-        ds = 'Primitive Data Types'
+        algorithm = 'Mathematical Simulation & Modular Arithmetic'
+        ds = 'Primitive Types'
         topics = ['Math', 'Simulation']
 
     return pattern, algorithm, ds, topics
@@ -255,22 +259,27 @@ def get_pattern_insights(pattern, title, ds, algorithm):
     return insight, mistakes, interview
 
 # ---------------------------------------------------------
-# 7. Process Problem Folder
+# 7. Process Problem Folder with 100% Accurate Metadata Mapping
 # ---------------------------------------------------------
-def process_problem(folder_name, lc_map_id, lc_map_slug):
+def process_problem(folder_name, lc_slug_map):
     m = re.match(r'(\d+)-(.*)', folder_name)
     if not m:
         return None
-    num_str, slug = m.group(1), m.group(2)
-    num = int(num_str)
+    folder_num, raw_slug = int(m.group(1)), m.group(2)
+    clean_slug = raw_slug.strip('-')
 
-    lc_info = lc_map_id.get(num) or lc_map_slug.get(slug)
+    # Match strictly by slug from official LeetCode metadata map to guarantee 100% accuracy
+    lc_info = lc_slug_map.get(clean_slug) or lc_slug_map.get(raw_slug)
     if lc_info:
+        num = lc_info['id']
         title = lc_info['title']
         difficulty = lc_info['difficulty']
+        slug = lc_info['slug']
     else:
-        title = ' '.join(w.capitalize() for w in slug.split('-'))
+        num = folder_num
+        title = ' '.join(w.capitalize() for w in clean_slug.split('-'))
         difficulty = 'Medium'
+        slug = clean_slug
 
     path = os.path.join('leetcode', folder_name)
 
@@ -293,7 +302,7 @@ def process_problem(folder_name, lc_map_id, lc_map_slug):
             readme_text = f.read()
 
     combined_content = expl_text + '\n' + readme_text
-    pattern, algorithm, ds, topics = classify_problem(num, title, slug, combined_content, sol_exts)
+    pattern, algorithm, ds, topics = classify_problem(slug, combined_content, sol_exts)
     time_comp, space_comp = deduce_complexity(pattern, combined_content)
     problem_brief = extract_clean_brief(readme_text, title)
     key_insight, common_mistakes, interview_notes = get_pattern_insights(pattern, title, ds, algorithm)
@@ -312,7 +321,6 @@ def process_problem(folder_name, lc_map_id, lc_map_slug):
 
     return {
         'id': num,
-        'num_str': num_str,
         'title': title,
         'slug': slug,
         'difficulty': difficulty,
@@ -342,17 +350,18 @@ def process_problem(folder_name, lc_map_id, lc_map_slug):
 # 8. Main Orchestrator & Index Generator
 # ---------------------------------------------------------
 def main():
-    lc_map_id, lc_map_slug = fetch_leetcode_metadata()
+    lc_slug_map = fetch_leetcode_metadata()
 
     leetcode_dir = 'leetcode'
     folders = sorted([f for f in os.listdir(leetcode_dir) if os.path.isdir(os.path.join(leetcode_dir, f))])
 
     problems = []
     for f in folders:
-        p_info = process_problem(f, lc_map_id, lc_map_slug)
+        p_info = process_problem(f, lc_slug_map)
         if p_info:
             problems.append(p_info)
 
+    # Sort problems by official frontend Question ID
     problems.sort(key=lambda x: x['id'])
 
     # Fill related problems and write standardized Explanation.md for all problems
@@ -468,7 +477,7 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
     # 9. Generate All Hub Pages
     # ---------------------------------------------------------
     
-    # 9a. Patterns Hubs (Grouped by Difficulty: Easy, Medium, Hard)
+    # 9a. Patterns Hubs
     patterns_map = {}
     for p in problems:
         patterns_map.setdefault(p['pattern'], []).append(p)
@@ -491,7 +500,8 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
         'Prefix Sum': 'prefix-sum.md',
         'Fast & Slow Pointers': 'fast-slow-pointers.md',
         'Heap': 'heap.md',
-        'Trie': 'trie.md'
+        'Trie': 'trie.md',
+        'Bit Manipulation': 'bit-manipulation.md'
     }
 
     for pat, filename in pattern_file_names.items():
@@ -686,50 +696,54 @@ Continuously updated as new LeetCode problems are solved.
     print("Generated README.md")
 
     # ---------------------------------------------------------
-    # 11. Generate All_Problems.md
+    # 11. Generate All_Problems.md (Exact Requested User Format)
     # ---------------------------------------------------------
     easy_cnt = len([p for p in problems if p['difficulty'] == 'Easy'])
     med_cnt = len([p for p in problems if p['difficulty'] == 'Medium'])
     hard_cnt = len([p for p in problems if p['difficulty'] == 'Hard'])
 
-    all_content = f"""# All Solved LeetCode Problems Directory
+    all_content = f"""# LeetCode Solutions — Complete Problem Directory
 
-Below is the complete, searchable catalog of all **{len(problems)}** LeetCode problems solved in this repository. Each entry contains difficulty metrics, algorithmic patterns, language tags, asymptotic time/space complexities, and direct links to source code and comprehensive explanations.
+A continuously updated collection of **LeetCode solutions, DSA problems, algorithms, data structures, coding interview questions, and programming solutions**.
 
----
+Each problem includes its **problem number, title, difficulty, algorithmic pattern, programming language, time complexity, space complexity, source code, and explanation**.
 
-## Quick Navigation & Overview
+## Quick Navigation
 
 ### Statistics
-- **Total Solved:** {len(problems)} Problems
-- **Difficulty Breakdown:** 🟢 Easy ({easy_cnt}) | 🟡 Medium ({med_cnt}) | 🔴 Hard ({hard_cnt})
 
-### Filter by Difficulty
-- [🟢 Easy Problems ({easy_cnt})](difficulty/easy.md)
-- [🟡 Medium Problems ({med_cnt})](difficulty/medium.md)
-- [🔴 Hard Problems ({hard_cnt})](difficulty/hard.md)
+- **Total Solved:** {len(problems)}+
+- **Easy:** {easy_cnt}+
+- **Medium:** {med_cnt}+
+- **Hard:** {hard_cnt}+
 
-### Filter by Top Algorithmic Patterns
-- [Hash Map](patterns/hash-map.md)
+### Browse by Difficulty
+
+- [Easy Problems](difficulty/easy.md)
+- [Medium Problems](difficulty/medium.md)
+- [Hard Problems](difficulty/hard.md)
+
+### Browse by Algorithm
+
 - [Binary Search](patterns/binary-search.md)
-- [Two Pointers](patterns/two-pointers.md)
 - [Sliding Window](patterns/sliding-window.md)
+- [Two Pointers](patterns/two-pointers.md)
+- [Hash Map](patterns/hash-map.md)
 - [Dynamic Programming](patterns/dynamic-programming.md)
+- [Greedy](patterns/greedy.md)
 - [Monotonic Stack](patterns/monotonic-stack.md)
-- [Database / SQL](patterns/sql-database.md)
-- [Tree & Graph](patterns/tree-graph.md)
+- [Backtracking](patterns/backtracking.md)
+- [Graph & Tree](patterns/tree-graph.md)
+- [SQL / Database](patterns/sql-database.md)
+- [Math & Logic](patterns/math-logic.md)
 
----
+## Complete Problem Directory
 
-## Master Searchable Problem Table
-
-| # | Problem Name | Difficulty | Pattern | Language | Algorithm | Time | Space | Solution | Explanation |
+| # | Problem | Difficulty | Pattern | Language | Algorithm | Time | Space | Code | Explanation |
 |---|---|---|---|---|---|---|---|---|---|
 """
     for p in problems:
-        code_link = f"[Code]({p['path']}/{p['folder']})" if not p.get('source_links') else p['source_links'].split('\n')[0].replace('./', f"{p['path']}/")
-        code_md_link = f"[Solution Code]({p['path']}/)"
-        all_content += f"| {p['id']} | [{p['title']}]({p['path']}/) | {p['difficulty']} | [{p['pattern']}](patterns/{pattern_file_names.get(p['pattern'], 'array-general.md')}) | {p['lang_str']} | {p['algorithm']} | {p['time']} | {p['space']} | {code_md_link} | [Explanation]({p['path']}/Explanation.md) |\n"
+        all_content += f"| {p['id']} | [{p['title']}]({p['path']}/) | {p['difficulty']} | [{p['pattern']}](patterns/{pattern_file_names.get(p['pattern'], 'array-general.md')}) | {p['lang_str']} | {p['algorithm']} | {p['time']} | {p['space']} | [Code]({p['path']}/) | [Explanation]({p['path']}/Explanation.md) |\n"
 
     with open('All_Problems.md', 'w', encoding='utf-8') as f:
         f.write(all_content)

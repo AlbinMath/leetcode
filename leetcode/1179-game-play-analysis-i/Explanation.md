@@ -1,16 +1,16 @@
-# LeetCode 1179: Reformat Department Table
+# LeetCode 511: Game Play Analysis I
 
-**LeetCode Problem #1179 — Reformat Department Table**
-Solve LeetCode Reformat Department Table using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #511 — Game Play Analysis I**
+Solve LeetCode Game Play Analysis I using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Reformat Department Table |
-| LeetCode | #1179 |
+| Problem | Game Play Analysis I |
+| LeetCode | #511 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Reformat Department Table**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Game Play Analysis I**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1182. Shortest Distance to Target Color](../1182-game-play-analysis-iv/)
-- [1153. String Transforms Into Another String](../1153-product-sales-analysis-i/)
-- [1268. Search Suggestions System](../1268-market-analysis-i/)
+- [550. Game Play Analysis IV](../1182-game-play-analysis-iv/)
+- [1068. Product Sales Analysis I](../1153-product-sales-analysis-i/)
+- [1158. Market Analysis I](../1268-market-analysis-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/game-play-analysis-i/)

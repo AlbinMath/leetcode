@@ -1,14 +1,14 @@
-# LeetCode 2002: Maximum Product of the Length of Two Palindromic Subsequences
+# LeetCode 1872: Stone Game VIII
 
-**LeetCode Problem #2002 — Maximum Product of the Length of Two Palindromic Subsequences**
-Solve LeetCode Maximum Product of the Length of Two Palindromic Subsequences using Java and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
+**LeetCode Problem #1872 — Stone Game VIII**
+Solve LeetCode Stone Game VIII using Java and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Product of the Length of Two Palindromic Subsequences |
-| LeetCode | #2002 |
-| Difficulty | Medium |
+| Problem | Stone Game VIII |
+| LeetCode | #1872 |
+| Difficulty | Hard |
 | Language | Java |
 | Algorithm | Prefix Sum Precomputation |
 | Data Structure | Prefix Array |
@@ -33,7 +33,7 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Product of the Length of Two Palindromic Subsequences**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+Consider the standard input for **Stone Game VIII**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [909. Snakes and Ladders](../0909-stone-game/)
-- [1240. Tiling a Rectangle with the Fewest Squares](../1240-stone-game-ii/)
-- [1522. Diameter of N-Ary Tree](../1522-stone-game-iii/)
+- [877. Stone Game](../0909-stone-game/)
+- [1140. Stone Game II](../1240-stone-game-ii/)
+- [1406. Stone Game III](../1522-stone-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stone-game-viii/)

@@ -1,16 +1,16 @@
-# LeetCode 3062: Winner of the Linked List Game
+# LeetCode 2877: Create a DataFrame from List
 
-**LeetCode Problem #3062 — Winner of the Linked List Game**
-Solve LeetCode Winner of the Linked List Game using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+**LeetCode Problem #2877 — Create a DataFrame from List**
+Solve LeetCode Create a DataFrame from List using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Winner of the Linked List Game |
-| LeetCode | #3062 |
+| Problem | Create a DataFrame from List |
+| LeetCode | #2877 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Winner of the Linked List Game**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Create a DataFrame from List**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,7 +65,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [2306. Naming a Company](../2306-create-binary-tree-from-descriptions/)
+- [2196. Create Binary Tree From Descriptions](../2306-create-binary-tree-from-descriptions/)
 - [61. Rotate List](../0061-rotate-list/)
 
 ## LeetCode

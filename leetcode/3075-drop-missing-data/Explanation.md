@@ -1,18 +1,18 @@
-# LeetCode 3075: Maximize Happiness of Selected Children
+# LeetCode 2883: Drop Missing Data
 
-**LeetCode Problem #3075 — Maximize Happiness of Selected Children**
-Solve LeetCode Maximize Happiness of Selected Children using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2883 — Drop Missing Data**
+Solve LeetCode Drop Missing Data using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximize Happiness of Selected Children |
-| LeetCode | #3075 |
-| Difficulty | Medium |
+| Problem | Drop Missing Data |
+| LeetCode | #2883 |
+| Difficulty | Easy |
 | Language | Python |
-| Algorithm | Iterative Traversal |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Maximize Happiness of Selected Children using Python and Array / 
 There are some rows having missing values in the  name  column.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximize Happiness of Selected Children**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Drop Missing Data**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 Python
@@ -50,7 +51,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3070. Count Submatrices with Top-Left Element and Sum Less Than k](../3070-fill-missing-data/)
-- [2110. Number of Smooth Descent Periods of a Stock](../2110-employees-with-missing-information/)
-- [3064. Guess the Number Using Bitwise Questions I](../3064-reshape-data-concatenate/)
+- [2887. Fill Missing Data](../3070-fill-missing-data/)
+- [1965. Employees With Missing Information](../2110-employees-with-missing-information/)
+- [2880. Select Data](../3074-select-data/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/drop-missing-data/)

@@ -1,14 +1,14 @@
-# LeetCode 3219: Minimum Cost for Cutting Cake II
+# LeetCode 2948: Make Lexicographically Smallest Array by Swapping Elements
 
-**LeetCode Problem #3219 — Minimum Cost for Cutting Cake II**
-Solve LeetCode Minimum Cost for Cutting Cake II using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #2948 — Make Lexicographically Smallest Array by Swapping Elements**
+Solve LeetCode Make Lexicographically Smallest Array by Swapping Elements using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Cost for Cutting Cake II |
-| LeetCode | #3219 |
-| Difficulty | Hard |
+| Problem | Make Lexicographically Smallest Array by Swapping Elements |
+| LeetCode | #2948 |
+| Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Cost for Cutting Cake II**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Make Lexicographically Smallest Array by Swapping Elements**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1574. Shortest Subarray to be Removed to Make Array Sorted](../1574-maximum-product-of-two-elements-in-an-array/)
-- [1793. Maximum Score of a Good Subarray](../1793-minimum-moves-to-make-array-complementary/)
-- [2746. Decremental String Concatenation](../2746-filter-elements-from-array/)
+- [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
+- [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
+- [2634. Filter Elements from Array](../2746-filter-elements-from-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/)

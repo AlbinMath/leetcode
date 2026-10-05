@@ -1,16 +1,16 @@
-# LeetCode 2805: Custom Interval
+# LeetCode 2695: Array Wrapper
 
-**LeetCode Problem #2805 — Custom Interval**
-Solve LeetCode Custom Interval using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2695 — Array Wrapper**
+Solve LeetCode Array Wrapper using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Custom Interval |
-| LeetCode | #2805 |
-| Difficulty | Medium |
+| Problem | Array Wrapper |
+| LeetCode | #2695 |
+| Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Override `valueOf()` to return the sum of the internal array (used by `+` operat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Custom Interval**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Array Wrapper**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

@@ -1,16 +1,16 @@
-# LeetCode 4080: Smallest Missing Multiple of K
+# LeetCode 3718: Smallest Missing Multiple of K
 
-**LeetCode Problem #4080 — Smallest Missing Multiple of K**
-Solve LeetCode Smallest Missing Multiple of K using C# and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3718 — Smallest Missing Multiple of K**
+Solve LeetCode Smallest Missing Multiple of K using C# and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Smallest Missing Multiple of K |
-| LeetCode | #4080 |
+| LeetCode | #3718 |
 | Difficulty | Easy |
 | Language | C# |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -35,11 +35,11 @@ This approach is highly efficient. Converting the array to a HashSet takes $O(N)
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Smallest Missing Multiple of K**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Smallest Missing Multiple of K**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -70,9 +70,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3236. CEO Subordinate Hierarchy](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
-- [1159. Market Analysis II](../1159-smallest-subsequence-of-distinct-characters/)
-- [1725. Number Of Rectangles That Can Form The Largest Square](../1725-number-of-sets-of-k-non-overlapping-line-segments/)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
+- [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
+- [1621. Number of Sets of K Non-Overlapping Line Segments](../1725-number-of-sets-of-k-non-overlapping-line-segments/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-missing-multiple-of-k/)

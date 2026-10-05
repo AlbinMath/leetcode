@@ -1,16 +1,16 @@
-# LeetCode 1452: People Whose List of Favorite Companies Is Not a Subset of Another List
+# LeetCode 1321: Restaurant Growth
 
-**LeetCode Problem #1452 — People Whose List of Favorite Companies Is Not a Subset of Another List**
-Solve LeetCode People Whose List of Favorite Companies Is Not a Subset of Another List using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1321 — Restaurant Growth**
+Solve LeetCode Restaurant Growth using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | People Whose List of Favorite Companies Is Not a Subset of Another List |
-| LeetCode | #1452 |
+| Problem | Restaurant Growth |
+| LeetCode | #1321 |
 | Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **People Whose List of Favorite Companies Is Not a Subset of Another List**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Restaurant Growth**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

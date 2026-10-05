@@ -1,13 +1,13 @@
-# LeetCode 4256: Construct Uniform Parity Array I
+# LeetCode 3875: Construct Uniform Parity Array I
 
-**LeetCode Problem #4256 — Construct Uniform Parity Array I**
+**LeetCode Problem #3875 — Construct Uniform Parity Array I**
 Solve LeetCode Construct Uniform Parity Array I using C++ and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Construct Uniform Parity Array I |
-| LeetCode | #4256 |
+| LeetCode | #3875 |
 | Difficulty | Easy |
 | Language | C++ |
 | Algorithm | Modified Binary Search |
@@ -64,8 +64,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [4258. Construct Uniform Parity Array II](../4258-construct-uniform-parity-array-ii/)
-- [3831. Median of a Binary Search Tree Level](../3831-find-x-value-of-array-i/)
+- [3876. Construct Uniform Parity Array II](../4258-construct-uniform-parity-array-ii/)
+- [3524. Find X Value of Array I](../3831-find-x-value-of-array-i/)
 - [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
 
 ## LeetCode

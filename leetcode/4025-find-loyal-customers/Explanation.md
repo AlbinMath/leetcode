@@ -1,16 +1,16 @@
-# LeetCode 4025: Minimize the Maximum Waiting Time at Synchronized Traffic Lights
+# LeetCode 3657: Find Loyal Customers
 
-**LeetCode Problem #4025 — Minimize the Maximum Waiting Time at Synchronized Traffic Lights**
-Solve LeetCode Minimize the Maximum Waiting Time at Synchronized Traffic Lights using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #3657 — Find Loyal Customers**
+Solve LeetCode Find Loyal Customers using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimize the Maximum Waiting Time at Synchronized Traffic Lights |
-| LeetCode | #4025 |
+| Problem | Find Loyal Customers |
+| LeetCode | #3657 |
 | Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimize the Maximum Waiting Time at Synchronized Traffic Lights**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Find Loyal Customers**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,8 +64,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4091. Find Golden Hour Customers](../4091-find-golden-hour-customers/)
-- [4103. Find Churn Risk Customers](../4103-find-churn-risk-customers/)
+- [3705. Find Golden Hour Customers](../4091-find-golden-hour-customers/)
+- [3716. Find Churn Risk Customers](../4103-find-churn-risk-customers/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode

@@ -1,17 +1,17 @@
-# LeetCode 3799: Word Squares II
+# LeetCode 3483: Unique 3-Digit Even Numbers
 
-**LeetCode Problem #3799 — Word Squares II**
-Solve LeetCode Word Squares II using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+**LeetCode Problem #3483 — Unique 3-Digit Even Numbers**
+Solve LeetCode Unique 3-Digit Even Numbers using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Word Squares II |
-| LeetCode | #3799 |
-| Difficulty | Medium |
+| Problem | Unique 3-Digit Even Numbers |
+| LeetCode | #3483 |
+| Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
 | Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,18 +20,18 @@ Solve LeetCode Word Squares II using JavaScript and Math & Logic. This solution 
 You are given an array of digits called  digits . Your task is to determine the number of  distinct  three-digit even numbers that can be formed using these digits.
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Mathematical Simulation / Modular Arithmetic**. By maintaining state efficiently in a **Primitive Data Types**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Word Squares II**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Unique 3-Digit Even Numbers**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

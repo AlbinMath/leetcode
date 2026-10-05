@@ -1,14 +1,14 @@
-# LeetCode 3842: Toggle Light Bulbs
+# LeetCode 3559: Number of Ways to Assign Edge Weights II
 
-**LeetCode Problem #3842 — Toggle Light Bulbs**
-Solve LeetCode Toggle Light Bulbs using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3559 — Number of Ways to Assign Edge Weights II**
+Solve LeetCode Number of Ways to Assign Edge Weights II using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Toggle Light Bulbs |
-| LeetCode | #3842 |
-| Difficulty | Easy |
+| Problem | Number of Ways to Assign Edge Weights II |
+| LeetCode | #3559 |
+| Difficulty | Hard |
 | Language | Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Toggle Light Bulbs**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Number of Ways to Assign Edge Weights II**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3844. Longest Almost-Palindromic Substring](../3844-number-of-ways-to-assign-edge-weights-i/)
-- [3276. Select Cells in Grid With Maximum Score](../3276-minimum-number-of-pushes-to-type-word-ii/)
-- [3820. Pythagorean Distance Nodes in a Tree](../3820-number-of-unique-xor-triplets-ii/)
+- [3558. Number of Ways to Assign Edge Weights I](../3844-number-of-ways-to-assign-edge-weights-i/)
+- [3016. Minimum Number of Pushes to Type Word II](../3276-minimum-number-of-pushes-to-type-word-ii/)
+- [3514. Number of Unique XOR Triplets II](../3820-number-of-unique-xor-triplets-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/)

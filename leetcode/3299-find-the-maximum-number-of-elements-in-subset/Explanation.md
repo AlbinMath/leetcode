@@ -1,16 +1,16 @@
-# LeetCode 3299: Sum of Consecutive Subsequences
+# LeetCode 3020: Find the Maximum Number of Elements in Subset
 
-**LeetCode Problem #3299 — Sum of Consecutive Subsequences**
-Solve LeetCode Sum of Consecutive Subsequences using Java and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3020 — Find the Maximum Number of Elements in Subset**
+Solve LeetCode Find the Maximum Number of Elements in Subset using Java and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Sum of Consecutive Subsequences |
-| LeetCode | #3299 |
-| Difficulty | Hard |
+| Problem | Find the Maximum Number of Elements in Subset |
+| LeetCode | #3020 |
+| Difficulty | Medium |
 | Language | Java |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Sum of Consecutive Subsequences**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find the Maximum Number of Elements in Subset**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2182. Construct String With Repeat Limit](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [1297. Maximum Number of Occurrences of a Substring](../1297-maximum-number-of-balloons/)
-- [1574. Shortest Subarray to be Removed to Make Array Sorted](../1574-maximum-product-of-two-elements-in-an-array/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
+- [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/)

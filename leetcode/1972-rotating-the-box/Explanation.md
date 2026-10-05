@@ -1,16 +1,16 @@
-# LeetCode 1972: First and Last Call On the Same Day
+# LeetCode 1861: Rotating the Box
 
-**LeetCode Problem #1972 — First and Last Call On the Same Day**
-Solve LeetCode First and Last Call On the Same Day using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #1861 — Rotating the Box**
+Solve LeetCode Rotating the Box using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | First and Last Call On the Same Day |
-| LeetCode | #1972 |
-| Difficulty | Hard |
+| Problem | Rotating the Box |
+| LeetCode | #1861 |
+| Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -30,11 +30,11 @@ Time complexity is $O(M \times N)$ and space complexity is $O(M \times N)$.
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **First and Last Call On the Same Day**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Rotating the Box**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2043. Simple Bank System](../2043-cyclically-rotating-a-grid/)
+- [1914. Cyclically Rotating a Grid](../2043-cyclically-rotating-a-grid/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 - [6. Zigzag Conversion](../0006-zigzag-conversion/)
 

@@ -1,14 +1,14 @@
-# LeetCode 2809: Minimum Time to Make Array Sum At Most x
+# LeetCode 2667: Create Hello World Function
 
-**LeetCode Problem #2809 — Minimum Time to Make Array Sum At Most x**
-Solve LeetCode Minimum Time to Make Array Sum At Most x using TypeScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #2667 — Create Hello World Function**
+Solve LeetCode Create Hello World Function using TypeScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Time to Make Array Sum At Most x |
-| LeetCode | #2809 |
-| Difficulty | Hard |
+| Problem | Create Hello World Function |
+| LeetCode | #2667 |
+| Difficulty | Easy |
 | Language | TypeScript |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficie
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Time to Make Array Sum At Most x**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Create Hello World Function**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [396. Rotate Function](../0396-rotate-function/)
-- [2306. Naming a Company](../2306-create-binary-tree-from-descriptions/)
-- [2741. Special Permutations](../2741-function-composition/)
+- [2196. Create Binary Tree From Descriptions](../2306-create-binary-tree-from-descriptions/)
+- [2629. Function Composition](../2741-function-composition/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-hello-world-function/)

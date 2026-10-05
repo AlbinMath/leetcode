@@ -1,16 +1,16 @@
-# LeetCode 3971: Maximum Total Value
+# LeetCode 3626: Find Stores with Inventory Imbalance
 
-**LeetCode Problem #3971 — Maximum Total Value**
-Solve LeetCode Maximum Total Value using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #3626 — Find Stores with Inventory Imbalance**
+Solve LeetCode Find Stores with Inventory Imbalance using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Total Value |
-| LeetCode | #3971 |
-| Difficulty | Hard |
+| Problem | Find Stores with Inventory Imbalance |
+| LeetCode | #3626 |
+| Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Total Value**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Find Stores with Inventory Imbalance**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

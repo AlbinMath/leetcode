@@ -1,16 +1,16 @@
-# LeetCode 1216: Valid Palindrome III
+# LeetCode 1116: Print Zero Even Odd
 
-**LeetCode Problem #1216 — Valid Palindrome III**
-Solve LeetCode Valid Palindrome III using Java and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #1116 — Print Zero Even Odd**
+Solve LeetCode Print Zero Even Odd using Java and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Valid Palindrome III |
-| LeetCode | #1216 |
-| Difficulty | Hard |
+| Problem | Print Zero Even Odd |
+| LeetCode | #1116 |
+| Difficulty | Medium |
 | Language | Java |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -34,11 +34,11 @@ This creates the pattern: zero→odd→zero→even→zero→odd→... producing 
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Valid Palindrome III**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Print Zero Even Odd**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -69,9 +69,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3530. Maximum Profit from Valid Topological Order in DAG](../3530-odd-and-even-transactions/)
-- [3995. Minimum Cost to Convert String III](../3995-gcd-of-odd-and-even-sums/)
-- [1187. Make Array Strictly Increasing](../1187-print-foobar-alternately/)
+- [3220. Odd and Even Transactions](../3530-odd-and-even-transactions/)
+- [3658. GCD of Odd and Even Sums](../3995-gcd-of-odd-and-even-sums/)
+- [1114. Print in Order](../1203-print-in-order/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-zero-even-odd/)

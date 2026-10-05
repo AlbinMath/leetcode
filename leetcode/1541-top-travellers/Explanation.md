@@ -1,16 +1,16 @@
-# LeetCode 1541: Minimum Insertions to Balance a Parentheses String
+# LeetCode 1407: Top Travellers
 
-**LeetCode Problem #1541 — Minimum Insertions to Balance a Parentheses String**
-Solve LeetCode Minimum Insertions to Balance a Parentheses String using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1407 — Top Travellers**
+Solve LeetCode Top Travellers using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Insertions to Balance a Parentheses String |
-| LeetCode | #1541 |
-| Difficulty | Medium |
+| Problem | Top Travellers |
+| LeetCode | #1407 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Insertions to Balance a Parentheses String**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Top Travellers**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

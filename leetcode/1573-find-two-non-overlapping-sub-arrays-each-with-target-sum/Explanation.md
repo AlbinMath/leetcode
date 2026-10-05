@@ -1,13 +1,13 @@
-# LeetCode 1573: Number of Ways to Split a String
+# LeetCode 1477: Find Two Non-overlapping Sub-arrays Each With Target Sum
 
-**LeetCode Problem #1573 — Number of Ways to Split a String**
-Solve LeetCode Number of Ways to Split a String using JavaScript and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
+**LeetCode Problem #1477 — Find Two Non-overlapping Sub-arrays Each With Target Sum**
+Solve LeetCode Find Two Non-overlapping Sub-arrays Each With Target Sum using JavaScript and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number of Ways to Split a String |
-| LeetCode | #1573 |
+| Problem | Find Two Non-overlapping Sub-arrays Each With Target Sum |
+| LeetCode | #1477 |
 | Difficulty | Medium |
 | Language | JavaScript |
 | Algorithm | Dynamic Sliding Window Traversal |
@@ -33,7 +33,7 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number of Ways to Split a String**. Applying **Dynamic Sliding Window Traversal** yields the target result step by step.
+Consider the standard input for **Find Two Non-overlapping Sub-arrays Each With Target Sum**. Applying **Dynamic Sliding Window Traversal** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,7 +66,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [2766. Relocate Marbles](../2766-find-the-prefix-common-array-of-two-arrays/)
+- [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
 - [1. Two Sum](../0001-two-sum/)
 - [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
 

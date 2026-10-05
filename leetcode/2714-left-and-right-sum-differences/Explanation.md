@@ -1,14 +1,14 @@
-# LeetCode 2714: Find Shortest Path with K Hops
+# LeetCode 2574: Left and Right Sum Differences
 
-**LeetCode Problem #2714 — Find Shortest Path with K Hops**
-Solve LeetCode Find Shortest Path with K Hops using Kotlin and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
+**LeetCode Problem #2574 — Left and Right Sum Differences**
+Solve LeetCode Left and Right Sum Differences using Kotlin and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Find Shortest Path with K Hops |
-| LeetCode | #2714 |
-| Difficulty | Hard |
+| Problem | Left and Right Sum Differences |
+| LeetCode | #2574 |
+| Difficulty | Easy |
 | Language | Kotlin |
 | Algorithm | Prefix Sum Precomputation |
 | Data Structure | Prefix Array |
@@ -31,7 +31,7 @@ Compute prefix sums for left sums and suffix sums for right sums, then calculate
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Shortest Path with K Hops**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+Consider the standard input for **Left and Right Sum Differences**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,8 +64,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [1. Two Sum](../0001-two-sum/)
-- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [2039. The Time When the Network Becomes Idle](../2039-sum-game/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [1927. Sum Game](../2039-sum-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/left-and-right-sum-differences/)

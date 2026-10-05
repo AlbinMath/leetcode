@@ -1,13 +1,13 @@
-# LeetCode 3805: Count Caesar Cipher Pairs
+# LeetCode 3499: Maximize Active Section with Trade I
 
-**LeetCode Problem #3805 — Count Caesar Cipher Pairs**
-Solve LeetCode Count Caesar Cipher Pairs using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3499 — Maximize Active Section with Trade I**
+Solve LeetCode Maximize Active Section with Trade I using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Caesar Cipher Pairs |
-| LeetCode | #3805 |
+| Problem | Maximize Active Section with Trade I |
+| LeetCode | #3499 |
 | Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Caesar Cipher Pairs**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Maximize Active Section with Trade I**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3804. Number of Centered Subarrays](../3804-maximize-active-section-with-trade-ii/)
-- [1153. String Transforms Into Another String](../1153-product-sales-analysis-i/)
-- [1161. Maximum Level Sum of a Binary Tree](../1161-project-employees-i/)
+- [3501. Maximize Active Section with Trade II](../3804-maximize-active-section-with-trade-ii/)
+- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
+- [1068. Product Sales Analysis I](../1153-product-sales-analysis-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-active-section-with-trade-i/)

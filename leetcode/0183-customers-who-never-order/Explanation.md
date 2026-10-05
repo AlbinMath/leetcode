@@ -1,7 +1,7 @@
 # LeetCode 183: Customers Who Never Order
 
 **LeetCode Problem #183 — Customers Who Never Order**
-Solve LeetCode Customers Who Never Order using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Customers Who Never Order using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Customers Who Never Order using SQL and Database / SQL. This solu
 | LeetCode | #183 |
 | Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Customers Who Never Order**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Customers Who Never Order**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1135. Connecting Cities With Minimum Cost](../1135-customers-who-bought-all-products/)
+- [1045. Customers Who Bought All Products](../1135-customers-who-bought-all-products/)
 - [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
-- [1136. Parallel Courses](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
+- [1050. Actors and Directors Who Cooperated At Least Three Times](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customers-who-never-order/)

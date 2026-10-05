@@ -1,7 +1,7 @@
 # LeetCode 2: Add Two Numbers
 
 **LeetCode Problem #2 — Add Two Numbers**
-Solve LeetCode Add Two Numbers using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+Solve LeetCode Add Two Numbers using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Add Two Numbers using Python and Two Pointers. This solution find
 | LeetCode | #2 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -35,11 +35,11 @@ The code uses a simulated digit-by-digit addition, similar to how you would add 
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Add Two Numbers**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Add Two Numbers**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -72,7 +72,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2859. Sum of Values at Indices With K Set Bits](../2859-add-two-promises/)
+- [2723. Add Two Promises](../2859-add-two-promises/)
 - [1. Two Sum](../0001-two-sum/)
 - [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
 

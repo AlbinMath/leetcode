@@ -1,16 +1,16 @@
-# LeetCode 3584: Maximum Product of First and Last Elements of a Subsequence
+# LeetCode 3302: Find the Lexicographically Smallest Valid Sequence
 
-**LeetCode Problem #3584 — Maximum Product of First and Last Elements of a Subsequence**
-Solve LeetCode Maximum Product of First and Last Elements of a Subsequence using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3302 — Find the Lexicographically Smallest Valid Sequence**
+Solve LeetCode Find the Lexicographically Smallest Valid Sequence using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Product of First and Last Elements of a Subsequence |
-| LeetCode | #3584 |
+| Problem | Find the Lexicographically Smallest Valid Sequence |
+| LeetCode | #3302 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Product of First and Last Elements of a Subsequence**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find the Lexicographically Smallest Valid Sequence**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1664. Ways to Make a Fair Array](../1664-find-users-with-valid-e-mails/)
-- [3150. Invalid Tweets II](../3150-shortest-and-lexicographically-smallest-beautiful-string/)
-- [3219. Minimum Cost for Cutting Cake II](../3219-make-lexicographically-smallest-array-by-swapping-elements/)
+- [1517. Find Users With Valid E-Mails](../1664-find-users-with-valid-e-mails/)
+- [2904. Shortest and Lexicographically Smallest Beautiful String](../3150-shortest-and-lexicographically-smallest-beautiful-string/)
+- [2948. Make Lexicographically Smallest Array by Swapping Elements](../3219-make-lexicographically-smallest-array-by-swapping-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/)

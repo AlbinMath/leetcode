@@ -1,16 +1,16 @@
-# LeetCode 2892: Minimizing Array After Replacing Pairs With Their Product
+# LeetCode 2784: Check if Array is Good
 
-**LeetCode Problem #2892 — Minimizing Array After Replacing Pairs With Their Product**
-Solve LeetCode Minimizing Array After Replacing Pairs With Their Product using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2784 — Check if Array is Good**
+Solve LeetCode Check if Array is Good using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimizing Array After Replacing Pairs With Their Product |
-| LeetCode | #2892 |
-| Difficulty | Medium |
+| Problem | Check if Array is Good |
+| LeetCode | #2784 |
+| Difficulty | Easy |
 | Language | C++ |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Sort the array. The maximum value should be `n = arr.length - 1`. Check that the
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimizing Array After Replacing Pairs With Their Product**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Check if Array is Good**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1878. Get Biggest Three Rhombus Sums in a Grid](../1878-check-if-array-is-sorted-and-rotated/)
-- [2349. Design a Number Container System](../2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [2758. Next Day](../2758-check-if-object-instance-of-class/)
+- [1752. Check if Array Is Sorted and Rotated](../1878-check-if-array-is-sorted-and-rotated/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [2618. Check if Object Instance of Class](../2758-check-if-object-instance-of-class/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-array-is-good/)

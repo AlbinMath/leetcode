@@ -1,13 +1,13 @@
-# LeetCode 4284: Smallest Stable Index I
+# LeetCode 3903: Smallest Stable Index I
 
-**LeetCode Problem #4284 — Smallest Stable Index I**
+**LeetCode Problem #3903 — Smallest Stable Index I**
 Solve LeetCode Smallest Stable Index I using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Smallest Stable Index I |
-| LeetCode | #4284 |
+| LeetCode | #3903 |
 | Difficulty | Easy |
 | Language | JavaScript |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4285. Smallest Stable Index II](../4285-smallest-stable-index-ii/)
-- [3626. Find Stores with Inventory Imbalance](../3626-smallest-divisible-digit-product-i/)
-- [3812. Minimum Edge Toggles on a Tree](../3812-smallest-palindromic-rearrangement-i/)
+- [3904. Smallest Stable Index II](../4285-smallest-stable-index-ii/)
+- [3345. Smallest Divisible Digit Product I](../3626-smallest-divisible-digit-product-i/)
+- [3517. Smallest Palindromic Rearrangement I](../3812-smallest-palindromic-rearrangement-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-stable-index-i/)

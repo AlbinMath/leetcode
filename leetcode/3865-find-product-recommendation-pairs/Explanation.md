@@ -1,16 +1,16 @@
-# LeetCode 3865: Reverse K Subarrays
+# LeetCode 3521: Find Product Recommendation Pairs
 
-**LeetCode Problem #3865 — Reverse K Subarrays**
-Solve LeetCode Reverse K Subarrays using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3521 — Find Product Recommendation Pairs**
+Solve LeetCode Find Product Recommendation Pairs using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Reverse K Subarrays |
-| LeetCode | #3865 |
+| Problem | Find Product Recommendation Pairs |
+| LeetCode | #3521 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Reverse K Subarrays**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find Product Recommendation Pairs**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3891. Minimum Increase to Maximize Special Indices](../3891-find-category-recommendation-pairs/)
+- [3554. Find Category Recommendation Pairs](../3891-find-category-recommendation-pairs/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 

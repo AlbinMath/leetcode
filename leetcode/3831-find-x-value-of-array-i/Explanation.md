@@ -1,13 +1,13 @@
-# LeetCode 3831: Median of a Binary Search Tree Level
+# LeetCode 3524: Find X Value of Array I
 
-**LeetCode Problem #3831 — Median of a Binary Search Tree Level**
-Solve LeetCode Median of a Binary Search Tree Level using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+**LeetCode Problem #3524 — Find X Value of Array I**
+Solve LeetCode Find X Value of Array I using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Median of a Binary Search Tree Level |
-| LeetCode | #3831 |
+| Problem | Find X Value of Array I |
+| LeetCode | #3524 |
 | Difficulty | Medium |
 | Language | JavaScript |
 | Algorithm | Modified Binary Search |
@@ -41,7 +41,7 @@ The code uses **Dynamic Programming** to count the products of all possible cont
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Median of a Binary Search Tree Level**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Find X Value of Array I**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -74,7 +74,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [3840. House Robber V](../3840-find-x-value-of-array-ii/)
+- [3525. Find X Value of Array II](../3840-find-x-value-of-array-ii/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 

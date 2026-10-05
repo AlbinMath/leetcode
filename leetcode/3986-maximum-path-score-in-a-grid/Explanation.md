@@ -1,14 +1,14 @@
-# LeetCode 3986: Number of Elapsed Seconds Between Two Times
+# LeetCode 3742: Maximum Path Score in a Grid
 
-**LeetCode Problem #3986 — Number of Elapsed Seconds Between Two Times**
-Solve LeetCode Number of Elapsed Seconds Between Two Times using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3742 — Maximum Path Score in a Grid**
+Solve LeetCode Maximum Path Score in a Grid using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number of Elapsed Seconds Between Two Times |
-| LeetCode | #3986 |
-| Difficulty | Easy |
+| Problem | Maximum Path Score in a Grid |
+| LeetCode | #3742 |
+| Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number of Elapsed Seconds Between Two Times**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Maximum Path Score in a Grid**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2582. Pass the Pillow](../2582-minimum-score-of-a-path-between-two-cities/)
-- [2914. Minimum Number of Changes to Make Binary String Beautiful](../2914-find-the-safest-path-in-a-grid/)
-- [3562. Maximum Profit from Trading Stocks with Discounts](../3562-maximum-score-of-non-overlapping-intervals/)
+- [2492. Minimum Score of a Path Between Two Cities](../2582-minimum-score-of-a-path-between-two-cities/)
+- [2812. Find the Safest Path in a Grid](../2914-find-the-safest-path-in-a-grid/)
+- [3414. Maximum Score of Non-overlapping Intervals](../3562-maximum-score-of-non-overlapping-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-path-score-in-a-grid/)

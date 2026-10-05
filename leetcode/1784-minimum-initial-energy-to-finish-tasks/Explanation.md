@@ -1,14 +1,14 @@
-# LeetCode 1784: Check if Binary String Has at Most One Segment of Ones
+# LeetCode 1665: Minimum Initial Energy to Finish Tasks
 
-**LeetCode Problem #1784 — Check if Binary String Has at Most One Segment of Ones**
-Solve LeetCode Check if Binary String Has at Most One Segment of Ones using C++ and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
+**LeetCode Problem #1665 — Minimum Initial Energy to Finish Tasks**
+Solve LeetCode Minimum Initial Energy to Finish Tasks using C++ and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Check if Binary String Has at Most One Segment of Ones |
-| LeetCode | #1784 |
-| Difficulty | Easy |
+| Problem | Minimum Initial Energy to Finish Tasks |
+| LeetCode | #1665 |
+| Difficulty | Hard |
 | Language | C++ |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -35,7 +35,7 @@ Time complexity is $O(N \log N)$ and space complexity is $O(\log N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Check if Binary String Has at Most One Segment of Ones**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Minimum Initial Energy to Finish Tasks**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(log n)
@@ -70,7 +70,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [1776. Car Fleet II](../1776-minimum-operations-to-reduce-x-to-zero/)
+- [1658. Minimum Operations to Reduce X to Zero](../1776-minimum-operations-to-reduce-x-to-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)

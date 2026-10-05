@@ -72,8 +72,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1574. Shortest Subarray to be Removed to Make Array Sorted](../1574-maximum-product-of-two-elements-in-an-array/)
-- [3859. Count Subarrays With K Distinct Integers](../3859-maximum-product-of-two-digits/)
+- [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
+- [3536. Maximum Product of Two Digits](../3859-maximum-product-of-two-digits/)
 - [2. Add Two Numbers](../0002-add-two-numbers/)
 
 ## LeetCode

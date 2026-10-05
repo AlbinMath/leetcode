@@ -1,16 +1,16 @@
-# LeetCode 2742: Painting the Walls
+# LeetCode 2631: Group By
 
-**LeetCode Problem #2742 — Painting the Walls**
-Solve LeetCode Painting the Walls using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2631 — Group By**
+Solve LeetCode Group By using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Painting the Walls |
-| LeetCode | #2742 |
-| Difficulty | Hard |
+| Problem | Group By |
+| LeetCode | #2631 |
+| Difficulty | Medium |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Iterates through the array, applies `fn` to each element to get a key, and build
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Painting the Walls**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Group By**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1625. Lexicographically Smallest String After Applying Operations](../1625-group-sold-products-by-the-date/)
+- [1484. Group Sold Products By The Date](../1625-group-sold-products-by-the-date/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 - [6. Zigzag Conversion](../0006-zigzag-conversion/)
 

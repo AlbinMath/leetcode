@@ -1,14 +1,14 @@
-# LeetCode 3067: Count Pairs of Connectable Servers in a Weighted Tree Network
+# LeetCode 2884: Modify Columns
 
-**LeetCode Problem #3067 — Count Pairs of Connectable Servers in a Weighted Tree Network**
-Solve LeetCode Count Pairs of Connectable Servers in a Weighted Tree Network using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #2884 — Modify Columns**
+Solve LeetCode Modify Columns using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Pairs of Connectable Servers in a Weighted Tree Network |
-| LeetCode | #3067 |
-| Difficulty | Medium |
+| Problem | Modify Columns |
+| LeetCode | #2884 |
+| Difficulty | Easy |
 | Language | Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Pairs of Connectable Servers in a Weighted Tree Network**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Modify Columns**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3068. Find the Maximum Sum of Node Values](../3068-rename-columns/)
-- [909. Snakes and Ladders](../0909-stone-game/)
-- [1182. Shortest Distance to Target Color](../1182-game-play-analysis-iv/)
+- [2885. Rename Columns](../3068-rename-columns/)
+- [550. Game Play Analysis IV](../1182-game-play-analysis-iv/)
+- [877. Stone Game](../0909-stone-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/modify-columns/)

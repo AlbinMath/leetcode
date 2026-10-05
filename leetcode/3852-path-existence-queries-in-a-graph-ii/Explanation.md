@@ -1,14 +1,14 @@
-# LeetCode 3852: Smallest Pair With Different Frequencies
+# LeetCode 3534: Path Existence Queries in a Graph II
 
-**LeetCode Problem #3852 — Smallest Pair With Different Frequencies**
-Solve LeetCode Smallest Pair With Different Frequencies using PHP and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3534 — Path Existence Queries in a Graph II**
+Solve LeetCode Path Existence Queries in a Graph II using PHP and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Smallest Pair With Different Frequencies |
-| LeetCode | #3852 |
-| Difficulty | Easy |
+| Problem | Path Existence Queries in a Graph II |
+| LeetCode | #3534 |
+| Difficulty | Hard |
 | Language | PHP |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Smallest Pair With Different Frequencies**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Path Existence Queries in a Graph II**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,7 +65,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3838. Weighted Word Mapping](../3838-path-existence-queries-in-a-graph-i/)
+- [3532. Path Existence Queries in a Graph I](../3838-path-existence-queries-in-a-graph-i/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 - [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
 

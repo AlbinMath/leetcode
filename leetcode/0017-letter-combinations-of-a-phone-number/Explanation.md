@@ -1,7 +1,7 @@
 # LeetCode 17: Letter Combinations of a Phone Number
 
 **LeetCode Problem #17 — Letter Combinations of a Phone Number**
-Solve LeetCode Letter Combinations of a Phone Number using JavaScript and Backtracking. This solution finds the optimal result using Backtracking Search in O(n) time.
+Solve LeetCode Letter Combinations of a Phone Number using JavaScript and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,8 +10,8 @@ Solve LeetCode Letter Combinations of a Phone Number using JavaScript and Backtr
 | LeetCode | #17 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Backtracking Search |
-| Data Structure | Recursion Tree / Array |
+| Algorithm | Backtracking Recursive Search |
+| Data Structure | Recursion Tree |
 | Pattern | Backtracking |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,7 +20,7 @@ Solve LeetCode Letter Combinations of a Phone Number using JavaScript and Backtr
 Given a string containing digits from  2-9  inclusive, return all possible letter combinations that the number could represent. Return the answer in  any order .
 
 ## Key Insight
-Leverage **Backtracking** with **Recursion Tree / Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Backtracking** with **Recursion Tree** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses **Backtracking** to explore all possible letter combinations.
@@ -35,12 +35,12 @@ The code uses **Backtracking** to explore all possible letter combinations.
 Since each digit maps to at most 4 letters, the time complexity is $O(4^N)$ where $N$ is the number of digits, and space complexity is $O(N)$ for the recursion stack.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Recursion Tree / Array**).
-2. Process elements sequentially using **Backtracking Search**.
+1. Initialize state variables / data structure (**Recursion Tree**).
+2. Process elements sequentially using **Backtracking Recursive Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Letter Combinations of a Phone Number**. Applying **Backtracking Search** yields the target result step by step.
+Consider the standard input for **Letter Combinations of a Phone Number**. Applying **Backtracking Recursive Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

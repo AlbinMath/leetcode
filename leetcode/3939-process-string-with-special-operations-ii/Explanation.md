@@ -1,13 +1,13 @@
-# LeetCode 3939: Count Non Adjacent Subsets in a Rooted Tree
+# LeetCode 3614: Process String with Special Operations II
 
-**LeetCode Problem #3939 — Count Non Adjacent Subsets in a Rooted Tree**
-Solve LeetCode Count Non Adjacent Subsets in a Rooted Tree using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3614 — Process String with Special Operations II**
+Solve LeetCode Process String with Special Operations II using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Non Adjacent Subsets in a Rooted Tree |
-| LeetCode | #3939 |
+| Problem | Process String with Special Operations II |
+| LeetCode | #3614 |
 | Difficulty | Hard |
 | Language | Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -31,7 +31,7 @@ We iterate through the input using **Depth-First Search (DFS) / Breadth-First Se
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Non Adjacent Subsets in a Rooted Tree**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Process String with Special Operations II**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,7 +65,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3931. Check Adjacent Digit Differences](../3931-process-string-with-special-operations-i/)
+- [3612. Process String with Special Operations I](../3931-process-string-with-special-operations-i/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 - [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
 

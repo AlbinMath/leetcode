@@ -1,14 +1,14 @@
-# LeetCode 2582: Pass the Pillow
+# LeetCode 2492: Minimum Score of a Path Between Two Cities
 
-**LeetCode Problem #2582 — Pass the Pillow**
-Solve LeetCode Pass the Pillow using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #2492 — Minimum Score of a Path Between Two Cities**
+Solve LeetCode Minimum Score of a Path Between Two Cities using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Pass the Pillow |
-| LeetCode | #2582 |
-| Difficulty | Easy |
+| Problem | Minimum Score of a Path Between Two Cities |
+| LeetCode | #2492 |
+| Difficulty | Medium |
 | Language | Java |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ Since you can traverse any edge multiple times, the answer is the minimum edge w
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Pass the Pillow**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Minimum Score of a Path Between Two Cities**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2182. Construct String With Repeat Limit](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [3986. Number of Elapsed Seconds Between Two Times](../3986-maximum-path-score-in-a-grid/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [3742. Maximum Path Score in a Grid](../3986-maximum-path-score-in-a-grid/)
 - [1. Two Sum](../0001-two-sum/)
 
 ## LeetCode

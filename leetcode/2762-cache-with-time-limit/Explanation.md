@@ -1,13 +1,13 @@
-# LeetCode 2762: Continuous Subarrays
+# LeetCode 2622: Cache With Time Limit
 
-**LeetCode Problem #2762 — Continuous Subarrays**
-Solve LeetCode Continuous Subarrays using JavaScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #2622 — Cache With Time Limit**
+Solve LeetCode Cache With Time Limit using JavaScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Continuous Subarrays |
-| LeetCode | #2762 |
+| Problem | Cache With Time Limit |
+| LeetCode | #2622 |
 | Difficulty | Medium |
 | Language | JavaScript |
 | Algorithm | Complement Lookup / Hash Table Frequency |
@@ -31,7 +31,7 @@ Uses a Map to store `{value, timer}` for each key. On `set`, clear any existing 
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Continuous Subarrays**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Cache With Time Limit**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2749. Minimum Operations to Make the Integer Zero](../2749-promise-time-limit/)
+- [2637. Promise Time Limit](../2749-promise-time-limit/)
 - [636. Exclusive Time of Functions](../0636-exclusive-time-of-functions/)
-- [1801. Number of Orders in the Backlog](../1801-average-time-of-process-per-machine/)
+- [1661. Average Time of Process per Machine](../1801-average-time-of-process-per-machine/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cache-with-time-limit/)

@@ -1,16 +1,16 @@
-# LeetCode 4242: Sum of GCD of Formed Pairs
+# LeetCode 3867: Sum of GCD of Formed Pairs
 
-**LeetCode Problem #4242 — Sum of GCD of Formed Pairs**
-Solve LeetCode Sum of GCD of Formed Pairs using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3867 — Sum of GCD of Formed Pairs**
+Solve LeetCode Sum of GCD of Formed Pairs using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Sum of GCD of Formed Pairs |
-| LeetCode | #4242 |
+| LeetCode | #3867 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Sum of GCD of Formed Pairs**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Sum of GCD of Formed Pairs**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1. Two Sum](../0001-two-sum/)
-- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [1934. Confirmation Rate](../1934-evaluate-the-bracket-pairs-of-a-string/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [1807. Evaluate the Bracket Pairs of a String](../1934-evaluate-the-bracket-pairs-of-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/)

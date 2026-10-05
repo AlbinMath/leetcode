@@ -1,16 +1,16 @@
-# LeetCode 4285: Smallest Stable Index II
+# LeetCode 3904: Smallest Stable Index II
 
-**LeetCode Problem #4285 — Smallest Stable Index II**
-Solve LeetCode Smallest Stable Index II using JavaScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3904 — Smallest Stable Index II**
+Solve LeetCode Smallest Stable Index II using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Smallest Stable Index II |
-| LeetCode | #4285 |
+| LeetCode | #3904 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Smallest Stable Index II**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Smallest Stable Index II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4284. Smallest Stable Index I](../4284-smallest-stable-index-i/)
-- [3635. Earliest Finish Time for Land and Water Rides II](../3635-smallest-divisible-digit-product-ii/)
-- [3813. Vowel-Consonant Score](../3813-smallest-palindromic-rearrangement-ii/)
+- [3903. Smallest Stable Index I](../4284-smallest-stable-index-i/)
+- [3348. Smallest Divisible Digit Product II](../3635-smallest-divisible-digit-product-ii/)
+- [3518. Smallest Palindromic Rearrangement II](../3813-smallest-palindromic-rearrangement-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-stable-index-ii/)

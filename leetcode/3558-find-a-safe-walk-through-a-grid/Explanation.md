@@ -1,13 +1,13 @@
-# LeetCode 3558: Number of Ways to Assign Edge Weights I
+# LeetCode 3286: Find a Safe Walk Through a Grid
 
-**LeetCode Problem #3558 — Number of Ways to Assign Edge Weights I**
-Solve LeetCode Number of Ways to Assign Edge Weights I using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3286 — Find a Safe Walk Through a Grid**
+Solve LeetCode Find a Safe Walk Through a Grid using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number of Ways to Assign Edge Weights I |
-| LeetCode | #3558 |
+| Problem | Find a Safe Walk Through a Grid |
+| LeetCode | #3286 |
 | Difficulty | Medium |
 | Language | Java |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -31,7 +31,7 @@ We iterate through the input using **Depth-First Search (DFS) / Breadth-First Se
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number of Ways to Assign Edge Weights I**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Find a Safe Walk Through a Grid**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,7 +65,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2914. Minimum Number of Changes to Make Binary String Beautiful](../2914-find-the-safest-path-in-a-grid/)
+- [2812. Find the Safest Path in a Grid](../2914-find-the-safest-path-in-a-grid/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 

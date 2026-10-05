@@ -1,16 +1,16 @@
-# LeetCode 2041: Accepted Candidates From the Interviews
+# LeetCode 1890: The Latest Login in 2020
 
-**LeetCode Problem #2041 — Accepted Candidates From the Interviews**
-Solve LeetCode Accepted Candidates From the Interviews using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1890 — The Latest Login in 2020**
+Solve LeetCode The Latest Login in 2020 using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Accepted Candidates From the Interviews |
-| LeetCode | #2041 |
-| Difficulty | Medium |
+| Problem | The Latest Login in 2020 |
+| LeetCode | #1890 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Accepted Candidates From the Interviews**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **The Latest Login in 2020**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

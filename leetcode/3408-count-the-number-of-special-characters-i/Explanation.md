@@ -1,16 +1,16 @@
-# LeetCode 3408: Design Task Manager
+# LeetCode 3120: Count the Number of Special Characters I
 
-**LeetCode Problem #3408 — Design Task Manager**
-Solve LeetCode Design Task Manager using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3120 — Count the Number of Special Characters I**
+Solve LeetCode Count the Number of Special Characters I using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Design Task Manager |
-| LeetCode | #3408 |
-| Difficulty | Medium |
+| Problem | Count the Number of Special Characters I |
+| LeetCode | #3120 |
+| Difficulty | Easy |
 | Language | C++ |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Design Task Manager**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Count the Number of Special Characters I**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1460. Make Two Arrays Equal by Reversing Subarrays](../1460-number-of-substrings-containing-all-three-characters/)
-- [2793. Status of Flight Tickets](../2793-count-the-number-of-complete-components/)
-- [3275. K-th Nearest Obstacle Queries](../3275-minimum-number-of-pushes-to-type-word-i/)
+- [1358. Number of Substrings Containing All Three Characters](../1460-number-of-substrings-containing-all-three-characters/)
+- [2685. Count the Number of Complete Components](../2793-count-the-number-of-complete-components/)
+- [3014. Minimum Number of Pushes to Type Word I](../3275-minimum-number-of-pushes-to-type-word-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-special-characters-i/)

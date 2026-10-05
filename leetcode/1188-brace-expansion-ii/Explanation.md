@@ -1,16 +1,16 @@
-# LeetCode 1188: Design Bounded Blocking Queue
+# LeetCode 1096: Brace Expansion II
 
-**LeetCode Problem #1188 — Design Bounded Blocking Queue**
-Solve LeetCode Design Bounded Blocking Queue using JavaScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #1096 — Brace Expansion II**
+Solve LeetCode Brace Expansion II using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Design Bounded Blocking Queue |
-| LeetCode | #1188 |
-| Difficulty | Medium |
+| Problem | Brace Expansion II |
+| LeetCode | #1096 |
+| Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -33,11 +33,11 @@ The solution implements a **Recursive Descent Parser** with three main functions
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Design Bounded Blocking Queue**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Brace Expansion II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -70,7 +70,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 - [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
-- [977. Squares of a Sorted Array](../0977-distinct-subsequences-ii/)
+- [940. Distinct Subsequences II](../0977-distinct-subsequences-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/brace-expansion-ii/)

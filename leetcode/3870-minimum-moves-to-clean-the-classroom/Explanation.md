@@ -1,14 +1,14 @@
-# LeetCode 3870: Count Commas in Range
+# LeetCode 3568: Minimum Moves to Clean the Classroom
 
-**LeetCode Problem #3870 — Count Commas in Range**
-Solve LeetCode Count Commas in Range using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #3568 — Minimum Moves to Clean the Classroom**
+Solve LeetCode Minimum Moves to Clean the Classroom using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Commas in Range |
-| LeetCode | #3870 |
-| Difficulty | Easy |
+| Problem | Minimum Moves to Clean the Classroom |
+| LeetCode | #3568 |
+| Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Commas in Range**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Minimum Moves to Clean the Classroom**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1793. Maximum Score of a Good Subarray](../1793-minimum-moves-to-make-array-complementary/)
+- [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 

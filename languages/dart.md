@@ -6,4 +6,4 @@ A collection of LeetCode problems implemented in **Dart** with detailed complexi
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 3275 | [K-th Nearest Obstacle Queries](../leetcode/3275-minimum-number-of-pushes-to-type-word-i/) | Medium | Hash Map | O(n) | O(n) |
+| 3014 | [Minimum Number of Pushes to Type Word I](../leetcode/3275-minimum-number-of-pushes-to-type-word-i/) | Easy | Hash Map | O(n) | O(n) |

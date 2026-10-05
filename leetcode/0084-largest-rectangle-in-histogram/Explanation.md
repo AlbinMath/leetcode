@@ -75,8 +75,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
-- [866. Prime Palindrome](../0866-rectangle-overlap/)
-- [1501. Countries You Can Safely Invest In](../1501-circle-and-rectangle-overlapping/)
+- [836. Rectangle Overlap](../0866-rectangle-overlap/)
+- [1401. Circle and Rectangle Overlapping](../1501-circle-and-rectangle-overlapping/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/)

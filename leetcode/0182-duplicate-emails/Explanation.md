@@ -1,7 +1,7 @@
 # LeetCode 182: Duplicate Emails
 
 **LeetCode Problem #182 — Duplicate Emails**
-Solve LeetCode Duplicate Emails using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Duplicate Emails using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Duplicate Emails using SQL and Database / SQL. This solution find
 | LeetCode | #182 |
 | Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Duplicate Emails**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Duplicate Emails**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [196. Delete Duplicate Emails](../0196-delete-duplicate-emails/)
-- [3071. Minimum Operations to Write the Letter Y on a Grid](../3071-drop-duplicate-rows/)
-- [3782. Last Remaining Integer After Alternating Deletion Operations](../3782-find-valid-emails/)
+- [2882. Drop Duplicate Rows](../3071-drop-duplicate-rows/)
+- [3436. Find Valid Emails](../3782-find-valid-emails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/duplicate-emails/)

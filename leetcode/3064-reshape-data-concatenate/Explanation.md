@@ -1,14 +1,14 @@
-# LeetCode 3064: Guess the Number Using Bitwise Questions I
+# LeetCode 2888: Reshape Data: Concatenate
 
-**LeetCode Problem #3064 — Guess the Number Using Bitwise Questions I**
-Solve LeetCode Guess the Number Using Bitwise Questions I using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+**LeetCode Problem #2888 — Reshape Data: Concatenate**
+Solve LeetCode Reshape Data: Concatenate using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Guess the Number Using Bitwise Questions I |
-| LeetCode | #3064 |
-| Difficulty | Medium |
+| Problem | Reshape Data: Concatenate |
+| LeetCode | #2888 |
+| Difficulty | Easy |
 | Language | Python |
 | Algorithm | Stack Push / Pop Parsing |
 | Data Structure | Stack |
@@ -31,7 +31,7 @@ We iterate through the input using **Stack Push / Pop Parsing**. By maintaining 
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Guess the Number Using Bitwise Questions I**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+Consider the standard input for **Reshape Data: Concatenate**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3072. Distribute Elements Into Two Arrays II](../3072-reshape-data-pivot/)
-- [3073. Maximum Increasing Triplet Value](../3073-reshape-data-melt/)
-- [3069. Distribute Elements Into Two Arrays I](../3069-change-data-type/)
+- [2889. Reshape Data: Pivot](../3072-reshape-data-pivot/)
+- [2890. Reshape Data: Melt](../3073-reshape-data-melt/)
+- [2880. Select Data](../3074-select-data/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reshape-data-concatenate/)

@@ -1,16 +1,16 @@
-# LeetCode 3071: Minimum Operations to Write the Letter Y on a Grid
+# LeetCode 2882: Drop Duplicate Rows
 
-**LeetCode Problem #3071 — Minimum Operations to Write the Letter Y on a Grid**
-Solve LeetCode Minimum Operations to Write the Letter Y on a Grid using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2882 — Drop Duplicate Rows**
+Solve LeetCode Drop Duplicate Rows using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Operations to Write the Letter Y on a Grid |
-| LeetCode | #3071 |
-| Difficulty | Medium |
+| Problem | Drop Duplicate Rows |
+| LeetCode | #2882 |
+| Difficulty | Easy |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Operations to Write the Letter Y on a Grid**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Drop Duplicate Rows**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [182. Duplicate Emails](../0182-duplicate-emails/)
 - [196. Delete Duplicate Emails](../0196-delete-duplicate-emails/)
-- [3065. Minimum Operations to Exceed Threshold Value I](../3065-display-the-first-three-rows/)
+- [2879. Display the First Three Rows](../3065-display-the-first-three-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/drop-duplicate-rows/)

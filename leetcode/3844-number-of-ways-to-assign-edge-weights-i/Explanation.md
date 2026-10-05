@@ -1,13 +1,13 @@
-# LeetCode 3844: Longest Almost-Palindromic Substring
+# LeetCode 3558: Number of Ways to Assign Edge Weights I
 
-**LeetCode Problem #3844 — Longest Almost-Palindromic Substring**
-Solve LeetCode Longest Almost-Palindromic Substring using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3558 — Number of Ways to Assign Edge Weights I**
+Solve LeetCode Number of Ways to Assign Edge Weights I using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Longest Almost-Palindromic Substring |
-| LeetCode | #3844 |
+| Problem | Number of Ways to Assign Edge Weights I |
+| LeetCode | #3558 |
 | Difficulty | Medium |
 | Language | Java |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Longest Almost-Palindromic Substring**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Number of Ways to Assign Edge Weights I**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3842. Toggle Light Bulbs](../3842-number-of-ways-to-assign-edge-weights-ii/)
-- [3275. K-th Nearest Obstacle Queries](../3275-minimum-number-of-pushes-to-type-word-i/)
-- [3408. Design Task Manager](../3408-count-the-number-of-special-characters-i/)
+- [3559. Number of Ways to Assign Edge Weights II](../3842-number-of-ways-to-assign-edge-weights-ii/)
+- [3014. Minimum Number of Pushes to Type Word I](../3275-minimum-number-of-pushes-to-type-word-i/)
+- [3120. Count the Number of Special Characters I](../3408-count-the-number-of-special-characters-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/)

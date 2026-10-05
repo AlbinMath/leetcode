@@ -1,16 +1,16 @@
-# LeetCode 1301: Number of Paths with Max Score
+# LeetCode 1179: Reformat Department Table
 
-**LeetCode Problem #1301 — Number of Paths with Max Score**
-Solve LeetCode Number of Paths with Max Score using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1179 — Reformat Department Table**
+Solve LeetCode Reformat Department Table using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number of Paths with Max Score |
-| LeetCode | #1301 |
-| Difficulty | Hard |
+| Problem | Reformat Department Table |
+| LeetCode | #1179 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number of Paths with Max Score**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Reformat Department Table**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [184. Department Highest Salary](../0184-department-highest-salary/)
 - [185. Department Top Three Salaries](../0185-department-top-three-salaries/)
-- [1811. Find Interview Candidates](../1811-fix-names-in-a-table/)
+- [1667. Fix Names in a Table](../1811-fix-names-in-a-table/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reformat-department-table/)

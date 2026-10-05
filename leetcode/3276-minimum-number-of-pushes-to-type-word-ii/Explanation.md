@@ -1,16 +1,16 @@
-# LeetCode 3276: Select Cells in Grid With Maximum Score
+# LeetCode 3016: Minimum Number of Pushes to Type Word II
 
-**LeetCode Problem #3276 — Select Cells in Grid With Maximum Score**
-Solve LeetCode Select Cells in Grid With Maximum Score using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3016 — Minimum Number of Pushes to Type Word II**
+Solve LeetCode Minimum Number of Pushes to Type Word II using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Select Cells in Grid With Maximum Score |
-| LeetCode | #3276 |
-| Difficulty | Hard |
+| Problem | Minimum Number of Pushes to Type Word II |
+| LeetCode | #3016 |
+| Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Select Cells in Grid With Maximum Score**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Minimum Number of Pushes to Type Word II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3275. K-th Nearest Obstacle Queries](../3275-minimum-number-of-pushes-to-type-word-i/)
+- [3014. Minimum Number of Pushes to Type Word I](../3275-minimum-number-of-pushes-to-type-word-i/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [2099. Find Subsequence of Length K With the Largest Sum](../2099-number-of-strings-that-appear-as-substrings-in-word/)
+- [1967. Number of Strings That Appear as Substrings in Word](../2099-number-of-strings-that-appear-as-substrings-in-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/)

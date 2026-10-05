@@ -1,7 +1,7 @@
 # LeetCode 5: Longest Palindromic Substring
 
 **LeetCode Problem #5 — Longest Palindromic Substring**
-Solve LeetCode Longest Palindromic Substring using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+Solve LeetCode Longest Palindromic Substring using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Longest Palindromic Substring using Python and Array / General. T
 | LeetCode | #5 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -35,11 +35,11 @@ The code uses the **Expand Around Center** approach. Since a palindrome mirrors 
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Longest Palindromic Substring**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Longest Palindromic Substring**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -71,7 +71,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [2319. Check if Matrix Is X-Matrix](../2319-longest-substring-of-one-repeating-character/)
+- [2213. Longest Substring of One Repeating Character](../2319-longest-substring-of-one-repeating-character/)
 - [14. Longest Common Prefix](../0014-longest-common-prefix/)
 
 ## LeetCode

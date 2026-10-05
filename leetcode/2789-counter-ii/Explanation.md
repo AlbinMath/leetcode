@@ -1,16 +1,16 @@
-# LeetCode 2789: Largest Element in an Array after Merge Operations
+# LeetCode 2665: Counter II
 
-**LeetCode Problem #2789 — Largest Element in an Array after Merge Operations**
-Solve LeetCode Largest Element in an Array after Merge Operations using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2665 — Counter II**
+Solve LeetCode Counter II using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Largest Element in an Array after Merge Operations |
-| LeetCode | #2789 |
-| Difficulty | Medium |
+| Problem | Counter II |
+| LeetCode | #2665 |
+| Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Uses a closure to capture `init` and a mutable `count` variable. `increment` ret
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Largest Element in an Array after Merge Operations**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Counter II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 - [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
-- [977. Squares of a Sorted Array](../0977-distinct-subsequences-ii/)
+- [940. Distinct Subsequences II](../0977-distinct-subsequences-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/counter-ii/)

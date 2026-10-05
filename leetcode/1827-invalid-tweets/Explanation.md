@@ -1,16 +1,16 @@
-# LeetCode 1827: Minimum Operations to Make the Array Increasing
+# LeetCode 1683: Invalid Tweets
 
-**LeetCode Problem #1827 — Minimum Operations to Make the Array Increasing**
-Solve LeetCode Minimum Operations to Make the Array Increasing using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1683 — Invalid Tweets**
+Solve LeetCode Invalid Tweets using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Operations to Make the Array Increasing |
-| LeetCode | #1827 |
+| Problem | Invalid Tweets |
+| LeetCode | #1683 |
 | Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Operations to Make the Array Increasing**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Invalid Tweets**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3792. Sum of Increasing Product Blocks](../3792-find-invalid-ip-addresses/)
+- [3451. Find Invalid IP Addresses](../3792-find-invalid-ip-addresses/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
 - [176. Second Highest Salary](../0176-second-highest-salary/)
 

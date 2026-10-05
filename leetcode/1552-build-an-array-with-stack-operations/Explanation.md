@@ -1,13 +1,13 @@
-# LeetCode 1552: Magnetic Force Between Two Balls
+# LeetCode 1441: Build an Array With Stack Operations
 
-**LeetCode Problem #1552 — Magnetic Force Between Two Balls**
-Solve LeetCode Magnetic Force Between Two Balls using TypeScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+**LeetCode Problem #1441 — Build an Array With Stack Operations**
+Solve LeetCode Build an Array With Stack Operations using TypeScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Magnetic Force Between Two Balls |
-| LeetCode | #1552 |
+| Problem | Build an Array With Stack Operations |
+| LeetCode | #1441 |
 | Difficulty | Medium |
 | Language | TypeScript |
 | Algorithm | Stack Push / Pop Parsing |
@@ -33,7 +33,7 @@ Time complexity is $O(N)$ and space complexity is $O(N)$ for the output.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Magnetic Force Between Two Balls**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+Consider the standard input for **Build an Array With Stack Operations**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

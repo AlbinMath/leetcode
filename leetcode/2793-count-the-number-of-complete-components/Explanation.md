@@ -1,14 +1,14 @@
-# LeetCode 2793: Status of Flight Tickets
+# LeetCode 2685: Count the Number of Complete Components
 
-**LeetCode Problem #2793 — Status of Flight Tickets**
-Solve LeetCode Status of Flight Tickets using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #2685 — Count the Number of Complete Components**
+Solve LeetCode Count the Number of Complete Components using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Status of Flight Tickets |
-| LeetCode | #2793 |
-| Difficulty | Hard |
+| Problem | Count the Number of Complete Components |
+| LeetCode | #2685 |
+| Difficulty | Medium |
 | Language | Java |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ Use **BFS/DFS or Union-Find** to find connected components. For each component w
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Status of Flight Tickets**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Count the Number of Complete Components**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,7 +65,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3408. Design Task Manager](../3408-count-the-number-of-special-characters-i/)
+- [3120. Count the Number of Special Characters I](../3408-count-the-number-of-special-characters-i/)
 - [9. Palindrome Number](../0009-palindrome-number/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
 

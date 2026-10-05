@@ -1,16 +1,16 @@
-# LeetCode 1773: Count Items Matching a Rule
+# LeetCode 1633: Percentage of Users Attended a Contest
 
-**LeetCode Problem #1773 — Count Items Matching a Rule**
-Solve LeetCode Count Items Matching a Rule using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1633 — Percentage of Users Attended a Contest**
+Solve LeetCode Percentage of Users Attended a Contest using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Items Matching a Rule |
-| LeetCode | #1773 |
+| Problem | Percentage of Users Attended a Contest |
+| LeetCode | #1633 |
 | Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Items Matching a Rule**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Percentage of Users Attended a Contest**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [262. Trips and Users](../0262-trips-and-users/)
-- [1338. Reduce Array Size to The Half](../1338-queries-quality-and-percentage/)
-- [1664. Ways to Make a Fair Array](../1664-find-users-with-valid-e-mails/)
+- [1211. Queries Quality and Percentage](../1338-queries-quality-and-percentage/)
+- [1517. Find Users With Valid E-Mails](../1664-find-users-with-valid-e-mails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)

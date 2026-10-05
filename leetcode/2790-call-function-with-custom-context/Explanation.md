@@ -1,16 +1,16 @@
-# LeetCode 2790: Maximum Number of Groups With Increasing Length
+# LeetCode 2693: Call Function with Custom Context
 
-**LeetCode Problem #2790 — Maximum Number of Groups With Increasing Length**
-Solve LeetCode Maximum Number of Groups With Increasing Length using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2693 — Call Function with Custom Context**
+Solve LeetCode Call Function with Custom Context using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Number of Groups With Increasing Length |
-| LeetCode | #2790 |
-| Difficulty | Hard |
+| Problem | Call Function with Custom Context |
+| LeetCode | #2693 |
+| Difficulty | Medium |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Temporarily assigns the function as a property of the `context` object, calls it
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Number of Groups With Increasing Length**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Call Function with Custom Context**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2796. Repeat String](../2796-allow-one-function-call/)
+- [2666. Allow One Function Call](../2796-allow-one-function-call/)
 - [396. Rotate Function](../0396-rotate-function/)
-- [2741. Special Permutations](../2741-function-composition/)
+- [2629. Function Composition](../2741-function-composition/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/call-function-with-custom-context/)

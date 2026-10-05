@@ -1,14 +1,14 @@
-# LeetCode 2863: Maximum Length of Semi-Decreasing Subarrays
+# LeetCode 2726: Calculator with Method Chaining
 
-**LeetCode Problem #2863 — Maximum Length of Semi-Decreasing Subarrays**
-Solve LeetCode Maximum Length of Semi-Decreasing Subarrays using TypeScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #2726 — Calculator with Method Chaining**
+Solve LeetCode Calculator with Method Chaining using TypeScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Length of Semi-Decreasing Subarrays |
-| LeetCode | #2863 |
-| Difficulty | Medium |
+| Problem | Calculator with Method Chaining |
+| LeetCode | #2726 |
+| Difficulty | Easy |
 | Language | TypeScript |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -31,7 +31,7 @@ Each method (`add`, `subtract`, `multiply`, `divide`) modifies the internal `res
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Length of Semi-Decreasing Subarrays**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Calculator with Method Chaining**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3063. Linked List Frequency](../3063-method-chaining/)
+- [2891. Method Chaining](../3063-method-chaining/)
 - [1. Two Sum](../0001-two-sum/)
 - [13. Roman to Integer](../0013-roman-to-integer/)
 

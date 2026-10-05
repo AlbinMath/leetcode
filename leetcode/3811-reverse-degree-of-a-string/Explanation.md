@@ -1,16 +1,16 @@
-# LeetCode 3811: Number of Alternating XOR Partitions
+# LeetCode 3498: Reverse Degree of a String
 
-**LeetCode Problem #3811 — Number of Alternating XOR Partitions**
-Solve LeetCode Number of Alternating XOR Partitions using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3498 — Reverse Degree of a String**
+Solve LeetCode Reverse Degree of a String using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number of Alternating XOR Partitions |
-| LeetCode | #3811 |
-| Difficulty | Medium |
+| Problem | Reverse Degree of a String |
+| LeetCode | #3498 |
+| Difficulty | Easy |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -35,11 +35,11 @@ The code simply iterates through the string, computing the required product for 
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number of Alternating XOR Partitions**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Reverse Degree of a String**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -72,7 +72,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [7. Reverse Integer](../0007-reverse-integer/)
 - [150. Evaluate Reverse Polish Notation](../0150-evaluate-reverse-polish-notation/)
-- [812. Largest Triangle Area](../0812-rotate-string/)
+- [796. Rotate String](../0812-rotate-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-degree-of-a-string/)

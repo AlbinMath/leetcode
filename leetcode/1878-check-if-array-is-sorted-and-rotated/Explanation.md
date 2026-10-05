@@ -1,14 +1,14 @@
-# LeetCode 1878: Get Biggest Three Rhombus Sums in a Grid
+# LeetCode 1752: Check if Array Is Sorted and Rotated
 
-**LeetCode Problem #1878 — Get Biggest Three Rhombus Sums in a Grid**
-Solve LeetCode Get Biggest Three Rhombus Sums in a Grid using C++ and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+**LeetCode Problem #1752 — Check if Array Is Sorted and Rotated**
+Solve LeetCode Check if Array Is Sorted and Rotated using C++ and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Get Biggest Three Rhombus Sums in a Grid |
-| LeetCode | #1878 |
-| Difficulty | Medium |
+| Problem | Check if Array Is Sorted and Rotated |
+| LeetCode | #1752 |
+| Difficulty | Easy |
 | Language | C++ |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -33,7 +33,7 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Get Biggest Three Rhombus Sums in a Grid**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Check if Array Is Sorted and Rotated**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

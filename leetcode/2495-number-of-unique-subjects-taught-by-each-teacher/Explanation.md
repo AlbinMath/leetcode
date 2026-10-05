@@ -1,16 +1,16 @@
-# LeetCode 2495: Number of Subarrays Having Even Product
+# LeetCode 2356: Number of Unique Subjects Taught by Each Teacher
 
-**LeetCode Problem #2495 — Number of Subarrays Having Even Product**
-Solve LeetCode Number of Subarrays Having Even Product using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #2356 — Number of Unique Subjects Taught by Each Teacher**
+Solve LeetCode Number of Unique Subjects Taught by Each Teacher using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number of Subarrays Having Even Product |
-| LeetCode | #2495 |
-| Difficulty | Medium |
+| Problem | Number of Unique Subjects Taught by Each Teacher |
+| LeetCode | #2356 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number of Subarrays Having Even Product**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Number of Unique Subjects Taught by Each Teacher**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1882. Process Tasks Using Servers](../1882-the-number-of-employees-which-report-to-each-employee/)
-- [3820. Pythagorean Distance Nodes in a Tree](../3820-number-of-unique-xor-triplets-ii/)
-- [3824. Minimum K to Reduce Array Within Limit](../3824-number-of-unique-xor-triplets-i/)
+- [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
+- [3513. Number of Unique XOR Triplets I](../3824-number-of-unique-xor-triplets-i/)
+- [3514. Number of Unique XOR Triplets II](../3820-number-of-unique-xor-triplets-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)

@@ -1,14 +1,14 @@
-# LeetCode 1297: Maximum Number of Occurrences of a Substring
+# LeetCode 1189: Maximum Number of Balloons
 
-**LeetCode Problem #1297 — Maximum Number of Occurrences of a Substring**
-Solve LeetCode Maximum Number of Occurrences of a Substring using Kotlin and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #1189 — Maximum Number of Balloons**
+Solve LeetCode Maximum Number of Balloons using Kotlin and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Number of Occurrences of a Substring |
-| LeetCode | #1297 |
-| Difficulty | Medium |
+| Problem | Maximum Number of Balloons |
+| LeetCode | #1189 |
+| Difficulty | Easy |
 | Language | Kotlin |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -35,7 +35,7 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Number of Occurrences of a Substring**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Maximum Number of Balloons**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -68,9 +68,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1644. Lowest Common Ancestor of a Binary Tree II](../1644-maximum-number-of-non-overlapping-substrings/)
-- [2182. Construct String With Repeat Limit](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [2559. Count Vowel Strings in Ranges](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2472. Maximum Number of Non-overlapping Palindrome Substrings](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-balloons/)

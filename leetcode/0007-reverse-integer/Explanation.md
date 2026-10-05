@@ -1,7 +1,7 @@
 # LeetCode 7: Reverse Integer
 
 **LeetCode Problem #7 — Reverse Integer**
-Solve LeetCode Reverse Integer using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+Solve LeetCode Reverse Integer using JavaScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Reverse Integer using JavaScript and Math & Logic. This solution 
 | LeetCode | #7 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
-| Pattern | Math & Logic |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Reverse Integer using JavaScript and Math & Logic. This solution 
 Given a signed 32-bit integer  x , return  x   with its digits reversed . If reversing  x  causes the value to go outside the signed 32-bit integer range  [-2 31 , 2 31  - 1] , then return  0 .
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses mathematical operations to reverse the integer instead of converting it to a string. This is faster and avoids unnecessary memory allocation.
@@ -36,23 +36,23 @@ The code uses mathematical operations to reverse the integer instead of converti
 This solution takes $O(\log_{10}(x))$ time (since there are roughly $\log_{10}(x)$ digits in $x$) and $O(1)$ space.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Reverse Integer**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Reverse Integer**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Math & Logic**
+**Bit Manipulation**
 
 ## Topics
-- Math
-- Simulation
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 JavaScript
@@ -61,7 +61,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

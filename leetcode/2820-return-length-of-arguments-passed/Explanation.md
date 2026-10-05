@@ -1,14 +1,14 @@
-# LeetCode 2820: Election Results
+# LeetCode 2703: Return Length of Arguments Passed
 
-**LeetCode Problem #2820 — Election Results**
-Solve LeetCode Election Results using TypeScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #2703 — Return Length of Arguments Passed**
+Solve LeetCode Return Length of Arguments Passed using TypeScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Election Results |
-| LeetCode | #2820 |
-| Difficulty | Medium |
+| Problem | Return Length of Arguments Passed |
+| LeetCode | #2703 |
+| Difficulty | Easy |
 | Language | TypeScript |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -31,7 +31,7 @@ Uses rest parameters: `function(...args) { return args.length; }`. The spread op
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Election Results**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Return Length of Arguments Passed**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3225. Maximum Score From Grid Operations](../3225-length-of-longest-subarray-with-at-most-k-frequency/)
-- [3329. Count Substrings With K-Frequency Characters II](../3329-find-the-length-of-the-longest-common-prefix/)
-- [3349. Adjacent Increasing Subarrays Detection I](../3349-maximum-length-substring-with-two-occurrences/)
+- [2958. Length of Longest Subarray With at Most K Frequency](../3225-length-of-longest-subarray-with-at-most-k-frequency/)
+- [3043. Find the Length of the Longest Common Prefix](../3329-find-the-length-of-the-longest-common-prefix/)
+- [3090. Maximum Length Substring With Two Occurrences](../3349-maximum-length-substring-with-two-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/return-length-of-arguments-passed/)

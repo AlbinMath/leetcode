@@ -1,7 +1,7 @@
 # LeetCode 577: Employee Bonus
 
 **LeetCode Problem #577 — Employee Bonus**
-Solve LeetCode Employee Bonus using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Employee Bonus using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Employee Bonus using SQL and Database / SQL. This solution finds 
 | LeetCode | #577 |
 | Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Employee Bonus**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Employee Bonus**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](../1509-replace-employee-id-with-the-unique-identifier/)
-- [1882. Process Tasks Using Servers](../1882-the-number-of-employees-which-report-to-each-employee/)
-- [1892. Page Recommendations II](../1892-find-total-time-spent-by-each-employee/)
+- [1378. Replace Employee ID With The Unique Identifier](../1509-replace-employee-id-with-the-unique-identifier/)
+- [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
+- [1741. Find Total Time Spent by Each Employee](../1892-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employee-bonus/)

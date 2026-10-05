@@ -1,16 +1,16 @@
-# LeetCode 3933: Largest Local Values in a Matrix II
+# LeetCode 3629: Minimum Jumps to Reach End via Prime Teleportation
 
-**LeetCode Problem #3933 — Largest Local Values in a Matrix II**
-Solve LeetCode Largest Local Values in a Matrix II using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3629 — Minimum Jumps to Reach End via Prime Teleportation**
+Solve LeetCode Minimum Jumps to Reach End via Prime Teleportation using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Largest Local Values in a Matrix II |
-| LeetCode | #3933 |
+| Problem | Minimum Jumps to Reach End via Prime Teleportation |
+| LeetCode | #3629 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Largest Local Values in a Matrix II**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Minimum Jumps to Reach End via Prime Teleportation**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2855. Minimum Right Shifts to Sort the Array](../2855-maximum-number-of-jumps-to-reach-the-last-index/)
+- [2770. Maximum Number of Jumps to Reach the Last Index](../2855-maximum-number-of-jumps-to-reach-the-last-index/)
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 

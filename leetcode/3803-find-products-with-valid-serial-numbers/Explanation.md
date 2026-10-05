@@ -1,16 +1,16 @@
-# LeetCode 3803: Count Residue Prefixes
+# LeetCode 3465: Find Products with Valid Serial Numbers
 
-**LeetCode Problem #3803 — Count Residue Prefixes**
-Solve LeetCode Count Residue Prefixes using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #3465 — Find Products with Valid Serial Numbers**
+Solve LeetCode Find Products with Valid Serial Numbers using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Residue Prefixes |
-| LeetCode | #3803 |
+| Problem | Find Products with Valid Serial Numbers |
+| LeetCode | #3465 |
 | Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Residue Prefixes**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Find Products with Valid Serial Numbers**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
 - [448. Find All Numbers Disappeared in an Array](../0448-find-all-numbers-disappeared-in-an-array/)
-- [1664. Ways to Make a Fair Array](../1664-find-users-with-valid-e-mails/)
+- [1517. Find Users With Valid E-Mails](../1664-find-users-with-valid-e-mails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-products-with-valid-serial-numbers/)

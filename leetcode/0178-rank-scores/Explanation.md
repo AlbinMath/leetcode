@@ -1,7 +1,7 @@
 # LeetCode 178: Rank Scores
 
 **LeetCode Problem #178 — Rank Scores**
-Solve LeetCode Rank Scores using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Rank Scores using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Rank Scores using SQL and Database / SQL. This solution finds the
 | LeetCode | #178 |
 | Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Rank Scores**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Rank Scores**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1256. Encode Number](../1256-rank-transform-of-an-array/)
+- [1331. Rank Transform of an Array](../1256-rank-transform-of-an-array/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
 - [176. Second Highest Salary](../0176-second-highest-salary/)
 

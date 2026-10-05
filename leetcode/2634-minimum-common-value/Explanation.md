@@ -1,16 +1,16 @@
-# LeetCode 2634: Filter Elements from Array
+# LeetCode 2540: Minimum Common Value
 
-**LeetCode Problem #2634 — Filter Elements from Array**
-Solve LeetCode Filter Elements from Array using C++ and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+**LeetCode Problem #2540 — Minimum Common Value**
+Solve LeetCode Minimum Common Value using C++ and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Filter Elements from Array |
-| LeetCode | #2634 |
+| Problem | Minimum Common Value |
+| LeetCode | #2540 |
 | Difficulty | Easy |
 | Language | C++ |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Use **two pointers**, one for each array. If values match, return it. Otherwise 
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Filter Elements from Array**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Minimum Common Value**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

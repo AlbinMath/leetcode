@@ -1,13 +1,13 @@
-# LeetCode 4245: Count Commas in Range
+# LeetCode 3870: Count Commas in Range
 
-**LeetCode Problem #4245 — Count Commas in Range**
+**LeetCode Problem #3870 — Count Commas in Range**
 Solve LeetCode Count Commas in Range using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Count Commas in Range |
-| LeetCode | #4245 |
+| LeetCode | #3870 |
 | Difficulty | Easy |
 | Language | JavaScript |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4248. Count Commas in Range II](../4248-count-commas-in-range-ii/)
-- [1877. Minimize Maximum Pair Sum in Array](../1877-find-followers-count/)
-- [2057. Smallest Index With Equal Value](../2057-count-salary-categories/)
+- [3871. Count Commas in Range II](../4248-count-commas-in-range-ii/)
+- [1729. Find Followers Count](../1877-find-followers-count/)
+- [1907. Count Salary Categories](../2057-count-salary-categories/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-commas-in-range/)

@@ -1,16 +1,16 @@
-# LeetCode 2127: Maximum Employees to Be Invited to a Meeting
+# LeetCode 1978: Employees Whose Manager Left the Company
 
-**LeetCode Problem #2127 — Maximum Employees to Be Invited to a Meeting**
-Solve LeetCode Maximum Employees to Be Invited to a Meeting using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1978 — Employees Whose Manager Left the Company**
+Solve LeetCode Employees Whose Manager Left the Company using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Employees to Be Invited to a Meeting |
-| LeetCode | #2127 |
-| Difficulty | Hard |
+| Problem | Employees Whose Manager Left the Company |
+| LeetCode | #1978 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Employees to Be Invited to a Meeting**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Employees Whose Manager Left the Company**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
 - [627. Swap Sex of Employees](../0627-swap-sex-of-employees/)
-- [1161. Maximum Level Sum of a Binary Tree](../1161-project-employees-i/)
+- [1075. Project Employees I](../1161-project-employees-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-whose-manager-left-the-company/)

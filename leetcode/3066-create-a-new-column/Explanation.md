@@ -1,16 +1,16 @@
-# LeetCode 3066: Minimum Operations to Exceed Threshold Value II
+# LeetCode 2881: Create a New Column
 
-**LeetCode Problem #3066 — Minimum Operations to Exceed Threshold Value II**
-Solve LeetCode Minimum Operations to Exceed Threshold Value II using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+**LeetCode Problem #2881 — Create a New Column**
+Solve LeetCode Create a New Column using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Operations to Exceed Threshold Value II |
-| LeetCode | #3066 |
-| Difficulty | Medium |
+| Problem | Create a New Column |
+| LeetCode | #2881 |
+| Difficulty | Easy |
 | Language | Python |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Operations to Exceed Threshold Value II**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Create a New Column**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2306. Naming a Company](../2306-create-binary-tree-from-descriptions/)
-- [2809. Minimum Time to Make Array Sum At Most x](../2809-create-hello-world-function/)
-- [3062. Winner of the Linked List Game](../3062-create-a-dataframe-from-list/)
+- [2196. Create Binary Tree From Descriptions](../2306-create-binary-tree-from-descriptions/)
+- [2667. Create Hello World Function](../2809-create-hello-world-function/)
+- [2877. Create a DataFrame from List](../3062-create-a-dataframe-from-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-a-new-column/)

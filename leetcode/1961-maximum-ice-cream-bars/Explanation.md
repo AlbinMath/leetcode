@@ -1,14 +1,14 @@
-# LeetCode 1961: Check If String Is a Prefix of Array
+# LeetCode 1833: Maximum Ice Cream Bars
 
-**LeetCode Problem #1961 — Check If String Is a Prefix of Array**
-Solve LeetCode Check If String Is a Prefix of Array using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+**LeetCode Problem #1833 — Maximum Ice Cream Bars**
+Solve LeetCode Maximum Ice Cream Bars using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Check If String Is a Prefix of Array |
-| LeetCode | #1961 |
-| Difficulty | Easy |
+| Problem | Maximum Ice Cream Bars |
+| LeetCode | #1833 |
+| Difficulty | Medium |
 | Language | Java |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -35,7 +35,7 @@ Time complexity is $O(N \log N)$ and space complexity is $O(\log N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Check If String Is a Prefix of Array**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Maximum Ice Cream Bars**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -69,8 +69,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
-- [1208. Get Equal Substrings Within Budget](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [1297. Maximum Number of Occurrences of a Substring](../1297-maximum-number-of-balloons/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-ice-cream-bars/)

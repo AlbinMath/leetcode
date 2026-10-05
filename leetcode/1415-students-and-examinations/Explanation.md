@@ -1,16 +1,16 @@
-# LeetCode 1415: The k-th Lexicographical String of All Happy Strings of Length n
+# LeetCode 1280: Students and Examinations
 
-**LeetCode Problem #1415 — The k-th Lexicographical String of All Happy Strings of Length n**
-Solve LeetCode The k-th Lexicographical String of All Happy Strings of Length n using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1280 — Students and Examinations**
+Solve LeetCode Students and Examinations using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | The k-th Lexicographical String of All Happy Strings of Length n |
-| LeetCode | #1415 |
-| Difficulty | Medium |
+| Problem | Students and Examinations |
+| LeetCode | #1280 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **The k-th Lexicographical String of All Happy Strings of Length n**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Students and Examinations**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [596. Classes With at Least 5 Students](../0596-classes-with-at-least-5-students/)
-- [3767. Maximize Points After Choosing K Tasks](../3767-find-students-who-improved/)
-- [3961. Maximize Sum of Device Ratings](../3961-find-students-with-study-spiral-pattern/)
+- [3421. Find Students Who Improved](../3767-find-students-who-improved/)
+- [3617. Find Students with Study Spiral Pattern](../3961-find-students-with-study-spiral-pattern/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/students-and-examinations/)

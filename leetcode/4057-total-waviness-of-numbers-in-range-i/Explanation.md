@@ -1,16 +1,16 @@
-# LeetCode 4057: Number of Intersecting Interval Pairs II
+# LeetCode 3751: Total Waviness of Numbers in Range I
 
-**LeetCode Problem #4057 — Number of Intersecting Interval Pairs II**
-Solve LeetCode Number of Intersecting Interval Pairs II using Java and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3751 — Total Waviness of Numbers in Range I**
+Solve LeetCode Total Waviness of Numbers in Range I using Java and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number of Intersecting Interval Pairs II |
-| LeetCode | #4057 |
+| Problem | Total Waviness of Numbers in Range I |
+| LeetCode | #3751 |
 | Difficulty | Medium |
 | Language | Java |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number of Intersecting Interval Pairs II**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Total Waviness of Numbers in Range I**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4128. Total Waviness of Numbers in Range II](../4128-total-waviness-of-numbers-in-range-ii/)
-- [4005. Minimum Operations to Make Array Equal III](../4005-maximum-total-subarray-value-i/)
+- [3753. Total Waviness of Numbers in Range II](../4128-total-waviness-of-numbers-in-range-ii/)
+- [3689. Maximum Total Subarray Value I](../4005-maximum-total-subarray-value-i/)
 - [2. Add Two Numbers](../0002-add-two-numbers/)
 
 ## LeetCode

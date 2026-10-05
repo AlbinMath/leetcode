@@ -1,16 +1,16 @@
-# LeetCode 4043: Count Rotations With Exactly K Equal Adjacent Pairs
+# LeetCode 3673: Find Zombie Sessions
 
-**LeetCode Problem #4043 — Count Rotations With Exactly K Equal Adjacent Pairs**
-Solve LeetCode Count Rotations With Exactly K Equal Adjacent Pairs using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #3673 — Find Zombie Sessions**
+Solve LeetCode Find Zombie Sessions using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Rotations With Exactly K Equal Adjacent Pairs |
-| LeetCode | #4043 |
-| Difficulty | Easy |
+| Problem | Find Zombie Sessions |
+| LeetCode | #3673 |
+| Difficulty | Hard |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Rotations With Exactly K Equal Adjacent Pairs**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Find Zombie Sessions**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

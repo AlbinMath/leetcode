@@ -1,16 +1,16 @@
-# LeetCode 1833: Maximum Ice Cream Bars
+# LeetCode 1732: Find the Highest Altitude
 
-**LeetCode Problem #1833 — Maximum Ice Cream Bars**
-Solve LeetCode Maximum Ice Cream Bars using Kotlin and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #1732 — Find the Highest Altitude**
+Solve LeetCode Find the Highest Altitude using Kotlin and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Ice Cream Bars |
-| LeetCode | #1833 |
-| Difficulty | Medium |
+| Problem | Find the Highest Altitude |
+| LeetCode | #1732 |
+| Difficulty | Easy |
 | Language | Kotlin |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -29,11 +29,11 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Ice Cream Bars**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find the Highest Altitude**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

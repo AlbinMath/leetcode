@@ -1,7 +1,7 @@
 # LeetCode 115: Distinct Subsequences
 
 **LeetCode Problem #115 — Distinct Subsequences**
-Solve LeetCode Distinct Subsequences using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+Solve LeetCode Distinct Subsequences using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Distinct Subsequences using JavaScript and Dynamic Programming. T
 | LeetCode | #115 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -36,11 +36,11 @@ Time complexity is $O(M \times N)$ where $M$ and $N$ are the lengths of `s` and 
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Distinct Subsequences**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Distinct Subsequences**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -73,9 +73,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [977. Squares of a Sorted Array](../0977-distinct-subsequences-ii/)
-- [1159. Market Analysis II](../1159-smallest-subsequence-of-distinct-characters/)
-- [3608. Minimum Time for K Connected Components](../3608-find-the-number-of-subsequences-with-equal-gcd/)
+- [940. Distinct Subsequences II](../0977-distinct-subsequences-ii/)
+- [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
+- [3336. Find the Number of Subsequences With Equal GCD](../3608-find-the-number-of-subsequences-with-equal-gcd/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-subsequences/)

@@ -1,16 +1,16 @@
-# LeetCode 2746: Decremental String Concatenation
+# LeetCode 2634: Filter Elements from Array
 
-**LeetCode Problem #2746 — Decremental String Concatenation**
-Solve LeetCode Decremental String Concatenation using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2634 — Filter Elements from Array**
+Solve LeetCode Filter Elements from Array using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Decremental String Concatenation |
-| LeetCode | #2746 |
-| Difficulty | Medium |
+| Problem | Filter Elements from Array |
+| LeetCode | #2634 |
+| Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Iterates through the array, calls `fn(arr[i], i)` for each element, and pushes e
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Decremental String Concatenation**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Filter Elements from Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1574. Shortest Subarray to be Removed to Make Array Sorted](../1574-maximum-product-of-two-elements-in-an-array/)
-- [2212. Maximum Points in an Archery Competition](../2212-removing-minimum-and-maximum-from-array/)
-- [3219. Minimum Cost for Cutting Cake II](../3219-make-lexicographically-smallest-array-by-swapping-elements/)
+- [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
+- [2091. Removing Minimum and Maximum From Array](../2212-removing-minimum-and-maximum-from-array/)
+- [2948. Make Lexicographically Smallest Array by Swapping Elements](../3219-make-lexicographically-smallest-array-by-swapping-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/filter-elements-from-array/)

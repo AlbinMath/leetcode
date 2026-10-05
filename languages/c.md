@@ -6,4 +6,4 @@ A collection of LeetCode problems implemented in **C#** with detailed complexity
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 4080 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Easy | Array / General | O(n) | O(1) |
+| 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Easy | Array / General | O(n) | O(1) |

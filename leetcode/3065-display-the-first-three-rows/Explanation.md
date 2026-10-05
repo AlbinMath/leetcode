@@ -1,16 +1,16 @@
-# LeetCode 3065: Minimum Operations to Exceed Threshold Value I
+# LeetCode 2879: Display the First Three Rows
 
-**LeetCode Problem #3065 — Minimum Operations to Exceed Threshold Value I**
-Solve LeetCode Minimum Operations to Exceed Threshold Value I using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2879 — Display the First Three Rows**
+Solve LeetCode Display the First Three Rows using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Operations to Exceed Threshold Value I |
-| LeetCode | #3065 |
+| Problem | Display the First Three Rows |
+| LeetCode | #2879 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Operations to Exceed Threshold Value I**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Display the First Three Rows**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [185. Department Top Three Salaries](../0185-department-top-three-salaries/)
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
-- [1136. Parallel Courses](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
+- [1050. Actors and Directors Who Cooperated At Least Three Times](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/display-the-first-three-rows/)

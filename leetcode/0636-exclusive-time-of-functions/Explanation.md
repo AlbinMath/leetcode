@@ -72,9 +72,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1801. Number of Orders in the Backlog](../1801-average-time-of-process-per-machine/)
-- [1892. Page Recommendations II](../1892-find-total-time-spent-by-each-employee/)
-- [2749. Minimum Operations to Make the Integer Zero](../2749-promise-time-limit/)
+- [1661. Average Time of Process per Machine](../1801-average-time-of-process-per-machine/)
+- [1741. Find Total Time Spent by Each Employee](../1892-find-total-time-spent-by-each-employee/)
+- [2622. Cache With Time Limit](../2762-cache-with-time-limit/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/exclusive-time-of-functions/)

@@ -1,14 +1,14 @@
-# LeetCode 3072: Distribute Elements Into Two Arrays II
+# LeetCode 2889: Reshape Data: Pivot
 
-**LeetCode Problem #3072 — Distribute Elements Into Two Arrays II**
-Solve LeetCode Distribute Elements Into Two Arrays II using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #2889 — Reshape Data: Pivot**
+Solve LeetCode Reshape Data: Pivot using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Distribute Elements Into Two Arrays II |
-| LeetCode | #3072 |
-| Difficulty | Hard |
+| Problem | Reshape Data: Pivot |
+| LeetCode | #2889 |
+| Difficulty | Easy |
 | Language | Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Distribute Elements Into Two Arrays II**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Reshape Data: Pivot**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3064. Guess the Number Using Bitwise Questions I](../3064-reshape-data-concatenate/)
-- [3073. Maximum Increasing Triplet Value](../3073-reshape-data-melt/)
-- [2265. Count Nodes Equal to Average of Subtree](../2265-partition-array-according-to-given-pivot/)
+- [2888. Reshape Data: Concatenate](../3064-reshape-data-concatenate/)
+- [2890. Reshape Data: Melt](../3073-reshape-data-melt/)
+- [2161. Partition Array According to Given Pivot](../2265-partition-array-according-to-given-pivot/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reshape-data-pivot/)

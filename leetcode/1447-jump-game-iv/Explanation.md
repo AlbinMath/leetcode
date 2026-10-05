@@ -1,14 +1,14 @@
-# LeetCode 1447: Simplified Fractions
+# LeetCode 1345: Jump Game IV
 
-**LeetCode Problem #1447 — Simplified Fractions**
-Solve LeetCode Simplified Fractions using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #1345 — Jump Game IV**
+Solve LeetCode Jump Game IV using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Simplified Fractions |
-| LeetCode | #1447 |
-| Difficulty | Medium |
+| Problem | Jump Game IV |
+| LeetCode | #1345 |
+| Difficulty | Hard |
 | Language | C++ |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -38,7 +38,7 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Simplified Fractions**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Jump Game IV**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -71,9 +71,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1182. Shortest Distance to Target Color](../1182-game-play-analysis-iv/)
-- [1428. Leftmost Column with at Least a One](../1428-jump-game-iii/)
-- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../1466-jump-game-v/)
+- [550. Game Play Analysis IV](../1182-game-play-analysis-iv/)
+- [1306. Jump Game III](../1428-jump-game-iii/)
+- [1340. Jump Game V](../1466-jump-game-v/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-iv/)

@@ -1,14 +1,14 @@
-# LeetCode 4005: Minimum Operations to Make Array Equal III
+# LeetCode 3689: Maximum Total Subarray Value I
 
-**LeetCode Problem #4005 — Minimum Operations to Make Array Equal III**
-Solve LeetCode Minimum Operations to Make Array Equal III using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+**LeetCode Problem #3689 — Maximum Total Subarray Value I**
+Solve LeetCode Maximum Total Subarray Value I using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Operations to Make Array Equal III |
-| LeetCode | #4005 |
-| Difficulty | Hard |
+| Problem | Maximum Total Subarray Value I |
+| LeetCode | #3689 |
+| Difficulty | Medium |
 | Language | Java |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Operations to Make Array Equal III**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Maximum Total Subarray Value I**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [4007. Widest Possible Fence](../4007-maximum-total-subarray-value-ii/)
-- [3831. Median of a Binary Search Tree Level](../3831-find-x-value-of-array-i/)
-- [4057. Number of Intersecting Interval Pairs II](../4057-total-waviness-of-numbers-in-range-i/)
+- [3691. Maximum Total Subarray Value II](../4007-maximum-total-subarray-value-ii/)
+- [3524. Find X Value of Array I](../3831-find-x-value-of-array-i/)
+- [3751. Total Waviness of Numbers in Range I](../4057-total-waviness-of-numbers-in-range-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-subarray-value-i/)

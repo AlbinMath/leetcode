@@ -1,17 +1,17 @@
-# LeetCode 866: Prime Palindrome
+# LeetCode 836: Rectangle Overlap
 
-**LeetCode Problem #866 — Prime Palindrome**
-Solve LeetCode Prime Palindrome using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+**LeetCode Problem #836 — Rectangle Overlap**
+Solve LeetCode Rectangle Overlap using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Prime Palindrome |
-| LeetCode | #866 |
-| Difficulty | Medium |
+| Problem | Rectangle Overlap |
+| LeetCode | #836 |
+| Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
 | Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,7 +20,7 @@ Solve LeetCode Prime Palindrome using JavaScript and Math & Logic. This solution
 An axis-aligned rectangle is represented as a list  [x1, y1, x2, y2] , where  (x1, y1)  is the coordinate of its bottom-left corner, and  (x2, y2)  is the coordinate of its top-right corner. Its top and bottom edges are parallel to the X-axis, and its left and right edges are parallel to the Y-axis.
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code checks for overlap by verifying that neither rectangle is entirely to the left, right, above, or below the other. This is equivalent to checking that the intervals overlap in both dimensions:
@@ -33,12 +33,12 @@ The code checks for overlap by verifying that neither rectangle is entirely to t
 If all four conditions are true, the rectangles overlap. Time and space complexity are both $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Prime Palindrome**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Rectangle Overlap**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -71,8 +71,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
-- [864. Shortest Path to Get All Keys](../0864-image-overlap/)
-- [1501. Countries You Can Safely Invest In](../1501-circle-and-rectangle-overlapping/)
+- [835. Image Overlap](../0864-image-overlap/)
+- [1401. Circle and Rectangle Overlapping](../1501-circle-and-rectangle-overlapping/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rectangle-overlap/)

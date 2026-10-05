@@ -1,7 +1,7 @@
 # LeetCode 9: Palindrome Number
 
 **LeetCode Problem #9 — Palindrome Number**
-Solve LeetCode Palindrome Number using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+Solve LeetCode Palindrome Number using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Palindrome Number using Python and Two Pointers. This solution fi
 | LeetCode | #9 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -31,11 +31,11 @@ Finally, we check if the `original` number is equal to the `reversed_num`.
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Palindrome Number**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Palindrome Number**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -68,7 +68,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2559. Count Vowel Strings in Ranges](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
+- [2472. Maximum Number of Non-overlapping Palindrome Substrings](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
 - [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
 

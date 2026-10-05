@@ -1,18 +1,18 @@
-# LeetCode 3329: Count Substrings With K-Frequency Characters II
+# LeetCode 3043: Find the Length of the Longest Common Prefix
 
-**LeetCode Problem #3329 — Count Substrings With K-Frequency Characters II**
-Solve LeetCode Count Substrings With K-Frequency Characters II using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #3043 — Find the Length of the Longest Common Prefix**
+Solve LeetCode Find the Length of the Longest Common Prefix using C++ and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Substrings With K-Frequency Characters II |
-| LeetCode | #3329 |
-| Difficulty | Hard |
+| Problem | Find the Length of the Longest Common Prefix |
+| LeetCode | #3043 |
+| Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Complement Lookup / Hash Table Frequency |
-| Data Structure | Dictionary / Hash Map |
-| Pattern | Hash Map |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,30 +20,29 @@ Solve LeetCode Count Substrings With K-Frequency Characters II using C++ and Has
 You are given two arrays with  positive  integers  arr1  and  arr2 .
 
 ## Key Insight
-Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Complement Lookup / Hash Table Frequency**. By maintaining state efficiently in a **Dictionary / Hash Map**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Dictionary / Hash Map**).
-2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
+1. Initialize state variables / data structure (**Prefix Array**).
+2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Substrings With K-Frequency Characters II**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Find the Length of the Longest Common Prefix**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Hash Map**
+**Prefix Sum**
 
 ## Topics
-- Hash Table
+- Prefix Sum
 - Array
-- Complement Lookup
 
 ## Language
 C++
@@ -52,21 +51,21 @@ C++
 - [solution.cpp](./solution.cpp)
 
 ## Why This Works
-By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Using the same element twice.
-2. Checking the map before inserting elements in the correct order.
-3. Inefficient hash functions or unnecessary duplicate key updates.
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
 
 ## Interview Notes
-- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
-- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
 - [14. Longest Common Prefix](../0014-longest-common-prefix/)
-- [2766. Relocate Marbles](../2766-find-the-prefix-common-array-of-two-arrays/)
-- [2106. Maximum Fruits Harvested After at Most K Steps](../2106-find-greatest-common-divisor-of-array/)
+- [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
+- [1979. Find Greatest Common Divisor of Array](../2106-find-greatest-common-divisor-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/)

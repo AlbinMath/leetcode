@@ -1,7 +1,7 @@
 # LeetCode 448: Find All Numbers Disappeared in an Array
 
 **LeetCode Problem #448 — Find All Numbers Disappeared in an Array**
-Solve LeetCode Find All Numbers Disappeared in an Array using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+Solve LeetCode Find All Numbers Disappeared in an Array using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Find All Numbers Disappeared in an Array using TypeScript and Arr
 | LeetCode | #448 |
 | Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -32,11 +32,11 @@ Time complexity is $O(N)$ and space complexity is $O(1)$ (excluding the output a
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find All Numbers Disappeared in an Array**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find All Numbers Disappeared in an Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -69,7 +69,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [2106. Maximum Fruits Harvested After at Most K Steps](../2106-find-greatest-common-divisor-of-array/)
+- [1979. Find Greatest Common Divisor of Array](../2106-find-greatest-common-divisor-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)

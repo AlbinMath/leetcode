@@ -1,16 +1,16 @@
-# LeetCode 4107: Find Missing Elements
+# LeetCode 3731: Find Missing Elements
 
-**LeetCode Problem #4107 — Find Missing Elements**
-Solve LeetCode Find Missing Elements using PHP and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3731 — Find Missing Elements**
+Solve LeetCode Find Missing Elements using PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Find Missing Elements |
-| LeetCode | #4107 |
+| LeetCode | #3731 |
 | Difficulty | Easy |
 | Language | PHP |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Missing Elements**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find Missing Elements**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3299. Sum of Consecutive Subsequences](../3299-find-the-maximum-number-of-elements-in-subset/)
-- [3705. Find Golden Hour Customers](../3705-find-the-largest-almost-missing-integer/)
+- [3020. Find the Maximum Number of Elements in Subset](../3299-find-the-maximum-number-of-elements-in-subset/)
+- [3471. Find the Largest Almost Missing Integer](../3705-find-the-largest-almost-missing-integer/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode

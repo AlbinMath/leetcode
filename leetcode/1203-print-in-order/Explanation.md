@@ -1,14 +1,14 @@
-# LeetCode 1203: Sort Items by Groups Respecting Dependencies
+# LeetCode 1114: Print in Order
 
-**LeetCode Problem #1203 — Sort Items by Groups Respecting Dependencies**
-Solve LeetCode Sort Items by Groups Respecting Dependencies using Java and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #1114 — Print in Order**
+Solve LeetCode Print in Order using Java and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Sort Items by Groups Respecting Dependencies |
-| LeetCode | #1203 |
-| Difficulty | Hard |
+| Problem | Print in Order |
+| LeetCode | #1114 |
+| Difficulty | Easy |
 | Language | Java |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -38,7 +38,7 @@ This chain of semaphores guarantees the correct order regardless of thread sched
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Sort Items by Groups Respecting Dependencies**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Print in Order**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -72,8 +72,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [183. Customers Who Never Order](../0183-customers-who-never-order/)
-- [1187. Make Array Strictly Increasing](../1187-print-foobar-alternately/)
-- [1216. Valid Palindrome III](../1216-print-zero-even-odd/)
+- [1115. Print FooBar Alternately](../1187-print-foobar-alternately/)
+- [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-in-order/)

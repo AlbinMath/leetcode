@@ -1,14 +1,14 @@
-# LeetCode 1159: Market Analysis II
+# LeetCode 1081: Smallest Subsequence of Distinct Characters
 
-**LeetCode Problem #1159 — Market Analysis II**
-Solve LeetCode Market Analysis II using C++ and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
+**LeetCode Problem #1081 — Smallest Subsequence of Distinct Characters**
+Solve LeetCode Smallest Subsequence of Distinct Characters using C++ and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Market Analysis II |
-| LeetCode | #1159 |
-| Difficulty | Hard |
+| Problem | Smallest Subsequence of Distinct Characters |
+| LeetCode | #1081 |
+| Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Monotonic Stack Filtering |
 | Data Structure | Stack |
@@ -41,7 +41,7 @@ Time complexity is $O(N)$ and space complexity is $O(1)$ (at most 26 characters 
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Market Analysis II**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+Consider the standard input for **Smallest Subsequence of Distinct Characters**. Applying **Monotonic Stack Filtering** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -76,7 +76,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 - [115. Distinct Subsequences](../0115-distinct-subsequences/)
-- [977. Squares of a Sorted Array](../0977-distinct-subsequences-ii/)
+- [940. Distinct Subsequences II](../0977-distinct-subsequences-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)

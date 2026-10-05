@@ -1,14 +1,14 @@
-# LeetCode 3376: Minimum Time to Break Locks I
+# LeetCode 3093: Longest Common Suffix Queries
 
-**LeetCode Problem #3376 — Minimum Time to Break Locks I**
-Solve LeetCode Minimum Time to Break Locks I using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #3093 — Longest Common Suffix Queries**
+Solve LeetCode Longest Common Suffix Queries using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Time to Break Locks I |
-| LeetCode | #3376 |
-| Difficulty | Medium |
+| Problem | Longest Common Suffix Queries |
+| LeetCode | #3093 |
+| Difficulty | Hard |
 | Language | Python |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Time to Break Locks I**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Longest Common Suffix Queries**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,7 +65,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [14. Longest Common Prefix](../0014-longest-common-prefix/)
-- [3329. Count Substrings With K-Frequency Characters II](../3329-find-the-length-of-the-longest-common-prefix/)
+- [3043. Find the Length of the Longest Common Prefix](../3329-find-the-length-of-the-longest-common-prefix/)
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode

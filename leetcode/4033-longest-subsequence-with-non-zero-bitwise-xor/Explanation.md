@@ -1,16 +1,16 @@
-# LeetCode 4033: Valid K-Unique Subarrays I
+# LeetCode 3702: Longest Subsequence With Non-Zero Bitwise XOR
 
-**LeetCode Problem #4033 — Valid K-Unique Subarrays I**
-Solve LeetCode Valid K-Unique Subarrays I using C++ and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+**LeetCode Problem #3702 — Longest Subsequence With Non-Zero Bitwise XOR**
+Solve LeetCode Longest Subsequence With Non-Zero Bitwise XOR using C++ and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Valid K-Unique Subarrays I |
-| LeetCode | #4033 |
-| Difficulty | Hard |
+| Problem | Longest Subsequence With Non-Zero Bitwise XOR |
+| LeetCode | #3702 |
+| Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Memoization / Bottom-Up State Transition**.
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Valid K-Unique Subarrays I**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Longest Subsequence With Non-Zero Bitwise XOR**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,8 +64,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [4135. Concatenate Non-Zero Digits and Multiply by Sum I](../4135-concatenate-non-zero-digits-and-multiply-by-sum-i/)
-- [4136. Concatenate Non-Zero Digits and Multiply by Sum II](../4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/)
+- [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../4135-concatenate-non-zero-digits-and-multiply-by-sum-i/)
+- [3756. Concatenate Non-Zero Digits and Multiply by Sum II](../4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/)
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode

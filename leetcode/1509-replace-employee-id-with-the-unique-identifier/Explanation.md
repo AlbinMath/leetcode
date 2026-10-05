@@ -1,16 +1,16 @@
-# LeetCode 1509: Minimum Difference Between Largest and Smallest Value in Three Moves
+# LeetCode 1378: Replace Employee ID With The Unique Identifier
 
-**LeetCode Problem #1509 — Minimum Difference Between Largest and Smallest Value in Three Moves**
-Solve LeetCode Minimum Difference Between Largest and Smallest Value in Three Moves using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1378 — Replace Employee ID With The Unique Identifier**
+Solve LeetCode Replace Employee ID With The Unique Identifier using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Difference Between Largest and Smallest Value in Three Moves |
-| LeetCode | #1509 |
-| Difficulty | Medium |
+| Problem | Replace Employee ID With The Unique Identifier |
+| LeetCode | #1378 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Difference Between Largest and Smallest Value in Three Moves**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Replace Employee ID With The Unique Identifier**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [577. Employee Bonus](../0577-employee-bonus/)
-- [1882. Process Tasks Using Servers](../1882-the-number-of-employees-which-report-to-each-employee/)
-- [1892. Page Recommendations II](../1892-find-total-time-spent-by-each-employee/)
+- [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
+- [1741. Find Total Time Spent by Each Employee](../1892-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)

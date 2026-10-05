@@ -1,17 +1,17 @@
-# LeetCode 3375: Minimum Operations to Make Array Values Equal to K
+# LeetCode 3116: Kth Smallest Amount With Single Denomination Combination
 
-**LeetCode Problem #3375 — Minimum Operations to Make Array Values Equal to K**
-Solve LeetCode Minimum Operations to Make Array Values Equal to K using Java and Backtracking. This solution finds the optimal result using Backtracking Search in O(n) time.
+**LeetCode Problem #3116 — Kth Smallest Amount With Single Denomination Combination**
+Solve LeetCode Kth Smallest Amount With Single Denomination Combination using Java and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Operations to Make Array Values Equal to K |
-| LeetCode | #3375 |
-| Difficulty | Easy |
+| Problem | Kth Smallest Amount With Single Denomination Combination |
+| LeetCode | #3116 |
+| Difficulty | Hard |
 | Language | Java |
-| Algorithm | Backtracking Search |
-| Data Structure | Recursion Tree / Array |
+| Algorithm | Backtracking Recursive Search |
+| Data Structure | Recursion Tree |
 | Pattern | Backtracking |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,18 +20,18 @@ Solve LeetCode Minimum Operations to Make Array Values Equal to K using Java and
 You are given an integer array  coins  representing coins of different denominations and an integer  k .
 
 ## Key Insight
-Leverage **Backtracking** with **Recursion Tree / Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Backtracking** with **Recursion Tree** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Recursion Tree / Array**).
-2. Process elements sequentially using **Backtracking Search**.
+1. Initialize state variables / data structure (**Recursion Tree**).
+2. Process elements sequentially using **Backtracking Recursive Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Operations to Make Array Values Equal to K**. Applying **Backtracking Search** yields the target result step by step.
+Consider the standard input for **Kth Smallest Amount With Single Denomination Combination**. Applying **Backtracking Recursive Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,8 +64,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [619. Biggest Single Number](../0619-biggest-single-number/)
-- [1159. Market Analysis II](../1159-smallest-subsequence-of-distinct-characters/)
-- [3150. Invalid Tweets II](../3150-shortest-and-lexicographically-smallest-beautiful-string/)
+- [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
+- [2904. Shortest and Lexicographically Smallest Beautiful String](../3150-shortest-and-lexicographically-smallest-beautiful-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/)

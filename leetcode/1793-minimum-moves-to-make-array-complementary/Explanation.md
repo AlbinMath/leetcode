@@ -1,14 +1,14 @@
-# LeetCode 1793: Maximum Score of a Good Subarray
+# LeetCode 1674: Minimum Moves to Make Array Complementary
 
-**LeetCode Problem #1793 — Maximum Score of a Good Subarray**
-Solve LeetCode Maximum Score of a Good Subarray using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #1674 — Minimum Moves to Make Array Complementary**
+Solve LeetCode Minimum Moves to Make Array Complementary using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Score of a Good Subarray |
-| LeetCode | #1793 |
-| Difficulty | Hard |
+| Problem | Minimum Moves to Make Array Complementary |
+| LeetCode | #1674 |
+| Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -37,7 +37,7 @@ Time complexity is $O(N + \text{limit})$ and space complexity is $O(\text{limit}
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Score of a Good Subarray**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Minimum Moves to Make Array Complementary**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -72,7 +72,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [2212. Maximum Points in an Archery Competition](../2212-removing-minimum-and-maximum-from-array/)
+- [2091. Removing Minimum and Maximum From Array](../2212-removing-minimum-and-maximum-from-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)

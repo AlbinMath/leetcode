@@ -1,14 +1,14 @@
-# LeetCode 1776: Car Fleet II
+# LeetCode 1658: Minimum Operations to Reduce X to Zero
 
-**LeetCode Problem #1776 — Car Fleet II**
-Solve LeetCode Car Fleet II using JavaScript and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
+**LeetCode Problem #1658 — Minimum Operations to Reduce X to Zero**
+Solve LeetCode Minimum Operations to Reduce X to Zero using JavaScript and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Car Fleet II |
-| LeetCode | #1776 |
-| Difficulty | Hard |
+| Problem | Minimum Operations to Reduce X to Zero |
+| LeetCode | #1658 |
+| Difficulty | Medium |
 | Language | JavaScript |
 | Algorithm | Dynamic Sliding Window Traversal |
 | Data Structure | Array / Hash Set |
@@ -42,7 +42,7 @@ If we remove a prefix and a suffix that sum to `x`, then the remaining elements 
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Car Fleet II**. Applying **Dynamic Sliding Window Traversal** yields the target result step by step.
+Consider the standard input for **Minimum Operations to Reduce X to Zero**. Applying **Dynamic Sliding Window Traversal** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -77,7 +77,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 ## Related Problems
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [1216. Valid Palindrome III](../1216-print-zero-even-odd/)
+- [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)

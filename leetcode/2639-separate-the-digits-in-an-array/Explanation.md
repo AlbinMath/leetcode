@@ -1,17 +1,17 @@
-# LeetCode 2639: Find the Width of Columns of a Grid
+# LeetCode 2553: Separate the Digits in an Array
 
-**LeetCode Problem #2639 — Find the Width of Columns of a Grid**
-Solve LeetCode Find the Width of Columns of a Grid using C++ and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+**LeetCode Problem #2553 — Separate the Digits in an Array**
+Solve LeetCode Separate the Digits in an Array using C++ and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Find the Width of Columns of a Grid |
-| LeetCode | #2639 |
+| Problem | Separate the Digits in an Array |
+| LeetCode | #2553 |
 | Difficulty | Easy |
 | Language | C++ |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
 | Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,18 +20,18 @@ Solve LeetCode Find the Width of Columns of a Grid using C++ and Math & Logic. T
 Given an array of positive integers  nums , return  an array   answer   that consists of the digits of each integer in   nums   after separating them in  the same order  they appear in   nums .
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 For each number, extract its digits (by converting to string or using modulo) and append them to the result array in order.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find the Width of Columns of a Grid**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Separate the Digits in an Array**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

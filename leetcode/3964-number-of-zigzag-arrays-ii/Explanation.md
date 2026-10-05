@@ -1,14 +1,14 @@
-# LeetCode 3964: Minimum Lights to Illuminate a Road
+# LeetCode 3700: Number of ZigZag Arrays II
 
-**LeetCode Problem #3964 — Minimum Lights to Illuminate a Road**
-Solve LeetCode Minimum Lights to Illuminate a Road using PHP and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3700 — Number of ZigZag Arrays II**
+Solve LeetCode Number of ZigZag Arrays II using PHP and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Lights to Illuminate a Road |
-| LeetCode | #3964 |
-| Difficulty | Medium |
+| Problem | Number of ZigZag Arrays II |
+| LeetCode | #3700 |
+| Difficulty | Hard |
 | Language | PHP |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Lights to Illuminate a Road**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Number of ZigZag Arrays II**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3962. Maximum Subarray Sum After at Most K Swaps](../3962-number-of-zigzag-arrays-i/)
-- [3276. Select Cells in Grid With Maximum Score](../3276-minimum-number-of-pushes-to-type-word-ii/)
-- [3820. Pythagorean Distance Nodes in a Tree](../3820-number-of-unique-xor-triplets-ii/)
+- [3699. Number of ZigZag Arrays I](../3962-number-of-zigzag-arrays-i/)
+- [3016. Minimum Number of Pushes to Type Word II](../3276-minimum-number-of-pushes-to-type-word-ii/)
+- [3514. Number of Unique XOR Triplets II](../3820-number-of-unique-xor-triplets-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-zigzag-arrays-ii/)

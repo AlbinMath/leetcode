@@ -1,13 +1,13 @@
-# LeetCode 1934: Confirmation Rate
+# LeetCode 1807: Evaluate the Bracket Pairs of a String
 
-**LeetCode Problem #1934 — Confirmation Rate**
-Solve LeetCode Confirmation Rate using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #1807 — Evaluate the Bracket Pairs of a String**
+Solve LeetCode Evaluate the Bracket Pairs of a String using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Confirmation Rate |
-| LeetCode | #1934 |
+| Problem | Evaluate the Bracket Pairs of a String |
+| LeetCode | #1807 |
 | Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Complement Lookup / Hash Table Frequency |
@@ -35,7 +35,7 @@ Time complexity is $O(N + K)$ where $N$ is string length and $K$ is total key-va
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Confirmation Rate**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Evaluate the Bracket Pairs of a String**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -69,8 +69,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [150. Evaluate Reverse Polish Notation](../0150-evaluate-reverse-polish-notation/)
-- [812. Largest Triangle Area](../0812-rotate-string/)
-- [2349. Design a Number Container System](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [796. Rotate String](../0812-rotate-string/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)

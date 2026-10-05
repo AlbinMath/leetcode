@@ -1,16 +1,16 @@
-# LeetCode 1340: Jump Game V
+# LeetCode 1226: The Dining Philosophers
 
-**LeetCode Problem #1340 — Jump Game V**
-Solve LeetCode Jump Game V using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #1226 — The Dining Philosophers**
+Solve LeetCode The Dining Philosophers using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Jump Game V |
-| LeetCode | #1340 |
-| Difficulty | Hard |
+| Problem | The Dining Philosophers |
+| LeetCode | #1226 |
+| Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -34,11 +34,11 @@ This eliminates deadlocks because `std::lock` uses an internal ordering to preve
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Jump Game V**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **The Dining Philosophers**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

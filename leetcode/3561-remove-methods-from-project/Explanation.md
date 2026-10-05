@@ -1,13 +1,13 @@
-# LeetCode 3561: Resulting String After Adjacent Removals
+# LeetCode 3310: Remove Methods From Project
 
-**LeetCode Problem #3561 — Resulting String After Adjacent Removals**
-Solve LeetCode Resulting String After Adjacent Removals using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3310 — Remove Methods From Project**
+Solve LeetCode Remove Methods From Project using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Resulting String After Adjacent Removals |
-| LeetCode | #3561 |
+| Problem | Remove Methods From Project |
+| LeetCode | #3310 |
 | Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Resulting String After Adjacent Removals**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Remove Methods From Project**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [1161. Maximum Level Sum of a Binary Tree](../1161-project-employees-i/)
-- [1222. Queens That Can Attack the King](../1222-remove-covered-intervals/)
+- [1075. Project Employees I](../1161-project-employees-i/)
+- [1288. Remove Covered Intervals](../1222-remove-covered-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-methods-from-project/)

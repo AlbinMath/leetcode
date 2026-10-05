@@ -1,13 +1,13 @@
-# LeetCode 1208: Get Equal Substrings Within Budget
+# LeetCode 1111: Maximum Nesting Depth of Two Valid Parentheses Strings
 
-**LeetCode Problem #1208 — Get Equal Substrings Within Budget**
-Solve LeetCode Get Equal Substrings Within Budget using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+**LeetCode Problem #1111 — Maximum Nesting Depth of Two Valid Parentheses Strings**
+Solve LeetCode Maximum Nesting Depth of Two Valid Parentheses Strings using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Get Equal Substrings Within Budget |
-| LeetCode | #1208 |
+| Problem | Maximum Nesting Depth of Two Valid Parentheses Strings |
+| LeetCode | #1111 |
 | Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Stack Push / Pop Parsing |
@@ -31,7 +31,7 @@ We iterate through the input using **Stack Push / Pop Traversal**. By maintainin
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Get Equal Substrings Within Budget**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+Consider the standard input for **Maximum Nesting Depth of Two Valid Parentheses Strings**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1737. Change Minimum Characters to Satisfy One of Three Conditions](../1737-maximum-nesting-depth-of-the-parentheses/)
+- [1614. Maximum Nesting Depth of the Parentheses](../1737-maximum-nesting-depth-of-the-parentheses/)
 - [20. Valid Parentheses](../0020-valid-parentheses/)
-- [1574. Shortest Subarray to be Removed to Make Array Sorted](../1574-maximum-product-of-two-elements-in-an-array/)
+- [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)

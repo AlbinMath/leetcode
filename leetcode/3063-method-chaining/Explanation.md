@@ -1,13 +1,13 @@
-# LeetCode 3063: Linked List Frequency
+# LeetCode 2891: Method Chaining
 
-**LeetCode Problem #3063 — Linked List Frequency**
-Solve LeetCode Linked List Frequency using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #2891 — Method Chaining**
+Solve LeetCode Method Chaining using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Linked List Frequency |
-| LeetCode | #3063 |
+| Problem | Method Chaining |
+| LeetCode | #2891 |
 | Difficulty | Easy |
 | Language | Python |
 | Algorithm | Complement Lookup / Hash Table Frequency |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Linked List Frequency**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Method Chaining**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2863. Maximum Length of Semi-Decreasing Subarrays](../2863-calculator-with-method-chaining/)
+- [2726. Calculator with Method Chaining](../2863-calculator-with-method-chaining/)
 - [1. Two Sum](../0001-two-sum/)
 - [13. Roman to Integer](../0013-roman-to-integer/)
 

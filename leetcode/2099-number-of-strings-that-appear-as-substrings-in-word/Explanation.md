@@ -1,13 +1,13 @@
-# LeetCode 2099: Find Subsequence of Length K With the Largest Sum
+# LeetCode 1967: Number of Strings That Appear as Substrings in Word
 
-**LeetCode Problem #2099 — Find Subsequence of Length K With the Largest Sum**
-Solve LeetCode Find Subsequence of Length K With the Largest Sum using Kotlin and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #1967 — Number of Strings That Appear as Substrings in Word**
+Solve LeetCode Number of Strings That Appear as Substrings in Word using Kotlin and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Find Subsequence of Length K With the Largest Sum |
-| LeetCode | #2099 |
+| Problem | Number of Strings That Appear as Substrings in Word |
+| LeetCode | #1967 |
 | Difficulty | Easy |
 | Language | Kotlin |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -33,7 +33,7 @@ Time complexity is $O(P \times W)$ where $P$ is total pattern length and $W$ is 
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Subsequence of Length K With the Largest Sum**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Number of Strings That Appear as Substrings in Word**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -67,9 +67,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1460. Make Two Arrays Equal by Reversing Subarrays](../1460-number-of-substrings-containing-all-three-characters/)
-- [1644. Lowest Common Ancestor of a Binary Tree II](../1644-maximum-number-of-non-overlapping-substrings/)
-- [2559. Count Vowel Strings in Ranges](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
+- [1358. Number of Substrings Containing All Three Characters](../1460-number-of-substrings-containing-all-three-characters/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [2472. Maximum Number of Non-overlapping Palindrome Substrings](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)

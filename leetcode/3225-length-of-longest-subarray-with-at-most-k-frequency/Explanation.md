@@ -1,14 +1,14 @@
-# LeetCode 3225: Maximum Score From Grid Operations
+# LeetCode 2958: Length of Longest Subarray With at Most K Frequency
 
-**LeetCode Problem #3225 — Maximum Score From Grid Operations**
-Solve LeetCode Maximum Score From Grid Operations using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #2958 — Length of Longest Subarray With at Most K Frequency**
+Solve LeetCode Length of Longest Subarray With at Most K Frequency using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Score From Grid Operations |
-| LeetCode | #3225 |
-| Difficulty | Hard |
+| Problem | Length of Longest Subarray With at Most K Frequency |
+| LeetCode | #2958 |
+| Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -31,7 +31,7 @@ We iterate through the input using **Complement Lookup / Hash Table Frequency**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Score From Grid Operations**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Length of Longest Subarray With at Most K Frequency**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3329. Count Substrings With K-Frequency Characters II](../3329-find-the-length-of-the-longest-common-prefix/)
+- [3043. Find the Length of the Longest Common Prefix](../3329-find-the-length-of-the-longest-common-prefix/)
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 

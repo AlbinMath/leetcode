@@ -1,17 +1,17 @@
-# LeetCode 812: Largest Triangle Area
+# LeetCode 796: Rotate String
 
-**LeetCode Problem #812 — Largest Triangle Area**
-Solve LeetCode Largest Triangle Area using C++ and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+**LeetCode Problem #796 — Rotate String**
+Solve LeetCode Rotate String using C++ and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Largest Triangle Area |
-| LeetCode | #812 |
+| Problem | Rotate String |
+| LeetCode | #796 |
 | Difficulty | Easy |
 | Language | C++ |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
 | Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,7 +20,7 @@ Solve LeetCode Largest Triangle Area using C++ and Math & Logic. This solution f
 Given two strings  s  and  goal , return  true   if and only if   s   can become   goal   after some number of  shifts  on   s .
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a clever **string concatenation** trick:
@@ -32,12 +32,12 @@ The code uses a clever **string concatenation** trick:
 Time complexity is $O(N)$ with an efficient string search and space complexity is $O(N)$ for the concatenated string.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Largest Triangle Area**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Rotate String**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

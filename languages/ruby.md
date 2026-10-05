@@ -6,4 +6,4 @@ A collection of LeetCode problems implemented in **Ruby** with detailed complexi
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 3626 | [Find Stores with Inventory Imbalance](../leetcode/3626-smallest-divisible-digit-product-i/) | Medium | Tree & Graph | O(n) | O(n) |
+| 3345 | [Smallest Divisible Digit Product I](../leetcode/3626-smallest-divisible-digit-product-i/) | Easy | Tree & Graph | O(n) | O(n) |

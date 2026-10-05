@@ -1,17 +1,17 @@
-# LeetCode 3562: Maximum Profit from Trading Stocks with Discounts
+# LeetCode 3414: Maximum Score of Non-overlapping Intervals
 
-**LeetCode Problem #3562 — Maximum Profit from Trading Stocks with Discounts**
-Solve LeetCode Maximum Profit from Trading Stocks with Discounts using JavaScript and Heap. This solution finds the optimal result using Priority Queue Selection in O(n) time.
+**LeetCode Problem #3414 — Maximum Score of Non-overlapping Intervals**
+Solve LeetCode Maximum Score of Non-overlapping Intervals using JavaScript and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Profit from Trading Stocks with Discounts |
-| LeetCode | #3562 |
+| Problem | Maximum Score of Non-overlapping Intervals |
+| LeetCode | #3414 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Priority Queue Selection |
-| Data Structure | Min/Max Heap |
+| Algorithm | Min/Max Heap Priority Selection |
+| Data Structure | Heap / Priority Queue |
 | Pattern | Heap |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
@@ -20,18 +20,18 @@ Solve LeetCode Maximum Profit from Trading Stocks with Discounts using JavaScrip
 You are given a 2D integer array  intervals , where  intervals[i] = [l i , r i , weight i ] . Interval  i  starts at position  l i   and ends at  r i  , and has a weight of  weight i  . You can choose  up to  4  non-overlapping  intervals. The  score  of the chosen intervals is defined as the total sum of their weights.
 
 ## Key Insight
-Leverage **Heap** with **Min/Max Heap** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Min/Max Heap**).
-2. Process elements sequentially using **Priority Queue Selection**.
+1. Initialize state variables / data structure (**Heap / Priority Queue**).
+2. Process elements sequentially using **Min/Max Heap Priority Selection**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Profit from Trading Stocks with Discounts**. Applying **Priority Queue Selection** yields the target result step by step.
+Consider the standard input for **Maximum Score of Non-overlapping Intervals**. Applying **Min/Max Heap Priority Selection** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1644. Lowest Common Ancestor of a Binary Tree II](../1644-maximum-number-of-non-overlapping-substrings/)
-- [2559. Count Vowel Strings in Ranges](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
-- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [2472. Maximum Number of Non-overlapping Palindrome Substrings](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/)

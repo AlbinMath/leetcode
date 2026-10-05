@@ -6,4 +6,4 @@ A collection of LeetCode problems implemented in **Swift** with detailed complex
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 3349 | [Adjacent Increasing Subarrays Detection I](../leetcode/3349-maximum-length-substring-with-two-occurrences/) | Easy | Array / General | O(n) | O(1) |
+| 3090 | [Maximum Length Substring With Two Occurrences](../leetcode/3349-maximum-length-substring-with-two-occurrences/) | Easy | Array / General | O(n) | O(1) |

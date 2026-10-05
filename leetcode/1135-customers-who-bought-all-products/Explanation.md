@@ -1,16 +1,16 @@
-# LeetCode 1135: Connecting Cities With Minimum Cost
+# LeetCode 1045: Customers Who Bought All Products
 
-**LeetCode Problem #1135 — Connecting Cities With Minimum Cost**
-Solve LeetCode Connecting Cities With Minimum Cost using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1045 — Customers Who Bought All Products**
+Solve LeetCode Customers Who Bought All Products using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Connecting Cities With Minimum Cost |
-| LeetCode | #1135 |
+| Problem | Customers Who Bought All Products |
+| LeetCode | #1045 |
 | Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Connecting Cities With Minimum Cost**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Customers Who Bought All Products**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

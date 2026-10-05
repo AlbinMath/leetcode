@@ -1,16 +1,16 @@
-# LeetCode 4195: Find Users with High Token Usage
+# LeetCode 3793: Find Users with High Token Usage
 
-**LeetCode Problem #4195 — Find Users with High Token Usage**
-Solve LeetCode Find Users with High Token Usage using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #3793 — Find Users with High Token Usage**
+Solve LeetCode Find Users with High Token Usage using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Find Users with High Token Usage |
-| LeetCode | #4195 |
+| LeetCode | #3793 |
 | Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Users with High Token Usage**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Find Users with High Token Usage**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1664. Ways to Make a Fair Array](../1664-find-users-with-valid-e-mails/)
-- [4208. Find Emotionally Consistent Users](../4208-find-emotionally-consistent-users/)
-- [4227. Find Users with Persistent Behavior Patterns](../4227-find-users-with-persistent-behavior-patterns/)
+- [1517. Find Users With Valid E-Mails](../1664-find-users-with-valid-e-mails/)
+- [3808. Find Emotionally Consistent Users](../4208-find-emotionally-consistent-users/)
+- [3832. Find Users with Persistent Behavior Patterns](../4227-find-users-with-persistent-behavior-patterns/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-users-with-high-token-usage/)

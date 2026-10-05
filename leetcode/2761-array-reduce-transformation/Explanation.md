@@ -1,16 +1,16 @@
-# LeetCode 2761: Prime Pairs With Target Sum
+# LeetCode 2626: Array Reduce Transformation
 
-**LeetCode Problem #2761 — Prime Pairs With Target Sum**
-Solve LeetCode Prime Pairs With Target Sum using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2626 — Array Reduce Transformation**
+Solve LeetCode Array Reduce Transformation using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Prime Pairs With Target Sum |
-| LeetCode | #2761 |
-| Difficulty | Medium |
+| Problem | Array Reduce Transformation |
+| LeetCode | #2626 |
+| Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Initialize an accumulator with `init`. Iterate through the array, updating `accu
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Prime Pairs With Target Sum**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Array Reduce Transformation**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

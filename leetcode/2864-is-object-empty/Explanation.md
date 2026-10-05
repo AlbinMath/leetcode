@@ -1,16 +1,16 @@
-# LeetCode 2864: Maximum Odd Binary Number
+# LeetCode 2727: Is Object Empty
 
-**LeetCode Problem #2864 — Maximum Odd Binary Number**
-Solve LeetCode Maximum Odd Binary Number using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2727 — Is Object Empty**
+Solve LeetCode Is Object Empty using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Odd Binary Number |
-| LeetCode | #2864 |
+| Problem | Is Object Empty |
+| LeetCode | #2727 |
 | Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ For arrays: `arr.length === 0`. For objects: `Object.keys(obj).length === 0`. Ch
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Odd Binary Number**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Is Object Empty**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2758. Next Day](../2758-check-if-object-instance-of-class/)
-- [2804. Array Prototype ForEach](../2804-compact-object/)
+- [2618. Check if Object Instance of Class](../2758-check-if-object-instance-of-class/)
+- [2705. Compact Object](../2804-compact-object/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode

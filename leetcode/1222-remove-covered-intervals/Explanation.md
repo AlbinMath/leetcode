@@ -1,13 +1,13 @@
-# LeetCode 1222: Queens That Can Attack the King
+# LeetCode 1288: Remove Covered Intervals
 
-**LeetCode Problem #1222 — Queens That Can Attack the King**
-Solve LeetCode Queens That Can Attack the King using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
+**LeetCode Problem #1288 — Remove Covered Intervals**
+Solve LeetCode Remove Covered Intervals using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Queens That Can Attack the King |
-| LeetCode | #1222 |
+| Problem | Remove Covered Intervals |
+| LeetCode | #1288 |
 | Difficulty | Medium |
 | Language | Java |
 | Algorithm | Modified Binary Search |
@@ -38,7 +38,7 @@ Time complexity is $O(N \log N)$ for sorting and space complexity is $O(\log N)$
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Queens That Can Attack the King**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Remove Covered Intervals**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(log n)
@@ -72,8 +72,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [3561. Resulting String After Adjacent Removals](../3561-remove-methods-from-project/)
-- [3562. Maximum Profit from Trading Stocks with Discounts](../3562-maximum-score-of-non-overlapping-intervals/)
+- [3310. Remove Methods From Project](../3561-remove-methods-from-project/)
+- [3414. Maximum Score of Non-overlapping Intervals](../3562-maximum-score-of-non-overlapping-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-covered-intervals/)

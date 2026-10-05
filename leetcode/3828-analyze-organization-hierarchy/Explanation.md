@@ -1,16 +1,16 @@
-# LeetCode 3828: Final Element After Subarray Deletions
+# LeetCode 3482: Analyze Organization Hierarchy
 
-**LeetCode Problem #3828 — Final Element After Subarray Deletions**
-Solve LeetCode Final Element After Subarray Deletions using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3482 — Analyze Organization Hierarchy**
+Solve LeetCode Analyze Organization Hierarchy using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Final Element After Subarray Deletions |
-| LeetCode | #3828 |
-| Difficulty | Medium |
+| Problem | Analyze Organization Hierarchy |
+| LeetCode | #3482 |
+| Difficulty | Hard |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Final Element After Subarray Deletions**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Analyze Organization Hierarchy**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3848. Check Digitorial Permutation](../3848-analyze-subscription-conversion-/)
+- [3497. Analyze Subscription Conversion ](../3848-analyze-subscription-conversion-/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 - [6. Zigzag Conversion](../0006-zigzag-conversion/)
 

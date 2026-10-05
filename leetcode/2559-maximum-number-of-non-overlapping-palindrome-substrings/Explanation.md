@@ -1,16 +1,16 @@
-# LeetCode 2559: Count Vowel Strings in Ranges
+# LeetCode 2472: Maximum Number of Non-overlapping Palindrome Substrings
 
-**LeetCode Problem #2559 — Count Vowel Strings in Ranges**
-Solve LeetCode Count Vowel Strings in Ranges using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+**LeetCode Problem #2472 — Maximum Number of Non-overlapping Palindrome Substrings**
+Solve LeetCode Maximum Number of Non-overlapping Palindrome Substrings using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Vowel Strings in Ranges |
-| LeetCode | #2559 |
-| Difficulty | Medium |
+| Problem | Maximum Number of Non-overlapping Palindrome Substrings |
+| LeetCode | #2472 |
+| Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Uses **DP** combined with palindrome detection (expand-around-center or Manacher
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Vowel Strings in Ranges**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Maximum Number of Non-overlapping Palindrome Substrings**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1644. Lowest Common Ancestor of a Binary Tree II](../1644-maximum-number-of-non-overlapping-substrings/)
-- [1725. Number Of Rectangles That Can Form The Largest Square](../1725-number-of-sets-of-k-non-overlapping-line-segments/)
-- [3562. Maximum Profit from Trading Stocks with Discounts](../3562-maximum-score-of-non-overlapping-intervals/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [1621. Number of Sets of K Non-Overlapping Line Segments](../1725-number-of-sets-of-k-non-overlapping-line-segments/)
+- [3414. Maximum Score of Non-overlapping Intervals](../3562-maximum-score-of-non-overlapping-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)

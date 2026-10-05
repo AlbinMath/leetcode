@@ -1,14 +1,14 @@
-# LeetCode 3840: House Robber V
+# LeetCode 3525: Find X Value of Array II
 
-**LeetCode Problem #3840 — House Robber V**
-Solve LeetCode House Robber V using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+**LeetCode Problem #3525 — Find X Value of Array II**
+Solve LeetCode Find X Value of Array II using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | House Robber V |
-| LeetCode | #3840 |
-| Difficulty | Medium |
+| Problem | Find X Value of Array II |
+| LeetCode | #3525 |
+| Difficulty | Hard |
 | Language | JavaScript |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -48,7 +48,7 @@ Because updates are persistent and there can be many queries, calculating the an
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **House Robber V**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Find X Value of Array II**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -81,7 +81,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [3831. Median of a Binary Search Tree Level](../3831-find-x-value-of-array-i/)
+- [3524. Find X Value of Array I](../3831-find-x-value-of-array-i/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 

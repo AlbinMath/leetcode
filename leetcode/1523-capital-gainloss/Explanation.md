@@ -1,16 +1,16 @@
-# LeetCode 1523: Count Odd Numbers in an Interval Range
+# LeetCode 1393: Capital Gain/Loss
 
-**LeetCode Problem #1523 — Count Odd Numbers in an Interval Range**
-Solve LeetCode Count Odd Numbers in an Interval Range using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1393 — Capital Gain/Loss**
+Solve LeetCode Capital Gain/Loss using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Odd Numbers in an Interval Range |
-| LeetCode | #1523 |
-| Difficulty | Easy |
+| Problem | Capital Gain/Loss |
+| LeetCode | #1393 |
+| Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Odd Numbers in an Interval Range**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Capital Gain/Loss**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

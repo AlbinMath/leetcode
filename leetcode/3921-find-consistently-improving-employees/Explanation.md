@@ -1,16 +1,16 @@
-# LeetCode 3921: Score Validator
+# LeetCode 3580: Find Consistently Improving Employees
 
-**LeetCode Problem #3921 — Score Validator**
-Solve LeetCode Score Validator using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3580 — Find Consistently Improving Employees**
+Solve LeetCode Find Consistently Improving Employees using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Score Validator |
-| LeetCode | #3921 |
-| Difficulty | Easy |
+| Problem | Find Consistently Improving Employees |
+| LeetCode | #3580 |
+| Difficulty | Medium |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Score Validator**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find Consistently Improving Employees**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3943. Number of Pairs After Increment](../3943-find-overbooked-employees/)
+- [3611. Find Overbooked Employees](../3943-find-overbooked-employees/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 

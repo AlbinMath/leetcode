@@ -1,16 +1,16 @@
-# LeetCode 1153: String Transforms Into Another String
+# LeetCode 1068: Product Sales Analysis I
 
-**LeetCode Problem #1153 — String Transforms Into Another String**
-Solve LeetCode String Transforms Into Another String using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1068 — Product Sales Analysis I**
+Solve LeetCode Product Sales Analysis I using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | String Transforms Into Another String |
-| LeetCode | #1153 |
-| Difficulty | Hard |
+| Problem | Product Sales Analysis I |
+| LeetCode | #1068 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **String Transforms Into Another String**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Product Sales Analysis I**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1155. Number of Dice Rolls With Target Sum](../1155-product-sales-analysis-iii/)
-- [1174. Immediate Food Delivery II](../1174-sales-analysis-iii/)
-- [1179. Reformat Department Table](../1179-game-play-analysis-i/)
+- [1070. Product Sales Analysis III](../1155-product-sales-analysis-iii/)
+- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
+- [1084. Sales Analysis III](../1174-sales-analysis-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/product-sales-analysis-i/)

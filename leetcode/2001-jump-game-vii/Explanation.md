@@ -1,13 +1,13 @@
-# LeetCode 2001: Number of Pairs of Interchangeable Rectangles
+# LeetCode 1871: Jump Game VII
 
-**LeetCode Problem #2001 — Number of Pairs of Interchangeable Rectangles**
-Solve LeetCode Number of Pairs of Interchangeable Rectangles using C++ and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
+**LeetCode Problem #1871 — Jump Game VII**
+Solve LeetCode Jump Game VII using C++ and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number of Pairs of Interchangeable Rectangles |
-| LeetCode | #2001 |
+| Problem | Jump Game VII |
+| LeetCode | #1871 |
 | Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Prefix Sum Precomputation |
@@ -33,7 +33,7 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number of Pairs of Interchangeable Rectangles**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+Consider the standard input for **Jump Game VII**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1428. Leftmost Column with at Least a One](../1428-jump-game-iii/)
-- [1447. Simplified Fractions](../1447-jump-game-iv/)
-- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../1466-jump-game-v/)
+- [1306. Jump Game III](../1428-jump-game-iii/)
+- [1340. Jump Game V](../1466-jump-game-v/)
+- [1345. Jump Game IV](../1447-jump-game-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-vii/)

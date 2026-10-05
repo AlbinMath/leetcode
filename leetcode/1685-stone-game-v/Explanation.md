@@ -1,14 +1,14 @@
-# LeetCode 1685: Sum of Absolute Differences in a Sorted Array
+# LeetCode 1563: Stone Game V
 
-**LeetCode Problem #1685 — Sum of Absolute Differences in a Sorted Array**
-Solve LeetCode Sum of Absolute Differences in a Sorted Array using Java and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
+**LeetCode Problem #1563 — Stone Game V**
+Solve LeetCode Stone Game V using Java and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Sum of Absolute Differences in a Sorted Array |
-| LeetCode | #1685 |
-| Difficulty | Medium |
+| Problem | Stone Game V |
+| LeetCode | #1563 |
+| Difficulty | Hard |
 | Language | Java |
 | Algorithm | Prefix Sum Precomputation |
 | Data Structure | Prefix Array |
@@ -41,7 +41,7 @@ Time complexity is $O(N^3)$ and space complexity is $O(N^2)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Sum of Absolute Differences in a Sorted Array**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+Consider the standard input for **Stone Game V**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -73,9 +73,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [909. Snakes and Ladders](../0909-stone-game/)
-- [1240. Tiling a Rectangle with the Fewest Squares](../1240-stone-game-ii/)
-- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../1466-jump-game-v/)
+- [877. Stone Game](../0909-stone-game/)
+- [1140. Stone Game II](../1240-stone-game-ii/)
+- [1340. Jump Game V](../1466-jump-game-v/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stone-game-v/)

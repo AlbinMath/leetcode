@@ -1,14 +1,14 @@
-# LeetCode 3275: K-th Nearest Obstacle Queries
+# LeetCode 3014: Minimum Number of Pushes to Type Word I
 
-**LeetCode Problem #3275 — K-th Nearest Obstacle Queries**
-Solve LeetCode K-th Nearest Obstacle Queries using Dart and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #3014 — Minimum Number of Pushes to Type Word I**
+Solve LeetCode Minimum Number of Pushes to Type Word I using Dart and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | K-th Nearest Obstacle Queries |
-| LeetCode | #3275 |
-| Difficulty | Medium |
+| Problem | Minimum Number of Pushes to Type Word I |
+| LeetCode | #3014 |
+| Difficulty | Easy |
 | Language | Dart |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -31,7 +31,7 @@ We iterate through the input using **Complement Lookup / Hash Table Frequency**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **K-th Nearest Obstacle Queries**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Minimum Number of Pushes to Type Word I**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3276. Select Cells in Grid With Maximum Score](../3276-minimum-number-of-pushes-to-type-word-ii/)
-- [2099. Find Subsequence of Length K With the Largest Sum](../2099-number-of-strings-that-appear-as-substrings-in-word/)
-- [2182. Construct String With Repeat Limit](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [3016. Minimum Number of Pushes to Type Word II](../3276-minimum-number-of-pushes-to-type-word-ii/)
+- [1967. Number of Strings That Appear as Substrings in Word](../2099-number-of-strings-that-appear-as-substrings-in-word/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/)

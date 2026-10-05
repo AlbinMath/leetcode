@@ -1,16 +1,16 @@
-# LeetCode 2783: Flight Occupancy and Waitlist Analysis
+# LeetCode 2649: Nested Array Generator
 
-**LeetCode Problem #2783 — Flight Occupancy and Waitlist Analysis**
-Solve LeetCode Flight Occupancy and Waitlist Analysis using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2649 — Nested Array Generator**
+Solve LeetCode Nested Array Generator using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Flight Occupancy and Waitlist Analysis |
-| LeetCode | #2783 |
+| Problem | Nested Array Generator |
+| LeetCode | #2649 |
 | Difficulty | Medium |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Uses a recursive generator: for each element, if it's an array, `yield*` the rec
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Flight Occupancy and Waitlist Analysis**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Nested Array Generator**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2759. Convert JSON String to Object](../2759-flatten-deeply-nested-array/)
+- [2625. Flatten Deeply Nested Array](../2759-flatten-deeply-nested-array/)
 - [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 

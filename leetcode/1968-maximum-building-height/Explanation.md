@@ -1,16 +1,16 @@
-# LeetCode 1968: Array With Elements Not Equal to Average of Neighbors
+# LeetCode 1840: Maximum Building Height
 
-**LeetCode Problem #1968 — Array With Elements Not Equal to Average of Neighbors**
-Solve LeetCode Array With Elements Not Equal to Average of Neighbors using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #1840 — Maximum Building Height**
+Solve LeetCode Maximum Building Height using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Array With Elements Not Equal to Average of Neighbors |
-| LeetCode | #1968 |
-| Difficulty | Medium |
+| Problem | Maximum Building Height |
+| LeetCode | #1840 |
+| Difficulty | Hard |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -35,11 +35,11 @@ Time complexity is $O(M \log M)$ where $M$ is the number of restrictions, and sp
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Array With Elements Not Equal to Average of Neighbors**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Maximum Building Height**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -71,8 +71,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
-- [1186. Maximum Subarray Sum with One Deletion](../1186-building-h2o/)
-- [1208. Get Equal Substrings Within Budget](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [1117. Building H2O](../1186-building-h2o/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-building-height/)

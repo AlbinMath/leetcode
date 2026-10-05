@@ -1,16 +1,16 @@
-# LeetCode 1338: Reduce Array Size to The Half
+# LeetCode 1211: Queries Quality and Percentage
 
-**LeetCode Problem #1338 — Reduce Array Size to The Half**
-Solve LeetCode Reduce Array Size to The Half using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1211 — Queries Quality and Percentage**
+Solve LeetCode Queries Quality and Percentage using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Reduce Array Size to The Half |
-| LeetCode | #1338 |
-| Difficulty | Medium |
+| Problem | Queries Quality and Percentage |
+| LeetCode | #1211 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Reduce Array Size to The Half**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Queries Quality and Percentage**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1773. Count Items Matching a Rule](../1773-percentage-of-users-attended-a-contest/)
-- [3376. Minimum Time to Break Locks I](../3376-longest-common-suffix-queries/)
-- [3435. Frequencies of Shortest Supersequences](../3435-block-placement-queries/)
+- [1633. Percentage of Users Attended a Contest](../1773-percentage-of-users-attended-a-contest/)
+- [3093. Longest Common Suffix Queries](../3376-longest-common-suffix-queries/)
+- [3161. Block Placement Queries](../3435-block-placement-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queries-quality-and-percentage/)

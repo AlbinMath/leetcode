@@ -1,13 +1,13 @@
-# LeetCode 2043: Simple Bank System
+# LeetCode 1914: Cyclically Rotating a Grid
 
-**LeetCode Problem #2043 — Simple Bank System**
-Solve LeetCode Simple Bank System using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #1914 — Cyclically Rotating a Grid**
+Solve LeetCode Cyclically Rotating a Grid using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Simple Bank System |
-| LeetCode | #2043 |
+| Problem | Cyclically Rotating a Grid |
+| LeetCode | #1914 |
 | Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -35,7 +35,7 @@ Time complexity is $O(M \times N)$ and space complexity is $O(M \times N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Simple Bank System**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Cyclically Rotating a Grid**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -69,9 +69,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1386. Cinema Seat Allocation](../1386-shift-2d-grid/)
-- [1972. First and Last Call On the Same Day](../1972-rotating-the-box/)
-- [2914. Minimum Number of Changes to Make Binary String Beautiful](../2914-find-the-safest-path-in-a-grid/)
+- [1260. Shift 2D Grid](../1386-shift-2d-grid/)
+- [1861. Rotating the Box](../1972-rotating-the-box/)
+- [2812. Find the Safest Path in a Grid](../2914-find-the-safest-path-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cyclically-rotating-a-grid/)

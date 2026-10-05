@@ -1,16 +1,16 @@
-# LeetCode 1466: Reorder Routes to Make All Paths Lead to the City Zero
+# LeetCode 1340: Jump Game V
 
-**LeetCode Problem #1466 — Reorder Routes to Make All Paths Lead to the City Zero**
-Solve LeetCode Reorder Routes to Make All Paths Lead to the City Zero using C++ and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+**LeetCode Problem #1340 — Jump Game V**
+Solve LeetCode Jump Game V using C++ and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Reorder Routes to Make All Paths Lead to the City Zero |
-| LeetCode | #1466 |
-| Difficulty | Medium |
+| Problem | Jump Game V |
+| LeetCode | #1340 |
+| Difficulty | Hard |
 | Language | C++ |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -35,11 +35,11 @@ Time complexity is $O(N \times D)$ and space complexity is $O(N)$.
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Reorder Routes to Make All Paths Lead to the City Zero**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Jump Game V**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -72,9 +72,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1428. Leftmost Column with at Least a One](../1428-jump-game-iii/)
-- [1447. Simplified Fractions](../1447-jump-game-iv/)
-- [1685. Sum of Absolute Differences in a Sorted Array](../1685-stone-game-v/)
+- [1306. Jump Game III](../1428-jump-game-iii/)
+- [1345. Jump Game IV](../1447-jump-game-iv/)
+- [1563. Stone Game V](../1685-stone-game-v/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-v/)

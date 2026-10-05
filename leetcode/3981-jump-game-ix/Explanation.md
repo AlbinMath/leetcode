@@ -1,16 +1,16 @@
-# LeetCode 3981: Count Distinct Ways to Form Target from Two Strings
+# LeetCode 3660: Jump Game IX
 
-**LeetCode Problem #3981 — Count Distinct Ways to Form Target from Two Strings**
-Solve LeetCode Count Distinct Ways to Form Target from Two Strings using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3660 — Jump Game IX**
+Solve LeetCode Jump Game IX using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Distinct Ways to Form Target from Two Strings |
-| LeetCode | #3981 |
-| Difficulty | Hard |
+| Problem | Jump Game IX |
+| LeetCode | #3660 |
+| Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Distinct Ways to Form Target from Two Strings**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Jump Game IX**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1428. Leftmost Column with at Least a One](../1428-jump-game-iii/)
-- [1447. Simplified Fractions](../1447-jump-game-iv/)
-- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../1466-jump-game-v/)
+- [1306. Jump Game III](../1428-jump-game-iii/)
+- [1340. Jump Game V](../1466-jump-game-v/)
+- [1345. Jump Game IV](../1447-jump-game-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-ix/)

@@ -7,5 +7,5 @@ A curated selection of LeetCode problems solved using the **Floyd Cycle Detectio
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
 | 19 | [Remove Nth Node From End of List](../leetcode/0019-remove-nth-node-from-end-of-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
-| 2216 | [Minimum Deletions to Make Array Beautiful](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
-| 2236 | [Root Equals Sum of Children](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Easy | Fast & Slow Pointers | O(n) | O(1) |
+| 2095 | [Delete the Middle Node of a Linked List](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
+| 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |

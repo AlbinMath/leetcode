@@ -1,16 +1,16 @@
-# LeetCode 1240: Tiling a Rectangle with the Fewest Squares
+# LeetCode 1140: Stone Game II
 
-**LeetCode Problem #1240 — Tiling a Rectangle with the Fewest Squares**
-Solve LeetCode Tiling a Rectangle with the Fewest Squares using C++ and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+**LeetCode Problem #1140 — Stone Game II**
+Solve LeetCode Stone Game II using C++ and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Tiling a Rectangle with the Fewest Squares |
-| LeetCode | #1240 |
-| Difficulty | Hard |
+| Problem | Stone Game II |
+| LeetCode | #1140 |
+| Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -37,11 +37,11 @@ Time complexity is $O(N^3)$ and space complexity is $O(N^2)$.
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Tiling a Rectangle with the Fewest Squares**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Stone Game II**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -74,9 +74,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [909. Snakes and Ladders](../0909-stone-game/)
-- [1522. Diameter of N-Ary Tree](../1522-stone-game-iii/)
-- [1617. Count Subtrees With Max Distance Between Cities](../1617-stone-game-iv/)
+- [877. Stone Game](../0909-stone-game/)
+- [1406. Stone Game III](../1522-stone-game-iii/)
+- [1510. Stone Game IV](../1617-stone-game-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stone-game-ii/)

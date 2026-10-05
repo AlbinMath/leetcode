@@ -1,7 +1,7 @@
 # LeetCode 570: Managers with at Least 5 Direct Reports
 
 **LeetCode Problem #570 — Managers with at Least 5 Direct Reports**
-Solve LeetCode Managers with at Least 5 Direct Reports using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+Solve LeetCode Managers with at Least 5 Direct Reports using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Managers with at Least 5 Direct Reports using Python and Array / 
 | LeetCode | #570 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Managers with at Least 5 Direct Reports**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Managers with at Least 5 Direct Reports**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [596. Classes With at Least 5 Students](../0596-classes-with-at-least-5-students/)
 - [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
-- [1136. Parallel Courses](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
+- [1050. Actors and Directors Who Cooperated At Least Three Times](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)

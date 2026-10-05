@@ -1,13 +1,13 @@
-# LeetCode 1182: Shortest Distance to Target Color
+# LeetCode 550: Game Play Analysis IV
 
-**LeetCode Problem #1182 — Shortest Distance to Target Color**
-Solve LeetCode Shortest Distance to Target Color using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #550 — Game Play Analysis IV**
+Solve LeetCode Game Play Analysis IV using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Shortest Distance to Target Color |
-| LeetCode | #1182 |
+| Problem | Game Play Analysis IV |
+| LeetCode | #550 |
 | Difficulty | Medium |
 | Language | Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Shortest Distance to Target Color**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Game Play Analysis IV**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1179. Reformat Department Table](../1179-game-play-analysis-i/)
-- [1447. Simplified Fractions](../1447-jump-game-iv/)
-- [1617. Count Subtrees With Max Distance Between Cities](../1617-stone-game-iv/)
+- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
+- [1345. Jump Game IV](../1447-jump-game-iv/)
+- [1510. Stone Game IV](../1617-stone-game-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/game-play-analysis-iv/)

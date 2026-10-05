@@ -40,29 +40,79 @@ A collection of LeetCode problems solved using **Database / SQL** pattern techni
 
 | 627 | [Swap Sex of Employees](../leetcode/0627-swap-sex-of-employees/) | SQL | O(n) | O(n) | [Explanation](../leetcode/0627-swap-sex-of-employees/Explanation.md) |
 
-| 1317 | [Convert Integer to the Sum of Two No-Zero Integers](../leetcode/1317-monthly-transactions-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1317-monthly-transactions-i/Explanation.md) |
+| 1050 | [Actors and Directors Who Cooperated At Least Three Times](../leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/Explanation.md) |
 
-| 1327 | [List the Products Ordered in a Period](../leetcode/1327-last-person-to-fit-in-the-bus/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1327-last-person-to-fit-in-the-bus/Explanation.md) |
+| 1068 | [Product Sales Analysis I](../leetcode/1153-product-sales-analysis-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1153-product-sales-analysis-i/Explanation.md) |
 
-| 1480 | [Running Sum of 1d Array](../leetcode/1480-movie-rating/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1480-movie-rating/Explanation.md) |
+| 1075 | [Project Employees I](../leetcode/1161-project-employees-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1161-project-employees-i/Explanation.md) |
 
-| 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1523-capital-gainloss/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1523-capital-gainloss/Explanation.md) |
+| 1084 | [Sales Analysis III](../leetcode/1174-sales-analysis-iii/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1174-sales-analysis-iii/Explanation.md) |
 
-| 1773 | [Count Items Matching a Rule](../leetcode/1773-percentage-of-users-attended-a-contest/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1773-percentage-of-users-attended-a-contest/Explanation.md) |
+| 1141 | [User Activity for the Past 30 Days I](../leetcode/1245-user-activity-for-the-past-30-days-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1245-user-activity-for-the-past-30-days-i/Explanation.md) |
 
-| 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1827-invalid-tweets/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1827-invalid-tweets/Explanation.md) |
+| 1148 | [Article Views I](../leetcode/1258-article-views-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1258-article-views-i/Explanation.md) |
 
-| 1837 | [Sum of Digits in Base K](../leetcode/1837-daily-leads-and-partners/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1837-daily-leads-and-partners/Explanation.md) |
+| 1179 | [Reformat Department Table](../leetcode/1301-reformat-department-table/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1301-reformat-department-table/Explanation.md) |
 
-| 2057 | [Smallest Index With Equal Value](../leetcode/2057-count-salary-categories/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2057-count-salary-categories/Explanation.md) |
+| 1211 | [Queries Quality and Percentage](../leetcode/1338-queries-quality-and-percentage/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1338-queries-quality-and-percentage/Explanation.md) |
 
-| 3803 | [Count Residue Prefixes](../leetcode/3803-find-products-with-valid-serial-numbers/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3803-find-products-with-valid-serial-numbers/Explanation.md) |
+| 1251 | [Average Selling Price](../leetcode/1390-average-selling-price/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1390-average-selling-price/Explanation.md) |
 
-| 3996 | [Even Number of Knight Moves](../leetcode/3996-find-books-with-polarized-opinions/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3996-find-books-with-polarized-opinions/Explanation.md) |
+| 1280 | [Students and Examinations](../leetcode/1415-students-and-examinations/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1415-students-and-examinations/Explanation.md) |
 
-| 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](../leetcode/4043-find-zombie-sessions/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4043-find-zombie-sessions/Explanation.md) |
+| 1327 | [List the Products Ordered in a Period](../leetcode/1462-list-the-products-ordered-in-a-period/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1462-list-the-products-ordered-in-a-period/Explanation.md) |
 
-| 4195 | [Find Users with High Token Usage](../leetcode/4195-find-users-with-high-token-usage/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4195-find-users-with-high-token-usage/Explanation.md) |
+| 1378 | [Replace Employee ID With The Unique Identifier](../leetcode/1509-replace-employee-id-with-the-unique-identifier/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1509-replace-employee-id-with-the-unique-identifier/Explanation.md) |
+
+| 1407 | [Top Travellers](../leetcode/1541-top-travellers/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1541-top-travellers/Explanation.md) |
+
+| 1484 | [Group Sold Products By The Date](../leetcode/1625-group-sold-products-by-the-date/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1625-group-sold-products-by-the-date/Explanation.md) |
+
+| 1517 | [Find Users With Valid E-Mails](../leetcode/1664-find-users-with-valid-e-mails/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1664-find-users-with-valid-e-mails/Explanation.md) |
+
+| 1527 | [Patients With a Condition](../leetcode/1670-patients-with-a-condition/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1670-patients-with-a-condition/Explanation.md) |
+
+| 1581 | [Customer Who Visited but Did Not Make Any Transactions](../leetcode/1724-customer-who-visited-but-did-not-make-any-transactions/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1724-customer-who-visited-but-did-not-make-any-transactions/Explanation.md) |
+
+| 1587 | [Bank Account Summary II](../leetcode/1734-bank-account-summary-ii/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1734-bank-account-summary-ii/Explanation.md) |
+
+| 1633 | [Percentage of Users Attended a Contest](../leetcode/1773-percentage-of-users-attended-a-contest/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1773-percentage-of-users-attended-a-contest/Explanation.md) |
+
+| 1661 | [Average Time of Process per Machine](../leetcode/1801-average-time-of-process-per-machine/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1801-average-time-of-process-per-machine/Explanation.md) |
+
+| 1667 | [Fix Names in a Table](../leetcode/1811-fix-names-in-a-table/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1811-fix-names-in-a-table/Explanation.md) |
+
+| 1683 | [Invalid Tweets](../leetcode/1827-invalid-tweets/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1827-invalid-tweets/Explanation.md) |
+
+| 1693 | [Daily Leads and Partners](../leetcode/1837-daily-leads-and-partners/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1837-daily-leads-and-partners/Explanation.md) |
+
+| 1729 | [Find Followers Count](../leetcode/1877-find-followers-count/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1877-find-followers-count/Explanation.md) |
+
+| 1731 | [The Number of Employees Which Report to Each Employee](../leetcode/1882-the-number-of-employees-which-report-to-each-employee/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1882-the-number-of-employees-which-report-to-each-employee/Explanation.md) |
+
+| 1741 | [Find Total Time Spent by Each Employee](../leetcode/1892-find-total-time-spent-by-each-employee/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1892-find-total-time-spent-by-each-employee/Explanation.md) |
+
+| 1757 | [Recyclable and Low Fat Products](../leetcode/1908-recyclable-and-low-fat-products/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1908-recyclable-and-low-fat-products/Explanation.md) |
+
+| 1789 | [Primary Department for Each Employee](../leetcode/1942-primary-department-for-each-employee/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1942-primary-department-for-each-employee/Explanation.md) |
+
+| 1795 | [Rearrange Products Table](../leetcode/1948-rearrange-products-table/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1948-rearrange-products-table/Explanation.md) |
+
+| 1873 | [Calculate Special Bonus](../leetcode/2024-calculate-special-bonus/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2024-calculate-special-bonus/Explanation.md) |
+
+| 1890 | [The Latest Login in 2020](../leetcode/2041-the-latest-login-in-2020/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2041-the-latest-login-in-2020/Explanation.md) |
+
+| 1965 | [Employees With Missing Information](../leetcode/2110-employees-with-missing-information/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2110-employees-with-missing-information/Explanation.md) |
+
+| 1978 | [Employees Whose Manager Left the Company](../leetcode/2127-employees-whose-manager-left-the-company/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2127-employees-whose-manager-left-the-company/Explanation.md) |
+
+| 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/Explanation.md) |
+
+| 3436 | [Find Valid Emails](../leetcode/3782-find-valid-emails/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3782-find-valid-emails/Explanation.md) |
+
+| 3465 | [Find Products with Valid Serial Numbers](../leetcode/3803-find-products-with-valid-serial-numbers/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3803-find-products-with-valid-serial-numbers/Explanation.md) |
+
+| 3793 | [Find Users with High Token Usage](../leetcode/4195-find-users-with-high-token-usage/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4195-find-users-with-high-token-usage/Explanation.md) |
 
 ### Medium
 
@@ -86,75 +136,39 @@ A collection of LeetCode problems solved using **Database / SQL** pattern techni
 
 | 626 | [Exchange Seats](../leetcode/0626-exchange-seats/) | SQL | O(n) | O(n) | [Explanation](../leetcode/0626-exchange-seats/Explanation.md) |
 
-| 1135 | [Connecting Cities With Minimum Cost](../leetcode/1135-customers-who-bought-all-products/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1135-customers-who-bought-all-products/Explanation.md) |
+| 1045 | [Customers Who Bought All Products](../leetcode/1135-customers-who-bought-all-products/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1135-customers-who-bought-all-products/Explanation.md) |
 
-| 1136 | [Parallel Courses](../leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/Explanation.md) |
+| 1070 | [Product Sales Analysis III](../leetcode/1155-product-sales-analysis-iii/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1155-product-sales-analysis-iii/Explanation.md) |
 
-| 1155 | [Number of Dice Rolls With Target Sum](../leetcode/1155-product-sales-analysis-iii/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1155-product-sales-analysis-iii/Explanation.md) |
+| 1158 | [Market Analysis I](../leetcode/1268-market-analysis-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1268-market-analysis-i/Explanation.md) |
 
-| 1161 | [Maximum Level Sum of a Binary Tree](../leetcode/1161-project-employees-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1161-project-employees-i/Explanation.md) |
+| 1164 | [Product Price at a Given Date](../leetcode/1278-product-price-at-a-given-date/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1278-product-price-at-a-given-date/Explanation.md) |
 
-| 1174 | [Immediate Food Delivery II](../leetcode/1174-sales-analysis-iii/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1174-sales-analysis-iii/Explanation.md) |
+| 1174 | [Immediate Food Delivery II](../leetcode/1292-immediate-food-delivery-ii/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1292-immediate-food-delivery-ii/Explanation.md) |
 
-| 1245 | [Tree Diameter](../leetcode/1245-user-activity-for-the-past-30-days-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1245-user-activity-for-the-past-30-days-i/Explanation.md) |
+| 1193 | [Monthly Transactions I](../leetcode/1317-monthly-transactions-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1317-monthly-transactions-i/Explanation.md) |
 
-| 1258 | [Synonymous Sentences](../leetcode/1258-article-views-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1258-article-views-i/Explanation.md) |
+| 1204 | [Last Person to Fit in the Bus](../leetcode/1327-last-person-to-fit-in-the-bus/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1327-last-person-to-fit-in-the-bus/Explanation.md) |
 
-| 1268 | [Search Suggestions System](../leetcode/1268-market-analysis-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1268-market-analysis-i/Explanation.md) |
+| 1321 | [Restaurant Growth](../leetcode/1452-restaurant-growth/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1452-restaurant-growth/Explanation.md) |
 
-| 1292 | [Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../leetcode/1292-immediate-food-delivery-ii/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1292-immediate-food-delivery-ii/Explanation.md) |
+| 1341 | [Movie Rating](../leetcode/1480-movie-rating/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1480-movie-rating/Explanation.md) |
 
-| 1338 | [Reduce Array Size to The Half](../leetcode/1338-queries-quality-and-percentage/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1338-queries-quality-and-percentage/Explanation.md) |
+| 1393 | [Capital Gain/Loss](../leetcode/1523-capital-gainloss/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1523-capital-gainloss/Explanation.md) |
 
-| 1390 | [Four Divisors](../leetcode/1390-average-selling-price/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1390-average-selling-price/Explanation.md) |
+| 1907 | [Count Salary Categories](../leetcode/2057-count-salary-categories/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2057-count-salary-categories/Explanation.md) |
 
-| 1415 | [The k-th Lexicographical String of All Happy Strings of Length n](../leetcode/1415-students-and-examinations/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1415-students-and-examinations/Explanation.md) |
+| 3220 | [Odd and Even Transactions](../leetcode/3530-odd-and-even-transactions/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3530-odd-and-even-transactions/Explanation.md) |
 
-| 1452 | [People Whose List of Favorite Companies Is Not a Subset of Another List](../leetcode/1452-restaurant-growth/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1452-restaurant-growth/Explanation.md) |
+| 3421 | [Find Students Who Improved](../leetcode/3767-find-students-who-improved/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3767-find-students-who-improved/Explanation.md) |
 
-| 1462 | [Course Schedule IV](../leetcode/1462-list-the-products-ordered-in-a-period/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1462-list-the-products-ordered-in-a-period/Explanation.md) |
+| 3626 | [Find Stores with Inventory Imbalance](../leetcode/3971-find-stores-with-inventory-imbalance/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3971-find-stores-with-inventory-imbalance/Explanation.md) |
 
-| 1509 | [Minimum Difference Between Largest and Smallest Value in Three Moves](../leetcode/1509-replace-employee-id-with-the-unique-identifier/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1509-replace-employee-id-with-the-unique-identifier/Explanation.md) |
+| 3642 | [Find Books with Polarized Opinions](../leetcode/3996-find-books-with-polarized-opinions/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3996-find-books-with-polarized-opinions/Explanation.md) |
 
-| 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1541-top-travellers/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1541-top-travellers/Explanation.md) |
+| 3657 | [Find Loyal Customers](../leetcode/4025-find-loyal-customers/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4025-find-loyal-customers/Explanation.md) |
 
-| 1625 | [Lexicographically Smallest String After Applying Operations](../leetcode/1625-group-sold-products-by-the-date/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1625-group-sold-products-by-the-date/Explanation.md) |
-
-| 1664 | [Ways to Make a Fair Array](../leetcode/1664-find-users-with-valid-e-mails/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1664-find-users-with-valid-e-mails/Explanation.md) |
-
-| 1670 | [Design Front Middle Back Queue](../leetcode/1670-patients-with-a-condition/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1670-patients-with-a-condition/Explanation.md) |
-
-| 1734 | [Decode XORed Permutation](../leetcode/1734-bank-account-summary-ii/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1734-bank-account-summary-ii/Explanation.md) |
-
-| 1801 | [Number of Orders in the Backlog](../leetcode/1801-average-time-of-process-per-machine/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1801-average-time-of-process-per-machine/Explanation.md) |
-
-| 1811 | [Find Interview Candidates](../leetcode/1811-fix-names-in-a-table/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1811-fix-names-in-a-table/Explanation.md) |
-
-| 1877 | [Minimize Maximum Pair Sum in Array](../leetcode/1877-find-followers-count/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1877-find-followers-count/Explanation.md) |
-
-| 1882 | [Process Tasks Using Servers](../leetcode/1882-the-number-of-employees-which-report-to-each-employee/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1882-the-number-of-employees-which-report-to-each-employee/Explanation.md) |
-
-| 1908 | [Game of Nim](../leetcode/1908-recyclable-and-low-fat-products/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1908-recyclable-and-low-fat-products/Explanation.md) |
-
-| 1942 | [The Number of the Smallest Unoccupied Chair](../leetcode/1942-primary-department-for-each-employee/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1942-primary-department-for-each-employee/Explanation.md) |
-
-| 2024 | [Maximize the Confusion of an Exam](../leetcode/2024-calculate-special-bonus/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2024-calculate-special-bonus/Explanation.md) |
-
-| 2041 | [Accepted Candidates From the Interviews](../leetcode/2041-the-latest-login-in-2020/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2041-the-latest-login-in-2020/Explanation.md) |
-
-| 2110 | [Number of Smooth Descent Periods of a Stock](../leetcode/2110-employees-with-missing-information/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2110-employees-with-missing-information/Explanation.md) |
-
-| 2495 | [Number of Subarrays Having Even Product](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/Explanation.md) |
-
-| 3767 | [Maximize Points After Choosing K Tasks](../leetcode/3767-find-students-who-improved/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3767-find-students-who-improved/Explanation.md) |
-
-| 3792 | [Sum of Increasing Product Blocks](../leetcode/3792-find-invalid-ip-addresses/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3792-find-invalid-ip-addresses/Explanation.md) |
-
-| 3961 | [Maximize Sum of Device Ratings](../leetcode/3961-find-students-with-study-spiral-pattern/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3961-find-students-with-study-spiral-pattern/Explanation.md) |
-
-| 4025 | [Minimize the Maximum Waiting Time at Synchronized Traffic Lights](../leetcode/4025-find-loyal-customers/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4025-find-loyal-customers/Explanation.md) |
-
-| 4208 | [Find Emotionally Consistent Users](../leetcode/4208-find-emotionally-consistent-users/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4208-find-emotionally-consistent-users/Explanation.md) |
+| 3808 | [Find Emotionally Consistent Users](../leetcode/4208-find-emotionally-consistent-users/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4208-find-emotionally-consistent-users/Explanation.md) |
 
 ### Hard
 
@@ -166,27 +180,13 @@ A collection of LeetCode problems solved using **Database / SQL** pattern techni
 
 | 601 | [Human Traffic of Stadium](../leetcode/0601-human-traffic-of-stadium/) | SQL | O(n) | O(n) | [Explanation](../leetcode/0601-human-traffic-of-stadium/Explanation.md) |
 
-| 1153 | [String Transforms Into Another String](../leetcode/1153-product-sales-analysis-i/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1153-product-sales-analysis-i/Explanation.md) |
+| 3451 | [Find Invalid IP Addresses](../leetcode/3792-find-invalid-ip-addresses/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3792-find-invalid-ip-addresses/Explanation.md) |
 
-| 1278 | [Palindrome Partitioning III](../leetcode/1278-product-price-at-a-given-date/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1278-product-price-at-a-given-date/Explanation.md) |
+| 3617 | [Find Students with Study Spiral Pattern](../leetcode/3961-find-students-with-study-spiral-pattern/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3961-find-students-with-study-spiral-pattern/Explanation.md) |
 
-| 1301 | [Number of Paths with Max Score](../leetcode/1301-reformat-department-table/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1301-reformat-department-table/Explanation.md) |
+| 3673 | [Find Zombie Sessions](../leetcode/4043-find-zombie-sessions/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4043-find-zombie-sessions/Explanation.md) |
 
-| 1724 | [Checking Existence of Edge Length Limited Paths II](../leetcode/1724-customer-who-visited-but-did-not-make-any-transactions/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1724-customer-who-visited-but-did-not-make-any-transactions/Explanation.md) |
+| 3764 | [Most Common Course Pairs](../leetcode/4169-most-common-course-pairs/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4169-most-common-course-pairs/Explanation.md) |
 
-| 1892 | [Page Recommendations II](../leetcode/1892-find-total-time-spent-by-each-employee/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1892-find-total-time-spent-by-each-employee/Explanation.md) |
-
-| 1948 | [Delete Duplicate Folders in System](../leetcode/1948-rearrange-products-table/) | SQL | O(n) | O(n) | [Explanation](../leetcode/1948-rearrange-products-table/Explanation.md) |
-
-| 2127 | [Maximum Employees to Be Invited to a Meeting](../leetcode/2127-employees-whose-manager-left-the-company/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2127-employees-whose-manager-left-the-company/Explanation.md) |
-
-| 3530 | [Maximum Profit from Valid Topological Order in DAG](../leetcode/3530-odd-and-even-transactions/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3530-odd-and-even-transactions/Explanation.md) |
-
-| 3782 | [Last Remaining Integer After Alternating Deletion Operations](../leetcode/3782-find-valid-emails/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3782-find-valid-emails/Explanation.md) |
-
-| 3971 | [Maximum Total Value](../leetcode/3971-find-stores-with-inventory-imbalance/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3971-find-stores-with-inventory-imbalance/Explanation.md) |
-
-| 4169 | [Most Common Course Pairs](../leetcode/4169-most-common-course-pairs/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4169-most-common-course-pairs/Explanation.md) |
-
-| 4227 | [Find Users with Persistent Behavior Patterns](../leetcode/4227-find-users-with-persistent-behavior-patterns/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4227-find-users-with-persistent-behavior-patterns/Explanation.md) |
+| 3832 | [Find Users with Persistent Behavior Patterns](../leetcode/4227-find-users-with-persistent-behavior-patterns/) | SQL | O(n) | O(n) | [Explanation](../leetcode/4227-find-users-with-persistent-behavior-patterns/Explanation.md) |
 

@@ -1,16 +1,16 @@
-# LeetCode 3792: Sum of Increasing Product Blocks
+# LeetCode 3451: Find Invalid IP Addresses
 
-**LeetCode Problem #3792 — Sum of Increasing Product Blocks**
-Solve LeetCode Sum of Increasing Product Blocks using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #3451 — Find Invalid IP Addresses**
+Solve LeetCode Find Invalid IP Addresses using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Sum of Increasing Product Blocks |
-| LeetCode | #3792 |
-| Difficulty | Medium |
+| Problem | Find Invalid IP Addresses |
+| LeetCode | #3451 |
+| Difficulty | Hard |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Sum of Increasing Product Blocks**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Find Invalid IP Addresses**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

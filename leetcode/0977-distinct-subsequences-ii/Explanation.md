@@ -1,16 +1,16 @@
-# LeetCode 977: Squares of a Sorted Array
+# LeetCode 940: Distinct Subsequences II
 
-**LeetCode Problem #977 — Squares of a Sorted Array**
-Solve LeetCode Squares of a Sorted Array using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+**LeetCode Problem #940 — Distinct Subsequences II**
+Solve LeetCode Distinct Subsequences II using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Squares of a Sorted Array |
-| LeetCode | #977 |
-| Difficulty | Easy |
+| Problem | Distinct Subsequences II |
+| LeetCode | #940 |
+| Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -38,11 +38,11 @@ Time complexity is $O(N)$ and space complexity is $O(1)$ (the `last` array has f
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Squares of a Sorted Array**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Distinct Subsequences II**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

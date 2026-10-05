@@ -1,16 +1,16 @@
-# LeetCode 2182: Construct String With Repeat Limit
+# LeetCode 2058: Find the Minimum and Maximum Number of Nodes Between Critical Points
 
-**LeetCode Problem #2182 — Construct String With Repeat Limit**
-Solve LeetCode Construct String With Repeat Limit using C++ and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+**LeetCode Problem #2058 — Find the Minimum and Maximum Number of Nodes Between Critical Points**
+Solve LeetCode Find the Minimum and Maximum Number of Nodes Between Critical Points using C++ and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Construct String With Repeat Limit |
-| LeetCode | #2182 |
+| Problem | Find the Minimum and Maximum Number of Nodes Between Critical Points |
+| LeetCode | #2058 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Traverse the linked list, tracking the position of each critical point (where `p
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Construct String With Repeat Limit**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Find the Minimum and Maximum Number of Nodes Between Critical Points**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3299. Sum of Consecutive Subsequences](../3299-find-the-maximum-number-of-elements-in-subset/)
+- [3020. Find the Maximum Number of Elements in Subset](../3299-find-the-maximum-number-of-elements-in-subset/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 

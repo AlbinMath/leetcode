@@ -1,14 +1,14 @@
-# LeetCode 804: Unique Morse Code Words
+# LeetCode 788: Rotated Digits
 
-**LeetCode Problem #804 — Unique Morse Code Words**
-Solve LeetCode Unique Morse Code Words using C++ and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+**LeetCode Problem #788 — Rotated Digits**
+Solve LeetCode Rotated Digits using C++ and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Unique Morse Code Words |
-| LeetCode | #804 |
-| Difficulty | Easy |
+| Problem | Rotated Digits |
+| LeetCode | #788 |
+| Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -39,7 +39,7 @@ Time complexity is $O(N \log N)$ (each number has at most $\log_{10}(N)$ digits)
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Unique Morse Code Words**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Rotated Digits**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

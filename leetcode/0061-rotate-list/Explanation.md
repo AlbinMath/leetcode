@@ -1,7 +1,7 @@
 # LeetCode 61: Rotate List
 
 **LeetCode Problem #61 — Rotate List**
-Solve LeetCode Rotate List using C++ and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+Solve LeetCode Rotate List using C++ and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Rotate List using C++ and Two Pointers. This solution finds the o
 | LeetCode | #61 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -34,11 +34,11 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Rotate List**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Rotate List**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

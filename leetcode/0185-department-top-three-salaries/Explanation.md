@@ -1,7 +1,7 @@
 # LeetCode 185: Department Top Three Salaries
 
 **LeetCode Problem #185 — Department Top Three Salaries**
-Solve LeetCode Department Top Three Salaries using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Department Top Three Salaries using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Department Top Three Salaries using SQL and Database / SQL. This 
 | LeetCode | #185 |
 | Difficulty | Hard |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Department Top Three Salaries**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Department Top Three Salaries**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [184. Department Highest Salary](../0184-department-highest-salary/)
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
-- [1136. Parallel Courses](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
+- [1050. Actors and Directors Who Cooperated At Least Three Times](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/department-top-three-salaries/)

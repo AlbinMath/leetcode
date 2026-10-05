@@ -1,16 +1,16 @@
-# LeetCode 1136: Parallel Courses
+# LeetCode 1050: Actors and Directors Who Cooperated At Least Three Times
 
-**LeetCode Problem #1136 — Parallel Courses**
-Solve LeetCode Parallel Courses using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1050 — Actors and Directors Who Cooperated At Least Three Times**
+Solve LeetCode Actors and Directors Who Cooperated At Least Three Times using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Parallel Courses |
-| LeetCode | #1136 |
-| Difficulty | Medium |
+| Problem | Actors and Directors Who Cooperated At Least Three Times |
+| LeetCode | #1050 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Parallel Courses**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Actors and Directors Who Cooperated At Least Three Times**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

@@ -1,14 +1,14 @@
-# LeetCode 1386: Cinema Seat Allocation
+# LeetCode 1260: Shift 2D Grid
 
-**LeetCode Problem #1386 — Cinema Seat Allocation**
-Solve LeetCode Cinema Seat Allocation using Racket and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #1260 — Shift 2D Grid**
+Solve LeetCode Shift 2D Grid using Racket and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Cinema Seat Allocation |
-| LeetCode | #1386 |
-| Difficulty | Medium |
+| Problem | Shift 2D Grid |
+| LeetCode | #1260 |
+| Difficulty | Easy |
 | Language | Racket |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -36,7 +36,7 @@ Time complexity is $O(M \times N)$ and space complexity is $O(M \times N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Cinema Seat Allocation**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Shift 2D Grid**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -70,9 +70,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2043. Simple Bank System](../2043-cyclically-rotating-a-grid/)
-- [2914. Minimum Number of Changes to Make Binary String Beautiful](../2914-find-the-safest-path-in-a-grid/)
-- [3558. Number of Ways to Assign Edge Weights I](../3558-find-a-safe-walk-through-a-grid/)
+- [1914. Cyclically Rotating a Grid](../2043-cyclically-rotating-a-grid/)
+- [2812. Find the Safest Path in a Grid](../2914-find-the-safest-path-in-a-grid/)
+- [3286. Find a Safe Walk Through a Grid](../3558-find-a-safe-walk-through-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shift-2d-grid/)

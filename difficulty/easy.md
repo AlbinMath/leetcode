@@ -9,7 +9,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1 | [Two Sum](../leetcode/0001-two-sum/) | Hash Map | Python | O(n) | O(n) |
 | 9 | [Palindrome Number](../leetcode/0009-palindrome-number/) | Two Pointers | Python | O(n) | O(1) |
 | 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Hash Map | Python | O(n) | O(n) |
-| 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Hash Map | Python | O(n) | O(n) |
+| 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Prefix Sum | Python | O(n) | O(n) |
 | 20 | [Valid Parentheses](../leetcode/0020-valid-parentheses/) | Stack & Queue | JavaScript | O(n) | O(n) |
 | 175 | [Combine Two Tables](../leetcode/0175-combine-two-tables/) | Database / SQL | SQL | O(n) | O(n) |
 | 181 | [Employees Earning More Than Their Managers](../leetcode/0181-employees-earning-more-than-their-managers/) | Database / SQL | SQL | O(n) | O(n) |
@@ -21,6 +21,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 197 | [Rising Temperature](../leetcode/0197-rising-temperature/) | Database / SQL | SQL | O(n) | O(n) |
 | 448 | [Find All Numbers Disappeared in an Array](../leetcode/0448-find-all-numbers-disappeared-in-an-array/) | Array / General | TypeScript | O(n) | O(1) |
 | 485 | [Max Consecutive Ones](../leetcode/0485-max-consecutive-ones/) | Array / General | TypeScript | O(n) | O(1) |
+| 511 | [Game Play Analysis I](../leetcode/1179-game-play-analysis-i/) | Array / General | Python | O(n) | O(1) |
 | 577 | [Employee Bonus](../leetcode/0577-employee-bonus/) | Database / SQL | SQL | O(n) | O(n) |
 | 584 | [Find Customer Referee](../leetcode/0584-find-customer-referee/) | Database / SQL | SQL | O(n) | O(n) |
 | 586 | [Customer Placing the Largest Number of Orders](../leetcode/0586-customer-placing-the-largest-number-of-orders/) | Database / SQL | SQL | O(n) | O(n) |
@@ -33,70 +34,119 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 627 | [Swap Sex of Employees](../leetcode/0627-swap-sex-of-employees/) | Database / SQL | SQL | O(n) | O(n) |
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Binary Search | Elixir | O(n) | O(1) |
 | 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | Array / General | TypeScript | O(n) | O(1) |
-| 804 | [Unique Morse Code Words](../leetcode/0804-rotated-digits/) | Binary Search | C++ | O(n) | O(1) |
-| 812 | [Largest Triangle Area](../leetcode/0812-rotate-string/) | Math & Logic | C++ | O(n) | O(1) |
-| 977 | [Squares of a Sorted Array](../leetcode/0977-distinct-subsequences-ii/) | Dynamic Programming | JavaScript | O(n) | O(n) |
-| 1179 | [Reformat Department Table](../leetcode/1179-game-play-analysis-i/) | Array / General | Python | O(n) | O(1) |
-| 1317 | [Convert Integer to the Sum of Two No-Zero Integers](../leetcode/1317-monthly-transactions-i/) | Database / SQL | SQL | O(n) | O(n) |
-| 1327 | [List the Products Ordered in a Period](../leetcode/1327-last-person-to-fit-in-the-bus/) | Database / SQL | SQL | O(n) | O(n) |
-| 1446 | [Consecutive Characters](../leetcode/1446-angle-between-hands-of-a-clock/) | Math & Logic | Java | O(n) | O(1) |
-| 1460 | [Make Two Arrays Equal by Reversing Subarrays](../leetcode/1460-number-of-substrings-containing-all-three-characters/) | Tree & Graph | Java | O(n) | O(n) |
-| 1480 | [Running Sum of 1d Array](../leetcode/1480-movie-rating/) | Database / SQL | SQL | O(n) | O(n) |
-| 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1523-capital-gainloss/) | Database / SQL | SQL | O(n) | O(n) |
-| 1725 | [Number Of Rectangles That Can Form The Largest Square](../leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/) | Prefix Sum | JavaScript | O(n) | O(n) |
-| 1773 | [Count Items Matching a Rule](../leetcode/1773-percentage-of-users-attended-a-contest/) | Database / SQL | SQL | O(n) | O(n) |
-| 1784 | [Check if Binary String Has at Most One Segment of Ones](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | Binary Search | C++ | O(log n) | O(1) |
-| 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1827-invalid-tweets/) | Database / SQL | SQL | O(n) | O(n) |
-| 1837 | [Sum of Digits in Base K](../leetcode/1837-daily-leads-and-partners/) | Database / SQL | SQL | O(n) | O(n) |
-| 1961 | [Check If String Is a Prefix of Array](../leetcode/1961-maximum-ice-cream-bars/) | Binary Search | Java | O(n) | O(1) |
-| 2057 | [Smallest Index With Equal Value](../leetcode/2057-count-salary-categories/) | Database / SQL | SQL | O(n) | O(n) |
-| 2099 | [Find Subsequence of Length K With the Largest Sum](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Tree & Graph | Kotlin | O(n) | O(n) |
-| 2236 | [Root Equals Sum of Children](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Fast & Slow Pointers | Java | O(n) | O(1) |
-| 2248 | [Intersection of Multiple Arrays](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Array / General | Kotlin | O(n) | O(1) |
-| 2319 | [Check if Matrix Is X-Matrix](../leetcode/2319-longest-substring-of-one-repeating-character/) | Binary Search | Java | O(n) | O(1) |
-| 2347 | [Best Poker Hand](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | Two Pointers | JavaScript | O(n) | O(1) |
-| 2582 | [Pass the Pillow](../leetcode/2582-minimum-score-of-a-path-between-two-cities/) | Tree & Graph | Java | O(n) | O(n) |
-| 2634 | [Filter Elements from Array](../leetcode/2634-minimum-common-value/) | Two Pointers | C++ | O(n) | O(1) |
-| 2639 | [Find the Width of Columns of a Grid](../leetcode/2639-separate-the-digits-in-an-array/) | Math & Logic | C++ | O(n) | O(1) |
-| 2733 | [Neither Minimum nor Maximum](../leetcode/2733-sleep/) | Array / General | JavaScript | O(n) | O(1) |
-| 2744 | [Find Maximum Number of String Pairs](../leetcode/2744-memoize-ii/) | Hash Map | TypeScript | O(n) | O(n) |
-| 2758 | [Next Day](../leetcode/2758-check-if-object-instance-of-class/) | Array / General | JavaScript | O(n) | O(1) |
-| 2760 | [Longest Even Odd Subarray With Threshold](../leetcode/2760-snail-traversal/) | Array / General | TypeScript | O(n) | O(1) |
-| 2788 | [Split Strings by Separator](../leetcode/2788-design-cancellable-function/) | Array / General | TypeScript | O(n) | O(1) |
-| 2796 | [Repeat String](../leetcode/2796-allow-one-function-call/) | Array / General | TypeScript | O(n) | O(1) |
-| 2797 | [Partial Function with Placeholders](../leetcode/2797-event-emitter/) | Array / General | TypeScript | O(n) | O(1) |
-| 2798 | [Number of Employees Who Met the Target](../leetcode/2798-chunk-array/) | Array / General | TypeScript | O(n) | O(1) |
-| 2804 | [Array Prototype ForEach](../leetcode/2804-compact-object/) | Array / General | TypeScript | O(n) | O(1) |
-| 2855 | [Minimum Right Shifts to Sort the Array](../leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/) | Dynamic Programming | C++ | O(n) | O(n) |
-| 2859 | [Sum of Values at Indices With K Set Bits](../leetcode/2859-add-two-promises/) | Array / General | TypeScript | O(n) | O(1) |
-| 2864 | [Maximum Odd Binary Number](../leetcode/2864-is-object-empty/) | Array / General | TypeScript | O(n) | O(1) |
-| 3062 | [Winner of the Linked List Game](../leetcode/3062-create-a-dataframe-from-list/) | Two Pointers | Python | O(n) | O(1) |
-| 3063 | [Linked List Frequency](../leetcode/3063-method-chaining/) | Hash Map | Python | O(n) | O(n) |
-| 3065 | [Minimum Operations to Exceed Threshold Value I](../leetcode/3065-display-the-first-three-rows/) | Array / General | Python | O(n) | O(1) |
-| 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3069-change-data-type/) | Array / General | Python | O(n) | O(1) |
-| 3074 | [Apple Redistribution into Boxes](../leetcode/3074-select-data/) | Array / General | Python | O(n) | O(1) |
-| 3150 | [Invalid Tweets II](../leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string/) | Array / General | C++ | O(n) | O(1) |
-| 3349 | [Adjacent Increasing Subarrays Detection I](../leetcode/3349-maximum-length-substring-with-two-occurrences/) | Array / General | Swift | O(n) | O(1) |
-| 3375 | [Minimum Operations to Make Array Values Equal to K](../leetcode/3375-kth-smallest-amount-with-single-denomination-combination/) | Backtracking | Java | O(n) | O(1) |
-| 3606 | [Coupon Code Validator](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | Math & Logic | C++ | O(n) | O(1) |
-| 3803 | [Count Residue Prefixes](../leetcode/3803-find-products-with-valid-serial-numbers/) | Database / SQL | SQL | O(n) | O(n) |
-| 3813 | [Vowel-Consonant Score](../leetcode/3813-smallest-palindromic-rearrangement-ii/) | Tree & Graph | PHP | O(n) | O(n) |
-| 3838 | [Weighted Word Mapping](../leetcode/3838-path-existence-queries-in-a-graph-i/) | Tree & Graph | Java | O(n) | O(n) |
-| 3842 | [Toggle Light Bulbs](../leetcode/3842-number-of-ways-to-assign-edge-weights-ii/) | Tree & Graph | Python | O(n) | O(n) |
-| 3852 | [Smallest Pair With Different Frequencies](../leetcode/3852-path-existence-queries-in-a-graph-ii/) | Tree & Graph | PHP | O(n) | O(n) |
-| 3870 | [Count Commas in Range](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | Hash Map | C++ | O(n) | O(n) |
-| 3898 | [Find the Degree of Each Vertex](../leetcode/3898-seasonal-sales-analysis/) | Array / General | Python | O(n) | O(1) |
-| 3921 | [Score Validator](../leetcode/3921-find-consistently-improving-employees/) | Array / General | Python | O(n) | O(1) |
-| 3931 | [Check Adjacent Digit Differences](../leetcode/3931-process-string-with-special-operations-i/) | Tree & Graph | Java | O(n) | O(n) |
-| 3986 | [Number of Elapsed Seconds Between Two Times](../leetcode/3986-maximum-path-score-in-a-grid/) | Tree & Graph | C++ | O(n) | O(n) |
-| 3996 | [Even Number of Knight Moves](../leetcode/3996-find-books-with-polarized-opinions/) | Database / SQL | SQL | O(n) | O(n) |
-| 4020 | [Elevator Requests I](../leetcode/4020-lexicographically-smallest-permutation-greater-than-target/) | Backtracking | C++ | O(n) | O(1) |
-| 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](../leetcode/4043-find-zombie-sessions/) | Database / SQL | SQL | O(n) | O(n) |
-| 4080 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Array / General | C# | O(n) | O(1) |
-| 4107 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Array / General | PHP | O(n) | O(1) |
-| 4135 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Math & Logic | Kotlin | O(n) | O(1) |
-| 4195 | [Find Users with High Token Usage](../leetcode/4195-find-users-with-high-token-usage/) | Database / SQL | SQL | O(n) | O(n) |
-| 4216 | [Weighted Word Mapping](../leetcode/4216-weighted-word-mapping/) | Hash Map | Kotlin | O(n) | O(n) |
-| 4245 | [Count Commas in Range](../leetcode/4245-count-commas-in-range/) | Tree & Graph | JavaScript | O(n) | O(n) |
-| 4256 | [Construct Uniform Parity Array I](../leetcode/4256-construct-uniform-parity-array-i/) | Binary Search | C++ | O(n) | O(1) |
-| 4284 | [Smallest Stable Index I](../leetcode/4284-smallest-stable-index-i/) | Tree & Graph | JavaScript | O(n) | O(n) |
+| 796 | [Rotate String](../leetcode/0812-rotate-string/) | Math & Logic | C++ | O(n) | O(1) |
+| 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Math & Logic | JavaScript | O(n) | O(1) |
+| 1050 | [Actors and Directors Who Cooperated At Least Three Times](../leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/) | Database / SQL | SQL | O(n) | O(n) |
+| 1068 | [Product Sales Analysis I](../leetcode/1153-product-sales-analysis-i/) | Database / SQL | SQL | O(n) | O(n) |
+| 1075 | [Project Employees I](../leetcode/1161-project-employees-i/) | Database / SQL | SQL | O(n) | O(n) |
+| 1084 | [Sales Analysis III](../leetcode/1174-sales-analysis-iii/) | Database / SQL | SQL | O(n) | O(n) |
+| 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Hash Map | Java | O(n) | O(n) |
+| 1141 | [User Activity for the Past 30 Days I](../leetcode/1245-user-activity-for-the-past-30-days-i/) | Database / SQL | SQL | O(n) | O(n) |
+| 1148 | [Article Views I](../leetcode/1258-article-views-i/) | Database / SQL | SQL | O(n) | O(n) |
+| 1179 | [Reformat Department Table](../leetcode/1301-reformat-department-table/) | Database / SQL | SQL | O(n) | O(n) |
+| 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Hash Map | Kotlin | O(n) | O(n) |
+| 1211 | [Queries Quality and Percentage](../leetcode/1338-queries-quality-and-percentage/) | Database / SQL | SQL | O(n) | O(n) |
+| 1251 | [Average Selling Price](../leetcode/1390-average-selling-price/) | Database / SQL | SQL | O(n) | O(n) |
+| 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Tree & Graph | Racket | O(n) | O(n) |
+| 1280 | [Students and Examinations](../leetcode/1415-students-and-examinations/) | Database / SQL | SQL | O(n) | O(n) |
+| 1327 | [List the Products Ordered in a Period](../leetcode/1462-list-the-products-ordered-in-a-period/) | Database / SQL | SQL | O(n) | O(n) |
+| 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Binary Search | Kotlin | O(n) | O(1) |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | Prefix Sum | TypeScript | O(n) | O(n) |
+| 1378 | [Replace Employee ID With The Unique Identifier](../leetcode/1509-replace-employee-id-with-the-unique-identifier/) | Database / SQL | SQL | O(n) | O(n) |
+| 1407 | [Top Travellers](../leetcode/1541-top-travellers/) | Database / SQL | SQL | O(n) | O(n) |
+| 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Binary Search | Scala | O(n) | O(1) |
+| 1470 | [Shuffle the Array](../leetcode/1580-shuffle-the-array/) | Array / General | TypeScript | O(n) | O(1) |
+| 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | Monotonic Stack | TypeScript | O(n) | O(n) |
+| 1484 | [Group Sold Products By The Date](../leetcode/1625-group-sold-products-by-the-date/) | Database / SQL | SQL | O(n) | O(n) |
+| 1517 | [Find Users With Valid E-Mails](../leetcode/1664-find-users-with-valid-e-mails/) | Database / SQL | SQL | O(n) | O(n) |
+| 1527 | [Patients With a Condition](../leetcode/1670-patients-with-a-condition/) | Database / SQL | SQL | O(n) | O(n) |
+| 1581 | [Customer Who Visited but Did Not Make Any Transactions](../leetcode/1724-customer-who-visited-but-did-not-make-any-transactions/) | Database / SQL | SQL | O(n) | O(n) |
+| 1587 | [Bank Account Summary II](../leetcode/1734-bank-account-summary-ii/) | Database / SQL | SQL | O(n) | O(n) |
+| 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Stack & Queue | Java | O(n) | O(n) |
+| 1633 | [Percentage of Users Attended a Contest](../leetcode/1773-percentage-of-users-attended-a-contest/) | Database / SQL | SQL | O(n) | O(n) |
+| 1661 | [Average Time of Process per Machine](../leetcode/1801-average-time-of-process-per-machine/) | Database / SQL | SQL | O(n) | O(n) |
+| 1667 | [Fix Names in a Table](../leetcode/1811-fix-names-in-a-table/) | Database / SQL | SQL | O(n) | O(n) |
+| 1683 | [Invalid Tweets](../leetcode/1827-invalid-tweets/) | Database / SQL | SQL | O(n) | O(n) |
+| 1693 | [Daily Leads and Partners](../leetcode/1837-daily-leads-and-partners/) | Database / SQL | SQL | O(n) | O(n) |
+| 1729 | [Find Followers Count](../leetcode/1877-find-followers-count/) | Database / SQL | SQL | O(n) | O(n) |
+| 1731 | [The Number of Employees Which Report to Each Employee](../leetcode/1882-the-number-of-employees-which-report-to-each-employee/) | Database / SQL | SQL | O(n) | O(n) |
+| 1732 | [Find the Highest Altitude](../leetcode/1833-find-the-highest-altitude/) | Array / General | Kotlin | O(n) | O(1) |
+| 1741 | [Find Total Time Spent by Each Employee](../leetcode/1892-find-total-time-spent-by-each-employee/) | Database / SQL | SQL | O(n) | O(n) |
+| 1752 | [Check if Array Is Sorted and Rotated](../leetcode/1878-check-if-array-is-sorted-and-rotated/) | Binary Search | C++ | O(n) | O(1) |
+| 1757 | [Recyclable and Low Fat Products](../leetcode/1908-recyclable-and-low-fat-products/) | Database / SQL | SQL | O(n) | O(n) |
+| 1789 | [Primary Department for Each Employee](../leetcode/1942-primary-department-for-each-employee/) | Database / SQL | SQL | O(n) | O(n) |
+| 1795 | [Rearrange Products Table](../leetcode/1948-rearrange-products-table/) | Database / SQL | SQL | O(n) | O(n) |
+| 1873 | [Calculate Special Bonus](../leetcode/2024-calculate-special-bonus/) | Database / SQL | SQL | O(n) | O(n) |
+| 1890 | [The Latest Login in 2020](../leetcode/2041-the-latest-login-in-2020/) | Database / SQL | SQL | O(n) | O(n) |
+| 1929 | [Concatenation of Array](../leetcode/2058-concatenation-of-array/) | Array / General | TypeScript | O(n) | O(1) |
+| 1965 | [Employees With Missing Information](../leetcode/2110-employees-with-missing-information/) | Database / SQL | SQL | O(n) | O(n) |
+| 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Tree & Graph | Kotlin | O(n) | O(n) |
+| 1978 | [Employees Whose Manager Left the Company](../leetcode/2127-employees-whose-manager-left-the-company/) | Database / SQL | SQL | O(n) | O(n) |
+| 1979 | [Find Greatest Common Divisor of Array](../leetcode/2106-find-greatest-common-divisor-of-array/) | Array / General | Kotlin | O(n) | O(1) |
+| 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Array / General | Kotlin | O(n) | O(1) |
+| 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Database / SQL | SQL | O(n) | O(n) |
+| 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | Two Pointers | C++ | O(n) | O(1) |
+| 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | Math & Logic | C++ | O(n) | O(1) |
+| 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Prefix Sum | Kotlin | O(n) | O(n) |
+| 2619 | [Array Prototype Last](../leetcode/2734-array-prototype-last/) | Array / General | JavaScript | O(n) | O(1) |
+| 2620 | [Counter](../leetcode/2732-counter/) | Array / General | JavaScript | O(n) | O(1) |
+| 2621 | [Sleep](../leetcode/2733-sleep/) | Array / General | JavaScript | O(n) | O(1) |
+| 2626 | [Array Reduce Transformation](../leetcode/2761-array-reduce-transformation/) | Array / General | TypeScript | O(n) | O(1) |
+| 2629 | [Function Composition](../leetcode/2741-function-composition/) | Array / General | TypeScript | O(n) | O(1) |
+| 2634 | [Filter Elements from Array](../leetcode/2746-filter-elements-from-array/) | Array / General | TypeScript | O(n) | O(1) |
+| 2635 | [Apply Transform Over Each Element in Array](../leetcode/2747-apply-transform-over-each-element-in-array/) | Hash Map | TypeScript | O(n) | O(n) |
+| 2648 | [Generate Fibonacci Sequence](../leetcode/2775-generate-fibonacci-sequence/) | Array / General | TypeScript | O(n) | O(1) |
+| 2665 | [Counter II](../leetcode/2789-counter-ii/) | Array / General | TypeScript | O(n) | O(1) |
+| 2666 | [Allow One Function Call](../leetcode/2796-allow-one-function-call/) | Array / General | TypeScript | O(n) | O(1) |
+| 2667 | [Create Hello World Function](../leetcode/2809-create-hello-world-function/) | Tree & Graph | TypeScript | O(n) | O(n) |
+| 2677 | [Chunk Array](../leetcode/2798-chunk-array/) | Array / General | TypeScript | O(n) | O(1) |
+| 2695 | [Array Wrapper](../leetcode/2805-array-wrapper/) | Array / General | TypeScript | O(n) | O(1) |
+| 2703 | [Return Length of Arguments Passed](../leetcode/2820-return-length-of-arguments-passed/) | Hash Map | TypeScript | O(n) | O(n) |
+| 2704 | [To Be Or Not To Be](../leetcode/2813-to-be-or-not-to-be/) | Array / General | TypeScript | O(n) | O(1) |
+| 2723 | [Add Two Promises](../leetcode/2859-add-two-promises/) | Bit Manipulation | TypeScript | O(n) | O(1) |
+| 2724 | [Sort By](../leetcode/2860-sort-by/) | Array / General | TypeScript | O(n) | O(1) |
+| 2725 | [Interval Cancellation](../leetcode/2862-interval-cancellation/) | Heap | TypeScript | O(n) | O(n) |
+| 2726 | [Calculator with Method Chaining](../leetcode/2863-calculator-with-method-chaining/) | Hash Map | TypeScript | O(n) | O(n) |
+| 2727 | [Is Object Empty](../leetcode/2864-is-object-empty/) | Array / General | TypeScript | O(n) | O(1) |
+| 2784 | [Check if Array is Good](../leetcode/2892-check-if-array-is-good/) | Array / General | C++ | O(n) | O(1) |
+| 2877 | [Create a DataFrame from List](../leetcode/3062-create-a-dataframe-from-list/) | Two Pointers | Python | O(n) | O(1) |
+| 2878 | [Get the Size of a DataFrame](../leetcode/3076-get-the-size-of-a-dataframe/) | Two Pointers | Python | O(n) | O(1) |
+| 2879 | [Display the First Three Rows](../leetcode/3065-display-the-first-three-rows/) | Array / General | Python | O(n) | O(1) |
+| 2880 | [Select Data](../leetcode/3074-select-data/) | Bit Manipulation | Python | O(n) | O(1) |
+| 2881 | [Create a New Column](../leetcode/3066-create-a-new-column/) | Two Pointers | Python | O(n) | O(1) |
+| 2882 | [Drop Duplicate Rows](../leetcode/3071-drop-duplicate-rows/) | Array / General | Python | O(n) | O(1) |
+| 2883 | [Drop Missing Data](../leetcode/3075-drop-missing-data/) | Bit Manipulation | Python | O(n) | O(1) |
+| 2884 | [Modify Columns](../leetcode/3067-modify-columns/) | Tree & Graph | Python | O(n) | O(n) |
+| 2885 | [Rename Columns](../leetcode/3068-rename-columns/) | Tree & Graph | Python | O(n) | O(n) |
+| 2886 | [Change Data Type](../leetcode/3069-change-data-type/) | Bit Manipulation | Python | O(n) | O(1) |
+| 2887 | [Fill Missing Data](../leetcode/3070-fill-missing-data/) | Bit Manipulation | Python | O(n) | O(1) |
+| 2888 | [Reshape Data: Concatenate](../leetcode/3064-reshape-data-concatenate/) | Stack & Queue | Python | O(n) | O(n) |
+| 2889 | [Reshape Data: Pivot](../leetcode/3072-reshape-data-pivot/) | Tree & Graph | Python | O(n) | O(n) |
+| 2890 | [Reshape Data: Melt](../leetcode/3073-reshape-data-melt/) | Bit Manipulation | Python | O(n) | O(1) |
+| 2891 | [Method Chaining](../leetcode/3063-method-chaining/) | Hash Map | Python | O(n) | O(n) |
+| 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Prefix Sum | Rust | O(n) | O(n) |
+| 3014 | [Minimum Number of Pushes to Type Word I](../leetcode/3275-minimum-number-of-pushes-to-type-word-i/) | Hash Map | Dart | O(n) | O(n) |
+| 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3347-distribute-elements-into-two-arrays-i/) | Hash Map | Go | O(n) | O(n) |
+| 3090 | [Maximum Length Substring With Two Occurrences](../leetcode/3349-maximum-length-substring-with-two-occurrences/) | Array / General | Swift | O(n) | O(1) |
+| 3120 | [Count the Number of Special Characters I](../leetcode/3408-count-the-number-of-special-characters-i/) | Array / General | C++ | O(n) | O(1) |
+| 3300 | [Minimum Element After Replacement With Digit Sum](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | Math & Logic | C++ | O(n) | O(1) |
+| 3345 | [Smallest Divisible Digit Product I](../leetcode/3626-smallest-divisible-digit-product-i/) | Tree & Graph | Ruby | O(n) | O(n) |
+| 3436 | [Find Valid Emails](../leetcode/3782-find-valid-emails/) | Database / SQL | SQL | O(n) | O(n) |
+| 3465 | [Find Products with Valid Serial Numbers](../leetcode/3803-find-products-with-valid-serial-numbers/) | Database / SQL | SQL | O(n) | O(n) |
+| 3471 | [Find the Largest Almost Missing Integer](../leetcode/3705-find-the-largest-almost-missing-integer/) | Array / General | Kotlin | O(n) | O(1) |
+| 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Math & Logic | JavaScript | O(n) | O(1) |
+| 3498 | [Reverse Degree of a String](../leetcode/3811-reverse-degree-of-a-string/) | Array / General | Python | O(n) | O(1) |
+| 3536 | [Maximum Product of Two Digits](../leetcode/3859-maximum-product-of-two-digits/) | Math & Logic | Erlang | O(n) | O(1) |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | Math & Logic | JavaScript | O(n) | O(1) |
+| 3570 | [Find Books with No Available Copies](../leetcode/3910-find-books-with-no-available-copies/) | Array / General | Python | O(n) | O(1) |
+| 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Math & Logic | C | O(n) | O(1) |
+| 3633 | [Earliest Finish Time for Land and Water Rides I](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/) | Array / General | Kotlin | O(n) | O(1) |
+| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Array / General | Kotlin | O(n) | O(1) |
+| 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Array / General | C# | O(n) | O(1) |
+| 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Array / General | PHP | O(n) | O(1) |
+| 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Bit Manipulation | Kotlin | O(n) | O(1) |
+| 3793 | [Find Users with High Token Usage](../leetcode/4195-find-users-with-high-token-usage/) | Database / SQL | SQL | O(n) | O(n) |
+| 3838 | [Weighted Word Mapping](../leetcode/4216-weighted-word-mapping/) | Hash Map | Kotlin | O(n) | O(n) |
+| 3870 | [Count Commas in Range](../leetcode/4245-count-commas-in-range/) | Tree & Graph | JavaScript | O(n) | O(n) |
+| 3875 | [Construct Uniform Parity Array I](../leetcode/4256-construct-uniform-parity-array-i/) | Binary Search | C++ | O(n) | O(1) |
+| 3903 | [Smallest Stable Index I](../leetcode/4284-smallest-stable-index-i/) | Tree & Graph | JavaScript | O(n) | O(n) |

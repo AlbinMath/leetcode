@@ -1,17 +1,17 @@
-# LeetCode 1501: Countries You Can Safely Invest In
+# LeetCode 1401: Circle and Rectangle Overlapping
 
-**LeetCode Problem #1501 — Countries You Can Safely Invest In**
-Solve LeetCode Countries You Can Safely Invest In using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+**LeetCode Problem #1401 — Circle and Rectangle Overlapping**
+Solve LeetCode Circle and Rectangle Overlapping using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Countries You Can Safely Invest In |
-| LeetCode | #1501 |
+| Problem | Circle and Rectangle Overlapping |
+| LeetCode | #1401 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
 | Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,7 +20,7 @@ Solve LeetCode Countries You Can Safely Invest In using JavaScript and Math & Lo
 You are given a circle represented as  (radius, xCenter, yCenter)  and an axis-aligned rectangle represented as  (x1, y1, x2, y2) , where  (x1, y1)  are the coordinates of the bottom-left corner, and  (x2, y2)  are the coordinates of the top-right corner of the rectangle.
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code finds the closest point on the rectangle to the circle's center and checks if it's within the radius. The closest point is found by clamping the center's coordinates to the rectangle's bounds. If the distance from the center to this closest point is ≤ radius, they overlap.
@@ -28,12 +28,12 @@ The code finds the closest point on the rectangle to the circle's center and che
 Time and space complexity are both $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Countries You Can Safely Invest In**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Circle and Rectangle Overlapping**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,8 +66,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
-- [866. Prime Palindrome](../0866-rectangle-overlap/)
-- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [836. Rectangle Overlap](../0866-rectangle-overlap/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/circle-and-rectangle-overlapping/)

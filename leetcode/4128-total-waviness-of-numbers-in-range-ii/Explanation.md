@@ -1,16 +1,16 @@
-# LeetCode 4128: Total Waviness of Numbers in Range II
+# LeetCode 3753: Total Waviness of Numbers in Range II
 
-**LeetCode Problem #4128 — Total Waviness of Numbers in Range II**
-Solve LeetCode Total Waviness of Numbers in Range II using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3753 — Total Waviness of Numbers in Range II**
+Solve LeetCode Total Waviness of Numbers in Range II using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Total Waviness of Numbers in Range II |
-| LeetCode | #4128 |
+| LeetCode | #3753 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Total Waviness of Numbers in Range II**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Total Waviness of Numbers in Range II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4057. Number of Intersecting Interval Pairs II](../4057-total-waviness-of-numbers-in-range-i/)
-- [4007. Widest Possible Fence](../4007-maximum-total-subarray-value-ii/)
-- [4248. Count Commas in Range II](../4248-count-commas-in-range-ii/)
+- [3751. Total Waviness of Numbers in Range I](../4057-total-waviness-of-numbers-in-range-i/)
+- [3691. Maximum Total Subarray Value II](../4007-maximum-total-subarray-value-ii/)
+- [3871. Count Commas in Range II](../4248-count-commas-in-range-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/)

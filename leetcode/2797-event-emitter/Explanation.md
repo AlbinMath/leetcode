@@ -1,16 +1,16 @@
-# LeetCode 2797: Partial Function with Placeholders
+# LeetCode 2694: Event Emitter
 
-**LeetCode Problem #2797 — Partial Function with Placeholders**
-Solve LeetCode Partial Function with Placeholders using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2694 — Event Emitter**
+Solve LeetCode Event Emitter using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Partial Function with Placeholders |
-| LeetCode | #2797 |
-| Difficulty | Easy |
+| Problem | Event Emitter |
+| LeetCode | #2694 |
+| Difficulty | Medium |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Uses a Map where keys are event names and values are arrays of callbacks. `subsc
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Partial Function with Placeholders**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Event Emitter**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

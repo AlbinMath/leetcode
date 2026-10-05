@@ -1,17 +1,17 @@
-# LeetCode 1446: Consecutive Characters
+# LeetCode 1344: Angle Between Hands of a Clock
 
-**LeetCode Problem #1446 — Consecutive Characters**
-Solve LeetCode Consecutive Characters using Java and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
+**LeetCode Problem #1344 — Angle Between Hands of a Clock**
+Solve LeetCode Angle Between Hands of a Clock using Java and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Consecutive Characters |
-| LeetCode | #1446 |
-| Difficulty | Easy |
+| Problem | Angle Between Hands of a Clock |
+| LeetCode | #1344 |
+| Difficulty | Medium |
 | Language | Java |
-| Algorithm | Mathematical Simulation / Modular Arithmetic |
-| Data Structure | Primitive Data Types |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
 | Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
@@ -20,7 +20,7 @@ Solve LeetCode Consecutive Characters using Java and Math & Logic. This solution
 Given two numbers,  hour  and  minutes , return  the smaller angle (in degrees) formed between the   hour   and the   minute   hand .
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 1. **Minute Hand Angle:** Each minute moves the minute hand by `6°` → `minuteAngle = minutes * 6.0`.
@@ -30,12 +30,12 @@ Leverage **Math & Logic** with **Primitive Data Types** to process inputs effici
 Time and space complexity are both $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Data Types**).
-2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Consecutive Characters**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Angle Between Hands of a Clock**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -67,9 +67,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1298. Maximum Candies You Can Get from Boxes](../1298-reverse-substrings-between-each-pair-of-parentheses/)
-- [2182. Construct String With Repeat Limit](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [2582. Pass the Pillow](../2582-minimum-score-of-a-path-between-two-cities/)
+- [1190. Reverse Substrings Between Each Pair of Parentheses](../1298-reverse-substrings-between-each-pair-of-parentheses/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2492. Minimum Score of a Path Between Two Cities](../2582-minimum-score-of-a-path-between-two-cities/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/angle-between-hands-of-a-clock/)

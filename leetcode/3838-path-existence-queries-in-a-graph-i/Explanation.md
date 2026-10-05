@@ -1,14 +1,14 @@
-# LeetCode 3838: Weighted Word Mapping
+# LeetCode 3532: Path Existence Queries in a Graph I
 
-**LeetCode Problem #3838 — Weighted Word Mapping**
-Solve LeetCode Weighted Word Mapping using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3532 — Path Existence Queries in a Graph I**
+Solve LeetCode Path Existence Queries in a Graph I using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Weighted Word Mapping |
-| LeetCode | #3838 |
-| Difficulty | Easy |
+| Problem | Path Existence Queries in a Graph I |
+| LeetCode | #3532 |
+| Difficulty | Medium |
 | Language | Java |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Weighted Word Mapping**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Path Existence Queries in a Graph I**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3852. Smallest Pair With Different Frequencies](../3852-path-existence-queries-in-a-graph-ii/)
-- [1153. String Transforms Into Another String](../1153-product-sales-analysis-i/)
-- [1161. Maximum Level Sum of a Binary Tree](../1161-project-employees-i/)
+- [3534. Path Existence Queries in a Graph II](../3852-path-existence-queries-in-a-graph-ii/)
+- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
+- [1068. Product Sales Analysis I](../1153-product-sales-analysis-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/)

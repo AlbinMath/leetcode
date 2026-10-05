@@ -17,21 +17,21 @@ This repository contains solved LeetCode problems with explanations, complexity 
 
 | # | Problem | Difficulty | Pattern | Language | Solution |
 |---|---|---|---|---|---|
-| 4285 | [Smallest Stable Index II](leetcode/4285-smallest-stable-index-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4285-smallest-stable-index-ii/Explanation.md) |
-| 4284 | [Smallest Stable Index I](leetcode/4284-smallest-stable-index-i/) | Easy | [Tree & Graph](patterns/tree-graph.md) | JavaScript | [Explanation](leetcode/4284-smallest-stable-index-i/Explanation.md) |
-| 4258 | [Construct Uniform Parity Array II](leetcode/4258-construct-uniform-parity-array-ii/) | Medium | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4258-construct-uniform-parity-array-ii/Explanation.md) |
-| 4256 | [Construct Uniform Parity Array I](leetcode/4256-construct-uniform-parity-array-i/) | Easy | [Binary Search](patterns/binary-search.md) | C++ | [Explanation](leetcode/4256-construct-uniform-parity-array-i/Explanation.md) |
-| 4248 | [Count Commas in Range II](leetcode/4248-count-commas-in-range-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4248-count-commas-in-range-ii/Explanation.md) |
-| 4245 | [Count Commas in Range](leetcode/4245-count-commas-in-range/) | Easy | [Tree & Graph](patterns/tree-graph.md) | JavaScript | [Explanation](leetcode/4245-count-commas-in-range/Explanation.md) |
-| 4242 | [Sum of GCD of Formed Pairs](leetcode/4242-sum-of-gcd-of-formed-pairs/) | Medium | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4242-sum-of-gcd-of-formed-pairs/Explanation.md) |
-| 4227 | [Find Users with Persistent Behavior Patterns](leetcode/4227-find-users-with-persistent-behavior-patterns/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | [Explanation](leetcode/4227-find-users-with-persistent-behavior-patterns/Explanation.md) |
-| 4216 | [Weighted Word Mapping](leetcode/4216-weighted-word-mapping/) | Easy | [Hash Map](patterns/hash-map.md) | Kotlin | [Explanation](leetcode/4216-weighted-word-mapping/Explanation.md) |
-| 4208 | [Find Emotionally Consistent Users](leetcode/4208-find-emotionally-consistent-users/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | [Explanation](leetcode/4208-find-emotionally-consistent-users/Explanation.md) |
-| 4195 | [Find Users with High Token Usage](leetcode/4195-find-users-with-high-token-usage/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | [Explanation](leetcode/4195-find-users-with-high-token-usage/Explanation.md) |
-| 4169 | [Most Common Course Pairs](leetcode/4169-most-common-course-pairs/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | [Explanation](leetcode/4169-most-common-course-pairs/Explanation.md) |
-| 4136 | [Concatenate Non-Zero Digits and Multiply by Sum II](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | [Math & Logic](patterns/math-logic.md) | Java | [Explanation](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/Explanation.md) |
-| 4135 | [Concatenate Non-Zero Digits and Multiply by Sum I](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | [Math & Logic](patterns/math-logic.md) | Kotlin | [Explanation](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/Explanation.md) |
-| 4128 | [Total Waviness of Numbers in Range II](leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
+| 3904 | [Smallest Stable Index II](leetcode/4285-smallest-stable-index-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4285-smallest-stable-index-ii/Explanation.md) |
+| 3903 | [Smallest Stable Index I](leetcode/4284-smallest-stable-index-i/) | Easy | [Tree & Graph](patterns/tree-graph.md) | JavaScript | [Explanation](leetcode/4284-smallest-stable-index-i/Explanation.md) |
+| 3876 | [Construct Uniform Parity Array II](leetcode/4258-construct-uniform-parity-array-ii/) | Medium | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4258-construct-uniform-parity-array-ii/Explanation.md) |
+| 3875 | [Construct Uniform Parity Array I](leetcode/4256-construct-uniform-parity-array-i/) | Easy | [Binary Search](patterns/binary-search.md) | C++ | [Explanation](leetcode/4256-construct-uniform-parity-array-i/Explanation.md) |
+| 3871 | [Count Commas in Range II](leetcode/4248-count-commas-in-range-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4248-count-commas-in-range-ii/Explanation.md) |
+| 3870 | [Count Commas in Range](leetcode/4245-count-commas-in-range/) | Easy | [Tree & Graph](patterns/tree-graph.md) | JavaScript | [Explanation](leetcode/4245-count-commas-in-range/Explanation.md) |
+| 3867 | [Sum of GCD of Formed Pairs](leetcode/4242-sum-of-gcd-of-formed-pairs/) | Medium | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4242-sum-of-gcd-of-formed-pairs/Explanation.md) |
+| 3838 | [Weighted Word Mapping](leetcode/4216-weighted-word-mapping/) | Easy | [Hash Map](patterns/hash-map.md) | Kotlin | [Explanation](leetcode/4216-weighted-word-mapping/Explanation.md) |
+| 3832 | [Find Users with Persistent Behavior Patterns](leetcode/4227-find-users-with-persistent-behavior-patterns/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | [Explanation](leetcode/4227-find-users-with-persistent-behavior-patterns/Explanation.md) |
+| 3808 | [Find Emotionally Consistent Users](leetcode/4208-find-emotionally-consistent-users/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | [Explanation](leetcode/4208-find-emotionally-consistent-users/Explanation.md) |
+| 3793 | [Find Users with High Token Usage](leetcode/4195-find-users-with-high-token-usage/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | [Explanation](leetcode/4195-find-users-with-high-token-usage/Explanation.md) |
+| 3764 | [Most Common Course Pairs](leetcode/4169-most-common-course-pairs/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | [Explanation](leetcode/4169-most-common-course-pairs/Explanation.md) |
+| 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | [Bit Manipulation](patterns/bit-manipulation.md) | Java | [Explanation](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/Explanation.md) |
+| 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | [Bit Manipulation](patterns/bit-manipulation.md) | Kotlin | [Explanation](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/Explanation.md) |
+| 3753 | [Total Waviness of Numbers in Range II](leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
 
 ---
 

@@ -1,16 +1,16 @@
-# LeetCode 1948: Delete Duplicate Folders in System
+# LeetCode 1795: Rearrange Products Table
 
-**LeetCode Problem #1948 — Delete Duplicate Folders in System**
-Solve LeetCode Delete Duplicate Folders in System using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1795 — Rearrange Products Table**
+Solve LeetCode Rearrange Products Table using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Delete Duplicate Folders in System |
-| LeetCode | #1948 |
-| Difficulty | Hard |
+| Problem | Rearrange Products Table |
+| LeetCode | #1795 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Delete Duplicate Folders in System**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Rearrange Products Table**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1135. Connecting Cities With Minimum Cost](../1135-customers-who-bought-all-products/)
-- [1301. Number of Paths with Max Score](../1301-reformat-department-table/)
-- [1462. Course Schedule IV](../1462-list-the-products-ordered-in-a-period/)
+- [1045. Customers Who Bought All Products](../1135-customers-who-bought-all-products/)
+- [1179. Reformat Department Table](../1301-reformat-department-table/)
+- [1327. List the Products Ordered in a Period](../1462-list-the-products-ordered-in-a-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-products-table/)

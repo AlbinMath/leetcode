@@ -1,14 +1,14 @@
-# LeetCode 1737: Change Minimum Characters to Satisfy One of Three Conditions
+# LeetCode 1614: Maximum Nesting Depth of the Parentheses
 
-**LeetCode Problem #1737 — Change Minimum Characters to Satisfy One of Three Conditions**
-Solve LeetCode Change Minimum Characters to Satisfy One of Three Conditions using Java and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+**LeetCode Problem #1614 — Maximum Nesting Depth of the Parentheses**
+Solve LeetCode Maximum Nesting Depth of the Parentheses using Java and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Change Minimum Characters to Satisfy One of Three Conditions |
-| LeetCode | #1737 |
-| Difficulty | Medium |
+| Problem | Maximum Nesting Depth of the Parentheses |
+| LeetCode | #1614 |
+| Difficulty | Easy |
 | Language | Java |
 | Algorithm | Stack Push / Pop Parsing |
 | Data Structure | Stack |
@@ -33,7 +33,7 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Change Minimum Characters to Satisfy One of Three Conditions**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+Consider the standard input for **Maximum Nesting Depth of the Parentheses**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,7 +65,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1208. Get Equal Substrings Within Budget](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 - [20. Valid Parentheses](../0020-valid-parentheses/)
 - [22. Generate Parentheses](../0022-generate-parentheses/)
 

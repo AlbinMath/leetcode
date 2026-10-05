@@ -1,16 +1,16 @@
-# LeetCode 4091: Find Golden Hour Customers
+# LeetCode 3705: Find Golden Hour Customers
 
-**LeetCode Problem #4091 — Find Golden Hour Customers**
-Solve LeetCode Find Golden Hour Customers using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3705 — Find Golden Hour Customers**
+Solve LeetCode Find Golden Hour Customers using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Find Golden Hour Customers |
-| LeetCode | #4091 |
+| LeetCode | #3705 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Golden Hour Customers**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find Golden Hour Customers**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4025. Minimize the Maximum Waiting Time at Synchronized Traffic Lights](../4025-find-loyal-customers/)
-- [4103. Find Churn Risk Customers](../4103-find-churn-risk-customers/)
+- [3657. Find Loyal Customers](../4025-find-loyal-customers/)
+- [3716. Find Churn Risk Customers](../4103-find-churn-risk-customers/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode

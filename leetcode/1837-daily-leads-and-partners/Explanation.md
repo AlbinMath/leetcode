@@ -1,16 +1,16 @@
-# LeetCode 1837: Sum of Digits in Base K
+# LeetCode 1693: Daily Leads and Partners
 
-**LeetCode Problem #1837 — Sum of Digits in Base K**
-Solve LeetCode Sum of Digits in Base K using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1693 — Daily Leads and Partners**
+Solve LeetCode Daily Leads and Partners using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Sum of Digits in Base K |
-| LeetCode | #1837 |
+| Problem | Daily Leads and Partners |
+| LeetCode | #1693 |
 | Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Sum of Digits in Base K**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Daily Leads and Partners**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

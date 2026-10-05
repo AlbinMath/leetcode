@@ -1,16 +1,16 @@
-# LeetCode 2732: Find a Good Subset of the Matrix
+# LeetCode 2620: Counter
 
-**LeetCode Problem #2732 — Find a Good Subset of the Matrix**
-Solve LeetCode Find a Good Subset of the Matrix using JavaScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2620 — Counter**
+Solve LeetCode Counter using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Find a Good Subset of the Matrix |
-| LeetCode | #2732 |
-| Difficulty | Hard |
+| Problem | Counter |
+| LeetCode | #2620 |
+| Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Uses a **closure** to capture and increment a variable `n`. Each call to the ret
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find a Good Subset of the Matrix**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Counter**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2789. Largest Element in an Array after Merge Operations](../2789-counter-ii/)
+- [2665. Counter II](../2789-counter-ii/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 - [6. Zigzag Conversion](../0006-zigzag-conversion/)
 

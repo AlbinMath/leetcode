@@ -1,16 +1,16 @@
-# LeetCode 2106: Maximum Fruits Harvested After at Most K Steps
+# LeetCode 1979: Find Greatest Common Divisor of Array
 
-**LeetCode Problem #2106 — Maximum Fruits Harvested After at Most K Steps**
-Solve LeetCode Maximum Fruits Harvested After at Most K Steps using Kotlin and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #1979 — Find Greatest Common Divisor of Array**
+Solve LeetCode Find Greatest Common Divisor of Array using Kotlin and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Fruits Harvested After at Most K Steps |
-| LeetCode | #2106 |
-| Difficulty | Hard |
+| Problem | Find Greatest Common Divisor of Array |
+| LeetCode | #1979 |
+| Difficulty | Easy |
 | Language | Kotlin |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -30,11 +30,11 @@ Time complexity is $O(N + \log(\min))$ and space complexity is $O(1)$.
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Fruits Harvested After at Most K Steps**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find Greatest Common Divisor of Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2766. Relocate Marbles](../2766-find-the-prefix-common-array-of-two-arrays/)
+- [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 

@@ -1,7 +1,7 @@
 # LeetCode 176: Second Highest Salary
 
 **LeetCode Problem #176 — Second Highest Salary**
-Solve LeetCode Second Highest Salary using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Second Highest Salary using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Second Highest Salary using SQL and Database / SQL. This solution
 | LeetCode | #176 |
 | Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Second Highest Salary**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Second Highest Salary**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [177. Nth Highest Salary](../0177-nth-highest-salary/)
 - [184. Department Highest Salary](../0184-department-highest-salary/)
-- [1833. Maximum Ice Cream Bars](../1833-find-the-highest-altitude/)
+- [1732. Find the Highest Altitude](../1833-find-the-highest-altitude/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/second-highest-salary/)

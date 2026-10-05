@@ -1,16 +1,16 @@
-# LeetCode 1908: Game of Nim
+# LeetCode 1757: Recyclable and Low Fat Products
 
-**LeetCode Problem #1908 — Game of Nim**
-Solve LeetCode Game of Nim using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1757 — Recyclable and Low Fat Products**
+Solve LeetCode Recyclable and Low Fat Products using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Game of Nim |
-| LeetCode | #1908 |
-| Difficulty | Medium |
+| Problem | Recyclable and Low Fat Products |
+| LeetCode | #1757 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Game of Nim**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Recyclable and Low Fat Products**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1135. Connecting Cities With Minimum Cost](../1135-customers-who-bought-all-products/)
-- [1462. Course Schedule IV](../1462-list-the-products-ordered-in-a-period/)
-- [1625. Lexicographically Smallest String After Applying Operations](../1625-group-sold-products-by-the-date/)
+- [1045. Customers Who Bought All Products](../1135-customers-who-bought-all-products/)
+- [1327. List the Products Ordered in a Period](../1462-list-the-products-ordered-in-a-period/)
+- [1484. Group Sold Products By The Date](../1625-group-sold-products-by-the-date/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/recyclable-and-low-fat-products/)

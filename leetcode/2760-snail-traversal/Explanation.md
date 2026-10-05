@@ -1,16 +1,16 @@
-# LeetCode 2760: Longest Even Odd Subarray With Threshold
+# LeetCode 2624: Snail Traversal
 
-**LeetCode Problem #2760 — Longest Even Odd Subarray With Threshold**
-Solve LeetCode Longest Even Odd Subarray With Threshold using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2624 — Snail Traversal**
+Solve LeetCode Snail Traversal using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Longest Even Odd Subarray With Threshold |
-| LeetCode | #2760 |
-| Difficulty | Easy |
+| Problem | Snail Traversal |
+| LeetCode | #2624 |
+| Difficulty | Medium |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Fills the matrix column by column. Even-indexed columns fill top-to-bottom; odd-
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Longest Even Odd Subarray With Threshold**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Snail Traversal**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

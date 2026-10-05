@@ -1,14 +1,14 @@
-# LeetCode 2306: Naming a Company
+# LeetCode 2196: Create Binary Tree From Descriptions
 
-**LeetCode Problem #2306 — Naming a Company**
-Solve LeetCode Naming a Company using Java and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #2196 — Create Binary Tree From Descriptions**
+Solve LeetCode Create Binary Tree From Descriptions using Java and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Naming a Company |
-| LeetCode | #2306 |
-| Difficulty | Hard |
+| Problem | Create Binary Tree From Descriptions |
+| LeetCode | #2196 |
+| Difficulty | Medium |
 | Language | Java |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -33,7 +33,7 @@ Store previously seen elements or their frequencies in a hash map to achieve ins
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Naming a Company**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Create Binary Tree From Descriptions**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3062. Winner of the Linked List Game](../3062-create-a-dataframe-from-list/)
+- [2877. Create a DataFrame from List](../3062-create-a-dataframe-from-list/)
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
 - [608. Tree Node](../0608-tree-node/)
 

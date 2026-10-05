@@ -1,16 +1,16 @@
-# LeetCode 1801: Number of Orders in the Backlog
+# LeetCode 1661: Average Time of Process per Machine
 
-**LeetCode Problem #1801 — Number of Orders in the Backlog**
-Solve LeetCode Number of Orders in the Backlog using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1661 — Average Time of Process per Machine**
+Solve LeetCode Average Time of Process per Machine using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Number of Orders in the Backlog |
-| LeetCode | #1801 |
-| Difficulty | Medium |
+| Problem | Average Time of Process per Machine |
+| LeetCode | #1661 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number of Orders in the Backlog**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Average Time of Process per Machine**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [636. Exclusive Time of Functions](../0636-exclusive-time-of-functions/)
-- [1390. Four Divisors](../1390-average-selling-price/)
-- [1892. Page Recommendations II](../1892-find-total-time-spent-by-each-employee/)
+- [1251. Average Selling Price](../1390-average-selling-price/)
+- [1741. Find Total Time Spent by Each Employee](../1892-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-time-of-process-per-machine/)

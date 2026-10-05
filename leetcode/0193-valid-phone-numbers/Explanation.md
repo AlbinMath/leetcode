@@ -1,7 +1,7 @@
 # LeetCode 193: Valid Phone Numbers
 
 **LeetCode Problem #193 — Valid Phone Numbers**
-Solve LeetCode Valid Phone Numbers using Shell and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+Solve LeetCode Valid Phone Numbers using Shell and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,7 +10,7 @@ Solve LeetCode Valid Phone Numbers using Shell and Array / General. This solutio
 | LeetCode | #193 |
 | Difficulty | Easy |
 | Language | Shell |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -31,11 +31,11 @@ The solution uses `grep -E` (extended regular expressions) to match lines that c
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Valid Phone Numbers**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Valid Phone Numbers**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,7 +66,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3803. Count Residue Prefixes](../3803-find-products-with-valid-serial-numbers/)
+- [3465. Find Products with Valid Serial Numbers](../3803-find-products-with-valid-serial-numbers/)
 - [2. Add Two Numbers](../0002-add-two-numbers/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
 

@@ -1,16 +1,16 @@
-# LeetCode 2855: Minimum Right Shifts to Sort the Array
+# LeetCode 2770: Maximum Number of Jumps to Reach the Last Index
 
-**LeetCode Problem #2855 — Minimum Right Shifts to Sort the Array**
-Solve LeetCode Minimum Right Shifts to Sort the Array using C++ and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+**LeetCode Problem #2770 — Maximum Number of Jumps to Reach the Last Index**
+Solve LeetCode Maximum Number of Jumps to Reach the Last Index using C++ and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Right Shifts to Sort the Array |
-| LeetCode | #2855 |
-| Difficulty | Easy |
+| Problem | Maximum Number of Jumps to Reach the Last Index |
+| LeetCode | #2770 |
+| Difficulty | Medium |
 | Language | C++ |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Uses **DP** where `dp[i]` = max jumps to reach index `i`. For each `i`, check al
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Right Shifts to Sort the Array**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Maximum Number of Jumps to Reach the Last Index**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1297. Maximum Number of Occurrences of a Substring](../1297-maximum-number-of-balloons/)
-- [1644. Lowest Common Ancestor of a Binary Tree II](../1644-maximum-number-of-non-overlapping-substrings/)
-- [2182. Construct String With Repeat Limit](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)

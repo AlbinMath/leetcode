@@ -70,7 +70,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [2319. Check if Matrix Is X-Matrix](../2319-longest-substring-of-one-repeating-character/)
+- [2213. Longest Substring of One Repeating Character](../2319-longest-substring-of-one-repeating-character/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 - [14. Longest Common Prefix](../0014-longest-common-prefix/)
 

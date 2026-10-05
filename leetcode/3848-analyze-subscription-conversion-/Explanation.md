@@ -1,16 +1,16 @@
-# LeetCode 3848: Check Digitorial Permutation
+# LeetCode 3497: Analyze Subscription Conversion 
 
-**LeetCode Problem #3848 — Check Digitorial Permutation**
-Solve LeetCode Check Digitorial Permutation using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3497 — Analyze Subscription Conversion **
+Solve LeetCode Analyze Subscription Conversion  using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Check Digitorial Permutation |
-| LeetCode | #3848 |
+| Problem | Analyze Subscription Conversion  |
+| LeetCode | #3497 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Check Digitorial Permutation**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Analyze Subscription Conversion **. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [6. Zigzag Conversion](../0006-zigzag-conversion/)
-- [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../3816-dna-pattern-recognition-/)
-- [3828. Final Element After Subarray Deletions](../3828-analyze-organization-hierarchy/)
+- [3482. Analyze Organization Hierarchy](../3828-analyze-organization-hierarchy/)
+- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
-[View problem on LeetCode](https://leetcode.com/problems/analyze-subscription-conversion-/)
+[View problem on LeetCode](https://leetcode.com/problems/analyze-subscription-conversion/)

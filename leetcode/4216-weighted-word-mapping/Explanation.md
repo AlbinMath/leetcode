@@ -1,13 +1,13 @@
-# LeetCode 4216: Weighted Word Mapping
+# LeetCode 3838: Weighted Word Mapping
 
-**LeetCode Problem #4216 — Weighted Word Mapping**
+**LeetCode Problem #3838 — Weighted Word Mapping**
 Solve LeetCode Weighted Word Mapping using Kotlin and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
 | Problem | Weighted Word Mapping |
-| LeetCode | #4216 |
+| LeetCode | #3838 |
 | Difficulty | Easy |
 | Language | Kotlin |
 | Algorithm | Complement Lookup / Hash Table Frequency |
@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [192. Word Frequency](../0192-word-frequency/)
-- [2099. Find Subsequence of Length K With the Largest Sum](../2099-number-of-strings-that-appear-as-substrings-in-word/)
-- [3275. K-th Nearest Obstacle Queries](../3275-minimum-number-of-pushes-to-type-word-i/)
+- [1967. Number of Strings That Appear as Substrings in Word](../2099-number-of-strings-that-appear-as-substrings-in-word/)
+- [3014. Minimum Number of Pushes to Type Word I](../3275-minimum-number-of-pushes-to-type-word-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/weighted-word-mapping/)

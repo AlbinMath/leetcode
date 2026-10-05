@@ -1,16 +1,16 @@
-# LeetCode 3932: Count K-th Roots in a Range
+# LeetCode 3586: Find COVID Recovery Patients
 
-**LeetCode Problem #3932 — Count K-th Roots in a Range**
-Solve LeetCode Count K-th Roots in a Range using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3586 — Find COVID Recovery Patients**
+Solve LeetCode Find COVID Recovery Patients using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count K-th Roots in a Range |
-| LeetCode | #3932 |
+| Problem | Find COVID Recovery Patients |
+| LeetCode | #3586 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count K-th Roots in a Range**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find COVID Recovery Patients**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

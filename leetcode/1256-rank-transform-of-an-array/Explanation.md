@@ -1,14 +1,14 @@
-# LeetCode 1256: Encode Number
+# LeetCode 1331: Rank Transform of an Array
 
-**LeetCode Problem #1256 — Encode Number**
-Solve LeetCode Encode Number using Kotlin and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+**LeetCode Problem #1331 — Rank Transform of an Array**
+Solve LeetCode Rank Transform of an Array using Kotlin and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Encode Number |
-| LeetCode | #1256 |
-| Difficulty | Medium |
+| Problem | Rank Transform of an Array |
+| LeetCode | #1331 |
+| Difficulty | Easy |
 | Language | Kotlin |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -35,7 +35,7 @@ Time complexity is $O(N \log N)$ for sorting and space complexity is $O(N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Encode Number**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Rank Transform of an Array**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -68,7 +68,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [2747. Count Zero Request Servers](../2747-apply-transform-over-each-element-in-array/)
+- [2635. Apply Transform Over Each Element in Array](../2747-apply-transform-over-each-element-in-array/)
 - [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 

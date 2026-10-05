@@ -1,16 +1,16 @@
-# LeetCode 3782: Last Remaining Integer After Alternating Deletion Operations
+# LeetCode 3436: Find Valid Emails
 
-**LeetCode Problem #3782 — Last Remaining Integer After Alternating Deletion Operations**
-Solve LeetCode Last Remaining Integer After Alternating Deletion Operations using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #3436 — Find Valid Emails**
+Solve LeetCode Find Valid Emails using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Last Remaining Integer After Alternating Deletion Operations |
-| LeetCode | #3782 |
-| Difficulty | Hard |
+| Problem | Find Valid Emails |
+| LeetCode | #3436 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Last Remaining Integer After Alternating Deletion Operations**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Find Valid Emails**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1664. Ways to Make a Fair Array](../1664-find-users-with-valid-e-mails/)
-- [3584. Maximum Product of First and Last Elements of a Subsequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
-- [3803. Count Residue Prefixes](../3803-find-products-with-valid-serial-numbers/)
+- [1517. Find Users With Valid E-Mails](../1664-find-users-with-valid-e-mails/)
+- [3302. Find the Lexicographically Smallest Valid Sequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
+- [3465. Find Products with Valid Serial Numbers](../3803-find-products-with-valid-serial-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-emails/)

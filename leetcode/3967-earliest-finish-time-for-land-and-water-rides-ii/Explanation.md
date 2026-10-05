@@ -1,16 +1,16 @@
-# LeetCode 3967: Finish Time of Tasks II
+# LeetCode 3635: Earliest Finish Time for Land and Water Rides II
 
-**LeetCode Problem #3967 — Finish Time of Tasks II**
-Solve LeetCode Finish Time of Tasks II using Java and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3635 — Earliest Finish Time for Land and Water Rides II**
+Solve LeetCode Earliest Finish Time for Land and Water Rides II using Java and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Finish Time of Tasks II |
-| LeetCode | #3967 |
-| Difficulty | Hard |
+| Problem | Earliest Finish Time for Land and Water Rides II |
+| LeetCode | #3635 |
+| Difficulty | Medium |
 | Language | Java |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Finish Time of Tasks II**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Earliest Finish Time for Land and Water Rides II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3965. Finish Time of Tasks I](../3965-earliest-finish-time-for-land-and-water-rides-i/)
+- [3633. Earliest Finish Time for Land and Water Rides I](../3965-earliest-finish-time-for-land-and-water-rides-i/)
 - [11. Container With Most Water](../0011-container-with-most-water/)
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 

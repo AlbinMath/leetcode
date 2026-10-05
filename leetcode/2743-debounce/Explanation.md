@@ -1,13 +1,13 @@
-# LeetCode 2743: Count Substrings Without Repeating Character
+# LeetCode 2627: Debounce
 
-**LeetCode Problem #2743 — Count Substrings Without Repeating Character**
-Solve LeetCode Count Substrings Without Repeating Character using TypeScript and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
+**LeetCode Problem #2627 — Debounce**
+Solve LeetCode Debounce using TypeScript and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Substrings Without Repeating Character |
-| LeetCode | #2743 |
+| Problem | Debounce |
+| LeetCode | #2627 |
 | Difficulty | Medium |
 | Language | TypeScript |
 | Algorithm | Dynamic Sliding Window Traversal |
@@ -31,7 +31,7 @@ Uses a closure with a `timer` variable. Each call clears the previous timer with
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Substrings Without Repeating Character**. Applying **Dynamic Sliding Window Traversal** yields the target result step by step.
+Consider the standard input for **Debounce**. Applying **Dynamic Sliding Window Traversal** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [1776. Car Fleet II](../1776-minimum-operations-to-reduce-x-to-zero/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [1658. Minimum Operations to Reduce X to Zero](../1776-minimum-operations-to-reduce-x-to-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/debounce/)

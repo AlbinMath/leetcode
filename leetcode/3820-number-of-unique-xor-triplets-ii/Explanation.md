@@ -1,13 +1,13 @@
-# LeetCode 3820: Pythagorean Distance Nodes in a Tree
+# LeetCode 3514: Number of Unique XOR Triplets II
 
-**LeetCode Problem #3820 — Pythagorean Distance Nodes in a Tree**
-Solve LeetCode Pythagorean Distance Nodes in a Tree using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3514 — Number of Unique XOR Triplets II**
+Solve LeetCode Number of Unique XOR Triplets II using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Pythagorean Distance Nodes in a Tree |
-| LeetCode | #3820 |
+| Problem | Number of Unique XOR Triplets II |
+| LeetCode | #3514 |
 | Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Pythagorean Distance Nodes in a Tree**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Number of Unique XOR Triplets II**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3824. Minimum K to Reduce Array Within Limit](../3824-number-of-unique-xor-triplets-i/)
-- [2495. Number of Subarrays Having Even Product](../2495-number-of-unique-subjects-taught-by-each-teacher/)
-- [3276. Select Cells in Grid With Maximum Score](../3276-minimum-number-of-pushes-to-type-word-ii/)
+- [3513. Number of Unique XOR Triplets I](../3824-number-of-unique-xor-triplets-i/)
+- [2356. Number of Unique Subjects Taught by Each Teacher](../2495-number-of-unique-subjects-taught-by-each-teacher/)
+- [3016. Minimum Number of Pushes to Type Word II](../3276-minimum-number-of-pushes-to-type-word-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/)

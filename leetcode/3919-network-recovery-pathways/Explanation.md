@@ -1,14 +1,14 @@
-# LeetCode 3919: Minimum Cost to Move Between Indices
+# LeetCode 3620: Network Recovery Pathways
 
-**LeetCode Problem #3919 — Minimum Cost to Move Between Indices**
-Solve LeetCode Minimum Cost to Move Between Indices using PHP and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3620 — Network Recovery Pathways**
+Solve LeetCode Network Recovery Pathways using PHP and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Cost to Move Between Indices |
-| LeetCode | #3919 |
-| Difficulty | Medium |
+| Problem | Network Recovery Pathways |
+| LeetCode | #3620 |
+| Difficulty | Hard |
 | Language | PHP |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Cost to Move Between Indices**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Network Recovery Pathways**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3932. Count K-th Roots in a Range](../3932-find-covid-recovery-patients/)
-- [909. Snakes and Ladders](../0909-stone-game/)
-- [1182. Shortest Distance to Target Color](../1182-game-play-analysis-iv/)
+- [3586. Find COVID Recovery Patients](../3932-find-covid-recovery-patients/)
+- [550. Game Play Analysis IV](../1182-game-play-analysis-iv/)
+- [877. Stone Game](../0909-stone-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/network-recovery-pathways/)

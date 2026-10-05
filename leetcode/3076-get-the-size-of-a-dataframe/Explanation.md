@@ -1,16 +1,16 @@
-# LeetCode 3076: Shortest Uncommon Substring in an Array
+# LeetCode 2878: Get the Size of a DataFrame
 
-**LeetCode Problem #3076 — Shortest Uncommon Substring in an Array**
-Solve LeetCode Shortest Uncommon Substring in an Array using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
+**LeetCode Problem #2878 — Get the Size of a DataFrame**
+Solve LeetCode Get the Size of a DataFrame using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Shortest Uncommon Substring in an Array |
-| LeetCode | #3076 |
-| Difficulty | Medium |
+| Problem | Get the Size of a DataFrame |
+| LeetCode | #2878 |
+| Difficulty | Easy |
 | Language | Python |
-| Algorithm | Two Pointer Convergence / Scanning |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Shortest Uncommon Substring in an Array**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+Consider the standard input for **Get the Size of a DataFrame**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3062. Winner of the Linked List Game](../3062-create-a-dataframe-from-list/)
+- [2877. Create a DataFrame from List](../3062-create-a-dataframe-from-list/)
 - [2. Add Two Numbers](../0002-add-two-numbers/)
 - [9. Palindrome Number](../0009-palindrome-number/)
 

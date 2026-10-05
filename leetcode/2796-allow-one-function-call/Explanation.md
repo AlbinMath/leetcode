@@ -1,16 +1,16 @@
-# LeetCode 2796: Repeat String
+# LeetCode 2666: Allow One Function Call
 
-**LeetCode Problem #2796 — Repeat String**
-Solve LeetCode Repeat String using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2666 — Allow One Function Call**
+Solve LeetCode Allow One Function Call using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Repeat String |
-| LeetCode | #2796 |
+| Problem | Allow One Function Call |
+| LeetCode | #2666 |
 | Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Uses a boolean flag `called` in a closure. On the first call, sets `called = tru
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Repeat String**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Allow One Function Call**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2790. Maximum Number of Groups With Increasing Length](../2790-call-function-with-custom-context/)
+- [2693. Call Function with Custom Context](../2790-call-function-with-custom-context/)
 - [396. Rotate Function](../0396-rotate-function/)
-- [2319. Check if Matrix Is X-Matrix](../2319-longest-substring-of-one-repeating-character/)
+- [2213. Longest Substring of One Repeating Character](../2319-longest-substring-of-one-repeating-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/allow-one-function-call/)

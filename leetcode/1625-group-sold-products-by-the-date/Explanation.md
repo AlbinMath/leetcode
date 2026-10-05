@@ -1,16 +1,16 @@
-# LeetCode 1625: Lexicographically Smallest String After Applying Operations
+# LeetCode 1484: Group Sold Products By The Date
 
-**LeetCode Problem #1625 — Lexicographically Smallest String After Applying Operations**
-Solve LeetCode Lexicographically Smallest String After Applying Operations using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1484 — Group Sold Products By The Date**
+Solve LeetCode Group Sold Products By The Date using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Lexicographically Smallest String After Applying Operations |
-| LeetCode | #1625 |
-| Difficulty | Medium |
+| Problem | Group Sold Products By The Date |
+| LeetCode | #1484 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Lexicographically Smallest String After Applying Operations**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Group Sold Products By The Date**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1135. Connecting Cities With Minimum Cost](../1135-customers-who-bought-all-products/)
-- [1278. Palindrome Partitioning III](../1278-product-price-at-a-given-date/)
-- [1462. Course Schedule IV](../1462-list-the-products-ordered-in-a-period/)
+- [1045. Customers Who Bought All Products](../1135-customers-who-bought-all-products/)
+- [1164. Product Price at a Given Date](../1278-product-price-at-a-given-date/)
+- [1327. List the Products Ordered in a Period](../1462-list-the-products-ordered-in-a-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-sold-products-by-the-date/)

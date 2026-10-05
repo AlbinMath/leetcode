@@ -1,14 +1,14 @@
-# LeetCode 3813: Vowel-Consonant Score
+# LeetCode 3518: Smallest Palindromic Rearrangement II
 
-**LeetCode Problem #3813 — Vowel-Consonant Score**
-Solve LeetCode Vowel-Consonant Score using PHP and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #3518 — Smallest Palindromic Rearrangement II**
+Solve LeetCode Smallest Palindromic Rearrangement II using PHP and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Vowel-Consonant Score |
-| LeetCode | #3813 |
-| Difficulty | Easy |
+| Problem | Smallest Palindromic Rearrangement II |
+| LeetCode | #3518 |
+| Difficulty | Hard |
 | Language | PHP |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
@@ -31,7 +31,7 @@ We iterate through the input using **Iterative Traversal**. By maintaining state
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Vowel-Consonant Score**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Smallest Palindromic Rearrangement II**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3812. Minimum Edge Toggles on a Tree](../3812-smallest-palindromic-rearrangement-i/)
-- [3635. Earliest Finish Time for Land and Water Rides II](../3635-smallest-divisible-digit-product-ii/)
-- [4037. Maximum Valid Split Positions II](../4037-lexicographically-smallest-palindromic-permutation-greater-than-target/)
+- [3517. Smallest Palindromic Rearrangement I](../3812-smallest-palindromic-rearrangement-i/)
+- [3348. Smallest Divisible Digit Product II](../3635-smallest-divisible-digit-product-ii/)
+- [3734. Lexicographically Smallest Palindromic Permutation Greater Than Target](../4037-lexicographically-smallest-palindromic-permutation-greater-than-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/)

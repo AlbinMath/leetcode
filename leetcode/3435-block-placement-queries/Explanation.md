@@ -1,16 +1,16 @@
-# LeetCode 3435: Frequencies of Shortest Supersequences
+# LeetCode 3161: Block Placement Queries
 
-**LeetCode Problem #3435 — Frequencies of Shortest Supersequences**
-Solve LeetCode Frequencies of Shortest Supersequences using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #3161 — Block Placement Queries**
+Solve LeetCode Block Placement Queries using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Frequencies of Shortest Supersequences |
-| LeetCode | #3435 |
+| Problem | Block Placement Queries |
+| LeetCode | #3161 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Frequencies of Shortest Supersequences**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Block Placement Queries**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1338. Reduce Array Size to The Half](../1338-queries-quality-and-percentage/)
-- [3376. Minimum Time to Break Locks I](../3376-longest-common-suffix-queries/)
-- [3583. Count Special Triplets](../3583-sorted-gcd-pair-queries/)
+- [1211. Queries Quality and Percentage](../1338-queries-quality-and-percentage/)
+- [3093. Longest Common Suffix Queries](../3376-longest-common-suffix-queries/)
+- [3312. Sorted GCD Pair Queries](../3583-sorted-gcd-pair-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/block-placement-queries/)

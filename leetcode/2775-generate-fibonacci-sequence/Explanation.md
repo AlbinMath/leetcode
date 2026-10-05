@@ -1,16 +1,16 @@
-# LeetCode 2775: Undefined to Null
+# LeetCode 2648: Generate Fibonacci Sequence
 
-**LeetCode Problem #2775 — Undefined to Null**
-Solve LeetCode Undefined to Null using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2648 — Generate Fibonacci Sequence**
+Solve LeetCode Generate Fibonacci Sequence using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Undefined to Null |
-| LeetCode | #2775 |
-| Difficulty | Medium |
+| Problem | Generate Fibonacci Sequence |
+| LeetCode | #2648 |
+| Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Uses a generator function (`function*`) that maintains two variables `a` and `b`
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Undefined to Null**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Generate Fibonacci Sequence**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [22. Generate Parentheses](../0022-generate-parentheses/)
-- [3584. Maximum Product of First and Last Elements of a Subsequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
+- [3302. Find the Lexicographically Smallest Valid Sequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode

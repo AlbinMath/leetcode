@@ -1,14 +1,14 @@
-# LeetCode 3347: Maximum Frequency of an Element After Performing Operations II
+# LeetCode 3069: Distribute Elements Into Two Arrays I
 
-**LeetCode Problem #3347 — Maximum Frequency of an Element After Performing Operations II**
-Solve LeetCode Maximum Frequency of an Element After Performing Operations II using Go and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #3069 — Distribute Elements Into Two Arrays I**
+Solve LeetCode Distribute Elements Into Two Arrays I using Go and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Frequency of an Element After Performing Operations II |
-| LeetCode | #3347 |
-| Difficulty | Hard |
+| Problem | Distribute Elements Into Two Arrays I |
+| LeetCode | #3069 |
+| Difficulty | Easy |
 | Language | Go |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -31,7 +31,7 @@ We iterate through the input using **Complement Lookup / Hash Table Frequency**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Frequency of an Element After Performing Operations II**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Distribute Elements Into Two Arrays I**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
-- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [1574. Shortest Subarray to be Removed to Make Array Sorted](../1574-maximum-product-of-two-elements-in-an-array/)
+- [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)

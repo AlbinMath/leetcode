@@ -1,16 +1,16 @@
-# LeetCode 3530: Maximum Profit from Valid Topological Order in DAG
+# LeetCode 3220: Odd and Even Transactions
 
-**LeetCode Problem #3530 — Maximum Profit from Valid Topological Order in DAG**
-Solve LeetCode Maximum Profit from Valid Topological Order in DAG using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #3220 — Odd and Even Transactions**
+Solve LeetCode Odd and Even Transactions using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Profit from Valid Topological Order in DAG |
-| LeetCode | #3530 |
-| Difficulty | Hard |
+| Problem | Odd and Even Transactions |
+| LeetCode | #3220 |
+| Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Profit from Valid Topological Order in DAG**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Odd and Even Transactions**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1216. Valid Palindrome III](../1216-print-zero-even-odd/)
-- [3995. Minimum Cost to Convert String III](../3995-gcd-of-odd-and-even-sums/)
-- [1317. Convert Integer to the Sum of Two No-Zero Integers](../1317-monthly-transactions-i/)
+- [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
+- [3658. GCD of Odd and Even Sums](../3995-gcd-of-odd-and-even-sums/)
+- [1193. Monthly Transactions I](../1317-monthly-transactions-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/odd-and-even-transactions/)

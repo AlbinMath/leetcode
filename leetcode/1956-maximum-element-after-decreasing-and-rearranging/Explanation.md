@@ -1,14 +1,14 @@
-# LeetCode 1956: Minimum Time For K Virus Variants to Spread
+# LeetCode 1846: Maximum Element After Decreasing and Rearranging
 
-**LeetCode Problem #1956 — Minimum Time For K Virus Variants to Spread**
-Solve LeetCode Minimum Time For K Virus Variants to Spread using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
+**LeetCode Problem #1846 — Maximum Element After Decreasing and Rearranging**
+Solve LeetCode Maximum Element After Decreasing and Rearranging using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Time For K Virus Variants to Spread |
-| LeetCode | #1956 |
-| Difficulty | Hard |
+| Problem | Maximum Element After Decreasing and Rearranging |
+| LeetCode | #1846 |
+| Difficulty | Medium |
 | Language | Java |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -35,7 +35,7 @@ Time complexity is $O(N \log N)$ and space complexity is $O(\log N)$ for sorting
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Time For K Virus Variants to Spread**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Maximum Element After Decreasing and Rearranging**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(log n)
@@ -68,9 +68,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [3606. Coupon Code Validator](../3606-minimum-element-after-replacement-with-digit-sum/)
+- [3300. Minimum Element After Replacement With Digit Sum](../3606-minimum-element-after-replacement-with-digit-sum/)
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
-- [1208. Get Equal Substrings Within Budget](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)

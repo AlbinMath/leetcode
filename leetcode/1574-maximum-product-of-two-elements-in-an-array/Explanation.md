@@ -1,14 +1,14 @@
-# LeetCode 1574: Shortest Subarray to be Removed to Make Array Sorted
+# LeetCode 1464: Maximum Product of Two Elements in an Array
 
-**LeetCode Problem #1574 — Shortest Subarray to be Removed to Make Array Sorted**
-Solve LeetCode Shortest Subarray to be Removed to Make Array Sorted using Scala and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+**LeetCode Problem #1464 — Maximum Product of Two Elements in an Array**
+Solve LeetCode Maximum Product of Two Elements in an Array using Scala and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Shortest Subarray to be Removed to Make Array Sorted |
-| LeetCode | #1574 |
-| Difficulty | Medium |
+| Problem | Maximum Product of Two Elements in an Array |
+| LeetCode | #1464 |
+| Difficulty | Easy |
 | Language | Scala |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -33,7 +33,7 @@ Time complexity is $O(N)$ with a single pass (or $O(N \log N)$ with sorting) and
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Shortest Subarray to be Removed to Make Array Sorted**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Maximum Product of Two Elements in an Array**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -66,9 +66,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [3859. Count Subarrays With K Distinct Integers](../3859-maximum-product-of-two-digits/)
+- [3536. Maximum Product of Two Digits](../3859-maximum-product-of-two-digits/)
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
-- [1208. Get Equal Substrings Within Budget](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)

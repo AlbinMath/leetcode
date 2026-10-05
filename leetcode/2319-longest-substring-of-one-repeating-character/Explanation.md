@@ -1,14 +1,14 @@
-# LeetCode 2319: Check if Matrix Is X-Matrix
+# LeetCode 2213: Longest Substring of One Repeating Character
 
-**LeetCode Problem #2319 — Check if Matrix Is X-Matrix**
-Solve LeetCode Check if Matrix Is X-Matrix using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+**LeetCode Problem #2213 — Longest Substring of One Repeating Character**
+Solve LeetCode Longest Substring of One Repeating Character using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Check if Matrix Is X-Matrix |
-| LeetCode | #2319 |
-| Difficulty | Easy |
+| Problem | Longest Substring of One Repeating Character |
+| LeetCode | #2213 |
+| Difficulty | Hard |
 | Language | Java |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -33,7 +33,7 @@ Time complexity is $O((N + Q) \log N)$ and space complexity is $O(N)$.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Check if Matrix Is X-Matrix**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Longest Substring of One Repeating Character**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

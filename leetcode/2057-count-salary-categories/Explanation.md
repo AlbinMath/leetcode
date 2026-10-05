@@ -1,16 +1,16 @@
-# LeetCode 2057: Smallest Index With Equal Value
+# LeetCode 1907: Count Salary Categories
 
-**LeetCode Problem #2057 — Smallest Index With Equal Value**
-Solve LeetCode Smallest Index With Equal Value using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1907 — Count Salary Categories**
+Solve LeetCode Count Salary Categories using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Smallest Index With Equal Value |
-| LeetCode | #2057 |
-| Difficulty | Easy |
+| Problem | Count Salary Categories |
+| LeetCode | #1907 |
+| Difficulty | Medium |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Relational Join & Grouping**. B
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Smallest Index With Equal Value**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Count Salary Categories**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

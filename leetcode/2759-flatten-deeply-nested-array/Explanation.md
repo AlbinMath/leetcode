@@ -1,16 +1,16 @@
-# LeetCode 2759: Convert JSON String to Object
+# LeetCode 2625: Flatten Deeply Nested Array
 
-**LeetCode Problem #2759 — Convert JSON String to Object**
-Solve LeetCode Convert JSON String to Object using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2625 — Flatten Deeply Nested Array**
+Solve LeetCode Flatten Deeply Nested Array using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Convert JSON String to Object |
-| LeetCode | #2759 |
-| Difficulty | Hard |
+| Problem | Flatten Deeply Nested Array |
+| LeetCode | #2625 |
+| Difficulty | Medium |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Uses recursion: if depth > 0, iterate through elements. If an element is an arra
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Convert JSON String to Object**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Flatten Deeply Nested Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2783. Flight Occupancy and Waitlist Analysis](../2783-nested-array-generator/)
+- [2649. Nested Array Generator](../2783-nested-array-generator/)
 - [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 

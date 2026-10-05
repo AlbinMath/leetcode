@@ -1,16 +1,16 @@
-# LeetCode 1234: Replace the Substring for Balanced String
+# LeetCode 1301: Number of Paths with Max Score
 
-**LeetCode Problem #1234 — Replace the Substring for Balanced String**
-Solve LeetCode Replace the Substring for Balanced String using PHP and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+**LeetCode Problem #1301 — Number of Paths with Max Score**
+Solve LeetCode Number of Paths with Max Score using PHP and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Replace the Substring for Balanced String |
-| LeetCode | #1234 |
-| Difficulty | Medium |
+| Problem | Number of Paths with Max Score |
+| LeetCode | #1301 |
+| Difficulty | Hard |
 | Language | PHP |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -38,11 +38,11 @@ Time complexity is $O(N^2)$ and space complexity is $O(N^2)$.
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Replace the Substring for Balanced String**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Number of Paths with Max Score**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

@@ -1,16 +1,16 @@
-# LeetCode 3608: Minimum Time for K Connected Components
+# LeetCode 3336: Find the Number of Subsequences With Equal GCD
 
-**LeetCode Problem #3608 — Minimum Time for K Connected Components**
-Solve LeetCode Minimum Time for K Connected Components using PHP and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+**LeetCode Problem #3336 — Find the Number of Subsequences With Equal GCD**
+Solve LeetCode Find the Number of Subsequences With Equal GCD using PHP and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Time for K Connected Components |
-| LeetCode | #3608 |
-| Difficulty | Medium |
+| Problem | Find the Number of Subsequences With Equal GCD |
+| LeetCode | #3336 |
+| Difficulty | Hard |
 | Language | PHP |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **Memoization / Bottom-Up State Transition**.
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Time for K Connected Components**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Find the Number of Subsequences With Equal GCD**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,8 +64,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [2182. Construct String With Repeat Limit](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [3299. Sum of Consecutive Subsequences](../3299-find-the-maximum-number-of-elements-in-subset/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [3020. Find the Maximum Number of Elements in Subset](../3299-find-the-maximum-number-of-elements-in-subset/)
 - [9. Palindrome Number](../0009-palindrome-number/)
 
 ## LeetCode

@@ -1,17 +1,17 @@
-# LeetCode 2862: Maximum Element-Sum of a Complete Subset of Indices
+# LeetCode 2725: Interval Cancellation
 
-**LeetCode Problem #2862 — Maximum Element-Sum of a Complete Subset of Indices**
-Solve LeetCode Maximum Element-Sum of a Complete Subset of Indices using TypeScript and Heap. This solution finds the optimal result using Priority Queue Selection in O(n) time.
+**LeetCode Problem #2725 — Interval Cancellation**
+Solve LeetCode Interval Cancellation using TypeScript and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Element-Sum of a Complete Subset of Indices |
-| LeetCode | #2862 |
-| Difficulty | Hard |
+| Problem | Interval Cancellation |
+| LeetCode | #2725 |
+| Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Priority Queue Selection |
-| Data Structure | Min/Max Heap |
+| Algorithm | Min/Max Heap Priority Selection |
+| Data Structure | Heap / Priority Queue |
 | Pattern | Heap |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
@@ -20,18 +20,18 @@ Solve LeetCode Maximum Element-Sum of a Complete Subset of Indices using TypeScr
 Given a function  fn , an array of arguments  args , and an interval time  t , return a cancel function  cancelFn .
 
 ## Key Insight
-Leverage **Heap** with **Min/Max Heap** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 Calls `fn(...args)` immediately, then starts `setInterval(fn, t, ...args)`. Returns a function that calls `clearInterval` to cancel the repeating execution.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Min/Max Heap**).
-2. Process elements sequentially using **Priority Queue Selection**.
+1. Initialize state variables / data structure (**Heap / Priority Queue**).
+2. Process elements sequentially using **Min/Max Heap Priority Selection**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Element-Sum of a Complete Subset of Indices**. Applying **Priority Queue Selection** yields the target result step by step.
+Consider the standard input for **Interval Cancellation**. Applying **Min/Max Heap Priority Selection** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 
 ## Related Problems
 - [12. Integer to Roman](../0012-integer-to-roman/)
-- [1644. Lowest Common Ancestor of a Binary Tree II](../1644-maximum-number-of-non-overlapping-substrings/)
-- [3562. Maximum Profit from Trading Stocks with Discounts](../3562-maximum-score-of-non-overlapping-intervals/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [3414. Maximum Score of Non-overlapping Intervals](../3562-maximum-score-of-non-overlapping-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/interval-cancellation/)

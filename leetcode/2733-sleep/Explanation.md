@@ -1,16 +1,16 @@
-# LeetCode 2733: Neither Minimum nor Maximum
+# LeetCode 2621: Sleep
 
-**LeetCode Problem #2733 — Neither Minimum nor Maximum**
-Solve LeetCode Neither Minimum nor Maximum using JavaScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2621 — Sleep**
+Solve LeetCode Sleep using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Neither Minimum nor Maximum |
-| LeetCode | #2733 |
+| Problem | Sleep |
+| LeetCode | #2621 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Returns `new Promise(resolve => setTimeout(resolve, millis))`. The `setTimeout` 
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Neither Minimum nor Maximum**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Sleep**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

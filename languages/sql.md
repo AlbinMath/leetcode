@@ -34,62 +34,62 @@ A collection of LeetCode problems implemented in **SQL** with detailed complexit
 | 620 | [Not Boring Movies](../leetcode/0620-not-boring-movies/) | Easy | Database / SQL | O(n) | O(n) |
 | 626 | [Exchange Seats](../leetcode/0626-exchange-seats/) | Medium | Database / SQL | O(n) | O(n) |
 | 627 | [Swap Sex of Employees](../leetcode/0627-swap-sex-of-employees/) | Easy | Database / SQL | O(n) | O(n) |
-| 1135 | [Connecting Cities With Minimum Cost](../leetcode/1135-customers-who-bought-all-products/) | Medium | Database / SQL | O(n) | O(n) |
-| 1136 | [Parallel Courses](../leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/) | Medium | Database / SQL | O(n) | O(n) |
-| 1153 | [String Transforms Into Another String](../leetcode/1153-product-sales-analysis-i/) | Hard | Database / SQL | O(n) | O(n) |
-| 1155 | [Number of Dice Rolls With Target Sum](../leetcode/1155-product-sales-analysis-iii/) | Medium | Database / SQL | O(n) | O(n) |
-| 1161 | [Maximum Level Sum of a Binary Tree](../leetcode/1161-project-employees-i/) | Medium | Database / SQL | O(n) | O(n) |
-| 1174 | [Immediate Food Delivery II](../leetcode/1174-sales-analysis-iii/) | Medium | Database / SQL | O(n) | O(n) |
-| 1245 | [Tree Diameter](../leetcode/1245-user-activity-for-the-past-30-days-i/) | Medium | Database / SQL | O(n) | O(n) |
-| 1258 | [Synonymous Sentences](../leetcode/1258-article-views-i/) | Medium | Database / SQL | O(n) | O(n) |
-| 1268 | [Search Suggestions System](../leetcode/1268-market-analysis-i/) | Medium | Database / SQL | O(n) | O(n) |
-| 1278 | [Palindrome Partitioning III](../leetcode/1278-product-price-at-a-given-date/) | Hard | Database / SQL | O(n) | O(n) |
-| 1292 | [Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../leetcode/1292-immediate-food-delivery-ii/) | Medium | Database / SQL | O(n) | O(n) |
-| 1301 | [Number of Paths with Max Score](../leetcode/1301-reformat-department-table/) | Hard | Database / SQL | O(n) | O(n) |
-| 1317 | [Convert Integer to the Sum of Two No-Zero Integers](../leetcode/1317-monthly-transactions-i/) | Easy | Database / SQL | O(n) | O(n) |
-| 1327 | [List the Products Ordered in a Period](../leetcode/1327-last-person-to-fit-in-the-bus/) | Easy | Database / SQL | O(n) | O(n) |
-| 1338 | [Reduce Array Size to The Half](../leetcode/1338-queries-quality-and-percentage/) | Medium | Database / SQL | O(n) | O(n) |
-| 1390 | [Four Divisors](../leetcode/1390-average-selling-price/) | Medium | Database / SQL | O(n) | O(n) |
-| 1415 | [The k-th Lexicographical String of All Happy Strings of Length n](../leetcode/1415-students-and-examinations/) | Medium | Database / SQL | O(n) | O(n) |
-| 1452 | [People Whose List of Favorite Companies Is Not a Subset of Another List](../leetcode/1452-restaurant-growth/) | Medium | Database / SQL | O(n) | O(n) |
-| 1462 | [Course Schedule IV](../leetcode/1462-list-the-products-ordered-in-a-period/) | Medium | Database / SQL | O(n) | O(n) |
-| 1480 | [Running Sum of 1d Array](../leetcode/1480-movie-rating/) | Easy | Database / SQL | O(n) | O(n) |
-| 1509 | [Minimum Difference Between Largest and Smallest Value in Three Moves](../leetcode/1509-replace-employee-id-with-the-unique-identifier/) | Medium | Database / SQL | O(n) | O(n) |
-| 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1523-capital-gainloss/) | Easy | Database / SQL | O(n) | O(n) |
-| 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1541-top-travellers/) | Medium | Database / SQL | O(n) | O(n) |
-| 1625 | [Lexicographically Smallest String After Applying Operations](../leetcode/1625-group-sold-products-by-the-date/) | Medium | Database / SQL | O(n) | O(n) |
-| 1664 | [Ways to Make a Fair Array](../leetcode/1664-find-users-with-valid-e-mails/) | Medium | Database / SQL | O(n) | O(n) |
-| 1670 | [Design Front Middle Back Queue](../leetcode/1670-patients-with-a-condition/) | Medium | Database / SQL | O(n) | O(n) |
-| 1724 | [Checking Existence of Edge Length Limited Paths II](../leetcode/1724-customer-who-visited-but-did-not-make-any-transactions/) | Hard | Database / SQL | O(n) | O(n) |
-| 1734 | [Decode XORed Permutation](../leetcode/1734-bank-account-summary-ii/) | Medium | Database / SQL | O(n) | O(n) |
-| 1773 | [Count Items Matching a Rule](../leetcode/1773-percentage-of-users-attended-a-contest/) | Easy | Database / SQL | O(n) | O(n) |
-| 1801 | [Number of Orders in the Backlog](../leetcode/1801-average-time-of-process-per-machine/) | Medium | Database / SQL | O(n) | O(n) |
-| 1811 | [Find Interview Candidates](../leetcode/1811-fix-names-in-a-table/) | Medium | Database / SQL | O(n) | O(n) |
-| 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1827-invalid-tweets/) | Easy | Database / SQL | O(n) | O(n) |
-| 1837 | [Sum of Digits in Base K](../leetcode/1837-daily-leads-and-partners/) | Easy | Database / SQL | O(n) | O(n) |
-| 1877 | [Minimize Maximum Pair Sum in Array](../leetcode/1877-find-followers-count/) | Medium | Database / SQL | O(n) | O(n) |
-| 1882 | [Process Tasks Using Servers](../leetcode/1882-the-number-of-employees-which-report-to-each-employee/) | Medium | Database / SQL | O(n) | O(n) |
-| 1892 | [Page Recommendations II](../leetcode/1892-find-total-time-spent-by-each-employee/) | Hard | Database / SQL | O(n) | O(n) |
-| 1908 | [Game of Nim](../leetcode/1908-recyclable-and-low-fat-products/) | Medium | Database / SQL | O(n) | O(n) |
-| 1942 | [The Number of the Smallest Unoccupied Chair](../leetcode/1942-primary-department-for-each-employee/) | Medium | Database / SQL | O(n) | O(n) |
-| 1948 | [Delete Duplicate Folders in System](../leetcode/1948-rearrange-products-table/) | Hard | Database / SQL | O(n) | O(n) |
-| 2024 | [Maximize the Confusion of an Exam](../leetcode/2024-calculate-special-bonus/) | Medium | Database / SQL | O(n) | O(n) |
-| 2041 | [Accepted Candidates From the Interviews](../leetcode/2041-the-latest-login-in-2020/) | Medium | Database / SQL | O(n) | O(n) |
-| 2057 | [Smallest Index With Equal Value](../leetcode/2057-count-salary-categories/) | Easy | Database / SQL | O(n) | O(n) |
-| 2110 | [Number of Smooth Descent Periods of a Stock](../leetcode/2110-employees-with-missing-information/) | Medium | Database / SQL | O(n) | O(n) |
-| 2127 | [Maximum Employees to Be Invited to a Meeting](../leetcode/2127-employees-whose-manager-left-the-company/) | Hard | Database / SQL | O(n) | O(n) |
-| 2495 | [Number of Subarrays Having Even Product](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Medium | Database / SQL | O(n) | O(n) |
-| 3530 | [Maximum Profit from Valid Topological Order in DAG](../leetcode/3530-odd-and-even-transactions/) | Hard | Database / SQL | O(n) | O(n) |
-| 3767 | [Maximize Points After Choosing K Tasks](../leetcode/3767-find-students-who-improved/) | Medium | Database / SQL | O(n) | O(n) |
-| 3782 | [Last Remaining Integer After Alternating Deletion Operations](../leetcode/3782-find-valid-emails/) | Hard | Database / SQL | O(n) | O(n) |
-| 3792 | [Sum of Increasing Product Blocks](../leetcode/3792-find-invalid-ip-addresses/) | Medium | Database / SQL | O(n) | O(n) |
-| 3803 | [Count Residue Prefixes](../leetcode/3803-find-products-with-valid-serial-numbers/) | Easy | Database / SQL | O(n) | O(n) |
-| 3961 | [Maximize Sum of Device Ratings](../leetcode/3961-find-students-with-study-spiral-pattern/) | Medium | Database / SQL | O(n) | O(n) |
-| 3971 | [Maximum Total Value](../leetcode/3971-find-stores-with-inventory-imbalance/) | Hard | Database / SQL | O(n) | O(n) |
-| 3996 | [Even Number of Knight Moves](../leetcode/3996-find-books-with-polarized-opinions/) | Easy | Database / SQL | O(n) | O(n) |
-| 4025 | [Minimize the Maximum Waiting Time at Synchronized Traffic Lights](../leetcode/4025-find-loyal-customers/) | Medium | Database / SQL | O(n) | O(n) |
-| 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](../leetcode/4043-find-zombie-sessions/) | Easy | Database / SQL | O(n) | O(n) |
-| 4169 | [Most Common Course Pairs](../leetcode/4169-most-common-course-pairs/) | Hard | Database / SQL | O(n) | O(n) |
-| 4195 | [Find Users with High Token Usage](../leetcode/4195-find-users-with-high-token-usage/) | Easy | Database / SQL | O(n) | O(n) |
-| 4208 | [Find Emotionally Consistent Users](../leetcode/4208-find-emotionally-consistent-users/) | Medium | Database / SQL | O(n) | O(n) |
-| 4227 | [Find Users with Persistent Behavior Patterns](../leetcode/4227-find-users-with-persistent-behavior-patterns/) | Hard | Database / SQL | O(n) | O(n) |
+| 1045 | [Customers Who Bought All Products](../leetcode/1135-customers-who-bought-all-products/) | Medium | Database / SQL | O(n) | O(n) |
+| 1050 | [Actors and Directors Who Cooperated At Least Three Times](../leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/) | Easy | Database / SQL | O(n) | O(n) |
+| 1068 | [Product Sales Analysis I](../leetcode/1153-product-sales-analysis-i/) | Easy | Database / SQL | O(n) | O(n) |
+| 1070 | [Product Sales Analysis III](../leetcode/1155-product-sales-analysis-iii/) | Medium | Database / SQL | O(n) | O(n) |
+| 1075 | [Project Employees I](../leetcode/1161-project-employees-i/) | Easy | Database / SQL | O(n) | O(n) |
+| 1084 | [Sales Analysis III](../leetcode/1174-sales-analysis-iii/) | Easy | Database / SQL | O(n) | O(n) |
+| 1141 | [User Activity for the Past 30 Days I](../leetcode/1245-user-activity-for-the-past-30-days-i/) | Easy | Database / SQL | O(n) | O(n) |
+| 1148 | [Article Views I](../leetcode/1258-article-views-i/) | Easy | Database / SQL | O(n) | O(n) |
+| 1158 | [Market Analysis I](../leetcode/1268-market-analysis-i/) | Medium | Database / SQL | O(n) | O(n) |
+| 1164 | [Product Price at a Given Date](../leetcode/1278-product-price-at-a-given-date/) | Medium | Database / SQL | O(n) | O(n) |
+| 1174 | [Immediate Food Delivery II](../leetcode/1292-immediate-food-delivery-ii/) | Medium | Database / SQL | O(n) | O(n) |
+| 1179 | [Reformat Department Table](../leetcode/1301-reformat-department-table/) | Easy | Database / SQL | O(n) | O(n) |
+| 1193 | [Monthly Transactions I](../leetcode/1317-monthly-transactions-i/) | Medium | Database / SQL | O(n) | O(n) |
+| 1204 | [Last Person to Fit in the Bus](../leetcode/1327-last-person-to-fit-in-the-bus/) | Medium | Database / SQL | O(n) | O(n) |
+| 1211 | [Queries Quality and Percentage](../leetcode/1338-queries-quality-and-percentage/) | Easy | Database / SQL | O(n) | O(n) |
+| 1251 | [Average Selling Price](../leetcode/1390-average-selling-price/) | Easy | Database / SQL | O(n) | O(n) |
+| 1280 | [Students and Examinations](../leetcode/1415-students-and-examinations/) | Easy | Database / SQL | O(n) | O(n) |
+| 1321 | [Restaurant Growth](../leetcode/1452-restaurant-growth/) | Medium | Database / SQL | O(n) | O(n) |
+| 1327 | [List the Products Ordered in a Period](../leetcode/1462-list-the-products-ordered-in-a-period/) | Easy | Database / SQL | O(n) | O(n) |
+| 1341 | [Movie Rating](../leetcode/1480-movie-rating/) | Medium | Database / SQL | O(n) | O(n) |
+| 1378 | [Replace Employee ID With The Unique Identifier](../leetcode/1509-replace-employee-id-with-the-unique-identifier/) | Easy | Database / SQL | O(n) | O(n) |
+| 1393 | [Capital Gain/Loss](../leetcode/1523-capital-gainloss/) | Medium | Database / SQL | O(n) | O(n) |
+| 1407 | [Top Travellers](../leetcode/1541-top-travellers/) | Easy | Database / SQL | O(n) | O(n) |
+| 1484 | [Group Sold Products By The Date](../leetcode/1625-group-sold-products-by-the-date/) | Easy | Database / SQL | O(n) | O(n) |
+| 1517 | [Find Users With Valid E-Mails](../leetcode/1664-find-users-with-valid-e-mails/) | Easy | Database / SQL | O(n) | O(n) |
+| 1527 | [Patients With a Condition](../leetcode/1670-patients-with-a-condition/) | Easy | Database / SQL | O(n) | O(n) |
+| 1581 | [Customer Who Visited but Did Not Make Any Transactions](../leetcode/1724-customer-who-visited-but-did-not-make-any-transactions/) | Easy | Database / SQL | O(n) | O(n) |
+| 1587 | [Bank Account Summary II](../leetcode/1734-bank-account-summary-ii/) | Easy | Database / SQL | O(n) | O(n) |
+| 1633 | [Percentage of Users Attended a Contest](../leetcode/1773-percentage-of-users-attended-a-contest/) | Easy | Database / SQL | O(n) | O(n) |
+| 1661 | [Average Time of Process per Machine](../leetcode/1801-average-time-of-process-per-machine/) | Easy | Database / SQL | O(n) | O(n) |
+| 1667 | [Fix Names in a Table](../leetcode/1811-fix-names-in-a-table/) | Easy | Database / SQL | O(n) | O(n) |
+| 1683 | [Invalid Tweets](../leetcode/1827-invalid-tweets/) | Easy | Database / SQL | O(n) | O(n) |
+| 1693 | [Daily Leads and Partners](../leetcode/1837-daily-leads-and-partners/) | Easy | Database / SQL | O(n) | O(n) |
+| 1729 | [Find Followers Count](../leetcode/1877-find-followers-count/) | Easy | Database / SQL | O(n) | O(n) |
+| 1731 | [The Number of Employees Which Report to Each Employee](../leetcode/1882-the-number-of-employees-which-report-to-each-employee/) | Easy | Database / SQL | O(n) | O(n) |
+| 1741 | [Find Total Time Spent by Each Employee](../leetcode/1892-find-total-time-spent-by-each-employee/) | Easy | Database / SQL | O(n) | O(n) |
+| 1757 | [Recyclable and Low Fat Products](../leetcode/1908-recyclable-and-low-fat-products/) | Easy | Database / SQL | O(n) | O(n) |
+| 1789 | [Primary Department for Each Employee](../leetcode/1942-primary-department-for-each-employee/) | Easy | Database / SQL | O(n) | O(n) |
+| 1795 | [Rearrange Products Table](../leetcode/1948-rearrange-products-table/) | Easy | Database / SQL | O(n) | O(n) |
+| 1873 | [Calculate Special Bonus](../leetcode/2024-calculate-special-bonus/) | Easy | Database / SQL | O(n) | O(n) |
+| 1890 | [The Latest Login in 2020](../leetcode/2041-the-latest-login-in-2020/) | Easy | Database / SQL | O(n) | O(n) |
+| 1907 | [Count Salary Categories](../leetcode/2057-count-salary-categories/) | Medium | Database / SQL | O(n) | O(n) |
+| 1965 | [Employees With Missing Information](../leetcode/2110-employees-with-missing-information/) | Easy | Database / SQL | O(n) | O(n) |
+| 1978 | [Employees Whose Manager Left the Company](../leetcode/2127-employees-whose-manager-left-the-company/) | Easy | Database / SQL | O(n) | O(n) |
+| 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Easy | Database / SQL | O(n) | O(n) |
+| 3220 | [Odd and Even Transactions](../leetcode/3530-odd-and-even-transactions/) | Medium | Database / SQL | O(n) | O(n) |
+| 3421 | [Find Students Who Improved](../leetcode/3767-find-students-who-improved/) | Medium | Database / SQL | O(n) | O(n) |
+| 3436 | [Find Valid Emails](../leetcode/3782-find-valid-emails/) | Easy | Database / SQL | O(n) | O(n) |
+| 3451 | [Find Invalid IP Addresses](../leetcode/3792-find-invalid-ip-addresses/) | Hard | Database / SQL | O(n) | O(n) |
+| 3465 | [Find Products with Valid Serial Numbers](../leetcode/3803-find-products-with-valid-serial-numbers/) | Easy | Database / SQL | O(n) | O(n) |
+| 3617 | [Find Students with Study Spiral Pattern](../leetcode/3961-find-students-with-study-spiral-pattern/) | Hard | Database / SQL | O(n) | O(n) |
+| 3626 | [Find Stores with Inventory Imbalance](../leetcode/3971-find-stores-with-inventory-imbalance/) | Medium | Database / SQL | O(n) | O(n) |
+| 3642 | [Find Books with Polarized Opinions](../leetcode/3996-find-books-with-polarized-opinions/) | Medium | Database / SQL | O(n) | O(n) |
+| 3657 | [Find Loyal Customers](../leetcode/4025-find-loyal-customers/) | Medium | Database / SQL | O(n) | O(n) |
+| 3673 | [Find Zombie Sessions](../leetcode/4043-find-zombie-sessions/) | Hard | Database / SQL | O(n) | O(n) |
+| 3764 | [Most Common Course Pairs](../leetcode/4169-most-common-course-pairs/) | Hard | Database / SQL | O(n) | O(n) |
+| 3793 | [Find Users with High Token Usage](../leetcode/4195-find-users-with-high-token-usage/) | Easy | Database / SQL | O(n) | O(n) |
+| 3808 | [Find Emotionally Consistent Users](../leetcode/4208-find-emotionally-consistent-users/) | Medium | Database / SQL | O(n) | O(n) |
+| 3832 | [Find Users with Persistent Behavior Patterns](../leetcode/4227-find-users-with-persistent-behavior-patterns/) | Hard | Database / SQL | O(n) | O(n) |

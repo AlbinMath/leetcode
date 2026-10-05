@@ -1,14 +1,14 @@
-# LeetCode 2858: Minimum Edge Reversals So Every Node Is Reachable
+# LeetCode 2722: Join Two Arrays by ID
 
-**LeetCode Problem #2858 — Minimum Edge Reversals So Every Node Is Reachable**
-Solve LeetCode Minimum Edge Reversals So Every Node Is Reachable using TypeScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+**LeetCode Problem #2722 — Join Two Arrays by ID**
+Solve LeetCode Join Two Arrays by ID using TypeScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Minimum Edge Reversals So Every Node Is Reachable |
-| LeetCode | #2858 |
-| Difficulty | Hard |
+| Problem | Join Two Arrays by ID |
+| LeetCode | #2722 |
+| Difficulty | Medium |
 | Language | TypeScript |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
@@ -31,7 +31,7 @@ Uses a Map keyed by id. First insert all objects from arr1, then merge/override 
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Edge Reversals So Every Node Is Reachable**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Join Two Arrays by ID**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
-- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [2766. Relocate Marbles](../2766-find-the-prefix-common-array-of-two-arrays/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/join-two-arrays-by-id/)

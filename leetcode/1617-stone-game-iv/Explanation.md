@@ -1,16 +1,16 @@
-# LeetCode 1617: Count Subtrees With Max Distance Between Cities
+# LeetCode 1510: Stone Game IV
 
-**LeetCode Problem #1617 — Count Subtrees With Max Distance Between Cities**
-Solve LeetCode Count Subtrees With Max Distance Between Cities using TypeScript and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
+**LeetCode Problem #1510 — Stone Game IV**
+Solve LeetCode Stone Game IV using TypeScript and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Count Subtrees With Max Distance Between Cities |
-| LeetCode | #1617 |
+| Problem | Stone Game IV |
+| LeetCode | #1510 |
 | Difficulty | Hard |
 | Language | TypeScript |
-| Algorithm | Memoization / Bottom-Up State Transition |
+| Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
@@ -33,11 +33,11 @@ Time complexity is $O(N\sqrt{N})$ and space complexity is $O(N)$.
 
 ## Algorithm
 1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Subtrees With Max Distance Between Cities**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+Consider the standard input for **Stone Game IV**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -70,9 +70,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [909. Snakes and Ladders](../0909-stone-game/)
-- [1182. Shortest Distance to Target Color](../1182-game-play-analysis-iv/)
-- [1240. Tiling a Rectangle with the Fewest Squares](../1240-stone-game-ii/)
+- [550. Game Play Analysis IV](../1182-game-play-analysis-iv/)
+- [877. Stone Game](../0909-stone-game/)
+- [1140. Stone Game II](../1240-stone-game-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stone-game-iv/)

@@ -1,14 +1,14 @@
-# LeetCode 1298: Maximum Candies You Can Get from Boxes
+# LeetCode 1190: Reverse Substrings Between Each Pair of Parentheses
 
-**LeetCode Problem #1298 — Maximum Candies You Can Get from Boxes**
-Solve LeetCode Maximum Candies You Can Get from Boxes using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+**LeetCode Problem #1190 — Reverse Substrings Between Each Pair of Parentheses**
+Solve LeetCode Reverse Substrings Between Each Pair of Parentheses using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Maximum Candies You Can Get from Boxes |
-| LeetCode | #1298 |
-| Difficulty | Hard |
+| Problem | Reverse Substrings Between Each Pair of Parentheses |
+| LeetCode | #1190 |
+| Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Stack Push / Pop Parsing |
 | Data Structure | Stack |
@@ -39,7 +39,7 @@ Time complexity is $O(N^2)$ in the worst case (due to reversals) and space compl
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Candies You Can Get from Boxes**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+Consider the standard input for **Reverse Substrings Between Each Pair of Parentheses**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)

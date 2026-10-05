@@ -10,15 +10,13 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 |---|---|---|---|---|---|
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Elixir | O(n) | O(1) | [Explanation](../leetcode/0628-maximum-product-of-three-numbers/Explanation.md) |
 
-| 804 | [Unique Morse Code Words](../leetcode/0804-rotated-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0804-rotated-digits/Explanation.md) |
+| 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/1256-rank-transform-of-an-array/Explanation.md) |
 
-| 1784 | [Check if Binary String Has at Most One Segment of Ones](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/1784-minimum-initial-energy-to-finish-tasks/Explanation.md) |
+| 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Scala | O(n) | O(1) | [Explanation](../leetcode/1574-maximum-product-of-two-elements-in-an-array/Explanation.md) |
 
-| 1961 | [Check If String Is a Prefix of Array](../leetcode/1961-maximum-ice-cream-bars/) | Java | O(n) | O(1) | [Explanation](../leetcode/1961-maximum-ice-cream-bars/Explanation.md) |
+| 1752 | [Check if Array Is Sorted and Rotated](../leetcode/1878-check-if-array-is-sorted-and-rotated/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1878-check-if-array-is-sorted-and-rotated/Explanation.md) |
 
-| 2319 | [Check if Matrix Is X-Matrix](../leetcode/2319-longest-substring-of-one-repeating-character/) | Java | O(n) | O(1) | [Explanation](../leetcode/2319-longest-substring-of-one-repeating-character/Explanation.md) |
-
-| 4256 | [Construct Uniform Parity Array I](../leetcode/4256-construct-uniform-parity-array-i/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4256-construct-uniform-parity-array-i/Explanation.md) |
+| 3875 | [Construct Uniform Parity Array I](../leetcode/4256-construct-uniform-parity-array-i/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4256-construct-uniform-parity-array-i/Explanation.md) |
 
 ### Medium
 
@@ -34,17 +32,17 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0153-find-minimum-in-rotated-sorted-array/Explanation.md) |
 
-| 1222 | [Queens That Can Attack the King](../leetcode/1222-remove-covered-intervals/) | Java | O(log n) | O(1) | [Explanation](../leetcode/1222-remove-covered-intervals/Explanation.md) |
+| 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0804-rotated-digits/Explanation.md) |
 
-| 1256 | [Encode Number](../leetcode/1256-rank-transform-of-an-array/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/1256-rank-transform-of-an-array/Explanation.md) |
+| 1288 | [Remove Covered Intervals](../leetcode/1222-remove-covered-intervals/) | Java | O(log n) | O(1) | [Explanation](../leetcode/1222-remove-covered-intervals/Explanation.md) |
 
-| 1574 | [Shortest Subarray to be Removed to Make Array Sorted](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Scala | O(n) | O(1) | [Explanation](../leetcode/1574-maximum-product-of-two-elements-in-an-array/Explanation.md) |
+| 1833 | [Maximum Ice Cream Bars](../leetcode/1961-maximum-ice-cream-bars/) | Java | O(n) | O(1) | [Explanation](../leetcode/1961-maximum-ice-cream-bars/Explanation.md) |
 
-| 1878 | [Get Biggest Three Rhombus Sums in a Grid](../leetcode/1878-check-if-array-is-sorted-and-rotated/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1878-check-if-array-is-sorted-and-rotated/Explanation.md) |
+| 1846 | [Maximum Element After Decreasing and Rearranging](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/) | Java | O(log n) | O(1) | [Explanation](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/Explanation.md) |
 
-| 3831 | [Median of a Binary Search Tree Level](../leetcode/3831-find-x-value-of-array-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3831-find-x-value-of-array-i/Explanation.md) |
+| 3524 | [Find X Value of Array I](../leetcode/3831-find-x-value-of-array-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3831-find-x-value-of-array-i/Explanation.md) |
 
-| 3840 | [House Robber V](../leetcode/3840-find-x-value-of-array-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3840-find-x-value-of-array-ii/Explanation.md) |
+| 3689 | [Maximum Total Subarray Value I](../leetcode/4005-maximum-total-subarray-value-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/4005-maximum-total-subarray-value-i/Explanation.md) |
 
 ### Hard
 
@@ -54,7 +52,9 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/Explanation.md) |
 
-| 1956 | [Minimum Time For K Virus Variants to Spread](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/) | Java | O(log n) | O(1) | [Explanation](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/Explanation.md) |
+| 1665 | [Minimum Initial Energy to Finish Tasks](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/1784-minimum-initial-energy-to-finish-tasks/Explanation.md) |
 
-| 4005 | [Minimum Operations to Make Array Equal III](../leetcode/4005-maximum-total-subarray-value-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/4005-maximum-total-subarray-value-i/Explanation.md) |
+| 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Java | O(n) | O(1) | [Explanation](../leetcode/2319-longest-substring-of-one-repeating-character/Explanation.md) |
+
+| 3525 | [Find X Value of Array II](../leetcode/3840-find-x-value-of-array-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3840-find-x-value-of-array-ii/Explanation.md) |
 

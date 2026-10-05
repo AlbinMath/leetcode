@@ -1,16 +1,16 @@
-# LeetCode 1390: Four Divisors
+# LeetCode 1251: Average Selling Price
 
-**LeetCode Problem #1390 — Four Divisors**
-Solve LeetCode Four Divisors using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+**LeetCode Problem #1251 — Average Selling Price**
+Solve LeetCode Average Selling Price using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Four Divisors |
-| LeetCode | #1390 |
-| Difficulty | Medium |
+| Problem | Average Selling Price |
+| LeetCode | #1251 |
+| Difficulty | Easy |
 | Language | SQL |
-| Algorithm | SQL Query / Relational Join & Grouping |
+| Algorithm | SQL Query / Relational Join & Window Function |
 | Data Structure | Relational Table |
 | Pattern | Database / SQL |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ We iterate through the input using **SQL Query / Grouping**. By maintaining stat
 
 ## Algorithm
 1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Four Divisors**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Average Selling Price**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1278. Palindrome Partitioning III](../1278-product-price-at-a-given-date/)
-- [1801. Number of Orders in the Backlog](../1801-average-time-of-process-per-machine/)
-- [2347. Best Poker Hand](../2347-count-nodes-equal-to-average-of-subtree/)
+- [1164. Product Price at a Given Date](../1278-product-price-at-a-given-date/)
+- [1661. Average Time of Process per Machine](../1801-average-time-of-process-per-machine/)
+- [2265. Count Nodes Equal to Average of Subtree](../2347-count-nodes-equal-to-average-of-subtree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-selling-price/)

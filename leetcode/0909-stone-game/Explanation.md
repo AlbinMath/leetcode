@@ -1,13 +1,13 @@
-# LeetCode 909: Snakes and Ladders
+# LeetCode 877: Stone Game
 
-**LeetCode Problem #909 — Snakes and Ladders**
-Solve LeetCode Snakes and Ladders using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+**LeetCode Problem #877 — Stone Game**
+Solve LeetCode Stone Game using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Snakes and Ladders |
-| LeetCode | #909 |
+| Problem | Stone Game |
+| LeetCode | #877 |
 | Difficulty | Medium |
 | Language | C++ |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
@@ -33,7 +33,7 @@ This is a **mathematical insight**: With an even number of piles, Alice can alwa
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Snakes and Ladders**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Stone Game**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -67,9 +67,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1240. Tiling a Rectangle with the Fewest Squares](../1240-stone-game-ii/)
-- [1522. Diameter of N-Ary Tree](../1522-stone-game-iii/)
-- [1617. Count Subtrees With Max Distance Between Cities](../1617-stone-game-iv/)
+- [1140. Stone Game II](../1240-stone-game-ii/)
+- [1406. Stone Game III](../1522-stone-game-iii/)
+- [1510. Stone Game IV](../1617-stone-game-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stone-game/)

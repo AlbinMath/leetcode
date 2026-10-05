@@ -1,16 +1,16 @@
-# LeetCode 2860: Happy Students
+# LeetCode 2724: Sort By
 
-**LeetCode Problem #2860 — Happy Students**
-Solve LeetCode Happy Students using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+**LeetCode Problem #2724 — Sort By**
+Solve LeetCode Sort By using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Happy Students |
-| LeetCode | #2860 |
-| Difficulty | Medium |
+| Problem | Sort By |
+| LeetCode | #2724 |
+| Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
+| Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
 | Time Complexity | O(n) |
@@ -27,11 +27,11 @@ Leverage **Array / General** with **Array** to process inputs efficiently and ac
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Happy Students**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Sort By**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
