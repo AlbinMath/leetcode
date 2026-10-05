@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](../1509-replace-employee-id-with-the-unique-identifier/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [12. Integer to Roman](../0012-integer-to-roman/)
+- [1882. Process Tasks Using Servers](../1882-the-number-of-employees-which-report-to-each-employee/)
+- [1892. Page Recommendations II](../1892-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employee-bonus/)

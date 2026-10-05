@@ -1,7 +1,7 @@
 # LeetCode 3831: Median of a Binary Search Tree Level
 
 **LeetCode Problem #3831 — Median of a Binary Search Tree Level**
-Solve LeetCode Median of a Binary Search Tree Level using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Median of a Binary Search Tree Level using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Median of a Binary Search Tree Level using JavaScript and Databas
 | LeetCode | #3831 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 You are given an array of  positive  integers  nums , and a  positive  integer  k .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 The code uses **Dynamic Programming** to count the products of all possible contiguous subarrays efficiently.
@@ -36,24 +36,24 @@ The code uses **Dynamic Programming** to count the products of all possible cont
 4. It returns the `result` array containing the aggregated counts.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Median of a Binary Search Tree Level**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Median of a Binary Search Tree Level**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Binary Search**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 JavaScript
@@ -62,16 +62,16 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [3840. House Robber V](../3840-find-x-value-of-array-ii/)

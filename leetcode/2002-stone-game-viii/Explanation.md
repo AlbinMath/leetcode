@@ -1,7 +1,7 @@
 # LeetCode 2002: Maximum Product of the Length of Two Palindromic Subsequences
 
 **LeetCode Problem #2002 — Maximum Product of the Length of Two Palindromic Subsequences**
-Solve LeetCode Maximum Product of the Length of Two Palindromic Subsequences using Java and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Maximum Product of the Length of Two Palindromic Subsequences using Java and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Maximum Product of the Length of Two Palindromic Subsequences usi
 | LeetCode | #2002 |
 | Difficulty | Medium |
 | Language | Java |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Maximum Product of the Length of Two Palindromic Subsequences usi
 Alice and Bob take turns playing a game, with  Alice starting first .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses **DP with prefix sums**. After computing prefix sums, the problem reduces to choosing optimal split points. Working backwards, `dp[i]` = max difference the current player can achieve starting from index `i`. The recurrence is `dp[i] = max(dp[i+1], prefix[i] - dp[i+1])`.
@@ -28,24 +28,23 @@ The code uses **DP with prefix sums**. After computing prefix sums, the problem 
 Time complexity is $O(N)$ and space complexity is $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Prefix Array**).
+2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Product of the Length of Two Palindromic Subsequences**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Maximum Product of the Length of Two Palindromic Subsequences**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Prefix Sum**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Prefix Sum
+- Array
 
 ## Language
 Java
@@ -54,7 +53,7 @@ Java
 - [solution.java](./solution.java)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

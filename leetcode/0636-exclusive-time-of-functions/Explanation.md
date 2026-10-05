@@ -1,7 +1,7 @@
 # LeetCode 636: Exclusive Time of Functions
 
 **LeetCode Problem #636 — Exclusive Time of Functions**
-Solve LeetCode Exclusive Time of Functions using TypeScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Exclusive Time of Functions using TypeScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Exclusive Time of Functions using TypeScript and Database / SQL. 
 | LeetCode | #636 |
 | Difficulty | Medium |
 | Language | TypeScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Exclusive Time of Functions using TypeScript and Database / SQL. 
 On a  single-threaded  CPU, we execute a program containing  n  functions. Each function has a unique ID between 0 and  n - 1 .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a **Stack** to simulate the function call stack.
@@ -35,24 +35,23 @@ The code uses a **Stack** to simulate the function call stack.
 Time complexity is $O(L)$ where $L$ is the number of logs, and space complexity is $O(N)$ for the stack.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Stack**).
+2. Process elements sequentially using **Stack Push / Pop Parsing**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Exclusive Time of Functions**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Exclusive Time of Functions**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Stack & Queue**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Stack
+- String Parsing
 
 ## Language
 TypeScript
@@ -61,7 +60,7 @@ TypeScript
 - [solution.ts](./solution.ts)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -74,8 +73,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1801. Number of Orders in the Backlog](../1801-average-time-of-process-per-machine/)
+- [1892. Page Recommendations II](../1892-find-total-time-spent-by-each-employee/)
 - [2749. Minimum Operations to Make the Integer Zero](../2749-promise-time-limit/)
-- [2762. Continuous Subarrays](../2762-cache-with-time-limit/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/exclusive-time-of-functions/)

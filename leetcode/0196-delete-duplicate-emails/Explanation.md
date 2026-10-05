@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [182. Duplicate Emails](../0182-duplicate-emails/)
 - [2216. Minimum Deletions to Make Array Beautiful](../2216-delete-the-middle-node-of-a-linked-list/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
+- [3071. Minimum Operations to Write the Letter Y on a Grid](../3071-drop-duplicate-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-duplicate-emails/)

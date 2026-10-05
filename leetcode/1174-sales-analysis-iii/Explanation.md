@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1155. Number of Dice Rolls With Target Sum](../1155-product-sales-analysis-iii/)
 - [1153. String Transforms Into Another String](../1153-product-sales-analysis-i/)
-- [607. Sales Person](../0607-sales-person/)
+- [3898. Find the Degree of Each Vertex](../3898-seasonal-sales-analysis/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sales-analysis-iii/)

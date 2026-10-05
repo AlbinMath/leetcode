@@ -1,7 +1,7 @@
 # LeetCode 1186: Maximum Subarray Sum with One Deletion
 
 **LeetCode Problem #1186 — Maximum Subarray Sum with One Deletion**
-Solve LeetCode Maximum Subarray Sum with One Deletion using C++ and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Maximum Subarray Sum with One Deletion using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Maximum Subarray Sum with One Deletion using C++ and Database / S
 | LeetCode | #1186 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Iterative Traversal |
+| Data Structure | Array |
+| Pattern | Array / General |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 There are two kinds of threads:  oxygen  and  hydrogen . Your goal is to group these threads to form water molecules.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a **mutex** and **condition variable** for thread synchronization.
@@ -38,24 +38,22 @@ The code uses a **mutex** and **condition variable** for thread synchronization.
 This ensures every water molecule has exactly 2 H atoms and 1 O atom before any thread proceeds.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Iterative Traversal**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Subarray Sum with One Deletion**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Maximum Subarray Sum with One Deletion**. Applying **Iterative Traversal** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Array / General**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Array
 
 ## Language
 C++
@@ -64,7 +62,7 @@ C++
 - [solution.cpp](./solution.cpp)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -77,8 +75,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1968. Array With Elements Not Equal to Average of Neighbors](../1968-maximum-building-height/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [12. Integer to Roman](../0012-integer-to-roman/)
+- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [6. Zigzag Conversion](../0006-zigzag-conversion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/building-h2o/)

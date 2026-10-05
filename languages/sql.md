@@ -65,3 +65,31 @@ A collection of LeetCode problems implemented in **SQL** with detailed complexit
 | 1773 | [Count Items Matching a Rule](../leetcode/1773-percentage-of-users-attended-a-contest/) | Easy | Database / SQL | O(n) | O(n) |
 | 1801 | [Number of Orders in the Backlog](../leetcode/1801-average-time-of-process-per-machine/) | Medium | Database / SQL | O(n) | O(n) |
 | 1811 | [Find Interview Candidates](../leetcode/1811-fix-names-in-a-table/) | Medium | Database / SQL | O(n) | O(n) |
+| 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1827-invalid-tweets/) | Easy | Database / SQL | O(n) | O(n) |
+| 1837 | [Sum of Digits in Base K](../leetcode/1837-daily-leads-and-partners/) | Easy | Database / SQL | O(n) | O(n) |
+| 1877 | [Minimize Maximum Pair Sum in Array](../leetcode/1877-find-followers-count/) | Medium | Database / SQL | O(n) | O(n) |
+| 1882 | [Process Tasks Using Servers](../leetcode/1882-the-number-of-employees-which-report-to-each-employee/) | Medium | Database / SQL | O(n) | O(n) |
+| 1892 | [Page Recommendations II](../leetcode/1892-find-total-time-spent-by-each-employee/) | Hard | Database / SQL | O(n) | O(n) |
+| 1908 | [Game of Nim](../leetcode/1908-recyclable-and-low-fat-products/) | Medium | Database / SQL | O(n) | O(n) |
+| 1942 | [The Number of the Smallest Unoccupied Chair](../leetcode/1942-primary-department-for-each-employee/) | Medium | Database / SQL | O(n) | O(n) |
+| 1948 | [Delete Duplicate Folders in System](../leetcode/1948-rearrange-products-table/) | Hard | Database / SQL | O(n) | O(n) |
+| 2024 | [Maximize the Confusion of an Exam](../leetcode/2024-calculate-special-bonus/) | Medium | Database / SQL | O(n) | O(n) |
+| 2041 | [Accepted Candidates From the Interviews](../leetcode/2041-the-latest-login-in-2020/) | Medium | Database / SQL | O(n) | O(n) |
+| 2057 | [Smallest Index With Equal Value](../leetcode/2057-count-salary-categories/) | Easy | Database / SQL | O(n) | O(n) |
+| 2110 | [Number of Smooth Descent Periods of a Stock](../leetcode/2110-employees-with-missing-information/) | Medium | Database / SQL | O(n) | O(n) |
+| 2127 | [Maximum Employees to Be Invited to a Meeting](../leetcode/2127-employees-whose-manager-left-the-company/) | Hard | Database / SQL | O(n) | O(n) |
+| 2495 | [Number of Subarrays Having Even Product](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Medium | Database / SQL | O(n) | O(n) |
+| 3530 | [Maximum Profit from Valid Topological Order in DAG](../leetcode/3530-odd-and-even-transactions/) | Hard | Database / SQL | O(n) | O(n) |
+| 3767 | [Maximize Points After Choosing K Tasks](../leetcode/3767-find-students-who-improved/) | Medium | Database / SQL | O(n) | O(n) |
+| 3782 | [Last Remaining Integer After Alternating Deletion Operations](../leetcode/3782-find-valid-emails/) | Hard | Database / SQL | O(n) | O(n) |
+| 3792 | [Sum of Increasing Product Blocks](../leetcode/3792-find-invalid-ip-addresses/) | Medium | Database / SQL | O(n) | O(n) |
+| 3803 | [Count Residue Prefixes](../leetcode/3803-find-products-with-valid-serial-numbers/) | Easy | Database / SQL | O(n) | O(n) |
+| 3961 | [Maximize Sum of Device Ratings](../leetcode/3961-find-students-with-study-spiral-pattern/) | Medium | Database / SQL | O(n) | O(n) |
+| 3971 | [Maximum Total Value](../leetcode/3971-find-stores-with-inventory-imbalance/) | Hard | Database / SQL | O(n) | O(n) |
+| 3996 | [Even Number of Knight Moves](../leetcode/3996-find-books-with-polarized-opinions/) | Easy | Database / SQL | O(n) | O(n) |
+| 4025 | [Minimize the Maximum Waiting Time at Synchronized Traffic Lights](../leetcode/4025-find-loyal-customers/) | Medium | Database / SQL | O(n) | O(n) |
+| 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](../leetcode/4043-find-zombie-sessions/) | Easy | Database / SQL | O(n) | O(n) |
+| 4169 | [Most Common Course Pairs](../leetcode/4169-most-common-course-pairs/) | Hard | Database / SQL | O(n) | O(n) |
+| 4195 | [Find Users with High Token Usage](../leetcode/4195-find-users-with-high-token-usage/) | Easy | Database / SQL | O(n) | O(n) |
+| 4208 | [Find Emotionally Consistent Users](../leetcode/4208-find-emotionally-consistent-users/) | Medium | Database / SQL | O(n) | O(n) |
+| 4227 | [Find Users with Persistent Behavior Patterns](../leetcode/4227-find-users-with-persistent-behavior-patterns/) | Hard | Database / SQL | O(n) | O(n) |

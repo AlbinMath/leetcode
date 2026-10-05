@@ -1,7 +1,7 @@
 # LeetCode 2862: Maximum Element-Sum of a Complete Subset of Indices
 
 **LeetCode Problem #2862 — Maximum Element-Sum of a Complete Subset of Indices**
-Solve LeetCode Maximum Element-Sum of a Complete Subset of Indices using TypeScript and Greedy. This solution finds the optimal result using Greedy Choice Property in O(n) time.
+Solve LeetCode Maximum Element-Sum of a Complete Subset of Indices using TypeScript and Heap. This solution finds the optimal result using Priority Queue Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,39 @@ Solve LeetCode Maximum Element-Sum of a Complete Subset of Indices using TypeScr
 | LeetCode | #2862 |
 | Difficulty | Hard |
 | Language | TypeScript |
-| Algorithm | Greedy Choice Property |
-| Data Structure | Array / Priority Queue |
-| Pattern | Greedy |
+| Algorithm | Priority Queue Selection |
+| Data Structure | Min/Max Heap |
+| Pattern | Heap |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 Given a function  fn , an array of arguments  args , and an interval time  t , return a cancel function  cancelFn .
 
 ## Key Insight
-Leverage **Greedy** with **Array / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Min/Max Heap** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 Calls `fn(...args)` immediately, then starts `setInterval(fn, t, ...args)`. Returns a function that calls `clearInterval` to cancel the repeating execution.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array / Priority Queue**).
-2. Process elements sequentially using **Greedy Choice Property**.
+1. Initialize state variables / data structure (**Min/Max Heap**).
+2. Process elements sequentially using **Priority Queue Selection**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Element-Sum of a Complete Subset of Indices**. Applying **Greedy Choice Property** yields the target result step by step.
+Consider the standard input for **Maximum Element-Sum of a Complete Subset of Indices**. Applying **Priority Queue Selection** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Greedy**
+**Heap**
 
 ## Topics
-- Greedy
+- Heap
+- Priority Queue
 - Sorting
 
 ## Language
@@ -51,7 +52,7 @@ TypeScript
 - [solution.ts](./solution.ts)
 
 ## Why This Works
-By utilizing **Greedy**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

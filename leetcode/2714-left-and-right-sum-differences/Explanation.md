@@ -1,7 +1,7 @@
 # LeetCode 2714: Find Shortest Path with K Hops
 
 **LeetCode Problem #2714 — Find Shortest Path with K Hops**
-Solve LeetCode Find Shortest Path with K Hops using Kotlin and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+Solve LeetCode Find Shortest Path with K Hops using Kotlin and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,37 +10,38 @@ Solve LeetCode Find Shortest Path with K Hops using Kotlin and Array / General. 
 | LeetCode | #2714 |
 | Difficulty | Hard |
 | Language | Kotlin |
-| Algorithm | Iterative Traversal |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 You are given a  0-indexed  integer array  nums  of size  n .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 Compute prefix sums for left sums and suffix sums for right sums, then calculate the absolute difference at each index.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+1. Initialize state variables / data structure (**Prefix Array**).
+2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Shortest Path with K Hops**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Find Shortest Path with K Hops**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Array / General**
+**Prefix Sum**
 
 ## Topics
+- Prefix Sum
 - Array
 
 ## Language
@@ -50,7 +51,7 @@ Kotlin
 - [solution.kt](./solution.kt)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

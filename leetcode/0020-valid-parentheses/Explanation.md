@@ -74,7 +74,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1208. Get Equal Substrings Within Budget](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 - [2349. Design a Number Container System](../2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
+- [22. Generate Parentheses](../0022-generate-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-parentheses/)

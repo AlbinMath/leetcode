@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3584. Maximum Product of First and Last Elements of a Subsequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
-- [20. Valid Parentheses](../0020-valid-parentheses/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [3782. Last Remaining Integer After Alternating Deletion Operations](../3782-find-valid-emails/)
+- [3803. Count Residue Prefixes](../3803-find-products-with-valid-serial-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-users-with-valid-e-mails/)

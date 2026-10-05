@@ -1,8 +1,18 @@
 # Trie LeetCode Problems
 
-A curated index of LeetCode problems solved using **Trie**.
+A collection of LeetCode problems solved using **Trie** pattern techniques, explanations, and complexity analysis.
 
-## Solved Problems
+## Problems
 
-| # | Problem | Difficulty | Language | Time | Space |
-|---|---|---|---|---|---|
+### Easy
+
+*No problems logged yet under this difficulty level.*
+
+### Medium
+
+*No problems logged yet under this difficulty level.*
+
+### Hard
+
+*No problems logged yet under this difficulty level.*
+

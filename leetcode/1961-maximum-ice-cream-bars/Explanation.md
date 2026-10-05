@@ -1,7 +1,7 @@
 # LeetCode 1961: Check If String Is a Prefix of Array
 
 **LeetCode Problem #1961 — Check If String Is a Prefix of Array**
-Solve LeetCode Check If String Is a Prefix of Array using Java and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Check If String Is a Prefix of Array using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Check If String Is a Prefix of Array using Java and Database / SQ
 | LeetCode | #1961 |
 | Difficulty | Easy |
 | Language | Java |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 It is a sweltering summer day, and a boy wants to buy some ice cream bars.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 1. **Sort** the costs in ascending order.
@@ -30,24 +30,24 @@ Leverage **Database / SQL** with **Relational Table** to process inputs efficien
 Time complexity is $O(N \log N)$ and space complexity is $O(\log N)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Check If String Is a Prefix of Array**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Check If String Is a Prefix of Array**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Binary Search**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 Java
@@ -56,16 +56,16 @@ Java
 - [solution.java](./solution.java)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)

@@ -1,7 +1,7 @@
 # LeetCode 1617: Count Subtrees With Max Distance Between Cities
 
 **LeetCode Problem #1617 — Count Subtrees With Max Distance Between Cities**
-Solve LeetCode Count Subtrees With Max Distance Between Cities using TypeScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Count Subtrees With Max Distance Between Cities using TypeScript and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Count Subtrees With Max Distance Between Cities using TypeScript 
 | LeetCode | #1617 |
 | Difficulty | Hard |
 | Language | TypeScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Memoization / Bottom-Up State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Count Subtrees With Max Distance Between Cities using TypeScript 
 Alice and Bob take turns playing a game, with Alice starting first.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
 The code uses **Dynamic Programming** where `dp[i]` = whether the current player wins with `i` stones.
@@ -32,24 +32,24 @@ The code uses **Dynamic Programming** where `dp[i]` = whether the current player
 Time complexity is $O(N\sqrt{N})$ and space complexity is $O(N)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**DP Table / Array**).
+2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Subtrees With Max Distance Between Cities**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Count Subtrees With Max Distance Between Cities**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Dynamic Programming**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 TypeScript
@@ -58,16 +58,16 @@ TypeScript
 - [solution.ts](./solution.ts)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [909. Snakes and Ladders](../0909-stone-game/)

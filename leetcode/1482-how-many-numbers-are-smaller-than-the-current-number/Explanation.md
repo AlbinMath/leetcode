@@ -1,7 +1,7 @@
 # LeetCode 1482: Minimum Number of Days to Make m Bouquets
 
 **LeetCode Problem #1482 — Minimum Number of Days to Make m Bouquets**
-Solve LeetCode Minimum Number of Days to Make m Bouquets using TypeScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+Solve LeetCode Minimum Number of Days to Make m Bouquets using TypeScript and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Minimum Number of Days to Make m Bouquets using TypeScript and Ar
 | LeetCode | #1482 |
 | Difficulty | Medium |
 | Language | TypeScript |
-| Algorithm | Iterative Traversal |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 Given the array  nums , for each  nums[i]  find out how many numbers in the array are smaller than it. That is, for each  nums[i]  you have to count the number of valid  j&#39;s  such that  j != i   and   nums[j] < nums[i] .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses **Counting Sort + Prefix Sum** for an efficient $O(N)$ solution.
@@ -32,21 +32,22 @@ The code uses **Counting Sort + Prefix Sum** for an efficient $O(N)$ solution.
 Time complexity is $O(N + K)$ where $K = 100$, and space complexity is $O(K)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+1. Initialize state variables / data structure (**Prefix Array**).
+2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Number of Days to Make m Bouquets**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Minimum Number of Days to Make m Bouquets**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Array / General**
+**Prefix Sum**
 
 ## Topics
+- Prefix Sum
 - Array
 
 ## Language
@@ -56,7 +57,7 @@ TypeScript
 - [solution.ts](./solution.ts)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

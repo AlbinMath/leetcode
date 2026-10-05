@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1724. Checking Existence of Edge Length Limited Paths II](../1724-customer-who-visited-but-did-not-make-any-transactions/)
 - [2813. Maximum Elegance of a K-Length Subsequence](../2813-to-be-or-not-to-be/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
+- [175. Combine Two Tables](../0175-combine-two-tables/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/not-boring-movies/)

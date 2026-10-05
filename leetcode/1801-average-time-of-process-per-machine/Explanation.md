@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [636. Exclusive Time of Functions](../0636-exclusive-time-of-functions/)
 - [1390. Four Divisors](../1390-average-selling-price/)
-- [2347. Best Poker Hand](../2347-count-nodes-equal-to-average-of-subtree/)
+- [1892. Page Recommendations II](../1892-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-time-of-process-per-machine/)

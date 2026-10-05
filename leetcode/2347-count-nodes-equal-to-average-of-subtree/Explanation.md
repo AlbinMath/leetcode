@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1390. Four Divisors](../1390-average-selling-price/)
 - [1801. Number of Orders in the Backlog](../1801-average-time-of-process-per-machine/)
-- [2182. Construct String With Repeat Limit](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [1877. Minimize Maximum Pair Sum in Array](../1877-find-followers-count/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)

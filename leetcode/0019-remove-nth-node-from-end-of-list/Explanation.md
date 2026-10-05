@@ -1,7 +1,7 @@
 # LeetCode 19: Remove Nth Node From End of List
 
 **LeetCode Problem #19 — Remove Nth Node From End of List**
-Solve LeetCode Remove Nth Node From End of List using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Remove Nth Node From End of List using JavaScript and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Remove Nth Node From End of List using JavaScript and Database / 
 | LeetCode | #19 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Floyd Cycle Detection |
+| Data Structure | Linked List / Array |
+| Pattern | Fast & Slow Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 Given the  head  of a linked list, remove the  n th   node from the end of the list and return its head.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Fast & Slow Pointers** with **Linked List / Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses the **Two Pointer (Fast & Slow)** technique to find the target node in a single pass.
@@ -34,24 +34,23 @@ The code uses the **Two Pointer (Fast & Slow)** technique to find the target nod
 Time complexity is $O(L)$ where $L$ is the length of the list. Space complexity is $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Linked List / Array**).
+2. Process elements sequentially using **Floyd Cycle Detection**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Remove Nth Node From End of List**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Remove Nth Node From End of List**. Applying **Floyd Cycle Detection** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Fast & Slow Pointers**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Two Pointers
+- Cycle Detection
 
 ## Language
 JavaScript
@@ -60,7 +59,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -73,8 +72,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [2216. Minimum Deletions to Make Array Beautiful](../2216-delete-the-middle-node-of-a-linked-list/)
+- [3062. Winner of the Linked List Game](../3062-create-a-dataframe-from-list/)
 - [3561. Resulting String After Adjacent Removals](../3561-remove-methods-from-project/)
-- [61. Rotate List](../0061-rotate-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)

@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [596. Classes With at Least 5 Students](../0596-classes-with-at-least-5-students/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [12. Integer to Roman](../0012-integer-to-roman/)
+- [3767. Maximize Points After Choosing K Tasks](../3767-find-students-who-improved/)
+- [3961. Maximize Sum of Device Ratings](../3961-find-students-with-study-spiral-pattern/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/students-and-examinations/)

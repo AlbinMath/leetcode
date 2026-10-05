@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
 - [1161. Maximum Level Sum of a Binary Tree](../1161-project-employees-i/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
+- [1882. Process Tasks Using Servers](../1882-the-number-of-employees-which-report-to-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-sex-of-employees/)

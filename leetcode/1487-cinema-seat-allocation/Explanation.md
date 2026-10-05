@@ -1,7 +1,7 @@
 # LeetCode 1487: Making File Names Unique
 
 **LeetCode Problem #1487 — Making File Names Unique**
-Solve LeetCode Making File Names Unique using C++ and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Making File Names Unique using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Making File Names Unique using C++ and Database / SQL. This solut
 | LeetCode | #1487 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Making File Names Unique using C++ and Database / SQL. This solut
 A cinema has  n  rows of seats, numbered from 1 to  n . Each row has 10 seats, numbered from 1 to 10.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
 The code uses **Bitmasks** for efficient seat tracking.
@@ -36,24 +36,24 @@ The code uses **Bitmasks** for efficient seat tracking.
 Time complexity is $O(R)$ where $R$ is the number of reserved seats, and space complexity is $O(R)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Dictionary / Hash Map**).
+2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Making File Names Unique**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Making File Names Unique**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Hash Map**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Hash Table
+- Array
+- Complement Lookup
 
 ## Language
 C++
@@ -62,21 +62,21 @@ C++
 - [solution.cpp](./solution.cpp)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [12. Integer to Roman](../0012-integer-to-roman/)
+- [1. Two Sum](../0001-two-sum/)
 - [13. Roman to Integer](../0013-roman-to-integer/)
+- [14. Longest Common Prefix](../0014-longest-common-prefix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cinema-seat-allocation/)

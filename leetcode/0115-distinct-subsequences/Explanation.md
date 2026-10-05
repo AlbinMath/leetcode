@@ -1,7 +1,7 @@
 # LeetCode 115: Distinct Subsequences
 
 **LeetCode Problem #115 — Distinct Subsequences**
-Solve LeetCode Distinct Subsequences using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Distinct Subsequences using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Distinct Subsequences using JavaScript and Database / SQL. This s
 | LeetCode | #115 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Memoization / Bottom-Up State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Distinct Subsequences using JavaScript and Database / SQL. This s
 Given two strings s and t, return  the number of distinct    subsequences    of  s  which equals  t.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
 The code uses **1D Dynamic Programming** with space optimization.
@@ -35,24 +35,24 @@ The code uses **1D Dynamic Programming** with space optimization.
 Time complexity is $O(M \times N)$ where $M$ and $N$ are the lengths of `s` and `t`. Space complexity is $O(N)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**DP Table / Array**).
+2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Distinct Subsequences**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Distinct Subsequences**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Dynamic Programming**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 JavaScript
@@ -61,16 +61,16 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [977. Squares of a Sorted Array](../0977-distinct-subsequences-ii/)

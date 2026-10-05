@@ -164,9 +164,9 @@
     "space": "O(1)",
     "brief": "The string  \"PAYPALISHIRING\"  is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)",
     "related_ids": [
+      3848,
       3962,
-      3964,
-      5
+      3964
     ]
   },
   {
@@ -238,21 +238,21 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization / Bottom-Up State Transition",
+    "data_structure": "DP Table / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
     ],
     "time": "O(n)",
     "space": "O(n)",
     "brief": "Given an input string  s  and a pattern  p , implement regular expression matching with support for  &#39;.&#39;  and  &#39;*&#39;  where:",
     "related_ids": [
-      12,
-      13,
-      17
+      115,
+      486,
+      977
     ]
   },
   {
@@ -296,16 +296,15 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Greedy",
+    "algorithm": "Greedy Choice Property",
+    "data_structure": "Array / Priority Queue",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Greedy",
+      "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Seven different symbols represent Roman numerals with the following values:",
     "related_ids": [
       13,
@@ -325,13 +324,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -354,14 +353,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Write a function to find the longest common prefix string amongst an array of strings.",
     "related_ids": [
       3329,
@@ -439,16 +440,15 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Search",
+    "data_structure": "Recursion Tree / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Backtracking",
+      "Recursion"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given a string containing digits from  2-9  inclusive, return all possible letter combinations that the number could represent. Return the answer in  any order .",
     "related_ids": [
       9,
@@ -497,21 +497,20 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Fast & Slow Pointers",
+    "algorithm": "Floyd Cycle Detection",
+    "data_structure": "Linked List / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Two Pointers",
+      "Cycle Detection"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  head  of a linked list, remove the  n th   node from the end of the list and return its head.",
     "related_ids": [
       2216,
-      3561,
-      61
+      3062,
+      3561
     ]
   },
   {
@@ -539,7 +538,35 @@
     "related_ids": [
       1208,
       2349,
-      193
+      22
+    ]
+  },
+  {
+    "id": 22,
+    "num_str": "0022",
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "difficulty": "Medium",
+    "folder": "0022-generate-parentheses",
+    "path": "leetcode/0022-generate-parentheses",
+    "languages": [
+      "C++"
+    ],
+    "lang_str": "C++",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given  n  pairs of parentheses, write a function to  generate all combinations of well-formed parentheses .",
+    "related_ids": [
+      20,
+      1208,
+      1298
     ]
   },
   {
@@ -611,16 +638,15 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  head  of a linked list, rotate the list to the right by  k  places.",
     "related_ids": [
       19,
@@ -640,13 +666,13 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Monotonic Stack",
+    "algorithm": "Monotonic Stack Filtering",
+    "data_structure": "Stack",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Stack",
+      "Monotonic Stack",
+      "Array"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -669,13 +695,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization / Bottom-Up State Transition",
+    "data_structure": "DP Table / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -698,13 +724,12 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Stack",
+      "String Parsing"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -885,8 +910,8 @@
     "brief": "id is the primary key (column with unique values) for this table.",
     "related_ids": [
       1256,
-      10,
-      12
+      175,
+      176
     ]
   },
   {
@@ -972,8 +997,8 @@
     "brief": "id is the primary key (column with unique values) for this table.",
     "related_ids": [
       196,
-      10,
-      12
+      3071,
+      3782
     ]
   },
   {
@@ -1114,9 +1139,9 @@
     "space": "O(1)",
     "brief": "Given a text file  file.txt  that contains a list of phone numbers (one per line), write a one-liner bash script to print all valid phone numbers.",
     "related_ids": [
+      3803,
       2,
-      17,
-      20
+      17
     ]
   },
   {
@@ -1143,7 +1168,7 @@
     "related_ids": [
       5,
       6,
-      14
+      193
     ]
   },
   {
@@ -1199,7 +1224,7 @@
     "related_ids": [
       182,
       2216,
-      10
+      3071
     ]
   },
   {
@@ -1226,9 +1251,9 @@
     "space": "O(n)",
     "brief": "+---------------+---------+",
     "related_ids": [
-      10,
-      12,
-      13
+      175,
+      176,
+      177
     ]
   },
   {
@@ -1257,7 +1282,7 @@
     "related_ids": [
       1664,
       1773,
-      10
+      4195
     ]
   },
   {
@@ -1354,21 +1379,21 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization / Bottom-Up State Transition",
+    "data_structure": "DP Table / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
     ],
     "time": "O(n)",
     "space": "O(n)",
     "brief": "You are given an integer array  nums .",
     "related_ids": [
       10,
-      12,
-      13
+      115,
+      977
     ]
   },
   {
@@ -1423,8 +1448,8 @@
     "brief": "empId is the column with unique values for this table.",
     "related_ids": [
       1509,
-      10,
-      12
+      1882,
+      1892
     ]
   },
   {
@@ -1480,9 +1505,9 @@
     "space": "O(n)",
     "brief": "pid is the primary key (column with unique values) for this table.",
     "related_ids": [
-      10,
-      12,
-      13
+      175,
+      176,
+      177
     ]
   },
   {
@@ -1538,9 +1563,9 @@
     "space": "O(n)",
     "brief": "name is the primary key (column with unique values) for this table.",
     "related_ids": [
-      10,
-      12,
-      13
+      175,
+      176,
+      177
     ]
   },
   {
@@ -1596,9 +1621,9 @@
     "space": "O(n)",
     "brief": "+---------------+---------+",
     "related_ids": [
-      10,
-      12,
-      13
+      175,
+      176,
+      177
     ]
   },
   {
@@ -1712,9 +1737,9 @@
     "space": "O(n)",
     "brief": "In SQL, (x, y, z) is the primary key column for this table.",
     "related_ids": [
-      10,
-      12,
-      13
+      175,
+      176,
+      177
     ]
   },
   {
@@ -1772,7 +1797,7 @@
     "related_ids": [
       1724,
       2813,
-      10
+      175
     ]
   },
   {
@@ -1799,9 +1824,9 @@
     "space": "O(n)",
     "brief": "id is the primary key (unique value) column for this table.",
     "related_ids": [
-      10,
-      12,
-      13
+      175,
+      176,
+      177
     ]
   },
   {
@@ -1830,7 +1855,7 @@
     "related_ids": [
       181,
       1161,
-      10
+      1882
     ]
   },
   {
@@ -1845,16 +1870,16 @@
       "Elixir"
     ],
     "lang_str": "Elixir",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an integer array  nums .",
     "related_ids": [
       1574,
@@ -1874,21 +1899,20 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Stack",
+      "String Parsing"
     ],
     "time": "O(n)",
     "space": "O(n)",
     "brief": "On a  single-threaded  CPU, we execute a program containing  n  functions. Each function has a unique ID between 0 and  n - 1 .",
     "related_ids": [
       1801,
-      2749,
-      2762
+      1892,
+      2749
     ]
   },
   {
@@ -1915,7 +1939,7 @@
     "related_ids": [
       5,
       6,
-      14
+      193
     ]
   },
   {
@@ -1942,6 +1966,8 @@
     "space": "O(n)",
     "brief": "Given an array of integers  temperatures  represents the daily temperatures, return  an array   answer   such that   answer[i]   is the number of days you have to wait after the   i th    day to get a warmer temperature . If there is no future day for which this is possible, keep  answer[i] == 0  instead.",
     "related_ids": [
+      1837,
+      84,
       1159
     ]
   },
@@ -2069,15 +2095,17 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Math & Logic",
-    "algorithm": "Mathematical Simulation / Modular Arithmetic",
-    "data_structure": "Primitive Data Types",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Math",
-      "Simulation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Alice and Bob play a game with piles of stones. There are an  even  number of piles arranged in a row, and each pile has a  positive  integer number of stones  piles[i] .",
     "related_ids": [
       1240,
@@ -2227,7 +2255,7 @@
     "related_ids": [
       1153,
       1174,
-      607
+      3898
     ]
   },
   {
@@ -2314,7 +2342,7 @@
     "related_ids": [
       1155,
       1153,
-      607
+      3898
     ]
   },
   {
@@ -2356,14 +2384,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "+--------------+---------+",
     "related_ids": [
       1179,
@@ -2383,21 +2414,19 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "There are two kinds of threads:  oxygen  and  hydrogen . Your goal is to group these threads to form water molecules.",
     "related_ids": [
       1968,
-      10,
-      12
+      5,
+      6
     ]
   },
   {
@@ -2441,16 +2470,14 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Under the grammar given below, strings can represent a set of lowercase words. Let  R(expr)  denote the set of words the expression represents.",
     "related_ids": [
       154,
@@ -2499,13 +2526,12 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Stack",
+      "String Parsing"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -2556,21 +2582,19 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You have a function  printNumber  that can be called with an integer parameter and prints it to the console.",
     "related_ids": [
+      3530,
       3995,
-      1187,
-      1203
+      1187
     ]
   },
   {
@@ -2643,13 +2667,13 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization / Bottom-Up State Transition",
+    "data_structure": "DP Table / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -2888,7 +2912,7 @@
     "related_ids": [
       7,
       20,
-      150
+      22
     ]
   },
   {
@@ -2932,21 +2956,19 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You have the four functions:",
     "related_ids": [
-      10,
-      12,
-      13
+      5,
+      6,
+      193
     ]
   },
   {
@@ -3060,7 +3082,7 @@
     "related_ids": [
       5,
       6,
-      14
+      193
     ]
   },
   {
@@ -3147,8 +3169,8 @@
     "brief": "+---------------+---------+",
     "related_ids": [
       596,
-      10,
-      12
+      3767,
+      3961
     ]
   },
   {
@@ -3262,9 +3284,9 @@
     "space": "O(n)",
     "brief": "+---------------+---------+",
     "related_ids": [
-      10,
-      12,
-      13
+      175,
+      176,
+      177
     ]
   },
   {
@@ -3279,13 +3301,14 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -3378,9 +3401,9 @@
     "space": "O(n)",
     "brief": "+---------------+---------+",
     "related_ids": [
-      10,
-      12,
-      13
+      175,
+      176,
+      177
     ]
   },
   {
@@ -3395,14 +3418,15 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
+      "Prefix Sum",
       "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given the array  nums , for each  nums[i]  find out how many numbers in the array are smaller than it. That is, for each  nums[i]  you have to count the number of valid  j&#39;s  such that  j != i   and   nums[j] < nums[i] .",
     "related_ids": [
       2,
@@ -3422,21 +3446,21 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
     "space": "O(n)",
     "brief": "A cinema has  n  rows of seats, numbered from 1 to  n . Each row has 10 seats, numbered from 1 to 10.",
     "related_ids": [
-      10,
-      12,
-      13
+      1,
+      13,
+      14
     ]
   },
   {
@@ -3451,16 +3475,15 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation / Modular Arithmetic",
+    "data_structure": "Primitive Data Types",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Math",
+      "Simulation"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given a circle represented as  (radius, xCenter, yCenter)  and an axis-aligned rectangle represented as  (x1, y1, x2, y2) , where  (x1, y1)  are the coordinates of the bottom-left corner, and  (x2, y2)  are the coordinates of the top-right corner of the rectangle.",
     "related_ids": [
       84,
@@ -3493,8 +3516,8 @@
     "brief": "+---------------+---------+",
     "related_ids": [
       577,
-      2858,
-      3799
+      1882,
+      1892
     ]
   },
   {
@@ -3509,13 +3532,13 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization / Bottom-Up State Transition",
+    "data_structure": "DP Table / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -3550,9 +3573,9 @@
     "space": "O(n)",
     "brief": "+---------------+---------+",
     "related_ids": [
-      10,
-      12,
-      13
+      175,
+      176,
+      177
     ]
   },
   {
@@ -3580,8 +3603,8 @@
     "brief": "+---------------+---------+",
     "related_ids": [
       185,
-      10,
-      12
+      175,
+      176
     ]
   },
   {
@@ -3624,21 +3647,21 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Monotonic Stack",
+    "algorithm": "Monotonic Stack Filtering",
+    "data_structure": "Stack",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Stack",
+      "Monotonic Stack",
+      "Array"
     ],
     "time": "O(n)",
     "space": "O(n)",
     "brief": "You are given an integer array  prices  where  prices[i]  is the price of the  i th   item in a shop.",
     "related_ids": [
+      2024,
       2248,
-      3408,
-      3931
+      3408
     ]
   },
   {
@@ -3738,13 +3761,13 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization / Bottom-Up State Transition",
+    "data_structure": "DP Table / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -3796,15 +3819,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Property",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Priority Queue Selection",
+    "data_structure": "Min/Max Heap",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given a string  s  of lowercase letters, you need to find the maximum number of  non-empty  substrings of  s  that meet the following conditions:",
     "related_ids": [
       2559,
@@ -3837,8 +3861,8 @@
     "brief": "+---------------+---------+",
     "related_ids": [
       3584,
-      20,
-      153
+      3782,
+      3803
     ]
   },
   {
@@ -3865,9 +3889,9 @@
     "space": "O(n)",
     "brief": "+--------------+---------+",
     "related_ids": [
-      10,
-      12,
-      13
+      3932,
+      175,
+      176
     ]
   },
   {
@@ -3882,13 +3906,12 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Prefix Sum",
+      "Array"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -3940,13 +3963,12 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Prefix Sum",
+      "Array"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -4011,7 +4033,7 @@
     "related_ids": [
       1208,
       20,
-      628
+      22
     ]
   },
   {
@@ -4156,7 +4178,7 @@
     "related_ids": [
       636,
       1390,
-      2347
+      1892
     ]
   },
   {
@@ -4184,8 +4206,37 @@
     "brief": "+----------------+---------+",
     "related_ids": [
       1301,
-      10,
-      12
+      1948,
+      175
+    ]
+  },
+  {
+    "id": 1827,
+    "num_str": "1827",
+    "title": "Minimum Operations to Make the Array Increasing",
+    "slug": "invalid-tweets",
+    "difficulty": "Easy",
+    "folder": "1827-invalid-tweets",
+    "path": "leetcode/1827-invalid-tweets",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+----------------+---------+",
+    "related_ids": [
+      3792,
+      175,
+      176
     ]
   },
   {
@@ -4213,6 +4264,64 @@
       153,
       154,
       176
+    ]
+  },
+  {
+    "id": 1837,
+    "num_str": "1837",
+    "title": "Sum of Digits in Base K",
+    "slug": "daily-leads-and-partners",
+    "difficulty": "Easy",
+    "folder": "1837-daily-leads-and-partners",
+    "path": "leetcode/1837-daily-leads-and-partners",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "There is no primary key (column with unique values) for this table. It may contain duplicates.",
+    "related_ids": [
+      739,
+      175,
+      176
+    ]
+  },
+  {
+    "id": 1877,
+    "num_str": "1877",
+    "title": "Minimize Maximum Pair Sum in Array",
+    "slug": "find-followers-count",
+    "difficulty": "Medium",
+    "folder": "1877-find-followers-count",
+    "path": "leetcode/1877-find-followers-count",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "(user_id, follower_id) is the primary key (combination of columns with unique values) for this table.",
+    "related_ids": [
+      153,
+      154,
+      448
     ]
   },
   {
@@ -4245,6 +4354,93 @@
     ]
   },
   {
+    "id": 1882,
+    "num_str": "1882",
+    "title": "Process Tasks Using Servers",
+    "slug": "the-number-of-employees-which-report-to-each-employee",
+    "difficulty": "Medium",
+    "folder": "1882-the-number-of-employees-which-report-to-each-employee",
+    "path": "leetcode/1882-the-number-of-employees-which-report-to-each-employee",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+-------------+----------+",
+    "related_ids": [
+      1892,
+      1942,
+      2495
+    ]
+  },
+  {
+    "id": 1892,
+    "num_str": "1892",
+    "title": "Page Recommendations II",
+    "slug": "find-total-time-spent-by-each-employee",
+    "difficulty": "Hard",
+    "folder": "1892-find-total-time-spent-by-each-employee",
+    "path": "leetcode/1892-find-total-time-spent-by-each-employee",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "(emp_id, event_day, in_time) is the primary key (combinations of columns with unique values) of this table.",
+    "related_ids": [
+      1573,
+      1882,
+      1942
+    ]
+  },
+  {
+    "id": 1908,
+    "num_str": "1908",
+    "title": "Game of Nim",
+    "slug": "recyclable-and-low-fat-products",
+    "difficulty": "Medium",
+    "folder": "1908-recyclable-and-low-fat-products",
+    "path": "leetcode/1908-recyclable-and-low-fat-products",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "product_id is the primary key (column with unique values) for this table.",
+    "related_ids": [
+      1135,
+      1462,
+      1625
+    ]
+  },
+  {
     "id": 1934,
     "num_str": "1934",
     "title": "Confirmation Rate",
@@ -4271,6 +4467,64 @@
       150,
       812,
       2349
+    ]
+  },
+  {
+    "id": 1942,
+    "num_str": "1942",
+    "title": "The Number of the Smallest Unoccupied Chair",
+    "slug": "primary-department-for-each-employee",
+    "difficulty": "Medium",
+    "folder": "1942-primary-department-for-each-employee",
+    "path": "leetcode/1942-primary-department-for-each-employee",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+---------------+---------+",
+    "related_ids": [
+      1882,
+      1892,
+      184
+    ]
+  },
+  {
+    "id": 1948,
+    "num_str": "1948",
+    "title": "Delete Duplicate Folders in System",
+    "slug": "rearrange-products-table",
+    "difficulty": "Hard",
+    "folder": "1948-rearrange-products-table",
+    "path": "leetcode/1948-rearrange-products-table",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "product_id is the primary key (column with unique values) for this table.",
+    "related_ids": [
+      1135,
+      1301,
+      1462
     ]
   },
   {
@@ -4314,16 +4568,16 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "It is a sweltering summer day, and a boy wants to buy some ice cream bars.",
     "related_ids": [
       628,
@@ -4343,16 +4597,14 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You want to build  n  new buildings in a city. The new buildings will be built in a line and are labeled from  1  to  n .",
     "related_ids": [
       628,
@@ -4372,21 +4624,19 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an  m x n  matrix of characters  boxGrid  representing a side-view of a box. Each cell of the box is one of the following:",
     "related_ids": [
       2043,
-      10,
-      12
+      5,
+      6
     ]
   },
   {
@@ -4401,16 +4651,15 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Sliding Window",
-    "algorithm": "Dynamic Sliding Window Traversal",
-    "data_structure": "Array / Hash Set",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
-      "Sliding Window",
-      "Two Pointers",
-      "Subarrays"
+      "Prefix Sum",
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a  0-indexed  binary string  s  and two integers  minJump  and  maxJump . In the beginning, you are standing at index  0 , which is equal to  &#39;0&#39; . You can move from index  i  to index  j  if the following conditions are fulfilled:",
     "related_ids": [
       1428,
@@ -4430,6 +4679,34 @@
       "Java"
     ],
     "lang_str": "Java",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
+    "topics": [
+      "Prefix Sum",
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Alice and Bob take turns playing a game, with  Alice starting first .",
+    "related_ids": [
+      909,
+      1240,
+      1522
+    ]
+  },
+  {
+    "id": 2024,
+    "num_str": "2024",
+    "title": "Maximize the Confusion of an Exam",
+    "slug": "calculate-special-bonus",
+    "difficulty": "Medium",
+    "folder": "2024-calculate-special-bonus",
+    "path": "leetcode/2024-calculate-special-bonus",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
     "pattern": "Database / SQL",
     "algorithm": "SQL Query / Relational Join & Grouping",
     "data_structure": "Relational Table",
@@ -4440,11 +4717,11 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "brief": "Alice and Bob take turns playing a game, with  Alice starting first .",
+    "brief": "employee_id is the primary key (column with unique values) for this table.",
     "related_ids": [
-      909,
-      1240,
-      1522
+      577,
+      1570,
+      3408
     ]
   },
   {
@@ -4475,6 +4752,35 @@
     ]
   },
   {
+    "id": 2041,
+    "num_str": "2041",
+    "title": "Accepted Candidates From the Interviews",
+    "slug": "the-latest-login-in-2020",
+    "difficulty": "Medium",
+    "folder": "2041-the-latest-login-in-2020",
+    "path": "leetcode/2041-the-latest-login-in-2020",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+----------------+----------+",
+    "related_ids": [
+      175,
+      176,
+      177
+    ]
+  },
+  {
     "id": 2043,
     "num_str": "2043",
     "title": "Simple Bank System",
@@ -4502,6 +4808,35 @@
       1386,
       1972,
       2914
+    ]
+  },
+  {
+    "id": 2057,
+    "num_str": "2057",
+    "title": "Smallest Index With Equal Value",
+    "slug": "count-salary-categories",
+    "difficulty": "Easy",
+    "folder": "2057-count-salary-categories",
+    "path": "leetcode/2057-count-salary-categories",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "account_id is the primary key (column with unique values) for this table.",
+    "related_ids": [
+      176,
+      177,
+      184
     ]
   },
   {
@@ -4543,14 +4878,17 @@
       "Kotlin"
     ],
     "lang_str": "Kotlin",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an array of strings  patterns  and a string  word , return  the  number  of strings in   patterns   that exist as a  substring  in   word .",
     "related_ids": [
       1460,
@@ -4586,6 +4924,64 @@
     ]
   },
   {
+    "id": 2110,
+    "num_str": "2110",
+    "title": "Number of Smooth Descent Periods of a Stock",
+    "slug": "employees-with-missing-information",
+    "difficulty": "Medium",
+    "folder": "2110-employees-with-missing-information",
+    "path": "leetcode/2110-employees-with-missing-information",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "employee_id is the column with unique values for this table.",
+    "related_ids": [
+      181,
+      627,
+      1161
+    ]
+  },
+  {
+    "id": 2127,
+    "num_str": "2127",
+    "title": "Maximum Employees to Be Invited to a Meeting",
+    "slug": "employees-whose-manager-left-the-company",
+    "difficulty": "Hard",
+    "folder": "2127-employees-whose-manager-left-the-company",
+    "path": "leetcode/2127-employees-whose-manager-left-the-company",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+-------------+----------+",
+    "related_ids": [
+      181,
+      627,
+      1161
+    ]
+  },
+  {
     "id": 2156,
     "num_str": "2156",
     "title": "Find Substring With Given Hash Value",
@@ -4597,13 +4993,14 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -4682,16 +5079,15 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Fast & Slow Pointers",
+    "algorithm": "Floyd Cycle Detection",
+    "data_structure": "Linked List / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Two Pointers",
+      "Cycle Detection"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given the  head  of a linked list.  Delete  the  middle node , and return  the   head   of the modified linked list .",
     "related_ids": [
       19,
@@ -4711,13 +5107,12 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Two Pointers",
-    "algorithm": "Two Pointer Convergence / Scanning",
-    "data_structure": "Array",
+    "pattern": "Fast & Slow Pointers",
+    "algorithm": "Floyd Cycle Detection",
+    "data_structure": "Linked List / Array",
     "topics": [
       "Two Pointers",
-      "Array",
-      "Sorting"
+      "Cycle Detection"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -4740,21 +5135,19 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an integer  mass , which represents the original mass of a planet. You are further given an integer array  asteroids , where  asteroids[i]  is the mass of the  i th   asteroid.",
     "related_ids": [
-      10,
-      12,
-      13
+      5,
+      6,
+      193
     ]
   },
   {
@@ -4838,9 +5231,9 @@
     "space": "O(n)",
     "brief": "You are given a 2D integer array  descriptions  where  descriptions[i] = [parent i , child i , isLeft i ]  indicates that  parent i   is the  parent  of  child i   in a  binary  tree of  unique  values. Furthermore,",
     "related_ids": [
+      3062,
       19,
-      608,
-      2212
+      608
     ]
   },
   {
@@ -4898,7 +5291,7 @@
     "related_ids": [
       1390,
       1801,
-      2182
+      1877
     ]
   },
   {
@@ -4913,6 +5306,34 @@
       "C++"
     ],
     "lang_str": "C++",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "A parentheses string is a  non-empty  string consisting only of  &#39;(&#39;  and  &#39;)&#39; . It is  valid  if  any  of the following conditions is  true :",
+    "related_ids": [
+      20,
+      1208,
+      1878
+    ]
+  },
+  {
+    "id": 2495,
+    "num_str": "2495",
+    "title": "Number of Subarrays Having Even Product",
+    "slug": "number-of-unique-subjects-taught-by-each-teacher",
+    "difficulty": "Medium",
+    "folder": "2495-number-of-unique-subjects-taught-by-each-teacher",
+    "path": "leetcode/2495-number-of-unique-subjects-taught-by-each-teacher",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
     "pattern": "Database / SQL",
     "algorithm": "SQL Query / Relational Join & Grouping",
     "data_structure": "Relational Table",
@@ -4923,11 +5344,11 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "brief": "A parentheses string is a  non-empty  string consisting only of  &#39;(&#39;  and  &#39;)&#39; . It is  valid  if  any  of the following conditions is  true :",
+    "brief": "(subject_id, dept_id) is the primary key (combinations of columns with unique values) of this table.",
     "related_ids": [
-      20,
-      1208,
-      1878
+      1882,
+      3820,
+      3824
     ]
   },
   {
@@ -4942,16 +5363,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence / Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given a string  s  and a  positive  integer  k .",
     "related_ids": [
       1644,
@@ -4971,13 +5392,14 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -5057,14 +5479,15 @@
       "Kotlin"
     ],
     "lang_str": "Kotlin",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
+      "Prefix Sum",
       "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a  0-indexed  integer array  nums  of size  n .",
     "related_ids": [
       1,
@@ -5084,21 +5507,19 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given a function  fn , return a  memoized  version of that function.",
     "related_ids": [
       2744,
-      10,
-      12
+      5,
+      6
     ]
   },
   {
@@ -5152,7 +5573,7 @@
     "related_ids": [
       5,
       6,
-      14
+      193
     ]
   },
   {
@@ -5221,21 +5642,19 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Write code that enhances all arrays such that you can call the  array.groupBy(fn)  method on any array and it will return a  grouped  version of the array.",
     "related_ids": [
       1625,
-      10,
-      12
+      5,
+      6
     ]
   },
   {
@@ -5458,7 +5877,7 @@
     "related_ids": [
       5,
       6,
-      14
+      193
     ]
   },
   {
@@ -5568,9 +5987,9 @@
     "space": "O(1)",
     "brief": "Write a generator function that returns a generator object which yields the  fibonacci sequence .",
     "related_ids": [
+      22,
       3584,
-      5,
-      6
+      5
     ]
   },
   {
@@ -5693,13 +6112,14 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -5749,21 +6169,19 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Design an  EventEmitter  class. This interface is similar (but with some differences) to the one found in Node.js or the Event Target interface of the DOM. The  EventEmitter  should allow for subscribing to events and emitting them.",
     "related_ids": [
-      10,
-      12,
-      13
+      5,
+      6,
+      193
     ]
   },
   {
@@ -5888,14 +6306,17 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Write a function  createHelloWorld . It should return a new function that always returns  \"Hello World\" .",
     "related_ids": [
       396,
@@ -5942,14 +6363,16 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Write a function  argumentsLength  that returns the count of arguments passed to it.",
     "related_ids": [
       3225,
@@ -5969,13 +6392,13 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization / Bottom-Up State Transition",
+    "data_structure": "DP Table / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -6066,7 +6489,7 @@
     "related_ids": [
       5,
       6,
-      14
+      193
     ]
   },
   {
@@ -6081,15 +6504,16 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Property",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Priority Queue Selection",
+    "data_structure": "Min/Max Heap",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given a function  fn , an array of arguments  args , and an interval time  t , return a cancel function  cancelFn .",
     "related_ids": [
       1644
@@ -6118,9 +6542,9 @@
     "space": "O(1)",
     "brief": "Design a  Calculator  class. The class should provide the mathematical operations of addition, subtraction, multiplication, division, and exponentiation. It should also allow consecutive operations to be performed using method chaining. The  Calculator  class constructor should accept a number which serves as the initial value of  result .",
     "related_ids": [
+      3063,
       7,
-      48,
-      396
+      48
     ]
   },
   {
@@ -6189,13 +6613,14 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -6204,6 +6629,412 @@
       3558,
       3986,
       153
+    ]
+  },
+  {
+    "id": 3062,
+    "num_str": "3062",
+    "title": "Winner of the Linked List Game",
+    "slug": "create-a-dataframe-from-list",
+    "difficulty": "Easy",
+    "folder": "3062-create-a-dataframe-from-list",
+    "path": "leetcode/3062-create-a-dataframe-from-list",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a solution to  create  a DataFrame from a 2D list called  student_data . This 2D list contains the IDs and ages of some students.",
+    "related_ids": [
+      19,
+      2306,
+      61
+    ]
+  },
+  {
+    "id": 3063,
+    "num_str": "3063",
+    "title": "Linked List Frequency",
+    "slug": "method-chaining",
+    "difficulty": "Easy",
+    "folder": "3063-method-chaining",
+    "path": "leetcode/3063-method-chaining",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a solution to list the names of animals that weigh  strictly more than   100  kilograms.",
+    "related_ids": [
+      2863,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 3064,
+    "num_str": "3064",
+    "title": "Guess the Number Using Bitwise Questions I",
+    "slug": "reshape-data-concatenate",
+    "difficulty": "Medium",
+    "folder": "3064-reshape-data-concatenate",
+    "path": "leetcode/3064-reshape-data-concatenate",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Write a solution to concatenate these two DataFrames  vertically  into one DataFrame.",
+    "related_ids": [
+      3072,
+      3073,
+      3069
+    ]
+  },
+  {
+    "id": 3065,
+    "num_str": "3065",
+    "title": "Minimum Operations to Exceed Threshold Value I",
+    "slug": "display-the-first-three-rows",
+    "difficulty": "Easy",
+    "folder": "3065-display-the-first-three-rows",
+    "path": "leetcode/3065-display-the-first-three-rows",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a solution to display the  first  3   rows   of this DataFrame.",
+    "related_ids": [
+      185,
+      628,
+      1136
+    ]
+  },
+  {
+    "id": 3066,
+    "num_str": "3066",
+    "title": "Minimum Operations to Exceed Threshold Value II",
+    "slug": "create-a-new-column",
+    "difficulty": "Medium",
+    "folder": "3066-create-a-new-column",
+    "path": "leetcode/3066-create-a-new-column",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "A company plans to provide its employees with a bonus.",
+    "related_ids": [
+      2306,
+      2809,
+      3062
+    ]
+  },
+  {
+    "id": 3067,
+    "num_str": "3067",
+    "title": "Count Pairs of Connectable Servers in a Weighted Tree Network",
+    "slug": "modify-columns",
+    "difficulty": "Medium",
+    "folder": "3067-modify-columns",
+    "path": "leetcode/3067-modify-columns",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "A company intends to give its employees a pay rise.",
+    "related_ids": [
+      3068,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 3068,
+    "num_str": "3068",
+    "title": "Find the Maximum Sum of Node Values",
+    "slug": "rename-columns",
+    "difficulty": "Hard",
+    "folder": "3068-rename-columns",
+    "path": "leetcode/3068-rename-columns",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a solution to rename the columns as follows:",
+    "related_ids": [
+      3067,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 3069,
+    "num_str": "3069",
+    "title": "Distribute Elements Into Two Arrays I",
+    "slug": "change-data-type",
+    "difficulty": "Easy",
+    "folder": "3069-change-data-type",
+    "path": "leetcode/3069-change-data-type",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a solution to correct the errors:",
+    "related_ids": [
+      3064,
+      3070,
+      3072
+    ]
+  },
+  {
+    "id": 3070,
+    "num_str": "3070",
+    "title": "Count Submatrices with Top-Left Element and Sum Less Than k",
+    "slug": "fill-missing-data",
+    "difficulty": "Medium",
+    "folder": "3070-fill-missing-data",
+    "path": "leetcode/3070-fill-missing-data",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a solution to fill in the missing value as   0   in the  quantity  column.",
+    "related_ids": [
+      3075,
+      2110,
+      3064
+    ]
+  },
+  {
+    "id": 3071,
+    "num_str": "3071",
+    "title": "Minimum Operations to Write the Letter Y on a Grid",
+    "slug": "drop-duplicate-rows",
+    "difficulty": "Medium",
+    "folder": "3071-drop-duplicate-rows",
+    "path": "leetcode/3071-drop-duplicate-rows",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There are some duplicate rows in the DataFrame based on the  email  column.",
+    "related_ids": [
+      182,
+      196,
+      3065
+    ]
+  },
+  {
+    "id": 3072,
+    "num_str": "3072",
+    "title": "Distribute Elements Into Two Arrays II",
+    "slug": "reshape-data-pivot",
+    "difficulty": "Hard",
+    "folder": "3072-reshape-data-pivot",
+    "path": "leetcode/3072-reshape-data-pivot",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a solution to  pivot  the data so that each row represents temperatures for a specific month, and each city is a separate column.",
+    "related_ids": [
+      3064,
+      3073,
+      2265
+    ]
+  },
+  {
+    "id": 3073,
+    "num_str": "3073",
+    "title": "Maximum Increasing Triplet Value",
+    "slug": "reshape-data-melt",
+    "difficulty": "Medium",
+    "folder": "3073-reshape-data-melt",
+    "path": "leetcode/3073-reshape-data-melt",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a solution to  reshape  the data so that each row represents sales data for a product in a specific quarter.",
+    "related_ids": [
+      3064,
+      3072,
+      3069
+    ]
+  },
+  {
+    "id": 3074,
+    "num_str": "3074",
+    "title": "Apple Redistribution into Boxes",
+    "slug": "select-data",
+    "difficulty": "Easy",
+    "folder": "3074-select-data",
+    "path": "leetcode/3074-select-data",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a solution to select the name and age of the student with  student_id = 101 .",
+    "related_ids": [
+      3064,
+      3069,
+      3070
+    ]
+  },
+  {
+    "id": 3075,
+    "num_str": "3075",
+    "title": "Maximize Happiness of Selected Children",
+    "slug": "drop-missing-data",
+    "difficulty": "Medium",
+    "folder": "3075-drop-missing-data",
+    "path": "leetcode/3075-drop-missing-data",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There are some rows having missing values in the  name  column.",
+    "related_ids": [
+      3070,
+      2110,
+      3064
+    ]
+  },
+  {
+    "id": 3076,
+    "num_str": "3076",
+    "title": "Shortest Uncommon Substring in an Array",
+    "slug": "get-the-size-of-a-dataframe",
+    "difficulty": "Medium",
+    "folder": "3076-get-the-size-of-a-dataframe",
+    "path": "leetcode/3076-get-the-size-of-a-dataframe",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a solution to calculate and display the  number of rows and columns  of  players .",
+    "related_ids": [
+      3062,
+      5,
+      6
     ]
   },
   {
@@ -6245,14 +7076,16 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a  0-indexed  array of  positive  integers  nums  and a  positive  integer  limit .",
     "related_ids": [
       1574,
@@ -6357,16 +7190,14 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given a string  word  containing lowercase English letters.",
     "related_ids": [
       3275,
@@ -6386,16 +7217,14 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an array of  positive  integers  nums .",
     "related_ids": [
       2182,
@@ -6500,11 +7329,12 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Search",
+    "data_structure": "Recursion Tree / Array",
     "topics": [
-      "Array"
+      "Backtracking",
+      "Recursion"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -6527,13 +7357,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -6583,6 +7413,33 @@
       "Python"
     ],
     "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There exists an infinite number line, with its origin at 0 and extending towards the  positive  x-axis.",
+    "related_ids": [
+      1338,
+      3376,
+      3583
+    ]
+  },
+  {
+    "id": 3530,
+    "num_str": "3530",
+    "title": "Maximum Profit from Valid Topological Order in DAG",
+    "slug": "odd-and-even-transactions",
+    "difficulty": "Hard",
+    "folder": "3530-odd-and-even-transactions",
+    "path": "leetcode/3530-odd-and-even-transactions",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
     "pattern": "Database / SQL",
     "algorithm": "SQL Query / Relational Join & Grouping",
     "data_structure": "Relational Table",
@@ -6593,11 +7450,11 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "brief": "There exists an infinite number line, with its origin at 0 and extending towards the  positive  x-axis.",
+    "brief": "+------------------+------+",
     "related_ids": [
-      1338,
-      3376,
-      3583
+      1216,
+      3995,
+      1317
     ]
   },
   {
@@ -6642,13 +7499,14 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -6671,16 +7529,15 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Greedy",
+    "algorithm": "Greedy Choice Property",
+    "data_structure": "Array / Priority Queue",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Greedy",
+      "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given a 2D integer array  intervals , where  intervals[i] = [l i , r i , weight i ] . Interval  i  starts at position  l i   and ends at  r i  , and has a weight of  weight i  . You can choose  up to  4  non-overlapping  intervals. The  score  of the chosen intervals is defined as the total sum of their weights.",
     "related_ids": [
       1644,
@@ -6700,13 +7557,13 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization / Bottom-Up State Transition",
+    "data_structure": "DP Table / Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -6813,15 +7670,17 @@
       "Ruby"
     ],
     "lang_str": "Ruby",
-    "pattern": "Math & Logic",
-    "algorithm": "Mathematical Simulation / Modular Arithmetic",
-    "data_structure": "Primitive Data Types",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Math",
-      "Simulation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given two integers  n  and  t . Return the  smallest  number greater than or equal to  n  such that the  product of its digits  is divisible by  t .",
     "related_ids": [
       3635,
@@ -6886,6 +7745,93 @@
     ]
   },
   {
+    "id": 3767,
+    "num_str": "3767",
+    "title": "Maximize Points After Choosing K Tasks",
+    "slug": "find-students-who-improved",
+    "difficulty": "Medium",
+    "folder": "3767-find-students-who-improved",
+    "path": "leetcode/3767-find-students-who-improved",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "(student_id, subject, exam_date) is the primary key for this table.",
+    "related_ids": [
+      3942,
+      3961,
+      153
+    ]
+  },
+  {
+    "id": 3782,
+    "num_str": "3782",
+    "title": "Last Remaining Integer After Alternating Deletion Operations",
+    "slug": "find-valid-emails",
+    "difficulty": "Hard",
+    "folder": "3782-find-valid-emails",
+    "path": "leetcode/3782-find-valid-emails",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+-----------------+---------+",
+    "related_ids": [
+      1664,
+      3584,
+      3803
+    ]
+  },
+  {
+    "id": 3792,
+    "num_str": "3792",
+    "title": "Sum of Increasing Product Blocks",
+    "slug": "find-invalid-ip-addresses",
+    "difficulty": "Medium",
+    "folder": "3792-find-invalid-ip-addresses",
+    "path": "leetcode/3792-find-invalid-ip-addresses",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "log_id is the unique key for this table.",
+    "related_ids": [
+      153,
+      154,
+      448
+    ]
+  },
+  {
     "id": 3799,
     "num_str": "3799",
     "title": "Word Squares II",
@@ -6911,6 +7857,35 @@
       2,
       180,
       193
+    ]
+  },
+  {
+    "id": 3803,
+    "num_str": "3803",
+    "title": "Count Residue Prefixes",
+    "slug": "find-products-with-valid-serial-numbers",
+    "difficulty": "Easy",
+    "folder": "3803-find-products-with-valid-serial-numbers",
+    "path": "leetcode/3803-find-products-with-valid-serial-numbers",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+--------------+------------+",
+    "related_ids": [
+      193,
+      448,
+      1664
     ]
   },
   {
@@ -6952,14 +7927,17 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a binary string  s  of length  n , where:",
     "related_ids": [
       3804,
@@ -7036,6 +8014,36 @@
       "PHP"
     ],
     "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given a   palindromic   string  s  and an integer  k .",
+    "related_ids": [
+      3812,
+      3635,
+      4037
+    ]
+  },
+  {
+    "id": 3816,
+    "num_str": "3816",
+    "title": "Lexicographically Smallest String After Deleting Duplicate Characters",
+    "slug": "dna-pattern-recognition-",
+    "difficulty": "Hard",
+    "folder": "3816-dna-pattern-recognition-",
+    "path": "leetcode/3816-dna-pattern-recognition-",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
     "pattern": "Array / General",
     "algorithm": "Iterative Traversal",
     "data_structure": "Array",
@@ -7044,11 +8052,11 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "brief": "You are given a   palindromic   string  s  and an integer  k .",
+    "brief": "+----------------+---------+",
     "related_ids": [
-      3812,
-      3635,
-      4037
+      3848,
+      3961,
+      5
     ]
   },
   {
@@ -7063,21 +8071,22 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
     "brief": "You are given an integer array  nums .",
     "related_ids": [
       3824,
-      3276,
-      3842
+      2495,
+      3276
     ]
   },
   {
@@ -7092,21 +8101,49 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
     "brief": "You are given an integer array  nums  of length  n , where  nums  is a   permutation   of the numbers in the range  [1, n] .",
     "related_ids": [
       3820,
-      3275,
-      3408
+      2495,
+      3275
+    ]
+  },
+  {
+    "id": 3828,
+    "num_str": "3828",
+    "title": "Final Element After Subarray Deletions",
+    "slug": "analyze-organization-hierarchy",
+    "difficulty": "Medium",
+    "folder": "3828-analyze-organization-hierarchy",
+    "path": "leetcode/3828-analyze-organization-hierarchy",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "+----------------+---------+",
+    "related_ids": [
+      3848,
+      5,
+      6
     ]
   },
   {
@@ -7121,16 +8158,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an array of  positive  integers  nums , and a  positive  integer  k .",
     "related_ids": [
       3840,
@@ -7150,13 +8187,14 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -7179,16 +8217,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an array of  positive  integers  nums  and a  positive  integer  k . You are also given a 2D array  queries , where  queries[i] = [index i , value i , start i , x i ] .",
     "related_ids": [
       3831,
@@ -7208,13 +8246,14 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -7237,13 +8276,14 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -7252,6 +8292,33 @@
       3842,
       3275,
       3408
+    ]
+  },
+  {
+    "id": 3848,
+    "num_str": "3848",
+    "title": "Check Digitorial Permutation",
+    "slug": "analyze-subscription-conversion-",
+    "difficulty": "Medium",
+    "folder": "3848-analyze-subscription-conversion-",
+    "path": "leetcode/3848-analyze-subscription-conversion-",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "+------------------+---------+",
+    "related_ids": [
+      6,
+      3816,
+      3828
     ]
   },
   {
@@ -7266,13 +8333,14 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -7309,6 +8377,33 @@
       1574,
       628,
       1208
+    ]
+  },
+  {
+    "id": 3865,
+    "num_str": "3865",
+    "title": "Reverse K Subarrays",
+    "slug": "find-product-recommendation-pairs",
+    "difficulty": "Medium",
+    "folder": "3865-find-product-recommendation-pairs",
+    "path": "leetcode/3865-find-product-recommendation-pairs",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "(user_id, product_id) is the unique key for this table.",
+    "related_ids": [
+      3891,
+      153,
+      154
     ]
   },
   {
@@ -7351,19 +8446,100 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
     "space": "O(n)",
     "brief": "You are given an  m x n  grid  classroom  where a student volunteer is tasked with cleaning up litter scattered around the room. Each cell in the grid is one of the following:",
     "related_ids": [
       1793,
+      153,
+      154
+    ]
+  },
+  {
+    "id": 3891,
+    "num_str": "3891",
+    "title": "Minimum Increase to Maximize Special Indices",
+    "slug": "find-category-recommendation-pairs",
+    "difficulty": "Medium",
+    "folder": "3891-find-category-recommendation-pairs",
+    "path": "leetcode/3891-find-category-recommendation-pairs",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "(user_id, product_id) is the unique identifier for this table.",
+    "related_ids": [
+      3865,
+      153,
+      154
+    ]
+  },
+  {
+    "id": 3898,
+    "num_str": "3898",
+    "title": "Find the Degree of Each Vertex",
+    "slug": "seasonal-sales-analysis",
+    "difficulty": "Easy",
+    "folder": "3898-seasonal-sales-analysis",
+    "path": "leetcode/3898-seasonal-sales-analysis",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "+---------------+---------+",
+    "related_ids": [
+      1153,
+      1155,
+      1174
+    ]
+  },
+  {
+    "id": 3910,
+    "num_str": "3910",
+    "title": "Count Connected Subgraphs with Even Node Sum",
+    "slug": "find-books-with-no-available-copies",
+    "difficulty": "Hard",
+    "folder": "3910-find-books-with-no-available-copies",
+    "path": "leetcode/3910-find-books-with-no-available-copies",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "+------------------+---------+",
+    "related_ids": [
+      3996,
       153,
       154
     ]
@@ -7408,21 +8584,49 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
     "brief": "You are given a directed acyclic graph of  n \u202fnodes numbered from 0\u202fto\u202f n\u202f&minus;\u202f1 . This is represented by a 2D array  edges  of length   m  , where  edges[i] = [u i , v i , cost i ]  indicates a one\u2011way communication from node\u202f u i   to node\u202f v i   with a recovery cost of\u202f cost i  .",
     "related_ids": [
-      10,
-      12,
-      13
+      3932,
+      909,
+      1182
+    ]
+  },
+  {
+    "id": 3921,
+    "num_str": "3921",
+    "title": "Score Validator",
+    "slug": "find-consistently-improving-employees",
+    "difficulty": "Easy",
+    "folder": "3921-find-consistently-improving-employees",
+    "path": "leetcode/3921-find-consistently-improving-employees",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "employee_id is the unique identifier for this table.",
+    "related_ids": [
+      3943,
+      153,
+      154
     ]
   },
   {
@@ -7437,6 +8641,36 @@
       "Java"
     ],
     "lang_str": "Java",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given a string  s  consisting of lowercase English letters and the special characters:  * ,  # , and  % .",
+    "related_ids": [
+      3939,
+      3408,
+      812
+    ]
+  },
+  {
+    "id": 3932,
+    "num_str": "3932",
+    "title": "Count K-th Roots in a Range",
+    "slug": "find-covid-recovery-patients",
+    "difficulty": "Medium",
+    "folder": "3932-find-covid-recovery-patients",
+    "path": "leetcode/3932-find-covid-recovery-patients",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
     "pattern": "Array / General",
     "algorithm": "Iterative Traversal",
     "data_structure": "Array",
@@ -7445,11 +8679,11 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "brief": "You are given a string  s  consisting of lowercase English letters and the special characters:  * ,  # , and  % .",
+    "brief": "patient_id is the unique identifier for this table.",
     "related_ids": [
-      3939,
-      3408,
-      812
+      153,
+      154,
+      448
     ]
   },
   {
@@ -7510,6 +8744,89 @@
     ]
   },
   {
+    "id": 3942,
+    "num_str": "3942",
+    "title": "Minimum Operations to Sort a Permutation",
+    "slug": "find-drivers-with-improved-fuel-efficiency",
+    "difficulty": "Medium",
+    "folder": "3942-find-drivers-with-improved-fuel-efficiency",
+    "path": "leetcode/3942-find-drivers-with-improved-fuel-efficiency",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "driver_id is the unique identifier for this table.",
+    "related_ids": [
+      3767,
+      153,
+      154
+    ]
+  },
+  {
+    "id": 3943,
+    "num_str": "3943",
+    "title": "Number of Pairs After Increment",
+    "slug": "find-overbooked-employees",
+    "difficulty": "Hard",
+    "folder": "3943-find-overbooked-employees",
+    "path": "leetcode/3943-find-overbooked-employees",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "+---------------+---------+",
+    "related_ids": [
+      3921,
+      153,
+      154
+    ]
+  },
+  {
+    "id": 3961,
+    "num_str": "3961",
+    "title": "Maximize Sum of Device Ratings",
+    "slug": "find-students-with-study-spiral-pattern",
+    "difficulty": "Medium",
+    "folder": "3961-find-students-with-study-spiral-pattern",
+    "path": "leetcode/3961-find-students-with-study-spiral-pattern",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+--------------+---------+",
+    "related_ids": [
+      3767,
+      153,
+      154
+    ]
+  },
+  {
     "id": 3962,
     "num_str": "3962",
     "title": "Maximum Subarray Sum After at Most K Swaps",
@@ -7521,14 +8838,16 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given three integers  n ,  l , and  r .",
     "related_ids": [
       3964,
@@ -7548,14 +8867,17 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given three integers  n ,  l , and  r .",
     "related_ids": [
       3962,
@@ -7618,6 +8940,35 @@
     ]
   },
   {
+    "id": 3971,
+    "num_str": "3971",
+    "title": "Maximum Total Value",
+    "slug": "find-stores-with-inventory-imbalance",
+    "difficulty": "Hard",
+    "folder": "3971-find-stores-with-inventory-imbalance",
+    "path": "leetcode/3971-find-stores-with-inventory-imbalance",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "store_id is the unique identifier for this table.",
+    "related_ids": [
+      153,
+      154,
+      448
+    ]
+  },
+  {
     "id": 3981,
     "num_str": "3981",
     "title": "Count Distinct Ways to Form Target from Two Strings",
@@ -7629,16 +8980,14 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an integer array  nums .",
     "related_ids": [
       1428,
@@ -7658,13 +9007,14 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -7698,8 +9048,37 @@
     "brief": "You are given an integer  n . Your task is to compute the  GCD  (greatest common divisor) of two values:",
     "related_ids": [
       1216,
-      3583,
-      3608
+      3530,
+      3583
+    ]
+  },
+  {
+    "id": 3996,
+    "num_str": "3996",
+    "title": "Even Number of Knight Moves",
+    "slug": "find-books-with-polarized-opinions",
+    "difficulty": "Easy",
+    "folder": "3996-find-books-with-polarized-opinions",
+    "path": "leetcode/3996-find-books-with-polarized-opinions",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "book_id is the unique ID for this table.",
+    "related_ids": [
+      3910,
+      153,
+      154
     ]
   },
   {
@@ -7714,11 +9093,13 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Array"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -7741,16 +9122,14 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an integer array  nums  of length  n  and an integer  k .",
     "related_ids": [
       4005,
@@ -7770,11 +9149,12 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Search",
+    "data_structure": "Recursion Tree / Array",
     "topics": [
-      "Array"
+      "Backtracking",
+      "Recursion"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -7783,6 +9163,35 @@
       4037,
       3236,
       3150
+    ]
+  },
+  {
+    "id": 4025,
+    "num_str": "4025",
+    "title": "Minimize the Maximum Waiting Time at Synchronized Traffic Lights",
+    "slug": "find-loyal-customers",
+    "difficulty": "Medium",
+    "folder": "4025-find-loyal-customers",
+    "path": "leetcode/4025-find-loyal-customers",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Table:  customer_transactions",
+    "related_ids": [
+      4091,
+      4103,
+      153
     ]
   },
   {
@@ -7826,11 +9235,12 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Search",
+    "data_structure": "Recursion Tree / Array",
     "topics": [
-      "Array"
+      "Backtracking",
+      "Recursion"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -7839,6 +9249,35 @@
       4020,
       3236,
       3150
+    ]
+  },
+  {
+    "id": 4043,
+    "num_str": "4043",
+    "title": "Count Rotations With Exactly K Equal Adjacent Pairs",
+    "slug": "find-zombie-sessions",
+    "difficulty": "Easy",
+    "folder": "4043-find-zombie-sessions",
+    "path": "leetcode/4043-find-zombie-sessions",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+------------------+----------+",
+    "related_ids": [
+      153,
+      154,
+      448
     ]
   },
   {
@@ -7934,21 +9373,73 @@
       "C#"
     ],
     "lang_str": "C#",
-    "pattern": "Database / SQL",
-    "algorithm": "SQL Query / Relational Join & Grouping",
-    "data_structure": "Relational Table",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
     "topics": [
-      "Database",
-      "SQL",
-      "Data Aggregation"
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given an integer array  nums  and an integer  k , return the  smallest positive multiple  of  k  that is  missing  from  nums .",
     "related_ids": [
       3236,
       1159,
       1725
+    ]
+  },
+  {
+    "id": 4091,
+    "num_str": "4091",
+    "title": "Find Golden Hour Customers",
+    "slug": "find-golden-hour-customers",
+    "difficulty": "Medium",
+    "folder": "4091-find-golden-hour-customers",
+    "path": "leetcode/4091-find-golden-hour-customers",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "+------------------+----------+",
+    "related_ids": [
+      4025,
+      4103,
+      153
+    ]
+  },
+  {
+    "id": 4103,
+    "num_str": "4103",
+    "title": "Find Churn Risk Customers",
+    "slug": "find-churn-risk-customers",
+    "difficulty": "Medium",
+    "folder": "4103-find-churn-risk-customers",
+    "path": "leetcode/4103-find-churn-risk-customers",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "Iterative Traversal",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Table:  subscription_events",
+    "related_ids": [
+      4025,
+      4091,
+      153
     ]
   },
   {
@@ -8045,6 +9536,34 @@
       "Java"
     ],
     "lang_str": "Java",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation / Modular Arithmetic",
+    "data_structure": "Primitive Data Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a string  s  of length  m  consisting of digits. You are also given a 2D integer array  queries , where  queries[i] = [l i , r i ] .",
+    "related_ids": [
+      4135,
+      1573,
+      4033
+    ]
+  },
+  {
+    "id": 4169,
+    "num_str": "4169",
+    "title": "Most Common Course Pairs",
+    "slug": "most-common-course-pairs",
+    "difficulty": "Hard",
+    "folder": "4169-most-common-course-pairs",
+    "path": "leetcode/4169-most-common-course-pairs",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
     "pattern": "Database / SQL",
     "algorithm": "SQL Query / Relational Join & Grouping",
     "data_structure": "Relational Table",
@@ -8055,11 +9574,69 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "brief": "You are given a string  s  of length  m  consisting of digits. You are also given a 2D integer array  queries , where  queries[i] = [l i , r i ] .",
+    "brief": "Table:  course_completions",
     "related_ids": [
-      4135,
-      1573,
-      4033
+      11,
+      14,
+      602
+    ]
+  },
+  {
+    "id": 4195,
+    "num_str": "4195",
+    "title": "Find Users with High Token Usage",
+    "slug": "find-users-with-high-token-usage",
+    "difficulty": "Easy",
+    "folder": "4195-find-users-with-high-token-usage",
+    "path": "leetcode/4195-find-users-with-high-token-usage",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "(user_id, prompt) is the primary key (unique value) for this table.",
+    "related_ids": [
+      1664,
+      4208,
+      4227
+    ]
+  },
+  {
+    "id": 4208,
+    "num_str": "4208",
+    "title": "Find Emotionally Consistent Users",
+    "slug": "find-emotionally-consistent-users",
+    "difficulty": "Medium",
+    "folder": "4208-find-emotionally-consistent-users",
+    "path": "leetcode/4208-find-emotionally-consistent-users",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+--------------+---------+",
+    "related_ids": [
+      1664,
+      4195,
+      4227
     ]
   },
   {
@@ -8089,6 +9666,35 @@
       192,
       2099,
       3275
+    ]
+  },
+  {
+    "id": 4227,
+    "num_str": "4227",
+    "title": "Find Users with Persistent Behavior Patterns",
+    "slug": "find-users-with-persistent-behavior-patterns",
+    "difficulty": "Hard",
+    "folder": "4227-find-users-with-persistent-behavior-patterns",
+    "path": "leetcode/4227-find-users-with-persistent-behavior-patterns",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Grouping",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+--------------+---------+",
+    "related_ids": [
+      1664,
+      4195,
+      4208
     ]
   },
   {
@@ -8130,19 +9736,22 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer  n .",
     "related_ids": [
       4248,
-      2347,
-      2793
+      1877,
+      2057
     ]
   },
   {
@@ -8184,11 +9793,13 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Array"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -8238,14 +9849,17 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer array  nums  of length  n  and an integer  k .",
     "related_ids": [
       4285,

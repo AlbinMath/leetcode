@@ -6,4 +6,4 @@ A collection of LeetCode problems implemented in **Elixir** with detailed comple
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Easy | Database / SQL | O(n) | O(n) |
+| 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Easy | Binary Search | O(n) | O(1) |

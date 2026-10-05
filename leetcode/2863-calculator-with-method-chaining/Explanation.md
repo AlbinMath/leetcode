@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3063. Linked List Frequency](../3063-method-chaining/)
 - [7. Reverse Integer](../0007-reverse-integer/)
 - [48. Rotate Image](../0048-rotate-image/)
-- [396. Rotate Function](../0396-rotate-function/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculator-with-method-chaining/)

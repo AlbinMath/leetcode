@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1664. Ways to Make a Fair Array](../1664-find-users-with-valid-e-mails/)
 - [1773. Count Items Matching a Rule](../1773-percentage-of-users-attended-a-contest/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
+- [4195. Find Users with High Token Usage](../4195-find-users-with-high-token-usage/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/trips-and-users/)

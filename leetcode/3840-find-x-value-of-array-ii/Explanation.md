@@ -1,7 +1,7 @@
 # LeetCode 3840: House Robber V
 
 **LeetCode Problem #3840 — House Robber V**
-Solve LeetCode House Robber V using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode House Robber V using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode House Robber V using JavaScript and Database / SQL. This solution
 | LeetCode | #3840 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 You are given an array of  positive  integers  nums  and a  positive  integer  k . You are also given a 2D array  queries , where  queries[i] = [index i , value i , start i , x i ] .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 Because updates are persistent and there can be many queries, calculating the answers iteratively would be too slow. The code uses a **Segment Tree** to answer queries and handle updates efficiently.
@@ -43,24 +43,24 @@ Because updates are persistent and there can be many queries, calculating the an
 5. For each query, it performs the update, calls the query function, and pushes the count for the requested remainder `x` into the `result` array.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **House Robber V**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **House Robber V**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Binary Search**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 JavaScript
@@ -69,16 +69,16 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [3831. Median of a Binary Search Tree Level](../3831-find-x-value-of-array-i/)

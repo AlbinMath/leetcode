@@ -1,7 +1,7 @@
 # LeetCode 2559: Count Vowel Strings in Ranges
 
 **LeetCode Problem #2559 — Count Vowel Strings in Ranges**
-Solve LeetCode Count Vowel Strings in Ranges using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Count Vowel Strings in Ranges using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,40 @@ Solve LeetCode Count Vowel Strings in Ranges using JavaScript and Database / SQL
 | LeetCode | #2559 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Two Pointer Convergence / Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 You are given a string  s  and a  positive  integer  k .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 Uses **DP** combined with palindrome detection (expand-around-center or Manacher's). For each position, compute `dp[i]` = max non-overlapping palindromes in `s[0..i-1]`. When a palindrome of length ≥ k ending at position i is found, update dp accordingly.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Vowel Strings in Ranges**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Count Vowel Strings in Ranges**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Two Pointers**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 JavaScript
@@ -52,16 +52,16 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [1644. Lowest Common Ancestor of a Binary Tree II](../1644-maximum-number-of-non-overlapping-substrings/)

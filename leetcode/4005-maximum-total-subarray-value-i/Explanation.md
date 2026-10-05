@@ -1,7 +1,7 @@
 # LeetCode 4005: Minimum Operations to Make Array Equal III
 
 **LeetCode Problem #4005 — Minimum Operations to Make Array Equal III**
-Solve LeetCode Minimum Operations to Make Array Equal III using Java and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+Solve LeetCode Minimum Operations to Make Array Equal III using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Minimum Operations to Make Array Equal III using Java and Array /
 | LeetCode | #4005 |
 | Difficulty | Hard |
 | Language | Java |
-| Algorithm | Iterative Traversal |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,30 @@ Solve LeetCode Minimum Operations to Make Array Equal III using Java and Array /
 You are given an integer array  nums  of length  n  and an integer  k .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Operations to Make Array Equal III**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Minimum Operations to Make Array Equal III**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Binary Search**
 
 ## Topics
-- Array
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 Java
@@ -50,16 +52,16 @@ Java
 - [solution.java](./solution.java)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [4007. Widest Possible Fence](../4007-maximum-total-subarray-value-ii/)

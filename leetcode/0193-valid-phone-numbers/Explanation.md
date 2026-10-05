@@ -66,9 +66,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3803. Count Residue Prefixes](../3803-find-products-with-valid-serial-numbers/)
 - [2. Add Two Numbers](../0002-add-two-numbers/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [20. Valid Parentheses](../0020-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-phone-numbers/)

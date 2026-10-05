@@ -1,7 +1,7 @@
 # LeetCode 17: Letter Combinations of a Phone Number
 
 **LeetCode Problem #17 — Letter Combinations of a Phone Number**
-Solve LeetCode Letter Combinations of a Phone Number using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Letter Combinations of a Phone Number using JavaScript and Backtracking. This solution finds the optimal result using Backtracking Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Letter Combinations of a Phone Number using JavaScript and Databa
 | LeetCode | #17 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Backtracking Search |
+| Data Structure | Recursion Tree / Array |
+| Pattern | Backtracking |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 Given a string containing digits from  2-9  inclusive, return all possible letter combinations that the number could represent. Return the answer in  any order .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Backtracking** with **Recursion Tree / Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses **Backtracking** to explore all possible letter combinations.
@@ -35,24 +35,23 @@ The code uses **Backtracking** to explore all possible letter combinations.
 Since each digit maps to at most 4 letters, the time complexity is $O(4^N)$ where $N$ is the number of digits, and space complexity is $O(N)$ for the recursion stack.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Recursion Tree / Array**).
+2. Process elements sequentially using **Backtracking Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Letter Combinations of a Phone Number**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Letter Combinations of a Phone Number**. Applying **Backtracking Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Backtracking**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Backtracking
+- Recursion
 
 ## Language
 JavaScript
@@ -61,7 +60,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

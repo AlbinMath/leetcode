@@ -1,7 +1,7 @@
 # LeetCode 1725: Number Of Rectangles That Can Form The Largest Square
 
 **LeetCode Problem #1725 — Number Of Rectangles That Can Form The Largest Square**
-Solve LeetCode Number Of Rectangles That Can Form The Largest Square using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Number Of Rectangles That Can Form The Largest Square using JavaScript and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Number Of Rectangles That Can Form The Largest Square using JavaS
 | LeetCode | #1725 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Number Of Rectangles That Can Form The Largest Square using JavaS
 Given  n  points on a 1-D plane, where the  i th   point (from  0  to  n-1 ) is at  x = i , find the number of ways we can draw  exactly   k   non-overlapping  line segments such that each segment covers two or more points. The endpoints of each segment must have  integral coordinates . The  k  line segments  do not  have to cover all  n  points, and they are  allowed  to share endpoints.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses an optimized **DP with prefix sums**.
@@ -32,24 +32,23 @@ The code uses an optimized **DP with prefix sums**.
 Time complexity is $O(N \times K)$ and space complexity is $O(K)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Prefix Array**).
+2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Number Of Rectangles That Can Form The Largest Square**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Number Of Rectangles That Can Form The Largest Square**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Prefix Sum**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Prefix Sum
+- Array
 
 ## Language
 JavaScript
@@ -58,7 +57,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

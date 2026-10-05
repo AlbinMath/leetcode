@@ -1,7 +1,7 @@
 # LeetCode 2793: Status of Flight Tickets
 
 **LeetCode Problem #2793 — Status of Flight Tickets**
-Solve LeetCode Status of Flight Tickets using Java and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Status of Flight Tickets using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Status of Flight Tickets using Java and Database / SQL. This solu
 | LeetCode | #2793 |
 | Difficulty | Hard |
 | Language | Java |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,30 +20,31 @@ Solve LeetCode Status of Flight Tickets using Java and Database / SQL. This solu
 You are given an integer  n . There is an  undirected  graph with  n  vertices, numbered from  0  to  n - 1 . You are given a 2D integer array  edges  where  edges[i] = [a i , b i ]  denotes that there exists an  undirected  edge connecting vertices  a i   and  b i  .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 Use **BFS/DFS or Union-Find** to find connected components. For each component with `v` vertices and `e` edges, it's complete if `e == v*(v-1)/2`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Status of Flight Tickets**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Status of Flight Tickets**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Tree & Graph**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Java
@@ -52,7 +53,7 @@ Java
 - [solution.java](./solution.java)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

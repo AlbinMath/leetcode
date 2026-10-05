@@ -1,7 +1,7 @@
 # LeetCode 150: Evaluate Reverse Polish Notation
 
 **LeetCode Problem #150 — Evaluate Reverse Polish Notation**
-Solve LeetCode Evaluate Reverse Polish Notation using TypeScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Evaluate Reverse Polish Notation using TypeScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Evaluate Reverse Polish Notation using TypeScript and Database / 
 | LeetCode | #150 |
 | Difficulty | Medium |
 | Language | TypeScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Evaluate Reverse Polish Notation using TypeScript and Database / 
 You are given an array of strings  tokens  that represents an arithmetic expression in a  Reverse Polish Notation .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a **Stack** to evaluate the RPN expression.
@@ -33,24 +33,23 @@ The code uses a **Stack** to evaluate the RPN expression.
 Time complexity is $O(N)$ where $N$ is the number of tokens, and space complexity is $O(N)$ for the stack.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Stack**).
+2. Process elements sequentially using **Stack Push / Pop Parsing**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Evaluate Reverse Polish Notation**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Evaluate Reverse Polish Notation**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Stack & Queue**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Stack
+- String Parsing
 
 ## Language
 TypeScript
@@ -59,7 +58,7 @@ TypeScript
 - [solution.ts](./solution.ts)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

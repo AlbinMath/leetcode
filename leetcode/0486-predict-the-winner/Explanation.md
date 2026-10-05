@@ -1,7 +1,7 @@
 # LeetCode 486: Predict the Winner
 
 **LeetCode Problem #486 — Predict the Winner**
-Solve LeetCode Predict the Winner using C++ and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Predict the Winner using C++ and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Predict the Winner using C++ and Database / SQL. This solution fi
 | LeetCode | #486 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Memoization / Bottom-Up State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Predict the Winner using C++ and Database / SQL. This solution fi
 You are given an integer array  nums .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
 The code uses **Interval DP** where `dp[i][j]` represents the maximum score advantage the current player can achieve from the subarray `nums[i..j]`.
@@ -34,24 +34,24 @@ The code uses **Interval DP** where `dp[i][j]` represents the maximum score adva
 Time complexity is $O(N^2)$ and space complexity is $O(N^2)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**DP Table / Array**).
+2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Predict the Winner**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Predict the Winner**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Dynamic Programming**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 C++
@@ -60,21 +60,21 @@ C++
 - [solution.cpp](./solution.cpp)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [12. Integer to Roman](../0012-integer-to-roman/)
-- [13. Roman to Integer](../0013-roman-to-integer/)
+- [115. Distinct Subsequences](../0115-distinct-subsequences/)
+- [977. Squares of a Sorted Array](../0977-distinct-subsequences-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/predict-the-winner/)

@@ -67,7 +67,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1208. Get Equal Substrings Within Budget](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 - [20. Valid Parentheses](../0020-valid-parentheses/)
-- [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
+- [22. Generate Parentheses](../0022-generate-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)

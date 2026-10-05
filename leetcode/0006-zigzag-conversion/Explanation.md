@@ -71,9 +71,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3848. Check Digitorial Permutation](../3848-analyze-subscription-conversion-/)
 - [3962. Maximum Subarray Sum After at Most K Swaps](../3962-number-of-zigzag-arrays-i/)
 - [3964. Minimum Lights to Illuminate a Road](../3964-number-of-zigzag-arrays-ii/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/zigzag-conversion/)

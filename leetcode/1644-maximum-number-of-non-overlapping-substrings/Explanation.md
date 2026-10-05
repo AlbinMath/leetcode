@@ -1,7 +1,7 @@
 # LeetCode 1644: Lowest Common Ancestor of a Binary Tree II
 
 **LeetCode Problem #1644 — Lowest Common Ancestor of a Binary Tree II**
-Solve LeetCode Lowest Common Ancestor of a Binary Tree II using JavaScript and Greedy. This solution finds the optimal result using Greedy Choice Property in O(n) time.
+Solve LeetCode Lowest Common Ancestor of a Binary Tree II using JavaScript and Heap. This solution finds the optimal result using Priority Queue Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Lowest Common Ancestor of a Binary Tree II using JavaScript and G
 | LeetCode | #1644 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Greedy Choice Property |
-| Data Structure | Array / Priority Queue |
-| Pattern | Greedy |
+| Algorithm | Priority Queue Selection |
+| Data Structure | Min/Max Heap |
+| Pattern | Heap |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 Given a string  s  of lowercase letters, you need to find the maximum number of  non-empty  substrings of  s  that meet the following conditions:
 
 ## Key Insight
-Leverage **Greedy** with **Array / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Min/Max Heap** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a **Greedy** approach. It first finds the leftmost and rightmost occurrence of each character. Then for each potential starting character, it expands the substring to include all occurrences of all characters within it. Finally, it greedily selects non-overlapping substrings by preferring shorter ones that end earliest.
@@ -28,22 +28,23 @@ The code uses a **Greedy** approach. It first finds the leftmost and rightmost o
 Time complexity is $O(N \times |\Sigma|)$ and space complexity is $O(|\Sigma|)$ where $|\Sigma|$ is the alphabet size.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array / Priority Queue**).
-2. Process elements sequentially using **Greedy Choice Property**.
+1. Initialize state variables / data structure (**Min/Max Heap**).
+2. Process elements sequentially using **Priority Queue Selection**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Lowest Common Ancestor of a Binary Tree II**. Applying **Greedy Choice Property** yields the target result step by step.
+Consider the standard input for **Lowest Common Ancestor of a Binary Tree II**. Applying **Priority Queue Selection** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Greedy**
+**Heap**
 
 ## Topics
-- Greedy
+- Heap
+- Priority Queue
 - Sorting
 
 ## Language
@@ -53,7 +54,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Greedy**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

@@ -71,7 +71,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 - [6. Zigzag Conversion](../0006-zigzag-conversion/)
-- [14. Longest Common Prefix](../0014-longest-common-prefix/)
+- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-dining-philosophers/)

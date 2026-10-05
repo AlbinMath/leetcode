@@ -1,7 +1,7 @@
 # LeetCode 1216: Valid Palindrome III
 
 **LeetCode Problem #1216 — Valid Palindrome III**
-Solve LeetCode Valid Palindrome III using Java and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Valid Palindrome III using Java and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Valid Palindrome III using Java and Database / SQL. This solution
 | LeetCode | #1216 |
 | Difficulty | Hard |
 | Language | Java |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Iterative Traversal |
+| Data Structure | Array |
+| Pattern | Array / General |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 You have a function  printNumber  that can be called with an integer parameter and prints it to the console.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses three **Semaphores** for synchronization.
@@ -33,24 +33,22 @@ The code uses three **Semaphores** for synchronization.
 This creates the pattern: zero→odd→zero→even→zero→odd→... producing `"010203..."`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Iterative Traversal**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Valid Palindrome III**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Valid Palindrome III**. Applying **Iterative Traversal** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Array / General**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Array
 
 ## Language
 Java
@@ -59,7 +57,7 @@ Java
 - [solution.java](./solution.java)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -71,9 +69,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3530. Maximum Profit from Valid Topological Order in DAG](../3530-odd-and-even-transactions/)
 - [3995. Minimum Cost to Convert String III](../3995-gcd-of-odd-and-even-sums/)
 - [1187. Make Array Strictly Increasing](../1187-print-foobar-alternately/)
-- [1203. Sort Items by Groups Respecting Dependencies](../1203-print-in-order/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-zero-even-odd/)

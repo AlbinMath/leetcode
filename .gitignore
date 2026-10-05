@@ -1,7 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
+
 
 # C/C++ compilation outputs & objects
 *.o
@@ -22,5 +21,4 @@ Thumbs.db
 
 # Node dependencies
 node_modules/
-npm-debug.log*
-scripts/
+npm-debug.log*

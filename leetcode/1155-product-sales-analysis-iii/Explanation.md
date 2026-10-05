@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1153. String Transforms Into Another String](../1153-product-sales-analysis-i/)
 - [1174. Immediate Food Delivery II](../1174-sales-analysis-iii/)
-- [607. Sales Person](../0607-sales-person/)
+- [3898. Find the Degree of Each Vertex](../3898-seasonal-sales-analysis/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/product-sales-analysis-iii/)

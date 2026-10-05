@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [577. Employee Bonus](../0577-employee-bonus/)
-- [2858. Minimum Edge Reversals So Every Node Is Reachable](../2858-join-two-arrays-by-id/)
-- [3799. Word Squares II](../3799-unique-3-digit-even-numbers/)
+- [1882. Process Tasks Using Servers](../1882-the-number-of-employees-which-report-to-each-employee/)
+- [1892. Page Recommendations II](../1892-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)

@@ -1,8 +1,22 @@
-# Heap / Priority Queue LeetCode Problems
+# Heap LeetCode Problems
 
-A curated index of LeetCode problems solved using **Heap / Priority Queue**.
+A collection of LeetCode problems solved using **Heap** pattern techniques, explanations, and complexity analysis.
 
-## Solved Problems
+## Problems
 
-| # | Problem | Difficulty | Language | Time | Space |
+### Easy
+
+*No problems logged yet under this difficulty level.*
+
+### Medium
+
+| # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 1644 | [Lowest Common Ancestor of a Binary Tree II](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1644-maximum-number-of-non-overlapping-substrings/Explanation.md) |
+
+### Hard
+
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 2862 | [Maximum Element-Sum of a Complete Subset of Indices](../leetcode/2862-interval-cancellation/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2862-interval-cancellation/Explanation.md) |
+

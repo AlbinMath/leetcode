@@ -1,7 +1,7 @@
 # LeetCode 4080: Smallest Missing Multiple of K
 
 **LeetCode Problem #4080 — Smallest Missing Multiple of K**
-Solve LeetCode Smallest Missing Multiple of K using C# and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Smallest Missing Multiple of K using C# and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Smallest Missing Multiple of K using C# and Database / SQL. This 
 | LeetCode | #4080 |
 | Difficulty | Easy |
 | Language | C# |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Iterative Traversal |
+| Data Structure | Array |
+| Pattern | Array / General |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 Given an integer array  nums  and an integer  k , return the  smallest positive multiple  of  k  that is  missing  from  nums .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a `HashSet` to efficiently check for the presence of numbers in $O(1)$ time.
@@ -34,24 +34,22 @@ The code uses a `HashSet` to efficiently check for the presence of numbers in $O
 This approach is highly efficient. Converting the array to a HashSet takes $O(N)$ time (where $N$ is the number of elements in `nums`), and the while loop takes at most $O(N)$ steps because there can be at most $N$ multiples of $k$ present in the array. Therefore, the overall time complexity is $O(N)$ and the space complexity is $O(N)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Iterative Traversal**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Smallest Missing Multiple of K**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Smallest Missing Multiple of K**. Applying **Iterative Traversal** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Array / General**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Array
 
 ## Language
 C#
@@ -60,7 +58,7 @@ C#
 - [solution.cs](./solution.cs)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

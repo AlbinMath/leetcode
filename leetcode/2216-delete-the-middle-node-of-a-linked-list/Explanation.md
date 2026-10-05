@@ -1,7 +1,7 @@
 # LeetCode 2216: Minimum Deletions to Make Array Beautiful
 
 **LeetCode Problem #2216 — Minimum Deletions to Make Array Beautiful**
-Solve LeetCode Minimum Deletions to Make Array Beautiful using Java and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Minimum Deletions to Make Array Beautiful using Java and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,39 @@ Solve LeetCode Minimum Deletions to Make Array Beautiful using Java and Database
 | LeetCode | #2216 |
 | Difficulty | Medium |
 | Language | Java |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Floyd Cycle Detection |
+| Data Structure | Linked List / Array |
+| Pattern | Fast & Slow Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 You are given the  head  of a linked list.  Delete  the  middle node , and return  the   head   of the modified linked list .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Fast & Slow Pointers** with **Linked List / Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 Use **fast and slow pointers**. Fast moves 2 steps while slow moves 1. When fast reaches the end, slow is just before the middle. Delete the middle by setting `slow.next = slow.next.next`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Linked List / Array**).
+2. Process elements sequentially using **Floyd Cycle Detection**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Deletions to Make Array Beautiful**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Minimum Deletions to Make Array Beautiful**. Applying **Floyd Cycle Detection** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Fast & Slow Pointers**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Two Pointers
+- Cycle Detection
 
 ## Language
 Java
@@ -52,7 +51,7 @@ Java
 - [solution.java](./solution.java)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1216. Valid Palindrome III](../1216-print-zero-even-odd/)
+- [3530. Maximum Profit from Valid Topological Order in DAG](../3530-odd-and-even-transactions/)
 - [3583. Count Special Triplets](../3583-sorted-gcd-pair-queries/)
-- [3608. Minimum Time for K Connected Components](../3608-find-the-number-of-subsequences-with-equal-gcd/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/gcd-of-odd-and-even-sums/)

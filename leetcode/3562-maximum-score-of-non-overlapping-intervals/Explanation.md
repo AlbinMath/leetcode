@@ -1,7 +1,7 @@
 # LeetCode 3562: Maximum Profit from Trading Stocks with Discounts
 
 **LeetCode Problem #3562 — Maximum Profit from Trading Stocks with Discounts**
-Solve LeetCode Maximum Profit from Trading Stocks with Discounts using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Maximum Profit from Trading Stocks with Discounts using JavaScript and Greedy. This solution finds the optimal result using Greedy Choice Property in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,39 @@ Solve LeetCode Maximum Profit from Trading Stocks with Discounts using JavaScrip
 | LeetCode | #3562 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Greedy Choice Property |
+| Data Structure | Array / Priority Queue |
+| Pattern | Greedy |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 You are given a 2D integer array  intervals , where  intervals[i] = [l i , r i , weight i ] . Interval  i  starts at position  l i   and ends at  r i  , and has a weight of  weight i  . You can choose  up to  4  non-overlapping  intervals. The  score  of the chosen intervals is defined as the total sum of their weights.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Greedy** with **Array / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Array / Priority Queue**).
+2. Process elements sequentially using **Greedy Choice Property**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Maximum Profit from Trading Stocks with Discounts**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Maximum Profit from Trading Stocks with Discounts**. Applying **Greedy Choice Property** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Greedy**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Greedy
+- Sorting
 
 ## Language
 JavaScript
@@ -52,7 +51,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Greedy**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

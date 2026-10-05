@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1256. Encode Number](../1256-rank-transform-of-an-array/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [12. Integer to Roman](../0012-integer-to-roman/)
+- [175. Combine Two Tables](../0175-combine-two-tables/)
+- [176. Second Highest Salary](../0176-second-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-scores/)

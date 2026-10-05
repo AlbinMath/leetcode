@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [196. Delete Duplicate Emails](../0196-delete-duplicate-emails/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [12. Integer to Roman](../0012-integer-to-roman/)
+- [3071. Minimum Operations to Write the Letter Y on a Grid](../3071-drop-duplicate-rows/)
+- [3782. Last Remaining Integer After Alternating Deletion Operations](../3782-find-valid-emails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/duplicate-emails/)

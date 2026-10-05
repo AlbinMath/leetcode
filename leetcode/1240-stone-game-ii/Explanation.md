@@ -1,7 +1,7 @@
 # LeetCode 1240: Tiling a Rectangle with the Fewest Squares
 
 **LeetCode Problem #1240 — Tiling a Rectangle with the Fewest Squares**
-Solve LeetCode Tiling a Rectangle with the Fewest Squares using C++ and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Tiling a Rectangle with the Fewest Squares using C++ and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Tiling a Rectangle with the Fewest Squares using C++ and Database
 | LeetCode | #1240 |
 | Difficulty | Hard |
 | Language | C++ |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Memoization / Bottom-Up State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Tiling a Rectangle with the Fewest Squares using C++ and Database
 Alice and Bob continue their games with piles of stones. There are a number of piles  arranged in a row , and each pile has a positive integer number of stones  piles[i] . The objective of the game is to end with the most stones.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
 The code uses **Bottom-Up DP** with a suffix sum optimization.
@@ -36,24 +36,24 @@ The code uses **Bottom-Up DP** with a suffix sum optimization.
 Time complexity is $O(N^3)$ and space complexity is $O(N^2)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**DP Table / Array**).
+2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Tiling a Rectangle with the Fewest Squares**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Tiling a Rectangle with the Fewest Squares**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Dynamic Programming**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 C++
@@ -62,16 +62,16 @@ C++
 - [solution.cpp](./solution.cpp)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [909. Snakes and Ladders](../0909-stone-game/)

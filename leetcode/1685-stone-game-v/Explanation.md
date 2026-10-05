@@ -1,7 +1,7 @@
 # LeetCode 1685: Sum of Absolute Differences in a Sorted Array
 
 **LeetCode Problem #1685 — Sum of Absolute Differences in a Sorted Array**
-Solve LeetCode Sum of Absolute Differences in a Sorted Array using Java and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Sum of Absolute Differences in a Sorted Array using Java and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Sum of Absolute Differences in a Sorted Array using Java and Data
 | LeetCode | #1685 |
 | Difficulty | Medium |
 | Language | Java |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Sum of Absolute Differences in a Sorted Array using Java and Data
 There are several stones  arranged in a row , and each stone has an associated value which is an integer given in the array  stoneValue .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses **Interval DP** where `dp[left][right]` = maximum score from the subarray `[left, right]`.
@@ -36,24 +36,23 @@ The code uses **Interval DP** where `dp[left][right]` = maximum score from the s
 Time complexity is $O(N^3)$ and space complexity is $O(N^2)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Prefix Array**).
+2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Sum of Absolute Differences in a Sorted Array**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Sum of Absolute Differences in a Sorted Array**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Prefix Sum**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Prefix Sum
+- Array
 
 ## Language
 Java
@@ -62,7 +61,7 @@ Java
 - [solution.java](./solution.java)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

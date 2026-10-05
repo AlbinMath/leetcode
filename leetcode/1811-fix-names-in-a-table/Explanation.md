@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1301. Number of Paths with Max Score](../1301-reformat-department-table/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [12. Integer to Roman](../0012-integer-to-roman/)
+- [1948. Delete Duplicate Folders in System](../1948-rearrange-products-table/)
+- [175. Combine Two Tables](../0175-combine-two-tables/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fix-names-in-a-table/)

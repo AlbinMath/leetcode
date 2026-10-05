@@ -73,7 +73,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [7. Reverse Integer](../0007-reverse-integer/)
 - [20. Valid Parentheses](../0020-valid-parentheses/)
-- [150. Evaluate Reverse Polish Notation](../0150-evaluate-reverse-polish-notation/)
+- [22. Generate Parentheses](../0022-generate-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)

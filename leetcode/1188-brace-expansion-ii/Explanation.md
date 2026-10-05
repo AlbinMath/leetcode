@@ -1,7 +1,7 @@
 # LeetCode 1188: Design Bounded Blocking Queue
 
 **LeetCode Problem #1188 — Design Bounded Blocking Queue**
-Solve LeetCode Design Bounded Blocking Queue using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Design Bounded Blocking Queue using JavaScript and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Design Bounded Blocking Queue using JavaScript and Database / SQL
 | LeetCode | #1188 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Iterative Traversal |
+| Data Structure | Array |
+| Pattern | Array / General |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 Under the grammar given below, strings can represent a set of lowercase words. Let  R(expr)  denote the set of words the expression represents.
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The solution implements a **Recursive Descent Parser** with three main functions to process the expression string according to the grammar.
@@ -32,24 +32,22 @@ The solution implements a **Recursive Descent Parser** with three main functions
 4. The main function starts by calling `parseExpression()`, converts the resulting Set to an Array, sorts it lexicographically as required, and returns it.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Iterative Traversal**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Design Bounded Blocking Queue**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Design Bounded Blocking Queue**. Applying **Iterative Traversal** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Database / SQL**
+**Array / General**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Array
 
 ## Language
 JavaScript
@@ -58,7 +56,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

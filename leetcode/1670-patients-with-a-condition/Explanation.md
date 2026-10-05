@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [12. Integer to Roman](../0012-integer-to-roman/)
-- [13. Roman to Integer](../0013-roman-to-integer/)
+- [3932. Count K-th Roots in a Range](../3932-find-covid-recovery-patients/)
+- [175. Combine Two Tables](../0175-combine-two-tables/)
+- [176. Second Highest Salary](../0176-second-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/patients-with-a-condition/)

@@ -1,7 +1,7 @@
 # LeetCode 1460: Make Two Arrays Equal by Reversing Subarrays
 
 **LeetCode Problem #1460 — Make Two Arrays Equal by Reversing Subarrays**
-Solve LeetCode Make Two Arrays Equal by Reversing Subarrays using Java and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Make Two Arrays Equal by Reversing Subarrays using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Make Two Arrays Equal by Reversing Subarrays using Java and Datab
 | LeetCode | #1460 |
 | Difficulty | Easy |
 | Language | Java |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Make Two Arrays Equal by Reversing Subarrays using Java and Datab
 Given a string  s  consisting only of characters  a ,  b  and  c .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a clever **counting approach** based on tracking the last occurrence of each character.
@@ -34,24 +34,25 @@ The code uses a clever **counting approach** based on tracking the last occurren
 Time complexity is $O(N)$ and space complexity is $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Make Two Arrays Equal by Reversing Subarrays**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Make Two Arrays Equal by Reversing Subarrays**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Tree & Graph**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Java
@@ -60,7 +61,7 @@ Java
 - [solution.java](./solution.java)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

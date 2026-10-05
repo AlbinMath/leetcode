@@ -72,6 +72,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
+- [1837. Sum of Digits in Base K](../1837-daily-leads-and-partners/)
+- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
 - [1159. Market Analysis II](../1159-smallest-subsequence-of-distinct-characters/)
 
 ## LeetCode

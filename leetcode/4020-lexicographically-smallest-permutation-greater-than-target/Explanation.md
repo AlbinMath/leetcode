@@ -1,7 +1,7 @@
 # LeetCode 4020: Elevator Requests I
 
 **LeetCode Problem #4020 — Elevator Requests I**
-Solve LeetCode Elevator Requests I using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+Solve LeetCode Elevator Requests I using C++ and Backtracking. This solution finds the optimal result using Backtracking Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Elevator Requests I using C++ and Array / General. This solution 
 | LeetCode | #4020 |
 | Difficulty | Easy |
 | Language | C++ |
-| Algorithm | Iterative Traversal |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Backtracking Search |
+| Data Structure | Recursion Tree / Array |
+| Pattern | Backtracking |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Elevator Requests I using C++ and Array / General. This solution 
 You are given two strings  s  and  target , both having length  n , consisting of lowercase English letters.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Backtracking** with **Recursion Tree / Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+1. Initialize state variables / data structure (**Recursion Tree / Array**).
+2. Process elements sequentially using **Backtracking Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Elevator Requests I**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Elevator Requests I**. Applying **Backtracking Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Backtracking**
 
 ## Topics
-- Array
+- Backtracking
+- Recursion
 
 ## Language
 C++
@@ -50,7 +51,7 @@ C++
 - [solution.cpp](./solution.cpp)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

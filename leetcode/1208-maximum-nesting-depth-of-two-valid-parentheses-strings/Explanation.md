@@ -1,7 +1,7 @@
 # LeetCode 1208: Get Equal Substrings Within Budget
 
 **LeetCode Problem #1208 — Get Equal Substrings Within Budget**
-Solve LeetCode Get Equal Substrings Within Budget using C++ and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Get Equal Substrings Within Budget using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Get Equal Substrings Within Budget using C++ and Database / SQL. 
 | LeetCode | #1208 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,30 +20,29 @@ Solve LeetCode Get Equal Substrings Within Budget using C++ and Database / SQL. 
 A string is a  valid parentheses string  (denoted VPS) if and only if it consists of  "("  and  ")"  characters only, and:
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Stack Push / Pop Traversal**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Stack**).
+2. Process elements sequentially using **Stack Push / Pop Parsing**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Get Equal Substrings Within Budget**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Get Equal Substrings Within Budget**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Stack & Queue**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Stack
+- String Parsing
 
 ## Language
 C++
@@ -52,7 +51,7 @@ C++
 - [solution.cpp](./solution.cpp)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [22. Generate Parentheses](../0022-generate-parentheses/)
 - [3584. Maximum Product of First and Last Elements of a Subsequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/)

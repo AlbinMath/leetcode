@@ -1,7 +1,7 @@
 # LeetCode 84: Largest Rectangle in Histogram
 
 **LeetCode Problem #84 — Largest Rectangle in Histogram**
-Solve LeetCode Largest Rectangle in Histogram using TypeScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
+Solve LeetCode Largest Rectangle in Histogram using TypeScript and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Largest Rectangle in Histogram using TypeScript and Database / SQ
 | LeetCode | #84 |
 | Difficulty | Hard |
 | Language | TypeScript |
-| Algorithm | SQL Query / Relational Join & Grouping |
-| Data Structure | Relational Table |
-| Pattern | Database / SQL |
+| Algorithm | Monotonic Stack Filtering |
+| Data Structure | Stack |
+| Pattern | Monotonic Stack |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Largest Rectangle in Histogram using TypeScript and Database / SQ
 Given an array of integers  heights  representing the histogram&#39;s bar height where the width of each bar is  1 , return  the area of the largest rectangle in the histogram .
 
 ## Key Insight
-Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
 
 ## Approach
 The code uses a **Monotonic Stack** to efficiently compute the largest rectangle in $O(N)$ time.
@@ -36,24 +36,24 @@ The code uses a **Monotonic Stack** to efficiently compute the largest rectangle
 The stack ensures each bar is pushed and popped at most once, giving $O(N)$ time complexity and $O(N)$ space complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+1. Initialize state variables / data structure (**Stack**).
+2. Process elements sequentially using **Monotonic Stack Filtering**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Largest Rectangle in Histogram**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+Consider the standard input for **Largest Rectangle in Histogram**. Applying **Monotonic Stack Filtering** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Database / SQL**
+**Monotonic Stack**
 
 ## Topics
-- Database
-- SQL
-- Data Aggregation
+- Stack
+- Monotonic Stack
+- Array
 
 ## Language
 TypeScript
@@ -62,16 +62,16 @@ TypeScript
 - [solution.ts](./solution.ts)
 
 ## Why This Works
-By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Pushing elements instead of indices when index distance is required.
+2. Using strict inequality (`<`) when non-strict (`<=`) is necessary.
+3. Forgetting to flush remaining elements from stack at the end.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Linear stack processing, nearest element relationship analysis.
+- **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
 - [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
