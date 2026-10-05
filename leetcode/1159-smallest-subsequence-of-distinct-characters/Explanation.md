@@ -1,9 +1,28 @@
-# Smallest Subsequence Of Distinct Characters
+# LeetCode 1159: Market Analysis II
 
-## Problem Explanation
-Given a string `s`, return the lexicographically smallest subsequence of `s` that contains all the distinct characters of `s` exactly once. (This is equivalent to "Remove Duplicate Letters.")
+**LeetCode Problem #1159 — Market Analysis II**
+Solve LeetCode Market Analysis II using C++ and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
 
-## How the Code Works
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Market Analysis II |
+| LeetCode | #1159 |
+| Difficulty | Hard |
+| Language | C++ |
+| Algorithm | Monotonic Stack Filtering |
+| Data Structure | Stack |
+| Pattern | Monotonic Stack |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
+
+## Problem
+Given a string  s , return  the    lexicographically smallest     subsequence    of   s   that contains all the distinct characters of   s   exactly once .
+
+## Key Insight
+Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
+
+## Approach
 The code uses a **Monotonic Stack** (greedy) approach.
 
 1. **Last Occurrence:** It records the last index of each character in the string.
@@ -15,3 +34,49 @@ The code uses a **Monotonic Stack** (greedy) approach.
 4. The result is the lexicographically smallest subsequence containing all distinct characters.
 
 Time complexity is $O(N)$ and space complexity is $O(1)$ (at most 26 characters in the stack).
+
+## Algorithm
+1. Initialize state variables / data structure (**Stack**).
+2. Process elements sequentially using **Monotonic Stack Filtering**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Market Analysis II**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Monotonic Stack**
+
+## Topics
+- Stack
+- Monotonic Stack
+- Array
+
+## Language
+C++
+
+## Source Code
+- [solution.cpp](./solution.cpp)
+
+## Why This Works
+By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Pushing elements instead of indices when index distance is required.
+2. Using strict inequality (`<`) when non-strict (`<=`) is necessary.
+3. Forgetting to flush remaining elements from stack at the end.
+
+## Interview Notes
+- **Tests:** Linear stack processing, nearest element relationship analysis.
+- **Follow-up:** How do you handle circular array boundaries?
+
+## Related Problems
+- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [115. Distinct Subsequences](../0115-distinct-subsequences/)
+- [977. Squares of a Sorted Array](../0977-distinct-subsequences-ii/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)

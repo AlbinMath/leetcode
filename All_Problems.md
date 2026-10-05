@@ -1,233 +1,298 @@
 # All Problems Directory
 
-Below is the complete list of all LeetCode problems solved in this repository, redirecting to their respective detailed explanations or README files.
+Below is the complete list of all **292** LeetCode problems solved in this repository, with difficulty ratings, algorithmic patterns, complexity analysis, and direct links to solution code and explanations.
 
-1. [0001 - Two Sum](leetcode/0001-two-sum/)
-2. [0002 - Add Two Numbers](leetcode/0002-add-two-numbers/)
-3. [0003 - Longest Substring Without Repeating Characters](leetcode/0003-longest-substring-without-repeating-characters/)
-4. [0004 - Median Of Two Sorted Arrays](leetcode/0004-median-of-two-sorted-arrays/)
-5. [0005 - Longest Palindromic Substring](leetcode/0005-longest-palindromic-substring/)
-6. [0006 - Zigzag Conversion](leetcode/0006-zigzag-conversion/)
-7. [0007 - Reverse Integer](leetcode/0007-reverse-integer)
-8. [0009 - Palindrome Number](leetcode/0009-palindrome-number/)
-9. [0010 - Regular Expression Matching](leetcode/0010-regular-expression-matching)
-10. [0011 - Container With Most Water](leetcode/0011-container-with-most-water)
-11. [0012 - Integer To Roman](leetcode/0012-integer-to-roman)
-12. [0013 - Roman To Integer](leetcode/0013-roman-to-integer/)
-13. [0014 - Longest Common Prefix](leetcode/0014-longest-common-prefix/)
-14. [0015 - 3Sum](leetcode/0015-3sum)
-15. [0016 - 3Sum Closest](leetcode/0016-3sum-closest)
-16. [0017 - Letter Combinations Of A Phone Number](leetcode/0017-letter-combinations-of-a-phone-number)
-17. [0018 - 4Sum](leetcode/0018-4sum)
-18. [0019 - Remove Nth Node From End Of List](leetcode/0019-remove-nth-node-from-end-of-list)
-19. [0020 - Valid Parentheses](leetcode/0020-valid-parentheses)
-20. [0033 - Search In Rotated Sorted Array](leetcode/0033-search-in-rotated-sorted-array)
-21. [0048 - Rotate Image](leetcode/0048-rotate-image)
-22. [0061 - Rotate List](leetcode/0061-rotate-list)
-23. [0084 - Largest Rectangle In Histogram](leetcode/0084-largest-rectangle-in-histogram)
-24. [0115 - Distinct Subsequences](leetcode/0115-distinct-subsequences)
-25. [0150 - Evaluate Reverse Polish Notation](leetcode/0150-evaluate-reverse-polish-notation)
-26. [0153 - Find Minimum In Rotated Sorted Array](leetcode/0153-find-minimum-in-rotated-sorted-array)
-27. [0154 - Find Minimum In Rotated Sorted Array Ii](leetcode/0154-find-minimum-in-rotated-sorted-array-ii)
-28. [0192 - Word Frequency](leetcode/0192-word-frequency)
-29. [0193 - Valid Phone Numbers](leetcode/0193-valid-phone-numbers)
-30. [0194 - Transpose File](leetcode/0194-transpose-file)
-31. [0195 - Tenth Line](leetcode/0195-tenth-line)
-32. [0396 - Rotate Function](leetcode/0396-rotate-function)
-33. [0448 - Find All Numbers Disappeared In An Array](leetcode/0448-find-all-numbers-disappeared-in-an-array)
-34. [0485 - Max Consecutive Ones](leetcode/0485-max-consecutive-ones)
-35. [0486 - Predict The Winner](leetcode/0486-predict-the-winner)
-36. [0628 - Maximum Product Of Three Numbers](leetcode/0628-maximum-product-of-three-numbers)
-37. [0636 - Exclusive Time Of Functions](leetcode/0636-exclusive-time-of-functions)
-38. [0645 - Set Mismatch](leetcode/0645-set-mismatch)
-39. [0739 - Daily Temperatures](leetcode/0739-daily-temperatures)
-40. [0804 - Rotated Digits](leetcode/0804-rotated-digits)
-41. [0812 - Rotate String](leetcode/0812-rotate-string)
-42. [0864 - Image Overlap](leetcode/0864-image-overlap)
-43. [0866 - Rectangle Overlap](leetcode/0866-rectangle-overlap)
-44. [0909 - Stone Game](leetcode/0909-stone-game)
-45. [0977 - Distinct Subsequences Ii](leetcode/0977-distinct-subsequences-ii)
-46. [1159 - Smallest Subsequence Of Distinct Characters](leetcode/1159-smallest-subsequence-of-distinct-characters)
-47. [1186 - Building H2o](leetcode/1186-building-h2o)
-48. [1187 - Print Foobar Alternately](leetcode/1187-print-foobar-alternately)
-49. [1188 - Brace Expansion Ii](leetcode/1188-brace-expansion-ii/)
-50. [1203 - Print In Order](leetcode/1203-print-in-order)
-51. [1212 - Sequential Digits](leetcode/1212-sequential-digits)
-52. [1216 - Print Zero Even Odd](leetcode/1216-print-zero-even-odd)
-53. [1222 - Remove Covered Intervals](leetcode/1222-remove-covered-intervals)
-54. [1234 - Number Of Paths With Max Score](leetcode/1234-number-of-paths-with-max-score)
-55. [1240 - Stone Game Ii](leetcode/1240-stone-game-ii)
-56. [1256 - Rank Transform Of An Array](leetcode/1256-rank-transform-of-an-array)
-57. [1297 - Maximum Number Of Balloons](leetcode/1297-maximum-number-of-balloons)
-58. [1298 - Reverse Substrings Between Each Pair Of Parentheses](leetcode/1298-reverse-substrings-between-each-pair-of-parentheses)
-59. [1316 - Fizz Buzz Multithreaded](leetcode/1316-fizz-buzz-multithreaded)
-60. [1340 - The Dining Philosophers](leetcode/1340-the-dining-philosophers)
-61. [1386 - Shift 2d Grid](leetcode/1386-shift-2d-grid)
-62. [1428 - Jump Game Iii](leetcode/1428-jump-game-iii)
-63. [1446 - Angle Between Hands Of A Clock](leetcode/1446-angle-between-hands-of-a-clock)
-64. [1447 - Jump Game Iv](leetcode/1447-jump-game-iv)
-65. [1460 - Number Of Substrings Containing All Three Characters](leetcode/1460-number-of-substrings-containing-all-three-characters)
-66. [1466 - Jump Game V](leetcode/1466-jump-game-v)
-67. [1482 - How Many Numbers Are Smaller Than The Current Number](leetcode/1482-how-many-numbers-are-smaller-than-the-current-number)
-68. [1487 - Cinema Seat Allocation](leetcode/1487-cinema-seat-allocation)
-69. [1501 - Circle And Rectangle Overlapping](leetcode/1501-circle-and-rectangle-overlapping)
-70. [1522 - Stone Game Iii](leetcode/1522-stone-game-iii)
-71. [1552 - Build An Array With Stack Operations](leetcode/1552-build-an-array-with-stack-operations)
-72. [1570 - Final Prices With A Special Discount In A Shop](leetcode/1570-final-prices-with-a-special-discount-in-a-shop)
-73. [1573 - Find Two Non Overlapping Sub Arrays Each With Target Sum](leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum)
-74. [1574 - Maximum Product Of Two Elements In An Array](leetcode/1574-maximum-product-of-two-elements-in-an-array)
-75. [1580 - Shuffle The Array](leetcode/1580-shuffle-the-array)
-76. [1617 - Stone Game Iv](leetcode/1617-stone-game-iv)
-77. [1644 - Maximum Number Of Non Overlapping Substrings](leetcode/1644-maximum-number-of-non-overlapping-substrings)
-78. [1685 - Stone Game V](leetcode/1685-stone-game-v)
-79. [1725 - Number Of Sets Of K Non Overlapping Line Segments](leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments)
-80. [1737 - Maximum Nesting Depth Of The Parentheses](leetcode/1737-maximum-nesting-depth-of-the-parentheses)
-81. [1776 - Minimum Operations To Reduce X To Zero](leetcode/1776-minimum-operations-to-reduce-x-to-zero/)
-82. [1784 - Minimum Initial Energy To Finish Tasks](leetcode/1784-minimum-initial-energy-to-finish-tasks)
-83. [1793 - Minimum Moves To Make Array Complementary](leetcode/1793-minimum-moves-to-make-array-complementary)
-84. [1833 - Find The Highest Altitude](leetcode/1833-find-the-highest-altitude)
-85. [1878 - Check If Array Is Sorted And Rotated](leetcode/1878-check-if-array-is-sorted-and-rotated)
-86. [1934 - Evaluate The Bracket Pairs Of A String](leetcode/1934-evaluate-the-bracket-pairs-of-a-string)
-87. [1956 - Maximum Element After Decreasing And Rearranging](leetcode/1956-maximum-element-after-decreasing-and-rearranging)
-88. [1961 - Maximum Ice Cream Bars](leetcode/1961-maximum-ice-cream-bars)
-89. [1968 - Maximum Building Height](leetcode/1968-maximum-building-height)
-90. [1972 - Rotating The Box](leetcode/1972-rotating-the-box)
-91. [2001 - Jump Game Vii](leetcode/2001-jump-game-vii)
-92. [2002 - Stone Game Viii](leetcode/2002-stone-game-viii)
-93. [2039 - Sum Game](leetcode/2039-sum-game)
-94. [2043 - Cyclically Rotating A Grid](leetcode/2043-cyclically-rotating-a-grid)
-95. [2058 - Concatenation Of Array](leetcode/2058-concatenation-of-array)
-96. [2099 - Number Of Strings That Appear As Substrings In Word](leetcode/2099-number-of-strings-that-appear-as-substrings-in-word)
-97. [2106 - Find Greatest Common Divisor Of Array](leetcode/2106-find-greatest-common-divisor-of-array)
-98. [2156 - Stone Game Ix](leetcode/2156-stone-game-ix)
-99. [2182 - Find The Minimum And Maximum Number Of Nodes Between Critical Points](leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points)
-100. [2212 - Removing Minimum And Maximum From Array](leetcode/2212-removing-minimum-and-maximum-from-array)
-101. [2216 - Delete The Middle Node Of A Linked List](leetcode/2216-delete-the-middle-node-of-a-linked-list)
-102. [2236 - Maximum Twin Sum Of A Linked List](leetcode/2236-maximum-twin-sum-of-a-linked-list)
-103. [2245 - Destroying Asteroids](leetcode/2245-destroying-asteroids)
-104. [2248 - Minimum Cost Of Buying Candies With Discount](leetcode/2248-minimum-cost-of-buying-candies-with-discount)
-105. [2265 - Partition Array According To Given Pivot](leetcode/2265-partition-array-according-to-given-pivot)
-106. [2306 - Create Binary Tree From Descriptions](leetcode/2306-create-binary-tree-from-descriptions)
-107. [2319 - Longest Substring Of One Repeating Character](leetcode/2319-longest-substring-of-one-repeating-character)
-108. [2347 - Count Nodes Equal To Average Of Subtree](leetcode/2347-count-nodes-equal-to-average-of-subtree)
-109. [2349 - Check If There Is A Valid Parentheses String Path](leetcode/2349--check-if-there-is-a-valid-parentheses-string-path)
-110. [2559 - Maximum Number Of Non Overlapping Palindrome Substrings](leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings)
-111. [2582 - Minimum Score Of A Path Between Two Cities](leetcode/2582-minimum-score-of-a-path-between-two-cities)
-112. [2634 - Minimum Common Value](leetcode/2634-minimum-common-value)
-113. [2639 - Separate The Digits In An Array](leetcode/2639-separate-the-digits-in-an-array)
-114. [2714 - Left And Right Sum Differences](leetcode/2714-left-and-right-sum-differences)
-115. [2731 - Memoize](leetcode/2731-memoize)
-116. [2732 - Counter](leetcode/2732-counter)
-117. [2733 - Sleep](leetcode/2733-sleep)
-118. [2734 - Array Prototype Last](leetcode/2734-array-prototype-last)
-119. [2741 - Function Composition](leetcode/2741-function-composition)
-120. [2742 - Group By](leetcode/2742-group-by)
-121. [2743 - Debounce](leetcode/2743-debounce)
-122. [2744 - Memoize Ii](leetcode/2744-memoize-ii)
-123. [2746 - Filter Elements From Array](leetcode/2746-filter-elements-from-array)
-124. [2747 - Apply Transform Over Each Element In Array](leetcode/2747-apply-transform-over-each-element-in-array)
-125. [2749 - Promise Time Limit](leetcode/2749-promise-time-limit)
-126. [2758 - Check If Object Instance Of Class](leetcode/2758-check-if-object-instance-of-class)
-127. [2759 - Flatten Deeply Nested Array](leetcode/2759-flatten-deeply-nested-array)
-128. [2760 - Snail Traversal](leetcode/2760-snail-traversal)
-129. [2761 - Array Reduce Transformation](leetcode/2761-array-reduce-transformation)
-130. [2762 - Cache With Time Limit](leetcode/2762-cache-with-time-limit)
-131. [2766 - Find The Prefix Common Array Of Two Arrays](leetcode/2766-find-the-prefix-common-array-of-two-arrays)
-132. [2775 - Generate Fibonacci Sequence](leetcode/2775-generate-fibonacci-sequence)
-133. [2783 - Nested Array Generator](leetcode/2783-nested-array-generator)
-134. [2788 - Design Cancellable Function](leetcode/2788-design-cancellable-function)
-135. [2789 - Counter Ii](leetcode/2789-counter-ii)
-136. [2790 - Call Function With Custom Context](leetcode/2790-call-function-with-custom-context)
-137. [2793 - Count The Number Of Complete Components](leetcode/2793-count-the-number-of-complete-components)
-138. [2796 - Allow One Function Call](leetcode/2796-allow-one-function-call)
-139. [2797 - Event Emitter](leetcode/2797-event-emitter)
-140. [2798 - Chunk Array](leetcode/2798-chunk-array)
-141. [2804 - Compact Object](leetcode/2804-compact-object)
-142. [2805 - Array Wrapper](leetcode/2805-array-wrapper)
-143. [2807 - Execute Asynchronous Functions In Parallel](leetcode/2807-execute-asynchronous-functions-in-parallel)
-144. [2809 - Create Hello World Function](leetcode/2809-create-hello-world-function)
-145. [2813 - To Be Or Not To Be](leetcode/2813-to-be-or-not-to-be)
-146. [2820 - Return Length Of Arguments Passed](leetcode/2820-return-length-of-arguments-passed)
-147. [2855 - Maximum Number Of Jumps To Reach The Last Index](leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index)
-148. [2858 - Join Two Arrays By Id](leetcode/2858-join-two-arrays-by-id)
-149. [2859 - Add Two Promises](leetcode/2859-add-two-promises)
-150. [2860 - Sort By](leetcode/2860-sort-by)
-151. [2862 - Interval Cancellation](leetcode/2862-interval-cancellation)
-152. [2863 - Calculator With Method Chaining](leetcode/2863-calculator-with-method-chaining)
-153. [2864 - Is Object Empty](leetcode/2864-is-object-empty)
-154. [2892 - Check If Array Is Good](leetcode/2892-check-if-array-is-good)
-155. [2914 - Find The Safest Path In A Grid](leetcode/2914-find-the-safest-path-in-a-grid)
-156. [3150 - Shortest And Lexicographically Smallest Beautiful String](leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string)
-157. [3219 - Make Lexicographically Smallest Array By Swapping Elements](leetcode/3219-make-lexicographically-smallest-array-by-swapping-elements)
-158. [3225 - Length Of Longest Subarray With At Most K Frequency](leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency)
-159. [3236 - Smallest Missing Integer Greater Than Sequential Prefix Sum](leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum)
-160. [3275 - Minimum Number Of Pushes To Type Word I](leetcode/3275-minimum-number-of-pushes-to-type-word-i)
-161. [3276 - Minimum Number Of Pushes To Type Word Ii](leetcode/3276-minimum-number-of-pushes-to-type-word-ii)
-162. [3299 - Find The Maximum Number Of Elements In Subset](leetcode/3299-find-the-maximum-number-of-elements-in-subset)
-163. [3329 - Find The Length Of The Longest Common Prefix](leetcode/3329-find-the-length-of-the-longest-common-prefix)
-164. [3347 - Distribute Elements Into Two Arrays I](leetcode/3347-distribute-elements-into-two-arrays-i)
-165. [3349 - Maximum Length Substring With Two Occurrences](leetcode/3349-maximum-length-substring-with-two-occurrences)
-166. [3375 - Kth Smallest Amount With Single Denomination Combination](leetcode/3375-kth-smallest-amount-with-single-denomination-combination)
-167. [3376 - Longest Common Suffix Queries](leetcode/3376-longest-common-suffix-queries)
-168. [3408 - Count The Number Of Special Characters I](leetcode/3408-count-the-number-of-special-characters-i)
-169. [3435 - Block Placement Queries](leetcode/3435-block-placement-queries)
-170. [3558 - Find A Safe Walk Through A Grid](leetcode/3558-find-a-safe-walk-through-a-grid)
-171. [3561 - Remove Methods From Project](leetcode/3561-remove-methods-from-project)
-172. [3562 - Maximum Score Of Non Overlapping Intervals](leetcode/3562-maximum-score-of-non-overlapping-intervals)
-173. [3583 - Sorted Gcd Pair Queries](leetcode/3583-sorted-gcd-pair-queries)
-174. [3584 - Find The Lexicographically Smallest Valid Sequence](leetcode/3584-find-the-lexicographically-smallest-valid-sequence)
-175. [3606 - Minimum Element After Replacement With Digit Sum](leetcode/3606-minimum-element-after-replacement-with-digit-sum)
-176. [3608 - Find The Number Of Subsequences With Equal Gcd](leetcode/3608-find-the-number-of-subsequences-with-equal-gcd)
-177. [3626 - Smallest Divisible Digit Product I](leetcode/3626-smallest-divisible-digit-product-i)
-178. [3635 - Smallest Divisible Digit Product Ii](leetcode/3635-smallest-divisible-digit-product-ii)
-179. [3705 - Find The Largest Almost Missing Integer](leetcode/3705-find-the-largest-almost-missing-integer)
-180. [3799 - Unique 3 Digit Even Numbers](leetcode/3799-unique-3-digit-even-numbers)
-181. [3804 - Maximize Active Section With Trade Ii](leetcode/3804-maximize-active-section-with-trade-ii)
-182. [3805 - Maximize Active Section With Trade I](leetcode/3805-maximize-active-section-with-trade-i)
-183. [3811 - Reverse Degree Of A String](leetcode/3811-reverse-degree-of-a-string/)
-184. [3812 - Smallest Palindromic Rearrangement I](leetcode/3812-smallest-palindromic-rearrangement-i)
-185. [3813 - Smallest Palindromic Rearrangement Ii](leetcode/3813-smallest-palindromic-rearrangement-ii)
-186. [3820 - Number Of Unique Xor Triplets Ii](leetcode/3820-number-of-unique-xor-triplets-ii)
-187. [3824 - Number Of Unique Xor Triplets I](leetcode/3824-number-of-unique-xor-triplets-i)
-188. [3831 - Find X Value Of Array I](leetcode/3831-find-x-value-of-array-i/)
-189. [3838 - Path Existence Queries In A Graph I](leetcode/3838-path-existence-queries-in-a-graph-i)
-190. [3840 - Find X Value Of Array Ii](leetcode/3840-find-x-value-of-array-ii/)
-191. [3842 - Number Of Ways To Assign Edge Weights Ii](leetcode/3842-number-of-ways-to-assign-edge-weights-ii)
-192. [3844 - Number Of Ways To Assign Edge Weights I](leetcode/3844-number-of-ways-to-assign-edge-weights-i)
-193. [3852 - Path Existence Queries In A Graph Ii](leetcode/3852-path-existence-queries-in-a-graph-ii)
-194. [3859 - Maximum Product Of Two Digits](leetcode/3859-maximum-product-of-two-digits)
-195. [3869 - Smallest Index With Digit Sum Equal To Index](leetcode/3869-smallest-index-with-digit-sum-equal-to-index/)
-196. [3870 - Minimum Moves To Clean The Classroom](leetcode/3870-minimum-moves-to-clean-the-classroom)
-197. [3918 - Check Divisibility By Digit Sum And Product](leetcode/3918-check-divisibility-by-digit-sum-and-product)
-198. [3919 - Network Recovery Pathways](leetcode/3919-network-recovery-pathways)
-199. [3931 - Process String With Special Operations I](leetcode/3931-process-string-with-special-operations-i)
-200. [3933 - Minimum Jumps To Reach End Via Prime Teleportation](leetcode/3933-minimum-jumps-to-reach-end-via-prime-teleportation)
-201. [3939 - Process String With Special Operations Ii](leetcode/3939-process-string-with-special-operations-ii)
-202. [3962 - Number Of Zigzag Arrays I](leetcode/3962-number-of-zigzag-arrays-i)
-203. [3964 - Number Of Zigzag Arrays Ii](leetcode/3964-number-of-zigzag-arrays-ii)
-204. [3965 - Earliest Finish Time For Land And Water Rides I](leetcode/3965-earliest-finish-time-for-land-and-water-rides-i)
-205. [3967 - Earliest Finish Time For Land And Water Rides Ii](leetcode/3967-earliest-finish-time-for-land-and-water-rides-ii)
-206. [3981 - Jump Game Ix](leetcode/3981-jump-game-ix)
-207. [3986 - Maximum Path Score In A Grid](leetcode/3986-maximum-path-score-in-a-grid)
-208. [3995 - Gcd Of Odd And Even Sums](leetcode/3995-gcd-of-odd-and-even-sums)
-209. [4005 - Maximum Total Subarray Value I](leetcode/4005-maximum-total-subarray-value-i)
-210. [4007 - Maximum Total Subarray Value Ii](leetcode/4007-maximum-total-subarray-value-ii)
-211. [4020 - Lexicographically Smallest Permutation Greater Than Target](leetcode/4020-lexicographically-smallest-permutation-greater-than-target)
-212. [4033 - Longest Subsequence With Non Zero Bitwise Xor](leetcode/4033-longest-subsequence-with-non-zero-bitwise-xor)
-213. [4037 - Lexicographically Smallest Palindromic Permutation Greater Than Target](leetcode/4037-lexicographically-smallest-palindromic-permutation-greater-than-target)
-214. [4057 - Total Waviness Of Numbers In Range I](leetcode/4057-total-waviness-of-numbers-in-range-i)
-215. [4074 - Count Subarrays With Majority Element I](leetcode/4074-count-subarrays-with-majority-element-i)
-216. [4075 - Count Subarrays With Majority Element Ii](leetcode/4075-count-subarrays-with-majority-element-ii)
-217. [4080 - Smallest Missing Multiple Of K](leetcode/4080-smallest-missing-multiple-of-k)
-218. [4107 - Find Missing Elements](leetcode/4107-find-missing-elements)
-219. [4128 - Total Waviness Of Numbers In Range Ii](leetcode/4128-total-waviness-of-numbers-in-range-ii)
-220. [4135 - Concatenate Non Zero Digits And Multiply By Sum I](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i)
-221. [4136 - Concatenate Non Zero Digits And Multiply By Sum Ii](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii)
-222. [4216 - Weighted Word Mapping](leetcode/4216-weighted-word-mapping)
-223. [4242 - Sum Of Gcd Of Formed Pairs](leetcode/4242-sum-of-gcd-of-formed-pairs)
-224. [4245 - Count Commas In Range](leetcode/4245-count-commas-in-range)
-225. [4248 - Count Commas In Range Ii](leetcode/4248-count-commas-in-range-ii)
-226. [4256 - Construct Uniform Parity Array I](leetcode/4256-construct-uniform-parity-array-i)
-227. [4258 - Construct Uniform Parity Array Ii](leetcode/4258-construct-uniform-parity-array-ii)
-228. [4284 - Smallest Stable Index I](leetcode/4284-smallest-stable-index-i)
-229. [4285 - Smallest Stable Index Ii](leetcode/4285-smallest-stable-index-ii)
+| # | Problem | Difficulty | Pattern | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|---|---|
+| 1 | [Two Sum](leetcode/0001-two-sum/) | Easy | [Hash Map](patterns/hash-map.md) | Python | O(n) | O(n) | [Explanation](leetcode/0001-two-sum/Explanation.md) |
+| 2 | [Add Two Numbers](leetcode/0002-add-two-numbers/) | Medium | [Two Pointers](patterns/two-pointers.md) | Python | O(n) | O(1) | [Explanation](leetcode/0002-add-two-numbers/Explanation.md) |
+| 3 | [Longest Substring Without Repeating Characters](leetcode/0003-longest-substring-without-repeating-characters/) | Medium | [Sliding Window](patterns/sliding-window.md) | Python | O(n) | O(1) | [Explanation](leetcode/0003-longest-substring-without-repeating-characters/Explanation.md) |
+| 4 | [Median of Two Sorted Arrays](leetcode/0004-median-of-two-sorted-arrays/) | Hard | [Binary Search](patterns/binary-search.md) | Python | O(n) | O(1) | [Explanation](leetcode/0004-median-of-two-sorted-arrays/Explanation.md) |
+| 5 | [Longest Palindromic Substring](leetcode/0005-longest-palindromic-substring/) | Medium | [Array / General](patterns/array-general.md) | Python | O(n) | O(1) | [Explanation](leetcode/0005-longest-palindromic-substring/Explanation.md) |
+| 6 | [Zigzag Conversion](leetcode/0006-zigzag-conversion/) | Medium | [Array / General](patterns/array-general.md) | Python | O(n) | O(1) | [Explanation](leetcode/0006-zigzag-conversion/Explanation.md) |
+| 7 | [Reverse Integer](leetcode/0007-reverse-integer/) | Medium | [Math & Logic](patterns/math-logic.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/0007-reverse-integer/Explanation.md) |
+| 9 | [Palindrome Number](leetcode/0009-palindrome-number/) | Easy | [Two Pointers](patterns/two-pointers.md) | Python | O(n) | O(1) | [Explanation](leetcode/0009-palindrome-number/Explanation.md) |
+| 10 | [Regular Expression Matching](leetcode/0010-regular-expression-matching/) | Hard | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/0010-regular-expression-matching/Explanation.md) |
+| 11 | [Container With Most Water](leetcode/0011-container-with-most-water/) | Medium | [Two Pointers](patterns/two-pointers.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/0011-container-with-most-water/Explanation.md) |
+| 12 | [Integer to Roman](leetcode/0012-integer-to-roman/) | Medium | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/0012-integer-to-roman/Explanation.md) |
+| 13 | [Roman to Integer](leetcode/0013-roman-to-integer/) | Easy | [Database / SQL](patterns/sql-database.md) | Python | O(n) | O(n) | [Explanation](leetcode/0013-roman-to-integer/Explanation.md) |
+| 14 | [Longest Common Prefix](leetcode/0014-longest-common-prefix/) | Easy | [Array / General](patterns/array-general.md) | Python | O(n) | O(1) | [Explanation](leetcode/0014-longest-common-prefix/Explanation.md) |
+| 15 | [3Sum](leetcode/0015-3sum/) | Medium | [Binary Search](patterns/binary-search.md) | JavaScript | O(log n) | O(1) | [Explanation](leetcode/0015-3sum/Explanation.md) |
+| 16 | [3Sum Closest](leetcode/0016-3sum-closest/) | Medium | [Binary Search](patterns/binary-search.md) | JavaScript | O(log n) | O(1) | [Explanation](leetcode/0016-3sum-closest/Explanation.md) |
+| 17 | [Letter Combinations of a Phone Number](leetcode/0017-letter-combinations-of-a-phone-number/) | Medium | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/0017-letter-combinations-of-a-phone-number/Explanation.md) |
+| 18 | [4Sum](leetcode/0018-4sum/) | Medium | [Binary Search](patterns/binary-search.md) | C++ | O(log n) | O(1) | [Explanation](leetcode/0018-4sum/Explanation.md) |
+| 19 | [Remove Nth Node From End of List](leetcode/0019-remove-nth-node-from-end-of-list/) | Medium | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/0019-remove-nth-node-from-end-of-list/Explanation.md) |
+| 20 | [Valid Parentheses](leetcode/0020-valid-parentheses/) | Easy | [Stack & Queue](patterns/stack-queue.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/0020-valid-parentheses/Explanation.md) |
+| 33 | [Search in Rotated Sorted Array](leetcode/0033-search-in-rotated-sorted-array/) | Medium | [Binary Search](patterns/binary-search.md) | C++ | O(log n) | O(1) | [Explanation](leetcode/0033-search-in-rotated-sorted-array/Explanation.md) |
+| 48 | [Rotate Image](leetcode/0048-rotate-image/) | Medium | [Math & Logic](patterns/math-logic.md) | C++ | O(n²) | O(1) | [Explanation](leetcode/0048-rotate-image/Explanation.md) |
+| 61 | [Rotate List](leetcode/0061-rotate-list/) | Medium | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/0061-rotate-list/Explanation.md) |
+| 84 | [Largest Rectangle in Histogram](leetcode/0084-largest-rectangle-in-histogram/) | Hard | [Database / SQL](patterns/sql-database.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/0084-largest-rectangle-in-histogram/Explanation.md) |
+| 115 | [Distinct Subsequences](leetcode/0115-distinct-subsequences/) | Hard | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/0115-distinct-subsequences/Explanation.md) |
+| 150 | [Evaluate Reverse Polish Notation](leetcode/0150-evaluate-reverse-polish-notation/) | Medium | [Database / SQL](patterns/sql-database.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/0150-evaluate-reverse-polish-notation/Explanation.md) |
+| 153 | [Find Minimum in Rotated Sorted Array](leetcode/0153-find-minimum-in-rotated-sorted-array/) | Medium | [Binary Search](patterns/binary-search.md) | C++ | O(log n) | O(1) | [Explanation](leetcode/0153-find-minimum-in-rotated-sorted-array/Explanation.md) |
+| 154 | [Find Minimum in Rotated Sorted Array II](leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard | [Binary Search](patterns/binary-search.md) | C++ | O(n) | O(1) | [Explanation](leetcode/0154-find-minimum-in-rotated-sorted-array-ii/Explanation.md) |
+| 175 | [Combine Two Tables](leetcode/0175-combine-two-tables/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0175-combine-two-tables/Explanation.md) |
+| 176 | [Second Highest Salary](leetcode/0176-second-highest-salary/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0176-second-highest-salary/Explanation.md) |
+| 177 | [Nth Highest Salary](leetcode/0177-nth-highest-salary/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0177-nth-highest-salary/Explanation.md) |
+| 178 | [Rank Scores](leetcode/0178-rank-scores/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0178-rank-scores/Explanation.md) |
+| 180 | [Consecutive Numbers](leetcode/0180-consecutive-numbers/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0180-consecutive-numbers/Explanation.md) |
+| 181 | [Employees Earning More Than Their Managers](leetcode/0181-employees-earning-more-than-their-managers/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0181-employees-earning-more-than-their-managers/Explanation.md) |
+| 182 | [Duplicate Emails](leetcode/0182-duplicate-emails/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0182-duplicate-emails/Explanation.md) |
+| 183 | [Customers Who Never Order](leetcode/0183-customers-who-never-order/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0183-customers-who-never-order/Explanation.md) |
+| 184 | [Department Highest Salary](leetcode/0184-department-highest-salary/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0184-department-highest-salary/Explanation.md) |
+| 185 | [Department Top Three Salaries](leetcode/0185-department-top-three-salaries/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0185-department-top-three-salaries/Explanation.md) |
+| 192 | [Word Frequency](leetcode/0192-word-frequency/) | Medium | [Hash Map](patterns/hash-map.md) | Shell | O(n) | O(n) | [Explanation](leetcode/0192-word-frequency/Explanation.md) |
+| 193 | [Valid Phone Numbers](leetcode/0193-valid-phone-numbers/) | Easy | [Array / General](patterns/array-general.md) | Shell | O(n) | O(1) | [Explanation](leetcode/0193-valid-phone-numbers/Explanation.md) |
+| 194 | [Transpose File](leetcode/0194-transpose-file/) | Medium | [Array / General](patterns/array-general.md) | Shell | O(n) | O(1) | [Explanation](leetcode/0194-transpose-file/Explanation.md) |
+| 195 | [Tenth Line](leetcode/0195-tenth-line/) | Easy | [Array / General](patterns/array-general.md) | Shell | O(n) | O(1) | [Explanation](leetcode/0195-tenth-line/Explanation.md) |
+| 196 | [Delete Duplicate Emails](leetcode/0196-delete-duplicate-emails/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0196-delete-duplicate-emails/Explanation.md) |
+| 197 | [Rising Temperature](leetcode/0197-rising-temperature/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0197-rising-temperature/Explanation.md) |
+| 262 | [Trips and Users](leetcode/0262-trips-and-users/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0262-trips-and-users/Explanation.md) |
+| 396 | [Rotate Function](leetcode/0396-rotate-function/) | Medium | [Math & Logic](patterns/math-logic.md) | C++ | O(n) | O(1) | [Explanation](leetcode/0396-rotate-function/Explanation.md) |
+| 448 | [Find All Numbers Disappeared in an Array](leetcode/0448-find-all-numbers-disappeared-in-an-array/) | Easy | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/0448-find-all-numbers-disappeared-in-an-array/Explanation.md) |
+| 485 | [Max Consecutive Ones](leetcode/0485-max-consecutive-ones/) | Easy | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/0485-max-consecutive-ones/Explanation.md) |
+| 486 | [Predict the Winner](leetcode/0486-predict-the-winner/) | Medium | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/0486-predict-the-winner/Explanation.md) |
+| 570 | [Managers with at Least 5 Direct Reports](leetcode/0570-managers-with-at-least-5-direct-reports/) | Medium | [Array / General](patterns/array-general.md) | Python | O(n) | O(1) | [Explanation](leetcode/0570-managers-with-at-least-5-direct-reports/Explanation.md) |
+| 577 | [Employee Bonus](leetcode/0577-employee-bonus/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0577-employee-bonus/Explanation.md) |
+| 584 | [Find Customer Referee](leetcode/0584-find-customer-referee/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0584-find-customer-referee/Explanation.md) |
+| 585 | [Investments in 2016](leetcode/0585-investments-in-2016/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0585-investments-in-2016/Explanation.md) |
+| 586 | [Customer Placing the Largest Number of Orders](leetcode/0586-customer-placing-the-largest-number-of-orders/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0586-customer-placing-the-largest-number-of-orders/Explanation.md) |
+| 595 | [Big Countries](leetcode/0595-big-countries/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0595-big-countries/Explanation.md) |
+| 596 | [Classes With at Least 5 Students](leetcode/0596-classes-with-at-least-5-students/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0596-classes-with-at-least-5-students/Explanation.md) |
+| 601 | [Human Traffic of Stadium](leetcode/0601-human-traffic-of-stadium/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0601-human-traffic-of-stadium/Explanation.md) |
+| 602 | [Friend Requests II: Who Has the Most Friends](leetcode/0602-friend-requests-ii-who-has-the-most-friends/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0602-friend-requests-ii-who-has-the-most-friends/Explanation.md) |
+| 607 | [Sales Person](leetcode/0607-sales-person/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0607-sales-person/Explanation.md) |
+| 608 | [Tree Node](leetcode/0608-tree-node/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0608-tree-node/Explanation.md) |
+| 610 | [Triangle Judgement](leetcode/0610-triangle-judgement/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0610-triangle-judgement/Explanation.md) |
+| 619 | [Biggest Single Number](leetcode/0619-biggest-single-number/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0619-biggest-single-number/Explanation.md) |
+| 620 | [Not Boring Movies](leetcode/0620-not-boring-movies/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0620-not-boring-movies/Explanation.md) |
+| 626 | [Exchange Seats](leetcode/0626-exchange-seats/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0626-exchange-seats/Explanation.md) |
+| 627 | [Swap Sex of Employees](leetcode/0627-swap-sex-of-employees/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/0627-swap-sex-of-employees/Explanation.md) |
+| 628 | [Maximum Product of Three Numbers](leetcode/0628-maximum-product-of-three-numbers/) | Easy | [Database / SQL](patterns/sql-database.md) | Elixir | O(n) | O(n) | [Explanation](leetcode/0628-maximum-product-of-three-numbers/Explanation.md) |
+| 636 | [Exclusive Time of Functions](leetcode/0636-exclusive-time-of-functions/) | Medium | [Database / SQL](patterns/sql-database.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/0636-exclusive-time-of-functions/Explanation.md) |
+| 645 | [Set Mismatch](leetcode/0645-set-mismatch/) | Easy | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/0645-set-mismatch/Explanation.md) |
+| 739 | [Daily Temperatures](leetcode/0739-daily-temperatures/) | Medium | [Monotonic Stack](patterns/monotonic-stack.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/0739-daily-temperatures/Explanation.md) |
+| 804 | [Unique Morse Code Words](leetcode/0804-rotated-digits/) | Easy | [Binary Search](patterns/binary-search.md) | C++ | O(n) | O(1) | [Explanation](leetcode/0804-rotated-digits/Explanation.md) |
+| 812 | [Largest Triangle Area](leetcode/0812-rotate-string/) | Easy | [Math & Logic](patterns/math-logic.md) | C++ | O(n) | O(1) | [Explanation](leetcode/0812-rotate-string/Explanation.md) |
+| 864 | [Shortest Path to Get All Keys](leetcode/0864-image-overlap/) | Hard | [Array / General](patterns/array-general.md) | JavaScript | O(n²) | O(1) | [Explanation](leetcode/0864-image-overlap/Explanation.md) |
+| 866 | [Prime Palindrome](leetcode/0866-rectangle-overlap/) | Medium | [Math & Logic](patterns/math-logic.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/0866-rectangle-overlap/Explanation.md) |
+| 909 | [Snakes and Ladders](leetcode/0909-stone-game/) | Medium | [Math & Logic](patterns/math-logic.md) | C++ | O(n) | O(1) | [Explanation](leetcode/0909-stone-game/Explanation.md) |
+| 977 | [Squares of a Sorted Array](leetcode/0977-distinct-subsequences-ii/) | Easy | [Dynamic Programming](patterns/dynamic-programming.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/0977-distinct-subsequences-ii/Explanation.md) |
+| 1135 | [Connecting Cities With Minimum Cost](leetcode/1135-customers-who-bought-all-products/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1135-customers-who-bought-all-products/Explanation.md) |
+| 1136 | [Parallel Courses](leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/Explanation.md) |
+| 1153 | [String Transforms Into Another String](leetcode/1153-product-sales-analysis-i/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1153-product-sales-analysis-i/Explanation.md) |
+| 1155 | [Number of Dice Rolls With Target Sum](leetcode/1155-product-sales-analysis-iii/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1155-product-sales-analysis-iii/Explanation.md) |
+| 1159 | [Market Analysis II](leetcode/1159-smallest-subsequence-of-distinct-characters/) | Hard | [Monotonic Stack](patterns/monotonic-stack.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1159-smallest-subsequence-of-distinct-characters/Explanation.md) |
+| 1161 | [Maximum Level Sum of a Binary Tree](leetcode/1161-project-employees-i/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1161-project-employees-i/Explanation.md) |
+| 1174 | [Immediate Food Delivery II](leetcode/1174-sales-analysis-iii/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1174-sales-analysis-iii/Explanation.md) |
+| 1179 | [Reformat Department Table](leetcode/1179-game-play-analysis-i/) | Easy | [Array / General](patterns/array-general.md) | Python | O(n) | O(1) | [Explanation](leetcode/1179-game-play-analysis-i/Explanation.md) |
+| 1182 | [Shortest Distance to Target Color](leetcode/1182-game-play-analysis-iv/) | Medium | [Array / General](patterns/array-general.md) | Python | O(n) | O(1) | [Explanation](leetcode/1182-game-play-analysis-iv/Explanation.md) |
+| 1186 | [Maximum Subarray Sum with One Deletion](leetcode/1186-building-h2o/) | Medium | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1186-building-h2o/Explanation.md) |
+| 1187 | [Make Array Strictly Increasing](leetcode/1187-print-foobar-alternately/) | Hard | [Hash Map](patterns/hash-map.md) | Java | O(n) | O(n) | [Explanation](leetcode/1187-print-foobar-alternately/Explanation.md) |
+| 1188 | [Design Bounded Blocking Queue](leetcode/1188-brace-expansion-ii/) | Medium | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/1188-brace-expansion-ii/Explanation.md) |
+| 1203 | [Sort Items by Groups Respecting Dependencies](leetcode/1203-print-in-order/) | Hard | [Hash Map](patterns/hash-map.md) | Java | O(n) | O(n) | [Explanation](leetcode/1203-print-in-order/Explanation.md) |
+| 1208 | [Get Equal Substrings Within Budget](leetcode/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/Explanation.md) |
+| 1212 | [Team Scores in Football Tournament](leetcode/1212-sequential-digits/) | Medium | [Math & Logic](patterns/math-logic.md) | C++ | O(n) | O(1) | [Explanation](leetcode/1212-sequential-digits/Explanation.md) |
+| 1216 | [Valid Palindrome III](leetcode/1216-print-zero-even-odd/) | Hard | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/1216-print-zero-even-odd/Explanation.md) |
+| 1222 | [Queens That Can Attack the King](leetcode/1222-remove-covered-intervals/) | Medium | [Binary Search](patterns/binary-search.md) | Java | O(log n) | O(1) | [Explanation](leetcode/1222-remove-covered-intervals/Explanation.md) |
+| 1234 | [Replace the Substring for Balanced String](leetcode/1234-number-of-paths-with-max-score/) | Medium | [Dynamic Programming](patterns/dynamic-programming.md) | PHP | O(n) | O(n) | [Explanation](leetcode/1234-number-of-paths-with-max-score/Explanation.md) |
+| 1240 | [Tiling a Rectangle with the Fewest Squares](leetcode/1240-stone-game-ii/) | Hard | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1240-stone-game-ii/Explanation.md) |
+| 1245 | [Tree Diameter](leetcode/1245-user-activity-for-the-past-30-days-i/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1245-user-activity-for-the-past-30-days-i/Explanation.md) |
+| 1256 | [Encode Number](leetcode/1256-rank-transform-of-an-array/) | Medium | [Binary Search](patterns/binary-search.md) | Kotlin | O(n) | O(1) | [Explanation](leetcode/1256-rank-transform-of-an-array/Explanation.md) |
+| 1258 | [Synonymous Sentences](leetcode/1258-article-views-i/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1258-article-views-i/Explanation.md) |
+| 1268 | [Search Suggestions System](leetcode/1268-market-analysis-i/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1268-market-analysis-i/Explanation.md) |
+| 1278 | [Palindrome Partitioning III](leetcode/1278-product-price-at-a-given-date/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1278-product-price-at-a-given-date/Explanation.md) |
+| 1292 | [Maximum Side Length of a Square with Sum Less than or Equal to Threshold](leetcode/1292-immediate-food-delivery-ii/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1292-immediate-food-delivery-ii/Explanation.md) |
+| 1297 | [Maximum Number of Occurrences of a Substring](leetcode/1297-maximum-number-of-balloons/) | Medium | [Hash Map](patterns/hash-map.md) | Kotlin | O(n) | O(n) | [Explanation](leetcode/1297-maximum-number-of-balloons/Explanation.md) |
+| 1298 | [Maximum Candies You Can Get from Boxes](leetcode/1298-reverse-substrings-between-each-pair-of-parentheses/) | Hard | [Stack & Queue](patterns/stack-queue.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1298-reverse-substrings-between-each-pair-of-parentheses/Explanation.md) |
+| 1301 | [Number of Paths with Max Score](leetcode/1301-reformat-department-table/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1301-reformat-department-table/Explanation.md) |
+| 1316 | [Distinct Echo Substrings](leetcode/1316-fizz-buzz-multithreaded/) | Hard | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1316-fizz-buzz-multithreaded/Explanation.md) |
+| 1317 | [Convert Integer to the Sum of Two No-Zero Integers](leetcode/1317-monthly-transactions-i/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1317-monthly-transactions-i/Explanation.md) |
+| 1327 | [List the Products Ordered in a Period](leetcode/1327-last-person-to-fit-in-the-bus/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1327-last-person-to-fit-in-the-bus/Explanation.md) |
+| 1338 | [Reduce Array Size to The Half](leetcode/1338-queries-quality-and-percentage/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1338-queries-quality-and-percentage/Explanation.md) |
+| 1340 | [Jump Game V](leetcode/1340-the-dining-philosophers/) | Hard | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/1340-the-dining-philosophers/Explanation.md) |
+| 1386 | [Cinema Seat Allocation](leetcode/1386-shift-2d-grid/) | Medium | [Tree & Graph](patterns/tree-graph.md) | Racket | O(n) | O(n) | [Explanation](leetcode/1386-shift-2d-grid/Explanation.md) |
+| 1390 | [Four Divisors](leetcode/1390-average-selling-price/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1390-average-selling-price/Explanation.md) |
+| 1415 | [The k-th Lexicographical String of All Happy Strings of Length n](leetcode/1415-students-and-examinations/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1415-students-and-examinations/Explanation.md) |
+| 1428 | [Leftmost Column with at Least a One](leetcode/1428-jump-game-iii/) | Medium | [Tree & Graph](patterns/tree-graph.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1428-jump-game-iii/Explanation.md) |
+| 1446 | [Consecutive Characters](leetcode/1446-angle-between-hands-of-a-clock/) | Easy | [Math & Logic](patterns/math-logic.md) | Java | O(n) | O(1) | [Explanation](leetcode/1446-angle-between-hands-of-a-clock/Explanation.md) |
+| 1447 | [Simplified Fractions](leetcode/1447-jump-game-iv/) | Medium | [Hash Map](patterns/hash-map.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1447-jump-game-iv/Explanation.md) |
+| 1452 | [People Whose List of Favorite Companies Is Not a Subset of Another List](leetcode/1452-restaurant-growth/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1452-restaurant-growth/Explanation.md) |
+| 1460 | [Make Two Arrays Equal by Reversing Subarrays](leetcode/1460-number-of-substrings-containing-all-three-characters/) | Easy | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/1460-number-of-substrings-containing-all-three-characters/Explanation.md) |
+| 1462 | [Course Schedule IV](leetcode/1462-list-the-products-ordered-in-a-period/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1462-list-the-products-ordered-in-a-period/Explanation.md) |
+| 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](leetcode/1466-jump-game-v/) | Medium | [Dynamic Programming](patterns/dynamic-programming.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1466-jump-game-v/Explanation.md) |
+| 1480 | [Running Sum of 1d Array](leetcode/1480-movie-rating/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1480-movie-rating/Explanation.md) |
+| 1482 | [Minimum Number of Days to Make m Bouquets](leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/Explanation.md) |
+| 1487 | [Making File Names Unique](leetcode/1487-cinema-seat-allocation/) | Medium | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1487-cinema-seat-allocation/Explanation.md) |
+| 1501 | [Countries You Can Safely Invest In](leetcode/1501-circle-and-rectangle-overlapping/) | Medium | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/1501-circle-and-rectangle-overlapping/Explanation.md) |
+| 1509 | [Minimum Difference Between Largest and Smallest Value in Three Moves](leetcode/1509-replace-employee-id-with-the-unique-identifier/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1509-replace-employee-id-with-the-unique-identifier/Explanation.md) |
+| 1522 | [Diameter of N-Ary Tree](leetcode/1522-stone-game-iii/) | Medium | [Database / SQL](patterns/sql-database.md) | PHP | O(n) | O(n) | [Explanation](leetcode/1522-stone-game-iii/Explanation.md) |
+| 1523 | [Count Odd Numbers in an Interval Range](leetcode/1523-capital-gainloss/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1523-capital-gainloss/Explanation.md) |
+| 1541 | [Minimum Insertions to Balance a Parentheses String](leetcode/1541-top-travellers/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1541-top-travellers/Explanation.md) |
+| 1552 | [Magnetic Force Between Two Balls](leetcode/1552-build-an-array-with-stack-operations/) | Medium | [Stack & Queue](patterns/stack-queue.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/1552-build-an-array-with-stack-operations/Explanation.md) |
+| 1570 | [Dot Product of Two Sparse Vectors](leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | Medium | [Database / SQL](patterns/sql-database.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/1570-final-prices-with-a-special-discount-in-a-shop/Explanation.md) |
+| 1573 | [Number of Ways to Split a String](leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | [Sliding Window](patterns/sliding-window.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/Explanation.md) |
+| 1574 | [Shortest Subarray to be Removed to Make Array Sorted](leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Medium | [Binary Search](patterns/binary-search.md) | Scala | O(n) | O(1) | [Explanation](leetcode/1574-maximum-product-of-two-elements-in-an-array/Explanation.md) |
+| 1580 | [Put Boxes Into the Warehouse II](leetcode/1580-shuffle-the-array/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/1580-shuffle-the-array/Explanation.md) |
+| 1617 | [Count Subtrees With Max Distance Between Cities](leetcode/1617-stone-game-iv/) | Hard | [Database / SQL](patterns/sql-database.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/1617-stone-game-iv/Explanation.md) |
+| 1625 | [Lexicographically Smallest String After Applying Operations](leetcode/1625-group-sold-products-by-the-date/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1625-group-sold-products-by-the-date/Explanation.md) |
+| 1644 | [Lowest Common Ancestor of a Binary Tree II](leetcode/1644-maximum-number-of-non-overlapping-substrings/) | Medium | [Greedy](patterns/greedy.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/1644-maximum-number-of-non-overlapping-substrings/Explanation.md) |
+| 1664 | [Ways to Make a Fair Array](leetcode/1664-find-users-with-valid-e-mails/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1664-find-users-with-valid-e-mails/Explanation.md) |
+| 1670 | [Design Front Middle Back Queue](leetcode/1670-patients-with-a-condition/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1670-patients-with-a-condition/Explanation.md) |
+| 1685 | [Sum of Absolute Differences in a Sorted Array](leetcode/1685-stone-game-v/) | Medium | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/1685-stone-game-v/Explanation.md) |
+| 1724 | [Checking Existence of Edge Length Limited Paths II](leetcode/1724-customer-who-visited-but-did-not-make-any-transactions/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1724-customer-who-visited-but-did-not-make-any-transactions/Explanation.md) |
+| 1725 | [Number Of Rectangles That Can Form The Largest Square](leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/) | Easy | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/Explanation.md) |
+| 1734 | [Decode XORed Permutation](leetcode/1734-bank-account-summary-ii/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1734-bank-account-summary-ii/Explanation.md) |
+| 1737 | [Change Minimum Characters to Satisfy One of Three Conditions](leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Medium | [Stack & Queue](patterns/stack-queue.md) | Java | O(n) | O(n) | [Explanation](leetcode/1737-maximum-nesting-depth-of-the-parentheses/Explanation.md) |
+| 1773 | [Count Items Matching a Rule](leetcode/1773-percentage-of-users-attended-a-contest/) | Easy | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1773-percentage-of-users-attended-a-contest/Explanation.md) |
+| 1776 | [Car Fleet II](leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | Hard | [Sliding Window](patterns/sliding-window.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/1776-minimum-operations-to-reduce-x-to-zero/Explanation.md) |
+| 1784 | [Check if Binary String Has at Most One Segment of Ones](leetcode/1784-minimum-initial-energy-to-finish-tasks/) | Easy | [Binary Search](patterns/binary-search.md) | C++ | O(log n) | O(1) | [Explanation](leetcode/1784-minimum-initial-energy-to-finish-tasks/Explanation.md) |
+| 1793 | [Maximum Score of a Good Subarray](leetcode/1793-minimum-moves-to-make-array-complementary/) | Hard | [Hash Map](patterns/hash-map.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1793-minimum-moves-to-make-array-complementary/Explanation.md) |
+| 1801 | [Number of Orders in the Backlog](leetcode/1801-average-time-of-process-per-machine/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1801-average-time-of-process-per-machine/Explanation.md) |
+| 1811 | [Find Interview Candidates](leetcode/1811-fix-names-in-a-table/) | Medium | [Database / SQL](patterns/sql-database.md) | SQL | O(n) | O(n) | [Explanation](leetcode/1811-fix-names-in-a-table/Explanation.md) |
+| 1833 | [Maximum Ice Cream Bars](leetcode/1833-find-the-highest-altitude/) | Medium | [Array / General](patterns/array-general.md) | Kotlin | O(n) | O(1) | [Explanation](leetcode/1833-find-the-highest-altitude/Explanation.md) |
+| 1878 | [Get Biggest Three Rhombus Sums in a Grid](leetcode/1878-check-if-array-is-sorted-and-rotated/) | Medium | [Binary Search](patterns/binary-search.md) | C++ | O(n) | O(1) | [Explanation](leetcode/1878-check-if-array-is-sorted-and-rotated/Explanation.md) |
+| 1934 | [Confirmation Rate](leetcode/1934-evaluate-the-bracket-pairs-of-a-string/) | Medium | [Hash Map](patterns/hash-map.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1934-evaluate-the-bracket-pairs-of-a-string/Explanation.md) |
+| 1956 | [Minimum Time For K Virus Variants to Spread](leetcode/1956-maximum-element-after-decreasing-and-rearranging/) | Hard | [Binary Search](patterns/binary-search.md) | Java | O(log n) | O(1) | [Explanation](leetcode/1956-maximum-element-after-decreasing-and-rearranging/Explanation.md) |
+| 1961 | [Check If String Is a Prefix of Array](leetcode/1961-maximum-ice-cream-bars/) | Easy | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/1961-maximum-ice-cream-bars/Explanation.md) |
+| 1968 | [Array With Elements Not Equal to Average of Neighbors](leetcode/1968-maximum-building-height/) | Medium | [Database / SQL](patterns/sql-database.md) | Python | O(n) | O(n) | [Explanation](leetcode/1968-maximum-building-height/Explanation.md) |
+| 1972 | [First and Last Call On the Same Day](leetcode/1972-rotating-the-box/) | Hard | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/1972-rotating-the-box/Explanation.md) |
+| 2001 | [Number of Pairs of Interchangeable Rectangles](leetcode/2001-jump-game-vii/) | Medium | [Sliding Window](patterns/sliding-window.md) | C++ | O(n) | O(1) | [Explanation](leetcode/2001-jump-game-vii/Explanation.md) |
+| 2002 | [Maximum Product of the Length of Two Palindromic Subsequences](leetcode/2002-stone-game-viii/) | Medium | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/2002-stone-game-viii/Explanation.md) |
+| 2039 | [The Time When the Network Becomes Idle](leetcode/2039-sum-game/) | Medium | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/2039-sum-game/Explanation.md) |
+| 2043 | [Simple Bank System](leetcode/2043-cyclically-rotating-a-grid/) | Medium | [Tree & Graph](patterns/tree-graph.md) | C++ | O(n) | O(n) | [Explanation](leetcode/2043-cyclically-rotating-a-grid/Explanation.md) |
+| 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](leetcode/2058-concatenation-of-array/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2058-concatenation-of-array/Explanation.md) |
+| 2099 | [Find Subsequence of Length K With the Largest Sum](leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Easy | [Array / General](patterns/array-general.md) | Kotlin | O(n) | O(1) | [Explanation](leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/Explanation.md) |
+| 2106 | [Maximum Fruits Harvested After at Most K Steps](leetcode/2106-find-greatest-common-divisor-of-array/) | Hard | [Array / General](patterns/array-general.md) | Kotlin | O(n) | O(1) | [Explanation](leetcode/2106-find-greatest-common-divisor-of-array/Explanation.md) |
+| 2156 | [Find Substring With Given Hash Value](leetcode/2156-stone-game-ix/) | Hard | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/2156-stone-game-ix/Explanation.md) |
+| 2182 | [Construct String With Repeat Limit](leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | [Two Pointers](patterns/two-pointers.md) | C++ | O(n) | O(1) | [Explanation](leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/Explanation.md) |
+| 2212 | [Maximum Points in an Archery Competition](leetcode/2212-removing-minimum-and-maximum-from-array/) | Medium | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/2212-removing-minimum-and-maximum-from-array/Explanation.md) |
+| 2216 | [Minimum Deletions to Make Array Beautiful](leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Medium | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/2216-delete-the-middle-node-of-a-linked-list/Explanation.md) |
+| 2236 | [Root Equals Sum of Children](leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Easy | [Two Pointers](patterns/two-pointers.md) | Java | O(n) | O(1) | [Explanation](leetcode/2236-maximum-twin-sum-of-a-linked-list/Explanation.md) |
+| 2245 | [Maximum Trailing Zeros in a Cornered Path](leetcode/2245-destroying-asteroids/) | Medium | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/2245-destroying-asteroids/Explanation.md) |
+| 2248 | [Intersection of Multiple Arrays](leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Easy | [Array / General](patterns/array-general.md) | Kotlin | O(n) | O(1) | [Explanation](leetcode/2248-minimum-cost-of-buying-candies-with-discount/Explanation.md) |
+| 2265 | [Count Nodes Equal to Average of Subtree](leetcode/2265-partition-array-according-to-given-pivot/) | Medium | [Tree & Graph](patterns/tree-graph.md) | Java | O(n) | O(n) | [Explanation](leetcode/2265-partition-array-according-to-given-pivot/Explanation.md) |
+| 2306 | [Naming a Company](leetcode/2306-create-binary-tree-from-descriptions/) | Hard | [Hash Map](patterns/hash-map.md) | Java | O(n) | O(n) | [Explanation](leetcode/2306-create-binary-tree-from-descriptions/Explanation.md) |
+| 2319 | [Check if Matrix Is X-Matrix](leetcode/2319-longest-substring-of-one-repeating-character/) | Easy | [Binary Search](patterns/binary-search.md) | Java | O(n) | O(1) | [Explanation](leetcode/2319-longest-substring-of-one-repeating-character/Explanation.md) |
+| 2347 | [Best Poker Hand](leetcode/2347-count-nodes-equal-to-average-of-subtree/) | Easy | [Two Pointers](patterns/two-pointers.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/2347-count-nodes-equal-to-average-of-subtree/Explanation.md) |
+| 2349 | [Design a Number Container System](leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | Medium | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/Explanation.md) |
+| 2559 | [Count Vowel Strings in Ranges](leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | Medium | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/Explanation.md) |
+| 2582 | [Pass the Pillow](leetcode/2582-minimum-score-of-a-path-between-two-cities/) | Easy | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/2582-minimum-score-of-a-path-between-two-cities/Explanation.md) |
+| 2634 | [Filter Elements from Array](leetcode/2634-minimum-common-value/) | Easy | [Two Pointers](patterns/two-pointers.md) | C++ | O(n) | O(1) | [Explanation](leetcode/2634-minimum-common-value/Explanation.md) |
+| 2639 | [Find the Width of Columns of a Grid](leetcode/2639-separate-the-digits-in-an-array/) | Easy | [Math & Logic](patterns/math-logic.md) | C++ | O(n) | O(1) | [Explanation](leetcode/2639-separate-the-digits-in-an-array/Explanation.md) |
+| 2714 | [Find Shortest Path with K Hops](leetcode/2714-left-and-right-sum-differences/) | Hard | [Array / General](patterns/array-general.md) | Kotlin | O(n) | O(1) | [Explanation](leetcode/2714-left-and-right-sum-differences/Explanation.md) |
+| 2731 | [Movement of Robots](leetcode/2731-memoize/) | Medium | [Database / SQL](patterns/sql-database.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/2731-memoize/Explanation.md) |
+| 2732 | [Find a Good Subset of the Matrix](leetcode/2732-counter/) | Hard | [Array / General](patterns/array-general.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/2732-counter/Explanation.md) |
+| 2733 | [Neither Minimum nor Maximum](leetcode/2733-sleep/) | Easy | [Array / General](patterns/array-general.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/2733-sleep/Explanation.md) |
+| 2734 | [Lexicographically Smallest String After Substring Operation](leetcode/2734-array-prototype-last/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/2734-array-prototype-last/Explanation.md) |
+| 2741 | [Special Permutations](leetcode/2741-function-composition/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2741-function-composition/Explanation.md) |
+| 2742 | [Painting the Walls](leetcode/2742-group-by/) | Hard | [Database / SQL](patterns/sql-database.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/2742-group-by/Explanation.md) |
+| 2743 | [Count Substrings Without Repeating Character](leetcode/2743-debounce/) | Medium | [Sliding Window](patterns/sliding-window.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2743-debounce/Explanation.md) |
+| 2744 | [Find Maximum Number of String Pairs](leetcode/2744-memoize-ii/) | Easy | [Hash Map](patterns/hash-map.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/2744-memoize-ii/Explanation.md) |
+| 2746 | [Decremental String Concatenation](leetcode/2746-filter-elements-from-array/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2746-filter-elements-from-array/Explanation.md) |
+| 2747 | [Count Zero Request Servers](leetcode/2747-apply-transform-over-each-element-in-array/) | Medium | [Hash Map](patterns/hash-map.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/2747-apply-transform-over-each-element-in-array/Explanation.md) |
+| 2749 | [Minimum Operations to Make the Integer Zero](leetcode/2749-promise-time-limit/) | Medium | [Math & Logic](patterns/math-logic.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2749-promise-time-limit/Explanation.md) |
+| 2758 | [Next Day](leetcode/2758-check-if-object-instance-of-class/) | Easy | [Array / General](patterns/array-general.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/2758-check-if-object-instance-of-class/Explanation.md) |
+| 2759 | [Convert JSON String to Object](leetcode/2759-flatten-deeply-nested-array/) | Hard | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2759-flatten-deeply-nested-array/Explanation.md) |
+| 2760 | [Longest Even Odd Subarray With Threshold](leetcode/2760-snail-traversal/) | Easy | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2760-snail-traversal/Explanation.md) |
+| 2761 | [Prime Pairs With Target Sum](leetcode/2761-array-reduce-transformation/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2761-array-reduce-transformation/Explanation.md) |
+| 2762 | [Continuous Subarrays](leetcode/2762-cache-with-time-limit/) | Medium | [Hash Map](patterns/hash-map.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/2762-cache-with-time-limit/Explanation.md) |
+| 2766 | [Relocate Marbles](leetcode/2766-find-the-prefix-common-array-of-two-arrays/) | Medium | [Hash Map](patterns/hash-map.md) | C++ | O(n) | O(n) | [Explanation](leetcode/2766-find-the-prefix-common-array-of-two-arrays/Explanation.md) |
+| 2775 | [Undefined to Null](leetcode/2775-generate-fibonacci-sequence/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2775-generate-fibonacci-sequence/Explanation.md) |
+| 2783 | [Flight Occupancy and Waitlist Analysis](leetcode/2783-nested-array-generator/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2783-nested-array-generator/Explanation.md) |
+| 2788 | [Split Strings by Separator](leetcode/2788-design-cancellable-function/) | Easy | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2788-design-cancellable-function/Explanation.md) |
+| 2789 | [Largest Element in an Array after Merge Operations](leetcode/2789-counter-ii/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2789-counter-ii/Explanation.md) |
+| 2790 | [Maximum Number of Groups With Increasing Length](leetcode/2790-call-function-with-custom-context/) | Hard | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2790-call-function-with-custom-context/Explanation.md) |
+| 2793 | [Status of Flight Tickets](leetcode/2793-count-the-number-of-complete-components/) | Hard | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/2793-count-the-number-of-complete-components/Explanation.md) |
+| 2796 | [Repeat String](leetcode/2796-allow-one-function-call/) | Easy | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2796-allow-one-function-call/Explanation.md) |
+| 2797 | [Partial Function with Placeholders](leetcode/2797-event-emitter/) | Easy | [Database / SQL](patterns/sql-database.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/2797-event-emitter/Explanation.md) |
+| 2798 | [Number of Employees Who Met the Target](leetcode/2798-chunk-array/) | Easy | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2798-chunk-array/Explanation.md) |
+| 2804 | [Array Prototype ForEach](leetcode/2804-compact-object/) | Easy | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2804-compact-object/Explanation.md) |
+| 2805 | [Custom Interval](leetcode/2805-array-wrapper/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2805-array-wrapper/Explanation.md) |
+| 2807 | [Insert Greatest Common Divisors in Linked List](leetcode/2807-execute-asynchronous-functions-in-parallel/) | Medium | [Two Pointers](patterns/two-pointers.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2807-execute-asynchronous-functions-in-parallel/Explanation.md) |
+| 2809 | [Minimum Time to Make Array Sum At Most x](leetcode/2809-create-hello-world-function/) | Hard | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2809-create-hello-world-function/Explanation.md) |
+| 2813 | [Maximum Elegance of a K-Length Subsequence](leetcode/2813-to-be-or-not-to-be/) | Hard | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2813-to-be-or-not-to-be/Explanation.md) |
+| 2820 | [Election Results](leetcode/2820-return-length-of-arguments-passed/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2820-return-length-of-arguments-passed/Explanation.md) |
+| 2855 | [Minimum Right Shifts to Sort the Array](leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/) | Easy | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/Explanation.md) |
+| 2858 | [Minimum Edge Reversals So Every Node Is Reachable](leetcode/2858-join-two-arrays-by-id/) | Hard | [Hash Map](patterns/hash-map.md) | TypeScript | O(n) | O(n) | [Explanation](leetcode/2858-join-two-arrays-by-id/Explanation.md) |
+| 2859 | [Sum of Values at Indices With K Set Bits](leetcode/2859-add-two-promises/) | Easy | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2859-add-two-promises/Explanation.md) |
+| 2860 | [Happy Students](leetcode/2860-sort-by/) | Medium | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2860-sort-by/Explanation.md) |
+| 2862 | [Maximum Element-Sum of a Complete Subset of Indices](leetcode/2862-interval-cancellation/) | Hard | [Greedy](patterns/greedy.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2862-interval-cancellation/Explanation.md) |
+| 2863 | [Maximum Length of Semi-Decreasing Subarrays](leetcode/2863-calculator-with-method-chaining/) | Medium | [Math & Logic](patterns/math-logic.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2863-calculator-with-method-chaining/Explanation.md) |
+| 2864 | [Maximum Odd Binary Number](leetcode/2864-is-object-empty/) | Easy | [Array / General](patterns/array-general.md) | TypeScript | O(n) | O(1) | [Explanation](leetcode/2864-is-object-empty/Explanation.md) |
+| 2892 | [Minimizing Array After Replacing Pairs With Their Product](leetcode/2892-check-if-array-is-good/) | Medium | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/2892-check-if-array-is-good/Explanation.md) |
+| 2914 | [Minimum Number of Changes to Make Binary String Beautiful](leetcode/2914-find-the-safest-path-in-a-grid/) | Medium | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/2914-find-the-safest-path-in-a-grid/Explanation.md) |
+| 3150 | [Invalid Tweets II](leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string/) | Easy | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string/Explanation.md) |
+| 3219 | [Minimum Cost for Cutting Cake II](leetcode/3219-make-lexicographically-smallest-array-by-swapping-elements/) | Hard | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/3219-make-lexicographically-smallest-array-by-swapping-elements/Explanation.md) |
+| 3225 | [Maximum Score From Grid Operations](leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/) | Hard | [Hash Map](patterns/hash-map.md) | C++ | O(n) | O(n) | [Explanation](leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/Explanation.md) |
+| 3236 | [CEO Subordinate Hierarchy](leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Hard | [Array / General](patterns/array-general.md) | Rust | O(n) | O(1) | [Explanation](leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/Explanation.md) |
+| 3275 | [K-th Nearest Obstacle Queries](leetcode/3275-minimum-number-of-pushes-to-type-word-i/) | Medium | [Hash Map](patterns/hash-map.md) | Dart | O(n) | O(n) | [Explanation](leetcode/3275-minimum-number-of-pushes-to-type-word-i/Explanation.md) |
+| 3276 | [Select Cells in Grid With Maximum Score](leetcode/3276-minimum-number-of-pushes-to-type-word-ii/) | Hard | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/3276-minimum-number-of-pushes-to-type-word-ii/Explanation.md) |
+| 3299 | [Sum of Consecutive Subsequences](leetcode/3299-find-the-maximum-number-of-elements-in-subset/) | Hard | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/3299-find-the-maximum-number-of-elements-in-subset/Explanation.md) |
+| 3329 | [Count Substrings With K-Frequency Characters II](leetcode/3329-find-the-length-of-the-longest-common-prefix/) | Hard | [Hash Map](patterns/hash-map.md) | C++ | O(n) | O(n) | [Explanation](leetcode/3329-find-the-length-of-the-longest-common-prefix/Explanation.md) |
+| 3347 | [Maximum Frequency of an Element After Performing Operations II](leetcode/3347-distribute-elements-into-two-arrays-i/) | Hard | [Hash Map](patterns/hash-map.md) | Go | O(n) | O(n) | [Explanation](leetcode/3347-distribute-elements-into-two-arrays-i/Explanation.md) |
+| 3349 | [Adjacent Increasing Subarrays Detection I](leetcode/3349-maximum-length-substring-with-two-occurrences/) | Easy | [Array / General](patterns/array-general.md) | Swift | O(n) | O(1) | [Explanation](leetcode/3349-maximum-length-substring-with-two-occurrences/Explanation.md) |
+| 3375 | [Minimum Operations to Make Array Values Equal to K](leetcode/3375-kth-smallest-amount-with-single-denomination-combination/) | Easy | [Array / General](patterns/array-general.md) | Java | O(n) | O(1) | [Explanation](leetcode/3375-kth-smallest-amount-with-single-denomination-combination/Explanation.md) |
+| 3376 | [Minimum Time to Break Locks I](leetcode/3376-longest-common-suffix-queries/) | Medium | [Database / SQL](patterns/sql-database.md) | Python | O(n) | O(n) | [Explanation](leetcode/3376-longest-common-suffix-queries/Explanation.md) |
+| 3408 | [Design Task Manager](leetcode/3408-count-the-number-of-special-characters-i/) | Medium | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/3408-count-the-number-of-special-characters-i/Explanation.md) |
+| 3435 | [Frequencies of Shortest Supersequences](leetcode/3435-block-placement-queries/) | Hard | [Database / SQL](patterns/sql-database.md) | Python | O(n) | O(n) | [Explanation](leetcode/3435-block-placement-queries/Explanation.md) |
+| 3558 | [Number of Ways to Assign Edge Weights I](leetcode/3558-find-a-safe-walk-through-a-grid/) | Medium | [Tree & Graph](patterns/tree-graph.md) | Java | O(n) | O(n) | [Explanation](leetcode/3558-find-a-safe-walk-through-a-grid/Explanation.md) |
+| 3561 | [Resulting String After Adjacent Removals](leetcode/3561-remove-methods-from-project/) | Medium | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/3561-remove-methods-from-project/Explanation.md) |
+| 3562 | [Maximum Profit from Trading Stocks with Discounts](leetcode/3562-maximum-score-of-non-overlapping-intervals/) | Hard | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/3562-maximum-score-of-non-overlapping-intervals/Explanation.md) |
+| 3583 | [Count Special Triplets](leetcode/3583-sorted-gcd-pair-queries/) | Medium | [Database / SQL](patterns/sql-database.md) | PHP | O(n) | O(n) | [Explanation](leetcode/3583-sorted-gcd-pair-queries/Explanation.md) |
+| 3584 | [Maximum Product of First and Last Elements of a Subsequence](leetcode/3584-find-the-lexicographically-smallest-valid-sequence/) | Medium | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/3584-find-the-lexicographically-smallest-valid-sequence/Explanation.md) |
+| 3606 | [Coupon Code Validator](leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | Easy | [Math & Logic](patterns/math-logic.md) | C++ | O(n) | O(1) | [Explanation](leetcode/3606-minimum-element-after-replacement-with-digit-sum/Explanation.md) |
+| 3608 | [Minimum Time for K Connected Components](leetcode/3608-find-the-number-of-subsequences-with-equal-gcd/) | Medium | [Dynamic Programming](patterns/dynamic-programming.md) | PHP | O(n) | O(n) | [Explanation](leetcode/3608-find-the-number-of-subsequences-with-equal-gcd/Explanation.md) |
+| 3626 | [Find Stores with Inventory Imbalance](leetcode/3626-smallest-divisible-digit-product-i/) | Medium | [Math & Logic](patterns/math-logic.md) | Ruby | O(n) | O(1) | [Explanation](leetcode/3626-smallest-divisible-digit-product-i/Explanation.md) |
+| 3635 | [Earliest Finish Time for Land and Water Rides II](leetcode/3635-smallest-divisible-digit-product-ii/) | Medium | [Math & Logic](patterns/math-logic.md) | Python, TypeScript | O(n) | O(1) | [Explanation](leetcode/3635-smallest-divisible-digit-product-ii/Explanation.md) |
+| 3705 | [Find Golden Hour Customers](leetcode/3705-find-the-largest-almost-missing-integer/) | Medium | [Array / General](patterns/array-general.md) | Kotlin | O(n) | O(1) | [Explanation](leetcode/3705-find-the-largest-almost-missing-integer/Explanation.md) |
+| 3799 | [Word Squares II](leetcode/3799-unique-3-digit-even-numbers/) | Medium | [Math & Logic](patterns/math-logic.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/3799-unique-3-digit-even-numbers/Explanation.md) |
+| 3804 | [Number of Centered Subarrays](leetcode/3804-maximize-active-section-with-trade-ii/) | Medium | [Array / General](patterns/array-general.md) | PHP | O(n) | O(1) | [Explanation](leetcode/3804-maximize-active-section-with-trade-ii/Explanation.md) |
+| 3805 | [Count Caesar Cipher Pairs](leetcode/3805-maximize-active-section-with-trade-i/) | Medium | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/3805-maximize-active-section-with-trade-i/Explanation.md) |
+| 3811 | [Number of Alternating XOR Partitions](leetcode/3811-reverse-degree-of-a-string/) | Medium | [Array / General](patterns/array-general.md) | Python | O(n) | O(1) | [Explanation](leetcode/3811-reverse-degree-of-a-string/Explanation.md) |
+| 3812 | [Minimum Edge Toggles on a Tree](leetcode/3812-smallest-palindromic-rearrangement-i/) | Hard | [Tree & Graph](patterns/tree-graph.md) | C++ | O(n) | O(n) | [Explanation](leetcode/3812-smallest-palindromic-rearrangement-i/Explanation.md) |
+| 3813 | [Vowel-Consonant Score](leetcode/3813-smallest-palindromic-rearrangement-ii/) | Easy | [Array / General](patterns/array-general.md) | PHP | O(n) | O(1) | [Explanation](leetcode/3813-smallest-palindromic-rearrangement-ii/Explanation.md) |
+| 3820 | [Pythagorean Distance Nodes in a Tree](leetcode/3820-number-of-unique-xor-triplets-ii/) | Medium | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/3820-number-of-unique-xor-triplets-ii/Explanation.md) |
+| 3824 | [Minimum K to Reduce Array Within Limit](leetcode/3824-number-of-unique-xor-triplets-i/) | Medium | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/3824-number-of-unique-xor-triplets-i/Explanation.md) |
+| 3831 | [Median of a Binary Search Tree Level](leetcode/3831-find-x-value-of-array-i/) | Medium | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/3831-find-x-value-of-array-i/Explanation.md) |
+| 3838 | [Weighted Word Mapping](leetcode/3838-path-existence-queries-in-a-graph-i/) | Easy | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/3838-path-existence-queries-in-a-graph-i/Explanation.md) |
+| 3840 | [House Robber V](leetcode/3840-find-x-value-of-array-ii/) | Medium | [Database / SQL](patterns/sql-database.md) | JavaScript | O(n) | O(n) | [Explanation](leetcode/3840-find-x-value-of-array-ii/Explanation.md) |
+| 3842 | [Toggle Light Bulbs](leetcode/3842-number-of-ways-to-assign-edge-weights-ii/) | Easy | [Database / SQL](patterns/sql-database.md) | Python | O(n) | O(n) | [Explanation](leetcode/3842-number-of-ways-to-assign-edge-weights-ii/Explanation.md) |
+| 3844 | [Longest Almost-Palindromic Substring](leetcode/3844-number-of-ways-to-assign-edge-weights-i/) | Medium | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/3844-number-of-ways-to-assign-edge-weights-i/Explanation.md) |
+| 3852 | [Smallest Pair With Different Frequencies](leetcode/3852-path-existence-queries-in-a-graph-ii/) | Easy | [Database / SQL](patterns/sql-database.md) | PHP | O(n) | O(n) | [Explanation](leetcode/3852-path-existence-queries-in-a-graph-ii/Explanation.md) |
+| 3859 | [Count Subarrays With K Distinct Integers](leetcode/3859-maximum-product-of-two-digits/) | Hard | [Math & Logic](patterns/math-logic.md) | Erlang | O(n) | O(1) | [Explanation](leetcode/3859-maximum-product-of-two-digits/Explanation.md) |
+| 3869 | [Count Fancy Numbers in a Range](leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | Hard | [Math & Logic](patterns/math-logic.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/3869-smallest-index-with-digit-sum-equal-to-index/Explanation.md) |
+| 3870 | [Count Commas in Range](leetcode/3870-minimum-moves-to-clean-the-classroom/) | Easy | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/3870-minimum-moves-to-clean-the-classroom/Explanation.md) |
+| 3918 | [Sum of Primes Between Number and Its Reverse](leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Medium | [Math & Logic](patterns/math-logic.md) | C | O(n) | O(1) | [Explanation](leetcode/3918-check-divisibility-by-digit-sum-and-product/Explanation.md) |
+| 3919 | [Minimum Cost to Move Between Indices](leetcode/3919-network-recovery-pathways/) | Medium | [Database / SQL](patterns/sql-database.md) | PHP | O(n) | O(n) | [Explanation](leetcode/3919-network-recovery-pathways/Explanation.md) |
+| 3931 | [Check Adjacent Digit Differences](leetcode/3931-process-string-with-special-operations-i/) | Easy | [Array / General](patterns/array-general.md) | Java | O(n) | O(1) | [Explanation](leetcode/3931-process-string-with-special-operations-i/Explanation.md) |
+| 3933 | [Largest Local Values in a Matrix II](leetcode/3933-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/3933-minimum-jumps-to-reach-end-via-prime-teleportation/Explanation.md) |
+| 3939 | [Count Non Adjacent Subsets in a Rooted Tree](leetcode/3939-process-string-with-special-operations-ii/) | Hard | [Tree & Graph](patterns/tree-graph.md) | Python | O(n) | O(n) | [Explanation](leetcode/3939-process-string-with-special-operations-ii/Explanation.md) |
+| 3962 | [Maximum Subarray Sum After at Most K Swaps](leetcode/3962-number-of-zigzag-arrays-i/) | Hard | [Array / General](patterns/array-general.md) | PHP | O(n) | O(1) | [Explanation](leetcode/3962-number-of-zigzag-arrays-i/Explanation.md) |
+| 3964 | [Minimum Lights to Illuminate a Road](leetcode/3964-number-of-zigzag-arrays-ii/) | Medium | [Array / General](patterns/array-general.md) | PHP | O(n) | O(1) | [Explanation](leetcode/3964-number-of-zigzag-arrays-ii/Explanation.md) |
+| 3965 | [Finish Time of Tasks I](leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/) | Medium | [Array / General](patterns/array-general.md) | Kotlin | O(n) | O(1) | [Explanation](leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/Explanation.md) |
+| 3967 | [Finish Time of Tasks II](leetcode/3967-earliest-finish-time-for-land-and-water-rides-ii/) | Hard | [Array / General](patterns/array-general.md) | Java | O(n) | O(1) | [Explanation](leetcode/3967-earliest-finish-time-for-land-and-water-rides-ii/Explanation.md) |
+| 3981 | [Count Distinct Ways to Form Target from Two Strings](leetcode/3981-jump-game-ix/) | Hard | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/3981-jump-game-ix/Explanation.md) |
+| 3986 | [Number of Elapsed Seconds Between Two Times](leetcode/3986-maximum-path-score-in-a-grid/) | Easy | [Database / SQL](patterns/sql-database.md) | C++ | O(n) | O(n) | [Explanation](leetcode/3986-maximum-path-score-in-a-grid/Explanation.md) |
+| 3995 | [Minimum Cost to Convert String III](leetcode/3995-gcd-of-odd-and-even-sums/) | Hard | [Array / General](patterns/array-general.md) | Kotlin | O(n) | O(1) | [Explanation](leetcode/3995-gcd-of-odd-and-even-sums/Explanation.md) |
+| 4005 | [Minimum Operations to Make Array Equal III](leetcode/4005-maximum-total-subarray-value-i/) | Hard | [Array / General](patterns/array-general.md) | Java | O(n) | O(1) | [Explanation](leetcode/4005-maximum-total-subarray-value-i/Explanation.md) |
+| 4007 | [Widest Possible Fence](leetcode/4007-maximum-total-subarray-value-ii/) | Hard | [Database / SQL](patterns/sql-database.md) | Python | O(n) | O(n) | [Explanation](leetcode/4007-maximum-total-subarray-value-ii/Explanation.md) |
+| 4020 | [Elevator Requests I](leetcode/4020-lexicographically-smallest-permutation-greater-than-target/) | Easy | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/4020-lexicographically-smallest-permutation-greater-than-target/Explanation.md) |
+| 4033 | [Valid K-Unique Subarrays I](leetcode/4033-longest-subsequence-with-non-zero-bitwise-xor/) | Hard | [Dynamic Programming](patterns/dynamic-programming.md) | C++ | O(n) | O(n) | [Explanation](leetcode/4033-longest-subsequence-with-non-zero-bitwise-xor/Explanation.md) |
+| 4037 | [Maximum Valid Split Positions II](leetcode/4037-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard | [Array / General](patterns/array-general.md) | Java | O(n) | O(1) | [Explanation](leetcode/4037-lexicographically-smallest-palindromic-permutation-greater-than-target/Explanation.md) |
+| 4057 | [Number of Intersecting Interval Pairs II](leetcode/4057-total-waviness-of-numbers-in-range-i/) | Medium | [Array / General](patterns/array-general.md) | Java | O(n) | O(1) | [Explanation](leetcode/4057-total-waviness-of-numbers-in-range-i/Explanation.md) |
+| 4074 | [Count Subarrays With Majority Element I](leetcode/4074-count-subarrays-with-majority-element-i/) | Medium | [Array / General](patterns/array-general.md) | Java | O(n) | O(1) | [Explanation](leetcode/4074-count-subarrays-with-majority-element-i/Explanation.md) |
+| 4075 | [Count Subarrays With Majority Element II](leetcode/4075-count-subarrays-with-majority-element-ii/) | Hard | [Array / General](patterns/array-general.md) | PHP | O(n) | O(1) | [Explanation](leetcode/4075-count-subarrays-with-majority-element-ii/Explanation.md) |
+| 4080 | [Smallest Missing Multiple of K](leetcode/4080-smallest-missing-multiple-of-k/) | Easy | [Database / SQL](patterns/sql-database.md) | C# | O(n) | O(n) | [Explanation](leetcode/4080-smallest-missing-multiple-of-k/Explanation.md) |
+| 4107 | [Find Missing Elements](leetcode/4107-find-missing-elements/) | Easy | [Array / General](patterns/array-general.md) | PHP | O(n) | O(1) | [Explanation](leetcode/4107-find-missing-elements/Explanation.md) |
+| 4128 | [Total Waviness of Numbers in Range II](leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | [Array / General](patterns/array-general.md) | Python | O(n) | O(1) | [Explanation](leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
+| 4135 | [Concatenate Non-Zero Digits and Multiply by Sum I](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | [Math & Logic](patterns/math-logic.md) | Kotlin | O(n) | O(1) | [Explanation](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/Explanation.md) |
+| 4136 | [Concatenate Non-Zero Digits and Multiply by Sum II](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | [Database / SQL](patterns/sql-database.md) | Java | O(n) | O(n) | [Explanation](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/Explanation.md) |
+| 4216 | [Weighted Word Mapping](leetcode/4216-weighted-word-mapping/) | Easy | [Hash Map](patterns/hash-map.md) | Kotlin | O(n) | O(n) | [Explanation](leetcode/4216-weighted-word-mapping/Explanation.md) |
+| 4242 | [Sum of GCD of Formed Pairs](leetcode/4242-sum-of-gcd-of-formed-pairs/) | Medium | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/4242-sum-of-gcd-of-formed-pairs/Explanation.md) |
+| 4245 | [Count Commas in Range](leetcode/4245-count-commas-in-range/) | Easy | [Array / General](patterns/array-general.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/4245-count-commas-in-range/Explanation.md) |
+| 4248 | [Count Commas in Range II](leetcode/4248-count-commas-in-range-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/4248-count-commas-in-range-ii/Explanation.md) |
+| 4256 | [Construct Uniform Parity Array I](leetcode/4256-construct-uniform-parity-array-i/) | Easy | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/4256-construct-uniform-parity-array-i/Explanation.md) |
+| 4258 | [Construct Uniform Parity Array II](leetcode/4258-construct-uniform-parity-array-ii/) | Medium | [Array / General](patterns/array-general.md) | C++ | O(n) | O(1) | [Explanation](leetcode/4258-construct-uniform-parity-array-ii/Explanation.md) |
+| 4284 | [Smallest Stable Index I](leetcode/4284-smallest-stable-index-i/) | Easy | [Array / General](patterns/array-general.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/4284-smallest-stable-index-i/Explanation.md) |
+| 4285 | [Smallest Stable Index II](leetcode/4285-smallest-stable-index-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | O(n) | O(1) | [Explanation](leetcode/4285-smallest-stable-index-ii/Explanation.md) |

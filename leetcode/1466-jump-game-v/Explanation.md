@@ -1,9 +1,28 @@
-# Jump Game V
+# LeetCode 1466: Reorder Routes to Make All Paths Lead to the City Zero
 
-## Problem Explanation
-Given an array `arr` and an integer `d`, you stand on index `i` and can jump to index `j` if: `j` is within `d` distance, `arr[i] > arr[j]`, and all indices between `i` and `j` also have values less than `arr[i]`. Return the maximum number of indices you can visit.
+**LeetCode Problem #1466 — Reorder Routes to Make All Paths Lead to the City Zero**
+Solve LeetCode Reorder Routes to Make All Paths Lead to the City Zero using C++ and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
 
-## How the Code Works
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Reorder Routes to Make All Paths Lead to the City Zero |
+| LeetCode | #1466 |
+| Difficulty | Medium |
+| Language | C++ |
+| Algorithm | Memoization / Bottom-Up State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
+
+## Problem
+Given an array of integers  arr  and an integer  d . In one step you can jump from index  i  to index:
+
+## Key Insight
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
+
+## Approach
 The code uses **DFS with Memoization**.
 
 1. **DP Array:** `dp[i]` stores the maximum number of indices reachable from index `i`. Initialized to `1` (the index itself).
@@ -13,3 +32,49 @@ The code uses **DFS with Memoization**.
 3. **Answer:** The maximum of `dfs(i)` over all starting indices.
 
 Time complexity is $O(N \times D)$ and space complexity is $O(N)$.
+
+## Algorithm
+1. Initialize state variables / data structure (**DP Table / Array**).
+2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Reorder Routes to Make All Paths Lead to the City Zero**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Dynamic Programming**
+
+## Topics
+- Dynamic Programming
+- Memoization
+- State Transition
+
+## Language
+C++
+
+## Source Code
+- [solution.cpp](./solution.cpp)
+
+## Why This Works
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
+
+## Interview Notes
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
+
+## Related Problems
+- [1428. Leftmost Column with at Least a One](../1428-jump-game-iii/)
+- [1447. Simplified Fractions](../1447-jump-game-iv/)
+- [1685. Sum of Absolute Differences in a Sorted Array](../1685-stone-game-v/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/jump-game-v/)

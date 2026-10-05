@@ -1,16 +1,28 @@
-# Smallest Index With Digit Sum Equal to Index
+# LeetCode 3869: Count Fancy Numbers in a Range
 
-## Problem Explanation
-You are given an integer array `nums`. You need to find the **smallest index** `i` in the array where the **sum of the digits** of the number at that index `nums[i]` is exactly equal to the index `i`. 
+**LeetCode Problem #3869 — Count Fancy Numbers in a Range**
+Solve LeetCode Count Fancy Numbers in a Range using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
 
-If no such index exists in the array, you must return `-1`.
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Count Fancy Numbers in a Range |
+| LeetCode | #3869 |
+| Difficulty | Hard |
+| Language | JavaScript |
+| Algorithm | Mathematical Simulation / Modular Arithmetic |
+| Data Structure | Primitive Data Types |
+| Pattern | Math & Logic |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
 
-For example, if `nums = [1, 10, 11]`:
-- At index `0`: `nums[0] = 1`. Sum of digits = `1`. Not equal to `0`.
-- At index `1`: `nums[1] = 10`. Sum of digits = `1 + 0 = 1`. Equal to index `1`!
-Since we want the smallest index and we iterate from left to right, we can stop and return `1`.
+## Problem
+You are given an integer array  nums .
 
-## How the Code Works
+## Key Insight
+Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
 The code uses a straightforward iterative approach.
 1. It uses a `for` loop to iterate through the array from the first element (index `0`) to the last. This naturally ensures we find the smallest index first.
 2. For each index `i`, it takes the number `nums[i]`.
@@ -21,3 +33,48 @@ The code uses a straightforward iterative approach.
 4. It compares the calculated `sum` with the current index `i`.
    - If `sum === i`, it immediately returns `i`, fulfilling the condition of finding the smallest index.
 5. If the loop finishes checking all elements without returning, it means no such index exists, so it returns `-1`.
+
+## Algorithm
+1. Initialize state variables / data structure (**Primitive Data Types**).
+2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Count Fancy Numbers in a Range**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Math & Logic**
+
+## Topics
+- Math
+- Simulation
+
+## Language
+JavaScript
+
+## Source Code
+- [solution.js](./solution.js)
+
+## Why This Works
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [3236. CEO Subordinate Hierarchy](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
+- [3606. Coupon Code Validator](../3606-minimum-element-after-replacement-with-digit-sum/)
+- [3626. Find Stores with Inventory Imbalance](../3626-smallest-divisible-digit-product-i/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/)

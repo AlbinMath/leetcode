@@ -1,7 +1,73 @@
-# Partition Array According To Given Pivot
+# LeetCode 2265: Count Nodes Equal to Average of Subtree
 
-## Problem Explanation
-Rearrange `nums` so elements less than `pivot` come first, then elements equal to `pivot`, then elements greater. Maintain relative order within each group.
+**LeetCode Problem #2265 — Count Nodes Equal to Average of Subtree**
+Solve LeetCode Count Nodes Equal to Average of Subtree using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
-## How the Code Works
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Count Nodes Equal to Average of Subtree |
+| LeetCode | #2265 |
+| Difficulty | Medium |
+| Language | Java |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
+
+## Problem
+You are given a  0-indexed  integer array  nums  and an integer  pivot . Rearrange  nums  such that the following conditions are satisfied:
+
+## Key Insight
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
 Three-pass approach: collect elements < pivot, then == pivot, then > pivot, and concatenate them. This maintains relative order within each partition.
+
+## Algorithm
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Count Nodes Equal to Average of Subtree**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Tree & Graph**
+
+## Topics
+- Tree
+- Graph
+- DFS
+- BFS
+
+## Language
+Java
+
+## Source Code
+- [solution.java](./solution.java)
+
+## Why This Works
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
+- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/partition-array-according-to-given-pivot/)

@@ -1,9 +1,28 @@
-# Print Foobar Alternately
+# LeetCode 1187: Make Array Strictly Increasing
 
-## Problem Explanation
-Two threads are given: one prints `"foo"` and the other prints `"bar"`. They must alternate output to produce `"foobarfoobar..."` exactly `n` times. The `foo` thread must always go first.
+**LeetCode Problem #1187 — Make Array Strictly Increasing**
+Solve LeetCode Make Array Strictly Increasing using Java and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
-## How the Code Works
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Make Array Strictly Increasing |
+| LeetCode | #1187 |
+| Difficulty | Hard |
+| Language | Java |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
+
+## Problem
+Suppose you are given the following code:
+
+## Key Insight
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
+
+## Approach
 The code uses **Semaphores** for synchronization.
 
 1. `fooSem` starts at `1` (foo can go first) and `barSem` starts at `0` (bar must wait).
@@ -11,3 +30,49 @@ The code uses **Semaphores** for synchronization.
 3. **bar thread:** Acquires `barSem`, prints "bar", then releases `fooSem` (allowing foo to proceed again).
 
 This ping-pong of semaphores ensures strict alternation for `n` iterations.
+
+## Algorithm
+1. Initialize state variables / data structure (**Dictionary / Hash Map**).
+2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Make Array Strictly Increasing**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Hash Map**
+
+## Topics
+- Hash Table
+- Array
+- Complement Lookup
+
+## Language
+Java
+
+## Source Code
+- [solution.java](./solution.java)
+
+## Why This Works
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
+
+## Interview Notes
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
+
+## Related Problems
+- [1203. Sort Items by Groups Respecting Dependencies](../1203-print-in-order/)
+- [1216. Valid Palindrome III](../1216-print-zero-even-odd/)
+- [1. Two Sum](../0001-two-sum/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/print-foobar-alternately/)

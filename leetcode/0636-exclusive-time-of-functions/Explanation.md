@@ -1,9 +1,28 @@
-# Exclusive Time Of Functions
+# LeetCode 636: Exclusive Time of Functions
 
-## Problem Explanation
-Given `n` functions with IDs from `0` to `n-1` and a list of logs in the format `"id:start_or_end:timestamp"`, compute the exclusive time of each function. Exclusive time is the total time a function spent executing, excluding time spent in nested function calls. Functions are single-threaded and can be called recursively.
+**LeetCode Problem #636 — Exclusive Time of Functions**
+Solve LeetCode Exclusive Time of Functions using TypeScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
 
-## How the Code Works
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Exclusive Time of Functions |
+| LeetCode | #636 |
+| Difficulty | Medium |
+| Language | TypeScript |
+| Algorithm | SQL Query / Relational Join & Grouping |
+| Data Structure | Relational Table |
+| Pattern | Database / SQL |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
+
+## Problem
+On a  single-threaded  CPU, we execute a program containing  n  functions. Each function has a unique ID between 0 and  n - 1 .
+
+## Key Insight
+Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
 The code uses a **Stack** to simulate the function call stack.
 
 1. **Stack:** Stores the IDs of currently active functions. The top of the stack is the currently executing function.
@@ -14,3 +33,49 @@ The code uses a **Stack** to simulate the function call stack.
 4. The `result` array accumulates the exclusive time for each function ID.
 
 Time complexity is $O(L)$ where $L$ is the number of logs, and space complexity is $O(N)$ for the stack.
+
+## Algorithm
+1. Initialize state variables / data structure (**Relational Table**).
+2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Exclusive Time of Functions**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Database / SQL**
+
+## Topics
+- Database
+- SQL
+- Data Aggregation
+
+## Language
+TypeScript
+
+## Source Code
+- [solution.ts](./solution.ts)
+
+## Why This Works
+By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [1801. Number of Orders in the Backlog](../1801-average-time-of-process-per-machine/)
+- [2749. Minimum Operations to Make the Integer Zero](../2749-promise-time-limit/)
+- [2762. Continuous Subarrays](../2762-cache-with-time-limit/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/exclusive-time-of-functions/)

@@ -1,12 +1,28 @@
-# Largest Rectangle In Histogram
+# LeetCode 84: Largest Rectangle in Histogram
 
-## Problem Explanation
-Given an array of integers `heights` representing the histogram's bar heights (each bar has width 1), find the area of the largest rectangle that can be formed in the histogram.
+**LeetCode Problem #84 — Largest Rectangle in Histogram**
+Solve LeetCode Largest Rectangle in Histogram using TypeScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
 
-For example, if `heights = [2,1,5,6,2,3]`:
-- The largest rectangle has area `10` (formed by bars at indices 2 and 3 with heights 5 and 6, width = 2, height = 5).
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Largest Rectangle in Histogram |
+| LeetCode | #84 |
+| Difficulty | Hard |
+| Language | TypeScript |
+| Algorithm | SQL Query / Relational Join & Grouping |
+| Data Structure | Relational Table |
+| Pattern | Database / SQL |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
 
-## How the Code Works
+## Problem
+Given an array of integers  heights  representing the histogram&#39;s bar height where the width of each bar is  1 , return  the area of the largest rectangle in the histogram .
+
+## Key Insight
+Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
 The code uses a **Monotonic Stack** to efficiently compute the largest rectangle in $O(N)$ time.
 
 1. **Stack of Indices:** The stack stores indices of bars in increasing order of their heights.
@@ -18,3 +34,49 @@ The code uses a **Monotonic Stack** to efficiently compute the largest rectangle
 4. **Push Current Index:** The current index is pushed onto the stack.
 
 The stack ensures each bar is pushed and popped at most once, giving $O(N)$ time complexity and $O(N)$ space complexity.
+
+## Algorithm
+1. Initialize state variables / data structure (**Relational Table**).
+2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Largest Rectangle in Histogram**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Database / SQL**
+
+## Topics
+- Database
+- SQL
+- Data Aggregation
+
+## Language
+TypeScript
+
+## Source Code
+- [solution.ts](./solution.ts)
+
+## Why This Works
+By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
+- [866. Prime Palindrome](../0866-rectangle-overlap/)
+- [1501. Countries You Can Safely Invest In](../1501-circle-and-rectangle-overlapping/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/)

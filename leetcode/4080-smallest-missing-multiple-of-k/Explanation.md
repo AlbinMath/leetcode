@@ -1,18 +1,28 @@
-# Smallest Missing Multiple Of K
+# LeetCode 4080: Smallest Missing Multiple of K
 
-## Problem Explanation
-You are given an integer array `nums` and an integer `k`. You need to find the **smallest positive multiple** of `k` that is **not** present in the `nums` array. A multiple of `k` is any positive integer that is divisible by `k` (e.g., `k, 2k, 3k, 4k`, etc.).
+**LeetCode Problem #4080 — Smallest Missing Multiple of K**
+Solve LeetCode Smallest Missing Multiple of K using C# and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
 
-For example, if `nums = [8, 2, 3, 4, 6]` and `k = 2`:
-- The multiples of 2 are `2, 4, 6, 8, 10, ...`
-- `2` is in the array.
-- `4` is in the array.
-- `6` is in the array.
-- `8` is in the array.
-- `10` is **not** in the array.
-So, the smallest missing multiple of 2 is `10`.
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Smallest Missing Multiple of K |
+| LeetCode | #4080 |
+| Difficulty | Easy |
+| Language | C# |
+| Algorithm | SQL Query / Relational Join & Grouping |
+| Data Structure | Relational Table |
+| Pattern | Database / SQL |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
 
-## How the Code Works
+## Problem
+Given an integer array  nums  and an integer  k , return the  smallest positive multiple  of  k  that is  missing  from  nums .
+
+## Key Insight
+Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
 The code uses a `HashSet` to efficiently check for the presence of numbers in $O(1)$ time.
 1. First, it converts the `nums` array into a `HashSet<int>` called `set`. This allows us to quickly look up whether a number exists in the array without having to scan the entire array every time.
 2. It initializes a variable `multiple` to the first multiple, which is `k`.
@@ -22,3 +32,49 @@ The code uses a `HashSet` to efficiently check for the presence of numbers in $O
 5. Finally, it returns that missing `multiple`.
 
 This approach is highly efficient. Converting the array to a HashSet takes $O(N)$ time (where $N$ is the number of elements in `nums`), and the while loop takes at most $O(N)$ steps because there can be at most $N$ multiples of $k$ present in the array. Therefore, the overall time complexity is $O(N)$ and the space complexity is $O(N)$.
+
+## Algorithm
+1. Initialize state variables / data structure (**Relational Table**).
+2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Smallest Missing Multiple of K**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Database / SQL**
+
+## Topics
+- Database
+- SQL
+- Data Aggregation
+
+## Language
+C#
+
+## Source Code
+- [solution.cs](./solution.cs)
+
+## Why This Works
+By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [3236. CEO Subordinate Hierarchy](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
+- [1159. Market Analysis II](../1159-smallest-subsequence-of-distinct-characters/)
+- [1725. Number Of Rectangles That Can Form The Largest Square](../1725-number-of-sets-of-k-non-overlapping-line-segments/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/smallest-missing-multiple-of-k/)

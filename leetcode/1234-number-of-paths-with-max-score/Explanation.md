@@ -1,9 +1,28 @@
-# Number Of Paths With Max Score
+# LeetCode 1234: Replace the Substring for Balanced String
 
-## Problem Explanation
-You have a square board with digits, obstacles (`X`), a start (`S`) at the bottom-right, and an end (`E`) at the top-left. You can move left, up, or diagonally (up-left). Find the maximum score and the number of paths that achieve it.
+**LeetCode Problem #1234 — Replace the Substring for Balanced String**
+Solve LeetCode Replace the Substring for Balanced String using PHP and Dynamic Programming. This solution finds the optimal result using Memoization / Bottom-Up State Transition in O(n) time.
 
-## How the Code Works
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Replace the Substring for Balanced String |
+| LeetCode | #1234 |
+| Difficulty | Medium |
+| Language | PHP |
+| Algorithm | Memoization / Bottom-Up State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
+
+## Problem
+You are given a square  board  of characters. You can move on the board starting at the bottom right square marked with the character  &#39;S&#39; .
+
+## Key Insight
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
+
+## Approach
 The code uses **2D Dynamic Programming** processing from `S` toward `E`.
 
 1. **Two DP Tables:** `score[i][j]` stores the maximum score reachable from `(i,j)` to `S`. `ways[i][j]` stores the number of paths achieving that score. `-1` means unreachable.
@@ -16,3 +35,49 @@ The code uses **2D Dynamic Programming** processing from `S` toward `E`.
 4. **Result:** `[score[0][0], ways[0][0]]`, or `[0, 0]` if unreachable.
 
 Time complexity is $O(N^2)$ and space complexity is $O(N^2)$.
+
+## Algorithm
+1. Initialize state variables / data structure (**DP Table / Array**).
+2. Process elements sequentially using **Memoization / Bottom-Up State Transition**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Replace the Substring for Balanced String**. Applying **Memoization / Bottom-Up State Transition** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Dynamic Programming**
+
+## Topics
+- Dynamic Programming
+- Memoization
+- State Transition
+
+## Language
+PHP
+
+## Source Code
+- [solution.php](./solution.php)
+
+## Why This Works
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
+
+## Interview Notes
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
+
+## Related Problems
+- [9. Palindrome Number](../0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
+- [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/number-of-paths-with-max-score/)

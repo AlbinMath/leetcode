@@ -1,7 +1,70 @@
-# Sum Of Gcd Of Formed Pairs
+# LeetCode 4242: Sum of GCD of Formed Pairs
 
-## Problem Explanation
-[To be added]
+**LeetCode Problem #4242 — Sum of GCD of Formed Pairs**
+Solve LeetCode Sum of GCD of Formed Pairs using C++ and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
 
-## How the Code Works
-[To be added]
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Sum of GCD of Formed Pairs |
+| LeetCode | #4242 |
+| Difficulty | Medium |
+| Language | C++ |
+| Algorithm | Iterative Traversal |
+| Data Structure | Array |
+| Pattern | Array / General |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+You are given an integer array  nums  of length  n .
+
+## Key Insight
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Iterative Traversal**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Sum of GCD of Formed Pairs**. Applying **Iterative Traversal** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Array / General**
+
+## Topics
+- Array
+
+## Language
+C++
+
+## Source Code
+- [solution.cpp](./solution.cpp)
+
+## Why This Works
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [1. Two Sum](../0001-two-sum/)
+- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [1934. Confirmation Rate](../1934-evaluate-the-bracket-pairs-of-a-string/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/)

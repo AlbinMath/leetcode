@@ -1,7 +1,72 @@
-# Join Two Arrays By Id
+# LeetCode 2858: Minimum Edge Reversals So Every Node Is Reachable
 
-## Problem Explanation
-Merge two arrays of objects by their `id` field. If both arrays have an object with the same id, merge their properties (arr2 overrides arr1). Return sorted by id.
+**LeetCode Problem #2858 — Minimum Edge Reversals So Every Node Is Reachable**
+Solve LeetCode Minimum Edge Reversals So Every Node Is Reachable using TypeScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
-## How the Code Works
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Minimum Edge Reversals So Every Node Is Reachable |
+| LeetCode | #2858 |
+| Difficulty | Hard |
+| Language | TypeScript |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
+
+## Problem
+Given two arrays  arr1  and  arr2 , return a new array  joinedArray . All the objects in each of the two inputs arrays will contain an  id  field that has an integer value.
+
+## Key Insight
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
+
+## Approach
 Uses a Map keyed by id. First insert all objects from arr1, then merge/override with objects from arr2 using `Object.assign` or spread. Sort the result by id.
+
+## Algorithm
+1. Initialize state variables / data structure (**Dictionary / Hash Map**).
+2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Minimum Edge Reversals So Every Node Is Reachable**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Hash Map**
+
+## Topics
+- Hash Table
+- Array
+- Complement Lookup
+
+## Language
+TypeScript
+
+## Source Code
+- [solution.ts](./solution.ts)
+
+## Why This Works
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
+
+## Interview Notes
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
+
+## Related Problems
+- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
+- [1573. Number of Ways to Split a String](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [2766. Relocate Marbles](../2766-find-the-prefix-common-array-of-two-arrays/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/join-two-arrays-by-id/)

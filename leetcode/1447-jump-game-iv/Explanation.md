@@ -1,9 +1,28 @@
-# Jump Game IV
+# LeetCode 1447: Simplified Fractions
 
-## Problem Explanation
-Given an array of integers, find the minimum number of jumps to reach the last index. From index `i`, you can jump to `i-1`, `i+1`, or to any index `j` where `arr[j] == arr[i]`.
+**LeetCode Problem #1447 — Simplified Fractions**
+Solve LeetCode Simplified Fractions using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
-## How the Code Works
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Simplified Fractions |
+| LeetCode | #1447 |
+| Difficulty | Medium |
+| Language | C++ |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
+
+## Problem
+Given an array of integers  arr , you are initially positioned at the first index of the array.
+
+## Key Insight
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
+
+## Approach
 The code uses **BFS** for shortest path.
 
 1. **Group by Value:** Build a map from each value to all indices containing it.
@@ -12,3 +31,49 @@ The code uses **BFS** for shortest path.
 4. Return the number of BFS levels when reaching index `n-1`.
 
 Time complexity is $O(N)$ and space complexity is $O(N)$.
+
+## Algorithm
+1. Initialize state variables / data structure (**Dictionary / Hash Map**).
+2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Simplified Fractions**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Hash Map**
+
+## Topics
+- Hash Table
+- Array
+- Complement Lookup
+
+## Language
+C++
+
+## Source Code
+- [solution.cpp](./solution.cpp)
+
+## Why This Works
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
+
+## Interview Notes
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
+
+## Related Problems
+- [1182. Shortest Distance to Target Color](../1182-game-play-analysis-iv/)
+- [1428. Leftmost Column with at Least a One](../1428-jump-game-iii/)
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../1466-jump-game-v/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/jump-game-iv/)

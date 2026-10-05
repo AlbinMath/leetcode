@@ -1,16 +1,28 @@
-# Container With Most Water
+# LeetCode 11: Container With Most Water
 
-## Problem Explanation
-You are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the `i`th line are `(i, 0)` and `(i, height[i])`.
-Find two lines that together with the x-axis form a container, such that the container contains the most water. Return the maximum amount of water a container can store.
+**LeetCode Problem #11 — Container With Most Water**
+Solve LeetCode Container With Most Water using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
 
-For example, if `height = [1,8,6,2,5,4,8,3,7]`:
-- The maximum area is formed by the line at index 1 (`height = 8`) and the line at index 8 (`height = 7`).
-- The width is `8 - 1 = 7`.
-- The height is limited by the shorter line, which is `7`.
-- The area is `7 * 7 = 49`.
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Container With Most Water |
+| LeetCode | #11 |
+| Difficulty | Medium |
+| Language | JavaScript |
+| Algorithm | Two Pointer Convergence / Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## How the Code Works
+## Problem
+You are given an integer array  height  of length  n . There are  n  vertical lines drawn such that the two endpoints of the  i th   line are  (i, 0)  and  (i, height[i]) .
+
+## Key Insight
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
+
+## Approach
 This solution uses the **Two Pointers** approach to find the maximum area in $O(N)$ time.
 
 1. **Initialization:** We start with two pointers, `left` at the beginning (`0`) and `right` at the end (`height.length - 1`) of the array. This gives us the maximum possible width.
@@ -22,3 +34,49 @@ This solution uses the **Two Pointers** approach to find the maximum area in $O(
 5. **Termination:** The loop continues until the two pointers meet, at which point all possible maximum combinations have been considered, and we return `maxWater`.
 
 This approach evaluates the array in a single pass, resulting in an $O(N)$ time complexity and $O(1)$ space complexity.
+
+## Algorithm
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Container With Most Water**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Two Pointers**
+
+## Topics
+- Two Pointers
+- Array
+- Sorting
+
+## Language
+JavaScript
+
+## Source Code
+- [solution.js](./solution.js)
+
+## Why This Works
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
+
+## Interview Notes
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
+
+## Related Problems
+- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
+- [3225. Maximum Score From Grid Operations](../3225-length-of-longest-subarray-with-at-most-k-frequency/)
+- [3965. Finish Time of Tasks I](../3965-earliest-finish-time-for-land-and-water-rides-i/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/container-with-most-water/)

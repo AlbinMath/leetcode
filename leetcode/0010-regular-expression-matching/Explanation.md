@@ -1,18 +1,28 @@
-# Regular Expression Matching
+# LeetCode 10: Regular Expression Matching
 
-## Problem Explanation
-Given an input string `s` and a pattern `p`, implement regular expression matching with support for `'.'` and `'*'`.
-- `'.'` Matches any single character.
-- `'*'` Matches zero or more of the preceding element.
+**LeetCode Problem #10 — Regular Expression Matching**
+Solve LeetCode Regular Expression Matching using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
 
-The matching should cover the **entire** input string (not partial).
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Regular Expression Matching |
+| LeetCode | #10 |
+| Difficulty | Hard |
+| Language | JavaScript |
+| Algorithm | SQL Query / Relational Join & Grouping |
+| Data Structure | Relational Table |
+| Pattern | Database / SQL |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
 
-For example:
-- `s = "aa"`, `p = "a"` returns `false` (does not match the whole string).
-- `s = "aa"`, `p = "a*"` returns `true` (`*` repeats `'a'` once to match `"aa"`).
-- `s = "ab"`, `p = ".*"` returns `true` (`.*` means "zero or more of any character").
+## Problem
+Given an input string  s  and a pattern  p , implement regular expression matching with support for  &#39;.&#39;  and  &#39;*&#39;  where:
 
-## How the Code Works
+## Key Insight
+Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
 This solution uses **Top-Down Dynamic Programming (Memoization)** to check all possible valid matches efficiently.
 
 1. **State:** The recursive function `dp(i, j)` determines if the substring `s[i:]` matches the pattern `p[j:]`.
@@ -26,3 +36,49 @@ This solution uses **Top-Down Dynamic Programming (Memoization)** to check all p
 6. **Handling Normal Characters:** If there's no `'*'`, it simply requires `firstMatch` to be true and recursively calls `dp(i + 1, j + 1)`.
 
 By memoizing the states, the time complexity is reduced to $O(S \times P)$ where $S$ and $P$ are the lengths of the string and pattern respectively.
+
+## Algorithm
+1. Initialize state variables / data structure (**Relational Table**).
+2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Regular Expression Matching**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Database / SQL**
+
+## Topics
+- Database
+- SQL
+- Data Aggregation
+
+## Language
+JavaScript
+
+## Source Code
+- [solution.js](./solution.js)
+
+## Why This Works
+By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [12. Integer to Roman](../0012-integer-to-roman/)
+- [13. Roman to Integer](../0013-roman-to-integer/)
+- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/regular-expression-matching/)

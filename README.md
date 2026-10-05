@@ -1,235 +1,95 @@
-# LeetCode Solutions
+# LeetCode Solutions & DSA Practice
 
-Here are my solutions to various LeetCode problems along with brief explanations. 
-For a complete list of problems, check out the [All Problems Directory](All_Problems.md).
+A continuously updated collection of LeetCode solutions, algorithm explanations, data structures, and coding interview patterns.
 
-## Problem List
-- [0001 - Two Sum](leetcode/0001-two-sum/): Uses a hash map to find the pair of numbers that add up to a target in $O(N)$ time.
-- [0002 - Add Two Numbers](leetcode/0002-add-two-numbers/): Simulates digit-by-digit addition for two linked lists representing reversed numbers.
-- [0003 - Longest Substring Without Repeating Characters](leetcode/0003-longest-substring-without-repeating-characters/): Uses a sliding window and a set to find the longest substring of unique characters.
-- [0004 - Median Of Two Sorted Arrays](leetcode/0004-median-of-two-sorted-arrays/): Uses binary search to find the correct partition between the two arrays in $O(\log(m+n))$ time.
-- [0005 - Longest Palindromic Substring](leetcode/0005-longest-palindromic-substring/): Uses the expand-around-center approach to find palindromes from each character index.
-- [0006 - Zigzag Conversion](leetcode/0006-zigzag-conversion/): Simulates filling rows by traversing down and up to build the zigzag pattern.
-- [0007 - Reverse Integer](leetcode/0007-reverse-integer)
-- [0009 - Palindrome Number](leetcode/0009-palindrome-number/): Reverses the number mathematically without converting it to a string.
-- [0010 - Regular Expression Matching](leetcode/0010-regular-expression-matching)
-- [0011 - Container With Most Water](leetcode/0011-container-with-most-water)
-- [0012 - Integer To Roman](leetcode/0012-integer-to-roman)
-- [0013 - Roman To Integer](leetcode/0013-roman-to-integer/): Iterates through the Roman numeral string and subtracts values when a smaller numeral precedes a larger one.
-- [0014 - Longest Common Prefix](leetcode/0014-longest-common-prefix/): Compares the prefix of the first string with subsequent strings, progressively shortening it.
-- [0015 - 3Sum](leetcode/0015-3sum)
-- [0016 - 3Sum Closest](leetcode/0016-3sum-closest)
-- [0017 - Letter Combinations Of A Phone Number](leetcode/0017-letter-combinations-of-a-phone-number)
-- [0018 - 4Sum](leetcode/0018-4sum)
-- [0019 - Remove Nth Node From End Of List](leetcode/0019-remove-nth-node-from-end-of-list)
-- [0020 - Valid Parentheses](leetcode/0020-valid-parentheses)
-- [0033 - Search In Rotated Sorted Array](leetcode/0033-search-in-rotated-sorted-array)
-- [0048 - Rotate Image](leetcode/0048-rotate-image)
-- [0061 - Rotate List](leetcode/0061-rotate-list)
-- [0084 - Largest Rectangle In Histogram](leetcode/0084-largest-rectangle-in-histogram)
-- [0115 - Distinct Subsequences](leetcode/0115-distinct-subsequences)
-- [0150 - Evaluate Reverse Polish Notation](leetcode/0150-evaluate-reverse-polish-notation)
-- [0153 - Find Minimum In Rotated Sorted Array](leetcode/0153-find-minimum-in-rotated-sorted-array)
-- [0154 - Find Minimum In Rotated Sorted Array Ii](leetcode/0154-find-minimum-in-rotated-sorted-array-ii)
-- [0192 - Word Frequency](leetcode/0192-word-frequency)
-- [0193 - Valid Phone Numbers](leetcode/0193-valid-phone-numbers)
-- [0194 - Transpose File](leetcode/0194-transpose-file)
-- [0195 - Tenth Line](leetcode/0195-tenth-line)
-- [0396 - Rotate Function](leetcode/0396-rotate-function)
-- [0448 - Find All Numbers Disappeared In An Array](leetcode/0448-find-all-numbers-disappeared-in-an-array)
-- [0485 - Max Consecutive Ones](leetcode/0485-max-consecutive-ones)
-- [0486 - Predict The Winner](leetcode/0486-predict-the-winner)
-- [0628 - Maximum Product Of Three Numbers](leetcode/0628-maximum-product-of-three-numbers)
-- [0636 - Exclusive Time Of Functions](leetcode/0636-exclusive-time-of-functions)
-- [0645 - Set Mismatch](leetcode/0645-set-mismatch)
-- [0739 - Daily Temperatures](leetcode/0739-daily-temperatures)
-- [0804 - Rotated Digits](leetcode/0804-rotated-digits)
-- [0812 - Rotate String](leetcode/0812-rotate-string)
-- [0864 - Image Overlap](leetcode/0864-image-overlap)
-- [0866 - Rectangle Overlap](leetcode/0866-rectangle-overlap)
-- [0909 - Stone Game](leetcode/0909-stone-game)
-- [0977 - Distinct Subsequences Ii](leetcode/0977-distinct-subsequences-ii)
-- [1159 - Smallest Subsequence Of Distinct Characters](leetcode/1159-smallest-subsequence-of-distinct-characters)
-- [1186 - Building H2o](leetcode/1186-building-h2o)
-- [1187 - Print Foobar Alternately](leetcode/1187-print-foobar-alternately)
-- [1188 - Brace Expansion Ii](leetcode/1188-brace-expansion-ii/): Implements a recursive descent parser to expand and combine sets of strings using union and cartesian product.
-- [1203 - Print In Order](leetcode/1203-print-in-order)
-- [1212 - Sequential Digits](leetcode/1212-sequential-digits)
-- [1216 - Print Zero Even Odd](leetcode/1216-print-zero-even-odd)
-- [1222 - Remove Covered Intervals](leetcode/1222-remove-covered-intervals)
-- [1234 - Number Of Paths With Max Score](leetcode/1234-number-of-paths-with-max-score)
-- [1240 - Stone Game Ii](leetcode/1240-stone-game-ii)
-- [1256 - Rank Transform Of An Array](leetcode/1256-rank-transform-of-an-array)
-- [1297 - Maximum Number Of Balloons](leetcode/1297-maximum-number-of-balloons)
-- [1298 - Reverse Substrings Between Each Pair Of Parentheses](leetcode/1298-reverse-substrings-between-each-pair-of-parentheses)
-- [1316 - Fizz Buzz Multithreaded](leetcode/1316-fizz-buzz-multithreaded)
-- [1340 - The Dining Philosophers](leetcode/1340-the-dining-philosophers)
-- [1386 - Shift 2d Grid](leetcode/1386-shift-2d-grid)
-- [1428 - Jump Game Iii](leetcode/1428-jump-game-iii)
-- [1446 - Angle Between Hands Of A Clock](leetcode/1446-angle-between-hands-of-a-clock)
-- [1447 - Jump Game Iv](leetcode/1447-jump-game-iv)
-- [1460 - Number Of Substrings Containing All Three Characters](leetcode/1460-number-of-substrings-containing-all-three-characters)
-- [1466 - Jump Game V](leetcode/1466-jump-game-v)
-- [1482 - How Many Numbers Are Smaller Than The Current Number](leetcode/1482-how-many-numbers-are-smaller-than-the-current-number)
-- [1487 - Cinema Seat Allocation](leetcode/1487-cinema-seat-allocation)
-- [1501 - Circle And Rectangle Overlapping](leetcode/1501-circle-and-rectangle-overlapping)
-- [1522 - Stone Game Iii](leetcode/1522-stone-game-iii)
-- [1552 - Build An Array With Stack Operations](leetcode/1552-build-an-array-with-stack-operations)
-- [1570 - Final Prices With A Special Discount In A Shop](leetcode/1570-final-prices-with-a-special-discount-in-a-shop)
-- [1573 - Find Two Non Overlapping Sub Arrays Each With Target Sum](leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum)
-- [1574 - Maximum Product Of Two Elements In An Array](leetcode/1574-maximum-product-of-two-elements-in-an-array)
-- [1580 - Shuffle The Array](leetcode/1580-shuffle-the-array)
-- [1617 - Stone Game Iv](leetcode/1617-stone-game-iv)
-- [1644 - Maximum Number Of Non Overlapping Substrings](leetcode/1644-maximum-number-of-non-overlapping-substrings)
-- [1685 - Stone Game V](leetcode/1685-stone-game-v)
-- [1725 - Number Of Sets Of K Non Overlapping Line Segments](leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments)
-- [1737 - Maximum Nesting Depth Of The Parentheses](leetcode/1737-maximum-nesting-depth-of-the-parentheses)
-- [1776 - Minimum Operations To Reduce X To Zero](leetcode/1776-minimum-operations-to-reduce-x-to-zero/): Reverses the problem to find the longest contiguous subarray that sums to the total array sum minus x.
-- [1784 - Minimum Initial Energy To Finish Tasks](leetcode/1784-minimum-initial-energy-to-finish-tasks)
-- [1793 - Minimum Moves To Make Array Complementary](leetcode/1793-minimum-moves-to-make-array-complementary)
-- [1833 - Find The Highest Altitude](leetcode/1833-find-the-highest-altitude)
-- [1878 - Check If Array Is Sorted And Rotated](leetcode/1878-check-if-array-is-sorted-and-rotated)
-- [1934 - Evaluate The Bracket Pairs Of A String](leetcode/1934-evaluate-the-bracket-pairs-of-a-string)
-- [1956 - Maximum Element After Decreasing And Rearranging](leetcode/1956-maximum-element-after-decreasing-and-rearranging)
-- [1961 - Maximum Ice Cream Bars](leetcode/1961-maximum-ice-cream-bars)
-- [1968 - Maximum Building Height](leetcode/1968-maximum-building-height)
-- [1972 - Rotating The Box](leetcode/1972-rotating-the-box)
-- [2001 - Jump Game Vii](leetcode/2001-jump-game-vii)
-- [2002 - Stone Game Viii](leetcode/2002-stone-game-viii)
-- [2039 - Sum Game](leetcode/2039-sum-game)
-- [2043 - Cyclically Rotating A Grid](leetcode/2043-cyclically-rotating-a-grid)
-- [2058 - Concatenation Of Array](leetcode/2058-concatenation-of-array)
-- [2099 - Number Of Strings That Appear As Substrings In Word](leetcode/2099-number-of-strings-that-appear-as-substrings-in-word)
-- [2106 - Find Greatest Common Divisor Of Array](leetcode/2106-find-greatest-common-divisor-of-array)
-- [2156 - Stone Game Ix](leetcode/2156-stone-game-ix)
-- [2182 - Find The Minimum And Maximum Number Of Nodes Between Critical Points](leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points)
-- [2212 - Removing Minimum And Maximum From Array](leetcode/2212-removing-minimum-and-maximum-from-array)
-- [2216 - Delete The Middle Node Of A Linked List](leetcode/2216-delete-the-middle-node-of-a-linked-list)
-- [2236 - Maximum Twin Sum Of A Linked List](leetcode/2236-maximum-twin-sum-of-a-linked-list)
-- [2245 - Destroying Asteroids](leetcode/2245-destroying-asteroids)
-- [2248 - Minimum Cost Of Buying Candies With Discount](leetcode/2248-minimum-cost-of-buying-candies-with-discount)
-- [2265 - Partition Array According To Given Pivot](leetcode/2265-partition-array-according-to-given-pivot)
-- [2306 - Create Binary Tree From Descriptions](leetcode/2306-create-binary-tree-from-descriptions)
-- [2319 - Longest Substring Of One Repeating Character](leetcode/2319-longest-substring-of-one-repeating-character)
-- [2347 - Count Nodes Equal To Average Of Subtree](leetcode/2347-count-nodes-equal-to-average-of-subtree)
-- [2349 - Check If There Is A Valid Parentheses String Path](leetcode/2349--check-if-there-is-a-valid-parentheses-string-path)
-- [2559 - Maximum Number Of Non Overlapping Palindrome Substrings](leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings)
-- [2582 - Minimum Score Of A Path Between Two Cities](leetcode/2582-minimum-score-of-a-path-between-two-cities)
-- [2634 - Minimum Common Value](leetcode/2634-minimum-common-value)
-- [2639 - Separate The Digits In An Array](leetcode/2639-separate-the-digits-in-an-array)
-- [2714 - Left And Right Sum Differences](leetcode/2714-left-and-right-sum-differences)
-- [2731 - Memoize](leetcode/2731-memoize)
-- [2732 - Counter](leetcode/2732-counter)
-- [2733 - Sleep](leetcode/2733-sleep)
-- [2734 - Array Prototype Last](leetcode/2734-array-prototype-last)
-- [2741 - Function Composition](leetcode/2741-function-composition)
-- [2742 - Group By](leetcode/2742-group-by)
-- [2743 - Debounce](leetcode/2743-debounce)
-- [2744 - Memoize Ii](leetcode/2744-memoize-ii)
-- [2746 - Filter Elements From Array](leetcode/2746-filter-elements-from-array)
-- [2747 - Apply Transform Over Each Element In Array](leetcode/2747-apply-transform-over-each-element-in-array)
-- [2749 - Promise Time Limit](leetcode/2749-promise-time-limit)
-- [2758 - Check If Object Instance Of Class](leetcode/2758-check-if-object-instance-of-class)
-- [2759 - Flatten Deeply Nested Array](leetcode/2759-flatten-deeply-nested-array)
-- [2760 - Snail Traversal](leetcode/2760-snail-traversal)
-- [2761 - Array Reduce Transformation](leetcode/2761-array-reduce-transformation)
-- [2762 - Cache With Time Limit](leetcode/2762-cache-with-time-limit)
-- [2766 - Find The Prefix Common Array Of Two Arrays](leetcode/2766-find-the-prefix-common-array-of-two-arrays)
-- [2775 - Generate Fibonacci Sequence](leetcode/2775-generate-fibonacci-sequence)
-- [2783 - Nested Array Generator](leetcode/2783-nested-array-generator)
-- [2788 - Design Cancellable Function](leetcode/2788-design-cancellable-function)
-- [2789 - Counter Ii](leetcode/2789-counter-ii)
-- [2790 - Call Function With Custom Context](leetcode/2790-call-function-with-custom-context)
-- [2793 - Count The Number Of Complete Components](leetcode/2793-count-the-number-of-complete-components)
-- [2796 - Allow One Function Call](leetcode/2796-allow-one-function-call)
-- [2797 - Event Emitter](leetcode/2797-event-emitter)
-- [2798 - Chunk Array](leetcode/2798-chunk-array)
-- [2804 - Compact Object](leetcode/2804-compact-object)
-- [2805 - Array Wrapper](leetcode/2805-array-wrapper)
-- [2807 - Execute Asynchronous Functions In Parallel](leetcode/2807-execute-asynchronous-functions-in-parallel)
-- [2809 - Create Hello World Function](leetcode/2809-create-hello-world-function)
-- [2813 - To Be Or Not To Be](leetcode/2813-to-be-or-not-to-be)
-- [2820 - Return Length Of Arguments Passed](leetcode/2820-return-length-of-arguments-passed)
-- [2855 - Maximum Number Of Jumps To Reach The Last Index](leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index)
-- [2858 - Join Two Arrays By Id](leetcode/2858-join-two-arrays-by-id)
-- [2859 - Add Two Promises](leetcode/2859-add-two-promises)
-- [2860 - Sort By](leetcode/2860-sort-by)
-- [2862 - Interval Cancellation](leetcode/2862-interval-cancellation)
-- [2863 - Calculator With Method Chaining](leetcode/2863-calculator-with-method-chaining)
-- [2864 - Is Object Empty](leetcode/2864-is-object-empty)
-- [2892 - Check If Array Is Good](leetcode/2892-check-if-array-is-good)
-- [2914 - Find The Safest Path In A Grid](leetcode/2914-find-the-safest-path-in-a-grid)
-- [3150 - Shortest And Lexicographically Smallest Beautiful String](leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string)
-- [3219 - Make Lexicographically Smallest Array By Swapping Elements](leetcode/3219-make-lexicographically-smallest-array-by-swapping-elements)
-- [3225 - Length Of Longest Subarray With At Most K Frequency](leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency)
-- [3236 - Smallest Missing Integer Greater Than Sequential Prefix Sum](leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum)
-- [3275 - Minimum Number Of Pushes To Type Word I](leetcode/3275-minimum-number-of-pushes-to-type-word-i)
-- [3276 - Minimum Number Of Pushes To Type Word Ii](leetcode/3276-minimum-number-of-pushes-to-type-word-ii)
-- [3299 - Find The Maximum Number Of Elements In Subset](leetcode/3299-find-the-maximum-number-of-elements-in-subset)
-- [3329 - Find The Length Of The Longest Common Prefix](leetcode/3329-find-the-length-of-the-longest-common-prefix)
-- [3347 - Distribute Elements Into Two Arrays I](leetcode/3347-distribute-elements-into-two-arrays-i)
-- [3349 - Maximum Length Substring With Two Occurrences](leetcode/3349-maximum-length-substring-with-two-occurrences)
-- [3375 - Kth Smallest Amount With Single Denomination Combination](leetcode/3375-kth-smallest-amount-with-single-denomination-combination)
-- [3376 - Longest Common Suffix Queries](leetcode/3376-longest-common-suffix-queries)
-- [3408 - Count The Number Of Special Characters I](leetcode/3408-count-the-number-of-special-characters-i)
-- [3435 - Block Placement Queries](leetcode/3435-block-placement-queries)
-- [3558 - Find A Safe Walk Through A Grid](leetcode/3558-find-a-safe-walk-through-a-grid)
-- [3561 - Remove Methods From Project](leetcode/3561-remove-methods-from-project)
-- [3562 - Maximum Score Of Non Overlapping Intervals](leetcode/3562-maximum-score-of-non-overlapping-intervals)
-- [3583 - Sorted Gcd Pair Queries](leetcode/3583-sorted-gcd-pair-queries)
-- [3584 - Find The Lexicographically Smallest Valid Sequence](leetcode/3584-find-the-lexicographically-smallest-valid-sequence)
-- [3606 - Minimum Element After Replacement With Digit Sum](leetcode/3606-minimum-element-after-replacement-with-digit-sum)
-- [3608 - Find The Number Of Subsequences With Equal Gcd](leetcode/3608-find-the-number-of-subsequences-with-equal-gcd)
-- [3626 - Smallest Divisible Digit Product I](leetcode/3626-smallest-divisible-digit-product-i)
-- [3635 - Smallest Divisible Digit Product Ii](leetcode/3635-smallest-divisible-digit-product-ii)
-- [3705 - Find The Largest Almost Missing Integer](leetcode/3705-find-the-largest-almost-missing-integer)
-- [3799 - Unique 3 Digit Even Numbers](leetcode/3799-unique-3-digit-even-numbers)
-- [3804 - Maximize Active Section With Trade Ii](leetcode/3804-maximize-active-section-with-trade-ii)
-- [3805 - Maximize Active Section With Trade I](leetcode/3805-maximize-active-section-with-trade-i)
-- [3811 - Reverse Degree Of A String](leetcode/3811-reverse-degree-of-a-string/): Calculates reverse degree by multiplying each character's reversed alphabet position with its string position.
-- [3812 - Smallest Palindromic Rearrangement I](leetcode/3812-smallest-palindromic-rearrangement-i)
-- [3813 - Smallest Palindromic Rearrangement Ii](leetcode/3813-smallest-palindromic-rearrangement-ii)
-- [3820 - Number Of Unique Xor Triplets Ii](leetcode/3820-number-of-unique-xor-triplets-ii)
-- [3824 - Number Of Unique Xor Triplets I](leetcode/3824-number-of-unique-xor-triplets-i)
-- [3831 - Find X Value Of Array I](leetcode/3831-find-x-value-of-array-i/): Uses dynamic programming to count subarrays whose product leaves a specific remainder modulo $k$.
-- [3838 - Path Existence Queries In A Graph I](leetcode/3838-path-existence-queries-in-a-graph-i)
-- [3840 - Find X Value Of Array Ii](leetcode/3840-find-x-value-of-array-ii/): Employs a Segment Tree to efficiently query products and counts after point updates in the array.
-- [3842 - Number Of Ways To Assign Edge Weights Ii](leetcode/3842-number-of-ways-to-assign-edge-weights-ii)
-- [3844 - Number Of Ways To Assign Edge Weights I](leetcode/3844-number-of-ways-to-assign-edge-weights-i)
-- [3852 - Path Existence Queries In A Graph Ii](leetcode/3852-path-existence-queries-in-a-graph-ii)
-- [3859 - Maximum Product Of Two Digits](leetcode/3859-maximum-product-of-two-digits)
-- [3869 - Smallest Index With Digit Sum Equal To Index](leetcode/3869-smallest-index-with-digit-sum-equal-to-index/): Iterates the array checking if the sum of digits of the value equals its index, returning the first match.
-- [3870 - Minimum Moves To Clean The Classroom](leetcode/3870-minimum-moves-to-clean-the-classroom)
-- [3918 - Check Divisibility By Digit Sum And Product](leetcode/3918-check-divisibility-by-digit-sum-and-product)
-- [3919 - Network Recovery Pathways](leetcode/3919-network-recovery-pathways)
-- [3931 - Process String With Special Operations I](leetcode/3931-process-string-with-special-operations-i)
-- [3933 - Minimum Jumps To Reach End Via Prime Teleportation](leetcode/3933-minimum-jumps-to-reach-end-via-prime-teleportation)
-- [3939 - Process String With Special Operations Ii](leetcode/3939-process-string-with-special-operations-ii)
-- [3962 - Number Of Zigzag Arrays I](leetcode/3962-number-of-zigzag-arrays-i)
-- [3964 - Number Of Zigzag Arrays Ii](leetcode/3964-number-of-zigzag-arrays-ii)
-- [3965 - Earliest Finish Time For Land And Water Rides I](leetcode/3965-earliest-finish-time-for-land-and-water-rides-i)
-- [3967 - Earliest Finish Time For Land And Water Rides Ii](leetcode/3967-earliest-finish-time-for-land-and-water-rides-ii)
-- [3981 - Jump Game Ix](leetcode/3981-jump-game-ix)
-- [3986 - Maximum Path Score In A Grid](leetcode/3986-maximum-path-score-in-a-grid)
-- [3995 - Gcd Of Odd And Even Sums](leetcode/3995-gcd-of-odd-and-even-sums)
-- [4005 - Maximum Total Subarray Value I](leetcode/4005-maximum-total-subarray-value-i)
-- [4007 - Maximum Total Subarray Value Ii](leetcode/4007-maximum-total-subarray-value-ii)
-- [4020 - Lexicographically Smallest Permutation Greater Than Target](leetcode/4020-lexicographically-smallest-permutation-greater-than-target)
-- [4033 - Longest Subsequence With Non Zero Bitwise Xor](leetcode/4033-longest-subsequence-with-non-zero-bitwise-xor)
-- [4037 - Lexicographically Smallest Palindromic Permutation Greater Than Target](leetcode/4037-lexicographically-smallest-palindromic-permutation-greater-than-target)
-- [4057 - Total Waviness Of Numbers In Range I](leetcode/4057-total-waviness-of-numbers-in-range-i)
-- [4074 - Count Subarrays With Majority Element I](leetcode/4074-count-subarrays-with-majority-element-i)
-- [4075 - Count Subarrays With Majority Element Ii](leetcode/4075-count-subarrays-with-majority-element-ii)
-- [4080 - Smallest Missing Multiple Of K](leetcode/4080-smallest-missing-multiple-of-k)
-- [4107 - Find Missing Elements](leetcode/4107-find-missing-elements)
-- [4128 - Total Waviness Of Numbers In Range Ii](leetcode/4128-total-waviness-of-numbers-in-range-ii)
-- [4135 - Concatenate Non Zero Digits And Multiply By Sum I](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i)
-- [4136 - Concatenate Non Zero Digits And Multiply By Sum Ii](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii)
-- [4216 - Weighted Word Mapping](leetcode/4216-weighted-word-mapping)
-- [4242 - Sum Of Gcd Of Formed Pairs](leetcode/4242-sum-of-gcd-of-formed-pairs)
-- [4245 - Count Commas In Range](leetcode/4245-count-commas-in-range)
-- [4248 - Count Commas In Range Ii](leetcode/4248-count-commas-in-range-ii)
-- [4256 - Construct Uniform Parity Array I](leetcode/4256-construct-uniform-parity-array-i)
-- [4258 - Construct Uniform Parity Array Ii](leetcode/4258-construct-uniform-parity-array-ii)
-- [4284 - Smallest Stable Index I](leetcode/4284-smallest-stable-index-i)
-- [4285 - Smallest Stable Index Ii](leetcode/4285-smallest-stable-index-ii)
+This repository contains solved LeetCode problems with explanations, complexity analysis, and source code. Problems are organized by LeetCode number and grouped by algorithmic pattern, data structure, difficulty, and programming language.
+
+## What You'll Find
+- **Comprehensive Explanations:** Step-by-step algorithm walkthroughs, key insights, and common pitfalls.
+- **Multi-Language Solutions:** Python, C++, JavaScript, TypeScript, Java, SQL, and more.
+- **Complexity Analysis:** Explicit Time and Space complexity ($O(N)$, $O(\log N)$, $O(1)$) for every solution.
+- **Pattern & Topic Indexing:** Grouped by Binary Search, Sliding Window, Two Pointers, Hash Maps, Stacks, Trees, Graphs, Dynamic Programming, and SQL.
+- **Machine-Readable Metadata:** Structured JSON catalog available in [`metadata/problems.json`](metadata/problems.json).
+
+---
+
+## Recently Solved
+
+| # | Problem | Difficulty | Pattern | Language | Solution |
+|---|---|---|---|---|---|
+| 4285 | [Smallest Stable Index II](leetcode/4285-smallest-stable-index-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4285-smallest-stable-index-ii/Explanation.md) |
+| 4284 | [Smallest Stable Index I](leetcode/4284-smallest-stable-index-i/) | Easy | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4284-smallest-stable-index-i/Explanation.md) |
+| 4258 | [Construct Uniform Parity Array II](leetcode/4258-construct-uniform-parity-array-ii/) | Medium | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4258-construct-uniform-parity-array-ii/Explanation.md) |
+| 4256 | [Construct Uniform Parity Array I](leetcode/4256-construct-uniform-parity-array-i/) | Easy | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4256-construct-uniform-parity-array-i/Explanation.md) |
+| 4248 | [Count Commas in Range II](leetcode/4248-count-commas-in-range-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4248-count-commas-in-range-ii/Explanation.md) |
+| 4245 | [Count Commas in Range](leetcode/4245-count-commas-in-range/) | Easy | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4245-count-commas-in-range/Explanation.md) |
+| 4242 | [Sum of GCD of Formed Pairs](leetcode/4242-sum-of-gcd-of-formed-pairs/) | Medium | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4242-sum-of-gcd-of-formed-pairs/Explanation.md) |
+| 4216 | [Weighted Word Mapping](leetcode/4216-weighted-word-mapping/) | Easy | [Hash Map](patterns/hash-map.md) | Kotlin | [Explanation](leetcode/4216-weighted-word-mapping/Explanation.md) |
+| 4136 | [Concatenate Non-Zero Digits and Multiply by Sum II](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | [Database / SQL](patterns/sql-database.md) | Java | [Explanation](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/Explanation.md) |
+| 4135 | [Concatenate Non-Zero Digits and Multiply by Sum I](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | [Math & Logic](patterns/math-logic.md) | Kotlin | [Explanation](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/Explanation.md) |
+| 4128 | [Total Waviness of Numbers in Range II](leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
+| 4107 | [Find Missing Elements](leetcode/4107-find-missing-elements/) | Easy | [Array / General](patterns/array-general.md) | PHP | [Explanation](leetcode/4107-find-missing-elements/Explanation.md) |
+| 4080 | [Smallest Missing Multiple of K](leetcode/4080-smallest-missing-multiple-of-k/) | Easy | [Database / SQL](patterns/sql-database.md) | C# | [Explanation](leetcode/4080-smallest-missing-multiple-of-k/Explanation.md) |
+| 4075 | [Count Subarrays With Majority Element II](leetcode/4075-count-subarrays-with-majority-element-ii/) | Hard | [Array / General](patterns/array-general.md) | PHP | [Explanation](leetcode/4075-count-subarrays-with-majority-element-ii/Explanation.md) |
+| 4074 | [Count Subarrays With Majority Element I](leetcode/4074-count-subarrays-with-majority-element-i/) | Medium | [Array / General](patterns/array-general.md) | Java | [Explanation](leetcode/4074-count-subarrays-with-majority-element-i/Explanation.md) |
+
+---
+
+## Navigation & Topic Hubs
+
+### 1. By Pattern
+- [Hash Map](patterns/hash-map.md)
+- [Two Pointers](patterns/two-pointers.md)
+- [Sliding Window](patterns/sliding-window.md)
+- [Binary Search](patterns/binary-search.md)
+- [Dynamic Programming](patterns/dynamic-programming.md)
+- [Greedy](patterns/greedy.md)
+- [Monotonic Stack](patterns/monotonic-stack.md)
+- [Stack & Queue](patterns/stack-queue.md)
+- [Tree & Graph](patterns/tree-graph.md)
+- [Linked List](patterns/linked-list.md)
+- [Math & Logic](patterns/math-logic.md)
+- [Database / SQL](patterns/sql-database.md)
+
+### 2. By Difficulty
+- [Easy Problems](difficulty/easy.md)
+- [Medium Problems](difficulty/medium.md)
+- [Hard Problems](difficulty/hard.md)
+
+### 3. By Programming Language
+- [Python Solutions](languages/python.md)
+- [C++ Solutions](languages/cpp.md)
+- [JavaScript Solutions](languages/javascript.md)
+- [TypeScript Solutions](languages/typescript.md)
+- [Java Solutions](languages/java.md)
+- [SQL Solutions](languages/sql.md)
+
+---
+
+## Complete Problem Directory
+
+Browse the full index of all solved problems in [**All_Problems.md**](All_Problems.md).
+
+---
+
+## Repository Architecture
+
+```
+AlbinMath/leetcode
+├── README.md
+├── All_Problems.md
+├── patterns/             # Categorized pattern hubs
+├── algorithms/           # Algorithm index hubs
+├── data-structures/      # Data structure index hubs
+├── difficulty/           # Easy, Medium, Hard hubs
+├── languages/            # Language-specific hubs
+├── metadata/             # problems.json dataset
+├── scripts/              # Automation scripts
+└── leetcode/             # Standardized problem directories
+```
+
+---
+
+## License & Repository Information
+GitHub: [AlbinMath/leetcode](https://github.com/AlbinMath/leetcode)  
+Continuously updated as new LeetCode problems are solved.

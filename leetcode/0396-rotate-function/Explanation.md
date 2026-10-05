@@ -1,11 +1,28 @@
-# Rotate Function
+# LeetCode 396: Rotate Function
 
-## Problem Explanation
-Given an integer array `nums` of length `n`, define the rotation function `F(k)` as:
-`F(k) = 0 * nums[k] + 1 * nums[k+1] + ... + (n-1) * nums[k+n-1]` (indices are mod `n`).
-Return the maximum value of `F(0), F(1), ..., F(n-1)`.
+**LeetCode Problem #396 — Rotate Function**
+Solve LeetCode Rotate Function using C++ and Math & Logic. This solution finds the optimal result using Mathematical Simulation / Modular Arithmetic in O(n) time.
 
-## How the Code Works
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Rotate Function |
+| LeetCode | #396 |
+| Difficulty | Medium |
+| Language | C++ |
+| Algorithm | Mathematical Simulation / Modular Arithmetic |
+| Data Structure | Primitive Data Types |
+| Pattern | Math & Logic |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+You are given an integer array  nums  of length  n .
+
+## Key Insight
+Leverage **Math & Logic** with **Primitive Data Types** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
 The code uses a mathematical relationship between consecutive rotation functions to compute all values in $O(N)$ time.
 
 1. **Compute F(0) and Sum:** It first calculates the sum of all elements (`sum`) and `F(0) = 0*nums[0] + 1*nums[1] + ... + (n-1)*nums[n-1]`.
@@ -13,3 +30,48 @@ The code uses a mathematical relationship between consecutive rotation functions
 3. It iterates from `k = 1` to `k = n-1`, computing each `F(k)` using the formula and tracking the maximum.
 
 Time complexity is $O(N)$ and space complexity is $O(1)$.
+
+## Algorithm
+1. Initialize state variables / data structure (**Primitive Data Types**).
+2. Process elements sequentially using **Mathematical Simulation / Modular Arithmetic**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Rotate Function**. Applying **Mathematical Simulation / Modular Arithmetic** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Math & Logic**
+
+## Topics
+- Math
+- Simulation
+
+## Language
+C++
+
+## Source Code
+- [solution.cpp](./solution.cpp)
+
+## Why This Works
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [48. Rotate Image](../0048-rotate-image/)
+- [61. Rotate List](../0061-rotate-list/)
+- [812. Largest Triangle Area](../0812-rotate-string/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/rotate-function/)

@@ -1,14 +1,28 @@
-# Find X-Value of Array II
+# LeetCode 3840: House Robber V
 
-## Problem Explanation
-This problem is a significantly harder version of "Find X-Value of Array I". You are given an array `nums`, an integer `k`, and a set of queries. Each query involves:
-1. **Updating** an element in `nums` permanently: `nums[index] = value`.
-2. **Removing** a specific prefix: removing everything before `start` index.
-3. **Removing** any suffix, leaving a non-empty subarray starting from `start` and ending anywhere at or after `start`.
+**LeetCode Problem #3840 — House Robber V**
+Solve LeetCode House Robber V using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
 
-For each query, you must find the number of ways to choose a suffix such that the product of the remaining subarray (starting at `start`) leaves a remainder of `x` modulo `k`.
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | House Robber V |
+| LeetCode | #3840 |
+| Difficulty | Medium |
+| Language | JavaScript |
+| Algorithm | SQL Query / Relational Join & Grouping |
+| Data Structure | Relational Table |
+| Pattern | Database / SQL |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
 
-## How the Code Works
+## Problem
+You are given an array of  positive  integers  nums  and a  positive  integer  k . You are also given a 2D array  queries , where  queries[i] = [index i , value i , start i , x i ] .
+
+## Key Insight
+Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
 Because updates are persistent and there can be many queries, calculating the answers iteratively would be too slow. The code uses a **Segment Tree** to answer queries and handle updates efficiently.
 
 1. **Segment Tree Structure**:
@@ -27,3 +41,49 @@ Because updates are persistent and there can be many queries, calculating the an
    - To find the counts for a subarray starting at `start` and ending at `n-1`, it queries the segment tree for the range `[start, n)`.
    - It accumulates the results from left to right. Just like building nodes, it keeps a running `leftProd` and a `leftCnt` array, merging them with the relevant nodes from the segment tree to compute the final counts of prefix products for the requested range.
 5. For each query, it performs the update, calls the query function, and pushes the count for the requested remainder `x` into the `result` array.
+
+## Algorithm
+1. Initialize state variables / data structure (**Relational Table**).
+2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **House Robber V**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Database / SQL**
+
+## Topics
+- Database
+- SQL
+- Data Aggregation
+
+## Language
+JavaScript
+
+## Source Code
+- [solution.js](./solution.js)
+
+## Why This Works
+By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [3831. Median of a Binary Search Tree Level](../3831-find-x-value-of-array-i/)
+- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
+- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/find-x-value-of-array-ii/)

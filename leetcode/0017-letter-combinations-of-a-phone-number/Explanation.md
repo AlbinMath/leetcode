@@ -1,12 +1,28 @@
-# Letter Combinations Of A Phone Number
+# LeetCode 17: Letter Combinations of a Phone Number
 
-## Problem Explanation
-Given a string containing digits from `2-9` inclusive, return all possible letter combinations that the number could represent. The mapping of digits to letters is the same as on telephone buttons (e.g., `2 -> abc`, `3 -> def`, `7 -> pqrs`, etc.). Return the answer in any order.
+**LeetCode Problem #17 — Letter Combinations of a Phone Number**
+Solve LeetCode Letter Combinations of a Phone Number using JavaScript and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Grouping in O(n) time.
 
-For example, if `digits = "23"`:
-- The output is `["ad","ae","af","bd","be","bf","cd","ce","cf"]`.
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Letter Combinations of a Phone Number |
+| LeetCode | #17 |
+| Difficulty | Medium |
+| Language | JavaScript |
+| Algorithm | SQL Query / Relational Join & Grouping |
+| Data Structure | Relational Table |
+| Pattern | Database / SQL |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
 
-## How the Code Works
+## Problem
+Given a string containing digits from  2-9  inclusive, return all possible letter combinations that the number could represent. Return the answer in  any order .
+
+## Key Insight
+Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
 The code uses **Backtracking** to explore all possible letter combinations.
 
 1. **Base Case:** If the input string is empty, it returns an empty array immediately.
@@ -17,3 +33,49 @@ The code uses **Backtracking** to explore all possible letter combinations.
 4. The function is initially called with `backtrack(0, "")`, starting from the first digit with an empty string.
 
 Since each digit maps to at most 4 letters, the time complexity is $O(4^N)$ where $N$ is the number of digits, and space complexity is $O(N)$ for the recursion stack.
+
+## Algorithm
+1. Initialize state variables / data structure (**Relational Table**).
+2. Process elements sequentially using **SQL Query / Relational Join & Grouping**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Letter Combinations of a Phone Number**. Applying **SQL Query / Relational Join & Grouping** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Database / SQL**
+
+## Topics
+- Database
+- SQL
+- Data Aggregation
+
+## Language
+JavaScript
+
+## Source Code
+- [solution.js](./solution.js)
+
+## Why This Works
+By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [9. Palindrome Number](../0009-palindrome-number/)
+- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
+- [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)

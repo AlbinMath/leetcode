@@ -1,17 +1,28 @@
-# Zigzag Conversion
+# LeetCode 6: Zigzag Conversion
 
-## Problem Explanation
-The problem asks you to take a string and format it into a "zigzag" pattern on a specified number of rows. Then, you read the characters row by row to produce a new string. 
+**LeetCode Problem #6 — Zigzag Conversion**
+Solve LeetCode Zigzag Conversion using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
 
-For example, the string `"PAYPALISHIRING"` with 3 rows is written as:
-```text
-P   A   H   N
-A P L S I I G
-Y   I   R
-```
-Reading this row by row gives `"PAHNAPLSIIGYIR"`.
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Zigzag Conversion |
+| LeetCode | #6 |
+| Difficulty | Medium |
+| Language | Python |
+| Algorithm | Iterative Traversal |
+| Data Structure | Array |
+| Pattern | Array / General |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## How the Code Works
+## Problem
+The string  "PAYPALISHIRING"  is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+## Key Insight
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
 The code simulates the process of writing characters into rows, changing direction when it hits the top or bottom row.
 1. Edge cases are handled first: If `numRows` is 1 or greater than or equal to the length of the string, the string is returned as is, since a zigzag pattern isn't possible or wouldn't change the string.
 2. It initializes a list of strings called `rows`, with one empty string for each row.
@@ -22,3 +33,47 @@ The code simulates the process of writing characters into rows, changing directi
    - It checks if we are at the bottom row (`current_row == numRows - 1`). If so, we change direction to move upwards (`direction = -1`).
    - It updates `current_row` by adding the `direction` to move to the next row for the next character.
 5. After all characters are placed in their respective rows, it joins all strings in the `rows` list together using `"".join(rows)` and returns the resulting string.
+
+## Algorithm
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Iterative Traversal**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Zigzag Conversion**. Applying **Iterative Traversal** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Array / General**
+
+## Topics
+- Array
+
+## Language
+Python
+
+## Source Code
+- [solution.py](./solution.py)
+
+## Why This Works
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [3962. Maximum Subarray Sum After at Most K Swaps](../3962-number-of-zigzag-arrays-i/)
+- [3964. Minimum Lights to Illuminate a Road](../3964-number-of-zigzag-arrays-ii/)
+- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/zigzag-conversion/)
