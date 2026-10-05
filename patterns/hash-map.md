@@ -10,8 +10,6 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 |---|---|---|---|---|---|
 | 1 | [Two Sum](../leetcode/0001-two-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-two-sum/Explanation.md) |
 
-| 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Python | O(n) | O(n) | [Explanation](../leetcode/0013-roman-to-integer/Explanation.md) |
-
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Java | O(n) | O(n) | [Explanation](../leetcode/1203-print-in-order/Explanation.md) |
 
 | 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/1297-maximum-number-of-balloons/Explanation.md) |

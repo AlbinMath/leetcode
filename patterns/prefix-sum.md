@@ -8,6 +8,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Python | O(n) | O(n) | [Explanation](../leetcode/0013-roman-to-integer/Explanation.md) |
+
 | 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0014-longest-common-prefix/Explanation.md) |
 
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/Explanation.md) |
@@ -16,10 +18,18 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Rust | O(n) | O(n) | [Explanation](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/Explanation.md) |
 
+| 3471 | [Find the Largest Almost Missing Integer](../leetcode/3705-find-the-largest-almost-missing-integer/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/3705-find-the-largest-almost-missing-integer/Explanation.md) |
+
+| 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/Explanation.md) |
+
+| 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | C# | O(n) | O(n) | [Explanation](../leetcode/4080-smallest-missing-multiple-of-k/Explanation.md) |
+
 ### Medium
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1212-sequential-digits/Explanation.md) |
+
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](../leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/Explanation.md) |
 
 | 1871 | [Jump Game VII](../leetcode/2001-jump-game-vii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2001-jump-game-vii/Explanation.md) |

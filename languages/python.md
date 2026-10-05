@@ -13,7 +13,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 5 | [Longest Palindromic Substring](../leetcode/0005-longest-palindromic-substring/) | Medium | Array / General | O(n) | O(1) |
 | 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Medium | Array / General | O(n) | O(1) |
 | 9 | [Palindrome Number](../leetcode/0009-palindrome-number/) | Easy | Two Pointers | O(n) | O(1) |
-| 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Easy | Hash Map | O(n) | O(n) |
+| 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Easy | Prefix Sum | O(n) | O(n) |
 | 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Easy | Prefix Sum | O(n) | O(n) |
 | 511 | [Game Play Analysis I](../leetcode/1179-game-play-analysis-i/) | Easy | Array / General | O(n) | O(1) |
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Medium | Tree & Graph | O(n) | O(n) |

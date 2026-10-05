@@ -313,13 +313,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Hash Map",
-    "algorithm": "Complement Lookup / Hash Table Frequency",
-    "data_structure": "Dictionary / Hash Map",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
-      "Hash Table",
-      "Array",
-      "Complement Lookup"
+      "Prefix Sum",
+      "Array"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -2992,15 +2991,15 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Math & Logic",
-    "algorithm": "Mathematical Simulation & Modular Arithmetic",
-    "data_structure": "Primitive Types",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
-      "Math",
-      "Simulation"
+      "Prefix Sum",
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "An integer has  sequential digits  if and only if each digit in the number is one more than the previous digit.",
     "related_ids": [
       788,
@@ -3368,8 +3367,8 @@
     "brief": "A cinema has  n  rows of seats, numbered from 1 to  n . Each row has 10 seats, numbered from 1 to 10.",
     "related_ids": [
       1,
-      13,
-      192
+      192,
+      1114
     ]
   },
   {
@@ -6292,7 +6291,7 @@
     "related_ids": [
       2891,
       1,
-      13
+      192
     ]
   },
   {
@@ -6814,7 +6813,7 @@
     "related_ids": [
       2726,
       1,
-      13
+      192
     ]
   },
   {
@@ -7597,14 +7596,15 @@
       "Kotlin"
     ],
     "lang_str": "Kotlin",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
+      "Prefix Sum",
       "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer array  nums  and an integer  k .",
     "related_ids": [
       2996,
@@ -8092,15 +8092,15 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Math & Logic",
-    "algorithm": "Mathematical Simulation & Modular Arithmetic",
-    "data_structure": "Primitive Types",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
-      "Math",
-      "Simulation"
+      "Prefix Sum",
+      "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer array  nums .",
     "related_ids": [
       2996,
@@ -8962,14 +8962,15 @@
       "C#"
     ],
     "lang_str": "C#",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
+      "Prefix Sum",
       "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an integer array  nums  and an integer  k , return the  smallest positive multiple  of  k  that is  missing  from  nums .",
     "related_ids": [
       2996,

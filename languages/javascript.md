@@ -36,7 +36,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Easy | Math & Logic | O(n) | O(1) |
 | 3524 | [Find X Value of Array I](../leetcode/3831-find-x-value-of-array-i/) | Medium | Binary Search | O(n) | O(1) |
 | 3525 | [Find X Value of Array II](../leetcode/3840-find-x-value-of-array-ii/) | Hard | Binary Search | O(n) | O(1) |
-| 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | Easy | Math & Logic | O(n) | O(1) |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | Easy | Prefix Sum | O(n) | O(n) |
 | 3870 | [Count Commas in Range](../leetcode/4245-count-commas-in-range/) | Easy | Tree & Graph | O(n) | O(n) |
 | 3871 | [Count Commas in Range II](../leetcode/4248-count-commas-in-range-ii/) | Medium | Array / General | O(n) | O(1) |
 | 3903 | [Smallest Stable Index I](../leetcode/4284-smallest-stable-index-i/) | Easy | Tree & Graph | O(n) | O(n) |

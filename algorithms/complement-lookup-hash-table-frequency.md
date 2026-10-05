@@ -7,7 +7,6 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
 | 1 | [Two Sum](../leetcode/0001-two-sum/) | Easy | Hash Map | O(n) | O(n) |
-| 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Easy | Hash Map | O(n) | O(n) |
 | 192 | [Word Frequency](../leetcode/0192-word-frequency/) | Medium | Hash Map | O(n) | O(n) |
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Easy | Hash Map | O(n) | O(n) |
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Medium | Hash Map | O(n) | O(n) |

@@ -64,7 +64,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 3120 | [Count the Number of Special Characters I](../leetcode/3408-count-the-number-of-special-characters-i/) | Easy | Array / General | O(n) | O(1) |
 | 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Hard | Array / General | O(n) | O(1) |
 | 3302 | [Find the Lexicographically Smallest Valid Sequence](../leetcode/3584-find-the-lexicographically-smallest-valid-sequence/) | Medium | Array / General | O(n) | O(1) |
-| 3471 | [Find the Largest Almost Missing Integer](../leetcode/3705-find-the-largest-almost-missing-integer/) | Easy | Array / General | O(n) | O(1) |
 | 3475 | [DNA Pattern Recognition ](../leetcode/3816-dna-pattern-recognition-/) | Medium | Array / General | O(n) | O(1) |
 | 3482 | [Analyze Organization Hierarchy](../leetcode/3828-analyze-organization-hierarchy/) | Hard | Array / General | O(n) | O(1) |
 | 3497 | [Analyze Subscription Conversion ](../leetcode/3848-analyze-subscription-conversion-/) | Medium | Array / General | O(n) | O(1) |
@@ -86,7 +85,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 3691 | [Maximum Total Subarray Value II](../leetcode/4007-maximum-total-subarray-value-ii/) | Hard | Array / General | O(n) | O(1) |
 | 3705 | [Find Golden Hour Customers](../leetcode/4091-find-golden-hour-customers/) | Medium | Array / General | O(n) | O(1) |
 | 3716 | [Find Churn Risk Customers](../leetcode/4103-find-churn-risk-customers/) | Medium | Array / General | O(n) | O(1) |
-| 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Easy | Array / General | O(n) | O(1) |
 | 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Easy | Array / General | O(n) | O(1) |
 | 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Medium | Array / General | O(n) | O(1) |
 | 3739 | [Count Subarrays With Majority Element II](../leetcode/4075-count-subarrays-with-majority-element-ii/) | Hard | Array / General | O(n) | O(1) |

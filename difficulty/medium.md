@@ -61,7 +61,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 1204 | [Last Person to Fit in the Bus](../leetcode/1327-last-person-to-fit-in-the-bus/) | Database / SQL | SQL | O(n) | O(n) |
 | 1226 | [The Dining Philosophers](../leetcode/1340-the-dining-philosophers/) | Array / General | C++ | O(n) | O(1) |
 | 1288 | [Remove Covered Intervals](../leetcode/1222-remove-covered-intervals/) | Binary Search | Java | O(log n) | O(1) |
-| 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | Math & Logic | C++ | O(n) | O(1) |
+| 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | Prefix Sum | C++ | O(n) | O(n) |
 | 1306 | [Jump Game III](../leetcode/1428-jump-game-iii/) | Tree & Graph | C++ | O(n) | O(n) |
 | 1321 | [Restaurant Growth](../leetcode/1452-restaurant-growth/) | Database / SQL | SQL | O(n) | O(n) |
 | 1341 | [Movie Rating](../leetcode/1480-movie-rating/) | Database / SQL | SQL | O(n) | O(n) |

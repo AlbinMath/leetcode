@@ -8,7 +8,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 |---|---|---|---|---|---|
 | 1 | [Two Sum](../leetcode/0001-two-sum/) | Hash Map | Python | O(n) | O(n) |
 | 9 | [Palindrome Number](../leetcode/0009-palindrome-number/) | Two Pointers | Python | O(n) | O(1) |
-| 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Hash Map | Python | O(n) | O(n) |
+| 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Prefix Sum | Python | O(n) | O(n) |
 | 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Prefix Sum | Python | O(n) | O(n) |
 | 20 | [Valid Parentheses](../leetcode/0020-valid-parentheses/) | Stack & Queue | JavaScript | O(n) | O(n) |
 | 175 | [Combine Two Tables](../leetcode/0175-combine-two-tables/) | Database / SQL | SQL | O(n) | O(n) |
@@ -133,16 +133,16 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 3345 | [Smallest Divisible Digit Product I](../leetcode/3626-smallest-divisible-digit-product-i/) | Tree & Graph | Ruby | O(n) | O(n) |
 | 3436 | [Find Valid Emails](../leetcode/3782-find-valid-emails/) | Database / SQL | SQL | O(n) | O(n) |
 | 3465 | [Find Products with Valid Serial Numbers](../leetcode/3803-find-products-with-valid-serial-numbers/) | Database / SQL | SQL | O(n) | O(n) |
-| 3471 | [Find the Largest Almost Missing Integer](../leetcode/3705-find-the-largest-almost-missing-integer/) | Array / General | Kotlin | O(n) | O(1) |
+| 3471 | [Find the Largest Almost Missing Integer](../leetcode/3705-find-the-largest-almost-missing-integer/) | Prefix Sum | Kotlin | O(n) | O(n) |
 | 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Math & Logic | JavaScript | O(n) | O(1) |
 | 3498 | [Reverse Degree of a String](../leetcode/3811-reverse-degree-of-a-string/) | Array / General | Python | O(n) | O(1) |
 | 3536 | [Maximum Product of Two Digits](../leetcode/3859-maximum-product-of-two-digits/) | Math & Logic | Erlang | O(n) | O(1) |
-| 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | Math & Logic | JavaScript | O(n) | O(1) |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | Prefix Sum | JavaScript | O(n) | O(n) |
 | 3570 | [Find Books with No Available Copies](../leetcode/3910-find-books-with-no-available-copies/) | Array / General | Python | O(n) | O(1) |
 | 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Math & Logic | C | O(n) | O(1) |
 | 3633 | [Earliest Finish Time for Land and Water Rides I](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/) | Array / General | Kotlin | O(n) | O(1) |
 | 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Array / General | Kotlin | O(n) | O(1) |
-| 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Array / General | C# | O(n) | O(1) |
+| 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Prefix Sum | C# | O(n) | O(n) |
 | 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Array / General | PHP | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Bit Manipulation | Kotlin | O(n) | O(1) |
 | 3793 | [Find Users with High Token Usage](../leetcode/4195-find-users-with-high-token-usage/) | Database / SQL | SQL | O(n) | O(n) |

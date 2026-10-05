@@ -1,7 +1,7 @@
 # LeetCode 3550: Smallest Index With Digit Sum Equal to Index
 
 **LeetCode Problem #3550 — Smallest Index With Digit Sum Equal to Index**
-Solve LeetCode Smallest Index With Digit Sum Equal to Index using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Smallest Index With Digit Sum Equal to Index using JavaScript and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Smallest Index With Digit Sum Equal to Index using JavaScript and
 | LeetCode | #3550 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Mathematical Simulation & Modular Arithmetic |
-| Data Structure | Primitive Types |
-| Pattern | Math & Logic |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 You are given an integer array  nums .
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a straightforward iterative approach.
@@ -35,23 +35,23 @@ The code uses a straightforward iterative approach.
 5. If the loop finishes checking all elements without returning, it means no such index exists, so it returns `-1`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Types**).
-2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
+1. Initialize state variables / data structure (**Prefix Array**).
+2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Smallest Index With Digit Sum Equal to Index**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Smallest Index With Digit Sum Equal to Index**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Math & Logic**
+**Prefix Sum**
 
 ## Topics
-- Math
-- Simulation
+- Prefix Sum
+- Array
 
 ## Language
 JavaScript
@@ -60,7 +60,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

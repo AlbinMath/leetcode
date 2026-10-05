@@ -1,7 +1,7 @@
 # LeetCode 13: Roman to Integer
 
 **LeetCode Problem #13 — Roman to Integer**
-Solve LeetCode Roman to Integer using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+Solve LeetCode Roman to Integer using Python and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Roman to Integer using Python and Hash Map. This solution finds t
 | LeetCode | #13 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Complement Lookup / Hash Table Frequency |
-| Data Structure | Dictionary / Hash Map |
-| Pattern | Hash Map |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Roman to Integer using Python and Hash Map. This solution finds t
 Roman numerals are represented by seven different symbols:  I ,  V ,  X ,  L ,  C ,  D  and  M .
 
 ## Key Insight
-Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We define a dictionary `values` that maps each Roman numeral character to its corresponding integer value.
@@ -30,24 +30,23 @@ We iterate through the string `s`. For each character at index `i`:
 - Otherwise, we add the current character's value to `total`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Dictionary / Hash Map**).
-2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
+1. Initialize state variables / data structure (**Prefix Array**).
+2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Roman to Integer**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Roman to Integer**. Applying **Prefix Sum Precomputation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Hash Map**
+**Prefix Sum**
 
 ## Topics
-- Hash Table
+- Prefix Sum
 - Array
-- Complement Lookup
 
 ## Language
 Python
@@ -56,16 +55,16 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Using the same element twice.
-2. Checking the map before inserting elements in the correct order.
-3. Inefficient hash functions or unnecessary duplicate key updates.
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
 
 ## Interview Notes
-- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
-- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
 - [12. Integer to Roman](../0012-integer-to-roman/)

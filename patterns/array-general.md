@@ -68,8 +68,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 3120 | [Count the Number of Special Characters I](../leetcode/3408-count-the-number-of-special-characters-i/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3408-count-the-number-of-special-characters-i/Explanation.md) |
 
-| 3471 | [Find the Largest Almost Missing Integer](../leetcode/3705-find-the-largest-almost-missing-integer/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/3705-find-the-largest-almost-missing-integer/Explanation.md) |
-
 | 3498 | [Reverse Degree of a String](../leetcode/3811-reverse-degree-of-a-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/3811-reverse-degree-of-a-string/Explanation.md) |
 
 | 3570 | [Find Books with No Available Copies](../leetcode/3910-find-books-with-no-available-copies/) | Python | O(n) | O(1) | [Explanation](../leetcode/3910-find-books-with-no-available-copies/Explanation.md) |
@@ -77,8 +75,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 3633 | [Earliest Finish Time for Land and Water Rides I](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/Explanation.md) |
 
 | 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/3995-gcd-of-odd-and-even-sums/Explanation.md) |
-
-| 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | C# | O(n) | O(1) | [Explanation](../leetcode/4080-smallest-missing-multiple-of-k/Explanation.md) |
 
 | 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | PHP | O(n) | O(1) | [Explanation](../leetcode/4107-find-missing-elements/Explanation.md) |
 

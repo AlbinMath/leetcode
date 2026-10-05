@@ -20,8 +20,6 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 3536 | [Maximum Product of Two Digits](../leetcode/3859-maximum-product-of-two-digits/) | Erlang | O(n) | O(1) | [Explanation](../leetcode/3859-maximum-product-of-two-digits/Explanation.md) |
 
-| 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/Explanation.md) |
-
 | 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | C | O(n) | O(1) | [Explanation](../leetcode/3918-check-divisibility-by-digit-sum-and-product/Explanation.md) |
 
 ### Medium
@@ -29,8 +27,6 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 48 | [Rotate Image](../leetcode/0048-rotate-image/) | C++ | O(n²) | O(1) | [Explanation](../leetcode/0048-rotate-image/Explanation.md) |
-
-| 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1212-sequential-digits/Explanation.md) |
 
 | 1344 | [Angle Between Hands of a Clock](../leetcode/1446-angle-between-hands-of-a-clock/) | Java | O(n) | O(1) | [Explanation](../leetcode/1446-angle-between-hands-of-a-clock/Explanation.md) |
 
