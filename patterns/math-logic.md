@@ -36,8 +36,6 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 2749 | [Minimum Operations to Make the Integer Zero](../leetcode/2749-promise-time-limit/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2749-promise-time-limit/Explanation.md) |
 
-| 2863 | [Maximum Length of Semi-Decreasing Subarrays](../leetcode/2863-calculator-with-method-chaining/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2863-calculator-with-method-chaining/Explanation.md) |
-
 | 3635 | [Earliest Finish Time for Land and Water Rides II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Python, TypeScript | O(n) | O(1) | [Explanation](../leetcode/3635-smallest-divisible-digit-product-ii/Explanation.md) |
 
 | 3799 | [Word Squares II](../leetcode/3799-unique-3-digit-even-numbers/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3799-unique-3-digit-even-numbers/Explanation.md) |

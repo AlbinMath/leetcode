@@ -24,6 +24,8 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 2766 | [Relocate Marbles](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/) | Medium | Hash Map | O(n) | O(n) |
 | 2820 | [Election Results](../leetcode/2820-return-length-of-arguments-passed/) | Medium | Hash Map | O(n) | O(n) |
 | 2858 | [Minimum Edge Reversals So Every Node Is Reachable](../leetcode/2858-join-two-arrays-by-id/) | Hard | Hash Map | O(n) | O(n) |
+| 2863 | [Maximum Length of Semi-Decreasing Subarrays](../leetcode/2863-calculator-with-method-chaining/) | Medium | Hash Map | O(n) | O(n) |
+| 3063 | [Linked List Frequency](../leetcode/3063-method-chaining/) | Easy | Hash Map | O(n) | O(n) |
 | 3219 | [Minimum Cost for Cutting Cake II](../leetcode/3219-make-lexicographically-smallest-array-by-swapping-elements/) | Hard | Hash Map | O(n) | O(n) |
 | 3225 | [Maximum Score From Grid Operations](../leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/) | Hard | Hash Map | O(n) | O(n) |
 | 3275 | [K-th Nearest Obstacle Queries](../leetcode/3275-minimum-number-of-pushes-to-type-word-i/) | Medium | Hash Map | O(n) | O(n) |

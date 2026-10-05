@@ -16,7 +16,6 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 1501 | [Countries You Can Safely Invest In](../leetcode/1501-circle-and-rectangle-overlapping/) | Medium | Math & Logic | O(n) | O(1) |
 | 2639 | [Find the Width of Columns of a Grid](../leetcode/2639-separate-the-digits-in-an-array/) | Easy | Math & Logic | O(n) | O(1) |
 | 2749 | [Minimum Operations to Make the Integer Zero](../leetcode/2749-promise-time-limit/) | Medium | Math & Logic | O(n) | O(1) |
-| 2863 | [Maximum Length of Semi-Decreasing Subarrays](../leetcode/2863-calculator-with-method-chaining/) | Medium | Math & Logic | O(n) | O(1) |
 | 3606 | [Coupon Code Validator](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | Easy | Math & Logic | O(n) | O(1) |
 | 3635 | [Earliest Finish Time for Land and Water Rides II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Medium | Math & Logic | O(n) | O(1) |
 | 3799 | [Word Squares II](../leetcode/3799-unique-3-digit-even-numbers/) | Medium | Math & Logic | O(n) | O(1) |

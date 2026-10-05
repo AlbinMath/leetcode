@@ -19,6 +19,9 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 2793 | [Status of Flight Tickets](../leetcode/2793-count-the-number-of-complete-components/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2809 | [Minimum Time to Make Array Sum At Most x](../leetcode/2809-create-hello-world-function/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2914 | [Minimum Number of Changes to Make Binary String Beautiful](../leetcode/2914-find-the-safest-path-in-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |
+| 3067 | [Count Pairs of Connectable Servers in a Weighted Tree Network](../leetcode/3067-modify-columns/) | Medium | Tree & Graph | O(n) | O(n) |
+| 3068 | [Find the Maximum Sum of Node Values](../leetcode/3068-rename-columns/) | Hard | Tree & Graph | O(n) | O(n) |
+| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3072-reshape-data-pivot/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3558 | [Number of Ways to Assign Edge Weights I](../leetcode/3558-find-a-safe-walk-through-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3561 | [Resulting String After Adjacent Removals](../leetcode/3561-remove-methods-from-project/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3626 | [Find Stores with Inventory Imbalance](../leetcode/3626-smallest-divisible-digit-product-i/) | Medium | Tree & Graph | O(n) | O(n) |

@@ -64,7 +64,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [12. Integer to Roman](../0012-integer-to-roman/)
 - [1644. Lowest Common Ancestor of a Binary Tree II](../1644-maximum-number-of-non-overlapping-substrings/)
+- [3562. Maximum Profit from Trading Stocks with Discounts](../3562-maximum-score-of-non-overlapping-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/interval-cancellation/)

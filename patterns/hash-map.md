@@ -16,6 +16,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 2744 | [Find Maximum Number of String Pairs](../leetcode/2744-memoize-ii/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2744-memoize-ii/Explanation.md) |
 
+| 3063 | [Linked List Frequency](../leetcode/3063-method-chaining/) | Python | O(n) | O(n) | [Explanation](../leetcode/3063-method-chaining/Explanation.md) |
+
 | 3870 | [Count Commas in Range](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3870-minimum-moves-to-clean-the-classroom/Explanation.md) |
 
 | 4216 | [Weighted Word Mapping](../leetcode/4216-weighted-word-mapping/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/4216-weighted-word-mapping/Explanation.md) |
@@ -41,6 +43,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 2766 | [Relocate Marbles](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/Explanation.md) |
 
 | 2820 | [Election Results](../leetcode/2820-return-length-of-arguments-passed/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2820-return-length-of-arguments-passed/Explanation.md) |
+
+| 2863 | [Maximum Length of Semi-Decreasing Subarrays](../leetcode/2863-calculator-with-method-chaining/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2863-calculator-with-method-chaining/Explanation.md) |
 
 | 3275 | [K-th Nearest Obstacle Queries](../leetcode/3275-minimum-number-of-pushes-to-type-word-i/) | Dart | O(n) | O(n) | [Explanation](../leetcode/3275-minimum-number-of-pushes-to-type-word-i/Explanation.md) |
 

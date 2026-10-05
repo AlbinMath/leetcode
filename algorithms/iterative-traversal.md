@@ -58,20 +58,13 @@ A curated selection of LeetCode problems solved using the **Iterative Traversal*
 | 2860 | [Happy Students](../leetcode/2860-sort-by/) | Medium | Array / General | O(n) | O(1) |
 | 2864 | [Maximum Odd Binary Number](../leetcode/2864-is-object-empty/) | Easy | Array / General | O(n) | O(1) |
 | 2892 | [Minimizing Array After Replacing Pairs With Their Product](../leetcode/2892-check-if-array-is-good/) | Medium | Array / General | O(n) | O(1) |
-| 3062 | [Winner of the Linked List Game](../leetcode/3062-create-a-dataframe-from-list/) | Easy | Array / General | O(n) | O(1) |
-| 3063 | [Linked List Frequency](../leetcode/3063-method-chaining/) | Easy | Array / General | O(n) | O(1) |
 | 3065 | [Minimum Operations to Exceed Threshold Value I](../leetcode/3065-display-the-first-three-rows/) | Easy | Array / General | O(n) | O(1) |
-| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3066-create-a-new-column/) | Medium | Array / General | O(n) | O(1) |
-| 3067 | [Count Pairs of Connectable Servers in a Weighted Tree Network](../leetcode/3067-modify-columns/) | Medium | Array / General | O(n) | O(1) |
-| 3068 | [Find the Maximum Sum of Node Values](../leetcode/3068-rename-columns/) | Hard | Array / General | O(n) | O(1) |
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3069-change-data-type/) | Easy | Array / General | O(n) | O(1) |
 | 3070 | [Count Submatrices with Top-Left Element and Sum Less Than k](../leetcode/3070-fill-missing-data/) | Medium | Array / General | O(n) | O(1) |
 | 3071 | [Minimum Operations to Write the Letter Y on a Grid](../leetcode/3071-drop-duplicate-rows/) | Medium | Array / General | O(n) | O(1) |
-| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3072-reshape-data-pivot/) | Hard | Array / General | O(n) | O(1) |
 | 3073 | [Maximum Increasing Triplet Value](../leetcode/3073-reshape-data-melt/) | Medium | Array / General | O(n) | O(1) |
 | 3074 | [Apple Redistribution into Boxes](../leetcode/3074-select-data/) | Easy | Array / General | O(n) | O(1) |
 | 3075 | [Maximize Happiness of Selected Children](../leetcode/3075-drop-missing-data/) | Medium | Array / General | O(n) | O(1) |
-| 3076 | [Shortest Uncommon Substring in an Array](../leetcode/3076-get-the-size-of-a-dataframe/) | Medium | Array / General | O(n) | O(1) |
 | 3150 | [Invalid Tweets II](../leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string/) | Easy | Array / General | O(n) | O(1) |
 | 3236 | [CEO Subordinate Hierarchy](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Hard | Array / General | O(n) | O(1) |
 | 3276 | [Select Cells in Grid With Maximum Score](../leetcode/3276-minimum-number-of-pushes-to-type-word-ii/) | Hard | Array / General | O(n) | O(1) |

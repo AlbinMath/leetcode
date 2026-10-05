@@ -42,10 +42,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 2864 | [Maximum Odd Binary Number](../leetcode/2864-is-object-empty/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2864-is-object-empty/Explanation.md) |
 
-| 3062 | [Winner of the Linked List Game](../leetcode/3062-create-a-dataframe-from-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/3062-create-a-dataframe-from-list/Explanation.md) |
-
-| 3063 | [Linked List Frequency](../leetcode/3063-method-chaining/) | Python | O(n) | O(1) | [Explanation](../leetcode/3063-method-chaining/Explanation.md) |
-
 | 3065 | [Minimum Operations to Exceed Threshold Value I](../leetcode/3065-display-the-first-three-rows/) | Python | O(n) | O(1) | [Explanation](../leetcode/3065-display-the-first-three-rows/Explanation.md) |
 
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3069-change-data-type/) | Python | O(n) | O(1) | [Explanation](../leetcode/3069-change-data-type/Explanation.md) |
@@ -116,10 +112,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 2892 | [Minimizing Array After Replacing Pairs With Their Product](../leetcode/2892-check-if-array-is-good/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2892-check-if-array-is-good/Explanation.md) |
 
-| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3066-create-a-new-column/) | Python | O(n) | O(1) | [Explanation](../leetcode/3066-create-a-new-column/Explanation.md) |
-
-| 3067 | [Count Pairs of Connectable Servers in a Weighted Tree Network](../leetcode/3067-modify-columns/) | Python | O(n) | O(1) | [Explanation](../leetcode/3067-modify-columns/Explanation.md) |
-
 | 3070 | [Count Submatrices with Top-Left Element and Sum Less Than k](../leetcode/3070-fill-missing-data/) | Python | O(n) | O(1) | [Explanation](../leetcode/3070-fill-missing-data/Explanation.md) |
 
 | 3071 | [Minimum Operations to Write the Letter Y on a Grid](../leetcode/3071-drop-duplicate-rows/) | Python | O(n) | O(1) | [Explanation](../leetcode/3071-drop-duplicate-rows/Explanation.md) |
@@ -127,8 +119,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 3073 | [Maximum Increasing Triplet Value](../leetcode/3073-reshape-data-melt/) | Python | O(n) | O(1) | [Explanation](../leetcode/3073-reshape-data-melt/Explanation.md) |
 
 | 3075 | [Maximize Happiness of Selected Children](../leetcode/3075-drop-missing-data/) | Python | O(n) | O(1) | [Explanation](../leetcode/3075-drop-missing-data/Explanation.md) |
-
-| 3076 | [Shortest Uncommon Substring in an Array](../leetcode/3076-get-the-size-of-a-dataframe/) | Python | O(n) | O(1) | [Explanation](../leetcode/3076-get-the-size-of-a-dataframe/Explanation.md) |
 
 | 3408 | [Design Task Manager](../leetcode/3408-count-the-number-of-special-characters-i/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3408-count-the-number-of-special-characters-i/Explanation.md) |
 
@@ -197,10 +187,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 2790 | [Maximum Number of Groups With Increasing Length](../leetcode/2790-call-function-with-custom-context/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2790-call-function-with-custom-context/Explanation.md) |
 
 | 2813 | [Maximum Elegance of a K-Length Subsequence](../leetcode/2813-to-be-or-not-to-be/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2813-to-be-or-not-to-be/Explanation.md) |
-
-| 3068 | [Find the Maximum Sum of Node Values](../leetcode/3068-rename-columns/) | Python | O(n) | O(1) | [Explanation](../leetcode/3068-rename-columns/Explanation.md) |
-
-| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3072-reshape-data-pivot/) | Python | O(n) | O(1) | [Explanation](../leetcode/3072-reshape-data-pivot/Explanation.md) |
 
 | 3236 | [CEO Subordinate Hierarchy](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Rust | O(n) | O(1) | [Explanation](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/Explanation.md) |
 

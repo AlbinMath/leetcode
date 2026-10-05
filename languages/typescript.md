@@ -48,6 +48,6 @@ A collection of LeetCode problems implemented in **TypeScript** with detailed co
 | 2859 | [Sum of Values at Indices With K Set Bits](../leetcode/2859-add-two-promises/) | Easy | Array / General | O(n) | O(1) |
 | 2860 | [Happy Students](../leetcode/2860-sort-by/) | Medium | Array / General | O(n) | O(1) |
 | 2862 | [Maximum Element-Sum of a Complete Subset of Indices](../leetcode/2862-interval-cancellation/) | Hard | Heap | O(n) | O(n) |
-| 2863 | [Maximum Length of Semi-Decreasing Subarrays](../leetcode/2863-calculator-with-method-chaining/) | Medium | Math & Logic | O(n) | O(1) |
+| 2863 | [Maximum Length of Semi-Decreasing Subarrays](../leetcode/2863-calculator-with-method-chaining/) | Medium | Hash Map | O(n) | O(n) |
 | 2864 | [Maximum Odd Binary Number](../leetcode/2864-is-object-empty/) | Easy | Array / General | O(n) | O(1) |
 | 3635 | [Earliest Finish Time for Land and Water Rides II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Medium | Math & Logic | O(n) | O(1) |

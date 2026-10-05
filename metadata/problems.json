@@ -296,15 +296,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Property",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Priority Queue Selection",
+    "data_structure": "Min/Max Heap",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Seven different symbols represent Roman numerals with the following values:",
     "related_ids": [
       13,
@@ -638,12 +639,13 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence / Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -6516,7 +6518,9 @@
     "space": "O(n)",
     "brief": "Given a function  fn , an array of arguments  args , and an interval time  t , return a cancel function  cancelFn .",
     "related_ids": [
-      1644
+      12,
+      1644,
+      3562
     ]
   },
   {
@@ -6531,20 +6535,21 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Math & Logic",
-    "algorithm": "Mathematical Simulation / Modular Arithmetic",
-    "data_structure": "Primitive Data Types",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Math",
-      "Simulation"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Design a  Calculator  class. The class should provide the mathematical operations of addition, subtraction, multiplication, division, and exponentiation. It should also allow consecutive operations to be performed using method chaining. The  Calculator  class constructor should accept a number which serves as the initial value of  result .",
     "related_ids": [
       3063,
-      7,
-      48
+      1,
+      13
     ]
   },
   {
@@ -6643,11 +6648,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence / Scanning",
     "data_structure": "Array",
     "topics": [
-      "Array"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -6670,19 +6677,21 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Write a solution to list the names of animals that weigh  strictly more than   100  kilograms.",
     "related_ids": [
       2863,
-      5,
-      6
+      1,
+      13
     ]
   },
   {
@@ -6752,11 +6761,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence / Scanning",
     "data_structure": "Array",
     "topics": [
-      "Array"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -6779,19 +6790,22 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "A company intends to give its employees a pay rise.",
     "related_ids": [
       3068,
-      5,
-      6
+      909,
+      1182
     ]
   },
   {
@@ -6806,19 +6820,22 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Write a solution to rename the columns as follows:",
     "related_ids": [
       3067,
-      5,
-      6
+      909,
+      1182
     ]
   },
   {
@@ -6914,14 +6931,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Write a solution to  pivot  the data so that each row represents temperatures for a specific month, and each city is a separate column.",
     "related_ids": [
       3064,
@@ -7022,19 +7042,21 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "Iterative Traversal",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence / Scanning",
     "data_structure": "Array",
     "topics": [
-      "Array"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
     "brief": "Write a solution to calculate and display the  number of rows and columns  of  players .",
     "related_ids": [
       3062,
-      5,
-      6
+      2,
+      9
     ]
   },
   {
@@ -7529,15 +7551,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Property",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Priority Queue Selection",
+    "data_structure": "Min/Max Heap",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a 2D integer array  intervals , where  intervals[i] = [l i , r i , weight i ] . Interval  i  starts at position  l i   and ends at  r i  , and has a weight of  weight i  . You can choose  up to  4  non-overlapping  intervals. The  score  of the chosen intervals is defined as the total sum of their weights.",
     "related_ids": [
       1644,

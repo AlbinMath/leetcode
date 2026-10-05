@@ -10,13 +10,9 @@ A collection of LeetCode problems solved using **Greedy** pattern techniques, ex
 
 ### Medium
 
-| # | Problem | Language | Time | Space | Explanation |
-|---|---|---|---|---|---|
-| 12 | [Integer to Roman](../leetcode/0012-integer-to-roman/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0012-integer-to-roman/Explanation.md) |
+*No problems logged yet under this difficulty level.*
 
 ### Hard
 
-| # | Problem | Language | Time | Space | Explanation |
-|---|---|---|---|---|---|
-| 3562 | [Maximum Profit from Trading Stocks with Discounts](../leetcode/3562-maximum-score-of-non-overlapping-intervals/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3562-maximum-score-of-non-overlapping-intervals/Explanation.md) |
+*No problems logged yet under this difficulty level.*
 

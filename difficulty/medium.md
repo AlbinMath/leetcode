@@ -12,7 +12,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Array / General | Python | O(n) | O(1) |
 | 7 | [Reverse Integer](../leetcode/0007-reverse-integer/) | Math & Logic | JavaScript | O(n) | O(1) |
 | 11 | [Container With Most Water](../leetcode/0011-container-with-most-water/) | Two Pointers | JavaScript | O(n) | O(1) |
-| 12 | [Integer to Roman](../leetcode/0012-integer-to-roman/) | Greedy | JavaScript | O(n) | O(1) |
+| 12 | [Integer to Roman](../leetcode/0012-integer-to-roman/) | Heap | JavaScript | O(n) | O(n) |
 | 15 | [3Sum](../leetcode/0015-3sum/) | Binary Search | JavaScript | O(log n) | O(1) |
 | 16 | [3Sum Closest](../leetcode/0016-3sum-closest/) | Binary Search | JavaScript | O(log n) | O(1) |
 | 17 | [Letter Combinations of a Phone Number](../leetcode/0017-letter-combinations-of-a-phone-number/) | Backtracking | JavaScript | O(n) | O(1) |
@@ -21,7 +21,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 22 | [Generate Parentheses](../leetcode/0022-generate-parentheses/) | Stack & Queue | C++ | O(n) | O(n) |
 | 33 | [Search in Rotated Sorted Array](../leetcode/0033-search-in-rotated-sorted-array/) | Binary Search | C++ | O(log n) | O(1) |
 | 48 | [Rotate Image](../leetcode/0048-rotate-image/) | Math & Logic | C++ | O(n²) | O(1) |
-| 61 | [Rotate List](../leetcode/0061-rotate-list/) | Linked List | C++ | O(n) | O(1) |
+| 61 | [Rotate List](../leetcode/0061-rotate-list/) | Two Pointers | C++ | O(n) | O(1) |
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0150-evaluate-reverse-polish-notation/) | Stack & Queue | TypeScript | O(n) | O(n) |
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | Binary Search | C++ | O(log n) | O(1) |
 | 176 | [Second Highest Salary](../leetcode/0176-second-highest-salary/) | Database / SQL | SQL | O(n) | O(n) |
@@ -130,17 +130,17 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 2807 | [Insert Greatest Common Divisors in Linked List](../leetcode/2807-execute-asynchronous-functions-in-parallel/) | Two Pointers | TypeScript | O(n) | O(1) |
 | 2820 | [Election Results](../leetcode/2820-return-length-of-arguments-passed/) | Hash Map | TypeScript | O(n) | O(n) |
 | 2860 | [Happy Students](../leetcode/2860-sort-by/) | Array / General | TypeScript | O(n) | O(1) |
-| 2863 | [Maximum Length of Semi-Decreasing Subarrays](../leetcode/2863-calculator-with-method-chaining/) | Math & Logic | TypeScript | O(n) | O(1) |
+| 2863 | [Maximum Length of Semi-Decreasing Subarrays](../leetcode/2863-calculator-with-method-chaining/) | Hash Map | TypeScript | O(n) | O(n) |
 | 2892 | [Minimizing Array After Replacing Pairs With Their Product](../leetcode/2892-check-if-array-is-good/) | Array / General | C++ | O(n) | O(1) |
 | 2914 | [Minimum Number of Changes to Make Binary String Beautiful](../leetcode/2914-find-the-safest-path-in-a-grid/) | Tree & Graph | Java | O(n) | O(n) |
 | 3064 | [Guess the Number Using Bitwise Questions I](../leetcode/3064-reshape-data-concatenate/) | Stack & Queue | Python | O(n) | O(n) |
-| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3066-create-a-new-column/) | Array / General | Python | O(n) | O(1) |
-| 3067 | [Count Pairs of Connectable Servers in a Weighted Tree Network](../leetcode/3067-modify-columns/) | Array / General | Python | O(n) | O(1) |
+| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3066-create-a-new-column/) | Two Pointers | Python | O(n) | O(1) |
+| 3067 | [Count Pairs of Connectable Servers in a Weighted Tree Network](../leetcode/3067-modify-columns/) | Tree & Graph | Python | O(n) | O(n) |
 | 3070 | [Count Submatrices with Top-Left Element and Sum Less Than k](../leetcode/3070-fill-missing-data/) | Array / General | Python | O(n) | O(1) |
 | 3071 | [Minimum Operations to Write the Letter Y on a Grid](../leetcode/3071-drop-duplicate-rows/) | Array / General | Python | O(n) | O(1) |
 | 3073 | [Maximum Increasing Triplet Value](../leetcode/3073-reshape-data-melt/) | Array / General | Python | O(n) | O(1) |
 | 3075 | [Maximize Happiness of Selected Children](../leetcode/3075-drop-missing-data/) | Array / General | Python | O(n) | O(1) |
-| 3076 | [Shortest Uncommon Substring in an Array](../leetcode/3076-get-the-size-of-a-dataframe/) | Array / General | Python | O(n) | O(1) |
+| 3076 | [Shortest Uncommon Substring in an Array](../leetcode/3076-get-the-size-of-a-dataframe/) | Two Pointers | Python | O(n) | O(1) |
 | 3275 | [K-th Nearest Obstacle Queries](../leetcode/3275-minimum-number-of-pushes-to-type-word-i/) | Hash Map | Dart | O(n) | O(n) |
 | 3376 | [Minimum Time to Break Locks I](../leetcode/3376-longest-common-suffix-queries/) | Hash Map | Python | O(n) | O(n) |
 | 3408 | [Design Task Manager](../leetcode/3408-count-the-number-of-special-characters-i/) | Array / General | C++ | O(n) | O(1) |

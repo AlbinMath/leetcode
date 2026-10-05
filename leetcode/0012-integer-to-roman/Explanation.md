@@ -1,7 +1,7 @@
 # LeetCode 12: Integer to Roman
 
 **LeetCode Problem #12 — Integer to Roman**
-Solve LeetCode Integer to Roman using JavaScript and Greedy. This solution finds the optimal result using Greedy Choice Property in O(n) time.
+Solve LeetCode Integer to Roman using JavaScript and Heap. This solution finds the optimal result using Priority Queue Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,17 @@ Solve LeetCode Integer to Roman using JavaScript and Greedy. This solution finds
 | LeetCode | #12 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Greedy Choice Property |
-| Data Structure | Array / Priority Queue |
-| Pattern | Greedy |
+| Algorithm | Priority Queue Selection |
+| Data Structure | Min/Max Heap |
+| Pattern | Heap |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 Seven different symbols represent Roman numerals with the following values:
 
 ## Key Insight
-Leverage **Greedy** with **Array / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Min/Max Heap** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a greedy approach to convert the integer by repeatedly subtracting the largest possible Roman numeral values.
@@ -36,22 +36,23 @@ The code uses a greedy approach to convert the integer by repeatedly subtracting
 The time complexity is $O(1)$ because the number of values is fixed (13 symbols) and the `while` loop will run at most a constant number of times (since the maximum input is 3999). The space complexity is also $O(1)$ since the arrays are of fixed size.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array / Priority Queue**).
-2. Process elements sequentially using **Greedy Choice Property**.
+1. Initialize state variables / data structure (**Min/Max Heap**).
+2. Process elements sequentially using **Priority Queue Selection**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Integer to Roman**. Applying **Greedy Choice Property** yields the target result step by step.
+Consider the standard input for **Integer to Roman**. Applying **Priority Queue Selection** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Greedy**
+**Heap**
 
 ## Topics
-- Greedy
+- Heap
+- Priority Queue
 - Sorting
 
 ## Language
@@ -61,7 +62,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Greedy**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

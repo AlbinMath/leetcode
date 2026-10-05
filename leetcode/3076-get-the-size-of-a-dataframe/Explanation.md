@@ -1,7 +1,7 @@
 # LeetCode 3076: Shortest Uncommon Substring in an Array
 
 **LeetCode Problem #3076 — Shortest Uncommon Substring in an Array**
-Solve LeetCode Shortest Uncommon Substring in an Array using Python and Array / General. This solution finds the optimal result using Iterative Traversal in O(n) time.
+Solve LeetCode Shortest Uncommon Substring in an Array using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence / Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Shortest Uncommon Substring in an Array using Python and Array / 
 | LeetCode | #3076 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Iterative Traversal |
+| Algorithm | Two Pointer Convergence / Scanning |
 | Data Structure | Array |
-| Pattern | Array / General |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,30 @@ Solve LeetCode Shortest Uncommon Substring in an Array using Python and Array / 
 Write a solution to calculate and display the  number of rows and columns  of  players .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
 1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Iterative Traversal**.
+2. Process elements sequentially using **Two Pointer Convergence / Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Shortest Uncommon Substring in an Array**. Applying **Iterative Traversal** yields the target result step by step.
+Consider the standard input for **Shortest Uncommon Substring in an Array**. Applying **Two Pointer Convergence / Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Two Pointers**
 
 ## Topics
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 Python
@@ -50,21 +52,21 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [3062. Winner of the Linked List Game](../3062-create-a-dataframe-from-list/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
+- [2. Add Two Numbers](../0002-add-two-numbers/)
+- [9. Palindrome Number](../0009-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-the-size-of-a-dataframe/)

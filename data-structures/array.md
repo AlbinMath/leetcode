@@ -11,6 +11,7 @@ LeetCode problems solved using **Array** data structures.
 | 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Medium | Iterative Traversal | O(n) | O(1) |
 | 9 | [Palindrome Number](../leetcode/0009-palindrome-number/) | Easy | Two Pointer Convergence / Scanning | O(n) | O(1) |
 | 11 | [Container With Most Water](../leetcode/0011-container-with-most-water/) | Medium | Two Pointer Convergence / Scanning | O(n) | O(1) |
+| 61 | [Rotate List](../leetcode/0061-rotate-list/) | Medium | Two Pointer Convergence / Scanning | O(n) | O(1) |
 | 193 | [Valid Phone Numbers](../leetcode/0193-valid-phone-numbers/) | Easy | Iterative Traversal | O(n) | O(1) |
 | 194 | [Transpose File](../leetcode/0194-transpose-file/) | Medium | Iterative Traversal | O(n) | O(1) |
 | 195 | [Tenth Line](../leetcode/0195-tenth-line/) | Easy | Iterative Traversal | O(n) | O(1) |
@@ -66,20 +67,16 @@ LeetCode problems solved using **Array** data structures.
 | 2860 | [Happy Students](../leetcode/2860-sort-by/) | Medium | Iterative Traversal | O(n) | O(1) |
 | 2864 | [Maximum Odd Binary Number](../leetcode/2864-is-object-empty/) | Easy | Iterative Traversal | O(n) | O(1) |
 | 2892 | [Minimizing Array After Replacing Pairs With Their Product](../leetcode/2892-check-if-array-is-good/) | Medium | Iterative Traversal | O(n) | O(1) |
-| 3062 | [Winner of the Linked List Game](../leetcode/3062-create-a-dataframe-from-list/) | Easy | Iterative Traversal | O(n) | O(1) |
-| 3063 | [Linked List Frequency](../leetcode/3063-method-chaining/) | Easy | Iterative Traversal | O(n) | O(1) |
+| 3062 | [Winner of the Linked List Game](../leetcode/3062-create-a-dataframe-from-list/) | Easy | Two Pointer Convergence / Scanning | O(n) | O(1) |
 | 3065 | [Minimum Operations to Exceed Threshold Value I](../leetcode/3065-display-the-first-three-rows/) | Easy | Iterative Traversal | O(n) | O(1) |
-| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3066-create-a-new-column/) | Medium | Iterative Traversal | O(n) | O(1) |
-| 3067 | [Count Pairs of Connectable Servers in a Weighted Tree Network](../leetcode/3067-modify-columns/) | Medium | Iterative Traversal | O(n) | O(1) |
-| 3068 | [Find the Maximum Sum of Node Values](../leetcode/3068-rename-columns/) | Hard | Iterative Traversal | O(n) | O(1) |
+| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3066-create-a-new-column/) | Medium | Two Pointer Convergence / Scanning | O(n) | O(1) |
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3069-change-data-type/) | Easy | Iterative Traversal | O(n) | O(1) |
 | 3070 | [Count Submatrices with Top-Left Element and Sum Less Than k](../leetcode/3070-fill-missing-data/) | Medium | Iterative Traversal | O(n) | O(1) |
 | 3071 | [Minimum Operations to Write the Letter Y on a Grid](../leetcode/3071-drop-duplicate-rows/) | Medium | Iterative Traversal | O(n) | O(1) |
-| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3072-reshape-data-pivot/) | Hard | Iterative Traversal | O(n) | O(1) |
 | 3073 | [Maximum Increasing Triplet Value](../leetcode/3073-reshape-data-melt/) | Medium | Iterative Traversal | O(n) | O(1) |
 | 3074 | [Apple Redistribution into Boxes](../leetcode/3074-select-data/) | Easy | Iterative Traversal | O(n) | O(1) |
 | 3075 | [Maximize Happiness of Selected Children](../leetcode/3075-drop-missing-data/) | Medium | Iterative Traversal | O(n) | O(1) |
-| 3076 | [Shortest Uncommon Substring in an Array](../leetcode/3076-get-the-size-of-a-dataframe/) | Medium | Iterative Traversal | O(n) | O(1) |
+| 3076 | [Shortest Uncommon Substring in an Array](../leetcode/3076-get-the-size-of-a-dataframe/) | Medium | Two Pointer Convergence / Scanning | O(n) | O(1) |
 | 3150 | [Invalid Tweets II](../leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string/) | Easy | Iterative Traversal | O(n) | O(1) |
 | 3236 | [CEO Subordinate Hierarchy](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Hard | Iterative Traversal | O(n) | O(1) |
 | 3276 | [Select Cells in Grid With Maximum Score](../leetcode/3276-minimum-number-of-pushes-to-type-word-ii/) | Hard | Iterative Traversal | O(n) | O(1) |

@@ -48,6 +48,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 2914 | [Minimum Number of Changes to Make Binary String Beautiful](../leetcode/2914-find-the-safest-path-in-a-grid/) | Java | O(n) | O(n) | [Explanation](../leetcode/2914-find-the-safest-path-in-a-grid/Explanation.md) |
 
+| 3067 | [Count Pairs of Connectable Servers in a Weighted Tree Network](../leetcode/3067-modify-columns/) | Python | O(n) | O(n) | [Explanation](../leetcode/3067-modify-columns/Explanation.md) |
+
 | 3558 | [Number of Ways to Assign Edge Weights I](../leetcode/3558-find-a-safe-walk-through-a-grid/) | Java | O(n) | O(n) | [Explanation](../leetcode/3558-find-a-safe-walk-through-a-grid/Explanation.md) |
 
 | 3561 | [Resulting String After Adjacent Removals](../leetcode/3561-remove-methods-from-project/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3561-remove-methods-from-project/Explanation.md) |
@@ -75,6 +77,10 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 2793 | [Status of Flight Tickets](../leetcode/2793-count-the-number-of-complete-components/) | Java | O(n) | O(n) | [Explanation](../leetcode/2793-count-the-number-of-complete-components/Explanation.md) |
 
 | 2809 | [Minimum Time to Make Array Sum At Most x](../leetcode/2809-create-hello-world-function/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2809-create-hello-world-function/Explanation.md) |
+
+| 3068 | [Find the Maximum Sum of Node Values](../leetcode/3068-rename-columns/) | Python | O(n) | O(n) | [Explanation](../leetcode/3068-rename-columns/Explanation.md) |
+
+| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3072-reshape-data-pivot/) | Python | O(n) | O(n) | [Explanation](../leetcode/3072-reshape-data-pivot/Explanation.md) |
 
 | 3812 | [Minimum Edge Toggles on a Tree](../leetcode/3812-smallest-palindromic-rearrangement-i/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3812-smallest-palindromic-rearrangement-i/Explanation.md) |
 

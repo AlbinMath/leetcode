@@ -688,15 +688,48 @@ Continuously updated as new LeetCode problems are solved.
     # ---------------------------------------------------------
     # 11. Generate All_Problems.md
     # ---------------------------------------------------------
-    all_content = f"""# All Problems Directory
+    easy_cnt = len([p for p in problems if p['difficulty'] == 'Easy'])
+    med_cnt = len([p for p in problems if p['difficulty'] == 'Medium'])
+    hard_cnt = len([p for p in problems if p['difficulty'] == 'Hard'])
 
-Below is the complete list of all **{len(problems)}** LeetCode problems solved in this repository, with difficulty ratings, algorithmic patterns, complexity analysis, and direct links to solution code and explanations.
+    all_content = f"""# All Solved LeetCode Problems Directory
 
-| # | Problem | Difficulty | Pattern | Language | Time | Space | Explanation |
-|---|---|---|---|---|---|---|---|
+Below is the complete, searchable catalog of all **{len(problems)}** LeetCode problems solved in this repository. Each entry contains difficulty metrics, algorithmic patterns, language tags, asymptotic time/space complexities, and direct links to source code and comprehensive explanations.
+
+---
+
+## Quick Navigation & Overview
+
+### Statistics
+- **Total Solved:** {len(problems)} Problems
+- **Difficulty Breakdown:** 🟢 Easy ({easy_cnt}) | 🟡 Medium ({med_cnt}) | 🔴 Hard ({hard_cnt})
+
+### Filter by Difficulty
+- [🟢 Easy Problems ({easy_cnt})](difficulty/easy.md)
+- [🟡 Medium Problems ({med_cnt})](difficulty/medium.md)
+- [🔴 Hard Problems ({hard_cnt})](difficulty/hard.md)
+
+### Filter by Top Algorithmic Patterns
+- [Hash Map](patterns/hash-map.md)
+- [Binary Search](patterns/binary-search.md)
+- [Two Pointers](patterns/two-pointers.md)
+- [Sliding Window](patterns/sliding-window.md)
+- [Dynamic Programming](patterns/dynamic-programming.md)
+- [Monotonic Stack](patterns/monotonic-stack.md)
+- [Database / SQL](patterns/sql-database.md)
+- [Tree & Graph](patterns/tree-graph.md)
+
+---
+
+## Master Searchable Problem Table
+
+| # | Problem Name | Difficulty | Pattern | Language | Algorithm | Time | Space | Solution | Explanation |
+|---|---|---|---|---|---|---|---|---|---|
 """
     for p in problems:
-        all_content += f"| {p['id']} | [{p['title']}]({p['path']}/) | {p['difficulty']} | [{p['pattern']}](patterns/{pattern_file_names.get(p['pattern'], 'array-general.md')}) | {p['lang_str']} | {p['time']} | {p['space']} | [Explanation]({p['path']}/Explanation.md) |\n"
+        code_link = f"[Code]({p['path']}/{p['folder']})" if not p.get('source_links') else p['source_links'].split('\n')[0].replace('./', f"{p['path']}/")
+        code_md_link = f"[Solution Code]({p['path']}/)"
+        all_content += f"| {p['id']} | [{p['title']}]({p['path']}/) | {p['difficulty']} | [{p['pattern']}](patterns/{pattern_file_names.get(p['pattern'], 'array-general.md')}) | {p['lang_str']} | {p['algorithm']} | {p['time']} | {p['space']} | {code_md_link} | [Explanation]({p['path']}/Explanation.md) |\n"
 
     with open('All_Problems.md', 'w', encoding='utf-8') as f:
         f.write(all_content)

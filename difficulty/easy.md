@@ -70,8 +70,8 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2855 | [Minimum Right Shifts to Sort the Array](../leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/) | Dynamic Programming | C++ | O(n) | O(n) |
 | 2859 | [Sum of Values at Indices With K Set Bits](../leetcode/2859-add-two-promises/) | Array / General | TypeScript | O(n) | O(1) |
 | 2864 | [Maximum Odd Binary Number](../leetcode/2864-is-object-empty/) | Array / General | TypeScript | O(n) | O(1) |
-| 3062 | [Winner of the Linked List Game](../leetcode/3062-create-a-dataframe-from-list/) | Array / General | Python | O(n) | O(1) |
-| 3063 | [Linked List Frequency](../leetcode/3063-method-chaining/) | Array / General | Python | O(n) | O(1) |
+| 3062 | [Winner of the Linked List Game](../leetcode/3062-create-a-dataframe-from-list/) | Two Pointers | Python | O(n) | O(1) |
+| 3063 | [Linked List Frequency](../leetcode/3063-method-chaining/) | Hash Map | Python | O(n) | O(n) |
 | 3065 | [Minimum Operations to Exceed Threshold Value I](../leetcode/3065-display-the-first-three-rows/) | Array / General | Python | O(n) | O(1) |
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3069-change-data-type/) | Array / General | Python | O(n) | O(1) |
 | 3074 | [Apple Redistribution into Boxes](../leetcode/3074-select-data/) | Array / General | Python | O(n) | O(1) |

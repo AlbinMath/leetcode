@@ -48,8 +48,8 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 2813 | [Maximum Elegance of a K-Length Subsequence](../leetcode/2813-to-be-or-not-to-be/) | Array / General | TypeScript | O(n) | O(1) |
 | 2858 | [Minimum Edge Reversals So Every Node Is Reachable](../leetcode/2858-join-two-arrays-by-id/) | Hash Map | TypeScript | O(n) | O(n) |
 | 2862 | [Maximum Element-Sum of a Complete Subset of Indices](../leetcode/2862-interval-cancellation/) | Heap | TypeScript | O(n) | O(n) |
-| 3068 | [Find the Maximum Sum of Node Values](../leetcode/3068-rename-columns/) | Array / General | Python | O(n) | O(1) |
-| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3072-reshape-data-pivot/) | Array / General | Python | O(n) | O(1) |
+| 3068 | [Find the Maximum Sum of Node Values](../leetcode/3068-rename-columns/) | Tree & Graph | Python | O(n) | O(n) |
+| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3072-reshape-data-pivot/) | Tree & Graph | Python | O(n) | O(n) |
 | 3219 | [Minimum Cost for Cutting Cake II](../leetcode/3219-make-lexicographically-smallest-array-by-swapping-elements/) | Hash Map | C++ | O(n) | O(n) |
 | 3225 | [Maximum Score From Grid Operations](../leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/) | Hash Map | C++ | O(n) | O(n) |
 | 3236 | [CEO Subordinate Hierarchy](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Array / General | Rust | O(n) | O(1) |
@@ -59,7 +59,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 3347 | [Maximum Frequency of an Element After Performing Operations II](../leetcode/3347-distribute-elements-into-two-arrays-i/) | Hash Map | Go | O(n) | O(n) |
 | 3435 | [Frequencies of Shortest Supersequences](../leetcode/3435-block-placement-queries/) | Array / General | Python | O(n) | O(1) |
 | 3530 | [Maximum Profit from Valid Topological Order in DAG](../leetcode/3530-odd-and-even-transactions/) | Database / SQL | SQL | O(n) | O(n) |
-| 3562 | [Maximum Profit from Trading Stocks with Discounts](../leetcode/3562-maximum-score-of-non-overlapping-intervals/) | Greedy | JavaScript | O(n) | O(1) |
+| 3562 | [Maximum Profit from Trading Stocks with Discounts](../leetcode/3562-maximum-score-of-non-overlapping-intervals/) | Heap | JavaScript | O(n) | O(n) |
 | 3782 | [Last Remaining Integer After Alternating Deletion Operations](../leetcode/3782-find-valid-emails/) | Database / SQL | SQL | O(n) | O(n) |
 | 3812 | [Minimum Edge Toggles on a Tree](../leetcode/3812-smallest-palindromic-rearrangement-i/) | Tree & Graph | C++ | O(n) | O(n) |
 | 3816 | [Lexicographically Smallest String After Deleting Duplicate Characters](../leetcode/3816-dna-pattern-recognition-/) | Array / General | Python | O(n) | O(1) |

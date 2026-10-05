@@ -19,21 +19,21 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 1179 | [Reformat Department Table](../leetcode/1179-game-play-analysis-i/) | Easy | Array / General | O(n) | O(1) |
 | 1182 | [Shortest Distance to Target Color](../leetcode/1182-game-play-analysis-iv/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1968 | [Array With Elements Not Equal to Average of Neighbors](../leetcode/1968-maximum-building-height/) | Medium | Array / General | O(n) | O(1) |
-| 3062 | [Winner of the Linked List Game](../leetcode/3062-create-a-dataframe-from-list/) | Easy | Array / General | O(n) | O(1) |
-| 3063 | [Linked List Frequency](../leetcode/3063-method-chaining/) | Easy | Array / General | O(n) | O(1) |
+| 3062 | [Winner of the Linked List Game](../leetcode/3062-create-a-dataframe-from-list/) | Easy | Two Pointers | O(n) | O(1) |
+| 3063 | [Linked List Frequency](../leetcode/3063-method-chaining/) | Easy | Hash Map | O(n) | O(n) |
 | 3064 | [Guess the Number Using Bitwise Questions I](../leetcode/3064-reshape-data-concatenate/) | Medium | Stack & Queue | O(n) | O(n) |
 | 3065 | [Minimum Operations to Exceed Threshold Value I](../leetcode/3065-display-the-first-three-rows/) | Easy | Array / General | O(n) | O(1) |
-| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3066-create-a-new-column/) | Medium | Array / General | O(n) | O(1) |
-| 3067 | [Count Pairs of Connectable Servers in a Weighted Tree Network](../leetcode/3067-modify-columns/) | Medium | Array / General | O(n) | O(1) |
-| 3068 | [Find the Maximum Sum of Node Values](../leetcode/3068-rename-columns/) | Hard | Array / General | O(n) | O(1) |
+| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3066-create-a-new-column/) | Medium | Two Pointers | O(n) | O(1) |
+| 3067 | [Count Pairs of Connectable Servers in a Weighted Tree Network](../leetcode/3067-modify-columns/) | Medium | Tree & Graph | O(n) | O(n) |
+| 3068 | [Find the Maximum Sum of Node Values](../leetcode/3068-rename-columns/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3069-change-data-type/) | Easy | Array / General | O(n) | O(1) |
 | 3070 | [Count Submatrices with Top-Left Element and Sum Less Than k](../leetcode/3070-fill-missing-data/) | Medium | Array / General | O(n) | O(1) |
 | 3071 | [Minimum Operations to Write the Letter Y on a Grid](../leetcode/3071-drop-duplicate-rows/) | Medium | Array / General | O(n) | O(1) |
-| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3072-reshape-data-pivot/) | Hard | Array / General | O(n) | O(1) |
+| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3072-reshape-data-pivot/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3073 | [Maximum Increasing Triplet Value](../leetcode/3073-reshape-data-melt/) | Medium | Array / General | O(n) | O(1) |
 | 3074 | [Apple Redistribution into Boxes](../leetcode/3074-select-data/) | Easy | Array / General | O(n) | O(1) |
 | 3075 | [Maximize Happiness of Selected Children](../leetcode/3075-drop-missing-data/) | Medium | Array / General | O(n) | O(1) |
-| 3076 | [Shortest Uncommon Substring in an Array](../leetcode/3076-get-the-size-of-a-dataframe/) | Medium | Array / General | O(n) | O(1) |
+| 3076 | [Shortest Uncommon Substring in an Array](../leetcode/3076-get-the-size-of-a-dataframe/) | Medium | Two Pointers | O(n) | O(1) |
 | 3376 | [Minimum Time to Break Locks I](../leetcode/3376-longest-common-suffix-queries/) | Medium | Hash Map | O(n) | O(n) |
 | 3435 | [Frequencies of Shortest Supersequences](../leetcode/3435-block-placement-queries/) | Hard | Array / General | O(n) | O(1) |
 | 3635 | [Earliest Finish Time for Land and Water Rides II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Medium | Math & Logic | O(n) | O(1) |
