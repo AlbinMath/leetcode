@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [22. Generate Parentheses](../0022-generate-parentheses/)
+- [60. Permutation Sequence](../0060-permutation-sequence/)
 - [3302. Find the Lexicographically Smallest Valid Sequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/)

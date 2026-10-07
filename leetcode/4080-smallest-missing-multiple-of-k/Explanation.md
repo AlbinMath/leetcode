@@ -72,8 +72,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
-- [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
-- [1621. Number of Sets of K Non-Overlapping Line Segments](../1725-number-of-sets-of-k-non-overlapping-line-segments/)
+- [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
+- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-missing-multiple-of-k/)

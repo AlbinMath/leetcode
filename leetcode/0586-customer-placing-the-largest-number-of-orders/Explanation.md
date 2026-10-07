@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [9. Palindrome Number](../0009-palindrome-number/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
+- [65. Valid Number](../0065-valid-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)

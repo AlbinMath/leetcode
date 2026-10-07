@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [184. Department Highest Salary](../0184-department-highest-salary/)
+- [326. Power of Three](../0326-power-of-three/)
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
-- [1050. Actors and Directors Who Cooperated At Least Three Times](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/department-top-three-salaries/)

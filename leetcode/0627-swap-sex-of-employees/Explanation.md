@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
 - [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
 - [1075. Project Employees I](../1161-project-employees-i/)
-- [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-sex-of-employees/)

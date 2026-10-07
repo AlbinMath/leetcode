@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [196. Delete Duplicate Emails](../0196-delete-duplicate-emails/)
-- [2882. Drop Duplicate Rows](../3071-drop-duplicate-rows/)
-- [3436. Find Valid Emails](../3782-find-valid-emails/)
+- [217. Contains Duplicate](../0217-contains-duplicate/)
+- [219. Contains Duplicate II](../0219-contains-duplicate-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/duplicate-emails/)

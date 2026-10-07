@@ -10,6 +10,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 |---|---|---|---|---|---|
 | 1 | [Two Sum](../leetcode/0001-two-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-two-sum/Explanation.md) |
 
+| 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0242-valid-anagram/Explanation.md) |
+
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Java | O(n) | O(n) | [Explanation](../leetcode/1203-print-in-order/Explanation.md) |
 
 | 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/1297-maximum-number-of-balloons/Explanation.md) |
@@ -32,6 +34,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 49 | [Group Anagrams](../leetcode/0049-group-anagrams/) | Python | O(n) | O(n) | [Explanation](../leetcode/0049-group-anagrams/Explanation.md) |
+
 | 192 | [Word Frequency](../leetcode/0192-word-frequency/) | Shell | O(n) | O(n) | [Explanation](../leetcode/0192-word-frequency/Explanation.md) |
 
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Java | O(n) | O(n) | [Explanation](../leetcode/1187-print-foobar-alternately/Explanation.md) |

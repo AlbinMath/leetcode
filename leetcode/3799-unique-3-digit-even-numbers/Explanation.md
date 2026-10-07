@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2. Add Two Numbers](../0002-add-two-numbers/)
-- [180. Consecutive Numbers](../0180-consecutive-numbers/)
-- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
+- [62. Unique Paths](../0062-unique-paths/)
+- [63. Unique Paths II](../0063-unique-paths-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-3-digit-even-numbers/)

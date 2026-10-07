@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [64. Minimum Path Sum](../0064-minimum-path-sum/)
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 - [3742. Maximum Path Score in a Grid](../3986-maximum-path-score-in-a-grid/)
-- [1. Two Sum](../0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)

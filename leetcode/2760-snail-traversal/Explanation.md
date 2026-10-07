@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
-- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
+- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
+- [144. Binary Tree Preorder Traversal](../0144-binary-tree-preorder-traversal/)
+- [145. Binary Tree Postorder Traversal](../0145-binary-tree-postorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/snail-traversal/)

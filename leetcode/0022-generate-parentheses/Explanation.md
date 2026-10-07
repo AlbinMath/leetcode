@@ -64,8 +64,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [20. Valid Parentheses](../0020-valid-parentheses/)
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [1190. Reverse Substrings Between Each Pair of Parentheses](../1298-reverse-substrings-between-each-pair-of-parentheses/)
+- [32. Longest Valid Parentheses](../0032-longest-valid-parentheses/)
+- [301. Remove Invalid Parentheses](../0301-remove-invalid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-parentheses/)

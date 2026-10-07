@@ -67,9 +67,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [73. Set Matrix Zeroes](../0073-set-matrix-zeroes/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 - [6. Zigzag Conversion](../0006-zigzag-conversion/)
-- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/set-mismatch/)

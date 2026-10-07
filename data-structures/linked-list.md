@@ -6,6 +6,12 @@ LeetCode problems solved using **Linked List** data structures.
 
 | # | Problem | Difficulty | Algorithm | Time | Space |
 |---|---|---|---|---|---|
-| 3062 | [Winner of the Linked List Game](../leetcode/3062-create-a-dataframe-from-list/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
-| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3066-create-a-new-column/) | Medium | Pointer Traversal & Node Manipulation | O(n) | O(1) |
-| 3076 | [Shortest Uncommon Substring in an Array](../leetcode/3076-get-the-size-of-a-dataframe/) | Medium | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 21 | [Merge Two Sorted Lists](../leetcode/0021-merge-two-sorted-lists/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 23 | [Merge k Sorted Lists](../leetcode/0023-merge-k-sorted-lists/) | Hard | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 24 | [Swap Nodes in Pairs](../leetcode/0024-swap-nodes-in-pairs/) | Medium | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 25 | [Reverse Nodes in k-Group](../leetcode/0025-reverse-nodes-in-k-group/) | Hard | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 82 | [Remove Duplicates from Sorted List II](../leetcode/0082-remove-duplicates-from-sorted-list-ii/) | Medium | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 160 | [Intersection of Two Linked Lists](../leetcode/0160-intersection-of-two-linked-lists/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 203 | [Remove Linked List Elements](../leetcode/0203-remove-linked-list-elements/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |

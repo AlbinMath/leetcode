@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../4135-concatenate-non-zero-digits-and-multiply-by-sum-i/)
+- [40. Combination Sum II](../0040-combination-sum-ii/)
 - [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [3702. Longest Subsequence With Non-Zero Bitwise XOR](../4033-longest-subsequence-with-non-zero-bitwise-xor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/)

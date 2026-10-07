@@ -64,8 +64,8 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 
 ## Related Problems
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [2130. Maximum Twin Sum of a Linked List](../2236-maximum-twin-sum-of-a-linked-list/)
-- [61. Rotate List](../0061-rotate-list/)
+- [141. Linked List Cycle](../0141-linked-list-cycle/)
+- [203. Remove Linked List Elements](../0203-remove-linked-list-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)

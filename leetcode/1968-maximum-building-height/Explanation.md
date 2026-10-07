@@ -70,9 +70,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [53. Maximum Subarray](../0053-maximum-subarray/)
+- [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [1117. Building H2O](../1186-building-h2o/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-building-height/)

@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [58. Length of Last Word](../0058-length-of-last-word/)
 - [607. Sales Person](../0607-sales-person/)
-- [2619. Array Prototype Last](../2734-array-prototype-last/)
-- [2770. Maximum Number of Jumps to Reach the Last Index](../2855-maximum-number-of-jumps-to-reach-the-last-index/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)

@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3614. Process String with Special Operations II](../3939-process-string-with-special-operations-ii/)
 - [3120. Count the Number of Special Characters I](../3408-count-the-number-of-special-characters-i/)
-- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
+- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-string-with-special-operations-i/)

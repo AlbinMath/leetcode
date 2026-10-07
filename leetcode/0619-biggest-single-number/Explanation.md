@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [136. Single Number](../0136-single-number/)
 - [9. Palindrome Number](../0009-palindrome-number/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/biggest-single-number/)

@@ -75,8 +75,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1. Two Sum](../0001-two-sum/)
+- [49. Group Anagrams](../0049-group-anagrams/)
 - [192. Word Frequency](../0192-word-frequency/)
-- [1114. Print in Order](../1203-print-in-order/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cinema-seat-allocation/)

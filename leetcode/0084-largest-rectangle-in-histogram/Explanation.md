@@ -74,9 +74,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
+- [85. Maximal Rectangle](../0085-maximal-rectangle/)
 - [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
 - [836. Rectangle Overlap](../0866-rectangle-overlap/)
-- [1401. Circle and Rectangle Overlapping](../1501-circle-and-rectangle-overlapping/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/)

@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2726. Calculator with Method Chaining](../2863-calculator-with-method-chaining/)
 - [1. Two Sum](../0001-two-sum/)
-- [192. Word Frequency](../0192-word-frequency/)
+- [49. Group Anagrams](../0049-group-anagrams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/method-chaining/)

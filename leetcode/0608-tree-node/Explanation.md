@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [2095. Delete the Middle Node of a Linked List](../2216-delete-the-middle-node-of-a-linked-list/)
-- [2196. Create Binary Tree From Descriptions](../2306-create-binary-tree-from-descriptions/)
+- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
+- [100. Same Tree](../0100-same-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tree-node/)

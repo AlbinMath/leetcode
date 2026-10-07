@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [62. Unique Paths](../0062-unique-paths/)
+- [63. Unique Paths II](../0063-unique-paths-ii/)
 - [577. Employee Bonus](../0577-employee-bonus/)
-- [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
-- [1741. Find Total Time Spent by Each Employee](../1892-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)

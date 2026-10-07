@@ -72,9 +72,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [45. Jump Game II](../0045-jump-game-ii/)
+- [55. Jump Game](../0055-jump-game/)
 - [1306. Jump Game III](../1428-jump-game-iii/)
-- [1345. Jump Game IV](../1447-jump-game-iv/)
-- [1563. Stone Game V](../1685-stone-game-v/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-v/)

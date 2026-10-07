@@ -22,5 +22,7 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 
 ### Hard
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 76 | [Minimum Window Substring](../leetcode/0076-minimum-window-substring/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0076-minimum-window-substring/Explanation.md) |
 

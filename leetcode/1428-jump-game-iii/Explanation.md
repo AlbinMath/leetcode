@@ -72,9 +72,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [45. Jump Game II](../0045-jump-game-ii/)
+- [55. Jump Game](../0055-jump-game/)
 - [1340. Jump Game V](../1466-jump-game-v/)
-- [1345. Jump Game IV](../1447-jump-game-iv/)
-- [1406. Stone Game III](../1522-stone-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-iii/)

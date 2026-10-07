@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3689. Maximum Total Subarray Value I](../4005-maximum-total-subarray-value-i/)
+- [53. Maximum Subarray](../0053-maximum-subarray/)
 - [3525. Find X Value of Array II](../3840-find-x-value-of-array-ii/)
-- [3753. Total Waviness of Numbers in Range II](../4128-total-waviness-of-numbers-in-range-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-subarray-value-ii/)

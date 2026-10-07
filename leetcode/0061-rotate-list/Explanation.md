@@ -73,7 +73,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
 - [48. Rotate Image](../0048-rotate-image/)
-- [396. Rotate Function](../0396-rotate-function/)
+- [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-list/)

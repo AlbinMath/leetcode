@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [2196. Create Binary Tree From Descriptions](../2306-create-binary-tree-from-descriptions/)
-- [61. Rotate List](../0061-rotate-list/)
+- [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
+- [83. Remove Duplicates from Sorted List](../0083-remove-duplicates-from-sorted-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-a-dataframe-from-list/)

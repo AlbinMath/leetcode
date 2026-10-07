@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [58. Length of Last Word](../0058-length-of-last-word/)
 - [2958. Length of Longest Subarray With at Most K Frequency](../3225-length-of-longest-subarray-with-at-most-k-frequency/)
 - [3043. Find the Length of the Longest Common Prefix](../3329-find-the-length-of-the-longest-common-prefix/)
-- [3090. Maximum Length Substring With Two Occurrences](../3349-maximum-length-substring-with-two-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/return-length-of-arguments-passed/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3499. Maximize Active Section with Trade I](../3805-maximize-active-section-with-trade-i/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
+- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [45. Jump Game II](../0045-jump-game-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-active-section-with-trade-ii/)

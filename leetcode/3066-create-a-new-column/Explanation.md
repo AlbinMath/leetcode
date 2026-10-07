@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [168. Excel Sheet Column Title](../0168-excel-sheet-column-title/)
+- [171. Excel Sheet Column Number](../0171-excel-sheet-column-number/)
 - [2196. Create Binary Tree From Descriptions](../2306-create-binary-tree-from-descriptions/)
-- [2667. Create Hello World Function](../2809-create-hello-world-function/)
-- [2877. Create a DataFrame from List](../3062-create-a-dataframe-from-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-a-new-column/)

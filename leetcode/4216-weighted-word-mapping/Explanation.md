@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [58. Length of Last Word](../0058-length-of-last-word/)
+- [79. Word Search](../0079-word-search/)
 - [192. Word Frequency](../0192-word-frequency/)
-- [1967. Number of Strings That Appear as Substrings in Word](../2099-number-of-strings-that-appear-as-substrings-in-word/)
-- [3014. Minimum Number of Pushes to Type Word I](../3275-minimum-number-of-pushes-to-type-word-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/weighted-word-mapping/)

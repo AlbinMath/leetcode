@@ -64,8 +64,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [20. Valid Parentheses](../0020-valid-parentheses/)
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [1752. Check if Array Is Sorted and Rotated](../1878-check-if-array-is-sorted-and-rotated/)
+- [32. Longest Valid Parentheses](../0032-longest-valid-parentheses/)
+- [678. Valid Parenthesis String](../0678-valid-parenthesis-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/)

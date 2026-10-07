@@ -77,7 +77,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [9. Palindrome Number](../0009-palindrome-number/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
+- [62. Unique Paths](../0062-unique-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-paths-with-max-score/)

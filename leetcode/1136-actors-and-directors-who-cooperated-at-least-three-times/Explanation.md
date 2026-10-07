@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [183. Customers Who Never Order](../0183-customers-who-never-order/)
 - [185. Department Top Three Salaries](../0185-department-top-three-salaries/)
-- [570. Managers with at Least 5 Direct Reports](../0570-managers-with-at-least-5-direct-reports/)
+- [326. Power of Three](../0326-power-of-three/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)

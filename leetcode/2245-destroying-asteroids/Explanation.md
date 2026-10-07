@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [7. Reverse Integer](../0007-reverse-integer/)
-- [396. Rotate Function](../0396-rotate-function/)
-- [835. Image Overlap](../0864-image-overlap/)
+- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [29. Divide Two Integers](../0029-divide-two-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/destroying-asteroids/)

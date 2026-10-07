@@ -71,9 +71,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [45. Jump Game II](../0045-jump-game-ii/)
+- [55. Jump Game](../0055-jump-game/)
 - [550. Game Play Analysis IV](../1182-game-play-analysis-iv/)
-- [1306. Jump Game III](../1428-jump-game-iii/)
-- [1340. Jump Game V](../1466-jump-game-v/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-iv/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2693. Call Function with Custom Context](../2790-call-function-with-custom-context/)
+- [66. Plus One](../0066-plus-one/)
 - [396. Rotate Function](../0396-rotate-function/)
-- [2213. Longest Substring of One Repeating Character](../2319-longest-substring-of-one-repeating-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/allow-one-function-call/)

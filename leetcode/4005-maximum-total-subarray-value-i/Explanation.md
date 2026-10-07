@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3691. Maximum Total Subarray Value II](../4007-maximum-total-subarray-value-ii/)
+- [53. Maximum Subarray](../0053-maximum-subarray/)
 - [3524. Find X Value of Array I](../3831-find-x-value-of-array-i/)
-- [3751. Total Waviness of Numbers in Range I](../4057-total-waviness-of-numbers-in-range-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-subarray-value-i/)

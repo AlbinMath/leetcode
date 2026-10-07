@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2887. Fill Missing Data](../3070-fill-missing-data/)
-- [1965. Employees With Missing Information](../2110-employees-with-missing-information/)
-- [2880. Select Data](../3074-select-data/)
+- [41. First Missing Positive](../0041-first-missing-positive/)
+- [268. Missing Number](../0268-missing-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/drop-missing-data/)

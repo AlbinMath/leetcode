@@ -71,8 +71,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [7. Reverse Integer](../0007-reverse-integer/)
-- [1190. Reverse Substrings Between Each Pair of Parentheses](../1298-reverse-substrings-between-each-pair-of-parentheses/)
-- [1807. Evaluate the Bracket Pairs of a String](../1934-evaluate-the-bracket-pairs-of-a-string/)
+- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
+- [206. Reverse Linked List](../0206-reverse-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/)

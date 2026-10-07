@@ -64,9 +64,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [57. Insert Interval](../0057-insert-interval/)
 - [12. Integer to Roman](../0012-integer-to-roman/)
 - [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
-- [3414. Maximum Score of Non-overlapping Intervals](../3562-maximum-score-of-non-overlapping-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/interval-cancellation/)

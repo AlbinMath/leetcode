@@ -8,11 +8,27 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 |---|---|---|---|---|---|
 | 4 | [Median of Two Sorted Arrays](../leetcode/0004-median-of-two-sorted-arrays/) | Binary Search | Python | O(n) | O(1) |
 | 10 | [Regular Expression Matching](../leetcode/0010-regular-expression-matching/) | Dynamic Programming | JavaScript | O(n) | O(n) |
+| 23 | [Merge k Sorted Lists](../leetcode/0023-merge-k-sorted-lists/) | Linked List | Python | O(n) | O(1) |
+| 25 | [Reverse Nodes in k-Group](../leetcode/0025-reverse-nodes-in-k-group/) | Linked List | Python | O(n) | O(1) |
+| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Array / General | Python | O(n) | O(1) |
+| 32 | [Longest Valid Parentheses](../leetcode/0032-longest-valid-parentheses/) | Stack & Queue | Python | O(n) | O(n) |
+| 37 | [Sudoku Solver](../leetcode/0037-sudoku-solver/) | Array / General | Python | O(n) | O(1) |
+| 41 | [First Missing Positive](../leetcode/0041-first-missing-positive/) | Array / General | Python | O(n) | O(1) |
+| 42 | [Trapping Rain Water](../leetcode/0042-trapping-rain-water/) | Array / General | Python | O(n) | O(1) |
+| 44 | [Wildcard Matching](../leetcode/0044-wildcard-matching/) | Array / General | Python | O(n) | O(1) |
+| 51 | [N-Queens](../leetcode/0051-n-queens/) | Array / General | Python | O(n) | O(1) |
+| 52 | [N-Queens II](../leetcode/0052-n-queens-ii/) | Array / General | Python | O(n) | O(1) |
+| 60 | [Permutation Sequence](../leetcode/0060-permutation-sequence/) | Backtracking | Python | O(n) | O(1) |
+| 65 | [Valid Number](../leetcode/0065-valid-number/) | Array / General | Python | O(n) | O(1) |
+| 68 | [Text Justification](../leetcode/0068-text-justification/) | Greedy | Python | O(n) | O(1) |
+| 76 | [Minimum Window Substring](../leetcode/0076-minimum-window-substring/) | Sliding Window | PHP | O(n) | O(1) |
 | 84 | [Largest Rectangle in Histogram](../leetcode/0084-largest-rectangle-in-histogram/) | Monotonic Stack | TypeScript | O(n) | O(n) |
+| 85 | [Maximal Rectangle](../leetcode/0085-maximal-rectangle/) | Math & Logic | Python | O(n) | O(1) |
 | 115 | [Distinct Subsequences](../leetcode/0115-distinct-subsequences/) | Dynamic Programming | JavaScript | O(n) | O(n) |
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | Binary Search | C++ | O(n) | O(1) |
 | 185 | [Department Top Three Salaries](../leetcode/0185-department-top-three-salaries/) | Database / SQL | SQL | O(n) | O(n) |
 | 262 | [Trips and Users](../leetcode/0262-trips-and-users/) | Database / SQL | SQL | O(n) | O(n) |
+| 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Stack & Queue | Python | O(n) | O(n) |
 | 601 | [Human Traffic of Stadium](../leetcode/0601-human-traffic-of-stadium/) | Database / SQL | SQL | O(n) | O(n) |
 | 940 | [Distinct Subsequences II](../leetcode/0977-distinct-subsequences-ii/) | Dynamic Programming | JavaScript | O(n) | O(n) |
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | Array / General | JavaScript | O(n) | O(1) |
@@ -27,6 +43,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Array / General | Python | O(n) | O(1) |
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Prefix Sum | Java | O(n) | O(n) |
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Binary Search | Java | O(n) | O(1) |
+| 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/) | Stack & Queue | C++ | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | Stack & Queue | C++ | O(n) | O(n) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | Two Pointers | JavaScript | O(n) | O(1) |
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | Hash Map | TypeScript | O(n) | O(n) |

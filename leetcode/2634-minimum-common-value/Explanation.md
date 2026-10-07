@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [14. Longest Common Prefix](../0014-longest-common-prefix/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
+- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [76. Minimum Window Substring](../0076-minimum-window-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-common-value/)

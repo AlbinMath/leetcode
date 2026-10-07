@@ -65,8 +65,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1. Two Sum](../0001-two-sum/)
-- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
-- [550. Game Play Analysis IV](../1182-game-play-analysis-iv/)
+- [39. Combination Sum](../0039-combination-sum/)
+- [40. Combination Sum II](../0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-game/)

@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3513. Number of Unique XOR Triplets I](../3824-number-of-unique-xor-triplets-i/)
+- [63. Unique Paths II](../0063-unique-paths-ii/)
 - [2356. Number of Unique Subjects Taught by Each Teacher](../2495-number-of-unique-subjects-taught-by-each-teacher/)
-- [3016. Minimum Number of Pushes to Type Word II](../3276-minimum-number-of-pushes-to-type-word-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/)

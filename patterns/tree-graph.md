@@ -8,6 +8,28 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0094-binary-tree-inorder-traversal/Explanation.md) |
+
+| 100 | [Same Tree](../leetcode/0100-same-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0100-same-tree/Explanation.md) |
+
+| 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0101-symmetric-tree/Explanation.md) |
+
+| 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0104-maximum-depth-of-binary-tree/Explanation.md) |
+
+| 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0110-balanced-binary-tree/Explanation.md) |
+
+| 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0111-minimum-depth-of-binary-tree/Explanation.md) |
+
+| 112 | [Path Sum](../leetcode/0112-path-sum/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0112-path-sum/Explanation.md) |
+
+| 144 | [Binary Tree Preorder Traversal](../leetcode/0144-binary-tree-preorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0144-binary-tree-preorder-traversal/Explanation.md) |
+
+| 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0145-binary-tree-postorder-traversal/Explanation.md) |
+
+| 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0226-invert-binary-tree/Explanation.md) |
+
+| 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0257-binary-tree-paths/Explanation.md) |
+
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Racket | O(n) | O(n) | [Explanation](../leetcode/1386-shift-2d-grid/Explanation.md) |
 
 | 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/Explanation.md) |
@@ -30,6 +52,22 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 54 | [Spiral Matrix](../leetcode/0054-spiral-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0054-spiral-matrix/Explanation.md) |
+
+| 59 | [Spiral Matrix II](../leetcode/0059-spiral-matrix-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0059-spiral-matrix-ii/Explanation.md) |
+
+| 62 | [Unique Paths](../leetcode/0062-unique-paths/) | Python | O(n) | O(n) | [Explanation](../leetcode/0062-unique-paths/Explanation.md) |
+
+| 63 | [Unique Paths II](../leetcode/0063-unique-paths-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0063-unique-paths-ii/Explanation.md) |
+
+| 64 | [Minimum Path Sum](../leetcode/0064-minimum-path-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/0064-minimum-path-sum/Explanation.md) |
+
+| 71 | [Simplify Path](../leetcode/0071-simplify-path/) | Python | O(n) | O(n) | [Explanation](../leetcode/0071-simplify-path/Explanation.md) |
+
+| 73 | [Set Matrix Zeroes](../leetcode/0073-set-matrix-zeroes/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0073-set-matrix-zeroes/Explanation.md) |
+
+| 74 | [Search a 2D Matrix](../leetcode/0074-search-a-2d-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0074-search-a-2d-matrix/Explanation.md) |
+
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Python | O(n) | O(n) | [Explanation](../leetcode/1182-game-play-analysis-iv/Explanation.md) |
 
 | 877 | [Stone Game](../leetcode/0909-stone-game/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0909-stone-game/Explanation.md) |

@@ -7,7 +7,9 @@ LeetCode problems solved using **Dictionary / Hash Map** data structures.
 | # | Problem | Difficulty | Algorithm | Time | Space |
 |---|---|---|---|---|---|
 | 1 | [Two Sum](../leetcode/0001-two-sum/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 49 | [Group Anagrams](../leetcode/0049-group-anagrams/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 192 | [Word Frequency](../leetcode/0192-word-frequency/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |

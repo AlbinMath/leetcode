@@ -73,9 +73,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
 - [12. Integer to Roman](../0012-integer-to-roman/)
 - [13. Roman to Integer](../0013-roman-to-integer/)
-- [150. Evaluate Reverse Polish Notation](../0150-evaluate-reverse-polish-notation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-integer/)

@@ -65,7 +65,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1614. Maximum Nesting Depth of the Parentheses](../1737-maximum-nesting-depth-of-the-parentheses/)
 - [20. Valid Parentheses](../0020-valid-parentheses/)
-- [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
+- [32. Longest Valid Parentheses](../0032-longest-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)

@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [182. Duplicate Emails](../0182-duplicate-emails/)
 - [196. Delete Duplicate Emails](../0196-delete-duplicate-emails/)
-- [2879. Display the First Three Rows](../3065-display-the-first-three-rows/)
+- [217. Contains Duplicate](../0217-contains-duplicate/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/drop-duplicate-rows/)

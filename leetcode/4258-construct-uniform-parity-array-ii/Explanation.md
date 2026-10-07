@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3875. Construct Uniform Parity Array I](../4256-construct-uniform-parity-array-i/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [3525. Find X Value of Array II](../3840-find-x-value-of-array-ii/)
+- [80. Remove Duplicates from Sorted Array II](../0080-remove-duplicates-from-sorted-array-ii/)
+- [81. Search in Rotated Sorted Array II](../0081-search-in-rotated-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-uniform-parity-array-ii/)

@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [183. Customers Who Never Order](../0183-customers-who-never-order/)
+- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
 - [448. Find All Numbers Disappeared in an Array](../0448-find-all-numbers-disappeared-in-an-array/)
-- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customers-who-bought-all-products/)

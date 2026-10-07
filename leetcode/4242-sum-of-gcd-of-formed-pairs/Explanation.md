@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1. Two Sum](../0001-two-sum/)
-- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [1807. Evaluate the Bracket Pairs of a String](../1934-evaluate-the-bracket-pairs-of-a-string/)
+- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
+- [39. Combination Sum](../0039-combination-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/)

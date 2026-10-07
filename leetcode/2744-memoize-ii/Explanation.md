@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
-- [940. Distinct Subsequences II](../0977-distinct-subsequences-ii/)
+- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [45. Jump Game II](../0045-jump-game-ii/)
+- [47. Permutations II](../0047-permutations-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/memoize-ii/)

@@ -11,8 +11,13 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 16 | [3Sum Closest](../leetcode/0016-3sum-closest/) | Medium | Modified Binary Search | O(log n) | O(1) |
 | 18 | [4Sum](../leetcode/0018-4sum/) | Medium | Modified Binary Search | O(log n) | O(1) |
 | 33 | [Search in Rotated Sorted Array](../leetcode/0033-search-in-rotated-sorted-array/) | Medium | Modified Binary Search | O(log n) | O(1) |
+| 34 | [Find First and Last Position of Element in Sorted Array](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium | Modified Binary Search | O(log n) | O(1) |
+| 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Easy | Modified Binary Search | O(log n) | O(1) |
+| 81 | [Search in Rotated Sorted Array II](../leetcode/0081-search-in-rotated-sorted-array-ii/) | Medium | Modified Binary Search | O(n) | O(1) |
+| 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | Medium | Modified Binary Search | O(log n) | O(1) |
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard | Modified Binary Search | O(n) | O(1) |
+| 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 1288 | [Remove Covered Intervals](../leetcode/1222-remove-covered-intervals/) | Medium | Modified Binary Search | O(log n) | O(1) |

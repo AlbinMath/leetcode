@@ -71,9 +71,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2095. Delete the Middle Node of a Linked List](../2216-delete-the-middle-node-of-a-linked-list/)
-- [2877. Create a DataFrame from List](../3062-create-a-dataframe-from-list/)
-- [3310. Remove Methods From Project](../3561-remove-methods-from-project/)
+- [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
+- [83. Remove Duplicates from Sorted List](../0083-remove-duplicates-from-sorted-list/)
+- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)

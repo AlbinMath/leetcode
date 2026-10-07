@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [11. Container With Most Water](../0011-container-with-most-water/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [183. Customers Who Never Order](../0183-customers-who-never-order/)
+- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [45. Jump Game II](../0045-jump-game-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)

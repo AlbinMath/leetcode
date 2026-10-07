@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3633. Earliest Finish Time for Land and Water Rides I](../3965-earliest-finish-time-for-land-and-water-rides-i/)
 - [11. Container With Most Water](../0011-container-with-most-water/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
+- [40. Combination Sum II](../0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/)

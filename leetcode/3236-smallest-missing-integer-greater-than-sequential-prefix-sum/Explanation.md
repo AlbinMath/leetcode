@@ -17,7 +17,7 @@ Solve LeetCode Smallest Missing Integer Greater Than Sequential Prefix Sum using
 | Space Complexity | O(n) |
 
 ## Problem
-You are given a  0-indexed  array of integers  nums .
+Note:  The updated title is  "Smallest Missing Integer Greater Than or Equal to Sequential Prefix Sum".
 
 ## Key Insight
 Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.

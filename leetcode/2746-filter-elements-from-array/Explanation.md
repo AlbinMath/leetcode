@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [80. Remove Duplicates from Sorted Array II](../0080-remove-duplicates-from-sorted-array-ii/)
 - [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
-- [2091. Removing Minimum and Maximum From Array](../2212-removing-minimum-and-maximum-from-array/)
-- [2948. Make Lexicographically Smallest Array by Swapping Elements](../3219-make-lexicographically-smallest-array-by-swapping-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/filter-elements-from-array/)

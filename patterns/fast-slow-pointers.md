@@ -6,7 +6,9 @@ A collection of LeetCode problems solved using **Fast & Slow Pointers** pattern 
 
 ### Easy
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 141 | [Linked List Cycle](../leetcode/0141-linked-list-cycle/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0141-linked-list-cycle/Explanation.md) |
 
 ### Medium
 

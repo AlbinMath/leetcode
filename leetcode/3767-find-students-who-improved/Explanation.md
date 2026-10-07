@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [3601. Find Drivers with Improved Fuel Efficiency](../3942-find-drivers-with-improved-fuel-efficiency/)
 - [3617. Find Students with Study Spiral Pattern](../3961-find-students-with-study-spiral-pattern/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-students-who-improved/)

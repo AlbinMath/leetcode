@@ -75,9 +75,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
+- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [76. Minimum Window Substring](../0076-minimum-window-substring/)
+- [111. Minimum Depth of Binary Tree](../0111-minimum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)

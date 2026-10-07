@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1752. Check if Array Is Sorted and Rotated](../1878-check-if-array-is-sorted-and-rotated/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349--check-if-there-is-a-valid-parentheses-string-path/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [2618. Check if Object Instance of Class](../2758-check-if-object-instance-of-class/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-array-is-good/)

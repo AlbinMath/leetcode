@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [301. Remove Invalid Parentheses](../0301-remove-invalid-parentheses/)
 - [3451. Find Invalid IP Addresses](../3792-find-invalid-ip-addresses/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
-- [176. Second Highest Salary](../0176-second-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/invalid-tweets/)

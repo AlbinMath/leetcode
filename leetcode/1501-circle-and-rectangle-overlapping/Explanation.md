@@ -66,8 +66,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
+- [85. Maximal Rectangle](../0085-maximal-rectangle/)
 - [836. Rectangle Overlap](../0866-rectangle-overlap/)
-- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/circle-and-rectangle-overlapping/)

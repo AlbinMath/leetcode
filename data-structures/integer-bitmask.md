@@ -7,6 +7,9 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | # | Problem | Difficulty | Algorithm | Time | Space |
 |---|---|---|---|---|---|
 | 7 | [Reverse Integer](../leetcode/0007-reverse-integer/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 8 | [String to Integer (atoi)](../leetcode/0008-string-to-integer-atoi/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 67 | [Add Binary](../leetcode/0067-add-binary/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | Medium | Bitwise Masking & Bit Shift | O(n²) | O(1) |
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |

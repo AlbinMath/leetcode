@@ -10,6 +10,10 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 |---|---|---|---|---|---|
 | 9 | [Palindrome Number](../leetcode/0009-palindrome-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/0009-palindrome-number/Explanation.md) |
 
+| 125 | [Valid Palindrome](../leetcode/0125-valid-palindrome/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0125-valid-palindrome/Explanation.md) |
+
+| 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0234-palindrome-linked-list/Explanation.md) |
+
 | 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2634-minimum-common-value/Explanation.md) |
 
 | 2877 | [Create a DataFrame from List](../leetcode/3062-create-a-dataframe-from-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/3062-create-a-dataframe-from-list/Explanation.md) |

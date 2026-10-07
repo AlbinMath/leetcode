@@ -106,9 +106,9 @@
     "space": "O(1)",
     "brief": "Given two sorted arrays  nums1  and  nums2  of size  m  and  n  respectively, return  the median  of the two sorted arrays.",
     "related_ids": [
+      21,
       1477,
-      2657,
-      2722
+      2657
     ]
   },
   {
@@ -185,9 +185,36 @@
     "space": "O(1)",
     "brief": "Given a signed 32-bit integer  x , return  x   with its digits reversed . If reversing  x  causes the value to go outside the signed 32-bit integer range  [-2 31 , 2 31  - 1] , then return  0 .",
     "related_ids": [
+      8,
       12,
-      13,
-      150
+      13
+    ]
+  },
+  {
+    "id": 8,
+    "title": "String to Integer (atoi)",
+    "slug": "string-to-integer-atoi",
+    "difficulty": "Medium",
+    "folder": "0008-string-to-integer-atoi",
+    "path": "leetcode/0008-string-to-integer-atoi",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Implement the  myAtoi(string s)  function, which converts a string to a 32-bit signed integer.",
+    "related_ids": [
+      7,
+      12,
+      13
     ]
   },
   {
@@ -215,7 +242,7 @@
     "related_ids": [
       2472,
       17,
-      586
+      65
     ]
   },
   {
@@ -241,9 +268,9 @@
     "space": "O(n)",
     "brief": "Given an input string  s  and a pattern  p , implement regular expression matching with support for  &#39;.&#39;  and  &#39;*&#39;  where:",
     "related_ids": [
+      44,
       115,
-      486,
-      940
+      486
     ]
   },
   {
@@ -269,9 +296,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  height  of length  n . There are  n  vertical lines drawn such that the two endpoints of the  i th   line are  (i, 0)  and  (i, height[i]) .",
     "related_ids": [
+      42,
       602,
-      2958,
-      3633
+      2958
     ]
   },
   {
@@ -299,7 +326,7 @@
     "related_ids": [
       13,
       7,
-      2996
+      8
     ]
   },
   {
@@ -326,7 +353,7 @@
     "related_ids": [
       12,
       7,
-      2996
+      8
     ]
   },
   {
@@ -435,8 +462,8 @@
     "brief": "Given a string containing digits from  2-9  inclusive, return all possible letter combinations that the number could represent. Return the answer in  any order .",
     "related_ids": [
       9,
-      193,
-      586
+      65,
+      77
     ]
   },
   {
@@ -489,9 +516,9 @@
     "space": "O(1)",
     "brief": "Given the  head  of a linked list, remove the  n th   node from the end of the list and return its head.",
     "related_ids": [
-      2095,
-      2877,
-      3310
+      82,
+      83,
+      26
     ]
   },
   {
@@ -516,9 +543,36 @@
     "space": "O(n)",
     "brief": "Given a string  s  containing just the characters  &#39;(&#39; ,  &#39;)&#39; ,  &#39;{&#39; ,  &#39;}&#39; ,  &#39;[&#39;  and  &#39;]&#39; , determine if the input string is valid.",
     "related_ids": [
-      1111,
-      2267,
-      22
+      32,
+      921,
+      1111
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "Easy",
+    "folder": "0021-merge-two-sorted-lists",
+    "path": "leetcode/0021-merge-two-sorted-lists",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given the heads of two sorted linked lists  list1  and  list2 .",
+    "related_ids": [
+      23,
+      4,
+      88
     ]
   },
   {
@@ -544,8 +598,275 @@
     "brief": "Given  n  pairs of parentheses, write a function to  generate all combinations of well-formed parentheses .",
     "related_ids": [
       20,
-      1111,
-      1190
+      32,
+      301
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Merge k Sorted Lists",
+    "slug": "merge-k-sorted-lists",
+    "difficulty": "Hard",
+    "folder": "0023-merge-k-sorted-lists",
+    "path": "leetcode/0023-merge-k-sorted-lists",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of  k  linked-lists  lists , each linked-list is sorted in ascending order.",
+    "related_ids": [
+      21,
+      88,
+      4
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Swap Nodes in Pairs",
+    "slug": "swap-nodes-in-pairs",
+    "difficulty": "Medium",
+    "folder": "0024-swap-nodes-in-pairs",
+    "path": "leetcode/0024-swap-nodes-in-pairs",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list&#39;s nodes (i.e., only nodes themselves may be changed.)",
+    "related_ids": [
+      25,
+      627,
+      1807
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Reverse Nodes in k-Group",
+    "slug": "reverse-nodes-in-k-group",
+    "difficulty": "Hard",
+    "folder": "0025-reverse-nodes-in-k-group",
+    "path": "leetcode/0025-reverse-nodes-in-k-group",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a linked list, reverse the nodes of the list  k  at a time, and return  the modified list .",
+    "related_ids": [
+      7,
+      23,
+      24
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array",
+    "difficulty": "Easy",
+    "folder": "0026-remove-duplicates-from-sorted-array",
+    "path": "leetcode/0026-remove-duplicates-from-sorted-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums  sorted in  non-decreasing order , remove the duplicates   in-place   such that each unique element appears only  once . The  relative order  of the elements should be kept the  same .",
+    "related_ids": [
+      80,
+      82,
+      83
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Remove Element",
+    "slug": "remove-element",
+    "difficulty": "Easy",
+    "folder": "0027-remove-element",
+    "path": "leetcode/0027-remove-element",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums  and an integer  val , remove all occurrences of  val  in  nums    in-place  . The order of the elements may be changed. Then return  the number of elements in   nums   which are not equal to   val .",
+    "related_ids": [
+      19,
+      26,
+      34
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy",
+    "folder": "0028-find-the-index-of-the-first-occurrence-in-a-string",
+    "path": "leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given two strings  needle  and  haystack , return the index of the first occurrence of  needle  in  haystack , or  -1  if  needle  is not part of  haystack .",
+    "related_ids": [
+      34,
+      8,
+      41
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Divide Two Integers",
+    "slug": "divide-two-integers",
+    "difficulty": "Medium",
+    "folder": "0029-divide-two-integers",
+    "path": "leetcode/0029-divide-two-integers",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two integers  dividend  and  divisor , divide two integers  without  using multiplication, division, and mod operator.",
+    "related_ids": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Substring with Concatenation of All Words",
+    "slug": "substring-with-concatenation-of-all-words",
+    "difficulty": "Hard",
+    "folder": "0030-substring-with-concatenation-of-all-words",
+    "path": "leetcode/0030-substring-with-concatenation-of-all-words",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a string  s  and an array of strings  words . All the strings of  words  are of  the same length .",
+    "related_ids": [
+      3,
+      5,
+      76
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Next Permutation",
+    "slug": "next-permutation",
+    "difficulty": "Medium",
+    "folder": "0031-next-permutation",
+    "path": "leetcode/0031-next-permutation",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Recursive Search",
+    "data_structure": "Recursion Tree",
+    "topics": [
+      "Backtracking",
+      "Recursion"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "A  permutation  of an array of integers is an arrangement of its members into a sequence or linear order.",
+    "related_ids": [
+      60,
+      3720,
+      3734
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Longest Valid Parentheses",
+    "slug": "longest-valid-parentheses",
+    "difficulty": "Hard",
+    "folder": "0032-longest-valid-parentheses",
+    "path": "leetcode/0032-longest-valid-parentheses",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given a string containing just the characters  &#39;(&#39;  and  &#39;)&#39; , return  the length of the longest valid (well-formed) parentheses    substring  .",
+    "related_ids": [
+      20,
+      921,
+      1111
     ]
   },
   {
@@ -571,9 +892,381 @@
     "space": "O(1)",
     "brief": "There is an integer array  nums  sorted in ascending order (with  distinct  values).",
     "related_ids": [
+      81,
+      108,
+      153
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "slug": "find-first-and-last-position-of-element-in-sorted-array",
+    "difficulty": "Medium",
+    "folder": "0034-find-first-and-last-position-of-element-in-sorted-array",
+    "path": "leetcode/0034-find-first-and-last-position-of-element-in-sorted-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(log n)",
+    "space": "O(1)",
+    "brief": "Given an array of integers  nums  sorted in non-decreasing order, find the starting and ending position of a given  target  value.",
+    "related_ids": [
       153,
       154,
-      1752
+      26
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Search Insert Position",
+    "slug": "search-insert-position",
+    "difficulty": "Easy",
+    "folder": "0035-search-insert-position",
+    "path": "leetcode/0035-search-insert-position",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(log n)",
+    "space": "O(1)",
+    "brief": "Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.",
+    "related_ids": [
+      33,
+      34,
+      57
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Valid Sudoku",
+    "slug": "valid-sudoku",
+    "difficulty": "Medium",
+    "folder": "0036-valid-sudoku",
+    "path": "leetcode/0036-valid-sudoku",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Determine if a  9 x 9  Sudoku board is valid. Only the filled cells need to be validated  according to the following rules :",
+    "related_ids": [
+      20,
+      32,
+      37
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Sudoku Solver",
+    "slug": "sudoku-solver",
+    "difficulty": "Hard",
+    "folder": "0037-sudoku-solver",
+    "path": "leetcode/0037-sudoku-solver",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write a program to solve a Sudoku puzzle by filling the empty cells.",
+    "related_ids": [
+      36,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Count and Say",
+    "slug": "count-and-say",
+    "difficulty": "Medium",
+    "folder": "0038-count-and-say",
+    "path": "leetcode/0038-count-and-say",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "The  count-and-say  sequence is a sequence of digit strings defined by the recursive formula:",
+    "related_ids": [
+      1729,
+      1907,
+      2265
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Combination Sum",
+    "slug": "combination-sum",
+    "difficulty": "Medium",
+    "folder": "0039-combination-sum",
+    "path": "leetcode/0039-combination-sum",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Recursive Search",
+    "data_structure": "Recursion Tree",
+    "topics": [
+      "Backtracking",
+      "Recursion"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of  distinct  integers  candidates  and a target integer  target , return  a list of all  unique combinations  of   candidates   where the chosen numbers sum to   target  .  You may return the combinations in  any order .",
+    "related_ids": [
+      40,
+      1,
+      64
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Combination Sum II",
+    "slug": "combination-sum-ii",
+    "difficulty": "Medium",
+    "folder": "0040-combination-sum-ii",
+    "path": "leetcode/0040-combination-sum-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Recursive Search",
+    "data_structure": "Recursion Tree",
+    "topics": [
+      "Backtracking",
+      "Recursion"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a collection of candidate numbers ( candidates ) and a target number ( target ), find all unique combinations in  candidates  where the candidate numbers sum to  target .",
+    "related_ids": [
+      39,
+      3756,
+      1
+    ]
+  },
+  {
+    "id": 41,
+    "title": "First Missing Positive",
+    "slug": "first-missing-positive",
+    "difficulty": "Hard",
+    "folder": "0041-first-missing-positive",
+    "path": "leetcode/0041-first-missing-positive",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an unsorted integer array  nums . Return the  smallest positive integer  that is  not present  in  nums .",
+    "related_ids": [
+      28,
+      34,
+      268
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Trapping Rain Water",
+    "slug": "trapping-rain-water",
+    "difficulty": "Hard",
+    "folder": "0042-trapping-rain-water",
+    "path": "leetcode/0042-trapping-rain-water",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given  n  non-negative integers representing an elevation map where the width of each bar is  1 , compute how much water it can trap after raining.",
+    "related_ids": [
+      11,
+      3633,
+      3635
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Multiply Strings",
+    "slug": "multiply-strings",
+    "difficulty": "Medium",
+    "folder": "0043-multiply-strings",
+    "path": "leetcode/0043-multiply-strings",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two non-negative integers  num1  and  num2  represented as strings, return the product of  num1  and  num2 , also represented as a string.",
+    "related_ids": [
+      205,
+      1111,
+      1967
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Wildcard Matching",
+    "slug": "wildcard-matching",
+    "difficulty": "Hard",
+    "folder": "0044-wildcard-matching",
+    "path": "leetcode/0044-wildcard-matching",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an input string ( s ) and a pattern ( p ), implement wildcard pattern matching with support for  &#39;?&#39;  and  &#39;*&#39;  where:",
+    "related_ids": [
+      10,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Jump Game II",
+    "slug": "jump-game-ii",
+    "difficulty": "Medium",
+    "folder": "0045-jump-game-ii",
+    "path": "leetcode/0045-jump-game-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  array of integers  nums  of length  n . You are initially positioned at index 0.",
+    "related_ids": [
+      55,
+      1140,
+      1306
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Permutations",
+    "slug": "permutations",
+    "difficulty": "Medium",
+    "folder": "0046-permutations",
+    "path": "leetcode/0046-permutations",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Recursive Search",
+    "data_structure": "Recursion Tree",
+    "topics": [
+      "Backtracking",
+      "Recursion"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array  nums  of distinct integers, return all the possible  permutations . You can return the answer in  any order .",
+    "related_ids": [
+      47,
+      17,
+      31
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Permutations II",
+    "slug": "permutations-ii",
+    "difficulty": "Medium",
+    "folder": "0047-permutations-ii",
+    "path": "leetcode/0047-permutations-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Recursive Search",
+    "data_structure": "Recursion Tree",
+    "topics": [
+      "Backtracking",
+      "Recursion"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a collection of numbers,  nums , that might contain duplicates, return  all possible unique permutations  in any order .",
+    "related_ids": [
+      40,
+      45,
+      46
     ]
   },
   {
@@ -604,6 +1297,329 @@
     ]
   },
   {
+    "id": 49,
+    "title": "Group Anagrams",
+    "slug": "group-anagrams",
+    "difficulty": "Medium",
+    "folder": "0049-group-anagrams",
+    "path": "leetcode/0049-group-anagrams",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
+    "topics": [
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given an array of strings  strs , group the  anagrams  together. You can return the answer in  any order .",
+    "related_ids": [
+      25,
+      1484,
+      2631
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Pow(x, n)",
+    "slug": "powx-n",
+    "difficulty": "Medium",
+    "folder": "0050-powx-n",
+    "path": "leetcode/0050-powx-n",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Implement  pow(x, n) , which calculates  x  raised to the power  n  (i.e.,  x n  ).",
+    "related_ids": [
+      51,
+      52,
+      5
+    ]
+  },
+  {
+    "id": 51,
+    "title": "N-Queens",
+    "slug": "n-queens",
+    "difficulty": "Hard",
+    "folder": "0051-n-queens",
+    "path": "leetcode/0051-n-queens",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "The  n-queens  puzzle is the problem of placing  n  queens on an  n x n  chessboard such that no two queens attack each other.",
+    "related_ids": [
+      52,
+      50,
+      5
+    ]
+  },
+  {
+    "id": 52,
+    "title": "N-Queens II",
+    "slug": "n-queens-ii",
+    "difficulty": "Hard",
+    "folder": "0052-n-queens-ii",
+    "path": "leetcode/0052-n-queens-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "The  n-queens  puzzle is the problem of placing  n  queens on an  n x n  chessboard such that no two queens attack each other.",
+    "related_ids": [
+      51,
+      40,
+      45
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Maximum Subarray",
+    "slug": "maximum-subarray",
+    "difficulty": "Medium",
+    "folder": "0053-maximum-subarray",
+    "path": "leetcode/0053-maximum-subarray",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums , find the  subarray  with the largest sum, and return  its sum .",
+    "related_ids": [
+      3689,
+      3691,
+      104
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Spiral Matrix",
+    "slug": "spiral-matrix",
+    "difficulty": "Medium",
+    "folder": "0054-spiral-matrix",
+    "path": "leetcode/0054-spiral-matrix",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given an  m x n   matrix , return  all elements of the   matrix   in spiral order .",
+    "related_ids": [
+      59,
+      73,
+      74
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Jump Game",
+    "slug": "jump-game",
+    "difficulty": "Medium",
+    "folder": "0055-jump-game",
+    "path": "leetcode/0055-jump-game",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums . You are initially positioned at the array&#39;s  first index , and each element in the array represents your maximum jump length at that position.",
+    "related_ids": [
+      45,
+      1306,
+      1340
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Merge Intervals",
+    "slug": "merge-intervals",
+    "difficulty": "Medium",
+    "folder": "0056-merge-intervals",
+    "path": "leetcode/0056-merge-intervals",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Greedy",
+    "algorithm": "Greedy Choice Strategy",
+    "data_structure": "Array / Priority Queue",
+    "topics": [
+      "Greedy",
+      "Sorting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of  intervals  where  intervals[i] = [start i , end i ] , merge all overlapping intervals, and return  an array of the non-overlapping intervals that cover all the intervals in the input .",
+    "related_ids": [
+      21,
+      23,
+      88
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Insert Interval",
+    "slug": "insert-interval",
+    "difficulty": "Medium",
+    "folder": "0057-insert-interval",
+    "path": "leetcode/0057-insert-interval",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Greedy",
+    "algorithm": "Greedy Choice Strategy",
+    "data_structure": "Array / Priority Queue",
+    "topics": [
+      "Greedy",
+      "Sorting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of non-overlapping intervals  intervals  where  intervals[i] = [start i , end i ]  represent the start and the end of the  i th   interval and  intervals  is sorted in ascending order by  start i  . You are also given an interval  newInterval = [start, end]  that represents the start and end of another interval.",
+    "related_ids": [
+      35,
+      2725,
+      56
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Length of Last Word",
+    "slug": "length-of-last-word",
+    "difficulty": "Easy",
+    "folder": "0058-length-of-last-word",
+    "path": "leetcode/0058-length-of-last-word",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a string  s  consisting of words and spaces, return  the length of the  last  word in the string.",
+    "related_ids": [
+      34,
+      79,
+      192
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Spiral Matrix II",
+    "slug": "spiral-matrix-ii",
+    "difficulty": "Medium",
+    "folder": "0059-spiral-matrix-ii",
+    "path": "leetcode/0059-spiral-matrix-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given a positive integer  n , generate an  n x n   matrix  filled with elements from  1  to  n 2   in spiral order.",
+    "related_ids": [
+      54,
+      40,
+      45
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Permutation Sequence",
+    "slug": "permutation-sequence",
+    "difficulty": "Hard",
+    "folder": "0060-permutation-sequence",
+    "path": "leetcode/0060-permutation-sequence",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Recursive Search",
+    "data_structure": "Recursion Tree",
+    "topics": [
+      "Backtracking",
+      "Recursion"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "The set  [1, 2, 3, ..., n]  contains a total of  n!  unique permutations.",
+    "related_ids": [
+      31,
+      2648,
+      3302
+    ]
+  },
+  {
     "id": 61,
     "title": "Rotate List",
     "slug": "rotate-list",
@@ -628,7 +1644,606 @@
     "related_ids": [
       19,
       48,
-      396
+      82
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Unique Paths",
+    "slug": "unique-paths",
+    "difficulty": "Medium",
+    "folder": "0062-unique-paths",
+    "path": "leetcode/0062-unique-paths",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "There is a robot on an  m x n  grid. The robot is initially located at the  top-left corner  (i.e.,  grid[0][0] ). The robot tries to move to the  bottom-right corner  (i.e.,  grid[m - 1][n - 1] ). The robot can only move either down or right at any point in time.",
+    "related_ids": [
+      63,
+      257,
+      1301
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Unique Paths II",
+    "slug": "unique-paths-ii",
+    "difficulty": "Medium",
+    "folder": "0063-unique-paths-ii",
+    "path": "leetcode/0063-unique-paths-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given an  m x n  integer array  grid . There is a robot initially located at the  top-left corner  (i.e.,  grid[0][0] ). The robot tries to move to the  bottom-right corner  (i.e.,  grid[m - 1][n - 1] ). The robot can only move either down or right at any point in time.",
+    "related_ids": [
+      62,
+      3514,
+      40
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Minimum Path Sum",
+    "slug": "minimum-path-sum",
+    "difficulty": "Medium",
+    "folder": "0064-minimum-path-sum",
+    "path": "leetcode/0064-minimum-path-sum",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given a  m x n   grid  filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.",
+    "related_ids": [
+      112,
+      2492,
+      3300
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Valid Number",
+    "slug": "valid-number",
+    "difficulty": "Hard",
+    "folder": "0065-valid-number",
+    "path": "leetcode/0065-valid-number",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a string  s , return whether  s  is a  valid number .",
+    "related_ids": [
+      9,
+      17,
+      20
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Plus One",
+    "slug": "plus-one",
+    "difficulty": "Easy",
+    "folder": "0066-plus-one",
+    "path": "leetcode/0066-plus-one",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  large integer  represented as an integer array  digits , where each  digits[i]  is the  i th   digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading  0 &#39;s.",
+    "related_ids": [
+      2213,
+      2666,
+      5
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "difficulty": "Easy",
+    "folder": "0067-add-binary",
+    "path": "leetcode/0067-add-binary",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two binary strings  a  and  b , return  their sum as a binary string .",
+    "related_ids": [
+      2,
+      94,
+      104
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Text Justification",
+    "slug": "text-justification",
+    "difficulty": "Hard",
+    "folder": "0068-text-justification",
+    "path": "leetcode/0068-text-justification",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Greedy",
+    "algorithm": "Greedy Choice Strategy",
+    "data_structure": "Array / Priority Queue",
+    "topics": [
+      "Greedy",
+      "Sorting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of strings  words  and a width  maxWidth , format the text such that each line has exactly  maxWidth  characters and is fully (left and right) justified.",
+    "related_ids": [
+      56,
+      57
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Sqrt(x)",
+    "slug": "sqrtx",
+    "difficulty": "Easy",
+    "folder": "0069-sqrtx",
+    "path": "leetcode/0069-sqrtx",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a non-negative integer  x , return  the square root of   x   rounded down to the nearest integer . The returned integer should be  non-negative  as well.",
+    "related_ids": [
+      5,
+      6,
+      26
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "difficulty": "Easy",
+    "folder": "0070-climbing-stairs",
+    "path": "leetcode/0070-climbing-stairs",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are climbing a staircase. It takes  n  steps to reach the top.",
+    "related_ids": [
+      5,
+      6,
+      26
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Simplify Path",
+    "slug": "simplify-path",
+    "difficulty": "Medium",
+    "folder": "0071-simplify-path",
+    "path": "leetcode/0071-simplify-path",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given an  absolute  path for a Unix-style file system, which always begins with a slash  &#39;/&#39; . Your task is to transform this absolute path into its  simplified canonical path .",
+    "related_ids": [
+      64,
+      112,
+      2267
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Edit Distance",
+    "slug": "edit-distance",
+    "difficulty": "Medium",
+    "folder": "0072-edit-distance",
+    "path": "leetcode/0072-edit-distance",
+    "languages": [
+      "JavaScript",
+      "Python"
+    ],
+    "lang_str": "JavaScript, Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two strings  word1  and  word2 , return  the minimum number of operations required to convert  word1  to  word2  .",
+    "related_ids": [
+      5,
+      6,
+      26
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Set Matrix Zeroes",
+    "slug": "set-matrix-zeroes",
+    "difficulty": "Medium",
+    "folder": "0073-set-matrix-zeroes",
+    "path": "leetcode/0073-set-matrix-zeroes",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given an  m x n  integer matrix  matrix , if an element is  0 , set its entire row and column to  0 &#39;s.",
+    "related_ids": [
+      54,
+      59,
+      74
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Search a 2D Matrix",
+    "slug": "search-a-2d-matrix",
+    "difficulty": "Medium",
+    "folder": "0074-search-a-2d-matrix",
+    "path": "leetcode/0074-search-a-2d-matrix",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given an  m x n  integer matrix  matrix  with the following two properties:",
+    "related_ids": [
+      33,
+      35,
+      54
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Sort Colors",
+    "slug": "sort-colors",
+    "difficulty": "Medium",
+    "folder": "0075-sort-colors",
+    "path": "leetcode/0075-sort-colors",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array  nums  with  n  objects colored red, white, or blue, sort them   in-place   so that objects of the same color are adjacent, with the colors in the order red, white, and blue.",
+    "related_ids": [
+      2724,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Minimum Window Substring",
+    "slug": "minimum-window-substring",
+    "difficulty": "Hard",
+    "folder": "0076-minimum-window-substring",
+    "path": "leetcode/0076-minimum-window-substring",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Sliding Window",
+    "algorithm": "Dynamic Sliding Window Traversal",
+    "data_structure": "Array / Hash Set",
+    "topics": [
+      "Sliding Window",
+      "Two Pointers",
+      "Subarrays"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two strings  s  and  t  of lengths  m  and  n  respectively, return  the  minimum window      substring     of   s   such that every character in   t   ( including duplicates ) is included in the window . If there is no such substring, return  the empty string   \"\" .",
+    "related_ids": [
+      3,
+      5,
+      30
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Combinations",
+    "slug": "combinations",
+    "difficulty": "Medium",
+    "folder": "0077-combinations",
+    "path": "leetcode/0077-combinations",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Recursive Search",
+    "data_structure": "Recursion Tree",
+    "topics": [
+      "Backtracking",
+      "Recursion"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two integers  n  and  k , return  all possible combinations of   k   numbers chosen from the range   [1, n] .",
+    "related_ids": [
+      17,
+      31,
+      39
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Subsets",
+    "slug": "subsets",
+    "difficulty": "Medium",
+    "folder": "0078-subsets",
+    "path": "leetcode/0078-subsets",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums  of  unique  elements, return  all possible    subsets    (the power set) .",
+    "related_ids": [
+      5,
+      6,
+      26
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Word Search",
+    "slug": "word-search",
+    "difficulty": "Medium",
+    "folder": "0079-word-search",
+    "path": "leetcode/0079-word-search",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an  m x n  grid of characters  board  and a string  word , return  true   if   word   exists in the grid .",
+    "related_ids": [
+      33,
+      35,
+      58
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Remove Duplicates from Sorted Array II",
+    "slug": "remove-duplicates-from-sorted-array-ii",
+    "difficulty": "Medium",
+    "folder": "0080-remove-duplicates-from-sorted-array-ii",
+    "path": "leetcode/0080-remove-duplicates-from-sorted-array-ii",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums  sorted in  non-decreasing order , remove some duplicates   in-place   such that each unique element appears  at most twice . The  relative order  of the elements should be kept the  same .",
+    "related_ids": [
+      26,
+      82,
+      83
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Search in Rotated Sorted Array II",
+    "slug": "search-in-rotated-sorted-array-ii",
+    "difficulty": "Medium",
+    "folder": "0081-search-in-rotated-sorted-array-ii",
+    "path": "leetcode/0081-search-in-rotated-sorted-array-ii",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There is an integer array  nums  sorted in non-decreasing order (not necessarily with  distinct  values).",
+    "related_ids": [
+      33,
+      154,
+      80
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Remove Duplicates from Sorted List II",
+    "slug": "remove-duplicates-from-sorted-list-ii",
+    "difficulty": "Medium",
+    "folder": "0082-remove-duplicates-from-sorted-list-ii",
+    "path": "leetcode/0082-remove-duplicates-from-sorted-list-ii",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given the  head  of a  sorted  linked list.",
+    "related_ids": [
+      80,
+      83,
+      26
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Remove Duplicates from Sorted List",
+    "slug": "remove-duplicates-from-sorted-list",
+    "difficulty": "Easy",
+    "folder": "0083-remove-duplicates-from-sorted-list",
+    "path": "leetcode/0083-remove-duplicates-from-sorted-list",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a sorted linked list,  delete all duplicates such that each element appears only once . Return  the linked list  sorted  as well .",
+    "related_ids": [
+      82,
+      26,
+      80
     ]
   },
   {
@@ -654,9 +2269,293 @@
     "space": "O(n)",
     "brief": "Given an array of integers  heights  representing the histogram&#39;s bar height where the width of each bar is  1 , return  the area of the largest rectangle in the histogram .",
     "related_ids": [
+      85,
       586,
+      836
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Maximal Rectangle",
+    "slug": "maximal-rectangle",
+    "difficulty": "Hard",
+    "folder": "0085-maximal-rectangle",
+    "path": "leetcode/0085-maximal-rectangle",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a  rows x cols  binary  matrix  filled with  0 &#39;s and  1 &#39;s, find the largest rectangle containing only  1 &#39;s and return  its area .",
+    "related_ids": [
+      84,
       836,
       1401
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Merge Sorted Array",
+    "slug": "merge-sorted-array",
+    "difficulty": "Easy",
+    "folder": "0088-merge-sorted-array",
+    "path": "leetcode/0088-merge-sorted-array",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two integer arrays  nums1  and  nums2 , sorted in  non-decreasing order , and two integers  m  and  n , representing the number of elements in  nums1  and  nums2  respectively.",
+    "related_ids": [
+      21,
+      23,
+      26
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Binary Tree Inorder Traversal",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy",
+    "folder": "0094-binary-tree-inorder-traversal",
+    "path": "leetcode/0094-binary-tree-inorder-traversal",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the  root  of a binary tree, return  the inorder traversal of its nodes&#39; values .",
+    "related_ids": [
+      144,
+      145,
+      104
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy",
+    "folder": "0100-same-tree",
+    "path": "leetcode/0100-same-tree",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the roots of two binary trees  p  and  q , write a function to check if they are the same or not.",
+    "related_ids": [
+      94,
+      101,
+      104
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Symmetric Tree",
+    "slug": "symmetric-tree",
+    "difficulty": "Easy",
+    "folder": "0101-symmetric-tree",
+    "path": "leetcode/0101-symmetric-tree",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the  root  of a binary tree,  check whether it is a mirror of itself  (i.e., symmetric around its center).",
+    "related_ids": [
+      94,
+      100,
+      104
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "difficulty": "Easy",
+    "folder": "0104-maximum-depth-of-binary-tree",
+    "path": "leetcode/0104-maximum-depth-of-binary-tree",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the  root  of a binary tree, return  its maximum depth .",
+    "related_ids": [
+      111,
+      94,
+      108
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "slug": "convert-sorted-array-to-binary-search-tree",
+    "difficulty": "Easy",
+    "folder": "0108-convert-sorted-array-to-binary-search-tree",
+    "path": "leetcode/0108-convert-sorted-array-to-binary-search-tree",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums  where the elements are sorted in  ascending order , convert  it to a     height-balanced     binary search tree .",
+    "related_ids": [
+      33,
+      81,
+      26
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Balanced Binary Tree",
+    "slug": "balanced-binary-tree",
+    "difficulty": "Easy",
+    "folder": "0110-balanced-binary-tree",
+    "path": "leetcode/0110-balanced-binary-tree",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given a binary tree, determine if it is   height-balanced  .",
+    "related_ids": [
+      94,
+      104,
+      108
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Minimum Depth of Binary Tree",
+    "slug": "minimum-depth-of-binary-tree",
+    "difficulty": "Easy",
+    "folder": "0111-minimum-depth-of-binary-tree",
+    "path": "leetcode/0111-minimum-depth-of-binary-tree",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given a binary tree, find its minimum depth.",
+    "related_ids": [
+      104,
+      94,
+      108
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Path Sum",
+    "slug": "path-sum",
+    "difficulty": "Easy",
+    "folder": "0112-path-sum",
+    "path": "leetcode/0112-path-sum",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the  root  of a binary tree and an integer  targetSum , return  true  if the tree has a  root-to-leaf  path such that adding up all the values along the path equals  targetSum .",
+    "related_ids": [
+      64,
+      1,
+      39
     ]
   },
   {
@@ -688,6 +2587,225 @@
     ]
   },
   {
+    "id": 118,
+    "title": "Pascal's Triangle",
+    "slug": "pascals-triangle",
+    "difficulty": "Easy",
+    "folder": "0118-pascals-triangle",
+    "path": "leetcode/0118-pascals-triangle",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  numRows , return the first numRows of  Pascal&#39;s triangle .",
+    "related_ids": [
+      119,
+      610,
+      48
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Pascal's Triangle II",
+    "slug": "pascals-triangle-ii",
+    "difficulty": "Easy",
+    "folder": "0119-pascals-triangle-ii",
+    "path": "leetcode/0119-pascals-triangle-ii",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  rowIndex , return the  rowIndex th   ( 0-indexed ) row of the  Pascal&#39;s triangle .",
+    "related_ids": [
+      118,
+      40,
+      45
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Best Time to Buy and Sell Stock",
+    "slug": "best-time-to-buy-and-sell-stock",
+    "difficulty": "Easy",
+    "folder": "0121-best-time-to-buy-and-sell-stock",
+    "path": "leetcode/0121-best-time-to-buy-and-sell-stock",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array  prices  where  prices[i]  is the price of a given stock on the  i th   day.",
+    "related_ids": [
+      636,
+      1661,
+      1741
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Valid Palindrome",
+    "slug": "valid-palindrome",
+    "difficulty": "Easy",
+    "folder": "0125-valid-palindrome",
+    "path": "leetcode/0125-valid-palindrome",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
+    "topics": [
+      "Two Pointers",
+      "Array",
+      "Sorting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "A phrase is a  palindrome  if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.",
+    "related_ids": [
+      9,
+      20,
+      32
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Single Number",
+    "slug": "single-number",
+    "difficulty": "Easy",
+    "folder": "0136-single-number",
+    "path": "leetcode/0136-single-number",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a  non-empty  array of integers  nums , every element appears  twice  except for one. Find that single one.",
+    "related_ids": [
+      619,
+      9,
+      17
+    ]
+  },
+  {
+    "id": 141,
+    "title": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "difficulty": "Easy",
+    "folder": "0141-linked-list-cycle",
+    "path": "leetcode/0141-linked-list-cycle",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Fast & Slow Pointers",
+    "algorithm": "Floyd Cycle Detection",
+    "data_structure": "Linked List / Pointer",
+    "topics": [
+      "Two Pointers",
+      "Cycle Detection"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given  head , the head of a linked list, determine if the linked list has a cycle in it.",
+    "related_ids": [
+      203,
+      206,
+      234
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Binary Tree Preorder Traversal",
+    "slug": "binary-tree-preorder-traversal",
+    "difficulty": "Easy",
+    "folder": "0144-binary-tree-preorder-traversal",
+    "path": "leetcode/0144-binary-tree-preorder-traversal",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the  root  of a binary tree, return  the preorder traversal of its nodes&#39; values .",
+    "related_ids": [
+      94,
+      145,
+      104
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Binary Tree Postorder Traversal",
+    "slug": "binary-tree-postorder-traversal",
+    "difficulty": "Easy",
+    "folder": "0145-binary-tree-postorder-traversal",
+    "path": "leetcode/0145-binary-tree-postorder-traversal",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the  root  of a binary tree, return  the postorder traversal of its nodes&#39; values .",
+    "related_ids": [
+      94,
+      144,
+      104
+    ]
+  },
+  {
     "id": 150,
     "title": "Evaluate Reverse Polish Notation",
     "slug": "evaluate-reverse-polish-notation",
@@ -710,8 +2828,8 @@
     "brief": "You are given an array of strings  tokens  that represents an arithmetic expression in a  Reverse Polish Notation .",
     "related_ids": [
       7,
-      1190,
-      1807
+      25,
+      206
     ]
   },
   {
@@ -739,7 +2857,7 @@
     "related_ids": [
       154,
       33,
-      1752
+      34
     ]
   },
   {
@@ -766,8 +2884,113 @@
     "brief": "Suppose an array of length  n  sorted in ascending order is  rotated  between  1  and  n  times. For example, the array  nums = [0,1,4,4,5,6,7]  might become:",
     "related_ids": [
       153,
-      33,
-      1752
+      81,
+      33
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Intersection of Two Linked Lists",
+    "slug": "intersection-of-two-linked-lists",
+    "difficulty": "Easy",
+    "folder": "0160-intersection-of-two-linked-lists",
+    "path": "leetcode/0160-intersection-of-two-linked-lists",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the heads of two singly linked-lists  headA  and  headB , return  the node at which the two lists intersect . If the two linked lists have no intersection at all, return  null .",
+    "related_ids": [
+      21,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Excel Sheet Column Title",
+    "slug": "excel-sheet-column-title",
+    "difficulty": "Easy",
+    "folder": "0168-excel-sheet-column-title",
+    "path": "leetcode/0168-excel-sheet-column-title",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  columnNumber , return  its corresponding column title as it appears in an Excel sheet .",
+    "related_ids": [
+      171,
+      2881,
+      5
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Majority Element",
+    "slug": "majority-element",
+    "difficulty": "Easy",
+    "folder": "0169-majority-element",
+    "path": "leetcode/0169-majority-element",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array  nums  of size  n , return  the majority element .",
+    "related_ids": [
+      3737,
+      3739,
+      27
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Excel Sheet Column Number",
+    "slug": "excel-sheet-column-number",
+    "difficulty": "Easy",
+    "folder": "0171-excel-sheet-column-number",
+    "path": "leetcode/0171-excel-sheet-column-number",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a string  columnTitle  that represents the column title as appears in an Excel sheet, return  its corresponding column number .",
+    "related_ids": [
+      168,
+      9,
+      17
     ]
   },
   {
@@ -962,8 +3185,8 @@
     "brief": "id is the primary key (column with unique values) for this table.",
     "related_ids": [
       196,
-      2882,
-      3436
+      217,
+      219
     ]
   },
   {
@@ -1046,8 +3269,8 @@
     "brief": "+--------------+---------+",
     "related_ids": [
       184,
-      628,
-      1050
+      326,
+      628
     ]
   },
   {
@@ -1073,9 +3296,9 @@
     "space": "O(n)",
     "brief": "Write a bash script to calculate the  frequency  of each word in a text file  words.txt .",
     "related_ids": [
-      1967,
-      2958,
-      3014
+      58,
+      79,
+      290
     ]
   },
   {
@@ -1127,7 +3350,7 @@
     "related_ids": [
       5,
       6,
-      193
+      26
     ]
   },
   {
@@ -1180,8 +3403,8 @@
     "brief": "id is the primary key (column with unique values) for this table.",
     "related_ids": [
       182,
-      2095,
-      2882
+      217,
+      219
     ]
   },
   {
@@ -1213,6 +3436,411 @@
     ]
   },
   {
+    "id": 202,
+    "title": "Happy Number",
+    "slug": "happy-number",
+    "difficulty": "Easy",
+    "folder": "0202-happy-number",
+    "path": "leetcode/0202-happy-number",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Write an algorithm to determine if a number  n  is happy.",
+    "related_ids": [
+      9,
+      17,
+      65
+    ]
+  },
+  {
+    "id": 203,
+    "title": "Remove Linked List Elements",
+    "slug": "remove-linked-list-elements",
+    "difficulty": "Easy",
+    "folder": "0203-remove-linked-list-elements",
+    "path": "leetcode/0203-remove-linked-list-elements",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a linked list and an integer  val , remove all the nodes of the linked list that has  Node.val == val , and return  the new head .",
+    "related_ids": [
+      19,
+      82,
+      83
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Isomorphic Strings",
+    "slug": "isomorphic-strings",
+    "difficulty": "Easy",
+    "folder": "0205-isomorphic-strings",
+    "path": "leetcode/0205-isomorphic-strings",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two strings  s  and  t ,  determine if they are isomorphic .",
+    "related_ids": [
+      43,
+      1111,
+      1967
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "difficulty": "Easy",
+    "folder": "0206-reverse-linked-list",
+    "path": "leetcode/0206-reverse-linked-list",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a singly linked list, reverse the list, and return  the reversed list .",
+    "related_ids": [
+      141,
+      203,
+      234
+    ]
+  },
+  {
+    "id": 217,
+    "title": "Contains Duplicate",
+    "slug": "contains-duplicate",
+    "difficulty": "Easy",
+    "folder": "0217-contains-duplicate",
+    "path": "leetcode/0217-contains-duplicate",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums , return  true  if any value appears  at least twice  in the array, and return  false  if every element is distinct.",
+    "related_ids": [
+      219,
+      182,
+      196
+    ]
+  },
+  {
+    "id": 219,
+    "title": "Contains Duplicate II",
+    "slug": "contains-duplicate-ii",
+    "difficulty": "Easy",
+    "folder": "0219-contains-duplicate-ii",
+    "path": "leetcode/0219-contains-duplicate-ii",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums  and an integer  k , return  true   if there are two  distinct indices    i   and   j   in the array such that   nums[i] == nums[j]   and   abs(i - j) <= k .",
+    "related_ids": [
+      217,
+      40,
+      45
+    ]
+  },
+  {
+    "id": 225,
+    "title": "Implement Stack using Queues",
+    "slug": "implement-stack-using-queues",
+    "difficulty": "Easy",
+    "folder": "0225-implement-stack-using-queues",
+    "path": "leetcode/0225-implement-stack-using-queues",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Implement a last-in-first-out (LIFO) stack using only two queues. The implemented stack should support all the functions of a normal stack ( push ,  top ,  pop , and  empty ).",
+    "related_ids": [
+      232,
+      1441,
+      20
+    ]
+  },
+  {
+    "id": 226,
+    "title": "Invert Binary Tree",
+    "slug": "invert-binary-tree",
+    "difficulty": "Easy",
+    "folder": "0226-invert-binary-tree",
+    "path": "leetcode/0226-invert-binary-tree",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the  root  of a binary tree, invert the tree, and return  its root .",
+    "related_ids": [
+      94,
+      104,
+      108
+    ]
+  },
+  {
+    "id": 228,
+    "title": "Summary Ranges",
+    "slug": "summary-ranges",
+    "difficulty": "Easy",
+    "folder": "0228-summary-ranges",
+    "path": "leetcode/0228-summary-ranges",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  sorted unique  integer array  nums .",
+    "related_ids": [
+      1587,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Power of Two",
+    "slug": "power-of-two",
+    "difficulty": "Easy",
+    "folder": "0231-power-of-two",
+    "path": "leetcode/0231-power-of-two",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  n , return   true  if it is a power of two. Otherwise, return  false  .",
+    "related_ids": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks",
+    "difficulty": "Easy",
+    "folder": "0232-implement-queue-using-stacks",
+    "path": "leetcode/0232-implement-queue-using-stacks",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue ( push ,  peek ,  pop , and  empty ).",
+    "related_ids": [
+      225,
+      20,
+      22
+    ]
+  },
+  {
+    "id": 234,
+    "title": "Palindrome Linked List",
+    "slug": "palindrome-linked-list",
+    "difficulty": "Easy",
+    "folder": "0234-palindrome-linked-list",
+    "path": "leetcode/0234-palindrome-linked-list",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
+    "topics": [
+      "Two Pointers",
+      "Array",
+      "Sorting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a singly linked list, return  true   if it is a    palindrome    or   false   otherwise .",
+    "related_ids": [
+      141,
+      203,
+      206
+    ]
+  },
+  {
+    "id": 242,
+    "title": "Valid Anagram",
+    "slug": "valid-anagram",
+    "difficulty": "Easy",
+    "folder": "0242-valid-anagram",
+    "path": "leetcode/0242-valid-anagram",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
+    "topics": [
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given two strings  s  and  t , return  true  if  t  is an  anagram  of  s , and  false  otherwise.",
+    "related_ids": [
+      20,
+      32,
+      36
+    ]
+  },
+  {
+    "id": 257,
+    "title": "Binary Tree Paths",
+    "slug": "binary-tree-paths",
+    "difficulty": "Easy",
+    "folder": "0257-binary-tree-paths",
+    "path": "leetcode/0257-binary-tree-paths",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given the  root  of a binary tree.",
+    "related_ids": [
+      94,
+      104,
+      108
+    ]
+  },
+  {
+    "id": 258,
+    "title": "Add Digits",
+    "slug": "add-digits",
+    "difficulty": "Easy",
+    "folder": "0258-add-digits",
+    "path": "leetcode/0258-add-digits",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  num , repeatedly add all its digits until the result has only one digit, and return it.",
+    "related_ids": [
+      2,
+      67,
+      788
+    ]
+  },
+  {
     "id": 262,
     "title": "Trips and Users",
     "slug": "trips-and-users",
@@ -1238,6 +3866,269 @@
       1517,
       1633,
       3793
+    ]
+  },
+  {
+    "id": 263,
+    "title": "Ugly Number",
+    "slug": "ugly-number",
+    "difficulty": "Easy",
+    "folder": "0263-ugly-number",
+    "path": "leetcode/0263-ugly-number",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "An  ugly number  is a  positive  integer which does not have a prime factor other than 2, 3, and 5.",
+    "related_ids": [
+      9,
+      17,
+      65
+    ]
+  },
+  {
+    "id": 268,
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy",
+    "folder": "0268-missing-number",
+    "path": "leetcode/0268-missing-number",
+    "languages": [
+      "PHP"
+    ],
+    "lang_str": "PHP",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array  nums  containing  n  distinct numbers in the range  [0, n] , return  the only number in the range that is missing from the array.",
+    "related_ids": [
+      9,
+      17,
+      41
+    ]
+  },
+  {
+    "id": 278,
+    "title": "First Bad Version",
+    "slug": "first-bad-version",
+    "difficulty": "Easy",
+    "folder": "0278-first-bad-version",
+    "path": "leetcode/0278-first-bad-version",
+    "languages": [
+      "C++"
+    ],
+    "lang_str": "C++",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.",
+    "related_ids": [
+      28,
+      34,
+      41
+    ]
+  },
+  {
+    "id": 283,
+    "title": "Move Zeroes",
+    "slug": "move-zeroes",
+    "difficulty": "Easy",
+    "folder": "0283-move-zeroes",
+    "path": "leetcode/0283-move-zeroes",
+    "languages": [
+      "C++"
+    ],
+    "lang_str": "C++",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums , move all  0 &#39;s to the end of it while maintaining the relative order of the non-zero elements.",
+    "related_ids": [
+      73,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 290,
+    "title": "Word Pattern",
+    "slug": "word-pattern",
+    "difficulty": "Easy",
+    "folder": "0290-word-pattern",
+    "path": "leetcode/0290-word-pattern",
+    "languages": [
+      "C++"
+    ],
+    "lang_str": "C++",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a  pattern  and a string  s , find if  s  follows the same pattern.",
+    "related_ids": [
+      58,
+      79,
+      192
+    ]
+  },
+  {
+    "id": 292,
+    "title": "Nim Game",
+    "slug": "nim-game",
+    "difficulty": "Easy",
+    "folder": "0292-nim-game",
+    "path": "leetcode/0292-nim-game",
+    "languages": [
+      "C++"
+    ],
+    "lang_str": "C++",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are playing the following Nim Game with your friend:",
+    "related_ids": [
+      45,
+      55,
+      511
+    ]
+  },
+  {
+    "id": 301,
+    "title": "Remove Invalid Parentheses",
+    "slug": "remove-invalid-parentheses",
+    "difficulty": "Hard",
+    "folder": "0301-remove-invalid-parentheses",
+    "path": "leetcode/0301-remove-invalid-parentheses",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given a string  s  that contains parentheses and letters, remove the minimum number of invalid parentheses to make the input string valid.",
+    "related_ids": [
+      19,
+      20,
+      22
+    ]
+  },
+  {
+    "id": 303,
+    "title": "Range Sum Query   Immutable",
+    "slug": "range-sum-query---immutable",
+    "difficulty": "Medium",
+    "folder": "0303-range-sum-query---immutable",
+    "path": "leetcode/0303-range-sum-query---immutable",
+    "languages": [
+      "C++"
+    ],
+    "lang_str": "C++",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums , handle multiple queries of the following type:",
+    "related_ids": [
+      1,
+      39,
+      40
+    ]
+  },
+  {
+    "id": 326,
+    "title": "Power of Three",
+    "slug": "power-of-three",
+    "difficulty": "Easy",
+    "folder": "0326-power-of-three",
+    "path": "leetcode/0326-power-of-three",
+    "languages": [
+      "C++"
+    ],
+    "lang_str": "C++",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  n , return   true  if it is a power of three. Otherwise, return  false  .",
+    "related_ids": [
+      185,
+      231,
+      628
+    ]
+  },
+  {
+    "id": 338,
+    "title": "Counting Bits",
+    "slug": "counting-bits",
+    "difficulty": "Easy",
+    "folder": "0338-counting-bits",
+    "path": "leetcode/0338-counting-bits",
+    "languages": [
+      "C++"
+    ],
+    "lang_str": "C++",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  n , return  an array   ans   of length   n + 1   such that for each   i    ( 0 <= i <= n ) ,   ans[i]   is the  number of    1   &#39;s  in the binary representation of   i .",
+    "related_ids": [
+      4,
+      15,
+      16
     ]
   },
   {
@@ -1288,9 +4179,9 @@
     "space": "O(1)",
     "brief": "Given an array  nums  of  n  integers where  nums[i]  is in the range  [1, n] , return  an array of all the integers in the range   [1, n]   that do not appear in   nums .",
     "related_ids": [
+      34,
       153,
-      154,
-      1979
+      154
     ]
   },
   {
@@ -1479,9 +4370,9 @@
     "space": "O(n)",
     "brief": "In SQL, id is the primary key column for this table.",
     "related_ids": [
-      153,
-      154,
-      448
+      28,
+      34,
+      153
     ]
   },
   {
@@ -1537,7 +4428,7 @@
     "related_ids": [
       9,
       17,
-      84
+      65
     ]
   },
   {
@@ -1648,8 +4539,8 @@
     "brief": "+----------------+---------+",
     "related_ids": [
       11,
-      154,
-      183
+      40,
+      45
     ]
   },
   {
@@ -1704,8 +4595,8 @@
     "brief": "id is the column with unique values for this table.",
     "related_ids": [
       19,
-      2095,
-      2196
+      94,
+      100
     ]
   },
   {
@@ -1731,9 +4622,9 @@
     "space": "O(n)",
     "brief": "In SQL, (x, y, z) is the primary key column for this table.",
     "related_ids": [
-      175,
-      176,
-      177
+      118,
+      119,
+      175
     ]
   },
   {
@@ -1759,9 +4650,9 @@
     "space": "O(n)",
     "brief": "This table may contain duplicates (In other words, there is no primary key for this table in SQL).",
     "related_ids": [
+      136,
       9,
-      17,
-      586
+      17
     ]
   },
   {
@@ -1843,9 +4734,9 @@
     "space": "O(n)",
     "brief": "+-------------+----------+",
     "related_ids": [
+      24,
       181,
-      1075,
-      1731
+      1075
     ]
   },
   {
@@ -1898,9 +4789,9 @@
     "space": "O(n)",
     "brief": "On a  single-threaded  CPU, we execute a program containing  n  functions. Each function has a unique ID between 0 and  n - 1 .",
     "related_ids": [
+      121,
       1661,
-      1741,
-      2622
+      1741
     ]
   },
   {
@@ -1924,9 +4815,35 @@
     "space": "O(1)",
     "brief": "You have a set of integers  s , which originally contains all the numbers from  1  to  n . Unfortunately, due to some error, one of the numbers in  s  got duplicated to another number in the set, which results in  repetition of one  number and  loss of another  number.",
     "related_ids": [
+      73,
       5,
-      6,
-      193
+      6
+    ]
+  },
+  {
+    "id": 678,
+    "title": "Valid Parenthesis String",
+    "slug": "valid-parenthesis-string",
+    "difficulty": "Medium",
+    "folder": "0678-valid-parenthesis-string",
+    "path": "leetcode/0678-valid-parenthesis-string",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a string  s  containing only three types of characters:  &#39;(&#39; ,  &#39;)&#39;  and  &#39;*&#39; , return  true   if   s   is  valid  .",
+    "related_ids": [
+      2267,
+      2267,
+      8
     ]
   },
   {
@@ -1981,8 +4898,8 @@
     "brief": "An integer  x  is a  good  if after rotating each digit individually by 180 degrees, we get a valid number that is different from  x . Each digit must be rotated - we cannot choose to leave it alone.",
     "related_ids": [
       33,
-      153,
-      154
+      81,
+      153
     ]
   },
   {
@@ -2007,9 +4924,9 @@
     "space": "O(1)",
     "brief": "Given two strings  s  and  goal , return  true   if and only if   s   can become   goal   after some number of  shifts  on   s .",
     "related_ids": [
-      48,
-      61,
-      396
+      8,
+      28,
+      48
     ]
   },
   {
@@ -2062,8 +4979,35 @@
     "brief": "An axis-aligned rectangle is represented as a list  [x1, y1, x2, y2] , where  (x1, y1)  is the coordinate of its bottom-left corner, and  (x2, y2)  is the coordinate of its top-right corner. Its top and bottom edges are parallel to the X-axis, and its left and right edges are parallel to the Y-axis.",
     "related_ids": [
       84,
-      835,
-      1401
+      85,
+      835
+    ]
+  },
+  {
+    "id": 856,
+    "title": "Score of Parentheses",
+    "slug": "score-of-parentheses",
+    "difficulty": "Medium",
+    "folder": "0886-score-of-parentheses",
+    "path": "leetcode/0886-score-of-parentheses",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given a balanced parentheses string  s , return  the  score  of the string .",
+    "related_ids": [
+      20,
+      22,
+      32
     ]
   },
   {
@@ -2096,6 +5040,33 @@
     ]
   },
   {
+    "id": 921,
+    "title": "Minimum Add to Make Parentheses Valid",
+    "slug": "minimum-add-to-make-parentheses-valid",
+    "difficulty": "Medium",
+    "folder": "0957-minimum-add-to-make-parentheses-valid",
+    "path": "leetcode/0957-minimum-add-to-make-parentheses-valid",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "A parentheses string is valid if and only if:",
+    "related_ids": [
+      20,
+      32,
+      1111
+    ]
+  },
+  {
     "id": 940,
     "title": "Distinct Subsequences II",
     "slug": "distinct-subsequences-ii",
@@ -2119,8 +5090,8 @@
     "brief": "Given a string s, return  the number of  distinct non-empty subsequences  of   s . Since the answer may be very large, return it  modulo   10 9  + 7 .",
     "related_ids": [
       115,
-      154,
-      602
+      40,
+      45
     ]
   },
   {
@@ -2147,8 +5118,8 @@
     "brief": "This table may contain duplicates rows.",
     "related_ids": [
       183,
-      448,
-      602
+      30,
+      448
     ]
   },
   {
@@ -2176,7 +5147,7 @@
     "related_ids": [
       183,
       185,
-      570
+      326
     ]
   },
   {
@@ -2340,9 +5311,9 @@
     "space": "O(1)",
     "brief": "Under the grammar given below, strings can represent a set of lowercase words. Let  R(expr)  denote the set of words the expression represents.",
     "related_ids": [
-      154,
-      602,
-      940
+      40,
+      45,
+      47
     ]
   },
   {
@@ -2369,7 +5340,7 @@
     "related_ids": [
       1614,
       20,
-      1464
+      32
     ]
   },
   {
@@ -2503,9 +5474,9 @@
     "space": "O(n)",
     "brief": "Alice and Bob continue their games with piles of stones. There are a number of piles  arranged in a row , and each pile has a positive integer number of stones  piles[i] . The objective of the game is to end with the most stones.",
     "related_ids": [
+      45,
       877,
-      1406,
-      1510
+      1406
     ]
   },
   {
@@ -2643,9 +5614,9 @@
     "space": "O(n)",
     "brief": "+-----------------------------+---------+",
     "related_ids": [
-      154,
-      602,
-      940
+      40,
+      45,
+      47
     ]
   },
   {
@@ -2782,7 +5753,7 @@
     "related_ids": [
       5,
       6,
-      193
+      26
     ]
   },
   {
@@ -2808,9 +5779,9 @@
     "space": "O(n)",
     "brief": "person_id column contains unique values.",
     "related_ids": [
-      607,
-      2619,
-      2770
+      34,
+      58,
+      607
     ]
   },
   {
@@ -2864,7 +5835,7 @@
     "related_ids": [
       5,
       6,
-      193
+      26
     ]
   },
   {
@@ -2919,9 +5890,9 @@
     "space": "O(n)",
     "brief": "Given a 2D  grid  of size  m x n  and an integer  k . You need to shift the  grid   k  times.",
     "related_ids": [
+      74,
       1914,
-      2812,
-      3286
+      2812
     ]
   },
   {
@@ -2976,8 +5947,8 @@
     "brief": "Given an array  intervals  where  intervals[i] = [l i , r i ]  represent the interval  [l i , r i ) , remove all intervals that are covered by another interval in the list.",
     "related_ids": [
       19,
-      3310,
-      3414
+      26,
+      27
     ]
   },
   {
@@ -3002,9 +5973,9 @@
     "space": "O(n)",
     "brief": "An integer has  sequential digits  if and only if each digit in the number is one more than the previous digit.",
     "related_ids": [
+      258,
       788,
-      2553,
-      2996
+      2553
     ]
   },
   {
@@ -3032,7 +6003,7 @@
     "related_ids": [
       9,
       17,
-      485
+      62
     ]
   },
   {
@@ -3059,9 +6030,9 @@
     "space": "O(n)",
     "brief": "Given an array of non-negative integers  arr , you are initially positioned at  start  index of the array. When you are at index  i , you can jump to  i + arr[i]  or  i - arr[i] , check if you can reach  any  index with value 0.",
     "related_ids": [
-      1340,
-      1345,
-      1406
+      45,
+      55,
+      1340
     ]
   },
   {
@@ -3117,7 +6088,7 @@
     "related_ids": [
       19,
       61,
-      1045
+      82
     ]
   },
   {
@@ -3144,8 +6115,8 @@
     "brief": "Given an array of integers  arr , replace each element with its rank.",
     "related_ids": [
       2635,
-      33,
-      153
+      26,
+      33
     ]
   },
   {
@@ -3171,9 +6142,9 @@
     "space": "O(n)",
     "brief": "Given an array of integers  arr  and an integer  d . In one step you can jump from index  i  to index:",
     "related_ids": [
-      1306,
-      1345,
-      1563
+      45,
+      55,
+      1306
     ]
   },
   {
@@ -3254,9 +6225,9 @@
     "space": "O(n)",
     "brief": "Given an array of integers  arr , you are initially positioned at the first index of the array.",
     "related_ids": [
-      550,
-      1306,
-      1340
+      45,
+      55,
+      550
     ]
   },
   {
@@ -3338,9 +6309,9 @@
     "space": "O(n)",
     "brief": "+---------------+---------+",
     "related_ids": [
-      577,
-      1731,
-      1741
+      62,
+      63,
+      577
     ]
   },
   {
@@ -3367,8 +6338,8 @@
     "brief": "A cinema has  n  rows of seats, numbered from 1 to  n . Each row has 10 seats, numbered from 1 to 10.",
     "related_ids": [
       1,
-      192,
-      1114
+      49,
+      192
     ]
   },
   {
@@ -3422,8 +6393,8 @@
     "brief": "You are given a circle represented as  (radius, xCenter, yCenter)  and an axis-aligned rectangle represented as  (x1, y1, x2, y2) , where  (x1, y1)  are the coordinates of the bottom-left corner, and  (x2, y2)  are the coordinates of the top-right corner of the rectangle.",
     "related_ids": [
       84,
-      836,
-      1477
+      85,
+      836
     ]
   },
   {
@@ -3504,9 +6475,9 @@
     "space": "O(n)",
     "brief": "You are given an integer array  target  and an integer  n .",
     "related_ids": [
+      26,
       33,
-      153,
-      154
+      34
     ]
   },
   {
@@ -3558,9 +6529,9 @@
     "space": "O(1)",
     "brief": "Given the array  nums  consisting of  2n  elements in the form  [x 1 ,x 2 ,...,x n ,y 1 ,y 2 ,...,y n ] .",
     "related_ids": [
+      26,
       33,
-      153,
-      154
+      34
     ]
   },
   {
@@ -3642,9 +6613,9 @@
     "space": "O(n)",
     "brief": "There is no primary key (column with unique values) for this table. It may contain duplicates.",
     "related_ids": [
-      1045,
-      1164,
-      1327
+      25,
+      49,
+      1045
     ]
   },
   {
@@ -3837,9 +6808,9 @@
     "space": "O(n)",
     "brief": "+--------------+---------+",
     "related_ids": [
-      154,
-      602,
-      940
+      40,
+      45,
+      47
     ]
   },
   {
@@ -3865,8 +6836,8 @@
     "brief": "Given a  valid parentheses string   s , return the  nesting depth  of    s . The nesting depth is the  maximum  number of nested parentheses.",
     "related_ids": [
       1111,
-      20,
-      22
+      104,
+      20
     ]
   },
   {
@@ -3947,9 +6918,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums  and an integer  x . In one operation, you can either remove the leftmost or the rightmost element from the array  nums  and subtract its value from  x . Note that this  modifies  the array for future operations.",
     "related_ids": [
-      153,
-      154,
-      1116
+      64,
+      76,
+      111
     ]
   },
   {
@@ -3975,9 +6946,9 @@
     "space": "O(n)",
     "brief": "+----------------+---------+",
     "related_ids": [
+      121,
       636,
-      1251,
-      1741
+      1251
     ]
   },
   {
@@ -4003,9 +6974,9 @@
     "space": "O(1)",
     "brief": "You are given an array  tasks  where  tasks[i] = [actual i , minimum i ] :",
     "related_ids": [
-      153,
-      154,
-      1658
+      64,
+      76,
+      111
     ]
   },
   {
@@ -4061,7 +7032,7 @@
     "related_ids": [
       153,
       154,
-      2091
+      921
     ]
   },
   {
@@ -4087,9 +7058,9 @@
     "space": "O(n)",
     "brief": "+----------------+---------+",
     "related_ids": [
+      301,
       3451,
-      175,
-      176
+      175
     ]
   },
   {
@@ -4143,9 +7114,9 @@
     "space": "O(n)",
     "brief": "(user_id, follower_id) is the primary key (combination of columns with unique values) for this table.",
     "related_ids": [
-      153,
-      154,
-      448
+      28,
+      34,
+      38
     ]
   },
   {
@@ -4197,9 +7168,9 @@
     "space": "O(1)",
     "brief": "There is a biker going on a road trip. The road trip consists of  n + 1  points at various altitudes. The biker starts his trip on point  0  with altitude equal  0 .",
     "related_ids": [
-      153,
-      154,
-      176
+      28,
+      34,
+      153
     ]
   },
   {
@@ -4254,8 +7225,8 @@
     "brief": "Given an array  nums , return  true   if the array was originally sorted in non-decreasing order, then rotated  some  number of positions (including zero) . Otherwise, return  false .",
     "related_ids": [
       33,
-      153,
-      154
+      81,
+      153
     ]
   },
   {
@@ -4365,9 +7336,9 @@
     "space": "O(n)",
     "brief": "You are given a string  s  that contains some bracket pairs, with each pair containing a  non-empty  key.",
     "related_ids": [
-      150,
-      796,
-      2267
+      8,
+      24,
+      28
     ]
   },
   {
@@ -4393,9 +7364,9 @@
     "space": "O(1)",
     "brief": "It is a sweltering summer day, and a boy wants to buy some ice cream bars.",
     "related_ids": [
-      628,
-      1111,
-      1189
+      53,
+      104,
+      628
     ]
   },
   {
@@ -4419,9 +7390,9 @@
     "space": "O(1)",
     "brief": "You want to build  n  new buildings in a city. The new buildings will be built in a line and are labeled from  1  to  n .",
     "related_ids": [
-      628,
-      1111,
-      1117
+      53,
+      104,
+      628
     ]
   },
   {
@@ -4448,8 +7419,8 @@
     "brief": "You are given an array of positive integers  arr . Perform some operations (possibly none) on  arr  so that it satisfies these conditions:",
     "related_ids": [
       3300,
-      628,
-      1111
+      27,
+      34
     ]
   },
   {
@@ -4500,9 +7471,9 @@
     "space": "O(n)",
     "brief": "You are given a  0-indexed  binary string  s  and two integers  minJump  and  maxJump . In the beginning, you are standing at index  0 , which is equal to  &#39;0&#39; . You can move from index  i  to index  j  if the following conditions are fulfilled:",
     "related_ids": [
-      1306,
-      1340,
-      1345
+      45,
+      55,
+      1306
     ]
   },
   {
@@ -4611,9 +7582,9 @@
     "space": "O(n)",
     "brief": "account_id is the primary key (column with unique values) for this table.",
     "related_ids": [
+      38,
       176,
-      177,
-      184
+      177
     ]
   },
   {
@@ -4667,8 +7638,8 @@
     "brief": "Alice and Bob take turns playing a game, with  Alice   starting first .",
     "related_ids": [
       1,
-      511,
-      550
+      39,
+      40
     ]
   },
   {
@@ -4692,9 +7663,9 @@
     "space": "O(1)",
     "brief": "Given an integer array  nums  of length  n , you want to create an array  ans  of length  2n  where  ans[i] == nums[i]  and  ans[i + n] == nums[i]  for  0 <= i < n  ( 0-indexed ).",
     "related_ids": [
-      33,
-      153,
-      154
+      26,
+      30,
+      33
     ]
   },
   {
@@ -4720,9 +7691,9 @@
     "space": "O(n)",
     "brief": "employee_id is the column with unique values for this table.",
     "related_ids": [
+      41,
       181,
-      627,
-      1075
+      268
     ]
   },
   {
@@ -4804,8 +7775,8 @@
     "brief": "Given an integer array  nums , return    the  greatest common divisor  of the smallest number and largest number in   nums .",
     "related_ids": [
       2657,
-      153,
-      154
+      34,
+      153
     ]
   },
   {
@@ -4886,9 +7857,9 @@
     "space": "O(1)",
     "brief": "You are given a  0-indexed  array of  distinct  integers  nums .",
     "related_ids": [
-      153,
-      154,
-      1464
+      26,
+      80,
+      153
     ]
   },
   {
@@ -4914,8 +7885,8 @@
     "brief": "You are given the  head  of a linked list.  Delete  the  middle node , and return  the   head   of the modified linked list .",
     "related_ids": [
       19,
-      2130,
-      61
+      141,
+      203
     ]
   },
   {
@@ -4941,8 +7912,8 @@
     "brief": "You are given an integer  mass , which represents the original mass of a planet. You are further given an integer array  asteroids , where  asteroids[i]  is the mass of the  i th   asteroid.",
     "related_ids": [
       7,
-      396,
-      835
+      8,
+      29
     ]
   },
   {
@@ -4967,9 +7938,9 @@
     "space": "O(1)",
     "brief": "In a linked list of size  n , where  n  is  even , the  i th   node ( 0-indexed ) of the linked list is known as the  twin  of the  (n-1-i) th   node, if  0 <= i <= (n / 2) - 1 .",
     "related_ids": [
-      2095,
-      1,
-      19
+      141,
+      203,
+      206
     ]
   },
   {
@@ -4993,9 +7964,9 @@
     "space": "O(1)",
     "brief": "A shop is selling candies at a discount. For  every two  candies sold, the shop gives a  third  candy for  free .",
     "related_ids": [
-      153,
-      154,
-      1475
+      64,
+      76,
+      111
     ]
   },
   {
@@ -5022,9 +7993,9 @@
     "space": "O(n)",
     "brief": "You are given a  0-indexed  integer array  nums  and an integer  pivot . Rearrange  nums  such that the following conditions are satisfied:",
     "related_ids": [
+      26,
       33,
-      153,
-      154
+      34
     ]
   },
   {
@@ -5050,9 +8021,9 @@
     "space": "O(n)",
     "brief": "You are given a 2D integer array  descriptions  where  descriptions[i] = [parent i , child i , isLeft i ]  indicates that  parent i   is the  parent  of  child i   in a  binary  tree of  unique  values. Furthermore,",
     "related_ids": [
-      2877,
-      19,
-      608
+      94,
+      104,
+      108
     ]
   },
   {
@@ -5106,9 +8077,36 @@
     "space": "O(1)",
     "brief": "Given the  root  of a binary tree, return  the number of nodes where the value of the node is equal to the  average  of the values in its  subtree  .",
     "related_ids": [
-      1251,
-      1661,
-      1729
+      24,
+      25,
+      38
+    ]
+  },
+  {
+    "id": 2267,
+    "title": " Check if There Is a Valid Parentheses String Path",
+    "slug": "check-if-there-is-a-valid-parentheses-string-path",
+    "difficulty": "Hard",
+    "folder": "2349--check-if-there-is-a-valid-parentheses-string-path",
+    "path": "leetcode/2349--check-if-there-is-a-valid-parentheses-string-path",
+    "languages": [
+      "C++"
+    ],
+    "lang_str": "C++",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "A parentheses string is a  non-empty  string consisting only of  &#39;(&#39;  and  &#39;)&#39; . It is  valid  if  any  of the following conditions is  true :",
+    "related_ids": [
+      20,
+      32,
+      678
     ]
   },
   {
@@ -5134,8 +8132,8 @@
     "brief": "A parentheses string is a  non-empty  string consisting only of  &#39;(&#39;  and  &#39;)&#39; . It is  valid  if  any  of the following conditions is  true :",
     "related_ids": [
       20,
-      1111,
-      1752
+      32,
+      678
     ]
   },
   {
@@ -5218,9 +8216,9 @@
     "space": "O(n)",
     "brief": "You are given a positive integer  n  representing  n  cities numbered from  1  to  n . You are also given a  2D  array  roads  where  roads[i] = [a i , b i , distance i ]  indicates that there is a  bidirectional  road between cities  a i   and  b i   with a distance equal to  distance i  . The cities graph is not necessarily connected.",
     "related_ids": [
+      64,
       2058,
-      3742,
-      1
+      3742
     ]
   },
   {
@@ -5247,8 +8245,8 @@
     "brief": "Given two integer arrays  nums1  and  nums2 , sorted in non-decreasing order, return  the  minimum integer common  to both arrays . If there is no common integer amongst  nums1  and  nums2 , return  -1 .",
     "related_ids": [
       14,
-      153,
-      154
+      64,
+      76
     ]
   },
   {
@@ -5273,9 +8271,9 @@
     "space": "O(1)",
     "brief": "Given an array of positive integers  nums , return  an array   answer   that consists of the digits of each integer in   nums   after separating them in  the same order  they appear in   nums .",
     "related_ids": [
+      26,
       33,
-      153,
-      154
+      34
     ]
   },
   {
@@ -5301,8 +8299,8 @@
     "brief": "You are given a  0-indexed  integer array  nums  of size  n .",
     "related_ids": [
       1,
-      1477,
-      1927
+      39,
+      40
     ]
   },
   {
@@ -5328,7 +8326,7 @@
     "related_ids": [
       1752,
       2267,
-      2784
+      2267
     ]
   },
   {
@@ -5352,9 +8350,9 @@
     "space": "O(1)",
     "brief": "Write code that enhances all arrays such that you can call the  array.last()  method on any array and it will return the last element. If there are no elements in the array, it should return  -1 .",
     "related_ids": [
-      33,
-      153,
-      154
+      34,
+      26,
+      33
     ]
   },
   {
@@ -5406,7 +8404,7 @@
     "related_ids": [
       5,
       6,
-      193
+      26
     ]
   },
   {
@@ -5433,8 +8431,8 @@
     "brief": "Write a class that allows getting and setting key-value pairs, however a  time until expiration  is associated with each key.",
     "related_ids": [
       2637,
-      636,
-      1661
+      121,
+      636
     ]
   },
   {
@@ -5484,9 +8482,9 @@
     "space": "O(1)",
     "brief": "Write code that enhances all arrays such that you can call the  snail(rowsCount, colsCount)  method that transforms the 1D array into a 2D array organised in the pattern known as  snail traversal order . Invalid input values should output an empty array. If  rowsCount * colsCount !== nums.length , the input is considered invalid.",
     "related_ids": [
-      5,
-      6,
-      193
+      94,
+      144,
+      145
     ]
   },
   {
@@ -5511,8 +8509,8 @@
     "brief": "Given a  multi-dimensional  array  arr  and a depth  n , return a  flattened  version of that array.",
     "related_ids": [
       2649,
-      33,
-      153
+      26,
+      33
     ]
   },
   {
@@ -5536,9 +8534,9 @@
     "space": "O(1)",
     "brief": "Given an integer array  nums , a reducer function  fn , and an initial value  init , return the final result obtained by executing the  fn  function on each element of the array, sequentially, passing in the return value from the calculation on the preceding element.",
     "related_ids": [
+      26,
       33,
-      153,
-      154
+      34
     ]
   },
   {
@@ -5565,8 +8563,8 @@
     "brief": "Given a function  fn  and a time in milliseconds  t , return a  debounced  version of that function.",
     "related_ids": [
       3,
-      1477,
-      1658
+      76,
+      1477
     ]
   },
   {
@@ -5618,9 +8616,9 @@
     "space": "O(n)",
     "brief": "Given a function  fn , return a  memoized  version of that function.",
     "related_ids": [
-      154,
-      602,
-      940
+      40,
+      45,
+      47
     ]
   },
   {
@@ -5644,9 +8642,9 @@
     "space": "O(1)",
     "brief": "Write code that enhances all arrays such that you can call the  array.groupBy(fn)  method on any array and it will return a  grouped  version of the array.",
     "related_ids": [
-      1484,
-      5,
-      6
+      25,
+      49,
+      1484
     ]
   },
   {
@@ -5670,9 +8668,9 @@
     "space": "O(1)",
     "brief": "Given an integer array  arr  and a filtering function  fn , return a filtered array  filteredArr .",
     "related_ids": [
-      1464,
-      2091,
-      2948
+      26,
+      80,
+      1464
     ]
   },
   {
@@ -5698,9 +8696,9 @@
     "space": "O(n)",
     "brief": "Given an integer array  arr  and a mapping function  fn , return a new array with a transformation applied to each element.",
     "related_ids": [
+      34,
       1331,
-      33,
-      153
+      26
     ]
   },
   {
@@ -5726,8 +8724,8 @@
     "brief": "Given an asynchronous function  fn  and a time  t  in milliseconds, return a new  time limited  version of the input function.  fn  takes arguments provided to the  time limited  function.",
     "related_ids": [
       2622,
-      636,
-      1661
+      121,
+      636
     ]
   },
   {
@@ -5752,8 +8750,8 @@
     "brief": "Write a generator function that returns a generator object which yields the  fibonacci sequence .",
     "related_ids": [
       22,
-      3302,
-      5
+      60,
+      3302
     ]
   },
   {
@@ -5778,8 +8776,8 @@
     "brief": "Given a  multi-dimensional array  of integers, return a generator object which yields integers in the same order as  inorder traversal .",
     "related_ids": [
       2625,
-      33,
-      153
+      26,
+      33
     ]
   },
   {
@@ -5856,9 +8854,9 @@
     "space": "O(1)",
     "brief": "Write a function  createCounter . It should accept an initial integer  init . It should return an object with three functions.",
     "related_ids": [
-      154,
-      602,
-      940
+      40,
+      45,
+      47
     ]
   },
   {
@@ -5883,8 +8881,8 @@
     "brief": "Given a function  fn , return a new function that is identical to the original function except that it ensures  fn  is called at most once.",
     "related_ids": [
       2693,
-      396,
-      2213
+      66,
+      396
     ]
   },
   {
@@ -5937,9 +8935,9 @@
     "space": "O(1)",
     "brief": "Given an array  arr  and a chunk size  size , return a  chunked  array.",
     "related_ids": [
+      26,
       33,
-      153,
-      154
+      34
     ]
   },
   {
@@ -6020,7 +9018,7 @@
     "related_ids": [
       5,
       6,
-      193
+      26
     ]
   },
   {
@@ -6044,9 +9042,9 @@
     "space": "O(1)",
     "brief": "Create a class  ArrayWrapper  that accepts an array of integers in its constructor. This class should have two features:",
     "related_ids": [
+      26,
       33,
-      153,
-      154
+      34
     ]
   },
   {
@@ -6072,9 +9070,9 @@
     "space": "O(n)",
     "brief": "Write a function  argumentsLength  that returns the count of arguments passed to it.",
     "related_ids": [
+      58,
       2958,
-      3043,
-      3090
+      3043
     ]
   },
   {
@@ -6233,9 +9231,9 @@
     "space": "O(1)",
     "brief": "Given an array  arr  and a function  fn , return a sorted array  sortedArr . You can assume  fn  only returns numbers and those numbers determine the sort order of  sortedArr .  sortedArr  must be sorted in  ascending order  by  fn  output.",
     "related_ids": [
+      75,
       5,
-      6,
-      193
+      6
     ]
   },
   {
@@ -6261,9 +9259,9 @@
     "space": "O(n)",
     "brief": "Given a function  fn , an array of arguments  args , and an interval time  t , return a cancel function  cancelFn .",
     "related_ids": [
+      57,
       12,
-      1520,
-      3414
+      1520
     ]
   },
   {
@@ -6291,7 +9289,7 @@
     "related_ids": [
       2891,
       1,
-      192
+      49
     ]
   },
   {
@@ -6371,7 +9369,7 @@
     "related_ids": [
       1752,
       2267,
-      2618
+      2267
     ]
   },
   {
@@ -6400,7 +9398,7 @@
     "related_ids": [
       3286,
       3742,
-      153
+      28
     ]
   },
   {
@@ -6427,8 +9425,8 @@
     "brief": "Write a solution to  create  a DataFrame from a 2D list called  student_data . This 2D list contains the IDs and ages of some students.",
     "related_ids": [
       19,
-      2196,
-      61
+      82,
+      83
     ]
   },
   {
@@ -6480,9 +9478,9 @@
     "space": "O(1)",
     "brief": "Write a solution to display the  first  3   rows   of this DataFrame.",
     "related_ids": [
-      185,
-      628,
-      1050
+      28,
+      34,
+      41
     ]
   },
   {
@@ -6535,9 +9533,9 @@
     "space": "O(1)",
     "brief": "A company plans to provide its employees with a bonus.",
     "related_ids": [
-      2196,
-      2667,
-      2877
+      168,
+      171,
+      2196
     ]
   },
   {
@@ -6563,7 +9561,7 @@
     "related_ids": [
       182,
       196,
-      2879
+      217
     ]
   },
   {
@@ -6589,8 +9587,8 @@
     "brief": "There are some rows having missing values in the  name  column.",
     "related_ids": [
       2887,
-      1965,
-      2880
+      41,
+      268
     ]
   },
   {
@@ -6618,8 +9616,8 @@
     "brief": "A company intends to give its employees a pay rise.",
     "related_ids": [
       2885,
-      550,
-      877
+      54,
+      59
     ]
   },
   {
@@ -6647,8 +9645,8 @@
     "brief": "Write a solution to rename the columns as follows:",
     "related_ids": [
       2884,
-      550,
-      877
+      54,
+      59
     ]
   },
   {
@@ -6701,8 +9699,8 @@
     "brief": "Write a solution to fill in the missing value as   0   in the  quantity  column.",
     "related_ids": [
       2883,
-      1965,
-      2880
+      41,
+      268
     ]
   },
   {
@@ -6813,7 +9811,7 @@
     "related_ids": [
       2726,
       1,
-      192
+      49
     ]
   },
   {
@@ -6918,7 +9916,7 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "brief": "You are given a  0-indexed  array of integers  nums .",
+    "brief": "Note:  The updated title is  \"Smallest Missing Integer Greater Than or Equal to Sequential Prefix Sum\".",
     "related_ids": [
       3720,
       3734,
@@ -7136,9 +10134,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  coins  representing coins of different denominations and an integer  k .",
     "related_ids": [
-      619,
-      1081,
-      2904
+      39,
+      40,
+      136
     ]
   },
   {
@@ -7246,8 +10244,8 @@
     "brief": "You are given an  m x n  binary matrix  grid  and an integer  health .",
     "related_ids": [
       2812,
-      153,
-      154
+      28,
+      34
     ]
   },
   {
@@ -7272,9 +10270,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums .",
     "related_ids": [
+      64,
       1846,
-      3550,
-      3622
+      3550
     ]
   },
   {
@@ -7328,8 +10326,8 @@
     "brief": "You are maintaining a project that has  n  methods numbered from  0  to  n - 1 .",
     "related_ids": [
       19,
-      1075,
-      1288
+      26,
+      80
     ]
   },
   {
@@ -7356,8 +10354,8 @@
     "brief": "You are given an integer array  nums  of length  n  and an integer array  queries .",
     "related_ids": [
       4,
-      33,
-      153
+      21,
+      23
     ]
   },
   {
@@ -7498,7 +10496,7 @@
     "related_ids": [
       3601,
       3617,
-      153
+      28
     ]
   },
   {
@@ -7552,9 +10550,9 @@
     "space": "O(n)",
     "brief": "log_id is the unique key for this table.",
     "related_ids": [
-      153,
-      154,
-      448
+      28,
+      34,
+      153
     ]
   },
   {
@@ -7633,9 +10631,9 @@
     "space": "O(1)",
     "brief": "+----------------+---------+",
     "related_ids": [
+      290,
       3617,
-      5,
-      6
+      5
     ]
   },
   {
@@ -7687,8 +10685,8 @@
     "brief": "You are given an array of digits called  digits . Your task is to determine the number of  distinct  three-digit even numbers that can be formed using these digits.",
     "related_ids": [
       2,
-      180,
-      193
+      62,
+      63
     ]
   },
   {
@@ -7739,8 +10737,8 @@
     "brief": "Given a string  s , calculate its  reverse degree .",
     "related_ids": [
       7,
-      150,
-      796
+      8,
+      25
     ]
   },
   {
@@ -7794,8 +10792,8 @@
     "brief": "You are given a binary string  s  of length  n , where:",
     "related_ids": [
       3499,
-      154,
-      602
+      40,
+      45
     ]
   },
   {
@@ -7852,8 +10850,8 @@
     "brief": "You are given an integer array  nums .",
     "related_ids": [
       3513,
-      2356,
-      3016
+      63,
+      2356
     ]
   },
   {
@@ -7936,8 +10934,8 @@
     "brief": "(user_id, product_id) is the unique key for this table.",
     "related_ids": [
       3554,
-      153,
-      154
+      24,
+      28
     ]
   },
   {
@@ -7964,8 +10962,8 @@
     "brief": "You are given an array of  positive  integers  nums , and a  positive  integer  k .",
     "related_ids": [
       3525,
-      153,
-      154
+      34,
+      153
     ]
   },
   {
@@ -7993,7 +10991,7 @@
     "related_ids": [
       3524,
       154,
-      153
+      34
     ]
   },
   {
@@ -8021,8 +11019,8 @@
     "brief": "You are given an integer  n  representing the number of nodes in a graph, labeled from 0 to  n - 1 .",
     "related_ids": [
       3534,
-      511,
-      1068
+      64,
+      71
     ]
   },
   {
@@ -8050,8 +11048,8 @@
     "brief": "You are given an integer  n  representing the number of nodes in a graph, labeled from 0 to  n - 1 .",
     "related_ids": [
       3532,
-      154,
-      602
+      40,
+      45
     ]
   },
   {
@@ -8130,8 +11128,8 @@
     "brief": "(user_id, product_id) is the unique identifier for this table.",
     "related_ids": [
       3521,
-      153,
-      154
+      24,
+      28
     ]
   },
   {
@@ -8242,8 +11240,8 @@
     "brief": "You are given an  m x n  grid  classroom  where a student volunteer is tasked with cleaning up litter scattered around the room. Each cell in the grid is one of the following:",
     "related_ids": [
       1674,
-      153,
-      154
+      64,
+      76
     ]
   },
   {
@@ -8268,8 +11266,8 @@
     "brief": "+------------------+---------+",
     "related_ids": [
       3642,
-      153,
-      154
+      28,
+      34
     ]
   },
   {
@@ -8294,8 +11292,8 @@
     "brief": "employee_id is the unique identifier for this table.",
     "related_ids": [
       3611,
-      153,
-      154
+      28,
+      34
     ]
   },
   {
@@ -8319,9 +11317,9 @@
     "space": "O(1)",
     "brief": "patient_id is the unique identifier for this table.",
     "related_ids": [
-      153,
-      154,
-      448
+      28,
+      34,
+      153
     ]
   },
   {
@@ -8346,8 +11344,8 @@
     "brief": "driver_id is the unique identifier for this table.",
     "related_ids": [
       3421,
-      153,
-      154
+      28,
+      34
     ]
   },
   {
@@ -8372,8 +11370,8 @@
     "brief": "+---------------+---------+",
     "related_ids": [
       3580,
-      153,
-      154
+      28,
+      34
     ]
   },
   {
@@ -8402,7 +11400,7 @@
     "related_ids": [
       3614,
       3120,
-      511
+      8
     ]
   },
   {
@@ -8430,8 +11428,8 @@
     "brief": "You are given a string  s  consisting of lowercase English letters and the special characters:  &#39;*&#39; ,  &#39;#&#39; , and  &#39;%&#39; .",
     "related_ids": [
       3612,
-      154,
-      602
+      8,
+      28
     ]
   },
   {
@@ -8458,8 +11456,8 @@
     "brief": "+--------------+---------+",
     "related_ids": [
       3421,
-      153,
-      154
+      28,
+      34
     ]
   },
   {
@@ -8487,8 +11485,8 @@
     "brief": "You are given a directed acyclic graph of  n \u202fnodes numbered from 0\u202fto\u202f n\u202f&minus;\u202f1 . This is represented by a 2D array  edges  of length   m  , where  edges[i] = [u i , v i , cost i ]  indicates a one\u2011way communication from node\u202f u i   to node\u202f v i   with a recovery cost of\u202f cost i  .",
     "related_ids": [
       3586,
-      550,
-      877
+      54,
+      59
     ]
   },
   {
@@ -8541,9 +11539,9 @@
     "space": "O(n)",
     "brief": "store_id is the unique identifier for this table.",
     "related_ids": [
-      153,
-      154,
-      448
+      28,
+      34,
+      153
     ]
   },
   {
@@ -8569,7 +11567,7 @@
     "related_ids": [
       2770,
       19,
-      153
+      64
     ]
   },
   {
@@ -8595,7 +11593,7 @@
     "related_ids": [
       3635,
       11,
-      511
+      42
     ]
   },
   {
@@ -8621,7 +11619,7 @@
     "related_ids": [
       3633,
       11,
-      154
+      40
     ]
   },
   {
@@ -8648,8 +11646,8 @@
     "brief": "book_id is the unique ID for this table.",
     "related_ids": [
       3570,
-      153,
-      154
+      28,
+      34
     ]
   },
   {
@@ -8677,7 +11675,7 @@
     "related_ids": [
       3705,
       3716,
-      153
+      28
     ]
   },
   {
@@ -8727,9 +11725,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums .",
     "related_ids": [
-      1306,
-      1340,
-      1345
+      45,
+      55,
+      1306
     ]
   },
   {
@@ -8755,9 +11753,9 @@
     "space": "O(n)",
     "brief": "+------------------+----------+",
     "related_ids": [
-      153,
-      154,
-      448
+      28,
+      34,
+      153
     ]
   },
   {
@@ -8784,8 +11782,8 @@
     "brief": "You are given an integer array  nums  of length  n  and an integer  k .",
     "related_ids": [
       3691,
-      3524,
-      3751
+      53,
+      3524
     ]
   },
   {
@@ -8810,8 +11808,8 @@
     "brief": "You are given an integer array  nums  of length  n  and an integer  k .",
     "related_ids": [
       3689,
-      3525,
-      3753
+      53,
+      3525
     ]
   },
   {
@@ -8922,7 +11920,7 @@
     "related_ids": [
       3657,
       3716,
-      153
+      28
     ]
   },
   {
@@ -8948,7 +11946,7 @@
     "related_ids": [
       3657,
       3705,
-      153
+      28
     ]
   },
   {
@@ -8974,8 +11972,8 @@
     "brief": "Given an integer array  nums  and an integer  k , return the  smallest positive multiple  of  k  that is  missing  from  nums .",
     "related_ids": [
       2996,
-      1081,
-      1621
+      23,
+      25
     ]
   },
   {
@@ -9028,7 +12026,7 @@
     "related_ids": [
       3020,
       3471,
-      153
+      28
     ]
   },
   {
@@ -9080,8 +12078,8 @@
     "brief": "You are given an integer array  nums  and an integer  target .",
     "related_ids": [
       3739,
-      3120,
-      511
+      169,
+      3120
     ]
   },
   {
@@ -9106,8 +12104,8 @@
     "brief": "You are given an integer array  nums  and an integer  target .",
     "related_ids": [
       3737,
-      3871,
-      154
+      169,
+      3871
     ]
   },
   {
@@ -9241,8 +12239,8 @@
     "brief": "You are given a string  s  of length  m  consisting of digits. You are also given a 2D integer array  queries , where  queries[i] = [l i , r i ] .",
     "related_ids": [
       3754,
-      1477,
-      3702
+      40,
+      1477
     ]
   },
   {
@@ -9270,7 +12268,7 @@
     "related_ids": [
       11,
       14,
-      602
+      24
     ]
   },
   {
@@ -9380,9 +12378,9 @@
     "space": "O(n)",
     "brief": "You are given an array of strings  words , where each string represents a word containing lowercase English letters.",
     "related_ids": [
-      192,
-      1967,
-      3014
+      58,
+      79,
+      192
     ]
   },
   {
@@ -9407,8 +12405,8 @@
     "brief": "You are given an integer array  nums  of length  n .",
     "related_ids": [
       1,
-      1477,
-      1807
+      24,
+      39
     ]
   },
   {
@@ -9436,8 +12434,8 @@
     "brief": "You are given an integer  n .",
     "related_ids": [
       3871,
-      1729,
-      1907
+      38,
+      303
     ]
   },
   {
@@ -9491,7 +12489,7 @@
     "related_ids": [
       3876,
       3524,
-      33
+      26
     ]
   },
   {
@@ -9516,8 +12514,8 @@
     "brief": "You are given an array  nums1  of  n   distinct  integers.",
     "related_ids": [
       3875,
-      154,
-      3525
+      80,
+      81
     ]
   },
   {

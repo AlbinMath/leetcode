@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3586. Find COVID Recovery Patients](../3932-find-covid-recovery-patients/)
-- [550. Game Play Analysis IV](../1182-game-play-analysis-iv/)
-- [877. Stone Game](../0909-stone-game/)
+- [54. Spiral Matrix](../0054-spiral-matrix/)
+- [59. Spiral Matrix II](../0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/network-recovery-pathways/)

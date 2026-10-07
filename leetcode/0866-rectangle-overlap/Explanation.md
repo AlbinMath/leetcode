@@ -71,8 +71,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
+- [85. Maximal Rectangle](../0085-maximal-rectangle/)
 - [835. Image Overlap](../0864-image-overlap/)
-- [1401. Circle and Rectangle Overlapping](../1501-circle-and-rectangle-overlapping/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rectangle-overlap/)

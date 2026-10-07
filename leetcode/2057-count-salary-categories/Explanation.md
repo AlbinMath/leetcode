@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [38. Count and Say](../0038-count-and-say/)
 - [176. Second Highest Salary](../0176-second-highest-salary/)
 - [177. Nth Highest Salary](../0177-nth-highest-salary/)
-- [184. Department Highest Salary](../0184-department-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-salary-categories/)

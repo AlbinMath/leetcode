@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2770. Maximum Number of Jumps to Reach the Last Index](../2855-maximum-number-of-jumps-to-reach-the-last-index/)
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [64. Minimum Path Sum](../0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/)

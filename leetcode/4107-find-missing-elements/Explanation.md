@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3020. Find the Maximum Number of Elements in Subset](../3299-find-the-maximum-number-of-elements-in-subset/)
 - [3471. Find the Largest Almost Missing Integer](../3705-find-the-largest-almost-missing-integer/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-missing-elements/)

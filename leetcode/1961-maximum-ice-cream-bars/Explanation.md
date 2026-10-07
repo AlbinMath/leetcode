@@ -68,9 +68,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [53. Maximum Subarray](../0053-maximum-subarray/)
+- [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-ice-cream-bars/)

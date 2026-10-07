@@ -70,7 +70,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2472. Maximum Number of Non-overlapping Palindrome Substrings](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
+- [65. Valid Number](../0065-valid-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-number/)

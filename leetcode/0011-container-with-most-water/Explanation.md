@@ -74,9 +74,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [42. Trapping Rain Water](../0042-trapping-rain-water/)
 - [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
 - [2958. Length of Longest Subarray With at Most K Frequency](../3225-length-of-longest-subarray-with-at-most-k-frequency/)
-- [3633. Earliest Finish Time for Land and Water Rides I](../3965-earliest-finish-time-for-land-and-water-rides-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/container-with-most-water/)

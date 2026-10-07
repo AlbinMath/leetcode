@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3876. Construct Uniform Parity Array II](../4258-construct-uniform-parity-array-ii/)
 - [3524. Find X Value of Array I](../3831-find-x-value-of-array-i/)
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
+- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-uniform-parity-array-i/)

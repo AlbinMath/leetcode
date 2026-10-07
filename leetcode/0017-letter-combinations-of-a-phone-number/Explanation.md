@@ -73,8 +73,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [9. Palindrome Number](../0009-palindrome-number/)
-- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
-- [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
+- [65. Valid Number](../0065-valid-number/)
+- [77. Combinations](../0077-combinations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)

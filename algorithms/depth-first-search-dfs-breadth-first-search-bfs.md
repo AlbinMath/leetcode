@@ -6,6 +6,25 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
+| 54 | [Spiral Matrix](../leetcode/0054-spiral-matrix/) | Medium | Tree & Graph | O(n) | O(n) |
+| 59 | [Spiral Matrix II](../leetcode/0059-spiral-matrix-ii/) | Medium | Tree & Graph | O(n) | O(n) |
+| 62 | [Unique Paths](../leetcode/0062-unique-paths/) | Medium | Tree & Graph | O(n) | O(n) |
+| 63 | [Unique Paths II](../leetcode/0063-unique-paths-ii/) | Medium | Tree & Graph | O(n) | O(n) |
+| 64 | [Minimum Path Sum](../leetcode/0064-minimum-path-sum/) | Medium | Tree & Graph | O(n) | O(n) |
+| 71 | [Simplify Path](../leetcode/0071-simplify-path/) | Medium | Tree & Graph | O(n) | O(n) |
+| 73 | [Set Matrix Zeroes](../leetcode/0073-set-matrix-zeroes/) | Medium | Tree & Graph | O(n) | O(n) |
+| 74 | [Search a 2D Matrix](../leetcode/0074-search-a-2d-matrix/) | Medium | Tree & Graph | O(n) | O(n) |
+| 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
+| 100 | [Same Tree](../leetcode/0100-same-tree/) | Easy | Tree & Graph | O(n) | O(n) |
+| 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | Easy | Tree & Graph | O(n) | O(n) |
+| 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
+| 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
+| 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
+| 112 | [Path Sum](../leetcode/0112-path-sum/) | Easy | Tree & Graph | O(n) | O(n) |
+| 144 | [Binary Tree Preorder Traversal](../leetcode/0144-binary-tree-preorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
+| 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
+| 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
+| 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Easy | Tree & Graph | O(n) | O(n) |
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Medium | Tree & Graph | O(n) | O(n) |
 | 877 | [Stone Game](../leetcode/0909-stone-game/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Easy | Tree & Graph | O(n) | O(n) |

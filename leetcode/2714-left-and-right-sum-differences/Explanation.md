@@ -64,8 +64,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [1. Two Sum](../0001-two-sum/)
-- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [1927. Sum Game](../2039-sum-game/)
+- [39. Combination Sum](../0039-combination-sum/)
+- [40. Combination Sum II](../0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/left-and-right-sum-differences/)

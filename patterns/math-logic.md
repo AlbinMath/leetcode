@@ -8,6 +8,12 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 118 | [Pascal's Triangle](../leetcode/0118-pascals-triangle/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0118-pascals-triangle/Explanation.md) |
+
+| 119 | [Pascal's Triangle II](../leetcode/0119-pascals-triangle-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0119-pascals-triangle-ii/Explanation.md) |
+
+| 258 | [Add Digits](../leetcode/0258-add-digits/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0258-add-digits/Explanation.md) |
+
 | 796 | [Rotate String](../leetcode/0812-rotate-string/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0812-rotate-string/Explanation.md) |
 
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0866-rectangle-overlap/Explanation.md) |
@@ -38,5 +44,7 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 85 | [Maximal Rectangle](../leetcode/0085-maximal-rectangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0085-maximal-rectangle/Explanation.md) |
+
 | 3348 | [Smallest Divisible Digit Product II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Python, TypeScript | O(n) | O(1) | [Explanation](../leetcode/3635-smallest-divisible-digit-product-ii/Explanation.md) |
 

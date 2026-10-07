@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [182. Duplicate Emails](../0182-duplicate-emails/)
-- [2095. Delete the Middle Node of a Linked List](../2216-delete-the-middle-node-of-a-linked-list/)
-- [2882. Drop Duplicate Rows](../3071-drop-duplicate-rows/)
+- [217. Contains Duplicate](../0217-contains-duplicate/)
+- [219. Contains Duplicate II](../0219-contains-duplicate-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-duplicate-emails/)

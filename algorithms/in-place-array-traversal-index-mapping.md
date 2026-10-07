@@ -8,14 +8,61 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 |---|---|---|---|---|---|
 | 5 | [Longest Palindromic Substring](../leetcode/0005-longest-palindromic-substring/) | Medium | Array / General | O(n) | O(1) |
 | 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Medium | Array / General | O(n) | O(1) |
+| 26 | [Remove Duplicates from Sorted Array](../leetcode/0026-remove-duplicates-from-sorted-array/) | Easy | Array / General | O(n) | O(1) |
+| 27 | [Remove Element](../leetcode/0027-remove-element/) | Easy | Array / General | O(n) | O(1) |
+| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Hard | Array / General | O(n) | O(1) |
+| 36 | [Valid Sudoku](../leetcode/0036-valid-sudoku/) | Medium | Array / General | O(n) | O(1) |
+| 37 | [Sudoku Solver](../leetcode/0037-sudoku-solver/) | Hard | Array / General | O(n) | O(1) |
+| 38 | [Count and Say](../leetcode/0038-count-and-say/) | Medium | Array / General | O(n) | O(1) |
+| 41 | [First Missing Positive](../leetcode/0041-first-missing-positive/) | Hard | Array / General | O(n) | O(1) |
+| 42 | [Trapping Rain Water](../leetcode/0042-trapping-rain-water/) | Hard | Array / General | O(n) | O(1) |
+| 43 | [Multiply Strings](../leetcode/0043-multiply-strings/) | Medium | Array / General | O(n) | O(1) |
+| 44 | [Wildcard Matching](../leetcode/0044-wildcard-matching/) | Hard | Array / General | O(n) | O(1) |
+| 45 | [Jump Game II](../leetcode/0045-jump-game-ii/) | Medium | Array / General | O(n) | O(1) |
+| 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Medium | Array / General | O(n) | O(1) |
+| 51 | [N-Queens](../leetcode/0051-n-queens/) | Hard | Array / General | O(n) | O(1) |
+| 52 | [N-Queens II](../leetcode/0052-n-queens-ii/) | Hard | Array / General | O(n) | O(1) |
+| 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Medium | Array / General | O(n) | O(1) |
+| 55 | [Jump Game](../leetcode/0055-jump-game/) | Medium | Array / General | O(n) | O(1) |
+| 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Easy | Array / General | O(n) | O(1) |
+| 65 | [Valid Number](../leetcode/0065-valid-number/) | Hard | Array / General | O(n) | O(1) |
+| 66 | [Plus One](../leetcode/0066-plus-one/) | Easy | Array / General | O(n) | O(1) |
+| 69 | [Sqrt(x)](../leetcode/0069-sqrtx/) | Easy | Array / General | O(n) | O(1) |
+| 70 | [Climbing Stairs](../leetcode/0070-climbing-stairs/) | Easy | Array / General | O(n) | O(1) |
+| 72 | [Edit Distance](../leetcode/0072-edit-distance/) | Medium | Array / General | O(n) | O(1) |
+| 75 | [Sort Colors](../leetcode/0075-sort-colors/) | Medium | Array / General | O(n) | O(1) |
+| 78 | [Subsets](../leetcode/0078-subsets/) | Medium | Array / General | O(n) | O(1) |
+| 79 | [Word Search](../leetcode/0079-word-search/) | Medium | Array / General | O(n) | O(1) |
+| 80 | [Remove Duplicates from Sorted Array II](../leetcode/0080-remove-duplicates-from-sorted-array-ii/) | Medium | Array / General | O(n) | O(1) |
+| 88 | [Merge Sorted Array](../leetcode/0088-merge-sorted-array/) | Easy | Array / General | O(n) | O(1) |
+| 121 | [Best Time to Buy and Sell Stock](../leetcode/0121-best-time-to-buy-and-sell-stock/) | Easy | Array / General | O(n) | O(1) |
+| 136 | [Single Number](../leetcode/0136-single-number/) | Easy | Array / General | O(n) | O(1) |
+| 168 | [Excel Sheet Column Title](../leetcode/0168-excel-sheet-column-title/) | Easy | Array / General | O(n) | O(1) |
+| 169 | [Majority Element](../leetcode/0169-majority-element/) | Easy | Array / General | O(n) | O(1) |
+| 171 | [Excel Sheet Column Number](../leetcode/0171-excel-sheet-column-number/) | Easy | Array / General | O(n) | O(1) |
 | 193 | [Valid Phone Numbers](../leetcode/0193-valid-phone-numbers/) | Easy | Array / General | O(n) | O(1) |
 | 194 | [Transpose File](../leetcode/0194-transpose-file/) | Medium | Array / General | O(n) | O(1) |
 | 195 | [Tenth Line](../leetcode/0195-tenth-line/) | Easy | Array / General | O(n) | O(1) |
+| 202 | [Happy Number](../leetcode/0202-happy-number/) | Easy | Array / General | O(n) | O(1) |
+| 205 | [Isomorphic Strings](../leetcode/0205-isomorphic-strings/) | Easy | Array / General | O(n) | O(1) |
+| 217 | [Contains Duplicate](../leetcode/0217-contains-duplicate/) | Easy | Array / General | O(n) | O(1) |
+| 219 | [Contains Duplicate II](../leetcode/0219-contains-duplicate-ii/) | Easy | Array / General | O(n) | O(1) |
+| 228 | [Summary Ranges](../leetcode/0228-summary-ranges/) | Easy | Array / General | O(n) | O(1) |
+| 231 | [Power of Two](../leetcode/0231-power-of-two/) | Easy | Array / General | O(n) | O(1) |
+| 263 | [Ugly Number](../leetcode/0263-ugly-number/) | Easy | Array / General | O(n) | O(1) |
+| 268 | [Missing Number](../leetcode/0268-missing-number/) | Easy | Array / General | O(n) | O(1) |
+| 278 | [First Bad Version](../leetcode/0278-first-bad-version/) | Easy | Array / General | O(n) | O(1) |
+| 283 | [Move Zeroes](../leetcode/0283-move-zeroes/) | Easy | Array / General | O(n) | O(1) |
+| 290 | [Word Pattern](../leetcode/0290-word-pattern/) | Easy | Array / General | O(n) | O(1) |
+| 292 | [Nim Game](../leetcode/0292-nim-game/) | Easy | Array / General | O(n) | O(1) |
+| 303 | [Range Sum Query   Immutable](../leetcode/0303-range-sum-query---immutable/) | Medium | Array / General | O(n) | O(1) |
+| 326 | [Power of Three](../leetcode/0326-power-of-three/) | Easy | Array / General | O(n) | O(1) |
 | 448 | [Find All Numbers Disappeared in an Array](../leetcode/0448-find-all-numbers-disappeared-in-an-array/) | Easy | Array / General | O(n) | O(1) |
 | 485 | [Max Consecutive Ones](../leetcode/0485-max-consecutive-ones/) | Easy | Array / General | O(n) | O(1) |
 | 511 | [Game Play Analysis I](../leetcode/1179-game-play-analysis-i/) | Easy | Array / General | O(n) | O(1) |
 | 570 | [Managers with at Least 5 Direct Reports](../leetcode/0570-managers-with-at-least-5-direct-reports/) | Medium | Array / General | O(n) | O(1) |
 | 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | Easy | Array / General | O(n) | O(1) |
+| 678 | [Valid Parenthesis String](../leetcode/0678-valid-parenthesis-string/) | Medium | Array / General | O(n) | O(1) |
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | Hard | Array / General | O(n) | O(1) |
 | 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Medium | Array / General | O(n) | O(1) |
 | 1117 | [Building H2O](../leetcode/1186-building-h2o/) | Medium | Array / General | O(n) | O(1) |

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
+- [49. Group Anagrams](../0049-group-anagrams/)
 - [1484. Group Sold Products By The Date](../1625-group-sold-products-by-the-date/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-by/)

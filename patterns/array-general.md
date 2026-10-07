@@ -8,9 +8,59 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 26 | [Remove Duplicates from Sorted Array](../leetcode/0026-remove-duplicates-from-sorted-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/0026-remove-duplicates-from-sorted-array/Explanation.md) |
+
+| 27 | [Remove Element](../leetcode/0027-remove-element/) | Python | O(n) | O(1) | [Explanation](../leetcode/0027-remove-element/Explanation.md) |
+
+| 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Python | O(n) | O(1) | [Explanation](../leetcode/0058-length-of-last-word/Explanation.md) |
+
+| 66 | [Plus One](../leetcode/0066-plus-one/) | Python | O(n) | O(1) | [Explanation](../leetcode/0066-plus-one/Explanation.md) |
+
+| 69 | [Sqrt(x)](../leetcode/0069-sqrtx/) | Python | O(n) | O(1) | [Explanation](../leetcode/0069-sqrtx/Explanation.md) |
+
+| 70 | [Climbing Stairs](../leetcode/0070-climbing-stairs/) | Python | O(n) | O(1) | [Explanation](../leetcode/0070-climbing-stairs/Explanation.md) |
+
+| 88 | [Merge Sorted Array](../leetcode/0088-merge-sorted-array/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0088-merge-sorted-array/Explanation.md) |
+
+| 121 | [Best Time to Buy and Sell Stock](../leetcode/0121-best-time-to-buy-and-sell-stock/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0121-best-time-to-buy-and-sell-stock/Explanation.md) |
+
+| 136 | [Single Number](../leetcode/0136-single-number/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0136-single-number/Explanation.md) |
+
+| 168 | [Excel Sheet Column Title](../leetcode/0168-excel-sheet-column-title/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0168-excel-sheet-column-title/Explanation.md) |
+
+| 169 | [Majority Element](../leetcode/0169-majority-element/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0169-majority-element/Explanation.md) |
+
+| 171 | [Excel Sheet Column Number](../leetcode/0171-excel-sheet-column-number/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0171-excel-sheet-column-number/Explanation.md) |
+
 | 193 | [Valid Phone Numbers](../leetcode/0193-valid-phone-numbers/) | Shell | O(n) | O(1) | [Explanation](../leetcode/0193-valid-phone-numbers/Explanation.md) |
 
 | 195 | [Tenth Line](../leetcode/0195-tenth-line/) | Shell | O(n) | O(1) | [Explanation](../leetcode/0195-tenth-line/Explanation.md) |
+
+| 202 | [Happy Number](../leetcode/0202-happy-number/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0202-happy-number/Explanation.md) |
+
+| 205 | [Isomorphic Strings](../leetcode/0205-isomorphic-strings/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0205-isomorphic-strings/Explanation.md) |
+
+| 217 | [Contains Duplicate](../leetcode/0217-contains-duplicate/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0217-contains-duplicate/Explanation.md) |
+
+| 219 | [Contains Duplicate II](../leetcode/0219-contains-duplicate-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0219-contains-duplicate-ii/Explanation.md) |
+
+| 228 | [Summary Ranges](../leetcode/0228-summary-ranges/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0228-summary-ranges/Explanation.md) |
+
+| 231 | [Power of Two](../leetcode/0231-power-of-two/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0231-power-of-two/Explanation.md) |
+
+| 263 | [Ugly Number](../leetcode/0263-ugly-number/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0263-ugly-number/Explanation.md) |
+
+| 268 | [Missing Number](../leetcode/0268-missing-number/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0268-missing-number/Explanation.md) |
+
+| 278 | [First Bad Version](../leetcode/0278-first-bad-version/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0278-first-bad-version/Explanation.md) |
+
+| 283 | [Move Zeroes](../leetcode/0283-move-zeroes/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0283-move-zeroes/Explanation.md) |
+
+| 290 | [Word Pattern](../leetcode/0290-word-pattern/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0290-word-pattern/Explanation.md) |
+
+| 292 | [Nim Game](../leetcode/0292-nim-game/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0292-nim-game/Explanation.md) |
+
+| 326 | [Power of Three](../leetcode/0326-power-of-three/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0326-power-of-three/Explanation.md) |
 
 | 448 | [Find All Numbers Disappeared in an Array](../leetcode/0448-find-all-numbers-disappeared-in-an-array/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/0448-find-all-numbers-disappeared-in-an-array/Explanation.md) |
 
@@ -86,9 +136,37 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Python | O(n) | O(1) | [Explanation](../leetcode/0006-zigzag-conversion/Explanation.md) |
 
+| 36 | [Valid Sudoku](../leetcode/0036-valid-sudoku/) | Python | O(n) | O(1) | [Explanation](../leetcode/0036-valid-sudoku/Explanation.md) |
+
+| 38 | [Count and Say](../leetcode/0038-count-and-say/) | Python | O(n) | O(1) | [Explanation](../leetcode/0038-count-and-say/Explanation.md) |
+
+| 43 | [Multiply Strings](../leetcode/0043-multiply-strings/) | Python | O(n) | O(1) | [Explanation](../leetcode/0043-multiply-strings/Explanation.md) |
+
+| 45 | [Jump Game II](../leetcode/0045-jump-game-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0045-jump-game-ii/Explanation.md) |
+
+| 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Python | O(n) | O(1) | [Explanation](../leetcode/0050-powx-n/Explanation.md) |
+
+| 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Python | O(n) | O(1) | [Explanation](../leetcode/0053-maximum-subarray/Explanation.md) |
+
+| 55 | [Jump Game](../leetcode/0055-jump-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/0055-jump-game/Explanation.md) |
+
+| 72 | [Edit Distance](../leetcode/0072-edit-distance/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0072-edit-distance/Explanation.md) |
+
+| 75 | [Sort Colors](../leetcode/0075-sort-colors/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0075-sort-colors/Explanation.md) |
+
+| 78 | [Subsets](../leetcode/0078-subsets/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0078-subsets/Explanation.md) |
+
+| 79 | [Word Search](../leetcode/0079-word-search/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0079-word-search/Explanation.md) |
+
+| 80 | [Remove Duplicates from Sorted Array II](../leetcode/0080-remove-duplicates-from-sorted-array-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0080-remove-duplicates-from-sorted-array-ii/Explanation.md) |
+
 | 194 | [Transpose File](../leetcode/0194-transpose-file/) | Shell | O(n) | O(1) | [Explanation](../leetcode/0194-transpose-file/Explanation.md) |
 
+| 303 | [Range Sum Query   Immutable](../leetcode/0303-range-sum-query---immutable/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0303-range-sum-query---immutable/Explanation.md) |
+
 | 570 | [Managers with at Least 5 Direct Reports](../leetcode/0570-managers-with-at-least-5-direct-reports/) | Python | O(n) | O(1) | [Explanation](../leetcode/0570-managers-with-at-least-5-direct-reports/Explanation.md) |
+
+| 678 | [Valid Parenthesis String](../leetcode/0678-valid-parenthesis-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/0678-valid-parenthesis-string/Explanation.md) |
 
 | 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Java | O(n) | O(1) | [Explanation](../leetcode/1216-print-zero-even-odd/Explanation.md) |
 
@@ -172,6 +250,22 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Python | O(n) | O(1) | [Explanation](../leetcode/0030-substring-with-concatenation-of-all-words/Explanation.md) |
+
+| 37 | [Sudoku Solver](../leetcode/0037-sudoku-solver/) | Python | O(n) | O(1) | [Explanation](../leetcode/0037-sudoku-solver/Explanation.md) |
+
+| 41 | [First Missing Positive](../leetcode/0041-first-missing-positive/) | Python | O(n) | O(1) | [Explanation](../leetcode/0041-first-missing-positive/Explanation.md) |
+
+| 42 | [Trapping Rain Water](../leetcode/0042-trapping-rain-water/) | Python | O(n) | O(1) | [Explanation](../leetcode/0042-trapping-rain-water/Explanation.md) |
+
+| 44 | [Wildcard Matching](../leetcode/0044-wildcard-matching/) | Python | O(n) | O(1) | [Explanation](../leetcode/0044-wildcard-matching/Explanation.md) |
+
+| 51 | [N-Queens](../leetcode/0051-n-queens/) | Python | O(n) | O(1) | [Explanation](../leetcode/0051-n-queens/Explanation.md) |
+
+| 52 | [N-Queens II](../leetcode/0052-n-queens-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0052-n-queens-ii/Explanation.md) |
+
+| 65 | [Valid Number](../leetcode/0065-valid-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/0065-valid-number/Explanation.md) |
+
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1188-brace-expansion-ii/Explanation.md) |
 
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Python | O(n) | O(1) | [Explanation](../leetcode/1968-maximum-building-height/Explanation.md) |

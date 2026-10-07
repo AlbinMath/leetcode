@@ -72,8 +72,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [3310. Remove Methods From Project](../3561-remove-methods-from-project/)
-- [3414. Maximum Score of Non-overlapping Intervals](../3562-maximum-score-of-non-overlapping-intervals/)
+- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [27. Remove Element](../0027-remove-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-covered-intervals/)

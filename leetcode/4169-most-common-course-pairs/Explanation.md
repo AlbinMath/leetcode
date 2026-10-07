@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [11. Container With Most Water](../0011-container-with-most-water/)
 - [14. Longest Common Prefix](../0014-longest-common-prefix/)
-- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
+- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-course-pairs/)

@@ -72,9 +72,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [32. Longest Valid Parentheses](../0032-longest-valid-parentheses/)
+- [921. Minimum Add to Make Parentheses Valid](../0957-minimum-add-to-make-parentheses-valid/)
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [22. Generate Parentheses](../0022-generate-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-parentheses/)

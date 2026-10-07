@@ -63,9 +63,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [619. Biggest Single Number](../0619-biggest-single-number/)
-- [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
-- [2904. Shortest and Lexicographically Smallest Beautiful String](../3150-shortest-and-lexicographically-smallest-beautiful-string/)
+- [39. Combination Sum](../0039-combination-sum/)
+- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [136. Single Number](../0136-single-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/)

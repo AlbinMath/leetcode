@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3532. Path Existence Queries in a Graph I](../3838-path-existence-queries-in-a-graph-i/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
+- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [45. Jump Game II](../0045-jump-game-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/)

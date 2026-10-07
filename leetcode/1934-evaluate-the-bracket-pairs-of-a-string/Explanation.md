@@ -68,9 +68,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [150. Evaluate Reverse Polish Notation](../0150-evaluate-reverse-polish-notation/)
-- [796. Rotate String](../0812-rotate-string/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
+- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)

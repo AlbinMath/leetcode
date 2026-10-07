@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3286. Find a Safe Walk Through a Grid](../3558-find-a-safe-walk-through-a-grid/)
 - [3742. Maximum Path Score in a Grid](../3986-maximum-path-score-in-a-grid/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)

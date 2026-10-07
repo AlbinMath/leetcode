@@ -8,6 +8,12 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Python | O(log n) | O(1) | [Explanation](../leetcode/0035-search-insert-position/Explanation.md) |
+
+| 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0108-convert-sorted-array-to-binary-search-tree/Explanation.md) |
+
+| 338 | [Counting Bits](../leetcode/0338-counting-bits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0338-counting-bits/Explanation.md) |
+
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Elixir | O(n) | O(1) | [Explanation](../leetcode/0628-maximum-product-of-three-numbers/Explanation.md) |
 
 | 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/1256-rank-transform-of-an-array/Explanation.md) |
@@ -29,6 +35,10 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 | 18 | [4Sum](../leetcode/0018-4sum/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0018-4sum/Explanation.md) |
 
 | 33 | [Search in Rotated Sorted Array](../leetcode/0033-search-in-rotated-sorted-array/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0033-search-in-rotated-sorted-array/Explanation.md) |
+
+| 34 | [Find First and Last Position of Element in Sorted Array](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/) | Python | O(log n) | O(1) | [Explanation](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/Explanation.md) |
+
+| 81 | [Search in Rotated Sorted Array II](../leetcode/0081-search-in-rotated-sorted-array-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0081-search-in-rotated-sorted-array-ii/Explanation.md) |
 
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0153-find-minimum-in-rotated-sorted-array/Explanation.md) |
 

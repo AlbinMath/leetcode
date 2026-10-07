@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
+- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [76. Minimum Window Substring](../0076-minimum-window-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/)

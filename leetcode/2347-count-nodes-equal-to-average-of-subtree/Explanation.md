@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1251. Average Selling Price](../1390-average-selling-price/)
-- [1661. Average Time of Process per Machine](../1801-average-time-of-process-per-machine/)
-- [1729. Find Followers Count](../1877-find-followers-count/)
+- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
+- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
+- [38. Count and Say](../0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)

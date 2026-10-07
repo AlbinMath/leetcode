@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
 - [61. Rotate List](../0061-rotate-list/)
-- [1045. Customers Who Bought All Products](../1135-customers-who-bought-all-products/)
+- [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)

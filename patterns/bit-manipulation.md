@@ -8,6 +8,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 67 | [Add Binary](../leetcode/0067-add-binary/) | Python | O(n) | O(1) | [Explanation](../leetcode/0067-add-binary/Explanation.md) |
+
 | 2723 | [Add Two Promises](../leetcode/2859-add-two-promises/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2859-add-two-promises/Explanation.md) |
 
 | 2880 | [Select Data](../leetcode/3074-select-data/) | Python | O(n) | O(1) | [Explanation](../leetcode/3074-select-data/Explanation.md) |
@@ -27,6 +29,10 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 7 | [Reverse Integer](../leetcode/0007-reverse-integer/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0007-reverse-integer/Explanation.md) |
+
+| 8 | [String to Integer (atoi)](../leetcode/0008-string-to-integer-atoi/) | Python | O(n) | O(1) | [Explanation](../leetcode/0008-string-to-integer-atoi/Explanation.md) |
+
+| 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Python | O(n) | O(1) | [Explanation](../leetcode/0029-divide-two-integers/Explanation.md) |
 
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0396-rotate-function/Explanation.md) |
 

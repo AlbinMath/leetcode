@@ -66,9 +66,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2877. Create a DataFrame from List](../3062-create-a-dataframe-from-list/)
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [608. Tree Node](../0608-tree-node/)
+- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
+- [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
+- [108. Convert Sorted Array to Binary Search Tree](../0108-convert-sorted-array-to-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-binary-tree-from-descriptions/)

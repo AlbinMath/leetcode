@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [290. Word Pattern](../0290-word-pattern/)
 - [3617. Find Students with Study Spiral Pattern](../3961-find-students-with-study-spiral-pattern/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/dna-pattern-recognition/)

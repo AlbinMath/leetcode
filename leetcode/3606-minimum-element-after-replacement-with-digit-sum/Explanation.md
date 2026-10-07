@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [64. Minimum Path Sum](../0064-minimum-path-sum/)
 - [1846. Maximum Element After Decreasing and Rearranging](../1956-maximum-element-after-decreasing-and-rearranging/)
 - [3550. Smallest Index With Digit Sum Equal to Index](../3869-smallest-index-with-digit-sum-equal-to-index/)
-- [3622. Check Divisibility by Digit Sum and Product](../3918-check-divisibility-by-digit-sum-and-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)

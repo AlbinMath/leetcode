@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3737. Count Subarrays With Majority Element I](../4074-count-subarrays-with-majority-element-i/)
+- [169. Majority Element](../0169-majority-element/)
 - [3871. Count Commas in Range II](../4248-count-commas-in-range-ii/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/)

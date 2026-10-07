@@ -71,8 +71,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [7. Reverse Integer](../0007-reverse-integer/)
-- [150. Evaluate Reverse Polish Notation](../0150-evaluate-reverse-polish-notation/)
-- [796. Rotate String](../0812-rotate-string/)
+- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-degree-of-a-string/)

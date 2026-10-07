@@ -15,6 +15,8 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 17 | [Letter Combinations of a Phone Number](../leetcode/0017-letter-combinations-of-a-phone-number/) | Medium | Backtracking | O(n) | O(1) |
 | 19 | [Remove Nth Node From End of List](../leetcode/0019-remove-nth-node-from-end-of-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
 | 20 | [Valid Parentheses](../leetcode/0020-valid-parentheses/) | Easy | Stack & Queue | O(n) | O(n) |
+| 72 | [Edit Distance](../leetcode/0072-edit-distance/) | Medium | Array / General | O(n) | O(1) |
+| 73 | [Set Matrix Zeroes](../leetcode/0073-set-matrix-zeroes/) | Medium | Tree & Graph | O(n) | O(n) |
 | 115 | [Distinct Subsequences](../leetcode/0115-distinct-subsequences/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | Medium | Bit Manipulation | O(n²) | O(1) |
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Easy | Math & Logic | O(n) | O(1) |

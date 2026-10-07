@@ -63,9 +63,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2095. Delete the Middle Node of a Linked List](../2216-delete-the-middle-node-of-a-linked-list/)
-- [1. Two Sum](../0001-two-sum/)
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
+- [141. Linked List Cycle](../0141-linked-list-cycle/)
+- [203. Remove Linked List Elements](../0203-remove-linked-list-elements/)
+- [206. Reverse Linked List](../0206-reverse-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)
