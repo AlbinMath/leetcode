@@ -35,7 +35,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 47 | [Permutations II](../leetcode/0047-permutations-ii/) | Backtracking | Python | O(n) | O(1) |
 | 48 | [Rotate Image](../leetcode/0048-rotate-image/) | Math & Logic | C++ | O(n²) | O(1) |
 | 49 | [Group Anagrams](../leetcode/0049-group-anagrams/) | Hash Map | Python | O(n) | O(n) |
-| 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Array / General | Python | O(n) | O(1) |
+| 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Tree & Graph | Python | O(n) | O(n) |
 | 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Tree & Graph | Python | O(n) | O(n) |
 | 54 | [Spiral Matrix](../leetcode/0054-spiral-matrix/) | Tree & Graph | Python | O(n) | O(n) |
 | 55 | [Jump Game](../leetcode/0055-jump-game/) | Array / General | Python | O(n) | O(1) |
@@ -164,7 +164,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 3421 | [Find Students Who Improved](../leetcode/3767-find-students-who-improved/) | Database / SQL | SQL | O(n) | O(n) |
 | 3475 | [DNA Pattern Recognition ](../leetcode/3816-dna-pattern-recognition-/) | Array / General | Python | O(n) | O(1) |
 | 3497 | [Analyze Subscription Conversion ](../leetcode/3848-analyze-subscription-conversion-/) | Array / General | Python | O(n) | O(1) |
-| 3499 | [Maximize Active Section with Trade I](../leetcode/3805-maximize-active-section-with-trade-i/) | Tree & Graph | C++ | O(n) | O(n) |
+| 3499 | [Maximize Active Section with Trade I](../leetcode/3805-maximize-active-section-with-trade-i/) | Monotonic Stack | C++ | O(n) | O(n) |
 | 3513 | [Number of Unique XOR Triplets I](../leetcode/3824-number-of-unique-xor-triplets-i/) | Tree & Graph | C++ | O(n) | O(n) |
 | 3514 | [Number of Unique XOR Triplets II](../leetcode/3820-number-of-unique-xor-triplets-ii/) | Tree & Graph | C++ | O(n) | O(n) |
 | 3517 | [Smallest Palindromic Rearrangement I](../leetcode/3812-smallest-palindromic-rearrangement-i/) | Tree & Graph | C++ | O(n) | O(n) |
@@ -190,7 +190,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 3705 | [Find Golden Hour Customers](../leetcode/4091-find-golden-hour-customers/) | Array / General | Python | O(n) | O(1) |
 | 3716 | [Find Churn Risk Customers](../leetcode/4103-find-churn-risk-customers/) | Array / General | Python | O(n) | O(1) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](../leetcode/4020-lexicographically-smallest-permutation-greater-than-target/) | Backtracking | C++ | O(n) | O(1) |
-| 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Array / General | Java | O(n) | O(1) |
+| 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Monotonic Stack | Java | O(n) | O(n) |
 | 3742 | [Maximum Path Score in a Grid](../leetcode/3986-maximum-path-score-in-a-grid/) | Tree & Graph | C++ | O(n) | O(n) |
 | 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Array / General | Java | O(n) | O(1) |
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Bit Manipulation | Java | O(n) | O(1) |

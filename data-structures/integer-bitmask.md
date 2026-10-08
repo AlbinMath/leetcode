@@ -11,7 +11,6 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
-| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | Medium | Bitwise Masking & Bit Shift | O(n²) | O(1) |
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |

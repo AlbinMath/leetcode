@@ -1344,14 +1344,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Implement  pow(x, n) , which calculates  x  raised to the power  n  (i.e.,  x n  ).",
     "related_ids": [
       51,
@@ -1370,14 +1373,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "The  n-queens  puzzle is the problem of placing  n  queens on an  n x n  chessboard such that no two queens attack each other.",
     "related_ids": [
       52,
@@ -4269,11 +4275,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Array"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -4295,11 +4302,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Array"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -4506,15 +4514,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "A binary watch has 4 LEDs on the top to represent the hours (0-11), and 6 LEDs on the bottom to represent the minutes (0-59). Each LED represents a zero or one, with the least significant bit on the right.",
     "related_ids": [
       67,
@@ -5360,17 +5370,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree, return  the length of the  diameter  of the tree .",
     "related_ids": [
       94,
@@ -5418,14 +5427,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Monotonic Stack",
+    "algorithm": "Monotonic Stack Filtering",
+    "data_structure": "Stack",
     "topics": [
+      "Stack",
+      "Monotonic Stack",
       "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a string  s  representing an attendance record for a student where each character signifies whether the student was absent, late, or present on that day. The record only contains the following three characters:",
     "related_ids": [
       496,
@@ -5525,17 +5536,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree, return  the sum of every tree node&#39;s  tilt .",
     "related_ids": [
       94,
@@ -6303,17 +6313,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree, return  the average value of the nodes on each level in the form of an array . Answers within  10 -5   of the actual answer will be accepted.",
     "related_ids": [
       94,
@@ -11285,7 +11294,7 @@
     "related_ids": [
       2885,
       38,
-      53
+      50
     ]
   },
   {
@@ -11314,7 +11323,7 @@
     "related_ids": [
       2884,
       38,
-      53
+      50
     ]
   },
   {
@@ -12420,14 +12429,13 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Monotonic Stack",
+    "algorithm": "Monotonic Stack Filtering",
+    "data_structure": "Stack",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Stack",
+      "Monotonic Stack",
+      "Array"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -13154,7 +13162,7 @@
     "related_ids": [
       3586,
       38,
-      53
+      50
     ]
   },
   {
@@ -13735,14 +13743,16 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Monotonic Stack",
+    "algorithm": "Monotonic Stack Filtering",
+    "data_structure": "Stack",
     "topics": [
+      "Stack",
+      "Monotonic Stack",
       "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer array  nums  and an integer  target .",
     "related_ids": [
       3739,

@@ -64,10 +64,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 345 | [Reverse Vowels of a String](../leetcode/0345-reverse-vowels-of-a-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/0345-reverse-vowels-of-a-string/Explanation.md) |
 
-| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/0349-intersection-of-two-arrays/Explanation.md) |
-
-| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0350-intersection-of-two-arrays-ii/Explanation.md) |
-
 | 367 | [Valid Perfect Square](../leetcode/0367-valid-perfect-square/) | Python | O(n) | O(1) | [Explanation](../leetcode/0367-valid-perfect-square/Explanation.md) |
 
 | 374 | [Guess Number Higher or Lower](../leetcode/0374-guess-number-higher-or-lower/) | Python | O(n) | O(1) | [Explanation](../leetcode/0374-guess-number-higher-or-lower/Explanation.md) |
@@ -117,8 +113,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 520 | [Detect Capital](../leetcode/0520-detect-capital/) | Python | O(n) | O(1) | [Explanation](../leetcode/0520-detect-capital/Explanation.md) |
 
 | 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0541-reverse-string-ii/Explanation.md) |
-
-| 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/0551-student-attendance-record-i/Explanation.md) |
 
 | 557 | [Reverse Words in a String III](../leetcode/0557-reverse-words-in-a-string-iii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0557-reverse-words-in-a-string-iii/Explanation.md) |
 
@@ -210,8 +204,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 45 | [Jump Game II](../leetcode/0045-jump-game-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0045-jump-game-ii/Explanation.md) |
 
-| 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Python | O(n) | O(1) | [Explanation](../leetcode/0050-powx-n/Explanation.md) |
-
 | 55 | [Jump Game](../leetcode/0055-jump-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/0055-jump-game/Explanation.md) |
 
 | 72 | [Edit Distance](../leetcode/0072-edit-distance/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0072-edit-distance/Explanation.md) |
@@ -296,8 +288,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 3716 | [Find Churn Risk Customers](../leetcode/4103-find-churn-risk-customers/) | Python | O(n) | O(1) | [Explanation](../leetcode/4103-find-churn-risk-customers/Explanation.md) |
 
-| 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/4074-count-subarrays-with-majority-element-i/Explanation.md) |
-
 | 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/4057-total-waviness-of-numbers-in-range-i/Explanation.md) |
 
 | 3867 | [Sum of GCD of Formed Pairs](../leetcode/4242-sum-of-gcd-of-formed-pairs/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4242-sum-of-gcd-of-formed-pairs/Explanation.md) |
@@ -319,8 +309,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 42 | [Trapping Rain Water](../leetcode/0042-trapping-rain-water/) | Python | O(n) | O(1) | [Explanation](../leetcode/0042-trapping-rain-water/Explanation.md) |
 
 | 44 | [Wildcard Matching](../leetcode/0044-wildcard-matching/) | Python | O(n) | O(1) | [Explanation](../leetcode/0044-wildcard-matching/Explanation.md) |
-
-| 51 | [N-Queens](../leetcode/0051-n-queens/) | Python | O(n) | O(1) | [Explanation](../leetcode/0051-n-queens/Explanation.md) |
 
 | 52 | [N-Queens II](../leetcode/0052-n-queens-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0052-n-queens-ii/Explanation.md) |
 

@@ -17,8 +17,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 43 | [Multiply Strings](../leetcode/0043-multiply-strings/) | Medium | Array / General | O(n) | O(1) |
 | 44 | [Wildcard Matching](../leetcode/0044-wildcard-matching/) | Hard | Array / General | O(n) | O(1) |
 | 45 | [Jump Game II](../leetcode/0045-jump-game-ii/) | Medium | Array / General | O(n) | O(1) |
-| 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Medium | Array / General | O(n) | O(1) |
-| 51 | [N-Queens](../leetcode/0051-n-queens/) | Hard | Array / General | O(n) | O(1) |
 | 52 | [N-Queens II](../leetcode/0052-n-queens-ii/) | Hard | Array / General | O(n) | O(1) |
 | 55 | [Jump Game](../leetcode/0055-jump-game/) | Medium | Array / General | O(n) | O(1) |
 | 65 | [Valid Number](../leetcode/0065-valid-number/) | Hard | Array / General | O(n) | O(1) |
@@ -55,8 +53,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 342 | [Power of Four](../leetcode/0342-power-of-four/) | Easy | Array / General | O(n) | O(1) |
 | 344 | [Reverse String](../leetcode/0344-reverse-string/) | Easy | Array / General | O(n) | O(1) |
 | 345 | [Reverse Vowels of a String](../leetcode/0345-reverse-vowels-of-a-string/) | Easy | Array / General | O(n) | O(1) |
-| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Easy | Array / General | O(n) | O(1) |
-| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Easy | Array / General | O(n) | O(1) |
 | 367 | [Valid Perfect Square](../leetcode/0367-valid-perfect-square/) | Easy | Array / General | O(n) | O(1) |
 | 374 | [Guess Number Higher or Lower](../leetcode/0374-guess-number-higher-or-lower/) | Easy | Array / General | O(n) | O(1) |
 | 383 | [Ransom Note](../leetcode/0383-ransom-note/) | Easy | Array / General | O(n) | O(1) |
@@ -82,7 +78,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 511 | [Game Play Analysis I](../leetcode/1179-game-play-analysis-i/) | Easy | Array / General | O(n) | O(1) |
 | 520 | [Detect Capital](../leetcode/0520-detect-capital/) | Easy | Array / General | O(n) | O(1) |
 | 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Array / General | O(n) | O(1) |
-| 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Easy | Array / General | O(n) | O(1) |
 | 557 | [Reverse Words in a String III](../leetcode/0557-reverse-words-in-a-string-iii/) | Easy | Array / General | O(n) | O(1) |
 | 561 | [Array Partition](../leetcode/0561-array-partition/) | Easy | Array / General | O(n) | O(1) |
 | 570 | [Managers with at Least 5 Direct Reports](../leetcode/0570-managers-with-at-least-5-direct-reports/) | Medium | Array / General | O(n) | O(1) |
@@ -162,7 +157,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 3705 | [Find Golden Hour Customers](../leetcode/4091-find-golden-hour-customers/) | Medium | Array / General | O(n) | O(1) |
 | 3716 | [Find Churn Risk Customers](../leetcode/4103-find-churn-risk-customers/) | Medium | Array / General | O(n) | O(1) |
 | 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Easy | Array / General | O(n) | O(1) |
-| 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Medium | Array / General | O(n) | O(1) |
 | 3739 | [Count Subarrays With Majority Element II](../leetcode/4075-count-subarrays-with-majority-element-ii/) | Hard | Array / General | O(n) | O(1) |
 | 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Medium | Array / General | O(n) | O(1) |
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | Array / General | O(n) | O(1) |

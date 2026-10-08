@@ -16,7 +16,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 41 | [First Missing Positive](../leetcode/0041-first-missing-positive/) | Array / General | Python | O(n) | O(1) |
 | 42 | [Trapping Rain Water](../leetcode/0042-trapping-rain-water/) | Array / General | Python | O(n) | O(1) |
 | 44 | [Wildcard Matching](../leetcode/0044-wildcard-matching/) | Array / General | Python | O(n) | O(1) |
-| 51 | [N-Queens](../leetcode/0051-n-queens/) | Array / General | Python | O(n) | O(1) |
+| 51 | [N-Queens](../leetcode/0051-n-queens/) | Tree & Graph | Python | O(n) | O(n) |
 | 52 | [N-Queens II](../leetcode/0052-n-queens-ii/) | Array / General | Python | O(n) | O(1) |
 | 60 | [Permutation Sequence](../leetcode/0060-permutation-sequence/) | Backtracking | Python | O(n) | O(1) |
 | 65 | [Valid Number](../leetcode/0065-valid-number/) | Array / General | Python | O(n) | O(1) |

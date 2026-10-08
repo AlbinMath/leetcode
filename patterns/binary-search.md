@@ -28,7 +28,13 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0530-minimum-absolute-difference-in-bst/Explanation.md) |
 
+| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0543-diameter-of-binary-tree/Explanation.md) |
+
+| 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Python | O(n) | O(1) | [Explanation](../leetcode/0563-binary-tree-tilt/Explanation.md) |
+
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Elixir | O(n) | O(1) | [Explanation](../leetcode/0628-maximum-product-of-three-numbers/Explanation.md) |
+
+| 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0637-average-of-levels-in-binary-tree/Explanation.md) |
 
 | 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/1256-rank-transform-of-an-array/Explanation.md) |
 

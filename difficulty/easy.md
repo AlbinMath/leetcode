@@ -78,15 +78,15 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 342 | [Power of Four](../leetcode/0342-power-of-four/) | Array / General | Python | O(n) | O(1) |
 | 344 | [Reverse String](../leetcode/0344-reverse-string/) | Array / General | Python | O(n) | O(1) |
 | 345 | [Reverse Vowels of a String](../leetcode/0345-reverse-vowels-of-a-string/) | Array / General | Python | O(n) | O(1) |
-| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Array / General | Python | O(n) | O(1) |
-| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Array / General | Python | O(n) | O(1) |
+| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Linked List | Python | O(n) | O(1) |
+| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Linked List | Python | O(n) | O(1) |
 | 367 | [Valid Perfect Square](../leetcode/0367-valid-perfect-square/) | Array / General | Python | O(n) | O(1) |
 | 374 | [Guess Number Higher or Lower](../leetcode/0374-guess-number-higher-or-lower/) | Array / General | Python | O(n) | O(1) |
 | 383 | [Ransom Note](../leetcode/0383-ransom-note/) | Array / General | Python | O(n) | O(1) |
 | 387 | [First Unique Character in a String](../leetcode/0387-first-unique-character-in-a-string/) | Array / General | Python | O(n) | O(1) |
 | 389 | [Find the Difference](../leetcode/0389-find-the-difference/) | Array / General | Python | O(n) | O(1) |
 | 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Dynamic Programming | Python | O(n) | O(n) |
-| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Bit Manipulation | Python | O(n) | O(1) |
+| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Tree & Graph | Python | O(n) | O(n) |
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Tree & Graph | Python | O(n) | O(n) |
 | 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Hash Map | Python | O(n) | O(n) |
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Two Pointers | Python | O(n) | O(1) |
@@ -117,12 +117,12 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Dynamic Programming | Python | O(n) | O(n) |
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Binary Search | Python | O(n) | O(1) |
 | 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Array / General | Python | O(n) | O(1) |
-| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Tree & Graph | Python | O(n) | O(n) |
-| 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Array / General | Python | O(n) | O(1) |
+| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Binary Search | Python | O(n) | O(1) |
+| 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Monotonic Stack | Python | O(n) | O(n) |
 | 557 | [Reverse Words in a String III](../leetcode/0557-reverse-words-in-a-string-iii/) | Array / General | Python | O(n) | O(1) |
 | 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Tree & Graph | Python | O(n) | O(n) |
 | 561 | [Array Partition](../leetcode/0561-array-partition/) | Array / General | Python | O(n) | O(1) |
-| 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Tree & Graph | Python | O(n) | O(n) |
+| 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Binary Search | Python | O(n) | O(1) |
 | 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Tree & Graph | Python | O(n) | O(n) |
 | 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Tree & Graph | Python | O(n) | O(n) |
 | 575 | [Distribute Candies](../leetcode/0575-distribute-candies/) | Array / General | Python | O(n) | O(1) |
@@ -143,7 +143,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 620 | [Not Boring Movies](../leetcode/0620-not-boring-movies/) | Database / SQL | SQL | O(n) | O(n) |
 | 627 | [Swap Sex of Employees](../leetcode/0627-swap-sex-of-employees/) | Database / SQL | SQL | O(n) | O(n) |
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Binary Search | Elixir | O(n) | O(1) |
-| 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Tree & Graph | Python | O(n) | O(n) |
+| 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Binary Search | Python | O(n) | O(1) |
 | 643 | [Maximum Average Subarray I](../leetcode/0643-maximum-average-subarray-i/) | Array / General | Python | O(n) | O(1) |
 | 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | Array / General | TypeScript | O(n) | O(1) |
 | 657 | [Robot Return to Origin](../leetcode/0657-robot-return-to-origin/) | Array / General | Python | O(n) | O(1) |

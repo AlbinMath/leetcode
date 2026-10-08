@@ -42,8 +42,8 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 46 | [Permutations](../leetcode/0046-permutations/) | Medium | Backtracking | O(n) | O(1) |
 | 47 | [Permutations II](../leetcode/0047-permutations-ii/) | Medium | Backtracking | O(n) | O(1) |
 | 49 | [Group Anagrams](../leetcode/0049-group-anagrams/) | Medium | Hash Map | O(n) | O(n) |
-| 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Medium | Array / General | O(n) | O(1) |
-| 51 | [N-Queens](../leetcode/0051-n-queens/) | Hard | Array / General | O(n) | O(1) |
+| 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Medium | Tree & Graph | O(n) | O(n) |
+| 51 | [N-Queens](../leetcode/0051-n-queens/) | Hard | Tree & Graph | O(n) | O(n) |
 | 52 | [N-Queens II](../leetcode/0052-n-queens-ii/) | Hard | Array / General | O(n) | O(1) |
 | 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Medium | Tree & Graph | O(n) | O(n) |
 | 54 | [Spiral Matrix](../leetcode/0054-spiral-matrix/) | Medium | Tree & Graph | O(n) | O(n) |
@@ -71,15 +71,15 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 342 | [Power of Four](../leetcode/0342-power-of-four/) | Easy | Array / General | O(n) | O(1) |
 | 344 | [Reverse String](../leetcode/0344-reverse-string/) | Easy | Array / General | O(n) | O(1) |
 | 345 | [Reverse Vowels of a String](../leetcode/0345-reverse-vowels-of-a-string/) | Easy | Array / General | O(n) | O(1) |
-| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Easy | Array / General | O(n) | O(1) |
-| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Easy | Array / General | O(n) | O(1) |
+| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Easy | Linked List | O(n) | O(1) |
+| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Easy | Linked List | O(n) | O(1) |
 | 367 | [Valid Perfect Square](../leetcode/0367-valid-perfect-square/) | Easy | Array / General | O(n) | O(1) |
 | 374 | [Guess Number Higher or Lower](../leetcode/0374-guess-number-higher-or-lower/) | Easy | Array / General | O(n) | O(1) |
 | 383 | [Ransom Note](../leetcode/0383-ransom-note/) | Easy | Array / General | O(n) | O(1) |
 | 387 | [First Unique Character in a String](../leetcode/0387-first-unique-character-in-a-string/) | Easy | Array / General | O(n) | O(1) |
 | 389 | [Find the Difference](../leetcode/0389-find-the-difference/) | Easy | Array / General | O(n) | O(1) |
 | 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |
-| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Easy | Bit Manipulation | O(n) | O(1) |
+| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Easy | Tree & Graph | O(n) | O(n) |
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Easy | Tree & Graph | O(n) | O(n) |
 | 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Easy | Hash Map | O(n) | O(n) |
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Easy | Two Pointers | O(n) | O(1) |
@@ -108,13 +108,13 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Easy | Binary Search | O(n) | O(1) |
 | 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Array / General | O(n) | O(1) |
-| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
+| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Medium | Tree & Graph | O(n) | O(n) |
-| 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Easy | Array / General | O(n) | O(1) |
+| 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Easy | Monotonic Stack | O(n) | O(n) |
 | 557 | [Reverse Words in a String III](../leetcode/0557-reverse-words-in-a-string-iii/) | Easy | Array / General | O(n) | O(1) |
 | 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
 | 561 | [Array Partition](../leetcode/0561-array-partition/) | Easy | Array / General | O(n) | O(1) |
-| 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Easy | Tree & Graph | O(n) | O(n) |
+| 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Easy | Binary Search | O(n) | O(1) |
 | 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 570 | [Managers with at Least 5 Direct Reports](../leetcode/0570-managers-with-at-least-5-direct-reports/) | Medium | Array / General | O(n) | O(1) |
 | 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -125,7 +125,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 598 | [Range Addition II](../leetcode/0598-range-addition-ii/) | Easy | Array / General | O(n) | O(1) |
 | 599 | [Minimum Index Sum of Two Lists](../leetcode/0599-minimum-index-sum-of-two-lists/) | Easy | Array / General | O(n) | O(1) |
 | 605 | [Can Place Flowers](../leetcode/0605-can-place-flowers/) | Easy | Array / General | O(n) | O(1) |
-| 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
+| 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 643 | [Maximum Average Subarray I](../leetcode/0643-maximum-average-subarray-i/) | Easy | Array / General | O(n) | O(1) |
 | 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Medium | Binary Search | O(n) | O(1) |
 | 657 | [Robot Return to Origin](../leetcode/0657-robot-return-to-origin/) | Easy | Array / General | O(n) | O(1) |

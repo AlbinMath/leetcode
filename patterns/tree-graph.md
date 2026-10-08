@@ -22,13 +22,11 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0145-binary-tree-postorder-traversal/Explanation.md) |
 
+| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Python | O(n) | O(n) | [Explanation](../leetcode/0401-binary-watch/Explanation.md) |
+
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Python | O(n) | O(n) | [Explanation](../leetcode/0404-sum-of-left-leaves/Explanation.md) |
 
-| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0543-diameter-of-binary-tree/Explanation.md) |
-
 | 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0774-maximum-depth-of-n-ary-tree/Explanation.md) |
-
-| 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Python | O(n) | O(n) | [Explanation](../leetcode/0563-binary-tree-tilt/Explanation.md) |
 
 | 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0566-reshape-the-matrix/Explanation.md) |
 
@@ -37,8 +35,6 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 589 | [N-ary Tree Preorder Traversal](../leetcode/0775-n-ary-tree-preorder-traversal/) | Python | O(n) | O(n) | [Explanation](../leetcode/0775-n-ary-tree-preorder-traversal/Explanation.md) |
 
 | 590 | [N-ary Tree Postorder Traversal](../leetcode/0776-n-ary-tree-postorder-traversal/) | Python | O(n) | O(n) | [Explanation](../leetcode/0776-n-ary-tree-postorder-traversal/Explanation.md) |
-
-| 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0637-average-of-levels-in-binary-tree/Explanation.md) |
 
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Racket | O(n) | O(n) | [Explanation](../leetcode/1386-shift-2d-grid/Explanation.md) |
 
@@ -63,6 +59,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 38 | [Count and Say](../leetcode/0038-count-and-say/) | Python | O(n) | O(n) | [Explanation](../leetcode/0038-count-and-say/Explanation.md) |
+
+| 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Python | O(n) | O(n) | [Explanation](../leetcode/0050-powx-n/Explanation.md) |
 
 | 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Python | O(n) | O(n) | [Explanation](../leetcode/0053-maximum-subarray/Explanation.md) |
 
@@ -108,8 +106,6 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 3310 | [Remove Methods From Project](../leetcode/3561-remove-methods-from-project/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3561-remove-methods-from-project/Explanation.md) |
 
-| 3499 | [Maximize Active Section with Trade I](../leetcode/3805-maximize-active-section-with-trade-i/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3805-maximize-active-section-with-trade-i/Explanation.md) |
-
 | 3513 | [Number of Unique XOR Triplets I](../leetcode/3824-number-of-unique-xor-triplets-i/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3824-number-of-unique-xor-triplets-i/Explanation.md) |
 
 | 3514 | [Number of Unique XOR Triplets II](../leetcode/3820-number-of-unique-xor-triplets-ii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3820-number-of-unique-xor-triplets-ii/Explanation.md) |
@@ -128,6 +124,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 51 | [N-Queens](../leetcode/0051-n-queens/) | Python | O(n) | O(n) | [Explanation](../leetcode/0051-n-queens/Explanation.md) |
+
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Python | O(n) | O(n) | [Explanation](../leetcode/1968-maximum-building-height/Explanation.md) |
 
 | 3518 | [Smallest Palindromic Rearrangement II](../leetcode/3813-smallest-palindromic-rearrangement-ii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3813-smallest-palindromic-rearrangement-ii/Explanation.md) |

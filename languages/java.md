@@ -35,6 +35,6 @@ A collection of LeetCode problems implemented in **Java** with detailed complexi
 | 3635 | [Earliest Finish Time for Land and Water Rides II](../leetcode/3967-earliest-finish-time-for-land-and-water-rides-ii/) | Medium | Array / General | O(n) | O(1) |
 | 3689 | [Maximum Total Subarray Value I](../leetcode/4005-maximum-total-subarray-value-i/) | Medium | Binary Search | O(n) | O(1) |
 | 3734 | [Lexicographically Smallest Palindromic Permutation Greater Than Target](../leetcode/4037-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard | Backtracking | O(n) | O(1) |
-| 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Medium | Array / General | O(n) | O(1) |
+| 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Medium | Monotonic Stack | O(n) | O(n) |
 | 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Medium | Array / General | O(n) | O(1) |
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | Bit Manipulation | O(n) | O(1) |

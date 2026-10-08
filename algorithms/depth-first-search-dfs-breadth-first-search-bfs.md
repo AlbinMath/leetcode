@@ -7,6 +7,8 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
 | 38 | [Count and Say](../leetcode/0038-count-and-say/) | Medium | Tree & Graph | O(n) | O(n) |
+| 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Medium | Tree & Graph | O(n) | O(n) |
+| 51 | [N-Queens](../leetcode/0051-n-queens/) | Hard | Tree & Graph | O(n) | O(n) |
 | 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Medium | Tree & Graph | O(n) | O(n) |
 | 54 | [Spiral Matrix](../leetcode/0054-spiral-matrix/) | Medium | Tree & Graph | O(n) | O(n) |
 | 59 | [Spiral Matrix II](../leetcode/0059-spiral-matrix-ii/) | Medium | Tree & Graph | O(n) | O(n) |
@@ -23,16 +25,14 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 112 | [Path Sum](../leetcode/0112-path-sum/) | Easy | Tree & Graph | O(n) | O(n) |
 | 144 | [Binary Tree Preorder Traversal](../leetcode/0144-binary-tree-preorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
 | 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
+| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Easy | Tree & Graph | O(n) | O(n) |
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Easy | Tree & Graph | O(n) | O(n) |
-| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Medium | Tree & Graph | O(n) | O(n) |
 | 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
-| 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Easy | Tree & Graph | O(n) | O(n) |
 | 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Easy | Tree & Graph | O(n) | O(n) |
 | 589 | [N-ary Tree Preorder Traversal](../leetcode/0775-n-ary-tree-preorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
 | 590 | [N-ary Tree Postorder Traversal](../leetcode/0776-n-ary-tree-postorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
-| 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
 | 877 | [Stone Game](../leetcode/0909-stone-game/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1306 | [Jump Game III](../leetcode/1428-jump-game-iii/) | Medium | Tree & Graph | O(n) | O(n) |
@@ -53,7 +53,6 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 3286 | [Find a Safe Walk Through a Grid](../leetcode/3558-find-a-safe-walk-through-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3310 | [Remove Methods From Project](../leetcode/3561-remove-methods-from-project/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3345 | [Smallest Divisible Digit Product I](../leetcode/3626-smallest-divisible-digit-product-i/) | Easy | Tree & Graph | O(n) | O(n) |
-| 3499 | [Maximize Active Section with Trade I](../leetcode/3805-maximize-active-section-with-trade-i/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3513 | [Number of Unique XOR Triplets I](../leetcode/3824-number-of-unique-xor-triplets-i/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3514 | [Number of Unique XOR Triplets II](../leetcode/3820-number-of-unique-xor-triplets-ii/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3517 | [Smallest Palindromic Rearrangement I](../leetcode/3812-smallest-palindromic-rearrangement-i/) | Medium | Tree & Graph | O(n) | O(n) |

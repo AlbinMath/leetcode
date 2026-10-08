@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2885. Rename Columns](../3068-rename-columns/)
 - [38. Count and Say](../0038-count-and-say/)
-- [53. Maximum Subarray](../0053-maximum-subarray/)
+- [50. Pow(x, n)](../0050-powx-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/modify-columns/)
