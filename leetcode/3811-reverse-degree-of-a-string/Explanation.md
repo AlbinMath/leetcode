@@ -70,9 +70,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [7. Reverse Integer](../0007-reverse-integer/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
+- [344. Reverse String](../0344-reverse-string/)
+- [345. Reverse Vowels of a String](../0345-reverse-vowels-of-a-string/)
+- [541. Reverse String II](../0541-reverse-string-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-degree-of-a-string/)

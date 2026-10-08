@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3751. Total Waviness of Numbers in Range I](../4057-total-waviness-of-numbers-in-range-i/)
+- [598. Range Addition II](../0598-range-addition-ii/)
 - [3691. Maximum Total Subarray Value II](../4007-maximum-total-subarray-value-ii/)
-- [3871. Count Commas in Range II](../4248-count-commas-in-range-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/)

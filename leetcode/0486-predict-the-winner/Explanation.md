@@ -74,7 +74,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [10. Regular Expression Matching](../0010-regular-expression-matching/)
 - [115. Distinct Subsequences](../0115-distinct-subsequences/)
-- [940. Distinct Subsequences II](../0977-distinct-subsequences-ii/)
+- [392. Is Subsequence](../0392-is-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/predict-the-winner/)

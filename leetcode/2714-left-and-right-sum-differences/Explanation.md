@@ -63,9 +63,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [404. Sum of Left Leaves](../0404-sum-of-left-leaves/)
 - [1. Two Sum](../0001-two-sum/)
 - [39. Combination Sum](../0039-combination-sum/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/left-and-right-sum-differences/)

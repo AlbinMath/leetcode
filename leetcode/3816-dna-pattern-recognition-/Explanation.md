@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [290. Word Pattern](../0290-word-pattern/)
+- [459. Repeated Substring Pattern](../0459-repeated-substring-pattern/)
 - [3617. Find Students with Study Spiral Pattern](../3961-find-students-with-study-spiral-pattern/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/dna-pattern-recognition/)

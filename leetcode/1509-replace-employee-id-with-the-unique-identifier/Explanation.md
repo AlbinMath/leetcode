@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [62. Unique Paths](../0062-unique-paths/)
 - [63. Unique Paths II](../0063-unique-paths-ii/)
-- [577. Employee Bonus](../0577-employee-bonus/)
+- [387. First Unique Character in a String](../0387-first-unique-character-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)

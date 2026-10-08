@@ -76,6 +76,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 608 | [Tree Node](../leetcode/0608-tree-node/) | Database / SQL | SQL | O(n) | O(n) |
 | 626 | [Exchange Seats](../leetcode/0626-exchange-seats/) | Database / SQL | SQL | O(n) | O(n) |
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | Stack & Queue | TypeScript | O(n) | O(n) |
+| 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Binary Search | Python | O(n) | O(1) |
 | 678 | [Valid Parenthesis String](../leetcode/0678-valid-parenthesis-string/) | Array / General | Python | O(n) | O(1) |
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | Monotonic Stack | TypeScript | O(n) | O(n) |
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | Binary Search | C++ | O(n) | O(1) |

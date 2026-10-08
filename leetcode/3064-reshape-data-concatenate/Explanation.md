@@ -65,7 +65,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [2889. Reshape Data: Pivot](../3072-reshape-data-pivot/)
 - [2890. Reshape Data: Melt](../3073-reshape-data-melt/)
-- [2880. Select Data](../3074-select-data/)
+- [566. Reshape the Matrix](../0566-reshape-the-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reshape-data-concatenate/)

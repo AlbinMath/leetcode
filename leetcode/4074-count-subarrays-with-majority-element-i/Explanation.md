@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3739. Count Subarrays With Majority Element II](../4075-count-subarrays-with-majority-element-ii/)
 - [169. Majority Element](../0169-majority-element/)
-- [3120. Count the Number of Special Characters I](../3408-count-the-number-of-special-characters-i/)
+- [496. Next Greater Element I](../0496-next-greater-element-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-majority-element-i/)

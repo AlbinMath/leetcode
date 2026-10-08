@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [511. Game Play Analysis I](../1179-game-play-analysis-i/)
 - [1068. Product Sales Analysis I](../1153-product-sales-analysis-i/)
-- [550. Game Play Analysis IV](../1182-game-play-analysis-iv/)
+- [496. Next Greater Element I](../0496-next-greater-element-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/market-analysis-i/)

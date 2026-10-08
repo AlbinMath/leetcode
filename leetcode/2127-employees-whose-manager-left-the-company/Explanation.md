@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
+- [404. Sum of Left Leaves](../0404-sum-of-left-leaves/)
 - [627. Swap Sex of Employees](../0627-swap-sex-of-employees/)
-- [1075. Project Employees I](../1161-project-employees-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-whose-manager-left-the-company/)

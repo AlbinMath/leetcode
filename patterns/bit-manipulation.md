@@ -8,6 +8,12 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0190-reverse-bits/Explanation.md) |
+
+| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Python | O(n) | O(1) | [Explanation](../leetcode/0401-binary-watch/Explanation.md) |
+
+| 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Python | O(n) | O(1) | [Explanation](../leetcode/0461-hamming-distance/Explanation.md) |
+
 | 2723 | [Add Two Promises](../leetcode/2859-add-two-promises/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2859-add-two-promises/Explanation.md) |
 
 | 2880 | [Select Data](../leetcode/3074-select-data/) | Python | O(n) | O(1) | [Explanation](../leetcode/3074-select-data/Explanation.md) |

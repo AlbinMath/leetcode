@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [185. Department Top Three Salaries](../0185-department-top-three-salaries/)
 - [231. Power of Two](../0231-power-of-two/)
-- [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
+- [342. Power of Four](../0342-power-of-four/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-of-three/)

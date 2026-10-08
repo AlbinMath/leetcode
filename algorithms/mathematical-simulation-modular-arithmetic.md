@@ -11,6 +11,7 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 118 | [Pascal's Triangle](../leetcode/0118-pascals-triangle/) | Easy | Math & Logic | O(n) | O(1) |
 | 119 | [Pascal's Triangle II](../leetcode/0119-pascals-triangle-ii/) | Easy | Math & Logic | O(n) | O(1) |
 | 258 | [Add Digits](../leetcode/0258-add-digits/) | Easy | Math & Logic | O(n) | O(1) |
+| 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Easy | Math & Logic | O(n) | O(1) |
 | 796 | [Rotate String](../leetcode/0812-rotate-string/) | Easy | Math & Logic | O(n) | O(1) |
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Easy | Math & Logic | O(n) | O(1) |
 | 1344 | [Angle Between Hands of a Clock](../leetcode/1446-angle-between-hands-of-a-clock/) | Medium | Math & Logic | O(n) | O(1) |

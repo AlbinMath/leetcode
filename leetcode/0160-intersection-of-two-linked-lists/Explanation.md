@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [21. Merge Two Sorted Lists](../0021-merge-two-sorted-lists/)
-- [1. Two Sum](../0001-two-sum/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
+- [349. Intersection of Two Arrays](../0349-intersection-of-two-arrays/)
+- [350. Intersection of Two Arrays II](../0350-intersection-of-two-arrays-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/)

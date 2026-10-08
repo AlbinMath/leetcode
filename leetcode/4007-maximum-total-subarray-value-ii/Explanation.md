@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3689. Maximum Total Subarray Value I](../4005-maximum-total-subarray-value-i/)
 - [53. Maximum Subarray](../0053-maximum-subarray/)
-- [3525. Find X Value of Array II](../3840-find-x-value-of-array-ii/)
+- [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-subarray-value-ii/)

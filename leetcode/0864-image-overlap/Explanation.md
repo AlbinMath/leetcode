@@ -70,8 +70,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [48. Rotate Image](../0048-rotate-image/)
+- [661. Image Smoother](../0661-image-smoother/)
 - [836. Rectangle Overlap](../0866-rectangle-overlap/)
-- [7. Reverse Integer](../0007-reverse-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/image-overlap/)

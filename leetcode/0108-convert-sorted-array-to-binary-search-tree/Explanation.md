@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
 - [81. Search in Rotated Sorted Array II](../0081-search-in-rotated-sorted-array-ii/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [501. Find Mode in Binary Search Tree](../0501-find-mode-in-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)

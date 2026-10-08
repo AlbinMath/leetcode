@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2888. Reshape Data: Concatenate](../3064-reshape-data-concatenate/)
 - [2890. Reshape Data: Melt](../3073-reshape-data-melt/)
-- [2161. Partition Array According to Given Pivot](../2265-partition-array-according-to-given-pivot/)
+- [566. Reshape the Matrix](../0566-reshape-the-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reshape-data-pivot/)

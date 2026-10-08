@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3501. Maximize Active Section with Trade II](../3804-maximize-active-section-with-trade-ii/)
+- [496. Next Greater Element I](../0496-next-greater-element-i/)
 - [511. Game Play Analysis I](../1179-game-play-analysis-i/)
-- [1068. Product Sales Analysis I](../1153-product-sales-analysis-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-active-section-with-trade-i/)

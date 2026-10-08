@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [63. Unique Paths II](../0063-unique-paths-ii/)
 - [257. Binary Tree Paths](../0257-binary-tree-paths/)
-- [1301. Number of Paths with Max Score](../1234-number-of-paths-with-max-score/)
+- [387. First Unique Character in a String](../0387-first-unique-character-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-paths/)

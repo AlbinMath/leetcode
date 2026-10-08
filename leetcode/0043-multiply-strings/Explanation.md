@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [205. Isomorphic Strings](../0205-isomorphic-strings/)
+- [415. Add Strings](../0415-add-strings/)
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [1967. Number of Strings That Appear as Substrings in Word](../2099-number-of-strings-that-appear-as-substrings-in-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/multiply-strings/)

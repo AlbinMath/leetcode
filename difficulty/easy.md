@@ -47,6 +47,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 181 | [Employees Earning More Than Their Managers](../leetcode/0181-employees-earning-more-than-their-managers/) | Database / SQL | SQL | O(n) | O(n) |
 | 182 | [Duplicate Emails](../leetcode/0182-duplicate-emails/) | Database / SQL | SQL | O(n) | O(n) |
 | 183 | [Customers Who Never Order](../leetcode/0183-customers-who-never-order/) | Database / SQL | SQL | O(n) | O(n) |
+| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Bit Manipulation | Python | O(n) | O(1) |
 | 193 | [Valid Phone Numbers](../leetcode/0193-valid-phone-numbers/) | Array / General | Shell | O(n) | O(1) |
 | 195 | [Tenth Line](../leetcode/0195-tenth-line/) | Array / General | Shell | O(n) | O(1) |
 | 196 | [Delete Duplicate Emails](../leetcode/0196-delete-duplicate-emails/) | Database / SQL | SQL | O(n) | O(n) |
@@ -74,23 +75,82 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 292 | [Nim Game](../leetcode/0292-nim-game/) | Array / General | C++ | O(n) | O(1) |
 | 326 | [Power of Three](../leetcode/0326-power-of-three/) | Array / General | C++ | O(n) | O(1) |
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Binary Search | C++ | O(n) | O(1) |
+| 342 | [Power of Four](../leetcode/0342-power-of-four/) | Array / General | Python | O(n) | O(1) |
+| 344 | [Reverse String](../leetcode/0344-reverse-string/) | Array / General | Python | O(n) | O(1) |
+| 345 | [Reverse Vowels of a String](../leetcode/0345-reverse-vowels-of-a-string/) | Array / General | Python | O(n) | O(1) |
+| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Array / General | Python | O(n) | O(1) |
+| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Array / General | Python | O(n) | O(1) |
+| 367 | [Valid Perfect Square](../leetcode/0367-valid-perfect-square/) | Array / General | Python | O(n) | O(1) |
+| 374 | [Guess Number Higher or Lower](../leetcode/0374-guess-number-higher-or-lower/) | Array / General | Python | O(n) | O(1) |
+| 383 | [Ransom Note](../leetcode/0383-ransom-note/) | Array / General | Python | O(n) | O(1) |
+| 387 | [First Unique Character in a String](../leetcode/0387-first-unique-character-in-a-string/) | Array / General | Python | O(n) | O(1) |
+| 389 | [Find the Difference](../leetcode/0389-find-the-difference/) | Array / General | Python | O(n) | O(1) |
+| 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Dynamic Programming | Python | O(n) | O(n) |
+| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Bit Manipulation | Python | O(n) | O(1) |
+| 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Tree & Graph | Python | O(n) | O(n) |
+| 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Hash Map | Python | O(n) | O(n) |
+| 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Two Pointers | Python | O(n) | O(1) |
+| 412 | [Fizz Buzz](../leetcode/0412-fizz-buzz/) | Array / General | Python | O(n) | O(1) |
+| 414 | [Third Maximum Number](../leetcode/0414-third-maximum-number/) | Array / General | Python | O(n) | O(1) |
+| 415 | [Add Strings](../leetcode/0415-add-strings/) | Array / General | Python | O(n) | O(1) |
+| 434 | [Number of Segments in a String](../leetcode/0434-number-of-segments-in-a-string/) | Array / General | Python | O(n) | O(1) |
+| 441 | [Arranging Coins](../leetcode/0441-arranging-coins/) | Array / General | Python | O(n) | O(1) |
 | 448 | [Find All Numbers Disappeared in an Array](../leetcode/0448-find-all-numbers-disappeared-in-an-array/) | Array / General | TypeScript | O(n) | O(1) |
+| 455 | [Assign Cookies](../leetcode/0455-assign-cookies/) | Array / General | Python | O(n) | O(1) |
+| 459 | [Repeated Substring Pattern](../leetcode/0459-repeated-substring-pattern/) | Array / General | Python | O(n) | O(1) |
+| 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Bit Manipulation | Python | O(n) | O(1) |
+| 463 | [Island Perimeter](../leetcode/0463-island-perimeter/) | Array / General | Python | O(n) | O(1) |
+| 476 | [Number Complement](../leetcode/0476-number-complement/) | Hash Map | Python | O(n) | O(n) |
+| 482 | [License Key Formatting](../leetcode/0482-license-key-formatting/) | Array / General | Python | O(n) | O(1) |
 | 485 | [Max Consecutive Ones](../leetcode/0485-max-consecutive-ones/) | Array / General | TypeScript | O(n) | O(1) |
+| 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Math & Logic | Python | O(n) | O(1) |
+| 495 | [Teemo Attacking](../leetcode/0495-teemo-attacking/) | Array / General | Python | O(n) | O(1) |
+| 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Monotonic Stack | Python | O(n) | O(n) |
+| 500 | [Keyboard Row](../leetcode/0500-keyboard-row/) | Array / General | Python | O(n) | O(1) |
+| 501 | [Find Mode in Binary Search Tree](../leetcode/0501-find-mode-in-binary-search-tree/) | Binary Search | Python | O(n) | O(1) |
+| 504 | [Base 7](../leetcode/0504-base-7/) | Array / General | Python | O(n) | O(1) |
+| 506 | [Relative Ranks](../leetcode/0506-relative-ranks/) | Array / General | Python | O(n) | O(1) |
+| 507 | [Perfect Number](../leetcode/0507-perfect-number/) | Array / General | Python | O(n) | O(1) |
+| 509 | [Fibonacci Number](../leetcode/1013-fibonacci-number/) | Array / General | Python | O(n) | O(1) |
 | 511 | [Game Play Analysis I](../leetcode/1179-game-play-analysis-i/) | Array / General | Python | O(n) | O(1) |
+| 520 | [Detect Capital](../leetcode/0520-detect-capital/) | Array / General | Python | O(n) | O(1) |
+| 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Dynamic Programming | Python | O(n) | O(n) |
+| 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Binary Search | Python | O(n) | O(1) |
+| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Array / General | Python | O(n) | O(1) |
+| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Tree & Graph | Python | O(n) | O(n) |
+| 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Array / General | Python | O(n) | O(1) |
+| 557 | [Reverse Words in a String III](../leetcode/0557-reverse-words-in-a-string-iii/) | Array / General | Python | O(n) | O(1) |
+| 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Tree & Graph | Python | O(n) | O(n) |
+| 561 | [Array Partition](../leetcode/0561-array-partition/) | Array / General | Python | O(n) | O(1) |
+| 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Tree & Graph | Python | O(n) | O(n) |
+| 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Tree & Graph | Python | O(n) | O(n) |
+| 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Tree & Graph | Python | O(n) | O(n) |
+| 575 | [Distribute Candies](../leetcode/0575-distribute-candies/) | Array / General | Python | O(n) | O(1) |
 | 577 | [Employee Bonus](../leetcode/0577-employee-bonus/) | Database / SQL | SQL | O(n) | O(n) |
 | 584 | [Find Customer Referee](../leetcode/0584-find-customer-referee/) | Database / SQL | SQL | O(n) | O(n) |
 | 586 | [Customer Placing the Largest Number of Orders](../leetcode/0586-customer-placing-the-largest-number-of-orders/) | Database / SQL | SQL | O(n) | O(n) |
+| 589 | [N-ary Tree Preorder Traversal](../leetcode/0775-n-ary-tree-preorder-traversal/) | Tree & Graph | Python | O(n) | O(n) |
+| 590 | [N-ary Tree Postorder Traversal](../leetcode/0776-n-ary-tree-postorder-traversal/) | Tree & Graph | Python | O(n) | O(n) |
+| 594 | [Longest Harmonious Subsequence](../leetcode/0594-longest-harmonious-subsequence/) | Dynamic Programming | Python | O(n) | O(n) |
 | 595 | [Big Countries](../leetcode/0595-big-countries/) | Database / SQL | SQL | O(n) | O(n) |
 | 596 | [Classes With at Least 5 Students](../leetcode/0596-classes-with-at-least-5-students/) | Database / SQL | SQL | O(n) | O(n) |
+| 598 | [Range Addition II](../leetcode/0598-range-addition-ii/) | Array / General | Python | O(n) | O(1) |
+| 599 | [Minimum Index Sum of Two Lists](../leetcode/0599-minimum-index-sum-of-two-lists/) | Array / General | Python | O(n) | O(1) |
+| 605 | [Can Place Flowers](../leetcode/0605-can-place-flowers/) | Array / General | Python | O(n) | O(1) |
 | 607 | [Sales Person](../leetcode/0607-sales-person/) | Database / SQL | SQL | O(n) | O(n) |
 | 610 | [Triangle Judgement](../leetcode/0610-triangle-judgement/) | Database / SQL | SQL | O(n) | O(n) |
 | 619 | [Biggest Single Number](../leetcode/0619-biggest-single-number/) | Database / SQL | SQL | O(n) | O(n) |
 | 620 | [Not Boring Movies](../leetcode/0620-not-boring-movies/) | Database / SQL | SQL | O(n) | O(n) |
 | 627 | [Swap Sex of Employees](../leetcode/0627-swap-sex-of-employees/) | Database / SQL | SQL | O(n) | O(n) |
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Binary Search | Elixir | O(n) | O(1) |
+| 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Tree & Graph | Python | O(n) | O(n) |
+| 643 | [Maximum Average Subarray I](../leetcode/0643-maximum-average-subarray-i/) | Array / General | Python | O(n) | O(1) |
 | 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | Array / General | TypeScript | O(n) | O(1) |
+| 657 | [Robot Return to Origin](../leetcode/0657-robot-return-to-origin/) | Array / General | Python | O(n) | O(1) |
+| 661 | [Image Smoother](../leetcode/0661-image-smoother/) | Array / General | Python | O(n) | O(1) |
 | 796 | [Rotate String](../leetcode/0812-rotate-string/) | Math & Logic | C++ | O(n) | O(1) |
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Math & Logic | JavaScript | O(n) | O(1) |
+| 1021 | [Remove Outermost Parentheses](../leetcode/1078-remove-outermost-parentheses/) | Stack & Queue | Python | O(n) | O(n) |
 | 1050 | [Actors and Directors Who Cooperated At Least Three Times](../leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/) | Database / SQL | SQL | O(n) | O(n) |
 | 1068 | [Product Sales Analysis I](../leetcode/1153-product-sales-analysis-i/) | Database / SQL | SQL | O(n) | O(n) |
 | 1075 | [Project Employees I](../leetcode/1161-project-employees-i/) | Database / SQL | SQL | O(n) | O(n) |

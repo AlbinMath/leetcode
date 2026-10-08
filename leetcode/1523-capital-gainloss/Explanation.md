@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [520. Detect Capital](../0520-detect-capital/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
 - [176. Second Highest Salary](../0176-second-highest-salary/)
-- [177. Nth Highest Salary](../0177-nth-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/capital-gainloss/)

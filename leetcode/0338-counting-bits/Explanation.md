@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [190. Reverse Bits](../0190-reverse-bits/)
 - [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
 - [15. 3Sum](../0015-3sum/)
-- [16. 3Sum Closest](../0016-3sum-closest/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/counting-bits/)

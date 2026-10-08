@@ -8,6 +8,8 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/0496-next-greater-element-i/Explanation.md) |
+
 | 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/Explanation.md) |
 
 ### Medium

@@ -9,7 +9,10 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 7 | [Reverse Integer](../leetcode/0007-reverse-integer/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 8 | [String to Integer (atoi)](../leetcode/0008-string-to-integer-atoi/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Medium | Bit Manipulation | O(n) | O(1) |
+| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | Medium | Bit Manipulation | O(n) | O(1) |
+| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Easy | Bit Manipulation | O(n) | O(1) |
+| 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | Medium | Bit Manipulation | O(n²) | O(1) |
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 2723 | [Add Two Promises](../leetcode/2859-add-two-promises/) | Easy | Bit Manipulation | O(n) | O(1) |

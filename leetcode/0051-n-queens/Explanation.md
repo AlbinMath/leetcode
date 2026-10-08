@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [52. N-Queens II](../0052-n-queens-ii/)
 - [50. Pow(x, n)](../0050-powx-n/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [559. Maximum Depth of N-ary Tree](../0774-maximum-depth-of-n-ary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/n-queens/)

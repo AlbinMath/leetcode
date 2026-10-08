@@ -12,6 +12,8 @@ LeetCode problems solved using **Dictionary / Hash Map** data structures.
 | 192 | [Word Frequency](../leetcode/0192-word-frequency/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 290 | [Word Pattern](../leetcode/0290-word-pattern/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 476 | [Number Complement](../leetcode/0476-number-complement/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |

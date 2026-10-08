@@ -22,6 +22,24 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0145-binary-tree-postorder-traversal/Explanation.md) |
 
+| 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Python | O(n) | O(n) | [Explanation](../leetcode/0404-sum-of-left-leaves/Explanation.md) |
+
+| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0543-diameter-of-binary-tree/Explanation.md) |
+
+| 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0774-maximum-depth-of-n-ary-tree/Explanation.md) |
+
+| 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Python | O(n) | O(n) | [Explanation](../leetcode/0563-binary-tree-tilt/Explanation.md) |
+
+| 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0566-reshape-the-matrix/Explanation.md) |
+
+| 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0572-subtree-of-another-tree/Explanation.md) |
+
+| 589 | [N-ary Tree Preorder Traversal](../leetcode/0775-n-ary-tree-preorder-traversal/) | Python | O(n) | O(n) | [Explanation](../leetcode/0775-n-ary-tree-preorder-traversal/Explanation.md) |
+
+| 590 | [N-ary Tree Postorder Traversal](../leetcode/0776-n-ary-tree-postorder-traversal/) | Python | O(n) | O(n) | [Explanation](../leetcode/0776-n-ary-tree-postorder-traversal/Explanation.md) |
+
+| 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0637-average-of-levels-in-binary-tree/Explanation.md) |
+
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Racket | O(n) | O(n) | [Explanation](../leetcode/1386-shift-2d-grid/Explanation.md) |
 
 | 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/Explanation.md) |

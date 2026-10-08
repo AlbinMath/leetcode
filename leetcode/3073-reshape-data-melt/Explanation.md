@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [2888. Reshape Data: Concatenate](../3064-reshape-data-concatenate/)
 - [2889. Reshape Data: Pivot](../3072-reshape-data-pivot/)
-- [2880. Select Data](../3074-select-data/)
+- [566. Reshape the Matrix](../0566-reshape-the-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reshape-data-melt/)

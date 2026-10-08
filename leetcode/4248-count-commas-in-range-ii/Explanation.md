@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3870. Count Commas in Range](../4245-count-commas-in-range/)
+- [598. Range Addition II](../0598-range-addition-ii/)
 - [3739. Count Subarrays With Majority Element II](../4075-count-subarrays-with-majority-element-ii/)
-- [3753. Total Waviness of Numbers in Range II](../4128-total-waviness-of-numbers-in-range-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-commas-in-range-ii/)

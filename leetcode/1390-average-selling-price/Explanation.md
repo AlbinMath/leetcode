@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [637. Average of Levels in Binary Tree](../0637-average-of-levels-in-binary-tree/)
+- [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
 - [1164. Product Price at a Given Date](../1278-product-price-at-a-given-date/)
-- [1661. Average Time of Process per Machine](../1801-average-time-of-process-per-machine/)
-- [2265. Count Nodes Equal to Average of Subtree](../2347-count-nodes-equal-to-average-of-subtree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-selling-price/)

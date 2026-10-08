@@ -58,13 +58,87 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 326 | [Power of Three](../leetcode/0326-power-of-three/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0326-power-of-three/Explanation.md) |
 
+| 342 | [Power of Four](../leetcode/0342-power-of-four/) | Python | O(n) | O(1) | [Explanation](../leetcode/0342-power-of-four/Explanation.md) |
+
+| 344 | [Reverse String](../leetcode/0344-reverse-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/0344-reverse-string/Explanation.md) |
+
+| 345 | [Reverse Vowels of a String](../leetcode/0345-reverse-vowels-of-a-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/0345-reverse-vowels-of-a-string/Explanation.md) |
+
+| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/0349-intersection-of-two-arrays/Explanation.md) |
+
+| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0350-intersection-of-two-arrays-ii/Explanation.md) |
+
+| 367 | [Valid Perfect Square](../leetcode/0367-valid-perfect-square/) | Python | O(n) | O(1) | [Explanation](../leetcode/0367-valid-perfect-square/Explanation.md) |
+
+| 374 | [Guess Number Higher or Lower](../leetcode/0374-guess-number-higher-or-lower/) | Python | O(n) | O(1) | [Explanation](../leetcode/0374-guess-number-higher-or-lower/Explanation.md) |
+
+| 383 | [Ransom Note](../leetcode/0383-ransom-note/) | Python | O(n) | O(1) | [Explanation](../leetcode/0383-ransom-note/Explanation.md) |
+
+| 387 | [First Unique Character in a String](../leetcode/0387-first-unique-character-in-a-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/0387-first-unique-character-in-a-string/Explanation.md) |
+
+| 389 | [Find the Difference](../leetcode/0389-find-the-difference/) | Python | O(n) | O(1) | [Explanation](../leetcode/0389-find-the-difference/Explanation.md) |
+
+| 412 | [Fizz Buzz](../leetcode/0412-fizz-buzz/) | Python | O(n) | O(1) | [Explanation](../leetcode/0412-fizz-buzz/Explanation.md) |
+
+| 414 | [Third Maximum Number](../leetcode/0414-third-maximum-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/0414-third-maximum-number/Explanation.md) |
+
+| 415 | [Add Strings](../leetcode/0415-add-strings/) | Python | O(n) | O(1) | [Explanation](../leetcode/0415-add-strings/Explanation.md) |
+
+| 434 | [Number of Segments in a String](../leetcode/0434-number-of-segments-in-a-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/0434-number-of-segments-in-a-string/Explanation.md) |
+
+| 441 | [Arranging Coins](../leetcode/0441-arranging-coins/) | Python | O(n) | O(1) | [Explanation](../leetcode/0441-arranging-coins/Explanation.md) |
+
 | 448 | [Find All Numbers Disappeared in an Array](../leetcode/0448-find-all-numbers-disappeared-in-an-array/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/0448-find-all-numbers-disappeared-in-an-array/Explanation.md) |
+
+| 455 | [Assign Cookies](../leetcode/0455-assign-cookies/) | Python | O(n) | O(1) | [Explanation](../leetcode/0455-assign-cookies/Explanation.md) |
+
+| 459 | [Repeated Substring Pattern](../leetcode/0459-repeated-substring-pattern/) | Python | O(n) | O(1) | [Explanation](../leetcode/0459-repeated-substring-pattern/Explanation.md) |
+
+| 463 | [Island Perimeter](../leetcode/0463-island-perimeter/) | Python | O(n) | O(1) | [Explanation](../leetcode/0463-island-perimeter/Explanation.md) |
+
+| 482 | [License Key Formatting](../leetcode/0482-license-key-formatting/) | Python | O(n) | O(1) | [Explanation](../leetcode/0482-license-key-formatting/Explanation.md) |
 
 | 485 | [Max Consecutive Ones](../leetcode/0485-max-consecutive-ones/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/0485-max-consecutive-ones/Explanation.md) |
 
+| 495 | [Teemo Attacking](../leetcode/0495-teemo-attacking/) | Python | O(n) | O(1) | [Explanation](../leetcode/0495-teemo-attacking/Explanation.md) |
+
+| 500 | [Keyboard Row](../leetcode/0500-keyboard-row/) | Python | O(n) | O(1) | [Explanation](../leetcode/0500-keyboard-row/Explanation.md) |
+
+| 504 | [Base 7](../leetcode/0504-base-7/) | Python | O(n) | O(1) | [Explanation](../leetcode/0504-base-7/Explanation.md) |
+
+| 506 | [Relative Ranks](../leetcode/0506-relative-ranks/) | Python | O(n) | O(1) | [Explanation](../leetcode/0506-relative-ranks/Explanation.md) |
+
+| 507 | [Perfect Number](../leetcode/0507-perfect-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/0507-perfect-number/Explanation.md) |
+
+| 509 | [Fibonacci Number](../leetcode/1013-fibonacci-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/1013-fibonacci-number/Explanation.md) |
+
 | 511 | [Game Play Analysis I](../leetcode/1179-game-play-analysis-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/1179-game-play-analysis-i/Explanation.md) |
 
+| 520 | [Detect Capital](../leetcode/0520-detect-capital/) | Python | O(n) | O(1) | [Explanation](../leetcode/0520-detect-capital/Explanation.md) |
+
+| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0541-reverse-string-ii/Explanation.md) |
+
+| 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/0551-student-attendance-record-i/Explanation.md) |
+
+| 557 | [Reverse Words in a String III](../leetcode/0557-reverse-words-in-a-string-iii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0557-reverse-words-in-a-string-iii/Explanation.md) |
+
+| 561 | [Array Partition](../leetcode/0561-array-partition/) | Python | O(n) | O(1) | [Explanation](../leetcode/0561-array-partition/Explanation.md) |
+
+| 575 | [Distribute Candies](../leetcode/0575-distribute-candies/) | Python | O(n) | O(1) | [Explanation](../leetcode/0575-distribute-candies/Explanation.md) |
+
+| 598 | [Range Addition II](../leetcode/0598-range-addition-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0598-range-addition-ii/Explanation.md) |
+
+| 599 | [Minimum Index Sum of Two Lists](../leetcode/0599-minimum-index-sum-of-two-lists/) | Python | O(n) | O(1) | [Explanation](../leetcode/0599-minimum-index-sum-of-two-lists/Explanation.md) |
+
+| 605 | [Can Place Flowers](../leetcode/0605-can-place-flowers/) | Python | O(n) | O(1) | [Explanation](../leetcode/0605-can-place-flowers/Explanation.md) |
+
+| 643 | [Maximum Average Subarray I](../leetcode/0643-maximum-average-subarray-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/0643-maximum-average-subarray-i/Explanation.md) |
+
 | 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/0645-set-mismatch/Explanation.md) |
+
+| 657 | [Robot Return to Origin](../leetcode/0657-robot-return-to-origin/) | Python | O(n) | O(1) | [Explanation](../leetcode/0657-robot-return-to-origin/Explanation.md) |
+
+| 661 | [Image Smoother](../leetcode/0661-image-smoother/) | Python | O(n) | O(1) | [Explanation](../leetcode/0661-image-smoother/Explanation.md) |
 
 | 1470 | [Shuffle the Array](../leetcode/1580-shuffle-the-array/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/1580-shuffle-the-array/Explanation.md) |
 

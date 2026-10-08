@@ -75,7 +75,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [53. Maximum Subarray](../0053-maximum-subarray/)
 - [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
-- [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
+- [414. Third Maximum Number](../0414-third-maximum-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-building-height/)

@@ -16,6 +16,10 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 290 | [Word Pattern](../leetcode/0290-word-pattern/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0290-word-pattern/Explanation.md) |
 
+| 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Python | O(n) | O(n) | [Explanation](../leetcode/0405-convert-a-number-to-hexadecimal/Explanation.md) |
+
+| 476 | [Number Complement](../leetcode/0476-number-complement/) | Python | O(n) | O(n) | [Explanation](../leetcode/0476-number-complement/Explanation.md) |
+
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Java | O(n) | O(n) | [Explanation](../leetcode/1203-print-in-order/Explanation.md) |
 
 | 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/1297-maximum-number-of-balloons/Explanation.md) |

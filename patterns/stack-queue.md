@@ -16,6 +16,8 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 
 | 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0232-implement-queue-using-stacks/Explanation.md) |
 
+| 1021 | [Remove Outermost Parentheses](../leetcode/1078-remove-outermost-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/1078-remove-outermost-parentheses/Explanation.md) |
+
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Java | O(n) | O(n) | [Explanation](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/Explanation.md) |
 
 | 2888 | [Reshape Data: Concatenate](../leetcode/3064-reshape-data-concatenate/) | Python | O(n) | O(n) | [Explanation](../leetcode/3064-reshape-data-concatenate/Explanation.md) |

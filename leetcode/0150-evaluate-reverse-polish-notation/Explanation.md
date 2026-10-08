@@ -72,7 +72,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [7. Reverse Integer](../0007-reverse-integer/)
 - [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
-- [206. Reverse Linked List](../0206-reverse-linked-list/)
+- [190. Reverse Bits](../0190-reverse-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/)

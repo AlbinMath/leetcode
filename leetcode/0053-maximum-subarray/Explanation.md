@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
 - [3689. Maximum Total Subarray Value I](../4005-maximum-total-subarray-value-i/)
 - [3691. Maximum Total Subarray Value II](../4007-maximum-total-subarray-value-ii/)
-- [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subarray/)

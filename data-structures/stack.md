@@ -15,10 +15,12 @@ LeetCode problems solved using **Stack** data structures.
 | 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
+| 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 856 | [Score of Parentheses](../leetcode/0886-score-of-parentheses/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0957-minimum-add-to-make-parentheses-valid/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
+| 1021 | [Remove Outermost Parentheses](../leetcode/1078-remove-outermost-parentheses/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 1111 | [Maximum Nesting Depth of Two Valid Parentheses Strings](../leetcode/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1190 | [Reverse Substrings Between Each Pair of Parentheses](../leetcode/1298-reverse-substrings-between-each-pair-of-parentheses/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |

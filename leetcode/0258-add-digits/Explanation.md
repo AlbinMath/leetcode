@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2. Add Two Numbers](../0002-add-two-numbers/)
 - [67. Add Binary](../0067-add-binary/)
-- [788. Rotated Digits](../0804-rotated-digits/)
+- [415. Add Strings](../0415-add-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-digits/)

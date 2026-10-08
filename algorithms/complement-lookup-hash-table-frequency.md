@@ -12,6 +12,8 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 192 | [Word Frequency](../leetcode/0192-word-frequency/) | Medium | Hash Map | O(n) | O(n) |
 | 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | Easy | Hash Map | O(n) | O(n) |
 | 290 | [Word Pattern](../leetcode/0290-word-pattern/) | Easy | Hash Map | O(n) | O(n) |
+| 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Easy | Hash Map | O(n) | O(n) |
+| 476 | [Number Complement](../leetcode/0476-number-complement/) | Easy | Hash Map | O(n) | O(n) |
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Easy | Hash Map | O(n) | O(n) |
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Medium | Hash Map | O(n) | O(n) |
 | 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Easy | Hash Map | O(n) | O(n) |

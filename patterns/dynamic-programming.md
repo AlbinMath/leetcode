@@ -6,7 +6,13 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 ### Easy
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0392-is-subsequence/Explanation.md) |
+
+| 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/0521-longest-uncommon-subsequence-i/Explanation.md) |
+
+| 594 | [Longest Harmonious Subsequence](../leetcode/0594-longest-harmonious-subsequence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0594-longest-harmonious-subsequence/Explanation.md) |
 
 ### Medium
 

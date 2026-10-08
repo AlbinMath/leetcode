@@ -24,6 +24,10 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0338-counting-bits/Explanation.md) |
 
+| 501 | [Find Mode in Binary Search Tree](../leetcode/0501-find-mode-in-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-find-mode-in-binary-search-tree/Explanation.md) |
+
+| 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0530-minimum-absolute-difference-in-bst/Explanation.md) |
+
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Elixir | O(n) | O(1) | [Explanation](../leetcode/0628-maximum-product-of-three-numbers/Explanation.md) |
 
 | 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/1256-rank-transform-of-an-array/Explanation.md) |
@@ -51,6 +55,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 | 81 | [Search in Rotated Sorted Array II](../leetcode/0081-search-in-rotated-sorted-array-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0081-search-in-rotated-sorted-array-ii/Explanation.md) |
 
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0153-find-minimum-in-rotated-sorted-array/Explanation.md) |
+
+| 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0653-two-sum-iv---input-is-a-bst/Explanation.md) |
 
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0804-rotated-digits/Explanation.md) |
 

@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [111. Minimum Depth of Binary Tree](../0111-minimum-depth-of-binary-tree/)
+- [559. Maximum Depth of N-ary Tree](../0774-maximum-depth-of-n-ary-tree/)
 - [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [108. Convert Sorted Array to Binary Search Tree](../0108-convert-sorted-array-to-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/)

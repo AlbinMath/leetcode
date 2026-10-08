@@ -17,6 +17,7 @@ A curated selection of LeetCode problems solved using the **Stack Push / Pop Par
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | Medium | Stack & Queue | O(n) | O(n) |
 | 856 | [Score of Parentheses](../leetcode/0886-score-of-parentheses/) | Medium | Stack & Queue | O(n) | O(n) |
 | 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0957-minimum-add-to-make-parentheses-valid/) | Medium | Stack & Queue | O(n) | O(n) |
+| 1021 | [Remove Outermost Parentheses](../leetcode/1078-remove-outermost-parentheses/) | Easy | Stack & Queue | O(n) | O(n) |
 | 1111 | [Maximum Nesting Depth of Two Valid Parentheses Strings](../leetcode/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium | Stack & Queue | O(n) | O(n) |
 | 1190 | [Reverse Substrings Between Each Pair of Parentheses](../leetcode/1298-reverse-substrings-between-each-pair-of-parentheses/) | Medium | Stack & Queue | O(n) | O(n) |
 | 1441 | [Build an Array With Stack Operations](../leetcode/1552-build-an-array-with-stack-operations/) | Medium | Stack & Queue | O(n) | O(n) |

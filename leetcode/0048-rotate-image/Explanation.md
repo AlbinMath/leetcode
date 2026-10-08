@@ -70,7 +70,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [61. Rotate List](../0061-rotate-list/)
 - [396. Rotate Function](../0396-rotate-function/)
-- [796. Rotate String](../0812-rotate-string/)
+- [661. Image Smoother](../0661-image-smoother/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-image/)
