@@ -9,7 +9,6 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 7 | [Reverse Integer](../leetcode/0007-reverse-integer/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 8 | [String to Integer (atoi)](../leetcode/0008-string-to-integer-atoi/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Medium | Bit Manipulation | O(n) | O(1) |
-| 67 | [Add Binary](../leetcode/0067-add-binary/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | Medium | Bit Manipulation | O(n²) | O(1) |
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Medium | Bit Manipulation | O(n) | O(1) |

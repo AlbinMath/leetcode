@@ -66,7 +66,7 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [57. Insert Interval](../0057-insert-interval/)
 - [12. Integer to Roman](../0012-integer-to-roman/)
-- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [56. Merge Intervals](../0056-merge-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/interval-cancellation/)

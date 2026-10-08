@@ -16,22 +16,22 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 9 | [Palindrome Number](../leetcode/0009-palindrome-number/) | Easy | Two Pointers | O(n) | O(1) |
 | 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Easy | Prefix Sum | O(n) | O(n) |
 | 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Easy | Prefix Sum | O(n) | O(n) |
-| 21 | [Merge Two Sorted Lists](../leetcode/0021-merge-two-sorted-lists/) | Easy | Linked List | O(n) | O(1) |
-| 23 | [Merge k Sorted Lists](../leetcode/0023-merge-k-sorted-lists/) | Hard | Linked List | O(n) | O(1) |
-| 24 | [Swap Nodes in Pairs](../leetcode/0024-swap-nodes-in-pairs/) | Medium | Linked List | O(n) | O(1) |
-| 25 | [Reverse Nodes in k-Group](../leetcode/0025-reverse-nodes-in-k-group/) | Hard | Linked List | O(n) | O(1) |
+| 21 | [Merge Two Sorted Lists](../leetcode/0021-merge-two-sorted-lists/) | Easy | Two Pointers | O(n) | O(1) |
+| 23 | [Merge k Sorted Lists](../leetcode/0023-merge-k-sorted-lists/) | Hard | Two Pointers | O(n) | O(1) |
+| 24 | [Swap Nodes in Pairs](../leetcode/0024-swap-nodes-in-pairs/) | Medium | Two Pointers | O(n) | O(1) |
+| 25 | [Reverse Nodes in k-Group](../leetcode/0025-reverse-nodes-in-k-group/) | Hard | Two Pointers | O(n) | O(1) |
 | 26 | [Remove Duplicates from Sorted Array](../leetcode/0026-remove-duplicates-from-sorted-array/) | Easy | Array / General | O(n) | O(1) |
 | 27 | [Remove Element](../leetcode/0027-remove-element/) | Easy | Array / General | O(n) | O(1) |
 | 28 | [Find the Index of the First Occurrence in a String](../leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Stack & Queue | O(n) | O(n) |
 | 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Medium | Bit Manipulation | O(n) | O(1) |
-| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Hard | Array / General | O(n) | O(1) |
+| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Hard | Sliding Window | O(n) | O(1) |
 | 31 | [Next Permutation](../leetcode/0031-next-permutation/) | Medium | Backtracking | O(n) | O(1) |
 | 32 | [Longest Valid Parentheses](../leetcode/0032-longest-valid-parentheses/) | Hard | Stack & Queue | O(n) | O(n) |
 | 34 | [Find First and Last Position of Element in Sorted Array](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium | Binary Search | O(log n) | O(1) |
 | 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Easy | Binary Search | O(log n) | O(1) |
 | 36 | [Valid Sudoku](../leetcode/0036-valid-sudoku/) | Medium | Array / General | O(n) | O(1) |
 | 37 | [Sudoku Solver](../leetcode/0037-sudoku-solver/) | Hard | Array / General | O(n) | O(1) |
-| 38 | [Count and Say](../leetcode/0038-count-and-say/) | Medium | Array / General | O(n) | O(1) |
+| 38 | [Count and Say](../leetcode/0038-count-and-say/) | Medium | Tree & Graph | O(n) | O(n) |
 | 39 | [Combination Sum](../leetcode/0039-combination-sum/) | Medium | Backtracking | O(n) | O(1) |
 | 40 | [Combination Sum II](../leetcode/0040-combination-sum-ii/) | Medium | Backtracking | O(n) | O(1) |
 | 41 | [First Missing Positive](../leetcode/0041-first-missing-positive/) | Hard | Array / General | O(n) | O(1) |
@@ -45,12 +45,12 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Medium | Array / General | O(n) | O(1) |
 | 51 | [N-Queens](../leetcode/0051-n-queens/) | Hard | Array / General | O(n) | O(1) |
 | 52 | [N-Queens II](../leetcode/0052-n-queens-ii/) | Hard | Array / General | O(n) | O(1) |
-| 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Medium | Array / General | O(n) | O(1) |
+| 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Medium | Tree & Graph | O(n) | O(n) |
 | 54 | [Spiral Matrix](../leetcode/0054-spiral-matrix/) | Medium | Tree & Graph | O(n) | O(n) |
 | 55 | [Jump Game](../leetcode/0055-jump-game/) | Medium | Array / General | O(n) | O(1) |
-| 56 | [Merge Intervals](../leetcode/0056-merge-intervals/) | Medium | Greedy | O(n) | O(1) |
-| 57 | [Insert Interval](../leetcode/0057-insert-interval/) | Medium | Greedy | O(n) | O(1) |
-| 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Easy | Array / General | O(n) | O(1) |
+| 56 | [Merge Intervals](../leetcode/0056-merge-intervals/) | Medium | Heap | O(n) | O(n) |
+| 57 | [Insert Interval](../leetcode/0057-insert-interval/) | Medium | Heap | O(n) | O(n) |
+| 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Easy | Hash Map | O(n) | O(n) |
 | 59 | [Spiral Matrix II](../leetcode/0059-spiral-matrix-ii/) | Medium | Tree & Graph | O(n) | O(n) |
 | 60 | [Permutation Sequence](../leetcode/0060-permutation-sequence/) | Hard | Backtracking | O(n) | O(1) |
 | 62 | [Unique Paths](../leetcode/0062-unique-paths/) | Medium | Tree & Graph | O(n) | O(n) |
@@ -58,8 +58,8 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 64 | [Minimum Path Sum](../leetcode/0064-minimum-path-sum/) | Medium | Tree & Graph | O(n) | O(n) |
 | 65 | [Valid Number](../leetcode/0065-valid-number/) | Hard | Array / General | O(n) | O(1) |
 | 66 | [Plus One](../leetcode/0066-plus-one/) | Easy | Array / General | O(n) | O(1) |
-| 67 | [Add Binary](../leetcode/0067-add-binary/) | Easy | Bit Manipulation | O(n) | O(1) |
-| 68 | [Text Justification](../leetcode/0068-text-justification/) | Hard | Greedy | O(n) | O(1) |
+| 67 | [Add Binary](../leetcode/0067-add-binary/) | Easy | Tree & Graph | O(n) | O(n) |
+| 68 | [Text Justification](../leetcode/0068-text-justification/) | Hard | Heap | O(n) | O(n) |
 | 69 | [Sqrt(x)](../leetcode/0069-sqrtx/) | Easy | Array / General | O(n) | O(1) |
 | 70 | [Climbing Stairs](../leetcode/0070-climbing-stairs/) | Easy | Array / General | O(n) | O(1) |
 | 71 | [Simplify Path](../leetcode/0071-simplify-path/) | Medium | Tree & Graph | O(n) | O(n) |
@@ -73,7 +73,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 678 | [Valid Parenthesis String](../leetcode/0678-valid-parenthesis-string/) | Medium | Array / General | O(n) | O(1) |
 | 856 | [Score of Parentheses](../leetcode/0886-score-of-parentheses/) | Medium | Stack & Queue | O(n) | O(n) |
 | 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0957-minimum-add-to-make-parentheses-valid/) | Medium | Stack & Queue | O(n) | O(n) |
-| 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Hard | Array / General | O(n) | O(1) |
+| 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2877 | [Create a DataFrame from List](../leetcode/3062-create-a-dataframe-from-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 2878 | [Get the Size of a DataFrame](../leetcode/3076-get-the-size-of-a-dataframe/) | Easy | Two Pointers | O(n) | O(1) |
 | 2879 | [Display the First Three Rows](../leetcode/3065-display-the-first-three-rows/) | Easy | Array / General | O(n) | O(1) |

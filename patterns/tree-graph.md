@@ -8,27 +8,19 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 67 | [Add Binary](../leetcode/0067-add-binary/) | Python | O(n) | O(n) | [Explanation](../leetcode/0067-add-binary/Explanation.md) |
+
 | 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0094-binary-tree-inorder-traversal/Explanation.md) |
 
 | 100 | [Same Tree](../leetcode/0100-same-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0100-same-tree/Explanation.md) |
 
 | 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0101-symmetric-tree/Explanation.md) |
 
-| 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0104-maximum-depth-of-binary-tree/Explanation.md) |
-
-| 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0110-balanced-binary-tree/Explanation.md) |
-
-| 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0111-minimum-depth-of-binary-tree/Explanation.md) |
-
 | 112 | [Path Sum](../leetcode/0112-path-sum/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0112-path-sum/Explanation.md) |
 
 | 144 | [Binary Tree Preorder Traversal](../leetcode/0144-binary-tree-preorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0144-binary-tree-preorder-traversal/Explanation.md) |
 
 | 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0145-binary-tree-postorder-traversal/Explanation.md) |
-
-| 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0226-invert-binary-tree/Explanation.md) |
-
-| 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0257-binary-tree-paths/Explanation.md) |
 
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Racket | O(n) | O(n) | [Explanation](../leetcode/1386-shift-2d-grid/Explanation.md) |
 
@@ -52,6 +44,10 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 38 | [Count and Say](../leetcode/0038-count-and-say/) | Python | O(n) | O(n) | [Explanation](../leetcode/0038-count-and-say/Explanation.md) |
+
+| 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Python | O(n) | O(n) | [Explanation](../leetcode/0053-maximum-subarray/Explanation.md) |
+
 | 54 | [Spiral Matrix](../leetcode/0054-spiral-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0054-spiral-matrix/Explanation.md) |
 
 | 59 | [Spiral Matrix II](../leetcode/0059-spiral-matrix-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0059-spiral-matrix-ii/Explanation.md) |
@@ -84,6 +80,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 2492 | [Minimum Score of a Path Between Two Cities](../leetcode/2582-minimum-score-of-a-path-between-two-cities/) | Java | O(n) | O(n) | [Explanation](../leetcode/2582-minimum-score-of-a-path-between-two-cities/Explanation.md) |
 
+| 2624 | [Snail Traversal](../leetcode/2760-snail-traversal/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2760-snail-traversal/Explanation.md) |
+
 | 2685 | [Count the Number of Complete Components](../leetcode/2793-count-the-number-of-complete-components/) | Java | O(n) | O(n) | [Explanation](../leetcode/2793-count-the-number-of-complete-components/Explanation.md) |
 
 | 2812 | [Find the Safest Path in a Grid](../leetcode/2914-find-the-safest-path-in-a-grid/) | Java | O(n) | O(n) | [Explanation](../leetcode/2914-find-the-safest-path-in-a-grid/Explanation.md) |
@@ -112,6 +110,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Python | O(n) | O(n) | [Explanation](../leetcode/1968-maximum-building-height/Explanation.md) |
+
 | 3518 | [Smallest Palindromic Rearrangement II](../leetcode/3813-smallest-palindromic-rearrangement-ii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3813-smallest-palindromic-rearrangement-ii/Explanation.md) |
 
 | 3534 | [Path Existence Queries in a Graph II](../leetcode/3852-path-existence-queries-in-a-graph-ii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3852-path-existence-queries-in-a-graph-ii/Explanation.md) |

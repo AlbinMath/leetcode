@@ -10,10 +10,8 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Medium | Array / General | O(n) | O(1) |
 | 26 | [Remove Duplicates from Sorted Array](../leetcode/0026-remove-duplicates-from-sorted-array/) | Easy | Array / General | O(n) | O(1) |
 | 27 | [Remove Element](../leetcode/0027-remove-element/) | Easy | Array / General | O(n) | O(1) |
-| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Hard | Array / General | O(n) | O(1) |
 | 36 | [Valid Sudoku](../leetcode/0036-valid-sudoku/) | Medium | Array / General | O(n) | O(1) |
 | 37 | [Sudoku Solver](../leetcode/0037-sudoku-solver/) | Hard | Array / General | O(n) | O(1) |
-| 38 | [Count and Say](../leetcode/0038-count-and-say/) | Medium | Array / General | O(n) | O(1) |
 | 41 | [First Missing Positive](../leetcode/0041-first-missing-positive/) | Hard | Array / General | O(n) | O(1) |
 | 42 | [Trapping Rain Water](../leetcode/0042-trapping-rain-water/) | Hard | Array / General | O(n) | O(1) |
 | 43 | [Multiply Strings](../leetcode/0043-multiply-strings/) | Medium | Array / General | O(n) | O(1) |
@@ -22,9 +20,7 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Medium | Array / General | O(n) | O(1) |
 | 51 | [N-Queens](../leetcode/0051-n-queens/) | Hard | Array / General | O(n) | O(1) |
 | 52 | [N-Queens II](../leetcode/0052-n-queens-ii/) | Hard | Array / General | O(n) | O(1) |
-| 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Medium | Array / General | O(n) | O(1) |
 | 55 | [Jump Game](../leetcode/0055-jump-game/) | Medium | Array / General | O(n) | O(1) |
-| 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Easy | Array / General | O(n) | O(1) |
 | 65 | [Valid Number](../leetcode/0065-valid-number/) | Hard | Array / General | O(n) | O(1) |
 | 66 | [Plus One](../leetcode/0066-plus-one/) | Easy | Array / General | O(n) | O(1) |
 | 69 | [Sqrt(x)](../leetcode/0069-sqrtx/) | Easy | Array / General | O(n) | O(1) |
@@ -53,7 +49,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 268 | [Missing Number](../leetcode/0268-missing-number/) | Easy | Array / General | O(n) | O(1) |
 | 278 | [First Bad Version](../leetcode/0278-first-bad-version/) | Easy | Array / General | O(n) | O(1) |
 | 283 | [Move Zeroes](../leetcode/0283-move-zeroes/) | Easy | Array / General | O(n) | O(1) |
-| 290 | [Word Pattern](../leetcode/0290-word-pattern/) | Easy | Array / General | O(n) | O(1) |
 | 292 | [Nim Game](../leetcode/0292-nim-game/) | Easy | Array / General | O(n) | O(1) |
 | 303 | [Range Sum Query   Immutable](../leetcode/0303-range-sum-query---immutable/) | Medium | Array / General | O(n) | O(1) |
 | 326 | [Power of Three](../leetcode/0326-power-of-three/) | Easy | Array / General | O(n) | O(1) |
@@ -70,19 +65,16 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 1226 | [The Dining Philosophers](../leetcode/1340-the-dining-philosophers/) | Medium | Array / General | O(n) | O(1) |
 | 1470 | [Shuffle the Array](../leetcode/1580-shuffle-the-array/) | Easy | Array / General | O(n) | O(1) |
 | 1732 | [Find the Highest Altitude](../leetcode/1833-find-the-highest-altitude/) | Easy | Array / General | O(n) | O(1) |
-| 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Hard | Array / General | O(n) | O(1) |
 | 1861 | [Rotating the Box](../leetcode/1972-rotating-the-box/) | Medium | Array / General | O(n) | O(1) |
 | 1927 | [Sum Game](../leetcode/2039-sum-game/) | Medium | Array / General | O(n) | O(1) |
 | 1929 | [Concatenation of Array](../leetcode/2058-concatenation-of-array/) | Easy | Array / General | O(n) | O(1) |
 | 1979 | [Find Greatest Common Divisor of Array](../leetcode/2106-find-greatest-common-divisor-of-array/) | Easy | Array / General | O(n) | O(1) |
 | 2091 | [Removing Minimum and Maximum From Array](../leetcode/2212-removing-minimum-and-maximum-from-array/) | Medium | Array / General | O(n) | O(1) |
-| 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Easy | Array / General | O(n) | O(1) |
 | 2618 | [Check if Object Instance of Class](../leetcode/2758-check-if-object-instance-of-class/) | Medium | Array / General | O(n) | O(1) |
 | 2619 | [Array Prototype Last](../leetcode/2734-array-prototype-last/) | Easy | Array / General | O(n) | O(1) |
 | 2620 | [Counter](../leetcode/2732-counter/) | Easy | Array / General | O(n) | O(1) |
 | 2621 | [Sleep](../leetcode/2733-sleep/) | Easy | Array / General | O(n) | O(1) |
 | 2623 | [Memoize](../leetcode/2731-memoize/) | Medium | Array / General | O(n) | O(1) |
-| 2624 | [Snail Traversal](../leetcode/2760-snail-traversal/) | Medium | Array / General | O(n) | O(1) |
 | 2625 | [Flatten Deeply Nested Array](../leetcode/2759-flatten-deeply-nested-array/) | Medium | Array / General | O(n) | O(1) |
 | 2626 | [Array Reduce Transformation](../leetcode/2761-array-reduce-transformation/) | Easy | Array / General | O(n) | O(1) |
 | 2629 | [Function Composition](../leetcode/2741-function-composition/) | Easy | Array / General | O(n) | O(1) |

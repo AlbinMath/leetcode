@@ -8,8 +8,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 67 | [Add Binary](../leetcode/0067-add-binary/) | Python | O(n) | O(1) | [Explanation](../leetcode/0067-add-binary/Explanation.md) |
-
 | 2723 | [Add Two Promises](../leetcode/2859-add-two-promises/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2859-add-two-promises/Explanation.md) |
 
 | 2880 | [Select Data](../leetcode/3074-select-data/) | Python | O(n) | O(1) | [Explanation](../leetcode/3074-select-data/Explanation.md) |

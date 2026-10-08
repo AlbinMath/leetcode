@@ -11,25 +11,25 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Prefix Sum | Python | O(n) | O(n) |
 | 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Prefix Sum | Python | O(n) | O(n) |
 | 20 | [Valid Parentheses](../leetcode/0020-valid-parentheses/) | Stack & Queue | JavaScript | O(n) | O(n) |
-| 21 | [Merge Two Sorted Lists](../leetcode/0021-merge-two-sorted-lists/) | Linked List | Python | O(n) | O(1) |
+| 21 | [Merge Two Sorted Lists](../leetcode/0021-merge-two-sorted-lists/) | Two Pointers | Python | O(n) | O(1) |
 | 26 | [Remove Duplicates from Sorted Array](../leetcode/0026-remove-duplicates-from-sorted-array/) | Array / General | Python | O(n) | O(1) |
 | 27 | [Remove Element](../leetcode/0027-remove-element/) | Array / General | Python | O(n) | O(1) |
 | 28 | [Find the Index of the First Occurrence in a String](../leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Stack & Queue | Python | O(n) | O(n) |
 | 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Binary Search | Python | O(log n) | O(1) |
-| 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Array / General | Python | O(n) | O(1) |
+| 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Hash Map | Python | O(n) | O(n) |
 | 66 | [Plus One](../leetcode/0066-plus-one/) | Array / General | Python | O(n) | O(1) |
-| 67 | [Add Binary](../leetcode/0067-add-binary/) | Bit Manipulation | Python | O(n) | O(1) |
+| 67 | [Add Binary](../leetcode/0067-add-binary/) | Tree & Graph | Python | O(n) | O(n) |
 | 69 | [Sqrt(x)](../leetcode/0069-sqrtx/) | Array / General | Python | O(n) | O(1) |
 | 70 | [Climbing Stairs](../leetcode/0070-climbing-stairs/) | Array / General | Python | O(n) | O(1) |
-| 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | Linked List | PHP | O(n) | O(1) |
+| 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | Two Pointers | PHP | O(n) | O(1) |
 | 88 | [Merge Sorted Array](../leetcode/0088-merge-sorted-array/) | Array / General | PHP | O(n) | O(1) |
 | 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | Tree & Graph | PHP | O(n) | O(n) |
 | 100 | [Same Tree](../leetcode/0100-same-tree/) | Tree & Graph | PHP | O(n) | O(n) |
 | 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | Tree & Graph | PHP | O(n) | O(n) |
-| 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | Tree & Graph | PHP | O(n) | O(n) |
+| 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | Binary Search | PHP | O(n) | O(1) |
 | 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | Binary Search | PHP | O(n) | O(1) |
-| 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | Tree & Graph | PHP | O(n) | O(n) |
-| 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | Tree & Graph | PHP | O(n) | O(n) |
+| 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | Binary Search | PHP | O(n) | O(1) |
+| 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | Binary Search | PHP | O(n) | O(1) |
 | 112 | [Path Sum](../leetcode/0112-path-sum/) | Tree & Graph | PHP | O(n) | O(n) |
 | 118 | [Pascal's Triangle](../leetcode/0118-pascals-triangle/) | Math & Logic | PHP | O(n) | O(1) |
 | 119 | [Pascal's Triangle II](../leetcode/0119-pascals-triangle-ii/) | Math & Logic | PHP | O(n) | O(1) |
@@ -39,7 +39,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 141 | [Linked List Cycle](../leetcode/0141-linked-list-cycle/) | Fast & Slow Pointers | PHP | O(n) | O(1) |
 | 144 | [Binary Tree Preorder Traversal](../leetcode/0144-binary-tree-preorder-traversal/) | Tree & Graph | PHP | O(n) | O(n) |
 | 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | Tree & Graph | PHP | O(n) | O(n) |
-| 160 | [Intersection of Two Linked Lists](../leetcode/0160-intersection-of-two-linked-lists/) | Linked List | PHP | O(n) | O(1) |
+| 160 | [Intersection of Two Linked Lists](../leetcode/0160-intersection-of-two-linked-lists/) | Two Pointers | PHP | O(n) | O(1) |
 | 168 | [Excel Sheet Column Title](../leetcode/0168-excel-sheet-column-title/) | Array / General | PHP | O(n) | O(1) |
 | 169 | [Majority Element](../leetcode/0169-majority-element/) | Array / General | PHP | O(n) | O(1) |
 | 171 | [Excel Sheet Column Number](../leetcode/0171-excel-sheet-column-number/) | Array / General | PHP | O(n) | O(1) |
@@ -52,25 +52,25 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 196 | [Delete Duplicate Emails](../leetcode/0196-delete-duplicate-emails/) | Database / SQL | SQL | O(n) | O(n) |
 | 197 | [Rising Temperature](../leetcode/0197-rising-temperature/) | Database / SQL | SQL | O(n) | O(n) |
 | 202 | [Happy Number](../leetcode/0202-happy-number/) | Array / General | PHP | O(n) | O(1) |
-| 203 | [Remove Linked List Elements](../leetcode/0203-remove-linked-list-elements/) | Linked List | PHP | O(n) | O(1) |
+| 203 | [Remove Linked List Elements](../leetcode/0203-remove-linked-list-elements/) | Two Pointers | PHP | O(n) | O(1) |
 | 205 | [Isomorphic Strings](../leetcode/0205-isomorphic-strings/) | Array / General | PHP | O(n) | O(1) |
-| 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | Linked List | PHP | O(n) | O(1) |
+| 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | Two Pointers | PHP | O(n) | O(1) |
 | 217 | [Contains Duplicate](../leetcode/0217-contains-duplicate/) | Array / General | PHP | O(n) | O(1) |
 | 219 | [Contains Duplicate II](../leetcode/0219-contains-duplicate-ii/) | Array / General | PHP | O(n) | O(1) |
 | 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | Stack & Queue | PHP | O(n) | O(n) |
-| 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | Tree & Graph | PHP | O(n) | O(n) |
+| 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | Binary Search | PHP | O(n) | O(1) |
 | 228 | [Summary Ranges](../leetcode/0228-summary-ranges/) | Array / General | PHP | O(n) | O(1) |
 | 231 | [Power of Two](../leetcode/0231-power-of-two/) | Array / General | PHP | O(n) | O(1) |
 | 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | Stack & Queue | PHP | O(n) | O(n) |
 | 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | Two Pointers | PHP | O(n) | O(1) |
 | 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | Hash Map | PHP | O(n) | O(n) |
-| 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Tree & Graph | PHP | O(n) | O(n) |
+| 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Binary Search | PHP | O(n) | O(1) |
 | 258 | [Add Digits](../leetcode/0258-add-digits/) | Math & Logic | PHP | O(n) | O(1) |
 | 263 | [Ugly Number](../leetcode/0263-ugly-number/) | Array / General | PHP | O(n) | O(1) |
 | 268 | [Missing Number](../leetcode/0268-missing-number/) | Array / General | PHP | O(n) | O(1) |
 | 278 | [First Bad Version](../leetcode/0278-first-bad-version/) | Array / General | C++ | O(n) | O(1) |
 | 283 | [Move Zeroes](../leetcode/0283-move-zeroes/) | Array / General | C++ | O(n) | O(1) |
-| 290 | [Word Pattern](../leetcode/0290-word-pattern/) | Array / General | C++ | O(n) | O(1) |
+| 290 | [Word Pattern](../leetcode/0290-word-pattern/) | Hash Map | C++ | O(n) | O(n) |
 | 292 | [Nim Game](../leetcode/0292-nim-game/) | Array / General | C++ | O(n) | O(1) |
 | 326 | [Power of Three](../leetcode/0326-power-of-three/) | Array / General | C++ | O(n) | O(1) |
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Binary Search | C++ | O(n) | O(1) |
@@ -138,9 +138,9 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Tree & Graph | Kotlin | O(n) | O(n) |
 | 1978 | [Employees Whose Manager Left the Company](../leetcode/2127-employees-whose-manager-left-the-company/) | Database / SQL | SQL | O(n) | O(n) |
 | 1979 | [Find Greatest Common Divisor of Array](../leetcode/2106-find-greatest-common-divisor-of-array/) | Array / General | Kotlin | O(n) | O(1) |
-| 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Array / General | Kotlin | O(n) | O(1) |
+| 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Sliding Window | Kotlin | O(n) | O(1) |
 | 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Database / SQL | SQL | O(n) | O(n) |
-| 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | Two Pointers | C++ | O(n) | O(1) |
+| 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | Sliding Window | C++ | O(n) | O(1) |
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | Math & Logic | C++ | O(n) | O(1) |
 | 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Prefix Sum | Kotlin | O(n) | O(n) |
 | 2619 | [Array Prototype Last](../leetcode/2734-array-prototype-last/) | Array / General | JavaScript | O(n) | O(1) |

@@ -12,8 +12,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 27 | [Remove Element](../leetcode/0027-remove-element/) | Python | O(n) | O(1) | [Explanation](../leetcode/0027-remove-element/Explanation.md) |
 
-| 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Python | O(n) | O(1) | [Explanation](../leetcode/0058-length-of-last-word/Explanation.md) |
-
 | 66 | [Plus One](../leetcode/0066-plus-one/) | Python | O(n) | O(1) | [Explanation](../leetcode/0066-plus-one/Explanation.md) |
 
 | 69 | [Sqrt(x)](../leetcode/0069-sqrtx/) | Python | O(n) | O(1) | [Explanation](../leetcode/0069-sqrtx/Explanation.md) |
@@ -56,8 +54,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 283 | [Move Zeroes](../leetcode/0283-move-zeroes/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0283-move-zeroes/Explanation.md) |
 
-| 290 | [Word Pattern](../leetcode/0290-word-pattern/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0290-word-pattern/Explanation.md) |
-
 | 292 | [Nim Game](../leetcode/0292-nim-game/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0292-nim-game/Explanation.md) |
 
 | 326 | [Power of Three](../leetcode/0326-power-of-three/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0326-power-of-three/Explanation.md) |
@@ -77,8 +73,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 1929 | [Concatenation of Array](../leetcode/2058-concatenation-of-array/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2058-concatenation-of-array/Explanation.md) |
 
 | 1979 | [Find Greatest Common Divisor of Array](../leetcode/2106-find-greatest-common-divisor-of-array/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/2106-find-greatest-common-divisor-of-array/Explanation.md) |
-
-| 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/Explanation.md) |
 
 | 2619 | [Array Prototype Last](../leetcode/2734-array-prototype-last/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2734-array-prototype-last/Explanation.md) |
 
@@ -138,15 +132,11 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 36 | [Valid Sudoku](../leetcode/0036-valid-sudoku/) | Python | O(n) | O(1) | [Explanation](../leetcode/0036-valid-sudoku/Explanation.md) |
 
-| 38 | [Count and Say](../leetcode/0038-count-and-say/) | Python | O(n) | O(1) | [Explanation](../leetcode/0038-count-and-say/Explanation.md) |
-
 | 43 | [Multiply Strings](../leetcode/0043-multiply-strings/) | Python | O(n) | O(1) | [Explanation](../leetcode/0043-multiply-strings/Explanation.md) |
 
 | 45 | [Jump Game II](../leetcode/0045-jump-game-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0045-jump-game-ii/Explanation.md) |
 
 | 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Python | O(n) | O(1) | [Explanation](../leetcode/0050-powx-n/Explanation.md) |
-
-| 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Python | O(n) | O(1) | [Explanation](../leetcode/0053-maximum-subarray/Explanation.md) |
 
 | 55 | [Jump Game](../leetcode/0055-jump-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/0055-jump-game/Explanation.md) |
 
@@ -185,8 +175,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 2618 | [Check if Object Instance of Class](../leetcode/2758-check-if-object-instance-of-class/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2758-check-if-object-instance-of-class/Explanation.md) |
 
 | 2623 | [Memoize](../leetcode/2731-memoize/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2731-memoize/Explanation.md) |
-
-| 2624 | [Snail Traversal](../leetcode/2760-snail-traversal/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2760-snail-traversal/Explanation.md) |
 
 | 2625 | [Flatten Deeply Nested Array](../leetcode/2759-flatten-deeply-nested-array/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2759-flatten-deeply-nested-array/Explanation.md) |
 
@@ -250,8 +238,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Python | O(n) | O(1) | [Explanation](../leetcode/0030-substring-with-concatenation-of-all-words/Explanation.md) |
-
 | 37 | [Sudoku Solver](../leetcode/0037-sudoku-solver/) | Python | O(n) | O(1) | [Explanation](../leetcode/0037-sudoku-solver/Explanation.md) |
 
 | 41 | [First Missing Positive](../leetcode/0041-first-missing-positive/) | Python | O(n) | O(1) | [Explanation](../leetcode/0041-first-missing-positive/Explanation.md) |
@@ -267,8 +253,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 65 | [Valid Number](../leetcode/0065-valid-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/0065-valid-number/Explanation.md) |
 
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1188-brace-expansion-ii/Explanation.md) |
-
-| 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Python | O(n) | O(1) | [Explanation](../leetcode/1968-maximum-building-height/Explanation.md) |
 
 | 2650 | [Design Cancellable Function](../leetcode/2788-design-cancellable-function/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2788-design-cancellable-function/Explanation.md) |
 

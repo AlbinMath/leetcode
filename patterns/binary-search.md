@@ -10,7 +10,17 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 |---|---|---|---|---|---|
 | 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Python | O(log n) | O(1) | [Explanation](../leetcode/0035-search-insert-position/Explanation.md) |
 
+| 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0104-maximum-depth-of-binary-tree/Explanation.md) |
+
 | 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0108-convert-sorted-array-to-binary-search-tree/Explanation.md) |
+
+| 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0110-balanced-binary-tree/Explanation.md) |
+
+| 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0111-minimum-depth-of-binary-tree/Explanation.md) |
+
+| 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0226-invert-binary-tree/Explanation.md) |
+
+| 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0257-binary-tree-paths/Explanation.md) |
 
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0338-counting-bits/Explanation.md) |
 
@@ -49,6 +59,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 | 1833 | [Maximum Ice Cream Bars](../leetcode/1961-maximum-ice-cream-bars/) | Java | O(n) | O(1) | [Explanation](../leetcode/1961-maximum-ice-cream-bars/Explanation.md) |
 
 | 1846 | [Maximum Element After Decreasing and Rearranging](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/) | Java | O(log n) | O(1) | [Explanation](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/Explanation.md) |
+
+| 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Java | O(n) | O(1) | [Explanation](../leetcode/2306-create-binary-tree-from-descriptions/Explanation.md) |
 
 | 3524 | [Find X Value of Array I](../leetcode/3831-find-x-value-of-array-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3831-find-x-value-of-array-i/Explanation.md) |
 

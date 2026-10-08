@@ -8,9 +8,9 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 |---|---|---|---|---|---|
 | 4 | [Median of Two Sorted Arrays](../leetcode/0004-median-of-two-sorted-arrays/) | Binary Search | Python | O(n) | O(1) |
 | 10 | [Regular Expression Matching](../leetcode/0010-regular-expression-matching/) | Dynamic Programming | JavaScript | O(n) | O(n) |
-| 23 | [Merge k Sorted Lists](../leetcode/0023-merge-k-sorted-lists/) | Linked List | Python | O(n) | O(1) |
-| 25 | [Reverse Nodes in k-Group](../leetcode/0025-reverse-nodes-in-k-group/) | Linked List | Python | O(n) | O(1) |
-| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Array / General | Python | O(n) | O(1) |
+| 23 | [Merge k Sorted Lists](../leetcode/0023-merge-k-sorted-lists/) | Two Pointers | Python | O(n) | O(1) |
+| 25 | [Reverse Nodes in k-Group](../leetcode/0025-reverse-nodes-in-k-group/) | Two Pointers | Python | O(n) | O(1) |
+| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Sliding Window | Python | O(n) | O(1) |
 | 32 | [Longest Valid Parentheses](../leetcode/0032-longest-valid-parentheses/) | Stack & Queue | Python | O(n) | O(n) |
 | 37 | [Sudoku Solver](../leetcode/0037-sudoku-solver/) | Array / General | Python | O(n) | O(1) |
 | 41 | [First Missing Positive](../leetcode/0041-first-missing-positive/) | Array / General | Python | O(n) | O(1) |
@@ -20,7 +20,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 52 | [N-Queens II](../leetcode/0052-n-queens-ii/) | Array / General | Python | O(n) | O(1) |
 | 60 | [Permutation Sequence](../leetcode/0060-permutation-sequence/) | Backtracking | Python | O(n) | O(1) |
 | 65 | [Valid Number](../leetcode/0065-valid-number/) | Array / General | Python | O(n) | O(1) |
-| 68 | [Text Justification](../leetcode/0068-text-justification/) | Greedy | Python | O(n) | O(1) |
+| 68 | [Text Justification](../leetcode/0068-text-justification/) | Heap | Python | O(n) | O(n) |
 | 76 | [Minimum Window Substring](../leetcode/0076-minimum-window-substring/) | Sliding Window | PHP | O(n) | O(1) |
 | 84 | [Largest Rectangle in Histogram](../leetcode/0084-largest-rectangle-in-histogram/) | Monotonic Stack | TypeScript | O(n) | O(n) |
 | 85 | [Maximal Rectangle](../leetcode/0085-maximal-rectangle/) | Math & Logic | Python | O(n) | O(1) |
@@ -40,7 +40,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 1520 | [Maximum Number of Non-Overlapping Substrings](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | Heap | JavaScript | O(n) | O(n) |
 | 1563 | [Stone Game V](../leetcode/1685-stone-game-v/) | Prefix Sum | Java | O(n) | O(n) |
 | 1665 | [Minimum Initial Energy to Finish Tasks](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | Binary Search | C++ | O(log n) | O(1) |
-| 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Array / General | Python | O(n) | O(1) |
+| 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Tree & Graph | Python | O(n) | O(n) |
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Prefix Sum | Java | O(n) | O(n) |
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Binary Search | Java | O(n) | O(1) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/) | Stack & Queue | C++ | O(n) | O(n) |

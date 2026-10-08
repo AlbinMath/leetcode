@@ -65,8 +65,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
 - [76. Minimum Window Substring](../0076-minimum-window-substring/)
-- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/debounce/)

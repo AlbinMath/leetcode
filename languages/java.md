@@ -21,7 +21,7 @@ A collection of LeetCode problems implemented in **Java** with detailed complexi
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
 | 2161 | [Partition Array According to Given Pivot](../leetcode/2265-partition-array-according-to-given-pivot/) | Medium | Tree & Graph | O(n) | O(n) |
-| 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Medium | Hash Map | O(n) | O(n) |
+| 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Medium | Binary Search | O(n) | O(1) |
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Hard | Binary Search | O(n) | O(1) |
 | 2492 | [Minimum Score of a Path Between Two Cities](../leetcode/2582-minimum-score-of-a-path-between-two-cities/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2685 | [Count the Number of Complete Components](../leetcode/2793-count-the-number-of-complete-components/) | Medium | Tree & Graph | O(n) | O(n) |

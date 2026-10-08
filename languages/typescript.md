@@ -20,7 +20,7 @@ A collection of LeetCode problems implemented in **TypeScript** with detailed co
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 1929 | [Concatenation of Array](../leetcode/2058-concatenation-of-array/) | Easy | Array / General | O(n) | O(1) |
 | 2623 | [Memoize](../leetcode/2731-memoize/) | Medium | Array / General | O(n) | O(1) |
-| 2624 | [Snail Traversal](../leetcode/2760-snail-traversal/) | Medium | Array / General | O(n) | O(1) |
+| 2624 | [Snail Traversal](../leetcode/2760-snail-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2625 | [Flatten Deeply Nested Array](../leetcode/2759-flatten-deeply-nested-array/) | Medium | Array / General | O(n) | O(1) |
 | 2626 | [Array Reduce Transformation](../leetcode/2761-array-reduce-transformation/) | Easy | Array / General | O(n) | O(1) |
 | 2627 | [Debounce](../leetcode/2743-debounce/) | Medium | Sliding Window | O(n) | O(1) |

@@ -10,7 +10,11 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 |---|---|---|---|---|---|
 | 1 | [Two Sum](../leetcode/0001-two-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-two-sum/Explanation.md) |
 
+| 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Python | O(n) | O(n) | [Explanation](../leetcode/0058-length-of-last-word/Explanation.md) |
+
 | 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0242-valid-anagram/Explanation.md) |
+
+| 290 | [Word Pattern](../leetcode/0290-word-pattern/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0290-word-pattern/Explanation.md) |
 
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Java | O(n) | O(n) | [Explanation](../leetcode/1203-print-in-order/Explanation.md) |
 
@@ -46,8 +50,6 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 1807 | [Evaluate the Bracket Pairs of a String](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/Explanation.md) |
 
-| 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Java | O(n) | O(n) | [Explanation](../leetcode/2306-create-binary-tree-from-descriptions/Explanation.md) |
-
 | 2622 | [Cache With Time Limit](../leetcode/2762-cache-with-time-limit/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2762-cache-with-time-limit/Explanation.md) |
 
 | 2722 | [Join Two Arrays by ID](../leetcode/2858-join-two-arrays-by-id/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2858-join-two-arrays-by-id/Explanation.md) |
@@ -55,8 +57,6 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 2948 | [Make Lexicographically Smallest Array by Swapping Elements](../leetcode/3219-make-lexicographically-smallest-array-by-swapping-elements/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3219-make-lexicographically-smallest-array-by-swapping-elements/Explanation.md) |
 
 | 2958 | [Length of Longest Subarray With at Most K Frequency](../leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/Explanation.md) |
-
-| 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3870-minimum-moves-to-clean-the-classroom/Explanation.md) |
 
 ### Hard
 

@@ -20,13 +20,13 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 18 | [4Sum](../leetcode/0018-4sum/) | Binary Search | C++ | O(log n) | O(1) |
 | 19 | [Remove Nth Node From End of List](../leetcode/0019-remove-nth-node-from-end-of-list/) | Fast & Slow Pointers | JavaScript | O(n) | O(1) |
 | 22 | [Generate Parentheses](../leetcode/0022-generate-parentheses/) | Stack & Queue | C++ | O(n) | O(n) |
-| 24 | [Swap Nodes in Pairs](../leetcode/0024-swap-nodes-in-pairs/) | Linked List | Python | O(n) | O(1) |
+| 24 | [Swap Nodes in Pairs](../leetcode/0024-swap-nodes-in-pairs/) | Two Pointers | Python | O(n) | O(1) |
 | 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Bit Manipulation | Python | O(n) | O(1) |
 | 31 | [Next Permutation](../leetcode/0031-next-permutation/) | Backtracking | Python | O(n) | O(1) |
 | 33 | [Search in Rotated Sorted Array](../leetcode/0033-search-in-rotated-sorted-array/) | Binary Search | C++ | O(log n) | O(1) |
 | 34 | [Find First and Last Position of Element in Sorted Array](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/) | Binary Search | Python | O(log n) | O(1) |
 | 36 | [Valid Sudoku](../leetcode/0036-valid-sudoku/) | Array / General | Python | O(n) | O(1) |
-| 38 | [Count and Say](../leetcode/0038-count-and-say/) | Array / General | Python | O(n) | O(1) |
+| 38 | [Count and Say](../leetcode/0038-count-and-say/) | Tree & Graph | Python | O(n) | O(n) |
 | 39 | [Combination Sum](../leetcode/0039-combination-sum/) | Backtracking | Python | O(n) | O(1) |
 | 40 | [Combination Sum II](../leetcode/0040-combination-sum-ii/) | Backtracking | Python | O(n) | O(1) |
 | 43 | [Multiply Strings](../leetcode/0043-multiply-strings/) | Array / General | Python | O(n) | O(1) |
@@ -36,11 +36,11 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 48 | [Rotate Image](../leetcode/0048-rotate-image/) | Math & Logic | C++ | O(n²) | O(1) |
 | 49 | [Group Anagrams](../leetcode/0049-group-anagrams/) | Hash Map | Python | O(n) | O(n) |
 | 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Array / General | Python | O(n) | O(1) |
-| 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Array / General | Python | O(n) | O(1) |
+| 53 | [Maximum Subarray](../leetcode/0053-maximum-subarray/) | Tree & Graph | Python | O(n) | O(n) |
 | 54 | [Spiral Matrix](../leetcode/0054-spiral-matrix/) | Tree & Graph | Python | O(n) | O(n) |
 | 55 | [Jump Game](../leetcode/0055-jump-game/) | Array / General | Python | O(n) | O(1) |
-| 56 | [Merge Intervals](../leetcode/0056-merge-intervals/) | Greedy | Python | O(n) | O(1) |
-| 57 | [Insert Interval](../leetcode/0057-insert-interval/) | Greedy | Python | O(n) | O(1) |
+| 56 | [Merge Intervals](../leetcode/0056-merge-intervals/) | Heap | Python | O(n) | O(n) |
+| 57 | [Insert Interval](../leetcode/0057-insert-interval/) | Heap | Python | O(n) | O(n) |
 | 59 | [Spiral Matrix II](../leetcode/0059-spiral-matrix-ii/) | Tree & Graph | Python | O(n) | O(n) |
 | 61 | [Rotate List](../leetcode/0061-rotate-list/) | Two Pointers | C++ | O(n) | O(1) |
 | 62 | [Unique Paths](../leetcode/0062-unique-paths/) | Tree & Graph | Python | O(n) | O(n) |
@@ -56,7 +56,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 79 | [Word Search](../leetcode/0079-word-search/) | Array / General | PHP | O(n) | O(1) |
 | 80 | [Remove Duplicates from Sorted Array II](../leetcode/0080-remove-duplicates-from-sorted-array-ii/) | Array / General | PHP | O(n) | O(1) |
 | 81 | [Search in Rotated Sorted Array II](../leetcode/0081-search-in-rotated-sorted-array-ii/) | Binary Search | PHP | O(n) | O(1) |
-| 82 | [Remove Duplicates from Sorted List II](../leetcode/0082-remove-duplicates-from-sorted-list-ii/) | Linked List | PHP | O(n) | O(1) |
+| 82 | [Remove Duplicates from Sorted List II](../leetcode/0082-remove-duplicates-from-sorted-list-ii/) | Two Pointers | PHP | O(n) | O(1) |
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0150-evaluate-reverse-polish-notation/) | Stack & Queue | TypeScript | O(n) | O(n) |
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | Binary Search | C++ | O(log n) | O(1) |
 | 176 | [Second Highest Salary](../leetcode/0176-second-highest-salary/) | Database / SQL | SQL | O(n) | O(n) |
@@ -129,13 +129,13 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Bit Manipulation | Java | O(n) | O(1) |
 | 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Fast & Slow Pointers | Java | O(n) | O(1) |
 | 2161 | [Partition Array According to Given Pivot](../leetcode/2265-partition-array-according-to-given-pivot/) | Tree & Graph | Java | O(n) | O(n) |
-| 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Hash Map | Java | O(n) | O(n) |
+| 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Binary Search | Java | O(n) | O(1) |
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | Two Pointers | JavaScript | O(n) | O(1) |
 | 2492 | [Minimum Score of a Path Between Two Cities](../leetcode/2582-minimum-score-of-a-path-between-two-cities/) | Tree & Graph | Java | O(n) | O(n) |
 | 2618 | [Check if Object Instance of Class](../leetcode/2758-check-if-object-instance-of-class/) | Array / General | JavaScript | O(n) | O(1) |
 | 2622 | [Cache With Time Limit](../leetcode/2762-cache-with-time-limit/) | Hash Map | JavaScript | O(n) | O(n) |
 | 2623 | [Memoize](../leetcode/2731-memoize/) | Array / General | TypeScript | O(n) | O(1) |
-| 2624 | [Snail Traversal](../leetcode/2760-snail-traversal/) | Array / General | TypeScript | O(n) | O(1) |
+| 2624 | [Snail Traversal](../leetcode/2760-snail-traversal/) | Tree & Graph | TypeScript | O(n) | O(n) |
 | 2625 | [Flatten Deeply Nested Array](../leetcode/2759-flatten-deeply-nested-array/) | Array / General | TypeScript | O(n) | O(1) |
 | 2627 | [Debounce](../leetcode/2743-debounce/) | Sliding Window | TypeScript | O(n) | O(1) |
 | 2631 | [Group By](../leetcode/2742-group-by/) | Array / General | TypeScript | O(n) | O(1) |
@@ -172,7 +172,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 3532 | [Path Existence Queries in a Graph I](../leetcode/3838-path-existence-queries-in-a-graph-i/) | Tree & Graph | Java | O(n) | O(n) |
 | 3558 | [Number of Ways to Assign Edge Weights I](../leetcode/3844-number-of-ways-to-assign-edge-weights-i/) | Tree & Graph | Java | O(n) | O(n) |
 | 3564 | [Seasonal Sales Analysis](../leetcode/3898-seasonal-sales-analysis/) | Array / General | Python | O(n) | O(1) |
-| 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | Hash Map | C++ | O(n) | O(n) |
+| 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | Sliding Window | C++ | O(n) | O(1) |
 | 3580 | [Find Consistently Improving Employees](../leetcode/3921-find-consistently-improving-employees/) | Array / General | Python | O(n) | O(1) |
 | 3586 | [Find COVID Recovery Patients](../leetcode/3932-find-covid-recovery-patients/) | Array / General | Python | O(n) | O(1) |
 | 3601 | [Find Drivers with Improved Fuel Efficiency](../leetcode/3942-find-drivers-with-improved-fuel-efficiency/) | Array / General | Python | O(n) | O(1) |

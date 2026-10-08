@@ -559,12 +559,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -613,12 +614,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -640,12 +642,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -667,12 +670,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -800,11 +804,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Sliding Window",
+    "algorithm": "Dynamic Sliding Window Traversal",
+    "data_structure": "Array / Hash Set",
     "topics": [
-      "Array"
+      "Sliding Window",
+      "Two Pointers",
+      "Subarrays"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -1016,14 +1022,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "The  count-and-say  sequence is a sequence of digit strings defined by the recursive formula:",
     "related_ids": [
       1729,
@@ -1413,14 +1422,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an integer array  nums , find the  subarray  with the largest sum, and return  its sum .",
     "related_ids": [
       3689,
@@ -1494,15 +1506,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Strategy",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Min/Max Heap Priority Selection",
+    "data_structure": "Heap / Priority Queue",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an array of  intervals  where  intervals[i] = [start i , end i ] , merge all overlapping intervals, and return  an array of the non-overlapping intervals that cover all the intervals in the input .",
     "related_ids": [
       21,
@@ -1521,20 +1534,21 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Strategy",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Min/Max Heap Priority Selection",
+    "data_structure": "Heap / Priority Queue",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an array of non-overlapping intervals  intervals  where  intervals[i] = [start i , end i ]  represent the start and the end of the  i th   interval and  intervals  is sorted in ascending order by  start i  . You are also given an interval  newInterval = [start, end]  that represents the start and end of another interval.",
     "related_ids": [
       35,
       2725,
-      56
+      12
     ]
   },
   {
@@ -1548,14 +1562,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given a string  s  consisting of words and spaces, return  the length of the  last  word in the string.",
     "related_ids": [
       34,
@@ -1797,15 +1813,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given two binary strings  a  and  b , return  their sum as a binary string .",
     "related_ids": [
       2,
@@ -1824,17 +1842,19 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Strategy",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Min/Max Heap Priority Selection",
+    "data_structure": "Heap / Priority Queue",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an array of strings  words  and a width  maxWidth , format the text such that each line has exactly  maxWidth  characters and is fully (left and right) justified.",
     "related_ids": [
+      12,
       56,
       57
     ]
@@ -2203,12 +2223,13 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -2230,12 +2251,13 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -2425,17 +2447,16 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree, return  its maximum depth .",
     "related_ids": [
       111,
@@ -2482,17 +2503,16 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given a binary tree, determine if it is   height-balanced  .",
     "related_ids": [
       94,
@@ -2511,17 +2531,16 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given a binary tree, find its minimum depth.",
     "related_ids": [
       104,
@@ -2899,12 +2918,13 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -3472,12 +3492,13 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -3525,12 +3546,13 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -3631,17 +3653,16 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree, invert the tree, and return  its root .",
     "related_ids": [
       94,
@@ -3795,17 +3816,16 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given the  root  of a binary tree.",
     "related_ids": [
       94,
@@ -3983,14 +4003,16 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given a  pattern  and a string  s , find if  s  follows the same pattern.",
     "related_ids": [
       58,
@@ -6339,7 +6361,7 @@
     "related_ids": [
       1,
       49,
-      192
+      58
     ]
   },
   {
@@ -7380,14 +7402,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You want to build  n  new buildings in a city. The new buildings will be built in a line and are labeled from  1  to  n .",
     "related_ids": [
       53,
@@ -7954,11 +7979,13 @@
       "Kotlin"
     ],
     "lang_str": "Kotlin",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Sliding Window",
+    "algorithm": "Dynamic Sliding Window Traversal",
+    "data_structure": "Array / Hash Set",
     "topics": [
-      "Array"
+      "Sliding Window",
+      "Two Pointers",
+      "Subarrays"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -8009,16 +8036,16 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Hash Map",
-    "algorithm": "Complement Lookup / Hash Table Frequency",
-    "data_structure": "Dictionary / Hash Map",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Hash Table",
-      "Array",
-      "Complement Lookup"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given a 2D integer array  descriptions  where  descriptions[i] = [parent i , child i , isLeft i ]  indicates that  parent i   is the  parent  of  child i   in a  binary  tree of  unique  values. Furthermore,",
     "related_ids": [
       94,
@@ -8232,13 +8259,13 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Two Pointers",
-    "algorithm": "Two Pointer Convergence & Scanning",
-    "data_structure": "Array",
+    "pattern": "Sliding Window",
+    "algorithm": "Dynamic Sliding Window Traversal",
+    "data_structure": "Array / Hash Set",
     "topics": [
+      "Sliding Window",
       "Two Pointers",
-      "Array",
-      "Sorting"
+      "Subarrays"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -8472,14 +8499,17 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Write code that enhances all arrays such that you can call the  snail(rowsCount, colsCount)  method that transforms the 1D array into a 2D array organised in the pattern known as  snail traversal order . Invalid input values should output an empty array. If  rowsCount * colsCount !== nums.length , the input is considered invalid.",
     "related_ids": [
       94,
@@ -8563,8 +8593,8 @@
     "brief": "Given a function  fn  and a time in milliseconds  t , return a  debounced  version of that function.",
     "related_ids": [
       3,
-      76,
-      1477
+      30,
+      76
     ]
   },
   {
@@ -9261,7 +9291,7 @@
     "related_ids": [
       57,
       12,
-      1520
+      56
     ]
   },
   {
@@ -9616,8 +9646,8 @@
     "brief": "A company intends to give its employees a pay rise.",
     "related_ids": [
       2885,
-      54,
-      59
+      38,
+      53
     ]
   },
   {
@@ -9645,8 +9675,8 @@
     "brief": "Write a solution to rename the columns as follows:",
     "related_ids": [
       2884,
-      54,
-      59
+      38,
+      53
     ]
   },
   {
@@ -11227,16 +11257,16 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Hash Map",
-    "algorithm": "Complement Lookup / Hash Table Frequency",
-    "data_structure": "Dictionary / Hash Map",
+    "pattern": "Sliding Window",
+    "algorithm": "Dynamic Sliding Window Traversal",
+    "data_structure": "Array / Hash Set",
     "topics": [
-      "Hash Table",
-      "Array",
-      "Complement Lookup"
+      "Sliding Window",
+      "Two Pointers",
+      "Subarrays"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an  m x n  grid  classroom  where a student volunteer is tasked with cleaning up litter scattered around the room. Each cell in the grid is one of the following:",
     "related_ids": [
       1674,
@@ -11485,8 +11515,8 @@
     "brief": "You are given a directed acyclic graph of  n \u202fnodes numbered from 0\u202fto\u202f n\u202f&minus;\u202f1 . This is represented by a 2D array  edges  of length   m  , where  edges[i] = [u i , v i , cost i ]  indicates a one\u2011way communication from node\u202f u i   to node\u202f v i   with a recovery cost of\u202f cost i  .",
     "related_ids": [
       3586,
-      54,
-      59
+      38,
+      53
     ]
   },
   {

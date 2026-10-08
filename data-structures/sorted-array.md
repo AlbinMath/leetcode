@@ -14,9 +14,14 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 34 | [Find First and Last Position of Element in Sorted Array](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium | Modified Binary Search | O(log n) | O(1) |
 | 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Easy | Modified Binary Search | O(log n) | O(1) |
 | 81 | [Search in Rotated Sorted Array II](../leetcode/0081-search-in-rotated-sorted-array-ii/) | Medium | Modified Binary Search | O(n) | O(1) |
+| 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | Medium | Modified Binary Search | O(log n) | O(1) |
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard | Modified Binary Search | O(n) | O(1) |
+| 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | Medium | Modified Binary Search | O(n) | O(1) |
@@ -27,6 +32,7 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 1752 | [Check if Array Is Sorted and Rotated](../leetcode/1878-check-if-array-is-sorted-and-rotated/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 1833 | [Maximum Ice Cream Bars](../leetcode/1961-maximum-ice-cream-bars/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 1846 | [Maximum Element After Decreasing and Rearranging](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/) | Medium | Modified Binary Search | O(log n) | O(1) |
+| 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Hard | Modified Binary Search | O(n) | O(1) |
 | 3524 | [Find X Value of Array I](../leetcode/3831-find-x-value-of-array-i/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 3525 | [Find X Value of Array II](../leetcode/3840-find-x-value-of-array-ii/) | Hard | Modified Binary Search | O(n) | O(1) |
