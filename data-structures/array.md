@@ -68,6 +68,8 @@ LeetCode problems solved using **Array** data structures.
 | 342 | [Power of Four](../leetcode/0342-power-of-four/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 344 | [Reverse String](../leetcode/0344-reverse-string/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 345 | [Reverse Vowels of a String](../leetcode/0345-reverse-vowels-of-a-string/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
+| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Easy | Two Pointer Convergence & Scanning | O(n) | O(1) |
+| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Easy | Two Pointer Convergence & Scanning | O(n) | O(1) |
 | 367 | [Valid Perfect Square](../leetcode/0367-valid-perfect-square/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 374 | [Guess Number Higher or Lower](../leetcode/0374-guess-number-higher-or-lower/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 383 | [Ransom Note](../leetcode/0383-ransom-note/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |

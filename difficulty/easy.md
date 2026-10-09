@@ -78,8 +78,8 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 342 | [Power of Four](../leetcode/0342-power-of-four/) | Array / General | Python | O(n) | O(1) |
 | 344 | [Reverse String](../leetcode/0344-reverse-string/) | Array / General | Python | O(n) | O(1) |
 | 345 | [Reverse Vowels of a String](../leetcode/0345-reverse-vowels-of-a-string/) | Array / General | Python | O(n) | O(1) |
-| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Linked List | Python | O(n) | O(1) |
-| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Linked List | Python | O(n) | O(1) |
+| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Two Pointers | Python | O(n) | O(1) |
+| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Two Pointers | Python | O(n) | O(1) |
 | 367 | [Valid Perfect Square](../leetcode/0367-valid-perfect-square/) | Array / General | Python | O(n) | O(1) |
 | 374 | [Guess Number Higher or Lower](../leetcode/0374-guess-number-higher-or-lower/) | Array / General | Python | O(n) | O(1) |
 | 383 | [Ransom Note](../leetcode/0383-ransom-note/) | Array / General | Python | O(n) | O(1) |

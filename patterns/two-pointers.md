@@ -24,6 +24,10 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0234-palindrome-linked-list/Explanation.md) |
 
+| 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/0349-intersection-of-two-arrays/Explanation.md) |
+
+| 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0350-intersection-of-two-arrays-ii/Explanation.md) |
+
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/0409-longest-palindrome/Explanation.md) |
 
 | 2877 | [Create a DataFrame from List](../leetcode/3062-create-a-dataframe-from-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/3062-create-a-dataframe-from-list/Explanation.md) |
