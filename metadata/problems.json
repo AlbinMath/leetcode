@@ -5134,19 +5134,21 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an integer  num , return  a string of its  base 7  representation .",
     "related_ids": [
       1009,
       1837,
-      5
+      1
     ]
   },
   {
@@ -6398,11 +6400,12 @@
       "TypeScript"
     ],
     "lang_str": "TypeScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
     "topics": [
-      "Array"
+      "Bit Manipulation",
+      "Bitwise Math"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -6410,7 +6413,7 @@
     "related_ids": [
       73,
       762,
-      5
+      7
     ]
   },
   {
@@ -6504,12 +6507,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -6612,12 +6616,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -6639,15 +6643,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given a binary string  s , return the number of non-empty substrings that have the same number of  0 &#39;s and  1 &#39;s, and all the  0 &#39;s and all the  1 &#39;s in these substrings are grouped consecutively.",
     "related_ids": [
       38,
@@ -6991,14 +6997,15 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
     "topics": [
+      "Prefix Sum",
       "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an array of characters  letters  that is sorted in  non-decreasing order , and a character  target . There are  at least two different  characters in  letters .",
     "related_ids": [
       3720,
@@ -7069,14 +7076,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given a string  licensePlate  and an array of strings  words , find the  shortest completing  word in  words .",
     "related_ids": [
       58,
@@ -7095,12 +7104,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -7657,15 +7666,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given a positive integer  n , find and return  the  longest distance  between any two  adjacent    1  &#39;s in the binary representation of   n  . If there are no two adjacent   1  &#39;s, return   0  .",
     "related_ids": [
       67,
@@ -7713,12 +7724,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -7929,14 +7941,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an integer array  nums , move all the even integers at the beginning of the array followed by all the odd integers.",
     "related_ids": [
       922,
@@ -8298,19 +8312,21 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "In an alien language, surprisingly, they also use English lowercase letters, but possibly in a different  order . The  order  of the alphabet is some permutation of lowercase letters.",
     "related_ids": [
-      5,
-      6,
-      26
+      1,
+      49,
+      58
     ]
   },
   {
@@ -8350,17 +8366,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "A binary tree is  uni-valued  if every node in the tree has the same value.",
     "related_ids": [
       94,
@@ -8458,17 +8473,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree with unique values and the values of two different nodes of the tree  x  and  y , return  true   if the nodes corresponding to the values   x   and   y   in the tree are  cousins , or   false   otherwise.",
     "related_ids": [
       94,
@@ -9348,14 +9362,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given two arrays  arr1  and  arr2 , the elements of  arr2  are distinct, and all elements in  arr2  are also in  arr1 .",
     "related_ids": [
       905,
@@ -9650,11 +9666,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
     "topics": [
-      "Array"
+      "Bit Manipulation",
+      "Bitwise Math"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -9662,7 +9679,7 @@
     "related_ids": [
       762,
       3629,
-      5
+      7
     ]
   },
   {
@@ -10298,12 +10315,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -11088,12 +11106,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -12165,15 +12184,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Strategy",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Min/Max Heap Priority Selection",
+    "data_structure": "Heap / Priority Queue",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given two non-negative integers  low  and   high  . Return the  count of odd numbers between   low   and    high    (inclusive) .",
     "related_ids": [
       1351,
@@ -12378,14 +12398,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an array of positive integers  arr , find a pattern of length  m  that is repeated  k  or more times.",
     "related_ids": [
       459,
@@ -13395,14 +13417,17 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are assigned to put some amount of boxes onto  one truck . You are given a 2D array  boxTypes , where  boxTypes[i] = [numberOfBoxes i , numberOfUnitsPerBox i ] :",
     "related_ids": [
       53,
@@ -13746,15 +13771,17 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a string  s  consisting only of the characters  &#39;0&#39;  and  &#39;1&#39; . In one operation, you can change any  &#39;0&#39;  to  &#39;1&#39;  or vice versa.",
     "related_ids": [
       111,
@@ -13825,14 +13852,17 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given two integers,  x  and  y , which represent your current location on a Cartesian grid:  (x, y) . You are also given an array  points  where each  points[i] = [a i , b i ]  represents that a point exists at  (a i , b i ) . A point is  valid  if it shares the same x-coordinate or the same y-coordinate as your location.",
     "related_ids": [
       1160,
@@ -14013,11 +14043,12 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Array"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -14039,11 +14070,12 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
     "topics": [
-      "Array"
+      "Bit Manipulation",
+      "Bitwise Math"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -14171,14 +14203,16 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer array  nums  ( 0-indexed ). In one operation, you can choose an element of the array and increment it by  1 .",
     "related_ids": [
       1674,
@@ -14388,14 +14422,17 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a 2D integer array  logs  where each  logs[i] = [birth i , death i ]  indicates the birth and death years of the  i th   person.",
     "related_ids": [
       53,

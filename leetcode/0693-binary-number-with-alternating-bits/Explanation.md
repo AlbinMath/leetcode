@@ -1,7 +1,7 @@
 # LeetCode 693: Binary Number with Alternating Bits
 
 **LeetCode Problem #693 — Binary Number with Alternating Bits**
-Solve LeetCode Binary Number with Alternating Bits using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Binary Number with Alternating Bits using Python and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Binary Number with Alternating Bits using Python and Bit Manipula
 | LeetCode | #693 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Pointer Traversal & Node Manipulation |
+| Data Structure | Linked List |
+| Pattern | Linked List |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,29 +20,29 @@ Solve LeetCode Binary Number with Alternating Bits using Python and Bit Manipula
 Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
+1. Initialize state variables / data structure (**Linked List**).
+2. Process elements sequentially using **Pointer Traversal & Node Manipulation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Binary Number with Alternating Bits**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+Consider the standard input for **Binary Number with Alternating Bits**. Applying **Pointer Traversal & Node Manipulation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Bit Manipulation**
+**Linked List**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Linked List
+- Two Pointers
 
 ## Language
 Python
@@ -51,7 +51,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

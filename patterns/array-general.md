@@ -100,8 +100,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 500 | [Keyboard Row](../leetcode/0500-keyboard-row/) | Python | O(n) | O(1) | [Explanation](../leetcode/0500-keyboard-row/Explanation.md) |
 
-| 504 | [Base 7](../leetcode/0504-base-7/) | Python | O(n) | O(1) | [Explanation](../leetcode/0504-base-7/Explanation.md) |
-
 | 506 | [Relative Ranks](../leetcode/0506-relative-ranks/) | Python | O(n) | O(1) | [Explanation](../leetcode/0506-relative-ranks/Explanation.md) |
 
 | 507 | [Perfect Number](../leetcode/0507-perfect-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/0507-perfect-number/Explanation.md) |
@@ -128,8 +126,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 643 | [Maximum Average Subarray I](../leetcode/0643-maximum-average-subarray-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/0643-maximum-average-subarray-i/Explanation.md) |
 
-| 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/0645-set-mismatch/Explanation.md) |
-
 | 657 | [Robot Return to Origin](../leetcode/0657-robot-return-to-origin/) | Python | O(n) | O(1) | [Explanation](../leetcode/0657-robot-return-to-origin/Explanation.md) |
 
 | 661 | [Image Smoother](../leetcode/0661-image-smoother/) | Python | O(n) | O(1) | [Explanation](../leetcode/0661-image-smoother/Explanation.md) |
@@ -144,13 +140,9 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 733 | [Flood Fill](../leetcode/0733-flood-fill/) | Python | O(n) | O(1) | [Explanation](../leetcode/0733-flood-fill/Explanation.md) |
 
-| 744 | [Find Smallest Letter Greater Than Target](../leetcode/0745-find-smallest-letter-greater-than-target/) | Python | O(n) | O(1) | [Explanation](../leetcode/0745-find-smallest-letter-greater-than-target/Explanation.md) |
-
 | 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | Python | O(n) | O(1) | [Explanation](../leetcode/0747-min-cost-climbing-stairs/Explanation.md) |
 
 | 747 | [Largest Number At Least Twice of Others](../leetcode/0748-largest-number-at-least-twice-of-others/) | Python | O(n) | O(1) | [Explanation](../leetcode/0748-largest-number-at-least-twice-of-others/Explanation.md) |
-
-| 748 | [Shortest Completing Word](../leetcode/0749-shortest-completing-word/) | Python | O(n) | O(1) | [Explanation](../leetcode/0749-shortest-completing-word/Explanation.md) |
 
 | 771 | [Jewels and Stones](../leetcode/0782-jewels-and-stones/) | Python | O(n) | O(1) | [Explanation](../leetcode/0782-jewels-and-stones/Explanation.md) |
 
@@ -182,8 +174,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 892 | [Surface Area of 3D Shapes](../leetcode/0928-surface-area-of-3d-shapes/) | Python | O(n) | O(1) | [Explanation](../leetcode/0928-surface-area-of-3d-shapes/Explanation.md) |
 
-| 905 | [Sort Array By Parity](../leetcode/0941-sort-array-by-parity/) | Python | O(n) | O(1) | [Explanation](../leetcode/0941-sort-array-by-parity/Explanation.md) |
-
 | 908 | [Smallest Range I](../leetcode/0944-smallest-range-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/0944-smallest-range-i/Explanation.md) |
 
 | 914 | [X of a Kind in a Deck of Cards](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/) | Python | O(n) | O(1) | [Explanation](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/Explanation.md) |
@@ -203,8 +193,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 942 | [DI String Match](../leetcode/0979-di-string-match/) | Python | O(n) | O(1) | [Explanation](../leetcode/0979-di-string-match/Explanation.md) |
 
 | 944 | [Delete Columns to Make Sorted](../leetcode/0981-delete-columns-to-make-sorted/) | Python | O(n) | O(1) | [Explanation](../leetcode/0981-delete-columns-to-make-sorted/Explanation.md) |
-
-| 953 | [Verifying an Alien Dictionary](../leetcode/0990-verifying-an-alien-dictionary/) | Python | O(n) | O(1) | [Explanation](../leetcode/0990-verifying-an-alien-dictionary/Explanation.md) |
 
 | 961 | [N-Repeated Element in Size 2N Array](../leetcode/1001-n-repeated-element-in-size-2n-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-n-repeated-element-in-size-2n-array/Explanation.md) |
 
@@ -240,13 +228,9 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1108 | [Defanging an IP Address](../leetcode/1205-defanging-an-ip-address/) | Python | O(n) | O(1) | [Explanation](../leetcode/1205-defanging-an-ip-address/Explanation.md) |
 
-| 1122 | [Relative Sort Array](../leetcode/1217-relative-sort-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/1217-relative-sort-array/Explanation.md) |
-
 | 1128 | [Number of Equivalent Domino Pairs](../leetcode/1227-number-of-equivalent-domino-pairs/) | Python | O(n) | O(1) | [Explanation](../leetcode/1227-number-of-equivalent-domino-pairs/Explanation.md) |
 
 | 1154 | [Day of the Year](../leetcode/1260-day-of-the-year/) | Python | O(n) | O(1) | [Explanation](../leetcode/1260-day-of-the-year/Explanation.md) |
-
-| 1175 | [Prime Arrangements](../leetcode/1279-prime-arrangements/) | Python | O(n) | O(1) | [Explanation](../leetcode/1279-prime-arrangements/Explanation.md) |
 
 | 1185 | [Day of the Week](../leetcode/1289-day-of-the-week/) | Python | O(n) | O(1) | [Explanation](../leetcode/1289-day-of-the-week/Explanation.md) |
 
@@ -334,8 +318,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1556 | [Thousand Separator](../leetcode/1660-thousand-separator/) | Python | O(n) | O(1) | [Explanation](../leetcode/1660-thousand-separator/Explanation.md) |
 
-| 1566 | [Detect Pattern of Length M Repeated K or More Times](../leetcode/1689-detect-pattern-of-length-m-repeated-k-or-more-times/) | Python | O(n) | O(1) | [Explanation](../leetcode/1689-detect-pattern-of-length-m-repeated-k-or-more-times/Explanation.md) |
-
 | 1588 | [Sum of All Odd Length Subarrays](../leetcode/1693-sum-of-all-odd-length-subarrays/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1693-sum-of-all-odd-length-subarrays/Explanation.md) |
 
 | 1592 | [Rearrange Spaces Between Words](../leetcode/1714-rearrange-spaces-between-words/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1714-rearrange-spaces-between-words/Explanation.md) |
@@ -376,8 +358,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1704 | [Determine if String Halves Are Alike](../leetcode/1823-determine-if-string-halves-are-alike/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1823-determine-if-string-halves-are-alike/Explanation.md) |
 
-| 1710 | [Maximum Units on a Truck](../leetcode/1829-maximum-units-on-a-truck/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1829-maximum-units-on-a-truck/Explanation.md) |
-
 | 1716 | [Calculate Money in Leetcode Bank](../leetcode/1817-calculate-money-in-leetcode-bank/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1817-calculate-money-in-leetcode-bank/Explanation.md) |
 
 | 1732 | [Find the Highest Altitude](../leetcode/1833-find-the-highest-altitude/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/1833-find-the-highest-altitude/Explanation.md) |
@@ -390,15 +370,9 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1773 | [Count Items Matching a Rule](../leetcode/1899-count-items-matching-a-rule/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1899-count-items-matching-a-rule/Explanation.md) |
 
-| 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](../leetcode/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/Explanation.md) |
-
 | 1790 | [Check if One String Swap Can Make Strings Equal](../leetcode/1915-check-if-one-string-swap-can-make-strings-equal/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1915-check-if-one-string-swap-can-make-strings-equal/Explanation.md) |
 
 | 1791 | [Find Center of Star Graph](../leetcode/1916-find-center-of-star-graph/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1916-find-center-of-star-graph/Explanation.md) |
-
-| 1800 | [Maximum Ascending Subarray Sum](../leetcode/1927-maximum-ascending-subarray-sum/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1927-maximum-ascending-subarray-sum/Explanation.md) |
-
-| 1805 | [Number of Different Integers in a String](../leetcode/1933-number-of-different-integers-in-a-string/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1933-number-of-different-integers-in-a-string/Explanation.md) |
 
 | 1812 | [Determine Color of a Chessboard Square](../leetcode/1920-determine-color-of-a-chessboard-square/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1920-determine-color-of-a-chessboard-square/Explanation.md) |
 
@@ -406,13 +380,9 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1822 | [Sign of the Product of an Array](../leetcode/1950-sign-of-the-product-of-an-array/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1950-sign-of-the-product-of-an-array/Explanation.md) |
 
-| 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1938-minimum-operations-to-make-the-array-increasing/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1938-minimum-operations-to-make-the-array-increasing/Explanation.md) |
-
 | 1832 | [Check if the Sentence Is Pangram](../leetcode/1960-check-if-the-sentence-is-pangram/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1960-check-if-the-sentence-is-pangram/Explanation.md) |
 
 | 1848 | [Minimum Distance to the Target Element](../leetcode/1975-minimum-distance-to-the-target-element/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1975-minimum-distance-to-the-target-element/Explanation.md) |
-
-| 1854 | [Maximum Population Year](../leetcode/1983-maximum-population-year/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1983-maximum-population-year/Explanation.md) |
 
 | 1859 | [Sorting the Sentence](../leetcode/1970-sorting-the-sentence/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1970-sorting-the-sentence/Explanation.md) |
 

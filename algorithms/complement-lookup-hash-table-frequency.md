@@ -14,19 +14,26 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 290 | [Word Pattern](../leetcode/0290-word-pattern/) | Easy | Hash Map | O(n) | O(n) |
 | 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Easy | Hash Map | O(n) | O(n) |
 | 476 | [Number Complement](../leetcode/0476-number-complement/) | Easy | Hash Map | O(n) | O(n) |
+| 504 | [Base 7](../leetcode/0504-base-7/) | Easy | Hash Map | O(n) | O(n) |
 | 697 | [Degree of an Array](../leetcode/0697-degree-of-an-array/) | Easy | Hash Map | O(n) | O(n) |
 | 705 | [Design HashSet](../leetcode/0816-design-hashset/) | Easy | Hash Map | O(n) | O(n) |
 | 706 | [Design HashMap](../leetcode/0817-design-hashmap/) | Easy | Hash Map | O(n) | O(n) |
+| 748 | [Shortest Completing Word](../leetcode/0749-shortest-completing-word/) | Easy | Hash Map | O(n) | O(n) |
+| 905 | [Sort Array By Parity](../leetcode/0941-sort-array-by-parity/) | Easy | Hash Map | O(n) | O(n) |
+| 953 | [Verifying an Alien Dictionary](../leetcode/0990-verifying-an-alien-dictionary/) | Easy | Hash Map | O(n) | O(n) |
 | 1009 | [Complement of Base 10 Integer](../leetcode/1054-complement-of-base-10-integer/) | Easy | Hash Map | O(n) | O(n) |
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Easy | Hash Map | O(n) | O(n) |
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Medium | Hash Map | O(n) | O(n) |
+| 1122 | [Relative Sort Array](../leetcode/1217-relative-sort-array/) | Easy | Hash Map | O(n) | O(n) |
 | 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Easy | Hash Map | O(n) | O(n) |
 | 1345 | [Jump Game IV](../leetcode/1447-jump-game-iv/) | Hard | Hash Map | O(n) | O(n) |
 | 1386 | [Cinema Seat Allocation](../leetcode/1487-cinema-seat-allocation/) | Medium | Hash Map | O(n) | O(n) |
 | 1394 | [Find Lucky Integer in an Array](../leetcode/1510-find-lucky-integer-in-an-array/) | Easy | Hash Map | O(n) | O(n) |
+| 1566 | [Detect Pattern of Length M Repeated K or More Times](../leetcode/1689-detect-pattern-of-length-m-repeated-k-or-more-times/) | Easy | Hash Map | O(n) | O(n) |
 | 1636 | [Sort Array by Increasing Frequency](../leetcode/1741-sort-array-by-increasing-frequency/) | Easy | Hash Map | O(n) | O(n) |
 | 1674 | [Minimum Moves to Make Array Complementary](../leetcode/1793-minimum-moves-to-make-array-complementary/) | Medium | Hash Map | O(n) | O(n) |
 | 1807 | [Evaluate the Bracket Pairs of a String](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/) | Medium | Hash Map | O(n) | O(n) |
+| 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1938-minimum-operations-to-make-the-array-increasing/) | Easy | Hash Map | O(n) | O(n) |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/) | Easy | Hash Map | O(n) | O(n) |
 | 2622 | [Cache With Time Limit](../leetcode/2762-cache-with-time-limit/) | Medium | Hash Map | O(n) | O(n) |
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | Hard | Hash Map | O(n) | O(n) |

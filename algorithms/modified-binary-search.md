@@ -36,8 +36,12 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | Medium | Binary Search | O(n) | O(1) |
 | 897 | [Increasing Order Search Tree](../leetcode/0933-increasing-order-search-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 938 | [Range Sum of BST](../leetcode/0975-range-sum-of-bst/) | Easy | Binary Search | O(n) | O(1) |
+| 965 | [Univalued Binary Tree](../leetcode/1005-univalued-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
+| 993 | [Cousins in Binary Tree](../leetcode/1035-cousins-in-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 1288 | [Remove Covered Intervals](../leetcode/1222-remove-covered-intervals/) | Medium | Binary Search | O(log n) | O(1) |
+| 1290 | [Convert Binary Number in a Linked List to Integer](../leetcode/1411-convert-binary-number-in-a-linked-list-to-integer/) | Easy | Binary Search | O(n) | O(1) |
 | 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Easy | Binary Search | O(n) | O(1) |
+| 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../leetcode/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Easy | Binary Search | O(n) | O(1) |
 | 1665 | [Minimum Initial Energy to Finish Tasks](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | Hard | Binary Search | O(log n) | O(1) |
 | 1752 | [Check if Array Is Sorted and Rotated](../leetcode/1878-check-if-array-is-sorted-and-rotated/) | Easy | Binary Search | O(n) | O(1) |

@@ -20,21 +20,35 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 476 | [Number Complement](../leetcode/0476-number-complement/) | Python | O(n) | O(n) | [Explanation](../leetcode/0476-number-complement/Explanation.md) |
 
+| 504 | [Base 7](../leetcode/0504-base-7/) | Python | O(n) | O(n) | [Explanation](../leetcode/0504-base-7/Explanation.md) |
+
 | 697 | [Degree of an Array](../leetcode/0697-degree-of-an-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/0697-degree-of-an-array/Explanation.md) |
 
 | 705 | [Design HashSet](../leetcode/0816-design-hashset/) | Python | O(n) | O(n) | [Explanation](../leetcode/0816-design-hashset/Explanation.md) |
 
 | 706 | [Design HashMap](../leetcode/0817-design-hashmap/) | Python | O(n) | O(n) | [Explanation](../leetcode/0817-design-hashmap/Explanation.md) |
 
+| 748 | [Shortest Completing Word](../leetcode/0749-shortest-completing-word/) | Python | O(n) | O(n) | [Explanation](../leetcode/0749-shortest-completing-word/Explanation.md) |
+
+| 905 | [Sort Array By Parity](../leetcode/0941-sort-array-by-parity/) | Python | O(n) | O(n) | [Explanation](../leetcode/0941-sort-array-by-parity/Explanation.md) |
+
+| 953 | [Verifying an Alien Dictionary](../leetcode/0990-verifying-an-alien-dictionary/) | Python | O(n) | O(n) | [Explanation](../leetcode/0990-verifying-an-alien-dictionary/Explanation.md) |
+
 | 1009 | [Complement of Base 10 Integer](../leetcode/1054-complement-of-base-10-integer/) | Python | O(n) | O(n) | [Explanation](../leetcode/1054-complement-of-base-10-integer/Explanation.md) |
 
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Java | O(n) | O(n) | [Explanation](../leetcode/1203-print-in-order/Explanation.md) |
+
+| 1122 | [Relative Sort Array](../leetcode/1217-relative-sort-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/1217-relative-sort-array/Explanation.md) |
 
 | 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/1297-maximum-number-of-balloons/Explanation.md) |
 
 | 1394 | [Find Lucky Integer in an Array](../leetcode/1510-find-lucky-integer-in-an-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/1510-find-lucky-integer-in-an-array/Explanation.md) |
 
+| 1566 | [Detect Pattern of Length M Repeated K or More Times](../leetcode/1689-detect-pattern-of-length-m-repeated-k-or-more-times/) | Python | O(n) | O(n) | [Explanation](../leetcode/1689-detect-pattern-of-length-m-repeated-k-or-more-times/Explanation.md) |
+
 | 1636 | [Sort Array by Increasing Frequency](../leetcode/1741-sort-array-by-increasing-frequency/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1741-sort-array-by-increasing-frequency/Explanation.md) |
+
+| 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1938-minimum-operations-to-make-the-array-increasing/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1938-minimum-operations-to-make-the-array-increasing/Explanation.md) |
 
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/Explanation.md) |
 

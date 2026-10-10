@@ -6,7 +6,6 @@ LeetCode problems solved using **Linked List** data structures.
 
 | # | Problem | Difficulty | Algorithm | Time | Space |
 |---|---|---|---|---|---|
-| 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
-| 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
-| 1290 | [Convert Binary Number in a Linked List to Integer](../leetcode/1411-convert-binary-number-in-a-linked-list-to-integer/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
-| 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../leetcode/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 693 | [Binary Number with Alternating Bits](../leetcode/0693-binary-number-with-alternating-bits/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 762 | [Prime Number of Set Bits in Binary Representation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 1800 | [Maximum Ascending Subarray Sum](../leetcode/1927-maximum-ascending-subarray-sum/) | Easy | Pointer Traversal & Node Manipulation | O(n) | O(1) |

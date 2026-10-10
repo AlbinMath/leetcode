@@ -11,5 +11,6 @@ A curated selection of LeetCode problems solved using the **Min/Max Heap Priorit
 | 57 | [Insert Interval](../leetcode/0057-insert-interval/) | Medium | Heap | O(n) | O(n) |
 | 68 | [Text Justification](../leetcode/0068-text-justification/) | Hard | Heap | O(n) | O(n) |
 | 1520 | [Maximum Number of Non-Overlapping Substrings](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | Hard | Heap | O(n) | O(n) |
+| 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1630-count-odd-numbers-in-an-interval-range/) | Easy | Heap | O(n) | O(n) |
 | 2725 | [Interval Cancellation](../leetcode/2862-interval-cancellation/) | Easy | Heap | O(n) | O(n) |
 | 3414 | [Maximum Score of Non-overlapping Intervals](../leetcode/3562-maximum-score-of-non-overlapping-intervals/) | Hard | Heap | O(n) | O(n) |

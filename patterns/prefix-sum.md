@@ -12,6 +12,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 
 | 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0014-longest-common-prefix/Explanation.md) |
 
+| 744 | [Find Smallest Letter Greater Than Target](../leetcode/0745-find-smallest-letter-greater-than-target/) | Python | O(n) | O(n) | [Explanation](../leetcode/0745-find-smallest-letter-greater-than-target/Explanation.md) |
+
 | 1018 | [Binary Prefix Divisible By 5](../leetcode/1071-binary-prefix-divisible-by-5/) | Python | O(n) | O(n) | [Explanation](../leetcode/1071-binary-prefix-divisible-by-5/Explanation.md) |
 
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/Explanation.md) |

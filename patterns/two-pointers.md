@@ -30,6 +30,10 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/0409-longest-palindrome/Explanation.md) |
 
+| 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0671-second-minimum-node-in-a-binary-tree/Explanation.md) |
+
+| 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/0908-middle-of-the-linked-list/Explanation.md) |
+
 | 2877 | [Create a DataFrame from List](../leetcode/3062-create-a-dataframe-from-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/3062-create-a-dataframe-from-list/Explanation.md) |
 
 | 2878 | [Get the Size of a DataFrame](../leetcode/3076-get-the-size-of-a-dataframe/) | Python | O(n) | O(1) | [Explanation](../leetcode/3076-get-the-size-of-a-dataframe/Explanation.md) |

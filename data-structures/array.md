@@ -89,7 +89,6 @@ LeetCode problems solved using **Array** data structures.
 | 485 | [Max Consecutive Ones](../leetcode/0485-max-consecutive-ones/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 495 | [Teemo Attacking](../leetcode/0495-teemo-attacking/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 500 | [Keyboard Row](../leetcode/0500-keyboard-row/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 504 | [Base 7](../leetcode/0504-base-7/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 506 | [Relative Ranks](../leetcode/0506-relative-ranks/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 507 | [Perfect Number](../leetcode/0507-perfect-number/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 509 | [Fibonacci Number](../leetcode/1013-fibonacci-number/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
@@ -104,19 +103,17 @@ LeetCode problems solved using **Array** data structures.
 | 599 | [Minimum Index Sum of Two Lists](../leetcode/0599-minimum-index-sum-of-two-lists/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 605 | [Can Place Flowers](../leetcode/0605-can-place-flowers/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 643 | [Maximum Average Subarray I](../leetcode/0643-maximum-average-subarray-i/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 657 | [Robot Return to Origin](../leetcode/0657-robot-return-to-origin/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 661 | [Image Smoother](../leetcode/0661-image-smoother/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
+| 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Easy | Two Pointer Convergence & Scanning | O(n) | O(1) |
 | 678 | [Valid Parenthesis String](../leetcode/0678-valid-parenthesis-string/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 703 | [Kth Largest Element in a Stream](../leetcode/0789-kth-largest-element-in-a-stream/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 709 | [To Lower Case](../leetcode/0742-to-lower-case/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 724 | [Find Pivot Index](../leetcode/0724-find-pivot-index/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 728 | [Self Dividing Numbers](../leetcode/0728-self-dividing-numbers/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 733 | [Flood Fill](../leetcode/0733-flood-fill/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 744 | [Find Smallest Letter Greater Than Target](../leetcode/0745-find-smallest-letter-greater-than-target/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 747 | [Largest Number At Least Twice of Others](../leetcode/0748-largest-number-at-least-twice-of-others/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 748 | [Shortest Completing Word](../leetcode/0749-shortest-completing-word/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 771 | [Jewels and Stones](../leetcode/0782-jewels-and-stones/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 804 | [Unique Morse Code Words](../leetcode/0822-unique-morse-code-words/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 806 | [Number of Lines To Write String](../leetcode/0824-number-of-lines-to-write-string/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
@@ -128,11 +125,11 @@ LeetCode problems solved using **Array** data structures.
 | 844 | [Backspace String Compare](../leetcode/0874-backspace-string-compare/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 859 | [Buddy Strings](../leetcode/0889-buddy-strings/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 860 | [Lemonade Change](../leetcode/0890-lemonade-change/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
+| 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Easy | Two Pointer Convergence & Scanning | O(n) | O(1) |
 | 883 | [Projection Area of 3D Shapes](../leetcode/0919-projection-area-of-3d-shapes/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 884 | [Uncommon Words from Two Sentences](../leetcode/0920-uncommon-words-from-two-sentences/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 888 | [Fair Candy Swap](../leetcode/0924-fair-candy-swap/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 892 | [Surface Area of 3D Shapes](../leetcode/0928-surface-area-of-3d-shapes/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 905 | [Sort Array By Parity](../leetcode/0941-sort-array-by-parity/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 908 | [Smallest Range I](../leetcode/0944-smallest-range-i/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 914 | [X of a Kind in a Deck of Cards](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
@@ -143,7 +140,6 @@ LeetCode problems solved using **Array** data structures.
 | 941 | [Valid Mountain Array](../leetcode/0978-valid-mountain-array/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 942 | [DI String Match](../leetcode/0979-di-string-match/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 944 | [Delete Columns to Make Sorted](../leetcode/0981-delete-columns-to-make-sorted/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 953 | [Verifying an Alien Dictionary](../leetcode/0990-verifying-an-alien-dictionary/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 961 | [N-Repeated Element in Size 2N Array](../leetcode/1001-n-repeated-element-in-size-2n-array/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 977 | [Squares of a Sorted Array](../leetcode/1019-squares-of-a-sorted-array/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 989 | [Add to Array-Form of Integer](../leetcode/1031-add-to-array-form-of-integer/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
@@ -164,10 +160,8 @@ LeetCode problems solved using **Array** data structures.
 | 1108 | [Defanging an IP Address](../leetcode/1205-defanging-an-ip-address/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1117 | [Building H2O](../leetcode/1186-building-h2o/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 1122 | [Relative Sort Array](../leetcode/1217-relative-sort-array/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1128 | [Number of Equivalent Domino Pairs](../leetcode/1227-number-of-equivalent-domino-pairs/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1154 | [Day of the Year](../leetcode/1260-day-of-the-year/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 1175 | [Prime Arrangements](../leetcode/1279-prime-arrangements/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1185 | [Day of the Week](../leetcode/1289-day-of-the-week/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1195 | [Fizz Buzz Multithreaded](../leetcode/1316-fizz-buzz-multithreaded/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1200 | [Minimum Absolute Difference](../leetcode/1306-minimum-absolute-difference/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
@@ -213,7 +207,6 @@ LeetCode problems solved using **Array** data structures.
 | 1544 | [Make The String Great](../leetcode/1666-make-the-string-great/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1550 | [Three Consecutive Odds](../leetcode/1293-three-consecutive-odds/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1556 | [Thousand Separator](../leetcode/1660-thousand-separator/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 1566 | [Detect Pattern of Length M Repeated K or More Times](../leetcode/1689-detect-pattern-of-length-m-repeated-k-or-more-times/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1588 | [Sum of All Odd Length Subarrays](../leetcode/1693-sum-of-all-odd-length-subarrays/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1592 | [Rearrange Spaces Between Words](../leetcode/1714-rearrange-spaces-between-words/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1598 | [Crawler Log Folder](../leetcode/1720-crawler-log-folder/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
@@ -235,25 +228,19 @@ LeetCode problems solved using **Array** data structures.
 | 1688 | [Count of Matches in Tournament](../leetcode/1806-count-of-matches-in-tournament/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1694 | [Reformat Phone Number](../leetcode/1812-reformat-phone-number/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1704 | [Determine if String Halves Are Alike](../leetcode/1823-determine-if-string-halves-are-alike/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 1710 | [Maximum Units on a Truck](../leetcode/1829-maximum-units-on-a-truck/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1716 | [Calculate Money in Leetcode Bank](../leetcode/1817-calculate-money-in-leetcode-bank/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1732 | [Find the Highest Altitude](../leetcode/1833-find-the-highest-altitude/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1742 | [Maximum Number of Balls in a Box](../leetcode/1844-maximum-number-of-balls-in-a-box/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1748 | [Sum of Unique Elements](../leetcode/1848-sum-of-unique-elements/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1763 | [Longest Nice Substring](../leetcode/1873-longest-nice-substring/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1773 | [Count Items Matching a Rule](../leetcode/1899-count-items-matching-a-rule/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](../leetcode/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1790 | [Check if One String Swap Can Make Strings Equal](../leetcode/1915-check-if-one-string-swap-can-make-strings-equal/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1791 | [Find Center of Star Graph](../leetcode/1916-find-center-of-star-graph/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 1800 | [Maximum Ascending Subarray Sum](../leetcode/1927-maximum-ascending-subarray-sum/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 1805 | [Number of Different Integers in a String](../leetcode/1933-number-of-different-integers-in-a-string/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1812 | [Determine Color of a Chessboard Square](../leetcode/1920-determine-color-of-a-chessboard-square/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1816 | [Truncate Sentence](../leetcode/1944-truncate-sentence/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1822 | [Sign of the Product of an Array](../leetcode/1950-sign-of-the-product-of-an-array/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1938-minimum-operations-to-make-the-array-increasing/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1832 | [Check if the Sentence Is Pangram](../leetcode/1960-check-if-the-sentence-is-pangram/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1848 | [Minimum Distance to the Target Element](../leetcode/1975-minimum-distance-to-the-target-element/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 1854 | [Maximum Population Year](../leetcode/1983-maximum-population-year/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1859 | [Sorting the Sentence](../leetcode/1970-sorting-the-sentence/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1861 | [Rotating the Box](../leetcode/1972-rotating-the-box/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1869 | [Longer Contiguous Segments of Ones than Zeros](../leetcode/1999-longer-contiguous-segments-of-ones-than-zeros/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |

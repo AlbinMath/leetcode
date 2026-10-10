@@ -38,15 +38,15 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 617 | [Merge Two Binary Trees](../leetcode/0617-merge-two-binary-trees/) | Python | O(n) | O(n) | [Explanation](../leetcode/0617-merge-two-binary-trees/Explanation.md) |
 
+| 696 | [Count Binary Substrings](../leetcode/0696-count-binary-substrings/) | Python | O(n) | O(n) | [Explanation](../leetcode/0696-count-binary-substrings/Explanation.md) |
+
 | 766 | [Toeplitz Matrix](../leetcode/0777-toeplitz-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0777-toeplitz-matrix/Explanation.md) |
 
 | 867 | [Transpose Matrix](../leetcode/0898-transpose-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0898-transpose-matrix/Explanation.md) |
 
+| 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Python | O(n) | O(n) | [Explanation](../leetcode/0899-binary-gap/Explanation.md) |
+
 | 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Python | O(n) | O(n) | [Explanation](../leetcode/0904-leaf-similar-trees/Explanation.md) |
-
-| 965 | [Univalued Binary Tree](../leetcode/1005-univalued-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/1005-univalued-binary-tree/Explanation.md) |
-
-| 993 | [Cousins in Binary Tree](../leetcode/1035-cousins-in-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/1035-cousins-in-binary-tree/Explanation.md) |
 
 | 1022 | [Sum of Root To Leaf Binary Numbers](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/) | Python | O(n) | O(n) | [Explanation](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/Explanation.md) |
 
@@ -67,6 +67,14 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 1496 | [Path Crossing](../leetcode/1619-path-crossing/) | Python | O(n) | O(n) | [Explanation](../leetcode/1619-path-crossing/Explanation.md) |
 
 | 1572 | [Matrix Diagonal Sum](../leetcode/1677-matrix-diagonal-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/1677-matrix-diagonal-sum/Explanation.md) |
+
+| 1710 | [Maximum Units on a Truck](../leetcode/1829-maximum-units-on-a-truck/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1829-maximum-units-on-a-truck/Explanation.md) |
+
+| 1758 | [Minimum Changes To Make Alternating Binary String](../leetcode/1884-minimum-changes-to-make-alternating-binary-string/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1884-minimum-changes-to-make-alternating-binary-string/Explanation.md) |
+
+| 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](../leetcode/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/Explanation.md) |
+
+| 1854 | [Maximum Population Year](../leetcode/1983-maximum-population-year/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1983-maximum-population-year/Explanation.md) |
 
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](../leetcode/2015-determine-whether-matrix-can-be-obtained-by-rotation/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2015-determine-whether-matrix-can-be-obtained-by-rotation/Explanation.md) |
 

@@ -34,12 +34,12 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 589 | [N-ary Tree Preorder Traversal](../leetcode/0775-n-ary-tree-preorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
 | 590 | [N-ary Tree Postorder Traversal](../leetcode/0776-n-ary-tree-postorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
 | 617 | [Merge Two Binary Trees](../leetcode/0617-merge-two-binary-trees/) | Easy | Tree & Graph | O(n) | O(n) |
+| 696 | [Count Binary Substrings](../leetcode/0696-count-binary-substrings/) | Easy | Tree & Graph | O(n) | O(n) |
 | 766 | [Toeplitz Matrix](../leetcode/0777-toeplitz-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 867 | [Transpose Matrix](../leetcode/0898-transpose-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
+| 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Easy | Tree & Graph | O(n) | O(n) |
 | 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Easy | Tree & Graph | O(n) | O(n) |
 | 877 | [Stone Game](../leetcode/0909-stone-game/) | Medium | Tree & Graph | O(n) | O(n) |
-| 965 | [Univalued Binary Tree](../leetcode/1005-univalued-binary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
-| 993 | [Cousins in Binary Tree](../leetcode/1035-cousins-in-binary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1022 | [Sum of Root To Leaf Binary Numbers](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1030 | [Matrix Cells in Distance Order](../leetcode/1094-matrix-cells-in-distance-order/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1160 | [Find Words That Can Be Formed by Characters](../leetcode/1112-find-words-that-can-be-formed-by-characters/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -52,7 +52,11 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 1380 | [Lucky Numbers in a Matrix](../leetcode/1496-lucky-numbers-in-a-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1496 | [Path Crossing](../leetcode/1619-path-crossing/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1572 | [Matrix Diagonal Sum](../leetcode/1677-matrix-diagonal-sum/) | Easy | Tree & Graph | O(n) | O(n) |
+| 1710 | [Maximum Units on a Truck](../leetcode/1829-maximum-units-on-a-truck/) | Easy | Tree & Graph | O(n) | O(n) |
+| 1758 | [Minimum Changes To Make Alternating Binary String](../leetcode/1884-minimum-changes-to-make-alternating-binary-string/) | Easy | Tree & Graph | O(n) | O(n) |
+| 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](../leetcode/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Hard | Tree & Graph | O(n) | O(n) |
+| 1854 | [Maximum Population Year](../leetcode/1983-maximum-population-year/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](../leetcode/2015-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1914 | [Cyclically Rotating a Grid](../leetcode/2043-cyclically-rotating-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Easy | Tree & Graph | O(n) | O(n) |

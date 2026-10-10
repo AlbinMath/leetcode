@@ -1,7 +1,7 @@
 # LeetCode 645: Set Mismatch
 
 **LeetCode Problem #645 — Set Mismatch**
-Solve LeetCode Set Mismatch using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Set Mismatch using TypeScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Set Mismatch using TypeScript and Array / General. This solution 
 | LeetCode | #645 |
 | Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Set Mismatch using TypeScript and Array / General. This solution 
 You have a set of integers  s , which originally contains all the numbers from  1  to  n . Unfortunately, due to some error, one of the numbers in  s  got duplicated to another number in the set, which results in  repetition of one  number and  loss of another  number.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a **HashSet** for straightforward detection.
@@ -31,22 +31,23 @@ The code uses a **HashSet** for straightforward detection.
 Time complexity is $O(N)$ and space complexity is $O(N)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Set Mismatch**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Set Mismatch**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 TypeScript
@@ -55,7 +56,7 @@ TypeScript
 - [solution.ts](./solution.ts)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -69,7 +70,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [73. Set Matrix Zeroes](../0073-set-matrix-zeroes/)
 - [762. Prime Number of Set Bits in Binary Representation](../0767-prime-number-of-set-bits-in-binary-representation/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [7. Reverse Integer](../0007-reverse-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/set-mismatch/)

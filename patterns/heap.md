@@ -8,6 +8,8 @@ A collection of LeetCode problems solved using **Heap** pattern techniques, expl
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1630-count-odd-numbers-in-an-interval-range/) | Python | O(n) | O(n) | [Explanation](../leetcode/1630-count-odd-numbers-in-an-interval-range/Explanation.md) |
+
 | 2725 | [Interval Cancellation](../leetcode/2862-interval-cancellation/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2862-interval-cancellation/Explanation.md) |
 
 ### Medium

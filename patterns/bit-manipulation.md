@@ -12,19 +12,15 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Python | O(n) | O(1) | [Explanation](../leetcode/0461-hamming-distance/Explanation.md) |
 
+| 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/0645-set-mismatch/Explanation.md) |
+
 | 682 | [Baseball Game](../leetcode/0682-baseball-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/0682-baseball-game/Explanation.md) |
-
-| 693 | [Binary Number with Alternating Bits](../leetcode/0693-binary-number-with-alternating-bits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0693-binary-number-with-alternating-bits/Explanation.md) |
-
-| 696 | [Count Binary Substrings](../leetcode/0696-count-binary-substrings/) | Python | O(n) | O(1) | [Explanation](../leetcode/0696-count-binary-substrings/Explanation.md) |
 
 | 717 | [1-bit and 2-bit Characters](../leetcode/0717-1-bit-and-2-bit-characters/) | Python | O(n) | O(1) | [Explanation](../leetcode/0717-1-bit-and-2-bit-characters/Explanation.md) |
 
-| 762 | [Prime Number of Set Bits in Binary Representation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/) | Python | O(n) | O(1) | [Explanation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/Explanation.md) |
-
-| 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Python | O(n) | O(1) | [Explanation](../leetcode/0899-binary-gap/Explanation.md) |
-
 | 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/1236-n-th-tribonacci-number/Explanation.md) |
+
+| 1175 | [Prime Arrangements](../leetcode/1279-prime-arrangements/) | Python | O(n) | O(1) | [Explanation](../leetcode/1279-prime-arrangements/Explanation.md) |
 
 | 1356 | [Sort Integers by The Number of 1 Bits](../leetcode/1458-sort-integers-by-the-number-of-1-bits/) | Python | O(n) | O(1) | [Explanation](../leetcode/1458-sort-integers-by-the-number-of-1-bits/Explanation.md) |
 
@@ -34,9 +30,9 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 1720 | [Decode XORed Array](../leetcode/1839-decode-xored-array/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1839-decode-xored-array/Explanation.md) |
 
-| 1758 | [Minimum Changes To Make Alternating Binary String](../leetcode/1884-minimum-changes-to-make-alternating-binary-string/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1884-minimum-changes-to-make-alternating-binary-string/Explanation.md) |
-
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](../leetcode/1910-check-if-binary-string-has-at-most-one-segment-of-ones/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1910-check-if-binary-string-has-at-most-one-segment-of-ones/Explanation.md) |
+
+| 1805 | [Number of Different Integers in a String](../leetcode/1933-number-of-different-integers-in-a-string/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1933-number-of-different-integers-in-a-string/Explanation.md) |
 
 | 1863 | [Sum of All Subset XOR Totals](../leetcode/1993-sum-of-all-subset-xor-totals/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1993-sum-of-all-subset-xor-totals/Explanation.md) |
 

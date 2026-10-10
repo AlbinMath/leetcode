@@ -46,7 +46,15 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 938 | [Range Sum of BST](../leetcode/0975-range-sum-of-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0975-range-sum-of-bst/Explanation.md) |
 
+| 965 | [Univalued Binary Tree](../leetcode/1005-univalued-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/1005-univalued-binary-tree/Explanation.md) |
+
+| 993 | [Cousins in Binary Tree](../leetcode/1035-cousins-in-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/1035-cousins-in-binary-tree/Explanation.md) |
+
+| 1290 | [Convert Binary Number in a Linked List to Integer](../leetcode/1411-convert-binary-number-in-a-linked-list-to-integer/) | Python | O(n) | O(1) | [Explanation](../leetcode/1411-convert-binary-number-in-a-linked-list-to-integer/Explanation.md) |
+
 | 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/1256-rank-transform-of-an-array/Explanation.md) |
+
+| 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../leetcode/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/Explanation.md) |
 
 | 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Scala | O(n) | O(1) | [Explanation](../leetcode/1574-maximum-product-of-two-elements-in-an-array/Explanation.md) |
 

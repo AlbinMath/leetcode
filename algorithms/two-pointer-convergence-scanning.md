@@ -24,6 +24,8 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Easy | Two Pointers | O(n) | O(1) |
 | 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Easy | Two Pointers | O(n) | O(1) |
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Easy | Two Pointers | O(n) | O(1) |
+| 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Easy | Two Pointers | O(n) | O(1) |
+| 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | Two Pointers | O(n) | O(1) |
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | Medium | Two Pointers | O(n) | O(1) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard | Two Pointers | O(n) | O(1) |

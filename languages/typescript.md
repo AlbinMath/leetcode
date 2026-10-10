@@ -11,7 +11,7 @@ A collection of LeetCode problems implemented in **TypeScript** with detailed co
 | 448 | [Find All Numbers Disappeared in an Array](../leetcode/0448-find-all-numbers-disappeared-in-an-array/) | Easy | Array / General | O(n) | O(1) |
 | 485 | [Max Consecutive Ones](../leetcode/0485-max-consecutive-ones/) | Easy | Array / General | O(n) | O(1) |
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | Medium | Stack & Queue | O(n) | O(n) |
-| 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | Easy | Array / General | O(n) | O(1) |
+| 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | Medium | Monotonic Stack | O(n) | O(n) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | Easy | Prefix Sum | O(n) | O(n) |
 | 1441 | [Build an Array With Stack Operations](../leetcode/1552-build-an-array-with-stack-operations/) | Medium | Stack & Queue | O(n) | O(n) |

@@ -8,6 +8,7 @@ A curated selection of LeetCode problems solved using the **Prefix Sum Precomput
 |---|---|---|---|---|---|
 | 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Easy | Prefix Sum | O(n) | O(n) |
 | 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Easy | Prefix Sum | O(n) | O(n) |
+| 744 | [Find Smallest Letter Greater Than Target](../leetcode/0745-find-smallest-letter-greater-than-target/) | Easy | Prefix Sum | O(n) | O(n) |
 | 1018 | [Binary Prefix Divisible By 5](../leetcode/1071-binary-prefix-divisible-by-5/) | Easy | Prefix Sum | O(n) | O(n) |
 | 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | Medium | Prefix Sum | O(n) | O(n) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | Easy | Prefix Sum | O(n) | O(n) |
