@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [594. Longest Harmonious Subsequence](../0594-longest-harmonious-subsequence/)
+- [674. Longest Continuous Increasing Subsequence](../0674-longest-continuous-increasing-subsequence/)
 - [3702. Longest Subsequence With Non-Zero Bitwise XOR](../4033-longest-subsequence-with-non-zero-bitwise-xor/)
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-uncommon-subsequence-i/)

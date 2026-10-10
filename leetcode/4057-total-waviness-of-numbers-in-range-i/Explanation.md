@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3753. Total Waviness of Numbers in Range II](../4128-total-waviness-of-numbers-in-range-ii/)
-- [3689. Maximum Total Subarray Value I](../4005-maximum-total-subarray-value-i/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
+- [908. Smallest Range I](../0944-smallest-range-i/)
+- [1523. Count Odd Numbers in an Interval Range](../1630-count-odd-numbers-in-an-interval-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/)

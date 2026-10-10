@@ -75,7 +75,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [940. Distinct Subsequences II](../0977-distinct-subsequences-ii/)
 - [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
-- [3336. Find the Number of Subsequences With Equal GCD](../3608-find-the-number-of-subsequences-with-equal-gcd/)
+- [1332. Remove Palindromic Subsequences](../1454-remove-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-subsequences/)

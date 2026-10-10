@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
 - [49. Group Anagrams](../0049-group-anagrams/)
-- [1484. Group Sold Products By The Date](../1625-group-sold-products-by-the-date/)
+- [1399. Count Largest Group](../1500-count-largest-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-by/)

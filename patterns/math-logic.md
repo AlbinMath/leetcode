@@ -18,7 +18,27 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 796 | [Rotate String](../leetcode/0812-rotate-string/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0812-rotate-string/Explanation.md) |
 
+| 812 | [Largest Triangle Area](../leetcode/0830-largest-triangle-area/) | Python | O(n) | O(1) | [Explanation](../leetcode/0830-largest-triangle-area/Explanation.md) |
+
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0866-rectangle-overlap/Explanation.md) |
+
+| 976 | [Largest Perimeter Triangle](../leetcode/1018-largest-perimeter-triangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/1018-largest-perimeter-triangle/Explanation.md) |
+
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Python | O(n) | O(1) | [Explanation](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/Explanation.md) |
+
+| 1295 | [Find Numbers with Even Number of Digits](../leetcode/1421-find-numbers-with-even-number-of-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/1421-find-numbers-with-even-number-of-digits/Explanation.md) |
+
+| 1725 | [Number Of Rectangles That Can Form The Largest Square](../leetcode/1843-number-of-rectangles-that-can-form-the-largest-square/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1843-number-of-rectangles-that-can-form-the-largest-square/Explanation.md) |
+
+| 1736 | [Latest Time by Replacing Hidden Digits](../leetcode/1858-latest-time-by-replacing-hidden-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1858-latest-time-by-replacing-hidden-digits/Explanation.md) |
+
+| 1796 | [Second Largest Digit in a String](../leetcode/1904-second-largest-digit-in-a-string/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1904-second-largest-digit-in-a-string/Explanation.md) |
+
+| 1837 | [Sum of Digits in Base K](../leetcode/1965-sum-of-digits-in-base-k/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1965-sum-of-digits-in-base-k/Explanation.md) |
+
+| 1844 | [Replace All Digits with Characters](../leetcode/1954-replace-all-digits-with-characters/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1954-replace-all-digits-with-characters/Explanation.md) |
+
+| 1945 | [Sum of Digits of String After Convert](../leetcode/2076-sum-of-digits-of-string-after-convert/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2076-sum-of-digits-of-string-after-convert/Explanation.md) |
 
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2639-separate-the-digits-in-an-array/Explanation.md) |
 

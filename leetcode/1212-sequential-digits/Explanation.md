@@ -73,7 +73,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [258. Add Digits](../0258-add-digits/)
 - [788. Rotated Digits](../0804-rotated-digits/)
-- [2553. Separate the Digits in an Array](../2639-separate-the-digits-in-an-array/)
+- [1281. Subtract the Product and Sum of Digits of an Integer](../1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sequential-digits/)

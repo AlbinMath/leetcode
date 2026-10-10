@@ -64,8 +64,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [31. Next Permutation](../0031-next-permutation/)
-- [2648. Generate Fibonacci Sequence](../2775-generate-fibonacci-sequence/)
-- [3302. Find the Lexicographically Smallest Valid Sequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
+- [1502. Can Make Arithmetic Progression From Sequence](../1626-can-make-arithmetic-progression-from-sequence/)
+- [1920. Build Array from Permutation](../2048-build-array-from-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/permutation-sequence/)

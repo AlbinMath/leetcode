@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [596. Classes With at Least 5 Students](../0596-classes-with-at-least-5-students/)
 - [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
-- [1050. Actors and Directors Who Cooperated At Least Three Times](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
+- [747. Largest Number At Least Twice of Others](../0748-largest-number-at-least-twice-of-others/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)

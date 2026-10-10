@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [396. Rotate Function](../0396-rotate-function/)
-- [2629. Function Composition](../2741-function-composition/)
-- [2666. Allow One Function Call](../2796-allow-one-function-call/)
+- [705. Design HashSet](../0816-design-hashset/)
+- [706. Design HashMap](../0817-design-hashmap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-cancellable-function/)

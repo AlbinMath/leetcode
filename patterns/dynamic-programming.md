@@ -14,6 +14,14 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | 594 | [Longest Harmonious Subsequence](../leetcode/0594-longest-harmonious-subsequence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0594-longest-harmonious-subsequence/Explanation.md) |
 
+| 674 | [Longest Continuous Increasing Subsequence](../leetcode/0674-longest-continuous-increasing-subsequence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0674-longest-continuous-increasing-subsequence/Explanation.md) |
+
+| 1332 | [Remove Palindromic Subsequences](../leetcode/1454-remove-palindromic-subsequences/) | Python | O(n) | O(n) | [Explanation](../leetcode/1454-remove-palindromic-subsequences/Explanation.md) |
+
+| 1403 | [Minimum Subsequence in Non-Increasing Order](../leetcode/1519-minimum-subsequence-in-non-increasing-order/) | Python | O(n) | O(n) | [Explanation](../leetcode/1519-minimum-subsequence-in-non-increasing-order/Explanation.md) |
+
+| 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2121-find-if-path-exists-in-graph/Explanation.md) |
+
 ### Medium
 
 | # | Problem | Language | Time | Space | Explanation |

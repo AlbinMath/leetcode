@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [819. Most Common Word](../0837-most-common-word/)
 - [11. Container With Most Water](../0011-container-with-most-water/)
 - [14. Longest Common Prefix](../0014-longest-common-prefix/)
-- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-course-pairs/)

@@ -8,12 +8,16 @@ A curated selection of LeetCode problems solved using the **Prefix Sum Precomput
 |---|---|---|---|---|---|
 | 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Easy | Prefix Sum | O(n) | O(n) |
 | 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Easy | Prefix Sum | O(n) | O(n) |
+| 1018 | [Binary Prefix Divisible By 5](../leetcode/1071-binary-prefix-divisible-by-5/) | Easy | Prefix Sum | O(n) | O(n) |
 | 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | Medium | Prefix Sum | O(n) | O(n) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | Easy | Prefix Sum | O(n) | O(n) |
+| 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](../leetcode/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy | Prefix Sum | O(n) | O(n) |
 | 1563 | [Stone Game V](../leetcode/1685-stone-game-v/) | Hard | Prefix Sum | O(n) | O(n) |
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](../leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/) | Medium | Prefix Sum | O(n) | O(n) |
 | 1871 | [Jump Game VII](../leetcode/2001-jump-game-vii/) | Medium | Prefix Sum | O(n) | O(n) |
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Hard | Prefix Sum | O(n) | O(n) |
+| 1961 | [Check If String Is a Prefix of Array](../leetcode/2093-check-if-string-is-a-prefix-of-array/) | Easy | Prefix Sum | O(n) | O(n) |
+| 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Easy | Prefix Sum | O(n) | O(n) |
 | 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Easy | Prefix Sum | O(n) | O(n) |
 | 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/) | Medium | Prefix Sum | O(n) | O(n) |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | Prefix Sum | O(n) | O(n) |

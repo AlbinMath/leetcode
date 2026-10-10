@@ -63,9 +63,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1394. Find Lucky Integer in an Array](../1510-find-lucky-integer-in-an-array/)
 - [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
 - [3731. Find Missing Elements](../4107-find-missing-elements/)
-- [7. Reverse Integer](../0007-reverse-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-largest-almost-missing-integer/)

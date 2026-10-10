@@ -65,9 +65,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1742. Maximum Number of Balls in a Box](../1844-maximum-number-of-balls-in-a-box/)
 - [1914. Cyclically Rotating a Grid](../2043-cyclically-rotating-a-grid/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotating-the-box/)

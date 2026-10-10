@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [118. Pascal's Triangle](../0118-pascals-triangle/)
 - [119. Pascal's Triangle II](../0119-pascals-triangle-ii/)
-- [175. Combine Two Tables](../0175-combine-two-tables/)
+- [812. Largest Triangle Area](../0830-largest-triangle-area/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/triangle-judgement/)

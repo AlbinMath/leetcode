@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 - [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
-- [3536. Maximum Product of Two Digits](../3859-maximum-product-of-two-digits/)
+- [1624. Largest Substring Between Two Equal Characters](../1746-largest-substring-between-two-equal-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)

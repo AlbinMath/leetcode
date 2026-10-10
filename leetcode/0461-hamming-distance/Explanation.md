@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [72. Edit Distance](../0072-edit-distance/)
-- [7. Reverse Integer](../0007-reverse-integer/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
+- [821. Shortest Distance to a Character](../0841-shortest-distance-to-a-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/hamming-distance/)

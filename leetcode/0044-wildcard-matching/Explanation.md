@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
+- [1408. String Matching in an Array](../1524-string-matching-in-an-array/)
+- [1773. Count Items Matching a Rule](../1899-count-items-matching-a-rule/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/wildcard-matching/)

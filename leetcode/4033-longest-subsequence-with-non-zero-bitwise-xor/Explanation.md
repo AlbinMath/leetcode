@@ -66,7 +66,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [521. Longest Uncommon Subsequence I](../0521-longest-uncommon-subsequence-i/)
 - [594. Longest Harmonious Subsequence](../0594-longest-harmonious-subsequence/)
-- [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../4135-concatenate-non-zero-digits-and-multiply-by-sum-i/)
+- [674. Longest Continuous Increasing Subsequence](../0674-longest-continuous-increasing-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/)

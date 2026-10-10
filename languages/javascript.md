@@ -27,6 +27,12 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1520 | [Maximum Number of Non-Overlapping Substrings](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | Hard | Heap | O(n) | O(n) |
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](../leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/) | Medium | Prefix Sum | O(n) | O(n) |
 | 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | Medium | Sliding Window | O(n) | O(1) |
+| 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | Easy | Dynamic Programming | O(n) | O(n) |
+| 1974 | [Minimum Time to Type Word Using Special Typewriter](../leetcode/2088-minimum-time-to-type-word-using-special-typewriter/) | Easy | Array / General | O(n) | O(1) |
+| 1984 | [Minimum Difference Between Highest and Lowest of K Scores](../leetcode/2112-minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy | Array / General | O(n) | O(1) |
+| 1991 | [Find the Middle Index in Array](../leetcode/2102-find-the-middle-index-in-array/) | Easy | Array / General | O(n) | O(1) |
+| 1995 | [Count Special Quadruplets](../leetcode/2122-count-special-quadruplets/) | Easy | Array / General | O(n) | O(1) |
+| 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Easy | Prefix Sum | O(n) | O(n) |
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | Medium | Two Pointers | O(n) | O(1) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard | Two Pointers | O(n) | O(1) |
 | 2618 | [Check if Object Instance of Class](../leetcode/2758-check-if-object-instance-of-class/) | Medium | Array / General | O(n) | O(1) |

@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
+- [1399. Count Largest Group](../1500-count-largest-group/)
 - [1484. Group Sold Products By The Date](../1625-group-sold-products-by-the-date/)
-- [2631. Group By](../2742-group-by/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-anagrams/)

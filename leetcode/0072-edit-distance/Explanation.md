@@ -64,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [461. Hamming Distance](../0461-hamming-distance/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
+- [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
+- [821. Shortest Distance to a Character](../0841-shortest-distance-to-a-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/edit-distance/)

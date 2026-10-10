@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [64. Minimum Path Sum](../0064-minimum-path-sum/)
 - [112. Path Sum](../0112-path-sum/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../2349--check-if-there-is-a-valid-parentheses-string-path/)
+- [1496. Path Crossing](../1619-path-crossing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/simplify-path/)

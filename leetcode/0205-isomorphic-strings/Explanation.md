@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [43. Multiply Strings](../0043-multiply-strings/)
 - [415. Add Strings](../0415-add-strings/)
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [859. Buddy Strings](../0889-buddy-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/isomorphic-strings/)

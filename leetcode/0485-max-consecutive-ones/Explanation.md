@@ -72,7 +72,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [180. Consecutive Numbers](../0180-consecutive-numbers/)
 - [1301. Number of Paths with Max Score](../1234-number-of-paths-with-max-score/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [1446. Consecutive Characters](../1542-consecutive-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-consecutive-ones/)

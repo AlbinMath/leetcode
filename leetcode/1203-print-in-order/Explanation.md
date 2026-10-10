@@ -72,8 +72,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [183. Customers Who Never Order](../0183-customers-who-never-order/)
-- [1115. Print FooBar Alternately](../1187-print-foobar-alternately/)
-- [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
+- [897. Increasing Order Search Tree](../0933-increasing-order-search-tree/)
+- [1030. Matrix Cells in Distance Order](../1094-matrix-cells-in-distance-order/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-in-order/)

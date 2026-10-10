@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1309. Decrypt String from Alphabet to Integer Mapping](../1434-decrypt-string-from-alphabet-to-integer-mapping/)
 - [7. Reverse Integer](../0007-reverse-integer/)
 - [12. Integer to Roman](../0012-integer-to-roman/)
-- [13. Roman to Integer](../0013-roman-to-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/string-to-integer-atoi/)

@@ -72,9 +72,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1694. Reformat Phone Number](../1812-reformat-phone-number/)
 - [9. Palindrome Number](../0009-palindrome-number/)
 - [65. Valid Number](../0065-valid-number/)
-- [77. Combinations](../0077-combinations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)

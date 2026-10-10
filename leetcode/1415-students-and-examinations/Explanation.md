@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [596. Classes With at Least 5 Students](../0596-classes-with-at-least-5-students/)
-- [3421. Find Students Who Improved](../3767-find-students-who-improved/)
-- [3617. Find Students with Study Spiral Pattern](../3961-find-students-with-study-spiral-pattern/)
+- [1450. Number of Students Doing Homework at a Given Time](../1560-number-of-students-doing-homework-at-a-given-time/)
+- [1700. Number of Students Unable to Eat Lunch](../1802-number-of-students-unable-to-eat-lunch/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/students-and-examinations/)

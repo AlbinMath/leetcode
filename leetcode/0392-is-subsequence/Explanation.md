@@ -66,7 +66,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [521. Longest Uncommon Subsequence I](../0521-longest-uncommon-subsequence-i/)
 - [594. Longest Harmonious Subsequence](../0594-longest-harmonious-subsequence/)
-- [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
+- [674. Longest Continuous Increasing Subsequence](../0674-longest-continuous-increasing-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/is-subsequence/)

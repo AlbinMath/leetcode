@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [290. Word Pattern](../0290-word-pattern/)
 - [459. Repeated Substring Pattern](../0459-repeated-substring-pattern/)
-- [3617. Find Students with Study Spiral Pattern](../3961-find-students-with-study-spiral-pattern/)
+- [1566. Detect Pattern of Length M Repeated K or More Times](../1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/dna-pattern-recognition/)

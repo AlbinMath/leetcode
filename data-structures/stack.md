@@ -20,6 +20,7 @@ LeetCode problems solved using **Stack** data structures.
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 856 | [Score of Parentheses](../leetcode/0886-score-of-parentheses/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
+| 896 | [Monotonic Array](../leetcode/0932-monotonic-array/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0957-minimum-add-to-make-parentheses-valid/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1021 | [Remove Outermost Parentheses](../leetcode/1078-remove-outermost-parentheses/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
@@ -27,7 +28,9 @@ LeetCode problems solved using **Stack** data structures.
 | 1190 | [Reverse Substrings Between Each Pair of Parentheses](../leetcode/1298-reverse-substrings-between-each-pair-of-parentheses/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1441 | [Build an Array With Stack Operations](../leetcode/1552-build-an-array-with-stack-operations/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
+| 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1648-minimum-insertions-to-balance-a-parentheses-string/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
+| 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1802-number-of-students-unable-to-eat-lunch/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2888 | [Reshape Data: Concatenate](../leetcode/3064-reshape-data-concatenate/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |

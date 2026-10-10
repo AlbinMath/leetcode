@@ -20,6 +20,8 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Java | O(n) | O(n) | [Explanation](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/Explanation.md) |
 
+| 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1802-number-of-students-unable-to-eat-lunch/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1802-number-of-students-unable-to-eat-lunch/Explanation.md) |
+
 | 2888 | [Reshape Data: Concatenate](../leetcode/3064-reshape-data-concatenate/) | Python | O(n) | O(n) | [Explanation](../leetcode/3064-reshape-data-concatenate/Explanation.md) |
 
 ### Medium
@@ -41,6 +43,8 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 | 1190 | [Reverse Substrings Between Each Pair of Parentheses](../leetcode/1298-reverse-substrings-between-each-pair-of-parentheses/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1298-reverse-substrings-between-each-pair-of-parentheses/Explanation.md) |
 
 | 1441 | [Build an Array With Stack Operations](../leetcode/1552-build-an-array-with-stack-operations/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1552-build-an-array-with-stack-operations/Explanation.md) |
+
+| 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1648-minimum-insertions-to-balance-a-parentheses-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/1648-minimum-insertions-to-balance-a-parentheses-string/Explanation.md) |
 
 ### Hard
 

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [653. Two Sum Iv   Input Is A Bst](../0653-two-sum-iv---input-is-a-bst/)
+- [938. Range Sum of BST](../0975-range-sum-of-bst/)
 - [1. Two Sum](../0001-two-sum/)
-- [39. Combination Sum](../0039-combination-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-sum-query---immutable/)

@@ -64,9 +64,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
+- [1217. Minimum Cost to Move Chips to The Same Position](../1329-minimum-cost-to-move-chips-to-the-same-position/)
 - [64. Minimum Path Sum](../0064-minimum-path-sum/)
 - [76. Minimum Window Substring](../0076-minimum-window-substring/)
-- [111. Minimum Depth of Binary Tree](../0111-minimum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)

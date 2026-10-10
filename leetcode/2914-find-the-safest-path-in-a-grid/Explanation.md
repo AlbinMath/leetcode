@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1971. Find if Path Exists in Graph](../2121-find-if-path-exists-in-graph/)
 - [3286. Find a Safe Walk Through a Grid](../3558-find-a-safe-walk-through-a-grid/)
 - [3742. Maximum Path Score in a Grid](../3986-maximum-path-score-in-a-grid/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)

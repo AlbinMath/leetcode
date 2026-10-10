@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [168. Excel Sheet Column Title](../0168-excel-sheet-column-title/)
 - [171. Excel Sheet Column Number](../0171-excel-sheet-column-number/)
-- [2196. Create Binary Tree From Descriptions](../2306-create-binary-tree-from-descriptions/)
+- [1389. Create Target Array in the Given Order](../1505-create-target-array-in-the-given-order/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-a-new-column/)

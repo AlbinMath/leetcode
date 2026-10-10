@@ -36,7 +36,39 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 590 | [N-ary Tree Postorder Traversal](../leetcode/0776-n-ary-tree-postorder-traversal/) | Python | O(n) | O(n) | [Explanation](../leetcode/0776-n-ary-tree-postorder-traversal/Explanation.md) |
 
+| 617 | [Merge Two Binary Trees](../leetcode/0617-merge-two-binary-trees/) | Python | O(n) | O(n) | [Explanation](../leetcode/0617-merge-two-binary-trees/Explanation.md) |
+
+| 766 | [Toeplitz Matrix](../leetcode/0777-toeplitz-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0777-toeplitz-matrix/Explanation.md) |
+
+| 867 | [Transpose Matrix](../leetcode/0898-transpose-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0898-transpose-matrix/Explanation.md) |
+
+| 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Python | O(n) | O(n) | [Explanation](../leetcode/0904-leaf-similar-trees/Explanation.md) |
+
+| 965 | [Univalued Binary Tree](../leetcode/1005-univalued-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/1005-univalued-binary-tree/Explanation.md) |
+
+| 993 | [Cousins in Binary Tree](../leetcode/1035-cousins-in-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/1035-cousins-in-binary-tree/Explanation.md) |
+
+| 1022 | [Sum of Root To Leaf Binary Numbers](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/) | Python | O(n) | O(n) | [Explanation](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/Explanation.md) |
+
+| 1030 | [Matrix Cells in Distance Order](../leetcode/1094-matrix-cells-in-distance-order/) | Python | O(n) | O(n) | [Explanation](../leetcode/1094-matrix-cells-in-distance-order/Explanation.md) |
+
+| 1160 | [Find Words That Can Be Formed by Characters](../leetcode/1112-find-words-that-can-be-formed-by-characters/) | Python | O(n) | O(n) | [Explanation](../leetcode/1112-find-words-that-can-be-formed-by-characters/Explanation.md) |
+
+| 1252 | [Cells with Odd Values in a Matrix](../leetcode/1378-cells-with-odd-values-in-a-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/1378-cells-with-odd-values-in-a-matrix/Explanation.md) |
+
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Racket | O(n) | O(n) | [Explanation](../leetcode/1386-shift-2d-grid/Explanation.md) |
+
+| 1337 | [The K Weakest Rows in a Matrix](../leetcode/1463-the-k-weakest-rows-in-a-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/1463-the-k-weakest-rows-in-a-matrix/Explanation.md) |
+
+| 1351 | [Count Negative Numbers in a Sorted Matrix](../leetcode/1476-count-negative-numbers-in-a-sorted-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/1476-count-negative-numbers-in-a-sorted-matrix/Explanation.md) |
+
+| 1380 | [Lucky Numbers in a Matrix](../leetcode/1496-lucky-numbers-in-a-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/1496-lucky-numbers-in-a-matrix/Explanation.md) |
+
+| 1496 | [Path Crossing](../leetcode/1619-path-crossing/) | Python | O(n) | O(n) | [Explanation](../leetcode/1619-path-crossing/Explanation.md) |
+
+| 1572 | [Matrix Diagonal Sum](../leetcode/1677-matrix-diagonal-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/1677-matrix-diagonal-sum/Explanation.md) |
+
+| 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](../leetcode/2015-determine-whether-matrix-can-be-obtained-by-rotation/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2015-determine-whether-matrix-can-be-obtained-by-rotation/Explanation.md) |
 
 | 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/Explanation.md) |
 

@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [65. Valid Number](../0065-valid-number/)
+- [747. Largest Number At Least Twice of Others](../0748-largest-number-at-least-twice-of-others/)
+- [1725. Number Of Rectangles That Can Form The Largest Square](../1843-number-of-rectangles-that-can-form-the-largest-square/)
+- [1903. Largest Odd Number in String](../2032-largest-odd-number-in-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)

@@ -36,6 +36,16 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0637-average-of-levels-in-binary-tree/Explanation.md) |
 
+| 700 | [Search in a Binary Search Tree](../leetcode/0783-search-in-a-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0783-search-in-a-binary-search-tree/Explanation.md) |
+
+| 704 | [Binary Search](../leetcode/0792-binary-search/) | Python | O(log n) | O(1) | [Explanation](../leetcode/0792-binary-search/Explanation.md) |
+
+| 783 | [Minimum Distance Between BST Nodes](../leetcode/0799-minimum-distance-between-bst-nodes/) | Python | O(n) | O(1) | [Explanation](../leetcode/0799-minimum-distance-between-bst-nodes/Explanation.md) |
+
+| 897 | [Increasing Order Search Tree](../leetcode/0933-increasing-order-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0933-increasing-order-search-tree/Explanation.md) |
+
+| 938 | [Range Sum of BST](../leetcode/0975-range-sum-of-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0975-range-sum-of-bst/Explanation.md) |
+
 | 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/1256-rank-transform-of-an-array/Explanation.md) |
 
 | 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Scala | O(n) | O(1) | [Explanation](../leetcode/1574-maximum-product-of-two-elements-in-an-array/Explanation.md) |

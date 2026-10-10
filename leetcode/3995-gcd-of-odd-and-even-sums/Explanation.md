@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
 - [3220. Odd and Even Transactions](../3530-odd-and-even-transactions/)
-- [3312. Sorted GCD Pair Queries](../3583-sorted-gcd-pair-queries/)
+- [1252. Cells with Odd Values in a Matrix](../1378-cells-with-odd-values-in-a-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/gcd-of-odd-and-even-sums/)

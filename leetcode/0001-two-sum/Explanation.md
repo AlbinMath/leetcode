@@ -69,7 +69,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
 - [653. Two Sum Iv   Input Is A Bst](../0653-two-sum-iv---input-is-a-bst/)
-- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [1317. Convert Integer to the Sum of Two No-Zero Integers](../1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-sum/)

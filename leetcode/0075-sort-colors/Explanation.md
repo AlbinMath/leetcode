@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2724. Sort By](../2860-sort-by/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
+- [905. Sort Array By Parity](../0941-sort-array-by-parity/)
+- [922. Sort Array By Parity II](../0958-sort-array-by-parity-ii/)
+- [1122. Relative Sort Array](../1217-relative-sort-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-colors/)

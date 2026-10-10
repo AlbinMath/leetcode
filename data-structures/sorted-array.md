@@ -30,7 +30,12 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Medium | Modified Binary Search | O(n) | O(1) |
+| 700 | [Search in a Binary Search Tree](../leetcode/0783-search-in-a-binary-search-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 704 | [Binary Search](../leetcode/0792-binary-search/) | Easy | Modified Binary Search | O(log n) | O(1) |
+| 783 | [Minimum Distance Between BST Nodes](../leetcode/0799-minimum-distance-between-bst-nodes/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | Medium | Modified Binary Search | O(n) | O(1) |
+| 897 | [Increasing Order Search Tree](../leetcode/0933-increasing-order-search-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 938 | [Range Sum of BST](../leetcode/0975-range-sum-of-bst/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 1288 | [Remove Covered Intervals](../leetcode/1222-remove-covered-intervals/) | Medium | Modified Binary Search | O(log n) | O(1) |
 | 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Easy | Modified Binary Search | O(n) | O(1) |

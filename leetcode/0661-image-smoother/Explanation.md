@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [48. Rotate Image](../0048-rotate-image/)
+- [832. Flipping an Image](../0861-flipping-an-image/)
 - [835. Image Overlap](../0864-image-overlap/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/image-smoother/)

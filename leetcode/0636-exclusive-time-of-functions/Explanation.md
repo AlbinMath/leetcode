@@ -73,8 +73,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
-- [1661. Average Time of Process per Machine](../1801-average-time-of-process-per-machine/)
-- [1741. Find Total Time Spent by Each Employee](../1892-find-total-time-spent-by-each-employee/)
+- [1266. Minimum Time Visiting All Points](../1395-minimum-time-visiting-all-points/)
+- [1450. Number of Students Doing Homework at a Given Time](../1560-number-of-students-doing-homework-at-a-given-time/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/exclusive-time-of-functions/)

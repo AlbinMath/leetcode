@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1729. Find Followers Count](../1877-find-followers-count/)
-- [1907. Count Salary Categories](../2057-count-salary-categories/)
-- [2265. Count Nodes Equal to Average of Subtree](../2347-count-nodes-equal-to-average-of-subtree/)
+- [696. Count Binary Substrings](../0696-count-binary-substrings/)
+- [1351. Count Negative Numbers in a Sorted Matrix](../1476-count-negative-numbers-in-a-sorted-matrix/)
+- [1399. Count Largest Group](../1500-count-largest-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-and-say/)

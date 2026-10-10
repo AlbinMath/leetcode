@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1207. Unique Number of Occurrences](../1319-unique-number-of-occurrences/)
 - [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
 - [3513. Number of Unique XOR Triplets I](../3824-number-of-unique-xor-triplets-i/)
-- [3514. Number of Unique XOR Triplets II](../3820-number-of-unique-xor-triplets-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)

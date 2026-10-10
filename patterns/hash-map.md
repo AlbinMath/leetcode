@@ -20,9 +20,23 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 476 | [Number Complement](../leetcode/0476-number-complement/) | Python | O(n) | O(n) | [Explanation](../leetcode/0476-number-complement/Explanation.md) |
 
+| 697 | [Degree of an Array](../leetcode/0697-degree-of-an-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/0697-degree-of-an-array/Explanation.md) |
+
+| 705 | [Design HashSet](../leetcode/0816-design-hashset/) | Python | O(n) | O(n) | [Explanation](../leetcode/0816-design-hashset/Explanation.md) |
+
+| 706 | [Design HashMap](../leetcode/0817-design-hashmap/) | Python | O(n) | O(n) | [Explanation](../leetcode/0817-design-hashmap/Explanation.md) |
+
+| 1009 | [Complement of Base 10 Integer](../leetcode/1054-complement-of-base-10-integer/) | Python | O(n) | O(n) | [Explanation](../leetcode/1054-complement-of-base-10-integer/Explanation.md) |
+
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Java | O(n) | O(n) | [Explanation](../leetcode/1203-print-in-order/Explanation.md) |
 
 | 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/1297-maximum-number-of-balloons/Explanation.md) |
+
+| 1394 | [Find Lucky Integer in an Array](../leetcode/1510-find-lucky-integer-in-an-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/1510-find-lucky-integer-in-an-array/Explanation.md) |
+
+| 1636 | [Sort Array by Increasing Frequency](../leetcode/1741-sort-array-by-increasing-frequency/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1741-sort-array-by-increasing-frequency/Explanation.md) |
+
+| 1941 | [Check if All Characters Have Equal Number of Occurrences](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/Explanation.md) |
 
 | 2635 | [Apply Transform Over Each Element in Array](../leetcode/2747-apply-transform-over-each-element-in-array/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2747-apply-transform-over-each-element-in-array/Explanation.md) |
 

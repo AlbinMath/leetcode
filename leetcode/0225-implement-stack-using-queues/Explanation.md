@@ -65,7 +65,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [232. Implement Queue using Stacks](../0232-implement-queue-using-stacks/)
 - [1441. Build an Array With Stack Operations](../1552-build-an-array-with-stack-operations/)
-- [20. Valid Parentheses](../0020-valid-parentheses/)
+- [1974. Minimum Time to Type Word Using Special Typewriter](../2088-minimum-time-to-type-word-using-special-typewriter/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-stack-using-queues/)

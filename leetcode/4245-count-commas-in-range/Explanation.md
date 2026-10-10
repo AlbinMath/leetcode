@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3871. Count Commas in Range II](../4248-count-commas-in-range-ii/)
+- [1523. Count Odd Numbers in an Interval Range](../1630-count-odd-numbers-in-an-interval-range/)
 - [38. Count and Say](../0038-count-and-say/)
-- [303. Range Sum Query   Immutable](../0303-range-sum-query---immutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-commas-in-range/)

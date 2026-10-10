@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [806. Number of Lines To Write String](../0824-number-of-lines-to-write-string/)
 - [1621. Number of Sets of K Non-Overlapping Line Segments](../1725-number-of-sets-of-k-non-overlapping-line-segments/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [9. Palindrome Number](../0009-palindrome-number/)
+- [1805. Number of Different Integers in a String](../1933-number-of-different-integers-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-segments-in-a-string/)

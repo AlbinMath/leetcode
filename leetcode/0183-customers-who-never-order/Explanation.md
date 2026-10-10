@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1045. Customers Who Bought All Products](../1135-customers-who-bought-all-products/)
 - [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
-- [1050. Actors and Directors Who Cooperated At Least Three Times](../1136-actors-and-directors-who-cooperated-at-least-three-times/)
+- [897. Increasing Order Search Tree](../0933-increasing-order-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customers-who-never-order/)

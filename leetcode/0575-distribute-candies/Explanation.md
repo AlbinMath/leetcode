@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1103. Distribute Candies to People](../1195-distribute-candies-to-people/)
+- [1431. Kids With the Greatest Number of Candies](../1528-kids-with-the-greatest-number-of-candies/)
 - [2144. Minimum Cost of Buying Candies With Discount](../2248-minimum-cost-of-buying-candies-with-discount/)
-- [3069. Distribute Elements Into Two Arrays I](../3347-distribute-elements-into-two-arrays-i/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-candies/)

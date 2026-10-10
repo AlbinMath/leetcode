@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3689. Maximum Total Subarray Value I](../4005-maximum-total-subarray-value-i/)
 - [53. Maximum Subarray](../0053-maximum-subarray/)
-- [3691. Maximum Total Subarray Value II](../4007-maximum-total-subarray-value-ii/)
+- [1491. Average Salary Excluding the Minimum and Maximum Salary](../1584-average-salary-excluding-the-minimum-and-maximum-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-average-subarray-i/)

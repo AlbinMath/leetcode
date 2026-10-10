@@ -6,7 +6,9 @@ A collection of LeetCode problems solved using **Backtracking** pattern techniqu
 
 ### Easy
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 1920 | [Build Array from Permutation](../leetcode/2048-build-array-from-permutation/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2048-build-array-from-permutation/Explanation.md) |
 
 ### Medium
 

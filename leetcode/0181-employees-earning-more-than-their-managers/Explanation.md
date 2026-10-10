@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1287. Element Appearing More Than 25% In Sorted Array](../1221-element-appearing-more-than-25-in-sorted-array/)
 - [570. Managers with at Least 5 Direct Reports](../0570-managers-with-at-least-5-direct-reports/)
 - [627. Swap Sex of Employees](../0627-swap-sex-of-employees/)
-- [1075. Project Employees I](../1161-project-employees-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-earning-more-than-their-managers/)

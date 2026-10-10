@@ -72,9 +72,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [1275. Find Winner on a Tic Tac Toe Game](../1400-find-winner-on-a-tic-tac-toe-game/)
 - [10. Regular Expression Matching](../0010-regular-expression-matching/)
 - [115. Distinct Subsequences](../0115-distinct-subsequences/)
-- [392. Is Subsequence](../0392-is-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/predict-the-winner/)

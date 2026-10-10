@@ -63,9 +63,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [876. Middle of the Linked List](../0908-middle-of-the-linked-list/)
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
 - [141. Linked List Cycle](../0141-linked-list-cycle/)
-- [203. Remove Linked List Elements](../0203-remove-linked-list-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)

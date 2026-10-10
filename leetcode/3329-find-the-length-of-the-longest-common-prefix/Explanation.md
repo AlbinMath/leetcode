@@ -65,7 +65,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [14. Longest Common Prefix](../0014-longest-common-prefix/)
 - [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
-- [1979. Find Greatest Common Divisor of Array](../2106-find-greatest-common-divisor-of-array/)
+- [1002. Find Common Characters](../1044-find-common-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/)

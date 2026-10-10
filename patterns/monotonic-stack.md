@@ -12,6 +12,8 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 
 | 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/0551-student-attendance-record-i/Explanation.md) |
 
+| 896 | [Monotonic Array](../leetcode/0932-monotonic-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/0932-monotonic-array/Explanation.md) |
+
 | 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/Explanation.md) |
 
 ### Medium
