@@ -32,7 +32,13 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0671-second-minimum-node-in-a-binary-tree/Explanation.md) |
 
+| 693 | [Binary Number with Alternating Bits](../leetcode/0693-binary-number-with-alternating-bits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0693-binary-number-with-alternating-bits/Explanation.md) |
+
+| 762 | [Prime Number of Set Bits in Binary Representation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/) | Python | O(n) | O(1) | [Explanation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/Explanation.md) |
+
 | 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/0908-middle-of-the-linked-list/Explanation.md) |
+
+| 1800 | [Maximum Ascending Subarray Sum](../leetcode/1927-maximum-ascending-subarray-sum/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1927-maximum-ascending-subarray-sum/Explanation.md) |
 
 | 2877 | [Create a DataFrame from List](../leetcode/3062-create-a-dataframe-from-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/3062-create-a-dataframe-from-list/Explanation.md) |
 

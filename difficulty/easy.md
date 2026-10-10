@@ -152,7 +152,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Two Pointers | Python | O(n) | O(1) |
 | 674 | [Longest Continuous Increasing Subsequence](../leetcode/0674-longest-continuous-increasing-subsequence/) | Dynamic Programming | Python | O(n) | O(n) |
 | 682 | [Baseball Game](../leetcode/0682-baseball-game/) | Bit Manipulation | Python | O(n) | O(1) |
-| 693 | [Binary Number with Alternating Bits](../leetcode/0693-binary-number-with-alternating-bits/) | Linked List | Python | O(n) | O(1) |
+| 693 | [Binary Number with Alternating Bits](../leetcode/0693-binary-number-with-alternating-bits/) | Two Pointers | Python | O(n) | O(1) |
 | 696 | [Count Binary Substrings](../leetcode/0696-count-binary-substrings/) | Tree & Graph | Python | O(n) | O(n) |
 | 697 | [Degree of an Array](../leetcode/0697-degree-of-an-array/) | Hash Map | Python | O(n) | O(n) |
 | 700 | [Search in a Binary Search Tree](../leetcode/0783-search-in-a-binary-search-tree/) | Binary Search | Python | O(n) | O(1) |
@@ -169,7 +169,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | Array / General | Python | O(n) | O(1) |
 | 747 | [Largest Number At Least Twice of Others](../leetcode/0748-largest-number-at-least-twice-of-others/) | Array / General | Python | O(n) | O(1) |
 | 748 | [Shortest Completing Word](../leetcode/0749-shortest-completing-word/) | Hash Map | Python | O(n) | O(n) |
-| 762 | [Prime Number of Set Bits in Binary Representation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/) | Linked List | Python | O(n) | O(1) |
+| 762 | [Prime Number of Set Bits in Binary Representation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/) | Two Pointers | Python | O(n) | O(1) |
 | 766 | [Toeplitz Matrix](../leetcode/0777-toeplitz-matrix/) | Tree & Graph | Python | O(n) | O(n) |
 | 771 | [Jewels and Stones](../leetcode/0782-jewels-and-stones/) | Array / General | Python | O(n) | O(1) |
 | 783 | [Minimum Distance Between BST Nodes](../leetcode/0799-minimum-distance-between-bst-nodes/) | Binary Search | Python | O(n) | O(1) |
@@ -378,7 +378,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1791 | [Find Center of Star Graph](../leetcode/1916-find-center-of-star-graph/) | Array / General | C++ | O(n) | O(1) |
 | 1795 | [Rearrange Products Table](../leetcode/1948-rearrange-products-table/) | Database / SQL | SQL | O(n) | O(n) |
 | 1796 | [Second Largest Digit in a String](../leetcode/1904-second-largest-digit-in-a-string/) | Math & Logic | C++ | O(n) | O(1) |
-| 1800 | [Maximum Ascending Subarray Sum](../leetcode/1927-maximum-ascending-subarray-sum/) | Linked List | C++ | O(n) | O(1) |
+| 1800 | [Maximum Ascending Subarray Sum](../leetcode/1927-maximum-ascending-subarray-sum/) | Two Pointers | C++ | O(n) | O(1) |
 | 1805 | [Number of Different Integers in a String](../leetcode/1933-number-of-different-integers-in-a-string/) | Bit Manipulation | C++ | O(n) | O(1) |
 | 1812 | [Determine Color of a Chessboard Square](../leetcode/1920-determine-color-of-a-chessboard-square/) | Array / General | C++ | O(n) | O(1) |
 | 1816 | [Truncate Sentence](../leetcode/1944-truncate-sentence/) | Array / General | C++ | O(n) | O(1) |
