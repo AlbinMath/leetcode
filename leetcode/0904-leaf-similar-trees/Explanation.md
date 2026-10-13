@@ -1,7 +1,7 @@
 # LeetCode 872: Leaf-Similar Trees
 
 **LeetCode Problem #872 — Leaf-Similar Trees**
-Solve LeetCode Leaf-Similar Trees using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Leaf-Similar Trees using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Leaf-Similar Trees using Python and Tree & Graph. This solution f
 | Problem | Leaf-Similar Trees |
 | LeetCode | #872 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,9 +47,10 @@ Consider the standard input for **Leaf-Similar Trees**. Applying **Depth-First S
 - BFS
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -65,9 +66,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
+- [96. Unique Binary Search Trees](../0096-unique-binary-search-trees/)
 - [617. Merge Two Binary Trees](../0617-merge-two-binary-trees/)
-- [1022. Sum of Root To Leaf Binary Numbers](../1079-sum-of-root-to-leaf-binary-numbers/)
-- [38. Count and Say](../0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/leaf-similar-trees/)

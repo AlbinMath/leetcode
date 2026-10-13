@@ -76,6 +76,7 @@ LeetCode problems solved using **Relational Table** data structures.
 | 1873 | [Calculate Special Bonus](../leetcode/2024-calculate-special-bonus/) | Easy | SQL Query / Relational Join & Window Function | O(n) | O(n) |
 | 1890 | [The Latest Login in 2020](../leetcode/2041-the-latest-login-in-2020/) | Easy | SQL Query / Relational Join & Window Function | O(n) | O(n) |
 | 1907 | [Count Salary Categories](../leetcode/2057-count-salary-categories/) | Medium | SQL Query / Relational Join & Window Function | O(n) | O(n) |
+| 1934 | [Confirmation Rate](../leetcode/2087-confirmation-rate/) | Medium | SQL Query / Relational Join & Window Function | O(n) | O(n) |
 | 1965 | [Employees With Missing Information](../leetcode/2110-employees-with-missing-information/) | Easy | SQL Query / Relational Join & Window Function | O(n) | O(n) |
 | 1978 | [Employees Whose Manager Left the Company](../leetcode/2127-employees-whose-manager-left-the-company/) | Easy | SQL Query / Relational Join & Window Function | O(n) | O(n) |
 | 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Easy | SQL Query / Relational Join & Window Function | O(n) | O(n) |

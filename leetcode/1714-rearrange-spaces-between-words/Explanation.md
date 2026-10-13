@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
+- [151. Reverse Words in a String](../0151-reverse-words-in-a-string/)
 - [557. Reverse Words in a String III](../0557-reverse-words-in-a-string-iii/)
-- [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-spaces-between-words/)

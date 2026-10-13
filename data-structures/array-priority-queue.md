@@ -6,4 +6,4 @@ LeetCode problems solved using **Array / Priority Queue** data structures.
 
 | # | Problem | Difficulty | Algorithm | Time | Space |
 |---|---|---|---|---|---|
-| 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1630-count-odd-numbers-in-an-interval-range/) | Easy | Greedy Choice Strategy | O(n) | O(1) |
+| 435 | [Non-overlapping Intervals](../leetcode/0435-non-overlapping-intervals/) | Medium | Greedy Choice Strategy | O(n) | O(1) |

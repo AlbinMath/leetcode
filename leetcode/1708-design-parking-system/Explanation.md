@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [705. Design HashSet](../0816-design-hashset/)
 - [706. Design HashMap](../0817-design-hashmap/)
-- [1656. Design an Ordered Stream](../1775-design-an-ordered-stream/)
+- [1268. Search Suggestions System](../1397-search-suggestions-system/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-parking-system/)

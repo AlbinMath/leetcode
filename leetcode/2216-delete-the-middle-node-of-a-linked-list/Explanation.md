@@ -1,7 +1,7 @@
 # LeetCode 2095: Delete the Middle Node of a Linked List
 
 **LeetCode Problem #2095 — Delete the Middle Node of a Linked List**
-Solve LeetCode Delete the Middle Node of a Linked List using Java and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
+Solve LeetCode Delete the Middle Node of a Linked List using Java, JavaScript and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Delete the Middle Node of a Linked List using Java and Fast & Slo
 | Problem | Delete the Middle Node of a Linked List |
 | LeetCode | #2095 |
 | Difficulty | Medium |
-| Language | Java |
+| Language | Java, JavaScript |
 | Algorithm | Floyd Cycle Detection |
 | Data Structure | Linked List / Pointer |
 | Pattern | Fast & Slow Pointers |
@@ -45,10 +45,11 @@ Consider the standard input for **Delete the Middle Node of a Linked List**. App
 - Cycle Detection
 
 ## Language
-Java
+Java, JavaScript
 
 ## Source Code
 - [solution.java](./solution.java)
+- [solution.js](./solution.js)
 
 ## Why This Works
 By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -65,7 +66,7 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 ## Related Problems
 - [876. Middle of the Linked List](../0908-middle-of-the-linked-list/)
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [141. Linked List Cycle](../0141-linked-list-cycle/)
+- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)

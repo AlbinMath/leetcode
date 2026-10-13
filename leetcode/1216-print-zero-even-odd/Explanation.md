@@ -69,9 +69,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [328. Odd Even Linked List](../0328-odd-even-linked-list/)
 - [3220. Odd and Even Transactions](../3530-odd-and-even-transactions/)
 - [3658. GCD of Odd and Even Sums](../3995-gcd-of-odd-and-even-sums/)
-- [1114. Print in Order](../1203-print-in-order/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-zero-even-odd/)

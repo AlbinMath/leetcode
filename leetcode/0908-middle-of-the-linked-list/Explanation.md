@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2095. Delete the Middle Node of a Linked List](../2216-delete-the-middle-node-of-a-linked-list/)
+- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 - [141. Linked List Cycle](../0141-linked-list-cycle/)
-- [203. Remove Linked List Elements](../0203-remove-linked-list-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/)

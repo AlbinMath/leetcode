@@ -1,7 +1,7 @@
 # LeetCode 700: Search in a Binary Search Tree
 
 **LeetCode Problem #700 — Search in a Binary Search Tree**
-Solve LeetCode Search in a Binary Search Tree using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Search in a Binary Search Tree using JavaScript, Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Search in a Binary Search Tree using Python and Binary Search. Th
 | Problem | Search in a Binary Search Tree |
 | LeetCode | #700 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,9 +46,10 @@ Consider the standard input for **Search in a Binary Search Tree**. Applying **M
 - Search Space
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -64,9 +65,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
+- [99. Recover Binary Search Tree](../0099-recover-binary-search-tree/)
 - [108. Convert Sorted Array to Binary Search Tree](../0108-convert-sorted-array-to-binary-search-tree/)
-- [501. Find Mode in Binary Search Tree](../0501-find-mode-in-binary-search-tree/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-in-a-binary-search-tree/)

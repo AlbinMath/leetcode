@@ -67,8 +67,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1385. Find the Distance Value Between Two Arrays](../1486-find-the-distance-value-between-two-arrays/)
+- [2215. Find the Difference of Two Arrays](../1392-find-the-difference-of-two-arrays/)
 - [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
-- [1. Two Sum](../0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)

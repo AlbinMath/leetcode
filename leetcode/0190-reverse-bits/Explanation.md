@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [7. Reverse Integer](../0007-reverse-integer/)
 - [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
-- [150. Evaluate Reverse Polish Notation](../0150-evaluate-reverse-polish-notation/)
+- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-bits/)

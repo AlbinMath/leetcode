@@ -14,15 +14,21 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 34 | [Find First and Last Position of Element in Sorted Array](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium | Binary Search | O(log n) | O(1) |
 | 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Easy | Binary Search | O(log n) | O(1) |
 | 81 | [Search in Rotated Sorted Array II](../leetcode/0081-search-in-rotated-sorted-array-ii/) | Medium | Binary Search | O(n) | O(1) |
+| 95 | [Unique Binary Search Trees II](../leetcode/0095-unique-binary-search-trees-ii/) | Medium | Binary Search | O(n) | O(1) |
+| 96 | [Unique Binary Search Trees](../leetcode/0096-unique-binary-search-trees/) | Medium | Binary Search | O(n) | O(1) |
+| 98 | [Validate Binary Search Tree](../leetcode/0098-validate-binary-search-tree/) | Medium | Binary Search | O(n) | O(1) |
+| 99 | [Recover Binary Search Tree](../leetcode/0099-recover-binary-search-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | Medium | Binary Search | O(log n) | O(1) |
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard | Binary Search | O(n) | O(1) |
+| 162 | [Find Peak Element](../leetcode/0162-find-peak-element/) | Medium | Binary Search | O(log n) | O(1) |
 | 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Easy | Binary Search | O(n) | O(1) |
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Easy | Binary Search | O(n) | O(1) |
+| 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | Medium | Binary Search | O(n) | O(1) |
 | 501 | [Find Mode in Binary Search Tree](../leetcode/0501-find-mode-in-binary-search-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Easy | Binary Search | O(n) | O(1) |
 | 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |

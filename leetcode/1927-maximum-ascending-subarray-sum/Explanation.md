@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [53. Maximum Subarray](../0053-maximum-subarray/)
 - [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
-- [2130. Maximum Twin Sum of a Linked List](../2236-maximum-twin-sum-of-a-linked-list/)
+- [1161. Maximum Level Sum of a Binary Tree](../1116-maximum-level-sum-of-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-ascending-subarray-sum/)

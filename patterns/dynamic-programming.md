@@ -8,7 +8,7 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0392-is-subsequence/Explanation.md) |
+| 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0392-is-subsequence/Explanation.md) |
 
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/0521-longest-uncommon-subsequence-i/Explanation.md) |
 
@@ -26,9 +26,15 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 334 | [Increasing Triplet Subsequence](../leetcode/0334-increasing-triplet-subsequence/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0334-increasing-triplet-subsequence/Explanation.md) |
+
 | 486 | [Predict the Winner](../leetcode/0486-predict-the-winner/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0486-predict-the-winner/Explanation.md) |
 
 | 1140 | [Stone Game II](../leetcode/1240-stone-game-ii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1240-stone-game-ii/Explanation.md) |
+
+| 1143 | [Longest Common Subsequence](../leetcode/1250-longest-common-subsequence/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1250-longest-common-subsequence/Explanation.md) |
+
+| 2542 | [Maximum Subsequence Score](../leetcode/2636-maximum-subsequence-score/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2636-maximum-subsequence-score/Explanation.md) |
 
 | 2770 | [Maximum Number of Jumps to Reach the Last Index](../leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/Explanation.md) |
 

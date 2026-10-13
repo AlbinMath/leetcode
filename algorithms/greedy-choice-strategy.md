@@ -6,4 +6,4 @@ A curated selection of LeetCode problems solved using the **Greedy Choice Strate
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1630-count-odd-numbers-in-an-interval-range/) | Easy | Greedy | O(n) | O(1) |
+| 435 | [Non-overlapping Intervals](../leetcode/0435-non-overlapping-intervals/) | Medium | Greedy | O(n) | O(1) |

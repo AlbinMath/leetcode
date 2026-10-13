@@ -46,7 +46,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Python | O(n) | O(n) | [Explanation](../leetcode/0899-binary-gap/Explanation.md) |
 
-| 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Python | O(n) | O(n) | [Explanation](../leetcode/0904-leaf-similar-trees/Explanation.md) |
+| 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0904-leaf-similar-trees/Explanation.md) |
 
 | 1022 | [Sum of Root To Leaf Binary Numbers](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/) | Python | O(n) | O(n) | [Explanation](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/Explanation.md) |
 
@@ -108,7 +108,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 59 | [Spiral Matrix II](../leetcode/0059-spiral-matrix-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0059-spiral-matrix-ii/Explanation.md) |
 
-| 62 | [Unique Paths](../leetcode/0062-unique-paths/) | Python | O(n) | O(n) | [Explanation](../leetcode/0062-unique-paths/Explanation.md) |
+| 62 | [Unique Paths](../leetcode/0062-unique-paths/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0062-unique-paths/Explanation.md) |
 
 | 63 | [Unique Paths II](../leetcode/0063-unique-paths-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0063-unique-paths-ii/Explanation.md) |
 
@@ -120,13 +120,27 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 74 | [Search a 2D Matrix](../leetcode/0074-search-a-2d-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0074-search-a-2d-matrix/Explanation.md) |
 
+| 198 | [House Robber](../leetcode/0198-house-robber/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0198-house-robber/Explanation.md) |
+
+| 199 | [Binary Tree Right Side View](../leetcode/0199-binary-tree-right-side-view/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0199-binary-tree-right-side-view/Explanation.md) |
+
+| 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/Explanation.md) |
+
+| 437 | [Path Sum III](../leetcode/0437-path-sum-iii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0437-path-sum-iii/Explanation.md) |
+
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Python | O(n) | O(n) | [Explanation](../leetcode/1182-game-play-analysis-iv/Explanation.md) |
 
 | 877 | [Stone Game](../leetcode/0909-stone-game/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0909-stone-game/Explanation.md) |
 
+| 1161 | [Maximum Level Sum of a Binary Tree](../leetcode/1116-maximum-level-sum-of-a-binary-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1116-maximum-level-sum-of-a-binary-tree/Explanation.md) |
+
 | 1306 | [Jump Game III](../leetcode/1428-jump-game-iii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1428-jump-game-iii/Explanation.md) |
 
 | 1358 | [Number of Substrings Containing All Three Characters](../leetcode/1460-number-of-substrings-containing-all-three-characters/) | Java | O(n) | O(n) | [Explanation](../leetcode/1460-number-of-substrings-containing-all-three-characters/Explanation.md) |
+
+| 1372 | [Longest ZigZag Path in a Binary Tree](../leetcode/1474-longest-zigzag-path-in-a-binary-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1474-longest-zigzag-path-in-a-binary-tree/Explanation.md) |
+
+| 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/Explanation.md) |
 
 | 1914 | [Cyclically Rotating a Grid](../leetcode/2043-cyclically-rotating-a-grid/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2043-cyclically-rotating-a-grid/Explanation.md) |
 

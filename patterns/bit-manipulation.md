@@ -18,7 +18,7 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 717 | [1-bit and 2-bit Characters](../leetcode/0717-1-bit-and-2-bit-characters/) | Python | O(n) | O(1) | [Explanation](../leetcode/0717-1-bit-and-2-bit-characters/Explanation.md) |
 
-| 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/1236-n-th-tribonacci-number/Explanation.md) |
+| 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/1236-n-th-tribonacci-number/Explanation.md) |
 
 | 1175 | [Prime Arrangements](../leetcode/1279-prime-arrangements/) | Python | O(n) | O(1) | [Explanation](../leetcode/1279-prime-arrangements/Explanation.md) |
 
@@ -60,9 +60,17 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Python | O(n) | O(1) | [Explanation](../leetcode/0029-divide-two-integers/Explanation.md) |
 
+| 89 | [Gray Code](../leetcode/0089-gray-code/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0089-gray-code/Explanation.md) |
+
+| 91 | [Decode Ways](../leetcode/0091-decode-ways/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0091-decode-ways/Explanation.md) |
+
+| 238 | [Product of Array Except Self](../leetcode/0238-product-of-array-except-self/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0238-product-of-array-except-self/Explanation.md) |
+
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0396-rotate-function/Explanation.md) |
 
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | JavaScript | O(n²) | O(1) | [Explanation](../leetcode/0864-image-overlap/Explanation.md) |
+
+| 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/Explanation.md) |
 
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Java | O(n) | O(1) | [Explanation](../leetcode/2245-destroying-asteroids/Explanation.md) |
 
@@ -70,5 +78,7 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 ### Hard
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/Explanation.md) |
 

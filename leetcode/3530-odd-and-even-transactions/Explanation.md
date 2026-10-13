@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [328. Odd Even Linked List](../0328-odd-even-linked-list/)
 - [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
 - [3658. GCD of Odd and Even Sums](../3995-gcd-of-odd-and-even-sums/)
-- [1193. Monthly Transactions I](../1317-monthly-transactions-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/odd-and-even-transactions/)

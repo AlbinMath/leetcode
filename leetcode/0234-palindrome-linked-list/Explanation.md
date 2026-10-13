@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 - [141. Linked List Cycle](../0141-linked-list-cycle/)
 - [203. Remove Linked List Elements](../0203-remove-linked-list-elements/)
-- [206. Reverse Linked List](../0206-reverse-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-linked-list/)

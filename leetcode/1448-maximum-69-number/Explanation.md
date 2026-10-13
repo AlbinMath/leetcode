@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [414. Third Maximum Number](../0414-third-maximum-number/)
 - [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
-- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [1456. Maximum Number of Vowels in a Substring of Given Length](../1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-69-number/)

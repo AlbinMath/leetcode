@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [62. Unique Paths](../0062-unique-paths/)
 - [63. Unique Paths II](../0063-unique-paths-ii/)
-- [387. First Unique Character in a String](../0387-first-unique-character-in-a-string/)
+- [93. Restore IP Addresses](../0093-restore-ip-addresses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-email-addresses/)

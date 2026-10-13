@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [62. Unique Paths](../0062-unique-paths/)
+- [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
 - [3514. Number of Unique XOR Triplets II](../3820-number-of-unique-xor-triplets-ii/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-paths-ii/)

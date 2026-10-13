@@ -1,7 +1,7 @@
 # LeetCode 1207: Unique Number of Occurrences
 
 **LeetCode Problem #1207 — Unique Number of Occurrences**
-Solve LeetCode Unique Number of Occurrences using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Unique Number of Occurrences using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Unique Number of Occurrences using Python and Array / General. Th
 | Problem | Unique Number of Occurrences |
 | LeetCode | #1207 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Unique Number of Occurrences**. Applying **In-
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

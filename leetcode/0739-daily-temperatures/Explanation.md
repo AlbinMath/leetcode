@@ -1,7 +1,7 @@
 # LeetCode 739: Daily Temperatures
 
 **LeetCode Problem #739 — Daily Temperatures**
-Solve LeetCode Daily Temperatures using TypeScript and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
+Solve LeetCode Daily Temperatures using JavaScript, TypeScript and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Daily Temperatures using TypeScript and Monotonic Stack. This sol
 | Problem | Daily Temperatures |
 | LeetCode | #739 |
 | Difficulty | Medium |
-| Language | TypeScript |
+| Language | JavaScript, TypeScript |
 | Algorithm | Monotonic Stack Filtering |
 | Data Structure | Stack |
 | Pattern | Monotonic Stack |
@@ -54,9 +54,10 @@ Consider the standard input for **Daily Temperatures**. Applying **Monotonic Sta
 - Array
 
 ## Language
-TypeScript
+JavaScript, TypeScript
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.ts](./solution.ts)
 
 ## Why This Works

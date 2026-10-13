@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
+- [99. Recover Binary Search Tree](../0099-recover-binary-search-tree/)
 - [108. Convert Sorted Array to Binary Search Tree](../0108-convert-sorted-array-to-binary-search-tree/)
-- [501. Find Mode in Binary Search Tree](../0501-find-mode-in-binary-search-tree/)
-- [700. Search in a Binary Search Tree](../0783-search-in-a-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/increasing-order-search-tree/)

@@ -1,7 +1,7 @@
 # LeetCode 1071: Greatest Common Divisor of Strings
 
 **LeetCode Problem #1071 — Greatest Common Divisor of Strings**
-Solve LeetCode Greatest Common Divisor of Strings using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Greatest Common Divisor of Strings using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Greatest Common Divisor of Strings using Python and Array / Gener
 | Problem | Greatest Common Divisor of Strings |
 | LeetCode | #1071 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Greatest Common Divisor of Strings**. Applying
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

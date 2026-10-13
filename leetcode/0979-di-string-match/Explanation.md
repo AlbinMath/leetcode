@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [686. Repeated String Match](../0686-repeated-string-match/)
 - [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
 - [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [344. Reverse String](../0344-reverse-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/di-string-match/)

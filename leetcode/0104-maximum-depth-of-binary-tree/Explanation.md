@@ -1,7 +1,7 @@
 # LeetCode 104: Maximum Depth of Binary Tree
 
 **LeetCode Problem #104 — Maximum Depth of Binary Tree**
-Solve LeetCode Maximum Depth of Binary Tree using PHP and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Maximum Depth of Binary Tree using JavaScript, PHP and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Maximum Depth of Binary Tree using PHP and Binary Search. This so
 | Problem | Maximum Depth of Binary Tree |
 | LeetCode | #104 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,9 +46,10 @@ Consider the standard input for **Maximum Depth of Binary Tree**. Applying **Mod
 - Search Space
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works
@@ -66,7 +67,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [111. Minimum Depth of Binary Tree](../0111-minimum-depth-of-binary-tree/)
 - [559. Maximum Depth of N-ary Tree](../0774-maximum-depth-of-n-ary-tree/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
+- [1161. Maximum Level Sum of a Binary Tree](../1116-maximum-level-sum-of-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/)

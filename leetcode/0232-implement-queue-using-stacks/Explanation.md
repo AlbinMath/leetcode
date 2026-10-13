@@ -1,7 +1,7 @@
 # LeetCode 232: Implement Queue using Stacks
 
 **LeetCode Problem #232 — Implement Queue using Stacks**
-Solve LeetCode Implement Queue using Stacks using PHP and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Implement Queue using Stacks using JavaScript, PHP and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Implement Queue using Stacks using PHP and Stack & Queue. This so
 | Problem | Implement Queue using Stacks |
 | LeetCode | #232 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | Stack Push / Pop Parsing |
 | Data Structure | Stack |
 | Pattern | Stack & Queue |
@@ -45,9 +45,10 @@ Consider the standard input for **Implement Queue using Stacks**. Applying **Sta
 - String Parsing
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works
@@ -64,8 +65,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [225. Implement Stack using Queues](../0225-implement-stack-using-queues/)
+- [208. Implement Trie (Prefix Tree)](../0208-implement-trie-prefix-tree/)
 - [1974. Minimum Time to Type Word Using Special Typewriter](../2088-minimum-time-to-type-word-using-special-typewriter/)
-- [20. Valid Parentheses](../0020-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/)

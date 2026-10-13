@@ -1,7 +1,7 @@
 # LeetCode 392: Is Subsequence
 
 **LeetCode Problem #392 — Is Subsequence**
-Solve LeetCode Is Subsequence using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
+Solve LeetCode Is Subsequence using JavaScript, Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Is Subsequence using Python and Dynamic Programming. This solutio
 | Problem | Is Subsequence |
 | LeetCode | #392 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
 | Pattern | Dynamic Programming |
@@ -46,9 +46,10 @@ Consider the standard input for **Is Subsequence**. Applying **Memoization & Sta
 - State Transition
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -64,9 +65,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [334. Increasing Triplet Subsequence](../0334-increasing-triplet-subsequence/)
 - [521. Longest Uncommon Subsequence I](../0521-longest-uncommon-subsequence-i/)
 - [594. Longest Harmonious Subsequence](../0594-longest-harmonious-subsequence/)
-- [674. Longest Continuous Increasing Subsequence](../0674-longest-continuous-increasing-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/is-subsequence/)

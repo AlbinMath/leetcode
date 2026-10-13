@@ -75,8 +75,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [85. Maximal Rectangle](../0085-maximal-rectangle/)
+- [215. Kth Largest Element in an Array](../0215-kth-largest-element-in-an-array/)
 - [492. Construct the Rectangle](../0492-construct-the-rectangle/)
-- [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/)

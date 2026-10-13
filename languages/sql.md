@@ -76,6 +76,7 @@ A collection of LeetCode problems implemented in **SQL** with detailed complexit
 | 1873 | [Calculate Special Bonus](../leetcode/2024-calculate-special-bonus/) | Easy | Database / SQL | O(n) | O(n) |
 | 1890 | [The Latest Login in 2020](../leetcode/2041-the-latest-login-in-2020/) | Easy | Database / SQL | O(n) | O(n) |
 | 1907 | [Count Salary Categories](../leetcode/2057-count-salary-categories/) | Medium | Database / SQL | O(n) | O(n) |
+| 1934 | [Confirmation Rate](../leetcode/2087-confirmation-rate/) | Medium | Database / SQL | O(n) | O(n) |
 | 1965 | [Employees With Missing Information](../leetcode/2110-employees-with-missing-information/) | Easy | Database / SQL | O(n) | O(n) |
 | 1978 | [Employees Whose Manager Left the Company](../leetcode/2127-employees-whose-manager-left-the-company/) | Easy | Database / SQL | O(n) | O(n) |
 | 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Easy | Database / SQL | O(n) | O(n) |

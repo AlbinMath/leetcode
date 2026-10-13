@@ -71,9 +71,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1372. Longest ZigZag Path in a Binary Tree](../1474-longest-zigzag-path-in-a-binary-tree/)
 - [3497. Analyze Subscription Conversion ](../3848-analyze-subscription-conversion-/)
 - [3699. Number of ZigZag Arrays I](../3962-number-of-zigzag-arrays-i/)
-- [3700. Number of ZigZag Arrays II](../3964-number-of-zigzag-arrays-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/zigzag-conversion/)

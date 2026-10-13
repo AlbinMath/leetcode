@@ -64,8 +64,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [40. Combination Sum II](../0040-combination-sum-ii/)
+- [216. Combination Sum III](../0216-combination-sum-iii/)
 - [1. Two Sum](../0001-two-sum/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/combination-sum/)

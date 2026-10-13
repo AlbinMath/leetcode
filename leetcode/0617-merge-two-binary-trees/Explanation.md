@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [21. Merge Two Sorted Lists](../0021-merge-two-sorted-lists/)
-- [1. Two Sum](../0001-two-sum/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
+- [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
+- [96. Unique Binary Search Trees](../0096-unique-binary-search-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-two-binary-trees/)

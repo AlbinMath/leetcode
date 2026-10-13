@@ -28,6 +28,8 @@ A collection of LeetCode problems solved using **Backtracking** pattern techniqu
 
 | 77 | [Combinations](../leetcode/0077-combinations/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0077-combinations/Explanation.md) |
 
+| 216 | [Combination Sum III](../leetcode/0216-combination-sum-iii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0216-combination-sum-iii/Explanation.md) |
+
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](../leetcode/4020-lexicographically-smallest-permutation-greater-than-target/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4020-lexicographically-smallest-permutation-greater-than-target/Explanation.md) |
 
 ### Hard

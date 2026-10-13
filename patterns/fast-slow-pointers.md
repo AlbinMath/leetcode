@@ -16,9 +16,9 @@ A collection of LeetCode problems solved using **Fast & Slow Pointers** pattern 
 |---|---|---|---|---|---|
 | 19 | [Remove Nth Node From End of List](../leetcode/0019-remove-nth-node-from-end-of-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0019-remove-nth-node-from-end-of-list/Explanation.md) |
 
-| 2095 | [Delete the Middle Node of a Linked List](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Java | O(n) | O(1) | [Explanation](../leetcode/2216-delete-the-middle-node-of-a-linked-list/Explanation.md) |
+| 2095 | [Delete the Middle Node of a Linked List](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Java, JavaScript | O(n) | O(1) | [Explanation](../leetcode/2216-delete-the-middle-node-of-a-linked-list/Explanation.md) |
 
-| 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Java | O(n) | O(1) | [Explanation](../leetcode/2236-maximum-twin-sum-of-a-linked-list/Explanation.md) |
+| 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Java, JavaScript | O(n) | O(1) | [Explanation](../leetcode/2236-maximum-twin-sum-of-a-linked-list/Explanation.md) |
 
 ### Hard
 

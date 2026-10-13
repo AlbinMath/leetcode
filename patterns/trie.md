@@ -10,7 +10,9 @@ A collection of LeetCode problems solved using **Trie** pattern techniques, expl
 
 ### Medium
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 208 | [Implement Trie (Prefix Tree)](../leetcode/0208-implement-trie-prefix-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0208-implement-trie-prefix-tree/Explanation.md) |
 
 ### Hard
 

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [215. Kth Largest Element in an Array](../0215-kth-largest-element-in-an-array/)
 - [1287. Element Appearing More Than 25% In Sorted Array](../1221-element-appearing-more-than-25-in-sorted-array/)
-- [1909. Remove One Element to Make the Array Strictly Increasing](../2020-remove-one-element-to-make-the-array-strictly-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)

@@ -10,7 +10,7 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 |---|---|---|---|---|---|
 | 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Python | O(log n) | O(1) | [Explanation](../leetcode/0035-search-insert-position/Explanation.md) |
 
-| 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0104-maximum-depth-of-binary-tree/Explanation.md) |
+| 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0104-maximum-depth-of-binary-tree/Explanation.md) |
 
 | 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0108-convert-sorted-array-to-binary-search-tree/Explanation.md) |
 
@@ -22,7 +22,7 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0257-binary-tree-paths/Explanation.md) |
 
-| 338 | [Counting Bits](../leetcode/0338-counting-bits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0338-counting-bits/Explanation.md) |
+| 338 | [Counting Bits](../leetcode/0338-counting-bits/) | C++, JavaScript | O(n) | O(1) | [Explanation](../leetcode/0338-counting-bits/Explanation.md) |
 
 | 501 | [Find Mode in Binary Search Tree](../leetcode/0501-find-mode-in-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-find-mode-in-binary-search-tree/Explanation.md) |
 
@@ -36,7 +36,7 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0637-average-of-levels-in-binary-tree/Explanation.md) |
 
-| 700 | [Search in a Binary Search Tree](../leetcode/0783-search-in-a-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0783-search-in-a-binary-search-tree/Explanation.md) |
+| 700 | [Search in a Binary Search Tree](../leetcode/0783-search-in-a-binary-search-tree/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0783-search-in-a-binary-search-tree/Explanation.md) |
 
 | 704 | [Binary Search](../leetcode/0792-binary-search/) | Python | O(log n) | O(1) | [Explanation](../leetcode/0792-binary-search/Explanation.md) |
 
@@ -78,7 +78,19 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 81 | [Search in Rotated Sorted Array II](../leetcode/0081-search-in-rotated-sorted-array-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0081-search-in-rotated-sorted-array-ii/Explanation.md) |
 
+| 95 | [Unique Binary Search Trees II](../leetcode/0095-unique-binary-search-trees-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0095-unique-binary-search-trees-ii/Explanation.md) |
+
+| 96 | [Unique Binary Search Trees](../leetcode/0096-unique-binary-search-trees/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0096-unique-binary-search-trees/Explanation.md) |
+
+| 98 | [Validate Binary Search Tree](../leetcode/0098-validate-binary-search-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0098-validate-binary-search-tree/Explanation.md) |
+
+| 99 | [Recover Binary Search Tree](../leetcode/0099-recover-binary-search-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0099-recover-binary-search-tree/Explanation.md) |
+
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0153-find-minimum-in-rotated-sorted-array/Explanation.md) |
+
+| 162 | [Find Peak Element](../leetcode/0162-find-peak-element/) | JavaScript | O(log n) | O(1) | [Explanation](../leetcode/0162-find-peak-element/Explanation.md) |
+
+| 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0450-delete-node-in-a-bst/Explanation.md) |
 
 | 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0653-two-sum-iv---input-is-a-bst/Explanation.md) |
 

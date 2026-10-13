@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [101. Symmetric Tree](../0101-symmetric-tree/)
-- [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
+- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
+- [99. Recover Binary Search Tree](../0099-recover-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/same-tree/)

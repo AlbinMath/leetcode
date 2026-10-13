@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [171. Excel Sheet Column Number](../0171-excel-sheet-column-number/)
+- [2352. Equal Row and Column Pairs](../2428-equal-row-and-column-pairs/)
 - [2881. Create a New Column](../3066-create-a-new-column/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/excel-sheet-column-title/)

@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1422. Maximum Score After Splitting a String](../1537-maximum-score-after-splitting-a-string/)
 - [2492. Minimum Score of a Path Between Two Cities](../2582-minimum-score-of-a-path-between-two-cities/)
-- [2812. Find the Safest Path in a Grid](../2914-find-the-safest-path-in-a-grid/)
+- [2542. Maximum Subsequence Score](../2636-maximum-subsequence-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-path-score-in-a-grid/)

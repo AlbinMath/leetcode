@@ -70,9 +70,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1004. Max Consecutive Ones III](../1046-max-consecutive-ones-iii/)
 - [180. Consecutive Numbers](../0180-consecutive-numbers/)
 - [1301. Number of Paths with Max Score](../1234-number-of-paths-with-max-score/)
-- [1446. Consecutive Characters](../1542-consecutive-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-consecutive-ones/)

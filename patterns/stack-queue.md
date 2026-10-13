@@ -14,13 +14,13 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 
 | 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0225-implement-stack-using-queues/Explanation.md) |
 
-| 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0232-implement-queue-using-stacks/Explanation.md) |
+| 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | JavaScript, PHP | O(n) | O(n) | [Explanation](../leetcode/0232-implement-queue-using-stacks/Explanation.md) |
 
 | 1021 | [Remove Outermost Parentheses](../leetcode/1078-remove-outermost-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/1078-remove-outermost-parentheses/Explanation.md) |
 
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Java | O(n) | O(n) | [Explanation](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/Explanation.md) |
 
-| 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1802-number-of-students-unable-to-eat-lunch/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1802-number-of-students-unable-to-eat-lunch/Explanation.md) |
+| 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1802-number-of-students-unable-to-eat-lunch/) | C++, JavaScript | O(n) | O(n) | [Explanation](../leetcode/1802-number-of-students-unable-to-eat-lunch/Explanation.md) |
 
 | 2888 | [Reshape Data: Concatenate](../leetcode/3064-reshape-data-concatenate/) | Python | O(n) | O(n) | [Explanation](../leetcode/3064-reshape-data-concatenate/Explanation.md) |
 
@@ -31,6 +31,8 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 | 22 | [Generate Parentheses](../leetcode/0022-generate-parentheses/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0022-generate-parentheses/Explanation.md) |
 
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0150-evaluate-reverse-polish-notation/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/0150-evaluate-reverse-polish-notation/Explanation.md) |
+
+| 399 | [Evaluate Division](../leetcode/0399-evaluate-division/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0399-evaluate-division/Explanation.md) |
 
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/0636-exclusive-time-of-functions/Explanation.md) |
 

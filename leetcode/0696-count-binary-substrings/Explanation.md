@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1448. Count Good Nodes in Binary Tree](../1544-count-good-nodes-in-binary-tree/)
 - [38. Count and Say](../0038-count-and-say/)
 - [67. Add Binary](../0067-add-binary/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-binary-substrings/)

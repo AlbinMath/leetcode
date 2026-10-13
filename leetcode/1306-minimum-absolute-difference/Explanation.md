@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [530. Minimum Absolute Difference in BST](../0530-minimum-absolute-difference-in-bst/)
 - [1984. Minimum Difference Between Highest and Lowest of K Scores](../2112-minimum-difference-between-highest-and-lowest-of-k-scores/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [2333. Minimum Sum of Squared Difference](../2418-minimum-sum-of-squared-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-absolute-difference/)

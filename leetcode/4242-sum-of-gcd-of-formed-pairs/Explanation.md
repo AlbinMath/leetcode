@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
 - [1. Two Sum](../0001-two-sum/)
 - [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
-- [39. Combination Sum](../0039-combination-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/)

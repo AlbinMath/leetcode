@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [144. Binary Tree Preorder Traversal](../0144-binary-tree-preorder-traversal/)
 - [145. Binary Tree Postorder Traversal](../0145-binary-tree-postorder-traversal/)
-- [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
+- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal/)

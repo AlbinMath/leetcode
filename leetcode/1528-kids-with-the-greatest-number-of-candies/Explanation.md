@@ -1,7 +1,7 @@
 # LeetCode 1431: Kids With the Greatest Number of Candies
 
 **LeetCode Problem #1431 — Kids With the Greatest Number of Candies**
-Solve LeetCode Kids With the Greatest Number of Candies using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Kids With the Greatest Number of Candies using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Kids With the Greatest Number of Candies using Python and Array /
 | Problem | Kids With the Greatest Number of Candies |
 | LeetCode | #1431 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Kids With the Greatest Number of Candies**. Ap
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

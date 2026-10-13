@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [238. Product of Array Except Self](../0238-product-of-array-except-self/)
 - [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
 - [1068. Product Sales Analysis I](../1153-product-sales-analysis-i/)
-- [1070. Product Sales Analysis III](../1155-product-sales-analysis-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/product-price-at-a-given-date/)

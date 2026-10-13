@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [215. Kth Largest Element in an Array](../0215-kth-largest-element-in-an-array/)
 - [27. Remove Element](../0027-remove-element/)
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-largest-element-in-a-stream/)

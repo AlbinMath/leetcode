@@ -72,7 +72,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1114. Print in Order](../1203-print-in-order/)
 - [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
-- [1. Two Sum](../0001-two-sum/)
+- [1768. Merge Strings Alternately](../1894-merge-strings-alternately/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-foobar-alternately/)

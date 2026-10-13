@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1354. Construct Target Array With Multiple Sums](../1479-construct-target-array-with-multiple-sums/)
 - [2161. Partition Array According to Given Pivot](../2265-partition-array-according-to-given-pivot/)
 - [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-target-array-in-the-given-order/)

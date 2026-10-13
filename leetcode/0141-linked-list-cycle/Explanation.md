@@ -63,9 +63,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 - [203. Remove Linked List Elements](../0203-remove-linked-list-elements/)
 - [206. Reverse Linked List](../0206-reverse-linked-list/)
-- [234. Palindrome Linked List](../0234-palindrome-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/linked-list-cycle/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1512. Number of Good Pairs](../1635-number-of-good-pairs/)
+- [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
 - [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)

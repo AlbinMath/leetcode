@@ -1,7 +1,7 @@
 # LeetCode 62: Unique Paths
 
 **LeetCode Problem #62 — Unique Paths**
-Solve LeetCode Unique Paths using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Unique Paths using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Unique Paths using Python and Tree & Graph. This solution finds t
 | Problem | Unique Paths |
 | LeetCode | #62 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,9 +47,10 @@ Consider the standard input for **Unique Paths**. Applying **Depth-First Search 
 - BFS
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -66,8 +67,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [63. Unique Paths II](../0063-unique-paths-ii/)
-- [257. Binary Tree Paths](../0257-binary-tree-paths/)
-- [387. First Unique Character in a String](../0387-first-unique-character-in-a-string/)
+- [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
+- [96. Unique Binary Search Trees](../0096-unique-binary-search-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-paths/)

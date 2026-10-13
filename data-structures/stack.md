@@ -15,6 +15,7 @@ LeetCode problems solved using **Stack** data structures.
 | 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
+| 399 | [Evaluate Division](../leetcode/0399-evaluate-division/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |

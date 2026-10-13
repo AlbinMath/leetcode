@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [334. Increasing Triplet Subsequence](../0334-increasing-triplet-subsequence/)
 - [674. Longest Continuous Increasing Subsequence](../0674-longest-continuous-increasing-subsequence/)
 - [897. Increasing Order Search Tree](../0933-increasing-order-search-tree/)
-- [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)

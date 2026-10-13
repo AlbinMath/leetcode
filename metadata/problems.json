@@ -158,9 +158,9 @@
     "space": "O(1)",
     "brief": "The string  \"PAYPALISHIRING\"  is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)",
     "related_ids": [
+      1372,
       3497,
-      3699,
-      3700
+      3699
     ]
   },
   {
@@ -379,8 +379,8 @@
     "brief": "Write a function to find the longest common prefix string amongst an array of strings.",
     "related_ids": [
       3043,
-      2657,
-      3093
+      1143,
+      2657
     ]
   },
   {
@@ -655,8 +655,8 @@
     "brief": "Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list&#39;s nodes (i.e., only nodes themselves may be changed.)",
     "related_ids": [
       25,
-      627,
-      783
+      373,
+      627
     ]
   },
   {
@@ -1063,8 +1063,8 @@
     "brief": "Given an array of  distinct  integers  candidates  and a target integer  target , return  a list of all  unique combinations  of   candidates   where the chosen numbers sum to   target  .  You may return the combinations in  any order .",
     "related_ids": [
       40,
-      1,
-      64
+      216,
+      1
     ]
   },
   {
@@ -1090,8 +1090,8 @@
     "brief": "Given a collection of candidate numbers ( candidates ) and a target number ( target ), find all unique combinations in  candidates  where the candidate numbers sum to  target .",
     "related_ids": [
       39,
-      3756,
-      1
+      216,
+      3756
     ]
   },
   {
@@ -1677,9 +1677,10 @@
     "folder": "0062-unique-paths",
     "path": "leetcode/0062-unique-paths",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Tree & Graph",
     "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
     "data_structure": "Tree / Graph / Grid",
@@ -1694,8 +1695,8 @@
     "brief": "There is a robot on an  m x n  grid. The robot is initially located at the  top-left corner  (i.e.,  grid[0][0] ). The robot tries to move to the  bottom-right corner  (i.e.,  grid[m - 1][n - 1] ). The robot can only move either down or right at any point in time.",
     "related_ids": [
       63,
-      257,
-      387
+      95,
+      96
     ]
   },
   {
@@ -1723,8 +1724,8 @@
     "brief": "You are given an  m x n  integer array  grid . There is a robot initially located at the  top-left corner  (i.e.,  grid[0][0] ). The robot tries to move to the  bottom-right corner  (i.e.,  grid[m - 1][n - 1] ). The robot can only move either down or right at any point in time.",
     "related_ids": [
       62,
-      3514,
-      40
+      95,
+      3514
     ]
   },
   {
@@ -1752,8 +1753,8 @@
     "brief": "Given a  m x n   grid  filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.",
     "related_ids": [
       112,
-      599,
-      1413
+      437,
+      599
     ]
   },
   {
@@ -1803,9 +1804,9 @@
     "space": "O(1)",
     "brief": "You are given a  large integer  represented as an integer array  digits , where each  digits[i]  is the  i th   digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading  0 &#39;s.",
     "related_ids": [
+      1493,
       1784,
-      1790,
-      1909
+      1790
     ]
   },
   {
@@ -1834,7 +1835,7 @@
     "related_ids": [
       2,
       94,
-      104
+      95
     ]
   },
   {
@@ -1943,7 +1944,7 @@
     "related_ids": [
       64,
       112,
-      1496
+      437
     ]
   },
   {
@@ -2133,9 +2134,9 @@
     "space": "O(1)",
     "brief": "Given an integer array  nums  of  unique  elements, return  all possible    subsets    (the power set) .",
     "related_ids": [
+      90,
       5,
-      6,
-      26
+      6
     ]
   },
   {
@@ -2298,8 +2299,8 @@
     "brief": "Given an array of integers  heights  representing the histogram&#39;s bar height where the width of each bar is  1 , return  the area of the largest rectangle in the histogram .",
     "related_ids": [
       85,
-      492,
-      586
+      215,
+      492
     ]
   },
   {
@@ -2330,6 +2331,59 @@
     ]
   },
   {
+    "id": 86,
+    "title": "Partition List",
+    "slug": "partition-list",
+    "difficulty": "Medium",
+    "folder": "0086-partition-list",
+    "path": "leetcode/0086-partition-list",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a linked list and a value  x , partition it such that all nodes  less than   x  come before nodes  greater than or equal  to  x .",
+    "related_ids": [
+      19,
+      61,
+      82
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Scramble String",
+    "slug": "scramble-string",
+    "difficulty": "Hard",
+    "folder": "0087-scramble-string",
+    "path": "leetcode/0087-scramble-string",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "We can scramble a string s to get a string t using the following algorithm:",
+    "related_ids": [
+      8,
+      28,
+      97
+    ]
+  },
+  {
     "id": 88,
     "title": "Merge Sorted Array",
     "slug": "merge-sorted-array",
@@ -2353,6 +2407,139 @@
       21,
       23,
       26
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Gray Code",
+    "slug": "gray-code",
+    "difficulty": "Medium",
+    "folder": "0089-gray-code",
+    "path": "leetcode/0089-gray-code",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "An  n-bit gray code sequence  is a sequence of  2 n   integers where:",
+    "related_ids": [
+      804,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Subsets II",
+    "slug": "subsets-ii",
+    "difficulty": "Medium",
+    "folder": "0090-subsets-ii",
+    "path": "leetcode/0090-subsets-ii",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums  that may contain duplicates, return  all possible    subsets    (the power set) .",
+    "related_ids": [
+      40,
+      45,
+      47
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Decode Ways",
+    "slug": "decode-ways",
+    "difficulty": "Medium",
+    "folder": "0091-decode-ways",
+    "path": "leetcode/0091-decode-ways",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You have intercepted a secret message encoded as a string of numbers. The message is  decoded  via the following mapping:",
+    "related_ids": [
+      394,
+      1720,
+      3558
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Reverse Linked List II",
+    "slug": "reverse-linked-list-ii",
+    "difficulty": "Medium",
+    "folder": "0092-reverse-linked-list-ii",
+    "path": "leetcode/0092-reverse-linked-list-ii",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a singly linked list and two integers  left  and  right  where  left <= right , reverse the nodes of the list from position  left  to position  right , and return  the reversed list .",
+    "related_ids": [
+      206,
+      82,
+      141
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Restore IP Addresses",
+    "slug": "restore-ip-addresses",
+    "difficulty": "Medium",
+    "folder": "0093-restore-ip-addresses",
+    "path": "leetcode/0093-restore-ip-addresses",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "A  valid IP address  consists of exactly four integers separated by single dots. Each integer is between  0  and  255  ( inclusive ) and cannot have leading zeros.",
+    "related_ids": [
+      3451,
+      929,
+      1108
     ]
   },
   {
@@ -2381,7 +2568,145 @@
     "related_ids": [
       144,
       145,
-      104
+      98
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Unique Binary Search Trees II",
+    "slug": "unique-binary-search-trees-ii",
+    "difficulty": "Medium",
+    "folder": "0095-unique-binary-search-trees-ii",
+    "path": "leetcode/0095-unique-binary-search-trees-ii",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  n , return  all the structurally unique  BST&#39; s (binary search trees), which has exactly   n   nodes of unique values from   1   to   n . Return the answer in  any order .",
+    "related_ids": [
+      96,
+      63,
+      81
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Unique Binary Search Trees",
+    "slug": "unique-binary-search-trees",
+    "difficulty": "Medium",
+    "folder": "0096-unique-binary-search-trees",
+    "path": "leetcode/0096-unique-binary-search-trees",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  n , return  the number of structurally unique  BST&#39; s (binary search trees) which has exactly   n   nodes of unique values from   1   to   n .",
+    "related_ids": [
+      95,
+      98,
+      99
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Interleaving String",
+    "slug": "interleaving-string",
+    "difficulty": "Medium",
+    "folder": "0097-interleaving-string",
+    "path": "leetcode/0097-interleaving-string",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given strings  s1 ,  s2 , and  s3 , find whether  s3  is formed by an  interleaving  of  s1  and  s2 .",
+    "related_ids": [
+      8,
+      28,
+      87
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Validate Binary Search Tree",
+    "slug": "validate-binary-search-tree",
+    "difficulty": "Medium",
+    "folder": "0098-validate-binary-search-tree",
+    "path": "leetcode/0098-validate-binary-search-tree",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  root  of a binary tree,  determine if it is a valid binary search tree (BST) .",
+    "related_ids": [
+      99,
+      108,
+      501
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Recover Binary Search Tree",
+    "slug": "recover-binary-search-tree",
+    "difficulty": "Medium",
+    "folder": "0099-recover-binary-search-tree",
+    "path": "leetcode/0099-recover-binary-search-tree",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given the  root  of a binary search tree (BST), where the values of  exactly  two nodes of the tree were swapped by mistake.  Recover the tree without changing its structure .",
+    "related_ids": [
+      98,
+      108,
+      501
     ]
   },
   {
@@ -2409,8 +2734,8 @@
     "brief": "Given the roots of two binary trees  p  and  q , write a function to check if they are the same or not.",
     "related_ids": [
       94,
-      101,
-      104
+      98,
+      99
     ]
   },
   {
@@ -2438,8 +2763,8 @@
     "brief": "Given the  root  of a binary tree,  check whether it is a mirror of itself  (i.e., symmetric around its center).",
     "related_ids": [
       94,
-      100,
-      104
+      98,
+      99
     ]
   },
   {
@@ -2450,9 +2775,10 @@
     "folder": "0104-maximum-depth-of-binary-tree",
     "path": "leetcode/0104-maximum-depth-of-binary-tree",
     "languages": [
+      "JavaScript",
       "PHP"
     ],
-    "lang_str": "PHP",
+    "lang_str": "JavaScript, PHP",
     "pattern": "Binary Search",
     "algorithm": "Modified Binary Search",
     "data_structure": "Sorted Array",
@@ -2467,7 +2793,7 @@
     "related_ids": [
       111,
       559,
-      94
+      1161
     ]
   },
   {
@@ -2495,7 +2821,7 @@
     "related_ids": [
       33,
       81,
-      501
+      98
     ]
   },
   {
@@ -2522,8 +2848,8 @@
     "brief": "Given a binary tree, determine if it is   height-balanced  .",
     "related_ids": [
       94,
-      104,
-      108
+      98,
+      99
     ]
   },
   {
@@ -2579,8 +2905,8 @@
     "brief": "Given the  root  of a binary tree and an integer  targetSum , return  true  if the tree has a  root-to-leaf  path such that adding up all the values along the path equals  targetSum .",
     "related_ids": [
       64,
-      1,
-      39
+      437,
+      1
     ]
   },
   {
@@ -2686,9 +3012,9 @@
     "space": "O(1)",
     "brief": "You are given an array  prices  where  prices[i]  is the price of a given stock on the  i th   day.",
     "related_ids": [
-      636,
-      1266,
-      1450
+      714,
+      2073,
+      636
     ]
   },
   {
@@ -2727,9 +3053,10 @@
     "folder": "0136-single-number",
     "path": "leetcode/0136-single-number",
     "languages": [
+      "JavaScript",
       "PHP"
     ],
-    "lang_str": "PHP",
+    "lang_str": "JavaScript, PHP",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -2767,9 +3094,9 @@
     "space": "O(1)",
     "brief": "Given  head , the head of a linked list, determine if the linked list has a cycle in it.",
     "related_ids": [
+      92,
       203,
-      206,
-      234
+      206
     ]
   },
   {
@@ -2854,7 +3181,33 @@
     "related_ids": [
       7,
       25,
-      190
+      92
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Reverse Words in a String",
+    "slug": "reverse-words-in-a-string",
+    "difficulty": "Medium",
+    "folder": "0151-reverse-words-in-a-string",
+    "path": "leetcode/0151-reverse-words-in-a-string",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an input string  s , reverse the order of the  words .",
+    "related_ids": [
+      557,
+      344,
+      345
     ]
   },
   {
@@ -2942,6 +3295,34 @@
     ]
   },
   {
+    "id": 162,
+    "title": "Find Peak Element",
+    "slug": "find-peak-element",
+    "difficulty": "Medium",
+    "folder": "0162-find-peak-element",
+    "path": "leetcode/0162-find-peak-element",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(log n)",
+    "space": "O(1)",
+    "brief": "A peak element is an element that is strictly greater than its neighbors.",
+    "related_ids": [
+      34,
+      27,
+      28
+    ]
+  },
+  {
     "id": 168,
     "title": "Excel Sheet Column Title",
     "slug": "excel-sheet-column-title",
@@ -2963,8 +3344,8 @@
     "brief": "Given an integer  columnNumber , return  its corresponding column title as it appears in an Excel sheet .",
     "related_ids": [
       171,
-      2881,
-      5
+      2352,
+      2881
     ]
   },
   {
@@ -3323,7 +3704,7 @@
     "related_ids": [
       7,
       25,
-      150
+      92
     ]
   },
   {
@@ -3489,6 +3870,64 @@
     ]
   },
   {
+    "id": 198,
+    "title": "House Robber",
+    "slug": "house-robber",
+    "difficulty": "Medium",
+    "folder": "0198-house-robber",
+    "path": "leetcode/0198-house-robber",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and  it will automatically contact the police if two adjacent houses were broken into on the same night .",
+    "related_ids": [
+      38,
+      50,
+      51
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Binary Tree Right Side View",
+    "slug": "binary-tree-right-side-view",
+    "difficulty": "Medium",
+    "folder": "0199-binary-tree-right-side-view",
+    "path": "leetcode/0199-binary-tree-right-side-view",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the  root  of a binary tree, imagine yourself standing on the  right side  of it, return  the values of the nodes you can see ordered from top to bottom .",
+    "related_ids": [
+      94,
+      98,
+      99
+    ]
+  },
+  {
     "id": 202,
     "title": "Happy Number",
     "slug": "happy-number",
@@ -3576,9 +4015,10 @@
     "folder": "0206-reverse-linked-list",
     "path": "leetcode/0206-reverse-linked-list",
     "languages": [
+      "JavaScript",
       "PHP"
     ],
-    "lang_str": "PHP",
+    "lang_str": "JavaScript, PHP",
     "pattern": "Two Pointers",
     "algorithm": "Two Pointer Convergence & Scanning",
     "data_structure": "Array",
@@ -3591,9 +4031,90 @@
     "space": "O(1)",
     "brief": "Given the  head  of a singly linked list, reverse the list, and return  the reversed list .",
     "related_ids": [
+      92,
       141,
-      203,
-      234
+      203
+    ]
+  },
+  {
+    "id": 208,
+    "title": "Implement Trie (Prefix Tree)",
+    "slug": "implement-trie-prefix-tree",
+    "difficulty": "Medium",
+    "folder": "0208-implement-trie-prefix-tree",
+    "path": "leetcode/0208-implement-trie-prefix-tree",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Trie",
+    "algorithm": "Prefix Tree Lookup",
+    "data_structure": "Trie Node",
+    "topics": [
+      "Trie",
+      "String",
+      "Prefix Search"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "A   trie   (pronounced as \"try\") or  prefix tree  is a tree data structure used to efficiently store and retrieve keys in a dataset of strings. There are various applications of this data structure, such as autocomplete and spellchecker.",
+    "related_ids": [
+      14,
+      94,
+      98
+    ]
+  },
+  {
+    "id": 215,
+    "title": "Kth Largest Element in an Array",
+    "slug": "kth-largest-element-in-an-array",
+    "difficulty": "Medium",
+    "folder": "0215-kth-largest-element-in-an-array",
+    "path": "leetcode/0215-kth-largest-element-in-an-array",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums  and an integer  k , return  the   k th    largest element in the array .",
+    "related_ids": [
+      703,
+      34,
+      961
+    ]
+  },
+  {
+    "id": 216,
+    "title": "Combination Sum III",
+    "slug": "combination-sum-iii",
+    "difficulty": "Medium",
+    "folder": "0216-combination-sum-iii",
+    "path": "leetcode/0216-combination-sum-iii",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Recursive Search",
+    "data_structure": "Recursion Tree",
+    "topics": [
+      "Backtracking",
+      "Recursion"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Find all valid combinations of  k  numbers that sum up to  n  such that the following conditions are true:",
+    "related_ids": [
+      39,
+      40,
+      437
     ]
   },
   {
@@ -3671,8 +4192,8 @@
     "brief": "Implement a last-in-first-out (LIFO) stack using only two queues. The implemented stack should support all the functions of a normal stack ( push ,  top ,  pop , and  empty ).",
     "related_ids": [
       232,
-      1441,
-      1974
+      208,
+      1441
     ]
   },
   {
@@ -3699,8 +4220,8 @@
     "brief": "Given the  root  of a binary tree, invert the tree, and return  its root .",
     "related_ids": [
       94,
-      104,
-      108
+      98,
+      99
     ]
   },
   {
@@ -3763,9 +4284,10 @@
     "folder": "0232-implement-queue-using-stacks",
     "path": "leetcode/0232-implement-queue-using-stacks",
     "languages": [
+      "JavaScript",
       "PHP"
     ],
-    "lang_str": "PHP",
+    "lang_str": "JavaScript, PHP",
     "pattern": "Stack & Queue",
     "algorithm": "Stack Push / Pop Parsing",
     "data_structure": "Stack",
@@ -3778,8 +4300,8 @@
     "brief": "Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue ( push ,  peek ,  pop , and  empty ).",
     "related_ids": [
       225,
-      1974,
-      20
+      208,
+      1974
     ]
   },
   {
@@ -3805,9 +4327,65 @@
     "space": "O(1)",
     "brief": "Given the  head  of a singly linked list, return  true   if it is a    palindrome    or   false   otherwise .",
     "related_ids": [
+      92,
       141,
-      203,
-      206
+      203
+    ]
+  },
+  {
+    "id": 236,
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-tree",
+    "difficulty": "Medium",
+    "folder": "0236-lowest-common-ancestor-of-a-binary-tree",
+    "path": "leetcode/0236-lowest-common-ancestor-of-a-binary-tree",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.",
+    "related_ids": [
+      94,
+      98,
+      99
+    ]
+  },
+  {
+    "id": 238,
+    "title": "Product of Array Except Self",
+    "slug": "product-of-array-except-self",
+    "difficulty": "Medium",
+    "folder": "0238-product-of-array-except-self",
+    "path": "leetcode/0238-product-of-array-except-self",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums , return  an array   answer   such that   answer[i]   is equal to the product of all the elements of   nums   except   nums[i] .",
+    "related_ids": [
+      1464,
+      1822,
+      26
     ]
   },
   {
@@ -3862,8 +4440,8 @@
     "brief": "You are given the  root  of a binary tree.",
     "related_ids": [
       94,
-      104,
-      108
+      98,
+      99
     ]
   },
   {
@@ -4007,9 +4585,10 @@
     "folder": "0283-move-zeroes",
     "path": "leetcode/0283-move-zeroes",
     "languages": [
-      "C++"
+      "C++",
+      "JavaScript"
     ],
-    "lang_str": "C++",
+    "lang_str": "C++, JavaScript",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -4159,6 +4738,61 @@
     ]
   },
   {
+    "id": 328,
+    "title": "Odd Even Linked List",
+    "slug": "odd-even-linked-list",
+    "difficulty": "Medium",
+    "folder": "0328-odd-even-linked-list",
+    "path": "leetcode/0328-odd-even-linked-list",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return  the reordered list .",
+    "related_ids": [
+      92,
+      141,
+      203
+    ]
+  },
+  {
+    "id": 334,
+    "title": "Increasing Triplet Subsequence",
+    "slug": "increasing-triplet-subsequence",
+    "difficulty": "Medium",
+    "folder": "0334-increasing-triplet-subsequence",
+    "path": "leetcode/0334-increasing-triplet-subsequence",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization & State Transition",
+    "data_structure": "DP Table / Array",
+    "topics": [
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given an integer array  nums , return  true   if there exists a triple of indices   (i, j, k)   such that   i < j < k   and   nums[i] < nums[j] < nums[k] . If no such indices exists, return  false .",
+    "related_ids": [
+      674,
+      1403,
+      392
+    ]
+  },
+  {
     "id": 338,
     "title": "Counting Bits",
     "slug": "counting-bits",
@@ -4166,9 +4800,10 @@
     "folder": "0338-counting-bits",
     "path": "leetcode/0338-counting-bits",
     "languages": [
-      "C++"
+      "C++",
+      "JavaScript"
     ],
-    "lang_str": "C++",
+    "lang_str": "C++, JavaScript",
     "pattern": "Binary Search",
     "algorithm": "Modified Binary Search",
     "data_structure": "Sorted Array",
@@ -4233,9 +4868,9 @@
     "space": "O(1)",
     "brief": "Write a function that reverses a string. The input string is given as an array of characters  s .",
     "related_ids": [
+      151,
       345,
-      541,
-      557
+      541
     ]
   },
   {
@@ -4246,9 +4881,10 @@
     "folder": "0345-reverse-vowels-of-a-string",
     "path": "leetcode/0345-reverse-vowels-of-a-string",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -4259,9 +4895,9 @@
     "space": "O(1)",
     "brief": "Given a string  s , reverse only all the vowels in the string and return it.",
     "related_ids": [
+      151,
       344,
-      541,
-      557
+      541
     ]
   },
   {
@@ -4347,6 +4983,32 @@
     ]
   },
   {
+    "id": 373,
+    "title": "Find K Pairs with Smallest Sums",
+    "slug": "find-k-pairs-with-smallest-sums",
+    "difficulty": "Medium",
+    "folder": "0373-find-k-pairs-with-smallest-sums",
+    "path": "leetcode/0373-find-k-pairs-with-smallest-sums",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two integer arrays  nums1  and  nums2  sorted in  non-decreasing order  and an integer  k .",
+    "related_ids": [
+      744,
+      1679,
+      3302
+    ]
+  },
+  {
     "id": 374,
     "title": "Guess Number Higher or Lower",
     "slug": "guess-number-higher-or-lower",
@@ -4354,9 +5016,10 @@
     "folder": "0374-guess-number-higher-or-lower",
     "path": "leetcode/0374-guess-number-higher-or-lower",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -4445,9 +5108,9 @@
     "space": "O(1)",
     "brief": "You are given two strings  s  and  t .",
     "related_ids": [
+      2215,
       28,
-      34,
-      153
+      34
     ]
   },
   {
@@ -4458,9 +5121,10 @@
     "folder": "0392-is-subsequence",
     "path": "leetcode/0392-is-subsequence",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Dynamic Programming",
     "algorithm": "Memoization & State Transition",
     "data_structure": "DP Table / Array",
@@ -4473,9 +5137,35 @@
     "space": "O(n)",
     "brief": "Given two strings  s  and  t , return  true   if   s   is a  subsequence  of   t  , or   false   otherwise .",
     "related_ids": [
+      334,
       521,
-      594,
-      674
+      594
+    ]
+  },
+  {
+    "id": 394,
+    "title": "Decode String",
+    "slug": "decode-string",
+    "difficulty": "Medium",
+    "folder": "0394-decode-string",
+    "path": "leetcode/0394-decode-string",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an encoded string, return its decoded string.",
+    "related_ids": [
+      8,
+      28,
+      87
     ]
   },
   {
@@ -4506,6 +5196,33 @@
     ]
   },
   {
+    "id": 399,
+    "title": "Evaluate Division",
+    "slug": "evaluate-division",
+    "difficulty": "Medium",
+    "folder": "0399-evaluate-division",
+    "path": "leetcode/0399-evaluate-division",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "String Parsing"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given an array of variable pairs  equations  and an array of real numbers  values , where  equations[i] = [A i , B i ]  and  values[i]  represent the equation  A i  / B i  = values[i] . Each  A i   or  B i   is a string that represents a single variable.",
+    "related_ids": [
+      150,
+      1807,
+      20
+    ]
+  },
+  {
     "id": 401,
     "title": "Binary Watch",
     "slug": "binary-watch",
@@ -4531,7 +5248,7 @@
     "related_ids": [
       67,
       94,
-      104
+      95
     ]
   },
   {
@@ -4668,7 +5385,7 @@
     "related_ids": [
       1189,
       1323,
-      1520
+      1456
     ]
   },
   {
@@ -4724,6 +5441,62 @@
     ]
   },
   {
+    "id": 435,
+    "title": "Non-overlapping Intervals",
+    "slug": "non-overlapping-intervals",
+    "difficulty": "Medium",
+    "folder": "0435-non-overlapping-intervals",
+    "path": "leetcode/0435-non-overlapping-intervals",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Greedy",
+    "algorithm": "Greedy Choice Strategy",
+    "data_structure": "Array / Priority Queue",
+    "topics": [
+      "Greedy",
+      "Sorting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of intervals  intervals  where  intervals[i] = [start i , end i ] , return  the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping .",
+    "related_ids": [
+      3414,
+      1477,
+      1520
+    ]
+  },
+  {
+    "id": 437,
+    "title": "Path Sum III",
+    "slug": "path-sum-iii",
+    "difficulty": "Medium",
+    "folder": "0437-path-sum-iii",
+    "path": "leetcode/0437-path-sum-iii",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the  root  of a binary tree and an integer  targetSum , return  the number of paths where the sum of the values along the path equals   targetSum .",
+    "related_ids": [
+      64,
+      112,
+      216
+    ]
+  },
+  {
     "id": 441,
     "title": "Arranging Coins",
     "slug": "arranging-coins",
@@ -4750,6 +5523,32 @@
     ]
   },
   {
+    "id": 443,
+    "title": "String Compression",
+    "slug": "string-compression",
+    "difficulty": "Medium",
+    "folder": "0443-string-compression",
+    "path": "leetcode/0443-string-compression",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of characters  chars , compress it using the following algorithm:",
+    "related_ids": [
+      8,
+      28,
+      87
+    ]
+  },
+  {
     "id": 448,
     "title": "Find All Numbers Disappeared in an Array",
     "slug": "find-all-numbers-disappeared-in-an-array",
@@ -4773,6 +5572,60 @@
       34,
       153,
       154
+    ]
+  },
+  {
+    "id": 450,
+    "title": "Delete Node in a BST",
+    "slug": "delete-node-in-a-bst",
+    "difficulty": "Medium",
+    "folder": "0450-delete-node-in-a-bst",
+    "path": "leetcode/0450-delete-node-in-a-bst",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return  the  root node reference  (possibly updated) of the BST .",
+    "related_ids": [
+      2095,
+      19,
+      196
+    ]
+  },
+  {
+    "id": 452,
+    "title": "Minimum Number of Arrows to Burst Balloons",
+    "slug": "minimum-number-of-arrows-to-burst-balloons",
+    "difficulty": "Medium",
+    "folder": "0452-minimum-number-of-arrows-to-burst-balloons",
+    "path": "leetcode/0452-minimum-number-of-arrows-to-burst-balloons",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There are some spherical balloons taped onto a flat wall that represents the XY-plane. The balloons are represented as a 2D integer array  points  where  points[i] = [x start , x end ]  denotes a balloon whose  horizontal diameter  stretches between  x start   and  x end  . You do not know the exact y-coordinates of the balloons.",
+    "related_ids": [
+      1189,
+      2058,
+      3014
     ]
   },
   {
@@ -4809,9 +5662,10 @@
     "folder": "0459-repeated-substring-pattern",
     "path": "leetcode/0459-repeated-substring-pattern",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -4916,9 +5770,10 @@
     "folder": "0482-license-key-formatting",
     "path": "leetcode/0482-license-key-formatting",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -4955,9 +5810,9 @@
     "space": "O(1)",
     "brief": "Given a binary array  nums , return  the maximum number of consecutive   1  &#39;s in the array .",
     "related_ids": [
+      1004,
       180,
-      1301,
-      1446
+      1301
     ]
   },
   {
@@ -5090,9 +5945,9 @@
     "space": "O(1)",
     "brief": "Given an array of strings  words , return  the words that can be typed using letters of the alphabet on only one row of American keyboard like the image below .",
     "related_ids": [
+      2352,
       5,
-      6,
-      26
+      6
     ]
   },
   {
@@ -5118,9 +5973,9 @@
     "space": "O(1)",
     "brief": "Given the  root  of a binary search tree (BST) with duplicates, return  all the  mode(s)  (i.e., the most frequently occurred element) in it .",
     "related_ids": [
-      108,
-      700,
-      1379
+      98,
+      99,
+      108
     ]
   },
   {
@@ -5263,9 +6118,10 @@
     "folder": "0520-detect-capital",
     "path": "leetcode/0520-detect-capital",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -5306,7 +6162,7 @@
     "related_ids": [
       594,
       674,
-      3702
+      1143
     ]
   },
   {
@@ -5358,9 +6214,9 @@
     "space": "O(1)",
     "brief": "Given a string  s  and an integer  k , reverse the first  k  characters for every  2k  characters counting from the start of the string.",
     "related_ids": [
-      344,
-      345,
-      557
+      92,
+      151,
+      344
     ]
   },
   {
@@ -5387,8 +6243,34 @@
     "brief": "Given the  root  of a binary tree, return  the length of the  diameter  of the tree .",
     "related_ids": [
       94,
-      104,
-      108
+      98,
+      99
+    ]
+  },
+  {
+    "id": 547,
+    "title": "Number of Provinces",
+    "slug": "number-of-provinces",
+    "difficulty": "Medium",
+    "folder": "0547-number-of-provinces",
+    "path": "leetcode/0547-number-of-provinces",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There are  n  cities. Some of them are connected, while some are not. If city  a  is connected directly with city  b , and city  b  is connected directly with city  c , then city  a  is connected indirectly with city  c .",
+    "related_ids": [
+      9,
+      17,
+      65
     ]
   },
   {
@@ -5469,9 +6351,9 @@
     "space": "O(1)",
     "brief": "Given a string  s , reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.",
     "related_ids": [
+      151,
       344,
-      345,
-      541
+      345
     ]
   },
   {
@@ -5553,8 +6435,8 @@
     "brief": "Given the  root  of a binary tree, return  the sum of every tree node&#39;s  tilt .",
     "related_ids": [
       94,
-      104,
-      108
+      98,
+      99
     ]
   },
   {
@@ -5637,8 +6519,8 @@
     "brief": "Given the roots of two binary trees  root  and  subRoot , return  true  if there is a subtree of  root  with the same structure and node values of  subRoot  and  false  otherwise.",
     "related_ids": [
       94,
-      100,
-      101
+      98,
+      99
     ]
   },
   {
@@ -5862,7 +6744,7 @@
     "related_ids": [
       521,
       674,
-      3702
+      1143
     ]
   },
   {
@@ -6037,9 +6919,10 @@
     "folder": "0605-can-place-flowers",
     "path": "leetcode/0605-can-place-flowers",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -6164,8 +7047,8 @@
     "brief": "You are given two binary trees  root1  and  root2 .",
     "related_ids": [
       21,
-      1,
-      2
+      95,
+      96
     ]
   },
   {
@@ -6331,8 +7214,8 @@
     "brief": "On a  single-threaded  CPU, we execute a program containing  n  functions. Each function has a unique ID between 0 and  n - 1 .",
     "related_ids": [
       121,
-      1266,
-      1450
+      714,
+      1266
     ]
   },
   {
@@ -6359,8 +7242,8 @@
     "brief": "Given the  root  of a binary tree, return  the average value of the nodes on each level in the form of an array . Answers within  10 -5   of the actual answer will be accepted.",
     "related_ids": [
       94,
-      104,
-      108
+      98,
+      99
     ]
   },
   {
@@ -6371,9 +7254,10 @@
     "folder": "0643-maximum-average-subarray-i",
     "path": "leetcode/0643-maximum-average-subarray-i",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -6413,7 +7297,33 @@
     "related_ids": [
       73,
       762,
-      7
+      2336
+    ]
+  },
+  {
+    "id": 649,
+    "title": "Dota2 Senate",
+    "slug": "dota2-senate",
+    "difficulty": "Medium",
+    "folder": "0649-dota2-senate",
+    "path": "leetcode/0649-dota2-senate",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "In the world of Dota2, there are two parties: the Radiant and the Dire.",
+    "related_ids": [
+      5,
+      6,
+      26
     ]
   },
   {
@@ -6547,9 +7457,9 @@
     "space": "O(n)",
     "brief": "Given an unsorted array of integers  nums , return  the length of the longest  continuous increasing subsequence  (i.e. subarray) . The subsequence must be  strictly  increasing.",
     "related_ids": [
+      334,
       521,
-      594,
-      1403
+      594
     ]
   },
   {
@@ -6606,6 +7516,32 @@
     ]
   },
   {
+    "id": 686,
+    "title": "Repeated String Match",
+    "slug": "repeated-string-match",
+    "difficulty": "Medium",
+    "folder": "0686-repeated-string-match",
+    "path": "leetcode/0686-repeated-string-match",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two strings  a  and  b , return  the minimum number of times you should repeat string   a   so that string   b   is a substring of it . If it is impossible for  b \u200b\u200b\u200b\u200b\u200b\u200b to be a substring of  a  after repeating it, return  -1 .",
+    "related_ids": [
+      942,
+      8,
+      28
+    ]
+  },
+  {
     "id": 693,
     "title": "Binary Number with Alternating Bits",
     "slug": "binary-number-with-alternating-bits",
@@ -6657,9 +7593,9 @@
     "space": "O(n)",
     "brief": "Given a binary string  s , return the number of non-empty substrings that have the same number of  0 &#39;s and  1 &#39;s, and all the  0 &#39;s and all the  1 &#39;s in these substrings are grouped consecutively.",
     "related_ids": [
+      1448,
       38,
-      67,
-      94
+      67
     ]
   },
   {
@@ -6698,9 +7634,10 @@
     "folder": "0783-search-in-a-binary-search-tree",
     "path": "leetcode/0783-search-in-a-binary-search-tree",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Binary Search",
     "algorithm": "Modified Binary Search",
     "data_structure": "Sorted Array",
@@ -6713,9 +7650,9 @@
     "space": "O(1)",
     "brief": "You are given the  root  of a binary search tree (BST) and an integer  val .",
     "related_ids": [
-      108,
-      501,
-      94
+      98,
+      99,
+      108
     ]
   },
   {
@@ -6739,9 +7676,9 @@
     "space": "O(1)",
     "brief": "You are part of a university admissions office and need to keep track of the  kth  highest test score from applicants in real-time. This helps to determine cut-off marks for interviews and admissions dynamically as new applicants submit their scores.",
     "related_ids": [
+      215,
       27,
-      34,
-      84
+      34
     ]
   },
   {
@@ -6767,9 +7704,9 @@
     "space": "O(1)",
     "brief": "Given an array of integers  nums  which is sorted in ascending order, and an integer  target , write a function to search  target  in  nums . If  target  exists, then return its index. Otherwise, return  -1 .",
     "related_ids": [
-      108,
-      501,
-      700
+      95,
+      96,
+      98
     ]
   },
   {
@@ -6855,6 +7792,32 @@
     ]
   },
   {
+    "id": 714,
+    "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+    "slug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+    "difficulty": "Medium",
+    "folder": "0714-best-time-to-buy-and-sell-stock-with-transaction-fee",
+    "path": "leetcode/0714-best-time-to-buy-and-sell-stock-with-transaction-fee",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array  prices  where  prices[i]  is the price of a given stock on the  i th   day, and an integer  fee  representing a transaction fee.",
+    "related_ids": [
+      121,
+      2073,
+      636
+    ]
+  },
+  {
     "id": 717,
     "title": "1-bit and 2-bit Characters",
     "slug": "1-bit-and-2-bit-characters",
@@ -6889,9 +7852,10 @@
     "folder": "0724-find-pivot-index",
     "path": "leetcode/0724-find-pivot-index",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -6960,6 +7924,32 @@
     ]
   },
   {
+    "id": 735,
+    "title": "Asteroid Collision",
+    "slug": "asteroid-collision",
+    "difficulty": "Medium",
+    "folder": "0735-asteroid-collision",
+    "path": "leetcode/0735-asteroid-collision",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "We are given an array  asteroids  of integers representing asteroids in a row. The indices of the asteroid in the array represent their relative position in space.",
+    "related_ids": [
+      5,
+      6,
+      26
+    ]
+  },
+  {
     "id": 739,
     "title": "Daily Temperatures",
     "slug": "daily-temperatures",
@@ -6967,9 +7957,10 @@
     "folder": "0739-daily-temperatures",
     "path": "leetcode/0739-daily-temperatures",
     "languages": [
+      "JavaScript",
       "TypeScript"
     ],
-    "lang_str": "TypeScript",
+    "lang_str": "JavaScript, TypeScript",
     "pattern": "Monotonic Stack",
     "algorithm": "Monotonic Stack Filtering",
     "data_structure": "Stack",
@@ -7022,9 +8013,10 @@
     "folder": "0747-min-cost-climbing-stairs",
     "path": "leetcode/0747-min-cost-climbing-stairs",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -7234,6 +8226,32 @@
     ]
   },
   {
+    "id": 790,
+    "title": "Domino and Tromino Tiling",
+    "slug": "domino-and-tromino-tiling",
+    "difficulty": "Medium",
+    "folder": "0806-domino-and-tromino-tiling",
+    "path": "leetcode/0806-domino-and-tromino-tiling",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You have two types of tiles: a  2 x 1  domino shape and a tromino shape. You may rotate these shapes.",
+    "related_ids": [
+      1128,
+      5,
+      6
+    ]
+  },
+  {
     "id": 796,
     "title": "Rotate String",
     "slug": "rotate-string",
@@ -7241,9 +8259,10 @@
     "folder": "0812-rotate-string",
     "path": "leetcode/0812-rotate-string",
     "languages": [
-      "C++"
+      "C++",
+      "JavaScript"
     ],
-    "lang_str": "C++",
+    "lang_str": "C++, JavaScript",
     "pattern": "Math & Logic",
     "algorithm": "Mathematical Simulation & Modular Arithmetic",
     "data_structure": "Primitive Types",
@@ -7444,6 +8463,32 @@
     ]
   },
   {
+    "id": 831,
+    "title": "Masking Personal Information",
+    "slug": "masking-personal-information",
+    "difficulty": "Medium",
+    "folder": "0858-masking-personal-information",
+    "path": "leetcode/0858-masking-personal-information",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a personal information string  s , representing either an  email address  or a  phone number . Return  the  masked  personal information using the below rules .",
+    "related_ids": [
+      1965,
+      5,
+      6
+    ]
+  },
+  {
     "id": 832,
     "title": "Flipping an Image",
     "slug": "flipping-an-image",
@@ -7524,6 +8569,32 @@
     ]
   },
   {
+    "id": 841,
+    "title": "Keys and Rooms",
+    "slug": "keys-and-rooms",
+    "difficulty": "Medium",
+    "folder": "0871-keys-and-rooms",
+    "path": "leetcode/0871-keys-and-rooms",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There are  n  rooms labeled from  0  to  n - 1  and all the rooms are locked except for room  0 . Your goal is to visit all the rooms. However, you cannot enter a locked room without having its key.",
+    "related_ids": [
+      5,
+      6,
+      26
+    ]
+  },
+  {
     "id": 844,
     "title": "Backspace String Compare",
     "slug": "backspace-string-compare",
@@ -7546,7 +8617,7 @@
     "related_ids": [
       8,
       28,
-      344
+      87
     ]
   },
   {
@@ -7683,7 +8754,7 @@
     "related_ids": [
       67,
       94,
-      104
+      95
     ]
   },
   {
@@ -7694,9 +8765,10 @@
     "folder": "0904-leaf-similar-trees",
     "path": "leetcode/0904-leaf-similar-trees",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Tree & Graph",
     "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
     "data_structure": "Tree / Graph / Grid",
@@ -7710,9 +8782,35 @@
     "space": "O(n)",
     "brief": "Consider all the leaves of a binary tree, from left to right order, the values of those leaves form a  leaf value sequence  .",
     "related_ids": [
-      617,
-      1022,
-      38
+      95,
+      96,
+      617
+    ]
+  },
+  {
+    "id": 875,
+    "title": "Koko Eating Bananas",
+    "slug": "koko-eating-bananas",
+    "difficulty": "Medium",
+    "folder": "0907-koko-eating-bananas",
+    "path": "leetcode/0907-koko-eating-bananas",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Koko loves to eat bananas. There are  n  piles of bananas, the  i th   pile has  piles[i]  bananas. The guards have gone and will come back in  h  hours.",
+    "related_ids": [
+      5,
+      6,
+      26
     ]
   },
   {
@@ -7739,8 +8837,8 @@
     "brief": "Given the  head  of a singly linked list, return  the middle node of the linked list .",
     "related_ids": [
       2095,
-      141,
-      203
+      92,
+      141
     ]
   },
   {
@@ -7927,9 +9025,35 @@
     "space": "O(1)",
     "brief": "Given the  root  of a binary search tree, rearrange the tree in  in-order  so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.",
     "related_ids": [
-      108,
-      501,
-      700
+      98,
+      99,
+      108
+    ]
+  },
+  {
+    "id": 901,
+    "title": "Online Stock Span",
+    "slug": "online-stock-span",
+    "difficulty": "Medium",
+    "folder": "0937-online-stock-span",
+    "path": "leetcode/0937-online-stock-span",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Design an algorithm that collects daily price quotes for some stock and returns  the span  of that stock&#39;s price for the current day.",
+    "related_ids": [
+      121,
+      714,
+      5
     ]
   },
   {
@@ -8035,7 +9159,7 @@
     "related_ids": [
       7,
       25,
-      150
+      92
     ]
   },
   {
@@ -8140,7 +9264,7 @@
     "related_ids": [
       62,
       63,
-      387
+      93
     ]
   },
   {
@@ -8151,9 +9275,10 @@
     "folder": "0969-number-of-recent-calls",
     "path": "leetcode/0969-number-of-recent-calls",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -8272,9 +9397,9 @@
     "space": "O(1)",
     "brief": "A permutation  perm  of  n + 1  integers of all the integers in the range  [0, n]  can be represented as a string  s  of length  n  where:",
     "related_ids": [
+      686,
       8,
-      28,
-      344
+      28
     ]
   },
   {
@@ -8353,8 +9478,8 @@
     "brief": "You are given an integer array  nums  with the following properties:",
     "related_ids": [
       34,
-      1287,
-      1909
+      215,
+      1287
     ]
   },
   {
@@ -8381,8 +9506,8 @@
     "brief": "A binary tree is  uni-valued  if every node in the tree has the same value.",
     "related_ids": [
       94,
-      104,
-      108
+      98,
+      99
     ]
   },
   {
@@ -8488,8 +9613,34 @@
     "brief": "Given the  root  of a binary tree with unique values and the values of two different nodes of the tree  x  and  y , return  true   if the nodes corresponding to the values   x   and   y   in the tree are  cousins , or   false   otherwise.",
     "related_ids": [
       94,
-      104,
-      108
+      98,
+      99
+    ]
+  },
+  {
+    "id": 994,
+    "title": "Rotting Oranges",
+    "slug": "rotting-oranges",
+    "difficulty": "Medium",
+    "folder": "1036-rotting-oranges",
+    "path": "leetcode/1036-rotting-oranges",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an  m x n   grid  where each cell can have one of three values:",
+    "related_ids": [
+      5,
+      6,
+      26
     ]
   },
   {
@@ -8571,6 +9722,32 @@
     ]
   },
   {
+    "id": 1004,
+    "title": "Max Consecutive Ones III",
+    "slug": "max-consecutive-ones-iii",
+    "difficulty": "Medium",
+    "folder": "1046-max-consecutive-ones-iii",
+    "path": "leetcode/1046-max-consecutive-ones-iii",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a binary array  nums  and an integer  k , return  the maximum number of consecutive   1  &#39;s in the array if you can flip at most   k   0 &#39;s.",
+    "related_ids": [
+      485,
+      180,
+      216
+    ]
+  },
+  {
     "id": 1005,
     "title": "Maximize Sum Of Array After K Negations",
     "slug": "maximize-sum-of-array-after-k-negations",
@@ -8591,9 +9768,9 @@
     "space": "O(1)",
     "brief": "Given an integer array  nums  and an integer  k , modify the array in the following way:",
     "related_ids": [
+      2897,
       1480,
-      1619,
-      1837
+      1619
     ]
   },
   {
@@ -8702,9 +9879,9 @@
     "space": "O(n)",
     "brief": "You are given the  root  of a binary tree where each node has a value  0  or  1 . Each root-to-leaf path represents a binary number starting with the most significant bit.",
     "related_ids": [
+      1161,
       1,
-      2,
-      39
+      2
     ]
   },
   {
@@ -8824,9 +10001,10 @@
     "folder": "1127-last-stone-weight",
     "path": "leetcode/1127-last-stone-weight",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -8986,9 +10164,10 @@
     "folder": "1146-greatest-common-divisor-of-strings",
     "path": "leetcode/1146-greatest-common-divisor-of-strings",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -9213,9 +10392,9 @@
     "space": "O(1)",
     "brief": "Given a valid (IPv4) IP  address , return a defanged version of that IP address.",
     "related_ids": [
+      93,
       3451,
-      5,
-      6
+      5
     ]
   },
   {
@@ -9298,7 +10477,7 @@
     "related_ids": [
       1114,
       1116,
-      1
+      1768
     ]
   },
   {
@@ -9322,9 +10501,9 @@
     "space": "O(1)",
     "brief": "You have a function  printNumber  that can be called with an integer parameter and prints it to the console.",
     "related_ids": [
+      328,
       3220,
-      3658,
-      1114
+      3658
     ]
   },
   {
@@ -9403,8 +10582,8 @@
     "brief": "Given a list of  dominoes ,  dominoes[i] = [a, b]  is  equivalent to   dominoes[j] = [c, d]  if and only if either ( a == c  and  b == d ), or ( a == d  and  b == c ) - that is, one domino can be rotated to be equal to another domino.",
     "related_ids": [
       1512,
-      9,
-      17
+      1679,
+      9
     ]
   },
   {
@@ -9415,9 +10594,10 @@
     "folder": "1236-n-th-tribonacci-number",
     "path": "leetcode/1236-n-th-tribonacci-number",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Bit Manipulation",
     "algorithm": "Bitwise Masking & Bit Shift",
     "data_structure": "Integer Bitmask",
@@ -9488,6 +10668,34 @@
       496,
       511,
       521
+    ]
+  },
+  {
+    "id": 1143,
+    "title": "Longest Common Subsequence",
+    "slug": "longest-common-subsequence",
+    "difficulty": "Medium",
+    "folder": "1250-longest-common-subsequence",
+    "path": "leetcode/1250-longest-common-subsequence",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization & State Transition",
+    "data_structure": "DP Table / Array",
+    "topics": [
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given two strings  text1  and  text2 , return  the length of their longest  common subsequence .  If there is no  common subsequence , return  0 .",
+    "related_ids": [
+      14,
+      521,
+      594
     ]
   },
   {
@@ -9602,6 +10810,35 @@
     ]
   },
   {
+    "id": 1161,
+    "title": "Maximum Level Sum of a Binary Tree",
+    "slug": "maximum-level-sum-of-a-binary-tree",
+    "difficulty": "Medium",
+    "folder": "1116-maximum-level-sum-of-a-binary-tree",
+    "path": "leetcode/1116-maximum-level-sum-of-a-binary-tree",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the  root  of a binary tree, the level of its root is  1 , the level of its children is  2 , and so on.",
+    "related_ids": [
+      104,
+      94,
+      98
+    ]
+  },
+  {
     "id": 1164,
     "title": "Product Price at a Given Date",
     "slug": "product-price-at-a-given-date",
@@ -9624,9 +10861,9 @@
     "space": "O(n)",
     "brief": "+---------------+---------+",
     "related_ids": [
+      238,
       628,
-      1068,
-      1070
+      1068
     ]
   },
   {
@@ -9762,8 +10999,8 @@
     "brief": "Given a string  text , you want to use the characters of  text  to form as many instances of the word  \"balloon\"  as possible.",
     "related_ids": [
       414,
-      1323,
-      1520
+      452,
+      1323
     ]
   },
   {
@@ -9870,7 +11107,7 @@
     "related_ids": [
       530,
       1984,
-      64
+      2333
     ]
   },
   {
@@ -9909,9 +11146,10 @@
     "folder": "1319-unique-number-of-occurrences",
     "path": "leetcode/1319-unique-number-of-occurrences",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -10172,6 +11410,32 @@
     ]
   },
   {
+    "id": 1268,
+    "title": "Search Suggestions System",
+    "slug": "search-suggestions-system",
+    "difficulty": "Medium",
+    "folder": "1397-search-suggestions-system",
+    "path": "leetcode/1397-search-suggestions-system",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of strings  products  and a string  searchWord .",
+    "related_ids": [
+      33,
+      35,
+      74
+    ]
+  },
+  {
     "id": 1275,
     "title": "Find Winner on a Tic Tac Toe Game",
     "slug": "find-winner-on-a-tic-tac-toe-game",
@@ -10329,9 +11593,9 @@
     "space": "O(1)",
     "brief": "Given  head  which is a reference node to a singly-linked list. The value of each node in the linked list is either  0  or  1 . The linked list holds the binary representation of a number.",
     "related_ids": [
+      92,
       108,
-      141,
-      203
+      141
     ]
   },
   {
@@ -10409,9 +11673,9 @@
     "space": "O(1)",
     "brief": "Given an array  arr , replace every element in that array with the greatest element among the elements to its right, and replace the last element with  -1 .",
     "related_ids": [
+      199,
       27,
-      34,
-      169
+      34
     ]
   },
   {
@@ -10437,9 +11701,9 @@
     "space": "O(n)",
     "brief": "You are given a square  board  of characters. You can move on the board starting at the bottom right square marked with the character  &#39;S&#39; .",
     "related_ids": [
+      1679,
       9,
-      17,
-      62
+      17
     ]
   },
   {
@@ -10493,8 +11757,8 @@
     "brief": "You are given a string  s  formed by digits and  &#39;#&#39; . We want to map  s  to English lowercase characters as follows:",
     "related_ids": [
       8,
-      7,
-      12
+      2390,
+      7
     ]
   },
   {
@@ -10550,6 +11814,33 @@
     ]
   },
   {
+    "id": 1318,
+    "title": "Minimum Flips to Make a OR b Equal to c",
+    "slug": "minimum-flips-to-make-a-or-b-equal-to-c",
+    "difficulty": "Medium",
+    "folder": "1441-minimum-flips-to-make-a-or-b-equal-to-c",
+    "path": "leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given 3 positives numbers  a ,  b  and  c . Return the minimum flips required in some bits of  a  and  b  to make (  a  OR  b  ==  c  ). (bitwise OR operation).",
+    "related_ids": [
+      921,
+      1460,
+      1674
+    ]
+  },
+  {
     "id": 1321,
     "title": "Restaurant Growth",
     "slug": "restaurant-growth",
@@ -10600,7 +11891,7 @@
     "related_ids": [
       414,
       1189,
-      1520
+      1456
     ]
   },
   {
@@ -10909,6 +12200,32 @@
     ]
   },
   {
+    "id": 1354,
+    "title": "Construct Target Array With Multiple Sums",
+    "slug": "construct-target-array-with-multiple-sums",
+    "difficulty": "Hard",
+    "folder": "1479-construct-target-array-with-multiple-sums",
+    "path": "leetcode/1479-construct-target-array-with-multiple-sums",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array  target  of n integers. From a starting array  arr  consisting of  n  1&#39;s, you may perform the following procedure :",
+    "related_ids": [
+      1389,
+      3875,
+      3876
+    ]
+  },
+  {
     "id": 1356,
     "title": "Sort Integers by The Number of 1 Bits",
     "slug": "sort-integers-by-the-number-of-1-bits",
@@ -11040,7 +12357,36 @@
     "related_ids": [
       8,
       28,
-      344
+      87
+    ]
+  },
+  {
+    "id": 1372,
+    "title": "Longest ZigZag Path in a Binary Tree",
+    "slug": "longest-zigzag-path-in-a-binary-tree",
+    "difficulty": "Medium",
+    "folder": "1474-longest-zigzag-path-in-a-binary-tree",
+    "path": "leetcode/1474-longest-zigzag-path-in-a-binary-tree",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given the  root  of a binary tree.",
+    "related_ids": [
+      94,
+      98,
+      99
     ]
   },
   {
@@ -11094,7 +12440,7 @@
     "related_ids": [
       62,
       63,
-      387
+      95
     ]
   },
   {
@@ -11176,8 +12522,8 @@
     "brief": "Given two integer arrays  arr1  and  arr2 , and the integer  d ,  return the distance value between the two arrays .",
     "related_ids": [
       1477,
-      2657,
-      4
+      2215,
+      2657
     ]
   },
   {
@@ -11229,9 +12575,9 @@
     "space": "O(1)",
     "brief": "Given two arrays of integers  nums  and  index . Your task is to create  target  array under the following rules:",
     "related_ids": [
+      1354,
       2161,
-      26,
-      33
+      26
     ]
   },
   {
@@ -11340,7 +12686,7 @@
     "related_ids": [
       84,
       85,
-      492
+      435
     ]
   },
   {
@@ -11366,9 +12712,9 @@
     "space": "O(n)",
     "brief": "Given the array  nums , obtain a subsequence of the array whose sum of elements is  strictly greater  than the sum of the non included elements in such subsequence.",
     "related_ids": [
+      334,
       674,
-      897,
-      1827
+      897
     ]
   },
   {
@@ -11476,7 +12822,7 @@
     "related_ids": [
       64,
       599,
-      2540
+      2333
     ]
   },
   {
@@ -11502,7 +12848,7 @@
     "related_ids": [
       8,
       28,
-      344
+      87
     ]
   },
   {
@@ -11528,7 +12874,7 @@
     "related_ids": [
       1846,
       1945,
-      3414
+      2542
     ]
   },
   {
@@ -11539,9 +12885,10 @@
     "folder": "1528-kids-with-the-greatest-number-of-candies",
     "path": "leetcode/1528-kids-with-the-greatest-number-of-candies",
     "languages": [
+      "JavaScript",
       "Python"
     ],
-    "lang_str": "Python",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -11578,9 +12925,9 @@
     "space": "O(1)",
     "brief": "You are given the array  paths , where  paths[i] = [cityA i , cityB i ]  means there exists a direct path going from  cityA i   to  cityB i  .  Return the destination city, that is, the city without any path outgoing to another city.",
     "related_ids": [
+      1466,
       5,
-      6,
-      26
+      6
     ]
   },
   {
@@ -11633,7 +12980,7 @@
     "related_ids": [
       1827,
       1920,
-      26
+      2897
     ]
   },
   {
@@ -11663,6 +13010,33 @@
     ]
   },
   {
+    "id": 1448,
+    "title": "Count Good Nodes in Binary Tree",
+    "slug": "count-good-nodes-in-binary-tree",
+    "difficulty": "Medium",
+    "folder": "1544-count-good-nodes-in-binary-tree",
+    "path": "leetcode/1544-count-good-nodes-in-binary-tree",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a binary tree  root , a node  X  in the tree is named  good  if in the path from root to  X  there are no nodes with a value  greater than  X.",
+    "related_ids": [
+      94,
+      98,
+      99
+    ]
+  },
+  {
     "id": 1450,
     "title": "Number of Students Doing Homework at a Given Time",
     "slug": "number-of-students-doing-homework-at-a-given-time",
@@ -11683,9 +13057,9 @@
     "space": "O(1)",
     "brief": "Given two integer arrays  startTime  and  endTime  and given an integer  queryTime .",
     "related_ids": [
+      1456,
       1700,
-      9,
-      17
+      9
     ]
   },
   {
@@ -11713,6 +13087,32 @@
       1832,
       1880,
       1961
+    ]
+  },
+  {
+    "id": 1456,
+    "title": "Maximum Number of Vowels in a Substring of Given Length",
+    "slug": "maximum-number-of-vowels-in-a-substring-of-given-length",
+    "difficulty": "Medium",
+    "folder": "1567-maximum-number-of-vowels-in-a-substring-of-given-length",
+    "path": "leetcode/1567-maximum-number-of-vowels-in-a-substring-of-given-length",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a string  s  and an integer  k , return  the maximum number of vowel letters in any substring of   s   with length   k .",
+    "related_ids": [
+      3090,
+      414,
+      1189
     ]
   },
   {
@@ -11766,7 +13166,36 @@
     "related_ids": [
       1913,
       3536,
-      628
+      238
+    ]
+  },
+  {
+    "id": 1466,
+    "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+    "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "difficulty": "Medium",
+    "folder": "1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "path": "leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "There are  n  cities numbered from  0  to  n - 1  and  n - 1  roads such that there is only one way to travel between two different cities (this network form a tree). Last year, The ministry of transport decided to orient the roads in one direction because they are too narrow.",
+    "related_ids": [
+      1897,
+      30,
+      62
     ]
   },
   {
@@ -11847,8 +13276,8 @@
     "brief": "You are given an array of integers  arr  and an integer  target .",
     "related_ids": [
       1385,
-      2657,
-      1
+      2215,
+      2657
     ]
   },
   {
@@ -11873,8 +13302,8 @@
     "brief": "Given an array  nums . We define a running sum of an array as  runningSum[i] = sum(nums[0]&hellip;nums[i]) .",
     "related_ids": [
       1005,
-      1,
-      26
+      2897,
+      1
     ]
   },
   {
@@ -11956,6 +13385,32 @@
       643,
       2058,
       2091
+    ]
+  },
+  {
+    "id": 1493,
+    "title": "Longest Subarray of 1's After Deleting One Element",
+    "slug": "longest-subarray-of-1s-after-deleting-one-element",
+    "difficulty": "Medium",
+    "folder": "1586-longest-subarray-of-1s-after-deleting-one-element",
+    "path": "leetcode/1586-longest-subarray-of-1s-after-deleting-one-element",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a binary array  nums , you should delete  one  element from it.",
+    "related_ids": [
+      1846,
+      1909,
+      2213
     ]
   },
   {
@@ -12089,8 +13544,8 @@
     "brief": "Given an array of integers  nums , return  the number of  good pairs  .",
     "related_ids": [
       1128,
-      9,
-      17
+      1679,
+      9
     ]
   },
   {
@@ -12254,7 +13709,7 @@
     "related_ids": [
       8,
       28,
-      344
+      87
     ]
   },
   {
@@ -12550,8 +14005,8 @@
     "brief": "You are given a string  text  of words that are placed among some number of spaces. Each word consists of one or more lowercase English letters and are separated by at least one space. It&#39;s guaranteed that  text   contains at least one word .",
     "related_ids": [
       30,
-      557,
-      783
+      151,
+      557
     ]
   },
   {
@@ -12603,7 +14058,7 @@
     "related_ids": [
       705,
       706,
-      1656
+      1268
     ]
   },
   {
@@ -12952,6 +14407,32 @@
     ]
   },
   {
+    "id": 1657,
+    "title": "Determine if Two Strings Are Close",
+    "slug": "determine-if-two-strings-are-close",
+    "difficulty": "Medium",
+    "folder": "1777-determine-if-two-strings-are-close",
+    "path": "leetcode/1777-determine-if-two-strings-are-close",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Two strings are considered  close  if you can attain one from the other using the following operations:",
+    "related_ids": [
+      1662,
+      1704,
+      1111
+    ]
+  },
+  {
     "id": 1658,
     "title": "Minimum Operations to Reduce X to Zero",
     "slug": "minimum-operations-to-reduce-x-to-zero",
@@ -13029,8 +14510,8 @@
     "brief": "Given two string arrays  word1  and  word2 , return    true   if the two arrays  represent  the same string, and   false   otherwise.",
     "related_ids": [
       1437,
-      1704,
-      1784
+      1657,
+      1704
     ]
   },
   {
@@ -13111,8 +14592,8 @@
     "brief": "For a string  sequence , a string  word  is   k -repeating  if  word  concatenated  k  times is a substring of  sequence . The  word &#39;s  maximum  k -repeating value  is the highest value  k  where  word  is  k -repeating in  sequence . If  word  is not a substring of  sequence ,  word &#39;s maximum  k -repeating value is  0 .",
     "related_ids": [
       3,
-      2213,
-      3090
+      1456,
+      2213
     ]
   },
   {
@@ -13193,6 +14674,32 @@
       5,
       6,
       26
+    ]
+  },
+  {
+    "id": 1679,
+    "title": "Max Number of K-Sum Pairs",
+    "slug": "max-number-of-k-sum-pairs",
+    "difficulty": "Medium",
+    "folder": "1798-max-number-of-k-sum-pairs",
+    "path": "leetcode/1798-max-number-of-k-sum-pairs",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums  and an integer  k .",
+    "related_ids": [
+      373,
+      1005,
+      1128
     ]
   },
   {
@@ -13363,9 +14870,10 @@
     "folder": "1802-number-of-students-unable-to-eat-lunch",
     "path": "leetcode/1802-number-of-students-unable-to-eat-lunch",
     "languages": [
-      "C++"
+      "C++",
+      "JavaScript"
     ],
-    "lang_str": "C++",
+    "lang_str": "C++, JavaScript",
     "pattern": "Stack & Queue",
     "algorithm": "Stack Push / Pop Parsing",
     "data_structure": "Stack",
@@ -13403,9 +14911,9 @@
     "space": "O(1)",
     "brief": "You are given a string  s  of even length. Split this string into two halves of equal lengths, and let  a  be the first half and  b  be the second half.",
     "related_ids": [
+      1657,
       1662,
-      1437,
-      1784
+      1437
     ]
   },
   {
@@ -13581,9 +15089,10 @@
     "folder": "1833-find-the-highest-altitude",
     "path": "leetcode/1833-find-the-highest-altitude",
     "languages": [
+      "JavaScript",
       "Kotlin"
     ],
-    "lang_str": "Kotlin",
+    "lang_str": "JavaScript, Kotlin",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -13701,9 +15210,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums . The unique elements of an array are the elements that appear  exactly once  in the array.",
     "related_ids": [
+      2778,
       1,
-      39,
-      40
+      39
     ]
   },
   {
@@ -13815,6 +15324,32 @@
       3,
       5,
       2213
+    ]
+  },
+  {
+    "id": 1768,
+    "title": "Merge Strings Alternately",
+    "slug": "merge-strings-alternately",
+    "difficulty": "Easy",
+    "folder": "1894-merge-strings-alternately",
+    "path": "leetcode/1894-merge-strings-alternately",
+    "languages": [
+      "C++"
+    ],
+    "lang_str": "C++",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two strings  word1  and  word2 . Merge the strings by adding letters in alternating order, starting with  word1 . If a string is longer than the other, append the additional letters onto the end of the merged string.",
+    "related_ids": [
+      21,
+      23,
+      43
     ]
   },
   {
@@ -14059,7 +15594,7 @@
     "related_ids": [
       53,
       643,
-      2130
+      1161
     ]
   },
   {
@@ -14139,8 +15674,8 @@
     "brief": "You are given  coordinates , a string that represents the coordinates of a square of the chessboard. Below is a chessboard for your reference.",
     "related_ids": [
       367,
-      1704,
-      1725
+      1657,
+      1704
     ]
   },
   {
@@ -14190,9 +15725,9 @@
     "space": "O(1)",
     "brief": "Implement a function  signFunc(x)  that returns:",
     "related_ids": [
+      238,
       1464,
-      26,
-      33
+      26
     ]
   },
   {
@@ -14301,7 +15836,7 @@
     "related_ids": [
       1005,
       1281,
-      1945
+      1679
     ]
   },
   {
@@ -14384,8 +15919,8 @@
     "brief": "You are given an array of positive integers  arr . Perform some operations (possibly none) on  arr  so that it satisfies these conditions:",
     "related_ids": [
       1422,
-      3300,
-      27
+      1493,
+      3300
     ]
   },
   {
@@ -14788,7 +16323,7 @@
     "related_ids": [
       1790,
       1941,
-      1358
+      1318
     ]
   },
   {
@@ -14980,6 +16515,32 @@
     ]
   },
   {
+    "id": 1926,
+    "title": "Nearest Exit from Entrance in Maze",
+    "slug": "nearest-exit-from-entrance-in-maze",
+    "difficulty": "Medium",
+    "folder": "2038-nearest-exit-from-entrance-in-maze",
+    "path": "leetcode/2038-nearest-exit-from-entrance-in-maze",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an  m x n  matrix  maze  ( 0-indexed ) with empty cells (represented as  &#39;.&#39; ) and walls (represented as  &#39;+&#39; ). You are also given the  entrance  of the maze, where  entrance = [entrance row , entrance col ]  denotes the row and column of the cell you are initially standing at.",
+    "related_ids": [
+      19,
+      26,
+      80
+    ]
+  },
+  {
     "id": 1927,
     "title": "Sum Game",
     "slug": "sum-game",
@@ -15029,6 +16590,34 @@
       1640,
       26,
       30
+    ]
+  },
+  {
+    "id": 1934,
+    "title": "Confirmation Rate",
+    "slug": "confirmation-rate",
+    "difficulty": "Medium",
+    "folder": "2087-confirmation-rate",
+    "path": "leetcode/2087-confirmation-rate",
+    "languages": [
+      "SQL"
+    ],
+    "lang_str": "SQL",
+    "pattern": "Database / SQL",
+    "algorithm": "SQL Query / Relational Join & Window Function",
+    "data_structure": "Relational Table",
+    "topics": [
+      "Database",
+      "SQL",
+      "Data Aggregation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "+----------------+----------+",
+    "related_ids": [
+      175,
+      176,
+      177
     ]
   },
   {
@@ -15519,6 +17108,32 @@
     ]
   },
   {
+    "id": 2073,
+    "title": "Time Needed to Buy Tickets",
+    "slug": "time-needed-to-buy-tickets",
+    "difficulty": "Easy",
+    "folder": "2195-time-needed-to-buy-tickets",
+    "path": "leetcode/2195-time-needed-to-buy-tickets",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There are  n  people in a line queuing to buy tickets, where the  0 th   person is at the  front  of the line and the  (n - 1) th   person is at the  back  of the line.",
+    "related_ids": [
+      121,
+      714,
+      636
+    ]
+  },
+  {
     "id": 2091,
     "title": "Removing Minimum and Maximum From Array",
     "slug": "removing-minimum-and-maximum-from-array",
@@ -15552,9 +17167,10 @@
     "folder": "2216-delete-the-middle-node-of-a-linked-list",
     "path": "leetcode/2216-delete-the-middle-node-of-a-linked-list",
     "languages": [
-      "Java"
+      "Java",
+      "JavaScript"
     ],
-    "lang_str": "Java",
+    "lang_str": "Java, JavaScript",
     "pattern": "Fast & Slow Pointers",
     "algorithm": "Floyd Cycle Detection",
     "data_structure": "Linked List / Pointer",
@@ -15568,7 +17184,7 @@
     "related_ids": [
       876,
       19,
-      141
+      92
     ]
   },
   {
@@ -15606,9 +17222,10 @@
     "folder": "2236-maximum-twin-sum-of-a-linked-list",
     "path": "leetcode/2236-maximum-twin-sum-of-a-linked-list",
     "languages": [
-      "Java"
+      "Java",
+      "JavaScript"
     ],
-    "lang_str": "Java",
+    "lang_str": "Java, JavaScript",
     "pattern": "Fast & Slow Pointers",
     "algorithm": "Floyd Cycle Detection",
     "data_structure": "Linked List / Pointer",
@@ -15620,9 +17237,9 @@
     "space": "O(1)",
     "brief": "In a linked list of size  n , where  n  is  even , the  i th   node ( 0-indexed ) of the linked list is known as the  twin  of the  (n-1-i) th   node, if  0 <= i <= (n / 2) - 1 .",
     "related_ids": [
+      92,
       141,
-      203,
-      206
+      203
     ]
   },
   {
@@ -15706,8 +17323,8 @@
     "brief": "You are given a 2D integer array  descriptions  where  descriptions[i] = [parent i , child i , isLeft i ]  indicates that  parent i   is the  parent  of  child i   in a  binary  tree of  unique  values. Furthermore,",
     "related_ids": [
       94,
-      104,
-      108
+      98,
+      99
     ]
   },
   {
@@ -15735,7 +17352,33 @@
     "related_ids": [
       3,
       5,
-      1668
+      1493
+    ]
+  },
+  {
+    "id": 2215,
+    "title": "Find the Difference of Two Arrays",
+    "slug": "find-the-difference-of-two-arrays",
+    "difficulty": "Easy",
+    "folder": "1392-find-the-difference-of-two-arrays",
+    "path": "leetcode/1392-find-the-difference-of-two-arrays",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two  0-indexed  integer arrays  nums1  and  nums2 , return  a list   answer   of size   2   where:",
+    "related_ids": [
+      1385,
+      1477,
+      2657
     ]
   },
   {
@@ -15761,9 +17404,9 @@
     "space": "O(1)",
     "brief": "Given the  root  of a binary tree, return  the number of nodes where the value of the node is equal to the  average  of the values in its  subtree  .",
     "related_ids": [
+      1448,
       24,
-      25,
-      38
+      25
     ]
   },
   {
@@ -15821,6 +17464,110 @@
     ]
   },
   {
+    "id": 2300,
+    "title": "Successful Pairs of Spells and Potions",
+    "slug": "successful-pairs-of-spells-and-potions",
+    "difficulty": "Medium",
+    "folder": "2392-successful-pairs-of-spells-and-potions",
+    "path": "leetcode/2392-successful-pairs-of-spells-and-potions",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two positive integer arrays  spells  and  potions , of length  n  and  m  respectively, where  spells[i]  represents the strength of the  i th   spell and  potions[j]  represents the strength of the  j th   potion.",
+    "related_ids": [
+      24,
+      373,
+      1128
+    ]
+  },
+  {
+    "id": 2333,
+    "title": "Minimum Sum of Squared Difference",
+    "slug": "minimum-sum-of-squared-difference",
+    "difficulty": "Medium",
+    "folder": "2418-minimum-sum-of-squared-difference",
+    "path": "leetcode/2418-minimum-sum-of-squared-difference",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two positive  0-indexed  integer arrays  nums1  and  nums2 , both of length  n .",
+    "related_ids": [
+      64,
+      530,
+      599
+    ]
+  },
+  {
+    "id": 2336,
+    "title": "Smallest Number in Infinite Set",
+    "slug": "smallest-number-in-infinite-set",
+    "difficulty": "Medium",
+    "folder": "2413-smallest-number-in-infinite-set",
+    "path": "leetcode/2413-smallest-number-in-infinite-set",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You have a set which contains all positive integers  [1, 2, 3, 4, 5, ...] .",
+    "related_ids": [
+      762,
+      9,
+      17
+    ]
+  },
+  {
+    "id": 2352,
+    "title": "Equal Row and Column Pairs",
+    "slug": "equal-row-and-column-pairs",
+    "difficulty": "Medium",
+    "folder": "2428-equal-row-and-column-pairs",
+    "path": "leetcode/2428-equal-row-and-column-pairs",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a  0-indexed   n x n  integer matrix  grid ,  return the number of pairs   (r i , c j )   such that row   r i    and column   c j    are equal .",
+    "related_ids": [
+      24,
+      168,
+      171
+    ]
+  },
+  {
     "id": 2356,
     "title": "Number of Unique Subjects Taught by Each Teacher",
     "slug": "number-of-unique-subjects-taught-by-each-teacher",
@@ -15846,6 +17593,58 @@
       1207,
       1731,
       3513
+    ]
+  },
+  {
+    "id": 2390,
+    "title": "Removing Stars From a String",
+    "slug": "removing-stars-from-a-string",
+    "difficulty": "Medium",
+    "folder": "2470-removing-stars-from-a-string",
+    "path": "leetcode/2470-removing-stars-from-a-string",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a string  s , which contains stars  * .",
+    "related_ids": [
+      1309,
+      2091,
+      8
+    ]
+  },
+  {
+    "id": 2462,
+    "title": "Total Cost to Hire K Workers",
+    "slug": "total-cost-to-hire-k-workers",
+    "difficulty": "Medium",
+    "folder": "2553-total-cost-to-hire-k-workers",
+    "path": "leetcode/2553-total-cost-to-hire-k-workers",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  integer array  costs  where  costs[i]  is the cost of hiring the  i th   worker.",
+    "related_ids": [
+      23,
+      25,
+      373
     ]
   },
   {
@@ -15931,6 +17730,34 @@
       1413,
       14,
       64
+    ]
+  },
+  {
+    "id": 2542,
+    "title": "Maximum Subsequence Score",
+    "slug": "maximum-subsequence-score",
+    "difficulty": "Medium",
+    "folder": "2636-maximum-subsequence-score",
+    "path": "leetcode/2636-maximum-subsequence-score",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization & State Transition",
+    "data_structure": "DP Table / Array",
+    "topics": [
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given two  0-indexed  integer arrays  nums1  and  nums2  of equal length  n  and a positive integer  k . You must choose a  subsequence  of indices from  nums1  of length  k .",
+    "related_ids": [
+      1422,
+      3414,
+      3742
     ]
   },
   {
@@ -16384,8 +18211,8 @@
     "brief": "Given an integer array  arr  and a mapping function  fn , return a new array with a transformation applied to each element.",
     "related_ids": [
       34,
-      961,
-      1287
+      215,
+      961
     ]
   },
   {
@@ -17034,6 +18861,32 @@
     ]
   },
   {
+    "id": 2778,
+    "title": "Sum of Squares of Special Elements ",
+    "slug": "sum-of-squares-of-special-elements",
+    "difficulty": "Easy",
+    "folder": "2844-sum-of-squares-of-special-elements-",
+    "path": "leetcode/2844-sum-of-squares-of-special-elements-",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  1-indexed  integer array  nums  of length  n .",
+    "related_ids": [
+      1608,
+      1748,
+      2897
+    ]
+  },
+  {
     "id": 2784,
     "title": "Check if Array is Good",
     "slug": "check-if-array-is-good",
@@ -17502,6 +19355,33 @@
     ]
   },
   {
+    "id": 2897,
+    "title": "Apply Operations on Array to Maximize Sum of Squares",
+    "slug": "apply-operations-on-array-to-maximize-sum-of-squares",
+    "difficulty": "Hard",
+    "folder": "3153-apply-operations-on-array-to-maximize-sum-of-squares",
+    "path": "leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares",
+    "languages": [
+      "JavaScript"
+    ],
+    "lang_str": "JavaScript",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  integer array  nums  and a  positive  integer  k .",
+    "related_ids": [
+      1005,
+      977,
+      1441
+    ]
+  },
+  {
     "id": 2904,
     "title": "Shortest and Lexicographically Smallest Beautiful String",
     "slug": "shortest-and-lexicographically-smallest-beautiful-string",
@@ -17579,8 +19459,8 @@
     "brief": "You are given an integer array  nums  and an integer  k .",
     "related_ids": [
       1437,
-      1566,
-      3043
+      1493,
+      1566
     ]
   },
   {
@@ -17635,7 +19515,7 @@
     "related_ids": [
       3016,
       1974,
-      1935
+      452
     ]
   },
   {
@@ -17766,9 +19646,9 @@
     "space": "O(1)",
     "brief": "Given a string  s , return the  maximum  length of a  substring  such that it contains  at most two occurrences  of each character.",
     "related_ids": [
+      1456,
       1111,
-      1464,
-      1624
+      1464
     ]
   },
   {
@@ -17795,8 +19675,8 @@
     "brief": "You are given two arrays of strings  wordsContainer  and  wordsQuery .",
     "related_ids": [
       14,
-      3043,
-      3
+      1143,
+      3043
     ]
   },
   {
@@ -17901,9 +19781,9 @@
     "space": "O(n)",
     "brief": "+------------------+------+",
     "related_ids": [
+      328,
       1116,
-      3658,
-      1193
+      3658
     ]
   },
   {
@@ -17983,9 +19863,9 @@
     "space": "O(1)",
     "brief": "You are given two strings  word1  and  word2 .",
     "related_ids": [
+      373,
       744,
-      1517,
-      2904
+      1517
     ]
   },
   {
@@ -18153,9 +20033,9 @@
     "space": "O(n)",
     "brief": "You are given a 2D integer array  intervals , where  intervals[i] = [l i , r i , weight i ] . Interval  i  starts at position  l i   and ends at  r i  , and has a weight of  weight i  . You can choose  up to  4  non-overlapping  intervals. The  score  of the chosen intervals is defined as the total sum of their weights.",
     "related_ids": [
+      435,
       1520,
-      2472,
-      1422
+      2472
     ]
   },
   {
@@ -18237,9 +20117,9 @@
     "space": "O(n)",
     "brief": "log_id is the unique key for this table.",
     "related_ids": [
+      93,
       28,
-      34,
-      153
+      34
     ]
   },
   {
@@ -18423,9 +20303,9 @@
     "space": "O(1)",
     "brief": "Given a string  s , calculate its  reverse degree .",
     "related_ids": [
+      151,
       344,
-      345,
-      541
+      345
     ]
   },
   {
@@ -18537,7 +20417,7 @@
     "related_ids": [
       3513,
       63,
-      1207
+      95
     ]
   },
   {
@@ -18620,8 +20500,8 @@
     "brief": "(user_id, product_id) is the unique key for this table.",
     "related_ids": [
       3554,
-      1913,
-      24
+      373,
+      1913
     ]
   },
   {
@@ -18814,8 +20694,8 @@
     "brief": "(user_id, product_id) is the unique identifier for this table.",
     "related_ids": [
       3521,
-      24,
-      28
+      373,
+      24
     ]
   },
   {
@@ -19385,9 +21265,9 @@
     "space": "O(1)",
     "brief": "You are given an integer  n . Your task is to compute the  GCD  (greatest common divisor) of two values:",
     "related_ids": [
+      328,
       1116,
-      3220,
-      1252
+      3220
     ]
   },
   {
@@ -19657,9 +21537,9 @@
     "space": "O(n)",
     "brief": "Given an integer array  nums  and an integer  k , return the  smallest positive multiple  of  k  that is  missing  from  nums .",
     "related_ids": [
+      373,
       2996,
-      23,
-      25
+      23
     ]
   },
   {
@@ -19822,7 +21702,7 @@
     "related_ids": [
       1422,
       2492,
-      2812
+      2542
     ]
   },
   {
@@ -20092,9 +21972,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums  of length  n .",
     "related_ids": [
+      1679,
       1,
-      24,
-      39
+      24
     ]
   },
   {

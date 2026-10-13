@@ -1,7 +1,7 @@
 # LeetCode 1137: N-th Tribonacci Number
 
 **LeetCode Problem #1137 — N-th Tribonacci Number**
-Solve LeetCode N-th Tribonacci Number using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode N-th Tribonacci Number using JavaScript, Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode N-th Tribonacci Number using Python and Bit Manipulation. This so
 | Problem | N-th Tribonacci Number |
 | LeetCode | #1137 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Bitwise Masking & Bit Shift |
 | Data Structure | Integer Bitmask |
 | Pattern | Bit Manipulation |
@@ -45,9 +45,10 @@ Consider the standard input for **N-th Tribonacci Number**. Applying **Bitwise M
 - Bitwise Math
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

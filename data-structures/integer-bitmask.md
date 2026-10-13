@@ -9,7 +9,10 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 7 | [Reverse Integer](../leetcode/0007-reverse-integer/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 8 | [String to Integer (atoi)](../leetcode/0008-string-to-integer-atoi/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 89 | [Gray Code](../leetcode/0089-gray-code/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 91 | [Decode Ways](../leetcode/0091-decode-ways/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 238 | [Product of Array Except Self](../leetcode/0238-product-of-array-except-self/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
@@ -18,6 +21,7 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | Medium | Bitwise Masking & Bit Shift | O(n²) | O(1) |
 | 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1175 | [Prime Arrangements](../leetcode/1279-prime-arrangements/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1356 | [Sort Integers by The Number of 1 Bits](../leetcode/1458-sort-integers-by-the-number-of-1-bits/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1486 | [XOR Operation in an Array](../leetcode/1610-xor-operation-in-an-array/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1656 | [Design an Ordered Stream](../leetcode/1775-design-an-ordered-stream/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
@@ -32,5 +36,6 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 2886 | [Change Data Type](../leetcode/3069-change-data-type/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2887 | [Fill Missing Data](../leetcode/3070-fill-missing-data/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2890 | [Reshape Data: Melt](../leetcode/3073-reshape-data-melt/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |

@@ -1,7 +1,7 @@
 # LeetCode 796: Rotate String
 
 **LeetCode Problem #796 — Rotate String**
-Solve LeetCode Rotate String using C++ and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Rotate String using C++, JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Rotate String using C++ and Math & Logic. This solution finds the
 | Problem | Rotate String |
 | LeetCode | #796 |
 | Difficulty | Easy |
-| Language | C++ |
+| Language | C++, JavaScript |
 | Algorithm | Mathematical Simulation & Modular Arithmetic |
 | Data Structure | Primitive Types |
 | Pattern | Math & Logic |
@@ -51,10 +51,11 @@ Consider the standard input for **Rotate String**. Applying **Mathematical Simul
 - Simulation
 
 ## Language
-C++
+C++, JavaScript
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+- [solution.js](./solution.js)
 
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -8,6 +8,7 @@ LeetCode problems solved using **DP Table / Array** data structures.
 |---|---|---|---|---|---|
 | 10 | [Regular Expression Matching](../leetcode/0010-regular-expression-matching/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 115 | [Distinct Subsequences](../leetcode/0115-distinct-subsequences/) | Hard | Memoization & State Transition | O(n) | O(n) |
+| 334 | [Increasing Triplet Subsequence](../leetcode/0334-increasing-triplet-subsequence/) | Medium | Memoization & State Transition | O(n) | O(n) |
 | 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Easy | Memoization & State Transition | O(n) | O(n) |
 | 486 | [Predict the Winner](../leetcode/0486-predict-the-winner/) | Medium | Memoization & State Transition | O(n) | O(n) |
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Easy | Memoization & State Transition | O(n) | O(n) |
@@ -15,6 +16,7 @@ LeetCode problems solved using **DP Table / Array** data structures.
 | 674 | [Longest Continuous Increasing Subsequence](../leetcode/0674-longest-continuous-increasing-subsequence/) | Easy | Memoization & State Transition | O(n) | O(n) |
 | 940 | [Distinct Subsequences II](../leetcode/0977-distinct-subsequences-ii/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 1140 | [Stone Game II](../leetcode/1240-stone-game-ii/) | Medium | Memoization & State Transition | O(n) | O(n) |
+| 1143 | [Longest Common Subsequence](../leetcode/1250-longest-common-subsequence/) | Medium | Memoization & State Transition | O(n) | O(n) |
 | 1301 | [Number of Paths with Max Score](../leetcode/1234-number-of-paths-with-max-score/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 1332 | [Remove Palindromic Subsequences](../leetcode/1454-remove-palindromic-subsequences/) | Easy | Memoization & State Transition | O(n) | O(n) |
 | 1340 | [Jump Game V](../leetcode/1466-jump-game-v/) | Hard | Memoization & State Transition | O(n) | O(n) |
@@ -22,6 +24,7 @@ LeetCode problems solved using **DP Table / Array** data structures.
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | Easy | Memoization & State Transition | O(n) | O(n) |
+| 2542 | [Maximum Subsequence Score](../leetcode/2636-maximum-subsequence-score/) | Medium | Memoization & State Transition | O(n) | O(n) |
 | 2770 | [Maximum Number of Jumps to Reach the Last Index](../leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/) | Medium | Memoization & State Transition | O(n) | O(n) |
 | 3312 | [Sorted GCD Pair Queries](../leetcode/3583-sorted-gcd-pair-queries/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 3336 | [Find the Number of Subsequences With Equal GCD](../leetcode/3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard | Memoization & State Transition | O(n) | O(n) |

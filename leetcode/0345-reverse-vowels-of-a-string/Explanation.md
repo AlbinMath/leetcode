@@ -1,7 +1,7 @@
 # LeetCode 345: Reverse Vowels of a String
 
 **LeetCode Problem #345 — Reverse Vowels of a String**
-Solve LeetCode Reverse Vowels of a String using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Reverse Vowels of a String using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Reverse Vowels of a String using Python and Array / General. This
 | Problem | Reverse Vowels of a String |
 | LeetCode | #345 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Reverse Vowels of a String**. Applying **In-Pl
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [151. Reverse Words in a String](../0151-reverse-words-in-a-string/)
 - [344. Reverse String](../0344-reverse-string/)
 - [541. Reverse String II](../0541-reverse-string-ii/)
-- [557. Reverse Words in a String III](../0557-reverse-words-in-a-string-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-vowels-of-a-string/)

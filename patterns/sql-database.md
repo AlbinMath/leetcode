@@ -158,6 +158,8 @@ A collection of LeetCode problems solved using **Database / SQL** pattern techni
 
 | 1907 | [Count Salary Categories](../leetcode/2057-count-salary-categories/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2057-count-salary-categories/Explanation.md) |
 
+| 1934 | [Confirmation Rate](../leetcode/2087-confirmation-rate/) | SQL | O(n) | O(n) | [Explanation](../leetcode/2087-confirmation-rate/Explanation.md) |
+
 | 3220 | [Odd and Even Transactions](../leetcode/3530-odd-and-even-transactions/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3530-odd-and-even-transactions/Explanation.md) |
 
 | 3421 | [Find Students Who Improved](../leetcode/3767-find-students-who-improved/) | SQL | O(n) | O(n) | [Explanation](../leetcode/3767-find-students-who-improved/Explanation.md) |

@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
-- [108. Convert Sorted Array to Binary Search Tree](../0108-convert-sorted-array-to-binary-search-tree/)
+- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
+- [99. Recover Binary Search Tree](../0099-recover-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/)

@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3513. Number of Unique XOR Triplets I](../3824-number-of-unique-xor-triplets-i/)
 - [63. Unique Paths II](../0063-unique-paths-ii/)
-- [1207. Unique Number of Occurrences](../1319-unique-number-of-occurrences/)
+- [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/)

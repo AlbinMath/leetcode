@@ -1,7 +1,7 @@
 # LeetCode 459: Repeated Substring Pattern
 
 **LeetCode Problem #459 — Repeated Substring Pattern**
-Solve LeetCode Repeated Substring Pattern using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Repeated Substring Pattern using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Repeated Substring Pattern using Python and Array / General. This
 | Problem | Repeated Substring Pattern |
 | LeetCode | #459 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Repeated Substring Pattern**. Applying **In-Pl
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

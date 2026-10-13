@@ -1,7 +1,7 @@
 # LeetCode 1046: Last Stone Weight
 
 **LeetCode Problem #1046 — Last Stone Weight**
-Solve LeetCode Last Stone Weight using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Last Stone Weight using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Last Stone Weight using Python and Array / General. This solution
 | Problem | Last Stone Weight |
 | LeetCode | #1046 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Last Stone Weight**. Applying **In-Place Array
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

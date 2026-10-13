@@ -1,7 +1,7 @@
 # LeetCode 933: Number of Recent Calls
 
 **LeetCode Problem #933 — Number of Recent Calls**
-Solve LeetCode Number of Recent Calls using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Number of Recent Calls using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Number of Recent Calls using Python and Array / General. This sol
 | Problem | Number of Recent Calls |
 | LeetCode | #933 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Number of Recent Calls**. Applying **In-Place 
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

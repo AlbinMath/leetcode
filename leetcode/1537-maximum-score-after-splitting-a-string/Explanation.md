@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1846. Maximum Element After Decreasing and Rearranging](../1956-maximum-element-after-decreasing-and-rearranging/)
 - [1945. Sum of Digits of String After Convert](../2076-sum-of-digits-of-string-after-convert/)
-- [3414. Maximum Score of Non-overlapping Intervals](../3562-maximum-score-of-non-overlapping-intervals/)
+- [2542. Maximum Subsequence Score](../2636-maximum-subsequence-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [367. Valid Perfect Square](../0367-valid-perfect-square/)
+- [1657. Determine if Two Strings Are Close](../1777-determine-if-two-strings-are-close/)
 - [1704. Determine if String Halves Are Alike](../1823-determine-if-string-halves-are-alike/)
-- [1725. Number Of Rectangles That Can Form The Largest Square](../1843-number-of-rectangles-that-can-form-the-largest-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)

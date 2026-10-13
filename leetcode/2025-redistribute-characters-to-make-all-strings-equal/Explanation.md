@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1790. Check if One String Swap Can Make Strings Equal](../1915-check-if-one-string-swap-can-make-strings-equal/)
 - [1941. Check if All Characters Have Equal Number of Occurrences](../2053-check-if-all-characters-have-equal-number-of-occurrences/)
-- [1358. Number of Substrings Containing All Three Characters](../1460-number-of-substrings-containing-all-three-characters/)
+- [1318. Minimum Flips to Make a OR b Equal to c](../1441-minimum-flips-to-make-a-or-b-equal-to-c/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)

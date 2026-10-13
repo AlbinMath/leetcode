@@ -20,7 +20,7 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/0739-daily-temperatures/Explanation.md) |
+| 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | JavaScript, TypeScript | O(n) | O(n) | [Explanation](../leetcode/0739-daily-temperatures/Explanation.md) |
 
 | 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1159-smallest-subsequence-of-distinct-characters/Explanation.md) |
 

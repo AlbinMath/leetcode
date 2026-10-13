@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2897. Apply Operations on Array to Maximize Sum of Squares](../3153-apply-operations-on-array-to-maximize-sum-of-squares/)
 - [1480. Running Sum of 1d Array](../1603-running-sum-of-1d-array/)
 - [1619. Mean of Array After Removing Some Elements](../1210-mean-of-array-after-removing-some-elements/)
-- [1837. Sum of Digits in Base K](../1965-sum-of-digits-in-base-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)

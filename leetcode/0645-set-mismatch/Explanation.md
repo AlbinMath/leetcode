@@ -70,7 +70,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [73. Set Matrix Zeroes](../0073-set-matrix-zeroes/)
 - [762. Prime Number of Set Bits in Binary Representation](../0767-prime-number-of-set-bits-in-binary-representation/)
-- [7. Reverse Integer](../0007-reverse-integer/)
+- [2336. Smallest Number in Infinite Set](../2413-smallest-number-in-infinite-set/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/set-mismatch/)

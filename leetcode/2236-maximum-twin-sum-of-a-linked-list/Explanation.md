@@ -1,7 +1,7 @@
 # LeetCode 2130: Maximum Twin Sum of a Linked List
 
 **LeetCode Problem #2130 — Maximum Twin Sum of a Linked List**
-Solve LeetCode Maximum Twin Sum of a Linked List using Java and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
+Solve LeetCode Maximum Twin Sum of a Linked List using Java, JavaScript and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Maximum Twin Sum of a Linked List using Java and Fast & Slow Poin
 | Problem | Maximum Twin Sum of a Linked List |
 | LeetCode | #2130 |
 | Difficulty | Medium |
-| Language | Java |
+| Language | Java, JavaScript |
 | Algorithm | Floyd Cycle Detection |
 | Data Structure | Linked List / Pointer |
 | Pattern | Fast & Slow Pointers |
@@ -45,10 +45,11 @@ Consider the standard input for **Maximum Twin Sum of a Linked List**. Applying 
 - Cycle Detection
 
 ## Language
-Java
+Java, JavaScript
 
 ## Source Code
 - [solution.java](./solution.java)
+- [solution.js](./solution.js)
 
 ## Why This Works
 By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,9 +64,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 - [141. Linked List Cycle](../0141-linked-list-cycle/)
 - [203. Remove Linked List Elements](../0203-remove-linked-list-elements/)
-- [206. Reverse Linked List](../0206-reverse-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)

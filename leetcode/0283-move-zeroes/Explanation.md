@@ -1,7 +1,7 @@
 # LeetCode 283: Move Zeroes
 
 **LeetCode Problem #283 — Move Zeroes**
-Solve LeetCode Move Zeroes using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Move Zeroes using C++, JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Move Zeroes using C++ and Array / General. This solution finds th
 | Problem | Move Zeroes |
 | LeetCode | #283 |
 | Difficulty | Easy |
-| Language | C++ |
+| Language | C++, JavaScript |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Move Zeroes**. Applying **In-Place Array Trave
 - Array
 
 ## Language
-C++
+C++, JavaScript
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+- [solution.js](./solution.js)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

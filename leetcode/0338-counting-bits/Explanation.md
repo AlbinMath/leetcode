@@ -1,7 +1,7 @@
 # LeetCode 338: Counting Bits
 
 **LeetCode Problem #338 — Counting Bits**
-Solve LeetCode Counting Bits using C++ and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Counting Bits using C++, JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Counting Bits using C++ and Binary Search. This solution finds th
 | Problem | Counting Bits |
 | LeetCode | #338 |
 | Difficulty | Easy |
-| Language | C++ |
+| Language | C++, JavaScript |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,10 +46,11 @@ Consider the standard input for **Counting Bits**. Applying **Modified Binary Se
 - Search Space
 
 ## Language
-C++
+C++, JavaScript
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+- [solution.js](./solution.js)
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

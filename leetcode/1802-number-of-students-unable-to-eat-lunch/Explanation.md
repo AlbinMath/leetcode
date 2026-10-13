@@ -1,7 +1,7 @@
 # LeetCode 1700: Number of Students Unable to Eat Lunch
 
 **LeetCode Problem #1700 — Number of Students Unable to Eat Lunch**
-Solve LeetCode Number of Students Unable to Eat Lunch using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Number of Students Unable to Eat Lunch using C++, JavaScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Number of Students Unable to Eat Lunch using C++ and Stack & Queu
 | Problem | Number of Students Unable to Eat Lunch |
 | LeetCode | #1700 |
 | Difficulty | Easy |
-| Language | C++ |
+| Language | C++, JavaScript |
 | Algorithm | Stack Push / Pop Parsing |
 | Data Structure | Stack |
 | Pattern | Stack & Queue |
@@ -45,10 +45,11 @@ Consider the standard input for **Number of Students Unable to Eat Lunch**. Appl
 - String Parsing
 
 ## Language
-C++
+C++, JavaScript
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+- [solution.js](./solution.js)
 
 ## Why This Works
 By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

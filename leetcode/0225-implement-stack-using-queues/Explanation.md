@@ -64,8 +64,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [232. Implement Queue using Stacks](../0232-implement-queue-using-stacks/)
+- [208. Implement Trie (Prefix Tree)](../0208-implement-trie-prefix-tree/)
 - [1441. Build an Array With Stack Operations](../1552-build-an-array-with-stack-operations/)
-- [1974. Minimum Time to Type Word Using Special Typewriter](../2088-minimum-time-to-type-word-using-special-typewriter/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-stack-using-queues/)

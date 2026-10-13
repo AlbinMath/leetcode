@@ -1,7 +1,7 @@
 # LeetCode 724: Find Pivot Index
 
 **LeetCode Problem #724 — Find Pivot Index**
-Solve LeetCode Find Pivot Index using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find Pivot Index using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Find Pivot Index using Python and Array / General. This solution 
 | Problem | Find Pivot Index |
 | LeetCode | #724 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Find Pivot Index**. Applying **In-Place Array 
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

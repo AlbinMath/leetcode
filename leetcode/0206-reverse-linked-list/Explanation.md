@@ -1,7 +1,7 @@
 # LeetCode 206: Reverse Linked List
 
 **LeetCode Problem #206 — Reverse Linked List**
-Solve LeetCode Reverse Linked List using PHP and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Reverse Linked List using JavaScript, PHP and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Reverse Linked List using PHP and Two Pointers. This solution fin
 | Problem | Reverse Linked List |
 | LeetCode | #206 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,9 +46,10 @@ Consider the standard input for **Reverse Linked List**. Applying **Two Pointer 
 - Sorting
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works
@@ -64,9 +65,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 - [141. Linked List Cycle](../0141-linked-list-cycle/)
 - [203. Remove Linked List Elements](../0203-remove-linked-list-elements/)
-- [234. Palindrome Linked List](../0234-palindrome-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-linked-list/)

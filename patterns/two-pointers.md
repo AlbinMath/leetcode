@@ -20,7 +20,7 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 203 | [Remove Linked List Elements](../leetcode/0203-remove-linked-list-elements/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0203-remove-linked-list-elements/Explanation.md) |
 
-| 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0206-reverse-linked-list/Explanation.md) |
+| 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0206-reverse-linked-list/Explanation.md) |
 
 | 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0234-palindrome-linked-list/Explanation.md) |
 

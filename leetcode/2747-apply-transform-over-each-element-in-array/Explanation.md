@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [215. Kth Largest Element in an Array](../0215-kth-largest-element-in-an-array/)
 - [961. N-Repeated Element in Size 2N Array](../1001-n-repeated-element-in-size-2n-array/)
-- [1287. Element Appearing More Than 25% In Sorted Array](../1221-element-appearing-more-than-25-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-transform-over-each-element-in-array/)

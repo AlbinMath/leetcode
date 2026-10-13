@@ -16,7 +16,7 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0492-construct-the-rectangle/Explanation.md) |
 
-| 796 | [Rotate String](../leetcode/0812-rotate-string/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0812-rotate-string/Explanation.md) |
+| 796 | [Rotate String](../leetcode/0812-rotate-string/) | C++, JavaScript | O(n) | O(1) | [Explanation](../leetcode/0812-rotate-string/Explanation.md) |
 
 | 812 | [Largest Triangle Area](../leetcode/0830-largest-triangle-area/) | Python | O(n) | O(1) | [Explanation](../leetcode/0830-largest-triangle-area/Explanation.md) |
 

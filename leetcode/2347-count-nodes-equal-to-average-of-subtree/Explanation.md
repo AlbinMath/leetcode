@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1448. Count Good Nodes in Binary Tree](../1544-count-good-nodes-in-binary-tree/)
 - [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
 - [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
-- [38. Count and Say](../0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)
