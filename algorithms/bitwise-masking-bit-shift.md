@@ -11,7 +11,6 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 89 | [Gray Code](../leetcode/0089-gray-code/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 91 | [Decode Ways](../leetcode/0091-decode-ways/) | Medium | Bit Manipulation | O(n) | O(1) |
-| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 238 | [Product of Array Except Self](../leetcode/0238-product-of-array-except-self/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Easy | Bit Manipulation | O(n) | O(1) |
@@ -21,7 +20,6 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | Medium | Bit Manipulation | O(n²) | O(1) |
 | 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1175 | [Prime Arrangements](../leetcode/1279-prime-arrangements/) | Easy | Bit Manipulation | O(n) | O(1) |
-| 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 1356 | [Sort Integers by The Number of 1 Bits](../leetcode/1458-sort-integers-by-the-number-of-1-bits/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1486 | [XOR Operation in an Array](../leetcode/1610-xor-operation-in-an-array/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1656 | [Design an Ordered Stream](../leetcode/1775-design-an-ordered-stream/) | Easy | Bit Manipulation | O(n) | O(1) |
@@ -30,12 +28,12 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 1805 | [Number of Different Integers in a String](../leetcode/1933-number-of-different-integers-in-a-string/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1863 | [Sum of All Subset XOR Totals](../leetcode/1993-sum-of-all-subset-xor-totals/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Medium | Bit Manipulation | O(n) | O(1) |
+| 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 2723 | [Add Two Promises](../leetcode/2859-add-two-promises/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2880 | [Select Data](../leetcode/3074-select-data/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2883 | [Drop Missing Data](../leetcode/3075-drop-missing-data/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2886 | [Change Data Type](../leetcode/3069-change-data-type/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2887 | [Fill Missing Data](../leetcode/3070-fill-missing-data/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2890 | [Reshape Data: Melt](../leetcode/3073-reshape-data-melt/) | Easy | Bit Manipulation | O(n) | O(1) |
-| 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | Bit Manipulation | O(n) | O(1) |

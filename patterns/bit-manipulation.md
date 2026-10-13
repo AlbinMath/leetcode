@@ -8,8 +8,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0190-reverse-bits/Explanation.md) |
-
 | 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Python | O(n) | O(1) | [Explanation](../leetcode/0461-hamming-distance/Explanation.md) |
 
 | 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/0645-set-mismatch/Explanation.md) |
@@ -70,15 +68,13 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | JavaScript | O(n²) | O(1) | [Explanation](../leetcode/0864-image-overlap/Explanation.md) |
 
-| 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/Explanation.md) |
-
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Java | O(n) | O(1) | [Explanation](../leetcode/2245-destroying-asteroids/Explanation.md) |
+
+| 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2413-smallest-number-in-infinite-set/Explanation.md) |
 
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Java | O(n) | O(1) | [Explanation](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/Explanation.md) |
 
 ### Hard
 
-| # | Problem | Language | Time | Space | Explanation |
-|---|---|---|---|---|---|
-| 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/Explanation.md) |
+*No problems logged yet under this difficulty level.*
 

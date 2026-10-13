@@ -148,14 +148,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "The string  \"PAYPALISHIRING\"  is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)",
     "related_ids": [
       1372,
@@ -1008,7 +1011,7 @@
     "related_ids": [
       36,
       5,
-      6
+      26
     ]
   },
   {
@@ -1681,17 +1684,16 @@
       "Python"
     ],
     "lang_str": "JavaScript, Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "There is a robot on an  m x n  grid. The robot is initially located at the  top-left corner  (i.e.,  grid[0][0] ). The robot tries to move to the  bottom-right corner  (i.e.,  grid[m - 1][n - 1] ). The robot can only move either down or right at any point in time.",
     "related_ids": [
       63,
@@ -1710,17 +1712,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an  m x n  integer array  grid . There is a robot initially located at the  top-left corner  (i.e.,  grid[0][0] ). The robot tries to move to the  bottom-right corner  (i.e.,  grid[m - 1][n - 1] ). The robot can only move either down or right at any point in time.",
     "related_ids": [
       62,
@@ -1820,17 +1821,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given two binary strings  a  and  b , return  their sum as a binary string .",
     "related_ids": [
       2,
@@ -1888,8 +1888,8 @@
     "brief": "Given a non-negative integer  x , return  the square root of   x   rounded down to the nearest integer . The returned integer should be  non-negative  as well.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -1915,7 +1915,7 @@
     "related_ids": [
       746,
       5,
-      6
+      26
     ]
   },
   {
@@ -2136,7 +2136,7 @@
     "related_ids": [
       90,
       5,
-      6
+      26
     ]
   },
   {
@@ -2341,12 +2341,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -2500,12 +2501,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -2553,17 +2555,16 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree, return  the inorder traversal of its nodes&#39; values .",
     "related_ids": [
       144,
@@ -2720,17 +2721,16 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the roots of two binary trees  p  and  q , write a function to check if they are the same or not.",
     "related_ids": [
       94,
@@ -2749,17 +2749,16 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree,  check whether it is a mirror of itself  (i.e., symmetric around its center).",
     "related_ids": [
       94,
@@ -3691,12 +3690,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -3784,7 +3783,7 @@
     "related_ids": [
       867,
       5,
-      6
+      26
     ]
   },
   {
@@ -3893,9 +3892,9 @@
     "space": "O(n)",
     "brief": "You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and  it will automatically contact the police if two adjacent houses were broken into on the same night .",
     "related_ids": [
+      6,
       38,
-      50,
-      51
+      50
     ]
   },
   {
@@ -3909,17 +3908,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree, imagine yourself standing on the  right side  of it, return  the values of the nodes you can see ordered from top to bottom .",
     "related_ids": [
       94,
@@ -4180,12 +4178,13 @@
       "PHP"
     ],
     "lang_str": "PHP",
-    "pattern": "Stack & Queue",
-    "algorithm": "Stack Push / Pop Parsing",
-    "data_structure": "Stack",
+    "pattern": "Trie",
+    "algorithm": "Prefix Tree Lookup",
+    "data_structure": "Trie Node",
     "topics": [
-      "Stack",
-      "String Parsing"
+      "Trie",
+      "String",
+      "Prefix Search"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -4247,7 +4246,7 @@
     "related_ids": [
       1587,
       5,
-      6
+      26
     ]
   },
   {
@@ -4288,12 +4287,13 @@
       "PHP"
     ],
     "lang_str": "JavaScript, PHP",
-    "pattern": "Stack & Queue",
-    "algorithm": "Stack Push / Pop Parsing",
-    "data_structure": "Stack",
+    "pattern": "Trie",
+    "algorithm": "Prefix Tree Lookup",
+    "data_structure": "Trie Node",
     "topics": [
-      "Stack",
-      "String Parsing"
+      "Trie",
+      "String",
+      "Prefix Search"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -4343,17 +4343,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.",
     "related_ids": [
       94,
@@ -4748,12 +4747,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -5057,8 +5057,8 @@
     "brief": "Given two strings  ransomNote  and  magazine , return  true   if   ransomNote   can be constructed by using the letters from   magazine   and   false   otherwise .",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -5233,17 +5233,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "A binary watch has 4 LEDs on the top to represent the hours (0-11), and 6 LEDs on the bottom to represent the minutes (0-59). Each LED represents a zero or one, with the least significant bit on the right.",
     "related_ids": [
       67,
@@ -5359,7 +5358,7 @@
     "related_ids": [
       1195,
       5,
-      6
+      26
     ]
   },
   {
@@ -5451,15 +5450,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Strategy",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Min/Max Heap Priority Selection",
+    "data_structure": "Heap / Priority Queue",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an array of intervals  intervals  where  intervals[i] = [start i , end i ] , return  the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping .",
     "related_ids": [
       3414,
@@ -5518,8 +5518,8 @@
     "brief": "You have  n  coins and you want to build a staircase with these coins. The staircase consists of  k  rows where the  i th   row has exactly  i  coins. The last row of the staircase  may be  incomplete.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -5731,7 +5731,7 @@
     "related_ids": [
       976,
       5,
-      6
+      26
     ]
   },
   {
@@ -5786,7 +5786,7 @@
     "related_ids": [
       1629,
       5,
-      6
+      26
     ]
   },
   {
@@ -5892,8 +5892,8 @@
     "brief": "Our hero Teemo is attacking an enemy Ashe with poison attacks! When Teemo attacks Ashe, Ashe gets poisoned for a exactly  duration  seconds. More formally, an attack at second  t  will mean Ashe is poisoned during the  inclusive  time interval  [t, t + duration - 1] . If Teemo attacks again  before  the poison effect ends, the timer for it is  reset , and the poison effect will end  duration  seconds after the new attack.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -5947,7 +5947,7 @@
     "related_ids": [
       2352,
       5,
-      6
+      26
     ]
   },
   {
@@ -6029,7 +6029,7 @@
     "related_ids": [
       1122,
       5,
-      6
+      26
     ]
   },
   {
@@ -6204,11 +6204,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Array"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -6505,17 +6506,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the roots of two binary trees  root  and  subRoot , return  true  if there is a subtree of  root  with the same structure and node values of  subRoot  and  false  otherwise.",
     "related_ids": [
       94,
@@ -7033,17 +7033,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given two binary trees  root1  and  root2 .",
     "related_ids": [
       21,
@@ -7322,8 +7321,8 @@
     "brief": "In the world of Dota2, there are two parties: the Radiant and the Dire.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -7377,7 +7376,7 @@
     "related_ids": [
       2703,
       5,
-      6
+      26
     ]
   },
   {
@@ -7788,7 +7787,7 @@
     "related_ids": [
       374,
       5,
-      6
+      26
     ]
   },
   {
@@ -7920,7 +7919,7 @@
     "related_ids": [
       2887,
       5,
-      6
+      26
     ]
   },
   {
@@ -7945,8 +7944,8 @@
     "brief": "We are given an array  asteroids  of integers representing asteroids in a row. The indices of the asteroid in the array represent their relative position in space.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -8165,8 +8164,8 @@
     "brief": "You&#39;re given strings  jewels  representing the types of stones that are jewels, and  stones  representing the stones you have. Each character in  stones  is a type of stone you have. You want to know how many of the stones you have are also jewels.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -8248,7 +8247,7 @@
     "related_ids": [
       1128,
       5,
-      6
+      26
     ]
   },
   {
@@ -8432,8 +8431,8 @@
     "brief": "You are given a string  sentence  that consist of words separated by spaces. Each word consists of lowercase and uppercase letters only.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -8458,8 +8457,8 @@
     "brief": "In a string   s   of lowercase letters, these letters form consecutive groups of the same character.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -8485,7 +8484,7 @@
     "related_ids": [
       1965,
       5,
-      6
+      26
     ]
   },
   {
@@ -8590,8 +8589,8 @@
     "brief": "There are  n  rooms labeled from  0  to  n - 1  and all the rooms are locked except for room  0 . Your goal is to visit all the rooms. However, you cannot enter a locked room without having its key.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -8696,7 +8695,7 @@
     "related_ids": [
       2886,
       5,
-      6
+      26
     ]
   },
   {
@@ -8739,17 +8738,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given a positive integer  n , find and return  the  longest distance  between any two  adjacent    1  &#39;s in the binary representation of   n  . If there are no two adjacent   1  &#39;s, return   0  .",
     "related_ids": [
       67,
@@ -8769,17 +8767,16 @@
       "Python"
     ],
     "lang_str": "JavaScript, Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Consider all the leaves of a binary tree, from left to right order, the values of those leaves form a  leaf value sequence  .",
     "related_ids": [
       95,
@@ -8809,8 +8806,8 @@
     "brief": "Koko loves to eat bananas. There are  n  piles of bananas, the  i th   pile has  piles[i]  bananas. The guards have gone and will come back in  h  hours.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -9147,11 +9144,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Array"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -9237,8 +9235,8 @@
     "brief": "Your friend is typing his  name  into a keyboard. Sometimes, when typing a character  c , the key might get  long pressed , and the character will be typed 1 or more times.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -9639,8 +9637,8 @@
     "brief": "You are given an  m x n   grid  where each cell can have one of three values:",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -9692,7 +9690,7 @@
     "related_ids": [
       3570,
       5,
-      6
+      26
     ]
   },
   {
@@ -10097,7 +10095,7 @@
     "related_ids": [
       1840,
       5,
-      6
+      26
     ]
   },
   {
@@ -10491,11 +10489,12 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Array"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -10529,7 +10528,7 @@
     "related_ids": [
       1840,
       5,
-      6
+      26
     ]
   },
   {
@@ -10820,17 +10819,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree, the level of its root is  1 , the level of its children is  2 , and so on.",
     "related_ids": [
       104,
@@ -10972,7 +10970,7 @@
     "related_ids": [
       1154,
       5,
-      6
+      26
     ]
   },
   {
@@ -11081,7 +11079,7 @@
     "related_ids": [
       412,
       5,
-      6
+      26
     ]
   },
   {
@@ -11267,8 +11265,8 @@
     "brief": "Five silent philosophers sit at a round table with bowls of spaghetti. Forks are placed between each pair of adjacent philosophers.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -11663,14 +11661,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an array  arr , replace every element in that array with the greatest element among the elements to its right, and replace the last element with  -1 .",
     "related_ids": [
       199,
@@ -11824,15 +11825,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given 3 positives numbers  a ,  b  and  c . Return the minimum flips required in some bits of  a  and  b  to make (  a  OR  b  ==  c  ). (bitwise OR operation).",
     "related_ids": [
       921,
@@ -12371,17 +12373,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given the  root  of a binary tree.",
     "related_ids": [
       94,
@@ -12927,7 +12928,7 @@
     "related_ids": [
       1466,
       5,
-      6
+      26
     ]
   },
   {
@@ -13020,12 +13021,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -13813,8 +13815,8 @@
     "brief": "Given an integer  n , add a dot (\".\") as the thousands separator and return it in string format.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -14031,8 +14033,8 @@
     "brief": "The Leetcode file system keeps a log each time some user performs a  change folder  operation.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -14216,7 +14218,7 @@
     "related_ids": [
       482,
       5,
-      6
+      26
     ]
   },
   {
@@ -14375,8 +14377,8 @@
     "brief": "You have a bomb to defuse, and your time is running out! Your informer will provide you with a  circular  array  code  of length of  n  and a key  k .",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -14672,8 +14674,8 @@
     "brief": "You own a  Goal Parser  that can interpret a string  command . The  command  consists of an alphabet of  \"G\" ,  \"()\"  and/or  \"(al)\"  in some order. The Goal Parser will interpret  \"G\"  as the string  \"G\" ,  \"()\"  as the string  \"o\" , and  \"(al)\"  as the string  \"al\" . The interpreted strings are then concatenated in the original order.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -17526,11 +17528,12 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
     "topics": [
-      "Array"
+      "Bit Manipulation",
+      "Bitwise Math"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -17889,7 +17892,7 @@
     "related_ids": [
       2665,
       5,
-      6
+      26
     ]
   },
   {
@@ -17914,8 +17917,8 @@
     "brief": "Given a positive integer  millis , write an asynchronous function that sleeps for  millis  milliseconds. It can resolve any value.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -17969,7 +17972,7 @@
     "related_ids": [
       2630,
       5,
-      6
+      26
     ]
   },
   {
@@ -18531,8 +18534,8 @@
     "brief": "Design an  EventEmitter  class. This interface is similar (but with some differences) to the one found in Node.js or the Event Target interface of the DOM. The  EventEmitter  should allow for subscribing to events and emitting them.",
     "related_ids": [
       5,
-      6,
-      26
+      26,
+      27
     ]
   },
   {
@@ -19157,7 +19160,7 @@
     "related_ids": [
       944,
       2885,
-      38
+      6
     ]
   },
   {
@@ -19186,7 +19189,7 @@
     "related_ids": [
       944,
       2884,
-      38
+      6
     ]
   },
   {
@@ -19365,15 +19368,15 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Stack",
+      "String Parsing"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a  0-indexed  integer array  nums  and a  positive  integer  k .",
     "related_ids": [
       1005,
@@ -20226,7 +20229,7 @@
     "related_ids": [
       3497,
       5,
-      6
+      26
     ]
   },
   {
@@ -20402,17 +20405,16 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given an integer array  nums .",
     "related_ids": [
       3513,
@@ -21051,8 +21053,8 @@
     "brief": "You are given a directed acyclic graph of  n \u202fnodes numbered from 0\u202fto\u202f n\u202f&minus;\u202f1 . This is represented by a 2D array  edges  of length   m  , where  edges[i] = [u i , v i , cost i ]  indicates a one\u2011way communication from node\u202f u i   to node\u202f v i   with a recovery cost of\u202f cost i  .",
     "related_ids": [
       3586,
-      38,
-      50
+      6,
+      38
     ]
   },
   {
@@ -21255,11 +21257,12 @@
       "Kotlin"
     ],
     "lang_str": "Kotlin",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Array"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",

@@ -15,6 +15,6 @@ A collection of LeetCode problems implemented in **Kotlin** with detailed comple
 | 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Easy | Prefix Sum | O(n) | O(n) |
 | 3471 | [Find the Largest Almost Missing Integer](../leetcode/3705-find-the-largest-almost-missing-integer/) | Easy | Prefix Sum | O(n) | O(n) |
 | 3633 | [Earliest Finish Time for Land and Water Rides I](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/) | Easy | Array / General | O(n) | O(1) |
-| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Easy | Array / General | O(n) | O(1) |
+| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Easy | Linked List | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 3838 | [Weighted Word Mapping](../leetcode/4216-weighted-word-mapping/) | Easy | Hash Map | O(n) | O(n) |

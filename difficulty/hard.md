@@ -50,7 +50,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | Two Pointers | JavaScript | O(n) | O(1) |
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | Hash Map | TypeScript | O(n) | O(n) |
 | 2650 | [Design Cancellable Function](../leetcode/2788-design-cancellable-function/) | Array / General | TypeScript | O(n) | O(1) |
-| 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Bit Manipulation | JavaScript | O(n) | O(1) |
+| 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Stack & Queue | JavaScript | O(n) | O(n) |
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Hash Map | Python | O(n) | O(n) |
 | 3116 | [Kth Smallest Amount With Single Denomination Combination](../leetcode/3375-kth-smallest-amount-with-single-denomination-combination/) | Backtracking | Java | O(n) | O(1) |
 | 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Array / General | Python | O(n) | O(1) |

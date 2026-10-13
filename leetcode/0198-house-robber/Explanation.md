@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [6. Zigzag Conversion](../0006-zigzag-conversion/)
 - [38. Count and Say](../0038-count-and-say/)
 - [50. Pow(x, n)](../0050-powx-n/)
-- [51. N-Queens](../0051-n-queens/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/house-robber/)

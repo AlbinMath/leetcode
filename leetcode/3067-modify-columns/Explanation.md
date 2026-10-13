@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [944. Delete Columns to Make Sorted](../0981-delete-columns-to-make-sorted/)
 - [2885. Rename Columns](../3068-rename-columns/)
-- [38. Count and Say](../0038-count-and-say/)
+- [6. Zigzag Conversion](../0006-zigzag-conversion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/modify-columns/)

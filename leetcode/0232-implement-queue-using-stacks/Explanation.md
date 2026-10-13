@@ -1,7 +1,7 @@
 # LeetCode 232: Implement Queue using Stacks
 
 **LeetCode Problem #232 — Implement Queue using Stacks**
-Solve LeetCode Implement Queue using Stacks using JavaScript, PHP and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Implement Queue using Stacks using JavaScript, PHP and Trie. This solution finds the optimal result using Prefix Tree Lookup in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Implement Queue using Stacks using JavaScript, PHP and Stack & Qu
 | LeetCode | #232 |
 | Difficulty | Easy |
 | Language | JavaScript, PHP |
-| Algorithm | Stack Push / Pop Parsing |
-| Data Structure | Stack |
-| Pattern | Stack & Queue |
+| Algorithm | Prefix Tree Lookup |
+| Data Structure | Trie Node |
+| Pattern | Trie |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,29 +20,30 @@ Solve LeetCode Implement Queue using Stacks using JavaScript, PHP and Stack & Qu
 Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue ( push ,  peek ,  pop , and  empty ).
 
 ## Key Insight
-Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Trie** with **Trie Node** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Stack Push / Pop Parsing**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Stack Push / Pop Parsing**.
+1. Initialize state variables / data structure (**Trie Node**).
+2. Process elements sequentially using **Prefix Tree Lookup**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Implement Queue using Stacks**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+Consider the standard input for **Implement Queue using Stacks**. Applying **Prefix Tree Lookup** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Stack & Queue**
+**Trie**
 
 ## Topics
-- Stack
-- String Parsing
+- Trie
+- String
+- Prefix Search
 
 ## Language
 JavaScript, PHP
@@ -52,7 +53,7 @@ JavaScript, PHP
 - [solution.php](./solution.php)
 
 ## Why This Works
-By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Trie**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

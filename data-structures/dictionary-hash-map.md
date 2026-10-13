@@ -26,6 +26,7 @@ LeetCode problems solved using **Dictionary / Hash Map** data structures.
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1122 | [Relative Sort Array](../leetcode/1217-relative-sort-array/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1189 | [Maximum Number of Balloons](../leetcode/1297-maximum-number-of-balloons/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1345 | [Jump Game IV](../leetcode/1447-jump-game-iv/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1386 | [Cinema Seat Allocation](../leetcode/1487-cinema-seat-allocation/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 1394 | [Find Lucky Integer in an Array](../leetcode/1510-find-lucky-integer-in-an-array/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |

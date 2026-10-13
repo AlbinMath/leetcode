@@ -22,6 +22,8 @@ A collection of LeetCode problems solved using **Heap** pattern techniques, expl
 
 | 57 | [Insert Interval](../leetcode/0057-insert-interval/) | Python | O(n) | O(n) | [Explanation](../leetcode/0057-insert-interval/Explanation.md) |
 
+| 435 | [Non-overlapping Intervals](../leetcode/0435-non-overlapping-intervals/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0435-non-overlapping-intervals/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |

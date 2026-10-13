@@ -16,9 +16,9 @@ A collection of LeetCode problems implemented in **PHP** with detailed complexit
 | 82 | [Remove Duplicates from Sorted List II](../leetcode/0082-remove-duplicates-from-sorted-list-ii/) | Medium | Two Pointers | O(n) | O(1) |
 | 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 88 | [Merge Sorted Array](../leetcode/0088-merge-sorted-array/) | Easy | Array / General | O(n) | O(1) |
-| 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
-| 100 | [Same Tree](../leetcode/0100-same-tree/) | Easy | Tree & Graph | O(n) | O(n) |
-| 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | Easy | Tree & Graph | O(n) | O(n) |
+| 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | Easy | Binary Search | O(n) | O(1) |
+| 100 | [Same Tree](../leetcode/0100-same-tree/) | Easy | Binary Search | O(n) | O(1) |
+| 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
@@ -42,11 +42,11 @@ A collection of LeetCode problems implemented in **PHP** with detailed complexit
 | 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 217 | [Contains Duplicate](../leetcode/0217-contains-duplicate/) | Easy | Array / General | O(n) | O(1) |
 | 219 | [Contains Duplicate II](../leetcode/0219-contains-duplicate-ii/) | Easy | Array / General | O(n) | O(1) |
-| 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | Easy | Stack & Queue | O(n) | O(n) |
+| 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | Easy | Trie | O(n) | O(n) |
 | 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 228 | [Summary Ranges](../leetcode/0228-summary-ranges/) | Easy | Array / General | O(n) | O(1) |
 | 231 | [Power of Two](../leetcode/0231-power-of-two/) | Easy | Array / General | O(n) | O(1) |
-| 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | Easy | Stack & Queue | O(n) | O(n) |
+| 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | Easy | Trie | O(n) | O(n) |
 | 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | Easy | Hash Map | O(n) | O(n) |
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Easy | Binary Search | O(n) | O(1) |

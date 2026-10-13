@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2887. Fill Missing Data](../3070-fill-missing-data/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
+- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flood-fill/)

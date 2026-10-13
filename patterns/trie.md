@@ -6,7 +6,11 @@ A collection of LeetCode problems solved using **Trie** pattern techniques, expl
 
 ### Easy
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0225-implement-stack-using-queues/Explanation.md) |
+
+| 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | JavaScript, PHP | O(n) | O(n) | [Explanation](../leetcode/0232-implement-queue-using-stacks/Explanation.md) |
 
 ### Medium
 

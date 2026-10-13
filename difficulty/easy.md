@@ -18,14 +18,14 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Binary Search | Python | O(log n) | O(1) |
 | 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Hash Map | Python | O(n) | O(n) |
 | 66 | [Plus One](../leetcode/0066-plus-one/) | Array / General | Python | O(n) | O(1) |
-| 67 | [Add Binary](../leetcode/0067-add-binary/) | Tree & Graph | Python | O(n) | O(n) |
+| 67 | [Add Binary](../leetcode/0067-add-binary/) | Binary Search | Python | O(n) | O(1) |
 | 69 | [Sqrt(x)](../leetcode/0069-sqrtx/) | Array / General | Python | O(n) | O(1) |
 | 70 | [Climbing Stairs](../leetcode/0070-climbing-stairs/) | Array / General | Python | O(n) | O(1) |
 | 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | Two Pointers | PHP | O(n) | O(1) |
 | 88 | [Merge Sorted Array](../leetcode/0088-merge-sorted-array/) | Array / General | PHP | O(n) | O(1) |
-| 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | Tree & Graph | PHP | O(n) | O(n) |
-| 100 | [Same Tree](../leetcode/0100-same-tree/) | Tree & Graph | PHP | O(n) | O(n) |
-| 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | Tree & Graph | PHP | O(n) | O(n) |
+| 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | Binary Search | PHP | O(n) | O(1) |
+| 100 | [Same Tree](../leetcode/0100-same-tree/) | Binary Search | PHP | O(n) | O(1) |
+| 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | Binary Search | PHP | O(n) | O(1) |
 | 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | Binary Search | JavaScript, PHP | O(n) | O(1) |
 | 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | Binary Search | PHP | O(n) | O(1) |
 | 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | Binary Search | PHP | O(n) | O(1) |
@@ -47,7 +47,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 181 | [Employees Earning More Than Their Managers](../leetcode/0181-employees-earning-more-than-their-managers/) | Database / SQL | SQL | O(n) | O(n) |
 | 182 | [Duplicate Emails](../leetcode/0182-duplicate-emails/) | Database / SQL | SQL | O(n) | O(n) |
 | 183 | [Customers Who Never Order](../leetcode/0183-customers-who-never-order/) | Database / SQL | SQL | O(n) | O(n) |
-| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Bit Manipulation | Python | O(n) | O(1) |
+| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Linked List | Python | O(n) | O(1) |
 | 193 | [Valid Phone Numbers](../leetcode/0193-valid-phone-numbers/) | Array / General | Shell | O(n) | O(1) |
 | 195 | [Tenth Line](../leetcode/0195-tenth-line/) | Array / General | Shell | O(n) | O(1) |
 | 196 | [Delete Duplicate Emails](../leetcode/0196-delete-duplicate-emails/) | Database / SQL | SQL | O(n) | O(n) |
@@ -58,11 +58,11 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | Two Pointers | JavaScript, PHP | O(n) | O(1) |
 | 217 | [Contains Duplicate](../leetcode/0217-contains-duplicate/) | Array / General | PHP | O(n) | O(1) |
 | 219 | [Contains Duplicate II](../leetcode/0219-contains-duplicate-ii/) | Array / General | PHP | O(n) | O(1) |
-| 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | Stack & Queue | PHP | O(n) | O(n) |
+| 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | Trie | PHP | O(n) | O(n) |
 | 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | Binary Search | PHP | O(n) | O(1) |
 | 228 | [Summary Ranges](../leetcode/0228-summary-ranges/) | Array / General | PHP | O(n) | O(1) |
 | 231 | [Power of Two](../leetcode/0231-power-of-two/) | Array / General | PHP | O(n) | O(1) |
-| 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | Stack & Queue | JavaScript, PHP | O(n) | O(n) |
+| 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | Trie | JavaScript, PHP | O(n) | O(n) |
 | 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | Two Pointers | PHP | O(n) | O(1) |
 | 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | Hash Map | PHP | O(n) | O(n) |
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Binary Search | PHP | O(n) | O(1) |
@@ -86,7 +86,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 387 | [First Unique Character in a String](../leetcode/0387-first-unique-character-in-a-string/) | Array / General | Python | O(n) | O(1) |
 | 389 | [Find the Difference](../leetcode/0389-find-the-difference/) | Array / General | Python | O(n) | O(1) |
 | 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Dynamic Programming | JavaScript, Python | O(n) | O(n) |
-| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Tree & Graph | Python | O(n) | O(n) |
+| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Binary Search | Python | O(n) | O(1) |
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Tree & Graph | Python | O(n) | O(n) |
 | 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Hash Map | Python | O(n) | O(n) |
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Two Pointers | Python | O(n) | O(1) |
@@ -116,7 +116,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 520 | [Detect Capital](../leetcode/0520-detect-capital/) | Array / General | JavaScript, Python | O(n) | O(1) |
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Dynamic Programming | Python | O(n) | O(n) |
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Binary Search | Python | O(n) | O(1) |
-| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Array / General | Python | O(n) | O(1) |
+| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Linked List | Python | O(n) | O(1) |
 | 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Binary Search | Python | O(n) | O(1) |
 | 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Monotonic Stack | Python | O(n) | O(n) |
 | 557 | [Reverse Words in a String III](../leetcode/0557-reverse-words-in-a-string-iii/) | Array / General | Python | O(n) | O(1) |
@@ -124,7 +124,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 561 | [Array Partition](../leetcode/0561-array-partition/) | Array / General | Python | O(n) | O(1) |
 | 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Binary Search | Python | O(n) | O(1) |
 | 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Tree & Graph | Python | O(n) | O(n) |
-| 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Tree & Graph | Python | O(n) | O(n) |
+| 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Binary Search | Python | O(n) | O(1) |
 | 575 | [Distribute Candies](../leetcode/0575-distribute-candies/) | Array / General | Python | O(n) | O(1) |
 | 577 | [Employee Bonus](../leetcode/0577-employee-bonus/) | Database / SQL | SQL | O(n) | O(n) |
 | 584 | [Find Customer Referee](../leetcode/0584-find-customer-referee/) | Database / SQL | SQL | O(n) | O(n) |
@@ -139,7 +139,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 605 | [Can Place Flowers](../leetcode/0605-can-place-flowers/) | Array / General | JavaScript, Python | O(n) | O(1) |
 | 607 | [Sales Person](../leetcode/0607-sales-person/) | Database / SQL | SQL | O(n) | O(n) |
 | 610 | [Triangle Judgement](../leetcode/0610-triangle-judgement/) | Database / SQL | SQL | O(n) | O(n) |
-| 617 | [Merge Two Binary Trees](../leetcode/0617-merge-two-binary-trees/) | Tree & Graph | Python | O(n) | O(n) |
+| 617 | [Merge Two Binary Trees](../leetcode/0617-merge-two-binary-trees/) | Binary Search | Python | O(n) | O(1) |
 | 619 | [Biggest Single Number](../leetcode/0619-biggest-single-number/) | Database / SQL | SQL | O(n) | O(n) |
 | 620 | [Not Boring Movies](../leetcode/0620-not-boring-movies/) | Database / SQL | SQL | O(n) | O(n) |
 | 627 | [Swap Sex of Employees](../leetcode/0627-swap-sex-of-employees/) | Database / SQL | SQL | O(n) | O(n) |
@@ -187,8 +187,8 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 859 | [Buddy Strings](../leetcode/0889-buddy-strings/) | Array / General | Python | O(n) | O(1) |
 | 860 | [Lemonade Change](../leetcode/0890-lemonade-change/) | Array / General | Python | O(n) | O(1) |
 | 867 | [Transpose Matrix](../leetcode/0898-transpose-matrix/) | Tree & Graph | Python | O(n) | O(n) |
-| 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Tree & Graph | Python | O(n) | O(n) |
-| 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Tree & Graph | JavaScript, Python | O(n) | O(n) |
+| 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Binary Search | Python | O(n) | O(1) |
+| 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Binary Search | JavaScript, Python | O(n) | O(1) |
 | 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Two Pointers | Python | O(n) | O(1) |
 | 883 | [Projection Area of 3D Shapes](../leetcode/0919-projection-area-of-3d-shapes/) | Array / General | Python | O(n) | O(1) |
 | 884 | [Uncommon Words from Two Sentences](../leetcode/0920-uncommon-words-from-two-sentences/) | Array / General | Python | O(n) | O(1) |
@@ -199,7 +199,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 905 | [Sort Array By Parity](../leetcode/0941-sort-array-by-parity/) | Hash Map | Python | O(n) | O(n) |
 | 908 | [Smallest Range I](../leetcode/0944-smallest-range-i/) | Array / General | Python | O(n) | O(1) |
 | 914 | [X of a Kind in a Deck of Cards](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/) | Array / General | Python | O(n) | O(1) |
-| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Array / General | Python | O(n) | O(1) |
+| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Linked List | Python | O(n) | O(1) |
 | 922 | [Sort Array By Parity II](../leetcode/0958-sort-array-by-parity-ii/) | Array / General | Python | O(n) | O(1) |
 | 925 | [Long Pressed Name](../leetcode/0961-long-pressed-name/) | Array / General | Python | O(n) | O(1) |
 | 929 | [Unique Email Addresses](../leetcode/0965-unique-email-addresses/) | Array / General | Python | O(n) | O(1) |
@@ -266,7 +266,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1287 | [Element Appearing More Than 25% In Sorted Array](../leetcode/1221-element-appearing-more-than-25-in-sorted-array/) | Array / General | Python | O(n) | O(1) |
 | 1290 | [Convert Binary Number in a Linked List to Integer](../leetcode/1411-convert-binary-number-in-a-linked-list-to-integer/) | Binary Search | Python | O(n) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](../leetcode/1421-find-numbers-with-even-number-of-digits/) | Math & Logic | Python | O(n) | O(1) |
-| 1299 | [Replace Elements with Greatest Element on Right Side](../leetcode/1231-replace-elements-with-greatest-element-on-right-side/) | Array / General | Python | O(n) | O(1) |
+| 1299 | [Replace Elements with Greatest Element on Right Side](../leetcode/1231-replace-elements-with-greatest-element-on-right-side/) | Tree & Graph | Python | O(n) | O(n) |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](../leetcode/1434-decrypt-string-from-alphabet-to-integer-mapping/) | Array / General | Python | O(n) | O(1) |
 | 1313 | [Decompress Run-Length Encoded List](../leetcode/1241-decompress-run-length-encoded-list/) | Array / General | Python | O(n) | O(1) |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](../leetcode/1440-convert-integer-to-the-sum-of-two-no-zero-integers/) | Array / General | Python | O(n) | O(1) |
@@ -483,7 +483,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 3570 | [Find Books with No Available Copies](../leetcode/3910-find-books-with-no-available-copies/) | Array / General | Python | O(n) | O(1) |
 | 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Math & Logic | C | O(n) | O(1) |
 | 3633 | [Earliest Finish Time for Land and Water Rides I](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/) | Array / General | Kotlin | O(n) | O(1) |
-| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Array / General | Kotlin | O(n) | O(1) |
+| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Linked List | Kotlin | O(n) | O(1) |
 | 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Prefix Sum | C# | O(n) | O(n) |
 | 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Array / General | PHP | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Bit Manipulation | Kotlin | O(n) | O(1) |

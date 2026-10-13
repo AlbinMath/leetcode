@@ -60,6 +60,12 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 82 | [Remove Duplicates from Sorted List II](../leetcode/0082-remove-duplicates-from-sorted-list-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0082-remove-duplicates-from-sorted-list-ii/Explanation.md) |
 
+| 86 | [Partition List](../leetcode/0086-partition-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0086-partition-list/Explanation.md) |
+
+| 92 | [Reverse Linked List II](../leetcode/0092-reverse-linked-list-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0092-reverse-linked-list-ii/Explanation.md) |
+
+| 328 | [Odd Even Linked List](../leetcode/0328-odd-even-linked-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0328-odd-even-linked-list/Explanation.md) |
+
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/Explanation.md) |
 
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2347-count-nodes-equal-to-average-of-subtree/Explanation.md) |

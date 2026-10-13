@@ -11,7 +11,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 3 | [Longest Substring Without Repeating Characters](../leetcode/0003-longest-substring-without-repeating-characters/) | Medium | Sliding Window | O(n) | O(1) |
 | 4 | [Median of Two Sorted Arrays](../leetcode/0004-median-of-two-sorted-arrays/) | Hard | Binary Search | O(n) | O(1) |
 | 5 | [Longest Palindromic Substring](../leetcode/0005-longest-palindromic-substring/) | Medium | Array / General | O(n) | O(1) |
-| 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Medium | Array / General | O(n) | O(1) |
+| 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Medium | Tree & Graph | O(n) | O(n) |
 | 8 | [String to Integer (atoi)](../leetcode/0008-string-to-integer-atoi/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 9 | [Palindrome Number](../leetcode/0009-palindrome-number/) | Easy | Two Pointers | O(n) | O(1) |
 | 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Easy | Prefix Sum | O(n) | O(n) |
@@ -53,12 +53,12 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Easy | Hash Map | O(n) | O(n) |
 | 59 | [Spiral Matrix II](../leetcode/0059-spiral-matrix-ii/) | Medium | Tree & Graph | O(n) | O(n) |
 | 60 | [Permutation Sequence](../leetcode/0060-permutation-sequence/) | Hard | Backtracking | O(n) | O(1) |
-| 62 | [Unique Paths](../leetcode/0062-unique-paths/) | Medium | Tree & Graph | O(n) | O(n) |
-| 63 | [Unique Paths II](../leetcode/0063-unique-paths-ii/) | Medium | Tree & Graph | O(n) | O(n) |
+| 62 | [Unique Paths](../leetcode/0062-unique-paths/) | Medium | Binary Search | O(n) | O(1) |
+| 63 | [Unique Paths II](../leetcode/0063-unique-paths-ii/) | Medium | Binary Search | O(n) | O(1) |
 | 64 | [Minimum Path Sum](../leetcode/0064-minimum-path-sum/) | Medium | Tree & Graph | O(n) | O(n) |
 | 65 | [Valid Number](../leetcode/0065-valid-number/) | Hard | Array / General | O(n) | O(1) |
 | 66 | [Plus One](../leetcode/0066-plus-one/) | Easy | Array / General | O(n) | O(1) |
-| 67 | [Add Binary](../leetcode/0067-add-binary/) | Easy | Tree & Graph | O(n) | O(n) |
+| 67 | [Add Binary](../leetcode/0067-add-binary/) | Easy | Binary Search | O(n) | O(1) |
 | 68 | [Text Justification](../leetcode/0068-text-justification/) | Hard | Heap | O(n) | O(n) |
 | 69 | [Sqrt(x)](../leetcode/0069-sqrtx/) | Easy | Array / General | O(n) | O(1) |
 | 70 | [Climbing Stairs](../leetcode/0070-climbing-stairs/) | Easy | Array / General | O(n) | O(1) |
@@ -66,7 +66,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 72 | [Edit Distance](../leetcode/0072-edit-distance/) | Medium | Array / General | O(n) | O(1) |
 | 74 | [Search a 2D Matrix](../leetcode/0074-search-a-2d-matrix/) | Medium | Tree & Graph | O(n) | O(n) |
 | 85 | [Maximal Rectangle](../leetcode/0085-maximal-rectangle/) | Hard | Math & Logic | O(n) | O(1) |
-| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Bit Manipulation | O(n) | O(1) |
+| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Linked List | O(n) | O(1) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Hard | Stack & Queue | O(n) | O(n) |
 | 342 | [Power of Four](../leetcode/0342-power-of-four/) | Easy | Array / General | O(n) | O(1) |
 | 344 | [Reverse String](../leetcode/0344-reverse-string/) | Easy | Array / General | O(n) | O(1) |
@@ -79,7 +79,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 387 | [First Unique Character in a String](../leetcode/0387-first-unique-character-in-a-string/) | Easy | Array / General | O(n) | O(1) |
 | 389 | [Find the Difference](../leetcode/0389-find-the-difference/) | Easy | Array / General | O(n) | O(1) |
 | 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |
-| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Easy | Tree & Graph | O(n) | O(n) |
+| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Easy | Binary Search | O(n) | O(1) |
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Easy | Tree & Graph | O(n) | O(n) |
 | 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Easy | Hash Map | O(n) | O(n) |
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Easy | Two Pointers | O(n) | O(1) |
@@ -107,7 +107,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 520 | [Detect Capital](../leetcode/0520-detect-capital/) | Easy | Array / General | O(n) | O(1) |
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Easy | Binary Search | O(n) | O(1) |
-| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Array / General | O(n) | O(1) |
+| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Linked List | O(n) | O(1) |
 | 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Medium | Tree & Graph | O(n) | O(n) |
 | 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Easy | Monotonic Stack | O(n) | O(n) |
@@ -117,7 +117,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Easy | Binary Search | O(n) | O(1) |
 | 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 570 | [Managers with at Least 5 Direct Reports](../leetcode/0570-managers-with-at-least-5-direct-reports/) | Medium | Array / General | O(n) | O(1) |
-| 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Easy | Tree & Graph | O(n) | O(n) |
+| 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 575 | [Distribute Candies](../leetcode/0575-distribute-candies/) | Easy | Array / General | O(n) | O(1) |
 | 589 | [N-ary Tree Preorder Traversal](../leetcode/0775-n-ary-tree-preorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
 | 590 | [N-ary Tree Postorder Traversal](../leetcode/0776-n-ary-tree-postorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -125,7 +125,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 598 | [Range Addition II](../leetcode/0598-range-addition-ii/) | Easy | Array / General | O(n) | O(1) |
 | 599 | [Minimum Index Sum of Two Lists](../leetcode/0599-minimum-index-sum-of-two-lists/) | Easy | Array / General | O(n) | O(1) |
 | 605 | [Can Place Flowers](../leetcode/0605-can-place-flowers/) | Easy | Array / General | O(n) | O(1) |
-| 617 | [Merge Two Binary Trees](../leetcode/0617-merge-two-binary-trees/) | Easy | Tree & Graph | O(n) | O(n) |
+| 617 | [Merge Two Binary Trees](../leetcode/0617-merge-two-binary-trees/) | Easy | Binary Search | O(n) | O(1) |
 | 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 643 | [Maximum Average Subarray I](../leetcode/0643-maximum-average-subarray-i/) | Easy | Array / General | O(n) | O(1) |
 | 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Medium | Binary Search | O(n) | O(1) |
@@ -169,8 +169,8 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 859 | [Buddy Strings](../leetcode/0889-buddy-strings/) | Easy | Array / General | O(n) | O(1) |
 | 860 | [Lemonade Change](../leetcode/0890-lemonade-change/) | Easy | Array / General | O(n) | O(1) |
 | 867 | [Transpose Matrix](../leetcode/0898-transpose-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
-| 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Easy | Tree & Graph | O(n) | O(n) |
-| 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Easy | Tree & Graph | O(n) | O(n) |
+| 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Easy | Binary Search | O(n) | O(1) |
+| 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Easy | Binary Search | O(n) | O(1) |
 | 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 883 | [Projection Area of 3D Shapes](../leetcode/0919-projection-area-of-3d-shapes/) | Easy | Array / General | O(n) | O(1) |
 | 884 | [Uncommon Words from Two Sentences](../leetcode/0920-uncommon-words-from-two-sentences/) | Easy | Array / General | O(n) | O(1) |
@@ -181,7 +181,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 905 | [Sort Array By Parity](../leetcode/0941-sort-array-by-parity/) | Easy | Hash Map | O(n) | O(n) |
 | 908 | [Smallest Range I](../leetcode/0944-smallest-range-i/) | Easy | Array / General | O(n) | O(1) |
 | 914 | [X of a Kind in a Deck of Cards](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/) | Easy | Array / General | O(n) | O(1) |
-| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Easy | Array / General | O(n) | O(1) |
+| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Easy | Linked List | O(n) | O(1) |
 | 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0957-minimum-add-to-make-parentheses-valid/) | Medium | Stack & Queue | O(n) | O(n) |
 | 922 | [Sort Array By Parity II](../leetcode/0958-sort-array-by-parity-ii/) | Easy | Array / General | O(n) | O(1) |
 | 925 | [Long Pressed Name](../leetcode/0961-long-pressed-name/) | Easy | Array / General | O(n) | O(1) |
@@ -236,7 +236,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 1287 | [Element Appearing More Than 25% In Sorted Array](../leetcode/1221-element-appearing-more-than-25-in-sorted-array/) | Easy | Array / General | O(n) | O(1) |
 | 1290 | [Convert Binary Number in a Linked List to Integer](../leetcode/1411-convert-binary-number-in-a-linked-list-to-integer/) | Easy | Binary Search | O(n) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](../leetcode/1421-find-numbers-with-even-number-of-digits/) | Easy | Math & Logic | O(n) | O(1) |
-| 1299 | [Replace Elements with Greatest Element on Right Side](../leetcode/1231-replace-elements-with-greatest-element-on-right-side/) | Easy | Array / General | O(n) | O(1) |
+| 1299 | [Replace Elements with Greatest Element on Right Side](../leetcode/1231-replace-elements-with-greatest-element-on-right-side/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](../leetcode/1434-decrypt-string-from-alphabet-to-integer-mapping/) | Easy | Array / General | O(n) | O(1) |
 | 1313 | [Decompress Run-Length Encoded List](../leetcode/1241-decompress-run-length-encoded-list/) | Easy | Array / General | O(n) | O(1) |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](../leetcode/1440-convert-integer-to-the-sum-of-two-no-zero-integers/) | Easy | Array / General | O(n) | O(1) |

@@ -6,7 +6,8 @@ A curated selection of LeetCode problems solved using the **Pointer Traversal & 
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 86 | [Partition List](../leetcode/0086-partition-list/) | Medium | Linked List | O(n) | O(1) |
-| 92 | [Reverse Linked List II](../leetcode/0092-reverse-linked-list-ii/) | Medium | Linked List | O(n) | O(1) |
-| 328 | [Odd Even Linked List](../leetcode/0328-odd-even-linked-list/) | Medium | Linked List | O(n) | O(1) |
-| 1448 | [Count Good Nodes in Binary Tree](../leetcode/1544-count-good-nodes-in-binary-tree/) | Medium | Linked List | O(n) | O(1) |
+| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Linked List | O(n) | O(1) |
+| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Linked List | O(n) | O(1) |
+| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Easy | Linked List | O(n) | O(1) |
+| 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Medium | Linked List | O(n) | O(1) |
+| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Easy | Linked List | O(n) | O(1) |

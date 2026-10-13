@@ -1,7 +1,7 @@
 # LeetCode 435: Non-overlapping Intervals
 
 **LeetCode Problem #435 — Non-overlapping Intervals**
-Solve LeetCode Non-overlapping Intervals using JavaScript and Greedy. This solution finds the optimal result using Greedy Choice Strategy in O(n) time.
+Solve LeetCode Non-overlapping Intervals using JavaScript and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,39 @@ Solve LeetCode Non-overlapping Intervals using JavaScript and Greedy. This solut
 | LeetCode | #435 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Greedy Choice Strategy |
-| Data Structure | Array / Priority Queue |
-| Pattern | Greedy |
+| Algorithm | Min/Max Heap Priority Selection |
+| Data Structure | Heap / Priority Queue |
+| Pattern | Heap |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 Given an array of intervals  intervals  where  intervals[i] = [start i , end i ] , return  the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping .
 
 ## Key Insight
-Leverage **Greedy** with **Array / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Greedy Choice Strategy**. By maintaining state efficiently in a **Array / Priority Queue**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array / Priority Queue**).
-2. Process elements sequentially using **Greedy Choice Strategy**.
+1. Initialize state variables / data structure (**Heap / Priority Queue**).
+2. Process elements sequentially using **Min/Max Heap Priority Selection**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Non-overlapping Intervals**. Applying **Greedy Choice Strategy** yields the target result step by step.
+Consider the standard input for **Non-overlapping Intervals**. Applying **Min/Max Heap Priority Selection** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Greedy**
+**Heap**
 
 ## Topics
-- Greedy
+- Heap
+- Priority Queue
 - Sorting
 
 ## Language
@@ -51,7 +52,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Greedy**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

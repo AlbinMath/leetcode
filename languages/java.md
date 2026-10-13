@@ -8,7 +8,7 @@ A collection of LeetCode problems implemented in **Java** with detailed complexi
 |---|---|---|---|---|---|
 | 1114 | [Print in Order](../leetcode/1203-print-in-order/) | Easy | Hash Map | O(n) | O(n) |
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Medium | Hash Map | O(n) | O(n) |
-| 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Medium | Array / General | O(n) | O(1) |
+| 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Medium | Linked List | O(n) | O(1) |
 | 1288 | [Remove Covered Intervals](../leetcode/1222-remove-covered-intervals/) | Medium | Binary Search | O(log n) | O(1) |
 | 1344 | [Angle Between Hands of a Clock](../leetcode/1446-angle-between-hands-of-a-clock/) | Medium | Math & Logic | O(n) | O(1) |
 | 1358 | [Number of Substrings Containing All Three Characters](../leetcode/1460-number-of-substrings-containing-all-three-characters/) | Medium | Tree & Graph | O(n) | O(n) |

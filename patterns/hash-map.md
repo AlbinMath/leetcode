@@ -76,6 +76,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Java | O(n) | O(n) | [Explanation](../leetcode/1187-print-foobar-alternately/Explanation.md) |
 
+| 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/Explanation.md) |
+
 | 1386 | [Cinema Seat Allocation](../leetcode/1487-cinema-seat-allocation/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1487-cinema-seat-allocation/Explanation.md) |
 
 | 1674 | [Minimum Moves to Make Array Complementary](../leetcode/1793-minimum-moves-to-make-array-complementary/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1793-minimum-moves-to-make-array-complementary/Explanation.md) |

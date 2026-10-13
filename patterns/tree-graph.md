@@ -8,21 +8,11 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 67 | [Add Binary](../leetcode/0067-add-binary/) | Python | O(n) | O(n) | [Explanation](../leetcode/0067-add-binary/Explanation.md) |
-
-| 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0094-binary-tree-inorder-traversal/Explanation.md) |
-
-| 100 | [Same Tree](../leetcode/0100-same-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0100-same-tree/Explanation.md) |
-
-| 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0101-symmetric-tree/Explanation.md) |
-
 | 112 | [Path Sum](../leetcode/0112-path-sum/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0112-path-sum/Explanation.md) |
 
 | 144 | [Binary Tree Preorder Traversal](../leetcode/0144-binary-tree-preorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0144-binary-tree-preorder-traversal/Explanation.md) |
 
 | 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0145-binary-tree-postorder-traversal/Explanation.md) |
-
-| 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Python | O(n) | O(n) | [Explanation](../leetcode/0401-binary-watch/Explanation.md) |
 
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Python | O(n) | O(n) | [Explanation](../leetcode/0404-sum-of-left-leaves/Explanation.md) |
 
@@ -30,23 +20,15 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0566-reshape-the-matrix/Explanation.md) |
 
-| 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0572-subtree-of-another-tree/Explanation.md) |
-
 | 589 | [N-ary Tree Preorder Traversal](../leetcode/0775-n-ary-tree-preorder-traversal/) | Python | O(n) | O(n) | [Explanation](../leetcode/0775-n-ary-tree-preorder-traversal/Explanation.md) |
 
 | 590 | [N-ary Tree Postorder Traversal](../leetcode/0776-n-ary-tree-postorder-traversal/) | Python | O(n) | O(n) | [Explanation](../leetcode/0776-n-ary-tree-postorder-traversal/Explanation.md) |
-
-| 617 | [Merge Two Binary Trees](../leetcode/0617-merge-two-binary-trees/) | Python | O(n) | O(n) | [Explanation](../leetcode/0617-merge-two-binary-trees/Explanation.md) |
 
 | 696 | [Count Binary Substrings](../leetcode/0696-count-binary-substrings/) | Python | O(n) | O(n) | [Explanation](../leetcode/0696-count-binary-substrings/Explanation.md) |
 
 | 766 | [Toeplitz Matrix](../leetcode/0777-toeplitz-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0777-toeplitz-matrix/Explanation.md) |
 
 | 867 | [Transpose Matrix](../leetcode/0898-transpose-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0898-transpose-matrix/Explanation.md) |
-
-| 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Python | O(n) | O(n) | [Explanation](../leetcode/0899-binary-gap/Explanation.md) |
-
-| 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0904-leaf-similar-trees/Explanation.md) |
 
 | 1022 | [Sum of Root To Leaf Binary Numbers](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/) | Python | O(n) | O(n) | [Explanation](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/Explanation.md) |
 
@@ -57,6 +39,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 1252 | [Cells with Odd Values in a Matrix](../leetcode/1378-cells-with-odd-values-in-a-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/1378-cells-with-odd-values-in-a-matrix/Explanation.md) |
 
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Racket | O(n) | O(n) | [Explanation](../leetcode/1386-shift-2d-grid/Explanation.md) |
+
+| 1299 | [Replace Elements with Greatest Element on Right Side](../leetcode/1231-replace-elements-with-greatest-element-on-right-side/) | Python | O(n) | O(n) | [Explanation](../leetcode/1231-replace-elements-with-greatest-element-on-right-side/Explanation.md) |
 
 | 1337 | [The K Weakest Rows in a Matrix](../leetcode/1463-the-k-weakest-rows-in-a-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/1463-the-k-weakest-rows-in-a-matrix/Explanation.md) |
 
@@ -98,6 +82,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Python | O(n) | O(n) | [Explanation](../leetcode/0006-zigzag-conversion/Explanation.md) |
+
 | 38 | [Count and Say](../leetcode/0038-count-and-say/) | Python | O(n) | O(n) | [Explanation](../leetcode/0038-count-and-say/Explanation.md) |
 
 | 50 | [Pow(x, n)](../leetcode/0050-powx-n/) | Python | O(n) | O(n) | [Explanation](../leetcode/0050-powx-n/Explanation.md) |
@@ -107,10 +93,6 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 54 | [Spiral Matrix](../leetcode/0054-spiral-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0054-spiral-matrix/Explanation.md) |
 
 | 59 | [Spiral Matrix II](../leetcode/0059-spiral-matrix-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0059-spiral-matrix-ii/Explanation.md) |
-
-| 62 | [Unique Paths](../leetcode/0062-unique-paths/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0062-unique-paths/Explanation.md) |
-
-| 63 | [Unique Paths II](../leetcode/0063-unique-paths-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0063-unique-paths-ii/Explanation.md) |
 
 | 64 | [Minimum Path Sum](../leetcode/0064-minimum-path-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/0064-minimum-path-sum/Explanation.md) |
 
@@ -122,23 +104,15 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 198 | [House Robber](../leetcode/0198-house-robber/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0198-house-robber/Explanation.md) |
 
-| 199 | [Binary Tree Right Side View](../leetcode/0199-binary-tree-right-side-view/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0199-binary-tree-right-side-view/Explanation.md) |
-
-| 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/Explanation.md) |
-
 | 437 | [Path Sum III](../leetcode/0437-path-sum-iii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0437-path-sum-iii/Explanation.md) |
 
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Python | O(n) | O(n) | [Explanation](../leetcode/1182-game-play-analysis-iv/Explanation.md) |
 
 | 877 | [Stone Game](../leetcode/0909-stone-game/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0909-stone-game/Explanation.md) |
 
-| 1161 | [Maximum Level Sum of a Binary Tree](../leetcode/1116-maximum-level-sum-of-a-binary-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1116-maximum-level-sum-of-a-binary-tree/Explanation.md) |
-
 | 1306 | [Jump Game III](../leetcode/1428-jump-game-iii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1428-jump-game-iii/Explanation.md) |
 
 | 1358 | [Number of Substrings Containing All Three Characters](../leetcode/1460-number-of-substrings-containing-all-three-characters/) | Java | O(n) | O(n) | [Explanation](../leetcode/1460-number-of-substrings-containing-all-three-characters/Explanation.md) |
-
-| 1372 | [Longest ZigZag Path in a Binary Tree](../leetcode/1474-longest-zigzag-path-in-a-binary-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1474-longest-zigzag-path-in-a-binary-tree/Explanation.md) |
 
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/Explanation.md) |
 
@@ -161,8 +135,6 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 3310 | [Remove Methods From Project](../leetcode/3561-remove-methods-from-project/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3561-remove-methods-from-project/Explanation.md) |
 
 | 3513 | [Number of Unique XOR Triplets I](../leetcode/3824-number-of-unique-xor-triplets-i/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3824-number-of-unique-xor-triplets-i/Explanation.md) |
-
-| 3514 | [Number of Unique XOR Triplets II](../leetcode/3820-number-of-unique-xor-triplets-ii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3820-number-of-unique-xor-triplets-ii/Explanation.md) |
 
 | 3517 | [Smallest Palindromic Rearrangement I](../leetcode/3812-smallest-palindromic-rearrangement-i/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3812-smallest-palindromic-rearrangement-i/Explanation.md) |
 

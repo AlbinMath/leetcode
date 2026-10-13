@@ -110,8 +110,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 520 | [Detect Capital](../leetcode/0520-detect-capital/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0520-detect-capital/Explanation.md) |
 
-| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0541-reverse-string-ii/Explanation.md) |
-
 | 557 | [Reverse Words in a String III](../leetcode/0557-reverse-words-in-a-string-iii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0557-reverse-words-in-a-string-iii/Explanation.md) |
 
 | 561 | [Array Partition](../leetcode/0561-array-partition/) | Python | O(n) | O(1) | [Explanation](../leetcode/0561-array-partition/Explanation.md) |
@@ -177,8 +175,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 908 | [Smallest Range I](../leetcode/0944-smallest-range-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/0944-smallest-range-i/Explanation.md) |
 
 | 914 | [X of a Kind in a Deck of Cards](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/) | Python | O(n) | O(1) | [Explanation](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/Explanation.md) |
-
-| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Python | O(n) | O(1) | [Explanation](../leetcode/0953-reverse-only-letters/Explanation.md) |
 
 | 922 | [Sort Array By Parity II](../leetcode/0958-sort-array-by-parity-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0958-sort-array-by-parity-ii/Explanation.md) |
 
@@ -249,8 +245,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 1275 | [Find Winner on a Tic Tac Toe Game](../leetcode/1400-find-winner-on-a-tic-tac-toe-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/1400-find-winner-on-a-tic-tac-toe-game/Explanation.md) |
 
 | 1287 | [Element Appearing More Than 25% In Sorted Array](../leetcode/1221-element-appearing-more-than-25-in-sorted-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/1221-element-appearing-more-than-25-in-sorted-array/Explanation.md) |
-
-| 1299 | [Replace Elements with Greatest Element on Right Side](../leetcode/1231-replace-elements-with-greatest-element-on-right-side/) | Python | O(n) | O(1) | [Explanation](../leetcode/1231-replace-elements-with-greatest-element-on-right-side/Explanation.md) |
 
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](../leetcode/1434-decrypt-string-from-alphabet-to-integer-mapping/) | Python | O(n) | O(1) | [Explanation](../leetcode/1434-decrypt-string-from-alphabet-to-integer-mapping/Explanation.md) |
 
@@ -474,8 +468,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 3633 | [Earliest Finish Time for Land and Water Rides I](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/Explanation.md) |
 
-| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/3995-gcd-of-odd-and-even-sums/Explanation.md) |
-
 | 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | PHP | O(n) | O(1) | [Explanation](../leetcode/4107-find-missing-elements/Explanation.md) |
 
 ### Medium
@@ -483,8 +475,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 5 | [Longest Palindromic Substring](../leetcode/0005-longest-palindromic-substring/) | Python | O(n) | O(1) | [Explanation](../leetcode/0005-longest-palindromic-substring/Explanation.md) |
-
-| 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Python | O(n) | O(1) | [Explanation](../leetcode/0006-zigzag-conversion/Explanation.md) |
 
 | 36 | [Valid Sudoku](../leetcode/0036-valid-sudoku/) | Python | O(n) | O(1) | [Explanation](../leetcode/0036-valid-sudoku/Explanation.md) |
 
@@ -554,8 +544,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1004 | [Max Consecutive Ones III](../leetcode/1046-max-consecutive-ones-iii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1046-max-consecutive-ones-iii/Explanation.md) |
 
-| 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Java | O(n) | O(1) | [Explanation](../leetcode/1216-print-zero-even-odd/Explanation.md) |
-
 | 1117 | [Building H2O](../leetcode/1186-building-h2o/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1186-building-h2o/Explanation.md) |
 
 | 1195 | [Fizz Buzz Multithreaded](../leetcode/1316-fizz-buzz-multithreaded/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1316-fizz-buzz-multithreaded/Explanation.md) |
@@ -585,8 +573,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 2300 | [Successful Pairs of Spells and Potions](../leetcode/2392-successful-pairs-of-spells-and-potions/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2392-successful-pairs-of-spells-and-potions/Explanation.md) |
 
 | 2333 | [Minimum Sum of Squared Difference](../leetcode/2418-minimum-sum-of-squared-difference/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2418-minimum-sum-of-squared-difference/Explanation.md) |
-
-| 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2413-smallest-number-in-infinite-set/Explanation.md) |
 
 | 2352 | [Equal Row and Column Pairs](../leetcode/2428-equal-row-and-column-pairs/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2428-equal-row-and-column-pairs/Explanation.md) |
 

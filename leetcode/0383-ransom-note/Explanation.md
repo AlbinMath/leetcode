@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
 - [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [27. Remove Element](../0027-remove-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ransom-note/)

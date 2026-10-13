@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1122. Relative Sort Array](../1217-relative-sort-array/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
+- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/relative-ranks/)

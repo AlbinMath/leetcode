@@ -12,8 +12,6 @@ LeetCode problems solved using **Stack** data structures.
 | 32 | [Longest Valid Parentheses](../leetcode/0032-longest-valid-parentheses/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 84 | [Largest Rectangle in Histogram](../leetcode/0084-largest-rectangle-in-histogram/) | Hard | Monotonic Stack Filtering | O(n) | O(n) |
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0150-evaluate-reverse-polish-notation/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
-| 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
-| 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 399 | [Evaluate Division](../leetcode/0399-evaluate-division/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
@@ -35,5 +33,6 @@ LeetCode problems solved using **Stack** data structures.
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2888 | [Reshape Data: Concatenate](../leetcode/3064-reshape-data-concatenate/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
+| 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 3499 | [Maximize Active Section with Trade I](../leetcode/3805-maximize-active-section-with-trade-i/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |

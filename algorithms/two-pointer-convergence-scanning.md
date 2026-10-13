@@ -16,11 +16,14 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 61 | [Rotate List](../leetcode/0061-rotate-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 82 | [Remove Duplicates from Sorted List II](../leetcode/0082-remove-duplicates-from-sorted-list-ii/) | Medium | Two Pointers | O(n) | O(1) |
 | 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | Easy | Two Pointers | O(n) | O(1) |
+| 86 | [Partition List](../leetcode/0086-partition-list/) | Medium | Two Pointers | O(n) | O(1) |
+| 92 | [Reverse Linked List II](../leetcode/0092-reverse-linked-list-ii/) | Medium | Two Pointers | O(n) | O(1) |
 | 125 | [Valid Palindrome](../leetcode/0125-valid-palindrome/) | Easy | Two Pointers | O(n) | O(1) |
 | 160 | [Intersection of Two Linked Lists](../leetcode/0160-intersection-of-two-linked-lists/) | Easy | Two Pointers | O(n) | O(1) |
 | 203 | [Remove Linked List Elements](../leetcode/0203-remove-linked-list-elements/) | Easy | Two Pointers | O(n) | O(1) |
 | 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
+| 328 | [Odd Even Linked List](../leetcode/0328-odd-even-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Easy | Two Pointers | O(n) | O(1) |
 | 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Easy | Two Pointers | O(n) | O(1) |
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Easy | Two Pointers | O(n) | O(1) |

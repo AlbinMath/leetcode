@@ -12,10 +12,6 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 
 | 28 | [Find the Index of the First Occurrence in a String](../leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string/Explanation.md) |
 
-| 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0225-implement-stack-using-queues/Explanation.md) |
-
-| 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | JavaScript, PHP | O(n) | O(n) | [Explanation](../leetcode/0232-implement-queue-using-stacks/Explanation.md) |
-
 | 1021 | [Remove Outermost Parentheses](../leetcode/1078-remove-outermost-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/1078-remove-outermost-parentheses/Explanation.md) |
 
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Java | O(n) | O(n) | [Explanation](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/Explanation.md) |
@@ -59,4 +55,6 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/Explanation.md) |
 
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/Explanation.md) |
+
+| 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/Explanation.md) |
 

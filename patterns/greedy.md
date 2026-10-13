@@ -10,9 +10,7 @@ A collection of LeetCode problems solved using **Greedy** pattern techniques, ex
 
 ### Medium
 
-| # | Problem | Language | Time | Space | Explanation |
-|---|---|---|---|---|---|
-| 435 | [Non-overlapping Intervals](../leetcode/0435-non-overlapping-intervals/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0435-non-overlapping-intervals/Explanation.md) |
+*No problems logged yet under this difficulty level.*
 
 ### Hard
 

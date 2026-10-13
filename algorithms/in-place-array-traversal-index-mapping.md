@@ -7,7 +7,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
 | 5 | [Longest Palindromic Substring](../leetcode/0005-longest-palindromic-substring/) | Medium | Array / General | O(n) | O(1) |
-| 6 | [Zigzag Conversion](../leetcode/0006-zigzag-conversion/) | Medium | Array / General | O(n) | O(1) |
 | 26 | [Remove Duplicates from Sorted Array](../leetcode/0026-remove-duplicates-from-sorted-array/) | Easy | Array / General | O(n) | O(1) |
 | 27 | [Remove Element](../leetcode/0027-remove-element/) | Easy | Array / General | O(n) | O(1) |
 | 36 | [Valid Sudoku](../leetcode/0036-valid-sudoku/) | Medium | Array / General | O(n) | O(1) |
@@ -86,7 +85,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 509 | [Fibonacci Number](../leetcode/1013-fibonacci-number/) | Easy | Array / General | O(n) | O(1) |
 | 511 | [Game Play Analysis I](../leetcode/1179-game-play-analysis-i/) | Easy | Array / General | O(n) | O(1) |
 | 520 | [Detect Capital](../leetcode/0520-detect-capital/) | Easy | Array / General | O(n) | O(1) |
-| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Array / General | O(n) | O(1) |
 | 547 | [Number of Provinces](../leetcode/0547-number-of-provinces/) | Medium | Array / General | O(n) | O(1) |
 | 557 | [Reverse Words in a String III](../leetcode/0557-reverse-words-in-a-string-iii/) | Easy | Array / General | O(n) | O(1) |
 | 561 | [Array Partition](../leetcode/0561-array-partition/) | Easy | Array / General | O(n) | O(1) |
@@ -132,7 +130,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 901 | [Online Stock Span](../leetcode/0937-online-stock-span/) | Medium | Array / General | O(n) | O(1) |
 | 908 | [Smallest Range I](../leetcode/0944-smallest-range-i/) | Easy | Array / General | O(n) | O(1) |
 | 914 | [X of a Kind in a Deck of Cards](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/) | Easy | Array / General | O(n) | O(1) |
-| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Easy | Array / General | O(n) | O(1) |
 | 922 | [Sort Array By Parity II](../leetcode/0958-sort-array-by-parity-ii/) | Easy | Array / General | O(n) | O(1) |
 | 925 | [Long Pressed Name](../leetcode/0961-long-pressed-name/) | Easy | Array / General | O(n) | O(1) |
 | 929 | [Unique Email Addresses](../leetcode/0965-unique-email-addresses/) | Easy | Array / General | O(n) | O(1) |
@@ -160,7 +157,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | Hard | Array / General | O(n) | O(1) |
 | 1103 | [Distribute Candies to People](../leetcode/1195-distribute-candies-to-people/) | Easy | Array / General | O(n) | O(1) |
 | 1108 | [Defanging an IP Address](../leetcode/1205-defanging-an-ip-address/) | Easy | Array / General | O(n) | O(1) |
-| 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Medium | Array / General | O(n) | O(1) |
 | 1117 | [Building H2O](../leetcode/1186-building-h2o/) | Medium | Array / General | O(n) | O(1) |
 | 1128 | [Number of Equivalent Domino Pairs](../leetcode/1227-number-of-equivalent-domino-pairs/) | Easy | Array / General | O(n) | O(1) |
 | 1154 | [Day of the Year](../leetcode/1260-day-of-the-year/) | Easy | Array / General | O(n) | O(1) |
@@ -176,7 +172,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 1268 | [Search Suggestions System](../leetcode/1397-search-suggestions-system/) | Medium | Array / General | O(n) | O(1) |
 | 1275 | [Find Winner on a Tic Tac Toe Game](../leetcode/1400-find-winner-on-a-tic-tac-toe-game/) | Easy | Array / General | O(n) | O(1) |
 | 1287 | [Element Appearing More Than 25% In Sorted Array](../leetcode/1221-element-appearing-more-than-25-in-sorted-array/) | Easy | Array / General | O(n) | O(1) |
-| 1299 | [Replace Elements with Greatest Element on Right Side](../leetcode/1231-replace-elements-with-greatest-element-on-right-side/) | Easy | Array / General | O(n) | O(1) |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](../leetcode/1434-decrypt-string-from-alphabet-to-integer-mapping/) | Easy | Array / General | O(n) | O(1) |
 | 1313 | [Decompress Run-Length Encoded List](../leetcode/1241-decompress-run-length-encoded-list/) | Easy | Array / General | O(n) | O(1) |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](../leetcode/1440-convert-integer-to-the-sum-of-two-no-zero-integers/) | Easy | Array / General | O(n) | O(1) |
@@ -277,7 +272,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 2215 | [Find the Difference of Two Arrays](../leetcode/1392-find-the-difference-of-two-arrays/) | Easy | Array / General | O(n) | O(1) |
 | 2300 | [Successful Pairs of Spells and Potions](../leetcode/2392-successful-pairs-of-spells-and-potions/) | Medium | Array / General | O(n) | O(1) |
 | 2333 | [Minimum Sum of Squared Difference](../leetcode/2418-minimum-sum-of-squared-difference/) | Medium | Array / General | O(n) | O(1) |
-| 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | Medium | Array / General | O(n) | O(1) |
 | 2352 | [Equal Row and Column Pairs](../leetcode/2428-equal-row-and-column-pairs/) | Medium | Array / General | O(n) | O(1) |
 | 2390 | [Removing Stars From a String](../leetcode/2470-removing-stars-from-a-string/) | Medium | Array / General | O(n) | O(1) |
 | 2462 | [Total Cost to Hire K Workers](../leetcode/2553-total-cost-to-hire-k-workers/) | Medium | Array / General | O(n) | O(1) |
@@ -331,7 +325,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 3629 | [Minimum Jumps to Reach End via Prime Teleportation](../leetcode/3933-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium | Array / General | O(n) | O(1) |
 | 3633 | [Earliest Finish Time for Land and Water Rides I](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/) | Easy | Array / General | O(n) | O(1) |
 | 3635 | [Earliest Finish Time for Land and Water Rides II](../leetcode/3967-earliest-finish-time-for-land-and-water-rides-ii/) | Medium | Array / General | O(n) | O(1) |
-| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Easy | Array / General | O(n) | O(1) |
 | 3660 | [Jump Game IX](../leetcode/3981-jump-game-ix/) | Medium | Array / General | O(n) | O(1) |
 | 3691 | [Maximum Total Subarray Value II](../leetcode/4007-maximum-total-subarray-value-ii/) | Hard | Array / General | O(n) | O(1) |
 | 3705 | [Find Golden Hour Customers](../leetcode/4091-find-golden-hour-customers/) | Medium | Array / General | O(n) | O(1) |
