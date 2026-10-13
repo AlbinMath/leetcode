@@ -1,10 +1,7 @@
 SELECT
     s.user_id,
     ROUND(
-        AVG(CASE
-            WHEN c.action = 'confirmed' THEN 1.00
-            ELSE 0.00
-        END),
+        COALESCE(AVG(c.action = 'confirmed'), 0),
         2
     ) AS confirmation_rate
 FROM Signups s
