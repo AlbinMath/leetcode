@@ -33,7 +33,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | Binary Search | C++ | O(n) | O(1) |
 | 185 | [Department Top Three Salaries](../leetcode/0185-department-top-three-salaries/) | Database / SQL | SQL | O(n) | O(n) |
 | 188 | [Best Time to Buy and Sell Stock IV](../leetcode/0188-best-time-to-buy-and-sell-stock-iv/) | Array / General | JavaScript | O(n) | O(1) |
-| 212 | [Word Search II](../leetcode/0212-word-search-ii/) | Array / General | JavaScript | O(n) | O(1) |
+| 212 | [Word Search II](../leetcode/0212-word-search-ii/) | Binary Search | JavaScript | O(n) | O(1) |
 | 218 | [The Skyline Problem](../leetcode/0218-the-skyline-problem/) | Dynamic Programming | JavaScript | O(n) | O(n) |
 | 224 | [Basic Calculator](../leetcode/0224-basic-calculator/) | Bit Manipulation | JavaScript | O(n) | O(1) |
 | 262 | [Trips and Users](../leetcode/0262-trips-and-users/) | Database / SQL | SQL | O(n) | O(n) |
@@ -62,7 +62,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Tree & Graph | Python | O(n) | O(n) |
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Prefix Sum | Java | O(n) | O(n) |
 | 1964 | [Find the Longest Valid Obstacle Course at Each Position](../leetcode/2096-find-the-longest-valid-obstacle-course-at-each-position/) | Array / General | JavaScript | O(n) | O(1) |
-| 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | Array / General | JavaScript | O(n) | O(1) |
+| 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | Two Pointers | JavaScript | O(n) | O(1) |
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Binary Search | Java | O(n) | O(1) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/) | Stack & Queue | C++ | O(n) | O(n) |
@@ -74,8 +74,8 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 2552 | [Count Increasing Quadruplets](../leetcode/2682-count-increasing-quadruplets/) | Array / General | Python | O(n) | O(1) |
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | Hash Map | TypeScript | O(n) | O(n) |
 | 2650 | [Design Cancellable Function](../leetcode/2788-design-cancellable-function/) | Array / General | TypeScript | O(n) | O(1) |
-| 2659 | [Make Array Empty](../leetcode/2765-make-array-empty/) | Array / General | JavaScript | O(n) | O(1) |
-| 2736 | [Maximum Sum Queries](../leetcode/2839-maximum-sum-queries/) | Array / General | JavaScript | O(n) | O(1) |
+| 2659 | [Make Array Empty](../leetcode/2765-make-array-empty/) | Hash Map | JavaScript | O(n) | O(n) |
+| 2736 | [Maximum Sum Queries](../leetcode/2839-maximum-sum-queries/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Stack & Queue | JavaScript | O(n) | O(n) |
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Hash Map | Python | O(n) | O(n) |
@@ -102,6 +102,6 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 3700 | [Number of ZigZag Arrays II](../leetcode/3964-number-of-zigzag-arrays-ii/) | Tree & Graph | PHP | O(n) | O(n) |
 | 3734 | [Lexicographically Smallest Palindromic Permutation Greater Than Target](../leetcode/4037-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Backtracking | Java | O(n) | O(1) |
 | 3739 | [Count Subarrays With Majority Element II](../leetcode/4075-count-subarrays-with-majority-element-ii/) | Array / General | PHP | O(n) | O(1) |
-| 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Array / General | Python | O(n) | O(1) |
+| 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Bit Manipulation | Python | O(n) | O(1) |
 | 3764 | [Most Common Course Pairs](../leetcode/4169-most-common-course-pairs/) | Database / SQL | SQL | O(n) | O(n) |
 | 3832 | [Find Users with Persistent Behavior Patterns](../leetcode/4227-find-users-with-persistent-behavior-patterns/) | Database / SQL | SQL | O(n) | O(n) |

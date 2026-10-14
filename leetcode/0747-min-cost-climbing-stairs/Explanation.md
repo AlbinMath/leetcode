@@ -1,7 +1,7 @@
 # LeetCode 746: Min Cost Climbing Stairs
 
 **LeetCode Problem #746 — Min Cost Climbing Stairs**
-Solve LeetCode Min Cost Climbing Stairs using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Min Cost Climbing Stairs using JavaScript, Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,39 @@ Solve LeetCode Min Cost Climbing Stairs using JavaScript, Python and Array / Gen
 | LeetCode | #746 |
 | Difficulty | Easy |
 | Language | JavaScript, Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 You are given an integer array  cost  where  cost[i]  is the cost of  i th   step on a staircase.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Stack**).
+2. Process elements sequentially using **Stack Push / Pop Parsing**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Min Cost Climbing Stairs**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Min Cost Climbing Stairs**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Array / General**
+**Stack & Queue**
 
 ## Topics
-- Array
+- Stack
+- String Parsing
 
 ## Language
 JavaScript, Python
@@ -51,7 +52,7 @@ JavaScript, Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

@@ -138,8 +138,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 733 | [Flood Fill](../leetcode/0733-flood-fill/) | Python | O(n) | O(1) | [Explanation](../leetcode/0733-flood-fill/Explanation.md) |
 
-| 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0747-min-cost-climbing-stairs/Explanation.md) |
-
 | 747 | [Largest Number At Least Twice of Others](../leetcode/0748-largest-number-at-least-twice-of-others/) | Python | O(n) | O(1) | [Explanation](../leetcode/0748-largest-number-at-least-twice-of-others/Explanation.md) |
 
 | 771 | [Jewels and Stones](../leetcode/0782-jewels-and-stones/) | Python | O(n) | O(1) | [Explanation](../leetcode/0782-jewels-and-stones/Explanation.md) |
@@ -348,8 +346,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1684 | [Count the Number of Consistent Strings](../leetcode/1786-count-the-number-of-consistent-strings/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1786-count-the-number-of-consistent-strings/Explanation.md) |
 
-| 1688 | [Count of Matches in Tournament](../leetcode/1806-count-of-matches-in-tournament/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1806-count-of-matches-in-tournament/Explanation.md) |
-
 | 1694 | [Reformat Phone Number](../leetcode/1812-reformat-phone-number/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1812-reformat-phone-number/Explanation.md) |
 
 | 1704 | [Determine if String Halves Are Alike](../leetcode/1823-determine-if-string-halves-are-alike/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1823-determine-if-string-halves-are-alike/Explanation.md) |
@@ -421,8 +417,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 1995 | [Count Special Quadruplets](../leetcode/2122-count-special-quadruplets/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2122-count-special-quadruplets/Explanation.md) |
 
 | 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2137-final-value-of-variable-after-performing-operations/Explanation.md) |
-
-| 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2154-minimum-moves-to-convert-string/Explanation.md) |
 
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/Explanation.md) |
 
@@ -526,8 +520,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 130 | [Surrounded Regions](../leetcode/0130-surrounded-regions/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0130-surrounded-regions/Explanation.md) |
 
-| 133 | [Clone Graph](../leetcode/0133-clone-graph/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0133-clone-graph/Explanation.md) |
-
 | 134 | [Gas Station](../leetcode/0134-gas-station/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0134-gas-station/Explanation.md) |
 
 | 137 | [Single Number II](../leetcode/0137-single-number-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0137-single-number-ii/Explanation.md) |
@@ -543,8 +535,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 194 | [Transpose File](../leetcode/0194-transpose-file/) | Shell | O(n) | O(1) | [Explanation](../leetcode/0194-transpose-file/Explanation.md) |
 
 | 200 | [Number of Islands](../leetcode/0200-number-of-islands/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0200-number-of-islands/Explanation.md) |
-
-| 204 | [Count Primes](../leetcode/0204-count-primes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0204-count-primes/Explanation.md) |
 
 | 207 | [Course Schedule](../leetcode/0207-course-schedule/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0207-course-schedule/Explanation.md) |
 
@@ -569,10 +559,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 380 | [Insert Delete GetRandom O(1)](../leetcode/0380-insert-delete-getrandom-o1/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0380-insert-delete-getrandom-o1/Explanation.md) |
 
 | 394 | [Decode String](../leetcode/0394-decode-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0394-decode-string/Explanation.md) |
-
-| 406 | [Queue Reconstruction by Height](../leetcode/0406-queue-reconstruction-by-height/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0406-queue-reconstruction-by-height/Explanation.md) |
-
-| 433 | [Minimum Genetic Mutation](../leetcode/0433-minimum-genetic-mutation/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0433-minimum-genetic-mutation/Explanation.md) |
 
 | 443 | [String Compression](../leetcode/0443-string-compression/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0443-string-compression/Explanation.md) |
 
@@ -607,8 +593,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 901 | [Online Stock Span](../leetcode/0937-online-stock-span/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0937-online-stock-span/Explanation.md) |
 
 | 909 | [Snakes and Ladders](../leetcode/0945-snakes-and-ladders/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0945-snakes-and-ladders/Explanation.md) |
-
-| 918 | [Maximum Sum Circular Subarray](../leetcode/0954-maximum-sum-circular-subarray/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0954-maximum-sum-circular-subarray/Explanation.md) |
 
 | 981 | [Time Based Key-Value Store](../leetcode/1023-time-based-key-value-store/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1023-time-based-key-value-store/Explanation.md) |
 
@@ -662,8 +646,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 2521 | [Distinct Prime Factors of Product of Array](../leetcode/2609-distinct-prime-factors-of-product-of-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2609-distinct-prime-factors-of-product-of-array/Explanation.md) |
 
-| 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2610-closest-prime-numbers-in-range/Explanation.md) |
-
 | 2618 | [Check if Object Instance of Class](../leetcode/2758-check-if-object-instance-of-class/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2758-check-if-object-instance-of-class/Explanation.md) |
 
 | 2623 | [Memoize](../leetcode/2731-memoize/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2731-memoize/Explanation.md) |
@@ -714,10 +696,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 3716 | [Find Churn Risk Customers](../leetcode/4103-find-churn-risk-customers/) | Python | O(n) | O(1) | [Explanation](../leetcode/4103-find-churn-risk-customers/Explanation.md) |
 
-| 3727 | [Maximum Alternating Sum of Squares](../leetcode/4078-maximum-alternating-sum-of-squares/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/4078-maximum-alternating-sum-of-squares/Explanation.md) |
-
-| 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/4057-total-waviness-of-numbers-in-range-i/Explanation.md) |
-
 | 3867 | [Sum of GCD of Formed Pairs](../leetcode/4242-sum-of-gcd-of-formed-pairs/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4242-sum-of-gcd-of-formed-pairs/Explanation.md) |
 
 | 3871 | [Count Commas in Range II](../leetcode/4248-count-commas-in-range-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/4248-count-commas-in-range-ii/Explanation.md) |
@@ -750,8 +728,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 188 | [Best Time to Buy and Sell Stock IV](../leetcode/0188-best-time-to-buy-and-sell-stock-iv/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0188-best-time-to-buy-and-sell-stock-iv/Explanation.md) |
 
-| 212 | [Word Search II](../leetcode/0212-word-search-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0212-word-search-ii/Explanation.md) |
-
 | 295 | [Find Median from Data Stream](../leetcode/0295-find-median-from-data-stream/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0295-find-median-from-data-stream/Explanation.md) |
 
 | 315 | [Count of Smaller Numbers After Self](../leetcode/0315-count-of-smaller-numbers-after-self/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0315-count-of-smaller-numbers-after-self/Explanation.md) |
@@ -770,8 +746,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1964 | [Find the Longest Valid Obstacle Course at Each Position](../leetcode/2096-find-the-longest-valid-obstacle-course-at-each-position/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2096-find-the-longest-valid-obstacle-course-at-each-position/Explanation.md) |
 
-| 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2280-count-good-triplets-in-an-array/Explanation.md) |
-
 | 2286 | [Booking Concert Tickets in Groups](../leetcode/2380-booking-concert-tickets-in-groups/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2380-booking-concert-tickets-in-groups/Explanation.md) |
 
 | 2426 | [Number of Pairs Satisfying Inequality](../leetcode/2513-number-of-pairs-satisfying-inequality/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2513-number-of-pairs-satisfying-inequality/Explanation.md) |
@@ -779,10 +753,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 2552 | [Count Increasing Quadruplets](../leetcode/2682-count-increasing-quadruplets/) | Python | O(n) | O(1) | [Explanation](../leetcode/2682-count-increasing-quadruplets/Explanation.md) |
 
 | 2650 | [Design Cancellable Function](../leetcode/2788-design-cancellable-function/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2788-design-cancellable-function/Explanation.md) |
-
-| 2659 | [Make Array Empty](../leetcode/2765-make-array-empty/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2765-make-array-empty/Explanation.md) |
-
-| 2736 | [Maximum Sum Queries](../leetcode/2839-maximum-sum-queries/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2839-maximum-sum-queries/Explanation.md) |
 
 | 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Python | O(n) | O(1) | [Explanation](../leetcode/3435-block-placement-queries/Explanation.md) |
 
@@ -795,6 +765,4 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 3691 | [Maximum Total Subarray Value II](../leetcode/4007-maximum-total-subarray-value-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4007-maximum-total-subarray-value-ii/Explanation.md) |
 
 | 3739 | [Count Subarrays With Majority Element II](../leetcode/4075-count-subarrays-with-majority-element-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/4075-count-subarrays-with-majority-element-ii/Explanation.md) |
-
-| 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
 

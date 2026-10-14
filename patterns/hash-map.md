@@ -52,6 +52,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/Explanation.md) |
 
+| 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2154-minimum-moves-to-convert-string/Explanation.md) |
+
 | 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/Explanation.md) |
 
 | 2635 | [Apply Transform Over Each Element in Array](../leetcode/2747-apply-transform-over-each-element-in-array/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2747-apply-transform-over-each-element-in-array/Explanation.md) |
@@ -109,6 +111,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 1345 | [Jump Game IV](../leetcode/1447-jump-game-iv/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1447-jump-game-iv/Explanation.md) |
 
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2744-memoize-ii/Explanation.md) |
+
+| 2659 | [Make Array Empty](../leetcode/2765-make-array-empty/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2765-make-array-empty/Explanation.md) |
 
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Python | O(n) | O(n) | [Explanation](../leetcode/3376-longest-common-suffix-queries/Explanation.md) |
 

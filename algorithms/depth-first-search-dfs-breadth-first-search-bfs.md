@@ -24,12 +24,15 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 112 | [Path Sum](../leetcode/0112-path-sum/) | Easy | Tree & Graph | O(n) | O(n) |
 | 124 | [Binary Tree Maximum Path Sum](../leetcode/0124-binary-tree-maximum-path-sum/) | Hard | Tree & Graph | O(n) | O(n) |
 | 129 | [Sum Root to Leaf Numbers](../leetcode/0129-sum-root-to-leaf-numbers/) | Medium | Tree & Graph | O(n) | O(n) |
+| 133 | [Clone Graph](../leetcode/0133-clone-graph/) | Medium | Tree & Graph | O(n) | O(n) |
 | 144 | [Binary Tree Preorder Traversal](../leetcode/0144-binary-tree-preorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
 | 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
 | 198 | [House Robber](../leetcode/0198-house-robber/) | Medium | Tree & Graph | O(n) | O(n) |
+| 204 | [Count Primes](../leetcode/0204-count-primes/) | Medium | Tree & Graph | O(n) | O(n) |
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Easy | Tree & Graph | O(n) | O(n) |
 | 427 | [Construct Quad Tree](../leetcode/0772-construct-quad-tree/) | Medium | Tree & Graph | O(n) | O(n) |
 | 437 | [Path Sum III](../leetcode/0437-path-sum-iii/) | Medium | Tree & Graph | O(n) | O(n) |
+| 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Easy | Tree & Graph | O(n) | O(n) |
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Medium | Tree & Graph | O(n) | O(n) |
 | 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
 | 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -39,6 +42,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 766 | [Toeplitz Matrix](../leetcode/0777-toeplitz-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 867 | [Transpose Matrix](../leetcode/0898-transpose-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 877 | [Stone Game](../leetcode/0909-stone-game/) | Medium | Tree & Graph | O(n) | O(n) |
+| 918 | [Maximum Sum Circular Subarray](../leetcode/0954-maximum-sum-circular-subarray/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1022 | [Sum of Root To Leaf Binary Numbers](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1030 | [Matrix Cells in Distance Order](../leetcode/1094-matrix-cells-in-distance-order/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1160 | [Find Words That Can Be Formed by Characters](../leetcode/1112-find-words-that-can-be-formed-by-characters/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -53,6 +57,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1496 | [Path Crossing](../leetcode/1619-path-crossing/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1572 | [Matrix Diagonal Sum](../leetcode/1677-matrix-diagonal-sum/) | Easy | Tree & Graph | O(n) | O(n) |
+| 1688 | [Count of Matches in Tournament](../leetcode/1806-count-of-matches-in-tournament/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1710 | [Maximum Units on a Truck](../leetcode/1829-maximum-units-on-a-truck/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](../leetcode/1884-minimum-changes-to-make-alternating-binary-string/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](../leetcode/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -63,10 +68,12 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Easy | Tree & Graph | O(n) | O(n) |
 | 2029 | [Stone Game IX](../leetcode/2156-stone-game-ix/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2161 | [Partition Array According to Given Pivot](../leetcode/2265-partition-array-according-to-given-pivot/) | Medium | Tree & Graph | O(n) | O(n) |
+| 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2492 | [Minimum Score of a Path Between Two Cities](../leetcode/2582-minimum-score-of-a-path-between-two-cities/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2624 | [Snail Traversal](../leetcode/2760-snail-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2667 | [Create Hello World Function](../leetcode/2809-create-hello-world-function/) | Easy | Tree & Graph | O(n) | O(n) |
 | 2685 | [Count the Number of Complete Components](../leetcode/2793-count-the-number-of-complete-components/) | Medium | Tree & Graph | O(n) | O(n) |
+| 2736 | [Maximum Sum Queries](../leetcode/2839-maximum-sum-queries/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2812 | [Find the Safest Path in a Grid](../leetcode/2914-find-the-safest-path-in-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2884 | [Modify Columns](../leetcode/3067-modify-columns/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -86,6 +93,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 3614 | [Process String with Special Operations II](../leetcode/3939-process-string-with-special-operations-ii/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3620 | [Network Recovery Pathways](../leetcode/3919-network-recovery-pathways/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3700 | [Number of ZigZag Arrays II](../leetcode/3964-number-of-zigzag-arrays-ii/) | Hard | Tree & Graph | O(n) | O(n) |
+| 3727 | [Maximum Alternating Sum of Squares](../leetcode/4078-maximum-alternating-sum-of-squares/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3742 | [Maximum Path Score in a Grid](../leetcode/3986-maximum-path-score-in-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3870 | [Count Commas in Range](../leetcode/4245-count-commas-in-range/) | Easy | Tree & Graph | O(n) | O(n) |
 | 3903 | [Smallest Stable Index I](../leetcode/4284-smallest-stable-index-i/) | Easy | Tree & Graph | O(n) | O(n) |

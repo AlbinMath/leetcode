@@ -104,7 +104,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 476 | [Number Complement](../leetcode/0476-number-complement/) | Hash Map | Python | O(n) | O(n) |
 | 482 | [License Key Formatting](../leetcode/0482-license-key-formatting/) | Array / General | JavaScript, Python | O(n) | O(1) |
 | 485 | [Max Consecutive Ones](../leetcode/0485-max-consecutive-ones/) | Array / General | TypeScript | O(n) | O(1) |
-| 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Math & Logic | Python | O(n) | O(1) |
+| 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Tree & Graph | Python | O(n) | O(n) |
 | 495 | [Teemo Attacking](../leetcode/0495-teemo-attacking/) | Array / General | Python | O(n) | O(1) |
 | 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Monotonic Stack | Python | O(n) | O(n) |
 | 500 | [Keyboard Row](../leetcode/0500-keyboard-row/) | Array / General | Python | O(n) | O(1) |
@@ -167,7 +167,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 728 | [Self Dividing Numbers](../leetcode/0728-self-dividing-numbers/) | Array / General | Python | O(n) | O(1) |
 | 733 | [Flood Fill](../leetcode/0733-flood-fill/) | Array / General | Python | O(n) | O(1) |
 | 744 | [Find Smallest Letter Greater Than Target](../leetcode/0745-find-smallest-letter-greater-than-target/) | Prefix Sum | Python | O(n) | O(n) |
-| 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | Array / General | JavaScript, Python | O(n) | O(1) |
+| 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | Stack & Queue | JavaScript, Python | O(n) | O(n) |
 | 747 | [Largest Number At Least Twice of Others](../leetcode/0748-largest-number-at-least-twice-of-others/) | Array / General | Python | O(n) | O(1) |
 | 748 | [Shortest Completing Word](../leetcode/0749-shortest-completing-word/) | Hash Map | Python | O(n) | O(n) |
 | 762 | [Prime Number of Set Bits in Binary Representation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/) | Two Pointers | Python | O(n) | O(1) |
@@ -352,7 +352,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1678 | [Goal Parser Interpretation](../leetcode/1797-goal-parser-interpretation/) | Array / General | C++ | O(n) | O(1) |
 | 1683 | [Invalid Tweets](../leetcode/1827-invalid-tweets/) | Database / SQL | SQL | O(n) | O(n) |
 | 1684 | [Count the Number of Consistent Strings](../leetcode/1786-count-the-number-of-consistent-strings/) | Array / General | C++ | O(n) | O(1) |
-| 1688 | [Count of Matches in Tournament](../leetcode/1806-count-of-matches-in-tournament/) | Array / General | C++ | O(n) | O(1) |
+| 1688 | [Count of Matches in Tournament](../leetcode/1806-count-of-matches-in-tournament/) | Tree & Graph | C++ | O(n) | O(n) |
 | 1693 | [Daily Leads and Partners](../leetcode/1837-daily-leads-and-partners/) | Database / SQL | SQL | O(n) | O(n) |
 | 1694 | [Reformat Phone Number](../leetcode/1812-reformat-phone-number/) | Array / General | C++ | O(n) | O(1) |
 | 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1802-number-of-students-unable-to-eat-lunch/) | Stack & Queue | C++, JavaScript | O(n) | O(n) |
@@ -425,7 +425,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1995 | [Count Special Quadruplets](../leetcode/2122-count-special-quadruplets/) | Array / General | JavaScript | O(n) | O(1) |
 | 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Prefix Sum | JavaScript | O(n) | O(n) |
 | 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | Array / General | JavaScript | O(n) | O(1) |
-| 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | Array / General | JavaScript | O(n) | O(1) |
+| 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | Hash Map | JavaScript | O(n) | O(n) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | Array / General | JavaScript | O(n) | O(1) |
 | 2047 | [Number of Valid Words in a Sentence](../leetcode/2173-number-of-valid-words-in-a-sentence/) | Array / General | JavaScript | O(n) | O(1) |
 | 2053 | [Kth Distinct String in an Array](../leetcode/2163-kth-distinct-string-in-an-array/) | Array / General | JavaScript | O(n) | O(1) |

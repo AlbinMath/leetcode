@@ -34,6 +34,7 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 173 | [Binary Search Tree Iterator](../leetcode/0173-binary-search-tree-iterator/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 199 | [Binary Tree Right Side View](../leetcode/0199-binary-tree-right-side-view/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 209 | [Minimum Size Subarray Sum](../leetcode/0209-minimum-size-subarray-sum/) | Medium | Modified Binary Search | O(n) | O(1) |
+| 212 | [Word Search II](../leetcode/0212-word-search-ii/) | Hard | Modified Binary Search | O(n) | O(1) |
 | 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 230 | [Kth Smallest Element in a BST](../leetcode/0230-kth-smallest-element-in-a-bst/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium | Modified Binary Search | O(n) | O(1) |

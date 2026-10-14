@@ -24,6 +24,8 @@ A collection of LeetCode problems solved using **Heap** pattern techniques, expl
 
 | 435 | [Non-overlapping Intervals](../leetcode/0435-non-overlapping-intervals/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0435-non-overlapping-intervals/Explanation.md) |
 
+| 436 | [Find Right Interval](../leetcode/0436-find-right-interval/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0436-find-right-interval/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |

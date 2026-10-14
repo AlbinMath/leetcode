@@ -16,6 +16,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Python | O(n) | O(n) | [Explanation](../leetcode/0404-sum-of-left-leaves/Explanation.md) |
 
+| 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Python | O(n) | O(n) | [Explanation](../leetcode/0492-construct-the-rectangle/Explanation.md) |
+
 | 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0774-maximum-depth-of-n-ary-tree/Explanation.md) |
 
 | 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0566-reshape-the-matrix/Explanation.md) |
@@ -51,6 +53,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 1496 | [Path Crossing](../leetcode/1619-path-crossing/) | Python | O(n) | O(n) | [Explanation](../leetcode/1619-path-crossing/Explanation.md) |
 
 | 1572 | [Matrix Diagonal Sum](../leetcode/1677-matrix-diagonal-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/1677-matrix-diagonal-sum/Explanation.md) |
+
+| 1688 | [Count of Matches in Tournament](../leetcode/1806-count-of-matches-in-tournament/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1806-count-of-matches-in-tournament/Explanation.md) |
 
 | 1710 | [Maximum Units on a Truck](../leetcode/1829-maximum-units-on-a-truck/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1829-maximum-units-on-a-truck/Explanation.md) |
 
@@ -112,7 +116,11 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 129 | [Sum Root to Leaf Numbers](../leetcode/0129-sum-root-to-leaf-numbers/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0129-sum-root-to-leaf-numbers/Explanation.md) |
 
+| 133 | [Clone Graph](../leetcode/0133-clone-graph/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0133-clone-graph/Explanation.md) |
+
 | 198 | [House Robber](../leetcode/0198-house-robber/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0198-house-robber/Explanation.md) |
+
+| 204 | [Count Primes](../leetcode/0204-count-primes/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0204-count-primes/Explanation.md) |
 
 | 427 | [Construct Quad Tree](../leetcode/0772-construct-quad-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0772-construct-quad-tree/Explanation.md) |
 
@@ -121,6 +129,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Python | O(n) | O(n) | [Explanation](../leetcode/1182-game-play-analysis-iv/Explanation.md) |
 
 | 877 | [Stone Game](../leetcode/0909-stone-game/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0909-stone-game/Explanation.md) |
+
+| 918 | [Maximum Sum Circular Subarray](../leetcode/0954-maximum-sum-circular-subarray/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0954-maximum-sum-circular-subarray/Explanation.md) |
 
 | 1306 | [Jump Game III](../leetcode/1428-jump-game-iii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1428-jump-game-iii/Explanation.md) |
 
@@ -156,6 +166,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 3612 | [Process String with Special Operations I](../leetcode/3931-process-string-with-special-operations-i/) | Java | O(n) | O(n) | [Explanation](../leetcode/3931-process-string-with-special-operations-i/Explanation.md) |
 
+| 3727 | [Maximum Alternating Sum of Squares](../leetcode/4078-maximum-alternating-sum-of-squares/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/4078-maximum-alternating-sum-of-squares/Explanation.md) |
+
 | 3742 | [Maximum Path Score in a Grid](../leetcode/3986-maximum-path-score-in-a-grid/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3986-maximum-path-score-in-a-grid/Explanation.md) |
 
 ### Hard
@@ -167,6 +179,10 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 124 | [Binary Tree Maximum Path Sum](../leetcode/0124-binary-tree-maximum-path-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0124-binary-tree-maximum-path-sum/Explanation.md) |
 
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Python | O(n) | O(n) | [Explanation](../leetcode/1968-maximum-building-height/Explanation.md) |
+
+| 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2280-count-good-triplets-in-an-array/Explanation.md) |
+
+| 2736 | [Maximum Sum Queries](../leetcode/2839-maximum-sum-queries/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2839-maximum-sum-queries/Explanation.md) |
 
 | 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3112-count-valid-paths-in-a-tree/Explanation.md) |
 

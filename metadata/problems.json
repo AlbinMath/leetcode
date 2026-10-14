@@ -3035,12 +3035,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -3442,14 +3443,17 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given a reference of a node in a   connected   undirected graph.",
     "related_ids": [
       1379,
@@ -3573,12 +3577,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -3739,12 +3744,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -4830,14 +4836,17 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given an integer  n , return  the number of prime numbers that are strictly less than   n .",
     "related_ids": [
       38,
@@ -5047,11 +5056,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Array"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -5232,12 +5243,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -6744,14 +6756,15 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
     "topics": [
-      "Array"
+      "Stack",
+      "String Parsing"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an array of people,  people , which are the attributes of some people in a queue (not necessarily in order). Each  people[i] = [h i , k i ]  represents the  i th   person of height  h i   with  exactly   k i   other people in front who have a height greater than or equal to  h i  .",
     "related_ids": [
       232,
@@ -6905,11 +6918,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Sliding Window",
+    "algorithm": "Dynamic Sliding Window Traversal",
+    "data_structure": "Array / Hash Set",
     "topics": [
-      "Array"
+      "Sliding Window",
+      "Two Pointers",
+      "Subarrays"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -6985,15 +7000,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Strategy",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Min/Max Heap Priority Selection",
+    "data_structure": "Heap / Priority Queue",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an array of  intervals , where  intervals[i] = [start i , end i ]  and each  start i   is  unique .",
     "related_ids": [
       28,
@@ -7388,15 +7404,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Math & Logic",
-    "algorithm": "Mathematical Simulation & Modular Arithmetic",
-    "data_structure": "Primitive Types",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Math",
-      "Simulation"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "A web developer needs to know how to design a web page&#39;s size. So, given a specific rectangular web page&rsquo;s area, your job by now is to design a rectangular web page, whose length L and width W satisfy the following requirements:",
     "related_ids": [
       84,
@@ -9739,14 +9757,15 @@
       "Python"
     ],
     "lang_str": "JavaScript, Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
     "topics": [
-      "Array"
+      "Stack",
+      "String Parsing"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer array  cost  where  cost[i]  is the cost of  i th   step on a staircase.",
     "related_ids": [
       70,
@@ -10949,14 +10968,17 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given a  circular integer array   nums  of length  n , return  the maximum possible sum of a non-empty  subarray  of   nums .",
     "related_ids": [
       1800,
@@ -16838,14 +16860,17 @@
       "C++"
     ],
     "lang_str": "C++",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer  n , the number of teams in a tournament that has strange rules:",
     "related_ids": [
       38,
@@ -19158,14 +19183,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a string  s  consisting of  n  characters which are either  &#39;X&#39;  or  &#39;O&#39; .",
     "related_ids": [
       1541,
@@ -19669,14 +19696,17 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given two  0-indexed  arrays  nums1  and  nums2  of length  n , both of which are  permutations  of  [0, 1, ..., n - 1] .",
     "related_ids": [
       1448,
@@ -20315,11 +20345,12 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
     "topics": [
-      "Array"
+      "Bit Manipulation",
+      "Bitwise Math"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -21010,14 +21041,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer array  nums  containing  distinct  numbers, and you can perform the following operations  until the array is empty :",
     "related_ids": [
       1674,
@@ -21521,14 +21554,17 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given two  0-indexed  integer arrays  nums1  and  nums2 , each of length  n , and a  1-indexed 2D array   queries  where  queries[i] = [x i , y i ] .",
     "related_ids": [
       124,
@@ -24342,14 +24378,17 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer array  nums . You may  rearrange the elements  in any order.",
     "related_ids": [
       124,
@@ -24504,11 +24543,12 @@
       "Java"
     ],
     "lang_str": "Java",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
     "topics": [
-      "Array"
+      "Bit Manipulation",
+      "Bitwise Math"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -24530,11 +24570,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
     "topics": [
-      "Array"
+      "Bit Manipulation",
+      "Bitwise Math"
     ],
     "time": "O(n)",
     "space": "O(1)",

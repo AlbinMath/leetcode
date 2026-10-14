@@ -18,6 +18,8 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 |---|---|---|---|---|---|
 | 3 | [Longest Substring Without Repeating Characters](../leetcode/0003-longest-substring-without-repeating-characters/) | Python | O(n) | O(1) | [Explanation](../leetcode/0003-longest-substring-without-repeating-characters/Explanation.md) |
 
+| 433 | [Minimum Genetic Mutation](../leetcode/0433-minimum-genetic-mutation/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0433-minimum-genetic-mutation/Explanation.md) |
+
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/Explanation.md) |
 
 | 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/Explanation.md) |

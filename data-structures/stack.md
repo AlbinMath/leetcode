@@ -16,10 +16,12 @@ LeetCode problems solved using **Stack** data structures.
 | 155 | [Min Stack](../leetcode/0155-min-stack/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 399 | [Evaluate Division](../leetcode/0399-evaluate-division/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
+| 406 | [Queue Reconstruction by Height](../leetcode/0406-queue-reconstruction-by-height/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
+| 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 856 | [Score of Parentheses](../leetcode/0886-score-of-parentheses/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 896 | [Monotonic Array](../leetcode/0932-monotonic-array/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0957-minimum-add-to-make-parentheses-valid/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |

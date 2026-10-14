@@ -14,7 +14,6 @@ LeetCode problems solved using **Primitive Types** data structures.
 | 189 | [Rotate Array](../leetcode/0189-rotate-array/) | Medium | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 258 | [Add Digits](../leetcode/0258-add-digits/) | Easy | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 289 | [Game of Life](../leetcode/0289-game-of-life/) | Medium | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
-| 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Easy | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 611 | [Valid Triangle Number](../leetcode/0611-valid-triangle-number/) | Medium | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 796 | [Rotate String](../leetcode/0812-rotate-string/) | Easy | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 812 | [Largest Triangle Area](../leetcode/0830-largest-triangle-area/) | Easy | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |

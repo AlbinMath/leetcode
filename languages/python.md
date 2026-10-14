@@ -94,7 +94,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 463 | [Island Perimeter](../leetcode/0463-island-perimeter/) | Easy | Array / General | O(n) | O(1) |
 | 476 | [Number Complement](../leetcode/0476-number-complement/) | Easy | Hash Map | O(n) | O(n) |
 | 482 | [License Key Formatting](../leetcode/0482-license-key-formatting/) | Easy | Array / General | O(n) | O(1) |
-| 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Easy | Math & Logic | O(n) | O(1) |
+| 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Easy | Tree & Graph | O(n) | O(n) |
 | 495 | [Teemo Attacking](../leetcode/0495-teemo-attacking/) | Easy | Array / General | O(n) | O(1) |
 | 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Easy | Monotonic Stack | O(n) | O(n) |
 | 500 | [Keyboard Row](../leetcode/0500-keyboard-row/) | Easy | Array / General | O(n) | O(1) |
@@ -149,7 +149,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 728 | [Self Dividing Numbers](../leetcode/0728-self-dividing-numbers/) | Easy | Array / General | O(n) | O(1) |
 | 733 | [Flood Fill](../leetcode/0733-flood-fill/) | Easy | Array / General | O(n) | O(1) |
 | 744 | [Find Smallest Letter Greater Than Target](../leetcode/0745-find-smallest-letter-greater-than-target/) | Easy | Prefix Sum | O(n) | O(n) |
-| 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | Easy | Array / General | O(n) | O(1) |
+| 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | Easy | Stack & Queue | O(n) | O(n) |
 | 747 | [Largest Number At Least Twice of Others](../leetcode/0748-largest-number-at-least-twice-of-others/) | Easy | Array / General | O(n) | O(1) |
 | 748 | [Shortest Completing Word](../leetcode/0749-shortest-completing-word/) | Easy | Hash Map | O(n) | O(n) |
 | 762 | [Prime Number of Set Bits in Binary Representation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/) | Easy | Two Pointers | O(n) | O(1) |
@@ -322,4 +322,4 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 3691 | [Maximum Total Subarray Value II](../leetcode/4007-maximum-total-subarray-value-ii/) | Hard | Array / General | O(n) | O(1) |
 | 3705 | [Find Golden Hour Customers](../leetcode/4091-find-golden-hour-customers/) | Medium | Array / General | O(n) | O(1) |
 | 3716 | [Find Churn Risk Customers](../leetcode/4103-find-churn-risk-customers/) | Medium | Array / General | O(n) | O(1) |
-| 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | Array / General | O(n) | O(1) |
+| 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | Bit Manipulation | O(n) | O(1) |

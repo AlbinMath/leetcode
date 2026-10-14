@@ -162,6 +162,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/Explanation.md) |
 
+| 212 | [Word Search II](../leetcode/0212-word-search-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0212-word-search-ii/Explanation.md) |
+
 | 1665 | [Minimum Initial Energy to Finish Tasks](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/1784-minimum-initial-energy-to-finish-tasks/Explanation.md) |
 
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Java | O(n) | O(1) | [Explanation](../leetcode/2319-longest-substring-of-one-repeating-character/Explanation.md) |

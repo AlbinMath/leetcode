@@ -12,6 +12,8 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 
 | 28 | [Find the Index of the First Occurrence in a String](../leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string/Explanation.md) |
 
+| 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0747-min-cost-climbing-stairs/Explanation.md) |
+
 | 1021 | [Remove Outermost Parentheses](../leetcode/1078-remove-outermost-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/1078-remove-outermost-parentheses/Explanation.md) |
 
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Java | O(n) | O(n) | [Explanation](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/Explanation.md) |
@@ -33,6 +35,8 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 | 155 | [Min Stack](../leetcode/0155-min-stack/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0155-min-stack/Explanation.md) |
 
 | 399 | [Evaluate Division](../leetcode/0399-evaluate-division/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0399-evaluate-division/Explanation.md) |
+
+| 406 | [Queue Reconstruction by Height](../leetcode/0406-queue-reconstruction-by-height/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0406-queue-reconstruction-by-height/Explanation.md) |
 
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/0636-exclusive-time-of-functions/Explanation.md) |
 

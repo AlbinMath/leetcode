@@ -39,10 +39,12 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 1807 | [Evaluate the Bracket Pairs of a String](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/) | Medium | Hash Map | O(n) | O(n) |
 | 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1938-minimum-operations-to-make-the-array-increasing/) | Easy | Hash Map | O(n) | O(n) |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/) | Easy | Hash Map | O(n) | O(n) |
+| 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | Easy | Hash Map | O(n) | O(n) |
 | 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/) | Easy | Hash Map | O(n) | O(n) |
 | 2622 | [Cache With Time Limit](../leetcode/2762-cache-with-time-limit/) | Medium | Hash Map | O(n) | O(n) |
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | Hard | Hash Map | O(n) | O(n) |
 | 2635 | [Apply Transform Over Each Element in Array](../leetcode/2747-apply-transform-over-each-element-in-array/) | Easy | Hash Map | O(n) | O(n) |
+| 2659 | [Make Array Empty](../leetcode/2765-make-array-empty/) | Hard | Hash Map | O(n) | O(n) |
 | 2703 | [Return Length of Arguments Passed](../leetcode/2820-return-length-of-arguments-passed/) | Easy | Hash Map | O(n) | O(n) |
 | 2722 | [Join Two Arrays by ID](../leetcode/2858-join-two-arrays-by-id/) | Medium | Hash Map | O(n) | O(n) |
 | 2726 | [Calculator with Method Chaining](../leetcode/2863-calculator-with-method-chaining/) | Easy | Hash Map | O(n) | O(n) |

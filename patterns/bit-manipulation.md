@@ -76,6 +76,10 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2413-smallest-number-in-infinite-set/Explanation.md) |
 
+| 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2610-closest-prime-numbers-in-range/Explanation.md) |
+
+| 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/4057-total-waviness-of-numbers-in-range-i/Explanation.md) |
+
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Java | O(n) | O(1) | [Explanation](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/Explanation.md) |
 
 ### Hard
@@ -87,4 +91,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 327 | [Count of Range Sum](../leetcode/0327-count-of-range-sum/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0327-count-of-range-sum/Explanation.md) |
 
 | 502 | [IPO](../leetcode/0502-ipo/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0502-ipo/Explanation.md) |
+
+| 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
 

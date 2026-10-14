@@ -31,7 +31,7 @@ This repository contains solved LeetCode problems with explanations, complexity 
 | 3764 | [Most Common Course Pairs](leetcode/4169-most-common-course-pairs/) | Hard | [Database / SQL](patterns/sql-database.md) | SQL | [Explanation](leetcode/4169-most-common-course-pairs/Explanation.md) |
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | [Bit Manipulation](patterns/bit-manipulation.md) | Java | [Explanation](leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/Explanation.md) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | [Bit Manipulation](patterns/bit-manipulation.md) | Kotlin | [Explanation](leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/Explanation.md) |
-| 3753 | [Total Waviness of Numbers in Range II](leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
+| 3753 | [Total Waviness of Numbers in Range II](leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | [Bit Manipulation](patterns/bit-manipulation.md) | Python | [Explanation](leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
 
 ---
 
