@@ -26,30 +26,57 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 85 | [Maximal Rectangle](../leetcode/0085-maximal-rectangle/) | Math & Logic | Python | O(n) | O(1) |
 | 87 | [Scramble String](../leetcode/0087-scramble-string/) | Array / General | JavaScript | O(n) | O(1) |
 | 115 | [Distinct Subsequences](../leetcode/0115-distinct-subsequences/) | Dynamic Programming | JavaScript | O(n) | O(n) |
+| 123 | [Best Time to Buy and Sell Stock III](../leetcode/0123-best-time-to-buy-and-sell-stock-iii/) | Array / General | JavaScript | O(n) | O(1) |
+| 124 | [Binary Tree Maximum Path Sum](../leetcode/0124-binary-tree-maximum-path-sum/) | Tree & Graph | JavaScript | O(n) | O(n) |
+| 127 | [Word Ladder](../leetcode/0127-word-ladder/) | Hash Map | JavaScript | O(n) | O(n) |
+| 135 | [Candy](../leetcode/0135-candy/) | Array / General | JavaScript | O(n) | O(1) |
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | Binary Search | C++ | O(n) | O(1) |
 | 185 | [Department Top Three Salaries](../leetcode/0185-department-top-three-salaries/) | Database / SQL | SQL | O(n) | O(n) |
+| 188 | [Best Time to Buy and Sell Stock IV](../leetcode/0188-best-time-to-buy-and-sell-stock-iv/) | Array / General | JavaScript | O(n) | O(1) |
+| 212 | [Word Search II](../leetcode/0212-word-search-ii/) | Array / General | JavaScript | O(n) | O(1) |
+| 218 | [The Skyline Problem](../leetcode/0218-the-skyline-problem/) | Dynamic Programming | JavaScript | O(n) | O(n) |
+| 224 | [Basic Calculator](../leetcode/0224-basic-calculator/) | Bit Manipulation | JavaScript | O(n) | O(1) |
 | 262 | [Trips and Users](../leetcode/0262-trips-and-users/) | Database / SQL | SQL | O(n) | O(n) |
+| 295 | [Find Median from Data Stream](../leetcode/0295-find-median-from-data-stream/) | Array / General | JavaScript | O(n) | O(1) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Stack & Queue | Python | O(n) | O(n) |
+| 315 | [Count of Smaller Numbers After Self](../leetcode/0315-count-of-smaller-numbers-after-self/) | Array / General | JavaScript | O(n) | O(1) |
+| 327 | [Count of Range Sum](../leetcode/0327-count-of-range-sum/) | Bit Manipulation | JavaScript | O(n) | O(1) |
+| 354 | [Russian Doll Envelopes](../leetcode/0354-russian-doll-envelopes/) | Array / General | JavaScript | O(n) | O(1) |
+| 493 | [Reverse Pairs](../leetcode/0493-reverse-pairs/) | Array / General | JavaScript | O(n) | O(1) |
+| 502 | [IPO](../leetcode/0502-ipo/) | Bit Manipulation | JavaScript | O(n) | O(1) |
 | 601 | [Human Traffic of Stadium](../leetcode/0601-human-traffic-of-stadium/) | Database / SQL | SQL | O(n) | O(n) |
 | 940 | [Distinct Subsequences II](../leetcode/0977-distinct-subsequences-ii/) | Dynamic Programming | JavaScript | O(n) | O(n) |
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | Array / General | JavaScript | O(n) | O(1) |
+| 1157 | [Online Majority Element In Subarray](../leetcode/1262-online-majority-element-in-subarray/) | Array / General | JavaScript | O(n) | O(1) |
 | 1301 | [Number of Paths with Max Score](../leetcode/1234-number-of-paths-with-max-score/) | Dynamic Programming | PHP | O(n) | O(n) |
 | 1340 | [Jump Game V](../leetcode/1466-jump-game-v/) | Dynamic Programming | C++ | O(n) | O(n) |
 | 1345 | [Jump Game IV](../leetcode/1447-jump-game-iv/) | Hash Map | C++ | O(n) | O(n) |
 | 1354 | [Construct Target Array With Multiple Sums](../leetcode/1479-construct-target-array-with-multiple-sums/) | Array / General | JavaScript | O(n) | O(1) |
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | Dynamic Programming | PHP | O(n) | O(n) |
+| 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | Math & Logic | JavaScript | O(n) | O(1) |
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | Dynamic Programming | TypeScript | O(n) | O(n) |
 | 1520 | [Maximum Number of Non-Overlapping Substrings](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | Heap | JavaScript | O(n) | O(n) |
 | 1563 | [Stone Game V](../leetcode/1685-stone-game-v/) | Prefix Sum | Java | O(n) | O(n) |
+| 1649 | [Create Sorted Array through Instructions](../leetcode/1772-create-sorted-array-through-instructions/) | Array / General | JavaScript | O(n) | O(1) |
 | 1665 | [Minimum Initial Energy to Finish Tasks](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | Binary Search | C++ | O(log n) | O(1) |
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Tree & Graph | Python | O(n) | O(n) |
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Prefix Sum | Java | O(n) | O(n) |
+| 1964 | [Find the Longest Valid Obstacle Course at Each Position](../leetcode/2096-find-the-longest-valid-obstacle-course-at-each-position/) | Array / General | JavaScript | O(n) | O(1) |
+| 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | Array / General | JavaScript | O(n) | O(1) |
+| 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | Two Pointers | JavaScript | O(n) | O(1) |
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Binary Search | Java | O(n) | O(1) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/) | Stack & Queue | C++ | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | Stack & Queue | C++ | O(n) | O(n) |
+| 2286 | [Booking Concert Tickets in Groups](../leetcode/2380-booking-concert-tickets-in-groups/) | Array / General | JavaScript | O(n) | O(1) |
+| 2407 | [Longest Increasing Subsequence II](../leetcode/2526-longest-increasing-subsequence-ii/) | Dynamic Programming | JavaScript | O(n) | O(n) |
+| 2426 | [Number of Pairs Satisfying Inequality](../leetcode/2513-number-of-pairs-satisfying-inequality/) | Array / General | JavaScript | O(n) | O(1) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | Two Pointers | JavaScript | O(n) | O(1) |
+| 2552 | [Count Increasing Quadruplets](../leetcode/2682-count-increasing-quadruplets/) | Array / General | Python | O(n) | O(1) |
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | Hash Map | TypeScript | O(n) | O(n) |
 | 2650 | [Design Cancellable Function](../leetcode/2788-design-cancellable-function/) | Array / General | TypeScript | O(n) | O(1) |
+| 2659 | [Make Array Empty](../leetcode/2765-make-array-empty/) | Array / General | JavaScript | O(n) | O(1) |
+| 2736 | [Maximum Sum Queries](../leetcode/2839-maximum-sum-queries/) | Array / General | JavaScript | O(n) | O(1) |
+| 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Stack & Queue | JavaScript | O(n) | O(n) |
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Hash Map | Python | O(n) | O(n) |
 | 3116 | [Kth Smallest Amount With Single Denomination Combination](../leetcode/3375-kth-smallest-amount-with-single-denomination-combination/) | Backtracking | Java | O(n) | O(1) |

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1395. Count Number of Teams](../1511-count-number-of-teams/)
 - [1967. Number of Strings That Appear as Substrings in Word](../2099-number-of-strings-that-appear-as-substrings-in-word/)
-- [2685. Count the Number of Complete Components](../2793-count-the-number-of-complete-components/)
-- [3120. Count the Number of Special Characters I](../3408-count-the-number-of-special-characters-i/)
+- [2250. Count Number of Rectangles Containing Each Point](../2333-count-number-of-rectangles-containing-each-point/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-consistent-strings/)

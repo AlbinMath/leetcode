@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [22. Generate Parentheses](../0022-generate-parentheses/)
 - [60. Permutation Sequence](../0060-permutation-sequence/)
-- [509. Fibonacci Number](../1013-fibonacci-number/)
+- [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/)

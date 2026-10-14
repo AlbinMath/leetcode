@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
 - [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
-- [2333. Minimum Sum of Squared Difference](../2418-minimum-sum-of-squared-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)

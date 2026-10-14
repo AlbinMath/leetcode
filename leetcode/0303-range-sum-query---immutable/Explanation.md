@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [653. Two Sum Iv   Input Is A Bst](../0653-two-sum-iv---input-is-a-bst/)
-- [938. Range Sum of BST](../0975-range-sum-of-bst/)
-- [1. Two Sum](../0001-two-sum/)
+- [307. Range Sum Query   Mutable](../0307-range-sum-query---mutable/)
+- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
+- [327. Count of Range Sum](../0327-count-of-range-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-sum-query---immutable/)

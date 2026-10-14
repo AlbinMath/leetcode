@@ -67,7 +67,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
 - [96. Unique Binary Search Trees](../0096-unique-binary-search-trees/)
-- [617. Merge Two Binary Trees](../0617-merge-two-binary-trees/)
+- [129. Sum Root to Leaf Numbers](../0129-sum-root-to-leaf-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/leaf-similar-trees/)

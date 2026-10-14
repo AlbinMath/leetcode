@@ -19,6 +19,7 @@ A curated selection of LeetCode problems solved using the **Prefix Sum Precomput
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Hard | Prefix Sum | O(n) | O(n) |
 | 1961 | [Check If String Is a Prefix of Array](../leetcode/2093-check-if-string-is-a-prefix-of-array/) | Easy | Prefix Sum | O(n) | O(n) |
 | 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Easy | Prefix Sum | O(n) | O(n) |
+| 2424 | [Longest Uploaded Prefix](../leetcode/2512-longest-uploaded-prefix/) | Medium | Prefix Sum | O(n) | O(n) |
 | 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Easy | Prefix Sum | O(n) | O(n) |
 | 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/) | Medium | Prefix Sum | O(n) | O(n) |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | Prefix Sum | O(n) | O(n) |

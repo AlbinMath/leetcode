@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
 - [1741. Find Total Time Spent by Each Employee](../1892-find-total-time-spent-by-each-employee/)
-- [184. Department Highest Salary](../0184-department-highest-salary/)
+- [117. Populating Next Right Pointers in Each Node II](../0117-populating-next-right-pointers-in-each-node-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/primary-department-for-each-employee/)

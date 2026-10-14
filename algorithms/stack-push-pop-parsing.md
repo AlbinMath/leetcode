@@ -10,7 +10,9 @@ A curated selection of LeetCode problems solved using the **Stack Push / Pop Par
 | 22 | [Generate Parentheses](../leetcode/0022-generate-parentheses/) | Medium | Stack & Queue | O(n) | O(n) |
 | 28 | [Find the Index of the First Occurrence in a String](../leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Stack & Queue | O(n) | O(n) |
 | 32 | [Longest Valid Parentheses](../leetcode/0032-longest-valid-parentheses/) | Hard | Stack & Queue | O(n) | O(n) |
+| 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | Medium | Stack & Queue | O(n) | O(n) |
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0150-evaluate-reverse-polish-notation/) | Medium | Stack & Queue | O(n) | O(n) |
+| 155 | [Min Stack](../leetcode/0155-min-stack/) | Medium | Stack & Queue | O(n) | O(n) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Hard | Stack & Queue | O(n) | O(n) |
 | 399 | [Evaluate Division](../leetcode/0399-evaluate-division/) | Medium | Stack & Queue | O(n) | O(n) |
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | Medium | Stack & Queue | O(n) | O(n) |

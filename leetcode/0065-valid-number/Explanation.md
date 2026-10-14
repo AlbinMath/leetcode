@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [611. Valid Triangle Number](../0611-valid-triangle-number/)
+- [2047. Number of Valid Words in a Sentence](../2173-number-of-valid-words-in-a-sentence/)
 - [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [20. Valid Parentheses](../0020-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-number/)

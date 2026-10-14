@@ -65,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
 - [58. Length of Last Word](../0058-length-of-last-word/)
-- [877. Stone Game](../0909-stone-game/)
+- [528. Random Pick with Weight](../0912-random-pick-with-weight/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-stone-weight/)

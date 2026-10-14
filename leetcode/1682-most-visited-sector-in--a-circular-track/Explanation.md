@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [11. Container With Most Water](../0011-container-with-most-water/)
+- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 - [303. Range Sum Query   Immutable](../0303-range-sum-query---immutable/)
-- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-visited-sector-in--a-circular-track/)

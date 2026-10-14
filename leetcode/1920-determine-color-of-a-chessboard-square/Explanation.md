@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [221. Maximal Square](../0221-maximal-square/)
 - [367. Valid Perfect Square](../0367-valid-perfect-square/)
 - [1657. Determine if Two Strings Are Close](../1777-determine-if-two-strings-are-close/)
-- [1704. Determine if String Halves Are Alike](../1823-determine-if-string-halves-are-alike/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)

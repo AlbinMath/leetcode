@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
 - [705. Design HashSet](../0816-design-hashset/)
 - [1603. Design Parking System](../1708-design-parking-system/)
-- [1656. Design an Ordered Stream](../1775-design-an-ordered-stream/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-hashmap/)

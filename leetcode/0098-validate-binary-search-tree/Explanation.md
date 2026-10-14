@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [99. Recover Binary Search Tree](../0099-recover-binary-search-tree/)
 - [108. Convert Sorted Array to Binary Search Tree](../0108-convert-sorted-array-to-binary-search-tree/)
-- [501. Find Mode in Binary Search Tree](../0501-find-mode-in-binary-search-tree/)
+- [173. Binary Search Tree Iterator](../0173-binary-search-tree-iterator/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/validate-binary-search-tree/)

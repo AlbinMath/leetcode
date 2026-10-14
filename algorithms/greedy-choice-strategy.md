@@ -6,4 +6,4 @@ A curated selection of LeetCode problems solved using the **Greedy Choice Strate
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 435 | [Non-overlapping Intervals](../leetcode/0435-non-overlapping-intervals/) | Medium | Greedy | O(n) | O(1) |
+| 436 | [Find Right Interval](../leetcode/0436-find-right-interval/) | Medium | Greedy | O(n) | O(1) |

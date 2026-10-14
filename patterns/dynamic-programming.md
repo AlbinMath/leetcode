@@ -30,9 +30,13 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | 486 | [Predict the Winner](../leetcode/0486-predict-the-winner/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0486-predict-the-winner/Explanation.md) |
 
+| 673 | [Number of Longest Increasing Subsequence](../leetcode/0673-number-of-longest-increasing-subsequence/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0673-number-of-longest-increasing-subsequence/Explanation.md) |
+
 | 1140 | [Stone Game II](../leetcode/1240-stone-game-ii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1240-stone-game-ii/Explanation.md) |
 
 | 1143 | [Longest Common Subsequence](../leetcode/1250-longest-common-subsequence/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1250-longest-common-subsequence/Explanation.md) |
+
+| 1498 | [Number of Subsequences That Satisfy the Given Sum Condition](../leetcode/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/Explanation.md) |
 
 | 2542 | [Maximum Subsequence Score](../leetcode/2636-maximum-subsequence-score/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2636-maximum-subsequence-score/Explanation.md) |
 
@@ -48,6 +52,8 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | 115 | [Distinct Subsequences](../leetcode/0115-distinct-subsequences/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0115-distinct-subsequences/Explanation.md) |
 
+| 218 | [The Skyline Problem](../leetcode/0218-the-skyline-problem/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0218-the-skyline-problem/Explanation.md) |
+
 | 940 | [Distinct Subsequences II](../leetcode/0977-distinct-subsequences-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0977-distinct-subsequences-ii/Explanation.md) |
 
 | 1301 | [Number of Paths with Max Score](../leetcode/1234-number-of-paths-with-max-score/) | PHP | O(n) | O(n) | [Explanation](../leetcode/1234-number-of-paths-with-max-score/Explanation.md) |
@@ -57,6 +63,8 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/1522-stone-game-iii/Explanation.md) |
 
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1617-stone-game-iv/Explanation.md) |
+
+| 2407 | [Longest Increasing Subsequence II](../leetcode/2526-longest-increasing-subsequence-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2526-longest-increasing-subsequence-ii/Explanation.md) |
 
 | 3312 | [Sorted GCD Pair Queries](../leetcode/3583-sorted-gcd-pair-queries/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3583-sorted-gcd-pair-queries/Explanation.md) |
 

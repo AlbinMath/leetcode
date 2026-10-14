@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [396. Rotate Function](../0396-rotate-function/)
 - [1389. Create Target Array in the Given Order](../1505-create-target-array-in-the-given-order/)
-- [2196. Create Binary Tree From Descriptions](../2306-create-binary-tree-from-descriptions/)
+- [1649. Create Sorted Array through Instructions](../1772-create-sorted-array-through-instructions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-hello-world-function/)

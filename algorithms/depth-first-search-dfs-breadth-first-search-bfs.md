@@ -17,11 +17,18 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 71 | [Simplify Path](../leetcode/0071-simplify-path/) | Medium | Tree & Graph | O(n) | O(n) |
 | 73 | [Set Matrix Zeroes](../leetcode/0073-set-matrix-zeroes/) | Medium | Tree & Graph | O(n) | O(n) |
 | 74 | [Search a 2D Matrix](../leetcode/0074-search-a-2d-matrix/) | Medium | Tree & Graph | O(n) | O(n) |
+| 102 | [Binary Tree Level Order Traversal](../leetcode/0102-binary-tree-level-order-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
+| 103 | [Binary Tree Zigzag Level Order Traversal](../leetcode/0103-binary-tree-zigzag-level-order-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](../leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
 | 112 | [Path Sum](../leetcode/0112-path-sum/) | Easy | Tree & Graph | O(n) | O(n) |
+| 124 | [Binary Tree Maximum Path Sum](../leetcode/0124-binary-tree-maximum-path-sum/) | Hard | Tree & Graph | O(n) | O(n) |
+| 129 | [Sum Root to Leaf Numbers](../leetcode/0129-sum-root-to-leaf-numbers/) | Medium | Tree & Graph | O(n) | O(n) |
 | 144 | [Binary Tree Preorder Traversal](../leetcode/0144-binary-tree-preorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
 | 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
 | 198 | [House Robber](../leetcode/0198-house-robber/) | Medium | Tree & Graph | O(n) | O(n) |
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Easy | Tree & Graph | O(n) | O(n) |
+| 427 | [Construct Quad Tree](../leetcode/0772-construct-quad-tree/) | Medium | Tree & Graph | O(n) | O(n) |
 | 437 | [Path Sum III](../leetcode/0437-path-sum-iii/) | Medium | Tree & Graph | O(n) | O(n) |
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Medium | Tree & Graph | O(n) | O(n) |
 | 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -61,6 +68,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 2667 | [Create Hello World Function](../leetcode/2809-create-hello-world-function/) | Easy | Tree & Graph | O(n) | O(n) |
 | 2685 | [Count the Number of Complete Components](../leetcode/2793-count-the-number-of-complete-components/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2812 | [Find the Safest Path in a Grid](../leetcode/2914-find-the-safest-path-in-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |
+| 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2884 | [Modify Columns](../leetcode/3067-modify-columns/) | Easy | Tree & Graph | O(n) | O(n) |
 | 2885 | [Rename Columns](../leetcode/3068-rename-columns/) | Easy | Tree & Graph | O(n) | O(n) |
 | 2889 | [Reshape Data: Pivot](../leetcode/3072-reshape-data-pivot/) | Easy | Tree & Graph | O(n) | O(n) |

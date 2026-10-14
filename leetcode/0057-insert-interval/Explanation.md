@@ -65,8 +65,8 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 
 ## Related Problems
 - [35. Search Insert Position](../0035-search-insert-position/)
-- [1523. Count Odd Numbers in an Interval Range](../1630-count-odd-numbers-in-an-interval-range/)
-- [2725. Interval Cancellation](../2862-interval-cancellation/)
+- [380. Insert Delete GetRandom O(1)](../0380-insert-delete-getrandom-o1/)
+- [436. Find Right Interval](../0436-find-right-interval/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/insert-interval/)

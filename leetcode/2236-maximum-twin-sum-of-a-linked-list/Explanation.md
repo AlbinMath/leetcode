@@ -65,8 +65,8 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 
 ## Related Problems
 - [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
-- [141. Linked List Cycle](../0141-linked-list-cycle/)
-- [203. Remove Linked List Elements](../0203-remove-linked-list-elements/)
+- [114. Flatten Binary Tree to Linked List](../0114-flatten-binary-tree-to-linked-list/)
+- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)

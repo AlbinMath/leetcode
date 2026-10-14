@@ -67,9 +67,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 - [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
 - [653. Two Sum Iv   Input Is A Bst](../0653-two-sum-iv---input-is-a-bst/)
-- [1317. Convert Integer to the Sum of Two No-Zero Integers](../1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-sum/)

@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1437. Check If All 1's Are at Least Length K Places Away](../1548-check-if-all-1s-are-at-least-length-k-places-away/)
 - [1493. Longest Subarray of 1's After Deleting One Element](../1586-longest-subarray-of-1s-after-deleting-one-element/)
-- [1566. Detect Pattern of Length M Repeated K or More Times](../1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
+- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/)

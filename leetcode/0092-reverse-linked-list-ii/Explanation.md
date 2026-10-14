@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [206. Reverse Linked List](../0206-reverse-linked-list/)
 - [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
-- [141. Linked List Cycle](../0141-linked-list-cycle/)
+- [114. Flatten Binary Tree to Linked List](../0114-flatten-binary-tree-to-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/)

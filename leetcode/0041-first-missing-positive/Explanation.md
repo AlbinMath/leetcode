@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1539. Kth Missing Positive Number](../1646-kth-missing-positive-number/)
 - [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [268. Missing Number](../0268-missing-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-missing-positive/)

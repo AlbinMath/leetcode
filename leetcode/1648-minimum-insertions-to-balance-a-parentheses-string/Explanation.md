@@ -65,7 +65,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [921. Minimum Add to Make Parentheses Valid](../0957-minimum-add-to-make-parentheses-valid/)
 - [1758. Minimum Changes To Make Alternating Binary String](../1884-minimum-changes-to-make-alternating-binary-string/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../2349--check-if-there-is-a-valid-parentheses-string-path/)
+- [2027. Minimum Moves to Convert String](../2154-minimum-moves-to-convert-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)

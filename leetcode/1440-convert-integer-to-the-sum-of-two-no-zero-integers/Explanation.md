@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1. Two Sum](../0001-two-sum/)
 - [29. Divide Two Integers](../0029-divide-two-integers/)
-- [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
+- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3903. Smallest Stable Index I](../4284-smallest-stable-index-i/)
+- [275. H-Index II](../0275-h-index-ii/)
 - [3348. Smallest Divisible Digit Product II](../3635-smallest-divisible-digit-product-ii/)
-- [3518. Smallest Palindromic Rearrangement II](../3813-smallest-palindromic-rearrangement-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-stable-index-ii/)

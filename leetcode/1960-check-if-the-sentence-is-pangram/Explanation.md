@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
+- [2042. Check if Numbers Are Ascending in a Sentence](../2168-check-if-numbers-are-ascending-in-a-sentence/)
 - [1232. Check If It Is a Straight Line](../1349-check-if-it-is-a-straight-line/)
-- [1346. Check If N and Its Double Exist](../1468-check-if-n-and-its-double-exist/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)

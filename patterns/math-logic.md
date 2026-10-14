@@ -56,9 +56,19 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 |---|---|---|---|---|---|
 | 48 | [Rotate Image](../leetcode/0048-rotate-image/) | C++ | O(n²) | O(1) | [Explanation](../leetcode/0048-rotate-image/Explanation.md) |
 
+| 120 | [Triangle](../leetcode/0120-triangle/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0120-triangle/Explanation.md) |
+
+| 189 | [Rotate Array](../leetcode/0189-rotate-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0189-rotate-array/Explanation.md) |
+
+| 289 | [Game of Life](../leetcode/0289-game-of-life/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0289-game-of-life/Explanation.md) |
+
+| 611 | [Valid Triangle Number](../leetcode/0611-valid-triangle-number/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0611-valid-triangle-number/Explanation.md) |
+
 | 1344 | [Angle Between Hands of a Clock](../leetcode/1446-angle-between-hands-of-a-clock/) | Java | O(n) | O(1) | [Explanation](../leetcode/1446-angle-between-hands-of-a-clock/Explanation.md) |
 
 | 1401 | [Circle and Rectangle Overlapping](../leetcode/1501-circle-and-rectangle-overlapping/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1501-circle-and-rectangle-overlapping/Explanation.md) |
+
+| 2250 | [Count Number of Rectangles Containing Each Point](../leetcode/2333-count-number-of-rectangles-containing-each-point/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2333-count-number-of-rectangles-containing-each-point/Explanation.md) |
 
 | 2637 | [Promise Time Limit](../leetcode/2749-promise-time-limit/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2749-promise-time-limit/Explanation.md) |
 
@@ -67,6 +77,8 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 85 | [Maximal Rectangle](../leetcode/0085-maximal-rectangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0085-maximal-rectangle/Explanation.md) |
+
+| 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/Explanation.md) |
 
 | 3348 | [Smallest Divisible Digit Product II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Python, TypeScript | O(n) | O(1) | [Explanation](../leetcode/3635-smallest-divisible-digit-product-ii/Explanation.md) |
 

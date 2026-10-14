@@ -68,9 +68,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2193. Minimum Number of Moves to Make Palindrome](../1356-minimum-number-of-moves-to-make-palindrome/)
 - [2472. Maximum Number of Non-overlapping Palindrome Substrings](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [65. Valid Number](../0065-valid-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-number/)

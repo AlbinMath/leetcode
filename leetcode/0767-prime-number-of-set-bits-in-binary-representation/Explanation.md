@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [693. Binary Number with Alternating Bits](../0693-binary-number-with-alternating-bits/)
+- [191. Number of 1 Bits](../0191-number-of-1-bits/)
 - [1290. Convert Binary Number in a Linked List to Integer](../1411-convert-binary-number-in-a-linked-list-to-integer/)
-- [1356. Sort Integers by The Number of 1 Bits](../1458-sort-integers-by-the-number-of-1-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)

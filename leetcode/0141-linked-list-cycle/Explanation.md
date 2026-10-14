@@ -64,8 +64,8 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 
 ## Related Problems
 - [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
+- [114. Flatten Binary Tree to Linked List](../0114-flatten-binary-tree-to-linked-list/)
 - [203. Remove Linked List Elements](../0203-remove-linked-list-elements/)
-- [206. Reverse Linked List](../0206-reverse-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/linked-list-cycle/)

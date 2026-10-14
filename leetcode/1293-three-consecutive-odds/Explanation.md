@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
 - [180. Consecutive Numbers](../0180-consecutive-numbers/)
 - [185. Department Top Three Salaries](../0185-department-top-three-salaries/)
-- [326. Power of Three](../0326-power-of-three/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/three-consecutive-odds/)

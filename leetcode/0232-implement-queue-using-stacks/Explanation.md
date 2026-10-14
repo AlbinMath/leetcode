@@ -67,7 +67,7 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [225. Implement Stack using Queues](../0225-implement-stack-using-queues/)
 - [208. Implement Trie (Prefix Tree)](../0208-implement-trie-prefix-tree/)
-- [1974. Minimum Time to Type Word Using Special Typewriter](../2088-minimum-time-to-type-word-using-special-typewriter/)
+- [406. Queue Reconstruction by Height](../0406-queue-reconstruction-by-height/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/)

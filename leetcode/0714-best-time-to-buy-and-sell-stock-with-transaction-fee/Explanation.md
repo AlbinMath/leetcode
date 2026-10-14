@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
-- [2073. Time Needed to Buy Tickets](../2195-time-needed-to-buy-tickets/)
-- [636. Exclusive Time of Functions](../0636-exclusive-time-of-functions/)
+- [122. Best Time to Buy and Sell Stock II](../0122-best-time-to-buy-and-sell-stock-ii/)
+- [123. Best Time to Buy and Sell Stock III](../0123-best-time-to-buy-and-sell-stock-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)

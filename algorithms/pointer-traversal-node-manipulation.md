@@ -6,8 +6,7 @@ A curated selection of LeetCode problems solved using the **Pointer Traversal & 
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Linked List | O(n) | O(1) |
-| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Linked List | O(n) | O(1) |
-| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Easy | Linked List | O(n) | O(1) |
-| 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Medium | Linked List | O(n) | O(1) |
-| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Easy | Linked List | O(n) | O(1) |
+| 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | Medium | Linked List | O(n) | O(1) |
+| 138 | [Copy List with Random Pointer](../leetcode/0138-copy-list-with-random-pointer/) | Medium | Linked List | O(n) | O(1) |
+| 148 | [Sort List](../leetcode/0148-sort-list/) | Medium | Linked List | O(n) | O(1) |
+| 222 | [Count Complete Tree Nodes](../leetcode/0222-count-complete-tree-nodes/) | Medium | Linked List | O(n) | O(1) |

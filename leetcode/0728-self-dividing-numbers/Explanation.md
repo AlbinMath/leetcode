@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
 - [2. Add Two Numbers](../0002-add-two-numbers/)
-- [180. Consecutive Numbers](../0180-consecutive-numbers/)
-- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
+- [129. Sum Root to Leaf Numbers](../0129-sum-root-to-leaf-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/self-dividing-numbers/)

@@ -8,11 +8,13 @@ A curated selection of LeetCode problems solved using the **Memoization & State 
 |---|---|---|---|---|---|
 | 10 | [Regular Expression Matching](../leetcode/0010-regular-expression-matching/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 115 | [Distinct Subsequences](../leetcode/0115-distinct-subsequences/) | Hard | Dynamic Programming | O(n) | O(n) |
+| 218 | [The Skyline Problem](../leetcode/0218-the-skyline-problem/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 334 | [Increasing Triplet Subsequence](../leetcode/0334-increasing-triplet-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 486 | [Predict the Winner](../leetcode/0486-predict-the-winner/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 594 | [Longest Harmonious Subsequence](../leetcode/0594-longest-harmonious-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |
+| 673 | [Number of Longest Increasing Subsequence](../leetcode/0673-number-of-longest-increasing-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 674 | [Longest Continuous Increasing Subsequence](../leetcode/0674-longest-continuous-increasing-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 940 | [Distinct Subsequences II](../leetcode/0977-distinct-subsequences-ii/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 1140 | [Stone Game II](../leetcode/1240-stone-game-ii/) | Medium | Dynamic Programming | O(n) | O(n) |
@@ -22,8 +24,10 @@ A curated selection of LeetCode problems solved using the **Memoization & State 
 | 1340 | [Jump Game V](../leetcode/1466-jump-game-v/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 1403 | [Minimum Subsequence in Non-Increasing Order](../leetcode/1519-minimum-subsequence-in-non-increasing-order/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | Hard | Dynamic Programming | O(n) | O(n) |
+| 1498 | [Number of Subsequences That Satisfy the Given Sum Condition](../leetcode/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | Easy | Dynamic Programming | O(n) | O(n) |
+| 2407 | [Longest Increasing Subsequence II](../leetcode/2526-longest-increasing-subsequence-ii/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 2542 | [Maximum Subsequence Score](../leetcode/2636-maximum-subsequence-score/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 2770 | [Maximum Number of Jumps to Reach the Last Index](../leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 3312 | [Sorted GCD Pair Queries](../leetcode/3583-sorted-gcd-pair-queries/) | Hard | Dynamic Programming | O(n) | O(n) |

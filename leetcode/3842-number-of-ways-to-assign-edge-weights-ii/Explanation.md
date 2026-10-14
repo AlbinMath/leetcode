@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3558. Number of Ways to Assign Edge Weights I](../3844-number-of-ways-to-assign-edge-weights-i/)
+- [137. Single Number II](../0137-single-number-ii/)
 - [3016. Minimum Number of Pushes to Type Word II](../3276-minimum-number-of-pushes-to-type-word-ii/)
-- [3514. Number of Unique XOR Triplets II](../3820-number-of-unique-xor-triplets-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/)

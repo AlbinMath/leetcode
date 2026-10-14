@@ -18,6 +18,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 160 | [Intersection of Two Linked Lists](../leetcode/0160-intersection-of-two-linked-lists/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0160-intersection-of-two-linked-lists/Explanation.md) |
 
+| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0190-reverse-bits/Explanation.md) |
+
 | 203 | [Remove Linked List Elements](../leetcode/0203-remove-linked-list-elements/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0203-remove-linked-list-elements/Explanation.md) |
 
 | 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0206-reverse-linked-list/Explanation.md) |
@@ -30,6 +32,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/0409-longest-palindrome/Explanation.md) |
 
+| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0541-reverse-string-ii/Explanation.md) |
+
 | 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0671-second-minimum-node-in-a-binary-tree/Explanation.md) |
 
 | 693 | [Binary Number with Alternating Bits](../leetcode/0693-binary-number-with-alternating-bits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0693-binary-number-with-alternating-bits/Explanation.md) |
@@ -38,6 +42,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/0908-middle-of-the-linked-list/Explanation.md) |
 
+| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Python | O(n) | O(1) | [Explanation](../leetcode/0953-reverse-only-letters/Explanation.md) |
+
 | 1800 | [Maximum Ascending Subarray Sum](../leetcode/1927-maximum-ascending-subarray-sum/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1927-maximum-ascending-subarray-sum/Explanation.md) |
 
 | 2877 | [Create a DataFrame from List](../leetcode/3062-create-a-dataframe-from-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/3062-create-a-dataframe-from-list/Explanation.md) |
@@ -45,6 +51,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 2878 | [Get the Size of a DataFrame](../leetcode/3076-get-the-size-of-a-dataframe/) | Python | O(n) | O(1) | [Explanation](../leetcode/3076-get-the-size-of-a-dataframe/Explanation.md) |
 
 | 2881 | [Create a New Column](../leetcode/3066-create-a-new-column/) | Python | O(n) | O(1) | [Explanation](../leetcode/3066-create-a-new-column/Explanation.md) |
+
+| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/3995-gcd-of-odd-and-even-sums/Explanation.md) |
 
 ### Medium
 
@@ -66,6 +74,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 328 | [Odd Even Linked List](../leetcode/0328-odd-even-linked-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0328-odd-even-linked-list/Explanation.md) |
 
+| 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Java | O(n) | O(1) | [Explanation](../leetcode/1216-print-zero-even-odd/Explanation.md) |
+
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/Explanation.md) |
 
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2347-count-nodes-equal-to-average-of-subtree/Explanation.md) |
@@ -79,6 +89,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 23 | [Merge k Sorted Lists](../leetcode/0023-merge-k-sorted-lists/) | Python | O(n) | O(1) | [Explanation](../leetcode/0023-merge-k-sorted-lists/Explanation.md) |
 
 | 25 | [Reverse Nodes in k-Group](../leetcode/0025-reverse-nodes-in-k-group/) | Python | O(n) | O(1) | [Explanation](../leetcode/0025-reverse-nodes-in-k-group/Explanation.md) |
+
+| 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/Explanation.md) |
 
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/Explanation.md) |
 

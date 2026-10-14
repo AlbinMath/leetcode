@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [762. Prime Number of Set Bits in Binary Representation](../0767-prime-number-of-set-bits-in-binary-representation/)
-- [3629. Minimum Jumps to Reach End via Prime Teleportation](../3933-minimum-jumps-to-reach-end-via-prime-teleportation/)
-- [7. Reverse Integer](../0007-reverse-integer/)
+- [2507. Smallest Value After Replacing With Sum of Prime Factors](../2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
+- [2521. Distinct Prime Factors of Product of Array](../2609-distinct-prime-factors-of-product-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prime-arrangements/)

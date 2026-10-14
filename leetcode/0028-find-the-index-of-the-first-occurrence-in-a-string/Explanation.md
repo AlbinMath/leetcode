@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2108. Find First Palindromic String in the Array](../2231-find-first-palindromic-string-in-the-array/)
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
 - [387. First Unique Character in a String](../0387-first-unique-character-in-a-string/)
-- [724. Find Pivot Index](../0724-find-pivot-index/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)

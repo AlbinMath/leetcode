@@ -9,7 +9,10 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 1 | [Two Sum](../leetcode/0001-two-sum/) | Easy | Hash Map | O(n) | O(n) |
 | 49 | [Group Anagrams](../leetcode/0049-group-anagrams/) | Medium | Hash Map | O(n) | O(n) |
 | 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Easy | Hash Map | O(n) | O(n) |
+| 127 | [Word Ladder](../leetcode/0127-word-ladder/) | Hard | Hash Map | O(n) | O(n) |
+| 139 | [Word Break](../leetcode/0139-word-break/) | Medium | Hash Map | O(n) | O(n) |
 | 192 | [Word Frequency](../leetcode/0192-word-frequency/) | Medium | Hash Map | O(n) | O(n) |
+| 211 | [Design Add and Search Words Data Structure](../leetcode/0211-design-add-and-search-words-data-structure/) | Medium | Hash Map | O(n) | O(n) |
 | 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | Easy | Hash Map | O(n) | O(n) |
 | 290 | [Word Pattern](../leetcode/0290-word-pattern/) | Easy | Hash Map | O(n) | O(n) |
 | 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Easy | Hash Map | O(n) | O(n) |
@@ -36,6 +39,7 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 1807 | [Evaluate the Bracket Pairs of a String](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/) | Medium | Hash Map | O(n) | O(n) |
 | 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1938-minimum-operations-to-make-the-array-increasing/) | Easy | Hash Map | O(n) | O(n) |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/) | Easy | Hash Map | O(n) | O(n) |
+| 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/) | Easy | Hash Map | O(n) | O(n) |
 | 2622 | [Cache With Time Limit](../leetcode/2762-cache-with-time-limit/) | Medium | Hash Map | O(n) | O(n) |
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | Hard | Hash Map | O(n) | O(n) |
 | 2635 | [Apply Transform Over Each Element in Array](../leetcode/2747-apply-transform-over-each-element-in-array/) | Easy | Hash Map | O(n) | O(n) |
@@ -46,6 +50,7 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 2948 | [Make Lexicographically Smallest Array by Swapping Elements](../leetcode/3219-make-lexicographically-smallest-array-by-swapping-elements/) | Medium | Hash Map | O(n) | O(n) |
 | 2958 | [Length of Longest Subarray With at Most K Frequency](../leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/) | Medium | Hash Map | O(n) | O(n) |
 | 3014 | [Minimum Number of Pushes to Type Word I](../leetcode/3275-minimum-number-of-pushes-to-type-word-i/) | Easy | Hash Map | O(n) | O(n) |
+| 3044 | [Most Frequent Prime](../leetcode/3314-most-frequent-prime/) | Medium | Hash Map | O(n) | O(n) |
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3347-distribute-elements-into-two-arrays-i/) | Easy | Hash Map | O(n) | O(n) |
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Hard | Hash Map | O(n) | O(n) |
 | 3699 | [Number of ZigZag Arrays I](../leetcode/3962-number-of-zigzag-arrays-i/) | Hard | Hash Map | O(n) | O(n) |

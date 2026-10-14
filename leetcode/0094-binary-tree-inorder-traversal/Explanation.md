@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [144. Binary Tree Preorder Traversal](../0144-binary-tree-preorder-traversal/)
-- [145. Binary Tree Postorder Traversal](../0145-binary-tree-postorder-traversal/)
-- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
+- [105. Construct Binary Tree from Preorder and Inorder Traversal](../0105-construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [106. Construct Binary Tree from Inorder and Postorder Traversal](../0106-construct-binary-tree-from-inorder-and-postorder-traversal/)
+- [102. Binary Tree Level Order Traversal](../0102-binary-tree-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal/)

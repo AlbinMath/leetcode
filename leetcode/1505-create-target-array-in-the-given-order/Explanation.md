@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1354. Construct Target Array With Multiple Sums](../1479-construct-target-array-with-multiple-sums/)
+- [1649. Create Sorted Array through Instructions](../1772-create-sorted-array-through-instructions/)
 - [2161. Partition Array According to Given Pivot](../2265-partition-array-according-to-given-pivot/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-target-array-in-the-given-order/)

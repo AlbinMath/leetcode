@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1211. Queries Quality and Percentage](../1338-queries-quality-and-percentage/)
-- [3093. Longest Common Suffix Queries](../3376-longest-common-suffix-queries/)
-- [3312. Sorted GCD Pair Queries](../3583-sorted-gcd-pair-queries/)
+- [1409. Queries on a Permutation With Key](../1525-queries-on-a-permutation-with-key/)
+- [2736. Maximum Sum Queries](../2839-maximum-sum-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/block-placement-queries/)

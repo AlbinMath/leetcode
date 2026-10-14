@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
 - [705. Design HashSet](../0816-design-hashset/)
 - [706. Design HashMap](../0817-design-hashmap/)
-- [1268. Search Suggestions System](../1397-search-suggestions-system/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-parking-system/)

@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [119. Pascal's Triangle II](../0119-pascals-triangle-ii/)
+- [120. Triangle](../0120-triangle/)
 - [610. Triangle Judgement](../0610-triangle-judgement/)
-- [812. Largest Triangle Area](../0830-largest-triangle-area/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/pascals-triangle/)

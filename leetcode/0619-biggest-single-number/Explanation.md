@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [136. Single Number](../0136-single-number/)
+- [137. Single Number II](../0137-single-number-ii/)
 - [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/biggest-single-number/)

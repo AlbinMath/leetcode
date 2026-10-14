@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [860. Lemonade Change](../0890-lemonade-change/)
-- [1935. Maximum Number of Words You Can Type](../1264-maximum-number-of-words-you-can-type/)
-- [1974. Minimum Time to Type Word Using Special Typewriter](../2088-minimum-time-to-type-word-using-special-typewriter/)
+- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
+- [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
+- [322. Coin Change](../0322-coin-change/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/change-data-type/)

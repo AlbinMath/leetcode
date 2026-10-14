@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2618. Check if Object Instance of Class](../2758-check-if-object-instance-of-class/)
+- [2659. Make Array Empty](../2765-make-array-empty/)
 - [2705. Compact Object](../2804-compact-object/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/is-object-empty/)

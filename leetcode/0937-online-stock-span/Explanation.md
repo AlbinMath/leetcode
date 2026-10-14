@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
-- [714. Best Time to Buy and Sell Stock with Transaction Fee](../0714-best-time-to-buy-and-sell-stock-with-transaction-fee/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [122. Best Time to Buy and Sell Stock II](../0122-best-time-to-buy-and-sell-stock-ii/)
+- [123. Best Time to Buy and Sell Stock III](../0123-best-time-to-buy-and-sell-stock-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/online-stock-span/)

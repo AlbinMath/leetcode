@@ -8,6 +8,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 191 | [Number of 1 Bits](../leetcode/0191-number-of-1-bits/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0191-number-of-1-bits/Explanation.md) |
+
 | 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Python | O(n) | O(1) | [Explanation](../leetcode/0461-hamming-distance/Explanation.md) |
 
 | 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/0645-set-mismatch/Explanation.md) |
@@ -62,6 +64,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 91 | [Decode Ways](../leetcode/0091-decode-ways/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0091-decode-ways/Explanation.md) |
 
+| 201 | [Bitwise AND of Numbers Range](../leetcode/0201-bitwise-and-of-numbers-range/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0201-bitwise-and-of-numbers-range/Explanation.md) |
+
 | 238 | [Product of Array Except Self](../leetcode/0238-product-of-array-except-self/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0238-product-of-array-except-self/Explanation.md) |
 
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0396-rotate-function/Explanation.md) |
@@ -76,5 +80,11 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 ### Hard
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 224 | [Basic Calculator](../leetcode/0224-basic-calculator/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0224-basic-calculator/Explanation.md) |
+
+| 327 | [Count of Range Sum](../leetcode/0327-count-of-range-sum/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0327-count-of-range-sum/Explanation.md) |
+
+| 502 | [IPO](../leetcode/0502-ipo/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0502-ipo/Explanation.md) |
 

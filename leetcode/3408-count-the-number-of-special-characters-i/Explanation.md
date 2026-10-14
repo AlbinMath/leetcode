@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1358. Number of Substrings Containing All Three Characters](../1460-number-of-substrings-containing-all-three-characters/)
+- [1395. Count Number of Teams](../1511-count-number-of-teams/)
 - [1684. Count the Number of Consistent Strings](../1786-count-the-number-of-consistent-strings/)
-- [1941. Check if All Characters Have Equal Number of Occurrences](../2053-check-if-all-characters-have-equal-number-of-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-special-characters-i/)

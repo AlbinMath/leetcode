@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [103. Binary Tree Zigzag Level Order Traversal](../0103-binary-tree-zigzag-level-order-traversal/)
+- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 - [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
-- [99. Recover Binary Search Tree](../0099-recover-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)

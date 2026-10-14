@@ -64,9 +64,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1351. Count Negative Numbers in a Sorted Matrix](../1476-count-negative-numbers-in-a-sorted-matrix/)
-- [3751. Total Waviness of Numbers in Range I](../4057-total-waviness-of-numbers-in-range-i/)
-- [3753. Total Waviness of Numbers in Range II](../4128-total-waviness-of-numbers-in-range-ii/)
+- [201. Bitwise AND of Numbers Range](../0201-bitwise-and-of-numbers-range/)
+- [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
+- [327. Count of Range Sum](../0327-count-of-range-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)

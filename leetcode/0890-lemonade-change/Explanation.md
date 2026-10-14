@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [322. Coin Change](../0322-coin-change/)
 - [2886. Change Data Type](../3069-change-data-type/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lemonade-change/)

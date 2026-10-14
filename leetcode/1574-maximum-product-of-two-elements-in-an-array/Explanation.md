@@ -68,7 +68,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1913. Maximum Product Difference Between Two Pairs](../2042-maximum-product-difference-between-two-pairs/)
 - [3536. Maximum Product of Two Digits](../3859-maximum-product-of-two-digits/)
-- [238. Product of Array Except Self](../0238-product-of-array-except-self/)
+- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)

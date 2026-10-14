@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [58. Length of Last Word](../0058-length-of-last-word/)
 - [79. Word Search](../0079-word-search/)
-- [192. Word Frequency](../0192-word-frequency/)
+- [127. Word Ladder](../0127-word-ladder/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-completing-word/)

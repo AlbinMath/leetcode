@@ -20,6 +20,7 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 92 | [Reverse Linked List II](../leetcode/0092-reverse-linked-list-ii/) | Medium | Two Pointers | O(n) | O(1) |
 | 125 | [Valid Palindrome](../leetcode/0125-valid-palindrome/) | Easy | Two Pointers | O(n) | O(1) |
 | 160 | [Intersection of Two Linked Lists](../leetcode/0160-intersection-of-two-linked-lists/) | Easy | Two Pointers | O(n) | O(1) |
+| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Two Pointers | O(n) | O(1) |
 | 203 | [Remove Linked List Elements](../leetcode/0203-remove-linked-list-elements/) | Easy | Two Pointers | O(n) | O(1) |
 | 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
@@ -27,15 +28,20 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Easy | Two Pointers | O(n) | O(1) |
 | 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Easy | Two Pointers | O(n) | O(1) |
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Easy | Two Pointers | O(n) | O(1) |
+| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Two Pointers | O(n) | O(1) |
 | 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Easy | Two Pointers | O(n) | O(1) |
 | 693 | [Binary Number with Alternating Bits](../leetcode/0693-binary-number-with-alternating-bits/) | Easy | Two Pointers | O(n) | O(1) |
 | 762 | [Prime Number of Set Bits in Binary Representation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/) | Easy | Two Pointers | O(n) | O(1) |
 | 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
+| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Easy | Two Pointers | O(n) | O(1) |
+| 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Medium | Two Pointers | O(n) | O(1) |
 | 1800 | [Maximum Ascending Subarray Sum](../leetcode/1927-maximum-ascending-subarray-sum/) | Easy | Two Pointers | O(n) | O(1) |
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | Two Pointers | O(n) | O(1) |
+| 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | Hard | Two Pointers | O(n) | O(1) |
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | Medium | Two Pointers | O(n) | O(1) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard | Two Pointers | O(n) | O(1) |
 | 2721 | [Execute Asynchronous Functions in Parallel](../leetcode/2807-execute-asynchronous-functions-in-parallel/) | Medium | Two Pointers | O(n) | O(1) |
 | 2877 | [Create a DataFrame from List](../leetcode/3062-create-a-dataframe-from-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 2878 | [Get the Size of a DataFrame](../leetcode/3076-get-the-size-of-a-dataframe/) | Easy | Two Pointers | O(n) | O(1) |
 | 2881 | [Create a New Column](../leetcode/3066-create-a-new-column/) | Easy | Two Pointers | O(n) | O(1) |
+| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Easy | Two Pointers | O(n) | O(1) |

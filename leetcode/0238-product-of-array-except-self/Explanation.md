@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
 - [1822. Sign of the Product of an Array](../1950-sign-of-the-product-of-an-array/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [2521. Distinct Prime Factors of Product of Array](../2609-distinct-prime-factors-of-product-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/product-of-array-except-self/)

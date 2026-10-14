@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
 - [1281. Subtract the Product and Sum of Digits of an Integer](../1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
-- [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
+- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-digits-in-base-k/)

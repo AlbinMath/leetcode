@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [45. Jump Game II](../0045-jump-game-ii/)
 - [55. Jump Game](../0055-jump-game/)
-- [292. Nim Game](../0292-nim-game/)
+- [289. Game of Life](../0289-game-of-life/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divisor-game/)

@@ -11,9 +11,14 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 89 | [Gray Code](../leetcode/0089-gray-code/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 91 | [Decode Ways](../leetcode/0091-decode-ways/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 191 | [Number of 1 Bits](../leetcode/0191-number-of-1-bits/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 201 | [Bitwise AND of Numbers Range](../leetcode/0201-bitwise-and-of-numbers-range/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 224 | [Basic Calculator](../leetcode/0224-basic-calculator/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 238 | [Product of Array Except Self](../leetcode/0238-product-of-array-except-self/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 327 | [Count of Range Sum](../leetcode/0327-count-of-range-sum/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 502 | [IPO](../leetcode/0502-ipo/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 645 | [Set Mismatch](../leetcode/0645-set-mismatch/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 682 | [Baseball Game](../leetcode/0682-baseball-game/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 717 | [1-bit and 2-bit Characters](../leetcode/0717-1-bit-and-2-bit-characters/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |

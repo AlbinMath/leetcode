@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [75. Sort Colors](../0075-sort-colors/)
+- [148. Sort List](../0148-sort-list/)
 - [905. Sort Array By Parity](../0941-sort-array-by-parity/)
-- [922. Sort Array By Parity II](../0958-sort-array-by-parity-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-by/)

@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [114. Flatten Binary Tree to Linked List](../0114-flatten-binary-tree-to-linked-list/)
 - [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 - [108. Convert Sorted Array to Binary Search Tree](../0108-convert-sorted-array-to-binary-search-tree/)
-- [141. Linked List Cycle](../0141-linked-list-cycle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)

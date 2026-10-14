@@ -1,7 +1,7 @@
 # LeetCode 1116: Print Zero Even Odd
 
 **LeetCode Problem #1116 — Print Zero Even Odd**
-Solve LeetCode Print Zero Even Odd using Java and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
+Solve LeetCode Print Zero Even Odd using Java and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Print Zero Even Odd using Java and Linked List. This solution fin
 | LeetCode | #1116 |
 | Difficulty | Medium |
 | Language | Java |
-| Algorithm | Pointer Traversal & Node Manipulation |
-| Data Structure | Linked List |
-| Pattern | Linked List |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,7 +20,7 @@ Solve LeetCode Print Zero Even Odd using Java and Linked List. This solution fin
 You have a function  printNumber  that can be called with an integer parameter and prints it to the console.
 
 ## Key Insight
-Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 The code uses three **Semaphores** for synchronization.
@@ -33,23 +33,24 @@ The code uses three **Semaphores** for synchronization.
 This creates the pattern: zero→odd→zero→even→zero→odd→... producing `"010203..."`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Linked List**).
-2. Process elements sequentially using **Pointer Traversal & Node Manipulation**.
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Print Zero Even Odd**. Applying **Pointer Traversal & Node Manipulation** yields the target result step by step.
+Consider the standard input for **Print Zero Even Odd**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Linked List**
+**Two Pointers**
 
 ## Topics
-- Linked List
 - Two Pointers
+- Array
+- Sorting
 
 ## Language
 Java
@@ -58,16 +59,16 @@ Java
 - [solution.java](./solution.java)
 
 ## Why This Works
-By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [328. Odd Even Linked List](../0328-odd-even-linked-list/)

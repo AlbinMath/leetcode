@@ -306,6 +306,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1528 | [Shuffle String](../leetcode/1651-shuffle-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/1651-shuffle-string/Explanation.md) |
 
+| 1539 | [Kth Missing Positive Number](../leetcode/1646-kth-missing-positive-number/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1646-kth-missing-positive-number/Explanation.md) |
+
 | 1544 | [Make The String Great](../leetcode/1666-make-the-string-great/) | Python | O(n) | O(1) | [Explanation](../leetcode/1666-make-the-string-great/Explanation.md) |
 
 | 1550 | [Three Consecutive Odds](../leetcode/1293-three-consecutive-odds/) | Python | O(n) | O(1) | [Explanation](../leetcode/1293-three-consecutive-odds/Explanation.md) |
@@ -418,7 +420,25 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1995 | [Count Special Quadruplets](../leetcode/2122-count-special-quadruplets/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2122-count-special-quadruplets/Explanation.md) |
 
+| 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2137-final-value-of-variable-after-performing-operations/Explanation.md) |
+
+| 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2154-minimum-moves-to-convert-string/Explanation.md) |
+
+| 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/Explanation.md) |
+
+| 2047 | [Number of Valid Words in a Sentence](../leetcode/2173-number-of-valid-words-in-a-sentence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2173-number-of-valid-words-in-a-sentence/Explanation.md) |
+
+| 2053 | [Kth Distinct String in an Array](../leetcode/2163-kth-distinct-string-in-an-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2163-kth-distinct-string-in-an-array/Explanation.md) |
+
+| 2062 | [Count Vowel Substrings of a String](../leetcode/2186-count-vowel-substrings-of-a-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2186-count-vowel-substrings-of-a-string/Explanation.md) |
+
 | 2073 | [Time Needed to Buy Tickets](../leetcode/2195-time-needed-to-buy-tickets/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2195-time-needed-to-buy-tickets/Explanation.md) |
+
+| 2085 | [Count Common Words With One Occurrence](../leetcode/2190-count-common-words-with-one-occurrence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2190-count-common-words-with-one-occurrence/Explanation.md) |
+
+| 2103 | [Rings and Rods](../leetcode/2226-rings-and-rods/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2226-rings-and-rods/Explanation.md) |
+
+| 2108 | [Find First Palindromic String in the Array](../leetcode/2231-find-first-palindromic-string-in-the-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2231-find-first-palindromic-string-in-the-array/Explanation.md) |
 
 | 2215 | [Find the Difference of Two Arrays](../leetcode/1392-find-the-difference-of-two-arrays/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1392-find-the-difference-of-two-arrays/Explanation.md) |
 
@@ -500,27 +520,73 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 97 | [Interleaving String](../leetcode/0097-interleaving-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0097-interleaving-string/Explanation.md) |
 
+| 122 | [Best Time to Buy and Sell Stock II](../leetcode/0122-best-time-to-buy-and-sell-stock-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0122-best-time-to-buy-and-sell-stock-ii/Explanation.md) |
+
+| 128 | [Longest Consecutive Sequence](../leetcode/0128-longest-consecutive-sequence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0128-longest-consecutive-sequence/Explanation.md) |
+
+| 130 | [Surrounded Regions](../leetcode/0130-surrounded-regions/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0130-surrounded-regions/Explanation.md) |
+
+| 133 | [Clone Graph](../leetcode/0133-clone-graph/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0133-clone-graph/Explanation.md) |
+
+| 134 | [Gas Station](../leetcode/0134-gas-station/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0134-gas-station/Explanation.md) |
+
+| 137 | [Single Number II](../leetcode/0137-single-number-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0137-single-number-ii/Explanation.md) |
+
+| 146 | [LRU Cache](../leetcode/0146-lru-cache/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0146-lru-cache/Explanation.md) |
+
 | 151 | [Reverse Words in a String](../leetcode/0151-reverse-words-in-a-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0151-reverse-words-in-a-string/Explanation.md) |
+
+| 167 | [Two Sum Ii   Input Array Is Sorted](../leetcode/0167-two-sum-ii---input-array-is-sorted/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0167-two-sum-ii---input-array-is-sorted/Explanation.md) |
+
+| 172 | [Factorial Trailing Zeroes](../leetcode/0172-factorial-trailing-zeroes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0172-factorial-trailing-zeroes/Explanation.md) |
 
 | 194 | [Transpose File](../leetcode/0194-transpose-file/) | Shell | O(n) | O(1) | [Explanation](../leetcode/0194-transpose-file/Explanation.md) |
 
+| 200 | [Number of Islands](../leetcode/0200-number-of-islands/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0200-number-of-islands/Explanation.md) |
+
+| 204 | [Count Primes](../leetcode/0204-count-primes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0204-count-primes/Explanation.md) |
+
+| 207 | [Course Schedule](../leetcode/0207-course-schedule/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0207-course-schedule/Explanation.md) |
+
+| 210 | [Course Schedule II](../leetcode/0210-course-schedule-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0210-course-schedule-ii/Explanation.md) |
+
 | 215 | [Kth Largest Element in an Array](../leetcode/0215-kth-largest-element-in-an-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0215-kth-largest-element-in-an-array/Explanation.md) |
+
+| 221 | [Maximal Square](../leetcode/0221-maximal-square/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0221-maximal-square/Explanation.md) |
+
+| 274 | [H-Index](../leetcode/0274-h-index/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0274-h-index/Explanation.md) |
+
+| 275 | [H-Index II](../leetcode/0275-h-index-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0275-h-index-ii/Explanation.md) |
 
 | 303 | [Range Sum Query   Immutable](../leetcode/0303-range-sum-query---immutable/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0303-range-sum-query---immutable/Explanation.md) |
 
+| 307 | [Range Sum Query   Mutable](../leetcode/0307-range-sum-query---mutable/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0307-range-sum-query---mutable/Explanation.md) |
+
+| 322 | [Coin Change](../leetcode/0322-coin-change/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0322-coin-change/Explanation.md) |
+
 | 373 | [Find K Pairs with Smallest Sums](../leetcode/0373-find-k-pairs-with-smallest-sums/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0373-find-k-pairs-with-smallest-sums/Explanation.md) |
 
+| 380 | [Insert Delete GetRandom O(1)](../leetcode/0380-insert-delete-getrandom-o1/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0380-insert-delete-getrandom-o1/Explanation.md) |
+
 | 394 | [Decode String](../leetcode/0394-decode-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0394-decode-string/Explanation.md) |
+
+| 406 | [Queue Reconstruction by Height](../leetcode/0406-queue-reconstruction-by-height/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0406-queue-reconstruction-by-height/Explanation.md) |
+
+| 433 | [Minimum Genetic Mutation](../leetcode/0433-minimum-genetic-mutation/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0433-minimum-genetic-mutation/Explanation.md) |
 
 | 443 | [String Compression](../leetcode/0443-string-compression/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0443-string-compression/Explanation.md) |
 
 | 452 | [Minimum Number of Arrows to Burst Balloons](../leetcode/0452-minimum-number-of-arrows-to-burst-balloons/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0452-minimum-number-of-arrows-to-burst-balloons/Explanation.md) |
+
+| 528 | [Random Pick with Weight](../leetcode/0912-random-pick-with-weight/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0912-random-pick-with-weight/Explanation.md) |
 
 | 547 | [Number of Provinces](../leetcode/0547-number-of-provinces/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0547-number-of-provinces/Explanation.md) |
 
 | 570 | [Managers with at Least 5 Direct Reports](../leetcode/0570-managers-with-at-least-5-direct-reports/) | Python | O(n) | O(1) | [Explanation](../leetcode/0570-managers-with-at-least-5-direct-reports/Explanation.md) |
 
 | 649 | [Dota2 Senate](../leetcode/0649-dota2-senate/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0649-dota2-senate/Explanation.md) |
+
+| 658 | [Find K Closest Elements](../leetcode/0658-find-k-closest-elements/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0658-find-k-closest-elements/Explanation.md) |
 
 | 678 | [Valid Parenthesis String](../leetcode/0678-valid-parenthesis-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/0678-valid-parenthesis-string/Explanation.md) |
 
@@ -540,17 +606,27 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 901 | [Online Stock Span](../leetcode/0937-online-stock-span/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0937-online-stock-span/Explanation.md) |
 
+| 909 | [Snakes and Ladders](../leetcode/0945-snakes-and-ladders/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0945-snakes-and-ladders/Explanation.md) |
+
+| 918 | [Maximum Sum Circular Subarray](../leetcode/0954-maximum-sum-circular-subarray/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0954-maximum-sum-circular-subarray/Explanation.md) |
+
+| 981 | [Time Based Key-Value Store](../leetcode/1023-time-based-key-value-store/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1023-time-based-key-value-store/Explanation.md) |
+
 | 994 | [Rotting Oranges](../leetcode/1036-rotting-oranges/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1036-rotting-oranges/Explanation.md) |
 
 | 1004 | [Max Consecutive Ones III](../leetcode/1046-max-consecutive-ones-iii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1046-max-consecutive-ones-iii/Explanation.md) |
 
 | 1117 | [Building H2O](../leetcode/1186-building-h2o/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1186-building-h2o/Explanation.md) |
 
+| 1146 | [Snapshot Array](../leetcode/1249-snapshot-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1249-snapshot-array/Explanation.md) |
+
 | 1195 | [Fizz Buzz Multithreaded](../leetcode/1316-fizz-buzz-multithreaded/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1316-fizz-buzz-multithreaded/Explanation.md) |
 
 | 1226 | [The Dining Philosophers](../leetcode/1340-the-dining-philosophers/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1340-the-dining-philosophers/Explanation.md) |
 
 | 1268 | [Search Suggestions System](../leetcode/1397-search-suggestions-system/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1397-search-suggestions-system/Explanation.md) |
+
+| 1395 | [Count Number of Teams](../leetcode/1511-count-number-of-teams/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1511-count-number-of-teams/Explanation.md) |
 
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](../leetcode/1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1567-maximum-number-of-vowels-in-a-substring-of-given-length/Explanation.md) |
 
@@ -570,6 +646,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 2091 | [Removing Minimum and Maximum From Array](../leetcode/2212-removing-minimum-and-maximum-from-array/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2212-removing-minimum-and-maximum-from-array/Explanation.md) |
 
+| 2109 | [Adding Spaces to a String](../leetcode/2232-adding-spaces-to-a-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2232-adding-spaces-to-a-string/Explanation.md) |
+
 | 2300 | [Successful Pairs of Spells and Potions](../leetcode/2392-successful-pairs-of-spells-and-potions/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2392-successful-pairs-of-spells-and-potions/Explanation.md) |
 
 | 2333 | [Minimum Sum of Squared Difference](../leetcode/2418-minimum-sum-of-squared-difference/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2418-minimum-sum-of-squared-difference/Explanation.md) |
@@ -579,6 +657,12 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 2390 | [Removing Stars From a String](../leetcode/2470-removing-stars-from-a-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2470-removing-stars-from-a-string/Explanation.md) |
 
 | 2462 | [Total Cost to Hire K Workers](../leetcode/2553-total-cost-to-hire-k-workers/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2553-total-cost-to-hire-k-workers/Explanation.md) |
+
+| 2507 | [Smallest Value After Replacing With Sum of Prime Factors](../leetcode/2595-smallest-value-after-replacing-with-sum-of-prime-factors/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2595-smallest-value-after-replacing-with-sum-of-prime-factors/Explanation.md) |
+
+| 2521 | [Distinct Prime Factors of Product of Array](../leetcode/2609-distinct-prime-factors-of-product-of-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2609-distinct-prime-factors-of-product-of-array/Explanation.md) |
+
+| 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2610-closest-prime-numbers-in-range/Explanation.md) |
 
 | 2618 | [Check if Object Instance of Class](../leetcode/2758-check-if-object-instance-of-class/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2758-check-if-object-instance-of-class/Explanation.md) |
 
@@ -630,6 +714,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 3716 | [Find Churn Risk Customers](../leetcode/4103-find-churn-risk-customers/) | Python | O(n) | O(1) | [Explanation](../leetcode/4103-find-churn-risk-customers/Explanation.md) |
 
+| 3727 | [Maximum Alternating Sum of Squares](../leetcode/4078-maximum-alternating-sum-of-squares/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/4078-maximum-alternating-sum-of-squares/Explanation.md) |
+
 | 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/4057-total-waviness-of-numbers-in-range-i/Explanation.md) |
 
 | 3867 | [Sum of GCD of Formed Pairs](../leetcode/4242-sum-of-gcd-of-formed-pairs/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4242-sum-of-gcd-of-formed-pairs/Explanation.md) |
@@ -658,11 +744,45 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 87 | [Scramble String](../leetcode/0087-scramble-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0087-scramble-string/Explanation.md) |
 
+| 123 | [Best Time to Buy and Sell Stock III](../leetcode/0123-best-time-to-buy-and-sell-stock-iii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0123-best-time-to-buy-and-sell-stock-iii/Explanation.md) |
+
+| 135 | [Candy](../leetcode/0135-candy/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0135-candy/Explanation.md) |
+
+| 188 | [Best Time to Buy and Sell Stock IV](../leetcode/0188-best-time-to-buy-and-sell-stock-iv/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0188-best-time-to-buy-and-sell-stock-iv/Explanation.md) |
+
+| 212 | [Word Search II](../leetcode/0212-word-search-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0212-word-search-ii/Explanation.md) |
+
+| 295 | [Find Median from Data Stream](../leetcode/0295-find-median-from-data-stream/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0295-find-median-from-data-stream/Explanation.md) |
+
+| 315 | [Count of Smaller Numbers After Self](../leetcode/0315-count-of-smaller-numbers-after-self/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0315-count-of-smaller-numbers-after-self/Explanation.md) |
+
+| 354 | [Russian Doll Envelopes](../leetcode/0354-russian-doll-envelopes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0354-russian-doll-envelopes/Explanation.md) |
+
+| 493 | [Reverse Pairs](../leetcode/0493-reverse-pairs/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0493-reverse-pairs/Explanation.md) |
+
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1188-brace-expansion-ii/Explanation.md) |
+
+| 1157 | [Online Majority Element In Subarray](../leetcode/1262-online-majority-element-in-subarray/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1262-online-majority-element-in-subarray/Explanation.md) |
 
 | 1354 | [Construct Target Array With Multiple Sums](../leetcode/1479-construct-target-array-with-multiple-sums/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1479-construct-target-array-with-multiple-sums/Explanation.md) |
 
+| 1649 | [Create Sorted Array through Instructions](../leetcode/1772-create-sorted-array-through-instructions/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1772-create-sorted-array-through-instructions/Explanation.md) |
+
+| 1964 | [Find the Longest Valid Obstacle Course at Each Position](../leetcode/2096-find-the-longest-valid-obstacle-course-at-each-position/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2096-find-the-longest-valid-obstacle-course-at-each-position/Explanation.md) |
+
+| 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2280-count-good-triplets-in-an-array/Explanation.md) |
+
+| 2286 | [Booking Concert Tickets in Groups](../leetcode/2380-booking-concert-tickets-in-groups/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2380-booking-concert-tickets-in-groups/Explanation.md) |
+
+| 2426 | [Number of Pairs Satisfying Inequality](../leetcode/2513-number-of-pairs-satisfying-inequality/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2513-number-of-pairs-satisfying-inequality/Explanation.md) |
+
+| 2552 | [Count Increasing Quadruplets](../leetcode/2682-count-increasing-quadruplets/) | Python | O(n) | O(1) | [Explanation](../leetcode/2682-count-increasing-quadruplets/Explanation.md) |
+
 | 2650 | [Design Cancellable Function](../leetcode/2788-design-cancellable-function/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2788-design-cancellable-function/Explanation.md) |
+
+| 2659 | [Make Array Empty](../leetcode/2765-make-array-empty/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2765-make-array-empty/Explanation.md) |
+
+| 2736 | [Maximum Sum Queries](../leetcode/2839-maximum-sum-queries/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2839-maximum-sum-queries/Explanation.md) |
 
 | 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Python | O(n) | O(1) | [Explanation](../leetcode/3435-block-placement-queries/Explanation.md) |
 

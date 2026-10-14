@@ -71,7 +71,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [48. Rotate Image](../0048-rotate-image/)
 - [61. Rotate List](../0061-rotate-list/)
-- [796. Rotate String](../0812-rotate-string/)
+- [189. Rotate Array](../0189-rotate-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-function/)

@@ -66,7 +66,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 72 | [Edit Distance](../leetcode/0072-edit-distance/) | Medium | Array / General | O(n) | O(1) |
 | 74 | [Search a 2D Matrix](../leetcode/0074-search-a-2d-matrix/) | Medium | Tree & Graph | O(n) | O(n) |
 | 85 | [Maximal Rectangle](../leetcode/0085-maximal-rectangle/) | Hard | Math & Logic | O(n) | O(1) |
-| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Linked List | O(n) | O(1) |
+| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Two Pointers | O(n) | O(1) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Hard | Stack & Queue | O(n) | O(n) |
 | 342 | [Power of Four](../leetcode/0342-power-of-four/) | Easy | Array / General | O(n) | O(1) |
 | 344 | [Reverse String](../leetcode/0344-reverse-string/) | Easy | Array / General | O(n) | O(1) |
@@ -107,7 +107,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 520 | [Detect Capital](../leetcode/0520-detect-capital/) | Easy | Array / General | O(n) | O(1) |
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Easy | Binary Search | O(n) | O(1) |
-| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Linked List | O(n) | O(1) |
+| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Two Pointers | O(n) | O(1) |
 | 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Medium | Tree & Graph | O(n) | O(n) |
 | 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Easy | Monotonic Stack | O(n) | O(n) |
@@ -181,7 +181,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 905 | [Sort Array By Parity](../leetcode/0941-sort-array-by-parity/) | Easy | Hash Map | O(n) | O(n) |
 | 908 | [Smallest Range I](../leetcode/0944-smallest-range-i/) | Easy | Array / General | O(n) | O(1) |
 | 914 | [X of a Kind in a Deck of Cards](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/) | Easy | Array / General | O(n) | O(1) |
-| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Easy | Linked List | O(n) | O(1) |
+| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Easy | Two Pointers | O(n) | O(1) |
 | 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0957-minimum-add-to-make-parentheses-valid/) | Medium | Stack & Queue | O(n) | O(n) |
 | 922 | [Sort Array By Parity II](../leetcode/0958-sort-array-by-parity-ii/) | Easy | Array / General | O(n) | O(1) |
 | 925 | [Long Pressed Name](../leetcode/0961-long-pressed-name/) | Easy | Array / General | O(n) | O(1) |
@@ -286,6 +286,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 1572 | [Matrix Diagonal Sum](../leetcode/1677-matrix-diagonal-sum/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1682 | [Most Visited Sector In  A Circular Track](../leetcode/1682-most-visited-sector-in--a-circular-track/) | Medium | Array / General | O(n) | O(1) |
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Hard | Tree & Graph | O(n) | O(n) |
+| 2552 | [Count Increasing Quadruplets](../leetcode/2682-count-increasing-quadruplets/) | Hard | Array / General | O(n) | O(1) |
 | 2877 | [Create a DataFrame from List](../leetcode/3062-create-a-dataframe-from-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 2878 | [Get the Size of a DataFrame](../leetcode/3076-get-the-size-of-a-dataframe/) | Easy | Two Pointers | O(n) | O(1) |
 | 2879 | [Display the First Three Rows](../leetcode/3065-display-the-first-three-rows/) | Easy | Array / General | O(n) | O(1) |

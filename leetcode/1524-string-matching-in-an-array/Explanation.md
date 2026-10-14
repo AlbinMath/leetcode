@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1961. Check If String Is a Prefix of Array](../2093-check-if-string-is-a-prefix-of-array/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
+- [2053. Kth Distinct String in an Array](../2163-kth-distinct-string-in-an-array/)
+- [2108. Find First Palindromic String in the Array](../2231-find-first-palindromic-string-in-the-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/string-matching-in-an-array/)

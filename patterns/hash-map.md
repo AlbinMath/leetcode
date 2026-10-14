@@ -52,6 +52,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/Explanation.md) |
 
+| 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/Explanation.md) |
+
 | 2635 | [Apply Transform Over Each Element in Array](../leetcode/2747-apply-transform-over-each-element-in-array/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2747-apply-transform-over-each-element-in-array/Explanation.md) |
 
 | 2703 | [Return Length of Arguments Passed](../leetcode/2820-return-length-of-arguments-passed/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2820-return-length-of-arguments-passed/Explanation.md) |
@@ -72,7 +74,11 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 |---|---|---|---|---|---|
 | 49 | [Group Anagrams](../leetcode/0049-group-anagrams/) | Python | O(n) | O(n) | [Explanation](../leetcode/0049-group-anagrams/Explanation.md) |
 
+| 139 | [Word Break](../leetcode/0139-word-break/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0139-word-break/Explanation.md) |
+
 | 192 | [Word Frequency](../leetcode/0192-word-frequency/) | Shell | O(n) | O(n) | [Explanation](../leetcode/0192-word-frequency/Explanation.md) |
+
+| 211 | [Design Add and Search Words Data Structure](../leetcode/0211-design-add-and-search-words-data-structure/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0211-design-add-and-search-words-data-structure/Explanation.md) |
 
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Java | O(n) | O(n) | [Explanation](../leetcode/1187-print-foobar-alternately/Explanation.md) |
 
@@ -92,10 +98,14 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 2958 | [Length of Longest Subarray With at Most K Frequency](../leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/Explanation.md) |
 
+| 3044 | [Most Frequent Prime](../leetcode/3314-most-frequent-prime/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3314-most-frequent-prime/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 127 | [Word Ladder](../leetcode/0127-word-ladder/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0127-word-ladder/Explanation.md) |
+
 | 1345 | [Jump Game IV](../leetcode/1447-jump-game-iv/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1447-jump-game-iv/Explanation.md) |
 
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2744-memoize-ii/Explanation.md) |

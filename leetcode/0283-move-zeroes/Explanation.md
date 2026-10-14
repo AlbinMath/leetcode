@@ -64,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [73. Set Matrix Zeroes](../0073-set-matrix-zeroes/)
+- [172. Factorial Trailing Zeroes](../0172-factorial-trailing-zeroes/)
 - [1217. Minimum Cost to Move Chips to The Same Position](../1329-minimum-cost-to-move-chips-to-the-same-position/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/move-zeroes/)

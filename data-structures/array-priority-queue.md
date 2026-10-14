@@ -6,4 +6,4 @@ LeetCode problems solved using **Array / Priority Queue** data structures.
 
 | # | Problem | Difficulty | Algorithm | Time | Space |
 |---|---|---|---|---|---|
-| 435 | [Non-overlapping Intervals](../leetcode/0435-non-overlapping-intervals/) | Medium | Greedy Choice Strategy | O(n) | O(1) |
+| 436 | [Find Right Interval](../leetcode/0436-find-right-interval/) | Medium | Greedy Choice Strategy | O(n) | O(1) |

@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [703. Kth Largest Element in a Stream](../0789-kth-largest-element-in-a-stream/)
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [961. N-Repeated Element in Size 2N Array](../1001-n-repeated-element-in-size-2n-array/)
+- [230. Kth Smallest Element in a BST](../0230-kth-smallest-element-in-a-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/)

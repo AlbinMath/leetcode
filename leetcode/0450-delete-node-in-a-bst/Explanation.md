@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [2095. Delete the Middle Node of a Linked List](../2216-delete-the-middle-node-of-a-linked-list/)
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [196. Delete Duplicate Emails](../0196-delete-duplicate-emails/)
+- [117. Populating Next Right Pointers in Each Node II](../0117-populating-next-right-pointers-in-each-node-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/)

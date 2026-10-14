@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1517. Find Users With Valid E-Mails](../1664-find-users-with-valid-e-mails/)
+- [1964. Find the Longest Valid Obstacle Course at Each Position](../2096-find-the-longest-valid-obstacle-course-at-each-position/)
 - [3302. Find the Lexicographically Smallest Valid Sequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
-- [3465. Find Products with Valid Serial Numbers](../3803-find-products-with-valid-serial-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-emails/)

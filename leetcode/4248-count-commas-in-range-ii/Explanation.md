@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3870. Count Commas in Range](../4245-count-commas-in-range/)
+- [327. Count of Range Sum](../0327-count-of-range-sum/)
 - [598. Range Addition II](../0598-range-addition-ii/)
-- [1523. Count Odd Numbers in an Interval Range](../1630-count-odd-numbers-in-an-interval-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-commas-in-range-ii/)

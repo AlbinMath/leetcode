@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1741. Find Total Time Spent by Each Employee](../1892-find-total-time-spent-by-each-employee/)
 - [1789. Primary Department for Each Employee](../1942-primary-department-for-each-employee/)
-- [2356. Number of Unique Subjects Taught by Each Teacher](../2495-number-of-unique-subjects-taught-by-each-teacher/)
+- [2250. Count Number of Rectangles Containing Each Point](../2333-count-number-of-rectangles-containing-each-point/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/)

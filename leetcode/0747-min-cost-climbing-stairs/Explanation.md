@@ -64,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [70. Climbing Stairs](../0070-climbing-stairs/)
+- [155. Min Stack](../0155-min-stack/)
 - [1217. Minimum Cost to Move Chips to The Same Position](../1329-minimum-cost-to-move-chips-to-the-same-position/)
-- [2144. Minimum Cost of Buying Candies With Discount](../2248-minimum-cost-of-buying-candies-with-discount/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/)

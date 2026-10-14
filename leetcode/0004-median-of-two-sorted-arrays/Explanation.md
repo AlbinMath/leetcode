@@ -75,8 +75,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [21. Merge Two Sorted Lists](../0021-merge-two-sorted-lists/)
+- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 - [349. Intersection of Two Arrays](../0349-intersection-of-two-arrays/)
-- [350. Intersection of Two Arrays II](../0350-intersection-of-two-arrays-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/)

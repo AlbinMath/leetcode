@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [303. Range Sum Query   Immutable](../0303-range-sum-query---immutable/)
-- [653. Two Sum Iv   Input Is A Bst](../0653-two-sum-iv---input-is-a-bst/)
-- [1. Two Sum](../0001-two-sum/)
+- [307. Range Sum Query   Mutable](../0307-range-sum-query---mutable/)
+- [327. Count of Range Sum](../0327-count-of-range-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-sum-of-bst/)

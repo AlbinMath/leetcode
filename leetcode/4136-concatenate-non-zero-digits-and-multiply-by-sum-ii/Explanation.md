@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../4135-concatenate-non-zero-digits-and-multiply-by-sum-i/)
 - [40. Combination Sum II](../0040-combination-sum-ii/)
-- [1281. Subtract the Product and Sum of Digits of an Integer](../1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
+- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/)

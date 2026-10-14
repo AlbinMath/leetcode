@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [482. License Key Formatting](../0482-license-key-formatting/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [981. Time Based Key-Value Store](../1023-time-based-key-value-store/)
+- [1409. Queries on a Permutation With Key](../1525-queries-on-a-permutation-with-key/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/slowest-key/)

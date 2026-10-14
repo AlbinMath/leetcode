@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2068. Check Whether Two Strings are Almost Equivalent](../2177-check-whether-two-strings-are-almost-equivalent/)
 - [1437. Check If All 1's Are at Least Length K Places Away](../1548-check-if-all-1s-are-at-least-length-k-places-away/)
 - [1657. Determine if Two Strings Are Close](../1777-determine-if-two-strings-are-close/)
-- [1704. Determine if String Halves Are Alike](../1823-determine-if-string-halves-are-alike/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)

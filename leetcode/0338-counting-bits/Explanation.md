@@ -66,8 +66,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [190. Reverse Bits](../0190-reverse-bits/)
+- [191. Number of 1 Bits](../0191-number-of-1-bits/)
 - [693. Binary Number with Alternating Bits](../0693-binary-number-with-alternating-bits/)
-- [762. Prime Number of Set Bits in Binary Representation](../0767-prime-number-of-set-bits-in-binary-representation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/counting-bits/)

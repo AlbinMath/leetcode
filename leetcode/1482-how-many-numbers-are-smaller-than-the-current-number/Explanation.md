@@ -69,9 +69,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
 - [1295. Find Numbers with Even Number of Digits](../1421-find-numbers-with-even-number-of-digits/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
-- [9. Palindrome Number](../0009-palindrome-number/)
+- [2042. Check if Numbers Are Ascending in a Sentence](../2168-check-if-numbers-are-ascending-in-a-sentence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)

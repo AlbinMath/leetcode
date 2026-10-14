@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1207. Unique Number of Occurrences](../1319-unique-number-of-occurrences/)
 - [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
-- [3513. Number of Unique XOR Triplets I](../3824-number-of-unique-xor-triplets-i/)
+- [2250. Count Number of Rectangles Containing Each Point](../2333-count-number-of-rectangles-containing-each-point/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)

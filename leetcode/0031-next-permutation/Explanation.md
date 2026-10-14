@@ -64,8 +64,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [60. Permutation Sequence](../0060-permutation-sequence/)
+- [117. Populating Next Right Pointers in Each Node II](../0117-populating-next-right-pointers-in-each-node-ii/)
 - [496. Next Greater Element I](../0496-next-greater-element-i/)
-- [1920. Build Array from Permutation](../2048-build-array-from-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/next-permutation/)

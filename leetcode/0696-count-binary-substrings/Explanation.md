@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1448. Count Good Nodes in Binary Tree](../1544-count-good-nodes-in-binary-tree/)
+- [2062. Count Vowel Substrings of a String](../2186-count-vowel-substrings-of-a-string/)
 - [38. Count and Say](../0038-count-and-say/)
-- [67. Add Binary](../0067-add-binary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-binary-substrings/)

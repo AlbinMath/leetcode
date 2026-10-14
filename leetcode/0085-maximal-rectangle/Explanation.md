@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
+- [221. Maximal Square](../0221-maximal-square/)
 - [492. Construct the Rectangle](../0492-construct-the-rectangle/)
-- [836. Rectangle Overlap](../0866-rectangle-overlap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximal-rectangle/)

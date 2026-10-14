@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
 - [151. Reverse Words in a String](../0151-reverse-words-in-a-string/)
-- [557. Reverse Words in a String III](../0557-reverse-words-in-a-string-iii/)
+- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-spaces-between-words/)

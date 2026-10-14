@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [658. Find K Closest Elements](../0658-find-k-closest-elements/)
 - [3020. Find the Maximum Number of Elements in Subset](../3299-find-the-maximum-number-of-elements-in-subset/)
 - [3471. Find the Largest Almost Missing Integer](../3705-find-the-largest-almost-missing-integer/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-missing-elements/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
 - [180. Consecutive Numbers](../0180-consecutive-numbers/)
-- [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/consecutive-characters/)

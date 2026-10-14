@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1295. Find Numbers with Even Number of Digits](../1421-find-numbers-with-even-number-of-digits/)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
 - [1941. Check if All Characters Have Equal Number of Occurrences](../2053-check-if-all-characters-have-equal-number-of-occurrences/)
-- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/)

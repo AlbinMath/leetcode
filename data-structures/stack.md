@@ -11,7 +11,9 @@ LeetCode problems solved using **Stack** data structures.
 | 28 | [Find the Index of the First Occurrence in a String](../leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 32 | [Longest Valid Parentheses](../leetcode/0032-longest-valid-parentheses/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 84 | [Largest Rectangle in Histogram](../leetcode/0084-largest-rectangle-in-histogram/) | Hard | Monotonic Stack Filtering | O(n) | O(n) |
+| 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0150-evaluate-reverse-polish-notation/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
+| 155 | [Min Stack](../leetcode/0155-min-stack/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 399 | [Evaluate Division](../leetcode/0399-evaluate-division/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |

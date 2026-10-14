@@ -112,15 +112,27 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 162 | [Find Peak Element](../leetcode/0162-find-peak-element/) | JavaScript | O(log n) | O(1) | [Explanation](../leetcode/0162-find-peak-element/Explanation.md) |
 
+| 173 | [Binary Search Tree Iterator](../leetcode/0173-binary-search-tree-iterator/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0173-binary-search-tree-iterator/Explanation.md) |
+
 | 199 | [Binary Tree Right Side View](../leetcode/0199-binary-tree-right-side-view/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0199-binary-tree-right-side-view/Explanation.md) |
+
+| 209 | [Minimum Size Subarray Sum](../leetcode/0209-minimum-size-subarray-sum/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0209-minimum-size-subarray-sum/Explanation.md) |
+
+| 230 | [Kth Smallest Element in a BST](../leetcode/0230-kth-smallest-element-in-a-bst/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0230-kth-smallest-element-in-a-bst/Explanation.md) |
 
 | 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/Explanation.md) |
 
+| 300 | [Longest Increasing Subsequence](../leetcode/0300-longest-increasing-subsequence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0300-longest-increasing-subsequence/Explanation.md) |
+
 | 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0450-delete-node-in-a-bst/Explanation.md) |
+
+| 540 | [Single Element in a Sorted Array](../leetcode/0540-single-element-in-a-sorted-array/) | JavaScript | O(log n) | O(1) | [Explanation](../leetcode/0540-single-element-in-a-sorted-array/Explanation.md) |
 
 | 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0653-two-sum-iv---input-is-a-bst/Explanation.md) |
 
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0804-rotated-digits/Explanation.md) |
+
+| 852 | [Peak Index in a Mountain Array](../leetcode/0882-peak-index-in-a-mountain-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0882-peak-index-in-a-mountain-array/Explanation.md) |
 
 | 1161 | [Maximum Level Sum of a Binary Tree](../leetcode/1116-maximum-level-sum-of-a-binary-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1116-maximum-level-sum-of-a-binary-tree/Explanation.md) |
 

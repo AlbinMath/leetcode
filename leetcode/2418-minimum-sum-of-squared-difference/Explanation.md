@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
 - [530. Minimum Absolute Difference in BST](../0530-minimum-absolute-difference-in-bst/)
-- [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-sum-of-squared-difference/)

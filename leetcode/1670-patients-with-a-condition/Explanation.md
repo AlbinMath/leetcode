@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
 - [3586. Find COVID Recovery Patients](../3932-find-covid-recovery-patients/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
-- [176. Second Highest Salary](../0176-second-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/patients-with-a-condition/)

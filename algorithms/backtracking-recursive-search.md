@@ -15,6 +15,7 @@ A curated selection of LeetCode problems solved using the **Backtracking Recursi
 | 60 | [Permutation Sequence](../leetcode/0060-permutation-sequence/) | Hard | Backtracking | O(n) | O(1) |
 | 77 | [Combinations](../leetcode/0077-combinations/) | Medium | Backtracking | O(n) | O(1) |
 | 216 | [Combination Sum III](../leetcode/0216-combination-sum-iii/) | Medium | Backtracking | O(n) | O(1) |
+| 1409 | [Queries on a Permutation With Key](../leetcode/1525-queries-on-a-permutation-with-key/) | Medium | Backtracking | O(n) | O(1) |
 | 1920 | [Build Array from Permutation](../leetcode/2048-build-array-from-permutation/) | Easy | Backtracking | O(n) | O(1) |
 | 3116 | [Kth Smallest Amount With Single Denomination Combination](../leetcode/3375-kth-smallest-amount-with-single-denomination-combination/) | Hard | Backtracking | O(n) | O(1) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](../leetcode/4020-lexicographically-smallest-permutation-greater-than-target/) | Medium | Backtracking | O(n) | O(1) |

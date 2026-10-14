@@ -64,8 +64,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [39. Combination Sum](../0039-combination-sum/)
+- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 - [216. Combination Sum III](../0216-combination-sum-iii/)
-- [3756. Concatenate Non-Zero Digits and Multiply by Sum II](../4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/combination-sum-ii/)

@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
 - [53. Maximum Subarray](../0053-maximum-subarray/)
-- [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
-- [1161. Maximum Level Sum of a Binary Tree](../1116-maximum-level-sum-of-a-binary-tree/)
+- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-ascending-subarray-sum/)

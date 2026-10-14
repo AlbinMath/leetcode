@@ -31,15 +31,20 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | Medium | Binary Search | O(log n) | O(1) |
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard | Binary Search | O(n) | O(1) |
 | 162 | [Find Peak Element](../leetcode/0162-find-peak-element/) | Medium | Binary Search | O(log n) | O(1) |
+| 173 | [Binary Search Tree Iterator](../leetcode/0173-binary-search-tree-iterator/) | Medium | Binary Search | O(n) | O(1) |
 | 199 | [Binary Tree Right Side View](../leetcode/0199-binary-tree-right-side-view/) | Medium | Binary Search | O(n) | O(1) |
+| 209 | [Minimum Size Subarray Sum](../leetcode/0209-minimum-size-subarray-sum/) | Medium | Binary Search | O(n) | O(1) |
 | 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
+| 230 | [Kth Smallest Element in a BST](../leetcode/0230-kth-smallest-element-in-a-bst/) | Medium | Binary Search | O(n) | O(1) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Easy | Binary Search | O(n) | O(1) |
+| 300 | [Longest Increasing Subsequence](../leetcode/0300-longest-increasing-subsequence/) | Medium | Binary Search | O(n) | O(1) |
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Easy | Binary Search | O(n) | O(1) |
 | 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Easy | Binary Search | O(n) | O(1) |
 | 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | Medium | Binary Search | O(n) | O(1) |
 | 501 | [Find Mode in Binary Search Tree](../leetcode/0501-find-mode-in-binary-search-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Easy | Binary Search | O(n) | O(1) |
+| 540 | [Single Element in a Sorted Array](../leetcode/0540-single-element-in-a-sorted-array/) | Medium | Binary Search | O(log n) | O(1) |
 | 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Easy | Binary Search | O(n) | O(1) |
 | 572 | [Subtree of Another Tree](../leetcode/0572-subtree-of-another-tree/) | Easy | Binary Search | O(n) | O(1) |
@@ -51,6 +56,7 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 704 | [Binary Search](../leetcode/0792-binary-search/) | Easy | Binary Search | O(log n) | O(1) |
 | 783 | [Minimum Distance Between BST Nodes](../leetcode/0799-minimum-distance-between-bst-nodes/) | Easy | Binary Search | O(n) | O(1) |
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | Medium | Binary Search | O(n) | O(1) |
+| 852 | [Peak Index in a Mountain Array](../leetcode/0882-peak-index-in-a-mountain-array/) | Medium | Binary Search | O(n) | O(1) |
 | 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Easy | Binary Search | O(n) | O(1) |
 | 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Easy | Binary Search | O(n) | O(1) |
 | 897 | [Increasing Order Search Tree](../leetcode/0933-increasing-order-search-tree/) | Easy | Binary Search | O(n) | O(1) |

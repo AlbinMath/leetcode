@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
+- [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
 - [703. Kth Largest Element in a Stream](../0789-kth-largest-element-in-a-stream/)
-- [705. Design HashSet](../0816-design-hashset/)
-- [706. Design HashMap](../0817-design-hashmap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-an-ordered-stream/)

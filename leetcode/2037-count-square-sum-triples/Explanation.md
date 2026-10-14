@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [327. Count of Range Sum](../0327-count-of-range-sum/)
 - [1. Two Sum](../0001-two-sum/)
 - [38. Count and Say](../0038-count-and-say/)
-- [39. Combination Sum](../0039-combination-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-square-sum-triples/)

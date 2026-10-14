@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
-- [636. Exclusive Time of Functions](../0636-exclusive-time-of-functions/)
-- [637. Average of Levels in Binary Tree](../0637-average-of-levels-in-binary-tree/)
+- [122. Best Time to Buy and Sell Stock II](../0122-best-time-to-buy-and-sell-stock-ii/)
+- [123. Best Time to Buy and Sell Stock III](../0123-best-time-to-buy-and-sell-stock-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-time-of-process-per-machine/)

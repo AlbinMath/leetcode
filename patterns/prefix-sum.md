@@ -44,6 +44,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 
 | 1871 | [Jump Game VII](../leetcode/2001-jump-game-vii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2001-jump-game-vii/Explanation.md) |
 
+| 2424 | [Longest Uploaded Prefix](../leetcode/2512-longest-uploaded-prefix/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2512-longest-uploaded-prefix/Explanation.md) |
+
 | 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/Explanation.md) |
 
 | 3043 | [Find the Length of the Longest Common Prefix](../leetcode/3329-find-the-length-of-the-longest-common-prefix/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3329-find-the-length-of-the-longest-common-prefix/Explanation.md) |

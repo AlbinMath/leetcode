@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 - [1422. Maximum Score After Splitting a String](../1537-maximum-score-after-splitting-a-string/)
 - [2492. Minimum Score of a Path Between Two Cities](../2582-minimum-score-of-a-path-between-two-cities/)
-- [2542. Maximum Subsequence Score](../2636-maximum-subsequence-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-path-score-in-a-grid/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [2108. Find First Palindromic String in the Array](../2231-find-first-palindromic-string-in-the-array/)
 - [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)

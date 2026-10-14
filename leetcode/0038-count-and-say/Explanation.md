@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [696. Count Binary Substrings](../0696-count-binary-substrings/)
-- [1351. Count Negative Numbers in a Sorted Matrix](../1476-count-negative-numbers-in-a-sorted-matrix/)
-- [1399. Count Largest Group](../1500-count-largest-group/)
+- [204. Count Primes](../0204-count-primes/)
+- [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
+- [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-and-say/)

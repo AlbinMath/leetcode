@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [2. Add Two Numbers](../0002-add-two-numbers/)
-- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
-- [448. Find All Numbers Disappeared in an Array](../0448-find-all-numbers-disappeared-in-an-array/)
+- [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
+- [129. Sum Root to Leaf Numbers](../0129-sum-root-to-leaf-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/consecutive-numbers/)

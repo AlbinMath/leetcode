@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
 - [1380. Lucky Numbers in a Matrix](../1496-lucky-numbers-in-a-matrix/)
 - [1523. Count Odd Numbers in an Interval Range](../1630-count-odd-numbers-in-an-interval-range/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)

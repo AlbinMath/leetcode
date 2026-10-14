@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1409. Queries on a Permutation With Key](../1525-queries-on-a-permutation-with-key/)
 - [1633. Percentage of Users Attended a Contest](../1773-percentage-of-users-attended-a-contest/)
-- [3093. Longest Common Suffix Queries](../3376-longest-common-suffix-queries/)
-- [3161. Block Placement Queries](../3435-block-placement-queries/)
+- [2736. Maximum Sum Queries](../2839-maximum-sum-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queries-quality-and-percentage/)

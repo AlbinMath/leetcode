@@ -78,8 +78,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [15. 3Sum](../0015-3sum/)
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
-- [18. 4Sum](../0018-4sum/)
+- [658. Find K Closest Elements](../0658-find-k-closest-elements/)
+- [2523. Closest Prime Numbers in Range](../2610-closest-prime-numbers-in-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/3sum-closest/)

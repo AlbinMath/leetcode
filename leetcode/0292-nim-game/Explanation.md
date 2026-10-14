@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [45. Jump Game II](../0045-jump-game-ii/)
 - [55. Jump Game](../0055-jump-game/)
-- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
+- [289. Game of Life](../0289-game-of-life/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/nim-game/)

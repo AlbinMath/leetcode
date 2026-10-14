@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1964. Find the Longest Valid Obstacle Course at Each Position](../2096-find-the-longest-valid-obstacle-course-at-each-position/)
 - [3302. Find the Lexicographically Smallest Valid Sequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
 - [3436. Find Valid Emails](../3782-find-valid-emails/)
-- [3465. Find Products with Valid Serial Numbers](../3803-find-products-with-valid-serial-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-users-with-valid-e-mails/)

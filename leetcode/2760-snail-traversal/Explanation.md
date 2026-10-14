@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [144. Binary Tree Preorder Traversal](../0144-binary-tree-preorder-traversal/)
-- [145. Binary Tree Postorder Traversal](../0145-binary-tree-postorder-traversal/)
+- [102. Binary Tree Level Order Traversal](../0102-binary-tree-level-order-traversal/)
+- [103. Binary Tree Zigzag Level Order Traversal](../0103-binary-tree-zigzag-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/snail-traversal/)

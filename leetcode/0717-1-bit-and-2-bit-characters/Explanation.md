@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [191. Number of 1 Bits](../0191-number-of-1-bits/)
 - [1002. Find Common Characters](../1044-find-common-characters/)
-- [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/1-bit-and-2-bit-characters/)

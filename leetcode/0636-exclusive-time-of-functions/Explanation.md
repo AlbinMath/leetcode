@@ -73,8 +73,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
-- [714. Best Time to Buy and Sell Stock with Transaction Fee](../0714-best-time-to-buy-and-sell-stock-with-transaction-fee/)
-- [1266. Minimum Time Visiting All Points](../1395-minimum-time-visiting-all-points/)
+- [122. Best Time to Buy and Sell Stock II](../0122-best-time-to-buy-and-sell-stock-ii/)
+- [123. Best Time to Buy and Sell Stock III](../0123-best-time-to-buy-and-sell-stock-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/exclusive-time-of-functions/)

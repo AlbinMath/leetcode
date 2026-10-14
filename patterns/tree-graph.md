@@ -102,7 +102,19 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 74 | [Search a 2D Matrix](../leetcode/0074-search-a-2d-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0074-search-a-2d-matrix/Explanation.md) |
 
+| 102 | [Binary Tree Level Order Traversal](../leetcode/0102-binary-tree-level-order-traversal/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0102-binary-tree-level-order-traversal/Explanation.md) |
+
+| 103 | [Binary Tree Zigzag Level Order Traversal](../leetcode/0103-binary-tree-zigzag-level-order-traversal/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0103-binary-tree-zigzag-level-order-traversal/Explanation.md) |
+
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](../leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal/Explanation.md) |
+
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/Explanation.md) |
+
+| 129 | [Sum Root to Leaf Numbers](../leetcode/0129-sum-root-to-leaf-numbers/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0129-sum-root-to-leaf-numbers/Explanation.md) |
+
 | 198 | [House Robber](../leetcode/0198-house-robber/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0198-house-robber/Explanation.md) |
+
+| 427 | [Construct Quad Tree](../leetcode/0772-construct-quad-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0772-construct-quad-tree/Explanation.md) |
 
 | 437 | [Path Sum III](../leetcode/0437-path-sum-iii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0437-path-sum-iii/Explanation.md) |
 
@@ -152,7 +164,11 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 |---|---|---|---|---|---|
 | 51 | [N-Queens](../leetcode/0051-n-queens/) | Python | O(n) | O(n) | [Explanation](../leetcode/0051-n-queens/Explanation.md) |
 
+| 124 | [Binary Tree Maximum Path Sum](../leetcode/0124-binary-tree-maximum-path-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0124-binary-tree-maximum-path-sum/Explanation.md) |
+
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Python | O(n) | O(n) | [Explanation](../leetcode/1968-maximum-building-height/Explanation.md) |
+
+| 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3112-count-valid-paths-in-a-tree/Explanation.md) |
 
 | 3518 | [Smallest Palindromic Rearrangement II](../leetcode/3813-smallest-palindromic-rearrangement-ii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3813-smallest-palindromic-rearrangement-ii/Explanation.md) |
 

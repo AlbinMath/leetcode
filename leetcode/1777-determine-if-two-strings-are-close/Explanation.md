@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1662. Check If Two String Arrays are Equivalent](../1781-check-if-two-string-arrays-are-equivalent/)
 - [1704. Determine if String Halves Are Alike](../1823-determine-if-string-halves-are-alike/)
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [2068. Check Whether Two Strings are Almost Equivalent](../2177-check-whether-two-strings-are-almost-equivalent/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-if-two-strings-are-close/)

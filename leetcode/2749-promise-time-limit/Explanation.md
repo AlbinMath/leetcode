@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2622. Cache With Time Limit](../2762-cache-with-time-limit/)
 - [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
-- [636. Exclusive Time of Functions](../0636-exclusive-time-of-functions/)
+- [122. Best Time to Buy and Sell Stock II](../0122-best-time-to-buy-and-sell-stock-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/promise-time-limit/)

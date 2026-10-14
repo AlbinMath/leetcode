@@ -26,7 +26,11 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 |---|---|---|---|---|---|
 | 22 | [Generate Parentheses](../leetcode/0022-generate-parentheses/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0022-generate-parentheses/Explanation.md) |
 
+| 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/Explanation.md) |
+
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0150-evaluate-reverse-polish-notation/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/0150-evaluate-reverse-polish-notation/Explanation.md) |
+
+| 155 | [Min Stack](../leetcode/0155-min-stack/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0155-min-stack/Explanation.md) |
 
 | 399 | [Evaluate Division](../leetcode/0399-evaluate-division/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0399-evaluate-division/Explanation.md) |
 

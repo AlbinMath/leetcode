@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1157. Online Majority Element In Subarray](../1262-online-majority-element-in-subarray/)
 - [3737. Count Subarrays With Majority Element I](../4074-count-subarrays-with-majority-element-i/)
 - [3739. Count Subarrays With Majority Element II](../4075-count-subarrays-with-majority-element-ii/)
-- [27. Remove Element](../0027-remove-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/majority-element/)

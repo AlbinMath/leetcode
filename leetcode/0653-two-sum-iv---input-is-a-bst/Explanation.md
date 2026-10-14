@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 - [1. Two Sum](../0001-two-sum/)
 - [303. Range Sum Query   Immutable](../0303-range-sum-query---immutable/)
-- [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-sum-iv---input-is-a-bst/)

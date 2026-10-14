@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1456. Maximum Number of Vowels in a Substring of Given Length](../1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
 - [1700. Number of Students Unable to Eat Lunch](../1802-number-of-students-unable-to-eat-lunch/)
-- [9. Palindrome Number](../0009-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)

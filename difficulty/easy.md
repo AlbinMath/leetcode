@@ -47,7 +47,8 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 181 | [Employees Earning More Than Their Managers](../leetcode/0181-employees-earning-more-than-their-managers/) | Database / SQL | SQL | O(n) | O(n) |
 | 182 | [Duplicate Emails](../leetcode/0182-duplicate-emails/) | Database / SQL | SQL | O(n) | O(n) |
 | 183 | [Customers Who Never Order](../leetcode/0183-customers-who-never-order/) | Database / SQL | SQL | O(n) | O(n) |
-| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Linked List | Python | O(n) | O(1) |
+| 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Two Pointers | Python | O(n) | O(1) |
+| 191 | [Number of 1 Bits](../leetcode/0191-number-of-1-bits/) | Bit Manipulation | JavaScript | O(n) | O(1) |
 | 193 | [Valid Phone Numbers](../leetcode/0193-valid-phone-numbers/) | Array / General | Shell | O(n) | O(1) |
 | 195 | [Tenth Line](../leetcode/0195-tenth-line/) | Array / General | Shell | O(n) | O(1) |
 | 196 | [Delete Duplicate Emails](../leetcode/0196-delete-duplicate-emails/) | Database / SQL | SQL | O(n) | O(n) |
@@ -116,7 +117,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 520 | [Detect Capital](../leetcode/0520-detect-capital/) | Array / General | JavaScript, Python | O(n) | O(1) |
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Dynamic Programming | Python | O(n) | O(n) |
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Binary Search | Python | O(n) | O(1) |
-| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Linked List | Python | O(n) | O(1) |
+| 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Two Pointers | Python | O(n) | O(1) |
 | 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Binary Search | Python | O(n) | O(1) |
 | 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Monotonic Stack | Python | O(n) | O(n) |
 | 557 | [Reverse Words in a String III](../leetcode/0557-reverse-words-in-a-string-iii/) | Array / General | Python | O(n) | O(1) |
@@ -199,7 +200,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 905 | [Sort Array By Parity](../leetcode/0941-sort-array-by-parity/) | Hash Map | Python | O(n) | O(n) |
 | 908 | [Smallest Range I](../leetcode/0944-smallest-range-i/) | Array / General | Python | O(n) | O(1) |
 | 914 | [X of a Kind in a Deck of Cards](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/) | Array / General | Python | O(n) | O(1) |
-| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Linked List | Python | O(n) | O(1) |
+| 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Two Pointers | Python | O(n) | O(1) |
 | 922 | [Sort Array By Parity II](../leetcode/0958-sort-array-by-parity-ii/) | Array / General | Python | O(n) | O(1) |
 | 925 | [Long Pressed Name](../leetcode/0961-long-pressed-name/) | Array / General | Python | O(n) | O(1) |
 | 929 | [Unique Email Addresses](../leetcode/0965-unique-email-addresses/) | Array / General | Python | O(n) | O(1) |
@@ -319,6 +320,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1630-count-odd-numbers-in-an-interval-range/) | Heap | Python | O(n) | O(n) |
 | 1527 | [Patients With a Condition](../leetcode/1670-patients-with-a-condition/) | Database / SQL | SQL | O(n) | O(n) |
 | 1528 | [Shuffle String](../leetcode/1651-shuffle-string/) | Array / General | Python | O(n) | O(1) |
+| 1539 | [Kth Missing Positive Number](../leetcode/1646-kth-missing-positive-number/) | Array / General | JavaScript | O(n) | O(1) |
 | 1544 | [Make The String Great](../leetcode/1666-make-the-string-great/) | Array / General | Python | O(n) | O(1) |
 | 1550 | [Three Consecutive Odds](../leetcode/1293-three-consecutive-odds/) | Array / General | Python | O(n) | O(1) |
 | 1556 | [Thousand Separator](../leetcode/1660-thousand-separator/) | Array / General | Python | O(n) | O(1) |
@@ -422,7 +424,17 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1991 | [Find the Middle Index in Array](../leetcode/2102-find-the-middle-index-in-array/) | Array / General | JavaScript | O(n) | O(1) |
 | 1995 | [Count Special Quadruplets](../leetcode/2122-count-special-quadruplets/) | Array / General | JavaScript | O(n) | O(1) |
 | 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Prefix Sum | JavaScript | O(n) | O(n) |
+| 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | Array / General | JavaScript | O(n) | O(1) |
+| 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | Array / General | JavaScript | O(n) | O(1) |
+| 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | Array / General | JavaScript | O(n) | O(1) |
+| 2047 | [Number of Valid Words in a Sentence](../leetcode/2173-number-of-valid-words-in-a-sentence/) | Array / General | JavaScript | O(n) | O(1) |
+| 2053 | [Kth Distinct String in an Array](../leetcode/2163-kth-distinct-string-in-an-array/) | Array / General | JavaScript | O(n) | O(1) |
+| 2062 | [Count Vowel Substrings of a String](../leetcode/2186-count-vowel-substrings-of-a-string/) | Array / General | JavaScript | O(n) | O(1) |
+| 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/) | Hash Map | JavaScript | O(n) | O(n) |
 | 2073 | [Time Needed to Buy Tickets](../leetcode/2195-time-needed-to-buy-tickets/) | Array / General | JavaScript | O(n) | O(1) |
+| 2085 | [Count Common Words With One Occurrence](../leetcode/2190-count-common-words-with-one-occurrence/) | Array / General | JavaScript | O(n) | O(1) |
+| 2103 | [Rings and Rods](../leetcode/2226-rings-and-rods/) | Array / General | JavaScript | O(n) | O(1) |
+| 2108 | [Find First Palindromic String in the Array](../leetcode/2231-find-first-palindromic-string-in-the-array/) | Array / General | JavaScript | O(n) | O(1) |
 | 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Sliding Window | Kotlin | O(n) | O(1) |
 | 2215 | [Find the Difference of Two Arrays](../leetcode/1392-find-the-difference-of-two-arrays/) | Array / General | JavaScript | O(n) | O(1) |
 | 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Database / SQL | SQL | O(n) | O(n) |
@@ -483,7 +495,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 3570 | [Find Books with No Available Copies](../leetcode/3910-find-books-with-no-available-copies/) | Array / General | Python | O(n) | O(1) |
 | 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Math & Logic | C | O(n) | O(1) |
 | 3633 | [Earliest Finish Time for Land and Water Rides I](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/) | Array / General | Kotlin | O(n) | O(1) |
-| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Linked List | Kotlin | O(n) | O(1) |
+| 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Two Pointers | Kotlin | O(n) | O(1) |
 | 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Prefix Sum | C# | O(n) | O(n) |
 | 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Array / General | PHP | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Bit Manipulation | Kotlin | O(n) | O(1) |

@@ -64,8 +64,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
+- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 - [977. Squares of a Sorted Array](../1019-squares-of-a-sorted-array/)
-- [1441. Build an Array With Stack Operations](../1552-build-an-array-with-stack-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/)
