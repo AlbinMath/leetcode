@@ -432,5 +432,7 @@ LeetCode problems solved using **Array** data structures.
 | 3876 | [Construct Uniform Parity Array II](../leetcode/4258-construct-uniform-parity-array-ii/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 3904 | [Smallest Stable Index II](../leetcode/4285-smallest-stable-index-ii/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
+| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | Two Pointer Convergence & Scanning | O(n) | O(1) |
+| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | Two Pointer Convergence & Scanning | O(n) | O(1) |
 | 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |

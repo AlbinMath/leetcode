@@ -327,8 +327,8 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 3762 | [Minimum Operations to Equalize Subarrays](../leetcode/4022-minimum-operations-to-equalize-subarrays/) | Hard | Array / General | O(n) | O(1) |
 | 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
-| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | Linked List | O(n) | O(1) |
-| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | Linked List | O(n) | O(1) |
+| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | Two Pointers | O(n) | O(1) |
+| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | Two Pointers | O(n) | O(1) |
 | 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Hard | Hash Map | O(n) | O(n) |
 | 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Hard | Array / General | O(n) | O(1) |
 | 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Hard | Array / General | O(n) | O(1) |

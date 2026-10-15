@@ -333,4 +333,4 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 3871 | [Count Commas in Range II](../leetcode/4248-count-commas-in-range-ii/) | Array / General | JavaScript | O(n) | O(1) |
 | 3876 | [Construct Uniform Parity Array II](../leetcode/4258-construct-uniform-parity-array-ii/) | Array / General | C++ | O(n) | O(1) |
 | 3904 | [Smallest Stable Index II](../leetcode/4285-smallest-stable-index-ii/) | Array / General | JavaScript | O(n) | O(1) |
-| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Linked List | Python | O(n) | O(1) |
+| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Two Pointers | Python | O(n) | O(1) |

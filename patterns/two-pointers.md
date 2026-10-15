@@ -94,6 +94,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 2721 | [Execute Asynchronous Functions in Parallel](../leetcode/2807-execute-asynchronous-functions-in-parallel/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2807-execute-asynchronous-functions-in-parallel/Explanation.md) |
 
+| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
@@ -105,4 +107,6 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/Explanation.md) |
 
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/Explanation.md) |
+
+| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/Explanation.md) |
 

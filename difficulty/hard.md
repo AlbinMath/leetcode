@@ -120,7 +120,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 3832 | [Find Users with Persistent Behavior Patterns](../leetcode/4227-find-users-with-persistent-behavior-patterns/) | Database / SQL | SQL | O(n) | O(n) |
 | 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Tree & Graph | Python | O(n) | O(n) |
 | 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/) | Array / General | C++ | O(n) | O(1) |
-| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Linked List | Python | O(n) | O(1) |
+| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Two Pointers | Python | O(n) | O(1) |
 | 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Hash Map | Python | O(n) | O(n) |
 | 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Array / General | Python | O(n) | O(1) |
 | 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Array / General | Python | O(n) | O(1) |
