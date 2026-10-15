@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1437. Check If All 1's Are at Least Length K Places Away](../1548-check-if-all-1s-are-at-least-length-k-places-away/)
 - [1863. Sum of All Subset XOR Totals](../1993-sum-of-all-subset-xor-totals/)
-- [1. Two Sum](../0001-two-sum/)
+- [2913. Subarrays Distinct Element Sum of Squares I](../3163-subarrays-distinct-element-sum-of-squares-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)

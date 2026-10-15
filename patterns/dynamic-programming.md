@@ -62,11 +62,17 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/1522-stone-game-iii/Explanation.md) |
 
+| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1296-kth-ancestor-of-a-tree-node/Explanation.md) |
+
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1617-stone-game-iv/Explanation.md) |
 
 | 2407 | [Longest Increasing Subsequence II](../leetcode/2526-longest-increasing-subsequence-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2526-longest-increasing-subsequence-ii/Explanation.md) |
 
+| 2926 | [Maximum Balanced Subsequence Sum](../leetcode/3184-maximum-balanced-subsequence-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3184-maximum-balanced-subsequence-sum/Explanation.md) |
+
 | 3312 | [Sorted GCD Pair Queries](../leetcode/3583-sorted-gcd-pair-queries/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3583-sorted-gcd-pair-queries/Explanation.md) |
 
 | 3336 | [Find the Number of Subsequences With Equal GCD](../leetcode/3608-find-the-number-of-subsequences-with-equal-gcd/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3608-find-the-number-of-subsequences-with-equal-gcd/Explanation.md) |
+
+| 3671 | [Sum of Beautiful Subsequences](../leetcode/3989-sum-of-beautiful-subsequences/) | Python | O(n) | O(n) | [Explanation](../leetcode/3989-sum-of-beautiful-subsequences/Explanation.md) |
 

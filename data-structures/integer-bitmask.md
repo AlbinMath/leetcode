@@ -41,6 +41,7 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 2886 | [Change Data Type](../leetcode/3069-change-data-type/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2887 | [Fill Missing Data](../leetcode/3070-fill-missing-data/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2890 | [Reshape Data: Melt](../leetcode/3073-reshape-data-melt/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 3624 | [Number of Integers With Popcount-Depth Equal to K II](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |

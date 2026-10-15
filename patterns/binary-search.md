@@ -120,6 +120,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 230 | [Kth Smallest Element in a BST](../leetcode/0230-kth-smallest-element-in-a-bst/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0230-kth-smallest-element-in-a-bst/Explanation.md) |
 
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](../leetcode/0235-lowest-common-ancestor-of-a-binary-search-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0235-lowest-common-ancestor-of-a-binary-search-tree/Explanation.md) |
+
 | 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/Explanation.md) |
 
 | 300 | [Longest Increasing Subsequence](../leetcode/0300-longest-increasing-subsequence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0300-longest-increasing-subsequence/Explanation.md) |

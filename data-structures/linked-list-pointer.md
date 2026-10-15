@@ -10,3 +10,4 @@ LeetCode problems solved using **Linked List / Pointer** data structures.
 | 141 | [Linked List Cycle](../leetcode/0141-linked-list-cycle/) | Easy | Floyd Cycle Detection | O(n) | O(1) |
 | 2095 | [Delete the Middle Node of a Linked List](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Medium | Floyd Cycle Detection | O(n) | O(1) |
 | 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Medium | Floyd Cycle Detection | O(n) | O(1) |
+| 2509 | [Cycle Length Queries in a Tree](../leetcode/2597-cycle-length-queries-in-a-tree/) | Hard | Floyd Cycle Detection | O(n) | O(1) |

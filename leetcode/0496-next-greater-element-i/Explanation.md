@@ -64,9 +64,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
+- [2913. Subarrays Distinct Element Sum of Squares I](../3163-subarrays-distinct-element-sum-of-squares-i/)
 - [3737. Count Subarrays With Majority Element I](../4074-count-subarrays-with-majority-element-i/)
 - [27. Remove Element](../0027-remove-element/)
-- [31. Next Permutation](../0031-next-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/next-greater-element-i/)

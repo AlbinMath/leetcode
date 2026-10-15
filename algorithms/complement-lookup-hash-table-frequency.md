@@ -57,3 +57,4 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Hard | Hash Map | O(n) | O(n) |
 | 3699 | [Number of ZigZag Arrays I](../leetcode/3962-number-of-zigzag-arrays-i/) | Hard | Hash Map | O(n) | O(n) |
 | 3838 | [Weighted Word Mapping](../leetcode/4216-weighted-word-mapping/) | Easy | Hash Map | O(n) | O(n) |
+| 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Hard | Hash Map | O(n) | O(n) |

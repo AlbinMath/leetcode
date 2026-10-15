@@ -319,7 +319,16 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 3601 | [Find Drivers with Improved Fuel Efficiency](../leetcode/3942-find-drivers-with-improved-fuel-efficiency/) | Medium | Array / General | O(n) | O(1) |
 | 3611 | [Find Overbooked Employees](../leetcode/3943-find-overbooked-employees/) | Medium | Array / General | O(n) | O(1) |
 | 3614 | [Process String with Special Operations II](../leetcode/3939-process-string-with-special-operations-ii/) | Hard | Tree & Graph | O(n) | O(n) |
+| 3624 | [Number of Integers With Popcount-Depth Equal to K II](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/) | Hard | Bit Manipulation | O(n) | O(1) |
+| 3671 | [Sum of Beautiful Subsequences](../leetcode/3989-sum-of-beautiful-subsequences/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 3691 | [Maximum Total Subarray Value II](../leetcode/4007-maximum-total-subarray-value-ii/) | Hard | Array / General | O(n) | O(1) |
 | 3705 | [Find Golden Hour Customers](../leetcode/4091-find-golden-hour-customers/) | Medium | Array / General | O(n) | O(1) |
 | 3716 | [Find Churn Risk Customers](../leetcode/4103-find-churn-risk-customers/) | Medium | Array / General | O(n) | O(1) |
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | Bit Manipulation | O(n) | O(1) |
+| 3762 | [Minimum Operations to Equalize Subarrays](../leetcode/4022-minimum-operations-to-equalize-subarrays/) | Hard | Array / General | O(n) | O(1) |
+| 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
+| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | Array / General | O(n) | O(1) |
+| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | Array / General | O(n) | O(1) |
+| 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Hard | Hash Map | O(n) | O(n) |
+| 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Hard | Array / General | O(n) | O(1) |
+| 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Hard | Array / General | O(n) | O(1) |

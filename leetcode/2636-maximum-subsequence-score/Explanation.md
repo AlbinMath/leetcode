@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1422. Maximum Score After Splitting a String](../1537-maximum-score-after-splitting-a-string/)
+- [2926. Maximum Balanced Subsequence Sum](../3184-maximum-balanced-subsequence-sum/)
 - [3414. Maximum Score of Non-overlapping Intervals](../3562-maximum-score-of-non-overlapping-intervals/)
-- [3742. Maximum Path Score in a Grid](../3986-maximum-path-score-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subsequence-score/)

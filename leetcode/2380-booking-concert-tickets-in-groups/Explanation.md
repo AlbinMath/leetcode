@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [830. Positions of Large Groups](../0857-positions-of-large-groups/)
 - [2073. Time Needed to Buy Tickets](../2195-time-needed-to-buy-tickets/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [3245. Alternating Groups III](../3527-alternating-groups-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/booking-concert-tickets-in-groups/)

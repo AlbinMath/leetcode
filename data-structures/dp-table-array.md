@@ -24,12 +24,15 @@ LeetCode problems solved using **DP Table / Array** data structures.
 | 1340 | [Jump Game V](../leetcode/1466-jump-game-v/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 1403 | [Minimum Subsequence in Non-Increasing Order](../leetcode/1519-minimum-subsequence-in-non-increasing-order/) | Easy | Memoization & State Transition | O(n) | O(n) |
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | Hard | Memoization & State Transition | O(n) | O(n) |
+| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 1498 | [Number of Subsequences That Satisfy the Given Sum Condition](../leetcode/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Memoization & State Transition | O(n) | O(n) |
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | Easy | Memoization & State Transition | O(n) | O(n) |
 | 2407 | [Longest Increasing Subsequence II](../leetcode/2526-longest-increasing-subsequence-ii/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 2542 | [Maximum Subsequence Score](../leetcode/2636-maximum-subsequence-score/) | Medium | Memoization & State Transition | O(n) | O(n) |
 | 2770 | [Maximum Number of Jumps to Reach the Last Index](../leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/) | Medium | Memoization & State Transition | O(n) | O(n) |
+| 2926 | [Maximum Balanced Subsequence Sum](../leetcode/3184-maximum-balanced-subsequence-sum/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 3312 | [Sorted GCD Pair Queries](../leetcode/3583-sorted-gcd-pair-queries/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 3336 | [Find the Number of Subsequences With Equal GCD](../leetcode/3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard | Memoization & State Transition | O(n) | O(n) |
+| 3671 | [Sum of Beautiful Subsequences](../leetcode/3989-sum-of-beautiful-subsequences/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](../leetcode/4033-longest-subsequence-with-non-zero-bitwise-xor/) | Medium | Memoization & State Transition | O(n) | O(n) |

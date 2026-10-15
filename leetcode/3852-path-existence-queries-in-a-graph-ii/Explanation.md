@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3532. Path Existence Queries in a Graph I](../3838-path-existence-queries-in-a-graph-i/)
 - [1971. Find if Path Exists in Graph](../2121-find-if-path-exists-in-graph/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [3841. Palindromic Path Queries in a Tree](../4209-palindromic-path-queries-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/)

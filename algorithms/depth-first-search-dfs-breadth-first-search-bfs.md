@@ -45,6 +45,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 918 | [Maximum Sum Circular Subarray](../leetcode/0954-maximum-sum-circular-subarray/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1022 | [Sum of Root To Leaf Binary Numbers](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1030 | [Matrix Cells in Distance Order](../leetcode/1094-matrix-cells-in-distance-order/) | Easy | Tree & Graph | O(n) | O(n) |
+| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1160 | [Find Words That Can Be Formed by Characters](../leetcode/1112-find-words-that-can-be-formed-by-characters/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1252 | [Cells with Odd Values in a Matrix](../leetcode/1378-cells-with-odd-values-in-a-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -83,6 +84,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 3310 | [Remove Methods From Project](../leetcode/3561-remove-methods-from-project/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3345 | [Smallest Divisible Digit Product I](../leetcode/3626-smallest-divisible-digit-product-i/) | Easy | Tree & Graph | O(n) | O(n) |
 | 3513 | [Number of Unique XOR Triplets I](../leetcode/3824-number-of-unique-xor-triplets-i/) | Medium | Tree & Graph | O(n) | O(n) |
+| 3515 | [Shortest Path in a Weighted Tree](../leetcode/3829-shortest-path-in-a-weighted-tree/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3517 | [Smallest Palindromic Rearrangement I](../leetcode/3812-smallest-palindromic-rearrangement-i/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3518 | [Smallest Palindromic Rearrangement II](../leetcode/3813-smallest-palindromic-rearrangement-ii/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3532 | [Path Existence Queries in a Graph I](../leetcode/3838-path-existence-queries-in-a-graph-i/) | Medium | Tree & Graph | O(n) | O(n) |
@@ -95,5 +97,6 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 3700 | [Number of ZigZag Arrays II](../leetcode/3964-number-of-zigzag-arrays-ii/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3727 | [Maximum Alternating Sum of Squares](../leetcode/4078-maximum-alternating-sum-of-squares/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3742 | [Maximum Path Score in a Grid](../leetcode/3986-maximum-path-score-in-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |
+| 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3870 | [Count Commas in Range](../leetcode/4245-count-commas-in-range/) | Easy | Tree & Graph | O(n) | O(n) |
 | 3903 | [Smallest Stable Index I](../leetcode/4284-smallest-stable-index-i/) | Easy | Tree & Graph | O(n) | O(n) |

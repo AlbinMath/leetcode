@@ -472,6 +472,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 2882 | [Drop Duplicate Rows](../leetcode/3071-drop-duplicate-rows/) | Python | O(n) | O(1) | [Explanation](../leetcode/3071-drop-duplicate-rows/Explanation.md) |
 
+| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/Explanation.md) |
+
 | 3090 | [Maximum Length Substring With Two Occurrences](../leetcode/3349-maximum-length-substring-with-two-occurrences/) | Swift | O(n) | O(1) | [Explanation](../leetcode/3349-maximum-length-substring-with-two-occurrences/Explanation.md) |
 
 | 3120 | [Count the Number of Special Characters I](../leetcode/3408-count-the-number-of-special-characters-i/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3408-count-the-number-of-special-characters-i/Explanation.md) |
@@ -704,6 +706,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 3904 | [Smallest Stable Index II](../leetcode/4285-smallest-stable-index-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/4285-smallest-stable-index-ii/Explanation.md) |
 
+| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
@@ -754,7 +758,17 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 2650 | [Design Cancellable Function](../leetcode/2788-design-cancellable-function/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2788-design-cancellable-function/Explanation.md) |
 
+| 2916 | [Subarrays Distinct Element Sum of Squares II](../leetcode/3139-subarrays-distinct-element-sum-of-squares-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3139-subarrays-distinct-element-sum-of-squares-ii/Explanation.md) |
+
+| 2940 | [Find Building Where Alice and Bob Can Meet](../leetcode/3181-find-building-where-alice-and-bob-can-meet/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3181-find-building-where-alice-and-bob-can-meet/Explanation.md) |
+
+| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3350-distribute-elements-into-two-arrays-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3350-distribute-elements-into-two-arrays-ii/Explanation.md) |
+
 | 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Python | O(n) | O(1) | [Explanation](../leetcode/3435-block-placement-queries/Explanation.md) |
+
+| 3187 | [Peaks in Array](../leetcode/3438-peaks-in-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3438-peaks-in-array/Explanation.md) |
+
+| 3245 | [Alternating Groups III](../leetcode/3527-alternating-groups-iii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3527-alternating-groups-iii/Explanation.md) |
 
 | 3482 | [Analyze Organization Hierarchy](../leetcode/3828-analyze-organization-hierarchy/) | Python | O(n) | O(1) | [Explanation](../leetcode/3828-analyze-organization-hierarchy/Explanation.md) |
 
@@ -765,4 +779,14 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 3691 | [Maximum Total Subarray Value II](../leetcode/4007-maximum-total-subarray-value-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4007-maximum-total-subarray-value-ii/Explanation.md) |
 
 | 3739 | [Count Subarrays With Majority Element II](../leetcode/4075-count-subarrays-with-majority-element-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/4075-count-subarrays-with-majority-element-ii/Explanation.md) |
+
+| 3762 | [Minimum Operations to Equalize Subarrays](../leetcode/4022-minimum-operations-to-equalize-subarrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/4022-minimum-operations-to-equalize-subarrays/Explanation.md) |
+
+| 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/Explanation.md) |
+
+| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/Explanation.md) |
+
+| 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Python | O(n) | O(1) | [Explanation](../leetcode/4317-count-subarrays-with-distant-sums/Explanation.md) |
+
+| 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4326-count-shadow-pairs-ii/Explanation.md) |
 

@@ -37,6 +37,7 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 212 | [Word Search II](../leetcode/0212-word-search-ii/) | Hard | Binary Search | O(n) | O(1) |
 | 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 230 | [Kth Smallest Element in a BST](../leetcode/0230-kth-smallest-element-in-a-bst/) | Medium | Binary Search | O(n) | O(1) |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](../leetcode/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Easy | Binary Search | O(n) | O(1) |
 | 300 | [Longest Increasing Subsequence](../leetcode/0300-longest-increasing-subsequence/) | Medium | Binary Search | O(n) | O(1) |

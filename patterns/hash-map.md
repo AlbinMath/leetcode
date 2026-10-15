@@ -118,3 +118,5 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 3699 | [Number of ZigZag Arrays I](../leetcode/3962-number-of-zigzag-arrays-i/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3962-number-of-zigzag-arrays-i/Explanation.md) |
 
+| 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/3988-valid-k-unique-subarrays-i/Explanation.md) |
+

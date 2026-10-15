@@ -77,7 +77,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1342. Number of Steps to Reduce a Number to Zero](../1444-number-of-steps-to-reduce-a-number-to-zero/)
 - [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [3762. Minimum Operations to Equalize Subarrays](../4022-minimum-operations-to-equalize-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)

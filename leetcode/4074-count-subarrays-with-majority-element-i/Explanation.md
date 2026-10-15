@@ -65,8 +65,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3739. Count Subarrays With Majority Element II](../4075-count-subarrays-with-majority-element-ii/)
-- [169. Majority Element](../0169-majority-element/)
-- [496. Next Greater Element I](../0496-next-greater-element-i/)
+- [2913. Subarrays Distinct Element Sum of Squares I](../3163-subarrays-distinct-element-sum-of-squares-i/)
+- [4011. Count Subarrays With Even Odd Ratio I](../4323-count-subarrays-with-even-odd-ratio-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-majority-element-i/)

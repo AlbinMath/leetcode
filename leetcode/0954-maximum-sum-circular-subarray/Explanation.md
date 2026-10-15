@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1800. Maximum Ascending Subarray Sum](../1927-maximum-ascending-subarray-sum/)
+- [3962. Maximum Subarray Sum After at Most K Swaps](../4246-maximum-subarray-sum-after-at-most-k-swaps/)
 - [53. Maximum Subarray](../0053-maximum-subarray/)
-- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-sum-circular-subarray/)

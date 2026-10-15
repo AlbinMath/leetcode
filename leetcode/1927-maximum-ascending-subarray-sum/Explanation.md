@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
+- [3962. Maximum Subarray Sum After at Most K Swaps](../4246-maximum-subarray-sum-after-at-most-k-swaps/)
 - [53. Maximum Subarray](../0053-maximum-subarray/)
-- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-ascending-subarray-sum/)

@@ -84,6 +84,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 224 | [Basic Calculator](../leetcode/0224-basic-calculator/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 230 | [Kth Smallest Element in a BST](../leetcode/0230-kth-smallest-element-in-a-bst/) | Medium | Binary Search | O(n) | O(1) |
 | 232 | [Implement Queue using Stacks](../leetcode/0232-implement-queue-using-stacks/) | Easy | Trie | O(n) | O(n) |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](../leetcode/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 238 | [Product of Array Except Self](../leetcode/0238-product-of-array-except-self/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 274 | [H-Index](../leetcode/0274-h-index/) | Medium | Array / General | O(n) | O(1) |
@@ -144,6 +145,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Easy | Math & Logic | O(n) | O(1) |
 | 841 | [Keys and Rooms](../leetcode/0871-keys-and-rooms/) | Medium | Array / General | O(n) | O(1) |
 | 852 | [Peak Index in a Mountain Array](../leetcode/0882-peak-index-in-a-mountain-array/) | Medium | Binary Search | O(n) | O(1) |
+| 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | Medium | Linked List | O(n) | O(1) |
 | 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Easy | Binary Search | O(n) | O(1) |
 | 875 | [Koko Eating Bananas](../leetcode/0907-koko-eating-bananas/) | Medium | Array / General | O(n) | O(1) |
 | 901 | [Online Stock Span](../leetcode/0937-online-stock-span/) | Medium | Array / General | O(n) | O(1) |
@@ -157,6 +159,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1046 | [Last Stone Weight](../leetcode/1127-last-stone-weight/) | Easy | Array / General | O(n) | O(1) |
 | 1071 | [Greatest Common Divisor of Strings](../leetcode/1146-greatest-common-divisor-of-strings/) | Easy | Array / General | O(n) | O(1) |
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | Hard | Array / General | O(n) | O(1) |
+| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1143 | [Longest Common Subsequence](../leetcode/1250-longest-common-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1146 | [Snapshot Array](../leetcode/1249-snapshot-array/) | Medium | Array / General | O(n) | O(1) |
@@ -175,6 +178,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](../leetcode/1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium | Array / General | O(n) | O(1) |
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | Sliding Window | O(n) | O(1) |
+| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](../leetcode/1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium | Array / General | O(n) | O(1) |
 | 1498 | [Number of Subsequences That Satisfy the Given Sum Condition](../leetcode/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | Hard | Math & Logic | O(n) | O(1) |
@@ -205,6 +209,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 2073 | [Time Needed to Buy Tickets](../leetcode/2195-time-needed-to-buy-tickets/) | Easy | Array / General | O(n) | O(1) |
 | 2085 | [Count Common Words With One Occurrence](../leetcode/2190-count-common-words-with-one-occurrence/) | Easy | Array / General | O(n) | O(1) |
 | 2095 | [Delete the Middle Node of a Linked List](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
+| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | Linked List | O(n) | O(1) |
 | 2103 | [Rings and Rods](../leetcode/2226-rings-and-rods/) | Easy | Array / General | O(n) | O(1) |
 | 2108 | [Find First Palindromic String in the Array](../leetcode/2231-find-first-palindromic-string-in-the-array/) | Easy | Array / General | O(n) | O(1) |
 | 2109 | [Adding Spaces to a String](../leetcode/2232-adding-spaces-to-a-string/) | Medium | Array / General | O(n) | O(1) |
@@ -226,6 +231,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 2462 | [Total Cost to Hire K Workers](../leetcode/2553-total-cost-to-hire-k-workers/) | Medium | Array / General | O(n) | O(1) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard | Two Pointers | O(n) | O(1) |
 | 2507 | [Smallest Value After Replacing With Sum of Prime Factors](../leetcode/2595-smallest-value-after-replacing-with-sum-of-prime-factors/) | Medium | Array / General | O(n) | O(1) |
+| 2509 | [Cycle Length Queries in a Tree](../leetcode/2597-cycle-length-queries-in-a-tree/) | Hard | Fast & Slow Pointers | O(n) | O(1) |
 | 2521 | [Distinct Prime Factors of Product of Array](../leetcode/2609-distinct-prime-factors-of-product-of-array/) | Medium | Array / General | O(n) | O(1) |
 | 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 2542 | [Maximum Subsequence Score](../leetcode/2636-maximum-subsequence-score/) | Medium | Dynamic Programming | O(n) | O(n) |
@@ -239,9 +245,19 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 2778 | [Sum of Squares of Special Elements ](../leetcode/2844-sum-of-squares-of-special-elements-/) | Easy | Array / General | O(n) | O(1) |
 | 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Stack & Queue | O(n) | O(n) |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Easy | Array / General | O(n) | O(1) |
+| 2916 | [Subarrays Distinct Element Sum of Squares II](../leetcode/3139-subarrays-distinct-element-sum-of-squares-ii/) | Hard | Array / General | O(n) | O(1) |
+| 2926 | [Maximum Balanced Subsequence Sum](../leetcode/3184-maximum-balanced-subsequence-sum/) | Hard | Dynamic Programming | O(n) | O(n) |
+| 2940 | [Find Building Where Alice and Bob Can Meet](../leetcode/3181-find-building-where-alice-and-bob-can-meet/) | Hard | Array / General | O(n) | O(1) |
 | 3044 | [Most Frequent Prime](../leetcode/3314-most-frequent-prime/) | Medium | Hash Map | O(n) | O(n) |
+| 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3350-distribute-elements-into-two-arrays-ii/) | Hard | Array / General | O(n) | O(1) |
+| 3187 | [Peaks in Array](../leetcode/3438-peaks-in-array/) | Hard | Array / General | O(n) | O(1) |
+| 3245 | [Alternating Groups III](../leetcode/3527-alternating-groups-iii/) | Hard | Array / General | O(n) | O(1) |
+| 3380 | [Maximum Area Rectangle With Point Constraints I](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/) | Medium | Math & Logic | O(n) | O(1) |
+| 3382 | [Maximum Area Rectangle With Point Constraints II](../leetcode/3689-maximum-area-rectangle-with-point-constraints-ii/) | Hard | Math & Logic | O(n) | O(1) |
 | 3414 | [Maximum Score of Non-overlapping Intervals](../leetcode/3562-maximum-score-of-non-overlapping-intervals/) | Hard | Heap | O(n) | O(n) |
 | 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Easy | Math & Logic | O(n) | O(1) |
+| 3515 | [Shortest Path in a Weighted Tree](../leetcode/3829-shortest-path-in-a-weighted-tree/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3524 | [Find X Value of Array I](../leetcode/3831-find-x-value-of-array-i/) | Medium | Binary Search | O(n) | O(1) |
 | 3525 | [Find X Value of Array II](../leetcode/3840-find-x-value-of-array-ii/) | Hard | Binary Search | O(n) | O(1) |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | Easy | Prefix Sum | O(n) | O(n) |

@@ -22,5 +22,7 @@ A collection of LeetCode problems solved using **Fast & Slow Pointers** pattern 
 
 ### Hard
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 2509 | [Cycle Length Queries in a Tree](../leetcode/2597-cycle-length-queries-in-a-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2597-cycle-length-queries-in-a-tree/Explanation.md) |
 

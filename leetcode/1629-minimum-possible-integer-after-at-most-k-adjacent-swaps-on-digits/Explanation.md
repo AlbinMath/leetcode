@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3962. Maximum Subarray Sum After at Most K Swaps](../4246-maximum-subarray-sum-after-at-most-k-swaps/)
 - [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
 - [1281. Subtract the Product and Sum of Digits of an Integer](../1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
-- [1837. Sum of Digits in Base K](../1965-sum-of-digits-in-base-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)

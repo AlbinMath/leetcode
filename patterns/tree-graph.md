@@ -132,6 +132,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 918 | [Maximum Sum Circular Subarray](../leetcode/0954-maximum-sum-circular-subarray/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0954-maximum-sum-circular-subarray/Explanation.md) |
 
+| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/Explanation.md) |
+
 | 1306 | [Jump Game III](../leetcode/1428-jump-game-iii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1428-jump-game-iii/Explanation.md) |
 
 | 1358 | [Number of Substrings Containing All Three Characters](../leetcode/1460-number-of-substrings-containing-all-three-characters/) | Java | O(n) | O(n) | [Explanation](../leetcode/1460-number-of-substrings-containing-all-three-characters/Explanation.md) |
@@ -186,6 +188,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3112-count-valid-paths-in-a-tree/Explanation.md) |
 
+| 3515 | [Shortest Path in a Weighted Tree](../leetcode/3829-shortest-path-in-a-weighted-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3829-shortest-path-in-a-weighted-tree/Explanation.md) |
+
 | 3518 | [Smallest Palindromic Rearrangement II](../leetcode/3813-smallest-palindromic-rearrangement-ii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3813-smallest-palindromic-rearrangement-ii/Explanation.md) |
 
 | 3534 | [Path Existence Queries in a Graph II](../leetcode/3852-path-existence-queries-in-a-graph-ii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3852-path-existence-queries-in-a-graph-ii/Explanation.md) |
@@ -197,4 +201,6 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 3620 | [Network Recovery Pathways](../leetcode/3919-network-recovery-pathways/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3919-network-recovery-pathways/Explanation.md) |
 
 | 3700 | [Number of ZigZag Arrays II](../leetcode/3964-number-of-zigzag-arrays-ii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3964-number-of-zigzag-arrays-ii/Explanation.md) |
+
+| 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/4209-palindromic-path-queries-in-a-tree/Explanation.md) |
 

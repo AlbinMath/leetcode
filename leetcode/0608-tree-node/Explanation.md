@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [671. Second Minimum Node In a Binary Tree](../0671-second-minimum-node-in-a-binary-tree/)
 - [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
+- [1483. Kth Ancestor of a Tree Node](../1296-kth-ancestor-of-a-tree-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tree-node/)

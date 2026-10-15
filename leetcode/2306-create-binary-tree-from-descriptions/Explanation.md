@@ -68,7 +68,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](../0105-construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](../0106-construct-binary-tree-from-inorder-and-postorder-traversal/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
+- [2096. Step-By-Step Directions From a Binary Tree Node to Another](../2217-step-by-step-directions-from-a-binary-tree-node-to-another/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-binary-tree-from-descriptions/)

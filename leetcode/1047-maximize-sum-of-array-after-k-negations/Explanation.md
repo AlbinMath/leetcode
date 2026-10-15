@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2897. Apply Operations on Array to Maximize Sum of Squares](../3153-apply-operations-on-array-to-maximize-sum-of-squares/)
+- [3962. Maximum Subarray Sum After at Most K Swaps](../4246-maximum-subarray-sum-after-at-most-k-swaps/)
 - [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
-- [1480. Running Sum of 1d Array](../1603-running-sum-of-1d-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)

@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [501. Find Mode in Binary Search Tree](../0501-find-mode-in-binary-search-tree/)
 - [671. Second Minimum Node In a Binary Tree](../0671-second-minimum-node-in-a-binary-tree/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
+- [2096. Step-By-Step Directions From a Binary Tree Node to Another](../2217-step-by-step-directions-from-a-binary-tree-node-to-another/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)

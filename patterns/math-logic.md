@@ -70,6 +70,8 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 2637 | [Promise Time Limit](../leetcode/2749-promise-time-limit/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2749-promise-time-limit/Explanation.md) |
 
+| 3380 | [Maximum Area Rectangle With Point Constraints I](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
@@ -79,4 +81,6 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 | 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/Explanation.md) |
 
 | 3348 | [Smallest Divisible Digit Product II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Python, TypeScript | O(n) | O(1) | [Explanation](../leetcode/3635-smallest-divisible-digit-product-ii/Explanation.md) |
+
+| 3382 | [Maximum Area Rectangle With Point Constraints II](../leetcode/3689-maximum-area-rectangle-with-point-constraints-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3689-maximum-area-rectangle-with-point-constraints-ii/Explanation.md) |
 

@@ -57,3 +57,4 @@ LeetCode problems solved using **Dictionary / Hash Map** data structures.
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 3699 | [Number of ZigZag Arrays I](../leetcode/3962-number-of-zigzag-arrays-i/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 3838 | [Weighted Word Mapping](../leetcode/4216-weighted-word-mapping/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |

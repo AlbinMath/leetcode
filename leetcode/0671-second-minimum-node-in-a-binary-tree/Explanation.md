@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [111. Minimum Depth of Binary Tree](../0111-minimum-depth-of-binary-tree/)
 - [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
+- [2096. Step-By-Step Directions From a Binary Tree Node to Another](../2217-step-by-step-directions-from-a-binary-tree-node-to-another/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)

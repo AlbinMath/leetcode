@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [235. Lowest Common Ancestor of a Binary Search Tree](../0235-lowest-common-ancestor-of-a-binary-search-tree/)
+- [1123. Lowest Common Ancestor of Deepest Leaves](../1218-lowest-common-ancestor-of-deepest-leaves/)
 - [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
-- [99. Recover Binary Search Tree](../0099-recover-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)

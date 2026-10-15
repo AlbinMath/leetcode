@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
+- [865. Smallest Subtree with all the Deepest Nodes](../0896-smallest-subtree-with-all-the-deepest-nodes/)
 - [1448. Count Good Nodes in Binary Tree](../1544-count-good-nodes-in-binary-tree/)
-- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)

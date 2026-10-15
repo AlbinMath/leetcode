@@ -92,5 +92,7 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 502 | [IPO](../leetcode/0502-ipo/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0502-ipo/Explanation.md) |
 
+| 3624 | [Number of Integers With Popcount-Depth Equal to K II](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/Explanation.md) |
+
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
 

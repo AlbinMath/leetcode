@@ -6,7 +6,5 @@ A curated selection of LeetCode problems solved using the **Pointer Traversal & 
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | Medium | Linked List | O(n) | O(1) |
-| 138 | [Copy List with Random Pointer](../leetcode/0138-copy-list-with-random-pointer/) | Medium | Linked List | O(n) | O(1) |
-| 148 | [Sort List](../leetcode/0148-sort-list/) | Medium | Linked List | O(n) | O(1) |
-| 222 | [Count Complete Tree Nodes](../leetcode/0222-count-complete-tree-nodes/) | Medium | Linked List | O(n) | O(1) |
+| 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | Medium | Linked List | O(n) | O(1) |
+| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | Linked List | O(n) | O(1) |
