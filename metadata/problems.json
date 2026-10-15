@@ -10507,12 +10507,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -12478,17 +12479,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Given the  root  of a binary tree, return  the lowest common ancestor of its deepest leaves .",
     "related_ids": [
       235,
@@ -15361,16 +15361,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Dynamic Programming",
-    "algorithm": "Memoization & State Transition",
-    "data_structure": "DP Table / Array",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Dynamic Programming",
-      "Memoization",
-      "State Transition"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "You are given a tree with  n  nodes numbered from  0  to  n - 1  in the form of a parent array  parent  where  parent[i]  is the parent of  i th   node. The root of the tree is node  0 . Find the  k th   ancestor of a given node.",
     "related_ids": [
       235,
@@ -19618,12 +19618,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -22353,14 +22354,16 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Monotonic Stack",
+    "algorithm": "Monotonic Stack Filtering",
+    "data_structure": "Stack",
     "topics": [
+      "Stack",
+      "Monotonic Stack",
       "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a  0-indexed  integer array  nums .",
     "related_ids": [
       2916,
@@ -22838,14 +22841,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "There exists an infinite number line, with its origin at 0 and extending towards the  positive  x-axis.",
     "related_ids": [
       1211,
@@ -25550,11 +25556,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Array"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -25576,11 +25583,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
     "topics": [
-      "Array"
+      "Linked List",
+      "Two Pointers"
     ],
     "time": "O(n)",
     "space": "O(1)",

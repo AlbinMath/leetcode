@@ -45,7 +45,6 @@ LeetCode problems solved using **Tree / Graph / Grid** data structures.
 | 918 | [Maximum Sum Circular Subarray](../leetcode/0954-maximum-sum-circular-subarray/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 1022 | [Sum of Root To Leaf Binary Numbers](../leetcode/1079-sum-of-root-to-leaf-binary-numbers/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 1030 | [Matrix Cells in Distance Order](../leetcode/1094-matrix-cells-in-distance-order/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
-| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 1160 | [Find Words That Can Be Formed by Characters](../leetcode/1112-find-words-that-can-be-formed-by-characters/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 1252 | [Cells with Odd Values in a Matrix](../leetcode/1378-cells-with-odd-values-in-a-matrix/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
@@ -80,6 +79,7 @@ LeetCode problems solved using **Tree / Graph / Grid** data structures.
 | 2884 | [Modify Columns](../leetcode/3067-modify-columns/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 2885 | [Rename Columns](../leetcode/3068-rename-columns/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 2889 | [Reshape Data: Pivot](../leetcode/3072-reshape-data-pivot/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
+| 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 3286 | [Find a Safe Walk Through a Grid](../leetcode/3558-find-a-safe-walk-through-a-grid/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 3310 | [Remove Methods From Project](../leetcode/3561-remove-methods-from-project/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 3345 | [Smallest Divisible Digit Product I](../leetcode/3626-smallest-divisible-digit-product-i/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |

@@ -62,8 +62,6 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/1522-stone-game-iii/Explanation.md) |
 
-| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1296-kth-ancestor-of-a-tree-node/Explanation.md) |
-
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1617-stone-game-iv/Explanation.md) |
 
 | 2407 | [Longest Increasing Subsequence II](../leetcode/2526-longest-increasing-subsequence-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2526-longest-increasing-subsequence-ii/Explanation.md) |

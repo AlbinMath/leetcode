@@ -132,8 +132,6 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 918 | [Maximum Sum Circular Subarray](../leetcode/0954-maximum-sum-circular-subarray/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0954-maximum-sum-circular-subarray/Explanation.md) |
 
-| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/Explanation.md) |
-
 | 1306 | [Jump Game III](../leetcode/1428-jump-game-iii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1428-jump-game-iii/Explanation.md) |
 
 | 1358 | [Number of Substrings Containing All Three Characters](../leetcode/1460-number-of-substrings-containing-all-three-characters/) | Java | O(n) | O(n) | [Explanation](../leetcode/1460-number-of-substrings-containing-all-three-characters/Explanation.md) |
@@ -187,6 +185,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 2736 | [Maximum Sum Queries](../leetcode/2839-maximum-sum-queries/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2839-maximum-sum-queries/Explanation.md) |
 
 | 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3112-count-valid-paths-in-a-tree/Explanation.md) |
+
+| 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Python | O(n) | O(n) | [Explanation](../leetcode/3435-block-placement-queries/Explanation.md) |
 
 | 3515 | [Shortest Path in a Weighted Tree](../leetcode/3829-shortest-path-in-a-weighted-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3829-shortest-path-in-a-weighted-tree/Explanation.md) |
 

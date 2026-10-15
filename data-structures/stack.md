@@ -38,5 +38,6 @@ LeetCode problems solved using **Stack** data structures.
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2888 | [Reshape Data: Concatenate](../leetcode/3064-reshape-data-concatenate/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 3499 | [Maximize Active Section with Trade I](../leetcode/3805-maximize-active-section-with-trade-i/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |

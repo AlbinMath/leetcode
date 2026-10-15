@@ -24,7 +24,6 @@ LeetCode problems solved using **DP Table / Array** data structures.
 | 1340 | [Jump Game V](../leetcode/1466-jump-game-v/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 1403 | [Minimum Subsequence in Non-Increasing Order](../leetcode/1519-minimum-subsequence-in-non-increasing-order/) | Easy | Memoization & State Transition | O(n) | O(n) |
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | Hard | Memoization & State Transition | O(n) | O(n) |
-| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 1498 | [Number of Subsequences That Satisfy the Given Sum Condition](../leetcode/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Memoization & State Transition | O(n) | O(n) |
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | Hard | Memoization & State Transition | O(n) | O(n) |
 | 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | Easy | Memoization & State Transition | O(n) | O(n) |

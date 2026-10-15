@@ -478,7 +478,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2889 | [Reshape Data: Pivot](../leetcode/3072-reshape-data-pivot/) | Tree & Graph | Python | O(n) | O(n) |
 | 2890 | [Reshape Data: Melt](../leetcode/3073-reshape-data-melt/) | Bit Manipulation | Python | O(n) | O(1) |
 | 2891 | [Method Chaining](../leetcode/3063-method-chaining/) | Hash Map | Python | O(n) | O(n) |
-| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Array / General | JavaScript | O(n) | O(1) |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Monotonic Stack | JavaScript | O(n) | O(n) |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Prefix Sum | Rust | O(n) | O(n) |
 | 3014 | [Minimum Number of Pushes to Type Word I](../leetcode/3275-minimum-number-of-pushes-to-type-word-i/) | Hash Map | Dart | O(n) | O(n) |
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3347-distribute-elements-into-two-arrays-i/) | Hash Map | Go | O(n) | O(n) |

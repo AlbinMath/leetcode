@@ -13,5 +13,6 @@ A curated selection of LeetCode problems solved using the **Monotonic Stack Filt
 | 896 | [Monotonic Array](../leetcode/0932-monotonic-array/) | Easy | Monotonic Stack | O(n) | O(n) |
 | 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | Medium | Monotonic Stack | O(n) | O(n) |
 | 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | Easy | Monotonic Stack | O(n) | O(n) |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Easy | Monotonic Stack | O(n) | O(n) |
 | 3499 | [Maximize Active Section with Trade I](../leetcode/3805-maximize-active-section-with-trade-i/) | Medium | Monotonic Stack | O(n) | O(n) |
 | 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Medium | Monotonic Stack | O(n) | O(n) |

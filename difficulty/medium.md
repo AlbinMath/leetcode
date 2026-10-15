@@ -171,7 +171,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 841 | [Keys and Rooms](../leetcode/0871-keys-and-rooms/) | Array / General | JavaScript | O(n) | O(1) |
 | 852 | [Peak Index in a Mountain Array](../leetcode/0882-peak-index-in-a-mountain-array/) | Binary Search | JavaScript | O(n) | O(1) |
 | 856 | [Score of Parentheses](../leetcode/0886-score-of-parentheses/) | Stack & Queue | Python | O(n) | O(n) |
-| 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | Linked List | JavaScript | O(n) | O(1) |
+| 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | Two Pointers | JavaScript | O(n) | O(1) |
 | 875 | [Koko Eating Bananas](../leetcode/0907-koko-eating-bananas/) | Array / General | JavaScript | O(n) | O(1) |
 | 877 | [Stone Game](../leetcode/0909-stone-game/) | Tree & Graph | C++ | O(n) | O(n) |
 | 901 | [Online Stock Span](../leetcode/0937-online-stock-span/) | Array / General | JavaScript | O(n) | O(1) |
@@ -188,7 +188,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Hash Map | Java | O(n) | O(n) |
 | 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Two Pointers | Java | O(n) | O(1) |
 | 1117 | [Building H2O](../leetcode/1186-building-h2o/) | Array / General | C++ | O(n) | O(1) |
-| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | Tree & Graph | JavaScript | O(n) | O(n) |
+| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | Binary Search | JavaScript | O(n) | O(1) |
 | 1140 | [Stone Game II](../leetcode/1240-stone-game-ii/) | Dynamic Programming | C++ | O(n) | O(n) |
 | 1143 | [Longest Common Subsequence](../leetcode/1250-longest-common-subsequence/) | Dynamic Programming | JavaScript | O(n) | O(n) |
 | 1146 | [Snapshot Array](../leetcode/1249-snapshot-array/) | Array / General | JavaScript | O(n) | O(1) |
@@ -244,7 +244,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Two Pointers | C++ | O(n) | O(1) |
 | 2091 | [Removing Minimum and Maximum From Array](../leetcode/2212-removing-minimum-and-maximum-from-array/) | Array / General | C++ | O(n) | O(1) |
 | 2095 | [Delete the Middle Node of a Linked List](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Fast & Slow Pointers | Java, JavaScript | O(n) | O(1) |
-| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | Linked List | JavaScript | O(n) | O(1) |
+| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | Two Pointers | JavaScript | O(n) | O(1) |
 | 2109 | [Adding Spaces to a String](../leetcode/2232-adding-spaces-to-a-string/) | Array / General | JavaScript | O(n) | O(1) |
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Bit Manipulation | Java | O(n) | O(1) |
 | 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Fast & Slow Pointers | Java, JavaScript | O(n) | O(1) |
@@ -333,4 +333,4 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 3871 | [Count Commas in Range II](../leetcode/4248-count-commas-in-range-ii/) | Array / General | JavaScript | O(n) | O(1) |
 | 3876 | [Construct Uniform Parity Array II](../leetcode/4258-construct-uniform-parity-array-ii/) | Array / General | C++ | O(n) | O(1) |
 | 3904 | [Smallest Stable Index II](../leetcode/4285-smallest-stable-index-ii/) | Array / General | JavaScript | O(n) | O(1) |
-| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Array / General | Python | O(n) | O(1) |
+| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Linked List | Python | O(n) | O(1) |

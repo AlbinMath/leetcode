@@ -177,6 +177,7 @@ LeetCode problems solved using **Array** data structures.
 | 844 | [Backspace String Compare](../leetcode/0874-backspace-string-compare/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 859 | [Buddy Strings](../leetcode/0889-buddy-strings/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 860 | [Lemonade Change](../leetcode/0890-lemonade-change/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
+| 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | Medium | Two Pointer Convergence & Scanning | O(n) | O(1) |
 | 875 | [Koko Eating Bananas](../leetcode/0907-koko-eating-bananas/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Easy | Two Pointer Convergence & Scanning | O(n) | O(1) |
 | 883 | [Projection Area of 3D Shapes](../leetcode/0919-projection-area-of-3d-shapes/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
@@ -342,6 +343,7 @@ LeetCode problems solved using **Array** data structures.
 | 2073 | [Time Needed to Buy Tickets](../leetcode/2195-time-needed-to-buy-tickets/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2085 | [Count Common Words With One Occurrence](../leetcode/2190-count-common-words-with-one-occurrence/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2091 | [Removing Minimum and Maximum From Array](../leetcode/2212-removing-minimum-and-maximum-from-array/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
+| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | Two Pointer Convergence & Scanning | O(n) | O(1) |
 | 2103 | [Rings and Rods](../leetcode/2226-rings-and-rods/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2108 | [Find First Palindromic String in the Array](../leetcode/2231-find-first-palindromic-string-in-the-array/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2109 | [Adding Spaces to a String](../leetcode/2232-adding-spaces-to-a-string/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
@@ -391,7 +393,6 @@ LeetCode problems solved using **Array** data structures.
 | 2881 | [Create a New Column](../leetcode/3066-create-a-new-column/) | Easy | Two Pointer Convergence & Scanning | O(n) | O(1) |
 | 2882 | [Drop Duplicate Rows](../leetcode/3071-drop-duplicate-rows/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2904 | [Shortest and Lexicographically Smallest Beautiful String](../leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](../leetcode/3139-subarrays-distinct-element-sum-of-squares-ii/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2940 | [Find Building Where Alice and Bob Can Meet](../leetcode/3181-find-building-where-alice-and-bob-can-meet/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 3016 | [Minimum Number of Pushes to Type Word II](../leetcode/3276-minimum-number-of-pushes-to-type-word-ii/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
@@ -399,7 +400,6 @@ LeetCode problems solved using **Array** data structures.
 | 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3350-distribute-elements-into-two-arrays-ii/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 3090 | [Maximum Length Substring With Two Occurrences](../leetcode/3349-maximum-length-substring-with-two-occurrences/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 3120 | [Count the Number of Special Characters I](../leetcode/3408-count-the-number-of-special-characters-i/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 3187 | [Peaks in Array](../leetcode/3438-peaks-in-array/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 3245 | [Alternating Groups III](../leetcode/3527-alternating-groups-iii/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 3302 | [Find the Lexicographically Smallest Valid Sequence](../leetcode/3584-find-the-lexicographically-smallest-valid-sequence/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
@@ -432,7 +432,5 @@ LeetCode problems solved using **Array** data structures.
 | 3876 | [Construct Uniform Parity Array II](../leetcode/4258-construct-uniform-parity-array-ii/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 3904 | [Smallest Stable Index II](../leetcode/4285-smallest-stable-index-ii/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |

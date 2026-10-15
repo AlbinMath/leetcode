@@ -303,7 +303,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 2890 | [Reshape Data: Melt](../leetcode/3073-reshape-data-melt/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2891 | [Method Chaining](../leetcode/3063-method-chaining/) | Easy | Hash Map | O(n) | O(n) |
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Hard | Hash Map | O(n) | O(n) |
-| 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Hard | Array / General | O(n) | O(1) |
+| 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3348 | [Smallest Divisible Digit Product II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Hard | Math & Logic | O(n) | O(1) |
 | 3475 | [DNA Pattern Recognition ](../leetcode/3816-dna-pattern-recognition-/) | Medium | Array / General | O(n) | O(1) |
 | 3482 | [Analyze Organization Hierarchy](../leetcode/3828-analyze-organization-hierarchy/) | Hard | Array / General | O(n) | O(1) |
@@ -327,8 +327,8 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 3762 | [Minimum Operations to Equalize Subarrays](../leetcode/4022-minimum-operations-to-equalize-subarrays/) | Hard | Array / General | O(n) | O(1) |
 | 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
-| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | Array / General | O(n) | O(1) |
-| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | Array / General | O(n) | O(1) |
+| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | Linked List | O(n) | O(1) |
+| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | Linked List | O(n) | O(1) |
 | 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Hard | Hash Map | O(n) | O(n) |
 | 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Hard | Array / General | O(n) | O(1) |
 | 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Hard | Array / General | O(n) | O(1) |

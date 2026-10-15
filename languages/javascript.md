@@ -145,7 +145,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Easy | Math & Logic | O(n) | O(1) |
 | 841 | [Keys and Rooms](../leetcode/0871-keys-and-rooms/) | Medium | Array / General | O(n) | O(1) |
 | 852 | [Peak Index in a Mountain Array](../leetcode/0882-peak-index-in-a-mountain-array/) | Medium | Binary Search | O(n) | O(1) |
-| 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | Medium | Linked List | O(n) | O(1) |
+| 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | Medium | Two Pointers | O(n) | O(1) |
 | 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Easy | Binary Search | O(n) | O(1) |
 | 875 | [Koko Eating Bananas](../leetcode/0907-koko-eating-bananas/) | Medium | Array / General | O(n) | O(1) |
 | 901 | [Online Stock Span](../leetcode/0937-online-stock-span/) | Medium | Array / General | O(n) | O(1) |
@@ -159,7 +159,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1046 | [Last Stone Weight](../leetcode/1127-last-stone-weight/) | Easy | Array / General | O(n) | O(1) |
 | 1071 | [Greatest Common Divisor of Strings](../leetcode/1146-greatest-common-divisor-of-strings/) | Easy | Array / General | O(n) | O(1) |
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | Hard | Array / General | O(n) | O(1) |
-| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | Medium | Tree & Graph | O(n) | O(n) |
+| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | Medium | Binary Search | O(n) | O(1) |
 | 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1143 | [Longest Common Subsequence](../leetcode/1250-longest-common-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1146 | [Snapshot Array](../leetcode/1249-snapshot-array/) | Medium | Array / General | O(n) | O(1) |
@@ -178,7 +178,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](../leetcode/1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium | Array / General | O(n) | O(1) |
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | Sliding Window | O(n) | O(1) |
-| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Hard | Dynamic Programming | O(n) | O(n) |
+| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Hard | Binary Search | O(n) | O(1) |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](../leetcode/1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium | Array / General | O(n) | O(1) |
 | 1498 | [Number of Subsequences That Satisfy the Given Sum Condition](../leetcode/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | Hard | Math & Logic | O(n) | O(1) |
@@ -209,7 +209,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 2073 | [Time Needed to Buy Tickets](../leetcode/2195-time-needed-to-buy-tickets/) | Easy | Array / General | O(n) | O(1) |
 | 2085 | [Count Common Words With One Occurrence](../leetcode/2190-count-common-words-with-one-occurrence/) | Easy | Array / General | O(n) | O(1) |
 | 2095 | [Delete the Middle Node of a Linked List](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
-| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | Linked List | O(n) | O(1) |
+| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | Two Pointers | O(n) | O(1) |
 | 2103 | [Rings and Rods](../leetcode/2226-rings-and-rods/) | Easy | Array / General | O(n) | O(1) |
 | 2108 | [Find First Palindromic String in the Array](../leetcode/2231-find-first-palindromic-string-in-the-array/) | Easy | Array / General | O(n) | O(1) |
 | 2109 | [Adding Spaces to a String](../leetcode/2232-adding-spaces-to-a-string/) | Medium | Array / General | O(n) | O(1) |
@@ -245,7 +245,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 2778 | [Sum of Squares of Special Elements ](../leetcode/2844-sum-of-squares-of-special-elements-/) | Easy | Array / General | O(n) | O(1) |
 | 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Stack & Queue | O(n) | O(n) |
-| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Easy | Array / General | O(n) | O(1) |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Easy | Monotonic Stack | O(n) | O(n) |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](../leetcode/3139-subarrays-distinct-element-sum-of-squares-ii/) | Hard | Array / General | O(n) | O(1) |
 | 2926 | [Maximum Balanced Subsequence Sum](../leetcode/3184-maximum-balanced-subsequence-sum/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 2940 | [Find Building Where Alice and Bob Can Meet](../leetcode/3181-find-building-where-alice-and-bob-can-meet/) | Hard | Array / General | O(n) | O(1) |

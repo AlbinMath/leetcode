@@ -12,11 +12,11 @@ A collection of LeetCode problems solved using **Linked List** pattern technique
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/Explanation.md) |
-
-| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/Explanation.md) |
+| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/Explanation.md) |
 
 ### Hard
 
-*No problems logged yet under this difficulty level.*
+| # | Problem | Language | Time | Space | Explanation |
+|---|---|---|---|---|---|
+| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/Explanation.md) |
 

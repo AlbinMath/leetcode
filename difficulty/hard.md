@@ -53,7 +53,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 1345 | [Jump Game IV](../leetcode/1447-jump-game-iv/) | Hash Map | C++ | O(n) | O(n) |
 | 1354 | [Construct Target Array With Multiple Sums](../leetcode/1479-construct-target-array-with-multiple-sums/) | Array / General | JavaScript | O(n) | O(1) |
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | Dynamic Programming | PHP | O(n) | O(n) |
-| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Dynamic Programming | JavaScript | O(n) | O(n) |
+| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Binary Search | JavaScript | O(n) | O(1) |
 | 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | Math & Logic | JavaScript | O(n) | O(1) |
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | Dynamic Programming | TypeScript | O(n) | O(n) |
 | 1520 | [Maximum Number of Non-Overlapping Substrings](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | Heap | JavaScript | O(n) | O(n) |
@@ -86,7 +86,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3350-distribute-elements-into-two-arrays-ii/) | Array / General | JavaScript | O(n) | O(1) |
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Hash Map | Python | O(n) | O(n) |
 | 3116 | [Kth Smallest Amount With Single Denomination Combination](../leetcode/3375-kth-smallest-amount-with-single-denomination-combination/) | Backtracking | Java | O(n) | O(1) |
-| 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Array / General | Python | O(n) | O(1) |
+| 3161 | [Block Placement Queries](../leetcode/3435-block-placement-queries/) | Tree & Graph | Python | O(n) | O(n) |
 | 3187 | [Peaks in Array](../leetcode/3438-peaks-in-array/) | Array / General | JavaScript | O(n) | O(1) |
 | 3245 | [Alternating Groups III](../leetcode/3527-alternating-groups-iii/) | Array / General | JavaScript | O(n) | O(1) |
 | 3312 | [Sorted GCD Pair Queries](../leetcode/3583-sorted-gcd-pair-queries/) | Dynamic Programming | PHP | O(n) | O(n) |
@@ -120,7 +120,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 3832 | [Find Users with Persistent Behavior Patterns](../leetcode/4227-find-users-with-persistent-behavior-patterns/) | Database / SQL | SQL | O(n) | O(n) |
 | 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Tree & Graph | Python | O(n) | O(n) |
 | 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/) | Array / General | C++ | O(n) | O(1) |
-| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Array / General | Python | O(n) | O(1) |
+| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Linked List | Python | O(n) | O(1) |
 | 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Hash Map | Python | O(n) | O(n) |
 | 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Array / General | Python | O(n) | O(1) |
 | 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Array / General | Python | O(n) | O(1) |

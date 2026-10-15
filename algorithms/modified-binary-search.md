@@ -65,6 +65,7 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 938 | [Range Sum of BST](../leetcode/0975-range-sum-of-bst/) | Easy | Binary Search | O(n) | O(1) |
 | 965 | [Univalued Binary Tree](../leetcode/1005-univalued-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 993 | [Cousins in Binary Tree](../leetcode/1035-cousins-in-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
+| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | Medium | Binary Search | O(n) | O(1) |
 | 1161 | [Maximum Level Sum of a Binary Tree](../leetcode/1116-maximum-level-sum-of-a-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 1288 | [Remove Covered Intervals](../leetcode/1222-remove-covered-intervals/) | Medium | Binary Search | O(log n) | O(1) |
 | 1290 | [Convert Binary Number in a Linked List to Integer](../leetcode/1411-convert-binary-number-in-a-linked-list-to-integer/) | Easy | Binary Search | O(n) | O(1) |
@@ -73,6 +74,7 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../leetcode/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 1448 | [Count Good Nodes in Binary Tree](../leetcode/1544-count-good-nodes-in-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Easy | Binary Search | O(n) | O(1) |
+| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Hard | Binary Search | O(n) | O(1) |
 | 1665 | [Minimum Initial Energy to Finish Tasks](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | Hard | Binary Search | O(log n) | O(1) |
 | 1752 | [Check if Array Is Sorted and Rotated](../leetcode/1878-check-if-array-is-sorted-and-rotated/) | Easy | Binary Search | O(n) | O(1) |
 | 1833 | [Maximum Ice Cream Bars](../leetcode/1961-maximum-ice-cream-bars/) | Medium | Binary Search | O(n) | O(1) |

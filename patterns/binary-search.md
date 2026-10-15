@@ -136,6 +136,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 852 | [Peak Index in a Mountain Array](../leetcode/0882-peak-index-in-a-mountain-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0882-peak-index-in-a-mountain-array/Explanation.md) |
 
+| 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/Explanation.md) |
+
 | 1161 | [Maximum Level Sum of a Binary Tree](../leetcode/1116-maximum-level-sum-of-a-binary-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1116-maximum-level-sum-of-a-binary-tree/Explanation.md) |
 
 | 1288 | [Remove Covered Intervals](../leetcode/1222-remove-covered-intervals/) | Java | O(log n) | O(1) | [Explanation](../leetcode/1222-remove-covered-intervals/Explanation.md) |
@@ -165,6 +167,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/Explanation.md) |
 
 | 212 | [Word Search II](../leetcode/0212-word-search-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0212-word-search-ii/Explanation.md) |
+
+| 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1296-kth-ancestor-of-a-tree-node/Explanation.md) |
 
 | 1665 | [Minimum Initial Energy to Finish Tasks](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/1784-minimum-initial-energy-to-finish-tasks/Explanation.md) |
 

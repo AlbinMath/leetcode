@@ -36,11 +36,13 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Easy | Two Pointers | O(n) | O(1) |
 | 693 | [Binary Number with Alternating Bits](../leetcode/0693-binary-number-with-alternating-bits/) | Easy | Two Pointers | O(n) | O(1) |
 | 762 | [Prime Number of Set Bits in Binary Representation](../leetcode/0767-prime-number-of-set-bits-in-binary-representation/) | Easy | Two Pointers | O(n) | O(1) |
+| 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | Medium | Two Pointers | O(n) | O(1) |
 | 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Easy | Two Pointers | O(n) | O(1) |
 | 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Medium | Two Pointers | O(n) | O(1) |
 | 1800 | [Maximum Ascending Subarray Sum](../leetcode/1927-maximum-ascending-subarray-sum/) | Easy | Two Pointers | O(n) | O(1) |
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | Two Pointers | O(n) | O(1) |
+| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | Two Pointers | O(n) | O(1) |
 | 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | Hard | Two Pointers | O(n) | O(1) |
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | Medium | Two Pointers | O(n) | O(1) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard | Two Pointers | O(n) | O(1) |

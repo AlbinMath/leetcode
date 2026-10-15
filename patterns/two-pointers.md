@@ -82,9 +82,13 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 328 | [Odd Even Linked List](../leetcode/0328-odd-even-linked-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0328-odd-even-linked-list/Explanation.md) |
 
+| 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/Explanation.md) |
+
 | 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Java | O(n) | O(1) | [Explanation](../leetcode/1216-print-zero-even-odd/Explanation.md) |
 
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/Explanation.md) |
+
+| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/Explanation.md) |
 
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2347-count-nodes-equal-to-average-of-subtree/Explanation.md) |
 

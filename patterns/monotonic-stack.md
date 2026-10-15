@@ -16,6 +16,8 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 
 | 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/Explanation.md) |
 
+| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/Explanation.md) |
+
 ### Medium
 
 | # | Problem | Language | Time | Space | Explanation |
