@@ -1,17 +1,10 @@
 class Solution:
     def merge(self, intervals):
         intervals.sort()
-
-        result = []
-
-        for start, end in intervals:
-
-            # No overlap
-            if not result or start > result[-1][1]:
-                result.append([start, end])
-
-            # Overlap
+        res = []
+        for s, e in intervals:
+            if res and s <= res[-1][1]:
+                res[-1][1] = max(res[-1][1], e)
             else:
-                result[-1][1] = max(result[-1][1], end)
-
-        return result
+                res.append([s, e])
+        return res
