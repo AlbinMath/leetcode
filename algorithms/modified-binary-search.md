@@ -29,6 +29,7 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 109 | [Convert Sorted List to Binary Search Tree](../leetcode/0109-convert-sorted-list-to-binary-search-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
+| 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | Medium | Binary Search | O(n) | O(1) |
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | Medium | Binary Search | O(log n) | O(1) |
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard | Binary Search | O(n) | O(1) |
 | 162 | [Find Peak Element](../leetcode/0162-find-peak-element/) | Medium | Binary Search | O(log n) | O(1) |

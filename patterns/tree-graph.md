@@ -208,3 +208,5 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/4209-palindromic-path-queries-in-a-tree/Explanation.md) |
 
+| 3864 | [Minimum Cost to Partition a Binary String](../leetcode/4192-minimum-cost-to-partition-a-binary-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/4192-minimum-cost-to-partition-a-binary-string/Explanation.md) |
+

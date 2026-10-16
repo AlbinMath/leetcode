@@ -122,8 +122,8 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 3826 | [Minimum Partition Score](../leetcode/4121-minimum-partition-score/) | Array / General | Python | O(n) | O(1) |
 | 3832 | [Find Users with Persistent Behavior Patterns](../leetcode/4227-find-users-with-persistent-behavior-patterns/) | Database / SQL | SQL | O(n) | O(n) |
 | 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Tree & Graph | Python | O(n) | O(n) |
-| 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Math & Logic | Python | O(n) | O(1) |
-| 3864 | [Minimum Cost to Partition a Binary String](../leetcode/4192-minimum-cost-to-partition-a-binary-string/) | Bit Manipulation | Python | O(n) | O(1) |
+| 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Bit Manipulation | Python | O(n) | O(1) |
+| 3864 | [Minimum Cost to Partition a Binary String](../leetcode/4192-minimum-cost-to-partition-a-binary-string/) | Tree & Graph | Python | O(n) | O(n) |
 | 3943 | [Number of Pairs After Increment](../leetcode/4076-number-of-pairs-after-increment/) | Array / General | Python | O(n) | O(1) |
 | 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/) | Array / General | C++ | O(n) | O(1) |
 | 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Two Pointers | Python | O(n) | O(1) |

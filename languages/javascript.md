@@ -35,7 +35,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](../leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
-| 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
+| 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | Medium | Binary Search | O(n) | O(1) |
 | 115 | [Distinct Subsequences](../leetcode/0115-distinct-subsequences/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | Medium | Stack & Queue | O(n) | O(n) |
 | 120 | [Triangle](../leetcode/0120-triangle/) | Medium | Math & Logic | O(n) | O(1) |

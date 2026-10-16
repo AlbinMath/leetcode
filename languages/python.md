@@ -336,8 +336,8 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 3762 | [Minimum Operations to Equalize Subarrays](../leetcode/4022-minimum-operations-to-equalize-subarrays/) | Hard | Array / General | O(n) | O(1) |
 | 3826 | [Minimum Partition Score](../leetcode/4121-minimum-partition-score/) | Hard | Array / General | O(n) | O(1) |
 | 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
-| 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Hard | Math & Logic | O(n) | O(1) |
-| 3864 | [Minimum Cost to Partition a Binary String](../leetcode/4192-minimum-cost-to-partition-a-binary-string/) | Hard | Bit Manipulation | O(n) | O(1) |
+| 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Hard | Bit Manipulation | O(n) | O(1) |
+| 3864 | [Minimum Cost to Partition a Binary String](../leetcode/4192-minimum-cost-to-partition-a-binary-string/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3943 | [Number of Pairs After Increment](../leetcode/4076-number-of-pairs-after-increment/) | Hard | Array / General | O(n) | O(1) |
 | 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | Two Pointers | O(n) | O(1) |
 | 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | Two Pointers | O(n) | O(1) |

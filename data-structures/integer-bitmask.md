@@ -47,4 +47,4 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
-| 3864 | [Minimum Cost to Partition a Binary String](../leetcode/4192-minimum-cost-to-partition-a-binary-string/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |

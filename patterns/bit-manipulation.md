@@ -98,5 +98,5 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
 
-| 3864 | [Minimum Cost to Partition a Binary String](../leetcode/4192-minimum-cost-to-partition-a-binary-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/4192-minimum-cost-to-partition-a-binary-string/Explanation.md) |
+| 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Python | O(n) | O(1) | [Explanation](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/Explanation.md) |
 

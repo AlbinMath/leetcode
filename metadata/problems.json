@@ -3063,13 +3063,13 @@
       "JavaScript"
     ],
     "lang_str": "JavaScript",
-    "pattern": "Two Pointers",
-    "algorithm": "Two Pointer Convergence & Scanning",
-    "data_structure": "Array",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Two Pointers",
-      "Array",
-      "Sorting"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -25585,12 +25585,12 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Math & Logic",
-    "algorithm": "Mathematical Simulation & Modular Arithmetic",
-    "data_structure": "Primitive Types",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
     "topics": [
-      "Math",
-      "Simulation"
+      "Bit Manipulation",
+      "Bitwise Math"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -25612,15 +25612,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Bit Manipulation",
-    "algorithm": "Bitwise Masking & Bit Shift",
-    "data_structure": "Integer Bitmask",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Bit Manipulation",
-      "Bitwise Math"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a binary string  s  and two integers  encCost  and  flatCost .",
     "related_ids": [
       1758,

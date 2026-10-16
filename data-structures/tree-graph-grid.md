@@ -100,5 +100,6 @@ LeetCode problems solved using **Tree / Graph / Grid** data structures.
 | 3727 | [Maximum Alternating Sum of Squares](../leetcode/4078-maximum-alternating-sum-of-squares/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 3742 | [Maximum Path Score in a Grid](../leetcode/3986-maximum-path-score-in-a-grid/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
+| 3864 | [Minimum Cost to Partition a Binary String](../leetcode/4192-minimum-cost-to-partition-a-binary-string/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 3870 | [Count Commas in Range](../leetcode/4245-count-commas-in-range/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 3903 | [Smallest Stable Index I](../leetcode/4284-smallest-stable-index-i/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |

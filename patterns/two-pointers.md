@@ -72,8 +72,6 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 92 | [Reverse Linked List II](../leetcode/0092-reverse-linked-list-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0092-reverse-linked-list-ii/Explanation.md) |
 
-| 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0114-flatten-binary-tree-to-linked-list/Explanation.md) |
-
 | 138 | [Copy List with Random Pointer](../leetcode/0138-copy-list-with-random-pointer/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0138-copy-list-with-random-pointer/Explanation.md) |
 
 | 148 | [Sort List](../leetcode/0148-sort-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0148-sort-list/Explanation.md) |

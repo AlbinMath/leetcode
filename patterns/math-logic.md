@@ -84,5 +84,3 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 3382 | [Maximum Area Rectangle With Point Constraints II](../leetcode/3689-maximum-area-rectangle-with-point-constraints-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3689-maximum-area-rectangle-with-point-constraints-ii/Explanation.md) |
 
-| 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Python | O(n) | O(1) | [Explanation](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/Explanation.md) |
-

@@ -1,7 +1,7 @@
 # LeetCode 114: Flatten Binary Tree to Linked List
 
 **LeetCode Problem #114 — Flatten Binary Tree to Linked List**
-Solve LeetCode Flatten Binary Tree to Linked List using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Flatten Binary Tree to Linked List using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Flatten Binary Tree to Linked List using JavaScript and Two Point
 | LeetCode | #114 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Two Pointer Convergence & Scanning |
-| Data Structure | Array |
-| Pattern | Two Pointers |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,30 +20,30 @@ Solve LeetCode Flatten Binary Tree to Linked List using JavaScript and Two Point
 Given the  root  of a binary tree, flatten the tree into a "linked list":
 
 ## Key Insight
-Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Flatten Binary Tree to Linked List**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+Consider the standard input for **Flatten Binary Tree to Linked List**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Two Pointers**
+**Binary Search**
 
 ## Topics
-- Two Pointers
-- Array
-- Sorting
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 JavaScript
@@ -52,16 +52,16 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Failing to sort the array when ordering is required.
-2. Not skipping duplicate elements leading to non-unique pairs.
-3. Pointer out-of-bounds errors on edge inputs.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
-- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [109. Convert Sorted List to Binary Search Tree](../0109-convert-sorted-list-to-binary-search-tree/)

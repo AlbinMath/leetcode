@@ -73,7 +73,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](../leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 109 | [Convert Sorted List to Binary Search Tree](../leetcode/0109-convert-sorted-list-to-binary-search-tree/) | Binary Search | Python | O(n) | O(1) |
-| 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | Two Pointers | JavaScript | O(n) | O(1) |
+| 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | Binary Search | JavaScript | O(n) | O(1) |
 | 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | Stack & Queue | JavaScript | O(n) | O(n) |
 | 120 | [Triangle](../leetcode/0120-triangle/) | Math & Logic | JavaScript | O(n) | O(1) |
 | 122 | [Best Time to Buy and Sell Stock II](../leetcode/0122-best-time-to-buy-and-sell-stock-ii/) | Array / General | JavaScript | O(n) | O(1) |

@@ -40,4 +40,3 @@ LeetCode problems solved using **Primitive Types** data structures.
 | 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Easy | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 3536 | [Maximum Product of Two Digits](../leetcode/3859-maximum-product-of-two-digits/) | Easy | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Easy | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
-| 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Hard | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |

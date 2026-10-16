@@ -18,7 +18,6 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 86 | [Partition List](../leetcode/0086-partition-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 92 | [Reverse Linked List II](../leetcode/0092-reverse-linked-list-ii/) | Medium | Two Pointers | O(n) | O(1) |
-| 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 125 | [Valid Palindrome](../leetcode/0125-valid-palindrome/) | Easy | Two Pointers | O(n) | O(1) |
 | 138 | [Copy List with Random Pointer](../leetcode/0138-copy-list-with-random-pointer/) | Medium | Two Pointers | O(n) | O(1) |
 | 148 | [Sort List](../leetcode/0148-sort-list/) | Medium | Two Pointers | O(n) | O(1) |
