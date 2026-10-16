@@ -82,6 +82,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 211 | [Design Add and Search Words Data Structure](../leetcode/0211-design-add-and-search-words-data-structure/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0211-design-add-and-search-words-data-structure/Explanation.md) |
 
+| 438 | [Find All Anagrams in a String](../leetcode/0438-find-all-anagrams-in-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0438-find-all-anagrams-in-a-string/Explanation.md) |
+
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Java | O(n) | O(n) | [Explanation](../leetcode/1187-print-foobar-alternately/Explanation.md) |
 
 | 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/Explanation.md) |

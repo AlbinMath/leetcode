@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [129. Sum Root to Leaf Numbers](../0129-sum-root-to-leaf-numbers/)
 - [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
-- [1161. Maximum Level Sum of a Binary Tree](../1116-maximum-level-sum-of-a-binary-tree/)
+- [633. Sum of Square Numbers](../0633-sum-of-square-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)

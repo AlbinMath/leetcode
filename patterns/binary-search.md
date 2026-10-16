@@ -90,7 +90,7 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 18 | [4Sum](../leetcode/0018-4sum/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0018-4sum/Explanation.md) |
 
-| 33 | [Search in Rotated Sorted Array](../leetcode/0033-search-in-rotated-sorted-array/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0033-search-in-rotated-sorted-array/Explanation.md) |
+| 33 | [Search in Rotated Sorted Array](../leetcode/0033-search-in-rotated-sorted-array/) | C++, Python | O(log n) | O(1) | [Explanation](../leetcode/0033-search-in-rotated-sorted-array/Explanation.md) |
 
 | 34 | [Find First and Last Position of Element in Sorted Array](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/) | Python | O(log n) | O(1) | [Explanation](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/Explanation.md) |
 
@@ -130,6 +130,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 300 | [Longest Increasing Subsequence](../leetcode/0300-longest-increasing-subsequence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0300-longest-increasing-subsequence/Explanation.md) |
 
+| 347 | [Top K Frequent Elements](../leetcode/0347-top-k-frequent-elements/) | Python | O(n log n) | O(1) | [Explanation](../leetcode/0347-top-k-frequent-elements/Explanation.md) |
+
 | 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0450-delete-node-in-a-bst/Explanation.md) |
 
 | 540 | [Single Element in a Sorted Array](../leetcode/0540-single-element-in-a-sorted-array/) | JavaScript | O(log n) | O(1) | [Explanation](../leetcode/0540-single-element-in-a-sorted-array/Explanation.md) |
@@ -138,7 +140,9 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0804-rotated-digits/Explanation.md) |
 
-| 852 | [Peak Index in a Mountain Array](../leetcode/0882-peak-index-in-a-mountain-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0882-peak-index-in-a-mountain-array/Explanation.md) |
+| 852 | [Peak Index in a Mountain Array](../leetcode/0882-peak-index-in-a-mountain-array/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0882-peak-index-in-a-mountain-array/Explanation.md) |
+
+| 912 | [Sort an Array](../leetcode/0948-sort-an-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/0948-sort-an-array/Explanation.md) |
 
 | 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/Explanation.md) |
 

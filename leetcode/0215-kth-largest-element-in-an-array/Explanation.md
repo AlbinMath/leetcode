@@ -1,7 +1,7 @@
 # LeetCode 215: Kth Largest Element in an Array
 
 **LeetCode Problem #215 — Kth Largest Element in an Array**
-Solve LeetCode Kth Largest Element in an Array using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Kth Largest Element in an Array using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Kth Largest Element in an Array using JavaScript and Array / Gene
 | Problem | Kth Largest Element in an Array |
 | LeetCode | #215 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Kth Largest Element in an Array**. Applying **
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

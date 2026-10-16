@@ -8,6 +8,7 @@ A curated selection of LeetCode problems solved using the **Floyd Cycle Detectio
 |---|---|---|---|---|---|
 | 19 | [Remove Nth Node From End of List](../leetcode/0019-remove-nth-node-from-end-of-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
 | 141 | [Linked List Cycle](../leetcode/0141-linked-list-cycle/) | Easy | Fast & Slow Pointers | O(n) | O(1) |
+| 142 | [Linked List Cycle II](../leetcode/0142-linked-list-cycle-ii/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
 | 2095 | [Delete the Middle Node of a Linked List](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
 | 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
 | 2509 | [Cycle Length Queries in a Tree](../leetcode/2597-cycle-length-queries-in-a-tree/) | Hard | Fast & Slow Pointers | O(n) | O(1) |

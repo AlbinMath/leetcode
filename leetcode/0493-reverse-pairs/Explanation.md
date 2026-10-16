@@ -1,7 +1,7 @@
 # LeetCode 493: Reverse Pairs
 
 **LeetCode Problem #493 — Reverse Pairs**
-Solve LeetCode Reverse Pairs using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Reverse Pairs using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Reverse Pairs using JavaScript and Array / General. This solution
 | Problem | Reverse Pairs |
 | LeetCode | #493 |
 | Difficulty | Hard |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Reverse Pairs**. Applying **In-Place Array Tra
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

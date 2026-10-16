@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [658. Find K Closest Elements](../0658-find-k-closest-elements/)
 - [744. Find Smallest Letter Greater Than Target](../0745-find-smallest-letter-greater-than-target/)
-- [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
+- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)

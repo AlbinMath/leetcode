@@ -40,3 +40,4 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Easy | Math & Logic | O(n) | O(1) |
 | 3536 | [Maximum Product of Two Digits](../leetcode/3859-maximum-product-of-two-digits/) | Easy | Math & Logic | O(n) | O(1) |
 | 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Easy | Math & Logic | O(n) | O(1) |
+| 3723 | [Maximize Sum of Squares of Digits](../leetcode/4084-maximize-sum-of-squares-of-digits/) | Medium | Math & Logic | O(n) | O(1) |

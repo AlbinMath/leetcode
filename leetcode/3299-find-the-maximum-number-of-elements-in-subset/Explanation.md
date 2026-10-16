@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [287. Find the Duplicate Number](../0287-find-the-duplicate-number/)
 - [414. Third Maximum Number](../0414-third-maximum-number/)
-- [658. Find K Closest Elements](../0658-find-k-closest-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/)

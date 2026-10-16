@@ -16,6 +16,7 @@ LeetCode problems solved using **Dictionary / Hash Map** data structures.
 | 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 290 | [Word Pattern](../leetcode/0290-word-pattern/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 438 | [Find All Anagrams in a String](../leetcode/0438-find-all-anagrams-in-a-string/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 476 | [Number Complement](../leetcode/0476-number-complement/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 504 | [Base 7](../leetcode/0504-base-7/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 697 | [Degree of an Array](../leetcode/0697-degree-of-an-array/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |

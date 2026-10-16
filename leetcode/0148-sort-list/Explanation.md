@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [147. Insertion Sort List](../0147-insertion-sort-list/)
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
 - [61. Rotate List](../0061-rotate-list/)
-- [75. Sort Colors](../0075-sort-colors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-list/)

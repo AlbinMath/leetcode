@@ -17,6 +17,7 @@ This repository contains solved LeetCode problems with explanations, complexity 
 
 | # | Problem | Difficulty | Pattern | Language | Solution |
 |---|---|---|---|---|---|
+| 4062 | [Transform Array Using Pair Operations](leetcode/4398-transform-array-using-pair-operations/) | Medium | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4398-transform-array-using-pair-operations/Explanation.md) |
 | 4055 | [Count Shadow Pairs II](leetcode/4326-count-shadow-pairs-ii/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4326-count-shadow-pairs-ii/Explanation.md) |
 | 4051 | [Count Subarrays with Distant Sums](leetcode/4317-count-subarrays-with-distant-sums/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4317-count-subarrays-with-distant-sums/Explanation.md) |
 | 4033 | [Valid K-Unique Subarrays I](leetcode/3988-valid-k-unique-subarrays-i/) | Hard | [Hash Map](patterns/hash-map.md) | Python | [Explanation](leetcode/3988-valid-k-unique-subarrays-i/Explanation.md) |
@@ -31,7 +32,6 @@ This repository contains solved LeetCode problems with explanations, complexity 
 | 3875 | [Construct Uniform Parity Array I](leetcode/4256-construct-uniform-parity-array-i/) | Easy | [Binary Search](patterns/binary-search.md) | C++ | [Explanation](leetcode/4256-construct-uniform-parity-array-i/Explanation.md) |
 | 3871 | [Count Commas in Range II](leetcode/4248-count-commas-in-range-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4248-count-commas-in-range-ii/Explanation.md) |
 | 3870 | [Count Commas in Range](leetcode/4245-count-commas-in-range/) | Easy | [Tree & Graph](patterns/tree-graph.md) | JavaScript | [Explanation](leetcode/4245-count-commas-in-range/Explanation.md) |
-| 3867 | [Sum of GCD of Formed Pairs](leetcode/4242-sum-of-gcd-of-formed-pairs/) | Medium | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4242-sum-of-gcd-of-formed-pairs/Explanation.md) |
 
 ---
 

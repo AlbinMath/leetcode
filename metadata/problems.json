@@ -300,8 +300,8 @@
     "brief": "You are given an integer array  height  of length  n . There are  n  vertical lines drawn such that the two endpoints of the  i th   line are  (i, 0)  and  (i, height[i]) .",
     "related_ids": [
       42,
-      602,
-      819
+      365,
+      602
     ]
   },
   {
@@ -886,9 +886,10 @@
     "folder": "0033-search-in-rotated-sorted-array",
     "path": "leetcode/0033-search-in-rotated-sorted-array",
     "languages": [
-      "C++"
+      "C++",
+      "Python"
     ],
-    "lang_str": "C++",
+    "lang_str": "C++, Python",
     "pattern": "Binary Search",
     "algorithm": "Modified Binary Search",
     "data_structure": "Sorted Array",
@@ -1145,8 +1146,8 @@
     "brief": "Given  n  non-negative integers representing an elevation map where the width of each bar is  1 , compute how much water it can trap after raining.",
     "related_ids": [
       11,
-      1518,
-      3633
+      365,
+      1518
     ]
   },
   {
@@ -1250,8 +1251,8 @@
     "brief": "Given an array  nums  of distinct integers, return all the possible  permutations . You can return the answer in  any order .",
     "related_ids": [
       47,
-      17,
-      31
+      3577,
+      17
     ]
   },
   {
@@ -1332,8 +1333,8 @@
     "brief": "Given an array of strings  strs , group the  anagrams  together. You can return the answer in  any order .",
     "related_ids": [
       25,
-      1399,
-      1484
+      438,
+      1399
     ]
   },
   {
@@ -1444,9 +1445,9 @@
     "space": "O(n)",
     "brief": "Given an integer array  nums , find the  subarray  with the largest sum, and return  its sum .",
     "related_ids": [
+      152,
       643,
-      918,
-      1800
+      918
     ]
   },
   {
@@ -2053,9 +2054,9 @@
     "space": "O(1)",
     "brief": "You are given an array  nums  with  n  objects colored red, white, or blue, sort them   in-place   so that objects of the same color are adjacent, with the colors in the order red, white, and blue.",
     "related_ids": [
+      147,
       148,
-      905,
-      922
+      905
     ]
   },
   {
@@ -2255,9 +2256,10 @@
     "folder": "0083-remove-duplicates-from-sorted-list",
     "path": "leetcode/0083-remove-duplicates-from-sorted-list",
     "languages": [
-      "PHP"
+      "PHP",
+      "Python"
     ],
-    "lang_str": "PHP",
+    "lang_str": "PHP, Python",
     "pattern": "Two Pointers",
     "algorithm": "Two Pointer Convergence & Scanning",
     "data_structure": "Array",
@@ -2486,8 +2488,8 @@
     "brief": "You have intercepted a secret message encoded as a string of numbers. The message is  decoded  via the following mapping:",
     "related_ids": [
       394,
-      1720,
-      3558
+      1664,
+      1720
     ]
   },
   {
@@ -2513,9 +2515,9 @@
     "space": "O(1)",
     "brief": "Given the  head  of a singly linked list and two integers  left  and  right  where  left <= right , reverse the nodes of the list from position  left  to position  right , and return  the reversed list .",
     "related_ids": [
+      142,
       206,
-      82,
-      114
+      82
     ]
   },
   {
@@ -2890,9 +2892,10 @@
     "folder": "0106-construct-binary-tree-from-inorder-and-postorder-traversal",
     "path": "leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal",
     "languages": [
-      "JavaScript"
+      "JavaScript",
+      "Python"
     ],
-    "lang_str": "JavaScript",
+    "lang_str": "JavaScript, Python",
     "pattern": "Tree & Graph",
     "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
     "data_structure": "Tree / Graph / Grid",
@@ -3430,8 +3433,8 @@
     "brief": "You are given the  root  of a binary tree containing digits from  0  to  9  only.",
     "related_ids": [
       1022,
-      3855,
-      1
+      633,
+      3855
     ]
   },
   {
@@ -3458,6 +3461,34 @@
       5,
       26,
       27
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Palindrome Partitioning",
+    "slug": "palindrome-partitioning",
+    "difficulty": "Medium",
+    "folder": "0131-palindrome-partitioning",
+    "path": "leetcode/0131-palindrome-partitioning",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
+    "topics": [
+      "Two Pointers",
+      "Array",
+      "Sorting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a string  s , partition  s  such that every  substring  of the partition is a   palindrome  . Return  all possible palindrome partitioning of   s .",
+    "related_ids": [
+      9,
+      125,
+      234
     ]
   },
   {
@@ -3602,9 +3633,10 @@
     "folder": "0138-copy-list-with-random-pointer",
     "path": "leetcode/0138-copy-list-with-random-pointer",
     "languages": [
-      "JavaScript"
+      "JavaScript",
+      "Python"
     ],
-    "lang_str": "JavaScript",
+    "lang_str": "JavaScript, Python",
     "pattern": "Two Pointers",
     "algorithm": "Two Pointer Convergence & Scanning",
     "data_structure": "Array",
@@ -3672,9 +3704,36 @@
     "space": "O(1)",
     "brief": "Given  head , the head of a linked list, determine if the linked list has a cycle in it.",
     "related_ids": [
+      142,
       92,
-      114,
-      203
+      114
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Linked List Cycle II",
+    "slug": "linked-list-cycle-ii",
+    "difficulty": "Medium",
+    "folder": "0142-linked-list-cycle-ii",
+    "path": "leetcode/0142-linked-list-cycle-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Fast & Slow Pointers",
+    "algorithm": "Floyd Cycle Detection",
+    "data_structure": "Linked List / Pointer",
+    "topics": [
+      "Two Pointers",
+      "Cycle Detection"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a linked list, return  the node where the cycle begins. If there is no cycle, return   null .",
+    "related_ids": [
+      92,
+      141,
+      82
     ]
   },
   {
@@ -3762,6 +3821,33 @@
     ]
   },
   {
+    "id": 147,
+    "title": "Insertion Sort List",
+    "slug": "insertion-sort-list",
+    "difficulty": "Medium",
+    "folder": "0147-insertion-sort-list",
+    "path": "leetcode/0147-insertion-sort-list",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a singly linked list, sort the list using  insertion sort , and return  the sorted list&#39;s head .",
+    "related_ids": [
+      148,
+      19,
+      61
+    ]
+  },
+  {
     "id": 148,
     "title": "Sort List",
     "slug": "sort-list",
@@ -3784,9 +3870,35 @@
     "space": "O(1)",
     "brief": "Given the  head  of a linked list, return  the list after sorting it in  ascending order  .",
     "related_ids": [
+      147,
       19,
-      61,
-      75
+      61
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Max Points on a Line",
+    "slug": "max-points-on-a-line",
+    "difficulty": "Hard",
+    "folder": "0149-max-points-on-a-line",
+    "path": "leetcode/0149-max-points-on-a-line",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of  points  where  points[i] = [x i , y i ]  represents a point on the  X-Y  plane, return  the maximum number of points that lie on the same straight line .",
+    "related_ids": [
+      195,
+      485,
+      780
     ]
   },
   {
@@ -3840,6 +3952,33 @@
       557,
       344,
       345
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Maximum Product Subarray",
+    "slug": "maximum-product-subarray",
+    "difficulty": "Medium",
+    "folder": "0152-maximum-product-subarray",
+    "path": "leetcode/0152-maximum-product-subarray",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums , find a  subarray  that has the largest product, and return  the product .",
+    "related_ids": [
+      53,
+      628,
+      643
     ]
   },
   {
@@ -4416,7 +4555,7 @@
     "related_ids": [
       184,
       326,
-      628
+      347
     ]
   },
   {
@@ -4628,9 +4767,9 @@
     "space": "O(1)",
     "brief": "Given a text file  file.txt , print just the 10th line of the file.",
     "related_ids": [
+      149,
       1232,
-      1621,
-      5
+      1621
     ]
   },
   {
@@ -4917,9 +5056,10 @@
     "path": "leetcode/0206-reverse-linked-list",
     "languages": [
       "JavaScript",
-      "PHP"
+      "PHP",
+      "Python"
     ],
-    "lang_str": "JavaScript, PHP",
+    "lang_str": "JavaScript, PHP, Python",
     "pattern": "Two Pointers",
     "algorithm": "Two Pointer Convergence & Scanning",
     "data_structure": "Array",
@@ -5015,8 +5155,8 @@
     "brief": "Given an array of positive integers  nums  and a positive integer  target , return  the  minimal length  of a    subarray    whose sum is greater than or equal to   target . If there is no such subarray, return  0  instead.",
     "related_ids": [
       64,
-      599,
-      918
+      560,
+      599
     ]
   },
   {
@@ -5109,9 +5249,10 @@
     "folder": "0215-kth-largest-element-in-an-array",
     "path": "leetcode/0215-kth-largest-element-in-an-array",
     "languages": [
-      "JavaScript"
+      "JavaScript",
+      "Python"
     ],
-    "lang_str": "JavaScript",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -5203,9 +5344,9 @@
     "space": "O(n)",
     "brief": "A city&#39;s  skyline  is the outer contour of the silhouette formed by all the buildings in that city when viewed from a distance. Given the locations and heights of all the buildings, return  the  skyline  formed by these buildings collectively .",
     "related_ids": [
+      365,
       10,
-      115,
-      334
+      115
     ]
   },
   {
@@ -5257,7 +5398,7 @@
     "related_ids": [
       85,
       367,
-      1725
+      633
     ]
   },
   {
@@ -5592,6 +5733,34 @@
     ]
   },
   {
+    "id": 239,
+    "title": "Sliding Window Maximum",
+    "slug": "sliding-window-maximum",
+    "difficulty": "Hard",
+    "folder": "0239-sliding-window-maximum",
+    "path": "leetcode/0239-sliding-window-maximum",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Sliding Window",
+    "algorithm": "Dynamic Sliding Window Traversal",
+    "data_structure": "Array / Hash Set",
+    "topics": [
+      "Sliding Window",
+      "Two Pointers",
+      "Subarrays"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of integers  nums , there is a sliding window of size  k  which is moving from the very left of the array to the very right. You can only see the  k  numbers in the window. Each time the sliding window moves right by one position.",
+    "related_ids": [
+      53,
+      76,
+      104
+    ]
+  },
+  {
     "id": 240,
     "title": "Search a 2D Matrix II",
     "slug": "search-a-2d-matrix-ii",
@@ -5752,9 +5921,9 @@
     "space": "O(1)",
     "brief": "An  ugly number  is a  positive  integer which does not have a prime factor other than 2, 3, and 5.",
     "related_ids": [
+      1201,
       9,
-      17,
-      65
+      17
     ]
   },
   {
@@ -5862,6 +6031,32 @@
     ]
   },
   {
+    "id": 279,
+    "title": "Perfect Squares",
+    "slug": "perfect-squares",
+    "difficulty": "Medium",
+    "folder": "0279-perfect-squares",
+    "path": "leetcode/0279-perfect-squares",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  n , return  the least number of perfect square numbers that sum to   n .",
+    "related_ids": [
+      367,
+      507,
+      977
+    ]
+  },
+  {
     "id": 283,
     "title": "Move Zeroes",
     "slug": "move-zeroes",
@@ -5886,6 +6081,32 @@
       73,
       172,
       1217
+    ]
+  },
+  {
+    "id": 287,
+    "title": "Find the Duplicate Number",
+    "slug": "find-the-duplicate-number",
+    "difficulty": "Medium",
+    "folder": "0287-find-the-duplicate-number",
+    "path": "leetcode/0287-find-the-duplicate-number",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of integers  nums  containing  n + 1  integers where each integer is in the range  [1, n]  inclusive.",
+    "related_ids": [
+      1295,
+      1334,
+      2058
     ]
   },
   {
@@ -6129,6 +6350,32 @@
     ]
   },
   {
+    "id": 319,
+    "title": "Bulb Switcher",
+    "slug": "bulb-switcher",
+    "difficulty": "Medium",
+    "folder": "0319-bulb-switcher",
+    "path": "leetcode/0319-bulb-switcher",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There are  n  bulbs that are initially off. You first turn on all the bulbs, then you turn off every second bulb.",
+    "related_ids": [
+      5,
+      26,
+      27
+    ]
+  },
+  {
     "id": 322,
     "title": "Coin Change",
     "slug": "coin-change",
@@ -6215,9 +6462,10 @@
     "folder": "0328-odd-even-linked-list",
     "path": "leetcode/0328-odd-even-linked-list",
     "languages": [
-      "JavaScript"
+      "JavaScript",
+      "Python"
     ],
-    "lang_str": "JavaScript",
+    "lang_str": "JavaScript, Python",
     "pattern": "Two Pointers",
     "algorithm": "Two Pointer Convergence & Scanning",
     "data_structure": "Array",
@@ -6372,6 +6620,34 @@
     ]
   },
   {
+    "id": 347,
+    "title": "Top K Frequent Elements",
+    "slug": "top-k-frequent-elements",
+    "difficulty": "Medium",
+    "folder": "0347-top-k-frequent-elements",
+    "path": "leetcode/0347-top-k-frequent-elements",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n log n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums  and an integer  k , return  the   k   most frequent elements . You may return the answer in  any order .",
+    "related_ids": [
+      658,
+      3759,
+      23
+    ]
+  },
+  {
     "id": 349,
     "title": "Intersection of Two Arrays",
     "slug": "intersection-of-two-arrays",
@@ -6454,6 +6730,32 @@
     ]
   },
   {
+    "id": 365,
+    "title": "Water and Jug Problem",
+    "slug": "water-and-jug-problem",
+    "difficulty": "Medium",
+    "folder": "0365-water-and-jug-problem",
+    "path": "leetcode/0365-water-and-jug-problem",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two jugs with capacities  x  liters and  y  liters. You have an infinite water supply. Return whether the total amount of water in both jugs may reach  target  using the following operations:",
+    "related_ids": [
+      11,
+      42,
+      218
+    ]
+  },
+  {
     "id": 367,
     "title": "Valid Perfect Square",
     "slug": "valid-perfect-square",
@@ -6502,7 +6804,7 @@
     "related_ids": [
       658,
       744,
-      1679
+      1334
     ]
   },
   {
@@ -7132,6 +7434,34 @@
     ]
   },
   {
+    "id": 438,
+    "title": "Find All Anagrams in a String",
+    "slug": "find-all-anagrams-in-a-string",
+    "difficulty": "Medium",
+    "folder": "0438-find-all-anagrams-in-a-string",
+    "path": "leetcode/0438-find-all-anagrams-in-a-string",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
+    "topics": [
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given two strings  s  and  p , return an array of all the start indices of  p &#39;s  anagrams  in  s . You may return the answer in  any order .",
+    "related_ids": [
+      28,
+      448,
+      1047
+    ]
+  },
+  {
     "id": 441,
     "title": "Arranging Coins",
     "slug": "arranging-coins",
@@ -7447,7 +7777,7 @@
     "related_ids": [
       1004,
       128,
-      180
+      149
     ]
   },
   {
@@ -7515,9 +7845,10 @@
     "folder": "0493-reverse-pairs",
     "path": "leetcode/0493-reverse-pairs",
     "languages": [
-      "JavaScript"
+      "JavaScript",
+      "Python"
     ],
-    "lang_str": "JavaScript",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -8132,6 +8463,32 @@
     ]
   },
   {
+    "id": 560,
+    "title": "Subarray Sum Equals K",
+    "slug": "subarray-sum-equals-k",
+    "difficulty": "Medium",
+    "folder": "0560-subarray-sum-equals-k",
+    "path": "leetcode/0560-subarray-sum-equals-k",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of integers  nums  and an integer  k , return  the total number of subarrays whose sum equals to   k .",
+    "related_ids": [
+      3962,
+      209,
+      918
+    ]
+  },
+  {
     "id": 561,
     "title": "Array Partition",
     "slug": "array-partition",
@@ -8462,6 +8819,33 @@
       589,
       106,
       145
+    ]
+  },
+  {
+    "id": 592,
+    "title": "Fraction Addition and Subtraction",
+    "slug": "fraction-addition-and-subtraction",
+    "difficulty": "Medium",
+    "folder": "0592-fraction-addition-and-subtraction",
+    "path": "leetcode/0592-fraction-addition-and-subtraction",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a string  expression  representing an expression of fraction addition and subtraction, return the calculation result in string format.",
+    "related_ids": [
+      598,
+      7,
+      8
     ]
   },
   {
@@ -8957,9 +9341,35 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums .",
     "related_ids": [
+      152,
       1464,
-      1913,
-      3536
+      1913
+    ]
+  },
+  {
+    "id": 633,
+    "title": "Sum of Square Numbers",
+    "slug": "sum-of-square-numbers",
+    "difficulty": "Medium",
+    "folder": "0633-sum-of-square-numbers",
+    "path": "leetcode/0633-sum-of-square-numbers",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a non-negative integer  c , decide whether there&#39;re two integers  a  and  b  such that  a 2  + b 2  = c .",
+    "related_ids": [
+      129,
+      1022,
+      1925
     ]
   },
   {
@@ -9041,7 +9451,7 @@
     "related_ids": [
       3689,
       53,
-      918
+      152
     ]
   },
   {
@@ -9172,9 +9582,9 @@
     "space": "O(1)",
     "brief": "Given a  sorted  integer array  arr , two integers  k  and  x , return the  k  closest integers to  x  in the array. The result should also be sorted in ascending order.",
     "related_ids": [
+      347,
       373,
-      3020,
-      3731
+      3020
     ]
   },
   {
@@ -9941,6 +10351,32 @@
     ]
   },
   {
+    "id": 763,
+    "title": "Partition Labels",
+    "slug": "partition-labels",
+    "difficulty": "Medium",
+    "folder": "0768-partition-labels",
+    "path": "leetcode/0768-partition-labels",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a string  s . We want to partition the string into as many parts as possible so that each letter appears in at most one part. For example, the string  \"ababcc\"  can be partitioned into  [\"abab\", \"cc\"] , but partitions such as  [\"aba\", \"bcc\"]  or  [\"ab\", \"ab\", \"cc\"]  are invalid.",
+    "related_ids": [
+      86,
+      561,
+      2161
+    ]
+  },
+  {
     "id": 766,
     "title": "Toeplitz Matrix",
     "slug": "toeplitz-matrix",
@@ -9990,9 +10426,35 @@
     "space": "O(1)",
     "brief": "You&#39;re given strings  jewels  representing the types of stones that are jewels, and  stones  representing the stones you have. Each character in  stones  is a type of stone you have. You want to know how many of the stones you have are also jewels.",
     "related_ids": [
+      1033,
       5,
-      26,
-      27
+      26
+    ]
+  },
+  {
+    "id": 780,
+    "title": "Reaching Points",
+    "slug": "reaching-points",
+    "difficulty": "Hard",
+    "folder": "0796-reaching-points",
+    "path": "leetcode/0796-reaching-points",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given four integers  sx ,  sy ,  tx , and  ty , return  true   if it is possible to convert the point   (sx, sy)   to the point   (tx, ty)   through some operations  , or   false   otherwise .",
+    "related_ids": [
+      149,
+      1266,
+      1637
     ]
   },
   {
@@ -10155,6 +10617,33 @@
       434,
       1805,
       1903
+    ]
+  },
+  {
+    "id": 810,
+    "title": "Chalkboard XOR Game",
+    "slug": "chalkboard-xor-game",
+    "difficulty": "Hard",
+    "folder": "0828-chalkboard-xor-game",
+    "path": "leetcode/0828-chalkboard-xor-game",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of integers  nums  represents the numbers written on a chalkboard.",
+    "related_ids": [
+      45,
+      55,
+      289
     ]
   },
   {
@@ -10454,9 +10943,10 @@
     "folder": "0882-peak-index-in-a-mountain-array",
     "path": "leetcode/0882-peak-index-in-a-mountain-array",
     "languages": [
-      "JavaScript"
+      "JavaScript",
+      "Python"
     ],
-    "lang_str": "JavaScript",
+    "lang_str": "JavaScript, Python",
     "pattern": "Binary Search",
     "algorithm": "Modified Binary Search",
     "data_structure": "Sorted Array",
@@ -10499,6 +10989,32 @@
       20,
       22,
       32
+    ]
+  },
+  {
+    "id": 858,
+    "title": "Mirror Reflection",
+    "slug": "mirror-reflection",
+    "difficulty": "Medium",
+    "folder": "0888-mirror-reflection",
+    "path": "leetcode/0888-mirror-reflection",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There is a special square room with mirrors on each of the four walls. Except for the southwest corner, there are receptors on each of the remaining corners, numbered  0 ,  1 , and  2 .",
+    "related_ids": [
+      5,
+      26,
+      27
     ]
   },
   {
@@ -10960,8 +11476,8 @@
     "brief": "Given an integer array  nums , move all the even integers at the beginning of the array followed by all the odd integers.",
     "related_ids": [
       922,
-      1122,
-      1636
+      912,
+      1122
     ]
   },
   {
@@ -11014,6 +11530,34 @@
       5,
       26,
       27
+    ]
+  },
+  {
+    "id": 912,
+    "title": "Sort an Array",
+    "slug": "sort-an-array",
+    "difficulty": "Medium",
+    "folder": "0948-sort-an-array",
+    "path": "leetcode/0948-sort-an-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of integers  nums , sort the array in ascending order and return it.",
+    "related_ids": [
+      905,
+      922,
+      1122
     ]
   },
   {
@@ -11202,6 +11746,32 @@
       62,
       63,
       93
+    ]
+  },
+  {
+    "id": 932,
+    "title": "Beautiful Array",
+    "slug": "beautiful-array",
+    "difficulty": "Medium",
+    "folder": "0968-beautiful-array",
+    "path": "leetcode/0968-beautiful-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "An array  nums  of length  n  is  beautiful  if:",
+    "related_ids": [
+      26,
+      33,
+      34
     ]
   },
   {
@@ -11844,7 +12414,7 @@
     "related_ids": [
       129,
       124,
-      1161
+      633
     ]
   },
   {
@@ -11903,6 +12473,34 @@
     ]
   },
   {
+    "id": 1033,
+    "title": "Moving Stones Until Consecutive",
+    "slug": "moving-stones-until-consecutive",
+    "difficulty": "Medium",
+    "folder": "1103-moving-stones-until-consecutive",
+    "path": "leetcode/1103-moving-stones-until-consecutive",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization & State Transition",
+    "data_structure": "DP Table / Array",
+    "topics": [
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "There are three stones in different positions on the X-axis. You are given three integers  a ,  b , and  c , the positions of the stones.",
+    "related_ids": [
+      128,
+      180,
+      485
+    ]
+  },
+  {
     "id": 1037,
     "title": "Valid Boomerang",
     "slug": "valid-boomerang",
@@ -11953,7 +12551,7 @@
     "related_ids": [
       183,
       30,
-      448
+      438
     ]
   },
   {
@@ -12142,8 +12740,8 @@
     "brief": "For two strings  s  and  t , we say \" t  divides  s \" if and only if  s = t + t + t + ... + t + t  (i.e.,  t  is concatenated with itself one or more times).",
     "related_ids": [
       1979,
-      14,
-      43
+      2709,
+      14
     ]
   },
   {
@@ -12521,8 +13119,8 @@
     "brief": "Given two arrays  arr1  and  arr2 , the elements of  arr2  are distinct, and all elements in  arr2  are also in  arr1 .",
     "related_ids": [
       905,
-      922,
-      1636
+      912,
+      922
     ]
   },
   {
@@ -12905,9 +13503,9 @@
     "space": "O(n)",
     "brief": "+---------------+---------+",
     "related_ids": [
+      152,
       238,
-      628,
-      1068
+      628
     ]
   },
   {
@@ -13155,6 +13753,32 @@
     ]
   },
   {
+    "id": 1201,
+    "title": "Ugly Number III",
+    "slug": "ugly-number-iii",
+    "difficulty": "Medium",
+    "folder": "1307-ugly-number-iii",
+    "path": "leetcode/1307-ugly-number-iii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "An  ugly number  is a positive integer that is divisible by  a ,  b , or  c .",
+    "related_ids": [
+      263,
+      9,
+      17
+    ]
+  },
+  {
     "id": 1204,
     "title": "Last Person to Fit in the Bus",
     "slug": "last-person-to-fit-in-the-bus",
@@ -13316,6 +13940,32 @@
     ]
   },
   {
+    "id": 1227,
+    "title": "Airplane Seat Assignment Probability",
+    "slug": "airplane-seat-assignment-probability",
+    "difficulty": "Medium",
+    "folder": "1362-airplane-seat-assignment-probability",
+    "path": "leetcode/1362-airplane-seat-assignment-probability",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "n  passengers board an airplane with exactly  n  seats. The first passenger has lost the ticket and picks a seat randomly. But after that, the rest of the passengers will:",
+    "related_ids": [
+      1386,
+      5,
+      26
+    ]
+  },
+  {
     "id": 1232,
     "title": "Check If It Is a Straight Line",
     "slug": "check-if-it-is-a-straight-line",
@@ -13336,9 +13986,35 @@
     "space": "O(1)",
     "brief": "You are given an integer array  coordinates ,  coordinates[i] = [x, y] , where  [x, y]  represents the coordinate of a point. Check if these points make a straight line in the XY plane.",
     "related_ids": [
+      1250,
       1346,
-      1437,
-      1455
+      1437
+    ]
+  },
+  {
+    "id": 1250,
+    "title": "Check If It Is a Good Array",
+    "slug": "check-if-it-is-a-good-array",
+    "difficulty": "Hard",
+    "folder": "1372-check-if-it-is-a-good-array",
+    "path": "leetcode/1372-check-if-it-is-a-good-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array  nums  of positive integers. Your task is to select some subset of  nums , multiply each element by an integer and add all these numbers. The array is said to be  good  if you can obtain a sum of  1  from the array by any possible subset and multiplicand.",
+    "related_ids": [
+      2784,
+      1232,
+      1752
     ]
   },
   {
@@ -13450,7 +14126,7 @@
     "related_ids": [
       1974,
       2058,
-      30
+      2654
     ]
   },
   {
@@ -13691,9 +14367,9 @@
     "space": "O(1)",
     "brief": "Given an array  nums  of integers, return how many of them contain an  even number  of digits.",
     "related_ids": [
+      287,
       448,
-      1365,
-      2058
+      1334
     ]
   },
   {
@@ -13883,9 +14559,9 @@
     "space": "O(n)",
     "brief": "Given 3 positives numbers  a ,  b  and  c . Return the minimum flips required in some bits of  a  and  b  to make (  a  OR  b  ==  c  ). (bitwise OR operation).",
     "related_ids": [
+      2654,
       921,
-      1460,
-      1674
+      1460
     ]
   },
   {
@@ -13994,8 +14670,8 @@
     "brief": "Given an array of integers  arr , replace each element with its rank.",
     "related_ids": [
       2635,
-      26,
-      33
+      4062,
+      26
     ]
   },
   {
@@ -14024,6 +14700,32 @@
       5,
       19,
       26
+    ]
+  },
+  {
+    "id": 1334,
+    "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+    "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+    "difficulty": "Medium",
+    "folder": "1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+    "path": "leetcode/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There are  n  cities numbered from  0  to  n-1 . Given the array  edges  where  edges[i] = [from i , to i , weight i ]  represents a bidirectional and weighted edge between cities  from i   and  to i  , and given the integer  distanceThreshold .",
+    "related_ids": [
+      287,
+      373,
+      744
     ]
   },
   {
@@ -14214,8 +14916,8 @@
     "brief": "Given an array  arr  of integers, check if there exist two indices  i  and  j  such that :",
     "related_ids": [
       1232,
-      1437,
-      1455
+      1250,
+      1437
     ]
   },
   {
@@ -14596,9 +15298,9 @@
     "space": "O(n)",
     "brief": "A cinema has  n  rows of seats, numbered from 1 to  n . Each row has 10 seats, numbered from 1 to 10.",
     "related_ids": [
+      1227,
       1,
-      49,
-      58
+      49
     ]
   },
   {
@@ -14842,8 +15544,8 @@
     "brief": "+---------------+---------+",
     "related_ids": [
       185,
-      175,
-      176
+      347,
+      175
     ]
   },
   {
@@ -15025,9 +15727,9 @@
     "space": "O(1)",
     "brief": "You are given the array  paths , where  paths[i] = [cityA i , cityB i ]  means there exists a direct path going from  cityA i   to  cityB i  .  Return the destination city, that is, the city without any path outgoing to another city.",
     "related_ids": [
+      1334,
       1466,
-      5,
-      26
+      5
     ]
   },
   {
@@ -15079,8 +15781,8 @@
     "brief": "You are given an integer array  target  and an integer  n .",
     "related_ids": [
       1827,
-      1920,
-      2897
+      1887,
+      1920
     ]
   },
   {
@@ -15107,6 +15809,32 @@
       3,
       128,
       180
+    ]
+  },
+  {
+    "id": 1447,
+    "title": "Simplified Fractions",
+    "slug": "simplified-fractions",
+    "difficulty": "Medium",
+    "folder": "1543-simplified-fractions",
+    "path": "leetcode/1543-simplified-fractions",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  n , return  a list of all  simplified  fractions between   0   and   1   (exclusive) such that the denominator is less-than-or-equal-to   n . You can return the answer in  any order .",
+    "related_ids": [
+      5,
+      26,
+      27
     ]
   },
   {
@@ -15267,7 +15995,7 @@
     "related_ids": [
       1913,
       3536,
-      167
+      152
     ]
   },
   {
@@ -15295,8 +16023,8 @@
     "brief": "There are  n  cities numbered from  0  to  n - 1  and  n - 1  roads such that there is only one way to travel between two different cities (this network form a tree). Last year, The ministry of transport decided to orient the roads in one direction because they are too narrow.",
     "related_ids": [
       1897,
-      30,
-      62
+      2654,
+      2749
     ]
   },
   {
@@ -15537,9 +16265,9 @@
     "space": "O(1)",
     "brief": "You are given a binary array  nums , you should delete  one  element from it.",
     "related_ids": [
+      3828,
       1157,
-      1846,
-      1909
+      1846
     ]
   },
   {
@@ -15623,6 +16351,32 @@
       1790,
       19,
       26
+    ]
+  },
+  {
+    "id": 1503,
+    "title": "Last Moment Before All Ants Fall Out of a Plank",
+    "slug": "last-moment-before-all-ants-fall-out-of-a-plank",
+    "difficulty": "Medium",
+    "folder": "1627-last-moment-before-all-ants-fall-out-of-a-plank",
+    "path": "leetcode/1627-last-moment-before-all-ants-fall-out-of-a-plank",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "We have a wooden plank of the length  n   units . Some ants are walking on the plank, each ant moves with a speed of  1 unit per second . Some of the ants move to the  left , the other move to the  right .",
+    "related_ids": [
+      30,
+      34,
+      58
     ]
   },
   {
@@ -15783,7 +16537,7 @@
     "related_ids": [
       11,
       42,
-      3633
+      365
     ]
   },
   {
@@ -16194,6 +16948,32 @@
     ]
   },
   {
+    "id": 1590,
+    "title": "Make Sum Divisible by P",
+    "slug": "make-sum-divisible-by-p",
+    "difficulty": "Medium",
+    "folder": "1694-make-sum-divisible-by-p",
+    "path": "leetcode/1694-make-sum-divisible-by-p",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of positive integers  nums , remove the  smallest  subarray (possibly  empty ) such that the  sum  of the remaining elements is divisible by  p . It is  not  allowed to remove the whole array.",
+    "related_ids": [
+      2344,
+      1,
+      39
+    ]
+  },
+  {
     "id": 1592,
     "title": "Rearrange Spaces Between Words",
     "slug": "rearrange-spaces-between-words",
@@ -16292,9 +17072,9 @@
     "space": "O(1)",
     "brief": "You are given an array  nums  of non-negative integers.  nums  is considered  special  if there exists a number  x  such that there are  exactly   x  numbers in  nums  that are  greater than or equal to   x .",
     "related_ids": [
-      744,
-      1287,
-      1464
+      1887,
+      2654,
+      744
     ]
   },
   {
@@ -16481,8 +17261,8 @@
     "brief": "Given an array of integers  nums , sort the array in  increasing  order based on the frequency of the values. If multiple values have the same frequency, sort them in  decreasing  order.",
     "related_ids": [
       905,
-      922,
-      1122
+      912,
+      922
     ]
   },
   {
@@ -16532,9 +17312,9 @@
     "space": "O(1)",
     "brief": "You are given an array of  distinct  integers  arr  and an array of integer arrays  pieces , where the integers in  pieces  are  distinct . Your goal is to form  arr  by concatenating the arrays in  pieces   in any order . However, you are  not  allowed to reorder the integers in each array  pieces[i] .",
     "related_ids": [
+      1250,
       1649,
-      1752,
-      1929
+      1752
     ]
   },
   {
@@ -16691,9 +17471,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums  and an integer  x . In one operation, you can either remove the leftmost or the rightmost element from the array  nums  and subtract its value from  x . Note that this  modifies  the array for future operations.",
     "related_ids": [
+      2749,
       1342,
-      1827,
-      3762
+      1827
     ]
   },
   {
@@ -16748,6 +17528,32 @@
       2068,
       1437,
       1657
+    ]
+  },
+  {
+    "id": 1664,
+    "title": "Ways to Make a Fair Array",
+    "slug": "ways-to-make-a-fair-array",
+    "difficulty": "Medium",
+    "folder": "1783-ways-to-make-a-fair-array",
+    "path": "leetcode/1783-ways-to-make-a-fair-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums . You can choose  exactly one  index ( 0-indexed ) and remove the element. Notice that the index of the elements may change after the removal.",
+    "related_ids": [
+      1674,
+      1827,
+      1887
     ]
   },
   {
@@ -16883,7 +17689,7 @@
     "related_ids": [
       1827,
       2193,
-      153
+      2344
     ]
   },
   {
@@ -16934,8 +17740,8 @@
     "brief": "You are given an integer array  nums  and an integer  k .",
     "related_ids": [
       373,
-      1005,
-      1128
+      560,
+      1005
     ]
   },
   {
@@ -17329,9 +18135,10 @@
     "path": "leetcode/1833-find-the-highest-altitude",
     "languages": [
       "JavaScript",
-      "Kotlin"
+      "Kotlin",
+      "Python"
     ],
-    "lang_str": "JavaScript, Kotlin",
+    "lang_str": "JavaScript, Kotlin, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -17914,7 +18721,7 @@
     "related_ids": [
       221,
       367,
-      1657
+      633
     ]
   },
   {
@@ -17941,6 +18748,34 @@
       1455,
       1832,
       1859
+    ]
+  },
+  {
+    "id": 1819,
+    "title": "Number of Different Subsequences GCDs",
+    "slug": "number-of-different-subsequences-gcds",
+    "difficulty": "Hard",
+    "folder": "1947-number-of-different-subsequences-gcds",
+    "path": "leetcode/1947-number-of-different-subsequences-gcds",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization & State Transition",
+    "data_structure": "DP Table / Array",
+    "topics": [
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given an array  nums  that consists of positive integers.",
+    "related_ids": [
+      1498,
+      1805,
+      3336
     ]
   },
   {
@@ -17992,9 +18827,9 @@
     "space": "O(n)",
     "brief": "You are given an integer array  nums  ( 0-indexed ). In one operation, you can choose an element of the array and increment it by  1 .",
     "related_ids": [
+      2654,
       1674,
-      1909,
-      153
+      1887
     ]
   },
   {
@@ -18073,9 +18908,9 @@
     "space": "O(1)",
     "brief": "Given an integer  n  (in base  10 ) and a base  k , return  the  sum  of the digits of   n    after  converting   n   from base   10   to base   k .",
     "related_ids": [
+      560,
       1005,
-      1281,
-      1505
+      1281
     ]
   },
   {
@@ -18292,8 +19127,8 @@
     "brief": "The  XOR total  of an array is defined as the bitwise  XOR  of  all its elements , or  0  if the array is  empty .",
     "related_ids": [
       1588,
-      1,
-      30
+      2425,
+      1
     ]
   },
   {
@@ -18486,6 +19321,32 @@
     ]
   },
   {
+    "id": 1887,
+    "title": "Reduction Operations to Make the Array Elements Equal",
+    "slug": "reduction-operations-to-make-the-array-elements-equal",
+    "difficulty": "Medium",
+    "folder": "2016-reduction-operations-to-make-the-array-elements-equal",
+    "path": "leetcode/2016-reduction-operations-to-make-the-array-elements-equal",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums , your goal is to make all elements in  nums  equal. To complete one operation, follow these steps:",
+    "related_ids": [
+      2654,
+      1608,
+      1827
+    ]
+  },
+  {
     "id": 1890,
     "title": "The Latest Login in 2020",
     "slug": "the-latest-login-in-2020",
@@ -18562,7 +19423,7 @@
     "related_ids": [
       1790,
       1941,
-      1318
+      2654
     ]
   },
   {
@@ -18668,7 +19529,7 @@
     "related_ids": [
       1464,
       3536,
-      628
+      152
     ]
   },
   {
@@ -18749,8 +19610,8 @@
     "brief": "A  square triple   (a,b,c)  is a triple where  a ,  b , and  c  are  integers  and  a 2  + b 2  = c 2  .",
     "related_ids": [
       327,
-      1,
-      38
+      633,
+      1
     ]
   },
   {
@@ -19014,9 +19875,9 @@
     "space": "O(n)",
     "brief": "Given a string  s  and an array of strings  words , determine whether  s  is a  prefix string  of  words .",
     "related_ids": [
+      1250,
       1455,
-      1662,
-      1752
+      1662
     ]
   },
   {
@@ -19207,7 +20068,7 @@
     "related_ids": [
       1071,
       2657,
-      34
+      2709
     ]
   },
   {
@@ -19289,6 +20150,32 @@
     ]
   },
   {
+    "id": 1998,
+    "title": "GCD Sort of an Array",
+    "slug": "gcd-sort-of-an-array",
+    "difficulty": "Hard",
+    "folder": "2125-gcd-sort-of-an-array",
+    "path": "leetcode/2125-gcd-sort-of-an-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums , and you can perform the following operation  any  number of times on  nums :",
+    "related_ids": [
+      905,
+      912,
+      922
+    ]
+  },
+  {
     "id": 2000,
     "title": "Reverse Prefix of Word",
     "slug": "reverse-prefix-of-word",
@@ -19337,8 +20224,8 @@
     "brief": "There is a programming language with only  four  operations and  one  variable  X :",
     "related_ids": [
       2507,
-      315,
-      981
+      3828,
+      315
     ]
   },
   {
@@ -19906,9 +20793,35 @@
     "space": "O(n)",
     "brief": "You are given two  0-indexed  arrays  nums1  and  nums2  of length  n , both of which are  permutations  of  [0, 1, ..., n - 1] .",
     "related_ids": [
+      1250,
       1448,
-      2784,
-      26
+      2183
+    ]
+  },
+  {
+    "id": 2183,
+    "title": "Count Array Pairs Divisible by K",
+    "slug": "count-array-pairs-divisible-by-k",
+    "difficulty": "Hard",
+    "folder": "2301-count-array-pairs-divisible-by-k",
+    "path": "leetcode/2301-count-array-pairs-divisible-by-k",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a  0-indexed  integer array  nums  of length  n  and an integer  k , return  the  number of pairs    (i, j)   such that:",
+    "related_ids": [
+      373,
+      1005,
+      1679
     ]
   },
   {
@@ -19935,8 +20848,8 @@
     "brief": "You are given a string  s  consisting only of lowercase English letters.",
     "related_ids": [
       1674,
-      9,
-      452
+      2654,
+      9
     ]
   },
   {
@@ -19965,6 +20878,33 @@
       105,
       106,
       2096
+    ]
+  },
+  {
+    "id": 2197,
+    "title": "Replace Non-Coprime Numbers in Array",
+    "slug": "replace-non-coprime-numbers-in-array",
+    "difficulty": "Hard",
+    "folder": "2307-replace-non-coprime-numbers-in-array",
+    "path": "leetcode/2307-replace-non-coprime-numbers-in-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of integers  nums . Perform the following steps:",
+    "related_ids": [
+      448,
+      2,
+      26
     ]
   },
   {
@@ -20231,8 +21171,34 @@
     "brief": "You have a set which contains all positive integers  [1, 2, 3, 4, 5, ...] .",
     "related_ids": [
       762,
-      9,
-      17
+      1334,
+      9
+    ]
+  },
+  {
+    "id": 2344,
+    "title": "Minimum Deletions to Make Array Divisible",
+    "slug": "minimum-deletions-to-make-array-divisible",
+    "difficulty": "Hard",
+    "folder": "2423-minimum-deletions-to-make-array-divisible",
+    "path": "leetcode/2423-minimum-deletions-to-make-array-divisible",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two positive integer arrays  nums  and  numsDivide . You can delete any number of elements from  nums .",
+    "related_ids": [
+      1674,
+      1827,
+      2654
     ]
   },
   {
@@ -20316,6 +21282,32 @@
     ]
   },
   {
+    "id": 2396,
+    "title": "Strictly Palindromic Number",
+    "slug": "strictly-palindromic-number",
+    "difficulty": "Medium",
+    "folder": "2481-strictly-palindromic-number",
+    "path": "leetcode/2481-strictly-palindromic-number",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "An integer  n  is  strictly palindromic  if, for  every  base  b  between  2  and  n - 2  ( inclusive ), the string representation of the integer  n  in base  b  is  palindromic .",
+    "related_ids": [
+      5,
+      9,
+      17
+    ]
+  },
+  {
     "id": 2407,
     "title": "Longest Increasing Subsequence II",
     "slug": "longest-increasing-subsequence-ii",
@@ -20341,6 +21333,33 @@
       300,
       673,
       674
+    ]
+  },
+  {
+    "id": 2419,
+    "title": "Longest Subarray With Maximum Bitwise AND",
+    "slug": "longest-subarray-with-maximum-bitwise-and",
+    "difficulty": "Medium",
+    "folder": "2503-longest-subarray-with-maximum-bitwise-and",
+    "path": "leetcode/2503-longest-subarray-with-maximum-bitwise-and",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums  of size  n .",
+    "related_ids": [
+      53,
+      152,
+      643
     ]
   },
   {
@@ -20371,6 +21390,33 @@
     ]
   },
   {
+    "id": 2425,
+    "title": "Bitwise XOR of All Pairings",
+    "slug": "bitwise-xor-of-all-pairings",
+    "difficulty": "Medium",
+    "folder": "2533-bitwise-xor-of-all-pairings",
+    "path": "leetcode/2533-bitwise-xor-of-all-pairings",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two  0-indexed  arrays,  nums1  and  nums2 , consisting of non-negative integers. Let there be another array,  nums3 , which contains the bitwise XOR of  all pairings  of integers between  nums1  and  nums2  (every integer in  nums1  is paired with every integer in  nums2   exactly once ).",
+    "related_ids": [
+      1863,
+      3702,
+      30
+    ]
+  },
+  {
     "id": 2426,
     "title": "Number of Pairs Satisfying Inequality",
     "slug": "number-of-pairs-satisfying-inequality",
@@ -20397,6 +21443,32 @@
     ]
   },
   {
+    "id": 2427,
+    "title": "Number of Common Factors",
+    "slug": "number-of-common-factors",
+    "difficulty": "Easy",
+    "folder": "2507-number-of-common-factors",
+    "path": "leetcode/2507-number-of-common-factors",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two positive integers  a  and  b , return  the number of  common  factors of   a   and   b .",
+    "related_ids": [
+      9,
+      14,
+      17
+    ]
+  },
+  {
     "id": 2462,
     "title": "Total Cost to Hire K Workers",
     "slug": "total-cost-to-hire-k-workers",
@@ -20419,7 +21491,7 @@
     "related_ids": [
       23,
       25,
-      373
+      347
     ]
   },
   {
@@ -20642,6 +21714,32 @@
     ]
   },
   {
+    "id": 2543,
+    "title": "Check if Point Is Reachable",
+    "slug": "check-if-point-is-reachable",
+    "difficulty": "Hard",
+    "folder": "2635-check-if-point-is-reachable",
+    "path": "leetcode/2635-check-if-point-is-reachable",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There exists an infinitely large grid. You are currently at point  (1, 1) , and you need to reach the point  (targetX, targetY)  using a finite number of steps.",
+    "related_ids": [
+      1232,
+      1250,
+      1346
+    ]
+  },
+  {
     "id": 2552,
     "title": "Count Increasing Quadruplets",
     "slug": "count-increasing-quadruplets",
@@ -20695,6 +21793,33 @@
     ]
   },
   {
+    "id": 2568,
+    "title": "Minimum Impossible OR",
+    "slug": "minimum-impossible-or",
+    "difficulty": "Medium",
+    "folder": "2705-minimum-impossible-or",
+    "path": "leetcode/2705-minimum-impossible-or",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  integer array  nums .",
+    "related_ids": [
+      64,
+      76,
+      111
+    ]
+  },
+  {
     "id": 2574,
     "title": "Left and Right Sum Differences",
     "slug": "left-and-right-sum-differences",
@@ -20743,8 +21868,8 @@
     "brief": "Write a function that checks if a given value is an instance of a given class or superclass. For this problem, an object is considered an instance of a given class if that object has access to that class&#39;s methods.",
     "related_ids": [
       1232,
-      1346,
-      1437
+      1250,
+      1346
     ]
   },
   {
@@ -21228,6 +22353,32 @@
     ]
   },
   {
+    "id": 2654,
+    "title": "Minimum Number of Operations to Make All Array Elements Equal to 1",
+    "slug": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
+    "difficulty": "Medium",
+    "folder": "2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
+    "path": "leetcode/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  array  nums  consisting of  positive  integers. You can do the following operation on the array  any  number of times:",
+    "related_ids": [
+      1887,
+      1827,
+      1318
+    ]
+  },
+  {
     "id": 2657,
     "title": "Find the Prefix Common Array of Two Arrays",
     "slug": "find-the-prefix-common-array-of-two-arrays",
@@ -21277,9 +22428,9 @@
     "space": "O(n)",
     "brief": "You are given an integer array  nums  containing  distinct  numbers, and you can perform the following operations  until the array is empty :",
     "related_ids": [
+      1664,
       1674,
-      1827,
-      1909
+      1827
     ]
   },
   {
@@ -21577,6 +22728,32 @@
     ]
   },
   {
+    "id": 2709,
+    "title": "Greatest Common Divisor Traversal",
+    "slug": "greatest-common-divisor-traversal",
+    "difficulty": "Hard",
+    "folder": "2827-greatest-common-divisor-traversal",
+    "path": "leetcode/2827-greatest-common-divisor-traversal",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  integer array  nums , and you are allowed to  traverse  between its indices. You can traverse between index  i  and index  j ,  i != j , if and only if  gcd(nums[i], nums[j]) > 1 , where  gcd  is the  greatest common divisor .",
+    "related_ids": [
+      1071,
+      1979,
+      14
+    ]
+  },
+  {
     "id": 2721,
     "title": "Execute Asynchronous Functions in Parallel",
     "slug": "execute-asynchronous-functions-in-parallel",
@@ -21681,8 +22858,8 @@
     "brief": "Given an array  arr  and a function  fn , return a sorted array  sortedArr . You can assume  fn  only returns numbers and those numbers determine the sort order of  sortedArr .  sortedArr  must be sorted in  ascending order  by  fn  output.",
     "related_ids": [
       75,
-      148,
-      905
+      147,
+      148
     ]
   },
   {
@@ -21768,6 +22945,32 @@
     ]
   },
   {
+    "id": 2731,
+    "title": "Movement of Robots",
+    "slug": "movement-of-robots",
+    "difficulty": "Medium",
+    "folder": "2787-movement-of-robots",
+    "path": "leetcode/2787-movement-of-robots",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Some robots are standing on an infinite number line with their initial coordinates given by a  0-indexed  integer array  nums  and will start moving once given the command to move. The robots will move a unit distance each second.",
+    "related_ids": [
+      5,
+      26,
+      27
+    ]
+  },
+  {
     "id": 2736,
     "title": "Maximum Sum Queries",
     "slug": "maximum-sum-queries",
@@ -21794,6 +22997,58 @@
       124,
       918,
       1161
+    ]
+  },
+  {
+    "id": 2745,
+    "title": "Construct the Longest New String",
+    "slug": "construct-the-longest-new-string",
+    "difficulty": "Medium",
+    "folder": "2850-construct-the-longest-new-string",
+    "path": "leetcode/2850-construct-the-longest-new-string",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given three integers  x ,  y , and  z .",
+    "related_ids": [
+      3,
+      5,
+      8
+    ]
+  },
+  {
+    "id": 2749,
+    "title": "Minimum Operations to Make the Integer Zero",
+    "slug": "minimum-operations-to-make-the-integer-zero",
+    "difficulty": "Medium",
+    "folder": "2837-minimum-operations-to-make-the-integer-zero",
+    "path": "leetcode/2837-minimum-operations-to-make-the-integer-zero",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two integers  num1  and  num2 .",
+    "related_ids": [
+      1658,
+      1827,
+      2654
     ]
   },
   {
@@ -21871,9 +23126,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums . We consider an array  good  if it is a permutation of an array  base[n] .",
     "related_ids": [
+      1250,
       1752,
-      1961,
-      1232
+      1961
     ]
   },
   {
@@ -22370,8 +23625,8 @@
     "brief": "You are given a  0-indexed  integer array  nums  and a  positive  integer  k .",
     "related_ids": [
       1005,
-      167,
-      977
+      3723,
+      167
     ]
   },
   {
@@ -22436,9 +23691,10 @@
     "folder": "3139-subarrays-distinct-element-sum-of-squares-ii",
     "path": "leetcode/3139-subarrays-distinct-element-sum-of-squares-ii",
     "languages": [
-      "JavaScript"
+      "JavaScript",
+      "Python"
     ],
-    "lang_str": "JavaScript",
+    "lang_str": "JavaScript, Python",
     "pattern": "Array / General",
     "algorithm": "In-Place Array Traversal & Index Mapping",
     "data_structure": "Array",
@@ -22531,9 +23787,9 @@
     "space": "O(n)",
     "brief": "You are given a  0-indexed  array of  positive  integers  nums  and a  positive  integer  limit .",
     "related_ids": [
-      1464,
-      1608,
-      1619
+      1887,
+      2654,
+      1464
     ]
   },
   {
@@ -22560,8 +23816,8 @@
     "brief": "You are given an integer array  nums  and an integer  k .",
     "related_ids": [
       3962,
-      1437,
-      1493
+      560,
+      1437
     ]
   },
   {
@@ -22667,8 +23923,8 @@
     "brief": "You are given an array of  positive  integers  nums .",
     "related_ids": [
       2058,
-      414,
-      658
+      287,
+      414
     ]
   },
   {
@@ -22722,8 +23978,8 @@
     "brief": "You are given a  m x n   0-indexed  2D   matrix  mat . From every cell, you can create numbers in the following way:",
     "related_ids": [
       11,
-      602,
-      762
+      347,
+      602
     ]
   },
   {
@@ -22971,6 +24227,32 @@
     ]
   },
   {
+    "id": 3227,
+    "title": "Vowels Game in a String",
+    "slug": "vowels-game-in-a-string",
+    "difficulty": "Medium",
+    "folder": "3462-vowels-game-in-a-string",
+    "path": "leetcode/3462-vowels-game-in-a-string",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Alice and Bob are playing a game on a string.",
+    "related_ids": [
+      345,
+      8,
+      28
+    ]
+  },
+  {
     "id": 3245,
     "title": "Alternating Groups III",
     "slug": "alternating-groups-iii",
@@ -23075,7 +24357,7 @@
     "related_ids": [
       373,
       744,
-      1517
+      1334
     ]
   },
   {
@@ -23158,9 +24440,9 @@
     "space": "O(n)",
     "brief": "You are given an integer array  nums .",
     "related_ids": [
+      287,
       1295,
-      1498,
-      1941
+      1334
     ]
   },
   {
@@ -23218,6 +24500,32 @@
       3345,
       3518,
       3550
+    ]
+  },
+  {
+    "id": 3378,
+    "title": "Count Connected Components in LCM Graph",
+    "slug": "count-connected-components-in-lcm-graph",
+    "difficulty": "Hard",
+    "folder": "3680-count-connected-components-in-lcm-graph",
+    "path": "leetcode/3680-count-connected-components-in-lcm-graph",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of integers  nums  of size  n  and a  positive  integer  threshold .",
+    "related_ids": [
+      2685,
+      38,
+      133
     ]
   },
   {
@@ -23934,7 +25242,7 @@
     "related_ids": [
       1464,
       1913,
-      628
+      152
     ]
   },
   {
@@ -24155,6 +25463,33 @@
       3642,
       28,
       34
+    ]
+  },
+  {
+    "id": 3577,
+    "title": "Count the Number of Computer Unlocking Permutations",
+    "slug": "count-the-number-of-computer-unlocking-permutations",
+    "difficulty": "Medium",
+    "folder": "3864-count-the-number-of-computer-unlocking-permutations",
+    "path": "leetcode/3864-count-the-number-of-computer-unlocking-permutations",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Backtracking",
+    "algorithm": "Backtracking Recursive Search",
+    "data_structure": "Recursion Tree",
+    "topics": [
+      "Backtracking",
+      "Recursion"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array  complexity  of length  n .",
+    "related_ids": [
+      1395,
+      1684,
+      2250
     ]
   },
   {
@@ -24758,6 +26093,33 @@
     ]
   },
   {
+    "id": 3674,
+    "title": "Minimum Operations to Equalize Array",
+    "slug": "minimum-operations-to-equalize-array",
+    "difficulty": "Easy",
+    "folder": "3998-minimum-operations-to-equalize-array",
+    "path": "leetcode/3998-minimum-operations-to-equalize-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums  of length  n .",
+    "related_ids": [
+      1827,
+      2654,
+      3762
+    ]
+  },
+  {
     "id": 3689,
     "title": "Maximum Total Subarray Value I",
     "slug": "maximum-total-subarray-value-i",
@@ -24808,7 +26170,7 @@
     "related_ids": [
       3689,
       53,
-      643
+      152
     ]
   },
   {
@@ -25052,6 +26414,33 @@
       3719,
       1493,
       2407
+    ]
+  },
+  {
+    "id": 3723,
+    "title": "Maximize Sum of Squares of Digits",
+    "slug": "maximize-sum-of-squares-of-digits",
+    "difficulty": "Medium",
+    "folder": "4084-maximize-sum-of-squares-of-digits",
+    "path": "leetcode/4084-maximize-sum-of-squares-of-digits",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two  positive  integers  num  and  sum .",
+    "related_ids": [
+      2897,
+      1005,
+      1281
     ]
   },
   {
@@ -25348,9 +26737,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums  of length  n  and an integer  k .",
     "related_ids": [
+      347,
       658,
-      1437,
-      1608
+      1437
     ]
   },
   {
@@ -25374,9 +26763,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums  and an integer  k .",
     "related_ids": [
+      3674,
       1658,
-      1827,
-      64
+      1827
     ]
   },
   {
@@ -25487,6 +26876,32 @@
       2492,
       3864,
       64
+    ]
+  },
+  {
+    "id": 3828,
+    "title": "Final Element After Subarray Deletions",
+    "slug": "final-element-after-subarray-deletions",
+    "difficulty": "Medium",
+    "folder": "4122-final-element-after-subarray-deletions",
+    "path": "leetcode/4122-final-element-after-subarray-deletions",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums .",
+    "related_ids": [
+      1493,
+      1157,
+      1846
     ]
   },
   {
@@ -25868,8 +27283,8 @@
     "brief": "You are given an integer array  nums  and an integer  k .",
     "related_ids": [
       1505,
-      918,
-      1005
+      560,
+      918
     ]
   },
   {
@@ -26029,9 +27444,35 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums  of length  n .",
     "related_ids": [
+      2183,
       3739,
-      3871,
-      4013
+      3871
+    ]
+  },
+  {
+    "id": 4062,
+    "title": "Transform Array Using Pair Operations",
+    "slug": "transform-array-using-pair-operations",
+    "difficulty": "Medium",
+    "folder": "4398-transform-array-using-pair-operations",
+    "path": "leetcode/4398-transform-array-using-pair-operations",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two integer arrays  source  and  target .",
+    "related_ids": [
+      1331,
+      1441,
+      1827
     ]
   }
 ]

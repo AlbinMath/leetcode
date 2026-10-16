@@ -12,7 +12,7 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 21 | [Merge Two Sorted Lists](../leetcode/0021-merge-two-sorted-lists/) | Python | O(n) | O(1) | [Explanation](../leetcode/0021-merge-two-sorted-lists/Explanation.md) |
 
-| 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0083-remove-duplicates-from-sorted-list/Explanation.md) |
+| 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | PHP, Python | O(n) | O(1) | [Explanation](../leetcode/0083-remove-duplicates-from-sorted-list/Explanation.md) |
 
 | 125 | [Valid Palindrome](../leetcode/0125-valid-palindrome/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0125-valid-palindrome/Explanation.md) |
 
@@ -22,7 +22,7 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 203 | [Remove Linked List Elements](../leetcode/0203-remove-linked-list-elements/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0203-remove-linked-list-elements/Explanation.md) |
 
-| 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0206-reverse-linked-list/Explanation.md) |
+| 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | JavaScript, PHP, Python | O(n) | O(1) | [Explanation](../leetcode/0206-reverse-linked-list/Explanation.md) |
 
 | 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0234-palindrome-linked-list/Explanation.md) |
 
@@ -72,13 +72,15 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 92 | [Reverse Linked List II](../leetcode/0092-reverse-linked-list-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0092-reverse-linked-list-ii/Explanation.md) |
 
-| 138 | [Copy List with Random Pointer](../leetcode/0138-copy-list-with-random-pointer/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0138-copy-list-with-random-pointer/Explanation.md) |
+| 131 | [Palindrome Partitioning](../leetcode/0131-palindrome-partitioning/) | Python | O(n) | O(1) | [Explanation](../leetcode/0131-palindrome-partitioning/Explanation.md) |
+
+| 138 | [Copy List with Random Pointer](../leetcode/0138-copy-list-with-random-pointer/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0138-copy-list-with-random-pointer/Explanation.md) |
 
 | 148 | [Sort List](../leetcode/0148-sort-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0148-sort-list/Explanation.md) |
 
 | 222 | [Count Complete Tree Nodes](../leetcode/0222-count-complete-tree-nodes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0222-count-complete-tree-nodes/Explanation.md) |
 
-| 328 | [Odd Even Linked List](../leetcode/0328-odd-even-linked-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0328-odd-even-linked-list/Explanation.md) |
+| 328 | [Odd Even Linked List](../leetcode/0328-odd-even-linked-list/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0328-odd-even-linked-list/Explanation.md) |
 
 | 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/Explanation.md) |
 

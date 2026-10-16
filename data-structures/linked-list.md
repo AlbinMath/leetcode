@@ -6,5 +6,4 @@ LeetCode problems solved using **Linked List** data structures.
 
 | # | Problem | Difficulty | Algorithm | Time | Space |
 |---|---|---|---|---|---|
-| 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | Pointer Traversal & Node Manipulation | O(n) | O(1) |
-| 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 147 | [Insertion Sort List](../leetcode/0147-insertion-sort-list/) | Medium | Pointer Traversal & Node Manipulation | O(n) | O(1) |

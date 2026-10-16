@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [221. Maximal Square](../0221-maximal-square/)
 - [367. Valid Perfect Square](../0367-valid-perfect-square/)
-- [1657. Determine if Two Strings Are Close](../1777-determine-if-two-strings-are-close/)
+- [633. Sum of Square Numbers](../0633-sum-of-square-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)

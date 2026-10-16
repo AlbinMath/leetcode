@@ -1,7 +1,7 @@
 # LeetCode 33: Search in Rotated Sorted Array
 
 **LeetCode Problem #33 — Search in Rotated Sorted Array**
-Solve LeetCode Search in Rotated Sorted Array using C++ and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
+Solve LeetCode Search in Rotated Sorted Array using C++, Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Search in Rotated Sorted Array using C++ and Binary Search. This 
 | Problem | Search in Rotated Sorted Array |
 | LeetCode | #33 |
 | Difficulty | Medium |
-| Language | C++ |
+| Language | C++, Python |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -58,10 +58,11 @@ Consider the standard input for **Search in Rotated Sorted Array**. Applying **M
 - Search Space
 
 ## Language
-C++
+C++, Python
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

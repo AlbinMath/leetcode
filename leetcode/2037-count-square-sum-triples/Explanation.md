@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [327. Count of Range Sum](../0327-count-of-range-sum/)
+- [633. Sum of Square Numbers](../0633-sum-of-square-numbers/)
 - [1. Two Sum](../0001-two-sum/)
-- [38. Count and Say](../0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-square-sum-triples/)

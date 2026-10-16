@@ -17,6 +17,7 @@ A curated selection of LeetCode problems solved using the **Memoization & State 
 | 673 | [Number of Longest Increasing Subsequence](../leetcode/0673-number-of-longest-increasing-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 674 | [Longest Continuous Increasing Subsequence](../leetcode/0674-longest-continuous-increasing-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 940 | [Distinct Subsequences II](../leetcode/0977-distinct-subsequences-ii/) | Hard | Dynamic Programming | O(n) | O(n) |
+| 1033 | [Moving Stones Until Consecutive](../leetcode/1103-moving-stones-until-consecutive/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1140 | [Stone Game II](../leetcode/1240-stone-game-ii/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1143 | [Longest Common Subsequence](../leetcode/1250-longest-common-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1301 | [Number of Paths with Max Score](../leetcode/1234-number-of-paths-with-max-score/) | Hard | Dynamic Programming | O(n) | O(n) |
@@ -26,6 +27,7 @@ A curated selection of LeetCode problems solved using the **Memoization & State 
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 1498 | [Number of Subsequences That Satisfy the Given Sum Condition](../leetcode/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | Hard | Dynamic Programming | O(n) | O(n) |
+| 1819 | [Number of Different Subsequences GCDs](../leetcode/1947-number-of-different-subsequences-gcds/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 2407 | [Longest Increasing Subsequence II](../leetcode/2526-longest-increasing-subsequence-ii/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 2542 | [Maximum Subsequence Score](../leetcode/2636-maximum-subsequence-score/) | Medium | Dynamic Programming | O(n) | O(n) |

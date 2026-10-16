@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1250. Check If It Is a Good Array](../1372-check-if-it-is-a-good-array/)
 - [1448. Count Good Nodes in Binary Tree](../1544-count-good-nodes-in-binary-tree/)
-- [2784. Check if Array is Good](../2892-check-if-array-is-good/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [2183. Count Array Pairs Divisible by K](../2301-count-array-pairs-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-good-triplets-in-an-array/)

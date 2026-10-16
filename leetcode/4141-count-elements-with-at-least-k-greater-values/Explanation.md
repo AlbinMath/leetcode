@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [347. Top K Frequent Elements](../0347-top-k-frequent-elements/)
 - [658. Find K Closest Elements](../0658-find-k-closest-elements/)
 - [1437. Check If All 1's Are at Least Length K Places Away](../1548-check-if-all-1s-are-at-least-length-k-places-away/)
-- [1608. Special Array With X Elements Greater Than or Equal X](../1730-special-array-with-x-elements-greater-than-or-equal-x/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/)

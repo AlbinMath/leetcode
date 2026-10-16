@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
 - [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
-- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
+- [347. Top K Frequent Elements](../0347-top-k-frequent-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-cost-to-hire-k-workers/)

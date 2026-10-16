@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [185. Department Top Three Salaries](../0185-department-top-three-salaries/)
+- [347. Top K Frequent Elements](../0347-top-k-frequent-elements/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
-- [176. Second Highest Salary](../0176-second-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/top-travellers/)

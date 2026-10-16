@@ -1,7 +1,7 @@
 # LeetCode 328: Odd Even Linked List
 
 **LeetCode Problem #328 — Odd Even Linked List**
-Solve LeetCode Odd Even Linked List using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Odd Even Linked List using JavaScript, Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Odd Even Linked List using JavaScript and Two Pointers. This solu
 | Problem | Odd Even Linked List |
 | LeetCode | #328 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,10 +46,11 @@ Consider the standard input for **Odd Even Linked List**. Applying **Two Pointer
 - Sorting
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

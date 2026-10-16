@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [365. Water and Jug Problem](../0365-water-and-jug-problem/)
 - [10. Regular Expression Matching](../0010-regular-expression-matching/)
 - [115. Distinct Subsequences](../0115-distinct-subsequences/)
-- [334. Increasing Triplet Subsequence](../0334-increasing-triplet-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-skyline-problem/)

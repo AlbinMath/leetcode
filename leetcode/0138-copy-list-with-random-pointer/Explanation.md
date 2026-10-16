@@ -1,7 +1,7 @@
 # LeetCode 138: Copy List with Random Pointer
 
 **LeetCode Problem #138 — Copy List with Random Pointer**
-Solve LeetCode Copy List with Random Pointer using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Copy List with Random Pointer using JavaScript, Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Copy List with Random Pointer using JavaScript and Two Pointers. 
 | Problem | Copy List with Random Pointer |
 | LeetCode | #138 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,10 +46,11 @@ Consider the standard input for **Copy List with Random Pointer**. Applying **Tw
 - Sorting
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

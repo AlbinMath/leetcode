@@ -32,6 +32,8 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | 673 | [Number of Longest Increasing Subsequence](../leetcode/0673-number-of-longest-increasing-subsequence/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0673-number-of-longest-increasing-subsequence/Explanation.md) |
 
+| 1033 | [Moving Stones Until Consecutive](../leetcode/1103-moving-stones-until-consecutive/) | Python | O(n) | O(n) | [Explanation](../leetcode/1103-moving-stones-until-consecutive/Explanation.md) |
+
 | 1140 | [Stone Game II](../leetcode/1240-stone-game-ii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1240-stone-game-ii/Explanation.md) |
 
 | 1143 | [Longest Common Subsequence](../leetcode/1250-longest-common-subsequence/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1250-longest-common-subsequence/Explanation.md) |
@@ -63,6 +65,8 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 1406 | [Stone Game III](../leetcode/1522-stone-game-iii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/1522-stone-game-iii/Explanation.md) |
 
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1617-stone-game-iv/Explanation.md) |
+
+| 1819 | [Number of Different Subsequences GCDs](../leetcode/1947-number-of-different-subsequences-gcds/) | Python | O(n) | O(n) | [Explanation](../leetcode/1947-number-of-different-subsequences-gcds/Explanation.md) |
 
 | 2407 | [Longest Increasing Subsequence II](../leetcode/2526-longest-increasing-subsequence-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2526-longest-increasing-subsequence-ii/Explanation.md) |
 

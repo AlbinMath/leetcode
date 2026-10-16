@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
 - [3536. Maximum Product of Two Digits](../3859-maximum-product-of-two-digits/)
-- [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
+- [152. Maximum Product Subarray](../0152-maximum-product-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)

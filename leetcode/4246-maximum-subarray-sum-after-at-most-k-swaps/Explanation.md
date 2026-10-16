@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+- [560. Subarray Sum Equals K](../0560-subarray-sum-equals-k/)
 - [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
-- [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subarray-sum-after-at-most-k-swaps/)

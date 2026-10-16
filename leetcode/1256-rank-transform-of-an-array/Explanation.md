@@ -69,8 +69,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2635. Apply Transform Over Each Element in Array](../2747-apply-transform-over-each-element-in-array/)
+- [4062. Transform Array Using Pair Operations](../4398-transform-array-using-pair-operations/)
 - [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-transform-of-an-array/)

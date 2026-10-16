@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [85. Maximal Rectangle](../0085-maximal-rectangle/)
 - [367. Valid Perfect Square](../0367-valid-perfect-square/)
-- [1725. Number Of Rectangles That Can Form The Largest Square](../1843-number-of-rectangles-that-can-form-the-largest-square/)
+- [633. Sum of Square Numbers](../0633-sum-of-square-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximal-square/)

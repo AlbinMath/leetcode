@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3828. Final Element After Subarray Deletions](../4122-final-element-after-subarray-deletions/)
 - [1157. Online Majority Element In Subarray](../1262-online-majority-element-in-subarray/)
 - [1846. Maximum Element After Decreasing and Rearranging](../1956-maximum-element-after-decreasing-and-rearranging/)
-- [1909. Remove One Element to Make the Array Strictly Increasing](../2020-remove-one-element-to-make-the-array-strictly-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)

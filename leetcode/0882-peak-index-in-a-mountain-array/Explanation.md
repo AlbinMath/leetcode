@@ -1,7 +1,7 @@
 # LeetCode 852: Peak Index in a Mountain Array
 
 **LeetCode Problem #852 — Peak Index in a Mountain Array**
-Solve LeetCode Peak Index in a Mountain Array using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Peak Index in a Mountain Array using JavaScript, Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Peak Index in a Mountain Array using JavaScript and Binary Search
 | Problem | Peak Index in a Mountain Array |
 | LeetCode | #852 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,10 +46,11 @@ Consider the standard input for **Peak Index in a Mountain Array**. Applying **M
 - Search Space
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

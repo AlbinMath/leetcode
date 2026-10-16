@@ -64,8 +64,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [47. Permutations II](../0047-permutations-ii/)
+- [3577. Count the Number of Computer Unlocking Permutations](../3864-count-the-number-of-computer-unlocking-permutations/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [31. Next Permutation](../0031-next-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/permutations/)

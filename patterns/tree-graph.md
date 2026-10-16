@@ -112,7 +112,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](../leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal/Explanation.md) |
 
-| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/Explanation.md) |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/Explanation.md) |
 
 | 129 | [Sum Root to Leaf Numbers](../leetcode/0129-sum-root-to-leaf-numbers/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0129-sum-root-to-leaf-numbers/Explanation.md) |
 

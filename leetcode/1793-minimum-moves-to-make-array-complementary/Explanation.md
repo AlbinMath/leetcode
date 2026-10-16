@@ -72,7 +72,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
 - [2193. Minimum Number of Moves to Make Palindrome](../1356-minimum-number-of-moves-to-make-palindrome/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [2344. Minimum Deletions to Make Array Divisible](../2423-minimum-deletions-to-make-array-divisible/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)

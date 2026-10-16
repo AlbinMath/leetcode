@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [394. Decode String](../0394-decode-string/)
+- [1664. Ways to Make a Fair Array](../1783-ways-to-make-a-fair-array/)
 - [1720. Decode XORed Array](../1839-decode-xored-array/)
-- [3558. Number of Ways to Assign Edge Weights I](../3844-number-of-ways-to-assign-edge-weights-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decode-ways/)

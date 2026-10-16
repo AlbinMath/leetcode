@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1897. Redistribute Characters to Make All Strings Equal](../2025-redistribute-characters-to-make-all-strings-equal/)
-- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
-- [62. Unique Paths](../0062-unique-paths/)
+- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
+- [2749. Minimum Operations to Make the Integer Zero](../2837-minimum-operations-to-make-the-integer-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)

@@ -32,6 +32,8 @@ A collection of LeetCode problems solved using **Backtracking** pattern techniqu
 
 | 1409 | [Queries on a Permutation With Key](../leetcode/1525-queries-on-a-permutation-with-key/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1525-queries-on-a-permutation-with-key/Explanation.md) |
 
+| 3577 | [Count the Number of Computer Unlocking Permutations](../leetcode/3864-count-the-number-of-computer-unlocking-permutations/) | Python | O(n) | O(1) | [Explanation](../leetcode/3864-count-the-number-of-computer-unlocking-permutations/Explanation.md) |
+
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](../leetcode/4020-lexicographically-smallest-permutation-greater-than-target/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4020-lexicographically-smallest-permutation-greater-than-target/Explanation.md) |
 
 ### Hard

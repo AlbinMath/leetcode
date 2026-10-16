@@ -21,7 +21,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 67 | [Add Binary](../leetcode/0067-add-binary/) | Binary Search | Python | O(n) | O(1) |
 | 69 | [Sqrt(x)](../leetcode/0069-sqrtx/) | Array / General | Python | O(n) | O(1) |
 | 70 | [Climbing Stairs](../leetcode/0070-climbing-stairs/) | Array / General | Python | O(n) | O(1) |
-| 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | Two Pointers | PHP | O(n) | O(1) |
+| 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | Two Pointers | PHP, Python | O(n) | O(1) |
 | 88 | [Merge Sorted Array](../leetcode/0088-merge-sorted-array/) | Array / General | PHP | O(n) | O(1) |
 | 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | Binary Search | PHP | O(n) | O(1) |
 | 100 | [Same Tree](../leetcode/0100-same-tree/) | Binary Search | PHP | O(n) | O(1) |
@@ -56,7 +56,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 202 | [Happy Number](../leetcode/0202-happy-number/) | Array / General | PHP | O(n) | O(1) |
 | 203 | [Remove Linked List Elements](../leetcode/0203-remove-linked-list-elements/) | Two Pointers | PHP | O(n) | O(1) |
 | 205 | [Isomorphic Strings](../leetcode/0205-isomorphic-strings/) | Array / General | PHP | O(n) | O(1) |
-| 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | Two Pointers | JavaScript, PHP | O(n) | O(1) |
+| 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | Two Pointers | JavaScript, PHP, Python | O(n) | O(1) |
 | 217 | [Contains Duplicate](../leetcode/0217-contains-duplicate/) | Array / General | PHP | O(n) | O(1) |
 | 219 | [Contains Duplicate II](../leetcode/0219-contains-duplicate-ii/) | Array / General | PHP | O(n) | O(1) |
 | 225 | [Implement Stack using Queues](../leetcode/0225-implement-stack-using-queues/) | Trie | PHP | O(n) | O(n) |
@@ -363,7 +363,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1725 | [Number Of Rectangles That Can Form The Largest Square](../leetcode/1843-number-of-rectangles-that-can-form-the-largest-square/) | Math & Logic | C++ | O(n) | O(1) |
 | 1729 | [Find Followers Count](../leetcode/1877-find-followers-count/) | Database / SQL | SQL | O(n) | O(n) |
 | 1731 | [The Number of Employees Which Report to Each Employee](../leetcode/1882-the-number-of-employees-which-report-to-each-employee/) | Database / SQL | SQL | O(n) | O(n) |
-| 1732 | [Find the Highest Altitude](../leetcode/1833-find-the-highest-altitude/) | Array / General | JavaScript, Kotlin | O(n) | O(1) |
+| 1732 | [Find the Highest Altitude](../leetcode/1833-find-the-highest-altitude/) | Array / General | JavaScript, Kotlin, Python | O(n) | O(1) |
 | 1736 | [Latest Time by Replacing Hidden Digits](../leetcode/1858-latest-time-by-replacing-hidden-digits/) | Math & Logic | C++ | O(n) | O(1) |
 | 1741 | [Find Total Time Spent by Each Employee](../leetcode/1892-find-total-time-spent-by-each-employee/) | Database / SQL | SQL | O(n) | O(n) |
 | 1742 | [Maximum Number of Balls in a Box](../leetcode/1844-maximum-number-of-balls-in-a-box/) | Array / General | C++ | O(n) | O(1) |
@@ -438,6 +438,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Sliding Window | Kotlin | O(n) | O(1) |
 | 2215 | [Find the Difference of Two Arrays](../leetcode/1392-find-the-difference-of-two-arrays/) | Array / General | JavaScript | O(n) | O(1) |
 | 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Database / SQL | SQL | O(n) | O(n) |
+| 2427 | [Number of Common Factors](../leetcode/2507-number-of-common-factors/) | Array / General | Python | O(n) | O(1) |
 | 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | Sliding Window | C++ | O(n) | O(1) |
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | Math & Logic | C++ | O(n) | O(1) |
 | 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Prefix Sum | Kotlin | O(n) | O(n) |
@@ -497,6 +498,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Math & Logic | C | O(n) | O(1) |
 | 3633 | [Earliest Finish Time for Land and Water Rides I](../leetcode/3965-earliest-finish-time-for-land-and-water-rides-i/) | Array / General | Kotlin | O(n) | O(1) |
 | 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Two Pointers | Kotlin | O(n) | O(1) |
+| 3674 | [Minimum Operations to Equalize Array](../leetcode/3998-minimum-operations-to-equalize-array/) | Bit Manipulation | Python | O(n) | O(1) |
 | 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Prefix Sum | C# | O(n) | O(n) |
 | 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Array / General | PHP | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Bit Manipulation | Kotlin | O(n) | O(1) |

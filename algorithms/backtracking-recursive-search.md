@@ -18,5 +18,6 @@ A curated selection of LeetCode problems solved using the **Backtracking Recursi
 | 1409 | [Queries on a Permutation With Key](../leetcode/1525-queries-on-a-permutation-with-key/) | Medium | Backtracking | O(n) | O(1) |
 | 1920 | [Build Array from Permutation](../leetcode/2048-build-array-from-permutation/) | Easy | Backtracking | O(n) | O(1) |
 | 3116 | [Kth Smallest Amount With Single Denomination Combination](../leetcode/3375-kth-smallest-amount-with-single-denomination-combination/) | Hard | Backtracking | O(n) | O(1) |
+| 3577 | [Count the Number of Computer Unlocking Permutations](../leetcode/3864-count-the-number-of-computer-unlocking-permutations/) | Medium | Backtracking | O(n) | O(1) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](../leetcode/4020-lexicographically-smallest-permutation-greater-than-target/) | Medium | Backtracking | O(n) | O(1) |
 | 3734 | [Lexicographically Smallest Palindromic Permutation Greater Than Target](../leetcode/4037-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard | Backtracking | O(n) | O(1) |

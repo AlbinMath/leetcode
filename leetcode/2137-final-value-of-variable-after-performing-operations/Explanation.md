@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2507. Smallest Value After Replacing With Sum of Prime Factors](../2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
+- [3828. Final Element After Subarray Deletions](../4122-final-element-after-subarray-deletions/)
 - [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
-- [981. Time Based Key-Value Store](../1023-time-based-key-value-store/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)

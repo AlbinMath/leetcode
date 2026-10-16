@@ -1,7 +1,7 @@
 # LeetCode 1732: Find the Highest Altitude
 
 **LeetCode Problem #1732 — Find the Highest Altitude**
-Solve LeetCode Find the Highest Altitude using JavaScript, Kotlin and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find the Highest Altitude using JavaScript, Kotlin, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Find the Highest Altitude using JavaScript, Kotlin and Array / Ge
 | Problem | Find the Highest Altitude |
 | LeetCode | #1732 |
 | Difficulty | Easy |
-| Language | JavaScript, Kotlin |
+| Language | JavaScript, Kotlin, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -46,11 +46,12 @@ Consider the standard input for **Find the Highest Altitude**. Applying **In-Pla
 - Array
 
 ## Language
-JavaScript, Kotlin
+JavaScript, Kotlin, Python
 
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.kt](./solution.kt)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

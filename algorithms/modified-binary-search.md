@@ -44,6 +44,7 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Easy | Binary Search | O(n) | O(1) |
 | 300 | [Longest Increasing Subsequence](../leetcode/0300-longest-increasing-subsequence/) | Medium | Binary Search | O(n) | O(1) |
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Easy | Binary Search | O(n) | O(1) |
+| 347 | [Top K Frequent Elements](../leetcode/0347-top-k-frequent-elements/) | Medium | Binary Search | O(n log n) | O(1) |
 | 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Easy | Binary Search | O(n) | O(1) |
 | 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | Medium | Binary Search | O(n) | O(1) |
 | 501 | [Find Mode in Binary Search Tree](../leetcode/0501-find-mode-in-binary-search-tree/) | Easy | Binary Search | O(n) | O(1) |
@@ -64,6 +65,7 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 868 | [Binary Gap](../leetcode/0899-binary-gap/) | Easy | Binary Search | O(n) | O(1) |
 | 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Easy | Binary Search | O(n) | O(1) |
 | 897 | [Increasing Order Search Tree](../leetcode/0933-increasing-order-search-tree/) | Easy | Binary Search | O(n) | O(1) |
+| 912 | [Sort an Array](../leetcode/0948-sort-an-array/) | Medium | Binary Search | O(n) | O(1) |
 | 938 | [Range Sum of BST](../leetcode/0975-range-sum-of-bst/) | Easy | Binary Search | O(n) | O(1) |
 | 965 | [Univalued Binary Tree](../leetcode/1005-univalued-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 993 | [Cousins in Binary Tree](../leetcode/1035-cousins-in-binary-tree/) | Easy | Binary Search | O(n) | O(1) |

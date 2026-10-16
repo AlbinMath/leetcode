@@ -75,9 +75,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
+- [2749. Minimum Operations to Make the Integer Zero](../2837-minimum-operations-to-make-the-integer-zero/)
 - [1342. Number of Steps to Reduce a Number to Zero](../1444-number-of-steps-to-reduce-a-number-to-zero/)
 - [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
-- [3762. Minimum Operations to Equalize Subarrays](../4022-minimum-operations-to-equalize-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)

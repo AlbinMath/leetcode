@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1887. Reduction Operations to Make the Array Elements Equal](../2016-reduction-operations-to-make-the-array-elements-equal/)
+- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 - [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
-- [1608. Special Array With X Elements Greater Than or Equal X](../1730-special-array-with-x-elements-greater-than-or-equal-x/)
-- [1619. Mean of Array After Removing Some Elements](../1210-mean-of-array-after-removing-some-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/)

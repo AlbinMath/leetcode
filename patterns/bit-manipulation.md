@@ -48,6 +48,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 2890 | [Reshape Data: Melt](../leetcode/3073-reshape-data-melt/) | Python | O(n) | O(1) | [Explanation](../leetcode/3073-reshape-data-melt/Explanation.md) |
 
+| 3674 | [Minimum Operations to Equalize Array](../leetcode/3998-minimum-operations-to-equalize-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/3998-minimum-operations-to-equalize-array/Explanation.md) |
+
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/Explanation.md) |
 
 ### Medium
@@ -64,11 +66,15 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 91 | [Decode Ways](../leetcode/0091-decode-ways/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0091-decode-ways/Explanation.md) |
 
+| 152 | [Maximum Product Subarray](../leetcode/0152-maximum-product-subarray/) | Python | O(n) | O(1) | [Explanation](../leetcode/0152-maximum-product-subarray/Explanation.md) |
+
 | 201 | [Bitwise AND of Numbers Range](../leetcode/0201-bitwise-and-of-numbers-range/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0201-bitwise-and-of-numbers-range/Explanation.md) |
 
 | 238 | [Product of Array Except Self](../leetcode/0238-product-of-array-except-self/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0238-product-of-array-except-self/Explanation.md) |
 
 | 396 | [Rotate Function](../leetcode/0396-rotate-function/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0396-rotate-function/Explanation.md) |
+
+| 592 | [Fraction Addition and Subtraction](../leetcode/0592-fraction-addition-and-subtraction/) | Python | O(n) | O(1) | [Explanation](../leetcode/0592-fraction-addition-and-subtraction/Explanation.md) |
 
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | JavaScript | O(n²) | O(1) | [Explanation](../leetcode/0864-image-overlap/Explanation.md) |
 
@@ -76,7 +82,13 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2413-smallest-number-in-infinite-set/Explanation.md) |
 
+| 2419 | [Longest Subarray With Maximum Bitwise AND](../leetcode/2503-longest-subarray-with-maximum-bitwise-and/) | Python | O(n) | O(1) | [Explanation](../leetcode/2503-longest-subarray-with-maximum-bitwise-and/Explanation.md) |
+
+| 2425 | [Bitwise XOR of All Pairings](../leetcode/2533-bitwise-xor-of-all-pairings/) | Python | O(n) | O(1) | [Explanation](../leetcode/2533-bitwise-xor-of-all-pairings/Explanation.md) |
+
 | 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2610-closest-prime-numbers-in-range/Explanation.md) |
+
+| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Python | O(n) | O(1) | [Explanation](../leetcode/2705-minimum-impossible-or/Explanation.md) |
 
 | 3653 | [XOR After Range Multiplication Queries I](../leetcode/3974-xor-after-range-multiplication-queries-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3974-xor-after-range-multiplication-queries-i/Explanation.md) |
 
@@ -93,6 +105,10 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 327 | [Count of Range Sum](../leetcode/0327-count-of-range-sum/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0327-count-of-range-sum/Explanation.md) |
 
 | 502 | [IPO](../leetcode/0502-ipo/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0502-ipo/Explanation.md) |
+
+| 810 | [Chalkboard XOR Game](../leetcode/0828-chalkboard-xor-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/0828-chalkboard-xor-game/Explanation.md) |
+
+| 2197 | [Replace Non-Coprime Numbers in Array](../leetcode/2307-replace-non-coprime-numbers-in-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/2307-replace-non-coprime-numbers-in-array/Explanation.md) |
 
 | 3624 | [Number of Integers With Popcount-Depth Equal to K II](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/Explanation.md) |
 

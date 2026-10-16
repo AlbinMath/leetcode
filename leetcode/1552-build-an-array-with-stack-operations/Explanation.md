@@ -66,8 +66,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
+- [1887. Reduction Operations to Make the Array Elements Equal](../2016-reduction-operations-to-make-the-array-elements-equal/)
 - [1920. Build Array from Permutation](../2048-build-array-from-permutation/)
-- [2897. Apply Operations on Array to Maximize Sum of Squares](../3153-apply-operations-on-array-to-maximize-sum-of-squares/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/build-an-array-with-stack-operations/)

@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [184. Department Highest Salary](../0184-department-highest-salary/)
 - [326. Power of Three](../0326-power-of-three/)
-- [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
+- [347. Top K Frequent Elements](../0347-top-k-frequent-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/department-top-three-salaries/)

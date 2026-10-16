@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [147. Insertion Sort List](../0147-insertion-sort-list/)
 - [148. Sort List](../0148-sort-list/)
 - [905. Sort Array By Parity](../0941-sort-array-by-parity/)
-- [922. Sort Array By Parity II](../0958-sort-array-by-parity-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-colors/)

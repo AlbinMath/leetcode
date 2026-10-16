@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [347. Top K Frequent Elements](../0347-top-k-frequent-elements/)
 - [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
 - [3020. Find the Maximum Number of Elements in Subset](../3299-find-the-maximum-number-of-elements-in-subset/)
-- [3731. Find Missing Elements](../4107-find-missing-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-closest-elements/)

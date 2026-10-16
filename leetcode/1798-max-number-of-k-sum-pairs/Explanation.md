@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
+- [560. Subarray Sum Equals K](../0560-subarray-sum-equals-k/)
 - [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
-- [1128. Number of Equivalent Domino Pairs](../1227-number-of-equivalent-domino-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-number-of-k-sum-pairs/)

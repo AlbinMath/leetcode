@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [560. Subarray Sum Equals K](../0560-subarray-sum-equals-k/)
 - [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
-- [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-size-subarray-sum/)

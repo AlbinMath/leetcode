@@ -72,7 +72,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1004. Max Consecutive Ones III](../1046-max-consecutive-ones-iii/)
 - [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
-- [180. Consecutive Numbers](../0180-consecutive-numbers/)
+- [149. Max Points on a Line](../0149-max-points-on-a-line/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-consecutive-ones/)

@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1022. Sum of Root To Leaf Binary Numbers](../1079-sum-of-root-to-leaf-binary-numbers/)
+- [633. Sum of Square Numbers](../0633-sum-of-square-numbers/)
 - [3855. Sum of K-Digit Numbers in a Range](../4239-sum-of-k-digit-numbers-in-a-range/)
-- [1. Two Sum](../0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-root-to-leaf-numbers/)

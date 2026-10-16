@@ -1,7 +1,7 @@
 # LeetCode 2916: Subarrays Distinct Element Sum of Squares II
 
 **LeetCode Problem #2916 — Subarrays Distinct Element Sum of Squares II**
-Solve LeetCode Subarrays Distinct Element Sum of Squares II using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Subarrays Distinct Element Sum of Squares II using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Subarrays Distinct Element Sum of Squares II using JavaScript and
 | Problem | Subarrays Distinct Element Sum of Squares II |
 | LeetCode | #2916 |
 | Difficulty | Hard |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Subarrays Distinct Element Sum of Squares II**
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

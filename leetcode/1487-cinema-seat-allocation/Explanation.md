@@ -74,9 +74,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1227. Airplane Seat Assignment Probability](../1362-airplane-seat-assignment-probability/)
 - [1. Two Sum](../0001-two-sum/)
 - [49. Group Anagrams](../0049-group-anagrams/)
-- [58. Length of Last Word](../0058-length-of-last-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cinema-seat-allocation/)

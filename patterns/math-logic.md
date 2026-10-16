@@ -72,6 +72,8 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 3380 | [Maximum Area Rectangle With Point Constraints I](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/Explanation.md) |
 
+| 3723 | [Maximize Sum of Squares of Digits](../leetcode/4084-maximize-sum-of-squares-of-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/4084-maximize-sum-of-squares-of-digits/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |

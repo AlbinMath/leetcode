@@ -1,7 +1,7 @@
 # LeetCode 206: Reverse Linked List
 
 **LeetCode Problem #206 — Reverse Linked List**
-Solve LeetCode Reverse Linked List using JavaScript, PHP and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Reverse Linked List using JavaScript, PHP, Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Reverse Linked List using JavaScript, PHP and Two Pointers. This 
 | Problem | Reverse Linked List |
 | LeetCode | #206 |
 | Difficulty | Easy |
-| Language | JavaScript, PHP |
+| Language | JavaScript, PHP, Python |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,11 +46,12 @@ Consider the standard input for **Reverse Linked List**. Applying **Two Pointer 
 - Sorting
 
 ## Language
-JavaScript, PHP
+JavaScript, PHP, Python
 
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.php](./solution.php)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

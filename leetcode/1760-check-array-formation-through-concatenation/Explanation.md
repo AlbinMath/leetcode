@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1250. Check If It Is a Good Array](../1372-check-if-it-is-a-good-array/)
 - [1649. Create Sorted Array through Instructions](../1772-create-sorted-array-through-instructions/)
 - [1752. Check if Array Is Sorted and Rotated](../1878-check-if-array-is-sorted-and-rotated/)
-- [1929. Concatenation of Array](../2058-concatenation-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-array-formation-through-concatenation/)

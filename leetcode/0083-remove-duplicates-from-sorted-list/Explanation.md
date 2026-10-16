@@ -1,7 +1,7 @@
 # LeetCode 83: Remove Duplicates from Sorted List
 
 **LeetCode Problem #83 — Remove Duplicates from Sorted List**
-Solve LeetCode Remove Duplicates from Sorted List using PHP and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Remove Duplicates from Sorted List using PHP, Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Remove Duplicates from Sorted List using PHP and Two Pointers. Th
 | Problem | Remove Duplicates from Sorted List |
 | LeetCode | #83 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | PHP, Python |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,10 +46,11 @@ Consider the standard input for **Remove Duplicates from Sorted List**. Applying
 - Sorting
 
 ## Language
-PHP
+PHP, Python
 
 ## Source Code
 - [solution.php](./solution.php)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

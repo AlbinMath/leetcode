@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [11. Container With Most Water](../0011-container-with-most-water/)
+- [365. Water and Jug Problem](../0365-water-and-jug-problem/)
 - [1518. Water Bottles](../1642-water-bottles/)
-- [3633. Earliest Finish Time for Land and Water Rides I](../3965-earliest-finish-time-for-land-and-water-rides-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/trapping-rain-water/)

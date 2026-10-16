@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [922. Sort Array By Parity II](../0958-sort-array-by-parity-ii/)
+- [912. Sort an Array](../0948-sort-an-array/)
 - [1122. Relative Sort Array](../1217-relative-sort-array/)
-- [1636. Sort Array by Increasing Frequency](../1741-sort-array-by-increasing-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-array-by-parity/)

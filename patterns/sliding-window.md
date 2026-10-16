@@ -36,3 +36,5 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 
 | 76 | [Minimum Window Substring](../leetcode/0076-minimum-window-substring/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0076-minimum-window-substring/Explanation.md) |
 
+| 239 | [Sliding Window Maximum](../leetcode/0239-sliding-window-maximum/) | Python | O(n) | O(1) | [Explanation](../leetcode/0239-sliding-window-maximum/Explanation.md) |
+
