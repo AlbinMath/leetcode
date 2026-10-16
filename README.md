@@ -20,9 +20,11 @@ This repository contains solved LeetCode problems with explanations, complexity 
 | 4055 | [Count Shadow Pairs II](leetcode/4326-count-shadow-pairs-ii/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4326-count-shadow-pairs-ii/Explanation.md) |
 | 4051 | [Count Subarrays with Distant Sums](leetcode/4317-count-subarrays-with-distant-sums/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4317-count-subarrays-with-distant-sums/Explanation.md) |
 | 4033 | [Valid K-Unique Subarrays I](leetcode/3988-valid-k-unique-subarrays-i/) | Hard | [Hash Map](patterns/hash-map.md) | Python | [Explanation](leetcode/3988-valid-k-unique-subarrays-i/Explanation.md) |
+| 4017 | [Peaks in Array II](leetcode/4336-peaks-in-array-ii/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4336-peaks-in-array-ii/Explanation.md) |
 | 4013 | [Count Subarrays With Even Odd Ratio II](leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4324-count-subarrays-with-even-odd-ratio-ii/Explanation.md) |
 | 4011 | [Count Subarrays With Even Odd Ratio I](leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4323-count-subarrays-with-even-odd-ratio-i/Explanation.md) |
 | 3962 | [Maximum Subarray Sum After at Most K Swaps](leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/) | Hard | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/Explanation.md) |
+| 3943 | [Number of Pairs After Increment](leetcode/4076-number-of-pairs-after-increment/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4076-number-of-pairs-after-increment/Explanation.md) |
 | 3904 | [Smallest Stable Index II](leetcode/4285-smallest-stable-index-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4285-smallest-stable-index-ii/Explanation.md) |
 | 3903 | [Smallest Stable Index I](leetcode/4284-smallest-stable-index-i/) | Easy | [Tree & Graph](patterns/tree-graph.md) | JavaScript | [Explanation](leetcode/4284-smallest-stable-index-i/Explanation.md) |
 | 3876 | [Construct Uniform Parity Array II](leetcode/4258-construct-uniform-parity-array-ii/) | Medium | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4258-construct-uniform-parity-array-ii/Explanation.md) |
@@ -30,8 +32,6 @@ This repository contains solved LeetCode problems with explanations, complexity 
 | 3871 | [Count Commas in Range II](leetcode/4248-count-commas-in-range-ii/) | Medium | [Array / General](patterns/array-general.md) | JavaScript | [Explanation](leetcode/4248-count-commas-in-range-ii/Explanation.md) |
 | 3870 | [Count Commas in Range](leetcode/4245-count-commas-in-range/) | Easy | [Tree & Graph](patterns/tree-graph.md) | JavaScript | [Explanation](leetcode/4245-count-commas-in-range/Explanation.md) |
 | 3867 | [Sum of GCD of Formed Pairs](leetcode/4242-sum-of-gcd-of-formed-pairs/) | Medium | [Array / General](patterns/array-general.md) | C++ | [Explanation](leetcode/4242-sum-of-gcd-of-formed-pairs/Explanation.md) |
-| 3841 | [Palindromic Path Queries in a Tree](leetcode/4209-palindromic-path-queries-in-a-tree/) | Hard | [Tree & Graph](patterns/tree-graph.md) | Python | [Explanation](leetcode/4209-palindromic-path-queries-in-a-tree/Explanation.md) |
-| 3838 | [Weighted Word Mapping](leetcode/4216-weighted-word-mapping/) | Easy | [Hash Map](patterns/hash-map.md) | Kotlin | [Explanation](leetcode/4216-weighted-word-mapping/Explanation.md) |
 
 ---
 

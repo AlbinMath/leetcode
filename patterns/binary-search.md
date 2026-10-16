@@ -108,6 +108,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 99 | [Recover Binary Search Tree](../leetcode/0099-recover-binary-search-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0099-recover-binary-search-tree/Explanation.md) |
 
+| 109 | [Convert Sorted List to Binary Search Tree](../leetcode/0109-convert-sorted-list-to-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0109-convert-sorted-list-to-binary-search-tree/Explanation.md) |
+
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0153-find-minimum-in-rotated-sorted-array/Explanation.md) |
 
 | 162 | [Find Peak Element](../leetcode/0162-find-peak-element/) | JavaScript | O(log n) | O(1) | [Explanation](../leetcode/0162-find-peak-element/Explanation.md) |

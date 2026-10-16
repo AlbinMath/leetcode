@@ -72,6 +72,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 103 | [Binary Tree Zigzag Level Order Traversal](../leetcode/0103-binary-tree-zigzag-level-order-traversal/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](../leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Tree & Graph | JavaScript | O(n) | O(n) |
+| 109 | [Convert Sorted List to Binary Search Tree](../leetcode/0109-convert-sorted-list-to-binary-search-tree/) | Binary Search | Python | O(n) | O(1) |
 | 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | Two Pointers | JavaScript | O(n) | O(1) |
 | 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | Stack & Queue | JavaScript | O(n) | O(n) |
 | 120 | [Triangle](../leetcode/0120-triangle/) | Math & Logic | JavaScript | O(n) | O(1) |
@@ -120,6 +121,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](../leetcode/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Binary Search | JavaScript | O(n) | O(1) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | Binary Search | JavaScript | O(n) | O(1) |
 | 238 | [Product of Array Except Self](../leetcode/0238-product-of-array-except-self/) | Bit Manipulation | JavaScript | O(n) | O(1) |
+| 240 | [Search a 2D Matrix II](../leetcode/0240-search-a-2d-matrix-ii/) | Tree & Graph | Python | O(n) | O(n) |
 | 274 | [H-Index](../leetcode/0274-h-index/) | Array / General | JavaScript | O(n) | O(1) |
 | 275 | [H-Index II](../leetcode/0275-h-index-ii/) | Array / General | JavaScript | O(n) | O(1) |
 | 289 | [Game of Life](../leetcode/0289-game-of-life/) | Math & Logic | JavaScript | O(n) | O(1) |
@@ -304,6 +306,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 3521 | [Find Product Recommendation Pairs](../leetcode/3865-find-product-recommendation-pairs/) | Array / General | Python | O(n) | O(1) |
 | 3524 | [Find X Value of Array I](../leetcode/3831-find-x-value-of-array-i/) | Binary Search | JavaScript | O(n) | O(1) |
 | 3532 | [Path Existence Queries in a Graph I](../leetcode/3838-path-existence-queries-in-a-graph-i/) | Tree & Graph | Java | O(n) | O(n) |
+| 3537 | [Fill a Special Grid](../leetcode/3822-fill-a-special-grid/) | Tree & Graph | Python | O(n) | O(n) |
 | 3558 | [Number of Ways to Assign Edge Weights I](../leetcode/3844-number-of-ways-to-assign-edge-weights-i/) | Tree & Graph | Java | O(n) | O(n) |
 | 3564 | [Seasonal Sales Analysis](../leetcode/3898-seasonal-sales-analysis/) | Array / General | Python | O(n) | O(1) |
 | 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | Sliding Window | C++ | O(n) | O(1) |
@@ -316,18 +319,21 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 3629 | [Minimum Jumps to Reach End via Prime Teleportation](../leetcode/3933-minimum-jumps-to-reach-end-via-prime-teleportation/) | Array / General | C++ | O(n) | O(1) |
 | 3635 | [Earliest Finish Time for Land and Water Rides II](../leetcode/3967-earliest-finish-time-for-land-and-water-rides-ii/) | Array / General | Java | O(n) | O(1) |
 | 3642 | [Find Books with Polarized Opinions](../leetcode/3996-find-books-with-polarized-opinions/) | Database / SQL | SQL | O(n) | O(n) |
+| 3653 | [XOR After Range Multiplication Queries I](../leetcode/3974-xor-after-range-multiplication-queries-i/) | Bit Manipulation | Python | O(n) | O(1) |
 | 3657 | [Find Loyal Customers](../leetcode/4025-find-loyal-customers/) | Database / SQL | SQL | O(n) | O(n) |
 | 3660 | [Jump Game IX](../leetcode/3981-jump-game-ix/) | Array / General | C++ | O(n) | O(1) |
 | 3689 | [Maximum Total Subarray Value I](../leetcode/4005-maximum-total-subarray-value-i/) | Binary Search | Java | O(n) | O(1) |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](../leetcode/4033-longest-subsequence-with-non-zero-bitwise-xor/) | Dynamic Programming | C++ | O(n) | O(n) |
 | 3705 | [Find Golden Hour Customers](../leetcode/4091-find-golden-hour-customers/) | Array / General | Python | O(n) | O(1) |
 | 3716 | [Find Churn Risk Customers](../leetcode/4103-find-churn-risk-customers/) | Array / General | Python | O(n) | O(1) |
+| 3719 | [Longest Balanced Subarray I](../leetcode/4045-longest-balanced-subarray-i/) | Array / General | Python | O(n) | O(1) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](../leetcode/4020-lexicographically-smallest-permutation-greater-than-target/) | Backtracking | C++ | O(n) | O(1) |
 | 3727 | [Maximum Alternating Sum of Squares](../leetcode/4078-maximum-alternating-sum-of-squares/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Monotonic Stack | Java | O(n) | O(n) |
 | 3742 | [Maximum Path Score in a Grid](../leetcode/3986-maximum-path-score-in-a-grid/) | Tree & Graph | C++ | O(n) | O(n) |
 | 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Bit Manipulation | Java | O(n) | O(1) |
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Bit Manipulation | Java | O(n) | O(1) |
+| 3759 | [Count Elements With at Least K Greater Values](../leetcode/4141-count-elements-with-at-least-k-greater-values/) | Array / General | Python | O(n) | O(1) |
 | 3808 | [Find Emotionally Consistent Users](../leetcode/4208-find-emotionally-consistent-users/) | Database / SQL | SQL | O(n) | O(n) |
 | 3867 | [Sum of GCD of Formed Pairs](../leetcode/4242-sum-of-gcd-of-formed-pairs/) | Array / General | C++ | O(n) | O(1) |
 | 3871 | [Count Commas in Range II](../leetcode/4248-count-commas-in-range-ii/) | Array / General | JavaScript | O(n) | O(1) |

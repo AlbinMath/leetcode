@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [240. Search a 2D Matrix II](../0240-search-a-2d-matrix-ii/)
 - [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
 - [35. Search Insert Position](../0035-search-insert-position/)
-- [54. Spiral Matrix](../0054-spiral-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-a-2d-matrix/)

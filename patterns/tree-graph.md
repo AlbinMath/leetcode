@@ -122,6 +122,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 204 | [Count Primes](../leetcode/0204-count-primes/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0204-count-primes/Explanation.md) |
 
+| 240 | [Search a 2D Matrix II](../leetcode/0240-search-a-2d-matrix-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0240-search-a-2d-matrix-ii/Explanation.md) |
+
 | 427 | [Construct Quad Tree](../leetcode/0772-construct-quad-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0772-construct-quad-tree/Explanation.md) |
 
 | 437 | [Path Sum III](../leetcode/0437-path-sum-iii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0437-path-sum-iii/Explanation.md) |
@@ -161,6 +163,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 3517 | [Smallest Palindromic Rearrangement I](../leetcode/3812-smallest-palindromic-rearrangement-i/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3812-smallest-palindromic-rearrangement-i/Explanation.md) |
 
 | 3532 | [Path Existence Queries in a Graph I](../leetcode/3838-path-existence-queries-in-a-graph-i/) | Java | O(n) | O(n) | [Explanation](../leetcode/3838-path-existence-queries-in-a-graph-i/Explanation.md) |
+
+| 3537 | [Fill a Special Grid](../leetcode/3822-fill-a-special-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/3822-fill-a-special-grid/Explanation.md) |
 
 | 3558 | [Number of Ways to Assign Edge Weights I](../leetcode/3844-number-of-ways-to-assign-edge-weights-i/) | Java | O(n) | O(n) | [Explanation](../leetcode/3844-number-of-ways-to-assign-edge-weights-i/Explanation.md) |
 

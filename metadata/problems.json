@@ -1613,8 +1613,8 @@
     "brief": "Given a positive integer  n , generate an  n x n   matrix  filled with elements from  1  to  n 2   in spiral order.",
     "related_ids": [
       54,
-      40,
-      45
+      240,
+      40
     ]
   },
   {
@@ -2027,9 +2027,9 @@
     "space": "O(n)",
     "brief": "You are given an  m x n  integer matrix  matrix  with the following two properties:",
     "related_ids": [
+      240,
       33,
-      35,
-      54
+      35
     ]
   },
   {
@@ -2679,7 +2679,7 @@
     "related_ids": [
       99,
       108,
-      173
+      109
     ]
   },
   {
@@ -2707,7 +2707,7 @@
     "related_ids": [
       98,
       108,
-      173
+      109
     ]
   },
   {
@@ -2934,9 +2934,37 @@
     "space": "O(1)",
     "brief": "Given an integer array  nums  where the elements are sorted in  ascending order , convert  it to a     height-balanced     binary search tree .",
     "related_ids": [
+      109,
       33,
-      81,
-      98
+      81
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Convert Sorted List to Binary Search Tree",
+    "slug": "convert-sorted-list-to-binary-search-tree",
+    "difficulty": "Medium",
+    "folder": "0109-convert-sorted-list-to-binary-search-tree",
+    "path": "leetcode/0109-convert-sorted-list-to-binary-search-tree",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given the  head  of a singly linked list where elements are sorted in  ascending order , convert  it to a     height-balanced     binary search tree .",
+    "related_ids": [
+      108,
+      98,
+      99
     ]
   },
   {
@@ -3047,9 +3075,9 @@
     "space": "O(1)",
     "brief": "Given the  root  of a binary tree, flatten the tree into a \"linked list\":",
     "related_ids": [
+      109,
       1290,
-      92,
-      94
+      92
     ]
   },
   {
@@ -3402,8 +3430,8 @@
     "brief": "You are given the  root  of a binary tree containing digits from  0  to  9  only.",
     "related_ids": [
       1022,
-      1,
-      2
+      3855,
+      1
     ]
   },
   {
@@ -5561,6 +5589,35 @@
       1464,
       1822,
       2521
+    ]
+  },
+  {
+    "id": 240,
+    "title": "Search a 2D Matrix II",
+    "slug": "search-a-2d-matrix-ii",
+    "difficulty": "Medium",
+    "folder": "0240-search-a-2d-matrix-ii",
+    "path": "leetcode/0240-search-a-2d-matrix-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Write an efficient algorithm that searches for a value  target  in an  m x n  integer matrix  matrix . This matrix has the following properties:",
+    "related_ids": [
+      74,
+      59,
+      81
     ]
   },
   {
@@ -9687,8 +9744,8 @@
     "brief": "You are given an image represented by an  m x n  grid of integers  image , where  image[i][j]  represents the pixel value of the image. You are also given three integers  sr ,  sc , and  color . Your task is to perform a  flood fill  on the image starting from the pixel  image[sr][sc] .",
     "related_ids": [
       2887,
-      5,
-      26
+      3537,
+      5
     ]
   },
   {
@@ -10930,7 +10987,7 @@
     "related_ids": [
       3345,
       3517,
-      3751
+      3653
     ]
   },
   {
@@ -13202,8 +13259,8 @@
     "brief": "We have  n  chips, where the position of the  i th   chip is  position[i] .",
     "related_ids": [
       2144,
-      34,
-      35
+      3864,
+      34
     ]
   },
   {
@@ -13366,8 +13423,8 @@
     "brief": "Given a 2D  grid  of size  m x n  and an integer  k . You need to shift the  grid   k  times.",
     "related_ids": [
       74,
-      1914,
-      2812
+      240,
+      1914
     ]
   },
   {
@@ -13580,9 +13637,9 @@
     "space": "O(1)",
     "brief": "Given  head  which is a reference node to a singly-linked list. The value of each node in the linked list is either  0  or  1 . The linked list holds the binary representation of a number.",
     "related_ids": [
+      109,
       114,
-      92,
-      108
+      92
     ]
   },
   {
@@ -17477,9 +17534,9 @@
     "space": "O(n)",
     "brief": "You are given a string  s  consisting only of the characters  &#39;0&#39;  and  &#39;1&#39; . In one operation, you can change any  &#39;0&#39;  to  &#39;1&#39;  or vice versa.",
     "related_ids": [
+      3864,
       111,
-      671,
-      693
+      671
     ]
   },
   {
@@ -19792,8 +19849,8 @@
     "brief": "A shop is selling candies at a discount. For  every two  candies sold, the shop gives a  third  candy for  free .",
     "related_ids": [
       1217,
-      64,
-      76
+      3864,
+      64
     ]
   },
   {
@@ -22880,9 +22937,9 @@
     "space": "O(1)",
     "brief": "A  peak  in an array  arr  is an element that is  greater  than its previous and next element in  arr .",
     "related_ids": [
+      4017,
       26,
-      33,
-      34
+      33
     ]
   },
   {
@@ -23459,8 +23516,8 @@
     "brief": "You are given an array of digits called  digits . Your task is to determine the number of  distinct  three-digit even numbers that can be formed using these digits.",
     "related_ids": [
       1295,
-      2,
-      62
+      3855,
+      2
     ]
   },
   {
@@ -23821,7 +23878,7 @@
     "related_ids": [
       3534,
       1971,
-      3841
+      3653
     ]
   },
   {
@@ -23878,6 +23935,35 @@
       1464,
       1913,
       628
+    ]
+  },
+  {
+    "id": 3537,
+    "title": "Fill a Special Grid",
+    "slug": "fill-a-special-grid",
+    "difficulty": "Medium",
+    "folder": "3822-fill-a-special-grid",
+    "path": "leetcode/3822-fill-a-special-grid",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given a non-negative integer   n   representing a  2 n  x 2 n   grid. You must fill the grid with integers from 0 to  2 2n  - 1  to make it  special . A grid is  special  if it satisfies  all  the following conditions:",
+    "related_ids": [
+      733,
+      1260,
+      1475
     ]
   },
   {
@@ -24451,6 +24537,34 @@
     ]
   },
   {
+    "id": 3636,
+    "title": "Threshold Majority Queries",
+    "slug": "threshold-majority-queries",
+    "difficulty": "Hard",
+    "folder": "3955-threshold-majority-queries",
+    "path": "leetcode/3955-threshold-majority-queries",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
+    "topics": [
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given an integer array  nums  of length  n  and an array  queries , where  queries[i] = [l i , r i , threshold i ] .",
+    "related_ids": [
+      169,
+      1157,
+      1211
+    ]
+  },
+  {
     "id": 3642,
     "title": "Find Books with Polarized Opinions",
     "slug": "find-books-with-polarized-opinions",
@@ -24476,6 +24590,33 @@
       3570,
       28,
       34
+    ]
+  },
+  {
+    "id": 3653,
+    "title": "XOR After Range Multiplication Queries I",
+    "slug": "xor-after-range-multiplication-queries-i",
+    "difficulty": "Medium",
+    "folder": "3974-xor-after-range-multiplication-queries-i",
+    "path": "leetcode/3974-xor-after-range-multiplication-queries-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums  of length  n  and a 2D integer array  queries  of size  q , where  queries[i] = [l i , r i , k i , v i ] .",
+    "related_ids": [
+      908,
+      3513,
+      3532
     ]
   },
   {
@@ -24835,6 +24976,32 @@
     ]
   },
   {
+    "id": 3719,
+    "title": "Longest Balanced Subarray I",
+    "slug": "longest-balanced-subarray-i",
+    "difficulty": "Medium",
+    "folder": "4045-longest-balanced-subarray-i",
+    "path": "leetcode/4045-longest-balanced-subarray-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums .",
+    "related_ids": [
+      3721,
+      521,
+      643
+    ]
+  },
+  {
     "id": 3720,
     "title": "Lexicographically Smallest Permutation Greater Than Target",
     "slug": "lexicographically-smallest-permutation-greater-than-target",
@@ -24859,6 +25026,32 @@
       3734,
       744,
       2996
+    ]
+  },
+  {
+    "id": 3721,
+    "title": "Longest Balanced Subarray II",
+    "slug": "longest-balanced-subarray-ii",
+    "difficulty": "Hard",
+    "folder": "4047-longest-balanced-subarray-ii",
+    "path": "leetcode/4047-longest-balanced-subarray-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums .",
+    "related_ids": [
+      3719,
+      1493,
+      2407
     ]
   },
   {
@@ -25135,6 +25328,32 @@
     ]
   },
   {
+    "id": 3759,
+    "title": "Count Elements With at Least K Greater Values",
+    "slug": "count-elements-with-at-least-k-greater-values",
+    "difficulty": "Medium",
+    "folder": "4141-count-elements-with-at-least-k-greater-values",
+    "path": "leetcode/4141-count-elements-with-at-least-k-greater-values",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums  of length  n  and an integer  k .",
+    "related_ids": [
+      658,
+      1437,
+      1608
+    ]
+  },
+  {
     "id": 3762,
     "title": "Minimum Operations to Equalize Subarrays",
     "slug": "minimum-operations-to-equalize-subarrays",
@@ -25245,6 +25464,32 @@
     ]
   },
   {
+    "id": 3826,
+    "title": "Minimum Partition Score",
+    "slug": "minimum-partition-score",
+    "difficulty": "Hard",
+    "folder": "4121-minimum-partition-score",
+    "path": "leetcode/4121-minimum-partition-score",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums  and an integer  k .",
+    "related_ids": [
+      2492,
+      3864,
+      64
+    ]
+  },
+  {
     "id": 3832,
     "title": "Find Users with Persistent Behavior Patterns",
     "slug": "find-users-with-persistent-behavior-patterns",
@@ -25327,6 +25572,60 @@
       124,
       1372,
       2509
+    ]
+  },
+  {
+    "id": 3855,
+    "title": "Sum of K-Digit Numbers in a Range",
+    "slug": "sum-of-k-digit-numbers-in-a-range",
+    "difficulty": "Hard",
+    "folder": "4239-sum-of-k-digit-numbers-in-a-range",
+    "path": "leetcode/4239-sum-of-k-digit-numbers-in-a-range",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given three integers  l ,  r , and  k .",
+    "related_ids": [
+      129,
+      201,
+      303
+    ]
+  },
+  {
+    "id": 3864,
+    "title": "Minimum Cost to Partition a Binary String",
+    "slug": "minimum-cost-to-partition-a-binary-string",
+    "difficulty": "Hard",
+    "folder": "4192-minimum-cost-to-partition-a-binary-string",
+    "path": "leetcode/4192-minimum-cost-to-partition-a-binary-string",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a binary string  s  and two integers  encCost  and  flatCost .",
+    "related_ids": [
+      1758,
+      111,
+      671
     ]
   },
   {
@@ -25520,6 +25819,32 @@
     ]
   },
   {
+    "id": 3943,
+    "title": "Number of Pairs After Increment",
+    "slug": "number-of-pairs-after-increment",
+    "difficulty": "Hard",
+    "folder": "4076-number-of-pairs-after-increment",
+    "path": "leetcode/4076-number-of-pairs-after-increment",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two integer arrays  nums1  and  nums2 , and a 2D integer array  queries .",
+    "related_ids": [
+      1128,
+      1512,
+      1679
+    ]
+  },
+  {
     "id": 3962,
     "title": "Maximum Subarray Sum After at Most K Swaps",
     "slug": "maximum-subarray-sum-after-at-most-k-swaps",
@@ -25599,6 +25924,32 @@
       4011,
       3739,
       328
+    ]
+  },
+  {
+    "id": 4017,
+    "title": "Peaks in Array II",
+    "slug": "peaks-in-array-ii",
+    "difficulty": "Hard",
+    "folder": "4336-peaks-in-array-ii",
+    "path": "leetcode/4336-peaks-in-array-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums  of length  n  and a 2D integer array  queries .",
+    "related_ids": [
+      80,
+      81,
+      154
     ]
   },
   {

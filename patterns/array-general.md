@@ -696,6 +696,10 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 3716 | [Find Churn Risk Customers](../leetcode/4103-find-churn-risk-customers/) | Python | O(n) | O(1) | [Explanation](../leetcode/4103-find-churn-risk-customers/Explanation.md) |
 
+| 3719 | [Longest Balanced Subarray I](../leetcode/4045-longest-balanced-subarray-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/4045-longest-balanced-subarray-i/Explanation.md) |
+
+| 3759 | [Count Elements With at Least K Greater Values](../leetcode/4141-count-elements-with-at-least-k-greater-values/) | Python | O(n) | O(1) | [Explanation](../leetcode/4141-count-elements-with-at-least-k-greater-values/Explanation.md) |
+
 | 3867 | [Sum of GCD of Formed Pairs](../leetcode/4242-sum-of-gcd-of-formed-pairs/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4242-sum-of-gcd-of-formed-pairs/Explanation.md) |
 
 | 3871 | [Count Commas in Range II](../leetcode/4248-count-commas-in-range-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/4248-count-commas-in-range-ii/Explanation.md) |
@@ -772,11 +776,19 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 3691 | [Maximum Total Subarray Value II](../leetcode/4007-maximum-total-subarray-value-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4007-maximum-total-subarray-value-ii/Explanation.md) |
 
+| 3721 | [Longest Balanced Subarray II](../leetcode/4047-longest-balanced-subarray-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4047-longest-balanced-subarray-ii/Explanation.md) |
+
 | 3739 | [Count Subarrays With Majority Element II](../leetcode/4075-count-subarrays-with-majority-element-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/4075-count-subarrays-with-majority-element-ii/Explanation.md) |
 
 | 3762 | [Minimum Operations to Equalize Subarrays](../leetcode/4022-minimum-operations-to-equalize-subarrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/4022-minimum-operations-to-equalize-subarrays/Explanation.md) |
 
+| 3826 | [Minimum Partition Score](../leetcode/4121-minimum-partition-score/) | Python | O(n) | O(1) | [Explanation](../leetcode/4121-minimum-partition-score/Explanation.md) |
+
+| 3943 | [Number of Pairs After Increment](../leetcode/4076-number-of-pairs-after-increment/) | Python | O(n) | O(1) | [Explanation](../leetcode/4076-number-of-pairs-after-increment/Explanation.md) |
+
 | 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/Explanation.md) |
+
+| 4017 | [Peaks in Array II](../leetcode/4336-peaks-in-array-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4336-peaks-in-array-ii/Explanation.md) |
 
 | 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Python | O(n) | O(1) | [Explanation](../leetcode/4317-count-subarrays-with-distant-sums/Explanation.md) |
 

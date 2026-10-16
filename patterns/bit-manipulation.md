@@ -78,6 +78,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2610-closest-prime-numbers-in-range/Explanation.md) |
 
+| 3653 | [XOR After Range Multiplication Queries I](../leetcode/3974-xor-after-range-multiplication-queries-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3974-xor-after-range-multiplication-queries-i/Explanation.md) |
+
 | 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/4057-total-waviness-of-numbers-in-range-i/Explanation.md) |
 
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Java | O(n) | O(1) | [Explanation](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/Explanation.md) |
@@ -95,4 +97,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 3624 | [Number of Integers With Popcount-Depth Equal to K II](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/Explanation.md) |
 
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
+
+| 3864 | [Minimum Cost to Partition a Binary String](../leetcode/4192-minimum-cost-to-partition-a-binary-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/4192-minimum-cost-to-partition-a-binary-string/Explanation.md) |
 

@@ -55,6 +55,7 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 3044 | [Most Frequent Prime](../leetcode/3314-most-frequent-prime/) | Medium | Hash Map | O(n) | O(n) |
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3347-distribute-elements-into-two-arrays-i/) | Easy | Hash Map | O(n) | O(n) |
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Hard | Hash Map | O(n) | O(n) |
+| 3636 | [Threshold Majority Queries](../leetcode/3955-threshold-majority-queries/) | Hard | Hash Map | O(n) | O(n) |
 | 3699 | [Number of ZigZag Arrays I](../leetcode/3962-number-of-zigzag-arrays-i/) | Hard | Hash Map | O(n) | O(n) |
 | 3838 | [Weighted Word Mapping](../leetcode/4216-weighted-word-mapping/) | Easy | Hash Map | O(n) | O(n) |
 | 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Hard | Hash Map | O(n) | O(n) |

@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3534. Path Existence Queries in a Graph II](../3852-path-existence-queries-in-a-graph-ii/)
 - [1971. Find if Path Exists in Graph](../2121-find-if-path-exists-in-graph/)
-- [3841. Palindromic Path Queries in a Tree](../4209-palindromic-path-queries-in-a-tree/)
+- [3653. XOR After Range Multiplication Queries I](../3974-xor-after-range-multiplication-queries-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/)

@@ -107,20 +107,27 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 3617 | [Find Students with Study Spiral Pattern](../leetcode/3961-find-students-with-study-spiral-pattern/) | Database / SQL | SQL | O(n) | O(n) |
 | 3620 | [Network Recovery Pathways](../leetcode/3919-network-recovery-pathways/) | Tree & Graph | PHP | O(n) | O(n) |
 | 3624 | [Number of Integers With Popcount-Depth Equal to K II](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/) | Bit Manipulation | Python | O(n) | O(1) |
+| 3636 | [Threshold Majority Queries](../leetcode/3955-threshold-majority-queries/) | Hash Map | Python | O(n) | O(n) |
 | 3671 | [Sum of Beautiful Subsequences](../leetcode/3989-sum-of-beautiful-subsequences/) | Dynamic Programming | Python | O(n) | O(n) |
 | 3673 | [Find Zombie Sessions](../leetcode/4043-find-zombie-sessions/) | Database / SQL | SQL | O(n) | O(n) |
 | 3691 | [Maximum Total Subarray Value II](../leetcode/4007-maximum-total-subarray-value-ii/) | Array / General | Python | O(n) | O(1) |
 | 3699 | [Number of ZigZag Arrays I](../leetcode/3962-number-of-zigzag-arrays-i/) | Hash Map | PHP | O(n) | O(n) |
 | 3700 | [Number of ZigZag Arrays II](../leetcode/3964-number-of-zigzag-arrays-ii/) | Tree & Graph | PHP | O(n) | O(n) |
+| 3721 | [Longest Balanced Subarray II](../leetcode/4047-longest-balanced-subarray-ii/) | Array / General | Python | O(n) | O(1) |
 | 3734 | [Lexicographically Smallest Palindromic Permutation Greater Than Target](../leetcode/4037-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Backtracking | Java | O(n) | O(1) |
 | 3739 | [Count Subarrays With Majority Element II](../leetcode/4075-count-subarrays-with-majority-element-ii/) | Array / General | PHP | O(n) | O(1) |
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Bit Manipulation | Python | O(n) | O(1) |
 | 3762 | [Minimum Operations to Equalize Subarrays](../leetcode/4022-minimum-operations-to-equalize-subarrays/) | Array / General | Python | O(n) | O(1) |
 | 3764 | [Most Common Course Pairs](../leetcode/4169-most-common-course-pairs/) | Database / SQL | SQL | O(n) | O(n) |
+| 3826 | [Minimum Partition Score](../leetcode/4121-minimum-partition-score/) | Array / General | Python | O(n) | O(1) |
 | 3832 | [Find Users with Persistent Behavior Patterns](../leetcode/4227-find-users-with-persistent-behavior-patterns/) | Database / SQL | SQL | O(n) | O(n) |
 | 3841 | [Palindromic Path Queries in a Tree](../leetcode/4209-palindromic-path-queries-in-a-tree/) | Tree & Graph | Python | O(n) | O(n) |
+| 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Math & Logic | Python | O(n) | O(1) |
+| 3864 | [Minimum Cost to Partition a Binary String](../leetcode/4192-minimum-cost-to-partition-a-binary-string/) | Bit Manipulation | Python | O(n) | O(1) |
+| 3943 | [Number of Pairs After Increment](../leetcode/4076-number-of-pairs-after-increment/) | Array / General | Python | O(n) | O(1) |
 | 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4246-maximum-subarray-sum-after-at-most-k-swaps/) | Array / General | C++ | O(n) | O(1) |
 | 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Two Pointers | Python | O(n) | O(1) |
+| 4017 | [Peaks in Array II](../leetcode/4336-peaks-in-array-ii/) | Array / General | Python | O(n) | O(1) |
 | 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Hash Map | Python | O(n) | O(n) |
 | 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Array / General | Python | O(n) | O(1) |
 | 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Array / General | Python | O(n) | O(1) |

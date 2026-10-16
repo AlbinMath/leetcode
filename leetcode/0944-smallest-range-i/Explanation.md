@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3345. Smallest Divisible Digit Product I](../3626-smallest-divisible-digit-product-i/)
 - [3517. Smallest Palindromic Rearrangement I](../3812-smallest-palindromic-rearrangement-i/)
-- [3751. Total Waviness of Numbers in Range I](../4057-total-waviness-of-numbers-in-range-i/)
+- [3653. XOR After Range Multiplication Queries I](../3974-xor-after-range-multiplication-queries-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-range-i/)
