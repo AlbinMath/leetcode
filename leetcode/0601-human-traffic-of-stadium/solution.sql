@@ -1,15 +1,14 @@
-SELECT DISTINCT s1.*
-FROM Stadium s1
-JOIN Stadium s2
-    ON s2.id BETWEEN s1.id - 2 AND s1.id + 2
-JOIN Stadium s3
-    ON s3.id BETWEEN s1.id - 2 AND s1.id + 2
-WHERE s1.people >= 100
-  AND s2.people >= 100
-  AND s3.people >= 100
-  AND (
-        (s2.id = s1.id + 1 AND s3.id = s1.id + 2)
-     OR (s2.id = s1.id - 1 AND s3.id = s1.id + 1)
-     OR (s2.id = s1.id - 2 AND s3.id = s1.id - 1)
-  )
-ORDER BY s1.visit_date;
+SELECT *
+FROM Stadium
+WHERE people >= 100
+AND (
+    id - 1 IN (SELECT id FROM Stadium WHERE people >= 100)
+    AND id + 1 IN (SELECT id FROM Stadium WHERE people >= 100)
+    OR
+    id - 1 IN (SELECT id FROM Stadium WHERE people >= 100)
+    AND id - 2 IN (SELECT id FROM Stadium WHERE people >= 100)
+    OR
+    id + 1 IN (SELECT id FROM Stadium WHERE people >= 100)
+    AND id + 2 IN (SELECT id FROM Stadium WHERE people >= 100)
+)
+ORDER BY visit_date;
