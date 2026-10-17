@@ -1,7 +1,7 @@
 # LeetCode 191: Number of 1 Bits
 
 **LeetCode Problem #191 — Number of 1 Bits**
-Solve LeetCode Number of 1 Bits using JavaScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Number of 1 Bits using JavaScript, Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Number of 1 Bits using JavaScript and Bit Manipulation. This solu
 | Problem | Number of 1 Bits |
 | LeetCode | #191 |
 | Difficulty | Easy |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Bitwise Masking & Bit Shift |
 | Data Structure | Integer Bitmask |
 | Pattern | Bit Manipulation |
@@ -45,10 +45,11 @@ Consider the standard input for **Number of 1 Bits**. Applying **Bitwise Masking
 - Bitwise Math
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

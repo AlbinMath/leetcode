@@ -6,4 +6,5 @@ LeetCode problems solved using **Linked List** data structures.
 
 | # | Problem | Difficulty | Algorithm | Time | Space |
 |---|---|---|---|---|---|
-| 147 | [Insertion Sort List](../leetcode/0147-insertion-sort-list/) | Medium | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 882 | [Reachable Nodes In Subdivided Graph](../leetcode/0918-reachable-nodes-in-subdivided-graph/) | Hard | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 1786 | [Number of Restricted Paths From First to Last Node](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/) | Medium | Pointer Traversal & Node Manipulation | O(n) | O(1) |

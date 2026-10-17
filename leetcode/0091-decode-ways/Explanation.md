@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [639. Decode Ways II](../0639-decode-ways-ii/)
 - [394. Decode String](../0394-decode-string/)
 - [1664. Ways to Make a Fair Array](../1783-ways-to-make-a-fair-array/)
-- [1720. Decode XORed Array](../1839-decode-xored-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decode-ways/)

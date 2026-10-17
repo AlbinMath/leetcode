@@ -31,11 +31,11 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | Binary Search | PHP | O(n) | O(1) |
 | 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | Binary Search | PHP | O(n) | O(1) |
 | 112 | [Path Sum](../leetcode/0112-path-sum/) | Tree & Graph | PHP | O(n) | O(n) |
-| 118 | [Pascal's Triangle](../leetcode/0118-pascals-triangle/) | Math & Logic | PHP | O(n) | O(1) |
+| 118 | [Pascal's Triangle](../leetcode/0118-pascals-triangle/) | Math & Logic | PHP, Python | O(n) | O(1) |
 | 119 | [Pascal's Triangle II](../leetcode/0119-pascals-triangle-ii/) | Math & Logic | PHP | O(n) | O(1) |
 | 121 | [Best Time to Buy and Sell Stock](../leetcode/0121-best-time-to-buy-and-sell-stock/) | Array / General | PHP | O(n) | O(1) |
 | 125 | [Valid Palindrome](../leetcode/0125-valid-palindrome/) | Two Pointers | PHP | O(n) | O(1) |
-| 136 | [Single Number](../leetcode/0136-single-number/) | Array / General | JavaScript, PHP | O(n) | O(1) |
+| 136 | [Single Number](../leetcode/0136-single-number/) | Array / General | JavaScript, PHP, Python | O(n) | O(1) |
 | 141 | [Linked List Cycle](../leetcode/0141-linked-list-cycle/) | Fast & Slow Pointers | PHP | O(n) | O(1) |
 | 144 | [Binary Tree Preorder Traversal](../leetcode/0144-binary-tree-preorder-traversal/) | Tree & Graph | PHP | O(n) | O(n) |
 | 145 | [Binary Tree Postorder Traversal](../leetcode/0145-binary-tree-postorder-traversal/) | Tree & Graph | PHP | O(n) | O(n) |
@@ -48,7 +48,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 182 | [Duplicate Emails](../leetcode/0182-duplicate-emails/) | Database / SQL | SQL | O(n) | O(n) |
 | 183 | [Customers Who Never Order](../leetcode/0183-customers-who-never-order/) | Database / SQL | SQL | O(n) | O(n) |
 | 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Two Pointers | Python | O(n) | O(1) |
-| 191 | [Number of 1 Bits](../leetcode/0191-number-of-1-bits/) | Bit Manipulation | JavaScript | O(n) | O(1) |
+| 191 | [Number of 1 Bits](../leetcode/0191-number-of-1-bits/) | Bit Manipulation | JavaScript, Python | O(n) | O(1) |
 | 193 | [Valid Phone Numbers](../leetcode/0193-valid-phone-numbers/) | Array / General | Shell | O(n) | O(1) |
 | 195 | [Tenth Line](../leetcode/0195-tenth-line/) | Array / General | Shell | O(n) | O(1) |
 | 196 | [Delete Duplicate Emails](../leetcode/0196-delete-duplicate-emails/) | Database / SQL | SQL | O(n) | O(n) |
@@ -68,7 +68,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | Hash Map | PHP | O(n) | O(n) |
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Binary Search | PHP | O(n) | O(1) |
 | 258 | [Add Digits](../leetcode/0258-add-digits/) | Math & Logic | PHP | O(n) | O(1) |
-| 263 | [Ugly Number](../leetcode/0263-ugly-number/) | Array / General | PHP | O(n) | O(1) |
+| 263 | [Ugly Number](../leetcode/0263-ugly-number/) | Array / General | PHP, Python | O(n) | O(1) |
 | 268 | [Missing Number](../leetcode/0268-missing-number/) | Array / General | PHP | O(n) | O(1) |
 | 278 | [First Bad Version](../leetcode/0278-first-bad-version/) | Array / General | C++ | O(n) | O(1) |
 | 283 | [Move Zeroes](../leetcode/0283-move-zeroes/) | Array / General | C++, JavaScript | O(n) | O(1) |
@@ -433,12 +433,18 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/) | Hash Map | JavaScript | O(n) | O(n) |
 | 2073 | [Time Needed to Buy Tickets](../leetcode/2195-time-needed-to-buy-tickets/) | Array / General | JavaScript | O(n) | O(1) |
 | 2085 | [Count Common Words With One Occurrence](../leetcode/2190-count-common-words-with-one-occurrence/) | Array / General | JavaScript | O(n) | O(1) |
+| 2089 | [Find Target Indices After Sorting Array](../leetcode/2210-find-target-indices-after-sorting-array/) | Array / General | Python | O(n) | O(1) |
+| 2094 | [Finding 3-Digit Even Numbers](../leetcode/2215-finding-3-digit-even-numbers/) | Bit Manipulation | Python | O(n) | O(1) |
+| 2099 | [Find Subsequence of Length K With the Largest Sum](../leetcode/2204-find-subsequence-of-length-k-with-the-largest-sum/) | Dynamic Programming | Python | O(n) | O(n) |
 | 2103 | [Rings and Rods](../leetcode/2226-rings-and-rods/) | Array / General | JavaScript | O(n) | O(1) |
 | 2108 | [Find First Palindromic String in the Array](../leetcode/2231-find-first-palindromic-string-in-the-array/) | Array / General | JavaScript | O(n) | O(1) |
+| 2114 | [Maximum Number of Words Found in Sentences](../leetcode/2219-maximum-number-of-words-found-in-sentences/) | Array / General | Python | O(n) | O(1) |
+| 2119 | [A Number After a Double Reversal](../leetcode/2238-a-number-after-a-double-reversal/) | Array / General | Python | O(n) | O(1) |
 | 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Sliding Window | Kotlin | O(n) | O(1) |
 | 2215 | [Find the Difference of Two Arrays](../leetcode/1392-find-the-difference-of-two-arrays/) | Array / General | JavaScript | O(n) | O(1) |
 | 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Database / SQL | SQL | O(n) | O(n) |
 | 2427 | [Number of Common Factors](../leetcode/2507-number-of-common-factors/) | Array / General | Python | O(n) | O(1) |
+| 2485 | [Find the Pivot Integer](../leetcode/2571-find-the-pivot-integer/) | Array / General | Python | O(n) | O(1) |
 | 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | Sliding Window | C++ | O(n) | O(1) |
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | Math & Logic | C++ | O(n) | O(1) |
 | 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Prefix Sum | Kotlin | O(n) | O(n) |
@@ -485,6 +491,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3347-distribute-elements-into-two-arrays-i/) | Hash Map | Go | O(n) | O(n) |
 | 3090 | [Maximum Length Substring With Two Occurrences](../leetcode/3349-maximum-length-substring-with-two-occurrences/) | Array / General | Swift | O(n) | O(1) |
 | 3120 | [Count the Number of Special Characters I](../leetcode/3408-count-the-number-of-special-characters-i/) | Array / General | C++ | O(n) | O(1) |
+| 3222 | [Find the Winning Player in Coin Game](../leetcode/3511-find-the-winning-player-in-coin-game/) | Array / General | Python | O(n) | O(1) |
 | 3300 | [Minimum Element After Replacement With Digit Sum](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | Math & Logic | C++ | O(n) | O(1) |
 | 3345 | [Smallest Divisible Digit Product I](../leetcode/3626-smallest-divisible-digit-product-i/) | Tree & Graph | Ruby | O(n) | O(n) |
 | 3436 | [Find Valid Emails](../leetcode/3782-find-valid-emails/) | Database / SQL | SQL | O(n) | O(n) |

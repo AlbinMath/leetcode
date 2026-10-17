@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [21. Merge Two Sorted Lists](../0021-merge-two-sorted-lists/)
 - [88. Merge Sorted Array](../0088-merge-sorted-array/)
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
+- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/)

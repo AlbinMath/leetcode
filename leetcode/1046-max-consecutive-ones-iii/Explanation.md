@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
+- [600. Non-negative Integers without Consecutive Ones](../0600-non-negative-integers-without-consecutive-ones/)
 - [123. Best Time to Buy and Sell Stock III](../0123-best-time-to-buy-and-sell-stock-iii/)
-- [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/)

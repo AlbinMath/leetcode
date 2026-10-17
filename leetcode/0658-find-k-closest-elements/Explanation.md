@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [347. Top K Frequent Elements](../0347-top-k-frequent-elements/)
 - [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
-- [3020. Find the Maximum Number of Elements in Subset](../3299-find-the-maximum-number-of-elements-in-subset/)
+- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-closest-elements/)

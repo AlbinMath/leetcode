@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [152. Maximum Product Subarray](../0152-maximum-product-subarray/)
 - [238. Product of Array Except Self](../0238-product-of-array-except-self/)
-- [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
+- [479. Largest Palindrome Product](../0479-largest-palindrome-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/product-price-at-a-given-date/)

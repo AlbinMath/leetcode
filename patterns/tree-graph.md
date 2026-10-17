@@ -120,7 +120,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 198 | [House Robber](../leetcode/0198-house-robber/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0198-house-robber/Explanation.md) |
 
-| 204 | [Count Primes](../leetcode/0204-count-primes/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0204-count-primes/Explanation.md) |
+| 204 | [Count Primes](../leetcode/0204-count-primes/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0204-count-primes/Explanation.md) |
 
 | 240 | [Search a 2D Matrix II](../leetcode/0240-search-a-2d-matrix-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0240-search-a-2d-matrix-ii/Explanation.md) |
 
@@ -129,6 +129,12 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 437 | [Path Sum III](../leetcode/0437-path-sum-iii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0437-path-sum-iii/Explanation.md) |
 
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Python | O(n) | O(n) | [Explanation](../leetcode/1182-game-play-analysis-iv/Explanation.md) |
+
+| 684 | [Redundant Connection](../leetcode/0684-redundant-connection/) | Python | O(n) | O(n) | [Explanation](../leetcode/0684-redundant-connection/Explanation.md) |
+
+| 687 | [Longest Univalue Path](../leetcode/0687-longest-univalue-path/) | Python | O(n) | O(n) | [Explanation](../leetcode/0687-longest-univalue-path/Explanation.md) |
+
+| 690 | [Employee Importance](../leetcode/0690-employee-importance/) | Python | O(n) | O(n) | [Explanation](../leetcode/0690-employee-importance/Explanation.md) |
 
 | 877 | [Stone Game](../leetcode/0909-stone-game/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0909-stone-game/Explanation.md) |
 
@@ -139,6 +145,10 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 1358 | [Number of Substrings Containing All Three Characters](../leetcode/1460-number-of-substrings-containing-all-three-characters/) | Java | O(n) | O(n) | [Explanation](../leetcode/1460-number-of-substrings-containing-all-three-characters/Explanation.md) |
 
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/Explanation.md) |
+
+| 1514 | [Path with Maximum Probability](../leetcode/1325-path-with-maximum-probability/) | Python | O(n) | O(n) | [Explanation](../leetcode/1325-path-with-maximum-probability/Explanation.md) |
+
+| 1631 | [Path With Minimum Effort](../leetcode/1753-path-with-minimum-effort/) | Python | O(n) | O(n) | [Explanation](../leetcode/1753-path-with-minimum-effort/Explanation.md) |
 
 | 1914 | [Cyclically Rotating a Grid](../leetcode/2043-cyclically-rotating-a-grid/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2043-cyclically-rotating-a-grid/Explanation.md) |
 
@@ -181,6 +191,14 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 51 | [N-Queens](../leetcode/0051-n-queens/) | Python | O(n) | O(n) | [Explanation](../leetcode/0051-n-queens/Explanation.md) |
 
 | 124 | [Binary Tree Maximum Path Sum](../leetcode/0124-binary-tree-maximum-path-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0124-binary-tree-maximum-path-sum/Explanation.md) |
+
+| 297 | [Serialize and Deserialize Binary Tree](../leetcode/0297-serialize-and-deserialize-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0297-serialize-and-deserialize-binary-tree/Explanation.md) |
+
+| 329 | [Longest Increasing Path in a Matrix](../leetcode/0329-longest-increasing-path-in-a-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0329-longest-increasing-path-in-a-matrix/Explanation.md) |
+
+| 587 | [Erect the Fence](../leetcode/0587-erect-the-fence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0587-erect-the-fence/Explanation.md) |
+
+| 1368 | [Minimum Cost to Make at Least One Valid Path in a Grid](../leetcode/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/Explanation.md) |
 
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Python | O(n) | O(n) | [Explanation](../leetcode/1968-maximum-building-height/Explanation.md) |
 

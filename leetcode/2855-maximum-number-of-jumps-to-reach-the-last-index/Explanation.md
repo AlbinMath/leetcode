@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [321. Create Maximum Number](../0321-create-maximum-number/)
 - [414. Third Maximum Number](../0414-third-maximum-number/)
 - [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
-- [1323. Maximum 69 Number](../1448-maximum-69-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)

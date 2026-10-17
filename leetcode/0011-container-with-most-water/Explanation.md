@@ -76,7 +76,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [42. Trapping Rain Water](../0042-trapping-rain-water/)
 - [365. Water and Jug Problem](../0365-water-and-jug-problem/)
-- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
+- [407. Trapping Rain Water II](../0407-trapping-rain-water-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/container-with-most-water/)

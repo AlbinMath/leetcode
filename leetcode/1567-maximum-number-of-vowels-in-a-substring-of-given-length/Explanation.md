@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3090. Maximum Length Substring With Two Occurrences](../3349-maximum-length-substring-with-two-occurrences/)
+- [321. Create Maximum Number](../0321-create-maximum-number/)
 - [414. Third Maximum Number](../0414-third-maximum-number/)
-- [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)

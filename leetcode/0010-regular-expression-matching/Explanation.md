@@ -77,8 +77,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [44. Wildcard Matching](../0044-wildcard-matching/)
+- [282. Expression Add Operators](../0282-expression-add-operators/)
 - [1408. String Matching in an Array](../1524-string-matching-in-an-array/)
-- [1773. Count Items Matching a Rule](../1899-count-items-matching-a-rule/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/regular-expression-matching/)

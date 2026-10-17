@@ -65,8 +65,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3501. Maximize Active Section with Trade II](../3804-maximize-active-section-with-trade-ii/)
+- [464. Can I Win](../0464-can-i-win/)
 - [496. Next Greater Element I](../0496-next-greater-element-i/)
-- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-active-section-with-trade-i/)

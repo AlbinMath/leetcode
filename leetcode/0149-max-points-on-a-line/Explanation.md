@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [195. Tenth Line](../0195-tenth-line/)
+- [363. Max Sum of Rectangle No Larger Than K](../0363-max-sum-of-rectangle-no-larger-than-k/)
 - [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
-- [780. Reaching Points](../0796-reaching-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-points-on-a-line/)

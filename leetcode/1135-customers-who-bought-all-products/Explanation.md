@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [183. Customers Who Never Order](../0183-customers-who-never-order/)
 - [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
-- [438. Find All Anagrams in a String](../0438-find-all-anagrams-in-a-string/)
+- [432. All O`one Data Structure](../0432-all-oone-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customers-who-bought-all-products/)

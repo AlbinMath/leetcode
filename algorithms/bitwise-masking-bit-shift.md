@@ -26,6 +26,7 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 717 | [1-bit and 2-bit Characters](../leetcode/0717-1-bit-and-2-bit-characters/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 810 | [Chalkboard XOR Game](../leetcode/0828-chalkboard-xor-game/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | Medium | Bit Manipulation | O(n²) | O(1) |
+| 1015 | [Smallest Integer Divisible by K](../leetcode/1064-smallest-integer-divisible-by-k/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1175 | [Prime Arrangements](../leetcode/1279-prime-arrangements/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1356 | [Sort Integers by The Number of 1 Bits](../leetcode/1458-sort-integers-by-the-number-of-1-bits/) | Easy | Bit Manipulation | O(n) | O(1) |
@@ -35,6 +36,7 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](../leetcode/1910-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1805 | [Number of Different Integers in a String](../leetcode/1933-number-of-different-integers-in-a-string/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1863 | [Sum of All Subset XOR Totals](../leetcode/1993-sum-of-all-subset-xor-totals/) | Easy | Bit Manipulation | O(n) | O(1) |
+| 2094 | [Finding 3-Digit Even Numbers](../leetcode/2215-finding-3-digit-even-numbers/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 2197 | [Replace Non-Coprime Numbers in Array](../leetcode/2307-replace-non-coprime-numbers-in-array/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | Medium | Bit Manipulation | O(n) | O(1) |

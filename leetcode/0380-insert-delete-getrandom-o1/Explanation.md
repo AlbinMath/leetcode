@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [381. Insert Delete Getrandom O1   Duplicates Allowed](../0381-insert-delete-getrandom-o1---duplicates-allowed/)
 - [35. Search Insert Position](../0035-search-insert-position/)
 - [57. Insert Interval](../0057-insert-interval/)
-- [196. Delete Duplicate Emails](../0196-delete-duplicate-emails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1/)

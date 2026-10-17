@@ -68,8 +68,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
+- [371. Sum of Two Integers](../0371-sum-of-two-integers/)
 - [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
-- [653. Two Sum Iv   Input Is A Bst](../0653-two-sum-iv---input-is-a-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-sum/)

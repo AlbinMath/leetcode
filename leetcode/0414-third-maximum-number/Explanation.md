@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [321. Create Maximum Number](../0321-create-maximum-number/)
 - [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
 - [1323. Maximum 69 Number](../1448-maximum-69-number/)
-- [1456. Maximum Number of Vowels in a Substring of Given Length](../1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/third-maximum-number/)

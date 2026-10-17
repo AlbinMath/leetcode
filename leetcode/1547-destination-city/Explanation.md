@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](../1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [1928. Minimum Cost to Reach Destination in Time](../2040-minimum-cost-to-reach-destination-in-time/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/destination-city/)

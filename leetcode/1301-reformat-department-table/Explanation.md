@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [184. Department Highest Salary](../0184-department-highest-salary/)
 - [185. Department Top Three Salaries](../0185-department-top-three-salaries/)
-- [1417. Reformat The String](../1532-reformat-the-string/)
+- [668. Kth Smallest Number in Multiplication Table](../0668-kth-smallest-number-in-multiplication-table/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reformat-department-table/)

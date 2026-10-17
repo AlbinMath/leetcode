@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3380. Maximum Area Rectangle With Point Constraints I](../3681-maximum-area-rectangle-with-point-constraints-i/)
-- [3691. Maximum Total Subarray Value II](../4007-maximum-total-subarray-value-ii/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [850. Rectangle Area II](../0880-rectangle-area-ii/)
+- [223. Rectangle Area](../0223-rectangle-area/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/)

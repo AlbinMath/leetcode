@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3962. Maximum Subarray Sum After at Most K Swaps](../4246-maximum-subarray-sum-after-at-most-k-swaps/)
 - [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
-- [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
+- [363. Max Sum of Rectangle No Larger Than K](../0363-max-sum-of-rectangle-no-larger-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/)

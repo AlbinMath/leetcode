@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
 - [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
-- [2883. Drop Missing Data](../3075-drop-missing-data/)
+- [352. Data Stream as Disjoint Intervals](../0352-data-stream-as-disjoint-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/select-data/)

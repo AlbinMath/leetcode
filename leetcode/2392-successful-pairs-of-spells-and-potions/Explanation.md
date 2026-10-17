@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
+- [336. Palindrome Pairs](../0336-palindrome-pairs/)
 - [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
-- [493. Reverse Pairs](../0493-reverse-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)

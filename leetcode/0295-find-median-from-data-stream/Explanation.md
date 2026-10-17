@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [352. Data Stream as Disjoint Intervals](../0352-data-stream-as-disjoint-intervals/)
 - [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-median-from-data-stream/)

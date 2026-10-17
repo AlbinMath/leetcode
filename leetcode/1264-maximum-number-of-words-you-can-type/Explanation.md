@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [414. Third Maximum Number](../0414-third-maximum-number/)
-- [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
-- [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
+- [1561. Maximum Number of Coins You Can Get](../1683-maximum-number-of-coins-you-can-get/)
+- [2114. Maximum Number of Words Found in Sentences](../2219-maximum-number-of-words-found-in-sentences/)
+- [321. Create Maximum Number](../0321-create-maximum-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)

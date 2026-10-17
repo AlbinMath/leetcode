@@ -76,8 +76,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
+- [1786. Number of Restricted Paths From First to Last Node](../1912-number-of-restricted-paths-from-first-to-last-node/)
 - [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-paths-with-max-score/)

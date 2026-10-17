@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2094. Finding 3-Digit Even Numbers](../2215-finding-3-digit-even-numbers/)
 - [1295. Find Numbers with Even Number of Digits](../1421-find-numbers-with-even-number-of-digits/)
 - [3855. Sum of K-Digit Numbers in a Range](../4239-sum-of-k-digit-numbers-in-a-range/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-3-digit-even-numbers/)

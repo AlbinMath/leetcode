@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [483. Smallest Good Base](../0483-smallest-good-base/)
 - [1009. Complement of Base 10 Integer](../1054-complement-of-base-10-integer/)
 - [1837. Sum of Digits in Base K](../1965-sum-of-digits-in-base-k/)
-- [1. Two Sum](../0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/base-7/)

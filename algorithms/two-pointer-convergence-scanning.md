@@ -27,12 +27,15 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Two Pointers | O(n) | O(1) |
 | 203 | [Remove Linked List Elements](../leetcode/0203-remove-linked-list-elements/) | Easy | Two Pointers | O(n) | O(1) |
 | 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
+| 214 | [Shortest Palindrome](../leetcode/0214-shortest-palindrome/) | Hard | Two Pointers | O(n) | O(1) |
 | 222 | [Count Complete Tree Nodes](../leetcode/0222-count-complete-tree-nodes/) | Medium | Two Pointers | O(n) | O(1) |
 | 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 328 | [Odd Even Linked List](../leetcode/0328-odd-even-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
+| 336 | [Palindrome Pairs](../leetcode/0336-palindrome-pairs/) | Hard | Two Pointers | O(n) | O(1) |
 | 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Easy | Two Pointers | O(n) | O(1) |
 | 350 | [Intersection of Two Arrays II](../leetcode/0350-intersection-of-two-arrays-ii/) | Easy | Two Pointers | O(n) | O(1) |
 | 409 | [Longest Palindrome](../leetcode/0409-longest-palindrome/) | Easy | Two Pointers | O(n) | O(1) |
+| 479 | [Largest Palindrome Product](../leetcode/0479-largest-palindrome-product/) | Hard | Two Pointers | O(n) | O(1) |
 | 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Easy | Two Pointers | O(n) | O(1) |
 | 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Easy | Two Pointers | O(n) | O(1) |
 | 693 | [Binary Number with Alternating Bits](../leetcode/0693-binary-number-with-alternating-bits/) | Easy | Two Pointers | O(n) | O(1) |

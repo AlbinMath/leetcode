@@ -40,3 +40,5 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 
 | 239 | [Sliding Window Maximum](../leetcode/0239-sliding-window-maximum/) | Python | O(n) | O(1) | [Explanation](../leetcode/0239-sliding-window-maximum/Explanation.md) |
 
+| 480 | [Sliding Window Median](../leetcode/0480-sliding-window-median/) | Python | O(n) | O(1) | [Explanation](../leetcode/0480-sliding-window-median/Explanation.md) |
+

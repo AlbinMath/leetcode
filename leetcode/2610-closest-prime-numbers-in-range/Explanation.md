@@ -1,7 +1,7 @@
 # LeetCode 2523: Closest Prime Numbers in Range
 
 **LeetCode Problem #2523 — Closest Prime Numbers in Range**
-Solve LeetCode Closest Prime Numbers in Range using JavaScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Closest Prime Numbers in Range using JavaScript, Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Closest Prime Numbers in Range using JavaScript and Bit Manipulat
 | Problem | Closest Prime Numbers in Range |
 | LeetCode | #2523 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Bitwise Masking & Bit Shift |
 | Data Structure | Integer Bitmask |
 | Pattern | Bit Manipulation |
@@ -45,10 +45,11 @@ Consider the standard input for **Closest Prime Numbers in Range**. Applying **B
 - Bitwise Math
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

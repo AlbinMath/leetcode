@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [137. Single Number II](../0137-single-number-ii/)
+- [375. Guess Number Higher or Lower II](../0375-guess-number-higher-or-lower-ii/)
 - [1356. Sort Integers by The Number of 1 Bits](../1458-sort-integers-by-the-number-of-1-bits/)
-- [1621. Number of Sets of K Non-Overlapping Line Segments](../1725-number-of-sets-of-k-non-overlapping-line-segments/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/)

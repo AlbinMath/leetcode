@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3348. Smallest Divisible Digit Product II](../3635-smallest-divisible-digit-product-ii/)
 - [908. Smallest Range I](../0944-smallest-range-i/)
-- [1068. Product Sales Analysis I](../1153-product-sales-analysis-i/)
+- [1015. Smallest Integer Divisible by K](../1064-smallest-integer-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-i/)

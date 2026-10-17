@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3551. Minimum Swaps to Sort by Digit Sum](../3847-minimum-swaps-to-sort-by-digit-sum/)
 - [64. Minimum Path Sum](../0064-minimum-path-sum/)
 - [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
-- [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)

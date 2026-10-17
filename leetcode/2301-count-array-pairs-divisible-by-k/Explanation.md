@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [629. K Inverse Pairs Array](../0629-k-inverse-pairs-array/)
 - [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
 - [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
-- [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)

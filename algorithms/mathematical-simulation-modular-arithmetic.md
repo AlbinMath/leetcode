@@ -12,12 +12,17 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 119 | [Pascal's Triangle II](../leetcode/0119-pascals-triangle-ii/) | Easy | Math & Logic | O(n) | O(1) |
 | 120 | [Triangle](../leetcode/0120-triangle/) | Medium | Math & Logic | O(n) | O(1) |
 | 189 | [Rotate Array](../leetcode/0189-rotate-array/) | Medium | Math & Logic | O(n) | O(1) |
+| 223 | [Rectangle Area](../leetcode/0223-rectangle-area/) | Medium | Math & Logic | O(n) | O(1) |
+| 233 | [Number of Digit One](../leetcode/0233-number-of-digit-one/) | Hard | Math & Logic | O(n) | O(1) |
 | 258 | [Add Digits](../leetcode/0258-add-digits/) | Easy | Math & Logic | O(n) | O(1) |
 | 289 | [Game of Life](../leetcode/0289-game-of-life/) | Medium | Math & Logic | O(n) | O(1) |
+| 363 | [Max Sum of Rectangle No Larger Than K](../leetcode/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard | Math & Logic | O(n) | O(1) |
+| 391 | [Perfect Rectangle](../leetcode/0391-perfect-rectangle/) | Hard | Math & Logic | O(n) | O(1) |
 | 611 | [Valid Triangle Number](../leetcode/0611-valid-triangle-number/) | Medium | Math & Logic | O(n) | O(1) |
 | 796 | [Rotate String](../leetcode/0812-rotate-string/) | Easy | Math & Logic | O(n) | O(1) |
 | 812 | [Largest Triangle Area](../leetcode/0830-largest-triangle-area/) | Easy | Math & Logic | O(n) | O(1) |
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Easy | Math & Logic | O(n) | O(1) |
+| 850 | [Rectangle Area II](../leetcode/0880-rectangle-area-ii/) | Hard | Math & Logic | O(n) | O(1) |
 | 976 | [Largest Perimeter Triangle](../leetcode/1018-largest-perimeter-triangle/) | Easy | Math & Logic | O(n) | O(1) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | Math & Logic | O(n) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](../leetcode/1421-find-numbers-with-even-number-of-digits/) | Easy | Math & Logic | O(n) | O(1) |
@@ -39,5 +44,6 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 3382 | [Maximum Area Rectangle With Point Constraints II](../leetcode/3689-maximum-area-rectangle-with-point-constraints-ii/) | Hard | Math & Logic | O(n) | O(1) |
 | 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Easy | Math & Logic | O(n) | O(1) |
 | 3536 | [Maximum Product of Two Digits](../leetcode/3859-maximum-product-of-two-digits/) | Easy | Math & Logic | O(n) | O(1) |
+| 3551 | [Minimum Swaps to Sort by Digit Sum](../leetcode/3847-minimum-swaps-to-sort-by-digit-sum/) | Medium | Math & Logic | O(n) | O(1) |
 | 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Easy | Math & Logic | O(n) | O(1) |
 | 3723 | [Maximize Sum of Squares of Digits](../leetcode/4084-maximize-sum-of-squares-of-digits/) | Medium | Math & Logic | O(n) | O(1) |

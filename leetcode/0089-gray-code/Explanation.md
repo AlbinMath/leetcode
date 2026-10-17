@@ -1,7 +1,7 @@
 # LeetCode 89: Gray Code
 
 **LeetCode Problem #89 — Gray Code**
-Solve LeetCode Gray Code using JavaScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Gray Code using JavaScript, Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Gray Code using JavaScript and Bit Manipulation. This solution fi
 | Problem | Gray Code |
 | LeetCode | #89 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Bitwise Masking & Bit Shift |
 | Data Structure | Integer Bitmask |
 | Pattern | Bit Manipulation |
@@ -45,10 +45,11 @@ Consider the standard input for **Gray Code**. Applying **Bitwise Masking & Bit 
 - Bitwise Math
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

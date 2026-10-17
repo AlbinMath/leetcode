@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [883. Projection Area of 3D Shapes](../0919-projection-area-of-3d-shapes/)
-- [812. Largest Triangle Area](../0830-largest-triangle-area/)
-- [1637. Widest Vertical Area Between Two Points Containing No Points](../1742-widest-vertical-area-between-two-points-containing-no-points/)
+- [223. Rectangle Area](../0223-rectangle-area/)
+- [695. Max Area of Island](../0695-max-area-of-island/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/surface-area-of-3d-shapes/)

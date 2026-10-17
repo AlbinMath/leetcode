@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [658. Find K Closest Elements](../0658-find-k-closest-elements/)
-- [744. Find Smallest Letter Greater Than Target](../0745-find-smallest-letter-greater-than-target/)
-- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+- [440. K-th Smallest in Lexicographical Order](../0440-k-th-smallest-in-lexicographical-order/)
+- [629. K Inverse Pairs Array](../0629-k-inverse-pairs-array/)
+- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)

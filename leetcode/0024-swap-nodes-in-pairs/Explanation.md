@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
 - [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
-- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
+- [336. Palindrome Pairs](../0336-palindrome-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/)

@@ -8,7 +8,7 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 191 | [Number of 1 Bits](../leetcode/0191-number-of-1-bits/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0191-number-of-1-bits/Explanation.md) |
+| 191 | [Number of 1 Bits](../leetcode/0191-number-of-1-bits/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0191-number-of-1-bits/Explanation.md) |
 
 | 461 | [Hamming Distance](../leetcode/0461-hamming-distance/) | Python | O(n) | O(1) | [Explanation](../leetcode/0461-hamming-distance/Explanation.md) |
 
@@ -36,6 +36,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 1863 | [Sum of All Subset XOR Totals](../leetcode/1993-sum-of-all-subset-xor-totals/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1993-sum-of-all-subset-xor-totals/Explanation.md) |
 
+| 2094 | [Finding 3-Digit Even Numbers](../leetcode/2215-finding-3-digit-even-numbers/) | Python | O(n) | O(1) | [Explanation](../leetcode/2215-finding-3-digit-even-numbers/Explanation.md) |
+
 | 2723 | [Add Two Promises](../leetcode/2859-add-two-promises/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2859-add-two-promises/Explanation.md) |
 
 | 2880 | [Select Data](../leetcode/3074-select-data/) | Python | O(n) | O(1) | [Explanation](../leetcode/3074-select-data/Explanation.md) |
@@ -62,7 +64,7 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 29 | [Divide Two Integers](../leetcode/0029-divide-two-integers/) | Python | O(n) | O(1) | [Explanation](../leetcode/0029-divide-two-integers/Explanation.md) |
 
-| 89 | [Gray Code](../leetcode/0089-gray-code/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0089-gray-code/Explanation.md) |
+| 89 | [Gray Code](../leetcode/0089-gray-code/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0089-gray-code/Explanation.md) |
 
 | 91 | [Decode Ways](../leetcode/0091-decode-ways/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0091-decode-ways/Explanation.md) |
 
@@ -78,6 +80,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | JavaScript | O(n²) | O(1) | [Explanation](../leetcode/0864-image-overlap/Explanation.md) |
 
+| 1015 | [Smallest Integer Divisible by K](../leetcode/1064-smallest-integer-divisible-by-k/) | Python | O(n) | O(1) | [Explanation](../leetcode/1064-smallest-integer-divisible-by-k/Explanation.md) |
+
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Java | O(n) | O(1) | [Explanation](../leetcode/2245-destroying-asteroids/Explanation.md) |
 
 | 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2413-smallest-number-in-infinite-set/Explanation.md) |
@@ -86,7 +90,7 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 2425 | [Bitwise XOR of All Pairings](../leetcode/2533-bitwise-xor-of-all-pairings/) | Python | O(n) | O(1) | [Explanation](../leetcode/2533-bitwise-xor-of-all-pairings/Explanation.md) |
 
-| 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2610-closest-prime-numbers-in-range/Explanation.md) |
+| 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/2610-closest-prime-numbers-in-range/Explanation.md) |
 
 | 3653 | [XOR After Range Multiplication Queries I](../leetcode/3974-xor-after-range-multiplication-queries-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3974-xor-after-range-multiplication-queries-i/Explanation.md) |
 

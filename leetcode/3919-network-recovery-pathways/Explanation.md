@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [743. Network Delay Time](../0744-network-delay-time/)
 - [3586. Find COVID Recovery Patients](../3932-find-covid-recovery-patients/)
 - [6. Zigzag Conversion](../0006-zigzag-conversion/)
-- [38. Count and Say](../0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/network-recovery-pathways/)

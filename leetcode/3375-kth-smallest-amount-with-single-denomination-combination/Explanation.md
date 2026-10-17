@@ -64,8 +64,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [230. Kth Smallest Element in a BST](../0230-kth-smallest-element-in-a-bst/)
+- [668. Kth Smallest Number in Multiplication Table](../0668-kth-smallest-number-in-multiplication-table/)
 - [39. Combination Sum](../0039-combination-sum/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/)

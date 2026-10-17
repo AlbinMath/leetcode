@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3559. Number of Ways to Assign Edge Weights II](../3842-number-of-ways-to-assign-edge-weights-ii/)
-- [3014. Minimum Number of Pushes to Type Word I](../3275-minimum-number-of-pushes-to-type-word-i/)
-- [3120. Count the Number of Special Characters I](../3408-count-the-number-of-special-characters-i/)
+- [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
+- [1976. Number of Ways to Arrive at Destination](../2090-number-of-ways-to-arrive-at-destination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/)

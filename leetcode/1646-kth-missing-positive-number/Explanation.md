@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [41. First Missing Positive](../0041-first-missing-positive/)
 - [268. Missing Number](../0268-missing-number/)
-- [9. Palindrome Number](../0009-palindrome-number/)
+- [668. Kth Smallest Number in Multiplication Table](../0668-kth-smallest-number-in-multiplication-table/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-missing-positive-number/)

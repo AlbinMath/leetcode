@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](../1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
+- [3627. Maximum Median Sum of Subsequences of Size 3](../3766-maximum-median-sum-of-subsequences-of-size-3/)
 - [1. Two Sum](../0001-two-sum/)
-- [39. Combination Sum](../0039-combination-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-beautiful-subsequences/)

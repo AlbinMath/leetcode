@@ -1,7 +1,7 @@
 # LeetCode 263: Ugly Number
 
 **LeetCode Problem #263 — Ugly Number**
-Solve LeetCode Ugly Number using PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Ugly Number using PHP, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Ugly Number using PHP and Array / General. This solution finds th
 | Problem | Ugly Number |
 | LeetCode | #263 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | PHP, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Ugly Number**. Applying **In-Place Array Trave
 - Array
 
 ## Language
-PHP
+PHP, Python
 
 ## Source Code
 - [solution.php](./solution.php)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

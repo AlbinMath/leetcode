@@ -64,8 +64,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [1394. Find Lucky Integer in an Array](../1510-find-lucky-integer-in-an-array/)
-- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
-- [3731. Find Missing Elements](../4107-find-missing-elements/)
+- [2099. Find Subsequence of Length K With the Largest Sum](../2204-find-subsequence-of-length-k-with-the-largest-sum/)
+- [2485. Find the Pivot Integer](../2571-find-the-pivot-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-largest-almost-missing-integer/)

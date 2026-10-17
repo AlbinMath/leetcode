@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [367. Valid Perfect Square](../0367-valid-perfect-square/)
+- [391. Perfect Rectangle](../0391-perfect-rectangle/)
 - [507. Perfect Number](../0507-perfect-number/)
-- [977. Squares of a Sorted Array](../1019-squares-of-a-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/perfect-squares/)

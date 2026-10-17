@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
+- [363. Max Sum of Rectangle No Larger Than K](../0363-max-sum-of-rectangle-no-larger-than-k/)
 - [434. Number of Segments in a String](../0434-number-of-segments-in-a-string/)
-- [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)

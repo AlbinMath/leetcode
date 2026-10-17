@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [692. Top K Frequent Words](../0692-top-k-frequent-words/)
+- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
 - [658. Find K Closest Elements](../0658-find-k-closest-elements/)
-- [3759. Count Elements With at Least K Greater Values](../4141-count-elements-with-at-least-k-greater-values/)
-- [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/top-k-frequent-elements/)

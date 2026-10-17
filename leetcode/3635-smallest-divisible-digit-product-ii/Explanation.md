@@ -65,8 +65,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3345. Smallest Divisible Digit Product I](../3626-smallest-divisible-digit-product-i/)
+- [1015. Smallest Integer Divisible by K](../1064-smallest-integer-divisible-by-k/)
 - [3518. Smallest Palindromic Rearrangement II](../3813-smallest-palindromic-rearrangement-ii/)
-- [3550. Smallest Index With Digit Sum Equal to Index](../3869-smallest-index-with-digit-sum-equal-to-index/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-ii/)

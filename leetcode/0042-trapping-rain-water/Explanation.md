@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [407. Trapping Rain Water II](../0407-trapping-rain-water-ii/)
 - [11. Container With Most Water](../0011-container-with-most-water/)
 - [365. Water and Jug Problem](../0365-water-and-jug-problem/)
-- [1518. Water Bottles](../1642-water-bottles/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/trapping-rain-water/)

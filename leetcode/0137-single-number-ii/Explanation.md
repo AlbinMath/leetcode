@@ -1,7 +1,7 @@
 # LeetCode 137: Single Number II
 
 **LeetCode Problem #137 — Single Number II**
-Solve LeetCode Single Number II using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Single Number II using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Single Number II using JavaScript and Array / General. This solut
 | Problem | Single Number II |
 | LeetCode | #137 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Single Number II**. Applying **In-Place Array 
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [136. Single Number](../0136-single-number/)
+- [375. Guess Number Higher or Lower II](../0375-guess-number-higher-or-lower-ii/)
 - [619. Biggest Single Number](../0619-biggest-single-number/)
-- [3016. Minimum Number of Pushes to Type Word II](../3276-minimum-number-of-pushes-to-type-word-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/single-number-ii/)

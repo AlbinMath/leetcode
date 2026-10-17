@@ -9,16 +9,21 @@ LeetCode problems solved using **Dictionary / Hash Map** data structures.
 | 1 | [Two Sum](../leetcode/0001-two-sum/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 49 | [Group Anagrams](../leetcode/0049-group-anagrams/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 126 | [Word Ladder II](../leetcode/0126-word-ladder-ii/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 127 | [Word Ladder](../leetcode/0127-word-ladder/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 139 | [Word Break](../leetcode/0139-word-break/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 140 | [Word Break II](../leetcode/0140-word-break-ii/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 192 | [Word Frequency](../leetcode/0192-word-frequency/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 211 | [Design Add and Search Words Data Structure](../leetcode/0211-design-add-and-search-words-data-structure/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 242 | [Valid Anagram](../leetcode/0242-valid-anagram/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 290 | [Word Pattern](../leetcode/0290-word-pattern/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 405 | [Convert a Number to Hexadecimal](../leetcode/0405-convert-a-number-to-hexadecimal/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 438 | [Find All Anagrams in a String](../leetcode/0438-find-all-anagrams-in-a-string/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 460 | [LFU Cache](../leetcode/0460-lfu-cache/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 476 | [Number Complement](../leetcode/0476-number-complement/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 504 | [Base 7](../leetcode/0504-base-7/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 676 | [Implement Magic Dictionary](../leetcode/0676-implement-magic-dictionary/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 692 | [Top K Frequent Words](../leetcode/0692-top-k-frequent-words/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 697 | [Degree of an Array](../leetcode/0697-degree-of-an-array/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 705 | [Design HashSet](../leetcode/0816-design-hashset/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 706 | [Design HashMap](../leetcode/0817-design-hashmap/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |

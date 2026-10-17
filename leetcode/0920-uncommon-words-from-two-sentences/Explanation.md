@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1880. Check if Word Equals Summation of Two Words](../2010-check-if-word-equals-summation-of-two-words/)
+- [2114. Maximum Number of Words Found in Sentences](../2219-maximum-number-of-words-found-in-sentences/)
 - [1. Two Sum](../0001-two-sum/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/uncommon-words-from-two-sentences/)

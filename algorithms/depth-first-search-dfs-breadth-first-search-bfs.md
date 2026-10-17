@@ -30,6 +30,8 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 198 | [House Robber](../leetcode/0198-house-robber/) | Medium | Tree & Graph | O(n) | O(n) |
 | 204 | [Count Primes](../leetcode/0204-count-primes/) | Medium | Tree & Graph | O(n) | O(n) |
 | 240 | [Search a 2D Matrix II](../leetcode/0240-search-a-2d-matrix-ii/) | Medium | Tree & Graph | O(n) | O(n) |
+| 297 | [Serialize and Deserialize Binary Tree](../leetcode/0297-serialize-and-deserialize-binary-tree/) | Hard | Tree & Graph | O(n) | O(n) |
+| 329 | [Longest Increasing Path in a Matrix](../leetcode/0329-longest-increasing-path-in-a-matrix/) | Hard | Tree & Graph | O(n) | O(n) |
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Easy | Tree & Graph | O(n) | O(n) |
 | 427 | [Construct Quad Tree](../leetcode/0772-construct-quad-tree/) | Medium | Tree & Graph | O(n) | O(n) |
 | 437 | [Path Sum III](../leetcode/0437-path-sum-iii/) | Medium | Tree & Graph | O(n) | O(n) |
@@ -37,8 +39,12 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Medium | Tree & Graph | O(n) | O(n) |
 | 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Easy | Tree & Graph | O(n) | O(n) |
 | 566 | [Reshape the Matrix](../leetcode/0566-reshape-the-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
+| 587 | [Erect the Fence](../leetcode/0587-erect-the-fence/) | Hard | Tree & Graph | O(n) | O(n) |
 | 589 | [N-ary Tree Preorder Traversal](../leetcode/0775-n-ary-tree-preorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
 | 590 | [N-ary Tree Postorder Traversal](../leetcode/0776-n-ary-tree-postorder-traversal/) | Easy | Tree & Graph | O(n) | O(n) |
+| 684 | [Redundant Connection](../leetcode/0684-redundant-connection/) | Medium | Tree & Graph | O(n) | O(n) |
+| 687 | [Longest Univalue Path](../leetcode/0687-longest-univalue-path/) | Medium | Tree & Graph | O(n) | O(n) |
+| 690 | [Employee Importance](../leetcode/0690-employee-importance/) | Medium | Tree & Graph | O(n) | O(n) |
 | 696 | [Count Binary Substrings](../leetcode/0696-count-binary-substrings/) | Easy | Tree & Graph | O(n) | O(n) |
 | 766 | [Toeplitz Matrix](../leetcode/0777-toeplitz-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 867 | [Transpose Matrix](../leetcode/0898-transpose-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -54,10 +60,13 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 1337 | [The K Weakest Rows in a Matrix](../leetcode/1463-the-k-weakest-rows-in-a-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](../leetcode/1476-count-negative-numbers-in-a-sorted-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1358 | [Number of Substrings Containing All Three Characters](../leetcode/1460-number-of-substrings-containing-all-three-characters/) | Medium | Tree & Graph | O(n) | O(n) |
+| 1368 | [Minimum Cost to Make at Least One Valid Path in a Grid](../leetcode/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard | Tree & Graph | O(n) | O(n) |
 | 1380 | [Lucky Numbers in a Matrix](../leetcode/1496-lucky-numbers-in-a-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1496 | [Path Crossing](../leetcode/1619-path-crossing/) | Easy | Tree & Graph | O(n) | O(n) |
+| 1514 | [Path with Maximum Probability](../leetcode/1325-path-with-maximum-probability/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1572 | [Matrix Diagonal Sum](../leetcode/1677-matrix-diagonal-sum/) | Easy | Tree & Graph | O(n) | O(n) |
+| 1631 | [Path With Minimum Effort](../leetcode/1753-path-with-minimum-effort/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1688 | [Count of Matches in Tournament](../leetcode/1806-count-of-matches-in-tournament/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1710 | [Maximum Units on a Truck](../leetcode/1829-maximum-units-on-a-truck/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](../leetcode/1884-minimum-changes-to-make-alternating-binary-string/) | Easy | Tree & Graph | O(n) | O(n) |

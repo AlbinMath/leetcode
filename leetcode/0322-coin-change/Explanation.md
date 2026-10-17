@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [860. Lemonade Change](../0890-lemonade-change/)
 - [2886. Change Data Type](../3069-change-data-type/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [3222. Find the Winning Player in Coin Game](../3511-find-the-winning-player-in-coin-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/coin-change/)

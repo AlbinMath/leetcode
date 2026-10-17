@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [72. Edit Distance](../0072-edit-distance/)
+- [214. Shortest Palindrome](../0214-shortest-palindrome/)
 - [387. First Unique Character in a String](../0387-first-unique-character-in-a-string/)
-- [461. Hamming Distance](../0461-hamming-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-distance-to-a-character/)

@@ -8,7 +8,7 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 118 | [Pascal's Triangle](../leetcode/0118-pascals-triangle/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0118-pascals-triangle/Explanation.md) |
+| 118 | [Pascal's Triangle](../leetcode/0118-pascals-triangle/) | PHP, Python | O(n) | O(1) | [Explanation](../leetcode/0118-pascals-triangle/Explanation.md) |
 
 | 119 | [Pascal's Triangle II](../leetcode/0119-pascals-triangle-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0119-pascals-triangle-ii/Explanation.md) |
 
@@ -58,6 +58,8 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 189 | [Rotate Array](../leetcode/0189-rotate-array/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0189-rotate-array/Explanation.md) |
 
+| 223 | [Rectangle Area](../leetcode/0223-rectangle-area/) | Python | O(n) | O(1) | [Explanation](../leetcode/0223-rectangle-area/Explanation.md) |
+
 | 289 | [Game of Life](../leetcode/0289-game-of-life/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0289-game-of-life/Explanation.md) |
 
 | 611 | [Valid Triangle Number](../leetcode/0611-valid-triangle-number/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0611-valid-triangle-number/Explanation.md) |
@@ -72,6 +74,8 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 3380 | [Maximum Area Rectangle With Point Constraints I](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/Explanation.md) |
 
+| 3551 | [Minimum Swaps to Sort by Digit Sum](../leetcode/3847-minimum-swaps-to-sort-by-digit-sum/) | Python | O(n) | O(1) | [Explanation](../leetcode/3847-minimum-swaps-to-sort-by-digit-sum/Explanation.md) |
+
 | 3723 | [Maximize Sum of Squares of Digits](../leetcode/4084-maximize-sum-of-squares-of-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/4084-maximize-sum-of-squares-of-digits/Explanation.md) |
 
 ### Hard
@@ -79,6 +83,14 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 85 | [Maximal Rectangle](../leetcode/0085-maximal-rectangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0085-maximal-rectangle/Explanation.md) |
+
+| 233 | [Number of Digit One](../leetcode/0233-number-of-digit-one/) | Python | O(n) | O(1) | [Explanation](../leetcode/0233-number-of-digit-one/Explanation.md) |
+
+| 363 | [Max Sum of Rectangle No Larger Than K](../leetcode/0363-max-sum-of-rectangle-no-larger-than-k/) | Python | O(n) | O(1) | [Explanation](../leetcode/0363-max-sum-of-rectangle-no-larger-than-k/Explanation.md) |
+
+| 391 | [Perfect Rectangle](../leetcode/0391-perfect-rectangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0391-perfect-rectangle/Explanation.md) |
+
+| 850 | [Rectangle Area II](../leetcode/0880-rectangle-area-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0880-rectangle-area-ii/Explanation.md) |
 
 | 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/Explanation.md) |
 

@@ -84,6 +84,10 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 438 | [Find All Anagrams in a String](../leetcode/0438-find-all-anagrams-in-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0438-find-all-anagrams-in-a-string/Explanation.md) |
 
+| 676 | [Implement Magic Dictionary](../leetcode/0676-implement-magic-dictionary/) | Python | O(n) | O(n) | [Explanation](../leetcode/0676-implement-magic-dictionary/Explanation.md) |
+
+| 692 | [Top K Frequent Words](../leetcode/0692-top-k-frequent-words/) | Python | O(n) | O(n) | [Explanation](../leetcode/0692-top-k-frequent-words/Explanation.md) |
+
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Java | O(n) | O(n) | [Explanation](../leetcode/1187-print-foobar-alternately/Explanation.md) |
 
 | 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/Explanation.md) |
@@ -110,7 +114,13 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 126 | [Word Ladder II](../leetcode/0126-word-ladder-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0126-word-ladder-ii/Explanation.md) |
+
 | 127 | [Word Ladder](../leetcode/0127-word-ladder/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0127-word-ladder/Explanation.md) |
+
+| 140 | [Word Break II](../leetcode/0140-word-break-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0140-word-break-ii/Explanation.md) |
+
+| 460 | [LFU Cache](../leetcode/0460-lfu-cache/) | Python | O(n) | O(n) | [Explanation](../leetcode/0460-lfu-cache/Explanation.md) |
 
 | 1345 | [Jump Game IV](../leetcode/1447-jump-game-iv/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1447-jump-game-iv/Explanation.md) |
 

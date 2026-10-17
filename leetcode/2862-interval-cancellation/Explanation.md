@@ -66,7 +66,7 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [57. Insert Interval](../0057-insert-interval/)
 - [436. Find Right Interval](../0436-find-right-interval/)
-- [1523. Count Odd Numbers in an Interval Range](../1630-count-odd-numbers-in-an-interval-range/)
+- [986. Interval List Intersections](../1028-interval-list-intersections/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/interval-cancellation/)

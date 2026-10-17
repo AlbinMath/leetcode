@@ -22,11 +22,15 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2121-find-if-path-exists-in-graph/Explanation.md) |
 
+| 2099 | [Find Subsequence of Length K With the Largest Sum](../leetcode/2204-find-subsequence-of-length-k-with-the-largest-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/2204-find-subsequence-of-length-k-with-the-largest-sum/Explanation.md) |
+
 ### Medium
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 334 | [Increasing Triplet Subsequence](../leetcode/0334-increasing-triplet-subsequence/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0334-increasing-triplet-subsequence/Explanation.md) |
+
+| 446 | [Arithmetic Slices Ii   Subsequence](../leetcode/0446-arithmetic-slices-ii---subsequence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0446-arithmetic-slices-ii---subsequence/Explanation.md) |
 
 | 486 | [Predict the Winner](../leetcode/0486-predict-the-winner/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0486-predict-the-winner/Explanation.md) |
 
@@ -43,6 +47,8 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 2542 | [Maximum Subsequence Score](../leetcode/2636-maximum-subsequence-score/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2636-maximum-subsequence-score/Explanation.md) |
 
 | 2770 | [Maximum Number of Jumps to Reach the Last Index](../leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/Explanation.md) |
+
+| 3627 | [Maximum Median Sum of Subsequences of Size 3](../leetcode/3766-maximum-median-sum-of-subsequences-of-size-3/) | Python | O(n) | O(n) | [Explanation](../leetcode/3766-maximum-median-sum-of-subsequences-of-size-3/Explanation.md) |
 
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](../leetcode/4033-longest-subsequence-with-non-zero-bitwise-xor/) | C++ | O(n) | O(n) | [Explanation](../leetcode/4033-longest-subsequence-with-non-zero-bitwise-xor/Explanation.md) |
 

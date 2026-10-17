@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2770. Maximum Number of Jumps to Reach the Last Index](../2855-maximum-number-of-jumps-to-reach-the-last-index/)
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [1928. Minimum Cost to Reach Destination in Time](../2040-minimum-cost-to-reach-destination-in-time/)
+- [2045. Second Minimum Time to Reach Destination](../2171-second-minimum-time-to-reach-destination/)
+- [2290. Minimum Obstacle Removal to Reach Corner](../2375-minimum-obstacle-removal-to-reach-corner/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/)

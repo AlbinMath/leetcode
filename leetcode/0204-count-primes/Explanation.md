@@ -1,7 +1,7 @@
 # LeetCode 204: Count Primes
 
 **LeetCode Problem #204 — Count Primes**
-Solve LeetCode Count Primes using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Count Primes using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Count Primes using JavaScript and Tree & Graph. This solution fin
 | Problem | Count Primes |
 | LeetCode | #204 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,10 +47,11 @@ Consider the standard input for **Count Primes**. Applying **Depth-First Search 
 - BFS
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

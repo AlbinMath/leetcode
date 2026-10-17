@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [374. Guess Number Higher or Lower](../0374-guess-number-higher-or-lower/)
+- [375. Guess Number Higher or Lower II](../0375-guess-number-higher-or-lower-ii/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/to-lower-case/)

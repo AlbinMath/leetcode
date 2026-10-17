@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [321. Create Maximum Number](../0321-create-maximum-number/)
 - [396. Rotate Function](../0396-rotate-function/)
 - [1389. Create Target Array in the Given Order](../1505-create-target-array-in-the-given-order/)
-- [1649. Create Sorted Array through Instructions](../1772-create-sorted-array-through-instructions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-hello-world-function/)

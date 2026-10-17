@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 - [1422. Maximum Score After Splitting a String](../1537-maximum-score-after-splitting-a-string/)
-- [2492. Minimum Score of a Path Between Two Cities](../2582-minimum-score-of-a-path-between-two-cities/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-path-score-in-a-grid/)

@@ -138,6 +138,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0653-two-sum-iv---input-is-a-bst/Explanation.md) |
 
+| 669 | [Trim a Binary Search Tree](../leetcode/0669-trim-a-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0669-trim-a-binary-search-tree/Explanation.md) |
+
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0804-rotated-digits/Explanation.md) |
 
 | 852 | [Peak Index in a Mountain Array](../leetcode/0882-peak-index-in-a-mountain-array/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0882-peak-index-in-a-mountain-array/Explanation.md) |

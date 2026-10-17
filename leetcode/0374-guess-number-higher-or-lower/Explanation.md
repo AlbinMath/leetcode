@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [375. Guess Number Higher or Lower II](../0375-guess-number-higher-or-lower-ii/)
 - [9. Palindrome Number](../0009-palindrome-number/)
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [65. Valid Number](../0065-valid-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/guess-number-higher-or-lower/)

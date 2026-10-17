@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
 - [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
-- [888. Fair Candy Swap](../0924-fair-candy-swap/)
+- [670. Maximum Swap](../0670-maximum-swap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-sex-of-employees/)

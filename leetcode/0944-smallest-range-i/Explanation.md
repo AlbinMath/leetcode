@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
 - [3345. Smallest Divisible Digit Product I](../3626-smallest-divisible-digit-product-i/)
 - [3517. Smallest Palindromic Rearrangement I](../3812-smallest-palindromic-rearrangement-i/)
-- [3653. XOR After Range Multiplication Queries I](../3974-xor-after-range-multiplication-queries-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-range-i/)

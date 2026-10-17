@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [406. Queue Reconstruction by Height](../0406-queue-reconstruction-by-height/)
+- [420. Strong Password Checker](../0420-strong-password-checker/)
 - [1840. Maximum Building Height](../1968-maximum-building-height/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/height-checker/)

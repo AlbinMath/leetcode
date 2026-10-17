@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [123. Best Time to Buy and Sell Stock III](../0123-best-time-to-buy-and-sell-stock-iii/)
 - [216. Combination Sum III](../0216-combination-sum-iii/)
-- [437. Path Sum III](../0437-path-sum-iii/)
+- [220. Contains Duplicate III](../0220-contains-duplicate-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/alternating-groups-iii/)

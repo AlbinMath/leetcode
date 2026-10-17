@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 - [20. Valid Parentheses](../0020-valid-parentheses/)
 - [32. Longest Valid Parentheses](../0032-longest-valid-parentheses/)
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)

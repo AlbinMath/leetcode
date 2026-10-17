@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [207. Course Schedule](../0207-course-schedule/)
+- [630. Course Schedule III](../0630-course-schedule-iii/)
 - [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/course-schedule-ii/)

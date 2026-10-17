@@ -72,7 +72,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [74. Search a 2D Matrix](../0074-search-a-2d-matrix/)
 - [240. Search a 2D Matrix II](../0240-search-a-2d-matrix-ii/)
-- [1914. Cyclically Rotating a Grid](../2043-cyclically-rotating-a-grid/)
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shift-2d-grid/)

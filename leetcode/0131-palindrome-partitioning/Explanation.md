@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [9. Palindrome Number](../0009-palindrome-number/)
 - [125. Valid Palindrome](../0125-valid-palindrome/)
-- [234. Palindrome Linked List](../0234-palindrome-linked-list/)
+- [214. Shortest Palindrome](../0214-shortest-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-partitioning/)

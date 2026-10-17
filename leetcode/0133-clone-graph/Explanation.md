@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [882. Reachable Nodes In Subdivided Graph](../0918-reachable-nodes-in-subdivided-graph/)
 - [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
 - [1791. Find Center of Star Graph](../1916-find-center-of-star-graph/)
-- [1971. Find if Path Exists in Graph](../2121-find-if-path-exists-in-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/clone-graph/)

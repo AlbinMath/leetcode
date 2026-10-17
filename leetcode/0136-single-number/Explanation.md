@@ -1,7 +1,7 @@
 # LeetCode 136: Single Number
 
 **LeetCode Problem #136 — Single Number**
-Solve LeetCode Single Number using JavaScript, PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Single Number using JavaScript, PHP, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Single Number using JavaScript, PHP and Array / General. This sol
 | Problem | Single Number |
 | LeetCode | #136 |
 | Difficulty | Easy |
-| Language | JavaScript, PHP |
+| Language | JavaScript, PHP, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,11 +44,12 @@ Consider the standard input for **Single Number**. Applying **In-Place Array Tra
 - Array
 
 ## Language
-JavaScript, PHP
+JavaScript, PHP, Python
 
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.php](./solution.php)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

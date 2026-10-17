@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [432. All O`one Data Structure](../0432-all-oone-data-structure/)
 - [2. Add Two Numbers](../0002-add-two-numbers/)
 - [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/)

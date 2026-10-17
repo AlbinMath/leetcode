@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [217. Contains Duplicate](../0217-contains-duplicate/)
+- [220. Contains Duplicate III](../0220-contains-duplicate-iii/)
 - [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/contains-duplicate-ii/)

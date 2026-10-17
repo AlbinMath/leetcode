@@ -67,7 +67,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [300. Longest Increasing Subsequence](../0300-longest-increasing-subsequence/)
 - [334. Increasing Triplet Subsequence](../0334-increasing-triplet-subsequence/)
-- [521. Longest Uncommon Subsequence I](../0521-longest-uncommon-subsequence-i/)
+- [446. Arithmetic Slices Ii   Subsequence](../0446-arithmetic-slices-ii---subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/is-subsequence/)

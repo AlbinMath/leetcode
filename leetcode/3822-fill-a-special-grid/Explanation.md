@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [733. Flood Fill](../0733-flood-fill/)
 - [1260. Shift 2D Grid](../1386-shift-2d-grid/)
-- [1475. Final Prices With a Special Discount in a Shop](../1570-final-prices-with-a-special-discount-in-a-shop/)
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fill-a-special-grid/)

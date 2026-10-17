@@ -106,6 +106,12 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 25 | [Reverse Nodes in k-Group](../leetcode/0025-reverse-nodes-in-k-group/) | Python | O(n) | O(1) | [Explanation](../leetcode/0025-reverse-nodes-in-k-group/Explanation.md) |
 
+| 214 | [Shortest Palindrome](../leetcode/0214-shortest-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/0214-shortest-palindrome/Explanation.md) |
+
+| 336 | [Palindrome Pairs](../leetcode/0336-palindrome-pairs/) | Python | O(n) | O(1) | [Explanation](../leetcode/0336-palindrome-pairs/Explanation.md) |
+
+| 479 | [Largest Palindrome Product](../leetcode/0479-largest-palindrome-product/) | Python | O(n) | O(1) | [Explanation](../leetcode/0479-largest-palindrome-product/Explanation.md) |
+
 | 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/Explanation.md) |
 
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/Explanation.md) |

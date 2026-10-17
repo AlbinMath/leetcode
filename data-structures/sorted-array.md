@@ -57,6 +57,7 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Medium | Modified Binary Search | O(n) | O(1) |
+| 669 | [Trim a Binary Search Tree](../leetcode/0669-trim-a-binary-search-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 700 | [Search in a Binary Search Tree](../leetcode/0783-search-in-a-binary-search-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 704 | [Binary Search](../leetcode/0792-binary-search/) | Easy | Modified Binary Search | O(log n) | O(1) |
 | 783 | [Minimum Distance Between BST Nodes](../leetcode/0799-minimum-distance-between-bst-nodes/) | Easy | Modified Binary Search | O(n) | O(1) |

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [210. Course Schedule II](../0210-course-schedule-ii/)
+- [630. Course Schedule III](../0630-course-schedule-iii/)
 - [1964. Find the Longest Valid Obstacle Course at Each Position](../2096-find-the-longest-valid-obstacle-course-at-each-position/)
-- [3764. Most Common Course Pairs](../4169-most-common-course-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/course-schedule/)

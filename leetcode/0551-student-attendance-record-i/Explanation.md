@@ -64,9 +64,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
+- [552. Student Attendance Record II](../0552-student-attendance-record-ii/)
+- [464. Can I Win](../0464-can-i-win/)
 - [496. Next Greater Element I](../0496-next-greater-element-i/)
-- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
-- [521. Longest Uncommon Subsequence I](../0521-longest-uncommon-subsequence-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/student-attendance-record-i/)

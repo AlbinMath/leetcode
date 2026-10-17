@@ -11,6 +11,7 @@ A curated selection of LeetCode problems solved using the **Memoization & State 
 | 218 | [The Skyline Problem](../leetcode/0218-the-skyline-problem/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 334 | [Increasing Triplet Subsequence](../leetcode/0334-increasing-triplet-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |
+| 446 | [Arithmetic Slices Ii   Subsequence](../leetcode/0446-arithmetic-slices-ii---subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 486 | [Predict the Winner](../leetcode/0486-predict-the-winner/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 594 | [Longest Harmonious Subsequence](../leetcode/0594-longest-harmonious-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |
@@ -29,11 +30,13 @@ A curated selection of LeetCode problems solved using the **Memoization & State 
 | 1510 | [Stone Game IV](../leetcode/1617-stone-game-iv/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 1819 | [Number of Different Subsequences GCDs](../leetcode/1947-number-of-different-subsequences-gcds/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | Easy | Dynamic Programming | O(n) | O(n) |
+| 2099 | [Find Subsequence of Length K With the Largest Sum](../leetcode/2204-find-subsequence-of-length-k-with-the-largest-sum/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 2407 | [Longest Increasing Subsequence II](../leetcode/2526-longest-increasing-subsequence-ii/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 2542 | [Maximum Subsequence Score](../leetcode/2636-maximum-subsequence-score/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 2770 | [Maximum Number of Jumps to Reach the Last Index](../leetcode/2855-maximum-number-of-jumps-to-reach-the-last-index/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 2926 | [Maximum Balanced Subsequence Sum](../leetcode/3184-maximum-balanced-subsequence-sum/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 3312 | [Sorted GCD Pair Queries](../leetcode/3583-sorted-gcd-pair-queries/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 3336 | [Find the Number of Subsequences With Equal GCD](../leetcode/3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard | Dynamic Programming | O(n) | O(n) |
+| 3627 | [Maximum Median Sum of Subsequences of Size 3](../leetcode/3766-maximum-median-sum-of-subsequences-of-size-3/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 3671 | [Sum of Beautiful Subsequences](../leetcode/3989-sum-of-beautiful-subsequences/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](../leetcode/4033-longest-subsequence-with-non-zero-bitwise-xor/) | Medium | Dynamic Programming | O(n) | O(n) |

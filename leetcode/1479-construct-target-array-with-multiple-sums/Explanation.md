@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1389. Create Target Array in the Given Order](../1505-create-target-array-in-the-given-order/)
+- [2089. Find Target Indices After Sorting Array](../2210-find-target-indices-after-sorting-array/)
 - [3875. Construct Uniform Parity Array I](../4256-construct-uniform-parity-array-i/)
-- [3876. Construct Uniform Parity Array II](../4258-construct-uniform-parity-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
