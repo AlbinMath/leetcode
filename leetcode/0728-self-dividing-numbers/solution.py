@@ -1,23 +1,8 @@
-
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> list[int]:
-        result = []
-
-        for num in range(left, right + 1):
-            temp = num
-            valid = True
-
-            while temp > 0:
-                digit = temp % 10
-
-                if digit == 0 or num % digit != 0:
-                    valid = False
-                    break
-
-                temp //= 10
-
-            if valid:
-                result.append(num)
-
-        return result
-
+        res = []
+        for n in range(left, right + 1):
+            s = str(n)
+            if '0' not in s and all(n % int(d) == 0 for d in s):
+                res.append(n)
+        return res
