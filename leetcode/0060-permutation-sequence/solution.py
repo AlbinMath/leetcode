@@ -1,20 +1,12 @@
-import math
+from math import factorial
 
 class Solution:
-    def getPermutation(self, n, k):
-        numbers = list(range(1, n + 1))
-        result = []
-
+    def getPermutation(self, n: int, k: int) -> str:
+        nums = list(map(str, range(1, n + 1)))
         k -= 1
-
+        res = ""
         for i in range(n, 0, -1):
-            factorial = math.factorial(i - 1)
-
-            index = k // factorial
-
-            result.append(str(numbers[index]))
-            numbers.pop(index)
-
-            k %= factorial
-
-        return ''.join(result)
+            f = factorial(i - 1)
+            res += nums.pop(k // f)
+            k %= f
+        return res
