@@ -90,6 +90,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 1386 | [Cinema Seat Allocation](../leetcode/1487-cinema-seat-allocation/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1487-cinema-seat-allocation/Explanation.md) |
 
+| 1664 | [Ways to Make a Fair Array](../leetcode/1783-ways-to-make-a-fair-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/1783-ways-to-make-a-fair-array/Explanation.md) |
+
 | 1674 | [Minimum Moves to Make Array Complementary](../leetcode/1793-minimum-moves-to-make-array-complementary/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1793-minimum-moves-to-make-array-complementary/Explanation.md) |
 
 | 1807 | [Evaluate the Bracket Pairs of a String](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/Explanation.md) |
@@ -111,6 +113,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 127 | [Word Ladder](../leetcode/0127-word-ladder/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0127-word-ladder/Explanation.md) |
 
 | 1345 | [Jump Game IV](../leetcode/1447-jump-game-iv/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1447-jump-game-iv/Explanation.md) |
+
+| 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2423-minimum-deletions-to-make-array-divisible/) | Python | O(n) | O(n) | [Explanation](../leetcode/2423-minimum-deletions-to-make-array-divisible/Explanation.md) |
 
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2744-memoize-ii/Explanation.md) |
 

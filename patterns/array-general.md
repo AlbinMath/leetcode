@@ -650,8 +650,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1657 | [Determine if Two Strings Are Close](../leetcode/1777-determine-if-two-strings-are-close/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1777-determine-if-two-strings-are-close/Explanation.md) |
 
-| 1664 | [Ways to Make a Fair Array](../leetcode/1783-ways-to-make-a-fair-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/1783-ways-to-make-a-fair-array/Explanation.md) |
-
 | 1679 | [Max Number of K-Sum Pairs](../leetcode/1798-max-number-of-k-sum-pairs/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1798-max-number-of-k-sum-pairs/Explanation.md) |
 
 | 1682 | [Most Visited Sector In  A Circular Track](../leetcode/1682-most-visited-sector-in--a-circular-track/) | Python | O(n) | O(1) | [Explanation](../leetcode/1682-most-visited-sector-in--a-circular-track/Explanation.md) |
@@ -758,8 +756,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 3904 | [Smallest Stable Index II](../leetcode/4285-smallest-stable-index-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/4285-smallest-stable-index-ii/Explanation.md) |
 
-| 4062 | [Transform Array Using Pair Operations](../leetcode/4398-transform-array-using-pair-operations/) | Python | O(n) | O(1) | [Explanation](../leetcode/4398-transform-array-using-pair-operations/Explanation.md) |
-
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
@@ -813,8 +809,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 2183 | [Count Array Pairs Divisible by K](../leetcode/2301-count-array-pairs-divisible-by-k/) | Python | O(n) | O(1) | [Explanation](../leetcode/2301-count-array-pairs-divisible-by-k/Explanation.md) |
 
 | 2286 | [Booking Concert Tickets in Groups](../leetcode/2380-booking-concert-tickets-in-groups/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2380-booking-concert-tickets-in-groups/Explanation.md) |
-
-| 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2423-minimum-deletions-to-make-array-divisible/) | Python | O(n) | O(1) | [Explanation](../leetcode/2423-minimum-deletions-to-make-array-divisible/Explanation.md) |
 
 | 2426 | [Number of Pairs Satisfying Inequality](../leetcode/2513-number-of-pairs-satisfying-inequality/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2513-number-of-pairs-satisfying-inequality/Explanation.md) |
 

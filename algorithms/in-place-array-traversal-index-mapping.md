@@ -272,7 +272,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 1652 | [Defuse the Bomb](../leetcode/1755-defuse-the-bomb/) | Easy | Array / General | O(n) | O(1) |
 | 1657 | [Determine if Two Strings Are Close](../leetcode/1777-determine-if-two-strings-are-close/) | Medium | Array / General | O(n) | O(1) |
 | 1662 | [Check If Two String Arrays are Equivalent](../leetcode/1781-check-if-two-string-arrays-are-equivalent/) | Easy | Array / General | O(n) | O(1) |
-| 1664 | [Ways to Make a Fair Array](../leetcode/1783-ways-to-make-a-fair-array/) | Medium | Array / General | O(n) | O(1) |
 | 1668 | [Maximum Repeating Substring](../leetcode/1764-maximum-repeating-substring/) | Easy | Array / General | O(n) | O(1) |
 | 1672 | [Richest Customer Wealth](../leetcode/1791-richest-customer-wealth/) | Easy | Array / General | O(n) | O(1) |
 | 1678 | [Goal Parser Interpretation](../leetcode/1797-goal-parser-interpretation/) | Easy | Array / General | O(n) | O(1) |
@@ -336,7 +335,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 2286 | [Booking Concert Tickets in Groups](../leetcode/2380-booking-concert-tickets-in-groups/) | Hard | Array / General | O(n) | O(1) |
 | 2300 | [Successful Pairs of Spells and Potions](../leetcode/2392-successful-pairs-of-spells-and-potions/) | Medium | Array / General | O(n) | O(1) |
 | 2333 | [Minimum Sum of Squared Difference](../leetcode/2418-minimum-sum-of-squared-difference/) | Medium | Array / General | O(n) | O(1) |
-| 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2423-minimum-deletions-to-make-array-divisible/) | Hard | Array / General | O(n) | O(1) |
 | 2352 | [Equal Row and Column Pairs](../leetcode/2428-equal-row-and-column-pairs/) | Medium | Array / General | O(n) | O(1) |
 | 2390 | [Removing Stars From a String](../leetcode/2470-removing-stars-from-a-string/) | Medium | Array / General | O(n) | O(1) |
 | 2396 | [Strictly Palindromic Number](../leetcode/2481-strictly-palindromic-number/) | Medium | Array / General | O(n) | O(1) |
@@ -429,4 +427,3 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 4017 | [Peaks in Array II](../leetcode/4336-peaks-in-array-ii/) | Hard | Array / General | O(n) | O(1) |
 | 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Hard | Array / General | O(n) | O(1) |
 | 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Hard | Array / General | O(n) | O(1) |
-| 4062 | [Transform Array Using Pair Operations](../leetcode/4398-transform-array-using-pair-operations/) | Medium | Array / General | O(n) | O(1) |

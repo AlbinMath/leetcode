@@ -17,7 +17,7 @@ This repository contains solved LeetCode problems with explanations, complexity 
 
 | # | Problem | Difficulty | Pattern | Language | Solution |
 |---|---|---|---|---|---|
-| 4062 | [Transform Array Using Pair Operations](leetcode/4398-transform-array-using-pair-operations/) | Medium | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4398-transform-array-using-pair-operations/Explanation.md) |
+| 4062 | [Transform Array Using Pair Operations](leetcode/4398-transform-array-using-pair-operations/) | Medium | [Stack & Queue](patterns/stack-queue.md) | Python | [Explanation](leetcode/4398-transform-array-using-pair-operations/Explanation.md) |
 | 4055 | [Count Shadow Pairs II](leetcode/4326-count-shadow-pairs-ii/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4326-count-shadow-pairs-ii/Explanation.md) |
 | 4051 | [Count Subarrays with Distant Sums](leetcode/4317-count-subarrays-with-distant-sums/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4317-count-subarrays-with-distant-sums/Explanation.md) |
 | 4033 | [Valid K-Unique Subarrays I](leetcode/3988-valid-k-unique-subarrays-i/) | Hard | [Hash Map](patterns/hash-map.md) | Python | [Explanation](leetcode/3988-valid-k-unique-subarrays-i/Explanation.md) |

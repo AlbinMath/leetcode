@@ -41,3 +41,4 @@ LeetCode problems solved using **Stack** data structures.
 | 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 3499 | [Maximize Active Section with Trade I](../leetcode/3805-maximize-active-section-with-trade-i/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
+| 4062 | [Transform Array Using Pair Operations](../leetcode/4398-transform-array-using-pair-operations/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |

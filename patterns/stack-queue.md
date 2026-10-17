@@ -52,6 +52,8 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 
 | 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1648-minimum-insertions-to-balance-a-parentheses-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/1648-minimum-insertions-to-balance-a-parentheses-string/Explanation.md) |
 
+| 4062 | [Transform Array Using Pair Operations](../leetcode/4398-transform-array-using-pair-operations/) | Python | O(n) | O(n) | [Explanation](../leetcode/4398-transform-array-using-pair-operations/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |

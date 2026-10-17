@@ -31,3 +31,4 @@ A curated selection of LeetCode problems solved using the **Stack Push / Pop Par
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack & Queue | O(n) | O(n) |
 | 2888 | [Reshape Data: Concatenate](../leetcode/3064-reshape-data-concatenate/) | Easy | Stack & Queue | O(n) | O(n) |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Stack & Queue | O(n) | O(n) |
+| 4062 | [Transform Array Using Pair Operations](../leetcode/4398-transform-array-using-pair-operations/) | Medium | Stack & Queue | O(n) | O(n) |

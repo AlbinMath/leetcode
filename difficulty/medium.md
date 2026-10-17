@@ -88,7 +88,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 139 | [Word Break](../leetcode/0139-word-break/) | Hash Map | JavaScript | O(n) | O(n) |
 | 142 | [Linked List Cycle II](../leetcode/0142-linked-list-cycle-ii/) | Fast & Slow Pointers | Python | O(n) | O(1) |
 | 146 | [LRU Cache](../leetcode/0146-lru-cache/) | Array / General | JavaScript | O(n) | O(1) |
-| 147 | [Insertion Sort List](../leetcode/0147-insertion-sort-list/) | Linked List | Python | O(n) | O(1) |
+| 147 | [Insertion Sort List](../leetcode/0147-insertion-sort-list/) | Two Pointers | Python | O(n) | O(1) |
 | 148 | [Sort List](../leetcode/0148-sort-list/) | Two Pointers | JavaScript | O(n) | O(1) |
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0150-evaluate-reverse-polish-notation/) | Stack & Queue | TypeScript | O(n) | O(n) |
 | 151 | [Reverse Words in a String](../leetcode/0151-reverse-words-in-a-string/) | Array / General | JavaScript | O(n) | O(1) |
@@ -253,7 +253,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](../leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/) | Prefix Sum | JavaScript | O(n) | O(n) |
 | 1657 | [Determine if Two Strings Are Close](../leetcode/1777-determine-if-two-strings-are-close/) | Array / General | JavaScript | O(n) | O(1) |
 | 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | Sliding Window | JavaScript | O(n) | O(1) |
-| 1664 | [Ways to Make a Fair Array](../leetcode/1783-ways-to-make-a-fair-array/) | Array / General | Python | O(n) | O(1) |
+| 1664 | [Ways to Make a Fair Array](../leetcode/1783-ways-to-make-a-fair-array/) | Hash Map | Python | O(n) | O(n) |
 | 1674 | [Minimum Moves to Make Array Complementary](../leetcode/1793-minimum-moves-to-make-array-complementary/) | Hash Map | C++ | O(n) | O(n) |
 | 1679 | [Max Number of K-Sum Pairs](../leetcode/1798-max-number-of-k-sum-pairs/) | Array / General | JavaScript | O(n) | O(1) |
 | 1682 | [Most Visited Sector In  A Circular Track](../leetcode/1682-most-visited-sector-in--a-circular-track/) | Array / General | Python | O(n) | O(1) |
@@ -295,7 +295,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 2521 | [Distinct Prime Factors of Product of Array](../leetcode/2609-distinct-prime-factors-of-product-of-array/) | Array / General | JavaScript | O(n) | O(1) |
 | 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | Bit Manipulation | JavaScript | O(n) | O(1) |
 | 2542 | [Maximum Subsequence Score](../leetcode/2636-maximum-subsequence-score/) | Dynamic Programming | JavaScript | O(n) | O(n) |
-| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Bit Manipulation | Python | O(n) | O(1) |
+| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Sliding Window | Python | O(n) | O(1) |
 | 2618 | [Check if Object Instance of Class](../leetcode/2758-check-if-object-instance-of-class/) | Array / General | JavaScript | O(n) | O(1) |
 | 2622 | [Cache With Time Limit](../leetcode/2762-cache-with-time-limit/) | Hash Map | JavaScript | O(n) | O(n) |
 | 2623 | [Memoize](../leetcode/2731-memoize/) | Array / General | TypeScript | O(n) | O(1) |
@@ -378,4 +378,4 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 3876 | [Construct Uniform Parity Array II](../leetcode/4258-construct-uniform-parity-array-ii/) | Array / General | C++ | O(n) | O(1) |
 | 3904 | [Smallest Stable Index II](../leetcode/4285-smallest-stable-index-ii/) | Array / General | JavaScript | O(n) | O(1) |
 | 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Two Pointers | Python | O(n) | O(1) |
-| 4062 | [Transform Array Using Pair Operations](../leetcode/4398-transform-array-using-pair-operations/) | Array / General | Python | O(n) | O(1) |
+| 4062 | [Transform Array Using Pair Operations](../leetcode/4398-transform-array-using-pair-operations/) | Stack & Queue | Python | O(n) | O(n) |

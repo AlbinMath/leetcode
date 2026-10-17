@@ -41,7 +41,6 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 2419 | [Longest Subarray With Maximum Bitwise AND](../leetcode/2503-longest-subarray-with-maximum-bitwise-and/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2425 | [Bitwise XOR of All Pairings](../leetcode/2533-bitwise-xor-of-all-pairings/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
-| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2723 | [Add Two Promises](../leetcode/2859-add-two-promises/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2880 | [Select Data](../leetcode/3074-select-data/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2883 | [Drop Missing Data](../leetcode/3075-drop-missing-data/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |

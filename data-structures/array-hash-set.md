@@ -15,5 +15,6 @@ LeetCode problems solved using **Array / Hash Set** data structures.
 | 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 2627 | [Debounce](../leetcode/2743-debounce/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |

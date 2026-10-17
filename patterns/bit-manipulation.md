@@ -88,8 +88,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2610-closest-prime-numbers-in-range/Explanation.md) |
 
-| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Python | O(n) | O(1) | [Explanation](../leetcode/2705-minimum-impossible-or/Explanation.md) |
-
 | 3653 | [XOR After Range Multiplication Queries I](../leetcode/3974-xor-after-range-multiplication-queries-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3974-xor-after-range-multiplication-queries-i/Explanation.md) |
 
 | 3751 | [Total Waviness of Numbers in Range I](../leetcode/4057-total-waviness-of-numbers-in-range-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/4057-total-waviness-of-numbers-in-range-i/Explanation.md) |

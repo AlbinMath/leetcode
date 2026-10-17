@@ -73,7 +73,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 131 | [Palindrome Partitioning](../leetcode/0131-palindrome-partitioning/) | Medium | Two Pointers | O(n) | O(1) |
 | 138 | [Copy List with Random Pointer](../leetcode/0138-copy-list-with-random-pointer/) | Medium | Two Pointers | O(n) | O(1) |
 | 142 | [Linked List Cycle II](../leetcode/0142-linked-list-cycle-ii/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
-| 147 | [Insertion Sort List](../leetcode/0147-insertion-sort-list/) | Medium | Linked List | O(n) | O(1) |
+| 147 | [Insertion Sort List](../leetcode/0147-insertion-sort-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 149 | [Max Points on a Line](../leetcode/0149-max-points-on-a-line/) | Hard | Array / General | O(n) | O(1) |
 | 152 | [Maximum Product Subarray](../leetcode/0152-maximum-product-subarray/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Easy | Two Pointers | O(n) | O(1) |
@@ -324,7 +324,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 1566 | [Detect Pattern of Length M Repeated K or More Times](../leetcode/1689-detect-pattern-of-length-m-repeated-k-or-more-times/) | Easy | Hash Map | O(n) | O(n) |
 | 1572 | [Matrix Diagonal Sum](../leetcode/1677-matrix-diagonal-sum/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1590 | [Make Sum Divisible by P](../leetcode/1694-make-sum-divisible-by-p/) | Medium | Array / General | O(n) | O(1) |
-| 1664 | [Ways to Make a Fair Array](../leetcode/1783-ways-to-make-a-fair-array/) | Medium | Array / General | O(n) | O(1) |
+| 1664 | [Ways to Make a Fair Array](../leetcode/1783-ways-to-make-a-fair-array/) | Medium | Hash Map | O(n) | O(n) |
 | 1682 | [Most Visited Sector In  A Circular Track](../leetcode/1682-most-visited-sector-in--a-circular-track/) | Medium | Array / General | O(n) | O(1) |
 | 1732 | [Find the Highest Altitude](../leetcode/1833-find-the-highest-altitude/) | Easy | Array / General | O(n) | O(1) |
 | 1819 | [Number of Different Subsequences GCDs](../leetcode/1947-number-of-different-subsequences-gcds/) | Hard | Dynamic Programming | O(n) | O(n) |
@@ -333,14 +333,14 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 1998 | [GCD Sort of an Array](../leetcode/2125-gcd-sort-of-an-array/) | Hard | Array / General | O(n) | O(1) |
 | 2183 | [Count Array Pairs Divisible by K](../leetcode/2301-count-array-pairs-divisible-by-k/) | Hard | Array / General | O(n) | O(1) |
 | 2197 | [Replace Non-Coprime Numbers in Array](../leetcode/2307-replace-non-coprime-numbers-in-array/) | Hard | Bit Manipulation | O(n) | O(1) |
-| 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2423-minimum-deletions-to-make-array-divisible/) | Hard | Array / General | O(n) | O(1) |
+| 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2423-minimum-deletions-to-make-array-divisible/) | Hard | Hash Map | O(n) | O(n) |
 | 2396 | [Strictly Palindromic Number](../leetcode/2481-strictly-palindromic-number/) | Medium | Array / General | O(n) | O(1) |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](../leetcode/2503-longest-subarray-with-maximum-bitwise-and/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 2425 | [Bitwise XOR of All Pairings](../leetcode/2533-bitwise-xor-of-all-pairings/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 2427 | [Number of Common Factors](../leetcode/2507-number-of-common-factors/) | Easy | Array / General | O(n) | O(1) |
 | 2543 | [Check if Point Is Reachable](../leetcode/2635-check-if-point-is-reachable/) | Hard | Array / General | O(n) | O(1) |
 | 2552 | [Count Increasing Quadruplets](../leetcode/2682-count-increasing-quadruplets/) | Hard | Array / General | O(n) | O(1) |
-| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Medium | Bit Manipulation | O(n) | O(1) |
+| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Medium | Sliding Window | O(n) | O(1) |
 | 2654 | [Minimum Number of Operations to Make All Array Elements Equal to 1](../leetcode/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/) | Medium | Array / General | O(n) | O(1) |
 | 2709 | [Greatest Common Divisor Traversal](../leetcode/2827-greatest-common-divisor-traversal/) | Hard | Array / General | O(n) | O(1) |
 | 2731 | [Movement of Robots](../leetcode/2787-movement-of-robots/) | Medium | Array / General | O(n) | O(1) |
@@ -409,4 +409,4 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Hard | Hash Map | O(n) | O(n) |
 | 4051 | [Count Subarrays with Distant Sums](../leetcode/4317-count-subarrays-with-distant-sums/) | Hard | Array / General | O(n) | O(1) |
 | 4055 | [Count Shadow Pairs II](../leetcode/4326-count-shadow-pairs-ii/) | Hard | Array / General | O(n) | O(1) |
-| 4062 | [Transform Array Using Pair Operations](../leetcode/4398-transform-array-using-pair-operations/) | Medium | Array / General | O(n) | O(1) |
+| 4062 | [Transform Array Using Pair Operations](../leetcode/4398-transform-array-using-pair-operations/) | Medium | Stack & Queue | O(n) | O(n) |

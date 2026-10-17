@@ -76,6 +76,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 138 | [Copy List with Random Pointer](../leetcode/0138-copy-list-with-random-pointer/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0138-copy-list-with-random-pointer/Explanation.md) |
 
+| 147 | [Insertion Sort List](../leetcode/0147-insertion-sort-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/0147-insertion-sort-list/Explanation.md) |
+
 | 148 | [Sort List](../leetcode/0148-sort-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0148-sort-list/Explanation.md) |
 
 | 222 | [Count Complete Tree Nodes](../leetcode/0222-count-complete-tree-nodes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0222-count-complete-tree-nodes/Explanation.md) |

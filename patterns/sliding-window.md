@@ -24,6 +24,8 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 
 | 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/Explanation.md) |
 
+| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Python | O(n) | O(1) | [Explanation](../leetcode/2705-minimum-impossible-or/Explanation.md) |
+
 | 2627 | [Debounce](../leetcode/2743-debounce/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2743-debounce/Explanation.md) |
 
 | 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3870-minimum-moves-to-clean-the-classroom/Explanation.md) |
