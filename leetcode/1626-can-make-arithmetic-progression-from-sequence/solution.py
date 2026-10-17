@@ -1,11 +1,5 @@
 class Solution:
-    def canMakeArithmeticProgression(self, arr: list[int]) -> bool:
+    def canMakeArithmeticProgression(self, arr):
         arr.sort()
-
-        difference = arr[1] - arr[0]
-
-        for i in range(2, len(arr)):
-            if arr[i] - arr[i - 1] != difference:
-                return False
-
-        return True
+        d = arr[1] - arr[0]
+        return all(arr[i] - arr[i-1] == d for i in range(2, len(arr)))
