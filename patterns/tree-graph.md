@@ -130,6 +130,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Python | O(n) | O(n) | [Explanation](../leetcode/1182-game-play-analysis-iv/Explanation.md) |
 
+| 670 | [Maximum Swap](../leetcode/0670-maximum-swap/) | Python | O(n) | O(n) | [Explanation](../leetcode/0670-maximum-swap/Explanation.md) |
+
 | 684 | [Redundant Connection](../leetcode/0684-redundant-connection/) | Python | O(n) | O(n) | [Explanation](../leetcode/0684-redundant-connection/Explanation.md) |
 
 | 687 | [Longest Univalue Path](../leetcode/0687-longest-univalue-path/) | Python | O(n) | O(n) | [Explanation](../leetcode/0687-longest-univalue-path/Explanation.md) |
@@ -192,15 +194,17 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 124 | [Binary Tree Maximum Path Sum](../leetcode/0124-binary-tree-maximum-path-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0124-binary-tree-maximum-path-sum/Explanation.md) |
 
-| 297 | [Serialize and Deserialize Binary Tree](../leetcode/0297-serialize-and-deserialize-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0297-serialize-and-deserialize-binary-tree/Explanation.md) |
-
 | 329 | [Longest Increasing Path in a Matrix](../leetcode/0329-longest-increasing-path-in-a-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/0329-longest-increasing-path-in-a-matrix/Explanation.md) |
+
+| 466 | [Count The Repetitions](../leetcode/0466-count-the-repetitions/) | Python | O(n) | O(n) | [Explanation](../leetcode/0466-count-the-repetitions/Explanation.md) |
 
 | 587 | [Erect the Fence](../leetcode/0587-erect-the-fence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0587-erect-the-fence/Explanation.md) |
 
 | 1368 | [Minimum Cost to Make at Least One Valid Path in a Grid](../leetcode/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/Explanation.md) |
 
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Python | O(n) | O(n) | [Explanation](../leetcode/1968-maximum-building-height/Explanation.md) |
+
+| 2045 | [Second Minimum Time to Reach Destination](../leetcode/2171-second-minimum-time-to-reach-destination/) | Python | O(n) | O(n) | [Explanation](../leetcode/2171-second-minimum-time-to-reach-destination/Explanation.md) |
 
 | 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2280-count-good-triplets-in-an-array/Explanation.md) |
 

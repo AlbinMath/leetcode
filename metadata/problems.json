@@ -6452,17 +6452,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Tree & Graph",
-    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
-    "data_structure": "Tree / Graph / Grid",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
     "topics": [
-      "Tree",
-      "Graph",
-      "DFS",
-      "BFS"
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
     ],
     "time": "O(n)",
-    "space": "O(n)",
+    "space": "O(1)",
     "brief": "Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.",
     "related_ids": [
       94,
@@ -7155,15 +7154,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Strategy",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Min/Max Heap Priority Selection",
+    "data_structure": "Heap / Priority Queue",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Given a data stream input of non-negative integers  a 1 , a 2 , ..., a n  , summarize the numbers seen so far as a list of disjoint intervals.",
     "related_ids": [
       295,
@@ -8548,14 +8548,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Monotonic Stack",
+    "algorithm": "Monotonic Stack Filtering",
+    "data_structure": "Stack",
     "topics": [
+      "Stack",
+      "Monotonic Stack",
       "Array"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "In the \"100 game\" two players take turns adding, to a running total, any integer from  1  to  10 . The player who first causes the running total to  reach or exceed  100 wins.",
     "related_ids": [
       496,
@@ -8574,14 +8576,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "We define  str = [s, n]  as the string  str  which consists of the string  s  concatenated  n  times.",
     "related_ids": [
       38,
@@ -10991,14 +10996,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given an integer  num . You can swap two digits at most once to get the maximum valued number.",
     "related_ids": [
       24,
@@ -11127,13 +11135,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Hash Map",
-    "algorithm": "Complement Lookup / Hash Table Frequency",
-    "data_structure": "Dictionary / Hash Map",
+    "pattern": "Trie",
+    "algorithm": "Prefix Tree Lookup",
+    "data_structure": "Trie Node",
     "topics": [
-      "Hash Table",
-      "Array",
-      "Complement Lookup"
+      "Trie",
+      "String",
+      "Prefix Search"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11850,7 +11858,7 @@
     "related_ids": [
       1693,
       84,
-      496
+      464
     ]
   },
   {
@@ -12134,11 +12142,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Sliding Window",
+    "algorithm": "Dynamic Sliding Window Traversal",
+    "data_structure": "Array / Hash Set",
     "topics": [
-      "Array"
+      "Sliding Window",
+      "Two Pointers",
+      "Subarrays"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -12146,7 +12156,7 @@
     "related_ids": [
       239,
       480,
-      5
+      3
     ]
   },
   {
@@ -13100,12 +13110,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -13983,15 +13994,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Strategy",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Min/Max Heap Priority Selection",
+    "data_structure": "Heap / Priority Queue",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given two lists of closed intervals,  firstList  and  secondList , where  firstList[i] = [start i , end i ]  and  secondList[j] = [start j , end j ] . Each list of intervals is pairwise  disjoint  and in  sorted order .",
     "related_ids": [
       19,
@@ -20640,12 +20652,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -21210,15 +21223,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Greedy",
-    "algorithm": "Greedy Choice Strategy",
-    "data_structure": "Array / Priority Queue",
+    "pattern": "Heap",
+    "algorithm": "Min/Max Heap Priority Selection",
+    "data_structure": "Heap / Priority Queue",
     "topics": [
-      "Greedy",
+      "Heap",
+      "Priority Queue",
       "Sorting"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a 2D integer array  intervals , where  intervals[i] = [left i , right i ]  describes the  i th   interval starting at  left i   and ending at  right i    (inclusive) . The  size  of an interval is defined as the number of integers it contains, or more formally  right i  - left i  + 1 .",
     "related_ids": [
       57,
@@ -22629,14 +22643,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "A city is represented as a  bi-directional connected  graph with  n  vertices where each vertex is labeled from  1  to  n  ( inclusive ). The edges in the graph are represented as a 2D integer array  edges , where each  edges[i] = [u i , v i ]  denotes a bi-directional edge between vertex  u i   and vertex  v i  . Every vertex pair is connected by  at most one  edge, and no vertex has an edge to itself. The time taken to traverse any edge is  time  minutes.",
     "related_ids": [
       1928,

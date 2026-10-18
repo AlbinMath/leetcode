@@ -1,7 +1,7 @@
 # LeetCode 676: Implement Magic Dictionary
 
 **LeetCode Problem #676 — Implement Magic Dictionary**
-Solve LeetCode Implement Magic Dictionary using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+Solve LeetCode Implement Magic Dictionary using Python and Trie. This solution finds the optimal result using Prefix Tree Lookup in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Implement Magic Dictionary using Python and Hash Map. This soluti
 | LeetCode | #676 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Complement Lookup / Hash Table Frequency |
-| Data Structure | Dictionary / Hash Map |
-| Pattern | Hash Map |
+| Algorithm | Prefix Tree Lookup |
+| Data Structure | Trie Node |
+| Pattern | Trie |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,30 +20,30 @@ Solve LeetCode Implement Magic Dictionary using Python and Hash Map. This soluti
 Design a data structure that is initialized with a list of  different  words. Provided a string, you should determine if you can change exactly one character in this string to match any word in the data structure.
 
 ## Key Insight
-Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
+Leverage **Trie** with **Trie Node** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Complement Lookup / Hash Table Frequency**. By maintaining state efficiently in a **Dictionary / Hash Map**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Dictionary / Hash Map**).
-2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
+1. Initialize state variables / data structure (**Trie Node**).
+2. Process elements sequentially using **Prefix Tree Lookup**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Implement Magic Dictionary**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+Consider the standard input for **Implement Magic Dictionary**. Applying **Prefix Tree Lookup** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Hash Map**
+**Trie**
 
 ## Topics
-- Hash Table
-- Array
-- Complement Lookup
+- Trie
+- String
+- Prefix Search
 
 ## Language
 Python
@@ -52,16 +52,16 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Trie**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Using the same element twice.
-2. Checking the map before inserting elements in the correct order.
-3. Inefficient hash functions or unnecessary duplicate key updates.
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
 
 ## Interview Notes
-- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
-- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
 - [208. Implement Trie (Prefix Tree)](../0208-implement-trie-prefix-tree/)

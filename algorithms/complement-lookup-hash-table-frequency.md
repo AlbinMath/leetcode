@@ -22,7 +22,6 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 460 | [LFU Cache](../leetcode/0460-lfu-cache/) | Hard | Hash Map | O(n) | O(n) |
 | 476 | [Number Complement](../leetcode/0476-number-complement/) | Easy | Hash Map | O(n) | O(n) |
 | 504 | [Base 7](../leetcode/0504-base-7/) | Easy | Hash Map | O(n) | O(n) |
-| 676 | [Implement Magic Dictionary](../leetcode/0676-implement-magic-dictionary/) | Medium | Hash Map | O(n) | O(n) |
 | 692 | [Top K Frequent Words](../leetcode/0692-top-k-frequent-words/) | Medium | Hash Map | O(n) | O(n) |
 | 697 | [Degree of an Array](../leetcode/0697-degree-of-an-array/) | Easy | Hash Map | O(n) | O(n) |
 | 705 | [Design HashSet](../leetcode/0816-design-hashset/) | Easy | Hash Map | O(n) | O(n) |

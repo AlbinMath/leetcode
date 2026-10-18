@@ -26,13 +26,19 @@ A collection of LeetCode problems solved using **Heap** pattern techniques, expl
 
 | 436 | [Find Right Interval](../leetcode/0436-find-right-interval/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0436-find-right-interval/Explanation.md) |
 
+| 986 | [Interval List Intersections](../leetcode/1028-interval-list-intersections/) | Python | O(n) | O(n) | [Explanation](../leetcode/1028-interval-list-intersections/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 68 | [Text Justification](../leetcode/0068-text-justification/) | Python | O(n) | O(n) | [Explanation](../leetcode/0068-text-justification/Explanation.md) |
 
+| 352 | [Data Stream as Disjoint Intervals](../leetcode/0352-data-stream-as-disjoint-intervals/) | Python | O(n) | O(n) | [Explanation](../leetcode/0352-data-stream-as-disjoint-intervals/Explanation.md) |
+
 | 1520 | [Maximum Number of Non-Overlapping Substrings](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1644-maximum-number-of-non-overlapping-substrings/Explanation.md) |
+
+| 1851 | [Minimum Interval to Include Each Query](../leetcode/1977-minimum-interval-to-include-each-query/) | Python | O(n) | O(n) | [Explanation](../leetcode/1977-minimum-interval-to-include-each-query/Explanation.md) |
 
 | 3414 | [Maximum Score of Non-overlapping Intervals](../leetcode/3562-maximum-score-of-non-overlapping-intervals/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3562-maximum-score-of-non-overlapping-intervals/Explanation.md) |
 

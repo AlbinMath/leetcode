@@ -42,6 +42,7 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](../leetcode/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Easy | Binary Search | O(n) | O(1) |
+| 297 | [Serialize and Deserialize Binary Tree](../leetcode/0297-serialize-and-deserialize-binary-tree/) | Hard | Binary Search | O(n) | O(1) |
 | 300 | [Longest Increasing Subsequence](../leetcode/0300-longest-increasing-subsequence/) | Medium | Binary Search | O(n) | O(1) |
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Easy | Binary Search | O(n) | O(1) |
 | 347 | [Top K Frequent Elements](../leetcode/0347-top-k-frequent-elements/) | Medium | Binary Search | O(n log n) | O(1) |

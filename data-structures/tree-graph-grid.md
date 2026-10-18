@@ -30,11 +30,11 @@ LeetCode problems solved using **Tree / Graph / Grid** data structures.
 | 198 | [House Robber](../leetcode/0198-house-robber/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 204 | [Count Primes](../leetcode/0204-count-primes/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 240 | [Search a 2D Matrix II](../leetcode/0240-search-a-2d-matrix-ii/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
-| 297 | [Serialize and Deserialize Binary Tree](../leetcode/0297-serialize-and-deserialize-binary-tree/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 329 | [Longest Increasing Path in a Matrix](../leetcode/0329-longest-increasing-path-in-a-matrix/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 404 | [Sum of Left Leaves](../leetcode/0404-sum-of-left-leaves/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 427 | [Construct Quad Tree](../leetcode/0772-construct-quad-tree/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 437 | [Path Sum III](../leetcode/0437-path-sum-iii/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
+| 466 | [Count The Repetitions](../leetcode/0466-count-the-repetitions/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 550 | [Game Play Analysis IV](../leetcode/1182-game-play-analysis-iv/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 559 | [Maximum Depth of N-ary Tree](../leetcode/0774-maximum-depth-of-n-ary-tree/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
@@ -42,6 +42,7 @@ LeetCode problems solved using **Tree / Graph / Grid** data structures.
 | 587 | [Erect the Fence](../leetcode/0587-erect-the-fence/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 589 | [N-ary Tree Preorder Traversal](../leetcode/0775-n-ary-tree-preorder-traversal/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 590 | [N-ary Tree Postorder Traversal](../leetcode/0776-n-ary-tree-postorder-traversal/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
+| 670 | [Maximum Swap](../leetcode/0670-maximum-swap/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 684 | [Redundant Connection](../leetcode/0684-redundant-connection/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 687 | [Longest Univalue Path](../leetcode/0687-longest-univalue-path/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 690 | [Employee Importance](../leetcode/0690-employee-importance/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
@@ -77,6 +78,7 @@ LeetCode problems solved using **Tree / Graph / Grid** data structures.
 | 1914 | [Cyclically Rotating a Grid](../leetcode/2043-cyclically-rotating-a-grid/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 2029 | [Stone Game IX](../leetcode/2156-stone-game-ix/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
+| 2045 | [Second Minimum Time to Reach Destination](../leetcode/2171-second-minimum-time-to-reach-destination/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 2161 | [Partition Array According to Given Pivot](../leetcode/2265-partition-array-according-to-given-pivot/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 2492 | [Minimum Score of a Path Between Two Cities](../leetcode/2582-minimum-score-of-a-path-between-two-cities/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |

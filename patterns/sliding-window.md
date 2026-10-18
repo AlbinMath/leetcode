@@ -42,3 +42,5 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 
 | 480 | [Sliding Window Median](../leetcode/0480-sliding-window-median/) | Python | O(n) | O(1) | [Explanation](../leetcode/0480-sliding-window-median/Explanation.md) |
 
+| 773 | [Sliding Puzzle](../leetcode/0787-sliding-puzzle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0787-sliding-puzzle/Explanation.md) |
+

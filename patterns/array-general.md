@@ -590,8 +590,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 452 | [Minimum Number of Arrows to Burst Balloons](../leetcode/0452-minimum-number-of-arrows-to-burst-balloons/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0452-minimum-number-of-arrows-to-burst-balloons/Explanation.md) |
 
-| 464 | [Can I Win](../leetcode/0464-can-i-win/) | Python | O(n) | O(1) | [Explanation](../leetcode/0464-can-i-win/Explanation.md) |
-
 | 528 | [Random Pick with Weight](../leetcode/0912-random-pick-with-weight/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0912-random-pick-with-weight/Explanation.md) |
 
 | 547 | [Number of Provinces](../leetcode/0547-number-of-provinces/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0547-number-of-provinces/Explanation.md) |
@@ -605,8 +603,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 649 | [Dota2 Senate](../leetcode/0649-dota2-senate/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0649-dota2-senate/Explanation.md) |
 
 | 658 | [Find K Closest Elements](../leetcode/0658-find-k-closest-elements/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0658-find-k-closest-elements/Explanation.md) |
-
-| 670 | [Maximum Swap](../leetcode/0670-maximum-swap/) | Python | O(n) | O(1) | [Explanation](../leetcode/0670-maximum-swap/Explanation.md) |
 
 | 672 | [Bulb Switcher II](../leetcode/0672-bulb-switcher-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0672-bulb-switcher-ii/Explanation.md) |
 
@@ -862,8 +858,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 458 | [Poor Pigs](../leetcode/0458-poor-pigs/) | Python | O(n) | O(1) | [Explanation](../leetcode/0458-poor-pigs/Explanation.md) |
 
-| 466 | [Count The Repetitions](../leetcode/0466-count-the-repetitions/) | Python | O(n) | O(1) | [Explanation](../leetcode/0466-count-the-repetitions/Explanation.md) |
-
 | 472 | [Concatenated Words](../leetcode/0472-concatenated-words/) | Python | O(n) | O(1) | [Explanation](../leetcode/0472-concatenated-words/Explanation.md) |
 
 | 483 | [Smallest Good Base](../leetcode/0483-smallest-good-base/) | Python | O(n) | O(1) | [Explanation](../leetcode/0483-smallest-good-base/Explanation.md) |
@@ -893,8 +887,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 664 | [Strange Printer](../leetcode/0664-strange-printer/) | Python | O(n) | O(1) | [Explanation](../leetcode/0664-strange-printer/Explanation.md) |
 
 | 668 | [Kth Smallest Number in Multiplication Table](../leetcode/0668-kth-smallest-number-in-multiplication-table/) | Python | O(n) | O(1) | [Explanation](../leetcode/0668-kth-smallest-number-in-multiplication-table/Explanation.md) |
-
-| 773 | [Sliding Puzzle](../leetcode/0787-sliding-puzzle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0787-sliding-puzzle/Explanation.md) |
 
 | 778 | [Swim in Rising Water](../leetcode/0794-swim-in-rising-water/) | Python | O(n) | O(1) | [Explanation](../leetcode/0794-swim-in-rising-water/Explanation.md) |
 
@@ -927,8 +919,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 1964 | [Find the Longest Valid Obstacle Course at Each Position](../leetcode/2096-find-the-longest-valid-obstacle-course-at-each-position/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2096-find-the-longest-valid-obstacle-course-at-each-position/Explanation.md) |
 
 | 1998 | [GCD Sort of an Array](../leetcode/2125-gcd-sort-of-an-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/2125-gcd-sort-of-an-array/Explanation.md) |
-
-| 2045 | [Second Minimum Time to Reach Destination](../leetcode/2171-second-minimum-time-to-reach-destination/) | Python | O(n) | O(1) | [Explanation](../leetcode/2171-second-minimum-time-to-reach-destination/Explanation.md) |
 
 | 2183 | [Count Array Pairs Divisible by K](../leetcode/2301-count-array-pairs-divisible-by-k/) | Python | O(n) | O(1) | [Explanation](../leetcode/2301-count-array-pairs-divisible-by-k/Explanation.md) |
 

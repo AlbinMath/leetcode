@@ -122,8 +122,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 458 | [Poor Pigs](../leetcode/0458-poor-pigs/) | Hard | Array / General | O(n) | O(1) |
 | 459 | [Repeated Substring Pattern](../leetcode/0459-repeated-substring-pattern/) | Easy | Array / General | O(n) | O(1) |
 | 463 | [Island Perimeter](../leetcode/0463-island-perimeter/) | Easy | Array / General | O(n) | O(1) |
-| 464 | [Can I Win](../leetcode/0464-can-i-win/) | Medium | Array / General | O(n) | O(1) |
-| 466 | [Count The Repetitions](../leetcode/0466-count-the-repetitions/) | Hard | Array / General | O(n) | O(1) |
 | 472 | [Concatenated Words](../leetcode/0472-concatenated-words/) | Hard | Array / General | O(n) | O(1) |
 | 482 | [License Key Formatting](../leetcode/0482-license-key-formatting/) | Easy | Array / General | O(n) | O(1) |
 | 483 | [Smallest Good Base](../leetcode/0483-smallest-good-base/) | Hard | Array / General | O(n) | O(1) |
@@ -164,7 +162,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 661 | [Image Smoother](../leetcode/0661-image-smoother/) | Easy | Array / General | O(n) | O(1) |
 | 664 | [Strange Printer](../leetcode/0664-strange-printer/) | Hard | Array / General | O(n) | O(1) |
 | 668 | [Kth Smallest Number in Multiplication Table](../leetcode/0668-kth-smallest-number-in-multiplication-table/) | Hard | Array / General | O(n) | O(1) |
-| 670 | [Maximum Swap](../leetcode/0670-maximum-swap/) | Medium | Array / General | O(n) | O(1) |
 | 672 | [Bulb Switcher II](../leetcode/0672-bulb-switcher-ii/) | Medium | Array / General | O(n) | O(1) |
 | 677 | [Map Sum Pairs](../leetcode/0677-map-sum-pairs/) | Medium | Array / General | O(n) | O(1) |
 | 678 | [Valid Parenthesis String](../leetcode/0678-valid-parenthesis-string/) | Medium | Array / General | O(n) | O(1) |
@@ -183,7 +180,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 752 | [Open the Lock](../leetcode/0753-open-the-lock/) | Medium | Array / General | O(n) | O(1) |
 | 763 | [Partition Labels](../leetcode/0768-partition-labels/) | Medium | Array / General | O(n) | O(1) |
 | 771 | [Jewels and Stones](../leetcode/0782-jewels-and-stones/) | Easy | Array / General | O(n) | O(1) |
-| 773 | [Sliding Puzzle](../leetcode/0787-sliding-puzzle/) | Hard | Array / General | O(n) | O(1) |
 | 778 | [Swim in Rising Water](../leetcode/0794-swim-in-rising-water/) | Hard | Array / General | O(n) | O(1) |
 | 780 | [Reaching Points](../leetcode/0796-reaching-points/) | Hard | Array / General | O(n) | O(1) |
 | 790 | [Domino and Tromino Tiling](../leetcode/0806-domino-and-tromino-tiling/) | Medium | Array / General | O(n) | O(1) |
@@ -376,7 +372,6 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | Easy | Array / General | O(n) | O(1) |
 | 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color](../leetcode/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/) | Medium | Array / General | O(n) | O(1) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | Easy | Array / General | O(n) | O(1) |
-| 2045 | [Second Minimum Time to Reach Destination](../leetcode/2171-second-minimum-time-to-reach-destination/) | Hard | Array / General | O(n) | O(1) |
 | 2047 | [Number of Valid Words in a Sentence](../leetcode/2173-number-of-valid-words-in-a-sentence/) | Easy | Array / General | O(n) | O(1) |
 | 2053 | [Kth Distinct String in an Array](../leetcode/2163-kth-distinct-string-in-an-array/) | Easy | Array / General | O(n) | O(1) |
 | 2062 | [Count Vowel Substrings of a String](../leetcode/2186-count-vowel-substrings-of-a-string/) | Easy | Array / General | O(n) | O(1) |

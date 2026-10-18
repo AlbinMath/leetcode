@@ -18,6 +18,8 @@ A collection of LeetCode problems solved using **Trie** pattern techniques, expl
 |---|---|---|---|---|---|
 | 208 | [Implement Trie (Prefix Tree)](../leetcode/0208-implement-trie-prefix-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0208-implement-trie-prefix-tree/Explanation.md) |
 
+| 676 | [Implement Magic Dictionary](../leetcode/0676-implement-magic-dictionary/) | Python | O(n) | O(n) | [Explanation](../leetcode/0676-implement-magic-dictionary/Explanation.md) |
+
 ### Hard
 
 *No problems logged yet under this difficulty level.*

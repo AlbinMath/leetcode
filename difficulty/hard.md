@@ -47,7 +47,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 273 | [Integer to English Words](../leetcode/0273-integer-to-english-words/) | Array / General | Python | O(n) | O(1) |
 | 282 | [Expression Add Operators](../leetcode/0282-expression-add-operators/) | Array / General | Python | O(n) | O(1) |
 | 295 | [Find Median from Data Stream](../leetcode/0295-find-median-from-data-stream/) | Array / General | JavaScript | O(n) | O(1) |
-| 297 | [Serialize and Deserialize Binary Tree](../leetcode/0297-serialize-and-deserialize-binary-tree/) | Tree & Graph | Python | O(n) | O(n) |
+| 297 | [Serialize and Deserialize Binary Tree](../leetcode/0297-serialize-and-deserialize-binary-tree/) | Binary Search | Python | O(n) | O(1) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Stack & Queue | Python | O(n) | O(n) |
 | 312 | [Burst Balloons](../leetcode/0312-burst-balloons/) | Array / General | Python | O(n) | O(1) |
 | 315 | [Count of Smaller Numbers After Self](../leetcode/0315-count-of-smaller-numbers-after-self/) | Array / General | JavaScript | O(n) | O(1) |
@@ -58,7 +58,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 332 | [Reconstruct Itinerary](../leetcode/0332-reconstruct-itinerary/) | Array / General | Python | O(n) | O(1) |
 | 335 | [Self Crossing](../leetcode/0335-self-crossing/) | Array / General | Python | O(n) | O(1) |
 | 336 | [Palindrome Pairs](../leetcode/0336-palindrome-pairs/) | Two Pointers | Python | O(n) | O(1) |
-| 352 | [Data Stream as Disjoint Intervals](../leetcode/0352-data-stream-as-disjoint-intervals/) | Greedy | Python | O(n) | O(1) |
+| 352 | [Data Stream as Disjoint Intervals](../leetcode/0352-data-stream-as-disjoint-intervals/) | Heap | Python | O(n) | O(n) |
 | 354 | [Russian Doll Envelopes](../leetcode/0354-russian-doll-envelopes/) | Array / General | JavaScript | O(n) | O(1) |
 | 363 | [Max Sum of Rectangle No Larger Than K](../leetcode/0363-max-sum-of-rectangle-no-larger-than-k/) | Math & Logic | Python | O(n) | O(1) |
 | 391 | [Perfect Rectangle](../leetcode/0391-perfect-rectangle/) | Math & Logic | Python | O(n) | O(1) |
@@ -70,7 +70,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 440 | [K-th Smallest in Lexicographical Order](../leetcode/0440-k-th-smallest-in-lexicographical-order/) | Array / General | Python | O(n) | O(1) |
 | 458 | [Poor Pigs](../leetcode/0458-poor-pigs/) | Array / General | Python | O(n) | O(1) |
 | 460 | [LFU Cache](../leetcode/0460-lfu-cache/) | Hash Map | Python | O(n) | O(n) |
-| 466 | [Count The Repetitions](../leetcode/0466-count-the-repetitions/) | Array / General | Python | O(n) | O(1) |
+| 466 | [Count The Repetitions](../leetcode/0466-count-the-repetitions/) | Tree & Graph | Python | O(n) | O(n) |
 | 472 | [Concatenated Words](../leetcode/0472-concatenated-words/) | Array / General | Python | O(n) | O(1) |
 | 479 | [Largest Palindrome Product](../leetcode/0479-largest-palindrome-product/) | Two Pointers | Python | O(n) | O(1) |
 | 480 | [Sliding Window Median](../leetcode/0480-sliding-window-median/) | Sliding Window | Python | O(n) | O(1) |
@@ -91,14 +91,14 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 639 | [Decode Ways II](../leetcode/0639-decode-ways-ii/) | Array / General | Python | O(n) | O(1) |
 | 664 | [Strange Printer](../leetcode/0664-strange-printer/) | Array / General | Python | O(n) | O(1) |
 | 668 | [Kth Smallest Number in Multiplication Table](../leetcode/0668-kth-smallest-number-in-multiplication-table/) | Array / General | Python | O(n) | O(1) |
-| 773 | [Sliding Puzzle](../leetcode/0787-sliding-puzzle/) | Array / General | Python | O(n) | O(1) |
+| 773 | [Sliding Puzzle](../leetcode/0787-sliding-puzzle/) | Sliding Window | Python | O(n) | O(1) |
 | 778 | [Swim in Rising Water](../leetcode/0794-swim-in-rising-water/) | Array / General | Python | O(n) | O(1) |
 | 780 | [Reaching Points](../leetcode/0796-reaching-points/) | Array / General | Python | O(n) | O(1) |
 | 810 | [Chalkboard XOR Game](../leetcode/0828-chalkboard-xor-game/) | Bit Manipulation | Python | O(n) | O(1) |
 | 843 | [Guess the Word](../leetcode/0873-guess-the-word/) | Array / General | Python | O(n) | O(1) |
 | 850 | [Rectangle Area II](../leetcode/0880-rectangle-area-ii/) | Math & Logic | Python | O(n) | O(1) |
 | 878 | [Nth Magical Number](../leetcode/0910-nth-magical-number/) | Array / General | Python | O(n) | O(1) |
-| 882 | [Reachable Nodes In Subdivided Graph](../leetcode/0918-reachable-nodes-in-subdivided-graph/) | Linked List | Python | O(n) | O(1) |
+| 882 | [Reachable Nodes In Subdivided Graph](../leetcode/0918-reachable-nodes-in-subdivided-graph/) | Two Pointers | Python | O(n) | O(1) |
 | 913 | [Cat and Mouse](../leetcode/0949-cat-and-mouse/) | Array / General | Python | O(n) | O(1) |
 | 940 | [Distinct Subsequences II](../leetcode/0977-distinct-subsequences-ii/) | Dynamic Programming | JavaScript | O(n) | O(n) |
 | 1036 | [Escape a Large Maze](../leetcode/1106-escape-a-large-maze/) | Array / General | Python | O(n) | O(1) |
@@ -121,13 +121,13 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 1728 | [Cat and Mouse II](../leetcode/1727-cat-and-mouse-ii/) | Array / General | Python | O(n) | O(1) |
 | 1819 | [Number of Different Subsequences GCDs](../leetcode/1947-number-of-different-subsequences-gcds/) | Dynamic Programming | Python | O(n) | O(n) |
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Tree & Graph | Python | O(n) | O(n) |
-| 1851 | [Minimum Interval to Include Each Query](../leetcode/1977-minimum-interval-to-include-each-query/) | Greedy | Python | O(n) | O(1) |
+| 1851 | [Minimum Interval to Include Each Query](../leetcode/1977-minimum-interval-to-include-each-query/) | Heap | Python | O(n) | O(n) |
 | 1866 | [Number of Ways to Rearrange Sticks With K Sticks Visible](../leetcode/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) | Array / General | Python | O(n) | O(1) |
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Prefix Sum | Java | O(n) | O(n) |
 | 1928 | [Minimum Cost to Reach Destination in Time](../leetcode/2040-minimum-cost-to-reach-destination-in-time/) | Array / General | Python | O(n) | O(1) |
 | 1964 | [Find the Longest Valid Obstacle Course at Each Position](../leetcode/2096-find-the-longest-valid-obstacle-course-at-each-position/) | Array / General | JavaScript | O(n) | O(1) |
 | 1998 | [GCD Sort of an Array](../leetcode/2125-gcd-sort-of-an-array/) | Array / General | Python | O(n) | O(1) |
-| 2045 | [Second Minimum Time to Reach Destination](../leetcode/2171-second-minimum-time-to-reach-destination/) | Array / General | Python | O(n) | O(1) |
+| 2045 | [Second Minimum Time to Reach Destination](../leetcode/2171-second-minimum-time-to-reach-destination/) | Tree & Graph | Python | O(n) | O(n) |
 | 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 2183 | [Count Array Pairs Divisible by K](../leetcode/2301-count-array-pairs-divisible-by-k/) | Array / General | Python | O(n) | O(1) |
 | 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | Two Pointers | JavaScript | O(n) | O(1) |

@@ -160,7 +160,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 446 | [Arithmetic Slices Ii   Subsequence](../leetcode/0446-arithmetic-slices-ii---subsequence/) | Dynamic Programming | Python | O(n) | O(n) |
 | 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | Binary Search | JavaScript | O(n) | O(1) |
 | 452 | [Minimum Number of Arrows to Burst Balloons](../leetcode/0452-minimum-number-of-arrows-to-burst-balloons/) | Array / General | JavaScript | O(n) | O(1) |
-| 464 | [Can I Win](../leetcode/0464-can-i-win/) | Array / General | Python | O(n) | O(1) |
+| 464 | [Can I Win](../leetcode/0464-can-i-win/) | Monotonic Stack | Python | O(n) | O(n) |
 | 486 | [Predict the Winner](../leetcode/0486-predict-the-winner/) | Dynamic Programming | C++ | O(n) | O(n) |
 | 528 | [Random Pick with Weight](../leetcode/0912-random-pick-with-weight/) | Array / General | JavaScript | O(n) | O(1) |
 | 540 | [Single Element in a Sorted Array](../leetcode/0540-single-element-in-a-sorted-array/) | Binary Search | JavaScript | O(log n) | O(1) |
@@ -180,10 +180,10 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Binary Search | Python | O(n) | O(1) |
 | 658 | [Find K Closest Elements](../leetcode/0658-find-k-closest-elements/) | Array / General | JavaScript | O(n) | O(1) |
 | 669 | [Trim a Binary Search Tree](../leetcode/0669-trim-a-binary-search-tree/) | Binary Search | Python | O(n) | O(1) |
-| 670 | [Maximum Swap](../leetcode/0670-maximum-swap/) | Array / General | Python | O(n) | O(1) |
+| 670 | [Maximum Swap](../leetcode/0670-maximum-swap/) | Tree & Graph | Python | O(n) | O(n) |
 | 672 | [Bulb Switcher II](../leetcode/0672-bulb-switcher-ii/) | Array / General | Python | O(n) | O(1) |
 | 673 | [Number of Longest Increasing Subsequence](../leetcode/0673-number-of-longest-increasing-subsequence/) | Dynamic Programming | JavaScript | O(n) | O(n) |
-| 676 | [Implement Magic Dictionary](../leetcode/0676-implement-magic-dictionary/) | Hash Map | Python | O(n) | O(n) |
+| 676 | [Implement Magic Dictionary](../leetcode/0676-implement-magic-dictionary/) | Trie | Python | O(n) | O(n) |
 | 677 | [Map Sum Pairs](../leetcode/0677-map-sum-pairs/) | Array / General | Python | O(n) | O(1) |
 | 678 | [Valid Parenthesis String](../leetcode/0678-valid-parenthesis-string/) | Array / General | Python | O(n) | O(1) |
 | 684 | [Redundant Connection](../leetcode/0684-redundant-connection/) | Tree & Graph | Python | O(n) | O(n) |
@@ -217,7 +217,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0957-minimum-add-to-make-parentheses-valid/) | Stack & Queue | Python | O(n) | O(n) |
 | 932 | [Beautiful Array](../leetcode/0968-beautiful-array/) | Array / General | Python | O(n) | O(1) |
 | 981 | [Time Based Key-Value Store](../leetcode/1023-time-based-key-value-store/) | Array / General | JavaScript | O(n) | O(1) |
-| 986 | [Interval List Intersections](../leetcode/1028-interval-list-intersections/) | Greedy | Python | O(n) | O(1) |
+| 986 | [Interval List Intersections](../leetcode/1028-interval-list-intersections/) | Heap | Python | O(n) | O(n) |
 | 994 | [Rotting Oranges](../leetcode/1036-rotting-oranges/) | Array / General | JavaScript | O(n) | O(1) |
 | 1004 | [Max Consecutive Ones III](../leetcode/1046-max-consecutive-ones-iii/) | Array / General | JavaScript | O(n) | O(1) |
 | 1015 | [Smallest Integer Divisible by K](../leetcode/1064-smallest-integer-divisible-by-k/) | Bit Manipulation | Python | O(n) | O(1) |
@@ -283,7 +283,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 1682 | [Most Visited Sector In  A Circular Track](../leetcode/1682-most-visited-sector-in--a-circular-track/) | Array / General | Python | O(n) | O(1) |
 | 1686 | [Stone Game VI](../leetcode/1788-stone-game-vi/) | Array / General | Python | O(n) | O(1) |
 | 1690 | [Stone Game VII](../leetcode/1808-stone-game-vii/) | Array / General | Python | O(n) | O(1) |
-| 1786 | [Number of Restricted Paths From First to Last Node](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/) | Linked List | Python | O(n) | O(1) |
+| 1786 | [Number of Restricted Paths From First to Last Node](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/) | Two Pointers | Python | O(n) | O(1) |
 | 1807 | [Evaluate the Bracket Pairs of a String](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/) | Hash Map | C++ | O(n) | O(n) |
 | 1833 | [Maximum Ice Cream Bars](../leetcode/1961-maximum-ice-cream-bars/) | Binary Search | Java | O(n) | O(1) |
 | 1846 | [Maximum Element After Decreasing and Rearranging](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/) | Binary Search | Java | O(log n) | O(1) |

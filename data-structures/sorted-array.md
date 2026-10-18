@@ -42,6 +42,7 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](../leetcode/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 297 | [Serialize and Deserialize Binary Tree](../leetcode/0297-serialize-and-deserialize-binary-tree/) | Hard | Modified Binary Search | O(n) | O(1) |
 | 300 | [Longest Increasing Subsequence](../leetcode/0300-longest-increasing-subsequence/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 347 | [Top K Frequent Elements](../leetcode/0347-top-k-frequent-elements/) | Medium | Modified Binary Search | O(n log n) | O(1) |

@@ -12,6 +12,7 @@ LeetCode problems solved using **Array / Hash Set** data structures.
 | 239 | [Sliding Window Maximum](../leetcode/0239-sliding-window-maximum/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 433 | [Minimum Genetic Mutation](../leetcode/0433-minimum-genetic-mutation/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 480 | [Sliding Window Median](../leetcode/0480-sliding-window-median/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 773 | [Sliding Puzzle](../leetcode/0787-sliding-puzzle/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |

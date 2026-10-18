@@ -88,6 +88,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Java | O(n) | O(1) | [Explanation](../leetcode/1216-print-zero-even-odd/Explanation.md) |
 
+| 1786 | [Number of Restricted Paths From First to Last Node](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/) | Python | O(n) | O(1) | [Explanation](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/Explanation.md) |
+
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/Explanation.md) |
 
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/Explanation.md) |
@@ -111,6 +113,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 336 | [Palindrome Pairs](../leetcode/0336-palindrome-pairs/) | Python | O(n) | O(1) | [Explanation](../leetcode/0336-palindrome-pairs/Explanation.md) |
 
 | 479 | [Largest Palindrome Product](../leetcode/0479-largest-palindrome-product/) | Python | O(n) | O(1) | [Explanation](../leetcode/0479-largest-palindrome-product/Explanation.md) |
+
+| 882 | [Reachable Nodes In Subdivided Graph](../leetcode/0918-reachable-nodes-in-subdivided-graph/) | Python | O(n) | O(1) | [Explanation](../leetcode/0918-reachable-nodes-in-subdivided-graph/Explanation.md) |
 
 | 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/Explanation.md) |
 

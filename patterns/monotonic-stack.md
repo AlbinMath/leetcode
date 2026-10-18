@@ -22,6 +22,8 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 464 | [Can I Win](../leetcode/0464-can-i-win/) | Python | O(n) | O(n) | [Explanation](../leetcode/0464-can-i-win/Explanation.md) |
+
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | JavaScript, TypeScript | O(n) | O(n) | [Explanation](../leetcode/0739-daily-temperatures/Explanation.md) |
 
 | 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1159-smallest-subsequence-of-distinct-characters/Explanation.md) |

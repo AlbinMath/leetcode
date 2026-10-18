@@ -10,13 +10,9 @@ A collection of LeetCode problems solved using **Linked List** pattern technique
 
 ### Medium
 
-| # | Problem | Language | Time | Space | Explanation |
-|---|---|---|---|---|---|
-| 1786 | [Number of Restricted Paths From First to Last Node](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/) | Python | O(n) | O(1) | [Explanation](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/Explanation.md) |
+*No problems logged yet under this difficulty level.*
 
 ### Hard
 
-| # | Problem | Language | Time | Space | Explanation |
-|---|---|---|---|---|---|
-| 882 | [Reachable Nodes In Subdivided Graph](../leetcode/0918-reachable-nodes-in-subdivided-graph/) | Python | O(n) | O(1) | [Explanation](../leetcode/0918-reachable-nodes-in-subdivided-graph/Explanation.md) |
+*No problems logged yet under this difficulty level.*
 

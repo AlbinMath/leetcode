@@ -84,8 +84,6 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 438 | [Find All Anagrams in a String](../leetcode/0438-find-all-anagrams-in-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0438-find-all-anagrams-in-a-string/Explanation.md) |
 
-| 676 | [Implement Magic Dictionary](../leetcode/0676-implement-magic-dictionary/) | Python | O(n) | O(n) | [Explanation](../leetcode/0676-implement-magic-dictionary/Explanation.md) |
-
 | 692 | [Top K Frequent Words](../leetcode/0692-top-k-frequent-words/) | Python | O(n) | O(n) | [Explanation](../leetcode/0692-top-k-frequent-words/Explanation.md) |
 
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Java | O(n) | O(n) | [Explanation](../leetcode/1187-print-foobar-alternately/Explanation.md) |

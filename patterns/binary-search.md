@@ -178,6 +178,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 212 | [Word Search II](../leetcode/0212-word-search-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0212-word-search-ii/Explanation.md) |
 
+| 297 | [Serialize and Deserialize Binary Tree](../leetcode/0297-serialize-and-deserialize-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0297-serialize-and-deserialize-binary-tree/Explanation.md) |
+
 | 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1296-kth-ancestor-of-a-tree-node/Explanation.md) |
 
 | 1665 | [Minimum Initial Energy to Finish Tasks](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/1784-minimum-initial-energy-to-finish-tasks/Explanation.md) |
