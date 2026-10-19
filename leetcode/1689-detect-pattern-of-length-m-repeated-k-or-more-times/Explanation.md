@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [459. Repeated Substring Pattern](../0459-repeated-substring-pattern/)
+- [718. Maximum Length of Repeated Subarray](../0718-maximum-length-of-repeated-subarray/)
 - [1437. Check If All 1's Are at Least Length K Places Away](../1548-check-if-all-1s-are-at-least-length-k-places-away/)
-- [2099. Find Subsequence of Length K With the Largest Sum](../2204-find-subsequence-of-length-k-with-the-largest-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)

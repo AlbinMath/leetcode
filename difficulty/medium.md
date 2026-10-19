@@ -104,6 +104,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 178 | [Rank Scores](../leetcode/0178-rank-scores/) | Database / SQL | SQL | O(n) | O(n) |
 | 180 | [Consecutive Numbers](../leetcode/0180-consecutive-numbers/) | Database / SQL | SQL | O(n) | O(n) |
 | 184 | [Department Highest Salary](../leetcode/0184-department-highest-salary/) | Database / SQL | SQL | O(n) | O(n) |
+| 187 | [Repeated DNA Sequences](../leetcode/0187-repeated-dna-sequences/) | Array / General | Python | O(n) | O(1) |
 | 189 | [Rotate Array](../leetcode/0189-rotate-array/) | Math & Logic | JavaScript | O(n) | O(1) |
 | 192 | [Word Frequency](../leetcode/0192-word-frequency/) | Hash Map | Shell | O(n) | O(n) |
 | 194 | [Transpose File](../leetcode/0194-transpose-file/) | Array / General | Shell | O(n) | O(1) |
@@ -194,6 +195,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 692 | [Top K Frequent Words](../leetcode/0692-top-k-frequent-words/) | Hash Map | Python | O(n) | O(n) |
 | 695 | [Max Area of Island](../leetcode/0695-max-area-of-island/) | Array / General | Python | O(n) | O(1) |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](../leetcode/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Array / General | JavaScript | O(n) | O(1) |
+| 718 | [Maximum Length of Repeated Subarray](../leetcode/0718-maximum-length-of-repeated-subarray/) | Array / General | Python | O(n) | O(1) |
 | 735 | [Asteroid Collision](../leetcode/0735-asteroid-collision/) | Array / General | JavaScript | O(n) | O(1) |
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | Monotonic Stack | JavaScript, TypeScript | O(n) | O(n) |
 | 743 | [Network Delay Time](../leetcode/0744-network-delay-time/) | Array / General | Python | O(n) | O(1) |
@@ -264,6 +266,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 1447 | [Simplified Fractions](../leetcode/1543-simplified-fractions/) | Array / General | Python | O(n) | O(1) |
 | 1448 | [Count Good Nodes in Binary Tree](../leetcode/1544-count-good-nodes-in-binary-tree/) | Binary Search | JavaScript | O(n) | O(1) |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](../leetcode/1567-maximum-number-of-vowels-in-a-substring-of-given-length/) | Array / General | JavaScript | O(n) | O(1) |
+| 1461 | [Check If a String Contains All Binary Codes of Size K](../leetcode/1557-check-if-a-string-contains-all-binary-codes-of-size-k/) | Bit Manipulation | Python | O(n) | O(1) |
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Sliding Window | JavaScript | O(n) | O(1) |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](../leetcode/1586-longest-subarray-of-1s-after-deleting-one-element/) | Array / General | JavaScript | O(n) | O(1) |
@@ -351,6 +354,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 2904 | [Shortest and Lexicographically Smallest Beautiful String](../leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string/) | Array / General | C++ | O(n) | O(1) |
 | 2948 | [Make Lexicographically Smallest Array by Swapping Elements](../leetcode/3219-make-lexicographically-smallest-array-by-swapping-elements/) | Hash Map | C++ | O(n) | O(n) |
 | 2958 | [Length of Longest Subarray With at Most K Frequency](../leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/) | Hash Map | C++ | O(n) | O(n) |
+| 3006 | [Find Beautiful Indices in the Given Array I](../leetcode/3245-find-beautiful-indices-in-the-given-array-i/) | Array / General | Python | O(n) | O(1) |
 | 3016 | [Minimum Number of Pushes to Type Word II](../leetcode/3276-minimum-number-of-pushes-to-type-word-ii/) | Array / General | C++ | O(n) | O(1) |
 | 3020 | [Find the Maximum Number of Elements in Subset](../leetcode/3299-find-the-maximum-number-of-elements-in-subset/) | Array / General | Java | O(n) | O(1) |
 | 3043 | [Find the Length of the Longest Common Prefix](../leetcode/3329-find-the-length-of-the-longest-common-prefix/) | Prefix Sum | C++ | O(n) | O(n) |

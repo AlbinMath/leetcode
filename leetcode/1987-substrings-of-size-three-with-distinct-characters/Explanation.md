@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1358. Number of Substrings Containing All Three Characters](../1460-number-of-substrings-containing-all-three-characters/)
 - [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [1316. Distinct Echo Substrings](../1244-distinct-echo-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)

@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
+- [2037. Minimum Number of Moves to Seat Everyone](../2148-minimum-number-of-moves-to-seat-everyone/)
 - [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
-- [9. Palindrome Number](../0009-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)

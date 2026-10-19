@@ -426,6 +426,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Prefix Sum | JavaScript | O(n) | O(n) |
 | 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | Array / General | JavaScript | O(n) | O(1) |
 | 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | Hash Map | JavaScript | O(n) | O(n) |
+| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/) | Array / General | Python | O(n) | O(1) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | Array / General | JavaScript | O(n) | O(1) |
 | 2047 | [Number of Valid Words in a Sentence](../leetcode/2173-number-of-valid-words-in-a-sentence/) | Array / General | JavaScript | O(n) | O(1) |
 | 2053 | [Kth Distinct String in an Array](../leetcode/2163-kth-distinct-string-in-an-array/) | Array / General | JavaScript | O(n) | O(1) |

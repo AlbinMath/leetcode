@@ -116,6 +116,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 882 | [Reachable Nodes In Subdivided Graph](../leetcode/0918-reachable-nodes-in-subdivided-graph/) | Python | O(n) | O(1) | [Explanation](../leetcode/0918-reachable-nodes-in-subdivided-graph/Explanation.md) |
 
+| 1147 | [Longest Chunked Palindrome Decomposition](../leetcode/1251-longest-chunked-palindrome-decomposition/) | Python | O(n) | O(1) | [Explanation](../leetcode/1251-longest-chunked-palindrome-decomposition/Explanation.md) |
+
 | 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/Explanation.md) |
 
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/Explanation.md) |

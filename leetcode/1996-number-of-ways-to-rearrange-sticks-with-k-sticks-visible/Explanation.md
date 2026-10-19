@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1569. Number of Ways to Reorder Array to Get Same BST](../1692-number-of-ways-to-reorder-array-to-get-same-bst/)
 - [1621. Number of Sets of K Non-Overlapping Line Segments](../1725-number-of-sets-of-k-non-overlapping-line-segments/)
 - [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
-- [1976. Number of Ways to Arrive at Destination](../2090-number-of-ways-to-arrive-at-destination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)

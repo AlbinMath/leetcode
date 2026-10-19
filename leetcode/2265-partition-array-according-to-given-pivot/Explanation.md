@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [561. Array Partition](../0561-array-partition/)
 - [1389. Create Target Array in the Given Order](../1505-create-target-array-in-the-given-order/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [3006. Find Beautiful Indices in the Given Array I](../3245-find-beautiful-indices-in-the-given-array-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-according-to-given-pivot/)

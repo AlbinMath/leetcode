@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [152. Maximum Product Subarray](../0152-maximum-product-subarray/)
 - [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
-- [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
+- [718. Maximum Length of Repeated Subarray](../0718-maximum-length-of-repeated-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subarray/)

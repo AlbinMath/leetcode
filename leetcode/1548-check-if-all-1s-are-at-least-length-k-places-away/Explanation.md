@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1461. Check If a String Contains All Binary Codes of Size K](../1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
 - [1893. Check if All the Integers in a Range Are Covered](../2005-check-if-all-the-integers-in-a-range-are-covered/)
 - [1662. Check If Two String Arrays are Equivalent](../1781-check-if-two-string-arrays-are-equivalent/)
-- [1941. Check if All Characters Have Equal Number of Occurrences](../2053-check-if-all-characters-have-equal-number-of-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)

@@ -418,6 +418,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2137-final-value-of-variable-after-performing-operations/Explanation.md) |
 
+| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/) | Python | O(n) | O(1) | [Explanation](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/Explanation.md) |
+
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/Explanation.md) |
 
 | 2047 | [Number of Valid Words in a Sentence](../leetcode/2173-number-of-valid-words-in-a-sentence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2173-number-of-valid-words-in-a-sentence/Explanation.md) |
@@ -544,6 +546,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 172 | [Factorial Trailing Zeroes](../leetcode/0172-factorial-trailing-zeroes/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0172-factorial-trailing-zeroes/Explanation.md) |
 
+| 187 | [Repeated DNA Sequences](../leetcode/0187-repeated-dna-sequences/) | Python | O(n) | O(1) | [Explanation](../leetcode/0187-repeated-dna-sequences/Explanation.md) |
+
 | 194 | [Transpose File](../leetcode/0194-transpose-file/) | Shell | O(n) | O(1) | [Explanation](../leetcode/0194-transpose-file/Explanation.md) |
 
 | 200 | [Number of Islands](../leetcode/0200-number-of-islands/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0200-number-of-islands/Explanation.md) |
@@ -617,6 +621,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 695 | [Max Area of Island](../leetcode/0695-max-area-of-island/) | Python | O(n) | O(1) | [Explanation](../leetcode/0695-max-area-of-island/Explanation.md) |
 
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](../leetcode/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/Explanation.md) |
+
+| 718 | [Maximum Length of Repeated Subarray](../leetcode/0718-maximum-length-of-repeated-subarray/) | Python | O(n) | O(1) | [Explanation](../leetcode/0718-maximum-length-of-repeated-subarray/Explanation.md) |
 
 | 735 | [Asteroid Collision](../leetcode/0735-asteroid-collision/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0735-asteroid-collision/Explanation.md) |
 
@@ -747,6 +753,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 2749 | [Minimum Operations to Make the Integer Zero](../leetcode/2837-minimum-operations-to-make-the-integer-zero/) | Python | O(n) | O(1) | [Explanation](../leetcode/2837-minimum-operations-to-make-the-integer-zero/Explanation.md) |
 
 | 2904 | [Shortest and Lexicographically Smallest Beautiful String](../leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string/Explanation.md) |
+
+| 3006 | [Find Beautiful Indices in the Given Array I](../leetcode/3245-find-beautiful-indices-in-the-given-array-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3245-find-beautiful-indices-in-the-given-array-i/Explanation.md) |
 
 | 3016 | [Minimum Number of Pushes to Type Word II](../leetcode/3276-minimum-number-of-pushes-to-type-word-ii/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3276-minimum-number-of-pushes-to-type-word-ii/Explanation.md) |
 
@@ -892,6 +900,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 780 | [Reaching Points](../leetcode/0796-reaching-points/) | Python | O(n) | O(1) | [Explanation](../leetcode/0796-reaching-points/Explanation.md) |
 
+| 818 | [Race Car](../leetcode/0836-race-car/) | Python | O(n) | O(1) | [Explanation](../leetcode/0836-race-car/Explanation.md) |
+
 | 843 | [Guess the Word](../leetcode/0873-guess-the-word/) | Python | O(n) | O(1) | [Explanation](../leetcode/0873-guess-the-word/Explanation.md) |
 
 | 878 | [Nth Magical Number](../leetcode/0910-nth-magical-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/0910-nth-magical-number/Explanation.md) |
@@ -900,11 +910,15 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1036 | [Escape a Large Maze](../leetcode/1106-escape-a-large-maze/) | Python | O(n) | O(1) | [Explanation](../leetcode/1106-escape-a-large-maze/Explanation.md) |
 
+| 1044 | [Longest Duplicate Substring](../leetcode/1122-longest-duplicate-substring/) | Python | O(n) | O(1) | [Explanation](../leetcode/1122-longest-duplicate-substring/Explanation.md) |
+
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1188-brace-expansion-ii/Explanation.md) |
 
 | 1157 | [Online Majority Element In Subarray](../leetcode/1262-online-majority-element-in-subarray/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1262-online-majority-element-in-subarray/Explanation.md) |
 
 | 1250 | [Check If It Is a Good Array](../leetcode/1372-check-if-it-is-a-good-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/1372-check-if-it-is-a-good-array/Explanation.md) |
+
+| 1316 | [Distinct Echo Substrings](../leetcode/1244-distinct-echo-substrings/) | Python | O(n) | O(1) | [Explanation](../leetcode/1244-distinct-echo-substrings/Explanation.md) |
 
 | 1354 | [Construct Target Array With Multiple Sums](../leetcode/1479-construct-target-array-with-multiple-sums/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1479-construct-target-array-with-multiple-sums/Explanation.md) |
 
@@ -939,6 +953,8 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 2916 | [Subarrays Distinct Element Sum of Squares II](../leetcode/3139-subarrays-distinct-element-sum-of-squares-ii/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/3139-subarrays-distinct-element-sum-of-squares-ii/Explanation.md) |
 
 | 2940 | [Find Building Where Alice and Bob Can Meet](../leetcode/3181-find-building-where-alice-and-bob-can-meet/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3181-find-building-where-alice-and-bob-can-meet/Explanation.md) |
+
+| 3008 | [Find Beautiful Indices in the Given Array II](../leetcode/3303-find-beautiful-indices-in-the-given-array-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/3303-find-beautiful-indices-in-the-given-array-ii/Explanation.md) |
 
 | 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3350-distribute-elements-into-two-arrays-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3350-distribute-elements-into-two-arrays-ii/Explanation.md) |
 

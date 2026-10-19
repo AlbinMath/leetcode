@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1461. Check If a String Contains All Binary Codes of Size K](../1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
 - [1790. Check if One String Swap Can Make Strings Equal](../1915-check-if-one-string-swap-can-make-strings-equal/)
 - [1662. Check If Two String Arrays are Equivalent](../1781-check-if-two-string-arrays-are-equivalent/)
-- [1961. Check If String Is a Prefix of Array](../2093-check-if-string-is-a-prefix-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)

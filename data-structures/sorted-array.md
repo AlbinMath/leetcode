@@ -81,6 +81,7 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 1448 | [Count Good Nodes in Binary Tree](../leetcode/1544-count-good-nodes-in-binary-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Hard | Modified Binary Search | O(n) | O(1) |
+| 1569 | [Number of Ways to Reorder Array to Get Same BST](../leetcode/1692-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard | Modified Binary Search | O(n) | O(1) |
 | 1665 | [Minimum Initial Energy to Finish Tasks](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | Hard | Modified Binary Search | O(log n) | O(1) |
 | 1752 | [Check if Array Is Sorted and Rotated](../leetcode/1878-check-if-array-is-sorted-and-rotated/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 1833 | [Maximum Ice Cream Bars](../leetcode/1961-maximum-ice-cream-bars/) | Medium | Modified Binary Search | O(n) | O(1) |

@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1569. Number of Ways to Reorder Array to Get Same BST](../1692-number-of-ways-to-reorder-array-to-get-same-bst/)
 - [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
 - [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
-- [1887. Reduction Operations to Make the Array Elements Equal](../2016-reduction-operations-to-make-the-array-elements-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ways-to-make-a-fair-array/)

@@ -72,7 +72,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 ## Related Problems
 - [2213. Longest Substring of One Repeating Character](../2319-longest-substring-of-one-repeating-character/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [1624. Largest Substring Between Two Equal Characters](../1746-largest-substring-between-two-equal-characters/)
+- [1044. Longest Duplicate Substring](../1122-longest-duplicate-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)

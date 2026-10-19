@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [14. Longest Common Prefix](../0014-longest-common-prefix/)
 - [1143. Longest Common Subsequence](../1250-longest-common-subsequence/)
-- [3043. Find the Length of the Longest Common Prefix](../3329-find-the-length-of-the-longest-common-prefix/)
+- [1923. Longest Common Subpath](../2051-longest-common-subpath/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-common-suffix-queries/)

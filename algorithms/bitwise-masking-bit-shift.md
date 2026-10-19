@@ -30,6 +30,7 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1175 | [Prime Arrangements](../leetcode/1279-prime-arrangements/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1356 | [Sort Integers by The Number of 1 Bits](../leetcode/1458-sort-integers-by-the-number-of-1-bits/) | Easy | Bit Manipulation | O(n) | O(1) |
+| 1461 | [Check If a String Contains All Binary Codes of Size K](../leetcode/1557-check-if-a-string-contains-all-binary-codes-of-size-k/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 1486 | [XOR Operation in an Array](../leetcode/1610-xor-operation-in-an-array/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1656 | [Design an Ordered Stream](../leetcode/1775-design-an-ordered-stream/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1720 | [Decode XORed Array](../leetcode/1839-decode-xored-array/) | Easy | Bit Manipulation | O(n) | O(1) |

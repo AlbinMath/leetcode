@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
 - [1561. Maximum Number of Coins You Can Get](../1683-maximum-number-of-coins-you-can-get/)
-- [2091. Removing Minimum and Maximum From Array](../2212-removing-minimum-and-maximum-from-array/)
+- [1569. Number of Ways to Reorder Array to Get Same BST](../1692-number-of-ways-to-reorder-array-to-get-same-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-maximum-in-generated-array/)

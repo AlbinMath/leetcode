@@ -12,6 +12,7 @@ LeetCode problems solved using **Prefix Array** data structures.
 | 1018 | [Binary Prefix Divisible By 5](../leetcode/1071-binary-prefix-divisible-by-5/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
 | 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
+| 1392 | [Longest Happy Prefix](../leetcode/1508-longest-happy-prefix/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
 | 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](../leetcode/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
 | 1563 | [Stone Game V](../leetcode/1685-stone-game-v/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](../leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |

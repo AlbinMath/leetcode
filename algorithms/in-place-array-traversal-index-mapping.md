@@ -49,6 +49,7 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 169 | [Majority Element](../leetcode/0169-majority-element/) | Easy | Array / General | O(n) | O(1) |
 | 171 | [Excel Sheet Column Number](../leetcode/0171-excel-sheet-column-number/) | Easy | Array / General | O(n) | O(1) |
 | 172 | [Factorial Trailing Zeroes](../leetcode/0172-factorial-trailing-zeroes/) | Medium | Array / General | O(n) | O(1) |
+| 187 | [Repeated DNA Sequences](../leetcode/0187-repeated-dna-sequences/) | Medium | Array / General | O(n) | O(1) |
 | 188 | [Best Time to Buy and Sell Stock IV](../leetcode/0188-best-time-to-buy-and-sell-stock-iv/) | Hard | Array / General | O(n) | O(1) |
 | 193 | [Valid Phone Numbers](../leetcode/0193-valid-phone-numbers/) | Easy | Array / General | O(n) | O(1) |
 | 194 | [Transpose File](../leetcode/0194-transpose-file/) | Medium | Array / General | O(n) | O(1) |
@@ -171,6 +172,7 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 703 | [Kth Largest Element in a Stream](../leetcode/0789-kth-largest-element-in-a-stream/) | Easy | Array / General | O(n) | O(1) |
 | 709 | [To Lower Case](../leetcode/0742-to-lower-case/) | Easy | Array / General | O(n) | O(1) |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](../leetcode/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | Array / General | O(n) | O(1) |
+| 718 | [Maximum Length of Repeated Subarray](../leetcode/0718-maximum-length-of-repeated-subarray/) | Medium | Array / General | O(n) | O(1) |
 | 724 | [Find Pivot Index](../leetcode/0724-find-pivot-index/) | Easy | Array / General | O(n) | O(1) |
 | 728 | [Self Dividing Numbers](../leetcode/0728-self-dividing-numbers/) | Easy | Array / General | O(n) | O(1) |
 | 733 | [Flood Fill](../leetcode/0733-flood-fill/) | Easy | Array / General | O(n) | O(1) |
@@ -185,6 +187,7 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 790 | [Domino and Tromino Tiling](../leetcode/0806-domino-and-tromino-tiling/) | Medium | Array / General | O(n) | O(1) |
 | 804 | [Unique Morse Code Words](../leetcode/0822-unique-morse-code-words/) | Easy | Array / General | O(n) | O(1) |
 | 806 | [Number of Lines To Write String](../leetcode/0824-number-of-lines-to-write-string/) | Easy | Array / General | O(n) | O(1) |
+| 818 | [Race Car](../leetcode/0836-race-car/) | Hard | Array / General | O(n) | O(1) |
 | 819 | [Most Common Word](../leetcode/0837-most-common-word/) | Easy | Array / General | O(n) | O(1) |
 | 821 | [Shortest Distance to a Character](../leetcode/0841-shortest-distance-to-a-character/) | Easy | Array / General | O(n) | O(1) |
 | 824 | [Goat Latin](../leetcode/0851-goat-latin/) | Easy | Array / General | O(n) | O(1) |
@@ -229,6 +232,7 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 1025 | [Divisor Game](../leetcode/1086-divisor-game/) | Easy | Array / General | O(n) | O(1) |
 | 1036 | [Escape a Large Maze](../leetcode/1106-escape-a-large-maze/) | Hard | Array / General | O(n) | O(1) |
 | 1037 | [Valid Boomerang](../leetcode/1115-valid-boomerang/) | Easy | Array / General | O(n) | O(1) |
+| 1044 | [Longest Duplicate Substring](../leetcode/1122-longest-duplicate-substring/) | Hard | Array / General | O(n) | O(1) |
 | 1046 | [Last Stone Weight](../leetcode/1127-last-stone-weight/) | Easy | Array / General | O(n) | O(1) |
 | 1047 | [Remove All Adjacent Duplicates In String](../leetcode/1128-remove-all-adjacent-duplicates-in-string/) | Easy | Array / General | O(n) | O(1) |
 | 1051 | [Height Checker](../leetcode/1137-height-checker/) | Easy | Array / General | O(n) | O(1) |
@@ -260,6 +264,7 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 1287 | [Element Appearing More Than 25% In Sorted Array](../leetcode/1221-element-appearing-more-than-25-in-sorted-array/) | Easy | Array / General | O(n) | O(1) |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](../leetcode/1434-decrypt-string-from-alphabet-to-integer-mapping/) | Easy | Array / General | O(n) | O(1) |
 | 1313 | [Decompress Run-Length Encoded List](../leetcode/1241-decompress-run-length-encoded-list/) | Easy | Array / General | O(n) | O(1) |
+| 1316 | [Distinct Echo Substrings](../leetcode/1244-distinct-echo-substrings/) | Hard | Array / General | O(n) | O(1) |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](../leetcode/1440-convert-integer-to-the-sum-of-two-no-zero-integers/) | Easy | Array / General | O(n) | O(1) |
 | 1323 | [Maximum 69 Number](../leetcode/1448-maximum-69-number/) | Easy | Array / General | O(n) | O(1) |
 | 1334 | [Find the City With the Smallest Number of Neighbors at a Threshold Distance](../leetcode/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | Array / General | O(n) | O(1) |
@@ -370,6 +375,7 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 1995 | [Count Special Quadruplets](../leetcode/2122-count-special-quadruplets/) | Easy | Array / General | O(n) | O(1) |
 | 1998 | [GCD Sort of an Array](../leetcode/2125-gcd-sort-of-an-array/) | Hard | Array / General | O(n) | O(1) |
 | 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | Easy | Array / General | O(n) | O(1) |
+| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/) | Easy | Array / General | O(n) | O(1) |
 | 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color](../leetcode/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/) | Medium | Array / General | O(n) | O(1) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | Easy | Array / General | O(n) | O(1) |
 | 2047 | [Number of Valid Words in a Sentence](../leetcode/2173-number-of-valid-words-in-a-sentence/) | Easy | Array / General | O(n) | O(1) |
@@ -437,6 +443,8 @@ A curated selection of LeetCode problems solved using the **In-Place Array Trave
 | 2904 | [Shortest and Lexicographically Smallest Beautiful String](../leetcode/3150-shortest-and-lexicographically-smallest-beautiful-string/) | Medium | Array / General | O(n) | O(1) |
 | 2916 | [Subarrays Distinct Element Sum of Squares II](../leetcode/3139-subarrays-distinct-element-sum-of-squares-ii/) | Hard | Array / General | O(n) | O(1) |
 | 2940 | [Find Building Where Alice and Bob Can Meet](../leetcode/3181-find-building-where-alice-and-bob-can-meet/) | Hard | Array / General | O(n) | O(1) |
+| 3006 | [Find Beautiful Indices in the Given Array I](../leetcode/3245-find-beautiful-indices-in-the-given-array-i/) | Medium | Array / General | O(n) | O(1) |
+| 3008 | [Find Beautiful Indices in the Given Array II](../leetcode/3303-find-beautiful-indices-in-the-given-array-ii/) | Hard | Array / General | O(n) | O(1) |
 | 3016 | [Minimum Number of Pushes to Type Word II](../leetcode/3276-minimum-number-of-pushes-to-type-word-ii/) | Medium | Array / General | O(n) | O(1) |
 | 3020 | [Find the Maximum Number of Elements in Subset](../leetcode/3299-find-the-maximum-number-of-elements-in-subset/) | Medium | Array / General | O(n) | O(1) |
 | 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3350-distribute-elements-into-two-arrays-ii/) | Hard | Array / General | O(n) | O(1) |

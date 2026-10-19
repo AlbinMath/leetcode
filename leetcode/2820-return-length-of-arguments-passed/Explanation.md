@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [58. Length of Last Word](../0058-length-of-last-word/)
 - [657. Robot Return to Origin](../0657-robot-return-to-origin/)
-- [1313. Decompress Run-Length Encoded List](../1241-decompress-run-length-encoded-list/)
+- [718. Maximum Length of Repeated Subarray](../0718-maximum-length-of-repeated-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/return-length-of-arguments-passed/)

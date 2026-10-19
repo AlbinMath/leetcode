@@ -75,8 +75,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1227. Airplane Seat Assignment Probability](../1362-airplane-seat-assignment-probability/)
+- [2037. Minimum Number of Moves to Seat Everyone](../2148-minimum-number-of-moves-to-seat-everyone/)
 - [1. Two Sum](../0001-two-sum/)
-- [49. Group Anagrams](../0049-group-anagrams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cinema-seat-allocation/)

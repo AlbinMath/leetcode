@@ -204,6 +204,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Python | O(n) | O(n) | [Explanation](../leetcode/1968-maximum-building-height/Explanation.md) |
 
+| 1923 | [Longest Common Subpath](../leetcode/2051-longest-common-subpath/) | Python | O(n) | O(n) | [Explanation](../leetcode/2051-longest-common-subpath/Explanation.md) |
+
 | 2045 | [Second Minimum Time to Reach Destination](../leetcode/2171-second-minimum-time-to-reach-destination/) | Python | O(n) | O(n) | [Explanation](../leetcode/2171-second-minimum-time-to-reach-destination/Explanation.md) |
 
 | 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2280-count-good-triplets-in-an-array/Explanation.md) |

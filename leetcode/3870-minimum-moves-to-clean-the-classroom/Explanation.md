@@ -66,7 +66,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
 - [2027. Minimum Moves to Convert String](../2154-minimum-moves-to-convert-string/)
-- [2193. Minimum Number of Moves to Make Palindrome](../1356-minimum-number-of-moves-to-make-palindrome/)
+- [2037. Minimum Number of Moves to Seat Everyone](../2148-minimum-number-of-moves-to-seat-everyone/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/)

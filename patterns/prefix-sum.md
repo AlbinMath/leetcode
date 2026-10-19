@@ -54,6 +54,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 1392 | [Longest Happy Prefix](../leetcode/1508-longest-happy-prefix/) | Python | O(n) | O(n) | [Explanation](../leetcode/1508-longest-happy-prefix/Explanation.md) |
+
 | 1563 | [Stone Game V](../leetcode/1685-stone-game-v/) | Java | O(n) | O(n) | [Explanation](../leetcode/1685-stone-game-v/Explanation.md) |
 
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Java | O(n) | O(n) | [Explanation](../leetcode/2002-stone-game-viii/Explanation.md) |

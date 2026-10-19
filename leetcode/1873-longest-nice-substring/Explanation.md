@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [2213. Longest Substring of One Repeating Character](../2319-longest-substring-of-one-repeating-character/)
+- [1044. Longest Duplicate Substring](../1122-longest-duplicate-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-nice-substring/)

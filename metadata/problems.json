@@ -80,7 +80,7 @@
     "related_ids": [
       2213,
       5,
-      1624
+      1044
     ]
   },
   {
@@ -133,8 +133,8 @@
     "brief": "Given a string  s , return  the longest    palindromic     substring   in  s .",
     "related_ids": [
       3,
-      1763,
-      2213
+      1044,
+      1763
     ]
   },
   {
@@ -383,7 +383,7 @@
     "related_ids": [
       3043,
       1143,
-      2424
+      1392
     ]
   },
   {
@@ -1447,7 +1447,7 @@
     "related_ids": [
       152,
       643,
-      918
+      718
     ]
   },
   {
@@ -2490,7 +2490,7 @@
     "related_ids": [
       639,
       394,
-      1664
+      1569
     ]
   },
   {
@@ -3109,7 +3109,7 @@
     "related_ids": [
       940,
       1081,
-      1332
+      1316
     ]
   },
   {
@@ -4618,6 +4618,32 @@
       184,
       326,
       347
+    ]
+  },
+  {
+    "id": 187,
+    "title": "Repeated DNA Sequences",
+    "slug": "repeated-dna-sequences",
+    "difficulty": "Medium",
+    "folder": "0187-repeated-dna-sequences",
+    "path": "leetcode/0187-repeated-dna-sequences",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "The  DNA sequence  is composed of a series of nucleotides abbreviated as  &#39;A&#39; ,  &#39;C&#39; ,  &#39;G&#39; , and  &#39;T&#39; .",
+    "related_ids": [
+      459,
+      686,
+      718
     ]
   },
   {
@@ -7834,9 +7860,9 @@
     "space": "O(1)",
     "brief": "Given a string  s  which consists of lowercase or uppercase letters, return the length of the  longest  palindrome   that can be built with those letters.",
     "related_ids": [
+      1147,
       3,
-      5,
-      9
+      5
     ]
   },
   {
@@ -8374,7 +8400,7 @@
     "related_ids": [
       312,
       1189,
-      2058
+      2037
     ]
   },
   {
@@ -11728,6 +11754,32 @@
     ]
   },
   {
+    "id": 718,
+    "title": "Maximum Length of Repeated Subarray",
+    "slug": "maximum-length-of-repeated-subarray",
+    "difficulty": "Medium",
+    "folder": "0718-maximum-length-of-repeated-subarray",
+    "path": "leetcode/0718-maximum-length-of-repeated-subarray",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given two integer arrays  nums1  and  nums2 , return  the maximum length of a subarray that appears in  both  arrays .",
+    "related_ids": [
+      53,
+      152,
+      643
+    ]
+  },
+  {
     "id": 724,
     "title": "Find Pivot Index",
     "slug": "find-pivot-index",
@@ -12425,6 +12477,32 @@
       976,
       84,
       118
+    ]
+  },
+  {
+    "id": 818,
+    "title": "Race Car",
+    "slug": "race-car",
+    "difficulty": "Hard",
+    "folder": "0836-race-car",
+    "path": "leetcode/0836-race-car",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Your car starts at position  0  and speed  +1  on an infinite number line. Your car can go into negative positions. Your car drives automatically according to a sequence of instructions  &#39;A&#39;  (accelerate) and  &#39;R&#39;  (reverse):",
+    "related_ids": [
+      5,
+      26,
+      27
     ]
   },
   {
@@ -13656,9 +13734,9 @@
     "space": "O(1)",
     "brief": "An array  nums  of length  n  is  beautiful  if:",
     "related_ids": [
-      26,
-      33,
-      34
+      3006,
+      3008,
+      26
     ]
   },
   {
@@ -14495,6 +14573,32 @@
     ]
   },
   {
+    "id": 1044,
+    "title": "Longest Duplicate Substring",
+    "slug": "longest-duplicate-substring",
+    "difficulty": "Hard",
+    "folder": "1122-longest-duplicate-substring",
+    "path": "leetcode/1122-longest-duplicate-substring",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a string  s , consider all  duplicated substrings : (contiguous) substrings of s that occur 2 or more times. The occurrences may overlap.",
+    "related_ids": [
+      3,
+      5,
+      1763
+    ]
+  },
+  {
     "id": 1045,
     "title": "Customers Who Bought All Products",
     "slug": "customers-who-bought-all-products",
@@ -15281,6 +15385,34 @@
       26,
       33,
       34
+    ]
+  },
+  {
+    "id": 1147,
+    "title": "Longest Chunked Palindrome Decomposition",
+    "slug": "longest-chunked-palindrome-decomposition",
+    "difficulty": "Hard",
+    "folder": "1251-longest-chunked-palindrome-decomposition",
+    "path": "leetcode/1251-longest-chunked-palindrome-decomposition",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
+    "topics": [
+      "Two Pointers",
+      "Array",
+      "Sorting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a string  text . You should split it to k substrings  (subtext 1 , subtext 2 , ..., subtext k )  such that:",
+    "related_ids": [
+      409,
+      3,
+      5
     ]
   },
   {
@@ -16479,6 +16611,32 @@
     ]
   },
   {
+    "id": 1316,
+    "title": "Distinct Echo Substrings",
+    "slug": "distinct-echo-substrings",
+    "difficulty": "Hard",
+    "folder": "1244-distinct-echo-substrings",
+    "path": "leetcode/1244-distinct-echo-substrings",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Return the number of  distinct  non-empty substrings of  text  that can be written as the concatenation of some string with itself (i.e. it can be written as  a + a  where  a  is some string).",
+    "related_ids": [
+      1876,
+      115,
+      696
+    ]
+  },
+  {
     "id": 1317,
     "title": "Convert Integer to the Sum of Two No-Zero Integers",
     "slug": "convert-integer-to-the-sum-of-two-no-zero-integers",
@@ -17296,8 +17454,8 @@
     "brief": "A cinema has  n  rows of seats, numbered from 1 to  n . Each row has 10 seats, numbered from 1 to 10.",
     "related_ids": [
       1227,
-      1,
-      49
+      2037,
+      1
     ]
   },
   {
@@ -17324,6 +17482,33 @@
       1354,
       1649,
       2089
+    ]
+  },
+  {
+    "id": 1392,
+    "title": "Longest Happy Prefix",
+    "slug": "longest-happy-prefix",
+    "difficulty": "Hard",
+    "folder": "1508-longest-happy-prefix",
+    "path": "leetcode/1508-longest-happy-prefix",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
+    "topics": [
+      "Prefix Sum",
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "A string is called a  happy prefix  if it is a  non-empty  prefix which is also a suffix (excluding itself).",
+    "related_ids": [
+      14,
+      2424,
+      3043
     ]
   },
   {
@@ -17750,9 +17935,9 @@
     "space": "O(1)",
     "brief": "Given an binary array  nums  and an integer  k , return  true   if all   1  &#39;s are at least   k   places away from each other, otherwise return   false .",
     "related_ids": [
+      1461,
       1893,
-      1662,
-      1941
+      1662
     ]
   },
   {
@@ -17965,6 +18150,33 @@
       4,
       349,
       350
+    ]
+  },
+  {
+    "id": 1461,
+    "title": "Check If a String Contains All Binary Codes of Size K",
+    "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+    "difficulty": "Medium",
+    "folder": "1557-check-if-a-string-contains-all-binary-codes-of-size-k",
+    "path": "leetcode/1557-check-if-a-string-contains-all-binary-codes-of-size-k",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a binary string  s  and an integer  k , return  true   if every binary code of length   k   is a substring of   s . Otherwise, return  false .",
+    "related_ids": [
+      1437,
+      1784,
+      1662
     ]
   },
   {
@@ -18884,8 +19096,36 @@
     "brief": "Given an array of positive integers  arr , find a pattern of length  m  that is repeated  k  or more times.",
     "related_ids": [
       459,
-      1437,
-      2099
+      718,
+      1437
+    ]
+  },
+  {
+    "id": 1569,
+    "title": "Number of Ways to Reorder Array to Get Same BST",
+    "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+    "difficulty": "Hard",
+    "folder": "1692-number-of-ways-to-reorder-array-to-get-same-bst",
+    "path": "leetcode/1692-number-of-ways-to-reorder-array-to-get-same-bst",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Binary Search",
+    "algorithm": "Modified Binary Search",
+    "data_structure": "Sorted Array",
+    "topics": [
+      "Binary Search",
+      "Divide and Conquer",
+      "Search Space"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array  nums  that represents a permutation of integers from  1  to  n . We are going to construct a binary search tree (BST) by inserting the elements of  nums  in order into an initially empty BST. Find the number of different ways to reorder  nums  so that the constructed BST is identical to that formed from the original array  nums .",
+    "related_ids": [
+      1561,
+      1646,
+      1664
     ]
   },
   {
@@ -19421,7 +19661,7 @@
     "related_ids": [
       1464,
       1561,
-      2091
+      1569
     ]
   },
   {
@@ -19608,7 +19848,7 @@
     "related_ids": [
       2068,
       1437,
-      1657
+      1461
     ]
   },
   {
@@ -19634,9 +19874,9 @@
     "space": "O(n)",
     "brief": "You are given an integer array  nums . You can choose  exactly one  index ( 0-indexed ) and remove the element. Notice that the index of the elements may change after the removal.",
     "related_ids": [
+      1569,
       1674,
-      1827,
-      1887
+      1827
     ]
   },
   {
@@ -20530,7 +20770,7 @@
     "related_ids": [
       3,
       5,
-      2213
+      1044
     ]
   },
   {
@@ -20636,9 +20876,9 @@
     "space": "O(1)",
     "brief": "Given a binary string  s   \u200b\u200b\u200b\u200b\u200bwithout leading zeros , return  true \u200b\u200b\u200b  if   s   contains  at most one contiguous segment of ones  . Otherwise, return  false .",
     "related_ids": [
+      1461,
       1790,
-      1662,
-      1961
+      1662
     ]
   },
   {
@@ -20719,8 +20959,8 @@
     "brief": "You are given two strings  s1  and  s2  of equal length. A  string swap  is an operation where you choose two indices in a string (not necessarily different) and swap the characters at these indices.",
     "related_ids": [
       1784,
-      1662,
-      1897
+      1461,
+      1662
     ]
   },
   {
@@ -21369,9 +21609,9 @@
     "space": "O(1)",
     "brief": "There are  n  uniquely-sized sticks whose lengths are integers from  1  to  n . You want to arrange the sticks such that  exactly   k  sticks are  visible  from the left. A stick is  visible  from the left if there are no  longer  sticks to the  left  of it.",
     "related_ids": [
+      1569,
       1621,
-      1679,
-      1976
+      1679
     ]
   },
   {
@@ -21505,7 +21745,7 @@
     "related_ids": [
       1358,
       1081,
-      3
+      1316
     ]
   },
   {
@@ -21639,8 +21879,8 @@
     "brief": "You are given a 2D integer array  ranges  and two integers  left  and  right . Each  ranges[i] = [start i , end i ]  represents an  inclusive  interval between  start i   and  end i  .",
     "related_ids": [
       1437,
-      1662,
-      1941
+      1461,
+      1662
     ]
   },
   {
@@ -21829,6 +22069,35 @@
       26,
       80,
       1441
+    ]
+  },
+  {
+    "id": 1923,
+    "title": "Longest Common Subpath",
+    "slug": "longest-common-subpath",
+    "difficulty": "Hard",
+    "folder": "2051-longest-common-subpath",
+    "path": "leetcode/2051-longest-common-subpath",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
+    "topics": [
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "There is a country of  n  cities numbered from  0  to  n - 1 . In this country, there is a road connecting  every pair  of cities.",
+    "related_ids": [
+      14,
+      1143,
+      3043
     ]
   },
   {
@@ -22040,7 +22309,7 @@
     "related_ids": [
       1358,
       1437,
-      1790
+      1461
     ]
   },
   {
@@ -22146,7 +22415,7 @@
     "related_ids": [
       1250,
       1455,
-      1662
+      1461
     ]
   },
   {
@@ -22307,9 +22576,9 @@
     "space": "O(1)",
     "brief": "You are in a city that consists of  n  intersections numbered from  0  to  n - 1  with  bi-directional  roads between some intersections. The inputs are generated such that you can reach any intersection from any other intersection and that there is at most one road between any two intersections.",
     "related_ids": [
+      1569,
       1866,
-      3558,
-      3559
+      3558
     ]
   },
   {
@@ -22578,6 +22847,32 @@
       877,
       1140,
       1406
+    ]
+  },
+  {
+    "id": 2037,
+    "title": "Minimum Number of Moves to Seat Everyone",
+    "slug": "minimum-number-of-moves-to-seat-everyone",
+    "difficulty": "Easy",
+    "folder": "2148-minimum-number-of-moves-to-seat-everyone",
+    "path": "leetcode/2148-minimum-number-of-moves-to-seat-everyone",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There are  n   availabe  seats and  n  students  standing  in a room. You are given an array  seats  of length  n , where  seats[i]  is the position of the  i th   seat. You are also given the array  students  of length  n , where  students[j]  is the position of the  j th   student.",
+    "related_ids": [
+      2193,
+      452,
+      1674
     ]
   },
   {
@@ -22868,9 +23163,9 @@
     "space": "O(1)",
     "brief": "You are given a  0-indexed  integer array  nums  and a target element  target .",
     "related_ids": [
-      34,
-      153,
-      154
+      3006,
+      3008,
+      34
     ]
   },
   {
@@ -23249,7 +23544,7 @@
     "related_ids": [
       561,
       1389,
-      26
+      3006
     ]
   },
   {
@@ -23331,8 +23626,8 @@
     "brief": "You are given a string  s  consisting only of lowercase English letters.",
     "related_ids": [
       1674,
-      2654,
-      9
+      2037,
+      2654
     ]
   },
   {
@@ -23415,7 +23710,7 @@
     "related_ids": [
       3,
       5,
-      1493
+      1044
     ]
   },
   {
@@ -23521,9 +23816,9 @@
     "space": "O(n)",
     "brief": "A parentheses string is a  non-empty  string consisting only of  &#39;(&#39;  and  &#39;)&#39; . It is  valid  if  any  of the following conditions is  true :",
     "related_ids": [
+      1461,
       1662,
-      1784,
-      1790
+      1784
     ]
   },
   {
@@ -23548,9 +23843,9 @@
     "space": "O(n)",
     "brief": "A parentheses string is a  non-empty  string consisting only of  &#39;(&#39;  and  &#39;)&#39; . It is  valid  if  any  of the following conditions is  true :",
     "related_ids": [
+      1461,
       1662,
-      1784,
-      1790
+      1784
     ]
   },
   {
@@ -23896,8 +24191,8 @@
     "brief": "You are given a stream of  n  videos, each represented by a  distinct  number from  1  to  n  that you need to \"upload\" to a server. You need to implement a data structure that calculates the length of the  longest uploaded prefix  at various points in the upload process.",
     "related_ids": [
       14,
-      3043,
-      3
+      1392,
+      3043
     ]
   },
   {
@@ -25237,7 +25532,7 @@
     "related_ids": [
       58,
       657,
-      1313
+      718
     ]
   },
   {
@@ -26382,7 +26677,7 @@
     "related_ids": [
       3962,
       560,
-      1437
+      718
     ]
   },
   {
@@ -26410,6 +26705,58 @@
       744,
       3720,
       3734
+    ]
+  },
+  {
+    "id": 3006,
+    "title": "Find Beautiful Indices in the Given Array I",
+    "slug": "find-beautiful-indices-in-the-given-array-i",
+    "difficulty": "Medium",
+    "folder": "3245-find-beautiful-indices-in-the-given-array-i",
+    "path": "leetcode/3245-find-beautiful-indices-in-the-given-array-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  string  s , a string  a , a string  b , and an integer  k .",
+    "related_ids": [
+      3008,
+      2089,
+      3524
+    ]
+  },
+  {
+    "id": 3008,
+    "title": "Find Beautiful Indices in the Given Array II",
+    "slug": "find-beautiful-indices-in-the-given-array-ii",
+    "difficulty": "Hard",
+    "folder": "3303-find-beautiful-indices-in-the-given-array-ii",
+    "path": "leetcode/3303-find-beautiful-indices-in-the-given-array-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  string  s , a string  a , a string  b , and an integer  k .",
+    "related_ids": [
+      3006,
+      154,
+      2089
     ]
   },
   {
@@ -26623,8 +26970,8 @@
     "brief": "Given a string  s , return the  maximum  length of a  substring  such that it contains  at most two occurrences  of each character.",
     "related_ids": [
       1456,
-      1111,
-      1464
+      718,
+      1111
     ]
   },
   {
@@ -26652,7 +26999,7 @@
     "related_ids": [
       14,
       1143,
-      3043
+      1923
     ]
   },
   {
@@ -27413,9 +27760,9 @@
     "space": "O(1)",
     "brief": "+----------------+---------+",
     "related_ids": [
+      187,
       290,
-      459,
-      1566
+      459
     ]
   },
   {
@@ -27771,8 +28118,8 @@
     "brief": "You are given an array of  positive  integers  nums , and a  positive  integer  k .",
     "related_ids": [
       3525,
-      34,
-      153
+      3006,
+      34
     ]
   },
   {
@@ -27800,7 +28147,7 @@
     "related_ids": [
       3524,
       154,
-      34
+      3008
     ]
   },
   {
@@ -28022,8 +28369,8 @@
     "brief": "There is an undirected tree with  n  nodes labeled from 1 to  n , rooted at node 1. The tree is represented by a 2D integer array  edges  of length  n - 1 , where  edges[i] = [u i , v i ]  indicates that there is an edge between nodes  u i   and  v i  .",
     "related_ids": [
       3559,
-      1866,
-      1976
+      1569,
+      1866
     ]
   },
   {
@@ -28106,7 +28453,7 @@
     "related_ids": [
       1674,
       2027,
-      2193
+      2037
     ]
   },
   {

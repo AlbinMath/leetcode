@@ -76,6 +76,7 @@ LeetCode problems solved using **Tree / Graph / Grid** data structures.
 | 1854 | [Maximum Population Year](../leetcode/1983-maximum-population-year/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](../leetcode/2015-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 1914 | [Cyclically Rotating a Grid](../leetcode/2043-cyclically-rotating-a-grid/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
+| 1923 | [Longest Common Subpath](../leetcode/2051-longest-common-subpath/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Easy | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 2029 | [Stone Game IX](../leetcode/2156-stone-game-ix/) | Medium | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |
 | 2045 | [Second Minimum Time to Reach Destination](../leetcode/2171-second-minimum-time-to-reach-destination/) | Hard | Depth-First Search (DFS) / Breadth-First Search (BFS) | O(n) | O(n) |

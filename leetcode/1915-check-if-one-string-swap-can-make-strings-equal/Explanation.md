@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1784. Check if Binary String Has at Most One Segment of Ones](../1910-check-if-binary-string-has-at-most-one-segment-of-ones/)
+- [1461. Check If a String Contains All Binary Codes of Size K](../1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
 - [1662. Check If Two String Arrays are Equivalent](../1781-check-if-two-string-arrays-are-equivalent/)
-- [1897. Redistribute Characters to Make All Strings Equal](../2025-redistribute-characters-to-make-all-strings-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)

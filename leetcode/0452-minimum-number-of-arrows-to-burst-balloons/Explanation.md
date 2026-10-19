@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [312. Burst Balloons](../0312-burst-balloons/)
 - [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
-- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2037. Minimum Number of Moves to Seat Everyone](../2148-minimum-number-of-moves-to-seat-everyone/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)

@@ -82,6 +82,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 1015 | [Smallest Integer Divisible by K](../leetcode/1064-smallest-integer-divisible-by-k/) | Python | O(n) | O(1) | [Explanation](../leetcode/1064-smallest-integer-divisible-by-k/Explanation.md) |
 
+| 1461 | [Check If a String Contains All Binary Codes of Size K](../leetcode/1557-check-if-a-string-contains-all-binary-codes-of-size-k/) | Python | O(n) | O(1) | [Explanation](../leetcode/1557-check-if-a-string-contains-all-binary-codes-of-size-k/Explanation.md) |
+
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Java | O(n) | O(1) | [Explanation](../leetcode/2245-destroying-asteroids/Explanation.md) |
 
 | 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2413-smallest-number-in-infinite-set/Explanation.md) |

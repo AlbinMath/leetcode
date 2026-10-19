@@ -68,7 +68,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [1493. Longest Subarray of 1's After Deleting One Element](../1586-longest-subarray-of-1s-after-deleting-one-element/)
+- [1044. Longest Duplicate Substring](../1122-longest-duplicate-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-substring-of-one-repeating-character/)
