@@ -46,6 +46,7 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1938-minimum-operations-to-make-the-array-increasing/) | Easy | Hash Map | O(n) | O(n) |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](../leetcode/2053-check-if-all-characters-have-equal-number-of-occurrences/) | Easy | Hash Map | O(n) | O(n) |
 | 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | Easy | Hash Map | O(n) | O(n) |
+| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/) | Easy | Hash Map | O(n) | O(n) |
 | 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/) | Easy | Hash Map | O(n) | O(n) |
 | 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2423-minimum-deletions-to-make-array-divisible/) | Hard | Hash Map | O(n) | O(n) |
 | 2622 | [Cache With Time Limit](../leetcode/2762-cache-with-time-limit/) | Medium | Hash Map | O(n) | O(n) |

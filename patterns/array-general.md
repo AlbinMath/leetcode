@@ -418,8 +418,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2137-final-value-of-variable-after-performing-operations/Explanation.md) |
 
-| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/) | Python | O(n) | O(1) | [Explanation](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/Explanation.md) |
-
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/Explanation.md) |
 
 | 2047 | [Number of Valid Words in a Sentence](../leetcode/2173-number-of-valid-words-in-a-sentence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2173-number-of-valid-words-in-a-sentence/Explanation.md) |

@@ -54,6 +54,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2154-minimum-moves-to-convert-string/Explanation.md) |
 
+| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/) | Python | O(n) | O(n) | [Explanation](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/Explanation.md) |
+
 | 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/Explanation.md) |
 
 | 2635 | [Apply Transform Over Each Element in Array](../leetcode/2747-apply-transform-over-each-element-in-array/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2747-apply-transform-over-each-element-in-array/Explanation.md) |

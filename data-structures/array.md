@@ -417,7 +417,6 @@ LeetCode problems solved using **Array** data structures.
 | 1995 | [Count Special Quadruplets](../leetcode/2122-count-special-quadruplets/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 1998 | [GCD Sort of an Array](../leetcode/2125-gcd-sort-of-an-array/) | Hard | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
-| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color](../leetcode/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/) | Medium | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |
 | 2047 | [Number of Valid Words in a Sentence](../leetcode/2173-number-of-valid-words-in-a-sentence/) | Easy | In-Place Array Traversal & Index Mapping | O(n) | O(1) |

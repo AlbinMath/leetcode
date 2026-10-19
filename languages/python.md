@@ -434,7 +434,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 1928 | [Minimum Cost to Reach Destination in Time](../leetcode/2040-minimum-cost-to-reach-destination-in-time/) | Hard | Array / General | O(n) | O(1) |
 | 1976 | [Number of Ways to Arrive at Destination](../leetcode/2090-number-of-ways-to-arrive-at-destination/) | Medium | Array / General | O(n) | O(1) |
 | 1998 | [GCD Sort of an Array](../leetcode/2125-gcd-sort-of-an-array/) | Hard | Array / General | O(n) | O(1) |
-| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/) | Easy | Array / General | O(n) | O(1) |
+| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/) | Easy | Hash Map | O(n) | O(n) |
 | 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color](../leetcode/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/) | Medium | Array / General | O(n) | O(1) |
 | 2045 | [Second Minimum Time to Reach Destination](../leetcode/2171-second-minimum-time-to-reach-destination/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2089 | [Find Target Indices After Sorting Array](../leetcode/2210-find-target-indices-after-sorting-array/) | Easy | Array / General | O(n) | O(1) |
