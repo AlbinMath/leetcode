@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [639. Decode Ways II](../0639-decode-ways-ii/)
 - [394. Decode String](../0394-decode-string/)
-- [1569. Number of Ways to Reorder Array to Get Same BST](../1692-number-of-ways-to-reorder-array-to-get-same-bst/)
+- [535. Encode and Decode TinyURL](../0535-encode-and-decode-tinyurl/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decode-ways/)

@@ -12,6 +12,7 @@ A curated selection of LeetCode problems solved using the **Memoization & State 
 | 334 | [Increasing Triplet Subsequence](../leetcode/0334-increasing-triplet-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 446 | [Arithmetic Slices Ii   Subsequence](../leetcode/0446-arithmetic-slices-ii---subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
+| 478 | [Generate Random Point in a Circle](../leetcode/0915-generate-random-point-in-a-circle/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 486 | [Predict the Winner](../leetcode/0486-predict-the-winner/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 521 | [Longest Uncommon Subsequence I](../leetcode/0521-longest-uncommon-subsequence-i/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 594 | [Longest Harmonious Subsequence](../leetcode/0594-longest-harmonious-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |

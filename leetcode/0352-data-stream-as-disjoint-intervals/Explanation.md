@@ -65,8 +65,8 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 
 ## Related Problems
 - [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
+- [2526. Find Consecutive Integers from a Data Stream](../2620-find-consecutive-integers-from-a-data-stream/)
 - [56. Merge Intervals](../0056-merge-intervals/)
-- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)

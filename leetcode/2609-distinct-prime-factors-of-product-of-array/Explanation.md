@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [238. Product of Array Except Self](../0238-product-of-array-except-self/)
 - [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
-- [1822. Sign of the Product of an Array](../1950-sign-of-the-product-of-an-array/)
+- [1735. Count Ways to Make Array With Product](../1836-count-ways-to-make-array-with-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/)

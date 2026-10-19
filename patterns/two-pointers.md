@@ -122,5 +122,7 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/Explanation.md) |
 
+| 3327 | [Check if DFS Strings Are Palindromes](../leetcode/3603-check-if-dfs-strings-are-palindromes/) | Python | O(n) | O(1) | [Explanation](../leetcode/3603-check-if-dfs-strings-are-palindromes/Explanation.md) |
+
 | 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/Explanation.md) |
 

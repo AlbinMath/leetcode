@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
+- [952. Largest Component Size by Common Factor](../0989-largest-component-size-by-common-factor/)
 - [961. N-Repeated Element in Size 2N Array](../1001-n-repeated-element-in-size-2n-array/)
-- [1413. Minimum Value to Get Positive Step by Step Sum](../1514-minimum-value-to-get-positive-step-by-step-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-the-size-of-a-dataframe/)

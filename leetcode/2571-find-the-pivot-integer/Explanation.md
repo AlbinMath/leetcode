@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [724. Find Pivot Index](../0724-find-pivot-index/)
+- [1237. Find Positive Integer Solution for a Given Equation](../1358-find-positive-integer-solution-for-a-given-equation/)
 - [1394. Find Lucky Integer in an Array](../1510-find-lucky-integer-in-an-array/)
-- [3471. Find the Largest Almost Missing Integer](../3705-find-the-largest-almost-missing-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-pivot-integer/)

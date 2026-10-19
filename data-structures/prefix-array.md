@@ -20,11 +20,15 @@ LeetCode problems solved using **Prefix Array** data structures.
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
 | 1961 | [Check If String Is a Prefix of Array](../leetcode/2093-check-if-string-is-a-prefix-of-array/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
 | 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
+| 2416 | [Sum of Prefix Scores of Strings](../leetcode/2494-sum-of-prefix-scores-of-strings/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
 | 2424 | [Longest Uploaded Prefix](../leetcode/2512-longest-uploaded-prefix/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
 | 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
 | 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
+| 3042 | [Count Prefix and Suffix Pairs I](../leetcode/3309-count-prefix-and-suffix-pairs-i/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
 | 3043 | [Find the Length of the Longest Common Prefix](../leetcode/3329-find-the-length-of-the-longest-common-prefix/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
+| 3045 | [Count Prefix and Suffix Pairs II](../leetcode/3305-count-prefix-and-suffix-pairs-ii/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
 | 3471 | [Find the Largest Almost Missing Integer](../leetcode/3705-find-the-largest-almost-missing-integer/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
+| 3485 | [Longest Common Prefix of K Strings After Removal](../leetcode/3784-longest-common-prefix-of-k-strings-after-removal/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
 | 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |

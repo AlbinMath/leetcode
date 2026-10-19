@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3380. Maximum Area Rectangle With Point Constraints I](../3681-maximum-area-rectangle-with-point-constraints-i/)
 - [850. Rectangle Area II](../0880-rectangle-area-ii/)
-- [223. Rectangle Area](../0223-rectangle-area/)
+- [963. Minimum Area Rectangle II](../1003-minimum-area-rectangle-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [696. Count Binary Substrings](../0696-count-binary-substrings/)
+- [3529. Count Cells in Overlapping Horizontal and Vertical Substrings](../3821-count-cells-in-overlapping-horizontal-and-vertical-substrings/)
 - [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)

@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1250. Check If It Is a Good Array](../1372-check-if-it-is-a-good-array/)
 - [1448. Count Good Nodes in Binary Tree](../1544-count-good-nodes-in-binary-tree/)
-- [2183. Count Array Pairs Divisible by K](../2301-count-array-pairs-divisible-by-k/)
+- [1735. Count Ways to Make Array With Product](../1836-count-ways-to-make-array-with-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-good-triplets-in-an-array/)

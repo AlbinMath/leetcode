@@ -69,8 +69,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [3043. Find the Length of the Longest Common Prefix](../3329-find-the-length-of-the-longest-common-prefix/)
+- [3485. Longest Common Prefix of K Strings After Removal](../3784-longest-common-prefix-of-k-strings-after-removal/)
 - [1143. Longest Common Subsequence](../1250-longest-common-subsequence/)
-- [1392. Longest Happy Prefix](../1508-longest-happy-prefix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-common-prefix/)

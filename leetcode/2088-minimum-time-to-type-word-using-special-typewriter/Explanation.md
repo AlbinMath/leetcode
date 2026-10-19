@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3014. Minimum Number of Pushes to Type Word I](../3275-minimum-number-of-pushes-to-type-word-i/)
 - [3016. Minimum Number of Pushes to Type Word II](../3276-minimum-number-of-pushes-to-type-word-ii/)
-- [1266. Minimum Time Visiting All Points](../1395-minimum-time-visiting-all-points/)
+- [3029. Minimum Time to Revert Word to Initial State I](../3297-minimum-time-to-revert-word-to-initial-state-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)

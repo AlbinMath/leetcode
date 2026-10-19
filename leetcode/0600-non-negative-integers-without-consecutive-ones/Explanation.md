@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
 - [1004. Max Consecutive Ones III](../1046-max-consecutive-ones-iii/)
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [2526. Find Consecutive Integers from a Data Stream](../2620-find-consecutive-integers-from-a-data-stream/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)

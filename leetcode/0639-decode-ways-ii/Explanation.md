@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [91. Decode Ways](../0091-decode-ways/)
+- [3027. Find the Number of Ways to Place People II](../3277-find-the-number-of-ways-to-place-people-ii/)
 - [3559. Number of Ways to Assign Edge Weights II](../3842-number-of-ways-to-assign-edge-weights-ii/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decode-ways-ii/)

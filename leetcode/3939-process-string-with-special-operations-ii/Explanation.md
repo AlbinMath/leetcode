@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3612. Process String with Special Operations I](../3931-process-string-with-special-operations-i/)
 - [541. Reverse String II](../0541-reverse-string-ii/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [2977. Minimum Cost to Convert String II](../3238-minimum-cost-to-convert-string-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-string-with-special-operations-ii/)

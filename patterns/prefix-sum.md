@@ -28,6 +28,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Rust | O(n) | O(n) | [Explanation](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/Explanation.md) |
 
+| 3042 | [Count Prefix and Suffix Pairs I](../leetcode/3309-count-prefix-and-suffix-pairs-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/3309-count-prefix-and-suffix-pairs-i/Explanation.md) |
+
 | 3471 | [Find the Largest Almost Missing Integer](../leetcode/3705-find-the-largest-almost-missing-integer/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/3705-find-the-largest-almost-missing-integer/Explanation.md) |
 
 | 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3869-smallest-index-with-digit-sum-equal-to-index/Explanation.md) |
@@ -59,4 +61,10 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 | 1563 | [Stone Game V](../leetcode/1685-stone-game-v/) | Java | O(n) | O(n) | [Explanation](../leetcode/1685-stone-game-v/Explanation.md) |
 
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Java | O(n) | O(n) | [Explanation](../leetcode/2002-stone-game-viii/Explanation.md) |
+
+| 2416 | [Sum of Prefix Scores of Strings](../leetcode/2494-sum-of-prefix-scores-of-strings/) | Python | O(n) | O(n) | [Explanation](../leetcode/2494-sum-of-prefix-scores-of-strings/Explanation.md) |
+
+| 3045 | [Count Prefix and Suffix Pairs II](../leetcode/3305-count-prefix-and-suffix-pairs-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/3305-count-prefix-and-suffix-pairs-ii/Explanation.md) |
+
+| 3485 | [Longest Common Prefix of K Strings After Removal](../leetcode/3784-longest-common-prefix-of-k-strings-after-removal/) | Python | O(n) | O(n) | [Explanation](../leetcode/3784-longest-common-prefix-of-k-strings-after-removal/Explanation.md) |
 

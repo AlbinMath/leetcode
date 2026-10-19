@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
 - [1913. Maximum Product Difference Between Two Pairs](../2042-maximum-product-difference-between-two-pairs/)
-- [152. Maximum Product Subarray](../0152-maximum-product-subarray/)
+- [1960. Maximum Product of the Length of Two Palindromic Substrings](../1336-maximum-product-of-the-length-of-two-palindromic-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-of-two-digits/)

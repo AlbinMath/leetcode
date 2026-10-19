@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3045. Count Prefix and Suffix Pairs II](../3305-count-prefix-and-suffix-pairs-ii/)
 - [2183. Count Array Pairs Divisible by K](../2301-count-array-pairs-divisible-by-k/)
-- [3739. Count Subarrays With Majority Element II](../4075-count-subarrays-with-majority-element-ii/)
-- [3871. Count Commas in Range II](../4248-count-commas-in-range-ii/)
+- [3042. Count Prefix and Suffix Pairs I](../3309-count-prefix-and-suffix-pairs-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-shadow-pairs-ii/)

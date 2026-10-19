@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1456. Maximum Number of Vowels in a Substring of Given Length](../1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
+- [1960. Maximum Product of the Length of Two Palindromic Substrings](../1336-maximum-product-of-the-length-of-two-palindromic-substrings/)
 - [718. Maximum Length of Repeated Subarray](../0718-maximum-length-of-repeated-subarray/)
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)

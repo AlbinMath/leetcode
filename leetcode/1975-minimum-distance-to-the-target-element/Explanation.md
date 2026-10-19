@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
-- [3300. Minimum Element After Replacement With Digit Sum](../3606-minimum-element-after-replacement-with-digit-sum/)
-- [27. Remove Element](../0027-remove-element/)
+- [3291. Minimum Number of Valid Strings to Form Target I](../3559-minimum-number-of-valid-strings-to-form-target-i/)
+- [3292. Minimum Number of Valid Strings to Form Target II](../3557-minimum-number-of-valid-strings-to-form-target-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-distance-to-the-target-element/)

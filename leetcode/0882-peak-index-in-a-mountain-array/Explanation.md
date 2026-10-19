@@ -66,8 +66,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [941. Valid Mountain Array](../0978-valid-mountain-array/)
+- [1095. Find in Mountain Array](../1185-find-in-mountain-array/)
 - [1991. Find the Middle Index in Array](../2102-find-the-middle-index-in-array/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/peak-index-in-a-mountain-array/)

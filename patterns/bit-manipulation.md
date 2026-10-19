@@ -50,6 +50,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 2890 | [Reshape Data: Melt](../leetcode/3073-reshape-data-melt/) | Python | O(n) | O(1) | [Explanation](../leetcode/3073-reshape-data-melt/Explanation.md) |
 
+| 2932 | [Maximum Strong Pair XOR I](../leetcode/3193-maximum-strong-pair-xor-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3193-maximum-strong-pair-xor-i/Explanation.md) |
+
 | 3674 | [Minimum Operations to Equalize Array](../leetcode/3998-minimum-operations-to-equalize-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/3998-minimum-operations-to-equalize-array/Explanation.md) |
 
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/Explanation.md) |
@@ -81,6 +83,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | JavaScript | O(n²) | O(1) | [Explanation](../leetcode/0864-image-overlap/Explanation.md) |
 
 | 1015 | [Smallest Integer Divisible by K](../leetcode/1064-smallest-integer-divisible-by-k/) | Python | O(n) | O(1) | [Explanation](../leetcode/1064-smallest-integer-divisible-by-k/Explanation.md) |
+
+| 1352 | [Product of the Last K Numbers](../leetcode/1477-product-of-the-last-k-numbers/) | Python | O(n) | O(1) | [Explanation](../leetcode/1477-product-of-the-last-k-numbers/Explanation.md) |
 
 | 1461 | [Check If a String Contains All Binary Codes of Size K](../leetcode/1557-check-if-a-string-contains-all-binary-codes-of-size-k/) | Python | O(n) | O(1) | [Explanation](../leetcode/1557-check-if-a-string-contains-all-binary-codes-of-size-k/Explanation.md) |
 
@@ -114,9 +118,13 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 2197 | [Replace Non-Coprime Numbers in Array](../leetcode/2307-replace-non-coprime-numbers-in-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/2307-replace-non-coprime-numbers-in-array/Explanation.md) |
 
+| 2935 | [Maximum Strong Pair XOR II](../leetcode/3197-maximum-strong-pair-xor-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/3197-maximum-strong-pair-xor-ii/Explanation.md) |
+
 | 3624 | [Number of Integers With Popcount-Depth Equal to K II](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/Explanation.md) |
 
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4128-total-waviness-of-numbers-in-range-ii/Explanation.md) |
+
+| 3845 | [Maximum Subarray XOR with Bounded Range](../leetcode/4204-maximum-subarray-xor-with-bounded-range/) | Python | O(n) | O(1) | [Explanation](../leetcode/4204-maximum-subarray-xor-with-bounded-range/Explanation.md) |
 
 | 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Python | O(n) | O(1) | [Explanation](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/Explanation.md) |
 

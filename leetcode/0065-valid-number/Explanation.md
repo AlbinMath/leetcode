@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [611. Valid Triangle Number](../0611-valid-triangle-number/)
 - [2047. Number of Valid Words in a Sentence](../2173-number-of-valid-words-in-a-sentence/)
-- [9. Palindrome Number](../0009-palindrome-number/)
+- [3291. Minimum Number of Valid Strings to Form Target I](../3559-minimum-number-of-valid-strings-to-form-target-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-number/)

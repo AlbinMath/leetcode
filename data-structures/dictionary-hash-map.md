@@ -48,12 +48,15 @@ LeetCode problems solved using **Dictionary / Hash Map** data structures.
 | 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2148-minimum-number-of-moves-to-seat-everyone/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2177-check-whether-two-strings-are-almost-equivalent/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 2227 | [Encrypt and Decrypt Strings](../leetcode/1433-encrypt-and-decrypt-strings/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2423-minimum-deletions-to-make-array-divisible/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 2452 | [Words Within Two Edits of Dictionary](../leetcode/2550-words-within-two-edits-of-dictionary/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2622 | [Cache With Time Limit](../leetcode/2762-cache-with-time-limit/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2635 | [Apply Transform Over Each Element in Array](../leetcode/2747-apply-transform-over-each-element-in-array/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2659 | [Make Array Empty](../leetcode/2765-make-array-empty/) | Hard | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2703 | [Return Length of Arguments Passed](../leetcode/2820-return-length-of-arguments-passed/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
+| 2707 | [Extra Characters in a String](../leetcode/2755-extra-characters-in-a-string/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2722 | [Join Two Arrays by ID](../leetcode/2858-join-two-arrays-by-id/) | Medium | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2726 | [Calculator with Method Chaining](../leetcode/2863-calculator-with-method-chaining/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |
 | 2891 | [Method Chaining](../leetcode/3063-method-chaining/) | Easy | Complement Lookup / Hash Table Frequency | O(n) | O(n) |

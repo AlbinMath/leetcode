@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [448. Find All Numbers Disappeared in an Array](../0448-find-all-numbers-disappeared-in-an-array/)
+- [2584. Split the Array to Make Coprime Products](../2647-split-the-array-to-make-coprime-products/)
 - [2. Add Two Numbers](../0002-add-two-numbers/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/)

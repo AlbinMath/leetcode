@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [231. Power of Two](../0231-power-of-two/)
 - [326. Power of Three](../0326-power-of-three/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [1390. Four Divisors](../1284-four-divisors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-of-four/)

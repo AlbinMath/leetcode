@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [976. Largest Perimeter Triangle](../1018-largest-perimeter-triangle/)
-- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
-- [118. Pascal's Triangle](../0118-pascals-triangle/)
+- [3047. Find the Largest Area of Square Inside Two Rectangles](../3325-find-the-largest-area-of-square-inside-two-rectangles/)
+- [3588. Find Maximum Area of a Triangle](../3868-find-maximum-area-of-a-triangle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-triangle-area/)

@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [963. Minimum Area Rectangle II](../1003-minimum-area-rectangle-ii/)
 - [3382. Maximum Area Rectangle With Point Constraints II](../3689-maximum-area-rectangle-with-point-constraints-ii/)
 - [223. Rectangle Area](../0223-rectangle-area/)
-- [3380. Maximum Area Rectangle With Point Constraints I](../3681-maximum-area-rectangle-with-point-constraints-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rectangle-area-ii/)

@@ -6,5 +6,4 @@ LeetCode problems solved using **Linked List** data structures.
 
 | # | Problem | Difficulty | Algorithm | Time | Space |
 |---|---|---|---|---|---|
-| 882 | [Reachable Nodes In Subdivided Graph](../leetcode/0918-reachable-nodes-in-subdivided-graph/) | Hard | Pointer Traversal & Node Manipulation | O(n) | O(1) |
-| 1786 | [Number of Restricted Paths From First to Last Node](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/) | Medium | Pointer Traversal & Node Manipulation | O(n) | O(1) |
+| 430 | [Flatten a Multilevel Doubly Linked List](../leetcode/0766-flatten-a-multilevel-doubly-linked-list/) | Medium | Pointer Traversal & Node Manipulation | O(n) | O(1) |

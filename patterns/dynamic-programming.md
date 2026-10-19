@@ -32,6 +32,8 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | 446 | [Arithmetic Slices Ii   Subsequence](../leetcode/0446-arithmetic-slices-ii---subsequence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0446-arithmetic-slices-ii---subsequence/Explanation.md) |
 
+| 478 | [Generate Random Point in a Circle](../leetcode/0915-generate-random-point-in-a-circle/) | Python | O(n) | O(n) | [Explanation](../leetcode/0915-generate-random-point-in-a-circle/Explanation.md) |
+
 | 486 | [Predict the Winner](../leetcode/0486-predict-the-winner/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0486-predict-the-winner/Explanation.md) |
 
 | 673 | [Number of Longest Increasing Subsequence](../leetcode/0673-number-of-longest-increasing-subsequence/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0673-number-of-longest-increasing-subsequence/Explanation.md) |

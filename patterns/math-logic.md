@@ -38,6 +38,8 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 1945 | [Sum of Digits of String After Convert](../leetcode/2076-sum-of-digits-of-string-after-convert/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2076-sum-of-digits-of-string-after-convert/Explanation.md) |
 
+| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Python | O(n) | O(1) | [Explanation](../leetcode/2575-minimum-cuts-to-divide-a-circle/Explanation.md) |
+
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2639-separate-the-digits-in-an-array/Explanation.md) |
 
 | 3300 | [Minimum Element After Replacement With Digit Sum](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/Explanation.md) |
@@ -64,19 +66,33 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 611 | [Valid Triangle Number](../leetcode/0611-valid-triangle-number/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0611-valid-triangle-number/Explanation.md) |
 
+| 939 | [Minimum Area Rectangle](../leetcode/0976-minimum-area-rectangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0976-minimum-area-rectangle/Explanation.md) |
+
+| 963 | [Minimum Area Rectangle II](../leetcode/1003-minimum-area-rectangle-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/1003-minimum-area-rectangle-ii/Explanation.md) |
+
 | 1344 | [Angle Between Hands of a Clock](../leetcode/1446-angle-between-hands-of-a-clock/) | Java | O(n) | O(1) | [Explanation](../leetcode/1446-angle-between-hands-of-a-clock/Explanation.md) |
 
 | 1401 | [Circle and Rectangle Overlapping](../leetcode/1501-circle-and-rectangle-overlapping/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1501-circle-and-rectangle-overlapping/Explanation.md) |
+
+| 1828 | [Queries on Number of Points Inside a Circle](../leetcode/1939-queries-on-number-of-points-inside-a-circle/) | Python | O(n) | O(1) | [Explanation](../leetcode/1939-queries-on-number-of-points-inside-a-circle/Explanation.md) |
+
+| 2249 | [Count Lattice Points Inside a Circle](../leetcode/2332-count-lattice-points-inside-a-circle/) | Python | O(n) | O(1) | [Explanation](../leetcode/2332-count-lattice-points-inside-a-circle/Explanation.md) |
 
 | 2250 | [Count Number of Rectangles Containing Each Point](../leetcode/2333-count-number-of-rectangles-containing-each-point/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2333-count-number-of-rectangles-containing-each-point/Explanation.md) |
 
 | 2637 | [Promise Time Limit](../leetcode/2749-promise-time-limit/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2749-promise-time-limit/Explanation.md) |
 
+| 3047 | [Find the Largest Area of Square Inside Two Rectangles](../leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles/) | Python | O(n) | O(1) | [Explanation](../leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles/Explanation.md) |
+
 | 3380 | [Maximum Area Rectangle With Point Constraints I](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/Explanation.md) |
 
 | 3551 | [Minimum Swaps to Sort by Digit Sum](../leetcode/3847-minimum-swaps-to-sort-by-digit-sum/) | Python | O(n) | O(1) | [Explanation](../leetcode/3847-minimum-swaps-to-sort-by-digit-sum/Explanation.md) |
 
+| 3588 | [Find Maximum Area of a Triangle](../leetcode/3868-find-maximum-area-of-a-triangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/3868-find-maximum-area-of-a-triangle/Explanation.md) |
+
 | 3723 | [Maximize Sum of Squares of Digits](../leetcode/4084-maximize-sum-of-squares-of-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/4084-maximize-sum-of-squares-of-digits/Explanation.md) |
+
+| 3899 | [Angles of a Triangle](../leetcode/4266-angles-of-a-triangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/4266-angles-of-a-triangle/Explanation.md) |
 
 ### Hard
 
@@ -93,6 +109,8 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 | 850 | [Rectangle Area II](../leetcode/0880-rectangle-area-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0880-rectangle-area-ii/Explanation.md) |
 
 | 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/Explanation.md) |
+
+| 3235 | [Check if the Rectangle Corner Is Reachable](../leetcode/3478-check-if-the-rectangle-corner-is-reachable/) | Python | O(n) | O(1) | [Explanation](../leetcode/3478-check-if-the-rectangle-corner-is-reachable/Explanation.md) |
 
 | 3348 | [Smallest Divisible Digit Product II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Python, TypeScript | O(n) | O(1) | [Explanation](../leetcode/3635-smallest-divisible-digit-product-ii/Explanation.md) |
 

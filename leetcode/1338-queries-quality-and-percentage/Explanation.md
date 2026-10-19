@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1409. Queries on a Permutation With Key](../1525-queries-on-a-permutation-with-key/)
 - [1633. Percentage of Users Attended a Contest](../1773-percentage-of-users-attended-a-contest/)
-- [2509. Cycle Length Queries in a Tree](../2597-cycle-length-queries-in-a-tree/)
+- [1828. Queries on Number of Points Inside a Circle](../1939-queries-on-number-of-points-inside-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queries-quality-and-percentage/)

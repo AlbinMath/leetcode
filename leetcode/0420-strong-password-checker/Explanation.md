@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1051. Height Checker](../1137-height-checker/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [2932. Maximum Strong Pair XOR I](../3193-maximum-strong-pair-xor-i/)
+- [2935. Maximum Strong Pair XOR II](../3197-maximum-strong-pair-xor-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/strong-password-checker/)

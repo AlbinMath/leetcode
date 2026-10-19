@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [905. Sort Array By Parity](../0941-sort-array-by-parity/)
+- [3510. Minimum Pair Removal to Sort Array II](../3772-minimum-pair-removal-to-sort-array-ii/)
 - [3876. Construct Uniform Parity Array II](../4258-construct-uniform-parity-array-ii/)
-- [80. Remove Duplicates from Sorted Array II](../0080-remove-duplicates-from-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-array-by-parity-ii/)

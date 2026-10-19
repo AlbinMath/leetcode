@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1684. Count the Number of Consistent Strings](../1786-count-the-number-of-consistent-strings/)
 - [2250. Count Number of Rectangles Containing Each Point](../2333-count-number-of-rectangles-containing-each-point/)
-- [2685. Count the Number of Complete Components](../2793-count-the-number-of-complete-components/)
+- [2338. Count the Number of Ideal Arrays](../2415-count-the-number-of-ideal-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-teams/)

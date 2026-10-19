@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1928. Minimum Cost to Reach Destination in Time](../2040-minimum-cost-to-reach-destination-in-time/)
 - [2045. Second Minimum Time to Reach Destination](../2171-second-minimum-time-to-reach-destination/)
-- [3629. Minimum Jumps to Reach End via Prime Teleportation](../3933-minimum-jumps-to-reach-end-via-prime-teleportation/)
+- [3507. Minimum Pair Removal to Sort Array I](../3773-minimum-pair-removal-to-sort-array-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)

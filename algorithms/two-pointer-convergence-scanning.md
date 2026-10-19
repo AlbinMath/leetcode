@@ -57,6 +57,7 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 2877 | [Create a DataFrame from List](../leetcode/3062-create-a-dataframe-from-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 2878 | [Get the Size of a DataFrame](../leetcode/3076-get-the-size-of-a-dataframe/) | Easy | Two Pointers | O(n) | O(1) |
 | 2881 | [Create a New Column](../leetcode/3066-create-a-new-column/) | Easy | Two Pointers | O(n) | O(1) |
+| 3327 | [Check if DFS Strings Are Palindromes](../leetcode/3603-check-if-dfs-strings-are-palindromes/) | Hard | Two Pointers | O(n) | O(1) |
 | 3658 | [GCD of Odd and Even Sums](../leetcode/3995-gcd-of-odd-and-even-sums/) | Easy | Two Pointers | O(n) | O(1) |
 | 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Medium | Two Pointers | O(n) | O(1) |
 | 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Hard | Two Pointers | O(n) | O(1) |

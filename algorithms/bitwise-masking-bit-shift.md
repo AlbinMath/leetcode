@@ -29,6 +29,7 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 1015 | [Smallest Integer Divisible by K](../leetcode/1064-smallest-integer-divisible-by-k/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1175 | [Prime Arrangements](../leetcode/1279-prime-arrangements/) | Easy | Bit Manipulation | O(n) | O(1) |
+| 1352 | [Product of the Last K Numbers](../leetcode/1477-product-of-the-last-k-numbers/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 1356 | [Sort Integers by The Number of 1 Bits](../leetcode/1458-sort-integers-by-the-number-of-1-bits/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](../leetcode/1557-check-if-a-string-contains-all-binary-codes-of-size-k/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 1486 | [XOR Operation in an Array](../leetcode/1610-xor-operation-in-an-array/) | Easy | Bit Manipulation | O(n) | O(1) |
@@ -50,6 +51,8 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 2886 | [Change Data Type](../leetcode/3069-change-data-type/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2887 | [Fill Missing Data](../leetcode/3070-fill-missing-data/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2890 | [Reshape Data: Melt](../leetcode/3073-reshape-data-melt/) | Easy | Bit Manipulation | O(n) | O(1) |
+| 2932 | [Maximum Strong Pair XOR I](../leetcode/3193-maximum-strong-pair-xor-i/) | Easy | Bit Manipulation | O(n) | O(1) |
+| 2935 | [Maximum Strong Pair XOR II](../leetcode/3197-maximum-strong-pair-xor-ii/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 3624 | [Number of Integers With Popcount-Depth Equal to K II](../leetcode/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 3653 | [XOR After Range Multiplication Queries I](../leetcode/3974-xor-after-range-multiplication-queries-i/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 3674 | [Minimum Operations to Equalize Array](../leetcode/3998-minimum-operations-to-equalize-array/) | Easy | Bit Manipulation | O(n) | O(1) |
@@ -57,4 +60,5 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 3753 | [Total Waviness of Numbers in Range II](../leetcode/4128-total-waviness-of-numbers-in-range-ii/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | Bit Manipulation | O(n) | O(1) |
+| 3845 | [Maximum Subarray XOR with Bounded Range](../leetcode/4204-maximum-subarray-xor-with-bounded-range/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 3855 | [Sum of K-Digit Numbers in a Range](../leetcode/4239-sum-of-k-digit-numbers-in-a-range/) | Hard | Bit Manipulation | O(n) | O(1) |

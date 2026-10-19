@@ -30,6 +30,7 @@ LeetCode problems solved using **Stack** data structures.
 | 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 1111 | [Maximum Nesting Depth of Two Valid Parentheses Strings](../leetcode/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1190 | [Reverse Substrings Between Each Pair of Parentheses](../leetcode/1298-reverse-substrings-between-each-pair-of-parentheses/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
+| 1237 | [Find Positive Integer Solution for a Given Equation](../leetcode/1358-find-positive-integer-solution-for-a-given-equation/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 1441 | [Build an Array With Stack Operations](../leetcode/1552-build-an-array-with-stack-operations/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1648-minimum-insertions-to-balance-a-parentheses-string/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |

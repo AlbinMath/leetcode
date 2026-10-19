@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3700. Number of ZigZag Arrays II](../3964-number-of-zigzag-arrays-ii/)
+- [2338. Count the Number of Ideal Arrays](../2415-count-the-number-of-ideal-arrays/)
 - [3014. Minimum Number of Pushes to Type Word I](../3275-minimum-number-of-pushes-to-type-word-i/)
-- [3069. Distribute Elements Into Two Arrays I](../3347-distribute-elements-into-two-arrays-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-zigzag-arrays-i/)

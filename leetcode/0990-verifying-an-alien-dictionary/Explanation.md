@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [676. Implement Magic Dictionary](../0676-implement-magic-dictionary/)
+- [2452. Words Within Two Edits of Dictionary](../2550-words-within-two-edits-of-dictionary/)
 - [1. Two Sum](../0001-two-sum/)
-- [49. Group Anagrams](../0049-group-anagrams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/verifying-an-alien-dictionary/)

@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3047. Find the Largest Area of Square Inside Two Rectangles](../3325-find-the-largest-area-of-square-inside-two-rectangles/)
 - [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
 - [747. Largest Number At Least Twice of Others](../0748-largest-number-at-least-twice-of-others/)
-- [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)

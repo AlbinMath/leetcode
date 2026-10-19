@@ -23,6 +23,8 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 812 | [Largest Triangle Area](../leetcode/0830-largest-triangle-area/) | Easy | Math & Logic | O(n) | O(1) |
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Easy | Math & Logic | O(n) | O(1) |
 | 850 | [Rectangle Area II](../leetcode/0880-rectangle-area-ii/) | Hard | Math & Logic | O(n) | O(1) |
+| 939 | [Minimum Area Rectangle](../leetcode/0976-minimum-area-rectangle/) | Medium | Math & Logic | O(n) | O(1) |
+| 963 | [Minimum Area Rectangle II](../leetcode/1003-minimum-area-rectangle-ii/) | Medium | Math & Logic | O(n) | O(1) |
 | 976 | [Largest Perimeter Triangle](../leetcode/1018-largest-perimeter-triangle/) | Easy | Math & Logic | O(n) | O(1) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | Math & Logic | O(n) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](../leetcode/1421-find-numbers-with-even-number-of-digits/) | Easy | Math & Logic | O(n) | O(1) |
@@ -32,12 +34,17 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 1725 | [Number Of Rectangles That Can Form The Largest Square](../leetcode/1843-number-of-rectangles-that-can-form-the-largest-square/) | Easy | Math & Logic | O(n) | O(1) |
 | 1736 | [Latest Time by Replacing Hidden Digits](../leetcode/1858-latest-time-by-replacing-hidden-digits/) | Easy | Math & Logic | O(n) | O(1) |
 | 1796 | [Second Largest Digit in a String](../leetcode/1904-second-largest-digit-in-a-string/) | Easy | Math & Logic | O(n) | O(1) |
+| 1828 | [Queries on Number of Points Inside a Circle](../leetcode/1939-queries-on-number-of-points-inside-a-circle/) | Medium | Math & Logic | O(n) | O(1) |
 | 1837 | [Sum of Digits in Base K](../leetcode/1965-sum-of-digits-in-base-k/) | Easy | Math & Logic | O(n) | O(1) |
 | 1844 | [Replace All Digits with Characters](../leetcode/1954-replace-all-digits-with-characters/) | Easy | Math & Logic | O(n) | O(1) |
 | 1945 | [Sum of Digits of String After Convert](../leetcode/2076-sum-of-digits-of-string-after-convert/) | Easy | Math & Logic | O(n) | O(1) |
+| 2249 | [Count Lattice Points Inside a Circle](../leetcode/2332-count-lattice-points-inside-a-circle/) | Medium | Math & Logic | O(n) | O(1) |
 | 2250 | [Count Number of Rectangles Containing Each Point](../leetcode/2333-count-number-of-rectangles-containing-each-point/) | Medium | Math & Logic | O(n) | O(1) |
+| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Easy | Math & Logic | O(n) | O(1) |
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | Easy | Math & Logic | O(n) | O(1) |
 | 2637 | [Promise Time Limit](../leetcode/2749-promise-time-limit/) | Medium | Math & Logic | O(n) | O(1) |
+| 3047 | [Find the Largest Area of Square Inside Two Rectangles](../leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles/) | Medium | Math & Logic | O(n) | O(1) |
+| 3235 | [Check if the Rectangle Corner Is Reachable](../leetcode/3478-check-if-the-rectangle-corner-is-reachable/) | Hard | Math & Logic | O(n) | O(1) |
 | 3300 | [Minimum Element After Replacement With Digit Sum](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | Easy | Math & Logic | O(n) | O(1) |
 | 3348 | [Smallest Divisible Digit Product II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Hard | Math & Logic | O(n) | O(1) |
 | 3380 | [Maximum Area Rectangle With Point Constraints I](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/) | Medium | Math & Logic | O(n) | O(1) |
@@ -45,5 +52,7 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Easy | Math & Logic | O(n) | O(1) |
 | 3536 | [Maximum Product of Two Digits](../leetcode/3859-maximum-product-of-two-digits/) | Easy | Math & Logic | O(n) | O(1) |
 | 3551 | [Minimum Swaps to Sort by Digit Sum](../leetcode/3847-minimum-swaps-to-sort-by-digit-sum/) | Medium | Math & Logic | O(n) | O(1) |
+| 3588 | [Find Maximum Area of a Triangle](../leetcode/3868-find-maximum-area-of-a-triangle/) | Medium | Math & Logic | O(n) | O(1) |
 | 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3918-check-divisibility-by-digit-sum-and-product/) | Easy | Math & Logic | O(n) | O(1) |
 | 3723 | [Maximize Sum of Squares of Digits](../leetcode/4084-maximize-sum-of-squares-of-digits/) | Medium | Math & Logic | O(n) | O(1) |
+| 3899 | [Angles of a Triangle](../leetcode/4266-angles-of-a-triangle/) | Medium | Math & Logic | O(n) | O(1) |

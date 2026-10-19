@@ -64,9 +64,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2296. Design a Text Editor](../2389-design-a-text-editor/)
 - [12. Integer to Roman](../0012-integer-to-roman/)
 - [56. Merge Intervals](../0056-merge-intervals/)
-- [57. Insert Interval](../0057-insert-interval/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/text-justification/)

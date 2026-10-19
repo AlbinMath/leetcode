@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [908. Smallest Range I](../0944-smallest-range-i/)
+- [2932. Maximum Strong Pair XOR I](../3193-maximum-strong-pair-xor-i/)
 - [3513. Number of Unique XOR Triplets I](../3824-number-of-unique-xor-triplets-i/)
-- [3532. Path Existence Queries in a Graph I](../3838-path-existence-queries-in-a-graph-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/)

@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1331. Rank Transform of an Array](../1256-rank-transform-of-an-array/)
 - [1984. Minimum Difference Between Highest and Lowest of K Scores](../2112-minimum-difference-between-highest-and-lowest-of-k-scores/)
-- [175. Combine Two Tables](../0175-combine-two-tables/)
+- [2102. Sequentially Ordinal Rank Tracker](../2207-sequentially-ordinal-rank-tracker/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-scores/)

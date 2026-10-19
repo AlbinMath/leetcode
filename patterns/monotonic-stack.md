@@ -28,6 +28,8 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 
 | 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1159-smallest-subsequence-of-distinct-characters/Explanation.md) |
 
+| 1237 | [Find Positive Integer Solution for a Given Equation](../leetcode/1358-find-positive-integer-solution-for-a-given-equation/) | Python | O(n) | O(n) | [Explanation](../leetcode/1358-find-positive-integer-solution-for-a-given-equation/Explanation.md) |
+
 | 3499 | [Maximize Active Section with Trade I](../leetcode/3805-maximize-active-section-with-trade-i/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3805-maximize-active-section-with-trade-i/Explanation.md) |
 
 | 3737 | [Count Subarrays With Majority Element I](../leetcode/4074-count-subarrays-with-majority-element-i/) | Java | O(n) | O(n) | [Explanation](../leetcode/4074-count-subarrays-with-majority-element-i/Explanation.md) |

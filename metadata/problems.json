@@ -382,8 +382,8 @@
     "brief": "Write a function to find the longest common prefix string amongst an array of strings.",
     "related_ids": [
       3043,
-      1143,
-      1392
+      3485,
+      1143
     ]
   },
   {
@@ -439,7 +439,7 @@
     "related_ids": [
       15,
       658,
-      2523
+      973
     ]
   },
   {
@@ -1782,7 +1782,7 @@
     "related_ids": [
       611,
       2047,
-      9
+      3291
     ]
   },
   {
@@ -1862,9 +1862,9 @@
     "space": "O(n)",
     "brief": "Given an array of strings  words  and a width  maxWidth , format the text such that each line has exactly  maxWidth  characters and is fully (left and right) justified.",
     "related_ids": [
+      2296,
       12,
-      56,
-      57
+      56
     ]
   },
   {
@@ -2490,7 +2490,7 @@
     "related_ids": [
       639,
       394,
-      1569
+      535
     ]
   },
   {
@@ -3080,8 +3080,8 @@
     "brief": "Given the  root  of a binary tree, flatten the tree into a \"linked list\":",
     "related_ids": [
       109,
-      1290,
-      92
+      430,
+      1290
     ]
   },
   {
@@ -4449,7 +4449,7 @@
     "related_ids": [
       1331,
       1984,
-      175
+      2102
     ]
   },
   {
@@ -4885,8 +4885,8 @@
     "brief": "id is the primary key (column with unique values) for this table.",
     "related_ids": [
       182,
-      217,
-      219
+      1948,
+      217
     ]
   },
   {
@@ -5596,8 +5596,8 @@
     "brief": "Given the coordinates of two  rectilinear  rectangles in a 2D plane, return  the total area covered by the two rectangles .",
     "related_ids": [
       850,
-      3380,
-      3382
+      939,
+      963
     ]
   },
   {
@@ -5926,8 +5926,8 @@
     "brief": "Given an integer array  nums , return  an array   answer   such that   answer[i]   is equal to the product of all the elements of   nums   except   nums[i] .",
     "related_ids": [
       1464,
-      1822,
-      2521
+      1735,
+      1822
     ]
   },
   {
@@ -6462,9 +6462,9 @@
     "space": "O(1)",
     "brief": "The  median  is the middle value in an ordered integer list. If the size of the list is even, there is no middle value, and the median is the mean of the two middle values.",
     "related_ids": [
+      2526,
       352,
-      4,
-      19
+      4
     ]
   },
   {
@@ -7029,7 +7029,7 @@
     "related_ids": [
       231,
       326,
-      5
+      1390
     ]
   },
   {
@@ -7193,8 +7193,8 @@
     "brief": "Given a data stream input of non-negative integers  a 1 , a 2 , ..., a n  , summarize the numbers seen so far as a list of disjoint intervals.",
     "related_ids": [
       295,
-      56,
-      211
+      2526,
+      56
     ]
   },
   {
@@ -7808,7 +7808,7 @@
     "related_ids": [
       232,
       1051,
-      1840
+      1670
     ]
   },
   {
@@ -7991,8 +7991,8 @@
     "brief": "A password is considered strong if the below conditions are all met:",
     "related_ids": [
       1051,
-      5,
-      26
+      2932,
+      2935
     ]
   },
   {
@@ -8022,6 +8022,33 @@
       105,
       106,
       94
+    ]
+  },
+  {
+    "id": 430,
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "slug": "flatten-a-multilevel-doubly-linked-list",
+    "difficulty": "Medium",
+    "folder": "0766-flatten-a-multilevel-doubly-linked-list",
+    "path": "leetcode/0766-flatten-a-multilevel-doubly-linked-list",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Linked List",
+    "algorithm": "Pointer Traversal & Node Manipulation",
+    "data_structure": "Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a doubly linked list, which contains nodes that have a next pointer, a previous pointer, and an additional  child pointer . This child pointer may or may not point to a separate doubly linked list, also containing these special nodes. These child lists may have one or more children of their own, and so on, to produce a  multilevel data structure  as shown in the example below.",
+    "related_ids": [
+      114,
+      92,
+      141
     ]
   },
   {
@@ -8675,6 +8702,34 @@
     ]
   },
   {
+    "id": 478,
+    "title": "Generate Random Point in a Circle",
+    "slug": "generate-random-point-in-a-circle",
+    "difficulty": "Medium",
+    "folder": "0915-generate-random-point-in-a-circle",
+    "path": "leetcode/0915-generate-random-point-in-a-circle",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Dynamic Programming",
+    "algorithm": "Memoization & State Transition",
+    "data_structure": "DP Table / Array",
+    "topics": [
+      "Dynamic Programming",
+      "Memoization",
+      "State Transition"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given the radius and the position of the center of a circle, implement the function  randPoint  which generates a uniform random point inside the circle.",
+    "related_ids": [
+      22,
+      138,
+      528
+    ]
+  },
+  {
     "id": 479,
     "title": "Largest Palindrome Product",
     "slug": "largest-palindrome-product",
@@ -9236,7 +9291,7 @@
     "related_ids": [
       1393,
       1566,
-      5
+      2013
     ]
   },
   {
@@ -9289,8 +9344,8 @@
     "brief": "You are given a  0-indexed  array of positive integers  w  where  w[i]  describes the  weight  of the  i th   index.",
     "related_ids": [
       138,
-      1046,
-      5
+      478,
+      1046
     ]
   },
   {
@@ -9319,6 +9374,32 @@
       1200,
       783,
       1984
+    ]
+  },
+  {
+    "id": 535,
+    "title": "Encode and Decode TinyURL",
+    "slug": "encode-and-decode-tinyurl",
+    "difficulty": "Medium",
+    "folder": "0535-encode-and-decode-tinyurl",
+    "path": "leetcode/0535-encode-and-decode-tinyurl",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Note: This is a companion problem to the  System Design  problem:  Design TinyURL .",
+    "related_ids": [
+      91,
+      394,
+      639
     ]
   },
   {
@@ -10195,7 +10276,7 @@
     "related_ids": [
       485,
       1004,
-      3
+      2526
     ]
   },
   {
@@ -10389,7 +10470,7 @@
     "related_ids": [
       65,
       2047,
-      9
+      3291
     ]
   },
   {
@@ -10556,8 +10637,8 @@
     "brief": "You are given an integer array  nums .",
     "related_ids": [
       152,
-      1464,
-      1913
+      1352,
+      1464
     ]
   },
   {
@@ -10741,8 +10822,8 @@
     "brief": "A message containing letters from  A-Z  can be  encoded  into numbers using the following mapping:",
     "related_ids": [
       91,
-      3559,
-      40
+      3027,
+      3559
     ]
   },
   {
@@ -10874,9 +10955,9 @@
     "space": "O(1)",
     "brief": "There is a robot starting at the position  (0, 0) , the origin, on a 2D plane. Given a sequence of its moves, judge if this robot  ends up at   (0, 0)  after it completes its moves.",
     "related_ids": [
+      973,
       2703,
-      5,
-      26
+      5
     ]
   },
   {
@@ -11504,7 +11585,7 @@
     "related_ids": [
       1448,
       2062,
-      38
+      3529
     ]
   },
   {
@@ -11643,7 +11724,7 @@
     "related_ids": [
       211,
       706,
-      1603
+      1472
     ]
   },
   {
@@ -11671,7 +11752,7 @@
     "related_ids": [
       211,
       705,
-      1603
+      1472
     ]
   },
   {
@@ -12259,8 +12340,8 @@
     "brief": "Given four integers  sx ,  sy ,  tx , and  ty , return  true   if it is possible to convert the point   (sx, sy)   to the point   (tx, ty)   through some operations  , or   false   otherwise .",
     "related_ids": [
       149,
-      1266,
-      1637
+      973,
+      1266
     ]
   },
   {
@@ -12475,8 +12556,8 @@
     "brief": "Given an array of points on the  X-Y  plane  points  where  points[i] = [x i , y i ] , return  the area of the largest triangle that can be formed by any three different points . Answers within  10 -5   of the actual answer will be accepted.",
     "related_ids": [
       976,
-      84,
-      118
+      3047,
+      3588
     ]
   },
   {
@@ -12815,9 +12896,9 @@
     "space": "O(1)",
     "brief": "You are given a 2D array of axis-aligned  rectangles . Each  rectangle[i] = [x i1 , y i1 , x i2 , y i2 ]  denotes the  i th   rectangle where  (x i1 , y i1 )  are the coordinates of the  bottom-left corner , and  (x i2 , y i2 )  are the coordinates of the  top-right corner .",
     "related_ids": [
+      963,
       3382,
-      223,
-      3380
+      223
     ]
   },
   {
@@ -12845,8 +12926,8 @@
     "brief": "You are given an integer  mountain  array  arr  of length  n  where the values increase to a  peak element  and then decrease.",
     "related_ids": [
       941,
-      1991,
-      26
+      1095,
+      1991
     ]
   },
   {
@@ -13254,7 +13335,7 @@
     "related_ids": [
       1880,
       2114,
-      1
+      2452
     ]
   },
   {
@@ -13657,8 +13738,8 @@
     "brief": "Given an array of integers  nums , half of the integers in  nums  are  odd , and the other half are  even .",
     "related_ids": [
       905,
-      3876,
-      80
+      3510,
+      3876
     ]
   },
   {
@@ -13795,6 +13876,33 @@
     ]
   },
   {
+    "id": 939,
+    "title": "Minimum Area Rectangle",
+    "slug": "minimum-area-rectangle",
+    "difficulty": "Medium",
+    "folder": "0976-minimum-area-rectangle",
+    "path": "leetcode/0976-minimum-area-rectangle",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of points in the  X-Y  plane  points  where  points[i] = [x i , y i ] .",
+    "related_ids": [
+      963,
+      223,
+      850
+    ]
+  },
+  {
     "id": 940,
     "title": "Distinct Subsequences II",
     "slug": "distinct-subsequences-ii",
@@ -13844,8 +13952,8 @@
     "brief": "Given an array of integers  arr , return   true  if and only if it is a valid mountain array .",
     "related_ids": [
       852,
-      20,
-      26
+      1095,
+      20
     ]
   },
   {
@@ -13901,6 +14009,32 @@
     ]
   },
   {
+    "id": 952,
+    "title": "Largest Component Size by Common Factor",
+    "slug": "largest-component-size-by-common-factor",
+    "difficulty": "Hard",
+    "folder": "0989-largest-component-size-by-common-factor",
+    "path": "leetcode/0989-largest-component-size-by-common-factor",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array of unique positive integers  nums . Consider the following graph:",
+    "related_ids": [
+      14,
+      84,
+      209
+    ]
+  },
+  {
     "id": 953,
     "title": "Verifying an Alien Dictionary",
     "slug": "verifying-an-alien-dictionary",
@@ -13924,8 +14058,8 @@
     "brief": "In an alien language, surprisingly, they also use English lowercase letters, but possibly in a different  order . The  order  of the alphabet is some permutation of lowercase letters.",
     "related_ids": [
       676,
-      1,
-      49
+      2452,
+      1
     ]
   },
   {
@@ -13955,6 +14089,33 @@
     ]
   },
   {
+    "id": 963,
+    "title": "Minimum Area Rectangle II",
+    "slug": "minimum-area-rectangle-ii",
+    "difficulty": "Medium",
+    "folder": "1003-minimum-area-rectangle-ii",
+    "path": "leetcode/1003-minimum-area-rectangle-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of points in the  X-Y  plane  points  where  points[i] = [x i , y i ] .",
+    "related_ids": [
+      850,
+      939,
+      3382
+    ]
+  },
+  {
     "id": 965,
     "title": "Univalued Binary Tree",
     "slug": "univalued-binary-tree",
@@ -13980,6 +14141,32 @@
       94,
       98,
       99
+    ]
+  },
+  {
+    "id": 973,
+    "title": "K Closest Points to Origin",
+    "slug": "k-closest-points-to-origin",
+    "difficulty": "Medium",
+    "folder": "1014-k-closest-points-to-origin",
+    "path": "leetcode/1014-k-closest-points-to-origin",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array of  points  where  points[i] = [x i , y i ]  represents a point on the  X-Y  plane and an integer  k , return the  k  closest points to the origin  (0, 0) .",
+    "related_ids": [
+      658,
+      16,
+      23
     ]
   },
   {
@@ -14493,6 +14680,32 @@
     ]
   },
   {
+    "id": 1032,
+    "title": "Stream of Characters",
+    "slug": "stream-of-characters",
+    "difficulty": "Hard",
+    "folder": "1097-stream-of-characters",
+    "path": "leetcode/1097-stream-of-characters",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Design an algorithm that accepts a stream of characters and checks if a suffix of these characters is a string of a given array of strings  words .",
+    "related_ids": [
+      3,
+      295,
+      352
+    ]
+  },
+  {
     "id": 1033,
     "title": "Moving Stones Until Consecutive",
     "slug": "moving-stones-until-consecutive",
@@ -14813,7 +15026,7 @@
     "related_ids": [
       1979,
       2709,
-      14
+      3485
     ]
   },
   {
@@ -14950,6 +15163,32 @@
       182,
       196,
       217
+    ]
+  },
+  {
+    "id": 1095,
+    "title": "Find in Mountain Array",
+    "slug": "find-in-mountain-array",
+    "difficulty": "Hard",
+    "folder": "1185-find-in-mountain-array",
+    "path": "leetcode/1185-find-in-mountain-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "(This problem is an  interactive problem .)",
+    "related_ids": [
+      34,
+      153,
+      154
     ]
   },
   {
@@ -15958,7 +16197,7 @@
     "related_ids": [
       1409,
       1633,
-      2509
+      1828
     ]
   },
   {
@@ -16089,6 +16328,34 @@
       1250,
       1346,
       1437
+    ]
+  },
+  {
+    "id": 1237,
+    "title": "Find Positive Integer Solution for a Given Equation",
+    "slug": "find-positive-integer-solution-for-a-given-equation",
+    "difficulty": "Medium",
+    "folder": "1358-find-positive-integer-solution-for-a-given-equation",
+    "path": "leetcode/1358-find-positive-integer-solution-for-a-given-equation",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Monotonic Stack",
+    "algorithm": "Monotonic Stack Filtering",
+    "data_structure": "Stack",
+    "topics": [
+      "Stack",
+      "Monotonic Stack",
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "Given a callable function  f(x, y)   with a hidden formula  and a value  z , reverse engineer the formula and return  all positive integer pairs   x   and   y   where   f(x,y) == z . You may return the pairs in any order.",
+    "related_ids": [
+      1394,
+      2156,
+      2485
     ]
   },
   {
@@ -17076,6 +17343,33 @@
     ]
   },
   {
+    "id": 1352,
+    "title": "Product of the Last K Numbers",
+    "slug": "product-of-the-last-k-numbers",
+    "difficulty": "Medium",
+    "folder": "1477-product-of-the-last-k-numbers",
+    "path": "leetcode/1477-product-of-the-last-k-numbers",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Design an algorithm that accepts a stream of integers and retrieves the product of the last  k  integers of the stream.",
+    "related_ids": [
+      628,
+      3855,
+      2
+    ]
+  },
+  {
     "id": 1354,
     "title": "Construct Target Array With Multiple Sums",
     "slug": "construct-target-array-with-multiple-sums",
@@ -17181,6 +17475,32 @@
       1385,
       1624,
       1637
+    ]
+  },
+  {
+    "id": 1362,
+    "title": "Closest Divisors",
+    "slug": "closest-divisors",
+    "difficulty": "Medium",
+    "folder": "1276-closest-divisors",
+    "path": "leetcode/1276-closest-divisors",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer  num , find the closest two integers in absolute difference whose product equals  num + 1  or  num + 2 .",
+    "related_ids": [
+      16,
+      658,
+      973
     ]
   },
   {
@@ -17485,6 +17805,32 @@
     ]
   },
   {
+    "id": 1390,
+    "title": "Four Divisors",
+    "slug": "four-divisors",
+    "difficulty": "Medium",
+    "folder": "1284-four-divisors",
+    "path": "leetcode/1284-four-divisors",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums , return  the sum of divisors of the integers in that array that have exactly four divisors . If there is no such integer in the array, return  0 .",
+    "related_ids": [
+      342,
+      1362,
+      1952
+    ]
+  },
+  {
     "id": 1392,
     "title": "Longest Happy Prefix",
     "slug": "longest-happy-prefix",
@@ -17590,7 +17936,7 @@
     "related_ids": [
       1684,
       2250,
-      2685
+      2338
     ]
   },
   {
@@ -17858,7 +18204,7 @@
     "related_ids": [
       1846,
       1945,
-      2542
+      2430
     ]
   },
   {
@@ -18074,6 +18420,32 @@
     ]
   },
   {
+    "id": 1453,
+    "title": "Maximum Number of Darts Inside of a Circular Dartboard",
+    "slug": "maximum-number-of-darts-inside-of-a-circular-dartboard",
+    "difficulty": "Hard",
+    "folder": "1563-maximum-number-of-darts-inside-of-a-circular-dartboard",
+    "path": "leetcode/1563-maximum-number-of-darts-inside-of-a-circular-dartboard",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Alice is throwing  n  darts on a very large wall. You are given an array  darts  where  darts[i] = [x i , y i ]  is the position of the  i th   dart that Alice threw on the wall.",
+    "related_ids": [
+      321,
+      414,
+      918
+    ]
+  },
+  {
     "id": 1455,
     "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
     "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
@@ -18203,8 +18575,8 @@
     "brief": "You are given an array of integers  nums .",
     "related_ids": [
       1913,
-      3536,
-      152
+      1960,
+      3536
     ]
   },
   {
@@ -18260,6 +18632,32 @@
       26,
       33,
       34
+    ]
+  },
+  {
+    "id": 1472,
+    "title": "Design Browser History",
+    "slug": "design-browser-history",
+    "difficulty": "Medium",
+    "folder": "1582-design-browser-history",
+    "path": "leetcode/1582-design-browser-history",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You have a  browser  of one tab where you start on the  homepage  and you can visit another  url , get back in the history number of  steps  or move forward in the history number of  steps .",
+    "related_ids": [
+      211,
+      705,
+      706
     ]
   },
   {
@@ -18451,6 +18849,32 @@
       643,
       2058,
       2091
+    ]
+  },
+  {
+    "id": 1492,
+    "title": "The kth Factor of n",
+    "slug": "the-kth-factor-of-n",
+    "difficulty": "Medium",
+    "folder": "1585-the-kth-factor-of-n",
+    "path": "leetcode/1585-the-kth-factor-of-n",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two positive integers  n  and  k . A factor of an integer  n  is defined as an integer  i  where  n % i == 0 .",
+    "related_ids": [
+      50,
+      51,
+      52
     ]
   },
   {
@@ -18722,6 +19146,32 @@
       124,
       3742,
       53
+    ]
+  },
+  {
+    "id": 1515,
+    "title": "Best Position for a Service Centre",
+    "slug": "best-position-for-a-service-centre",
+    "difficulty": "Hard",
+    "folder": "1638-best-position-for-a-service-centre",
+    "path": "leetcode/1638-best-position-for-a-service-centre",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "A delivery company wants to build a new service center in a new city. The company knows the positions of all the customers in this city on a 2D-Map and wants to build the new center in a position such that  the sum of the euclidean distances to all customers is minimum .",
+    "related_ids": [
+      34,
+      35,
+      121
     ]
   },
   {
@@ -19338,9 +19788,9 @@
     "space": "O(1)",
     "brief": "Design a parking system for a parking lot. The parking lot has three kinds of parking spaces: big, medium, and small, with a fixed number of slots for each size.",
     "related_ids": [
+      3829,
       211,
-      705,
-      706
+      705
     ]
   },
   {
@@ -19367,6 +19817,32 @@
       1887,
       2654,
       744
+    ]
+  },
+  {
+    "id": 1610,
+    "title": "Maximum Number of Visible Points",
+    "slug": "maximum-number-of-visible-points",
+    "difficulty": "Hard",
+    "folder": "1733-maximum-number-of-visible-points",
+    "path": "leetcode/1733-maximum-number-of-visible-points",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array  points , an integer  angle , and your  location , where  location = [pos x , pos y ]  and  points[i] = [x i , y i ]  both denote  integral coordinates  on the X-Y plane.",
+    "related_ids": [
+      2058,
+      321,
+      414
     ]
   },
   {
@@ -19874,9 +20350,9 @@
     "space": "O(n)",
     "brief": "You are given an integer array  nums . You can choose  exactly one  index ( 0-indexed ) and remove the element. Notice that the index of the elements may change after the removal.",
     "related_ids": [
+      1735,
       1569,
-      1674,
-      1827
+      1674
     ]
   },
   {
@@ -19902,9 +20378,9 @@
     "space": "O(1)",
     "brief": "You are given an array  tasks  where  tasks[i] = [actual i , minimum i ] :",
     "related_ids": [
-      64,
-      76,
-      111
+      3029,
+      3031,
+      64
     ]
   },
   {
@@ -19959,6 +20435,32 @@
       3,
       1456,
       2213
+    ]
+  },
+  {
+    "id": 1670,
+    "title": "Design Front Middle Back Queue",
+    "slug": "design-front-middle-back-queue",
+    "difficulty": "Medium",
+    "folder": "1767-design-front-middle-back-queue",
+    "path": "leetcode/1767-design-front-middle-back-queue",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Design a queue that supports  push  and  pop  operations in the front, middle, and back.",
+    "related_ids": [
+      211,
+      232,
+      406
     ]
   },
   {
@@ -20440,9 +20942,9 @@
     "space": "O(1)",
     "brief": "You are given an array  rectangles  where  rectangles[i] = [l i , w i ]  represents the  i th   rectangle of length  l i   and width  w i  .",
     "related_ids": [
+      3047,
       586,
-      747,
-      1160
+      747
     ]
   },
   {
@@ -20553,6 +21055,32 @@
       28,
       34,
       153
+    ]
+  },
+  {
+    "id": 1735,
+    "title": "Count Ways to Make Array With Product",
+    "slug": "count-ways-to-make-array-with-product",
+    "difficulty": "Hard",
+    "folder": "1836-count-ways-to-make-array-with-product",
+    "path": "leetcode/1836-count-ways-to-make-array-with-product",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a 2D integer array,  queries . For each  queries[i] , where  queries[i] = [n i , k i ] , find the number of different ways you can place positive integers into an array of size  n i   such that the product of the integers is  k i  . As the number of ways may be too large, the answer to the  i th   query is the number of ways  modulo   10 9  + 7 .",
+    "related_ids": [
+      1664,
+      238,
+      1464
     ]
   },
   {
@@ -21045,6 +21573,32 @@
     ]
   },
   {
+    "id": 1797,
+    "title": "Design Authentication Manager",
+    "slug": "design-authentication-manager",
+    "difficulty": "Medium",
+    "folder": "1905-design-authentication-manager",
+    "path": "leetcode/1905-design-authentication-manager",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There is an authentication system that works with authentication tokens. For each session, the user will receive a new authentication token that will expire  timeToLive  seconds after the  currentTime . If the token is renewed, the expiry time will be  extended  to expire  timeToLive  seconds after the (potentially different)  currentTime .",
+    "related_ids": [
+      211,
+      705,
+      706
+    ]
+  },
+  {
     "id": 1800,
     "title": "Maximum Ascending Subarray Sum",
     "slug": "maximum-ascending-subarray-sum",
@@ -21230,7 +21784,33 @@
     "related_ids": [
       238,
       1464,
-      2521
+      1735
+    ]
+  },
+  {
+    "id": 1825,
+    "title": "Finding MK Average",
+    "slug": "finding-mk-average",
+    "difficulty": "Hard",
+    "folder": "1953-finding-mk-average",
+    "path": "leetcode/1953-finding-mk-average",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two integers,  m  and  k , and a stream of integers. You are tasked to implement a data structure that calculates the  MKAverage  for the stream.",
+    "related_ids": [
+      637,
+      643,
+      1251
     ]
   },
   {
@@ -21259,6 +21839,33 @@
       2654,
       1674,
       1887
+    ]
+  },
+  {
+    "id": 1828,
+    "title": "Queries on Number of Points Inside a Circle",
+    "slug": "queries-on-number-of-points-inside-a-circle",
+    "difficulty": "Medium",
+    "folder": "1939-queries-on-number-of-points-inside-a-circle",
+    "path": "leetcode/1939-queries-on-number-of-points-inside-a-circle",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array  points  where  points[i] = [x i , y i ]  is the coordinates of the  i th   point on a 2D plane. Multiple points can have the  same  coordinates.",
+    "related_ids": [
+      2249,
+      1453,
+      1610
     ]
   },
   {
@@ -21448,8 +22055,8 @@
     "brief": "Given an integer array  nums   (0-indexed)  and two integers  target  and  start , find an index  i  such that  nums[i] == target  and  abs(i - start)  is  minimized . Note that  abs(x)  is the absolute value of  x .",
     "related_ids": [
       783,
-      3300,
-      27
+      3291,
+      3292
     ]
   },
   {
@@ -21610,8 +22217,8 @@
     "brief": "There are  n  uniquely-sized sticks whose lengths are integers from  1  to  n . You want to arrange the sticks such that  exactly   k  sticks are  visible  from the left. A stick is  visible  from the left if there are no  longer  sticks to the  left  of it.",
     "related_ids": [
       1569,
-      1621,
-      1679
+      1610,
+      1621
     ]
   },
   {
@@ -22011,8 +22618,8 @@
     "brief": "The  product difference  between two pairs  (a, b)  and  (c, d)  is defined as  (a * b) - (c * d) .",
     "related_ids": [
       1464,
-      3536,
-      152
+      1960,
+      3536
     ]
   },
   {
@@ -22340,6 +22947,32 @@
     ]
   },
   {
+    "id": 1948,
+    "title": "Delete Duplicate Folders in System",
+    "slug": "delete-duplicate-folders-in-system",
+    "difficulty": "Hard",
+    "folder": "2079-delete-duplicate-folders-in-system",
+    "path": "leetcode/2079-delete-duplicate-folders-in-system",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Due to a bug, there are many duplicate folders in a file system. You are given a 2D array  paths , where  paths[i]  is an array representing an absolute path to the  i th   folder in the file system.",
+    "related_ids": [
+      196,
+      182,
+      217
+    ]
+  },
+  {
     "id": 1952,
     "title": "Three Divisors",
     "slug": "three-divisors",
@@ -22389,6 +23022,32 @@
       944,
       1374,
       1544
+    ]
+  },
+  {
+    "id": 1960,
+    "title": "Maximum Product of the Length of Two Palindromic Substrings",
+    "slug": "maximum-product-of-the-length-of-two-palindromic-substrings",
+    "difficulty": "Hard",
+    "folder": "1336-maximum-product-of-the-length-of-two-palindromic-substrings",
+    "path": "leetcode/1336-maximum-product-of-the-length-of-two-palindromic-substrings",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  string  s  and are tasked with finding two  non-intersecting palindromic  substrings of  odd  length such that the product of their lengths is maximized.",
+    "related_ids": [
+      1464,
+      1913,
+      3090
     ]
   },
   {
@@ -22552,7 +23211,7 @@
     "related_ids": [
       3014,
       3016,
-      1266
+      3029
     ]
   },
   {
@@ -22578,7 +23237,7 @@
     "related_ids": [
       1569,
       1866,
-      3558
+      3025
     ]
   },
   {
@@ -22793,6 +23452,32 @@
     ]
   },
   {
+    "id": 2013,
+    "title": "Detect Squares",
+    "slug": "detect-squares",
+    "difficulty": "Medium",
+    "folder": "2139-detect-squares",
+    "path": "leetcode/2139-detect-squares",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a stream of points on the X-Y plane. Design an algorithm that:",
+    "related_ids": [
+      279,
+      520,
+      977
+    ]
+  },
+  {
     "id": 2027,
     "title": "Minimum Moves to Convert String",
     "slug": "minimum-moves-to-convert-string",
@@ -22815,9 +23500,9 @@
     "space": "O(n)",
     "brief": "You are given a string  s  consisting of  n  characters which are either  &#39;X&#39;  or  &#39;O&#39; .",
     "related_ids": [
+      2977,
       1541,
-      1674,
-      1758
+      1674
     ]
   },
   {
@@ -22847,6 +23532,32 @@
       877,
       1140,
       1406
+    ]
+  },
+  {
+    "id": 2034,
+    "title": "Stock Price Fluctuation ",
+    "slug": "stock-price-fluctuation",
+    "difficulty": "Medium",
+    "folder": "2161-stock-price-fluctuation-",
+    "path": "leetcode/2161-stock-price-fluctuation-",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a stream of  records  about a particular stock. Each record contains a  timestamp  and the corresponding  price  of the stock at that timestamp.",
+    "related_ids": [
+      121,
+      122,
+      123
     ]
   },
   {
@@ -23034,8 +23745,8 @@
     "brief": "A  critical point  in a linked list is defined as  either  a  local maxima  or a  local minima .",
     "related_ids": [
       783,
-      3020,
-      153
+      1610,
+      3020
     ]
   },
   {
@@ -23060,8 +23771,8 @@
     "brief": "A  substring  is a contiguous (non-empty) sequence of characters within a string.",
     "related_ids": [
       696,
-      8,
-      28
+      3529,
+      8
     ]
   },
   {
@@ -23089,7 +23800,7 @@
     "related_ids": [
       1662,
       1657,
-      1111
+      3327
     ]
   },
   {
@@ -23308,6 +24019,58 @@
     ]
   },
   {
+    "id": 2101,
+    "title": "Detonate the Maximum Bombs",
+    "slug": "detonate-the-maximum-bombs",
+    "difficulty": "Medium",
+    "folder": "2206-detonate-the-maximum-bombs",
+    "path": "leetcode/2206-detonate-the-maximum-bombs",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a list of bombs. The  range  of a bomb is defined as the area where its effect can be felt. This area is in the shape of a  circle  with the center as the location of the bomb.",
+    "related_ids": [
+      53,
+      104,
+      124
+    ]
+  },
+  {
+    "id": 2102,
+    "title": "Sequentially Ordinal Rank Tracker",
+    "slug": "sequentially-ordinal-rank-tracker",
+    "difficulty": "Hard",
+    "folder": "2207-sequentially-ordinal-rank-tracker",
+    "path": "leetcode/2207-sequentially-ordinal-rank-tracker",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "A scenic location is represented by its  name  and attractiveness  score , where  name  is a  unique  string among all locations and  score  is an integer. Locations can be ranked from the best to the worst. The  higher  the score, the better the location. If the scores of two locations are equal, then the location with the  lexicographically smaller  name is better.",
+    "related_ids": [
+      178,
+      1331,
+      5
+    ]
+  },
+  {
     "id": 2103,
     "title": "Rings and Rods",
     "slug": "rings-and-rods",
@@ -23521,6 +24284,32 @@
     ]
   },
   {
+    "id": 2156,
+    "title": "Find Substring With Given Hash Value",
+    "slug": "find-substring-with-given-hash-value",
+    "difficulty": "Hard",
+    "folder": "2275-find-substring-with-given-hash-value",
+    "path": "leetcode/2275-find-substring-with-given-hash-value",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "The hash of a  0-indexed  string  s  of length  k , given integers  p  and  m , is computed using the following function:",
+    "related_ids": [
+      1237,
+      1385,
+      1456
+    ]
+  },
+  {
     "id": 2161,
     "title": "Partition Array According to Given Pivot",
     "slug": "partition-array-according-to-given-pivot",
@@ -23575,7 +24364,7 @@
     "related_ids": [
       1250,
       1448,
-      2183
+      1735
     ]
   },
   {
@@ -23683,8 +24472,8 @@
     "brief": "You are given an array of integers  nums . Perform the following steps:",
     "related_ids": [
       448,
-      2,
-      26
+      2584,
+      2
     ]
   },
   {
@@ -23742,6 +24531,87 @@
     ]
   },
   {
+    "id": 2223,
+    "title": "Sum of Scores of Built Strings",
+    "slug": "sum-of-scores-of-built-strings",
+    "difficulty": "Hard",
+    "folder": "2326-sum-of-scores-of-built-strings",
+    "path": "leetcode/2326-sum-of-scores-of-built-strings",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are  building  a string  s  of length  n   one  character at a time,  prepending  each new character to the  front  of the string. The strings are labeled from  1  to  n , where the string with length  i  is labeled  s i  .",
+    "related_ids": [
+      2416,
+      1,
+      39
+    ]
+  },
+  {
+    "id": 2227,
+    "title": "Encrypt and Decrypt Strings",
+    "slug": "encrypt-and-decrypt-strings",
+    "difficulty": "Hard",
+    "folder": "1433-encrypt-and-decrypt-strings",
+    "path": "leetcode/1433-encrypt-and-decrypt-strings",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
+    "topics": [
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given a character array  keys  containing  unique  characters and a string array  values  containing strings of length 2. You are also given another string array  dictionary  that contains all permitted original strings after decryption. You should implement a data structure that can encrypt or decrypt a  0-indexed  string.",
+    "related_ids": [
+      43,
+      205,
+      415
+    ]
+  },
+  {
+    "id": 2249,
+    "title": "Count Lattice Points Inside a Circle",
+    "slug": "count-lattice-points-inside-a-circle",
+    "difficulty": "Medium",
+    "folder": "2332-count-lattice-points-inside-a-circle",
+    "path": "leetcode/2332-count-lattice-points-inside-a-circle",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a 2D integer array  circles  where  circles[i] = [x i , y i , r i ]  represents the center  (x i , y i )  and radius  r i   of the  i th   circle drawn on a grid, return  the  number of lattice points    that are present inside  at least one  circle .",
+    "related_ids": [
+      1828,
+      38,
+      149
+    ]
+  },
+  {
     "id": 2250,
     "title": "Count Number of Rectangles Containing Each Point",
     "slug": "count-number-of-rectangles-containing-each-point",
@@ -23766,6 +24636,32 @@
       1358,
       1395,
       1684
+    ]
+  },
+  {
+    "id": 2261,
+    "title": "K Divisible Elements Subarrays",
+    "slug": "k-divisible-elements-subarrays",
+    "difficulty": "Medium",
+    "folder": "2339-k-divisible-elements-subarrays",
+    "path": "leetcode/2339-k-divisible-elements-subarrays",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an integer array  nums  and two integers  k  and  p , return  the number of  distinct subarrays,  which have  at most    k   elements  that are  divisible by   p .",
+    "related_ids": [
+      347,
+      632,
+      658
     ]
   },
   {
@@ -23851,6 +24747,32 @@
     ]
   },
   {
+    "id": 2280,
+    "title": "Minimum Lines to Represent a Line Chart",
+    "slug": "minimum-lines-to-represent-a-line-chart",
+    "difficulty": "Medium",
+    "folder": "2367-minimum-lines-to-represent-a-line-chart",
+    "path": "leetcode/2367-minimum-lines-to-represent-a-line-chart",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a 2D integer array  stockPrices  where  stockPrices[i] = [day i , price i ]  indicates the price of the stock on day  day i   is  price i  . A  line chart  is created from the array by plotting the points on an XY plane with the X-axis representing the day and the Y-axis representing the price and connecting adjacent points. One such example is shown below:",
+    "related_ids": [
+      64,
+      76,
+      111
+    ]
+  },
+  {
     "id": 2286,
     "title": "Booking Concert Tickets in Groups",
     "slug": "booking-concert-tickets-in-groups",
@@ -23899,7 +24821,33 @@
     "related_ids": [
       1928,
       2045,
-      3629
+      3507
+    ]
+  },
+  {
+    "id": 2296,
+    "title": "Design a Text Editor",
+    "slug": "design-a-text-editor",
+    "difficulty": "Hard",
+    "folder": "2389-design-a-text-editor",
+    "path": "leetcode/2389-design-a-text-editor",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Design a text editor with a cursor that can do the following:",
+    "related_ids": [
+      68,
+      211,
+      705
     ]
   },
   {
@@ -23979,6 +24927,32 @@
       668,
       762,
       1334
+    ]
+  },
+  {
+    "id": 2338,
+    "title": "Count the Number of Ideal Arrays",
+    "slug": "count-the-number-of-ideal-arrays",
+    "difficulty": "Hard",
+    "folder": "2415-count-the-number-of-ideal-arrays",
+    "path": "leetcode/2415-count-the-number-of-ideal-arrays",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two integers  n  and  maxValue , which are used to describe an  ideal  array.",
+    "related_ids": [
+      1395,
+      1684,
+      2250
     ]
   },
   {
@@ -24144,6 +25118,33 @@
     ]
   },
   {
+    "id": 2416,
+    "title": "Sum of Prefix Scores of Strings",
+    "slug": "sum-of-prefix-scores-of-strings",
+    "difficulty": "Hard",
+    "folder": "2494-sum-of-prefix-scores-of-strings",
+    "path": "leetcode/2494-sum-of-prefix-scores-of-strings",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
+    "topics": [
+      "Prefix Sum",
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given an array  words  of size  n  consisting of  non-empty  strings.",
+    "related_ids": [
+      2223,
+      2996,
+      3485
+    ]
+  },
+  {
     "id": 2419,
     "title": "Longest Subarray With Maximum Bitwise AND",
     "slug": "longest-subarray-with-maximum-bitwise-and",
@@ -24277,6 +25278,60 @@
     ]
   },
   {
+    "id": 2430,
+    "title": "Maximum Deletions on a String",
+    "slug": "maximum-deletions-on-a-string",
+    "difficulty": "Hard",
+    "folder": "2510-maximum-deletions-on-a-string",
+    "path": "leetcode/2510-maximum-deletions-on-a-string",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a string  s  consisting of only lowercase English letters. In one operation, you can:",
+    "related_ids": [
+      1422,
+      8,
+      28
+    ]
+  },
+  {
+    "id": 2452,
+    "title": "Words Within Two Edits of Dictionary",
+    "slug": "words-within-two-edits-of-dictionary",
+    "difficulty": "Medium",
+    "folder": "2550-words-within-two-edits-of-dictionary",
+    "path": "leetcode/2550-words-within-two-edits-of-dictionary",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
+    "topics": [
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given two string arrays,  queries  and  dictionary . All words in each array comprise of lowercase English letters and have the same length.",
+    "related_ids": [
+      884,
+      1880,
+      1
+    ]
+  },
+  {
     "id": 2462,
     "title": "Total Cost to Hire K Workers",
     "slug": "total-cost-to-hire-k-workers",
@@ -24331,6 +25386,33 @@
     ]
   },
   {
+    "id": 2481,
+    "title": "Minimum Cuts to Divide a Circle",
+    "slug": "minimum-cuts-to-divide-a-circle",
+    "difficulty": "Easy",
+    "folder": "2575-minimum-cuts-to-divide-a-circle",
+    "path": "leetcode/2575-minimum-cuts-to-divide-a-circle",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "A  valid cut  in a circle can be:",
+    "related_ids": [
+      29,
+      64,
+      76
+    ]
+  },
+  {
     "id": 2485,
     "title": "Find the Pivot Integer",
     "slug": "find-the-pivot-integer",
@@ -24352,8 +25434,8 @@
     "brief": "Given a positive integer  n , find the  pivot integer   x  such that:",
     "related_ids": [
       724,
-      1394,
-      3471
+      1237,
+      1394
     ]
   },
   {
@@ -24487,7 +25569,7 @@
     "related_ids": [
       238,
       1464,
-      1822
+      1735
     ]
   },
   {
@@ -24516,6 +25598,32 @@
       201,
       1523,
       3751
+    ]
+  },
+  {
+    "id": 2526,
+    "title": "Find Consecutive Integers from a Data Stream",
+    "slug": "find-consecutive-integers-from-a-data-stream",
+    "difficulty": "Medium",
+    "folder": "2620-find-consecutive-integers-from-a-data-stream",
+    "path": "leetcode/2620-find-consecutive-integers-from-a-data-stream",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "For a stream of integers, implement a data structure that checks if the last  k  integers parsed in the stream are  equal  to  value .",
+    "related_ids": [
+      295,
+      352,
+      600
     ]
   },
   {
@@ -24595,9 +25703,9 @@
     "space": "O(1)",
     "brief": "There exists an infinitely large grid. You are currently at point  (1, 1) , and you need to reach the point  (targetX, targetY)  using a finite number of steps.",
     "related_ids": [
+      3235,
       1232,
-      1250,
-      1346
+      1250
     ]
   },
   {
@@ -24706,6 +25814,32 @@
       404,
       1,
       39
+    ]
+  },
+  {
+    "id": 2584,
+    "title": "Split the Array to Make Coprime Products",
+    "slug": "split-the-array-to-make-coprime-products",
+    "difficulty": "Hard",
+    "folder": "2647-split-the-array-to-make-coprime-products",
+    "path": "leetcode/2647-split-the-array-to-make-coprime-products",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  integer array  nums  of length  n .",
+    "related_ids": [
+      410,
+      1664,
+      1674
     ]
   },
   {
@@ -25292,7 +26426,7 @@
     "related_ids": [
       1664,
       1674,
-      1827
+      1735
     ]
   },
   {
@@ -25587,6 +26721,34 @@
       2618,
       2727,
       5
+    ]
+  },
+  {
+    "id": 2707,
+    "title": "Extra Characters in a String",
+    "slug": "extra-characters-in-a-string",
+    "difficulty": "Medium",
+    "folder": "2755-extra-characters-in-a-string",
+    "path": "leetcode/2755-extra-characters-in-a-string",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
+    "topics": [
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given a  0-indexed  string  s  and a dictionary of words  dictionary . You have to break  s  into one or more  non-overlapping  substrings such that each substring is present in  dictionary . There may be some  extra characters  in  s  which are not present in any of the substrings.",
+    "related_ids": [
+      1374,
+      1957,
+      3
     ]
   },
   {
@@ -26103,8 +27265,8 @@
     "brief": "Write a solution to calculate and display the  number of rows and columns  of  players .",
     "related_ids": [
       209,
-      961,
-      1413
+      952,
+      961
     ]
   },
   {
@@ -26601,6 +27763,60 @@
     ]
   },
   {
+    "id": 2932,
+    "title": "Maximum Strong Pair XOR I",
+    "slug": "maximum-strong-pair-xor-i",
+    "difficulty": "Easy",
+    "folder": "3193-maximum-strong-pair-xor-i",
+    "path": "leetcode/3193-maximum-strong-pair-xor-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  integer array  nums . A pair of integers  x  and  y  is called a  strong  pair if it satisfies the condition:",
+    "related_ids": [
+      2935,
+      643,
+      3380
+    ]
+  },
+  {
+    "id": 2935,
+    "title": "Maximum Strong Pair XOR II",
+    "slug": "maximum-strong-pair-xor-ii",
+    "difficulty": "Hard",
+    "folder": "3197-maximum-strong-pair-xor-ii",
+    "path": "leetcode/3197-maximum-strong-pair-xor-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  integer array  nums . A pair of integers  x  and  y  is called a  strong  pair if it satisfies the condition:",
+    "related_ids": [
+      2932,
+      3382,
+      3510
+    ]
+  },
+  {
     "id": 2940,
     "title": "Find Building Where Alice and Bob Can Meet",
     "slug": "find-building-where-alice-and-bob-can-meet",
@@ -26680,6 +27896,32 @@
       3962,
       560,
       718
+    ]
+  },
+  {
+    "id": 2977,
+    "title": "Minimum Cost to Convert String II",
+    "slug": "minimum-cost-to-convert-string-ii",
+    "difficulty": "Hard",
+    "folder": "3238-minimum-cost-to-convert-string-ii",
+    "path": "leetcode/3238-minimum-cost-to-convert-string-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two  0-indexed  strings  source  and  target , both of length  n  and consisting of  lowercase  English characters. You are also given two  0-indexed  string arrays  original  and  changed , and an integer array  cost , where  cost[i]  represents the cost of converting the string  original[i]  to the string  changed[i] .",
+    "related_ids": [
+      2027,
+      3864,
+      154
     ]
   },
   {
@@ -26786,7 +28028,7 @@
     "related_ids": [
       3016,
       1974,
-      452
+      3029
     ]
   },
   {
@@ -26812,7 +28054,7 @@
     "related_ids": [
       3014,
       1974,
-      126
+      3031
     ]
   },
   {
@@ -26842,6 +28084,189 @@
     ]
   },
   {
+    "id": 3025,
+    "title": "Find the Number of Ways to Place People I",
+    "slug": "find-the-number-of-ways-to-place-people-i",
+    "difficulty": "Medium",
+    "folder": "3278-find-the-number-of-ways-to-place-people-i",
+    "path": "leetcode/3278-find-the-number-of-ways-to-place-people-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a 2D array  points  of size  n x 2  representing integer coordinates of some points on a 2D plane, where  points[i] = [x i , y i ] .",
+    "related_ids": [
+      3027,
+      3558,
+      287
+    ]
+  },
+  {
+    "id": 3027,
+    "title": "Find the Number of Ways to Place People II",
+    "slug": "find-the-number-of-ways-to-place-people-ii",
+    "difficulty": "Hard",
+    "folder": "3277-find-the-number-of-ways-to-place-people-ii",
+    "path": "leetcode/3277-find-the-number-of-ways-to-place-people-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a 2D array  points  of size  n x 2  representing integer coordinates of some points on a 2D-plane, where  points[i] = [x i , y i ] .",
+    "related_ids": [
+      3025,
+      3559,
+      137
+    ]
+  },
+  {
+    "id": 3029,
+    "title": "Minimum Time to Revert Word to Initial State I",
+    "slug": "minimum-time-to-revert-word-to-initial-state-i",
+    "difficulty": "Medium",
+    "folder": "3297-minimum-time-to-revert-word-to-initial-state-i",
+    "path": "leetcode/3297-minimum-time-to-revert-word-to-initial-state-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  string  word  and an integer  k .",
+    "related_ids": [
+      3031,
+      1974,
+      3014
+    ]
+  },
+  {
+    "id": 3031,
+    "title": "Minimum Time to Revert Word to Initial State II",
+    "slug": "minimum-time-to-revert-word-to-initial-state-ii",
+    "difficulty": "Hard",
+    "folder": "3296-minimum-time-to-revert-word-to-initial-state-ii",
+    "path": "leetcode/3296-minimum-time-to-revert-word-to-initial-state-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  string  word  and an integer  k .",
+    "related_ids": [
+      3029,
+      1974,
+      3016
+    ]
+  },
+  {
+    "id": 3034,
+    "title": "Number of Subarrays That Match a Pattern I",
+    "slug": "number-of-subarrays-that-match-a-pattern-i",
+    "difficulty": "Medium",
+    "folder": "3269-number-of-subarrays-that-match-a-pattern-i",
+    "path": "leetcode/3269-number-of-subarrays-that-match-a-pattern-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  integer array  nums  of size  n , and a  0-indexed  integer array  pattern  of size  m  consisting of integers  -1 ,  0 , and  1 .",
+    "related_ids": [
+      3036,
+      1498,
+      1725
+    ]
+  },
+  {
+    "id": 3036,
+    "title": "Number of Subarrays That Match a Pattern II",
+    "slug": "number-of-subarrays-that-match-a-pattern-ii",
+    "difficulty": "Hard",
+    "folder": "3290-number-of-subarrays-that-match-a-pattern-ii",
+    "path": "leetcode/3290-number-of-subarrays-that-match-a-pattern-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a  0-indexed  integer array  nums  of size  n , and a  0-indexed  integer array  pattern  of size  m  consisting of integers  -1 ,  0 , and  1 .",
+    "related_ids": [
+      3034,
+      137,
+      375
+    ]
+  },
+  {
+    "id": 3042,
+    "title": "Count Prefix and Suffix Pairs I",
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "difficulty": "Easy",
+    "folder": "3309-count-prefix-and-suffix-pairs-i",
+    "path": "leetcode/3309-count-prefix-and-suffix-pairs-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
+    "topics": [
+      "Prefix Sum",
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given a  0-indexed  string array  words .",
+    "related_ids": [
+      3045,
+      2183,
+      3120
+    ]
+  },
+  {
     "id": 3043,
     "title": "Find the Length of the Longest Common Prefix",
     "slug": "find-the-length-of-the-longest-common-prefix",
@@ -26865,7 +28290,7 @@
     "related_ids": [
       14,
       2657,
-      1002
+      3485
     ]
   },
   {
@@ -26894,6 +28319,60 @@
       11,
       347,
       602
+    ]
+  },
+  {
+    "id": 3045,
+    "title": "Count Prefix and Suffix Pairs II",
+    "slug": "count-prefix-and-suffix-pairs-ii",
+    "difficulty": "Hard",
+    "folder": "3305-count-prefix-and-suffix-pairs-ii",
+    "path": "leetcode/3305-count-prefix-and-suffix-pairs-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
+    "topics": [
+      "Prefix Sum",
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given a  0-indexed  string array  words .",
+    "related_ids": [
+      3042,
+      4055,
+      2183
+    ]
+  },
+  {
+    "id": 3047,
+    "title": "Find the Largest Area of Square Inside Two Rectangles",
+    "slug": "find-the-largest-area-of-square-inside-two-rectangles",
+    "difficulty": "Medium",
+    "folder": "3325-find-the-largest-area-of-square-inside-two-rectangles",
+    "path": "leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "There exist  n  rectangles in a 2D plane with edges parallel to the x and y axis. You are given two 2D integer arrays  bottomLeft  and  topRight  where  bottomLeft[i] = [a_i, b_i]  and  topRight[i] = [c_i, d_i]  represent the  bottom-left  and  top-right  coordinates of the  i th   rectangle, respectively.",
+    "related_ids": [
+      1725,
+      812,
+      1385
     ]
   },
   {
@@ -26951,6 +28430,32 @@
     ]
   },
   {
+    "id": 3076,
+    "title": "Shortest Uncommon Substring in an Array",
+    "slug": "shortest-uncommon-substring-in-an-array",
+    "difficulty": "Medium",
+    "folder": "3356-shortest-uncommon-substring-in-an-array",
+    "path": "leetcode/3356-shortest-uncommon-substring-in-an-array",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array  arr  of size  n  consisting of  non-empty  strings.",
+    "related_ids": [
+      3,
+      5,
+      26
+    ]
+  },
+  {
     "id": 3090,
     "title": "Maximum Length Substring With Two Occurrences",
     "slug": "maximum-length-substring-with-two-occurrences",
@@ -26972,8 +28477,8 @@
     "brief": "Given a string  s , return the  maximum  length of a  substring  such that it contains  at most two occurrences  of each character.",
     "related_ids": [
       1456,
-      718,
-      1111
+      1960,
+      718
     ]
   },
   {
@@ -27002,6 +28507,32 @@
       14,
       1143,
       1923
+    ]
+  },
+  {
+    "id": 3102,
+    "title": "Minimize Manhattan Distances",
+    "slug": "minimize-manhattan-distances",
+    "difficulty": "Hard",
+    "folder": "3344-minimize-manhattan-distances",
+    "path": "leetcode/3344-minimize-manhattan-distances",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array  points  representing integer coordinates of some points on a 2D plane, where  points[i] = [x i , y i ] .",
+    "related_ids": [
+      2513,
+      5,
+      26
     ]
   },
   {
@@ -27052,9 +28583,9 @@
     "space": "O(1)",
     "brief": "You are given a string  word . A letter is called  special  if it appears  both  in lowercase and uppercase in  word .",
     "related_ids": [
+      3623,
       1358,
-      1395,
-      1684
+      1395
     ]
   },
   {
@@ -27083,7 +28614,7 @@
     "related_ids": [
       1211,
       1409,
-      2509
+      1828
     ]
   },
   {
@@ -27193,6 +28724,33 @@
     ]
   },
   {
+    "id": 3235,
+    "title": "Check if the Rectangle Corner Is Reachable",
+    "slug": "check-if-the-rectangle-corner-is-reachable",
+    "difficulty": "Hard",
+    "folder": "3478-check-if-the-rectangle-corner-is-reachable",
+    "path": "leetcode/3478-check-if-the-rectangle-corner-is-reachable",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given two positive integers  xCorner  and  yCorner , and a 2D array  circles , where  circles[i] = [x i , y i , r i ]  denotes a circle with center at  (x i , y i )  and radius  r i  .",
+    "related_ids": [
+      2543,
+      1232,
+      1250
+    ]
+  },
+  {
     "id": 3245,
     "title": "Alternating Groups III",
     "slug": "alternating-groups-iii",
@@ -27271,6 +28829,58 @@
       2812,
       28,
       34
+    ]
+  },
+  {
+    "id": 3291,
+    "title": "Minimum Number of Valid Strings to Form Target I",
+    "slug": "minimum-number-of-valid-strings-to-form-target-i",
+    "difficulty": "Medium",
+    "folder": "3559-minimum-number-of-valid-strings-to-form-target-i",
+    "path": "leetcode/3559-minimum-number-of-valid-strings-to-form-target-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of strings  words  and a string  target .",
+    "related_ids": [
+      3292,
+      3014,
+      65
+    ]
+  },
+  {
+    "id": 3292,
+    "title": "Minimum Number of Valid Strings to Form Target II",
+    "slug": "minimum-number-of-valid-strings-to-form-target-ii",
+    "difficulty": "Hard",
+    "folder": "3557-minimum-number-of-valid-strings-to-form-target-ii",
+    "path": "leetcode/3557-minimum-number-of-valid-strings-to-form-target-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an array of strings  words  and a string  target .",
+    "related_ids": [
+      3291,
+      3016,
+      65
     ]
   },
   {
@@ -27381,6 +28991,34 @@
       4,
       21,
       23
+    ]
+  },
+  {
+    "id": 3327,
+    "title": "Check if DFS Strings Are Palindromes",
+    "slug": "check-if-dfs-strings-are-palindromes",
+    "difficulty": "Hard",
+    "folder": "3603-check-if-dfs-strings-are-palindromes",
+    "path": "leetcode/3603-check-if-dfs-strings-are-palindromes",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
+    "topics": [
+      "Two Pointers",
+      "Array",
+      "Sorting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a tree rooted at node 0, consisting of  n  nodes numbered from  0  to  n - 1 . The tree is represented by an array  parent  of size  n , where  parent[i]  is the parent of node  i . Since node 0 is the root,  parent[0] == -1 .",
+    "related_ids": [
+      1437,
+      1657,
+      1662
     ]
   },
   {
@@ -27545,7 +29183,7 @@
     "related_ids": [
       3380,
       850,
-      223
+      963
     ]
   },
   {
@@ -27687,6 +29325,32 @@
     ]
   },
   {
+    "id": 3464,
+    "title": "Maximize the Distance Between Points on a Square",
+    "slug": "maximize-the-distance-between-points-on-a-square",
+    "difficulty": "Hard",
+    "folder": "3781-maximize-the-distance-between-points-on-a-square",
+    "path": "leetcode/3781-maximize-the-distance-between-points-on-a-square",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer   side  , representing the edge length of a square with corners at  (0, 0) ,  (0, side) ,  (side, 0) , and  (side, side)  on a Cartesian plane.",
+    "related_ids": [
+      783,
+      1385,
+      1637
+    ]
+  },
+  {
     "id": 3465,
     "title": "Find Products with Valid Serial Numbers",
     "slug": "find-products-with-valid-serial-numbers",
@@ -27736,9 +29400,9 @@
     "space": "O(n)",
     "brief": "You are given an integer array  nums  and an integer  k .",
     "related_ids": [
+      1237,
       1394,
-      2099,
-      2485
+      2099
     ]
   },
   {
@@ -27818,6 +29482,33 @@
       2094,
       1295,
       3855
+    ]
+  },
+  {
+    "id": 3485,
+    "title": "Longest Common Prefix of K Strings After Removal",
+    "slug": "longest-common-prefix-of-k-strings-after-removal",
+    "difficulty": "Hard",
+    "folder": "3784-longest-common-prefix-of-k-strings-after-removal",
+    "path": "leetcode/3784-longest-common-prefix-of-k-strings-after-removal",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Prefix Sum",
+    "algorithm": "Prefix Sum Precomputation",
+    "data_structure": "Prefix Array",
+    "topics": [
+      "Prefix Sum",
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "brief": "You are given an array of strings  words  and an integer  k .",
+    "related_ids": [
+      14,
+      3043,
+      1005
     ]
   },
   {
@@ -27924,6 +29615,58 @@
       3499,
       40,
       45
+    ]
+  },
+  {
+    "id": 3507,
+    "title": "Minimum Pair Removal to Sort Array I",
+    "slug": "minimum-pair-removal-to-sort-array-i",
+    "difficulty": "Easy",
+    "folder": "3773-minimum-pair-removal-to-sort-array-i",
+    "path": "leetcode/3773-minimum-pair-removal-to-sort-array-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array  nums , you can perform the following operation any number of times:",
+    "related_ids": [
+      3510,
+      153,
+      154
+    ]
+  },
+  {
+    "id": 3510,
+    "title": "Minimum Pair Removal to Sort Array II",
+    "slug": "minimum-pair-removal-to-sort-array-ii",
+    "difficulty": "Hard",
+    "folder": "3772-minimum-pair-removal-to-sort-array-ii",
+    "path": "leetcode/3772-minimum-pair-removal-to-sort-array-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given an array  nums , you can perform the following operation any number of times:",
+    "related_ids": [
+      3507,
+      154,
+      922
     ]
   },
   {
@@ -28153,6 +29896,32 @@
     ]
   },
   {
+    "id": 3529,
+    "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+    "slug": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
+    "difficulty": "Medium",
+    "folder": "3821-count-cells-in-overlapping-horizontal-and-vertical-substrings",
+    "path": "leetcode/3821-count-cells-in-overlapping-horizontal-and-vertical-substrings",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an  m x n  matrix  grid  consisting of characters and a string  pattern .",
+    "related_ids": [
+      696,
+      1520,
+      2062
+    ]
+  },
+  {
     "id": 3532,
     "title": "Path Existence Queries in a Graph I",
     "slug": "path-existence-queries-in-a-graph-i",
@@ -28234,7 +30003,7 @@
     "related_ids": [
       1464,
       1913,
-      152
+      1960
     ]
   },
   {
@@ -28371,8 +30140,8 @@
     "brief": "There is an undirected tree with  n  nodes labeled from 1 to  n , rooted at node 1. The tree is represented by a 2D integer array  edges  of length  n - 1 , where  edges[i] = [u i , v i ]  indicates that there is an edge between nodes  u i   and  v i  .",
     "related_ids": [
       3559,
-      1569,
-      1866
+      3025,
+      1569
     ]
   },
   {
@@ -28400,8 +30169,8 @@
     "brief": "There is an undirected tree with  n  nodes labeled from 1 to  n , rooted at node 1. The tree is represented by a 2D integer array  edges  of length  n - 1 , where  edges[i] = [u i , v i ]  indicates that there is an edge between nodes  u i   and  v i  .",
     "related_ids": [
       3558,
-      137,
-      375
+      3027,
+      137
     ]
   },
   {
@@ -28564,6 +30333,59 @@
     ]
   },
   {
+    "id": 3588,
+    "title": "Find Maximum Area of a Triangle",
+    "slug": "find-maximum-area-of-a-triangle",
+    "difficulty": "Medium",
+    "folder": "3868-find-maximum-area-of-a-triangle",
+    "path": "leetcode/3868-find-maximum-area-of-a-triangle",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a 2D array  coords  of size  n x 2 , representing the coordinates of  n  points in an infinite Cartesian plane.",
+    "related_ids": [
+      812,
+      2058,
+      3020
+    ]
+  },
+  {
+    "id": 3597,
+    "title": "Partition String ",
+    "slug": "partition-string",
+    "difficulty": "Medium",
+    "folder": "3905-partition-string-",
+    "path": "leetcode/3905-partition-string-",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "Given a string  s , partition it into  unique segments  according to the following procedure:",
+    "related_ids": [
+      3864,
+      8,
+      28
+    ]
+  },
+  {
     "id": 3601,
     "title": "Find Drivers with Improved Fuel Efficiency",
     "slug": "find-drivers-with-improved-fuel-efficiency",
@@ -28670,7 +30492,7 @@
     "related_ids": [
       3612,
       541,
-      8
+      2977
     ]
   },
   {
@@ -28758,6 +30580,32 @@
     ]
   },
   {
+    "id": 3623,
+    "title": "Count Number of Trapezoids I",
+    "slug": "count-number-of-trapezoids-i",
+    "difficulty": "Medium",
+    "folder": "3886-count-number-of-trapezoids-i",
+    "path": "leetcode/3886-count-number-of-trapezoids-i",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a 2D integer array  points , where  points[i] = [x i , y i ]  represents the coordinates of the  i th   point on the Cartesian plane.",
+    "related_ids": [
+      3120,
+      3625,
+      1395
+    ]
+  },
+  {
     "id": 3624,
     "title": "Number of Integers With Popcount-Depth Equal to K II",
     "slug": "number-of-integers-with-popcount-depth-equal-to-k-ii",
@@ -28782,6 +30630,32 @@
       137,
       375,
       1356
+    ]
+  },
+  {
+    "id": 3625,
+    "title": "Count Number of Trapezoids II",
+    "slug": "count-number-of-trapezoids-ii",
+    "difficulty": "Hard",
+    "folder": "3897-count-number-of-trapezoids-ii",
+    "path": "leetcode/3897-count-number-of-trapezoids-ii",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a 2D integer array  points  where  points[i] = [x i , y i ]  represents the coordinates of the  i th   point on the Cartesian plane.",
+    "related_ids": [
+      3623,
+      137,
+      375
     ]
   },
   {
@@ -28888,8 +30762,8 @@
     "brief": "You are given two categories of theme park attractions:  land rides  and  water rides .",
     "related_ids": [
       3635,
-      11,
-      42
+      3029,
+      11
     ]
   },
   {
@@ -28997,8 +30871,8 @@
     "brief": "You are given an integer array  nums  of length  n  and a 2D integer array  queries  of size  q , where  queries[i] = [l i , r i , k i , v i ] .",
     "related_ids": [
       908,
-      3513,
-      3532
+      2932,
+      3513
     ]
   },
   {
@@ -29244,8 +31118,8 @@
     "brief": "You are given three integers  n ,  l , and  r .",
     "related_ids": [
       3700,
-      3014,
-      3069
+      2338,
+      3014
     ]
   },
   {
@@ -29952,6 +31826,32 @@
     ]
   },
   {
+    "id": 3829,
+    "title": "Design Ride Sharing System",
+    "slug": "design-ride-sharing-system",
+    "difficulty": "Medium",
+    "folder": "4118-design-ride-sharing-system",
+    "path": "leetcode/4118-design-ride-sharing-system",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "A ride sharing system manages ride requests from riders and availability from drivers. Riders request rides, and drivers become available over time. The system should match riders and drivers in the order they arrive.",
+    "related_ids": [
+      1603,
+      211,
+      705
+    ]
+  },
+  {
     "id": 3832,
     "title": "Find Users with Persistent Behavior Patterns",
     "slug": "find-users-with-persistent-behavior-patterns",
@@ -30037,6 +31937,33 @@
     ]
   },
   {
+    "id": 3845,
+    "title": "Maximum Subarray XOR with Bounded Range",
+    "slug": "maximum-subarray-xor-with-bounded-range",
+    "difficulty": "Hard",
+    "folder": "4204-maximum-subarray-xor-with-bounded-range",
+    "path": "leetcode/4204-maximum-subarray-xor-with-bounded-range",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Bit Manipulation",
+    "algorithm": "Bitwise Masking & Bit Shift",
+    "data_structure": "Integer Bitmask",
+    "topics": [
+      "Bit Manipulation",
+      "Bitwise Math"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a non-negative integer array  nums  and an integer  k .",
+    "related_ids": [
+      53,
+      152,
+      643
+    ]
+  },
+  {
     "id": 3855,
     "title": "Sum of K-Digit Numbers in a Range",
     "slug": "sum-of-k-digit-numbers-in-a-range",
@@ -30088,8 +32015,8 @@
     "brief": "You are given a binary string  s  and two integers  encCost  and  flatCost .",
     "related_ids": [
       1758,
-      111,
-      671
+      2977,
+      111
     ]
   },
   {
@@ -30228,6 +32155,33 @@
     ]
   },
   {
+    "id": 3899,
+    "title": "Angles of a Triangle",
+    "slug": "angles-of-a-triangle",
+    "difficulty": "Medium",
+    "folder": "4266-angles-of-a-triangle",
+    "path": "leetcode/4266-angles-of-a-triangle",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Math & Logic",
+    "algorithm": "Mathematical Simulation & Modular Arithmetic",
+    "data_structure": "Primitive Types",
+    "topics": [
+      "Math",
+      "Simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given a positive integer array  sides  of length 3.",
+    "related_ids": [
+      118,
+      119,
+      120
+    ]
+  },
+  {
     "id": 3903,
     "title": "Smallest Stable Index I",
     "slug": "smallest-stable-index-i",
@@ -30283,6 +32237,32 @@
     ]
   },
   {
+    "id": 3934,
+    "title": "Smallest Unique Subarray",
+    "slug": "smallest-unique-subarray",
+    "difficulty": "Hard",
+    "folder": "4105-smallest-unique-subarray",
+    "path": "leetcode/4105-smallest-unique-subarray",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums .",
+    "related_ids": [
+      53,
+      62,
+      63
+    ]
+  },
+  {
     "id": 3943,
     "title": "Number of Pairs After Increment",
     "slug": "number-of-pairs-after-increment",
@@ -30330,6 +32310,32 @@
     "brief": "You are given an integer array  nums  and an integer  k .",
     "related_ids": [
       1505,
+      560,
+      918
+    ]
+  },
+  {
+    "id": 3985,
+    "title": "Palindromic Subarray Sum",
+    "slug": "palindromic-subarray-sum",
+    "difficulty": "Hard",
+    "folder": "4031-palindromic-subarray-sum",
+    "path": "leetcode/4031-palindromic-subarray-sum",
+    "languages": [
+      "Python"
+    ],
+    "lang_str": "Python",
+    "pattern": "Array / General",
+    "algorithm": "In-Place Array Traversal & Index Mapping",
+    "data_structure": "Array",
+    "topics": [
+      "Array"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "brief": "You are given an integer array  nums .",
+    "related_ids": [
+      209,
       560,
       918
     ]
@@ -30439,9 +32445,9 @@
     "space": "O(n)",
     "brief": "You are given an integer array  nums  and an integer  k .",
     "related_ids": [
+      2261,
       2913,
-      3513,
-      3737
+      3034
     ]
   },
   {
@@ -30491,9 +32497,9 @@
     "space": "O(1)",
     "brief": "You are given an integer array  nums  of length  n .",
     "related_ids": [
+      3045,
       2183,
-      3739,
-      3871
+      3042
     ]
   },
   {

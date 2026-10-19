@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1211. Queries Quality and Percentage](../1338-queries-quality-and-percentage/)
 - [1409. Queries on a Permutation With Key](../1525-queries-on-a-permutation-with-key/)
-- [2509. Cycle Length Queries in a Tree](../2597-cycle-length-queries-in-a-tree/)
+- [1828. Queries on Number of Points Inside a Circle](../1939-queries-on-number-of-points-inside-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/block-placement-queries/)

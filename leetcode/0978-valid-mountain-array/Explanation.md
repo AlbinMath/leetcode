@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [852. Peak Index in a Mountain Array](../0882-peak-index-in-a-mountain-array/)
+- [1095. Find in Mountain Array](../1185-find-in-mountain-array/)
 - [20. Valid Parentheses](../0020-valid-parentheses/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-mountain-array/)

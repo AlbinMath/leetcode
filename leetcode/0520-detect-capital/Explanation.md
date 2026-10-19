@@ -65,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1393. Capital Gain/Loss](../1523-capital-gainloss/)
 - [1566. Detect Pattern of Length M Repeated K or More Times](../1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [2013. Detect Squares](../2139-detect-squares/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/detect-capital/)

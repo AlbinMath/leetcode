@@ -65,7 +65,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [232. Implement Queue using Stacks](../0232-implement-queue-using-stacks/)
 - [1051. Height Checker](../1137-height-checker/)
-- [1840. Maximum Building Height](../1968-maximum-building-height/)
+- [1670. Design Front Middle Back Queue](../1767-design-front-middle-back-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queue-reconstruction-by-height/)

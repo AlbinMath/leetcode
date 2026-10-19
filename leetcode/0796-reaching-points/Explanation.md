@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [149. Max Points on a Line](../0149-max-points-on-a-line/)
+- [973. K Closest Points to Origin](../1014-k-closest-points-to-origin/)
 - [1266. Minimum Time Visiting All Points](../1395-minimum-time-visiting-all-points/)
-- [1637. Widest Vertical Area Between Two Points Containing No Points](../1742-widest-vertical-area-between-two-points-containing-no-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reaching-points/)

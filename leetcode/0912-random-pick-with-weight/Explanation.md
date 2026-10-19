@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [138. Copy List with Random Pointer](../0138-copy-list-with-random-pointer/)
+- [478. Generate Random Point in a Circle](../0915-generate-random-point-in-a-circle/)
 - [1046. Last Stone Weight](../1127-last-stone-weight/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/random-pick-with-weight/)

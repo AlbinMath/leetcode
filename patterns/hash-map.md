@@ -100,7 +100,11 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 1807 | [Evaluate the Bracket Pairs of a String](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/Explanation.md) |
 
+| 2452 | [Words Within Two Edits of Dictionary](../leetcode/2550-words-within-two-edits-of-dictionary/) | Python | O(n) | O(n) | [Explanation](../leetcode/2550-words-within-two-edits-of-dictionary/Explanation.md) |
+
 | 2622 | [Cache With Time Limit](../leetcode/2762-cache-with-time-limit/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2762-cache-with-time-limit/Explanation.md) |
+
+| 2707 | [Extra Characters in a String](../leetcode/2755-extra-characters-in-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/2755-extra-characters-in-a-string/Explanation.md) |
 
 | 2722 | [Join Two Arrays by ID](../leetcode/2858-join-two-arrays-by-id/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2858-join-two-arrays-by-id/Explanation.md) |
 
@@ -123,6 +127,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 460 | [LFU Cache](../leetcode/0460-lfu-cache/) | Python | O(n) | O(n) | [Explanation](../leetcode/0460-lfu-cache/Explanation.md) |
 
 | 1345 | [Jump Game IV](../leetcode/1447-jump-game-iv/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1447-jump-game-iv/Explanation.md) |
+
+| 2227 | [Encrypt and Decrypt Strings](../leetcode/1433-encrypt-and-decrypt-strings/) | Python | O(n) | O(n) | [Explanation](../leetcode/1433-encrypt-and-decrypt-strings/Explanation.md) |
 
 | 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2423-minimum-deletions-to-make-array-divisible/) | Python | O(n) | O(n) | [Explanation](../leetcode/2423-minimum-deletions-to-make-array-divisible/Explanation.md) |
 
