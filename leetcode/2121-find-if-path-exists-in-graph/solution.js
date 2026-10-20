@@ -1,31 +1,26 @@
 var validPath = function(n, edges, source, destination) {
-    const graph = Array.from({ length: n }, () => []);
+    const g = Array.from({ length: n }, () => []);
 
-    // Build the undirected graph
     for (const [u, v] of edges) {
-        graph[u].push(v);
-        graph[v].push(u);
+        g[u].push(v);
+        g[v].push(u);
     }
 
-    const visited = new Array(n).fill(false);
+    const seen = new Set([source]);
+    const q = [source];
 
-    function dfs(node) {
-        if (node === destination) {
-            return true;
-        }
+    for (let i = 0; i < q.length; i++) {
+        const u = q[i];
 
-        visited[node] = true;
+        if (u === destination) return true;
 
-        for (const neighbor of graph[node]) {
-            if (!visited[neighbor]) {
-                if (dfs(neighbor)) {
-                    return true;
-                }
+        for (const v of g[u]) {
+            if (!seen.has(v)) {
+                seen.add(v);
+                q.push(v);
             }
         }
-
-        return false;
     }
 
-    return dfs(source);
+    return false;
 };
