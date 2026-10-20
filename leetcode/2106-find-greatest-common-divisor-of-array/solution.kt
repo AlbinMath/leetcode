@@ -1,14 +1,13 @@
 class Solution {
     fun findGCD(nums: IntArray): Int {
-        var min = nums.minOrNull()!!
-        var max = nums.maxOrNull()!!
+        var a = nums.minOrNull()!!
+        var b = nums.maxOrNull()!!
 
-        while (max != 0) {
-            val temp = max
-            max = min % max
-            min = temp
+        while (b != 0) {
+            val t = b
+            b = a % b
+            a = t
         }
-
-        return min
+        return a
     }
 }
