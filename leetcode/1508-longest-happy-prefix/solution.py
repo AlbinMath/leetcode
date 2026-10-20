@@ -1,12 +1,15 @@
+
 class Solution:
     def longestPrefix(self, s: str) -> str:
-        n = len(s)
-        fail = [0] * n
+        lps = [0] * len(s)
         j = 0
-        for i in range(1, n):
+
+        for i in range(1, len(s)):
             while j and s[i] != s[j]:
-                j = fail[j - 1]
+                j = lps[j - 1]
             if s[i] == s[j]:
                 j += 1
-            fail[i] = j
-        return s[:fail[-1]]
+                lps[i] = j
+
+        return s[:lps[-1]]
+
