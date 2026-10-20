@@ -1,22 +1,21 @@
+from typing import List
+
 class Solution:
-    def islandPerimeter(self, grid):
-        perimeter = 0
+    def islandPerimeter(self, grid: List[List[int]]) -> int:
+        m, n = len(grid), len(grid[0])
+        ans = 0
 
-        rows = len(grid)
-        cols = len(grid[0])
-
-        for i in range(rows):
-            for j in range(cols):
+        for i in range(m):
+            for j in range(n):
                 if grid[i][j] == 1:
-                    # Start with 4 sides
-                    perimeter += 4
-
-                    # Shared side with cell above
+                    ans += 4
                     if i > 0 and grid[i - 1][j] == 1:
-                        perimeter -= 2
-
-                    # Shared side with cell on the left
+                        ans -= 1
                     if j > 0 and grid[i][j - 1] == 1:
-                        perimeter -= 2
+                        ans -= 1
+                    if i < m - 1 and grid[i + 1][j] == 1:
+                        ans -= 1
+                    if j < n - 1 and grid[i][j + 1] == 1:
+                        ans -= 1
 
-        return perimeter
+        return ans
