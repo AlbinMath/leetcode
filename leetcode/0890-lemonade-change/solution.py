@@ -1,29 +1,16 @@
-
 class Solution:
-    def lemonadeChange(self, bills: list[int]) -> bool:
-        five = 0
-        ten = 0
-
-        for bill in bills:
-            if bill == 5:
-                five += 1
-
-            elif bill == 10:
-                if five == 0:
-                    return False
-
+    def lemonadeChange(self, bills: List[int]) -> bool:
+        five = ten = 0
+        for b in bills:
+            if b == 5: five += 1
+            elif b == 10:
+                if not five: return False
                 five -= 1
                 ten += 1
-
-            else:  # bill == 20
-                # Prefer giving one $10 and one $5
-                if ten > 0 and five > 0:
+            else:
+                if ten and five:
                     ten -= 1
                     five -= 1
-                elif five >= 3:
-                    five -= 3
-                else:
-                    return False
-
+                elif five >= 3: five -= 3
+                else: return False
         return True
-
