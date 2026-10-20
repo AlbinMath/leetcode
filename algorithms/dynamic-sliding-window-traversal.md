@@ -16,6 +16,8 @@ A curated selection of LeetCode problems solved using the **Dynamic Sliding Wind
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | Sliding Window | O(n) | O(1) |
 | 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | Medium | Sliding Window | O(n) | O(1) |
 | 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Easy | Sliding Window | O(n) | O(1) |
+| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2367-minimum-lines-to-represent-a-line-chart/) | Medium | Sliding Window | O(n) | O(1) |
+| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Easy | Sliding Window | O(n) | O(1) |
 | 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | Easy | Sliding Window | O(n) | O(1) |
 | 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Medium | Sliding Window | O(n) | O(1) |
 | 2627 | [Debounce](../leetcode/2743-debounce/) | Medium | Sliding Window | O(n) | O(1) |

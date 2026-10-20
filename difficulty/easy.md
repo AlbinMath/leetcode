@@ -192,7 +192,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 872 | [Leaf-Similar Trees](../leetcode/0904-leaf-similar-trees/) | Binary Search | JavaScript, Python | O(n) | O(1) |
 | 876 | [Middle of the Linked List](../leetcode/0908-middle-of-the-linked-list/) | Two Pointers | Python | O(n) | O(1) |
 | 883 | [Projection Area of 3D Shapes](../leetcode/0919-projection-area-of-3d-shapes/) | Array / General | Python | O(n) | O(1) |
-| 884 | [Uncommon Words from Two Sentences](../leetcode/0920-uncommon-words-from-two-sentences/) | Array / General | Python | O(n) | O(1) |
+| 884 | [Uncommon Words from Two Sentences](../leetcode/0920-uncommon-words-from-two-sentences/) | Hash Map | Python | O(n) | O(n) |
 | 888 | [Fair Candy Swap](../leetcode/0924-fair-candy-swap/) | Array / General | Python | O(n) | O(1) |
 | 892 | [Surface Area of 3D Shapes](../leetcode/0928-surface-area-of-3d-shapes/) | Array / General | Python | O(n) | O(1) |
 | 896 | [Monotonic Array](../leetcode/0932-monotonic-array/) | Monotonic Stack | Python | O(n) | O(n) |
@@ -445,7 +445,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2215 | [Find the Difference of Two Arrays](../leetcode/1392-find-the-difference-of-two-arrays/) | Array / General | JavaScript | O(n) | O(1) |
 | 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Database / SQL | SQL | O(n) | O(n) |
 | 2427 | [Number of Common Factors](../leetcode/2507-number-of-common-factors/) | Array / General | Python | O(n) | O(1) |
-| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Math & Logic | Python | O(n) | O(1) |
+| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Sliding Window | Python | O(n) | O(1) |
 | 2485 | [Find the Pivot Integer](../leetcode/2571-find-the-pivot-integer/) | Array / General | Python | O(n) | O(1) |
 | 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | Sliding Window | C++ | O(n) | O(1) |
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | Math & Logic | C++ | O(n) | O(1) |

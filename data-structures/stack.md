@@ -35,6 +35,7 @@ LeetCode problems solved using **Stack** data structures.
 | 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1648-minimum-insertions-to-balance-a-parentheses-string/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
+| 1670 | [Design Front Middle Back Queue](../leetcode/1767-design-front-middle-back-queue/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1802-number-of-students-unable-to-eat-lunch/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |

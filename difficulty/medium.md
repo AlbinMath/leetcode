@@ -152,7 +152,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 399 | [Evaluate Division](../leetcode/0399-evaluate-division/) | Stack & Queue | JavaScript | O(n) | O(n) |
 | 406 | [Queue Reconstruction by Height](../leetcode/0406-queue-reconstruction-by-height/) | Stack & Queue | JavaScript | O(n) | O(n) |
 | 427 | [Construct Quad Tree](../leetcode/0772-construct-quad-tree/) | Tree & Graph | JavaScript | O(n) | O(n) |
-| 430 | [Flatten a Multilevel Doubly Linked List](../leetcode/0766-flatten-a-multilevel-doubly-linked-list/) | Linked List | Python | O(n) | O(1) |
+| 430 | [Flatten a Multilevel Doubly Linked List](../leetcode/0766-flatten-a-multilevel-doubly-linked-list/) | Two Pointers | Python | O(n) | O(1) |
 | 433 | [Minimum Genetic Mutation](../leetcode/0433-minimum-genetic-mutation/) | Sliding Window | JavaScript | O(n) | O(1) |
 | 435 | [Non-overlapping Intervals](../leetcode/0435-non-overlapping-intervals/) | Heap | JavaScript | O(n) | O(n) |
 | 436 | [Find Right Interval](../leetcode/0436-find-right-interval/) | Heap | JavaScript | O(n) | O(n) |
@@ -293,7 +293,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 1657 | [Determine if Two Strings Are Close](../leetcode/1777-determine-if-two-strings-are-close/) | Array / General | JavaScript | O(n) | O(1) |
 | 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | Sliding Window | JavaScript | O(n) | O(1) |
 | 1664 | [Ways to Make a Fair Array](../leetcode/1783-ways-to-make-a-fair-array/) | Hash Map | Python | O(n) | O(n) |
-| 1670 | [Design Front Middle Back Queue](../leetcode/1767-design-front-middle-back-queue/) | Array / General | Python | O(n) | O(1) |
+| 1670 | [Design Front Middle Back Queue](../leetcode/1767-design-front-middle-back-queue/) | Stack & Queue | Python | O(n) | O(n) |
 | 1674 | [Minimum Moves to Make Array Complementary](../leetcode/1793-minimum-moves-to-make-array-complementary/) | Hash Map | C++ | O(n) | O(n) |
 | 1679 | [Max Number of K-Sum Pairs](../leetcode/1798-max-number-of-k-sum-pairs/) | Array / General | JavaScript | O(n) | O(1) |
 | 1682 | [Most Visited Sector In  A Circular Track](../leetcode/1682-most-visited-sector-in--a-circular-track/) | Array / General | Python | O(n) | O(1) |
@@ -322,7 +322,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 2091 | [Removing Minimum and Maximum From Array](../leetcode/2212-removing-minimum-and-maximum-from-array/) | Array / General | C++ | O(n) | O(1) |
 | 2095 | [Delete the Middle Node of a Linked List](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Fast & Slow Pointers | Java, JavaScript | O(n) | O(1) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | Two Pointers | JavaScript | O(n) | O(1) |
-| 2101 | [Detonate the Maximum Bombs](../leetcode/2206-detonate-the-maximum-bombs/) | Array / General | Python | O(n) | O(1) |
+| 2101 | [Detonate the Maximum Bombs](../leetcode/2206-detonate-the-maximum-bombs/) | Tree & Graph | Python | O(n) | O(n) |
 | 2109 | [Adding Spaces to a String](../leetcode/2232-adding-spaces-to-a-string/) | Array / General | JavaScript | O(n) | O(1) |
 | 2126 | [Destroying Asteroids](../leetcode/2245-destroying-asteroids/) | Bit Manipulation | Java | O(n) | O(1) |
 | 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Fast & Slow Pointers | Java, JavaScript | O(n) | O(1) |
@@ -332,7 +332,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 2250 | [Count Number of Rectangles Containing Each Point](../leetcode/2333-count-number-of-rectangles-containing-each-point/) | Math & Logic | JavaScript | O(n) | O(1) |
 | 2261 | [K Divisible Elements Subarrays](../leetcode/2339-k-divisible-elements-subarrays/) | Array / General | Python | O(n) | O(1) |
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | Two Pointers | JavaScript | O(n) | O(1) |
-| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2367-minimum-lines-to-represent-a-line-chart/) | Array / General | Python | O(n) | O(1) |
+| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2367-minimum-lines-to-represent-a-line-chart/) | Sliding Window | Python | O(n) | O(1) |
 | 2300 | [Successful Pairs of Spells and Potions](../leetcode/2392-successful-pairs-of-spells-and-potions/) | Array / General | JavaScript | O(n) | O(1) |
 | 2333 | [Minimum Sum of Squared Difference](../leetcode/2418-minimum-sum-of-squared-difference/) | Array / General | JavaScript | O(n) | O(1) |
 | 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | Bit Manipulation | JavaScript | O(n) | O(1) |

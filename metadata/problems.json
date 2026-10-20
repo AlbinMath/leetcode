@@ -8035,12 +8035,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Linked List",
-    "algorithm": "Pointer Traversal & Node Manipulation",
-    "data_structure": "Linked List",
+    "pattern": "Two Pointers",
+    "algorithm": "Two Pointer Convergence & Scanning",
+    "data_structure": "Array",
     "topics": [
-      "Linked List",
-      "Two Pointers"
+      "Two Pointers",
+      "Array",
+      "Sorting"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -13323,14 +13324,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "A  sentence  is a string of single-space separated words where each word consists only of lowercase letters.",
     "related_ids": [
       1880,
@@ -20448,14 +20451,15 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Stack & Queue",
+    "algorithm": "Stack Push / Pop Parsing",
+    "data_structure": "Stack",
     "topics": [
-      "Array"
+      "Stack",
+      "String Parsing"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "Design a queue that supports  push  and  pop  operations in the front, middle, and back.",
     "related_ids": [
       211,
@@ -21798,14 +21802,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given two integers,  m  and  k , and a stream of integers. You are tasked to implement a data structure that calculates the  MKAverage  for the stream.",
     "related_ids": [
       637,
@@ -24029,14 +24036,17 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Tree & Graph",
+    "algorithm": "Depth-First Search (DFS) / Breadth-First Search (BFS)",
+    "data_structure": "Tree / Graph / Grid",
     "topics": [
-      "Array"
+      "Tree",
+      "Graph",
+      "DFS",
+      "BFS"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a list of bombs. The  range  of a bomb is defined as the area where its effect can be felt. This area is in the shape of a  circle  with the center as the location of the bomb.",
     "related_ids": [
       53,
@@ -24757,11 +24767,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Sliding Window",
+    "algorithm": "Dynamic Sliding Window Traversal",
+    "data_structure": "Array / Hash Set",
     "topics": [
-      "Array"
+      "Sliding Window",
+      "Two Pointers",
+      "Subarrays"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -25396,12 +25408,13 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Math & Logic",
-    "algorithm": "Mathematical Simulation & Modular Arithmetic",
-    "data_structure": "Primitive Types",
+    "pattern": "Sliding Window",
+    "algorithm": "Dynamic Sliding Window Traversal",
+    "data_structure": "Array / Hash Set",
     "topics": [
-      "Math",
-      "Simulation"
+      "Sliding Window",
+      "Two Pointers",
+      "Subarrays"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -25827,14 +25840,16 @@
       "Python"
     ],
     "lang_str": "Python",
-    "pattern": "Array / General",
-    "algorithm": "In-Place Array Traversal & Index Mapping",
-    "data_structure": "Array",
+    "pattern": "Hash Map",
+    "algorithm": "Complement Lookup / Hash Table Frequency",
+    "data_structure": "Dictionary / Hash Map",
     "topics": [
-      "Array"
+      "Hash Table",
+      "Array",
+      "Complement Lookup"
     ],
     "time": "O(n)",
-    "space": "O(1)",
+    "space": "O(n)",
     "brief": "You are given a  0-indexed  integer array  nums  of length  n .",
     "related_ids": [
       410,

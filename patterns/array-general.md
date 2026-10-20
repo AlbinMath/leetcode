@@ -164,8 +164,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 883 | [Projection Area of 3D Shapes](../leetcode/0919-projection-area-of-3d-shapes/) | Python | O(n) | O(1) | [Explanation](../leetcode/0919-projection-area-of-3d-shapes/Explanation.md) |
 
-| 884 | [Uncommon Words from Two Sentences](../leetcode/0920-uncommon-words-from-two-sentences/) | Python | O(n) | O(1) | [Explanation](../leetcode/0920-uncommon-words-from-two-sentences/Explanation.md) |
-
 | 888 | [Fair Candy Swap](../leetcode/0924-fair-candy-swap/) | Python | O(n) | O(1) | [Explanation](../leetcode/0924-fair-candy-swap/Explanation.md) |
 
 | 892 | [Surface Area of 3D Shapes](../leetcode/0928-surface-area-of-3d-shapes/) | Python | O(n) | O(1) | [Explanation](../leetcode/0928-surface-area-of-3d-shapes/Explanation.md) |
@@ -698,8 +696,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1657 | [Determine if Two Strings Are Close](../leetcode/1777-determine-if-two-strings-are-close/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1777-determine-if-two-strings-are-close/Explanation.md) |
 
-| 1670 | [Design Front Middle Back Queue](../leetcode/1767-design-front-middle-back-queue/) | Python | O(n) | O(1) | [Explanation](../leetcode/1767-design-front-middle-back-queue/Explanation.md) |
-
 | 1679 | [Max Number of K-Sum Pairs](../leetcode/1798-max-number-of-k-sum-pairs/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1798-max-number-of-k-sum-pairs/Explanation.md) |
 
 | 1682 | [Most Visited Sector In  A Circular Track](../leetcode/1682-most-visited-sector-in--a-circular-track/) | Python | O(n) | O(1) | [Explanation](../leetcode/1682-most-visited-sector-in--a-circular-track/Explanation.md) |
@@ -728,13 +724,9 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 2091 | [Removing Minimum and Maximum From Array](../leetcode/2212-removing-minimum-and-maximum-from-array/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2212-removing-minimum-and-maximum-from-array/Explanation.md) |
 
-| 2101 | [Detonate the Maximum Bombs](../leetcode/2206-detonate-the-maximum-bombs/) | Python | O(n) | O(1) | [Explanation](../leetcode/2206-detonate-the-maximum-bombs/Explanation.md) |
-
 | 2109 | [Adding Spaces to a String](../leetcode/2232-adding-spaces-to-a-string/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2232-adding-spaces-to-a-string/Explanation.md) |
 
 | 2261 | [K Divisible Elements Subarrays](../leetcode/2339-k-divisible-elements-subarrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/2339-k-divisible-elements-subarrays/Explanation.md) |
-
-| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2367-minimum-lines-to-represent-a-line-chart/) | Python | O(n) | O(1) | [Explanation](../leetcode/2367-minimum-lines-to-represent-a-line-chart/Explanation.md) |
 
 | 2300 | [Successful Pairs of Spells and Potions](../leetcode/2392-successful-pairs-of-spells-and-potions/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2392-successful-pairs-of-spells-and-potions/Explanation.md) |
 
@@ -986,8 +978,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 
 | 1735 | [Count Ways to Make Array With Product](../leetcode/1836-count-ways-to-make-array-with-product/) | Python | O(n) | O(1) | [Explanation](../leetcode/1836-count-ways-to-make-array-with-product/Explanation.md) |
 
-| 1825 | [Finding MK Average](../leetcode/1953-finding-mk-average/) | Python | O(n) | O(1) | [Explanation](../leetcode/1953-finding-mk-average/Explanation.md) |
-
 | 1866 | [Number of Ways to Rearrange Sticks With K Sticks Visible](../leetcode/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) | Python | O(n) | O(1) | [Explanation](../leetcode/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/Explanation.md) |
 
 | 1928 | [Minimum Cost to Reach Destination in Time](../leetcode/2040-minimum-cost-to-reach-destination-in-time/) | Python | O(n) | O(1) | [Explanation](../leetcode/2040-minimum-cost-to-reach-destination-in-time/Explanation.md) |
@@ -1023,8 +1013,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 2543 | [Check if Point Is Reachable](../leetcode/2635-check-if-point-is-reachable/) | Python | O(n) | O(1) | [Explanation](../leetcode/2635-check-if-point-is-reachable/Explanation.md) |
 
 | 2552 | [Count Increasing Quadruplets](../leetcode/2682-count-increasing-quadruplets/) | Python | O(n) | O(1) | [Explanation](../leetcode/2682-count-increasing-quadruplets/Explanation.md) |
-
-| 2584 | [Split the Array to Make Coprime Products](../leetcode/2647-split-the-array-to-make-coprime-products/) | Python | O(n) | O(1) | [Explanation](../leetcode/2647-split-the-array-to-make-coprime-products/Explanation.md) |
 
 | 2650 | [Design Cancellable Function](../leetcode/2788-design-cancellable-function/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2788-design-cancellable-function/Explanation.md) |
 

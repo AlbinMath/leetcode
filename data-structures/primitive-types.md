@@ -40,7 +40,6 @@ LeetCode problems solved using **Primitive Types** data structures.
 | 1945 | [Sum of Digits of String After Convert](../leetcode/2076-sum-of-digits-of-string-after-convert/) | Easy | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 2249 | [Count Lattice Points Inside a Circle](../leetcode/2332-count-lattice-points-inside-a-circle/) | Medium | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 2250 | [Count Number of Rectangles Containing Each Point](../leetcode/2333-count-number-of-rectangles-containing-each-point/) | Medium | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
-| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Easy | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | Easy | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 2637 | [Promise Time Limit](../leetcode/2749-promise-time-limit/) | Medium | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |
 | 3047 | [Find the Largest Area of Square Inside Two Rectangles](../leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles/) | Medium | Mathematical Simulation & Modular Arithmetic | O(n) | O(1) |

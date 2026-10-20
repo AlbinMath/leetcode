@@ -133,7 +133,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 1728 | [Cat and Mouse II](../leetcode/1727-cat-and-mouse-ii/) | Array / General | Python | O(n) | O(1) |
 | 1735 | [Count Ways to Make Array With Product](../leetcode/1836-count-ways-to-make-array-with-product/) | Array / General | Python | O(n) | O(1) |
 | 1819 | [Number of Different Subsequences GCDs](../leetcode/1947-number-of-different-subsequences-gcds/) | Dynamic Programming | Python | O(n) | O(n) |
-| 1825 | [Finding MK Average](../leetcode/1953-finding-mk-average/) | Array / General | Python | O(n) | O(1) |
+| 1825 | [Finding MK Average](../leetcode/1953-finding-mk-average/) | Tree & Graph | Python | O(n) | O(n) |
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Tree & Graph | Python | O(n) | O(n) |
 | 1851 | [Minimum Interval to Include Each Query](../leetcode/1977-minimum-interval-to-include-each-query/) | Heap | Python | O(n) | O(n) |
 | 1866 | [Number of Ways to Rearrange Sticks With K Sticks Visible](../leetcode/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) | Array / General | Python | O(n) | O(1) |
@@ -169,7 +169,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 2509 | [Cycle Length Queries in a Tree](../leetcode/2597-cycle-length-queries-in-a-tree/) | Fast & Slow Pointers | JavaScript | O(n) | O(1) |
 | 2543 | [Check if Point Is Reachable](../leetcode/2635-check-if-point-is-reachable/) | Array / General | Python | O(n) | O(1) |
 | 2552 | [Count Increasing Quadruplets](../leetcode/2682-count-increasing-quadruplets/) | Array / General | Python | O(n) | O(1) |
-| 2584 | [Split the Array to Make Coprime Products](../leetcode/2647-split-the-array-to-make-coprime-products/) | Array / General | Python | O(n) | O(1) |
+| 2584 | [Split the Array to Make Coprime Products](../leetcode/2647-split-the-array-to-make-coprime-products/) | Hash Map | Python | O(n) | O(n) |
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | Hash Map | TypeScript | O(n) | O(n) |
 | 2650 | [Design Cancellable Function](../leetcode/2788-design-cancellable-function/) | Array / General | TypeScript | O(n) | O(1) |
 | 2659 | [Make Array Empty](../leetcode/2765-make-array-empty/) | Hash Map | JavaScript | O(n) | O(n) |

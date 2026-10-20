@@ -141,7 +141,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 414 | [Third Maximum Number](../leetcode/0414-third-maximum-number/) | Easy | Array / General | O(n) | O(1) |
 | 415 | [Add Strings](../leetcode/0415-add-strings/) | Easy | Array / General | O(n) | O(1) |
 | 420 | [Strong Password Checker](../leetcode/0420-strong-password-checker/) | Hard | Array / General | O(n) | O(1) |
-| 430 | [Flatten a Multilevel Doubly Linked List](../leetcode/0766-flatten-a-multilevel-doubly-linked-list/) | Medium | Linked List | O(n) | O(1) |
+| 430 | [Flatten a Multilevel Doubly Linked List](../leetcode/0766-flatten-a-multilevel-doubly-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 432 | [All O`one Data Structure](../leetcode/0432-all-oone-data-structure/) | Hard | Array / General | O(n) | O(1) |
 | 434 | [Number of Segments in a String](../leetcode/0434-number-of-segments-in-a-string/) | Easy | Array / General | O(n) | O(1) |
 | 438 | [Find All Anagrams in a String](../leetcode/0438-find-all-anagrams-in-a-string/) | Medium | Hash Map | O(n) | O(n) |
@@ -286,7 +286,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 878 | [Nth Magical Number](../leetcode/0910-nth-magical-number/) | Hard | Array / General | O(n) | O(1) |
 | 882 | [Reachable Nodes In Subdivided Graph](../leetcode/0918-reachable-nodes-in-subdivided-graph/) | Hard | Two Pointers | O(n) | O(1) |
 | 883 | [Projection Area of 3D Shapes](../leetcode/0919-projection-area-of-3d-shapes/) | Easy | Array / General | O(n) | O(1) |
-| 884 | [Uncommon Words from Two Sentences](../leetcode/0920-uncommon-words-from-two-sentences/) | Easy | Array / General | O(n) | O(1) |
+| 884 | [Uncommon Words from Two Sentences](../leetcode/0920-uncommon-words-from-two-sentences/) | Easy | Hash Map | O(n) | O(n) |
 | 888 | [Fair Candy Swap](../leetcode/0924-fair-candy-swap/) | Easy | Array / General | O(n) | O(1) |
 | 892 | [Surface Area of 3D Shapes](../leetcode/0928-surface-area-of-3d-shapes/) | Easy | Array / General | O(n) | O(1) |
 | 896 | [Monotonic Array](../leetcode/0932-monotonic-array/) | Easy | Monotonic Stack | O(n) | O(n) |
@@ -437,7 +437,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 1610 | [Maximum Number of Visible Points](../leetcode/1733-maximum-number-of-visible-points/) | Hard | Array / General | O(n) | O(1) |
 | 1631 | [Path With Minimum Effort](../leetcode/1753-path-with-minimum-effort/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1664 | [Ways to Make a Fair Array](../leetcode/1783-ways-to-make-a-fair-array/) | Medium | Hash Map | O(n) | O(n) |
-| 1670 | [Design Front Middle Back Queue](../leetcode/1767-design-front-middle-back-queue/) | Medium | Array / General | O(n) | O(1) |
+| 1670 | [Design Front Middle Back Queue](../leetcode/1767-design-front-middle-back-queue/) | Medium | Stack & Queue | O(n) | O(n) |
 | 1682 | [Most Visited Sector In  A Circular Track](../leetcode/1682-most-visited-sector-in--a-circular-track/) | Medium | Array / General | O(n) | O(1) |
 | 1686 | [Stone Game VI](../leetcode/1788-stone-game-vi/) | Medium | Array / General | O(n) | O(1) |
 | 1690 | [Stone Game VII](../leetcode/1808-stone-game-vii/) | Medium | Array / General | O(n) | O(1) |
@@ -447,7 +447,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 1786 | [Number of Restricted Paths From First to Last Node](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/) | Medium | Two Pointers | O(n) | O(1) |
 | 1797 | [Design Authentication Manager](../leetcode/1905-design-authentication-manager/) | Medium | Array / General | O(n) | O(1) |
 | 1819 | [Number of Different Subsequences GCDs](../leetcode/1947-number-of-different-subsequences-gcds/) | Hard | Dynamic Programming | O(n) | O(n) |
-| 1825 | [Finding MK Average](../leetcode/1953-finding-mk-average/) | Hard | Array / General | O(n) | O(1) |
+| 1825 | [Finding MK Average](../leetcode/1953-finding-mk-average/) | Hard | Tree & Graph | O(n) | O(n) |
 | 1828 | [Queries on Number of Points Inside a Circle](../leetcode/1939-queries-on-number-of-points-inside-a-circle/) | Medium | Math & Logic | O(n) | O(1) |
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Hard | Tree & Graph | O(n) | O(n) |
 | 1851 | [Minimum Interval to Include Each Query](../leetcode/1977-minimum-interval-to-include-each-query/) | Hard | Heap | O(n) | O(n) |
@@ -467,7 +467,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 2089 | [Find Target Indices After Sorting Array](../leetcode/2210-find-target-indices-after-sorting-array/) | Easy | Array / General | O(n) | O(1) |
 | 2094 | [Finding 3-Digit Even Numbers](../leetcode/2215-finding-3-digit-even-numbers/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2099 | [Find Subsequence of Length K With the Largest Sum](../leetcode/2204-find-subsequence-of-length-k-with-the-largest-sum/) | Easy | Dynamic Programming | O(n) | O(n) |
-| 2101 | [Detonate the Maximum Bombs](../leetcode/2206-detonate-the-maximum-bombs/) | Medium | Array / General | O(n) | O(1) |
+| 2101 | [Detonate the Maximum Bombs](../leetcode/2206-detonate-the-maximum-bombs/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2102 | [Sequentially Ordinal Rank Tracker](../leetcode/2207-sequentially-ordinal-rank-tracker/) | Hard | Array / General | O(n) | O(1) |
 | 2114 | [Maximum Number of Words Found in Sentences](../leetcode/2219-maximum-number-of-words-found-in-sentences/) | Easy | Array / General | O(n) | O(1) |
 | 2119 | [A Number After a Double Reversal](../leetcode/2238-a-number-after-a-double-reversal/) | Easy | Array / General | O(n) | O(1) |
@@ -478,7 +478,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 2227 | [Encrypt and Decrypt Strings](../leetcode/1433-encrypt-and-decrypt-strings/) | Hard | Hash Map | O(n) | O(n) |
 | 2249 | [Count Lattice Points Inside a Circle](../leetcode/2332-count-lattice-points-inside-a-circle/) | Medium | Math & Logic | O(n) | O(1) |
 | 2261 | [K Divisible Elements Subarrays](../leetcode/2339-k-divisible-elements-subarrays/) | Medium | Array / General | O(n) | O(1) |
-| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2367-minimum-lines-to-represent-a-line-chart/) | Medium | Array / General | O(n) | O(1) |
+| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2367-minimum-lines-to-represent-a-line-chart/) | Medium | Sliding Window | O(n) | O(1) |
 | 2290 | [Minimum Obstacle Removal to Reach Corner](../leetcode/2375-minimum-obstacle-removal-to-reach-corner/) | Hard | Array / General | O(n) | O(1) |
 | 2296 | [Design a Text Editor](../leetcode/2389-design-a-text-editor/) | Hard | Array / General | O(n) | O(1) |
 | 2338 | [Count the Number of Ideal Arrays](../leetcode/2415-count-the-number-of-ideal-arrays/) | Hard | Array / General | O(n) | O(1) |
@@ -490,7 +490,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 2427 | [Number of Common Factors](../leetcode/2507-number-of-common-factors/) | Easy | Array / General | O(n) | O(1) |
 | 2430 | [Maximum Deletions on a String](../leetcode/2510-maximum-deletions-on-a-string/) | Hard | Array / General | O(n) | O(1) |
 | 2452 | [Words Within Two Edits of Dictionary](../leetcode/2550-words-within-two-edits-of-dictionary/) | Medium | Hash Map | O(n) | O(n) |
-| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Easy | Math & Logic | O(n) | O(1) |
+| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Easy | Sliding Window | O(n) | O(1) |
 | 2485 | [Find the Pivot Integer](../leetcode/2571-find-the-pivot-integer/) | Easy | Array / General | O(n) | O(1) |
 | 2513 | [Minimize the Maximum of Two Arrays](../leetcode/2628-minimize-the-maximum-of-two-arrays/) | Medium | Array / General | O(n) | O(1) |
 | 2523 | [Closest Prime Numbers in Range](../leetcode/2610-closest-prime-numbers-in-range/) | Medium | Bit Manipulation | O(n) | O(1) |
@@ -498,7 +498,7 @@ A collection of LeetCode problems implemented in **Python** with detailed comple
 | 2543 | [Check if Point Is Reachable](../leetcode/2635-check-if-point-is-reachable/) | Hard | Array / General | O(n) | O(1) |
 | 2552 | [Count Increasing Quadruplets](../leetcode/2682-count-increasing-quadruplets/) | Hard | Array / General | O(n) | O(1) |
 | 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Medium | Sliding Window | O(n) | O(1) |
-| 2584 | [Split the Array to Make Coprime Products](../leetcode/2647-split-the-array-to-make-coprime-products/) | Hard | Array / General | O(n) | O(1) |
+| 2584 | [Split the Array to Make Coprime Products](../leetcode/2647-split-the-array-to-make-coprime-products/) | Hard | Hash Map | O(n) | O(n) |
 | 2654 | [Minimum Number of Operations to Make All Array Elements Equal to 1](../leetcode/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/) | Medium | Array / General | O(n) | O(1) |
 | 2707 | [Extra Characters in a String](../leetcode/2755-extra-characters-in-a-string/) | Medium | Hash Map | O(n) | O(n) |
 | 2709 | [Greatest Common Divisor Traversal](../leetcode/2827-greatest-common-divisor-traversal/) | Hard | Array / General | O(n) | O(1) |

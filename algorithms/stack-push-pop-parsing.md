@@ -26,6 +26,7 @@ A curated selection of LeetCode problems solved using the **Stack Push / Pop Par
 | 1441 | [Build an Array With Stack Operations](../leetcode/1552-build-an-array-with-stack-operations/) | Medium | Stack & Queue | O(n) | O(n) |
 | 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1648-minimum-insertions-to-balance-a-parentheses-string/) | Medium | Stack & Queue | O(n) | O(n) |
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Easy | Stack & Queue | O(n) | O(n) |
+| 1670 | [Design Front Middle Back Queue](../leetcode/1767-design-front-middle-back-queue/) | Medium | Stack & Queue | O(n) | O(n) |
 | 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1802-number-of-students-unable-to-eat-lunch/) | Easy | Stack & Queue | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack & Queue | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack & Queue | O(n) | O(n) |

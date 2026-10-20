@@ -30,6 +30,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 748 | [Shortest Completing Word](../leetcode/0749-shortest-completing-word/) | Python | O(n) | O(n) | [Explanation](../leetcode/0749-shortest-completing-word/Explanation.md) |
 
+| 884 | [Uncommon Words from Two Sentences](../leetcode/0920-uncommon-words-from-two-sentences/) | Python | O(n) | O(n) | [Explanation](../leetcode/0920-uncommon-words-from-two-sentences/Explanation.md) |
+
 | 905 | [Sort Array By Parity](../leetcode/0941-sort-array-by-parity/) | Python | O(n) | O(n) | [Explanation](../leetcode/0941-sort-array-by-parity/Explanation.md) |
 
 | 953 | [Verifying an Alien Dictionary](../leetcode/0990-verifying-an-alien-dictionary/) | Python | O(n) | O(n) | [Explanation](../leetcode/0990-verifying-an-alien-dictionary/Explanation.md) |
@@ -131,6 +133,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 2227 | [Encrypt and Decrypt Strings](../leetcode/1433-encrypt-and-decrypt-strings/) | Python | O(n) | O(n) | [Explanation](../leetcode/1433-encrypt-and-decrypt-strings/Explanation.md) |
 
 | 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2423-minimum-deletions-to-make-array-divisible/) | Python | O(n) | O(n) | [Explanation](../leetcode/2423-minimum-deletions-to-make-array-divisible/Explanation.md) |
+
+| 2584 | [Split the Array to Make Coprime Products](../leetcode/2647-split-the-array-to-make-coprime-products/) | Python | O(n) | O(n) | [Explanation](../leetcode/2647-split-the-array-to-make-coprime-products/Explanation.md) |
 
 | 2630 | [Memoize II](../leetcode/2744-memoize-ii/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2744-memoize-ii/Explanation.md) |
 

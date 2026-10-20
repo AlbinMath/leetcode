@@ -40,7 +40,6 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 1945 | [Sum of Digits of String After Convert](../leetcode/2076-sum-of-digits-of-string-after-convert/) | Easy | Math & Logic | O(n) | O(1) |
 | 2249 | [Count Lattice Points Inside a Circle](../leetcode/2332-count-lattice-points-inside-a-circle/) | Medium | Math & Logic | O(n) | O(1) |
 | 2250 | [Count Number of Rectangles Containing Each Point](../leetcode/2333-count-number-of-rectangles-containing-each-point/) | Medium | Math & Logic | O(n) | O(1) |
-| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Easy | Math & Logic | O(n) | O(1) |
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | Easy | Math & Logic | O(n) | O(1) |
 | 2637 | [Promise Time Limit](../leetcode/2749-promise-time-limit/) | Medium | Math & Logic | O(n) | O(1) |
 | 3047 | [Find the Largest Area of Square Inside Two Rectangles](../leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles/) | Medium | Math & Logic | O(n) | O(1) |

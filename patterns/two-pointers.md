@@ -84,6 +84,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 328 | [Odd Even Linked List](../leetcode/0328-odd-even-linked-list/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0328-odd-even-linked-list/Explanation.md) |
 
+| 430 | [Flatten a Multilevel Doubly Linked List](../leetcode/0766-flatten-a-multilevel-doubly-linked-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/0766-flatten-a-multilevel-doubly-linked-list/Explanation.md) |
+
 | 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/Explanation.md) |
 
 | 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Java | O(n) | O(1) | [Explanation](../leetcode/1216-print-zero-even-odd/Explanation.md) |

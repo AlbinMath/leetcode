@@ -38,8 +38,6 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 1945 | [Sum of Digits of String After Convert](../leetcode/2076-sum-of-digits-of-string-after-convert/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2076-sum-of-digits-of-string-after-convert/Explanation.md) |
 
-| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Python | O(n) | O(1) | [Explanation](../leetcode/2575-minimum-cuts-to-divide-a-circle/Explanation.md) |
-
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2639-separate-the-digits-in-an-array/Explanation.md) |
 
 | 3300 | [Minimum Element After Replacement With Digit Sum](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/Explanation.md) |

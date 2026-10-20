@@ -156,6 +156,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 2029 | [Stone Game IX](../leetcode/2156-stone-game-ix/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2156-stone-game-ix/Explanation.md) |
 
+| 2101 | [Detonate the Maximum Bombs](../leetcode/2206-detonate-the-maximum-bombs/) | Python | O(n) | O(n) | [Explanation](../leetcode/2206-detonate-the-maximum-bombs/Explanation.md) |
+
 | 2161 | [Partition Array According to Given Pivot](../leetcode/2265-partition-array-according-to-given-pivot/) | Java | O(n) | O(n) | [Explanation](../leetcode/2265-partition-array-according-to-given-pivot/Explanation.md) |
 
 | 2492 | [Minimum Score of a Path Between Two Cities](../leetcode/2582-minimum-score-of-a-path-between-two-cities/) | Java | O(n) | O(n) | [Explanation](../leetcode/2582-minimum-score-of-a-path-between-two-cities/Explanation.md) |
@@ -201,6 +203,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 587 | [Erect the Fence](../leetcode/0587-erect-the-fence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0587-erect-the-fence/Explanation.md) |
 
 | 1368 | [Minimum Cost to Make at Least One Valid Path in a Grid](../leetcode/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/Explanation.md) |
+
+| 1825 | [Finding MK Average](../leetcode/1953-finding-mk-average/) | Python | O(n) | O(n) | [Explanation](../leetcode/1953-finding-mk-average/Explanation.md) |
 
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Python | O(n) | O(n) | [Explanation](../leetcode/1968-maximum-building-height/Explanation.md) |
 

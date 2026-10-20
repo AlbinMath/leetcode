@@ -10,6 +10,8 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 |---|---|---|---|---|---|
 | 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/Explanation.md) |
 
+| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Python | O(n) | O(1) | [Explanation](../leetcode/2575-minimum-cuts-to-divide-a-circle/Explanation.md) |
+
 | 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2634-minimum-common-value/Explanation.md) |
 
 ### Medium
@@ -23,6 +25,8 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/Explanation.md) |
 
 | 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/Explanation.md) |
+
+| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2367-minimum-lines-to-represent-a-line-chart/) | Python | O(n) | O(1) | [Explanation](../leetcode/2367-minimum-lines-to-represent-a-line-chart/Explanation.md) |
 
 | 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Python | O(n) | O(1) | [Explanation](../leetcode/2705-minimum-impossible-or/Explanation.md) |
 

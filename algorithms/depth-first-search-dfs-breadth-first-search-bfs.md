@@ -72,6 +72,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 1710 | [Maximum Units on a Truck](../leetcode/1829-maximum-units-on-a-truck/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](../leetcode/1884-minimum-changes-to-make-alternating-binary-string/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](../leetcode/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/) | Easy | Tree & Graph | O(n) | O(n) |
+| 1825 | [Finding MK Average](../leetcode/1953-finding-mk-average/) | Hard | Tree & Graph | O(n) | O(n) |
 | 1840 | [Maximum Building Height](../leetcode/1968-maximum-building-height/) | Hard | Tree & Graph | O(n) | O(n) |
 | 1854 | [Maximum Population Year](../leetcode/1983-maximum-population-year/) | Easy | Tree & Graph | O(n) | O(n) |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](../leetcode/2015-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -80,6 +81,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Easy | Tree & Graph | O(n) | O(n) |
 | 2029 | [Stone Game IX](../leetcode/2156-stone-game-ix/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2045 | [Second Minimum Time to Reach Destination](../leetcode/2171-second-minimum-time-to-reach-destination/) | Hard | Tree & Graph | O(n) | O(n) |
+| 2101 | [Detonate the Maximum Bombs](../leetcode/2206-detonate-the-maximum-bombs/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2161 | [Partition Array According to Given Pivot](../leetcode/2265-partition-array-according-to-given-pivot/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2492 | [Minimum Score of a Path Between Two Cities](../leetcode/2582-minimum-score-of-a-path-between-two-cities/) | Medium | Tree & Graph | O(n) | O(n) |
