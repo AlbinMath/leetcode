@@ -1,3 +1,4 @@
+
 var Trie = function() {
     this.root = {};
 };
@@ -12,6 +13,7 @@ Trie.prototype.insert = function(word) {
         node = node[char];
     }
 
+    // Mark the end of a complete word
     node.isEnd = true;
 };
 
@@ -40,3 +42,4 @@ Trie.prototype.startsWith = function(prefix) {
 
     return true;
 };
+
