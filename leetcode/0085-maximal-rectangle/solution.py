@@ -1,38 +1,33 @@
 class Solution:
-    def maximalRectangle(self, matrix):
-        if not matrix:
+    def maximalRectangle(self, matrix: List[List[str]]) -> int:
+        if not matrix or not matrix[0]:
             return 0
 
-        rows = len(matrix)
-        cols = len(matrix[0])
-
+        rows, cols = len(matrix), len(matrix[0])
         heights = [0] * cols
         max_area = 0
 
-        for i in range(rows):
-
-            # Build histogram heights
-            for j in range(cols):
-                if matrix[i][j] == "1":
-                    heights[j] += 1
+        for r in range(rows):
+            # Build histogram heights for the current row
+            for c in range(cols):
+                if matrix[r][c] == '1':
+                    heights[c] += 1
                 else:
-                    heights[j] = 0
+                    heights[c] = 0
 
-            # Largest Rectangle in Histogram
-            stack = [-1]
+            # Find the largest rectangle in this histogram
+            stack = []
+            for c in range(cols + 1):
+                current_height = heights[c] if c < cols else 0
 
-            for j in range(cols):
-                while stack[-1] != -1 and heights[stack[-1]] >= heights[j]:
-                    height = heights[stack.pop()]
-                    width = j - stack[-1] - 1
-                    max_area = max(max_area, height * width)
+                while stack and heights[stack[-1]] > current_height:
+                    h = heights[stack.pop()]
 
-                stack.append(j)
+                    left_boundary = stack[-1] if stack else -1
+                    width = c - left_boundary - 1
 
-            # Process remaining bars
-            while stack[-1] != -1:
-                height = heights[stack.pop()]
-                width = cols - stack[-1] - 1
-                max_area = max(max_area, height * width)
+                    max_area = max(max_area, h * width)
+
+                stack.append(c)
 
         return max_area
