@@ -1,3 +1,4 @@
+
 var rob = function(nums) {
     let prev2 = 0;
     let prev1 = 0;
@@ -14,3 +15,4 @@ var rob = function(nums) {
 
     return prev1;
 };
+
