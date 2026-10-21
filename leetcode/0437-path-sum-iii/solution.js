@@ -1,33 +1,39 @@
 
 var pathSum = function(root, targetSum) {
-    const prefixSum = new Map();
-    prefixSum.set(0, 1);
+    const prefixCount = new Map();
+    prefixCount.set(0, 1);
+
+    let count = 0;
 
     function dfs(node, currentSum) {
         if (node === null) {
-            return 0;
+            return;
         }
 
         currentSum += node.val;
 
-        let count = prefixSum.get(currentSum - targetSum) || 0;
+        // Find paths ending at this node with the target sum.
+        const needed = currentSum - targetSum;
+        count += prefixCount.get(needed) || 0;
 
-        prefixSum.set(
+        // Add the current prefix sum before visiting children.
+        prefixCount.set(
             currentSum,
-            (prefixSum.get(currentSum) || 0) + 1
+            (prefixCount.get(currentSum) || 0) + 1
         );
 
-        count += dfs(node.left, currentSum);
-        count += dfs(node.right, currentSum);
+        dfs(node.left, currentSum);
+        dfs(node.right, currentSum);
 
-        prefixSum.set(
+        // Backtrack: remove this prefix sum for other branches.
+        prefixCount.set(
             currentSum,
-            prefixSum.get(currentSum) - 1
+            prefixCount.get(currentSum) - 1
         );
-
-        return count;
     }
 
-    return dfs(root, 0);
+    dfs(root, 0);
+
+    return count;
 };
 
