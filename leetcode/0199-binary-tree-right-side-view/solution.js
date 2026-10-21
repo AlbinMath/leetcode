@@ -1,3 +1,4 @@
+
 var rightSideView = function(root) {
     if (root === null) {
         return [];
@@ -5,13 +6,15 @@ var rightSideView = function(root) {
 
     const result = [];
     const queue = [root];
+    let head = 0;
 
-    while (queue.length > 0) {
-        const levelSize = queue.length;
+    while (head < queue.length) {
+        const levelSize = queue.length - head;
 
         for (let i = 0; i < levelSize; i++) {
-            const node = queue.shift();
+            const node = queue[head++];
 
+            // The last node at this level is visible from the right.
             if (i === levelSize - 1) {
                 result.push(node.val);
             }
@@ -28,3 +31,4 @@ var rightSideView = function(root) {
 
     return result;
 };
+
