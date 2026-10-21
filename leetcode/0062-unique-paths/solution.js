@@ -1,5 +1,6 @@
+
 var uniquePaths = function(m, n) {
-    const dp = new Array(n).fill(1);
+    const dp = Array(n).fill(1);
 
     for (let i = 1; i < m; i++) {
         for (let j = 1; j < n; j++) {
@@ -9,3 +10,4 @@ var uniquePaths = function(m, n) {
 
     return dp[n - 1];
 };
+
