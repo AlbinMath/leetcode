@@ -1,33 +1,30 @@
 
-/**
- * @param {number[][]} matrix
- * @return {void} Do not return anything, modify matrix in-place instead.
- */
 var setZeroes = function(matrix) {
-    const m = matrix.length;
-    const n = matrix[0].length;
+    const rows = matrix.length;
+    const cols = matrix[0].length;
 
-    // Check if first row contains zero
     let firstRowZero = false;
-    for (let j = 0; j < n; j++) {
+    let firstColZero = false;
+
+    // Check whether the first row contains zero
+    for (let j = 0; j < cols; j++) {
         if (matrix[0][j] === 0) {
             firstRowZero = true;
             break;
         }
     }
 
-    // Check if first column contains zero
-    let firstColZero = false;
-    for (let i = 0; i < m; i++) {
+    // Check whether the first column contains zero
+    for (let i = 0; i < rows; i++) {
         if (matrix[i][0] === 0) {
             firstColZero = true;
             break;
         }
     }
 
-    // Use first row and first column as markers
-    for (let i = 1; i < m; i++) {
-        for (let j = 1; j < n; j++) {
+    // Use the first row and column to mark zeroes
+    for (let i = 1; i < rows; i++) {
+        for (let j = 1; j < cols; j++) {
             if (matrix[i][j] === 0) {
                 matrix[i][0] = 0;
                 matrix[0][j] = 0;
@@ -35,26 +32,35 @@ var setZeroes = function(matrix) {
         }
     }
 
-    // Set cells to zero based on markers
-    for (let i = 1; i < m; i++) {
-        for (let j = 1; j < n; j++) {
-            if (matrix[i][0] === 0 || matrix[0][j] === 0) {
+    // Set marked rows to zero
+    for (let i = 1; i < rows; i++) {
+        if (matrix[i][0] === 0) {
+            for (let j = 1; j < cols; j++) {
                 matrix[i][j] = 0;
             }
         }
     }
 
-    // Handle first row
+    // Set marked columns to zero
+    for (let j = 1; j < cols; j++) {
+        if (matrix[0][j] === 0) {
+            for (let i = 1; i < rows; i++) {
+                matrix[i][j] = 0;
+            }
+        }
+    }
+
+    // Handle the first row and column last
     if (firstRowZero) {
-        for (let j = 0; j < n; j++) {
+        for (let j = 0; j < cols; j++) {
             matrix[0][j] = 0;
         }
     }
 
-    // Handle first column
     if (firstColZero) {
-        for (let i = 0; i < m; i++) {
+        for (let i = 0; i < rows; i++) {
             matrix[i][0] = 0;
         }
     }
 };
+
