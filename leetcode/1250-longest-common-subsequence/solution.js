@@ -1,10 +1,11 @@
+
 var longestCommonSubsequence = function(text1, text2) {
     const m = text1.length;
     const n = text2.length;
 
     const dp = Array.from(
         { length: m + 1 },
-        () => new Array(n + 1).fill(0)
+        () => Array(n + 1).fill(0)
     );
 
     for (let i = 1; i <= m; i++) {
@@ -22,3 +23,4 @@ var longestCommonSubsequence = function(text1, text2) {
 
     return dp[m][n];
 };
+
