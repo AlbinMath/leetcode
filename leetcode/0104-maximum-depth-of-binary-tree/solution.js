@@ -1,3 +1,4 @@
+
 var maxDepth = function(root) {
     if (root === null) {
         return 0;
@@ -8,3 +9,4 @@ var maxDepth = function(root) {
 
     return 1 + Math.max(leftDepth, rightDepth);
 };
+
