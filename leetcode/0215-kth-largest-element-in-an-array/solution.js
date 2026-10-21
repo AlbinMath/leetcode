@@ -1,39 +1,50 @@
+
 var findKthLargest = function(nums, k) {
     const target = nums.length - k;
+    let left = 0;
+    let right = nums.length - 1;
 
-    function quickSelect(left, right) {
+    while (left <= right) {
+        // Select a random pivot
         const randomIndex =
             left + Math.floor(Math.random() * (right - left + 1));
 
         const pivot = nums[randomIndex];
 
-        let low = left;
-        let mid = left;
-        let high = right;
+        // Move the pivot to the end
+        [nums[randomIndex], nums[right]] =
+            [nums[right], nums[randomIndex]];
 
-        while (mid <= high) {
-            if (nums[mid] < pivot) {
-                [nums[low], nums[mid]] = [nums[mid], nums[low]];
-                low++;
-                mid++;
-            } else if (nums[mid] > pivot) {
-                [nums[mid], nums[high]] = [nums[high], nums[mid]];
-                high--;
+        // Three-way partition:
+        // [left, lt - 1] < pivot
+        // [lt, i - 1] === pivot
+        // [gt + 1, right] > pivot
+        let lt = left;
+        let i = left;
+        let gt = right;
+
+        while (i <= gt) {
+            if (nums[i] < pivot) {
+                [nums[lt], nums[i]] = [nums[i], nums[lt]];
+                lt++;
+                i++;
+            } else if (nums[i] > pivot) {
+                [nums[i], nums[gt]] = [nums[gt], nums[i]];
+                gt--;
             } else {
-                mid++;
+                i++;
             }
         }
 
-        if (target < low) {
-            return quickSelect(left, low - 1);
+        if (target < lt) {
+            right = lt - 1;
+        } else if (target > gt) {
+            left = gt + 1;
+        } else {
+            return pivot;
         }
-
-        if (target > high) {
-            return quickSelect(high + 1, right);
-        }
-
-        return nums[target];
     }
 
-    return quickSelect(0, nums.length - 1);
+    return -1;
 };
+
