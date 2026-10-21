@@ -1,10 +1,12 @@
 import heapq
+from typing import List, Optional
+
 
 class Solution:
-    def mergeKLists(self, lists):
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         heap = []
 
-        # Put the first node of every list into the heap
+        # Add the first node of each non-empty list
         for i, node in enumerate(lists):
             if node:
                 heapq.heappush(heap, (node.val, i, node))
@@ -13,13 +15,12 @@ class Solution:
         current = dummy
 
         while heap:
-            value, i, node = heapq.heappop(heap)
+            val, i, node = heapq.heappop(heap)
 
-            # Add smallest node to result
             current.next = node
             current = current.next
 
-            # Add next node from the same list
+            # Add the next node from the same list
             if node.next:
                 heapq.heappush(heap, (node.next.val, i, node.next))
 
