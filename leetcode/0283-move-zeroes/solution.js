@@ -1,10 +1,11 @@
 var moveZeroes = function(nums) {
-    let j = 0;
+    let position = 0;
 
+    // Move all non-zero elements to the front
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] !== 0) {
-            [nums[i], nums[j]] = [nums[j], nums[i]];
-            j++;
+            [nums[position], nums[i]] = [nums[i], nums[position]];
+            position++;
         }
     }
 };
