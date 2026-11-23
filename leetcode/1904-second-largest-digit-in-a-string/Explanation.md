@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2243. Calculate Digit Sum of a String](../2361-calculate-digit-sum-of-a-string/)
 - [1903. Largest Odd Number in String](../2032-largest-odd-number-in-string/)
-- [3403. Find the Lexicographically Largest String From the Box I](../3683-find-the-lexicographically-largest-string-from-the-box-i/)
-- [4036. Lexicographically Largest String After Pair Transformations](../4366-lexicographically-largest-string-after-pair-transformations/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/second-largest-digit-in-a-string/)

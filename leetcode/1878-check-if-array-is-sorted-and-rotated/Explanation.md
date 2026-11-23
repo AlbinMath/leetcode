@@ -67,8 +67,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
-- [81. Search in Rotated Sorted Array II](../0081-search-in-rotated-sorted-array-ii/)
+- [1250. Check If It Is a Good Array](../1372-check-if-it-is-a-good-array/)
+- [1961. Check If String Is a Prefix of Array](../2093-check-if-string-is-a-prefix-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)

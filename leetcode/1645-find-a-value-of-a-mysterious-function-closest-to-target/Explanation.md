@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [564. Find the Closest Palindrome](../0564-find-the-closest-palindrome/)
-- [658. Find K Closest Elements](../0658-find-k-closest-elements/)
-- [2359. Find Closest Node to Given Two Nodes](../2438-find-closest-node-to-given-two-nodes/)
+- [513. Find Bottom Left Tree Value](../0513-find-bottom-left-tree-value/)
+- [515. Find Largest Value in Each Tree Row](../0515-find-largest-value-in-each-tree-row/)
+- [1385. Find the Distance Value Between Two Arrays](../1486-find-the-distance-value-between-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)

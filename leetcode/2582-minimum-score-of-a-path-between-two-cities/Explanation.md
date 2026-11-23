@@ -66,9 +66,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3880. Minimum Absolute Difference Between Two Values](../4255-minimum-absolute-difference-between-two-values/)
 - [2567. Minimum Score by Changing Two Elements](../2706-minimum-score-by-changing-two-elements/)
-- [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
+- [3880. Minimum Absolute Difference Between Two Values](../4255-minimum-absolute-difference-between-two-values/)
+- [2322. Minimum Score After Removals on a Tree](../2400-minimum-score-after-removals-on-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)

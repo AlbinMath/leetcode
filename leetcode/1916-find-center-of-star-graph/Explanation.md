@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1971. Find if Path Exists in Graph](../2121-find-if-path-exists-in-graph/)
 - [2497. Maximum Star Sum of a Graph](../2590-maximum-star-sum-of-a-graph/)
+- [1971. Find if Path Exists in Graph](../2121-find-if-path-exists-in-graph/)
 - [133. Clone Graph](../0133-clone-graph/)
 
 ## LeetCode

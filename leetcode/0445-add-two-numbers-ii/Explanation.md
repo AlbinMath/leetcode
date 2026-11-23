@@ -1,7 +1,7 @@
 # LeetCode 445: Add Two Numbers II
 
 **LeetCode Problem #445 — Add Two Numbers II**
-Solve LeetCode Add Two Numbers II using JavaScript and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
+Solve LeetCode Add Two Numbers II using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Add Two Numbers II using JavaScript and Linked List. This solutio
 | LeetCode | #445 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Pointer Traversal & Node Manipulation |
-| Data Structure | Linked List |
-| Pattern | Linked List |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,29 +20,30 @@ Solve LeetCode Add Two Numbers II using JavaScript and Linked List. This solutio
 You are given two  non-empty  linked lists representing two non-negative integers. The most significant digit comes first and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 
 ## Key Insight
-Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Linked List**).
-2. Process elements sequentially using **Pointer Traversal & Node Manipulation**.
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Add Two Numbers II**. Applying **Pointer Traversal & Node Manipulation** yields the target result step by step.
+Consider the standard input for **Add Two Numbers II**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Linked List**
+**Two Pointers**
 
 ## Topics
-- Linked List
 - Two Pointers
+- Array
+- Sorting
 
 ## Language
 JavaScript
@@ -51,21 +52,21 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [2. Add Two Numbers](../0002-add-two-numbers/)
-- [421. Maximum XOR of Two Numbers in an Array](../0421-maximum-xor-of-two-numbers-in-an-array/)
 - [2723. Add Two Promises](../2859-add-two-promises/)
+- [421. Maximum XOR of Two Numbers in an Array](../0421-maximum-xor-of-two-numbers-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-two-numbers-ii/)

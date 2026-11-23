@@ -63,7 +63,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1945. Sum of Digits of String After Convert](../2076-sum-of-digits-of-string-after-convert/)
+- [1796. Second Largest Digit in a String](../1904-second-largest-digit-in-a-string/)
 - [2180. Count Integers With Even Digit Sum](../2298-count-integers-with-even-digit-sum/)
 - [2310. Sum of Numbers With Units Digit K](../1334-sum-of-numbers-with-units-digit-k/)
 

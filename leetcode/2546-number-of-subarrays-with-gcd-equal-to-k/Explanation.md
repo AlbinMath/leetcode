@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2470. Number of Subarrays With LCM Equal to K](../2557-number-of-subarrays-with-lcm-equal-to-k/)
-- [3336. Find the Number of Subsequences With Equal GCD](../3608-find-the-number-of-subsequences-with-equal-gcd/)
-- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+- [3209. Number of Subarrays With AND Value of K](../3466-number-of-subarrays-with-and-value-of-k/)
+- [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../3717-minimum-operations-to-make-elements-within-k-subarrays-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)

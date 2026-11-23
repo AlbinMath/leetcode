@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1593. Split a String Into the Max Number of Unique Substrings](../1715-split-a-string-into-the-max-number-of-unique-substrings/)
-- [2914. Minimum Number of Changes to Make Binary String Beautiful](../3174-minimum-number-of-changes-to-make-binary-string-beautiful/)
 - [2696. Minimum String Length After Removing Substrings](../2800-minimum-string-length-after-removing-substrings/)
+- [2914. Minimum Number of Changes to Make Binary String Beautiful](../3174-minimum-number-of-changes-to-make-binary-string-beautiful/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/)

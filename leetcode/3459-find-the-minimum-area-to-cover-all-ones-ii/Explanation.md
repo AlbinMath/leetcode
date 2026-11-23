@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1723. Find Minimum Time to Finish All Jobs](../1825-find-minimum-time-to-finish-all-jobs/)
-- [438. Find All Anagrams in a String](../0438-find-all-anagrams-in-a-string/)
-- [448. Find All Numbers Disappeared in an Array](../0448-find-all-numbers-disappeared-in-an-array/)
+- [1277. Count Square Submatrices with All Ones](../1402-count-square-submatrices-with-all-ones/)
+- [1504. Count Submatrices With All Ones](../1628-count-submatrices-with-all-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/)

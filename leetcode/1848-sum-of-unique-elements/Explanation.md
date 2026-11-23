@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2778. Sum of Squares of Special Elements ](../2844-sum-of-squares-of-special-elements-/)
 - [2841. Maximum Sum of Almost Unique Subarray](../2954-maximum-sum-of-almost-unique-subarray/)
+- [2778. Sum of Squares of Special Elements ](../2844-sum-of-squares-of-special-elements-/)
 - [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../3423-maximum-sum-of-subsequence-with-non-adjacent-elements/)
 
 ## LeetCode

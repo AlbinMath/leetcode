@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 - [2503. Maximum Number of Points From Grid Queries](../2588-maximum-number-of-points-from-grid-queries/)
-- [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
+- [321. Create Maximum Number](../0321-create-maximum-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-visible-points/)

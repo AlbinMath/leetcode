@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3314. Construct the Minimum Bitwise Array I](../3605-construct-the-minimum-bitwise-array-i/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
+- [1354. Construct Target Array With Multiple Sums](../1479-construct-target-array-with-multiple-sums/)
+- [3875. Construct Uniform Parity Array I](../4256-construct-uniform-parity-array-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/)

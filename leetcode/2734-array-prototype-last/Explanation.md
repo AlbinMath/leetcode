@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
+- [58. Length of Last Word](../0058-length-of-last-word/)
+- [1046. Last Stone Weight](../1127-last-stone-weight/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/array-prototype-last/)

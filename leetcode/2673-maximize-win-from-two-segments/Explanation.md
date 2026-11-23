@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [884. Uncommon Words from Two Sentences](../0920-uncommon-words-from-two-sentences/)
 - [1771. Maximize Palindrome Length From Subsequences](../1897-maximize-palindrome-length-from-subsequences/)
 - [2259. Remove Digit From Number to Maximize Result](../2337-remove-digit-from-number-to-maximize-result/)
+- [3387. Maximize Amount After Two Days of Conversions](../3613-maximize-amount-after-two-days-of-conversions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-win-from-two-segments/)

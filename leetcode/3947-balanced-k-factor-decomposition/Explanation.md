@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3703. Remove K-Balanced Substrings](../4019-remove-k-balanced-substrings/)
-- [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
+- [952. Largest Component Size by Common Factor](../0989-largest-component-size-by-common-factor/)
+- [1492. The kth Factor of n](../1585-the-kth-factor-of-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/balanced-k-factor-decomposition/)

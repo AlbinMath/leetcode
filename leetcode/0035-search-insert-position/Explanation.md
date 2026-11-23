@@ -66,8 +66,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [701. Insert into a Binary Search Tree](../0784-insert-into-a-binary-search-tree/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [1217. Minimum Cost to Move Chips to The Same Position](../1329-minimum-cost-to-move-chips-to-the-same-position/)
+- [57. Insert Interval](../0057-insert-interval/)
+- [380. Insert Delete GetRandom O(1)](../0380-insert-delete-getrandom-o1/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-insert-position/)

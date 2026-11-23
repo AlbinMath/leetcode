@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [378. Kth Smallest Element in a Sorted Matrix](../0378-kth-smallest-element-in-a-sorted-matrix/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [230. Kth Smallest Element in a BST](../0230-kth-smallest-element-in-a-bst/)
+- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)

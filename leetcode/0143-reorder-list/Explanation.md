@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [61. Rotate List](../0061-rotate-list/)
-- [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
+- [937. Reorder Data in Log Files](../0974-reorder-data-in-log-files/)
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- [1569. Number of Ways to Reorder Array to Get Same BST](../1692-number-of-ways-to-reorder-array-to-get-same-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reorder-list/)

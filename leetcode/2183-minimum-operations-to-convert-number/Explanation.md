@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](../1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](../1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 - [1806. Minimum Number of Operations to Reinitialize a Permutation](../1935-minimum-number-of-operations-to-reinitialize-a-permutation/)
-- [1830. Minimum Number of Operations to Make String Sorted](../1941-minimum-number-of-operations-to-make-string-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-convert-number/)

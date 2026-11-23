@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [840. Magic Squares In Grid](../0870-magic-squares-in-grid/)
-- [1260. Shift 2D Grid](../1386-shift-2d-grid/)
-- [1293. Shortest Path in a Grid with Obstacles Elimination](../1414-shortest-path-in-a-grid-with-obstacles-elimination/)
+- [733. Flood Fill](../0733-flood-fill/)
+- [2887. Fill Missing Data](../3070-fill-missing-data/)
+- [3905. Multi Source Flood Fill](../4283-multi-source-flood-fill/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fill-a-special-grid/)

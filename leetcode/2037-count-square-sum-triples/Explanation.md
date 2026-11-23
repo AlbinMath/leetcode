@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [327. Count of Range Sum](../0327-count-of-range-sum/)
-- [633. Sum of Square Numbers](../0633-sum-of-square-numbers/)
-- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+- [1277. Count Square Submatrices with All Ones](../1402-count-square-submatrices-with-all-ones/)
+- [2180. Count Integers With Even Digit Sum](../2298-count-integers-with-even-digit-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-square-sum-triples/)

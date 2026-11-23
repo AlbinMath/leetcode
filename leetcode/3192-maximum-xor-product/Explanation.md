@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [152. Maximum Product Subarray](../0152-maximum-product-subarray/)
-- [318. Maximum Product of Word Lengths](../0318-maximum-product-of-word-lengths/)
-- [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
+- [421. Maximum XOR of Two Numbers in an Array](../0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1707. Maximum XOR With an Element From Array](../1826-maximum-xor-with-an-element-from-array/)
+- [1829. Maximum XOR for Each Query](../1940-maximum-xor-for-each-query/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-xor-product/)

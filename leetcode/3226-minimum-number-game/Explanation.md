@@ -1,7 +1,7 @@
 # LeetCode 2974: Minimum Number Game
 
 **LeetCode Problem #2974 — Minimum Number Game**
-Solve LeetCode Minimum Number Game using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Minimum Number Game using JavaScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Minimum Number Game using JavaScript and Array / General. This so
 | LeetCode | #2974 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Minimum Number Game using JavaScript and Array / General. This so
 You are given a  0-indexed  integer array  nums  of  even  length and there is also an empty array  arr . Alice and Bob decided to play a game where in every round Alice and Bob will do one move. The rules of the game are as follows:
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Number Game**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Minimum Number Game**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 JavaScript
@@ -50,7 +51,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1996. The Number of Weak Characters in the Game](../2123-the-number-of-weak-characters-in-the-game/)
 - [452. Minimum Number of Arrows to Burst Balloons](../0452-minimum-number-of-arrows-to-burst-balloons/)
 - [995. Minimum Number of K Consecutive Bit Flips](../1037-minimum-number-of-k-consecutive-bit-flips/)
+- [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](../1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-game/)

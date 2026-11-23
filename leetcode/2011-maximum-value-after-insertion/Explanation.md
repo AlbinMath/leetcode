@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1422. Maximum Score After Splitting a String](../1537-maximum-score-after-splitting-a-string/)
 - [1695. Maximum Erasure Value](../1813-maximum-erasure-value/)
-- [1702. Maximum Binary String After Change](../1804-maximum-binary-string-after-change/)
+- [2011. Final Value of Variable After Performing Operations](../2137-final-value-of-variable-after-performing-operations/)
+- [2507. Smallest Value After Replacing With Sum of Prime Factors](../2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-after-insertion/)

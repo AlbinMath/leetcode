@@ -17,7 +17,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 28 | [Find the Index of the First Occurrence in a String](../leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Stack & Queue | Python | O(n) | O(n) |
 | 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Binary Search | JavaScript, Python | O(log n) | O(1) |
 | 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Hash Map | Python | O(n) | O(n) |
-| 66 | [Plus One](../leetcode/0066-plus-one/) | Array / General | Python | O(n) | O(1) |
+| 66 | [Plus One](../leetcode/0066-plus-one/) | Tree & Graph | Python | O(n) | O(n) |
 | 67 | [Add Binary](../leetcode/0067-add-binary/) | Binary Search | Python | O(n) | O(1) |
 | 69 | [Sqrt(x)](../leetcode/0069-sqrtx/) | Array / General | Python | O(n) | O(1) |
 | 70 | [Climbing Stairs](../leetcode/0070-climbing-stairs/) | Array / General | JavaScript, Python | O(n) | O(1) |
@@ -96,7 +96,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 414 | [Third Maximum Number](../leetcode/0414-third-maximum-number/) | Array / General | Python | O(n) | O(1) |
 | 415 | [Add Strings](../leetcode/0415-add-strings/) | Array / General | Python | O(n) | O(1) |
 | 434 | [Number of Segments in a String](../leetcode/0434-number-of-segments-in-a-string/) | Array / General | Python | O(n) | O(1) |
-| 441 | [Arranging Coins](../leetcode/0441-arranging-coins/) | Array / General | Python | O(n) | O(1) |
+| 441 | [Arranging Coins](../leetcode/0441-arranging-coins/) | Tree & Graph | Python | O(n) | O(n) |
 | 448 | [Find All Numbers Disappeared in an Array](../leetcode/0448-find-all-numbers-disappeared-in-an-array/) | Array / General | TypeScript | O(n) | O(1) |
 | 455 | [Assign Cookies](../leetcode/0455-assign-cookies/) | Array / General | Python | O(n) | O(1) |
 | 459 | [Repeated Substring Pattern](../leetcode/0459-repeated-substring-pattern/) | Array / General | JavaScript, Python | O(n) | O(1) |
@@ -108,7 +108,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 492 | [Construct the Rectangle](../leetcode/0492-construct-the-rectangle/) | Tree & Graph | Python | O(n) | O(n) |
 | 495 | [Teemo Attacking](../leetcode/0495-teemo-attacking/) | Array / General | Python | O(n) | O(1) |
 | 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Monotonic Stack | Python | O(n) | O(n) |
-| 500 | [Keyboard Row](../leetcode/0500-keyboard-row/) | Array / General | Python | O(n) | O(1) |
+| 500 | [Keyboard Row](../leetcode/0500-keyboard-row/) | Tree & Graph | Python | O(n) | O(n) |
 | 501 | [Find Mode in Binary Search Tree](../leetcode/0501-find-mode-in-binary-search-tree/) | Binary Search | Python | O(n) | O(1) |
 | 504 | [Base 7](../leetcode/0504-base-7/) | Hash Map | Python | O(n) | O(n) |
 | 506 | [Relative Ranks](../leetcode/0506-relative-ranks/) | Array / General | Python | O(n) | O(1) |
@@ -181,13 +181,13 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 804 | [Unique Morse Code Words](../leetcode/0822-unique-morse-code-words/) | Array / General | Python | O(n) | O(1) |
 | 806 | [Number of Lines To Write String](../leetcode/0824-number-of-lines-to-write-string/) | Array / General | Python | O(n) | O(1) |
 | 812 | [Largest Triangle Area](../leetcode/0830-largest-triangle-area/) | Math & Logic | Python | O(n) | O(1) |
-| 819 | [Most Common Word](../leetcode/0837-most-common-word/) | Array / General | Python | O(n) | O(1) |
+| 819 | [Most Common Word](../leetcode/0837-most-common-word/) | Binary Search | Python | O(n) | O(1) |
 | 821 | [Shortest Distance to a Character](../leetcode/0841-shortest-distance-to-a-character/) | Array / General | Python | O(n) | O(1) |
 | 824 | [Goat Latin](../leetcode/0851-goat-latin/) | Array / General | Python | O(n) | O(1) |
 | 830 | [Positions of Large Groups](../leetcode/0857-positions-of-large-groups/) | Array / General | Python | O(n) | O(1) |
 | 832 | [Flipping an Image](../leetcode/0861-flipping-an-image/) | Array / General | Python | O(n) | O(1) |
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Math & Logic | JavaScript | O(n) | O(1) |
-| 844 | [Backspace String Compare](../leetcode/0874-backspace-string-compare/) | Array / General | Python | O(n) | O(1) |
+| 844 | [Backspace String Compare](../leetcode/0874-backspace-string-compare/) | Hash Map | Python | O(n) | O(n) |
 | 859 | [Buddy Strings](../leetcode/0889-buddy-strings/) | Array / General | Python | O(n) | O(1) |
 | 860 | [Lemonade Change](../leetcode/0890-lemonade-change/) | Array / General | Python | O(n) | O(1) |
 | 867 | [Transpose Matrix](../leetcode/0898-transpose-matrix/) | Tree & Graph | Python | O(n) | O(n) |
@@ -201,12 +201,12 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 896 | [Monotonic Array](../leetcode/0932-monotonic-array/) | Monotonic Stack | Python | O(n) | O(n) |
 | 897 | [Increasing Order Search Tree](../leetcode/0933-increasing-order-search-tree/) | Binary Search | Python | O(n) | O(1) |
 | 905 | [Sort Array By Parity](../leetcode/0941-sort-array-by-parity/) | Hash Map | Python | O(n) | O(n) |
-| 908 | [Smallest Range I](../leetcode/0944-smallest-range-i/) | Array / General | Python | O(n) | O(1) |
+| 908 | [Smallest Range I](../leetcode/0944-smallest-range-i/) | Bit Manipulation | Python | O(n) | O(1) |
 | 914 | [X of a Kind in a Deck of Cards](../leetcode/0950-x-of-a-kind-in-a-deck-of-cards/) | Array / General | Python | O(n) | O(1) |
 | 917 | [Reverse Only Letters](../leetcode/0953-reverse-only-letters/) | Two Pointers | Python | O(n) | O(1) |
 | 922 | [Sort Array By Parity II](../leetcode/0958-sort-array-by-parity-ii/) | Array / General | Python | O(n) | O(1) |
 | 925 | [Long Pressed Name](../leetcode/0961-long-pressed-name/) | Array / General | Python | O(n) | O(1) |
-| 929 | [Unique Email Addresses](../leetcode/0965-unique-email-addresses/) | Array / General | Python | O(n) | O(1) |
+| 929 | [Unique Email Addresses](../leetcode/0965-unique-email-addresses/) | Binary Search | Python | O(n) | O(1) |
 | 933 | [Number of Recent Calls](../leetcode/0969-number-of-recent-calls/) | Array / General | JavaScript, Python | O(n) | O(1) |
 | 938 | [Range Sum of BST](../leetcode/0975-range-sum-of-bst/) | Binary Search | Python | O(n) | O(1) |
 | 941 | [Valid Mountain Array](../leetcode/0978-valid-mountain-array/) | Array / General | Python | O(n) | O(1) |
@@ -233,9 +233,9 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1046 | [Last Stone Weight](../leetcode/1127-last-stone-weight/) | Array / General | JavaScript, Python | O(n) | O(1) |
 | 1047 | [Remove All Adjacent Duplicates In String](../leetcode/1128-remove-all-adjacent-duplicates-in-string/) | Array / General | Python | O(n) | O(1) |
 | 1050 | [Actors and Directors Who Cooperated At Least Three Times](../leetcode/1136-actors-and-directors-who-cooperated-at-least-three-times/) | Database / SQL | SQL | O(n) | O(n) |
-| 1051 | [Height Checker](../leetcode/1137-height-checker/) | Array / General | Python | O(n) | O(1) |
+| 1051 | [Height Checker](../leetcode/1137-height-checker/) | Tree & Graph | Python | O(n) | O(n) |
 | 1068 | [Product Sales Analysis I](../leetcode/1153-product-sales-analysis-i/) | Database / SQL | SQL | O(n) | O(n) |
-| 1071 | [Greatest Common Divisor of Strings](../leetcode/1146-greatest-common-divisor-of-strings/) | Array / General | JavaScript, Python | O(n) | O(1) |
+| 1071 | [Greatest Common Divisor of Strings](../leetcode/1146-greatest-common-divisor-of-strings/) | Linked List | JavaScript, Python | O(n) | O(1) |
 | 1075 | [Project Employees I](../leetcode/1161-project-employees-i/) | Database / SQL | SQL | O(n) | O(n) |
 | 1078 | [Occurrences After Bigram](../leetcode/1156-occurrences-after-bigram/) | Array / General | Python | O(n) | O(1) |
 | 1084 | [Sales Analysis III](../leetcode/1174-sales-analysis-iii/) | Database / SQL | SQL | O(n) | O(n) |
@@ -257,23 +257,23 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1200 | [Minimum Absolute Difference](../leetcode/1306-minimum-absolute-difference/) | Array / General | Python | O(n) | O(1) |
 | 1207 | [Unique Number of Occurrences](../leetcode/1319-unique-number-of-occurrences/) | Array / General | JavaScript, Python | O(n) | O(1) |
 | 1211 | [Queries Quality and Percentage](../leetcode/1338-queries-quality-and-percentage/) | Database / SQL | SQL | O(n) | O(n) |
-| 1217 | [Minimum Cost to Move Chips to The Same Position](../leetcode/1329-minimum-cost-to-move-chips-to-the-same-position/) | Array / General | Python | O(n) | O(1) |
+| 1217 | [Minimum Cost to Move Chips to The Same Position](../leetcode/1329-minimum-cost-to-move-chips-to-the-same-position/) | Tree & Graph | Python | O(n) | O(n) |
 | 1221 | [Split a String in Balanced Strings](../leetcode/1341-split-a-string-in-balanced-strings/) | Array / General | Python | O(n) | O(1) |
 | 1232 | [Check If It Is a Straight Line](../leetcode/1349-check-if-it-is-a-straight-line/) | Array / General | Python | O(n) | O(1) |
 | 1251 | [Average Selling Price](../leetcode/1390-average-selling-price/) | Database / SQL | SQL | O(n) | O(n) |
 | 1252 | [Cells with Odd Values in a Matrix](../leetcode/1378-cells-with-odd-values-in-a-matrix/) | Tree & Graph | Python | O(n) | O(n) |
 | 1260 | [Shift 2D Grid](../leetcode/1386-shift-2d-grid/) | Tree & Graph | Racket | O(n) | O(n) |
-| 1266 | [Minimum Time Visiting All Points](../leetcode/1395-minimum-time-visiting-all-points/) | Array / General | Python | O(n) | O(1) |
+| 1266 | [Minimum Time Visiting All Points](../leetcode/1395-minimum-time-visiting-all-points/) | Tree & Graph | Python | O(n) | O(n) |
 | 1275 | [Find Winner on a Tic Tac Toe Game](../leetcode/1400-find-winner-on-a-tic-tac-toe-game/) | Array / General | Python | O(n) | O(1) |
 | 1280 | [Students and Examinations](../leetcode/1415-students-and-examinations/) | Database / SQL | SQL | O(n) | O(n) |
-| 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Math & Logic | Python | O(n) | O(1) |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Prefix Sum | Python | O(n) | O(n) |
 | 1287 | [Element Appearing More Than 25% In Sorted Array](../leetcode/1221-element-appearing-more-than-25-in-sorted-array/) | Array / General | Python | O(n) | O(1) |
 | 1290 | [Convert Binary Number in a Linked List to Integer](../leetcode/1411-convert-binary-number-in-a-linked-list-to-integer/) | Binary Search | Python | O(n) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](../leetcode/1421-find-numbers-with-even-number-of-digits/) | Math & Logic | Python | O(n) | O(1) |
 | 1299 | [Replace Elements with Greatest Element on Right Side](../leetcode/1231-replace-elements-with-greatest-element-on-right-side/) | Tree & Graph | Python | O(n) | O(n) |
-| 1309 | [Decrypt String from Alphabet to Integer Mapping](../leetcode/1434-decrypt-string-from-alphabet-to-integer-mapping/) | Array / General | Python | O(n) | O(1) |
+| 1309 | [Decrypt String from Alphabet to Integer Mapping](../leetcode/1434-decrypt-string-from-alphabet-to-integer-mapping/) | Tree & Graph | Python | O(n) | O(n) |
 | 1313 | [Decompress Run-Length Encoded List](../leetcode/1241-decompress-run-length-encoded-list/) | Array / General | Python | O(n) | O(1) |
-| 1317 | [Convert Integer to the Sum of Two No-Zero Integers](../leetcode/1440-convert-integer-to-the-sum-of-two-no-zero-integers/) | Array / General | Python | O(n) | O(1) |
+| 1317 | [Convert Integer to the Sum of Two No-Zero Integers](../leetcode/1440-convert-integer-to-the-sum-of-two-no-zero-integers/) | Bit Manipulation | Python | O(n) | O(1) |
 | 1323 | [Maximum 69 Number](../leetcode/1448-maximum-69-number/) | Array / General | Python | O(n) | O(1) |
 | 1327 | [List the Products Ordered in a Period](../leetcode/1462-list-the-products-ordered-in-a-period/) | Database / SQL | SQL | O(n) | O(n) |
 | 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Binary Search | Kotlin | O(n) | O(1) |
@@ -291,7 +291,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../leetcode/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Binary Search | Python | O(n) | O(1) |
 | 1380 | [Lucky Numbers in a Matrix](../leetcode/1496-lucky-numbers-in-a-matrix/) | Tree & Graph | Python | O(n) | O(n) |
 | 1385 | [Find the Distance Value Between Two Arrays](../leetcode/1486-find-the-distance-value-between-two-arrays/) | Array / General | Python | O(n) | O(1) |
-| 1389 | [Create Target Array in the Given Order](../leetcode/1505-create-target-array-in-the-given-order/) | Array / General | Python | O(n) | O(1) |
+| 1389 | [Create Target Array in the Given Order](../leetcode/1505-create-target-array-in-the-given-order/) | Hash Map | Python | O(n) | O(n) |
 | 1394 | [Find Lucky Integer in an Array](../leetcode/1510-find-lucky-integer-in-an-array/) | Hash Map | Python | O(n) | O(n) |
 | 1399 | [Count Largest Group](../leetcode/1500-count-largest-group/) | Array / General | Python | O(n) | O(1) |
 | 1403 | [Minimum Subsequence in Non-Increasing Order](../leetcode/1519-minimum-subsequence-in-non-increasing-order/) | Dynamic Programming | Python | O(n) | O(n) |
@@ -306,7 +306,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1446 | [Consecutive Characters](../leetcode/1542-consecutive-characters/) | Array / General | Python | O(n) | O(1) |
 | 1450 | [Number of Students Doing Homework at a Given Time](../leetcode/1560-number-of-students-doing-homework-at-a-given-time/) | Array / General | Python | O(n) | O(1) |
 | 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](../leetcode/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Prefix Sum | Python | O(n) | O(n) |
-| 1460 | [Make Two Arrays Equal by Reversing Subarrays](../leetcode/1556-make-two-arrays-equal-by-reversing-subarrays/) | Array / General | Python | O(n) | O(1) |
+| 1460 | [Make Two Arrays Equal by Reversing Subarrays](../leetcode/1556-make-two-arrays-equal-by-reversing-subarrays/) | Bit Manipulation | Python | O(n) | O(1) |
 | 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Binary Search | Scala | O(n) | O(1) |
 | 1470 | [Shuffle the Array](../leetcode/1580-shuffle-the-array/) | Array / General | TypeScript | O(n) | O(1) |
 | 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1570-final-prices-with-a-special-discount-in-a-shop/) | Monotonic Stack | TypeScript | O(n) | O(n) |
@@ -323,7 +323,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1630-count-odd-numbers-in-an-interval-range/) | Heap | Python | O(n) | O(n) |
 | 1527 | [Patients With a Condition](../leetcode/1670-patients-with-a-condition/) | Database / SQL | SQL | O(n) | O(n) |
 | 1528 | [Shuffle String](../leetcode/1651-shuffle-string/) | Array / General | Python | O(n) | O(1) |
-| 1534 | [Count Good Triplets](../leetcode/1656-count-good-triplets/) | Array / General | Python | O(n) | O(1) |
+| 1534 | [Count Good Triplets](../leetcode/1656-count-good-triplets/) | Tree & Graph | Python | O(n) | O(n) |
 | 1539 | [Kth Missing Positive Number](../leetcode/1646-kth-missing-positive-number/) | Array / General | JavaScript | O(n) | O(1) |
 | 1544 | [Make The String Great](../leetcode/1666-make-the-string-great/) | Array / General | Python | O(n) | O(1) |
 | 1550 | [Three Consecutive Odds](../leetcode/1293-three-consecutive-odds/) | Array / General | Python | O(n) | O(1) |
@@ -367,7 +367,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1710 | [Maximum Units on a Truck](../leetcode/1829-maximum-units-on-a-truck/) | Tree & Graph | C++ | O(n) | O(n) |
 | 1716 | [Calculate Money in Leetcode Bank](../leetcode/1817-calculate-money-in-leetcode-bank/) | Array / General | C++ | O(n) | O(1) |
 | 1720 | [Decode XORed Array](../leetcode/1839-decode-xored-array/) | Bit Manipulation | C++ | O(n) | O(1) |
-| 1725 | [Number Of Rectangles That Can Form The Largest Square](../leetcode/1843-number-of-rectangles-that-can-form-the-largest-square/) | Math & Logic | C++ | O(n) | O(1) |
+| 1725 | [Number Of Rectangles That Can Form The Largest Square](../leetcode/1843-number-of-rectangles-that-can-form-the-largest-square/) | Tree & Graph | C++ | O(n) | O(n) |
 | 1729 | [Find Followers Count](../leetcode/1877-find-followers-count/) | Database / SQL | SQL | O(n) | O(n) |
 | 1731 | [The Number of Employees Which Report to Each Employee](../leetcode/1882-the-number-of-employees-which-report-to-each-employee/) | Database / SQL | SQL | O(n) | O(n) |
 | 1732 | [Find the Highest Altitude](../leetcode/1833-find-the-highest-altitude/) | Array / General | JavaScript, Kotlin, Python | O(n) | O(1) |
@@ -409,9 +409,9 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1890 | [The Latest Login in 2020](../leetcode/2041-the-latest-login-in-2020/) | Database / SQL | SQL | O(n) | O(n) |
 | 1893 | [Check if All the Integers in a Range Are Covered](../leetcode/2005-check-if-all-the-integers-in-a-range-are-covered/) | Array / General | C++ | O(n) | O(1) |
 | 1897 | [Redistribute Characters to Make All Strings Equal](../leetcode/2025-redistribute-characters-to-make-all-strings-equal/) | Array / General | C++ | O(n) | O(1) |
-| 1903 | [Largest Odd Number in String](../leetcode/2032-largest-odd-number-in-string/) | Array / General | C++ | O(n) | O(1) |
+| 1903 | [Largest Odd Number in String](../leetcode/2032-largest-odd-number-in-string/) | Bit Manipulation | C++ | O(n) | O(1) |
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](../leetcode/2020-remove-one-element-to-make-the-array-strictly-increasing/) | Array / General | C++ | O(n) | O(1) |
-| 1913 | [Maximum Product Difference Between Two Pairs](../leetcode/2042-maximum-product-difference-between-two-pairs/) | Array / General | C++ | O(n) | O(1) |
+| 1913 | [Maximum Product Difference Between Two Pairs](../leetcode/2042-maximum-product-difference-between-two-pairs/) | Hash Map | C++ | O(n) | O(n) |
 | 1920 | [Build Array from Permutation](../leetcode/2048-build-array-from-permutation/) | Backtracking | C++ | O(n) | O(1) |
 | 1925 | [Count Square Sum Triples](../leetcode/2037-count-square-sum-triples/) | Array / General | C++ | O(n) | O(1) |
 | 1929 | [Concatenation of Array](../leetcode/2058-concatenation-of-array/) | Array / General | TypeScript | O(n) | O(1) |
@@ -422,7 +422,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1957 | [Delete Characters to Make Fancy String](../leetcode/1302-delete-characters-to-make-fancy-string/) | Array / General | C++ | O(n) | O(1) |
 | 1961 | [Check If String Is a Prefix of Array](../leetcode/2093-check-if-string-is-a-prefix-of-array/) | Prefix Sum | C++ | O(n) | O(n) |
 | 1965 | [Employees With Missing Information](../leetcode/2110-employees-with-missing-information/) | Database / SQL | SQL | O(n) | O(n) |
-| 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Tree & Graph | Kotlin | O(n) | O(n) |
+| 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Linked List | Kotlin | O(n) | O(1) |
 | 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | Dynamic Programming | JavaScript | O(n) | O(n) |
 | 1974 | [Minimum Time to Type Word Using Special Typewriter](../leetcode/2088-minimum-time-to-type-word-using-special-typewriter/) | Array / General | JavaScript | O(n) | O(1) |
 | 1978 | [Employees Whose Manager Left the Company](../leetcode/2127-employees-whose-manager-left-the-company/) | Database / SQL | SQL | O(n) | O(n) |
@@ -431,7 +431,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 1991 | [Find the Middle Index in Array](../leetcode/2102-find-the-middle-index-in-array/) | Array / General | JavaScript | O(n) | O(1) |
 | 1995 | [Count Special Quadruplets](../leetcode/2122-count-special-quadruplets/) | Array / General | JavaScript | O(n) | O(1) |
 | 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Prefix Sum | JavaScript | O(n) | O(n) |
-| 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | Array / General | JavaScript | O(n) | O(1) |
+| 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | Hash Map | JavaScript | O(n) | O(n) |
 | 2022 | [Convert 1D Array Into 2D Array](../leetcode/2132-convert-1d-array-into-2d-array/) | Array / General | Python | O(n) | O(1) |
 | 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | Hash Map | JavaScript | O(n) | O(n) |
 | 2032 | [Two Out of Three](../leetcode/2159-two-out-of-three/) | Array / General | Python | O(n) | O(1) |
@@ -449,12 +449,12 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2103 | [Rings and Rods](../leetcode/2226-rings-and-rods/) | Array / General | JavaScript | O(n) | O(1) |
 | 2108 | [Find First Palindromic String in the Array](../leetcode/2231-find-first-palindromic-string-in-the-array/) | Array / General | JavaScript | O(n) | O(1) |
 | 2114 | [Maximum Number of Words Found in Sentences](../leetcode/2219-maximum-number-of-words-found-in-sentences/) | Array / General | Python | O(n) | O(1) |
-| 2119 | [A Number After a Double Reversal](../leetcode/2238-a-number-after-a-double-reversal/) | Array / General | Python | O(n) | O(1) |
+| 2119 | [A Number After a Double Reversal](../leetcode/2238-a-number-after-a-double-reversal/) | Linked List | Python | O(n) | O(1) |
 | 2124 | [Check if All A's Appears Before All B's](../leetcode/2243-check-if-all-as-appears-before-all-bs/) | Array / General | Python | O(n) | O(1) |
 | 2138 | [Divide a String Into Groups of Size k](../leetcode/2260-divide-a-string-into-groups-of-size-k/) | Array / General | Python | O(n) | O(1) |
 | 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Sliding Window | Kotlin | O(n) | O(1) |
-| 2154 | [Keep Multiplying Found Values by Two](../leetcode/2274-keep-multiplying-found-values-by-two/) | Array / General | Python | O(n) | O(1) |
-| 2169 | [Count Operations to Obtain Zero](../leetcode/2288-count-operations-to-obtain-zero/) | Array / General | Python | O(n) | O(1) |
+| 2154 | [Keep Multiplying Found Values by Two](../leetcode/2274-keep-multiplying-found-values-by-two/) | Tree & Graph | Python | O(n) | O(n) |
+| 2169 | [Count Operations to Obtain Zero](../leetcode/2288-count-operations-to-obtain-zero/) | Bit Manipulation | Python | O(n) | O(1) |
 | 2180 | [Count Integers With Even Digit Sum](../leetcode/2298-count-integers-with-even-digit-sum/) | Math & Logic | Python | O(n) | O(1) |
 | 2206 | [Divide Array Into Equal Pairs](../leetcode/2308-divide-array-into-equal-pairs/) | Array / General | Python | O(n) | O(1) |
 | 2215 | [Find the Difference of Two Arrays](../leetcode/1392-find-the-difference-of-two-arrays/) | Array / General | JavaScript | O(n) | O(1) |
@@ -466,20 +466,20 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2293 | [Min Max Game](../leetcode/2386-min-max-game/) | Array / General | JavaScript | O(n) | O(1) |
 | 2303 | [Calculate Amount Paid in Taxes](../leetcode/1382-calculate-amount-paid-in-taxes/) | Array / General | JavaScript | O(n) | O(1) |
 | 2309 | [Greatest English Letter in Upper and Lower Case](../leetcode/1363-greatest-english-letter-in-upper-and-lower-case/) | Array / General | Python | O(n) | O(1) |
-| 2331 | [Evaluate Boolean Binary Tree](../leetcode/2416-evaluate-boolean-binary-tree/) | Stack & Queue | JavaScript | O(n) | O(n) |
+| 2331 | [Evaluate Boolean Binary Tree](../leetcode/2416-evaluate-boolean-binary-tree/) | Binary Search | JavaScript | O(n) | O(1) |
 | 2351 | [First Letter to Appear Twice](../leetcode/2427-first-letter-to-appear-twice/) | Array / General | Java | O(n) | O(1) |
 | 2356 | [Number of Unique Subjects Taught by Each Teacher](../leetcode/2495-number-of-unique-subjects-taught-by-each-teacher/) | Database / SQL | SQL | O(n) | O(n) |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](../leetcode/2436-make-array-zero-by-subtracting-equal-amounts/) | Array / General | JavaScript | O(n) | O(1) |
 | 2367 | [Number of Arithmetic Triplets](../leetcode/2442-number-of-arithmetic-triplets/) | Array / General | Python | O(n) | O(1) |
-| 2379 | [Minimum Recolors to Get K Consecutive Black Blocks](../leetcode/2463-minimum-recolors-to-get-k-consecutive-black-blocks/) | Array / General | Python | O(n) | O(1) |
+| 2379 | [Minimum Recolors to Get K Consecutive Black Blocks](../leetcode/2463-minimum-recolors-to-get-k-consecutive-black-blocks/) | Bit Manipulation | Python | O(n) | O(1) |
 | 2409 | [Count Days Spent Together](../leetcode/2496-count-days-spent-together/) | Array / General | Python | O(n) | O(1) |
-| 2413 | [Smallest Even Multiple](../leetcode/2491-smallest-even-multiple/) | Array / General | Python | O(n) | O(1) |
-| 2427 | [Number of Common Factors](../leetcode/2507-number-of-common-factors/) | Array / General | Python | O(n) | O(1) |
+| 2413 | [Smallest Even Multiple](../leetcode/2491-smallest-even-multiple/) | Linked List | Python | O(n) | O(1) |
+| 2427 | [Number of Common Factors](../leetcode/2507-number-of-common-factors/) | Binary Search | Python | O(n) | O(1) |
 | 2437 | [Number of Valid Clock Times](../leetcode/2528-number-of-valid-clock-times/) | Array / General | Python | O(n) | O(1) |
-| 2460 | [Apply Operations to an Array](../leetcode/2551-apply-operations-to-an-array/) | Array / General | JavaScript | O(n) | O(1) |
+| 2460 | [Apply Operations to an Array](../leetcode/2551-apply-operations-to-an-array/) | Stack & Queue | JavaScript | O(n) | O(n) |
 | 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Sliding Window | Python | O(n) | O(1) |
 | 2485 | [Find the Pivot Integer](../leetcode/2571-find-the-pivot-integer/) | Array / General | Python | O(n) | O(1) |
-| 2500 | [Delete Greatest Value in Each Row](../leetcode/2585-delete-greatest-value-in-each-row/) | Array / General | JavaScript | O(n) | O(1) |
+| 2500 | [Delete Greatest Value in Each Row](../leetcode/2585-delete-greatest-value-in-each-row/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 2506 | [Count Pairs Of Similar Strings](../leetcode/2594-count-pairs-of-similar-strings/) | Array / General | Python | O(n) | O(1) |
 | 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | Sliding Window | C++ | O(n) | O(1) |
 | 2549 | [Count Distinct Numbers on Board](../leetcode/2679-count-distinct-numbers-on-board/) | Array / General | JavaScript | O(n) | O(1) |
@@ -488,7 +488,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2562 | [Find the Array Concatenation Value](../leetcode/2698-find-the-array-concatenation-value/) | Array / General | JavaScript | O(n) | O(1) |
 | 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Prefix Sum | Kotlin | O(n) | O(n) |
 | 2582 | [Pass the Pillow](../leetcode/2645-pass-the-pillow/) | Array / General | JavaScript | O(n) | O(1) |
-| 2595 | [Number of Even and Odd Bits](../leetcode/2659-number-of-even-and-odd-bits/) | Bit Manipulation | Python | O(n) | O(1) |
+| 2595 | [Number of Even and Odd Bits](../leetcode/2659-number-of-even-and-odd-bits/) | Linked List | Python | O(n) | O(1) |
 | 2605 | [Form Smallest Number From Two Digit Arrays](../leetcode/2668-form-smallest-number-from-two-digit-arrays/) | Math & Logic | Python | O(n) | O(1) |
 | 2614 | [Prime In Diagonal](../leetcode/2722-prime-in-diagonal/) | Array / General | Python | O(n) | O(1) |
 | 2619 | [Array Prototype Last](../leetcode/2734-array-prototype-last/) | Array / General | JavaScript | O(n) | O(1) |
@@ -518,7 +518,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2739 | [Total Distance Traveled](../leetcode/2857-total-distance-traveled/) | Array / General | JavaScript | O(n) | O(1) |
 | 2744 | [Find Maximum Number of String Pairs](../leetcode/2847-find-maximum-number-of-string-pairs/) | Array / General | JavaScript | O(n) | O(1) |
 | 2748 | [Number of Beautiful Pairs](../leetcode/2831-number-of-beautiful-pairs/) | Array / General | JavaScript | O(n) | O(1) |
-| 2760 | [Longest Even Odd Subarray With Threshold](../leetcode/2866-longest-even-odd-subarray-with-threshold/) | Array / General | Python | O(n) | O(1) |
+| 2760 | [Longest Even Odd Subarray With Threshold](../leetcode/2866-longest-even-odd-subarray-with-threshold/) | Linked List | Python | O(n) | O(1) |
 | 2765 | [Longest Alternating Subarray](../leetcode/2870-longest-alternating-subarray/) | Array / General | Python | O(n) | O(1) |
 | 2778 | [Sum of Squares of Special Elements ](../leetcode/2844-sum-of-squares-of-special-elements-/) | Array / General | JavaScript | O(n) | O(1) |
 | 2784 | [Check if Array is Good](../leetcode/2892-check-if-array-is-good/) | Array / General | C++ | O(n) | O(1) |
@@ -550,26 +550,26 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 2951 | [Find the Peaks](../leetcode/3221-find-the-peaks/) | Array / General | Python | O(n) | O(1) |
 | 2960 | [Count Tested Devices After Test Operations](../leetcode/3220-count-tested-devices-after-test-operations/) | Array / General | JavaScript | O(n) | O(1) |
 | 2970 | [Count the Number of Incremovable Subarrays I](../leetcode/3252-count-the-number-of-incremovable-subarrays-i/) | Array / General | Python | O(n) | O(1) |
-| 2974 | [Minimum Number Game](../leetcode/3226-minimum-number-game/) | Array / General | JavaScript | O(n) | O(1) |
-| 2980 | [Check if Bitwise OR Has Trailing Zeros](../leetcode/3246-check-if-bitwise-or-has-trailing-zeros/) | Bit Manipulation | Python | O(n) | O(1) |
+| 2974 | [Minimum Number Game](../leetcode/3226-minimum-number-game/) | Bit Manipulation | JavaScript | O(n) | O(1) |
+| 2980 | [Check if Bitwise OR Has Trailing Zeros](../leetcode/3246-check-if-bitwise-or-has-trailing-zeros/) | Hash Map | Python | O(n) | O(n) |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Prefix Sum | Rust | O(n) | O(n) |
 | 3010 | [Divide an Array Into Subarrays With Minimum Cost I](../leetcode/3263-divide-an-array-into-subarrays-with-minimum-cost-i/) | Array / General | Python | O(n) | O(1) |
 | 3014 | [Minimum Number of Pushes to Type Word I](../leetcode/3275-minimum-number-of-pushes-to-type-word-i/) | Hash Map | Dart | O(n) | O(n) |
 | 3028 | [Ant on the Boundary](../leetcode/3311-ant-on-the-boundary/) | Array / General | JavaScript | O(n) | O(1) |
-| 3038 | [Maximum Number of Operations With the Same Score I](../leetcode/3320-maximum-number-of-operations-with-the-same-score-i/) | Array / General | JavaScript | O(n) | O(1) |
+| 3038 | [Maximum Number of Operations With the Same Score I](../leetcode/3320-maximum-number-of-operations-with-the-same-score-i/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 3042 | [Count Prefix and Suffix Pairs I](../leetcode/3309-count-prefix-and-suffix-pairs-i/) | Prefix Sum | Python | O(n) | O(n) |
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3347-distribute-elements-into-two-arrays-i/) | Hash Map | Go | O(n) | O(n) |
 | 3090 | [Maximum Length Substring With Two Occurrences](../leetcode/3349-maximum-length-substring-with-two-occurrences/) | Array / General | Swift | O(n) | O(1) |
 | 3095 | [Shortest Subarray With OR at Least K I](../leetcode/3381-shortest-subarray-with-or-at-least-k-i/) | Bit Manipulation | Python | O(n) | O(1) |
-| 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](../leetcode/3372-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Array / General | Python | O(n) | O(1) |
+| 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](../leetcode/3372-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Bit Manipulation | Python | O(n) | O(1) |
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](../leetcode/3361-latest-time-you-can-obtain-after-replacing-characters/) | Array / General | Python | O(n) | O(1) |
 | 3120 | [Count the Number of Special Characters I](../leetcode/3408-count-the-number-of-special-characters-i/) | Array / General | C++ | O(n) | O(1) |
 | 3127 | [Make a Square with the Same Color](../leetcode/3398-make-a-square-with-the-same-color/) | Array / General | Python | O(n) | O(1) |
 | 3158 | [Find the XOR of Numbers Which Appear Twice](../leetcode/3428-find-the-xor-of-numbers-which-appear-twice/) | Bit Manipulation | Python | O(n) | O(1) |
-| 3168 | [Minimum Number of Chairs in a Waiting Room](../leetcode/3426-minimum-number-of-chairs-in-a-waiting-room/) | Array / General | JavaScript | O(n) | O(1) |
+| 3168 | [Minimum Number of Chairs in a Waiting Room](../leetcode/3426-minimum-number-of-chairs-in-a-waiting-room/) | Bit Manipulation | JavaScript | O(n) | O(1) |
 | 3174 | [Clear Digits](../leetcode/3447-clear-digits/) | Math & Logic | Python | O(n) | O(1) |
 | 3178 | [Find the Child Who Has the Ball After K Seconds](../leetcode/3450-find-the-child-who-has-the-ball-after-k-seconds/) | Array / General | JavaScript | O(n) | O(1) |
-| 3200 | [Maximum Height of a Triangle](../leetcode/3469-maximum-height-of-a-triangle/) | Math & Logic | Python | O(n) | O(1) |
+| 3200 | [Maximum Height of a Triangle](../leetcode/3469-maximum-height-of-a-triangle/) | Tree & Graph | Python | O(n) | O(n) |
 | 3206 | [Alternating Groups I](../leetcode/3463-alternating-groups-i/) | Array / General | Python | O(n) | O(1) |
 | 3222 | [Find the Winning Player in Coin Game](../leetcode/3511-find-the-winning-player-in-coin-game/) | Array / General | Python | O(n) | O(1) |
 | 3226 | [Number of Bit Changes to Make Two Integers Equal](../leetcode/3508-number-of-bit-changes-to-make-two-integers-equal/) | Bit Manipulation | Python | O(n) | O(1) |
@@ -580,12 +580,12 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 3300 | [Minimum Element After Replacement With Digit Sum](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | Math & Logic | C++ | O(n) | O(1) |
 | 3304 | [Find the K-th Character in String Game I](../leetcode/3600-find-the-k-th-character-in-string-game-i/) | Array / General | Python | O(n) | O(1) |
 | 3314 | [Construct the Minimum Bitwise Array I](../leetcode/3605-construct-the-minimum-bitwise-array-i/) | Bit Manipulation | Python | O(n) | O(1) |
-| 3318 | [Find X-Sum of All K-Long Subarrays I](../leetcode/3610-find-x-sum-of-all-k-long-subarrays-i/) | Array / General | Python | O(n) | O(1) |
+| 3318 | [Find X-Sum of All K-Long Subarrays I](../leetcode/3610-find-x-sum-of-all-k-long-subarrays-i/) | Bit Manipulation | Python | O(n) | O(1) |
 | 3345 | [Smallest Divisible Digit Product I](../leetcode/3626-smallest-divisible-digit-product-i/) | Tree & Graph | Ruby | O(n) | O(n) |
 | 3354 | [Make Array Elements Equal to Zero](../leetcode/3616-make-array-elements-equal-to-zero/) | Array / General | JavaScript | O(n) | O(1) |
 | 3360 | [Stone Removal Game](../leetcode/3625-stone-removal-game/) | Array / General | JavaScript | O(n) | O(1) |
 | 3364 | [Minimum Positive Sum Subarray ](../leetcode/3644-minimum-positive-sum-subarray-/) | Array / General | Python | O(n) | O(1) |
-| 3370 | [Smallest Number With All Set Bits](../leetcode/3676-smallest-number-with-all-set-bits/) | Bit Manipulation | Python | O(n) | O(1) |
+| 3370 | [Smallest Number With All Set Bits](../leetcode/3676-smallest-number-with-all-set-bits/) | Tree & Graph | Python | O(n) | O(n) |
 | 3379 | [Transformed Array](../leetcode/3651-transformed-array/) | Array / General | JavaScript | O(n) | O(1) |
 | 3407 | [Substring Matching Pattern](../leetcode/3684-substring-matching-pattern/) | Array / General | Python | O(n) | O(1) |
 | 3411 | [Maximum Subarray With Equal Products](../leetcode/3702-maximum-subarray-with-equal-products/) | Array / General | JavaScript | O(n) | O(1) |
@@ -594,7 +594,7 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 3461 | [Check If Digits Are Equal in String After Operations I](../leetcode/3768-check-if-digits-are-equal-in-string-after-operations-i/) | Math & Logic | JavaScript | O(n) | O(1) |
 | 3465 | [Find Products with Valid Serial Numbers](../leetcode/3803-find-products-with-valid-serial-numbers/) | Database / SQL | SQL | O(n) | O(n) |
 | 3471 | [Find the Largest Almost Missing Integer](../leetcode/3705-find-the-largest-almost-missing-integer/) | Prefix Sum | Kotlin | O(n) | O(n) |
-| 3477 | [Fruits Into Baskets II](../leetcode/3790-fruits-into-baskets-ii/) | Array / General | JavaScript | O(n) | O(1) |
+| 3477 | [Fruits Into Baskets II](../leetcode/3790-fruits-into-baskets-ii/) | Binary Search | JavaScript | O(n) | O(1) |
 | 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Math & Logic | JavaScript | O(n) | O(1) |
 | 3498 | [Reverse Degree of a String](../leetcode/3811-reverse-degree-of-a-string/) | Array / General | Python | O(n) | O(1) |
 | 3507 | [Minimum Pair Removal to Sort Array I](../leetcode/3773-minimum-pair-removal-to-sort-array-i/) | Array / General | Python | O(n) | O(1) |
@@ -608,19 +608,19 @@ A collection of LeetCode **Easy** difficulty problems solved with step-by-step e
 | 3674 | [Minimum Operations to Equalize Array](../leetcode/3998-minimum-operations-to-equalize-array/) | Bit Manipulation | Python | O(n) | O(1) |
 | 3688 | [Bitwise OR of Even Numbers in an Array](../leetcode/4009-bitwise-or-of-even-numbers-in-an-array/) | Bit Manipulation | Python | O(n) | O(1) |
 | 3718 | [Smallest Missing Multiple of K](../leetcode/4080-smallest-missing-multiple-of-k/) | Prefix Sum | C# | O(n) | O(n) |
-| 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Array / General | PHP | O(n) | O(1) |
+| 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Tree & Graph | PHP | O(n) | O(n) |
 | 3736 | [Minimum Moves to Equal Array Elements III](../leetcode/4116-minimum-moves-to-equal-array-elements-iii/) | Array / General | Python | O(n) | O(1) |
 | 3745 | [Maximize Expression of Three Elements](../leetcode/4112-maximize-expression-of-three-elements/) | Array / General | Python | O(n) | O(1) |
 | 3750 | [Minimum Number of Flips to Reverse Binary String](../leetcode/4126-minimum-number-of-flips-to-reverse-binary-string/) | Bit Manipulation | Python | O(n) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Bit Manipulation | Kotlin | O(n) | O(1) |
 | 3793 | [Find Users with High Token Usage](../leetcode/4195-find-users-with-high-token-usage/) | Database / SQL | SQL | O(n) | O(n) |
 | 3827 | [Count Monobit Integers](../leetcode/4194-count-monobit-integers/) | Bit Manipulation | Python | O(n) | O(1) |
-| 3833 | [Count Dominant Indices](../leetcode/4214-count-dominant-indices/) | Array / General | Python | O(n) | O(1) |
+| 3833 | [Count Dominant Indices](../leetcode/4214-count-dominant-indices/) | Tree & Graph | Python | O(n) | O(n) |
 | 3838 | [Weighted Word Mapping](../leetcode/4216-weighted-word-mapping/) | Hash Map | Kotlin | O(n) | O(n) |
 | 3870 | [Count Commas in Range](../leetcode/4245-count-commas-in-range/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 3875 | [Construct Uniform Parity Array I](../leetcode/4256-construct-uniform-parity-array-i/) | Binary Search | C++ | O(n) | O(1) |
 | 3880 | [Minimum Absolute Difference Between Two Values](../leetcode/4255-minimum-absolute-difference-between-two-values/) | Array / General | Python | O(n) | O(1) |
-| 3898 | [Find the Degree of Each Vertex](../leetcode/4271-find-the-degree-of-each-vertex/) | Array / General | JavaScript | O(n) | O(1) |
+| 3898 | [Find the Degree of Each Vertex](../leetcode/4271-find-the-degree-of-each-vertex/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 3903 | [Smallest Stable Index I](../leetcode/4284-smallest-stable-index-i/) | Tree & Graph | JavaScript | O(n) | O(n) |
 | 3950 | [Exactly One Consecutive Set Bits Pair](../leetcode/4307-exactly-one-consecutive-set-bits-pair/) | Bit Manipulation | Python | O(n) | O(1) |
 | 3954 | [Sum of Compatible Numbers in Range I](../leetcode/4319-sum-of-compatible-numbers-in-range-i/) | Bit Manipulation | Python | O(n) | O(1) |

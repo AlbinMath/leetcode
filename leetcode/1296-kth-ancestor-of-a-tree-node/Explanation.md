@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [2583. Kth Largest Sum in a Binary Tree](../2646-kth-largest-sum-in-a-binary-tree/)
-- [235. Lowest Common Ancestor of a Binary Search Tree](../0235-lowest-common-ancestor-of-a-binary-search-tree/)
-- [236. Lowest Common Ancestor of a Binary Tree](../0236-lowest-common-ancestor-of-a-binary-tree/)
+- [608. Tree Node](../0608-tree-node/)
+- [671. Second Minimum Node In a Binary Tree](../0671-second-minimum-node-in-a-binary-tree/)
+- [1026. Maximum Difference Between Node and Ancestor](../1092-maximum-difference-between-node-and-ancestor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)

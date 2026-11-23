@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1539. Kth Missing Positive Number](../1646-kth-missing-positive-number/)
-- [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
+- [41. First Missing Positive](../0041-first-missing-positive/)
+- [1965. Employees With Missing Information](../2110-employees-with-missing-information/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/missing-number/)

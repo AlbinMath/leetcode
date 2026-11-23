@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [79. Word Search](../0079-word-search/)
-- [126. Word Ladder II](../0126-word-ladder-ii/)
-- [127. Word Ladder](../0127-word-ladder/)
+- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [1046. Last Stone Weight](../1127-last-stone-weight/)
+- [1163. Last Substring in Lexicographical Order](../1133-last-substring-in-lexicographical-order/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-last-word/)

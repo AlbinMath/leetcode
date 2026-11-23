@@ -18,7 +18,11 @@ A collection of LeetCode problems solved using **Trie** pattern techniques, expl
 |---|---|---|---|---|---|
 | 208 | [Implement Trie (Prefix Tree)](../leetcode/0208-implement-trie-prefix-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0208-implement-trie-prefix-tree/Explanation.md) |
 
+| 470 | [Implement Rand10() Using Rand7()](../leetcode/0903-implement-rand10-using-rand7/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0903-implement-rand10-using-rand7/Explanation.md) |
+
 | 676 | [Implement Magic Dictionary](../leetcode/0676-implement-magic-dictionary/) | Python | O(n) | O(n) | [Explanation](../leetcode/0676-implement-magic-dictionary/Explanation.md) |
+
+| 3508 | [Implement Router](../leetcode/3827-implement-router/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3827-implement-router/Explanation.md) |
 
 ### Hard
 

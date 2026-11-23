@@ -1,7 +1,7 @@
 # LeetCode 869: Reordered Power of 2
 
 **LeetCode Problem #869 — Reordered Power of 2**
-Solve LeetCode Reordered Power of 2 using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Reordered Power of 2 using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Reordered Power of 2 using Python and Array / General. This solut
 | LeetCode | #869 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Reordered Power of 2 using Python and Array / General. This solut
 You are given an integer  n . We reorder the digits in any order (including the original order) such that the leading digit is not zero.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Reordered Power of 2**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Reordered Power of 2**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 Python
@@ -50,7 +51,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [717. 1-bit and 2-bit Characters](../0717-1-bit-and-2-bit-characters/)
-- [1253. Reconstruct a 2-Row Binary Matrix](../1379-reconstruct-a-2-row-binary-matrix/)
 - [231. Power of Two](../0231-power-of-two/)
+- [326. Power of Three](../0326-power-of-three/)
+- [342. Power of Four](../0342-power-of-four/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reordered-power-of-2/)

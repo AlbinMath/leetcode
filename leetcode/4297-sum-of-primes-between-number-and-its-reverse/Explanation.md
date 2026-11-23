@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2443. Sum of Number and Its Reverse](../2541-sum-of-number-and-its-reverse/)
 - [1190. Reverse Substrings Between Each Pair of Parentheses](../1298-reverse-substrings-between-each-pair-of-parentheses/)
-- [1360. Number of Days Between Two Dates](../1274-number-of-days-between-two-dates/)
+- [3750. Minimum Number of Flips to Reverse Binary String](../4126-minimum-number-of-flips-to-reverse-binary-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/)

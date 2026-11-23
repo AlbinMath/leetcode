@@ -11,10 +11,10 @@ LeetCode problems solved using **Stack** data structures.
 | 28 | [Find the Index of the First Occurrence in a String](../leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 32 | [Longest Valid Parentheses](../leetcode/0032-longest-valid-parentheses/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 84 | [Largest Rectangle in Histogram](../leetcode/0084-largest-rectangle-in-histogram/) | Hard | Monotonic Stack Filtering | O(n) | O(n) |
-| 116 | [Populating Next Right Pointers in Each Node](../leetcode/0116-populating-next-right-pointers-in-each-node/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
-| 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
+| 116 | [Populating Next Right Pointers in Each Node](../leetcode/0116-populating-next-right-pointers-in-each-node/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
+| 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0150-evaluate-reverse-polish-notation/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
-| 155 | [Min Stack](../leetcode/0155-min-stack/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
+| 187 | [Repeated DNA Sequences](../leetcode/0187-repeated-dna-sequences/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 241 | [Different Ways to Add Parentheses](../leetcode/0241-different-ways-to-add-parentheses/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 399 | [Evaluate Division](../leetcode/0399-evaluate-division/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
@@ -23,12 +23,14 @@ LeetCode problems solved using **Stack** data structures.
 | 496 | [Next Greater Element I](../leetcode/0496-next-greater-element-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
 | 503 | [Next Greater Element II](../leetcode/0503-next-greater-element-ii/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 551 | [Student Attendance Record I](../leetcode/0551-student-attendance-record-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
+| 556 | [Next Greater Element III](../leetcode/0556-next-greater-element-iii/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 636 | [Exclusive Time of Functions](../leetcode/0636-exclusive-time-of-functions/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 746 | [Min Cost Climbing Stairs](../leetcode/0747-min-cost-climbing-stairs/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 756 | [Pyramid Transition Matrix](../leetcode/0757-pyramid-transition-matrix/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 856 | [Score of Parentheses](../leetcode/0886-score-of-parentheses/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 896 | [Monotonic Array](../leetcode/0932-monotonic-array/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |
+| 899 | [Orderly Queue](../leetcode/0935-orderly-queue/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0957-minimum-add-to-make-parentheses-valid/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 946 | [Validate Stack Sequences](../leetcode/0983-validate-stack-sequences/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1019 | [Next Greater Node In Linked List](../leetcode/1072-next-greater-node-in-linked-list/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
@@ -46,11 +48,15 @@ LeetCode problems solved using **Stack** data structures.
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1670 | [Design Front Middle Back Queue](../leetcode/1767-design-front-middle-back-queue/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1802-number-of-students-unable-to-eat-lunch/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
+| 1993 | [Operations on Tree](../leetcode/2104-operations-on-tree/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
+| 2048 | [Next Greater Numerically Balanced Number](../leetcode/2174-next-greater-numerically-balanced-number/) | Medium | Monotonic Stack Filtering | O(n) | O(n) |
 | 2116 | [Check if a Parentheses String Can Be Valid](../leetcode/2221-check-if-a-parentheses-string-can-be-valid/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2232 | [Minimize Result by Adding Parentheses to Expression](../leetcode/2328-minimize-result-by-adding-parentheses-to-expression/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349--check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2349-check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
-| 2331 | [Evaluate Boolean Binary Tree](../leetcode/2416-evaluate-boolean-binary-tree/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
+| 2454 | [Next Greater Element IV](../leetcode/2549-next-greater-element-iv/) | Hard | Monotonic Stack Filtering | O(n) | O(n) |
+| 2460 | [Apply Operations to an Array](../leetcode/2551-apply-operations-to-an-array/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
+| 2601 | [Prime Subtraction Operation](../leetcode/2716-prime-subtraction-operation/) | Medium | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2888 | [Reshape Data: Concatenate](../leetcode/3064-reshape-data-concatenate/) | Easy | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Stack Push / Pop Parsing | O(n) | O(n) |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Easy | Monotonic Stack Filtering | O(n) | O(n) |

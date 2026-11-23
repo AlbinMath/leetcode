@@ -71,7 +71,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
 - [2472. Maximum Number of Non-overlapping Palindrome Substrings](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
-- [2959. Number of Possible Sets of Closing Branches](../3217-number-of-possible-sets-of-closing-branches/)
+- [435. Non-overlapping Intervals](../0435-non-overlapping-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/)

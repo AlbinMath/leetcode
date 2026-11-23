@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [410. Split Array Largest Sum](../0410-split-array-largest-sum/)
 - [842. Split Array into Fibonacci Sequence](../0872-split-array-into-fibonacci-sequence/)
-- [2584. Split the Array to Make Coprime Products](../2647-split-the-array-to-make-coprime-products/)
+- [1569. Number of Ways to Reorder Array to Get Same BST](../1692-number-of-ways-to-reorder-array-to-get-same-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-array-with-same-average/)

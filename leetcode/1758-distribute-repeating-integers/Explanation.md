@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [29. Divide Two Integers](../0029-divide-two-integers/)
-- [371. Sum of Two Integers](../0371-sum-of-two-integers/)
-- [600. Non-negative Integers without Consecutive Ones](../0600-non-negative-integers-without-consecutive-ones/)
+- [575. Distribute Candies](../0575-distribute-candies/)
+- [979. Distribute Coins in Binary Tree](../1021-distribute-coins-in-binary-tree/)
+- [1103. Distribute Candies to People](../1195-distribute-candies-to-people/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-repeating-integers/)

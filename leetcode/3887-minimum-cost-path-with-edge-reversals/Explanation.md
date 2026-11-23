@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2858. Minimum Edge Reversals So Every Node Is Reachable](../3105-minimum-edge-reversals-so-every-node-is-reachable/)
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 - [2662. Minimum Cost of a Path With Special Roads](../2686-minimum-cost-of-a-path-with-special-roads/)
+- [2858. Minimum Edge Reversals So Every Node Is Reachable](../3105-minimum-edge-reversals-so-every-node-is-reachable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/)

@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [1385. Find the Distance Value Between Two Arrays](../1486-find-the-distance-value-between-two-arrays/)
-- [1617. Count Subtrees With Max Distance Between Cities](../1740-count-subtrees-with-max-distance-between-cities/)
+- [863. All Nodes Distance K in Binary Tree](../0893-all-nodes-distance-k-in-binary-tree/)
+- [1320. Minimum Distance to Type a Word Using Two Fingers](../1443-minimum-distance-to-type-a-word-using-two-fingers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)

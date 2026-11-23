@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2002. Maximum Product of the Length of Two Palindromic Subsequences](../2130-maximum-product-of-the-length-of-two-palindromic-subsequences/)
-- [730. Count Different Palindromic Subsequences](../0730-count-different-palindromic-subsequences/)
-- [1332. Remove Palindromic Subsequences](../1454-remove-palindromic-subsequences/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [1771. Maximize Palindrome Length From Subsequences](../1897-maximize-palindrome-length-from-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)

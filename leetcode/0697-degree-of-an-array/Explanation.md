@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [1761. Minimum Degree of a Connected Trio in a Graph](../1887-minimum-degree-of-a-connected-trio-in-a-graph/)
+- [3498. Reverse Degree of a String](../3811-reverse-degree-of-a-string/)
+- [3898. Find the Degree of Each Vertex](../4271-find-the-degree-of-each-vertex/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/degree-of-an-array/)

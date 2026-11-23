@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2400. Number of Ways to Reach a Position After Exactly k Steps](../2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
 - [3178. Find the Child Who Has the Ball After K Seconds](../3450-find-the-child-who-has-the-ball-after-k-seconds/)
 - [3179. Find the N-th Value After K Seconds](../3422-find-the-n-th-value-after-k-seconds/)
-- [2400. Number of Ways to Reach a Position After Exactly k Steps](../2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/frog-position-after-t-seconds/)

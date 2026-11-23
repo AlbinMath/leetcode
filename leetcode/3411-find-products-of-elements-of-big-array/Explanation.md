@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2593. Find Score of an Array After Marking All Elements](../2695-find-score-of-an-array-after-marking-all-elements/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [2584. Split the Array to Make Coprime Products](../2647-split-the-array-to-make-coprime-products/)
+- [3465. Find Products with Valid Serial Numbers](../3803-find-products-with-valid-serial-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-products-of-elements-of-big-array/)

@@ -64,8 +64,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [1985. Find the Kth Largest Integer in the Array](../2113-find-the-kth-largest-integer-in-the-array/)
-- [1237. Find Positive Integer Solution for a Given Equation](../1358-find-positive-integer-solution-for-a-given-equation/)
-- [1394. Find Lucky Integer in an Array](../1510-find-lucky-integer-in-an-array/)
+- [3303. Find the Occurrence of First Almost Equal Substring](../3580-find-the-occurrence-of-first-almost-equal-substring/)
+- [2028. Find Missing Observations](../2155-find-missing-observations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-largest-almost-missing-integer/)

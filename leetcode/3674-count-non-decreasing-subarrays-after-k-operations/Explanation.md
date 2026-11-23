@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2302. Count Subarrays With Score Less Than K](../2394-count-subarrays-with-score-less-than-k/)
+- [3326. Minimum Division Operations to Make Array Non Decreasing](../3607-minimum-division-operations-to-make-array-non-decreasing/)
 - [2960. Count Tested Devices After Test Operations](../3220-count-tested-devices-after-test-operations/)
-- [2962. Count Subarrays Where Max Element Appears at Least K Times](../3213-count-subarrays-where-max-element-appears-at-least-k-times/)
+- [3264. Final Array State After K Multiplication Operations I](../3555-final-array-state-after-k-multiplication-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/)

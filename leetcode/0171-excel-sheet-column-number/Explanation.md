@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [168. Excel Sheet Column Title](../0168-excel-sheet-column-title/)
-- [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
+- [947. Most Stones Removed with Same Row or Column](../0984-most-stones-removed-with-same-row-or-column/)
+- [2352. Equal Row and Column Pairs](../2428-equal-row-and-column-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/excel-sheet-column-number/)

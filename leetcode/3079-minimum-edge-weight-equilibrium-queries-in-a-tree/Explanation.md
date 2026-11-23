@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3812. Minimum Edge Toggles on a Tree](../4181-minimum-edge-toggles-on-a-tree/)
-- [2858. Minimum Edge Reversals So Every Node Is Reachable](../3105-minimum-edge-reversals-so-every-node-is-reachable/)
-- [3419. Minimize the Maximum Edge Weight of Graph](../3720-minimize-the-maximum-edge-weight-of-graph/)
+- [2458. Height of Binary Tree After Subtree Removal Queries](../2545-height-of-binary-tree-after-subtree-removal-queries/)
+- [2476. Closest Nodes Queries in a Binary Search Tree](../2567-closest-nodes-queries-in-a-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/)

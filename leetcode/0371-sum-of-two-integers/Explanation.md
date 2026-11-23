@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1317. Convert Integer to the Sum of Two No-Zero Integers](../1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
 - [3890. Integers With Multiple Sum of Two Cubes](../4268-integers-with-multiple-sum-of-two-cubes/)
-- [29. Divide Two Integers](../0029-divide-two-integers/)
+- [1. Two Sum](../0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-two-integers/)

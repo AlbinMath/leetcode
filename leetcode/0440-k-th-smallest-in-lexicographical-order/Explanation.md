@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1415. The k-th Lexicographical String of All Happy Strings of Length n](../1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
-- [1163. Last Substring in Lexicographical Order](../1133-last-substring-in-lexicographical-order/)
-- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
+- [779. K-th Symbol in Grammar](../0795-k-th-symbol-in-grammar/)
+- [3154. Find Number of Ways to Reach the K-th Stair](../3414-find-number-of-ways-to-reach-the-k-th-stair/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)

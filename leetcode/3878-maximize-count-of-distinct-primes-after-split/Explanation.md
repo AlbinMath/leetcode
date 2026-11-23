@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [204. Count Primes](../0204-count-primes/)
 - [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
-- [2135. Count Words Obtained After Adding a Letter](../2256-count-words-obtained-after-adding-a-letter/)
+- [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
+- [1799. Maximize Score After N Operations](../1906-maximize-score-after-n-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-count-of-distinct-primes-after-split/)

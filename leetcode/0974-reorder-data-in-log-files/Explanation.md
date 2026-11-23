@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1598. Crawler Log Folder](../1720-crawler-log-folder/)
 - [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
 - [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
-- [352. Data Stream as Disjoint Intervals](../0352-data-stream-as-disjoint-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reorder-data-in-log-files/)

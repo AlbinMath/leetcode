@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1909. Remove One Element to Make the Array Strictly Increasing](../2020-remove-one-element-to-make-the-array-strictly-increasing/)
-- [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](../3372-longest-strictly-increasing-or-strictly-decreasing-subarray/)
-- [3825. Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND](../4032-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/)
+- [3276. Select Cells in Grid With Maximum Score](../3563-select-cells-in-grid-with-maximum-score/)
+- [329. Longest Increasing Path in a Matrix](../0329-longest-increasing-path-in-a-matrix/)
+- [1030. Matrix Cells in Distance Order](../1094-matrix-cells-in-distance-order/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/)

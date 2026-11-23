@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1812. Determine Color of a Chessboard Square](../1920-determine-color-of-a-chessboard-square/)
 - [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
-- [1857. Largest Color Value in a Directed Graph](../1986-largest-color-value-in-a-directed-graph/)
+- [1812. Determine Color of a Chessboard Square](../1920-determine-color-of-a-chessboard-square/)
+- [768. Max Chunks To Make Sorted II](../0779-max-chunks-to-make-sorted-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-a-square-with-the-same-color/)

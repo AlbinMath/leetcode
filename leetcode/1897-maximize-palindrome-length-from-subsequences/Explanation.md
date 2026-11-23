@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1930. Unique Length-3 Palindromic Subsequences](../2059-unique-length-3-palindromic-subsequences/)
 - [2002. Maximum Product of the Length of Two Palindromic Subsequences](../2130-maximum-product-of-the-length-of-two-palindromic-subsequences/)
-- [1177. Can Make Palindrome from Substring](../1281-can-make-palindrome-from-substring/)
+- [2259. Remove Digit From Number to Maximize Result](../2337-remove-digit-from-number-to-maximize-result/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-palindrome-length-from-subsequences/)

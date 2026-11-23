@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../2162-partition-array-into-two-arrays-to-minimize-sum-difference/)
-- [3419. Minimize the Maximum Edge Weight of Graph](../3720-minimize-the-maximum-edge-weight-of-graph/)
-- [3613. Minimize Maximum Component Cost](../3881-minimize-maximum-component-cost/)
+- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
+- [349. Intersection of Two Arrays](../0349-intersection-of-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/)

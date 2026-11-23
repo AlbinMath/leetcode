@@ -67,8 +67,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3569. Maximize Count of Distinct Primes After Split](../3878-maximize-count-of-distinct-primes-after-split/)
-- [3918. Sum of Primes Between Number and Its Reverse](../4297-sum-of-primes-between-number-and-its-reverse/)
 - [38. Count and Say](../0038-count-and-say/)
+- [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-primes/)

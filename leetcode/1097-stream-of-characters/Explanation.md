@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
-- [352. Data Stream as Disjoint Intervals](../0352-data-stream-as-disjoint-intervals/)
-- [703. Kth Largest Element in a Stream](../0789-kth-largest-element-in-a-stream/)
+- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [395. Longest Substring with At Least K Repeating Characters](../0395-longest-substring-with-at-least-k-repeating-characters/)
+- [717. 1-bit and 2-bit Characters](../0717-1-bit-and-2-bit-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stream-of-characters/)

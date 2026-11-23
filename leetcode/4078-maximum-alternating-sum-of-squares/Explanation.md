@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../0689-maximum-sum-of-3-non-overlapping-subarrays/)
-- [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
+- [2778. Sum of Squares of Special Elements ](../2844-sum-of-squares-of-special-elements-/)
+- [2897. Apply Operations on Array to Maximize Sum of Squares](../3153-apply-operations-on-array-to-maximize-sum-of-squares/)
+- [2913. Subarrays Distinct Element Sum of Squares I](../3163-subarrays-distinct-element-sum-of-squares-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-alternating-sum-of-squares/)

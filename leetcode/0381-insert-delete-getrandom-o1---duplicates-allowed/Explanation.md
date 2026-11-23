@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [380. Insert Delete GetRandom O(1)](../0380-insert-delete-getrandom-o1/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [80. Remove Duplicates from Sorted Array II](../0080-remove-duplicates-from-sorted-array-ii/)
+- [35. Search Insert Position](../0035-search-insert-position/)
+- [57. Insert Interval](../0057-insert-interval/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)

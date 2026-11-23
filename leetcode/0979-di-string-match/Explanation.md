@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [686. Repeated String Match](../0686-repeated-string-match/)
-- [4105. Repeated String Match II](../4094-repeated-string-match-ii/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [2375. Construct Smallest Number From DI String](../2456-construct-smallest-number-from-di-string/)
 
 ## LeetCode

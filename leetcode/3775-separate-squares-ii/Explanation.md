@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1977. Number of Ways to Separate Numbers](../2091-number-of-ways-to-separate-numbers/)
-- [2553. Separate the Digits in an Array](../2639-separate-the-digits-in-an-array/)
 - [279. Perfect Squares](../0279-perfect-squares/)
+- [840. Magic Squares In Grid](../0870-magic-squares-in-grid/)
+- [977. Squares of a Sorted Array](../1019-squares-of-a-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/separate-squares-ii/)

@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1703. Minimum Adjacent Swaps for K Consecutive Ones](../1805-minimum-adjacent-swaps-for-k-consecutive-ones/)
 - [2260. Minimum Consecutive Cards to Pick Up](../2338-minimum-consecutive-cards-to-pick-up/)
-- [453. Minimum Moves to Equal Array Elements](../0453-minimum-moves-to-equal-array-elements/)
+- [3197. Find the Minimum Area to Cover All Ones II](../3459-find-the-minimum-area-to-cover-all-ones-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-moves-to-pick-k-ones/)

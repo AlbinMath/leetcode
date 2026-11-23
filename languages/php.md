@@ -63,5 +63,5 @@ A collection of LeetCode problems implemented in **PHP** with detailed complexit
 | 3620 | [Network Recovery Pathways](../leetcode/3919-network-recovery-pathways/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3699 | [Number of ZigZag Arrays I](../leetcode/3962-number-of-zigzag-arrays-i/) | Hard | Hash Map | O(n) | O(n) |
 | 3700 | [Number of ZigZag Arrays II](../leetcode/3964-number-of-zigzag-arrays-ii/) | Hard | Tree & Graph | O(n) | O(n) |
-| 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Easy | Array / General | O(n) | O(1) |
+| 3731 | [Find Missing Elements](../leetcode/4107-find-missing-elements/) | Easy | Tree & Graph | O(n) | O(n) |
 | 3739 | [Count Subarrays With Majority Element II](../leetcode/4075-count-subarrays-with-majority-element-ii/) | Hard | Array / General | O(n) | O(1) |

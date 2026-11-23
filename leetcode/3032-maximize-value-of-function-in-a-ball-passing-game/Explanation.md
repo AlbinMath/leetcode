@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1521. Find a Value of a Mysterious Function Closest to Target](../1645-find-a-value-of-a-mysterious-function-closest-to-target/)
-- [396. Rotate Function](../0396-rotate-function/)
-- [1558. Minimum Numbers of Function Calls to Make Target Array](../1662-minimum-numbers-of-function-calls-to-make-target-array/)
+- [513. Find Bottom Left Tree Value](../0513-find-bottom-left-tree-value/)
+- [515. Find Largest Value in Each Tree Row](../0515-find-largest-value-in-each-tree-row/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)

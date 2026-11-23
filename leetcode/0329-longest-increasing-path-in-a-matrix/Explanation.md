@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [388. Longest Absolute File Path](../0388-longest-absolute-file-path/)
+- [687. Longest Univalue Path](../0687-longest-univalue-path/)
 - [1091. Shortest Path in Binary Matrix](../1171-shortest-path-in-binary-matrix/)
-- [2556. Disconnect Path in a Binary Matrix by at Most One Flip](../2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
-- [2713. Maximum Strictly Increasing Cells in a Matrix](../2818-maximum-strictly-increasing-cells-in-a-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)

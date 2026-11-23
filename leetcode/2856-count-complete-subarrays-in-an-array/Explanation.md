@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
+- [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
+- [1248. Count Number of Nice Subarrays](../1370-count-number-of-nice-subarrays/)
 - [1735. Count Ways to Make Array With Product](../1836-count-ways-to-make-array-with-product/)
-- [2179. Count Good Triplets in an Array](../2280-count-good-triplets-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)

@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2177. Find Three Consecutive Integers That Sum to a Given Number](../2278-find-three-consecutive-integers-that-sum-to-a-given-number/)
 - [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
-- [1601. Maximum Number of Achievable Transfer Requests](../1723-maximum-number-of-achievable-transfer-requests/)
+- [1673. Find the Most Competitive Subsequence](../1792-find-the-most-competitive-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)

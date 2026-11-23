@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [733. Flood Fill](../0733-flood-fill/)
-- [797. All Paths From Source to Target](../0813-all-paths-from-source-to-target/)
 - [2887. Fill Missing Data](../3070-fill-missing-data/)
+- [3537. Fill a Special Grid](../3822-fill-a-special-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/multi-source-flood-fill/)

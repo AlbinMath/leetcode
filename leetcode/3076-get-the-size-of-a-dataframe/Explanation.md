@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2877. Create a DataFrame from List](../3062-create-a-dataframe-from-list/)
 - [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
 - [952. Largest Component Size by Common Factor](../0989-largest-component-size-by-common-factor/)
-- [961. N-Repeated Element in Size 2N Array](../1001-n-repeated-element-in-size-2n-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-the-size-of-a-dataframe/)

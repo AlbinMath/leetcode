@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3513. Number of Unique XOR Triplets I](../3824-number-of-unique-xor-triplets-i/)
-- [1207. Unique Number of Occurrences](../1319-unique-number-of-occurrences/)
-- [1593. Split a String Into the Max Number of Unique Substrings](../1715-split-a-string-into-the-max-number-of-unique-substrings/)
+- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [2367. Number of Arithmetic Triplets](../2442-number-of-arithmetic-triplets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/)

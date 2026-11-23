@@ -63,8 +63,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2249. Count Lattice Points Inside a Circle](../2332-count-lattice-points-inside-a-circle/)
 - [2503. Maximum Number of Points From Grid Queries](../2588-maximum-number-of-points-from-grid-queries/)
+- [2249. Count Lattice Points Inside a Circle](../2332-count-lattice-points-inside-a-circle/)
 - [1610. Maximum Number of Visible Points](../1733-maximum-number-of-visible-points/)
 
 ## LeetCode

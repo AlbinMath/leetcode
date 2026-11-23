@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2693. Call Function with Custom Context](../2790-call-function-with-custom-context/)
-- [66. Plus One](../0066-plus-one/)
-- [233. Number of Digit One](../0233-number-of-digit-one/)
+- [396. Rotate Function](../0396-rotate-function/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../1645-find-a-value-of-a-mysterious-function-closest-to-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/allow-one-function-call/)

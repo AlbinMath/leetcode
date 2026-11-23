@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3090. Maximum Length Substring With Two Occurrences](../3349-maximum-length-substring-with-two-occurrences/)
 - [1297. Maximum Number of Occurrences of a Substring](../1423-maximum-number-of-occurrences-of-a-substring/)
-- [1450. Number of Students Doing Homework at a Given Time](../1560-number-of-students-doing-homework-at-a-given-time/)
+- [718. Maximum Length of Repeated Subarray](../0718-maximum-length-of-repeated-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)

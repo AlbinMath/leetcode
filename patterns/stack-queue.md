@@ -20,7 +20,7 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 
 | 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1802-number-of-students-unable-to-eat-lunch/) | C++, JavaScript | O(n) | O(n) | [Explanation](../leetcode/1802-number-of-students-unable-to-eat-lunch/Explanation.md) |
 
-| 2331 | [Evaluate Boolean Binary Tree](../leetcode/2416-evaluate-boolean-binary-tree/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2416-evaluate-boolean-binary-tree/Explanation.md) |
+| 2460 | [Apply Operations to an Array](../leetcode/2551-apply-operations-to-an-array/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2551-apply-operations-to-an-array/Explanation.md) |
 
 | 2888 | [Reshape Data: Concatenate](../leetcode/3064-reshape-data-concatenate/) | Python | O(n) | O(n) | [Explanation](../leetcode/3064-reshape-data-concatenate/Explanation.md) |
 
@@ -30,13 +30,9 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 |---|---|---|---|---|---|
 | 22 | [Generate Parentheses](../leetcode/0022-generate-parentheses/) | C++, JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0022-generate-parentheses/Explanation.md) |
 
-| 116 | [Populating Next Right Pointers in Each Node](../leetcode/0116-populating-next-right-pointers-in-each-node/) | Python | O(n) | O(n) | [Explanation](../leetcode/0116-populating-next-right-pointers-in-each-node/Explanation.md) |
-
-| 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/Explanation.md) |
-
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0150-evaluate-reverse-polish-notation/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/0150-evaluate-reverse-polish-notation/Explanation.md) |
 
-| 155 | [Min Stack](../leetcode/0155-min-stack/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0155-min-stack/Explanation.md) |
+| 187 | [Repeated DNA Sequences](../leetcode/0187-repeated-dna-sequences/) | Python | O(n) | O(n) | [Explanation](../leetcode/0187-repeated-dna-sequences/Explanation.md) |
 
 | 241 | [Different Ways to Add Parentheses](../leetcode/0241-different-ways-to-add-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/0241-different-ways-to-add-parentheses/Explanation.md) |
 
@@ -68,9 +64,13 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 
 | 1670 | [Design Front Middle Back Queue](../leetcode/1767-design-front-middle-back-queue/) | Python | O(n) | O(n) | [Explanation](../leetcode/1767-design-front-middle-back-queue/Explanation.md) |
 
+| 1993 | [Operations on Tree](../leetcode/2104-operations-on-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/2104-operations-on-tree/Explanation.md) |
+
 | 2116 | [Check if a Parentheses String Can Be Valid](../leetcode/2221-check-if-a-parentheses-string-can-be-valid/) | Python | O(n) | O(n) | [Explanation](../leetcode/2221-check-if-a-parentheses-string-can-be-valid/Explanation.md) |
 
 | 2232 | [Minimize Result by Adding Parentheses to Expression](../leetcode/2328-minimize-result-by-adding-parentheses-to-expression/) | Python | O(n) | O(n) | [Explanation](../leetcode/2328-minimize-result-by-adding-parentheses-to-expression/Explanation.md) |
+
+| 2601 | [Prime Subtraction Operation](../leetcode/2716-prime-subtraction-operation/) | Python | O(n) | O(n) | [Explanation](../leetcode/2716-prime-subtraction-operation/Explanation.md) |
 
 | 4062 | [Transform Array Using Pair Operations](../leetcode/4398-transform-array-using-pair-operations/) | Python | O(n) | O(n) | [Explanation](../leetcode/4398-transform-array-using-pair-operations/Explanation.md) |
 
@@ -81,6 +81,8 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 | 32 | [Longest Valid Parentheses](../leetcode/0032-longest-valid-parentheses/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0032-longest-valid-parentheses/Explanation.md) |
 
 | 301 | [Remove Invalid Parentheses](../leetcode/0301-remove-invalid-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/0301-remove-invalid-parentheses/Explanation.md) |
+
+| 899 | [Orderly Queue](../leetcode/0935-orderly-queue/) | Python | O(n) | O(n) | [Explanation](../leetcode/0935-orderly-queue/Explanation.md) |
 
 | 1172 | [Dinner Plate Stacks](../leetcode/1270-dinner-plate-stacks/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1270-dinner-plate-stacks/Explanation.md) |
 

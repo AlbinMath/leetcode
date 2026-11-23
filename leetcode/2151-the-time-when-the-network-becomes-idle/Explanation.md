@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [743. Network Delay Time](../0744-network-delay-time/)
-- [803. Bricks Falling When Hit](../0821-bricks-falling-when-hit/)
 - [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
+- [122. Best Time to Buy and Sell Stock II](../0122-best-time-to-buy-and-sell-stock-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)

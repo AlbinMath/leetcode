@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
 - [1422. Maximum Score After Splitting a String](../1537-maximum-score-after-splitting-a-string/)
 - [1717. Maximum Score From Removing Substrings](../1818-maximum-score-from-removing-substrings/)
-- [1793. Maximum Score of a Good Subarray](../1918-maximum-score-of-a-good-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)

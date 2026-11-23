@@ -1,7 +1,7 @@
 # LeetCode 1361: Validate Binary Tree Nodes
 
 **LeetCode Problem #1361 — Validate Binary Tree Nodes**
-Solve LeetCode Validate Binary Tree Nodes using Python and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
+Solve LeetCode Validate Binary Tree Nodes using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Validate Binary Tree Nodes using Python and Linked List. This sol
 | LeetCode | #1361 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Pointer Traversal & Node Manipulation |
-| Data Structure | Linked List |
-| Pattern | Linked List |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,29 +20,30 @@ Solve LeetCode Validate Binary Tree Nodes using Python and Linked List. This sol
 You have  n  binary tree nodes numbered from  0  to  n - 1  where node  i  has two children  leftChild[i]  and  rightChild[i] , return  true  if and only if  all  the given nodes form  exactly one  valid binary tree.
 
 ## Key Insight
-Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Linked List**).
-2. Process elements sequentially using **Pointer Traversal & Node Manipulation**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Validate Binary Tree Nodes**. Applying **Pointer Traversal & Node Manipulation** yields the target result step by step.
+Consider the standard input for **Validate Binary Tree Nodes**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Linked List**
+**Binary Search**
 
 ## Topics
-- Linked List
-- Two Pointers
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 Python
@@ -51,16 +52,16 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)

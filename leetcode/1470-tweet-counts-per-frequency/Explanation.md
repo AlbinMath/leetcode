@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1661. Average Time of Process per Machine](../1801-average-time-of-process-per-machine/)
+- [3433. Count Mentions Per User](../3721-count-mentions-per-user/)
 - [192. Word Frequency](../0192-word-frequency/)
-- [895. Maximum Frequency Stack](../0931-maximum-frequency-stack/)
-- [1170. Compare Strings by Frequency of the Smallest Character](../1273-compare-strings-by-frequency-of-the-smallest-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tweet-counts-per-frequency/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1349. Maximum Students Taking Exam](../1471-maximum-students-taking-exam/)
-- [2024. Maximize the Confusion of an Exam](../2134-maximize-the-confusion-of-an-exam/)
-- [3709. Design Exam Scores Tracker](../4059-design-exam-scores-tracker/)
+- [3168. Minimum Number of Chairs in a Waiting Room](../3426-minimum-number-of-chairs-in-a-waiting-room/)
+- [3341. Find Minimum Time to Reach Last Room I](../3627-find-minimum-time-to-reach-last-room-i/)
+- [3342. Find Minimum Time to Reach Last Room II](../3628-find-minimum-time-to-reach-last-room-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/exam-room/)

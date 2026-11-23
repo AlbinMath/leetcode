@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1725. Number Of Rectangles That Can Form The Largest Square](../1843-number-of-rectangles-that-can-form-the-largest-square/)
-- [1139. Largest 1-Bordered Square](../1239-largest-1-bordered-square/)
-- [2975. Maximum Square Area by Removing Fences From a Field](../3250-maximum-square-area-by-removing-fences-from-a-field/)
+- [515. Find Largest Value in Each Tree Row](../0515-find-largest-value-in-each-tree-row/)
+- [1385. Find the Distance Value Between Two Arrays](../1486-find-the-distance-value-between-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/)

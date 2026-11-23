@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [367. Valid Perfect Square](../0367-valid-perfect-square/)
-- [391. Perfect Rectangle](../0391-perfect-rectangle/)
-- [507. Perfect Number](../0507-perfect-number/)
+- [840. Magic Squares In Grid](../0870-magic-squares-in-grid/)
+- [977. Squares of a Sorted Array](../1019-squares-of-a-sorted-array/)
+- [1240. Tiling a Rectangle with the Fewest Squares](../1361-tiling-a-rectangle-with-the-fewest-squares/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/perfect-squares/)

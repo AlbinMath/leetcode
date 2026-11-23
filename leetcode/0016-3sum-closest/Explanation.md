@@ -78,9 +78,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [15. 3Sum](../0015-3sum/)
 - [564. Find the Closest Palindrome](../0564-find-the-closest-palindrome/)
 - [658. Find K Closest Elements](../0658-find-k-closest-elements/)
-- [973. K Closest Points to Origin](../1014-k-closest-points-to-origin/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/3sum-closest/)

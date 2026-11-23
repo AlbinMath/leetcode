@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2062. Count Vowel Substrings of a String](../2186-count-vowel-substrings-of-a-string/)
-- [3297. Count Substrings That Can Be Rearranged to Contain a String I](../3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
-- [3298. Count Substrings That Can Be Rearranged to Contain a String II](../3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)
+- [467. Unique Substrings in Wraparound String](../0467-unique-substrings-in-wraparound-string/)
+- [1358. Number of Substrings Containing All Three Characters](../1460-number-of-substrings-containing-all-three-characters/)
+- [1593. Split a String Into the Max Number of Unique Substrings](../1715-split-a-string-into-the-max-number-of-unique-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)

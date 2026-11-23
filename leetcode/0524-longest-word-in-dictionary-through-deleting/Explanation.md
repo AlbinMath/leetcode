@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [720. Longest Word in Dictionary](../0720-longest-word-in-dictionary/)
 - [1493. Longest Subarray of 1's After Deleting One Element](../1586-longest-subarray-of-1s-after-deleting-one-element/)
-- [1640. Check Array Formation Through Concatenation](../1760-check-array-formation-through-concatenation/)
+- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)

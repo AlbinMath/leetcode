@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [828. Count Unique Characters of All Substrings of a Given String](../0855-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1237. Find Positive Integer Solution for a Given Equation](../1358-find-positive-integer-solution-for-a-given-equation/)
-- [2156. Find Substring With Given Hash Value](../2275-find-substring-with-given-hash-value/)
+- [894. All Possible Full Binary Trees](../0930-all-possible-full-binary-trees/)
+- [1162. As Far from Land as Possible](../1117-as-far-from-land-as-possible/)
+- [1575. Count All Possible Routes](../1680-count-all-possible-routes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [724. Find Pivot Index](../0724-find-pivot-index/)
 - [1237. Find Positive Integer Solution for a Given Equation](../1358-find-positive-integer-solution-for-a-given-equation/)
 - [1394. Find Lucky Integer in an Array](../1510-find-lucky-integer-in-an-array/)
-- [1985. Find the Kth Largest Integer in the Array](../2113-find-the-kth-largest-integer-in-the-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-pivot-integer/)

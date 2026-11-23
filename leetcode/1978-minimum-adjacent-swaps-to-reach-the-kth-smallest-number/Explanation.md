@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [1703. Minimum Adjacent Swaps for K Consecutive Ones](../1805-minimum-adjacent-swaps-for-k-consecutive-ones/)
 - [668. Kth Smallest Number in Multiplication Table](../0668-kth-smallest-number-in-multiplication-table/)
+- [2343. Query Kth Smallest Trimmed Number](../2422-query-kth-smallest-trimmed-number/)
+- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1237. Find Positive Integer Solution for a Given Equation](../1358-find-positive-integer-solution-for-a-given-equation/)
+- [513. Find Bottom Left Tree Value](../0513-find-bottom-left-tree-value/)
+- [515. Find Largest Value in Each Tree Row](../0515-find-largest-value-in-each-tree-row/)
 - [1325. Delete Leaves With a Given Value](../1450-delete-leaves-with-a-given-value/)
-- [1456. Maximum Number of Vowels in a Substring of Given Length](../1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-substring-with-given-hash-value/)

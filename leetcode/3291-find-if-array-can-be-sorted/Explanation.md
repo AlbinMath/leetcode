@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
-- [2018. Check if Word Can Be Placed In Crossword](../2146-check-if-word-can-be-placed-in-crossword/)
-- [2116. Check if a Parentheses String Can Be Valid](../2221-check-if-a-parentheses-string-can-be-valid/)
+- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-if-array-can-be-sorted/)

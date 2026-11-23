@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [89. Gray Code](../0089-gray-code/)
 - [62. Unique Paths](../0062-unique-paths/)
 - [63. Unique Paths II](../0063-unique-paths-ii/)
+- [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-morse-code-words/)

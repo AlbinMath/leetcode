@@ -65,9 +65,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [478. Generate Random Point in a Circle](../0915-generate-random-point-in-a-circle/)
-- [1041. Robot Bounded In Circle](../1119-robot-bounded-in-circle/)
-- [1828. Queries on Number of Points Inside a Circle](../1939-queries-on-number-of-points-inside-a-circle/)
+- [435. Non-overlapping Intervals](../0435-non-overlapping-intervals/)
+- [497. Random Point in Non-overlapping Rectangles](../0914-random-point-in-non-overlapping-rectangles/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../0689-maximum-sum-of-3-non-overlapping-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/circle-and-rectangle-overlapping/)

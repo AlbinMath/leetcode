@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
 - [1979. Find Greatest Common Divisor of Array](../2106-find-greatest-common-divisor-of-array/)
 - [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
-- [3043. Find the Length of the Longest Common Prefix](../3329-find-the-length-of-the-longest-common-prefix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-common-characters/)

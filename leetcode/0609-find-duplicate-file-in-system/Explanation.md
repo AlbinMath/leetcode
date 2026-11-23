@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1948. Delete Duplicate Folders in System](../2079-delete-duplicate-folders-in-system/)
 - [287. Find the Duplicate Number](../0287-find-the-duplicate-number/)
 - [652. Find Duplicate Subtrees](../0652-find-duplicate-subtrees/)
+- [1948. Delete Duplicate Folders in System](../2079-delete-duplicate-folders-in-system/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-duplicate-file-in-system/)

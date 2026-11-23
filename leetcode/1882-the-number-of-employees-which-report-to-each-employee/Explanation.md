@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1178. Number of Valid Words for Each Puzzle](../1282-number-of-valid-words-for-each-puzzle/)
-- [1434. Number of Ways to Wear Different Hats to Each Other](../1531-number-of-ways-to-wear-different-hats-to-each-other/)
 - [1741. Find Total Time Spent by Each Employee](../1892-find-total-time-spent-by-each-employee/)
+- [1789. Primary Department for Each Employee](../1942-primary-department-for-each-employee/)
+- [2930. Number of Strings Which Can Be Rearranged to Contain Substring](../3200-number-of-strings-which-can-be-rearranged-to-contain-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/)

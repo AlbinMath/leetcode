@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3405. Count the Number of Arrays with K Matching Adjacent Elements](../3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
-- [996. Number of Squareful Arrays](../1038-number-of-squareful-arrays/)
 - [1248. Count Number of Nice Subarrays](../1370-count-number-of-nice-subarrays/)
+- [1395. Count Number of Teams](../1511-count-number-of-teams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-ideal-arrays/)

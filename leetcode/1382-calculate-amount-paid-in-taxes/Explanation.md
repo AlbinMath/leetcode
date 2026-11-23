@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1716. Calculate Money in Leetcode Bank](../1817-calculate-money-in-leetcode-bank/)
-- [1873. Calculate Special Bonus](../2024-calculate-special-bonus/)
-- [2243. Calculate Digit Sum of a String](../2361-calculate-digit-sum-of-a-string/)
+- [2385. Amount of Time for Binary Tree to Be Infected](../2461-amount-of-time-for-binary-tree-to-be-infected/)
+- [3116. Kth Smallest Amount With Single Denomination Combination](../3375-kth-smallest-amount-with-single-denomination-combination/)
+- [3387. Maximize Amount After Two Days of Conversions](../3613-maximize-amount-after-two-days-of-conversions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)

@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1897. Redistribute Characters to Make All Strings Equal](../2025-redistribute-characters-to-make-all-strings-equal/)
 - [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
-- [1787. Make the XOR of All Segments Equal to Zero](../1913-make-the-xor-of-all-segments-equal-to-zero/)
+- [1247. Minimum Swaps to Make Strings Equal](../1369-minimum-swaps-to-make-strings-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-deletion-cost-to-make-all-characters-equal/)

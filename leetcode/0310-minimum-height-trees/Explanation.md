@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3203. Find Minimum Diameter After Merging Two Trees](../3439-find-minimum-diameter-after-merging-two-trees/)
-- [406. Queue Reconstruction by Height](../0406-queue-reconstruction-by-height/)
-- [1051. Height Checker](../1137-height-checker/)
+- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [76. Minimum Window Substring](../0076-minimum-window-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-height-trees/)

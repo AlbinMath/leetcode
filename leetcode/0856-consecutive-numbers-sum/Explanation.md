@@ -1,7 +1,7 @@
 # LeetCode 829: Consecutive Numbers Sum
 
 **LeetCode Problem #829 — Consecutive Numbers Sum**
-Solve LeetCode Consecutive Numbers Sum using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Consecutive Numbers Sum using Python and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Consecutive Numbers Sum using Python and Array / General. This so
 | LeetCode | #829 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Pointer Traversal & Node Manipulation |
+| Data Structure | Linked List |
+| Pattern | Linked List |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Consecutive Numbers Sum using Python and Array / General. This so
 Given an integer  n , return  the number of ways you can write   n   as the sum of consecutive positive integers.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Linked List**).
+2. Process elements sequentially using **Pointer Traversal & Node Manipulation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Consecutive Numbers Sum**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Consecutive Numbers Sum**. Applying **Pointer Traversal & Node Manipulation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Linked List**
 
 ## Topics
-- Array
+- Linked List
+- Two Pointers
 
 ## Language
 Python
@@ -50,7 +51,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [129. Sum Root to Leaf Numbers](../0129-sum-root-to-leaf-numbers/)
 - [180. Consecutive Numbers](../0180-consecutive-numbers/)
-- [967. Numbers With Same Consecutive Differences](../1007-numbers-with-same-consecutive-differences/)
-- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
+- [633. Sum of Square Numbers](../0633-sum-of-square-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/consecutive-numbers-sum/)

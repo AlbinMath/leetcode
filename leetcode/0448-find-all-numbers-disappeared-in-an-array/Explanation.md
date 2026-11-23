@@ -68,8 +68,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2593. Find Score of an Array After Marking All Elements](../2695-find-score-of-an-array-after-marking-all-elements/)
-- [438. Find All Anagrams in a String](../0438-find-all-anagrams-in-a-string/)
-- [1397. Find All Good Strings](../1513-find-all-good-strings/)
+- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [1524. Number of Sub-arrays With Odd Sum](../1631-number-of-sub-arrays-with-odd-sum/)
+- [327. Count of Range Sum](../0327-count-of-range-sum/)
 - [1905. Count Sub Islands](../2035-count-sub-islands/)
+- [1925. Count Square Sum Triples](../2037-count-square-sum-triples/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-of-sub-multisets-with-bounded-sum/)

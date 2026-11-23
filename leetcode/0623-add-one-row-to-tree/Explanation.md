@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [515. Find Largest Value in Each Tree Row](../0515-find-largest-value-in-each-tree-row/)
-- [500. Keyboard Row](../0500-keyboard-row/)
-- [947. Most Stones Removed with Same Row or Column](../0984-most-stones-removed-with-same-row-or-column/)
+- [2. Add Two Numbers](../0002-add-two-numbers/)
+- [67. Add Binary](../0067-add-binary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-one-row-to-tree/)

@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2094. Finding 3-Digit Even Numbers](../2215-finding-3-digit-even-numbers/)
 - [2310. Sum of Numbers With Units Digit K](../1334-sum-of-numbers-with-units-digit-k/)
-- [3483. Unique 3-Digit Even Numbers](../3799-unique-3-digit-even-numbers/)
+- [3352. Count K-Reducible Numbers Less Than N](../3631-count-k-reducible-numbers-less-than-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)

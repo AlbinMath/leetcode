@@ -30,6 +30,8 @@ A collection of LeetCode problems solved using **Heap** pattern techniques, expl
 
 | 986 | [Interval List Intersections](../leetcode/1028-interval-list-intersections/) | Python | O(n) | O(n) | [Explanation](../leetcode/1028-interval-list-intersections/Explanation.md) |
 
+| 1124 | [Longest Well-Performing Interval](../leetcode/1219-longest-well-performing-interval/) | Python | O(n) | O(n) | [Explanation](../leetcode/1219-longest-well-performing-interval/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
@@ -41,6 +43,8 @@ A collection of LeetCode problems solved using **Heap** pattern techniques, expl
 | 1520 | [Maximum Number of Non-Overlapping Substrings](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1644-maximum-number-of-non-overlapping-substrings/Explanation.md) |
 
 | 1851 | [Minimum Interval to Include Each Query](../leetcode/1977-minimum-interval-to-include-each-query/) | Python | O(n) | O(n) | [Explanation](../leetcode/1977-minimum-interval-to-include-each-query/Explanation.md) |
+
+| 2276 | [Count Integers in Intervals](../leetcode/2357-count-integers-in-intervals/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2357-count-integers-in-intervals/Explanation.md) |
 
 | 3414 | [Maximum Score of Non-overlapping Intervals](../leetcode/3562-maximum-score-of-non-overlapping-intervals/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3562-maximum-score-of-non-overlapping-intervals/Explanation.md) |
 

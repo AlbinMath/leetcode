@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [7. Reverse Integer](../0007-reverse-integer/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [12. Integer to Roman](../0012-integer-to-roman/)
+- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
+- [151. Reverse Words in a String](../0151-reverse-words-in-a-string/)
+- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/integer-to-english-words/)

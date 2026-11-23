@@ -66,7 +66,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3739. Count Subarrays With Majority Element II](../4075-count-subarrays-with-majority-element-ii/)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](../3213-count-subarrays-where-max-element-appears-at-least-k-times/)
-- [169. Majority Element](../0169-majority-element/)
+- [1248. Count Number of Nice Subarrays](../1370-count-number-of-nice-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-majority-element-i/)

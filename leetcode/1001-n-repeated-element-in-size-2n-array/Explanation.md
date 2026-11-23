@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2875. Minimum Size Subarray in Infinite Array](../3141-minimum-size-subarray-in-infinite-array/)
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
 - [215. Kth Largest Element in an Array](../0215-kth-largest-element-in-an-array/)
+- [540. Single Element in a Sorted Array](../0540-single-element-in-a-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)

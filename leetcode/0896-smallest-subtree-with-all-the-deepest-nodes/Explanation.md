@@ -65,7 +65,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2003. Smallest Missing Genetic Value in Each Subtree](../2131-smallest-missing-genetic-value-in-each-subtree/)
-- [2265. Count Nodes Equal to Average of Subtree](../2347-count-nodes-equal-to-average-of-subtree/)
+- [3370. Smallest Number With All Set Bits](../3676-smallest-number-with-all-set-bits/)
 - [847. Shortest Path Visiting All Nodes](../0877-shortest-path-visiting-all-nodes/)
 
 ## LeetCode

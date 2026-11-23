@@ -11,7 +11,7 @@ A collection of LeetCode problems implemented in **Kotlin** with detailed comple
 | 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Easy | Binary Search | O(n) | O(1) |
 | 1492 | [The kth Factor of n](../leetcode/1585-the-kth-factor-of-n/) | Medium | Array / General | O(n) | O(1) |
 | 1732 | [Find the Highest Altitude](../leetcode/1833-find-the-highest-altitude/) | Easy | Array / General | O(n) | O(1) |
-| 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Easy | Tree & Graph | O(n) | O(n) |
+| 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2099-number-of-strings-that-appear-as-substrings-in-word/) | Easy | Linked List | O(n) | O(1) |
 | 1979 | [Find Greatest Common Divisor of Array](../leetcode/2106-find-greatest-common-divisor-of-array/) | Easy | Array / General | O(n) | O(1) |
 | 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Easy | Sliding Window | O(n) | O(1) |
 | 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Easy | Prefix Sum | O(n) | O(n) |

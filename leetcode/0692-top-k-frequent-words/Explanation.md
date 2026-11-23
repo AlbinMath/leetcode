@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [347. Top K Frequent Elements](../0347-top-k-frequent-elements/)
-- [185. Department Top Three Salaries](../0185-department-top-three-salaries/)
-- [1407. Top Travellers](../1541-top-travellers/)
+- [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
+- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/top-k-frequent-words/)

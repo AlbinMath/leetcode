@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1787. Make the XOR of All Segments Equal to Zero](../1913-make-the-xor-of-all-segments-equal-to-zero/)
 - [797. All Paths From Source to Target](../0813-all-paths-from-source-to-target/)
-- [1575. Count All Possible Routes](../1680-count-all-possible-routes/)
+- [2673. Make Costs of Paths Equal in a Binary Tree](../2780-make-costs-of-paths-equal-in-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)

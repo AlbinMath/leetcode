@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1665. Minimum Initial Energy to Finish Tasks](../1784-minimum-initial-energy-to-finish-tasks/)
-- [1723. Find Minimum Time to Finish All Jobs](../1825-find-minimum-time-to-finish-all-jobs/)
-- [452. Minimum Number of Arrows to Burst Balloons](../0452-minimum-number-of-arrows-to-burst-balloons/)
+- [2071. Maximum Number of Tasks You Can Assign](../2180-maximum-number-of-tasks-you-can-assign/)
+- [2589. Minimum Time to Complete All Tasks](../2657-minimum-time-to-complete-all-tasks/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)

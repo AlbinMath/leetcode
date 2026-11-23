@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3622. Check Divisibility by Digit Sum and Product](../3918-check-divisibility-by-digit-sum-and-product/)
 - [472. Concatenated Words](../0472-concatenated-words/)
 - [1239. Maximum Length of a Concatenated String with Unique Characters](../1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
-- [3622. Check Divisibility by Digit Sum and Product](../3918-check-divisibility-by-digit-sum-and-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenated-divisibility/)

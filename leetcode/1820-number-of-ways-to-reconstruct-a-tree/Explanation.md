@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1434. Number of Ways to Wear Different Hats to Each Other](../1531-number-of-ways-to-wear-different-hats-to-each-other/)
 - [1444. Number of Ways of Cutting a Pizza](../1555-number-of-ways-of-cutting-a-pizza/)
-- [1525. Number of Good Ways to Split a String](../1632-number-of-good-ways-to-split-a-string/)
+- [1519. Number of Nodes in the Sub-Tree With the Same Label](../1643-number-of-nodes-in-the-sub-tree-with-the-same-label/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/)

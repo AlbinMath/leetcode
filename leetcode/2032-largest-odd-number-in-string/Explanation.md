@@ -1,7 +1,7 @@
 # LeetCode 1903: Largest Odd Number in String
 
 **LeetCode Problem #1903 — Largest Odd Number in String**
-Solve LeetCode Largest Odd Number in String using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Largest Odd Number in String using C++ and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Largest Odd Number in String using C++ and Array / General. This 
 | LeetCode | #1903 |
 | Difficulty | Easy |
 | Language | C++ |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Largest Odd Number in String using C++ and Array / General. This 
 You are given a string  num , representing a large integer. Return  the  largest-valued odd  integer (as a string) that is a  non-empty substring  of   num  , or an empty string   ""   if no odd integer exists .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Largest Odd Number in String**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Largest Odd Number in String**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 C++
@@ -50,7 +51,7 @@ C++
 - [solution.cpp](./solution.cpp)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [434. Number of Segments in a String](../0434-number-of-segments-in-a-string/)
+- [806. Number of Lines To Write String](../0824-number-of-lines-to-write-string/)
 - [1374. Generate a String With Characters That Have Odd Counts](../1490-generate-a-string-with-characters-that-have-odd-counts/)
-- [1524. Number of Sub-arrays With Odd Sum](../1631-number-of-sub-arrays-with-odd-sum/)
-- [2595. Number of Even and Odd Bits](../2659-number-of-even-and-odd-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-odd-number-in-string/)

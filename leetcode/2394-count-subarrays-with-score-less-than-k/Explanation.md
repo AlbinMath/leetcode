@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3835. Count Subarrays With Cost Less Than or Equal to K](../4211-count-subarrays-with-cost-less-than-or-equal-to-k/)
 - [3352. Count K-Reducible Numbers Less Than N](../3631-count-k-reducible-numbers-less-than-n/)
-- [2962. Count Subarrays Where Max Element Appears at Least K Times](../3213-count-subarrays-where-max-element-appears-at-least-k-times/)
+- [713. Subarray Product Less Than K](../0713-subarray-product-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/)

@@ -1,7 +1,7 @@
 # LeetCode 2375: Construct Smallest Number From DI String
 
 **LeetCode Problem #2375 — Construct Smallest Number From DI String**
-Solve LeetCode Construct Smallest Number From DI String using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Construct Smallest Number From DI String using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,41 @@ Solve LeetCode Construct Smallest Number From DI String using Python and Array /
 | LeetCode | #2375 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 You are given a  0-indexed  string  pattern  of length  n  consisting of the characters  &#39;I&#39;  meaning  increasing  and  &#39;D&#39;  meaning  decreasing .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Construct Smallest Number From DI String**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Construct Smallest Number From DI String**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -50,7 +53,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +65,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [606. Construct String from Binary Tree](../0606-construct-string-from-binary-tree/)
 - [988. Smallest String Starting From Leaf](../1030-smallest-string-starting-from-leaf/)
 - [2605. Form Smallest Number From Two Digit Arrays](../2668-form-smallest-number-from-two-digit-arrays/)
+- [606. Construct String from Binary Tree](../0606-construct-string-from-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-smallest-number-from-di-string/)

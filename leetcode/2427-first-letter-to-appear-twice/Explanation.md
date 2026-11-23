@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3374. First Letter Capitalization II](../3711-first-letter-capitalization-ii/)
 - [3158. Find the XOR of Numbers Which Appear Twice](../3428-find-the-xor-of-numbers-which-appear-twice/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
+- [3374. First Letter Capitalization II](../3711-first-letter-capitalization-ii/)
+- [747. Largest Number At Least Twice of Others](../0748-largest-number-at-least-twice-of-others/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-letter-to-appear-twice/)

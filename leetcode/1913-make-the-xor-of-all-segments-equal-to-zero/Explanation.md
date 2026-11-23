@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](../1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
-- [1897. Redistribute Characters to Make All Strings Equal](../2025-redistribute-characters-to-make-all-strings-equal/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
+- [2357. Make Array Zero by Subtracting Equal Amounts](../2436-make-array-zero-by-subtracting-equal-amounts/)
+- [3354. Make Array Elements Equal to Zero](../3616-make-array-elements-equal-to-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero/)

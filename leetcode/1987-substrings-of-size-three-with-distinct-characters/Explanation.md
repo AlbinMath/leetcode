@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1358. Number of Substrings Containing All Three Characters](../1460-number-of-substrings-containing-all-three-characters/)
-- [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
+- [828. Count Unique Characters of All Substrings of a Given String](../0855-count-unique-characters-of-all-substrings-of-a-given-string/)
 - [1316. Distinct Echo Substrings](../1244-distinct-echo-substrings/)
 
 ## LeetCode

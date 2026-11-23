@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [890. Find and Replace Pattern](../0926-find-and-replace-pattern/)
 - [3421. Find Students Who Improved](../3767-find-students-who-improved/)
-- [290. Word Pattern](../0290-word-pattern/)
+- [54. Spiral Matrix](../0054-spiral-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-students-with-study-spiral-pattern/)

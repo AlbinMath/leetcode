@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2091. Removing Minimum and Maximum From Array](../2212-removing-minimum-and-maximum-from-array/)
 - [2975. Maximum Square Area by Removing Fences From a Field](../3250-maximum-square-area-by-removing-fences-from-a-field/)
-- [1255. Maximum Score Words Formed by Letters](../1381-maximum-score-words-formed-by-letters/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-from-removing-substrings/)

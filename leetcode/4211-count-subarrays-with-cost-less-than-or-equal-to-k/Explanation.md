@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2302. Count Subarrays With Score Less Than K](../2394-count-subarrays-with-score-less-than-k/)
-- [3352. Count K-Reducible Numbers Less Than N](../3631-count-k-reducible-numbers-less-than-n/)
 - [2311. Longest Binary Subsequence Less Than or Equal to K](../2395-longest-binary-subsequence-less-than-or-equal-to-k/)
+- [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](../3240-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/)

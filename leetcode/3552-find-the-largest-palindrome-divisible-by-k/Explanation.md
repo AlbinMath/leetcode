@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2099. Find Subsequence of Length K With the Largest Sum](../2204-find-subsequence-of-length-k-with-the-largest-sum/)
-- [1015. Smallest Integer Divisible by K](../1064-smallest-integer-divisible-by-k/)
-- [2183. Count Array Pairs Divisible by K](../2301-count-array-pairs-divisible-by-k/)
+- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
+- [658. Find K Closest Elements](../0658-find-k-closest-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
-- [1606. Find Servers That Handled Most Number of Requests](../1710-find-servers-that-handled-most-number-of-requests/)
 - [1638. Count Substrings That Differ by One Character](../1743-count-substrings-that-differ-by-one-character/)
+- [2201. Count Artifacts That Can Be Extracted](../1312-count-artifacts-that-can-be-extracted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-servers-that-communicate/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3114. Latest Time You Can Obtain After Replacing Characters](../3361-latest-time-you-can-obtain-after-replacing-characters/)
 - [985. Sum of Even Numbers After Queries](../1027-sum-of-even-numbers-after-queries/)
 - [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
-- [1413. Minimum Value to Get Positive Step by Step Sum](../1514-minimum-value-to-get-positive-step-by-step-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/)

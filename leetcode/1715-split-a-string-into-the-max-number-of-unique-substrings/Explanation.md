@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2767. Partition String Into Minimum Beautiful Substrings](../2883-partition-string-into-minimum-beautiful-substrings/)
 - [2871. Split Array Into Maximum Number of Subarrays](../3080-split-array-into-maximum-number-of-subarrays/)
-- [1525. Number of Good Ways to Split a String](../1632-number-of-good-ways-to-split-a-string/)
+- [467. Unique Substrings in Wraparound String](../0467-unique-substrings-in-wraparound-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)

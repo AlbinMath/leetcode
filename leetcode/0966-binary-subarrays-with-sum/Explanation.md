@@ -1,7 +1,7 @@
 # LeetCode 930: Binary Subarrays With Sum
 
 **LeetCode Problem #930 — Binary Subarrays With Sum**
-Solve LeetCode Binary Subarrays With Sum using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Binary Subarrays With Sum using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,41 @@ Solve LeetCode Binary Subarrays With Sum using Python and Bit Manipulation. This
 | LeetCode | #930 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 Given a binary array  nums  and an integer  goal , return  the number of non-empty  subarrays  with a sum   goal .
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Binary Subarrays With Sum**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+Consider the standard input for **Binary Subarrays With Sum**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Bit Manipulation**
+**Tree & Graph**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -51,7 +53,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -63,9 +65,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](../0689-maximum-sum-of-3-non-overlapping-subarrays/)
-- [1022. Sum of Root To Leaf Binary Numbers](../1079-sum-of-root-to-leaf-binary-numbers/)
+- [1031. Maximum Sum of Two Non-Overlapping Subarrays](../1096-maximum-sum-of-two-non-overlapping-subarrays/)
+- [1588. Sum of All Odd Length Subarrays](../1693-sum-of-all-odd-length-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-subarrays-with-sum/)

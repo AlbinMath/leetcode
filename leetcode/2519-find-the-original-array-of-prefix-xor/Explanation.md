@@ -65,7 +65,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [2527. Find Xor-Beauty of Array](../2621-find-xor-beauty-of-array/)
 - [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
-- [2122. Recover the Original Array](../2241-recover-the-original-array/)
+- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)

@@ -63,9 +63,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [31. Next Permutation](../0031-next-permutation/)
-- [60. Permutation Sequence](../0060-permutation-sequence/)
-- [567. Permutation in String](../0567-permutation-in-string/)
+- [1327. List the Products Ordered in a Period](../1462-list-the-products-ordered-in-a-period/)
+- [1656. Design an Ordered Stream](../1775-design-an-ordered-stream/)
+- [2730. Find the Longest Semi-Repetitive Substring](../2786-find-the-longest-semi-repetitive-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/semi-ordered-permutation/)

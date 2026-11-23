@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [387. First Unique Character in a String](../0387-first-unique-character-in-a-string/)
-- [424. Longest Repeating Character Replacement](../0424-longest-repeating-character-replacement/)
-- [821. Shortest Distance to a Character](../0841-shortest-distance-to-a-character/)
+- [192. Word Frequency](../0192-word-frequency/)
+- [895. Maximum Frequency Stack](../0931-maximum-frequency-stack/)
+- [1348. Tweet Counts Per Frequency](../1470-tweet-counts-per-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)

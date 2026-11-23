@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1718. Construct the Lexicographically Largest Valid Sequence](../1819-construct-the-lexicographically-largest-valid-sequence/)
-- [903. Valid Permutations for DI Sequence](../0939-valid-permutations-for-di-sequence/)
-- [3287. Find the Maximum Sequence Value of Array](../3575-find-the-maximum-sequence-value-of-array/)
+- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
+- [744. Find Smallest Letter Greater Than Target](../0745-find-smallest-letter-greater-than-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/)

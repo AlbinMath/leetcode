@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3154. Find Number of Ways to Reach the K-th Stair](../3414-find-number-of-ways-to-reach-the-k-th-stair/)
-- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
-- [658. Find K Closest Elements](../0658-find-k-closest-elements/)
+- [2527. Find Xor-Beauty of Array](../2621-find-xor-beauty-of-array/)
+- [2842. Count K-Subsequences of a String With Maximum Beauty](../3057-count-k-subsequences-of-a-string-with-maximum-beauty/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)

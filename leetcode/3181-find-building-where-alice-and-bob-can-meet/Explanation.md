@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
 - [1970. Last Day Where You Can Still Cross](../2101-last-day-where-you-can-still-cross/)
-- [3011. Find if Array Can Be Sorted](../3291-find-if-array-can-be-sorted/)
+- [3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](../3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
+- [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)

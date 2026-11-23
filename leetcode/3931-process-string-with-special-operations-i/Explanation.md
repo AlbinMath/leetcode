@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3614. Process String with Special Operations II](../3939-process-string-with-special-operations-ii/)
+- [761. Special Binary String](../0763-special-binary-string/)
 - [1585. Check If String Is Transformable With Substring Sort Operations](../1707-check-if-string-is-transformable-with-substring-sort-operations/)
-- [1625. Lexicographically Smallest String After Applying Operations](../1747-lexicographically-smallest-string-after-applying-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-string-with-special-operations-i/)

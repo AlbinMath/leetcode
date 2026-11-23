@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3977. Minimum Time to Reach Target With Limited Power](../4206-minimum-time-to-reach-target-with-limited-power/)
 - [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [3977. Minimum Time to Reach Target With Limited Power](../4206-minimum-time-to-reach-target-with-limited-power/)
+- [3066. Minimum Operations to Exceed Threshold Value II](../3332-minimum-operations-to-exceed-threshold-value-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-threshold-path-with-limited-heavy-edges/)

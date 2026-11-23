@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1496. Path Crossing](../1619-path-crossing/)
 - [238. Product of Array Except Self](../0238-product-of-array-except-self/)
 - [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
+- [728. Self Dividing Numbers](../0728-self-dividing-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/self-crossing/)

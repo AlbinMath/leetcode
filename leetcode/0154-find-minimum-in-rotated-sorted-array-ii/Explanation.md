@@ -76,7 +76,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 - [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
-- [81. Search in Rotated Sorted Array II](../0081-search-in-rotated-sorted-array-ii/)
+- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)

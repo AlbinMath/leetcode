@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3300. Minimum Element After Replacement With Digit Sum](../3606-minimum-element-after-replacement-with-digit-sum/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
-- [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
+- [2471. Minimum Number of Operations to Sort a Binary Tree by Level](../2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
+- [3507. Minimum Pair Removal to Sort Array I](../3773-minimum-pair-removal-to-sort-array-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/)

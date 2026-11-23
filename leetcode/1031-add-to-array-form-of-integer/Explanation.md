@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1394. Find Lucky Integer in an Array](../1510-find-lucky-integer-in-an-array/)
 - [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
+- [1394. Find Lucky Integer in an Array](../1510-find-lucky-integer-in-an-array/)
 - [1985. Find the Kth Largest Integer in the Array](../2113-find-the-kth-largest-integer-in-the-array/)
 
 ## LeetCode

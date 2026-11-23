@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
 - [32. Longest Valid Parentheses](../0032-longest-valid-parentheses/)
 - [1178. Number of Valid Words for Each Puzzle](../1282-number-of-valid-words-for-each-puzzle/)
-- [1517. Find Users With Valid E-Mails](../1664-find-users-with-valid-e-mails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/)

@@ -36,13 +36,11 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 1041 | [Robot Bounded In Circle](../leetcode/1119-robot-bounded-in-circle/) | Medium | Math & Logic | O(n) | O(1) |
 | 1125 | [Smallest Sufficient Team](../leetcode/1220-smallest-sufficient-team/) | Hard | Math & Logic | O(n) | O(1) |
 | 1240 | [Tiling a Rectangle with the Fewest Squares](../leetcode/1361-tiling-a-rectangle-with-the-fewest-squares/) | Hard | Math & Logic | O(n) | O(1) |
-| 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | Math & Logic | O(n) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](../leetcode/1421-find-numbers-with-even-number-of-digits/) | Easy | Math & Logic | O(n) | O(1) |
 | 1344 | [Angle Between Hands of a Clock](../leetcode/1446-angle-between-hands-of-a-clock/) | Medium | Math & Logic | O(n) | O(1) |
 | 1401 | [Circle and Rectangle Overlapping](../leetcode/1501-circle-and-rectangle-overlapping/) | Medium | Math & Logic | O(n) | O(1) |
 | 1476 | [Subrectangle Queries](../leetcode/1572-subrectangle-queries/) | Medium | Math & Logic | O(n) | O(1) |
 | 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | Hard | Math & Logic | O(n) | O(1) |
-| 1725 | [Number Of Rectangles That Can Form The Largest Square](../leetcode/1843-number-of-rectangles-that-can-form-the-largest-square/) | Easy | Math & Logic | O(n) | O(1) |
 | 1736 | [Latest Time by Replacing Hidden Digits](../leetcode/1858-latest-time-by-replacing-hidden-digits/) | Easy | Math & Logic | O(n) | O(1) |
 | 1796 | [Second Largest Digit in a String](../leetcode/1904-second-largest-digit-in-a-string/) | Easy | Math & Logic | O(n) | O(1) |
 | 1828 | [Queries on Number of Points Inside a Circle](../leetcode/1939-queries-on-number-of-points-inside-a-circle/) | Medium | Math & Logic | O(n) | O(1) |
@@ -61,13 +59,10 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 2605 | [Form Smallest Number From Two Digit Arrays](../leetcode/2668-form-smallest-number-from-two-digit-arrays/) | Easy | Math & Logic | O(n) | O(1) |
 | 2637 | [Promise Time Limit](../leetcode/2749-promise-time-limit/) | Medium | Math & Logic | O(n) | O(1) |
 | 3047 | [Find the Largest Area of Square Inside Two Rectangles](../leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles/) | Medium | Math & Logic | O(n) | O(1) |
-| 3128 | [Right Triangles](../leetcode/3388-right-triangles/) | Medium | Math & Logic | O(n) | O(1) |
 | 3174 | [Clear Digits](../leetcode/3447-clear-digits/) | Easy | Math & Logic | O(n) | O(1) |
-| 3200 | [Maximum Height of a Triangle](../leetcode/3469-maximum-height-of-a-triangle/) | Easy | Math & Logic | O(n) | O(1) |
 | 3235 | [Check if the Rectangle Corner Is Reachable](../leetcode/3478-check-if-the-rectangle-corner-is-reachable/) | Hard | Math & Logic | O(n) | O(1) |
 | 3300 | [Minimum Element After Replacement With Digit Sum](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | Easy | Math & Logic | O(n) | O(1) |
 | 3348 | [Smallest Divisible Digit Product II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Hard | Math & Logic | O(n) | O(1) |
-| 3377 | [Digit Operations to Make Two Integers Equal](../leetcode/3655-digit-operations-to-make-two-integers-equal/) | Medium | Math & Logic | O(n) | O(1) |
 | 3380 | [Maximum Area Rectangle With Point Constraints I](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/) | Medium | Math & Logic | O(n) | O(1) |
 | 3382 | [Maximum Area Rectangle With Point Constraints II](../leetcode/3689-maximum-area-rectangle-with-point-constraints-ii/) | Hard | Math & Logic | O(n) | O(1) |
 | 3461 | [Check If Digits Are Equal in String After Operations I](../leetcode/3768-check-if-digits-are-equal-in-string-after-operations-i/) | Easy | Math & Logic | O(n) | O(1) |

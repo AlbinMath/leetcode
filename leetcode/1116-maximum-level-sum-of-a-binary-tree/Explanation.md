@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 - [1373. Maximum Sum BST in Binary Tree](../1475-maximum-sum-bst-in-binary-tree/)
-- [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
+- [102. Binary Tree Level Order Traversal](../0102-binary-tree-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)

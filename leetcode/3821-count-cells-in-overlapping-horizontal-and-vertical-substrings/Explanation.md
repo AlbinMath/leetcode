@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
-- [2472. Maximum Number of Non-overlapping Palindrome Substrings](../2559-maximum-number-of-non-overlapping-palindrome-substrings/)
 - [696. Count Binary Substrings](../0696-count-binary-substrings/)
+- [828. Count Unique Characters of All Substrings of a Given String](../0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/)

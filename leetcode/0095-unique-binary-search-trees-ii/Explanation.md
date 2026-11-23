@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [96. Unique Binary Search Trees](../0096-unique-binary-search-trees/)
 - [1305. All Elements in Two Binary Search Trees](../1427-all-elements-in-two-binary-search-trees/)
-- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../0773-logical-or-of-two-binary-grids-represented-as-quad-trees/)
+- [1980. Find Unique Binary String](../2107-find-unique-binary-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-binary-search-trees-ii/)

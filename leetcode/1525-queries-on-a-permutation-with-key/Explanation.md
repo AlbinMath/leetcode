@@ -63,9 +63,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [31. Next Permutation](../0031-next-permutation/)
-- [60. Permutation Sequence](../0060-permutation-sequence/)
-- [567. Permutation in String](../0567-permutation-in-string/)
+- [985. Sum of Even Numbers After Queries](../1027-sum-of-even-numbers-after-queries/)
+- [1211. Queries Quality and Percentage](../1338-queries-quality-and-percentage/)
+- [1310. XOR Queries of a Subarray](../1435-xor-queries-of-a-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queries-on-a-permutation-with-key/)

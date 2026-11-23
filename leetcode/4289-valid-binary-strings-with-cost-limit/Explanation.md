@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [3211. Generate Binary Strings Without Adjacent Zeros](../3453-generate-binary-strings-without-adjacent-zeros/)
+- [3291. Minimum Number of Valid Strings to Form Target I](../3559-minimum-number-of-valid-strings-to-form-target-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-binary-strings-with-cost-limit/)

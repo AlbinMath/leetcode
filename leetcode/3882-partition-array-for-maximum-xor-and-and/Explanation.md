@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [421. Maximum XOR of Two Numbers in an Array](../0421-maximum-xor-of-two-numbers-in-an-array/)
 - [1707. Maximum XOR With an Element From Array](../1826-maximum-xor-with-an-element-from-array/)
-- [2025. Maximum Number of Ways to Partition an Array](../2135-maximum-number-of-ways-to-partition-an-array/)
+- [3599. Partition Array to Minimize XOR](../3913-partition-array-to-minimize-xor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-for-maximum-xor-and-and/)

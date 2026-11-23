@@ -66,7 +66,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [2099. Find Subsequence of Length K With the Largest Sum](../2204-find-subsequence-of-length-k-with-the-largest-sum/)
 - [2813. Maximum Elegance of a K-Length Subsequence](../2894-maximum-elegance-of-a-k-length-subsequence/)
-- [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
+- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)

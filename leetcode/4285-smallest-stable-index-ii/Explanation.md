@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3903. Smallest Stable Index I](../4284-smallest-stable-index-i/)
 - [3550. Smallest Index With Digit Sum Equal to Index](../3869-smallest-index-with-digit-sum-equal-to-index/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [230. Kth Smallest Element in a BST](../0230-kth-smallest-element-in-a-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-stable-index-ii/)

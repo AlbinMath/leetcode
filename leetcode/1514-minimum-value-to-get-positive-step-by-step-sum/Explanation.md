@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3364. Minimum Positive Sum Subarray ](../3644-minimum-positive-sum-subarray-/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
-- [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
+- [1896. Minimum Cost to Change the Final Value of Expression](../2008-minimum-cost-to-change-the-final-value-of-expression/)
+- [2507. Smallest Value After Replacing With Sum of Prime Factors](../2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)

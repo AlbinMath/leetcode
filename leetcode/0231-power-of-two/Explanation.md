@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1. Two Sum](../0001-two-sum/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
+- [326. Power of Three](../0326-power-of-three/)
+- [342. Power of Four](../0342-power-of-four/)
+- [869. Reordered Power of 2](../0900-reordered-power-of-2/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-of-two/)

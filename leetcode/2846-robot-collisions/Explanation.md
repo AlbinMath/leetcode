@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2211. Count Collisions on a Road](../2317-count-collisions-on-a-road/)
+- [2550. Count Collisions of Monkeys on a Polygon](../2680-count-collisions-of-monkeys-on-a-polygon/)
 - [657. Robot Return to Origin](../0657-robot-return-to-origin/)
-- [874. Walking Robot Simulation](../0906-walking-robot-simulation/)
-- [1041. Robot Bounded In Circle](../1119-robot-bounded-in-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/robot-collisions/)

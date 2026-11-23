@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2556. Disconnect Path in a Binary Matrix by at Most One Flip](../2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
-- [54. Spiral Matrix](../0054-spiral-matrix/)
-- [59. Spiral Matrix II](../0059-spiral-matrix-ii/)
+- [926. Flip String to Monotone Increasing](../0962-flip-string-to-monotone-increasing/)
+- [951. Flip Equivalent Binary Trees](../0988-flip-equivalent-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/random-flip-matrix/)

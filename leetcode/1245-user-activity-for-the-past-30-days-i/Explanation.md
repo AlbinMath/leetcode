@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3433. Count Mentions Per User](../3721-count-mentions-per-user/)
 - [957. Prison Cells After N Days](../0994-prison-cells-after-n-days/)
 - [1360. Number of Days Between Two Dates](../1274-number-of-days-between-two-dates/)
+- [1553. Minimum Number of Days to Eat N Oranges](../1676-minimum-number-of-days-to-eat-n-oranges/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/)

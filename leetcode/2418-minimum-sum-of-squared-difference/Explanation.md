@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
 - [530. Minimum Absolute Difference in BST](../0530-minimum-absolute-difference-in-bst/)
-- [539. Minimum Time Difference](../0539-minimum-time-difference/)
-- [1200. Minimum Absolute Difference](../1306-minimum-absolute-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-sum-of-squared-difference/)

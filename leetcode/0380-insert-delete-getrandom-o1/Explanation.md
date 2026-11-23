@@ -64,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [381. Insert Delete GetRandom O(1) - Duplicates allowed](../0381-insert-delete-getrandom-o1---duplicates-allowed/)
-- [35. Search Insert Position](../0035-search-insert-position/)
-- [57. Insert Interval](../0057-insert-interval/)
+- [196. Delete Duplicate Emails](../0196-delete-duplicate-emails/)
+- [237. Delete Node in a Linked List](../0237-delete-node-in-a-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1/)

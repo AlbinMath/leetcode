@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](../3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
 - [3298. Count Substrings That Can Be Rearranged to Contain a String II](../3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)
-- [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../1469-minimum-number-of-steps-to-make-two-strings-anagram/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/)

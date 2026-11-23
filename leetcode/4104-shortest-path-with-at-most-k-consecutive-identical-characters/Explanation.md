@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [4046. Minimum Cost Path With At Most K Turns](../4367-minimum-cost-path-with-at-most-k-turns/)
-- [847. Shortest Path Visiting All Nodes](../0877-shortest-path-visiting-all-nodes/)
-- [862. Shortest Subarray with Sum at Least K](../0892-shortest-subarray-with-sum-at-least-k/)
+- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+- [2106. Maximum Fruits Harvested After at Most K Steps](../2229-maximum-fruits-harvested-after-at-most-k-steps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/)

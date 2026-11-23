@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3755. Find Maximum Balanced XOR Subarray Length](../3946-find-maximum-balanced-xor-subarray-length/)
-- [53. Maximum Subarray](../0053-maximum-subarray/)
-- [152. Maximum Product Subarray](../0152-maximum-product-subarray/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)

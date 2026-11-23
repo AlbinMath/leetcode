@@ -22,9 +22,15 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 116 | [Populating Next Right Pointers in Each Node](../leetcode/0116-populating-next-right-pointers-in-each-node/) | Python | O(n) | O(n) | [Explanation](../leetcode/0116-populating-next-right-pointers-in-each-node/Explanation.md) |
+
+| 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/Explanation.md) |
+
 | 464 | [Can I Win](../leetcode/0464-can-i-win/) | Python | O(n) | O(n) | [Explanation](../leetcode/0464-can-i-win/Explanation.md) |
 
 | 503 | [Next Greater Element II](../leetcode/0503-next-greater-element-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0503-next-greater-element-ii/Explanation.md) |
+
+| 556 | [Next Greater Element III](../leetcode/0556-next-greater-element-iii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0556-next-greater-element-iii/Explanation.md) |
 
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | JavaScript, TypeScript | O(n) | O(n) | [Explanation](../leetcode/0739-daily-temperatures/Explanation.md) |
 
@@ -33,6 +39,8 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 | 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1159-smallest-subsequence-of-distinct-characters/Explanation.md) |
 
 | 1237 | [Find Positive Integer Solution for a Given Equation](../leetcode/1358-find-positive-integer-solution-for-a-given-equation/) | Python | O(n) | O(n) | [Explanation](../leetcode/1358-find-positive-integer-solution-for-a-given-equation/Explanation.md) |
+
+| 2048 | [Next Greater Numerically Balanced Number](../leetcode/2174-next-greater-numerically-balanced-number/) | Python | O(n) | O(n) | [Explanation](../leetcode/2174-next-greater-numerically-balanced-number/Explanation.md) |
 
 | 3499 | [Maximize Active Section with Trade I](../leetcode/3805-maximize-active-section-with-trade-i/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3805-maximize-active-section-with-trade-i/Explanation.md) |
 
@@ -43,6 +51,8 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 84 | [Largest Rectangle in Histogram](../leetcode/0084-largest-rectangle-in-histogram/) | JavaScript, TypeScript | O(n) | O(n) | [Explanation](../leetcode/0084-largest-rectangle-in-histogram/Explanation.md) |
+
+| 2454 | [Next Greater Element IV](../leetcode/2549-next-greater-element-iv/) | Python | O(n) | O(n) | [Explanation](../leetcode/2549-next-greater-element-iv/Explanation.md) |
 
 | 3250 | [Find the Count of Monotonic Pairs I](../leetcode/3535-find-the-count-of-monotonic-pairs-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3535-find-the-count-of-monotonic-pairs-i/Explanation.md) |
 

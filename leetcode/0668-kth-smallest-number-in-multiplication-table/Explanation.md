@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](../1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
 - [2343. Query Kth Smallest Trimmed Number](../2422-query-kth-smallest-trimmed-number/)
-- [537. Complex Number Multiplication](../0537-complex-number-multiplication/)
+- [230. Kth Smallest Element in a BST](../0230-kth-smallest-element-in-a-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)

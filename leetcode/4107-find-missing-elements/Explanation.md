@@ -1,7 +1,7 @@
 # LeetCode 3731: Find Missing Elements
 
 **LeetCode Problem #3731 — Find Missing Elements**
-Solve LeetCode Find Missing Elements using PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find Missing Elements using PHP and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,41 @@ Solve LeetCode Find Missing Elements using PHP and Array / General. This solutio
 | LeetCode | #3731 |
 | Difficulty | Easy |
 | Language | PHP |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 You are given an integer array  nums  consisting of  unique  integers.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Missing Elements**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Find Missing Elements**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 PHP
@@ -50,7 +53,7 @@ PHP
 - [solution.php](./solution.php)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +65,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2028. Find Missing Observations](../2155-find-missing-observations/)
+- [3471. Find the Largest Almost Missing Integer](../3705-find-the-largest-almost-missing-integer/)
 - [658. Find K Closest Elements](../0658-find-k-closest-elements/)
-- [1261. Find Elements in a Contaminated Binary Tree](../1387-find-elements-in-a-contaminated-binary-tree/)
-- [2593. Find Score of an Array After Marking All Elements](../2695-find-score-of-an-array-after-marking-all-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-missing-elements/)

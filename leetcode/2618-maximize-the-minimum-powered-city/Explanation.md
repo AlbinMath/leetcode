@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2934. Minimum Operations to Maximize Last Elements in Arrays](../3190-minimum-operations-to-maximize-last-elements-in-arrays/)
-- [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
-- [1659. Maximize Grid Happiness](../1778-maximize-grid-happiness/)
+- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [76. Minimum Window Substring](../0076-minimum-window-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-minimum-powered-city/)

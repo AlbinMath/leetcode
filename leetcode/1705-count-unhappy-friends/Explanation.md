@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
-- [1311. Get Watched Videos by Your Friends](../1436-get-watched-videos-by-your-friends/)
 - [38. Count and Say](../0038-count-and-say/)
+- [204. Count Primes](../0204-count-primes/)
+- [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-unhappy-friends/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1963. Minimum Number of Swaps to Make the String Balanced](../2095-minimum-number-of-swaps-to-make-the-string-balanced/)
-- [1647. Minimum Deletions to Make Character Frequencies Unique](../1770-minimum-deletions-to-make-character-frequencies-unique/)
-- [2216. Minimum Deletions to Make Array Beautiful](../1355-minimum-deletions-to-make-array-beautiful/)
+- [3746. Minimum String Length After Balanced Removals](../4090-minimum-string-length-after-balanced-removals/)
+- [1312. Minimum Insertion Steps to Make a String Palindrome](../1437-minimum-insertion-steps-to-make-a-string-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)

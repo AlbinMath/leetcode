@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3076. Shortest Uncommon Substring in an Array](../3356-shortest-uncommon-substring-in-an-array/)
 - [3407. Substring Matching Pattern](../3684-substring-matching-pattern/)
-- [214. Shortest Palindrome](../0214-shortest-palindrome/)
+- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-matching-substring/)

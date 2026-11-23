@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2732. Find a Good Subset of the Matrix](../2826-find-a-good-subset-of-the-matrix/)
-- [3272. Find the Count of Good Integers](../3548-find-the-count-of-good-integers/)
 - [438. Find All Anagrams in a String](../0438-find-all-anagrams-in-a-string/)
+- [448. Find All Numbers Disappeared in an Array](../0448-find-all-numbers-disappeared-in-an-array/)
+- [1723. Find Minimum Time to Finish All Jobs](../1825-find-minimum-time-to-finish-all-jobs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-good-strings/)

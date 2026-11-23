@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [167. Two Sum II - Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
+- [1130. Minimum Cost Tree From Leaf Values](../1228-minimum-cost-tree-from-leaf-values/)
+- [2859. Sum of Values at Indices With K Set Bits](../3093-sum-of-values-at-indices-with-k-set-bits/)
+- [3068. Find the Maximum Sum of Node Values](../3307-find-the-maximum-sum-of-node-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/)

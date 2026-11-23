@@ -1,7 +1,7 @@
 # LeetCode 1609: Even Odd Tree
 
 **LeetCode Problem #1609 — Even Odd Tree**
-Solve LeetCode Even Odd Tree using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Even Odd Tree using Python and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,39 @@ Solve LeetCode Even Odd Tree using Python and Tree & Graph. This solution finds 
 | LeetCode | #1609 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Pointer Traversal & Node Manipulation |
+| Data Structure | Linked List |
+| Pattern | Linked List |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 A binary tree is named  Even-Odd  if it meets the following conditions:
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
+1. Initialize state variables / data structure (**Linked List**).
+2. Process elements sequentially using **Pointer Traversal & Node Manipulation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Even Odd Tree**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Even Odd Tree**. Applying **Pointer Traversal & Node Manipulation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Tree & Graph**
+**Linked List**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Linked List
+- Two Pointers
 
 ## Language
 Python
@@ -53,7 +51,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

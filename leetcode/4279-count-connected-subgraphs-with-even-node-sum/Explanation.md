@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2180. Count Integers With Even Digit Sum](../2298-count-integers-with-even-digit-sum/)
-- [3378. Count Connected Components in LCM Graph](../3680-count-connected-components-in-lcm-graph/)
 - [327. Count of Range Sum](../0327-count-of-range-sum/)
+- [1925. Count Square Sum Triples](../2037-count-square-sum-triples/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-connected-subgraphs-with-even-node-sum/)

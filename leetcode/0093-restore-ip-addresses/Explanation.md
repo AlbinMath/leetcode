@@ -64,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3451. Find Invalid IP Addresses](../3792-find-invalid-ip-addresses/)
-- [468. Validate IP Address](../0468-validate-ip-address/)
-- [1108. Defanging an IP Address](../1205-defanging-an-ip-address/)
+- [1416. Restore The Array](../1517-restore-the-array/)
+- [929. Unique Email Addresses](../0965-unique-email-addresses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/restore-ip-addresses/)

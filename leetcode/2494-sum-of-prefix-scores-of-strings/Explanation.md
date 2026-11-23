@@ -65,7 +65,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [2223. Sum of Scores of Built Strings](../2326-sum-of-scores-of-built-strings/)
 - [712. Minimum ASCII Delete Sum for Two Strings](../0712-minimum-ascii-delete-sum-for-two-strings/)
-- [3485. Longest Common Prefix of K Strings After Removal](../3784-longest-common-prefix-of-k-strings-after-removal/)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)

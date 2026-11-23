@@ -10,7 +10,9 @@ A curated selection of LeetCode problems solved using the **Prefix Sum Precomput
 | 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Easy | Prefix Sum | O(n) | O(n) |
 | 744 | [Find Smallest Letter Greater Than Target](../leetcode/0745-find-smallest-letter-greater-than-target/) | Easy | Prefix Sum | O(n) | O(n) |
 | 745 | [Prefix and Suffix Search](../leetcode/0746-prefix-and-suffix-search/) | Hard | Prefix Sum | O(n) | O(n) |
+| 1015 | [Smallest Integer Divisible by K](../leetcode/1064-smallest-integer-divisible-by-k/) | Medium | Prefix Sum | O(n) | O(n) |
 | 1018 | [Binary Prefix Divisible By 5](../leetcode/1071-binary-prefix-divisible-by-5/) | Easy | Prefix Sum | O(n) | O(n) |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | Prefix Sum | O(n) | O(n) |
 | 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | Medium | Prefix Sum | O(n) | O(n) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | Easy | Prefix Sum | O(n) | O(n) |
 | 1392 | [Longest Happy Prefix](../leetcode/1508-longest-happy-prefix/) | Hard | Prefix Sum | O(n) | O(n) |
@@ -21,6 +23,7 @@ A curated selection of LeetCode problems solved using the **Prefix Sum Precomput
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Hard | Prefix Sum | O(n) | O(n) |
 | 1961 | [Check If String Is a Prefix of Array](../leetcode/2093-check-if-string-is-a-prefix-of-array/) | Easy | Prefix Sum | O(n) | O(n) |
 | 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Easy | Prefix Sum | O(n) | O(n) |
+| 2003 | [Smallest Missing Genetic Value in Each Subtree](../leetcode/2131-smallest-missing-genetic-value-in-each-subtree/) | Hard | Prefix Sum | O(n) | O(n) |
 | 2416 | [Sum of Prefix Scores of Strings](../leetcode/2494-sum-of-prefix-scores-of-strings/) | Hard | Prefix Sum | O(n) | O(n) |
 | 2424 | [Longest Uploaded Prefix](../leetcode/2512-longest-uploaded-prefix/) | Medium | Prefix Sum | O(n) | O(n) |
 | 2433 | [Find The Original Array of Prefix Xor](../leetcode/2519-find-the-original-array-of-prefix-xor/) | Medium | Prefix Sum | O(n) | O(n) |

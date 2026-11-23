@@ -31,7 +31,7 @@ A collection of LeetCode problems implemented in **Java** with detailed complexi
 | 2812 | [Find the Safest Path in a Grid](../leetcode/2914-find-the-safest-path-in-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3020 | [Find the Maximum Number of Elements in Subset](../leetcode/3299-find-the-maximum-number-of-elements-in-subset/) | Medium | Array / General | O(n) | O(1) |
 | 3116 | [Kth Smallest Amount With Single Denomination Combination](../leetcode/3375-kth-smallest-amount-with-single-denomination-combination/) | Hard | Backtracking | O(n) | O(1) |
-| 3286 | [Find a Safe Walk Through a Grid](../leetcode/3558-find-a-safe-walk-through-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |
+| 3286 | [Find a Safe Walk Through a Grid](../leetcode/3558-find-a-safe-walk-through-a-grid/) | Medium | Hash Map | O(n) | O(n) |
 | 3532 | [Path Existence Queries in a Graph I](../leetcode/3838-path-existence-queries-in-a-graph-i/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3558 | [Number of Ways to Assign Edge Weights I](../leetcode/3844-number-of-ways-to-assign-edge-weights-i/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3612 | [Process String with Special Operations I](../leetcode/3931-process-string-with-special-operations-i/) | Medium | Tree & Graph | O(n) | O(n) |

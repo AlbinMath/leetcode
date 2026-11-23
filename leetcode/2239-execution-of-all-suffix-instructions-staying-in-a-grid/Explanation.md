@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
-- [432. All O`one Data Structure](../0432-all-oone-data-structure/)
-- [438. Find All Anagrams in a String](../0438-find-all-anagrams-in-a-string/)
+- [1643. Kth Smallest Instructions](../0489-kth-smallest-instructions/)
+- [1649. Create Sorted Array through Instructions](../1772-create-sorted-array-through-instructions/)
+- [3522. Calculate Score After Performing Instructions](../3732-calculate-score-after-performing-instructions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)

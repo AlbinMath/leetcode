@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
 - [3551. Minimum Swaps to Sort by Digit Sum](../3847-minimum-swaps-to-sort-by-digit-sum/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [985. Sum of Even Numbers After Queries](../1027-sum-of-even-numbers-after-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)

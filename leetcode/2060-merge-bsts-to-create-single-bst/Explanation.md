@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [136. Single Number](../0136-single-number/)
-- [137. Single Number II](../0137-single-number-ii/)
-- [260. Single Number III](../0260-single-number-iii/)
+- [230. Kth Smallest Element in a BST](../0230-kth-smallest-element-in-a-bst/)
+- [449. Serialize and Deserialize BST](../0449-serialize-and-deserialize-bst/)
+- [450. Delete Node in a BST](../0450-delete-node-in-a-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-bsts-to-create-single-bst/)

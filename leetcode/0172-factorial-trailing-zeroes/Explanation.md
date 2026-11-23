@@ -1,7 +1,7 @@
 # LeetCode 172: Factorial Trailing Zeroes
 
 **LeetCode Problem #172 — Factorial Trailing Zeroes**
-Solve LeetCode Factorial Trailing Zeroes using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Factorial Trailing Zeroes using JavaScript, Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Factorial Trailing Zeroes using JavaScript, Python and Array / Ge
 | LeetCode | #172 |
 | Difficulty | Medium |
 | Language | JavaScript, Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Factorial Trailing Zeroes using JavaScript, Python and Array / Ge
 Given an integer  n , return  the number of trailing zeroes in   n! .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Factorial Trailing Zeroes**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Factorial Trailing Zeroes**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 JavaScript, Python
@@ -51,7 +52,7 @@ JavaScript, Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -63,9 +64,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1006. Clumsy Factorial](../1048-clumsy-factorial/)
-- [2980. Check if Bitwise OR Has Trailing Zeros](../3246-check-if-bitwise-or-has-trailing-zeros/)
 - [73. Set Matrix Zeroes](../0073-set-matrix-zeroes/)
+- [283. Move Zeroes](../0283-move-zeroes/)
+- [474. Ones and Zeroes](../0474-ones-and-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/factorial-trailing-zeroes/)

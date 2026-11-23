@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1178. Number of Valid Words for Each Puzzle](../1282-number-of-valid-words-for-each-puzzle/)
-- [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
-- [1769. Minimum Number of Operations to Move All Balls to Each Box](../1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
+- [241. Different Ways to Add Parentheses](../0241-different-ways-to-add-parentheses/)
+- [1805. Number of Different Integers in a String](../1933-number-of-different-integers-in-a-string/)
+- [1819. Number of Different Subsequences GCDs](../1947-number-of-different-subsequences-gcds/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)

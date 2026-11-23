@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3179. Find the N-th Value After K Seconds](../3422-find-the-n-th-value-after-k-seconds/)
-- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
-- [1779. Find Nearest Point That Has the Same X or Y Coordinate](../1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/)
+- [1377. Frog Position After T Seconds](../1493-frog-position-after-t-seconds/)
+- [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/)

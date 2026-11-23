@@ -1,7 +1,7 @@
 # LeetCode 975: Odd Even Jump
 
 **LeetCode Problem #975 — Odd Even Jump**
-Solve LeetCode Odd Even Jump using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Odd Even Jump using Python and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Odd Even Jump using Python and Array / General. This solution fin
 | LeetCode | #975 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Pointer Traversal & Node Manipulation |
+| Data Structure | Linked List |
+| Pattern | Linked List |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Odd Even Jump using Python and Array / General. This solution fin
 You are given an integer array  arr . From some starting index, you can make a series of jumps. The (1 st , 3 rd , 5 th , ...) jumps in the series are called  odd-numbered jumps , and the (2 nd , 4 th , 6 th , ...) jumps in the series are called  even-numbered jumps . Note that the  jumps  are numbered, not the indices.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Linked List**).
+2. Process elements sequentially using **Pointer Traversal & Node Manipulation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Odd Even Jump**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Odd Even Jump**. Applying **Pointer Traversal & Node Manipulation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Linked List**
 
 ## Topics
-- Array
+- Linked List
+- Two Pointers
 
 ## Language
 Python
@@ -50,7 +51,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

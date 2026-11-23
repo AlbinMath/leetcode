@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3420. Count Non-Decreasing Subarrays After K Operations](../3674-count-non-decreasing-subarrays-after-k-operations/)
 - [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
-- [2135. Count Words Obtained After Adding a Letter](../2256-count-words-obtained-after-adding-a-letter/)
+- [1625. Lexicographically Smallest String After Applying Operations](../1747-lexicographically-smallest-string-after-applying-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-tested-devices-after-test-operations/)

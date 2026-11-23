@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [448. Find All Numbers Disappeared in an Array](../0448-find-all-numbers-disappeared-in-an-array/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 - [1619. Mean of Array After Removing Some Elements](../1210-mean-of-array-after-removing-some-elements/)
+- [2089. Find Target Indices After Sorting Array](../2210-find-target-indices-after-sorting-array/)
+- [3041. Maximize Consecutive Elements in an Array After Modification](../3298-maximize-consecutive-elements-in-an-array-after-modification/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)

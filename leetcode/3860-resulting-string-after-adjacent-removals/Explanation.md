@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3746. Minimum String Length After Balanced Removals](../4090-minimum-string-length-after-balanced-removals/)
-- [777. Swap Adjacent in LR String](../0793-swap-adjacent-in-lr-string/)
-- [1047. Remove All Adjacent Duplicates In String](../1128-remove-all-adjacent-duplicates-in-string/)
+- [1422. Maximum Score After Splitting a String](../1537-maximum-score-after-splitting-a-string/)
+- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/resulting-string-after-adjacent-removals/)

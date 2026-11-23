@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2605. Form Smallest Number From Two Digit Arrays](../2668-form-smallest-number-from-two-digit-arrays/)
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [1771. Maximize Palindrome Length From Subsequences](../1897-maximize-palindrome-length-from-subsequences/)
+- [1808. Maximize Number of Nice Divisors](../1936-maximize-number-of-nice-divisors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)

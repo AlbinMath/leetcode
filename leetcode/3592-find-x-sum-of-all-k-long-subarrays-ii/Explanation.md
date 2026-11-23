@@ -1,7 +1,7 @@
 # LeetCode 3321: Find X-Sum of All K-Long Subarrays II
 
 **LeetCode Problem #3321 — Find X-Sum of All K-Long Subarrays II**
-Solve LeetCode Find X-Sum of All K-Long Subarrays II using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find X-Sum of All K-Long Subarrays II using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Find X-Sum of All K-Long Subarrays II using Python and Array / Ge
 | LeetCode | #3321 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Find X-Sum of All K-Long Subarrays II using Python and Array / Ge
 You are given an array  nums  of  n  integers and two integers  k  and  x .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find X-Sum of All K-Long Subarrays II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Find X-Sum of All K-Long Subarrays II**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 Python
@@ -50,7 +51,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -64,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3318. Find X-Sum of All K-Long Subarrays I](../3610-find-x-sum-of-all-k-long-subarrays-i/)
 - [1588. Sum of All Odd Length Subarrays](../1693-sum-of-all-odd-length-subarrays/)
-- [1835. Find XOR Sum of All Pairs Bitwise AND](../1963-find-xor-sum-of-all-pairs-bitwise-and/)
+- [2461. Maximum Sum of Distinct Subarrays With Length K](../2552-maximum-sum-of-distinct-subarrays-with-length-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/)

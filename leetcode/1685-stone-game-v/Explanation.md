@@ -75,7 +75,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [877. Stone Game](../0909-stone-game/)
 - [1140. Stone Game II](../1240-stone-game-ii/)
-- [1340. Jump Game V](../1466-jump-game-v/)
+- [1406. Stone Game III](../1522-stone-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stone-game-v/)

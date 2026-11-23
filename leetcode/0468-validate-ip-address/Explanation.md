@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1108. Defanging an IP Address](../1205-defanging-an-ip-address/)
-- [93. Restore IP Addresses](../0093-restore-ip-addresses/)
-- [3451. Find Invalid IP Addresses](../3792-find-invalid-ip-addresses/)
+- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
+- [946. Validate Stack Sequences](../0983-validate-stack-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/validate-ip-address/)

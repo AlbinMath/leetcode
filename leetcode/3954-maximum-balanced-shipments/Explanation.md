@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2926. Maximum Balanced Subsequence Sum](../3184-maximum-balanced-subsequence-sum/)
 - [3755. Find Maximum Balanced XOR Subarray Length](../3946-find-maximum-balanced-xor-subarray-length/)
-- [53. Maximum Subarray](../0053-maximum-subarray/)
+- [110. Balanced Binary Tree](../0110-balanced-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-balanced-shipments/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [657. Robot Return to Origin](../0657-robot-return-to-origin/)
-- [874. Walking Robot Simulation](../0906-walking-robot-simulation/)
-- [1041. Robot Bounded In Circle](../1119-robot-bounded-in-circle/)
+- [38. Count and Say](../0038-count-and-say/)
+- [204. Count Primes](../0204-count-primes/)
+- [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-robot-groups/)

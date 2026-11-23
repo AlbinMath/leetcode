@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2883. Drop Missing Data](../3075-drop-missing-data/)
-- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
-- [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
+- [733. Flood Fill](../0733-flood-fill/)
+- [3537. Fill a Special Grid](../3822-fill-a-special-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fill-missing-data/)

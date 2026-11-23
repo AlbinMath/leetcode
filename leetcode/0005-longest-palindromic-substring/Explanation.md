@@ -71,9 +71,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [516. Longest Palindromic Subsequence](../0516-longest-palindromic-subsequence/)
-- [3615. Longest Palindromic Path in Graph](../3930-longest-palindromic-path-in-graph/)
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [395. Longest Substring with At Least K Repeating Characters](../0395-longest-substring-with-at-least-k-repeating-characters/)
+- [1044. Longest Duplicate Substring](../1122-longest-duplicate-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindromic-substring/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2492. Minimum Score of a Path Between Two Cities](../2582-minimum-score-of-a-path-between-two-cities/)
-- [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
-- [712. Minimum ASCII Delete Sum for Two Strings](../0712-minimum-ascii-delete-sum-for-two-strings/)
+- [2322. Minimum Score After Removals on a Tree](../2400-minimum-score-after-removals-on-a-tree/)
+- [2593. Find Score of an Array After Marking All Elements](../2695-find-score-of-an-array-after-marking-all-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)

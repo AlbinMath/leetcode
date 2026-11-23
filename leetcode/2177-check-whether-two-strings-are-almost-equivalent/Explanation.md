@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1662. Check If Two String Arrays are Equivalent](../1781-check-if-two-string-arrays-are-equivalent/)
-- [1657. Determine if Two Strings Are Close](../1777-determine-if-two-strings-are-close/)
 - [3327. Check if DFS Strings Are Palindromes](../3603-check-if-dfs-strings-are-palindromes/)
+- [1657. Determine if Two Strings Are Close](../1777-determine-if-two-strings-are-close/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)

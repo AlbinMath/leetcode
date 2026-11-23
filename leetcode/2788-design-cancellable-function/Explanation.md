@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
-- [355. Design Twitter](../0355-design-twitter/)
-- [622. Design Circular Queue](../0860-design-circular-queue/)
+- [396. Rotate Function](../0396-rotate-function/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../1645-find-a-value-of-a-mysterious-function-closest-to-target/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../1662-minimum-numbers-of-function-calls-to-make-target-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-cancellable-function/)

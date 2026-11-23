@@ -22,11 +22,7 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 976 | [Largest Perimeter Triangle](../leetcode/1018-largest-perimeter-triangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/1018-largest-perimeter-triangle/Explanation.md) |
 
-| 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Python | O(n) | O(1) | [Explanation](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/Explanation.md) |
-
 | 1295 | [Find Numbers with Even Number of Digits](../leetcode/1421-find-numbers-with-even-number-of-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/1421-find-numbers-with-even-number-of-digits/Explanation.md) |
-
-| 1725 | [Number Of Rectangles That Can Form The Largest Square](../leetcode/1843-number-of-rectangles-that-can-form-the-largest-square/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1843-number-of-rectangles-that-can-form-the-largest-square/Explanation.md) |
 
 | 1736 | [Latest Time by Replacing Hidden Digits](../leetcode/1858-latest-time-by-replacing-hidden-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1858-latest-time-by-replacing-hidden-digits/Explanation.md) |
 
@@ -49,8 +45,6 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 | 2605 | [Form Smallest Number From Two Digit Arrays](../leetcode/2668-form-smallest-number-from-two-digit-arrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/2668-form-smallest-number-from-two-digit-arrays/Explanation.md) |
 
 | 3174 | [Clear Digits](../leetcode/3447-clear-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/3447-clear-digits/Explanation.md) |
-
-| 3200 | [Maximum Height of a Triangle](../leetcode/3469-maximum-height-of-a-triangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/3469-maximum-height-of-a-triangle/Explanation.md) |
 
 | 3300 | [Minimum Element After Replacement With Digit Sum](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/Explanation.md) |
 
@@ -113,10 +107,6 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 | 2637 | [Promise Time Limit](../leetcode/2749-promise-time-limit/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2749-promise-time-limit/Explanation.md) |
 
 | 3047 | [Find the Largest Area of Square Inside Two Rectangles](../leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles/) | Python | O(n) | O(1) | [Explanation](../leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles/Explanation.md) |
-
-| 3128 | [Right Triangles](../leetcode/3388-right-triangles/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3388-right-triangles/Explanation.md) |
-
-| 3377 | [Digit Operations to Make Two Integers Equal](../leetcode/3655-digit-operations-to-make-two-integers-equal/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3655-digit-operations-to-make-two-integers-equal/Explanation.md) |
 
 | 3380 | [Maximum Area Rectangle With Point Constraints I](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/Explanation.md) |
 

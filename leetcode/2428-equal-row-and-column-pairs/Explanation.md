@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [947. Most Stones Removed with Same Row or Column](../0984-most-stones-removed-with-same-row-or-column/)
-- [2482. Difference Between Ones and Zeros in Row and Column](../2606-difference-between-ones-and-zeros-in-row-and-column/)
 - [2206. Divide Array Into Equal Pairs](../2308-divide-array-into-equal-pairs/)
+- [3265. Count Almost Equal Pairs I](../3534-count-almost-equal-pairs-i/)
+- [3267. Count Almost Equal Pairs II](../3544-count-almost-equal-pairs-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/equal-row-and-column-pairs/)

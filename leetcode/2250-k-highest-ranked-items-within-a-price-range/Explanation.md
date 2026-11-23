@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1984. Minimum Difference Between Highest and Lowest of K Scores](../2112-minimum-difference-between-highest-and-lowest-of-k-scores/)
 - [787. Cheapest Flights Within K Stops](../0803-cheapest-flights-within-k-stops/)
 - [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../3717-minimum-operations-to-make-elements-within-k-subarrays-equal/)
-- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)

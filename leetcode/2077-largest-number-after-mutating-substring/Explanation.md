@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1297. Maximum Number of Occurrences of a Substring](../1423-maximum-number-of-occurrences-of-a-substring/)
-- [1456. Maximum Number of Vowels in a Substring of Given Length](../1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
-- [1624. Largest Substring Between Two Equal Characters](../1746-largest-substring-between-two-equal-characters/)
+- [2119. A Number After a Double Reversal](../2238-a-number-after-a-double-reversal/)
+- [2400. Number of Ways to Reach a Position After Exactly k Steps](../2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
+- [3003. Maximize the Number of Partitions After Operations](../3233-maximize-the-number-of-partitions-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-number-after-mutating-substring/)

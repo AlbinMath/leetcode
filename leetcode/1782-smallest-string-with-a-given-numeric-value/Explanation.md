@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [828. Count Unique Characters of All Substrings of a Given String](../0855-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1325. Delete Leaves With a Given Value](../1450-delete-leaves-with-a-given-value/)
-- [1639. Number of Ways to Form a Target String Given a Dictionary](../1744-number-of-ways-to-form-a-target-string-given-a-dictionary/)
+- [988. Smallest String Starting From Leaf](../1030-smallest-string-starting-from-leaf/)
+- [1061. Lexicographically Smallest Equivalent String](../1058-lexicographically-smallest-equivalent-string/)
+- [1202. Smallest String With Swaps](../1308-smallest-string-with-swaps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)

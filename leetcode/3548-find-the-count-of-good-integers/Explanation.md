@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2177. Find Three Consecutive Integers That Sum to a Given Number](../2278-find-three-consecutive-integers-that-sum-to-a-given-number/)
-- [2180. Count Integers With Even Digit Sum](../2298-count-integers-with-even-digit-sum/)
-- [2276. Count Integers in Intervals](../2357-count-integers-in-intervals/)
+- [1448. Count Good Nodes in Binary Tree](../1544-count-good-nodes-in-binary-tree/)
+- [1534. Count Good Triplets](../1656-count-good-triplets/)
+- [1729. Find Followers Count](../1877-find-followers-count/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-count-of-good-integers/)

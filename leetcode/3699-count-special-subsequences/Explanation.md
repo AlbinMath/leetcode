@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [730. Count Different Palindromic Subsequences](../0730-count-different-palindromic-subsequences/)
-- [2842. Count K-Subsequences of a String With Maximum Beauty](../3057-count-k-subsequences-of-a-string-with-maximum-beauty/)
 - [1995. Count Special Quadruplets](../2122-count-special-quadruplets/)
+- [2842. Count K-Subsequences of a String With Maximum Beauty](../3057-count-k-subsequences-of-a-string-with-maximum-beauty/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-special-subsequences/)

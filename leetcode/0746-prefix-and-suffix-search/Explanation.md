@@ -65,7 +65,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [3042. Count Prefix and Suffix Pairs I](../3309-count-prefix-and-suffix-pairs-i/)
 - [3045. Count Prefix and Suffix Pairs II](../3305-count-prefix-and-suffix-pairs-ii/)
-- [14. Longest Common Prefix](../0014-longest-common-prefix/)
+- [1529. Minimum Suffix Flips](../1652-minimum-suffix-flips/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prefix-and-suffix-search/)

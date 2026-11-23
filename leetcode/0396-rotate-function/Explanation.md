@@ -69,9 +69,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [48. Rotate Image](../0048-rotate-image/)
-- [61. Rotate List](../0061-rotate-list/)
-- [189. Rotate Array](../0189-rotate-array/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../1645-find-a-value-of-a-mysterious-function-closest-to-target/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../1662-minimum-numbers-of-function-calls-to-make-target-array/)
+- [2629. Function Composition](../2741-function-composition/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-function/)

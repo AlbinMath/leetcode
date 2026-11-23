@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1888. Minimum Number of Flips to Make the Binary String Alternating](../2017-minimum-number-of-flips-to-make-the-binary-string-alternating/)
 - [1758. Minimum Changes To Make Alternating Binary String](../1884-minimum-changes-to-make-alternating-binary-string/)
-- [1963. Minimum Number of Swaps to Make the String Balanced](../2095-minimum-number-of-swaps-to-make-the-string-balanced/)
+- [2914. Minimum Number of Changes to Make Binary String Beautiful](../3174-minimum-number-of-changes-to-make-binary-string-beautiful/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)

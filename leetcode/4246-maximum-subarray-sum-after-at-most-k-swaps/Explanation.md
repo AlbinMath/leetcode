@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2106. Maximum Fruits Harvested After at Most K Steps](../2229-maximum-fruits-harvested-after-at-most-k-steps/)
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
+- [2106. Maximum Fruits Harvested After at Most K Steps](../2229-maximum-fruits-harvested-after-at-most-k-steps/)
+- [2958. Length of Longest Subarray With at Most K Frequency](../3225-length-of-longest-subarray-with-at-most-k-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subarray-sum-after-at-most-k-swaps/)

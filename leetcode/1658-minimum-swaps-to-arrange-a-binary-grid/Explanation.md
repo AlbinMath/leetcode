@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1864. Minimum Number of Swaps to Make the Binary String Alternating](../1994-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [2577. Minimum Time to Visit a Cell In a Grid](../2711-minimum-time-to-visit-a-cell-in-a-grid/)
+- [111. Minimum Depth of Binary Tree](../0111-minimum-depth-of-binary-tree/)
+- [671. Second Minimum Node In a Binary Tree](../0671-second-minimum-node-in-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/)

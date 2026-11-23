@@ -34,8 +34,6 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 
 | 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3870-minimum-moves-to-clean-the-classroom/Explanation.md) |
 
-| 3679 | [ Minimum Discards to Balance Inventory](../leetcode/3953--minimum-discards-to-balance-inventory/) | Python | O(n) | O(1) | [Explanation](../leetcode/3953--minimum-discards-to-balance-inventory/Explanation.md) |
-
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
@@ -49,4 +47,6 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 | 480 | [Sliding Window Median](../leetcode/0480-sliding-window-median/) | Python | O(n) | O(1) | [Explanation](../leetcode/0480-sliding-window-median/Explanation.md) |
 
 | 773 | [Sliding Puzzle](../leetcode/0787-sliding-puzzle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0787-sliding-puzzle/Explanation.md) |
+
+| 1681 | [Minimum Incompatibility](../leetcode/1799-minimum-incompatibility/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1799-minimum-incompatibility/Explanation.md) |
 

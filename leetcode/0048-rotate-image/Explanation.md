@@ -69,9 +69,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [61. Rotate List](../0061-rotate-list/)
-- [189. Rotate Array](../0189-rotate-array/)
-- [396. Rotate Function](../0396-rotate-function/)
+- [661. Image Smoother](../0661-image-smoother/)
+- [832. Flipping an Image](../0861-flipping-an-image/)
+- [835. Image Overlap](../0864-image-overlap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-image/)

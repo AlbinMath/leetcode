@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2127. Maximum Employees to Be Invited to a Meeting](../2246-maximum-employees-to-be-invited-to-a-meeting/)
 - [841. Keys and Rooms](../0871-keys-and-rooms/)
 - [1916. Count Ways to Build Rooms in an Ant Colony](../1313-count-ways-to-build-rooms-in-an-ant-colony/)
-- [2127. Maximum Employees to Be Invited to a Meeting](../2246-maximum-employees-to-be-invited-to-a-meeting/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/meeting-rooms-iii/)

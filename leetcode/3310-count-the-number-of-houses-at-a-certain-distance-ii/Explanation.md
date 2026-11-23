@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3015. Count the Number of Houses at a Certain Distance I](../3271-count-the-number-of-houses-at-a-certain-distance-i/)
-- [1248. Count Number of Nice Subarrays](../1370-count-number-of-nice-subarrays/)
-- [1395. Count Number of Teams](../1511-count-number-of-teams/)
+- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+- [1617. Count Subtrees With Max Distance Between Cities](../1740-count-subtrees-with-max-distance-between-cities/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii/)

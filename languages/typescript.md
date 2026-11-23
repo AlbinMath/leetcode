@@ -21,7 +21,7 @@ A collection of LeetCode problems implemented in **TypeScript** with detailed co
 | 1929 | [Concatenation of Array](../leetcode/2058-concatenation-of-array/) | Easy | Array / General | O(n) | O(1) |
 | 2623 | [Memoize](../leetcode/2731-memoize/) | Medium | Array / General | O(n) | O(1) |
 | 2624 | [Snail Traversal](../leetcode/2760-snail-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
-| 2625 | [Flatten Deeply Nested Array](../leetcode/2759-flatten-deeply-nested-array/) | Medium | Array / General | O(n) | O(1) |
+| 2625 | [Flatten Deeply Nested Array](../leetcode/2759-flatten-deeply-nested-array/) | Medium | Linked List | O(n) | O(1) |
 | 2626 | [Array Reduce Transformation](../leetcode/2761-array-reduce-transformation/) | Easy | Array / General | O(n) | O(1) |
 | 2627 | [Debounce](../leetcode/2743-debounce/) | Medium | Sliding Window | O(n) | O(1) |
 | 2629 | [Function Composition](../leetcode/2741-function-composition/) | Easy | Array / General | O(n) | O(1) |
@@ -38,7 +38,7 @@ A collection of LeetCode problems implemented in **TypeScript** with detailed co
 | 2667 | [Create Hello World Function](../leetcode/2809-create-hello-world-function/) | Easy | Tree & Graph | O(n) | O(n) |
 | 2677 | [Chunk Array](../leetcode/2798-chunk-array/) | Easy | Array / General | O(n) | O(1) |
 | 2693 | [Call Function with Custom Context](../leetcode/2790-call-function-with-custom-context/) | Medium | Array / General | O(n) | O(1) |
-| 2694 | [Event Emitter](../leetcode/2797-event-emitter/) | Medium | Array / General | O(n) | O(1) |
+| 2694 | [Event Emitter](../leetcode/2797-event-emitter/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2695 | [Array Wrapper](../leetcode/2805-array-wrapper/) | Easy | Array / General | O(n) | O(1) |
 | 2703 | [Return Length of Arguments Passed](../leetcode/2820-return-length-of-arguments-passed/) | Easy | Hash Map | O(n) | O(n) |
 | 2704 | [To Be Or Not To Be](../leetcode/2813-to-be-or-not-to-be/) | Easy | Array / General | O(n) | O(1) |

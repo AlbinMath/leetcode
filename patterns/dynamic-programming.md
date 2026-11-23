@@ -46,6 +46,8 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 
 | 792 | [Number of Matching Subsequences](../leetcode/0808-number-of-matching-subsequences/) | Python | O(n) | O(n) | [Explanation](../leetcode/0808-number-of-matching-subsequences/Explanation.md) |
 
+| 985 | [Sum of Even Numbers After Queries](../leetcode/1027-sum-of-even-numbers-after-queries/) | Python | O(n) | O(n) | [Explanation](../leetcode/1027-sum-of-even-numbers-after-queries/Explanation.md) |
+
 | 1033 | [Moving Stones Until Consecutive](../leetcode/1103-moving-stones-until-consecutive/) | Python | O(n) | O(n) | [Explanation](../leetcode/1103-moving-stones-until-consecutive/Explanation.md) |
 
 | 1040 | [Moving Stones Until Consecutive II](../leetcode/1113-moving-stones-until-consecutive-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/1113-moving-stones-until-consecutive-ii/Explanation.md) |
@@ -83,8 +85,6 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 3404 | [Count Special Subsequences](../leetcode/3699-count-special-subsequences/) | Python | O(n) | O(n) | [Explanation](../leetcode/3699-count-special-subsequences/Explanation.md) |
 
 | 3428 | [Maximum and Minimum Sums of at Most Size K Subsequences](../leetcode/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences/Explanation.md) |
-
-| 3508 | [Implement Router](../leetcode/3827-implement-router/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3827-implement-router/Explanation.md) |
 
 | 3627 | [Maximum Median Sum of Subsequences of Size 3](../leetcode/3766-maximum-median-sum-of-subsequences-of-size-3/) | Python | O(n) | O(n) | [Explanation](../leetcode/3766-maximum-median-sum-of-subsequences-of-size-3/Explanation.md) |
 

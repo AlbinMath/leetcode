@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1491. Average Salary Excluding the Minimum and Maximum Salary](../1584-average-salary-excluding-the-minimum-and-maximum-salary/)
-- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [2091. Removing Minimum and Maximum From Array](../2212-removing-minimum-and-maximum-from-array/)
+- [539. Minimum Time Difference](../0539-minimum-time-difference/)
+- [1266. Minimum Time Visiting All Points](../1395-minimum-time-visiting-all-points/)
+- [1443. Minimum Time to Collect All Apples in a Tree](../1554-minimum-time-to-collect-all-apples-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-possible-maximum-waiting-time/)

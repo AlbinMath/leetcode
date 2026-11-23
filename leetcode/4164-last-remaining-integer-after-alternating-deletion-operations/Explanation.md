@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [2571. Minimum Operations to Reduce an Integer to 0](../2710-minimum-operations-to-reduce-an-integer-to-0/)
-- [2749. Minimum Operations to Make the Integer Zero](../2837-minimum-operations-to-make-the-integer-zero/)
+- [1625. Lexicographically Smallest String After Applying Operations](../1747-lexicographically-smallest-string-after-applying-operations/)
+- [1722. Minimize Hamming Distance After Swap Operations](../1840-minimize-hamming-distance-after-swap-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/)

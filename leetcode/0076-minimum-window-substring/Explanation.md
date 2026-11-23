@@ -65,9 +65,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [239. Sliding Window Maximum](../0239-sliding-window-maximum/)
-- [480. Sliding Window Median](../0480-sliding-window-median/)
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [111. Minimum Depth of Binary Tree](../0111-minimum-depth-of-binary-tree/)
+- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-window-substring/)

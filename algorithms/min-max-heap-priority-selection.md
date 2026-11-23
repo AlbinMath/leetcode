@@ -15,8 +15,10 @@ A curated selection of LeetCode problems solved using the **Min/Max Heap Priorit
 | 436 | [Find Right Interval](../leetcode/0436-find-right-interval/) | Medium | Heap | O(n) | O(n) |
 | 787 | [Cheapest Flights Within K Stops](../leetcode/0803-cheapest-flights-within-k-stops/) | Medium | Heap | O(n) | O(n) |
 | 986 | [Interval List Intersections](../leetcode/1028-interval-list-intersections/) | Medium | Heap | O(n) | O(n) |
+| 1124 | [Longest Well-Performing Interval](../leetcode/1219-longest-well-performing-interval/) | Medium | Heap | O(n) | O(n) |
 | 1520 | [Maximum Number of Non-Overlapping Substrings](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | Hard | Heap | O(n) | O(n) |
 | 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1630-count-odd-numbers-in-an-interval-range/) | Easy | Heap | O(n) | O(n) |
 | 1851 | [Minimum Interval to Include Each Query](../leetcode/1977-minimum-interval-to-include-each-query/) | Hard | Heap | O(n) | O(n) |
+| 2276 | [Count Integers in Intervals](../leetcode/2357-count-integers-in-intervals/) | Hard | Heap | O(n) | O(n) |
 | 2725 | [Interval Cancellation](../leetcode/2862-interval-cancellation/) | Easy | Heap | O(n) | O(n) |
 | 3414 | [Maximum Score of Non-overlapping Intervals](../leetcode/3562-maximum-score-of-non-overlapping-intervals/) | Hard | Heap | O(n) | O(n) |

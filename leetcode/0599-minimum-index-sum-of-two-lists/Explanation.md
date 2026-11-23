@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [712. Minimum ASCII Delete Sum for Two Strings](../0712-minimum-ascii-delete-sum-for-two-strings/)
 - [1879. Minimum XOR Sum of Two Arrays](../1989-minimum-xor-sum-of-two-arrays/)
-- [1. Two Sum](../0001-two-sum/)
+- [3550. Smallest Index With Digit Sum Equal to Index](../3869-smallest-index-with-digit-sum-equal-to-index/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)

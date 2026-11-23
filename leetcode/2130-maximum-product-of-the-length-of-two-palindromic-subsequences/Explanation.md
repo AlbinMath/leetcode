@@ -66,7 +66,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [1960. Maximum Product of the Length of Two Palindromic Substrings](../1336-maximum-product-of-the-length-of-two-palindromic-substrings/)
 - [1930. Unique Length-3 Palindromic Subsequences](../2059-unique-length-3-palindromic-subsequences/)
-- [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
+- [3090. Maximum Length Substring With Two Occurrences](../3349-maximum-length-substring-with-two-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/)

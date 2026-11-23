@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../2162-partition-array-into-two-arrays-to-minimize-sum-difference/)
 - [653. Two Sum IV - Input is a BST](../0653-two-sum-iv---input-is-a-bst/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../2162-partition-array-into-two-arrays-to-minimize-sum-difference/)
+- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [747. Largest Number At Least Twice of Others](../0748-largest-number-at-least-twice-of-others/)
+- [282. Expression Add Operators](../0282-expression-add-operators/)
 - [395. Longest Substring with At Least K Repeating Characters](../0395-longest-substring-with-at-least-k-repeating-characters/)
-- [570. Managers with at Least 5 Direct Reports](../0570-managers-with-at-least-5-direct-reports/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/least-operators-to-express-number/)

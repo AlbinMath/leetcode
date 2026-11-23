@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../0027-remove-element/)
+- [848. Shifting Letters](../0878-shifting-letters/)
+- [917. Reverse Only Letters](../0953-reverse-only-letters/)
+- [1255. Maximum Score Words Formed by Letters](../1381-maximum-score-words-formed-by-letters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-duplicate-letters/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1568. Minimum Number of Days to Disconnect Island](../1691-minimum-number-of-days-to-disconnect-island/)
-- [1700. Number of Students Unable to Eat Lunch](../1802-number-of-students-unable-to-eat-lunch/)
-- [452. Minimum Number of Arrows to Burst Balloons](../0452-minimum-number-of-arrows-to-burst-balloons/)
+- [957. Prison Cells After N Days](../0994-prison-cells-after-n-days/)
+- [1137. N-th Tribonacci Number](../1236-n-th-tribonacci-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)

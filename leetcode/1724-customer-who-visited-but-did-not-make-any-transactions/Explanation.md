@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [620. Not Boring Movies](../0620-not-boring-movies/)
-- [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](../1562-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
-- [2704. To Be Or Not To Be](../2813-to-be-or-not-to-be/)
+- [1560. Most Visited Sector in  a Circular Track](../1682-most-visited-sector-in--a-circular-track/)
+- [2617. Minimum Number of Visited Cells in a Grid](../2697-minimum-number-of-visited-cells-in-a-grid/)
+- [2876. Count Visited Nodes in a Directed Graph](../3140-count-visited-nodes-in-a-directed-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)

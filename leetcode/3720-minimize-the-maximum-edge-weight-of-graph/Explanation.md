@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3547. Maximum Sum of Edge Values in a Graph](../3845-maximum-sum-of-edge-values-in-a-graph/)
-- [2065. Maximum Path Quality of a Graph](../2189-maximum-path-quality-of-a-graph/)
-- [2497. Maximum Star Sum of a Graph](../2590-maximum-star-sum-of-a-graph/)
+- [2846. Minimum Edge Weight Equilibrium Queries in a Tree](../3079-minimum-edge-weight-equilibrium-queries-in-a-tree/)
+- [2513. Minimize the Maximum of Two Arrays](../2628-minimize-the-maximum-of-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-maximum-edge-weight-of-graph/)

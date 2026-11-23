@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1047. Remove All Adjacent Duplicates In String](../1128-remove-all-adjacent-duplicates-in-string/)
-- [777. Swap Adjacent in LR String](../0793-swap-adjacent-in-lr-string/)
-- [3561. Resulting String After Adjacent Removals](../3860-resulting-string-after-adjacent-removals/)
+- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [80. Remove Duplicates from Sorted Array II](../0080-remove-duplicates-from-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)

@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1654. Minimum Jumps to Reach Home](../1757-minimum-jumps-to-reach-home/)
-- [2770. Maximum Number of Jumps to Reach the Last Index](../2855-maximum-number-of-jumps-to-reach-the-last-index/)
+- [3133. Minimum Array End](../3394-minimum-array-end/)
 - [1210. Minimum Moves to Reach Target with Rotations](../1322-minimum-moves-to-reach-target-with-rotations/)
 
 ## LeetCode

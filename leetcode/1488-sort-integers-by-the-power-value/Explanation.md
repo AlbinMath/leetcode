@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1356. Sort Integers by The Number of 1 Bits](../1458-sort-integers-by-the-number-of-1-bits/)
-- [75. Sort Colors](../0075-sort-colors/)
-- [147. Insertion Sort List](../0147-insertion-sort-list/)
+- [513. Find Bottom Left Tree Value](../0513-find-bottom-left-tree-value/)
+- [515. Find Largest Value in Each Tree Row](../0515-find-largest-value-in-each-tree-row/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-integers-by-the-power-value/)

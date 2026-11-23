@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [985. Sum of Even Numbers After Queries](../1027-sum-of-even-numbers-after-queries/)
-- [1295. Find Numbers with Even Number of Digits](../1421-find-numbers-with-even-number-of-digits/)
-- [2094. Finding 3-Digit Even Numbers](../2215-finding-3-digit-even-numbers/)
+- [421. Maximum XOR of Two Numbers in an Array](../0421-maximum-xor-of-two-numbers-in-an-array/)
+- [448. Find All Numbers Disappeared in an Array](../0448-find-all-numbers-disappeared-in-an-array/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../1662-minimum-numbers-of-function-calls-to-make-target-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/)

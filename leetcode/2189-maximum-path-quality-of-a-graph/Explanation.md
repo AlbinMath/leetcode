@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1620. Coordinate With Maximum Network Quality](../1726-coordinate-with-maximum-network-quality/)
-- [1971. Find if Path Exists in Graph](../2121-find-if-path-exists-in-graph/)
-- [2497. Maximum Star Sum of a Graph](../2590-maximum-star-sum-of-a-graph/)
+- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
+- [1219. Path with Maximum Gold](../1331-path-with-maximum-gold/)
+- [1514. Path with Maximum Probability](../1325-path-with-maximum-probability/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-path-quality-of-a-graph/)

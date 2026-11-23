@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2311. Longest Binary Subsequence Less Than or Equal to K](../2395-longest-binary-subsequence-less-than-or-equal-to-k/)
-- [2831. Find the Longest Equal Subarray](../2832-find-the-longest-equal-subarray/)
+- [713. Subarray Product Less Than K](../0713-subarray-product-less-than-k/)
 - [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 ## LeetCode

@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [327. Count of Range Sum](../0327-count-of-range-sum/)
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
-- [1835. Find XOR Sum of All Pairs Bitwise AND](../1963-find-xor-sum-of-all-pairs-bitwise-and/)
-- [3393. Count Paths With the Given XOR Value](../3659-count-paths-with-the-given-xor-value/)
+- [1523. Count Odd Numbers in an Interval Range](../1630-count-odd-numbers-in-an-interval-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)

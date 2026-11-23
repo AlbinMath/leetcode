@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [657. Robot Return to Origin](../0657-robot-return-to-origin/)
-- [874. Walking Robot Simulation](../0906-walking-robot-simulation/)
-- [2069. Walking Robot Simulation II](../2178-walking-robot-simulation-ii/)
+- [2902. Count of Sub-Multisets With Bounded Sum](../3091-count-of-sub-multisets-with-bounded-sum/)
+- [3845. Maximum Subarray XOR with Bounded Range](../4204-maximum-subarray-xor-with-bounded-range/)
+- [478. Generate Random Point in a Circle](../0915-generate-random-point-in-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/robot-bounded-in-circle/)

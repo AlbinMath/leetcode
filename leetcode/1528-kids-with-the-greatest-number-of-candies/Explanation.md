@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1071. Greatest Common Divisor of Strings](../1146-greatest-common-divisor-of-strings/)
-- [1299. Replace Elements with Greatest Element on Right Side](../1231-replace-elements-with-greatest-element-on-right-side/)
-- [1979. Find Greatest Common Divisor of Array](../2106-find-greatest-common-divisor-of-array/)
+- [575. Distribute Candies](../0575-distribute-candies/)
+- [1103. Distribute Candies to People](../1195-distribute-candies-to-people/)
+- [1298. Maximum Candies You Can Get from Boxes](../1424-maximum-candies-you-can-get-from-boxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)

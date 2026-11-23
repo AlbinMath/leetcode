@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [85. Maximal Rectangle](../0085-maximal-rectangle/)
 - [221. Maximal Square](../0221-maximal-square/)
-- [743. Network Delay Time](../0744-network-delay-time/)
+- [178. Rank Scores](../0178-rank-scores/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximal-network-rank/)

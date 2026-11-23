@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [641. Design Circular Deque](../0859-design-circular-deque/)
 - [1670. Design Front Middle Back Queue](../1767-design-front-middle-back-queue/)
-- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
+- [641. Design Circular Deque](../0859-design-circular-deque/)
+- [232. Implement Queue using Stacks](../0232-implement-queue-using-stacks/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-circular-queue/)

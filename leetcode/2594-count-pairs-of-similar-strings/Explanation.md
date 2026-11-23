@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [854. K-Similar Strings](../0884-k-similar-strings/)
 - [1641. Count Sorted Vowel Strings](../1761-count-sorted-vowel-strings/)
 - [1684. Count the Number of Consistent Strings](../1786-count-the-number-of-consistent-strings/)
+- [1782. Count Pairs Of Nodes](../1891-count-pairs-of-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-pairs-of-similar-strings/)

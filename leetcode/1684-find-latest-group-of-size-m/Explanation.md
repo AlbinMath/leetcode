@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [3254. Find the Power of K-Size Subarrays I](../3522-find-the-power-of-k-size-subarrays-i/)
 - [3255. Find the Power of K-Size Subarrays II](../3523-find-the-power-of-k-size-subarrays-ii/)
-- [1566. Detect Pattern of Length M Repeated K or More Times](../1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
+- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-latest-group-of-size-m/)

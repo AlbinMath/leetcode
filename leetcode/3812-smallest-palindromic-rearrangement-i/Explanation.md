@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3518. Smallest Palindromic Rearrangement II](../3813-smallest-palindromic-rearrangement-ii/)
 - [3734. Lexicographically Smallest Palindromic Permutation Greater Than Target](../4037-lexicographically-smallest-palindromic-permutation-greater-than-target/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [3849. Maximum Bitwise XOR After Rearrangement](../4044-maximum-bitwise-xor-after-rearrangement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/)

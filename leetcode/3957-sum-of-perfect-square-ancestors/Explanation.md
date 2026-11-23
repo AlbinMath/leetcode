@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [367. Valid Perfect Square](../0367-valid-perfect-square/)
 - [633. Sum of Square Numbers](../0633-sum-of-square-numbers/)
 - [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+- [1925. Count Square Sum Triples](../2037-count-square-sum-triples/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-perfect-square-ancestors/)

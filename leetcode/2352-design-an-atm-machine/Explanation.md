@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1661. Average Time of Process per Machine](../1801-average-time-of-process-per-machine/)
 - [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
 - [355. Design Twitter](../0355-design-twitter/)
-- [622. Design Circular Queue](../0860-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-an-atm-machine/)

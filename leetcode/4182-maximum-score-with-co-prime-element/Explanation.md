@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1255. Maximum Score Words Formed by Letters](../1381-maximum-score-words-formed-by-letters/)
 - [1422. Maximum Score After Splitting a String](../1537-maximum-score-after-splitting-a-string/)
-- [1707. Maximum XOR With an Element From Array](../1826-maximum-xor-with-an-element-from-array/)
+- [1717. Maximum Score From Removing Substrings](../1818-maximum-score-from-removing-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-with-co-prime-element/)

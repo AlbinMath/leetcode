@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [761. Special Binary String](../0763-special-binary-string/)
 - [1091. Shortest Path in Binary Matrix](../1171-shortest-path-in-binary-matrix/)
 - [1253. Reconstruct a 2-Row Binary Matrix](../1379-reconstruct-a-2-row-binary-matrix/)
-- [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](../1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)

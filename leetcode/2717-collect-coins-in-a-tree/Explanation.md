@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1443. Minimum Time to Collect All Apples in a Tree](../1554-minimum-time-to-collect-all-apples-in-a-tree/)
 - [979. Distribute Coins in Binary Tree](../1021-distribute-coins-in-binary-tree/)
-- [2869. Minimum Operations to Collect Elements](../3044-minimum-operations-to-collect-elements/)
+- [1443. Minimum Time to Collect All Apples in a Tree](../1554-minimum-time-to-collect-all-apples-in-a-tree/)
+- [441. Arranging Coins](../0441-arranging-coins/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/collect-coins-in-a-tree/)

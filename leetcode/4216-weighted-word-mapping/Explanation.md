@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1309. Decrypt String from Alphabet to Integer Mapping](../1434-decrypt-string-from-alphabet-to-integer-mapping/)
-- [58. Length of Last Word](../0058-length-of-last-word/)
-- [79. Word Search](../0079-word-search/)
+- [2203. Minimum Weighted Subgraph With the Required Paths](../2321-minimum-weighted-subgraph-with-the-required-paths/)
+- [3108. Minimum Cost Walk in Weighted Graph](../3348-minimum-cost-walk-in-weighted-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/weighted-word-mapping/)

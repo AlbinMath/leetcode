@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1701. Average Waiting Time](../1803-average-waiting-time/)
-- [1348. Tweet Counts Per Frequency](../1470-tweet-counts-per-frequency/)
-- [3433. Count Mentions Per User](../3721-count-mentions-per-user/)
+- [637. Average of Levels in Binary Tree](../0637-average-of-levels-in-binary-tree/)
+- [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-time-of-process-per-machine/)

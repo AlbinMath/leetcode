@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
 - [1385. Find the Distance Value Between Two Arrays](../1486-find-the-distance-value-between-two-arrays/)
-- [2492. Minimum Score of a Path Between Two Cities](../2582-minimum-score-of-a-path-between-two-cities/)
+- [2857. Count Pairs of Points With Distance k](../2953-count-pairs-of-points-with-distance-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)

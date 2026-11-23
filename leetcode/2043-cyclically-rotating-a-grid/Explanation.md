@@ -69,9 +69,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1861. Rotating the Box](../1972-rotating-the-box/)
 - [840. Magic Squares In Grid](../0870-magic-squares-in-grid/)
 - [1260. Shift 2D Grid](../1386-shift-2d-grid/)
+- [1293. Shortest Path in a Grid with Obstacles Elimination](../1414-shortest-path-in-a-grid-with-obstacles-elimination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cyclically-rotating-a-grid/)

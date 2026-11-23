@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3619. Count Islands With Total Value Divisible by K](../3823-count-islands-with-total-value-divisible-by-k/)
 - [3835. Count Subarrays With Cost Less Than or Equal to K](../4211-count-subarrays-with-cost-less-than-or-equal-to-k/)
 - [4046. Minimum Cost Path With At Most K Turns](../4367-minimum-cost-path-with-at-most-k-turns/)
-- [3619. Count Islands With Total Value Divisible by K](../3823-count-islands-with-total-value-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-cost-to-hire-k-workers/)

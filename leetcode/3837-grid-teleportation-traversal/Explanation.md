@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3417. Zigzag Grid Traversal With Skip](../3708-zigzag-grid-traversal-with-skip/)
 - [3629. Minimum Jumps to Reach End via Prime Teleportation](../3933-minimum-jumps-to-reach-end-via-prime-teleportation/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
+- [840. Magic Squares In Grid](../0870-magic-squares-in-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/grid-teleportation-traversal/)

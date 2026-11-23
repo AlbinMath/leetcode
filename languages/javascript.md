@@ -70,12 +70,12 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 102 | [Binary Tree Level Order Traversal](../leetcode/0102-binary-tree-level-order-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](../leetcode/0103-binary-tree-zigzag-level-order-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
 | 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
-| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](../leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
-| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | Tree & Graph | O(n) | O(n) |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](../leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | Binary Search | O(n) | O(1) |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](../leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | Binary Search | O(n) | O(1) |
 | 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | Medium | Binary Search | O(n) | O(1) |
 | 115 | [Distinct Subsequences](../leetcode/0115-distinct-subsequences/) | Hard | Dynamic Programming | O(n) | O(n) |
-| 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | Medium | Stack & Queue | O(n) | O(n) |
+| 117 | [Populating Next Right Pointers in Each Node II](../leetcode/0117-populating-next-right-pointers-in-each-node-ii/) | Medium | Monotonic Stack | O(n) | O(n) |
 | 118 | [Pascal's Triangle](../leetcode/0118-pascals-triangle/) | Easy | Math & Logic | O(n) | O(1) |
 | 120 | [Triangle](../leetcode/0120-triangle/) | Medium | Math & Logic | O(n) | O(1) |
 | 121 | [Best Time to Buy and Sell Stock](../leetcode/0121-best-time-to-buy-and-sell-stock/) | Easy | Array / General | O(n) | O(1) |
@@ -99,12 +99,12 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 148 | [Sort List](../leetcode/0148-sort-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 151 | [Reverse Words in a String](../leetcode/0151-reverse-words-in-a-string/) | Medium | Array / General | O(n) | O(1) |
 | 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | Medium | Binary Search | O(log n) | O(1) |
-| 155 | [Min Stack](../leetcode/0155-min-stack/) | Medium | Stack & Queue | O(n) | O(n) |
+| 155 | [Min Stack](../leetcode/0155-min-stack/) | Medium | Hash Map | O(n) | O(n) |
 | 160 | [Intersection of Two Linked Lists](../leetcode/0160-intersection-of-two-linked-lists/) | Easy | Two Pointers | O(n) | O(1) |
 | 162 | [Find Peak Element](../leetcode/0162-find-peak-element/) | Medium | Binary Search | O(log n) | O(1) |
 | 167 | [Two Sum II - Input Array Is Sorted](../leetcode/0167-two-sum-ii---input-array-is-sorted/) | Medium | Array / General | O(n) | O(1) |
 | 169 | [Majority Element](../leetcode/0169-majority-element/) | Easy | Array / General | O(n) | O(1) |
-| 172 | [Factorial Trailing Zeroes](../leetcode/0172-factorial-trailing-zeroes/) | Medium | Array / General | O(n) | O(1) |
+| 172 | [Factorial Trailing Zeroes](../leetcode/0172-factorial-trailing-zeroes/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 173 | [Binary Search Tree Iterator](../leetcode/0173-binary-search-tree-iterator/) | Medium | Binary Search | O(n) | O(1) |
 | 174 | [Dungeon Game](../leetcode/0174-dungeon-game/) | Hard | Array / General | O(n) | O(1) |
 | 188 | [Best Time to Buy and Sell Stock IV](../leetcode/0188-best-time-to-buy-and-sell-stock-iv/) | Hard | Array / General | O(n) | O(1) |
@@ -136,13 +136,13 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | Easy | Two Pointers | O(n) | O(1) |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](../leetcode/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](../leetcode/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
-| 237 | [Delete Node in a Linked List](../leetcode/0237-delete-node-in-a-linked-list/) | Medium | Linked List | O(n) | O(1) |
+| 237 | [Delete Node in a Linked List](../leetcode/0237-delete-node-in-a-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 238 | [Product of Array Except Self](../leetcode/0238-product-of-array-except-self/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 240 | [Search a 2D Matrix II](../leetcode/0240-search-a-2d-matrix-ii/) | Medium | Tree & Graph | O(n) | O(n) |
 | 274 | [H-Index](../leetcode/0274-h-index/) | Medium | Array / General | O(n) | O(1) |
 | 275 | [H-Index II](../leetcode/0275-h-index-ii/) | Medium | Array / General | O(n) | O(1) |
 | 283 | [Move Zeroes](../leetcode/0283-move-zeroes/) | Easy | Array / General | O(n) | O(1) |
-| 284 | [Peeking Iterator](../leetcode/0284-peeking-iterator/) | Medium | Array / General | O(n) | O(1) |
+| 284 | [Peeking Iterator](../leetcode/0284-peeking-iterator/) | Medium | Binary Search | O(n) | O(1) |
 | 289 | [Game of Life](../leetcode/0289-game-of-life/) | Medium | Math & Logic | O(n) | O(1) |
 | 295 | [Find Median from Data Stream](../leetcode/0295-find-median-from-data-stream/) | Hard | Array / General | O(n) | O(1) |
 | 300 | [Longest Increasing Subsequence](../leetcode/0300-longest-increasing-subsequence/) | Medium | Binary Search | O(n) | O(1) |
@@ -158,14 +158,14 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 334 | [Increasing Triplet Subsequence](../leetcode/0334-increasing-triplet-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 337 | [House Robber III](../leetcode/0337-house-robber-iii/) | Medium | Tree & Graph | O(n) | O(n) |
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Easy | Binary Search | O(n) | O(1) |
-| 341 | [Flatten Nested List Iterator](../leetcode/0341-flatten-nested-list-iterator/) | Medium | Array / General | O(n) | O(1) |
+| 341 | [Flatten Nested List Iterator](../leetcode/0341-flatten-nested-list-iterator/) | Medium | Linked List | O(n) | O(1) |
 | 345 | [Reverse Vowels of a String](../leetcode/0345-reverse-vowels-of-a-string/) | Easy | Array / General | O(n) | O(1) |
 | 354 | [Russian Doll Envelopes](../leetcode/0354-russian-doll-envelopes/) | Hard | Array / General | O(n) | O(1) |
-| 373 | [Find K Pairs with Smallest Sums](../leetcode/0373-find-k-pairs-with-smallest-sums/) | Medium | Array / General | O(n) | O(1) |
+| 373 | [Find K Pairs with Smallest Sums](../leetcode/0373-find-k-pairs-with-smallest-sums/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 374 | [Guess Number Higher or Lower](../leetcode/0374-guess-number-higher-or-lower/) | Easy | Array / General | O(n) | O(1) |
 | 378 | [Kth Smallest Element in a Sorted Matrix](../leetcode/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium | Tree & Graph | O(n) | O(n) |
 | 380 | [Insert Delete GetRandom O(1)](../leetcode/0380-insert-delete-getrandom-o1/) | Medium | Array / General | O(n) | O(1) |
-| 382 | [Linked List Random Node](../leetcode/0382-linked-list-random-node/) | Medium | Linked List | O(n) | O(1) |
+| 382 | [Linked List Random Node](../leetcode/0382-linked-list-random-node/) | Medium | Two Pointers | O(n) | O(1) |
 | 385 | [Mini Parser](../leetcode/0385-mini-parser/) | Medium | Array / General | O(n) | O(1) |
 | 388 | [Longest Absolute File Path](../leetcode/0388-longest-absolute-file-path/) | Medium | Tree & Graph | O(n) | O(n) |
 | 392 | [Is Subsequence](../leetcode/0392-is-subsequence/) | Easy | Dynamic Programming | O(n) | O(n) |
@@ -180,11 +180,11 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 436 | [Find Right Interval](../leetcode/0436-find-right-interval/) | Medium | Heap | O(n) | O(n) |
 | 437 | [Path Sum III](../leetcode/0437-path-sum-iii/) | Medium | Tree & Graph | O(n) | O(n) |
 | 443 | [String Compression](../leetcode/0443-string-compression/) | Medium | Array / General | O(n) | O(1) |
-| 445 | [Add Two Numbers II](../leetcode/0445-add-two-numbers-ii/) | Medium | Linked List | O(n) | O(1) |
+| 445 | [Add Two Numbers II](../leetcode/0445-add-two-numbers-ii/) | Medium | Two Pointers | O(n) | O(1) |
 | 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | Medium | Binary Search | O(n) | O(1) |
-| 452 | [Minimum Number of Arrows to Burst Balloons](../leetcode/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium | Array / General | O(n) | O(1) |
+| 452 | [Minimum Number of Arrows to Burst Balloons](../leetcode/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 459 | [Repeated Substring Pattern](../leetcode/0459-repeated-substring-pattern/) | Easy | Array / General | O(n) | O(1) |
-| 470 | [Implement Rand10() Using Rand7()](../leetcode/0903-implement-rand10-using-rand7/) | Medium | Array / General | O(n) | O(1) |
+| 470 | [Implement Rand10() Using Rand7()](../leetcode/0903-implement-rand10-using-rand7/) | Medium | Trie | O(n) | O(n) |
 | 473 | [Matchsticks to Square](../leetcode/0473-matchsticks-to-square/) | Medium | Array / General | O(n) | O(1) |
 | 482 | [License Key Formatting](../leetcode/0482-license-key-formatting/) | Easy | Array / General | O(n) | O(1) |
 | 493 | [Reverse Pairs](../leetcode/0493-reverse-pairs/) | Hard | Array / General | O(n) | O(1) |
@@ -204,16 +204,16 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 641 | [Design Circular Deque](../leetcode/0859-design-circular-deque/) | Medium | Array / General | O(n) | O(1) |
 | 643 | [Maximum Average Subarray I](../leetcode/0643-maximum-average-subarray-i/) | Easy | Array / General | O(n) | O(1) |
 | 649 | [Dota2 Senate](../leetcode/0649-dota2-senate/) | Medium | Array / General | O(n) | O(1) |
-| 658 | [Find K Closest Elements](../leetcode/0658-find-k-closest-elements/) | Medium | Array / General | O(n) | O(1) |
+| 658 | [Find K Closest Elements](../leetcode/0658-find-k-closest-elements/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 673 | [Number of Longest Increasing Subsequence](../leetcode/0673-number-of-longest-increasing-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 686 | [Repeated String Match](../leetcode/0686-repeated-string-match/) | Medium | Array / General | O(n) | O(1) |
 | 691 | [Stickers to Spell Word](../leetcode/0691-stickers-to-spell-word/) | Hard | Array / General | O(n) | O(1) |
 | 698 | [Partition to K Equal Sum Subsets](../leetcode/0698-partition-to-k-equal-sum-subsets/) | Medium | Hash Map | O(n) | O(n) |
 | 700 | [Search in a Binary Search Tree](../leetcode/0783-search-in-a-binary-search-tree/) | Easy | Binary Search | O(n) | O(1) |
-| 707 | [Design Linked List](../leetcode/0838-design-linked-list/) | Medium | Linked List | O(n) | O(1) |
+| 707 | [Design Linked List](../leetcode/0838-design-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](../leetcode/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | Array / General | O(n) | O(1) |
 | 724 | [Find Pivot Index](../leetcode/0724-find-pivot-index/) | Easy | Array / General | O(n) | O(1) |
-| 725 | [Split Linked List in Parts](../leetcode/0725-split-linked-list-in-parts/) | Medium | Linked List | O(n) | O(1) |
+| 725 | [Split Linked List in Parts](../leetcode/0725-split-linked-list-in-parts/) | Medium | Two Pointers | O(n) | O(1) |
 | 726 | [Number of Atoms](../leetcode/0726-number-of-atoms/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 729 | [My Calendar I](../leetcode/0729-my-calendar-i/) | Medium | Array / General | O(n) | O(1) |
 | 732 | [My Calendar III](../leetcode/0732-my-calendar-iii/) | Hard | Array / General | O(n) | O(1) |
@@ -230,15 +230,15 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 805 | [Split Array With Same Average](../leetcode/0823-split-array-with-same-average/) | Hard | Array / General | O(n) | O(1) |
 | 807 | [Max Increase to Keep City Skyline](../leetcode/0825-max-increase-to-keep-city-skyline/) | Medium | Array / General | O(n) | O(1) |
 | 808 | [Soup Servings](../leetcode/0826-soup-servings/) | Medium | Array / General | O(n) | O(1) |
-| 817 | [Linked List Components](../leetcode/0835-linked-list-components/) | Medium | Linked List | O(n) | O(1) |
+| 817 | [Linked List Components](../leetcode/0835-linked-list-components/) | Medium | Two Pointers | O(n) | O(1) |
 | 831 | [Masking Personal Information](../leetcode/0858-masking-personal-information/) | Medium | Array / General | O(n) | O(1) |
-| 834 | [Sum of Distances in Tree](../leetcode/0863-sum-of-distances-in-tree/) | Hard | Tree & Graph | O(n) | O(n) |
+| 834 | [Sum of Distances in Tree](../leetcode/0863-sum-of-distances-in-tree/) | Hard | Binary Search | O(n) | O(1) |
 | 835 | [Image Overlap](../leetcode/0864-image-overlap/) | Medium | Bit Manipulation | O(n²) | O(1) |
 | 836 | [Rectangle Overlap](../leetcode/0866-rectangle-overlap/) | Easy | Math & Logic | O(n) | O(1) |
 | 837 | [New 21 Game](../leetcode/0867-new-21-game/) | Medium | Array / General | O(n) | O(1) |
-| 840 | [Magic Squares In Grid](../leetcode/0870-magic-squares-in-grid/) | Medium | Tree & Graph | O(n) | O(n) |
+| 840 | [Magic Squares In Grid](../leetcode/0870-magic-squares-in-grid/) | Medium | Hash Map | O(n) | O(n) |
 | 841 | [Keys and Rooms](../leetcode/0871-keys-and-rooms/) | Medium | Array / General | O(n) | O(1) |
-| 847 | [Shortest Path Visiting All Nodes](../leetcode/0877-shortest-path-visiting-all-nodes/) | Hard | Linked List | O(n) | O(1) |
+| 847 | [Shortest Path Visiting All Nodes](../leetcode/0877-shortest-path-visiting-all-nodes/) | Hard | Two Pointers | O(n) | O(1) |
 | 851 | [Loud and Rich](../leetcode/0881-loud-and-rich/) | Medium | Array / General | O(n) | O(1) |
 | 852 | [Peak Index in a Mountain Array](../leetcode/0882-peak-index-in-a-mountain-array/) | Medium | Binary Search | O(n) | O(1) |
 | 855 | [Exam Room](../leetcode/0885-exam-room/) | Medium | Array / General | O(n) | O(1) |
@@ -249,7 +249,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 880 | [Decoded String at Index](../leetcode/0916-decoded-string-at-index/) | Medium | Array / General | O(n) | O(1) |
 | 885 | [Spiral Matrix III](../leetcode/0921-spiral-matrix-iii/) | Medium | Tree & Graph | O(n) | O(n) |
 | 895 | [Maximum Frequency Stack](../leetcode/0931-maximum-frequency-stack/) | Hard | Hash Map | O(n) | O(n) |
-| 900 | [RLE Iterator](../leetcode/0936-rle-iterator/) | Medium | Array / General | O(n) | O(1) |
+| 900 | [RLE Iterator](../leetcode/0936-rle-iterator/) | Medium | Binary Search | O(n) | O(1) |
 | 901 | [Online Stock Span](../leetcode/0937-online-stock-span/) | Medium | Array / General | O(n) | O(1) |
 | 909 | [Snakes and Ladders](../leetcode/0945-snakes-and-ladders/) | Medium | Array / General | O(n) | O(1) |
 | 911 | [Online Election](../leetcode/0947-online-election/) | Medium | Array / General | O(n) | O(1) |
@@ -261,7 +261,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 940 | [Distinct Subsequences II](../leetcode/0977-distinct-subsequences-ii/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 943 | [Find the Shortest Superstring](../leetcode/0980-find-the-shortest-superstring/) | Hard | Array / General | O(n) | O(1) |
 | 946 | [Validate Stack Sequences](../leetcode/0983-validate-stack-sequences/) | Medium | Stack & Queue | O(n) | O(n) |
-| 950 | [Reveal Cards In Increasing Order](../leetcode/0987-reveal-cards-in-increasing-order/) | Medium | Array / General | O(n) | O(1) |
+| 950 | [Reveal Cards In Increasing Order](../leetcode/0987-reveal-cards-in-increasing-order/) | Medium | Tree & Graph | O(n) | O(n) |
 | 980 | [Unique Paths III](../leetcode/1022-unique-paths-iii/) | Hard | Tree & Graph | O(n) | O(n) |
 | 981 | [Time Based Key-Value Store](../leetcode/1023-time-based-key-value-store/) | Medium | Array / General | O(n) | O(1) |
 | 994 | [Rotting Oranges](../leetcode/1036-rotting-oranges/) | Medium | Array / General | O(n) | O(1) |
@@ -270,29 +270,29 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1003 | [Check If Word Is Valid After Substitutions](../leetcode/1045-check-if-word-is-valid-after-substitutions/) | Medium | Array / General | O(n) | O(1) |
 | 1004 | [Max Consecutive Ones III](../leetcode/1046-max-consecutive-ones-iii/) | Medium | Array / General | O(n) | O(1) |
 | 1006 | [Clumsy Factorial](../leetcode/1048-clumsy-factorial/) | Medium | Array / General | O(n) | O(1) |
-| 1028 | [Recover a Tree From Preorder Traversal](../leetcode/1093-recover-a-tree-from-preorder-traversal/) | Hard | Tree & Graph | O(n) | O(n) |
+| 1028 | [Recover a Tree From Preorder Traversal](../leetcode/1093-recover-a-tree-from-preorder-traversal/) | Hard | Binary Search | O(n) | O(1) |
 | 1042 | [Flower Planting With No Adjacent](../leetcode/1120-flower-planting-with-no-adjacent/) | Medium | Array / General | O(n) | O(1) |
 | 1046 | [Last Stone Weight](../leetcode/1127-last-stone-weight/) | Easy | Array / General | O(n) | O(1) |
-| 1071 | [Greatest Common Divisor of Strings](../leetcode/1146-greatest-common-divisor-of-strings/) | Easy | Array / General | O(n) | O(1) |
+| 1071 | [Greatest Common Divisor of Strings](../leetcode/1146-greatest-common-divisor-of-strings/) | Easy | Linked List | O(n) | O(1) |
 | 1072 | [Flip Columns For Maximum Number of Equal Rows](../leetcode/1147-flip-columns-for-maximum-number-of-equal-rows/) | Medium | Array / General | O(n) | O(1) |
 | 1074 | [Number of Submatrices That Sum to Target](../leetcode/1145-number-of-submatrices-that-sum-to-target/) | Hard | Array / General | O(n) | O(1) |
-| 1080 | [Insufficient Nodes in Root to Leaf Paths](../leetcode/1157-insufficient-nodes-in-root-to-leaf-paths/) | Medium | Linked List | O(n) | O(1) |
+| 1080 | [Insufficient Nodes in Root to Leaf Paths](../leetcode/1157-insufficient-nodes-in-root-to-leaf-paths/) | Medium | Two Pointers | O(n) | O(1) |
 | 1093 | [Statistics from a Large Sample](../leetcode/1183-statistics-from-a-large-sample/) | Medium | Array / General | O(n) | O(1) |
 | 1096 | [Brace Expansion II](../leetcode/1188-brace-expansion-ii/) | Hard | Array / General | O(n) | O(1) |
 | 1104 | [Path In Zigzag Labelled Binary Tree](../leetcode/1194-path-in-zigzag-labelled-binary-tree/) | Medium | Tree & Graph | O(n) | O(n) |
-| 1110 | [Delete Nodes And Return Forest](../leetcode/1207-delete-nodes-and-return-forest/) | Medium | Linked List | O(n) | O(1) |
+| 1110 | [Delete Nodes And Return Forest](../leetcode/1207-delete-nodes-and-return-forest/) | Medium | Two Pointers | O(n) | O(1) |
 | 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | Medium | Binary Search | O(n) | O(1) |
 | 1125 | [Smallest Sufficient Team](../leetcode/1220-smallest-sufficient-team/) | Hard | Math & Logic | O(n) | O(1) |
 | 1137 | [N-th Tribonacci Number](../leetcode/1236-n-th-tribonacci-number/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 1139 | [Largest 1-Bordered Square](../leetcode/1239-largest-1-bordered-square/) | Medium | Array / General | O(n) | O(1) |
 | 1143 | [Longest Common Subsequence](../leetcode/1250-longest-common-subsequence/) | Medium | Dynamic Programming | O(n) | O(n) |
-| 1145 | [Binary Tree Coloring Game](../leetcode/1248-binary-tree-coloring-game/) | Medium | Tree & Graph | O(n) | O(n) |
+| 1145 | [Binary Tree Coloring Game](../leetcode/1248-binary-tree-coloring-game/) | Medium | Binary Search | O(n) | O(1) |
 | 1146 | [Snapshot Array](../leetcode/1249-snapshot-array/) | Medium | Array / General | O(n) | O(1) |
 | 1157 | [Online Majority Element In Subarray](../leetcode/1262-online-majority-element-in-subarray/) | Hard | Array / General | O(n) | O(1) |
 | 1161 | [Maximum Level Sum of a Binary Tree](../leetcode/1116-maximum-level-sum-of-a-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
-| 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](../leetcode/1267-remove-zero-sum-consecutive-nodes-from-linked-list/) | Medium | Linked List | O(n) | O(1) |
+| 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](../leetcode/1267-remove-zero-sum-consecutive-nodes-from-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 1172 | [Dinner Plate Stacks](../leetcode/1270-dinner-plate-stacks/) | Hard | Stack & Queue | O(n) | O(n) |
-| 1192 | [Critical Connections in a Network](../leetcode/1300-critical-connections-in-a-network/) | Hard | Array / General | O(n) | O(1) |
+| 1192 | [Critical Connections in a Network](../leetcode/1300-critical-connections-in-a-network/) | Hard | Tree & Graph | O(n) | O(n) |
 | 1203 | [Sort Items by Groups Respecting Dependencies](../leetcode/1309-sort-items-by-groups-respecting-dependencies/) | Hard | Array / General | O(n) | O(1) |
 | 1206 | [Design Skiplist](../leetcode/1337-design-skiplist/) | Hard | Binary Search | O(n) | O(1) |
 | 1207 | [Unique Number of Occurrences](../leetcode/1319-unique-number-of-occurrences/) | Easy | Array / General | O(n) | O(1) |
@@ -310,11 +310,11 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1325 | [Delete Leaves With a Given Value](../leetcode/1450-delete-leaves-with-a-given-value/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1329 | [Sort the Matrix Diagonally](../leetcode/1253-sort-the-matrix-diagonally/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1348 | [Tweet Counts Per Frequency](../leetcode/1470-tweet-counts-per-frequency/) | Medium | Hash Map | O(n) | O(n) |
-| 1349 | [Maximum Students Taking Exam](../leetcode/1471-maximum-students-taking-exam/) | Hard | Array / General | O(n) | O(1) |
-| 1354 | [Construct Target Array With Multiple Sums](../leetcode/1479-construct-target-array-with-multiple-sums/) | Hard | Array / General | O(n) | O(1) |
+| 1349 | [Maximum Students Taking Exam](../leetcode/1471-maximum-students-taking-exam/) | Hard | Tree & Graph | O(n) | O(n) |
+| 1354 | [Construct Target Array With Multiple Sums](../leetcode/1479-construct-target-array-with-multiple-sums/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 1357 | [Apply Discount Every n Orders](../leetcode/1459-apply-discount-every-n-orders/) | Medium | Array / General | O(n) | O(1) |
-| 1359 | [Count All Valid Pickup and Delivery Options](../leetcode/1461-count-all-valid-pickup-and-delivery-options/) | Hard | Array / General | O(n) | O(1) |
-| 1367 | [Linked List in Binary Tree](../leetcode/1484-linked-list-in-binary-tree/) | Medium | Linked List | O(n) | O(1) |
+| 1359 | [Count All Valid Pickup and Delivery Options](../leetcode/1461-count-all-valid-pickup-and-delivery-options/) | Hard | Tree & Graph | O(n) | O(n) |
+| 1367 | [Linked List in Binary Tree](../leetcode/1484-linked-list-in-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 1372 | [Longest ZigZag Path in a Binary Tree](../leetcode/1474-longest-zigzag-path-in-a-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 1377 | [Frog Position After T Seconds](../leetcode/1493-frog-position-after-t-seconds/) | Hard | Tree & Graph | O(n) | O(n) |
 | 1395 | [Count Number of Teams](../leetcode/1511-count-number-of-teams/) | Medium | Array / General | O(n) | O(1) |
@@ -331,7 +331,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1462 | [Course Schedule IV](../leetcode/1558-course-schedule-iv/) | Medium | Array / General | O(n) | O(1) |
 | 1463 | [Cherry Pickup II](../leetcode/1559-cherry-pickup-ii/) | Hard | Array / General | O(n) | O(1) |
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](../leetcode/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium | Tree & Graph | O(n) | O(n) |
-| 1467 | [Probability of a Two Boxes Having The Same Number of Distinct Balls](../leetcode/1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) | Hard | Array / General | O(n) | O(1) |
+| 1467 | [Probability of a Two Boxes Having The Same Number of Distinct Balls](../leetcode/1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) | Hard | Tree & Graph | O(n) | O(n) |
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | Sliding Window | O(n) | O(1) |
 | 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Hard | Binary Search | O(n) | O(1) |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](../leetcode/1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium | Array / General | O(n) | O(1) |
@@ -340,7 +340,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1499 | [Max Value of Equation](../leetcode/1622-max-value-of-equation/) | Hard | Array / General | O(n) | O(1) |
 | 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | Hard | Math & Logic | O(n) | O(1) |
 | 1520 | [Maximum Number of Non-Overlapping Substrings](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | Hard | Heap | O(n) | O(n) |
-| 1530 | [Number of Good Leaf Nodes Pairs](../leetcode/1653-number-of-good-leaf-nodes-pairs/) | Medium | Linked List | O(n) | O(1) |
+| 1530 | [Number of Good Leaf Nodes Pairs](../leetcode/1653-number-of-good-leaf-nodes-pairs/) | Medium | Two Pointers | O(n) | O(1) |
 | 1536 | [Minimum Swaps to Arrange a Binary Grid](../leetcode/1658-minimum-swaps-to-arrange-a-binary-grid/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1539 | [Kth Missing Positive Number](../leetcode/1646-kth-missing-positive-number/) | Easy | Array / General | O(n) | O(1) |
 | 1582 | [Special Positions in a Binary Matrix](../leetcode/1704-special-positions-in-a-binary-matrix/) | Easy | Tree & Graph | O(n) | O(n) |
@@ -360,29 +360,29 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | Medium | Sliding Window | O(n) | O(1) |
 | 1659 | [Maximize Grid Happiness](../leetcode/1778-maximize-grid-happiness/) | Hard | Tree & Graph | O(n) | O(n) |
 | 1679 | [Max Number of K-Sum Pairs](../leetcode/1798-max-number-of-k-sum-pairs/) | Medium | Array / General | O(n) | O(1) |
-| 1681 | [Minimum Incompatibility](../leetcode/1799-minimum-incompatibility/) | Hard | Array / General | O(n) | O(1) |
+| 1681 | [Minimum Incompatibility](../leetcode/1799-minimum-incompatibility/) | Hard | Sliding Window | O(n) | O(1) |
 | 1687 | [Delivering Boxes from Storage to Ports](../leetcode/1789-delivering-boxes-from-storage-to-ports/) | Hard | Array / General | O(n) | O(1) |
 | 1696 | [Jump Game VI](../leetcode/1814-jump-game-vi/) | Medium | Array / General | O(n) | O(1) |
 | 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1802-number-of-students-unable-to-eat-lunch/) | Easy | Stack & Queue | O(n) | O(n) |
 | 1719 | [Number Of Ways To Reconstruct A Tree](../leetcode/1820-number-of-ways-to-reconstruct-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
-| 1721 | [Swapping Nodes in a Linked List](../leetcode/0528-swapping-nodes-in-a-linked-list/) | Medium | Linked List | O(n) | O(1) |
-| 1723 | [Find Minimum Time to Finish All Jobs](../leetcode/1825-find-minimum-time-to-finish-all-jobs/) | Hard | Array / General | O(n) | O(1) |
+| 1721 | [Swapping Nodes in a Linked List](../leetcode/0528-swapping-nodes-in-a-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
+| 1723 | [Find Minimum Time to Finish All Jobs](../leetcode/1825-find-minimum-time-to-finish-all-jobs/) | Hard | Tree & Graph | O(n) | O(n) |
 | 1732 | [Find the Highest Altitude](../leetcode/1833-find-the-highest-altitude/) | Easy | Array / General | O(n) | O(1) |
-| 1738 | [Find Kth Largest XOR Coordinate Value](../leetcode/1860-find-kth-largest-xor-coordinate-value/) | Medium | Bit Manipulation | O(n) | O(1) |
+| 1738 | [Find Kth Largest XOR Coordinate Value](../leetcode/1860-find-kth-largest-xor-coordinate-value/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1755 | [Closest Subsequence Sum](../leetcode/1881-closest-subsequence-sum/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 1761 | [Minimum Degree of a Connected Trio in a Graph](../leetcode/1887-minimum-degree-of-a-connected-trio-in-a-graph/) | Hard | Dynamic Programming | O(n) | O(n) |
-| 1782 | [Count Pairs Of Nodes](../leetcode/1891-count-pairs-of-nodes/) | Hard | Linked List | O(n) | O(1) |
-| 1799 | [Maximize Score After N Operations](../leetcode/1906-maximize-score-after-n-operations/) | Hard | Array / General | O(n) | O(1) |
+| 1782 | [Count Pairs Of Nodes](../leetcode/1891-count-pairs-of-nodes/) | Hard | Two Pointers | O(n) | O(1) |
+| 1799 | [Maximize Score After N Operations](../leetcode/1906-maximize-score-after-n-operations/) | Hard | Hash Map | O(n) | O(n) |
 | 1815 | [Maximum Number of Groups Getting Fresh Donuts](../leetcode/1924-maximum-number-of-groups-getting-fresh-donuts/) | Hard | Array / General | O(n) | O(1) |
 | 1823 | [Find the Winner of the Circular Game](../leetcode/1951-find-the-winner-of-the-circular-game/) | Medium | Array / General | O(n) | O(1) |
 | 1845 | [Seat Reservation Manager](../leetcode/1955-seat-reservation-manager/) | Medium | Array / General | O(n) | O(1) |
 | 1857 | [Largest Color Value in a Directed Graph](../leetcode/1986-largest-color-value-in-a-directed-graph/) | Hard | Array / General | O(n) | O(1) |
-| 1865 | [Finding Pairs With a Certain Sum](../leetcode/1995-finding-pairs-with-a-certain-sum/) | Medium | Array / General | O(n) | O(1) |
+| 1865 | [Finding Pairs With a Certain Sum](../leetcode/1995-finding-pairs-with-a-certain-sum/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 1879 | [Minimum XOR Sum of Two Arrays](../leetcode/1989-minimum-xor-sum-of-two-arrays/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 1912 | [Design Movie Rental System](../leetcode/2023-design-movie-rental-system/) | Hard | Array / General | O(n) | O(1) |
 | 1916 | [Count Ways to Build Rooms in an Ant Colony](../leetcode/1313-count-ways-to-build-rooms-in-an-ant-colony/) | Hard | Array / General | O(n) | O(1) |
 | 1926 | [Nearest Exit from Entrance in Maze](../leetcode/2038-nearest-exit-from-entrance-in-maze/) | Medium | Array / General | O(n) | O(1) |
-| 1947 | [Maximum Compatibility Score Sum](../leetcode/2078-maximum-compatibility-score-sum/) | Medium | Array / General | O(n) | O(1) |
+| 1947 | [Maximum Compatibility Score Sum](../leetcode/2078-maximum-compatibility-score-sum/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1964 | [Find the Longest Valid Obstacle Course at Each Position](../leetcode/2096-find-the-longest-valid-obstacle-course-at-each-position/) | Hard | Array / General | O(n) | O(1) |
 | 1971 | [Find if Path Exists in Graph](../leetcode/2121-find-if-path-exists-in-graph/) | Easy | Dynamic Programming | O(n) | O(n) |
 | 1974 | [Minimum Time to Type Word Using Special Typewriter](../leetcode/2088-minimum-time-to-type-word-using-special-typewriter/) | Easy | Array / General | O(n) | O(1) |
@@ -393,12 +393,12 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 1995 | [Count Special Quadruplets](../leetcode/2122-count-special-quadruplets/) | Easy | Array / General | O(n) | O(1) |
 | 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Easy | Prefix Sum | O(n) | O(n) |
 | 2002 | [Maximum Product of the Length of Two Palindromic Subsequences](../leetcode/2130-maximum-product-of-the-length-of-two-palindromic-subsequences/) | Medium | Dynamic Programming | O(n) | O(n) |
-| 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | Easy | Array / General | O(n) | O(1) |
+| 2011 | [Final Value of Variable After Performing Operations](../leetcode/2137-final-value-of-variable-after-performing-operations/) | Easy | Hash Map | O(n) | O(n) |
 | 2027 | [Minimum Moves to Convert String](../leetcode/2154-minimum-moves-to-convert-string/) | Easy | Hash Map | O(n) | O(n) |
 | 2039 | [The Time When the Network Becomes Idle](../leetcode/2151-the-time-when-the-network-becomes-idle/) | Medium | Array / General | O(n) | O(1) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../leetcode/2168-check-if-numbers-are-ascending-in-a-sentence/) | Easy | Array / General | O(n) | O(1) |
 | 2047 | [Number of Valid Words in a Sentence](../leetcode/2173-number-of-valid-words-in-a-sentence/) | Easy | Array / General | O(n) | O(1) |
-| 2049 | [Count Nodes With the Highest Score](../leetcode/2175-count-nodes-with-the-highest-score/) | Medium | Linked List | O(n) | O(1) |
+| 2049 | [Count Nodes With the Highest Score](../leetcode/2175-count-nodes-with-the-highest-score/) | Medium | Two Pointers | O(n) | O(1) |
 | 2050 | [Parallel Courses III](../leetcode/2176-parallel-courses-iii/) | Hard | Array / General | O(n) | O(1) |
 | 2053 | [Kth Distinct String in an Array](../leetcode/2163-kth-distinct-string-in-an-array/) | Easy | Array / General | O(n) | O(1) |
 | 2062 | [Count Vowel Substrings of a String](../leetcode/2186-count-vowel-substrings-of-a-string/) | Easy | Array / General | O(n) | O(1) |
@@ -407,7 +407,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 2069 | [Walking Robot Simulation II](../leetcode/2178-walking-robot-simulation-ii/) | Medium | Array / General | O(n) | O(1) |
 | 2071 | [Maximum Number of Tasks You Can Assign](../leetcode/2180-maximum-number-of-tasks-you-can-assign/) | Hard | Array / General | O(n) | O(1) |
 | 2073 | [Time Needed to Buy Tickets](../leetcode/2195-time-needed-to-buy-tickets/) | Easy | Array / General | O(n) | O(1) |
-| 2074 | [Reverse Nodes in Even Length Groups](../leetcode/2196-reverse-nodes-in-even-length-groups/) | Medium | Linked List | O(n) | O(1) |
+| 2074 | [Reverse Nodes in Even Length Groups](../leetcode/2196-reverse-nodes-in-even-length-groups/) | Medium | Two Pointers | O(n) | O(1) |
 | 2085 | [Count Common Words With One Occurrence](../leetcode/2190-count-common-words-with-one-occurrence/) | Easy | Array / General | O(n) | O(1) |
 | 2095 | [Delete the Middle Node of a Linked List](../leetcode/2216-delete-the-middle-node-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](../leetcode/2217-step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | Two Pointers | O(n) | O(1) |
@@ -416,45 +416,45 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 2108 | [Find First Palindromic String in the Array](../leetcode/2231-find-first-palindromic-string-in-the-array/) | Easy | Array / General | O(n) | O(1) |
 | 2109 | [Adding Spaces to a String](../leetcode/2232-adding-spaces-to-a-string/) | Medium | Array / General | O(n) | O(1) |
 | 2115 | [Find All Possible Recipes from Given Supplies](../leetcode/2220-find-all-possible-recipes-from-given-supplies/) | Medium | Array / General | O(n) | O(1) |
-| 2127 | [Maximum Employees to Be Invited to a Meeting](../leetcode/2246-maximum-employees-to-be-invited-to-a-meeting/) | Hard | Array / General | O(n) | O(1) |
+| 2127 | [Maximum Employees to Be Invited to a Meeting](../leetcode/2246-maximum-employees-to-be-invited-to-a-meeting/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2236-maximum-twin-sum-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
 | 2166 | [Design Bitset](../leetcode/2285-design-bitset/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 2179 | [Count Good Triplets in an Array](../leetcode/2280-count-good-triplets-in-an-array/) | Hard | Tree & Graph | O(n) | O(n) |
-| 2181 | [Merge Nodes in Between Zeros](../leetcode/2299-merge-nodes-in-between-zeros/) | Medium | Linked List | O(n) | O(1) |
-| 2192 | [All Ancestors of a Node in a Directed Acyclic Graph](../leetcode/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium | Linked List | O(n) | O(1) |
+| 2181 | [Merge Nodes in Between Zeros](../leetcode/2299-merge-nodes-in-between-zeros/) | Medium | Two Pointers | O(n) | O(1) |
+| 2192 | [All Ancestors of a Node in a Directed Acyclic Graph](../leetcode/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium | Two Pointers | O(n) | O(1) |
 | 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | Hard | Two Pointers | O(n) | O(1) |
 | 2201 | [Count Artifacts That Can Be Extracted](../leetcode/1312-count-artifacts-that-can-be-extracted/) | Medium | Array / General | O(n) | O(1) |
 | 2215 | [Find the Difference of Two Arrays](../leetcode/1392-find-the-difference-of-two-arrays/) | Easy | Array / General | O(n) | O(1) |
 | 2221 | [Find Triangular Sum of an Array](../leetcode/2324-find-triangular-sum-of-an-array/) | Medium | Array / General | O(n) | O(1) |
 | 2241 | [Design an ATM Machine](../leetcode/2352-design-an-atm-machine/) | Medium | Array / General | O(n) | O(1) |
-| 2242 | [Maximum Score of a Node Sequence](../leetcode/2353-maximum-score-of-a-node-sequence/) | Hard | Linked List | O(n) | O(1) |
+| 2242 | [Maximum Score of a Node Sequence](../leetcode/2353-maximum-score-of-a-node-sequence/) | Hard | Two Pointers | O(n) | O(1) |
 | 2246 | [Longest Path With Different Adjacent Characters](../leetcode/2364-longest-path-with-different-adjacent-characters/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2250 | [Count Number of Rectangles Containing Each Point](../leetcode/2333-count-number-of-rectangles-containing-each-point/) | Medium | Math & Logic | O(n) | O(1) |
 | 2257 | [Count Unguarded Cells in the Grid](../leetcode/2343-count-unguarded-cells-in-the-grid/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2347-count-nodes-equal-to-average-of-subtree/) | Medium | Two Pointers | O(n) | O(1) |
-| 2276 | [Count Integers in Intervals](../leetcode/2357-count-integers-in-intervals/) | Hard | Greedy | O(n) | O(1) |
+| 2276 | [Count Integers in Intervals](../leetcode/2357-count-integers-in-intervals/) | Hard | Heap | O(n) | O(n) |
 | 2285 | [Maximum Total Importance of Roads](../leetcode/2379-maximum-total-importance-of-roads/) | Medium | Array / General | O(n) | O(1) |
 | 2286 | [Booking Concert Tickets in Groups](../leetcode/2380-booking-concert-tickets-in-groups/) | Hard | Array / General | O(n) | O(1) |
 | 2293 | [Min Max Game](../leetcode/2386-min-max-game/) | Easy | Array / General | O(n) | O(1) |
 | 2295 | [Replace Elements in an Array](../leetcode/2388-replace-elements-in-an-array/) | Medium | Array / General | O(n) | O(1) |
 | 2300 | [Successful Pairs of Spells and Potions](../leetcode/2392-successful-pairs-of-spells-and-potions/) | Medium | Array / General | O(n) | O(1) |
 | 2303 | [Calculate Amount Paid in Taxes](../leetcode/1382-calculate-amount-paid-in-taxes/) | Easy | Array / General | O(n) | O(1) |
-| 2326 | [Spiral Matrix IV](../leetcode/2411-spiral-matrix-iv/) | Medium | Linked List | O(n) | O(1) |
+| 2326 | [Spiral Matrix IV](../leetcode/2411-spiral-matrix-iv/) | Medium | Two Pointers | O(n) | O(1) |
 | 2327 | [Number of People Aware of a Secret](../leetcode/2408-number-of-people-aware-of-a-secret/) | Medium | Array / General | O(n) | O(1) |
 | 2328 | [Number of Increasing Paths in a Grid](../leetcode/2409-number-of-increasing-paths-in-a-grid/) | Hard | Tree & Graph | O(n) | O(n) |
-| 2331 | [Evaluate Boolean Binary Tree](../leetcode/2416-evaluate-boolean-binary-tree/) | Easy | Stack & Queue | O(n) | O(n) |
+| 2331 | [Evaluate Boolean Binary Tree](../leetcode/2416-evaluate-boolean-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 2333 | [Minimum Sum of Squared Difference](../leetcode/2418-minimum-sum-of-squared-difference/) | Medium | Array / General | O(n) | O(1) |
 | 2336 | [Smallest Number in Infinite Set](../leetcode/2413-smallest-number-in-infinite-set/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 2343 | [Query Kth Smallest Trimmed Number](../leetcode/2422-query-kth-smallest-trimmed-number/) | Medium | Array / General | O(n) | O(1) |
 | 2352 | [Equal Row and Column Pairs](../leetcode/2428-equal-row-and-column-pairs/) | Medium | Array / General | O(n) | O(1) |
 | 2353 | [Design a Food Rating System](../leetcode/2429-design-a-food-rating-system/) | Medium | Hash Map | O(n) | O(n) |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](../leetcode/2436-make-array-zero-by-subtracting-equal-amounts/) | Easy | Array / General | O(n) | O(1) |
-| 2359 | [Find Closest Node to Given Two Nodes](../leetcode/2438-find-closest-node-to-given-two-nodes/) | Medium | Linked List | O(n) | O(1) |
+| 2359 | [Find Closest Node to Given Two Nodes](../leetcode/2438-find-closest-node-to-given-two-nodes/) | Medium | Two Pointers | O(n) | O(1) |
 | 2360 | [Longest Cycle in a Graph](../leetcode/2439-longest-cycle-in-a-graph/) | Hard | Fast & Slow Pointers | O(n) | O(1) |
 | 2365 | [Task Scheduler II](../leetcode/2483-task-scheduler-ii/) | Medium | Array / General | O(n) | O(1) |
-| 2374 | [Node With Highest Edge Score](../leetcode/2455-node-with-highest-edge-score/) | Medium | Linked List | O(n) | O(1) |
-| 2380 | [Time Needed to Rearrange a Binary String](../leetcode/2464-time-needed-to-rearrange-a-binary-string/) | Medium | Bit Manipulation | O(n) | O(1) |
-| 2390 | [Removing Stars From a String](../leetcode/2470-removing-stars-from-a-string/) | Medium | Array / General | O(n) | O(1) |
+| 2374 | [Node With Highest Edge Score](../leetcode/2455-node-with-highest-edge-score/) | Medium | Two Pointers | O(n) | O(1) |
+| 2380 | [Time Needed to Rearrange a Binary String](../leetcode/2464-time-needed-to-rearrange-a-binary-string/) | Medium | Tree & Graph | O(n) | O(n) |
+| 2390 | [Removing Stars From a String](../leetcode/2470-removing-stars-from-a-string/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2392 | [Build a Matrix With Conditions](../leetcode/2472-build-a-matrix-with-conditions/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2398 | [Maximum Number of Robots Within Budget](../leetcode/2449-maximum-number-of-robots-within-budget/) | Hard | Array / General | O(n) | O(1) |
 | 2400 | [Number of Ways to Reach a Position After Exactly k Steps](../leetcode/2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/) | Medium | Dynamic Programming | O(n) | O(n) |
@@ -462,14 +462,14 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 2424 | [Longest Uploaded Prefix](../leetcode/2512-longest-uploaded-prefix/) | Medium | Prefix Sum | O(n) | O(n) |
 | 2426 | [Number of Pairs Satisfying Inequality](../leetcode/2513-number-of-pairs-satisfying-inequality/) | Hard | Array / General | O(n) | O(1) |
 | 2444 | [Count Subarrays With Fixed Bounds](../leetcode/2527-count-subarrays-with-fixed-bounds/) | Hard | Array / General | O(n) | O(1) |
-| 2460 | [Apply Operations to an Array](../leetcode/2551-apply-operations-to-an-array/) | Easy | Array / General | O(n) | O(1) |
+| 2460 | [Apply Operations to an Array](../leetcode/2551-apply-operations-to-an-array/) | Easy | Stack & Queue | O(n) | O(n) |
 | 2462 | [Total Cost to Hire K Workers](../leetcode/2553-total-cost-to-hire-k-workers/) | Medium | Array / General | O(n) | O(1) |
 | 2467 | [Most Profitable Path in a Tree](../leetcode/2564-most-profitable-path-in-a-tree/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard | Two Pointers | O(n) | O(1) |
 | 2477 | [Minimum Fuel Cost to Report to the Capital](../leetcode/2568-minimum-fuel-cost-to-report-to-the-capital/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](../leetcode/2606-difference-between-ones-and-zeros-in-row-and-column/) | Medium | Array / General | O(n) | O(1) |
-| 2497 | [Maximum Star Sum of a Graph](../leetcode/2590-maximum-star-sum-of-a-graph/) | Medium | Array / General | O(n) | O(1) |
-| 2500 | [Delete Greatest Value in Each Row](../leetcode/2585-delete-greatest-value-in-each-row/) | Easy | Array / General | O(n) | O(1) |
+| 2497 | [Maximum Star Sum of a Graph](../leetcode/2590-maximum-star-sum-of-a-graph/) | Medium | Tree & Graph | O(n) | O(n) |
+| 2500 | [Delete Greatest Value in Each Row](../leetcode/2585-delete-greatest-value-in-each-row/) | Easy | Tree & Graph | O(n) | O(n) |
 | 2502 | [Design Memory Allocator](../leetcode/2587-design-memory-allocator/) | Medium | Array / General | O(n) | O(1) |
 | 2507 | [Smallest Value After Replacing With Sum of Prime Factors](../leetcode/2595-smallest-value-after-replacing-with-sum-of-prime-factors/) | Medium | Array / General | O(n) | O(1) |
 | 2509 | [Cycle Length Queries in a Tree](../leetcode/2597-cycle-length-queries-in-a-tree/) | Hard | Fast & Slow Pointers | O(n) | O(1) |
@@ -509,13 +509,13 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 2762 | [Continuous Subarrays](../leetcode/2868-continuous-subarrays/) | Medium | Array / General | O(n) | O(1) |
 | 2766 | [Relocate Marbles](../leetcode/2834-relocate-marbles/) | Medium | Array / General | O(n) | O(1) |
 | 2778 | [Sum of Squares of Special Elements ](../leetcode/2844-sum-of-squares-of-special-elements-/) | Easy | Array / General | O(n) | O(1) |
-| 2807 | [Insert Greatest Common Divisors in Linked List](../leetcode/2903-insert-greatest-common-divisors-in-linked-list/) | Medium | Linked List | O(n) | O(1) |
+| 2807 | [Insert Greatest Common Divisors in Linked List](../leetcode/2903-insert-greatest-common-divisors-in-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 2810 | [Faulty Keyboard](../leetcode/2886-faulty-keyboard/) | Easy | Array / General | O(n) | O(1) |
-| 2816 | [Double a Number Represented as a Linked List](../leetcode/2871-double-a-number-represented-as-a-linked-list/) | Medium | Linked List | O(n) | O(1) |
+| 2816 | [Double a Number Represented as a Linked List](../leetcode/2871-double-a-number-represented-as-a-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 2842 | [Count K-Subsequences of a String With Maximum Beauty](../leetcode/3057-count-k-subsequences-of-a-string-with-maximum-beauty/) | Hard | Dynamic Programming | O(n) | O(n) |
-| 2862 | [Maximum Element-Sum of a Complete Subset of Indices](../leetcode/3047-maximum-element-sum-of-a-complete-subset-of-indices/) | Hard | Array / General | O(n) | O(1) |
+| 2862 | [Maximum Element-Sum of a Complete Subset of Indices](../leetcode/3047-maximum-element-sum-of-a-complete-subset-of-indices/) | Hard | Tree & Graph | O(n) | O(n) |
 | 2867 | [Count Valid Paths in a Tree](../leetcode/3112-count-valid-paths-in-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
-| 2876 | [Count Visited Nodes in a Directed Graph](../leetcode/3140-count-visited-nodes-in-a-directed-graph/) | Hard | Linked List | O(n) | O(1) |
+| 2876 | [Count Visited Nodes in a Directed Graph](../leetcode/3140-count-visited-nodes-in-a-directed-graph/) | Hard | Two Pointers | O(n) | O(1) |
 | 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Stack & Queue | O(n) | O(n) |
 | 2899 | [Last Visited Integers](../leetcode/3164-last-visited-integers/) | Easy | Array / General | O(n) | O(1) |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3163-subarrays-distinct-element-sum-of-squares-i/) | Easy | Monotonic Stack | O(n) | O(n) |
@@ -526,43 +526,43 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 2929 | [Distribute Candies Among Children II](../leetcode/3201-distribute-candies-among-children-ii/) | Medium | Array / General | O(n) | O(1) |
 | 2930 | [Number of Strings Which Can Be Rearranged to Contain Substring](../leetcode/3200-number-of-strings-which-can-be-rearranged-to-contain-substring/) | Medium | Array / General | O(n) | O(1) |
 | 2940 | [Find Building Where Alice and Bob Can Meet](../leetcode/3181-find-building-where-alice-and-bob-can-meet/) | Hard | Array / General | O(n) | O(1) |
-| 2944 | [Minimum Number of Coins for Fruits](../leetcode/3209-minimum-number-of-coins-for-fruits/) | Medium | Array / General | O(n) | O(1) |
+| 2944 | [Minimum Number of Coins for Fruits](../leetcode/3209-minimum-number-of-coins-for-fruits/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 2945 | [Find Maximum Non-decreasing Array Length](../leetcode/3211-find-maximum-non-decreasing-array-length/) | Hard | Array / General | O(n) | O(1) |
 | 2946 | [Matrix Similarity After Cyclic Shifts](../leetcode/3215-matrix-similarity-after-cyclic-shifts/) | Easy | Tree & Graph | O(n) | O(n) |
 | 2947 | [Count Beautiful Substrings I](../leetcode/3210-count-beautiful-substrings-i/) | Medium | Array / General | O(n) | O(1) |
 | 2949 | [Count Beautiful Substrings II](../leetcode/3208-count-beautiful-substrings-ii/) | Hard | Array / General | O(n) | O(1) |
 | 2959 | [Number of Possible Sets of Closing Branches](../leetcode/3217-number-of-possible-sets-of-closing-branches/) | Hard | Array / General | O(n) | O(1) |
 | 2960 | [Count Tested Devices After Test Operations](../leetcode/3220-count-tested-devices-after-test-operations/) | Easy | Array / General | O(n) | O(1) |
-| 2961 | [Double Modular Exponentiation](../leetcode/3234-double-modular-exponentiation/) | Medium | Array / General | O(n) | O(1) |
+| 2961 | [Double Modular Exponentiation](../leetcode/3234-double-modular-exponentiation/) | Medium | Linked List | O(n) | O(1) |
 | 2963 | [Count the Number of Good Partitions](../leetcode/3212-count-the-number-of-good-partitions/) | Hard | Array / General | O(n) | O(1) |
-| 2974 | [Minimum Number Game](../leetcode/3226-minimum-number-game/) | Easy | Array / General | O(n) | O(1) |
+| 2974 | [Minimum Number Game](../leetcode/3226-minimum-number-game/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 2976 | [Minimum Cost to Convert String I](../leetcode/3235-minimum-cost-to-convert-string-i/) | Medium | Array / General | O(n) | O(1) |
 | 3012 | [Minimize Length of Array Using Operations](../leetcode/3244-minimize-length-of-array-using-operations/) | Medium | Array / General | O(n) | O(1) |
 | 3015 | [Count the Number of Houses at a Certain Distance I](../leetcode/3271-count-the-number-of-houses-at-a-certain-distance-i/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3017 | [Count the Number of Houses at a Certain Distance II](../leetcode/3310-count-the-number-of-houses-at-a-certain-distance-ii/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3028 | [Ant on the Boundary](../leetcode/3311-ant-on-the-boundary/) | Easy | Array / General | O(n) | O(1) |
-| 3038 | [Maximum Number of Operations With the Same Score I](../leetcode/3320-maximum-number-of-operations-with-the-same-score-i/) | Easy | Array / General | O(n) | O(1) |
+| 3038 | [Maximum Number of Operations With the Same Score I](../leetcode/3320-maximum-number-of-operations-with-the-same-score-i/) | Easy | Tree & Graph | O(n) | O(n) |
 | 3044 | [Most Frequent Prime](../leetcode/3314-most-frequent-prime/) | Medium | Hash Map | O(n) | O(n) |
-| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3332-minimum-operations-to-exceed-threshold-value-ii/) | Medium | Array / General | O(n) | O(1) |
+| 3066 | [Minimum Operations to Exceed Threshold Value II](../leetcode/3332-minimum-operations-to-exceed-threshold-value-ii/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 3072 | [Distribute Elements Into Two Arrays II](../leetcode/3350-distribute-elements-into-two-arrays-ii/) | Hard | Array / General | O(n) | O(1) |
 | 3080 | [Mark Elements on Array by Performing Queries](../leetcode/3306-mark-elements-on-array-by-performing-queries/) | Medium | Array / General | O(n) | O(1) |
 | 3100 | [Water Bottles II](../leetcode/3336-water-bottles-ii/) | Medium | Array / General | O(n) | O(1) |
-| 3112 | [Minimum Time to Visit Disappearing Nodes](../leetcode/3389-minimum-time-to-visit-disappearing-nodes/) | Medium | Linked List | O(n) | O(1) |
+| 3112 | [Minimum Time to Visit Disappearing Nodes](../leetcode/3389-minimum-time-to-visit-disappearing-nodes/) | Medium | Two Pointers | O(n) | O(1) |
 | 3117 | [Minimum Sum of Values by Dividing Array](../leetcode/3364-minimum-sum-of-values-by-dividing-array/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 3123 | [Find Edges in Shortest Paths](../leetcode/3386-find-edges-in-shortest-paths/) | Hard | Tree & Graph | O(n) | O(n) |
-| 3128 | [Right Triangles](../leetcode/3388-right-triangles/) | Medium | Math & Logic | O(n) | O(1) |
+| 3128 | [Right Triangles](../leetcode/3388-right-triangles/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3154 | [Find Number of Ways to Reach the K-th Stair](../leetcode/3414-find-number-of-ways-to-reach-the-k-th-stair/) | Hard | Array / General | O(n) | O(1) |
 | 3160 | [Find the Number of Distinct Colors Among the Balls](../leetcode/3434-find-the-number-of-distinct-colors-among-the-balls/) | Medium | Array / General | O(n) | O(1) |
-| 3168 | [Minimum Number of Chairs in a Waiting Room](../leetcode/3426-minimum-number-of-chairs-in-a-waiting-room/) | Easy | Array / General | O(n) | O(1) |
+| 3168 | [Minimum Number of Chairs in a Waiting Room](../leetcode/3426-minimum-number-of-chairs-in-a-waiting-room/) | Easy | Bit Manipulation | O(n) | O(1) |
 | 3175 | [Find The First Player to win K Games in a Row](../leetcode/3413-find-the-first-player-to-win-k-games-in-a-row/) | Medium | Array / General | O(n) | O(1) |
 | 3178 | [Find the Child Who Has the Ball After K Seconds](../leetcode/3450-find-the-child-who-has-the-ball-after-k-seconds/) | Easy | Array / General | O(n) | O(1) |
 | 3179 | [Find the N-th Value After K Seconds](../leetcode/3422-find-the-n-th-value-after-k-seconds/) | Medium | Array / General | O(n) | O(1) |
 | 3187 | [Peaks in Array](../leetcode/3438-peaks-in-array/) | Hard | Array / General | O(n) | O(1) |
 | 3191 | [Minimum Operations to Make Binary Array Elements Equal to One I](../leetcode/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 3203 | [Find Minimum Diameter After Merging Two Trees](../leetcode/3439-find-minimum-diameter-after-merging-two-trees/) | Hard | Tree & Graph | O(n) | O(n) |
-| 3217 | [Delete Nodes From Linked List Present in Array](../leetcode/3501-delete-nodes-from-linked-list-present-in-array/) | Medium | Linked List | O(n) | O(1) |
+| 3217 | [Delete Nodes From Linked List Present in Array](../leetcode/3501-delete-nodes-from-linked-list-present-in-array/) | Medium | Two Pointers | O(n) | O(1) |
 | 3233 | [Find the Count of Numbers Which Are Not Special](../leetcode/3507-find-the-count-of-numbers-which-are-not-special/) | Medium | Array / General | O(n) | O(1) |
-| 3241 | [Time Taken to Mark All Nodes](../leetcode/3532-time-taken-to-mark-all-nodes/) | Hard | Linked List | O(n) | O(1) |
+| 3241 | [Time Taken to Mark All Nodes](../leetcode/3532-time-taken-to-mark-all-nodes/) | Hard | Two Pointers | O(n) | O(1) |
 | 3242 | [Design Neighbor Sum Service](../leetcode/3516-design-neighbor-sum-service/) | Easy | Array / General | O(n) | O(1) |
 | 3243 | [Shortest Distance After Road Addition Queries I](../leetcode/3517-shortest-distance-after-road-addition-queries-i/) | Medium | Array / General | O(n) | O(1) |
 | 3244 | [Shortest Distance After Road Addition Queries II](../leetcode/3514-shortest-distance-after-road-addition-queries-ii/) | Hard | Array / General | O(n) | O(1) |
@@ -588,11 +588,11 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 3352 | [Count K-Reducible Numbers Less Than N](../leetcode/3631-count-k-reducible-numbers-less-than-n/) | Hard | Bit Manipulation | O(n) | O(1) |
 | 3354 | [Make Array Elements Equal to Zero](../leetcode/3616-make-array-elements-equal-to-zero/) | Easy | Array / General | O(n) | O(1) |
 | 3360 | [Stone Removal Game](../leetcode/3625-stone-removal-game/) | Easy | Array / General | O(n) | O(1) |
-| 3377 | [Digit Operations to Make Two Integers Equal](../leetcode/3655-digit-operations-to-make-two-integers-equal/) | Medium | Math & Logic | O(n) | O(1) |
+| 3377 | [Digit Operations to Make Two Integers Equal](../leetcode/3655-digit-operations-to-make-two-integers-equal/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 3379 | [Transformed Array](../leetcode/3651-transformed-array/) | Easy | Array / General | O(n) | O(1) |
 | 3380 | [Maximum Area Rectangle With Point Constraints I](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/) | Medium | Math & Logic | O(n) | O(1) |
 | 3382 | [Maximum Area Rectangle With Point Constraints II](../leetcode/3689-maximum-area-rectangle-with-point-constraints-ii/) | Hard | Math & Logic | O(n) | O(1) |
-| 3387 | [Maximize Amount After Two Days of Conversions](../leetcode/3613-maximize-amount-after-two-days-of-conversions/) | Medium | Array / General | O(n) | O(1) |
+| 3387 | [Maximize Amount After Two Days of Conversions](../leetcode/3613-maximize-amount-after-two-days-of-conversions/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3395 | [Subsequences with a Unique Middle Mode I](../leetcode/3700-subsequences-with-a-unique-middle-mode-i/) | Hard | Hash Map | O(n) | O(n) |
 | 3405 | [Count the Number of Arrays with K Matching Adjacent Elements](../leetcode/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/) | Hard | Array / General | O(n) | O(1) |
 | 3408 | [Design Task Manager](../leetcode/3678-design-task-manager/) | Medium | Array / General | O(n) | O(1) |
@@ -601,20 +601,20 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 3417 | [Zigzag Grid Traversal With Skip](../leetcode/3708-zigzag-grid-traversal-with-skip/) | Easy | Tree & Graph | O(n) | O(n) |
 | 3419 | [Minimize the Maximum Edge Weight of Graph](../leetcode/3720-minimize-the-maximum-edge-weight-of-graph/) | Medium | Array / General | O(n) | O(1) |
 | 3420 | [Count Non-Decreasing Subarrays After K Operations](../leetcode/3674-count-non-decreasing-subarrays-after-k-operations/) | Hard | Array / General | O(n) | O(1) |
-| 3426 | [Manhattan Distances of All Arrangements of Pieces](../leetcode/3739-manhattan-distances-of-all-arrangements-of-pieces/) | Hard | Array / General | O(n) | O(1) |
+| 3426 | [Manhattan Distances of All Arrangements of Pieces](../leetcode/3739-manhattan-distances-of-all-arrangements-of-pieces/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3428 | [Maximum and Minimum Sums of at Most Size K Subsequences](../leetcode/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences/) | Medium | Dynamic Programming | O(n) | O(n) |
-| 3433 | [Count Mentions Per User](../leetcode/3721-count-mentions-per-user/) | Medium | Array / General | O(n) | O(1) |
+| 3433 | [Count Mentions Per User](../leetcode/3721-count-mentions-per-user/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3435 | [Frequencies of Shortest Supersequences](../leetcode/3713-frequencies-of-shortest-supersequences/) | Hard | Hash Map | O(n) | O(n) |
 | 3461 | [Check If Digits Are Equal in String After Operations I](../leetcode/3768-check-if-digits-are-equal-in-string-after-operations-i/) | Easy | Math & Logic | O(n) | O(1) |
 | 3463 | [Check If Digits Are Equal in String After Operations II](../leetcode/3774-check-if-digits-are-equal-in-string-after-operations-ii/) | Hard | Math & Logic | O(n) | O(1) |
 | 3470 | [Permutations IV](../leetcode/3783-permutations-iv/) | Hard | Backtracking | O(n) | O(1) |
-| 3477 | [Fruits Into Baskets II](../leetcode/3790-fruits-into-baskets-ii/) | Easy | Array / General | O(n) | O(1) |
+| 3477 | [Fruits Into Baskets II](../leetcode/3790-fruits-into-baskets-ii/) | Easy | Binary Search | O(n) | O(1) |
 | 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | Easy | Math & Logic | O(n) | O(1) |
 | 3484 | [Design Spreadsheet](../leetcode/3797-design-spreadsheet/) | Medium | Array / General | O(n) | O(1) |
 | 3494 | [Find the Minimum Amount of Time to Brew Potions](../leetcode/3794-find-the-minimum-amount-of-time-to-brew-potions/) | Medium | Array / General | O(n) | O(1) |
-| 3508 | [Implement Router](../leetcode/3827-implement-router/) | Medium | Dynamic Programming | O(n) | O(n) |
+| 3508 | [Implement Router](../leetcode/3827-implement-router/) | Medium | Trie | O(n) | O(n) |
 | 3515 | [Shortest Path in a Weighted Tree](../leetcode/3829-shortest-path-in-a-weighted-tree/) | Hard | Tree & Graph | O(n) | O(n) |
-| 3522 | [Calculate Score After Performing Instructions](../leetcode/3732-calculate-score-after-performing-instructions/) | Medium | Array / General | O(n) | O(1) |
+| 3522 | [Calculate Score After Performing Instructions](../leetcode/3732-calculate-score-after-performing-instructions/) | Medium | Hash Map | O(n) | O(n) |
 | 3524 | [Find X Value of Array I](../leetcode/3831-find-x-value-of-array-i/) | Medium | Binary Search | O(n) | O(1) |
 | 3525 | [Find X Value of Array II](../leetcode/3840-find-x-value-of-array-ii/) | Hard | Binary Search | O(n) | O(1) |
 | 3528 | [Unit Conversion I](../leetcode/3729-unit-conversion-i/) | Medium | Array / General | O(n) | O(1) |
@@ -626,11 +626,11 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 3556 | [Sum of Largest Prime Substrings](../leetcode/3815-sum-of-largest-prime-substrings/) | Medium | Array / General | O(n) | O(1) |
 | 3569 | [Maximize Count of Distinct Primes After Split](../leetcode/3878-maximize-count-of-distinct-primes-after-split/) | Hard | Array / General | O(n) | O(1) |
 | 3574 | [Maximize Subarray GCD Score](../leetcode/3888-maximize-subarray-gcd-score/) | Hard | Array / General | O(n) | O(1) |
-| 3578 | [Count Partitions With Max-Min Difference at Most K](../leetcode/3835-count-partitions-with-max-min-difference-at-most-k/) | Medium | Array / General | O(n) | O(1) |
+| 3578 | [Count Partitions With Max-Min Difference at Most K](../leetcode/3835-count-partitions-with-max-min-difference-at-most-k/) | Medium | Tree & Graph | O(n) | O(n) |
 | 3589 | [Count Prime-Gap Balanced Subarrays](../leetcode/3907-count-prime-gap-balanced-subarrays/) | Medium | Array / General | O(n) | O(1) |
 | 3591 | [Check if Any Element Has Prime Frequency](../leetcode/3914-check-if-any-element-has-prime-frequency/) | Easy | Hash Map | O(n) | O(n) |
-| 3594 | [Minimum Time to Transport All Individuals](../leetcode/3896-minimum-time-to-transport-all-individuals/) | Hard | Array / General | O(n) | O(1) |
-| 3600 | [Maximize Spanning Tree Stability with Upgrades](../leetcode/3902-maximize-spanning-tree-stability-with-upgrades/) | Hard | Tree & Graph | O(n) | O(n) |
+| 3594 | [Minimum Time to Transport All Individuals](../leetcode/3896-minimum-time-to-transport-all-individuals/) | Hard | Tree & Graph | O(n) | O(n) |
+| 3600 | [Maximize Spanning Tree Stability with Upgrades](../leetcode/3902-maximize-spanning-tree-stability-with-upgrades/) | Hard | Binary Search | O(n) | O(1) |
 | 3604 | [Minimum Time to Reach Destination in Directed Graph](../leetcode/3916-minimum-time-to-reach-destination-in-directed-graph/) | Medium | Array / General | O(n) | O(1) |
 | 3605 | [Minimum Stability Factor of Array](../leetcode/3920-minimum-stability-factor-of-array/) | Hard | Array / General | O(n) | O(1) |
 | 3615 | [Longest Palindromic Path in Graph](../leetcode/3930-longest-palindromic-path-in-graph/) | Hard | Tree & Graph | O(n) | O(n) |
@@ -641,8 +641,8 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 3715 | [Sum of Perfect Square Ancestors](../leetcode/3957-sum-of-perfect-square-ancestors/) | Hard | Tree & Graph | O(n) | O(n) |
 | 3725 | [Count Ways to Choose Coprime Integers from Rows](../leetcode/4069-count-ways-to-choose-coprime-integers-from-rows/) | Hard | Array / General | O(n) | O(1) |
 | 3727 | [Maximum Alternating Sum of Squares](../leetcode/4078-maximum-alternating-sum-of-squares/) | Medium | Tree & Graph | O(n) | O(n) |
-| 3765 | [Complete Prime Number](../leetcode/4100-complete-prime-number/) | Medium | Array / General | O(n) | O(1) |
-| 3770 | [Largest Prime from Consecutive Prime Sum](../leetcode/4085-largest-prime-from-consecutive-prime-sum/) | Medium | Array / General | O(n) | O(1) |
+| 3765 | [Complete Prime Number](../leetcode/4100-complete-prime-number/) | Medium | Tree & Graph | O(n) | O(n) |
+| 3770 | [Largest Prime from Consecutive Prime Sum](../leetcode/4085-largest-prime-from-consecutive-prime-sum/) | Medium | Linked List | O(n) | O(1) |
 | 3812 | [Minimum Edge Toggles on a Tree](../leetcode/4181-minimum-edge-toggles-on-a-tree/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 3815 | [Design Auction System](../leetcode/4067-design-auction-system/) | Medium | Array / General | O(n) | O(1) |
 | 3835 | [Count Subarrays With Cost Less Than or Equal to K](../leetcode/4211-count-subarrays-with-cost-less-than-or-equal-to-k/) | Medium | Array / General | O(n) | O(1) |
@@ -651,7 +651,7 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 3871 | [Count Commas in Range II](../leetcode/4248-count-commas-in-range-ii/) | Medium | Array / General | O(n) | O(1) |
 | 3885 | [Design Event Manager](../leetcode/4267-design-event-manager/) | Medium | Array / General | O(n) | O(1) |
 | 3896 | [Minimum Operations to Transform Array into Alternating Prime](../leetcode/4277-minimum-operations-to-transform-array-into-alternating-prime/) | Medium | Array / General | O(n) | O(1) |
-| 3898 | [Find the Degree of Each Vertex](../leetcode/4271-find-the-degree-of-each-vertex/) | Easy | Array / General | O(n) | O(1) |
+| 3898 | [Find the Degree of Each Vertex](../leetcode/4271-find-the-degree-of-each-vertex/) | Easy | Tree & Graph | O(n) | O(n) |
 | 3901 | [Good Subsequence Queries](../leetcode/4215-good-subsequence-queries/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 3903 | [Smallest Stable Index I](../leetcode/4284-smallest-stable-index-i/) | Easy | Tree & Graph | O(n) | O(n) |
 | 3904 | [Smallest Stable Index II](../leetcode/4285-smallest-stable-index-ii/) | Medium | Array / General | O(n) | O(1) |
@@ -663,10 +663,10 @@ A collection of LeetCode problems implemented in **JavaScript** with detailed co
 | 3956 | [Maximum Sum of M Non-Overlapping Subarrays I](../leetcode/4123-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard | Array / General | O(n) | O(1) |
 | 3957 | [Maximum Sum of M Non-Overlapping Subarrays II](../leetcode/4125-maximum-sum-of-m-non-overlapping-subarrays-ii/) | Hard | Array / General | O(n) | O(1) |
 | 3984 | [Divisible Game](../leetcode/4188-divisible-game/) | Medium | Array / General | O(n) | O(1) |
-| 3997 | [Count Dominant Nodes in a Binary Tree](../leetcode/4358-count-dominant-nodes-in-a-binary-tree/) | Medium | Linked List | O(n) | O(1) |
+| 3997 | [Count Dominant Nodes in a Binary Tree](../leetcode/4358-count-dominant-nodes-in-a-binary-tree/) | Medium | Two Pointers | O(n) | O(1) |
 | 4002 | [Count Valid Sequences](../leetcode/4345-count-valid-sequences/) | Medium | Array / General | O(n) | O(1) |
 | 4010 | [Maximize Pair Strength Using GCD](../leetcode/4371-maximize-pair-strength-using-gcd/) | Easy | Array / General | O(n) | O(1) |
-| 4032 | [Longest Subarray With at Most K Distinct Prime Factors](../leetcode/4370-longest-subarray-with-at-most-k-distinct-prime-factors/) | Medium | Array / General | O(n) | O(1) |
+| 4032 | [Longest Subarray With at Most K Distinct Prime Factors](../leetcode/4370-longest-subarray-with-at-most-k-distinct-prime-factors/) | Medium | Hash Map | O(n) | O(n) |
 | 4035 | [Maximum Valid Split Positions I](../leetcode/4373-maximum-valid-split-positions-i/) | Medium | Array / General | O(n) | O(1) |
 | 4037 | [Maximum Valid Split Positions II](../leetcode/4388-maximum-valid-split-positions-ii/) | Hard | Array / General | O(n) | O(1) |
 | 4098 | [Minimize the Maximum Value of GCD-Connected Array](../leetcode/4462-minimize-the-maximum-value-of-gcd-connected-array/) | Medium | Array / General | O(n) | O(1) |

@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3515. Shortest Path in a Weighted Tree](../3829-shortest-path-in-a-weighted-tree/)
 - [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 - [1191. K-Concatenation Maximum Sum](../1299-k-concatenation-maximum-sum/)
+- [1219. Path with Maximum Gold](../1331-path-with-maximum-gold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-weighted-k-edge-path/)

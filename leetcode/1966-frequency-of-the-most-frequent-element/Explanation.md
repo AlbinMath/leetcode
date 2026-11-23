@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [508. Most Frequent Subtree Sum](../0508-most-frequent-subtree-sum/)
 - [2958. Length of Longest Subarray With at Most K Frequency](../3225-length-of-longest-subarray-with-at-most-k-frequency/)
-- [3346. Maximum Frequency of an Element After Performing Operations I](../3622-maximum-frequency-of-an-element-after-performing-operations-i/)
-- [3347. Maximum Frequency of an Element After Performing Operations II](../3640-maximum-frequency-of-an-element-after-performing-operations-ii/)
+- [3044. Most Frequent Prime](../3314-most-frequent-prime/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)

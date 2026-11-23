@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](../3213-count-subarrays-where-max-element-appears-at-least-k-times/)
 - [3405. Count the Number of Arrays with K Matching Adjacent Elements](../3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
-- [2183. Count Array Pairs Divisible by K](../2301-count-array-pairs-divisible-by-k/)
+- [2859. Sum of Values at Indices With K Set Bits](../3093-sum-of-values-at-indices-with-k-set-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/)

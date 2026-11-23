@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2116. Check if a Parentheses String Can Be Valid](../2221-check-if-a-parentheses-string-can-be-valid/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1433. Check If a String Can Break Another String](../1530-check-if-a-string-can-break-another-string/)
+- [1003. Check If Word Is Valid After Substitutions](../1045-check-if-word-is-valid-after-substitutions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/)

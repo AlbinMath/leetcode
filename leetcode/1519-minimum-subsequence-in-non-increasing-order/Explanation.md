@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3825. Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND](../4032-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/)
-- [300. Longest Increasing Subsequence](../0300-longest-increasing-subsequence/)
-- [334. Increasing Triplet Subsequence](../0334-increasing-triplet-subsequence/)
+- [1969. Minimum Non-Zero Product of the Array Elements](../2100-minimum-non-zero-product-of-the-array-elements/)
+- [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../3423-maximum-sum-of-subsequence-with-non-adjacent-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)

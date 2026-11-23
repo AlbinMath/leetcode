@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1301. Number of Paths with Max Score](../1234-number-of-paths-with-max-score/)
-- [1786. Number of Restricted Paths From First to Last Node](../1912-number-of-restricted-paths-from-first-to-last-node/)
-- [2421. Number of Good Paths](../2505-number-of-good-paths/)
+- [2503. Maximum Number of Points From Grid Queries](../2588-maximum-number-of-points-from-grid-queries/)
+- [2617. Minimum Number of Visited Cells in a Grid](../2697-minimum-number-of-visited-cells-in-a-grid/)
+- [2658. Maximum Number of Fish in a Grid](../2764-maximum-number-of-fish-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)

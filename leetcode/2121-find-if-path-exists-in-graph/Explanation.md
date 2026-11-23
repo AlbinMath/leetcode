@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1391. Check if There is a Valid Path in a Grid](../1507-check-if-there-is-a-valid-path-in-a-grid/)
-- [3011. Find if Array Can Be Sorted](../3291-find-if-array-can-be-sorted/)
+- [1791. Find Center of Star Graph](../1916-find-center-of-star-graph/)
+- [2812. Find the Safest Path in a Grid](../2914-find-the-safest-path-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/)

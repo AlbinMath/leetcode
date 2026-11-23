@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1592. Rearrange Spaces Between Words](../1714-rearrange-spaces-between-words/)
 - [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/adding-spaces-to-a-string/)

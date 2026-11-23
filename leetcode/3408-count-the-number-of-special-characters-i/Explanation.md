@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [828. Count Unique Characters of All Substrings of a Given String](../0855-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1358. Number of Substrings Containing All Three Characters](../1460-number-of-substrings-containing-all-three-characters/)
-- [1898. Maximum Number of Removable Characters](../2027-maximum-number-of-removable-characters/)
+- [1248. Count Number of Nice Subarrays](../1370-count-number-of-nice-subarrays/)
+- [1395. Count Number of Teams](../1511-count-number-of-teams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-special-characters-i/)

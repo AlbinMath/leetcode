@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2954. Count the Number of Infection Sequences](../3224-count-the-number-of-infection-sequences/)
-- [3850. Count Sequences to K](../4065-count-sequences-to-k/)
 - [1359. Count All Valid Pickup and Delivery Options](../1461-count-all-valid-pickup-and-delivery-options/)
+- [2867. Count Valid Paths in a Tree](../3112-count-valid-paths-in-a-tree/)
+- [2954. Count the Number of Infection Sequences](../3224-count-the-number-of-infection-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-valid-sequences/)

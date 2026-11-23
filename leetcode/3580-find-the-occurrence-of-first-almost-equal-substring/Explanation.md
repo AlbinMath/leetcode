@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [1371. Find the Longest Substring Containing Vowels in Even Counts](../1473-find-the-longest-substring-containing-vowels-in-even-counts/)
-- [1542. Find Longest Awesome Substring](../1668-find-longest-awesome-substring/)
+- [3265. Count Almost Equal Pairs I](../3534-count-almost-equal-pairs-i/)
+- [3267. Count Almost Equal Pairs II](../3544-count-almost-equal-pairs-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-occurrence-of-first-almost-equal-substring/)

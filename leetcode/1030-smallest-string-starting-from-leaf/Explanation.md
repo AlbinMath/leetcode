@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2375. Construct Smallest Number From DI String](../2456-construct-smallest-number-from-di-string/)
-- [1130. Minimum Cost Tree From Leaf Values](../1228-minimum-cost-tree-from-leaf-values/)
-- [606. Construct String from Binary Tree](../0606-construct-string-from-binary-tree/)
+- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
+- [1061. Lexicographically Smallest Equivalent String](../1058-lexicographically-smallest-equivalent-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-string-starting-from-leaf/)

@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1450. Number of Students Doing Homework at a Given Time](../1560-number-of-students-doing-homework-at-a-given-time/)
 - [1736. Latest Time by Replacing Hidden Digits](../1858-latest-time-by-replacing-hidden-digits/)
-- [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
+- [828. Count Unique Characters of All Substrings of a Given String](../0855-count-unique-characters-of-all-substrings-of-a-given-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-time-for-given-digits/)

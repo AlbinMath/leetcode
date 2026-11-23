@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1725. Number Of Rectangles That Can Form The Largest Square](../1843-number-of-rectangles-that-can-form-the-largest-square/)
-- [2250. Count Number of Rectangles Containing Each Point](../2333-count-number-of-rectangles-containing-each-point/)
 - [1128. Number of Equivalent Domino Pairs](../1227-number-of-equivalent-domino-pairs/)
+- [1512. Number of Good Pairs](../1635-number-of-good-pairs/)
+- [1530. Number of Good Leaf Nodes Pairs](../1653-number-of-good-leaf-nodes-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)

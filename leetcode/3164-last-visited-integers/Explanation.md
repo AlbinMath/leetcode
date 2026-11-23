@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [29. Divide Two Integers](../0029-divide-two-integers/)
-- [371. Sum of Two Integers](../0371-sum-of-two-integers/)
-- [600. Non-negative Integers without Consecutive Ones](../0600-non-negative-integers-without-consecutive-ones/)
+- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [58. Length of Last Word](../0058-length-of-last-word/)
+- [1046. Last Stone Weight](../1127-last-stone-weight/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-visited-integers/)

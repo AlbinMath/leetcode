@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1298. Maximum Candies You Can Get from Boxes](../1424-maximum-candies-you-can-get-from-boxes/)
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [546. Remove Boxes](../0546-remove-boxes/)
+- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)

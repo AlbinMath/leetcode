@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [461. Hamming Distance](../0461-hamming-distance/)
+- [477. Total Hamming Distance](../0477-total-hamming-distance/)
 - [1625. Lexicographically Smallest String After Applying Operations](../1747-lexicographically-smallest-string-after-applying-operations/)
-- [1799. Maximize Score After N Operations](../1906-maximize-score-after-n-operations/)
-- [2011. Final Value of Variable After Performing Operations](../2137-final-value-of-variable-after-performing-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)

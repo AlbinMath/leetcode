@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1395. Count Number of Teams](../1511-count-number-of-teams/)
 - [178. Rank Scores](../0178-rank-scores/)
 - [1331. Rank Transform of an Array](../1256-rank-transform-of-an-array/)
+- [1615. Maximal Network Rank](../1738-maximal-network-rank/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-teams-by-votes/)

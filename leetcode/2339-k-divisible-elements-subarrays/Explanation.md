@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../3717-minimum-operations-to-make-elements-within-k-subarrays-equal/)
-- [1015. Smallest Integer Divisible by K](../1064-smallest-integer-divisible-by-k/)
-- [2183. Count Array Pairs Divisible by K](../2301-count-array-pairs-divisible-by-k/)
+- [992. Subarrays with K Different Integers](../1034-subarrays-with-k-different-integers/)
+- [2302. Count Subarrays With Score Less Than K](../2394-count-subarrays-with-score-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-divisible-elements-subarrays/)

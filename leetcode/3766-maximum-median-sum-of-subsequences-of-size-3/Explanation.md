@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [3428. Maximum and Minimum Sums of at Most Size K Subsequences](../3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences/)
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](../0689-maximum-sum-of-3-non-overlapping-subarrays/)
-- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
+- [3428. Maximum and Minimum Sums of at Most Size K Subsequences](../3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences/)
+- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-median-sum-of-subsequences-of-size-3/)

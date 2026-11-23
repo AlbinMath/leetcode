@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3633. Earliest Finish Time for Land and Water Rides I](../3965-earliest-finish-time-for-land-and-water-rides-i/)
 - [1723. Find Minimum Time to Finish All Jobs](../1825-find-minimum-time-to-finish-all-jobs/)
-- [1665. Minimum Initial Energy to Finish Tasks](../1784-minimum-initial-energy-to-finish-tasks/)
+- [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/)

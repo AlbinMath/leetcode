@@ -1,7 +1,7 @@
 # LeetCode 3108: Minimum Cost Walk in Weighted Graph
 
 **LeetCode Problem #3108 — Minimum Cost Walk in Weighted Graph**
-Solve LeetCode Minimum Cost Walk in Weighted Graph using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Minimum Cost Walk in Weighted Graph using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,41 @@ Solve LeetCode Minimum Cost Walk in Weighted Graph using Python and Bit Manipula
 | LeetCode | #3108 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 There is an undirected weighted graph with  n  vertices labeled from  0  to  n - 1 .
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Cost Walk in Weighted Graph**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+Consider the standard input for **Minimum Cost Walk in Weighted Graph**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Bit Manipulation**
+**Tree & Graph**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -51,7 +53,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -63,9 +65,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1761. Minimum Degree of a Connected Trio in a Graph](../1887-minimum-degree-of-a-connected-trio-in-a-graph/)
+- [3604. Minimum Time to Reach Destination in Directed Graph](../3916-minimum-time-to-reach-destination-in-directed-graph/)
 - [2203. Minimum Weighted Subgraph With the Required Paths](../2321-minimum-weighted-subgraph-with-the-required-paths/)
-- [3553. Minimum Weighted Subgraph With the Required Paths II](../3853-minimum-weighted-subgraph-with-the-required-paths-ii/)
-- [1130. Minimum Cost Tree From Leaf Values](../1228-minimum-cost-tree-from-leaf-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/)

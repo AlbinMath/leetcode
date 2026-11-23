@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1561. Maximum Number of Coins You Can Get](../1683-maximum-number-of-coins-you-can-get/)
 - [1935. Maximum Number of Words You Can Type](../1264-maximum-number-of-words-you-can-type/)
-- [1941. Check if All Characters Have Equal Number of Occurrences](../2053-check-if-all-characters-have-equal-number-of-occurrences/)
+- [2071. Maximum Number of Tasks You Can Assign](../2180-maximum-number-of-tasks-you-can-assign/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/)

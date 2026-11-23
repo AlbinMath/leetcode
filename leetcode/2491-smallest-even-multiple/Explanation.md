@@ -1,7 +1,7 @@
 # LeetCode 2413: Smallest Even Multiple
 
 **LeetCode Problem #2413 — Smallest Even Multiple**
-Solve LeetCode Smallest Even Multiple using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Smallest Even Multiple using Python and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Smallest Even Multiple using Python and Array / General. This sol
 | LeetCode | #2413 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Pointer Traversal & Node Manipulation |
+| Data Structure | Linked List |
+| Pattern | Linked List |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Smallest Even Multiple using Python and Array / General. This sol
 Given a  positive  integer  n , return  the smallest positive integer that is a multiple of  both    2   and   n .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Linked List**).
+2. Process elements sequentially using **Pointer Traversal & Node Manipulation**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Smallest Even Multiple**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Smallest Even Multiple**. Applying **Pointer Traversal & Node Manipulation** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Linked List**
 
 ## Topics
-- Array
+- Linked List
+- Two Pointers
 
 ## Language
 Python
@@ -50,7 +51,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -63,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3718. Smallest Missing Multiple of K](../4080-smallest-missing-multiple-of-k/)
-- [328. Odd Even Linked List](../0328-odd-even-linked-list/)
-- [975. Odd Even Jump](../1017-odd-even-jump/)
+- [1354. Construct Target Array With Multiple Sums](../1479-construct-target-array-with-multiple-sums/)
+- [3890. Integers With Multiple Sum of Two Cubes](../4268-integers-with-multiple-sum-of-two-cubes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-even-multiple/)

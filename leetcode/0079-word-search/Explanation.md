@@ -64,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [212. Word Search II](../0212-word-search-ii/)
-- [58. Length of Last Word](../0058-length-of-last-word/)
-- [126. Word Ladder II](../0126-word-ladder-ii/)
+- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
+- [35. Search Insert Position](../0035-search-insert-position/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-search/)

@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](../3213-count-subarrays-where-max-element-appears-at-least-k-times/)
-- [1566. Detect Pattern of Length M Repeated K or More Times](../1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
+- [395. Longest Substring with At Least K Repeating Characters](../0395-longest-substring-with-at-least-k-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)

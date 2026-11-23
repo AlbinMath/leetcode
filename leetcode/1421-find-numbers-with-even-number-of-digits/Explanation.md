@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [357. Count Numbers with Unique Digits](../0357-count-numbers-with-unique-digits/)
+- [448. Find All Numbers Disappeared in an Array](../0448-find-all-numbers-disappeared-in-an-array/)
 - [985. Sum of Even Numbers After Queries](../1027-sum-of-even-numbers-after-queries/)
-- [1371. Find the Longest Substring Containing Vowels in Even Counts](../1473-find-the-longest-substring-containing-vowels-in-even-counts/)
-- [2094. Finding 3-Digit Even Numbers](../2215-finding-3-digit-even-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)

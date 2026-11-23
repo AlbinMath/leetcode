@@ -75,8 +75,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [828. Count Unique Characters of All Substrings of a Given String](../0855-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1941. Check if All Characters Have Equal Number of Occurrences](../2053-check-if-all-characters-have-equal-number-of-occurrences/)
 - [1876. Substrings of Size Three with Distinct Characters](../1987-substrings-of-size-three-with-distinct-characters/)
+- [1941. Check if All Characters Have Equal Number of Occurrences](../2053-check-if-all-characters-have-equal-number-of-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)

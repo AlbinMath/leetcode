@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1415. The k-th Lexicographical String of All Happy Strings of Length n](../1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
-- [1553. Minimum Number of Days to Eat N Oranges](../1676-minimum-number-of-days-to-eat-n-oranges/)
+- [3154. Find Number of Ways to Reach the K-th Stair](../3414-find-number-of-ways-to-reach-the-k-th-stair/)
 - [3179. Find the N-th Value After K Seconds](../3422-find-the-n-th-value-after-k-seconds/)
 
 ## LeetCode

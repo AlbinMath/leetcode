@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [4010. Maximize Pair Strength Using GCD](../4371-maximize-pair-strength-using-gcd/)
-- [1793. Maximum Score of a Good Subarray](../1918-maximum-score-of-a-good-subarray/)
-- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+- [1799. Maximize Score After N Operations](../1906-maximize-score-after-n-operations/)
+- [2818. Apply Operations to Maximize Score](../3001-apply-operations-to-maximize-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-subarray-gcd-score/)

@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
-- [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
 - [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+- [2311. Longest Binary Subsequence Less Than or Equal to K](../2395-longest-binary-subsequence-less-than-or-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)

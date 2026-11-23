@@ -1,7 +1,7 @@
 # LeetCode 187: Repeated DNA Sequences
 
 **LeetCode Problem #187 — Repeated DNA Sequences**
-Solve LeetCode Repeated DNA Sequences using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Repeated DNA Sequences using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,39 @@ Solve LeetCode Repeated DNA Sequences using Python and Array / General. This sol
 | LeetCode | #187 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 The  DNA sequence  is composed of a series of nucleotides abbreviated as  &#39;A&#39; ,  &#39;C&#39; ,  &#39;G&#39; , and  &#39;T&#39; .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Stack**).
+2. Process elements sequentially using **Stack Push / Pop Parsing**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Repeated DNA Sequences**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Repeated DNA Sequences**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Array / General**
+**Stack & Queue**
 
 ## Topics
-- Array
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -50,7 +51,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -63,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3475. DNA Pattern Recognition ](../3816-dna-pattern-recognition-/)
-- [946. Validate Stack Sequences](../0983-validate-stack-sequences/)
-- [2318. Number of Distinct Roll Sequences](../2404-number-of-distinct-roll-sequences/)
+- [459. Repeated Substring Pattern](../0459-repeated-substring-pattern/)
+- [686. Repeated String Match](../0686-repeated-string-match/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-dna-sequences/)

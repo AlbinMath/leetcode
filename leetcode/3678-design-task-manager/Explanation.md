@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1797. Design Authentication Manager](../1905-design-authentication-manager/)
 - [3885. Design Event Manager](../4267-design-event-manager/)
-- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
+- [2365. Task Scheduler II](../2483-task-scheduler-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-task-manager/)

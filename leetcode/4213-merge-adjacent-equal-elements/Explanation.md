@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [453. Minimum Moves to Equal Array Elements](../0453-minimum-moves-to-equal-array-elements/)
-- [462. Minimum Moves to Equal Array Elements II](../0462-minimum-moves-to-equal-array-elements-ii/)
-- [1608. Special Array With X Elements Greater Than or Equal X](../1730-special-array-with-x-elements-greater-than-or-equal-x/)
+- [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../3423-maximum-sum-of-subsequence-with-non-adjacent-elements/)
+- [3405. Count the Number of Arrays with K Matching Adjacent Elements](../3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
+- [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../4411-count-rotations-with-exactly-k-equal-adjacent-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-adjacent-equal-elements/)

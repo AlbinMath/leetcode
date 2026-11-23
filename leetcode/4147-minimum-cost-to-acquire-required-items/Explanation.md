@@ -1,7 +1,7 @@
 # LeetCode 3789: Minimum Cost to Acquire Required Items
 
 **LeetCode Problem #3789 — Minimum Cost to Acquire Required Items**
-Solve LeetCode Minimum Cost to Acquire Required Items using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Minimum Cost to Acquire Required Items using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,41 @@ Solve LeetCode Minimum Cost to Acquire Required Items using Python and Array / G
 | LeetCode | #3789 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 You are given five integers  cost1 ,  cost2 ,  costBoth ,  need1 , and  need2 .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Minimum Cost to Acquire Required Items**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Minimum Cost to Acquire Required Items**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -50,7 +53,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +65,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2203. Minimum Weighted Subgraph With the Required Paths](../2321-minimum-weighted-subgraph-with-the-required-paths/)
+- [3553. Minimum Weighted Subgraph With the Required Paths II](../3853-minimum-weighted-subgraph-with-the-required-paths-ii/)
 - [1130. Minimum Cost Tree From Leaf Values](../1228-minimum-cost-tree-from-leaf-values/)
-- [1217. Minimum Cost to Move Chips to The Same Position](../1329-minimum-cost-to-move-chips-to-the-same-position/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-acquire-required-items/)

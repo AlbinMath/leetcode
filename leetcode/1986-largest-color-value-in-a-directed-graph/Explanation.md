@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [515. Find Largest Value in Each Tree Row](../0515-find-largest-value-in-each-tree-row/)
+- [1738. Find Kth Largest XOR Coordinate Value](../1860-find-kth-largest-xor-coordinate-value/)
 - [2192. All Ancestors of a Node in a Directed Acyclic Graph](../1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
-- [2876. Count Visited Nodes in a Directed Graph](../3140-count-visited-nodes-in-a-directed-graph/)
-- [3604. Minimum Time to Reach Destination in Directed Graph](../3916-minimum-time-to-reach-destination-in-directed-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)

@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2694. Event Emitter](../2797-event-emitter/)
-- [3317. Find the Number of Possible Ways for an Event](../3604-find-the-number-of-possible-ways-for-an-event/)
-- [3885. Design Event Manager](../4267-design-event-manager/)
+- [959. Regions Cut By Slashes](../0999-regions-cut-by-slashes/)
+- [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
+- [96. Unique Binary Search Trees](../0096-unique-binary-search-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cut-off-trees-for-golf-event/)

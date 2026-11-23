@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [402. Remove K Digits](../0402-remove-k-digits/)
+- [3669. Balanced K-Factor Decomposition](../3947-balanced-k-factor-decomposition/)
 - [3258. Count Substrings That Satisfy K-Constraint I](../3543-count-substrings-that-satisfy-k-constraint-i/)
-- [3261. Count Substrings That Satisfy K-Constraint II](../3546-count-substrings-that-satisfy-k-constraint-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-k-balanced-substrings/)

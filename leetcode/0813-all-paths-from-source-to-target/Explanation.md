@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](../1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- [1786. Number of Restricted Paths From First to Last Node](../1912-number-of-restricted-paths-from-first-to-last-node/)
 - [2115. Find All Possible Recipes from Given Supplies](../2220-find-all-possible-recipes-from-given-supplies/)
-- [2920. Maximum Points After Collecting Coins From All Nodes](../3179-maximum-points-after-collecting-coins-from-all-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/all-paths-from-source-to-target/)

@@ -24,6 +24,7 @@ A curated selection of LeetCode problems solved using the **Memoization & State 
 | 730 | [Count Different Palindromic Subsequences](../leetcode/0730-count-different-palindromic-subsequences/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 792 | [Number of Matching Subsequences](../leetcode/0808-number-of-matching-subsequences/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 940 | [Distinct Subsequences II](../leetcode/0977-distinct-subsequences-ii/) | Hard | Dynamic Programming | O(n) | O(n) |
+| 985 | [Sum of Even Numbers After Queries](../leetcode/1027-sum-of-even-numbers-after-queries/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1033 | [Moving Stones Until Consecutive](../leetcode/1103-moving-stones-until-consecutive/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1040 | [Moving Stones Until Consecutive II](../leetcode/1113-moving-stones-until-consecutive-ii/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 1140 | [Stone Game II](../leetcode/1240-stone-game-ii/) | Medium | Dynamic Programming | O(n) | O(n) |
@@ -67,7 +68,6 @@ A curated selection of LeetCode problems solved using the **Memoization & State 
 | 3336 | [Find the Number of Subsequences With Equal GCD](../leetcode/3608-find-the-number-of-subsequences-with-equal-gcd/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 3404 | [Count Special Subsequences](../leetcode/3699-count-special-subsequences/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 3428 | [Maximum and Minimum Sums of at Most Size K Subsequences](../leetcode/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences/) | Medium | Dynamic Programming | O(n) | O(n) |
-| 3508 | [Implement Router](../leetcode/3827-implement-router/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 3627 | [Maximum Median Sum of Subsequences of Size 3](../leetcode/3766-maximum-median-sum-of-subsequences-of-size-3/) | Medium | Dynamic Programming | O(n) | O(n) |
 | 3671 | [Sum of Beautiful Subsequences](../leetcode/3989-sum-of-beautiful-subsequences/) | Hard | Dynamic Programming | O(n) | O(n) |
 | 3681 | [Maximum XOR of Subsequences](../leetcode/3990-maximum-xor-of-subsequences/) | Hard | Dynamic Programming | O(n) | O(n) |

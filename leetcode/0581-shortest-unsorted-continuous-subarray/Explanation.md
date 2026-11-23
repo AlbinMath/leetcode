@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [862. Shortest Subarray with Sum at Least K](../0892-shortest-subarray-with-sum-at-least-k/)
-- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](../1679-shortest-subarray-to-be-removed-to-make-array-sorted/)
+- [3095. Shortest Subarray With OR at Least K I](../3381-shortest-subarray-with-or-at-least-k-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)

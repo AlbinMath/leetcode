@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3910. Count Connected Subgraphs with Even Node Sum](../4279-count-connected-subgraphs-with-even-node-sum/)
-- [371. Sum of Two Integers](../0371-sum-of-two-integers/)
-- [1317. Convert Integer to the Sum of Two No-Zero Integers](../1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
+- [327. Count of Range Sum](../0327-count-of-range-sum/)
+- [1925. Count Square Sum Triples](../2037-count-square-sum-triples/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-integers-with-even-digit-sum/)

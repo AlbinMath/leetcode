@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [58. Length of Last Word](../0058-length-of-last-word/)
-- [79. Word Search](../0079-word-search/)
-- [126. Word Ladder II](../0126-word-ladder-ii/)
+- [78. Subsets](../0078-subsets/)
+- [90. Subsets II](../0090-subsets-ii/)
+- [698. Partition to K Equal Sum Subsets](../0698-partition-to-k-equal-sum-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-subsets/)

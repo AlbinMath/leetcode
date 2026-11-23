@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1275. Find Winner on a Tic Tac Toe Game](../1400-find-winner-on-a-tic-tac-toe-game/)
 - [1823. Find the Winner of the Circular Game](../1951-find-the-winner-of-the-circular-game/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [2660. Determine the Winner of a Bowling Game](../2684-determine-the-winner-of-a-bowling-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-winner-of-an-array-game/)

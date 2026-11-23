@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [865. Smallest Subtree with all the Deepest Nodes](../0896-smallest-subtree-with-all-the-deepest-nodes/)
+- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 - [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [865. Smallest Subtree with all the Deepest Nodes](../0896-smallest-subtree-with-all-the-deepest-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)

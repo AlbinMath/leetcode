@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2841. Maximum Sum of Almost Unique Subarray](../2954-maximum-sum-of-almost-unique-subarray/)
-- [53. Maximum Subarray](../0053-maximum-subarray/)
-- [152. Maximum Product Subarray](../0152-maximum-product-subarray/)
+- [62. Unique Paths](../0062-unique-paths/)
+- [63. Unique Paths II](../0063-unique-paths-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-unique-subarray/)

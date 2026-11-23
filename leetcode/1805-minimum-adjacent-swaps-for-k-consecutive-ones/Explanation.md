@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](../1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
 - [3086. Minimum Moves to Pick K Ones](../3327-minimum-moves-to-pick-k-ones/)
+- [995. Minimum Number of K Consecutive Bit Flips](../1037-minimum-number-of-k-consecutive-bit-flips/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)

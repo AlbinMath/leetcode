@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2375. Construct Smallest Number From DI String](../2456-construct-smallest-number-from-di-string/)
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [2259. Remove Digit From Number to Maximize Result](../2337-remove-digit-from-number-to-maximize-result/)
-- [2375. Construct Smallest Number From DI String](../2456-construct-smallest-number-from-di-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)

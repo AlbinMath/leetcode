@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2138. Divide a String Into Groups of Size k](../2260-divide-a-string-into-groups-of-size-k/)
 - [1750. Minimum Length of String After Deleting Similar Ends](../1850-minimum-length-of-string-after-deleting-similar-ends/)
+- [2138. Divide a String Into Groups of Size k](../2260-divide-a-string-into-groups-of-size-k/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode

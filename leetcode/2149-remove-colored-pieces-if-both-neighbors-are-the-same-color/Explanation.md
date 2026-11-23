@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3127. Make a Square with the Same Color](../3398-make-a-square-with-the-same-color/)
+- [4103. Remove Elements by Type and Color](../4339-remove-elements-by-type-and-color/)
 - [1437. Check If All 1's Are at Least Length K Places Away](../1548-check-if-all-1s-are-at-least-length-k-places-away/)
-- [1657. Determine if Two Strings Are Close](../1777-determine-if-two-strings-are-close/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)

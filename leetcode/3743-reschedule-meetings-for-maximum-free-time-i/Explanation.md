@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3440. Reschedule Meetings for Maximum Free Time II](../3741-reschedule-meetings-for-maximum-free-time-ii/)
 - [4009. Minimum Possible Maximum Waiting Time](../4244-minimum-possible-maximum-waiting-time/)
-- [53. Maximum Subarray](../0053-maximum-subarray/)
+- [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/)

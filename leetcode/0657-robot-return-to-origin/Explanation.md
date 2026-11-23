@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1110. Delete Nodes And Return Forest](../1207-delete-nodes-and-return-forest/)
 - [2703. Return Length of Arguments Passed](../2820-return-length-of-arguments-passed/)
-- [874. Walking Robot Simulation](../0906-walking-robot-simulation/)
+- [973. K Closest Points to Origin](../1014-k-closest-points-to-origin/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/robot-return-to-origin/)

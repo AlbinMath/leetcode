@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1725. Number Of Rectangles That Can Form The Largest Square](../1843-number-of-rectangles-that-can-form-the-largest-square/)
 - [3047. Find the Largest Area of Square Inside Two Rectangles](../3325-find-the-largest-area-of-square-inside-two-rectangles/)
-- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
+- [191. Number of 1 Bits](../0191-number-of-1-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-1-bordered-square/)

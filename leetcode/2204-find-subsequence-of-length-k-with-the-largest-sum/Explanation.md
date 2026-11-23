@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2030. Smallest K-Length Subsequence With Occurrences of a Letter](../2157-smallest-k-length-subsequence-with-occurrences-of-a-letter/)
-- [2813. Maximum Elegance of a K-Length Subsequence](../2894-maximum-elegance-of-a-k-length-subsequence/)
 - [2461. Maximum Sum of Distinct Subarrays With Length K](../2552-maximum-sum-of-distinct-subarrays-with-length-k/)
+- [2813. Maximum Elegance of a K-Length Subsequence](../2894-maximum-elegance-of-a-k-length-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)

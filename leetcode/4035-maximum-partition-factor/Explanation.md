@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3334. Find the Maximum Factor Score of Array](../3593-find-the-maximum-factor-score-of-array/)
 - [2025. Maximum Number of Ways to Partition an Array](../2135-maximum-number-of-ways-to-partition-an-array/)
 - [3630. Partition Array for Maximum XOR and AND](../3882-partition-array-for-maximum-xor-and-and/)
-- [3334. Find the Maximum Factor Score of Array](../3593-find-the-maximum-factor-score-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-partition-factor/)

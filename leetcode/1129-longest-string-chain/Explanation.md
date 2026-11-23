@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1405. Longest Happy String](../1304-longest-happy-string/)
-- [2745. Construct the Longest New String](../2850-construct-the-longest-new-string/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [2745. Construct the Longest New String](../2850-construct-the-longest-new-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-string-chain/)

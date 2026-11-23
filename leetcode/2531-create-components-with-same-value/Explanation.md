@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [100. Same Tree](../0100-same-tree/)
-- [805. Split Array With Same Average](../0823-split-array-with-same-average/)
-- [947. Most Stones Removed with Same Row or Column](../0984-most-stones-removed-with-same-row-or-column/)
+- [513. Find Bottom Left Tree Value](../0513-find-bottom-left-tree-value/)
+- [515. Find Largest Value in Each Tree Row](../0515-find-largest-value-in-each-tree-row/)
+- [981. Time Based Key-Value Store](../1023-time-based-key-value-store/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-components-with-same-value/)

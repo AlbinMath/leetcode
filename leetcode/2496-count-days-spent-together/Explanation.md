@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [957. Prison Cells After N Days](../0994-prison-cells-after-n-days/)
-- [1141. User Activity for the Past 30 Days I](../1245-user-activity-for-the-past-30-days-i/)
-- [1360. Number of Days Between Two Dates](../1274-number-of-days-between-two-dates/)
+- [38. Count and Say](../0038-count-and-say/)
+- [204. Count Primes](../0204-count-primes/)
+- [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-days-spent-together/)

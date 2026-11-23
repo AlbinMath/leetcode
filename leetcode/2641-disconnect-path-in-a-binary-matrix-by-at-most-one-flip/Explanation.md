@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1784. Check if Binary String Has at Most One Segment of Ones](../1910-check-if-binary-string-has-at-most-one-segment-of-ones/)
 - [1091. Shortest Path in Binary Matrix](../1171-shortest-path-in-binary-matrix/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+- [2467. Most Profitable Path in a Tree](../2564-most-profitable-path-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)

@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [497. Random Point in Non-overlapping Rectangles](../0914-random-point-in-non-overlapping-rectangles/)
-- [22. Generate Parentheses](../0022-generate-parentheses/)
-- [1374. Generate a String With Characters That Have Odd Counts](../1490-generate-a-string-with-characters-that-have-odd-counts/)
+- [1779. Find Nearest Point That Has the Same X or Y Coordinate](../1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/)
+- [2250. Count Number of Rectangles Containing Each Point](../2333-count-number-of-rectangles-containing-each-point/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-random-point-in-a-circle/)

@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [183. Customers Who Never Order](../0183-customers-who-never-order/)
-- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
-- [432. All O`one Data Structure](../0432-all-oone-data-structure/)
+- [3657. Find Loyal Customers](../4025-find-loyal-customers/)
+- [3705. Find Golden Hour Customers](../4091-find-golden-hour-customers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customers-who-bought-all-products/)

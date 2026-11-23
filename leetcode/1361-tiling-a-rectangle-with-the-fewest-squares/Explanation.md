@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [790. Domino and Tromino Tiling](../0806-domino-and-tromino-tiling/)
-- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
-- [85. Maximal Rectangle](../0085-maximal-rectangle/)
+- [279. Perfect Squares](../0279-perfect-squares/)
+- [840. Magic Squares In Grid](../0870-magic-squares-in-grid/)
+- [977. Squares of a Sorted Array](../1019-squares-of-a-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/)

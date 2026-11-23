@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 - [80. Remove Duplicates from Sorted Array II](../0080-remove-duplicates-from-sorted-array-ii/)
-- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
+- [453. Minimum Moves to Equal Array Elements](../0453-minimum-moves-to-equal-array-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/filter-elements-from-array/)

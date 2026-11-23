@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3145. Find Products of Elements of Big Array](../3411-find-products-of-elements-of-big-array/)
 - [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
 - [1517. Find Users With Valid E-Mails](../1664-find-users-with-valid-e-mails/)
-- [1964. Find the Longest Valid Obstacle Course at Each Position](../2096-find-the-longest-valid-obstacle-course-at-each-position/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-products-with-valid-serial-numbers/)

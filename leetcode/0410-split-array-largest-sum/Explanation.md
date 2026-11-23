@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [167. Two Sum II - Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
+- [215. Kth Largest Element in an Array](../0215-kth-largest-element-in-an-array/)
 - [805. Split Array With Same Average](../0823-split-array-with-same-average/)
-- [842. Split Array into Fibonacci Sequence](../0872-split-array-into-fibonacci-sequence/)
-- [2584. Split the Array to Make Coprime Products](../2647-split-the-array-to-make-coprime-products/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-array-largest-sum/)

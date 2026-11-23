@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3955. Valid Binary Strings With Cost Limit](../4289-valid-binary-strings-with-cost-limit/)
-- [777. Swap Adjacent in LR String](../0793-swap-adjacent-in-lr-string/)
-- [1042. Flower Planting With No Adjacent](../1120-flower-planting-with-no-adjacent/)
+- [22. Generate Parentheses](../0022-generate-parentheses/)
+- [478. Generate Random Point in a Circle](../0915-generate-random-point-in-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)

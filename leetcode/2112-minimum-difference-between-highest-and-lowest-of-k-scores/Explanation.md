@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3880. Minimum Absolute Difference Between Two Values](../4255-minimum-absolute-difference-between-two-values/)
-- [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
-- [1026. Maximum Difference Between Node and Ancestor](../1092-maximum-difference-between-node-and-ancestor/)
+- [2146. K Highest Ranked Items Within a Price Range](../2250-k-highest-ranked-items-within-a-price-range/)
+- [995. Minimum Number of K Consecutive Bit Flips](../1037-minimum-number-of-k-consecutive-bit-flips/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)

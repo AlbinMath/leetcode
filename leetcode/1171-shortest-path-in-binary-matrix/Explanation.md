@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2556. Disconnect Path in a Binary Matrix by at Most One Flip](../2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
+- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 - [329. Longest Increasing Path in a Matrix](../0329-longest-increasing-path-in-a-matrix/)
-- [1253. Reconstruct a 2-Row Binary Matrix](../1379-reconstruct-a-2-row-binary-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-path-in-binary-matrix/)

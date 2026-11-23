@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3721. Longest Balanced Subarray II](../4047-longest-balanced-subarray-ii/)
-- [978. Longest Turbulent Subarray](../1020-longest-turbulent-subarray/)
-- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [3713. Longest Balanced Substring I](../4055-longest-balanced-substring-i/)
+- [3755. Find Maximum Balanced XOR Subarray Length](../3946-find-maximum-balanced-xor-subarray-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-balanced-subarray-i/)

@@ -65,7 +65,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
-- [1610. Maximum Number of Visible Points](../1733-maximum-number-of-visible-points/)
+- [1557. Minimum Number of Vertices to Reach All Nodes](../1661-minimum-number-of-vertices-to-reach-all-nodes/)
 - [2493. Divide Nodes Into the Maximum Number of Groups](../2583-divide-nodes-into-the-maximum-number-of-groups/)
 
 ## LeetCode

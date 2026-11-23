@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1193. Monthly Transactions I](../1317-monthly-transactions-i/)
-- [1581. Customer Who Visited but Did Not Make Any Transactions](../1724-customer-who-visited-but-did-not-make-any-transactions/)
-- [3220. Odd and Even Transactions](../3530-odd-and-even-transactions/)
+- [301. Remove Invalid Parentheses](../0301-remove-invalid-parentheses/)
+- [1683. Invalid Tweets](../1827-invalid-tweets/)
+- [3451. Find Invalid IP Addresses](../3792-find-invalid-ip-addresses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/invalid-transactions/)

@@ -16,6 +16,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 
 | 1018 | [Binary Prefix Divisible By 5](../leetcode/1071-binary-prefix-divisible-by-5/) | Python | O(n) | O(n) | [Explanation](../leetcode/1071-binary-prefix-divisible-by-5/Explanation.md) |
 
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Python | O(n) | O(n) | [Explanation](../leetcode/1406-subtract-the-product-and-sum-of-digits-of-an-integer/Explanation.md) |
+
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/Explanation.md) |
 
 | 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](../leetcode/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Python | O(n) | O(n) | [Explanation](../leetcode/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/Explanation.md) |
@@ -40,6 +42,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 1015 | [Smallest Integer Divisible by K](../leetcode/1064-smallest-integer-divisible-by-k/) | Python | O(n) | O(n) | [Explanation](../leetcode/1064-smallest-integer-divisible-by-k/Explanation.md) |
+
 | 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1212-sequential-digits/Explanation.md) |
 
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](../leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1725-number-of-sets-of-k-non-overlapping-line-segments/Explanation.md) |
@@ -65,6 +69,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 | 1563 | [Stone Game V](../leetcode/1685-stone-game-v/) | Java | O(n) | O(n) | [Explanation](../leetcode/1685-stone-game-v/Explanation.md) |
 
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Java | O(n) | O(n) | [Explanation](../leetcode/2002-stone-game-viii/Explanation.md) |
+
+| 2003 | [Smallest Missing Genetic Value in Each Subtree](../leetcode/2131-smallest-missing-genetic-value-in-each-subtree/) | Python | O(n) | O(n) | [Explanation](../leetcode/2131-smallest-missing-genetic-value-in-each-subtree/Explanation.md) |
 
 | 2416 | [Sum of Prefix Scores of Strings](../leetcode/2494-sum-of-prefix-scores-of-strings/) | Python | O(n) | O(n) | [Explanation](../leetcode/2494-sum-of-prefix-scores-of-strings/Explanation.md) |
 

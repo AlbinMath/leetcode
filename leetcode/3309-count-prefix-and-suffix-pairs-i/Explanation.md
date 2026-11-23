@@ -64,8 +64,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [3045. Count Prefix and Suffix Pairs II](../3305-count-prefix-and-suffix-pairs-ii/)
-- [745. Prefix and Suffix Search](../0746-prefix-and-suffix-search/)
-- [4109. Count Valid Suffix Sorts II](../4454-count-valid-suffix-sorts-ii/)
+- [1782. Count Pairs Of Nodes](../1891-count-pairs-of-nodes/)
+- [1803. Count Pairs With XOR in a Range](../1907-count-pairs-with-xor-in-a-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/)

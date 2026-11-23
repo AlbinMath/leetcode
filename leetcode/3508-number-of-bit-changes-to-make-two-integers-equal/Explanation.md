@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3377. Digit Operations to Make Two Integers Equal](../3655-digit-operations-to-make-two-integers-equal/)
+- [2914. Minimum Number of Changes to Make Binary String Beautiful](../3174-minimum-number-of-changes-to-make-binary-string-beautiful/)
 - [1611. Minimum One Bit Operations to Make Integers Zero](../1732-minimum-one-bit-operations-to-make-integers-zero/)
-- [3621. Number of Integers With Popcount-Depth Equal to K I](../3937-number-of-integers-with-popcount-depth-equal-to-k-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)

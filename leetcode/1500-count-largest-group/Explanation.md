@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
-- [179. Largest Number](../0179-largest-number/)
-- [215. Kth Largest Element in an Array](../0215-kth-largest-element-in-an-array/)
+- [38. Count and Say](../0038-count-and-say/)
+- [204. Count Primes](../0204-count-primes/)
+- [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-largest-group/)

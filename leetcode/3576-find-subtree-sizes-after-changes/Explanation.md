@@ -65,8 +65,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2458. Height of Binary Tree After Subtree Removal Queries](../2545-height-of-binary-tree-after-subtree-removal-queries/)
 - [2089. Find Target Indices After Sorting Array](../2210-find-target-indices-after-sorting-array/)
+- [2458. Height of Binary Tree After Subtree Removal Queries](../2545-height-of-binary-tree-after-subtree-removal-queries/)
 - [2593. Find Score of an Array After Marking All Elements](../2695-find-score-of-an-array-after-marking-all-elements/)
 
 ## LeetCode

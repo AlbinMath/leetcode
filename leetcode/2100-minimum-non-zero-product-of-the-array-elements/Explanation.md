@@ -64,7 +64,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3495. Minimum Operations to Make Array Elements Zero](../3744-minimum-operations-to-make-array-elements-zero/)
-- [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
+- [3326. Minimum Division Operations to Make Array Non Decreasing](../3607-minimum-division-operations-to-make-array-non-decreasing/)
 - [453. Minimum Moves to Equal Array Elements](../0453-minimum-moves-to-equal-array-elements/)
 
 ## LeetCode

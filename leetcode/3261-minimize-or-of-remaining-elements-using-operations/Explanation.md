@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3012. Minimize Length of Array Using Operations](../3244-minimize-length-of-array-using-operations/)
-- [3180. Maximum Total Reward Using Operations I](../3442-maximum-total-reward-using-operations-i/)
-- [3181. Maximum Total Reward Using Operations II](../3443-maximum-total-reward-using-operations-ii/)
+- [1722. Minimize Hamming Distance After Swap Operations](../1840-minimize-hamming-distance-after-swap-operations/)
+- [3927. Minimize Array Sum Using Divisible Replacements](../4301-minimize-array-sum-using-divisible-replacements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/)

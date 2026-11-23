@@ -63,9 +63,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [570. Managers with at Least 5 Direct Reports](../0570-managers-with-at-least-5-direct-reports/)
-- [596. Classes With at Least 5 Students](../0596-classes-with-at-least-5-students/)
-- [14. Longest Common Prefix](../0014-longest-common-prefix/)
+- [1015. Smallest Integer Divisible by K](../1064-smallest-integer-divisible-by-k/)
+- [1590. Make Sum Divisible by P](../1694-make-sum-divisible-by-p/)
+- [2183. Count Array Pairs Divisible by K](../2301-count-array-pairs-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-prefix-divisible-by-5/)

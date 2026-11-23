@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [828. Count Unique Characters of All Substrings of a Given String](../0855-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1325. Delete Leaves With a Given Value](../1450-delete-leaves-with-a-given-value/)
-- [1663. Smallest String With A Given Numeric Value](../1782-smallest-string-with-a-given-numeric-value/)
+- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [1803. Count Pairs With XOR in a Range](../1907-count-pairs-with-xor-in-a-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-paths-with-the-given-xor-value/)

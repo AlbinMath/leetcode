@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1750. Minimum Length of String After Deleting Similar Ends](../1850-minimum-length-of-string-after-deleting-similar-ends/)
 - [2696. Minimum String Length After Removing Substrings](../2800-minimum-string-length-after-removing-substrings/)
-- [1653. Minimum Deletions to Make String Balanced](../1756-minimum-deletions-to-make-string-balanced/)
+- [2322. Minimum Score After Removals on a Tree](../2400-minimum-score-after-removals-on-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-string-length-after-balanced-removals/)

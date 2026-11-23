@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2722. Join Two Arrays by ID](../2858-join-two-arrays-by-id/)
-- [648. Replace Words](../0648-replace-words/)
-- [833. Find And Replace in String](../0862-find-and-replace-in-string/)
+- [577. Employee Bonus](../0577-employee-bonus/)
+- [690. Employee Importance](../0690-employee-importance/)
+- [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)

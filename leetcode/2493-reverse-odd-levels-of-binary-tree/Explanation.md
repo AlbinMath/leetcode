@@ -66,7 +66,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [637. Average of Levels in Binary Tree](../0637-average-of-levels-in-binary-tree/)
-- [1609. Even Odd Tree](../1731-even-odd-tree/)
+- [3750. Minimum Number of Flips to Reverse Binary String](../4126-minimum-number-of-flips-to-reverse-binary-string/)
 - [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
 
 ## LeetCode

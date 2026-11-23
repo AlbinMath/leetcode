@@ -64,9 +64,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [806. Number of Lines To Write String](../0824-number-of-lines-to-write-string/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
-- [76. Minimum Window Substring](../0076-minimum-window-substring/)
+- [149. Max Points on a Line](../0149-max-points-on-a-line/)
+- [195. Tenth Line](../0195-tenth-line/)
+- [1232. Check If It Is a Straight Line](../1349-check-if-it-is-a-straight-line/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)

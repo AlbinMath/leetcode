@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2858. Minimum Edge Reversals So Every Node Is Reachable](../3105-minimum-edge-reversals-so-every-node-is-reachable/)
-- [3305. Count of Substrings Containing Every Vowel and K Consonants I](../3570-count-of-substrings-containing-every-vowel-and-k-consonants-i/)
-- [3306. Count of Substrings Containing Every Vowel and K Consonants II](../3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii/)
+- [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
+- [1418. Display Table of Food Orders in a Restaurant](../1533-display-table-of-food-orders-in-a-restaurant/)
+- [1801. Number of Orders in the Backlog](../1928-number-of-orders-in-the-backlog/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-discount-every-n-orders/)

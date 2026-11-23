@@ -75,7 +75,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1693. Daily Leads and Partners](../1837-daily-leads-and-partners/)
 - [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
-- [464. Can I Win](../0464-can-i-win/)
+- [116. Populating Next Right Pointers in Each Node](../0116-populating-next-right-pointers-in-each-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/daily-temperatures/)

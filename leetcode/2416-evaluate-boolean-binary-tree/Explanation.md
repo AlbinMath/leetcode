@@ -1,7 +1,7 @@
 # LeetCode 2331: Evaluate Boolean Binary Tree
 
 **LeetCode Problem #2331 — Evaluate Boolean Binary Tree**
-Solve LeetCode Evaluate Boolean Binary Tree using JavaScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Evaluate Boolean Binary Tree using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,40 @@ Solve LeetCode Evaluate Boolean Binary Tree using JavaScript and Stack & Queue. 
 | LeetCode | #2331 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Stack Push / Pop Parsing |
-| Data Structure | Stack |
-| Pattern | Stack & Queue |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 You are given the  root  of a  full binary tree  with the following properties:
 
 ## Key Insight
-Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 We iterate through the input using **Stack Push / Pop Parsing**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Stack Push / Pop Parsing**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Evaluate Boolean Binary Tree**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+Consider the standard input for **Evaluate Boolean Binary Tree**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Stack & Queue**
+**Binary Search**
 
 ## Topics
-- Stack
-- String Parsing
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 JavaScript
@@ -51,16 +52,16 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)

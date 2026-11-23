@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [374. Guess Number Higher or Lower](../0374-guess-number-higher-or-lower/)
-- [843. Guess the Word](../0873-guess-the-word/)
 - [9. Palindrome Number](../0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)

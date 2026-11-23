@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2213. Longest Substring of One Repeating Character](../2319-longest-substring-of-one-repeating-character/)
-- [424. Longest Repeating Character Replacement](../0424-longest-repeating-character-replacement/)
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [459. Repeated Substring Pattern](../0459-repeated-substring-pattern/)
+- [2014. Longest Subsequence Repeated k Times](../2140-longest-subsequence-repeated-k-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)

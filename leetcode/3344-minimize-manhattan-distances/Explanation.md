@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3426. Manhattan Distances of All Arrangements of Pieces](../3739-manhattan-distances-of-all-arrangements-of-pieces/)
+- [834. Sum of Distances in Tree](../0863-sum-of-distances-in-tree/)
 - [924. Minimize Malware Spread](../0960-minimize-malware-spread/)
-- [928. Minimize Malware Spread II](../0964-minimize-malware-spread-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-manhattan-distances/)

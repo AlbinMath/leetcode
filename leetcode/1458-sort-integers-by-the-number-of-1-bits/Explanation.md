@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [191. Number of 1 Bits](../0191-number-of-1-bits/)
-- [1387. Sort Integers by The Power Value](../1488-sort-integers-by-the-power-value/)
-- [1805. Number of Different Integers in a String](../1933-number-of-different-integers-in-a-string/)
+- [693. Binary Number with Alternating Bits](../0693-binary-number-with-alternating-bits/)
+- [762. Prime Number of Set Bits in Binary Representation](../0767-prime-number-of-set-bits-in-binary-representation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)

@@ -65,8 +65,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3251. Find the Count of Monotonic Pairs II](../3536-find-the-count-of-monotonic-pairs-ii/)
-- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
 - [1729. Find Followers Count](../1877-find-followers-count/)
+- [1782. Count Pairs Of Nodes](../1891-count-pairs-of-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i/)
