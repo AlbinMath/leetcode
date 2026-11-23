@@ -65,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2913. Subarrays Distinct Element Sum of Squares I](../../3001-3500/3163-subarrays-distinct-element-sum-of-squares-i/)
 - [2461. Maximum Sum of Distinct Subarrays With Length K](../../2501-3000/2552-maximum-sum-of-distinct-subarrays-with-length-k/)
-- [2862. Maximum Element-Sum of a Complete Subset of Indices](../../3001-3500/3047-maximum-element-sum-of-a-complete-subset-of-indices/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/)

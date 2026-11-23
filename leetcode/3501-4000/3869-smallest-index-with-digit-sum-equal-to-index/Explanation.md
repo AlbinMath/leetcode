@@ -72,9 +72,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
-- [3903. Smallest Stable Index I](../../4001-4500/4284-smallest-stable-index-i/)
-- [3904. Smallest Stable Index II](../../4001-4500/4285-smallest-stable-index-ii/)
+- [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
+- [2243. Calculate Digit Sum of a String](../../2001-2500/2361-calculate-digit-sum-of-a-string/)
+- [2310. Sum of Numbers With Units Digit K](../../1001-1500/1334-sum-of-numbers-with-units-digit-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/)

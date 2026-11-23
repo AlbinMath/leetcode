@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
-- [3304. Find the K-th Character in String Game I](../../3501-4000/3600-find-the-k-th-character-in-string-game-i/)
-- [3307. Find the K-th Character in String Game II](../../3501-4000/3601-find-the-k-th-character-in-string-game-ii/)
+- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
+- [117. Populating Next Right Pointers in Each Node II](../../0001-0500/0117-populating-next-right-pointers-in-each-node-ii/)
+- [2574. Left and Right Sum Differences](../../2501-3000/2714-left-and-right-sum-differences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)

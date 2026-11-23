@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3115. Maximum Prime Difference](../../3001-3500/3373-maximum-prime-difference/)
+- [3591. Check if Any Element Has Prime Frequency](../../3501-4000/3914-check-if-any-element-has-prime-frequency/)
 - [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
-- [1422. Maximum Score After Splitting a String](../../1501-2000/1537-maximum-score-after-splitting-a-string/)
-- [1717. Maximum Score From Removing Substrings](../../1501-2000/1818-maximum-score-from-removing-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-with-co-prime-element/)

@@ -65,7 +65,7 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 ## Related Problems
 - [1260. Shift 2D Grid](../../1001-1500/1386-shift-2d-grid/)
 - [3311. Construct 2D Grid Matching Graph Layout](../../3501-4000/3578-construct-2d-grid-matching-graph-layout/)
-- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
+- [74. Search a 2D Matrix](../../0001-0500/0074-search-a-2d-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/detect-cycles-in-2d-grid/)

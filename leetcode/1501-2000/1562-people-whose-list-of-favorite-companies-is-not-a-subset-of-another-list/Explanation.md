@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1978. Employees Whose Manager Left the Company](../../2001-2500/2127-employees-whose-manager-left-the-company/)
 - [620. Not Boring Movies](../../0501-1000/0620-not-boring-movies/)
 - [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1724-customer-who-visited-but-did-not-make-any-transactions/)
-- [2704. To Be Or Not To Be](../../2501-3000/2813-to-be-or-not-to-be/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)

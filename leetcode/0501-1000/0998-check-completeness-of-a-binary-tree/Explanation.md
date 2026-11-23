@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
-- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
-- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
+- [1461. Check If a String Contains All Binary Codes of Size K](../../1501-2000/1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
+- [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1910-check-if-binary-string-has-at-most-one-segment-of-ones/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)

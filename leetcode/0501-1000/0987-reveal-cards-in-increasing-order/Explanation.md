@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [897. Increasing Order Search Tree](../../0501-1000/0933-increasing-order-search-tree/)
 - [1403. Minimum Subsequence in Non-Increasing Order](../../1501-2000/1519-minimum-subsequence-in-non-increasing-order/)
-- [914. X of a Kind in a Deck of Cards](../../0501-1000/0950-x-of-a-kind-in-a-deck-of-cards/)
+- [102. Binary Tree Level Order Traversal](../../0001-0500/0102-binary-tree-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reveal-cards-in-increasing-order/)

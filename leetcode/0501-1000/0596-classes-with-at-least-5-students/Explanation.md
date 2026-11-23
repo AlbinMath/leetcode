@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [570. Managers with at Least 5 Direct Reports](../../0501-1000/0570-managers-with-at-least-5-direct-reports/)
 - [1018. Binary Prefix Divisible By 5](../../1001-1500/1071-binary-prefix-divisible-by-5/)
-- [1280. Students and Examinations](../../1001-1500/1415-students-and-examinations/)
+- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/classes-with-at-least-5-students/)

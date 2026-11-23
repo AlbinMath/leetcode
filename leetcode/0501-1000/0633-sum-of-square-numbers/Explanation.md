@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
-- [829. Consecutive Numbers Sum](../../0501-1000/0856-consecutive-numbers-sum/)
-- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+- [1925. Count Square Sum Triples](../../2001-2500/2037-count-square-sum-triples/)
+- [3715. Sum of Perfect Square Ancestors](../../3501-4000/3957-sum-of-perfect-square-ancestors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-square-numbers/)

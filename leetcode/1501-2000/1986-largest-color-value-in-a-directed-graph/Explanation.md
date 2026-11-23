@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
+- [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1860-find-kth-largest-xor-coordinate-value/)
 - [2192. All Ancestors of a Node in a Directed Acyclic Graph](../../1001-1500/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
-- [2876. Count Visited Nodes in a Directed Graph](../../3001-3500/3140-count-visited-nodes-in-a-directed-graph/)
-- [3604. Minimum Time to Reach Destination in Directed Graph](../../3501-4000/3916-minimum-time-to-reach-destination-in-directed-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)

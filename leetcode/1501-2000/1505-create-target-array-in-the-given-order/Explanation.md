@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1354. Construct Target Array With Multiple Sums](../../1001-1500/1479-construct-target-array-with-multiple-sums/)
-- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
-- [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/)
+- [1649. Create Sorted Array through Instructions](../../1501-2000/1772-create-sorted-array-through-instructions/)
+- [1639. Number of Ways to Form a Target String Given a Dictionary](../../1501-2000/1744-number-of-ways-to-form-a-target-string-given-a-dictionary/)
+- [2161. Partition Array According to Given Pivot](../../2001-2500/2265-partition-array-according-to-given-pivot/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-target-array-in-the-given-order/)

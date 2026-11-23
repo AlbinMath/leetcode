@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [837. New 21 Game](../../0501-1000/0867-new-21-game/)
 - [2745. Construct the Longest New String](../../2501-3000/2850-construct-the-longest-new-string/)
-- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
+- [168. Excel Sheet Column Title](../../0001-0500/0168-excel-sheet-column-title/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-a-new-column/)

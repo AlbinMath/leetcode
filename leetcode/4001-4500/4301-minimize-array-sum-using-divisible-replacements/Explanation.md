@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2162-partition-array-into-two-arrays-to-minimize-sum-difference/)
 - [3012. Minimize Length of Array Using Operations](../../3001-3500/3244-minimize-length-of-array-using-operations/)
-- [1590. Make Sum Divisible by P](../../1501-2000/1694-make-sum-divisible-by-p/)
+- [3022. Minimize OR of Remaining Elements Using Operations](../../3001-3500/3261-minimize-or-of-remaining-elements-using-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-array-sum-using-divisible-replacements/)

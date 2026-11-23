@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
-- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
+- [622. Design Circular Queue](../../0501-1000/0860-design-circular-queue/)
+- [641. Design Circular Deque](../../0501-1000/0859-design-circular-deque/)
+- [918. Maximum Sum Circular Subarray](../../0501-1000/0954-maximum-sum-circular-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)

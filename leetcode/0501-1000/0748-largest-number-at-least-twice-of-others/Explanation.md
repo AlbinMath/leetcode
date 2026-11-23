@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [179. Largest Number](../../0001-0500/0179-largest-number/)
 - [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
-- [964. Least Operators to Express Number](../../1001-1500/1004-least-operators-to-express-number/)
+- [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1843-number-of-rectangles-that-can-form-the-largest-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1876. Substrings of Size Three with Distinct Characters](../../1501-2000/1987-substrings-of-size-three-with-distinct-characters/)
-- [467. Unique Substrings in Wraparound String](../../0001-0500/0467-unique-substrings-in-wraparound-string/)
-- [647. Palindromic Substrings](../../0501-1000/0647-palindromic-substrings/)
+- [115. Distinct Subsequences](../../0001-0500/0115-distinct-subsequences/)
+- [940. Distinct Subsequences II](../../0501-1000/0977-distinct-subsequences-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-echo-substrings/)

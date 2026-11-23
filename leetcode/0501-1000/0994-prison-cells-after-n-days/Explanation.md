@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1799. Maximize Score After N Operations](../../1501-2000/1906-maximize-score-after-n-operations/)
-- [3179. Find the N-th Value After K Seconds](../../3001-3500/3422-find-the-n-th-value-after-k-seconds/)
+- [1553. Minimum Number of Days to Eat N Oranges](../../1501-2000/1676-minimum-number-of-days-to-eat-n-oranges/)
 - [3387. Maximize Amount After Two Days of Conversions](../../3501-4000/3613-maximize-amount-after-two-days-of-conversions/)
+- [1799. Maximize Score After N Operations](../../1501-2000/1906-maximize-score-after-n-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prison-cells-after-n-days/)

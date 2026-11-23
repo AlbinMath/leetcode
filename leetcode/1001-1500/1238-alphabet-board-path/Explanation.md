@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [419. Battleships in a Board](../../0001-0500/0419-battleships-in-a-board/)
-- [2549. Count Distinct Numbers on Board](../../2501-3000/2679-count-distinct-numbers-on-board/)
+- [1309. Decrypt String from Alphabet to Integer Mapping](../../1001-1500/1434-decrypt-string-from-alphabet-to-integer-mapping/)
+- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/alphabet-board-path/)

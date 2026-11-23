@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../../1501-2000/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
+- [1944. Number of Visible People in a Queue](../../1001-1500/1305-number-of-visible-people-in-a-queue/)
 - [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
-- [3988. Create Grid With Exactly K Paths I](../../4001-4500/4343-create-grid-with-exactly-k-paths-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/direction-assignments-with-exactly-k-visible-people/)

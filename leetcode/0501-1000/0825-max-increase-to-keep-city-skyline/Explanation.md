@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](../../1501-2000/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable/)
-- [218. The Skyline Problem](../../0001-0500/0218-the-skyline-problem/)
+- [2154. Keep Multiplying Found Values by Two](../../2001-2500/2274-keep-multiplying-found-values-by-two/)
 - [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 
 ## LeetCode

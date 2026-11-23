@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [2068. Check Whether Two Strings are Almost Equivalent](../../2001-2500/2177-check-whether-two-strings-are-almost-equivalent/)
 - [3461. Check If Digits Are Equal in String After Operations I](../../3501-4000/3768-check-if-digits-are-equal-in-string-after-operations-i/)
+- [3463. Check If Digits Are Equal in String After Operations II](../../3501-4000/3774-check-if-digits-are-equal-in-string-after-operations-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)

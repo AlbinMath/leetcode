@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [453. Minimum Moves to Equal Array Elements](../../0001-0500/0453-minimum-moves-to-equal-array-elements/)
-- [462. Minimum Moves to Equal Array Elements II](../../0001-0500/0462-minimum-moves-to-equal-array-elements-ii/)
 - [1299. Replace Elements with Greatest Element on Right Side](../../1001-1500/1231-replace-elements-with-greatest-element-on-right-side/)
+- [2197. Replace Non-Coprime Numbers in Array](../../2001-2500/2307-replace-non-coprime-numbers-in-array/)
+- [453. Minimum Moves to Equal Array Elements](../../0001-0500/0453-minimum-moves-to-equal-array-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-elements-in-an-array/)

@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1289. Minimum Falling Path Sum II](../../1001-1500/1224-minimum-falling-path-sum-ii/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
-- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
+- [112. Path Sum](../../0001-0500/0112-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-falling-path-sum/)

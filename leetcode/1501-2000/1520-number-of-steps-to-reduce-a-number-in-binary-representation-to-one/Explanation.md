@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
 - [1342. Number of Steps to Reduce a Number to Zero](../../1001-1500/1444-number-of-steps-to-reduce-a-number-to-zero/)
-- [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
+- [1238. Circular Permutation in Binary Representation](../../1001-1500/1359-circular-permutation-in-binary-representation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)

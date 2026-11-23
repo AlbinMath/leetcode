@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3471. Find the Largest Almost Missing Integer](../../3501-4000/3705-find-the-largest-almost-missing-integer/)
 - [3731. Find Missing Elements](../../4001-4500/4107-find-missing-elements/)
-- [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-missing-observations/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2025. Maximum Number of Ways to Partition an Array](../../2001-2500/2135-maximum-number-of-ways-to-partition-an-array/)
-- [3630. Partition Array for Maximum XOR and AND](../../3501-4000/3882-partition-array-for-maximum-xor-and-and/)
 - [3334. Find the Maximum Factor Score of Array](../../3501-4000/3593-find-the-maximum-factor-score-of-array/)
+- [3630. Partition Array for Maximum XOR and AND](../../3501-4000/3882-partition-array-for-maximum-xor-and-and/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-partition-factor/)

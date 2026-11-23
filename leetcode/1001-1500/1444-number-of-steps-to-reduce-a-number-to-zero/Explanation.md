@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](../../1501-2000/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
-- [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](../../1001-1500/1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
-- [1658. Minimum Operations to Reduce X to Zero](../../1501-2000/1776-minimum-operations-to-reduce-x-to-zero/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)

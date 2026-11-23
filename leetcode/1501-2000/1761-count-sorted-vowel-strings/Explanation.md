@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1351. Count Negative Numbers in a Sorted Matrix](../../1001-1500/1476-count-negative-numbers-in-a-sorted-matrix/)
 - [1684. Count the Number of Consistent Strings](../../1501-2000/1786-count-the-number-of-consistent-strings/)
-- [2062. Count Vowel Substrings of a String](../../2001-2500/2186-count-vowel-substrings-of-a-string/)
+- [2506. Count Pairs Of Similar Strings](../../2501-3000/2594-count-pairs-of-similar-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-sorted-vowel-strings/)

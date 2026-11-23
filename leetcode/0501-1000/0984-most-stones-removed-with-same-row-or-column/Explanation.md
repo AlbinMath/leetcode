@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2352. Equal Row and Column Pairs](../../2001-2500/2428-equal-row-and-column-pairs/)
 - [2482. Difference Between Ones and Zeros in Row and Column](../../2501-3000/2606-difference-between-ones-and-zeros-in-row-and-column/)
-- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
+- [500. Keyboard Row](../../0001-0500/0500-keyboard-row/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)

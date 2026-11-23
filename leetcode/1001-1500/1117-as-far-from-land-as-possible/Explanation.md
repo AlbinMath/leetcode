@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2220-find-all-possible-recipes-from-given-supplies/)
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [886. Possible Bipartition](../../0501-1000/0922-possible-bipartition/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0930-all-possible-full-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/as-far-from-land-as-possible/)

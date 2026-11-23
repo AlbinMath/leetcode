@@ -63,9 +63,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1405. Longest Happy String](../../1001-1500/1304-longest-happy-string/)
 - [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
 - [2424. Longest Uploaded Prefix](../../2501-3000/2512-longest-uploaded-prefix/)
+- [3043. Find the Length of the Longest Common Prefix](../../3001-3500/3329-find-the-length-of-the-longest-common-prefix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-happy-prefix/)

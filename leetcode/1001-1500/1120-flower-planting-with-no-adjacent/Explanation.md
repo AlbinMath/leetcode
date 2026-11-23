@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [777. Swap Adjacent in LR String](../../0501-1000/0793-swap-adjacent-in-lr-string/)
-- [1047. Remove All Adjacent Duplicates In String](../../1001-1500/1128-remove-all-adjacent-duplicates-in-string/)
-- [1209. Remove All Adjacent Duplicates in String II](../../1001-1500/1320-remove-all-adjacent-duplicates-in-string-ii/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
+- [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
+- [1637. Widest Vertical Area Between Two Points Containing No Points](../../1501-2000/1742-widest-vertical-area-between-two-points-containing-no-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flower-planting-with-no-adjacent/)

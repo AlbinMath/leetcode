@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [620. Not Boring Movies](../../0501-1000/0620-not-boring-movies/)
-- [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](../../1501-2000/1562-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
-- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1724-customer-who-visited-but-did-not-make-any-transactions/)
+- [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1112-find-words-that-can-be-formed-by-characters/)
+- [1574. Shortest Subarray to be Removed to Make Array Sorted](../../1501-2000/1679-shortest-subarray-to-be-removed-to-make-array-sorted/)
+- [1886. Determine Whether Matrix Can Be Obtained By Rotation](../../2001-2500/2015-determine-whether-matrix-can-be-obtained-by-rotation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/to-be-or-not-to-be/)

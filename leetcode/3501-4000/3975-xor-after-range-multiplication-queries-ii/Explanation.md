@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [3653. XOR After Range Multiplication Queries I](../../3501-4000/3974-xor-after-range-multiplication-queries-i/)
 - [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
-- [2317. Maximum XOR After Operations ](../../2001-2500/2402-maximum-xor-after-operations-/)
+- [1310. XOR Queries of a Subarray](../../1001-1500/1435-xor-queries-of-a-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/)

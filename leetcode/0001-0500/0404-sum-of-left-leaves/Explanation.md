@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1302. Deepest Leaves Sum](../../1001-1500/1254-deepest-leaves-sum/)
 - [2574. Left and Right Sum Differences](../../2501-3000/2714-left-and-right-sum-differences/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [1302. Deepest Leaves Sum](../../1001-1500/1254-deepest-leaves-sum/)
+- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-left-leaves/)

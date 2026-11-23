@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2301-count-array-pairs-divisible-by-k/)
-- [1015. Smallest Integer Divisible by K](../../1001-1500/1064-smallest-integer-divisible-by-k/)
-- [2261. K Divisible Elements Subarrays](../../2001-2500/2339-k-divisible-elements-subarrays/)
+- [2462. Total Cost to Hire K Workers](../../2501-3000/2553-total-cost-to-hire-k-workers/)
+- [3689. Maximum Total Subarray Value I](../../4001-4500/4005-maximum-total-subarray-value-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/)

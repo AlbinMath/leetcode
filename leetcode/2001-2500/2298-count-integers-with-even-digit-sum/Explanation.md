@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3910. Count Connected Subgraphs with Even Node Sum](../../4001-4500/4279-count-connected-subgraphs-with-even-node-sum/)
-- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
-- [1315. Sum of Nodes with Even-Valued Grandparent](../../1001-1500/1243-sum-of-nodes-with-even-valued-grandparent/)
+- [2094. Finding 3-Digit Even Numbers](../../2001-2500/2215-finding-3-digit-even-numbers/)
+- [2243. Calculate Digit Sum of a String](../../2001-2500/2361-calculate-digit-sum-of-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-integers-with-even-digit-sum/)

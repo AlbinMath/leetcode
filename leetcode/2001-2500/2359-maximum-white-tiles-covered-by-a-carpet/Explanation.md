@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2397. Maximum Rows Covered by Columns](../../2001-2500/2482-maximum-rows-covered-by-columns/)
-- [1288. Remove Covered Intervals](../../1001-1500/1222-remove-covered-intervals/)
-- [1893. Check if All the Integers in a Range Are Covered](../../2001-2500/2005-check-if-all-the-integers-in-a-range-are-covered/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)

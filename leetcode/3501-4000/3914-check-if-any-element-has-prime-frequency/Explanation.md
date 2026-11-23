@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
 - [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1910-check-if-binary-string-has-at-most-one-segment-of-ones/)
+- [2980. Check if Bitwise OR Has Trailing Zeros](../../3001-3500/3246-check-if-bitwise-or-has-trailing-zeros/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/)

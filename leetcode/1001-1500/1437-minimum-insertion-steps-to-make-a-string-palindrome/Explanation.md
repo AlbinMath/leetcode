@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2193. Minimum Number of Moves to Make Palindrome](../../1001-1500/1356-minimum-number-of-moves-to-make-palindrome/)
-- [3766. Minimum Operations to Make Binary Palindrome](../../4001-4500/4099-minimum-operations-to-make-binary-palindrome/)
-- [4021. Minimum Operations to Make a Rotated Palindrome I](../../4001-4500/4350-minimum-operations-to-make-a-rotated-palindrome-i/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [1653. Minimum Deletions to Make String Balanced](../../1501-2000/1756-minimum-deletions-to-make-string-balanced/)
+- [1758. Minimum Changes To Make Alternating Binary String](../../1501-2000/1884-minimum-changes-to-make-alternating-binary-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)

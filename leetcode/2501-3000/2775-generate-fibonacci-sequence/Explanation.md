@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [842. Split Array into Fibonacci Sequence](../../0501-1000/0872-split-array-into-fibonacci-sequence/)
-- [509. Fibonacci Number](../../1001-1500/1013-fibonacci-number/)
 - [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
+- [128. Longest Consecutive Sequence](../../0001-0500/0128-longest-consecutive-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/)

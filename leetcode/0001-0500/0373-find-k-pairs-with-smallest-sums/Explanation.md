@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [3821. Find Nth Smallest Integer With K One Bits](../../4001-4500/4189-find-nth-smallest-integer-with-k-one-bits/)
 - [440. K-th Smallest in Lexicographical Order](../../0001-0500/0440-k-th-smallest-in-lexicographical-order/)
-- [629. K Inverse Pairs Array](../../0501-1000/0629-k-inverse-pairs-array/)
+- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)

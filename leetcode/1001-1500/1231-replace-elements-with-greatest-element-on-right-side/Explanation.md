@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [199. Binary Tree Right Side View](../../0001-0500/0199-binary-tree-right-side-view/)
 - [2295. Replace Elements in an Array](../../2001-2500/2388-replace-elements-in-an-array/)
-- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)

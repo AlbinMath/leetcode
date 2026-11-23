@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
-- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
-- [92. Reverse Linked List II](../../0001-0500/0092-reverse-linked-list-ii/)
+- [191. Number of 1 Bits](../../0001-0500/0191-number-of-1-bits/)
+- [338. Counting Bits](../../0001-0500/0338-counting-bits/)
+- [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-bits/)

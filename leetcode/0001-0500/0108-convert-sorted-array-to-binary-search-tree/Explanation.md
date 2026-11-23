@@ -66,8 +66,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [109. Convert Sorted List to Binary Search Tree](../../0001-0500/0109-convert-sorted-list-to-binary-search-tree/)
-- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
-- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
+- [81. Search in Rotated Sorted Array II](../../0001-0500/0081-search-in-rotated-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)

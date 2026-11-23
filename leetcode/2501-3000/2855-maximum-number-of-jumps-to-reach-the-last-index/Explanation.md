@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
-- [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
-- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1147-flip-columns-for-maximum-number-of-equal-rows/)
+- [1786. Number of Restricted Paths From First to Last Node](../../1501-2000/1912-number-of-restricted-paths-from-first-to-last-node/)
+- [3341. Find Minimum Time to Reach Last Room I](../../3501-4000/3627-find-minimum-time-to-reach-last-room-i/)
+- [3342. Find Minimum Time to Reach Last Room II](../../3501-4000/3628-find-minimum-time-to-reach-last-room-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)

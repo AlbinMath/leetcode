@@ -63,8 +63,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2588-maximum-number-of-points-from-grid-queries/)
 - [2249. Count Lattice Points Inside a Circle](../../2001-2500/2332-count-lattice-points-inside-a-circle/)
+- [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2588-maximum-number-of-points-from-grid-queries/)
 - [1453. Maximum Number of Darts Inside of a Circular Dartboard](../../1501-2000/1563-maximum-number-of-darts-inside-of-a-circular-dartboard/)
 
 ## LeetCode

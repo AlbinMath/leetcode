@@ -72,9 +72,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
-- [81. Search in Rotated Sorted Array II](../../0001-0500/0081-search-in-rotated-sorted-array-ii/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [258. Add Digits](../../0001-0500/0258-add-digits/)
+- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
+- [402. Remove K Digits](../../0001-0500/0402-remove-k-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotated-digits/)

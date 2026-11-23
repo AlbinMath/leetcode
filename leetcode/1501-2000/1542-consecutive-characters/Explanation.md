@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1576. Replace All ?'s to Avoid Consecutive Repeating Characters](../../1501-2000/1698-replace-all-s-to-avoid-consecutive-repeating-characters/)
 - [3970. Shortest Path With At Most K Consecutive Identical Characters](../../4001-4500/4104-shortest-path-with-at-most-k-consecutive-identical-characters/)
-- [128. Longest Consecutive Sequence](../../0001-0500/0128-longest-consecutive-sequence/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/consecutive-characters/)

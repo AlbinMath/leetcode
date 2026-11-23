@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2092. Find All People With Secret](../../2001-2500/2213-find-all-people-with-secret/)
 - [1944. Number of Visible People in a Queue](../../1001-1500/1305-number-of-visible-people-in-a-queue/)
+- [2092. Find All People With Secret](../../2001-2500/2213-find-all-people-with-secret/)
 - [3025. Find the Number of Ways to Place People I](../../3001-3500/3278-find-the-number-of-ways-to-place-people-i/)
 
 ## LeetCode

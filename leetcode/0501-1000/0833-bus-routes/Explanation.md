@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1204. Last Person to Fit in the Bus](../../1001-1500/1327-last-person-to-fit-in-the-bus/)
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](../../1501-2000/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [1575. Count All Possible Routes](../../1501-2000/1680-count-all-possible-routes/)
+- [1204. Last Person to Fit in the Bus](../../1001-1500/1327-last-person-to-fit-in-the-bus/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bus-routes/)

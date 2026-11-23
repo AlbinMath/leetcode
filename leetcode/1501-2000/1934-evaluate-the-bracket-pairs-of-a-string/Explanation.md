@@ -70,7 +70,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2744. Find Maximum Number of String Pairs](../../2501-3000/2847-find-maximum-number-of-string-pairs/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [150. Evaluate Reverse Polish Notation](../../0001-0500/0150-evaluate-reverse-polish-notation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)

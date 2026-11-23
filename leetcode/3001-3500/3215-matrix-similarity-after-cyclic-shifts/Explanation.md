@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [861. Score After Flipping Matrix](../../0501-1000/0891-score-after-flipping-matrix/)
-- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
-- [957. Prison Cells After N Days](../../0501-1000/0994-prison-cells-after-n-days/)
+- [1813. Sentence Similarity III](../../1501-2000/1923-sentence-similarity-iii/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)

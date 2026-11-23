@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3970. Shortest Path With At Most K Consecutive Identical Characters](../../4001-4500/4104-shortest-path-with-at-most-k-consecutive-identical-characters/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
+- [1081. Smallest Subsequence of Distinct Characters](../../1001-1500/1159-smallest-subsequence-of-distinct-characters/)
+- [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../../4001-4500/4086-lexicographically-smallest-string-after-deleting-duplicate-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-substring-with-identical-characters-i/)

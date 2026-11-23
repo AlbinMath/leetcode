@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2836. Maximize Value of Function in a Ball Passing Game](../../3001-3500/3032-maximize-value-of-function-in-a-ball-passing-game/)
-- [3178. Find the Child Who Has the Ball After K Seconds](../../3001-3500/3450-find-the-child-who-has-the-ball-after-k-seconds/)
 - [1900. The Earliest and Latest Rounds Where Players Compete](../../2001-2500/2028-the-earliest-and-latest-rounds-where-players-compete/)
+- [1970. Last Day Where You Can Still Cross](../../2001-2500/2101-last-day-where-you-can-still-cross/)
+- [2940. Find Building Where Alice and Bob Can Meet](../../3001-3500/3181-find-building-where-alice-and-bob-can-meet/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/where-will-the-ball-fall/)

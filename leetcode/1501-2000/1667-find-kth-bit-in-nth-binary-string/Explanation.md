@@ -1,7 +1,7 @@
 # LeetCode 1545: Find Kth Bit in Nth Binary String
 
 **LeetCode Problem #1545 — Find Kth Bit in Nth Binary String**
-Solve LeetCode Find Kth Bit in Nth Binary String using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Find Kth Bit in Nth Binary String using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Find Kth Bit in Nth Binary String using Python and Bit Manipulati
 | LeetCode | #1545 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,29 +20,30 @@ Solve LeetCode Find Kth Bit in Nth Binary String using Python and Bit Manipulati
 Given two positive integers  n  and  k , the binary string  S n   is formed as follows:
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Kth Bit in Nth Binary String**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+Consider the standard input for **Find Kth Bit in Nth Binary String**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Bit Manipulation**
+**Binary Search**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 Python
@@ -51,21 +52,21 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [1980. Find Unique Binary String](../../2001-2500/2107-find-unique-binary-string/)
-- [501. Find Mode in Binary Search Tree](../../0501-1000/0501-find-mode-in-binary-search-tree/)
-- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
+- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1501-2000/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
+- [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1860-find-kth-largest-xor-coordinate-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)

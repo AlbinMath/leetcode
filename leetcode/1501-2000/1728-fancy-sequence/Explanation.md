@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1957. Delete Characters to Make Fancy String](../../1001-1500/1302-delete-characters-to-make-fancy-string/)
 - [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
 - [128. Longest Consecutive Sequence](../../0001-0500/0128-longest-consecutive-sequence/)
+- [842. Split Array into Fibonacci Sequence](../../0501-1000/0872-split-array-into-fibonacci-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fancy-sequence/)

@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1856. Maximum Subarray Min-Product](../../1501-2000/1985-maximum-subarray-min-product/)
 - [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [643. Maximum Average Subarray I](../../0501-1000/0643-maximum-average-subarray-i/)
+- [318. Maximum Product of Word Lengths](../../0001-0500/0318-maximum-product-of-word-lengths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-subarray/)

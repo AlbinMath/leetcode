@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2278-find-three-consecutive-integers-that-sum-to-a-given-number/)
-- [128. Longest Consecutive Sequence](../../0001-0500/0128-longest-consecutive-sequence/)
-- [180. Consecutive Numbers](../../0001-0500/0180-consecutive-numbers/)
+- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
+- [326. Power of Three](../../0001-0500/0326-power-of-three/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/three-consecutive-odds/)

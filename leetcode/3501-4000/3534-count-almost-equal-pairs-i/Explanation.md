@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3267. Count Almost Equal Pairs II](../../3501-4000/3544-count-almost-equal-pairs-ii/)
 - [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4411-count-rotations-with-exactly-k-equal-adjacent-pairs/)
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1501-2000/1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [1782. Count Pairs Of Nodes](../../1501-2000/1891-count-pairs-of-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-almost-equal-pairs-i/)

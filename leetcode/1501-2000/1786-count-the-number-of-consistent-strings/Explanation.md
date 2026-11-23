@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
+- [1395. Count Number of Teams](../../1501-2000/1511-count-number-of-teams/)
 - [1641. Count Sorted Vowel Strings](../../1501-2000/1761-count-sorted-vowel-strings/)
-- [1967. Number of Strings That Appear as Substrings in Word](../../2001-2500/2099-number-of-strings-that-appear-as-substrings-in-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-consistent-strings/)

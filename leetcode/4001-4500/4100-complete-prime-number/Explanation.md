@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
 - [2685. Count the Number of Complete Components](../../2501-3000/2793-count-the-number-of-complete-components/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [866. Prime Palindrome](../../0501-1000/0897-prime-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/complete-prime-number/)

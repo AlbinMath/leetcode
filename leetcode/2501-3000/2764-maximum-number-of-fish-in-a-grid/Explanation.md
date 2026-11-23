@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2588-maximum-number-of-points-from-grid-queries/)
-- [2328. Number of Increasing Paths in a Grid](../../2001-2500/2409-number-of-increasing-paths-in-a-grid/)
-- [2617. Minimum Number of Visited Cells in a Grid](../../2501-3000/2697-minimum-number-of-visited-cells-in-a-grid/)
+- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
+- [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/)

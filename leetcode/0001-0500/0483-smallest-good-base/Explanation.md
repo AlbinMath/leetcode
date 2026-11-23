@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [504. Base 7](../../0501-1000/0504-base-7/)
-- [1009. Complement of Base 10 Integer](../../1001-1500/1054-complement-of-base-10-integer/)
-- [1837. Sum of Digits in Base K](../../1501-2000/1965-sum-of-digits-in-base-k/)
+- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [378. Kth Smallest Element in a Sorted Matrix](../../0001-0500/0378-kth-smallest-element-in-a-sorted-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-good-base/)

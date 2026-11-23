@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
-- [1179. Reformat Department Table](../../1001-1500/1301-reformat-department-table/)
-- [1667. Fix Names in a Table](../../1501-2000/1811-fix-names-in-a-table/)
+- [1174. Immediate Food Delivery II](../../1001-1500/1292-immediate-food-delivery-ii/)
+- [2353. Design a Food Rating System](../../2001-2500/2429-design-a-food-rating-system/)
+- [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)

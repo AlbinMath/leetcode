@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1796. Second Largest Digit in a String](../../1501-2000/1904-second-largest-digit-in-a-string/)
-- [1945. Sum of Digits of String After Convert](../../2001-2500/2076-sum-of-digits-of-string-after-convert/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
+- [2310. Sum of Numbers With Units Digit K](../../1001-1500/1334-sum-of-numbers-with-units-digit-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)

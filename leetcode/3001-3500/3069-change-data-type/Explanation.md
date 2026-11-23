@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1443-minimum-distance-to-type-a-word-using-two-fingers/)
-- [1935. Maximum Number of Words You Can Type](../../1001-1500/1264-maximum-number-of-words-you-can-type/)
-- [1974. Minimum Time to Type Word Using Special Typewriter](../../2001-2500/2088-minimum-time-to-type-word-using-special-typewriter/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
+- [352. Data Stream as Disjoint Intervals](../../0001-0500/0352-data-stream-as-disjoint-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/change-data-type/)

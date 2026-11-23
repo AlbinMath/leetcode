@@ -70,7 +70,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3346. Maximum Frequency of an Element After Performing Operations I](../../3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/)
 - [3347. Maximum Frequency of an Element After Performing Operations II](../../3501-4000/3640-maximum-frequency-of-an-element-after-performing-operations-ii/)
-- [1422. Maximum Score After Splitting a String](../../1501-2000/1537-maximum-score-after-splitting-a-string/)
+- [2945. Find Maximum Non-decreasing Array Length](../../3001-3500/3211-find-maximum-non-decreasing-array-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)

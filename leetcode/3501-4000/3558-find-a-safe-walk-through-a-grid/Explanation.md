@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2812. Find the Safest Path in a Grid](../../2501-3000/2914-find-the-safest-path-in-a-grid/)
 - [802. Find Eventual Safe States](../../0501-1000/0820-find-eventual-safe-states/)
-- [3108. Minimum Cost Walk in Weighted Graph](../../3001-3500/3348-minimum-cost-walk-in-weighted-graph/)
+- [2812. Find the Safest Path in a Grid](../../2501-3000/2914-find-the-safest-path-in-a-grid/)
+- [753. Cracking the Safe](../../0501-1000/0754-cracking-the-safe/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/)

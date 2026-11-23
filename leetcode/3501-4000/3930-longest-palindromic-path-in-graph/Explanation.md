@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
-- [3841. Palindromic Path Queries in a Tree](../../4001-4500/4209-palindromic-path-queries-in-a-tree/)
+- [1971. Find if Path Exists in Graph](../../2001-2500/2121-find-if-path-exists-in-graph/)
+- [2065. Maximum Path Quality of a Graph](../../2001-2500/2189-maximum-path-quality-of-a-graph/)
+- [2360. Longest Cycle in a Graph](../../2001-2500/2439-longest-cycle-in-a-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindromic-path-in-graph/)

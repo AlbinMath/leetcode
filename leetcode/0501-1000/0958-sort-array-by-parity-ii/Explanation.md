@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [905. Sort Array By Parity](../../0501-1000/0941-sort-array-by-parity/)
-- [912. Sort an Array](../../0501-1000/0948-sort-an-array/)
-- [1122. Relative Sort Array](../../1001-1500/1217-relative-sort-array/)
+- [3875. Construct Uniform Parity Array I](../../4001-4500/4256-construct-uniform-parity-array-i/)
+- [3876. Construct Uniform Parity Array II](../../4001-4500/4258-construct-uniform-parity-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-array-by-parity-ii/)

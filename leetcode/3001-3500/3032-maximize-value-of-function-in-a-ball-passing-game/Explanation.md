@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1645-find-a-value-of-a-mysterious-function-closest-to-target/)
-- [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
-- [55. Jump Game](../../0001-0500/0055-jump-game/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
+- [1659. Maximize Grid Happiness](../../1501-2000/1778-maximize-grid-happiness/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)

@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1251. Average Selling Price](../../1001-1500/1390-average-selling-price/)
-- [2034. Stock Price Fluctuation ](../../2001-2500/2161-stock-price-fluctuation-/)
-- [2146. K Highest Ranked Items Within a Price Range](../../2001-2500/2250-k-highest-ranked-items-within-a-price-range/)
+- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
+- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
+- [318. Maximum Product of Word Lengths](../../0001-0500/0318-maximum-product-of-word-lengths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/product-price-at-a-given-date/)

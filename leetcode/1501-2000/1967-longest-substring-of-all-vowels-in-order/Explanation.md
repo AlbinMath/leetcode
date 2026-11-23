@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](../../1001-1500/1473-find-the-longest-substring-containing-vowels-in-even-counts/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [1456. Maximum Number of Vowels in a Substring of Given Length](../../1501-2000/1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
+- [2063. Vowels of All Substrings](../../2001-2500/2187-vowels-of-all-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/)

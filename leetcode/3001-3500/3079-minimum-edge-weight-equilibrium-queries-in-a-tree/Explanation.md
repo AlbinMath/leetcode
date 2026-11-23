@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3812. Minimum Edge Toggles on a Tree](../../4001-4500/4181-minimum-edge-toggles-on-a-tree/)
-- [2858. Minimum Edge Reversals So Every Node Is Reachable](../../3001-3500/3105-minimum-edge-reversals-so-every-node-is-reachable/)
-- [3419. Minimize the Maximum Edge Weight of Graph](../../3501-4000/3720-minimize-the-maximum-edge-weight-of-graph/)
+- [111. Minimum Depth of Binary Tree](../../0001-0500/0111-minimum-depth-of-binary-tree/)
+- [671. Second Minimum Node In a Binary Tree](../../0501-1000/0671-second-minimum-node-in-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/)

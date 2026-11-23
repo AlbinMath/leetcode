@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [861. Score After Flipping Matrix](../../0501-1000/0891-score-after-flipping-matrix/)
 - [48. Rotate Image](../../0001-0500/0048-rotate-image/)
 - [661. Image Smoother](../../0501-1000/0661-image-smoother/)
-- [835. Image Overlap](../../0501-1000/0864-image-overlap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flipping-an-image/)

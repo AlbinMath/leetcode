@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1512. Number of Good Pairs](../../1501-2000/1635-number-of-good-pairs/)
-- [1525. Number of Good Ways to Split a String](../../1501-2000/1632-number-of-good-ways-to-split-a-string/)
-- [1530. Number of Good Leaf Nodes Pairs](../../1501-2000/1653-number-of-good-leaf-nodes-pairs/)
+- [2044. Count Number of Maximum Bitwise-OR Subsets](../../2001-2500/2170-count-number-of-maximum-bitwise-or-subsets/)
+- [2572. Count the Number of Square-Free Subsets](../../2501-3000/2709-count-the-number-of-square-free-subsets/)
+- [2597. The Number of Beautiful Subsets](../../2501-3000/2696-the-number-of-beautiful-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-number-of-good-subsets/)

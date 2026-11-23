@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3507. Minimum Pair Removal to Sort Array I](../../3501-4000/3773-minimum-pair-removal-to-sort-array-i/)
-- [3510. Minimum Pair Removal to Sort Array II](../../3501-4000/3772-minimum-pair-removal-to-sort-array-ii/)
 - [1210. Minimum Moves to Reach Target with Rotations](../../1001-1500/1322-minimum-moves-to-reach-target-with-rotations/)
+- [1557. Minimum Number of Vertices to Reach All Nodes](../../1501-2000/1661-minimum-number-of-vertices-to-reach-all-nodes/)
+- [1654. Minimum Jumps to Reach Home](../../1501-2000/1757-minimum-jumps-to-reach-home/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)

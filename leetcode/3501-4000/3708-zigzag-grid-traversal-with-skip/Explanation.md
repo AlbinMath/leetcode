@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3552. Grid Teleportation Traversal](../../3501-4000/3837-grid-teleportation-traversal/)
 - [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
-- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
+- [3552. Grid Teleportation Traversal](../../3501-4000/3837-grid-teleportation-traversal/)
+- [6. Zigzag Conversion](../../0001-0500/0006-zigzag-conversion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/)

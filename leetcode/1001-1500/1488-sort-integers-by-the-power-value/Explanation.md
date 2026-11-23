@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1356. Sort Integers by The Number of 1 Bits](../../1001-1500/1458-sort-integers-by-the-number-of-1-bits/)
-- [231. Power of Two](../../0001-0500/0231-power-of-two/)
-- [326. Power of Three](../../0001-0500/0326-power-of-three/)
+- [29. Divide Two Integers](../../0001-0500/0029-divide-two-integers/)
+- [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-integers-by-the-power-value/)

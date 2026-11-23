@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1501-2000/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
-- [2311. Longest Binary Subsequence Less Than or Equal to K](../../2001-2500/2395-longest-binary-subsequence-less-than-or-equal-to-k/)
-- [2607. Make K-Subarray Sums Equal](../../2501-3000/2670-make-k-subarray-sums-equal/)
+- [1371. Find the Longest Substring Containing Vowels in Even Counts](../../1001-1500/1473-find-the-longest-substring-containing-vowels-in-even-counts/)
+- [1542. Find Longest Awesome Substring](../../1501-2000/1668-find-longest-awesome-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-longest-equal-subarray/)

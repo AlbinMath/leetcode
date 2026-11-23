@@ -1,7 +1,7 @@
 # LeetCode 1356: Sort Integers by The Number of 1 Bits
 
 **LeetCode Problem #1356 — Sort Integers by The Number of 1 Bits**
-Solve LeetCode Sort Integers by The Number of 1 Bits using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Sort Integers by The Number of 1 Bits using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,41 @@ Solve LeetCode Sort Integers by The Number of 1 Bits using Python and Bit Manipu
 | LeetCode | #1356 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 You are given an integer array  arr . Sort the integers in the array in ascending order by the number of  1 &#39;s in their binary representation and in case of two or more integers have the same number of  1 &#39;s you have to sort them in ascending order.
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Sort Integers by The Number of 1 Bits**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+Consider the standard input for **Sort Integers by The Number of 1 Bits**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Bit Manipulation**
+**Tree & Graph**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -51,7 +53,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -64,8 +66,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [191. Number of 1 Bits](../../0001-0500/0191-number-of-1-bits/)
-- [1387. Sort Integers by The Power Value](../../1001-1500/1488-sort-integers-by-the-power-value/)
-- [2471. Minimum Number of Operations to Sort a Binary Tree by Level](../../2501-3000/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
+- [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
+- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)

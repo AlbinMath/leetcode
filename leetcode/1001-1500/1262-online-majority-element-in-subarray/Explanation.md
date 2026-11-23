@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [169. Majority Element](../../0001-0500/0169-majority-element/)
 - [229. Majority Element II](../../0001-0500/0229-majority-element-ii/)
-- [3737. Count Subarrays With Majority Element I](../../4001-4500/4074-count-subarrays-with-majority-element-i/)
+- [1493. Longest Subarray of 1's After Deleting One Element](../../1501-2000/1586-longest-subarray-of-1s-after-deleting-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/online-majority-element-in-subarray/)

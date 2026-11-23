@@ -64,8 +64,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
-- [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/permutation-in-string/)

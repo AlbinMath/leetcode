@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [3461. Check If Digits Are Equal in String After Operations I](../../3501-4000/3768-check-if-digits-are-equal-in-string-after-operations-i/)
-- [3463. Check If Digits Are Equal in String After Operations II](../../3501-4000/3774-check-if-digits-are-equal-in-string-after-operations-ii/)
+- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
+- [1880. Check if Word Equals Summation of Two Words](../../2001-2500/2010-check-if-word-equals-summation-of-two-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)

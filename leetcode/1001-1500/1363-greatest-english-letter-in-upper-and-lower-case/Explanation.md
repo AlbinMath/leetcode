@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [709. To Lower Case](../../0501-1000/0742-to-lower-case/)
 - [784. Letter Case Permutation](../../0501-1000/0800-letter-case-permutation/)
-- [374. Guess Number Higher or Lower](../../0001-0500/0374-guess-number-higher-or-lower/)
+- [1071. Greatest Common Divisor of Strings](../../1001-1500/1146-greatest-common-divisor-of-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)

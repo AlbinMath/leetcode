@@ -69,9 +69,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [836. Rectangle Overlap](../../0501-1000/0866-rectangle-overlap/)
 - [48. Rotate Image](../../0001-0500/0048-rotate-image/)
 - [661. Image Smoother](../../0501-1000/0661-image-smoother/)
-- [832. Flipping an Image](../../0501-1000/0861-flipping-an-image/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/image-overlap/)

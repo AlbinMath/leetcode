@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2963. Count the Number of Good Partitions](../../3001-3500/3212-count-the-number-of-good-partitions/)
-- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3233-maximize-the-number-of-partitions-after-operations/)
-- [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
+- [2997. Minimum Number of Operations to Make Array XOR Equal to K](../../3001-3500/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
+- [3513. Number of Unique XOR Triplets I](../../3501-4000/3824-number-of-unique-xor-triplets-i/)
+- [3514. Number of Unique XOR Triplets II](../../3501-4000/3820-number-of-unique-xor-triplets-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-alternating-xor-partitions/)

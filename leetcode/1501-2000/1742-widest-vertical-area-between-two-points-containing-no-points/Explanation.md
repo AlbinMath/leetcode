@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
+- [3670. Maximum Product of Two Integers With No Common Bits](../../3501-4000/3915-maximum-product-of-two-integers-with-no-common-bits/)
 - [1360. Number of Days Between Two Dates](../../1001-1500/1274-number-of-days-between-two-dates/)
-- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1486-find-the-distance-value-between-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)

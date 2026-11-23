@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1461-count-all-valid-pickup-and-delivery-options/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [2867. Count Valid Paths in a Tree](../../3001-3500/3112-count-valid-paths-in-a-tree/)
-- [2954. Count the Number of Infection Sequences](../../3001-3500/3224-count-the-number-of-infection-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-valid-sequences/)

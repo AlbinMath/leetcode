@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3558. Number of Ways to Assign Edge Weights I](../../3501-4000/3844-number-of-ways-to-assign-edge-weights-i/)
-- [3559. Number of Ways to Assign Edge Weights II](../../3501-4000/3842-number-of-ways-to-assign-edge-weights-ii/)
 - [3419. Minimize the Maximum Edge Weight of Graph](../../3501-4000/3720-minimize-the-maximum-edge-weight-of-graph/)
+- [3547. Maximum Sum of Edge Values in a Graph](../../3501-4000/3845-maximum-sum-of-edge-values-in-a-graph/)
+- [3558. Number of Ways to Assign Edge Weights I](../../3501-4000/3844-number-of-ways-to-assign-edge-weights-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/modify-graph-edge-weights/)

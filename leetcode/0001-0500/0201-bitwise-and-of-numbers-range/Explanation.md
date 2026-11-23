@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3688. Bitwise OR of Even Numbers in an Array](../../4001-4500/4009-bitwise-or-of-even-numbers-in-an-array/)
 - [1523. Count Odd Numbers in an Interval Range](../../1501-2000/1630-count-odd-numbers-in-an-interval-range/)
 - [2523. Closest Prime Numbers in Range](../../2501-3000/2610-closest-prime-numbers-in-range/)
-- [3688. Bitwise OR of Even Numbers in an Array](../../4001-4500/4009-bitwise-or-of-even-numbers-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bitwise-and-of-numbers-range/)

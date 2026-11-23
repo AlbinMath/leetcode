@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [819. Most Common Word](../../0501-1000/0837-most-common-word/)
-- [207. Course Schedule](../../0001-0500/0207-course-schedule/)
-- [210. Course Schedule II](../../0001-0500/0210-course-schedule-ii/)
+- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
+- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-course-pairs/)

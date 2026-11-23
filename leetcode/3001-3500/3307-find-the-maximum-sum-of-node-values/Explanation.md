@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3547. Maximum Sum of Edge Values in a Graph](../../3501-4000/3845-maximum-sum-of-edge-values-in-a-graph/)
-- [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1092-maximum-difference-between-node-and-ancestor/)
-- [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../../1001-1500/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
+- [2859. Sum of Values at Indices With K Set Bits](../../3001-3500/3093-sum-of-values-at-indices-with-k-set-bits/)
+- [3117. Minimum Sum of Values by Dividing Array](../../3001-3500/3364-minimum-sum-of-values-by-dividing-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/)

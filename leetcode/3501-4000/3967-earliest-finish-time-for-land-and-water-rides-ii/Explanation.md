@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3633. Earliest Finish Time for Land and Water Rides I](../../3501-4000/3965-earliest-finish-time-for-land-and-water-rides-i/)
 - [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1825-find-minimum-time-to-finish-all-jobs/)
-- [1900. The Earliest and Latest Rounds Where Players Compete](../../2001-2500/2028-the-earliest-and-latest-rounds-where-players-compete/)
+- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/)

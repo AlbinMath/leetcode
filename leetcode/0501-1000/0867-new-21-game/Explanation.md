@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2745. Construct the Longest New String](../../2501-3000/2850-construct-the-longest-new-string/)
-- [2881. Create a New Column](../../3001-3500/3066-create-a-new-column/)
 - [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
+- [55. Jump Game](../../0001-0500/0055-jump-game/)
+- [174. Dungeon Game](../../0001-0500/0174-dungeon-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/new-21-game/)

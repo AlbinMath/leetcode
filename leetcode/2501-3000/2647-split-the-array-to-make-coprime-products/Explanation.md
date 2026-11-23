@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
-- [805. Split Array With Same Average](../../0501-1000/0823-split-array-with-same-average/)
-- [842. Split Array into Fibonacci Sequence](../../0501-1000/0872-split-array-into-fibonacci-sequence/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/)
+- [1574. Shortest Subarray to be Removed to Make Array Sorted](../../1501-2000/1679-shortest-subarray-to-be-removed-to-make-array-sorted/)
+- [1616. Split Two Strings to Make Palindrome](../../1501-2000/1739-split-two-strings-to-make-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)

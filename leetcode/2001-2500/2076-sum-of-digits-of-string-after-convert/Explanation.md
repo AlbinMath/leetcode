@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3461. Check If Digits Are Equal in String After Operations I](../../3501-4000/3768-check-if-digits-are-equal-in-string-after-operations-i/)
 - [3463. Check If Digits Are Equal in String After Operations II](../../3501-4000/3774-check-if-digits-are-equal-in-string-after-operations-ii/)
-- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
+- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)

@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3746. Minimum String Length After Balanced Removals](../../4001-4500/4090-minimum-string-length-after-balanced-removals/)
-- [861. Score After Flipping Matrix](../../0501-1000/0891-score-after-flipping-matrix/)
-- [1422. Maximum Score After Splitting a String](../../1501-2000/1537-maximum-score-after-splitting-a-string/)
+- [2382. Maximum Segment Sum After Removals](../../2001-2500/2466-maximum-segment-sum-after-removals/)
+- [3561. Resulting String After Adjacent Removals](../../3501-4000/3860-resulting-string-after-adjacent-removals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)

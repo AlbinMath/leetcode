@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [847. Shortest Path Visiting All Nodes](../../0501-1000/0877-shortest-path-visiting-all-nodes/)
-- [863. All Nodes Distance K in Binary Tree](../../0501-1000/0893-all-nodes-distance-k-in-binary-tree/)
-- [865. Smallest Subtree with all the Deepest Nodes](../../0501-1000/0896-smallest-subtree-with-all-the-deepest-nodes/)
+- [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0957-minimum-add-to-make-parentheses-valid/)
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../../1501-2000/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- [1787. Make the XOR of All Segments Equal to Zero](../../1501-2000/1913-make-the-xor-of-all-segments-equal-to-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/)

@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3703. Remove K-Balanced Substrings](../../4001-4500/4019-remove-k-balanced-substrings/)
-- [952. Largest Component Size by Common Factor](../../0501-1000/0989-largest-component-size-by-common-factor/)
-- [1492. The kth Factor of n](../../1501-2000/1585-the-kth-factor-of-n/)
+- [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
+- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/balanced-k-factor-decomposition/)

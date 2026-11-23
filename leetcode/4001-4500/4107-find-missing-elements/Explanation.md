@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
 - [1261. Find Elements in a Contaminated Binary Tree](../../1001-1500/1387-find-elements-in-a-contaminated-binary-tree/)
-- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2695-find-score-of-an-array-after-marking-all-elements/)
+- [2028. Find Missing Observations](../../2001-2500/2155-find-missing-observations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-missing-elements/)

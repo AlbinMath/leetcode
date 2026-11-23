@@ -69,8 +69,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1986. Minimum Number of Work Sessions to Finish the Tasks](../../2001-2500/2114-minimum-number-of-work-sessions-to-finish-the-tasks/)
+- [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1825-find-minimum-time-to-finish-all-jobs/)
 - [2589. Minimum Time to Complete All Tasks](../../2501-3000/2657-minimum-time-to-complete-all-tasks/)
-- [3029. Minimum Time to Revert Word to Initial State I](../../3001-3500/3297-minimum-time-to-revert-word-to-initial-state-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)

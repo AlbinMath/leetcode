@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1047. Remove All Adjacent Duplicates In String](../../1001-1500/1128-remove-all-adjacent-duplicates-in-string/)
-- [1209. Remove All Adjacent Duplicates in String II](../../1001-1500/1320-remove-all-adjacent-duplicates-in-string-ii/)
-- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [1297. Maximum Number of Occurrences of a Substring](../../1001-1500/1423-maximum-number-of-occurrences-of-a-substring/)
+- [1941. Check if All Characters Have Equal Number of Occurrences](../../2001-2500/2053-check-if-all-characters-have-equal-number-of-occurrences/)
+- [3090. Maximum Length Substring With Two Occurrences](../../3001-3500/3349-maximum-length-substring-with-two-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)

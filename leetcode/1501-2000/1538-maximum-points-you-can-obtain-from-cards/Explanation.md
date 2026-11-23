@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1424-maximum-candies-you-can-get-from-boxes/)
+- [3114. Latest Time You Can Obtain After Replacing Characters](../../3001-3500/3361-latest-time-you-can-obtain-after-replacing-characters/)
 - [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2588-maximum-number-of-points-from-grid-queries/)
-- [2920. Maximum Points After Collecting Coins From All Nodes](../../3001-3500/3179-maximum-points-after-collecting-coins-from-all-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)

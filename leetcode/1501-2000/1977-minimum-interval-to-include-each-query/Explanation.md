@@ -64,8 +64,8 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1829. Maximum XOR for Each Query](../../1501-2000/1940-maximum-xor-for-each-query/)
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
+- [1829. Maximum XOR for Each Query](../../1501-2000/1940-maximum-xor-for-each-query/)
 - [57. Insert Interval](../../0001-0500/0057-insert-interval/)
 
 ## LeetCode

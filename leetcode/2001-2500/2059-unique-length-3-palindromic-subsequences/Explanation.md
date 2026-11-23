@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2002. Maximum Product of the Length of Two Palindromic Subsequences](../../2001-2500/2130-maximum-product-of-the-length-of-two-palindromic-subsequences/)
-- [3483. Unique 3-Digit Even Numbers](../../3501-4000/3799-unique-3-digit-even-numbers/)
-- [3627. Maximum Median Sum of Subsequences of Size 3](../../3501-4000/3766-maximum-median-sum-of-subsequences-of-size-3/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [1771. Maximize Palindrome Length From Subsequences](../../1501-2000/1897-maximize-palindrome-length-from-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)

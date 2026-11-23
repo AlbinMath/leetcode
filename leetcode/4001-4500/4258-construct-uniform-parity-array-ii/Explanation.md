@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3875. Construct Uniform Parity Array I](../../4001-4500/4256-construct-uniform-parity-array-i/)
-- [1354. Construct Target Array With Multiple Sums](../../1001-1500/1479-construct-target-array-with-multiple-sums/)
-- [3314. Construct the Minimum Bitwise Array I](../../3501-4000/3605-construct-the-minimum-bitwise-array-i/)
+- [905. Sort Array By Parity](../../0501-1000/0941-sort-array-by-parity/)
+- [922. Sort Array By Parity II](../../0501-1000/0958-sort-array-by-parity-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-uniform-parity-array-ii/)

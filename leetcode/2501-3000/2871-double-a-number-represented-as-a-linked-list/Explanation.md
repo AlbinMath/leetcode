@@ -65,7 +65,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1290. Convert Binary Number in a Linked List to Integer](../../1001-1500/1411-convert-binary-number-in-a-linked-list-to-integer/)
-- [1967. Number of Strings That Appear as Substrings in Word](../../2001-2500/2099-number-of-strings-that-appear-as-substrings-in-word/)
+- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../../0501-1000/0773-logical-or-of-two-binary-grids-represented-as-quad-trees/)
 - [2119. A Number After a Double Reversal](../../2001-2500/2238-a-number-after-a-double-reversal/)
 
 ## LeetCode
