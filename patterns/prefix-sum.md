@@ -21,6 +21,7 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 | 3471 | [Find the Largest Almost Missing Integer](../leetcode/3501-4000/3705-find-the-largest-almost-missing-integer/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3705-find-the-largest-almost-missing-integer/Explanation.md) |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3501-4000/3869-smallest-index-with-digit-sum-equal-to-index/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3869-smallest-index-with-digit-sum-equal-to-index/Explanation.md) |
 | 3718 | [Smallest Missing Multiple of K](../leetcode/4001-4500/4080-smallest-missing-multiple-of-k/) | C# | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4080-smallest-missing-multiple-of-k/Explanation.md) |
+| 4006 | [Count Valid Prefixes](../leetcode/4001-4500/4365-count-valid-prefixes/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4365-count-valid-prefixes/Explanation.md) |
 
 ### Medium
 
@@ -36,6 +37,7 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 | 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2501-3000/2766-find-the-prefix-common-array-of-two-arrays/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2766-find-the-prefix-common-array-of-two-arrays/Explanation.md) |
 | 3043 | [Find the Length of the Longest Common Prefix](../leetcode/3001-3500/3329-find-the-length-of-the-longest-common-prefix/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3329-find-the-length-of-the-longest-common-prefix/Explanation.md) |
 | 3652 | [Best Time to Buy and Sell Stock using Strategy](../leetcode/3501-4000/3980-best-time-to-buy-and-sell-stock-using-strategy/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3980-best-time-to-buy-and-sell-stock-using-strategy/Explanation.md) |
+| 3839 | [Number of Prefix Connected Groups](../leetcode/4001-4500/4137-number-of-prefix-connected-groups/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4137-number-of-prefix-connected-groups/Explanation.md) |
 | 3984 | [Divisible Game](../leetcode/4001-4500/4188-divisible-game/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4188-divisible-game/Explanation.md) |
 
 ### Hard

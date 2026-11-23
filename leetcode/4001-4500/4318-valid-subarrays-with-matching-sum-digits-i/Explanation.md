@@ -128,9 +128,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
-- [930. Binary Subarrays With Sum](../../0501-1000/0966-binary-subarrays-with-sum/)
-- [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1096-maximum-sum-of-two-non-overlapping-subarrays/)
+- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
+- [1837. Sum of Digits in Base K](../../1501-2000/1965-sum-of-digits-in-base-k/)
+- [1945. Sum of Digits of String After Convert](../../2001-2500/2076-sum-of-digits-of-string-after-convert/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/)

@@ -116,9 +116,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
-- [453. Minimum Moves to Equal Array Elements](../../0001-0500/0453-minimum-moves-to-equal-array-elements/)
+- [2856. Minimum Array Length After Pair Removals](../../3001-3500/3081-minimum-array-length-after-pair-removals/)
+- [2322. Minimum Score After Removals on a Tree](../../2001-2500/2400-minimum-score-after-removals-on-a-tree/)
+- [3746. Minimum String Length After Balanced Removals](../../4001-4500/4090-minimum-string-length-after-balanced-removals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-removals-to-balance-array/)

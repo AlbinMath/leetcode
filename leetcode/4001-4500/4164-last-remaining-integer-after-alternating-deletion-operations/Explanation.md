@@ -118,9 +118,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2934. Minimum Operations to Maximize Last Elements in Arrays](../../3001-3500/3190-minimum-operations-to-maximize-last-elements-in-arrays/)
-- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+- [3022. Minimize OR of Remaining Elements Using Operations](../../3001-3500/3261-minimize-or-of-remaining-elements-using-operations/)
 - [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
+- [1722. Minimize Hamming Distance After Swap Operations](../../1501-2000/1840-minimize-hamming-distance-after-swap-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/)

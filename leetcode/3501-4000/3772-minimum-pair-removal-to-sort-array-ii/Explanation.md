@@ -159,8 +159,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3507. Minimum Pair Removal to Sort Array I](../../3501-4000/3773-minimum-pair-removal-to-sort-array-i/)
+- [2856. Minimum Array Length After Pair Removals](../../3001-3500/3081-minimum-array-length-after-pair-removals/)
 - [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/)

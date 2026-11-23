@@ -102,8 +102,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2215. Find the Difference of Two Arrays](../../1001-1500/1392-find-the-difference-of-two-arrays/)
+- [3847. Find the Score Difference in a Game](../../4001-4500/4224-find-the-score-difference-in-a-game/)
 - [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
-- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-difference/)

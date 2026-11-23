@@ -198,8 +198,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [2958. Length of Longest Subarray With at Most K Frequency](../../3001-3500/3225-length-of-longest-subarray-with-at-most-k-frequency/)
+- [3545. Minimum Deletions for At Most K Distinct Characters](../../3501-4000/3871-minimum-deletions-for-at-most-k-distinct-characters/)
 - [3830. Longest Alternating Subarray After Removing At Most One Element](../../4001-4500/4198-longest-alternating-subarray-after-removing-at-most-one-element/)
-- [2521. Distinct Prime Factors of Product of Array](../../2501-3000/2609-distinct-prime-factors-of-product-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-subarray-with-at-most-k-distinct-prime-factors/)

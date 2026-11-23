@@ -115,9 +115,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3551. Minimum Swaps to Sort by Digit Sum](../../3501-4000/3847-minimum-swaps-to-sort-by-digit-sum/)
 - [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3501-4000/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [3551. Minimum Swaps to Sort by Digit Sum](../../3501-4000/3847-minimum-swaps-to-sort-by-digit-sum/)
+- [1493. Longest Subarray of 1's After Deleting One Element](../../1501-2000/1586-longest-subarray-of-1s-after-deleting-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)

@@ -104,7 +104,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1154. Day of the Year](../../1001-1500/1260-day-of-the-year/)
 - [1970. Last Day Where You Can Still Cross](../../2001-2500/2101-last-day-where-you-can-still-cross/)
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [3184. Count Pairs That Form a Complete Day I](../../3001-3500/3421-count-pairs-that-form-a-complete-day-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/day-of-the-week/)

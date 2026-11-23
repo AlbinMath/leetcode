@@ -113,9 +113,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1297. Maximum Number of Occurrences of a Substring](../../1001-1500/1423-maximum-number-of-occurrences-of-a-substring/)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](../../1501-2000/1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
 - [1960. Maximum Product of the Length of Two Palindromic Substrings](../../1001-1500/1336-maximum-product-of-the-length-of-two-palindromic-substrings/)
-- [2002. Maximum Product of the Length of Two Palindromic Subsequences](../../2001-2500/2130-maximum-product-of-the-length-of-two-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)

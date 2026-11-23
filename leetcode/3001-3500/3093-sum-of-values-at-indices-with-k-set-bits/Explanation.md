@@ -123,7 +123,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
 - [3370. Smallest Number With All Set Bits](../../3501-4000/3676-smallest-number-with-all-set-bits/)
-- [3950. Exactly One Consecutive Set Bits Pair](../../4001-4500/4307-exactly-one-consecutive-set-bits-pair/)
+- [3821. Find Nth Smallest Integer With K One Bits](../../4001-4500/4189-find-nth-smallest-integer-with-k-one-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)

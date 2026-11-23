@@ -128,9 +128,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1413. Minimum Value to Get Positive Step by Step Sum](../../1501-2000/1514-minimum-value-to-get-positive-step-by-step-sum/)
-- [1663. Smallest String With A Given Numeric Value](../../1501-2000/1782-smallest-string-with-a-given-numeric-value/)
-- [1881. Maximum Value after Insertion](../../2001-2500/2011-maximum-value-after-insertion/)
+- [2521. Distinct Prime Factors of Product of Array](../../2501-3000/2609-distinct-prime-factors-of-product-of-array/)
+- [2761. Prime Pairs With Target Sum](../../2501-3000/2873-prime-pairs-with-target-sum/)
+- [3556. Sum of Largest Prime Substrings](../../3501-4000/3815-sum-of-largest-prime-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/)

@@ -124,9 +124,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2778. Sum of Squares of Special Elements ](../../2501-3000/2844-sum-of-squares-of-special-elements-/)
-- [2897. Apply Operations on Array to Maximize Sum of Squares](../../3001-3500/3153-apply-operations-on-array-to-maximize-sum-of-squares/)
-- [2913. Subarrays Distinct Element Sum of Squares I](../../3001-3500/3163-subarrays-distinct-element-sum-of-squares-i/)
+- [3695. Maximize Alternating Sum Using Swaps](../../4001-4500/4010-maximize-alternating-sum-using-swaps/)
+- [3701. Compute Alternating Sum](../../4001-4500/4058-compute-alternating-sum/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-alternating-sum-of-squares/)

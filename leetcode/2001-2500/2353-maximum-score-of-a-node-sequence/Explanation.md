@@ -167,9 +167,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3287. Find the Maximum Sequence Value of Array](../../3501-4000/3575-find-the-maximum-sequence-value-of-array/)
 - [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
 - [1422. Maximum Score After Splitting a String](../../1501-2000/1537-maximum-score-after-splitting-a-string/)
-- [1717. Maximum Score From Removing Substrings](../../1501-2000/1818-maximum-score-from-removing-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-of-a-node-sequence/)

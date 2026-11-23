@@ -157,8 +157,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3160. Find the Number of Distinct Colors Among the Balls](../../3001-3500/3434-find-the-number-of-distinct-colors-among-the-balls/)
-- [1742. Maximum Number of Balls in a Box](../../1501-2000/1844-maximum-number-of-balls-in-a-box/)
-- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [1360. Number of Days Between Two Dates](../../1001-1500/1274-number-of-days-between-two-dates/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)

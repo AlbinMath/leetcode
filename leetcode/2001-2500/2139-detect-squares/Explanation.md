@@ -140,9 +140,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
-- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
-- [977. Squares of a Sorted Array](../../1001-1500/1019-squares-of-a-sorted-array/)
+- [520. Detect Capital](../../0501-1000/0520-detect-capital/)
+- [1559. Detect Cycles in 2D Grid](../../1501-2000/1663-detect-cycles-in-2d-grid/)
+- [1566. Detect Pattern of Length M Repeated K or More Times](../../1501-2000/1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/detect-squares/)

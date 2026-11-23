@@ -133,8 +133,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3038. Maximum Number of Operations With the Same Score I](../../3001-3500/3320-maximum-number-of-operations-with-the-same-score-i/)
+- [3228. Maximum Number of Operations to Move Ones to the End](../../3001-3500/3493-maximum-number-of-operations-to-move-ones-to-the-end/)
 - [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
-- [1301. Number of Paths with Max Score](../../1001-1500/1234-number-of-paths-with-max-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/)

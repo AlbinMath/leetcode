@@ -148,7 +148,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
 - [2135. Count Words Obtained After Adding a Letter](../../2001-2500/2256-count-words-obtained-after-adding-a-letter/)
-- [2960. Count Tested Devices After Test Operations](../../3001-3500/3220-count-tested-devices-after-test-operations/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2501-3000/2525-count-number-of-distinct-integers-after-reverse-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)

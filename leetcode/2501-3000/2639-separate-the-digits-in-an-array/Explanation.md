@@ -123,9 +123,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [258. Add Digits](../../0001-0500/0258-add-digits/)
+- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
+- [402. Remove K Digits](../../0001-0500/0402-remove-k-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/separate-the-digits-in-an-array/)

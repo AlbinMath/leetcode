@@ -128,9 +128,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2385. Amount of Time for Binary Tree to Be Infected](../../2001-2500/2461-amount-of-time-for-binary-tree-to-be-infected/)
-- [3116. Kth Smallest Amount With Single Denomination Combination](../../3001-3500/3375-kth-smallest-amount-with-single-denomination-combination/)
-- [3387. Maximize Amount After Two Days of Conversions](../../3501-4000/3613-maximize-amount-after-two-days-of-conversions/)
+- [1716. Calculate Money in Leetcode Bank](../../1501-2000/1817-calculate-money-in-leetcode-bank/)
+- [1873. Calculate Special Bonus](../../2001-2500/2024-calculate-special-bonus/)
+- [2243. Calculate Digit Sum of a String](../../2001-2500/2361-calculate-digit-sum-of-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculate-amount-paid-in-taxes/)

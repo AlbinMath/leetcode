@@ -106,9 +106,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2695-find-score-of-an-array-after-marking-all-elements/)
 - [3006. Find Beautiful Indices in the Given Array I](../../3001-3500/3245-find-beautiful-indices-in-the-given-array-i/)
 - [3008. Find Beautiful Indices in the Given Array II](../../3001-3500/3303-find-beautiful-indices-in-the-given-array-ii/)
+- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2695-find-score-of-an-array-after-marking-all-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-target-indices-after-sorting-array/)

@@ -163,8 +163,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [1663. Smallest String With A Given Numeric Value](../../1501-2000/1782-smallest-string-with-a-given-numeric-value/)
 - [2500. Delete Greatest Value in Each Row](../../2501-3000/2585-delete-greatest-value-in-each-row/)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../../3001-3500/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)

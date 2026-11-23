@@ -136,7 +136,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 - [1524. Number of Sub-arrays With Odd Sum](../../1501-2000/1631-number-of-sub-arrays-with-odd-sum/)
-- [2338. Count the Number of Ideal Arrays](../../2001-2500/2415-count-the-number-of-ideal-arrays/)
+- [1775. Equal Sum Arrays With Minimum Number of Operations](../../1501-2000/1901-equal-sum-arrays-with-minimum-number-of-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-squareful-arrays/)

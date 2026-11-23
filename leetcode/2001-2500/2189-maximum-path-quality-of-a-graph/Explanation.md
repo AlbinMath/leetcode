@@ -141,8 +141,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1620. Coordinate With Maximum Network Quality](../../1501-2000/1726-coordinate-with-maximum-network-quality/)
-- [1971. Find if Path Exists in Graph](../../2001-2500/2121-find-if-path-exists-in-graph/)
-- [2497. Maximum Star Sum of a Graph](../../2501-3000/2590-maximum-star-sum-of-a-graph/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [1219. Path with Maximum Gold](../../1001-1500/1331-path-with-maximum-gold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-path-quality-of-a-graph/)

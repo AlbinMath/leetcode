@@ -328,8 +328,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3612. Process String with Special Operations I](../../3501-4000/3931-process-string-with-special-operations-i/)
-- [761. Special Binary String](../../0501-1000/0763-special-binary-string/)
-- [2844. Minimum Operations to Make a Special Number](../../3001-3500/3046-minimum-operations-to-make-a-special-number/)
+- [1585. Check If String Is Transformable With Substring Sort Operations](../../1501-2000/1707-check-if-string-is-transformable-with-substring-sort-operations/)
+- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-string-with-special-operations-ii/)

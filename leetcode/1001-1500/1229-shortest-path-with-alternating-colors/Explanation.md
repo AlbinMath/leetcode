@@ -115,9 +115,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [4003. Minimum Cost Path with Alternating Directions III](../../3501-4000/3926-minimum-cost-path-with-alternating-directions-iii/)
 - [847. Shortest Path Visiting All Nodes](../../0501-1000/0877-shortest-path-visiting-all-nodes/)
 - [864. Shortest Path to Get All Keys](../../0501-1000/0895-shortest-path-to-get-all-keys/)
-- [1091. Shortest Path in Binary Matrix](../../1001-1500/1171-shortest-path-in-binary-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-path-with-alternating-colors/)

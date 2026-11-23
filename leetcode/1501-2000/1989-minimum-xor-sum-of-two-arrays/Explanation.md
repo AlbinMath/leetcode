@@ -143,9 +143,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1501-2000/1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
 - [712. Minimum ASCII Delete Sum for Two Strings](../../0501-1000/0712-minimum-ascii-delete-sum-for-two-strings/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../../1501-2000/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)

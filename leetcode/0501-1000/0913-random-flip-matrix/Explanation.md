@@ -129,8 +129,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2556. Disconnect Path in a Binary Matrix by at Most One Flip](../../2501-3000/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
-- [926. Flip String to Monotone Increasing](../../0501-1000/0962-flip-string-to-monotone-increasing/)
-- [951. Flip Equivalent Binary Trees](../../0501-1000/0988-flip-equivalent-binary-trees/)
+- [138. Copy List with Random Pointer](../../0001-0500/0138-copy-list-with-random-pointer/)
+- [382. Linked List Random Node](../../0001-0500/0382-linked-list-random-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/random-flip-matrix/)

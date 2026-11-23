@@ -138,9 +138,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
+- [1365. How Many Numbers Are Smaller Than the Current Number](../../1001-1500/1482-how-many-numbers-are-smaller-than-the-current-number/)
 - [1434. Number of Ways to Wear Different Hats to Each Other](../../1501-2000/1531-number-of-ways-to-wear-different-hats-to-each-other/)
-- [1444. Number of Ways of Cutting a Pizza](../../1501-2000/1555-number-of-ways-of-cutting-a-pizza/)
-- [1525. Number of Good Ways to Split a String](../../1501-2000/1632-number-of-good-ways-to-split-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-separate-numbers/)

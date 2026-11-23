@@ -106,9 +106,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [1497. Check If Array Pairs Are Divisible by k](../../1501-2000/1620-check-if-array-pairs-are-divisible-by-k/)
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2301-count-array-pairs-divisible-by-k/)
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
-- [2206. Divide Array Into Equal Pairs](../../2001-2500/2308-divide-array-into-equal-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-inverse-pairs-array/)

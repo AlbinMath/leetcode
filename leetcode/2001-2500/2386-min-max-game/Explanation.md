@@ -124,8 +124,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3578. Count Partitions With Max-Min Difference at Most K](../../3501-4000/3835-count-partitions-with-max-min-difference-at-most-k/)
-- [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
-- [55. Jump Game](../../0001-0500/0055-jump-game/)
+- [155. Min Stack](../../0001-0500/0155-min-stack/)
+- [746. Min Cost Climbing Stairs](../../0501-1000/0747-min-cost-climbing-stairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/min-max-game/)

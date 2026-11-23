@@ -148,8 +148,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](../../2001-2500/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph/)
+- [882. Reachable Nodes In Subdivided Graph](../../0501-1000/0918-reachable-nodes-in-subdivided-graph/)
 - [1857. Largest Color Value in a Directed Graph](../../1501-2000/1986-largest-color-value-in-a-directed-graph/)
-- [2192. All Ancestors of a Node in a Directed Acyclic Graph](../../1001-1500/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/)

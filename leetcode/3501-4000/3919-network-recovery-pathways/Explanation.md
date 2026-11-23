@@ -350,9 +350,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [3586. Find COVID Recovery Patients](../../3501-4000/3932-find-covid-recovery-patients/)
 - [743. Network Delay Time](../../0501-1000/0744-network-delay-time/)
 - [1192. Critical Connections in a Network](../../1001-1500/1300-critical-connections-in-a-network/)
-- [1319. Number of Operations to Make Network Connected](../../1001-1500/1442-number-of-operations-to-make-network-connected/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/network-recovery-pathways/)

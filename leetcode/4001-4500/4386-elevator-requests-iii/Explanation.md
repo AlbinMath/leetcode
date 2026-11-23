@@ -156,9 +156,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [4020. Elevator Requests I](../../4001-4500/4384-elevator-requests-i/)
 - [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
 - [1601. Maximum Number of Achievable Transfer Requests](../../1501-2000/1723-maximum-number-of-achievable-transfer-requests/)
-- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1710-find-servers-that-handled-most-number-of-requests/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/elevator-requests-iii/)

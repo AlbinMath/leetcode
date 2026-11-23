@@ -1,6 +1,6 @@
 # LeetCode Problems: 2501-3000
 
-A collection of **193** solved LeetCode problems in the range **2501-3000**.
+A collection of **201** solved LeetCode problems in the range **2501-3000**.
 
 ## Problem Index
 
@@ -10,6 +10,7 @@ A collection of **193** solved LeetCode problems in the range **2501-3000**.
 | 2408 | [Design SQL](./2555-design-sql/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./2555-design-sql/Explanation.md) |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](./2503-longest-subarray-with-maximum-bitwise-and/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./2503-longest-subarray-with-maximum-bitwise-and/Explanation.md) |
 | 2421 | [Number of Good Paths](./2505-number-of-good-paths/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./2505-number-of-good-paths/Explanation.md) |
+| 2423 | [Remove Letter To Equalize Frequency](./2532-remove-letter-to-equalize-frequency/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./2532-remove-letter-to-equalize-frequency/Explanation.md) |
 | 2424 | [Longest Uploaded Prefix](./2512-longest-uploaded-prefix/) | Medium | [Prefix Sum](../../patterns/prefix-sum.md) | JavaScript | [Explanation](./2512-longest-uploaded-prefix/Explanation.md) |
 | 2425 | [Bitwise XOR of All Pairings](./2533-bitwise-xor-of-all-pairings/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./2533-bitwise-xor-of-all-pairings/Explanation.md) |
 | 2426 | [Number of Pairs Satisfying Inequality](./2513-number-of-pairs-satisfying-inequality/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./2513-number-of-pairs-satisfying-inequality/Explanation.md) |
@@ -21,10 +22,12 @@ A collection of **193** solved LeetCode problems in the range **2501-3000**.
 | 2437 | [Number of Valid Clock Times](./2528-number-of-valid-clock-times/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./2528-number-of-valid-clock-times/Explanation.md) |
 | 2438 | [Range Product Queries of Powers](./2529-range-product-queries-of-powers/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./2529-range-product-queries-of-powers/Explanation.md) |
 | 2440 | [Create Components With Same Value](./2531-create-components-with-same-value/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./2531-create-components-with-same-value/Explanation.md) |
+| 2442 | [Count Number of Distinct Integers After Reverse Operations](./2525-count-number-of-distinct-integers-after-reverse-operations/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./2525-count-number-of-distinct-integers-after-reverse-operations/Explanation.md) |
 | 2443 | [Sum of Number and Its Reverse](./2541-sum-of-number-and-its-reverse/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./2541-sum-of-number-and-its-reverse/Explanation.md) |
 | 2444 | [Count Subarrays With Fixed Bounds](./2527-count-subarrays-with-fixed-bounds/) | Hard | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./2527-count-subarrays-with-fixed-bounds/Explanation.md) |
 | 2447 | [Number of Subarrays With GCD Equal to K](./2546-number-of-subarrays-with-gcd-equal-to-k/) | Medium | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./2546-number-of-subarrays-with-gcd-equal-to-k/Explanation.md) |
 | 2452 | [Words Within Two Edits of Dictionary](./2550-words-within-two-edits-of-dictionary/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./2550-words-within-two-edits-of-dictionary/Explanation.md) |
+| 2453 | [Destroy Sequential Targets](./2548-destroy-sequential-targets/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./2548-destroy-sequential-targets/Explanation.md) |
 | 2454 | [Next Greater Element IV](./2549-next-greater-element-iv/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./2549-next-greater-element-iv/Explanation.md) |
 | 2458 | [Height of Binary Tree After Subtree Removal Queries](./2545-height-of-binary-tree-after-subtree-removal-queries/) | Hard | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./2545-height-of-binary-tree-after-subtree-removal-queries/Explanation.md) |
 | 2460 | [Apply Operations to an Array](./2551-apply-operations-to-an-array/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./2551-apply-operations-to-an-array/Explanation.md) |
@@ -44,6 +47,7 @@ A collection of **193** solved LeetCode problems in the range **2501-3000**.
 | 2492 | [Minimum Score of a Path Between Two Cities](./2582-minimum-score-of-a-path-between-two-cities/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Java, Python | [Explanation](./2582-minimum-score-of-a-path-between-two-cities/Explanation.md) |
 | 2493 | [Divide Nodes Into the Maximum Number of Groups](./2583-divide-nodes-into-the-maximum-number-of-groups/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./2583-divide-nodes-into-the-maximum-number-of-groups/Explanation.md) |
 | 2497 | [Maximum Star Sum of a Graph](./2590-maximum-star-sum-of-a-graph/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./2590-maximum-star-sum-of-a-graph/Explanation.md) |
+| 2499 | [Minimum Total Cost to Make Arrays Unequal](./2592-minimum-total-cost-to-make-arrays-unequal/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./2592-minimum-total-cost-to-make-arrays-unequal/Explanation.md) |
 | 2500 | [Delete Greatest Value in Each Row](./2585-delete-greatest-value-in-each-row/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./2585-delete-greatest-value-in-each-row/Explanation.md) |
 | 2502 | [Design Memory Allocator](./2587-design-memory-allocator/) | Medium | [Hash Map](../../patterns/hash-map.md) | JavaScript | [Explanation](./2587-design-memory-allocator/Explanation.md) |
 | 2503 | [Maximum Number of Points From Grid Queries](./2588-maximum-number-of-points-from-grid-queries/) | Hard | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./2588-maximum-number-of-points-from-grid-queries/Explanation.md) |
@@ -59,12 +63,15 @@ A collection of **193** solved LeetCode problems in the range **2501-3000**.
 | 2526 | [Find Consecutive Integers from a Data Stream](./2620-find-consecutive-integers-from-a-data-stream/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./2620-find-consecutive-integers-from-a-data-stream/Explanation.md) |
 | 2527 | [Find Xor-Beauty of Array](./2621-find-xor-beauty-of-array/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./2621-find-xor-beauty-of-array/Explanation.md) |
 | 2528 | [Maximize the Minimum Powered City](./2618-maximize-the-minimum-powered-city/) | Hard | [Prefix Sum](../../patterns/prefix-sum.md) | JavaScript | [Explanation](./2618-maximize-the-minimum-powered-city/Explanation.md) |
+| 2529 | [Maximum Count of Positive Integer and Negative Integer](./2614-maximum-count-of-positive-integer-and-negative-integer/) | Easy | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./2614-maximum-count-of-positive-integer-and-negative-integer/Explanation.md) |
+| 2531 | [Make Number of Distinct Characters Equal](./2615-make-number-of-distinct-characters-equal/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./2615-make-number-of-distinct-characters-equal/Explanation.md) |
 | 2532 | [Time to Cross a Bridge](./2642-time-to-cross-a-bridge/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./2642-time-to-cross-a-bridge/Explanation.md) |
 | 2537 | [Count the Number of Good Subarrays](./2626-count-the-number-of-good-subarrays/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./2626-count-the-number-of-good-subarrays/Explanation.md) |
 | 2540 | [Minimum Common Value](./2634-minimum-common-value/) | Easy | [Sliding Window](../../patterns/sliding-window.md) | C++ | [Explanation](./2634-minimum-common-value/Explanation.md) |
 | 2542 | [Maximum Subsequence Score](./2636-maximum-subsequence-score/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./2636-maximum-subsequence-score/Explanation.md) |
 | 2543 | [Check if Point Is Reachable](./2635-check-if-point-is-reachable/) | Hard | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./2635-check-if-point-is-reachable/Explanation.md) |
 | 2546 | [Apply Bitwise Operations to Make Strings Equal](./2632-apply-bitwise-operations-to-make-strings-equal/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./2632-apply-bitwise-operations-to-make-strings-equal/Explanation.md) |
+| 2547 | [Minimum Cost to Split an Array](./2633-minimum-cost-to-split-an-array/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./2633-minimum-cost-to-split-an-array/Explanation.md) |
 | 2549 | [Count Distinct Numbers on Board](./2679-count-distinct-numbers-on-board/) | Easy | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./2679-count-distinct-numbers-on-board/Explanation.md) |
 | 2550 | [Count Collisions of Monkeys on a Polygon](./2680-count-collisions-of-monkeys-on-a-polygon/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./2680-count-collisions-of-monkeys-on-a-polygon/Explanation.md) |
 | 2552 | [Count Increasing Quadruplets](./2682-count-increasing-quadruplets/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./2682-count-increasing-quadruplets/Explanation.md) |
@@ -84,6 +91,7 @@ A collection of **193** solved LeetCode problems in the range **2501-3000**.
 | 2582 | [Pass the Pillow](./2645-pass-the-pillow/) | Easy | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./2645-pass-the-pillow/Explanation.md) |
 | 2583 | [Kth Largest Sum in a Binary Tree](./2646-kth-largest-sum-in-a-binary-tree/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./2646-kth-largest-sum-in-a-binary-tree/Explanation.md) |
 | 2584 | [Split the Array to Make Coprime Products](./2647-split-the-array-to-make-coprime-products/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./2647-split-the-array-to-make-coprime-products/Explanation.md) |
+| 2586 | [Count the Number of Vowel Strings in Range](./2654-count-the-number-of-vowel-strings-in-range/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./2654-count-the-number-of-vowel-strings-in-range/Explanation.md) |
 | 2588 | [Count the Number of Beautiful Subarrays](./2656-count-the-number-of-beautiful-subarrays/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./2656-count-the-number-of-beautiful-subarrays/Explanation.md) |
 | 2589 | [Minimum Time to Complete All Tasks](./2657-minimum-time-to-complete-all-tasks/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | C++ | [Explanation](./2657-minimum-time-to-complete-all-tasks/Explanation.md) |
 | 2593 | [Find Score of an Array After Marking All Elements](./2695-find-score-of-an-array-after-marking-all-elements/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./2695-find-score-of-an-array-after-marking-all-elements/Explanation.md) |

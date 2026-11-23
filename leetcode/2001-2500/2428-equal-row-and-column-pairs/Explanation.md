@@ -122,9 +122,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2023. Number of Pairs of Strings With Concatenation Equal to Target](../../2001-2500/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target/)
 - [2206. Divide Array Into Equal Pairs](../../2001-2500/2308-divide-array-into-equal-pairs/)
 - [3265. Count Almost Equal Pairs I](../../3501-4000/3534-count-almost-equal-pairs-i/)
-- [3267. Count Almost Equal Pairs II](../../3501-4000/3544-count-almost-equal-pairs-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/equal-row-and-column-pairs/)

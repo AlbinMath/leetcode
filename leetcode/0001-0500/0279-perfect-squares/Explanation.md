@@ -98,9 +98,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
-- [977. Squares of a Sorted Array](../../1001-1500/1019-squares-of-a-sorted-array/)
-- [1240. Tiling a Rectangle with the Fewest Squares](../../1001-1500/1361-tiling-a-rectangle-with-the-fewest-squares/)
+- [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
+- [391. Perfect Rectangle](../../0001-0500/0391-perfect-rectangle/)
+- [507. Perfect Number](../../0501-1000/0507-perfect-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/perfect-squares/)

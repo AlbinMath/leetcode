@@ -114,8 +114,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [497. Random Point in Non-overlapping Rectangles](../../0501-1000/0914-random-point-in-non-overlapping-rectangles/)
-- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
-- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1490-generate-a-string-with-characters-that-have-odd-counts/)
+- [1041. Robot Bounded In Circle](../../1001-1500/1119-robot-bounded-in-circle/)
+- [1401. Circle and Rectangle Overlapping](../../1501-2000/1501-circle-and-rectangle-overlapping/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-random-point-in-a-circle/)

@@ -160,8 +160,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 - [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1045-check-if-word-is-valid-after-substitutions/)
-- [2116. Check if a Parentheses String Can Be Valid](../../2001-2500/2221-check-if-a-parentheses-string-can-be-valid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)

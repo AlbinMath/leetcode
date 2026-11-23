@@ -133,9 +133,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3442. Maximum Difference Between Even and Odd Frequency I](../../3501-4000/3753-maximum-difference-between-even-and-odd-frequency-i/)
 - [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1092-maximum-difference-between-node-and-ancestor/)
 - [1913. Maximum Product Difference Between Two Pairs](../../2001-2500/2042-maximum-product-difference-between-two-pairs/)
-- [1984. Minimum Difference Between Highest and Lowest of K Scores](../../2001-2500/2112-minimum-difference-between-highest-and-lowest-of-k-scores/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/)

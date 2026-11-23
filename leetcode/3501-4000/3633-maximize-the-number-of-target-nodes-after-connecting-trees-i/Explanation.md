@@ -155,7 +155,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3373. Maximize the Number of Target Nodes After Connecting Trees II](../../3501-4000/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii/)
 - [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3233-maximize-the-number-of-partitions-after-operations/)
-- [1074. Number of Submatrices That Sum to Target](../../1001-1500/1145-number-of-submatrices-that-sum-to-target/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/)

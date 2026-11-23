@@ -118,9 +118,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2810. Faulty Keyboard](../../2501-3000/2886-faulty-keyboard/)
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
 - [623. Add One Row to Tree](../../0501-1000/0623-add-one-row-to-tree/)
+- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0984-most-stones-removed-with-same-row-or-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/keyboard-row/)

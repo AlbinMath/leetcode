@@ -142,8 +142,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [200. Number of Islands](../../0001-0500/0200-number-of-islands/)
-- [1905. Count Sub Islands](../../2001-2500/2035-count-sub-islands/)
-- [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3823-count-islands-with-total-value-divisible-by-k/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-closed-islands/)

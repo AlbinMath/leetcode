@@ -141,9 +141,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1553. Minimum Number of Days to Eat N Oranges](../../1501-2000/1676-minimum-number-of-days-to-eat-n-oranges/)
 - [1799. Maximize Score After N Operations](../../1501-2000/1906-maximize-score-after-n-operations/)
 - [3179. Find the N-th Value After K Seconds](../../3001-3500/3422-find-the-n-th-value-after-k-seconds/)
-- [3387. Maximize Amount After Two Days of Conversions](../../3501-4000/3613-maximize-amount-after-two-days-of-conversions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prison-cells-after-n-days/)

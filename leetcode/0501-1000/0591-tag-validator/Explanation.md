@@ -157,9 +157,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3582. Generate Tag for Video Caption](../../3501-4000/3893-generate-tag-for-video-caption/)
+- [3921. Score Validator](../../4001-4500/4281-score-validator/)
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tag-validator/)

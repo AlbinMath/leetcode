@@ -126,8 +126,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [1391. Check if There is a Valid Path in a Grid](../../1501-2000/1507-check-if-there-is-a-valid-path-in-a-grid/)
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
-- [1880. Check if Word Equals Summation of Two Words](../../2001-2500/2010-check-if-word-equals-summation-of-two-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)

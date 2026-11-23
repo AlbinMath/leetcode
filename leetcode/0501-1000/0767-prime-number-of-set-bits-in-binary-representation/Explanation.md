@@ -122,8 +122,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3370. Smallest Number With All Set Bits](../../3501-4000/3676-smallest-number-with-all-set-bits/)
 - [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
+- [3370. Smallest Number With All Set Bits](../../3501-4000/3676-smallest-number-with-all-set-bits/)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](../../1501-2000/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 
 ## LeetCode

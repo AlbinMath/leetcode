@@ -209,8 +209,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1645-find-a-value-of-a-mysterious-function-closest-to-target/)
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
-- [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
+- [1659. Maximize Grid Happiness](../../1501-2000/1778-maximize-grid-happiness/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)

@@ -150,8 +150,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1825-find-minimum-time-to-finish-all-jobs/)
-- [939. Minimum Area Rectangle](../../0501-1000/0976-minimum-area-rectangle/)
-- [963. Minimum Area Rectangle II](../../1001-1500/1003-minimum-area-rectangle-ii/)
+- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/)

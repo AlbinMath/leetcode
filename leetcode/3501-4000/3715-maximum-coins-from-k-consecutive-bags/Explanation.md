@@ -130,8 +130,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2920. Maximum Points After Collecting Coins From All Nodes](../../3001-3500/3179-maximum-points-after-collecting-coins-from-all-nodes/)
-- [995. Minimum Number of K Consecutive Bit Flips](../../1001-1500/1037-minimum-number-of-k-consecutive-bit-flips/)
-- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
+- [1191. K-Concatenation Maximum Sum](../../1001-1500/1299-k-concatenation-maximum-sum/)
+- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1424-maximum-candies-you-can-get-from-boxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags/)

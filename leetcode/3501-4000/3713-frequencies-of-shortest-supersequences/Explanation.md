@@ -169,7 +169,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1647. Minimum Deletions to Make Character Frequencies Unique](../../1501-2000/1770-minimum-deletions-to-make-character-frequencies-unique/)
 - [3389. Minimum Operations to Make Character Frequencies Equal](../../3501-4000/3638-minimum-operations-to-make-character-frequencies-equal/)
-- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
+- [3852. Smallest Pair With Different Frequencies](../../4001-4500/4231-smallest-pair-with-different-frequencies/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/frequencies-of-shortest-supersequences/)

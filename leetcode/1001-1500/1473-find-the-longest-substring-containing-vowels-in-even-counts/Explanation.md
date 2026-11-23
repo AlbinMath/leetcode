@@ -109,8 +109,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1542. Find Longest Awesome Substring](../../1501-2000/1668-find-longest-awesome-substring/)
 - [1839. Longest Substring Of All Vowels in Order](../../1501-2000/1967-longest-substring-of-all-vowels-in-order/)
+- [1542. Find Longest Awesome Substring](../../1501-2000/1668-find-longest-awesome-substring/)
 - [2730. Find the Longest Semi-Repetitive Substring](../../2501-3000/2786-find-the-longest-semi-repetitive-substring/)
 
 ## LeetCode

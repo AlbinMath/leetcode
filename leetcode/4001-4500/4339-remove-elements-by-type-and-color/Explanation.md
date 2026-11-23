@@ -137,7 +137,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [203. Remove Linked List Elements](../../0001-0500/0203-remove-linked-list-elements/)
 - [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
-- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
+- [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1443-minimum-distance-to-type-a-word-using-two-fingers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-elements-by-type-and-color/)

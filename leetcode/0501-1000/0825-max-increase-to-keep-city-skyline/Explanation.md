@@ -130,8 +130,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](../../1501-2000/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable/)
-- [2154. Keep Multiplying Found Values by Two](../../2001-2500/2274-keep-multiplying-found-values-by-two/)
-- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+- [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)

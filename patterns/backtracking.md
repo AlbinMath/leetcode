@@ -46,6 +46,7 @@ A collection of LeetCode problems solved using **Backtracking** pattern techniqu
 | 3577 | [Count the Number of Computer Unlocking Permutations](../leetcode/3501-4000/3864-count-the-number-of-computer-unlocking-permutations/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3864-count-the-number-of-computer-unlocking-permutations/Explanation.md) |
 | 3644 | [Maximum K to Sort a Permutation](../leetcode/3501-4000/3950-maximum-k-to-sort-a-permutation/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3950-maximum-k-to-sort-a-permutation/Explanation.md) |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](../leetcode/4001-4500/4020-lexicographically-smallest-permutation-greater-than-target/) | C++ | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4020-lexicographically-smallest-permutation-greater-than-target/Explanation.md) |
+| 3848 | [Check Digitorial Permutation](../leetcode/4001-4500/4226-check-digitorial-permutation/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4226-check-digitorial-permutation/Explanation.md) |
 | 3942 | [Minimum Operations to Sort a Permutation](../leetcode/4001-4500/4184-minimum-operations-to-sort-a-permutation/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4184-minimum-operations-to-sort-a-permutation/Explanation.md) |
 
 ### Hard

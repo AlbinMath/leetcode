@@ -151,8 +151,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2949. Count Beautiful Substrings II](../../3001-3500/3208-count-beautiful-substrings-ii/)
-- [2588. Count the Number of Beautiful Subarrays](../../2501-3000/2656-count-the-number-of-beautiful-subarrays/)
-- [2767. Partition String Into Minimum Beautiful Substrings](../../2501-3000/2883-partition-string-into-minimum-beautiful-substrings/)
+- [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-beautiful-substrings-i/)

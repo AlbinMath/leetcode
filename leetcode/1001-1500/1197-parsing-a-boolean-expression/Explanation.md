@@ -136,9 +136,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2331. Evaluate Boolean Binary Tree](../../2001-2500/2416-evaluate-boolean-binary-tree/)
 - [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
 - [282. Expression Add Operators](../../0001-0500/0282-expression-add-operators/)
+- [736. Parse Lisp Expression](../../0501-1000/0736-parse-lisp-expression/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/parsing-a-boolean-expression/)

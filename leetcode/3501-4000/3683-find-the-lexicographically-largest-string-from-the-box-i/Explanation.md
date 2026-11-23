@@ -113,8 +113,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [4036. Lexicographically Largest String After Pair Transformations](../../4001-4500/4366-lexicographically-largest-string-after-pair-transformations/)
-- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1058-lexicographically-smallest-equivalent-string/)
-- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/)

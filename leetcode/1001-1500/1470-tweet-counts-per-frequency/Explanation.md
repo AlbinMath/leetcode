@@ -126,9 +126,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1661. Average Time of Process per Machine](../../1501-2000/1801-average-time-of-process-per-machine/)
-- [3433. Count Mentions Per User](../../3501-4000/3721-count-mentions-per-user/)
 - [192. Word Frequency](../../0001-0500/0192-word-frequency/)
+- [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
+- [895. Maximum Frequency Stack](../../0501-1000/0931-maximum-frequency-stack/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tweet-counts-per-frequency/)

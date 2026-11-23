@@ -111,7 +111,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1302. Deepest Leaves Sum](../../1001-1500/1254-deepest-leaves-sum/)
 - [2574. Left and Right Sum Differences](../../2501-3000/2714-left-and-right-sum-differences/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [1123. Lowest Common Ancestor of Deepest Leaves](../../1001-1500/1218-lowest-common-ancestor-of-deepest-leaves/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-left-leaves/)

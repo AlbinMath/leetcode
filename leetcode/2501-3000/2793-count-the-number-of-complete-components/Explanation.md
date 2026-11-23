@@ -191,8 +191,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
-- [2799. Count Complete Subarrays in an Array](../../2501-3000/2856-count-complete-subarrays-in-an-array/)
-- [2953. Count Complete Substrings](../../3001-3500/3223-count-complete-substrings/)
+- [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
+- [1395. Count Number of Teams](../../1501-2000/1511-count-number-of-teams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-complete-components/)

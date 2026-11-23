@@ -144,7 +144,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [2065. Maximum Path Quality of a Graph](../../2001-2500/2189-maximum-path-quality-of-a-graph/)
 - [1211. Queries Quality and Percentage](../../1001-1500/1338-queries-quality-and-percentage/)
-- [743. Network Delay Time](../../0501-1000/0744-network-delay-time/)
+- [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1860-find-kth-largest-xor-coordinate-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/coordinate-with-maximum-network-quality/)

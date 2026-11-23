@@ -128,9 +128,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1501-2000/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
-- [2507. Smallest Value After Replacing With Sum of Prime Factors](../../2501-3000/2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
-- [2605. Form Smallest Number From Two Digit Arrays](../../2501-3000/2668-form-smallest-number-from-two-digit-arrays/)
+- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
+- [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
+- [698. Partition to K Equal Sum Subsets](../../0501-1000/0698-partition-to-k-equal-sum-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/)

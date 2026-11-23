@@ -103,9 +103,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [2030. Smallest K-Length Subsequence With Occurrences of a Letter](../../2001-2500/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter/)
 - [2461. Maximum Sum of Distinct Subarrays With Length K](../../2501-3000/2552-maximum-sum-of-distinct-subarrays-with-length-k/)
-- [2813. Maximum Elegance of a K-Length Subsequence](../../2501-3000/2894-maximum-elegance-of-a-k-length-subsequence/)
+- [3318. Find X-Sum of All K-Long Subarrays I](../../3501-4000/3610-find-x-sum-of-all-k-long-subarrays-i/)
+- [3321. Find X-Sum of All K-Long Subarrays II](../../3501-4000/3592-find-x-sum-of-all-k-long-subarrays-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)

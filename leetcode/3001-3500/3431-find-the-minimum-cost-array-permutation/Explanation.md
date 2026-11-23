@@ -131,7 +131,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
-- [3010. Divide an Array Into Subarrays With Minimum Cost I](../../3001-3500/3263-divide-an-array-into-subarrays-with-minimum-cost-i/)
+- [2547. Minimum Cost to Split an Array](../../2501-3000/2633-minimum-cost-to-split-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-minimum-cost-array-permutation/)

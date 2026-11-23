@@ -99,9 +99,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2856. Minimum Array Length After Pair Removals](../../3001-3500/3081-minimum-array-length-after-pair-removals/)
 - [1750. Minimum Length of String After Deleting Similar Ends](../../1501-2000/1850-minimum-length-of-string-after-deleting-similar-ends/)
 - [2696. Minimum String Length After Removing Substrings](../../2501-3000/2800-minimum-string-length-after-removing-substrings/)
-- [1653. Minimum Deletions to Make String Balanced](../../1501-2000/1756-minimum-deletions-to-make-string-balanced/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-string-length-after-balanced-removals/)

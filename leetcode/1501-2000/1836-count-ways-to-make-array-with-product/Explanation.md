@@ -131,8 +131,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1664. Ways to Make a Fair Array](../../1501-2000/1783-ways-to-make-a-fair-array/)
-- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
-- [1464. Maximum Product of Two Elements in an Array](../../1501-2000/1574-maximum-product-of-two-elements-in-an-array/)
+- [945. Minimum Increment to Make Array Unique](../../0501-1000/0982-minimum-increment-to-make-array-unique/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-ways-to-make-array-with-product/)

@@ -115,9 +115,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1700. Number of Students Unable to Eat Lunch](../../1501-2000/1802-number-of-students-unable-to-eat-lunch/)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](../../1501-2000/1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1501-2000/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
+- [1639. Number of Ways to Form a Target String Given a Dictionary](../../1501-2000/1744-number-of-ways-to-form-a-target-string-given-a-dictionary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)

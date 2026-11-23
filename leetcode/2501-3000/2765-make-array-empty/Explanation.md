@@ -156,9 +156,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/)
-- [1574. Shortest Subarray to be Removed to Make Array Sorted](../../1501-2000/1679-shortest-subarray-to-be-removed-to-make-array-sorted/)
-- [1664. Ways to Make a Fair Array](../../1501-2000/1783-ways-to-make-a-fair-array/)
+- [2870. Minimum Number of Operations to Make Array Empty](../../3001-3500/3094-minimum-number-of-operations-to-make-array-empty/)
+- [3039. Apply Operations to Make String Empty](../../3001-3500/3308-apply-operations-to-make-string-empty/)
+- [945. Minimum Increment to Make Array Unique](../../0501-1000/0982-minimum-increment-to-make-array-unique/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-array-empty/)

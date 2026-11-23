@@ -103,7 +103,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [193. Valid Phone Numbers](../../0001-0500/0193-valid-phone-numbers/)
+- [3145. Find Products of Elements of Big Array](../../3001-3500/3411-find-products-of-elements-of-big-array/)
 - [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
 - [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
 

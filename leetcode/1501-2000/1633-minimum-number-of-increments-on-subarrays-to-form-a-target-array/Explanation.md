@@ -111,9 +111,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3444. Minimum Increments for Target Multiples in an Array](../../3501-4000/3697-minimum-increments-for-target-multiples-in-an-array/)
 - [3291. Minimum Number of Valid Strings to Form Target I](../../3501-4000/3559-minimum-number-of-valid-strings-to-form-target-i/)
 - [3292. Minimum Number of Valid Strings to Form Target II](../../3501-4000/3557-minimum-number-of-valid-strings-to-form-target-ii/)
+- [3444. Minimum Increments for Target Multiples in an Array](../../3501-4000/3697-minimum-increments-for-target-multiples-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)

@@ -171,8 +171,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3547. Maximum Sum of Edge Values in a Graph](../../3501-4000/3845-maximum-sum-of-edge-values-in-a-graph/)
+- [2699. Modify Graph Edge Weights](../../2501-3000/2803-modify-graph-edge-weights/)
 - [2846. Minimum Edge Weight Equilibrium Queries in a Tree](../../3001-3500/3079-minimum-edge-weight-equilibrium-queries-in-a-tree/)
-- [2513. Minimize the Maximum of Two Arrays](../../2501-3000/2628-minimize-the-maximum-of-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-maximum-edge-weight-of-graph/)

@@ -160,7 +160,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [327. Count of Range Sum](../../0001-0500/0327-count-of-range-sum/)
 - [1523. Count Odd Numbers in an Interval Range](../../1501-2000/1630-count-odd-numbers-in-an-interval-range/)
-- [3653. XOR After Range Multiplication Queries I](../../3501-4000/3974-xor-after-range-multiplication-queries-i/)
+- [2586. Count the Number of Vowel Strings in Range](../../2501-3000/2654-count-the-number-of-vowel-strings-in-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)

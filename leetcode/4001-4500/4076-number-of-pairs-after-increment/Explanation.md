@@ -171,9 +171,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1946. Largest Number After Mutating Substring](../../2001-2500/2077-largest-number-after-mutating-substring/)
-- [2119. A Number After a Double Reversal](../../2001-2500/2238-a-number-after-a-double-reversal/)
-- [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
+- [1128. Number of Equivalent Domino Pairs](../../1001-1500/1227-number-of-equivalent-domino-pairs/)
+- [1481. Least Number of Unique Integers after K Removals](../../1501-2000/1604-least-number-of-unique-integers-after-k-removals/)
+- [1512. Number of Good Pairs](../../1501-2000/1635-number-of-good-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-pairs-after-increment/)

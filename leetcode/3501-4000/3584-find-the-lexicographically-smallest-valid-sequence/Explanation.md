@@ -174,8 +174,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1718. Construct the Lexicographically Largest Valid Sequence](../../1501-2000/1819-construct-the-lexicographically-largest-valid-sequence/)
-- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1058-lexicographically-smallest-equivalent-string/)
-- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
+- [903. Valid Permutations for DI Sequence](../../0501-1000/0939-valid-permutations-for-di-sequence/)
+- [3287. Find the Maximum Sequence Value of Array](../../3501-4000/3575-find-the-maximum-sequence-value-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/)

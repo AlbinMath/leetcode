@@ -134,9 +134,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2119. A Number After a Double Reversal](../../2001-2500/2238-a-number-after-a-double-reversal/)
-- [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
-- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3233-maximize-the-number-of-partitions-after-operations/)
+- [179. Largest Number](../../0001-0500/0179-largest-number/)
+- [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
+- [747. Largest Number At Least Twice of Others](../../0501-1000/0748-largest-number-at-least-twice-of-others/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-number-after-mutating-substring/)

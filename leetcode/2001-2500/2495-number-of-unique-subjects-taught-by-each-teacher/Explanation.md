@@ -143,9 +143,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1207. Unique Number of Occurrences](../../1001-1500/1319-unique-number-of-occurrences/)
-- [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1715-split-a-string-into-the-max-number-of-unique-substrings/)
-- [1987. Number of Unique Good Subsequences](../../2001-2500/2115-number-of-unique-good-subsequences/)
+- [1178. Number of Valid Words for Each Puzzle](../../1001-1500/1282-number-of-valid-words-for-each-puzzle/)
+- [1434. Number of Ways to Wear Different Hats to Each Other](../../1501-2000/1531-number-of-ways-to-wear-different-hats-to-each-other/)
+- [1731. The Number of Employees Which Report to Each Employee](../../1501-2000/1882-the-number-of-employees-which-report-to-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)

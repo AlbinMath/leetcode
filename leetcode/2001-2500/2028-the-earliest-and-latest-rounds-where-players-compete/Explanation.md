@@ -157,7 +157,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [3633. Earliest Finish Time for Land and Water Rides I](../../3501-4000/3965-earliest-finish-time-for-land-and-water-rides-i/)
 - [3635. Earliest Finish Time for Land and Water Rides II](../../3501-4000/3967-earliest-finish-time-for-land-and-water-rides-ii/)
-- [1904. The Number of Full Rounds You Have Played](../../2001-2500/2033-the-number-of-full-rounds-you-have-played/)
+- [1562. Find Latest Group of Size M](../../1501-2000/1684-find-latest-group-of-size-m/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/)

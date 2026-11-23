@@ -152,9 +152,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
-- [55. Jump Game](../../0001-0500/0055-jump-game/)
-- [174. Dungeon Game](../../0001-0500/0174-dungeon-game/)
+- [2131. Longest Palindrome by Concatenating Two Letter Words](../../2001-2500/2237-longest-palindrome-by-concatenating-two-letter-words/)
+- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-letter-card-game/)

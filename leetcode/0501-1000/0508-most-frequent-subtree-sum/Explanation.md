@@ -118,8 +118,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1838. Frequency of the Most Frequent Element](../../1501-2000/1966-frequency-of-the-most-frequent-element/)
-- [3044. Most Frequent Prime](../../3001-3500/3314-most-frequent-prime/)
-- [3962. Maximum Subarray Sum After at Most K Swaps](../../4001-4500/4246-maximum-subarray-sum-after-at-most-k-swaps/)
+- [2190. Most Frequent Number Following Key In an Array](../../2001-2500/2312-most-frequent-number-following-key-in-an-array/)
+- [2404. Most Frequent Even Element](../../2001-2500/2486-most-frequent-even-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-frequent-subtree-sum/)

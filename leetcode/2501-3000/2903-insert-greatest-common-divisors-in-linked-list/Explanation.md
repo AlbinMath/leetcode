@@ -138,9 +138,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1071. Greatest Common Divisor of Strings](../../1001-1500/1146-greatest-common-divisor-of-strings/)
-- [1979. Find Greatest Common Divisor of Array](../../2001-2500/2106-find-greatest-common-divisor-of-array/)
-- [2709. Greatest Common Divisor Traversal](../../2501-3000/2827-greatest-common-divisor-traversal/)
+- [92. Reverse Linked List II](../../0001-0500/0092-reverse-linked-list-ii/)
+- [114. Flatten Binary Tree to Linked List](../../0001-0500/0114-flatten-binary-tree-to-linked-list/)
+- [141. Linked List Cycle](../../0001-0500/0141-linked-list-cycle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/)

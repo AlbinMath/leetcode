@@ -177,8 +177,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../../3001-3500/3423-maximum-sum-of-subsequence-with-non-adjacent-elements/)
-- [3638. Maximum Balanced Shipments](../../3501-4000/3954-maximum-balanced-shipments/)
-- [3755. Find Maximum Balanced XOR Subarray Length](../../3501-4000/3946-find-maximum-balanced-xor-subarray-length/)
+- [1425. Constrained Subsequence Sum](../../1001-1500/1286-constrained-subsequence-sum/)
+- [1755. Closest Subsequence Sum](../../1501-2000/1881-closest-subsequence-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-balanced-subsequence-sum/)

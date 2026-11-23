@@ -133,8 +133,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1512. Number of Good Pairs](../../1501-2000/1635-number-of-good-pairs/)
-- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
 - [1128. Number of Equivalent Domino Pairs](../../1001-1500/1227-number-of-equivalent-domino-pairs/)
+- [1519. Number of Nodes in the Sub-Tree With the Same Label](../../1501-2000/1643-number-of-nodes-in-the-sub-tree-with-the-same-label/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)

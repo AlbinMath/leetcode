@@ -184,7 +184,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1797. Design Authentication Manager](../../1501-2000/1905-design-authentication-manager/)
 - [3408. Design Task Manager](../../3501-4000/3678-design-task-manager/)
-- [675. Cut Off Trees for Golf Event](../../0501-1000/0675-cut-off-trees-for-golf-event/)
+- [1845. Seat Reservation Manager](../../1501-2000/1955-seat-reservation-manager/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-event-manager/)

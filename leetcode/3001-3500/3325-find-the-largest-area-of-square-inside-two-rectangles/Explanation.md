@@ -119,8 +119,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1843-number-of-rectangles-that-can-form-the-largest-square/)
-- [812. Largest Triangle Area](../../0501-1000/0830-largest-triangle-area/)
-- [1637. Widest Vertical Area Between Two Points Containing No Points](../../1501-2000/1742-widest-vertical-area-between-two-points-containing-no-points/)
+- [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
+- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1486-find-the-distance-value-between-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/)

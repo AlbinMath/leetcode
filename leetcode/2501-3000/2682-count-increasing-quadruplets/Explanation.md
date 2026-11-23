@@ -128,8 +128,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1995. Count Special Quadruplets](../../2001-2500/2122-count-special-quadruplets/)
-- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
-- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
+- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [204. Count Primes](../../0001-0500/0204-count-primes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-increasing-quadruplets/)

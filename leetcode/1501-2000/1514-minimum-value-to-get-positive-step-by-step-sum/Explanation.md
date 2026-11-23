@@ -105,8 +105,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3364. Minimum Positive Sum Subarray ](../../3501-4000/3644-minimum-positive-sum-subarray-/)
-- [1896. Minimum Cost to Change the Final Value of Expression](../../2001-2500/2008-minimum-cost-to-change-the-final-value-of-expression/)
-- [2507. Smallest Value After Replacing With Sum of Prime Factors](../../2501-3000/2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
+- [2379. Minimum Recolors to Get K Consecutive Black Blocks](../../2001-2500/2463-minimum-recolors-to-get-k-consecutive-black-blocks/)
+- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)

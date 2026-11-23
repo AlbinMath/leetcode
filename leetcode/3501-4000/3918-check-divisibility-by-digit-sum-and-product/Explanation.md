@@ -1,7 +1,7 @@
 # LeetCode 3622: Check Divisibility by Digit Sum and Product
 
 **LeetCode Problem #3622 — Check Divisibility by Digit Sum and Product**
-Solve LeetCode Check Divisibility by Digit Sum and Product using C and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Check Divisibility by Digit Sum and Product using C, Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Check Divisibility by Digit Sum and Product using C and Math & Lo
 | Problem | Check Divisibility by Digit Sum and Product |
 | LeetCode | #3622 |
 | Difficulty | Easy |
-| Language | C |
+| Language | C, Python |
 | Algorithm | Mathematical Simulation & Modular Arithmetic |
 | Data Structure | Primitive Types |
 | Pattern | Math & Logic |
@@ -70,12 +70,14 @@ To solve **Check Divisibility by Digit Sum and Product**, we observe the problem
 - Simulation
 
 ## Language
-C
+C, Python
 
 ## Source Code
 - [solution.c](./solution.c)
+- [solution.py](./solution.py)
 
 
+### C
 ```c
 bool checkDivisibility(int n) {
     int temp = n;
@@ -95,6 +97,23 @@ bool checkDivisibility(int n) {
 }
 ```
 
+### Python
+```python
+class Solution:
+    def checkDivisibility(self, n: int) -> bool:
+        temp = n
+        digit_sum = 0
+        digit_product = 1
+        
+        while temp > 0:
+            digit = temp % 10
+            digit_sum += digit
+            digit_product *= digit
+            temp //= 10
+            
+        return n % (digit_sum + digit_product) == 0
+```
+
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -108,9 +127,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
-- [2243. Calculate Digit Sum of a String](../../2001-2500/2361-calculate-digit-sum-of-a-string/)
-- [2310. Sum of Numbers With Units Digit K](../../1001-1500/1334-sum-of-numbers-with-units-digit-k/)
+- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
+- [3345. Smallest Divisible Digit Product I](../../3501-4000/3626-smallest-divisible-digit-product-i/)
+- [3348. Smallest Divisible Digit Product II](../../3501-4000/3635-smallest-divisible-digit-product-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/)

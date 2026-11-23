@@ -108,7 +108,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [884. Uncommon Words from Two Sentences](../../0501-1000/0920-uncommon-words-from-two-sentences/)
 - [1880. Check if Word Equals Summation of Two Words](../../2001-2500/2010-check-if-word-equals-summation-of-two-words/)
-- [524. Longest Word in Dictionary through Deleting](../../0501-1000/0524-longest-word-in-dictionary-through-deleting/)
+- [2131. Longest Palindrome by Concatenating Two Letter Words](../../2001-2500/2237-longest-palindrome-by-concatenating-two-letter-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)

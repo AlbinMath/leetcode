@@ -109,9 +109,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2006. Count Number of Pairs With Absolute Difference K](../../2001-2500/2116-count-number-of-pairs-with-absolute-difference-k/)
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2301-count-array-pairs-divisible-by-k/)
 - [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4411-count-rotations-with-exactly-k-equal-adjacent-pairs/)
-- [973. K Closest Points to Origin](../../1001-1500/1014-k-closest-points-to-origin/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-pairs-of-points-with-distance-k/)

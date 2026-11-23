@@ -108,8 +108,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1486-find-the-distance-value-between-two-arrays/)
-- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1645-find-a-value-of-a-mysterious-function-closest-to-target/)
+- [501. Find Mode in Binary Search Tree](../../0501-1000/0501-find-mode-in-binary-search-tree/)
+- [1261. Find Elements in a Contaminated Binary Tree](../../1001-1500/1387-find-elements-in-a-contaminated-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-bottom-left-tree-value/)

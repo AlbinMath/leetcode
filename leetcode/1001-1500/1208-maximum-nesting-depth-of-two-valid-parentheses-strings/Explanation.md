@@ -130,7 +130,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1614. Maximum Nesting Depth of the Parentheses](../../1501-2000/1737-maximum-nesting-depth-of-the-parentheses/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [583. Delete Operation for Two Strings](../../0501-1000/0583-delete-operation-for-two-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)

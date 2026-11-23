@@ -226,9 +226,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2499. Minimum Total Cost to Make Arrays Unequal](../../2501-3000/2592-minimum-total-cost-to-make-arrays-unequal/)
 - [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3823-count-islands-with-total-value-divisible-by-k/)
-- [3835. Count Subarrays With Cost Less Than or Equal to K](../../4001-4500/4211-count-subarrays-with-cost-less-than-or-equal-to-k/)
-- [4046. Minimum Cost Path With At Most K Turns](../../4001-4500/4367-minimum-cost-path-with-at-most-k-turns/)
+- [3987. Minimum Total Cost to Process All Elements](../../4001-4500/4351-minimum-total-cost-to-process-all-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-cost-to-hire-k-workers/)

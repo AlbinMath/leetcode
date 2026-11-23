@@ -140,9 +140,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
 - [2048. Next Greater Numerically Balanced Number](../../2001-2500/2174-next-greater-numerically-balanced-number/)
-- [2844. Minimum Operations to Make a Special Number](../../3001-3500/3046-minimum-operations-to-make-a-special-number/)
-- [3120. Count the Number of Special Characters I](../../3001-3500/3408-count-the-number-of-special-characters-i/)
+- [2193. Minimum Number of Moves to Make Palindrome](../../1001-1500/1356-minimum-number-of-moves-to-make-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/next-special-palindrome-number/)

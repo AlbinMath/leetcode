@@ -1,6 +1,6 @@
 # LeetCode Problems: 1501-2000
 
-A collection of **305** solved LeetCode problems in the range **1501-2000**.
+A collection of **309** solved LeetCode problems in the range **1501-2000**.
 
 ## Problem Index
 
@@ -66,6 +66,7 @@ A collection of **305** solved LeetCode problems in the range **1501-2000**.
 | 1476 | [Subrectangle Queries](./1572-subrectangle-queries/) | Medium | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./1572-subrectangle-queries/Explanation.md) |
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | [Sliding Window](../../patterns/sliding-window.md) | JavaScript | [Explanation](./1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/Explanation.md) |
 | 1480 | [Running Sum of 1d Array](./1603-running-sum-of-1d-array/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1603-running-sum-of-1d-array/Explanation.md) |
+| 1481 | [Least Number of Unique Integers after K Removals](./1604-least-number-of-unique-integers-after-k-removals/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1604-least-number-of-unique-integers-after-k-removals/Explanation.md) |
 | 1484 | [Group Sold Products By The Date](./1625-group-sold-products-by-the-date/) | Easy | [Database / SQL](../../patterns/sql-database.md) | SQL | [Explanation](./1625-group-sold-products-by-the-date/Explanation.md) |
 | 1486 | [XOR Operation in an Array](./1610-xor-operation-in-an-array/) | Easy | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./1610-xor-operation-in-an-array/Explanation.md) |
 | 1487 | [Making File Names Unique](./1611-making-file-names-unique/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./1611-making-file-names-unique/Explanation.md) |
@@ -75,6 +76,7 @@ A collection of **305** solved LeetCode problems in the range **1501-2000**.
 | 1493 | [Longest Subarray of 1's After Deleting One Element](./1586-longest-subarray-of-1s-after-deleting-one-element/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./1586-longest-subarray-of-1s-after-deleting-one-element/Explanation.md) |
 | 1494 | [Parallel Courses II](./1587-parallel-courses-ii/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | JavaScript | [Explanation](./1587-parallel-courses-ii/Explanation.md) |
 | 1496 | [Path Crossing](./1619-path-crossing/) | Easy | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./1619-path-crossing/Explanation.md) |
+| 1497 | [Check If Array Pairs Are Divisible by k](./1620-check-if-array-pairs-are-divisible-by-k/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1620-check-if-array-pairs-are-divisible-by-k/Explanation.md) |
 | 1498 | [Number of Subsequences That Satisfy the Given Sum Condition](./1621-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./1621-number-of-subsequences-that-satisfy-the-given-sum-condition/Explanation.md) |
 | 1499 | [Max Value of Equation](./1622-max-value-of-equation/) | Hard | [Stack & Queue](../../patterns/stack-queue.md) | JavaScript | [Explanation](./1622-max-value-of-equation/Explanation.md) |
 | 1502 | [Can Make Arithmetic Progression From Sequence](./1626-can-make-arithmetic-progression-from-sequence/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1626-can-make-arithmetic-progression-from-sequence/Explanation.md) |
@@ -250,6 +252,7 @@ A collection of **305** solved LeetCode problems in the range **1501-2000**.
 | 1771 | [Maximize Palindrome Length From Subsequences](./1897-maximize-palindrome-length-from-subsequences/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./1897-maximize-palindrome-length-from-subsequences/Explanation.md) |
 | 1773 | [Count Items Matching a Rule](./1899-count-items-matching-a-rule/) | Easy | [Array / General](../../patterns/array-general.md) | C++ | [Explanation](./1899-count-items-matching-a-rule/Explanation.md) |
 | 1774 | [Closest Dessert Cost](./1900-closest-dessert-cost/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./1900-closest-dessert-cost/Explanation.md) |
+| 1775 | [Equal Sum Arrays With Minimum Number of Operations](./1901-equal-sum-arrays-with-minimum-number-of-operations/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1901-equal-sum-arrays-with-minimum-number-of-operations/Explanation.md) |
 | 1776 | [Car Fleet II](./1902-car-fleet-ii/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./1902-car-fleet-ii/Explanation.md) |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](./1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/) | Easy | [Stack & Queue](../../patterns/stack-queue.md) | C++ | [Explanation](./1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/Explanation.md) |
 | 1781 | [Sum of Beauty of All Substrings](./1890-sum-of-beauty-of-all-substrings/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./1890-sum-of-beauty-of-all-substrings/Explanation.md) |
@@ -274,6 +277,7 @@ A collection of **305** solved LeetCode problems in the range **1501-2000**.
 | 1808 | [Maximize Number of Nice Divisors](./1936-maximize-number-of-nice-divisors/) | Hard | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./1936-maximize-number-of-nice-divisors/Explanation.md) |
 | 1812 | [Determine Color of a Chessboard Square](./1920-determine-color-of-a-chessboard-square/) | Easy | [Array / General](../../patterns/array-general.md) | C++ | [Explanation](./1920-determine-color-of-a-chessboard-square/Explanation.md) |
 | 1813 | [Sentence Similarity III](./1923-sentence-similarity-iii/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./1923-sentence-similarity-iii/Explanation.md) |
+| 1814 | [Count Nice Pairs in an Array](./1925-count-nice-pairs-in-an-array/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1925-count-nice-pairs-in-an-array/Explanation.md) |
 | 1815 | [Maximum Number of Groups Getting Fresh Donuts](./1924-maximum-number-of-groups-getting-fresh-donuts/) | Hard | [Hash Map](../../patterns/hash-map.md) | JavaScript | [Explanation](./1924-maximum-number-of-groups-getting-fresh-donuts/Explanation.md) |
 | 1816 | [Truncate Sentence](./1944-truncate-sentence/) | Easy | [Array / General](../../patterns/array-general.md) | C++ | [Explanation](./1944-truncate-sentence/Explanation.md) |
 | 1819 | [Number of Different Subsequences GCDs](./1947-number-of-different-subsequences-gcds/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./1947-number-of-different-subsequences-gcds/Explanation.md) |

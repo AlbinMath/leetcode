@@ -188,7 +188,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 - [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2229-maximum-fruits-harvested-after-at-most-k-steps/)
-- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
+- [2958. Length of Longest Subarray With at Most K Frequency](../../3001-3500/3225-length-of-longest-subarray-with-at-most-k-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subarray-sum-after-at-most-k-swaps/)

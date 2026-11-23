@@ -127,9 +127,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
-- [35. Search Insert Position](../../0001-0500/0035-search-insert-position/)
-- [74. Search a 2D Matrix](../../0001-0500/0074-search-a-2d-matrix/)
+- [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
+- [1396. Design Underground System](../../1501-2000/1512-design-underground-system/)
+- [1603. Design Parking System](../../1501-2000/1708-design-parking-system/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-suggestions-system/)

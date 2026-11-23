@@ -108,9 +108,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3086. Minimum Moves to Pick K Ones](../../3001-3500/3327-minimum-moves-to-pick-k-ones/)
 - [995. Minimum Number of K Consecutive Bit Flips](../../1001-1500/1037-minimum-number-of-k-consecutive-bit-flips/)
 - [1703. Minimum Adjacent Swaps for K Consecutive Ones](../../1501-2000/1805-minimum-adjacent-swaps-for-k-consecutive-ones/)
-- [2379. Minimum Recolors to Get K Consecutive Black Blocks](../../2001-2500/2463-minimum-recolors-to-get-k-consecutive-black-blocks/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/)

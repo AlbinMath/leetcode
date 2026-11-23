@@ -106,9 +106,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [869. Reordered Power of 2](../../0501-1000/0900-reordered-power-of-2/)
+- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1379-reconstruct-a-2-row-binary-matrix/)
+- [995. Minimum Number of K Consecutive Bit Flips](../../1001-1500/1037-minimum-number-of-k-consecutive-bit-flips/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/1-bit-and-2-bit-characters/)

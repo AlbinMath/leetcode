@@ -121,8 +121,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3859. Count Subarrays With K Distinct Integers](../../4001-4500/4002-count-subarrays-with-k-distinct-integers/)
-- [1805. Number of Different Integers in a String](../../1501-2000/1933-number-of-different-integers-in-a-string/)
-- [3621. Number of Integers With Popcount-Depth Equal to K I](../../3501-4000/3937-number-of-integers-with-popcount-depth-equal-to-k-i/)
+- [2261. K Divisible Elements Subarrays](../../2001-2500/2339-k-divisible-elements-subarrays/)
+- [2302. Count Subarrays With Score Less Than K](../../2001-2500/2394-count-subarrays-with-score-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subarrays-with-k-different-integers/)

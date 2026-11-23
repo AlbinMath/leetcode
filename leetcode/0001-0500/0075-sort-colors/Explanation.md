@@ -150,9 +150,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1129. Shortest Path with Alternating Colors](../../1001-1500/1229-shortest-path-with-alternating-colors/)
-- [3160. Find the Number of Distinct Colors Among the Balls](../../3001-3500/3434-find-the-number-of-distinct-colors-among-the-balls/)
 - [147. Insertion Sort List](../../0001-0500/0147-insertion-sort-list/)
+- [148. Sort List](../../0001-0500/0148-sort-list/)
+- [324. Wiggle Sort II](../../0001-0500/0324-wiggle-sort-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-colors/)

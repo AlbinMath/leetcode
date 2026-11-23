@@ -121,8 +121,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3257. Maximum Value Sum by Placing Three Rooks II](../../3501-4000/3542-maximum-value-sum-by-placing-three-rooks-ii/)
-- [1413. Minimum Value to Get Positive Step by Step Sum](../../1501-2000/1514-minimum-value-to-get-positive-step-by-step-sum/)
-- [1695. Maximum Erasure Value](../../1501-2000/1813-maximum-erasure-value/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-i/)

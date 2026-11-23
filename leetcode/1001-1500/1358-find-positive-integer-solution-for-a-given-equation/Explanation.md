@@ -142,8 +142,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1394. Find Lucky Integer in an Array](../../1501-2000/1510-find-lucky-integer-in-an-array/)
+- [1982. Find Array Given Subset Sums](../../2001-2500/2109-find-array-given-subset-sums/)
 - [1985. Find the Kth Largest Integer in the Array](../../2001-2500/2113-find-the-kth-largest-integer-in-the-array/)
-- [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2220-find-all-possible-recipes-from-given-supplies/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)

@@ -164,7 +164,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
 - [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
-- [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
+- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1486-find-the-distance-value-between-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)

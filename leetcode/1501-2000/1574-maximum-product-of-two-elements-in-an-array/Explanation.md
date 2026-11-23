@@ -115,9 +115,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [1913. Maximum Product Difference Between Two Pairs](../../2001-2500/2042-maximum-product-difference-between-two-pairs/)
+- [1960. Maximum Product of the Length of Two Palindromic Substrings](../../1001-1500/1336-maximum-product-of-the-length-of-two-palindromic-substrings/)
 - [1969. Minimum Non-Zero Product of the Array Elements](../../2001-2500/2100-minimum-non-zero-product-of-the-array-elements/)
-- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
-- [3566. Partition Array into Two Equal Product Subsets](../../3501-4000/3843-partition-array-into-two-equal-product-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)

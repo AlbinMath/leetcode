@@ -103,9 +103,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
-- [49. Group Anagrams](../../0001-0500/0049-group-anagrams/)
-- [1399. Count Largest Group](../../1001-1500/1500-count-largest-group/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-strength-of-a-group/)

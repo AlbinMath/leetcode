@@ -117,7 +117,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3321. Find X-Sum of All K-Long Subarrays II](../../3501-4000/3592-find-x-sum-of-all-k-long-subarrays-ii/)
 - [1588. Sum of All Odd Length Subarrays](../../1501-2000/1693-sum-of-all-odd-length-subarrays/)
-- [2461. Maximum Sum of Distinct Subarrays With Length K](../../2501-3000/2552-maximum-sum-of-distinct-subarrays-with-length-k/)
+- [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1963-find-xor-sum-of-all-pairs-bitwise-and/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/)

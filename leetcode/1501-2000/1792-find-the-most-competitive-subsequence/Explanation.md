@@ -105,9 +105,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1710-find-servers-that-handled-most-number-of-requests/)
 - [2099. Find Subsequence of Length K With the Largest Sum](../../2001-2500/2204-find-subsequence-of-length-k-with-the-largest-sum/)
-- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
+- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1710-find-servers-that-handled-most-number-of-requests/)
+- [3527. Find the Most Common Response](../../3501-4000/3707-find-the-most-common-response/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-most-competitive-subsequence/)

@@ -150,9 +150,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3894. Traffic Signal Color](../../4001-4500/4275-traffic-signal-color/)
 - [175. Combine Two Tables](../../0001-0500/0175-combine-two-tables/)
 - [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
-- [177. Nth Highest Salary](../../0001-0500/0177-nth-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/human-traffic-of-stadium/)

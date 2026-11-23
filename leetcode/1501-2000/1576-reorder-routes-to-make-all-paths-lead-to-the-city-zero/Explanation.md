@@ -132,8 +132,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1787. Make the XOR of All Segments Equal to Zero](../../1501-2000/1913-make-the-xor-of-all-segments-equal-to-zero/)
-- [797. All Paths From Source to Target](../../0501-1000/0813-all-paths-from-source-to-target/)
-- [2673. Make Costs of Paths Equal in a Binary Tree](../../2501-3000/2780-make-costs-of-paths-equal-in-a-binary-tree/)
+- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
+- [1897. Redistribute Characters to Make All Strings Equal](../../2001-2500/2025-redistribute-characters-to-make-all-strings-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)

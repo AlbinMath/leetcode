@@ -113,8 +113,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2095. Delete the Middle Node of a Linked List](../../2001-2500/2216-delete-the-middle-node-of-a-linked-list/)
-- [3217. Delete Nodes From Linked List Present in Array](../../3501-4000/3501-delete-nodes-from-linked-list-present-in-array/)
 - [382. Linked List Random Node](../../0001-0500/0382-linked-list-random-node/)
+- [1019. Next Greater Node In Linked List](../../1001-1500/1072-next-greater-node-in-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-node-in-a-linked-list/)

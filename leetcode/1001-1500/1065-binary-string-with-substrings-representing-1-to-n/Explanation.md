@@ -93,9 +93,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
+- [467. Unique Substrings in Wraparound String](../../0001-0500/0467-unique-substrings-in-wraparound-string/)
 - [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
-- [761. Special Binary String](../../0501-1000/0763-special-binary-string/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)

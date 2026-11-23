@@ -251,8 +251,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1314. Matrix Block Sum](../../1001-1500/1242-matrix-block-sum/)
+- [4038. Count Integers Appearing in a Single Block](../../4001-4500/4410-count-integers-appearing-in-a-single-block/)
 - [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
-- [1211. Queries Quality and Percentage](../../1001-1500/1338-queries-quality-and-percentage/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/block-placement-queries/)

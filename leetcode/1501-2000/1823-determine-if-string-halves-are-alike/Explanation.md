@@ -116,8 +116,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1657. Determine if Two Strings Are Close](../../1501-2000/1777-determine-if-two-strings-are-close/)
 - [1662. Check If Two String Arrays are Equivalent](../../1501-2000/1781-check-if-two-string-arrays-are-equivalent/)
+- [3461. Check If Digits Are Equal in String After Operations I](../../3501-4000/3768-check-if-digits-are-equal-in-string-after-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-if-string-halves-are-alike/)

@@ -167,8 +167,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3755. Find Maximum Balanced XOR Subarray Length](../../3501-4000/3946-find-maximum-balanced-xor-subarray-length/)
-- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
-- [1310. XOR Queries of a Subarray](../../1001-1500/1435-xor-queries-of-a-subarray/)
+- [1803. Count Pairs With XOR in a Range](../../1501-2000/1907-count-pairs-with-xor-in-a-range/)
+- [3653. XOR After Range Multiplication Queries I](../../3501-4000/3974-xor-after-range-multiplication-queries-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subarray-xor-with-bounded-range/)

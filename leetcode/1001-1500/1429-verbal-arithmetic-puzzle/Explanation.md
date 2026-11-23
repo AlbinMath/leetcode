@@ -170,9 +170,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [773. Sliding Puzzle](../../0501-1000/0787-sliding-puzzle/)
-- [1178. Number of Valid Words for Each Puzzle](../../1001-1500/1282-number-of-valid-words-for-each-puzzle/)
 - [413. Arithmetic Slices](../../0001-0500/0413-arithmetic-slices/)
+- [446. Arithmetic Slices II - Subsequence](../../0001-0500/0446-arithmetic-slices-ii---subsequence/)
+- [1502. Can Make Arithmetic Progression From Sequence](../../1501-2000/1626-can-make-arithmetic-progression-from-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/verbal-arithmetic-puzzle/)

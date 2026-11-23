@@ -115,8 +115,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3389. Minimum Operations to Make Character Frequencies Equal](../../3501-4000/3638-minimum-operations-to-make-character-frequencies-equal/)
+- [945. Minimum Increment to Make Array Unique](../../0501-1000/0982-minimum-increment-to-make-array-unique/)
 - [1653. Minimum Deletions to Make String Balanced](../../1501-2000/1756-minimum-deletions-to-make-string-balanced/)
-- [2216. Minimum Deletions to Make Array Beautiful](../../1001-1500/1355-minimum-deletions-to-make-array-beautiful/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)

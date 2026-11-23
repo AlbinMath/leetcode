@@ -167,9 +167,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [2662. Minimum Cost of a Path With Special Roads](../../2501-3000/2686-minimum-cost-of-a-path-with-special-roads/)
+- [3428. Maximum and Minimum Sums of at Most Size K Subsequences](../../3501-4000/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences/)
+- [3430. Maximum and Minimum Sums of at Most Size K Subarrays](../../3501-4000/3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-path-with-at-most-k-turns/)

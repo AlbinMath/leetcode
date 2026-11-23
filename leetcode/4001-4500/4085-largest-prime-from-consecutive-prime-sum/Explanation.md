@@ -150,9 +150,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
 - [3556. Sum of Largest Prime Substrings](../../3501-4000/3815-sum-of-largest-prime-substrings/)
-- [829. Consecutive Numbers Sum](../../0501-1000/0856-consecutive-numbers-sum/)
+- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
+- [2507. Smallest Value After Replacing With Sum of Prime Factors](../../2501-3000/2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/)

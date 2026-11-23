@@ -103,8 +103,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2784. Check if Array is Good](../../2501-3000/2892-check-if-array-is-good/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [2784. Check if Array is Good](../../2501-3000/2892-check-if-array-is-good/)
 - [1232. Check If It Is a Straight Line](../../1001-1500/1349-check-if-it-is-a-straight-line/)
 
 ## LeetCode

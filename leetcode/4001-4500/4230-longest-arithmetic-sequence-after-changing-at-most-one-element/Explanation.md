@@ -134,7 +134,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3830. Longest Alternating Subarray After Removing At Most One Element](../../4001-4500/4198-longest-alternating-subarray-after-removing-at-most-one-element/)
 - [1493. Longest Subarray of 1's After Deleting One Element](../../1501-2000/1586-longest-subarray-of-1s-after-deleting-one-element/)
-- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3501-4000/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+- [4066. Maximum Equal Adjacent Pairs After at Most One Replacement](../../4001-4500/4420-maximum-equal-adjacent-pairs-after-at-most-one-replacement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-arithmetic-sequence-after-changing-at-most-one-element/)

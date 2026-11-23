@@ -118,8 +118,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3040. Maximum Number of Operations With the Same Score II](../../3001-3500/3318-maximum-number-of-operations-with-the-same-score-ii/)
+- [3228. Maximum Number of Operations to Move Ones to the End](../../3001-3500/3493-maximum-number-of-operations-to-move-ones-to-the-end/)
 - [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
-- [1301. Number of Paths with Max Score](../../1001-1500/1234-number-of-paths-with-max-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i/)

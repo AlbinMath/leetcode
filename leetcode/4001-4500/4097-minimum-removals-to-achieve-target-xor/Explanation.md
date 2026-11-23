@@ -124,9 +124,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1879. Minimum XOR Sum of Two Arrays](../../1501-2000/1989-minimum-xor-sum-of-two-arrays/)
-- [2997. Minimum Number of Operations to Make Array XOR Equal to K](../../3001-3500/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
-- [3882. Minimum XOR Path in a Grid](../../4001-4500/4205-minimum-xor-path-in-a-grid/)
+- [2322. Minimum Score After Removals on a Tree](../../2001-2500/2400-minimum-score-after-removals-on-a-tree/)
+- [2856. Minimum Array Length After Pair Removals](../../3001-3500/3081-minimum-array-length-after-pair-removals/)
+- [3634. Minimum Removals to Balance Array](../../3501-4000/3958-minimum-removals-to-balance-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-removals-to-achieve-target-xor/)

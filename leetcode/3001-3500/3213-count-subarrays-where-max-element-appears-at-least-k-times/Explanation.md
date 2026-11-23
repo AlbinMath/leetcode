@@ -108,9 +108,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2302. Count Subarrays With Score Less Than K](../../2001-2500/2394-count-subarrays-with-score-less-than-k/)
-- [3420. Count Non-Decreasing Subarrays After K Operations](../../3501-4000/3674-count-non-decreasing-subarrays-after-k-operations/)
 - [3737. Count Subarrays With Majority Element I](../../4001-4500/4074-count-subarrays-with-majority-element-i/)
+- [3739. Count Subarrays With Majority Element II](../../4001-4500/4075-count-subarrays-with-majority-element-ii/)
+- [2302. Count Subarrays With Score Less Than K](../../2001-2500/2394-count-subarrays-with-score-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)

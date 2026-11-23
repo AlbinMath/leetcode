@@ -128,9 +128,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
-- [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [981. Time Based Key-Value Store](../../1001-1500/1023-time-based-key-value-store/)
+- [640. Solve the Equation](../../0501-1000/0640-solve-the-equation/)
+- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1358-find-positive-integer-solution-for-a-given-equation/)
+- [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-value-of-equation/)

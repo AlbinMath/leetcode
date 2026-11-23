@@ -99,7 +99,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2309. Greatest English Letter in Upper and Lower Case](../../1001-1500/1363-greatest-english-letter-in-upper-and-lower-case/)
 - [709. To Lower Case](../../0501-1000/0742-to-lower-case/)
-- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/letter-case-permutation/)

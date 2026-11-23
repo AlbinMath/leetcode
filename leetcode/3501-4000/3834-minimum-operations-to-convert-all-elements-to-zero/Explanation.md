@@ -124,7 +124,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 - [3495. Minimum Operations to Make Array Elements Zero](../../3501-4000/3744-minimum-operations-to-make-array-elements-zero/)
-- [1969. Minimum Non-Zero Product of the Array Elements](../../2001-2500/2100-minimum-non-zero-product-of-the-array-elements/)
+- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/)

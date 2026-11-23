@@ -144,9 +144,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2244. Minimum Rounds to Complete All Tasks](../../2001-2500/2362-minimum-rounds-to-complete-all-tasks/)
 - [1266. Minimum Time Visiting All Points](../../1001-1500/1395-minimum-time-visiting-all-points/)
 - [1443. Minimum Time to Collect All Apples in a Tree](../../1501-2000/1554-minimum-time-to-collect-all-apples-in-a-tree/)
-- [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1825-find-minimum-time-to-finish-all-jobs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-complete-all-tasks/)

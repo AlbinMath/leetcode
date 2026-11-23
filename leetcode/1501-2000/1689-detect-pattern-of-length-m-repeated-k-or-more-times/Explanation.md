@@ -118,8 +118,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2014. Longest Subsequence Repeated k Times](../../2001-2500/2140-longest-subsequence-repeated-k-times/)
-- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
-- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
+- [2962. Count Subarrays Where Max Element Appears at Least K Times](../../3001-3500/3213-count-subarrays-where-max-element-appears-at-least-k-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)

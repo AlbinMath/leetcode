@@ -215,9 +215,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2556. Disconnect Path in a Binary Matrix by at Most One Flip](../../2501-3000/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
-- [3970. Shortest Path With At Most K Consecutive Identical Characters](../../4001-4500/4104-shortest-path-with-at-most-k-consecutive-identical-characters/)
-- [4046. Minimum Cost Path With At Most K Turns](../../4001-4500/4367-minimum-cost-path-with-at-most-k-turns/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [1104. Path In Zigzag Labelled Binary Tree](../../1001-1500/1194-path-in-zigzag-labelled-binary-tree/)
+- [1372. Longest ZigZag Path in a Binary Tree](../../1001-1500/1474-longest-zigzag-path-in-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-profitable-path-in-a-tree/)

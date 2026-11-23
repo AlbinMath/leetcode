@@ -106,7 +106,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [429. N-ary Tree Level Order Traversal](../../0501-1000/0764-n-ary-tree-level-order-traversal/)
 - [590. N-ary Tree Postorder Traversal](../../0501-1000/0776-n-ary-tree-postorder-traversal/)
-- [105. Construct Binary Tree from Preorder and Inorder Traversal](../../0001-0500/0105-construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [559. Maximum Depth of N-ary Tree](../../0501-1000/0774-maximum-depth-of-n-ary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)

@@ -118,8 +118,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2696. Minimum String Length After Removing Substrings](../../2501-3000/2800-minimum-string-length-after-removing-substrings/)
+- [3223. Minimum Length of String After Operations](../../3001-3500/3455-minimum-length-of-string-after-operations/)
 - [3746. Minimum String Length After Balanced Removals](../../4001-4500/4090-minimum-string-length-after-balanced-removals/)
-- [3170. Lexicographically Minimum String After Removing Stars](../../3001-3500/3445-lexicographically-minimum-string-after-removing-stars/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)

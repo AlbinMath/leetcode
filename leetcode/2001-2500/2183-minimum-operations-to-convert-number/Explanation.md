@@ -134,7 +134,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](../../1001-1500/1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
-- [1806. Minimum Number of Operations to Reinitialize a Permutation](../../1501-2000/1935-minimum-number-of-operations-to-reinitialize-a-permutation/)
+- [1775. Equal Sum Arrays With Minimum Number of Operations](../../1501-2000/1901-equal-sum-arrays-with-minimum-number-of-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-convert-number/)

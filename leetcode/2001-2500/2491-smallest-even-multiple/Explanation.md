@@ -92,8 +92,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3718. Smallest Missing Multiple of K](../../4001-4500/4080-smallest-missing-multiple-of-k/)
-- [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
-- [975. Odd Even Jump](../../1001-1500/1017-odd-even-jump/)
+- [1354. Construct Target Array With Multiple Sums](../../1001-1500/1479-construct-target-array-with-multiple-sums/)
+- [2248. Intersection of Multiple Arrays](../../2001-2500/2331-intersection-of-multiple-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-even-multiple/)

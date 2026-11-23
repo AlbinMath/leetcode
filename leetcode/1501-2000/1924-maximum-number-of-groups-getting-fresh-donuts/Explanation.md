@@ -151,8 +151,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2493. Divide Nodes Into the Maximum Number of Groups](../../2501-3000/2583-divide-nodes-into-the-maximum-number-of-groups/)
+- [3839. Number of Prefix Connected Groups](../../4001-4500/4137-number-of-prefix-connected-groups/)
 - [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
-- [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/)

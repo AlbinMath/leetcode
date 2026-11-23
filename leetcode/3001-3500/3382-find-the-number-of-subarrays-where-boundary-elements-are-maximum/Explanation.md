@@ -121,8 +121,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3020. Find the Maximum Number of Elements in Subset](../../3001-3500/3299-find-the-maximum-number-of-elements-in-subset/)
-- [2871. Split Array Into Maximum Number of Subarrays](../../3001-3500/3080-split-array-into-maximum-number-of-subarrays/)
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2744. Find Maximum Number of String Pairs](../../2501-3000/2847-find-maximum-number-of-string-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-number-of-subarrays-where-boundary-elements-are-maximum/)

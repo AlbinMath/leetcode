@@ -119,9 +119,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
 - [2516. Take K of Each Character From Left and Right](../../2501-3000/2599-take-k-of-each-character-from-left-and-right/)
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
+- [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
+- [3153. Sum of Digit Differences of All Pairs](../../3001-3500/3416-sum-of-digit-differences-of-all-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/left-and-right-sum-differences/)

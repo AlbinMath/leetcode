@@ -152,8 +152,8 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 
 ## Related Problems
 - [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2501-3000/2525-count-number-of-distinct-integers-after-reverse-operations/)
 - [2843.   Count Symmetric Integers](../../2501-3000/2998---count-symmetric-integers/)
-- [3272. Find the Count of Good Integers](../../3501-4000/3548-find-the-count-of-good-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-integers-in-intervals/)

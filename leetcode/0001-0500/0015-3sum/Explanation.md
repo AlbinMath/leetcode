@@ -165,8 +165,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [16. 3Sum Closest](../../0001-0500/0016-3sum-closest/)
+- [923. 3Sum With Multiplicity](../../0501-1000/0959-3sum-with-multiplicity/)
 - [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
-- [18. 4Sum](../../0001-0500/0018-4sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/3sum/)

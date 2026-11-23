@@ -106,9 +106,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3304. Find the K-th Character in String Game I](../../3501-4000/3600-find-the-k-th-character-in-string-game-i/)
-- [3307. Find the K-th Character in String Game II](../../3501-4000/3601-find-the-k-th-character-in-string-game-ii/)
 - [345. Reverse Vowels of a String](../../0001-0500/0345-reverse-vowels-of-a-string/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [3304. Find the K-th Character in String Game I](../../3501-4000/3600-find-the-k-th-character-in-string-game-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/vowels-game-in-a-string/)

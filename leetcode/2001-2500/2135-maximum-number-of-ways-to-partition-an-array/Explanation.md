@@ -135,8 +135,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1569. Number of Ways to Reorder Array to Get Same BST](../../1501-2000/1692-number-of-ways-to-reorder-array-to-get-same-bst/)
+- [2341. Maximum Number of Pairs in Array](../../2001-2500/2421-maximum-number-of-pairs-in-array/)
 - [2871. Split Array Into Maximum Number of Subarrays](../../3001-3500/3080-split-array-into-maximum-number-of-subarrays/)
-- [3630. Partition Array for Maximum XOR and AND](../../3501-4000/3882-partition-array-for-maximum-xor-and-and/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)

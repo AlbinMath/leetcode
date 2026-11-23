@@ -134,7 +134,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [3254. Find the Power of K-Size Subarrays I](../../3501-4000/3522-find-the-power-of-k-size-subarrays-i/)
 - [3255. Find the Power of K-Size Subarrays II](../../3501-4000/3523-find-the-power-of-k-size-subarrays-ii/)
-- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-latest-group-of-size-m/)

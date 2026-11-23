@@ -113,9 +113,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3823. Reverse Letters Then Special Characters in a String](../../4001-4500/4200-reverse-letters-then-special-characters-in-a-string/)
 - [316. Remove Duplicate Letters](../../0001-0500/0316-remove-duplicate-letters/)
 - [848. Shifting Letters](../../0501-1000/0878-shifting-letters/)
-- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-only-letters/)

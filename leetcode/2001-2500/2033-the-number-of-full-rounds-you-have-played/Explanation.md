@@ -124,9 +124,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1941. Check if All Characters Have Equal Number of Occurrences](../../2001-2500/2053-check-if-all-characters-have-equal-number-of-occurrences/)
 - [1561. Maximum Number of Coins You Can Get](../../1501-2000/1683-maximum-number-of-coins-you-can-get/)
 - [1935. Maximum Number of Words You Can Type](../../1001-1500/1264-maximum-number-of-words-you-can-type/)
+- [2071. Maximum Number of Tasks You Can Assign](../../2001-2500/2180-maximum-number-of-tasks-you-can-assign/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/)

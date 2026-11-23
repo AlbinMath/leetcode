@@ -133,7 +133,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1827. Minimum Operations to Make the Array Increasing](../../1501-2000/1938-minimum-operations-to-make-the-array-increasing/)
 - [2009. Minimum Number of Operations to Make Array Continuous](../../2001-2500/2119-minimum-number-of-operations-to-make-array-continuous/)
-- [2289. Steps to Make Array Non-decreasing](../../2001-2500/2374-steps-to-make-array-non-decreasing/)
+- [2170. Minimum Operations to Make the Array Alternating](../../2001-2500/2289-minimum-operations-to-make-the-array-alternating/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-division-operations-to-make-array-non-decreasing/)

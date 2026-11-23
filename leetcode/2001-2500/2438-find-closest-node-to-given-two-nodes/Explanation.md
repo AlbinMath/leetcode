@@ -143,9 +143,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../../1001-1500/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
-- [3068. Find the Maximum Sum of Node Values](../../3001-3500/3307-find-the-maximum-sum-of-node-values/)
-- [3585. Find Weighted Median Node in Tree](../../3501-4000/3900-find-weighted-median-node-in-tree/)
+- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
+- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
+- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1358-find-positive-integer-solution-for-a-given-equation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)

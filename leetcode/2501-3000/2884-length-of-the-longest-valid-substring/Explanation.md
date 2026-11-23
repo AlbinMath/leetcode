@@ -119,7 +119,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
+- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-the-longest-valid-substring/)

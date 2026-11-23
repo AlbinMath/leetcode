@@ -112,7 +112,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
 - [3495. Minimum Operations to Make Array Elements Zero](../../3501-4000/3744-minimum-operations-to-make-array-elements-zero/)
-- [1658. Minimum Operations to Reduce X to Zero](../../1501-2000/1776-minimum-operations-to-reduce-x-to-zero/)
+- [1827. Minimum Operations to Make the Array Increasing](../../1501-2000/1938-minimum-operations-to-make-the-array-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/)

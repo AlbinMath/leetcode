@@ -129,7 +129,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1250. Check If It Is a Good Array](../../1001-1500/1372-check-if-it-is-a-good-array/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1752. Check if Array Is Sorted and Rotated](../../1501-2000/1878-check-if-array-is-sorted-and-rotated/)
+- [1497. Check If Array Pairs Are Divisible by k](../../1501-2000/1620-check-if-array-pairs-are-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-array-is-good/)

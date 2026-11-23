@@ -1,6 +1,6 @@
 # LeetCode Problems: 1001-1500
 
-A collection of **302** solved LeetCode problems in the range **1001-1500**.
+A collection of **307** solved LeetCode problems in the range **1001-1500**.
 
 ## Problem Index
 
@@ -51,6 +51,7 @@ A collection of **302** solved LeetCode problems in the range **1001-1500**.
 | 1006 | [Clumsy Factorial](./1048-clumsy-factorial/) | Medium | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./1048-clumsy-factorial/Explanation.md) |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](./1050-construct-binary-search-tree-from-preorder-traversal/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./1050-construct-binary-search-tree-from-preorder-traversal/Explanation.md) |
 | 1009 | [Complement of Base 10 Integer](./1054-complement-of-base-10-integer/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./1054-complement-of-base-10-integer/Explanation.md) |
+| 1010 | [Pairs of Songs With Total Durations Divisible by 60](./1055-pairs-of-songs-with-total-durations-divisible-by-60/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1055-pairs-of-songs-with-total-durations-divisible-by-60/Explanation.md) |
 | 1015 | [Smallest Integer Divisible by K](./1064-smallest-integer-divisible-by-k/) | Medium | [Prefix Sum](../../patterns/prefix-sum.md) | Python | [Explanation](./1064-smallest-integer-divisible-by-k/Explanation.md) |
 | 1016 | [Binary String With Substrings Representing 1 To N](./1065-binary-string-with-substrings-representing-1-to-n/) | Medium | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./1065-binary-string-with-substrings-representing-1-to-n/Explanation.md) |
 | 1018 | [Binary Prefix Divisible By 5](./1071-binary-prefix-divisible-by-5/) | Easy | [Trie](../../patterns/trie.md) | Python | [Explanation](./1071-binary-prefix-divisible-by-5/Explanation.md) |
@@ -81,6 +82,7 @@ A collection of **302** solved LeetCode problems in the range **1001-1500**.
 | 1050 | [Actors and Directors Who Cooperated At Least Three Times](./1136-actors-and-directors-who-cooperated-at-least-three-times/) | Easy | [Database / SQL](../../patterns/sql-database.md) | SQL | [Explanation](./1136-actors-and-directors-who-cooperated-at-least-three-times/Explanation.md) |
 | 1051 | [Height Checker](./1137-height-checker/) | Easy | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./1137-height-checker/Explanation.md) |
 | 1052 | [Grumpy Bookstore Owner](./1138-grumpy-bookstore-owner/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1138-grumpy-bookstore-owner/Explanation.md) |
+| 1054 | [Distant Barcodes](./1140-distant-barcodes/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1140-distant-barcodes/Explanation.md) |
 | 1061 | [Lexicographically Smallest Equivalent String](./1058-lexicographically-smallest-equivalent-string/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./1058-lexicographically-smallest-equivalent-string/Explanation.md) |
 | 1068 | [Product Sales Analysis I](./1153-product-sales-analysis-i/) | Easy | [Database / SQL](../../patterns/sql-database.md) | SQL | [Explanation](./1153-product-sales-analysis-i/Explanation.md) |
 | 1070 | [Product Sales Analysis III](./1155-product-sales-analysis-iii/) | Medium | [Database / SQL](../../patterns/sql-database.md) | SQL | [Explanation](./1155-product-sales-analysis-iii/Explanation.md) |
@@ -94,6 +96,7 @@ A collection of **302** solved LeetCode problems in the range **1001-1500**.
 | 1081 | [Smallest Subsequence of Distinct Characters](./1159-smallest-subsequence-of-distinct-characters/) | Medium | [Monotonic Stack](../../patterns/monotonic-stack.md) | C++ | [Explanation](./1159-smallest-subsequence-of-distinct-characters/Explanation.md) |
 | 1084 | [Sales Analysis III](./1174-sales-analysis-iii/) | Easy | [Database / SQL](../../patterns/sql-database.md) | SQL | [Explanation](./1174-sales-analysis-iii/Explanation.md) |
 | 1089 | [Duplicate Zeros](./1168-duplicate-zeros/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1168-duplicate-zeros/Explanation.md) |
+| 1090 | [Largest Values From Labels](./1169-largest-values-from-labels/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1169-largest-values-from-labels/Explanation.md) |
 | 1091 | [Shortest Path in Binary Matrix](./1171-shortest-path-in-binary-matrix/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./1171-shortest-path-in-binary-matrix/Explanation.md) |
 | 1092 | [Shortest Common Supersequence ](./1170-shortest-common-supersequence-/) | Hard | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./1170-shortest-common-supersequence-/Explanation.md) |
 | 1093 | [Statistics from a Large Sample](./1183-statistics-from-a-large-sample/) | Medium | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./1183-statistics-from-a-large-sample/Explanation.md) |
@@ -288,6 +291,7 @@ A collection of **302** solved LeetCode problems in the range **1001-1500**.
 | 1627 | [Graph Connectivity With Threshold](./1223-graph-connectivity-with-threshold/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1223-graph-connectivity-with-threshold/Explanation.md) |
 | 1632 | [Rank Transform of a Matrix](./1257-rank-transform-of-a-matrix/) | Hard | [Stack & Queue](../../patterns/stack-queue.md) | JavaScript | [Explanation](./1257-rank-transform-of-a-matrix/Explanation.md) |
 | 1706 | [Where Will the Ball Fall](./1324-where-will-the-ball-fall/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./1324-where-will-the-ball-fall/Explanation.md) |
+| 1726 | [Tuple with Same Product](./1364-tuple-with-same-product/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1364-tuple-with-same-product/Explanation.md) |
 | 1862 | [Sum of Floored Pairs](./1326-sum-of-floored-pairs/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./1326-sum-of-floored-pairs/Explanation.md) |
 | 1916 | [Count Ways to Build Rooms in an Ant Colony](./1313-count-ways-to-build-rooms-in-an-ant-colony/) | Hard | [Stack & Queue](../../patterns/stack-queue.md) | JavaScript | [Explanation](./1313-count-ways-to-build-rooms-in-an-ant-colony/Explanation.md) |
 | 1935 | [Maximum Number of Words You Can Type](./1264-maximum-number-of-words-you-can-type/) | Easy | [Array / General](../../patterns/array-general.md) | C++ | [Explanation](./1264-maximum-number-of-words-you-can-type/Explanation.md) |
@@ -301,6 +305,7 @@ A collection of **302** solved LeetCode problems in the range **1001-1500**.
 | 2201 | [Count Artifacts That Can Be Extracted](./1312-count-artifacts-that-can-be-extracted/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | JavaScript | [Explanation](./1312-count-artifacts-that-can-be-extracted/Explanation.md) |
 | 2215 | [Find the Difference of Two Arrays](./1392-find-the-difference-of-two-arrays/) | Easy | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./1392-find-the-difference-of-two-arrays/Explanation.md) |
 | 2216 | [Minimum Deletions to Make Array Beautiful](./1355-minimum-deletions-to-make-array-beautiful/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./1355-minimum-deletions-to-make-array-beautiful/Explanation.md) |
+| 2225 | [Find Players With Zero or One Losses](./1354-find-players-with-zero-or-one-losses/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1354-find-players-with-zero-or-one-losses/Explanation.md) |
 | 2227 | [Encrypt and Decrypt Strings](./1433-encrypt-and-decrypt-strings/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./1433-encrypt-and-decrypt-strings/Explanation.md) |
 | 2269 | [Find the K-Beauty of a Number](./1430-find-the-k-beauty-of-a-number/) | Easy | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./1430-find-the-k-beauty-of-a-number/Explanation.md) |
 | 2303 | [Calculate Amount Paid in Taxes](./1382-calculate-amount-paid-in-taxes/) | Easy | [Stack & Queue](../../patterns/stack-queue.md) | JavaScript | [Explanation](./1382-calculate-amount-paid-in-taxes/Explanation.md) |

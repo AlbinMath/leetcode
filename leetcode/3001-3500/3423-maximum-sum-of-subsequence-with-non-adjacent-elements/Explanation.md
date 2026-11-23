@@ -142,7 +142,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
 - [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1096-maximum-sum-of-two-non-overlapping-subarrays/)
-- [3956. Maximum Sum of M Non-Overlapping Subarrays I](../../4001-4500/4123-maximum-sum-of-m-non-overlapping-subarrays-i/)
+- [2926. Maximum Balanced Subsequence Sum](../../3001-3500/3184-maximum-balanced-subsequence-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/)

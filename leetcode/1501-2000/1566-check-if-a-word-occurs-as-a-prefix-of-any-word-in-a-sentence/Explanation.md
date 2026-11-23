@@ -108,7 +108,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [3591. Check if Any Element Has Prime Frequency](../../3501-4000/3914-check-if-any-element-has-prime-frequency/)
+- [1961. Check If String Is a Prefix of Array](../../2001-2500/2093-check-if-string-is-a-prefix-of-array/)
 - [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1045-check-if-word-is-valid-after-substitutions/)
 
 ## LeetCode

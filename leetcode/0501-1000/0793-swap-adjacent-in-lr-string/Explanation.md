@@ -131,7 +131,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1047. Remove All Adjacent Duplicates In String](../../1001-1500/1128-remove-all-adjacent-duplicates-in-string/)
 - [1209. Remove All Adjacent Duplicates in String II](../../1001-1500/1320-remove-all-adjacent-duplicates-in-string-ii/)
-- [3561. Resulting String After Adjacent Removals](../../3501-4000/3860-resulting-string-after-adjacent-removals/)
+- [3438. Find Valid Pair of Adjacent Digits in String](../../3501-4000/3736-find-valid-pair-of-adjacent-digits-in-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-adjacent-in-lr-string/)

@@ -112,8 +112,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [2413. Smallest Even Multiple](../../2001-2500/2491-smallest-even-multiple/)
-- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
-- [440. K-th Smallest in Lexicographical Order](../../0001-0500/0440-k-th-smallest-in-lexicographical-order/)
+- [2003. Smallest Missing Genetic Value in Each Subtree](../../2001-2500/2131-smallest-missing-genetic-value-in-each-subtree/)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../../3001-3500/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-missing-multiple-of-k/)

@@ -103,8 +103,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2211. Count Collisions on a Road](../../2001-2500/2317-count-collisions-on-a-road/)
-- [2751. Robot Collisions](../../2501-3000/2846-robot-collisions/)
 - [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [204. Count Primes](../../0001-0500/0204-count-primes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)

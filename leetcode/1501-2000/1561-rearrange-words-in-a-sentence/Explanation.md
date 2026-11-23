@@ -112,7 +112,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1592. Rearrange Spaces Between Words](../../1501-2000/1714-rearrange-spaces-between-words/)
 - [2047. Number of Valid Words in a Sentence](../../2001-2500/2173-number-of-valid-words-in-a-sentence/)
-- [1795. Rearrange Products Table](../../1501-2000/1948-rearrange-products-table/)
+- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-words-in-a-sentence/)

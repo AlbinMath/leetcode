@@ -121,8 +121,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1448. Count Good Nodes in Binary Tree](../../1501-2000/1544-count-good-nodes-in-binary-tree/)
+- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
 - [863. All Nodes Distance K in Binary Tree](../../0501-1000/0893-all-nodes-distance-k-in-binary-tree/)
-- [1361. Validate Binary Tree Nodes](../../1001-1500/1275-validate-binary-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-dominant-nodes-in-a-binary-tree/)

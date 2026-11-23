@@ -128,8 +128,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1896. Minimum Cost to Change the Final Value of Expression](../../2001-2500/2008-minimum-cost-to-change-the-final-value-of-expression/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
+- [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1460-number-of-substrings-containing-all-three-characters/)
+- [1876. Substrings of Size Three with Distinct Characters](../../1501-2000/1987-substrings-of-size-three-with-distinct-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)

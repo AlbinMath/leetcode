@@ -1,6 +1,6 @@
 # LeetCode Problems: 0001-0500
 
-A collection of **392** solved LeetCode problems in the range **0001-0500**.
+A collection of **393** solved LeetCode problems in the range **0001-0500**.
 
 ## Problem Index
 
@@ -362,6 +362,7 @@ A collection of **392** solved LeetCode problems in the range **0001-0500**.
 | 448 | [Find All Numbers Disappeared in an Array](./0448-find-all-numbers-disappeared-in-an-array/) | Easy | [Math & Logic](../../patterns/math-logic.md) | TypeScript | [Explanation](./0448-find-all-numbers-disappeared-in-an-array/Explanation.md) |
 | 449 | [Serialize and Deserialize BST](./0449-serialize-and-deserialize-bst/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0449-serialize-and-deserialize-bst/Explanation.md) |
 | 450 | [Delete Node in a BST](./0450-delete-node-in-a-bst/) | Medium | [Binary Search](../../patterns/binary-search.md) | JavaScript, Python | [Explanation](./0450-delete-node-in-a-bst/Explanation.md) |
+| 451 | [Sort Characters By Frequency](./0451-sort-characters-by-frequency/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0451-sort-characters-by-frequency/Explanation.md) |
 | 452 | [Minimum Number of Arrows to Burst Balloons](./0452-minimum-number-of-arrows-to-burst-balloons/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | JavaScript | [Explanation](./0452-minimum-number-of-arrows-to-burst-balloons/Explanation.md) |
 | 453 | [Minimum Moves to Equal Array Elements](./0453-minimum-moves-to-equal-array-elements/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0453-minimum-moves-to-equal-array-elements/Explanation.md) |
 | 455 | [Assign Cookies](./0455-assign-cookies/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0455-assign-cookies/Explanation.md) |

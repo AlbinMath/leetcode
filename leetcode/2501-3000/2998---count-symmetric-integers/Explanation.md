@@ -103,7 +103,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
 - [2276. Count Integers in Intervals](../../2001-2500/2357-count-integers-in-intervals/)
-- [3272. Find the Count of Good Integers](../../3501-4000/3548-find-the-count-of-good-integers/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2501-3000/2525-count-number-of-distinct-integers-after-reverse-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-symmetric-integers/)

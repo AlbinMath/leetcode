@@ -122,9 +122,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2997. Minimum Number of Operations to Make Array XOR Equal to K](../../3001-3500/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](../../1501-2000/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [1897. Redistribute Characters to Make All Strings Equal](../../2001-2500/2025-redistribute-characters-to-make-all-strings-equal/)
+- [2357. Make Array Zero by Subtracting Equal Amounts](../../2001-2500/2436-make-array-zero-by-subtracting-equal-amounts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero/)

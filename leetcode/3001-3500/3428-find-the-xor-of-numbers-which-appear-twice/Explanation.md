@@ -107,8 +107,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3233. Find the Count of Numbers Which Are Not Special](../../3501-4000/3507-find-the-count-of-numbers-which-are-not-special/)
-- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
-- [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1860-find-kth-largest-xor-coordinate-value/)
+- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
+- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/)

@@ -116,7 +116,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
 - [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../../4001-4500/4086-lexicographically-smallest-string-after-deleting-duplicate-characters/)
-- [3170. Lexicographically Minimum String After Removing Stars](../../3001-3500/3445-lexicographically-minimum-string-after-removing-stars/)
+- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1058-lexicographically-smallest-equivalent-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/)

@@ -123,8 +123,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2635. Apply Transform Over Each Element in Array](../../2501-3000/2747-apply-transform-over-each-element-in-array/)
+- [3467. Transform Array by Parity](../../3501-4000/3778-transform-array-by-parity/)
 - [3896. Minimum Operations to Transform Array into Alternating Prime](../../4001-4500/4277-minimum-operations-to-transform-array-into-alternating-prime/)
-- [4062. Transform Array Using Pair Operations](../../4001-4500/4398-transform-array-using-pair-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-transform-of-an-array/)

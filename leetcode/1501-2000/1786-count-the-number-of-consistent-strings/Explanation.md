@@ -130,8 +130,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2586. Count the Number of Vowel Strings in Range](../../2501-3000/2654-count-the-number-of-vowel-strings-in-range/)
 - [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
-- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
 - [1395. Count Number of Teams](../../1501-2000/1511-count-number-of-teams/)
 
 ## LeetCode

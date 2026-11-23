@@ -237,9 +237,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2006. Count Number of Pairs With Absolute Difference K](../../2001-2500/2116-count-number-of-pairs-with-absolute-difference-k/)
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2301-count-array-pairs-divisible-by-k/)
 - [2302. Count Subarrays With Score Less Than K](../../2001-2500/2394-count-subarrays-with-score-less-than-k/)
-- [2842. Count K-Subsequences of a String With Maximum Beauty](../../3001-3500/3057-count-k-subsequences-of-a-string-with-maximum-beauty/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-sequences-to-k/)

@@ -103,7 +103,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
 - [2276. Count Integers in Intervals](../../2001-2500/2357-count-integers-in-intervals/)
-- [2843.   Count Symmetric Integers](../../2501-3000/2998---count-symmetric-integers/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2501-3000/2525-count-number-of-distinct-integers-after-reverse-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-monobit-integers/)

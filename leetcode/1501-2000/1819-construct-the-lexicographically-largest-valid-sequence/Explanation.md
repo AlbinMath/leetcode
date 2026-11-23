@@ -134,8 +134,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3302. Find the Lexicographically Smallest Valid Sequence](../../3501-4000/3584-find-the-lexicographically-smallest-valid-sequence/)
+- [903. Valid Permutations for DI Sequence](../../0501-1000/0939-valid-permutations-for-di-sequence/)
 - [3403. Find the Lexicographically Largest String From the Box I](../../3501-4000/3683-find-the-lexicographically-largest-string-from-the-box-i/)
-- [4036. Lexicographically Largest String After Pair Transformations](../../4001-4500/4366-lexicographically-largest-string-after-pair-transformations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)

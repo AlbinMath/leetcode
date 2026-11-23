@@ -137,7 +137,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1641. Count Sorted Vowel Strings](../../1501-2000/1761-count-sorted-vowel-strings/)
 - [2062. Count Vowel Substrings of a String](../../2001-2500/2186-count-vowel-substrings-of-a-string/)
-- [3305. Count of Substrings Containing Every Vowel and K Consonants I](../../3501-4000/3570-count-of-substrings-containing-every-vowel-and-k-consonants-i/)
+- [2586. Count the Number of Vowel Strings in Range](../../2501-3000/2654-count-the-number-of-vowel-strings-in-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/vowel-spellchecker/)

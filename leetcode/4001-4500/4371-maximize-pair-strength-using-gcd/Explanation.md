@@ -137,9 +137,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3312. Sorted GCD Pair Queries](../../3501-4000/3583-sorted-gcd-pair-queries/)
-- [3480. Maximize Subarrays After Removing One Conflicting Pair](../../3501-4000/3789-maximize-subarrays-after-removing-one-conflicting-pair/)
+- [3695. Maximize Alternating Sum Using Swaps](../../4001-4500/4010-maximize-alternating-sum-using-swaps/)
 - [4062. Transform Array Using Pair Operations](../../4001-4500/4398-transform-array-using-pair-operations/)
+- [3480. Maximize Subarrays After Removing One Conflicting Pair](../../3501-4000/3789-maximize-subarrays-after-removing-one-conflicting-pair/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-pair-strength-using-gcd/)

@@ -268,8 +268,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../../1001-1500/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
-- [608. Tree Node](../../0501-1000/0608-tree-node/)
-- [671. Second Minimum Node In a Binary Tree](../../0501-1000/0671-second-minimum-node-in-a-binary-tree/)
+- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
+- [501. Find Mode in Binary Search Tree](../../0501-1000/0501-find-mode-in-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-weighted-median-node-in-tree/)

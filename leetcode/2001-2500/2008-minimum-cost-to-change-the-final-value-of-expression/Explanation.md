@@ -176,9 +176,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1413. Minimum Value to Get Positive Step by Step Sum](../../1501-2000/1514-minimum-value-to-get-positive-step-by-step-sum/)
-- [2011. Final Value of Variable After Performing Operations](../../2001-2500/2137-final-value-of-variable-after-performing-operations/)
-- [2540. Minimum Common Value](../../2501-3000/2634-minimum-common-value/)
+- [1737. Change Minimum Characters to Satisfy One of Three Conditions](../../1501-2000/1859-change-minimum-characters-to-satisfy-one-of-three-conditions/)
+- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1228-minimum-cost-tree-from-leaf-values/)
+- [1217. Minimum Cost to Move Chips to The Same Position](../../1001-1500/1329-minimum-cost-to-move-chips-to-the-same-position/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/)

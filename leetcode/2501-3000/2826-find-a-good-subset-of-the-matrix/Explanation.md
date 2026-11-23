@@ -138,9 +138,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1982. Find Array Given Subset Sums](../../2001-2500/2109-find-array-given-subset-sums/)
+- [3020. Find the Maximum Number of Elements in Subset](../../3001-3500/3299-find-the-maximum-number-of-elements-in-subset/)
 - [1397. Find All Good Strings](../../1501-2000/1513-find-all-good-strings/)
-- [3272. Find the Count of Good Integers](../../3501-4000/3548-find-the-count-of-good-integers/)
-- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1501-2000/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/)

@@ -108,8 +108,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [166. Fraction to Recurring Decimal](../../0001-0500/0166-fraction-to-recurring-decimal/)
+- [2601. Prime Subtraction Operation](../../2501-3000/2716-prime-subtraction-operation/)
 - [598. Range Addition II](../../0501-1000/0598-range-addition-ii/)
-- [3243. Shortest Distance After Road Addition Queries I](../../3501-4000/3517-shortest-distance-after-road-addition-queries-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fraction-addition-and-subtraction/)

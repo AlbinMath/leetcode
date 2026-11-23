@@ -115,7 +115,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3229. Minimum Operations to Make Array Equal to Target](../../3001-3500/3454-minimum-operations-to-make-array-equal-to-target/)
-- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
+- [945. Minimum Increment to Make Array Unique](../../0501-1000/0982-minimum-increment-to-make-array-unique/)
 - [1674. Minimum Moves to Make Array Complementary](../../1501-2000/1793-minimum-moves-to-make-array-complementary/)
 
 ## LeetCode

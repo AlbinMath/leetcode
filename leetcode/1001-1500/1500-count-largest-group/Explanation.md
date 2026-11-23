@@ -109,9 +109,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2284. Sender With Largest Word Count](../../2001-2500/2378-sender-with-largest-word-count/)
 - [38. Count and Say](../../0001-0500/0038-count-and-say/)
 - [204. Count Primes](../../0001-0500/0204-count-primes/)
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-largest-group/)

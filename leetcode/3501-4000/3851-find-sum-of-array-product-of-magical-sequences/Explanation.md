@@ -202,8 +202,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2221. Find Triangular Sum of an Array](../../2001-2500/2324-find-triangular-sum-of-an-array/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
+- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/)

@@ -124,7 +124,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1830. Minimum Number of Operations to Make String Sorted](../../1501-2000/1941-minimum-number-of-operations-to-make-string-sorted/)
 - [2471. Minimum Number of Operations to Sort a Binary Tree by Level](../../2501-3000/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
-- [3666. Minimum Operations to Equalize Binary String](../../3501-4000/3983-minimum-operations-to-equalize-binary-string/)
+- [3223. Minimum Length of String After Operations](../../3001-3500/3455-minimum-length-of-string-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-sort-a-string/)

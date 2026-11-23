@@ -149,9 +149,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1443. Minimum Time to Collect All Apples in a Tree](../../1501-2000/1554-minimum-time-to-collect-all-apples-in-a-tree/)
 - [979. Distribute Coins in Binary Tree](../../1001-1500/1021-distribute-coins-in-binary-tree/)
-- [2869. Minimum Operations to Collect Elements](../../3001-3500/3044-minimum-operations-to-collect-elements/)
+- [1443. Minimum Time to Collect All Apples in a Tree](../../1501-2000/1554-minimum-time-to-collect-all-apples-in-a-tree/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/collect-coins-in-a-tree/)

@@ -116,7 +116,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3855. Sum of K-Digit Numbers in a Range](../../4001-4500/4239-sum-of-k-digit-numbers-in-a-range/)
 - [2081. Sum of k-Mirror Numbers](../../2001-2500/2202-sum-of-k-mirror-numbers/)
-- [902. Numbers At Most N Given Digit Set](../../0501-1000/0938-numbers-at-most-n-given-digit-set/)
+- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/)

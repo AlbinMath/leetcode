@@ -132,7 +132,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1566. Detect Pattern of Length M Repeated K or More Times](../../1501-2000/1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
 - [2311. Longest Binary Subsequence Less Than or Equal to K](../../2001-2500/2395-longest-binary-subsequence-less-than-or-equal-to-k/)
-- [1156. Swap For Longest Repeated Character Substring](../../1001-1500/1261-swap-for-longest-repeated-character-substring/)
+- [2962. Count Subarrays Where Max Element Appears at Least K Times](../../3001-3500/3213-count-subarrays-where-max-element-appears-at-least-k-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)

@@ -142,9 +142,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [621. Task Scheduler](../../0501-1000/0621-task-scheduler/)
 - [3408. Design Task Manager](../../3501-4000/3678-design-task-manager/)
 - [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [49. Group Anagrams](../../0001-0500/0049-group-anagrams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/task-scheduler-ii/)

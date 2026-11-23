@@ -135,8 +135,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3872. Longest Arithmetic Sequence After Changing At Most One Element](../../4001-4500/4230-longest-arithmetic-sequence-after-changing-at-most-one-element/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
+- [842. Split Array into Fibonacci Sequence](../../0501-1000/0872-split-array-into-fibonacci-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/)
