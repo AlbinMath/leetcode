@@ -16,26 +16,59 @@ Solve LeetCode Delete Characters to Make Fancy String using C++ and Array / Gene
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-A  fancy string  is a string where no  three   consecutive  characters are equal.
+## Problem Statement
+A **fancy string** is a string where no **three** **consecutive** characters are equal.
+
+Given a string `s`, delete the **minimum** possible number of characters from `s` to make it **fancy**.
+
+Return *the final string after the deletion*. It can be shown that the answer will always be **unique**.
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s` consists only of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "le e etcode"`
+- **Output:** `"leetcode"`
+- **Explanation:** Remove an 'e' from the first group of 'e's to create "leetcode".
+No three consecutive characters are equal, so return "leetcode".
+
+### Example 2
+- **Input:** `s = " a aab aa aa"`
+- **Output:** `"aabaa"`
+- **Explanation:** Remove an 'a' from the first group of 'a's to create "aabaaaa".
+Remove two 'a's from the second group of 'a's to create "aabaa".
+No three consecutive characters are equal, so return "aabaa".
+
+### Example 3
+- **Input:** `s = "aab"`
+- **Output:** `"aab"`
+- **Explanation:** No three consecutive characters are equal, so return "aab".
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Delete Characters to Make Fancy String**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Delete Characters to Make Fancy String**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "le e etcode"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"leetcode"`.
+4. **Verification:** Remove an 'e' from the first group of 'e's to create "leetcode".
+No three consecutive characters are equal, so return "leetcode".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +81,30 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    string makeFancyString(string s) {
+        string result = "";
+
+        for (char c : s) {
+            int n = result.size();
+
+            if (n >= 2 &&
+                result[n - 1] == c &&
+                result[n - 2] == c) {
+                continue;
+            }
+
+            result += c;
+        }
+
+        return result;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +119,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [944. Delete Columns to Make Sorted](../../0501-1000/0981-delete-columns-to-make-sorted/)
-- [955. Delete Columns to Make Sorted II](../../0501-1000/0992-delete-columns-to-make-sorted-ii/)
-- [960. Delete Columns to Make Sorted III](../../0501-1000/1000-delete-columns-to-make-sorted-iii/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1490-generate-a-string-with-characters-that-have-odd-counts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)

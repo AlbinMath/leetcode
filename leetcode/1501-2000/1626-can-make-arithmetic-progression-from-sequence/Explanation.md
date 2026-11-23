@@ -16,26 +16,48 @@ Solve LeetCode Can Make Arithmetic Progression From Sequence using Python and Ar
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-A sequence of numbers is called an  arithmetic progression  if the difference between any two consecutive elements is the same.
+## Problem Statement
+A sequence of numbers is called an **arithmetic progression** if the difference between any two consecutive elements is the same.
+
+Given an array of numbers `arr`, return `true` *if the array can be rearranged to form an **arithmetic progression**. Otherwise, return* `false`.
+
+## Constraints
+- `2 <= arr.length <= 1000`
+- `-10^6 <= arr[i] <= 10^6`
+
+## Examples
+### Example 1
+- **Input:** `arr = [3,5,1]`
+- **Output:** `true`
+- **Explanation:** We can reorder the elements as [1,3,5] or [5,3,1] with differences 2 and -2 respectively, between each consecutive elements.
+
+### Example 2
+- **Input:** `arr = [1,2,4]`
+- **Output:** `false`
+- **Explanation:** There is no way to reorder the elements to obtain an arithmetic progression.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Can Make Arithmetic Progression From Sequence**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Can Make Arithmetic Progression From Sequence**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [3,5,1]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** We can reorder the elements as [1,3,5] or [5,3,1] with differences 2 and -2 respectively, between each consecutive elements.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +70,15 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def canMakeArithmeticProgression(self, arr):
+        arr.sort()
+        d = arr[1] - arr[0]
+        return all(arr[i] - arr[i-1] == d for i in range(2, len(arr)))
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

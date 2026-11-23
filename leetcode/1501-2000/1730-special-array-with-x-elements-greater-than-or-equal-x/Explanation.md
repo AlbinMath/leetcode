@@ -16,26 +16,59 @@ Solve LeetCode Special Array With X Elements Greater Than or Equal X using C++ a
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  nums  of non-negative integers.  nums  is considered  special  if there exists a number  x  such that there are  exactly   x  numbers in  nums  that are  greater than or equal to   x .
+## Problem Statement
+You are given an array `nums` of non-negative integers. `nums` is considered **special** if there exists a number `x` such that there are **exactly** `x` numbers in `nums` that are **greater than or equal to** `x`.
+
+Notice that `x` **does not** have to be an element in `nums`.
+
+Return `x` *if the array is **special**, otherwise, return *`-1`. It can be proven that if `nums` is special, the value for `x` is **unique**.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `0 <= nums[i] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `nums = [3,5]`
+- **Output:** `2`
+- **Explanation:** There are 2 values (3 and 5) that are greater than or equal to 2.
+
+### Example 2
+- **Input:** `nums = [0,0]`
+- **Output:** `-1`
+- **Explanation:** No numbers fit the criteria for x.
+If x = 0, there should be 0 numbers >= x, but there are 2.
+If x = 1, there should be 1 number >= x, but there are 0.
+If x = 2, there should be 2 numbers >= x, but there are 0.
+x cannot be greater since there are only 2 numbers in nums.
+
+### Example 3
+- **Input:** `nums = [0,4,3,0,4]`
+- **Output:** `3`
+- **Explanation:** There are 3 values that are greater than or equal to 3.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Special Array With X Elements Greater Than or Equal X**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Special Array With X Elements Greater Than or Equal X**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [3,5]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** There are 2 values (3 and 5) that are greater than or equal to 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +81,32 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    int specialArray(vector<int>& nums) {
+        int n = nums.size();
+
+        for (int x = 0; x <= n; x++) {
+            int count = 0;
+
+            for (int num : nums) {
+                if (num >= x) {
+                    count++;
+                }
+            }
+
+            if (count == x) {
+                return x;
+            }
+        }
+
+        return -1;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

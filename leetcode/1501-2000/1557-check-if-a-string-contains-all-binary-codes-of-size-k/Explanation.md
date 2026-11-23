@@ -16,26 +16,52 @@ Solve LeetCode Check If a String Contains All Binary Codes of Size K using Pytho
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a binary string  s  and an integer  k , return  true   if every binary code of length   k   is a substring of   s . Otherwise, return  false .
+## Problem Statement
+Given a binary string `s` and an integer `k`, return `true` *if every binary code of length* `k` *is a substring of* `s`. Otherwise, return `false`.
+
+## Constraints
+- `1 <= s.length <= 5 * 10^5`
+- `s[i]` is either `'0'` or `'1'`.
+- `1 <= k <= 20`
+
+## Examples
+### Example 1
+- **Input:** `s = "00110110", k = 2`
+- **Output:** `true`
+- **Explanation:** The binary codes of length 2 are "00", "01", "10" and "11". They can be all found as substrings at indices 0, 1, 3 and 2 respectively.
+
+### Example 2
+- **Input:** `s = "0110", k = 1`
+- **Output:** `true`
+- **Explanation:** The binary codes of length 1 are "0" and "1", it is clear that both exist as a substring.
+
+### Example 3
+- **Input:** `s = "0110", k = 2`
+- **Output:** `false`
+- **Explanation:** The binary code "00" is of length 2 and does not exist in the array.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Check If a String Contains All Binary Codes of Size K**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Check If a String Contains All Binary Codes of Size K**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "00110110", k = 2`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** The binary codes of length 2 are "00", "01", "10" and "11". They can be all found as substrings at indices 0, 1, 3 and 2 respectively.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +75,27 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def hasAllCodes(self, s: str, k: int) -> bool:
+        need = 1 << k
+        if len(s) - k + 1 < need:
+            return False
+        mask = need - 1
+        seen = [False] * need
+        count = 0
+        h = 0
+        for i, ch in enumerate(s):
+            h = ((h << 1) | (ord(ch) - 48)) & mask
+            if i >= k - 1 and not seen[h]:
+                seen[h] = True
+                count += 1
+                if count == need:
+                    return True
+        return False
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

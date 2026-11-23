@@ -16,26 +16,63 @@ Solve LeetCode Sum Root to Leaf Numbers using JavaScript and Tree & Graph. This 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given the  root  of a binary tree containing digits from  0  to  9  only.
+## Problem Statement
+You are given the `root` of a binary tree containing digits from `0` to `9` only.
+
+Each root-to-leaf path in the tree represents a number.
+
+For example, the root-to-leaf path `1 -> 2 -> 3` represents the number `123`.
+
+Return *the total sum of all root-to-leaf numbers*. Test cases are generated so that the answer will fit in a **32-bit** integer.
+
+A **leaf** node is a node with no children.
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 1000]`.
+- `0 <= Node.val <= 9`
+- The depth of the tree will not exceed `10`.
+
+## Examples
+### Example 1
+- **Input:** `root = [1,2,3]`
+- **Output:** `25`
+- **Explanation:** The root-to-leaf path `1->2` represents the number `12`.
+The root-to-leaf path `1->3` represents the number `13`.
+Therefore, sum = 12 + 13 = `25`.
+
+### Example 2
+- **Input:** `root = [4,9,0,5,1]`
+- **Output:** `1026`
+- **Explanation:** The root-to-leaf path `4->9->5` represents the number 495.
+The root-to-leaf path `4->9->1` represents the number 491.
+The root-to-leaf path `4->0` represents the number 40.
+Therefore, sum = 495 + 491 + 40 = `1026`.
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sum Root to Leaf Numbers**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sum Root to Leaf Numbers**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [1,2,3]`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `25`.
+4. **Verification:** The root-to-leaf path `1->2` represents the number `12`.
+The root-to-leaf path `1->3` represents the number `13`.
+Therefore, sum = 12 + 13 = `25`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +89,34 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var sumNumbers = function(root) {
+    let total = 0;
+
+    function dfs(node, currentNumber) {
+        if (node === null) {
+            return;
+        }
+
+        currentNumber = currentNumber * 10 + node.val;
+
+        // Check if this is a leaf node
+        if (node.left === null && node.right === null) {
+            total += currentNumber;
+            return;
+        }
+
+        dfs(node.left, currentNumber);
+        dfs(node.right, currentNumber);
+    }
+
+    dfs(root, 0);
+
+    return total;
+};
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -66,8 +131,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1022. Sum of Root To Leaf Binary Numbers](../../1001-1500/1079-sum-of-root-to-leaf-binary-numbers/)
-- [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
-- [829. Consecutive Numbers Sum](../../0501-1000/0856-consecutive-numbers-sum/)
+- [1080. Insufficient Nodes in Root to Leaf Paths](../../1001-1500/1157-insufficient-nodes-in-root-to-leaf-paths/)
+- [2236. Root Equals Sum of Children](../../2001-2500/2384-root-equals-sum-of-children/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-root-to-leaf-numbers/)

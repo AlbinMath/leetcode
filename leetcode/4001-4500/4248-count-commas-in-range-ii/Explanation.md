@@ -16,26 +16,51 @@ Solve LeetCode Count Commas in Range II using JavaScript and Array / General. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer  n .
+## Problem Statement
+You are given an integer `n`.
+
+Return the **total** number of commas used when writing all integers from `[1, n]` (inclusive) in **standard** number formatting.
+
+In **standard** formatting:
+
+A comma is inserted after **every three** digits from the right. 
+ Numbers with **fewer** than 4 digits contain no commas.
+
+## Constraints
+- `1 <= n <= 10^15`
+
+## Examples
+### Example 1
+- **Input:** `n = 1002`
+- **Output:** `3`
+- **Explanation:** The numbers `"1,000"`, `"1,001"`, and `"1,002"` each contain one comma, giving a total of 3.
+
+### Example 2
+- **Input:** `n = 998`
+- **Output:** `0`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Commas in Range II**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Commas in Range II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 1002`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** The numbers `"1,000"`, `"1,001"`, and `"1,002"` each contain one comma, giving a total of 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +73,25 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+/**
+ * @param {number} n
+ * @return {number}
+ */
+var countCommas = function(n) {
+    let ans = 0;
+    let power = 1000;
+
+    while (power <= n) {
+        ans += n - power + 1;
+        power *= 1000;
+    }
+
+    return ans;
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

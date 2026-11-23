@@ -16,26 +16,42 @@ Solve LeetCode Subtract the Product and Sum of Digits of an Integer using Python
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given an integer number  n , return the difference between the product of its digits and the sum of its digits.
+## Problem Statement
+Given an integer number `n`, return the difference between the product of its digits and the sum of its digits.
+
+## Constraints
+- `1 <= n <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `n = 234`
+- **Output:** `15`
+
+### Example 2
+- **Input:** `n = 4421`
+- **Output:** `21`
 
 ## Key Insight
 Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Mathematical Simulation & Modular Arithmetic**. By maintaining state efficiently in a **Primitive Types**, we eliminate redundant operations and process each element in optimal time.
+To solve **Subtract the Product and Sum of Digits of an Integer**, we observe the problem requirements and utilize the **Prefix Sum** technique. We iterate through the inputs using **Prefix Sum Precomputation**, leveraging a **Prefix Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Prefix Array**).
-2. Process elements sequentially using **Prefix Sum Precomputation**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Prefix Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Subtract the Product and Sum of Digits of an Integer**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 234`.
+2. **Processing Steps:** We apply **Prefix Sum Precomputation** using our **Prefix Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `15`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Prefix Array.
 
 ## Pattern
 **Prefix Sum**
@@ -50,6 +66,22 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def subtractProductAndSum(self, n: int) -> int:
+        product = 1
+        total = 0
+
+        while n > 0:
+            digit = n % 10
+            product *= digit
+            total += digit
+            n //= 10
+
+        return product - total
+```
+
 ## Why This Works
 By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -63,9 +95,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3536. Maximum Product of Two Digits](../../3501-4000/3859-maximum-product-of-two-digits/)
-- [3539. Find Sum of Array Product of Magical Sequences](../../3501-4000/3851-find-sum-of-array-product-of-magical-sequences/)
-- [3622. Check Divisibility by Digit Sum and Product](../../3501-4000/3918-check-divisibility-by-digit-sum-and-product/)
+- [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
+- [1837. Sum of Digits in Base K](../../1501-2000/1965-sum-of-digits-in-base-k/)
+- [1945. Sum of Digits of String After Convert](../../2001-2500/2076-sum-of-digits-of-string-after-convert/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)

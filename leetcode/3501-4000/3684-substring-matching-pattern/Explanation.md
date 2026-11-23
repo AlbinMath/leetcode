@@ -16,26 +16,57 @@ Solve LeetCode Substring Matching Pattern using Python and Array / General. This
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string  s  and a pattern string  p , where  p  contains  exactly one   &#39;*&#39;  character.
+## Problem Statement
+You are given a string `s` and a pattern string `p`, where `p` contains **exactly one** `'*'` character.
+
+The `'*'` in `p` can be replaced with any sequence of zero or more characters.
+
+Return `true` if `p` can be made a substring of `s`, and `false` otherwise.
+
+## Constraints
+- `1 <= s.length <= 50`
+- `1 <= p.length <= 50 `
+- `s` contains only lowercase English letters.
+- `p` contains only lowercase English letters and exactly one `'*'`
+
+## Examples
+### Example 1
+- **Input:** `s = "leetcode", p = "ee*e"`
+- **Output:** `true`
+- **Explanation:** By replacing the `'*'` with `"tcod"`, the substring `"eetcode"` matches the pattern.
+
+### Example 2
+- **Input:** `s = "car", p = "c*v"`
+- **Output:** `false`
+- **Explanation:** There is no substring matching the pattern.
+
+### Example 3
+- **Input:** `s = "luck", p = "u*"`
+- **Output:** `true`
+- **Explanation:** The substrings `"u"`, `"uc"`, and `"uck"` match the pattern.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Substring Matching Pattern**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Substring Matching Pattern**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "leetcode", p = "ee*e"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** By replacing the `'*'` with `"tcod"`, the substring `"eetcode"` matches the pattern.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +79,19 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def hasMatch(self, s: str, p: str) -> bool:
+        left, right = p.split('*')
+
+        i = s.find(left)
+        if i == -1:
+            return False
+
+        return s.find(right, i + len(left)) != -1
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +106,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
 - [3455. Shortest Matching Substring](../../3501-4000/3692-shortest-matching-substring/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
+- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/substring-matching-pattern/)

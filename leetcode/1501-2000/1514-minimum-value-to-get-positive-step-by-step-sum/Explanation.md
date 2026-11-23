@@ -16,26 +16,54 @@ Solve LeetCode Minimum Value to Get Positive Step by Step Sum using Python and A
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array of integers  nums , you start with an initial  positive  value  startValue  .
+## Problem Statement
+Given an array of integers `nums`, you start with an initial **positive** value *startValue**.*
+
+In each iteration, you calculate the step by step sum of *startValue* plus elements in `nums` (from left to right).
+
+Return the minimum **positive** value of *startValue* such that the step by step sum is never less than 1.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `-100 <= nums[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums = [-3,2,-3,4,2]`
+- **Output:** `5`
+- **Explanation:** If you choose startValue = 4, in the third iteration your step by step sum is less than 1.
+
+### Example 2
+- **Input:** `nums = [1,2]`
+- **Output:** `1`
+- **Explanation:** Minimum start value should be positive.
+
+### Example 3
+- **Input:** `nums = [1,-2,-3]`
+- **Output:** `5`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Value to Get Positive Step by Step Sum**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Value to Get Positive Step by Step Sum**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [-3,2,-3,4,2]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** If you choose startValue = 4, in the third iteration your step by step sum is less than 1.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +76,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def minStartValue(self, nums: list[int]) -> int:
+        prefix_sum = 0
+        min_sum = 0
+
+        for num in nums:
+            prefix_sum += num
+            min_sum = min(min_sum, prefix_sum)
+
+        return 1 - min_sum
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +105,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3364. Minimum Positive Sum Subarray ](../../3501-4000/3644-minimum-positive-sum-subarray-/)
-- [2379. Minimum Recolors to Get K Consecutive Black Blocks](../../2001-2500/2463-minimum-recolors-to-get-k-consecutive-black-blocks/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)

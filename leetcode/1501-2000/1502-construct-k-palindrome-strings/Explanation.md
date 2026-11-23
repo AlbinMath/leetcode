@@ -16,26 +16,55 @@ Solve LeetCode Construct K Palindrome Strings using Python and Two Pointers. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  s  and an integer  k , return  true  if you can use all the characters in  s  to construct  non-empty   k   palindrome strings  or  false  otherwise.
+## Problem Statement
+Given a string `s` and an integer `k`, return `true` if you can use all the characters in `s` to construct **non-empty** `k` palindrome strings or `false` otherwise.
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s` consists of lowercase English letters.
+- `1 <= k <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `s = "annabelle", k = 2`
+- **Output:** `true`
+- **Explanation:** You can construct two palindromes using all characters in s.
+Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"
+
+### Example 2
+- **Input:** `s = "leetcode", k = 3`
+- **Output:** `false`
+- **Explanation:** It is impossible to construct 3 palindromes using all the characters of s.
+
+### Example 3
+- **Input:** `s = "true", k = 4`
+- **Output:** `true`
+- **Explanation:** The only possible solution is to put each character in a separate string.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Two Pointer Convergence & Scanning**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Construct K Palindrome Strings**, we observe the problem requirements and utilize the **Two Pointers** technique. By maintaining a **Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Array** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Construct K Palindrome Strings**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "annabelle", k = 2`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** You can construct two palindromes using all characters in s.
+Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +79,18 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from collections import Counter
+
+class Solution:
+    def canConstruct(self, s: str, k: int) -> bool:
+        if k > len(s):
+            return False
+        odd = sum(v % 2 for v in Counter(s).values())
+        return odd <= k
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

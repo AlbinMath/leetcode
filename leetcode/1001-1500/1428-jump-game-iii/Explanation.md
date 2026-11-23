@@ -16,8 +16,34 @@ Solve LeetCode Jump Game III using C++ and Tree & Graph. This solution finds the
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given an array of non-negative integers  arr , you are initially positioned at  start  index of the array. When you are at index  i , you can jump to  i + arr[i]  or  i - arr[i] , check if you can reach  any  index with value 0.
+## Problem Statement
+Given an array of non-negative integers `arr`, you are initially positioned at `start` index of the array. When you are at index `i`, you can jump to `i + arr[i]` or `i - arr[i]`, check if you can reach **any** index with value 0.
+
+Notice that you can not jump outside of the array at any time.
+
+## Constraints
+- `1 <= arr.length <= 5 * 10^4`
+- `0 <= arr[i] < arr.length`
+- `0 <= start < arr.length`
+
+## Examples
+### Example 1
+- **Input:** `arr = [4,2,3,0,3,1,2], start = 5`
+- **Output:** `true`
+- **Explanation:** All possible ways to reach at index 3 with value 0 are: 
+index 5 -> index 4 -> index 1 -> index 3 
+index 5 -> index 6 -> index 4 -> index 1 -> index 3
+
+### Example 2
+- **Input:** `arr = [4,2,3,0,3,1,2], start = 0`
+- **Output:** `true`
+- **Explanation:** One possible way to reach at index 3 with value 0 is: 
+index 0 -> index 4 -> index 1 -> index 3
+
+### Example 3
+- **Input:** `arr = [3,0,2,1,2], start = 2`
+- **Output:** `false`
+- **Explanation:** There is no way to reach at index 1 with value 0.
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
@@ -37,12 +63,19 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Jump Game III**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [4,2,3,0,3,1,2], start = 5`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** All possible ways to reach at index 3 with value 0 are: 
+index 5 -> index 4 -> index 1 -> index 3 
+index 5 -> index 6 -> index 4 -> index 1 -> index 3
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -58,6 +91,46 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    bool canReach(vector<int>& arr, int start) {
+        int n = arr.size();
+        vector<bool> visited(n, false);
+        queue<int> q;
+
+        q.push(start);
+        visited[start] = true;
+
+        while (!q.empty()) {
+            int i = q.front();
+            q.pop();
+
+            // Reached an index with value 0
+            if (arr[i] == 0)
+                return true;
+
+            // Jump right
+            int right = i + arr[i];
+            if (right < n && !visited[right]) {
+                visited[right] = true;
+                q.push(right);
+            }
+
+            // Jump left
+            int left = i - arr[i];
+            if (left >= 0 && !visited[left]) {
+                visited[left] = true;
+                q.push(left);
+            }
+        }
+
+        return false;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

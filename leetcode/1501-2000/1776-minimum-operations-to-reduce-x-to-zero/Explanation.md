@@ -16,8 +16,30 @@ Solve LeetCode Minimum Operations to Reduce X to Zero using JavaScript and Slidi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums  and an integer  x . In one operation, you can either remove the leftmost or the rightmost element from the array  nums  and subtract its value from  x . Note that this  modifies  the array for future operations.
+## Problem Statement
+You are given an integer array `nums` and an integer `x`. In one operation, you can either remove the leftmost or the rightmost element from the array `nums` and subtract its value from `x`. Note that this **modifies** the array for future operations.
+
+Return *the **minimum number** of operations to reduce *`x` *to **exactly*** `0` *if it is possible**, otherwise, return *`-1`.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^4`
+- `1 <= x <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,1,4,2,3], x = 5`
+- **Output:** `2`
+- **Explanation:** The optimal solution is to remove the last two elements to reduce x to zero.
+
+### Example 2
+- **Input:** `nums = [5,6,7,8,9], x = 4`
+- **Output:** `-1`
+
+### Example 3
+- **Input:** `nums = [3,2,20,1,1,3], x = 10`
+- **Output:** `5`
+- **Explanation:** The optimal solution is to remove the last three elements and the first two elements (5 operations in total) to reduce x to zero.
 
 ## Key Insight
 Maintain a dynamic contiguous window with two pointers (`left` and `right`), expanding to include new elements and shrinking when window invariants are violated.
@@ -41,12 +63,17 @@ If we remove a prefix and a suffix that sum to `x`, then the remaining elements 
 2. Process elements sequentially using **Dynamic Sliding Window Traversal**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Minimum Operations to Reduce X to Zero**. Applying **Dynamic Sliding Window Traversal** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,1,4,2,3], x = 5`.
+2. **Processing Steps:** We apply **Dynamic Sliding Window Traversal** using our **Array / Hash Set**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The optimal solution is to remove the last two elements to reduce x to zero.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Hash Set.
 
 ## Pattern
 **Sliding Window**
@@ -62,6 +89,44 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} x
+ * @return {number}
+ */
+var minOperations = function(nums, x) {
+    // Total sum - x = sum of the subarray we want to KEEP
+    const total = nums.reduce((sum, num) => sum + num, 0);
+    const target = total - x;
+
+    if (target < 0) return -1;
+    if (target === 0) return nums.length;
+
+    let left = 0;
+    let sum = 0;
+    let maxLength = -1;
+
+    // Sliding window to find the longest subarray
+    // whose sum is equal to target
+    for (let right = 0; right < nums.length; right++) {
+        sum += nums[right];
+
+        while (sum > target && left <= right) {
+            sum -= nums[left];
+            left++;
+        }
+
+        if (sum === target) {
+            maxLength = Math.max(maxLength, right - left + 1);
+        }
+    }
+
+    return maxLength === -1 ? -1 : nums.length - maxLength;
+};
+```
+
 ## Why This Works
 By utilizing **Sliding Window**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -76,8 +141,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
+- [2571. Minimum Operations to Reduce an Integer to 0](../../2501-3000/2710-minimum-operations-to-reduce-an-integer-to-0/)
 - [2749. Minimum Operations to Make the Integer Zero](../../2501-3000/2837-minimum-operations-to-make-the-integer-zero/)
-- [3495. Minimum Operations to Make Array Elements Zero](../../3501-4000/3744-minimum-operations-to-make-array-elements-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)

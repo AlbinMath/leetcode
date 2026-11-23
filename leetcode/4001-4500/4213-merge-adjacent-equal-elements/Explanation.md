@@ -16,26 +16,64 @@ Solve LeetCode Merge Adjacent Equal Elements using Python and Array / General. T
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums .
+## Problem Statement
+You are given an integer array `nums`.
+
+You must **repeatedly** apply the following merge operation until no more changes can be made:
+
+If any **two adjacent elements are equal**, choose the **leftmost** such adjacent pair in the current array and replace them with a single element equal to their **sum**.
+
+After each merge operation, the array size **decreases** by 1. Repeat the process on the updated array until no more changes can be made.
+
+Return the final array after all possible merge operations.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^5`​​​​​​​
+
+## Examples
+### Example 1
+- **Input:** `nums = [3,1,1,2]`
+- **Output:** `[3,4]`
+- **Explanation:** The middle two elements are equal and merged into `1 + 1 = 2`, resulting in `[3, 2, 2]`. 
+ The last two elements are equal and merged into `2 + 2 = 4`, resulting in `[3, 4]`. 
+ No adjacent equal elements remain. Thus, the answer is `[3, 4]`.
+
+### Example 2
+- **Input:** `nums = [2,2,4]`
+- **Output:** `[8]`
+- **Explanation:** The first two elements are equal and merged into `2 + 2 = 4`, resulting in `[4, 4]`. 
+ The first two elements are equal and merged into `4 + 4 = 8`, resulting in `[8]`.
+
+### Example 3
+- **Input:** `nums = [3,7,5]`
+- **Output:** `[3,7,5]`
+- **Explanation:** There are no adjacent equal elements in the array, so no operations are performed.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Merge Adjacent Equal Elements**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Merge Adjacent Equal Elements**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [3,1,1,2]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[3,4]`.
+4. **Verification:** The middle two elements are equal and merged into `1 + 1 = 2`, resulting in `[3, 2, 2]`. 
+ The last two elements are equal and merged into `2 + 2 = 4`, resulting in `[3, 4]`. 
+ No adjacent equal elements remain. Thus, the answer is `[3, 4]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +86,23 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def mergeAdjacent(self, nums: List[int]) -> List[int]:
+        stk = []
+        
+        for x in nums:
+            curr = x
+            while stk and stk[-1] == curr:
+                curr += stk.pop()
+            stk.append(curr)
+            
+        return stk
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +117,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../../3001-3500/3423-maximum-sum-of-subsequence-with-non-adjacent-elements/)
-- [3405. Count the Number of Arrays with K Matching Adjacent Elements](../../3501-4000/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
-- [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4411-count-rotations-with-exactly-k-equal-adjacent-pairs/)
+- [453. Minimum Moves to Equal Array Elements](../../0001-0500/0453-minimum-moves-to-equal-array-elements/)
+- [462. Minimum Moves to Equal Array Elements II](../../0001-0500/0462-minimum-moves-to-equal-array-elements-ii/)
+- [1608. Special Array With X Elements Greater Than or Equal X](../../1501-2000/1730-special-array-with-x-elements-greater-than-or-equal-x/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-adjacent-equal-elements/)

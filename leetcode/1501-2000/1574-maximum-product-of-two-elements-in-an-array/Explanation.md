@@ -16,8 +16,31 @@ Solve LeetCode Maximum Product of Two Elements in an Array using Scala and Binar
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array of integers  nums .
+## Problem Statement
+You are given an array of integers `nums`.
+
+Choose two **different** indices `i` and `j` of that array.
+
+Return the **maximum** value of `(nums[i] - 1) * (nums[j] - 1)`.
+
+## Constraints
+- `2 <= nums.length <= 500`
+- `1 <= nums[i] <= 10^3`
+
+## Examples
+### Example 1
+- **Input:** `nums = [3,4,5,2]`
+- **Output:** `12`
+- **Explanation:** If you choose the indices i=1 and j=2 (indexed from 0), you will get the maximum value, that is, (nums[1]-1)*(nums[2]-1) = (4-1)*(5-1) = 3*4 = 12.
+
+### Example 2
+- **Input:** `nums = [1,5,4,5]`
+- **Output:** `16`
+- **Explanation:** Choosing the indices i=1 and j=3 (indexed from 0), you will get the maximum value of (5-1)*(5-1) = 16.
+
+### Example 3
+- **Input:** `nums = [3,7]`
+- **Output:** `12`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -32,12 +55,17 @@ Time complexity is $O(N)$ with a single pass (or $O(N \log N)$ with sorting) and
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Maximum Product of Two Elements in an Array**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [3,4,5,2]`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `12`.
+4. **Verification:** If you choose the indices i=1 and j=2 (indexed from 0), you will get the maximum value, that is, (nums[1]-1)*(nums[2]-1) = (4-1)*(5-1) = 3*4 = 12.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -53,6 +81,27 @@ Scala
 ## Source Code
 - [solution.scala](./solution.scala)
 
+
+```scala
+object Solution {
+    def maxProduct(nums: Array[Int]): Int = {
+        var first = 0
+        var second = 0
+
+        for (num <- nums) {
+            if (num > first) {
+                second = first
+                first = num
+            } else if (num > second) {
+                second = num
+            }
+        }
+
+        (first - 1) * (second - 1)
+    }
+}
+```
+
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -66,7 +115,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1969. Minimum Non-Zero Product of the Array Elements](../../2001-2500/2100-minimum-non-zero-product-of-the-array-elements/)
+- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
 - [1913. Maximum Product Difference Between Two Pairs](../../2001-2500/2042-maximum-product-difference-between-two-pairs/)
 - [1960. Maximum Product of the Length of Two Palindromic Substrings](../../1001-1500/1336-maximum-product-of-the-length-of-two-palindromic-substrings/)
 

@@ -1,7 +1,7 @@
 # LeetCode 402: Remove K Digits
 
 **LeetCode Problem #402 — Remove K Digits**
-Solve LeetCode Remove K Digits using Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Remove K Digits using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,65 @@ Solve LeetCode Remove K Digits using Python and Math & Logic. This solution find
 | LeetCode | #402 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Mathematical Simulation & Modular Arithmetic |
-| Data Structure | Primitive Types |
-| Pattern | Math & Logic |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-Given string num representing a non-negative integer  num , and an integer  k , return  the smallest possible integer after removing   k   digits from   num .
+## Problem Statement
+Given string num representing a non-negative integer `num`, and an integer `k`, return *the smallest possible integer after removing* `k` *digits from* `num`.
+
+## Constraints
+- `1 <= k <= num.length <= 10^5`
+- `num` consists of only digits.
+- `num` does not have any leading zeros except for the zero itself.
+
+## Examples
+### Example 1
+- **Input:** `num = "1432219", k = 3`
+- **Output:** `"1219"`
+- **Explanation:** Remove the three digits 4, 3, and 2 to form the new number 1219 which is the smallest.
+
+### Example 2
+- **Input:** `num = "10200", k = 1`
+- **Output:** `"200"`
+- **Explanation:** Remove the leading 1 and the number is 200. Note that the output must not contain leading zeroes.
+
+### Example 3
+- **Input:** `num = "10", k = 2`
+- **Output:** `"0"`
+- **Explanation:** Remove all the digits from the number and it is left with nothing which is 0.
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Mathematical Simulation & Modular Arithmetic**. By maintaining state efficiently in a **Primitive Types**, we eliminate redundant operations and process each element in optimal time.
+To solve **Remove K Digits**, we observe the problem requirements and utilize the **Math & Logic** technique. We iterate through the inputs using **Mathematical Simulation & Modular Arithmetic**, leveraging a **Primitive Types** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Types**).
-2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Primitive Types**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Remove K Digits**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `num = "1432219", k = 3`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"1219"`.
+4. **Verification:** Remove the three digits 4, 3, and 2 to form the new number 1219 which is the smallest.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Math & Logic**
+**Stack & Queue**
 
 ## Topics
-- Math
-- Simulation
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -50,8 +76,26 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def removeKdigits(self, num: str, k: int) -> str:
+        stack = []
+        for d in num:
+            while k and stack and stack[-1] > d:
+                stack.pop()
+                k -= 1
+            stack.append(d)
+
+        if k:
+            stack = stack[:-k]
+
+        res = ''.join(stack).lstrip('0')
+        return res or '0'
+```
+
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

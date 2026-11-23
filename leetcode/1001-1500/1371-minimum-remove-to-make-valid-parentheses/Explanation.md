@@ -1,7 +1,7 @@
 # LeetCode 1249: Minimum Remove to Make Valid Parentheses
 
 **LeetCode Problem #1249 — Minimum Remove to Make Valid Parentheses**
-Solve LeetCode Minimum Remove to Make Valid Parentheses using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Minimum Remove to Make Valid Parentheses using Python and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,73 @@ Solve LeetCode Minimum Remove to Make Valid Parentheses using Python and Stack &
 | LeetCode | #1249 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Stack Push / Pop Parsing |
+| Algorithm | Monotonic Stack Filtering |
 | Data Structure | Stack |
-| Pattern | Stack & Queue |
+| Pattern | Monotonic Stack |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a string  s  of  &#39;(&#39;  ,  &#39;)&#39;  and lowercase English characters.
+## Problem Statement
+Given a string s of `'('` , `')'` and lowercase English characters.
+
+Your task is to remove the minimum number of parentheses ( `'('` or `')'`, in any positions ) so that the resulting *parentheses string* is valid and return **any** valid string.
+
+Formally, a *parentheses string* is valid if and only if:
+
+It is the empty string, contains only lowercase characters, or 
+ It can be written as `AB` (`A` concatenated with `B`), where `A` and `B` are valid strings, or 
+ It can be written as `(A)`, where `A` is a valid string.
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s[i]` is either `'('` , `')'`, or lowercase English letter.
+
+## Examples
+### Example 1
+- **Input:** `s = "lee(t(c)o)de)"`
+- **Output:** `"lee(t(c)o)de"`
+- **Explanation:** "lee(t(co)de)" , "lee(t(c)ode)" would also be accepted.
+
+### Example 2
+- **Input:** `s = "a)b(c)d"`
+- **Output:** `"ab(c)d"`
+
+### Example 3
+- **Input:** `s = "))(("`
+- **Output:** `""`
+- **Explanation:** An empty string is also valid.
 
 ## Key Insight
-Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
+Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
 
 ## Approach
-We iterate through the input using **Stack Push / Pop Parsing**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Remove to Make Valid Parentheses**, we observe the problem requirements and utilize the **Stack & Queue** technique. We maintain a **Stack** with elements in strictly monotonic order. Whenever an incoming element violates monotonicity, we pop previous elements and compute answer intervals in amortized linear time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Stack Push / Pop Parsing**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize an empty stack.
+2. For each element, pop previous items from stack while monotonic invariant is violated.
+3. Push current element or index onto stack.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Remove to Make Valid Parentheses**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "lee(t(c)o)de)"`.
+2. **Processing Steps:** We apply **Monotonic Stack Filtering** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"lee(t(c)o)de"`.
+4. **Verification:** "lee(t(co)de)" , "lee(t(c)ode)" would also be accepted.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Stack & Queue**
+**Monotonic Stack**
 
 ## Topics
 - Stack
-- String Parsing
+- Monotonic Stack
+- Array
 
 ## Language
 Python
@@ -50,17 +84,41 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def minRemoveToMakeValid(self, s: str) -> str:
+        stack = []
+        remove = set()
+
+        for i, ch in enumerate(s):
+            if ch == '(':
+                stack.append(i)
+            elif ch == ')':
+                if stack:
+                    stack.pop()
+                else:
+                    remove.add(i)
+
+        remove.update(stack)
+
+        return ''.join(
+            ch for i, ch in enumerate(s)
+            if i not in remove
+        )
+```
+
 ## Why This Works
-By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Pushing elements instead of indices when index distance is required.
+2. Using strict inequality (`<`) when non-strict (`<=`) is necessary.
+3. Forgetting to flush remaining elements from stack at the end.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Linear stack processing, nearest element relationship analysis.
+- **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
 - [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0957-minimum-add-to-make-parentheses-valid/)

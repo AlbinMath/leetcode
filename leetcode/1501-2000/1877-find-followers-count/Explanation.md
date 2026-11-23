@@ -16,26 +16,84 @@ Solve LeetCode Find Followers Count using SQL and Database / SQL. This solution 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Followers`
+
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| user_id | int |
+| follower_id | int |
++-------------+------+
 (user_id, follower_id) is the primary key (combination of columns with unique values) for this table.
+This table contains the IDs of a user and a follower in a social media app where the follower follows the user.
+
+Write a solution that will, for each user, return the number of followers.
+
+Return the result table ordered by `user_id` in ascending order.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Followers table:
++---------+-------------+
+| user_id | follower_id |
++---------+-------------+
+| 0 | 1 |
+| 1 | 0 |
+| 2 | 0 |
+| 2 | 1 |
++---------+-------------+`
+- **Output:** `+---------+----------------+
+| user_id | followers_count|
++---------+----------------+
+| 0 | 1 |
+| 1 | 1 |
+| 2 | 2 |
++---------+----------------+`
+- **Explanation:** The followers of 0 are {1}
+The followers of 1 are {0}
+The followers of 2 are {0,1}
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
+We solve **Find Followers Count** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We group records using `GROUP BY` and compute metrics with aggregate functions. We order the final result set using `ORDER BY`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Group records and calculate aggregated summary metrics.
+2. Sort the projected result.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Find Followers Count**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Followers table:
++---------+-------------+
+| user_id | follower_id |
++---------+-------------+
+| 0 | 1 |
+| 1 | 0 |
+| 2 | 0 |
+| 2 | 1 |
++---------+-------------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+---------+----------------+
+| user_id | followers_count|
++---------+----------------+
+| 0 | 1 |
+| 1 | 1 |
+| 2 | 2 |
++---------+----------------+`.
+4. **Verification:** The followers of 0 are {1}
+The followers of 1 are {0}
+The followers of 2 are {0,1}
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +108,16 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT
+    user_id,
+    COUNT(follower_id) AS followers_count
+FROM Followers
+GROUP BY user_id
+ORDER BY user_id ASC;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

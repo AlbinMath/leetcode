@@ -16,26 +16,55 @@ Solve LeetCode Group Anagrams using JavaScript, Python and Hash Map. This soluti
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given an array of strings  strs , group the  anagrams  together. You can return the answer in  any order .
+## Problem Statement
+Given an array of strings `strs`, group the anagrams together. You can return the answer in **any order**.
+
+## Constraints
+- `1 <= strs.length <= 10^4`
+- `0 <= strs[i].length <= 100`
+- `strs[i]` consists of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `strs = ["eat","tea","tan","ate","nat","bat"]`
+- **Output:** `[["bat"],["nat","tan"],["ate","eat","tea"]]`
+- **Explanation:** There is no string in strs that can be rearranged to form `"bat"`. 
+ The strings `"nat"` and `"tan"` are anagrams as they can be rearranged to form each other. 
+ The strings `"ate"`, `"eat"`, and `"tea"` are anagrams as they can be rearranged to form each other.
+
+### Example 2
+- **Input:** `strs = [""]`
+- **Output:** `[[""]]`
+
+### Example 3
+- **Input:** `strs = ["a"]`
+- **Output:** `[["a"]]`
 
 ## Key Insight
 Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
-We iterate through the input using **Complement Lookup / Hash Table Frequency**. By maintaining state efficiently in a **Dictionary / Hash Map**, we eliminate redundant operations and process each element in optimal time.
+To solve **Group Anagrams**, we observe the problem requirements and utilize the **Hash Map** technique. By maintaining a **Dictionary / Hash Map**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Dictionary / Hash Map**).
-2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Dictionary / Hash Map** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Group Anagrams**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `strs = ["eat","tea","tan","ate","nat","bat"]`.
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[["bat"],["nat","tan"],["ate","eat","tea"]]`.
+4. **Verification:** There is no string in strs that can be rearranged to form `"bat"`. 
+ The strings `"nat"` and `"tan"` are anagrams as they can be rearranged to form each other. 
+ The strings `"ate"`, `"eat"`, and `"tea"` are anagrams as they can be rearranged to form each other.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
 **Hash Map**
@@ -52,6 +81,39 @@ JavaScript, Python
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
+
+### JavaScript
+```javascript
+var groupAnagrams = function(strs) {
+    const map = new Map();
+
+    for (const str of strs) {
+        // Sort letters to create a common key
+        const key = str.split('').sort().join('');
+
+        if (!map.has(key)) {
+            map.set(key, []);
+        }
+
+        map.get(key).push(str);
+    }
+
+    return Array.from(map.values());
+};
+```
+
+### Python
+```python
+from collections import defaultdict
+
+class Solution:
+    def groupAnagrams(self, strs):
+        d = defaultdict(list)
+        for s in strs:
+            d[''.join(sorted(s))].append(s)
+        return list(d.values())
+```
+
 ## Why This Works
 By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,9 +127,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [2514. Count Anagrams](../../2501-3000/2605-count-anagrams/)
 - [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
-- [1399. Count Largest Group](../../1001-1500/1500-count-largest-group/)
-- [1484. Group Sold Products By The Date](../../1501-2000/1625-group-sold-products-by-the-date/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-anagrams/)

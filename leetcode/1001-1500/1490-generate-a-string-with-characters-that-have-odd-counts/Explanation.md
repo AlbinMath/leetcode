@@ -16,26 +16,51 @@ Solve LeetCode Generate a String With Characters That Have Odd Counts using Pyth
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  n ,  return a string with  n  characters such that each character in such string occurs  an odd number of times  .
+## Problem Statement
+Given an integer `n`, *return a string with `n` characters such that each character in such string occurs **an odd number of times***.
+
+The returned string must contain only lowercase English letters. If there are multiples valid strings, return **any** of them.
+
+## Constraints
+- `1 <= n <= 500`
+
+## Examples
+### Example 1
+- **Input:** `n = 4`
+- **Output:** `"pppz"`
+- **Explanation:** "pppz" is a valid string since the character 'p' occurs three times and the character 'z' occurs once. Note that there are many other valid strings such as "ohhh" and "love".
+
+### Example 2
+- **Input:** `n = 2`
+- **Output:** `"xy"`
+- **Explanation:** "xy" is a valid string since the characters 'x' and 'y' occur once. Note that there are many other valid strings such as "ag" and "ur".
+
+### Example 3
+- **Input:** `n = 7`
+- **Output:** `"holasss"`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Generate a String With Characters That Have Odd Counts**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Generate a String With Characters That Have Odd Counts**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 4`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"pppz"`.
+4. **Verification:** "pppz" is a valid string since the character 'p' occurs three times and the character 'z' occurs once. Note that there are many other valid strings such as "ohhh" and "love".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +73,16 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def generateTheString(self, n: int) -> str:
+        if n % 2 == 1:
+            return 'a' * n
+
+        return 'a' * (n - 1) + 'b'
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +97,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1903. Largest Odd Number in String](../../2001-2500/2032-largest-odd-number-in-string/)
 - [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1112-find-words-that-can-be-formed-by-characters/)
 - [2800. Shortest String That Contains Three Strings](../../2501-3000/2877-shortest-string-that-contains-three-strings/)
-- [3297. Count Substrings That Can Be Rearranged to Contain a String I](../../3501-4000/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)

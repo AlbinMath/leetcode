@@ -1,7 +1,7 @@
 # LeetCode 2327: Number of People Aware of a Secret
 
 **LeetCode Problem #2327 — Number of People Aware of a Secret**
-Solve LeetCode Number of People Aware of a Secret using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Number of People Aware of a Secret using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,76 @@ Solve LeetCode Number of People Aware of a Secret using JavaScript and Array / G
 | LeetCode | #2327 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-On day  1 , one person discovers a secret.
+## Problem Statement
+On day `1`, one person discovers a secret.
+
+You are given an integer `delay`, which means that each person will **share** the secret with a new person **every day**, starting from `delay` days after discovering the secret. You are also given an integer `forget`, which means that each person will **forget** the secret `forget` days after discovering it. A person **cannot** share the secret on the same day they forgot it, or on any day afterwards.
+
+Given an integer `n`, return* the number of people who know the secret at the end of day *`n`. Since the answer may be very large, return it **modulo** `10^9 + 7`.
+
+## Constraints
+- `2 <= n <= 1000`
+- `1 <= delay < forget <= n`
+
+## Examples
+### Example 1
+- **Input:** `n = 6, delay = 2, forget = 4`
+- **Output:** `5`
+- **Explanation:** Day 1: Suppose the first person is named A. (1 person)
+Day 2: A is the only person who knows the secret. (1 person)
+Day 3: A shares the secret with a new person, B. (2 people)
+Day 4: A shares the secret with a new person, C. (3 people)
+Day 5: A forgets the secret, and B shares the secret with a new person, D. (3 people)
+Day 6: B shares the secret with E, and C shares the secret with F. (5 people)
+
+### Example 2
+- **Input:** `n = 4, delay = 1, forget = 3`
+- **Output:** `6`
+- **Explanation:** Day 1: The first person is named A. (1 person)
+Day 2: A shares the secret with B. (2 people)
+Day 3: A and B share the secret with 2 new people, C and D. (4 people)
+Day 4: A forgets the secret. B, C, and D share the secret with 3 new people. (6 people)
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Number of People Aware of a Secret**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Number of People Aware of a Secret**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 6, delay = 2, forget = 4`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** Day 1: Suppose the first person is named A. (1 person)
+Day 2: A is the only person who knows the secret. (1 person)
+Day 3: A shares the secret with a new person, B. (2 people)
+Day 4: A shares the secret with a new person, C. (3 people)
+Day 5: A forgets the secret, and B shares the secret with a new person, D. (3 people)
+Day 6: B shares the secret with E, and C shares the secret with F. (5 people)
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 JavaScript
@@ -49,8 +87,36 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {number} n
+ * @param {number} delay
+ * @param {number} forget
+ * @return {number}
+ */
+var peopleAwareOfSecret = function (n, delay, forget) {
+    const MOD = 1000000007;
+    const nw = new Array(n + 1).fill(0);
+    nw[1] = 1;
+    let share = 0; // people able to share on the current day
+
+    for (let d = 2; d <= n; d++) {
+        if (d - delay >= 1) share = (share + nw[d - delay]) % MOD;
+        if (d - forget >= 1) share = (share - nw[d - forget] + MOD) % MOD;
+        nw[d] = share;
+    }
+
+    let ans = 0;
+    for (let j = Math.max(1, n - forget + 1); j <= n; j++) {
+        ans = (ans + nw[j]) % MOD;
+    }
+    return ans;
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

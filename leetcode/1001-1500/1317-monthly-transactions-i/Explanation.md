@@ -16,26 +16,81 @@ Solve LeetCode Monthly Transactions I using SQL and Database / SQL. This solutio
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Transactions`
+
 +---------------+---------+
+| Column Name | Type |
++---------------+---------+
+| id | int |
+| country | varchar |
+| state | enum |
+| amount | int |
+| trans_date | date |
++---------------+---------+
+id is the primary key of this table.
+The table has information about incoming transactions.
+The state column is an enum of type ["approved", "declined"].
+
+Write an SQL query to find for each month and country, the number of transactions and their total amount, the number of approved transactions and their total amount.
+
+Return the result table in **any order**.
+
+The query result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Transactions table:
++------+---------+----------+--------+------------+
+| id | country | state | amount | trans_date |
++------+---------+----------+--------+------------+
+| 121 | US | approved | 1000 | 2018-12-18 |
+| 122 | US | declined | 2000 | 2018-12-19 |
+| 123 | US | approved | 2000 | 2019-01-01 |
+| 124 | DE | approved | 2000 | 2019-01-07 |
++------+---------+----------+--------+------------+`
+- **Output:** `+----------+---------+-------------+----------------+--------------------+-----------------------+
+| month | country | trans_count | approved_count | trans_total_amount | approved_total_amount |
++----------+---------+-------------+----------------+--------------------+-----------------------+
+| 2018-12 | US | 2 | 1 | 3000 | 1000 |
+| 2019-01 | US | 1 | 1 | 2000 | 2000 |
+| 2019-01 | DE | 1 | 1 | 2000 | 2000 |
++----------+---------+-------------+----------------+--------------------+-----------------------+`
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Monthly Transactions I** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We group records using `GROUP BY` and compute metrics with aggregate functions.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Group records and calculate aggregated summary metrics.
+2. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Monthly Transactions I**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Transactions table:
++------+---------+----------+--------+------------+
+| id | country | state | amount | trans_date |
++------+---------+----------+--------+------------+
+| 121 | US | approved | 1000 | 2018-12-18 |
+| 122 | US | declined | 2000 | 2018-12-19 |
+| 123 | US | approved | 2000 | 2019-01-01 |
+| 124 | DE | approved | 2000 | 2019-01-07 |
++------+---------+----------+--------+------------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+----------+---------+-------------+----------------+--------------------+-----------------------+
+| month | country | trans_count | approved_count | trans_total_amount | approved_total_amount |
++----------+---------+-------------+----------------+--------------------+-----------------------+
+| 2018-12 | US | 2 | 1 | 3000 | 1000 |
+| 2019-01 | US | 1 | 1 | 2000 | 2000 |
+| 2019-01 | DE | 1 | 1 | 2000 | 2000 |
++----------+---------+-------------+----------------+--------------------+-----------------------+`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +105,18 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT DATE_FORMAT(trans_date, '%Y-%m') AS month,
+       country,
+       COUNT(*) AS trans_count,
+       SUM(state = 'approved') AS approved_count,
+       SUM(amount) AS trans_total_amount,
+       SUM(IF(state = 'approved', amount, 0)) AS approved_total_amount
+FROM Transactions
+GROUP BY month, country;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

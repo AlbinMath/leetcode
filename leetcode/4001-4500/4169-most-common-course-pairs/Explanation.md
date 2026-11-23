@@ -16,26 +16,54 @@ Solve LeetCode Most Common Course Pairs using SQL and Database / SQL. This solut
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Table:  course_completions
+## Problem Statement
+Table: `course_completions`
+
++-------------------+---------+
+| Column Name | Type | 
++-------------------+---------+
+| user_id | int |
+| course_id | int |
+| course_name | varchar |
+| completion_date | date |
+| course_rating | int |
++-------------------+---------+
+(user_id, course_id) is the combination of columns with unique values for this table.
+Each row represents a completed course by a user with their rating (1-5 scale).
+
+Write a solution to identify **skill mastery pathways** by analyzing course completion sequences among top-performing students:
+
+Consider only **top-performing students** (those who completed **at least **`5`** courses** with an **average rating of **`4`** or higher**). 
+ For each top performer, identify the **sequence of courses** they completed in chronological order. 
+ Find all **consecutive course pairs** (`Course A &rarr; Course B`) taken by these students. 
+ Return the **pair frequency**, identifying which course transitions are most common among high achievers.
+
+Return *the result table ordered by* *pair frequency in **descending** order* *and then by first course name and second course name in **ascending** order*.
+
+The result format is in the following example.
+
+## Examples
+Consider the standard input for **Most Common Course Pairs**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
+We solve **Most Common Course Pairs** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We join the tables on matching foreign and primary keys. We group records using `GROUP BY` and compute metrics with aggregate functions. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints. We order the final result set using `ORDER BY`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Join relevant tables on matching key columns.
+2. Group records and calculate aggregated summary metrics.
+3. Filter records according to problem criteria.
+4. Sort the projected result.
+5. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Most Common Course Pairs**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+Applying **SQL Query / Relational Join & Window Function** step by step to the input yields the expected result.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -51,6 +79,52 @@ SQL
 ## Source Code
 - [solution.sql](./solution.sql)
 
+
+```sql
+WITH TopLearners AS (
+    SELECT
+        user_id
+    FROM course_completions
+    GROUP BY user_id
+    HAVING COUNT(*) >= 5
+       AND AVG(course_rating) >= 4
+),
+
+OrderedCourses AS (
+    SELECT
+        c.user_id,
+        c.course_name,
+        LEAD(c.course_name) OVER (
+            PARTITION BY c.user_id
+            ORDER BY c.completion_date, c.course_id
+        ) AS second_course
+    FROM course_completions c
+    JOIN TopLearners t
+        ON c.user_id = t.user_id
+),
+
+CoursePairs AS (
+    SELECT
+        course_name AS first_course,
+        second_course
+    FROM OrderedCourses
+    WHERE second_course IS NOT NULL
+)
+
+SELECT
+    first_course,
+    second_course,
+    COUNT(*) AS transition_count
+FROM CoursePairs
+GROUP BY
+    first_course,
+    second_course
+ORDER BY
+    transition_count DESC,
+    first_course ASC,
+    second_course ASC;
+```
+
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +139,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [819. Most Common Word](../../0501-1000/0837-most-common-word/)
-- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
+- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [336. Palindrome Pairs](../../0001-0500/0336-palindrome-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-course-pairs/)

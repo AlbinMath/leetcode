@@ -16,26 +16,73 @@ Solve LeetCode Triangle Judgement using SQL and Database / SQL. This solution fi
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Triangle`
+
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| x | int |
+| y | int |
+| z | int |
++-------------+------+
 In SQL, (x, y, z) is the primary key column for this table.
+Each row of this table contains the lengths of three line segments.
+
+Report for every three line segments whether they can form a triangle.
+
+Return the result table in **any order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Triangle table:
++----+----+----+
+| x | y | z |
++----+----+----+
+| 13 | 15 | 30 |
+| 10 | 20 | 15 |
++----+----+----+`
+- **Output:** `+----+----+----+----------+
+| x | y | z | triangle |
++----+----+----+----------+
+| 13 | 15 | 30 | No |
+| 10 | 20 | 15 | Yes |
++----+----+----+----------+`
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Triangle Judgement** by formulating an SQL query that applies relational algebra and SQL aggregation clauses.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Execute target query with relational operators.
+2. Format and return final projection.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Triangle Judgement**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Triangle table:
++----+----+----+
+| x | y | z |
++----+----+----+
+| 13 | 15 | 30 |
+| 10 | 20 | 15 |
++----+----+----+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+----+----+----+----------+
+| x | y | z | triangle |
++----+----+----+----------+
+| 13 | 15 | 30 | No |
+| 10 | 20 | 15 | Yes |
++----+----+----+----------+`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +97,22 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT 
+    x,
+    y,
+    z,
+    CASE
+        WHEN x + y > z
+         AND x + z > y
+         AND y + z > x
+        THEN 'Yes'
+        ELSE 'No'
+    END AS triangle
+FROM Triangle;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

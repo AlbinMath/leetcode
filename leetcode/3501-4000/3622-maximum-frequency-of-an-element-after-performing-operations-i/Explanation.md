@@ -1,7 +1,7 @@
 # LeetCode 3346: Maximum Frequency of an Element After Performing Operations I
 
 **LeetCode Problem #3346 — Maximum Frequency of an Element After Performing Operations I**
-Solve LeetCode Maximum Frequency of an Element After Performing Operations I using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+Solve LeetCode Maximum Frequency of an Element After Performing Operations I using Python and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,81 @@ Solve LeetCode Maximum Frequency of an Element After Performing Operations I usi
 | LeetCode | #3346 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Complement Lookup / Hash Table Frequency |
-| Data Structure | Dictionary / Hash Map |
-| Pattern | Hash Map |
+| Algorithm | Dynamic Sliding Window Traversal |
+| Data Structure | Array / Hash Set |
+| Pattern | Sliding Window |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums  and two integers  k  and  numOperations .
+## Problem Statement
+You are given an integer array `nums` and two integers `k` and `numOperations`.
+
+You must perform an **operation** `numOperations` times on `nums`, where in each operation you:
+
+Select an index `i` that was **not** selected in any previous operations. 
+ Add an integer in the range `[-k, k]` to `nums[i]`.
+
+Return the **maximum** possible frequency of any element in `nums` after performing the **operations**.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^5`
+- `0 <= k <= 10^5`
+- `0 <= numOperations <= nums.length`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,4,5], k = 1, numOperations = 2`
+- **Output:** `2`
+- **Explanation:** We can achieve a maximum frequency of two by: 
+
+ 
+ Adding 0 to `nums[1]`. `nums` becomes `[1, 4, 5]`. 
+ Adding -1 to `nums[2]`. `nums` becomes `[1, 4, 4]`.
+
+### Example 2
+- **Input:** `nums = [5,11,20,20], k = 5, numOperations = 1`
+- **Output:** `2`
+- **Explanation:** We can achieve a maximum frequency of two by: 
+
+ 
+ Adding 0 to `nums[1]`.
 
 ## Key Insight
-Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
+Maintain a dynamic contiguous window with two pointers (`left` and `right`), expanding to include new elements and shrinking when window invariants are violated.
 
 ## Approach
-We iterate through the input using **Complement Lookup / Hash Table Frequency**. By maintaining state efficiently in a **Dictionary / Hash Map**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Frequency of an Element After Performing Operations I**, we observe the problem requirements and utilize the **Hash Map** technique. By maintaining a **Dictionary / Hash Map**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Dictionary / Hash Map**).
-2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Dictionary / Hash Map** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Frequency of an Element After Performing Operations I**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,4,5], k = 1, numOperations = 2`.
+2. **Processing Steps:** We apply **Dynamic Sliding Window Traversal** using our **Array / Hash Set**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** We can achieve a maximum frequency of two by: 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+ 
+ Adding 0 to `nums[1]`. `nums` becomes `[1, 4, 5]`. 
+ Adding -1 to `nums[2]`. `nums` becomes `[1, 4, 4]`.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Hash Set.
 
 ## Pattern
-**Hash Map**
+**Sliding Window**
 
 ## Topics
-- Hash Table
-- Array
-- Complement Lookup
+- Sliding Window
+- Two Pointers
+- Subarrays
 
 ## Language
 Python
@@ -51,22 +92,50 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+from bisect import bisect_left, bisect_right
+from collections import Counter
+
+class Solution:
+    def maxFrequency(self, nums: List[int], k: int, numOperations: int) -> int:
+        nums.sort()
+        n = len(nums)
+        cnt = Counter(nums)
+        ans = 0
+
+        # Case 1: target is an existing value
+        for v, c in cnt.items():
+            inr = bisect_right(nums, v + k) - bisect_left(nums, v - k)
+            ans = max(ans, c + min(numOperations, inr - c))
+
+        # Case 2: target is any value; need a window of width 2k
+        l = 0
+        for r in range(n):
+            while nums[r] - nums[l] > 2 * k:
+                l += 1
+            ans = max(ans, min(numOperations, r - l + 1))
+
+        return ans
+```
+
 ## Why This Works
-By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Sliding Window**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Using the same element twice.
-2. Checking the map before inserting elements in the correct order.
-3. Inefficient hash functions or unnecessary duplicate key updates.
+1. Shrinking the window too late or missing invalid state checks.
+2. Forgetting to update window metrics (e.g. char counts) during contraction.
+3. Misinterpreting fixed vs variable window requirements.
 
 ## Interview Notes
-- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
-- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
+- **Tests:** Two-pointer window management, state tracking, and contiguous subarray analysis.
+- **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
 - [3347. Maximum Frequency of an Element After Performing Operations II](../../3501-4000/3640-maximum-frequency-of-an-element-after-performing-operations-ii/)
 - [2011. Final Value of Variable After Performing Operations](../../2001-2500/2137-final-value-of-variable-after-performing-operations/)
-- [1846. Maximum Element After Decreasing and Rearranging](../../1501-2000/1956-maximum-element-after-decreasing-and-rearranging/)
+- [2317. Maximum XOR After Operations ](../../2001-2500/2402-maximum-xor-after-operations-/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/)

@@ -16,26 +16,56 @@ Solve LeetCode Longest Substring Of All Vowels in Order using Python and Array /
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-A string is considered  beautiful  if it satisfies the following conditions:
+## Problem Statement
+A string is considered **beautiful** if it satisfies the following conditions:
+
+Each of the 5 English vowels (`'a'`, `'e'`, `'i'`, `'o'`, `'u'`) must appear **at least once** in it. 
+ The letters must be sorted in **alphabetical order** (i.e. all `'a'`s before `'e'`s, all `'e'`s before `'i'`s, etc.).
+
+For example, strings `"aeiou"` and `"aaaaaaeiiiioou"` are considered **beautiful**, but `"uaeio"`, `"aeoiu"`, and `"aaaeeeooo"` are **not beautiful**.
+
+Given a string `word` consisting of English vowels, return *the **length of the longest beautiful substring** of *`word`*. If no such substring exists, return *`0`.
+
+A **substring** is a contiguous sequence of characters in a string.
+
+## Constraints
+- `1 <= word.length <= 5 * 10^5`
+- `word` consists of characters `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`.
+
+## Examples
+### Example 1
+- **Input:** `word = "aeiaaio aaaaeiiiiouuu ooaauuaeiu"`
+- **Output:** `13`
+
+### Example 2
+- **Input:** `word = "aeeeiiiioooauuu aeiou "`
+- **Output:** `5`
+
+### Example 3
+- **Input:** `word = "a"`
+- **Output:** `0`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Longest Substring Of All Vowels in Order**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Longest Substring Of All Vowels in Order**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `word = "aeiaaio aaaaeiiiiouuu ooaauuaeiu"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `13`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +78,30 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def longestBeautifulSubstring(self, word: str) -> int:
+        curr_len = 1
+        distinct = 1
+        max_len = 0
+        
+        for i in range(1, len(word)):
+            if word[i] > word[i - 1]:
+                curr_len += 1
+                distinct += 1
+            elif word[i] == word[i - 1]:
+                curr_len += 1
+            else:
+                curr_len = 1
+                distinct = 1
+                
+            if distinct == 5 and curr_len > max_len:
+                max_len = curr_len
+                
+        return max_len
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

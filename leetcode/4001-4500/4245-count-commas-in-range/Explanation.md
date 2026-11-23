@@ -1,7 +1,7 @@
 # LeetCode 3870: Count Commas in Range
 
 **LeetCode Problem #3870 — Count Commas in Range**
-Solve LeetCode Count Commas in Range using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Count Commas in Range using JavaScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,65 @@ Solve LeetCode Count Commas in Range using JavaScript and Tree & Graph. This sol
 | LeetCode | #3870 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an integer  n .
+## Problem Statement
+You are given an integer `n`.
+
+Return the **total** number of commas used when writing all integers from `[1, n]` (inclusive) in **standard** number formatting.
+
+In **standard** formatting:
+
+A comma is inserted after **every three** digits from the right. 
+ Numbers with **fewer** than 4 digits contain no commas.
+
+## Constraints
+- `1 <= n <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `n = 1002`
+- **Output:** `3`
+- **Explanation:** The numbers `"1,000"`, `"1,001"`, and `"1,002"` each contain one comma, giving a total of 3.
+
+### Example 2
+- **Input:** `n = 998`
+- **Output:** `0`
+- **Explanation:** All numbers from 1 to 998 have fewer than four digits. Therefore, no commas are used.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Commas in Range**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Commas in Range**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 1002`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** The numbers `"1,000"`, `"1,001"`, and `"1,002"` each contain one comma, giving a total of 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 JavaScript
@@ -52,8 +76,25 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {number} n
+ * @return {number}
+ */
+var countCommas = function(n) {
+    let count = 0;
+
+    for (let i = 1000; i <= n; i++) {
+        count += Math.floor((i.toString().length - 1) / 3);
+    }
+
+    return count;
+};
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

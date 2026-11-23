@@ -1,7 +1,7 @@
 # LeetCode 658: Find K Closest Elements
 
 **LeetCode Problem #658 — Find K Closest Elements**
-Solve LeetCode Find K Closest Elements using JavaScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Find K Closest Elements using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,65 @@ Solve LeetCode Find K Closest Elements using JavaScript and Bit Manipulation. Th
 | LeetCode | #658 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a  sorted  integer array  arr , two integers  k  and  x , return the  k  closest integers to  x  in the array. The result should also be sorted in ascending order.
+## Problem Statement
+Given a **sorted** integer array `arr`, two integers `k` and `x`, return the `k` closest integers to `x` in the array. The result should also be sorted in ascending order.
+
+An integer `a` is closer to `x` than an integer `b` if:
+
+`|a - x| < |b - x|`, or 
+ `|a - x| == |b - x|` and `a < b`
+
+## Constraints
+- `1 <= k <= arr.length`
+- `1 <= arr.length <= 10^4`
+- `arr` is sorted in **ascending** order.
+- `-10^4 <= arr[i], x <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `arr = [1,2,3,4,5], k = 4, x = 3`
+- **Output:** `[1,2,3,4]`
+
+### Example 2
+- **Input:** `arr = [1,1,2,3,4,5], k = 4, x = -1`
+- **Output:** `[1,1,2,3]`
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find K Closest Elements**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find K Closest Elements**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [1,2,3,4,5], k = 4, x = 3`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,2,3,4]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Bit Manipulation**
+**Two Pointers**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 JavaScript
@@ -50,22 +76,42 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var findClosestElements = function(arr, k, x) {
+    let left = 0;
+    let right = arr.length - k;
+
+    while (left < right) {
+        const mid = Math.floor((left + right) / 2);
+
+        if (x - arr[mid] > arr[mid + k] - x) {
+            left = mid + 1;
+        } else {
+            right = mid;
+        }
+    }
+
+    return arr.slice(left, left + k);
+};
+```
+
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [3171. Find Subarray With Bitwise OR Closest to K](../../3001-3500/3436-find-subarray-with-bitwise-or-closest-to-k/)
-- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
-- [973. K Closest Points to Origin](../../1001-1500/1014-k-closest-points-to-origin/)
+- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-closest-elements/)

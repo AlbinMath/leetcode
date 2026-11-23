@@ -16,26 +16,56 @@ Solve LeetCode Remove All Occurrences of a Substring using C++ and Array / Gener
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given two strings  s  and  part , perform the following operation on  s  until  all  occurrences of the substring  part  are removed:
+## Problem Statement
+Given two strings `s` and `part`, perform the following operation on `s` until **all** occurrences of the substring `part` are removed:
+
+Find the **leftmost** occurrence of the substring `part` and **remove** it from `s`.
+
+Return `s`* after removing all occurrences of *`part`.
+
+A **substring** is a contiguous sequence of characters in a string.
+
+## Constraints
+- `1 <= s.length <= 1000`
+- `1 <= part.length <= 1000`
+- `s`​​​​​​ and `part` consists of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "daabcbaabcbc", part = "abc"`
+- **Output:** `"dab"`
+- **Explanation:** : The following operations are done:
+- s = "da
+
+### Example 2
+- **Input:** `s = "axxxxyyyyb", part = "xy"`
+- **Output:** `"ab"`
+- **Explanation:** : The following operations are done:
+- s = "axxx
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Remove All Occurrences of a Substring**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Remove All Occurrences of a Substring**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "daabcbaabcbc", part = "abc"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"dab"`.
+4. **Verification:** : The following operations are done:
+- s = "da
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +78,34 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+#include <string>
+using namespace std;
+
+class Solution {
+public:
+    string removeOccurrences(string s, string part) {
+        string res;
+        res.reserve(s.size());
+        int m = part.size();
+        char last_char = part.back();
+        
+        for (char c : s) {
+            res.push_back(c);
+            // Quick check on the last character before comparing the full suffix
+            if (c == last_char && (int)res.size() >= m) {
+                if (res.compare(res.size() - m, m, part) == 0) {
+                    res.resize(res.size() - m);
+                }
+            }
+        }
+        
+        return res;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +120,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
 - [1047. Remove All Adjacent Duplicates In String](../../1001-1500/1128-remove-all-adjacent-duplicates-in-string/)
 - [1209. Remove All Adjacent Duplicates in String II](../../1001-1500/1320-remove-all-adjacent-duplicates-in-string-ii/)
+- [1297. Maximum Number of Occurrences of a Substring](../../1001-1500/1423-maximum-number-of-occurrences-of-a-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)

@@ -16,26 +16,56 @@ Solve LeetCode Shortest Subarray With OR at Least K II using Python and Bit Mani
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  nums  of  non-negative  integers and an integer  k .
+## Problem Statement
+You are given an array `nums` of **non-negative** integers and an integer `k`.
+
+An array is called **special** if the bitwise `OR` of all of its elements is **at least** `k`.
+
+Return *the length of the **shortest** **special** **non-empty** subarray of* `nums`, *or return* `-1` *if no special subarray exists*.
+
+## Constraints
+- `1 <= nums.length <= 2 * 10^5`
+- `0 <= nums[i] <= 10^9`
+- `0 <= k <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,3], k = 2`
+- **Output:** `1`
+- **Explanation:** The subarray `[3]` has `OR` value of `3`. Hence, we return `1`.
+
+### Example 2
+- **Input:** `nums = [2,1,8], k = 10`
+- **Output:** `3`
+- **Explanation:** The subarray `[2,1,8]` has `OR` value of `11`. Hence, we return `3`.
+
+### Example 3
+- **Input:** `nums = [1,2], k = 0`
+- **Output:** `1`
+- **Explanation:** The subarray `[1]` has `OR` value of `1`. Hence, we return `1`.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Shortest Subarray With OR at Least K II**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Shortest Subarray With OR at Least K II**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,3], k = 2`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** The subarray `[3]` has `OR` value of `3`. Hence, we return `1`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +79,32 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def minimumSubarrayLength(self, nums, k):
+        cnt = [0] * 31
+        cur = 0
+        l = 0
+        best = float('inf')
+        for r, x in enumerate(nums):
+            for b in range(31):
+                if (x >> b) & 1:
+                    cnt[b] += 1
+                    cur |= 1 << b
+            while l <= r and cur >= k:
+                if r - l + 1 < best:
+                    best = r - l + 1
+                y = nums[l]
+                for b in range(31):
+                    if (y >> b) & 1:
+                        cnt[b] -= 1
+                        if cnt[b] == 0:
+                            cur &= ~(1 << b)
+                l += 1
+        return -1 if best == float('inf') else best
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

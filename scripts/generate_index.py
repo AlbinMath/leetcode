@@ -105,6 +105,30 @@ LANG_MAP = {
     '.rkt': 'Racket'
 }
 
+LANG_SYNTAX = {
+    '.py': 'python',
+    '.cpp': 'cpp',
+    '.cc': 'cpp',
+    '.js': 'javascript',
+    '.ts': 'typescript',
+    '.java': 'java',
+    '.sql': 'sql',
+    '.kt': 'kotlin',
+    '.php': 'php',
+    '.sh': 'bash',
+    '.go': 'go',
+    '.rs': 'rust',
+    '.swift': 'swift',
+    '.rb': 'ruby',
+    '.c': 'c',
+    '.cs': 'csharp',
+    '.scala': 'scala',
+    '.dart': 'dart',
+    '.erl': 'erlang',
+    '.ex': 'elixir',
+    '.rkt': 'racket'
+}
+
 # ---------------------------------------------------------
 # 3. Precise Categorization for Pattern, Algorithm, Data Structure
 # ---------------------------------------------------------
@@ -254,8 +278,71 @@ def deduce_complexity(pattern, content):
     return time_comp, space_comp
 
 # ---------------------------------------------------------
-# 5. Extract Problem Description from README.md
+# 5. Extract Problem Description, Examples, and Constraints from README.md
 # ---------------------------------------------------------
+def clean_html(text):
+    if not text:
+        return ""
+    text = re.sub(r'<code>(.*?)</code>', r'`\1`', text)
+    text = re.sub(r'<strong>(.*?)</strong>', r'**\1**', text)
+    text = re.sub(r'<em>(.*?)</em>', r'*\1*', text)
+    text = re.sub(r'<sup>(.*?)</sup>', r'^\1', text)
+    text = re.sub(r'<sub>(.*?)</sub>', r'_\1', text)
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = text.replace('&quot;', '"').replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&').replace('&nbsp;', ' ')
+    text = text.replace('&#39;', "'")
+    return re.sub(r'[ \t]+', ' ', text).strip()
+
+def parse_readme(readme_text, title):
+    if not readme_text:
+        return "", [], []
+
+    # 1. Problem description
+    split_match = re.split(r'<strong class="example">Example|<p><strong>Example|Example 1:?|<strong>Example 1:?</strong>', readme_text, maxsplit=1, flags=re.IGNORECASE)
+    raw_desc = split_match[0] if split_match else readme_text
+    
+    desc_paragraphs = []
+    for p in re.split(r'</p>|\n\n', raw_desc):
+        c = clean_html(p)
+        if c and not c.startswith("Constraints") and len(c) > 5:
+            desc_paragraphs.append(c)
+    clean_desc = "\n\n".join(desc_paragraphs) if desc_paragraphs else clean_html(raw_desc)
+
+    # 2. Extract Examples
+    examples = []
+    ex_matches = re.findall(r'(?:<strong class="example">|<strong>|\b)Example\s+(\d+)[:\s]*</strong>?(.*?)(?=(?:<strong class="example">|<strong>|\b)Example\s+\d+|Constraints|\Z)', readme_text, re.DOTALL | re.IGNORECASE)
+    
+    for ex_num, block in ex_matches:
+        inp_match = re.search(r'Input:?\s*</strong>?\s*(?:<span[^>]*>)?\s*(.*?)(?=<strong|\bOutput:|\n\n|</p>|\Z)', block, re.DOTALL | re.IGNORECASE)
+        out_match = re.search(r'Output:?\s*</strong>?\s*(?:<span[^>]*>)?\s*(.*?)(?=<strong|\bExplanation:|\n\n|</p>|\Z)', block, re.DOTALL | re.IGNORECASE)
+        exp_match = re.search(r'Explanation:?\s*</strong>?\s*(?:<span[^>]*>)?\s*(.*?)(?=<strong|\Z)', block, re.DOTALL | re.IGNORECASE)
+        
+        if inp_match and out_match:
+            inp = clean_html(inp_match.group(1)).strip('` ')
+            outp = clean_html(out_match.group(1)).strip('` ')
+            exp = clean_html(exp_match.group(1)).strip() if exp_match else ""
+            examples.append({
+                'num': ex_num,
+                'input': inp,
+                'output': outp,
+                'explanation': exp
+            })
+
+    # 3. Extract Constraints
+    constraints = []
+    cons_match = re.search(r'Constraints:?\s*</strong>?(.*?)(?=\Z)', readme_text, re.DOTALL | re.IGNORECASE)
+    if cons_match:
+        items = re.findall(r'<li>(.*?)</li>', cons_match.group(1), re.DOTALL)
+        for it in items:
+            c = clean_html(it)
+            if c:
+                constraints.append(c)
+        if not constraints:
+            lines = [clean_html(l) for l in cons_match.group(1).splitlines() if clean_html(l)]
+            constraints = [l for l in lines if any(ch in l for ch in ['<=', '>=', '<', '>', '==', 'consists', 'length', 'range'])]
+
+    return clean_desc, examples, constraints
+
 def extract_clean_brief(readme_text, title):
     if not readme_text:
         return f"Given the problem constraints for **{title}**, compute the optimal solution efficiently."
@@ -269,6 +356,95 @@ def extract_clean_brief(readme_text, title):
             return line
             
     return f"Given the problem constraints for **{title}**, compute the optimal solution efficiently."
+
+def generate_approach_and_steps(title, pattern, algorithm, ds, sol_code, sol_ext, desc):
+    code_lower = sol_code.lower() if sol_code else ""
+    
+    if sol_ext == '.sql':
+        approach_parts = [f"We solve **{title}** by formulating an SQL query that applies relational algebra and SQL aggregation clauses."]
+        steps = []
+        if 'join' in code_lower:
+            approach_parts.append("We join the tables on matching foreign and primary keys.")
+            steps.append("Join relevant tables on matching key columns.")
+        if 'group by' in code_lower:
+            approach_parts.append("We group records using `GROUP BY` and compute metrics with aggregate functions.")
+            steps.append("Group records and calculate aggregated summary metrics.")
+        if 'where' in code_lower or 'having' in code_lower:
+            approach_parts.append("Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints.")
+            steps.append("Filter records according to problem criteria.")
+        if 'order by' in code_lower:
+            approach_parts.append("We order the final result set using `ORDER BY`.")
+            steps.append("Sort the projected result.")
+        if not steps:
+            steps = ["Execute target query with relational operators.", "Format and return final projection."]
+        steps.append("Project and return the requested output columns.")
+        return " ".join(approach_parts), steps
+
+    approach_parts = []
+    steps = []
+
+    has_hashmap = any(k in code_lower for k in ['dict()', '{}', 'hashmap', 'unordered_map', 'new map', 'defaultdict', 'counter'])
+    has_hashset = any(k in code_lower for k in ['set()', 'hashset', 'unordered_set', 'new set'])
+    has_two_pointers = any(k in code_lower for k in ['left', 'right', 'low', 'high', 'start', 'end']) and ('<' in sol_code or '<=' in sol_code)
+    has_dp = any(k in code_lower for k in ['dp =', 'dp[', 'memo[', 'memo =', 'table'])
+    has_heap = any(k in code_lower for k in ['heappush', 'heappop', 'heapify', 'priorityqueue'])
+    has_recursion = bool(re.search(r'def\s+(\w+).*?\b\1\s*\(', sol_code, re.DOTALL) or re.search(r'function\s+(\w+).*?\b\1\s*\(', sol_code, re.DOTALL)) if sol_code else False
+    has_stack = any(k in code_lower for k in ['stack', '.pop()', '.append(']) and pattern in ['Stack & Queue', 'Monotonic Stack']
+
+    approach_parts.append(f"To solve **{title}**, we observe the problem requirements and utilize the **{pattern}** technique.")
+
+    if pattern == "Hash Map" or has_hashmap:
+        approach_parts.append(f"By maintaining a **{ds}**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.")
+        steps.append(f"Initialize a **{ds}** to record observed values and indices.")
+        steps.append("Iterate through elements, querying the hash map for complementary conditions.")
+        steps.append("Insert the current element into the hash map if no match is found.")
+    elif pattern == "Binary Search":
+        approach_parts.append("Exploiting monotonic ordering or sorted properties in the input space, we maintain `left` and `right` boundary pointers. In each iteration, we evaluate the midpoint to discard half of the search range, reducing the time complexity to $O(\\log n)$.")
+        steps.append("Initialize boundary pointers `left` and `right`.")
+        steps.append("Compute `mid = left + (right - left) // 2` to prevent overflow.")
+        steps.append("Adjust `left` or `right` depending on whether target satisfies the partition condition.")
+    elif pattern == "Two Pointers" or has_two_pointers:
+        approach_parts.append("We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.")
+        steps.append("Initialize two pointers at opposite ends of the input.")
+        steps.append("Evaluate pointer elements and update running calculations.")
+        steps.append("Advance or retreat pointers conditionally until they meet.")
+    elif pattern == "Sliding Window":
+        approach_parts.append("We maintain a contiguous window defined by `left` and `right` pointers. The right pointer expands the window by adding incoming elements, while the left pointer advances to restore window invariants whenever duplicates or constraint limits are exceeded.")
+        steps.append("Initialize `left = 0` and window tracking data structures.")
+        steps.append("Expand `right` pointer over input elements.")
+        steps.append("Contract `left` pointer when window invariants are breached.")
+        steps.append("Update global best metric for valid window intervals.")
+    elif pattern == "Dynamic Programming" or has_dp:
+        approach_parts.append(f"We decompose the problem into overlapping subproblems using a **{ds}**. Optimal intermediate states are saved so that each subproblem is solved exactly once.")
+        steps.append("Establish base cases in the DP structure.")
+        steps.append("Iterate through subproblem states following recurrence relations.")
+        steps.append("Derive final answer from completed subproblem state.")
+    elif pattern == "Tree & Graph":
+        if has_recursion:
+            approach_parts.append("We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.")
+            steps.append("Define base cases for null/leaf nodes.")
+            steps.append("Recursively traverse child nodes.")
+            steps.append("Combine child results to determine current node output.")
+        else:
+            approach_parts.append("We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.")
+            steps.append("Initialize queue/stack with initial node.")
+            steps.append("Pop current node, visit adjacent neighbors, and push valid unvisited nodes.")
+    elif pattern == "Monotonic Stack" or (pattern == "Stack & Queue" and has_stack):
+        approach_parts.append(f"We maintain a **{ds}** with elements in strictly monotonic order. Whenever an incoming element violates monotonicity, we pop previous elements and compute answer intervals in amortized linear time.")
+        steps.append("Initialize an empty stack.")
+        steps.append("For each element, pop previous items from stack while monotonic invariant is violated.")
+        steps.append("Push current element or index onto stack.")
+    elif pattern == "Bit Manipulation":
+        approach_parts.append("We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.")
+        steps.append("Apply bitwise masks or shift operators.")
+        steps.append("Accumulate bitwise state to determine final output.")
+    else:
+        approach_parts.append(f"We iterate through the inputs using **{algorithm}**, leveraging a **{ds}** to efficiently manage state and achieve optimal complexity.")
+        steps.append(f"Initialize state variables and the **{ds}**.")
+        steps.append("Iterate through elements, applying the transformation or evaluation logic.")
+
+    steps.append("Validate boundary conditions and return the final computed result.")
+    return " ".join(approach_parts), steps
 
 # ---------------------------------------------------------
 # 6. Pattern-Specific Insights, Common Mistakes & Interview Notes
@@ -391,14 +567,99 @@ def process_problem(range_folder, folder_name, lc_slug_map):
     problem_brief = extract_clean_brief(readme_text, title)
     key_insight, common_mistakes, interview_notes = get_pattern_insights(pattern, title, ds, algorithm)
 
-    approach = f"We iterate through the input using **{algorithm}**. By maintaining state efficiently in a **{ds}**, we eliminate redundant operations and process each element in optimal time."
+    desc, examples, constraints = parse_readme(readme_text, title)
+
+    # Read code from solution files
+    sol_codes = {}
+    primary_code = ""
+    primary_ext = sol_exts[0] if sol_exts else '.py'
+    for sf in sol_files:
+        sf_path = os.path.join(path, sf)
+        sf_ext = os.path.splitext(sf)[1]
+        try:
+            with open(sf_path, 'r', encoding='utf-8', errors='ignore') as f:
+                code_text = f.read().strip()
+                if code_text:
+                    sol_codes[sf] = (sf_ext, code_text)
+                    if not primary_code:
+                        primary_code = code_text
+                        primary_ext = sf_ext
+        except Exception:
+            pass
+
+    # Build code_block_md
+    code_blocks = []
+    for sf, (s_ext, s_code) in sol_codes.items():
+        syn = LANG_SYNTAX.get(s_ext, '')
+        lang_label = LANG_MAP.get(s_ext, 'Code')
+        if len(sol_codes) > 1:
+            code_blocks.append(f"### {lang_label}\n```{syn}\n{s_code}\n```")
+        else:
+            code_blocks.append(f"```{syn}\n{s_code}\n```")
+    code_block_md = ("\n\n" + "\n\n".join(code_blocks) + "\n") if code_blocks else ""
+
+    # Approach & Algorithm steps
+    approach = ""
     if "## Approach" in expl_text:
         app_match = re.search(r'## Approach\s*\n(.*?)(?=\n## |\Z)', expl_text, re.DOTALL)
-        if app_match and len(app_match.group(1).strip()) > 15:
-            approach = app_match.group(1).strip()
+        if app_match:
+            cand = app_match.group(1).strip()
+            if len(cand) > 30 and "We iterate through the input using" not in cand:
+                approach = cand
 
-    algorithm_steps = f"1. Initialize state variables / data structure (**{ds}**).\n2. Process elements sequentially using **{algorithm}**.\n3. Validate boundary conditions and return optimal result."
-    example_walkthrough = f"Consider the standard input for **{title}**. Applying **{algorithm}** yields the target result step by step."
+    algo_steps = []
+    if "## Algorithm" in expl_text:
+        alg_match = re.search(r'## Algorithm\s*\n(.*?)(?=\n## |\Z)', expl_text, re.DOTALL)
+        if alg_match:
+            cand_alg = alg_match.group(1).strip()
+            if len(cand_alg) > 20 and "Process elements sequentially using" not in cand_alg:
+                algo_steps = [line.strip() for line in cand_alg.splitlines() if line.strip()]
+
+    if not approach:
+        gen_approach, gen_steps = generate_approach_and_steps(title, pattern, algorithm, ds, primary_code, primary_ext, desc)
+        approach = gen_approach
+        if not algo_steps:
+            algo_steps = [f"{i}. {s}" for i, s in enumerate(gen_steps, 1)]
+
+    if not algo_steps:
+        algo_steps = [
+            f"1. Initialize state variables / data structure (**{ds}**).",
+            f"2. Process elements sequentially using **{algorithm}**.",
+            "3. Validate boundary conditions and return optimal result."
+        ]
+    algorithm_steps_str = "\n".join(algo_steps)
+
+    # Format Examples
+    if examples:
+        ex_md_parts = []
+        for ex in examples:
+            ex_str = f"### Example {ex['num']}\n"
+            ex_str += f"- **Input:** `{ex['input']}`\n"
+            ex_str += f"- **Output:** `{ex['output']}`"
+            if ex['explanation']:
+                ex_str += f"\n- **Explanation:** {ex['explanation']}"
+            ex_md_parts.append(ex_str)
+        examples_md = "\n\n".join(ex_md_parts) + "\n\n"
+    else:
+        examples_md = f"Consider the standard input for **{title}**. Applying **{algorithm}** yields the target result step by step.\n\n"
+
+    # Format Walkthrough
+    if examples:
+        ex1 = examples[0]
+        walkthrough = f"""1. **Input State:** We begin with `{ex1['input']}`.
+2. **Processing Steps:** We apply **{algorithm}** using our **{ds}**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `{ex1['output']}`."""
+        if ex1['explanation']:
+            walkthrough += f"\n4. **Verification:** {ex1['explanation']}"
+    else:
+        walkthrough = f"Applying **{algorithm}** step by step to the input yields the expected result."
+
+    # Format Constraints
+    constraints_md = ""
+    if constraints:
+        constraints_md = "## Constraints\n" + "\n".join([f"- {c}" for c in constraints]) + "\n\n"
 
     source_links = "\n".join([f"- [{sf}](./{sf})" for sf in sol_files]) if sol_files else "- [solution.py](./solution.py)"
     why_this_works = f"By utilizing **{pattern}**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations."
@@ -420,11 +681,15 @@ def process_problem(range_folder, folder_name, lc_slug_map):
         'time': time_comp,
         'space': space_comp,
         'brief': problem_brief,
+        'description': desc if desc else problem_brief,
+        'examples_md': examples_md,
+        'constraints_md': constraints_md,
+        'example_walkthrough': walkthrough,
         'key_insight': key_insight,
         'approach': approach,
-        'algorithm_steps': algorithm_steps,
-        'example_walkthrough': example_walkthrough,
+        'algorithm_steps': algorithm_steps_str,
         'source_links': source_links,
+        'code_block_md': code_block_md,
         'why_this_works': why_this_works,
         'common_mistakes': common_mistakes,
         'interview_notes': interview_notes,
@@ -512,10 +777,11 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
 | Time Complexity | {p['time']} |
 | Space Complexity | {p['space']} |
 
-## Problem
-{p['brief']}
+## Problem Statement
+{p['description']}
 
-## Key Insight
+{p['constraints_md']}## Examples
+{p['examples_md']}## Key Insight
 {p['key_insight']}
 
 ## Approach
@@ -524,12 +790,12 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
 ## Algorithm
 {p['algorithm_steps']}
 
-## Example
+## Example Walkthrough
 {p['example_walkthrough']}
 
-## Complexity
-- **Time Complexity:** {p['time']}
-- **Space Complexity:** {p['space']}
+## Complexity Analysis
+- **Time Complexity:** {p['time']} — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** {p['space']} — Memory footprint corresponds to auxiliary storage for {p['data_structure']}.
 
 ## Pattern
 **{p['pattern']}**
@@ -542,7 +808,7 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
 
 ## Source Code
 {p['source_links']}
-
+{p['code_block_md']}
 ## Why This Works
 {p['why_this_works']}
 
@@ -576,7 +842,7 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
     # Save metadata/problems.json
     clean_problems_json = []
     for p in problems:
-        cp = {k: v for k, v in p.items() if k not in ['_words', 'expl_path', 'key_insight', 'approach', 'algorithm_steps', 'example_walkthrough', 'source_links', 'why_this_works', 'common_mistakes', 'interview_notes', 'related_md']}
+        cp = {k: v for k, v in p.items() if k not in ['_words', 'expl_path', 'key_insight', 'approach', 'algorithm_steps', 'example_walkthrough', 'source_links', 'why_this_works', 'common_mistakes', 'interview_notes', 'related_md', 'description', 'constraints_md', 'examples_md', 'code_block_md']}
         clean_problems_json.append(cp)
 
     with open('metadata/problems.json', 'w', encoding='utf-8') as f:
@@ -1057,6 +1323,15 @@ AlbinMath/leetcode
     ├── 3501-4000/        # Problems 3501 - 4000
     └── 4001-4500/        # Problems 4001 - 4500
 ```
+
+---
+
+## Automation & CI/CD Pipeline
+
+The repository utilizes a two-stage GitHub Actions automation workflow:
+
+1. **[Sync LeetCode](.github/workflows/leetcode-sync.yml):** Runs on an hourly schedule to sync new LeetCode submissions directly into `leetcode/`.
+2. **[Generate LeetCode Indexes & Metadata](.github/workflows/generate-index.yml):** Triggered automatically upon successful completion of the sync workflow (`workflow_run`). It partitions new submissions into range buckets (`0001-0500/`, `0501-1000/`, etc.), generates comprehensive `Explanation.md` files, updates `metadata/problems.json`, refreshes topic hubs, and updates [README.md](README.md) and [All_Problems.md](All_Problems.md).
 
 ---
 

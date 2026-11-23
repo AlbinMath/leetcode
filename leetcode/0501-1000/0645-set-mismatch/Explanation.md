@@ -16,8 +16,25 @@ Solve LeetCode Set Mismatch using TypeScript and Bit Manipulation. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You have a set of integers  s , which originally contains all the numbers from  1  to  n . Unfortunately, due to some error, one of the numbers in  s  got duplicated to another number in the set, which results in  repetition of one  number and  loss of another  number.
+## Problem Statement
+You have a set of integers `s`, which originally contains all the numbers from `1` to `n`. Unfortunately, due to some error, one of the numbers in `s` got duplicated to another number in the set, which results in **repetition of one** number and **loss of another** number.
+
+You are given an integer array `nums` representing the data status of this set after the error.
+
+Find the number that occurs twice and the number that is missing and return *them in the form of an array*.
+
+## Constraints
+- `2 <= nums.length <= 10^4`
+- `1 <= nums[i] <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,2,4]`
+- **Output:** `[2,3]`
+
+### Example 2
+- **Input:** `nums = [1,1]`
+- **Output:** `[1,2]`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
@@ -35,12 +52,16 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Set Mismatch**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,2,4]`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[2,3]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -54,6 +75,34 @@ TypeScript
 
 ## Source Code
 - [solution.ts](./solution.ts)
+
+
+```typescript
+function findErrorNums(nums: number[]): number[] {
+    const n = nums.length;
+    const seen = new Set<number>();
+
+    let duplicate = 0;
+
+    for (const num of nums) {
+        if (seen.has(num)) {
+            duplicate = num;
+        }
+        seen.add(num);
+    }
+
+    let missing = 0;
+
+    for (let i = 1; i <= n; i++) {
+        if (!seen.has(i)) {
+            missing = i;
+            break;
+        }
+    }
+
+    return [duplicate, missing];
+}
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

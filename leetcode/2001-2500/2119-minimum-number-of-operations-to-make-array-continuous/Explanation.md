@@ -16,26 +16,65 @@ Solve LeetCode Minimum Number of Operations to Make Array Continuous using Pytho
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums . In one operation, you can replace  any  element in  nums  with  any  integer.
+## Problem Statement
+You are given an integer array `nums`. In one operation, you can replace **any** element in `nums` with **any** integer.
+
+`nums` is considered **continuous** if both of the following conditions are fulfilled:
+
+All elements in `nums` are **unique**. 
+ The difference between the **maximum** element and the **minimum** element in `nums` equals `nums.length - 1`.
+
+For example, `nums = [4, 2, 5, 3]` is **continuous**, but `nums = [1, 2, 3, 5, 6]` is **not continuous**.
+
+Return the **minimum** number of operations to make `nums` **continuous**.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `nums = [4,2,5,3]`
+- **Output:** `0`
+- **Explanation:** nums is already continuous.
+
+### Example 2
+- **Input:** `nums = [1,2,3,5,6]`
+- **Output:** `1`
+- **Explanation:** One possible solution is to change the last element to 4.
+The resulting array is [1,2,3,5,4], which is continuous.
+
+### Example 3
+- **Input:** `nums = [1,10,100,1000]`
+- **Output:** `3`
+- **Explanation:** One possible solution is to:
+- Change the second element to 2.
+- Change the third element to 3.
+- Change the fourth element to 4.
+The resulting array is [1,2,3,4], which is continuous.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Number of Operations to Make Array Continuous**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Number of Operations to Make Array Continuous**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [4,2,5,3]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `0`.
+4. **Verification:** nums is already continuous.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +87,27 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def minOperations(self, nums: List[int]) -> int:
+        n = len(nums)
+        unique_nums = sorted(set(nums))
+        
+        max_keep = 0
+        left = 0
+        
+        for right, val in enumerate(unique_nums):
+            while val - unique_nums[left] >= n:
+                left += 1
+            if right - left + 1 > max_keep:
+                max_keep = right - left + 1
+                
+        return n - max_keep
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

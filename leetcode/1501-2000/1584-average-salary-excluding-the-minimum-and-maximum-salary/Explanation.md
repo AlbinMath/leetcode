@@ -16,26 +16,52 @@ Solve LeetCode Average Salary Excluding the Minimum and Maximum Salary using Pyt
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array of  unique  integers  salary  where  salary[i]  is the salary of the  i th   employee.
+## Problem Statement
+You are given an array of **unique** integers `salary` where `salary[i]` is the salary of the `i^th` employee.
+
+Return *the average salary of employees excluding the minimum and maximum salary*. Answers within `10^-5` of the actual answer will be accepted.
+
+## Constraints
+- `3 <= salary.length <= 100`
+- `1000 <= salary[i] <= 10^6`
+- All the integers of `salary` are **unique**.
+
+## Examples
+### Example 1
+- **Input:** `salary = [4000,3000,1000,2000]`
+- **Output:** `2500.00000`
+- **Explanation:** Minimum salary and maximum salary are 1000 and 4000 respectively.
+Average salary excluding minimum and maximum salary is (2000+3000) / 2 = 2500
+
+### Example 2
+- **Input:** `salary = [1000,2000,3000]`
+- **Output:** `2000.00000`
+- **Explanation:** Minimum salary and maximum salary are 1000 and 3000 respectively.
+Average salary excluding minimum and maximum salary is (2000) / 1 = 2000
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Average Salary Excluding the Minimum and Maximum Salary**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Average Salary Excluding the Minimum and Maximum Salary**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `salary = [4000,3000,1000,2000]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2500.00000`.
+4. **Verification:** Minimum salary and maximum salary are 1000 and 4000 respectively.
+Average salary excluding minimum and maximum salary is (2000+3000) / 2 = 2500
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +74,17 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def average(self, salary: list[int]) -> float:
+        total = sum(salary)
+        minimum = min(salary)
+        maximum = max(salary)
+
+        return (total - minimum - maximum) / (len(salary) - 2)
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

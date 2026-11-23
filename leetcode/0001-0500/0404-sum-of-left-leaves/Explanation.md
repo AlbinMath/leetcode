@@ -16,26 +16,48 @@ Solve LeetCode Sum of Left Leaves using Python and Tree & Graph. This solution f
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given the  root  of a binary tree, return  the sum of all left leaves.
+## Problem Statement
+Given the `root` of a binary tree, return *the sum of all left leaves.*
+
+A **leaf** is a node with no children. A **left leaf** is a leaf that is the left child of another node.
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 1000]`.
+- `-1000 <= Node.val <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `root = [3,9,20,null,null,15,7]`
+- **Output:** `24`
+- **Explanation:** There are two left leaves in the binary tree, with values 9 and 15 respectively.
+
+### Example 2
+- **Input:** `root = [1]`
+- **Output:** `0`
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sum of Left Leaves**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sum of Left Leaves**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [3,9,20,null,null,15,7]`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `24`.
+4. **Verification:** There are two left leaves in the binary tree, with values 9 and 15 respectively.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +74,28 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def sumOfLeftLeaves(self, root):
+        if root is None:
+            return 0
+
+        total = 0
+
+        # Check if the left child is a leaf
+        if root.left is not None:
+            if root.left.left is None and root.left.right is None:
+                total += root.left.val
+            else:
+                total += self.sumOfLeftLeaves(root.left)
+
+        # Check the right subtree
+        total += self.sumOfLeftLeaves(root.right)
+
+        return total
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,9 +109,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1302. Deepest Leaves Sum](../../1001-1500/1254-deepest-leaves-sum/)
 - [2574. Left and Right Sum Differences](../../2501-3000/2714-left-and-right-sum-differences/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [1302. Deepest Leaves Sum](../../1001-1500/1254-deepest-leaves-sum/)
+- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-left-leaves/)

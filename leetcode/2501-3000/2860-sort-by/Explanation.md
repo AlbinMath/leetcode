@@ -16,8 +16,31 @@ Solve LeetCode Sort By using TypeScript and Array / General. This solution finds
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array  arr  and a function  fn , return a sorted array  sortedArr . You can assume  fn  only returns numbers and those numbers determine the sort order of  sortedArr .  sortedArr  must be sorted in  ascending order  by  fn  output.
+## Problem Statement
+Given an array `arr` and a function `fn`, return a sorted array `sortedArr`. You can assume `fn` only returns numbers and those numbers determine the sort order of `sortedArr`. `sortedArr` must be sorted in **ascending order** by `fn` output.
+
+You may assume that `fn` will never duplicate numbers for a given array.
+
+## Constraints
+- `arr` is a valid JSON array
+- `fn` is a function that returns a number
+- `1 <= arr.length <= 5 * 10^5`
+
+## Examples
+### Example 1
+- **Input:** `arr = [5, 4, 1, 2, 3], fn = (x) => x`
+- **Output:** `[1, 2, 3, 4, 5]`
+- **Explanation:** fn simply returns the number passed to it so the array is sorted in ascending order.
+
+### Example 2
+- **Input:** `arr = [{"x": 1}, {"x": 0}, {"x": -1}], fn = (d) => d.x`
+- **Output:** `[{"x": -1}, {"x": 0}, {"x": 1}]`
+- **Explanation:** fn returns the value for the "x" key. So the array is sorted based on that value.
+
+### Example 3
+- **Input:** `arr = [[3, 4], [5, 2], [10, 1]], fn = (x) => x[1]`
+- **Output:** `[[10, 1], [5, 2], [3, 4]]`
+- **Explanation:** arr is sorted in ascending order by number at index=1.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +53,17 @@ Leverage **Array / General** with **Array** to process inputs efficiently and ac
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Sort By**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [5, 4, 1, 2, 3], fn = (x) => x`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1, 2, 3, 4, 5]`.
+4. **Verification:** fn simply returns the number passed to it so the array is sorted in ascending order.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +76,13 @@ TypeScript
 
 ## Source Code
 - [solution.ts](./solution.ts)
+
+
+```typescript
+function sortBy<T>(arr: T[], fn: (x: T) => number): T[] {
+    return arr.sort((a, b) => fn(a) - fn(b));
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

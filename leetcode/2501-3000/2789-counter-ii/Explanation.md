@@ -16,8 +16,38 @@ Solve LeetCode Counter II using TypeScript and Array / General. This solution fi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Write a function  createCounter . It should accept an initial integer  init . It should return an object with three functions.
+## Problem Statement
+Write a function `createCounter`. It should accept an initial integer `init`. It should return an object with three functions.
+
+The three functions are:
+
+`increment()` increases the current value by 1 and then returns it. 
+ `decrement()` reduces the current value by 1 and then returns it. 
+ `reset()` sets the current value to `init` and then returns it.
+
+## Constraints
+- `-1000 <= init <= 1000`
+- `0 <= calls.length <= 1000`
+- `calls[i]` is one of "increment", "decrement" and "reset"
+
+## Examples
+### Example 1
+- **Input:** `init = 5, calls = ["increment","reset","decrement"]`
+- **Output:** `[6,5,4]`
+- **Explanation:** const counter = createCounter(5);
+counter.increment(); // 6
+counter.reset(); // 5
+counter.decrement(); // 4
+
+### Example 2
+- **Input:** `init = 0, calls = ["increment","increment","decrement","reset","reset"]`
+- **Output:** `[1,2,1,0,0]`
+- **Explanation:** const counter = createCounter(0);
+counter.increment(); // 1
+counter.increment(); // 2
+counter.decrement(); // 1
+counter.reset(); // 0
+counter.reset(); // 0
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +60,20 @@ Uses a closure to capture `init` and a mutable `count` variable. `increment` ret
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Counter II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `init = 5, calls = ["increment","reset","decrement"]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[6,5,4]`.
+4. **Verification:** const counter = createCounter(5);
+counter.increment(); // 6
+counter.reset(); // 5
+counter.decrement(); // 4
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +86,30 @@ TypeScript
 
 ## Source Code
 - [solution.ts](./solution.ts)
+
+
+```typescript
+function createCounter(init: number) {
+    let current = init;
+
+    return {
+        increment() {
+            current++;
+            return current;
+        },
+
+        decrement() {
+            current--;
+            return current;
+        },
+
+        reset() {
+            current = init;
+            return current;
+        }
+    };
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

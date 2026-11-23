@@ -16,8 +16,34 @@ Solve LeetCode Stone Game using C++, Python and Tree & Graph. This solution find
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Alice and Bob play a game with piles of stones. There are an  even  number of piles arranged in a row, and each pile has a  positive  integer number of stones  piles[i] .
+## Problem Statement
+Alice and Bob play a game with piles of stones. There are an **even** number of piles arranged in a row, and each pile has a **positive** integer number of stones `piles[i]`.
+
+The objective of the game is to end with the most stones. The **total** number of stones across all the piles is **odd**, so there are no ties.
+
+Alice and Bob take turns, with **Alice starting first**. Each turn, a player takes the entire pile of stones either from the **beginning** or from the **end** of the row. This continues until there are no more piles left, at which point the person with the **most stones wins**.
+
+Assuming Alice and Bob play optimally, return `true`* if Alice wins the game, or *`false`* if Bob wins*.
+
+## Constraints
+- `2 <= piles.length <= 500`
+- `piles.length` is **even**.
+- `1 <= piles[i] <= 500`
+- `sum(piles[i])` is **odd**.
+
+## Examples
+### Example 1
+- **Input:** `piles = [5,3,4,5]`
+- **Output:** `true`
+- **Explanation:** Alice starts first, and can only take the first 5 or the last 5.
+Say she takes the first 5, so that the row becomes [3, 4, 5].
+If Bob takes 3, then the board is [4, 5], and Alice takes 5 to win with 10 points.
+If Bob takes the last 5, then the board is [3, 4], and Alice takes 4 to win with 9 points.
+This demonstrated that taking the first 5 was a winning move for Alice, so we return true.
+
+### Example 2
+- **Input:** `piles = [3,7,2,3]`
+- **Output:** `true`
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
@@ -32,12 +58,21 @@ This is a **mathematical insight**: With an even number of piles, Alice can alwa
 2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Stone Game**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `piles = [5,3,4,5]`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Alice starts first, and can only take the first 5 or the last 5.
+Say she takes the first 5, so that the row becomes [3, 4, 5].
+If Bob takes 3, then the board is [4, 5], and Alice takes 5 to win with 10 points.
+If Bob takes the last 5, then the board is [3, 4], and Alice takes 4 to win with 9 points.
+This demonstrated that taking the first 5 was a winning move for Alice, so we return true.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -54,6 +89,24 @@ C++, Python
 ## Source Code
 - [solution.cpp](./solution.cpp)
 - [solution.py](./solution.py)
+
+
+### C++
+```cpp
+class Solution {
+public:
+    bool stoneGame(vector<int>& piles) {
+        return true;
+    }
+};
+```
+
+### Python
+```python
+class Solution:
+    def stoneGame(self, piles: List[int]) -> bool:
+        return True
+```
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,8 +16,27 @@ Solve LeetCode Angle Between Hands of a Clock using Java and Math & Logic. This 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given two numbers,  hour  and  minutes , return  the smaller angle (in degrees) formed between the   hour   and the   minute   hand .
+## Problem Statement
+Given two numbers, `hour` and `minutes`, return *the smaller angle (in degrees) formed between the *`hour`* and the *`minute`* hand*.
+
+Answers within `10^-5` of the actual value will be accepted as correct.
+
+## Constraints
+- `1 <= hour <= 12`
+- `0 <= minutes <= 59`
+
+## Examples
+### Example 1
+- **Input:** `hour = 12, minutes = 30`
+- **Output:** `165`
+
+### Example 2
+- **Input:** `hour = 3, minutes = 30`
+- **Output:** `75`
+
+### Example 3
+- **Input:** `hour = 3, minutes = 15`
+- **Output:** `7.5`
 
 ## Key Insight
 Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
@@ -34,12 +53,16 @@ Time and space complexity are both $O(1)$.
 2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Angle Between Hands of a Clock**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `hour = 12, minutes = 30`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `165`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
 **Math & Logic**
@@ -54,6 +77,24 @@ Java
 ## Source Code
 - [solution.java](./solution.java)
 
+
+```java
+class Solution {
+    public double angleClock(int hour, int minutes) {
+        // Minute hand: 6 degrees per minute
+        double minuteAngle = minutes * 6.0;
+
+        // Hour hand: 30 degrees per hour + 0.5 degrees per minute
+        double hourAngle = (hour % 12) * 30.0 + minutes * 0.5;
+
+        double angle = Math.abs(hourAngle - minuteAngle);
+
+        // Return the smaller angle
+        return Math.min(angle, 360.0 - angle);
+    }
+}
+```
+
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -67,9 +108,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2437. Number of Valid Clock Times](../../2501-3000/2528-number-of-valid-clock-times/)
-- [765. Couples Holding Hands](../../0501-1000/0770-couples-holding-hands/)
 - [783. Minimum Distance Between BST Nodes](../../0501-1000/0799-minimum-distance-between-bst-nodes/)
+- [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1092-maximum-difference-between-node-and-ancestor/)
+- [1190. Reverse Substrings Between Each Pair of Parentheses](../../1001-1500/1298-reverse-substrings-between-each-pair-of-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/angle-between-hands-of-a-clock/)

@@ -16,8 +16,22 @@ Solve LeetCode Sequential Digits using C++ and Prefix Sum. This solution finds t
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-An integer has  sequential digits  if and only if each digit in the number is one more than the previous digit.
+## Problem Statement
+An integer has *sequential digits* if and only if each digit in the number is one more than the previous digit.
+
+Return a **sorted** list of all the integers in the range `[low, high]` inclusive that have sequential digits.
+
+## Constraints
+- `10 <= low <= high <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `low = 100, high = 300`
+- **Output:** `[123,234]`
+
+### Example 2
+- **Input:** `low = 1000, high = 13000`
+- **Output:** `[1234,2345,3456,4567,5678,6789,12345]`
 
 ## Key Insight
 Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -38,12 +52,16 @@ Since there are at most 36 sequential-digit numbers (9 possible lengths × varyi
 2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Sequential Digits**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `low = 100, high = 300`.
+2. **Processing Steps:** We apply **Prefix Sum Precomputation** using our **Prefix Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[123,234]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Prefix Array.
 
 ## Pattern
 **Prefix Sum**
@@ -57,6 +75,31 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    vector<int> sequentialDigits(int low, int high) {
+        vector<int> ans;
+
+        for (int start = 1; start <= 9; start++) {
+            int num = 0;
+
+            for (int digit = start; digit <= 9; digit++) {
+                num = num * 10 + digit;
+
+                if (num >= low && num <= high) {
+                    ans.push_back(num);
+                }
+            }
+        }
+
+        sort(ans.begin(), ans.end());
+        return ans;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

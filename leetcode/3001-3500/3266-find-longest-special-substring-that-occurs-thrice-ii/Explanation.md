@@ -16,26 +16,57 @@ Solve LeetCode Find Longest Special Substring That Occurs Thrice II using Python
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string  s  that consists of lowercase English letters.
+## Problem Statement
+You are given a string `s` that consists of lowercase English letters.
+
+A string is called **special** if it is made up of only a single character. For example, the string `"abc"` is not special, whereas the strings `"ddd"`, `"zz"`, and `"f"` are special.
+
+Return *the length of the **longest special substring** of *`s` *which occurs **at least thrice***, *or *`-1`* if no special substring occurs at least thrice*.
+
+A **substring** is a contiguous **non-empty** sequence of characters within a string.
+
+## Constraints
+- `3 <= s.length <= 5 * 10^5`
+- `s` consists of only lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "aaaa"`
+- **Output:** `2`
+- **Explanation:** The longest special substring which occurs thrice is "aa": substrings "
+
+### Example 2
+- **Input:** `s = "abcdef"`
+- **Output:** `-1`
+- **Explanation:** There exists no special substring which occurs at least thrice. Hence return -1.
+
+### Example 3
+- **Input:** `s = "abcaba"`
+- **Output:** `1`
+- **Explanation:** The longest special substring which occurs thrice is "a": substrings "
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find Longest Special Substring That Occurs Thrice II**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find Longest Special Substring That Occurs Thrice II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "aaaa"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The longest special substring which occurs thrice is "aa": substrings "
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +79,33 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def maximumLength(self, s: str) -> int:
+        top = [[0, 0, 0] for _ in range(26)]  # three longest runs per letter
+        n = len(s)
+        i = 0
+        while i < n:
+            j = i
+            while j < n and s[j] == s[i]:
+                j += 1
+            L = j - i
+            t = top[ord(s[i]) - 97]
+            if L > t[0]:
+                t[0], t[1], t[2] = L, t[0], t[1]
+            elif L > t[1]:
+                t[1], t[2] = L, t[1]
+            elif L > t[2]:
+                t[2] = L
+            i = j
+
+        ans = 0
+        for a, b, c in top:
+            ans = max(ans, a - 2, min(a - 1, b), c)
+        return ans if ans >= 1 else -1
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

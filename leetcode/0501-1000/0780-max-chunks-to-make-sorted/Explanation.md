@@ -16,26 +16,55 @@ Solve LeetCode Max Chunks To Make Sorted using Python and Array / General. This 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  arr  of length  n  that represents a permutation of the integers in the range  [0, n - 1] .
+## Problem Statement
+You are given an integer array `arr` of length `n` that represents a permutation of the integers in the range `[0, n - 1]`.
+
+We split `arr` into some number of **chunks** (i.e., partitions), and individually sort each chunk. After concatenating them, the result should equal the sorted array.
+
+Return *the largest number of chunks we can make to sort the array*.
+
+## Constraints
+- `n == arr.length`
+- `1 <= n <= 10`
+- `0 <= arr[i] < n`
+- All the elements of `arr` are **unique**.
+
+## Examples
+### Example 1
+- **Input:** `arr = [4,3,2,1,0]`
+- **Output:** `1`
+- **Explanation:** Splitting into two or more chunks will not return the required result.
+For example, splitting into [4, 3], [2, 1, 0] will result in [3, 4, 0, 1, 2], which isn't sorted.
+
+### Example 2
+- **Input:** `arr = [1,0,2,3,4]`
+- **Output:** `4`
+- **Explanation:** We can split into two chunks, such as [1, 0], [2, 3, 4].
+However, splitting into [1, 0], [2], [3], [4] is the highest number of chunks possible.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Max Chunks To Make Sorted**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Max Chunks To Make Sorted**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [4,3,2,1,0]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** Splitting into two or more chunks will not return the required result.
+For example, splitting into [4, 3], [2, 1, 0] will result in [3, 4, 0, 1, 2], which isn't sorted.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,21 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def maxChunksToSorted(self, arr: List[int]) -> int:
+        chunks = 0
+        mx = 0
+        for i, x in enumerate(arr):
+            mx = max(mx, x)
+            if mx == i:
+                chunks += 1
+        return chunks
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

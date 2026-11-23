@@ -16,8 +16,23 @@ Solve LeetCode Largest Rectangle in Histogram using JavaScript, TypeScript and M
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given an array of integers  heights  representing the histogram&#39;s bar height where the width of each bar is  1 , return  the area of the largest rectangle in the histogram .
+## Problem Statement
+Given an array of integers `heights` representing the histogram's bar height where the width of each bar is `1`, return *the area of the largest rectangle in the histogram*.
+
+## Constraints
+- `1 <= heights.length <= 10^5`
+- `0 <= heights[i] <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `heights = [2,1,5,6,2,3]`
+- **Output:** `10`
+- **Explanation:** The above is a histogram where width of each bar is 1.
+The largest rectangle is shown in the red area, which has an area = 10 units.
+
+### Example 2
+- **Input:** `heights = [2,4]`
+- **Output:** `4`
 
 ## Key Insight
 Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
@@ -40,12 +55,18 @@ The stack ensures each bar is pushed and popped at most once, giving $O(N)$ time
 2. Process elements sequentially using **Monotonic Stack Filtering**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Largest Rectangle in Histogram**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `heights = [2,1,5,6,2,3]`.
+2. **Processing Steps:** We apply **Monotonic Stack Filtering** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `10`.
+4. **Verification:** The above is a histogram where width of each bar is 1.
+The largest rectangle is shown in the red area, which has an area = 10 units.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Monotonic Stack**
@@ -62,6 +83,67 @@ JavaScript, TypeScript
 - [solution.js](./solution.js)
 - [solution.ts](./solution.ts)
 
+
+### JavaScript
+```javascript
+var largestRectangleArea = function(heights) {
+    const stack = [];
+    let maxArea = 0;
+
+    // Add a sentinel bar to process remaining bars
+    for (let i = 0; i <= heights.length; i++) {
+        const currentHeight = i === heights.length ? 0 : heights[i];
+
+        while (
+            stack.length > 0 &&
+            currentHeight < heights[stack[stack.length - 1]]
+        ) {
+            const height = heights[stack.pop()];
+
+            const width = stack.length === 0
+                ? i
+                : i - stack[stack.length - 1] - 1;
+
+            maxArea = Math.max(maxArea, height * width);
+        }
+
+        stack.push(i);
+    }
+
+    return maxArea;
+};
+```
+
+### TypeScript
+```typescript
+function largestRectangleArea(heights: number[]): number {
+    const stack: number[] = [];
+    let maxArea = 0;
+
+    for (let i = 0; i <= heights.length; i++) {
+        const currentHeight = i === heights.length ? 0 : heights[i];
+
+        while (
+            stack.length > 0 &&
+            currentHeight < heights[stack[stack.length - 1]]
+        ) {
+            const height = heights[stack.pop()!];
+
+            const width =
+                stack.length === 0
+                    ? i
+                    : i - stack[stack.length - 1] - 1;
+
+            maxArea = Math.max(maxArea, height * width);
+        }
+
+        stack.push(i);
+    }
+
+    return maxArea;
+}
+```
+
 ## Why This Works
 By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -75,9 +157,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [179. Largest Number](../../0001-0500/0179-largest-number/)
-- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
-- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
+- [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/)

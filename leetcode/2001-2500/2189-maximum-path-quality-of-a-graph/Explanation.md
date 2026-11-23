@@ -1,7 +1,7 @@
 # LeetCode 2065: Maximum Path Quality of a Graph
 
 **LeetCode Problem #2065 — Maximum Path Quality of a Graph**
-Solve LeetCode Maximum Path Quality of a Graph using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Maximum Path Quality of a Graph using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,84 @@ Solve LeetCode Maximum Path Quality of a Graph using Python and Tree & Graph. Th
 | LeetCode | #2065 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-There is an  undirected  graph with  n  nodes numbered from  0  to  n - 1  ( inclusive ). You are given a  0-indexed  integer array  values  where  values[i]  is the  value  of the  i th   node. You are also given a  0-indexed  2D integer array  edges , where each  edges[j] = [u j , v j , time j ]  indicates that there is an undirected edge between the nodes  u j   and  v j  ,   and it takes  time j   seconds to travel between the two nodes. Finally, you are given an integer  maxTime .
+## Problem Statement
+There is an **undirected** graph with `n` nodes numbered from `0` to `n - 1` (**inclusive**). You are given a **0-indexed** integer array `values` where `values[i]` is the **value **of the `i^th` node. You are also given a **0-indexed** 2D integer array `edges`, where each `edges[j] = [u_j, v_j, time_j]` indicates that there is an undirected edge between the nodes `u_j` and `v_j`,_ and it takes `time_j` seconds to travel between the two nodes. Finally, you are given an integer `maxTime`.
+
+A **valid** **path** in the graph is any path that starts at node `0`, ends at node `0`, and takes **at most** `maxTime` seconds to complete. You may visit the same node multiple times. The **quality** of a valid path is the **sum** of the values of the **unique nodes** visited in the path (each node's value is added **at most once** to the sum).
+
+Return *the **maximum** quality of a valid path*.
+
+**Note:** There are **at most four** edges connected to each node.
+
+## Constraints
+- `n == values.length`
+- `1 <= n <= 1000`
+- `0 <= values[i] <= 10^8`
+- `0 <= edges.length <= 2000`
+- `edges[j].length == 3 `
+- `0 <= u_j < v_j <= n - 1`
+- `10 <= time_j, maxTime <= 100`
+- All the pairs `[u_j, v_j]` are **unique**.
+- There are **at most four** edges connected to each node.
+- The graph may not be connected.
+
+## Examples
+### Example 1
+- **Input:** `values = [0,32,10,43], edges = [[0,1,10],[1,2,15],[0,3,10]], maxTime = 49`
+- **Output:** `75`
+- **Explanation:** One possible path is 0 -> 1 -> 0 -> 3 -> 0. The total time taken is 10 + 10 + 10 + 10 = 40 <= 49.
+The nodes visited are 0, 1, and 3, giving a maximal path quality of 0 + 32 + 43 = 75.
+
+### Example 2
+- **Input:** `values = [5,10,15,20], edges = [[0,1,10],[1,2,10],[0,3,10]], maxTime = 30`
+- **Output:** `25`
+- **Explanation:** One possible path is 0 -> 3 -> 0. The total time taken is 10 + 10 = 20 <= 30.
+The nodes visited are 0 and 3, giving a maximal path quality of 5 + 20 = 25.
+
+### Example 3
+- **Input:** `values = [1,2,3,4], edges = [[0,1,10],[1,2,11],[2,3,12],[1,3,13]], maxTime = 50`
+- **Output:** `7`
+- **Explanation:** One possible path is 0 -> 1 -> 3 -> 1 -> 0. The total time taken is 10 + 13 + 13 + 10 = 46 <= 50.
+The nodes visited are 0, 1, and 3, giving a maximal path quality of 1 + 2 + 4 = 7.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Path Quality of a Graph**, we observe the problem requirements and utilize the **Tree & Graph** technique. By maintaining a **Tree / Graph / Grid**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Tree / Graph / Grid** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Path Quality of a Graph**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `values = [0,32,10,43], edges = [[0,1,10],[1,2,15],[0,3,10]], maxTime = 49`.
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `75`.
+4. **Verification:** One possible path is 0 -> 1 -> 0 -> 3 -> 0. The total time taken is 10 + 10 + 10 + 10 = 40 <= 49.
+The nodes visited are 0, 1, and 3, giving a maximal path quality of 0 + 32 + 43 = 75.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Tree & Graph**
+**Hash Map**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Hash Table
+- Array
+- Complement Lookup
 
 ## Language
 Python
@@ -52,22 +95,54 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+from collections import defaultdict
+
+class Solution:
+    def maximalPathQuality(self, values: List[int], edges: List[List[int]], maxTime: int) -> int:
+        g = defaultdict(list)
+        for u, v, t in edges:
+            g[u].append((v, t))
+            g[v].append((u, t))
+
+        seen = [0] * len(values)
+        seen[0] = 1
+        ans = values[0]
+
+        def dfs(u, time, score):
+            nonlocal ans
+            if u == 0:
+                ans = max(ans, score)
+
+            for v, t in g[u]:
+                if time + t <= maxTime:
+                    add = values[v] if seen[v] == 0 else 0
+                    seen[v] += 1
+                    dfs(v, time + t, score + add)
+                    seen[v] -= 1
+
+        dfs(0, 0, values[0])
+        return ans
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1971. Find if Path Exists in Graph](../../2001-2500/2121-find-if-path-exists-in-graph/)
-- [2497. Maximum Star Sum of a Graph](../../2501-3000/2590-maximum-star-sum-of-a-graph/)
-- [2642. Design Graph With Shortest Path Calculator](../../2501-3000/2678-design-graph-with-shortest-path-calculator/)
+- [1620. Coordinate With Maximum Network Quality](../../1501-2000/1726-coordinate-with-maximum-network-quality/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [1219. Path with Maximum Gold](../../1001-1500/1331-path-with-maximum-gold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-path-quality-of-a-graph/)

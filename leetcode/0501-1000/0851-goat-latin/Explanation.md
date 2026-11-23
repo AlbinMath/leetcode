@@ -16,26 +16,63 @@ Solve LeetCode Goat Latin using Python and Array / General. This solution finds 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string  sentence  that consist of words separated by spaces. Each word consists of lowercase and uppercase letters only.
+## Problem Statement
+You are given a string `sentence` that consist of words separated by spaces. Each word consists of lowercase and uppercase letters only.
+
+We would like to convert the sentence to "Goat Latin" (a made-up language similar to Pig Latin.) The rules of Goat Latin are as follows:
+
+If a word begins with a vowel (`'a'`, `'e'`, `'i'`, `'o'`, or `'u'`), append `"ma"` to the end of the word.
+
+For example, the word `"apple"` becomes `"applema"`. 
+ 
+ 
+ If a word begins with a consonant (i.e., not a vowel), remove the first letter and append it to the end, then add `"ma"`.
+ 
+ For example, the word `"goat"` becomes `"oatgma"`. 
+ 
+ 
+ Add one letter `'a'` to the end of each word per its word index in the sentence, starting with `1`.
+ 
+ For example, the first word gets `"a"` added to the end, the second word gets `"aa"` added to the end, and so on.
+
+Return* the final sentence representing the conversion from sentence to Goat Latin*.
+
+## Constraints
+- `1 <= sentence.length <= 150`
+- `sentence` consists of English letters and spaces.
+- `sentence` has no leading or trailing spaces.
+- All the words in `sentence` are separated by a single space.
+
+## Examples
+### Example 1
+- **Input:** `sentence = "I speak Goat Latin"`
+- **Output:** `"Imaa peaksmaaa oatGmaaaa atinLmaaaaa"`
+
+### Example 2
+- **Input:** `sentence = "The quick brown fox jumped over the lazy dog"`
+- **Output:** `"heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Goat Latin**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Goat Latin**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `sentence = "I speak Goat Latin"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"Imaa peaksmaaa oatGmaaaa atinLmaaaaa"`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +85,24 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def toGoatLatin(self, sentence: str) -> str:
+        vowels = set("aeiouAEIOU")
+        words = sentence.split()
+        result = []
+
+        for i, word in enumerate(words, start=1):
+            if word[0] not in vowels:
+                word = word[1:] + word[0]
+
+            word += "ma" + "a" * i
+            result.append(word)
+
+        return " ".join(result)
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

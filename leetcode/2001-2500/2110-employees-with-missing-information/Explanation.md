@@ -16,26 +16,111 @@ Solve LeetCode Employees With Missing Information using SQL and Database / SQL. 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Employees`
+
++-------------+---------+
+| Column Name | Type |
++-------------+---------+
+| employee_id | int |
+| name | varchar |
++-------------+---------+
 employee_id is the column with unique values for this table.
+Each row of this table indicates the name of the employee whose ID is employee_id.
+
+Table: `Salaries`
+
++-------------+---------+
+| Column Name | Type |
++-------------+---------+
+| employee_id | int |
+| salary | int |
++-------------+---------+
+employee_id is the column with unique values for this table.
+Each row of this table indicates the salary of the employee whose ID is employee_id.
+
+Write a solution to report the IDs of all the employees with **missing information**. The information of an employee is missing if:
+
+The employee's **name** is missing, or 
+ The employee's **salary** is missing.
+
+Return the result table ordered by `employee_id` **in ascending order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Employees table:
++-------------+----------+
+| employee_id | name |
++-------------+----------+
+| 2 | Crew |
+| 4 | Haven |
+| 5 | Kristian |
++-------------+----------+
+Salaries table:
++-------------+--------+
+| employee_id | salary |
++-------------+--------+
+| 5 | 76071 |
+| 1 | 22517 |
+| 4 | 63539 |
++-------------+--------+`
+- **Output:** `+-------------+
+| employee_id |
++-------------+
+| 1 |
+| 2 |
++-------------+`
+- **Explanation:** Employees 1, 2, 4, and 5 are working at this company.
+The name of employee 1 is missing.
+The salary of employee 2 is missing.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
+We solve **Employees With Missing Information** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We join the tables on matching foreign and primary keys. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints. We order the final result set using `ORDER BY`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Join relevant tables on matching key columns.
+2. Filter records according to problem criteria.
+3. Sort the projected result.
+4. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Employees With Missing Information**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Employees table:
++-------------+----------+
+| employee_id | name |
++-------------+----------+
+| 2 | Crew |
+| 4 | Haven |
+| 5 | Kristian |
++-------------+----------+
+Salaries table:
++-------------+--------+
+| employee_id | salary |
++-------------+--------+
+| 5 | 76071 |
+| 1 | 22517 |
+| 4 | 63539 |
++-------------+--------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+-------------+
+| employee_id |
++-------------+
+| 1 |
+| 2 |
++-------------+`.
+4. **Verification:** Employees 1, 2, 4, and 5 are working at this company.
+The name of employee 1 is missing.
+The salary of employee 2 is missing.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +135,25 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT e.employee_id
+FROM Employees e
+LEFT JOIN Salaries s
+    ON e.employee_id = s.employee_id
+WHERE s.employee_id IS NULL
+
+UNION
+
+SELECT s.employee_id
+FROM Salaries s
+LEFT JOIN Employees e
+    ON s.employee_id = e.employee_id
+WHERE e.employee_id IS NULL
+
+ORDER BY employee_id;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

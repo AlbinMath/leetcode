@@ -1,7 +1,7 @@
 # LeetCode 1888: Minimum Number of Flips to Make the Binary String Alternating
 
 **LeetCode Problem #1888 — Minimum Number of Flips to Make the Binary String Alternating**
-Solve LeetCode Minimum Number of Flips to Make the Binary String Alternating using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Minimum Number of Flips to Make the Binary String Alternating using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,77 @@ Solve LeetCode Minimum Number of Flips to Make the Binary String Alternating usi
 | LeetCode | #1888 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a binary string  s . You are allowed to perform two types of operations on the string in any sequence:
+## Problem Statement
+You are given a binary string `s`. You are allowed to perform two types of operations on the string in any sequence:
+
+**Type-1: Remove** the character at the start of the string `s` and **append** it to the end of the string. 
+ **Type-2: Pick** any character in `s` and **flip** its value, i.e., if its value is `'0'` it becomes `'1'` and vice-versa.
+
+Return *the **minimum** number of **type-2** operations you need to perform* *such that *`s` *becomes **alternating**.*
+
+The string is called **alternating** if no two adjacent characters are equal.
+
+For example, the strings `"010"` and `"1010"` are alternating, while the string `"0100"` is not.
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s[i]` is either `'0'` or `'1'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "111000"`
+- **Output:** `2`
+- **Explanation:** : Use the first operation two times to make s = "100011".
+Then, use the second operation on the third and sixth elements to make s = "10 1 01 0 ".
+
+### Example 2
+- **Input:** `s = "010"`
+- **Output:** `0`
+- **Explanation:** : The string is already alternating.
+
+### Example 3
+- **Input:** `s = "1110"`
+- **Output:** `1`
+- **Explanation:** : Use the second operation on the second element to make s = "1 0 10".
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Number of Flips to Make the Binary String Alternating**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Number of Flips to Make the Binary String Alternating**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "111000"`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** : Use the first operation two times to make s = "100011".
+Then, use the second operation on the third and sixth elements to make s = "10 1 01 0 ".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Bit Manipulation**
+**Two Pointers**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 Python
@@ -50,17 +88,41 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def minFlips(self, s: str) -> int:
+        n = len(s)
+        diff = 0
+        min_flips = n
+        
+        for i in range(2 * n):
+            curr = s[i if i < n else i - n]
+            if int(curr) != (i & 1):
+                diff += 1
+                
+            if i >= n:
+                left = i - n
+                if int(s[left]) != (left & 1):
+                    diff -= 1
+                    
+            if i >= n - 1:
+                min_flips = min(min_flips, diff, n - diff)
+                
+        return min_flips
+```
+
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [1864. Minimum Number of Swaps to Make the Binary String Alternating](../../1501-2000/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating/)

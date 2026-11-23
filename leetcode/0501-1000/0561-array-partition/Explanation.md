@@ -16,26 +16,55 @@ Solve LeetCode Array Partition using Python and Array / General. This solution f
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer array  nums  of  2n  integers, group these integers into  n  pairs  (a 1 , b 1 ), (a 2 , b 2 ), ..., (a n , b n )  such that the sum of  min(a i , b i )  for all  i  is  maximized . Return  the maximized sum .
+## Problem Statement
+Given an integer array `nums` of `2n` integers, group these integers into `n` pairs `(a_1, b_1), (a_2, b_2), ..., (a_n, b_n)` such that the sum of `min(a_i, b_i)` for all `i` is **maximized**. Return* the maximized sum*.
+
+## Constraints
+- `1 <= n <= 10^4`
+- `nums.length == 2 * n`
+- `-10^4 <= nums[i] <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,4,3,2]`
+- **Output:** `4`
+- **Explanation:** All possible pairings (ignoring the ordering of elements) are:
+1. (1, 4), (2, 3) -> min(1, 4) + min(2, 3) = 1 + 2 = 3
+2. (1, 3), (2, 4) -> min(1, 3) + min(2, 4) = 1 + 2 = 3
+3. (1, 2), (3, 4) -> min(1, 2) + min(3, 4) = 1 + 3 = 4
+So the maximum possible sum is 4.
+
+### Example 2
+- **Input:** `nums = [6,2,6,5,1,2]`
+- **Output:** `9`
+- **Explanation:** The optimal pairing is (2, 1), (2, 5), (6, 6). min(2, 1) + min(2, 5) + min(6, 6) = 1 + 2 + 6 = 9.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Array Partition**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Array Partition**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,4,3,2]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** All possible pairings (ignoring the ordering of elements) are:
+1. (1, 4), (2, 3) -> min(1, 4) + min(2, 3) = 1 + 2 = 3
+2. (1, 3), (2, 4) -> min(1, 3) + min(2, 4) = 1 + 2 = 3
+3. (1, 2), (3, 4) -> min(1, 2) + min(3, 4) = 1 + 3 = 4
+So the maximum possible sum is 4.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def arrayPairSum(self, nums):
+        nums.sort()
+
+        total = 0
+
+        for i in range(0, len(nums), 2):
+            total += nums[i]
+
+        return total
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

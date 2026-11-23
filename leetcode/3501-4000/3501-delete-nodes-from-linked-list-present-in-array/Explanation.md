@@ -16,26 +16,53 @@ Solve LeetCode Delete Nodes From Linked List Present in Array using JavaScript a
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array of integers  nums  and the  head  of a linked list. Return the  head  of the modified linked list after  removing  all nodes from the linked list that have a value that exists in  nums .
+## Problem Statement
+You are given an array of integers `nums` and the `head` of a linked list. Return the `head` of the modified linked list after **removing** all nodes from the linked list that have a value that exists in `nums`.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^5`
+- All elements in `nums` are unique.
+- The number of nodes in the given list is in the range `[1, 10^5]`.
+- `1 <= Node.val <= 10^5`
+- The input is generated such that there is at least one node in the linked list that has a value not present in `nums`.
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,3], head = [1,2,3,4,5]`
+- **Output:** `[4,5]`
+
+### Example 2
+- **Input:** `nums = [1], head = [1,2,1,2,1,2]`
+- **Output:** `[2,2,2]`
+- **Explanation:** Remove the nodes with value 1.
+
+### Example 3
+- **Input:** `nums = [5], head = [1,2,3,4]`
+- **Output:** `[1,2,3,4]`
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Delete Nodes From Linked List Present in Array**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Delete Nodes From Linked List Present in Array**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,3], head = [1,2,3,4,5]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[4,5]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +77,34 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var modifiedList = function(nums, head) {
+
+    // Step 1: Store nums in a Set
+    let set = new Set(nums);
+
+    // Step 2: Create a dummy node
+    let dummy = new ListNode(0);
+    dummy.next = head;
+
+    let current = dummy;
+
+    // Step 3: Traverse and delete matching nodes
+    while (current.next) {
+
+        if (set.has(current.next.val)) {
+            // Skip the node
+            current.next = current.next.next;
+        } else {
+            current = current.next;
+        }
+    }
+
+    return dummy.next;
+};
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

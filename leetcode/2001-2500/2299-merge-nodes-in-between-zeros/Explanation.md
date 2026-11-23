@@ -16,26 +16,60 @@ Solve LeetCode Merge Nodes in Between Zeros using JavaScript and Two Pointers. T
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given the  head  of a linked list, which contains a series of integers  separated  by  0 &#39;s. The  beginning  and  end  of the linked list will have  Node.val == 0 .
+## Problem Statement
+You are given the `head` of a linked list, which contains a series of integers **separated** by `0`'s. The **beginning** and **end** of the linked list will have `Node.val == 0`.
+
+For **every **two consecutive `0`'s, **merge** all the nodes lying in between them into a single node whose value is the **sum** of all the merged nodes. The modified list should not contain any `0`'s.
+
+Return *the* `head` *of the modified linked list*.
+
+## Constraints
+- The number of nodes in the list is in the range `[3, 2 * 10^5]`.
+- `0 <= Node.val <= 1000`
+- There are **no** two consecutive nodes with `Node.val == 0`.
+- The **beginning** and **end** of the linked list have `Node.val == 0`.
+
+## Examples
+### Example 1
+- **Input:** `head = [0,3,1,0,4,5,2,0]`
+- **Output:** `[4,11]`
+- **Explanation:** The above figure represents the given linked list. The modified list contains
+- The sum of the nodes marked in green: 3 + 1 = 4.
+- The sum of the nodes marked in red: 4 + 5 + 2 = 11.
+
+### Example 2
+- **Input:** `head = [0,1,0,3,0,2,2,0]`
+- **Output:** `[1,3,4]`
+- **Explanation:** The above figure represents the given linked list. The modified list contains
+- The sum of the nodes marked in green: 1 = 1.
+- The sum of the nodes marked in red: 3 = 3.
+- The sum of the nodes marked in yellow: 2 + 2 = 4.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Merge Nodes in Between Zeros**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Merge Nodes in Between Zeros**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [0,3,1,0,4,5,2,0]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[4,11]`.
+4. **Verification:** The above figure represents the given linked list. The modified list contains
+- The sum of the nodes marked in green: 3 + 1 = 4.
+- The sum of the nodes marked in red: 4 + 5 + 2 = 11.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +84,41 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var mergeNodes = function(head) {
+    let current = head.next;
+    let result = head;
+
+    while (current) {
+        let sum = 0;
+
+        // Calculate sum between zeros
+        while (current && current.val !== 0) {
+            sum += current.val;
+            current = current.next;
+        }
+
+        // Store sum in the result node
+        result.val = sum;
+
+        // Move to the next group
+        if (current && current.next) {
+            result.next = current;
+            result = result.next;
+        } else {
+            result.next = null;
+        }
+
+        if (current) {
+            current = current.next;
+        }
+    }
+
+    return head;
+};
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,58 @@ Solve LeetCode Adding Spaces to a String using JavaScript and Array / General. T
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a  0-indexed  string  s  and a  0-indexed  integer array  spaces  that describes the indices in the original string where spaces will be added. Each space should be inserted  before  the character at the given index.
+## Problem Statement
+You are given a **0-indexed** string `s` and a **0-indexed** integer array `spaces` that describes the indices in the original string where spaces will be added. Each space should be inserted **before** the character at the given index.
+
+For example, given `s = "EnjoyYourCoffee"` and `spaces = [5, 9]`, we place spaces before `'Y'` and `'C'`, which are at indices `5` and `9` respectively. Thus, we obtain `"Enjoy ** Y **our **C** offee"`.
+
+Return** ***the modified string **after** the spaces have been added.*
+
+## Constraints
+- `1 <= s.length <= 3 * 10^5`
+- `s` consists only of lowercase and uppercase English letters.
+- `1 <= spaces.length <= 3 * 10^5`
+- `0 <= spaces[i] <= s.length - 1`
+- All the values of `spaces` are **strictly increasing**.
+
+## Examples
+### Example 1
+- **Input:** `s = "LeetcodeHelpsMeLearn", spaces = [8,13,15]`
+- **Output:** `"Leetcode Helps Me Learn"`
+- **Explanation:** The indices 8, 13, and 15 correspond to the underlined characters in "Leetcode
+
+### Example 2
+- **Input:** `s = "icodeinpython", spaces = [1,5,7,9]`
+- **Output:** `"i code in py thon"`
+- **Explanation:** The indices 1, 5, 7, and 9 correspond to the underlined characters in "i
+
+### Example 3
+- **Input:** `s = "spacing", spaces = [0,1,2,3,4,5,6]`
+- **Output:** `" s p a c i n g"`
+- **Explanation:** We are also able to place spaces before the first character of the string.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Adding Spaces to a String**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Adding Spaces to a String**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "LeetcodeHelpsMeLearn", spaces = [8,13,15]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"Leetcode Helps Me Learn"`.
+4. **Verification:** The indices 8, 13, and 15 correspond to the underlined characters in "Leetcode
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +80,25 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var addSpaces = function(s, spaces) {
+    let result = "";
+    let j = 0;
+
+    for (let i = 0; i < s.length; i++) {
+        if (j < spaces.length && i === spaces[j]) {
+            result += " ";
+            j++;
+        }
+
+        result += s[i];
+    }
+
+    return result;
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

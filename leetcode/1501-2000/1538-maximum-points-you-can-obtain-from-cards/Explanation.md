@@ -16,26 +16,59 @@ Solve LeetCode Maximum Points You Can Obtain from Cards using Python and Dynamic
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-There are several cards  arranged in a row , and each card has an associated number of points. The points are given in the integer array  cardPoints .
+## Problem Statement
+There are several cards **arranged in a row**, and each card has an associated number of points. The points are given in the integer array `cardPoints`.
+
+In one step, you can take one card from the beginning or from the end of the row. You have to take exactly `k` cards.
+
+Your score is the sum of the points of the cards you have taken.
+
+Given the integer array `cardPoints` and the integer `k`, return the *maximum score* you can obtain.
+
+## Constraints
+- `1 <= cardPoints.length <= 10^5`
+- `1 <= cardPoints[i] <= 10^4`
+- `1 <= k <= cardPoints.length`
+
+## Examples
+### Example 1
+- **Input:** `cardPoints = [1,2,3,4,5,6,1], k = 3`
+- **Output:** `12`
+- **Explanation:** After the first step, your score will always be 1. However, choosing the rightmost card first will maximize your total score. The optimal strategy is to take the three cards on the right, giving a final score of 1 + 6 + 5 = 12.
+
+### Example 2
+- **Input:** `cardPoints = [2,2,2], k = 2`
+- **Output:** `4`
+- **Explanation:** Regardless of which two cards you take, your score will always be 4.
+
+### Example 3
+- **Input:** `cardPoints = [9,7,7,9,7,7,9], k = 7`
+- **Output:** `55`
+- **Explanation:** You have to take all the cards. Your score is the sum of points of all cards.
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Points You Can Obtain from Cards**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We decompose the problem into overlapping subproblems using a **DP Table / Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Points You Can Obtain from Cards**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `cardPoints = [1,2,3,4,5,6,1], k = 3`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `12`.
+4. **Verification:** After the first step, your score will always be 1. However, choosing the rightmost card first will maximize your total score. The optimal strategy is to take the three cards on the right, giving a final score of 1 + 6 + 5 = 12.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -51,6 +84,24 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def maxScore(self, cardPoints: List[int], k: int) -> int:
+        n = len(cardPoints)
+        curr_score = sum(cardPoints[:k])
+        max_score = curr_score
+        
+        for step in range(1, k + 1):
+            curr_score += cardPoints[n - step] - cardPoints[k - step]
+            if curr_score > max_score:
+                max_score = curr_score
+                
+        return max_score
+```
+
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +116,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1424-maximum-candies-you-can-get-from-boxes/)
-- [1561. Maximum Number of Coins You Can Get](../../1501-2000/1683-maximum-number-of-coins-you-can-get/)
-- [1935. Maximum Number of Words You Can Type](../../1001-1500/1264-maximum-number-of-words-you-can-type/)
+- [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2588-maximum-number-of-points-from-grid-queries/)
+- [2920. Maximum Points After Collecting Coins From All Nodes](../../3001-3500/3179-maximum-points-after-collecting-coins-from-all-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)

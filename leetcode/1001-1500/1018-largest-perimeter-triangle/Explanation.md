@@ -16,26 +16,49 @@ Solve LeetCode Largest Perimeter Triangle using Python and Math & Logic. This so
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer array  nums , return  the largest perimeter of a triangle with a non-zero area, formed from three of these lengths . If it is impossible to form any triangle of a non-zero area, return  0 .
+## Problem Statement
+Given an integer array `nums`, return *the largest perimeter of a triangle with a non-zero area, formed from three of these lengths*. If it is impossible to form any triangle of a non-zero area, return `0`.
+
+## Constraints
+- `3 <= nums.length <= 10^4`
+- `1 <= nums[i] <= 10^6`
+
+## Examples
+### Example 1
+- **Input:** `nums = [2,1,2]`
+- **Output:** `5`
+- **Explanation:** You can form a triangle with three side lengths: 1, 2, and 2.
+
+### Example 2
+- **Input:** `nums = [1,2,1,10]`
+- **Output:** `0`
+- **Explanation:** You cannot use the side lengths 1, 1, and 2 to form a triangle.
+You cannot use the side lengths 1, 1, and 10 to form a triangle.
+You cannot use the side lengths 1, 2, and 10 to form a triangle.
+As we cannot use any three side lengths to form a triangle of non-zero area, we return 0.
 
 ## Key Insight
 Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Mathematical Simulation & Modular Arithmetic**. By maintaining state efficiently in a **Primitive Types**, we eliminate redundant operations and process each element in optimal time.
+To solve **Largest Perimeter Triangle**, we observe the problem requirements and utilize the **Math & Logic** technique. We iterate through the inputs using **Mathematical Simulation & Modular Arithmetic**, leveraging a **Primitive Types** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Types**).
-2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Primitive Types**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Largest Perimeter Triangle**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [2,1,2]`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** You can form a triangle with three side lengths: 1, 2, and 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
 **Math & Logic**
@@ -49,6 +72,23 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def largestPerimeter(self, nums: List[int]) -> int:
+        nums.sort(reverse=True)
+
+        for i in range(len(nums) - 2):
+            a = nums[i]
+            b = nums[i + 1]
+            c = nums[i + 2]
+
+            if b + c > a:
+                return a + b + c
+
+        return 0
+```
 
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

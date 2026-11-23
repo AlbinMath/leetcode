@@ -16,26 +16,55 @@ Solve LeetCode A Number After a Double Reversal using Python and Two Pointers. T
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Reversing  an integer means to reverse all its digits.
+## Problem Statement
+**Reversing** an integer means to reverse all its digits.
+
+For example, reversing `2021` gives `1202`. Reversing `12300` gives `321` as the **leading zeros are not retained**.
+
+Given an integer `num`, **reverse** `num` to get `reversed1`, **then reverse** `reversed1` to get `reversed2`. Return `true` *if* `reversed2` *equals* `num`. Otherwise return `false`.
+
+## Constraints
+- `0 <= num <= 10^6`
+
+## Examples
+### Example 1
+- **Input:** `num = 526`
+- **Output:** `true`
+- **Explanation:** Reverse num to get 625, then reverse 625 to get 526, which equals num.
+
+### Example 2
+- **Input:** `num = 1800`
+- **Output:** `false`
+- **Explanation:** Reverse num to get 81, then reverse 81 to get 18, which does not equal num.
+
+### Example 3
+- **Input:** `num = 0`
+- **Output:** `true`
+- **Explanation:** Reverse num to get 0, then reverse 0 to get 0, which equals num.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **A Number After a Double Reversal**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **A Number After a Double Reversal**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `num = 526`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Reverse num to get 625, then reverse 625 to get 526, which equals num.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -51,6 +80,13 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def isSameAfterReversals(self, num):
+        return num == 0 or num % 10 != 0
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,9 +100,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2816. Double a Number Represented as a Linked List](../../2501-3000/2871-double-a-number-represented-as-a-linked-list/)
 - [1946. Largest Number After Mutating Substring](../../2001-2500/2077-largest-number-after-mutating-substring/)
 - [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
+- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3233-maximize-the-number-of-partitions-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/a-number-after-a-double-reversal/)

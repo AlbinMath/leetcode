@@ -16,26 +16,44 @@ Solve LeetCode Sum of Square Numbers using Python and Array / General. This solu
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a non-negative integer  c , decide whether there&#39;re two integers  a  and  b  such that  a 2  + b 2  = c .
+## Problem Statement
+Given a non-negative integer `c`, decide whether there're two integers `a` and `b` such that `a^2 + b^2 = c`.
+
+## Constraints
+- `0 <= c <= 2^31 - 1`
+
+## Examples
+### Example 1
+- **Input:** `c = 5`
+- **Output:** `true`
+- **Explanation:** 1 * 1 + 2 * 2 = 5
+
+### Example 2
+- **Input:** `c = 3`
+- **Output:** `false`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sum of Square Numbers**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sum of Square Numbers**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `c = 5`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** 1 * 1 + 2 * 2 = 5
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +66,22 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def judgeSquareSum(self, c):
+        a, b = 0, int(c**0.5)
+        while a <= b:
+            s = a*a + b*b
+            if s == c:
+                return True
+            if s < c:
+                a += 1
+            else:
+                b -= 1
+        return False
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +96,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
-- [829. Consecutive Numbers Sum](../../0501-1000/0856-consecutive-numbers-sum/)
-- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+- [1925. Count Square Sum Triples](../../2001-2500/2037-count-square-sum-triples/)
+- [3715. Sum of Perfect Square Ancestors](../../3501-4000/3957-sum-of-perfect-square-ancestors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-square-numbers/)

@@ -16,26 +16,53 @@ Solve LeetCode Partition Labels using Python and Array / General. This solution 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string  s . We want to partition the string into as many parts as possible so that each letter appears in at most one part. For example, the string  "ababcc"  can be partitioned into  ["abab", "cc"] , but partitions such as  ["aba", "bcc"]  or  ["ab", "ab", "cc"]  are invalid.
+## Problem Statement
+You are given a string `s`. We want to partition the string into as many parts as possible so that each letter appears in at most one part. For example, the string `"ababcc"` can be partitioned into `["abab", "cc"]`, but partitions such as `["aba", "bcc"]` or `["ab", "ab", "cc"]` are invalid.
+
+Note that the partition is done so that after concatenating all the parts in order, the resultant string should be `s`.
+
+Return *a list of integers representing the size of these parts*.
+
+## Constraints
+- `1 <= s.length <= 500`
+- `s` consists of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "ababcbacadefegdehijhklij"`
+- **Output:** `[9,7,8]`
+- **Explanation:** The partition is "ababcbaca", "defegde", "hijhklij".
+This is a partition so that each letter appears in at most one part.
+A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits s into less parts.
+
+### Example 2
+- **Input:** `s = "eccbbbbdec"`
+- **Output:** `[10]`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Partition Labels**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Partition Labels**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "ababcbacadefegdehijhklij"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[9,7,8]`.
+4. **Verification:** The partition is "ababcbaca", "defegde", "hijhklij".
+This is a partition so that each letter appears in at most one part.
+A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits s into less parts.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +75,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def partitionLabels(self, s):
+        last = {c: i for i, c in enumerate(s)}
+        res, start, end = [], 0, 0
+        for i, c in enumerate(s):
+            end = max(end, last[c])
+            if i == end:
+                res.append(end - start + 1)
+                start = i + 1
+        return res
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

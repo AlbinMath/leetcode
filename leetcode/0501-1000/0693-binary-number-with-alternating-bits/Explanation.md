@@ -16,26 +16,51 @@ Solve LeetCode Binary Number with Alternating Bits using Python and Two Pointers
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
+## Problem Statement
 Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
+
+## Constraints
+- `1 <= n <= 2^31 - 1`
+
+## Examples
+### Example 1
+- **Input:** `n = 5`
+- **Output:** `true`
+- **Explanation:** The binary representation of 5 is: 101
+
+### Example 2
+- **Input:** `n = 7`
+- **Output:** `false`
+- **Explanation:** The binary representation of 7 is: 111.
+
+### Example 3
+- **Input:** `n = 11`
+- **Output:** `false`
+- **Explanation:** The binary representation of 11 is: 1011.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Binary Number with Alternating Bits**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Binary Number with Alternating Bits**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 5`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** The binary representation of 5 is: 101
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +75,19 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def hasAlternatingBits(self, n: int) -> bool:
+        binary = bin(n)[2:]
+
+        for i in range(1, len(binary)):
+            if binary[i] == binary[i - 1]:
+                return False
+
+        return True
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

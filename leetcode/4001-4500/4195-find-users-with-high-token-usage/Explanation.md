@@ -16,26 +16,51 @@ Solve LeetCode Find Users with High Token Usage using SQL and Database / SQL. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `prompts`
+
++-------------+---------+
+| Column Name | Type |
++-------------+---------+
+| user_id | int |
+| prompt | varchar |
+| tokens | int |
++-------------+---------+
 (user_id, prompt) is the primary key (unique value) for this table.
+Each row represents a prompt submitted by a user to an AI system along with the number of tokens consumed.
+
+Write a solution to analyze **AI prompt usage patterns** based on the following requirements:
+
+For each user, calculate the **total number of prompts** they have submitted. 
+ For each user, calculate the **average tokens used per prompt **(Rounded to `2` decimal places). 
+ Only include users who have submitted **at least **`3`** prompts**. 
+ Only include users who have submitted **at least one prompt** with `tokens` **greater than** their own average token usage.
+
+Return *the result table ordered by **average tokens** in **descending** order, and then by `user_id` in **ascending** order.*
+
+The result format is in the following example.
+
+## Examples
+Consider the standard input for **Find Users with High Token Usage**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
+We solve **Find Users with High Token Usage** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We group records using `GROUP BY` and compute metrics with aggregate functions. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints. We order the final result set using `ORDER BY`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Group records and calculate aggregated summary metrics.
+2. Filter records according to problem criteria.
+3. Sort the projected result.
+4. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Find Users with High Token Usage**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+Applying **SQL Query / Relational Join & Window Function** step by step to the input yields the expected result.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +75,21 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT
+    user_id,
+    COUNT(*) AS prompt_count,
+    ROUND(AVG(tokens), 2) AS avg_tokens
+FROM prompts
+GROUP BY user_id
+HAVING COUNT(*) >= 3
+   AND MAX(tokens) > AVG(tokens)
+ORDER BY
+    avg_tokens DESC,
+    user_id ASC;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

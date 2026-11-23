@@ -16,26 +16,50 @@ Solve LeetCode Reshape Data: Concatenate using Python and Stack & Queue. This so
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Write a solution to concatenate these two DataFrames  vertically  into one DataFrame.
+## Problem Statement
+DataFrame `df1`
++-------------+--------+
+| Column Name | Type |
++-------------+--------+
+| student_id | int |
+| name | object |
+| age | int |
++-------------+--------+
+
+DataFrame `df2`
++-------------+--------+
+| Column Name | Type |
++-------------+--------+
+| student_id | int |
+| name | object |
+| age | int |
++-------------+--------+
+
+Write a solution to concatenate these two DataFrames **vertically** into one DataFrame.
+
+The result format is in the following example.
+
+## Examples
+Consider the standard input for **Reshape Data: Concatenate**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Key Insight
 Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Stack Push / Pop Parsing**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations and process each element in optimal time.
+To solve **Reshape Data: Concatenate**, we observe the problem requirements and utilize the **Stack & Queue** technique. We decompose the problem into overlapping subproblems using a **Stack**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Stack Push / Pop Parsing**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Reshape Data: Concatenate**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+## Example Walkthrough
+Applying **Stack Push / Pop Parsing** step by step to the input yields the expected result.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Stack & Queue**
@@ -49,6 +73,14 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import pandas as pd
+
+def concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
+    return pd.concat([df1, df2], axis=0, ignore_index=True)
+```
 
 ## Why This Works
 By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -65,7 +97,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [2889. Reshape Data: Pivot](../../3001-3500/3072-reshape-data-pivot/)
 - [2890. Reshape Data: Melt](../../3001-3500/3073-reshape-data-melt/)
-- [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../../4001-4500/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reshape-data-concatenate/)

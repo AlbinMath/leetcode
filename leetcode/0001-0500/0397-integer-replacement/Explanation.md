@@ -16,26 +16,55 @@ Solve LeetCode Integer Replacement using Python and Array / General. This soluti
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a positive integer  n , you can apply one of the following operations:
+## Problem Statement
+Given a positive integer `n`, you can apply one of the following operations:
+
+If `n` is even, replace `n` with `n / 2`. 
+ If `n` is odd, replace `n` with either `n + 1` or `n - 1`.
+
+Return *the minimum number of operations needed for* `n` *to become* `1`.
+
+## Constraints
+- `1 <= n <= 2^31 - 1`
+
+## Examples
+### Example 1
+- **Input:** `n = 8`
+- **Output:** `3`
+- **Explanation:** 8 -> 4 -> 2 -> 1
+
+### Example 2
+- **Input:** `n = 7`
+- **Output:** `4`
+- **Explanation:** 7 -> 8 -> 4 -> 2 -> 1
+or 7 -> 6 -> 3 -> 2 -> 1
+
+### Example 3
+- **Input:** `n = 4`
+- **Output:** `2`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Integer Replacement**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Integer Replacement**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 8`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** 8 -> 4 -> 2 -> 1
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,26 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def integerReplacement(self, n: int) -> int:
+        steps = 0
+        
+        while n > 1:
+            if n % 2 == 0:
+                n //= 2
+            elif n == 3 or (n & 3) == 1:
+                # n ends in ...01 or is the special case 3
+                n -= 1
+            else:
+                # n ends in ...11 and n > 3
+                n += 1
+            steps += 1
+            
+        return steps
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

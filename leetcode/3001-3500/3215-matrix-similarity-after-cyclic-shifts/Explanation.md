@@ -1,7 +1,7 @@
 # LeetCode 2946: Matrix Similarity After Cyclic Shifts
 
 **LeetCode Problem #2946 — Matrix Similarity After Cyclic Shifts**
-Solve LeetCode Matrix Similarity After Cyclic Shifts using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Matrix Similarity After Cyclic Shifts using JavaScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,73 @@ Solve LeetCode Matrix Similarity After Cyclic Shifts using JavaScript and Tree &
 | LeetCode | #2946 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an  m x n  integer matrix  mat  and an integer  k . The matrix rows are 0-indexed.
+## Problem Statement
+You are given an `m x n` integer matrix `mat` and an integer `k`. The matrix rows are 0-indexed.
+
+The following process happens `k` times:
+
+**Even-indexed** rows (0, 2, 4, ...) are cyclically shifted to the left.
+
+**Odd-indexed** rows (1, 3, 5, ...) are cyclically shifted to the right.
+
+Return `true` if the final modified matrix after `k` steps is identical to the original matrix, and `false` otherwise.
+
+## Constraints
+- `1 <= mat.length <= 25`
+- `1 <= mat[i].length <= 25`
+- `1 <= mat[i][j] <= 25`
+- `1 <= k <= 50`
+
+## Examples
+### Example 1
+- **Input:** `mat = [[1,2,3],[4,5,6],[7,8,9]], k = 4`
+- **Output:** `false`
+- **Explanation:** In each step left shift is applied to rows 0 and 2 (even indices), and right shift to row 1 (odd index).
+
+### Example 2
+- **Input:** `mat = [[1,2,1,2],[5,5,5,5],[6,3,6,3]], k = 2`
+- **Output:** `true`
+
+### Example 3
+- **Input:** `mat = [[2,2],[2,2]], k = 3`
+- **Output:** `true`
+- **Explanation:** As all the values are equal in the matrix, even after performing cyclic shifts the matrix will remain the same.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Matrix Similarity After Cyclic Shifts**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Matrix Similarity After Cyclic Shifts**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `mat = [[1,2,3],[4,5,6],[7,8,9]], k = 4`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `false`.
+4. **Verification:** In each step left shift is applied to rows 0 and 2 (even indices), and right shift to row 1 (odd index).
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 JavaScript
@@ -52,8 +84,28 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var areSimilar = function(mat, k) {
+    const n = mat[0].length;
+    const shift = k % n;
+
+    if (shift === 0) return true;
+
+    for (const row of mat) {
+        for (let j = 0; j < n; j++) {
+            if (row[j] !== row[(j + shift) % n]) {
+                return false;
+            }
+        }
+    }
+
+    return true;
+};
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

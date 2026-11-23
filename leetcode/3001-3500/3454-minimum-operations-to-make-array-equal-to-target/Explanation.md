@@ -16,26 +16,59 @@ Solve LeetCode Minimum Operations to Make Array Equal to Target using Python and
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two positive integer arrays  nums  and  target , of the same length.
+## Problem Statement
+You are given two positive integer arrays `nums` and `target`, of the same length.
+
+In a single operation, you can select any subarray of `nums` and increment each element within that subarray by 1 or decrement each element within that subarray by 1.
+
+Return the **minimum** number of operations required to make `nums` equal to the array `target`.
+
+## Constraints
+- `1 <= nums.length == target.length <= 10^5`
+- `1 <= nums[i], target[i] <= 10^8`
+
+## Examples
+### Example 1
+- **Input:** `nums = [3,5,1,2], target = [4,6,2,4]`
+- **Output:** `2`
+- **Explanation:** We will perform the following operations to make `nums` equal to `target`: 
+- Increment `nums[0..3]` by 1, `nums = [4,6,2,3]`. 
+- Increment `nums[3..3]` by 1, `nums = [4,6,2,4]`.
+
+### Example 2
+- **Input:** `nums = [1,3,2], target = [2,1,4]`
+- **Output:** `5`
+- **Explanation:** We will perform the following operations to make `nums` equal to `target`: 
+- Increment `nums[0..0]` by 1, `nums = [2,3,2]`. 
+- Decrement `nums[1..1]` by 1, `nums = [2,2,2]`. 
+- Decrement `nums[1..1]` by 1, `nums = [2,1,2]`. 
+- Increment `nums[2..2]` by 1, `nums = [2,1,3]`. 
+- Increment `nums[2..2]` by 1, `nums = [2,1,4]`.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Operations to Make Array Equal to Target**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Operations to Make Array Equal to Target**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [3,5,1,2], target = [4,6,2,4]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** We will perform the following operations to make `nums` equal to `target`: 
+- Increment `nums[0..3]` by 1, `nums = [4,6,2,3]`. 
+- Increment `nums[3..3]` by 1, `nums = [4,6,2,4]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +81,24 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def minimumOperations(self, nums: List[int], target: List[int]) -> int:
+        ans = 0
+        prev = 0
+        for a, b in zip(nums, target):
+            cur = b - a
+            if cur > 0:
+                ans += max(0, cur - max(prev, 0))
+            elif cur < 0:
+                ans += max(0, -cur - max(-prev, 0))
+            prev = cur
+        return ans
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

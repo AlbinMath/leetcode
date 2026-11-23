@@ -16,8 +16,37 @@ Solve LeetCode Building H2O using C++ and Array / General. This solution finds t
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-There are two kinds of threads:  oxygen  and  hydrogen . Your goal is to group these threads to form water molecules.
+## Problem Statement
+There are two kinds of threads: `oxygen` and `hydrogen`. Your goal is to group these threads to form water molecules.
+
+There is a barrier where each thread has to wait until a complete molecule can be formed. Hydrogen and oxygen threads will be given `releaseHydrogen` and `releaseOxygen` methods respectively, which will allow them to pass the barrier. These threads should pass the barrier in groups of three, and they must immediately bond with each other to form a water molecule. You must guarantee that all the threads from one molecule bond before any other threads from the next molecule do.
+
+In other words:
+
+If an oxygen thread arrives at the barrier when no hydrogen threads are present, it must wait for two hydrogen threads. 
+ If a hydrogen thread arrives at the barrier when no other threads are present, it must wait for an oxygen thread and another hydrogen thread.
+
+We do not have to worry about matching the threads up explicitly; the threads do not necessarily know which other threads they are paired up with. The key is that threads pass the barriers in complete sets; thus, if we examine the sequence of threads that bind and divide them into groups of three, each group should contain one oxygen and two hydrogen threads.
+
+Write synchronization code for oxygen and hydrogen molecules that enforces these constraints.
+
+## Constraints
+- `3 * n == water.length`
+- `1 <= n <= 20`
+- `water[i]` is either `'H'` or `'O'`.
+- There will be exactly `2 * n` `'H'` in `water`.
+- There will be exactly `n` `'O'` in `water`.
+
+## Examples
+### Example 1
+- **Input:** `water = "HOH"`
+- **Output:** `"HHO"`
+- **Explanation:** "HOH" and "OHH" are also valid answers.
+
+### Example 2
+- **Input:** `water = "OOHHHH"`
+- **Output:** `"HHOHHO"`
+- **Explanation:** "HOHHHO", "OHHHHO", "HHOHOH", "HOHHOH", "OHHHOH", "HHOOHH", "HOHOHH" and "OHHOHH" are also valid answers.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -42,12 +71,17 @@ This ensures every water molecule has exactly 2 H atoms and 1 O atom before any 
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Building H2O**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `water = "HOH"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"HHO"`.
+4. **Verification:** "HOH" and "OHH" are also valid answers.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -60,6 +94,43 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class H2O {
+private:
+    mutex mtx;
+    condition_variable cv;
+    int hydrogenCount = 0;
+    int oxygenCount = 0;
+public:
+    H2O() {
+        
+    }
+    void hydrogen(function<void()> releaseHydrogen) {
+        unique_lock<mutex> lock(mtx);
+        cv.wait(lock, [&]() {
+            return hydrogenCount < 2;
+        });
+        hydrogenCount++;
+        releaseHydrogen();
+        if (hydrogenCount == 2) {
+            cv.notify_all();
+        }
+    }
+    void oxygen(function<void()> releaseOxygen) {
+        unique_lock<mutex> lock(mtx);
+        cv.wait(lock, [&]() {
+            return hydrogenCount == 2 && oxygenCount == 0;
+        });
+        oxygenCount++;
+        releaseOxygen();
+        hydrogenCount = 0;
+        oxygenCount = 0;
+        cv.notify_all();
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

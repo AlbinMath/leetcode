@@ -16,26 +16,56 @@ Solve LeetCode Lowest Common Ancestor of a Binary Tree using JavaScript and Bina
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
+## Problem Statement
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+According to the definition of LCA on Wikipedia : &ldquo;The lowest common ancestor is defined between two nodes `p` and `q` as the lowest node in `T` that has both `p` and `q` as descendants (where we allow a node to be a descendant of itself ).&rdquo;
+
+## Constraints
+- The number of nodes in the tree is in the range `[2, 10^5]`.
+- `-10^9 <= Node.val <= 10^9`
+- All `Node.val` are **unique**.
+- `p != q`
+- `p` and `q` will exist in the tree.
+
+## Examples
+### Example 1
+- **Input:** `root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1`
+- **Output:** `3`
+- **Explanation:** The LCA of nodes 5 and 1 is 3.
+
+### Example 2
+- **Input:** `root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4`
+- **Output:** `5`
+- **Explanation:** The LCA of nodes 5 and 4 is 5, since a node can be a descendant of itself according to the LCA definition.
+
+### Example 3
+- **Input:** `root = [1,2], p = 1, q = 2`
+- **Output:** `1`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Lowest Common Ancestor of a Binary Tree**, we observe the problem requirements and utilize the **Binary Search** technique. Exploiting monotonic ordering or sorted properties in the input space, we maintain `left` and `right` boundary pointers. In each iteration, we evaluate the midpoint to discard half of the search range, reducing the time complexity to $O(\log n)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize boundary pointers `left` and `right`.
+2. Compute `mid = left + (right - left) // 2` to prevent overflow.
+3. Adjust `left` or `right` depending on whether target satisfies the partition condition.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Lowest Common Ancestor of a Binary Tree**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** The LCA of nodes 5 and 1 is 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -50,6 +80,28 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var lowestCommonAncestor = function(root, p, q) {
+    // Base case: empty node or either target found.
+    if (root === null || root === p || root === q) {
+        return root;
+    }
+
+    // Search for p and q in both subtrees.
+    const left = lowestCommonAncestor(root.left, p, q);
+    const right = lowestCommonAncestor(root.right, p, q);
+
+    // Targets found in separate subtrees.
+    if (left !== null && right !== null) {
+        return root;
+    }
+
+    // Otherwise, return whichever subtree found a target.
+    return left !== null ? left : right;
+};
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -66,7 +118,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [235. Lowest Common Ancestor of a Binary Search Tree](../../0001-0500/0235-lowest-common-ancestor-of-a-binary-search-tree/)
 - [1123. Lowest Common Ancestor of Deepest Leaves](../../1001-1500/1218-lowest-common-ancestor-of-deepest-leaves/)
-- [1483. Kth Ancestor of a Tree Node](../../1001-1500/1296-kth-ancestor-of-a-tree-node/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)

@@ -16,26 +16,71 @@ Solve LeetCode Sum of All Odd Length Subarrays using C++ and Array / General. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array of positive integers  arr , return  the sum of all possible  odd-length subarrays  of   arr .
+## Problem Statement
+Given an array of positive integers `arr`, return *the sum of all possible **odd-length subarrays** of *`arr`.
+
+A **subarray** is a contiguous subsequence of the array.
+
+## Constraints
+- `1 <= arr.length <= 100`
+- `1 <= arr[i] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `arr = [1,4,2,5,3]`
+- **Output:** `58`
+- **Explanation:** The odd-length subarrays of arr and their sums are:
+[1] = 1
+[4] = 4
+[2] = 2
+[5] = 5
+[3] = 3
+[1,4,2] = 7
+[4,2,5] = 11
+[2,5,3] = 10
+[1,4,2,5,3] = 15
+If we add all these together we get 1 + 4 + 2 + 5 + 3 + 7 + 11 + 10 + 15 = 58
+
+### Example 2
+- **Input:** `arr = [1,2]`
+- **Output:** `3`
+
+### Example 3
+- **Input:** `arr = [10,11,12]`
+- **Output:** `66`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sum of All Odd Length Subarrays**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sum of All Odd Length Subarrays**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [1,4,2,5,3]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `58`.
+4. **Verification:** The odd-length subarrays of arr and their sums are:
+[1] = 1
+[4] = 4
+[2] = 2
+[5] = 5
+[3] = 3
+[1,4,2] = 7
+[4,2,5] = 11
+[2,5,3] = 10
+[1,4,2,5,3] = 15
+If we add all these together we get 1 + 4 + 2 + 5 + 3 + 7 + 11 + 10 + 15 = 58
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +93,26 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    int sumOddLengthSubarrays(vector<int>& arr) {
+        int n = arr.size();
+        int sum = 0;
+
+        for (int i = 0; i < n; i++) {
+            int total = (i + 1) * (n - i);
+            int odd = (total + 1) / 2;
+
+            sum += arr[i] * odd;
+        }
+
+        return sum;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -1,7 +1,7 @@
 # LeetCode 1019: Next Greater Node In Linked List
 
 **LeetCode Problem #1019 — Next Greater Node In Linked List**
-Solve LeetCode Next Greater Node In Linked List using Python and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
+Solve LeetCode Next Greater Node In Linked List using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,63 @@ Solve LeetCode Next Greater Node In Linked List using Python and Monotonic Stack
 | LeetCode | #1019 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Monotonic Stack Filtering |
-| Data Structure | Stack |
-| Pattern | Monotonic Stack |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## Problem
-You are given the  head  of a linked list with  n  nodes.
+## Problem Statement
+You are given the `head` of a linked list with `n` nodes.
+
+For each node in the list, find the value of the **next greater node**. That is, for each node, find the value of the first node that is next to it and has a **strictly larger** value than it.
+
+Return an integer array `answer` where `answer[i]` is the value of the next greater node of the `i^th` node (**1-indexed**). If the `i^th` node does not have a next greater node, set `answer[i] = 0`.
+
+## Constraints
+- The number of nodes in the list is `n`.
+- `1 <= n <= 10^4`
+- `1 <= Node.val <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `head = [2,1,5]`
+- **Output:** `[5,5,0]`
+
+### Example 2
+- **Input:** `head = [2,7,4,3,5]`
+- **Output:** `[7,0,5,5,0]`
 
 ## Key Insight
-Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Monotonic Stack Filtering**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations and process each element in optimal time.
+To solve **Next Greater Node In Linked List**, we observe the problem requirements and utilize the **Monotonic Stack** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Monotonic Stack Filtering**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Next Greater Node In Linked List**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [2,1,5]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[5,5,0]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Monotonic Stack**
+**Two Pointers**
 
 ## Topics
-- Stack
-- Monotonic Stack
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 Python
@@ -51,17 +74,40 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List, Optional
+
+class Solution:
+    def nextLargerNodes(self, head: Optional[ListNode]) -> List[int]:
+        vals = []
+        res = []
+        stack = []
+
+        node = head
+        while node:
+            x = node.val
+            while stack and vals[stack[-1]] < x:
+                res[stack.pop()] = x
+            stack.append(len(vals))
+            vals.append(x)
+            res.append(0)
+            node = node.next
+
+        return res
+```
+
 ## Why This Works
-By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Pushing elements instead of indices when index distance is required.
-2. Using strict inequality (`<`) when non-strict (`<=`) is necessary.
-3. Forgetting to flush remaining elements from stack at the end.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Linear stack processing, nearest element relationship analysis.
-- **Follow-up:** How do you handle circular array boundaries?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [237. Delete Node in a Linked List](../../0001-0500/0237-delete-node-in-a-linked-list/)

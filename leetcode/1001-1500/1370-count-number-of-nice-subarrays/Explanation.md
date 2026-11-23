@@ -16,26 +16,53 @@ Solve LeetCode Count Number of Nice Subarrays using Python and Array / General. 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array of integers  nums  and an integer  k . A continuous subarray is called  nice  if there are  k  odd numbers on it.
+## Problem Statement
+Given an array of integers `nums` and an integer `k`. A continuous subarray is called **nice** if there are `k` odd numbers on it.
+
+Return *the number of **nice** sub-arrays*.
+
+## Constraints
+- `1 <= nums.length <= 50000`
+- `1 <= nums[i] <= 10^5`
+- `1 <= k <= nums.length`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,1,2,1,1], k = 3`
+- **Output:** `2`
+- **Explanation:** The only sub-arrays with 3 odd numbers are [1,1,2,1] and [1,2,1,1].
+
+### Example 2
+- **Input:** `nums = [2,4,6], k = 1`
+- **Output:** `0`
+- **Explanation:** There are no odd numbers in the array.
+
+### Example 3
+- **Input:** `nums = [2,2,2,1,2,2,1,2,2,2], k = 2`
+- **Output:** `16`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Number of Nice Subarrays**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Number of Nice Subarrays**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,1,2,1,1], k = 3`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The only sub-arrays with 3 odd numbers are [1,1,2,1] and [1,2,1,1].
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +75,29 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def numberOfSubarrays(self, nums: List[int], k: int) -> int:
+        left = odd_count = valid_prefixes = total = 0
+        
+        for val in nums:
+            if val & 1:
+                odd_count += 1
+                valid_prefixes = 0
+                
+            while odd_count == k:
+                odd_count -= nums[left] & 1
+                left += 1
+                valid_prefixes += 1
+                
+            total += valid_prefixes
+            
+        return total
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

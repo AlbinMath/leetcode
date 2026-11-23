@@ -16,8 +16,39 @@ Solve LeetCode Number of Strings That Appear as Substrings in Word using Kotlin 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array of strings  patterns  and a string  word , return  the  number  of strings in   patterns   that exist as a  substring  in   word .
+## Problem Statement
+Given an array of strings `patterns` and a string `word`, return *the **number** of strings in *`patterns`* that exist as a **substring** in *`word`.
+
+A **substring** is a contiguous sequence of characters within a string.
+
+## Constraints
+- `1 <= patterns.length <= 100`
+- `1 <= patterns[i].length <= 100`
+- `1 <= word.length <= 100`
+- `patterns[i]` and `word` consist of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `patterns = ["a","abc","bc","d"], word = "abc"`
+- **Output:** `3`
+- **Explanation:** - "a" appears as a substring in " a bc".
+- "abc" appears as a substring in " abc ".
+- "bc" appears as a substring in "a bc ".
+- "d" does not appear as a substring in "abc".
+3 of the strings in patterns appear as a substring in word.
+
+### Example 2
+- **Input:** `patterns = ["a","b","c"], word = "aaaaabbbbb"`
+- **Output:** `2`
+- **Explanation:** - "a" appears as a substring in "a a aaabbbbb".
+- "b" appears as a substring in "aaaaabbbb b ".
+- "c" does not appear as a substring in "aaaaabbbbb".
+2 of the strings in patterns appear as a substring in word.
+
+### Example 3
+- **Input:** `patterns = ["a","a","a"], word = "ab"`
+- **Output:** `3`
+- **Explanation:** Each of the patterns appears as a substring in word " a b".
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
@@ -32,12 +63,21 @@ Time complexity is $O(P \times W)$ where $P$ is total pattern length and $W$ is 
 2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Number of Strings That Appear as Substrings in Word**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `patterns = ["a","abc","bc","d"], word = "abc"`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** - "a" appears as a substring in " a bc".
+- "abc" appears as a substring in " abc ".
+- "bc" appears as a substring in "a bc ".
+- "d" does not appear as a substring in "abc".
+3 of the strings in patterns appear as a substring in word.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -53,6 +93,23 @@ Kotlin
 ## Source Code
 - [solution.kt](./solution.kt)
 
+
+```kotlin
+class Solution {
+    fun numOfStrings(patterns: Array<String>, word: String): Int {
+        var count = 0
+
+        for (pattern in patterns) {
+            if (word.contains(pattern)) {
+                count++
+            }
+        }
+
+        return count
+    }
+}
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -66,9 +123,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
-- [2816. Double a Number Represented as a Linked List](../../2501-3000/2871-double-a-number-represented-as-a-linked-list/)
-- [1074. Number of Submatrices That Sum to Target](../../1001-1500/1145-number-of-submatrices-that-sum-to-target/)
+- [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1460-number-of-substrings-containing-all-three-characters/)
+- [1513. Number of Substrings With Only 1s](../../1501-2000/1636-number-of-substrings-with-only-1s/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../../1501-2000/1644-maximum-number-of-non-overlapping-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)

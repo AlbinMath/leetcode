@@ -16,26 +16,48 @@ Solve LeetCode Reverse Linked List using JavaScript, PHP, Python and Two Pointer
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given the  head  of a singly linked list, reverse the list, and return  the reversed list .
+## Problem Statement
+Given the `head` of a singly linked list, reverse the list, and return *the reversed list*.
+
+## Constraints
+- The number of nodes in the list is the range `[0, 5000]`.
+- `-5000 <= Node.val <= 5000`
+
+## Examples
+### Example 1
+- **Input:** `head = [1,2,3,4,5]`
+- **Output:** `[5,4,3,2,1]`
+
+### Example 2
+- **Input:** `head = [1,2]`
+- **Output:** `[2,1]`
+
+### Example 3
+- **Input:** `head = []`
+- **Output:** `[]`
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Reverse Linked List**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Reverse Linked List**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [1,2,3,4,5]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[5,4,3,2,1]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -52,6 +74,76 @@ JavaScript, PHP, Python
 - [solution.js](./solution.js)
 - [solution.php](./solution.php)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var reverseList = function(head) {
+    let prev = null;
+    let curr = head;
+
+    while (curr !== null) {
+        let nextNode = curr.next; // Save the next node
+        curr.next = prev;         // Reverse the link
+        prev = curr;              // Move prev forward
+        curr = nextNode;          // Move curr forward
+    }
+
+    return prev;
+};
+```
+
+### PHP
+```php
+/**
+ * Definition for a singly-linked list.
+ * class ListNode {
+ *     public $val = 0;
+ *     public $next = null;
+ *     function __construct($val = 0, $next = null) {
+ *         $this->val = $val;
+ *         $this->next = $next;
+ *     }
+ * }
+ */
+
+class Solution {
+    function reverseList($head) {
+        $prev = null;
+        $current = $head;
+
+        while ($current !== null) {
+            // Save the next node
+            $next = $current->next;
+
+            // Reverse the link
+            $current->next = $prev;
+
+            // Move prev forward
+            $prev = $current;
+
+            // Move current forward
+            $current = $next;
+        }
+
+        return $prev;
+    }
+}
+```
+
+### Python
+```python
+class Solution:
+    def reverseList(self, head):
+        prev = None
+        cur = head
+        while cur:
+            nxt = cur.next
+            cur.next = prev
+            prev = cur
+            cur = nxt
+        return prev
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

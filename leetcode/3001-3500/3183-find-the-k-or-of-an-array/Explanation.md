@@ -16,26 +16,181 @@ Solve LeetCode Find the K-or of an Array using Python and Bit Manipulation. This
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums , and an integer  k . Let&#39;s introduce  K-or  operation by extending the standard bitwise OR. In K-or, a bit position in the result is set to  1  if at least  k  numbers in  nums  have a  1  in that position.
+## Problem Statement
+You are given an integer array `nums`, and an integer `k`. Let's introduce **K-or** operation by extending the standard bitwise OR. In K-or, a bit position in the result is set to `1` if at least `k` numbers in `nums` have a `1` in that position.
+
+Return *the K-or of* `nums`.
+
+## Constraints
+- `1 <= nums.length <= 50`
+- `0 <= nums[i] < 2^31`
+- `1 <= k <= nums.length`
+
+## Examples
+### Example 1
+- **Input:** `nums = [7,12,9,8,9,15], k = 4`
+- **Output:** `9`
+- **Explanation:** Represent numbers in binary: 
+
+ 
+ 
+ 
+ Number 
+ Bit 3 
+ Bit 2 
+ Bit 1 
+ Bit 0 
+ 
+ 
+ 7 
+ 0 
+ 1 
+ 1 
+ 1 
+ 
+ 
+ 12 
+ 1 
+ 1 
+ 0 
+ 0 
+ 
+ 
+ 9 
+ 1 
+ 0 
+ 0 
+ 1 
+ 
+ 
+ 8 
+ 1 
+ 0 
+ 0 
+ 0 
+ 
+ 
+ 9 
+ 1 
+ 0 
+ 0 
+ 1 
+ 
+ 
+ 15 
+ 1 
+ 1 
+ 1 
+ 1 
+ 
+ 
+ Result = 9 
+ 1 
+ 0 
+ 0 
+ 1 
+ 
+ 
+ 
+
+ Bit 0 is set in 7, 9, 9, and 15. Bit 3 is set in 12, 9, 8, 9, and 15. 
+Only bits 0 and 3 qualify. The result is `(1001)_2 = 9`.
+
+### Example 2
+- **Input:** `nums = [2,12,1,11,4,5], k = 6`
+- **Output:** `0`
+
+### Example 3
+- **Input:** `nums = [10,8,5,9,11,6,8], k = 1`
+- **Output:** `15`
+- **Explanation:** Since `k == 1`, the 1-or of the array is equal to the bitwise OR of all its elements. Hence, the answer is `10 OR 8 OR 5 OR 9 OR 11 OR 6 OR 8 = 15`.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find the K-or of an Array**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find the K-or of an Array**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [7,12,9,8,9,15], k = 4`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `9`.
+4. **Verification:** Represent numbers in binary: 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ 
+ 
+ 
+ Number 
+ Bit 3 
+ Bit 2 
+ Bit 1 
+ Bit 0 
+ 
+ 
+ 7 
+ 0 
+ 1 
+ 1 
+ 1 
+ 
+ 
+ 12 
+ 1 
+ 1 
+ 0 
+ 0 
+ 
+ 
+ 9 
+ 1 
+ 0 
+ 0 
+ 1 
+ 
+ 
+ 8 
+ 1 
+ 0 
+ 0 
+ 0 
+ 
+ 
+ 9 
+ 1 
+ 0 
+ 0 
+ 1 
+ 
+ 
+ 15 
+ 1 
+ 1 
+ 1 
+ 1 
+ 
+ 
+ Result = 9 
+ 1 
+ 0 
+ 0 
+ 1 
+ 
+ 
+ 
+
+ Bit 0 is set in 7, 9, 9, and 15. Bit 3 is set in 12, 9, 8, 9, and 15. 
+Only bits 0 and 3 qualify. The result is `(1001)_2 = 9`.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -50,6 +205,18 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution(object):
+    def findKOr(self, nums, k):
+        res = 0
+        for b in range(31):
+            c = sum((x >> b) & 1 for x in nums)
+            if c >= k:
+                res |= 1 << b
+        return res
+```
+
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -63,9 +230,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [629. K Inverse Pairs Array](../../0501-1000/0629-k-inverse-pairs-array/)
+- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-k-or-of-an-array/)

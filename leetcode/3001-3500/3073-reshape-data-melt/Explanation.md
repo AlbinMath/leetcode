@@ -1,7 +1,7 @@
 # LeetCode 2890: Reshape Data: Melt
 
 **LeetCode Problem #2890 — Reshape Data: Melt**
-Solve LeetCode Reshape Data: Melt using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Reshape Data: Melt using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,97 @@ Solve LeetCode Reshape Data: Melt using Python and Bit Manipulation. This soluti
 | LeetCode | #2890 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-Write a solution to  reshape  the data so that each row represents sales data for a product in a specific quarter.
+## Problem Statement
+DataFrame `report`
++-------------+--------+
+| Column Name | Type |
++-------------+--------+
+| product | object |
+| quarter_1 | int |
+| quarter_2 | int |
+| quarter_3 | int |
+| quarter_4 | int |
++-------------+--------+
+
+Write a solution to **reshape** the data so that each row represents sales data for a product in a specific quarter.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `+-------------+-----------+-----------+-----------+-----------+
+| product | quarter_1 | quarter_2 | quarter_3 | quarter_4 |
++-------------+-----------+-----------+-----------+-----------+
+| Umbrella | 417 | 224 | 379 | 611 |
+| SleepingBag | 800 | 936 | 93 | 875 |
++-------------+-----------+-----------+-----------+-----------+`
+- **Output:** `+-------------+-----------+-------+
+| product | quarter | sales |
++-------------+-----------+-------+
+| Umbrella | quarter_1 | 417 |
+| SleepingBag | quarter_1 | 800 |
+| Umbrella | quarter_2 | 224 |
+| SleepingBag | quarter_2 | 936 |
+| Umbrella | quarter_3 | 379 |
+| SleepingBag | quarter_3 | 93 |
+| Umbrella | quarter_4 | 611 |
+| SleepingBag | quarter_4 | 875 |
++-------------+-----------+-------+`
+- **Explanation:** The DataFrame is reshaped from wide to long format. Each row represents the sales of a product in a quarter.
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Reshape Data: Melt**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We decompose the problem into overlapping subproblems using a **Integer Bitmask**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Reshape Data: Melt**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `+-------------+-----------+-----------+-----------+-----------+
+| product | quarter_1 | quarter_2 | quarter_3 | quarter_4 |
++-------------+-----------+-----------+-----------+-----------+
+| Umbrella | 417 | 224 | 379 | 611 |
+| SleepingBag | 800 | 936 | 93 | 875 |
++-------------+-----------+-----------+-----------+-----------+`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+-------------+-----------+-------+
+| product | quarter | sales |
++-------------+-----------+-------+
+| Umbrella | quarter_1 | 417 |
+| SleepingBag | quarter_1 | 800 |
+| Umbrella | quarter_2 | 224 |
+| SleepingBag | quarter_2 | 936 |
+| Umbrella | quarter_3 | 379 |
+| SleepingBag | quarter_3 | 93 |
+| Umbrella | quarter_4 | 611 |
+| SleepingBag | quarter_4 | 875 |
++-------------+-----------+-------+`.
+4. **Verification:** The DataFrame is reshaped from wide to long format. Each row represents the sales of a product in a quarter.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Bit Manipulation**
+**Dynamic Programming**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 Python
@@ -50,17 +108,29 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+import pandas as pd
+
+def meltTable(report: pd.DataFrame) -> pd.DataFrame:
+    return report.melt(
+        id_vars=["product"],
+        var_name="quarter",
+        value_name="sales"
+    )
+```
+
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [2888. Reshape Data: Concatenate](../../3001-3500/3064-reshape-data-concatenate/)

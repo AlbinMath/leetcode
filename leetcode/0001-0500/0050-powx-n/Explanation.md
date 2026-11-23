@@ -1,7 +1,7 @@
 # LeetCode 50: Pow(x, n)
 
 **LeetCode Problem #50 — Pow(x, n)**
-Solve LeetCode Pow(x, n) using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Pow(x, n) using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,64 @@ Solve LeetCode Pow(x, n) using Python and Tree & Graph. This solution finds the 
 | LeetCode | #50 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Implement  pow(x, n) , which calculates  x  raised to the power  n  (i.e.,  x n  ).
+## Problem Statement
+Implement pow(x, n) , which calculates `x` raised to the power `n` (i.e., `x^n`).
+
+## Constraints
+- `-100.0 < x < 100.0`
+- `-2^31 <= n <= 2^31-1`
+- `n` is an integer.
+- Either `x` is not zero or `n > 0`.
+- `-10^4 <= x^n <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `x = 2.00000, n = 10`
+- **Output:** `1024.00000`
+
+### Example 2
+- **Input:** `x = 2.10000, n = 3`
+- **Output:** `9.26100`
+
+### Example 3
+- **Input:** `x = 2.00000, n = -2`
+- **Output:** `0.25000`
+- **Explanation:** 2^-2 = 1/2^2 = 1/4 = 0.25
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Pow(x, n)**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Pow(x, n)**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `x = 2.00000, n = 10`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1024.00000`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -52,8 +75,32 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def myPow(self, x, n):
+        negative = n < 0
+
+        if n < 0:
+            n = -n
+
+        result = 1.0
+
+        while n > 0:
+            if n % 2 == 1:
+                result *= x
+
+            x *= x
+            n //= 2
+
+        if negative:
+            return 1.0 / result
+
+        return result
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

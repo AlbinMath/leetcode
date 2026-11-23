@@ -16,26 +16,61 @@ Solve LeetCode Maximum 69 Number using Python and Array / General. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a positive integer  num  consisting only of digits  6  and  9 .
+## Problem Statement
+You are given a positive integer `num` consisting only of digits `6` and `9`.
+
+Return *the maximum number you can get by changing **at most** one digit (*`6`* becomes *`9`*, and *`9`* becomes *`6`*)*.
+
+## Constraints
+- `1 <= num <= 10^4`
+- `num` consists of only `6` and `9` digits.
+
+## Examples
+### Example 1
+- **Input:** `num = 9669`
+- **Output:** `9969`
+- **Explanation:** Changing the first digit results in 6669.
+Changing the second digit results in 9969.
+Changing the third digit results in 9699.
+Changing the fourth digit results in 9666.
+The maximum number is 9969.
+
+### Example 2
+- **Input:** `num = 9996`
+- **Output:** `9999`
+- **Explanation:** Changing the last digit 6 to 9 results in the maximum number.
+
+### Example 3
+- **Input:** `num = 9999`
+- **Output:** `9999`
+- **Explanation:** It is better not to apply any change.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum 69 Number**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum 69 Number**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `num = 9669`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `9969`.
+4. **Verification:** Changing the first digit results in 6669.
+Changing the second digit results in 9969.
+Changing the third digit results in 9699.
+Changing the fourth digit results in 9666.
+The maximum number is 9969.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +83,13 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def maximum69Number(self, num: int) -> int:
+        return int(str(num).replace('6', '9', 1))
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

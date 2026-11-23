@@ -16,26 +16,47 @@ Solve LeetCode To Lower Case using Python and Array / General. This solution fin
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  s , return  the string after replacing every uppercase letter with the same lowercase letter .
+## Problem Statement
+Given a string `s`, return *the string after replacing every uppercase letter with the same lowercase letter*.
+
+## Constraints
+- `1 <= s.length <= 100`
+- `s` consists of printable ASCII characters.
+
+## Examples
+### Example 1
+- **Input:** `s = "Hello"`
+- **Output:** `"hello"`
+
+### Example 2
+- **Input:** `s = "here"`
+- **Output:** `"here"`
+
+### Example 3
+- **Input:** `s = "LOVELY"`
+- **Output:** `"lovely"`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **To Lower Case**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **To Lower Case**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "Hello"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"hello"`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +69,13 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def toLowerCase(self, s: str) -> str:
+        return s.lower()
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +91,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2309. Greatest English Letter in Upper and Lower Case](../../1001-1500/1363-greatest-english-letter-in-upper-and-lower-case/)
-- [784. Letter Case Permutation](../../0501-1000/0800-letter-case-permutation/)
 - [374. Guess Number Higher or Lower](../../0001-0500/0374-guess-number-higher-or-lower/)
+- [375. Guess Number Higher or Lower II](../../0001-0500/0375-guess-number-higher-or-lower-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/to-lower-case/)

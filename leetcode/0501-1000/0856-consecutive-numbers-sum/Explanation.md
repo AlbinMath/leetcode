@@ -16,26 +16,51 @@ Solve LeetCode Consecutive Numbers Sum using Python and Two Pointers. This solut
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  n , return  the number of ways you can write   n   as the sum of consecutive positive integers.
+## Problem Statement
+Given an integer `n`, return *the number of ways you can write *`n`* as the sum of consecutive positive integers.*
+
+## Constraints
+- `1 <= n <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `n = 5`
+- **Output:** `2`
+- **Explanation:** 5 = 2 + 3
+
+### Example 2
+- **Input:** `n = 9`
+- **Output:** `3`
+- **Explanation:** 9 = 4 + 5 = 2 + 3 + 4
+
+### Example 3
+- **Input:** `n = 15`
+- **Output:** `4`
+- **Explanation:** 15 = 8 + 7 = 4 + 5 + 6 = 1 + 2 + 3 + 4 + 5
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Consecutive Numbers Sum**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Consecutive Numbers Sum**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 5`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** 5 = 2 + 3
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -51,6 +76,19 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution(object):
+    def consecutiveNumbersSum(self, n):
+        count = 0
+        k = 1
+        while k * (k - 1) // 2 < n:
+            if (n - k * (k - 1) // 2) % k == 0:
+                count += 1
+            k += 1
+        return count
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +103,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
+- [180. Consecutive Numbers](../../0001-0500/0180-consecutive-numbers/)
 - [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
-- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/consecutive-numbers-sum/)

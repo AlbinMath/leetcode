@@ -16,8 +16,44 @@ Solve LeetCode Maximum Element After Decreasing and Rearranging using Java and B
 | Time Complexity | O(log n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array of positive integers  arr . Perform some operations (possibly none) on  arr  so that it satisfies these conditions:
+## Problem Statement
+You are given an array of positive integers `arr`. Perform some operations (possibly none) on `arr` so that it satisfies these conditions:
+
+The value of the **first** element in `arr` must be `1`. 
+ The absolute difference between any 2 adjacent elements must be **less than or equal to **`1`. In other words, `abs(arr[i] - arr[i - 1]) <= 1` for each `i` where `1 <= i < arr.length` (**0-indexed**). `abs(x)` is the absolute value of `x`.
+
+There are 2 types of operations that you can perform any number of times:
+
+**Decrease** the value of any element of `arr` to a **smaller positive integer**. 
+ **Rearrange** the elements of `arr` to be in any order.
+
+Return *the **maximum** possible value of an element in *`arr`* after performing the operations to satisfy the conditions*.
+
+## Constraints
+- `1 <= arr.length <= 10^5`
+- `1 <= arr[i] <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `arr = [2,2,1,2,1]`
+- **Output:** `2`
+- **Explanation:** We can satisfy the conditions by rearranging `arr` so it becomes `[1,2,2,2,1]`.
+The largest element in `arr` is 2.
+
+### Example 2
+- **Input:** `arr = [100,1,1000]`
+- **Output:** `3`
+- **Explanation:** One possible way to satisfy the conditions is by doing the following:
+1. Rearrange `arr` so it becomes `[1,100,1000]`.
+2. Decrease the value of the second element to 2.
+3. Decrease the value of the third element to 3.
+Now `arr = [1,2,3]`, which satisfies the conditions.
+The largest element in `arr is 3.`
+
+### Example 3
+- **Input:** `arr = [1,2,3,4,5]`
+- **Output:** `5`
+- **Explanation:** The array already satisfies the conditions, and the largest element is 5.
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -34,12 +70,18 @@ Time complexity is $O(N \log N)$ and space complexity is $O(\log N)$ for sorting
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Maximum Element After Decreasing and Rearranging**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [2,2,1,2,1]`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** We can satisfy the conditions by rearranging `arr` so it becomes `[1,2,2,2,1]`.
+The largest element in `arr` is 2.
 
-## Complexity
-- **Time Complexity:** O(log n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(log n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -54,6 +96,25 @@ Java
 
 ## Source Code
 - [solution.java](./solution.java)
+
+
+```java
+import java.util.Arrays;
+
+class Solution {
+    public int maximumElementAfterDecrementingAndRearranging(int[] arr) {
+        Arrays.sort(arr);
+
+        int max = 0;
+
+        for (int num : arr) {
+            max = Math.min(num, max + 1);
+        }
+
+        return max;
+    }
+}
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -70,7 +131,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3346. Maximum Frequency of an Element After Performing Operations I](../../3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/)
 - [3347. Maximum Frequency of an Element After Performing Operations II](../../3501-4000/3640-maximum-frequency-of-an-element-after-performing-operations-ii/)
-- [1493. Longest Subarray of 1's After Deleting One Element](../../1501-2000/1586-longest-subarray-of-1s-after-deleting-one-element/)
+- [1422. Maximum Score After Splitting a String](../../1501-2000/1537-maximum-score-after-splitting-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)

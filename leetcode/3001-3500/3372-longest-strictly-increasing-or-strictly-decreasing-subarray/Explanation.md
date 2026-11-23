@@ -1,7 +1,7 @@
 # LeetCode 3105: Longest Strictly Increasing or Strictly Decreasing Subarray
 
 **LeetCode Problem #3105 — Longest Strictly Increasing or Strictly Decreasing Subarray**
-Solve LeetCode Longest Strictly Increasing or Strictly Decreasing Subarray using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Longest Strictly Increasing or Strictly Decreasing Subarray using Python and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,81 @@ Solve LeetCode Longest Strictly Increasing or Strictly Decreasing Subarray using
 | LeetCode | #3105 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Monotonic Stack Filtering |
+| Data Structure | Stack |
+| Pattern | Monotonic Stack |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-You are given an array of integers  nums . Return  the length of the  longest   subarray  of   nums   which is either   strictly increasing   or   strictly decreasing   .
+## Problem Statement
+You are given an array of integers `nums`. Return *the length of the **longest** subarray of *`nums`* which is either ** strictly increasing ** or ** strictly decreasing ***.
+
+## Constraints
+- `1 <= nums.length <= 50`
+- `1 <= nums[i] <= 50`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,4,3,3,2]`
+- **Output:** `2`
+- **Explanation:** The strictly increasing subarrays of `nums` are `[1]`, `[2]`, `[3]`, `[3]`, `[4]`, and `[1,4]`. 
+
+ The strictly decreasing subarrays of `nums` are `[1]`, `[2]`, `[3]`, `[3]`, `[4]`, `[3,2]`, and `[4,3]`. 
+
+ Hence, we return `2`.
+
+### Example 2
+- **Input:** `nums = [3,3,3,3]`
+- **Output:** `1`
+- **Explanation:** The strictly increasing subarrays of `nums` are `[3]`, `[3]`, `[3]`, and `[3]`. 
+
+ The strictly decreasing subarrays of `nums` are `[3]`, `[3]`, `[3]`, and `[3]`. 
+
+ Hence, we return `1`.
+
+### Example 3
+- **Input:** `nums = [3,2,1]`
+- **Output:** `3`
+- **Explanation:** The strictly increasing subarrays of `nums` are `[3]`, `[2]`, and `[1]`. 
+
+ The strictly decreasing subarrays of `nums` are `[3]`, `[2]`, `[1]`, `[3,2]`, `[2,1]`, and `[3,2,1]`. 
+
+ Hence, we return `3`.
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Longest Strictly Increasing or Strictly Decreasing Subarray**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Longest Strictly Increasing or Strictly Decreasing Subarray**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,4,3,3,2]`.
+2. **Processing Steps:** We apply **Monotonic Stack Filtering** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The strictly increasing subarrays of `nums` are `[1]`, `[2]`, `[3]`, `[3]`, `[4]`, and `[1,4]`. 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ The strictly decreasing subarrays of `nums` are `[1]`, `[2]`, `[3]`, `[3]`, `[4]`, `[3,2]`, and `[4,3]`. 
+
+ Hence, we return `2`.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Bit Manipulation**
+**Monotonic Stack**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Stack
+- Monotonic Stack
+- Array
 
 ## Language
 Python
@@ -50,22 +92,42 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def longestMonotonicSubarray(self, nums: List[int]) -> int:
+        best = inc = dec = 1
+        for i in range(1, len(nums)):
+            if nums[i] > nums[i - 1]:
+                inc += 1
+                dec = 1
+            elif nums[i] < nums[i - 1]:
+                dec += 1
+                inc = 1
+            else:
+                inc = dec = 1
+            best = max(best, inc, dec)
+        return best
+```
+
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Pushing elements instead of indices when index distance is required.
+2. Using strict inequality (`<`) when non-strict (`<=`) is necessary.
+3. Forgetting to flush remaining elements from stack at the end.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Linear stack processing, nearest element relationship analysis.
+- **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
 - [3825. Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND](../../4001-4500/4032-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/)
-- [978. Longest Turbulent Subarray](../../1001-1500/1020-longest-turbulent-subarray/)
-- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1501-2000/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
+- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/)

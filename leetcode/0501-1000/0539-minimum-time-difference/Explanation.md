@@ -1,7 +1,7 @@
 # LeetCode 539: Minimum Time Difference
 
 **LeetCode Problem #539 — Minimum Time Difference**
-Solve LeetCode Minimum Time Difference using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Minimum Time Difference using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,56 @@ Solve LeetCode Minimum Time Difference using Python and Tree & Graph. This solut
 | LeetCode | #539 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a list of 24-hour clock time points in  "HH:MM"  format, return  the minimum  minutes  difference between any two time-points in the list .
+## Problem Statement
+Given a list of 24-hour clock time points in **"HH:MM"** format, return *the minimum minutes difference between any two time-points in the list*.
+
+## Constraints
+- `2 <= timePoints.length <= 2 * 10^4`
+- `timePoints[i]` is in the format **"HH:MM"**.
+
+## Examples
+### Example 1
+- **Input:** `timePoints = ["23:59","00:00"]`
+- **Output:** `1`
+
+### Example 2
+- **Input:** `timePoints = ["00:00","23:59","00:00"]`
+- **Output:** `0`
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Time Difference**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Time Difference**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `timePoints = ["23:59","00:00"]`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -52,8 +67,23 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def findMinDifference(self, timePoints: List[str]) -> int:
+        if len(timePoints) > 1440:
+            return 0
+
+        minutes = sorted(int(t[:2]) * 60 + int(t[3:]) for t in timePoints)
+
+        best = minutes[0] + 1440 - minutes[-1]  # wraparound gap
+        for i in range(1, len(minutes)):
+            best = min(best, minutes[i] - minutes[i - 1])
+        return best
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -67,7 +97,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
 - [1200. Minimum Absolute Difference](../../1001-1500/1306-minimum-absolute-difference/)
-- [1984. Minimum Difference Between Highest and Lowest of K Scores](../../2001-2500/2112-minimum-difference-between-highest-and-lowest-of-k-scores/)
+- [1266. Minimum Time Visiting All Points](../../1001-1500/1395-minimum-time-visiting-all-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-difference/)

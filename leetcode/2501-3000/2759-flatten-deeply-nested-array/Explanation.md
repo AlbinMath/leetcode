@@ -16,8 +16,40 @@ Solve LeetCode Flatten Deeply Nested Array using TypeScript and Two Pointers. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a  multi-dimensional  array  arr  and a depth  n , return a  flattened  version of that array.
+## Problem Statement
+Given a **multi-dimensional** array `arr` and a depth `n`, return a **flattened** version of that array.
+
+A **multi-dimensional** array is a recursive data structure that contains integers or other **multi-dimensional** arrays.
+
+A **flattened** array is a version of that array with some or all of the sub-arrays removed and replaced with the actual elements in that sub-array. This flattening operation should only be done if the current depth of nesting is less than `n`. The depth of the elements in the first array are considered to be `0`.
+
+Please solve it without the built-in `Array.flat` method.
+
+## Constraints
+- `0 <= count of numbers in arr <= 10^5`
+- `0 <= count of subarrays in arr <= 10^5`
+- `maxDepth <= 1000`
+- `-1000 <= each number <= 1000`
+- ` 0 <= n <= 1000 `
+
+## Examples
+### Example 1
+- **Input:** `arr = [1, 2, 3, [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]]
+n = 0`
+- **Output:** `[1, 2, 3, [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]]`
+- **Explanation:** Passing a depth of n=0 will always result in the original array. This is because the smallest possible depth of a subarray (0) is not less than n=0. Thus, no subarray should be flattened.
+
+### Example 2
+- **Input:** `arr = [1, 2, 3, [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]]
+n = 1`
+- **Output:** `[1, 2, 3, 4, 5, 6, 7, 8, [9, 10, 11], 12, 13, 14, 15]`
+- **Explanation:** The subarrays starting with 4, 7, and 13 are all flattened. This is because their depth of 0 is less than 1. However [9, 10, 11] remains unflattened because its depth is 1.
+
+### Example 3
+- **Input:** `arr = [[1, 2, 3], [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]]
+n = 2`
+- **Output:** `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]`
+- **Explanation:** The maximum depth of any subarray is 1. Thus, all of them are flattened.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
@@ -30,12 +62,18 @@ Uses recursion: if depth > 0, iterate through elements. If an element is an arra
 2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Flatten Deeply Nested Array**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [1, 2, 3, [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]]
+n = 0`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1, 2, 3, [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]]`.
+4. **Verification:** Passing a depth of n=0 will always result in the original array. This is because the smallest possible depth of a subarray (0) is not less than n=0. Thus, no subarray should be flattened.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +88,35 @@ TypeScript
 
 ## Source Code
 - [solution.ts](./solution.ts)
+
+
+```typescript
+type MultiDimensionalArray = (number | MultiDimensionalArray)[];
+
+function flat(
+    arr: MultiDimensionalArray,
+    n: number
+): MultiDimensionalArray {
+    const result: MultiDimensionalArray = [];
+
+    function flatten(
+        current: MultiDimensionalArray,
+        depth: number
+    ): void {
+        for (const item of current) {
+            if (Array.isArray(item) && depth < n) {
+                flatten(item, depth + 1);
+            } else {
+                result.push(item);
+            }
+        }
+    }
+
+    flatten(arr, 0);
+
+    return result;
+}
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

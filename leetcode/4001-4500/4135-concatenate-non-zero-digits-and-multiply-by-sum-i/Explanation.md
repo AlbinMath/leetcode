@@ -16,26 +16,57 @@ Solve LeetCode Concatenate Non-Zero Digits and Multiply by Sum I using Kotlin an
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer  n .
+## Problem Statement
+You are given an integer `n`.
+
+Form a new integer `x` by concatenating all the **non-zero digits** of `n` in their original order. If there are no **non-zero** digits, `x = 0`.
+
+Let `sum` be the **sum of digits** in `x`.
+
+Return an integer representing the value of `x * sum`.
+
+## Constraints
+- `0 <= n <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `n = 10203004`
+- **Output:** `12340`
+- **Explanation:** The non-zero digits are 1, 2, 3, and 4. Thus, `x = 1234`. 
+ The sum of digits is `sum = 1 + 2 + 3 + 4 = 10`. 
+ Therefore, the answer is `x * sum = 1234 * 10 = 12340`.
+
+### Example 2
+- **Input:** `n = 1000`
+- **Output:** `1`
+- **Explanation:** The non-zero digit is 1, so `x = 1` and `sum = 1`. 
+ Therefore, the answer is `x * sum = 1 * 1 = 1`.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Mathematical Simulation / Modular Arithmetic**. By maintaining state efficiently in a **Primitive Data Types**, we eliminate redundant operations and process each element in optimal time.
+To solve **Concatenate Non-Zero Digits and Multiply by Sum I**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Concatenate Non-Zero Digits and Multiply by Sum I**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 10203004`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `12340`.
+4. **Verification:** The non-zero digits are 1, 2, 3, and 4. Thus, `x = 1234`. 
+ The sum of digits is `sum = 1 + 2 + 3 + 4 = 10`. 
+ Therefore, the answer is `x * sum = 1234 * 10 = 12340`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -51,6 +82,32 @@ Kotlin
 ## Source Code
 - [solution.kt](./solution.kt)
 
+
+```kotlin
+class Solution {
+    fun sumAndMultiply(n: Int): Long {
+        var num = n
+        var x = 0L
+        var sum = 0L
+        var place = 1L
+
+        while (num > 0) {
+            val digit = num % 10
+
+            if (digit != 0) {
+                x += digit * place
+                sum += digit
+                place *= 10
+            }
+
+            num /= 10
+        }
+
+        return x * sum
+    }
+}
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +122,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3756. Concatenate Non-Zero Digits and Multiply by Sum II](../../4001-4500/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/)
-- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
-- [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1096-maximum-sum-of-two-non-overlapping-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/)

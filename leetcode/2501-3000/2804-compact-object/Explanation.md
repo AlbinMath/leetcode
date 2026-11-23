@@ -16,8 +16,32 @@ Solve LeetCode Compact Object using TypeScript and Array / General. This solutio
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an object or array  obj , return a  compact object .
+## Problem Statement
+Given an object or array `obj`, return a **compact object**.
+
+A **compact object** is the same as the original object, except with keys containing **falsy** values removed. This operation applies to the object and any nested objects. Arrays are considered objects where the indices are keys. A value is considered **falsy** when `Boolean(value)` returns `false`.
+
+You may assume the `obj` is the output of `JSON.parse`. In other words, it is valid JSON.
+
+## Constraints
+- `obj` is a valid JSON object
+- `2 <= JSON.stringify(obj).length <= 10^6`
+
+## Examples
+### Example 1
+- **Input:** `obj = [null, 0, false, 1]`
+- **Output:** `[1]`
+- **Explanation:** All falsy values have been removed from the array.
+
+### Example 2
+- **Input:** `obj = {"a": null, "b": [false, 1]}`
+- **Output:** `{"b": [1]}`
+- **Explanation:** obj["a"] and obj["b"][0] had falsy values and were removed.
+
+### Example 3
+- **Input:** `obj = [null, 0, 5, [0], [false, 16]]`
+- **Output:** `[5, [], [16]]`
+- **Explanation:** obj[0], obj[1], obj[3][0], and obj[4][0] were falsy and removed.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +54,17 @@ Recursively traverses the object. For arrays, filters out falsy values and recur
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Compact Object**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `obj = [null, 0, false, 1]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1]`.
+4. **Verification:** All falsy values have been removed from the array.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,42 @@ TypeScript
 
 ## Source Code
 - [solution.ts](./solution.ts)
+
+
+```typescript
+type JSONValue =
+    | null
+    | boolean
+    | number
+    | string
+    | JSONValue[]
+    | { [key: string]: JSONValue };
+
+function compactObject(obj: JSONValue): JSONValue {
+    // Handle arrays
+    if (Array.isArray(obj)) {
+        return obj
+            .filter(Boolean)
+            .map((item) => compactObject(item));
+    }
+
+    // Handle objects
+    if (typeof obj === "object" && obj !== null) {
+        const result: { [key: string]: JSONValue } = {};
+
+        for (const key in obj) {
+            if (Boolean(obj[key])) {
+                result[key] = compactObject(obj[key]);
+            }
+        }
+
+        return result;
+    }
+
+    // Primitive truthy values
+    return obj;
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

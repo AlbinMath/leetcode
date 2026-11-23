@@ -1,7 +1,7 @@
 # LeetCode 2799: Count Complete Subarrays in an Array
 
 **LeetCode Problem #2799 — Count Complete Subarrays in an Array**
-Solve LeetCode Count Complete Subarrays in an Array using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Count Complete Subarrays in an Array using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,69 @@ Solve LeetCode Count Complete Subarrays in an Array using Python and Tree & Grap
 | LeetCode | #2799 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an array  nums  consisting of  positive  integers.
+## Problem Statement
+You are given an array `nums` consisting of **positive** integers.
+
+We call a subarray of an array **complete** if the following condition is satisfied:
+
+The number of **distinct** elements in the subarray is equal to the number of distinct elements in the whole array.
+
+Return *the number of **complete** subarrays*.
+
+A **subarray** is a contiguous non-empty part of an array.
+
+## Constraints
+- `1 <= nums.length <= 1000`
+- `1 <= nums[i] <= 2000`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,3,1,2,2]`
+- **Output:** `4`
+- **Explanation:** The complete subarrays are the following: [1,3,1,2], [1,3,1,2,2], [3,1,2] and [3,1,2,2].
+
+### Example 2
+- **Input:** `nums = [5,5,5,5]`
+- **Output:** `10`
+- **Explanation:** The array consists only of the integer 5, so any subarray is complete. The number of subarrays that we can choose is 10.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Complete Subarrays in an Array**, we observe the problem requirements and utilize the **Tree & Graph** technique. By maintaining a **Tree / Graph / Grid**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Tree / Graph / Grid** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Complete Subarrays in an Array**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,3,1,2,2]`.
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** The complete subarrays are the following: [1,3,1,2], [1,3,1,2,2], [3,1,2] and [3,1,2,2].
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Tree & Graph**
+**Hash Map**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Hash Table
+- Array
+- Complement Lookup
 
 ## Language
 Python
@@ -52,22 +80,48 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+from collections import defaultdict
+
+class Solution:
+    def countCompleteSubarrays(self, nums: List[int]) -> int:
+        D = len(set(nums))
+        cnt = defaultdict(int)
+        distinct = 0
+        l = 0
+        ans = 0
+        for x in nums:
+            if cnt[x] == 0:
+                distinct += 1
+            cnt[x] += 1
+            while distinct == D:
+                y = nums[l]
+                cnt[y] -= 1
+                if cnt[y] == 0:
+                    distinct -= 1
+                l += 1
+            ans += l
+        return ans
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
 - [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
-- [2685. Count the Number of Complete Components](../../2501-3000/2793-count-the-number-of-complete-components/)
-- [2953. Count Complete Substrings](../../3001-3500/3223-count-complete-substrings/)
+- [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
+- [1735. Count Ways to Make Array With Product](../../1501-2000/1836-count-ways-to-make-array-with-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)

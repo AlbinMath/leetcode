@@ -16,26 +16,59 @@ Solve LeetCode Longest Balanced Subarray I using Python and Array / General. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums .
+## Problem Statement
+You are given an integer array `nums`.
+
+A ** subarray ** is called **balanced** if the number of **distinct even** numbers in the subarray is equal to the number of **distinct odd** numbers.
+
+Return the length of the **longest** balanced subarray.
+
+## Constraints
+- `1 <= nums.length <= 1500`
+- `1 <= nums[i] <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `nums = [2,5,4,3]`
+- **Output:** `4`
+- **Explanation:** The longest balanced subarray is `[2, 5, 4, 3]`. 
+ It has 2 distinct even numbers `[2, 4]` and 2 distinct odd numbers `[5, 3]`. Thus, the answer is 4.
+
+### Example 2
+- **Input:** `nums = [3,2,2,5,4]`
+- **Output:** `5`
+- **Explanation:** The longest balanced subarray is `[3, 2, 2, 5, 4]`. 
+ It has 2 distinct even numbers `[2, 4]` and 2 distinct odd numbers `[3, 5]`. Thus, the answer is 5.
+
+### Example 3
+- **Input:** `nums = [1,2,3,2]`
+- **Output:** `3`
+- **Explanation:** The longest balanced subarray is `[2, 3, 2]`. 
+ It has 1 distinct even number `[2]` and 1 distinct odd number `[3]`. Thus, the answer is 3.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Longest Balanced Subarray I**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Longest Balanced Subarray I**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [2,5,4,3]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** The longest balanced subarray is `[2, 5, 4, 3]`. 
+ It has 2 distinct even numbers `[2, 4]` and 2 distinct odd numbers `[5, 3]`. Thus, the answer is 4.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +81,26 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def longestBalanced(self, nums):
+        n = len(nums)
+        ans = 0
+        for l in range(n):
+            evens = set()
+            odds = set()
+            for r in range(l, n):
+                v = nums[r]
+                if v % 2 == 0:
+                    evens.add(v)
+                else:
+                    odds.add(v)
+                if len(evens) == len(odds):
+                    ans = max(ans, r - l + 1)
+        return ans
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +116,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3721. Longest Balanced Subarray II](../../4001-4500/4047-longest-balanced-subarray-ii/)
-- [3713. Longest Balanced Substring I](../../4001-4500/4055-longest-balanced-substring-i/)
-- [3755. Find Maximum Balanced XOR Subarray Length](../../3501-4000/3946-find-maximum-balanced-xor-subarray-length/)
+- [978. Longest Turbulent Subarray](../../1001-1500/1020-longest-turbulent-subarray/)
+- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1501-2000/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-balanced-subarray-i/)

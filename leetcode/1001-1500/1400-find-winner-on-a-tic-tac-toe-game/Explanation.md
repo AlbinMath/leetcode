@@ -16,26 +16,65 @@ Solve LeetCode Find Winner on a Tic Tac Toe Game using Python and Array / Genera
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Tic-tac-toe  is played by two players  A  and  B  on a  3 x 3  grid. The rules of Tic-Tac-Toe are:
+## Problem Statement
+**Tic-tac-toe** is played by two players `A` and `B` on a `3 x 3` grid. The rules of Tic-Tac-Toe are:
+
+Players take turns placing characters into empty squares `' '`. 
+ The first player `A` always places `'X'` characters, while the second player `B` always places `'O'` characters. 
+ `'X'` and `'O'` characters are always placed into empty squares, never on filled ones. 
+ The game ends when there are **three** of the same (non-empty) character filling any row, column, or diagonal. 
+ The game also ends if all squares are non-empty. 
+ No more moves can be played if the game is over.
+
+Given a 2D integer array `moves` where `moves[i] = [row_i, col_i]` indicates that the `i^th` move will be played on `grid[row_i][col_i]`. return *the winner of the game if it exists* (`A` or `B`). In case the game ends in a draw return `"Draw"`. If there are still movements to play return `"Pending"`.
+
+You can assume that `moves` is valid (i.e., it follows the rules of **Tic-Tac-Toe**), the grid is initially empty, and `A` will play first.
+
+## Constraints
+- `1 <= moves.length <= 9`
+- `moves[i].length == 2`
+- `0 <= row_i, col_i <= 2`
+- There are no repeated elements on `moves`.
+- `moves` follow the rules of tic tac toe.
+
+## Examples
+### Example 1
+- **Input:** `moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]`
+- **Output:** `"A"`
+- **Explanation:** A wins, they always play first.
+
+### Example 2
+- **Input:** `moves = [[0,0],[1,1],[0,1],[0,2],[1,0],[2,0]]`
+- **Output:** `"B"`
+- **Explanation:** B wins.
+
+### Example 3
+- **Input:** `moves = [[0,0],[1,1],[2,0],[1,0],[1,2],[2,1],[0,1],[0,2],[2,2]]`
+- **Output:** `"Draw"`
+- **Explanation:** The game ends in a draw since there are no moves to make.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find Winner on a Tic Tac Toe Game**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find Winner on a Tic Tac Toe Game**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"A"`.
+4. **Verification:** A wins, they always play first.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +87,37 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def tictactoe(self, moves: List[List[int]]) -> str:
+        board = [[""] * 3 for _ in range(3)]
+
+        for i, (r, c) in enumerate(moves):
+            player = "A" if i % 2 == 0 else "B"
+            board[r][c] = "X" if player == "A" else "O"
+
+            mark = board[r][c]
+
+            # Check row and column
+            if all(board[r][j] == mark for j in range(3)):
+                return player
+
+            if all(board[j][c] == mark for j in range(3)):
+                return player
+
+            # Check diagonals
+            if r == c and all(board[j][j] == mark for j in range(3)):
+                return player
+
+            if r + c == 2 and all(board[j][2 - j] == mark for j in range(3)):
+                return player
+
+        return "Draw" if len(moves) == 9 else "Pending"
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

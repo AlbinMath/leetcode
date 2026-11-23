@@ -16,26 +16,59 @@ Solve LeetCode Maximum Xor Product using Python and Bit Manipulation. This solut
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given three integers  a ,  b , and  n , return  the  maximum value  of   (a XOR x) * (b XOR x)   where   0 <= x < 2 n  .
+## Problem Statement
+Given three integers `a`, `b`, and `n`, return *the **maximum value** of* `(a XOR x) * (b XOR x)` *where* `0 <= x < 2^n`.
+
+Since the answer may be too large, return it **modulo** `10^9 + 7`.
+
+**Note** that `XOR` is the bitwise XOR operation.
+
+## Constraints
+- `0 <= a, b < 2^50`
+- `0 <= n <= 50`
+
+## Examples
+### Example 1
+- **Input:** `a = 12, b = 5, n = 4`
+- **Output:** `98`
+- **Explanation:** For x = 2, (a XOR x) = 14 and (b XOR x) = 7. Hence, (a XOR x) * (b XOR x) = 98. 
+It can be shown that 98 is the maximum value of (a XOR x) * (b XOR x) for all 0 <= x < 2^n .
+
+### Example 2
+- **Input:** `a = 6, b = 7 , n = 5`
+- **Output:** `930`
+- **Explanation:** For x = 25, (a XOR x) = 31 and (b XOR x) = 30. Hence, (a XOR x) * (b XOR x) = 930.
+It can be shown that 930 is the maximum value of (a XOR x) * (b XOR x) for all 0 <= x < 2^n.
+
+### Example 3
+- **Input:** `a = 1, b = 6, n = 3`
+- **Output:** `12`
+- **Explanation:** For x = 5, (a XOR x) = 4 and (b XOR x) = 3. Hence, (a XOR x) * (b XOR x) = 12.
+It can be shown that 12 is the maximum value of (a XOR x) * (b XOR x) for all 0 <= x < 2^n.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Xor Product**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Xor Product**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `a = 12, b = 5, n = 4`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `98`.
+4. **Verification:** For x = 2, (a XOR x) = 14 and (b XOR x) = 7. Hence, (a XOR x) * (b XOR x) = 98. 
+It can be shown that 98 is the maximum value of (a XOR x) * (b XOR x) for all 0 <= x < 2^n .
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +82,26 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def maximumXorProduct(self, a, b, n):
+        MOD = 10**9 + 7
+        A = (a >> n) << n
+        B = (b >> n) << n
+        for i in range(n - 1, -1, -1):
+            ai = (a >> i) & 1
+            bi = (b >> i) & 1
+            if ai == bi:
+                A |= 1 << i
+                B |= 1 << i
+            elif A <= B:
+                A |= 1 << i
+            else:
+                B |= 1 << i
+        return (A * B) % MOD
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

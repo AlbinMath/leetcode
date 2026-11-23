@@ -16,8 +16,38 @@ Solve LeetCode Chunk Array using TypeScript and Array / General. This solution f
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array  arr  and a chunk size  size , return a  chunked  array.
+## Problem Statement
+Given an array `arr` and a chunk size `size`, return a **chunked** array.
+
+A **chunked** array contains the original elements in `arr`, but consists of subarrays each of length `size`. The length of the last subarray may be less than `size` if `arr.length` is not evenly divisible by `size`.
+
+Please solve it without using lodash's `_.chunk` function.
+
+## Constraints
+- `arr` is a string representing the array.
+- `2 <= arr.length <= 10^5`
+- `1 <= size <= arr.length + 1`
+
+## Examples
+### Example 1
+- **Input:** `arr = [1,2,3,4,5], size = 1`
+- **Output:** `[[1],[2],[3],[4],[5]]`
+- **Explanation:** The arr has been split into subarrays each with 1 element.
+
+### Example 2
+- **Input:** `arr = [1,9,6,3,2], size = 3`
+- **Output:** `[[1,9,6],[3,2]]`
+- **Explanation:** The arr has been split into subarrays with 3 elements. However, only two elements are left for the 2nd subarray.
+
+### Example 3
+- **Input:** `arr = [8,5,3,2,6], size = 6`
+- **Output:** `[[8,5,3,2,6]]`
+- **Explanation:** Size is greater than arr.length thus all elements are in the first subarray.
+
+### Example 4
+- **Input:** `arr = [], size = 1`
+- **Output:** `[]`
+- **Explanation:** There are no elements to be chunked so an empty array is returned.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +60,17 @@ Iterates through the array in steps of `size`, slicing `arr.slice(i, i + size)` 
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Chunk Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [1,2,3,4,5], size = 1`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[1],[2],[3],[4],[5]]`.
+4. **Verification:** The arr has been split into subarrays each with 1 element.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +83,19 @@ TypeScript
 
 ## Source Code
 - [solution.ts](./solution.ts)
+
+
+```typescript
+function chunk(arr: any[], size: number): any[][] {
+    const result: any[][] = [];
+
+    for (let i = 0; i < arr.length; i += size) {
+        result.push(arr.slice(i, i + size));
+    }
+
+    return result;
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

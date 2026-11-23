@@ -16,26 +16,55 @@ Solve LeetCode Number of Ways to Buy Pens and Pencils using Python and Array / G
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer  total  indicating the amount of money you have. You are also given two integers  cost1  and  cost2  indicating the price of a pen and pencil respectively. You can spend  part or all  of your money to buy multiple quantities (or none) of each kind of writing utensil.
+## Problem Statement
+You are given an integer `total` indicating the amount of money you have. You are also given two integers `cost1` and `cost2` indicating the price of a pen and pencil respectively. You can spend **part or all** of your money to buy multiple quantities (or none) of each kind of writing utensil.
+
+Return *the **number of distinct ways** you can buy some number of pens and pencils.*
+
+## Constraints
+- `1 <= total, cost1, cost2 <= 10^6`
+
+## Examples
+### Example 1
+- **Input:** `total = 20, cost1 = 10, cost2 = 5`
+- **Output:** `9`
+- **Explanation:** The price of a pen is 10 and the price of a pencil is 5.
+- If you buy 0 pens, you can buy 0, 1, 2, 3, or 4 pencils.
+- If you buy 1 pen, you can buy 0, 1, or 2 pencils.
+- If you buy 2 pens, you cannot buy any pencils.
+The total number of ways to buy pens and pencils is 5 + 3 + 1 = 9.
+
+### Example 2
+- **Input:** `total = 5, cost1 = 10, cost2 = 10`
+- **Output:** `1`
+- **Explanation:** The price of both pens and pencils are 10, which cost more than total, so you cannot buy any writing utensils. Therefore, there is only 1 way: buy 0 pens and 0 pencils.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Number of Ways to Buy Pens and Pencils**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Number of Ways to Buy Pens and Pencils**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `total = 20, cost1 = 10, cost2 = 5`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `9`.
+4. **Verification:** The price of a pen is 10 and the price of a pencil is 5.
+- If you buy 0 pens, you can buy 0, 1, 2, 3, or 4 pencils.
+- If you buy 1 pen, you can buy 0, 1, or 2 pencils.
+- If you buy 2 pens, you cannot buy any pencils.
+The total number of ways to buy pens and pencils is 5 + 3 + 1 = 9.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def waysToBuyPensPencils(self, total, cost1, cost2):
+        if cost1 < cost2:
+            cost1, cost2 = cost2, cost1
+            
+        ways = 0
+        for spent in range(0, total + 1, cost1):
+            ways += (total - spent) // cost2 + 1
+            
+        return ways
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

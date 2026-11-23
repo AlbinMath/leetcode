@@ -16,8 +16,30 @@ Solve LeetCode Maximum Product of Three Numbers using Elixir and Binary Search. 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums .
+## Problem Statement
+You are given an integer array `nums`.
+
+Find three numbers whose product is **maximum** and return the **maximum** product.
+
+## Constraints
+- `3 <= nums.length <= 10^4`
+- `-1000 <= nums[i] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,-3]`
+- **Output:** `-6`
+- **Explanation:** The only three numbers are 1, 2, and -3, so the maximum product is `1 * 2 * -3 = -6`.
+
+### Example 2
+- **Input:** `nums = [1,2,3,4]`
+- **Output:** `24`
+- **Explanation:** The largest product comes from the three greatest numbers: `2 * 3 * 4 = 24`.
+
+### Example 3
+- **Input:** `nums = [-1,-2,-3]`
+- **Output:** `-6`
+- **Explanation:** The only three numbers are -1, -2, and -3, so the maximum product is `(-1) * (-2) * (-3) = -6`.
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -38,12 +60,17 @@ Time complexity is $O(N \log N)$ for sorting and space complexity is $O(\log N)$
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Maximum Product of Three Numbers**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,-3]`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `-6`.
+4. **Verification:** The only three numbers are 1, 2, and -3, so the maximum product is `1 * 2 * -3 = -6`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -58,6 +85,30 @@ Elixir
 
 ## Source Code
 - [solution.ex](./solution.ex)
+
+
+```elixir
+defmodule Solution do
+
+  @spec maximum_product(nums :: [integer]) :: integer
+
+  def maximum_product(nums) do
+    sorted = Enum.sort(nums)
+
+    n = length(sorted)
+
+    a = Enum.at(sorted, n - 1)
+    b = Enum.at(sorted, n - 2)
+    c = Enum.at(sorted, n - 3)
+
+    x = Enum.at(sorted, 0)
+    y = Enum.at(sorted, 1)
+
+    max(a * b * c, a * x * y)
+  end
+
+end
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

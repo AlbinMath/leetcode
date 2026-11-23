@@ -16,26 +16,71 @@ Solve LeetCode Minimum Number of Operations to Sort a Binary Tree by Level using
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given the  root  of a binary tree with  unique values .
+## Problem Statement
+You are given the `root` of a binary tree with **unique values**.
+
+In one operation, you can choose any two nodes **at the same level** and swap their values.
+
+Return *the minimum number of operations needed to make the values at each level sorted in a **strictly increasing order***.
+
+The **level** of a node is the number of edges along the path between it and the root node*.*
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 10^5]`.
+- `1 <= Node.val <= 10^5`
+- All the values of the tree are **unique**.
+
+## Examples
+### Example 1
+- **Input:** `root = [1,4,3,7,6,8,5,null,null,null,null,9,null,10]`
+- **Output:** `3`
+- **Explanation:** - Swap 4 and 3. The 2^nd level becomes [3,4].
+- Swap 7 and 5. The 3^rd level becomes [5,6,8,7].
+- Swap 8 and 7. The 3^rd level becomes [5,6,7,8].
+We used 3 operations so return 3.
+It can be proven that 3 is the minimum number of operations needed.
+
+### Example 2
+- **Input:** `root = [1,3,2,7,6,5,4]`
+- **Output:** `3`
+- **Explanation:** - Swap 3 and 2. The 2^nd level becomes [2,3].
+- Swap 7 and 4. The 3^rd level becomes [4,6,5,7].
+- Swap 6 and 5. The 3^rd level becomes [4,5,6,7].
+We used 3 operations so return 3.
+It can be proven that 3 is the minimum number of operations needed.
+
+### Example 3
+- **Input:** `root = [1,2,3,4,5,6]`
+- **Output:** `0`
+- **Explanation:** Each level is already sorted in increasing order so return 0.
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Number of Operations to Sort a Binary Tree by Level**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Number of Operations to Sort a Binary Tree by Level**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [1,4,3,7,6,8,5,null,null,null,null,9,null,10]`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** - Swap 4 and 3. The 2^nd level becomes [3,4].
+- Swap 7 and 5. The 3^rd level becomes [5,6,8,7].
+- Swap 8 and 7. The 3^rd level becomes [5,6,7,8].
+We used 3 operations so return 3.
+It can be proven that 3 is the minimum number of operations needed.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +97,46 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from collections import deque
+from typing import Optional
+
+class Solution:
+    def minimumOperations(self, root: Optional[TreeNode]) -> int:
+        def min_swaps(vals):
+            k = len(vals)
+            order = sorted(range(k), key=lambda i: vals[i])
+            # order[j] = index of the element that belongs at position j
+            seen = [False] * k
+            swaps = 0
+            for i in range(k):
+                if seen[i] or order[i] == i:
+                    continue
+                length = 0
+                j = i
+                while not seen[j]:
+                    seen[j] = True
+                    j = order[j]
+                    length += 1
+                swaps += length - 1
+            return swaps
+
+        ans = 0
+        q = deque([root])
+        while q:
+            vals = []
+            for _ in range(len(q)):
+                node = q.popleft()
+                vals.append(node.val)
+                if node.left:
+                    q.append(node.left)
+                if node.right:
+                    q.append(node.right)
+            ans += min_swaps(vals)
+        return ans
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,9 +150,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [102. Binary Tree Level Order Traversal](../../0001-0500/0102-binary-tree-level-order-traversal/)
-- [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
-- [107. Binary Tree Level Order Traversal II](../../0001-0500/0107-binary-tree-level-order-traversal-ii/)
+- [111. Minimum Depth of Binary Tree](../../0001-0500/0111-minimum-depth-of-binary-tree/)
+- [671. Second Minimum Node In a Binary Tree](../../0501-1000/0671-second-minimum-node-in-a-binary-tree/)
+- [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](../../1001-1500/1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)

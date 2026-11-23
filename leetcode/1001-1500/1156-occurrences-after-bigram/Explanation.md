@@ -16,26 +16,49 @@ Solve LeetCode Occurrences After Bigram using Python and Array / General. This s
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given two strings  first  and  second , consider occurrences in some text of the form  "first second third" , where  second  comes immediately after  first , and  third  comes immediately after  second .
+## Problem Statement
+Given two strings `first` and `second`, consider occurrences in some text of the form `"first second third"`, where `second` comes immediately after `first`, and `third` comes immediately after `second`.
+
+Return *an array of all the words* `third` *for each occurrence of* `"first second third"`.
+
+## Constraints
+- `1 <= text.length <= 1000`
+- `text` consists of lowercase English letters and spaces.
+- All the words in `text` are separated by **a single space**.
+- `1 <= first.length, second.length <= 10`
+- `first` and `second` consist of lowercase English letters.
+- `text` will not have any leading or trailing spaces.
+
+## Examples
+### Example 1
+- **Input:** `text = "alice is a good girl she is a good student", first = "a", second = "good"`
+- **Output:** `["girl","student"]`
+
+### Example 2
+- **Input:** `text = "we will we will rock you", first = "we", second = "will"`
+- **Output:** `["we","rock"]`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Occurrences After Bigram**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Occurrences After Bigram**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `text = "alice is a good girl she is a good student", first = "a", second = "good"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["girl","student"]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +71,24 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def findOcurrences(
+        self, text: str, first: str, second: str
+    ) -> List[str]:
+        words = text.split()
+        result = []
+
+        for i in range(len(words) - 2):
+            if words[i] == first and words[i + 1] == second:
+                result.append(words[i + 2])
+
+        return result
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +104,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3501-4000/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
-- [1207. Unique Number of Occurrences](../../1001-1500/1319-unique-number-of-occurrences/)
-- [1297. Maximum Number of Occurrences of a Substring](../../1001-1500/1423-maximum-number-of-occurrences-of-a-substring/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [861. Score After Flipping Matrix](../../0501-1000/0891-score-after-flipping-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/occurrences-after-bigram/)

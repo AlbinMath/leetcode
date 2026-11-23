@@ -16,26 +16,58 @@ Solve LeetCode Counting Bits using C++, JavaScript and Binary Search. This solut
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  n , return  an array   ans   of length   n + 1   such that for each   i    ( 0 <= i <= n ) ,   ans[i]   is the  number of    1   &#39;s  in the binary representation of   i .
+## Problem Statement
+Given an integer `n`, return *an array *`ans`* of length *`n + 1`* such that for each *`i`* *(`0 <= i <= n`)*, *`ans[i]`* is the **number of ***`1`***'s** in the binary representation of *`i`.
+
+Do not solve it with built-in functions (i.e., like `__builtin_popcount` in C++).
+
+## Constraints
+- `0 <= n <= 10^5`
+- It is very easy to come up with a solution with a runtime of `O(n log n)`. Can you do it in linear time `O(n)` and possibly in a single pass?
+
+## Examples
+### Example 1
+- **Input:** `n = 2`
+- **Output:** `[0,1,1]`
+- **Explanation:** 0 --> 0
+1 --> 1
+2 --> 10
+
+### Example 2
+- **Input:** `n = 5`
+- **Output:** `[0,1,1,2,1,2]`
+- **Explanation:** 0 --> 0
+1 --> 1
+2 --> 10
+3 --> 11
+4 --> 100
+5 --> 101
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Modified Binary Search**. By maintaining state efficiently in a **Sorted Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Counting Bits**, we observe the problem requirements and utilize the **Binary Search** technique. Exploiting monotonic ordering or sorted properties in the input space, we maintain `left` and `right` boundary pointers. In each iteration, we evaluate the midpoint to discard half of the search range, reducing the time complexity to $O(\log n)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize boundary pointers `left` and `right`.
+2. Compute `mid = left + (right - left) // 2` to prevent overflow.
+3. Adjust `left` or `right` depending on whether target satisfies the partition condition.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Counting Bits**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 2`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[0,1,1]`.
+4. **Verification:** 0 --> 0
+1 --> 1
+2 --> 10
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -51,6 +83,36 @@ C++, JavaScript
 ## Source Code
 - [solution.cpp](./solution.cpp)
 - [solution.js](./solution.js)
+
+
+### C++
+```cpp
+class Solution {
+public:
+    vector<int> countBits(int n) {
+        vector<int> ans(n + 1, 0);
+
+        for (int i = 1; i <= n; i++) {
+            ans[i] = ans[i >> 1] + (i & 1);
+        }
+
+        return ans;
+    }
+};
+```
+
+### JavaScript
+```javascript
+var countBits = function(n) {
+    const ans = new Array(n + 1).fill(0);
+
+    for (let i = 1; i <= n; i++) {
+        ans[i] = ans[i >> 1] + (i & 1);
+    }
+
+    return ans;
+};
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

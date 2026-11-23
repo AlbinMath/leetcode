@@ -16,26 +16,59 @@ Solve LeetCode Longest Binary Subsequence Less Than or Equal to K using Python a
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a binary string  s  and a positive integer  k .
+## Problem Statement
+You are given a binary string `s` and a positive integer `k`.
+
+Return *the length of the **longest** subsequence of *`s`* that makes up a **binary** number less than or equal to* `k`.
+
+The subsequence can contain **leading zeroes**. 
+ The empty string is considered to be equal to `0`. 
+ A **subsequence** is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
+
+## Constraints
+- `1 <= s.length <= 1000`
+- `s[i]` is either `'0'` or `'1'`.
+- `1 <= k <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `s = "1001010", k = 5`
+- **Output:** `5`
+- **Explanation:** The longest subsequence of s that makes up a binary number less than or equal to 5 is "00010", as this number is equal to 2 in decimal.
+Note that "00100" and "00101" are also possible, which are equal to 4 and 5 in decimal, respectively.
+The length of this subsequence is 5, so 5 is returned.
+
+### Example 2
+- **Input:** `s = "00101001", k = 1`
+- **Output:** `6`
+- **Explanation:** "000001" is the longest subsequence of s that makes up a binary number less than or equal to 1, as this number is equal to 1 in decimal.
+The length of this subsequence is 6, so 6 is returned.
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Longest Binary Subsequence Less Than or Equal to K**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We decompose the problem into overlapping subproblems using a **DP Table / Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Longest Binary Subsequence Less Than or Equal to K**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "1001010", k = 5`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** The longest subsequence of s that makes up a binary number less than or equal to 5 is "00010", as this number is equal to 2 in decimal.
+Note that "00100" and "00101" are also possible, which are equal to 4 and 5 in decimal, respectively.
+The length of this subsequence is 5, so 5 is returned.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -50,6 +83,24 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def longestSubsequence(self, s: str, k: int) -> int:
+        count = 0
+        value = 0
+        bit = 1
+        for c in reversed(s):
+            if c == '0':
+                count += 1
+            elif bit <= k and value + bit <= k:
+                value += bit
+                count += 1
+            if bit <= k:
+                bit <<= 1
+        return count
+```
 
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

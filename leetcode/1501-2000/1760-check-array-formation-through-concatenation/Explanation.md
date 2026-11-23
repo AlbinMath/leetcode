@@ -1,7 +1,7 @@
 # LeetCode 1640: Check Array Formation Through Concatenation
 
 **LeetCode Problem #1640 — Check Array Formation Through Concatenation**
-Solve LeetCode Check Array Formation Through Concatenation using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Check Array Formation Through Concatenation using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,72 @@ Solve LeetCode Check Array Formation Through Concatenation using C++ and Array /
 | LeetCode | #1640 |
 | Difficulty | Easy |
 | Language | C++ |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-You are given an array of  distinct  integers  arr  and an array of integer arrays  pieces , where the integers in  pieces  are  distinct . Your goal is to form  arr  by concatenating the arrays in  pieces   in any order . However, you are  not  allowed to reorder the integers in each array  pieces[i] .
+## Problem Statement
+You are given an array of **distinct** integers `arr` and an array of integer arrays `pieces`, where the integers in `pieces` are **distinct**. Your goal is to form `arr` by concatenating the arrays in `pieces` **in any order**. However, you are **not** allowed to reorder the integers in each array `pieces[i]`.
+
+Return `true` *if it is possible **to form the array *`arr`* from *`pieces`. Otherwise, return `false`.
+
+## Constraints
+- `1 <= pieces.length <= arr.length <= 100`
+- `sum(pieces[i].length) == arr.length`
+- `1 <= pieces[i].length <= arr.length`
+- `1 <= arr[i], pieces[i][j] <= 100`
+- The integers in `arr` are **distinct**.
+- The integers in `pieces` are **distinct** (i.e., If we flatten pieces in a 1D array, all the integers in this array are distinct).
+
+## Examples
+### Example 1
+- **Input:** `arr = [15,88], pieces = [[88],[15]]`
+- **Output:** `true`
+- **Explanation:** Concatenate [15] then [88]
+
+### Example 2
+- **Input:** `arr = [49,18,16], pieces = [[16,18,49]]`
+- **Output:** `false`
+- **Explanation:** Even though the numbers match, we cannot reorder pieces[0].
+
+### Example 3
+- **Input:** `arr = [91,4,64,78], pieces = [[78],[4,64],[91]]`
+- **Output:** `true`
+- **Explanation:** Concatenate [91] then [4,64] then [78]
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Check Array Formation Through Concatenation**, we observe the problem requirements and utilize the **Array / General** technique. By maintaining a **Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Array** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Check Array Formation Through Concatenation**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [15,88], pieces = [[88],[15]]`.
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Concatenate [15] then [88]
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Array / General**
+**Hash Map**
 
 ## Topics
+- Hash Table
 - Array
+- Complement Lookup
 
 ## Language
 C++
@@ -49,22 +83,58 @@ C++
 ## Source Code
 - [solution.cpp](./solution.cpp)
 
+
+```cpp
+class Solution {
+public:
+    bool canFormArray(vector<int>& arr, vector<vector<int>>& pieces) {
+        unordered_map<int, int> mp;
+
+        // Map each piece's first element to its index
+        for (int i = 0; i < pieces.size(); i++) {
+            mp[pieces[i][0]] = i;
+        }
+
+        int i = 0;
+
+        while (i < arr.size()) {
+            // No piece starts with this element
+            if (mp.find(arr[i]) == mp.end()) {
+                return false;
+            }
+
+            vector<int>& piece = pieces[mp[arr[i]]];
+
+            // Match all elements of the piece
+            for (int num : piece) {
+                if (i >= arr.size() || arr[i] != num) {
+                    return false;
+                }
+                i++;
+            }
+        }
+
+        return true;
+    }
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
 - [1250. Check If It Is a Good Array](../../1001-1500/1372-check-if-it-is-a-good-array/)
-- [1649. Create Sorted Array through Instructions](../../1501-2000/1772-create-sorted-array-through-instructions/)
 - [1752. Check if Array Is Sorted and Rotated](../../1501-2000/1878-check-if-array-is-sorted-and-rotated/)
+- [1961. Check If String Is a Prefix of Array](../../2001-2500/2093-check-if-string-is-a-prefix-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-array-formation-through-concatenation/)

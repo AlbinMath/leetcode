@@ -16,26 +16,63 @@ Solve LeetCode Vowels Game in a String using Python and Array / General. This so
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
+## Problem Statement
 Alice and Bob are playing a game on a string.
+
+You are given a string `s`, Alice and Bob will take turns playing the following game where Alice starts **first**:
+
+On Alice's turn, she has to remove any **non-empty** substring from `s` that contains an **odd** number of vowels. 
+ On Bob's turn, he has to remove any **non-empty** substring from `s` that contains an **even** number of vowels.
+
+The first player who cannot make a move on their turn loses the game. We assume that both Alice and Bob play **optimally**.
+
+Return `true` if Alice wins the game, and `false` otherwise.
+
+The English vowels are: `a`, `e`, `i`, `o`, and `u`.
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s` consists only of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "leetcoder"`
+- **Output:** `true`
+- **Explanation:** Alice can win the game as follows: 
+
+ 
+ Alice plays first, she can delete the underlined substring in s = "
+
+### Example 2
+- **Input:** `s = "bbcd"`
+- **Output:** `false`
+- **Explanation:** There is no valid play for Alice in her first turn, so Alice loses the game.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Vowels Game in a String**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Vowels Game in a String**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "leetcoder"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Alice can win the game as follows: 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ 
+ Alice plays first, she can delete the underlined substring in s = "
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +85,13 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def doesAliceWin(self, s: str) -> bool:
+        return any(c in "aeiou" for c in s)
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +106,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3304. Find the K-th Character in String Game I](../../3501-4000/3600-find-the-k-th-character-in-string-game-i/)
-- [3307. Find the K-th Character in String Game II](../../3501-4000/3601-find-the-k-th-character-in-string-game-ii/)
 - [345. Reverse Vowels of a String](../../0001-0500/0345-reverse-vowels-of-a-string/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [3304. Find the K-th Character in String Game I](../../3501-4000/3600-find-the-k-th-character-in-string-game-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/vowels-game-in-a-string/)

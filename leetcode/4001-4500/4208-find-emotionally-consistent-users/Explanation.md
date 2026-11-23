@@ -16,26 +16,55 @@ Solve LeetCode Find Emotionally Consistent Users using SQL and Database / SQL. T
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `reactions`
+
 +--------------+---------+
+| Column Name | Type |
++--------------+---------+
+| user_id | int |
+| content_id | int |
+| reaction | varchar |
++--------------+---------+
+(user_id, content_id) is the primary key (unique value) for this table.
+Each row represents a reaction given by a user to a piece of content.
+
+Write a solution to identify **emotionally consistent users** based on the following requirements:
+
+For each user, count the total number of reactions they have given. 
+ Only include users who have reacted to **at least **`5`** different content items**. 
+ A user is considered **emotionally consistent** if **at least **`60%` of their reactions are of the **same type**.
+
+Return *the result table ordered by* `reaction_ratio` *in **descending** order and then by* `user_id` *in **ascending** order*.
+
+**Note:**
+
+`reaction_ratio` should be rounded to `2` decimal places
+
+The result format is in the following example.
+
+## Examples
+Consider the standard input for **Find Emotionally Consistent Users**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
+We solve **Find Emotionally Consistent Users** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We join the tables on matching foreign and primary keys. We group records using `GROUP BY` and compute metrics with aggregate functions. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints. We order the final result set using `ORDER BY`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Join relevant tables on matching key columns.
+2. Group records and calculate aggregated summary metrics.
+3. Filter records according to problem criteria.
+4. Sort the projected result.
+5. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Find Emotionally Consistent Users**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+Applying **SQL Query / Relational Join & Window Function** step by step to the input yields the expected result.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +79,53 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+WITH ReactionCounts AS (
+    SELECT
+        user_id,
+        reaction,
+        COUNT(*) AS reaction_count
+    FROM reactions
+    GROUP BY user_id, reaction
+),
+UserStats AS (
+    SELECT
+        user_id,
+        SUM(reaction_count) AS total_reactions,
+        MAX(reaction_count) AS max_reaction_count
+    FROM ReactionCounts
+    GROUP BY user_id
+),
+DominantReaction AS (
+    SELECT
+        rc.user_id,
+        rc.reaction,
+        rc.reaction_count,
+        ROW_NUMBER() OVER (
+            PARTITION BY rc.user_id
+            ORDER BY rc.reaction_count DESC, rc.reaction ASC
+        ) AS rn
+    FROM ReactionCounts rc
+)
+SELECT
+    d.user_id,
+    d.reaction AS dominant_reaction,
+    ROUND(
+        d.reaction_count / u.total_reactions,
+        2
+    ) AS reaction_ratio
+FROM DominantReaction d
+JOIN UserStats u
+    ON d.user_id = u.user_id
+WHERE d.rn = 1
+  AND u.total_reactions >= 5
+  AND d.reaction_count / u.total_reactions >= 0.60
+ORDER BY
+    reaction_ratio DESC,
+    d.user_id ASC;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

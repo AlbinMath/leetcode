@@ -1,7 +1,7 @@
 # LeetCode 1046: Last Stone Weight
 
 **LeetCode Problem #1046 — Last Stone Weight**
-Solve LeetCode Last Stone Weight using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Last Stone Weight using JavaScript, Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,73 @@ Solve LeetCode Last Stone Weight using JavaScript, Python and Tree & Graph. This
 | LeetCode | #1046 |
 | Difficulty | Easy |
 | Language | JavaScript, Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an array of integers  stones  where  stones[i]  is the weight of the  i th   stone.
+## Problem Statement
+You are given an array of integers `stones` where `stones[i]` is the weight of the `i^th` stone.
+
+We are playing a game with the stones. On each turn, we choose the **heaviest two stones** and smash them together. Suppose the heaviest two stones have weights `x` and `y` with `x <= y`. The result of this smash is:
+
+If `x == y`, both stones are destroyed, and 
+ If `x != y`, the stone of weight `x` is destroyed, and the stone of weight `y` has new weight `y - x`.
+
+At the end of the game, there is **at most one** stone left.
+
+Return *the weight of the last remaining stone*. If there are no stones left, return `0`.
+
+## Constraints
+- `1 <= stones.length <= 30`
+- `1 <= stones[i] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `stones = [2,7,4,1,8,1]`
+- **Output:** `1`
+- **Explanation:** We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,
+we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,
+we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
+we combine 1 and 1 to get 0 so the array converts to [1] then that's the value of the last stone.
+
+### Example 2
+- **Input:** `stones = [1]`
+- **Output:** `1`
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Last Stone Weight**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Last Stone Weight**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `stones = [2,7,4,1,8,1]`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,
+we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,
+we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
+we combine 1 and 1 to get 0 so the array converts to [1] then that's the value of the last stone.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 JavaScript, Python
@@ -53,8 +85,47 @@ JavaScript, Python
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
+
+### JavaScript
+```javascript
+var lastStoneWeight = function(stones) {
+    while (stones.length > 1) {
+        stones.sort((a, b) => b - a);
+
+        let y = stones.shift(); // Heaviest stone
+        let x = stones.shift(); // Second heaviest stone
+
+        if (y !== x) {
+            stones.push(y - x);
+        }
+    }
+
+    return stones.length === 0 ? 0 : stones[0];
+};
+```
+
+### Python
+```python
+import heapq
+from typing import List
+
+class Solution:
+    def lastStoneWeight(self, stones: List[int]) -> int:
+        stones = [-s for s in stones]
+        heapq.heapify(stones)
+
+        while len(stones) > 1:
+            y = -heapq.heappop(stones)
+            x = -heapq.heappop(stones)
+
+            if y != x:
+                heapq.heappush(stones, -(y - x))
+
+        return -stones[0] if stones else 0
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -66,9 +137,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [1163. Last Substring in Lexicographical Order](../../1001-1500/1133-last-substring-in-lexicographical-order/)
+- [877. Stone Game](../../0501-1000/0909-stone-game/)
+- [1140. Stone Game II](../../1001-1500/1240-stone-game-ii/)
+- [1406. Stone Game III](../../1501-2000/1522-stone-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-stone-weight/)

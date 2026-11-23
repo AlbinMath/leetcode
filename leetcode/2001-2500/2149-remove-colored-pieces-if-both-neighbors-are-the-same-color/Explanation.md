@@ -16,26 +16,83 @@ Solve LeetCode Remove Colored Pieces if Both Neighbors are the Same Color using 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-There are  n  pieces arranged in a line, and each piece is colored either by  &#39;A&#39;  or by  &#39;B&#39; . You are given a string  colors  of length  n  where  colors[i]  is the color of the  i th   piece.
+## Problem Statement
+There are `n` pieces arranged in a line, and each piece is colored either by `'A'` or by `'B'`. You are given a string `colors` of length `n` where `colors[i]` is the color of the `i^th` piece.
+
+Alice and Bob are playing a game where they take **alternating turns** removing pieces from the line. In this game, Alice moves** first**.
+
+Alice is only allowed to remove a piece colored `'A'` if **both its neighbors** are also colored `'A'`. She is **not allowed** to remove pieces that are colored `'B'`. 
+ Bob is only allowed to remove a piece colored `'B'` if **both its neighbors** are also colored `'B'`. He is **not allowed** to remove pieces that are colored `'A'`. 
+ Alice and Bob **cannot** remove pieces from the edge of the line. 
+ If a player cannot make a move on their turn, that player **loses** and the other player **wins**.
+
+Assuming Alice and Bob play optimally, return `true`* if Alice wins, or return *`false`* if Bob wins*.
+
+## Constraints
+- `1 <= colors.length <= 10^5`
+- `colors` consists of only the letters `'A'` and `'B'`
+
+## Examples
+### Example 1
+- **Input:** `colors = "AAABABB"`
+- **Output:** `true`
+- **Explanation:** A A ABABB -> AABABB
+Alice moves first.
+She removes the second 'A' from the left since that is the only 'A' whose neighbors are both 'A'.
+
+Now it's Bob's turn.
+Bob cannot make a move on his turn since there are no 'B's whose neighbors are both 'B'.
+Thus, Alice wins, so return true.
+
+### Example 2
+- **Input:** `colors = "AA"`
+- **Output:** `false`
+- **Explanation:** Alice has her turn first.
+There are only two 'A's and both are on the edge of the line, so she cannot move on her turn.
+Thus, Bob wins, so return false.
+
+### Example 3
+- **Input:** `colors = "ABBBBBBBAAA"`
+- **Output:** `false`
+- **Explanation:** ABBBBBBBA A A -> ABBBBBBBAA
+Alice moves first.
+Her only option is to remove the second to last 'A' from the right.
+
+ABBBB B BBAA -> ABBBBBBAA
+Next is Bob's turn.
+He has many options for which 'B' piece to remove. He can pick any.
+
+On Alice's second turn, she has no more pieces that she can remove.
+Thus, Bob wins, so return false.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Remove Colored Pieces if Both Neighbors are the Same Color**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Remove Colored Pieces if Both Neighbors are the Same Color**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `colors = "AAABABB"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** A A ABABB -> AABABB
+Alice moves first.
+She removes the second 'A' from the left since that is the only 'A' whose neighbors are both 'A'.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+Now it's Bob's turn.
+Bob cannot make a move on his turn since there are no 'B's whose neighbors are both 'B'.
+Thus, Alice wins, so return true.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +105,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def winnerOfGame(self, colors):
+        a = b = 0
+        for i in range(1, len(colors) - 1):
+            if colors[i-1] == colors[i] == colors[i+1]:
+                if colors[i] == 'A':
+                    a += 1
+                else:
+                    b += 1
+        return a > b
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +133,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3127. Make a Square with the Same Color](../../3001-3500/3398-make-a-square-with-the-same-color/)
+- [4103. Remove Elements by Type and Color](../../4001-4500/4339-remove-elements-by-type-and-color/)
 - [1437. Check If All 1's Are at Least Length K Places Away](../../1501-2000/1548-check-if-all-1s-are-at-least-length-k-places-away/)
-- [1657. Determine if Two Strings Are Close](../../1501-2000/1777-determine-if-two-strings-are-close/)
-- [1662. Check If Two String Arrays are Equivalent](../../1501-2000/1781-check-if-two-string-arrays-are-equivalent/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)

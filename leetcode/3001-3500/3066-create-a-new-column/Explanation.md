@@ -16,26 +16,88 @@ Solve LeetCode Create a New Column using Python and Two Pointers. This solution 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
+## Problem Statement
+DataFrame `employees`
++-------------+--------+
+| Column Name | Type. |
++-------------+--------+
+| name | object |
+| salary | int. |
++-------------+--------+
+
 A company plans to provide its employees with a bonus.
+
+Write a solution to create a new column name `bonus` that contains the **doubled values** of the `salary` column.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `DataFrame employees
++---------+--------+
+| name | salary |
++---------+--------+
+| Piper | 4548 |
+| Grace | 28150 |
+| Georgia | 1103 |
+| Willow | 6593 |
+| Finn | 74576 |
+| Thomas | 24433 |
++---------+--------+`
+- **Output:** `+---------+--------+--------+
+| name | salary | bonus |
++---------+--------+--------+
+| Piper | 4548 | 9096 |
+| Grace | 28150 | 56300 |
+| Georgia | 1103 | 2206 |
+| Willow | 6593 | 13186 |
+| Finn | 74576 | 149152 |
+| Thomas | 24433 | 48866 |
++---------+--------+--------+`
+- **Explanation:** A new column bonus is created by doubling the value in the column salary.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Create a New Column**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Create a New Column**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `DataFrame employees
++---------+--------+
+| name | salary |
++---------+--------+
+| Piper | 4548 |
+| Grace | 28150 |
+| Georgia | 1103 |
+| Willow | 6593 |
+| Finn | 74576 |
+| Thomas | 24433 |
++---------+--------+`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+---------+--------+--------+
+| name | salary | bonus |
++---------+--------+--------+
+| Piper | 4548 | 9096 |
+| Grace | 28150 | 56300 |
+| Georgia | 1103 | 2206 |
+| Willow | 6593 | 13186 |
+| Finn | 74576 | 149152 |
+| Thomas | 24433 | 48866 |
++---------+--------+--------+`.
+4. **Verification:** A new column bonus is created by doubling the value in the column salary.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +112,15 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import pandas as pd
+
+def createBonusColumn(employees: pd.DataFrame) -> pd.DataFrame:
+    employees["bonus"] = employees["salary"] * 2
+    return employees
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

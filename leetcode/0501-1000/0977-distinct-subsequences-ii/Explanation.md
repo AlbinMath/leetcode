@@ -16,8 +16,30 @@ Solve LeetCode Distinct Subsequences II using JavaScript and Dynamic Programming
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a string s, return  the number of  distinct non-empty subsequences  of   s . Since the answer may be very large, return it  modulo   10 9  + 7 .
+## Problem Statement
+Given a string s, return *the number of **distinct non-empty subsequences** of* `s`. Since the answer may be very large, return it **modulo** `10^9 + 7`.
+
+A **subsequence** of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., `"ace"` is a subsequence of `" a b c d e "` while `"aec"` is not.
+
+## Constraints
+- `1 <= s.length <= 2000`
+- `s` consists of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "abc"`
+- **Output:** `7`
+- **Explanation:** The 7 distinct subsequences are "a", "b", "c", "ab", "ac", "bc", and "abc".
+
+### Example 2
+- **Input:** `s = "aba"`
+- **Output:** `6`
+- **Explanation:** The 6 distinct subsequences are "a", "b", "ab", "aa", "ba", and "aba".
+
+### Example 3
+- **Input:** `s = "aaa"`
+- **Output:** `3`
+- **Explanation:** The 3 distinct subsequences are "a", "aa" and "aaa".
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
@@ -41,12 +63,17 @@ Time complexity is $O(N)$ and space complexity is $O(1)$ (the `last` array has f
 2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Distinct Subsequences II**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "abc"`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `7`.
+4. **Verification:** The 7 distinct subsequences are "a", "b", "c", "ab", "ac", "bc", and "abc".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -62,6 +89,28 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var distinctSubseqII = function(s) {
+    const MOD = 1000000007;
+    let dp = 1;
+    const last = new Array(26).fill(0);
+
+    for (let i = 0; i < s.length; i++) {
+        const c = s.charCodeAt(i) - 97;
+        let newDp = (2 * dp) % MOD;
+        newDp = (newDp - last[c] + MOD) % MOD;
+        last[c] = dp;
+        dp = newDp;
+    }
+    return (dp - 1 + MOD) % MOD;
+};
+```
+
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -76,8 +125,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [115. Distinct Subsequences](../../0001-0500/0115-distinct-subsequences/)
-- [1081. Smallest Subsequence of Distinct Characters](../../1001-1500/1159-smallest-subsequence-of-distinct-characters/)
-- [1316. Distinct Echo Substrings](../../1001-1500/1244-distinct-echo-substrings/)
+- [491. Non-decreasing Subsequences](../../0001-0500/0491-non-decreasing-subsequences/)
+- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-subsequences-ii/)

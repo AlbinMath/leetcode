@@ -16,26 +16,50 @@ Solve LeetCode Maximum Sum of 3 Non-Overlapping Subarrays using Python and Array
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer array  nums  and an integer  k , find three non-overlapping subarrays of length  k  with maximum sum and return them.
+## Problem Statement
+Given an integer array `nums` and an integer `k`, find three non-overlapping subarrays of length `k` with maximum sum and return them.
+
+Return the result as a list of indices representing the starting position of each interval (**0-indexed**). If there are multiple answers, return the lexicographically smallest one.
+
+## Constraints
+- `1 <= nums.length <= 2 * 10^4`
+- `1 <= nums[i] < 2^16`
+- `1 <= k <= floor(nums.length / 3)`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,1,2,6,7,5,1], k = 2`
+- **Output:** `[0,3,5]`
+- **Explanation:** Subarrays [1, 2], [2, 6], [7, 5] correspond to the starting indices [0, 3, 5].
+We could have also taken [2, 1], but an answer of [1, 3, 5] would be lexicographically larger.
+
+### Example 2
+- **Input:** `nums = [1,2,1,2,1,2,1,2,1], k = 2`
+- **Output:** `[0,2,4]`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Sum of 3 Non-Overlapping Subarrays**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Sum of 3 Non-Overlapping Subarrays**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,1,2,6,7,5,1], k = 2`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[0,3,5]`.
+4. **Verification:** Subarrays [1, 2], [2, 6], [7, 5] correspond to the starting indices [0, 3, 5].
+We could have also taken [2, 1], but an answer of [1, 3, 5] would be lexicographically larger.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +72,49 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:
+        n = len(nums)
+        m = n - k + 1
+        
+        win = [0] * m
+        curr_sum = sum(nums[:k])
+        win[0] = curr_sum
+        for i in range(k, n):
+            curr_sum += nums[i] - nums[i - k]
+            win[i - k + 1] = curr_sum
+            
+        left = [0] * m
+        best_left = 0
+        for i in range(m):
+            if win[i] > win[best_left]:
+                best_left = i
+            left[i] = best_left
+            
+        right = [0] * m
+        best_right = m - 1
+        for i in range(m - 1, -1, -1):
+            if win[i] >= win[best_right]:
+                best_right = i
+            right[i] = best_right
+            
+        ans = [0, k, 2 * k]
+        max_total = -1
+        for j in range(k, m - k):
+            i = left[j - k]
+            l = right[j + k]
+            total = win[i] + win[j] + win[l]
+            if total > max_total:
+                max_total = total
+                ans = [i, j, l]
+                
+        return ans
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -1,7 +1,7 @@
 # LeetCode 2549: Count Distinct Numbers on Board
 
 **LeetCode Problem #2549 — Count Distinct Numbers on Board**
-Solve LeetCode Count Distinct Numbers on Board using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Count Distinct Numbers on Board using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,75 @@ Solve LeetCode Count Distinct Numbers on Board using JavaScript and Array / Gene
 | LeetCode | #2549 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a positive integer  n , that is initially placed on a board. Every day, for  10 9   days, you perform the following procedure:
+## Problem Statement
+You are given a positive integer `n`, that is initially placed on a board. Every day, for `10^9` days, you perform the following procedure:
+
+For each number `x` present on the board, find all numbers `1 <= i <= n` such that `x % i == 1`. 
+ Then, place those numbers on the board.
+
+Return* the number of **distinct** integers present on the board after* `10^9` *days have elapsed*.
+
+**Note:**
+
+Once a number is placed on the board, it will remain on it until the end. 
+ `%` stands for the modulo operation. For example, `14 % 3` is `2`.
+
+## Constraints
+- `1 <= n <= 100`
+
+## Examples
+### Example 1
+- **Input:** `n = 5`
+- **Output:** `4`
+- **Explanation:** Initially, 5 is present on the board. 
+The next day, 2 and 4 will be added since 5 % 2 == 1 and 5 % 4 == 1. 
+After that day, 3 will be added to the board because 4 % 3 == 1. 
+At the end of a billion days, the distinct numbers on the board will be 2, 3, 4, and 5.
+
+### Example 2
+- **Input:** `n = 3`
+- **Output:** `2`
+- **Explanation:** Since 3 % 2 == 1, 2 will be added to the board. 
+After a billion days, the only two distinct numbers on the board are 2 and 3.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Distinct Numbers on Board**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Distinct Numbers on Board**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 5`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** Initially, 5 is present on the board. 
+The next day, 2 and 4 will be added since 5 % 2 == 1 and 5 % 4 == 1. 
+After that day, 3 will be added to the board because 4 % 3 == 1. 
+At the end of a billion days, the distinct numbers on the board will be 2, 3, 4, and 5.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 JavaScript
@@ -49,8 +86,15 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var distinctIntegers = function(n) {
+    return Math.max(n - 1, 1);
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

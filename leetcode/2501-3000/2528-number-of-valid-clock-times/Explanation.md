@@ -16,26 +16,57 @@ Solve LeetCode Number of Valid Clock Times using Python and Array / General. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string of length  5  called  time , representing the current time on a digital clock in the format  "hh:mm" . The  earliest  possible time is  "00:00"  and the  latest  possible time is  "23:59" .
+## Problem Statement
+You are given a string of length `5` called `time`, representing the current time on a digital clock in the format `"hh:mm"`. The **earliest** possible time is `"00:00"` and the **latest** possible time is `"23:59"`.
+
+In the string `time`, the digits represented by the `?` symbol are **unknown**, and must be **replaced** with a digit from `0` to `9`.
+
+Return* an integer *`answer`*, the number of valid clock times that can be created by replacing every *`?`* with a digit from *`0`* to *`9`.
+
+## Constraints
+- `time` is a valid string of length `5` in the format `"hh:mm"`.
+- `"00" <= hh <= "23"`
+- `"00" <= mm <= "59"`
+- Some of the digits might be replaced with `'?'` and need to be replaced with digits from `0` to `9`.
+
+## Examples
+### Example 1
+- **Input:** `time = "?5:00"`
+- **Output:** `2`
+- **Explanation:** We can replace the ? with either a 0 or 1, producing "05:00" or "15:00". Note that we cannot replace it with a 2, since the time "25:00" is invalid. In total, we have two choices.
+
+### Example 2
+- **Input:** `time = "0?:0?"`
+- **Output:** `100`
+- **Explanation:** Each ? can be replaced by any digit from 0 to 9, so we have 100 total choices.
+
+### Example 3
+- **Input:** `time = "??:??"`
+- **Output:** `1440`
+- **Explanation:** There are 24 possible choices for the hours, and 60 possible choices for the minutes. In total, we have 24 * 60 = 1440 choices.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Number of Valid Clock Times**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Number of Valid Clock Times**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `time = "?5:00"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** We can replace the ? with either a 0 or 1, producing "05:00" or "15:00". Note that we cannot replace it with a 2, since the time "25:00" is invalid. In total, we have two choices.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +79,25 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def countTime(self, time):
+        h1, h2, _, m1, m2 = time
+
+        if h1 == '?' and h2 == '?':
+            hours = 24
+        elif h1 == '?':
+            hours = 3 if h2 <= '3' else 2
+        elif h2 == '?':
+            hours = 4 if h1 == '2' else 10
+        else:
+            hours = 1
+
+        minutes = (6 if m1 == '?' else 1) * (10 if m2 == '?' else 1)
+        return hours * minutes
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

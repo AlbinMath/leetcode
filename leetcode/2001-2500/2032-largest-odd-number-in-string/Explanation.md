@@ -16,26 +16,53 @@ Solve LeetCode Largest Odd Number in String using C++ and Bit Manipulation. This
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string  num , representing a large integer. Return  the  largest-valued odd  integer (as a string) that is a  non-empty substring  of   num  , or an empty string   ""   if no odd integer exists .
+## Problem Statement
+You are given a string `num`, representing a large integer. Return *the **largest-valued odd** integer (as a string) that is a **non-empty substring** of *`num`*, or an empty string *`""`* if no odd integer exists*.
+
+A **substring** is a contiguous sequence of characters within a string.
+
+## Constraints
+- `1 <= num.length <= 10^5`
+- `num` only consists of digits and does not contain any leading zeros.
+
+## Examples
+### Example 1
+- **Input:** `num = "52"`
+- **Output:** `"5"`
+- **Explanation:** The only non-empty substrings are "5", "2", and "52". "5" is the only odd number.
+
+### Example 2
+- **Input:** `num = "4206"`
+- **Output:** `""`
+- **Explanation:** There are no odd numbers in "4206".
+
+### Example 3
+- **Input:** `num = "35427"`
+- **Output:** `"35427"`
+- **Explanation:** "35427" is already an odd number.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Largest Odd Number in String**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Largest Odd Number in String**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `num = "52"`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"5"`.
+4. **Verification:** The only non-empty substrings are "5", "2", and "52". "5" is the only odd number.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -50,6 +77,22 @@ C++
 ## Source Code
 - [solution.cpp](./solution.cpp)
 
+
+```cpp
+class Solution {
+public:
+    string largestOddNumber(string num) {
+        for (int i = num.size() - 1; i >= 0; i--) {
+            if ((num[i] - '0') % 2 == 1) {
+                return num.substr(0, i + 1);
+            }
+        }
+
+        return "";
+    }
+};
+```
+
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -63,9 +106,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [179. Largest Number](../../0001-0500/0179-largest-number/)
-- [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
-- [747. Largest Number At Least Twice of Others](../../0501-1000/0748-largest-number-at-least-twice-of-others/)
+- [434. Number of Segments in a String](../../0001-0500/0434-number-of-segments-in-a-string/)
+- [806. Number of Lines To Write String](../../0501-1000/0824-number-of-lines-to-write-string/)
+- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1490-generate-a-string-with-characters-that-have-odd-counts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-odd-number-in-string/)

@@ -1,7 +1,7 @@
 # LeetCode 1268: Search Suggestions System
 
 **LeetCode Problem #1268 — Search Suggestions System**
-Solve LeetCode Search Suggestions System using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Search Suggestions System using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,73 @@ Solve LeetCode Search Suggestions System using JavaScript and Array / General. T
 | LeetCode | #1268 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-You are given an array of strings  products  and a string  searchWord .
+## Problem Statement
+You are given an array of strings `products` and a string `searchWord`.
+
+Design a system that suggests at most three product names from `products` after each character of `searchWord` is typed. Suggested products should have common prefix with `searchWord`. If there are more than three products with a common prefix return the three lexicographically minimums products.
+
+Return *a list of lists of the suggested products after each character of *`searchWord`* is typed*.
+
+## Constraints
+- `1 <= products.length <= 1000`
+- `1 <= products[i].length <= 3000`
+- `1 <= sum(products[i].length) <= 2 * 10^4`
+- All the strings of `products` are **unique**.
+- `products[i]` consists of lowercase English letters.
+- `1 <= searchWord.length <= 1000`
+- `searchWord` consists of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `products = ["mobile","mouse","moneypot","monitor","mousepad"], searchWord = "mouse"`
+- **Output:** `[["mobile","moneypot","monitor"],["mobile","moneypot","monitor"],["mouse","mousepad"],["mouse","mousepad"],["mouse","mousepad"]]`
+- **Explanation:** products sorted lexicographically = ["mobile","moneypot","monitor","mouse","mousepad"].
+After typing m and mo all products match and we show user ["mobile","moneypot","monitor"].
+After typing mou, mous and mouse the system suggests ["mouse","mousepad"].
+
+### Example 2
+- **Input:** `products = ["havana"], searchWord = "havana"`
+- **Output:** `[["havana"],["havana"],["havana"],["havana"],["havana"],["havana"]]`
+- **Explanation:** The only word "havana" will be always suggested while typing the search word.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Search Suggestions System**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Search Suggestions System**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `products = ["mobile","mouse","moneypot","monitor","mousepad"], searchWord = "mouse"`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[["mobile","moneypot","monitor"],["mobile","moneypot","monitor"],["mouse","mousepad"],["mouse","mousepad"],["mouse","mousepad"]]`.
+4. **Verification:** products sorted lexicographically = ["mobile","moneypot","monitor","mouse","mousepad"].
+After typing m and mo all products match and we show user ["mobile","moneypot","monitor"].
+After typing mou, mous and mouse the system suggests ["mouse","mousepad"].
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Array / General**
+**Dynamic Programming**
 
 ## Topics
-- Array
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 JavaScript
@@ -49,22 +84,52 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var suggestedProducts = function(products, searchWord) {
+    products.sort();
+
+    const result = [];
+    let prefix = "";
+
+    for (const char of searchWord) {
+        prefix += char;
+
+        const suggestions = [];
+
+        for (const product of products) {
+            if (product.startsWith(prefix)) {
+                suggestions.push(product);
+            }
+
+            if (suggestions.length === 3) {
+                break;
+            }
+        }
+
+        result.push(suggestions);
+    }
+
+    return result;
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
-- [35. Search Insert Position](../../0001-0500/0035-search-insert-position/)
-- [74. Search a 2D Matrix](../../0001-0500/0074-search-a-2d-matrix/)
+- [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
+- [1396. Design Underground System](../../1501-2000/1512-design-underground-system/)
+- [1603. Design Parking System](../../1501-2000/1708-design-parking-system/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-suggestions-system/)

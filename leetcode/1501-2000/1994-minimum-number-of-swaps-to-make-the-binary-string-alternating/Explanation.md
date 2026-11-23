@@ -16,26 +16,56 @@ Solve LeetCode Minimum Number of Swaps to Make the Binary String Alternating usi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a binary string  s , return  the  minimum  number of character swaps to make it  alternating , or   -1   if it is impossible.
+## Problem Statement
+Given a binary string `s`, return *the **minimum** number of character swaps to make it **alternating**, or *`-1`* if it is impossible.*
+
+The string is called **alternating** if no two adjacent characters are equal. For example, the strings `"010"` and `"1010"` are alternating, while the string `"0100"` is not.
+
+Any two characters may be swapped, even if they are **not adjacent**.
+
+## Constraints
+- `1 <= s.length <= 1000`
+- `s[i]` is either `'0'` or `'1'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "111000"`
+- **Output:** `1`
+- **Explanation:** Swap positions 1 and 4: "1 1 10 0 0" -> "1 0 10 1 0"
+The string is now alternating.
+
+### Example 2
+- **Input:** `s = "010"`
+- **Output:** `0`
+- **Explanation:** The string is already alternating, no swaps are needed.
+
+### Example 3
+- **Input:** `s = "1110"`
+- **Output:** `-1`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Number of Swaps to Make the Binary String Alternating**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Number of Swaps to Make the Binary String Alternating**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "111000"`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** Swap positions 1 and 4: "1 1 10 0 0" -> "1 0 10 1 0"
+The string is now alternating.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +79,29 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def minSwaps(self, s: str) -> int:
+        n = len(s)
+        ones = s.count('1')
+        zeros = n - ones
+
+        if abs(ones - zeros) > 1:
+            return -1
+
+        # mismatches against the target that starts with '0': 0101...
+        mis0 = sum(1 for i, ch in enumerate(s) if ch != str(i % 2))
+        # mismatches against the target that starts with '1': 1010...
+        mis1 = n - mis0
+
+        if ones > zeros:
+            return mis1 // 2   # '1' must be at even indices
+        if zeros > ones:
+            return mis0 // 2   # '0' must be at even indices
+        return min(mis0, mis1) // 2
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +117,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1888. Minimum Number of Flips to Make the Binary String Alternating](../../2001-2500/2017-minimum-number-of-flips-to-make-the-binary-string-alternating/)
-- [1963. Minimum Number of Swaps to Make the String Balanced](../../2001-2500/2095-minimum-number-of-swaps-to-make-the-string-balanced/)
 - [1758. Minimum Changes To Make Alternating Binary String](../../1501-2000/1884-minimum-changes-to-make-alternating-binary-string/)
+- [1963. Minimum Number of Swaps to Make the String Balanced](../../2001-2500/2095-minimum-number-of-swaps-to-make-the-string-balanced/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)

@@ -16,26 +16,43 @@ Solve LeetCode Largest Palindrome Product using Python and Two Pointers. This so
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer n, return  the  largest palindromic integer  that can be represented as the product of two  n -digits integers . Since the answer can be very large, return it  modulo   1337 .
+## Problem Statement
+Given an integer n, return *the **largest palindromic integer** that can be represented as the product of two `n`-digits integers*. Since the answer can be very large, return it **modulo** `1337`.
+
+## Constraints
+- `1 <= n <= 8`
+
+## Examples
+### Example 1
+- **Input:** `n = 2`
+- **Output:** `987`
+
+### Example 2
+- **Input:** `n = 1`
+- **Output:** `9`
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Two Pointer Convergence & Scanning**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Largest Palindrome Product**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Largest Palindrome Product**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 2`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `987`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -51,6 +68,25 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def largestPalindrome(self, n: int) -> int:
+        if n == 1:
+            return 9
+        hi = 10 ** n - 1
+        lo = 10 ** (n - 1)
+        for h in range(hi, lo - 1, -1):
+            s = str(h)
+            p = int(s + s[::-1])
+            x = hi
+            while x * x >= p:
+                if p % x == 0:
+                    return p % 1337
+                x -= 1
+        return -1
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +101,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3260. Find the Largest Palindrome Divisible by K](../../3501-4000/3552-find-the-largest-palindrome-divisible-by-k/)
-- [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
-- [179. Largest Number](../../0001-0500/0179-largest-number/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [125. Valid Palindrome](../../0001-0500/0125-valid-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-palindrome-product/)

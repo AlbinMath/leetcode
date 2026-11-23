@@ -16,8 +16,22 @@ Solve LeetCode Longest Palindromic Substring using JavaScript, Python and Array 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  s , return  the longest    palindromic     substring   in  s .
+## Problem Statement
+Given a string `s`, return *the longest* *palindromic* *substring* in `s`.
+
+## Constraints
+- `1 <= s.length <= 1000`
+- `s` consist of only digits and English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "babad"`
+- **Output:** `"bab"`
+- **Explanation:** "aba" is also a valid answer.
+
+### Example 2
+- **Input:** `s = "cbbd"`
+- **Output:** `"bb"`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -38,12 +52,17 @@ The code uses the **Expand Around Center** approach. Since a palindrome mirrors 
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Longest Palindromic Substring**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "babad"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"bab"`.
+4. **Verification:** "aba" is also a valid answer.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -57,6 +76,79 @@ JavaScript, Python
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var longestPalindrome = function(s) {
+    let start = 0;
+    let maxLength = 0;
+
+    function expandAroundCenter(left, right) {
+        while (
+            left >= 0 &&
+            right < s.length &&
+            s[left] === s[right]
+        ) {
+            left--;
+            right++;
+        }
+
+        // The pointers have moved one step beyond the palindrome.
+        const length = right - left - 1;
+
+        if (length > maxLength) {
+            maxLength = length;
+            start = left + 1;
+        }
+    }
+
+    for (let i = 0; i < s.length; i++) {
+        // Odd-length palindrome
+        expandAroundCenter(i, i);
+
+        // Even-length palindrome
+        expandAroundCenter(i, i + 1);
+    }
+
+    return s.substring(start, start + maxLength);
+};
+```
+
+### Python
+```python
+class Solution(object):
+    def longestPalindrome(self, s):
+        if not s:
+            return ""
+
+        start = 0
+        end = 0
+
+        def expand(left, right):
+            while left >= 0 and right < len(s) and s[left] == s[right]:
+                left -= 1
+                right += 1
+
+            return left + 1, right - 1
+
+        for i in range(len(s)):
+            # Odd-length palindrome
+            left1, right1 = expand(i, i)
+
+            # Even-length palindrome
+            left2, right2 = expand(i, i + 1)
+
+            if right1 - left1 > end - start:
+                start = left1
+                end = right1
+
+            if right2 - left2 > end - start:
+                start = left2
+                end = right2
+
+        return s[start:end + 1]
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -73,7 +165,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 - [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
-- [1044. Longest Duplicate Substring](../../1001-1500/1122-longest-duplicate-substring/)
+- [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindromic-substring/)

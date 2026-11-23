@@ -1,7 +1,7 @@
 # LeetCode 556: Next Greater Element III
 
 **LeetCode Problem #556 — Next Greater Element III**
-Solve LeetCode Next Greater Element III using Python and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
+Solve LeetCode Next Greater Element III using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,59 @@ Solve LeetCode Next Greater Element III using Python and Monotonic Stack. This s
 | LeetCode | #556 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Monotonic Stack Filtering |
-| Data Structure | Stack |
-| Pattern | Monotonic Stack |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## Problem
-Given a positive integer  n , find  the smallest integer which has exactly the same digits existing in the integer   n   and is greater in value than   n . If no such positive integer exists, return  -1 .
+## Problem Statement
+Given a positive integer `n`, find *the smallest integer which has exactly the same digits existing in the integer* `n` *and is greater in value than* `n`. If no such positive integer exists, return `-1`.
+
+**Note** that the returned integer should fit in **32-bit integer**, if there is a valid answer but it does not fit in **32-bit integer**, return `-1`.
+
+## Constraints
+- `1 <= n <= 2^31 - 1`
+
+## Examples
+### Example 1
+- **Input:** `n = 12`
+- **Output:** `21`
+
+### Example 2
+- **Input:** `n = 21`
+- **Output:** `-1`
 
 ## Key Insight
-Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Next Greater Element III**, we observe the problem requirements and utilize the **Monotonic Stack** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Monotonic Stack Filtering**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Next Greater Element III**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 12`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `21`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Monotonic Stack**
+**Two Pointers**
 
 ## Topics
-- Stack
-- Monotonic Stack
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 Python
@@ -51,17 +70,45 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def nextGreaterElement(self, n: int) -> int:
+        digits = list(str(n))
+        i = len(digits) - 2
+
+        # 1. find pivot
+        while i >= 0 and digits[i] >= digits[i + 1]:
+            i -= 1
+        if i < 0:
+            return -1
+
+        # 2. find rightmost digit greater than pivot
+        j = len(digits) - 1
+        while digits[j] <= digits[i]:
+            j -= 1
+
+        # 3. swap
+        digits[i], digits[j] = digits[j], digits[i]
+
+        # 4. reverse suffix
+        digits[i + 1:] = reversed(digits[i + 1:])
+
+        result = int(''.join(digits))
+        return result if result <= 2**31 - 1 else -1
+```
+
 ## Why This Works
-By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Pushing elements instead of indices when index distance is required.
-2. Using strict inequality (`<`) when non-strict (`<=`) is necessary.
-3. Forgetting to flush remaining elements from stack at the end.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Linear stack processing, nearest element relationship analysis.
-- **Follow-up:** How do you handle circular array boundaries?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [496. Next Greater Element I](../../0001-0500/0496-next-greater-element-i/)

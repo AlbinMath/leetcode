@@ -16,26 +16,64 @@ Solve LeetCode Number of Unique Good Subsequences using Python and Dynamic Progr
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a binary string  binary . A  subsequence  of  binary  is considered  good  if it is  not empty  and has  no leading zeros  (with the exception of  "0" ).
+## Problem Statement
+You are given a binary string `binary`. A **subsequence** of `binary` is considered **good** if it is **not empty** and has **no leading zeros** (with the exception of `"0"`).
+
+Find the number of **unique good subsequences** of `binary`.
+
+For example, if `binary = "001"`, then all the **good** subsequences are `["0", "0", "1"]`, so the **unique** good subsequences are `"0"` and `"1"`. Note that subsequences `"00"`, `"01"`, and `"001"` are not good because they have leading zeros.
+
+Return *the number of **unique good subsequences** of *`binary`. Since the answer may be very large, return it **modulo** `10^9 + 7`.
+
+A **subsequence** is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
+
+## Constraints
+- `1 <= binary.length <= 10^5`
+- `binary` consists of only `'0'`s and `'1'`s.
+
+## Examples
+### Example 1
+- **Input:** `binary = "001"`
+- **Output:** `2`
+- **Explanation:** The good subsequences of binary are ["0", "0", "1"].
+The unique good subsequences are "0" and "1".
+
+### Example 2
+- **Input:** `binary = "11"`
+- **Output:** `2`
+- **Explanation:** The good subsequences of binary are ["1", "1", "11"].
+The unique good subsequences are "1" and "11".
+
+### Example 3
+- **Input:** `binary = "101"`
+- **Output:** `5`
+- **Explanation:** The good subsequences of binary are ["1", "0", "1", "10", "11", "101"]. 
+The unique good subsequences are "0", "1", "10", "11", and "101".
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Number of Unique Good Subsequences**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We decompose the problem into overlapping subproblems using a **DP Table / Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Number of Unique Good Subsequences**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `binary = "001"`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The good subsequences of binary are ["0", "0", "1"].
+The unique good subsequences are "0" and "1".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -51,6 +89,25 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def numberOfUniqueGoodSubsequences(self, binary: str) -> int:
+        MOD = 10**9 + 7
+        ends_with_0 = 0
+        ends_with_1 = 0
+        has_zero = 0
+        
+        for ch in binary:
+            if ch == '0':
+                ends_with_0 = (ends_with_0 + ends_with_1) % MOD
+                has_zero = 1
+            else:
+                ends_with_1 = (ends_with_0 + ends_with_1 + 1) % MOD
+                
+        return (ends_with_0 + ends_with_1 + has_zero) % MOD
+```
+
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,9 +121,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1512. Number of Good Pairs](../../1501-2000/1635-number-of-good-pairs/)
-- [1525. Number of Good Ways to Split a String](../../1501-2000/1632-number-of-good-ways-to-split-a-string/)
-- [1530. Number of Good Leaf Nodes Pairs](../../1501-2000/1653-number-of-good-leaf-nodes-pairs/)
+- [792. Number of Matching Subsequences](../../0501-1000/0808-number-of-matching-subsequences/)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1501-2000/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
+- [1819. Number of Different Subsequences GCDs](../../1501-2000/1947-number-of-different-subsequences-gcds/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-good-subsequences/)

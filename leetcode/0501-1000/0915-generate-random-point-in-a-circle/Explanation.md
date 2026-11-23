@@ -16,26 +16,56 @@ Solve LeetCode Generate Random Point in a Circle using Python and Dynamic Progra
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given the radius and the position of the center of a circle, implement the function  randPoint  which generates a uniform random point inside the circle.
+## Problem Statement
+Given the radius and the position of the center of a circle, implement the function `randPoint` which generates a uniform random point inside the circle.
+
+Implement the `Solution` class:
+
+`Solution(double radius, double x_center, double y_center)` initializes the object with the radius of the circle `radius` and the position of the center `(x_center, y_center)`. 
+ `randPoint()` returns a random point inside the circle. A point on the circumference of the circle is considered to be in the circle. The answer is returned as an array `[x, y]`.
+
+## Constraints
+- `0 < radius <= 10^8`
+- `-10^7 <= x_center, y_center <= 10^7`
+- At most `3 * 10^4` calls will be made to `randPoint`.
+
+## Examples
+### Example 1
+- **Input:** `["Solution", "randPoint", "randPoint", "randPoint"]
+[[1.0, 0.0, 0.0], [], [], []]`
+- **Output:** `[null, [-0.02493, -0.38077], [0.82314, 0.38945], [0.36572, 0.17248]]`
+- **Explanation:** Solution solution = new Solution(1.0, 0.0, 0.0);
+solution.randPoint(); // return [-0.02493, -0.38077]
+solution.randPoint(); // return [0.82314, 0.38945]
+solution.randPoint(); // return [0.36572, 0.17248]
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Generate Random Point in a Circle**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We decompose the problem into overlapping subproblems using a **DP Table / Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Generate Random Point in a Circle**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `["Solution", "randPoint", "randPoint", "randPoint"]
+[[1.0, 0.0, 0.0], [], [], []]`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[null, [-0.02493, -0.38077], [0.82314, 0.38945], [0.36572, 0.17248]]`.
+4. **Verification:** Solution solution = new Solution(1.0, 0.0, 0.0);
+solution.randPoint(); // return [-0.02493, -0.38077]
+solution.randPoint(); // return [0.82314, 0.38945]
+solution.randPoint(); // return [0.36572, 0.17248]
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -51,6 +81,25 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+import math
+import random
+from typing import List
+
+class Solution:
+    def __init__(self, radius: float, x_center: float, y_center: float):
+        self.r = radius
+        self.cx = x_center
+        self.cy = y_center
+
+    def randPoint(self) -> List[float]:
+        theta = random.uniform(0, 2 * math.pi)
+        d = self.r * math.sqrt(random.random())
+        return [self.cx + d * math.cos(theta),
+                self.cy + d * math.sin(theta)]
+```
+
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +114,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [497. Random Point in Non-overlapping Rectangles](../../0501-1000/0914-random-point-in-non-overlapping-rectangles/)
-- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
-- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1490-generate-a-string-with-characters-that-have-odd-counts/)
+- [1041. Robot Bounded In Circle](../../1001-1500/1119-robot-bounded-in-circle/)
+- [1401. Circle and Rectangle Overlapping](../../1501-2000/1501-circle-and-rectangle-overlapping/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-random-point-in-a-circle/)

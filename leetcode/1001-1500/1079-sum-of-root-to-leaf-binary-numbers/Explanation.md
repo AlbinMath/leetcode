@@ -16,26 +16,52 @@ Solve LeetCode Sum of Root To Leaf Binary Numbers using Python and Tree & Graph.
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given the  root  of a binary tree where each node has a value  0  or  1 . Each root-to-leaf path represents a binary number starting with the most significant bit.
+## Problem Statement
+You are given the `root` of a binary tree where each node has a value `0` or `1`. Each root-to-leaf path represents a binary number starting with the most significant bit.
+
+For example, if the path is `0 -> 1 -> 1 -> 0 -> 1`, then this could represent `01101` in binary, which is `13`.
+
+For all leaves in the tree, consider the numbers represented by the path from the root to that leaf. Return *the sum of these numbers*.
+
+The test cases are generated so that the answer fits in a **32-bits** integer.
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 1000]`.
+- `Node.val` is `0` or `1`.
+
+## Examples
+### Example 1
+- **Input:** `root = [1,0,1,0,1,0,1]`
+- **Output:** `22`
+- **Explanation:** (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
+
+### Example 2
+- **Input:** `root = [0]`
+- **Output:** `0`
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sum of Root To Leaf Binary Numbers**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sum of Root To Leaf Binary Numbers**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [1,0,1,0,1,0,1]`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `22`.
+4. **Verification:** (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +78,33 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import Optional
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+class Solution:
+    def sumRootToLeaf(self, root: Optional[TreeNode]) -> int:
+        def dfs(node, current):
+            if not node:
+                return 0
+
+            current = current * 2 + node.val
+
+            if not node.left and not node.right:
+                return current
+
+            return dfs(node.left, current) + dfs(node.right, current)
+
+        return dfs(root, 0)
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -66,8 +119,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
-- [1080. Insufficient Nodes in Root to Leaf Paths](../../1001-1500/1157-insufficient-nodes-in-root-to-leaf-paths/)
-- [2236. Root Equals Sum of Children](../../2001-2500/2384-root-equals-sum-of-children/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [930. Binary Subarrays With Sum](../../0501-1000/0966-binary-subarrays-with-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)

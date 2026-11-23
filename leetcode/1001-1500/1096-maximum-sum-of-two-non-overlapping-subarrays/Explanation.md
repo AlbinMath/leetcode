@@ -16,26 +16,57 @@ Solve LeetCode Maximum Sum of Two Non-Overlapping Subarrays using Python and Arr
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer array  nums  and two integers  firstLen  and  secondLen , return  the maximum sum of elements in two non-overlapping  subarrays  with lengths   firstLen   and   secondLen .
+## Problem Statement
+Given an integer array `nums` and two integers `firstLen` and `secondLen`, return *the maximum sum of elements in two non-overlapping **subarrays** with lengths *`firstLen`* and *`secondLen`.
+
+The array with length `firstLen` could occur before or after the array with length `secondLen`, but they have to be non-overlapping.
+
+A **subarray** is a **contiguous** part of an array.
+
+## Constraints
+- `1 <= firstLen, secondLen <= 1000`
+- `2 <= firstLen + secondLen <= 1000`
+- `firstLen + secondLen <= nums.length <= 1000`
+- `0 <= nums[i] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `nums = [0,6,5,2,2,5,1,9,4], firstLen = 1, secondLen = 2`
+- **Output:** `20`
+- **Explanation:** One choice of subarrays is [9] with length 1, and [6,5] with length 2.
+
+### Example 2
+- **Input:** `nums = [3,8,1,3,2,1,8,9,0], firstLen = 3, secondLen = 2`
+- **Output:** `29`
+- **Explanation:** One choice of subarrays is [3,8,1] with length 3, and [8,9] with length 2.
+
+### Example 3
+- **Input:** `nums = [2,1,5,6,0,9,5,0,3,8], firstLen = 4, secondLen = 3`
+- **Output:** `31`
+- **Explanation:** One choice of subarrays is [5,6,0,9] with length 4, and [0,3,8] with length 3.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Sum of Two Non-Overlapping Subarrays**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Sum of Two Non-Overlapping Subarrays**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [0,6,5,2,2,5,1,9,4], firstLen = 1, secondLen = 2`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `20`.
+4. **Verification:** One choice of subarrays is [9] with length 1, and [6,5] with length 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +79,31 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def maxSumTwoNoOverlap(self, nums: List[int], firstLen: int, secondLen: int) -> int:
+        def max_two(L: int, M: int) -> int:
+            sum_L = sum(nums[:L])
+            sum_M = sum(nums[L : L + M])
+            max_L = sum_L
+            ans = max_L + sum_M
+            
+            for i in range(L + M, len(nums)):
+                sum_L += nums[i - M] - nums[i - M - L]
+                sum_M += nums[i] - nums[i - M]
+                if sum_L > max_L:
+                    max_L = sum_L
+                if max_L + sum_M > ans:
+                    ans = max_L + sum_M
+                    
+            return ans
+            
+        return max(max_two(firstLen, secondLen), max_two(secondLen, firstLen))
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

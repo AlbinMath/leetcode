@@ -16,26 +16,75 @@ Solve LeetCode Construct Uniform Parity Array II using C++ and Bit Manipulation.
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  nums1  of  n   distinct  integers.
+## Problem Statement
+You are given an array `nums1` of `n` **distinct** integers.
+
+You want to construct another array `nums2` of length `n` such that the elements in `nums2` are either **all odd or all even**.
+
+For each index `i`, you must choose **exactly one** of the following (in any order):
+
+`nums2[i] = nums1[i]`​​​​​​​ 
+ `nums2[i] = nums1[i] - nums1[j]`, for an index `j != i`, such that `nums1[i] - nums1[j] >= 1`
+
+Return `true` if it is possible to construct such an array, otherwise return `false`.
+
+## Constraints
+- `1 <= n == nums1.length <= 10^5`
+- `1 <= nums1[i] <= 10^9`
+- `nums1` consists of distinct integers.
+
+## Examples
+### Example 1
+- **Input:** `nums1 = [1,4,7]`
+- **Output:** `true`
+- **Explanation:** ​​​​​​​​​​​​​​ 
+
+ 
+ Set `nums2[0] = nums1[0] = 1`. 
+ Set `nums2[1] = nums1[1] - nums1[0] = 4 - 1 = 3`. 
+ Set `nums2[2] = nums1[2] = 7`. 
+ `nums2 = [1, 3, 7]`, and all elements are odd. Thus, the answer is `true`.
+
+### Example 2
+- **Input:** `nums1 = [2,3]`
+- **Output:** `false`
+- **Explanation:** It is not possible to construct `nums2` such that all elements have the same parity. Thus, the answer is `false`.
+
+### Example 3
+- **Input:** `nums1 = [4,6]`
+- **Output:** `true`
+- **Explanation:** Set `nums2[0] = nums1[0] = 4`. 
+ Set `nums2[1] = nums1[1] = 6`. 
+ `nums2 = [4, 6]`, and all elements are even. Thus, the answer is `true`.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Construct Uniform Parity Array II**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Construct Uniform Parity Array II**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums1 = [1,4,7]`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** ​​​​​​​​​​​​​​ 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ 
+ Set `nums2[0] = nums1[0] = 1`. 
+ Set `nums2[1] = nums1[1] - nums1[0] = 4 - 1 = 3`. 
+ Set `nums2[2] = nums1[2] = 7`. 
+ `nums2 = [1, 3, 7]`, and all elements are odd. Thus, the answer is `true`.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +98,37 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    bool uniformArray(vector<int>& nums1) {
+        int minOdd = INT_MAX;
+
+        // Find the smallest odd number
+        for (int x : nums1) {
+            if (x % 2 == 1) {
+                minOdd = min(minOdd, x);
+            }
+        }
+
+        // If all numbers are even, already uniform
+        if (minOdd == INT_MAX) {
+            return true;
+        }
+
+        // Every even number must be larger than the smallest odd
+        for (int x : nums1) {
+            if (x % 2 == 0 && x <= minOdd) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,8 +16,25 @@ Solve LeetCode Daily Temperatures using JavaScript, TypeScript and Monotonic Sta
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given an array of integers  temperatures  represents the daily temperatures, return  an array   answer   such that   answer[i]   is the number of days you have to wait after the   i th    day to get a warmer temperature . If there is no future day for which this is possible, keep  answer[i] == 0  instead.
+## Problem Statement
+Given an array of integers `temperatures` represents the daily temperatures, return *an array* `answer` *such that* `answer[i]` *is the number of days you have to wait after the* `i^th` *day to get a warmer temperature*. If there is no future day for which this is possible, keep `answer[i] == 0` instead.
+
+## Constraints
+- `1 <= temperatures.length <= 10^5`
+- `30 <= temperatures[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `temperatures = [73,74,75,71,69,72,76,73]`
+- **Output:** `[1,1,4,2,1,1,0,0]`
+
+### Example 2
+- **Input:** `temperatures = [30,40,50,60]`
+- **Output:** `[1,1,1,0]`
+
+### Example 3
+- **Input:** `temperatures = [30,60,90]`
+- **Output:** `[1,1,0]`
 
 ## Key Insight
 Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
@@ -38,12 +55,16 @@ Time complexity is $O(N)$ (each index is pushed and popped at most once) and spa
 2. Process elements sequentially using **Monotonic Stack Filtering**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Daily Temperatures**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `temperatures = [73,74,75,71,69,72,76,73]`.
+2. **Processing Steps:** We apply **Monotonic Stack Filtering** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,1,4,2,1,1,0,0]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Monotonic Stack**
@@ -60,6 +81,52 @@ JavaScript, TypeScript
 - [solution.js](./solution.js)
 - [solution.ts](./solution.ts)
 
+
+### JavaScript
+```javascript
+var dailyTemperatures = function(temperatures) {
+    const n = temperatures.length;
+    const answer = new Array(n).fill(0);
+    const stack = [];
+
+    for (let i = 0; i < n; i++) {
+        while (
+            stack.length > 0 &&
+            temperatures[i] > temperatures[stack[stack.length - 1]]
+        ) {
+            const prevIndex = stack.pop();
+            answer[prevIndex] = i - prevIndex;
+        }
+
+        stack.push(i);
+    }
+
+    return answer;
+};
+```
+
+### TypeScript
+```typescript
+function dailyTemperatures(temperatures: number[]): number[] {
+    const result = new Array(temperatures.length).fill(0);
+    const stack: number[] = [];
+
+    for (let i = 0; i < temperatures.length; i++) {
+        while (
+            stack.length > 0 &&
+            temperatures[i] > temperatures[stack[stack.length - 1]]
+        ) {
+            const prev = stack.pop()!;
+            result[prev] = i - prev;
+        }
+
+        stack.push(i);
+    }
+
+    return result;
+}
+```
+
 ## Why This Works
 By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -74,8 +141,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1693. Daily Leads and Partners](../../1501-2000/1837-daily-leads-and-partners/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 - [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
-- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/daily-temperatures/)

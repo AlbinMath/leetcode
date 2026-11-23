@@ -16,26 +16,47 @@ Solve LeetCode Is Subsequence using JavaScript, Python and Dynamic Programming. 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given two strings  s  and  t , return  true   if   s   is a  subsequence  of   t  , or   false   otherwise .
+## Problem Statement
+Given two strings `s` and `t`, return `true`* if *`s`* is a **subsequence** of *`t`*, or *`false`* otherwise*.
+
+A **subsequence** of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., `"ace"` is a subsequence of `" a b c d e "` while `"aec"` is not).
+
+## Constraints
+- `0 <= s.length <= 100`
+- `0 <= t.length <= 10^4`
+- `s` and `t` consist only of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "abc", t = "ahbgdc"`
+- **Output:** `true`
+
+### Example 2
+- **Input:** `s = "axc", t = "ahbgdc"`
+- **Output:** `false`
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Is Subsequence**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We decompose the problem into overlapping subproblems using a **DP Table / Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Is Subsequence**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "abc", t = "ahbgdc"`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -51,6 +72,37 @@ JavaScript, Python
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var isSubsequence = function(s, t) {
+    let i = 0;
+    let j = 0;
+
+    while (i < s.length && j < t.length) {
+        if (s[i] === t[j]) {
+            i++;
+        }
+        j++;
+    }
+
+    return i === s.length;
+};
+```
+
+### Python
+```python
+class Solution:
+    def isSubsequence(self, s, t):
+        i = 0
+
+        for ch in t:
+            if i < len(s) and s[i] == ch:
+                i += 1
+
+        return i == len(s)
+```
 
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

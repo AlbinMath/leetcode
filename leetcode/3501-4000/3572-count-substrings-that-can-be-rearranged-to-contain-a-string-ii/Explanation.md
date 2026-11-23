@@ -1,7 +1,7 @@
 # LeetCode 3298: Count Substrings That Can Be Rearranged to Contain a String II
 
 **LeetCode Problem #3298 — Count Substrings That Can Be Rearranged to Contain a String II**
-Solve LeetCode Count Substrings That Can Be Rearranged to Contain a String II using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Count Substrings That Can Be Rearranged to Contain a String II using Python and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,71 @@ Solve LeetCode Count Substrings That Can Be Rearranged to Contain a String II us
 | LeetCode | #3298 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Dynamic Sliding Window Traversal |
+| Data Structure | Array / Hash Set |
+| Pattern | Sliding Window |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two strings  word1  and  word2 .
+## Problem Statement
+You are given two strings `word1` and `word2`.
+
+A string `x` is called **valid** if `x` can be rearranged to have `word2` as a prefix .
+
+Return the total number of **valid** substrings of `word1`.
+
+**Note** that the memory limits in this problem are **smaller** than usual, so you **must** implement a solution with a *linear* runtime complexity.
+
+## Constraints
+- `1 <= word1.length <= 10^6`
+- `1 <= word2.length <= 10^4`
+- `word1` and `word2` consist only of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `word1 = "bcca", word2 = "abc"`
+- **Output:** `1`
+- **Explanation:** The only valid substring is `"bcca"` which can be rearranged to `"abcc"` having `"abc"` as a prefix.
+
+### Example 2
+- **Input:** `word1 = "abcabc", word2 = "abc"`
+- **Output:** `10`
+- **Explanation:** All the substrings except substrings of size 1 and size 2 are valid.
+
+### Example 3
+- **Input:** `word1 = "abcabc", word2 = "aaabc"`
+- **Output:** `0`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Maintain a dynamic contiguous window with two pointers (`left` and `right`), expanding to include new elements and shrinking when window invariants are violated.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Substrings That Can Be Rearranged to Contain a String II**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Substrings That Can Be Rearranged to Contain a String II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `word1 = "bcca", word2 = "abc"`.
+2. **Processing Steps:** We apply **Dynamic Sliding Window Traversal** using our **Array / Hash Set**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** The only valid substring is `"bcca"` which can be rearranged to `"abcc"` having `"abc"` as a prefix.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Hash Set.
 
 ## Pattern
-**Array / General**
+**Sliding Window**
 
 ## Topics
-- Array
+- Sliding Window
+- Two Pointers
+- Subarrays
 
 ## Language
 Python
@@ -49,17 +82,48 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def validSubstringCount(self, word1: str, word2: str) -> int:
+        n = len(word1)
+        need = [0] * 123          # indexed directly by byte value
+        for b in word2.encode():
+            need[b] += 1
+        missing = sum(1 for x in need if x)
+
+        cnt = [0] * 123
+        data = word1.encode()     # bytes: iterating/indexing gives ints
+        ans = 0
+        r = 0
+        for l in range(n):
+            while missing and r < n:
+                c = data[r]
+                cnt[c] += 1
+                if cnt[c] == need[c]:
+                    missing -= 1
+                r += 1
+            if missing:
+                break             # r hit n and the window can't become valid; later l can't either
+            ans += n - r + 1
+            c = data[l]
+            if cnt[c] == need[c]:
+                missing += 1
+            cnt[c] -= 1
+        return ans
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Sliding Window**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Shrinking the window too late or missing invalid state checks.
+2. Forgetting to update window metrics (e.g. char counts) during contraction.
+3. Misinterpreting fixed vs variable window requirements.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Two-pointer window management, state tracking, and contiguous subarray analysis.
+- **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](../../3501-4000/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)

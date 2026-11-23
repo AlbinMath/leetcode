@@ -16,26 +16,52 @@ Solve LeetCode The kth Factor of n using Kotlin, Python and Array / General. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two positive integers  n  and  k . A factor of an integer  n  is defined as an integer  i  where  n % i == 0 .
+## Problem Statement
+You are given two positive integers `n` and `k`. A factor of an integer `n` is defined as an integer `i` where `n % i == 0`.
+
+Consider a list of all factors of `n` sorted in **ascending order**, return *the *`k^th`* factor* in this list or return `-1` if `n` has less than `k` factors.
+
+## Constraints
+- `1 <= k <= n <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `n = 12, k = 3`
+- **Output:** `3`
+- **Explanation:** Factors list is [1, 2, 3, 4, 6, 12], the 3^rd factor is 3.
+
+### Example 2
+- **Input:** `n = 7, k = 2`
+- **Output:** `7`
+- **Explanation:** Factors list is [1, 7], the 2^nd factor is 7.
+
+### Example 3
+- **Input:** `n = 4, k = 4`
+- **Output:** `-1`
+- **Explanation:** Factors list is [1, 2, 4], there is only 3 factors. We should return -1.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **The kth Factor of n**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **The kth Factor of n**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 12, k = 3`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** Factors list is [1, 2, 3, 4, 6, 12], the 3^rd factor is 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -50,6 +76,43 @@ Kotlin, Python
 - [solution.kt](./solution.kt)
 - [solution.py](./solution.py)
 
+
+### Kotlin
+```kotlin
+class Solution {
+    fun kthFactor(n: Int, k: Int): Int {
+        var count = 0
+        for (i in 1..n) {
+            if (n % i == 0 && ++count == k) return i
+        }
+        return -1
+    }
+}
+```
+
+### Python
+```python
+class Solution:
+    def kthFactor(self, n: int, k: int) -> int:
+        small = []
+        i = 1
+        while i * i <= n:
+            if n % i == 0:
+                small.append(i)
+            i += 1
+
+        # k falls among the small factors
+        if k <= len(small):
+            return small[k - 1]
+
+        # otherwise it is among the large partners, in reverse order
+        large = [n // d for d in reversed(small)]
+        if small and small[-1] * small[-1] == n:
+            large = large[1:]            # drop the duplicated square root
+        k -= len(small)
+        return large[k - 1] if k <= len(large) else -1
+```
+
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -63,9 +126,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [50. Pow(x, n)](../../0001-0500/0050-powx-n/)
-- [51. N-Queens](../../0001-0500/0051-n-queens/)
-- [52. N-Queens II](../../0001-0500/0052-n-queens-ii/)
+- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
+- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
+- [378. Kth Smallest Element in a Sorted Matrix](../../0001-0500/0378-kth-smallest-element-in-a-sorted-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-kth-factor-of-n/)

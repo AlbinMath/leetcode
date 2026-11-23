@@ -16,26 +16,63 @@ Solve LeetCode Random Flip Matrix using Python and Two Pointers. This solution f
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-There is an  m x n  binary grid  matrix  with all the values set  0  initially. Design an algorithm to randomly pick an index  (i, j)  where  matrix[i][j] == 0  and flips it to  1 . All the indices  (i, j)  where  matrix[i][j] == 0  should be equally likely to be returned.
+## Problem Statement
+There is an `m x n` binary grid `matrix` with all the values set `0` initially. Design an algorithm to randomly pick an index `(i, j)` where `matrix[i][j] == 0` and flips it to `1`. All the indices `(i, j)` where `matrix[i][j] == 0` should be equally likely to be returned.
+
+Optimize your algorithm to minimize the number of calls made to the **built-in** random function of your language and optimize the time and space complexity.
+
+Implement the `Solution` class:
+
+`Solution(int m, int n)` Initializes the object with the size of the binary matrix `m` and `n`. 
+ `int[] flip()` Returns a random index `[i, j]` of the matrix where `matrix[i][j] == 0` and flips it to `1`. 
+ `void reset()` Resets all the values of the matrix to be `0`.
+
+## Constraints
+- `1 <= m, n <= 10^4`
+- There will be at least one free cell for each call to `flip`.
+- At most `1000` calls will be made to `flip` and `reset`.
+
+## Examples
+### Example 1
+- **Input:** `["Solution", "flip", "flip", "flip", "reset", "flip"]
+[[3, 1], [], [], [], [], []]`
+- **Output:** `[null, [1, 0], [2, 0], [0, 0], null, [2, 0]]`
+- **Explanation:** Solution solution = new Solution(3, 1);
+solution.flip(); // return [1, 0], [0,0], [1,0], and [2,0] should be equally likely to be returned.
+solution.flip(); // return [2, 0], Since [1,0] was returned, [2,0] and [0,0]
+solution.flip(); // return [0, 0], Based on the previously returned indices, only [0,0] can be returned.
+solution.reset(); // All the values are reset to 0 and can be returned.
+solution.flip(); // return [2, 0], [0,0], [1,0], and [2,0] should be equally likely to be returned.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Random Flip Matrix**, we observe the problem requirements and utilize the **Two Pointers** technique. By maintaining a **Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Array** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Random Flip Matrix**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `["Solution", "flip", "flip", "flip", "reset", "flip"]
+[[3, 1], [], [], [], [], []]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[null, [1, 0], [2, 0], [0, 0], null, [2, 0]]`.
+4. **Verification:** Solution solution = new Solution(3, 1);
+solution.flip(); // return [1, 0], [0,0], [1,0], and [2,0] should be equally likely to be returned.
+solution.flip(); // return [2, 0], Since [1,0] was returned, [2,0] and [0,0]
+solution.flip(); // return [0, 0], Based on the previously returned indices, only [0,0] can be returned.
+solution.reset(); // All the values are reset to 0 and can be returned.
+solution.flip(); // return [2, 0], [0,0], [1,0], and [2,0] should be equally likely to be returned.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -51,6 +88,33 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+import random
+
+class Solution(object):
+
+    def __init__(self, m, n):
+        self.m = m
+        self.n = n
+        self.total = m * n
+        self.rem = self.total
+        self.flipped = {}
+
+    def flip(self):
+        r = random.randint(0, self.rem - 1)
+        self.rem -= 1
+        
+        actual = self.flipped.get(r, r)
+        self.flipped[r] = self.flipped.get(self.rem, self.rem)
+        
+        return [actual // self.n, actual % self.n]
+
+    def reset(self):
+        self.rem = self.total
+        self.flipped.clear()
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +129,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2556. Disconnect Path in a Binary Matrix by at Most One Flip](../../2501-3000/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
-- [138. Copy List with Random Pointer](../../0001-0500/0138-copy-list-with-random-pointer/)
-- [382. Linked List Random Node](../../0001-0500/0382-linked-list-random-node/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/random-flip-matrix/)

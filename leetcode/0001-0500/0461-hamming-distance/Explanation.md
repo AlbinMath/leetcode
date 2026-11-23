@@ -16,26 +16,52 @@ Solve LeetCode Hamming Distance using Python and Bit Manipulation. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-The  Hamming distance  between two integers is the number of positions at which the corresponding bits are different.
+## Problem Statement
+The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
+
+Given two integers `x` and `y`, return *the **Hamming distance** between them*.
+
+## Constraints
+- `0 <= x, y <= 2^31 - 1`
+
+## Examples
+### Example 1
+- **Input:** `x = 1, y = 4`
+- **Output:** `2`
+- **Explanation:** 1 (0 0 0 1)
+4 (0 1 0 0)
+ &uarr; &uarr;
+The above arrows point to positions where the corresponding bits are different.
+
+### Example 2
+- **Input:** `x = 3, y = 1`
+- **Output:** `1`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Hamming Distance**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Hamming Distance**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `x = 1, y = 4`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** 1 (0 0 0 1)
+4 (0 1 0 0)
+ &uarr; &uarr;
+The above arrows point to positions where the corresponding bits are different.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +75,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def hammingDistance(self, x, y):
+        xor = x ^ y
+        count = 0
+
+        while xor:
+            count += xor & 1
+            xor >>= 1
+
+        return count
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,58 @@ Solve LeetCode Longest Common Subsequence using JavaScript and Dynamic Programmi
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given two strings  text1  and  text2 , return  the length of their longest  common subsequence .  If there is no  common subsequence , return  0 .
+## Problem Statement
+Given two strings `text1` and `text2`, return *the length of their longest **common subsequence**. *If there is no **common subsequence**, return `0`.
+
+A **subsequence** of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+
+For example, `"ace"` is a subsequence of `"abcde"`.
+
+A **common subsequence** of two strings is a subsequence that is common to both strings.
+
+## Constraints
+- `1 <= text1.length, text2.length <= 1000`
+- `text1` and `text2` consist of only lowercase English characters.
+
+## Examples
+### Example 1
+- **Input:** `text1 = "abcde", text2 = "ace"`
+- **Output:** `3`
+- **Explanation:** The longest common subsequence is "ace" and its length is 3.
+
+### Example 2
+- **Input:** `text1 = "abc", text2 = "abc"`
+- **Output:** `3`
+- **Explanation:** The longest common subsequence is "abc" and its length is 3.
+
+### Example 3
+- **Input:** `text1 = "abc", text2 = "def"`
+- **Output:** `0`
+- **Explanation:** There is no such common subsequence, so the result is 0.
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Longest Common Subsequence**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We decompose the problem into overlapping subproblems using a **DP Table / Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Longest Common Subsequence**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `text1 = "abcde", text2 = "ace"`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** The longest common subsequence is "ace" and its length is 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -51,6 +83,34 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var longestCommonSubsequence = function(text1, text2) {
+    const m = text1.length;
+    const n = text2.length;
+
+    const dp = Array.from(
+        { length: m + 1 },
+        () => Array(n + 1).fill(0)
+    );
+
+    for (let i = 1; i <= m; i++) {
+        for (let j = 1; j <= n; j++) {
+            if (text1[i - 1] === text2[j - 1]) {
+                dp[i][j] = dp[i - 1][j - 1] + 1;
+            } else {
+                dp[i][j] = Math.max(
+                    dp[i - 1][j],
+                    dp[i][j - 1]
+                );
+            }
+        }
+    }
+
+    return dp[m][n];
+};
+```
+
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,9 +124,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
 - [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
 - [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
+- [521. Longest Uncommon Subsequence I](../../0501-1000/0521-longest-uncommon-subsequence-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-common-subsequence/)

@@ -16,26 +16,50 @@ Solve LeetCode Sum of Number and Its Reverse using Python and Array / General. T
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a  non-negative  integer  num , return  true   if   num   can be expressed as the sum of any  non-negative  integer and its reverse, or   false   otherwise.
+## Problem Statement
+Given a **non-negative** integer `num`, return `true`* if *`num`* can be expressed as the sum of any **non-negative** integer and its reverse, or *`false`* otherwise.*
+
+## Constraints
+- `0 <= num <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `num = 443`
+- **Output:** `true`
+- **Explanation:** 172 + 271 = 443, where 271 is the reverse of 172. Therefore, we return true.
+
+### Example 2
+- **Input:** `num = 63`
+- **Output:** `false`
+- **Explanation:** 63 cannot be expressed as the sum of a non-negative integer and its reverse. Therefore, we return false.
+
+### Example 3
+- **Input:** `num = 181`
+- **Output:** `true`
+- **Explanation:** 140 + 041 = 181, where 041 represents 41, the reverse of 140. Reversed numbers may contain leading zeros. Therefore, we return true.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sum of Number and Its Reverse**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sum of Number and Its Reverse**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `num = 443`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** 172 + 271 = 443, where 271 is the reverse of 172. Therefore, we return true.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +72,13 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def sumOfNumberAndReverse(self, num):
+        return any(x + int(str(x)[::-1]) == num for x in range(num // 2, num + 1))
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +94,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3918. Sum of Primes Between Number and Its Reverse](../../4001-4500/4297-sum-of-primes-between-number-and-its-reverse/)
+- [3750. Minimum Number of Flips to Reverse Binary String](../../4001-4500/4126-minimum-number-of-flips-to-reverse-binary-string/)
 - [1074. Number of Submatrices That Sum to Target](../../1001-1500/1145-number-of-submatrices-that-sum-to-target/)
-- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1501-2000/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-number-and-its-reverse/)

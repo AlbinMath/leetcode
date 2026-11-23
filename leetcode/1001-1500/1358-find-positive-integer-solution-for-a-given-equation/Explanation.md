@@ -1,7 +1,7 @@
 # LeetCode 1237: Find Positive Integer Solution for a Given Equation
 
 **LeetCode Problem #1237 — Find Positive Integer Solution for a Given Equation**
-Solve LeetCode Find Positive Integer Solution for a Given Equation using Python and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
+Solve LeetCode Find Positive Integer Solution for a Given Equation using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,96 @@ Solve LeetCode Find Positive Integer Solution for a Given Equation using Python 
 | LeetCode | #1237 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Monotonic Stack Filtering |
-| Data Structure | Stack |
-| Pattern | Monotonic Stack |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## Problem
-Given a callable function  f(x, y)   with a hidden formula  and a value  z , reverse engineer the formula and return  all positive integer pairs   x   and   y   where   f(x,y) == z . You may return the pairs in any order.
+## Problem Statement
+Given a callable function `f(x, y)` **with a hidden formula** and a value `z`, reverse engineer the formula and return *all positive integer pairs *`x`* and *`y`* where *`f(x,y) == z`. You may return the pairs in any order.
+
+While the exact formula is hidden, the function is monotonically increasing, i.e.:
+
+`f(x, y) < f(x + 1, y)` 
+ `f(x, y) < f(x, y + 1)`
+
+The function interface is defined like this:
+
+interface CustomFunction {
+public:
+ // Returns some positive integer f(x, y) for two positive integers x and y based on a formula.
+ int f(int x, int y);
+};
+
+We will judge your solution as follows:
+
+The judge has a list of `9` hidden implementations of `CustomFunction`, along with a way to generate an **answer key** of all valid pairs for a specific `z`. 
+ The judge will receive two inputs: a `function_id` (to determine which implementation to test your code with), and the target `z`. 
+ The judge will call your `findSolution` and compare your results with the **answer key**. 
+ If your results match the **answer key**, your solution will be `Accepted`.
+
+## Constraints
+- `1 <= function_id <= 9`
+- `1 <= z <= 100`
+- It is guaranteed that the solutions of `f(x, y) == z` will be in the range `1 <= x, y <= 1000`.
+- It is also guaranteed that `f(x, y)` will fit in 32 bit signed integer if `1 <= x, y <= 1000`.
+
+## Examples
+### Example 1
+- **Input:** `function_id = 1, z = 5`
+- **Output:** `[[1,4],[2,3],[3,2],[4,1]]`
+- **Explanation:** The hidden formula for function_id = 1 is f(x, y) = x + y.
+The following positive integer values of x and y make f(x, y) equal to 5:
+x=1, y=4 -> f(1, 4) = 1 + 4 = 5.
+x=2, y=3 -> f(2, 3) = 2 + 3 = 5.
+x=3, y=2 -> f(3, 2) = 3 + 2 = 5.
+x=4, y=1 -> f(4, 1) = 4 + 1 = 5.
+
+### Example 2
+- **Input:** `function_id = 2, z = 5`
+- **Output:** `[[1,5],[5,1]]`
+- **Explanation:** The hidden formula for function_id = 2 is f(x, y) = x * y.
+The following positive integer values of x and y make f(x, y) equal to 5:
+x=1, y=5 -> f(1, 5) = 1 * 5 = 5.
+x=5, y=1 -> f(5, 1) = 5 * 1 = 5.
 
 ## Key Insight
-Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Monotonic Stack Filtering**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find Positive Integer Solution for a Given Equation**, we observe the problem requirements and utilize the **Monotonic Stack** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Monotonic Stack Filtering**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find Positive Integer Solution for a Given Equation**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `function_id = 1, z = 5`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[1,4],[2,3],[3,2],[4,1]]`.
+4. **Verification:** The hidden formula for function_id = 1 is f(x, y) = x + y.
+The following positive integer values of x and y make f(x, y) equal to 5:
+x=1, y=4 -> f(1, 4) = 1 + 4 = 5.
+x=2, y=3 -> f(2, 3) = 2 + 3 = 5.
+x=3, y=2 -> f(3, 2) = 3 + 2 = 5.
+x=4, y=1 -> f(4, 1) = 4 + 1 = 5.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Monotonic Stack**
+**Two Pointers**
 
 ## Topics
-- Stack
-- Monotonic Stack
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 Python
@@ -51,22 +107,43 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def findSolution(self, customfunction: 'CustomFunction', z: int) -> List[List[int]]:
+        res = []
+        x, y = 1, 1000
+        while x <= 1000 and y >= 1:
+            v = customfunction.f(x, y)
+            if v < z:
+                x += 1
+            elif v > z:
+                y -= 1
+            else:
+                res.append([x, y])
+                x += 1
+                y -= 1
+        return res
+```
+
 ## Why This Works
-By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Pushing elements instead of indices when index distance is required.
-2. Using strict inequality (`<`) when non-strict (`<=`) is necessary.
-3. Forgetting to flush remaining elements from stack at the end.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Linear stack processing, nearest element relationship analysis.
-- **Follow-up:** How do you handle circular array boundaries?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [1394. Find Lucky Integer in an Array](../../1501-2000/1510-find-lucky-integer-in-an-array/)
 - [1985. Find the Kth Largest Integer in the Array](../../2001-2500/2113-find-the-kth-largest-integer-in-the-array/)
-- [2485. Find the Pivot Integer](../../2501-3000/2571-find-the-pivot-integer/)
+- [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2220-find-all-possible-recipes-from-given-supplies/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)

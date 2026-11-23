@@ -1,7 +1,7 @@
 # LeetCode 1722: Minimize Hamming Distance After Swap Operations
 
 **LeetCode Problem #1722 — Minimize Hamming Distance After Swap Operations**
-Solve LeetCode Minimize Hamming Distance After Swap Operations using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Minimize Hamming Distance After Swap Operations using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,81 @@ Solve LeetCode Minimize Hamming Distance After Swap Operations using Python and 
 | LeetCode | #1722 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-You are given two integer arrays,  source  and  target , both of length  n . You are also given an array  allowedSwaps  where each  allowedSwaps[i] = [a i , b i ]  indicates that you are allowed to swap the elements at index  a i   and index  b i    (0-indexed)  of array  source . Note that you can swap elements at a specific pair of indices  multiple  times and in  any  order.
+## Problem Statement
+You are given two integer arrays, `source` and `target`, both of length `n`. You are also given an array `allowedSwaps` where each `allowedSwaps[i] = [a_i, b_i]` indicates that you are allowed to swap the elements at index `a_i` and index `b_i` **(0-indexed)** of array `source`. Note that you can swap elements at a specific pair of indices **multiple** times and in **any** order.
+
+The **Hamming distance** of two arrays of the same length, `source` and `target`, is the number of positions where the elements are different. Formally, it is the number of indices `i` for `0 <= i <= n-1` where `source[i] != target[i]` **(0-indexed)**.
+
+Return *the **minimum Hamming distance** of *`source`* and *`target`* after performing **any** amount of swap operations on array *`source`*.*
+
+## Constraints
+- `n == source.length == target.length`
+- `1 <= n <= 10^5`
+- `1 <= source[i], target[i] <= 10^5`
+- `0 <= allowedSwaps.length <= 10^5`
+- `allowedSwaps[i].length == 2`
+- `0 <= a_i, b_i <= n - 1`
+- `a_i != b_i`
+
+## Examples
+### Example 1
+- **Input:** `source = [1,2,3,4], target = [2,1,4,5], allowedSwaps = [[0,1],[2,3]]`
+- **Output:** `1`
+- **Explanation:** source can be transformed the following way:
+- Swap indices 0 and 1: source = [ 2 , 1 ,3,4]
+- Swap indices 2 and 3: source = [2,1, 4 , 3 ]
+The Hamming distance of source and target is 1 as they differ in 1 position: index 3.
+
+### Example 2
+- **Input:** `source = [1,2,3,4], target = [1,3,2,4], allowedSwaps = []`
+- **Output:** `2`
+- **Explanation:** There are no allowed swaps.
+The Hamming distance of source and target is 2 as they differ in 2 positions: index 1 and index 2.
+
+### Example 3
+- **Input:** `source = [5,1,2,4,3], target = [1,5,4,2,3], allowedSwaps = [[0,4],[4,2],[1,3],[1,4]]`
+- **Output:** `0`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimize Hamming Distance After Swap Operations**, we observe the problem requirements and utilize the **Array / General** technique. By maintaining a **Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Array** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimize Hamming Distance After Swap Operations**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `source = [1,2,3,4], target = [2,1,4,5], allowedSwaps = [[0,1],[2,3]]`.
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** source can be transformed the following way:
+- Swap indices 0 and 1: source = [ 2 , 1 ,3,4]
+- Swap indices 2 and 3: source = [2,1, 4 , 3 ]
+The Hamming distance of source and target is 1 as they differ in 1 position: index 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Array / General**
+**Hash Map**
 
 ## Topics
+- Hash Table
 - Array
+- Complement Lookup
 
 ## Language
 Python
@@ -49,22 +92,65 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from collections import defaultdict, Counter
+from typing import List
+
+class Solution:
+    def minimumHammingDistance(self, source: List[int], target: List[int], allowedSwaps: List[List[int]]) -> int:
+        n = len(source)
+        parent = list(range(n))
+
+        def find(x: int) -> int:
+            if parent[x] != x:
+                parent[x] = find(parent[x])
+            return parent[x]
+
+        def union(x: int, y: int):
+            rx, ry = find(x), find(y)
+            if rx != ry:
+                parent[rx] = ry
+
+        # 1. Group indices into components
+        for u, v in allowedSwaps:
+            union(u, v)
+
+        # 2. Count frequencies of source elements in each component
+        component_counts = defaultdict(Counter)
+        for i in range(n):
+            root = find(i)
+            component_counts[root][source[i]] += 1
+
+        # 3. Match with target elements
+        hamming_distance = 0
+        for i in range(n):
+            root = find(i)
+            val = target[i]
+            if component_counts[root][val] > 0:
+                component_counts[root][val] -= 1
+            else:
+                hamming_distance += 1
+
+        return hamming_distance
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3012. Minimize Length of Array Using Operations](../../3001-3500/3244-minimize-length-of-array-using-operations/)
-- [3022. Minimize OR of Remaining Elements Using Operations](../../3001-3500/3261-minimize-or-of-remaining-elements-using-operations/)
 - [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
+- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
+- [3243. Shortest Distance After Road Addition Queries I](../../3501-4000/3517-shortest-distance-after-road-addition-queries-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)

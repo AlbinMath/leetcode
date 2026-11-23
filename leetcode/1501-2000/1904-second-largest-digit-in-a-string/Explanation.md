@@ -16,26 +16,48 @@ Solve LeetCode Second Largest Digit in a String using C++ and Math & Logic. This
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an alphanumeric string  s , return  the  second largest  numerical digit that appears in   s  , or   -1   if it does not exist .
+## Problem Statement
+Given an alphanumeric string `s`, return *the **second largest** numerical digit that appears in *`s`*, or *`-1`* if it does not exist*.
+
+An **alphanumeric**** **string is a string consisting of lowercase English letters and digits.
+
+## Constraints
+- `1 <= s.length <= 500`
+- `s` consists of only lowercase English letters and digits.
+
+## Examples
+### Example 1
+- **Input:** `s = "dfa12321afd"`
+- **Output:** `2`
+- **Explanation:** The digits that appear in s are [1, 2, 3]. The second largest digit is 2.
+
+### Example 2
+- **Input:** `s = "abc1111"`
+- **Output:** `-1`
+- **Explanation:** The digits that appear in s are [1]. There is no second largest digit.
 
 ## Key Insight
 Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Mathematical Simulation & Modular Arithmetic**. By maintaining state efficiently in a **Primitive Types**, we eliminate redundant operations and process each element in optimal time.
+To solve **Second Largest Digit in a String**, we observe the problem requirements and utilize the **Math & Logic** technique. We iterate through the inputs using **Mathematical Simulation & Modular Arithmetic**, leveraging a **Primitive Types** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Types**).
-2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Primitive Types**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Second Largest Digit in a String**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "dfa12321afd"`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The digits that appear in s are [1, 2, 3]. The second largest digit is 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
 **Math & Logic**
@@ -50,6 +72,36 @@ C++
 ## Source Code
 - [solution.cpp](./solution.cpp)
 
+
+```cpp
+class Solution {
+public:
+    int secondHighest(string s) {
+        bool seen[10] = {false};
+
+        for (char c : s) {
+            if (isdigit(c)) {
+                seen[c - '0'] = true;
+            }
+        }
+
+        int count = 0;
+
+        for (int i = 9; i >= 0; i--) {
+            if (seen[i]) {
+                count++;
+
+                if (count == 2) {
+                    return i;
+                }
+            }
+        }
+
+        return -1;
+    }
+};
+```
+
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -63,9 +115,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2243. Calculate Digit Sum of a String](../../2001-2500/2361-calculate-digit-sum-of-a-string/)
 - [1903. Largest Odd Number in String](../../2001-2500/2032-largest-odd-number-in-string/)
-- [3403. Find the Lexicographically Largest String From the Box I](../../3501-4000/3683-find-the-lexicographically-largest-string-from-the-box-i/)
-- [4036. Lexicographically Largest String After Pair Transformations](../../4001-4500/4366-lexicographically-largest-string-after-pair-transformations/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/second-largest-digit-in-a-string/)

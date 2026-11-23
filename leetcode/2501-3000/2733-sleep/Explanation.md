@@ -16,8 +16,28 @@ Solve LeetCode Sleep using JavaScript and Array / General. This solution finds t
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a positive integer  millis , write an asynchronous function that sleeps for  millis  milliseconds. It can resolve any value.
+## Problem Statement
+Given a positive integer `millis`, write an asynchronous function that sleeps for `millis` milliseconds. It can resolve any value.
+
+**Note** that *minor* deviation from `millis` in the actual sleep duration is acceptable.
+
+## Constraints
+- `1 <= millis <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `millis = 100`
+- **Output:** `100`
+- **Explanation:** It should return a promise that resolves after 100ms.
+let t = Date.now();
+sleep(100).then(() => {
+ console.log(Date.now() - t); // 100
+});
+
+### Example 2
+- **Input:** `millis = 200`
+- **Output:** `200`
+- **Explanation:** It should return a promise that resolves after 200ms.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +50,21 @@ Returns `new Promise(resolve => setTimeout(resolve, millis))`. The `setTimeout` 
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Sleep**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `millis = 100`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `100`.
+4. **Verification:** It should return a promise that resolves after 100ms.
+let t = Date.now();
+sleep(100).then(() => {
+ console.log(Date.now() - t); // 100
+});
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,19 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+/**
+ * @param {number} millis
+ * @return {Promise}
+ */
+async function sleep(millis) {
+    return new Promise(resolve => {
+        setTimeout(resolve, millis);
+    });
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

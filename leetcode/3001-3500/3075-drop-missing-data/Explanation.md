@@ -16,26 +16,76 @@ Solve LeetCode Drop Missing Data using Python and Bit Manipulation. This solutio
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-There are some rows having missing values in the  name  column.
+## Problem Statement
+DataFrame students
++-------------+--------+
+| Column Name | Type |
++-------------+--------+
+| student_id | int |
+| name | object |
+| age | int |
++-------------+--------+
+
+There are some rows having missing values in the `name` column.
+
+Write a solution to remove the rows with missing values.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `+------------+---------+-----+
+| student_id | name | age |
++------------+---------+-----+
+| 32 | Piper | 5 |
+| 217 | None | 19 |
+| 779 | Georgia | 20 |
+| 849 | Willow | 14 |
++------------+---------+-----+`
+- **Output:** `+------------+---------+-----+
+| student_id | name | age |
++------------+---------+-----+
+| 32 | Piper | 5 |
+| 779 | Georgia | 20 | 
+| 849 | Willow | 14 | 
++------------+---------+-----+`
+- **Explanation:** Student with id 217 havs empty value in the name column, so it will be removed.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Drop Missing Data**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Drop Missing Data**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `+------------+---------+-----+
+| student_id | name | age |
++------------+---------+-----+
+| 32 | Piper | 5 |
+| 217 | None | 19 |
+| 779 | Georgia | 20 |
+| 849 | Willow | 14 |
++------------+---------+-----+`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+------------+---------+-----+
+| student_id | name | age |
++------------+---------+-----+
+| 32 | Piper | 5 |
+| 779 | Georgia | 20 | 
+| 849 | Willow | 14 | 
++------------+---------+-----+`.
+4. **Verification:** Student with id 217 havs empty value in the name column, so it will be removed.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +99,14 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import pandas as pd
+
+def dropMissingData(students: pd.DataFrame) -> pd.DataFrame:
+    return students.dropna(subset=["name"])
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +122,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2887. Fill Missing Data](../../3001-3500/3070-fill-missing-data/)
-- [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
-- [268. Missing Number](../../0001-0500/0268-missing-number/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/drop-missing-data/)

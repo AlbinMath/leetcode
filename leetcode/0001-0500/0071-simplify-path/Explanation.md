@@ -1,7 +1,7 @@
 # LeetCode 71: Simplify Path
 
 **LeetCode Problem #71 — Simplify Path**
-Solve LeetCode Simplify Path using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Simplify Path using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,91 @@ Solve LeetCode Simplify Path using Python and Tree & Graph. This solution finds 
 | LeetCode | #71 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an  absolute  path for a Unix-style file system, which always begins with a slash  &#39;/&#39; . Your task is to transform this absolute path into its  simplified canonical path .
+## Problem Statement
+You are given an *absolute* path for a Unix-style file system, which always begins with a slash `'/'`. Your task is to transform this absolute path into its **simplified canonical path**.
+
+The *rules* of a Unix-style file system are as follows:
+
+A single period `'.'` represents the current directory. 
+ A double period `'..'` represents the previous/parent directory. 
+ Multiple consecutive slashes such as `'//'` and `'///'` are treated as a single slash `'/'`. 
+ Any sequence of periods that does **not match** the rules above should be treated as a **valid directory or** **file ****name**. For example, `'...' `and `'....'` are valid directory or file names.
+
+The simplified canonical path should follow these *rules*:
+
+The path must start with a single slash `'/'`. 
+ Directories within the path must be separated by exactly one slash `'/'`. 
+ The path must not end with a slash `'/'`, unless it is the root directory. 
+ The path must not have any single or double periods (`'.'` and `'..'`) used to denote current or parent directories.
+
+Return the **simplified canonical path**.
+
+## Constraints
+- `1 <= path.length <= 3000`
+- `path` consists of English letters, digits, period `'.'`, slash `'/'` or `'_'`.
+- `path` is a valid absolute Unix path.
+
+## Examples
+### Example 1
+- **Input:** `path = "/home/"`
+- **Output:** `"/home"`
+- **Explanation:** The trailing slash should be removed.
+
+### Example 2
+- **Input:** `path = "/home//foo/"`
+- **Output:** `"/home/foo"`
+- **Explanation:** Multiple consecutive slashes are replaced by a single one.
+
+### Example 3
+- **Input:** `path = "/home/user/Documents/../Pictures"`
+- **Output:** `"/home/user/Pictures"`
+- **Explanation:** A double period `".."` refers to the directory up a level (the parent directory).
+
+### Example 4
+- **Input:** `path = "/../"`
+- **Output:** `"/"`
+- **Explanation:** Going one level up from the root directory is not possible.
+
+### Example 5
+- **Input:** `path = "/.../a/../b/c/../d/./"`
+- **Output:** `"/.../b/d"`
+- **Explanation:** `"..."` is a valid name for a directory in this problem.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Simplify Path**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Simplify Path**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `path = "/home/"`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"/home"`.
+4. **Verification:** The trailing slash should be removed.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -52,8 +102,30 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def simplifyPath(self, path):
+        stack = []
+
+        parts = path.split('/')
+
+        for part in parts:
+            if part == '' or part == '.':
+                continue
+
+            elif part == '..':
+                if stack:
+                    stack.pop()
+
+            else:
+                stack.append(part)
+
+        return '/' + '/'.join(stack)
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

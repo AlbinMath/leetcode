@@ -16,26 +16,64 @@ Solve LeetCode Check if Word Can Be Placed In Crossword using Python and Array /
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an  m x n  matrix  board , representing the  current  state of a crossword puzzle. The crossword contains lowercase English letters (from solved words),  &#39; &#39;  to represent any  empty  cells, and  &#39;#&#39;  to represent any  blocked  cells.
+## Problem Statement
+You are given an `m x n` matrix `board`, representing the** current **state of a crossword puzzle. The crossword contains lowercase English letters (from solved words), `' '` to represent any **empty **cells, and `'#'` to represent any **blocked** cells.
+
+A word can be placed** horizontally** (left to right **or** right to left) or **vertically** (top to bottom **or** bottom to top) in the board if:
+
+It does not occupy a cell containing the character `'#'`. 
+ The cell each letter is placed in must either be `' '` (empty) or **match** the letter already on the `board`. 
+ There must not be any empty cells `' '` or other lowercase letters **directly left or right**** **of the word if the word was placed **horizontally**. 
+ There must not be any empty cells `' '` or other lowercase letters **directly above or below** the word if the word was placed **vertically**.
+
+Given a string `word`, return `true`* if *`word`* can be placed in *`board`*, or *`false`* **otherwise***.
+
+## Constraints
+- `m == board.length`
+- `n == board[i].length`
+- `1 <= m * n <= 2 * 10^5`
+- `board[i][j]` will be `' '`, `'#'`, or a lowercase English letter.
+- `1 <= word.length <= max(m, n)`
+- `word` will contain only lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `board = [["#", " ", "#"], [" ", " ", "#"], ["#", "c", " "]], word = "abc"`
+- **Output:** `true`
+- **Explanation:** The word "abc" can be placed as shown above (top to bottom).
+
+### Example 2
+- **Input:** `board = [[" ", "#", "a"], [" ", "#", "c"], [" ", "#", "a"]], word = "ac"`
+- **Output:** `false`
+- **Explanation:** It is impossible to place the word because there will always be a space/letter above or below it.
+
+### Example 3
+- **Input:** `board = [["#", " ", "#"], [" ", " ", "#"], ["#", " ", "c"]], word = "ca"`
+- **Output:** `true`
+- **Explanation:** The word "ca" can be placed as shown above (right to left).
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Check if Word Can Be Placed In Crossword**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Check if Word Can Be Placed In Crossword**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `board = [["#", " ", "#"], [" ", " ", "#"], ["#", "c", " "]], word = "abc"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** The word "abc" can be placed as shown above (top to bottom).
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +86,33 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def placeWordInCrossword(self, board, word):
+        n = len(word)
+        rev = word[::-1]
+
+        def can_fit(line):
+            for slot in "".join(line).split("#"):
+                if len(slot) == n:
+                    if all(c == " " or c == w for c, w in zip(slot, word)):
+                        return True
+                    if all(c == " " or c == w for c, w in zip(slot, rev)):
+                        return True
+            return False
+
+        for row in board:
+            if can_fit(row):
+                return True
+
+        for col in zip(*board):
+            if can_fit(col):
+                return True
+
+        return False
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

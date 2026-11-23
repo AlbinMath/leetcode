@@ -1,7 +1,7 @@
 # LeetCode 4105: Repeated String Match II
 
 **LeetCode Problem #4105 — Repeated String Match II**
-Solve LeetCode Repeated String Match II using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Repeated String Match II using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,76 @@ Solve LeetCode Repeated String Match II using JavaScript and Array / General. Th
 | LeetCode | #4105 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two strings  a  and  b  consisting of lowercase English letters, and two integers  x  and  y .
+## Problem Statement
+You are given two strings `a` and `b` consisting of lowercase English letters, and two integers `x` and `y`.
+
+Return `true` if the string formed by repeating `b` **exactly** `y` times (`b * y`) is a ** substring ** of the string formed by repeating `a` **exactly** `x` times (`a * x`). Otherwise, return `false`.
+
+## Constraints
+- `1 <= a.length <= 100`
+- `1 <= b.length <= 100`
+- `1 <= x <= 10^9`
+- `1 <= y <= 10^9`​​​​​​​
+- `a` and `b` consist of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `a = "ab", b = "abab", x = 2, y = 1`
+- **Output:** `true`
+- **Explanation:** `a * x = "ab" * 2 = "abab"` 
+ `b * y = "abab" * 1 = "abab"` 
+ They are identical, so `b * y` is a substring of `a * x`. Thus, the answer is `true`.
+
+### Example 2
+- **Input:** `a = "abc", b = "bc", x = 2, y = 3`
+- **Output:** `false`
+- **Explanation:** `a * x = "abc" * 2 = "abcabc"` 
+ `b * y = "bc" * 3 = "bcbcbc"` 
+ The answer is `false` as `b * y = "bcbcbc"` is not a substring of `a * x = "abcabc"`.
+
+### Example 3
+- **Input:** `a = "abcd", b = "cdab", x = 2, y = 1`
+- **Output:** `true`
+- **Explanation:** `a * x = "abcd" * 2 = "abcdabcd"` 
+ `b * y = "cdab"` appears in `a * x = "abcdabcd"` at indices `[2..5]`. Thus, the answer is `true`.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Repeated String Match II**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Repeated String Match II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `a = "ab", b = "abab", x = 2, y = 1`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** `a * x = "ab" * 2 = "abab"` 
+ `b * y = "abab" * 1 = "abab"` 
+ They are identical, so `b * y` is a substring of `a * x`. Thus, the answer is `true`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 JavaScript
@@ -49,8 +87,29 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var repeatedStringMatch = function(a, b, x, y) {
+    const la = a.length;
+    const lb = b.length;
+    const totalA = BigInt(la) * BigInt(x);
+    const totalB = BigInt(lb) * BigInt(y);
+
+    if (totalB > totalA) return false;
+    const minRepsB = Math.ceil((la + lb) / lb) + 1;
+    const effY = Math.min(y, minRepsB);
+    const pattern = b.repeat(effY);
+    const maxOffset = Number(totalA - totalB < BigInt(la - 1) ? totalA - totalB : BigInt(la - 1));
+    const neededLenA = maxOffset + pattern.length;
+    const effX = Math.min(x, Math.ceil(neededLenA / la));
+    const text = a.repeat(effX);
+    const firstMatch = text.indexOf(pattern);
+    return firstMatch !== -1 && BigInt(firstMatch) <= totalA - totalB;
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

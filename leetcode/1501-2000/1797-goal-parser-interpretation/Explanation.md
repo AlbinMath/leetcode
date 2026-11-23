@@ -16,26 +16,59 @@ Solve LeetCode Goal Parser Interpretation using C++ and Array / General. This so
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You own a  Goal Parser  that can interpret a string  command . The  command  consists of an alphabet of  "G" ,  "()"  and/or  "(al)"  in some order. The Goal Parser will interpret  "G"  as the string  "G" ,  "()"  as the string  "o" , and  "(al)"  as the string  "al" . The interpreted strings are then concatenated in the original order.
+## Problem Statement
+You own a **Goal Parser** that can interpret a string `command`. The `command` consists of an alphabet of `"G"`, `"()"` and/or `"(al)"` in some order. The Goal Parser will interpret `"G"` as the string `"G"`, `"()"` as the string `"o"`, and `"(al)"` as the string `"al"`. The interpreted strings are then concatenated in the original order.
+
+Given the string `command`, return *the **Goal Parser**'s interpretation of *`command`.
+
+## Constraints
+- `1 <= command.length <= 100`
+- `command` consists of `"G"`, `"()"`, and/or `"(al)"` in some order.
+
+## Examples
+### Example 1
+- **Input:** `command = "G()(al)"`
+- **Output:** `"Goal"`
+- **Explanation:** The Goal Parser interprets the command as follows:
+G -> G
+() -> o
+(al) -> al
+The final concatenated result is "Goal".
+
+### Example 2
+- **Input:** `command = "G()()()()(al)"`
+- **Output:** `"Gooooal"`
+
+### Example 3
+- **Input:** `command = "(al)G(al)()()G"`
+- **Output:** `"alGalooG"`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Goal Parser Interpretation**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Goal Parser Interpretation**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `command = "G()(al)"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"Goal"`.
+4. **Verification:** The Goal Parser interprets the command as follows:
+G -> G
+() -> o
+(al) -> al
+The final concatenated result is "Goal".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +81,32 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    string interpret(string command) {
+        string result = "";
+
+        for (int i = 0; i < command.size(); i++) {
+            if (command[i] == 'G') {
+                result += 'G';
+            }
+            else if (command[i] == '(' && command[i + 1] == ')') {
+                result += 'o';
+                i++;
+            }
+            else {
+                result += "al";
+                i += 3;
+            }
+        }
+
+        return result;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,74 @@ Solve LeetCode Duplicate Emails using SQL and Database / SQL. This solution find
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Person`
+
++-------------+---------+
+| Column Name | Type |
++-------------+---------+
+| id | int |
+| email | varchar |
++-------------+---------+
 id is the primary key (column with unique values) for this table.
+Each row of this table contains an email. The emails will not contain uppercase letters.
+
+Write a solution to report all the duplicate emails. Note that it's guaranteed that the email field is not NULL.
+
+Return the result table in **any order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Person table:
++----+---------+
+| id | email |
++----+---------+
+| 1 | a@b.com |
+| 2 | c@d.com |
+| 3 | a@b.com |
++----+---------+`
+- **Output:** `+---------+
+| Email |
++---------+
+| a@b.com |
++---------+`
+- **Explanation:** a@b.com is repeated two times.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Duplicate Emails** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We group records using `GROUP BY` and compute metrics with aggregate functions. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Group records and calculate aggregated summary metrics.
+2. Filter records according to problem criteria.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Duplicate Emails**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Person table:
++----+---------+
+| id | email |
++----+---------+
+| 1 | a@b.com |
+| 2 | c@d.com |
+| 3 | a@b.com |
++----+---------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+---------+
+| Email |
++---------+
+| a@b.com |
++---------+`.
+4. **Verification:** a@b.com is repeated two times.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -51,6 +99,14 @@ SQL
 ## Source Code
 - [solution.sql](./solution.sql)
 
+
+```sql
+SELECT email AS Email
+FROM Person
+GROUP BY email
+HAVING COUNT(*) > 1;
+```
+
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +121,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [196. Delete Duplicate Emails](../../0001-0500/0196-delete-duplicate-emails/)
+- [3436. Find Valid Emails](../../3501-4000/3782-find-valid-emails/)
 - [217. Contains Duplicate](../../0001-0500/0217-contains-duplicate/)
-- [219. Contains Duplicate II](../../0001-0500/0219-contains-duplicate-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/duplicate-emails/)

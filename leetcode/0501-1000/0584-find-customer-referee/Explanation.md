@@ -16,26 +16,87 @@ Solve LeetCode Find Customer Referee using SQL and Database / SQL. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Customer`
+
++-------------+---------+
+| Column Name | Type |
++-------------+---------+
+| id | int |
+| name | varchar |
+| referee_id | int |
++-------------+---------+
 In SQL, id is the primary key column for this table.
+Each row of this table indicates the id of a customer, their name, and the id of the customer who referred them.
+
+Find the names of the customer that are either:
+
+**referred by** any customer with `id != 2`. 
+ **not referred by** any customer.
+
+Return the result table in **any order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Customer table:
++----+------+------------+
+| id | name | referee_id |
++----+------+------------+
+| 1 | Will | null |
+| 2 | Jane | null |
+| 3 | Alex | 2 |
+| 4 | Bill | null |
+| 5 | Zack | 1 |
+| 6 | Mark | 2 |
++----+------+------------+`
+- **Output:** `+------+
+| name |
++------+
+| Will |
+| Jane |
+| Bill |
+| Zack |
++------+`
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Find Customer Referee** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Filter records according to problem criteria.
+2. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Find Customer Referee**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Customer table:
++----+------+------------+
+| id | name | referee_id |
++----+------+------------+
+| 1 | Will | null |
+| 2 | Jane | null |
+| 3 | Alex | 2 |
+| 4 | Bill | null |
+| 5 | Zack | 1 |
+| 6 | Mark | 2 |
++----+------+------------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+------+
+| name |
++------+
+| Will |
+| Jane |
+| Bill |
+| Zack |
++------+`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +111,13 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT name
+FROM Customer
+WHERE referee_id != 2 OR referee_id IS NULL;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,8 +16,44 @@ Solve LeetCode Print FooBar Alternately using Java and Hash Map. This solution f
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
 Suppose you are given the following code:
+
+class FooBar {
+ public void foo() {
+ for (int i = 0; i < n; i++) {
+ print("foo");
+ }
+ }
+
+public void bar() {
+ for (int i = 0; i < n; i++) {
+ print("bar");
+ }
+ }
+}
+
+The same instance of `FooBar` will be passed to two different threads:
+
+thread `A` will call `foo()`, while 
+ thread `B` will call `bar()`.
+
+Modify the given program to output `"foobar"` `n` times.
+
+## Constraints
+- `1 <= n <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `n = 1`
+- **Output:** `"foobar"`
+- **Explanation:** There are two threads being fired asynchronously. One of them calls foo(), while the other calls bar().
+"foobar" is being output 1 time.
+
+### Example 2
+- **Input:** `n = 2`
+- **Output:** `"foobarfoobar"`
+- **Explanation:** "foobar" is being output 2 times.
 
 ## Key Insight
 Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
@@ -36,12 +72,18 @@ This ping-pong of semaphores ensures strict alternation for `n` iterations.
 2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Print FooBar Alternately**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 1`.
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"foobar"`.
+4. **Verification:** There are two threads being fired asynchronously. One of them calls foo(), while the other calls bar().
+"foobar" is being output 1 time.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
 **Hash Map**
@@ -56,6 +98,50 @@ Java
 
 ## Source Code
 - [solution.java](./solution.java)
+
+
+```java
+class FooBar {
+    private int n;
+    private boolean fooTurn = true;
+
+    public FooBar(int n) {
+        this.n = n;
+    }
+
+    public synchronized void foo(Runnable printFoo) throws InterruptedException {
+        
+        for (int i = 0; i < n; i++) {
+            
+            while (!fooTurn) {
+                wait();
+            }
+
+            // printFoo.run() outputs "foo". Do not change or remove this line.
+            printFoo.run();
+
+            fooTurn = false;
+            notifyAll();
+        }
+    }
+
+    public synchronized void bar(Runnable printBar) throws InterruptedException {
+        
+        for (int i = 0; i < n; i++) {
+            
+            while (fooTurn) {
+                wait();
+            }
+
+            // printBar.run() outputs "bar". Do not change or remove this line.
+            printBar.run();
+
+            fooTurn = true;
+            notifyAll();
+        }
+    }
+}
+```
 
 ## Why This Works
 By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

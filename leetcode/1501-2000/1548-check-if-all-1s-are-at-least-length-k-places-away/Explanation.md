@@ -16,26 +16,47 @@ Solve LeetCode Check If All 1's Are at Least Length K Places Away using Python a
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an binary array  nums  and an integer  k , return  true   if all   1  &#39;s are at least   k   places away from each other, otherwise return   false .
+## Problem Statement
+Given an binary array `nums` and an integer `k`, return `true`* if all *`1`*'s are at least *`k`* places away from each other, otherwise return *`false`.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `0 <= k <= nums.length`
+- `nums[i]` is `0` or `1`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,0,0,0,1,0,0,1], k = 2`
+- **Output:** `true`
+- **Explanation:** Each of the 1s are at least 2 places away from each other.
+
+### Example 2
+- **Input:** `nums = [1,0,0,1,0,1], k = 2`
+- **Output:** `false`
+- **Explanation:** The second 1 and third 1 are only one apart from each other.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Check If All 1's Are at Least Length K Places Away**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Check If All 1's Are at Least Length K Places Away**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,0,0,0,1,0,0,1], k = 2`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Each of the 1s are at least 2 places away from each other.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +69,22 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def kLengthApart(self, nums: list[int], k: int) -> bool:
+        previous = -1
+
+        for i, num in enumerate(nums):
+            if num == 1:
+                if previous != -1 and i - previous <= k:
+                    return False
+
+                previous = i
+
+        return True
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

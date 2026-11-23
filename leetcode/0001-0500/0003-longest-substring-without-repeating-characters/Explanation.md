@@ -16,8 +16,29 @@ Solve LeetCode Longest Substring Without Repeating Characters using JavaScript, 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  s , find the length of the  longest    substring   without duplicate characters.
+## Problem Statement
+Given a string `s`, find the length of the **longest** **substring** without duplicate characters.
+
+## Constraints
+- `0 <= s.length <= 10^5`
+- `s` consists of English letters, digits, symbols and spaces.
+
+## Examples
+### Example 1
+- **Input:** `s = "abcabcbb"`
+- **Output:** `3`
+- **Explanation:** The answer is "abc", with the length of 3. Note that `"bca"` and `"cab"` are also correct answers.
+
+### Example 2
+- **Input:** `s = "bbbbb"`
+- **Output:** `1`
+- **Explanation:** The answer is "b", with the length of 1.
+
+### Example 3
+- **Input:** `s = "pwwkew"`
+- **Output:** `3`
+- **Explanation:** The answer is "wke", with the length of 3.
+Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
 ## Key Insight
 Maintain a dynamic contiguous window with two pointers (`left` and `right`), expanding to include new elements and shrinking when window invariants are violated.
@@ -36,12 +57,17 @@ The code uses a **Sliding Window** technique with two pointers (`left` and `righ
 2. Process elements sequentially using **Dynamic Sliding Window Traversal**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Longest Substring Without Repeating Characters**. Applying **Dynamic Sliding Window Traversal** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "abcabcbb"`.
+2. **Processing Steps:** We apply **Dynamic Sliding Window Traversal** using our **Array / Hash Set**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** The answer is "abc", with the length of 3. Note that `"bca"` and `"cab"` are also correct answers.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Hash Set.
 
 ## Pattern
 **Sliding Window**
@@ -57,6 +83,53 @@ JavaScript, Python
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var lengthOfLongestSubstring = function(s) {
+    const lastSeen = new Map();
+
+    let left = 0;
+    let maxLength = 0;
+
+    for (let right = 0; right < s.length; right++) {
+        const char = s[right];
+
+        // If the character repeats inside the current window,
+        // move left past its previous occurrence
+        if (lastSeen.has(char) && lastSeen.get(char) >= left) {
+            left = lastSeen.get(char) + 1;
+        }
+
+        lastSeen.set(char, right);
+
+        maxLength = Math.max(maxLength, right - left + 1);
+    }
+
+    return maxLength;
+};
+```
+
+### Python
+```python
+class Solution(object):
+    def lengthOfLongestSubstring(self, s):
+        seen = set()
+        left = 0
+        max_length = 0
+
+        for right in range(len(s)):
+            while s[right] in seen:
+                seen.remove(s[left])
+                left += 1
+
+            seen.add(s[right])
+
+            max_length = max(max_length, right - left + 1)
+
+        return max_length
+```
 
 ## Why This Works
 By utilizing **Sliding Window**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,102 @@ Solve LeetCode Customers Who Never Order using SQL and Database / SQL. This solu
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Customers`
+
++-------------+---------+
+| Column Name | Type |
++-------------+---------+
+| id | int |
+| name | varchar |
++-------------+---------+
 id is the primary key (column with unique values) for this table.
+Each row of this table indicates the ID and name of a customer.
+
+Table: `Orders`
+
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| id | int |
+| customerId | int |
++-------------+------+
+id is the primary key (column with unique values) for this table.
+customerId is a foreign key (reference columns) of the ID from the Customers table.
+Each row of this table indicates the ID of an order and the ID of the customer who ordered it.
+
+Write a solution to find all customers who never order anything.
+
+Return the result table in **any order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Customers table:
++----+-------+
+| id | name |
++----+-------+
+| 1 | Joe |
+| 2 | Henry |
+| 3 | Sam |
+| 4 | Max |
++----+-------+
+Orders table:
++----+------------+
+| id | customerId |
++----+------------+
+| 1 | 3 |
+| 2 | 1 |
++----+------------+`
+- **Output:** `+-----------+
+| Customers |
++-----------+
+| Henry |
+| Max |
++-----------+`
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Customers Who Never Order** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We join the tables on matching foreign and primary keys. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Join relevant tables on matching key columns.
+2. Filter records according to problem criteria.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Customers Who Never Order**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Customers table:
++----+-------+
+| id | name |
++----+-------+
+| 1 | Joe |
+| 2 | Henry |
+| 3 | Sam |
+| 4 | Max |
++----+-------+
+Orders table:
++----+------------+
+| id | customerId |
++----+------------+
+| 1 | 3 |
+| 2 | 1 |
++----+------------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+-----------+
+| Customers |
++-----------+
+| Henry |
+| Max |
++-----------+`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -51,6 +127,15 @@ SQL
 ## Source Code
 - [solution.sql](./solution.sql)
 
+
+```sql
+SELECT c.name AS Customers
+FROM Customers c
+LEFT JOIN Orders o
+    ON c.id = o.customerId
+WHERE o.customerId IS NULL;
+```
+
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +150,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1045. Customers Who Bought All Products](../../1001-1500/1135-customers-who-bought-all-products/)
-- [3657. Find Loyal Customers](../../4001-4500/4025-find-loyal-customers/)
-- [3705. Find Golden Hour Customers](../../4001-4500/4091-find-golden-hour-customers/)
+- [102. Binary Tree Level Order Traversal](../../0001-0500/0102-binary-tree-level-order-traversal/)
+- [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customers-who-never-order/)

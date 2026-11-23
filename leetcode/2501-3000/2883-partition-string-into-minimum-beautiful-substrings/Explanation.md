@@ -1,7 +1,7 @@
 # LeetCode 2767: Partition String Into Minimum Beautiful Substrings
 
 **LeetCode Problem #2767 — Partition String Into Minimum Beautiful Substrings**
-Solve LeetCode Partition String Into Minimum Beautiful Substrings using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Partition String Into Minimum Beautiful Substrings using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,83 @@ Solve LeetCode Partition String Into Minimum Beautiful Substrings using Python a
 | LeetCode | #2767 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-Given a binary string  s , partition the string into one or more  substrings  such that each substring is  beautiful .
+## Problem Statement
+Given a binary string `s`, partition the string into one or more **substrings** such that each substring is **beautiful**.
+
+A string is **beautiful** if:
+
+It doesn't contain leading zeros. 
+ It's the **binary** representation of a number that is a power of `5`.
+
+Return *the **minimum** number of substrings in such partition. *If it is impossible to partition the string `s` into beautiful substrings, return `-1`.
+
+A **substring** is a contiguous sequence of characters in a string.
+
+## Constraints
+- `1 <= s.length <= 15`
+- `s[i]` is either `'0'` or `'1'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "1011"`
+- **Output:** `2`
+- **Explanation:** We can paritition the given string into ["101", "1"].
+- The string "101" does not contain leading zeros and is the binary representation of integer 5^1 = 5.
+- The string "1" does not contain leading zeros and is the binary representation of integer 5^0 = 1.
+It can be shown that 2 is the minimum number of beautiful substrings that s can be partitioned into.
+
+### Example 2
+- **Input:** `s = "111"`
+- **Output:** `3`
+- **Explanation:** We can paritition the given string into ["1", "1", "1"].
+- The string "1" does not contain leading zeros and is the binary representation of integer 5^0 = 1.
+It can be shown that 3 is the minimum number of beautiful substrings that s can be partitioned into.
+
+### Example 3
+- **Input:** `s = "0"`
+- **Output:** `-1`
+- **Explanation:** We can not partition the given string into beautiful substrings.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Partition String Into Minimum Beautiful Substrings**, we observe the problem requirements and utilize the **Array / General** technique. We decompose the problem into overlapping subproblems using a **Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Partition String Into Minimum Beautiful Substrings**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "1011"`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** We can paritition the given string into ["101", "1"].
+- The string "101" does not contain leading zeros and is the binary representation of integer 5^1 = 5.
+- The string "1" does not contain leading zeros and is the binary representation of integer 5^0 = 1.
+It can be shown that 2 is the minimum number of beautiful substrings that s can be partitioned into.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Array / General**
+**Dynamic Programming**
 
 ## Topics
-- Array
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 Python
@@ -49,21 +94,42 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def minimumBeautifulSubstrings(self, s: str) -> int:
+        n = len(s)
+        pows = set()
+        v = 1
+        while v < (1 << n):
+            pows.add(bin(v)[2:])
+            v *= 5
+
+        INF = float('inf')
+        dp = [INF] * (n + 1)
+        dp[0] = 0
+        for i in range(1, n + 1):
+            for j in range(i):
+                if dp[j] != INF and s[j:i] in pows:
+                    dp[i] = min(dp[i], dp[j] + 1)
+        return -1 if dp[n] == INF else dp[n]
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [2914. Minimum Number of Changes to Make Binary String Beautiful](../../3001-3500/3174-minimum-number-of-changes-to-make-binary-string-beautiful/)
 - [2696. Minimum String Length After Removing Substrings](../../2501-3000/2800-minimum-string-length-after-removing-substrings/)
+- [2914. Minimum Number of Changes to Make Binary String Beautiful](../../3001-3500/3174-minimum-number-of-changes-to-make-binary-string-beautiful/)
 - [3864. Minimum Cost to Partition a Binary String](../../4001-4500/4192-minimum-cost-to-partition-a-binary-string/)
 
 ## LeetCode

@@ -16,8 +16,21 @@ Solve LeetCode Smallest Subsequence of Distinct Characters using C++ and Monoton
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a string  s , return  the    lexicographically smallest     subsequence    of   s   that contains all the distinct characters of   s   exactly once .
+## Problem Statement
+Given a string `s`, return *the * *lexicographically smallest* *subsequence* * of* `s` *that contains all the distinct characters of* `s` *exactly once*.
+
+## Constraints
+- `1 <= s.length <= 1000`
+- `s` consists of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "bcabc"`
+- **Output:** `"abc"`
+
+### Example 2
+- **Input:** `s = "cbacdcbc"`
+- **Output:** `"acdb"`
 
 ## Key Insight
 Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
@@ -40,12 +53,16 @@ Time complexity is $O(N)$ and space complexity is $O(1)$ (at most 26 characters 
 2. Process elements sequentially using **Monotonic Stack Filtering**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Smallest Subsequence of Distinct Characters**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "bcabc"`.
+2. **Processing Steps:** We apply **Monotonic Stack Filtering** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"abc"`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Monotonic Stack**
@@ -61,6 +78,46 @@ C++
 ## Source Code
 - [solution.cpp](./solution.cpp)
 
+
+```cpp
+class Solution {
+public:
+    string smallestSubsequence(string s) {
+        vector<int> last(26, 0);
+        vector<bool> used(26, false);
+
+        // Store the last occurrence of each character
+        for (int i = 0; i < s.size(); i++) {
+            last[s[i] - 'a'] = i;
+        }
+
+        string st;
+
+        for (int i = 0; i < s.size(); i++) {
+            char c = s[i];
+
+            // Already included
+            if (used[c - 'a'])
+                continue;
+
+            // Remove larger characters if they appear again later
+            while (!st.empty() &&
+                   st.back() > c &&
+                   last[st.back() - 'a'] > i) {
+                
+                used[st.back() - 'a'] = false;
+                st.pop_back();
+            }
+
+            st.push_back(c);
+            used[c - 'a'] = true;
+        }
+
+        return st;
+    }
+};
+```
+
 ## Why This Works
 By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -74,9 +131,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
+- [2030. Smallest K-Length Subsequence With Occurrences of a Letter](../../2001-2500/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter/)
 - [1876. Substrings of Size Three with Distinct Characters](../../1501-2000/1987-substrings-of-size-three-with-distinct-characters/)
 - [3398. Smallest Substring With Identical Characters I](../../3501-4000/3690-smallest-substring-with-identical-characters-i/)
-- [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../../4001-4500/4086-lexicographically-smallest-string-after-deleting-duplicate-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)

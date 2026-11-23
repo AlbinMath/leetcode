@@ -16,8 +16,28 @@ Solve LeetCode Counter using JavaScript and Array / General. This solution finds
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  n , return a  counter  function. This  counter  function initially returns  n  and then returns 1 more than the previous value every subsequent time it is called ( n ,  n + 1 ,  n + 2 , etc).
+## Problem Statement
+Given an integer `n`, return a `counter` function. This `counter` function initially returns `n` and then returns 1 more than the previous value every subsequent time it is called (`n`, `n + 1`, `n + 2`, etc).
+
+## Constraints
+- `-1000^ <= n <= 1000`
+- `0 <= calls.length <= 1000`
+- `calls[i] === "call"`
+
+## Examples
+### Example 1
+- **Input:** `n = 10 
+["call","call","call"]`
+- **Output:** `[10,11,12]`
+- **Explanation:** counter() = 10 // The first time counter() is called, it returns n.
+counter() = 11 // Returns 1 more than the previous time.
+counter() = 12 // Returns 1 more than the previous time.
+
+### Example 2
+- **Input:** `n = -2
+["call","call","call","call","call"]`
+- **Output:** `[-2,-1,0,1,2]`
+- **Explanation:** counter() initially returns -2. Then increases after each sebsequent call.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +50,20 @@ Uses a **closure** to capture and increment a variable `n`. Each call to the ret
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Counter**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 10 
+["call","call","call"]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[10,11,12]`.
+4. **Verification:** counter() = 10 // The first time counter() is called, it returns n.
+counter() = 11 // Returns 1 more than the previous time.
+counter() = 12 // Returns 1 more than the previous time.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +76,27 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+/**
+ * @param {number} n
+ * @return {Function} counter
+ */
+var createCounter = function(n) {
+    
+    return function() {
+        return n++;
+    };
+};
+
+/** 
+ * const counter = createCounter(10)
+ * counter() // 10
+ * counter() // 11
+ * counter() // 12
+ */
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

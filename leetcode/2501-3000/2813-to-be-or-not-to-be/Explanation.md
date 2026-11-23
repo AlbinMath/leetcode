@@ -16,8 +16,27 @@ Solve LeetCode To Be Or Not To Be using TypeScript and Array / General. This sol
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Write a function  expect  that helps developers test their code. It should take in any value  val  and return an object with the following two functions.
+## Problem Statement
+Write a function `expect` that helps developers test their code. It should take in any value `val` and return an object with the following two functions.
+
+`toBe(val)` accepts another value and returns `true` if the two values `===` each other. If they are not equal, it should throw an error `"Not Equal"`. 
+ `notToBe(val)` accepts another value and returns `true` if the two values `!==` each other. If they are equal, it should throw an error `"Equal"`.
+
+## Examples
+### Example 1
+- **Input:** `func = () => expect(5).toBe(5)`
+- **Output:** `{"value": true}`
+- **Explanation:** 5 === 5 so this expression returns true.
+
+### Example 2
+- **Input:** `func = () => expect(5).toBe(null)`
+- **Output:** `{"error": "Not Equal"}`
+- **Explanation:** 5 !== null so this expression throw the error "Not Equal".
+
+### Example 3
+- **Input:** `func = () => expect(5).notToBe(null)`
+- **Output:** `{"value": true}`
+- **Explanation:** 5 !== null so this expression returns true.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +49,17 @@ Leverage **Array / General** with **Array** to process inputs efficiently and ac
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **To Be Or Not To Be**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `func = () => expect(5).toBe(5)`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `{"value": true}`.
+4. **Verification:** 5 === 5 so this expression returns true.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +72,29 @@ TypeScript
 
 ## Source Code
 - [solution.ts](./solution.ts)
+
+
+```typescript
+function expect(val: any) {
+    return {
+        toBe(other: any) {
+            if (val !== other) {
+                throw new Error("Not Equal");
+            }
+
+            return true;
+        },
+
+        notToBe(other: any) {
+            if (val === other) {
+                throw new Error("Equal");
+            }
+
+            return true;
+        }
+    };
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

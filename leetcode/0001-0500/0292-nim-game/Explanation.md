@@ -16,26 +16,63 @@ Solve LeetCode Nim Game using C++, Kotlin and Array / General. This solution fin
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
+## Problem Statement
 You are playing the following Nim Game with your friend:
+
+Initially, there is a heap of stones on the table. 
+ You and your friend will alternate taking turns, and **you go first**. 
+ On each turn, the person whose turn it is will remove 1 to 3 stones from the heap. 
+ The one who removes the last stone is the winner.
+
+Given `n`, the number of stones in the heap, return `true`* if you can win the game assuming both you and your friend play optimally, otherwise return *`false`.
+
+## Constraints
+- `1 <= n <= 2^31 - 1`
+
+## Examples
+### Example 1
+- **Input:** `n = 4`
+- **Output:** `false`
+- **Explanation:** These are the possible outcomes:
+1. You remove 1 stone. Your friend removes 3 stones, including the last stone. Your friend wins.
+2. You remove 2 stones. Your friend removes 2 stones, including the last stone. Your friend wins.
+3. You remove 3 stones. Your friend removes the last stone. Your friend wins.
+In all outcomes, your friend wins.
+
+### Example 2
+- **Input:** `n = 1`
+- **Output:** `true`
+
+### Example 3
+- **Input:** `n = 2`
+- **Output:** `true`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Nim Game**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Nim Game**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 4`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `false`.
+4. **Verification:** These are the possible outcomes:
+1. You remove 1 stone. Your friend removes 3 stones, including the last stone. Your friend wins.
+2. You remove 2 stones. Your friend removes 2 stones, including the last stone. Your friend wins.
+3. You remove 3 stones. Your friend removes the last stone. Your friend wins.
+In all outcomes, your friend wins.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -49,6 +86,26 @@ C++, Kotlin
 ## Source Code
 - [solution.cpp](./solution.cpp)
 - [solution.kt](./solution.kt)
+
+
+### C++
+```cpp
+class Solution {
+public:
+    bool canWinNim(int n) {
+        return n % 4 != 0;
+    }
+};
+```
+
+### Kotlin
+```kotlin
+class Solution {
+    fun canWinNim(n: Int): Boolean {
+        return n % 4 != 0
+    }
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

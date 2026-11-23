@@ -16,8 +16,27 @@ Solve LeetCode Maximum Number of Balloons using Kotlin and Hash Map. This soluti
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a string  text , you want to use the characters of  text  to form as many instances of the word  "balloon"  as possible.
+## Problem Statement
+Given a string `text`, you want to use the characters of `text` to form as many instances of the word **"balloon"** as possible.
+
+You can use each character in `text` **at most once**. Return the maximum number of instances that can be formed.
+
+## Constraints
+- `1 <= text.length <= 10^4`
+- `text` consists of lower case English letters only.
+
+## Examples
+### Example 1
+- **Input:** `text = "nlaebolko"`
+- **Output:** `1`
+
+### Example 2
+- **Input:** `text = "loonbalxballpoon"`
+- **Output:** `2`
+
+### Example 3
+- **Input:** `text = "leetcode"`
+- **Output:** `0`
 
 ## Key Insight
 Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
@@ -34,12 +53,16 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Maximum Number of Balloons**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `text = "nlaebolko"`.
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
 **Hash Map**
@@ -55,6 +78,27 @@ Kotlin
 ## Source Code
 - [solution.kt](./solution.kt)
 
+
+```kotlin
+class Solution {
+    fun maxNumberOfBalloons(text: String): Int {
+        val count = IntArray(26)
+
+        for (c in text) {
+            count[c - 'a']++
+        }
+
+        val b = count['b' - 'a']
+        val a = count['a' - 'a']
+        val l = count['l' - 'a'] / 2
+        val o = count['o' - 'a'] / 2
+        val n = count['n' - 'a']
+
+        return minOf(a, b, l, o, n)
+    }
+}
+```
+
 ## Why This Works
 By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -68,9 +112,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [452. Minimum Number of Arrows to Burst Balloons](../../0001-0500/0452-minimum-number-of-arrows-to-burst-balloons/)
 - [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
 - [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
+- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1147-flip-columns-for-maximum-number-of-equal-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-balloons/)

@@ -16,26 +16,53 @@ Solve LeetCode Super Pow using Python and Array / General. This solution finds t
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Your task is to calculate  a b   mod  1337  where  a  is a positive integer and  b  is an extremely large positive integer given in the form of an array.
+## Problem Statement
+Your task is to calculate `a^b` mod `1337` where `a` is a positive integer and `b` is an extremely large positive integer given in the form of an array.
+
+## Constraints
+- `1 <= a <= 2^31 - 1`
+- `1 <= b.length <= 2000`
+- `0 <= b[i] <= 9`
+- `b` does not contain leading zeros.
+
+## Examples
+### Example 1
+- **Input:** `a = 2, b = [3]`
+- **Output:** `8`
+- **Explanation:** The array `b = [3]` represents the exponent 3. Therefore, `a^3 = 2^3 = 8`, so the result is 8.
+
+### Example 2
+- **Input:** `a = 2, b = [1,0]`
+- **Output:** `1024`
+- **Explanation:** The array `b = [1, 0]` represents the exponent 10. Therefore, `a^10 = 2^10 = 1024`, so the result is 1024.
+
+### Example 3
+- **Input:** `a = 1, b = [4,3,3,8,5,2]`
+- **Output:** `1`
+- **Explanation:** The array `b = [4, 3, 3, 8, 5, 2]` represents a positive exponent. Since `a = 1`, any positive power of 1 is 1. Therefore, the result is 1.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Super Pow**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Super Pow**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `a = 2, b = [3]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `8`.
+4. **Verification:** The array `b = [3]` represents the exponent 3. Therefore, `a^3 = 2^3 = 8`, so the result is 8.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +75,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def superPow(self, a: int, b: List[int]) -> int:
+        MOD = 1337
+        a %= MOD
+        res = 1
+        for d in b:
+            res = pow(res, 10, MOD) * pow(a, d, MOD) % MOD
+        return res
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

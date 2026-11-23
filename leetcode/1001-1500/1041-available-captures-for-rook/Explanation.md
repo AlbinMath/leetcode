@@ -16,26 +16,59 @@ Solve LeetCode Available Captures for Rook using Python and Array / General. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an  8 x 8   matrix  representing a chessboard. There is  exactly one  white rook represented by  &#39;R&#39; , some number of white bishops  &#39;B&#39; , and some number of black pawns  &#39;p&#39; . Empty squares are represented by  &#39;.&#39; .
+## Problem Statement
+You are given an `8 x 8` **matrix** representing a chessboard. There is **exactly one** white rook represented by `'R'`, some number of white bishops `'B'`, and some number of black pawns `'p'`. Empty squares are represented by `'.'`.
+
+A rook can move any number of squares horizontally or vertically (up, down, left, right) until it reaches another piece *or* the edge of the board. A rook is **attacking** a pawn if it can move to the pawn's square in one move.
+
+Note: A rook cannot move through other pieces, such as bishops or pawns. This means a rook cannot attack a pawn if there is another piece blocking the path.
+
+Return the **number of pawns** the white rook is **attacking**.
+
+## Constraints
+- `board.length == 8`
+- `board[i].length == 8`
+- `board[i][j]` is either `'R'`, `'.'`, `'B'`, or `'p'`
+- There is exactly one cell with `board[i][j] == 'R'`
+
+## Examples
+### Example 1
+- **Input:** `board = [[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]`
+- **Output:** `3`
+- **Explanation:** In this example, the rook is attacking all the pawns.
+
+### Example 2
+- **Input:** `board = [[".",".",".",".",".",".","."],[".","p","p","p","p","p",".","."],[".","p","p","B","p","p",".","."],[".","p","B","R","B","p",".","."],[".","p","p","B","p","p",".","."],[".","p","p","p","p","p",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]`
+- **Output:** `0`
+- **Explanation:** The bishops are blocking the rook from attacking any of the pawns.
+
+### Example 3
+- **Input:** `board = [[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","p",".",".",".","."],["p","p",".","R",".","p","B","."],[".",".",".",".",".",".",".","."],[".",".",".","B",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."]]`
+- **Output:** `3`
+- **Explanation:** The rook is attacking the pawns at positions b5, d6, and f5.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Available Captures for Rook**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Available Captures for Rook**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `board = [[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** In this example, the rook is attacking all the pawns.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +81,36 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def numRookCaptures(self, board: List[List[str]]) -> int:
+        # Find the rook
+        for i in range(8):
+            for j in range(8):
+                if board[i][j] == 'R':
+                    row, col = i, j
+
+        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        count = 0
+
+        for dr, dc in directions:
+            r, c = row + dr, col + dc
+
+            while 0 <= r < 8 and 0 <= c < 8:
+                if board[r][c] == 'B':
+                    break
+
+                if board[r][c] == 'p':
+                    count += 1
+                    break
+
+                r += dr
+                c += dc
+
+        return count
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

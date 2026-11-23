@@ -16,26 +16,67 @@ Solve LeetCode XOR After Range Multiplication Queries I using Python and Bit Man
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums  of length  n  and a 2D integer array  queries  of size  q , where  queries[i] = [l i , r i , k i , v i ] .
+## Problem Statement
+You are given an integer array `nums` of length `n` and a 2D integer array `queries` of size `q`, where `queries[i] = [l_i, r_i, k_i, v_i]`.
+
+For each query, you must apply the following operations in order:
+
+Set `idx = l_i`. 
+ While `idx <= r_i`:
+ 
+ Update: `nums[idx] = (nums[idx] * v_i) % (10^9 + 7)` 
+ Set `idx += k_i`.
+
+Return the **bitwise XOR** of all elements in `nums` after processing all queries.
+
+## Constraints
+- `1 <= n == nums.length <= 10^3`
+- `1 <= nums[i] <= 10^9`
+- `1 <= q == queries.length <= 10^3`
+- `queries[i] = [l_i, r_i, k_i, v_i]`
+- `0 <= l_i <= r_i < n`
+- `1 <= k_i <= n`
+- `1 <= v_i <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,1,1], queries = [[0,2,1,4]]`
+- **Output:** `4`
+- **Explanation:** A single query [0, 2, 1, 4] multiplies every element from index 0 through index 2 by 4. 
+ The array changes from [1, 1, 1] to [4, 4, 4] . 
+ The XOR of all elements is 4 ^ 4 ^ 4 = 4 .
+
+### Example 2
+- **Input:** `nums = [2,3,1,5,4], queries = [[1,4,2,3],[0,2,1,2]]`
+- **Output:** `31`
+- **Explanation:** The first query [1, 4, 2, 3] multiplies the elements at indices 1 and 3 by 3, transforming the array to [2, 9, 1, 15, 4] . 
+ The second query [0, 2, 1, 2] multiplies the elements at indices 0, 1, and 2 by 2, resulting in [4, 18, 2, 15, 4] . 
+ Finally, the XOR of all elements is 4 ^ 18 ^ 2 ^ 15 ^ 4 = 31 .​​​​​​​
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **XOR After Range Multiplication Queries I**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **XOR After Range Multiplication Queries I**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,1,1], queries = [[0,2,1,4]]`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** A single query [0, 2, 1, 4] multiplies every element from index 0 through index 2 by 4. 
+ The array changes from [1, 1, 1] to [4, 4, 4] . 
+ The XOR of all elements is 4 ^ 4 ^ 4 = 4 .
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +90,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def xorAfterQueries(self, nums, queries):
+        MOD = 10**9 + 7
+        for l, r, k, v in queries:
+            for i in range(l, r + 1, k):
+                nums[i] = nums[i] * v % MOD
+        ans = 0
+        for x in nums:
+            ans ^= x
+        return ans
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +119,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3655. XOR After Range Multiplication Queries II](../../3501-4000/3975-xor-after-range-multiplication-queries-ii/)
-- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
 - [1310. XOR Queries of a Subarray](../../1001-1500/1435-xor-queries-of-a-subarray/)
+- [1803. Count Pairs With XOR in a Range](../../1501-2000/1907-count-pairs-with-xor-in-a-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/)

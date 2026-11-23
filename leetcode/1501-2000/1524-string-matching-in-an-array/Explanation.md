@@ -16,26 +16,55 @@ Solve LeetCode String Matching in an Array using Python and Array / General. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array of string  words , return all strings in    words    that are a  substring  of another word. You can return the answer in  any order .
+## Problem Statement
+Given an array of string `words`, return all strings in* *`words`* *that are a substring of another word. You can return the answer in **any order**.
+
+## Constraints
+- `1 <= words.length <= 100`
+- `1 <= words[i].length <= 30`
+- `words[i]` contains only lowercase English letters.
+- All the strings of `words` are **unique**.
+
+## Examples
+### Example 1
+- **Input:** `words = ["mass","as","hero","superhero"]`
+- **Output:** `["as","hero"]`
+- **Explanation:** "as" is substring of "mass" and "hero" is substring of "superhero".
+["hero","as"] is also a valid answer.
+
+### Example 2
+- **Input:** `words = ["leetcode","et","code"]`
+- **Output:** `["et","code"]`
+- **Explanation:** "et", "code" are substring of "leetcode".
+
+### Example 3
+- **Input:** `words = ["blue","green","bu"]`
+- **Output:** `[]`
+- **Explanation:** No string of words is substring of another string.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **String Matching in an Array**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **String Matching in an Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `words = ["mass","as","hero","superhero"]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["as","hero"]`.
+4. **Verification:** "as" is substring of "mass" and "hero" is substring of "superhero".
+["hero","as"] is also a valid answer.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,21 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def stringMatching(self, words: list[str]) -> list[str]:
+        result = []
+
+        for i in range(len(words)):
+            for j in range(len(words)):
+                if i != j and words[i] in words[j]:
+                    result.append(words[i])
+                    break
+
+        return result
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

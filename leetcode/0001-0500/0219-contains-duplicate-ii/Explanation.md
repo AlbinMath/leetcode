@@ -16,26 +16,48 @@ Solve LeetCode Contains Duplicate II using PHP, Python and Array / General. This
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer array  nums  and an integer  k , return  true   if there are two  distinct indices    i   and   j   in the array such that   nums[i] == nums[j]   and   abs(i - j) <= k .
+## Problem Statement
+Given an integer array `nums` and an integer `k`, return `true` *if there are two **distinct indices** *`i`* and *`j`* in the array such that *`nums[i] == nums[j]`* and *`abs(i - j) <= k`.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `-10^9 <= nums[i] <= 10^9`
+- `0 <= k <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,3,1], k = 3`
+- **Output:** `true`
+
+### Example 2
+- **Input:** `nums = [1,0,1,1], k = 1`
+- **Output:** `true`
+
+### Example 3
+- **Input:** `nums = [1,2,3,1,2,3], k = 2`
+- **Output:** `false`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Contains Duplicate II**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Contains Duplicate II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,3,1], k = 3`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -49,6 +71,48 @@ PHP, Python
 ## Source Code
 - [solution.php](./solution.php)
 - [solution.py](./solution.py)
+
+
+### PHP
+```php
+class Solution {
+    function containsNearbyDuplicate($nums, $k) {
+        $lastIndex = [];
+
+        for ($i = 0; $i < count($nums); $i++) {
+            $num = $nums[$i];
+
+            // Number appeared before
+            if (isset($lastIndex[$num])) {
+                if ($i - $lastIndex[$num] <= $k) {
+                    return true;
+                }
+            }
+
+            // Store the latest index
+            $lastIndex[$num] = $i;
+        }
+
+        return false;
+    }
+}
+```
+
+### Python
+```python
+from typing import List
+
+class Solution:
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        seen = {}
+
+        for i, x in enumerate(nums):
+            if x in seen and i - seen[x] <= k:
+                return True
+            seen[x] = i
+
+        return False
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -65,7 +129,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [217. Contains Duplicate](../../0001-0500/0217-contains-duplicate/)
 - [220. Contains Duplicate III](../../0001-0500/0220-contains-duplicate-iii/)
-- [182. Duplicate Emails](../../0001-0500/0182-duplicate-emails/)
+- [1461. Check If a String Contains All Binary Codes of Size K](../../1501-2000/1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/contains-duplicate-ii/)

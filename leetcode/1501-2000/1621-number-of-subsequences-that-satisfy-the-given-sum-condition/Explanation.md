@@ -1,7 +1,7 @@
 # LeetCode 1498: Number of Subsequences That Satisfy the Given Sum Condition
 
 **LeetCode Problem #1498 — Number of Subsequences That Satisfy the Given Sum Condition**
-Solve LeetCode Number of Subsequences That Satisfy the Given Sum Condition using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
+Solve LeetCode Number of Subsequences That Satisfy the Given Sum Condition using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,79 @@ Solve LeetCode Number of Subsequences That Satisfy the Given Sum Condition using
 | LeetCode | #1498 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Memoization & State Transition |
-| Data Structure | DP Table / Array |
-| Pattern | Dynamic Programming |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## Problem
-You are given an array of integers  nums  and an integer  target .
+## Problem Statement
+You are given an array of integers `nums` and an integer `target`.
+
+Return *the number of **non-empty** subsequences of *`nums`* such that the sum of the minimum and maximum element on it is less or equal to *`target`. Since the answer may be too large, return it **modulo** `10^9 + 7`.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^6`
+- `1 <= target <= 10^6`
+
+## Examples
+### Example 1
+- **Input:** `nums = [3,5,6,7], target = 9`
+- **Output:** `4`
+- **Explanation:** There are 4 subsequences that satisfy the condition.
+[3] -> Min value + max value <= target (3 + 3 <= 9)
+[3,5] -> (3 + 5 <= 9)
+[3,5,6] -> (3 + 6 <= 9)
+[3,6] -> (3 + 6 <= 9)
+
+### Example 2
+- **Input:** `nums = [3,3,6,8], target = 10`
+- **Output:** `6`
+- **Explanation:** There are 6 subsequences that satisfy the condition. (nums can have repeated numbers).
+[3] , [3] , [3,3], [3,6] , [3,6] , [3,3,6]
+
+### Example 3
+- **Input:** `nums = [2,3,3,4,6,7], target = 12`
+- **Output:** `61`
+- **Explanation:** There are 63 non-empty subsequences, two of them do not satisfy the condition ([6,7], [7]).
+Number of valid subsequences (63 - 2 = 61).
 
 ## Key Insight
-Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Number of Subsequences That Satisfy the Given Sum Condition**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Number of Subsequences That Satisfy the Given Sum Condition**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [3,5,6,7], target = 9`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** There are 4 subsequences that satisfy the condition.
+[3] -> Min value + max value <= target (3 + 3 <= 9)
+[3,5] -> (3 + 5 <= 9)
+[3,5,6] -> (3 + 6 <= 9)
+[3,6] -> (3 + 6 <= 9)
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Dynamic Programming**
+**Two Pointers**
 
 ## Topics
-- Dynamic Programming
-- Memoization
-- State Transition
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 JavaScript
@@ -51,17 +90,49 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var numSubseq = function(nums, target) {
+    const MOD = 1000000007;
+    nums.sort((a, b) => a - b);
+
+    const n = nums.length;
+    const pow2 = new Array(n);
+
+    pow2[0] = 1;
+
+    for (let i = 1; i < n; i++) {
+        pow2[i] = (pow2[i - 1] * 2) % MOD;
+    }
+
+    let left = 0;
+    let right = n - 1;
+    let count = 0;
+
+    while (left <= right) {
+        if (nums[left] + nums[right] <= target) {
+            count = (count + pow2[right - left]) % MOD;
+            left++;
+        } else {
+            right--;
+        }
+    }
+
+    return count;
+};
+```
+
 ## Why This Works
-By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Incorrect base case initialization.
-2. Flawed state transition equation.
-3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
-- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2278-find-three-consecutive-integers-that-sum-to-a-given-number/)

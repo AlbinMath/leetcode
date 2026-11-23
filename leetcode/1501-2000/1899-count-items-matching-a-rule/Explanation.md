@@ -16,26 +16,56 @@ Solve LeetCode Count Items Matching a Rule using C++ and Array / General. This s
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  items , where each  items[i] = [type i , color i , name i ]  describes the type, color, and name of the  i th   item. You are also given a rule represented by two strings,  ruleKey  and  ruleValue .
+## Problem Statement
+You are given an array `items`, where each `items[i] = [type_i, color_i, name_i]` describes the type, color, and name of the `i^th` item. You are also given a rule represented by two strings, `ruleKey` and `ruleValue`.
+
+The `i^th` item is said to match the rule if **one** of the following is true:
+
+`ruleKey == "type"` and `ruleValue == type_i`. 
+ `ruleKey == "color"` and `ruleValue == color_i`. 
+ `ruleKey == "name"` and `ruleValue == name_i`.
+
+Return *the number of items that match the given rule*.
+
+## Constraints
+- `1 <= items.length <= 10^4`
+- `1 <= type_i.length, color_i.length, name_i.length, ruleValue.length <= 10`
+- `ruleKey` is equal to either `"type"`, `"color"`, or `"name"`.
+- All strings consist only of lowercase letters.
+
+## Examples
+### Example 1
+- **Input:** `items = [["phone","blue","pixel"],["computer","silver","lenovo"],["phone","gold","iphone"]], ruleKey = "color", ruleValue = "silver"`
+- **Output:** `1`
+- **Explanation:** There is only one item matching the given rule, which is ["computer","silver","lenovo"].
+
+### Example 2
+- **Input:** `items = [["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]], ruleKey = "type", ruleValue = "phone"`
+- **Output:** `2`
+- **Explanation:** There are only two items matching the given rule, which are ["phone","blue","pixel"] and ["phone","gold","iphone"]. Note that the item ["computer","silver","phone"] does not match.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Items Matching a Rule**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Items Matching a Rule**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `items = [["phone","blue","pixel"],["computer","silver","lenovo"],["phone","gold","iphone"]], ruleKey = "color", ruleValue = "silver"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** There is only one item matching the given rule, which is ["computer","silver","lenovo"].
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +78,33 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    int countMatches(vector<vector<string>>& items, string ruleKey, string ruleValue) {
+        int count = 0;
+        int index;
+
+        if (ruleKey == "type") {
+            index = 0;
+        } else if (ruleKey == "color") {
+            index = 1;
+        } else {
+            index = 2;
+        }
+
+        for (const auto& item : items) {
+            if (item[index] == ruleValue) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +120,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3405. Count the Number of Arrays with K Matching Adjacent Elements](../../3501-4000/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
-- [1203. Sort Items by Groups Respecting Dependencies](../../1001-1500/1309-sort-items-by-groups-respecting-dependencies/)
-- [2146. K Highest Ranked Items Within a Price Range](../../2001-2500/2250-k-highest-ranked-items-within-a-price-range/)
+- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [204. Count Primes](../../0001-0500/0204-count-primes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-items-matching-a-rule/)

@@ -16,26 +16,60 @@ Solve LeetCode Smallest Value After Replacing With Sum of Prime Factors using Ja
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a positive integer  n .
+## Problem Statement
+You are given a positive integer `n`.
+
+Continuously replace `n` with the sum of its **prime factors**.
+
+Note that if a prime factor divides `n` multiple times, it should be included in the sum as many times as it divides `n`.
+
+Return *the smallest value *`n`* will take on.*
+
+## Constraints
+- `2 <= n <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `n = 15`
+- **Output:** `5`
+- **Explanation:** Initially, n = 15.
+15 = 3 * 5, so replace n with 3 + 5 = 8.
+8 = 2 * 2 * 2, so replace n with 2 + 2 + 2 = 6.
+6 = 2 * 3, so replace n with 2 + 3 = 5.
+5 is the smallest value n will take on.
+
+### Example 2
+- **Input:** `n = 3`
+- **Output:** `3`
+- **Explanation:** Initially, n = 3.
+3 is the smallest value n will take on.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Smallest Value After Replacing With Sum of Prime Factors**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Smallest Value After Replacing With Sum of Prime Factors**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 15`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** Initially, n = 15.
+15 = 3 * 5, so replace n with 3 + 5 = 8.
+8 = 2 * 2 * 2, so replace n with 2 + 2 + 2 = 6.
+6 = 2 * 3, so replace n with 2 + 3 = 5.
+5 is the smallest value n will take on.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +82,38 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var smallestValue = function(n) {
+    function sumPrimeFactors(num) {
+        let sum = 0;
+
+        for (let i = 2; i * i <= num; i++) {
+            while (num % i === 0) {
+                sum += i;
+                num /= i;
+            }
+        }
+
+        if (num > 1) {
+            sum += num;
+        }
+
+        return sum;
+    }
+
+    while (true) {
+        const sum = sumPrimeFactors(n);
+
+        if (sum === n) {
+            return n;
+        }
+
+        n = sum;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +128,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2521. Distinct Prime Factors of Product of Array](../../2501-3000/2609-distinct-prime-factors-of-product-of-array/)
-- [2761. Prime Pairs With Target Sum](../../2501-3000/2873-prime-pairs-with-target-sum/)
-- [3556. Sum of Largest Prime Substrings](../../3501-4000/3815-sum-of-largest-prime-substrings/)
+- [1413. Minimum Value to Get Positive Step by Step Sum](../../1501-2000/1514-minimum-value-to-get-positive-step-by-step-sum/)
+- [1663. Smallest String With A Given Numeric Value](../../1501-2000/1782-smallest-string-with-a-given-numeric-value/)
+- [1881. Maximum Value after Insertion](../../2001-2500/2011-maximum-value-after-insertion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/)

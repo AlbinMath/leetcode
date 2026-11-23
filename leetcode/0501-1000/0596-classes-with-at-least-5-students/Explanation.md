@@ -16,26 +16,92 @@ Solve LeetCode Classes With at Least 5 Students using SQL and Database / SQL. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Courses`
+
++-------------+---------+
+| Column Name | Type |
++-------------+---------+
+| student | varchar |
+| class | varchar |
++-------------+---------+
 (student, class) is the primary key (combination of columns with unique values) for this table.
+Each row of this table indicates the name of a student and the class in which they are enrolled.
+
+Write a solution to find all the classes that have **at least five students**.
+
+Return the result table in **any order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Courses table:
++---------+----------+
+| student | class |
++---------+----------+
+| A | Math |
+| B | English |
+| C | Math |
+| D | Biology |
+| E | Math |
+| F | Computer |
+| G | Math |
+| H | Math |
+| I | Math |
++---------+----------+`
+- **Output:** `+---------+
+| class |
++---------+
+| Math |
++---------+`
+- **Explanation:** - Math has 6 students, so we include it.
+- English has 1 student, so we do not include it.
+- Biology has 1 student, so we do not include it.
+- Computer has 1 student, so we do not include it.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Classes With at Least 5 Students** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We group records using `GROUP BY` and compute metrics with aggregate functions. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Group records and calculate aggregated summary metrics.
+2. Filter records according to problem criteria.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Classes With at Least 5 Students**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Courses table:
++---------+----------+
+| student | class |
++---------+----------+
+| A | Math |
+| B | English |
+| C | Math |
+| D | Biology |
+| E | Math |
+| F | Computer |
+| G | Math |
+| H | Math |
+| I | Math |
++---------+----------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+---------+
+| class |
++---------+
+| Math |
++---------+`.
+4. **Verification:** - Math has 6 students, so we include it.
+- English has 1 student, so we do not include it.
+- Biology has 1 student, so we do not include it.
+- Computer has 1 student, so we do not include it.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -51,6 +117,14 @@ SQL
 ## Source Code
 - [solution.sql](./solution.sql)
 
+
+```sql
+SELECT class
+FROM Courses
+GROUP BY class
+HAVING COUNT(student) >= 5;
+```
+
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +139,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [570. Managers with at Least 5 Direct Reports](../../0501-1000/0570-managers-with-at-least-5-direct-reports/)
+- [1018. Binary Prefix Divisible By 5](../../1001-1500/1071-binary-prefix-divisible-by-5/)
 - [1280. Students and Examinations](../../1001-1500/1415-students-and-examinations/)
-- [1349. Maximum Students Taking Exam](../../1001-1500/1471-maximum-students-taking-exam/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/classes-with-at-least-5-students/)

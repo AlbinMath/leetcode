@@ -16,26 +16,68 @@ Solve LeetCode Minimum Suffix Flips using Python and Bit Manipulation. This solu
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a  0-indexed  binary string  target  of length  n . You have another binary string  s  of length  n  that is initially set to all zeros. You want to make  s  equal to  target .
+## Problem Statement
+You are given a **0-indexed** binary string `target` of length `n`. You have another binary string `s` of length `n` that is initially set to all zeros. You want to make `s` equal to `target`.
+
+In one operation, you can pick an index `i` where `0 <= i < n` and flip all bits in the **inclusive** range `[i, n - 1]`. Flip means changing `'0'` to `'1'` and `'1'` to `'0'`.
+
+Return *the minimum number of operations needed to make *`s`* equal to *`target`.
+
+## Constraints
+- `n == target.length`
+- `1 <= n <= 10^5`
+- `target[i]` is either `'0'` or `'1'`.
+
+## Examples
+### Example 1
+- **Input:** `target = "10111"`
+- **Output:** `3`
+- **Explanation:** Initially, s = "00000".
+Choose index i = 2: "00 000 " -> "00 111 "
+Choose index i = 0: " 00111 " -> " 11000 "
+Choose index i = 1: "1 1000 " -> "1 0111 "
+We need at least 3 flip operations to form target.
+
+### Example 2
+- **Input:** `target = "101"`
+- **Output:** `3`
+- **Explanation:** Initially, s = "000".
+Choose index i = 0: " 000 " -> " 111 "
+Choose index i = 1: "1 11 " -> "1 00 "
+Choose index i = 2: "10 0 " -> "10 1 "
+We need at least 3 flip operations to form target.
+
+### Example 3
+- **Input:** `target = "00000"`
+- **Output:** `0`
+- **Explanation:** We do not need any operations since the initial s already equals target.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Suffix Flips**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Suffix Flips**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `target = "10111"`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** Initially, s = "00000".
+Choose index i = 2: "00 000 " -> "00 111 "
+Choose index i = 0: " 00111 " -> " 11000 "
+Choose index i = 1: "1 1000 " -> "1 0111 "
+We need at least 3 flip operations to form target.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +91,21 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def minFlips(self, target: str) -> int:
+        prev = '0'
+        flips = 0
+
+        for ch in target:
+            if ch != prev:
+                flips += 1
+                prev = ch
+
+        return flips
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

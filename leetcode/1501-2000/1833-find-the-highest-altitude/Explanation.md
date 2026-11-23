@@ -1,7 +1,7 @@
 # LeetCode 1732: Find the Highest Altitude
 
 **LeetCode Problem #1732 — Find the Highest Altitude**
-Solve LeetCode Find the Highest Altitude using JavaScript, Kotlin, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find the Highest Altitude using JavaScript, Kotlin, Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,35 @@ Solve LeetCode Find the Highest Altitude using JavaScript, Kotlin, Python and Ar
 | LeetCode | #1732 |
 | Difficulty | Easy |
 | Language | JavaScript, Kotlin, Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-There is a biker going on a road trip. The road trip consists of  n + 1  points at various altitudes. The biker starts his trip on point  0  with altitude equal  0 .
+## Problem Statement
+There is a biker going on a road trip. The road trip consists of `n + 1` points at various altitudes. The biker starts his trip on point `0` with altitude equal `0`.
+
+You are given an integer array `gain` of length `n` where `gain[i]` is the **net gain in altitude** between points `i`​​​​​​ and `i + 1` for all (`0 <= i < n)`. Return *the **highest altitude** of a point.*
+
+## Constraints
+- `n == gain.length`
+- `1 <= n <= 100`
+- `-100 <= gain[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `gain = [-5,1,5,0,-7]`
+- **Output:** `1`
+- **Explanation:** The altitudes are [0,-5,-4,1,1,-6]. The highest is 1.
+
+### Example 2
+- **Input:** `gain = [-4,-3,-2,-1,4,3,2]`
+- **Output:** `0`
+- **Explanation:** The altitudes are [0,-4,-7,-9,-10,-6,-3,-1]. The highest is 0.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code simply accumulates the altitude by adding each gain value to a running sum, tracking the maximum value encountered. Start at `0`, add each `gain[i]`, and keep updating the highest altitude.
@@ -28,22 +46,28 @@ The code simply accumulates the altitude by adding each gain value to a running 
 Time complexity is $O(N)$ and space complexity is $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Find the Highest Altitude**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `gain = [-5,1,5,0,-7]`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** The altitudes are [0,-5,-4,1,1,-6]. The highest is 1.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 JavaScript, Kotlin, Python
@@ -53,8 +77,52 @@ JavaScript, Kotlin, Python
 - [solution.kt](./solution.kt)
 - [solution.py](./solution.py)
 
+
+### JavaScript
+```javascript
+var largestAltitude = function(gain) {
+    let altitude = 0;
+    let maxAltitude = 0;
+
+    for (let i = 0; i < gain.length; i++) {
+        altitude += gain[i];
+        maxAltitude = Math.max(maxAltitude, altitude);
+    }
+
+    return maxAltitude;
+};
+```
+
+### Kotlin
+```kotlin
+class Solution {
+    fun largestAltitude(gain: IntArray): Int {
+        var altitude = 0
+        var highest = 0
+
+        for (g in gain) {
+            altitude += g
+            highest = maxOf(highest, altitude)
+        }
+
+        return highest
+    }
+}
+```
+
+### Python
+```python
+class Solution:
+    def largestAltitude(self, gain):
+        h = ans = 0
+        for x in gain:
+            h += x
+            ans = max(ans, h)
+        return ans
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -66,9 +134,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
+- [177. Nth Highest Salary](../../0001-0500/0177-nth-highest-salary/)
+- [184. Department Highest Salary](../../0001-0500/0184-department-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-highest-altitude/)

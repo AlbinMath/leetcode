@@ -16,26 +16,65 @@ Solve LeetCode Shortest Uncommon Substring in an Array using Python and Array / 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  arr  of size  n  consisting of  non-empty  strings.
+## Problem Statement
+You are given an array `arr` of size `n` consisting of **non-empty** strings.
+
+Find a string array `answer` of size `n` such that:
+
+`answer[i]` is the **shortest** substring of `arr[i]` that does **not** occur as a substring in any other string in `arr`. If multiple such substrings exist, `answer[i]` should be the lexicographically smallest . And if no such substring exists, `answer[i]` should be an empty string.
+
+Return *the array *`answer`.
+
+## Constraints
+- `n == arr.length`
+- `2 <= n <= 100`
+- `1 <= arr[i].length <= 20`
+- `arr[i]` consists only of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `arr = ["cab","ad","bad","c"]`
+- **Output:** `["ab","","ba",""]`
+- **Explanation:** We have the following:
+- For the string "cab", the shortest substring that does not occur in any other string is either "ca" or "ab", we choose the lexicographically smaller substring, which is "ab".
+- For the string "ad", there is no substring that does not occur in any other string.
+- For the string "bad", the shortest substring that does not occur in any other string is "ba".
+- For the string "c", there is no substring that does not occur in any other string.
+
+### Example 2
+- **Input:** `arr = ["abc","bcd","abcd"]`
+- **Output:** `["","","abcd"]`
+- **Explanation:** We have the following:
+- For the string "abc", there is no substring that does not occur in any other string.
+- For the string "bcd", there is no substring that does not occur in any other string.
+- For the string "abcd", the shortest substring that does not occur in any other string is "abcd".
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Shortest Uncommon Substring in an Array**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Shortest Uncommon Substring in an Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = ["cab","ad","bad","c"]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["ab","","ba",""]`.
+4. **Verification:** We have the following:
+- For the string "cab", the shortest substring that does not occur in any other string is either "ca" or "ab", we choose the lexicographically smaller substring, which is "ab".
+- For the string "ad", there is no substring that does not occur in any other string.
+- For the string "bad", the shortest substring that does not occur in any other string is "ba".
+- For the string "c", there is no substring that does not occur in any other string.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +87,17 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def shortestSubstrings(self, arr: List[str]) -> List[str]:
+        ans = []
+        for i, s in enumerate(arr):
+            subs = sorted({s[a:b] for a in range(len(s)) for b in range(a+1, len(s)+1)}, key=lambda x: (len(x), x))
+            ans.append(next((x for x in subs if all(x not in t for j, t in enumerate(arr) if j != i)), ""))
+        return ans
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +112,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3455. Shortest Matching Substring](../../3501-4000/3692-shortest-matching-substring/)
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](../../1501-2000/1679-shortest-subarray-to-be-removed-to-make-array-sorted/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [3455. Shortest Matching Substring](../../3501-4000/3692-shortest-matching-substring/)
+- [521. Longest Uncommon Subsequence I](../../0501-1000/0521-longest-uncommon-subsequence-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/)

@@ -16,26 +16,65 @@ Solve LeetCode Minimum Operations to Sort a String using Python and Tree & Graph
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a string  s  consisting of lowercase English letters.
+## Problem Statement
+You are given a string `s` consisting of lowercase English letters.
+
+In one operation, you can select any ** substring ** of `s` that is **not** the entire string and **sort** it in **non-descending alphabetical** order.
+
+Return the **minimum** number of operations required to make `s` sorted in **non-descending** order. If it is not possible, return -1.
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s` consists of only lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "dog"`
+- **Output:** `1`
+- **Explanation:** ​​​​​​​ 
+
+ 
+ Sort substring `"og"` to `"go"`. 
+ Now, `s = "dgo"`, which is sorted in ascending order. Thus, the answer is 1.
+
+### Example 2
+- **Input:** `s = "card"`
+- **Output:** `2`
+- **Explanation:** Sort substring `"car"` to `"acr"`, so `s = "acrd"`. 
+ Sort substring `"rd"` to `"dr"`, making `s = "acdr"`, which is sorted in ascending order. Thus, the answer is 2.
+
+### Example 3
+- **Input:** `s = "gf"`
+- **Output:** `-1`
+- **Explanation:** It is impossible to sort `s` under the given
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Operations to Sort a String**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Operations to Sort a String**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "dog"`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** ​​​​​​​ 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+ 
+ Sort substring `"og"` to `"go"`. 
+ Now, `s = "dgo"`, which is sorted in ascending order. Thus, the answer is 1.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +91,24 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def minOperations(self, s: str) -> int:
+        n = len(s)
+        if all(s[i] <= s[i + 1] for i in range(n - 1)):
+            return 0
+        if n == 2:
+            return -1
+        mn, mx = min(s), max(s)
+        if s[0] == mn or s[-1] == mx:
+            return 1
+        # s[0] strictly greater than all others, s[-1] strictly smaller than all others
+        if s[0] == mx and s.count(mx) == 1 and s[-1] == mn and s.count(mn) == 1:
+            return 3
+        return 2
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -67,7 +124,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1585. Check If String Is Transformable With Substring Sort Operations](../../1501-2000/1707-check-if-string-is-transformable-with-substring-sort-operations/)
 - [1830. Minimum Number of Operations to Make String Sorted](../../1501-2000/1941-minimum-number-of-operations-to-make-string-sorted/)
-- [2471. Minimum Number of Operations to Sort a Binary Tree by Level](../../2501-3000/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
+- [3666. Minimum Operations to Equalize Binary String](../../3501-4000/3983-minimum-operations-to-equalize-binary-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-sort-a-string/)

@@ -16,8 +16,39 @@ Solve LeetCode Check if Array is Good using C++ and Array / General. This soluti
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums . We consider an array  good  if it is a permutation of an array  base[n] .
+## Problem Statement
+You are given an integer array `nums`. We consider an array **good **if it is a permutation of an array `base[n]`.
+
+`base[n] = [1, 2, ..., n - 1, n, n] `(in other words, it is an array of length `n + 1` which contains `1` to `n - 1 `exactly once, plus two occurrences of `n`). For example, `base[1] = [1, 1]` and` base[3] = [1, 2, 3, 3]`.
+
+Return `true` *if the given array is good, otherwise return** *`false`.
+
+**Note: **A permutation of integers represents an arrangement of these numbers.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `1 <= num[i] <= 200`
+
+## Examples
+### Example 1
+- **Input:** `nums = [2, 1, 3]`
+- **Output:** `false`
+- **Explanation:** Since the maximum element of the array is 3, the only candidate n for which this array could be a permutation of base[n], is n = 3. However, base[3] has four elements but array nums has three. Therefore, it can not be a permutation of base[3] = [1, 2, 3, 3]. So the answer is false.
+
+### Example 2
+- **Input:** `nums = [1, 3, 3, 2]`
+- **Output:** `true`
+- **Explanation:** Since the maximum element of the array is 3, the only candidate n for which this array could be a permutation of base[n], is n = 3. It can be seen that nums is a permutation of base[3] = [1, 2, 3, 3] (by swapping the second and fourth elements in nums, we reach base[3]). Therefore, the answer is true.
+
+### Example 3
+- **Input:** `nums = [1, 1]`
+- **Output:** `true`
+- **Explanation:** Since the maximum element of the array is 1, the only candidate n for which this array could be a permutation of base[n], is n = 1. It can be seen that nums is a permutation of base[1] = [1, 1]. Therefore, the answer is true.
+
+### Example 4
+- **Input:** `nums = [3, 4, 4, 1, 2, 1]`
+- **Output:** `false`
+- **Explanation:** Since the maximum element of the array is 4, the only candidate n for which this array could be a permutation of base[n], is n = 4. However, base[4] has five elements but array nums has six. Therefore, it can not be a permutation of base[4] = [1, 2, 3, 4, 4]. So the answer is false.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +61,17 @@ Sort the array. The maximum value should be `n = arr.length - 1`. Check that the
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Check if Array is Good**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [2, 1, 3]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `false`.
+4. **Verification:** Since the maximum element of the array is 3, the only candidate n for which this array could be a permutation of base[n], is n = 3. However, base[3] has four elements but array nums has three. Therefore, it can not be a permutation of base[3] = [1, 2, 3, 3]. So the answer is false.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +84,35 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    bool isGood(vector<int>& nums) {
+        int n = *max_element(nums.begin(), nums.end());
+
+        // A good array must have n + 1 elements
+        if (nums.size() != n + 1)
+            return false;
+
+        vector<int> freq(n + 1, 0);
+
+        for (int x : nums) {
+            freq[x]++;
+        }
+
+        // 1 to n-1 must appear once,
+        // n must appear twice.
+        for (int i = 1; i < n; i++) {
+            if (freq[i] != 1)
+                return false;
+        }
+
+        return freq[n] == 2;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

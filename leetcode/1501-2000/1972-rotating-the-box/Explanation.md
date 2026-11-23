@@ -16,8 +16,50 @@ Solve LeetCode Rotating the Box using C++ and Array / General. This solution fin
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an  m x n  matrix of characters  boxGrid  representing a side-view of a box. Each cell of the box is one of the following:
+## Problem Statement
+You are given an `m x n` matrix of characters `boxGrid` representing a side-view of a box. Each cell of the box is one of the following:
+
+A stone `'#'` 
+ A stationary obstacle `'*'` 
+ Empty `'.'`
+
+The box is rotated **90 degrees clockwise**, causing some of the stones to fall due to gravity. Each stone falls down until it lands on an obstacle, another stone, or the bottom of the box. Gravity **does not** affect the obstacles' positions, and the inertia from the box's rotation **does not **affect the stones' horizontal positions.
+
+It is **guaranteed** that each stone in `boxGrid` rests on an obstacle, another stone, or the bottom of the box.
+
+Return *an *`n x m`* matrix representing the box after the rotation described above*.
+
+## Constraints
+- `m == boxGrid.length`
+- `n == boxGrid[i].length`
+- `1 <= m, n <= 500`
+- `boxGrid[i][j]` is either `'#'`, `'*'`, or `'.'`.
+
+## Examples
+### Example 1
+- **Input:** `boxGrid = [["#",".","#"]]`
+- **Output:** `[["."],
+ ["#"],
+ ["#"]]`
+
+### Example 2
+- **Input:** `boxGrid = [["#",".","*","."],
+ ["#","#","*","."]]`
+- **Output:** `[["#","."],
+ ["#","#"],
+ ["*","*"],
+ [".","."]]`
+
+### Example 3
+- **Input:** `boxGrid = [["#","#","*",".","*","."],
+ ["#","#","#","*",".","."],
+ ["#","#","#",".","#","."]]`
+- **Output:** `[[".","#","#"],
+ [".","#","#"],
+ ["#","#","*"],
+ ["#","*","."],
+ ["#",".","*"],
+ ["#",".","."]]`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -33,12 +75,18 @@ Time complexity is $O(M \times N)$ and space complexity is $O(M \times N)$.
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Rotating the Box**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `boxGrid = [["#",".","#"]]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[["."],
+ ["#"],
+ ["#"]]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -51,6 +99,44 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    vector<vector<char>> rotateTheBox(vector<vector<char>>& boxGrid) {
+        int m = boxGrid.size();
+        int n = boxGrid[0].size();
+
+        // 1. Let stones fall to the right
+        for (int i = 0; i < m; i++) {
+            int empty = n - 1;
+
+            for (int j = n - 1; j >= 0; j--) {
+                if (boxGrid[i][j] == '*') {
+                    empty = j - 1;
+                }
+                else if (boxGrid[i][j] == '#') {
+                    boxGrid[i][j] = '.';
+                    boxGrid[i][empty] = '#';
+                    empty--;
+                }
+            }
+        }
+
+        // 2. Rotate 90 degrees clockwise
+        vector<vector<char>> result(n, vector<char>(m));
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                result[j][m - 1 - i] = boxGrid[i][j];
+            }
+        }
+
+        return result;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

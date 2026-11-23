@@ -1,7 +1,7 @@
 # LeetCode 2444: Count Subarrays With Fixed Bounds
 
 **LeetCode Problem #2444 — Count Subarrays With Fixed Bounds**
-Solve LeetCode Count Subarrays With Fixed Bounds using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Count Subarrays With Fixed Bounds using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,68 @@ Solve LeetCode Count Subarrays With Fixed Bounds using JavaScript and Array / Ge
 | LeetCode | #2444 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums  and two integers  minK  and  maxK .
+## Problem Statement
+You are given an integer array `nums` and two integers `minK` and `maxK`.
+
+A **fixed-bound subarray** of `nums` is a subarray that satisfies the following conditions:
+
+The **minimum** value in the subarray is equal to `minK`. 
+ The **maximum** value in the subarray is equal to `maxK`.
+
+Return *the **number** of fixed-bound subarrays*.
+
+A **subarray** is a **contiguous** part of an array.
+
+## Constraints
+- `2 <= nums.length <= 10^5`
+- `1 <= nums[i], minK, maxK <= 10^6`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,3,5,2,7,5], minK = 1, maxK = 5`
+- **Output:** `2`
+- **Explanation:** The fixed-bound subarrays are [1,3,5] and [1,3,5,2].
+
+### Example 2
+- **Input:** `nums = [1,1,1,1], minK = 1, maxK = 1`
+- **Output:** `10`
+- **Explanation:** Every subarray of nums is a fixed-bound subarray. There are 10 possible subarrays.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Subarrays With Fixed Bounds**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Subarrays With Fixed Bounds**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,3,5,2,7,5], minK = 1, maxK = 5`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The fixed-bound subarrays are [1,3,5] and [1,3,5,2].
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 JavaScript
@@ -49,8 +79,31 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} minK
+ * @param {number} maxK
+ * @return {number}
+ */
+var countSubarrays = function (nums, minK, maxK) {
+    let bad = -1, lastMin = -1, lastMax = -1;
+    let ans = 0;
+
+    for (let i = 0; i < nums.length; i++) {
+        const x = nums[i];
+        if (x < minK || x > maxK) bad = i;
+        if (x === minK) lastMin = i;
+        if (x === maxK) lastMax = i;
+        ans += Math.max(0, Math.min(lastMin, lastMax) - bad);
+    }
+    return ans;
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

@@ -1,7 +1,7 @@
 # LeetCode 148: Sort List
 
 **LeetCode Problem #148 — Sort List**
-Solve LeetCode Sort List using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Sort List using JavaScript and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,61 @@ Solve LeetCode Sort List using JavaScript and Two Pointers. This solution finds 
 | LeetCode | #148 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Two Pointer Convergence & Scanning |
-| Data Structure | Array |
-| Pattern | Two Pointers |
+| Algorithm | Floyd Cycle Detection |
+| Data Structure | Linked List / Pointer |
+| Pattern | Fast & Slow Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given the  head  of a linked list, return  the list after sorting it in  ascending order  .
+## Problem Statement
+Given the `head` of a linked list, return *the list after sorting it in **ascending order***.
+
+## Constraints
+- The number of nodes in the list is in the range `[0, 5 * 10^4]`.
+- `-10^5 <= Node.val <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `head = [4,2,1,3]`
+- **Output:** `[1,2,3,4]`
+
+### Example 2
+- **Input:** `head = [-1,5,3,4,0]`
+- **Output:** `[-1,0,3,4,5]`
+
+### Example 3
+- **Input:** `head = []`
+- **Output:** `[]`
 
 ## Key Insight
-Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
+Leverage **Fast & Slow Pointers** with **Linked List / Pointer** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sort List**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sort List**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [4,2,1,3]`.
+2. **Processing Steps:** We apply **Floyd Cycle Detection** using our **Linked List / Pointer**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,2,3,4]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Linked List / Pointer.
 
 ## Pattern
-**Two Pointers**
+**Fast & Slow Pointers**
 
 ## Topics
 - Two Pointers
-- Array
-- Sorting
+- Cycle Detection
 
 ## Language
 JavaScript
@@ -51,17 +72,67 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var sortList = function(head) {
+    if (head === null || head.next === null) {
+        return head;
+    }
+
+    // Find the middle and split the list
+    let slow = head;
+    let fast = head;
+    let prev = null;
+
+    while (fast !== null && fast.next !== null) {
+        prev = slow;
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+
+    // Break the list into two halves
+    prev.next = null;
+
+    const left = sortList(head);
+    const right = sortList(slow);
+
+    // Merge the sorted halves
+    return merge(left, right);
+};
+
+function merge(left, right) {
+    const dummy = new ListNode(0);
+    let tail = dummy;
+
+    while (left !== null && right !== null) {
+        if (left.val <= right.val) {
+            tail.next = left;
+            left = left.next;
+        } else {
+            tail.next = right;
+            right = right.next;
+        }
+
+        tail = tail.next;
+    }
+
+    tail.next = left !== null ? left : right;
+
+    return dummy.next;
+}
+```
+
 ## Why This Works
-By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Failing to sort the array when ordering is required.
-2. Not skipping duplicate elements leading to non-unique pairs.
-3. Pointer out-of-bounds errors on edge inputs.
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
 
 ## Interview Notes
-- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
-- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
 - [147. Insertion Sort List](../../0001-0500/0147-insertion-sort-list/)

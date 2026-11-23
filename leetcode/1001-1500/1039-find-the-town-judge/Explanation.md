@@ -16,26 +16,61 @@ Solve LeetCode Find the Town Judge using Python and Array / General. This soluti
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-In a town, there are  n  people labeled from  1  to  n . There is a rumor that one of these people is secretly the town judge.
+## Problem Statement
+In a town, there are `n` people labeled from `1` to `n`. There is a rumor that one of these people is secretly the town judge.
+
+If the town judge exists, then:
+
+The town judge trusts nobody. 
+ Everybody (except for the town judge) trusts the town judge. 
+ There is exactly one person that satisfies properties **1** and **2**.
+
+You are given an array `trust` where `trust[i] = [a_i, b_i]` representing that the person labeled `a_i` trusts the person labeled `b_i`. If a trust relationship does not exist in `trust` array, then such a trust relationship does not exist.
+
+Return *the label of the town judge if the town judge exists and can be identified, or return *`-1`* otherwise*.
+
+## Constraints
+- `1 <= n <= 1000`
+- `0 <= trust.length <= 10^4`
+- `trust[i].length == 2`
+- All the pairs of `trust` are **unique**.
+- `a_i != b_i`
+- `1 <= a_i, b_i <= n`
+
+## Examples
+### Example 1
+- **Input:** `n = 2, trust = [[1,2]]`
+- **Output:** `2`
+
+### Example 2
+- **Input:** `n = 3, trust = [[1,3],[2,3]]`
+- **Output:** `3`
+
+### Example 3
+- **Input:** `n = 3, trust = [[1,3],[2,3],[3,1]]`
+- **Output:** `-1`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find the Town Judge**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find the Town Judge**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 2, trust = [[1,2]]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +83,23 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def findJudge(self, n: int, trust: List[List[int]]) -> int:
+        score = [0] * (n + 1)
+
+        for a, b in trust:
+            score[a] -= 1
+            score[b] += 1
+
+        for person in range(1, n + 1):
+            if score[person] == n - 1:
+                return person
+
+        return -1
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

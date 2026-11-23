@@ -16,26 +16,57 @@ Solve LeetCode Minimum Operations to Collect Elements using Python and Array / G
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  nums  of positive integers and an integer  k .
+## Problem Statement
+You are given an array `nums` of positive integers and an integer `k`.
+
+In one operation, you can remove the last element of the array and add it to your collection.
+
+Return *the **minimum number of operations** needed to collect elements* `1, 2, ..., k`.
+
+## Constraints
+- `1 <= nums.length <= 50`
+- `1 <= nums[i] <= nums.length`
+- `1 <= k <= nums.length`
+- The input is generated such that you can collect elements `1, 2, ..., k`.
+
+## Examples
+### Example 1
+- **Input:** `nums = [3,1,5,4,2], k = 2`
+- **Output:** `4`
+- **Explanation:** After 4 operations, we collect elements 2, 4, 5, and 1, in this order. Our collection contains elements 1 and 2. Hence, the answer is 4.
+
+### Example 2
+- **Input:** `nums = [3,1,5,4,2], k = 5`
+- **Output:** `5`
+- **Explanation:** After 5 operations, we collect elements 2, 4, 5, 1, and 3, in this order. Our collection contains elements 1 through 5. Hence, the answer is 5.
+
+### Example 3
+- **Input:** `nums = [3,2,5,3,1], k = 3`
+- **Output:** `4`
+- **Explanation:** After 4 operations, we collect elements 1, 3, 5, and 2, in this order. Our collection contains elements 1 through 3. Hence, the answer is 4.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Operations to Collect Elements**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Operations to Collect Elements**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [3,1,5,4,2], k = 2`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** After 4 operations, we collect elements 2, 4, 5, and 1, in this order. Our collection contains elements 1 and 2. Hence, the answer is 4.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +79,19 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def minOperations(self, nums, k):
+        seen = set()
+        for ops, x in enumerate(reversed(nums), 1):
+            if x <= k:
+                seen.add(x)
+            if len(seen) == k:
+                return ops
+        return len(nums)
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

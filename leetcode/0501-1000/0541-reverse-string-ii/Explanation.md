@@ -16,26 +16,47 @@ Solve LeetCode Reverse String II using Python and Two Pointers. This solution fi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  s  and an integer  k , reverse the first  k  characters for every  2k  characters counting from the start of the string.
+## Problem Statement
+Given a string `s` and an integer `k`, reverse the first `k` characters for every `2k` characters counting from the start of the string.
+
+If there are fewer than `k` characters left, reverse all of them. If there are less than `2k` but greater than or equal to `k` characters, then reverse the first `k` characters and leave the other as original.
+
+## Constraints
+- `1 <= s.length <= 10^4`
+- `s` consists of only lowercase English letters.
+- `1 <= k <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `s = "abcdefg", k = 2`
+- **Output:** `"bacdfeg"`
+
+### Example 2
+- **Input:** `s = "abcd", k = 2`
+- **Output:** `"bacd"`
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Reverse String II**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Reverse String II**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "abcdefg", k = 2`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"bacdfeg"`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +71,24 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def reverseStr(self, s, k):
+        s = list(s)
+
+        for i in range(0, len(s), 2 * k):
+            left = i
+            right = min(i + k - 1, len(s) - 1)
+
+            while left < right:
+                s[left], s[right] = s[right], s[left]
+                left += 1
+                right -= 1
+
+        return ''.join(s)
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

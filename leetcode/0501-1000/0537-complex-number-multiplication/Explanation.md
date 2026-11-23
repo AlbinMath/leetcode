@@ -16,26 +16,51 @@ Solve LeetCode Complex Number Multiplication using Python and Array / General. T
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-A  complex number  can be represented as a string on the form  " real + imaginary i"  where:
+## Problem Statement
+A complex number can be represented as a string on the form `"**real**+**imaginary**i"` where:
+
+`real` is the real part and is an integer in the range `[-100, 100]`. 
+ `imaginary` is the imaginary part and is an integer in the range `[-100, 100]`. 
+ `i^2 == -1`.
+
+Given two complex numbers `num1` and `num2` as strings, return *a string of the complex number that represents their multiplications*.
+
+## Constraints
+- `num1` and `num2` are valid complex numbers.
+
+## Examples
+### Example 1
+- **Input:** `num1 = "1+1i", num2 = "1+1i"`
+- **Output:** `"0+2i"`
+- **Explanation:** (1 + i) * (1 + i) = 1 + i2 + 2 * i = 2i, and you need convert it to the form of 0+2i.
+
+### Example 2
+- **Input:** `num1 = "1+-1i", num2 = "1+-1i"`
+- **Output:** `"0+-2i"`
+- **Explanation:** (1 - i) * (1 - i) = 1 + i2 - 2 * i = -2i, and you need convert it to the form of 0+-2i.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Complex Number Multiplication**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Complex Number Multiplication**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `num1 = "1+1i", num2 = "1+1i"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"0+2i"`.
+4. **Verification:** (1 + i) * (1 + i) = 1 + i2 + 2 * i = 2i, and you need convert it to the form of 0+2i.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +73,22 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def complexNumberMultiply(self, num1: str, num2: str) -> str:
+        def parse(num: str):
+            real, imag = num.split('+')
+            return int(real), int(imag[:-1])
+
+        a, b = parse(num1)
+        c, d = parse(num2)
+
+        real = a * c - b * d
+        imag = a * d + b * c
+        return f"{real}+{imag}i"
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +104,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
-- [3264. Final Array State After K Multiplication Operations I](../../3501-4000/3555-final-array-state-after-k-multiplication-operations-i/)
-- [3266. Final Array State After K Multiplication Operations II](../../3501-4000/3556-final-array-state-after-k-multiplication-operations-ii/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/complex-number-multiplication/)

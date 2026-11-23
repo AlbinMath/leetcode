@@ -16,26 +16,55 @@ Solve LeetCode Redistribute Characters to Make All Strings Equal using C++ and A
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array of strings  words  ( 0-indexed ).
+## Problem Statement
+You are given an array of strings `words` (**0-indexed**).
+
+In one operation, pick two **distinct** indices `i` and `j`, where `words[i]` is a non-empty string, and move **any** character from `words[i]` to **any** position in `words[j]`.
+
+Return `true` *if you can make** every** string in *`words`* **equal **using **any** number of operations*,* and *`false` *otherwise*.
+
+## Constraints
+- `1 <= words.length <= 100`
+- `1 <= words[i].length <= 100`
+- `words[i]` consists of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `words = ["abc","aabc","bc"]`
+- **Output:** `true`
+- **Explanation:** Move the first 'a' in words[1] to the front of words[2],
+to make `words[1]` = "abc" and words[2] = "abc".
+All the strings are now equal to "abc", so return `true`.
+
+### Example 2
+- **Input:** `words = ["ab","a"]`
+- **Output:** `false`
+- **Explanation:** It is impossible to make all the strings equal using the operation.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Redistribute Characters to Make All Strings Equal**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Redistribute Characters to Make All Strings Equal**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `words = ["abc","aabc","bc"]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Move the first 'a' in words[1] to the front of words[2],
+to make `words[1]` = "abc" and words[2] = "abc".
+All the strings are now equal to "abc", so return `true`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,31 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    bool makeEqual(vector<string>& words) {
+        int count[26] = {0};
+        int n = words.size();
+
+        for (string word : words) {
+            for (char c : word) {
+                count[c - 'a']++;
+            }
+        }
+
+        for (int i = 0; i < 26; i++) {
+            if (count[i] % n != 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +117,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3784. Minimum Deletion Cost to Make All Characters Equal](../../4001-4500/4138-minimum-deletion-cost-to-make-all-characters-equal/)
+- [1247. Minimum Swaps to Make Strings Equal](../../1001-1500/1369-minimum-swaps-to-make-strings-equal/)
 - [1787. Make the XOR of All Segments Equal to Zero](../../1501-2000/1913-make-the-xor-of-all-segments-equal-to-zero/)
-- [1941. Check if All Characters Have Equal Number of Occurrences](../../2001-2500/2053-check-if-all-characters-have-equal-number-of-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)

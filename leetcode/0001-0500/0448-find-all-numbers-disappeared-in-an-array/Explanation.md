@@ -1,7 +1,7 @@
 # LeetCode 448: Find All Numbers Disappeared in an Array
 
 **LeetCode Problem #448 — Find All Numbers Disappeared in an Array**
-Solve LeetCode Find All Numbers Disappeared in an Array using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find All Numbers Disappeared in an Array using TypeScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,31 @@ Solve LeetCode Find All Numbers Disappeared in an Array using TypeScript and Arr
 | LeetCode | #448 |
 | Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array  nums  of  n  integers where  nums[i]  is in the range  [1, n] , return  an array of all the integers in the range   [1, n]   that do not appear in   nums .
+## Problem Statement
+Given an array `nums` of `n` integers where `nums[i]` is in the range `[1, n]`, return *an array of all the integers in the range* `[1, n]` *that do not appear in* `nums`.
+
+## Constraints
+- `n == nums.length`
+- `1 <= n <= 10^5`
+- `1 <= nums[i] <= n`
+
+## Examples
+### Example 1
+- **Input:** `nums = [4,3,2,7,8,2,3,1]`
+- **Output:** `[5,6]`
+
+### Example 2
+- **Input:** `nums = [1,1]`
+- **Output:** `[2]`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses the **array itself as a hash set** by negating values at corresponding indices.
@@ -31,22 +45,27 @@ The code uses the **array itself as a hash set** by negating values at correspon
 Time complexity is $O(N)$ and space complexity is $O(1)$ (excluding the output array).
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Find All Numbers Disappeared in an Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [4,3,2,7,8,2,3,1]`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[5,6]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 TypeScript
@@ -54,8 +73,33 @@ TypeScript
 ## Source Code
 - [solution.ts](./solution.ts)
 
+
+```typescript
+function findDisappearedNumbers(nums: number[]): number[] {
+    const result: number[] = [];
+
+    // Mark the index corresponding to each number
+    for (const num of nums) {
+        const index = Math.abs(num) - 1;
+
+        if (nums[index] > 0) {
+            nums[index] = -nums[index];
+        }
+    }
+
+    // Positive values mean the number is missing
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] > 0) {
+            result.push(i + 1);
+        }
+    }
+
+    return result;
+}
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -68,8 +112,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2695-find-score-of-an-array-after-marking-all-elements/)
-- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
-- [1397. Find All Good Strings](../../1501-2000/1513-find-all-good-strings/)
+- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)

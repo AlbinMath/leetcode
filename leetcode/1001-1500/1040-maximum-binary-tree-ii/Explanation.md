@@ -16,26 +16,70 @@ Solve LeetCode Maximum Binary Tree II using Python and Tree & Graph. This soluti
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-A  maximum tree  is a tree where every node has a value greater than any other value in its subtree.
+## Problem Statement
+A **maximum tree** is a tree where every node has a value greater than any other value in its subtree.
+
+You are given the `root` of a maximum binary tree and an integer `val`.
+
+Just as in the previous problem , the given tree was constructed from a list `a` (`root = Construct(a)`) recursively with the following `Construct(a)` routine:
+
+If `a` is empty, return `null`. 
+ Otherwise, let `a[i]` be the largest element of `a`. Create a `root` node with the value `a[i]`. 
+ The left child of `root` will be `Construct([a[0], a[1], ..., a[i - 1]])`. 
+ The right child of `root` will be `Construct([a[i + 1], a[i + 2], ..., a[a.length - 1]])`. 
+ Return `root`.
+
+Note that we were not given `a` directly, only a root node `root = Construct(a)`.
+
+Suppose `b` is a copy of `a` with the value `val` appended to it. It is guaranteed that `b` has unique values.
+
+Return `Construct(b)`.
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 100]`.
+- `1 <= Node.val <= 100`
+- All the values of the tree are **unique**.
+- `1 <= val <= 100`
+
+## Examples
+### Example 1
+- **Input:** `root = [4,1,3,null,null,2], val = 5`
+- **Output:** `[5,4,null,1,3,null,null,2]`
+- **Explanation:** a = [1,4,2,3], b = [1,4,2,3,5]
+
+### Example 2
+- **Input:** `root = [5,2,4,null,1], val = 3`
+- **Output:** `[5,2,4,null,1,null,3]`
+- **Explanation:** a = [2,1,5,4], b = [2,1,5,4,3]
+
+### Example 3
+- **Input:** `root = [5,2,3,null,1], val = 4`
+- **Output:** `[5,2,4,null,1,3]`
+- **Explanation:** a = [2,1,5,3], b = [2,1,5,3,4]
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Binary Tree II**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Binary Tree II**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [4,1,3,null,null,2], val = 5`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[5,4,null,1,3,null,null,2]`.
+4. **Verification:** a = [1,4,2,3], b = [1,4,2,3,5]
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -51,6 +95,18 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import Optional
+
+class Solution:
+    def insertIntoMaxTree(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
+        if not root or val > root.val:
+            return TreeNode(val, root, None)
+        root.right = self.insertIntoMaxTree(root.right, val)
+        return root
+```
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

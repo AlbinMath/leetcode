@@ -16,26 +16,54 @@ Solve LeetCode Climbing Stairs using JavaScript, Python and Array / General. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are climbing a staircase. It takes  n  steps to reach the top.
+## Problem Statement
+You are climbing a staircase. It takes `n` steps to reach the top.
+
+Each time you can either climb `1` or `2` steps. In how many distinct ways can you climb to the top?
+
+## Constraints
+- `1 <= n <= 45`
+
+## Examples
+### Example 1
+- **Input:** `n = 2`
+- **Output:** `2`
+- **Explanation:** There are two ways to climb to the top.
+1. 1 step + 1 step
+2. 2 steps
+
+### Example 2
+- **Input:** `n = 3`
+- **Output:** `3`
+- **Explanation:** There are three ways to climb to the top.
+1. 1 step + 1 step + 1 step
+2. 1 step + 2 steps
+3. 2 steps + 1 step
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Climbing Stairs**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Climbing Stairs**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 2`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** There are two ways to climb to the top.
+1. 1 step + 1 step
+2. 2 steps
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -49,6 +77,36 @@ JavaScript, Python
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var climbStairs = function(n) {
+    if (n <= 2) return n;
+
+    let prev2 = 1; // Ways to reach step 1
+    let prev1 = 2; // Ways to reach step 2
+
+    for (let i = 3; i <= n; i++) {
+        const current = prev1 + prev2;
+
+        prev2 = prev1;
+        prev1 = current;
+    }
+
+    return prev1;
+};
+```
+
+### Python
+```python
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        a, b = 1, 1
+        for _ in range(n - 1):
+            a, b = b, a + b
+        return b
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

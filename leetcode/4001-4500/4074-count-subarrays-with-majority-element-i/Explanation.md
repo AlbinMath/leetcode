@@ -16,26 +16,76 @@ Solve LeetCode Count Subarrays With Majority Element I using Java and Monotonic 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an integer array  nums  and an integer  target .
+## Problem Statement
+You are given an integer array `nums` and an integer `target`.
+
+Return the number of ** subarrays ** of `nums` in which `target` is the **majority element**.
+
+The **majority element** of a subarray is the element that appears **strictly** **more than half** of the times in that subarray.
+
+## Constraints
+- `1 <= nums.length <= 1000`
+- `1 <= nums[i] <= 10^​​​​​​​9`
+- `1 <= target <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,2,3], target = 2`
+- **Output:** `5`
+- **Explanation:** Valid subarrays with `target = 2` as the majority element: 
+
+ 
+ `nums[1..1] = [2]` 
+ `nums[2..2] = [2]` 
+ `nums[1..2] = [2,2]` 
+ `nums[0..2] = [1,2,2]` 
+ `nums[1..3] = [2,2,3]` 
+ 
+
+ So there are 5 such subarrays.
+
+### Example 2
+- **Input:** `nums = [1,1,1,1], target = 1`
+- **Output:** `10`
+
+### Example 3
+- **Input:** `nums = [1,2,3], target = 4`
+- **Output:** `0`
+- **Explanation:** `target = 4` does not appear in `nums` at all. Therefore, there cannot be any subarray where 4 is the majority element. Hence the answer is 0.
 
 ## Key Insight
 Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Subarrays With Majority Element I**, we observe the problem requirements and utilize the **Monotonic Stack** technique. We maintain a **Stack** with elements in strictly monotonic order. Whenever an incoming element violates monotonicity, we pop previous elements and compute answer intervals in amortized linear time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Monotonic Stack Filtering**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize an empty stack.
+2. For each element, pop previous items from stack while monotonic invariant is violated.
+3. Push current element or index onto stack.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Subarrays With Majority Element I**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,2,3], target = 2`.
+2. **Processing Steps:** We apply **Monotonic Stack Filtering** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** Valid subarrays with `target = 2` as the majority element: 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+ 
+ `nums[1..1] = [2]` 
+ `nums[2..2] = [2]` 
+ `nums[1..2] = [2,2]` 
+ `nums[0..2] = [1,2,2]` 
+ `nums[1..3] = [2,2,3]` 
+ 
+
+ So there are 5 such subarrays.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Monotonic Stack**
@@ -50,6 +100,34 @@ Java
 
 ## Source Code
 - [solution.java](./solution.java)
+
+
+```java
+class Solution {
+    public int countMajoritySubarrays(int[] nums, int target) {
+        int n = nums.length;
+        int count = 0;
+
+        for (int i = 0; i < n; i++) {
+            int targetCount = 0;
+
+            for (int j = i; j < n; j++) {
+                if (nums[j] == target) {
+                    targetCount++;
+                }
+
+                int length = j - i + 1;
+
+                if (targetCount * 2 > length) {
+                    count++;
+                }
+            }
+        }
+
+        return count;
+    }
+}
+```
 
 ## Why This Works
 By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

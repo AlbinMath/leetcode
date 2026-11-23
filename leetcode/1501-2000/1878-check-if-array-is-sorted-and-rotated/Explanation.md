@@ -16,8 +16,34 @@ Solve LeetCode Check if Array Is Sorted and Rotated using C++ and Binary Search.
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array  nums , return  true   if the array was originally sorted in non-decreasing order, then rotated  some  number of positions (including zero) . Otherwise, return  false .
+## Problem Statement
+Given an array `nums`, return `true`* if the array was originally sorted in non-decreasing order, then rotated **some** number of positions (including zero)*. Otherwise, return `false`.
+
+There may be **duplicates** in the original array.
+
+**Note:** An array `A` rotated by `x` positions results in an array `B` of the same length such that `B[i] == A[(i+x) % A.length]` for every valid index `i`.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `1 <= nums[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums = [3,4,5,1,2]`
+- **Output:** `true`
+- **Explanation:** [1,2,3,4,5] is the original sorted array.
+You can rotate the array by x = 2 positions to begin on the element of value 3: [3,4,5,1,2].
+
+### Example 2
+- **Input:** `nums = [2,1,3,4]`
+- **Output:** `false`
+- **Explanation:** There is no sorted array once rotated that can make nums.
+
+### Example 3
+- **Input:** `nums = [1,2,3]`
+- **Output:** `true`
+- **Explanation:** [1,2,3] is the original sorted array.
+You can rotate the array by x = 0 positions (i.e. no rotation) to make nums.
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -32,12 +58,18 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Check if Array Is Sorted and Rotated**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [3,4,5,1,2]`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** [1,2,3,4,5] is the original sorted array.
+You can rotate the array by x = 2 positions to begin on the element of value 3: [3,4,5,1,2].
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -52,6 +84,25 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    bool check(vector<int>& nums) {
+        int n = nums.size();
+        int count = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (nums[i] > nums[(i + 1) % n]) {
+                count++;
+            }
+        }
+
+        return count <= 1;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

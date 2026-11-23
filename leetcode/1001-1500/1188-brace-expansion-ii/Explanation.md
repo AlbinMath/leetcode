@@ -16,8 +16,50 @@ Solve LeetCode Brace Expansion II using JavaScript and Array / General. This sol
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Under the grammar given below, strings can represent a set of lowercase words. Let  R(expr)  denote the set of words the expression represents.
+## Problem Statement
+Under the grammar given below, strings can represent a set of lowercase words. Let `R(expr)` denote the set of words the expression represents.
+
+The grammar can best be understood through simple examples:
+
+Single letters represent a singleton set containing that word.
+ 
+ `R("a") = {"a"}` 
+ `R("w") = {"w"}` 
+ 
+ 
+ When we take a comma-delimited list of two or more expressions, we take the union of possibilities.
+ 
+ `R("{a,b,c}") = {"a","b","c"}` 
+ `R("{{a,b},{b,c}}") = {"a","b","c"}` (notice the final set only contains each word at most once) 
+ 
+ 
+ When we concatenate two expressions, we take the set of possible concatenations between two words where the first word comes from the first expression and the second word comes from the second expression.
+ 
+ `R("{a,b}{c,d}") = {"ac","ad","bc","bd"}` 
+ `R("a{b,c}{d,e}f{g,h}") = {"abdfg", "abdfh", "abefg", "abefh", "acdfg", "acdfh", "acefg", "acefh"}`
+
+Formally, the three rules for our grammar:
+
+For every lowercase letter `x`, we have `R(x) = {x}`. 
+ For expressions `e_1, e_2, ... , e_k` with `k >= 2`, we have `R({e_1, e_2, ...}) = R(e_1) &cup; R(e_2) &cup; ...` 
+ For expressions `e_1` and `e_2`, we have `R(e_1 + e_2) = {a + b for (a, b) in R(e_1) &times; R(e_2)}`, where `+` denotes concatenation, and `&times;` denotes the cartesian product.
+
+Given an expression representing a set of words under the given grammar, return *the sorted list of words that the expression represents*.
+
+## Constraints
+- `1 <= expression.length <= 60`
+- `expression[i]` consists of `'{'`, `'}'`, `','`or lowercase English letters.
+- The given `expression` represents a set of words based on the grammar given in the description.
+
+## Examples
+### Example 1
+- **Input:** `expression = "{a,b}{c,{d,e}}"`
+- **Output:** `["ac","ad","ae","bc","bd","be"]`
+
+### Example 2
+- **Input:** `expression = "{{a,z},a{b,c},{ab,z}}"`
+- **Output:** `["a","ab","ac","z"]`
+- **Explanation:** Each distinct word is written only once in the final answer.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -36,12 +78,16 @@ The solution implements a **Recursive Descent Parser** with three main functions
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Brace Expansion II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `expression = "{a,b}{c,{d,e}}"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["ac","ad","ae","bc","bd","be"]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -54,6 +100,82 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+/**
+ * @param {string} expression
+ * @return {string[]}
+ */
+var braceExpansionII = function(expression) {
+    let i = 0;
+
+    // Parse an expression: union of terms
+    function parseExpression() {
+        let result = new Set();
+        result = parseTerm();
+
+        while (i < expression.length && expression[i] === ',') {
+            i++; // skip comma
+            let next = parseTerm();
+
+            for (let word of next) {
+                result.add(word);
+            }
+        }
+
+        return result;
+    }
+
+    // Parse a term: concatenation of factors
+    function parseTerm() {
+        let result = new Set([""]);
+
+        while (
+            i < expression.length &&
+            expression[i] !== '}' &&
+            expression[i] !== ','
+        ) {
+            let factor = parseFactor();
+            let next = new Set();
+
+            for (let a of result) {
+                for (let b of factor) {
+                    next.add(a + b);
+                }
+            }
+
+            result = next;
+        }
+
+        return result;
+    }
+
+    // Parse a single letter or {...}
+    function parseFactor() {
+        if (expression[i] >= 'a' && expression[i] <= 'z') {
+            return new Set([expression[i++]]);
+        }
+
+        // '{'
+        i++;
+
+        let result = parseExpression();
+
+        // '}'
+        i++;
+
+        return result;
+    }
+
+    let result = [...parseExpression()];
+
+    // Lexicographical sorting
+    result.sort();
+
+    return result;
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

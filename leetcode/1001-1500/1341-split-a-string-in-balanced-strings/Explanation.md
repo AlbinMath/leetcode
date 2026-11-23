@@ -16,26 +16,59 @@ Solve LeetCode Split a String in Balanced Strings using Python and Array / Gener
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Balanced  strings are those that have an equal quantity of  &#39;L&#39;  and  &#39;R&#39;  characters.
+## Problem Statement
+**Balanced** strings are those that have an equal quantity of `'L'` and `'R'` characters.
+
+Given a **balanced** string `s`, split it into some number of substrings such that:
+
+Each substring is balanced.
+
+Return *the **maximum** number of balanced strings you can obtain.*
+
+## Constraints
+- `2 <= s.length <= 1000`
+- `s[i]` is either `'L'` or `'R'`.
+- `s` is a **balanced** string.
+
+## Examples
+### Example 1
+- **Input:** `s = "RLRRLLRLRL"`
+- **Output:** `4`
+- **Explanation:** s can be split into "RL", "RRLL", "RL", "RL", each substring contains same number of 'L' and 'R'.
+
+### Example 2
+- **Input:** `s = "RLRRRLLRLL"`
+- **Output:** `2`
+- **Explanation:** s can be split into "RL", "RRRLLRLL", each substring contains same number of 'L' and 'R'.
+Note that s cannot be split into "RL", "RR", "RL", "LR", "LL", because the 2^nd and 5^th substrings are not balanced.
+
+### Example 3
+- **Input:** `s = "LLLLRRRR"`
+- **Output:** `1`
+- **Explanation:** s can be split into "LLLLRRRR".
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Split a String in Balanced Strings**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Split a String in Balanced Strings**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "RLRRLLRLRL"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** s can be split into "RL", "RRLL", "RL", "RL", each substring contains same number of 'L' and 'R'.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +81,25 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def balancedStringSplit(self, s: str) -> int:
+        balance = 0
+        count = 0
+
+        for char in s:
+            if char == 'R':
+                balance += 1
+            else:
+                balance -= 1
+
+            if balance == 0:
+                count += 1
+
+        return count
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1234. Replace the Substring for Balanced String](../../1001-1500/1351-replace-the-substring-for-balanced-string/)
+- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
 - [1525. Number of Good Ways to Split a String](../../1501-2000/1632-number-of-good-ways-to-split-a-string/)
-- [1573. Number of Ways to Split a String](../../1501-2000/1678-number-of-ways-to-split-a-string/)
-- [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1715-split-a-string-into-the-max-number-of-unique-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-a-string-in-balanced-strings/)

@@ -16,26 +16,58 @@ Solve LeetCode Minimum One Bit Operations to Make Integers Zero using Python and
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  n , you must transform it into  0  using the following operations any number of times:
+## Problem Statement
+Given an integer `n`, you must transform it into `0` using the following operations any number of times:
+
+Change the rightmost (`0^th`) bit in the binary representation of `n`. 
+ Change the `i^th` bit in the binary representation of `n` if the `(i-1)^th` bit is set to `1` and the `(i-2)^th` through `0^th` bits are set to `0`.
+
+Return *the minimum number of operations to transform *`n`* into *`0`*.*
+
+## Constraints
+- `0 <= n <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `n = 3`
+- **Output:** `2`
+- **Explanation:** The binary representation of 3 is "11".
+" 1 1" -> " 0 1" with the 2^nd operation since the 0^th bit is 1.
+"0 1 " -> "0 0 " with the 1^st operation.
+
+### Example 2
+- **Input:** `n = 6`
+- **Output:** `4`
+- **Explanation:** The binary representation of 6 is "110".
+" 1 10" -> " 0 10" with the 2^nd operation since the 1^st bit is 1 and 0^th through 0^th bits are 0.
+"01 0 " -> "01 1 " with the 1^st operation.
+"0 1 1" -> "0 0 1" with the 2^nd operation since the 0^th bit is 1.
+"00 1 " -> "00 0 " with the 1^st operation.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum One Bit Operations to Make Integers Zero**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum One Bit Operations to Make Integers Zero**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 3`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The binary representation of 3 is "11".
+" 1 1" -> " 0 1" with the 2^nd operation since the 0^th bit is 1.
+"0 1 " -> "0 0 " with the 1^st operation.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +81,17 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def minimumOneBitOperations(self, n: int) -> int:
+        res = 0
+        while n:
+            res ^= n
+            n >>= 1
+        return res
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +107,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2749. Minimum Operations to Make the Integer Zero](../../2501-3000/2837-minimum-operations-to-make-the-integer-zero/)
-- [3495. Minimum Operations to Make Array Elements Zero](../../3501-4000/3744-minimum-operations-to-make-array-elements-zero/)
 - [3191. Minimum Operations to Make Binary Array Elements Equal to One I](../../3001-3500/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i/)
+- [3495. Minimum Operations to Make Array Elements Zero](../../3501-4000/3744-minimum-operations-to-make-array-elements-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)

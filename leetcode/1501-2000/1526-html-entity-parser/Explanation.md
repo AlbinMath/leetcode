@@ -16,26 +16,58 @@ Solve LeetCode HTML Entity Parser using Python and Array / General. This solutio
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-HTML entity parser  is the parser that takes HTML code as input and replace all the entities of the special characters by the characters itself.
+## Problem Statement
+**HTML entity parser** is the parser that takes HTML code as input and replace all the entities of the special characters by the characters itself.
+
+The special characters and their entities for HTML are:
+
+**Quotation Mark:** the entity is `&quot;` and symbol character is `"`. 
+ **Single Quote Mark:** the entity is `&apos;` and symbol character is `'`. 
+ **Ampersand:** the entity is `&amp;` and symbol character is `&`. 
+ **Greater Than Sign:** the entity is `&gt;` and symbol character is `>`. 
+ **Less Than Sign:** the entity is `&lt;` and symbol character is `<`. 
+ **Slash:** the entity is `&frasl;` and symbol character is `/`.
+
+Given the input `text` string to the HTML parser, you have to implement the entity parser.
+
+Return *the text after replacing the entities by the special characters*.
+
+## Constraints
+- `1 <= text.length <= 10^5`
+- The string may contain any possible characters out of all the 256 ASCII characters.
+
+## Examples
+### Example 1
+- **Input:** `text = "&amp; is an HTML entity but &ambassador; is not."`
+- **Output:** `"& is an HTML entity but &ambassador; is not."`
+- **Explanation:** The parser will replace the &amp; entity by &
+
+### Example 2
+- **Input:** `text = "and I quote: &quot;...&quot;"`
+- **Output:** `"and I quote: \"...\""`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **HTML Entity Parser**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **HTML Entity Parser**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `text = "&amp; is an HTML entity but &ambassador; is not."`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"& is an HTML entity but &ambassador; is not."`.
+4. **Verification:** The parser will replace the &amp; entity by &
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +80,18 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def entityParser(self, text: str) -> str:
+        return (text.replace("&quot;", '"')
+                    .replace("&apos;", "'")
+                    .replace("&gt;", ">")
+                    .replace("&lt;", "<")
+                    .replace("&frasl;", "/")
+                    .replace("&amp;", "&"))
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

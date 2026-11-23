@@ -16,8 +16,17 @@ Solve LeetCode Word Frequency using Shell and Hash Map. This solution finds the 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Write a bash script to calculate the  frequency  of each word in a text file  words.txt .
+## Problem Statement
+Write a bash script to calculate the frequency of each word in a text file `words.txt`.
+
+For simplicity sake, you may assume:
+
+`words.txt` contains only lowercase characters and space `' '` characters. 
+ Each word must consist of lowercase characters only. 
+ Words are separated by one or more whitespace characters.
+
+## Examples
+Consider the standard input for **Word Frequency**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Key Insight
 Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
@@ -35,12 +44,12 @@ The solution chains four Unix commands together using pipes:
 2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Word Frequency**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+## Example Walkthrough
+Applying **Complement Lookup / Hash Table Frequency** step by step to the input yields the expected result.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
 **Hash Map**
@@ -56,6 +65,12 @@ Shell
 ## Source Code
 - [solution.sh](./solution.sh)
 
+
+```bash
+# Read from the file words.txt and output the word frequency list to stdout.
+tr -s ' ' '\n' < words.txt | sort | uniq -c | sort -nr | awk '{print $2, $1}'
+```
+
 ## Why This Works
 By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -69,9 +84,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [79. Word Search](../../0001-0500/0079-word-search/)
-- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
+- [895. Maximum Frequency Stack](../../0501-1000/0931-maximum-frequency-stack/)
+- [1170. Compare Strings by Frequency of the Smallest Character](../../1001-1500/1273-compare-strings-by-frequency-of-the-smallest-character/)
+- [1348. Tweet Counts Per Frequency](../../1001-1500/1470-tweet-counts-per-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-frequency/)

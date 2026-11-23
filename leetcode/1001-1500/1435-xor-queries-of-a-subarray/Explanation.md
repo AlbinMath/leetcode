@@ -16,26 +16,69 @@ Solve LeetCode XOR Queries of a Subarray using Python and Bit Manipulation. This
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  arr  of positive integers. You are also given the array  queries  where  queries[i] = [left i,  right i ] .
+## Problem Statement
+You are given an array `arr` of positive integers. You are also given the array `queries` where `queries[i] = [left_i, right_i]`.
+
+For each query `i` compute the **XOR** of elements from `left_i` to `right_i` (that is, `arr[left_i] XOR arr[left_i + 1] XOR ... XOR arr[right_i]` ).
+
+Return an array `answer` where `answer[i]` is the answer to the `i^th` query.
+
+## Constraints
+- `1 <= arr.length, queries.length <= 3 * 10^4`
+- `1 <= arr[i] <= 10^9`
+- `queries[i].length == 2`
+- `0 <= left_i <= right_i < arr.length`
+
+## Examples
+### Example 1
+- **Input:** `arr = [1,3,4,8], queries = [[0,1],[1,2],[0,3],[3,3]]`
+- **Output:** `[2,7,14,8]`
+- **Explanation:** The binary representation of the elements in the array are:
+1 = 0001 
+3 = 0011 
+4 = 0100 
+8 = 1000 
+The XOR values for queries are:
+[0,1] = 1 xor 3 = 2 
+[1,2] = 3 xor 4 = 7 
+[0,3] = 1 xor 3 xor 4 xor 8 = 14 
+[3,3] = 8
+
+### Example 2
+- **Input:** `arr = [4,8,2,10], queries = [[2,3],[1,3],[0,0],[0,3]]`
+- **Output:** `[8,0,4,4]`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **XOR Queries of a Subarray**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **XOR Queries of a Subarray**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [1,3,4,8], queries = [[0,1],[1,2],[0,3],[3,3]]`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[2,7,14,8]`.
+4. **Verification:** The binary representation of the elements in the array are:
+1 = 0001 
+3 = 0011 
+4 = 0100 
+8 = 1000 
+The XOR values for queries are:
+[0,1] = 1 xor 3 = 2 
+[1,2] = 3 xor 4 = 7 
+[0,3] = 1 xor 3 xor 4 xor 8 = 14 
+[3,3] = 8
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +92,18 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def xorQueries(self, arr: List[int], queries: List[List[int]]) -> List[int]:
+        p = [0] * (len(arr) + 1)
+        for i, x in enumerate(arr):
+            p[i + 1] = p[i] ^ x
+        return [p[r + 1] ^ p[l] for l, r in queries]
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

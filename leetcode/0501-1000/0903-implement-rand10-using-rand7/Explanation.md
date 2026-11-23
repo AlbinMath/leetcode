@@ -16,26 +16,50 @@ Solve LeetCode Implement Rand10() Using Rand7() using JavaScript and Trie. This 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given the  API   rand7()  that generates a uniform random integer in the range  [1, 7] , write a function  rand10()  that generates a uniform random integer in the range  [1, 10] . You can only call the API  rand7() , and you shouldn&#39;t call any other API. Please  do not  use a language&#39;s built-in random API.
+## Problem Statement
+Given the **API** `rand7()` that generates a uniform random integer in the range `[1, 7]`, write a function `rand10()` that generates a uniform random integer in the range `[1, 10]`. You can only call the API `rand7()`, and you shouldn't call any other API. Please **do not** use a language's built-in random API.
+
+Each test case will have one **internal** argument `n`, the number of times that your implemented function `rand10()` will be called while testing. Note that this is **not an argument** passed to `rand10()`.
+
+## Constraints
+- `1 <= n <= 10^5`
+- What is the expected value for the number of calls to `rand7()` function?
+- Could you minimize the number of calls to `rand7()`?
+
+## Examples
+### Example 1
+- **Input:** `n = 1`
+- **Output:** `[2]`
+
+### Example 2
+- **Input:** `n = 2`
+- **Output:** `[2,8]`
+
+### Example 3
+- **Input:** `n = 3`
+- **Output:** `[3,8,10]`
 
 ## Key Insight
 Leverage **Trie** with **Trie Node** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Implement Rand10() Using Rand7()**, we observe the problem requirements and utilize the **Trie** technique. We iterate through the inputs using **Prefix Tree Lookup**, leveraging a **Trie Node** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Trie Node**).
-2. Process elements sequentially using **Prefix Tree Lookup**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Trie Node**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Implement Rand10() Using Rand7()**. Applying **Prefix Tree Lookup** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 1`.
+2. **Processing Steps:** We apply **Prefix Tree Lookup** using our **Trie Node**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[2]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Trie Node.
 
 ## Pattern
 **Trie**
@@ -50,6 +74,30 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+/**
+ * The rand7() API is already defined for you.
+ * @return {number} a random integer in [1, 7]
+ */
+
+/**
+ * @return {number}
+ */
+var rand10 = function() {
+    while (true) {
+        const a = rand7() - 1;
+        const b = rand7() - 1;
+
+        const num = a * 7 + b; // Uniform integer from 0 to 48
+
+        if (num < 40) {
+            return (num % 10) + 1;
+        }
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Trie**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -66,7 +114,7 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
 - [232. Implement Queue using Stacks](../../0001-0500/0232-implement-queue-using-stacks/)
-- [208. Implement Trie (Prefix Tree)](../../0001-0500/0208-implement-trie-prefix-tree/)
+- [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1443-minimum-distance-to-type-a-word-using-two-fingers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-rand10-using-rand7/)

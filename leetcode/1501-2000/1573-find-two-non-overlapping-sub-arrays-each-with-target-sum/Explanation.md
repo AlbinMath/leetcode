@@ -16,8 +16,33 @@ Solve LeetCode Find Two Non-overlapping Sub-arrays Each With Target Sum using Ja
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array of integers  arr  and an integer  target .
+## Problem Statement
+You are given an array of integers `arr` and an integer `target`.
+
+You have to find **two non-overlapping sub-arrays** of `arr` each with a sum equal `target`. There can be multiple answers so you have to find an answer where the sum of the lengths of the two sub-arrays is **minimum**.
+
+Return *the minimum sum of the lengths* of the two required sub-arrays, or return `-1` if you cannot find such two sub-arrays.
+
+## Constraints
+- `1 <= arr.length <= 10^5`
+- `1 <= arr[i] <= 1000`
+- `1 <= target <= 10^8`
+
+## Examples
+### Example 1
+- **Input:** `arr = [3,2,2,4,3], target = 3`
+- **Output:** `2`
+- **Explanation:** Only two sub-arrays have sum = 3 ([3] and [3]). The sum of their lengths is 2.
+
+### Example 2
+- **Input:** `arr = [7,3,4,7], target = 7`
+- **Output:** `2`
+- **Explanation:** Although we have three non-overlapping sub-arrays of sum = 7 ([7], [3,4] and [7]), but we will choose the first and third sub-arrays as the sum of their lengths is 2.
+
+### Example 3
+- **Input:** `arr = [4,3,2,6,2,3,4], target = 6`
+- **Output:** `-1`
+- **Explanation:** We have only one sub-array of sum = 6.
 
 ## Key Insight
 Maintain a dynamic contiguous window with two pointers (`left` and `right`), expanding to include new elements and shrinking when window invariants are violated.
@@ -32,12 +57,17 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 2. Process elements sequentially using **Dynamic Sliding Window Traversal**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Find Two Non-overlapping Sub-arrays Each With Target Sum**. Applying **Dynamic Sliding Window Traversal** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [3,2,2,4,3], target = 3`.
+2. **Processing Steps:** We apply **Dynamic Sliding Window Traversal** using our **Array / Hash Set**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** Only two sub-arrays have sum = 3 ([3] and [3]). The sum of their lengths is 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Hash Set.
 
 ## Pattern
 **Sliding Window**
@@ -52,6 +82,45 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var minSumOfLengths = function(arr, target) {
+    const n = arr.length;
+    const best = new Array(n).fill(Infinity);
+
+    let left = 0;
+    let sum = 0;
+    let minLen = Infinity;
+    let answer = Infinity;
+
+    for (let right = 0; right < n; right++) {
+        sum += arr[right];
+
+        while (sum > target && left <= right) {
+            sum -= arr[left];
+            left++;
+        }
+
+        // Subarray [left ... right] has sum = target
+        if (sum === target) {
+            const len = right - left + 1;
+
+            // Combine with a previous non-overlapping subarray
+            if (left > 0 && best[left - 1] !== Infinity) {
+                answer = Math.min(answer, len + best[left - 1]);
+            }
+
+            minLen = Math.min(minLen, len);
+        }
+
+        // Best subarray ending at or before right
+        best[right] = minLen;
+    }
+
+    return answer === Infinity ? -1 : answer;
+};
+```
 
 ## Why This Works
 By utilizing **Sliding Window**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

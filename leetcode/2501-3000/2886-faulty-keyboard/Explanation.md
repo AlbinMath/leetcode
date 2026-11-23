@@ -16,26 +16,71 @@ Solve LeetCode Faulty Keyboard using JavaScript and Array / General. This soluti
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Your laptop keyboard is faulty, and whenever you type a character  &#39;i&#39;  on it, it reverses the string that you have written. Typing other characters works as expected.
+## Problem Statement
+Your laptop keyboard is faulty, and whenever you type a character `'i'` on it, it reverses the string that you have written. Typing other characters works as expected.
+
+You are given a **0-indexed** string `s`, and you type each character of `s` using your faulty keyboard.
+
+Return *the final string that will be present on your laptop screen.*
+
+## Constraints
+- `1 <= s.length <= 100`
+- `s` consists of lowercase English letters.
+- `s[0] != 'i'`
+
+## Examples
+### Example 1
+- **Input:** `s = "string"`
+- **Output:** `"rtsng"`
+- **Explanation:** After typing first character, the text on the screen is "s".
+After the second character, the text is "st". 
+After the third character, the text is "str".
+Since the fourth character is an 'i', the text gets reversed and becomes "rts".
+After the fifth character, the text is "rtsn". 
+After the sixth character, the text is "rtsng". 
+Therefore, we return "rtsng".
+
+### Example 2
+- **Input:** `s = "poiinter"`
+- **Output:** `"ponter"`
+- **Explanation:** After the first character, the text on the screen is "p".
+After the second character, the text is "po". 
+Since the third character you type is an 'i', the text gets reversed and becomes "op". 
+Since the fourth character you type is an 'i', the text gets reversed and becomes "po".
+After the fifth character, the text is "pon".
+After the sixth character, the text is "pont". 
+After the seventh character, the text is "ponte". 
+After the eighth character, the text is "ponter". 
+Therefore, we return "ponter".
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Faulty Keyboard**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Faulty Keyboard**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "string"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"rtsng"`.
+4. **Verification:** After typing first character, the text on the screen is "s".
+After the second character, the text is "st". 
+After the third character, the text is "str".
+Since the fourth character is an 'i', the text gets reversed and becomes "rts".
+After the fifth character, the text is "rtsn". 
+After the sixth character, the text is "rtsng". 
+Therefore, we return "rtsng".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +93,32 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var finalString = function(s) {
+    // Pre-allocate buffer of size 2 * n for O(1) push/unshift
+    const n = s.length;
+    const buffer = new Array(2 * n);
+    let head = n;
+    let tail = n;
+    let reversedMode = false;
+
+    for (const ch of s) {
+        if (ch === 'i') {
+            reversedMode = !reversedMode;
+        } else if (reversedMode) {
+            buffer[--head] = ch;
+        } else {
+            buffer[tail++] = ch;
+        }
+    }
+
+    const result = buffer.slice(head, tail);
+    if (reversedMode) result.reverse();
+    return result.join('');
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

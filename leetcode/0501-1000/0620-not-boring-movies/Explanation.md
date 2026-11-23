@@ -16,26 +16,83 @@ Solve LeetCode Not Boring Movies using SQL and Database / SQL. This solution fin
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Cinema`
+
 +----------------+----------+
+| Column Name | Type |
++----------------+----------+
+| id | int |
+| movie | varchar |
+| description | varchar |
+| rating | float |
++----------------+----------+
+id is the primary key (column with unique values) for this table.
+Each row contains information about the name of a movie, its genre, and its rating.
+rating is a 2 decimal places float in the range [0, 10]
+
+Write a solution to report the movies with an odd-numbered ID and a description that is not `"boring"`.
+
+Return the result table ordered by `rating` **in descending order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Cinema table:
++----+------------+-------------+--------+
+| id | movie | description | rating |
++----+------------+-------------+--------+
+| 1 | War | great 3D | 8.9 |
+| 2 | Science | fiction | 8.5 |
+| 3 | irish | boring | 6.2 |
+| 4 | Ice song | Fantacy | 8.6 |
+| 5 | House card | Interesting | 9.1 |
++----+------------+-------------+--------+`
+- **Output:** `+----+------------+-------------+--------+
+| id | movie | description | rating |
++----+------------+-------------+--------+
+| 5 | House card | Interesting | 9.1 |
+| 1 | War | great 3D | 8.9 |
++----+------------+-------------+--------+`
+- **Explanation:** We have three movies with odd-numbered IDs: 1, 3, and 5. The movie with ID = 3 is boring so we do not include it in the answer.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Not Boring Movies** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints. We order the final result set using `ORDER BY`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Filter records according to problem criteria.
+2. Sort the projected result.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Not Boring Movies**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Cinema table:
++----+------------+-------------+--------+
+| id | movie | description | rating |
++----+------------+-------------+--------+
+| 1 | War | great 3D | 8.9 |
+| 2 | Science | fiction | 8.5 |
+| 3 | irish | boring | 6.2 |
+| 4 | Ice song | Fantacy | 8.6 |
+| 5 | House card | Interesting | 9.1 |
++----+------------+-------------+--------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+----+------------+-------------+--------+
+| id | movie | description | rating |
++----+------------+-------------+--------+
+| 5 | House card | Interesting | 9.1 |
+| 1 | War | great 3D | 8.9 |
++----+------------+-------------+--------+`.
+4. **Verification:** We have three movies with odd-numbered IDs: 1, 3, and 5. The movie with ID = 3 is boring so we do not include it in the answer.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +107,15 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT *
+FROM Cinema
+WHERE id % 2 = 1
+  AND description != 'boring'
+ORDER BY rating DESC;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

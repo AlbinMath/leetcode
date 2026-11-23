@@ -16,26 +16,54 @@ Solve LeetCode Longest Balanced Substring I using Python and Array / General. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string  s  consisting of lowercase English letters.
+## Problem Statement
+You are given a string `s` consisting of lowercase English letters.
+
+A ** substring ** of `s` is called **balanced** if all **distinct** characters in the **substring** appear the **same** number of times.
+
+Return the **length** of the **longest balanced substring** of `s`.
+
+## Constraints
+- `1 <= s.length <= 1000`
+- `s` consists of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "abbac"`
+- **Output:** `4`
+- **Explanation:** The longest balanced substring is `"abba"` because both distinct characters `'a'` and `'b'` each appear exactly 2 times.
+
+### Example 2
+- **Input:** `s = "zzabccy"`
+- **Output:** `4`
+- **Explanation:** The longest balanced substring is `"zabc"` because the distinct characters `'z'`, `'a'`, `'b'`, and `'c'` each appear exactly 1 time.​​​​​​​
+
+### Example 3
+- **Input:** `s = "aba"`
+- **Output:** `2`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Longest Balanced Substring I**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Longest Balanced Substring I**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "abbac"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** The longest balanced substring is `"abba"` because both distinct characters `'a'` and `'b'` each appear exactly 2 times.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +76,29 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def longestBalanced(self, s: str) -> int:
+        n = len(s)
+        ans = 0
+        for i in range(n):
+            cnt = [0] * 26
+            d = 0
+            mx = 0
+            for j in range(i, n):
+                k = ord(s[j]) - 97
+                if cnt[k] == 0:
+                    d += 1
+                cnt[k] += 1
+                if cnt[k] > mx:
+                    mx = cnt[k]
+                length = j - i + 1
+                if mx * d == length and length > ans:
+                    ans = length
+        return ans
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +113,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
+- [1234. Replace the Substring for Balanced String](../../1001-1500/1351-replace-the-substring-for-balanced-string/)
+- [3719. Longest Balanced Subarray I](../../4001-4500/4045-longest-balanced-subarray-i/)
+- [3721. Longest Balanced Subarray II](../../4001-4500/4047-longest-balanced-subarray-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-balanced-substring-i/)

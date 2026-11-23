@@ -16,8 +16,29 @@ Solve LeetCode Number of Substrings Containing All Three Characters using Java, 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a string  s  consisting only of characters  a ,  b  and  c .
+## Problem Statement
+Given a string `s` consisting only of characters *a*, *b* and *c*.
+
+Return the number of substrings containing at least one occurrence of all these characters *a*, *b* and *c*.
+
+## Constraints
+- `3 <= s.length <= 5 x 10^4`
+- `s` only consists of `'a'`, `'b'` or `'c'` characters.
+
+## Examples
+### Example 1
+- **Input:** `s = "abcabc"`
+- **Output:** `10`
+- **Explanation:** The substrings containing at least one occurrence of the characters *a*, *b* and *c are "*abc*", "*abca*", "*abcab*", "*abcabc*", "*bca*", "*bcab*", "*bcabc*", "*cab*", "*cabc*" *and* "*abc*" *(
+
+### Example 2
+- **Input:** `s = "aaacb"`
+- **Output:** `3`
+- **Explanation:** The substrings containing at least one occurrence of the characters *a*, *b* and *c are "*aaacb*", "*aacb*" *and* "*acb*".** *
+
+### Example 3
+- **Input:** `s = "abc"`
+- **Output:** `1`
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
@@ -38,12 +59,17 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Number of Substrings Containing All Three Characters**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "abcabc"`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `10`.
+4. **Verification:** The substrings containing at least one occurrence of the characters *a*, *b* and *c are "*abc*", "*abca*", "*abcab*", "*abcabc*", "*bca*", "*bcab*", "*bcabc*", "*cab*", "*cabc*" *and* "*abc*" *(
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -61,6 +87,46 @@ Java, Python
 - [solution.java](./solution.java)
 - [solution.py](./solution.py)
 
+
+### Java
+```java
+class Solution {
+    public int numberOfSubstrings(String s) {
+        int[] last = {-1, -1, -1};
+        int ans = 0;
+
+        for (int right = 0; right < s.length(); right++) {
+            int index = s.charAt(right) - 'a';
+            last[index] = right;
+
+            // All three characters have appeared
+            if (last[0] != -1 && last[1] != -1 && last[2] != -1) {
+                int minLast = Math.min(last[0],
+                              Math.min(last[1], last[2]));
+
+                ans += minLast + 1;
+            }
+        }
+
+        return ans;
+    }
+}
+```
+
+### Python
+```python
+class Solution:
+    def numberOfSubstrings(self, s: str) -> int:
+        last = [-1, -1, -1]
+        ans = 0
+
+        for i, c in enumerate(s):
+            last[ord(c) - ord('a')] = i
+            ans += min(last) + 1
+
+        return ans
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -74,9 +140,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1876. Substrings of Size Three with Distinct Characters](../../1501-2000/1987-substrings-of-size-three-with-distinct-characters/)
 - [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
 - [1941. Check if All Characters Have Equal Number of Occurrences](../../2001-2500/2053-check-if-all-characters-have-equal-number-of-occurrences/)
-- [1876. Substrings of Size Three with Distinct Characters](../../1501-2000/1987-substrings-of-size-three-with-distinct-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)

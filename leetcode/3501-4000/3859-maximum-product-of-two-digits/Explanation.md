@@ -16,26 +16,62 @@ Solve LeetCode Maximum Product of Two Digits using Erlang and Math & Logic. This
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a positive integer  n .
+## Problem Statement
+You are given a positive integer `n`.
+
+Return the **maximum** product of any two digits in `n`.
+
+**Note:** You may use the **same** digit twice if it appears more than once in `n`.
+
+## Constraints
+- `10 <= n <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `n = 31`
+- **Output:** `3`
+- **Explanation:** The digits of `n` are `[3, 1]`. 
+ The possible products of any two digits are: `3 * 1 = 3`. 
+ The maximum product is 3.
+
+### Example 2
+- **Input:** `n = 22`
+- **Output:** `4`
+- **Explanation:** The digits of `n` are `[2, 2]`. 
+ The possible products of any two digits are: `2 * 2 = 4`. 
+ The maximum product is 4.
+
+### Example 3
+- **Input:** `n = 124`
+- **Output:** `8`
+- **Explanation:** The digits of `n` are `[1, 2, 4]`. 
+ The possible products of any two digits are: `1 * 2 = 2`, `1 * 4 = 4`, `2 * 4 = 8`. 
+ The maximum product is 8.
 
 ## Key Insight
 Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Mathematical Simulation / Modular Arithmetic**. By maintaining state efficiently in a **Primitive Data Types**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Product of Two Digits**, we observe the problem requirements and utilize the **Math & Logic** technique. We iterate through the inputs using **Mathematical Simulation & Modular Arithmetic**, leveraging a **Primitive Types** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Types**).
-2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Primitive Types**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Product of Two Digits**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 31`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** The digits of `n` are `[3, 1]`. 
+ The possible products of any two digits are: `3 * 1 = 3`. 
+ The maximum product is 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
 **Math & Logic**
@@ -49,6 +85,17 @@ Erlang
 
 ## Source Code
 - [solution.erl](./solution.erl)
+
+
+```erlang
+-spec max_product(N :: integer()) -> integer().
+
+max_product(N) ->
+    Digits = [D - $0 || D <- integer_to_list(N)],
+    Sorted = lists:sort(Digits),
+    Len = length(Sorted),
+    lists:nth(Len, Sorted) * lists:nth(Len - 1, Sorted).
+```
 
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

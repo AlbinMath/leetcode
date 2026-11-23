@@ -16,26 +16,61 @@ Solve LeetCode Shifting Letters using Python and Array / General. This solution 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string  s  of lowercase English letters and an integer array  shifts  of the same length.
+## Problem Statement
+You are given a string `s` of lowercase English letters and an integer array `shifts` of the same length.
+
+Call the `shift()` of a letter, the next letter in the alphabet, (wrapping around so that `'z'` becomes `'a'`).
+
+For example, `shift('a') = 'b'`, `shift('t') = 'u'`, and `shift('z') = 'a'`.
+
+Now for each `shifts[i] = x`, we want to shift the first `i + 1` letters of `s`, `x` times.
+
+Return *the final string after all such shifts to s are applied*.
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s` consists of lowercase English letters.
+- `shifts.length == s.length`
+- `0 <= shifts[i] <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `s = "abc", shifts = [3,5,9]`
+- **Output:** `"rpl"`
+- **Explanation:** We start with "abc".
+After shifting the first 1 letters of s by 3, we have "dbc".
+After shifting the first 2 letters of s by 5, we have "igc".
+After shifting the first 3 letters of s by 9, we have "rpl", the answer.
+
+### Example 2
+- **Input:** `s = "aaa", shifts = [1,2,3]`
+- **Output:** `"gfd"`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Shifting Letters**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Shifting Letters**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "abc", shifts = [3,5,9]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"rpl"`.
+4. **Verification:** We start with "abc".
+After shifting the first 1 letters of s by 3, we have "dbc".
+After shifting the first 2 letters of s by 5, we have "igc".
+After shifting the first 3 letters of s by 9, we have "rpl", the answer.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +83,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def shiftingLetters(self, s: str, shifts: List[int]) -> str:
+        res = list(s)
+        total = 0
+
+        for i in range(len(s) - 1, -1, -1):
+            total = (total + shifts[i]) % 26
+            res[i] = chr((ord(s[i]) - 97 + total) % 26 + 97)
+
+        return ''.join(res)
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

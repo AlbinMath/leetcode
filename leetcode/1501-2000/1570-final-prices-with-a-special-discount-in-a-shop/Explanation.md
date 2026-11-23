@@ -16,8 +16,34 @@ Solve LeetCode Final Prices With a Special Discount in a Shop using TypeScript a
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an integer array  prices  where  prices[i]  is the price of the  i th   item in a shop.
+## Problem Statement
+You are given an integer array `prices` where `prices[i]` is the price of the `i^th` item in a shop.
+
+There is a special discount for items in the shop. If you buy the `i^th` item, then you will receive a discount equivalent to `prices[j]` where `j` is the minimum index such that `j > i` and `prices[j] <= prices[i]`. Otherwise, you will not receive any discount at all.
+
+Return an integer array `answer` where `answer[i]` is the final price you will pay for the `i^th` item of the shop, considering the special discount.
+
+## Constraints
+- `1 <= prices.length <= 500`
+- `1 <= prices[i] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `prices = [8,4,6,2,3]`
+- **Output:** `[4,2,4,2,3]`
+- **Explanation:** For item 0 with price[0]=8 you will receive a discount equivalent to prices[1]=4, therefore, the final price you will pay is 8 - 4 = 4.
+For item 1 with price[1]=4 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 4 - 2 = 2.
+For item 2 with price[2]=6 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 6 - 2 = 4.
+For items 3 and 4 you will not receive any discount at all.
+
+### Example 2
+- **Input:** `prices = [1,2,3,4,5]`
+- **Output:** `[1,2,3,4,5]`
+- **Explanation:** In this case, for all items, you will not receive any discount at all.
+
+### Example 3
+- **Input:** `prices = [10,1,1,6]`
+- **Output:** `[9,0,1,6]`
 
 ## Key Insight
 Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
@@ -32,12 +58,20 @@ Time complexity is $O(N)$ and space complexity is $O(N)$.
 2. Process elements sequentially using **Monotonic Stack Filtering**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Final Prices With a Special Discount in a Shop**. Applying **Monotonic Stack Filtering** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `prices = [8,4,6,2,3]`.
+2. **Processing Steps:** We apply **Monotonic Stack Filtering** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[4,2,4,2,3]`.
+4. **Verification:** For item 0 with price[0]=8 you will receive a discount equivalent to prices[1]=4, therefore, the final price you will pay is 8 - 4 = 4.
+For item 1 with price[1]=4 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 4 - 2 = 2.
+For item 2 with price[2]=6 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 6 - 2 = 4.
+For items 3 and 4 you will not receive any discount at all.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Monotonic Stack**
@@ -53,6 +87,27 @@ TypeScript
 ## Source Code
 - [solution.ts](./solution.ts)
 
+
+```typescript
+function finalPrices(prices: number[]): number[] {
+    const stack: number[] = [];
+
+    for (let i = 0; i < prices.length; i++) {
+        while (
+            stack.length > 0 &&
+            prices[stack[stack.length - 1]] >= prices[i]
+        ) {
+            const index = stack.pop()!;
+            prices[index] -= prices[i];
+        }
+
+        stack.push(i);
+    }
+
+    return prices;
+}
+```
+
 ## Why This Works
 By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -66,9 +121,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [1357. Apply Discount Every n Orders](../../1001-1500/1459-apply-discount-every-n-orders/)
-- [2144. Minimum Cost of Buying Candies With Discount](../../2001-2500/2248-minimum-cost-of-buying-candies-with-discount/)
 - [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](../../3001-3500/3240-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
+- [761. Special Binary String](../../0501-1000/0763-special-binary-string/)
+- [893. Groups of Special-Equivalent Strings](../../0501-1000/0929-groups-of-special-equivalent-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)

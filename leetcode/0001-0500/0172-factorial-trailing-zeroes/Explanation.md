@@ -16,26 +16,51 @@ Solve LeetCode Factorial Trailing Zeroes using JavaScript, Python and Bit Manipu
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  n , return  the number of trailing zeroes in   n! .
+## Problem Statement
+Given an integer `n`, return *the number of trailing zeroes in *`n!`.
+
+Note that `n! = n * (n - 1) * (n - 2) * ... * 3 * 2 * 1`.
+
+## Constraints
+- `0 <= n <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `n = 3`
+- **Output:** `0`
+- **Explanation:** 3! = 6, no trailing zero.
+
+### Example 2
+- **Input:** `n = 5`
+- **Output:** `1`
+- **Explanation:** 5! = 120, one trailing zero.
+
+### Example 3
+- **Input:** `n = 0`
+- **Output:** `0`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Factorial Trailing Zeroes**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Factorial Trailing Zeroes**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 3`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `0`.
+4. **Verification:** 3! = 6, no trailing zero.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -51,6 +76,32 @@ JavaScript, Python
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
+
+### JavaScript
+```javascript
+var trailingZeroes = function(n) {
+    let count = 0;
+
+    while (n >= 5) {
+        n = Math.floor(n / 5);
+        count += n;
+    }
+
+    return count;
+};
+```
+
+### Python
+```python
+class Solution:
+    def trailingZeroes(self, n: int) -> int:
+        res = 0
+        while n:
+            n //= 5
+            res += n
+        return res
+```
+
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,9 +115,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1006. Clumsy Factorial](../../1001-1500/1048-clumsy-factorial/)
 - [2980. Check if Bitwise OR Has Trailing Zeros](../../3001-3500/3246-check-if-bitwise-or-has-trailing-zeros/)
 - [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
+- [283. Move Zeroes](../../0001-0500/0283-move-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/factorial-trailing-zeroes/)

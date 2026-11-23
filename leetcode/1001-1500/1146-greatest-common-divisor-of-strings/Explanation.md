@@ -16,26 +16,54 @@ Solve LeetCode Greatest Common Divisor of Strings using JavaScript, Python and T
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-For two strings  s  and  t , we say " t  divides  s " if and only if  s = t + t + t + ... + t + t  (i.e.,  t  is concatenated with itself one or more times).
+## Problem Statement
+For two strings `s` and `t`, we say "`t` divides `s`" if and only if `s = t + t + t + ... + t + t` (i.e., `t` is concatenated with itself one or more times).
+
+Given two strings `str1` and `str2`, return *the largest string *`x`* such that *`x`* divides both *`str1`* and *`str2`.
+
+## Constraints
+- `1 <= str1.length, str2.length <= 1000`
+- `str1` and `str2` consist of English uppercase letters.
+
+## Examples
+### Example 1
+- **Input:** `str1 = "ABCABC", str2 = "ABC"`
+- **Output:** `"ABC"`
+
+### Example 2
+- **Input:** `str1 = "ABABAB", str2 = "ABAB"`
+- **Output:** `"AB"`
+
+### Example 3
+- **Input:** `str1 = "LEET", str2 = "CODE"`
+- **Output:** `""`
+
+### Example 4
+- **Input:** `str1 = "AAAAAB", str2 = "AAA"`
+- **Output:** `"" ​​​​​​​`
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Greatest Common Divisor of Strings**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Greatest Common Divisor of Strings**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `str1 = "ABCABC", str2 = "ABC"`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"ABC"`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -52,6 +80,43 @@ JavaScript, Python
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
+
+### JavaScript
+```javascript
+/**
+ * @param {string} str1
+ * @param {string} str2
+ * @return {string}
+ */
+var gcdOfStrings = function(str1, str2) {
+    if (str1 + str2 !== str2 + str1) {
+        return "";
+    }
+
+    function gcd(a, b) {
+        return b === 0 ? a : gcd(b, a % b);
+    }
+
+    const len = gcd(str1.length, str2.length);
+
+    return str1.substring(0, len);
+};
+```
+
+### Python
+```python
+from math import gcd
+
+class Solution:
+    def gcdOfStrings(self, str1: str, str2: str) -> str:
+        if str1 + str2 != str2 + str1:
+            return ""
+
+        length = gcd(len(str1), len(str2))
+
+        return str1[:length]
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -67,7 +132,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1979. Find Greatest Common Divisor of Array](../../2001-2500/2106-find-greatest-common-divisor-of-array/)
 - [2709. Greatest Common Divisor Traversal](../../2501-3000/2827-greatest-common-divisor-traversal/)
-- [3485. Longest Common Prefix of K Strings After Removal](../../3501-4000/3784-longest-common-prefix-of-k-strings-after-removal/)
+- [2807. Insert Greatest Common Divisors in Linked List](../../2501-3000/2903-insert-greatest-common-divisors-in-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/greatest-common-divisor-of-strings/)

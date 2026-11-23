@@ -1,7 +1,7 @@
 # LeetCode 1171: Remove Zero Sum Consecutive Nodes from Linked List
 
 **LeetCode Problem #1171 — Remove Zero Sum Consecutive Nodes from Linked List**
-Solve LeetCode Remove Zero Sum Consecutive Nodes from Linked List using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Remove Zero Sum Consecutive Nodes from Linked List using JavaScript and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,65 @@ Solve LeetCode Remove Zero Sum Consecutive Nodes from Linked List using JavaScri
 | LeetCode | #1171 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Two Pointer Convergence & Scanning |
-| Data Structure | Array |
-| Pattern | Two Pointers |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-Given the  head  of a linked list, we repeatedly delete consecutive sequences of nodes that sum to  0  until there are no such sequences.
+## Problem Statement
+Given the `head` of a linked list, we repeatedly delete consecutive sequences of nodes that sum to `0` until there are no such sequences.
+
+After doing so, return the head of the final linked list. You may return any such answer.
+
+(Note that in the examples below, all sequences are serializations of `ListNode` objects.)
+
+## Constraints
+- The given linked list will contain between `1` and `1000` nodes.
+- Each node in the linked list has `-1000 <= node.val <= 1000`.
+
+## Examples
+### Example 1
+- **Input:** `head = [1,2,-3,3,1]`
+- **Output:** `[3,1]`
+
+### Example 2
+- **Input:** `head = [1,2,3,-3,4]`
+- **Output:** `[1,2,4]`
+
+### Example 3
+- **Input:** `head = [1,2,3,-3,-2]`
+- **Output:** `[1]`
 
 ## Key Insight
-Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Remove Zero Sum Consecutive Nodes from Linked List**, we observe the problem requirements and utilize the **Two Pointers** technique. By maintaining a **Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Array** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Remove Zero Sum Consecutive Nodes from Linked List**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [1,2,-3,3,1]`.
+2. **Processing Steps:** We apply **Prefix Sum Precomputation** using our **Prefix Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[3,1]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Prefix Array.
 
 ## Pattern
-**Two Pointers**
+**Prefix Sum**
 
 ## Topics
-- Two Pointers
+- Prefix Sum
 - Array
-- Sorting
 
 ## Language
 JavaScript
@@ -51,22 +76,54 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var removeZeroSumSublists = function(head) {
+    // Dummy node handles cases where the head must be removed
+    let dummy = new ListNode(0);
+    dummy.next = head;
+
+    let map = new Map();
+    let sum = 0;
+    let current = dummy;
+
+    // First pass: store the last node for each prefix sum
+    while (current) {
+        sum += current.val;
+        map.set(sum, current);
+        current = current.next;
+    }
+
+    // Second pass: skip zero-sum sequences
+    sum = 0;
+    current = dummy;
+
+    while (current) {
+        sum += current.val;
+        current.next = map.get(sum).next;
+        current = current.next;
+    }
+
+    return dummy.next;
+};
+```
+
 ## Why This Works
-By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Failing to sort the array when ordering is required.
-2. Not skipping duplicate elements leading to non-unique pairs.
-3. Pointer out-of-bounds errors on edge inputs.
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
 
 ## Interview Notes
-- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
-- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
 - [2487. Remove Nodes From Linked List](../../2501-3000/2573-remove-nodes-from-linked-list/)
 - [3217. Delete Nodes From Linked List Present in Array](../../3501-4000/3501-delete-nodes-from-linked-list-present-in-array/)
-- [203. Remove Linked List Elements](../../0001-0500/0203-remove-linked-list-elements/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)

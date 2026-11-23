@@ -16,8 +16,30 @@ Solve LeetCode 3Sum Closest using JavaScript, Python and Binary Search. This sol
 | Time Complexity | O(log n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums  of length  n  and an integer  target .
+## Problem Statement
+You are given an integer array `nums` of length `n` and an integer `target`.
+
+Find three integers at **distinct indices** in `nums` such that the sum is **closest** to `target`.
+
+Return the sum of the three integers.
+
+You may assume that each input would have **exactly** one solution.
+
+## Constraints
+- `3 <= nums.length <= 500`
+- `-1000 <= nums[i] <= 1000`
+- `-10^4 <= target <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `nums = [-1,2,1,-4], target = 1`
+- **Output:** `2`
+- **Explanation:** The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+
+### Example 2
+- **Input:** `nums = [0,0,0], target = 1`
+- **Output:** `0`
+- **Explanation:** The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -43,12 +65,17 @@ Time complexity is $O(N^2)$ and space complexity is $O(\log N)$ for sorting.
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **3Sum Closest**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [-1,2,1,-4], target = 1`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
-## Complexity
-- **Time Complexity:** O(log n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(log n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -65,6 +92,64 @@ JavaScript, Python
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
+
+### JavaScript
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
+var threeSumClosest = function(nums, target) {
+    nums.sort((a, b) => a - b);
+    let closest = nums[0] + nums[1] + nums[2];
+    for (let i = 0; i < nums.length - 2; i++) {
+        let left = i + 1;
+        let right = nums.length - 1;
+        while (left < right) {
+            let sum = nums[i] + nums[left] + nums[right];
+            if (Math.abs(sum - target) < Math.abs(closest - target)) {
+                closest = sum;
+            }
+            if (sum < target) {
+                left++;
+            } else if (sum > target) {
+                right--;
+            } else {
+                return sum;
+            }
+        }
+    }
+    return closest;
+};
+```
+
+### Python
+```python
+class Solution:
+    def threeSumClosest(self, nums: List[int], target: int) -> int:
+        nums.sort()
+        ans = sum(nums[:3])
+
+        for i in range(len(nums) - 2):
+            l, r = i + 1, len(nums) - 1
+
+            while l < r:
+                s = nums[i] + nums[l] + nums[r]
+
+                if abs(s - target) < abs(ans - target):
+                    ans = s
+
+                if s == target:
+                    return s
+                elif s < target:
+                    l += 1
+                else:
+                    r -= 1
+
+        return ans
+```
+
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -78,9 +163,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [15. 3Sum](../../0001-0500/0015-3sum/)
 - [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
 - [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
-- [973. K Closest Points to Origin](../../1001-1500/1014-k-closest-points-to-origin/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/3sum-closest/)

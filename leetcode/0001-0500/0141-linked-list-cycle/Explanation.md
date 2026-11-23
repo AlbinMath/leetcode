@@ -16,26 +16,56 @@ Solve LeetCode Linked List Cycle using JavaScript, PHP, Python and Fast & Slow P
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given  head , the head of a linked list, determine if the linked list has a cycle in it.
+## Problem Statement
+Given `head`, the head of a linked list, determine if the linked list has a cycle in it.
+
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the `next` pointer. Internally, `pos` is used to denote the index of the node that tail's `next` pointer is connected to. **Note that `pos` is not passed as a parameter**.
+
+Return `true`* if there is a cycle in the linked list*. Otherwise, return `false`.
+
+## Constraints
+- The number of the nodes in the list is in the range `[0, 10^4]`.
+- `-10^5 <= Node.val <= 10^5`
+- `pos` is `-1` or a **valid index** in the linked-list.
+
+## Examples
+### Example 1
+- **Input:** `head = [3,2,0,-4], pos = 1`
+- **Output:** `true`
+- **Explanation:** There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
+
+### Example 2
+- **Input:** `head = [1,2], pos = 0`
+- **Output:** `true`
+- **Explanation:** There is a cycle in the linked list, where the tail connects to the 0th node.
+
+### Example 3
+- **Input:** `head = [1], pos = -1`
+- **Output:** `false`
+- **Explanation:** There is no cycle in the linked list.
 
 ## Key Insight
 Leverage **Fast & Slow Pointers** with **Linked List / Pointer** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Floyd Cycle Detection**. By maintaining state efficiently in a **Linked List / Pointer**, we eliminate redundant operations and process each element in optimal time.
+To solve **Linked List Cycle**, we observe the problem requirements and utilize the **Fast & Slow Pointers** technique. We iterate through the inputs using **Floyd Cycle Detection**, leveraging a **Linked List / Pointer** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Linked List / Pointer**).
-2. Process elements sequentially using **Floyd Cycle Detection**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Linked List / Pointer**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Linked List Cycle**. Applying **Floyd Cycle Detection** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [3,2,0,-4], pos = 1`.
+2. **Processing Steps:** We apply **Floyd Cycle Detection** using our **Linked List / Pointer**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Linked List / Pointer.
 
 ## Pattern
 **Fast & Slow Pointers**
@@ -51,6 +81,77 @@ JavaScript, PHP, Python
 - [solution.js](./solution.js)
 - [solution.php](./solution.php)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var hasCycle = function(head) {
+    let slow = head;
+    let fast = head;
+
+    while (fast !== null && fast.next !== null) {
+        slow = slow.next;           // Move one step
+        fast = fast.next.next;      // Move two steps
+
+        if (slow === fast) {
+            return true;
+        }
+    }
+
+    return false;
+};
+```
+
+### PHP
+```php
+/**
+ * Definition for a singly-linked list.
+ * class ListNode {
+ *     public $val = 0;
+ *     public $next = null;
+ *     function __construct($val = 0, $next = null) {
+ *         $this->val = $val;
+ *         $this->next = $next;
+ *     }
+ * }
+ */
+
+class Solution {
+    function hasCycle($head) {
+        $slow = $head;
+        $fast = $head;
+
+        while ($fast !== null && $fast->next !== null) {
+            $slow = $slow->next;
+            $fast = $fast->next->next;
+
+            // Both pointers meet → cycle exists
+            if ($slow === $fast) {
+                return true;
+            }
+        }
+
+        // Fast pointer reached the end → no cycle
+        return false;
+    }
+}
+```
+
+### Python
+```python
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        slow = fast = head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:
+                return True
+
+        return False
+```
 
 ## Why This Works
 By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,48 @@ Solve LeetCode Long Pressed Name using Python and Array / General. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Your friend is typing his  name  into a keyboard. Sometimes, when typing a character  c , the key might get  long pressed , and the character will be typed 1 or more times.
+## Problem Statement
+Your friend is typing his `name` into a keyboard. Sometimes, when typing a character `c`, the key might get *long pressed*, and the character will be typed 1 or more times.
+
+You examine the `typed` characters of the keyboard. Return `True` if it is possible that it was your friends name, with some characters (possibly none) being long pressed.
+
+## Constraints
+- `1 <= name.length, typed.length <= 1000`
+- `name` and `typed` consist of only lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `name = "alex", typed = "aaleex"`
+- **Output:** `true`
+- **Explanation:** 'a' and 'e' in 'alex' were long pressed.
+
+### Example 2
+- **Input:** `name = "saeed", typed = "ssaaedd"`
+- **Output:** `false`
+- **Explanation:** 'e' must have been pressed twice, but it was not in the typed output.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Long Pressed Name**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Long Pressed Name**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `name = "alex", typed = "aaleex"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** 'a' and 'e' in 'alex' were long pressed.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +70,24 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def isLongPressedName(self, name: str, typed: str) -> bool:
+        i = 0
+        j = 0
+
+        while j < len(typed):
+            if i < len(name) and name[i] == typed[j]:
+                i += 1
+            elif j == 0 or typed[j] != typed[j - 1]:
+                return False
+
+            j += 1
+
+        return i == len(name)
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

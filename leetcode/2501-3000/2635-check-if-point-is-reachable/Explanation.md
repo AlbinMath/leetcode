@@ -1,7 +1,7 @@
 # LeetCode 2543: Check if Point Is Reachable
 
 **LeetCode Problem #2543 — Check if Point Is Reachable**
-Solve LeetCode Check if Point Is Reachable using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Check if Point Is Reachable using Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,67 @@ Solve LeetCode Check if Point Is Reachable using Python and Array / General. Thi
 | LeetCode | #2543 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-There exists an infinitely large grid. You are currently at point  (1, 1) , and you need to reach the point  (targetX, targetY)  using a finite number of steps.
+## Problem Statement
+There exists an infinitely large grid. You are currently at point `(1, 1)`, and you need to reach the point `(targetX, targetY)` using a finite number of steps.
+
+In one **step**, you can move from point `(x, y)` to any one of the following points:
+
+`(x, y - x)` 
+ `(x - y, y)` 
+ `(2 * x, y)` 
+ `(x, 2 * y)`
+
+Given two integers `targetX` and `targetY` representing the X-coordinate and Y-coordinate of your final position, return `true` *if you can reach the point from* `(1, 1)` *using some number of steps, and *`false`* otherwise*.
+
+## Constraints
+- `1 <= targetX, targetY <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `targetX = 6, targetY = 9`
+- **Output:** `false`
+- **Explanation:** It is impossible to reach (6,9) from (1,1) using any sequence of moves, so false is returned.
+
+### Example 2
+- **Input:** `targetX = 4, targetY = 7`
+- **Output:** `true`
+- **Explanation:** You can follow the path (1,1) -> (1,2) -> (1,4) -> (1,8) -> (1,7) -> (2,7) -> (4,7).
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Check if Point Is Reachable**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Check if Point Is Reachable**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `targetX = 6, targetY = 9`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `false`.
+4. **Verification:** It is impossible to reach (6,9) from (1,1) using any sequence of moves, so false is returned.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 Python
@@ -49,8 +78,16 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from math import gcd
+class Solution:
+    def isReachable(self, targetX: int, targetY: int) -> bool:
+        return gcd(targetX, targetY) & (gcd(targetX, targetY) - 1) == 0
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

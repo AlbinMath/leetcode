@@ -16,26 +16,48 @@ Solve LeetCode Find the Minimum Cost Array Permutation using Python and Backtrac
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  nums  which is a  permutation  of  [0, 1, 2, ..., n - 1] . The  score  of any permutation of  [0, 1, 2, ..., n - 1]  named  perm  is defined as:
+## Problem Statement
+You are given an array `nums` which is a permutation of `[0, 1, 2, ..., n - 1]`. The **score** of any permutation of `[0, 1, 2, ..., n - 1]` named `perm` is defined as:
+
+`score(perm) = |perm[0] - nums[perm[1]]| + |perm[1] - nums[perm[2]]| + ... + |perm[n - 1] - nums[perm[0]]|`
+
+Return the permutation `perm` which has the **minimum** possible score. If *multiple* permutations exist with this score, return the one that is lexicographically smallest among them.
+
+## Constraints
+- `2 <= n == nums.length <= 14`
+- `nums` is a permutation of `[0, 1, 2, ..., n - 1]`.
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,0,2]`
+- **Output:** `[0,1,2]`
+
+### Example 2
+- **Input:** `nums = [0,2,1]`
+- **Output:** `[0,2,1]`
 
 ## Key Insight
 Leverage **Backtracking** with **Recursion Tree** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Backtracking Recursive Search**. By maintaining state efficiently in a **Recursion Tree**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find the Minimum Cost Array Permutation**, we observe the problem requirements and utilize the **Backtracking** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Recursion Tree**).
-2. Process elements sequentially using **Backtracking Recursive Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find the Minimum Cost Array Permutation**. Applying **Backtracking Recursive Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,0,2]`.
+2. **Processing Steps:** We apply **Backtracking Recursive Search** using our **Recursion Tree**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[0,1,2]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Recursion Tree.
 
 ## Pattern
 **Backtracking**
@@ -49,6 +71,50 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def findPermutation(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        full = (1 << n) - 1
+        INF = float('inf')
+
+        f = [[INF] * n for _ in range(1 << n)]
+        for last in range(n):
+            f[full][last] = abs(last - nums[0])
+
+        for mask in range(full - 1, 0, -1):
+            if not mask & 1:
+                continue  # every state contains node 0
+            for last in range(n):
+                if not mask >> last & 1:
+                    continue
+                best = INF
+                for j in range(n):
+                    if mask >> j & 1:
+                        continue
+                    v = abs(last - nums[j]) + f[mask | (1 << j)][j]
+                    if v < best:
+                        best = v
+                f[mask][last] = best
+
+        res = [0]
+        mask, last = 1, 0
+        while mask != full:
+            target = f[mask][last]
+            for j in range(n):
+                if mask >> j & 1:
+                    continue
+                if abs(last - nums[j]) + f[mask | (1 << j)][j] == target:
+                    res.append(j)
+                    mask |= 1 << j
+                    last = j
+                    break
+        return res
+```
 
 ## Why This Works
 By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

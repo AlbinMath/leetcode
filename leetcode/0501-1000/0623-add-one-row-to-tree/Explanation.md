@@ -1,7 +1,7 @@
 # LeetCode 623: Add One Row to Tree
 
 **LeetCode Problem #623 — Add One Row to Tree**
-Solve LeetCode Add One Row to Tree using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Add One Row to Tree using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,69 @@ Solve LeetCode Add One Row to Tree using Python and Tree & Graph. This solution 
 | LeetCode | #623 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## Problem
-Given the  root  of a binary tree and two integers  val  and  depth , add a row of nodes with value  val  at the given depth  depth .
+## Problem Statement
+Given the `root` of a binary tree and two integers `val` and `depth`, add a row of nodes with value `val` at the given depth `depth`.
+
+Note that the `root` node is at depth `1`.
+
+The adding rule is:
+
+Given the integer `depth`, for each not null tree node `cur` at the depth `depth - 1`, create two tree nodes with value `val` as `cur`'s left subtree root and right subtree root. 
+ `cur`'s original left subtree should be the left subtree of the new left subtree root. 
+ `cur`'s original right subtree should be the right subtree of the new right subtree root. 
+ If `depth == 1` that means there is no depth `depth - 1` at all, then create a tree node with value `val` as the new root of the whole original tree, and the original tree is the new root's left subtree.
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 10^4]`.
+- The depth of the tree is in the range `[1, 10^4]`.
+- `-100 <= Node.val <= 100`
+- `-10^5 <= val <= 10^5`
+- `1 <= depth <= the depth of tree + 1`
+
+## Examples
+### Example 1
+- **Input:** `root = [4,2,6,3,1,5], val = 1, depth = 2`
+- **Output:** `[4,1,1,2,null,null,6,3,1,5]`
+
+### Example 2
+- **Input:** `root = [4,2,null,3,1], val = 1, depth = 3`
+- **Output:** `[4,2,null,1,1,3,null,null,1]`
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Add One Row to Tree**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Add One Row to Tree**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [4,2,6,3,1,5], val = 1, depth = 2`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[4,1,1,2,null,null,6,3,1,5]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
-**Tree & Graph**
+**Binary Search**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 Python
@@ -52,22 +80,53 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import Optional
+from collections import deque
+
+class Solution:
+    def addOneRow(self, root: Optional[TreeNode], val: int, depth: int) -> Optional[TreeNode]:
+        if depth == 1:
+            return TreeNode(val, root, None)
+            
+        queue = deque([root])
+        curr_depth = 1
+        
+        while queue:
+            if curr_depth == depth - 1:
+                for cur in queue:
+                    cur.left = TreeNode(val, cur.left, None)
+                    cur.right = TreeNode(val, None, cur.right)
+                break
+                
+            for _ in range(len(queue)):
+                cur = queue.popleft()
+                if cur.left:
+                    queue.append(cur.left)
+                if cur.right:
+                    queue.append(cur.right)
+            curr_depth += 1
+            
+        return root
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [66. Plus One](../../0001-0500/0066-plus-one/)
-- [233. Number of Digit One](../../0001-0500/0233-number-of-digit-one/)
+- [500. Keyboard Row](../../0001-0500/0500-keyboard-row/)
+- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0984-most-stones-removed-with-same-row-or-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-one-row-to-tree/)

@@ -16,8 +16,27 @@ Solve LeetCode Palindrome Number using Python and Two Pointers. This solution fi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  x , return  true  if  x  is a   palindrome  , and  false  otherwise.
+## Problem Statement
+Given an integer `x`, return `true` if `x` is a **palindrome** , and `false` otherwise.
+
+## Constraints
+- `-2^31 <= x <= 2^31 - 1`
+
+## Examples
+### Example 1
+- **Input:** `x = 121`
+- **Output:** `true`
+- **Explanation:** 121 reads as 121 from left to right and from right to left.
+
+### Example 2
+- **Input:** `x = -121`
+- **Output:** `false`
+- **Explanation:** From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+
+### Example 3
+- **Input:** `x = 10`
+- **Output:** `false`
+- **Explanation:** Reads 01 from right to left. Therefore it is not a palindrome.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
@@ -34,12 +53,17 @@ Finally, we check if the `original` number is equal to the `reversed_num`.
 2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Palindrome Number**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `x = 121`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** 121 reads as 121 from left to right and from right to left.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -54,6 +78,19 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0 or (x % 10 == 0 and x != 0):
+            return False
+        r = 0
+        while x > r:
+            r = r * 10 + x % 10
+            x //= 10
+        return x == r or x == r // 10
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,57 @@ Solve LeetCode Count Complete Substrings using Python and Tree & Graph. This sol
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a string  word  and an integer  k .
+## Problem Statement
+You are given a string `word` and an integer `k`.
+
+A substring `s` of `word` is **complete** if:
+
+Each character in `s` occurs **exactly** `k` times. 
+ The difference between two adjacent characters is **at most** `2`. That is, for any two adjacent characters `c1` and `c2` in `s`, the absolute difference in their positions in the alphabet is **at most** `2`.
+
+Return *the number of **complete **substrings of* `word`.
+
+A **substring** is a **non-empty** contiguous sequence of characters in a string.
+
+## Constraints
+- `1 <= word.length <= 10^5`
+- `word` consists only of lowercase English letters.
+- `1 <= k <= word.length`
+
+## Examples
+### Example 1
+- **Input:** `word = "igigee", k = 2`
+- **Output:** `3`
+- **Explanation:** The complete substrings where each character appears exactly twice and the difference between adjacent characters is at most 2 are:
+
+### Example 2
+- **Input:** `word = "aaabbbccc", k = 3`
+- **Output:** `6`
+- **Explanation:** The complete substrings where each character appears exactly three times and the difference between adjacent characters is at most 2 are:
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Complete Substrings**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Complete Substrings**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `word = "igigee", k = 2`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** The complete substrings where each character appears exactly twice and the difference between adjacent characters is at most 2 are:
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +83,48 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def countCompleteSubstrings(self, word: str, k: int) -> int:
+        n = len(word)
+
+        def count_segment(seg: str) -> int:
+            m = len(seg)
+            res = 0
+            for d in range(1, 27):
+                w = d * k
+                if w > m:
+                    break
+                cnt = [0] * 26
+                good = 0  # letters with count exactly k
+                for i in range(m):
+                    c = ord(seg[i]) - 97
+                    cnt[c] += 1
+                    if cnt[c] == k:
+                        good += 1
+                    elif cnt[c] == k + 1:
+                        good -= 1
+                    if i >= w:
+                        o = ord(seg[i - w]) - 97
+                        if cnt[o] == k:
+                            good -= 1
+                        elif cnt[o] == k + 1:
+                            good += 1
+                        cnt[o] -= 1
+                    if i >= w - 1 and good == d:
+                        res += 1
+            return res
+
+        ans = 0
+        start = 0
+        for i in range(1, n + 1):
+            if i == n or abs(ord(word[i]) - ord(word[i - 1])) > 2:
+                ans += count_segment(word[start:i])
+                start = i
+        return ans
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,9 +138,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
-- [2685. Count the Number of Complete Components](../../2501-3000/2793-count-the-number-of-complete-components/)
-- [2799. Count Complete Subarrays in an Array](../../2501-3000/2856-count-complete-subarrays-in-an-array/)
+- [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1638. Count Substrings That Differ by One Character](../../1501-2000/1743-count-substrings-that-differ-by-one-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-complete-substrings/)

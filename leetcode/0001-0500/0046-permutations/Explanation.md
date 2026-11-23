@@ -16,26 +16,48 @@ Solve LeetCode Permutations using JavaScript, Python and Backtracking. This solu
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array  nums  of distinct integers, return all the possible  permutations . You can return the answer in  any order .
+## Problem Statement
+Given an array `nums` of distinct integers, return all the possible permutations . You can return the answer in **any order**.
+
+## Constraints
+- `1 <= nums.length <= 6`
+- `-10 <= nums[i] <= 10`
+- All the integers of `nums` are **unique**.
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,3]`
+- **Output:** `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`
+
+### Example 2
+- **Input:** `nums = [0,1]`
+- **Output:** `[[0,1],[1,0]]`
+
+### Example 3
+- **Input:** `nums = [1]`
+- **Output:** `[[1]]`
 
 ## Key Insight
 Leverage **Backtracking** with **Recursion Tree** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Backtracking Recursive Search**. By maintaining state efficiently in a **Recursion Tree**, we eliminate redundant operations and process each element in optimal time.
+To solve **Permutations**, we observe the problem requirements and utilize the **Backtracking** technique. We iterate through the inputs using **Backtracking Recursive Search**, leveraging a **Recursion Tree** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Recursion Tree**).
-2. Process elements sequentially using **Backtracking Recursive Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Recursion Tree**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Permutations**. Applying **Backtracking Recursive Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,3]`.
+2. **Processing Steps:** We apply **Backtracking Recursive Search** using our **Recursion Tree**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Recursion Tree.
 
 ## Pattern
 **Backtracking**
@@ -50,6 +72,70 @@ JavaScript, Python
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var permute = function(nums) {
+    const result = [];
+
+    function backtrack(current, used) {
+        if (current.length === nums.length) {
+            result.push([...current]);
+            return;
+        }
+
+        for (let i = 0; i < nums.length; i++) {
+            if (used[i]) continue;
+
+            current.push(nums[i]);
+            used[i] = true;
+
+            backtrack(current, used);
+
+            current.pop();
+            used[i] = false;
+        }
+    }
+
+    backtrack([], Array(nums.length).fill(false));
+
+    return result;
+};
+```
+
+### Python
+```python
+class Solution:
+    def permute(self, nums):
+        result = []
+
+        def backtrack(path, used):
+            # We have selected all numbers
+            if len(path) == len(nums):
+                result.append(path[:])
+                return
+
+            for i in range(len(nums)):
+                # Skip numbers already used
+                if used[i]:
+                    continue
+
+                # Choose
+                path.append(nums[i])
+                used[i] = True
+
+                # Explore
+                backtrack(path, used)
+
+                # Undo choice
+                path.pop()
+                used[i] = False
+
+        backtrack([], [False] * len(nums))
+
+        return result
+```
 
 ## Why This Works
 By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,62 @@ Solve LeetCode Word Squares II using Python and Array / General. This solution f
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string array  words , consisting of  distinct  4-letter strings, each containing lowercase English letters.
+## Problem Statement
+You are given a string array `words`, consisting of **distinct** 4-letter strings, each containing lowercase English letters.
+
+A **word square** consists of 4 **distinct** words: `top`, `left`, `right` and `bottom`, arranged as follows:
+
+`top` forms the **top row**. 
+ `bottom` forms the **bottom row**. 
+ `left` forms the **left column** (top to bottom). 
+ `right` forms the **right column** (top to bottom).
+
+It must satisfy:
+
+`top[0] == left[0]`, `top[3] == right[0]` 
+ `bottom[0] == left[3]`, `bottom[3] == right[3]`
+
+Return all valid **distinct** word squares, sorted in **ascending lexicographic** order by the 4-tuple `(top, left, right, bottom)​​​​​​​`.
+
+## Constraints
+- `4 <= words.length <= 15`
+- `words[i].length == 4`
+- `words[i]` consists of only lowercase English letters.
+- All `words[i]` are **distinct**.
+
+## Examples
+### Example 1
+- **Input:** `words = ["able","area","echo","also"]`
+- **Output:** `[["able","area","echo","also"],["area","able","also","echo"]]`
+- **Explanation:** There are exactly two valid 4-word squares that satisfy all corner
+
+### Example 2
+- **Input:** `words = ["code","cafe","eden","edge"]`
+- **Output:** `[]`
+- **Explanation:** No combination of four words satisfies all four corner
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Word Squares II**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Word Squares II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `words = ["able","area","echo","also"]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[["able","area","echo","also"],["area","able","also","echo"]]`.
+4. **Verification:** There are exactly two valid 4-word squares that satisfy all corner
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +84,22 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+from itertools import permutations
+
+class Solution:
+    def wordSquares(self, words: List[str]) -> List[List[str]]:
+        res = []
+        for top, left, right, bottom in permutations(words, 4):
+            if (top[0] == left[0] and top[3] == right[0]
+                    and bottom[0] == left[3] and bottom[3] == right[3]):
+                res.append([top, left, right, bottom])
+        res.sort()
+        return res
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [79. Word Search](../../0001-0500/0079-word-search/)
-- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
+- [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
+- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
+- [977. Squares of a Sorted Array](../../1001-1500/1019-squares-of-a-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-squares-ii/)

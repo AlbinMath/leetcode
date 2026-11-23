@@ -16,8 +16,88 @@ Solve LeetCode Reverse Degree of a String using Python and Array / General. This
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  s , calculate its  reverse degree .
+## Problem Statement
+Given a string `s`, calculate its **reverse degree**.
+
+The **reverse degree** is calculated as follows:
+
+For each character, multiply its position in the *reversed* alphabet (`'a'` = 26, `'b'` = 25, ..., `'z'` = 1) with its position in the string **(1-indexed)**. 
+ Sum these products for all characters in the string.
+
+Return the **reverse degree** of `s`.
+
+## Constraints
+- `1 <= s.length <= 1000`
+- `s` contains only lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "abc"`
+- **Output:** `148`
+- **Explanation:** Letter 
+ Index in Reversed Alphabet 
+ Index in String 
+ Product 
+ 
+ 
+ `'a'` 
+ 26 
+ 1 
+ 26 
+ 
+ 
+ `'b'` 
+ 25 
+ 2 
+ 50 
+ 
+ 
+ `'c'` 
+ 24 
+ 3 
+ 72 
+ 
+ 
+ 
+
+ The reversed degree is `26 + 50 + 72 = 148`.
+
+### Example 2
+- **Input:** `s = "zaza"`
+- **Output:** `160`
+- **Explanation:** Letter 
+ Index in Reversed Alphabet 
+ Index in String 
+ Product 
+ 
+ 
+ `'z'` 
+ 1 
+ 1 
+ 1 
+ 
+ 
+ `'a'` 
+ 26 
+ 2 
+ 52 
+ 
+ 
+ `'z'` 
+ 1 
+ 3 
+ 3 
+ 
+ 
+ `'a'` 
+ 26 
+ 4 
+ 104 
+ 
+ 
+ 
+
+ The reverse degree is `1 + 52 + 3 + 104 = 160`.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -38,12 +118,43 @@ The code simply iterates through the string, computing the required product for 
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Reverse Degree of a String**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "abc"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `148`.
+4. **Verification:** Letter 
+ Index in Reversed Alphabet 
+ Index in String 
+ Product 
+ 
+ 
+ `'a'` 
+ 26 
+ 1 
+ 26 
+ 
+ 
+ `'b'` 
+ 25 
+ 2 
+ 50 
+ 
+ 
+ `'c'` 
+ 24 
+ 3 
+ 72 
+ 
+ 
+ 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ The reversed degree is `26 + 50 + 72 = 148`.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -56,6 +167,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def reverseDegree(self, s):
+        total = 0
+
+        for i, ch in enumerate(s):
+            value = 26 - (ord(ch) - ord('a'))
+            position = i + 1
+            total += value * position
+
+        return total
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

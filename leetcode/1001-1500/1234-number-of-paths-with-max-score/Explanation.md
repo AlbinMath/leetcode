@@ -16,8 +16,30 @@ Solve LeetCode Number of Paths with Max Score using PHP and Dynamic Programming.
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a square  board  of characters. You can move on the board starting at the bottom right square marked with the character  &#39;S&#39; .
+## Problem Statement
+You are given a square `board` of characters. You can move on the board starting at the bottom right square marked with the character `'S'`.
+
+You need to reach the top left square marked with the character `'E'`. The rest of the squares are labeled either with a numeric character `1, 2, ..., 9` or with an obstacle `'X'`. In one move you can go up, left or up-left (diagonally) only if there is no obstacle there.
+
+Return a list of two integers: the first integer is the maximum sum of numeric characters you can collect, and the second is the number of such paths that you can take to get that maximum sum, **taken modulo `10^9 + 7`**.
+
+In case there is no path, return `[0, 0]`.
+
+## Constraints
+- `2 <= board.length == board[i].length <= 100`
+
+## Examples
+### Example 1
+- **Input:** `board = ["E23","2X2","12S"]`
+- **Output:** `[7,1]`
+
+### Example 2
+- **Input:** `board = ["E12","1X1","21S"]`
+- **Output:** `[4,2]`
+
+### Example 3
+- **Input:** `board = ["E11","XXX","11S"]`
+- **Output:** `[0,0]`
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
@@ -41,12 +63,16 @@ Time complexity is $O(N^2)$ and space complexity is $O(N^2)$.
 2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Number of Paths with Max Score**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `board = ["E23","2X2","12S"]`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[7,1]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -62,6 +88,130 @@ PHP
 ## Source Code
 - [solution.php](./solution.php)
 
+
+```php
+class Solution {
+
+    /**
+     * @param String[] $board
+     * @return Integer[]
+     */
+    function pathsWithMaxScore($board) {
+        $MOD = 1000000007;
+        $n = count($board);
+
+        // -1 means unreachable
+        $score = array_fill(0, $n, array_fill(0, $n, -1));
+        $ways  = array_fill(0, $n, array_fill(0, $n, 0));
+
+        // Start at S
+        $score[$n - 1][$n - 1] = 0;
+        $ways[$n - 1][$n - 1] = 1;
+
+        /*
+         * Process from S -> E.
+         *
+         * From (i,j), the possible next cells toward E are:
+         *   down       (i+1, j)
+         *   right      (i, j+1)
+         *   diagonal   (i+1, j+1)
+         */
+        for ($i = $n - 1; $i >= 0; $i--) {
+            for ($j = $n - 1; $j >= 0; $j--) {
+
+                // S is already initialized
+                if ($i == $n - 1 && $j == $n - 1) {
+                    continue;
+                }
+
+                // Obstacle
+                if ($board[$i][$j] === 'X') {
+                    continue;
+                }
+
+                $best = -1;
+                $count = 0;
+
+                // Down
+                if ($i + 1 < $n && $score[$i + 1][$j] != -1) {
+                    $best = $score[$i + 1][$j];
+                    $count = $ways[$i + 1][$j];
+                }
+
+                // Right
+                if ($j + 1 < $n && $score[$i][$j + 1] != -1) {
+                    $v = $score[$i][$j + 1];
+
+                    if ($v > $best) {
+                        $best = $v;
+                        $count = $ways[$i][$j + 1];
+                    } elseif ($v == $best) {
+                        $count += $ways[$i][$j + 1];
+
+                        if ($count >= $MOD) {
+                            $count -= $MOD;
+                        }
+                    }
+                }
+
+                // Diagonal
+                if (
+                    $i + 1 < $n &&
+                    $j + 1 < $n &&
+                    $score[$i + 1][$j + 1] != -1
+                ) {
+                    $v = $score[$i + 1][$j + 1];
+
+                    if ($v > $best) {
+                        $best = $v;
+                        $count = $ways[$i + 1][$j + 1];
+                    } elseif ($v == $best) {
+                        $count += $ways[$i + 1][$j + 1];
+
+                        if ($count >= $MOD) {
+                            $count -= $MOD;
+                        }
+                    }
+                }
+
+                // No path to S
+                if ($best == -1) {
+                    continue;
+                }
+
+                // Add current cell's digit
+                $value = 0;
+
+                if (
+                    $board[$i][$j] !== 'E' &&
+                    $board[$i][$j] !== 'S'
+                ) {
+                    $value = ord($board[$i][$j]) - 48;
+                }
+
+                $score[$i][$j] = $best + $value;
+                $ways[$i][$j] = $count;
+            }
+        }
+
+        /*
+         * IMPORTANT:
+         * Check score, not ways.
+         *
+         * ways can be 0 because the count is modulo 1e9+7.
+         */
+        if ($score[0][0] == -1) {
+            return [0, 0];
+        }
+
+        return [
+            $score[0][0],
+            $ways[0][0]
+        ];
+    }
+}
+```
+
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -75,9 +225,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1786. Number of Restricted Paths From First to Last Node](../../1501-2000/1912-number-of-restricted-paths-from-first-to-last-node/)
-- [2328. Number of Increasing Paths in a Grid](../../2001-2500/2409-number-of-increasing-paths-in-a-grid/)
-- [2421. Number of Good Paths](../../2501-3000/2505-number-of-good-paths/)
+- [3038. Maximum Number of Operations With the Same Score I](../../3001-3500/3320-maximum-number-of-operations-with-the-same-score-i/)
+- [3040. Maximum Number of Operations With the Same Score II](../../3001-3500/3318-maximum-number-of-operations-with-the-same-score-ii/)
+- [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](../../1501-2000/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-paths-with-max-score/)

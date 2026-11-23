@@ -1,7 +1,7 @@
 # LeetCode 43: Multiply Strings
 
 **LeetCode Problem #43 — Multiply Strings**
-Solve LeetCode Multiply Strings using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Multiply Strings using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,61 @@ Solve LeetCode Multiply Strings using Python and Array / General. This solution 
 | LeetCode | #43 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
-| Pattern | Array / General |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given two non-negative integers  num1  and  num2  represented as strings, return the product of  num1  and  num2 , also represented as a string.
+## Problem Statement
+Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`, also represented as a string.
+
+**Note:** You must not use any built-in BigInteger library or convert the inputs to integer directly.
+
+## Constraints
+- `1 <= num1.length, num2.length <= 200`
+- `num1` and `num2` consist of digits only.
+- Both `num1` and `num2` do not contain any leading zero, except the number `0` itself.
+
+## Examples
+### Example 1
+- **Input:** `num1 = "2", num2 = "3"`
+- **Output:** `"6"`
+
+### Example 2
+- **Input:** `num1 = "123", num2 = "456"`
+- **Output:** `"56088"`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Multiply Strings**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Multiply Strings**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `num1 = "2", num2 = "3"`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"6"`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Array / General**
+**Two Pointers**
 
 ## Topics
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 Python
@@ -49,22 +72,62 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def multiply(self, num1, num2):
+
+        if num1 == "0" or num2 == "0":
+            return "0"
+
+        m = len(num1)
+        n = len(num2)
+
+        result = [0] * (m + n)
+
+        # Multiply every digit
+        for i in range(m - 1, -1, -1):
+            for j in range(n - 1, -1, -1):
+
+                a = ord(num1[i]) - ord('0')
+                b = ord(num2[j]) - ord('0')
+
+                product = a * b
+
+                pos2 = i + j + 1
+                pos1 = i + j
+
+                result[pos2] += product
+
+                # Handle carry
+                result[pos1] += result[pos2] // 10
+                result[pos2] %= 10
+
+        # Remove leading zeros
+        start = 0
+
+        while start < len(result) - 1 and result[start] == 0:
+            start += 1
+
+        return ''.join(map(str, result[start:]))
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../../4001-4500/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/)
-- [3756. Concatenate Non-Zero Digits and Multiply by Sum II](../../4001-4500/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/)
 - [205. Isomorphic Strings](../../0001-0500/0205-isomorphic-strings/)
+- [415. Add Strings](../../0001-0500/0415-add-strings/)
+- [583. Delete Operation for Two Strings](../../0501-1000/0583-delete-operation-for-two-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/multiply-strings/)

@@ -16,26 +16,52 @@ Solve LeetCode Count Servers that Communicate using Python and Array / General. 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a map of a server center, represented as a  m * n  integer matrix  grid , where 1 means that on that cell there is a server and 0 means that it is no server. Two servers are said to communicate if they are on the same row or on the same column.
+## Problem Statement
+You are given a map of a server center, represented as a `m * n` integer matrix `grid`, where 1 means that on that cell there is a server and 0 means that it is no server. Two servers are said to communicate if they are on the same row or on the same column. 
+ 
+Return the number of servers that communicate with any other server.
+
+## Constraints
+- `m == grid.length`
+- `n == grid[i].length`
+- `1 <= m <= 250`
+- `1 <= n <= 250`
+- `grid[i][j] == 0 or 1`
+
+## Examples
+### Example 1
+- **Input:** `grid = [[1,0],[0,1]]`
+- **Output:** `0`
+
+### Example 2
+- **Input:** `grid = [[1,0],[1,1]]`
+- **Output:** `3`
+
+### Example 3
+- **Input:** `grid = [[1,1,0,0],[0,0,1,0],[0,0,1,0],[0,0,0,1]]`
+- **Output:** `4`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Servers that Communicate**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Servers that Communicate**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `grid = [[1,0],[0,1]]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `0`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +74,31 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def countServers(self, grid: List[List[int]]) -> int:
+        m, n = len(grid), len(grid[0])
+        row_count = [0] * m
+        col_count = [0] * n
+
+        # Pass 1: Count servers in each row and column
+        for r in range(m):
+            for c in range(n):
+                if grid[r][c] == 1:
+                    row_count[r] += 1
+                    col_count[c] += 1
+
+        # Pass 2: Count servers that can communicate
+        ans = 0
+        for r in range(m):
+            for c in range(n):
+                if grid[r][c] == 1 and (row_count[r] > 1 or col_count[c] > 1):
+                    ans += 1
+
+        return ans
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

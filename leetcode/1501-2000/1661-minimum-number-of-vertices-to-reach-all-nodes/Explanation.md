@@ -16,26 +16,52 @@ Solve LeetCode Minimum Number of Vertices to Reach All Nodes using Python and Tw
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a  directed acyclic graph , with  n  vertices numbered from  0  to  n-1 , and an array  edges  where  edges[i] = [from i , to i ]  represents a directed edge from node  from i   to node  to i  .
+## Problem Statement
+Given a** directed acyclic graph**, with `n` vertices numbered from `0` to `n-1`, and an array `edges` where `edges[i] = [from_i, to_i]` represents a directed edge from node `from_i` to node `to_i`.
+
+Find *the smallest set of vertices from which all nodes in the graph are reachable*. It's guaranteed that a unique solution exists.
+
+Notice that you can return the vertices in any order.
+
+## Constraints
+- `2 <= n <= 10^5`
+- `1 <= edges.length <= min(10^5, n * (n - 1) / 2)`
+- `edges[i].length == 2`
+- `0 <= from_i, to_i < n`
+- All pairs `(from_i, to_i)` are distinct.
+
+## Examples
+### Example 1
+- **Input:** `n = 6, edges = [[0,1],[0,2],[2,5],[3,4],[4,2]]`
+- **Output:** `[0,3]`
+
+### Example 2
+- **Input:** `n = 5, edges = [[0,1],[2,1],[3,1],[1,4],[2,4]]`
+- **Output:** `[0,2,3]`
+- **Explanation:** Notice that vertices 0, 3 and 2 are not reachable from any other node, so we must include them. Also any of these vertices can reach nodes 1 and 4.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Number of Vertices to Reach All Nodes**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Number of Vertices to Reach All Nodes**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 6, edges = [[0,1],[0,2],[2,5],[3,4],[4,2]]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[0,3]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -51,6 +77,20 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def findSmallestSetOfVertices(self, n: int, edges: List[List[int]]) -> List[int]:
+        incoming = [0] * n
+
+        for u, v in edges:
+            incoming[v] = 1
+
+        return [i for i in range(n) if incoming[i] == 0]
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +105,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 - [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](../../1501-2000/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)

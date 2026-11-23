@@ -1,7 +1,7 @@
 # LeetCode 856: Score of Parentheses
 
 **LeetCode Problem #856 — Score of Parentheses**
-Solve LeetCode Score of Parentheses using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Score of Parentheses using Python and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,69 @@ Solve LeetCode Score of Parentheses using Python and Stack & Queue. This solutio
 | LeetCode | #856 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Stack Push / Pop Parsing |
+| Algorithm | Monotonic Stack Filtering |
 | Data Structure | Stack |
-| Pattern | Stack & Queue |
+| Pattern | Monotonic Stack |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a balanced parentheses string  s , return  the  score  of the string .
+## Problem Statement
+Given a balanced parentheses string `s`, return *the **score** of the string*.
+
+The **score** of a balanced parentheses string is based on the following rule:
+
+`"()"` has score `1`. 
+ `AB` has score `A + B`, where `A` and `B` are balanced parentheses strings. 
+ `(A)` has score `2 * A`, where `A` is a balanced parentheses string.
+
+## Constraints
+- `2 <= s.length <= 50`
+- `s` consists of only `'('` and `')'`.
+- `s` is a balanced parentheses string.
+
+## Examples
+### Example 1
+- **Input:** `s = "()"`
+- **Output:** `1`
+
+### Example 2
+- **Input:** `s = "(())"`
+- **Output:** `2`
+
+### Example 3
+- **Input:** `s = "()()"`
+- **Output:** `2`
 
 ## Key Insight
-Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
+Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
 
 ## Approach
-We iterate through the input using **Stack Push / Pop Parsing**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations and process each element in optimal time.
+To solve **Score of Parentheses**, we observe the problem requirements and utilize the **Stack & Queue** technique. We maintain a **Stack** with elements in strictly monotonic order. Whenever an incoming element violates monotonicity, we pop previous elements and compute answer intervals in amortized linear time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Stack Push / Pop Parsing**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize an empty stack.
+2. For each element, pop previous items from stack while monotonic invariant is violated.
+3. Push current element or index onto stack.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Score of Parentheses**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "()"`.
+2. **Processing Steps:** We apply **Monotonic Stack Filtering** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Stack & Queue**
+**Monotonic Stack**
 
 ## Topics
 - Stack
-- String Parsing
+- Monotonic Stack
+- Array
 
 ## Language
 Python
@@ -50,22 +80,48 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution(object):
+    def scoreOfParentheses(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        stack = [0]
+
+        for ch in s:
+            if ch == '(':
+                stack.append(0)
+            else:
+                current = stack.pop()
+
+                if current == 0:
+                    score = 1
+                else:
+                    score = 2 * current
+
+                stack[-1] += score
+
+        return stack[0]
+```
+
 ## Why This Works
-By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Pushing elements instead of indices when index distance is required.
+2. Using strict inequality (`<`) when non-strict (`<=`) is necessary.
+3. Forgetting to flush remaining elements from stack at the end.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Linear stack processing, nearest element relationship analysis.
+- **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [861. Score After Flipping Matrix](../../0501-1000/0891-score-after-flipping-matrix/)
-- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/score-of-parentheses/)

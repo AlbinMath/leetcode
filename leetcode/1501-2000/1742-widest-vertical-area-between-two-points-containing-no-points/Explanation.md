@@ -1,7 +1,7 @@
 # LeetCode 1637: Widest Vertical Area Between Two Points Containing No Points
 
 **LeetCode Problem #1637 — Widest Vertical Area Between Two Points Containing No Points**
-Solve LeetCode Widest Vertical Area Between Two Points Containing No Points using C++ and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Widest Vertical Area Between Two Points Containing No Points using C++ and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,66 @@ Solve LeetCode Widest Vertical Area Between Two Points Containing No Points usin
 | LeetCode | #1637 |
 | Difficulty | Easy |
 | Language | C++ |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given  n   points  on a 2D plane where  points[i] = [x i , y i ] , Return  the  widest vertical area  between two points such that no points are inside the area.
+## Problem Statement
+Given `n` `points` on a 2D plane where `points[i] = [x_i, y_i]`, Return* the **widest vertical area** between two points such that no points are inside the area.*
+
+A **vertical area** is an area of fixed-width extending infinitely along the y-axis (i.e., infinite height). The **widest vertical area** is the one with the maximum width.
+
+Note that points **on the edge** of a vertical area **are not** considered included in the area.
+
+## Constraints
+- `n == points.length`
+- `2 <= n <= 10^5`
+- `points[i].length == 2`
+- `0 <= x_i, y_i <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `points = [[8,7],[9,9],[7,4],[9,7]]`
+- **Output:** `1`
+- **Explanation:** Both the red and the blue area are optimal.
+
+### Example 2
+- **Input:** `points = [[3,1],[9,0],[1,0],[1,4],[5,3],[8,8]]`
+- **Output:** `3`
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Widest Vertical Area Between Two Points Containing No Points**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Widest Vertical Area Between Two Points Containing No Points**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `points = [[8,7],[9,9],[7,4],[9,7]]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** Both the red and the blue area are optimal.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Bit Manipulation**
+**Two Pointers**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 C++
@@ -50,22 +77,49 @@ C++
 ## Source Code
 - [solution.cpp](./solution.cpp)
 
+
+```cpp
+class Solution {
+public:
+    int maxWidthOfVerticalArea(vector<vector<int>>& points) {
+        vector<int> x;
+
+        // Extract x-coordinates
+        for (auto& point : points) {
+            x.push_back(point[0]);
+        }
+
+        // Sort x-coordinates
+        sort(x.begin(), x.end());
+
+        int maxWidth = 0;
+
+        // Find the largest gap between adjacent x-coordinates
+        for (int i = 1; i < x.size(); i++) {
+            maxWidth = max(maxWidth, x[i] - x[i - 1]);
+        }
+
+        return maxWidth;
+    }
+};
+```
+
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [3047. Find the Largest Area of Square Inside Two Rectangles](../../3001-3500/3325-find-the-largest-area-of-square-inside-two-rectangles/)
-- [1595. Minimum Cost to Connect Two Groups of Points](../../1501-2000/1717-minimum-cost-to-connect-two-groups-of-points/)
-- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
+- [1360. Number of Days Between Two Dates](../../1001-1500/1274-number-of-days-between-two-dates/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)

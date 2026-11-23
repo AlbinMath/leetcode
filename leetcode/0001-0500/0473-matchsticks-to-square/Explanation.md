@@ -1,7 +1,7 @@
 # LeetCode 473: Matchsticks to Square
 
 **LeetCode Problem #473 — Matchsticks to Square**
-Solve LeetCode Matchsticks to Square using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Matchsticks to Square using JavaScript and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,61 @@ Solve LeetCode Matchsticks to Square using JavaScript and Array / General. This 
 | LeetCode | #473 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Backtracking Recursive Search |
+| Data Structure | Recursion Tree |
+| Pattern | Backtracking |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  matchsticks  where  matchsticks[i]  is the length of the  i th   matchstick. You want to use  all the matchsticks  to make one square. You  should not break  any stick, but you can link them up, and each matchstick must be used  exactly one time .
+## Problem Statement
+You are given an integer array `matchsticks` where `matchsticks[i]` is the length of the `i^th` matchstick. You want to use **all the matchsticks** to make one square. You **should not break** any stick, but you can link them up, and each matchstick must be used **exactly one time**.
+
+Return `true` if you can make this square and `false` otherwise.
+
+## Constraints
+- `1 <= matchsticks.length <= 15`
+- `1 <= matchsticks[i] <= 10^8`
+
+## Examples
+### Example 1
+- **Input:** `matchsticks = [1,1,2,2,2]`
+- **Output:** `true`
+- **Explanation:** You can form a square with length 2, one side of the square came two sticks with length 1.
+
+### Example 2
+- **Input:** `matchsticks = [3,3,3,3,4]`
+- **Output:** `false`
+- **Explanation:** You cannot find a way to form a square with all the matchsticks.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Backtracking** with **Recursion Tree** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Matchsticks to Square**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Matchsticks to Square**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `matchsticks = [1,1,2,2,2]`.
+2. **Processing Steps:** We apply **Backtracking Recursive Search** using our **Recursion Tree**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** You can form a square with length 2, one side of the square came two sticks with length 1.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Recursion Tree.
 
 ## Pattern
-**Array / General**
+**Backtracking**
 
 ## Topics
-- Array
+- Backtracking
+- Recursion
 
 ## Language
 JavaScript
@@ -49,8 +72,44 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {number[]} matchsticks
+ * @return {boolean}
+ */
+var makesquare = function (matchsticks) {
+  const total = matchsticks.reduce((a, b) => a + b, 0);
+  if (total % 4 !== 0) return false;
+
+  const side = total / 4;
+  matchsticks.sort((a, b) => b - a);
+  if (matchsticks[0] > side) return false;
+
+  const sides = [0, 0, 0, 0];
+  const n = matchsticks.length;
+
+  const backtrack = (i) => {
+    if (i === n) return true;
+
+    const seen = new Set();
+    for (let j = 0; j < 4; j++) {
+      if (sides[j] + matchsticks[i] > side || seen.has(sides[j])) continue;
+
+      seen.add(sides[j]);
+      sides[j] += matchsticks[i];
+      if (backtrack(i + 1)) return true;
+      sides[j] -= matchsticks[i];
+    }
+    return false;
+  };
+
+  return backtrack(0);
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

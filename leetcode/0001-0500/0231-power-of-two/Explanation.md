@@ -16,26 +16,51 @@ Solve LeetCode Power of Two using PHP and Array / General. This solution finds t
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  n , return   true  if it is a power of two. Otherwise, return  false  .
+## Problem Statement
+Given an integer `n`, return *`true` if it is a power of two. Otherwise, return `false`*.
+
+An integer `n` is a power of two, if there exists an integer `x` such that `n == 2^x`.
+
+## Constraints
+- `-2^31 <= n <= 2^31 - 1`
+
+## Examples
+### Example 1
+- **Input:** `n = 1`
+- **Output:** `true`
+- **Explanation:** 2^0 = 1
+
+### Example 2
+- **Input:** `n = 16`
+- **Output:** `true`
+- **Explanation:** 2^4 = 16
+
+### Example 3
+- **Input:** `n = 3`
+- **Output:** `false`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Power of Two**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Power of Two**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 1`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** 2^0 = 1
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +73,15 @@ PHP
 
 ## Source Code
 - [solution.php](./solution.php)
+
+
+```php
+class Solution {
+    function isPowerOfTwo($n) {
+        return $n > 0 && (($n & ($n - 1)) == 0);
+    }
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +96,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
-- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
+- [326. Power of Three](../../0001-0500/0326-power-of-three/)
+- [342. Power of Four](../../0001-0500/0342-power-of-four/)
+- [869. Reordered Power of 2](../../0501-1000/0900-reordered-power-of-2/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-of-two/)

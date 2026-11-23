@@ -16,8 +16,29 @@ Solve LeetCode Container With Most Water using JavaScript, Python and Two Pointe
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  height  of length  n . There are  n  vertical lines drawn such that the two endpoints of the  i th   line are  (i, 0)  and  (i, height[i]) .
+## Problem Statement
+You are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the `i^th` line are `(i, 0)` and `(i, height[i])`.
+
+Find two lines that together with the x-axis form a container, such that the container contains the most water.
+
+Return *the maximum amount of water a container can store*.
+
+**Notice** that you may not slant the container.
+
+## Constraints
+- `n == height.length`
+- `2 <= n <= 10^5`
+- `0 <= height[i] <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `height = [1,8,6,2,5,4,8,3,7]`
+- **Output:** `49`
+- **Explanation:** The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+
+### Example 2
+- **Input:** `height = [1,1]`
+- **Output:** `1`
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
@@ -40,12 +61,17 @@ This approach evaluates the array in a single pass, resulting in an $O(N)$ time 
 2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Container With Most Water**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `height = [1,8,6,2,5,4,8,3,7]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `49`.
+4. **Verification:** The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -61,6 +87,47 @@ JavaScript, Python
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var maxArea = function(height) {
+    let left = 0;
+    let right = height.length - 1;
+    let maxWater = 0;
+
+    while (left < right) {
+        const width = right - left;
+        const minHeight = Math.min(height[left], height[right]);
+        const area = width * minHeight;
+
+        maxWater = Math.max(maxWater, area);
+
+        // Move the pointer at the shorter line
+        if (height[left] < height[right]) {
+            left++;
+        } else {
+            right--;
+        }
+    }
+
+    return maxWater;
+};
+```
+
+### Python
+```python
+class Solution:
+    def maxArea(self, height: List[int]) -> int:
+        l, r, ans = 0, len(height) - 1, 0
+        while l < r:
+            ans = max(ans, (r - l) * min(height[l], height[r]))
+            if height[l] < height[r]:
+                l += 1
+            else:
+                r -= 1
+        return ans
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

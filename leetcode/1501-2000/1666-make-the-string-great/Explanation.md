@@ -1,7 +1,7 @@
 # LeetCode 1544: Make The String Great
 
 **LeetCode Problem #1544 — Make The String Great**
-Solve LeetCode Make The String Great using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Make The String Great using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,76 @@ Solve LeetCode Make The String Great using Python and Array / General. This solu
 | LeetCode | #1544 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-Given a string  s  of lower and upper case English letters.
+## Problem Statement
+Given a string `s` of lower and upper case English letters.
+
+A good string is a string which doesn't have **two adjacent characters** `s[i]` and `s[i + 1]` where:
+
+`0 <= i <= s.length - 2` 
+ `s[i]` is a lower-case letter and `s[i + 1]` is the same letter but in upper-case or **vice-versa**.
+
+To make the string good, you can choose **two adjacent** characters that make the string bad and remove them. You can keep doing this until the string becomes good.
+
+Return *the string* after making it good. The answer is guaranteed to be unique under the given constraints.
+
+**Notice** that an empty string is also good.
+
+## Constraints
+- `1 <= s.length <= 100`
+- `s` contains only lower and upper case English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "leEeetcode"`
+- **Output:** `"leetcode"`
+- **Explanation:** In the first step, either you choose i = 1 or i = 2, both will result "leEeetcode" to be reduced to "leetcode".
+
+### Example 2
+- **Input:** `s = "abBAcC"`
+- **Output:** `""`
+- **Explanation:** We have many possible scenarios, and all lead to the same answer. For example:
+"abBAcC" --> "aAcC" --> "cC" --> ""
+"abBAcC" --> "abBA" --> "aA" --> ""
+
+### Example 3
+- **Input:** `s = "s"`
+- **Output:** `"s"`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Make The String Great**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Make The String Great**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "leEeetcode"`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"leetcode"`.
+4. **Verification:** In the first step, either you choose i = 1 or i = 2, both will result "leEeetcode" to be reduced to "leetcode".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Array / General**
+**Stack & Queue**
 
 ## Topics
-- Array
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -49,8 +87,23 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def makeGood(self, s: str) -> str:
+        stack = []
+
+        for char in s:
+            if stack and stack[-1] != char and stack[-1].lower() == char.lower():
+                stack.pop()
+            else:
+                stack.append(char)
+
+        return "".join(stack)
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

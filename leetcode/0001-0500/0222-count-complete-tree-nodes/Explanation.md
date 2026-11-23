@@ -16,26 +16,53 @@ Solve LeetCode Count Complete Tree Nodes using JavaScript and Two Pointers. This
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given the  root  of a  complete  binary tree, return the number of the nodes in the tree.
+## Problem Statement
+Given the `root` of a **complete** binary tree, return the number of the nodes in the tree.
+
+According to ** Wikipedia **, every level, except possibly the last, is completely filled in a complete binary tree, and all nodes in the last level are as far left as possible. It can have between `1` and `2^h` nodes inclusive at the last level `h`.
+
+Design an algorithm that runs in less than O(n) time complexity.
+
+## Constraints
+- The number of nodes in the tree is in the range `[0, 5 * 10^4]`.
+- `0 <= Node.val <= 5 * 10^4`
+- The tree is guaranteed to be **complete**.
+
+## Examples
+### Example 1
+- **Input:** `root = [1,2,3,4,5,6]`
+- **Output:** `6`
+
+### Example 2
+- **Input:** `root = []`
+- **Output:** `0`
+
+### Example 3
+- **Input:** `root = [1]`
+- **Output:** `1`
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Complete Tree Nodes**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Complete Tree Nodes**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [1,2,3,4,5,6]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `6`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +77,38 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var countNodes = function(root) {
+    if (root === null) {
+        return 0;
+    }
+
+    let left = root.left;
+    let right = root.right;
+    let leftHeight = 0;
+    let rightHeight = 0;
+
+    while (left !== null) {
+        leftHeight++;
+        left = left.left;
+    }
+
+    while (right !== null) {
+        rightHeight++;
+        right = right.right;
+    }
+
+    // If both heights are equal, the tree is perfect
+    if (leftHeight === rightHeight) {
+        return Math.pow(2, leftHeight + 1) - 1;
+    }
+
+    // Otherwise, count recursively
+    return 1 + countNodes(root.left) + countNodes(root.right);
+};
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -66,7 +125,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1448. Count Good Nodes in Binary Tree](../../1501-2000/1544-count-good-nodes-in-binary-tree/)
 - [3997. Count Dominant Nodes in a Binary Tree](../../4001-4500/4358-count-dominant-nodes-in-a-binary-tree/)
-- [919. Complete Binary Tree Inserter](../../0501-1000/0955-complete-binary-tree-inserter/)
+- [1782. Count Pairs Of Nodes](../../1501-2000/1891-count-pairs-of-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-complete-tree-nodes/)

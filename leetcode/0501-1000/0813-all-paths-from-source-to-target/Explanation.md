@@ -16,26 +16,52 @@ Solve LeetCode All Paths From Source to Target using Python and Tree & Graph. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a directed acyclic graph ( DAG ) of  n  nodes labeled from  0  to  n - 1 , find all possible paths from node  0  to node  n - 1  and return them in  any order .
+## Problem Statement
+Given a directed acyclic graph (**DAG**) of `n` nodes labeled from `0` to `n - 1`, find all possible paths from node `0` to node `n - 1` and return them in **any order**.
+
+The graph is given as follows: `graph[i]` is a list of all nodes you can visit from node `i` (i.e., there is a directed edge from node `i` to node `graph[i][j]`).
+
+## Constraints
+- `n == graph.length`
+- `2 <= n <= 15`
+- `0 <= graph[i][j] < n`
+- `graph[i][j] != i` (i.e., there will be no self-loops).
+- All the elements of `graph[i]` are **unique**.
+- The input graph is **guaranteed** to be a **DAG**.
+
+## Examples
+### Example 1
+- **Input:** `graph = [[1,2],[3],[3],[]]`
+- **Output:** `[[0,1,3],[0,2,3]]`
+- **Explanation:** There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
+
+### Example 2
+- **Input:** `graph = [[4,3,1],[3,2,4],[3],[4],[]]`
+- **Output:** `[[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]]`
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **All Paths From Source to Target**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **All Paths From Source to Target**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `graph = [[1,2],[3],[3],[]]`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[0,1,3],[0,2,3]]`.
+4. **Verification:** There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +78,29 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+        res = []
+        target = len(graph) - 1
+
+        def dfs(node, path):
+            if node == target:
+                res.append(path[:])
+                return
+
+            for nxt in graph[node]:
+                path.append(nxt)
+                dfs(nxt, path)
+                path.pop()
+
+        dfs(0, [0])
+        return res
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,7 +114,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../../1501-2000/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- [1786. Number of Restricted Paths From First to Last Node](../../1501-2000/1912-number-of-restricted-paths-from-first-to-last-node/)
 - [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2220-find-all-possible-recipes-from-given-supplies/)
 - [2920. Maximum Points After Collecting Coins From All Nodes](../../3001-3500/3179-maximum-points-after-collecting-coins-from-all-nodes/)
 

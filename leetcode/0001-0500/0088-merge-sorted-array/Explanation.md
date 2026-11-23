@@ -16,26 +16,63 @@ Solve LeetCode Merge Sorted Array using PHP and Array / General. This solution f
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two integer arrays  nums1  and  nums2 , sorted in  non-decreasing order , and two integers  m  and  n , representing the number of elements in  nums1  and  nums2  respectively.
+## Problem Statement
+You are given two integer arrays `nums1` and `nums2`, sorted in **non-decreasing order**, and two integers `m` and `n`, representing the number of elements in `nums1` and `nums2` respectively.
+
+**Merge** `nums1` and `nums2` into a single array sorted in **non-decreasing order**.
+
+The final sorted array should not be returned by the function, but instead be *stored inside the array *`nums1`. To accommodate this, `nums1` has a length of `m + n`, where the first `m` elements denote the elements that should be merged, and the last `n` elements are set to `0` and should be ignored. `nums2` has a length of `n`.
+
+## Constraints
+- `nums1.length == m + n`
+- `nums2.length == n`
+- `0 <= m, n <= 200`
+- `1 <= m + n <= 200`
+- `-10^9 <= nums1[i], nums2[j] <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3`
+- **Output:** `[1,2,2,3,5,6]`
+- **Explanation:** The arrays we are merging are [1,2,3] and [2,5,6].
+The result of the merge is [ 1 , 2 ,2, 3 ,5,6] with the underlined elements coming from nums1.
+
+### Example 2
+- **Input:** `nums1 = [1], m = 1, nums2 = [], n = 0`
+- **Output:** `[1]`
+- **Explanation:** The arrays we are merging are [1] and [].
+The result of the merge is [1].
+
+### Example 3
+- **Input:** `nums1 = [0], m = 0, nums2 = [1], n = 1`
+- **Output:** `[1]`
+- **Explanation:** The arrays we are merging are [] and [1].
+The result of the merge is [1].
+Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Merge Sorted Array**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Merge Sorted Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,2,2,3,5,6]`.
+4. **Verification:** The arrays we are merging are [1,2,3] and [2,5,6].
+The result of the merge is [ 1 , 2 ,2, 3 ,5,6] with the underlined elements coming from nums1.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +85,30 @@ PHP
 
 ## Source Code
 - [solution.php](./solution.php)
+
+
+```php
+class Solution {
+    function merge(&$nums1, $m, $nums2, $n) {
+        $i = $m - 1;          // Last element in nums1
+        $j = $n - 1;          // Last element in nums2
+        $k = $m + $n - 1;     // Last position in nums1
+
+        while ($j >= 0) {
+
+            if ($i >= 0 && $nums1[$i] > $nums2[$j]) {
+                $nums1[$k] = $nums1[$i];
+                $i--;
+            } else {
+                $nums1[$k] = $nums2[$j];
+                $j--;
+            }
+
+            $k--;
+        }
+    }
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,7 +125,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
 - [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [3690. Split and Merge Array Transformation](../../3501-4000/3928-split-and-merge-array-transformation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-sorted-array/)

@@ -16,8 +16,33 @@ Solve LeetCode Allow One Function Call using TypeScript and Array / General. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a function  fn , return a new function that is identical to the original function except that it ensures  fn  is called at most once.
+## Problem Statement
+Given a function `fn`, return a new function that is identical to the original function except that it ensures `fn` is called at most once.
+
+The first time the returned function is called, it should return the same result as `fn`. 
+ Every subsequent time it is called, it should return `undefined`.
+
+## Constraints
+- `calls` is a valid JSON array
+- `1 <= calls.length <= 10`
+- `1 <= calls[i].length <= 100`
+- `2 <= JSON.stringify(calls).length <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `fn = (a,b,c) => (a + b + c), calls = [[1,2,3],[2,3,6]]`
+- **Output:** `[{"calls":1,"value":6}]`
+- **Explanation:** const onceFn = once(fn);
+onceFn(1, 2, 3); // 6
+onceFn(2, 3, 6); // undefined, fn was not called
+
+### Example 2
+- **Input:** `fn = (a,b,c) => (a * b * c), calls = [[5,7,4],[2,3,6],[4,6,8]]`
+- **Output:** `[{"calls":1,"value":140}]`
+- **Explanation:** const onceFn = once(fn);
+onceFn(5, 7, 4); // 140
+onceFn(2, 3, 6); // undefined, fn was not called
+onceFn(4, 6, 8); // undefined, fn was not called
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +55,19 @@ Uses a boolean flag `called` in a closure. On the first call, sets `called = tru
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Allow One Function Call**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `fn = (a,b,c) => (a + b + c), calls = [[1,2,3],[2,3,6]]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[{"calls":1,"value":6}]`.
+4. **Verification:** const onceFn = once(fn);
+onceFn(1, 2, 3); // 6
+onceFn(2, 3, 6); // undefined, fn was not called
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +80,22 @@ TypeScript
 
 ## Source Code
 - [solution.ts](./solution.ts)
+
+
+```typescript
+function once(fn: Function): Function {
+    let called = false;
+
+    return function(...args: any[]) {
+        if (called) {
+            return undefined;
+        }
+
+        called = true;
+        return fn(...args);
+    };
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

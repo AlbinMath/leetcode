@@ -16,8 +16,28 @@ Solve LeetCode 4Sum using C++ and Binary Search. This solution finds the optimal
 | Time Complexity | O(log n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array  nums  of  n  integers, return  an array of all the  unique  quadruplets   [nums[a], nums[b], nums[c], nums[d]]  such that:
+## Problem Statement
+Given an array `nums` of `n` integers, return *an array of all the **unique** quadruplets* `[nums[a], nums[b], nums[c], nums[d]]` such that:
+
+`0 <= a, b, c, d < n` 
+ `a`, `b`, `c`, and `d` are **distinct**. 
+ `nums[a] + nums[b] + nums[c] + nums[d] == target`
+
+You may return the answer in **any order**.
+
+## Constraints
+- `1 <= nums.length <= 200`
+- `-10^9 <= nums[i] <= 10^9`
+- `-10^9 <= target <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,0,-1,0,-2,2], target = 0`
+- **Output:** `[[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]`
+
+### Example 2
+- **Input:** `nums = [2,2,2,2,2], target = 8`
+- **Output:** `[[2,2,2,2]]`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -41,12 +61,16 @@ The time complexity is $O(N^3)$ and space complexity is $O(\log N)$ for sorting.
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **4Sum**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,0,-1,0,-2,2], target = 0`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]`.
 
-## Complexity
-- **Time Complexity:** O(log n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(log n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -61,6 +85,56 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    vector<vector<int>> fourSum(vector<int>& nums, int target) {
+        vector<vector<int>> ans;
+        int n = nums.size();
+        sort(nums.begin(), nums.end());
+        for (int i = 0; i < n - 3; i++) {
+            if (i > 0 && nums[i] == nums[i - 1])
+                continue;
+            for (int j = i + 1; j < n - 2; j++) {
+                if (j > i + 1 && nums[j] == nums[j - 1])
+                    continue;
+                int left = j + 1;
+                int right = n - 1;
+                while (left < right) {
+                    long long sum = (long long)nums[i] +
+                                    nums[j] +
+                                    nums[left] +
+                                    nums[right];
+                    if (sum == target) {
+                        ans.push_back({
+                            nums[i],
+                            nums[j],
+                            nums[left],
+                            nums[right]
+                        });
+                        while (left < right && nums[left] == nums[left + 1])
+                            left++;
+
+                        while (left < right && nums[right] == nums[right - 1])
+                            right--;
+                        left++;
+                        right--;
+                    }
+                    else if (sum < target) {
+                        left++;
+                    }
+                    else {
+                        right--;
+                    }
+                }
+            }
+        }
+        return ans;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

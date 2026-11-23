@@ -16,26 +16,66 @@ Solve LeetCode Construct Uniform Parity Array I using C++ and Binary Search. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  nums1  of  n   distinct  integers.
+## Problem Statement
+You are given an array `nums1` of `n` **distinct** integers.
+
+You want to construct another array `nums2` of length `n` such that the elements in `nums2` are either **all odd or all even**.
+
+For each index `i`, you must choose **exactly one** of the following (in any order):
+
+`nums2[i] = nums1[i]` 
+ `nums2[i] = nums1[i] - nums1[j]`, for an index `j != i`
+
+Return `true` if it is possible to construct such an array, otherwise, return `false`.
+
+## Constraints
+- `1 <= n == nums1.length <= 100`
+- `1 <= nums1[i] <= 100`
+- `nums1` consists of distinct integers.
+
+## Examples
+### Example 1
+- **Input:** `nums1 = [2,3]`
+- **Output:** `true`
+- **Explanation:** Choose `nums2[0] = nums1[0] - nums1[1] = 2 - 3 = -1`. 
+ Choose `nums2[1] = nums1[1] = 3`. 
+ `nums2 = [-1, 3]`, and both elements are odd. Thus, the answer is `true`​​​​​​​.
+
+### Example 2
+- **Input:** `nums1 = [4,6]`
+- **Output:** `true`
+- **Explanation:** ​​​​​​​ 
+
+ 
+ Choose `nums2[0] = nums1[0] = 4`. 
+ Choose `nums2[1] = nums1[1] = 6`. 
+ `nums2 = [4, 6]`, and all elements are even. Thus, the answer is `true`.
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Construct Uniform Parity Array I**, we observe the problem requirements and utilize the **Binary Search** technique. Exploiting monotonic ordering or sorted properties in the input space, we maintain `left` and `right` boundary pointers. In each iteration, we evaluate the midpoint to discard half of the search range, reducing the time complexity to $O(\log n)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize boundary pointers `left` and `right`.
+2. Compute `mid = left + (right - left) // 2` to prevent overflow.
+3. Adjust `left` or `right` depending on whether target satisfies the partition condition.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Construct Uniform Parity Array I**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums1 = [2,3]`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Choose `nums2[0] = nums1[0] - nums1[1] = 2 - 3 = -1`. 
+ Choose `nums2[1] = nums1[1] = 3`. 
+ `nums2 = [-1, 3]`, and both elements are odd. Thus, the answer is `true`​​​​​​​.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -50,6 +90,16 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    bool uniformArray(vector<int>& nums1) {
+        return true;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

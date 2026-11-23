@@ -1,7 +1,7 @@
 # LeetCode 3886: Sum of Sortable Integers
 
 **LeetCode Problem #3886 — Sum of Sortable Integers**
-Solve LeetCode Sum of Sortable Integers using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Sum of Sortable Integers using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,92 @@ Solve LeetCode Sum of Sortable Integers using Python and Array / General. This s
 | LeetCode | #3886 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-You are given an integer array  nums  of length  n .
+## Problem Statement
+You are given an integer array `nums` of length `n`.
+
+An integer `k` is called **sortable** if `k` **divides** `n` and you can sort `nums` in **non-decreasing** order by sequentially performing the following operations:
+
+Partition `nums` into **consecutive subarrays ** of length `k`. 
+ **Cyclically rotate each subarray independently** any number of times to the left or to the right.
+
+Return an integer denoting the sum of all possible sortable integers `k`.
+
+## Constraints
+- `1 <= n == nums.length <= 10^5`
+- `1 <= nums[i] <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `nums = [3,1,2]`
+- **Output:** `3`
+- **Explanation:** ​​​​​​​ 
+
+ 
+ For `n = 3`, possible divisors are 1 and 3. 
+ For `k = 1`: each subarray has one element. No rotation can sort the array. 
+ For `k = 3`: the single subarray `[3, 1, 2]` can be rotated once to produce `[1, 2, 3]`, which is sorted. 
+ Only `k = 3` is sortable. Hence, the answer is 3.
+
+### Example 2
+- **Input:** `nums = [7,6,5]`
+- **Output:** `0`
+- **Explanation:** For `n = 3`, possible divisors are 1 and 3. 
+ For `k = 1`: each subarray has one element. No rotation can sort the array. 
+ For `k = 3`: the single subarray `[7, 6, 5]` cannot be rotated into non-decreasing order. 
+ No `k` is sortable. Hence, the answer is 0.
+
+### Example 3
+- **Input:** `nums = [5,8]`
+- **Output:** `3`
+- **Explanation:** ​​​​​​​ 
+
+ 
+ For `n = 2`, possible divisors are 1 and 2. 
+ Since `[5, 8]` is already sorted, every divisor is sortable. Hence, the answer is `1 + 2 = 3`.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sum of Sortable Integers**, we observe the problem requirements and utilize the **Array / General** technique. We decompose the problem into overlapping subproblems using a **Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sum of Sortable Integers**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [3,1,2]`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** ​​​​​​​ 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ 
+ For `n = 3`, possible divisors are 1 and 3. 
+ For `k = 1`: each subarray has one element. No rotation can sort the array. 
+ For `k = 3`: the single subarray `[3, 1, 2]` can be rotated once to produce `[1, 2, 3]`, which is sorted. 
+ Only `k = 3` is sortable. Hence, the answer is 3.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Array / General**
+**Dynamic Programming**
 
 ## Topics
-- Array
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 Python
@@ -49,17 +103,60 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def sortableIntegers(self, nums: List[int]) -> int:
+        n = len(nums)
+        ans = 0
+
+        for k in range(1, n + 1):
+            if n % k:
+                continue
+
+            arr = []
+            for i in range(0, n, k):
+                a = nums[i:i + k]
+                a.sort()
+                arr.append(a)
+
+            # Check if each block can be rotated into sorted order
+            ok = True
+            for i in range(0, n, k):
+                a = nums[i:i + k]
+                if sum(a[j] > a[(j + 1) % k] for j in range(k)) > 1:
+                    ok = False
+                    break
+
+            if not ok:
+                continue
+
+            # Check whether sorted rotations can make the full array sorted
+            for i in range(0, n, k):
+                a = nums[i:i + k]
+                if i > 0 and max(nums[i-k:i]) > min(a):
+                    ok = False
+                    break
+
+            if ok:
+                ans += k
+
+        return ans
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)

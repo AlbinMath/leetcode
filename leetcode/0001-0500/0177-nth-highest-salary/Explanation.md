@@ -16,26 +16,85 @@ Solve LeetCode Nth Highest Salary using SQL and Database / SQL. This solution fi
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Employee`
+
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| id | int |
+| salary | int |
++-------------+------+
 id is the primary key (column with unique values) for this table.
+Each row of this table contains information about the salary of an employee.
+
+Write a solution to find the `n^th` highest **distinct** salary from the `Employee` table. If there are less than `n` distinct salaries, return `null`.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Employee table:
++----+--------+
+| id | salary |
++----+--------+
+| 1 | 100 |
+| 2 | 200 |
+| 3 | 300 |
++----+--------+
+n = 2`
+- **Output:** `+------------------------+
+| getNthHighestSalary(2) |
++------------------------+
+| 200 |
++------------------------+`
+
+### Example 2
+- **Input:** `Employee table:
++----+--------+
+| id | salary |
++----+--------+
+| 1 | 100 |
++----+--------+
+n = 2`
+- **Output:** `+------------------------+
+| getNthHighestSalary(2) |
++------------------------+
+| null |
++------------------------+`
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Nth Highest Salary** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We order the final result set using `ORDER BY`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Sort the projected result.
+2. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Nth Highest Salary**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Employee table:
++----+--------+
+| id | salary |
++----+--------+
+| 1 | 100 |
+| 2 | 200 |
+| 3 | 300 |
++----+--------+
+n = 2`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+------------------------+
+| getNthHighestSalary(2) |
++------------------------+
+| 200 |
++------------------------+`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +109,21 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN
+    SET N = N - 1;
+
+    RETURN (
+        SELECT DISTINCT salary
+        FROM Employee
+        ORDER BY salary DESC
+        LIMIT 1 OFFSET N
+    );
+END
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

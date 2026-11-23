@@ -1,7 +1,7 @@
 # LeetCode 2434: Using a Robot to Print the Lexicographically Smallest String
 
 **LeetCode Problem #2434 — Using a Robot to Print the Lexicographically Smallest String**
-Solve LeetCode Using a Robot to Print the Lexicographically Smallest String using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Using a Robot to Print the Lexicographically Smallest String using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,82 @@ Solve LeetCode Using a Robot to Print the Lexicographically Smallest String usin
 | LeetCode | #2434 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-You are given a string  s  and a robot that currently holds an empty string  t . Apply one of the following operations until  s  and  t   are both empty :
+## Problem Statement
+You are given a string `s` and a robot that currently holds an empty string `t`. Apply one of the following operations until `s` and `t` **are both empty**:
+
+Remove the **first** character of a string `s` and give it to the robot. The robot will append this character to the string `t`. 
+ Remove the **last** character of a string `t` and give it to the robot. The robot will write this character on paper.
+
+Return *the lexicographically smallest string that can be written on the paper.*
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s` consists of only English lowercase letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "zza"`
+- **Output:** `"azz"`
+- **Explanation:** Let p denote the written string.
+Initially p="", s="zza", t="".
+Perform first operation three times p="", s="", t="zza".
+Perform second operation three times p="azz", s="", t="".
+
+### Example 2
+- **Input:** `s = "bac"`
+- **Output:** `"abc"`
+- **Explanation:** Let p denote the written string.
+Perform first operation twice p="", s="c", t="ba". 
+Perform second operation twice p="ab", s="c", t="". 
+Perform first operation p="ab", s="", t="c". 
+Perform second operation p="abc", s="", t="".
+
+### Example 3
+- **Input:** `s = "bdda"`
+- **Output:** `"addb"`
+- **Explanation:** Let p denote the written string.
+Initially p="", s="bdda", t="".
+Perform first operation four times p="", s="", t="bdda".
+Perform second operation four times p="addb", s="", t="".
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Using a Robot to Print the Lexicographically Smallest String**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Using a Robot to Print the Lexicographically Smallest String**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "zza"`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"azz"`.
+4. **Verification:** Let p denote the written string.
+Initially p="", s="zza", t="".
+Perform first operation three times p="", s="", t="zza".
+Perform second operation three times p="azz", s="", t="".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Array / General**
+**Stack & Queue**
 
 ## Topics
-- Array
+- Stack
+- String Parsing
 
 ## Language
 C++
@@ -49,8 +93,50 @@ C++
 ## Source Code
 - [solution.cpp](./solution.cpp)
 
+
+```cpp
+#include <string>
+using namespace std;
+
+class Solution {
+public:
+    string robotWithString(string s) {
+        int n = s.length();
+        int freq[26] = {0};
+        for (char c : s) {
+            freq[c - 'a']++;
+        }
+        
+        string t;
+        t.reserve(n);
+        string res;
+        res.reserve(n);
+        
+        int min_char = 0; // 0 represents 'a'
+        
+        for (char c : s) {
+            t.push_back(c);
+            freq[c - 'a']--;
+            
+            // Advance min_char to the smallest character still remaining in s
+            while (min_char < 26 && freq[min_char] == 0) {
+                min_char++;
+            }
+            
+            // Pop from stack t while its top is <= smallest remaining character in s
+            while (!t.empty() && (t.back() - 'a') <= min_char) {
+                res.push_back(t.back());
+                t.pop_back();
+            }
+        }
+        
+        return res;
+    }
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

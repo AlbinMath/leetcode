@@ -16,26 +16,52 @@ Solve LeetCode Maximum OR using Python and Tree & Graph. This solution finds the
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a  0-indexed  integer array  nums  of length  n  and an integer  k . In an operation, you can choose an element and multiply it by  2 .
+## Problem Statement
+You are given a **0-indexed** integer array `nums` of length `n` and an integer `k`. In an operation, you can choose an element and multiply it by `2`.
+
+Return *the maximum possible value of *`nums[0] | nums[1] | ... | nums[n - 1]` *that can be obtained after applying the operation on nums at most *`k`* times*.
+
+Note that `a | b` denotes the **bitwise or** between two integers `a` and `b`.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^9`
+- `1 <= k <= 15`
+
+## Examples
+### Example 1
+- **Input:** `nums = [12,9], k = 1`
+- **Output:** `30`
+- **Explanation:** If we apply the operation to index 1, our new array nums will be equal to [12,18]. Thus, we return the bitwise or of 12 and 18, which is 30.
+
+### Example 2
+- **Input:** `nums = [8,1,2], k = 2`
+- **Output:** `35`
+- **Explanation:** If we apply the operation twice on index 0, we yield a new array of [32,1,2]. Thus, we return 32|1|2 = 35.
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum OR**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum OR**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [12,9], k = 1`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `30`.
+4. **Verification:** If we apply the operation to index 1, our new array nums will be equal to [12,18]. Thus, we return the bitwise or of 12 and 18, which is 30.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -51,6 +77,23 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def maximumOr(self, nums, k):
+        n = len(nums)
+        suf = [0] * (n + 1)
+        for i in range(n - 1, -1, -1):
+            suf[i] = suf[i + 1] | nums[i]
+
+        best = 0
+        pre = 0
+        for i in range(n):
+            best = max(best, pre | (nums[i] << k) | suf[i + 1])
+            pre |= nums[i]
+        return best
+```
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

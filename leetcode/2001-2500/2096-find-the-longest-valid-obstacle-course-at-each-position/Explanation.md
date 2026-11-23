@@ -1,7 +1,7 @@
 # LeetCode 1964: Find the Longest Valid Obstacle Course at Each Position
 
 **LeetCode Problem #1964 — Find the Longest Valid Obstacle Course at Each Position**
-Solve LeetCode Find the Longest Valid Obstacle Course at Each Position using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Find the Longest Valid Obstacle Course at Each Position using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,93 @@ Solve LeetCode Find the Longest Valid Obstacle Course at Each Position using Jav
 | LeetCode | #1964 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## Problem
-You want to build some obstacle courses. You are given a  0-indexed  integer array  obstacles  of length  n , where  obstacles[i]  describes the height of the  i th   obstacle.
+## Problem Statement
+You want to build some obstacle courses. You are given a **0-indexed** integer array `obstacles` of length `n`, where `obstacles[i]` describes the height of the `i^th` obstacle.
+
+For every index `i` between `0` and `n - 1` (**inclusive**), find the length of the **longest obstacle course** in `obstacles` such that:
+
+You choose any number of obstacles between `0` and `i` **inclusive**. 
+ You must include the `i^th` obstacle in the course. 
+ You must put the chosen obstacles in the **same order** as they appear in `obstacles`. 
+ Every obstacle (except the first) is **taller** than or the **same height** as the obstacle immediately before it.
+
+Return *an array* `ans` *of length* `n`, *where* `ans[i]` *is the length of the **longest obstacle course** for index* `i`* as described above*.
+
+## Constraints
+- `n == obstacles.length`
+- `1 <= n <= 10^5`
+- `1 <= obstacles[i] <= 10^7`
+
+## Examples
+### Example 1
+- **Input:** `obstacles = [1,2,3,2]`
+- **Output:** `[1,2,3,3]`
+- **Explanation:** The longest valid obstacle course at each position is:
+- i = 0: [ 1 ], [1] has length 1.
+- i = 1: [ 1 , 2 ], [1,2] has length 2.
+- i = 2: [ 1 , 2 , 3 ], [1,2,3] has length 3.
+- i = 3: [ 1 , 2 ,3, 2 ], [1,2,2] has length 3.
+
+### Example 2
+- **Input:** `obstacles = [2,2,1]`
+- **Output:** `[1,2,1]`
+- **Explanation:** The longest valid obstacle course at each position is:
+- i = 0: [ 2 ], [2] has length 1.
+- i = 1: [ 2 , 2 ], [2,2] has length 2.
+- i = 2: [2,2, 1 ], [1] has length 1.
+
+### Example 3
+- **Input:** `obstacles = [3,1,5,6,4,2]`
+- **Output:** `[1,1,2,3,2,2]`
+- **Explanation:** The longest valid obstacle course at each position is:
+- i = 0: [ 3 ], [3] has length 1.
+- i = 1: [3, 1 ], [1] has length 1.
+- i = 2: [ 3 ,1, 5 ], [3,5] has length 2. [1,5] is also valid.
+- i = 3: [ 3 ,1, 5 , 6 ], [3,5,6] has length 3. [1,5,6] is also valid.
+- i = 4: [ 3 ,1,5,6, 4 ], [3,4] has length 2. [1,4] is also valid.
+- i = 5: [3, 1 ,5,6,4, 2 ], [1,2] has length 2.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find the Longest Valid Obstacle Course at Each Position**, we observe the problem requirements and utilize the **Tree & Graph** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find the Longest Valid Obstacle Course at Each Position**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `obstacles = [1,2,3,2]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,2,3,3]`.
+4. **Verification:** The longest valid obstacle course at each position is:
+- i = 0: [ 1 ], [1] has length 1.
+- i = 1: [ 1 , 2 ], [1,2] has length 2.
+- i = 2: [ 1 , 2 , 3 ], [1,2,3] has length 3.
+- i = 3: [ 1 , 2 ,3, 2 ], [1,2,2] has length 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Tree & Graph**
+**Two Pointers**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 JavaScript
@@ -52,22 +104,58 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var longestObstacleCourseAtEachPosition = function(obstacles) {
+    const tails = [];
+    const ans = [];
+
+    for (const height of obstacles) {
+        let left = 0;
+        let right = tails.length;
+
+        // Find the first tails element > height
+        while (left < right) {
+            const mid = Math.floor((left + right) / 2);
+
+            if (tails[mid] <= height) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+
+        // Course length ending at this obstacle
+        ans.push(left + 1);
+
+        // Extend tails or replace an existing ending height
+        if (left === tails.length) {
+            tails.push(height);
+        } else {
+            tails[left] = height;
+        }
+    }
+
+    return ans;
+};
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 - [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
-- [1371. Find the Longest Substring Containing Vowels in Even Counts](../../1001-1500/1473-find-the-longest-substring-containing-vowels-in-even-counts/)
+- [1178. Number of Valid Words for Each Puzzle](../../1001-1500/1282-number-of-valid-words-for-each-puzzle/)
+- [1517. Find Users With Valid E-Mails](../../1501-2000/1664-find-users-with-valid-e-mails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/)

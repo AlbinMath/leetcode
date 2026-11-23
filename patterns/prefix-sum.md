@@ -27,6 +27,7 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 1015 | [Smallest Integer Divisible by K](../leetcode/1001-1500/1064-smallest-integer-divisible-by-k/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1064-smallest-integer-divisible-by-k/Explanation.md) |
+| 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](../leetcode/1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/Explanation.md) |
 | 1291 | [Sequential Digits](../leetcode/1001-1500/1212-sequential-digits/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1212-sequential-digits/Explanation.md) |
 | 1621 | [Number of Sets of K Non-Overlapping Line Segments](../leetcode/1501-2000/1725-number-of-sets-of-k-non-overlapping-line-segments/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1725-number-of-sets-of-k-non-overlapping-line-segments/Explanation.md) |
 | 1871 | [Jump Game VII](../leetcode/2001-2500/2001-jump-game-vii/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2001-jump-game-vii/Explanation.md) |
@@ -34,6 +35,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 | 2433 | [Find The Original Array of Prefix Xor](../leetcode/2501-3000/2519-find-the-original-array-of-prefix-xor/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2519-find-the-original-array-of-prefix-xor/Explanation.md) |
 | 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2501-3000/2766-find-the-prefix-common-array-of-two-arrays/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2766-find-the-prefix-common-array-of-two-arrays/Explanation.md) |
 | 3043 | [Find the Length of the Longest Common Prefix](../leetcode/3001-3500/3329-find-the-length-of-the-longest-common-prefix/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3329-find-the-length-of-the-longest-common-prefix/Explanation.md) |
+| 3652 | [Best Time to Buy and Sell Stock using Strategy](../leetcode/3501-4000/3980-best-time-to-buy-and-sell-stock-using-strategy/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3980-best-time-to-buy-and-sell-stock-using-strategy/Explanation.md) |
+| 3984 | [Divisible Game](../leetcode/4001-4500/4188-divisible-game/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4188-divisible-game/Explanation.md) |
 
 ### Hard
 
@@ -44,7 +47,13 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 | 1563 | [Stone Game V](../leetcode/1501-2000/1685-stone-game-v/) | Java | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1685-stone-game-v/Explanation.md) |
 | 1872 | [Stone Game VIII](../leetcode/2001-2500/2002-stone-game-viii/) | Java | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2002-stone-game-viii/Explanation.md) |
 | 2003 | [Smallest Missing Genetic Value in Each Subtree](../leetcode/2001-2500/2131-smallest-missing-genetic-value-in-each-subtree/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2131-smallest-missing-genetic-value-in-each-subtree/Explanation.md) |
+| 2179 | [Count Good Triplets in an Array](../leetcode/2001-2500/2280-count-good-triplets-in-an-array/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2280-count-good-triplets-in-an-array/Explanation.md) |
 | 2416 | [Sum of Prefix Scores of Strings](../leetcode/2001-2500/2494-sum-of-prefix-scores-of-strings/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2494-sum-of-prefix-scores-of-strings/Explanation.md) |
+| 2528 | [Maximize the Minimum Powered City](../leetcode/2501-3000/2618-maximize-the-minimum-powered-city/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2618-maximize-the-minimum-powered-city/Explanation.md) |
 | 3045 | [Count Prefix and Suffix Pairs II](../leetcode/3001-3500/3305-count-prefix-and-suffix-pairs-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3305-count-prefix-and-suffix-pairs-ii/Explanation.md) |
+| 3312 | [Sorted GCD Pair Queries](../leetcode/3501-4000/3583-sorted-gcd-pair-queries/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3583-sorted-gcd-pair-queries/Explanation.md) |
 | 3485 | [Longest Common Prefix of K Strings After Removal](../leetcode/3501-4000/3784-longest-common-prefix-of-k-strings-after-removal/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3784-longest-common-prefix-of-k-strings-after-removal/Explanation.md) |
+| 3699 | [Number of ZigZag Arrays I](../leetcode/3501-4000/3962-number-of-zigzag-arrays-i/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3962-number-of-zigzag-arrays-i/Explanation.md) |
+| 3739 | [Count Subarrays With Majority Element II](../leetcode/4001-4500/4075-count-subarrays-with-majority-element-ii/) | PHP | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4075-count-subarrays-with-majority-element-ii/Explanation.md) |
+| 3762 | [Minimum Operations to Equalize Subarrays](../leetcode/4001-4500/4022-minimum-operations-to-equalize-subarrays/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4022-minimum-operations-to-equalize-subarrays/Explanation.md) |
 

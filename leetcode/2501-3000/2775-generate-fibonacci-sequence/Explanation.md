@@ -16,8 +16,31 @@ Solve LeetCode Generate Fibonacci Sequence using TypeScript and Array / General.
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Write a generator function that returns a generator object which yields the  fibonacci sequence .
+## Problem Statement
+Write a generator function that returns a generator object which yields the **fibonacci sequence**.
+
+The **fibonacci sequence** is defined by the relation `X_n = X_n-1 + X_n-2`.
+
+The first few numbers of the series are `0, 1, 1, 2, 3, 5, 8, 13`.
+
+## Constraints
+- `0 <= callCount <= 50`
+
+## Examples
+### Example 1
+- **Input:** `callCount = 5`
+- **Output:** `[0,1,1,2,3]`
+- **Explanation:** const gen = fibGenerator();
+gen.next().value; // 0
+gen.next().value; // 1
+gen.next().value; // 1
+gen.next().value; // 2
+gen.next().value; // 3
+
+### Example 2
+- **Input:** `callCount = 0`
+- **Output:** `[]`
+- **Explanation:** gen.next() is never called so nothing is outputted
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +53,22 @@ Uses a generator function (`function*`) that maintains two variables `a` and `b`
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Generate Fibonacci Sequence**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `callCount = 5`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[0,1,1,2,3]`.
+4. **Verification:** const gen = fibGenerator();
+gen.next().value; // 0
+gen.next().value; // 1
+gen.next().value; // 1
+gen.next().value; // 2
+gen.next().value; // 3
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +81,20 @@ TypeScript
 
 ## Source Code
 - [solution.ts](./solution.ts)
+
+
+```typescript
+function* fibGenerator(): Generator<number> {
+    let a = 0;
+    let b = 1;
+
+    while (true) {
+        yield a;
+
+        [a, b] = [b, a + b];
+    }
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

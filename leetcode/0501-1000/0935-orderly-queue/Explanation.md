@@ -16,26 +16,51 @@ Solve LeetCode Orderly Queue using Python and Stack & Queue. This solution finds
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a string  s  and an integer  k . You can choose one of the first  k  letters of  s  and append it at the end of the string.
+## Problem Statement
+You are given a string `s` and an integer `k`. You can choose one of the first `k` letters of `s` and append it at the end of the string.
+
+Return *the lexicographically smallest string you could have after applying the mentioned step any number of moves*.
+
+## Constraints
+- `1 <= k <= s.length <= 1000`
+- `s` consist of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "cba", k = 1`
+- **Output:** `"acb"`
+- **Explanation:** In the first move, we move the 1^st character 'c' to the end, obtaining the string "bac".
+In the second move, we move the 1^st character 'b' to the end, obtaining the final result "acb".
+
+### Example 2
+- **Input:** `s = "baaca", k = 3`
+- **Output:** `"aaabc"`
+- **Explanation:** In the first move, we move the 1^st character 'b' to the end, obtaining the string "aacab".
+In the second move, we move the 3^rd character 'c' to the end, obtaining the final result "aaabc".
 
 ## Key Insight
 Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Orderly Queue**, we observe the problem requirements and utilize the **Stack & Queue** technique. We iterate through the inputs using **Stack Push / Pop Parsing**, leveraging a **Stack** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Stack Push / Pop Parsing**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Stack**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Orderly Queue**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "cba", k = 1`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"acb"`.
+4. **Verification:** In the first move, we move the 1^st character 'c' to the end, obtaining the string "bac".
+In the second move, we move the 1^st character 'b' to the end, obtaining the final result "acb".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Stack & Queue**
@@ -49,6 +74,15 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def orderlyQueue(self, s: str, k: int) -> str:
+        if k == 1:
+            return min(s[i:] + s[:i] for i in range(len(s)))
+        return ''.join(sorted(s))
+```
 
 ## Why This Works
 By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

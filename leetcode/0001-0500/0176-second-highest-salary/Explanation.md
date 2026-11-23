@@ -16,26 +16,82 @@ Solve LeetCode Second Highest Salary using SQL and Database / SQL. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Employee`
+
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| id | int |
+| salary | int |
++-------------+------+
 id is the primary key (column with unique values) for this table.
+Each row of this table contains information about the salary of an employee.
+
+Write a solution to find the second highest **distinct** salary from the `Employee` table. If there is no second highest salary, return `null (return None in Pandas)`.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Employee table:
++----+--------+
+| id | salary |
++----+--------+
+| 1 | 100 |
+| 2 | 200 |
+| 3 | 300 |
++----+--------+`
+- **Output:** `+---------------------+
+| SecondHighestSalary |
++---------------------+
+| 200 |
++---------------------+`
+
+### Example 2
+- **Input:** `Employee table:
++----+--------+
+| id | salary |
++----+--------+
+| 1 | 100 |
++----+--------+`
+- **Output:** `+---------------------+
+| SecondHighestSalary |
++---------------------+
+| null |
++---------------------+`
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Second Highest Salary** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We order the final result set using `ORDER BY`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Sort the projected result.
+2. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Second Highest Salary**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Employee table:
++----+--------+
+| id | salary |
++----+--------+
+| 1 | 100 |
+| 2 | 200 |
+| 3 | 300 |
++----+--------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+---------------------+
+| SecondHighestSalary |
++---------------------+
+| 200 |
++---------------------+`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +106,16 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT (
+    SELECT DISTINCT salary
+    FROM Employee
+    ORDER BY salary DESC
+    LIMIT 1 OFFSET 1
+) AS SecondHighestSalary;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -66,7 +132,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [177. Nth Highest Salary](../../0001-0500/0177-nth-highest-salary/)
 - [184. Department Highest Salary](../../0001-0500/0184-department-highest-salary/)
-- [671. Second Minimum Node In a Binary Tree](../../0501-1000/0671-second-minimum-node-in-a-binary-tree/)
+- [1732. Find the Highest Altitude](../../1501-2000/1833-find-the-highest-altitude/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/second-highest-salary/)

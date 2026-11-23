@@ -16,26 +16,47 @@ Solve LeetCode Find Valid Emails using SQL and Database / SQL. This solution fin
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Users`
+
 +-----------------+---------+
+| Column Name | Type |
++-----------------+---------+
+| user_id | int |
+| email | varchar |
++-----------------+---------+
+(user_id) is the unique key for this table.
+Each row contains a user's unique ID and email address.
+
+Write a solution to find all the **valid email addresses**. A valid email address meets the following criteria:
+
+It contains exactly one `@` symbol. 
+ It ends with `.com`. 
+ The part before the `@` symbol contains only **alphanumeric** characters and **underscores**. 
+ The part after the `@` symbol and before `.com` contains a domain name **that contains only letters**.
+
+Return* the result table ordered by* `user_id` *in* **ascending ***order*.
+
+## Examples
+Consider the standard input for **Find Valid Emails**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
+We solve **Find Valid Emails** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints. We order the final result set using `ORDER BY`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Filter records according to problem criteria.
+2. Sort the projected result.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Find Valid Emails**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+Applying **SQL Query / Relational Join & Window Function** step by step to the input yields the expected result.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +71,16 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT
+    user_id,
+    email
+FROM Users
+WHERE email REGEXP '^[A-Za-z0-9_]+@[A-Za-z]+[.]com$'
+ORDER BY user_id ASC;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -66,7 +97,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1517. Find Users With Valid E-Mails](../../1501-2000/1664-find-users-with-valid-e-mails/)
 - [1964. Find the Longest Valid Obstacle Course at Each Position](../../2001-2500/2096-find-the-longest-valid-obstacle-course-at-each-position/)
-- [3302. Find the Lexicographically Smallest Valid Sequence](../../3501-4000/3584-find-the-lexicographically-smallest-valid-sequence/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-emails/)

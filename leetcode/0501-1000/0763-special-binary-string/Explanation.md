@@ -16,26 +16,58 @@ Solve LeetCode Special Binary String using Python and Tree & Graph. This solutio
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Special binary strings  are binary strings with the following two properties:
+## Problem Statement
+**Special binary strings** are binary strings with the following two properties:
+
+The number of `0`'s is equal to the number of `1`'s. 
+ Every prefix of the binary string has at least as many `1`'s as `0`'s.
+
+You are given a **special binary** string `s`.
+
+A move consists of choosing two consecutive, non-empty, special substrings of `s`, and swapping them. Two strings are consecutive if the last character of the first string is exactly one index before the first character of the second string.
+
+Return *the lexicographically largest resulting string possible after applying the mentioned operations on the string*.
+
+## Constraints
+- `1 <= s.length <= 50`
+- `s[i]` is either `'0'` or `'1'`.
+- `s` is a special binary string.
+
+## Examples
+### Example 1
+- **Input:** `s = "11011000"`
+- **Output:** `"11100100"`
+- **Explanation:** The strings "10" [occuring at s[1]] and "1100" [at s[3]] are swapped.
+This is the lexicographically largest string possible after some number of swaps.
+
+### Example 2
+- **Input:** `s = "10"`
+- **Output:** `"10"`
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Special Binary String**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Special Binary String**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "11011000"`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"11100100"`.
+4. **Verification:** The strings "10" [occuring at s[1]] and "1100" [at s[3]] are swapped.
+This is the lexicographically largest string possible after some number of swaps.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -51,6 +83,23 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def makeLargestSpecial(self, s: str) -> str:
+        parts = []
+        balance = 0
+        start = 0
+        for i, ch in enumerate(s):
+            balance += 1 if ch == '1' else -1
+            if balance == 0:
+                inner = self.makeLargestSpecial(s[start + 1:i])
+                parts.append('1' + inner + '0')
+                start = i + 1
+        parts.sort(reverse=True)
+        return ''.join(parts)
+```
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

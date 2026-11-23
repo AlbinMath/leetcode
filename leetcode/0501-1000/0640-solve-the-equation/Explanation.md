@@ -16,26 +16,51 @@ Solve LeetCode Solve the Equation using Python and Array / General. This solutio
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Solve a given equation and return the value of  &#39;x&#39;  in the form of a string  "x=#value" . The equation contains only  &#39;+&#39; ,  &#39;-&#39;  operation, the variable  &#39;x&#39;  and its coefficient. You should return  "No solution"  if there is no solution for the equation, or  "Infinite solutions"  if there are infinite solutions for the equation.
+## Problem Statement
+Solve a given equation and return the value of `'x'` in the form of a string `"x=#value"`. The equation contains only `'+'`, `'-'` operation, the variable `'x'` and its coefficient. You should return `"No solution"` if there is no solution for the equation, or `"Infinite solutions"` if there are infinite solutions for the equation.
+
+If there is exactly one solution for the equation, we ensure that the value of `'x'` is an integer.
+
+## Constraints
+- `3 <= equation.length <= 1000`
+- `equation` has exactly one `'='`.
+- `equation` consists of integers with an absolute value in the range `[0, 100]` without any leading zeros, and the variable `'x'`.
+- The input is generated that if there is a single solution, it will be an integer.
+
+## Examples
+### Example 1
+- **Input:** `equation = "x+5-3+x=6+x-2"`
+- **Output:** `"x=2"`
+
+### Example 2
+- **Input:** `equation = "x=x"`
+- **Output:** `"Infinite solutions"`
+
+### Example 3
+- **Input:** `equation = "2x=x"`
+- **Output:** `"x=0"`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Solve the Equation**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Solve the Equation**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `equation = "x+5-3+x=6+x-2"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"x=2"`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +73,39 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import re
+
+class Solution:
+    def solveEquation(self, equation: str) -> str:
+        def parse(side: str):
+            coef = const = 0
+            for term in re.findall(r'[+-]?[^+-]+', side):
+                if term[-1] == 'x':
+                    num = term[:-1]
+                    if num in ('', '+'):
+                        coef += 1
+                    elif num == '-':
+                        coef -= 1
+                    else:
+                        coef += int(num)
+                else:
+                    const += int(term)
+            return coef, const
+
+        left, right = equation.split('=')
+        lc, lk = parse(left)
+        rc, rk = parse(right)
+
+        a = lc - rc   # net x coefficient
+        b = rk - lk   # net constant, moved to the right side
+
+        if a == 0:
+            return "Infinite solutions" if b == 0 else "No solution"
+        return f"x={b // a}"
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

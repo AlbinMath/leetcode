@@ -1,7 +1,7 @@
 # LeetCode 1163: Last Substring in Lexicographical Order
 
 **LeetCode Problem #1163 — Last Substring in Lexicographical Order**
-Solve LeetCode Last Substring in Lexicographical Order using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Last Substring in Lexicographical Order using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,58 @@ Solve LeetCode Last Substring in Lexicographical Order using Python and Tree & G
 | LeetCode | #1163 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a string  s , return  the last substring of   s   in lexicographical order .
+## Problem Statement
+Given a string `s`, return *the last substring of* `s` *in lexicographical order*.
+
+## Constraints
+- `1 <= s.length <= 4 * 10^5`
+- `s` contains only lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "abab"`
+- **Output:** `"bab"`
+- **Explanation:** The substrings are ["a", "ab", "aba", "abab", "b", "ba", "bab"]. The lexicographically maximum substring is "bab".
+
+### Example 2
+- **Input:** `s = "leetcode"`
+- **Output:** `"tcode"`
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Last Substring in Lexicographical Order**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Last Substring in Lexicographical Order**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "abab"`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"bab"`.
+4. **Verification:** The substrings are ["a", "ab", "aba", "abab", "b", "ba", "bab"]. The lexicographically maximum substring is "bab".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -52,8 +69,29 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def lastSubstring(self, s: str) -> str:
+        n = len(s)
+        i, j, k = 0, 1, 0
+
+        while j + k < n:
+            if s[i + k] == s[j + k]:
+                k += 1
+            elif s[i + k] < s[j + k]:
+                i = max(i + k + 1, j)
+                j = i + 1
+                k = 0
+            else:
+                j += k + 1
+                k = 0
+
+        return s[i:]
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -65,9 +103,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1839. Longest Substring Of All Vowels in Order](../../1501-2000/1967-longest-substring-of-all-vowels-in-order/)
 - [440. K-th Smallest in Lexicographical Order](../../0001-0500/0440-k-th-smallest-in-lexicographical-order/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [1839. Longest Substring Of All Vowels in Order](../../1501-2000/1967-longest-substring-of-all-vowels-in-order/)
+- [386. Lexicographical Numbers](../../0001-0500/0386-lexicographical-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-substring-in-lexicographical-order/)

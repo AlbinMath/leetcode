@@ -16,26 +16,43 @@ Solve LeetCode Three Consecutive Odds using Python and Array / General. This sol
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer array  arr , return  true  if there are three consecutive odd numbers in the array. Otherwise, return  false .
+## Problem Statement
+Given an integer array `arr`, return `true` if there are three consecutive odd numbers in the array. Otherwise, return `false`.
+
+## Constraints
+- `1 <= arr.length <= 1000`
+- `1 <= arr[i] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `arr = [2,6,4,1]`
+- **Output:** `false`
+
+### Example 2
+- **Input:** `arr = [1,2,34,3,4,5,7,23,12]`
+- **Output:** `true`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Three Consecutive Odds**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Three Consecutive Odds**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [2,6,4,1]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `false`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +65,24 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def threeConsecutiveOdds(self, arr: list[int]) -> bool:
+        count = 0
+
+        for num in arr:
+            if num % 2 == 1:
+                count += 1
+
+                if count == 3:
+                    return True
+            else:
+                count = 0
+
+        return False
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +98,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2278-find-three-consecutive-integers-that-sum-to-a-given-number/)
-- [128. Longest Consecutive Sequence](../../0001-0500/0128-longest-consecutive-sequence/)
-- [180. Consecutive Numbers](../../0001-0500/0180-consecutive-numbers/)
+- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
+- [326. Power of Three](../../0001-0500/0326-power-of-three/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/three-consecutive-odds/)

@@ -16,26 +16,56 @@ Solve LeetCode K Closest Points to Origin using Python and Bit Manipulation. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array of  points  where  points[i] = [x i , y i ]  represents a point on the  X-Y  plane and an integer  k , return the  k  closest points to the origin  (0, 0) .
+## Problem Statement
+Given an array of `points` where `points[i] = [x_i, y_i]` represents a point on the **X-Y** plane and an integer `k`, return the `k` closest points to the origin `(0, 0)`.
+
+The distance between two points on the **X-Y** plane is the Euclidean distance (i.e., `&radic;(x_1 - x_2)^2 + (y_1 - y_2)^2`).
+
+You may return the answer in **any order**. The answer is **guaranteed** to be **unique** (except for the order that it is in).
+
+## Constraints
+- `1 <= k <= points.length <= 10^4`
+- `-10^4 <= x_i, y_i <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `points = [[1,3],[-2,2]], k = 1`
+- **Output:** `[[-2,2]]`
+- **Explanation:** The distance between (1, 3) and the origin is sqrt(10).
+The distance between (-2, 2) and the origin is sqrt(8).
+Since sqrt(8) < sqrt(10), (-2, 2) is closer to the origin.
+We only want the closest k = 1 points from the origin, so the answer is just [[-2,2]].
+
+### Example 2
+- **Input:** `points = [[3,3],[5,-1],[-2,4]], k = 2`
+- **Output:** `[[3,3],[-2,4]]`
+- **Explanation:** The answer [[-2,4],[3,3]] would also be accepted.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **K Closest Points to Origin**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **K Closest Points to Origin**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `points = [[1,3],[-2,2]], k = 1`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[-2,2]]`.
+4. **Verification:** The distance between (1, 3) and the origin is sqrt(10).
+The distance between (-2, 2) and the origin is sqrt(8).
+Since sqrt(8) < sqrt(10), (-2, 2) is closer to the origin.
+We only want the closest k = 1 points from the origin, so the answer is just [[-2,2]].
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +79,16 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import heapq
+from typing import List
+
+class Solution:
+    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
+        return heapq.nsmallest(k, points, key=lambda p: p[0] * p[0] + p[1] * p[1])
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,8 +16,26 @@ Solve LeetCode Smallest Missing Multiple of K using C# and Prefix Sum. This solu
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given an integer array  nums  and an integer  k , return the  smallest positive multiple  of  k  that is  missing  from  nums .
+## Problem Statement
+Given an integer array `nums` and an integer `k`, return the **smallest positive multiple** of `k` that is **missing** from `nums`.
+
+A **multiple** of `k` is any positive integer divisible by `k`.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `1 <= nums[i] <= 100`
+- `1 <= k <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums = [8,2,3,4,6], k = 2`
+- **Output:** `10`
+- **Explanation:** The multiples of `k = 2` are 2, 4, 6, 8, 10, 12... and the smallest multiple missing from `nums` is 10.
+
+### Example 2
+- **Input:** `nums = [1,4,7,10,15], k = 5`
+- **Output:** `5`
+- **Explanation:** The multiples of `k = 5` are 5, 10, 15, 20... and the smallest multiple missing from `nums` is 5.
 
 ## Key Insight
 Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -38,12 +56,17 @@ This approach is highly efficient. Converting the array to a HashSet takes $O(N)
 2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Smallest Missing Multiple of K**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [8,2,3,4,6], k = 2`.
+2. **Processing Steps:** We apply **Prefix Sum Precomputation** using our **Prefix Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `10`.
+4. **Verification:** The multiples of `k = 2` are 2, 4, 6, 8, 10, 12... and the smallest multiple missing from `nums` is 10.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Prefix Array.
 
 ## Pattern
 **Prefix Sum**
@@ -58,6 +81,23 @@ C#
 ## Source Code
 - [solution.cs](./solution.cs)
 
+
+```csharp
+public class Solution {
+    public int MissingMultiple(int[] nums, int k) {
+        HashSet<int> set = new HashSet<int>(nums);
+
+        int multiple = k;
+
+        while (set.Contains(multiple)) {
+            multiple += k;
+        }
+
+        return multiple;
+    }
+}
+```
+
 ## Why This Works
 By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -71,9 +111,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2413. Smallest Even Multiple](../../2001-2500/2491-smallest-even-multiple/)
 - [2003. Smallest Missing Genetic Value in Each Subtree](../../2001-2500/2131-smallest-missing-genetic-value-in-each-subtree/)
 - [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../../3001-3500/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-missing-multiple-of-k/)

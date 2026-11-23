@@ -16,8 +16,27 @@ Solve LeetCode Rotate String using C++, JavaScript and Math & Logic. This soluti
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given two strings  s  and  goal , return  true   if and only if   s   can become   goal   after some number of  shifts  on   s .
+## Problem Statement
+Given two strings `s` and `goal`, return `true` *if and only if* `s` *can become* `goal` *after some number of **shifts** on* `s`.
+
+A **shift** on `s` consists of moving the leftmost character of `s` to the rightmost position.
+
+For example, if `s = "abcde"`, then it will be `"bcdea"` after one shift.
+
+## Constraints
+- `1 <= s.length, goal.length <= 100`
+- `s` and `goal` consist of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "abcde", goal = "cdeab"`
+- **Output:** `true`
+- **Explanation:** Rotating `s` to the left by 2 positions moves `"ab"` to the end, resulting in `"cdeab"`, which is equal to `goal`.
+
+### Example 2
+- **Input:** `s = "abcde", goal = "abced"`
+- **Output:** `false`
+- **Explanation:** No sequence of rotations of `s` can produce `"abced"`. The characters appear in a different relative order, so `goal` is not a rotation of `s`.
 
 ## Key Insight
 Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
@@ -36,12 +55,17 @@ Time complexity is $O(N)$ with an efficient string search and space complexity i
 2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Rotate String**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "abcde", goal = "cdeab"`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Rotating `s` to the left by 2 positions moves `"ab"` to the end, resulting in `"cdeab"`, which is equal to `goal`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
 **Math & Logic**
@@ -57,6 +81,31 @@ C++, JavaScript
 - [solution.cpp](./solution.cpp)
 - [solution.js](./solution.js)
 
+
+### C++
+```cpp
+class Solution {
+public:
+    bool rotateString(string s, string goal) {
+        if (s.length() != goal.length())
+            return false;
+
+        return (s + s).find(goal) != string::npos;
+    }
+};
+```
+
+### JavaScript
+```javascript
+var rotateString = function(s, goal) {
+    if (s.length !== goal.length) {
+        return false;
+    }
+
+    return (s + s).includes(goal);
+};
+```
+
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -71,8 +120,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [48. Rotate Image](../../0001-0500/0048-rotate-image/)
-- [61. Rotate List](../../0001-0500/0061-rotate-list/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-string/)

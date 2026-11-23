@@ -8,8 +8,8 @@ A collection of LeetCode problems implemented in **TypeScript** with detailed co
 |---|---|---|---|---|---|---|
 | 84 | [Largest Rectangle in Histogram](../leetcode/0001-0500/0084-largest-rectangle-in-histogram/) | Hard | Monotonic Stack | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0084-largest-rectangle-in-histogram/Explanation.md) |
 | 150 | [Evaluate Reverse Polish Notation](../leetcode/0001-0500/0150-evaluate-reverse-polish-notation/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0150-evaluate-reverse-polish-notation/Explanation.md) |
-| 448 | [Find All Numbers Disappeared in an Array](../leetcode/0001-0500/0448-find-all-numbers-disappeared-in-an-array/) | Easy | Array / General | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0448-find-all-numbers-disappeared-in-an-array/Explanation.md) |
-| 485 | [Max Consecutive Ones](../leetcode/0001-0500/0485-max-consecutive-ones/) | Easy | Array / General | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0485-max-consecutive-ones/Explanation.md) |
+| 448 | [Find All Numbers Disappeared in an Array](../leetcode/0001-0500/0448-find-all-numbers-disappeared-in-an-array/) | Easy | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0448-find-all-numbers-disappeared-in-an-array/Explanation.md) |
+| 485 | [Max Consecutive Ones](../leetcode/0001-0500/0485-max-consecutive-ones/) | Easy | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0485-max-consecutive-ones/Explanation.md) |
 | 636 | [Exclusive Time of Functions](../leetcode/0501-1000/0636-exclusive-time-of-functions/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0636-exclusive-time-of-functions/Explanation.md) |
 | 645 | [Set Mismatch](../leetcode/0501-1000/0645-set-mismatch/) | Easy | Bit Manipulation | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0645-set-mismatch/Explanation.md) |
 | 739 | [Daily Temperatures](../leetcode/0501-1000/0739-daily-temperatures/) | Medium | Monotonic Stack | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0739-daily-temperatures/Explanation.md) |
@@ -50,4 +50,4 @@ A collection of LeetCode problems implemented in **TypeScript** with detailed co
 | 2725 | [Interval Cancellation](../leetcode/2501-3000/2862-interval-cancellation/) | Easy | Heap | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2862-interval-cancellation/Explanation.md) |
 | 2726 | [Calculator with Method Chaining](../leetcode/2501-3000/2863-calculator-with-method-chaining/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2863-calculator-with-method-chaining/Explanation.md) |
 | 2727 | [Is Object Empty](../leetcode/2501-3000/2864-is-object-empty/) | Easy | Array / General | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2864-is-object-empty/Explanation.md) |
-| 3348 | [Smallest Divisible Digit Product II](../leetcode/3501-4000/3635-smallest-divisible-digit-product-ii/) | Hard | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3635-smallest-divisible-digit-product-ii/Explanation.md) |
+| 3348 | [Smallest Divisible Digit Product II](../leetcode/3501-4000/3635-smallest-divisible-digit-product-ii/) | Hard | Two Pointers | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3635-smallest-divisible-digit-product-ii/Explanation.md) |

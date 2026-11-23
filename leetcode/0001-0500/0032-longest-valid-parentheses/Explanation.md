@@ -16,26 +16,51 @@ Solve LeetCode Longest Valid Parentheses using JavaScript, Python and Stack & Qu
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a string containing just the characters  &#39;(&#39;  and  &#39;)&#39; , return  the length of the longest valid (well-formed) parentheses    substring  .
+## Problem Statement
+Given a string containing just the characters `'('` and `')'`, return *the length of the longest valid (well-formed) parentheses * *substring* .
+
+## Constraints
+- `0 <= s.length <= 3 * 10^4`
+- `s[i]` is `'('`, or `')'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "(()"`
+- **Output:** `2`
+- **Explanation:** The longest valid parentheses substring is "()".
+
+### Example 2
+- **Input:** `s = ")()())"`
+- **Output:** `4`
+- **Explanation:** The longest valid parentheses substring is "()()".
+
+### Example 3
+- **Input:** `s = ""`
+- **Output:** `0`
 
 ## Key Insight
 Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Stack Push / Pop Parsing**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations and process each element in optimal time.
+To solve **Longest Valid Parentheses**, we observe the problem requirements and utilize the **Stack & Queue** technique. We decompose the problem into overlapping subproblems using a **Stack**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Stack Push / Pop Parsing**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Longest Valid Parentheses**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "(()"`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The longest valid parentheses substring is "()".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Stack & Queue**
@@ -51,6 +76,70 @@ JavaScript, Python
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
+
+### JavaScript
+```javascript
+var longestValidParentheses = function(s) {
+    const n = s.length;
+    const dp = Array(n).fill(0);
+    let maxLength = 0;
+
+    for (let i = 1; i < n; i++) {
+        if (s[i] === ')') {
+            if (s[i - 1] === '(') {
+                // Pattern: ...()
+                dp[i] = (i >= 2 ? dp[i - 2] : 0) + 2;
+            } else if (i - dp[i - 1] - 1 >= 0 &&
+                       s[i - dp[i - 1] - 1] === '(') {
+                // Pattern: ...))
+                const previousLength = dp[i - 1];
+                const matchingOpen = i - previousLength - 1;
+
+                dp[i] = previousLength + 2 +
+                    (matchingOpen > 0 ? dp[matchingOpen - 1] : 0);
+            }
+
+            maxLength = Math.max(maxLength, dp[i]);
+        }
+    }
+
+    return maxLength;
+};
+```
+
+### Python
+```python
+class Solution:
+    def longestValidParentheses(self, s):
+        n = len(s)
+        dp = [0] * n
+        answer = 0
+
+        for i in range(1, n):
+            if s[i] == ')':
+
+                # Case: "()"
+                if s[i - 1] == '(':
+                    dp[i] = 2
+
+                    if i >= 2:
+                        dp[i] += dp[i - 2]
+
+                # Case: "))"
+                elif s[i - 1] == ')':
+                    j = i - dp[i - 1] - 1
+
+                    if j >= 0 and s[j] == '(':
+                        dp[i] = dp[i - 1] + 2
+
+                        if j >= 1:
+                            dp[i] += dp[j - 1]
+
+                answer = max(answer, dp[i])
+
+        return answer
+```
+
 ## Why This Works
 By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +154,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1964. Find the Longest Valid Obstacle Course at Each Position](../../2001-2500/2096-find-the-longest-valid-obstacle-course-at-each-position/)
-- [2781. Length of the Longest Valid Substring](../../2501-3000/2884-length-of-the-longest-valid-substring/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0957-minimum-add-to-make-parentheses-valid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-valid-parentheses/)

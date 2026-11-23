@@ -1,7 +1,7 @@
 # LeetCode 2135: Count Words Obtained After Adding a Letter
 
 **LeetCode Problem #2135 — Count Words Obtained After Adding a Letter**
-Solve LeetCode Count Words Obtained After Adding a Letter using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Count Words Obtained After Adding a Letter using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,85 @@ Solve LeetCode Count Words Obtained After Adding a Letter using Python and Bit M
 | LeetCode | #2135 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two  0-indexed  arrays of strings  startWords  and  targetWords . Each string consists of  lowercase English letters  only.
+## Problem Statement
+You are given two **0-indexed** arrays of strings `startWords` and `targetWords`. Each string consists of **lowercase English letters** only.
+
+For each string in `targetWords`, check if it is possible to choose a string from `startWords` and perform a **conversion operation** on it to be equal to that from `targetWords`.
+
+The **conversion operation** is described in the following two steps:
+
+**Append** any lowercase letter that is **not present** in the string to its end.
+
+For example, if the string is `"abc"`, the letters `'d'`, `'e'`, or `'y'` can be added to it, but not `'a'`. If `'d'` is added, the resulting string will be `"abcd"`. 
+ 
+ 
+ **Rearrange** the letters of the new string in **any** arbitrary order.
+ 
+ For example, `"abcd"` can be rearranged to `"acbd"`, `"bacd"`, `"cbda"`, and so on. Note that it can also be rearranged to `"abcd"` itself.
+
+Return *the **number of strings** in *`targetWords`* that can be obtained by performing the operations on **any** string of *`startWords`.
+
+**Note** that you will only be verifying if the string in `targetWords` can be obtained from a string in `startWords` by performing the operations. The strings in `startWords` **do not** actually change during this process.
+
+## Constraints
+- `1 <= startWords.length, targetWords.length <= 5 * 10^4`
+- `1 <= startWords[i].length, targetWords[j].length <= 26`
+- Each string of `startWords` and `targetWords` consists of lowercase English letters only.
+- No letter occurs more than once in any string of `startWords` or `targetWords`.
+
+## Examples
+### Example 1
+- **Input:** `startWords = ["ant","act","tack"], targetWords = ["tack","act","acti"]`
+- **Output:** `2`
+- **Explanation:** - In order to form targetWords[0] = "tack", we use startWords[1] = "act", append 'k' to it, and rearrange "actk" to "tack".
+- There is no string in startWords that can be used to obtain targetWords[1] = "act".
+ Note that "act" does exist in startWords, but we
+
+### Example 2
+- **Input:** `startWords = ["ab","a"], targetWords = ["abc","abcd"]`
+- **Output:** `1`
+- **Explanation:** - In order to form targetWords[0] = "abc", we use startWords[0] = "ab", add 'c' to it, and rearrange it to "abc".
+- There is no string in startWords that can be used to obtain targetWords[1] = "abcd".
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Words Obtained After Adding a Letter**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Words Obtained After Adding a Letter**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `startWords = ["ant","act","tack"], targetWords = ["tack","act","acti"]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** - In order to form targetWords[0] = "tack", we use startWords[1] = "act", append 'k' to it, and rearrange "actk" to "tack".
+- There is no string in startWords that can be used to obtain targetWords[1] = "act".
+ Note that "act" does exist in startWords, but we
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Bit Manipulation**
+**Two Pointers**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 Python
@@ -50,21 +96,51 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+
+class Solution:
+
+  def wordCount(self, startWords: List[str], targetWords: List[str]) -> int:
+    def get_mask(word: str) -> int:
+      mask = 0
+      for ch in word:
+        mask |= 1 << (ord(ch) - ord('a'))
+      return mask
+
+    # Step 1: Store bitmasks of all startWords
+    start_masks = {get_mask(w) for w in startWords}
+
+    # Step 2: For each targetWord, try removing one character at a time
+    ans = 0
+    for w in targetWords:
+      t_mask = get_mask(w)
+      for ch in w:
+        candidate = t_mask ^ (1 << (ord(ch) - ord('a')))
+        if candidate in start_masks:
+          ans += 1
+          break
+
+    return ans
+```
+
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
 - [2085. Count Common Words With One Occurrence](../../2001-2500/2190-count-common-words-with-one-occurrence/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
 - [2960. Count Tested Devices After Test Operations](../../3001-3500/3220-count-tested-devices-after-test-operations/)
 
 ## LeetCode

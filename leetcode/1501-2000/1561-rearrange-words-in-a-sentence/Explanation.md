@@ -16,26 +16,64 @@ Solve LeetCode Rearrange Words in a Sentence using Python and Array / General. T
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a sentence  text  (A  sentence  is a string of space-separated words) in the following format:
+## Problem Statement
+Given a sentence `text` (A *sentence* is a string of space-separated words) in the following format:
+
+First letter is in upper case. 
+ Each word in `text` are separated by a single space.
+
+Your task is to rearrange the words in text such that all words are rearranged in an increasing order of their lengths. If two words have the same length, arrange them in their original order.
+
+Return the new text following the format shown above.
+
+## Constraints
+- `text` begins with a capital letter and then contains lowercase letters and single space between words.
+- `1 <= text.length <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `text = "Leetcode is cool"`
+- **Output:** `"Is cool leetcode"`
+- **Explanation:** There are 3 words, "Leetcode" of length 8, "is" of length 2 and "cool" of length 4.
+Output is ordered by length and the new first word starts with capital letter.
+
+### Example 2
+- **Input:** `text = "Keep calm and code on"`
+- **Output:** `"On and keep calm code"`
+- **Explanation:** Output is ordered as follows:
+"On" 2 letters.
+"and" 3 letters.
+"keep" 4 letters in case of tie order by position in original text.
+"calm" 4 letters.
+"code" 4 letters.
+
+### Example 3
+- **Input:** `text = "To be or not to be"`
+- **Output:** `"To be or to be not"`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Rearrange Words in a Sentence**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Rearrange Words in a Sentence**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `text = "Leetcode is cool"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"Is cool leetcode"`.
+4. **Verification:** There are 3 words, "Leetcode" of length 8, "is" of length 2 and "cool" of length 4.
+Output is ordered by length and the new first word starts with capital letter.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +86,16 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def arrangeWords(self, text: str) -> str:
+        words = text.lower().split()
+        words.sort(key=len)
+        res = ' '.join(words)
+        return res[0].upper() + res[1:]
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +110,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1592. Rearrange Spaces Between Words](../../1501-2000/1714-rearrange-spaces-between-words/)
 - [2047. Number of Valid Words in a Sentence](../../2001-2500/2173-number-of-valid-words-in-a-sentence/)
-- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [1592. Rearrange Spaces Between Words](../../1501-2000/1714-rearrange-spaces-between-words/)
+- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-words-in-a-sentence/)

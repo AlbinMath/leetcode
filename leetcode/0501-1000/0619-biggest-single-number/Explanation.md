@@ -16,26 +16,105 @@ Solve LeetCode Biggest Single Number using SQL and Database / SQL. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `MyNumbers`
+
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| num | int |
++-------------+------+
 This table may contain duplicates (In other words, there is no primary key for this table in SQL).
+Each row of this table contains an integer.
+
+A **single number** is a number that appeared only once in the `MyNumbers` table.
+
+Find the largest **single number**. If there is no **single number**, report `null`.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `MyNumbers table:
++-----+
+| num |
++-----+
+| 8 |
+| 8 |
+| 3 |
+| 3 |
+| 1 |
+| 4 |
+| 5 |
+| 6 |
++-----+`
+- **Output:** `+-----+
+| num |
++-----+
+| 6 |
++-----+`
+- **Explanation:** The single numbers are 1, 4, 5, and 6.
+Since 6 is the largest single number, we return it.
+
+### Example 2
+- **Input:** `MyNumbers table:
++-----+
+| num |
++-----+
+| 8 |
+| 8 |
+| 7 |
+| 7 |
+| 3 |
+| 3 |
+| 3 |
++-----+`
+- **Output:** `+------+
+| num |
++------+
+| null |
++------+`
+- **Explanation:** There are no single numbers in the input table so we return null.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Biggest Single Number** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We group records using `GROUP BY` and compute metrics with aggregate functions. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Group records and calculate aggregated summary metrics.
+2. Filter records according to problem criteria.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Biggest Single Number**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `MyNumbers table:
++-----+
+| num |
++-----+
+| 8 |
+| 8 |
+| 3 |
+| 3 |
+| 1 |
+| 4 |
+| 5 |
+| 6 |
++-----+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+-----+
+| num |
++-----+
+| 6 |
++-----+`.
+4. **Verification:** The single numbers are 1, 4, 5, and 6.
+Since 6 is the largest single number, we return it.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +129,18 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT MAX(num) AS num
+FROM MyNumbers
+WHERE num IN (
+    SELECT num
+    FROM MyNumbers
+    GROUP BY num
+    HAVING COUNT(*) = 1
+);
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

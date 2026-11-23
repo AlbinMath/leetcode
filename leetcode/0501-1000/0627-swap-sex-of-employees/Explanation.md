@@ -16,26 +16,87 @@ Solve LeetCode Swap Sex of Employees using SQL and Database / SQL. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Salary`
+
 +-------------+----------+
+| Column Name | Type |
++-------------+----------+
+| id | int |
+| name | varchar |
+| sex | ENUM |
+| salary | int |
++-------------+----------+
+id is the primary key (column with unique values) for this table.
+The sex column is ENUM (category) value of type ('m', 'f').
+The table contains information about an employee.
+
+Write a solution to swap all `'f'` and `'m'` values (i.e., change all `'f'` values to `'m'` and vice versa) with a **single update statement** and no intermediate temporary tables.
+
+Note that you must write a single update statement, **do not** write any select statement for this problem.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Salary table:
++----+------+-----+--------+
+| id | name | sex | salary |
++----+------+-----+--------+
+| 1 | A | m | 2500 |
+| 2 | B | f | 1500 |
+| 3 | C | m | 5500 |
+| 4 | D | f | 500 |
++----+------+-----+--------+`
+- **Output:** `+----+------+-----+--------+
+| id | name | sex | salary |
++----+------+-----+--------+
+| 1 | A | f | 2500 |
+| 2 | B | m | 1500 |
+| 3 | C | f | 5500 |
+| 4 | D | m | 500 |
++----+------+-----+--------+`
+- **Explanation:** (1, A) and (3, C) were changed from 'm' to 'f'.
+(2, B) and (4, D) were changed from 'f' to 'm'.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Swap Sex of Employees** by formulating an SQL query that applies relational algebra and SQL aggregation clauses.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Execute target query with relational operators.
+2. Format and return final projection.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Swap Sex of Employees**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Salary table:
++----+------+-----+--------+
+| id | name | sex | salary |
++----+------+-----+--------+
+| 1 | A | m | 2500 |
+| 2 | B | f | 1500 |
+| 3 | C | m | 5500 |
+| 4 | D | f | 500 |
++----+------+-----+--------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+----+------+-----+--------+
+| id | name | sex | salary |
++----+------+-----+--------+
+| 1 | A | f | 2500 |
+| 2 | B | m | 1500 |
+| 3 | C | f | 5500 |
+| 4 | D | m | 500 |
++----+------+-----+--------+`.
+4. **Verification:** (1, A) and (3, C) were changed from 'm' to 'f'.
+(2, B) and (4, D) were changed from 'f' to 'm'.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -51,6 +112,15 @@ SQL
 ## Source Code
 - [solution.sql](./solution.sql)
 
+
+```sql
+UPDATE Salary
+SET sex = CASE
+    WHEN sex = 'm' THEN 'f'
+    ELSE 'm'
+END;
+```
+
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,9 +134,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [181. Employees Earning More Than Their Managers](../../0001-0500/0181-employees-earning-more-than-their-managers/)
-- [1075. Project Employees I](../../1001-1500/1161-project-employees-i/)
-- [1376. Time Needed to Inform All Employees](../../1001-1500/1492-time-needed-to-inform-all-employees/)
+- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [670. Maximum Swap](../../0501-1000/0670-maximum-swap/)
+- [777. Swap Adjacent in LR String](../../0501-1000/0793-swap-adjacent-in-lr-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-sex-of-employees/)

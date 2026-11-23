@@ -16,26 +16,55 @@ Solve LeetCode Make Array Zero by Subtracting Equal Amounts using JavaScript and
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a non-negative integer array  nums . In one operation, you must:
+## Problem Statement
+You are given a non-negative integer array `nums`. In one operation, you must:
+
+Choose a positive integer `x` such that `x` is less than or equal to the **smallest non-zero** element in `nums`. 
+ Subtract `x` from every **positive** element in `nums`.
+
+Return *the **minimum** number of operations to make every element in *`nums`* equal to *`0`.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `0 <= nums[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,5,0,3,5]`
+- **Output:** `3`
+- **Explanation:** In the first operation, choose x = 1. Now, nums = [0,4,0,2,4].
+In the second operation, choose x = 2. Now, nums = [0,2,0,0,2].
+In the third operation, choose x = 2. Now, nums = [0,0,0,0,0].
+
+### Example 2
+- **Input:** `nums = [0]`
+- **Output:** `0`
+- **Explanation:** Each element in nums is already 0 so no operations are needed.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Make Array Zero by Subtracting Equal Amounts**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Make Array Zero by Subtracting Equal Amounts**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,5,0,3,5]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** In the first operation, choose x = 1. Now, nums = [0,4,0,2,4].
+In the second operation, choose x = 2. Now, nums = [0,2,0,0,2].
+In the third operation, choose x = 2. Now, nums = [0,0,0,0,0].
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,20 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var minimumOperations = function(nums) {
+    // Store distinct non-zero elements in a Set
+    const uniquePositives = new Set();
+    for (const num of nums) {
+        if (num > 0) {
+            uniquePositives.add(num);
+        }
+    }
+    return uniquePositives.size;
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +106,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3354. Make Array Elements Equal to Zero](../../3501-4000/3616-make-array-elements-equal-to-zero/)
+- [1787. Make the XOR of All Segments Equal to Zero](../../1501-2000/1913-make-the-xor-of-all-segments-equal-to-zero/)
 - [1887. Reduction Operations to Make the Array Elements Equal](../../2001-2500/2016-reduction-operations-to-make-the-array-elements-equal/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)

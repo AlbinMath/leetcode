@@ -16,26 +16,58 @@ Solve LeetCode Find Subsequence of Length K With the Largest Sum using Python an
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an integer array  nums  and an integer  k . You want to find a  subsequence  of  nums  of length  k  that has the  largest  sum.
+## Problem Statement
+You are given an integer array `nums` and an integer `k`. You want to find a **subsequence **of `nums` of length `k` that has the **largest** sum.
+
+Return* ****any** such subsequence as an integer array of length *`k`.
+
+A **subsequence** is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
+
+## Constraints
+- `1 <= nums.length <= 1000`
+- `-10^5 <= nums[i] <= 10^5`
+- `1 <= k <= nums.length`
+
+## Examples
+### Example 1
+- **Input:** `nums = [2,1,3,3], k = 2`
+- **Output:** `[3,3]`
+- **Explanation:** The subsequence has the largest sum of 3 + 3 = 6.
+
+### Example 2
+- **Input:** `nums = [-1,-2,3,4], k = 3`
+- **Output:** `[-1,3,4]`
+- **Explanation:** The subsequence has the largest sum of -1 + 3 + 4 = 6.
+
+### Example 3
+- **Input:** `nums = [3,4,3,3], k = 2`
+- **Output:** `[3,4]`
+- **Explanation:** The subsequence has the largest sum of 3 + 4 = 7. 
+Another possible subsequence is [4, 3].
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find Subsequence of Length K With the Largest Sum**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We decompose the problem into overlapping subproblems using a **DP Table / Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find Subsequence of Length K With the Largest Sum**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [2,1,3,3], k = 2`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[3,3]`.
+4. **Verification:** The subsequence has the largest sum of 3 + 3 = 6.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -51,6 +83,13 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def maxSubsequence(self, nums, k):
+        return [x for _, x in sorted(sorted(enumerate(nums), key=lambda p: -p[1])[:k])]
+```
+
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,9 +103,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [2030. Smallest K-Length Subsequence With Occurrences of a Letter](../../2001-2500/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter/)
-- [2813. Maximum Elegance of a K-Length Subsequence](../../2501-3000/2894-maximum-elegance-of-a-k-length-subsequence/)
 - [3260. Find the Largest Palindrome Divisible by K](../../3501-4000/3552-find-the-largest-palindrome-divisible-by-k/)
+- [2030. Smallest K-Length Subsequence With Occurrences of a Letter](../../2001-2500/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter/)
+- [2461. Maximum Sum of Distinct Subarrays With Length K](../../2501-3000/2552-maximum-sum-of-distinct-subarrays-with-length-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)

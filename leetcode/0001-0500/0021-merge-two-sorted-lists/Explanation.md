@@ -16,26 +16,53 @@ Solve LeetCode Merge Two Sorted Lists using JavaScript, Python and Two Pointers.
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given the heads of two sorted linked lists  list1  and  list2 .
+## Problem Statement
+You are given the heads of two sorted linked lists `list1` and `list2`.
+
+Merge the two lists into one **sorted** list. The list should be made by splicing together the nodes of the first two lists.
+
+Return *the head of the merged linked list*.
+
+## Constraints
+- The number of nodes in both lists is in the range `[0, 50]`.
+- `-100 <= Node.val <= 100`
+- Both `list1` and `list2` are sorted in **non-decreasing** order.
+
+## Examples
+### Example 1
+- **Input:** `list1 = [1,2,4], list2 = [1,3,4]`
+- **Output:** `[1,1,2,3,4,4]`
+
+### Example 2
+- **Input:** `list1 = [], list2 = []`
+- **Output:** `[]`
+
+### Example 3
+- **Input:** `list1 = [], list2 = [0]`
+- **Output:** `[0]`
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Merge Two Sorted Lists**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Merge Two Sorted Lists**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `list1 = [1,2,4], list2 = [1,3,4]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,1,2,3,4,4]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -52,6 +79,52 @@ JavaScript, Python
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
+
+### JavaScript
+```javascript
+var mergeTwoLists = function(list1, list2) {
+    const dummy = new ListNode(0);
+    let current = dummy;
+
+    while (list1 !== null && list2 !== null) {
+        if (list1.val <= list2.val) {
+            current.next = list1;
+            list1 = list1.next;
+        } else {
+            current.next = list2;
+            list2 = list2.next;
+        }
+
+        current = current.next;
+    }
+
+    // Attach the remaining nodes
+    current.next = list1 !== null ? list1 : list2;
+
+    return dummy.next;
+};
+```
+
+### Python
+```python
+class Solution:
+    def mergeTwoLists(self, list1, list2):
+        dummy = ListNode(0)
+        cur = dummy
+
+        while list1 and list2:
+            if list1.val <= list2.val:
+                cur.next = list1
+                list1 = list1.next
+            else:
+                cur.next = list2
+                list2 = list2.next
+            cur = cur.next
+
+        cur.next = list1 or list2
+        return dummy.next
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -67,7 +140,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
 - [3801. Minimum Cost to Merge Sorted Lists](../../4001-4500/4144-minimum-cost-to-merge-sorted-lists/)
-- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
+- [160. Intersection of Two Linked Lists](../../0001-0500/0160-intersection-of-two-linked-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/)

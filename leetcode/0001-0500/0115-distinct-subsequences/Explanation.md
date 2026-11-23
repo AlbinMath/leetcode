@@ -16,8 +16,25 @@ Solve LeetCode Distinct Subsequences using JavaScript and Dynamic Programming. T
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given two strings s and t, return  the number of distinct    subsequences    of  s  which equals  t.
+## Problem Statement
+Given two strings s and t, return the number of distinct subsequences of s which equals t.
+
+The test cases are generated so that the answer fits on a 32-bit signed integer.
+
+## Constraints
+- `1 <= s.length, t.length <= 1000`
+- `s` and `t` consist of English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "rabbbit", t = "rabbit"`
+- **Output:** `3`
+- **Explanation:** As shown below, there are 3 ways you can generate "rabbit" from s.
+
+### Example 2
+- **Input:** `s = "babgbag", t = "bag"`
+- **Output:** `5`
+- **Explanation:** As shown below, there are 5 ways you can generate "bag" from s.
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
@@ -39,12 +56,17 @@ Time complexity is $O(M \times N)$ where $M$ and $N$ are the lengths of `s` and 
 2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Distinct Subsequences**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "rabbbit", t = "rabbit"`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** As shown below, there are 3 ways you can generate "rabbit" from s.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -60,6 +82,34 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {number}
+ */
+var numDistinct = function(s, t) {
+    const m = s.length;
+    const n = t.length;
+
+    // dp[j] = number of ways to form t[0...j-1]
+    const dp = new Array(n + 1).fill(0);
+    dp[0] = 1;
+
+    for (let i = 1; i <= m; i++) {
+        // Go backwards so we don't overwrite values
+        for (let j = n; j >= 1; j--) {
+            if (s[i - 1] === t[j - 1]) {
+                dp[j] += dp[j - 1];
+            }
+        }
+    }
+
+    return dp[n];
+};
+```
+
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -74,8 +124,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [940. Distinct Subsequences II](../../0501-1000/0977-distinct-subsequences-ii/)
-- [1081. Smallest Subsequence of Distinct Characters](../../1001-1500/1159-smallest-subsequence-of-distinct-characters/)
-- [1316. Distinct Echo Substrings](../../1001-1500/1244-distinct-echo-substrings/)
+- [491. Non-decreasing Subsequences](../../0001-0500/0491-non-decreasing-subsequences/)
+- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-subsequences/)

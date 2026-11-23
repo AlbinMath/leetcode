@@ -16,26 +16,55 @@ Solve LeetCode Bitwise OR of Even Numbers in an Array using Python and Bit Manip
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums .
+## Problem Statement
+You are given an integer array `nums`.
+
+Return the bitwise **OR** of all **even** numbers in the array.
+
+If there are no even numbers in `nums`, return 0.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `1 <= nums[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,3,4,5,6]`
+- **Output:** `6`
+- **Explanation:** The even numbers are 2, 4, and 6. Their bitwise OR equals 6.
+
+### Example 2
+- **Input:** `nums = [7,9,11]`
+- **Output:** `0`
+- **Explanation:** There are no even numbers, so the result is 0.
+
+### Example 3
+- **Input:** `nums = [1,8,16]`
+- **Output:** `24`
+- **Explanation:** The even numbers are 8 and 16. Their bitwise OR equals 24.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Bitwise OR of Even Numbers in an Array**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Bitwise OR of Even Numbers in an Array**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,3,4,5,6]`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `6`.
+4. **Verification:** The even numbers are 2, 4, and 6. Their bitwise OR equals 6.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -50,6 +79,17 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution(object):
+    def evenNumberBitwiseORs(self, nums):
+        res = 0
+        for x in nums:
+            if x % 2 == 0:
+                res |= x
+        return res
+```
+
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -63,9 +103,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
-- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
-- [2094. Finding 3-Digit Even Numbers](../../2001-2500/2215-finding-3-digit-even-numbers/)
+- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/)

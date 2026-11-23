@@ -16,26 +16,68 @@ Solve LeetCode Minimum Non-Zero Product of the Array Elements using Python and B
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a positive integer  p . Consider an array  nums  ( 1-indexed ) that consists of the integers in the  inclusive  range  [1, 2 p  - 1]  in their binary representations. You are allowed to do the following operation  any  number of times:
+## Problem Statement
+You are given a positive integer `p`. Consider an array `nums` (**1-indexed**) that consists of the integers in the **inclusive** range `[1, 2^p - 1]` in their binary representations. You are allowed to do the following operation **any** number of times:
+
+Choose two elements `x` and `y` from `nums`. 
+ Choose a bit in `x` and swap it with its corresponding bit in `y`. Corresponding bit refers to the bit that is in the **same position** in the other integer.
+
+For example, if `x = 11 0 1` and `y = 00 1 1`, after swapping the `2^nd` bit from the right, we have `x = 11 1 1` and `y = 00 0 1`.
+
+Find the **minimum non-zero** product of `nums` after performing the above operation **any** number of times. Return *this product** **modulo** *`10^9 + 7`.
+
+**Note:** The answer should be the minimum product **before** the modulo operation is done.
+
+## Constraints
+- `1 <= p <= 60`
+
+## Examples
+### Example 1
+- **Input:** `p = 1`
+- **Output:** `1`
+- **Explanation:** nums = [1].
+There is only one element, so the product equals that element.
+
+### Example 2
+- **Input:** `p = 2`
+- **Output:** `6`
+- **Explanation:** nums = [01, 10, 11].
+Any swap would either make the product 0 or stay the same.
+Thus, the array product of 1 * 2 * 3 = 6 is already minimized.
+
+### Example 3
+- **Input:** `p = 3`
+- **Output:** `1512`
+- **Explanation:** nums = [001, 010, 011, 100, 101, 110, 111]
+- In the first operation we can swap the leftmost bit of the second and fifth elements.
+ - The resulting array is [001, 1 10, 011, 100, 0 01, 110, 111].
+- In the second operation we can swap the middle bit of the third and fourth elements.
+ - The resulting array is [001, 110, 0 0 1, 1 1 0, 001, 110, 111].
+The array product is 1 * 6 * 1 * 6 * 1 * 6 * 7 = 1512, which is the minimum possible product.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Non-Zero Product of the Array Elements**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Non-Zero Product of the Array Elements**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `p = 1`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** nums = [1].
+There is only one element, so the product equals that element.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +91,15 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def minNonZeroProduct(self, p: int) -> int:
+        MOD = 10**9 + 7
+        top = (1 << p) - 1
+        return top % MOD * pow(top - 1, (1 << (p - 1)) - 1, MOD) % MOD
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

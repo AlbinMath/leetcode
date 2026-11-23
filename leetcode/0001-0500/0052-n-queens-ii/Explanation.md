@@ -1,7 +1,7 @@
 # LeetCode 52: N-Queens II
 
 **LeetCode Problem #52 — N-Queens II**
-Solve LeetCode N-Queens II using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode N-Queens II using Python and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,60 @@ Solve LeetCode N-Queens II using Python and Tree & Graph. This solution finds th
 | LeetCode | #52 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Backtracking Recursive Search |
+| Data Structure | Recursion Tree |
+| Pattern | Backtracking |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## Problem
-The  n-queens  puzzle is the problem of placing  n  queens on an  n x n  chessboard such that no two queens attack each other.
+## Problem Statement
+The **n-queens** puzzle is the problem of placing `n` queens on an `n x n` chessboard such that no two queens attack each other.
+
+Given an integer `n`, return *the number of distinct solutions to the **n-queens puzzle***.
+
+## Constraints
+- `1 <= n <= 9`
+
+## Examples
+### Example 1
+- **Input:** `n = 4`
+- **Output:** `2`
+- **Explanation:** There are two distinct solutions to the 4-queens puzzle as shown.
+
+### Example 2
+- **Input:** `n = 1`
+- **Output:** `1`
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Backtracking** with **Recursion Tree** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **N-Queens II**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **N-Queens II**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 4`.
+2. **Processing Steps:** We apply **Backtracking Recursive Search** using our **Recursion Tree**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** There are two distinct solutions to the 4-queens puzzle as shown.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Recursion Tree.
 
 ## Pattern
-**Tree & Graph**
+**Backtracking**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Backtracking
+- Recursion
 
 ## Language
 Python
@@ -52,8 +71,55 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def totalNQueens(self, n):
+        columns = set()
+        diag1 = set()   # row - col
+        diag2 = set()   # row + col
+
+        def backtrack(row):
+            # All queens placed successfully
+            if row == n:
+                return 1
+
+            count = 0
+
+            for col in range(n):
+
+                # Check column
+                if col in columns:
+                    continue
+
+                # Check \ diagonal
+                if row - col in diag1:
+                    continue
+
+                # Check / diagonal
+                if row + col in diag2:
+                    continue
+
+                # Place queen
+                columns.add(col)
+                diag1.add(row - col)
+                diag2.add(row + col)
+
+                # Explore
+                count += backtrack(row + 1)
+
+                # Backtrack
+                columns.remove(col)
+                diag1.remove(row - col)
+                diag2.remove(row + col)
+
+            return count
+
+        return backtrack(0)
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

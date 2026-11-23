@@ -1,7 +1,7 @@
 # LeetCode 491: Non-decreasing Subsequences
 
 **LeetCode Problem #491 — Non-decreasing Subsequences**
-Solve LeetCode Non-decreasing Subsequences using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
+Solve LeetCode Non-decreasing Subsequences using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,58 @@ Solve LeetCode Non-decreasing Subsequences using Python and Dynamic Programming.
 | LeetCode | #491 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Memoization & State Transition |
-| Data Structure | DP Table / Array |
-| Pattern | Dynamic Programming |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## Problem
-Given an integer array  nums , return  all the different possible non-decreasing subsequences of the given array with at least two elements . You may return the answer in  any order .
+## Problem Statement
+Given an integer array `nums`, return *all the different possible non-decreasing subsequences of the given array with at least two elements*. You may return the answer in **any order**.
+
+## Constraints
+- `1 <= nums.length <= 15`
+- `-100 <= nums[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums = [4,6,7,7]`
+- **Output:** `[[4,6],[4,6,7],[4,6,7,7],[4,7],[4,7,7],[6,7],[6,7,7],[7,7]]`
+
+### Example 2
+- **Input:** `nums = [4,4,3,2,1]`
+- **Output:** `[[4,4]]`
 
 ## Key Insight
-Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Non-decreasing Subsequences**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Non-decreasing Subsequences**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [4,6,7,7]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[4,6],[4,6,7],[4,6,7,7],[4,7],[4,7,7],[6,7],[6,7,7],[7,7]]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Dynamic Programming**
+**Two Pointers**
 
 ## Topics
-- Dynamic Programming
-- Memoization
-- State Transition
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 Python
@@ -51,17 +69,45 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def findSubsequences(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        path = []
+
+        def dfs(start: int) -> None:
+            if len(path) >= 2:
+                res.append(path[:])
+            used = set()
+            for i in range(start, len(nums)):
+                x = nums[i]
+                if x in used:
+                    continue  # same value already tried at this level
+                if path and x < path[-1]:
+                    continue  # would break non-decreasing order
+                used.add(x)
+                path.append(x)
+                dfs(i + 1)
+                path.pop()
+
+        dfs(0)
+        return res
+```
+
 ## Why This Works
-By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Incorrect base case initialization.
-2. Flawed state transition equation.
-3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
-- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [2289. Steps to Make Array Non-decreasing](../../2001-2500/2374-steps-to-make-array-non-decreasing/)

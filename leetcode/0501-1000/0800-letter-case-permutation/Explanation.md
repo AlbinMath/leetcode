@@ -16,26 +16,45 @@ Solve LeetCode Letter Case Permutation using Python and Backtracking. This solut
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  s , you can transform every letter individually to be lowercase or uppercase to create another string.
+## Problem Statement
+Given a string `s`, you can transform every letter individually to be lowercase or uppercase to create another string.
+
+Return *a list of all possible strings we could create*. Return the output in **any order**.
+
+## Constraints
+- `1 <= s.length <= 12`
+- `s` consists of lowercase English letters, uppercase English letters, and digits.
+
+## Examples
+### Example 1
+- **Input:** `s = "a1b2"`
+- **Output:** `["a1b2","a1B2","A1b2","A1B2"]`
+
+### Example 2
+- **Input:** `s = "3z4"`
+- **Output:** `["3z4","3Z4"]`
 
 ## Key Insight
 Leverage **Backtracking** with **Recursion Tree** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Backtracking Recursive Search**. By maintaining state efficiently in a **Recursion Tree**, we eliminate redundant operations and process each element in optimal time.
+To solve **Letter Case Permutation**, we observe the problem requirements and utilize the **Backtracking** technique. We iterate through the inputs using **Backtracking Recursive Search**, leveraging a **Recursion Tree** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Recursion Tree**).
-2. Process elements sequentially using **Backtracking Recursive Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Recursion Tree**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Letter Case Permutation**. Applying **Backtracking Recursive Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "a1b2"`.
+2. **Processing Steps:** We apply **Backtracking Recursive Search** using our **Recursion Tree**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["a1b2","a1B2","A1b2","A1B2"]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Recursion Tree.
 
 ## Pattern
 **Backtracking**
@@ -49,6 +68,21 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def letterCasePermutation(self, s: str) -> List[str]:
+        res = [""]
+        for ch in s:
+            if ch.isalpha():
+                res = [p + c for p in res for c in (ch.lower(), ch.upper())]
+            else:
+                res = [p + ch for p in res]
+        return res
+```
 
 ## Why This Works
 By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +98,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2309. Greatest English Letter in Upper and Lower Case](../../1001-1500/1363-greatest-english-letter-in-upper-and-lower-case/)
-- [709. To Lower Case](../../0501-1000/0742-to-lower-case/)
-- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
+- [744. Find Smallest Letter Greater Than Target](../../0501-1000/0745-find-smallest-letter-greater-than-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/letter-case-permutation/)

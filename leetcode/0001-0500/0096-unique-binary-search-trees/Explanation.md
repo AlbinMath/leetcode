@@ -16,26 +16,43 @@ Solve LeetCode Unique Binary Search Trees using JavaScript and Binary Search. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  n , return  the number of structurally unique  BST&#39; s (binary search trees) which has exactly   n   nodes of unique values from   1   to   n .
+## Problem Statement
+Given an integer `n`, return *the number of structurally unique **BST'**s (binary search trees) which has exactly *`n`* nodes of unique values from* `1` *to* `n`.
+
+## Constraints
+- `1 <= n <= 19`
+
+## Examples
+### Example 1
+- **Input:** `n = 3`
+- **Output:** `5`
+
+### Example 2
+- **Input:** `n = 1`
+- **Output:** `1`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Modified Binary Search**. By maintaining state efficiently in a **Sorted Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Unique Binary Search Trees**, we observe the problem requirements and utilize the **Binary Search** technique. Exploiting monotonic ordering or sorted properties in the input space, we maintain `left` and `right` boundary pointers. In each iteration, we evaluate the midpoint to discard half of the search range, reducing the time complexity to $O(\log n)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize boundary pointers `left` and `right`.
+2. Compute `mid = left + (right - left) // 2` to prevent overflow.
+3. Adjust `left` or `right` depending on whether target satisfies the partition condition.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Unique Binary Search Trees**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 3`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -50,6 +67,24 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var numTrees = function(n) {
+    const dp = new Array(n + 1).fill(0);
+
+    dp[0] = 1;
+    dp[1] = 1;
+
+    for (let i = 2; i <= n; i++) {
+        for (let root = 1; root <= i; root++) {
+            dp[i] += dp[root - 1] * dp[i - root];
+        }
+    }
+
+    return dp[n];
+};
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

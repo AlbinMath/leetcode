@@ -1,7 +1,7 @@
 # LeetCode 1277: Count Square Submatrices with All Ones
 
 **LeetCode Problem #1277 — Count Square Submatrices with All Ones**
-Solve LeetCode Count Square Submatrices with All Ones using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Count Square Submatrices with All Ones using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,78 @@ Solve LeetCode Count Square Submatrices with All Ones using JavaScript and Array
 | LeetCode | #1277 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-Given a  m * n  matrix of ones and zeros, return how many  square  submatrices have all ones.
+## Problem Statement
+Given a `m * n` matrix of ones and zeros, return how many **square** submatrices have all ones.
+
+## Constraints
+- `1 <= arr.length <= 300`
+- `1 <= arr[0].length <= 300`
+- `0 <= arr[i][j] <= 1`
+
+## Examples
+### Example 1
+- **Input:** `matrix =
+[
+ [0,1,1,1],
+ [1,1,1,1],
+ [0,1,1,1]
+]`
+- **Output:** `15`
+- **Explanation:** There are
+
+### Example 2
+- **Input:** `matrix = 
+[
+ [1,0,1],
+ [1,1,0],
+ [1,1,0]
+]`
+- **Output:** `7`
+- **Explanation:** There are 6 squares of side 1. 
+There is
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Square Submatrices with All Ones**, we observe the problem requirements and utilize the **Array / General** technique. We decompose the problem into overlapping subproblems using a **Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Square Submatrices with All Ones**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `matrix =
+[
+ [0,1,1,1],
+ [1,1,1,1],
+ [0,1,1,1]
+]`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `15`.
+4. **Verification:** There are
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Array / General**
+**Dynamic Programming**
 
 ## Topics
-- Array
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 JavaScript
@@ -49,22 +89,52 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var countSquares = function(matrix) {
+    const m = matrix.length;
+    const n = matrix[0].length;
+    const dp = new Int32Array(n);
+    let totalSquares = 0;
+
+    for (let r = 0; r < m; r++) {
+        let prevDiag = 0; // Stores dp[r - 1][c - 1]
+        for (let c = 0; c < n; c++) {
+            const temp = dp[c]; // Save dp[r - 1][c] before overwriting
+            if (matrix[r][c] === 1) {
+                if (r === 0 || c === 0) {
+                    dp[c] = 1;
+                } else {
+                    dp[c] = 1 + Math.min(dp[c], dp[c - 1], prevDiag);
+                }
+                totalSquares += dp[c];
+            } else {
+                dp[c] = 0;
+            }
+            prevDiag = temp;
+        }
+    }
+
+    return totalSquares;
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [1504. Count Submatrices With All Ones](../../1501-2000/1628-count-submatrices-with-all-ones/)
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1461-count-all-valid-pickup-and-delivery-options/)
+- [3197. Find the Minimum Area to Cover All Ones II](../../3001-3500/3459-find-the-minimum-area-to-cover-all-ones-ii/)
+- [3234. Count the Number of Substrings With Dominant Ones](../../3001-3500/3479-count-the-number-of-substrings-with-dominant-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)

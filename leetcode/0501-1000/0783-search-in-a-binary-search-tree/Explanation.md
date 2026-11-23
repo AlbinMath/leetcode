@@ -16,26 +16,48 @@ Solve LeetCode Search in a Binary Search Tree using JavaScript, Python and Binar
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given the  root  of a binary search tree (BST) and an integer  val .
+## Problem Statement
+You are given the `root` of a binary search tree (BST) and an integer `val`.
+
+Find the node in the BST that the node's value equals `val` and return the subtree rooted with that node. If such a node does not exist, return `null`.
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 5000]`.
+- `1 <= Node.val <= 10^7`
+- `root` is a binary search tree.
+- `1 <= val <= 10^7`
+
+## Examples
+### Example 1
+- **Input:** `root = [4,2,7,1,3], val = 2`
+- **Output:** `[2,1,3]`
+
+### Example 2
+- **Input:** `root = [4,2,7,1,3], val = 5`
+- **Output:** `[]`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Modified Binary Search**. By maintaining state efficiently in a **Sorted Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Search in a Binary Search Tree**, we observe the problem requirements and utilize the **Binary Search** technique. Exploiting monotonic ordering or sorted properties in the input space, we maintain `left` and `right` boundary pointers. In each iteration, we evaluate the midpoint to discard half of the search range, reducing the time complexity to $O(\log n)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize boundary pointers `left` and `right`.
+2. Compute `mid = left + (right - left) // 2` to prevent overflow.
+3. Adjust `left` or `right` depending on whether target satisfies the partition condition.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Search in a Binary Search Tree**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [4,2,7,1,3], val = 2`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[2,1,3]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -51,6 +73,33 @@ JavaScript, Python
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var searchBST = function(root, val) {
+    if (root === null || root.val === val) {
+        return root;
+    }
+
+    if (val < root.val) {
+        return searchBST(root.left, val);
+    }
+
+    return searchBST(root.right, val);
+};
+```
+
+### Python
+```python
+class Solution:
+    def searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
+        while root:
+            if root.val == val:
+                return root
+            root = root.left if val < root.val else root.right
+        return None
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

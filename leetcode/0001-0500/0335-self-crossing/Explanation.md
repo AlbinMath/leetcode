@@ -16,26 +16,55 @@ Solve LeetCode Self Crossing using Python and Array / General. This solution fin
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array of integers  distance .
+## Problem Statement
+You are given an array of integers `distance`.
+
+You start at the point `(0, 0)` on an **X-Y plane,** and you move `distance[0]` meters to the north, then `distance[1]` meters to the west, `distance[2]` meters to the south, `distance[3]` meters to the east, and so on. In other words, after each move, your direction changes counter-clockwise.
+
+Return `true` *if your path crosses itself or *`false`* if it does not*.
+
+## Constraints
+- `1 <= distance.length <= 10^5`
+- `1 <= distance[i] <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `distance = [2,1,1,2]`
+- **Output:** `true`
+- **Explanation:** The path crosses itself at the point (0, 1).
+
+### Example 2
+- **Input:** `distance = [1,2,3,4]`
+- **Output:** `false`
+- **Explanation:** The path does not cross itself at any point.
+
+### Example 3
+- **Input:** `distance = [1,1,1,2,1]`
+- **Output:** `true`
+- **Explanation:** The path crosses itself at the point (0, 0).
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Self Crossing**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Self Crossing**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `distance = [2,1,1,2]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** The path crosses itself at the point (0, 1).
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,24 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def isSelfCrossing(self, distance: List[int]) -> bool:
+        d = distance
+        for i in range(3, len(d)):
+            if d[i] >= d[i-2] and d[i-1] <= d[i-3]:
+                return True
+            if i >= 4 and d[i-1] == d[i-3] and d[i] + d[i-4] >= d[i-2]:
+                return True
+            if (i >= 5 and d[i-2] >= d[i-4] and d[i] + d[i-4] >= d[i-2]
+                    and d[i-1] <= d[i-3] and d[i-1] + d[i-5] >= d[i-3]):
+                return True
+        return False
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

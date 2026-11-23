@@ -16,8 +16,25 @@ Solve LeetCode Array Prototype Last using JavaScript and Array / General. This s
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Write code that enhances all arrays such that you can call the  array.last()  method on any array and it will return the last element. If there are no elements in the array, it should return  -1 .
+## Problem Statement
+Write code that enhances all arrays such that you can call the `array.last()` method on any array and it will return the last element. If there are no elements in the array, it should return `-1`.
+
+You may assume the array is the output of `JSON.parse`.
+
+## Constraints
+- `arr` is a valid JSON array
+- `0 <= arr.length <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `nums = [null, {}, 3]`
+- **Output:** `3`
+- **Explanation:** Calling nums.last() should return the last element: 3.
+
+### Example 2
+- **Input:** `nums = []`
+- **Output:** `-1`
+- **Explanation:** Because there are no elements, return -1.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +47,17 @@ Leverage **Array / General** with **Array** to process inputs efficiently and ac
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Array Prototype Last**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [null, {}, 3]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** Calling nums.last() should return the last element: 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +70,25 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+/**
+ * @return {null|boolean|number|string|Array|Object}
+ */
+Array.prototype.last = function() {
+    if (this.length === 0) {
+        return -1;
+    }
+
+    return this[this.length - 1];
+};
+
+/**
+ * const arr = [1, 2, 3];
+ * arr.last(); // 3
+ */
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +104,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [1046. Last Stone Weight](../../1001-1500/1127-last-stone-weight/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/array-prototype-last/)

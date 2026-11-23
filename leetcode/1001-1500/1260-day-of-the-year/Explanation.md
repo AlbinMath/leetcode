@@ -16,26 +16,46 @@ Solve LeetCode Day of the Year using Python and Array / General. This solution f
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  date  representing a  Gregorian calendar  date formatted as  YYYY-MM-DD , return  the day number of the year .
+## Problem Statement
+Given a string `date` representing a Gregorian calendar date formatted as `YYYY-MM-DD`, return *the day number of the year*.
+
+## Constraints
+- `date.length == 10`
+- `date[4] == date[7] == '-'`, and all other `date[i]`'s are digits
+- `date` represents a calendar date between Jan 1^st, 1900 and Dec 31^st, 2019.
+
+## Examples
+### Example 1
+- **Input:** `date = "2019-01-09"`
+- **Output:** `9`
+- **Explanation:** Given date is the 9th day of the year in 2019.
+
+### Example 2
+- **Input:** `date = "2019-02-10"`
+- **Output:** `41`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Day of the Year**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Day of the Year**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `date = "2019-01-09"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `9`.
+4. **Verification:** Given date is the 9th day of the year in 2019.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +68,18 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from datetime import datetime
+
+class Solution:
+    def dayOfYear(self, date: str) -> int:
+        current_date = datetime.strptime(date, "%Y-%m-%d")
+        start_date = datetime(current_date.year, 1, 1)
+
+        return (current_date - start_date).days + 1
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

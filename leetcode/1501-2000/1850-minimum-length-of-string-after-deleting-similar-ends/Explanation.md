@@ -16,26 +16,65 @@ Solve LeetCode Minimum Length of String After Deleting Similar Ends using Python
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  s  consisting only of characters  &#39;a&#39; ,  &#39;b&#39; , and  &#39;c&#39; . You are asked to apply the following algorithm on the string any number of times:
+## Problem Statement
+Given a string `s` consisting only of characters `'a'`, `'b'`, and `'c'`. You are asked to apply the following algorithm on the string any number of times:
+
+Pick a **non-empty** prefix from the string `s` where all the characters in the prefix are equal. 
+ Pick a **non-empty** suffix from the string `s` where all the characters in this suffix are equal. 
+ The prefix and the suffix should not intersect at any index. 
+ The characters from the prefix and suffix must be the same. 
+ Delete both the prefix and the suffix.
+
+Return *the **minimum length** of *`s` *after performing the above operation any number of times (possibly zero times)*.
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s` only consists of characters `'a'`, `'b'`, and `'c'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "ca"`
+- **Output:** `2`
+- **Explanation:** You can't remove any characters, so the string stays as is.
+
+### Example 2
+- **Input:** `s = "cabaabac"`
+- **Output:** `0`
+- **Explanation:** An optimal sequence of operations is:
+- Take prefix = "c" and suffix = "c" and remove them, s = "abaaba".
+- Take prefix = "a" and suffix = "a" and remove them, s = "baab".
+- Take prefix = "b" and suffix = "b" and remove them, s = "aa".
+- Take prefix = "a" and suffix = "a" and remove them, s = "".
+
+### Example 3
+- **Input:** `s = "aabccabba"`
+- **Output:** `3`
+- **Explanation:** An optimal sequence of operations is:
+- Take prefix = "aa" and suffix = "a" and remove them, s = "bccabb".
+- Take prefix = "b" and suffix = "bb" and remove them, s = "cca".
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Length of String After Deleting Similar Ends**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Length of String After Deleting Similar Ends**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "ca"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** You can't remove any characters, so the string stays as is.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +87,22 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def minimumLength(self, s: str) -> int:
+        l, r = 0, len(s) - 1
+
+        while l < r and s[l] == s[r]:
+            ch = s[l]
+            while l <= r and s[l] == ch:
+                l += 1
+            while r >= l and s[r] == ch:
+                r -= 1
+
+        return r - l + 1
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

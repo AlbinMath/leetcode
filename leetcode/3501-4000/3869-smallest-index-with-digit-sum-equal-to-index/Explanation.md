@@ -16,8 +16,34 @@ Solve LeetCode Smallest Index With Digit Sum Equal to Index using JavaScript and
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an integer array  nums .
+## Problem Statement
+You are given an integer array `nums`.
+
+Return the **smallest** index `i` such that the sum of the digits of `nums[i]` is equal to `i`.
+
+If no such index exists, return `-1`.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `0 <= nums[i] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,3,2]`
+- **Output:** `2`
+- **Explanation:** For `nums[2] = 2`, the sum of digits is 2, which is equal to index `i = 2`. Thus, the output is 2.
+
+### Example 2
+- **Input:** `nums = [1,10,11]`
+- **Output:** `1`
+- **Explanation:** For `nums[1] = 10`, the sum of digits is `1 + 0 = 1`, which is equal to index `i = 1`. 
+ For `nums[2] = 11`, the sum of digits is `1 + 1 = 2`, which is equal to index `i = 2`. 
+ Since index 1 is the smallest, the output is 1.
+
+### Example 3
+- **Input:** `nums = [1,2,3]`
+- **Output:** `-1`
+- **Explanation:** Since no index satisfies the condition, the output is -1.
 
 ## Key Insight
 Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -39,12 +65,17 @@ The code uses a straightforward iterative approach.
 2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Smallest Index With Digit Sum Equal to Index**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,3,2]`.
+2. **Processing Steps:** We apply **Prefix Sum Precomputation** using our **Prefix Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** For `nums[2] = 2`, the sum of digits is 2, which is equal to index `i = 2`. Thus, the output is 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Prefix Array.
 
 ## Pattern
 **Prefix Sum**
@@ -59,6 +90,31 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var smallestIndex = function(nums) {
+    for (let i = 0; i < nums.length; i++) {
+        let num = nums[i];
+        let sum = 0;
+
+        while (num > 0) {
+            sum += num % 10;
+            num = Math.floor(num / 10);
+        }
+
+        if (sum === i) {
+            return i;
+        }
+    }
+
+    return -1;
+};
+```
+
 ## Why This Works
 By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -72,9 +128,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
-- [3903. Smallest Stable Index I](../../4001-4500/4284-smallest-stable-index-i/)
-- [3904. Smallest Stable Index II](../../4001-4500/4285-smallest-stable-index-ii/)
+- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
+- [698. Partition to K Equal Sum Subsets](../../0501-1000/0698-partition-to-k-equal-sum-subsets/)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/)

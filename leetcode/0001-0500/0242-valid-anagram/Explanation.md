@@ -16,26 +16,44 @@ Solve LeetCode Valid Anagram using PHP and Hash Map. This solution finds the opt
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given two strings  s  and  t , return  true  if  t  is an  anagram  of  s , and  false  otherwise.
+## Problem Statement
+Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
+
+## Constraints
+- `1 <= s.length, t.length <= 5 * 10^4`
+- `s` and `t` consist of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "anagram", t = "nagaram"`
+- **Output:** `true`
+
+### Example 2
+- **Input:** `s = "rat", t = "car"`
+- **Output:** `false`
 
 ## Key Insight
 Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
-We iterate through the input using **Complement Lookup / Hash Table Frequency**. By maintaining state efficiently in a **Dictionary / Hash Map**, we eliminate redundant operations and process each element in optimal time.
+To solve **Valid Anagram**, we observe the problem requirements and utilize the **Hash Map** technique. By maintaining a **Dictionary / Hash Map**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Dictionary / Hash Map**).
-2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Dictionary / Hash Map** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Valid Anagram**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "anagram", t = "nagaram"`.
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
 **Hash Map**
@@ -51,6 +69,38 @@ PHP
 ## Source Code
 - [solution.php](./solution.php)
 
+
+```php
+class Solution {
+    function isAnagram($s, $t) {
+        if (strlen($s) !== strlen($t)) {
+            return false;
+        }
+
+        $count = array_fill(0, 26, 0);
+
+        // Count characters in s
+        for ($i = 0; $i < strlen($s); $i++) {
+            $index = ord($s[$i]) - ord('a');
+            $count[$index]++;
+        }
+
+        // Remove characters using t
+        for ($i = 0; $i < strlen($t); $i++) {
+            $index = ord($t[$i]) - ord('a');
+            $count[$index]--;
+
+            // More occurrences in t than in s
+            if ($count[$index] < 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+```
+
 ## Why This Works
 By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +115,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
 - [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-anagram/)

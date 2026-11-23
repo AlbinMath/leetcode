@@ -16,26 +16,55 @@ Solve LeetCode Find the Longest Semi-Repetitive Substring using Python and Array
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a digit string  s  that consists of digits from 0 to 9.
+## Problem Statement
+You are given a digit string `s` that consists of digits from 0 to 9.
+
+A string is called **semi-repetitive** if there is **at most** one adjacent pair of the same digit. For example, `"0010"`, `"002020"`, `"0123"`, `"2002"`, and `"54944"` are semi-repetitive while the following are not: `"00101022"` (adjacent same digit pairs are 00 and 22), and `"1101234883"` (adjacent same digit pairs are 11 and 88).
+
+Return the length of the **longest semi-repetitive substring ** of `s`.
+
+## Constraints
+- `1 <= s.length <= 50`
+- `'0' <= s[i] <= '9'`
+
+## Examples
+### Example 1
+- **Input:** `s = "52233"`
+- **Output:** `4`
+- **Explanation:** The longest semi-repetitive substring is "5223". Picking the whole string "52233" has two adjacent same digit pairs 22 and 33, but at most one is allowed.
+
+### Example 2
+- **Input:** `s = "5494"`
+- **Output:** `4`
+- **Explanation:** `s` is a semi-repetitive string.
+
+### Example 3
+- **Input:** `s = "1111111"`
+- **Output:** `2`
+- **Explanation:** The longest semi-repetitive substring is "11". Picking the substring "111" has two adjacent same digit pairs, but at most one is allowed.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find the Longest Semi-Repetitive Substring**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find the Longest Semi-Repetitive Substring**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "52233"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** The longest semi-repetitive substring is "5223". Picking the whole string "52233" has two adjacent same digit pairs 22 and 33, but at most one is allowed.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,25 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def longestSemiRepetitiveSubstring(self, s: str) -> int:
+        left = 0
+        last_pair_idx = 0
+        max_len = 1
+        
+        for right in range(1, len(s)):
+            if s[right] == s[right - 1]:
+                if last_pair_idx > 0:
+                    left = last_pair_idx
+                last_pair_idx = right
+            if right - left + 1 > max_len:
+                max_len = right - left + 1
+                
+        return max_len
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,70 @@ Solve LeetCode Maximum XOR for Each Query using Java and Bit Manipulation. This 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a  sorted  array  nums  of  n  non-negative integers and an integer  maximumBit . You want to perform the following query  n   times :
+## Problem Statement
+You are given a **sorted** array `nums` of `n` non-negative integers and an integer `maximumBit`. You want to perform the following query `n` **times**:
+
+Find a non-negative integer `k < 2^maximumBit` such that `nums[0] XOR nums[1] XOR ... XOR nums[nums.length-1] XOR k` is **maximized**. `k` is the answer to the `i^th` query. 
+ Remove the **last **element from the current array `nums`.
+
+Return *an array* `answer`*, where *`answer[i]`* is the answer to the *`i^th`* query*.
+
+## Constraints
+- `nums.length == n`
+- `1 <= n <= 10^5`
+- `1 <= maximumBit <= 20`
+- `0 <= nums[i] < 2^maximumBit`
+- `nums`​​​ is sorted in **ascending** order.
+
+## Examples
+### Example 1
+- **Input:** `nums = [0,1,1,3], maximumBit = 2`
+- **Output:** `[0,3,2,3]`
+- **Explanation:** : The queries are answered as follows:
+1^st query: nums = [0,1,1,3], k = 0 since 0 XOR 1 XOR 1 XOR 3 XOR 0 = 3.
+2^nd query: nums = [0,1,1], k = 3 since 0 XOR 1 XOR 1 XOR 3 = 3.
+3^rd query: nums = [0,1], k = 2 since 0 XOR 1 XOR 2 = 3.
+4^th query: nums = [0], k = 3 since 0 XOR 3 = 3.
+
+### Example 2
+- **Input:** `nums = [2,3,4,7], maximumBit = 3`
+- **Output:** `[5,2,6,5]`
+- **Explanation:** : The queries are answered as follows:
+1^st query: nums = [2,3,4,7], k = 5 since 2 XOR 3 XOR 4 XOR 7 XOR 5 = 7.
+2^nd query: nums = [2,3,4], k = 2 since 2 XOR 3 XOR 4 XOR 2 = 7.
+3^rd query: nums = [2,3], k = 6 since 2 XOR 3 XOR 6 = 7.
+4^th query: nums = [2], k = 5 since 2 XOR 5 = 7.
+
+### Example 3
+- **Input:** `nums = [0,1,2,2,5,7], maximumBit = 3`
+- **Output:** `[4,3,6,4,6,7]`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum XOR for Each Query**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum XOR for Each Query**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [0,1,1,3], maximumBit = 2`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[0,3,2,3]`.
+4. **Verification:** : The queries are answered as follows:
+1^st query: nums = [0,1,1,3], k = 0 since 0 XOR 1 XOR 1 XOR 3 XOR 0 = 3.
+2^nd query: nums = [0,1,1], k = 3 since 0 XOR 1 XOR 1 XOR 3 = 3.
+3^rd query: nums = [0,1], k = 2 since 0 XOR 1 XOR 2 = 3.
+4^th query: nums = [0], k = 3 since 0 XOR 3 = 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -50,6 +94,27 @@ Java
 ## Source Code
 - [solution.java](./solution.java)
 
+
+```java
+class Solution {
+    public int[] getMaximumXor(int[] nums, int maximumBit) {
+        int n = nums.length;
+        int maxMask = (1 << maximumBit) - 1;
+        int xorSum = 0;
+        for (int num : nums) {
+            xorSum ^= num;
+        }
+
+        int[] ans = new int[n];
+        for (int i = 0; i < n; i++) {
+            ans[i] = xorSum ^ maxMask;
+            xorSum ^= nums[n - 1 - i];
+        }
+        return ans;
+    }
+}
+```
+
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -63,9 +128,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1851. Minimum Interval to Include Each Query](../../1501-2000/1977-minimum-interval-to-include-each-query/)
-- [1938. Maximum Genetic Difference Query](../../2001-2500/2068-maximum-genetic-difference-query/)
 - [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1707. Maximum XOR With an Element From Array](../../1501-2000/1826-maximum-xor-with-an-element-from-array/)
+- [2317. Maximum XOR After Operations ](../../2001-2500/2402-maximum-xor-after-operations-/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-xor-for-each-query/)

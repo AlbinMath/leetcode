@@ -16,8 +16,34 @@ Solve LeetCode 3Sum using JavaScript and Binary Search. This solution finds the 
 | Time Complexity | O(log n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer array nums, return all the triplets  [nums[i], nums[j], nums[k]]  such that  i != j ,  i != k , and  j != k , and  nums[i] + nums[j] + nums[k] == 0 .
+## Problem Statement
+Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.
+
+Notice that the solution set must not contain duplicate triplets.
+
+## Constraints
+- `3 <= nums.length <= 3000`
+- `-10^5 <= nums[i] <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `nums = [-1,0,1,2,-1,-4]`
+- **Output:** `[[-1,-1,2],[-1,0,1]]`
+- **Explanation:** nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.
+nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
+nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
+The distinct triplets are [-1,0,1] and [-1,-1,2].
+Notice that the order of the output and the order of the triplets does not matter.
+
+### Example 2
+- **Input:** `nums = [0,1,1]`
+- **Output:** `[]`
+- **Explanation:** The only possible triplet does not sum up to 0.
+
+### Example 3
+- **Input:** `nums = [0,0,0]`
+- **Output:** `[[0,0,0]]`
+- **Explanation:** The only possible triplet sums up to 0.
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -43,12 +69,21 @@ Time complexity is $O(N^2)$ and space complexity is $O(\log N)$ for sorting (ign
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **3Sum**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [-1,0,1,2,-1,-4]`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[-1,-1,2],[-1,0,1]]`.
+4. **Verification:** nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.
+nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
+nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
+The distinct triplets are [-1,0,1] and [-1,-1,2].
+Notice that the order of the output and the order of the triplets does not matter.
 
-## Complexity
-- **Time Complexity:** O(log n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(log n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -63,6 +98,58 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var threeSum = function(nums) {
+    nums.sort((a, b) => a - b);
+
+    const result = [];
+    const n = nums.length;
+
+    for (let i = 0; i < n - 2; i++) {
+        // Skip duplicate first elements
+        if (i > 0 && nums[i] === nums[i - 1]) {
+            continue;
+        }
+
+        // Since the array is sorted, no later triplet can sum to zero
+        if (nums[i] > 0) {
+            break;
+        }
+
+        let left = i + 1;
+        let right = n - 1;
+
+        while (left < right) {
+            const sum = nums[i] + nums[left] + nums[right];
+
+            if (sum === 0) {
+                result.push([nums[i], nums[left], nums[right]]);
+
+                left++;
+                right--;
+
+                // Skip duplicate second elements
+                while (left < right && nums[left] === nums[left - 1]) {
+                    left++;
+                }
+
+                // Skip duplicate third elements
+                while (left < right && nums[right] === nums[right + 1]) {
+                    right--;
+                }
+            } else if (sum < 0) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+    }
+
+    return result;
+};
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

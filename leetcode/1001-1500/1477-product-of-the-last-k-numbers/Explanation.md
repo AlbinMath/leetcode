@@ -16,26 +16,43 @@ Solve LeetCode Product of the Last K Numbers using Python and Bit Manipulation. 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Design an algorithm that accepts a stream of integers and retrieves the product of the last  k  integers of the stream.
+## Problem Statement
+Design an algorithm that accepts a stream of integers and retrieves the product of the last `k` integers of the stream.
+
+Implement the `ProductOfNumbers` class:
+
+`ProductOfNumbers()` Initializes the object with an empty stream. 
+ `void add(int num)` Appends the integer `num` to the stream. 
+ `int getProduct(int k)` Returns the product of the last `k` numbers in the current list. You can assume that always the current list has at least `k` numbers.
+
+The test cases are generated so that, at any time, the product of any contiguous sequence of numbers will fit into a single 32-bit integer without overflowing.
+
+## Constraints
+- `0 <= num <= 100`
+- `1 <= k <= 4 * 10^4`
+- At most `4 * 10^4` calls will be made to `add` and `getProduct`.
+- The product of the stream at any point in time will fit in a **32-bit** integer.
+
+## Examples
+Consider the standard input for **Product of the Last K Numbers**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Product of the Last K Numbers**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Product of the Last K Numbers**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+Applying **Bitwise Masking & Bit Shift** step by step to the input yields the expected result.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +66,25 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class ProductOfNumbers:
+
+    def __init__(self):
+        self.prefix = [1]
+
+    def add(self, num: int) -> None:
+        if num == 0:
+            self.prefix = [1]
+        else:
+            self.prefix.append(self.prefix[-1] * num)
+
+    def getProduct(self, k: int) -> int:
+        if k >= len(self.prefix):
+            return 0
+        return self.prefix[-1] // self.prefix[-1 - k]
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

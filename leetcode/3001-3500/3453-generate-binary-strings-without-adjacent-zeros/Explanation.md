@@ -16,26 +16,50 @@ Solve LeetCode Generate Binary Strings Without Adjacent Zeros using Python and T
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a positive integer  n .
+## Problem Statement
+You are given a positive integer `n`.
+
+A binary string `x` is **valid** if all substrings of `x` of length 2 contain **at least** one `"1"`.
+
+Return all **valid** strings with length `n`**, **in *any* order.
+
+## Constraints
+- `1 <= n <= 18`
+
+## Examples
+### Example 1
+- **Input:** `n = 3`
+- **Output:** `["010","011","101","110","111"]`
+- **Explanation:** The valid strings of length 3 are: `"010"`, `"011"`, `"101"`, `"110"`, and `"111"`.
+
+### Example 2
+- **Input:** `n = 1`
+- **Output:** `["0","1"]`
+- **Explanation:** The valid strings of length 1 are: `"0"` and `"1"`.
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Generate Binary Strings Without Adjacent Zeros**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Generate Binary Strings Without Adjacent Zeros**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 3`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["010","011","101","110","111"]`.
+4. **Verification:** The valid strings of length 3 are: `"010"`, `"011"`, `"101"`, `"110"`, and `"111"`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +76,31 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def validStrings(self, n: int) -> List[str]:
+        res = []
+        path = []
+
+        def dfs(prev_zero: bool) -> None:
+            if len(path) == n:
+                res.append("".join(path))
+                return
+            path.append("1")
+            dfs(False)
+            path.pop()
+            if not prev_zero:
+                path.append("0")
+                dfs(True)
+                path.pop()
+
+        dfs(False)
+        return res
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -66,8 +115,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3955. Valid Binary Strings With Cost Limit](../../4001-4500/4289-valid-binary-strings-with-cost-limit/)
-- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
-- [478. Generate Random Point in a Circle](../../0501-1000/0915-generate-random-point-in-a-circle/)
+- [67. Add Binary](../../0001-0500/0067-add-binary/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)

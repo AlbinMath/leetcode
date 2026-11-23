@@ -1,7 +1,7 @@
 # LeetCode 224: Basic Calculator
 
 **LeetCode Problem #224 — Basic Calculator**
-Solve LeetCode Basic Calculator using JavaScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Basic Calculator using JavaScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,67 @@ Solve LeetCode Basic Calculator using JavaScript and Bit Manipulation. This solu
 | LeetCode | #224 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-Given a string  s  representing a valid expression, implement a basic calculator to evaluate it, and return  the result of the evaluation .
+## Problem Statement
+Given a string `s` representing a valid expression, implement a basic calculator to evaluate it, and return *the result of the evaluation*.
+
+**Note:** You are **not** allowed to use any built-in function which evaluates strings as mathematical expressions, such as `eval()`.
+
+## Constraints
+- `1 <= s.length <= 3 * 10^5`
+- `s` consists of digits, `'+'`, `'-'`, `'('`, `')'`, and `' '`.
+- `s` represents a valid expression.
+- `'+'` is **not** used as a unary operation (i.e., `"+1"` and `"+(2 + 3)"` is invalid).
+- `'-'` could be used as a unary operation (i.e., `"-1"` and `"-(2 + 3)"` is valid).
+- There will be no two consecutive operators in the input.
+- Every number and running calculation will fit in a signed 32-bit integer.
+
+## Examples
+### Example 1
+- **Input:** `s = "1 + 1"`
+- **Output:** `2`
+
+### Example 2
+- **Input:** `s = " 2-1 + 2 "`
+- **Output:** `3`
+
+### Example 3
+- **Input:** `s = "(1+(4+5+2)-3)+(6+8)"`
+- **Output:** `23`
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Basic Calculator**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Basic Calculator**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "1 + 1"`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Bit Manipulation**
+**Stack & Queue**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Stack
+- String Parsing
 
 ## Language
 JavaScript
@@ -50,8 +78,50 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var calculate = function(s) {
+    const stack = [];
+    let result = 0;
+    let number = 0;
+    let sign = 1;
+
+    for (let i = 0; i < s.length; i++) {
+        const char = s[i];
+
+        if (char >= '0' && char <= '9') {
+            number = number * 10 + Number(char);
+        } else if (char === '+') {
+            result += sign * number;
+            number = 0;
+            sign = 1;
+        } else if (char === '-') {
+            result += sign * number;
+            number = 0;
+            sign = -1;
+        } else if (char === '(') {
+            stack.push(result);
+            stack.push(sign);
+
+            result = 0;
+            sign = 1;
+        } else if (char === ')') {
+            result += sign * number;
+            number = 0;
+
+            result *= stack.pop();
+            result += stack.pop();
+        }
+    }
+
+    result += sign * number;
+
+    return result;
+};
+```
+
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

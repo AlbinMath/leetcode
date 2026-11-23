@@ -16,26 +16,69 @@ Solve LeetCode Find if Array Can Be Sorted using Python and Bit Manipulation. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a  0-indexed  array of  positive  integers  nums .
+## Problem Statement
+You are given a **0-indexed** array of **positive** integers `nums`.
+
+In one **operation**, you can swap any two **adjacent** elements if they have the **same** number of set bits . You are allowed to do this operation **any** number of times (**including zero**).
+
+Return `true` *if you can sort the array in ascending order, else return *`false`.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `1 <= nums[i] <= 2^8`
+
+## Examples
+### Example 1
+- **Input:** `nums = [8,4,2,30,15]`
+- **Output:** `true`
+- **Explanation:** Let's look at the binary representation of every element. The numbers 2, 4, and 8 have one set bit each with binary representation "10", "100", and "1000" respectively. The numbers 15 and 30 have four set bits each with binary representation "1111" and "11110".
+We can sort the array using 4 operations:
+- Swap nums[0] with nums[1]. This operation is valid because 8 and 4 have one set bit each. The array becomes [4,8,2,30,15].
+- Swap nums[1] with nums[2]. This operation is valid because 8 and 2 have one set bit each. The array becomes [4,2,8,30,15].
+- Swap nums[0] with nums[1]. This operation is valid because 4 and 2 have one set bit each. The array becomes [2,4,8,30,15].
+- Swap nums[3] with nums[4]. This operation is valid because 30 and 15 have four set bits each. The array becomes [2,4,8,15,30].
+The array has become sorted, hence we return true.
+Note that there may be other sequences of operations which also sort the array.
+
+### Example 2
+- **Input:** `nums = [1,2,3,4,5]`
+- **Output:** `true`
+- **Explanation:** The array is already sorted, hence we return true.
+
+### Example 3
+- **Input:** `nums = [3,16,8,4,2]`
+- **Output:** `false`
+- **Explanation:** It can be shown that it is not possible to sort the input array using any number of operations.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find if Array Can Be Sorted**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find if Array Can Be Sorted**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [8,4,2,30,15]`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Let's look at the binary representation of every element. The numbers 2, 4, and 8 have one set bit each with binary representation "10", "100", and "1000" respectively. The numbers 15 and 30 have four set bits each with binary representation "1111" and "11110".
+We can sort the array using 4 operations:
+- Swap nums[0] with nums[1]. This operation is valid because 8 and 4 have one set bit each. The array becomes [4,8,2,30,15].
+- Swap nums[1] with nums[2]. This operation is valid because 8 and 2 have one set bit each. The array becomes [4,2,8,30,15].
+- Swap nums[0] with nums[1]. This operation is valid because 4 and 2 have one set bit each. The array becomes [2,4,8,30,15].
+- Swap nums[3] with nums[4]. This operation is valid because 30 and 15 have four set bits each. The array becomes [2,4,8,15,30].
+The array has become sorted, hence we return true.
+Note that there may be other sequences of operations which also sort the array.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -50,6 +93,28 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution(object):
+    def canSortArray(self, nums):
+        prev_max = 0
+        i = 0
+        n = len(nums)
+        while i < n:
+            pc = bin(nums[i]).count('1')
+            lo = hi = nums[i]
+            j = i + 1
+            while j < n and bin(nums[j]).count('1') == pc:
+                lo = min(lo, nums[j])
+                hi = max(hi, nums[j])
+                j += 1
+            if lo < prev_max:
+                return False
+            prev_max = hi
+            i = j
+        return True
+```
+
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -63,9 +128,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
+- [1752. Check if Array Is Sorted and Rotated](../../1501-2000/1878-check-if-array-is-sorted-and-rotated/)
+- [2018. Check if Word Can Be Placed In Crossword](../../2001-2500/2146-check-if-word-can-be-placed-in-crossword/)
+- [2116. Check if a Parentheses String Can Be Valid](../../2001-2500/2221-check-if-a-parentheses-string-can-be-valid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-if-array-can-be-sorted/)

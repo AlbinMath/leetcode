@@ -16,26 +16,46 @@ Solve LeetCode Reverse Linked List II using JavaScript and Two Pointers. This so
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given the  head  of a singly linked list and two integers  left  and  right  where  left <= right , reverse the nodes of the list from position  left  to position  right , and return  the reversed list .
+## Problem Statement
+Given the `head` of a singly linked list and two integers `left` and `right` where `left <= right`, reverse the nodes of the list from position `left` to position `right`, and return *the reversed list*.
+
+## Constraints
+- The number of nodes in the list is `n`.
+- `1 <= n <= 500`
+- `-500 <= Node.val <= 500`
+- `1 <= left <= right <= n`
+
+## Examples
+### Example 1
+- **Input:** `head = [1,2,3,4,5], left = 2, right = 4`
+- **Output:** `[1,4,3,2,5]`
+
+### Example 2
+- **Input:** `head = [5], left = 1, right = 1`
+- **Output:** `[5]`
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Reverse Linked List II**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Reverse Linked List II**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [1,2,3,4,5], left = 2, right = 4`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,4,3,2,5]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +70,34 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var reverseBetween = function(head, left, right) {
+    const dummy = new ListNode(0);
+    dummy.next = head;
+
+    let prev = dummy;
+
+    // Move to the node just before position left
+    for (let i = 1; i < left; i++) {
+        prev = prev.next;
+    }
+
+    // Start reversing the sublist
+    let curr = prev.next;
+
+    for (let i = 0; i < right - left; i++) {
+        const next = curr.next;
+
+        curr.next = next.next;
+        next.next = prev.next;
+        prev.next = next;
+    }
+
+    return dummy.next;
+};
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

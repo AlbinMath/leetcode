@@ -16,26 +16,70 @@ Solve LeetCode Number of Steps to Reduce a Number in Binary Representation to On
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given the binary representation of an integer as a string  s , return  the number of steps to reduce it to   1   under the following rules :
+## Problem Statement
+Given the binary representation of an integer as a string `s`, return *the number of steps to reduce it to *`1`* under the following rules*:
+
+If the current number is even, you have to divide it by `2`.
+
+If the current number is odd, you have to add `1` to it.
+
+It is guaranteed that you can always reach one for all test cases.
+
+## Constraints
+- `1 <= s.length <= 500`
+- `s` consists of characters '0' or '1'
+- `s[0] == '1'`
+
+## Examples
+### Example 1
+- **Input:** `s = "1101"`
+- **Output:** `6`
+- **Explanation:** "1101" corressponds to number 13 in their decimal representation.
+Step 1) 13 is odd, add 1 and obtain 14. 
+Step 2) 14 is even, divide by 2 and obtain 7.
+Step 3) 7 is odd, add 1 and obtain 8.
+Step 4) 8 is even, divide by 2 and obtain 4. 
+Step 5) 4 is even, divide by 2 and obtain 2. 
+Step 6) 2 is even, divide by 2 and obtain 1.
+
+### Example 2
+- **Input:** `s = "10"`
+- **Output:** `1`
+- **Explanation:** "10" corresponds to number 2 in their decimal representation.
+Step 1) 2 is even, divide by 2 and obtain 1.
+
+### Example 3
+- **Input:** `s = "1"`
+- **Output:** `0`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Number of Steps to Reduce a Number in Binary Representation to One**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Number of Steps to Reduce a Number in Binary Representation to One**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "1101"`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `6`.
+4. **Verification:** "1101" corressponds to number 13 in their decimal representation.
+Step 1) 13 is odd, add 1 and obtain 14. 
+Step 2) 14 is even, divide by 2 and obtain 7.
+Step 3) 7 is odd, add 1 and obtain 8.
+Step 4) 8 is even, divide by 2 and obtain 4. 
+Step 5) 4 is even, divide by 2 and obtain 2. 
+Step 6) 2 is even, divide by 2 and obtain 1.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +93,21 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def numSteps(self, s: str) -> int:
+        steps = 0
+        carry = 0
+        for i in range(len(s) - 1, 0, -1):
+            if int(s[i]) + carry == 1:
+                steps += 2
+                carry = 1
+            else:
+                steps += 1
+        return steps + carry
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

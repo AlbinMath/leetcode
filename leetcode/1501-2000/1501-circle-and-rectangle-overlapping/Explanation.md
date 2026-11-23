@@ -16,8 +16,30 @@ Solve LeetCode Circle and Rectangle Overlapping using JavaScript and Math & Logi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a circle represented as  (radius, xCenter, yCenter)  and an axis-aligned rectangle represented as  (x1, y1, x2, y2) , where  (x1, y1)  are the coordinates of the bottom-left corner, and  (x2, y2)  are the coordinates of the top-right corner of the rectangle.
+## Problem Statement
+You are given a circle represented as `(radius, xCenter, yCenter)` and an axis-aligned rectangle represented as `(x1, y1, x2, y2)`, where `(x1, y1)` are the coordinates of the bottom-left corner, and `(x2, y2)` are the coordinates of the top-right corner of the rectangle.
+
+Return `true`* if the circle and rectangle are overlapped otherwise return *`false`. In other words, check if there is **any** point `(x_i, y_i)` that belongs to the circle and the rectangle at the same time.
+
+## Constraints
+- `1 <= radius <= 2000`
+- `-10^4 <= xCenter, yCenter <= 10^4`
+- `-10^4 <= x1 < x2 <= 10^4`
+- `-10^4 <= y1 < y2 <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `radius = 1, xCenter = 0, yCenter = 0, x1 = 1, y1 = -1, x2 = 3, y2 = 1`
+- **Output:** `true`
+- **Explanation:** Circle and rectangle share the point (1,0).
+
+### Example 2
+- **Input:** `radius = 1, xCenter = 1, yCenter = 1, x1 = 1, y1 = -3, x2 = 2, y2 = -1`
+- **Output:** `false`
+
+### Example 3
+- **Input:** `radius = 1, xCenter = 0, yCenter = 0, x1 = -1, y1 = 0, x2 = 0, y2 = 1`
+- **Output:** `true`
 
 ## Key Insight
 Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
@@ -32,12 +54,17 @@ Time and space complexity are both $O(1)$.
 2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Circle and Rectangle Overlapping**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `radius = 1, xCenter = 0, yCenter = 0, x1 = 1, y1 = -1, x2 = 3, y2 = 1`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Circle and rectangle share the point (1,0).
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
 **Math & Logic**
@@ -52,6 +79,32 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {number} radius
+ * @param {number} xCenter
+ * @param {number} yCenter
+ * @param {number} x1
+ * @param {number} y1
+ * @param {number} x2
+ * @param {number} y2
+ * @return {boolean}
+ */
+var checkOverlap = function(radius, xCenter, yCenter, x1, y1, x2, y2) {
+    // Find the closest point in the rectangle to the circle's center
+    const closestX = Math.max(x1, Math.min(xCenter, x2));
+    const closestY = Math.max(y1, Math.min(yCenter, y2));
+
+    // Distance from circle center to closest point
+    const dx = xCenter - closestX;
+    const dy = yCenter - closestY;
+
+    // Check if the point is inside or on the circle
+    return dx * dx + dy * dy <= radius * radius;
+};
+```
+
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,9 +118,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [435. Non-overlapping Intervals](../../0001-0500/0435-non-overlapping-intervals/)
-- [497. Random Point in Non-overlapping Rectangles](../../0501-1000/0914-random-point-in-non-overlapping-rectangles/)
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
+- [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
+- [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/circle-and-rectangle-overlapping/)

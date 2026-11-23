@@ -16,26 +16,52 @@ Solve LeetCode Determine if String Halves Are Alike using C++ and Array / Genera
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string  s  of even length. Split this string into two halves of equal lengths, and let  a  be the first half and  b  be the second half.
+## Problem Statement
+You are given a string `s` of even length. Split this string into two halves of equal lengths, and let `a` be the first half and `b` be the second half.
+
+Two strings are **alike** if they have the same number of vowels (`'a'`, `'e'`, `'i'`, `'o'`, `'u'`, `'A'`, `'E'`, `'I'`, `'O'`, `'U'`). Notice that `s` contains uppercase and lowercase letters.
+
+Return `true`* if *`a`* and *`b`* are **alike***. Otherwise, return `false`.
+
+## Constraints
+- `2 <= s.length <= 1000`
+- `s.length` is even.
+- `s` consists of **uppercase and lowercase** letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "book"`
+- **Output:** `true`
+- **Explanation:** a = "b o " and b = " o k". a has 1 vowel and b has 1 vowel. Therefore, they are alike.
+
+### Example 2
+- **Input:** `s = "textbook"`
+- **Output:** `false`
+- **Explanation:** a = "t e xt" and b = "b oo k". a has 1 vowel whereas b has 2. Therefore, they are not alike.
+Notice that the vowel o is counted twice.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Determine if String Halves Are Alike**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Determine if String Halves Are Alike**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "book"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** a = "b o " and b = " o k". a has 1 vowel and b has 1 vowel. Therefore, they are alike.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +74,33 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    bool halvesAreAlike(string s) {
+        int n = s.size();
+        int count = 0;
+
+        string vowels = "aeiouAEIOU";
+
+        for (int i = 0; i < n / 2; i++) {
+            if (vowels.find(s[i]) != string::npos) {
+                count++;
+            }
+        }
+
+        for (int i = n / 2; i < n; i++) {
+            if (vowels.find(s[i]) != string::npos) {
+                count--;
+            }
+        }
+
+        return count == 0;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

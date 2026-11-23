@@ -16,26 +16,56 @@ Solve LeetCode Number of Centered Subarrays using Python and Array / General. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums .
+## Problem Statement
+You are given an integer array `nums`.
+
+A ** subarray ** of `nums` is called **centered** if the sum of its elements is **equal to at least one** element within that **same subarray**.
+
+Return the number of **centered subarrays** of `nums`.
+
+## Constraints
+- `1 <= nums.length <= 500`
+- `-10^5 <= nums[i] <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `nums = [-1,1,0]`
+- **Output:** `5`
+- **Explanation:** All single-element subarrays (`[-1]`, `[1]`, `[0]`) are centered. 
+ The subarray `[1, 0]` has a sum of 1, which is present in the subarray. 
+ The subarray `[-1, 1, 0]` has a sum of 0, which is present in the subarray. 
+ Thus, the answer is 5.
+
+### Example 2
+- **Input:** `nums = [2,-3]`
+- **Output:** `2`
+- **Explanation:** Only single-element subarrays (`[2]`, `[-3]`) are centered.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Number of Centered Subarrays**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Number of Centered Subarrays**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [-1,1,0]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** All single-element subarrays (`[-1]`, `[1]`, `[0]`) are centered. 
+ The subarray `[1, 0]` has a sum of 1, which is present in the subarray. 
+ The subarray `[-1, 1, 0]` has a sum of 0, which is present in the subarray. 
+ Thus, the answer is 5.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +78,25 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def centeredSubarrays(self, nums: List[int]) -> int:
+        n = len(nums)
+        ans = 0
+        for i in range(n):
+            seen = set()
+            total = 0
+            for j in range(i, n):
+                total += nums[j]
+                seen.add(nums[j])
+                if total in seen:
+                    ans += 1
+        return ans
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

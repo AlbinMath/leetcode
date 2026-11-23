@@ -16,8 +16,52 @@ Solve LeetCode Find X Value of Array I using JavaScript and Binary Search. This 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array of  positive  integers  nums , and a  positive  integer  k .
+## Problem Statement
+You are given an array of **positive** integers `nums`, and a **positive** integer `k`.
+
+You are allowed to perform an operation **once** on `nums`, where in each operation you can remove any **non-overlapping** prefix and suffix from `nums` such that `nums` remains **non-empty**.
+
+You need to find the **x-value** of `nums`, which is the number of ways to perform this operation so that the **product** of the remaining elements leaves a *remainder* of `x` when divided by `k`.
+
+Return an array `result` of size `k` where `result[x]` is the **x-value** of `nums` for `0 <= x <= k - 1`.
+
+A **prefix** of an array is a subarray that starts from the beginning of the array and extends to any point within it.
+
+A **suffix** of an array is a subarray that starts at any point within the array and extends to the end of the array.
+
+**Note** that the prefix and suffix to be chosen for the operation can be **empty**.
+
+## Constraints
+- `1 <= nums[i] <= 10^9`
+- `1 <= nums.length <= 10^5`
+- `1 <= k <= 5`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,3,4,5], k = 3`
+- **Output:** `[9,2,4]`
+- **Explanation:** For `x = 0`, the possible operations include all possible ways to remove non-overlapping prefix/suffix that do not remove `nums[2] == 3`. 
+ For `x = 1`, the possible operations are:
+ 
+ Remove the empty prefix and the suffix `[2, 3, 4, 5]`. `nums` becomes `[1]`. 
+ Remove the prefix `[1, 2, 3]` and the suffix `[5]`. `nums` becomes `[4]`. 
+ 
+ 
+ For `x = 2`, the possible operations are:
+ 
+ Remove the empty prefix and the suffix `[3, 4, 5]`. `nums` becomes `[1, 2]`. 
+ Remove the prefix `[1]` and the suffix `[3, 4, 5]`. `nums` becomes `[2]`. 
+ Remove the prefix `[1, 2, 3]` and the empty suffix. `nums` becomes `[4, 5]`. 
+ Remove the prefix `[1, 2, 3, 4]` and the empty suffix. `nums` becomes `[5]`.
+
+### Example 2
+- **Input:** `nums = [1,2,4,8,16,32], k = 4`
+- **Output:** `[18,1,2,0]`
+- **Explanation:** For `x = 0`, the only operations that
+
+### Example 3
+- **Input:** `nums = [1,1,2,1,1], k = 2`
+- **Output:** `[9,6]`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -40,12 +84,29 @@ The code uses **Dynamic Programming** to count the products of all possible cont
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Find X Value of Array I**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,3,4,5], k = 3`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[9,2,4]`.
+4. **Verification:** For `x = 0`, the possible operations include all possible ways to remove non-overlapping prefix/suffix that do not remove `nums[2] == 3`. 
+ For `x = 1`, the possible operations are:
+ 
+ Remove the empty prefix and the suffix `[2, 3, 4, 5]`. `nums` becomes `[1]`. 
+ Remove the prefix `[1, 2, 3]` and the suffix `[5]`. `nums` becomes `[4]`. 
+ 
+ 
+ For `x = 2`, the possible operations are:
+ 
+ Remove the empty prefix and the suffix `[3, 4, 5]`. `nums` becomes `[1, 2]`. 
+ Remove the prefix `[1]` and the suffix `[3, 4, 5]`. `nums` becomes `[2]`. 
+ Remove the prefix `[1, 2, 3]` and the empty suffix. `nums` becomes `[4, 5]`. 
+ Remove the prefix `[1, 2, 3, 4]` and the empty suffix. `nums` becomes `[5]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -60,6 +121,47 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number[]}
+ */
+var resultArray = function(nums, k) {
+    const result = new Array(k).fill(0);
+
+    // dp[r] = number of subarrays ending at previous position
+    // whose product % k == r
+    let dp = new Array(k).fill(0);
+
+    for (const num of nums) {
+        const x = num % k;
+        const next = new Array(k).fill(0);
+
+        // Subarray consisting only of the current element
+        next[x]++;
+
+        // Extend every previous subarray
+        for (let r = 0; r < k; r++) {
+            if (dp[r] > 0) {
+                const newRemainder = (r * x) % k;
+                next[newRemainder] += dp[r];
+            }
+        }
+
+        // All subarrays ending here contribute to the answer
+        for (let r = 0; r < k; r++) {
+            result[r] += next[r];
+        }
+
+        dp = next;
+    }
+
+    return result;
+};
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

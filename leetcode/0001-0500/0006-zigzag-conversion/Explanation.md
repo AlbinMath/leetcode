@@ -16,8 +16,40 @@ Solve LeetCode Zigzag Conversion using Python and Tree & Graph. This solution fi
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-The string  "PAYPALISHIRING"  is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+## Problem Statement
+The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P A H N
+A P L S I I G
+Y I R
+
+And then read line by line: `"PAHNAPLSIIGYIR"`
+
+Write the code that will take a string and make this conversion given a number of rows:
+
+string convert(string s, int numRows);
+
+## Constraints
+- `1 <= s.length <= 1000`
+- `s` consists of English letters (lower-case and upper-case), `','` and `'.'`.
+- `1 <= numRows <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `s = "PAYPALISHIRING", numRows = 3`
+- **Output:** `"PAHNAPLSIIGYIR"`
+
+### Example 2
+- **Input:** `s = "PAYPALISHIRING", numRows = 4`
+- **Output:** `"PINALSIGYAHRPI"`
+- **Explanation:** P I N
+A L S I G
+Y A H R
+P I
+
+### Example 3
+- **Input:** `s = "A", numRows = 1`
+- **Output:** `"A"`
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
@@ -39,12 +71,16 @@ The code simulates the process of writing characters into rows, changing directi
 2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Zigzag Conversion**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "PAYPALISHIRING", numRows = 3`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"PAHNAPLSIIGYIR"`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -61,6 +97,30 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution(object):
+    def convert(self, s, numRows):
+        if numRows == 1 or numRows >= len(s):
+            return s
+
+        rows = [""] * numRows
+        current_row = 0
+        direction = 1
+
+        for char in s:
+            rows[current_row] += char
+
+            if current_row == 0:
+                direction = 1
+            elif current_row == numRows - 1:
+                direction = -1
+
+            current_row += direction
+
+        return "".join(rows)
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -74,9 +134,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3497. Analyze Subscription Conversion ](../../3501-4000/3848-analyze-subscription-conversion-/)
+- [3528. Unit Conversion I](../../3501-4000/3729-unit-conversion-i/)
 - [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
-- [1104. Path In Zigzag Labelled Binary Tree](../../1001-1500/1194-path-in-zigzag-labelled-binary-tree/)
-- [1372. Longest ZigZag Path in a Binary Tree](../../1001-1500/1474-longest-zigzag-path-in-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/zigzag-conversion/)

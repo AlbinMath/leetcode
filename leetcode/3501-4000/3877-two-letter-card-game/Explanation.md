@@ -1,7 +1,7 @@
 # LeetCode 3664: Two-Letter Card Game
 
 **LeetCode Problem #3664 — Two-Letter Card Game**
-Solve LeetCode Two-Letter Card Game using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Two-Letter Card Game using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,90 @@ Solve LeetCode Two-Letter Card Game using Python and Array / General. This solut
 | LeetCode | #3664 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-You are given a deck of cards represented by a string array  cards , and each card displays two lowercase letters.
+## Problem Statement
+You are given a deck of cards represented by a string array `cards`, and each card displays two lowercase letters.
+
+You are also given a letter `x`. You play a game with the following rules:
+
+Start with 0 points. 
+ On each turn, you must find two **compatible** cards from the deck that both contain the letter `x` in any position. 
+ Remove the pair of cards and earn **1 point**. 
+ The game ends when you can no longer find a pair of compatible cards.
+
+Return the **maximum** number of points you can gain with optimal play.
+
+Two cards are **compatible** if the strings differ in **exactly** 1 position.
+
+## Constraints
+- `2 <= cards.length <= 10^5`
+- `cards[i].length == 2`
+- Each `cards[i]` is composed of only lowercase English letters between `'a'` and `'j'`.
+- `x` is a lowercase English letter between `'a'` and `'j'`.
+
+## Examples
+### Example 1
+- **Input:** `cards = ["aa","ab","ba","ac"], x = "a"`
+- **Output:** `2`
+- **Explanation:** On the first turn, select and remove cards `"ab"` and `"ac"`, which are compatible because they differ at only index 1. 
+ On the second turn, select and remove cards `"aa"` and `"ba"`, which are compatible because they differ at only index 0. 
+ 
+
+ Because there are no more compatible pairs, the total score is 2.
+
+### Example 2
+- **Input:** `cards = ["aa","ab","ba"], x = "a"`
+- **Output:** `1`
+- **Explanation:** On the first turn, select and remove cards `"aa"` and `"ba"`. 
+ 
+
+ Because there are no more compatible pairs, the total score is 1.
+
+### Example 3
+- **Input:** `cards = ["aa","ab","ba","ac"], x = "b"`
+- **Output:** `0`
+- **Explanation:** The only cards that contain the character `'b'` are `"ab"` and `"ba"`. However, they differ in both indices, so they are not compatible. Thus, the output is 0.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Two-Letter Card Game**, we observe the problem requirements and utilize the **Array / General** technique. By maintaining a **Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Array** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Two-Letter Card Game**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `cards = ["aa","ab","ba","ac"], x = "a"`.
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** On the first turn, select and remove cards `"ab"` and `"ac"`, which are compatible because they differ at only index 1. 
+ On the second turn, select and remove cards `"aa"` and `"ba"`, which are compatible because they differ at only index 0. 
+ 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ Because there are no more compatible pairs, the total score is 2.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Array / General**
+**Hash Map**
 
 ## Topics
+- Hash Table
 - Array
+- Complement Lookup
 
 ## Language
 Python
@@ -49,22 +101,60 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+from collections import Counter
+
+class Solution:
+    def score(self, cards: List[str], x: str) -> int:
+        k = 0
+        A, B = Counter(), Counter()
+        for c in cards:
+            if c == x + x:
+                k += 1
+            elif c[0] == x:
+                A[c[1]] += 1
+            elif c[1] == x:
+                B[c[0]] += 1
+
+        def solve(cnt):
+            s = sum(cnt.values())
+            if s == 0:
+                return 0, 0
+            m = max(cnt.values())
+            p = min(s // 2, s - m)
+            return p, s - 2 * p
+
+        pa, la = solve(A)
+        pb, lb = solve(B)
+        pairs = pa + pb
+        ans = pairs
+
+        use = min(k, la + lb)       # xx pairs with leftover cards
+        ans += use
+        k -= use
+
+        ans += min(k // 2, pairs)   # 2 xx break a pair into two pairs
+        return ans
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
-- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
+- [744. Find Smallest Letter Greater Than Target](../../0501-1000/0745-find-smallest-letter-greater-than-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-letter-card-game/)

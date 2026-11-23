@@ -16,26 +16,53 @@ Solve LeetCode Beautiful Towers I using Python and Array / General. This solutio
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  heights  of  n  integers representing the number of bricks in  n  consecutive towers. Your task is to remove some bricks to form a  mountain-shaped  tower arrangement. In this arrangement, the tower heights are non-decreasing, reaching a maximum peak value with one or multiple consecutive towers and then non-increasing.
+## Problem Statement
+You are given an array `heights` of `n` integers representing the number of bricks in `n` consecutive towers. Your task is to remove some bricks to form a **mountain-shaped** tower arrangement. In this arrangement, the tower heights are non-decreasing, reaching a maximum peak value with one or multiple consecutive towers and then non-increasing.
+
+Return the **maximum possible sum** of heights of a mountain-shaped tower arrangement.
+
+## Constraints
+- `1 <= n == heights.length <= 10^3`
+- `1 <= heights[i] <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `heights = [5,3,4,1,1]`
+- **Output:** `13`
+- **Explanation:** We remove some bricks to make `heights = [5,3,3,1,1]`, the peak is at index 0.
+
+### Example 2
+- **Input:** `heights = [6,5,3,9,2,7]`
+- **Output:** `22`
+- **Explanation:** We remove some bricks to make `heights = [3,3,3,9,2,2]`, the peak is at index 3.
+
+### Example 3
+- **Input:** `heights = [3,2,5,5,2,3]`
+- **Output:** `18`
+- **Explanation:** We remove some bricks to make `heights = [2,2,5,5,2,2]`, the peak is at index 2 or 3.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Beautiful Towers I**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Beautiful Towers I**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `heights = [5,3,4,1,1]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `13`.
+4. **Verification:** We remove some bricks to make `heights = [5,3,3,1,1]`, the peak is at index 0.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +75,28 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def maximumSumOfHeights(self, heights: List[int]) -> int:
+        n = len(heights)
+        best = 0
+        for p in range(n):
+            total = heights[p]
+            cur = heights[p]
+            for i in range(p - 1, -1, -1):
+                cur = min(cur, heights[i])
+                total += cur
+            cur = heights[p]
+            for i in range(p + 1, n):
+                cur = min(cur, heights[i])
+                total += cur
+            best = max(best, total)
+        return best
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

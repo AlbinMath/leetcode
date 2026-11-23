@@ -16,26 +16,46 @@ Solve LeetCode Check if Binary String Has at Most One Segment of Ones using C++ 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a binary string  s   ​​​​​without leading zeros , return  true ​​​  if   s   contains  at most one contiguous segment of ones  . Otherwise, return  false .
+## Problem Statement
+Given a binary string `s` **​​​​​without leading zeros**, return `true`​​​ *if *`s`* contains **at most one contiguous segment of ones***. Otherwise, return `false`.
+
+## Constraints
+- `1 <= s.length <= 100`
+- `s[i]`​​​​ is either `'0'` or `'1'`.
+- `s[0]` is `'1'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "1001"`
+- **Output:** `false`
+- **Explanation:** The string has two segments of size 1.
+
+### Example 2
+- **Input:** `s = "110"`
+- **Output:** `true`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Check if Binary String Has at Most One Segment of Ones**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Check if Binary String Has at Most One Segment of Ones**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "1001"`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `false`.
+4. **Verification:** The string has two segments of size 1.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +69,22 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    bool checkOnesSegment(string s) {
+        for (int i = 1; i < s.length(); i++) {
+            if (s[i] == '1' && s[i - 1] == '0') {
+                return false;
+            }
+        }
+
+        return true;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

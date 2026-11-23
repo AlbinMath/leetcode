@@ -16,8 +16,39 @@ Solve LeetCode Valid Parentheses using JavaScript, Python and Stack & Queue. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a string  s  containing just the characters  &#39;(&#39; ,  &#39;)&#39; ,  &#39;{&#39; ,  &#39;}&#39; ,  &#39;[&#39;  and  &#39;]&#39; , determine if the input string is valid.
+## Problem Statement
+Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets. 
+ Open brackets must be closed in the correct order. 
+ Every close bracket has a corresponding open bracket of the same type.
+
+## Constraints
+- `1 <= s.length <= 10^4`
+- `s` consists of parentheses only `'()[]{}'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "()"`
+- **Output:** `true`
+
+### Example 2
+- **Input:** `s = "()[]{}"`
+- **Output:** `true`
+
+### Example 3
+- **Input:** `s = "(]"`
+- **Output:** `false`
+
+### Example 4
+- **Input:** `s = "([])"`
+- **Output:** `true`
+
+### Example 5
+- **Input:** `s = "([)]"`
+- **Output:** `false`
 
 ## Key Insight
 Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
@@ -39,12 +70,16 @@ Time complexity is $O(N)$ and space complexity is $O(N)$ in the worst case.
 2. Process elements sequentially using **Stack Push / Pop Parsing**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Valid Parentheses**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "()"`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Stack & Queue**
@@ -59,6 +94,56 @@ JavaScript, Python
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var isValid = function(s) {
+    const stack = [];
+    const pairs = {
+        ')': '(',
+        '}': '{',
+        ']': '['
+    };
+
+    for (const char of s) {
+        if (char === '(' || char === '{' || char === '[') {
+            stack.push(char);
+        } else {
+            if (
+                stack.length === 0 ||
+                stack.pop() !== pairs[char]
+            ) {
+                return false;
+            }
+        }
+    }
+
+    return stack.length === 0;
+};
+```
+
+### Python
+```python
+class Solution:
+    def isValid(self, s: str) -> bool:
+        stack = []
+        pairs = {
+            ')': '(',
+            '}': '{',
+            ']': '['
+        }
+
+        for ch in s:
+            if ch in '([{':
+                stack.append(ch)
+            else:
+                if not stack or stack[-1] != pairs[ch]:
+                    return False
+                stack.pop()
+
+        return len(stack) == 0
+```
 
 ## Why This Works
 By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

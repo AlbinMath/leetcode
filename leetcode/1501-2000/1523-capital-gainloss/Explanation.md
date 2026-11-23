@@ -16,26 +16,101 @@ Solve LeetCode Capital Gain/Loss using SQL and Database / SQL. This solution fin
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Stocks`
+
 +---------------+---------+
+| Column Name | Type |
++---------------+---------+
+| stock_name | varchar |
+| operation | enum |
+| operation_day | int |
+| price | int |
++---------------+---------+
+(stock_name, operation_day) is the primary key (combination of columns with unique values) for this table.
+The operation column is an ENUM (category) of type ('Sell', 'Buy')
+Each row of this table indicates that the stock which has stock_name had an operation on the day operation_day with the price.
+It is guaranteed that each 'Sell' operation for a stock has a corresponding 'Buy' operation in a previous day. It is also guaranteed that each 'Buy' operation for a stock has a corresponding 'Sell' operation in an upcoming day.
+
+Write a solution to report the **Capital gain/loss** for each stock.
+
+The **Capital gain/loss** of a stock is the total gain or loss after buying and selling the stock one or many times.
+
+Return the result table in **any order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Stocks table:
++---------------+-----------+---------------+--------+
+| stock_name | operation | operation_day | price |
++---------------+-----------+---------------+--------+
+| Leetcode | Buy | 1 | 1000 |
+| Corona Masks | Buy | 2 | 10 |
+| Leetcode | Sell | 5 | 9000 |
+| Handbags | Buy | 17 | 30000 |
+| Corona Masks | Sell | 3 | 1010 |
+| Corona Masks | Buy | 4 | 1000 |
+| Corona Masks | Sell | 5 | 500 |
+| Corona Masks | Buy | 6 | 1000 |
+| Handbags | Sell | 29 | 7000 |
+| Corona Masks | Sell | 10 | 10000 |
++---------------+-----------+---------------+--------+`
+- **Output:** `+---------------+-------------------+
+| stock_name | capital_gain_loss |
++---------------+-------------------+
+| Corona Masks | 9500 |
+| Leetcode | 8000 |
+| Handbags | -23000 |
++---------------+-------------------+`
+- **Explanation:** Leetcode stock was bought at day 1 for 1000$ and was sold at day 5 for 9000$. Capital gain = 9000 - 1000 = 8000$.
+Handbags stock was bought at day 17 for 30000$ and was sold at day 29 for 7000$. Capital loss = 7000 - 30000 = -23000$.
+Corona Masks stock was bought at day 1 for 10$ and was sold at day 3 for 1010$. It was bought again at day 4 for 1000$ and was sold at day 5 for 500$. At last, it was bought at day 6 for 1000$ and was sold at day 10 for 10000$. Capital gain/loss is the sum of capital gains/losses for each ('Buy' --> 'Sell') operation = (1010 - 10) + (500 - 1000) + (10000 - 1000) = 1000 - 500 + 9000 = 9500$.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Capital Gain/Loss** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We group records using `GROUP BY` and compute metrics with aggregate functions.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Group records and calculate aggregated summary metrics.
+2. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Capital Gain/Loss**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Stocks table:
++---------------+-----------+---------------+--------+
+| stock_name | operation | operation_day | price |
++---------------+-----------+---------------+--------+
+| Leetcode | Buy | 1 | 1000 |
+| Corona Masks | Buy | 2 | 10 |
+| Leetcode | Sell | 5 | 9000 |
+| Handbags | Buy | 17 | 30000 |
+| Corona Masks | Sell | 3 | 1010 |
+| Corona Masks | Buy | 4 | 1000 |
+| Corona Masks | Sell | 5 | 500 |
+| Corona Masks | Buy | 6 | 1000 |
+| Handbags | Sell | 29 | 7000 |
+| Corona Masks | Sell | 10 | 10000 |
++---------------+-----------+---------------+--------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+---------------+-------------------+
+| stock_name | capital_gain_loss |
++---------------+-------------------+
+| Corona Masks | 9500 |
+| Leetcode | 8000 |
+| Handbags | -23000 |
++---------------+-------------------+`.
+4. **Verification:** Leetcode stock was bought at day 1 for 1000$ and was sold at day 5 for 9000$. Capital gain = 9000 - 1000 = 8000$.
+Handbags stock was bought at day 17 for 30000$ and was sold at day 29 for 7000$. Capital loss = 7000 - 30000 = -23000$.
+Corona Masks stock was bought at day 1 for 10$ and was sold at day 3 for 1010$. It was bought again at day 4 for 1000$ and was sold at day 5 for 500$. At last, it was bought at day 6 for 1000$ and was sold at day 10 for 10000$. Capital gain/loss is the sum of capital gains/losses for each ('Buy' --> 'Sell') operation = (1010 - 10) + (500 - 1000) + (10000 - 1000) = 1000 - 500 + 9000 = 9500$.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +125,20 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT
+    stock_name,
+    SUM(
+        CASE
+            WHEN operation = 'Sell' THEN price
+            WHEN operation = 'Buy' THEN -price
+        END
+    ) AS capital_gain_loss
+FROM Stocks
+GROUP BY stock_name;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

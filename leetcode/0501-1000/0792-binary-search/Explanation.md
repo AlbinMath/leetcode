@@ -16,26 +16,51 @@ Solve LeetCode Binary Search using Python and Binary Search. This solution finds
 | Time Complexity | O(log n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array of integers  nums  which is sorted in ascending order, and an integer  target , write a function to search  target  in  nums . If  target  exists, then return its index. Otherwise, return  -1 .
+## Problem Statement
+Given an array of integers `nums` which is sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target` exists, then return its index. Otherwise, return `-1`.
+
+You must write an algorithm with `O(log n)` runtime complexity.
+
+## Constraints
+- `1 <= nums.length <= 10^4`
+- `-10^4 < nums[i], target < 10^4`
+- All the integers in `nums` are **unique**.
+- `nums` is sorted in ascending order.
+
+## Examples
+### Example 1
+- **Input:** `nums = [-1,0,3,5,9,12], target = 9`
+- **Output:** `4`
+- **Explanation:** 9 exists in nums and its index is 4
+
+### Example 2
+- **Input:** `nums = [-1,0,3,5,9,12], target = 2`
+- **Output:** `-1`
+- **Explanation:** 2 does not exist in nums so return -1
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Modified Binary Search**. By maintaining state efficiently in a **Sorted Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Binary Search**, we observe the problem requirements and utilize the **Binary Search** technique. Exploiting monotonic ordering or sorted properties in the input space, we maintain `left` and `right` boundary pointers. In each iteration, we evaluate the midpoint to discard half of the search range, reducing the time complexity to $O(\log n)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize boundary pointers `left` and `right`.
+2. Compute `mid = left + (right - left) // 2` to prevent overflow.
+3. Adjust `left` or `right` depending on whether target satisfies the partition condition.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Binary Search**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [-1,0,3,5,9,12], target = 9`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** 9 exists in nums and its index is 4
 
-## Complexity
-- **Time Complexity:** O(log n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(log n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -50,6 +75,22 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def search(self, nums, target):
+        l, r = 0, len(nums)-1
+        while l <= r:
+            m = (l+r)//2
+            if nums[m] == target:
+                return m
+            if nums[m] < target:
+                l = m+1
+            else:
+                r = m-1
+        return -1
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

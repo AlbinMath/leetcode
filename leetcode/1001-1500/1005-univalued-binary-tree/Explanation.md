@@ -16,26 +16,46 @@ Solve LeetCode Univalued Binary Tree using Python and Binary Search. This soluti
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-A binary tree is  uni-valued  if every node in the tree has the same value.
+## Problem Statement
+A binary tree is **uni-valued** if every node in the tree has the same value.
+
+Given the `root` of a binary tree, return `true`* if the given tree is **uni-valued**, or *`false`* otherwise.*
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 100]`.
+- `0 <= Node.val < 100`
+
+## Examples
+### Example 1
+- **Input:** `root = [1,1,1,1,1,null,1]`
+- **Output:** `true`
+
+### Example 2
+- **Input:** `root = [2,2,2,5,2]`
+- **Output:** `false`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Univalued Binary Tree**, we observe the problem requirements and utilize the **Binary Search** technique. Exploiting monotonic ordering or sorted properties in the input space, we maintain `left` and `right` boundary pointers. In each iteration, we evaluate the midpoint to discard half of the search range, reducing the time complexity to $O(\log n)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize boundary pointers `left` and `right`.
+2. Compute `mid = left + (right - left) // 2` to prevent overflow.
+3. Adjust `left` or `right` depending on whether target satisfies the partition condition.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Univalued Binary Tree**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [1,1,1,1,1,null,1]`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -50,6 +70,24 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def isUnivalTree(self, root: Optional[TreeNode]) -> bool:
+        value = root.val
+
+        def dfs(node):
+            if node is None:
+                return True
+
+            if node.val != value:
+                return False
+
+            return dfs(node.left) and dfs(node.right)
+
+        return dfs(root)
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

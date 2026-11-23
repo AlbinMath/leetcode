@@ -1,7 +1,7 @@
 # LeetCode 1447: Simplified Fractions
 
 **LeetCode Problem #1447 — Simplified Fractions**
-Solve LeetCode Simplified Fractions using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Simplified Fractions using Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,62 @@ Solve LeetCode Simplified Fractions using Python and Array / General. This solut
 | LeetCode | #1447 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  n , return  a list of all  simplified  fractions between   0   and   1   (exclusive) such that the denominator is less-than-or-equal-to   n . You can return the answer in  any order .
+## Problem Statement
+Given an integer `n`, return *a list of all **simplified** fractions between *`0`* and *`1`* (exclusive) such that the denominator is less-than-or-equal-to *`n`. You can return the answer in **any order**.
+
+## Constraints
+- `1 <= n <= 100`
+
+## Examples
+### Example 1
+- **Input:** `n = 2`
+- **Output:** `["1/2"]`
+- **Explanation:** "1/2" is the only unique fraction with a denominator less-than-or-equal-to 2.
+
+### Example 2
+- **Input:** `n = 3`
+- **Output:** `["1/2","1/3","2/3"]`
+
+### Example 3
+- **Input:** `n = 4`
+- **Output:** `["1/2","1/3","1/4","2/3","3/4"]`
+- **Explanation:** "2/4" is not a simplified fraction because it can be simplified to "1/2".
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Simplified Fractions**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Simplified Fractions**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 2`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["1/2"]`.
+4. **Verification:** "1/2" is the only unique fraction with a denominator less-than-or-equal-to 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 Python
@@ -49,8 +73,24 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from math import gcd
+
+class Solution(object):
+    def simplifiedFractions(self, n):
+        result = []
+
+        for denominator in range(2, n + 1):
+            for numerator in range(1, denominator):
+                if gcd(numerator, denominator) == 1:
+                    result.append(str(numerator) + "/" + str(denominator))
+
+        return result
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +102,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../../0001-0500/0027-remove-element/)
+- [48. Rotate Image](../../0001-0500/0048-rotate-image/)
+- [55. Jump Game](../../0001-0500/0055-jump-game/)
+- [118. Pascal's Triangle](../../0001-0500/0118-pascals-triangle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/simplified-fractions/)

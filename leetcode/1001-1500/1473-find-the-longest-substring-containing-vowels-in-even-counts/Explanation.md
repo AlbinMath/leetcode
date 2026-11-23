@@ -1,7 +1,7 @@
 # LeetCode 1371: Find the Longest Substring Containing Vowels in Even Counts
 
 **LeetCode Problem #1371 — Find the Longest Substring Containing Vowels in Even Counts**
-Solve LeetCode Find the Longest Substring Containing Vowels in Even Counts using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find the Longest Substring Containing Vowels in Even Counts using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,64 @@ Solve LeetCode Find the Longest Substring Containing Vowels in Even Counts using
 | LeetCode | #1371 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given the string  s , return the size of the longest substring containing each vowel an even number of times. That is, &#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39;, and &#39;u&#39; must appear an even number of times.
+## Problem Statement
+Given the string `s`, return the size of the longest substring containing each vowel an even number of times. That is, 'a', 'e', 'i', 'o', and 'u' must appear an even number of times.
+
+## Constraints
+- `1 <= s.length <= 5 x 10^5`
+- `s` contains only lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "eleetminicoworoep"`
+- **Output:** `13`
+- **Explanation:** The longest substring is "leetminicowor" which contains two each of the vowels:
+
+### Example 2
+- **Input:** `s = "leetcodeisgreat"`
+- **Output:** `5`
+- **Explanation:** The longest substring is "leetc" which contains two e's.
+
+### Example 3
+- **Input:** `s = "bcbcbc"`
+- **Output:** `6`
+- **Explanation:** In this case, the given string "bcbcbc" is the longest because all vowels:
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find the Longest Substring Containing Vowels in Even Counts**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find the Longest Substring Containing Vowels in Even Counts**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "eleetminicoworoep"`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `13`.
+4. **Verification:** The longest substring is "leetminicowor" which contains two each of the vowels:
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 Python
@@ -49,8 +75,29 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def findTheLongestSubstring(self, s: str) -> int:
+        bit = {'a': 1, 'e': 2, 'i': 4, 'o': 8, 'u': 16}
+        first = [-2] * 32
+        first[0] = -1
+        mask = 0
+        ans = 0
+
+        for j, ch in enumerate(s):
+            if ch in bit:
+                mask ^= bit[ch]
+            if first[mask] != -2:
+                ans = max(ans, j - first[mask])
+            else:
+                first[mask] = j
+
+        return ans
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

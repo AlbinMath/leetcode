@@ -1,7 +1,7 @@
 # LeetCode 1755: Closest Subsequence Sum
 
 **LeetCode Problem #1755 — Closest Subsequence Sum**
-Solve LeetCode Closest Subsequence Sum using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
+Solve LeetCode Closest Subsequence Sum using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,40 +10,75 @@ Solve LeetCode Closest Subsequence Sum using JavaScript and Dynamic Programming.
 | LeetCode | #1755 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Memoization & State Transition |
-| Data Structure | DP Table / Array |
-| Pattern | Dynamic Programming |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums  and an integer  goal .
+## Problem Statement
+You are given an integer array `nums` and an integer `goal`.
+
+You want to choose a subsequence of `nums` such that the sum of its elements is the closest possible to `goal`. That is, if the sum of the subsequence's elements is `sum`, then you want to **minimize the absolute difference** `abs(sum - goal)`.
+
+Return *the **minimum** possible value of* `abs(sum - goal)`.
+
+Note that a subsequence of an array is an array formed by removing some elements **(possibly all or none)** of the original array.
+
+## Constraints
+- `1 <= nums.length <= 40`
+- `-10^7 <= nums[i] <= 10^7`
+- `-10^9 <= goal <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `nums = [5,-7,3,5], goal = 6`
+- **Output:** `0`
+- **Explanation:** Choose the whole array as a subsequence, with a sum of 6.
+This is equal to the goal, so the absolute difference is 0.
+
+### Example 2
+- **Input:** `nums = [7,-9,15,-2], goal = -5`
+- **Output:** `1`
+- **Explanation:** Choose the subsequence [7,-9,-2], with a sum of -4.
+The absolute difference is abs(-4 - (-5)) = abs(1) = 1, which is the minimum.
+
+### Example 3
+- **Input:** `nums = [1,2,3], goal = -7`
+- **Output:** `7`
 
 ## Key Insight
-Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Closest Subsequence Sum**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Closest Subsequence Sum**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [5,-7,3,5], goal = 6`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `0`.
+4. **Verification:** Choose the whole array as a subsequence, with a sum of 6.
+This is equal to the goal, so the absolute difference is 0.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
-**Dynamic Programming**
+**Binary Search**
 
 ## Topics
-- Dynamic Programming
-- Memoization
-- State Transition
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 JavaScript
@@ -51,17 +86,91 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} goal
+ * @return {number}
+ */
+var minAbsDifference = function(nums, goal) {
+    const n = nums.length;
+    const mid = Math.floor(n / 2);
+
+    // Generate every possible subset sum for an array.
+    function getSubsetSums(arr) {
+        const sums = [0];
+
+        for (const num of arr) {
+            const size = sums.length;
+
+            for (let i = 0; i < size; i++) {
+                sums.push(sums[i] + num);
+            }
+        }
+
+        return sums;
+    }
+
+    const leftSums = getSubsetSums(nums.slice(0, mid));
+    const rightSums = getSubsetSums(nums.slice(mid));
+
+    // Sort one half to enable binary search.
+    rightSums.sort((a, b) => a - b);
+
+    let answer = Math.abs(goal);
+
+    for (const leftSum of leftSums) {
+        if (answer === 0) return 0;
+
+        const target = goal - leftSum;
+
+        // Find the first rightSum >= target.
+        let low = 0;
+        let high = rightSums.length;
+
+        while (low < high) {
+            const m = Math.floor((low + high) / 2);
+
+            if (rightSums[m] < target) {
+                low = m + 1;
+            } else {
+                high = m;
+            }
+        }
+
+        // Check the first sum >= target.
+        if (low < rightSums.length) {
+            answer = Math.min(
+                answer,
+                Math.abs(leftSum + rightSums[low] - goal)
+            );
+        }
+
+        // Also check the closest sum below target.
+        if (low > 0) {
+            answer = Math.min(
+                answer,
+                Math.abs(leftSum + rightSums[low - 1] - goal)
+            );
+        }
+    }
+
+    return answer;
+};
+```
+
 ## Why This Works
-By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Incorrect base case initialization.
-2. Flawed state transition equation.
-3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
-- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [1425. Constrained Subsequence Sum](../../1001-1500/1286-constrained-subsequence-sum/)

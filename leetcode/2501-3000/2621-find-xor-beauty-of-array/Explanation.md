@@ -16,26 +16,75 @@ Solve LeetCode Find Xor-Beauty of Array using Python and Bit Manipulation. This 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a  0-indexed  integer array  nums .
+## Problem Statement
+You are given a **0-indexed** integer array `nums`.
+
+The **effective value** of three indices `i`, `j`, and `k` is defined as `((nums[i] | nums[j]) & nums[k])`.
+
+The **xor-beauty** of the array is the XORing of **the effective values of all the possible triplets** of indices `(i, j, k)` where `0 <= i, j, k < n`.
+
+Return *the xor-beauty of* `nums`.
+
+**Note** that:
+
+`val1 | val2` is bitwise OR of `val1` and `val2`. 
+ `val1 & val2` is bitwise AND of `val1` and `val2`.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,4]`
+- **Output:** `5`
+- **Explanation:** The triplets and their corresponding effective values are listed below:
+- (0,0,0) with effective value ((1 | 1) & 1) = 1
+- (0,0,1) with effective value ((1 | 1) & 4) = 0
+- (0,1,0) with effective value ((1 | 4) & 1) = 1
+- (0,1,1) with effective value ((1 | 4) & 4) = 4
+- (1,0,0) with effective value ((4 | 1) & 1) = 1
+- (1,0,1) with effective value ((4 | 1) & 4) = 4
+- (1,1,0) with effective value ((4 | 4) & 1) = 0
+- (1,1,1) with effective value ((4 | 4) & 4) = 4 
+Xor-beauty of array will be bitwise XOR of all beauties = 1 ^ 0 ^ 1 ^ 4 ^ 1 ^ 4 ^ 0 ^ 4 = 5.
+
+### Example 2
+- **Input:** `nums = [15,45,20,2,34,35,5,44,32,30]`
+- **Output:** `34`
+- **Explanation:** `The xor-beauty of the given array is 34.`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find Xor-Beauty of Array**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find Xor-Beauty of Array**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,4]`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** The triplets and their corresponding effective values are listed below:
+- (0,0,0) with effective value ((1 | 1) & 1) = 1
+- (0,0,1) with effective value ((1 | 1) & 4) = 0
+- (0,1,0) with effective value ((1 | 4) & 1) = 1
+- (0,1,1) with effective value ((1 | 4) & 4) = 4
+- (1,0,0) with effective value ((4 | 1) & 1) = 1
+- (1,0,1) with effective value ((4 | 1) & 4) = 4
+- (1,1,0) with effective value ((4 | 4) & 1) = 0
+- (1,1,1) with effective value ((4 | 4) & 4) = 4 
+Xor-beauty of array will be bitwise XOR of all beauties = 1 ^ 0 ^ 1 ^ 4 ^ 1 ^ 4 ^ 0 ^ 4 = 5.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +98,16 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def xorBeauty(self, nums):
+        res = 0
+        for x in nums:
+            res ^= x
+        return res
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +123,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2433. Find The Original Array of Prefix Xor](../../2501-3000/2519-find-the-original-array-of-prefix-xor/)
-- [2269. Find the K-Beauty of a Number](../../1001-1500/1430-find-the-k-beauty-of-a-number/)
-- [2779. Maximum Beauty of an Array After Applying Operation](../../2501-3000/2891-maximum-beauty-of-an-array-after-applying-operation/)
+- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1486. XOR Operation in an Array](../../1501-2000/1610-xor-operation-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-xor-beauty-of-array/)

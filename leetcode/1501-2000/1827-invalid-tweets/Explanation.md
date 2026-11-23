@@ -16,26 +16,74 @@ Solve LeetCode Invalid Tweets using SQL and Database / SQL. This solution finds 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Tweets`
+
 +----------------+---------+
+| Column Name | Type |
++----------------+---------+
+| tweet_id | int |
+| content | varchar |
++----------------+---------+
+tweet_id is the primary key (column with unique values) for this table.
+content consists of alphanumeric characters, '!', or ' ' and no other special characters.
+This table contains all the tweets in a social media app.
+
+Write a solution to find the IDs of the invalid tweets. The tweet is invalid if the number of characters used in the content of the tweet is **strictly greater** than `15`.
+
+Return the result table in **any order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Tweets table:
++----------+-----------------------------------+
+| tweet_id | content |
++----------+-----------------------------------+
+| 1 | Let us Code |
+| 2 | More than fifteen chars are here! |
++----------+-----------------------------------+`
+- **Output:** `+----------+
+| tweet_id |
++----------+
+| 2 |
++----------+`
+- **Explanation:** Tweet 1 has length = 11. It is a valid tweet.
+Tweet 2 has length = 33. It is an invalid tweet.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
+We solve **Invalid Tweets** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Filter records according to problem criteria.
+2. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Invalid Tweets**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Tweets table:
++----------+-----------------------------------+
+| tweet_id | content |
++----------+-----------------------------------+
+| 1 | Let us Code |
+| 2 | More than fifteen chars are here! |
++----------+-----------------------------------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+----------+
+| tweet_id |
++----------+
+| 2 |
++----------+`.
+4. **Verification:** Tweet 1 has length = 11. It is a valid tweet.
+Tweet 2 has length = 33. It is an invalid tweet.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +98,13 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT tweet_id
+FROM Tweets
+WHERE LEN(content) > 15;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,64 @@ Solve LeetCode Employee Importance using Python and Tree & Graph. This solution 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You have a data structure of employee information, including the employee&#39;s unique ID, importance value, and direct subordinates&#39; IDs.
+## Problem Statement
+You have a data structure of employee information, including the employee's unique ID, importance value, and direct subordinates' IDs.
+
+You are given an array of employees `employees` where:
+
+`employees[i].id` is the ID of the `i^th` employee. 
+ `employees[i].importance` is the importance value of the `i^th` employee. 
+ `employees[i].subordinates` is a list of the IDs of the direct subordinates of the `i^th` employee.
+
+Given an integer `id` that represents an employee's ID, return *the **total** importance value of this employee and all their direct and indirect subordinates*.
+
+## Constraints
+- `1 <= employees.length <= 2000`
+- `1 <= employees[i].id <= 2000`
+- All `employees[i].id` are **unique**.
+- `-100 <= employees[i].importance <= 100`
+- One employee has at most one direct leader and may have several subordinates.
+- The IDs in `employees[i].subordinates` are valid IDs.
+
+## Examples
+### Example 1
+- **Input:** `employees = [[1,5,[2,3]],[2,3,[]],[3,3,[]]], id = 1`
+- **Output:** `11`
+- **Explanation:** Employee 1 has an importance value of 5 and has two direct subordinates: employee 2 and employee 3.
+They both have an importance value of 3.
+Thus, the total importance value of employee 1 is 5 + 3 + 3 = 11.
+
+### Example 2
+- **Input:** `employees = [[1,2,[5]],[5,-3,[]]], id = 5`
+- **Output:** `-3`
+- **Explanation:** Employee 5 has an importance value of -3 and has no direct subordinates.
+Thus, the total importance value of employee 5 is -3.
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Employee Importance**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Employee Importance**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `employees = [[1,5,[2,3]],[2,3,[]],[3,3,[]]], id = 1`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `11`.
+4. **Verification:** Employee 1 has an importance value of 5 and has two direct subordinates: employee 2 and employee 3.
+They both have an importance value of 3.
+Thus, the total importance value of employee 1 is 5 + 3 + 3 = 11.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +90,19 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def getImportance(self, employees, id):
+        emp = {e.id: e for e in employees}
+
+        def dfs(i):
+            e = emp[i]
+            return e.importance + sum(dfs(s) for s in e.subordinates)
+
+        return dfs(id)
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,9 +116,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2285. Maximum Total Importance of Roads](../../2001-2500/2379-maximum-total-importance-of-roads/)
 - [577. Employee Bonus](../../0501-1000/0577-employee-bonus/)
 - [1378. Replace Employee ID With The Unique Identifier](../../1501-2000/1509-replace-employee-id-with-the-unique-identifier/)
+- [1731. The Number of Employees Which Report to Each Employee](../../1501-2000/1882-the-number-of-employees-which-report-to-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employee-importance/)

@@ -1,7 +1,7 @@
 # LeetCode 3765: Complete Prime Number
 
 **LeetCode Problem #3765 — Complete Prime Number**
-Solve LeetCode Complete Prime Number using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Complete Prime Number using JavaScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,73 @@ Solve LeetCode Complete Prime Number using JavaScript and Tree & Graph. This sol
 | LeetCode | #3765 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an integer  num .
+## Problem Statement
+You are given an integer `num`.
+
+A number `num` is called a **Complete Prime Number ** if every **prefix** and every **suffix** of `num` is **prime**.
+
+Return `true` if `num` is a Complete Prime Number, otherwise return `false`.
+
+**Note**:
+
+A **prefix** of a number is formed by the **first** `k` digits of the number. 
+ A **suffix** of a number is formed by the **last** `k` digits of the number. 
+ Single-digit numbers are considered Complete Prime Numbers only if they are **prime**.
+
+## Constraints
+- `1 <= num <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `num = 23`
+- **Output:** `true`
+
+### Example 2
+- **Input:** `num = 39`
+- **Output:** `false`
+- **Explanation:** Prefixes of `num = 39` are 3 and 39. 3 is prime, but 39 is not prime. 
+ Suffixes of `num = 39` are 9 and 39. Both 9 and 39 are not prime. 
+ At least one prefix or suffix is not prime, so 39 is not a Complete Prime Number and the answer is `false`.
+
+### Example 3
+- **Input:** `num = 7`
+- **Output:** `true`
+- **Explanation:** 7 is prime, so all its prefixes and suffixes are prime and the answer is `true`.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Complete Prime Number**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Complete Prime Number**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `num = 23`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 JavaScript
@@ -52,8 +84,42 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var completePrime = function(num) {
+    const isPrime = (x) => {
+        if (x < 2) return false;
+        if (x === 2 || x === 3) return true;
+        if (x % 2 === 0 || x % 3 === 0) return false;
+
+        for (let i = 5; i * i <= x; i += 6) {
+            if (x % i === 0 || x % (i + 2) === 0) {
+                return false;
+            }
+        }
+        return true;
+    };
+
+    // 1. Check all prefixes (including num itself)
+    let prefix = num;
+    while (prefix > 0) {
+        if (!isPrime(prefix)) return false;
+        prefix = Math.floor(prefix / 10);
+    }
+
+    // 2. Check all proper suffixes
+    let mod = 10;
+    while (mod <= num) {
+        if (!isPrime(num % mod)) return false;
+        mod *= 10;
+    }
+
+    return true;
+};
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

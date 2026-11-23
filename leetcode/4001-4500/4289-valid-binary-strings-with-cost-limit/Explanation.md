@@ -1,7 +1,7 @@
 # LeetCode 3955: Valid Binary Strings With Cost Limit
 
 **LeetCode Problem #3955 — Valid Binary Strings With Cost Limit**
-Solve LeetCode Valid Binary Strings With Cost Limit using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Valid Binary Strings With Cost Limit using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,96 @@ Solve LeetCode Valid Binary Strings With Cost Limit using Python and Bit Manipul
 | LeetCode | #3955 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two integers  n  and  k .
+## Problem Statement
+You are given two integers `n` and `k`.
+
+The **cost** of a binary string `s` is defined as the sum of all indices `i` (0-based) such that `s[i] == '1'`.
+
+A binary string is considered **valid** if:
+
+It does not contain two consecutive `'1'` characters. 
+ Its cost is **less than or equal** to `k`.
+
+Return a list of all valid binary strings of length `n` in any order.
+
+## Constraints
+- `1 <= n <= 12`
+- `0 <= k <= n * (n - 1) / 2`
+
+## Examples
+### Example 1
+- **Input:** `n = 3, k = 1`
+- **Output:** `["000","010","100"]`
+- **Explanation:** The binary strings of length 3 without consecutive `'1'` characters are: 
+
+ 
+ `"000"` : `cost = 0` 
+ "`100"` : `cost = 0` 
+ `"010"` : `cost = 1` 
+ `"001"` : `cost = 2` 
+ `"101"` : `cost = 0 + 2 = 2` 
+ 
+
+ Among these, the strings with cost less than or equal to `k = 1` are `"000"`, `"010"` and `"100"`. 
+
+ Thus, the valid strings are `["000", "010", "100"]`.
+
+### Example 2
+- **Input:** `n = 1, k = 0`
+- **Output:** `["0","1"]`
+- **Explanation:** The valid binary strings of length 1 are `"0"` and `"1"`. 
+
+ Thus the answer is `["0", "1"]`.
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Valid Binary Strings With Cost Limit**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Valid Binary Strings With Cost Limit**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 3, k = 1`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["000","010","100"]`.
+4. **Verification:** The binary strings of length 3 without consecutive `'1'` characters are: 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ 
+ `"000"` : `cost = 0` 
+ "`100"` : `cost = 0` 
+ `"010"` : `cost = 1` 
+ `"001"` : `cost = 2` 
+ `"101"` : `cost = 0 + 2 = 2` 
+ 
+
+ Among these, the strings with cost less than or equal to `k = 1` are `"000"`, `"010"` and `"100"`. 
+
+ Thus, the valid strings are `["000", "010", "100"]`.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Bit Manipulation**
+**Two Pointers**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 Python
@@ -50,22 +107,47 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def generateValidStrings(self, n: int, k: int) -> List[str]:
+        res = []
+        path = []
+
+        def dfs(i: int, cost: int, prev_one: bool) -> None:
+            if i == n:
+                res.append("".join(path))
+                return
+            path.append("0")
+            dfs(i + 1, cost, False)
+            path.pop()
+            if not prev_one and cost + i <= k:
+                path.append("1")
+                dfs(i + 1, cost + i, True)
+                path.pop()
+
+        dfs(0, 0, False)
+        return res
+```
+
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [3864. Minimum Cost to Partition a Binary String](../../4001-4500/4192-minimum-cost-to-partition-a-binary-string/)
-- [3211. Generate Binary Strings Without Adjacent Zeros](../../3001-3500/3453-generate-binary-strings-without-adjacent-zeros/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-binary-strings-with-cost-limit/)

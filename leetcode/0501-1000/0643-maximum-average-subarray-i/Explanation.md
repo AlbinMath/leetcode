@@ -1,7 +1,7 @@
 # LeetCode 643: Maximum Average Subarray I
 
 **LeetCode Problem #643 — Maximum Average Subarray I**
-Solve LeetCode Maximum Average Subarray I using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Maximum Average Subarray I using JavaScript, Python and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,62 @@ Solve LeetCode Maximum Average Subarray I using JavaScript, Python and Array / G
 | LeetCode | #643 |
 | Difficulty | Easy |
 | Language | JavaScript, Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Dynamic Sliding Window Traversal |
+| Data Structure | Array / Hash Set |
+| Pattern | Sliding Window |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums  consisting of  n  elements, and an integer  k .
+## Problem Statement
+You are given an integer array `nums` consisting of `n` elements, and an integer `k`.
+
+Find a contiguous subarray whose **length is equal to** `k` that has the maximum average value and return *this value*. Any answer with a calculation error less than `10^-5` will be accepted.
+
+## Constraints
+- `n == nums.length`
+- `1 <= k <= n <= 10^5`
+- `-10^4 <= nums[i] <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,12,-5,-6,50,3], k = 4`
+- **Output:** `12.75000`
+- **Explanation:** Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75
+
+### Example 2
+- **Input:** `nums = [5], k = 1`
+- **Output:** `5.00000`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Maintain a dynamic contiguous window with two pointers (`left` and `right`), expanding to include new elements and shrinking when window invariants are violated.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Average Subarray I**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Average Subarray I**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,12,-5,-6,50,3], k = 4`.
+2. **Processing Steps:** We apply **Dynamic Sliding Window Traversal** using our **Array / Hash Set**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `12.75000`.
+4. **Verification:** Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Hash Set.
 
 ## Pattern
-**Array / General**
+**Sliding Window**
 
 ## Topics
-- Array
+- Sliding Window
+- Two Pointers
+- Subarrays
 
 ## Language
 JavaScript, Python
@@ -50,17 +74,56 @@ JavaScript, Python
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
+
+### JavaScript
+```javascript
+var findMaxAverage = function(nums, k) {
+    let sum = 0;
+
+    // Calculate the sum of the first k elements
+    for (let i = 0; i < k; i++) {
+        sum += nums[i];
+    }
+
+    let maxSum = sum;
+
+    // Slide the window across the array
+    for (let i = k; i < nums.length; i++) {
+        sum += nums[i] - nums[i - k];
+        maxSum = Math.max(maxSum, sum);
+    }
+
+    return maxSum / k;
+};
+```
+
+### Python
+```python
+class Solution:
+    def findMaxAverage(self, nums, k):
+        window_sum = sum(nums[:k])
+        max_sum = window_sum
+
+        for i in range(k, len(nums)):
+            window_sum += nums[i]
+            window_sum -= nums[i - k]
+
+            max_sum = max(max_sum, window_sum)
+
+        return max_sum / k
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Sliding Window**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Shrinking the window too late or missing invalid state checks.
+2. Forgetting to update window metrics (e.g. char counts) during contraction.
+3. Misinterpreting fixed vs variable window requirements.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Two-pointer window management, state tracking, and contiguous subarray analysis.
+- **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
 - [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)

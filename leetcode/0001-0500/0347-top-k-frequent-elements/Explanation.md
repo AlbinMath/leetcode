@@ -16,26 +16,50 @@ Solve LeetCode Top K Frequent Elements using Python and Binary Search. This solu
 | Time Complexity | O(n log n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer array  nums  and an integer  k , return  the   k   most frequent elements . You may return the answer in  any order .
+## Problem Statement
+Given an integer array `nums` and an integer `k`, return *the* `k` *most frequent elements*. You may return the answer in **any order**.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `-10^4 <= nums[i] <= 10^4`
+- `k` is in the range `[1, the number of unique elements in the array]`.
+- It is **guaranteed** that the answer is **unique**.
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,1,1,2,2,3], k = 2`
+- **Output:** `[1,2]`
+
+### Example 2
+- **Input:** `nums = [1], k = 1`
+- **Output:** `[1]`
+
+### Example 3
+- **Input:** `nums = [1,2,1,2,1,2,3,1,3,2], k = 2`
+- **Output:** `[1,2]`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Modified Binary Search**. By maintaining state efficiently in a **Sorted Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Top K Frequent Elements**, we observe the problem requirements and utilize the **Binary Search** technique. By maintaining a **Sorted Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Sorted Array** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Top K Frequent Elements**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,1,1,2,2,3], k = 2`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,2]`.
 
-## Complexity
-- **Time Complexity:** O(n log n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n log n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -50,6 +74,32 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from collections import Counter
+from typing import List
+
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        freq = Counter(nums)
+
+        buckets = [[] for _ in range(len(nums) + 1)]
+
+        for num, count in freq.items():
+            buckets[count].append(num)
+
+        result = []
+
+        for count in range(len(buckets) - 1, 0, -1):
+            for num in buckets[count]:
+                result.append(num)
+
+                if len(result) == k:
+                    return result
+
+        return result
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

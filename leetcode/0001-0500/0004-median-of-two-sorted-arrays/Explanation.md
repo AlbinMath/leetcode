@@ -16,8 +16,29 @@ Solve LeetCode Median of Two Sorted Arrays using JavaScript, Python and Binary S
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given two sorted arrays  nums1  and  nums2  of size  m  and  n  respectively, return  the median  of the two sorted arrays.
+## Problem Statement
+Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return **the median** of the two sorted arrays.
+
+The overall run time complexity should be `O(log (m+n))`.
+
+## Constraints
+- `nums1.length == m`
+- `nums2.length == n`
+- `0 <= m <= 1000`
+- `0 <= n <= 1000`
+- `1 <= m + n <= 2000`
+- `-10^6 <= nums1[i], nums2[i] <= 10^6`
+
+## Examples
+### Example 1
+- **Input:** `nums1 = [1,3], nums2 = [2]`
+- **Output:** `2.00000`
+- **Explanation:** merged array = [1,2,3] and median is 2.
+
+### Example 2
+- **Input:** `nums1 = [1,2], nums2 = [3,4]`
+- **Output:** `2.50000`
+- **Explanation:** merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -40,12 +61,17 @@ To achieve the O(log (m+n)) time complexity, the code uses **Binary Search**. In
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Median of Two Sorted Arrays**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums1 = [1,3], nums2 = [2]`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2.00000`.
+4. **Verification:** merged array = [1,2,3] and median is 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -61,6 +87,91 @@ JavaScript, Python
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var findMedianSortedArrays = function(nums1, nums2) {
+    // Always binary-search the smaller array
+    if (nums1.length > nums2.length) {
+        return findMedianSortedArrays(nums2, nums1);
+    }
+
+    const m = nums1.length;
+    const n = nums2.length;
+
+    let left = 0;
+    let right = m;
+
+    while (left <= right) {
+        const i = Math.floor((left + right) / 2);
+        const j = Math.floor((m + n + 1) / 2) - i;
+
+        const left1 = i === 0 ? -Infinity : nums1[i - 1];
+        const right1 = i === m ? Infinity : nums1[i];
+
+        const left2 = j === 0 ? -Infinity : nums2[j - 1];
+        const right2 = j === n ? Infinity : nums2[j];
+
+        // Correct partition
+        if (left1 <= right2 && left2 <= right1) {
+            if ((m + n) % 2 === 1) {
+                return Math.max(left1, left2);
+            }
+
+            return (
+                Math.max(left1, left2) +
+                Math.min(right1, right2)
+            ) / 2;
+        }
+
+        // Too many elements taken from nums1
+        if (left1 > right2) {
+            right = i - 1;
+        } else {
+            // Too few elements taken from nums1
+            left = i + 1;
+        }
+    }
+
+    return 0; // Unreachable for valid input
+};
+```
+
+### Python
+```python
+class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        # Always binary search the smaller array
+        if len(nums1) > len(nums2):
+            nums1, nums2 = nums2, nums1
+
+        m, n = len(nums1), len(nums2)
+        left, right = 0, m
+
+        while left <= right:
+            i = (left + right) // 2
+            j = (m + n + 1) // 2 - i
+
+            left1 = float('-inf') if i == 0 else nums1[i - 1]
+            right1 = float('inf') if i == m else nums1[i]
+
+            left2 = float('-inf') if j == 0 else nums2[j - 1]
+            right2 = float('inf') if j == n else nums2[j]
+
+            if left1 <= right2 and left2 <= right1:
+                if (m + n) % 2 == 1:
+                    return float(max(left1, left2))
+
+                return (max(left1, left2) + min(right1, right2)) / 2.0
+
+            elif left1 > right2:
+                right = i - 1
+            else:
+                left = i + 1
+
+        return 0.0
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

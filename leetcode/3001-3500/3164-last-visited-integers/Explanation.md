@@ -16,26 +16,79 @@ Solve LeetCode Last Visited Integers using JavaScript and Array / General. This 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer array  nums  where  nums[i]  is either a positive integer or  -1 . We need to find for each  -1  the respective positive integer, which we call the last visited integer.
+## Problem Statement
+Given an integer array `nums` where `nums[i]` is either a positive integer or `-1`. We need to find for each `-1` the respective positive integer, which we call the last visited integer.
+
+To achieve this goal, let's define two empty arrays: `seen` and `ans`.
+
+Start iterating from the beginning of the array `nums`.
+
+If a positive integer is encountered, prepend it to the **front** of `seen`. 
+ If `-1` is encountered, let `k` be the number of **consecutive** `-1`s seen so far (including the current `-1`),
+ 
+ If `k` is less than or equal to the length of `seen`, append the `k`-th element of `seen` to `ans`. 
+ If `k` is strictly greater than the length of `seen`, append `-1` to `ans`.
+
+Return the array* *`ans`.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `nums[i] == -1` or `1 <= nums[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,-1,-1,-1]`
+- **Output:** `[2,1,-1]`
+- **Explanation:** Start with `seen = []` and `ans = []`. 
+
+ 
+ Process `nums[0]`: The first element in nums is `1`. We prepend it to the front of `seen`. Now, `seen == [1]`. 
+ Process `nums[1]`: The next element is `2`. We prepend it to the front of `seen`. Now, `seen == [2, 1]`. 
+ Process `nums[2]`: The next element is `-1`. This is the first occurrence of `-1`, so `k == 1`. We look for the first element in seen. We append `2` to `ans`. Now, `ans == [2]`. 
+ Process `nums[3]`: Another `-1`. This is the second consecutive `-1`, so `k == 2`. The second element in `seen` is `1`, so we append `1` to `ans`. Now, `ans == [2, 1]`. 
+ Process `nums[4]`: Another `-1`, the third in a row, making `k = 3`. However, `seen` only has two elements (`[2, 1]`). Since `k` is greater than the number of elements in `seen`, we append `-1` to `ans`. Finally, `ans == [2, 1, -1]`.
+
+### Example 2
+- **Input:** `nums = [1,-1,2,-1,-1]`
+- **Output:** `[1,2,1]`
+- **Explanation:** Start with `seen = []` and `ans = []`. 
+
+ 
+ Process `nums[0]`: The first element in nums is `1`. We prepend it to the front of `seen`. Now, `seen == [1]`. 
+ Process `nums[1]`: The next element is `-1`. This is the first occurrence of `-1`, so `k == 1`. We look for the first element in `seen`, which is `1`. Append `1` to `ans`. Now, `ans == [1]`. 
+ Process `nums[2]`: The next element is `2`. Prepend this to the front of `seen`. Now, `seen == [2, 1]`. 
+ Process `nums[3]`: The next element is `-1`. This `-1` is not consecutive to the first `-1` since `2` was in between. Thus, `k` resets to `1`. The first element in `seen` is `2`, so append `2` to `ans`. Now, `ans == [1, 2]`. 
+ Process `nums[4]`: Another `-1`. This is consecutive to the previous `-1`, so `k == 2`. The second element in `seen` is `1`, append `1` to `ans`. Finally, `ans == [1, 2, 1]`.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Last Visited Integers**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Last Visited Integers**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,-1,-1,-1]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[2,1,-1]`.
+4. **Verification:** Start with `seen = []` and `ans = []`. 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ 
+ Process `nums[0]`: The first element in nums is `1`. We prepend it to the front of `seen`. Now, `seen == [1]`. 
+ Process `nums[1]`: The next element is `2`. We prepend it to the front of `seen`. Now, `seen == [2, 1]`. 
+ Process `nums[2]`: The next element is `-1`. This is the first occurrence of `-1`, so `k == 1`. We look for the first element in seen. We append `2` to `ans`. Now, `ans == [2]`. 
+ Process `nums[3]`: Another `-1`. This is the second consecutive `-1`, so `k == 2`. The second element in `seen` is `1`, so we append `1` to `ans`. Now, `ans == [2, 1]`. 
+ Process `nums[4]`: Another `-1`, the third in a row, making `k = 3`. However, `seen` only has two elements (`[2, 1]`). Since `k` is greater than the number of elements in `seen`, we append `-1` to `ans`. Finally, `ans == [2, 1, -1]`.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +101,31 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var lastVisitedIntegers = function(nums) {
+    const seen = [];
+    const ans = [];
+    let k = 0;
+
+    for (const num of nums) {
+        if (num !== -1) {
+            seen.push(num);
+            k = 0;
+        } else {
+            k++;
+            if (k <= seen.length) {
+                ans.push(seen[seen.length - k]);
+            } else {
+                ans.push(-1);
+            }
+        }
+    }
+
+    return ans;
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +140,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [1046. Last Stone Weight](../../1001-1500/1127-last-stone-weight/)
+- [1560. Most Visited Sector in  a Circular Track](../../1501-2000/1682-most-visited-sector-in--a-circular-track/)
+- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1724-customer-who-visited-but-did-not-make-any-transactions/)
+- [2617. Minimum Number of Visited Cells in a Grid](../../2501-3000/2697-minimum-number-of-visited-cells-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-visited-integers/)

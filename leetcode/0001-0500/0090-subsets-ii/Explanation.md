@@ -1,7 +1,7 @@
 # LeetCode 90: Subsets II
 
 **LeetCode Problem #90 — Subsets II**
-Solve LeetCode Subsets II using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Subsets II using JavaScript and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,59 @@ Solve LeetCode Subsets II using JavaScript and Array / General. This solution fi
 | LeetCode | #90 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Backtracking Recursive Search |
+| Data Structure | Recursion Tree |
+| Pattern | Backtracking |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer array  nums  that may contain duplicates, return  all possible    subsets    (the power set) .
+## Problem Statement
+Given an integer array `nums` that may contain duplicates, return *all possible* *subsets* * (the power set)*.
+
+The solution set **must not** contain duplicate subsets. Return the solution in **any order**.
+
+## Constraints
+- `1 <= nums.length <= 10`
+- `-10 <= nums[i] <= 10`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,2]`
+- **Output:** `[[],[1],[1,2],[1,2,2],[2],[2,2]]`
+
+### Example 2
+- **Input:** `nums = [0]`
+- **Output:** `[[],[0]]`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Backtracking** with **Recursion Tree** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Subsets II**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Subsets II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,2]`.
+2. **Processing Steps:** We apply **Backtracking Recursive Search** using our **Recursion Tree**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[],[1],[1,2],[1,2,2],[2],[2,2]]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Recursion Tree.
 
 ## Pattern
-**Array / General**
+**Backtracking**
 
 ## Topics
-- Array
+- Backtracking
+- Recursion
 
 ## Language
 JavaScript
@@ -49,8 +70,36 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var subsetsWithDup = function(nums) {
+    nums.sort((a, b) => a - b);
+
+    const result = [];
+    const subset = [];
+
+    function backtrack(start) {
+        result.push([...subset]);
+
+        for (let i = start; i < nums.length; i++) {
+            // Skip duplicates at the same recursion level
+            if (i > start && nums[i] === nums[i - 1]) {
+                continue;
+            }
+
+            subset.push(nums[i]);
+            backtrack(i + 1);
+            subset.pop();
+        }
+    }
+
+    backtrack(0);
+    return result;
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

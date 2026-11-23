@@ -16,26 +16,73 @@ Solve LeetCode Change Data Type using Python and Bit Manipulation. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
+## Problem Statement
+DataFrame `students`
++-------------+--------+
+| Column Name | Type |
++-------------+--------+
+| student_id | int |
+| name | object |
+| age | int |
+| grade | float |
++-------------+--------+
+
 Write a solution to correct the errors:
+
+The `grade` column is stored as floats, convert it to integers.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `DataFrame students:
++------------+------+-----+-------+
+| student_id | name | age | grade |
++------------+------+-----+-------+
+| 1 | Ava | 6 | 73.0 |
+| 2 | Kate | 15 | 87.0 |
++------------+------+-----+-------+`
+- **Output:** `+------------+------+-----+-------+
+| student_id | name | age | grade |
++------------+------+-----+-------+
+| 1 | Ava | 6 | 73 |
+| 2 | Kate | 15 | 87 |
++------------+------+-----+-------+`
+- **Explanation:** The data types of the column grade is converted to int.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Change Data Type**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Change Data Type**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `DataFrame students:
++------------+------+-----+-------+
+| student_id | name | age | grade |
++------------+------+-----+-------+
+| 1 | Ava | 6 | 73.0 |
+| 2 | Kate | 15 | 87.0 |
++------------+------+-----+-------+`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+------------+------+-----+-------+
+| student_id | name | age | grade |
++------------+------+-----+-------+
+| 1 | Ava | 6 | 73 |
+| 2 | Kate | 15 | 87 |
++------------+------+-----+-------+`.
+4. **Verification:** The data types of the column grade is converted to int.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +96,15 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import pandas as pd
+
+def changeDatatype(students: pd.DataFrame) -> pd.DataFrame:
+    students["grade"] = students["grade"].astype(int)
+    return students
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

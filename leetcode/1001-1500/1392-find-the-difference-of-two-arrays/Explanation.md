@@ -16,26 +16,54 @@ Solve LeetCode Find the Difference of Two Arrays using JavaScript and Array / Ge
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given two  0-indexed  integer arrays  nums1  and  nums2 , return  a list   answer   of size   2   where:
+## Problem Statement
+Given two **0-indexed** integer arrays `nums1` and `nums2`, return *a list* `answer` *of size* `2` *where:*
+
+`answer[0]` *is a list of all **distinct** integers in* `nums1` *which are **not** present in* `nums2`*.* 
+ `answer[1]` *is a list of all **distinct** integers in* `nums2` *which are **not** present in* `nums1`.
+
+**Note** that the integers in the lists may be returned in **any** order.
+
+## Constraints
+- `1 <= nums1.length, nums2.length <= 1000`
+- `-1000 <= nums1[i], nums2[i] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `nums1 = [1,2,3], nums2 = [2,4,6]`
+- **Output:** `[[1,3],[4,6]]`
+- **Explanation:** For nums1, nums1[1] = 2 is present at index 0 of nums2, whereas nums1[0] = 1 and nums1[2] = 3 are not present in nums2. Therefore, answer[0] = [1,3].
+For nums2, nums2[0] = 2 is present at index 1 of nums1, whereas nums2[1] = 4 and nums2[2] = 6 are not present in nums1. Therefore, answer[1] = [4,6].
+
+### Example 2
+- **Input:** `nums1 = [1,2,3,3], nums2 = [1,1,2,2]`
+- **Output:** `[[3],[]]`
+- **Explanation:** For nums1, nums1[2] and nums1[3] are not present in nums2. Since nums1[2] == nums1[3], their value is only included once and answer[0] = [3].
+Every integer in nums2 is present in nums1. Therefore, answer[1] = [].
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find the Difference of Two Arrays**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find the Difference of Two Arrays**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums1 = [1,2,3], nums2 = [2,4,6]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[1,3],[4,6]]`.
+4. **Verification:** For nums1, nums1[1] = 2 is present at index 0 of nums2, whereas nums1[0] = 1 and nums1[2] = 3 are not present in nums2. Therefore, answer[0] = [1,3].
+For nums2, nums2[0] = 2 is present at index 1 of nums1, whereas nums2[1] = 4 and nums2[2] = 6 are not present in nums1. Therefore, answer[1] = [4,6].
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +76,19 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var findDifference = function(nums1, nums2) {
+    const set1 = new Set(nums1);
+    const set2 = new Set(nums2);
+
+    const answer1 = [...set1].filter(num => !set2.has(num));
+    const answer2 = [...set2].filter(num => !set1.has(num));
+
+    return [answer1, answer2];
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

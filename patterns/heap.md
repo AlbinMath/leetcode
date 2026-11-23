@@ -34,4 +34,5 @@ A collection of LeetCode problems solved using **Heap** pattern techniques, expl
 | 1851 | [Minimum Interval to Include Each Query](../leetcode/1501-2000/1977-minimum-interval-to-include-each-query/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1977-minimum-interval-to-include-each-query/Explanation.md) |
 | 2276 | [Count Integers in Intervals](../leetcode/2001-2500/2357-count-integers-in-intervals/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2357-count-integers-in-intervals/Explanation.md) |
 | 3414 | [Maximum Score of Non-overlapping Intervals](../leetcode/3501-4000/3562-maximum-score-of-non-overlapping-intervals/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3562-maximum-score-of-non-overlapping-intervals/Explanation.md) |
+| 4003 | [Minimum Cost Path with Alternating Directions III](../leetcode/3501-4000/3926-minimum-cost-path-with-alternating-directions-iii/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3926-minimum-cost-path-with-alternating-directions-iii/Explanation.md) |
 

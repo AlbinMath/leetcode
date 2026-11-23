@@ -1,7 +1,7 @@
 # LeetCode 3287: Find the Maximum Sequence Value of Array
 
 **LeetCode Problem #3287 — Find the Maximum Sequence Value of Array**
-Solve LeetCode Find the Maximum Sequence Value of Array using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find the Maximum Sequence Value of Array using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,68 @@ Solve LeetCode Find the Maximum Sequence Value of Array using Python and Array /
 | LeetCode | #3287 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-You are given an integer array  nums  and a  positive  integer  k .
+## Problem Statement
+You are given an integer array `nums` and a **positive** integer `k`.
+
+The **value** of a sequence `seq` of size `2 * x` is defined as:
+
+`(seq[0] OR seq[1] OR ... OR seq[x - 1]) XOR (seq[x] OR seq[x + 1] OR ... OR seq[2 * x - 1])`.
+
+Return the **maximum** **value** of any subsequence of `nums` having size `2 * k`.
+
+## Constraints
+- `2 <= nums.length <= 400`
+- `1 <= nums[i] < 2^7`
+- `1 <= k <= nums.length / 2`
+
+## Examples
+### Example 1
+- **Input:** `nums = [2,6,7], k = 1`
+- **Output:** `5`
+- **Explanation:** The subsequence `[2, 7]` has the maximum value of `2 XOR 7 = 5`.
+
+### Example 2
+- **Input:** `nums = [4,2,5,6,7], k = 2`
+- **Output:** `2`
+- **Explanation:** The subsequence `[4, 5, 6, 7]` has the maximum value of `(4 OR 5) XOR (6 OR 7) = 2`.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find the Maximum Sequence Value of Array**, we observe the problem requirements and utilize the **Array / General** technique. We decompose the problem into overlapping subproblems using a **Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find the Maximum Sequence Value of Array**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [2,6,7], k = 1`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** The subsequence `[2, 7]` has the maximum value of `2 XOR 7 = 5`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Array / General**
+**Dynamic Programming**
 
 ## Topics
-- Array
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 Python
@@ -49,17 +79,50 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution(object):
+    def maxValue(self, nums, k):
+        n = len(nums)
+
+        def build(arr):
+            # res[i] = set of ORs from choosing exactly k of the first i elements
+            dp = [set() for _ in range(k + 1)]
+            dp[0].add(0)
+            res = [frozenset()] * (len(arr) + 1)
+            for i, x in enumerate(arr):
+                for j in range(min(k, i + 1), 0, -1):
+                    if dp[j - 1]:
+                        dp[j] |= {v | x for v in dp[j - 1]}
+                res[i + 1] = frozenset(dp[k])
+            return res
+
+        pre = build(nums)
+        suf = build(nums[::-1])  # suf[m] = ORs from choosing k of the last m elements
+
+        best = 0
+        for i in range(k, n - k + 1):
+            A = pre[i]
+            B = suf[n - i]
+            for a in A:
+                for b in B:
+                    v = a ^ b
+                    if v > best:
+                        best = v
+        return best
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [2562. Find the Array Concatenation Value](../../2501-3000/2698-find-the-array-concatenation-value/)

@@ -16,26 +16,66 @@ Solve LeetCode Vowels of All Substrings using JavaScript and Bit Manipulation. T
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  word , return  the  sum of the number of vowels  (  &#39;a&#39; ,  &#39;e&#39;  ,   &#39;i&#39;  ,   &#39;o&#39;  , and   &#39;u&#39;  )   in every substring of   word .
+## Problem Statement
+Given a string `word`, return *the **sum of the number of vowels** (*`'a'`, `'e'`*,* `'i'`*,* `'o'`*, and* `'u'`*)* *in every substring of *`word`.
+
+A **substring** is a contiguous (non-empty) sequence of characters within a string.
+
+**Note:** Due to the large constraints, the answer may not fit in a signed 32-bit integer. Please be careful during the calculations.
+
+## Constraints
+- `1 <= word.length <= 10^5`
+- `word` consists of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `word = "aba"`
+- **Output:** `6`
+- **Explanation:** All possible substrings are: "a", "ab", "aba", "b", "ba", and "a".
+- "b" has 0 vowels in it
+- "a", "ab", "ba", and "a" have 1 vowel each
+- "aba" has 2 vowels in it
+Hence, the total sum of vowels = 0 + 1 + 1 + 1 + 1 + 2 = 6.
+
+### Example 2
+- **Input:** `word = "abc"`
+- **Output:** `3`
+- **Explanation:** All possible substrings are: "a", "ab", "abc", "b", "bc", and "c".
+- "a", "ab", and "abc" have 1 vowel each
+- "b", "bc", and "c" have 0 vowels each
+Hence, the total sum of vowels = 1 + 1 + 1 + 0 + 0 + 0 = 3.
+
+### Example 3
+- **Input:** `word = "ltcd"`
+- **Output:** `0`
+- **Explanation:** There are no vowels in any substring of "ltcd".
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Vowels of All Substrings**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Vowels of All Substrings**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `word = "aba"`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `6`.
+4. **Verification:** All possible substrings are: "a", "ab", "aba", "b", "ba", and "a".
+- "b" has 0 vowels in it
+- "a", "ab", "ba", and "a" have 1 vowel each
+- "aba" has 2 vowels in it
+Hence, the total sum of vowels = 0 + 1 + 1 + 1 + 1 + 2 = 6.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +89,23 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var countVowels = function(word) {
+    let total = 0;
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u']);
+    const n = word.length;
+
+    for (let i = 0; i < n; i++) {
+        if (vowels.has(word[i])) {
+            total += (i + 1) * (n - i);
+        }
+    }
+
+    return total;
+};
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,8 +16,24 @@ Solve LeetCode Rotate Image using C++, JavaScript and Math & Logic. This solutio
 | Time Complexity | O(n²) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an  n x n  2D  matrix  representing an image, rotate the image by  90  degrees (clockwise).
+## Problem Statement
+You are given an `n x n` 2D `matrix` representing an image, rotate the image by **90** degrees (clockwise).
+
+You have to rotate the image **in-place** , which means you have to modify the input 2D matrix directly. **DO NOT** allocate another 2D matrix and do the rotation.
+
+## Constraints
+- `n == matrix.length == matrix[i].length`
+- `1 <= n <= 20`
+- `-1000 <= matrix[i][j] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `matrix = [[1,2,3],[4,5,6],[7,8,9]]`
+- **Output:** `[[7,4,1],[8,5,2],[9,6,3]]`
+
+### Example 2
+- **Input:** `matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]`
+- **Output:** `[[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]`
 
 ## Key Insight
 Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
@@ -35,12 +51,16 @@ This is mathematically equivalent to a 90° clockwise rotation because: Rotate90
 2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Rotate Image**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `matrix = [[1,2,3],[4,5,6],[7,8,9]]`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[7,4,1],[8,5,2],[9,6,3]]`.
 
-## Complexity
-- **Time Complexity:** O(n²)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n²) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
 **Math & Logic**
@@ -56,6 +76,49 @@ C++, JavaScript
 - [solution.cpp](./solution.cpp)
 - [solution.js](./solution.js)
 
+
+### C++
+```cpp
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+
+        // Step 1: Transpose the matrix
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                swap(matrix[i][j], matrix[j][i]);
+            }
+        }
+
+        // Step 2: Reverse every row
+        for (int i = 0; i < n; i++) {
+            reverse(matrix[i].begin(), matrix[i].end());
+        }
+    }
+};
+```
+
+### JavaScript
+```javascript
+var rotate = function(matrix) {
+    const n = matrix.length;
+
+    // Step 1: Transpose the matrix
+    for (let i = 0; i < n; i++) {
+        for (let j = i + 1; j < n; j++) {
+            [matrix[i][j], matrix[j][i]] =
+                [matrix[j][i], matrix[i][j]];
+        }
+    }
+
+    // Step 2: Reverse each row
+    for (let i = 0; i < n; i++) {
+        matrix[i].reverse();
+    }
+};
+```
+
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -69,9 +132,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [61. Rotate List](../../0001-0500/0061-rotate-list/)
-- [189. Rotate Array](../../0001-0500/0189-rotate-array/)
-- [396. Rotate Function](../../0001-0500/0396-rotate-function/)
+- [661. Image Smoother](../../0501-1000/0661-image-smoother/)
+- [832. Flipping an Image](../../0501-1000/0861-flipping-an-image/)
+- [835. Image Overlap](../../0501-1000/0864-image-overlap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-image/)

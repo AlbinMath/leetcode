@@ -16,26 +16,54 @@ Solve LeetCode Maximum Ascending Subarray Sum using C++ and Two Pointers. This s
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array of positive integers  nums , return the  maximum  possible sum of an  strictly increasing subarray  in    nums .
+## Problem Statement
+Given an array of positive integers `nums`, return the **maximum** possible sum of an strictly increasing subarray in* *`nums`.
+
+A subarray is defined as a contiguous sequence of numbers in an array.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `1 <= nums[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums = [10,20,30,5,10,50]`
+- **Output:** `65`
+- **Explanation:** [5,10,50] is the ascending subarray with the maximum sum of 65.
+
+### Example 2
+- **Input:** `nums = [10,20,30,40,50]`
+- **Output:** `150`
+- **Explanation:** [10,20,30,40,50] is the ascending subarray with the maximum sum of 150.
+
+### Example 3
+- **Input:** `nums = [12,17,15,13,10,11,12]`
+- **Output:** `33`
+- **Explanation:** [10,11,12] is the ascending subarray with the maximum sum of 33.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Ascending Subarray Sum**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Ascending Subarray Sum**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [10,20,30,5,10,50]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `65`.
+4. **Verification:** [5,10,50] is the ascending subarray with the maximum sum of 65.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +78,29 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    int maxAscendingSum(vector<int>& nums) {
+        int currentSum = nums[0];
+        int maxSum = nums[0];
+
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] > nums[i - 1]) {
+                currentSum += nums[i];
+            } else {
+                currentSum = nums[i];
+            }
+
+            maxSum = max(maxSum, currentSum);
+        }
+
+        return maxSum;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

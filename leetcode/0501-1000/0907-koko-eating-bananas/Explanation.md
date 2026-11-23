@@ -1,7 +1,7 @@
 # LeetCode 875: Koko Eating Bananas
 
 **LeetCode Problem #875 — Koko Eating Bananas**
-Solve LeetCode Koko Eating Bananas using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Koko Eating Bananas using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,69 @@ Solve LeetCode Koko Eating Bananas using JavaScript and Array / General. This so
 | LeetCode | #875 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
-| Pattern | Array / General |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Koko loves to eat bananas. There are  n  piles of bananas, the  i th   pile has  piles[i]  bananas. The guards have gone and will come back in  h  hours.
+## Problem Statement
+Koko loves to eat bananas. There are `n` piles of bananas, the `i^th` pile has `piles[i]` bananas. The guards have gone and will come back in `h` hours.
+
+Koko can decide her bananas-per-hour eating speed of `k`. Each hour, she chooses some pile of bananas and eats `k` bananas from that pile. If the pile has less than `k` bananas, she eats all of them instead and will not eat any more bananas during this hour.
+
+Koko likes to eat slowly but still wants to finish eating all the bananas before the guards return.
+
+Return *the minimum integer* `k` *such that she can eat all the bananas within* `h` *hours*.
+
+## Constraints
+- `1 <= piles.length <= 10^4`
+- `piles.length <= h <= 10^9`
+- `1 <= piles[i] <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `piles = [3,6,7,11], h = 8`
+- **Output:** `4`
+
+### Example 2
+- **Input:** `piles = [30,11,23,4,20], h = 5`
+- **Output:** `30`
+
+### Example 3
+- **Input:** `piles = [30,11,23,4,20], h = 6`
+- **Output:** `23`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Koko Eating Bananas**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Koko Eating Bananas**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `piles = [3,6,7,11], h = 8`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Array / General**
+**Two Pointers**
 
 ## Topics
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 JavaScript
@@ -49,22 +80,49 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var minEatingSpeed = function(piles, h) {
+    let left = 1;
+    let right = Math.max(...piles);
+
+    while (left < right) {
+        const mid = Math.floor((left + right) / 2);
+        let hours = 0;
+
+        for (const pile of piles) {
+            hours += Math.ceil(pile / mid);
+        }
+
+        if (hours <= h) {
+            // This speed works; try a slower speed
+            right = mid;
+        } else {
+            // Speed is too slow
+            left = mid + 1;
+        }
+    }
+
+    return left;
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../../0001-0500/0027-remove-element/)
+- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
+- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/koko-eating-bananas/)

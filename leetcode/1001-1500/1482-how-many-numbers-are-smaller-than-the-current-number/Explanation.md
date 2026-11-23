@@ -16,8 +16,32 @@ Solve LeetCode How Many Numbers Are Smaller Than the Current Number using TypeSc
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given the array  nums , for each  nums[i]  find out how many numbers in the array are smaller than it. That is, for each  nums[i]  you have to count the number of valid  j&#39;s  such that  j != i   and   nums[j] < nums[i] .
+## Problem Statement
+Given the array `nums`, for each `nums[i]` find out how many numbers in the array are smaller than it. That is, for each `nums[i]` you have to count the number of valid `j's` such that `j != i` **and** `nums[j] < nums[i]`.
+
+Return the answer in an array.
+
+## Constraints
+- `2 <= nums.length <= 500`
+- `0 <= nums[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums = [8,1,2,2,3]`
+- **Output:** `[4,0,1,1,3]`
+- **Explanation:** For nums[0]=8 there exist four smaller numbers than it (1, 2, 2 and 3). 
+For nums[1]=1 does not exist any smaller number than it.
+For nums[2]=2 there exist one smaller number than it (1). 
+For nums[3]=2 there exist one smaller number than it (1). 
+For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
+
+### Example 2
+- **Input:** `nums = [6,5,4,8]`
+- **Output:** `[2,1,0,3]`
+
+### Example 3
+- **Input:** `nums = [7,7,7,7]`
+- **Output:** `[0,0,0,0]`
 
 ## Key Insight
 Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -36,12 +60,21 @@ Time complexity is $O(N + K)$ where $K = 100$, and space complexity is $O(K)$.
 2. Process elements sequentially using **Prefix Sum Precomputation**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **How Many Numbers Are Smaller Than the Current Number**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [8,1,2,2,3]`.
+2. **Processing Steps:** We apply **Prefix Sum Precomputation** using our **Prefix Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[4,0,1,1,3]`.
+4. **Verification:** For nums[0]=8 there exist four smaller numbers than it (1, 2, 2 and 3). 
+For nums[1]=1 does not exist any smaller number than it.
+For nums[2]=2 there exist one smaller number than it (1). 
+For nums[3]=2 there exist one smaller number than it (1). 
+For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Prefix Array.
 
 ## Pattern
 **Prefix Sum**
@@ -56,6 +89,32 @@ TypeScript
 ## Source Code
 - [solution.ts](./solution.ts)
 
+
+```typescript
+function smallerNumbersThanCurrent(nums: number[]): number[] {
+    const count = new Array(101).fill(0);
+
+    // Count frequency of each number
+    for (const num of nums) {
+        count[num]++;
+    }
+
+    // Prefix sum: count[x] = numbers <= x
+    for (let i = 1; i <= 100; i++) {
+        count[i] += count[i - 1];
+    }
+
+    const result: number[] = [];
+
+    for (const num of nums) {
+        // Number of elements strictly smaller than num
+        result.push(num === 0 ? 0 : count[num - 1]);
+    }
+
+    return result;
+}
+```
+
 ## Why This Works
 By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -69,9 +128,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2042. Check if Numbers Are Ascending in a Sentence](../../2001-2500/2168-check-if-numbers-are-ascending-in-a-sentence/)
-- [3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](../../3001-3500/3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
-- [3233. Find the Count of Numbers Which Are Not Special](../../3501-4000/3507-find-the-count-of-numbers-which-are-not-special/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+- [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](../../3001-3500/3240-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)

@@ -1,7 +1,7 @@
 # LeetCode 73: Set Matrix Zeroes
 
 **LeetCode Problem #73 — Set Matrix Zeroes**
-Solve LeetCode Set Matrix Zeroes using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Set Matrix Zeroes using JavaScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,63 @@ Solve LeetCode Set Matrix Zeroes using JavaScript and Tree & Graph. This solutio
 | LeetCode | #73 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given an  m x n  integer matrix  matrix , if an element is  0 , set its entire row and column to  0 &#39;s.
+## Problem Statement
+Given an `m x n` integer matrix `matrix`, if an element is `0`, set its entire row and column to `0`'s.
+
+You must do it in place .
+
+## Constraints
+- `m == matrix.length`
+- `n == matrix[0].length`
+- `1 <= m, n <= 200`
+- `-2^31 <= matrix[i][j] <= 2^31 - 1`
+- A straightforward solution using `O(mn)` space is probably a bad idea.
+- A simple improvement uses `O(m + n)` space, but still not the best solution.
+- Could you devise a constant space solution?
+
+## Examples
+### Example 1
+- **Input:** `matrix = [[1,1,1],[1,0,1],[1,1,1]]`
+- **Output:** `[[1,0,1],[0,0,0],[1,0,1]]`
+
+### Example 2
+- **Input:** `matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]`
+- **Output:** `[[0,0,0,0],[0,4,5,0],[0,3,1,0]]`
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Set Matrix Zeroes**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Set Matrix Zeroes**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `matrix = [[1,1,1],[1,0,1],[1,1,1]]`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[1,0,1],[0,0,0],[1,0,1]]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 JavaScript
@@ -52,8 +74,76 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var setZeroes = function(matrix) {
+    const rows = matrix.length;
+    const cols = matrix[0].length;
+
+    let firstRowZero = false;
+    let firstColZero = false;
+
+    // Check whether the first row contains zero
+    for (let j = 0; j < cols; j++) {
+        if (matrix[0][j] === 0) {
+            firstRowZero = true;
+            break;
+        }
+    }
+
+    // Check whether the first column contains zero
+    for (let i = 0; i < rows; i++) {
+        if (matrix[i][0] === 0) {
+            firstColZero = true;
+            break;
+        }
+    }
+
+    // Use the first row and column to mark zeroes
+    for (let i = 1; i < rows; i++) {
+        for (let j = 1; j < cols; j++) {
+            if (matrix[i][j] === 0) {
+                matrix[i][0] = 0;
+                matrix[0][j] = 0;
+            }
+        }
+    }
+
+    // Set marked rows to zero
+    for (let i = 1; i < rows; i++) {
+        if (matrix[i][0] === 0) {
+            for (let j = 1; j < cols; j++) {
+                matrix[i][j] = 0;
+            }
+        }
+    }
+
+    // Set marked columns to zero
+    for (let j = 1; j < cols; j++) {
+        if (matrix[0][j] === 0) {
+            for (let i = 1; i < rows; i++) {
+                matrix[i][j] = 0;
+            }
+        }
+    }
+
+    // Handle the first row and column last
+    if (firstRowZero) {
+        for (let j = 0; j < cols; j++) {
+            matrix[0][j] = 0;
+        }
+    }
+
+    if (firstColZero) {
+        for (let i = 0; i < rows; i++) {
+            matrix[i][0] = 0;
+        }
+    }
+};
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -65,9 +155,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [172. Factorial Trailing Zeroes](../../0001-0500/0172-factorial-trailing-zeroes/)
-- [283. Move Zeroes](../../0001-0500/0283-move-zeroes/)
-- [474. Ones and Zeroes](../../0001-0500/0474-ones-and-zeroes/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
+- [74. Search a 2D Matrix](../../0001-0500/0074-search-a-2d-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/set-matrix-zeroes/)

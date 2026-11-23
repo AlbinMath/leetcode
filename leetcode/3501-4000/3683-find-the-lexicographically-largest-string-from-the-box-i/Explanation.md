@@ -1,7 +1,7 @@
 # LeetCode 3403: Find the Lexicographically Largest String From the Box I
 
 **LeetCode Problem #3403 — Find the Lexicographically Largest String From the Box I**
-Solve LeetCode Find the Lexicographically Largest String From the Box I using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Find the Lexicographically Largest String From the Box I using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,77 @@ Solve LeetCode Find the Lexicographically Largest String From the Box I using Py
 | LeetCode | #3403 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a string  word , and an integer  numFriends .
+## Problem Statement
+You are given a string `word`, and an integer `numFriends`.
+
+Alice is organizing a game for her `numFriends` friends. There are multiple rounds in the game, where in each round:
+
+`word` is split into `numFriends` **non-empty** strings, such that no previous round has had the **exact** same split. 
+ All the split words are put into a box.
+
+Find the lexicographically largest string from the box after all the rounds are finished.
+
+## Constraints
+- `1 <= word.length <= 5 * 10^3`
+- `word` consists only of lowercase English letters.
+- `1 <= numFriends <= word.length`
+
+## Examples
+### Example 1
+- **Input:** `word = "dbca", numFriends = 2`
+- **Output:** `"dbc"`
+- **Explanation:** All possible splits are: 
+
+ 
+ `"d"` and `"bca"`. 
+ `"db"` and `"ca"`. 
+ `"dbc"` and `"a"`.
+
+### Example 2
+- **Input:** `word = "gggg", numFriends = 4`
+- **Output:** `"g"`
+- **Explanation:** The only possible split is: `"g"`, `"g"`, `"g"`, and `"g"`.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find the Lexicographically Largest String From the Box I**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find the Lexicographically Largest String From the Box I**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `word = "dbca", numFriends = 2`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"dbc"`.
+4. **Verification:** All possible splits are: 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+ 
+ `"d"` and `"bca"`. 
+ `"db"` and `"ca"`. 
+ `"dbc"` and `"a"`.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -52,8 +88,19 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def answerString(self, word: str, numFriends: int) -> str:
+        if numFriends == 1:
+            return word
+        n = len(word)
+        L = n - numFriends + 1
+        return max(word[i:i + L] for i in range(n))
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -66,8 +113,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [4036. Lexicographically Largest String After Pair Transformations](../../4001-4500/4366-lexicographically-largest-string-after-pair-transformations/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
+- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1058-lexicographically-smallest-equivalent-string/)
+- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/)

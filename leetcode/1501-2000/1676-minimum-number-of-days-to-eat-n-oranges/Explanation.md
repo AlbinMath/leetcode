@@ -16,26 +16,67 @@ Solve LeetCode Minimum Number of Days to Eat N Oranges using Python and Bit Mani
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-There are  n  oranges in the kitchen and you decided to eat some of these oranges every day as follows:
+## Problem Statement
+There are `n` oranges in the kitchen and you decided to eat some of these oranges every day as follows:
+
+Eat one orange. 
+ If the number of remaining oranges `n` is divisible by `2` then you can eat `n / 2` oranges. 
+ If the number of remaining oranges `n` is divisible by `3` then you can eat `2 * (n / 3)` oranges.
+
+You can only choose one of the actions per day.
+
+Given the integer `n`, return *the minimum number of days to eat* `n` *oranges*.
+
+## Constraints
+- `1 <= n <= 2 * 10^9`
+
+## Examples
+### Example 1
+- **Input:** `n = 10`
+- **Output:** `4`
+- **Explanation:** You have 10 oranges.
+Day 1: Eat 1 orange, 10 - 1 = 9. 
+Day 2: Eat 6 oranges, 9 - 2*(9/3) = 9 - 6 = 3. (Since 9 is divisible by 3)
+Day 3: Eat 2 oranges, 3 - 2*(3/3) = 3 - 2 = 1. 
+Day 4: Eat the last orange 1 - 1 = 0.
+You need at least 4 days to eat the 10 oranges.
+
+### Example 2
+- **Input:** `n = 6`
+- **Output:** `3`
+- **Explanation:** You have 6 oranges.
+Day 1: Eat 3 oranges, 6 - 6/2 = 6 - 3 = 3. (Since 6 is divisible by 2).
+Day 2: Eat 2 oranges, 3 - 2*(3/3) = 3 - 2 = 1. (Since 3 is divisible by 3)
+Day 3: Eat the last orange 1 - 1 = 0.
+You need at least 3 days to eat the 6 oranges.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Number of Days to Eat N Oranges**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Number of Days to Eat N Oranges**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 10`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** You have 10 oranges.
+Day 1: Eat 1 orange, 10 - 1 = 9. 
+Day 2: Eat 6 oranges, 9 - 2*(9/3) = 9 - 6 = 3. (Since 9 is divisible by 3)
+Day 3: Eat 2 oranges, 3 - 2*(3/3) = 3 - 2 = 1. 
+Day 4: Eat the last orange 1 - 1 = 0.
+You need at least 4 days to eat the 10 oranges.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +90,21 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from functools import lru_cache
+
+class Solution:
+    def minDays(self, n: int) -> int:
+        @lru_cache(maxsize=None)
+        def f(n):
+            if n <= 1:
+                return n
+            return 1 + min(n % 2 + f(n // 2), n % 3 + f(n // 3))
+
+        return f(n)
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +120,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1568. Minimum Number of Days to Disconnect Island](../../1501-2000/1691-minimum-number-of-days-to-disconnect-island/)
-- [957. Prison Cells After N Days](../../0501-1000/0994-prison-cells-after-n-days/)
-- [1137. N-th Tribonacci Number](../../1001-1500/1236-n-th-tribonacci-number/)
+- [452. Minimum Number of Arrows to Burst Balloons](../../0001-0500/0452-minimum-number-of-arrows-to-burst-balloons/)
+- [995. Minimum Number of K Consecutive Bit Flips](../../1001-1500/1037-minimum-number-of-k-consecutive-bit-flips/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)

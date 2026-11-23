@@ -16,26 +16,54 @@ Solve LeetCode Check if All A's Appears Before All B's using Python and Array / 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string  s  consisting of  only  the characters  &#39;a&#39;  and  &#39;b&#39; , return  true   if  every    &#39;a&#39;   appears before  every    &#39;b&#39;   in the string . Otherwise, return  false .
+## Problem Statement
+Given a string `s` consisting of **only** the characters `'a'` and `'b'`, return `true` *if **every** *`'a'` *appears before **every** *`'b'`* in the string*. Otherwise, return `false`.
+
+## Constraints
+- `1 <= s.length <= 100`
+- `s[i]` is either `'a'` or `'b'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "aaabbb"`
+- **Output:** `true`
+- **Explanation:** The 'a's are at indices 0, 1, and 2, while the 'b's are at indices 3, 4, and 5.
+Hence, every 'a' appears before every 'b' and we return true.
+
+### Example 2
+- **Input:** `s = "abab"`
+- **Output:** `false`
+- **Explanation:** There is an 'a' at index 2 and a 'b' at index 1.
+Hence, not every 'a' appears before every 'b' and we return false.
+
+### Example 3
+- **Input:** `s = "bbb"`
+- **Output:** `true`
+- **Explanation:** There are no 'a's, hence, every 'a' appears before every 'b' and we return true.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Check if All A's Appears Before All B's**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Check if All A's Appears Before All B's**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "aaabbb"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** The 'a's are at indices 0, 1, and 2, while the 'b's are at indices 3, 4, and 5.
+Hence, every 'a' appears before every 'b' and we return true.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +76,13 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def checkString(self, s: str) -> bool:
+        return "ba" not in s
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,7 +99,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [1437. Check If All 1's Are at Least Length K Places Away](../../1501-2000/1548-check-if-all-1s-are-at-least-length-k-places-away/)
-- [1461. Check If a String Contains All Binary Codes of Size K](../../1501-2000/1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
+- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)

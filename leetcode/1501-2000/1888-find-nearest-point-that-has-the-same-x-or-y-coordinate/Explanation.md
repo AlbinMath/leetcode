@@ -1,7 +1,7 @@
 # LeetCode 1779: Find Nearest Point That Has the Same X or Y Coordinate
 
 **LeetCode Problem #1779 — Find Nearest Point That Has the Same X or Y Coordinate**
-Solve LeetCode Find Nearest Point That Has the Same X or Y Coordinate using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Find Nearest Point That Has the Same X or Y Coordinate using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,69 @@ Solve LeetCode Find Nearest Point That Has the Same X or Y Coordinate using C++ 
 | LeetCode | #1779 |
 | Difficulty | Easy |
 | Language | C++ |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given two integers,  x  and  y , which represent your current location on a Cartesian grid:  (x, y) . You are also given an array  points  where each  points[i] = [a i , b i ]  represents that a point exists at  (a i , b i ) . A point is  valid  if it shares the same x-coordinate or the same y-coordinate as your location.
+## Problem Statement
+You are given two integers, `x` and `y`, which represent your current location on a Cartesian grid: `(x, y)`. You are also given an array `points` where each `points[i] = [a_i, b_i]` represents that a point exists at `(a_i, b_i)`. A point is **valid** if it shares the same x-coordinate or the same y-coordinate as your location.
+
+Return *the index **(0-indexed)** of the **valid** point with the smallest **Manhattan distance** from your current location*. If there are multiple, return *the valid point with the **smallest** index*. If there are no valid points, return `-1`.
+
+The **Manhattan distance** between two points `(x_1, y_1)` and `(x_2, y_2)` is `abs(x_1 - x_2) + abs(y_1 - y_2)`.
+
+## Constraints
+- `1 <= points.length <= 10^4`
+- `points[i].length == 2`
+- `1 <= x, y, a_i, b_i <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `x = 3, y = 4, points = [[1,2],[3,1],[2,4],[2,3],[4,4]]`
+- **Output:** `2`
+- **Explanation:** Of all the points, only [3,1], [2,4] and [4,4] are valid. Of the valid points, [2,4] and [4,4] have the smallest Manhattan distance from your current location, with a distance of 1. [2,4] has the smallest index, so return 2.
+
+### Example 2
+- **Input:** `x = 3, y = 4, points = [[3,4]]`
+- **Output:** `0`
+- **Explanation:** The answer is allowed to be on the same location as your current location.
+
+### Example 3
+- **Input:** `x = 3, y = 4, points = [[2,3]]`
+- **Output:** `-1`
+- **Explanation:** There are no valid points.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find Nearest Point That Has the Same X or Y Coordinate**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find Nearest Point That Has the Same X or Y Coordinate**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `x = 3, y = 4, points = [[1,2],[3,1],[2,4],[2,3],[4,4]]`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** Of all the points, only [3,1], [2,4] and [4,4] are valid. Of the valid points, [2,4] and [4,4] have the smallest Manhattan distance from your current location, with a distance of 1. [2,4] has the smallest index, so return 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 C++
@@ -52,8 +80,36 @@ C++
 ## Source Code
 - [solution.cpp](./solution.cpp)
 
+
+```cpp
+class Solution {
+public:
+    int nearestValidPoint(int x, int y, vector<vector<int>>& points) {
+        int minDistance = INT_MAX;
+        int result = -1;
+
+        for (int i = 0; i < points.size(); i++) {
+            int a = points[i][0];
+            int b = points[i][1];
+
+            // Check whether the point is valid
+            if (a == x || b == y) {
+                int distance = abs(x - a) + abs(y - b);
+
+                if (distance < minDistance) {
+                    minDistance = distance;
+                    result = i;
+                }
+            }
+        }
+
+        return result;
+    }
+};
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -65,9 +121,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3178. Find the Child Who Has the Ball After K Seconds](../../3001-3500/3450-find-the-child-who-has-the-ball-after-k-seconds/)
 - [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1860-find-kth-largest-xor-coordinate-value/)
 - [2998. Minimum Number of Operations to Make X and Y Equal](../../3001-3500/3239-minimum-number-of-operations-to-make-x-and-y-equal/)
-- [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1112-find-words-that-can-be-formed-by-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)

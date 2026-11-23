@@ -16,26 +16,52 @@ Solve LeetCode Min Cost to Connect All Points using Python and Array / General. 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array  points  representing integer coordinates of some points on a 2D-plane, where  points[i] = [x i , y i ] .
+## Problem Statement
+You are given an array `points` representing integer coordinates of some points on a 2D-plane, where `points[i] = [x_i, y_i]`.
+
+The cost of connecting two points `[x_i, y_i]` and `[x_j, y_j]` is the **manhattan distance** between them: `|x_i - x_j| + |y_i - y_j|`, where `|val|` denotes the absolute value of `val`.
+
+Return *the minimum cost to make all points connected.* All points are connected if there is **exactly one** simple path between any two points.
+
+## Constraints
+- `1 <= points.length <= 1000`
+- `-10^6 <= x_i, y_i <= 10^6`
+- All pairs `(x_i, y_i)` are distinct.
+
+## Examples
+### Example 1
+- **Input:** `points = [[0,0],[2,2],[3,10],[5,2],[7,0]]`
+- **Output:** `20`
+- **Explanation:** We can connect the points as shown above to get the minimum cost of 20.
+Notice that there is a unique path between every pair of points.
+
+### Example 2
+- **Input:** `points = [[3,12],[-2,5],[-4,1]]`
+- **Output:** `18`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Min Cost to Connect All Points**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Min Cost to Connect All Points**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `points = [[0,0],[2,2],[3,10],[5,2],[7,0]]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `20`.
+4. **Verification:** We can connect the points as shown above to get the minimum cost of 20.
+Notice that there is a unique path between every pair of points.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +74,30 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def minCostConnectPoints(self, points: List[List[int]]) -> int:
+        n = len(points)
+        dist = [float('inf')] * n
+        seen = [False] * n
+        dist[0] = cost = 0
+
+        for _ in range(n):
+            u = min((dist[i], i) for i in range(n) if not seen[i])[1]
+            seen[u] = True
+            cost += dist[u]
+            x, y = points[u]
+
+            for v, (a, b) in enumerate(points):
+                if not seen[v]:
+                    dist[v] = min(dist[v], abs(x-a) + abs(y-b))
+
+        return cost
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

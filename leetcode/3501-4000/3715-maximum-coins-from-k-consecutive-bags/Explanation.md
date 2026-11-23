@@ -16,26 +16,59 @@ Solve LeetCode Maximum Coins From K Consecutive Bags using Python and Two Pointe
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
+## Problem Statement
 There are an infinite amount of bags on a number line, one bag for each coordinate. Some of these bags contain coins.
+
+You are given a 2D array `coins`, where `coins[i] = [l_i, r_i, c_i]` denotes that every bag from `l_i` to `r_i` contains `c_i` coins.
+
+The segments that `coins` contain are non-overlapping.
+
+You are also given an integer `k`.
+
+Return the **maximum** amount of coins you can obtain by collecting `k` consecutive bags.
+
+## Constraints
+- `1 <= coins.length <= 10^5`
+- `1 <= k <= 10^9`
+- `coins[i] == [l_i, r_i, c_i]`
+- `1 <= l_i <= r_i <= 10^9`
+- `1 <= c_i <= 1000`
+- The given segments are non-overlapping.
+
+## Examples
+### Example 1
+- **Input:** `coins = [[8,10,1],[1,3,2],[5,6,4]], k = 4`
+- **Output:** `10`
+- **Explanation:** Selecting bags at positions `[3, 4, 5, 6]` gives the maximum number of coins: `2 + 0 + 4 + 4 = 10`.
+
+### Example 2
+- **Input:** `coins = [[1,10,3]], k = 2`
+- **Output:** `6`
+- **Explanation:** Selecting bags at positions `[1, 2]` gives the maximum number of coins: `3 + 3 = 6`.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Coins From K Consecutive Bags**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Coins From K Consecutive Bags**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `coins = [[8,10,1],[1,3,2],[5,6,4]], k = 4`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `10`.
+4. **Verification:** Selecting bags at positions `[3, 4, 5, 6]` gives the maximum number of coins: `2 + 0 + 4 + 4 = 10`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -51,6 +84,38 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def maximumCoins(self, coins: List[List[int]], k: int) -> int:
+        def solve(segs):
+            segs.sort()
+            n = len(segs)
+            P = [0] * (n + 1)
+            for i, (l, r, c) in enumerate(segs):
+                P[i + 1] = P[i] + (r - l + 1) * c
+            best = 0
+            j = 0
+            for i in range(n):
+                s = segs[i][0]
+                e = s + k - 1
+                if j < i:
+                    j = i
+                while j < n and segs[j][1] <= e:
+                    j += 1
+                total = P[j] - P[i]
+                if j < n and segs[j][0] <= e:
+                    total += (e - segs[j][0] + 1) * segs[j][2]
+                best = max(best, total)
+            return best
+
+        a = solve([[l, r, c] for l, r, c in coins])
+        b = solve([[-r, -l, c] for l, r, c in coins])
+        return max(a, b)
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,7 +130,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2920. Maximum Points After Collecting Coins From All Nodes](../../3001-3500/3179-maximum-points-after-collecting-coins-from-all-nodes/)
-- [995. Minimum Number of K Consecutive Bit Flips](../../1001-1500/1037-minimum-number-of-k-consecutive-bit-flips/)
+- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
 - [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
 
 ## LeetCode

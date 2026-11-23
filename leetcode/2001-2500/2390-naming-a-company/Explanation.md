@@ -16,26 +16,79 @@ Solve LeetCode Naming a Company using Python and Array / General. This solution 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array of strings  ideas  that represents a list of names to be used in the process of naming a company. The process of naming a company is as follows:
+## Problem Statement
+You are given an array of strings `ideas` that represents a list of names to be used in the process of naming a company. The process of naming a company is as follows:
+
+Choose 2 **distinct** names from `ideas`, call them `idea_A` and `idea_B`. 
+ Swap the first letters of `idea_A` and `idea_B` with each other. 
+ If **both** of the new names are not found in the original `ideas`, then the name `idea_A idea_B` (the **concatenation** of `idea_A` and `idea_B`, separated by a space) is a valid company name. 
+ Otherwise, it is not a valid name.
+
+Return *the number of **distinct** valid names for the company*.
+
+## Constraints
+- `2 <= ideas.length <= 5 * 10^4`
+- `1 <= ideas[i].length <= 10`
+- `ideas[i]` consists of lowercase English letters.
+- All the strings in `ideas` are **unique**.
+
+## Examples
+### Example 1
+- **Input:** `ideas = ["coffee","donuts","time","toffee"]`
+- **Output:** `6`
+- **Explanation:** The following selections are valid:
+- ("coffee", "donuts"): The company name created is "doffee conuts".
+- ("donuts", "coffee"): The company name created is "conuts doffee".
+- ("donuts", "time"): The company name created is "tonuts dime".
+- ("donuts", "toffee"): The company name created is "tonuts doffee".
+- ("time", "donuts"): The company name created is "dime tonuts".
+- ("toffee", "donuts"): The company name created is "doffee tonuts".
+Therefore, there are a total of 6 distinct company names.
+
+The following are some examples of invalid selections:
+- ("coffee", "time"): The name "toffee" formed after swapping already exists in the original array.
+- ("time", "toffee"): Both names are still the same after swapping and exist in the original array.
+- ("coffee", "toffee"): Both names formed after swapping already exist in the original array.
+
+### Example 2
+- **Input:** `ideas = ["lack","back"]`
+- **Output:** `0`
+- **Explanation:** There are no valid selections. Therefore, 0 is returned.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Naming a Company**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Naming a Company**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `ideas = ["coffee","donuts","time","toffee"]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `6`.
+4. **Verification:** The following selections are valid:
+- ("coffee", "donuts"): The company name created is "doffee conuts".
+- ("donuts", "coffee"): The company name created is "conuts doffee".
+- ("donuts", "time"): The company name created is "tonuts dime".
+- ("donuts", "toffee"): The company name created is "tonuts doffee".
+- ("time", "donuts"): The company name created is "dime tonuts".
+- ("toffee", "donuts"): The company name created is "doffee tonuts".
+Therefore, there are a total of 6 distinct company names.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+The following are some examples of invalid selections:
+- ("coffee", "time"): The name "toffee" formed after swapping already exists in the original array.
+- ("time", "toffee"): Both names are still the same after swapping and exist in the original array.
+- ("coffee", "toffee"): Both names formed after swapping already exist in the original array.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +101,27 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def distinctNames(self, ideas):
+        groups = [set() for _ in range(26)]
+        for idea in ideas:
+            groups[ord(idea[0]) - ord('a')].add(idea[1:])
+
+        ans = 0
+        for i in range(25):
+            if not groups[i]:
+                continue
+            for j in range(i + 1, 26):
+                if not groups[j]:
+                    continue
+                mutual = len(groups[i] & groups[j])
+                ans += 2 * (len(groups[i]) - mutual) * (len(groups[j]) - mutual)
+
+        return ans
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

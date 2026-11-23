@@ -16,26 +16,55 @@ Solve LeetCode Water Bottles II using JavaScript and Array / General. This solut
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two integers  numBottles  and  numExchange .
+## Problem Statement
+You are given two integers `numBottles` and `numExchange`.
+
+`numBottles` represents the number of full water bottles that you initially have. In one operation, you can perform one of the following operations:
+
+Drink any number of full water bottles turning them into empty bottles. 
+ Exchange `numExchange` empty bottles with one full water bottle. Then, increase `numExchange` by one.
+
+Note that you cannot exchange multiple batches of empty bottles for the same value of `numExchange`. For example, if `numBottles == 3` and `numExchange == 1`, you cannot exchange `3` empty water bottles for `3` full bottles.
+
+Return *the **maximum** number of water bottles you can drink*.
+
+## Constraints
+- `1 <= numBottles <= 100 `
+- `1 <= numExchange <= 100`
+
+## Examples
+### Example 1
+- **Input:** `numBottles = 13, numExchange = 6`
+- **Output:** `15`
+- **Explanation:** The table above shows the number of full water bottles, empty water bottles, the value of numExchange, and the number of bottles drunk.
+
+### Example 2
+- **Input:** `numBottles = 10, numExchange = 3`
+- **Output:** `13`
+- **Explanation:** The table above shows the number of full water bottles, empty water bottles, the value of numExchange, and the number of bottles drunk.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Water Bottles II**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Water Bottles II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `numBottles = 13, numExchange = 6`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `15`.
+4. **Verification:** The table above shows the number of full water bottles, empty water bottles, the value of numExchange, and the number of bottles drunk.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +77,22 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var maxBottlesDrunk = function(numBottles, numExchange) {
+    let drunk = numBottles;
+    let empty = numBottles;
+
+    while (empty >= numExchange) {
+        empty -= numExchange - 1;
+        numExchange++;
+        drunk++;
+    }
+
+    return drunk;
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

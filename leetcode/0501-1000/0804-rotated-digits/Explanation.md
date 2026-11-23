@@ -16,8 +16,35 @@ Solve LeetCode Rotated Digits using C++ and Binary Search. This solution finds t
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-An integer  x  is a  good  if after rotating each digit individually by 180 degrees, we get a valid number that is different from  x . Each digit must be rotated - we cannot choose to leave it alone.
+## Problem Statement
+An integer `x` is a **good** if after rotating each digit individually by 180 degrees, we get a valid number that is different from `x`. Each digit must be rotated - we cannot choose to leave it alone.
+
+A number is valid if each digit remains a digit after rotation. For example:
+
+`0`, `1`, and `8` rotate to themselves, 
+ `2` and `5` rotate to each other (in this case they are rotated in a different direction, in other words, `2` or `5` gets mirrored), 
+ `6` and `9` rotate to each other, and 
+ the rest of the numbers do not rotate to any other number and become invalid.
+
+Given an integer `n`, return *the number of **good** integers in the range *`[1, n]`.
+
+## Constraints
+- `1 <= n <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `n = 10`
+- **Output:** `4`
+- **Explanation:** There are four good numbers in the range [1, 10] : 2, 5, 6, 9.
+Note that 1 and 10 are not good numbers, since they remain unchanged after rotating.
+
+### Example 2
+- **Input:** `n = 1`
+- **Output:** `0`
+
+### Example 3
+- **Input:** `n = 2`
+- **Output:** `1`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -38,12 +65,18 @@ Time complexity is $O(N \log N)$ (each number has at most $\log_{10}(N)$ digits)
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Rotated Digits**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 10`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** There are four good numbers in the range [1, 10] : 2, 5, 6, 9.
+Note that 1 and 10 are not good numbers, since they remain unchanged after rotating.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -58,6 +91,45 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    int rotatedDigits(int n) {
+        int count = 0;
+
+        for (int i = 1; i <= n; i++) {
+            int x = i;
+            bool valid = true;
+            bool different = false;
+
+            while (x > 0) {
+                int digit = x % 10;
+
+                // Invalid after rotation
+                if (digit == 3 || digit == 4 || digit == 7) {
+                    valid = false;
+                    break;
+                }
+
+                // These digits change after rotation
+                if (digit == 2 || digit == 5 || digit == 6 || digit == 9) {
+                    different = true;
+                }
+
+                x /= 10;
+            }
+
+            if (valid && different) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

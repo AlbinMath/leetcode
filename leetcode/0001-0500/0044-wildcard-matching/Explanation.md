@@ -16,26 +16,57 @@ Solve LeetCode Wildcard Matching using Python and Array / General. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an input string ( s ) and a pattern ( p ), implement wildcard pattern matching with support for  &#39;?&#39;  and  &#39;*&#39;  where:
+## Problem Statement
+Given an input string (`s`) and a pattern (`p`), implement wildcard pattern matching with support for `'?'` and `'*'` where:
+
+`'?'` Matches any single character. 
+ `'*'` Matches any sequence of characters (including the empty sequence).
+
+The matching should cover the **entire** input string (not partial).
+
+## Constraints
+- `0 <= s.length, p.length <= 2000`
+- `s` contains only lowercase English letters.
+- `p` contains only lowercase English letters, `'?'` or `'*'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "aa", p = "a"`
+- **Output:** `false`
+- **Explanation:** "a" does not match the entire string "aa".
+
+### Example 2
+- **Input:** `s = "aa", p = "*"`
+- **Output:** `true`
+- **Explanation:** '*' matches any sequence.
+
+### Example 3
+- **Input:** `s = "cb", p = "?a"`
+- **Output:** `false`
+- **Explanation:** '?' matches 'c', but the second letter is 'a', which does not match 'b'.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Wildcard Matching**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Wildcard Matching**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "aa", p = "a"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `false`.
+4. **Verification:** "a" does not match the entire string "aa".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +79,46 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def isMatch(self, s, p):
+        i = 0
+        j = 0
+
+        star = -1
+        match = 0
+
+        while i < len(s):
+
+            # Case 1: Characters match or pattern has '?'
+            if j < len(p) and (p[j] == s[i] or p[j] == '?'):
+                i += 1
+                j += 1
+
+            # Case 2: We found '*'
+            elif j < len(p) and p[j] == '*':
+                star = j
+                match = i
+                j += 1
+
+            # Case 3: Mismatch, but we have seen a '*'
+            elif star != -1:
+                j = star + 1
+                match += 1
+                i = match
+
+            # Case 4: Mismatch and no '*'
+            else:
+                return False
+
+        # Remaining pattern must contain only '*'
+        while j < len(p) and p[j] == '*':
+            j += 1
+
+        return j == len(p)
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -1,7 +1,7 @@
 # LeetCode 996: Number of Squareful Arrays
 
 **LeetCode Problem #996 — Number of Squareful Arrays**
-Solve LeetCode Number of Squareful Arrays using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Number of Squareful Arrays using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,64 @@ Solve LeetCode Number of Squareful Arrays using JavaScript and Array / General. 
 | LeetCode | #996 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-An array is  squareful  if the sum of every pair of adjacent elements is a  perfect square .
+## Problem Statement
+An array is **squareful** if the sum of every pair of adjacent elements is a **perfect square**.
+
+Given an integer array nums, return *the number of permutations of *`nums`* that are **squareful***.
+
+Two permutations `perm1` and `perm2` are different if there is some index `i` such that `perm1[i] != perm2[i]`.
+
+## Constraints
+- `1 <= nums.length <= 12`
+- `0 <= nums[i] <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,17,8]`
+- **Output:** `2`
+- **Explanation:** [1,8,17] and [17,8,1] are the valid permutations.
+
+### Example 2
+- **Input:** `nums = [2,2,2]`
+- **Output:** `1`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Number of Squareful Arrays**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Number of Squareful Arrays**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,17,8]`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** [1,8,17] and [17,8,1] are the valid permutations.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 JavaScript
@@ -49,8 +75,54 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var numSquarefulPerms = function (nums) {
+  nums.sort((a, b) => a - b);
+  const n = nums.length;
+
+  const isSquare = (x) => {
+    const r = Math.round(Math.sqrt(x));
+    return r * r === x;
+  };
+
+  const ok = Array.from({ length: n }, () => new Array(n).fill(false));
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      if (i !== j) ok[i][j] = isSquare(nums[i] + nums[j]);
+    }
+  }
+
+  const used = new Array(n).fill(false);
+  let count = 0;
+
+  const dfs = (depth, prev) => {
+    if (depth === n) {
+      count++;
+      return;
+    }
+    for (let i = 0; i < n; i++) {
+      if (used[i]) continue;
+      if (i > 0 && nums[i] === nums[i - 1] && !used[i - 1]) continue;
+      if (prev !== -1 && !ok[prev][i]) continue;
+
+      used[i] = true;
+      dfs(depth + 1, i);
+      used[i] = false;
+    }
+  };
+
+  dfs(0, -1);
+  return count;
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

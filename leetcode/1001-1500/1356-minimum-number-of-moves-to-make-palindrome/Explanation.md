@@ -16,26 +16,57 @@ Solve LeetCode Minimum Number of Moves to Make Palindrome using JavaScript and T
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string  s  consisting only of lowercase English letters.
+## Problem Statement
+You are given a string `s` consisting only of lowercase English letters.
+
+In one **move**, you can select any two **adjacent** characters of `s` and swap them.
+
+Return *the **minimum number of moves** needed to make* `s` *a palindrome*.
+
+**Note** that the input will be generated such that `s` can always be converted to a palindrome.
+
+## Constraints
+- `1 <= s.length <= 2000`
+- `s` consists only of lowercase English letters.
+- `s` can be converted to a palindrome using a finite number of moves.
+
+## Examples
+### Example 1
+- **Input:** `s = "aabb"`
+- **Output:** `2`
+- **Explanation:** We can obtain two palindromes from s, "abba" and "baab". 
+- We can obtain "abba" from s in 2 moves: "a
+
+### Example 2
+- **Input:** `s = "letelt"`
+- **Output:** `2`
+- **Explanation:** One of the palindromes we can obtain from s in 2 moves is "lettel".
+One of the ways we can obtain it is "lete
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Two Pointer Convergence & Scanning**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Number of Moves to Make Palindrome**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Number of Moves to Make Palindrome**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "aabb"`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** We can obtain two palindromes from s, "abba" and "baab". 
+- We can obtain "abba" from s in 2 moves: "a
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -51,6 +82,47 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var minMovesToMakePalindrome = function(s) {
+    const chars = s.split("");
+    let left = 0;
+    let right = chars.length - 1;
+    let moves = 0;
+
+    while (left < right) {
+        let k = right;
+
+        // Find a matching character for chars[left]
+        while (k > left && chars[k] !== chars[left]) {
+            k--;
+        }
+
+        if (k === left) {
+            // No match found: this character belongs in the middle
+            [chars[left], chars[left + 1]] =
+                [chars[left + 1], chars[left]];
+
+            moves++;
+        } else {
+            // Move the matching character to the right end
+            while (k < right) {
+                [chars[k], chars[k + 1]] =
+                    [chars[k + 1], chars[k]];
+
+                k++;
+                moves++;
+            }
+
+            left++;
+            right--;
+        }
+    }
+
+    return moves;
+};
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,9 +136,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1674. Minimum Moves to Make Array Complementary](../../1501-2000/1793-minimum-moves-to-make-array-complementary/)
-- [2037. Minimum Number of Moves to Seat Everyone](../../2001-2500/2148-minimum-number-of-moves-to-seat-everyone/)
 - [1312. Minimum Insertion Steps to Make a String Palindrome](../../1001-1500/1437-minimum-insertion-steps-to-make-a-string-palindrome/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [1674. Minimum Moves to Make Array Complementary](../../1501-2000/1793-minimum-moves-to-make-array-complementary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)

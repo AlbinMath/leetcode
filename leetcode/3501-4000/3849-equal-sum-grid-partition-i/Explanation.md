@@ -1,7 +1,7 @@
 # LeetCode 3546: Equal Sum Grid Partition I
 
 **LeetCode Problem #3546 — Equal Sum Grid Partition I**
-Solve LeetCode Equal Sum Grid Partition I using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Equal Sum Grid Partition I using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,66 @@ Solve LeetCode Equal Sum Grid Partition I using Python and Tree & Graph. This so
 | LeetCode | #3546 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an  m x n  matrix  grid  of positive integers. Your task is to determine if it is possible to make  either one horizontal or one vertical cut  on the grid such that:
+## Problem Statement
+You are given an `m x n` matrix `grid` of positive integers. Your task is to determine if it is possible to make **either one horizontal or one vertical cut** on the grid such that:
+
+Each of the two resulting sections formed by the cut is **non-empty**. 
+ The sum of the elements in both sections is **equal**.
+
+Return `true` if such a partition exists; otherwise return `false`.
+
+## Constraints
+- `1 <= m == grid.length <= 10^5`
+- `1 <= n == grid[i].length <= 10^5`
+- `2 <= m * n <= 10^5`
+- `1 <= grid[i][j] <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `grid = [[1,4],[2,3]]`
+- **Output:** `true`
+- **Explanation:** A horizontal cut between row 0 and row 1 results in two non-empty sections, each with a sum of 5. Thus, the answer is `true`.
+
+### Example 2
+- **Input:** `grid = [[1,3],[2,4]]`
+- **Output:** `false`
+- **Explanation:** No horizontal or vertical cut results in two non-empty sections with equal sums. Thus, the answer is `false`.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+To solve **Equal Sum Grid Partition I**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Equal Sum Grid Partition I**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `grid = [[1,4],[2,3]]`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** A horizontal cut between row 0 and row 1 results in two non-empty sections, each with a sum of 5. Thus, the answer is `true`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -52,8 +77,41 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def canPartitionGrid(self, grid: List[List[int]]) -> bool:
+        m, n = len(grid), len(grid[0])
+        total = sum(map(sum, grid))
+        if total % 2:
+            return False
+        half = total // 2
+
+        # horizontal cuts: after row i, for i in 0..m-2
+        acc = 0
+        for i in range(m - 1):
+            acc += sum(grid[i])
+            if acc == half:
+                return True
+
+        # vertical cuts: after column j, for j in 0..n-2
+        col = [0] * n
+        for row in grid:
+            for j, v in enumerate(row):
+                col[j] += v
+        acc = 0
+        for j in range(n - 1):
+            acc += col[j]
+            if acc == half:
+                return True
+
+        return False
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

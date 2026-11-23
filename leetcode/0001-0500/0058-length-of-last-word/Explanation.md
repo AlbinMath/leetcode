@@ -16,26 +16,55 @@ Solve LeetCode Length of Last Word using Python and Hash Map. This solution find
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a string  s  consisting of words and spaces, return  the length of the  last  word in the string.
+## Problem Statement
+Given a string `s` consisting of words and spaces, return *the length of the **last** word in the string.*
+
+A **word** is a maximal substring consisting of non-space characters only.
+
+## Constraints
+- `1 <= s.length <= 10^4`
+- `s` consists of only English letters and spaces `' '`.
+- There will be at least one word in `s`.
+
+## Examples
+### Example 1
+- **Input:** `s = "Hello World"`
+- **Output:** `5`
+- **Explanation:** The last word is "World" with length 5.
+
+### Example 2
+- **Input:** `s = " fly me to the moon "`
+- **Output:** `4`
+- **Explanation:** The last word is "moon" with length 4.
+
+### Example 3
+- **Input:** `s = "luffy is still joyboy"`
+- **Output:** `6`
+- **Explanation:** The last word is "joyboy" with length 6.
 
 ## Key Insight
 Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Length of Last Word**, we observe the problem requirements and utilize the **Hash Map** technique. By maintaining a **Dictionary / Hash Map**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Dictionary / Hash Map**).
-2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Dictionary / Hash Map** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Length of Last Word**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "Hello World"`.
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** The last word is "World" with length 5.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
 **Hash Map**
@@ -51,6 +80,26 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def lengthOfLastWord(self, s):
+        i = len(s) - 1
+
+        # Skip trailing spaces
+        while i >= 0 and s[i] == ' ':
+            i -= 1
+
+        # Count the last word
+        length = 0
+
+        while i >= 0 and s[i] != ' ':
+            length += 1
+            i -= 1
+
+        return length
+```
+
 ## Why This Works
 By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,9 +113,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [79. Word Search](../../0001-0500/0079-word-search/)
-- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
-- [127. Word Ladder](../../0001-0500/0127-word-ladder/)
+- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-last-word/)

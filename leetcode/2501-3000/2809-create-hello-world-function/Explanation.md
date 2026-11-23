@@ -16,8 +16,28 @@ Solve LeetCode Create Hello World Function using TypeScript and Tree & Graph. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Write a function  createHelloWorld . It should return a new function that always returns  "Hello World" .
+## Problem Statement
+Write a function `createHelloWorld`. It should return a new function that always returns `"Hello World"`.
+
+## Constraints
+- `0 <= args.length <= 10`
+
+## Examples
+### Example 1
+- **Input:** `args = []`
+- **Output:** `"Hello World"`
+- **Explanation:** const f = createHelloWorld();
+f(); // "Hello World"
+
+The function returned by createHelloWorld should always return "Hello World".
+
+### Example 2
+- **Input:** `args = [{},null,42]`
+- **Output:** `"Hello World"`
+- **Explanation:** const f = createHelloWorld();
+f({}, null, 42); // "Hello World"
+
+Any arguments could be passed to the function but it should still always return "Hello World".
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
@@ -30,12 +50,20 @@ Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficie
 2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Create Hello World Function**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `args = []`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"Hello World"`.
+4. **Verification:** const f = createHelloWorld();
+f(); // "Hello World"
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+The function returned by createHelloWorld should always return "Hello World".
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +80,15 @@ TypeScript
 ## Source Code
 - [solution.ts](./solution.ts)
 
+
+```typescript
+function createHelloWorld() {
+    return function(...args: any[]): string {
+        return "Hello World";
+    };
+}
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,9 +102,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
-- [1389. Create Target Array in the Given Order](../../1501-2000/1505-create-target-array-in-the-given-order/)
-- [1649. Create Sorted Array through Instructions](../../1501-2000/1772-create-sorted-array-through-instructions/)
+- [396. Rotate Function](../../0001-0500/0396-rotate-function/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1645-find-a-value-of-a-mysterious-function-closest-to-target/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-hello-world-function/)

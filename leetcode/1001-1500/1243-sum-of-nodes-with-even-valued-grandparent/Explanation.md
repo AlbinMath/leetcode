@@ -16,26 +16,48 @@ Solve LeetCode Sum of Nodes with Even-Valued Grandparent using Python and Dynami
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given the  root  of a binary tree, return  the sum of values of nodes with an  even-valued grandparent  . If there are no nodes with an  even-valued grandparent , return  0 .
+## Problem Statement
+Given the `root` of a binary tree, return *the sum of values of nodes with an **even-valued grandparent***. If there are no nodes with an **even-valued grandparent**, return `0`.
+
+A **grandparent** of a node is the parent of its parent if it exists.
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 10^4]`.
+- `1 <= Node.val <= 100`
+
+## Examples
+### Example 1
+- **Input:** `root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]`
+- **Output:** `18`
+- **Explanation:** The red nodes are the nodes with even-value grandparent while the blue nodes are the even-value grandparents.
+
+### Example 2
+- **Input:** `root = [1]`
+- **Output:** `0`
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **Memoization & State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sum of Nodes with Even-Valued Grandparent**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We decompose the problem into overlapping subproblems using a **DP Table / Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sum of Nodes with Even-Valued Grandparent**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `18`.
+4. **Verification:** The red nodes are the nodes with even-value grandparent while the blue nodes are the even-value grandparents.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -50,6 +72,23 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import Optional
+
+class Solution:
+    def sumEvenGrandparent(self, root: Optional[TreeNode]) -> int:
+        def dfs(node, parent, grand):
+            if not node:
+                return 0
+            total = node.val if grand % 2 == 0 else 0
+            total += dfs(node.left, node.val, parent)
+            total += dfs(node.right, node.val, parent)
+            return total
+
+        return dfs(root, 1, 1)
+```
 
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

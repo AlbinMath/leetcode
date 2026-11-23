@@ -16,26 +16,83 @@ Solve LeetCode Maximize Sum of Squares of Digits using Python and Math & Logic. 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two  positive  integers  num  and  sum .
+## Problem Statement
+You are given two **positive** integers `num` and `sum`.
+
+A positive integer `n` is **good** if it satisfies both of the following:
+
+The number of digits in `n` is **exactly** `num`. 
+ The sum of digits in `n` is **exactly** `sum`.
+
+The **score** of a **good** integer `n` is the sum of the squares of digits in `n`.
+
+Return a **string** denoting the **good** integer `n` that achieves the **maximum** **score**. If there are multiple possible integers, return the **maximum **​​​​​​​one. If no such integer exists, return an empty string.
+
+## Constraints
+- `1 <= num <= 2 * 10^5`
+- `1 <= sum <= 2 * 10^6`
+
+## Examples
+### Example 1
+- **Input:** `num = 2, sum = 3`
+- **Output:** `"30"`
+- **Explanation:** There are 3 good integers: 12, 21, and 30. 
+
+ 
+ The score of 12 is `1^2 + 2^2 = 5`. 
+ The score of 21 is `2^2 + 1^2 = 5`. 
+ The score of 30 is `3^2 + 0^2 = 9`. 
+ 
+
+ The maximum score is 9, which is achieved by the good integer 30. Therefore, the answer is `"30"`.
+
+### Example 2
+- **Input:** `num = 2, sum = 17`
+- **Output:** `"98"`
+- **Explanation:** There are 2 good integers: 89 and 98. 
+
+ 
+ The score of 89 is `8^2 + 9^2 = 145`. 
+ The score of 98 is `9^2 + 8^2 = 145`. 
+ 
+
+ The maximum score is 145. The maximum good integer that achieves this score is 98. Therefore, the answer is `"98"`.
+
+### Example 3
+- **Input:** `num = 1, sum = 10`
+- **Output:** `""`
+- **Explanation:** There are no integers that have exactly 1 digit and whose digits sum to 10. Therefore, the answer is `""`.
 
 ## Key Insight
 Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Mathematical Simulation & Modular Arithmetic**. By maintaining state efficiently in a **Primitive Types**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximize Sum of Squares of Digits**, we observe the problem requirements and utilize the **Math & Logic** technique. We iterate through the inputs using **Mathematical Simulation & Modular Arithmetic**, leveraging a **Primitive Types** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Types**).
-2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Primitive Types**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximize Sum of Squares of Digits**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `num = 2, sum = 3`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"30"`.
+4. **Verification:** There are 3 good integers: 12, 21, and 30. 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ 
+ The score of 12 is `1^2 + 2^2 = 5`. 
+ The score of 21 is `2^2 + 1^2 = 5`. 
+ The score of 30 is `3^2 + 0^2 = 9`. 
+ 
+
+ The maximum score is 9, which is achieved by the good integer 30. Therefore, the answer is `"30"`.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
 **Math & Logic**
@@ -49,6 +106,15 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def maxSumOfSquares(self, num: int, sum: int) -> str:
+        if sum > 9 * num:
+            return ""
+        return "9" * (sum // 9) + str(sum % 9) * (sum % 9 > 0) + "0" * (num - (sum + 8) // 9)
+```
 
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +130,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2897. Apply Operations on Array to Maximize Sum of Squares](../../3001-3500/3153-apply-operations-on-array-to-maximize-sum-of-squares/)
-- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
-- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3501-4000/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+- [2778. Sum of Squares of Special Elements ](../../2501-3000/2844-sum-of-squares-of-special-elements-/)
+- [2913. Subarrays Distinct Element Sum of Squares I](../../3001-3500/3163-subarrays-distinct-element-sum-of-squares-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/)

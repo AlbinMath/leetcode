@@ -16,26 +16,48 @@ Solve LeetCode Sum of Digits in Base K using C++ and Math & Logic. This solution
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an integer  n  (in base  10 ) and a base  k , return  the  sum  of the digits of   n    after  converting   n   from base   10   to base   k .
+## Problem Statement
+Given an integer `n` (in base `10`) and a base `k`, return *the **sum** of the digits of *`n`* **after** converting *`n`* from base *`10`* to base *`k`.
+
+After converting, each digit should be interpreted as a base `10` number, and the sum should be returned in base `10`.
+
+## Constraints
+- `1 <= n <= 100`
+- `2 <= k <= 10`
+
+## Examples
+### Example 1
+- **Input:** `n = 34, k = 6`
+- **Output:** `9`
+- **Explanation:** 34 (base 10) expressed in base 6 is 54. 5 + 4 = 9.
+
+### Example 2
+- **Input:** `n = 10, k = 10`
+- **Output:** `1`
+- **Explanation:** n is already in base 10. 1 + 0 = 1.
 
 ## Key Insight
 Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Mathematical Simulation & Modular Arithmetic**. By maintaining state efficiently in a **Primitive Types**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sum of Digits in Base K**, we observe the problem requirements and utilize the **Math & Logic** technique. We iterate through the inputs using **Mathematical Simulation & Modular Arithmetic**, leveraging a **Primitive Types** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Types**).
-2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Primitive Types**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sum of Digits in Base K**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 34, k = 6`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `9`.
+4. **Verification:** 34 (base 10) expressed in base 6 is 54. 5 + 4 = 9.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
 **Math & Logic**
@@ -50,6 +72,23 @@ C++
 ## Source Code
 - [solution.cpp](./solution.cpp)
 
+
+```cpp
+class Solution {
+public:
+    int sumBase(int n, int k) {
+        int sum = 0;
+
+        while (n > 0) {
+            sum += n % k;
+            n /= k;
+        }
+
+        return sum;
+    }
+};
+```
+
 ## Why This Works
 By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -63,9 +102,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
-- [560. Subarray Sum Equals K](../../0501-1000/0560-subarray-sum-equals-k/)
-- [698. Partition to K Equal Sum Subsets](../../0501-1000/0698-partition-to-k-equal-sum-subsets/)
+- [402. Remove K Digits](../../0001-0500/0402-remove-k-digits/)
+- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
+- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-digits-in-base-k/)

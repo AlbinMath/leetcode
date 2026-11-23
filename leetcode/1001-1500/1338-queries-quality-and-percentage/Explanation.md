@@ -16,26 +16,104 @@ Solve LeetCode Queries Quality and Percentage using SQL and Database / SQL. This
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Queries`
+
++-------------+---------+
+| Column Name | Type |
++-------------+---------+
+| query_name | varchar |
+| result | varchar |
+| position | int |
+| rating | int |
++-------------+---------+
 This table may have duplicate rows.
+This table contains information collected from some queries on a database.
+The `position` column has a value from **1** to **500**.
+The `rating` column has a value from **1** to **5**. Query with `rating` less than 3 is a poor query.
+
+We define query `quality` as:
+
+The average of the ratio between query rating and its position.
+
+We also define `poor query percentage` as:
+
+The percentage of all queries with rating less than 3.
+
+Write a solution to find each `query_name`, the `quality` and `poor_query_percentage`.
+
+Both `quality` and `poor_query_percentage` should be **rounded to 2 decimal places**.
+
+Return the result table in **any order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Queries table:
++------------+-------------------+----------+--------+
+| query_name | result | position | rating |
++------------+-------------------+----------+--------+
+| Dog | Golden Retriever | 1 | 5 |
+| Dog | German Shepherd | 2 | 5 |
+| Dog | Mule | 200 | 1 |
+| Cat | Shirazi | 5 | 2 |
+| Cat | Siamese | 3 | 3 |
+| Cat | Sphynx | 7 | 4 |
++------------+-------------------+----------+--------+`
+- **Output:** `+------------+---------+-----------------------+
+| query_name | quality | poor_query_percentage |
++------------+---------+-----------------------+
+| Dog | 2.50 | 33.33 |
+| Cat | 0.66 | 33.33 |
++------------+---------+-----------------------+`
+- **Explanation:** Dog queries quality is ((5 / 1) + (5 / 2) + (1 / 200)) / 3 = 2.50
+Dog queries poor_ query_percentage is (1 / 3) * 100 = 33.33
+
+Cat queries quality equals ((2 / 5) + (3 / 3) + (4 / 7)) / 3 = 0.66
+Cat queries poor_ query_percentage is (1 / 3) * 100 = 33.33
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Queries Quality and Percentage** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We group records using `GROUP BY` and compute metrics with aggregate functions. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Group records and calculate aggregated summary metrics.
+2. Filter records according to problem criteria.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Queries Quality and Percentage**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Queries table:
++------------+-------------------+----------+--------+
+| query_name | result | position | rating |
++------------+-------------------+----------+--------+
+| Dog | Golden Retriever | 1 | 5 |
+| Dog | German Shepherd | 2 | 5 |
+| Dog | Mule | 200 | 1 |
+| Cat | Shirazi | 5 | 2 |
+| Cat | Siamese | 3 | 3 |
+| Cat | Sphynx | 7 | 4 |
++------------+-------------------+----------+--------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+------------+---------+-----------------------+
+| query_name | quality | poor_query_percentage |
++------------+---------+-----------------------+
+| Dog | 2.50 | 33.33 |
+| Cat | 0.66 | 33.33 |
++------------+---------+-----------------------+`.
+4. **Verification:** Dog queries quality is ((5 / 1) + (5 / 2) + (1 / 200)) / 3 = 2.50
+Dog queries poor_ query_percentage is (1 / 3) * 100 = 33.33
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+Cat queries quality equals ((2 / 5) + (3 / 3) + (4 / 7)) / 3 = 0.66
+Cat queries poor_ query_percentage is (1 / 3) * 100 = 33.33
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -51,6 +129,20 @@ SQL
 ## Source Code
 - [solution.sql](./solution.sql)
 
+
+```sql
+SELECT
+    query_name,
+    ROUND(AVG(CAST(rating AS FLOAT) / position), 2) AS quality,
+    ROUND(
+        100.0 * SUM(CASE WHEN rating < 3 THEN 1 ELSE 0 END) / COUNT(*),
+        2
+    ) AS poor_query_percentage
+FROM Queries
+WHERE query_name IS NOT NULL
+GROUP BY query_name;
+```
+
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,9 +156,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
-- [1310. XOR Queries of a Subarray](../../1001-1500/1435-xor-queries-of-a-subarray/)
-- [1409. Queries on a Permutation With Key](../../1501-2000/1525-queries-on-a-permutation-with-key/)
+- [1620. Coordinate With Maximum Network Quality](../../1501-2000/1726-coordinate-with-maximum-network-quality/)
+- [2065. Maximum Path Quality of a Graph](../../2001-2500/2189-maximum-path-quality-of-a-graph/)
+- [1633. Percentage of Users Attended a Contest](../../1501-2000/1773-percentage-of-users-attended-a-contest/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queries-quality-and-percentage/)

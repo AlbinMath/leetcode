@@ -16,26 +16,79 @@ Solve LeetCode Display the First Three Rows using Python and Array / General. Th
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Write a solution to display the  first  3   rows   of this DataFrame.
+## Problem Statement
+DataFrame: `employees`
++-------------+--------+
+| Column Name | Type |
++-------------+--------+
+| employee_id | int |
+| name | object |
+| department | object |
+| salary | int |
++-------------+--------+
+
+Write a solution to display the **first `3` **rows** **of this DataFrame.
+
+## Examples
+### Example 1
+- **Input:** `DataFrame employees
++-------------+-----------+-----------------------+--------+
+| employee_id | name | department | salary |
++-------------+-----------+-----------------------+--------+
+| 3 | Bob | Operations | 48675 |
+| 90 | Alice | Sales | 11096 |
+| 9 | Tatiana | Engineering | 33805 |
+| 60 | Annabelle | InformationTechnology | 37678 |
+| 49 | Jonathan | HumanResources | 23793 |
+| 43 | Khaled | Administration | 40454 |
++-------------+-----------+-----------------------+--------+`
+- **Output:** `+-------------+---------+-------------+--------+
+| employee_id | name | department | salary |
++-------------+---------+-------------+--------+
+| 3 | Bob | Operations | 48675 |
+| 90 | Alice | Sales | 11096 |
+| 9 | Tatiana | Engineering | 33805 |
++-------------+---------+-------------+--------+`
+- **Explanation:** Only the first 3 rows are displayed.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Display the First Three Rows**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Display the First Three Rows**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `DataFrame employees
++-------------+-----------+-----------------------+--------+
+| employee_id | name | department | salary |
++-------------+-----------+-----------------------+--------+
+| 3 | Bob | Operations | 48675 |
+| 90 | Alice | Sales | 11096 |
+| 9 | Tatiana | Engineering | 33805 |
+| 60 | Annabelle | InformationTechnology | 37678 |
+| 49 | Jonathan | HumanResources | 23793 |
+| 43 | Khaled | Administration | 40454 |
++-------------+-----------+-----------------------+--------+`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+-------------+---------+-------------+--------+
+| employee_id | name | department | salary |
++-------------+---------+-------------+--------+
+| 3 | Bob | Operations | 48675 |
+| 90 | Alice | Sales | 11096 |
+| 9 | Tatiana | Engineering | 33805 |
++-------------+---------+-------------+--------+`.
+4. **Verification:** Only the first 3 rows are displayed.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +101,14 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import pandas as pd
+
+def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:
+    return employees.head(3)
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +123,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1418. Display Table of Food Orders in a Restaurant](../../1501-2000/1533-display-table-of-food-orders-in-a-restaurant/)
-- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1147-flip-columns-for-maximum-number-of-equal-rows/)
-- [1337. The K Weakest Rows in a Matrix](../../1001-1500/1463-the-k-weakest-rows-in-a-matrix/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/display-the-first-three-rows/)

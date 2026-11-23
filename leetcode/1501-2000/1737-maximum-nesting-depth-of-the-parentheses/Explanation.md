@@ -16,8 +16,28 @@ Solve LeetCode Maximum Nesting Depth of the Parentheses using Java and Stack & Q
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given a  valid parentheses string   s , return the  nesting depth  of    s . The nesting depth is the  maximum  number of nested parentheses.
+## Problem Statement
+Given a **valid parentheses string** `s`, return the **nesting depth** of* *`s`. The nesting depth is the **maximum** number of nested parentheses.
+
+## Constraints
+- `1 <= s.length <= 100`
+- `s` consists of digits `0-9` and characters `'+'`, `'-'`, `'*'`, `'/'`, `'('`, and `')'`.
+- It is guaranteed that parentheses expression `s` is a VPS.
+
+## Examples
+### Example 1
+- **Input:** `s = "(1+(2*3)+((8)/4))+1"`
+- **Output:** `3`
+- **Explanation:** Digit 8 is inside of 3 nested parentheses in the string.
+
+### Example 2
+- **Input:** `s = "(1)+((2))+(((3)))"`
+- **Output:** `3`
+- **Explanation:** Digit 3 is inside of 3 nested parentheses in the string.
+
+### Example 3
+- **Input:** `s = "()(())((()()))"`
+- **Output:** `3`
 
 ## Key Insight
 Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
@@ -32,12 +52,17 @@ Time complexity is $O(N)$ and space complexity is $O(1)$.
 2. Process elements sequentially using **Stack Push / Pop Parsing**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Maximum Nesting Depth of the Parentheses**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "(1+(2*3)+((8)/4))+1"`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** Digit 8 is inside of 3 nested parentheses in the string.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Stack & Queue**
@@ -51,6 +76,28 @@ Java
 
 ## Source Code
 - [solution.java](./solution.java)
+
+
+```java
+class Solution {
+    public int maxDepth(String s) {
+        int depth = 0;
+        int maxDepth = 0;
+
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                depth++;
+                maxDepth = Math.max(maxDepth, depth);
+            } 
+            else if (c == ')') {
+                depth--;
+            }
+        }
+
+        return maxDepth;
+    }
+}
+```
 
 ## Why This Works
 By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

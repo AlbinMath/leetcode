@@ -16,26 +16,51 @@ Solve LeetCode Maximum Possible Number by Binary Concatenation using Python and 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an array of integers  nums  of size 3.
+## Problem Statement
+You are given an array of integers `nums` of size 3.
+
+Return the **maximum** possible number whose *binary representation* can be formed by **concatenating** the *binary representation* of **all** elements in `nums` in some order.
+
+**Note** that the binary representation of any number *does not* contain leading zeros.
+
+## Constraints
+- `nums.length == 3`
+- `1 <= nums[i] <= 127`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,3]`
+- **Output:** `30`
+- **Explanation:** Concatenate the numbers in the order `[3, 1, 2]` to get the result `"11110"`, which is the binary representation of 30.
+
+### Example 2
+- **Input:** `nums = [2,8,16]`
+- **Output:** `1296`
+- **Explanation:** Concatenate the numbers in the order `[2, 8, 16]` to get the result `"10100010000"`, which is the binary representation of 1296.
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Possible Number by Binary Concatenation**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Possible Number by Binary Concatenation**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,3]`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `30`.
+4. **Verification:** Concatenate the numbers in the order `[3, 1, 2]` to get the result `"11110"`, which is the binary representation of 30.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -52,6 +77,19 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from itertools import permutations
+
+class Solution(object):
+    def maxGoodNumber(self, nums):
+        best = 0
+        for p in permutations(nums):
+            s = ''.join(bin(x)[2:] for x in p)
+            best = max(best, int(s, 2))
+        return best
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,9 +103,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1191. K-Concatenation Maximum Sum](../../1001-1500/1299-k-concatenation-maximum-sum/)
-- [1680. Concatenation of Consecutive Binary Numbers](../../1501-2000/1800-concatenation-of-consecutive-binary-numbers/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0930-all-possible-full-binary-trees/)
+- [2959. Number of Possible Sets of Closing Branches](../../3001-3500/3217-number-of-possible-sets-of-closing-branches/)
+- [3317. Find the Number of Possible Ways for an Event](../../3501-4000/3604-find-the-number-of-possible-ways-for-an-event/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/)

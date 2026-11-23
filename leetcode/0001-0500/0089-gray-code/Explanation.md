@@ -16,26 +16,70 @@ Solve LeetCode Gray Code using JavaScript, Python and Bit Manipulation. This sol
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-An  n-bit gray code sequence  is a sequence of  2 n   integers where:
+## Problem Statement
+An **n-bit gray code sequence** is a sequence of `2^n` integers where:
+
+Every integer is in the **inclusive** range `[0, 2^n - 1]`, 
+ The first integer is `0`, 
+ An integer appears **no more than once** in the sequence, 
+ The binary representation of every pair of **adjacent** integers differs by **exactly one bit**, and 
+ The binary representation of the **first** and **last** integers differs by **exactly one bit**.
+
+Given an integer `n`, return *any valid **n-bit gray code sequence***.
+
+## Constraints
+- `1 <= n <= 16`
+
+## Examples
+### Example 1
+- **Input:** `n = 2`
+- **Output:** `[0,1,3,2]`
+- **Explanation:** The binary representation of [0,1,3,2] is [00,01,11,10].
+- 0 0 and 0 1 differ by one bit
+- 0 1 and 1 1 differ by one bit
+- 1 1 and 1 0 differ by one bit
+- 1 0 and 0 0 differ by one bit
+[0,2,3,1] is also a valid gray code sequence, whose binary representation is [00,10,11,01].
+- 0 0 and 1 0 differ by one bit
+- 1 0 and 1 1 differ by one bit
+- 1 1 and 0 1 differ by one bit
+- 0 1 and 0 0 differ by one bit
+
+### Example 2
+- **Input:** `n = 1`
+- **Output:** `[0,1]`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Gray Code**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Gray Code**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 2`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[0,1,3,2]`.
+4. **Verification:** The binary representation of [0,1,3,2] is [00,01,11,10].
+- 0 0 and 0 1 differ by one bit
+- 0 1 and 1 1 differ by one bit
+- 1 1 and 1 0 differ by one bit
+- 1 0 and 0 0 differ by one bit
+[0,2,3,1] is also a valid gray code sequence, whose binary representation is [00,10,11,01].
+- 0 0 and 1 0 differ by one bit
+- 1 0 and 1 1 differ by one bit
+- 1 1 and 0 1 differ by one bit
+- 0 1 and 0 0 differ by one bit
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -50,6 +94,28 @@ JavaScript, Python
 ## Source Code
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### JavaScript
+```javascript
+var grayCode = function(n) {
+    const result = [];
+    const total = 1 << n;
+
+    for (let i = 0; i < total; i++) {
+        result.push(i ^ (i >> 1));
+    }
+
+    return result;
+};
+```
+
+### Python
+```python
+class Solution:
+    def grayCode(self, n: int) -> list[int]:
+        return [i ^ (i >> 1) for i in range(1 << n)]
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -66,7 +132,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [804. Unique Morse Code Words](../../0501-1000/0822-unique-morse-code-words/)
 - [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [29. Divide Two Integers](../../0001-0500/0029-divide-two-integers/)
+- [137. Single Number II](../../0001-0500/0137-single-number-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/gray-code/)

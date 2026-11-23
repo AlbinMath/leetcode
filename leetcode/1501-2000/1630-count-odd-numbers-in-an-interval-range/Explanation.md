@@ -16,26 +16,42 @@ Solve LeetCode Count Odd Numbers in an Interval Range using Python and Heap. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given two non-negative integers  low  and   high  . Return the  count of odd numbers between   low   and    high    (inclusive) .
+## Problem Statement
+Given two non-negative integers `low` and ` high `. Return the *count of odd numbers between *`low`* and *` high `* (inclusive)*.
+
+## Constraints
+- `0 <= low <= high <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `low = 3, high = 7`
+- **Output:** `3`
+
+### Example 2
+- **Input:** `low = 8, high = 10`
+- **Output:** `1`
 
 ## Key Insight
 Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Greedy Choice Strategy**. By maintaining state efficiently in a **Array / Priority Queue**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Odd Numbers in an Interval Range**, we observe the problem requirements and utilize the **Heap** technique. We iterate through the inputs using **Min/Max Heap Priority Selection**, leveraging a **Heap / Priority Queue** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Heap / Priority Queue**).
-2. Process elements sequentially using **Min/Max Heap Priority Selection**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Heap / Priority Queue**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Odd Numbers in an Interval Range**. Applying **Min/Max Heap Priority Selection** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `low = 3, high = 7`.
+2. **Processing Steps:** We apply **Min/Max Heap Priority Selection** using our **Heap / Priority Queue**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Heap / Priority Queue.
 
 ## Pattern
 **Heap**
@@ -51,6 +67,13 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def countOdds(self, low: int, high: int) -> int:
+        return (high + 1) // 2 - low // 2
+```
+
 ## Why This Works
 By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,8 +87,8 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [201. Bitwise AND of Numbers Range](../../0001-0500/0201-bitwise-and-of-numbers-range/)
 - [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
-- [327. Count of Range Sum](../../0001-0500/0327-count-of-range-sum/)
 - [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
 
 ## LeetCode

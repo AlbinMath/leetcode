@@ -16,26 +16,71 @@ Solve LeetCode Fix Names in a Table using SQL and Database / SQL. This solution 
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Users`
+
 +----------------+---------+
+| Column Name | Type |
++----------------+---------+
+| user_id | int |
+| name | varchar |
++----------------+---------+
+user_id is the primary key (column with unique values) for this table.
+This table contains the ID and the name of the user. The name consists of only lowercase and uppercase characters.
+
+Write a solution to fix the names so that only the first character is uppercase and the rest are lowercase.
+
+Return the result table ordered by `user_id`.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Users table:
++---------+-------+
+| user_id | name |
++---------+-------+
+| 1 | aLice |
+| 2 | bOB |
++---------+-------+`
+- **Output:** `+---------+-------+
+| user_id | name |
++---------+-------+
+| 1 | Alice |
+| 2 | Bob |
++---------+-------+`
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Fix Names in a Table** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We order the final result set using `ORDER BY`.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Sort the projected result.
+2. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Fix Names in a Table**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Users table:
++---------+-------+
+| user_id | name |
++---------+-------+
+| 1 | aLice |
+| 2 | bOB |
++---------+-------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+---------+-------+
+| user_id | name |
++---------+-------+
+| 1 | Alice |
+| 2 | Bob |
++---------+-------+`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +95,15 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT
+    user_id,
+    UPPER(LEFT(name, 1)) + LOWER(SUBSTRING(name, 2, LEN(name))) AS name
+FROM Users
+ORDER BY user_id;
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,65 @@ Solve LeetCode Merge Strings Alternately using C++ and Array / General. This sol
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two strings  word1  and  word2 . Merge the strings by adding letters in alternating order, starting with  word1 . If a string is longer than the other, append the additional letters onto the end of the merged string.
+## Problem Statement
+You are given two strings `word1` and `word2`. Merge the strings by adding letters in alternating order, starting with `word1`. If a string is longer than the other, append the additional letters onto the end of the merged string.
+
+Return *the merged string.*
+
+## Constraints
+- `1 <= word1.length, word2.length <= 100`
+- `word1` and `word2` consist of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `word1 = "abc", word2 = "pqr"`
+- **Output:** `"apbqcr"`
+- **Explanation:** The merged string will be merged as so:
+word1: a b c
+word2: p q r
+merged: a p b q c r
+
+### Example 2
+- **Input:** `word1 = "ab", word2 = "pqrs"`
+- **Output:** `"apbqrs"`
+- **Explanation:** Notice that as word2 is longer, "rs" is appended to the end.
+word1: a b 
+word2: p q r s
+merged: a p b q r s
+
+### Example 3
+- **Input:** `word1 = "abcd", word2 = "pq"`
+- **Output:** `"apbqcd"`
+- **Explanation:** Notice that as word1 is longer, "cd" is appended to the end.
+word1: a b c d
+word2: p q 
+merged: a p b q c d
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Merge Strings Alternately**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Merge Strings Alternately**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `word1 = "abc", word2 = "pqr"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"apbqcr"`.
+4. **Verification:** The merged string will be merged as so:
+word1: a b c
+word2: p q r
+merged: a p b q c r
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +87,31 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    string mergeAlternately(string word1, string word2) {
+        string result = "";
+        int i = 0, j = 0;
+
+        while (i < word1.size() || j < word2.size()) {
+            if (i < word1.size()) {
+                result += word1[i];
+                i++;
+            }
+
+            if (j < word2.size()) {
+                result += word2[j];
+                j++;
+            }
+        }
+
+        return result;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +127,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1754. Largest Merge Of Two Strings](../../1501-2000/1880-largest-merge-of-two-strings/)
-- [1115. Print FooBar Alternately](../../1001-1500/1187-print-foobar-alternately/)
-- [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
+- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
+- [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-strings-alternately/)

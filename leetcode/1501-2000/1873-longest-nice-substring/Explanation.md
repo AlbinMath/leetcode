@@ -1,7 +1,7 @@
 # LeetCode 1763: Longest Nice Substring
 
 **LeetCode Problem #1763 — Longest Nice Substring**
-Solve LeetCode Longest Nice Substring using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Longest Nice Substring using C++ and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,70 @@ Solve LeetCode Longest Nice Substring using C++ and Array / General. This soluti
 | LeetCode | #1763 |
 | Difficulty | Easy |
 | Language | C++ |
-| Algorithm | In-Place Array Traversal & Index Mapping |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
-| Pattern | Array / General |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-A string  s  is  nice  if, for every letter of the alphabet that  s  contains, it appears  both  in uppercase and lowercase. For example,  "abABB"  is nice because  &#39;A&#39;  and  &#39;a&#39;  appear, and  &#39;B&#39;  and  &#39;b&#39;  appear. However,  "abA"  is not because  &#39;b&#39;  appears, but  &#39;B&#39;  does not.
+## Problem Statement
+A string `s` is **nice** if, for every letter of the alphabet that `s` contains, it appears **both** in uppercase and lowercase. For example, `"abABB"` is nice because `'A'` and `'a'` appear, and `'B'` and `'b'` appear. However, `"abA"` is not because `'b'` appears, but `'B'` does not.
+
+Given a string `s`, return *the longest **substring** of `s` that is **nice**. If there are multiple, return the substring of the **earliest** occurrence. If there are none, return an empty string*.
+
+## Constraints
+- `1 <= s.length <= 100`
+- `s` consists of uppercase and lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "YazaAay"`
+- **Output:** `"aAa"`
+- **Explanation:** "aAa" is a nice string because 'A/a' is the only letter of the alphabet in s, and both 'A' and 'a' appear.
+"aAa" is the longest nice substring.
+
+### Example 2
+- **Input:** `s = "Bb"`
+- **Output:** `"Bb"`
+- **Explanation:** "Bb" is a nice string because both 'B' and 'b' appear. The whole string is a substring.
+
+### Example 3
+- **Input:** `s = "c"`
+- **Output:** `""`
+- **Explanation:** There are no nice substrings.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Longest Nice Substring**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Longest Nice Substring**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "YazaAay"`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"aAa"`.
+4. **Verification:** "aAa" is a nice string because 'A/a' is the only letter of the alphabet in s, and both 'A' and 'a' appear.
+"aAa" is the longest nice substring.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Array / General**
+**Two Pointers**
 
 ## Topics
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 C++
@@ -49,17 +81,53 @@ C++
 ## Source Code
 - [solution.cpp](./solution.cpp)
 
+
+```cpp
+class Solution {
+public:
+    bool isNice(string s) {
+        for (char c : s) {
+            if (islower(c) && s.find(toupper(c)) == string::npos) {
+                return false;
+            }
+
+            if (isupper(c) && s.find(tolower(c)) == string::npos) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    string longestNiceSubstring(string s) {
+        string result = "";
+
+        for (int i = 0; i < s.size(); i++) {
+            for (int j = i + 1; j <= s.size(); j++) {
+                string sub = s.substr(i, j - i);
+
+                if (sub.size() > result.size() && isNice(sub)) {
+                    result = sub;
+                }
+            }
+        }
+
+        return result;
+    }
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)

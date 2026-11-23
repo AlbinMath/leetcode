@@ -16,26 +16,61 @@ Solve LeetCode Third Maximum Number using Python and Array / General. This solut
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums .
+## Problem Statement
+You are given an integer array `nums`.
+
+Return the **third distinct maximum** number in this array. If the third **maximum** does not exist, return the **maximum** number.
+
+## Constraints
+- `1 <= nums.length <= 10^4`
+- `-2^31 <= nums[i] <= 2^31 - 1`
+
+## Examples
+### Example 1
+- **Input:** `nums = [3,2,1]`
+- **Output:** `1`
+- **Explanation:** The first distinct maximum is 3.
+The second distinct maximum is 2.
+The third distinct maximum is 1.
+
+### Example 2
+- **Input:** `nums = [1,2]`
+- **Output:** `2`
+- **Explanation:** The first distinct maximum is 2.
+The second distinct maximum is 1.
+The third distinct maximum does not exist, so the maximum (2) is returned instead.
+
+### Example 3
+- **Input:** `nums = [2,2,3,1]`
+- **Output:** `1`
+- **Explanation:** The first distinct maximum is 3.
+The second distinct maximum is 2 (both 2's are counted together since they have the same value).
+The third distinct maximum is 1.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Third Maximum Number**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Third Maximum Number**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [3,2,1]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** The first distinct maximum is 3.
+The second distinct maximum is 2.
+The third distinct maximum is 1.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +83,38 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def thirdMax(self, nums):
+        first = None
+        second = None
+        third = None
+
+        for num in nums:
+            # Ignore duplicates
+            if num == first or num == second or num == third:
+                continue
+
+            if first is None or num > first:
+                third = second
+                second = first
+                first = num
+
+            elif second is None or num > second:
+                third = second
+                second = num
+
+            elif third is None or num > third:
+                third = num
+
+        # If there is no third maximum, return maximum
+        if third is None:
+            return first
+
+        return third
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

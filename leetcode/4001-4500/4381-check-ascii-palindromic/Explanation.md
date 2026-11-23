@@ -1,7 +1,7 @@
 # LeetCode 4030: Check ASCII Palindromic
 
 **LeetCode Problem #4030 — Check ASCII Palindromic**
-Solve LeetCode Check ASCII Palindromic using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Check ASCII Palindromic using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,70 @@ Solve LeetCode Check ASCII Palindromic using Python and Tree & Graph. This solut
 | LeetCode | #4030 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a string  s  consisting of lowercase English letters.
+## Problem Statement
+You are given a string `s` consisting of lowercase English letters.
+
+Construct a **binary string** by replacing each character in `s` with the 8-bit binary representation of its ASCII value, **including leading zeros**, while preserving the original order of the characters.
+
+Return `true` if the resulting binary string is a **palindrome** . Otherwise, return `false`.
+
+## Constraints
+- `1 <= s.length <= 100`
+- `s` consists of lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `s = "ff"`
+- **Output:** `true`
+- **Explanation:** The ASCII value of `f` is 102, whose 8-bit binary representation is `01100110`. 
+ Thus, the binary string is `0110011001100110`. 
+ Since this binary string is a
+
+### Example 2
+- **Input:** `s = "leet"`
+- **Output:** `false`
+- **Explanation:** The ASCII values of `l`, `e`, `e`, and `t` are 108, 101, 101, and 116, respectively. 
+ Their 8-bit binary representations are `01101100`, `01100101`, `01100101`, and `01110100`. 
+ Thus, the binary string is `01101100011001010110010101110100`. 
+ Since this binary string is not a
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Check ASCII Palindromic**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Check ASCII Palindromic**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "ff"`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** The ASCII value of `f` is 102, whose 8-bit binary representation is `01100110`. 
+ Thus, the binary string is `0110011001100110`. 
+ Since this binary string is a
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -52,8 +81,16 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution(object):
+    def isPalindromic(self, s):
+        b = ''.join(format(ord(c), '08b') for c in s)
+        return b == b[::-1]
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

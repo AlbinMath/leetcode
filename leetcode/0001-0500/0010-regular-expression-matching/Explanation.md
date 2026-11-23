@@ -16,8 +16,36 @@ Solve LeetCode Regular Expression Matching using JavaScript and Dynamic Programm
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given an input string  s  and a pattern  p , implement regular expression matching with support for  &#39;.&#39;  and  &#39;*&#39;  where:
+## Problem Statement
+Given an input string `s` and a pattern `p`, implement regular expression matching with support for `'.'` and `'*'` where:
+
+`'.'` Matches any single character.​​​​ 
+ `'*'` Matches zero or more of the preceding element.
+
+Return a boolean indicating whether the matching covers the entire input string (not partial).
+
+## Constraints
+- `1 <= s.length <= 20`
+- `1 <= p.length <= 20`
+- `s` contains only lowercase English letters.
+- `p` contains only lowercase English letters, `'.'`, and `'*'`.
+- It is guaranteed for each appearance of the character `'*'`, there will be a previous valid character to match.
+
+## Examples
+### Example 1
+- **Input:** `s = "aa", p = "a"`
+- **Output:** `false`
+- **Explanation:** "a" does not match the entire string "aa".
+
+### Example 2
+- **Input:** `s = "aa", p = "a*"`
+- **Output:** `true`
+- **Explanation:** '*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes "aa".
+
+### Example 3
+- **Input:** `s = "ab", p = ".*"`
+- **Output:** `true`
+- **Explanation:** ".*" means "zero or more (*) of any character (.)".
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
@@ -42,12 +70,17 @@ By memoizing the states, the time complexity is reduced to $O(S \times P)$ where
 2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Regular Expression Matching**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "aa", p = "a"`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `false`.
+4. **Verification:** "a" does not match the entire string "aa".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -63,6 +96,54 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+/**
+ * @param {string} s
+ * @param {string} p
+ * @return {boolean}
+ */
+var isMatch = function(s, p) {
+    const memo = new Map();
+
+    function dp(i, j) {
+        // Pattern completely processed
+        if (j === p.length) {
+            return i === s.length;
+        }
+
+        const key = i + "," + j;
+        if (memo.has(key)) {
+            return memo.get(key);
+        }
+
+        // Check if current characters match
+        const firstMatch =
+            i < s.length &&
+            (s[i] === p[j] || p[j] === ".");
+
+        let result;
+
+        // If next character is '*'
+        if (j + 1 < p.length && p[j + 1] === "*") {
+            // Option 1: use '*' as zero occurrences
+            // Option 2: consume one matching character
+            result =
+                dp(i, j + 2) ||
+                (firstMatch && dp(i + 1, j));
+        } else {
+            // Normal character or '.'
+            result = firstMatch && dp(i + 1, j + 1);
+        }
+
+        memo.set(key, result);
+        return result;
+    }
+
+    return dp(0, 0);
+};
+```
+
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -76,9 +157,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [282. Expression Add Operators](../../0001-0500/0282-expression-add-operators/)
-- [736. Parse Lisp Expression](../../0501-1000/0736-parse-lisp-expression/)
-- [1106. Parsing A Boolean Expression](../../1001-1500/1197-parsing-a-boolean-expression/)
+- [44. Wildcard Matching](../../0001-0500/0044-wildcard-matching/)
+- [792. Number of Matching Subsequences](../../0501-1000/0808-number-of-matching-subsequences/)
+- [1023. Camelcase Matching](../../1001-1500/1080-camelcase-matching/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/regular-expression-matching/)

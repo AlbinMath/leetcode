@@ -16,8 +16,23 @@ Solve LeetCode Letter Combinations of a Phone Number using JavaScript and Backtr
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a string containing digits from  2-9  inclusive, return all possible letter combinations that the number could represent. Return the answer in  any order .
+## Problem Statement
+Given a string containing digits from `2-9` inclusive, return all possible letter combinations that the number could represent. Return the answer in **any order**.
+
+A mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+
+## Constraints
+- `1 <= digits.length <= 4`
+- `digits[i]` is a digit in the range `['2', '9']`.
+
+## Examples
+### Example 1
+- **Input:** `digits = "23"`
+- **Output:** `["ad","ae","af","bd","be","bf","cd","ce","cf"]`
+
+### Example 2
+- **Input:** `digits = "2"`
+- **Output:** `["a","b","c"]`
 
 ## Key Insight
 Leverage **Backtracking** with **Recursion Tree** to process inputs efficiently and achieve optimal time and space complexity.
@@ -39,12 +54,16 @@ Since each digit maps to at most 4 letters, the time complexity is $O(4^N)$ wher
 2. Process elements sequentially using **Backtracking Recursive Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Letter Combinations of a Phone Number**. Applying **Backtracking Recursive Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `digits = "23"`.
+2. **Processing Steps:** We apply **Backtracking Recursive Search** using our **Recursion Tree**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["ad","ae","af","bd","be","bf","cd","ce","cf"]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Recursion Tree.
 
 ## Pattern
 **Backtracking**
@@ -58,6 +77,41 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var letterCombinations = function(digits) {
+    if (digits.length === 0) return [];
+
+    const phone = {
+        '2': 'abc',
+        '3': 'def',
+        '4': 'ghi',
+        '5': 'jkl',
+        '6': 'mno',
+        '7': 'pqrs',
+        '8': 'tuv',
+        '9': 'wxyz'
+    };
+
+    let result = [''];
+
+    for (const digit of digits) {
+        const letters = phone[digit];
+        const combinations = [];
+
+        for (const combination of result) {
+            for (const letter of letters) {
+                combinations.push(combination + letter);
+            }
+        }
+
+        result = combinations;
+    }
+
+    return result;
+};
+```
 
 ## Why This Works
 By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -74,7 +128,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1694. Reformat Phone Number](../../1501-2000/1812-reformat-phone-number/)
 - [2056. Number of Valid Move Combinations On Chessboard](../../2001-2500/2166-number-of-valid-move-combinations-on-chessboard/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [193. Valid Phone Numbers](../../0001-0500/0193-valid-phone-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)

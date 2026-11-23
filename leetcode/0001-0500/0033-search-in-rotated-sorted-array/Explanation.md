@@ -16,8 +16,34 @@ Solve LeetCode Search in Rotated Sorted Array using C++, JavaScript, Python and 
 | Time Complexity | O(log n) |
 | Space Complexity | O(1) |
 
-## Problem
-There is an integer array  nums  sorted in ascending order (with  distinct  values).
+## Problem Statement
+There is an integer array `nums` sorted in ascending order (with **distinct** values).
+
+Prior to being passed to your function, `nums` is **possibly left rotated** at an unknown index `k` (`1 <= k < nums.length`) such that the resulting array is `[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]` (**0-indexed**). For example, `[0,1,2,4,5,6,7]` might be left rotated by `3` indices and become `[4,5,6,7,0,1,2]`.
+
+Given the array `nums` **after** the possible rotation and an integer `target`, return *the index of *`target`* if it is in *`nums`*, or *`-1`* if it is not in *`nums`.
+
+You must write an algorithm with `O(log n)` runtime complexity.
+
+## Constraints
+- `1 <= nums.length <= 5000`
+- `-10^4 <= nums[i] <= 10^4`
+- All values of `nums` are **unique**.
+- `nums` is an ascending array that is possibly rotated.
+- `-10^4 <= target <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `nums = [4,5,6,7,0,1,2], target = 0`
+- **Output:** `4`
+
+### Example 2
+- **Input:** `nums = [4,5,6,7,0,1,2], target = 3`
+- **Output:** `-1`
+
+### Example 3
+- **Input:** `nums = [1], target = 0`
+- **Output:** `-1`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
@@ -42,12 +68,16 @@ The key insight is that in a rotated sorted array, at least one half of the arra
 2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Search in Rotated Sorted Array**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [4,5,6,7,0,1,2], target = 0`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
 
-## Complexity
-- **Time Complexity:** O(log n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(log n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -64,6 +94,99 @@ C++, JavaScript, Python
 - [solution.cpp](./solution.cpp)
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
+
+
+### C++
+```cpp
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int left = 0;
+        int right = nums.size() - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (nums[mid] == target)
+                return mid;
+
+            // Left half is sorted
+            if (nums[left] <= nums[mid]) {
+                if (nums[left] <= target && target < nums[mid])
+                    right = mid - 1;
+                else
+                    left = mid + 1;
+            }
+            // Right half is sorted
+            else {
+                if (nums[mid] < target && target <= nums[right])
+                    left = mid + 1;
+                else
+                    right = mid - 1;
+            }
+        }
+
+        return -1;
+    }
+};
+```
+
+### JavaScript
+```javascript
+var search = function(nums, target) {
+    let left = 0;
+    let right = nums.length - 1;
+
+    while (left <= right) {
+        const mid = Math.floor((left + right) / 2);
+
+        if (nums[mid] === target) {
+            return mid;
+        }
+
+        // Left half is sorted
+        if (nums[left] <= nums[mid]) {
+            if (nums[left] <= target && target < nums[mid]) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+        // Right half is sorted
+        else {
+            if (nums[mid] < target && target <= nums[right]) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+    }
+
+    return -1;
+};
+```
+
+### Python
+```python
+class Solution:
+    def search(self, nums, target):
+        l, r = 0, len(nums)-1
+        while l <= r:
+            m = (l+r)//2
+            if nums[m] == target:
+                return m
+            if nums[l] <= nums[m]:
+                if nums[l] <= target < nums[m]:
+                    r = m-1
+                else:
+                    l = m+1
+            else:
+                if nums[m] < target <= nums[r]:
+                    l = m+1
+                else:
+                    r = m-1
+        return -1
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

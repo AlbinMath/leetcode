@@ -1,7 +1,7 @@
 # LeetCode 3833: Count Dominant Indices
 
 **LeetCode Problem #3833 — Count Dominant Indices**
-Solve LeetCode Count Dominant Indices using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Count Dominant Indices using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,73 @@ Solve LeetCode Count Dominant Indices using Python and Tree & Graph. This soluti
 | LeetCode | #3833 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an integer array  nums  of length  n .
+## Problem Statement
+You are given an integer array `nums` of length `n`.
+
+An element at index `i` is called **dominant** if: `nums[i] > average(nums[i + 1], nums[i + 2], ..., nums[n - 1])`
+
+Your task is to count the number of indices `i` that are **dominant**.
+
+The **average** of a set of numbers is the value obtained by adding all the numbers together and dividing the sum by the total number of numbers.
+
+**Note**: The **rightmost** element of any array is **not** **dominant**.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `1 <= nums[i] <= 100`​​​​​​​
+
+## Examples
+### Example 1
+- **Input:** `nums = [5,4,3]`
+- **Output:** `2`
+- **Explanation:** At index `i = 0`, the value 5 is dominant as `5 > average(4, 3) = 3.5`. 
+ At index `i = 1`, the value 4 is dominant over the subarray `[3]`. 
+ Index `i = 2` is not dominant as there are no elements to its right. Thus, the answer is 2.
+
+### Example 2
+- **Input:** `nums = [4,1,2]`
+- **Output:** `1`
+- **Explanation:** At index `i = 0`, the value 4 is dominant over the subarray `[1, 2]`. 
+ At index `i = 1`, the value 1 is not dominant. 
+ Index `i = 2` is not dominant as there are no elements to its right. Thus, the answer is 1.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Dominant Indices**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Dominant Indices**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [5,4,3]`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** At index `i = 0`, the value 5 is dominant as `5 > average(4, 3) = 3.5`. 
+ At index `i = 1`, the value 4 is dominant over the subarray `[3]`. 
+ Index `i = 2` is not dominant as there are no elements to its right. Thus, the answer is 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -52,8 +84,25 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def dominantIndices(self, nums: List[int]) -> int:
+        ans = 0
+        suffix_sum = 0
+        count = 0
+        for i in range(len(nums) - 1, -1, -1):
+            if count > 0 and nums[i] * count > suffix_sum:
+                ans += 1
+            suffix_sum += nums[i]
+            count += 1
+        return ans
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

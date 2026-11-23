@@ -16,26 +16,45 @@ Solve LeetCode Intersection of Two Arrays using Python and Two Pointers. This so
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given two integer arrays  nums1  and  nums2 , return  an array of their  intersection  . Each element in the result must be  unique  and you may return the result in  any order .
+## Problem Statement
+Given two integer arrays `nums1` and `nums2`, return *an array of their intersection *. Each element in the result must be **unique** and you may return the result in **any order**.
+
+## Constraints
+- `1 <= nums1.length, nums2.length <= 1000`
+- `0 <= nums1[i], nums2[i] <= 1000`
+
+## Examples
+### Example 1
+- **Input:** `nums1 = [1,2,2,1], nums2 = [2,2]`
+- **Output:** `[2]`
+
+### Example 2
+- **Input:** `nums1 = [4,9,5], nums2 = [9,4,9,8,4]`
+- **Output:** `[9,4]`
+- **Explanation:** [4,9] is also accepted.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Intersection of Two Arrays**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Intersection of Two Arrays**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums1 = [1,2,2,1], nums2 = [2,2]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[2]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +69,13 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def intersection(self, nums1, nums2):
+        return list(set(nums1) & set(nums2))
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -66,7 +92,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [350. Intersection of Two Arrays II](../../0001-0500/0350-intersection-of-two-arrays-ii/)
 - [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
-- [160. Intersection of Two Linked Lists](../../0001-0500/0160-intersection-of-two-linked-lists/)
+- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1486-find-the-distance-value-between-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/intersection-of-two-arrays/)

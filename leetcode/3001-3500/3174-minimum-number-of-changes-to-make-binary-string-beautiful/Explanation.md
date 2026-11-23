@@ -16,26 +16,67 @@ Solve LeetCode Minimum Number of Changes to Make Binary String Beautiful using P
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a  0-indexed  binary string  s  having an even length.
+## Problem Statement
+You are given a **0-indexed** binary string `s` having an even length.
+
+A string is **beautiful** if it's possible to partition it into one or more substrings such that:
+
+Each substring has an **even length**. 
+ Each substring contains **only** `1`'s or **only** `0`'s.
+
+You can change any character in `s` to `0` or `1`.
+
+Return *the **minimum** number of changes required to make the string *`s` *beautiful*.
+
+## Constraints
+- `2 <= s.length <= 10^5`
+- `s` has an even length.
+- `s[i]` is either `'0'` or `'1'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "1001"`
+- **Output:** `2`
+- **Explanation:** We change s[1] to 1 and s[3] to 0 to get string "1100".
+It can be seen that the string "1100" is beautiful because we can partition it into "11|00".
+It can be proven that 2 is the minimum number of changes needed to make the string beautiful.
+
+### Example 2
+- **Input:** `s = "10"`
+- **Output:** `1`
+- **Explanation:** We change s[1] to 1 to get string "11".
+It can be seen that the string "11" is beautiful because we can partition it into "11".
+It can be proven that 1 is the minimum number of changes needed to make the string beautiful.
+
+### Example 3
+- **Input:** `s = "0000"`
+- **Output:** `0`
+- **Explanation:** We don't need to make any changes as the string "0000" is beautiful already.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Number of Changes to Make Binary String Beautiful**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Number of Changes to Make Binary String Beautiful**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "1001"`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** We change s[1] to 1 and s[3] to 0 to get string "1100".
+It can be seen that the string "1100" is beautiful because we can partition it into "11|00".
+It can be proven that 2 is the minimum number of changes needed to make the string beautiful.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +90,13 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def minChanges(self, s: str) -> int:
+        return sum(s[i] != s[i + 1] for i in range(0, len(s), 2))
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

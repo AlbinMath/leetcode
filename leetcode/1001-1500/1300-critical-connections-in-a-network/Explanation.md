@@ -16,26 +16,53 @@ Solve LeetCode Critical Connections in a Network using JavaScript and Tree & Gra
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-There are  n  servers numbered from  0  to  n - 1  connected by undirected server-to-server  connections  forming a network where  connections[i] = [a i , b i ]  represents a connection between servers  a i   and  b i  . Any server can reach other servers directly or indirectly through the network.
+## Problem Statement
+There are `n` servers numbered from `0` to `n - 1` connected by undirected server-to-server `connections` forming a network where `connections[i] = [a_i, b_i]` represents a connection between servers `a_i` and `b_i`. Any server can reach other servers directly or indirectly through the network.
+
+A *critical connection* is a connection that, if removed, will make some servers unable to reach some other server.
+
+Return all critical connections in the network in any order.
+
+## Constraints
+- `2 <= n <= 10^5`
+- `n - 1 <= connections.length <= 10^5`
+- `0 <= a_i, b_i <= n - 1`
+- `a_i != b_i`
+- There are no repeated connections.
+
+## Examples
+### Example 1
+- **Input:** `n = 4, connections = [[0,1],[1,2],[2,0],[1,3]]`
+- **Output:** `[[1,3]]`
+- **Explanation:** [[3,1]] is also accepted.
+
+### Example 2
+- **Input:** `n = 2, connections = [[0,1]]`
+- **Output:** `[[0,1]]`
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Critical Connections in a Network**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Critical Connections in a Network**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 4, connections = [[0,1],[1,2],[2,0],[1,3]]`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[1,3]]`.
+4. **Verification:** [[3,1]] is also accepted.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -51,6 +78,54 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var criticalConnections = function(n, connections) {
+    const graph = Array.from({ length: n }, () => []);
+
+    // Build adjacency list
+    for (const [u, v] of connections) {
+        graph[u].push(v);
+        graph[v].push(u);
+    }
+
+    const disc = new Array(n).fill(-1);
+    const low = new Array(n).fill(-1);
+    const bridges = [];
+
+    let time = 0;
+
+    function dfs(node, parent) {
+        disc[node] = low[node] = time++;
+
+        for (const neighbor of graph[node]) {
+            if (neighbor === parent) continue;
+
+            if (disc[neighbor] === -1) {
+                // Visit an unvisited neighbor
+                dfs(neighbor, node);
+
+                // Update low-link value
+                low[node] = Math.min(low[node], low[neighbor]);
+
+                // Check whether this edge is a bridge
+                if (low[neighbor] > disc[node]) {
+                    bridges.push([node, neighbor]);
+                }
+            } else {
+                // Back edge to an already visited node
+                low[node] = Math.min(low[node], disc[neighbor]);
+            }
+        }
+    }
+
+    // Start DFS from node 0
+    dfs(0, -1);
+
+    return bridges;
+};
+```
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

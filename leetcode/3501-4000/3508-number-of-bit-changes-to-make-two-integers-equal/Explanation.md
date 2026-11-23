@@ -16,26 +16,56 @@ Solve LeetCode Number of Bit Changes to Make Two Integers Equal using Python and
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two positive integers  n  and  k .
+## Problem Statement
+You are given two positive integers `n` and `k`.
+
+You can choose **any** bit in the **binary representation** of `n` that is equal to 1 and change it to 0.
+
+Return the *number of changes* needed to make `n` equal to `k`. If it is impossible, return -1.
+
+## Constraints
+- `1 <= n, k <= 10^6`
+
+## Examples
+### Example 1
+- **Input:** `n = 13, k = 4`
+- **Output:** `2`
+- **Explanation:** Initially, the binary representations of `n` and `k` are `n = (1101)_2` and `k = (0100)_2`. 
+We can change the first and fourth bits of `n`. The resulting integer is n = (
+
+### Example 2
+- **Input:** `n = 21, k = 21`
+- **Output:** `0`
+- **Explanation:** `n` and `k` are already equal, so no changes are needed.
+
+### Example 3
+- **Input:** `n = 14, k = 13`
+- **Output:** `-1`
+- **Explanation:** It is not possible to make `n` equal to `k`.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Number of Bit Changes to Make Two Integers Equal**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Number of Bit Changes to Make Two Integers Equal**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 13, k = 4`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** Initially, the binary representations of `n` and `k` are `n = (1101)_2` and `k = (0100)_2`. 
+We can change the first and fourth bits of `n`. The resulting integer is n = (
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +79,15 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def minChanges(self, n, k):
+        if n & k != k:
+            return -1
+        return bin(n ^ k).count('1')
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +103,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3377. Digit Operations to Make Two Integers Equal](../../3501-4000/3655-digit-operations-to-make-two-integers-equal/)
-- [2914. Minimum Number of Changes to Make Binary String Beautiful](../../3001-3500/3174-minimum-number-of-changes-to-make-binary-string-beautiful/)
-- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
+- [3621. Number of Integers With Popcount-Depth Equal to K I](../../3501-4000/3937-number-of-integers-with-popcount-depth-equal-to-k-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)

@@ -16,26 +16,49 @@ Solve LeetCode Longest Subsequence With Non-Zero Bitwise XOR using C++ and Dynam
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an integer array  nums .
+## Problem Statement
+You are given an integer array `nums`.
+
+Return the length of the **longest subsequence ** in `nums` whose bitwise **XOR** is **non-zero**. If no such **subsequence** exists, return 0.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `0 <= nums[i] <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,3]`
+- **Output:** `2`
+- **Explanation:** One longest subsequence is `[2, 3]`. The bitwise XOR is computed as `2 XOR 3 = 1`, which is non-zero.
+
+### Example 2
+- **Input:** `nums = [2,3,4]`
+- **Output:** `3`
+- **Explanation:** The longest subsequence is `[2, 3, 4]`. The bitwise XOR is computed as `2 XOR 3 XOR 4 = 5`, which is non-zero.
 
 ## Key Insight
 Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **Memoization / Bottom-Up State Transition**. By maintaining state efficiently in a **DP Table / Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Longest Subsequence With Non-Zero Bitwise XOR**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We decompose the problem into overlapping subproblems using a **DP Table / Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**DP Table / Array**).
-2. Process elements sequentially using **Memoization & State Transition**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Longest Subsequence With Non-Zero Bitwise XOR**. Applying **Memoization & State Transition** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,3]`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** One longest subsequence is `[2, 3]`. The bitwise XOR is computed as `2 XOR 3 = 1`, which is non-zero.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
 **Dynamic Programming**
@@ -50,6 +73,34 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    int longestSubsequence(vector<int>& nums) {
+        int xr = 0;
+
+        for (int x : nums) {
+            xr ^= x;
+        }
+
+        // If total XOR is non-zero, use the entire array
+        if (xr != 0)
+            return nums.size();
+
+        // Total XOR is zero.
+        // Remove one non-zero element to make XOR non-zero.
+        for (int x : nums) {
+            if (x != 0)
+                return nums.size() - 1;
+        }
+
+        // All elements are zero
+        return 0;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

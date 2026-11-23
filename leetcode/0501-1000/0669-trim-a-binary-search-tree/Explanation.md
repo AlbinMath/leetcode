@@ -16,26 +16,49 @@ Solve LeetCode Trim a Binary Search Tree using Python and Binary Search. This so
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given the  root  of a binary search tree and the lowest and highest boundaries as  low  and  high , trim the tree so that all its elements lies in  [low, high] . Trimming the tree should  not  change the relative structure of the elements that will remain in the tree (i.e., any node&#39;s descendant should remain a descendant). It can be proven that there is a  unique answer .
+## Problem Statement
+Given the `root` of a binary search tree and the lowest and highest boundaries as `low` and `high`, trim the tree so that all its elements lies in `[low, high]`. Trimming the tree should **not** change the relative structure of the elements that will remain in the tree (i.e., any node's descendant should remain a descendant). It can be proven that there is a **unique answer**.
+
+Return *the root of the trimmed binary search tree*. Note that the root may change depending on the given bounds.
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 10^4]`.
+- `0 <= Node.val <= 10^4`
+- The value of each node in the tree is **unique**.
+- `root` is guaranteed to be a valid binary search tree.
+- `0 <= low <= high <= 10^4`
+
+## Examples
+### Example 1
+- **Input:** `root = [1,0,2], low = 1, high = 2`
+- **Output:** `[1,null,2]`
+
+### Example 2
+- **Input:** `root = [3,0,4,null,2,null,null,1], low = 1, high = 3`
+- **Output:** `[3,2,null,1]`
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Modified Binary Search**. By maintaining state efficiently in a **Sorted Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Trim a Binary Search Tree**, we observe the problem requirements and utilize the **Binary Search** technique. Exploiting monotonic ordering or sorted properties in the input space, we maintain `left` and `right` boundary pointers. In each iteration, we evaluate the midpoint to discard half of the search range, reducing the time complexity to $O(\log n)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize boundary pointers `left` and `right`.
+2. Compute `mid = left + (right - left) // 2` to prevent overflow.
+3. Adjust `left` or `right` depending on whether target satisfies the partition condition.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Trim a Binary Search Tree**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [1,0,2], low = 1, high = 2`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,null,2]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -50,6 +73,21 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def trimBST(self, root, low: int, high: int):
+        if not root:
+            return None
+        if root.val < low:
+            return self.trimBST(root.right, low, high)
+        if root.val > high:
+            return self.trimBST(root.left, low, high)
+        root.left = self.trimBST(root.left, low, high)
+        root.right = self.trimBST(root.right, low, high)
+        return root
+```
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

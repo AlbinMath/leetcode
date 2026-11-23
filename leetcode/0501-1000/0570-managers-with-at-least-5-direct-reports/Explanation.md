@@ -16,26 +16,82 @@ Solve LeetCode Managers with at Least 5 Direct Reports using Python and Array / 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
+## Problem Statement
+Table: `Employee`
+
++-------------+---------+
+| Column Name | Type |
++-------------+---------+
+| id | int |
+| name | varchar |
+| department | varchar |
+| managerId | int |
++-------------+---------+
 id is the primary key (column with unique values) for this table.
+Each row of this table indicates the name of an employee, their department, and the id of their manager.
+If managerId is null, then the employee does not have a manager.
+No employee will be the manager of themself.
+
+Write a solution to find managers with at least **five direct reports**.
+
+Return the result table in **any order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Employee table:
++-----+-------+------------+-----------+
+| id | name | department | managerId |
++-----+-------+------------+-----------+
+| 101 | John | A | null |
+| 102 | Dan | A | 101 |
+| 103 | James | A | 101 |
+| 104 | Amy | A | 101 |
+| 105 | Anne | A | 101 |
+| 106 | Ron | B | 101 |
++-----+-------+------------+-----------+`
+- **Output:** `+------+
+| name |
++------+
+| John |
++------+`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations.
+To solve **Managers with at Least 5 Direct Reports**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Managers with at Least 5 Direct Reports**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Employee table:
++-----+-------+------------+-----------+
+| id | name | department | managerId |
++-----+-------+------------+-----------+
+| 101 | John | A | null |
+| 102 | Dan | A | 101 |
+| 103 | James | A | 101 |
+| 104 | Amy | A | 101 |
+| 105 | Anne | A | 101 |
+| 106 | Ron | B | 101 |
++-----+-------+------------+-----------+`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+------+
+| name |
++------+
+| John |
++------+`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +104,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import pandas as pd
+
+def find_managers(employee: pd.DataFrame) -> pd.DataFrame:
+    counts = employee["managerId"].value_counts()
+
+    managers = counts[counts >= 5].index
+
+    return employee[
+        employee["id"].isin(managers)
+    ][["name"]]
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +133,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [596. Classes With at Least 5 Students](../../0501-1000/0596-classes-with-at-least-5-students/)
+- [1018. Binary Prefix Divisible By 5](../../1001-1500/1071-binary-prefix-divisible-by-5/)
 - [181. Employees Earning More Than Their Managers](../../0001-0500/0181-employees-earning-more-than-their-managers/)
-- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)

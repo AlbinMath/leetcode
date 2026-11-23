@@ -16,26 +16,63 @@ Solve LeetCode Sum of Imbalance Numbers of All Subarrays using Python and Array 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-The  imbalance number  of a  0-indexed  integer array  arr  of length  n  is defined as the number of indices in  sarr = sorted(arr)  such that:
+## Problem Statement
+The **imbalance number** of a **0-indexed** integer array `arr` of length `n` is defined as the number of indices in `sarr = sorted(arr)` such that:
+
+`0 <= i < n - 1`, and 
+ `sarr[i+1] - sarr[i] > 1`
+
+Here, `sorted(arr)` is the function that returns the sorted version of `arr`.
+
+Given a **0-indexed** integer array `nums`, return *the **sum of imbalance numbers** of all its **subarrays***.
+
+A **subarray** is a contiguous **non-empty** sequence of elements within an array.
+
+## Constraints
+- `1 <= nums.length <= 1000`
+- `1 <= nums[i] <= nums.length`
+
+## Examples
+### Example 1
+- **Input:** `nums = [2,3,1,4]`
+- **Output:** `3`
+- **Explanation:** There are 3 subarrays with non-zero
+
+### Example 2
+- **Input:** `nums = [1,3,3,3,5]`
+- **Output:** `8`
+- **Explanation:** There are 7 subarrays with non-zero imbalance numbers:
+- Subarray [1, 3] with an imbalance number of 1.
+- Subarray [1, 3, 3] with an imbalance number of 1.
+- Subarray [1, 3, 3, 3] with an imbalance number of 1.
+- Subarray [1, 3, 3, 3, 5] with an imbalance number of 2. 
+- Subarray [3, 3, 3, 5] with an imbalance number of 1. 
+- Subarray [3, 3, 5] with an imbalance number of 1.
+- Subarray [3, 5] with an imbalance number of 1.
+The imbalance number of all other subarrays is 0. Hence, the sum of imbalance numbers of all the subarrays of nums is 8.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Sum of Imbalance Numbers of All Subarrays**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Sum of Imbalance Numbers of All Subarrays**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [2,3,1,4]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** There are 3 subarrays with non-zero
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +85,31 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def sumImbalanceNumbers(self, nums):
+        n = len(nums)
+        ans = 0
+
+        for i in range(n):
+            seen = [False] * (n + 2)
+            seen[nums[i]] = True
+            imbalance = 0
+
+            for j in range(i + 1, n):
+                x = nums[j]
+                if not seen[x]:
+                    seen[x] = True
+                    if seen[x - 1] and seen[x + 1]:
+                        imbalance -= 1
+                    elif not seen[x - 1] and not seen[x + 1]:
+                        imbalance += 1
+                ans += imbalance
+
+        return ans
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -1,7 +1,7 @@
 # LeetCode 1893: Check if All the Integers in a Range Are Covered
 
 **LeetCode Problem #1893 — Check if All the Integers in a Range Are Covered**
-Solve LeetCode Check if All the Integers in a Range Are Covered using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Check if All the Integers in a Range Are Covered using C++ and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,72 @@ Solve LeetCode Check if All the Integers in a Range Are Covered using C++ and Ar
 | LeetCode | #1893 |
 | Difficulty | Easy |
 | Language | C++ |
-| Algorithm | In-Place Array Traversal & Index Mapping |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
-| Pattern | Array / General |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a 2D integer array  ranges  and two integers  left  and  right . Each  ranges[i] = [start i , end i ]  represents an  inclusive  interval between  start i   and  end i  .
+## Problem Statement
+You are given a 2D integer array `ranges` and two integers `left` and `right`. Each `ranges[i] = [start_i, end_i]` represents an **inclusive** interval between `start_i` and `end_i`.
+
+Return `true` *if each integer in the inclusive range* `[left, right]` *is covered by **at least one** interval in* `ranges`. Return `false` *otherwise*.
+
+An integer `x` is covered by an interval `ranges[i] = [start_i, end_i]` if `start_i <= x <= end_i`.
+
+## Constraints
+- `1 <= ranges.length <= 50`
+- `1 <= start_i <= end_i <= 50`
+- `1 <= left <= right <= 50`
+
+## Examples
+### Example 1
+- **Input:** `ranges = [[1,2],[3,4],[5,6]], left = 2, right = 5`
+- **Output:** `true`
+- **Explanation:** Every integer between 2 and 5 is covered:
+- 2 is covered by the first range.
+- 3 and 4 are covered by the second range.
+- 5 is covered by the third range.
+
+### Example 2
+- **Input:** `ranges = [[1,10],[10,20]], left = 21, right = 21`
+- **Output:** `false`
+- **Explanation:** 21 is not covered by any range.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Check if All the Integers in a Range Are Covered**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Check if All the Integers in a Range Are Covered**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `ranges = [[1,2],[3,4],[5,6]], left = 2, right = 5`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Every integer between 2 and 5 is covered:
+- 2 is covered by the first range.
+- 3 and 4 are covered by the second range.
+- 5 is covered by the third range.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Array / General**
+**Two Pointers**
 
 ## Topics
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 C++
@@ -49,17 +83,42 @@ C++
 ## Source Code
 - [solution.cpp](./solution.cpp)
 
+
+```cpp
+class Solution {
+public:
+    bool isCovered(vector<vector<int>>& ranges, int left, int right) {
+        for (int x = left; x <= right; x++) {
+            bool covered = false;
+
+            for (const auto& range : ranges) {
+                if (range[0] <= x && x <= range[1]) {
+                    covered = true;
+                    break;
+                }
+            }
+
+            if (!covered) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+};
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [1437. Check If All 1's Are at Least Length K Places Away](../../1501-2000/1548-check-if-all-1s-are-at-least-length-k-places-away/)

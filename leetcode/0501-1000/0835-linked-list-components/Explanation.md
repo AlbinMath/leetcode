@@ -16,26 +16,54 @@ Solve LeetCode Linked List Components using JavaScript and Two Pointers. This so
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given the  head  of a linked list containing unique integer values and an integer array  nums  that is a subset of the linked list values.
+## Problem Statement
+You are given the `head` of a linked list containing unique integer values and an integer array `nums` that is a subset of the linked list values.
+
+Return the number of **connected** **components** in `nums`. A connected component is a non-empty, maximal sequence of **consecutive** nodes in the linked list such that every node's value belongs to nums.
+
+## Constraints
+- The number of nodes in the linked list is `n`.
+- `1 <= n <= 10^4`
+- `0 <= Node.val < n`
+- All the values `Node.val` are **unique**.
+- `1 <= nums.length <= n`
+- `0 <= nums[i] < n`
+- All the values of `nums` are **unique**.
+
+## Examples
+### Example 1
+- **Input:** `head = [0,1,2,3], nums = [0,1,3]`
+- **Output:** `2`
+- **Explanation:** 0 and 1 are connected, so [0, 1] and [3] are the two connected components.
+
+### Example 2
+- **Input:** `head = [0,1,2,3,4], nums = [0,3,1,4]`
+- **Output:** `2`
+- **Explanation:** 0 and 1 are connected, 3 and 4 are connected, so [0, 1] and [3, 4] are the two connected components.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Linked List Components**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Linked List Components**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [0,1,2,3], nums = [0,1,3]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** 0 and 1 are connected, so [0, 1] and [3] are the two connected components.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +78,31 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var numComponents = function(head, nums) {
+    // Store nums values in a Set
+    let set = new Set(nums);
+
+    let count = 0;
+    let current = head;
+
+    while (current) {
+        // Start of a new component
+        if (
+            set.has(current.val) &&
+            (!current.next || !set.has(current.next.val))
+        ) {
+            count++;
+        }
+
+        current = current.next;
+    }
+
+    return count;
+};
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

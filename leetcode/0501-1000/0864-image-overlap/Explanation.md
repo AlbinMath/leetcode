@@ -16,8 +16,37 @@ Solve LeetCode Image Overlap using JavaScript and Bit Manipulation. This solutio
 | Time Complexity | O(n²) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two images,  img1  and  img2 , represented as binary, square matrices of size  n x n . A binary matrix has only  0 s and  1 s as values.
+## Problem Statement
+You are given two images, `img1` and `img2`, represented as binary, square matrices of size `n x n`. A binary matrix has only `0`s and `1`s as values.
+
+We **translate** one image however we choose by sliding all the `1` bits left, right, up, and/or down any number of units. We then place it on top of the other image. We can then calculate the **overlap** by counting the number of positions that have a `1` in **both** images.
+
+Note also that a translation does **not** include any kind of rotation. Any `1` bits that are translated outside of the matrix borders are erased.
+
+Return *the largest possible overlap*.
+
+## Constraints
+- `n == img1.length == img1[i].length`
+- `n == img2.length == img2[i].length`
+- `1 <= n <= 30`
+- `img1[i][j]` is either `0` or `1`.
+- `img2[i][j]` is either `0` or `1`.
+
+## Examples
+### Example 1
+- **Input:** `img1 = [[1,1,0],[0,1,0],[0,1,0]], img2 = [[0,0,0],[0,1,1],[0,0,1]]`
+- **Output:** `3`
+- **Explanation:** We translate img1 to right by 1 unit and down by 1 unit.
+ 
+The number of positions that have a 1 in both images is 3 (shown in red).
+
+### Example 2
+- **Input:** `img1 = [[1]], img2 = [[1]]`
+- **Output:** `1`
+
+### Example 3
+- **Input:** `img1 = [[0]], img2 = [[0]]`
+- **Output:** `0`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
@@ -36,12 +65,19 @@ Time complexity is $O(N^4)$ (trying $O(N^2)$ translations, each requiring an $O(
 2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Image Overlap**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `img1 = [[1,1,0],[0,1,0],[0,1,0]], img2 = [[0,0,0],[0,1,1],[0,0,1]]`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** We translate img1 to right by 1 unit and down by 1 unit.
+ 
+The number of positions that have a 1 in both images is 3 (shown in red).
 
-## Complexity
-- **Time Complexity:** O(n²)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n²) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -55,6 +91,46 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+/**
+ * @param {number[][]} img1
+ * @param {number[][]} img2
+ * @return {number}
+ */
+var largestOverlap = function(img1, img2) {
+    const n = img1.length;
+    let maxOverlap = 0;
+
+    // Try every possible translation
+    for (let dr = -(n - 1); dr <= n - 1; dr++) {
+        for (let dc = -(n - 1); dc <= n - 1; dc++) {
+
+            let overlap = 0;
+
+            for (let i = 0; i < n; i++) {
+                for (let j = 0; j < n; j++) {
+
+                    let x = i + dr;
+                    let y = j + dc;
+
+                    // Check if translated position is inside img2
+                    if (x >= 0 && x < n && y >= 0 && y < n) {
+                        if (img1[i][j] === 1 && img2[x][y] === 1) {
+                            overlap++;
+                        }
+                    }
+                }
+            }
+
+            maxOverlap = Math.max(maxOverlap, overlap);
+        }
+    }
+
+    return maxOverlap;
+};
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

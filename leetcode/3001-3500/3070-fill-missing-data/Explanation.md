@@ -16,26 +16,76 @@ Solve LeetCode Fill Missing Data using Python and Bit Manipulation. This solutio
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Write a solution to fill in the missing value as   0   in the  quantity  column.
+## Problem Statement
+DataFrame `products`
++-------------+--------+
+| Column Name | Type |
++-------------+--------+
+| name | object |
+| quantity | int |
+| price | int |
++-------------+--------+
+
+Write a solution to fill in the missing value as `**0**` in the `quantity` column.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `+-----------------+----------+-------+
+| name | quantity | price |
++-----------------+----------+-------+
+| Wristwatch | None | 135 |
+| WirelessEarbuds | None | 821 |
+| GolfClubs | 779 | 9319 |
+| Printer | 849 | 3051 |
++-----------------+----------+-------+`
+- **Output:** `+-----------------+----------+-------+
+| name | quantity | price |
++-----------------+----------+-------+
+| Wristwatch | 0 | 135 |
+| WirelessEarbuds | 0 | 821 |
+| GolfClubs | 779 | 9319 |
+| Printer | 849 | 3051 |
++-----------------+----------+-------+`
+- **Explanation:** The quantity for Wristwatch and WirelessEarbuds are filled by 0.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Fill Missing Data**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Fill Missing Data**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `+-----------------+----------+-------+
+| name | quantity | price |
++-----------------+----------+-------+
+| Wristwatch | None | 135 |
+| WirelessEarbuds | None | 821 |
+| GolfClubs | 779 | 9319 |
+| Printer | 849 | 3051 |
++-----------------+----------+-------+`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+-----------------+----------+-------+
+| name | quantity | price |
++-----------------+----------+-------+
+| Wristwatch | 0 | 135 |
+| WirelessEarbuds | 0 | 821 |
+| GolfClubs | 779 | 9319 |
+| Printer | 849 | 3051 |
++-----------------+----------+-------+`.
+4. **Verification:** The quantity for Wristwatch and WirelessEarbuds are filled by 0.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +99,15 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import pandas as pd
+
+def fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:
+    products["quantity"] = products["quantity"].fillna(0)
+    return products
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +123,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2883. Drop Missing Data](../../3001-3500/3075-drop-missing-data/)
-- [733. Flood Fill](../../0501-1000/0733-flood-fill/)
-- [3537. Fill a Special Grid](../../3501-4000/3822-fill-a-special-grid/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fill-missing-data/)

@@ -16,26 +16,50 @@ Solve LeetCode Exactly One Consecutive Set Bits Pair using Python and Bit Manipu
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer  n .
+## Problem Statement
+You are given an integer `n`.
+
+Return `true` if its binary representation contains **exactly one adjacent pair** of set bits , and `false` otherwise.
+
+## Constraints
+- `0 <= n <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `n = 6`
+- **Output:** `true`
+- **Explanation:** Binary representation of 6 is `110`. 
+ There is exactly one adjacent pair of set bits (`"11"`). Thus, the answer is `true`​​​​​​​.
+
+### Example 2
+- **Input:** `n = 5`
+- **Output:** `false`
+- **Explanation:** Binary representation of 5 is `101`. 
+ There is no adjacent pair of set bits. Thus, the answer is `false`​​​​​​​.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **Exactly One Consecutive Set Bits Pair**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Exactly One Consecutive Set Bits Pair**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 6`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** Binary representation of 6 is `110`. 
+ There is exactly one adjacent pair of set bits (`"11"`). Thus, the answer is `true`​​​​​​​.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +73,13 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def consecutiveSetBits(self, n):
+        return bin(n & (n >> 1)).count('1') == 1
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +95,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3480. Maximize Subarrays After Removing One Conflicting Pair](../../3501-4000/3789-maximize-subarrays-after-removing-one-conflicting-pair/)
-- [3963. Create Grid With Exactly One Path](../../4001-4500/4342-create-grid-with-exactly-one-path/)
 - [3821. Find Nth Smallest Integer With K One Bits](../../4001-4500/4189-find-nth-smallest-integer-with-k-one-bits/)
+- [3963. Create Grid With Exactly One Path](../../4001-4500/4342-create-grid-with-exactly-one-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/)

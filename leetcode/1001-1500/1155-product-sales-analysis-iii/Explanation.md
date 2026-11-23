@@ -16,26 +16,82 @@ Solve LeetCode Product Sales Analysis III using SQL and Database / SQL. This sol
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Sales`
+
++-------------+-------+
+| Column Name | Type |
++-------------+-------+
+| sale_id | int |
+| product_id | int |
+| year | int |
+| quantity | int |
+| price | int |
++-------------+-------+
 (sale_id, year) is the primary key (combination of columns with unique values) of this table.
+Each row records a sale of a product in a given year.
+A product may have multiple sales entries in the same year.
+Note that the per-unit price.
+
+Write a solution to find all sales that occurred in the first year each product was sold.
+
+For each product_id , identify the earliest year it appears in the Sales table.
+
+Return all sales entries for that product in that year.
+
+Return a table with the following columns: **product_id**,** first_year**, **quantity, **and** price**. 
+Return the result in any order.
+
+## Examples
+### Example 1
+- **Input:** `Sales table:
++---------+------------+------+----------+-------+
+| sale_id | product_id | year | quantity | price |
++---------+------------+------+----------+-------+ 
+| 1 | 100 | 2008 | 10 | 5000 |
+| 2 | 100 | 2009 | 12 | 5000 |
+| 7 | 200 | 2011 | 15 | 9000 |
++---------+------------+------+----------+-------+`
+- **Output:** `+------------+------------+----------+-------+
+| product_id | first_year | quantity | price |
++------------+------------+----------+-------+ 
+| 100 | 2008 | 10 | 5000 |
+| 200 | 2011 | 15 | 9000 |
++------------+------------+----------+-------+`
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+We solve **Product Sales Analysis III** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. We group records using `GROUP BY` and compute metrics with aggregate functions. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Group records and calculate aggregated summary metrics.
+2. Filter records according to problem criteria.
+3. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Product Sales Analysis III**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Sales table:
++---------+------------+------+----------+-------+
+| sale_id | product_id | year | quantity | price |
++---------+------------+------+----------+-------+ 
+| 1 | 100 | 2008 | 10 | 5000 |
+| 2 | 100 | 2009 | 12 | 5000 |
+| 7 | 200 | 2011 | 15 | 9000 |
++---------+------------+------+----------+-------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+------------+------------+----------+-------+
+| product_id | first_year | quantity | price |
++------------+------------+----------+-------+ 
+| 100 | 2008 | 10 | 5000 |
+| 200 | 2011 | 15 | 9000 |
++------------+------------+----------+-------+`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +106,17 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT product_id, year AS first_year, quantity, price
+FROM Sales
+WHERE (product_id, year) IN (
+    SELECT product_id, MIN(year)
+    FROM Sales
+    GROUP BY product_id
+);
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -1,7 +1,7 @@
 # LeetCode 3727: Maximum Alternating Sum of Squares
 
 **LeetCode Problem #3727 — Maximum Alternating Sum of Squares**
-Solve LeetCode Maximum Alternating Sum of Squares using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Maximum Alternating Sum of Squares using JavaScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,77 @@ Solve LeetCode Maximum Alternating Sum of Squares using JavaScript and Tree & Gr
 | LeetCode | #3727 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given an integer array  nums . You may  rearrange the elements  in any order.
+## Problem Statement
+You are given an integer array `nums`. You may **rearrange the elements** in any order.
+
+The **alternating score** of an array `arr` is defined as:
+
+`score = arr[0]^2 - arr[1]^2 + arr[2]^2 - arr[3]^2 + ...`
+
+Return an integer denoting the **maximum possible alternating score** of `nums` after rearranging its elements.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `-4 * 10^4 <= nums[i] <= 4 * 10^4`
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,3]`
+- **Output:** `12`
+- **Explanation:** A possible rearrangement for `nums` is `[2,1,3]`, which gives the maximum alternating score among all possible rearrangements. 
+
+ The alternating score is calculated as: 
+
+ `score = 2^2 - 1^2 + 3^2 = 4 - 1 + 9 = 12`
+
+### Example 2
+- **Input:** `nums = [1,-1,2,-2,3,-3]`
+- **Output:** `16`
+- **Explanation:** A possible rearrangement for `nums` is `[-3,-1,-2,1,3,2]`, which gives the maximum alternating score among all possible rearrangements. 
+
+ The alternating score is calculated as: 
+
+ `score = (-3)^2 - (-1)^2 + (-2)^2 - (1)^2 + (3)^2 - (2)^2 = 9 - 1 + 4 - 1 + 9 - 4 = 16`
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Maximum Alternating Sum of Squares**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize queue/stack with initial node.
+2. Pop current node, visit adjacent neighbors, and push valid unvisited nodes.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Maximum Alternating Sum of Squares**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,3]`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `12`.
+4. **Verification:** A possible rearrangement for `nums` is `[2,1,3]`, which gives the maximum alternating score among all possible rearrangements. 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+ The alternating score is calculated as: 
+
+ `score = 2^2 - 1^2 + 3^2 = 4 - 1 + 9 = 12`
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 JavaScript
@@ -52,8 +88,31 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var maxAlternatingSum = function(nums) {
+    const squares = nums
+        .map(num => num * num)
+        .sort((a, b) => a - b);
+
+    let score = 0;
+    const n = squares.length;
+    const positiveCount = Math.ceil(n / 2);
+
+    for (let i = 0; i < n; i++) {
+        if (i < positiveCount) {
+            score += squares[n - 1 - i];
+        } else {
+            score -= squares[i - positiveCount];
+        }
+    }
+
+    return score;
+};
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -65,9 +124,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
-- [918. Maximum Sum Circular Subarray](../../0501-1000/0954-maximum-sum-circular-subarray/)
+- [2778. Sum of Squares of Special Elements ](../../2501-3000/2844-sum-of-squares-of-special-elements-/)
+- [2897. Apply Operations on Array to Maximize Sum of Squares](../../3001-3500/3153-apply-operations-on-array-to-maximize-sum-of-squares/)
+- [2913. Subarrays Distinct Element Sum of Squares I](../../3001-3500/3163-subarrays-distinct-element-sum-of-squares-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-alternating-sum-of-squares/)

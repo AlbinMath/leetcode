@@ -16,26 +16,58 @@ Solve LeetCode Count Dominant Nodes in a Binary Tree using JavaScript and Two Po
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given the  root  of a  complete binary tree .
+## Problem Statement
+You are given the `root` of a complete binary tree .
+
+A node `x` is called **dominant** if its value is equal to the maximum value among all nodes in the subtree rooted at `x`.
+
+Return the number of dominant nodes in the tree.
+
+## Constraints
+- The number of nodes in the tree is in the range `[1, 10^5]`.
+- `1 <= Node.val <= 10^9`
+- The tree is guaranteed to be a complete binary tree.
+
+## Examples
+### Example 1
+- **Input:** `root = [5,3,8,2,4,7,1]`
+- **Output:** `5`
+- **Explanation:** The leaf nodes with values 2, 4, 7, and 1 are dominant. 
+ The node with value 8 is dominant because its value is the maximum value in its subtree `[8, 7, 1]`. 
+ Thus, the answer is 5.
+
+### Example 2
+- **Input:** `root = [1,2,3,1,2]`
+- **Output:** `4`
+- **Explanation:** The leaf nodes with values 1, 2, and 3 are dominant. 
+ The node with value 2 whose subtree is `[2, 1, 2]` is dominant because its value is the maximum value in its subtree. 
+ Thus, the answer is 4.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Count Dominant Nodes in a Binary Tree**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Count Dominant Nodes in a Binary Tree**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `root = [5,3,8,2,4,7,1]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `5`.
+4. **Verification:** The leaf nodes with values 2, 4, 7, and 1 are dominant. 
+ The node with value 8 is dominant because its value is the maximum value in its subtree `[8, 7, 1]`. 
+ Thus, the answer is 5.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +82,30 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var countDominantNodes = function(root) {
+    let dominantCount = 0;
+    
+    function dfs(node) {
+        if (!node) return 0;
+        
+        const leftMax = dfs(node.left);
+        const rightMax = dfs(node.right);
+        
+        const currMax = Math.max(node.val, leftMax, rightMax);
+        if (currMax === node.val) {
+            dominantCount++;
+        }
+        
+        return currMax;
+    }
+    
+    dfs(root);
+    return dominantCount;
+};
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

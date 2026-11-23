@@ -16,26 +16,48 @@ Solve LeetCode Duplicate Zeros using Python and Array / General. This solution f
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a fixed-length integer array  arr , duplicate each occurrence of zero, shifting the remaining elements to the right.
+## Problem Statement
+Given a fixed-length integer array `arr`, duplicate each occurrence of zero, shifting the remaining elements to the right.
+
+**Note** that elements beyond the length of the original array are not written. Do the above modifications to the input array in place and do not return anything.
+
+## Constraints
+- `1 <= arr.length <= 10^4`
+- `0 <= arr[i] <= 9`
+
+## Examples
+### Example 1
+- **Input:** `arr = [1,0,2,3,0,4,5,0]`
+- **Output:** `[1,0,0,2,3,0,0,4]`
+- **Explanation:** After calling your function, the input array is modified to: [1,0,0,2,3,0,0,4]
+
+### Example 2
+- **Input:** `arr = [1,2,3]`
+- **Output:** `[1,2,3]`
+- **Explanation:** After calling your function, the input array is modified to: [1,2,3]
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Duplicate Zeros**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Duplicate Zeros**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `arr = [1,0,2,3,0,4,5,0]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,0,0,2,3,0,0,4]`.
+4. **Verification:** After calling your function, the input array is modified to: [1,0,0,2,3,0,0,4]
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +70,27 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def duplicateZeros(self, arr: List[int]) -> None:
+        original = arr.copy()
+        i = 0
+        j = 0
+
+        while i < len(arr):
+            arr[i] = original[j]
+            i += 1
+
+            if original[j] == 0 and i < len(arr):
+                arr[i] = 0
+                i += 1
+
+            j += 1
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

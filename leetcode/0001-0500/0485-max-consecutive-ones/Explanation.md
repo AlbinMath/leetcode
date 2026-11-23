@@ -1,7 +1,7 @@
 # LeetCode 485: Max Consecutive Ones
 
 **LeetCode Problem #485 — Max Consecutive Ones**
-Solve LeetCode Max Consecutive Ones using TypeScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Max Consecutive Ones using TypeScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,17 +10,31 @@ Solve LeetCode Max Consecutive Ones using TypeScript and Array / General. This s
 | LeetCode | #485 |
 | Difficulty | Easy |
 | Language | TypeScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a binary array  nums , return  the maximum number of consecutive   1  &#39;s in the array .
+## Problem Statement
+Given a binary array `nums`, return *the maximum number of consecutive *`1`*'s in the array*.
+
+## Constraints
+- `1 <= nums.length <= 10^5`
+- `nums[i]` is either `0` or `1`.
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,1,0,1,1,1]`
+- **Output:** `3`
+- **Explanation:** The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
+
+### Example 2
+- **Input:** `nums = [1,0,1,1,0,1]`
+- **Output:** `2`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses a simple **single-pass counting** approach.
@@ -34,22 +48,28 @@ The code uses a simple **single-pass counting** approach.
 Time complexity is $O(N)$ and space complexity is $O(1)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Max Consecutive Ones**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,1,0,1,1,1]`.
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 TypeScript
@@ -57,8 +77,27 @@ TypeScript
 ## Source Code
 - [solution.ts](./solution.ts)
 
+
+```typescript
+function findMaxConsecutiveOnes(nums: number[]): number {
+    let current = 0;
+    let max = 0;
+
+    for (const num of nums) {
+        if (num === 1) {
+            current++;
+            max = Math.max(max, current);
+        } else {
+            current = 0;
+        }
+    }
+
+    return max;
+}
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

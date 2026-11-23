@@ -16,26 +16,73 @@ Solve LeetCode Minimum Moves to Equal Array Elements III using Python and Array 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an integer array  nums .
+## Problem Statement
+You are given an integer array `nums`.
+
+In one move, you may **increase** the value of any single element `nums[i]` by 1.
+
+Return the **minimum total** number of **moves** required so that all elements in `nums` become **equal**.
+
+## Constraints
+- `1 <= nums.length <= 100`
+- `1 <= nums[i] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums = [2,1,3]`
+- **Output:** `3`
+- **Explanation:** To make all elements equal: 
+
+ 
+ Increase `nums[0] = 2` by 1 to make it 3. 
+ Increase `nums[1] = 1` by 1 to make it 2. 
+ Increase the updated `nums[1] = 2` by 1 to make it 3. 
+ 
+
+ Now, all elements of `nums` are equal to 3. The minimum total moves is 3.
+
+### Example 2
+- **Input:** `nums = [4,4,5]`
+- **Output:** `2`
+- **Explanation:** To make all elements equal: 
+
+ 
+ Increase `nums[0] = 4` by 1 to make it 5. 
+ Increase `nums[1] = 4` by 1 to make it 5. 
+ 
+
+ Now, all elements of `nums` are equal to 5. The minimum total moves is 2.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Moves to Equal Array Elements III**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Moves to Equal Array Elements III**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [2,1,3]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** To make all elements equal: 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ 
+ Increase `nums[0] = 2` by 1 to make it 3. 
+ Increase `nums[1] = 1` by 1 to make it 2. 
+ Increase the updated `nums[1] = 2` by 1 to make it 3. 
+ 
+
+ Now, all elements of `nums` are equal to 3. The minimum total moves is 3.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +95,15 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def minMoves(self, nums: List[int]) -> int:
+        return len(nums) * max(nums) - sum(nums)
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,64 @@ Solve LeetCode Linked List Random Node using JavaScript and Two Pointers. This s
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a singly linked list, return a random node&#39;s value from the linked list. Each node must have the  same probability  of being chosen.
+## Problem Statement
+Given a singly linked list, return a random node's value from the linked list. Each node must have the **same probability** of being chosen.
+
+Implement the `Solution` class:
+
+`Solution(ListNode head)` Initializes the object with the head of the singly-linked list `head`. 
+ `int getRandom()` Chooses a node randomly from the list and returns its value. All the nodes of the list should be equally likely to be chosen.
+
+## Constraints
+- The number of nodes in the linked list will be in the range `[1, 10^4]`.
+- `-10^4 <= Node.val <= 10^4`
+- At most `10^4` calls will be made to `getRandom`.
+- What if the linked list is extremely large and its length is unknown to you?
+- Could you solve this efficiently without using extra space?
+
+## Examples
+### Example 1
+- **Input:** `["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"]
+[[[1, 2, 3]], [], [], [], [], []]`
+- **Output:** `[null, 1, 3, 2, 2, 3]`
+- **Explanation:** Solution solution = new Solution([1, 2, 3]);
+solution.getRandom(); // return 1
+solution.getRandom(); // return 3
+solution.getRandom(); // return 2
+solution.getRandom(); // return 2
+solution.getRandom(); // return 3
+// getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Linked List Random Node**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Linked List Random Node**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"]
+[[[1, 2, 3]], [], [], [], [], []]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[null, 1, 3, 2, 2, 3]`.
+4. **Verification:** Solution solution = new Solution([1, 2, 3]);
+solution.getRandom(); // return 1
+solution.getRandom(); // return 3
+solution.getRandom(); // return 2
+solution.getRandom(); // return 2
+solution.getRandom(); // return 3
+// getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -50,6 +88,32 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var Solution = function(head) {
+    this.head = head;
+};
+
+Solution.prototype.getRandom = function() {
+    let current = this.head;
+    let result = 0;
+    let count = 0;
+
+    while (current) {
+        count++;
+
+        // Select current node with probability 1/count
+        if (Math.floor(Math.random() * count) === 0) {
+            result = current.val;
+        }
+
+        current = current.next;
+    }
+
+    return result;
+};
+```
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

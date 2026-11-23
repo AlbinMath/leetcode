@@ -16,26 +16,65 @@ Solve LeetCode Minimum Interval to Include Each Query using Python and Heap. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You are given a 2D integer array  intervals , where  intervals[i] = [left i , right i ]  describes the  i th   interval starting at  left i   and ending at  right i    (inclusive) . The  size  of an interval is defined as the number of integers it contains, or more formally  right i  - left i  + 1 .
+## Problem Statement
+You are given a 2D integer array `intervals`, where `intervals[i] = [left_i, right_i]` describes the `i^th` interval starting at `left_i` and ending at `right_i` **(inclusive)**. The **size** of an interval is defined as the number of integers it contains, or more formally `right_i - left_i + 1`.
+
+You are also given an integer array `queries`. The answer to the `j^th` query is the **size of the smallest interval** `i` such that `left_i <= queries[j] <= right_i`. If no such interval exists, the answer is `-1`.
+
+Return *an array containing the answers to the queries*.
+
+## Constraints
+- `1 <= intervals.length <= 10^5`
+- `1 <= queries.length <= 10^5`
+- `intervals[i].length == 2`
+- `1 <= left_i <= right_i <= 10^7`
+- `1 <= queries[j] <= 10^7`
+
+## Examples
+### Example 1
+- **Input:** `intervals = [[1,4],[2,4],[3,6],[4,4]], queries = [2,3,4,5]`
+- **Output:** `[3,3,1,4]`
+- **Explanation:** The queries are processed as follows:
+- Query = 2: The interval [2,4] is the smallest interval containing 2. The answer is 4 - 2 + 1 = 3.
+- Query = 3: The interval [2,4] is the smallest interval containing 3. The answer is 4 - 2 + 1 = 3.
+- Query = 4: The interval [4,4] is the smallest interval containing 4. The answer is 4 - 4 + 1 = 1.
+- Query = 5: The interval [3,6] is the smallest interval containing 5. The answer is 6 - 3 + 1 = 4.
+
+### Example 2
+- **Input:** `intervals = [[2,3],[2,5],[1,8],[20,25]], queries = [2,19,5,22]`
+- **Output:** `[2,-1,4,6]`
+- **Explanation:** The queries are processed as follows:
+- Query = 2: The interval [2,3] is the smallest interval containing 2. The answer is 3 - 2 + 1 = 2.
+- Query = 19: None of the intervals contain 19. The answer is -1.
+- Query = 5: The interval [2,5] is the smallest interval containing 5. The answer is 5 - 2 + 1 = 4.
+- Query = 22: The interval [20,25] is the smallest interval containing 22. The answer is 25 - 20 + 1 = 6.
 
 ## Key Insight
 Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Greedy Choice Strategy**. By maintaining state efficiently in a **Array / Priority Queue**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Interval to Include Each Query**, we observe the problem requirements and utilize the **Heap** technique. We iterate through the inputs using **Min/Max Heap Priority Selection**, leveraging a **Heap / Priority Queue** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Heap / Priority Queue**).
-2. Process elements sequentially using **Min/Max Heap Priority Selection**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Heap / Priority Queue**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Interval to Include Each Query**. Applying **Min/Max Heap Priority Selection** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `intervals = [[1,4],[2,4],[3,6],[4,4]], queries = [2,3,4,5]`.
+2. **Processing Steps:** We apply **Min/Max Heap Priority Selection** using our **Heap / Priority Queue**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[3,3,1,4]`.
+4. **Verification:** The queries are processed as follows:
+- Query = 2: The interval [2,4] is the smallest interval containing 2. The answer is 4 - 2 + 1 = 3.
+- Query = 3: The interval [2,4] is the smallest interval containing 3. The answer is 4 - 2 + 1 = 3.
+- Query = 4: The interval [4,4] is the smallest interval containing 4. The answer is 4 - 4 + 1 = 1.
+- Query = 5: The interval [3,6] is the smallest interval containing 5. The answer is 6 - 3 + 1 = 4.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Heap / Priority Queue.
 
 ## Pattern
 **Heap**
@@ -50,6 +89,32 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import heapq
+from typing import List
+
+class Solution:
+    def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:
+        intervals.sort()
+        order = sorted(range(len(queries)), key=lambda i: queries[i])
+        res = [-1] * len(queries)
+        heap = []
+        k = 0
+        n = len(intervals)
+        for qi in order:
+            q = queries[qi]
+            while k < n and intervals[k][0] <= q:
+                l, r = intervals[k]
+                heapq.heappush(heap, (r - l + 1, r))
+                k += 1
+            while heap and heap[0][1] < q:
+                heapq.heappop(heap)
+            if heap:
+                res[qi] = heap[0][0]
+        return res
+```
 
 ## Why This Works
 By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -66,7 +131,7 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 - [1829. Maximum XOR for Each Query](../../1501-2000/1940-maximum-xor-for-each-query/)
-- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
+- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-interval-to-include-each-query/)

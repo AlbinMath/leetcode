@@ -16,26 +16,53 @@ Solve LeetCode Lexicographically Minimum String After Removing Stars using Pytho
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a string  s . It may contain any number of  &#39;*&#39;  characters. Your task is to remove all  &#39;*&#39;  characters.
+## Problem Statement
+You are given a string `s`. It may contain any number of `'*'` characters. Your task is to remove all `'*'` characters.
+
+While there is a `'*'`, do the following operation:
+
+Delete the leftmost `'*'` and the **smallest** non-`'*'` character to its *left*. If there are several smallest characters, you can delete any of them.
+
+Return the lexicographically smallest resulting string after removing all `'*'` characters.
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s` consists only of lowercase English letters and `'*'`.
+- The input is generated such that it is possible to delete all `'*'` characters.
+
+## Examples
+### Example 1
+- **Input:** `s = "aaba*"`
+- **Output:** `"aab"`
+- **Explanation:** We should delete one of the `'a'` characters with `'*'`. If we choose `s[3]`, `s` becomes the lexicographically smallest.
+
+### Example 2
+- **Input:** `s = "abc"`
+- **Output:** `"abc"`
+- **Explanation:** There is no `'*'` in the string.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Lexicographically Minimum String After Removing Stars**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Lexicographically Minimum String After Removing Stars**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "aaba*"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `"aab"`.
+4. **Verification:** We should delete one of the `'a'` characters with `'*'`. If we choose `s[3]`, `s` becomes the lexicographically smallest.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +75,25 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def clearStars(self, s: str) -> str:
+        chars = list(s)
+        pos = [[] for _ in range(26)]
+        
+        for i, ch in enumerate(chars):
+            if ch == '*':
+                for c in range(26):
+                    if pos[c]:
+                        chars[pos[c].pop()] = '*'
+                        break
+            else:
+                pos[ord(ch) - ord('a')].append(i)
+                
+        return "".join(ch for ch in chars if ch != '*')
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,7 +110,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2696. Minimum String Length After Removing Substrings](../../2501-3000/2800-minimum-string-length-after-removing-substrings/)
 - [2390. Removing Stars From a String](../../2001-2500/2470-removing-stars-from-a-string/)
-- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
+- [1750. Minimum Length of String After Deleting Similar Ends](../../1501-2000/1850-minimum-length-of-string-after-deleting-similar-ends/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/)

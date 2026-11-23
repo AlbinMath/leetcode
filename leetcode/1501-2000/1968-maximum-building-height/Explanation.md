@@ -16,8 +16,46 @@ Solve LeetCode Maximum Building Height using Python and Tree & Graph. This solut
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-You want to build  n  new buildings in a city. The new buildings will be built in a line and are labeled from  1  to  n .
+## Problem Statement
+You want to build `n` new buildings in a city. The new buildings will be built in a line and are labeled from `1` to `n`.
+
+However, there are city restrictions on the heights of the new buildings:
+
+The height of each building must be a non-negative integer. 
+ The height of the first building **must** be `0`. 
+ The height difference between any two adjacent buildings **cannot exceed** `1`.
+
+Additionally, there are city restrictions on the maximum height of specific buildings. These restrictions are given as a 2D integer array `restrictions` where `restrictions[i] = [id_i, maxHeight_i]` indicates that building `id_i` must have a height **less than or equal to** `maxHeight_i`.
+
+It is guaranteed that each building will appear **at most once** in `restrictions`, and building `1` will **not** be in `restrictions`.
+
+Return *the **maximum possible height** of the **tallest** building*.
+
+## Constraints
+- `2 <= n <= 10^9`
+- `0 <= restrictions.length <= min(n - 1, 10^5)`
+- `2 <= id_i <= n`
+- `id_i` is **unique**.
+- `0 <= maxHeight_i <= 10^9`
+
+## Examples
+### Example 1
+- **Input:** `n = 5, restrictions = [[2,1],[4,1]]`
+- **Output:** `2`
+- **Explanation:** The green area in the image indicates the maximum allowed height for each building.
+We can build the buildings with heights [0,1,2,1,2], and the tallest building has a height of 2.
+
+### Example 2
+- **Input:** `n = 6, restrictions = []`
+- **Output:** `5`
+- **Explanation:** The green area in the image indicates the maximum allowed height for each building.
+We can build the buildings with heights [0,1,2,3,4,5], and the tallest building has a height of 5.
+
+### Example 3
+- **Input:** `n = 10, restrictions = [[5,3],[2,5],[7,4],[10,3]]`
+- **Output:** `5`
+- **Explanation:** The green area in the image indicates the maximum allowed height for each building.
+We can build the buildings with heights [0,1,2,3,3,4,4,5,4,3], and the tallest building has a height of 5.
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
@@ -38,12 +76,18 @@ Time complexity is $O(M \log M)$ where $M$ is the number of restrictions, and sp
 2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Maximum Building Height**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 5, restrictions = [[2,1],[4,1]]`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `2`.
+4. **Verification:** The green area in the image indicates the maximum allowed height for each building.
+We can build the buildings with heights [0,1,2,1,2], and the tallest building has a height of 2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -60,6 +104,72 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution(object):
+    def maxBuilding(self, n, restrictions):
+        """
+        :type n: int
+        :type restrictions: List[List[int]]
+        :rtype: int
+        """
+
+        # Building 1 must have height 0
+        restrictions.append([1, 0])
+
+        # Sort restrictions by building ID
+        restrictions.sort()
+
+        m = len(restrictions)
+
+        # Left to right:
+        # A building cannot exceed the previous
+        # restricted height + distance.
+        for i in range(1, m):
+            distance = restrictions[i][0] - restrictions[i - 1][0]
+
+            restrictions[i][1] = min(
+                restrictions[i][1],
+                restrictions[i - 1][1] + distance
+            )
+
+        # Right to left:
+        # Apply restrictions from the right side.
+        for i in range(m - 2, -1, -1):
+            distance = restrictions[i + 1][0] - restrictions[i][0]
+
+            restrictions[i][1] = min(
+                restrictions[i][1],
+                restrictions[i + 1][1] + distance
+            )
+
+        answer = 0
+
+        # Calculate maximum possible height between
+        # consecutive restricted buildings.
+        for i in range(1, m):
+            x1, h1 = restrictions[i - 1]
+            x2, h2 = restrictions[i]
+
+            distance = x2 - x1
+
+            # Highest possible peak between x1 and x2
+            peak = (h1 + h2 + distance) // 2
+
+            answer = max(answer, peak)
+
+        # After the last restricted building,
+        # heights can increase by 1 each step.
+        last_id, last_height = restrictions[-1]
+
+        answer = max(
+            answer,
+            last_height + (n - last_id)
+        )
+
+        return answer
+```
+
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -74,8 +184,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3200. Maximum Height of a Triangle](../../3001-3500/3469-maximum-height-of-a-triangle/)
-- [1117. Building H2O](../../1001-1500/1186-building-h2o/)
-- [2940. Find Building Where Alice and Bob Can Meet](../../3001-3500/3181-find-building-where-alice-and-bob-can-meet/)
+- [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
+- [406. Queue Reconstruction by Height](../../0001-0500/0406-queue-reconstruction-by-height/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-building-height/)

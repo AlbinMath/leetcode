@@ -16,26 +16,63 @@ Solve LeetCode Isomorphic Strings using PHP and Array / General. This solution f
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given two strings  s  and  t ,  determine if they are isomorphic .
+## Problem Statement
+Given two strings `s` and `t`, *determine if they are isomorphic*.
+
+Two strings `s` and `t` are isomorphic if the characters in `s` can be replaced to get `t`.
+
+All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
+
+## Constraints
+- `1 <= s.length <= 5 * 10^4`
+- `t.length == s.length`
+- `s` and `t` consist of any valid ascii character.
+
+## Examples
+### Example 1
+- **Input:** `s = "egg", t = "add"`
+- **Output:** `true`
+- **Explanation:** The strings `s` and `t` can be made identical by: 
+
+ 
+ Mapping `'e'` to `'a'`. 
+ Mapping `'g'` to `'d'`.
+
+### Example 2
+- **Input:** `s = "f11", t = "b23"`
+- **Output:** `false`
+- **Explanation:** The strings `s` and `t` can not be made identical as `'1'` needs to be mapped to both `'2'` and `'3'`.
+
+### Example 3
+- **Input:** `s = "paper", t = "title"`
+- **Output:** `true`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Isomorphic Strings**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Isomorphic Strings**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "egg", t = "add"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** The strings `s` and `t` can be made identical by: 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ 
+ Mapping `'e'` to `'a'`. 
+ Mapping `'g'` to `'d'`.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +85,43 @@ PHP
 
 ## Source Code
 - [solution.php](./solution.php)
+
+
+```php
+class Solution {
+    function isIsomorphic($s, $t) {
+        $mapST = [];
+        $mapTS = [];
+
+        $length = strlen($s);
+
+        for ($i = 0; $i < $length; $i++) {
+            $charS = $s[$i];
+            $charT = $t[$i];
+
+            // Check s -> t mapping
+            if (isset($mapST[$charS])) {
+                if ($mapST[$charS] !== $charT) {
+                    return false;
+                }
+            } else {
+                $mapST[$charS] = $charT;
+            }
+
+            // Check t -> s mapping
+            if (isset($mapTS[$charT])) {
+                if ($mapTS[$charT] !== $charS) {
+                    return false;
+                }
+            } else {
+                $mapTS[$charT] = $charS;
+            }
+        }
+
+        return true;
+    }
+}
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

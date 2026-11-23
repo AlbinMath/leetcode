@@ -16,26 +16,43 @@ Solve LeetCode Distinct Echo Substrings using Python and Array / General. This s
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Return the number of  distinct  non-empty substrings of  text  that can be written as the concatenation of some string with itself (i.e. it can be written as  a + a  where  a  is some string).
+## Problem Statement
+Return the number of **distinct** non-empty substrings of `text` that can be written as the concatenation of some string with itself (i.e. it can be written as `a + a` where `a` is some string).
+
+## Constraints
+- `1 <= text.length <= 2000`
+- `text` has only lowercase English letters.
+
+## Examples
+### Example 1
+- **Input:** `text = "abcabcabc"`
+- **Output:** `3`
+
+### Example 2
+- **Input:** `text = "leetcodeleetcode"`
+- **Output:** `2`
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Distinct Echo Substrings**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Distinct Echo Substrings**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `text = "abcabcabc"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +65,25 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def distinctEchoSubstrings(self, text: str) -> int:
+        n = len(text)
+        seen = set()
+        for L in range(1, n // 2 + 1):
+            cnt = 0
+            for i in range(n - L):
+                if text[i] == text[i + L]:
+                    cnt += 1
+                else:
+                    cnt = 0
+                if cnt == L:
+                    seen.add(text[i - L + 1:i + L + 1])
+                    cnt -= 1
+        return len(seen)
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

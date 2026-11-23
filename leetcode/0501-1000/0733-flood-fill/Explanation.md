@@ -1,7 +1,7 @@
 # LeetCode 733: Flood Fill
 
 **LeetCode Problem #733 — Flood Fill**
-Solve LeetCode Flood Fill using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Flood Fill using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,78 @@ Solve LeetCode Flood Fill using Python and Array / General. This solution finds 
 | LeetCode | #733 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
-## Problem
-You are given an image represented by an  m x n  grid of integers  image , where  image[i][j]  represents the pixel value of the image. You are also given three integers  sr ,  sc , and  color . Your task is to perform a  flood fill  on the image starting from the pixel  image[sr][sc] .
+## Problem Statement
+You are given an image represented by an `m x n` grid of integers `image`, where `image[i][j]` represents the pixel value of the image. You are also given three integers `sr`, `sc`, and `color`. Your task is to perform a **flood fill** on the image starting from the pixel `image[sr][sc]`.
+
+To perform a **flood fill**:
+
+Begin with the starting pixel and change its color to `color`. 
+ Perform the same process for each pixel that is **directly adjacent** (pixels that share a side with the original pixel, either horizontally or vertically) and shares the **same color** as the starting pixel. 
+ Keep **repeating** this process by checking neighboring pixels of the *updated* pixels and modifying their color if it matches the original color of the starting pixel. 
+ The process **stops** when there are **no more** adjacent pixels of the original color to update.
+
+Return the **modified** image after performing the flood fill.
+
+## Constraints
+- `m == image.length`
+- `n == image[i].length`
+- `1 <= m, n <= 50`
+- `0 <= image[i][j], color < 2^16`
+- `0 <= sr < m`
+- `0 <= sc < n`
+
+## Examples
+### Example 1
+- **Input:** `image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, color = 2`
+- **Output:** `[[2,2,2],[2,2,0],[2,0,1]]`
+- **Explanation:** From the center of the image with position `(sr, sc) = (1, 1)` (i.e., the red pixel), all pixels connected by a path of the same color as the starting pixel (i.e., the blue pixels) are colored with the new color. 
+
+ Note the bottom corner is
+
+### Example 2
+- **Input:** `image = [[0,0,0],[0,0,0]], sr = 0, sc = 0, color = 0`
+- **Output:** `[[0,0,0],[0,0,0]]`
+- **Explanation:** The starting pixel is already colored with 0, which is the same as the target color. Therefore, no changes are made to the image.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Flood Fill**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Flood Fill**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, color = 2`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[[2,2,2],[2,2,0],[2,0,1]]`.
+4. **Verification:** From the center of the image with position `(sr, sc) = (1, 1)` (i.e., the red pixel), all pixels connected by a path of the same color as the starting pixel (i.e., the blue pixels) are colored with the new color. 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+ Note the bottom corner is
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -49,8 +89,38 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def floodFill(self, image: list[list[int]], sr: int, sc: int, color: int) -> list[list[int]]:
+        original = image[sr][sc]
+
+        if original == color:
+            return image
+
+        rows = len(image)
+        cols = len(image[0])
+
+        def dfs(r, c):
+            if r < 0 or r >= rows or c < 0 or c >= cols:
+                return
+
+            if image[r][c] != original:
+                return
+
+            image[r][c] = color
+
+            dfs(r + 1, c)
+            dfs(r - 1, c)
+            dfs(r, c + 1)
+            dfs(r, c - 1)
+
+        dfs(sr, sc)
+        return image
+```
+
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

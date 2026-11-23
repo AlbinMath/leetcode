@@ -16,26 +16,74 @@ Solve LeetCode Guess the Word using Python and Array / General. This solution fi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given an array of unique strings  words  where  words[i]  is six letters long. One word of  words  was chosen as a secret word.
+## Problem Statement
+You are given an array of unique strings `words` where `words[i]` is six letters long. One word of `words` was chosen as a secret word.
+
+You are also given the helper object `Master`. You may call `Master.guess(word)` where `word` is a six-letter-long string, and it must be from `words`. `Master.guess(word)` returns:
+
+`-1` if `word` is not from `words`, or 
+ an integer representing the number of exact matches (value and position) of your guess to the secret word.
+
+There is a parameter `allowedGuesses` for each test case where `allowedGuesses` is the maximum number of times you can call `Master.guess(word)`.
+
+For each test case, you should call `Master.guess` with the secret word without exceeding the maximum number of allowed guesses. You will get:
+
+**`"Either you took too many guesses, or you did not find the secret word."`** if you called `Master.guess` more than `allowedGuesses` times or if you did not call `Master.guess` with the secret word, or 
+ **`"You guessed the secret word correctly."`** if you called `Master.guess` with the secret word with the number of calls to `Master.guess` less than or equal to `allowedGuesses`.
+
+The test cases are generated such that you can guess the secret word with a reasonable strategy (other than using the bruteforce method).
+
+## Constraints
+- `1 <= words.length <= 100`
+- `words[i].length == 6`
+- `words[i]` consist of lowercase English letters.
+- All the strings of `words` are **unique**.
+- `secret` exists in `words`.
+- `10 <= allowedGuesses <= 30`
+
+## Examples
+### Example 1
+- **Input:** `secret = "acckzz", words = ["acckzz","ccbazz","eiowzz","abcczz"], allowedGuesses = 10`
+- **Output:** `You guessed the secret word correctly.`
+- **Explanation:** master.guess("aaaaaa") returns -1, because "aaaaaa" is not in words.
+master.guess("acckzz") returns 6, because "acckzz" is secret and has all 6 matches.
+master.guess("ccbazz") returns 3, because "ccbazz" has 3 matches.
+master.guess("eiowzz") returns 2, because "eiowzz" has 2 matches.
+master.guess("abcczz") returns 4, because "abcczz" has 4 matches.
+We made 5 calls to master.guess, and one of them was the secret, so we pass the test case.
+
+### Example 2
+- **Input:** `secret = "hamada", words = ["hamada","khaled"], allowedGuesses = 10`
+- **Output:** `You guessed the secret word correctly.`
+- **Explanation:** Since there are two words, you can guess both.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Guess the Word**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Guess the Word**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `secret = "acckzz", words = ["acckzz","ccbazz","eiowzz","abcczz"], allowedGuesses = 10`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `You guessed the secret word correctly.`.
+4. **Verification:** master.guess("aaaaaa") returns -1, because "aaaaaa" is not in words.
+master.guess("acckzz") returns 6, because "acckzz" is secret and has all 6 matches.
+master.guess("ccbazz") returns 3, because "ccbazz" has 3 matches.
+master.guess("eiowzz") returns 2, because "eiowzz" has 2 matches.
+master.guess("abcczz") returns 4, because "abcczz" has 4 matches.
+We made 5 calls to master.guess, and one of them was the secret, so we pass the test case.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +96,24 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def findSecretWord(self, words, master):
+        def match(a, b):
+            return sum(x == y for x, y in zip(a, b))
+
+        for _ in range(30):
+            guess = min(words, key=lambda w: max(
+                [sum(match(w, x) == i for x in words)
+                 for i in range(7)]
+            ))
+            res = master.guess(guess)
+            if res == 6:
+                return
+            words = [w for w in words if match(w, guess) == res]
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,8 +16,27 @@ Solve LeetCode Remove Nth Node From End of List using JavaScript and Fast & Slow
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given the  head  of a linked list, remove the  n th   node from the end of the list and return its head.
+## Problem Statement
+Given the `head` of a linked list, remove the `n^th` node from the end of the list and return its head.
+
+## Constraints
+- The number of nodes in the list is `sz`.
+- `1 <= sz <= 30`
+- `0 <= Node.val <= 100`
+- `1 <= n <= sz`
+
+## Examples
+### Example 1
+- **Input:** `head = [1,2,3,4,5], n = 2`
+- **Output:** `[1,2,3,5]`
+
+### Example 2
+- **Input:** `head = [1], n = 1`
+- **Output:** `[]`
+
+### Example 3
+- **Input:** `head = [1,2], n = 1`
+- **Output:** `[1]`
 
 ## Key Insight
 Leverage **Fast & Slow Pointers** with **Linked List / Pointer** to process inputs efficiently and achieve optimal time and space complexity.
@@ -38,12 +57,16 @@ Time complexity is $O(L)$ where $L$ is the length of the list. Space complexity 
 2. Process elements sequentially using **Floyd Cycle Detection**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Remove Nth Node From End of List**. Applying **Floyd Cycle Detection** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [1,2,3,4,5], n = 2`.
+2. **Processing Steps:** We apply **Floyd Cycle Detection** using our **Linked List / Pointer**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[1,2,3,5]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Linked List / Pointer.
 
 ## Pattern
 **Fast & Slow Pointers**
@@ -57,6 +80,33 @@ JavaScript
 
 ## Source Code
 - [solution.js](./solution.js)
+
+
+```javascript
+var removeNthFromEnd = function(head, n) {
+    const dummy = new ListNode(0);
+    dummy.next = head;
+
+    let fast = dummy;
+    let slow = dummy;
+
+    // Move fast n + 1 steps ahead
+    for (let i = 0; i <= n; i++) {
+        fast = fast.next;
+    }
+
+    // Move both pointers until fast reaches the end
+    while (fast !== null) {
+        fast = fast.next;
+        slow = slow.next;
+    }
+
+    // Remove the nth node from the end
+    slow.next = slow.next.next;
+
+    return dummy.next;
+};
+```
 
 ## Why This Works
 By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

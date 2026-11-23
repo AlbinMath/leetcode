@@ -16,26 +16,51 @@ Solve LeetCode N-th Tribonacci Number using JavaScript, Python and Bit Manipulat
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-The Tribonacci sequence T n  is defined as follows:
+## Problem Statement
+The Tribonacci sequence T_n is defined as follows:
+
+T_0 = 0, T_1 = 1, T_2 = 1, and T_n+3 = T_n + T_n+1 + T_n+2 for n >= 0.
+
+Given `n`, return the value of T_n.
+
+## Constraints
+- `0 <= n <= 37`
+- The answer is guaranteed to fit within a 32-bit integer, ie. `answer <= 2^31 - 1`.
+
+## Examples
+### Example 1
+- **Input:** `n = 4`
+- **Output:** `4`
+- **Explanation:** T_3 = 0 + 1 + 1 = 2
+T_4 = 1 + 1 + 2 = 4
+
+### Example 2
+- **Input:** `n = 25`
+- **Output:** `1389537`
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **N-th Tribonacci Number**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **N-th Tribonacci Number**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 4`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** T_3 = 0 + 1 + 1 = 2
+T_4 = 1 + 1 + 2 = 4
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -51,6 +76,46 @@ JavaScript, Python
 - [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
+
+### JavaScript
+```javascript
+var tribonacci = function(n) {
+    if (n === 0) return 0;
+    if (n === 1 || n === 2) return 1;
+
+    let a = 0;
+    let b = 1;
+    let c = 1;
+
+    for (let i = 3; i <= n; i++) {
+        const next = a + b + c;
+
+        a = b;
+        b = c;
+        c = next;
+    }
+
+    return c;
+};
+```
+
+### Python
+```python
+class Solution:
+    def tribonacci(self, n: int) -> int:
+        if n == 0:
+            return 0
+        if n <= 2:
+            return 1
+
+        a, b, c = 0, 1, 1
+
+        for i in range(3, n + 1):
+            a, b, c = b, c, a + b + c
+
+        return c
+```
+
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,7 +130,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
-- [3154. Find Number of Ways to Reach the K-th Stair](../../3001-3500/3414-find-number-of-ways-to-reach-the-k-th-stair/)
+- [1553. Minimum Number of Days to Eat N Oranges](../../1501-2000/1676-minimum-number-of-days-to-eat-n-oranges/)
 - [3179. Find the N-th Value After K Seconds](../../3001-3500/3422-find-the-n-th-value-after-k-seconds/)
 
 ## LeetCode

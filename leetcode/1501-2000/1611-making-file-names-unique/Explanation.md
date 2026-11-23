@@ -16,26 +16,69 @@ Solve LeetCode Making File Names Unique using Python and Binary Search. This sol
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given an array of strings  names  of size  n . You will create  n  folders in your file system  such that , at the  i th   minute, you will create a folder with the name  names[i] .
+## Problem Statement
+Given an array of strings `names` of size `n`. You will create `n` folders in your file system **such that**, at the `i^th` minute, you will create a folder with the name `names[i]`.
+
+Since two files **cannot** have the same name, if you enter a folder name that was previously used, the system will have a suffix addition to its name in the form of `(k)`, where, `k` is the **smallest positive integer** such that the obtained name remains unique.
+
+Return *an array of strings of length *`n` where `ans[i]` is the actual name the system will assign to the `i^th` folder when you create it.
+
+## Constraints
+- `1 <= names.length <= 5 * 10^4`
+- `1 <= names[i].length <= 20`
+- `names[i]` consists of lowercase English letters, digits, and/or round brackets.
+
+## Examples
+### Example 1
+- **Input:** `names = ["pes","fifa","gta","pes(2019)"]`
+- **Output:** `["pes","fifa","gta","pes(2019)"]`
+- **Explanation:** Let's see how the file system creates folder names:
+"pes" --> not assigned before, remains "pes"
+"fifa" --> not assigned before, remains "fifa"
+"gta" --> not assigned before, remains "gta"
+"pes(2019)" --> not assigned before, remains "pes(2019)"
+
+### Example 2
+- **Input:** `names = ["gta","gta(1)","gta","avalon"]`
+- **Output:** `["gta","gta(1)","gta(2)","avalon"]`
+- **Explanation:** Let's see how the file system creates folder names:
+"gta" --> not assigned before, remains "gta"
+"gta(1)" --> not assigned before, remains "gta(1)"
+"gta" --> the name is reserved, system adds (k), since "gta(1)" is also reserved, systems put k = 2. it becomes "gta(2)"
+"avalon" --> not assigned before, remains "avalon"
+
+### Example 3
+- **Input:** `names = ["onepiece","onepiece(1)","onepiece(2)","onepiece(3)","onepiece"]`
+- **Output:** `["onepiece","onepiece(1)","onepiece(2)","onepiece(3)","onepiece(4)"]`
+- **Explanation:** When the last folder is created, the smallest positive valid k is 4, and it becomes "onepiece(4)".
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Making File Names Unique**, we observe the problem requirements and utilize the **Binary Search** technique. By maintaining a **Sorted Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize a **Sorted Array** to record observed values and indices.
+2. Iterate through elements, querying the hash map for complementary conditions.
+3. Insert the current element into the hash map if no match is found.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Making File Names Unique**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `names = ["pes","fifa","gta","pes(2019)"]`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["pes","fifa","gta","pes(2019)"]`.
+4. **Verification:** Let's see how the file system creates folder names:
+"pes" --> not assigned before, remains "pes"
+"fifa" --> not assigned before, remains "fifa"
+"gta" --> not assigned before, remains "gta"
+"pes(2019)" --> not assigned before, remains "pes(2019)"
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -51,6 +94,31 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def getFolderNames(self, names: List[str]) -> List[str]:
+        used = set()
+        next_k = {}
+        res = []
+
+        for name in names:
+            if name not in used:
+                used.add(name)
+                res.append(name)
+                continue
+
+            k = next_k.get(name, 1)
+            while f"{name}({k})" in used:
+                k += 1
+            new_name = f"{name}({k})"
+            used.add(new_name)
+            next_k[name] = k + 1
+            res.append(new_name)
+
+        return res
+```
+
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +133,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1667. Fix Names in a Table](../../1501-2000/1811-fix-names-in-a-table/)
-- [827. Making A Large Island](../../0501-1000/0854-making-a-large-island/)
 - [62. Unique Paths](../../0001-0500/0062-unique-paths/)
+- [63. Unique Paths II](../../0001-0500/0063-unique-paths-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/making-file-names-unique/)

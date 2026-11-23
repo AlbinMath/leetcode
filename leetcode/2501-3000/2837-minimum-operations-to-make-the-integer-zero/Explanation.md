@@ -16,26 +16,60 @@ Solve LeetCode Minimum Operations to Make the Integer Zero using Python and Bit 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given two integers  num1  and  num2 .
+## Problem Statement
+You are given two integers `num1` and `num2`.
+
+In one operation, you can choose integer `i` in the range `[0, 60]` and subtract `2^i + num2` from `num1`.
+
+Return *the integer denoting the **minimum** number of operations needed to make* `num1` *equal to* `0`.
+
+If it is impossible to make `num1` equal to `0`, return `-1`.
+
+## Constraints
+- `1 <= num1 <= 10^9`
+- ` -10^9 <= num2 <= 10^9 `
+
+## Examples
+### Example 1
+- **Input:** `num1 = 3, num2 = -2`
+- **Output:** `3`
+- **Explanation:** We can make 3 equal to 0 with the following operations:
+- We choose i = 2 and subtract 2^2 + (-2) from 3, 3 - (4 + (-2)) = 1.
+- We choose i = 2 and subtract 2^2 + (-2) from 1, 1 - (4 + (-2)) = -1.
+- We choose i = 0 and subtract 2^0 + (-2) from -1, (-1) - (1 + (-2)) = 0.
+It can be proven, that 3 is the minimum number of operations that we need to perform.
+
+### Example 2
+- **Input:** `num1 = 5, num2 = 7`
+- **Output:** `-1`
+- **Explanation:** It can be proven, that it is impossible to make 5 equal to 0 with the given operation.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Operations to Make the Integer Zero**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Operations to Make the Integer Zero**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `num1 = 3, num2 = -2`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `3`.
+4. **Verification:** We can make 3 equal to 0 with the following operations:
+- We choose i = 2 and subtract 2^2 + (-2) from 3, 3 - (4 + (-2)) = 1.
+- We choose i = 2 and subtract 2^2 + (-2) from 1, 1 - (4 + (-2)) = -1.
+- We choose i = 0 and subtract 2^0 + (-2) from -1, (-1) - (1 + (-2)) = 0.
+It can be proven, that 3 is the minimum number of operations that we need to perform.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +83,19 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def makeTheIntegerZero(self, num1: int, num2: int) -> int:
+        for k in range(1, 61):
+            t = num1 - k * num2
+            if t < k:
+                continue
+            if bin(t).count('1') <= k:
+                return k
+        return -1
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -65,7 +112,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
 - [3495. Minimum Operations to Make Array Elements Zero](../../3501-4000/3744-minimum-operations-to-make-array-elements-zero/)
-- [2571. Minimum Operations to Reduce an Integer to 0](../../2501-3000/2710-minimum-operations-to-reduce-an-integer-to-0/)
+- [1658. Minimum Operations to Reduce X to Zero](../../1501-2000/1776-minimum-operations-to-reduce-x-to-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/)

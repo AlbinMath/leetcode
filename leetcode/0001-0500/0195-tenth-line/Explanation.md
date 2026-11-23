@@ -16,8 +16,11 @@ Solve LeetCode Tenth Line using Shell and Array / General. This solution finds t
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given a text file  file.txt , print just the 10th line of the file.
+## Problem Statement
+Given a text file `file.txt`, print just the 10th line of the file.
+
+## Examples
+Consider the standard input for **Tenth Line**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
@@ -35,12 +38,12 @@ This is a concise and efficient one-liner.
 2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
-## Example
-Consider the standard input for **Tenth Line**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+Applying **In-Place Array Traversal & Index Mapping** step by step to the input yields the expected result.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -53,6 +56,12 @@ Shell
 
 ## Source Code
 - [solution.sh](./solution.sh)
+
+
+```bash
+# Read from the file file.txt and output the tenth line to stdout.
+sed -n '10p' file.txt
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

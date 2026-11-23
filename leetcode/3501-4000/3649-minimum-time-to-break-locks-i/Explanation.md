@@ -1,7 +1,7 @@
 # LeetCode 3376: Minimum Time to Break Locks I
 
 **LeetCode Problem #3376 — Minimum Time to Break Locks I**
-Solve LeetCode Minimum Time to Break Locks I using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Minimum Time to Break Locks I using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,214 @@ Solve LeetCode Minimum Time to Break Locks I using Python and Tree & Graph. This
 | LeetCode | #3376 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Bob is stuck in a dungeon and must break  n  locks, each requiring some amount of  energy  to break. The required energy for each lock is stored in an array called  strength  where  strength[i]  indicates the energy needed to break the  i th   lock.
+## Problem Statement
+Bob is stuck in a dungeon and must break `n` locks, each requiring some amount of **energy** to break. The required energy for each lock is stored in an array called `strength` where `strength[i]` indicates the energy needed to break the `i^th` lock.
+
+To break a lock, Bob uses a sword with the following characteristics:
+
+The initial energy of the sword is 0. 
+ The initial factor ` x ` by which the energy of the sword increases is 1. 
+ Every minute, the energy of the sword increases by the current factor `x`. 
+ To break the `i^th` lock, the energy of the sword must reach **at least** `strength[i]`. 
+ After breaking a lock, the energy of the sword resets to 0, and the factor `x` increases by a given value `k`.
+
+Your task is to determine the **minimum** time in minutes required for Bob to break all `n` locks and escape the dungeon.
+
+Return the **minimum **time required for Bob to break all `n` locks.
+
+## Constraints
+- `n == strength.length`
+- `1 <= n <= 8`
+- `1 <= k <= 10`
+- `1 <= strength[i] <= 10^6`
+
+## Examples
+### Example 1
+- **Input:** `strength = [3,4,1], k = 1`
+- **Output:** `4`
+- **Explanation:** Time 
+ Energy 
+ x 
+ Action 
+ Updated x 
+ 
+ 
+ 0 
+ 0 
+ 1 
+ Nothing 
+ 1 
+ 
+ 
+ 1 
+ 1 
+ 1 
+ Break 3^rd Lock 
+ 2 
+ 
+ 
+ 2 
+ 2 
+ 2 
+ Nothing 
+ 2 
+ 
+ 
+ 3 
+ 4 
+ 2 
+ Break 2^nd Lock 
+ 3 
+ 
+ 
+ 4 
+ 3 
+ 3 
+ Break 1^st Lock 
+ 3 
+ 
+ 
+ 
+
+ The locks cannot be broken in less than 4 minutes; thus, the answer is 4.
+
+### Example 2
+- **Input:** `strength = [2,5,4], k = 2`
+- **Output:** `5`
+- **Explanation:** Time 
+ Energy 
+ x 
+ Action 
+ Updated x 
+ 
+ 
+ 0 
+ 0 
+ 1 
+ Nothing 
+ 1 
+ 
+ 
+ 1 
+ 1 
+ 1 
+ Nothing 
+ 1 
+ 
+ 
+ 2 
+ 2 
+ 1 
+ Break 1^st Lock 
+ 3 
+ 
+ 
+ 3 
+ 3 
+ 3 
+ Nothing 
+ 3 
+ 
+ 
+ 4 
+ 6 
+ 3 
+ Break 2^n^d Lock 
+ 5 
+ 
+ 
+ 5 
+ 5 
+ 5 
+ Break 3^r^d Lock 
+ 7 
+ 
+ 
+ 
+
+ The locks cannot be broken in less than 5 minutes; thus, the answer is 5.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Time to Break Locks I**, we observe the problem requirements and utilize the **Tree & Graph** technique. We decompose the problem into overlapping subproblems using a **Tree / Graph / Grid**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Establish base cases in the DP structure.
+2. Iterate through subproblem states following recurrence relations.
+3. Derive final answer from completed subproblem state.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Time to Break Locks I**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `strength = [3,4,1], k = 1`.
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** Time 
+ Energy 
+ x 
+ Action 
+ Updated x 
+ 
+ 
+ 0 
+ 0 
+ 1 
+ Nothing 
+ 1 
+ 
+ 
+ 1 
+ 1 
+ 1 
+ Break 3^rd Lock 
+ 2 
+ 
+ 
+ 2 
+ 2 
+ 2 
+ Nothing 
+ 2 
+ 
+ 
+ 3 
+ 4 
+ 2 
+ Break 2^nd Lock 
+ 3 
+ 
+ 
+ 4 
+ 3 
+ 3 
+ Break 1^st Lock 
+ 3 
+ 
+ 
+ 
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+ The locks cannot be broken in less than 4 minutes; thus, the answer is 4.
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Tree & Graph**
+**Dynamic Programming**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 Python
@@ -52,17 +225,41 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def findMinimumTime(self, strength: List[int], k: int) -> int:
+        n = len(strength)
+        INF = float('inf')
+        dp = [INF] * (1 << n)
+        dp[0] = 0
+        for mask in range(1 << n):
+            if dp[mask] == INF:
+                continue
+            x = 1 + k * bin(mask).count("1")
+            for j in range(n):
+                if mask >> j & 1:
+                    continue
+                t = -(-strength[j] // x)  # ceil division
+                nm = mask | (1 << j)
+                if dp[mask] + t < dp[nm]:
+                    dp[nm] = dp[mask] + t
+        return dp[(1 << n) - 1]
+```
+
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)

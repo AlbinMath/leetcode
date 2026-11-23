@@ -1,7 +1,7 @@
 # LeetCode 28: Find the Index of the First Occurrence in a String
 
 **LeetCode Problem #28 — Find the Index of the First Occurrence in a String**
-Solve LeetCode Find the Index of the First Occurrence in a String using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Find the Index of the First Occurrence in a String using Python and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,63 @@ Solve LeetCode Find the Index of the First Occurrence in a String using Python a
 | LeetCode | #28 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Stack Push / Pop Parsing |
+| Algorithm | Monotonic Stack Filtering |
 | Data Structure | Stack |
-| Pattern | Stack & Queue |
+| Pattern | Monotonic Stack |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-Given two strings  needle  and  haystack , return the index of the first occurrence of  needle  in  haystack , or  -1  if  needle  is not part of  haystack .
+## Problem Statement
+Given two strings `needle` and `haystack`, return the index of the first occurrence of `needle` in `haystack`, or `-1` if `needle` is not part of `haystack`.
+
+## Constraints
+- `1 <= haystack.length, needle.length <= 10^4`
+- `haystack` and `needle` consist of only lowercase English characters.
+
+## Examples
+### Example 1
+- **Input:** `haystack = "sadbutsad", needle = "sad"`
+- **Output:** `0`
+- **Explanation:** "sad" occurs at index 0 and 6.
+The first occurrence is at index 0, so we return 0.
+
+### Example 2
+- **Input:** `haystack = "leetcode", needle = "leeto"`
+- **Output:** `-1`
+- **Explanation:** "leeto" did not occur in "leetcode", so we return -1.
 
 ## Key Insight
-Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
+Maintain a stack whose elements are strictly increasing or decreasing to answer 'next greater' or 'previous smaller' query problems in $O(n)$ total operations.
 
 ## Approach
-We iterate through the input using **Stack Push / Pop Parsing**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations and process each element in optimal time.
+To solve **Find the Index of the First Occurrence in a String**, we observe the problem requirements and utilize the **Stack & Queue** technique. We maintain a **Stack** with elements in strictly monotonic order. Whenever an incoming element violates monotonicity, we pop previous elements and compute answer intervals in amortized linear time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Stack Push / Pop Parsing**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize an empty stack.
+2. For each element, pop previous items from stack while monotonic invariant is violated.
+3. Push current element or index onto stack.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Find the Index of the First Occurrence in a String**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `haystack = "sadbutsad", needle = "sad"`.
+2. **Processing Steps:** We apply **Monotonic Stack Filtering** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `0`.
+4. **Verification:** "sad" occurs at index 0 and 6.
+The first occurrence is at index 0, so we return 0.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Stack & Queue**
+**Monotonic Stack**
 
 ## Topics
 - Stack
-- String Parsing
+- Monotonic Stack
+- Array
 
 ## Language
 Python
@@ -50,22 +74,36 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+class Solution:
+    def strStr(self, haystack, needle):
+        n = len(haystack)
+        m = len(needle)
+
+        for i in range(n - m + 1):
+            if haystack[i:i + m] == needle:
+                return i
+
+        return -1
+```
+
 ## Why This Works
-By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Monotonic Stack**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Pushing elements instead of indices when index distance is required.
+2. Using strict inequality (`<`) when non-strict (`<=`) is necessary.
+3. Forgetting to flush remaining elements from stack at the end.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Linear stack processing, nearest element relationship analysis.
+- **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [3303. Find the Occurrence of First Almost Equal Substring](../../3501-4000/3580-find-the-occurrence-of-first-almost-equal-substring/)
 - [2108. Find First Palindromic String in the Array](../../2001-2500/2231-find-first-palindromic-string-in-the-array/)
-- [724. Find Pivot Index](../../0501-1000/0724-find-pivot-index/)
+- [3303. Find the Occurrence of First Almost Equal Substring](../../3501-4000/3580-find-the-occurrence-of-first-almost-equal-substring/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)

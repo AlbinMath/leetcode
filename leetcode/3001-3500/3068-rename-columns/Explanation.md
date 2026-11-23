@@ -16,26 +16,87 @@ Solve LeetCode Rename Columns using Python and Tree & Graph. This solution finds
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+DataFrame `students`
++-------------+--------+
+| Column Name | Type |
++-------------+--------+
+| id | int |
+| first | object |
+| last | object |
+| age | int |
++-------------+--------+
+
 Write a solution to rename the columns as follows:
+
+`id` to `student_id` 
+ `first` to `first_name` 
+ `last` to `last_name` 
+ `age` to `age_in_years`
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `+----+---------+----------+-----+
+| id | first | last | age |
++----+---------+----------+-----+
+| 1 | Mason | King | 6 |
+| 2 | Ava | Wright | 7 |
+| 3 | Taylor | Hall | 16 |
+| 4 | Georgia | Thompson | 18 |
+| 5 | Thomas | Moore | 10 |
++----+---------+----------+-----+`
+- **Output:** `+------------+------------+-----------+--------------+
+| student_id | first_name | last_name | age_in_years |
++------------+------------+-----------+--------------+
+| 1 | Mason | King | 6 |
+| 2 | Ava | Wright | 7 |
+| 3 | Taylor | Hall | 16 |
+| 4 | Georgia | Thompson | 18 |
+| 5 | Thomas | Moore | 10 |
++------------+------------+-----------+--------------+`
+- **Explanation:** The column names are changed accordingly.
 
 ## Key Insight
 Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Rename Columns**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
-3. Validate boundary conditions and return optimal result.
+1. Define base cases for null/leaf nodes.
+2. Recursively traverse child nodes.
+3. Combine child results to determine current node output.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Rename Columns**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `+----+---------+----------+-----+
+| id | first | last | age |
++----+---------+----------+-----+
+| 1 | Mason | King | 6 |
+| 2 | Ava | Wright | 7 |
+| 3 | Taylor | Hall | 16 |
+| 4 | Georgia | Thompson | 18 |
+| 5 | Thomas | Moore | 10 |
++----+---------+----------+-----+`.
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+------------+------------+-----------+--------------+
+| student_id | first_name | last_name | age_in_years |
++------------+------------+-----------+--------------+
+| 1 | Mason | King | 6 |
+| 2 | Ava | Wright | 7 |
+| 3 | Taylor | Hall | 16 |
+| 4 | Georgia | Thompson | 18 |
+| 5 | Thomas | Moore | 10 |
++------------+------------+-----------+--------------+`.
+4. **Verification:** The column names are changed accordingly.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
 **Tree & Graph**
@@ -51,6 +112,19 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+import pandas as pd
+
+def renameColumns(students: pd.DataFrame) -> pd.DataFrame:
+    return students.rename(columns={
+        "id": "student_id",
+        "first": "first_name",
+        "last": "last_name",
+        "age": "age_in_years"
+    })
+```
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -16,26 +16,58 @@ Solve LeetCode Two Out of Three using Python and Array / General. This solution 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given three integer arrays  nums1 ,  nums2 , and  nums3 , return  a  distinct  array containing all the values that are present in  at least two  out of the three arrays. You may return the values in  any  order .
+## Problem Statement
+Given three integer arrays `nums1`, `nums2`, and `nums3`, return *a **distinct** array containing all the values that are present in **at least two** out of the three arrays. You may return the values in **any** order*.
+
+## Constraints
+- `1 <= nums1.length, nums2.length, nums3.length <= 100`
+- `1 <= nums1[i], nums2[j], nums3[k] <= 100`
+
+## Examples
+### Example 1
+- **Input:** `nums1 = [1,1,3,2], nums2 = [2,3], nums3 = [3]`
+- **Output:** `[3,2]`
+- **Explanation:** The values that are present in at least two arrays are:
+- 3, in all three arrays.
+- 2, in nums1 and nums2.
+
+### Example 2
+- **Input:** `nums1 = [3,1], nums2 = [2,3], nums3 = [1,2]`
+- **Output:** `[2,3,1]`
+- **Explanation:** The values that are present in at least two arrays are:
+- 2, in nums2 and nums3.
+- 3, in nums1 and nums2.
+- 1, in nums1 and nums3.
+
+### Example 3
+- **Input:** `nums1 = [1,2,2], nums2 = [4,3,3], nums3 = [5]`
+- **Output:** `[]`
+- **Explanation:** No value is present in at least two arrays.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Two Out of Three**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Two Out of Three**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `nums1 = [1,1,3,2], nums2 = [2,3], nums3 = [3]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[3,2]`.
+4. **Verification:** The values that are present in at least two arrays are:
+- 3, in all three arrays.
+- 2, in nums1 and nums2.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +80,20 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+
+class Solution:
+
+  def twoOutOfThree(
+      self, nums1: List[int], nums2: List[int], nums3: List[int]
+  ) -> List[int]:
+    s1, s2, s3 = set(nums1), set(nums2), set(nums3)
+    return list((s1 & s2) | (s2 & s3) | (s1 & s3))
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

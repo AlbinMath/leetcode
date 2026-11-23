@@ -16,26 +16,49 @@ Solve LeetCode Repeated DNA Sequences using Python and Stack & Queue. This solut
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
-The  DNA sequence  is composed of a series of nucleotides abbreviated as  &#39;A&#39; ,  &#39;C&#39; ,  &#39;G&#39; , and  &#39;T&#39; .
+## Problem Statement
+The **DNA sequence** is composed of a series of nucleotides abbreviated as `'A'`, `'C'`, `'G'`, and `'T'`.
+
+For example, `"ACGAATTCCG"` is a **DNA sequence**.
+
+When studying **DNA**, it is useful to identify repeated sequences within the DNA.
+
+Given a string `s` that represents a **DNA sequence**, return all the **`10`-letter-long** sequences (substrings) that occur more than once in a DNA molecule. You may return the answer in **any order**.
+
+## Constraints
+- `1 <= s.length <= 10^5`
+- `s[i]` is either `'A'`, `'C'`, `'G'`, or `'T'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"`
+- **Output:** `["AAAAACCCCC","CCCCCAAAAA"]`
+
+### Example 2
+- **Input:** `s = "AAAAAAAAAAAAA"`
+- **Output:** `["AAAAAAAAAA"]`
 
 ## Key Insight
 Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Repeated DNA Sequences**, we observe the problem requirements and utilize the **Stack & Queue** technique. We iterate through the inputs using **Stack Push / Pop Parsing**, leveraging a **Stack** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Stack Push / Pop Parsing**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Stack**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Repeated DNA Sequences**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"`.
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `["AAAAACCCCC","CCCCCAAAAA"]`.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
 **Stack & Queue**
@@ -50,6 +73,23 @@ Python
 ## Source Code
 - [solution.py](./solution.py)
 
+
+```python
+from typing import List
+
+class Solution:
+    def findRepeatedDnaSequences(self, s: str) -> List[str]:
+        seen = set()
+        repeated = set()
+        for i in range(len(s) - 9):
+            sub = s[i:i + 10]
+            if sub in seen:
+                repeated.add(sub)
+            else:
+                seen.add(sub)
+        return list(repeated)
+```
+
 ## Why This Works
 By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -63,9 +103,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [946. Validate Stack Sequences](../../0501-1000/0983-validate-stack-sequences/)
-- [2318. Number of Distinct Roll Sequences](../../2001-2500/2404-number-of-distinct-roll-sequences/)
-- [2954. Count the Number of Infection Sequences](../../3001-3500/3224-count-the-number-of-infection-sequences/)
+- [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
+- [686. Repeated String Match](../../0501-1000/0686-repeated-string-match/)
+- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-dna-sequences/)

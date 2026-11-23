@@ -16,26 +16,81 @@ Solve LeetCode Recyclable and Low Fat Products using SQL and Database / SQL. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
-## Problem
+## Problem Statement
+Table: `Products`
+
++-------------+---------+
+| Column Name | Type |
++-------------+---------+
+| product_id | int |
+| low_fats | enum |
+| recyclable | enum |
++-------------+---------+
 product_id is the primary key (column with unique values) for this table.
+low_fats is an ENUM (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
+recyclable is an ENUM (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.
+
+Write a solution to find the ids of products that are both low fat and recyclable.
+
+Return the result table in **any order**.
+
+The result format is in the following example.
+
+## Examples
+### Example 1
+- **Input:** `Products table:
++-------------+----------+------------+
+| product_id | low_fats | recyclable |
++-------------+----------+------------+
+| 0 | Y | N |
+| 1 | Y | Y |
+| 2 | N | Y |
+| 3 | Y | Y |
+| 4 | N | N |
++-------------+----------+------------+`
+- **Output:** `+-------------+
+| product_id |
++-------------+
+| 1 |
+| 3 |
++-------------+`
+- **Explanation:** Only products 1 and 3 are both low fat and recyclable.
 
 ## Key Insight
 Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
+We solve **Recyclable and Low Fat Products** by formulating an SQL query that applies relational algebra and SQL aggregation clauses. Rows are filtered using `WHERE` / `HAVING` to satisfy the problem constraints.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Relational Table**).
-2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
-3. Validate boundary conditions and return optimal result.
+1. Filter records according to problem criteria.
+2. Project and return the requested output columns.
 
-## Example
-Consider the standard input for **Recyclable and Low Fat Products**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `Products table:
++-------------+----------+------------+
+| product_id | low_fats | recyclable |
++-------------+----------+------------+
+| 0 | Y | N |
+| 1 | Y | Y |
+| 2 | N | Y |
+| 3 | Y | Y |
+| 4 | N | N |
++-------------+----------+------------+`.
+2. **Processing Steps:** We apply **SQL Query / Relational Join & Window Function** using our **Relational Table**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `+-------------+
+| product_id |
++-------------+
+| 1 |
+| 3 |
++-------------+`.
+4. **Verification:** Only products 1 and 3 are both low fat and recyclable.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Relational Table.
 
 ## Pattern
 **Database / SQL**
@@ -50,6 +105,15 @@ SQL
 
 ## Source Code
 - [solution.sql](./solution.sql)
+
+
+```sql
+SELECT
+    product_id
+FROM Products
+WHERE low_fats = 'Y'
+  AND recyclable = 'Y';
+```
 
 ## Why This Works
 By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

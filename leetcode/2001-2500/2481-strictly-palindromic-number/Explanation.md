@@ -16,26 +16,56 @@ Solve LeetCode Strictly Palindromic Number using Python and Array / General. Thi
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-An integer  n  is  strictly palindromic  if, for  every  base  b  between  2  and  n - 2  ( inclusive ), the string representation of the integer  n  in base  b  is  palindromic .
+## Problem Statement
+An integer `n` is **strictly palindromic** if, for **every** base `b` between `2` and `n - 2` (**inclusive**), the string representation of the integer `n` in base `b` is **palindromic**.
+
+Given an integer `n`, return `true` *if *`n`* is **strictly palindromic** and *`false`* otherwise*.
+
+A string is **palindromic** if it reads the same forward and backward.
+
+## Constraints
+- `4 <= n <= 10^5`
+
+## Examples
+### Example 1
+- **Input:** `n = 9`
+- **Output:** `false`
+- **Explanation:** In base 2: 9 = 1001 (base 2), which is palindromic.
+In base 3: 9 = 100 (base 3), which is not palindromic.
+Therefore, 9 is not strictly palindromic so we return false.
+Note that in bases 4, 5, 6, and 7, n = 9 is also not palindromic.
+
+### Example 2
+- **Input:** `n = 4`
+- **Output:** `false`
+- **Explanation:** We only consider base 2: 4 = 100 (base 2), which is not palindromic.
+Therefore, we return false.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Strictly Palindromic Number**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Strictly Palindromic Number**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `n = 9`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `false`.
+4. **Verification:** In base 2: 9 = 1001 (base 2), which is palindromic.
+In base 3: 9 = 100 (base 3), which is not palindromic.
+Therefore, 9 is not strictly palindromic so we return false.
+Note that in bases 4, 5, 6, and 7, n = 9 is also not palindromic.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +78,13 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def isStrictlyPalindromic(self, n: int) -> bool:
+        return False
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +99,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
-- [647. Palindromic Substrings](../../0501-1000/0647-palindromic-substrings/)
+- [1909. Remove One Element to Make the Array Strictly Increasing](../../2001-2500/2020-remove-one-element-to-make-the-array-strictly-increasing/)
+- [2713. Maximum Strictly Increasing Cells in a Matrix](../../2501-3000/2818-maximum-strictly-increasing-cells-in-a-matrix/)
+- [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](../../3001-3500/3372-longest-strictly-increasing-or-strictly-decreasing-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/strictly-palindromic-number/)

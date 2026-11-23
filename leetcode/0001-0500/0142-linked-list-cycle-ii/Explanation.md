@@ -16,26 +16,56 @@ Solve LeetCode Linked List Cycle II using Python and Fast & Slow Pointers. This 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given the  head  of a linked list, return  the node where the cycle begins. If there is no cycle, return   null .
+## Problem Statement
+Given the `head` of a linked list, return *the node where the cycle begins. If there is no cycle, return *`null`.
+
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the `next` pointer. Internally, `pos` is used to denote the index of the node that tail's `next` pointer is connected to (**0-indexed**). It is `-1` if there is no cycle. **Note that** `pos` **is not passed as a parameter**.
+
+**Do not modify** the linked list.
+
+## Constraints
+- The number of the nodes in the list is in the range `[0, 10^4]`.
+- `-10^5 <= Node.val <= 10^5`
+- `pos` is `-1` or a **valid index** in the linked-list.
+
+## Examples
+### Example 1
+- **Input:** `head = [3,2,0,-4], pos = 1`
+- **Output:** `tail connects to node index 1`
+- **Explanation:** There is a cycle in the linked list, where tail connects to the second node.
+
+### Example 2
+- **Input:** `head = [1,2], pos = 0`
+- **Output:** `tail connects to node index 0`
+- **Explanation:** There is a cycle in the linked list, where tail connects to the first node.
+
+### Example 3
+- **Input:** `head = [1], pos = -1`
+- **Output:** `no cycle`
+- **Explanation:** There is no cycle in the linked list.
 
 ## Key Insight
 Leverage **Fast & Slow Pointers** with **Linked List / Pointer** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Floyd Cycle Detection**. By maintaining state efficiently in a **Linked List / Pointer**, we eliminate redundant operations and process each element in optimal time.
+To solve **Linked List Cycle II**, we observe the problem requirements and utilize the **Fast & Slow Pointers** technique. We iterate through the inputs using **Floyd Cycle Detection**, leveraging a **Linked List / Pointer** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Linked List / Pointer**).
-2. Process elements sequentially using **Floyd Cycle Detection**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Linked List / Pointer**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Linked List Cycle II**. Applying **Floyd Cycle Detection** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [3,2,0,-4], pos = 1`.
+2. **Processing Steps:** We apply **Floyd Cycle Detection** using our **Linked List / Pointer**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `tail connects to node index 1`.
+4. **Verification:** There is a cycle in the linked list, where tail connects to the second node.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Linked List / Pointer.
 
 ## Pattern
 **Fast & Slow Pointers**
@@ -49,6 +79,21 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def detectCycle(self, head):
+        slow = fast = head
+        while fast and fast.next:
+            slow, fast = slow.next, fast.next.next
+            if slow == fast:
+                slow = head
+                while slow != fast:
+                    slow, fast = slow.next, fast.next
+                return slow
+        return None
+```
 
 ## Why This Works
 By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

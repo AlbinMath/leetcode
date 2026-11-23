@@ -16,26 +16,71 @@ Solve LeetCode Check if Word Equals Summation of Two Words using C++ and Array /
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-The  letter value  of a letter is its position in the alphabet  starting from 0  (i.e.  &#39;a&#39; -> 0 ,  &#39;b&#39; -> 1 ,  &#39;c&#39; -> 2 , etc.).
+## Problem Statement
+The **letter value** of a letter is its position in the alphabet **starting from 0** (i.e. `'a' -> 0`, `'b' -> 1`, `'c' -> 2`, etc.).
+
+The **numerical value** of some string of lowercase English letters `s` is the **concatenation** of the **letter values** of each letter in `s`, which is then **converted** into an integer.
+
+For example, if `s = "acb"`, we concatenate each letter's letter value, resulting in `"021"`. After converting it, we get `21`.
+
+You are given three strings `firstWord`, `secondWord`, and `targetWord`, each consisting of lowercase English letters `'a'` through `'j'` **inclusive**.
+
+Return `true` *if the **summation** of the **numerical values** of *`firstWord`* and *`secondWord`* equals the **numerical value** of *`targetWord`*, or *`false`* otherwise.*
+
+## Constraints
+- `1 <= firstWord.length, ``secondWord.length, ``targetWord.length <= 8`
+- `firstWord`, `secondWord`, and `targetWord` consist of lowercase English letters from `'a'` to `'j'` **inclusive**.
+
+## Examples
+### Example 1
+- **Input:** `firstWord = "acb", secondWord = "cba", targetWord = "cdb"`
+- **Output:** `true`
+- **Explanation:** The numerical value of firstWord is "acb" -> "021" -> 21.
+The numerical value of secondWord is "cba" -> "210" -> 210.
+The numerical value of targetWord is "cdb" -> "231" -> 231.
+We return true because 21 + 210 == 231.
+
+### Example 2
+- **Input:** `firstWord = "aaa", secondWord = "a", targetWord = "aab"`
+- **Output:** `false`
+- **Explanation:** The numerical value of firstWord is "aaa" -> "000" -> 0.
+The numerical value of secondWord is "a" -> "0" -> 0.
+The numerical value of targetWord is "aab" -> "001" -> 1.
+We return false because 0 + 0 != 1.
+
+### Example 3
+- **Input:** `firstWord = "aaa", secondWord = "a", targetWord = "aaaa"`
+- **Output:** `true`
+- **Explanation:** The numerical value of firstWord is "aaa" -> "000" -> 0.
+The numerical value of secondWord is "a" -> "0" -> 0.
+The numerical value of targetWord is "aaaa" -> "0000" -> 0.
+We return true because 0 + 0 == 0.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Check if Word Equals Summation of Two Words**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Check if Word Equals Summation of Two Words**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `firstWord = "acb", secondWord = "cba", targetWord = "cdb"`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** The numerical value of firstWord is "acb" -> "021" -> 21.
+The numerical value of secondWord is "cba" -> "210" -> 210.
+The numerical value of targetWord is "cdb" -> "231" -> 231.
+We return true because 21 + 210 == 231.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +93,30 @@ C++
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+
+
+```cpp
+class Solution {
+public:
+    int getValue(string word) {
+        int value = 0;
+
+        for (char c : word) {
+            value = value * 10 + (c - 'a');
+        }
+
+        return value;
+    }
+
+    bool isSumEqual(string firstWord, string secondWord, string targetWord) {
+        int first = getValue(firstWord);
+        int second = getValue(secondWord);
+        int target = getValue(targetWord);
+
+        return first + second == target;
+    }
+};
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

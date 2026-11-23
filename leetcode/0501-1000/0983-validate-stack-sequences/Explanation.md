@@ -16,26 +16,58 @@ Solve LeetCode Validate Stack Sequences using JavaScript and Binary Search. This
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Given two integer arrays  pushed  and  popped  each with distinct values, return  true   if this could have been the result of a sequence of push and pop operations on an initially empty stack, or   false   otherwise.
+## Problem Statement
+Given two integer arrays `pushed` and `popped` each with distinct values, return `true`* if this could have been the result of a sequence of push and pop operations on an initially empty stack, or *`false`* otherwise.*
+
+## Constraints
+- `1 <= pushed.length <= 1000`
+- `0 <= pushed[i] <= 1000`
+- All the elements of `pushed` are **unique**.
+- `popped.length == pushed.length`
+- `popped` is a permutation of `pushed`.
+
+## Examples
+### Example 1
+- **Input:** `pushed = [1,2,3,4,5], popped = [4,5,3,2,1]`
+- **Output:** `true`
+- **Explanation:** We might do the following sequence:
+push(1), push(2), push(3), push(4),
+pop() -> 4,
+push(5),
+pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
+
+### Example 2
+- **Input:** `pushed = [1,2,3,4,5], popped = [4,3,5,1,2]`
+- **Output:** `false`
+- **Explanation:** 1 cannot be popped before 2.
 
 ## Key Insight
 Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
-We iterate through the input using **Stack Push / Pop Parsing**. By maintaining state efficiently in a **Stack**, we eliminate redundant operations and process each element in optimal time.
+To solve **Validate Stack Sequences**, we observe the problem requirements and utilize the **Binary Search** technique. Exploiting monotonic ordering or sorted properties in the input space, we maintain `left` and `right` boundary pointers. In each iteration, we evaluate the midpoint to discard half of the search range, reducing the time complexity to $O(\log n)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Sorted Array**).
-2. Process elements sequentially using **Modified Binary Search**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize boundary pointers `left` and `right`.
+2. Compute `mid = left + (right - left) // 2` to prevent overflow.
+3. Adjust `left` or `right` depending on whether target satisfies the partition condition.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Validate Stack Sequences**. Applying **Modified Binary Search** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `pushed = [1,2,3,4,5], popped = [4,5,3,2,1]`.
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `true`.
+4. **Verification:** We might do the following sequence:
+push(1), push(2), push(3), push(4),
+pop() -> 4,
+push(5),
+pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
 **Binary Search**
@@ -51,6 +83,31 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var validateStackSequences = function(pushed, popped) {
+    const stack = [];
+    let j = 0;
+
+    for (let num of pushed) {
+        // Push element onto stack
+        stack.push(num);
+
+        // Pop while stack top matches popped sequence
+        while (
+            stack.length > 0 &&
+            stack[stack.length - 1] === popped[j]
+        ) {
+            stack.pop();
+            j++;
+        }
+    }
+
+    // All elements must be popped
+    return j === popped.length;
+};
+```
+
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -64,9 +121,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [187. Repeated DNA Sequences](../../0001-0500/0187-repeated-dna-sequences/)
-- [2318. Number of Distinct Roll Sequences](../../2001-2500/2404-number-of-distinct-roll-sequences/)
-- [2954. Count the Number of Infection Sequences](../../3001-3500/3224-count-the-number-of-infection-sequences/)
+- [155. Min Stack](../../0001-0500/0155-min-stack/)
+- [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
+- [895. Maximum Frequency Stack](../../0501-1000/0931-maximum-frequency-stack/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/validate-stack-sequences/)

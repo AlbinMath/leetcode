@@ -16,26 +16,99 @@ Solve LeetCode String to Integer (atoi) using Python and Bit Manipulation. This 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-Implement the  myAtoi(string s)  function, which converts a string to a 32-bit signed integer.
+## Problem Statement
+Implement the `myAtoi(string s)` function, which converts a string to a 32-bit signed integer.
+
+The algorithm for `myAtoi(string s)` is as follows:
+
+**Whitespace**: Ignore any leading whitespace (`" "`). 
+ **Signedness**: Determine the sign by checking if the next character is `'-'` or `'+'`, assuming positivity if neither present. 
+ **Conversion**: Read the integer by skipping leading zeros until a non-digit character is encountered or the end of the string is reached. If no digits were read, then the result is 0. 
+ **Rounding**: If the integer is out of the 32-bit signed integer range `[-2^31, 2^31 - 1]`, then round the integer to remain in the range. Specifically, integers less than `-2^31` should be rounded to `-2^31`, and integers greater than `2^31 - 1` should be rounded to `2^31 - 1`.
+
+Return the integer as the final result.
+
+**Note:**​​​​​​​ You must not use any built-in library function that converts a string to a number (for example, `atoi`, `stoi`, `Integer.parseInt`, `int()`, `parseInt`, `Number()`). Perform the conversion manually.
+
+## Constraints
+- `0 <= s.length <= 200`
+- `s` consists of English letters (lower-case and upper-case), digits (`0 - 9`), `' '`, `'+'`, `'-'`, and `'.'`.
+
+## Examples
+### Example 1
+- **Input:** `s = "42"`
+- **Output:** `42`
+- **Explanation:** The underlined characters are what is read in and the caret is the current reader position.
+Step 1: "42" (no characters read because there is no leading whitespace)
+ ^
+Step 2: "42" (no characters read because there is neither a '-' nor '+')
+ ^
+Step 3: " 42 " ("42" is read in)
+ ^
+
+### Example 2
+- **Input:** `s = " -042"`
+- **Output:** `-42`
+- **Explanation:** Step 1: " -042" (leading whitespace is read and ignored)
+ ^
+Step 2: " - 042" ('-' is read, so the result should be negative)
+ ^
+Step 3: " - 042 " ("042" is read in, leading zeros ignored in the result)
+ ^
+
+### Example 3
+- **Input:** `s = "1337c0d3"`
+- **Output:** `1337`
+- **Explanation:** Step 1: "1337c0d3" (no characters read because there is no leading whitespace)
+ ^
+Step 2: "1337c0d3" (no characters read because there is neither a '-' nor '+')
+ ^
+Step 3: " 1337 c0d3" ("1337" is read in; reading stops because the next character is a non-digit)
+ ^
+
+### Example 4
+- **Input:** `s = "0-1"`
+- **Output:** `0`
+- **Explanation:** Step 1: "0-1" (no characters read because there is no leading whitespace)
+ ^
+Step 2: "0-1" (no characters read because there is neither a '-' nor '+')
+ ^
+Step 3: " 0 -1" ("0" is read in; reading stops because the next character is a non-digit)
+ ^
+
+### Example 5
+- **Input:** `s = "words and 987"`
+- **Output:** `0`
+- **Explanation:** Reading stops at the first non-digit character 'w'.
 
 ## Key Insight
 Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
+To solve **String to Integer (atoi)**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
-3. Validate boundary conditions and return optimal result.
+1. Apply bitwise masks or shift operators.
+2. Accumulate bitwise state to determine final output.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **String to Integer (atoi)**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "42"`.
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `42`.
+4. **Verification:** The underlined characters are what is read in and the caret is the current reader position.
+Step 1: "42" (no characters read because there is no leading whitespace)
+ ^
+Step 2: "42" (no characters read because there is neither a '-' nor '+')
+ ^
+Step 3: " 42 " ("42" is read in)
+ ^
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
 **Bit Manipulation**
@@ -49,6 +122,54 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution(object):
+    def myAtoi(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        i = 0
+        n = len(s)
+
+        # 1. Skip leading spaces
+        while i < n and s[i] == ' ':
+            i += 1
+
+        # 2. Check sign
+        sign = 1
+
+        if i < n and s[i] == '-':
+            sign = -1
+            i += 1
+        elif i < n and s[i] == '+':
+            i += 1
+
+        # 3. Convert digits manually
+        num = 0
+
+        while i < n and '0' <= s[i] <= '9':
+            digit = ord(s[i]) - ord('0')
+            num = num * 10 + digit
+            i += 1
+
+        # 4. Apply sign
+        num = num * sign
+
+        # 5. Clamp to 32-bit signed integer range
+        INT_MIN = -2**31
+        INT_MAX = 2**31 - 1
+
+        if num < INT_MIN:
+            return INT_MIN
+
+        if num > INT_MAX:
+            return INT_MAX
+
+        return num
+```
 
 ## Why This Works
 By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -65,7 +186,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1309. Decrypt String from Alphabet to Integer Mapping](../../1001-1500/1434-decrypt-string-from-alphabet-to-integer-mapping/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/string-to-integer-atoi/)

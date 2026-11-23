@@ -16,26 +16,69 @@ Solve LeetCode Minimum Number of Swaps to Make the String Balanced using Python 
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given a  0-indexed  string  s  of  even  length  n . The string consists of  exactly   n / 2  opening brackets  &#39;[&#39;  and  n / 2  closing brackets  &#39;]&#39; .
+## Problem Statement
+You are given a **0-indexed** string `s` of **even** length `n`. The string consists of **exactly** `n / 2` opening brackets `'['` and `n / 2` closing brackets `']'`.
+
+A string is called **balanced** if and only if:
+
+It is the empty string, or 
+ It can be written as `AB`, where both `A` and `B` are **balanced** strings, or 
+ It can be written as `[C]`, where `C` is a **balanced** string.
+
+You may swap the brackets at **any** two indices **any** number of times.
+
+Return *the **minimum** number of swaps to make *`s` ***balanced***.
+
+## Constraints
+- `n == s.length`
+- `2 <= n <= 10^6`
+- `n` is even.
+- `s[i]` is either `'[' `or `']'`.
+- The number of opening brackets `'['` equals `n / 2`, and the number of closing brackets `']'` equals `n / 2`.
+
+## Examples
+### Example 1
+- **Input:** `s = "][]["`
+- **Output:** `1`
+- **Explanation:** You can make the string balanced by swapping index 0 with index 3.
+The resulting string is "[[]]".
+
+### Example 2
+- **Input:** `s = "]]][[["`
+- **Output:** `2`
+- **Explanation:** You can do the following to make the string balanced:
+- Swap index 0 with index 4. s = "[]][][".
+- Swap index 1 with index 5. s = "[[][]]".
+The resulting string is "[[][]]".
+
+### Example 3
+- **Input:** `s = "[]"`
+- **Output:** `0`
+- **Explanation:** The string is already balanced.
 
 ## Key Insight
 Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
-We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+To solve **Minimum Number of Swaps to Make the String Balanced**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize state variables and the **Array**.
+2. Iterate through elements, applying the transformation or evaluation logic.
+3. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Minimum Number of Swaps to Make the String Balanced**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `s = "][]["`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `1`.
+4. **Verification:** You can make the string balanced by swapping index 0 with index 3.
+The resulting string is "[[]]".
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Array / General**
@@ -48,6 +91,21 @@ Python
 
 ## Source Code
 - [solution.py](./solution.py)
+
+
+```python
+class Solution:
+    def minSwaps(self, s: str) -> int:
+        unmatched_open = 0
+        
+        for c in s:
+            if c == '[':
+                unmatched_open += 1
+            elif unmatched_open > 0:
+                unmatched_open -= 1
+                
+        return (unmatched_open + 1) // 2
+```
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

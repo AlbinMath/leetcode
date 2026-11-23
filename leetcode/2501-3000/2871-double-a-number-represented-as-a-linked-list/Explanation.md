@@ -16,26 +16,50 @@ Solve LeetCode Double a Number Represented as a Linked List using JavaScript and
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
-## Problem
-You are given the  head  of a  non-empty  linked list representing a non-negative integer without leading zeroes.
+## Problem Statement
+You are given the `head` of a **non-empty** linked list representing a non-negative integer without leading zeroes.
+
+Return *the *`head`* of the linked list after **doubling** it*.
+
+## Constraints
+- The number of nodes in the list is in the range `[1, 10^4]`
+- `0 <= Node.val <= 9`
+- The input is generated such that the list represents a number that does not have leading zeros, except the number `0` itself.
+
+## Examples
+### Example 1
+- **Input:** `head = [1,8,9]`
+- **Output:** `[3,7,8]`
+- **Explanation:** The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.
+
+### Example 2
+- **Input:** `head = [9,9,9]`
+- **Output:** `[1,9,9,8]`
+- **Explanation:** The figure above corresponds to the given linked list which represents the number 999. Hence, the returned linked list reprersents the number 999 * 2 = 1998.
 
 ## Key Insight
 Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
-We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
+To solve **Double a Number Represented as a Linked List**, we observe the problem requirements and utilize the **Two Pointers** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
-3. Validate boundary conditions and return optimal result.
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
 
-## Example
-Consider the standard input for **Double a Number Represented as a Linked List**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+## Example Walkthrough
+1. **Input State:** We begin with `head = [1,8,9]`.
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `[3,7,8]`.
+4. **Verification:** The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.
 
-## Complexity
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
 **Two Pointers**
@@ -51,6 +75,50 @@ JavaScript
 ## Source Code
 - [solution.js](./solution.js)
 
+
+```javascript
+var doubleIt = function(head) {
+
+    function reverse(node) {
+        let prev = null;
+        let current = node;
+
+        while (current) {
+            let nextNode = current.next;
+            current.next = prev;
+            prev = current;
+            current = nextNode;
+        }
+
+        return prev;
+    }
+
+    // Reverse the linked list
+    head = reverse(head);
+
+    let current = head;
+    let carry = 0;
+
+    // Double each digit
+    while (current) {
+        let sum = current.val * 2 + carry;
+
+        current.val = sum % 10;
+        carry = Math.floor(sum / 10);
+
+        if (!current.next && carry > 0) {
+            current.next = new ListNode(carry);
+            break; // Important: don't process the new node again
+        }
+
+        current = current.next;
+    }
+
+    // Reverse back
+    return reverse(head);
+};
+```
+
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
@@ -65,8 +133,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1290. Convert Binary Number in a Linked List to Integer](../../1001-1500/1411-convert-binary-number-in-a-linked-list-to-integer/)
-- [92. Reverse Linked List II](../../0001-0500/0092-reverse-linked-list-ii/)
-- [114. Flatten Binary Tree to Linked List](../../0001-0500/0114-flatten-binary-tree-to-linked-list/)
+- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../../0501-1000/0773-logical-or-of-two-binary-grids-represented-as-quad-trees/)
+- [1967. Number of Strings That Appear as Substrings in Word](../../2001-2500/2099-number-of-strings-that-appear-as-substrings-in-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/)
