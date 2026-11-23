@@ -104,8 +104,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [812. Largest Triangle Area](../../0501-1000/0830-largest-triangle-area/)
+- [463. Island Perimeter](../../0001-0500/0463-island-perimeter/)
 - [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
-- [179. Largest Number](../../0001-0500/0179-largest-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-perimeter-triangle/)

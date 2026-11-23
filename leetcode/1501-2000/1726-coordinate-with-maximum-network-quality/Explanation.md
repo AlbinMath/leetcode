@@ -143,8 +143,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2065. Maximum Path Quality of a Graph](../../2001-2500/2189-maximum-path-quality-of-a-graph/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [1211. Queries Quality and Percentage](../../1001-1500/1338-queries-quality-and-percentage/)
+- [743. Network Delay Time](../../0501-1000/0744-network-delay-time/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/coordinate-with-maximum-network-quality/)

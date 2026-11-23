@@ -113,7 +113,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
 - [1658. Minimum Operations to Reduce X to Zero](../../1501-2000/1776-minimum-operations-to-reduce-x-to-zero/)
-- [2749. Minimum Operations to Make the Integer Zero](../../2501-3000/2837-minimum-operations-to-make-the-integer-zero/)
+- [2747. Count Zero Request Servers](../../2501-3000/2833-count-zero-request-servers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-operations-to-obtain-zero/)

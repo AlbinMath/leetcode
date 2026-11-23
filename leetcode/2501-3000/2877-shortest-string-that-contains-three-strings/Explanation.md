@@ -114,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2278-find-three-consecutive-integers-that-sum-to-a-given-number/)
-- [2904. Shortest and Lexicographically Smallest Beautiful String](../../3001-3500/3150-shortest-and-lexicographically-smallest-beautiful-string/)
 - [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1490-generate-a-string-with-characters-that-have-odd-counts/)
+- [1967. Number of Strings That Appear as Substrings in Word](../../2001-2500/2099-number-of-strings-that-appear-as-substrings-in-word/)
+- [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2278-find-three-consecutive-integers-that-sum-to-a-given-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-string-that-contains-three-strings/)

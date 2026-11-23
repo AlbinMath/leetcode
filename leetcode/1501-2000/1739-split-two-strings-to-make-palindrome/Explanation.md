@@ -118,8 +118,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
-- [1177. Can Make Palindrome from Substring](../../1001-1500/1281-can-make-palindrome-from-substring/)
-- [1247. Minimum Swaps to Make Strings Equal](../../1001-1500/1369-minimum-swaps-to-make-strings-equal/)
+- [1221. Split a String in Balanced Strings](../../1001-1500/1341-split-a-string-in-balanced-strings/)
+- [2584. Split the Array to Make Coprime Products](../../2501-3000/2647-split-the-array-to-make-coprime-products/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)

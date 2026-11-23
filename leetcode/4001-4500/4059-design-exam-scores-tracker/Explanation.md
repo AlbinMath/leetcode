@@ -149,9 +149,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [855. Exam Room](../../0501-1000/0885-exam-room/)
-- [1349. Maximum Students Taking Exam](../../1001-1500/1471-maximum-students-taking-exam/)
-- [2024. Maximize the Confusion of an Exam](../../2001-2500/2134-maximize-the-confusion-of-an-exam/)
+- [2102. Sequentially Ordinal Rank Tracker](../../2001-2500/2207-sequentially-ordinal-rank-tracker/)
+- [2671. Frequency Tracker](../../2501-3000/2778-frequency-tracker/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-exam-scores-tracker/)

@@ -200,8 +200,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [212. Word Search II](../../0001-0500/0212-word-search-ii/)
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
+- [35. Search Insert Position](../../0001-0500/0035-search-insert-position/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-search/)

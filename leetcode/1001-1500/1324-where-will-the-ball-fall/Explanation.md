@@ -131,9 +131,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2836. Maximize Value of Function in a Ball Passing Game](../../3001-3500/3032-maximize-value-of-function-in-a-ball-passing-game/)
-- [3178. Find the Child Who Has the Ball After K Seconds](../../3001-3500/3450-find-the-child-who-has-the-ball-after-k-seconds/)
-- [1503. Last Moment Before All Ants Fall Out of a Plank](../../1501-2000/1627-last-moment-before-all-ants-fall-out-of-a-plank/)
+- [1894. Find the Student that Will Replace the Chalk](../../2001-2500/2006-find-the-student-that-will-replace-the-chalk/)
+- [1900. The Earliest and Latest Rounds Where Players Compete](../../2001-2500/2028-the-earliest-and-latest-rounds-where-players-compete/)
+- [1970. Last Day Where You Can Still Cross](../../2001-2500/2101-last-day-where-you-can-still-cross/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/where-will-the-ball-fall/)

@@ -195,9 +195,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1015. Smallest Integer Divisible by K](../../1001-1500/1064-smallest-integer-divisible-by-k/)
-- [1018. Binary Prefix Divisible By 5](../../1001-1500/1071-binary-prefix-divisible-by-5/)
-- [1590. Make Sum Divisible by P](../../1501-2000/1694-make-sum-divisible-by-p/)
+- [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
+- [55. Jump Game](../../0001-0500/0055-jump-game/)
+- [174. Dungeon Game](../../0001-0500/0174-dungeon-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divisible-game/)

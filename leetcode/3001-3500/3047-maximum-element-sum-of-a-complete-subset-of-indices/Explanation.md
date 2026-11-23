@@ -114,9 +114,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
-- [918. Maximum Sum Circular Subarray](../../0501-1000/0954-maximum-sum-circular-subarray/)
+- [1707. Maximum XOR With an Element From Array](../../1501-2000/1826-maximum-xor-with-an-element-from-array/)
+- [1846. Maximum Element After Decreasing and Rearranging](../../1501-2000/1956-maximum-element-after-decreasing-and-rearranging/)
+- [2913. Subarrays Distinct Element Sum of Squares I](../../3001-3500/3163-subarrays-distinct-element-sum-of-squares-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-element-sum-of-a-complete-subset-of-indices/)

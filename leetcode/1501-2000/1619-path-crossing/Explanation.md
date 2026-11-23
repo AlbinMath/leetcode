@@ -113,8 +113,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [335. Self Crossing](../../0001-0500/0335-self-crossing/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
-- [71. Simplify Path](../../0001-0500/0071-simplify-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-crossing/)

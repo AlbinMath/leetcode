@@ -193,7 +193,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [3737. Count Subarrays With Majority Element I](../../4001-4500/4074-count-subarrays-with-majority-element-i/)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](../../3001-3500/3213-count-subarrays-where-max-element-appears-at-least-k-times/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
+- [169. Majority Element](../../0001-0500/0169-majority-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/)

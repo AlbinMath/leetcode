@@ -119,9 +119,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1978. Employees Whose Manager Left the Company](../../2001-2500/2127-employees-whose-manager-left-the-company/)
 - [1103. Distribute Candies to People](../../1001-1500/1195-distribute-candies-to-people/)
 - [1944. Number of Visible People in a Queue](../../1001-1500/1305-number-of-visible-people-in-a-queue/)
-- [2092. Find All People With Secret](../../2001-2500/2213-find-all-people-with-secret/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)

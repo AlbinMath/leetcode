@@ -119,7 +119,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [3483. Unique 3-Digit Even Numbers](../../3501-4000/3799-unique-3-digit-even-numbers/)
 - [902. Numbers At Most N Given Digit Set](../../0501-1000/0938-numbers-at-most-n-given-digit-set/)
-- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
+- [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/finding-3-digit-even-numbers/)

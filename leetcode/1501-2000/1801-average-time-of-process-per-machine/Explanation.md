@@ -173,8 +173,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1701. Average Waiting Time](../../1501-2000/1803-average-waiting-time/)
-- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
-- [122. Best Time to Buy and Sell Stock II](../../0001-0500/0122-best-time-to-buy-and-sell-stock-ii/)
+- [1882. Process Tasks Using Servers](../../2001-2500/2012-process-tasks-using-servers/)
+- [2076. Process Restricted Friend Requests](../../2001-2500/2198-process-restricted-friend-requests/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-time-of-process-per-machine/)

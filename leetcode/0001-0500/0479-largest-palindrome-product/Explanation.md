@@ -101,8 +101,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3260. Find the Largest Palindrome Divisible by K](../../3501-4000/3552-find-the-largest-palindrome-divisible-by-k/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [125. Valid Palindrome](../../0001-0500/0125-valid-palindrome/)
+- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
+- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-palindrome-product/)

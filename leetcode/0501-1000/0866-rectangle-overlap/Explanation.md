@@ -126,9 +126,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [835. Image Overlap](../../0501-1000/0864-image-overlap/)
 - [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
 - [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
+- [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rectangle-overlap/)

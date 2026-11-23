@@ -145,9 +145,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [3532. Path Existence Queries in a Graph I](../../3501-4000/3838-path-existence-queries-in-a-graph-i/)
+- [3534. Path Existence Queries in a Graph II](../../3501-4000/3852-path-existence-queries-in-a-graph-ii/)
 - [62. Unique Paths](../../0001-0500/0062-unique-paths/)
-- [63. Unique Paths II](../../0001-0500/0063-unique-paths-ii/)
-- [257. Binary Tree Paths](../../0001-0500/0257-binary-tree-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)

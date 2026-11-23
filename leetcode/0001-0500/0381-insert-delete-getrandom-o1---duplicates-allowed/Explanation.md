@@ -150,8 +150,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [380. Insert Delete GetRandom O(1)](../../0001-0500/0380-insert-delete-getrandom-o1/)
-- [35. Search Insert Position](../../0001-0500/0035-search-insert-position/)
-- [57. Insert Interval](../../0001-0500/0057-insert-interval/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [80. Remove Duplicates from Sorted Array II](../../0001-0500/0080-remove-duplicates-from-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)

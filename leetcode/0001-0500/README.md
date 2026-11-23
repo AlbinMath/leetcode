@@ -129,7 +129,7 @@ A collection of **392** solved LeetCode problems in the range **0001-0500**.
 | 121 | [Best Time to Buy and Sell Stock](./0121-best-time-to-buy-and-sell-stock/) | Easy | [Math & Logic](../../patterns/math-logic.md) | JavaScript, PHP, Python | [Explanation](./0121-best-time-to-buy-and-sell-stock/Explanation.md) |
 | 122 | [Best Time to Buy and Sell Stock II](./0122-best-time-to-buy-and-sell-stock-ii/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0122-best-time-to-buy-and-sell-stock-ii/Explanation.md) |
 | 123 | [Best Time to Buy and Sell Stock III](./0123-best-time-to-buy-and-sell-stock-iii/) | Hard | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./0123-best-time-to-buy-and-sell-stock-iii/Explanation.md) |
-| 124 | [Binary Tree Maximum Path Sum](./0124-binary-tree-maximum-path-sum/) | Hard | [Tree & Graph](../../patterns/tree-graph.md) | JavaScript | [Explanation](./0124-binary-tree-maximum-path-sum/Explanation.md) |
+| 124 | [Binary Tree Maximum Path Sum](./0124-binary-tree-maximum-path-sum/) | Hard | [Binary Search](../../patterns/binary-search.md) | JavaScript | [Explanation](./0124-binary-tree-maximum-path-sum/Explanation.md) |
 | 125 | [Valid Palindrome](./0125-valid-palindrome/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | PHP | [Explanation](./0125-valid-palindrome/Explanation.md) |
 | 126 | [Word Ladder II](./0126-word-ladder-ii/) | Hard | [Backtracking](../../patterns/backtracking.md) | Python | [Explanation](./0126-word-ladder-ii/Explanation.md) |
 | 127 | [Word Ladder](./0127-word-ladder/) | Hard | [Hash Map](../../patterns/hash-map.md) | JavaScript | [Explanation](./0127-word-ladder/Explanation.md) |

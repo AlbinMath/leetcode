@@ -108,8 +108,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2605. Form Smallest Number From Two Digit Arrays](../../2501-3000/2668-form-smallest-number-from-two-digit-arrays/)
+- [233. Number of Digit One](../../0001-0500/0233-number-of-digit-one/)
 - [1771. Maximize Palindrome Length From Subsequences](../../1501-2000/1897-maximize-palindrome-length-from-subsequences/)
-- [1808. Maximize Number of Nice Divisors](../../1501-2000/1936-maximize-number-of-nice-divisors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)

@@ -139,7 +139,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2352. Equal Row and Column Pairs](../../2001-2500/2428-equal-row-and-column-pairs/)
 - [2482. Difference Between Ones and Zeros in Row and Column](../../2501-3000/2606-difference-between-ones-and-zeros-in-row-and-column/)
-- [1574. Shortest Subarray to be Removed to Make Array Sorted](../../1501-2000/1679-shortest-subarray-to-be-removed-to-make-array-sorted/)
+- [771. Jewels and Stones](../../0501-1000/0782-jewels-and-stones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)

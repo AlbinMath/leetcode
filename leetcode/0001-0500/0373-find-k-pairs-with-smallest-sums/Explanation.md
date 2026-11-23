@@ -181,8 +181,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3821. Find Nth Smallest Integer With K One Bits](../../4001-4500/4189-find-nth-smallest-integer-with-k-one-bits/)
-- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
-- [744. Find Smallest Letter Greater Than Target](../../0501-1000/0745-find-smallest-letter-greater-than-target/)
+- [629. K Inverse Pairs Array](../../0501-1000/0629-k-inverse-pairs-array/)
+- [1679. Max Number of K-Sum Pairs](../../1501-2000/1798-max-number-of-k-sum-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)

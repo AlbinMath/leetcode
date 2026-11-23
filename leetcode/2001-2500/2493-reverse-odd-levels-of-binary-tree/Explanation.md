@@ -122,8 +122,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [637. Average of Levels in Binary Tree](../../0501-1000/0637-average-of-levels-in-binary-tree/)
-- [1609. Even Odd Tree](../../1501-2000/1731-even-odd-tree/)
-- [3750. Minimum Number of Flips to Reverse Binary String](../../4001-4500/4126-minimum-number-of-flips-to-reverse-binary-string/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
+- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)

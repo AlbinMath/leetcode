@@ -260,9 +260,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2073. Time Needed to Buy Tickets](../../2001-2500/2195-time-needed-to-buy-tickets/)
 - [830. Positions of Large Groups](../../0501-1000/0857-positions-of-large-groups/)
 - [839. Similar String Groups](../../0501-1000/0869-similar-string-groups/)
+- [893. Groups of Special-Equivalent Strings](../../0501-1000/0929-groups-of-special-equivalent-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/booking-concert-tickets-in-groups/)

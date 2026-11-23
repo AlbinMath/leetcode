@@ -110,8 +110,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1542. Find Longest Awesome Substring](../../1501-2000/1668-find-longest-awesome-substring/)
+- [1839. Longest Substring Of All Vowels in Order](../../1501-2000/1967-longest-substring-of-all-vowels-in-order/)
 - [2730. Find the Longest Semi-Repetitive Substring](../../2501-3000/2786-find-the-longest-semi-repetitive-substring/)
-- [2981. Find Longest Special Substring That Occurs Thrice I](../../3001-3500/3267-find-longest-special-substring-that-occurs-thrice-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)

@@ -111,9 +111,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [3715. Sum of Perfect Square Ancestors](../../3501-4000/3957-sum-of-perfect-square-ancestors/)
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-perfect-square/)

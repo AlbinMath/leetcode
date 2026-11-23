@@ -112,8 +112,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1092-maximum-difference-between-node-and-ancestor/)
-- [1464. Maximum Product of Two Elements in an Array](../../1501-2000/1574-maximum-product-of-two-elements-in-an-array/)
-- [1960. Maximum Product of the Length of Two Palindromic Substrings](../../1001-1500/1336-maximum-product-of-the-length-of-two-palindromic-substrings/)
+- [3445. Maximum Difference Between Even and Odd Frequency II](../../3501-4000/3761-maximum-difference-between-even-and-odd-frequency-ii/)
+- [3880. Minimum Absolute Difference Between Two Values](../../4001-4500/4255-minimum-absolute-difference-between-two-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)

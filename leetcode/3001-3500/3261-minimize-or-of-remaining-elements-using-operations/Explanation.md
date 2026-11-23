@@ -130,8 +130,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3012. Minimize Length of Array Using Operations](../../3001-3500/3244-minimize-length-of-array-using-operations/)
-- [1722. Minimize Hamming Distance After Swap Operations](../../1501-2000/1840-minimize-hamming-distance-after-swap-operations/)
 - [1887. Reduction Operations to Make the Array Elements Equal](../../2001-2500/2016-reduction-operations-to-make-the-array-elements-equal/)
+- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/)

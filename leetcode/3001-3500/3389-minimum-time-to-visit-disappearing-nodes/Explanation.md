@@ -179,7 +179,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2577. Minimum Time to Visit a Cell In a Grid](../../2501-3000/2711-minimum-time-to-visit-a-cell-in-a-grid/)
 - [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1395-minimum-time-visiting-all-points/)
+- [783. Minimum Distance Between BST Nodes](../../0501-1000/0799-minimum-distance-between-bst-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/)

@@ -170,9 +170,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2312. Selling Pieces of Wood](../../1001-1500/1376-selling-pieces-of-wood/)
 - [1164. Product Price at a Given Date](../../1001-1500/1278-product-price-at-a-given-date/)
 - [2034. Stock Price Fluctuation ](../../2001-2500/2161-stock-price-fluctuation-/)
+- [2146. K Highest Ranked Items Within a Price Range](../../2001-2500/2250-k-highest-ranked-items-within-a-price-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-selling-price/)

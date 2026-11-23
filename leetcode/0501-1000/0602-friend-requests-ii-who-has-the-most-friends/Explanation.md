@@ -142,7 +142,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1710-find-servers-that-handled-most-number-of-requests/)
 - [2076. Process Restricted Friend Requests](../../2001-2500/2198-process-restricted-friend-requests/)
-- [3178. Find the Child Who Has the Ball After K Seconds](../../3001-3500/3450-find-the-child-who-has-the-ball-after-k-seconds/)
+- [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1910-check-if-binary-string-has-at-most-one-segment-of-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)

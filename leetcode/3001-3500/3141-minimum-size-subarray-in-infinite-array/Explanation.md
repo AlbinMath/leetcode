@@ -128,8 +128,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
+- [961. N-Repeated Element in Size 2N Array](../../1001-1500/1001-n-repeated-element-in-size-2n-array/)
+- [3428. Maximum and Minimum Sums of at Most Size K Subsequences](../../3501-4000/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/)

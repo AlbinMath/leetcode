@@ -159,9 +159,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 - [65. Valid Number](../../0001-0500/0065-valid-number/)
 - [611. Valid Triangle Number](../../0501-1000/0611-valid-triangle-number/)
-- [1178. Number of Valid Words for Each Puzzle](../../1001-1500/1282-number-of-valid-words-for-each-puzzle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard/)

@@ -132,8 +132,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3703. Remove K-Balanced Substrings](../../4001-4500/4019-remove-k-balanced-substrings/)
-- [952. Largest Component Size by Common Factor](../../0501-1000/0989-largest-component-size-by-common-factor/)
-- [1492. The kth Factor of n](../../1501-2000/1585-the-kth-factor-of-n/)
+- [110. Balanced Binary Tree](../../0001-0500/0110-balanced-binary-tree/)
+- [1221. Split a String in Balanced Strings](../../1001-1500/1341-split-a-string-in-balanced-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/balanced-k-factor-decomposition/)

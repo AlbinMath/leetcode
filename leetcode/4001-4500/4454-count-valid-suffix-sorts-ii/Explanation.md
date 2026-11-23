@@ -168,9 +168,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1461-count-all-valid-pickup-and-delivery-options/)
-- [2867. Count Valid Paths in a Tree](../../3001-3500/3112-count-valid-paths-in-a-tree/)
 - [3042. Count Prefix and Suffix Pairs I](../../3001-3500/3309-count-prefix-and-suffix-pairs-i/)
+- [3045. Count Prefix and Suffix Pairs II](../../3001-3500/3305-count-prefix-and-suffix-pairs-ii/)
+- [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1461-count-all-valid-pickup-and-delivery-options/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-valid-suffix-sorts-ii/)

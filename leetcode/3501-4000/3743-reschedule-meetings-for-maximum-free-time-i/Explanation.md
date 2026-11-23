@@ -124,7 +124,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3440. Reschedule Meetings for Maximum Free Time II](../../3501-4000/3741-reschedule-meetings-for-maximum-free-time-ii/)
 - [4009. Minimum Possible Maximum Waiting Time](../../4001-4500/4244-minimum-possible-maximum-waiting-time/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [2572. Count the Number of Square-Free Subsets](../../2501-3000/2709-count-the-number-of-square-free-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/)

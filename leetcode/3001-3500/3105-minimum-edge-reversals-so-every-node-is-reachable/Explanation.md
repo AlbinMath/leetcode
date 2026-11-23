@@ -165,7 +165,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3650. Minimum Cost Path with Edge Reversals](../../3501-4000/3887-minimum-cost-path-with-edge-reversals/)
 - [671. Second Minimum Node In a Binary Tree](../../0501-1000/0671-second-minimum-node-in-a-binary-tree/)
-- [2374. Node With Highest Edge Score](../../2001-2500/2455-node-with-highest-edge-score/)
+- [2846. Minimum Edge Weight Equilibrium Queries in a Tree](../../3001-3500/3079-minimum-edge-weight-equilibrium-queries-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable/)

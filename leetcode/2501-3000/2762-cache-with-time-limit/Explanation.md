@@ -191,8 +191,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2637. Promise Time Limit](../../2501-3000/2749-promise-time-limit/)
-- [146. LRU Cache](../../0001-0500/0146-lru-cache/)
-- [460. LFU Cache](../../0001-0500/0460-lfu-cache/)
+- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
+- [122. Best Time to Buy and Sell Stock II](../../0001-0500/0122-best-time-to-buy-and-sell-stock-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cache-with-time-limit/)

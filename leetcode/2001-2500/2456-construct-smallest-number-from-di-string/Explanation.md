@@ -115,8 +115,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
-- [988. Smallest String Starting From Leaf](../../1001-1500/1030-smallest-string-starting-from-leaf/)
 - [2605. Form Smallest Number From Two Digit Arrays](../../2501-3000/2668-form-smallest-number-from-two-digit-arrays/)
+- [988. Smallest String Starting From Leaf](../../1001-1500/1030-smallest-string-starting-from-leaf/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-smallest-number-from-di-string/)

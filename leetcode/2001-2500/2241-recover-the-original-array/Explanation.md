@@ -147,8 +147,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2433. Find The Original Array of Prefix Xor](../../2501-3000/2519-find-the-original-array-of-prefix-xor/)
-- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
-- [1028. Recover a Tree From Preorder Traversal](../../1001-1500/1093-recover-a-tree-from-preorder-traversal/)
+- [423. Reconstruct Original Digits from English](../../0001-0500/0423-reconstruct-original-digits-from-english/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/recover-the-original-array/)

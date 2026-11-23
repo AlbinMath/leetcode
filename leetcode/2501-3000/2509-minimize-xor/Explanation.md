@@ -122,8 +122,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3599. Partition Array to Minimize XOR](../../3501-4000/3913-partition-array-to-minimize-xor/)
-- [924. Minimize Malware Spread](../../0501-1000/0960-minimize-malware-spread/)
-- [928. Minimize Malware Spread II](../../0501-1000/0964-minimize-malware-spread-ii/)
+- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [810. Chalkboard XOR Game](../../0501-1000/0828-chalkboard-xor-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-xor/)

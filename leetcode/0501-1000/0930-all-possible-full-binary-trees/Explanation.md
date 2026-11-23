@@ -136,8 +136,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1305. All Elements in Two Binary Search Trees](../../1001-1500/1427-all-elements-in-two-binary-search-trees/)
-- [863. All Nodes Distance K in Binary Tree](../../0501-1000/0893-all-nodes-distance-k-in-binary-tree/)
-- [1461. Check If a String Contains All Binary Codes of Size K](../../1501-2000/1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
+- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
+- [96. Unique Binary Search Trees](../../0001-0500/0096-unique-binary-search-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/all-possible-full-binary-trees/)

@@ -110,9 +110,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1016. Binary String With Substrings Representing 1 To N](../../1001-1500/1065-binary-string-with-substrings-representing-1-to-n/)
 - [1448. Count Good Nodes in Binary Tree](../../1501-2000/1544-count-good-nodes-in-binary-tree/)
-- [1638. Count Substrings That Differ by One Character](../../1501-2000/1743-count-substrings-that-differ-by-one-character/)
+- [3677. Count Binary Palindromic Numbers](../../4001-4500/4023-count-binary-palindromic-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-binary-substrings/)

@@ -27,7 +27,7 @@ A collection of LeetCode **Hard** difficulty problems solved with step-by-step e
 | 87 | [Scramble String](../leetcode/0001-0500/0087-scramble-string/) | Hash Map | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0087-scramble-string/Explanation.md) |
 | 115 | [Distinct Subsequences](../leetcode/0001-0500/0115-distinct-subsequences/) | Dynamic Programming | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0115-distinct-subsequences/Explanation.md) |
 | 123 | [Best Time to Buy and Sell Stock III](../leetcode/0001-0500/0123-best-time-to-buy-and-sell-stock-iii/) | Math & Logic | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0123-best-time-to-buy-and-sell-stock-iii/Explanation.md) |
-| 124 | [Binary Tree Maximum Path Sum](../leetcode/0001-0500/0124-binary-tree-maximum-path-sum/) | Tree & Graph | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0124-binary-tree-maximum-path-sum/Explanation.md) |
+| 124 | [Binary Tree Maximum Path Sum](../leetcode/0001-0500/0124-binary-tree-maximum-path-sum/) | Binary Search | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0124-binary-tree-maximum-path-sum/Explanation.md) |
 | 126 | [Word Ladder II](../leetcode/0001-0500/0126-word-ladder-ii/) | Backtracking | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0126-word-ladder-ii/Explanation.md) |
 | 127 | [Word Ladder](../leetcode/0001-0500/0127-word-ladder/) | Hash Map | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0127-word-ladder/Explanation.md) |
 | 132 | [Palindrome Partitioning II](../leetcode/0001-0500/0132-palindrome-partitioning-ii/) | Two Pointers | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0132-palindrome-partitioning-ii/Explanation.md) |

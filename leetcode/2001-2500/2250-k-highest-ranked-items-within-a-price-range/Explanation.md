@@ -180,9 +180,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
-- [3855. Sum of K-Digit Numbers in a Range](../../4001-4500/4239-sum-of-k-digit-numbers-in-a-range/)
+- [1984. Minimum Difference Between Highest and Lowest of K Scores](../../2001-2500/2112-minimum-difference-between-highest-and-lowest-of-k-scores/)
 - [787. Cheapest Flights Within K Stops](../../0501-1000/0803-cheapest-flights-within-k-stops/)
+- [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../../3501-4000/3717-minimum-operations-to-make-elements-within-k-subarrays-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)

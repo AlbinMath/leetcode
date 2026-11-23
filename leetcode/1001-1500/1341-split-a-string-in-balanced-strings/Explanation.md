@@ -115,8 +115,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1234. Replace the Substring for Balanced String](../../1001-1500/1351-replace-the-substring-for-balanced-string/)
-- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
-- [1525. Number of Good Ways to Split a String](../../1501-2000/1632-number-of-good-ways-to-split-a-string/)
+- [1653. Minimum Deletions to Make String Balanced](../../1501-2000/1756-minimum-deletions-to-make-string-balanced/)
+- [1963. Minimum Number of Swaps to Make the String Balanced](../../2001-2500/2095-minimum-number-of-swaps-to-make-the-string-balanced/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-a-string-in-balanced-strings/)

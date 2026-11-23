@@ -107,7 +107,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1710-find-servers-that-handled-most-number-of-requests/)
 - [2099. Find Subsequence of Length K With the Largest Sum](../../2001-2500/2204-find-subsequence-of-length-k-with-the-largest-sum/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-most-competitive-subsequence/)

@@ -152,9 +152,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
-- [744. Find Smallest Letter Greater Than Target](../../0501-1000/0745-find-smallest-letter-greater-than-target/)
-- [784. Letter Case Permutation](../../0501-1000/0800-letter-case-permutation/)
+- [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
+- [55. Jump Game](../../0001-0500/0055-jump-game/)
+- [174. Dungeon Game](../../0001-0500/0174-dungeon-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-letter-card-game/)

@@ -114,9 +114,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3300. Minimum Element After Replacement With Digit Sum](../../3501-4000/3606-minimum-element-after-replacement-with-digit-sum/)
 - [783. Minimum Distance Between BST Nodes](../../0501-1000/0799-minimum-distance-between-bst-nodes/)
 - [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1443-minimum-distance-to-type-a-word-using-two-fingers/)
+- [1210. Minimum Moves to Reach Target with Rotations](../../1001-1500/1322-minimum-moves-to-reach-target-with-rotations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-distance-to-the-target-element/)

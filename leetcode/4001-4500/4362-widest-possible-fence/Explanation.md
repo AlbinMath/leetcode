@@ -135,9 +135,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [587. Erect the Fence](../../0501-1000/0587-erect-the-fence/)
-- [1637. Widest Vertical Area Between Two Points Containing No Points](../../1501-2000/1742-widest-vertical-area-between-two-points-containing-no-points/)
 - [886. Possible Bipartition](../../0501-1000/0922-possible-bipartition/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0930-all-possible-full-binary-trees/)
+- [1162. As Far from Land as Possible](../../1001-1500/1117-as-far-from-land-as-possible/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/widest-possible-fence/)

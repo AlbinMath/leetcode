@@ -149,9 +149,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
+- [1311. Get Watched Videos by Your Friends](../../1001-1500/1436-get-watched-videos-by-your-friends/)
 - [38. Count and Say](../../0001-0500/0038-count-and-say/)
-- [204. Count Primes](../../0001-0500/0204-count-primes/)
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-unhappy-friends/)

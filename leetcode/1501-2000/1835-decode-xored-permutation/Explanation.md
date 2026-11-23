@@ -110,8 +110,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1720. Decode XORed Array](../../1501-2000/1839-decode-xored-array/)
-- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
-- [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
+- [91. Decode Ways](../../0001-0500/0091-decode-ways/)
+- [394. Decode String](../../0001-0500/0394-decode-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decode-xored-permutation/)

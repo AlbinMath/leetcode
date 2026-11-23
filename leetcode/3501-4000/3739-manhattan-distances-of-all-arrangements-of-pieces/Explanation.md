@@ -175,8 +175,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3102. Minimize Manhattan Distances](../../3001-3500/3344-minimize-manhattan-distances/)
-- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
-- [432. All O`one Data Structure](../../0001-0500/0432-all-oone-data-structure/)
+- [1175. Prime Arrangements](../../1001-1500/1279-prime-arrangements/)
+- [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/manhattan-distances-of-all-arrangements-of-pieces/)

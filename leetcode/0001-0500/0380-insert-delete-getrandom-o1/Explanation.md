@@ -190,8 +190,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [381. Insert Delete GetRandom O(1) - Duplicates allowed](../../0001-0500/0381-insert-delete-getrandom-o1---duplicates-allowed/)
-- [196. Delete Duplicate Emails](../../0001-0500/0196-delete-duplicate-emails/)
-- [237. Delete Node in a Linked List](../../0001-0500/0237-delete-node-in-a-linked-list/)
+- [35. Search Insert Position](../../0001-0500/0035-search-insert-position/)
+- [57. Insert Interval](../../0001-0500/0057-insert-interval/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1/)

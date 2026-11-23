@@ -154,8 +154,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3830. Longest Alternating Subarray After Removing At Most One Element](../../4001-4500/4198-longest-alternating-subarray-after-removing-at-most-one-element/)
-- [3480. Maximize Subarrays After Removing One Conflicting Pair](../../3501-4000/3789-maximize-subarrays-after-removing-one-conflicting-pair/)
 - [1493. Longest Subarray of 1's After Deleting One Element](../../1501-2000/1586-longest-subarray-of-1s-after-deleting-one-element/)
+- [3480. Maximize Subarrays After Removing One Conflicting Pair](../../3501-4000/3789-maximize-subarrays-after-removing-one-conflicting-pair/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)

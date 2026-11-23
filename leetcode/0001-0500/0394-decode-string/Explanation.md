@@ -150,8 +150,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [91. Decode Ways](../../0001-0500/0091-decode-ways/)
+- [535. Encode and Decode TinyURL](../../0501-1000/0535-encode-and-decode-tinyurl/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decode-string/)

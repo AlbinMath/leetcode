@@ -118,7 +118,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1913. Maximum Product Difference Between Two Pairs](../../2001-2500/2042-maximum-product-difference-between-two-pairs/)
 - [3445. Maximum Difference Between Even and Odd Frequency II](../../3501-4000/3761-maximum-difference-between-even-and-odd-frequency-ii/)
-- [1938. Maximum Genetic Difference Query](../../2001-2500/2068-maximum-genetic-difference-query/)
+- [1483. Kth Ancestor of a Tree Node](../../1001-1500/1296-kth-ancestor-of-a-tree-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)

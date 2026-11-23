@@ -153,9 +153,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1267. Count Servers that Communicate](../../1001-1500/1396-count-servers-that-communicate/)
-- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1710-find-servers-that-handled-most-number-of-requests/)
-- [2747. Count Zero Request Servers](../../2501-3000/2833-count-zero-request-servers/)
+- [1661. Average Time of Process per Machine](../../1501-2000/1801-average-time-of-process-per-machine/)
+- [2076. Process Restricted Friend Requests](../../2001-2500/2198-process-restricted-friend-requests/)
+- [3612. Process String with Special Operations I](../../3501-4000/3931-process-string-with-special-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-tasks-using-servers/)

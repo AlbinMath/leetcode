@@ -164,9 +164,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3674. Minimum Operations to Equalize Array](../../3501-4000/3998-minimum-operations-to-equalize-array/)
 - [3010. Divide an Array Into Subarrays With Minimum Cost I](../../3001-3500/3263-divide-an-array-into-subarrays-with-minimum-cost-i/)
 - [3013. Divide an Array Into Subarrays With Minimum Cost II](../../3001-3500/3260-divide-an-array-into-subarrays-with-minimum-cost-ii/)
+- [3149. Find the Minimum Cost Array Permutation](../../3001-3500/3431-find-the-minimum-cost-array-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-equalize-array/)

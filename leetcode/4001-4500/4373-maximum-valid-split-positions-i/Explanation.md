@@ -258,8 +258,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [4037. Maximum Valid Split Positions II](../../4001-4500/4388-maximum-valid-split-positions-ii/)
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 - [2178. Maximum Split of Positive Even Integers](../../2001-2500/2279-maximum-split-of-positive-even-integers/)
+- [2871. Split Array Into Maximum Number of Subarrays](../../3001-3500/3080-split-array-into-maximum-number-of-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-valid-split-positions-i/)

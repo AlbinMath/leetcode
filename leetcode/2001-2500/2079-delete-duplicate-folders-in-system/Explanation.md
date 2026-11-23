@@ -178,9 +178,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
 - [196. Delete Duplicate Emails](../../0001-0500/0196-delete-duplicate-emails/)
-- [1268. Search Suggestions System](../../1001-1500/1397-search-suggestions-system/)
+- [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
+- [1233. Remove Sub-Folders from the Filesystem](../../1001-1500/1350-remove-sub-folders-from-the-filesystem/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-duplicate-folders-in-system/)

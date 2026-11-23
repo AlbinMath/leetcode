@@ -155,9 +155,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [645. Set Mismatch](../../0501-1000/0645-set-mismatch/)
-- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
-- [902. Numbers At Most N Given Digit Set](../../0501-1000/0938-numbers-at-most-n-given-digit-set/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
+- [74. Search a 2D Matrix](../../0001-0500/0074-search-a-2d-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/set-matrix-zeroes/)

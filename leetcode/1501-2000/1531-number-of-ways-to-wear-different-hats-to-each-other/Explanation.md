@@ -117,8 +117,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [241. Different Ways to Add Parentheses](../../0001-0500/0241-different-ways-to-add-parentheses/)
-- [1805. Number of Different Integers in a String](../../1501-2000/1933-number-of-different-integers-in-a-string/)
-- [1819. Number of Different Subsequences GCDs](../../1501-2000/1947-number-of-different-subsequences-gcds/)
+- [1444. Number of Ways of Cutting a Pizza](../../1501-2000/1555-number-of-ways-of-cutting-a-pizza/)
+- [1525. Number of Good Ways to Split a String](../../1501-2000/1632-number-of-good-ways-to-split-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)

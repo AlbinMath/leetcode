@@ -141,7 +141,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1147-flip-columns-for-maximum-number-of-equal-rows/)
 - [2271. Maximum White Tiles Covered by a Carpet](../../2001-2500/2359-maximum-white-tiles-covered-by-a-carpet/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [944. Delete Columns to Make Sorted](../../0501-1000/0981-delete-columns-to-make-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-rows-covered-by-columns/)

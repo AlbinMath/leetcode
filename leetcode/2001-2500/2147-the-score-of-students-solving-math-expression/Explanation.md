@@ -174,9 +174,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
-- [282. Expression Add Operators](../../0001-0500/0282-expression-add-operators/)
-- [736. Parse Lisp Expression](../../0501-1000/0736-parse-lisp-expression/)
+- [856. Score of Parentheses](../../0501-1000/0886-score-of-parentheses/)
+- [861. Score After Flipping Matrix](../../0501-1000/0891-score-after-flipping-matrix/)
+- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-score-of-students-solving-math-expression/)

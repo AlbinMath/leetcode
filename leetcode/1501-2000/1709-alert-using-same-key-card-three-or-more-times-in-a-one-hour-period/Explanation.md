@@ -120,8 +120,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1050. Actors and Directors Who Cooperated At Least Three Times](../../1001-1500/1136-actors-and-directors-who-cooperated-at-least-three-times/)
-- [1737. Change Minimum Characters to Satisfy One of Three Conditions](../../1501-2000/1859-change-minimum-characters-to-satisfy-one-of-three-conditions/)
 - [1566. Detect Pattern of Length M Repeated K or More Times](../../1501-2000/1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
+- [1737. Change Minimum Characters to Satisfy One of Three Conditions](../../1501-2000/1859-change-minimum-characters-to-satisfy-one-of-three-conditions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)

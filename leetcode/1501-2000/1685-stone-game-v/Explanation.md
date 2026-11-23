@@ -157,9 +157,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1340. Jump Game V](../../1001-1500/1466-jump-game-v/)
 - [877. Stone Game](../../0501-1000/0909-stone-game/)
 - [1140. Stone Game II](../../1001-1500/1240-stone-game-ii/)
+- [1406. Stone Game III](../../1501-2000/1522-stone-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stone-game-v/)

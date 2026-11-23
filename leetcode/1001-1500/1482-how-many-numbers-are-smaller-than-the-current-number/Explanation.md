@@ -128,9 +128,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
-- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
-- [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](../../1501-2000/1807-partitioning-into-minimum-number-of-deci-binary-numbers/)
+- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+- [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](../../3001-3500/3240-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
+- [3352. Count K-Reducible Numbers Less Than N](../../3501-4000/3631-count-k-reducible-numbers-less-than-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)

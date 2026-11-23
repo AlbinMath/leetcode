@@ -124,7 +124,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3072. Distribute Elements Into Two Arrays II](../../3001-3500/3350-distribute-elements-into-two-arrays-ii/)
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2162-partition-array-into-two-arrays-to-minimize-sum-difference/)
-- [3566. Partition Array into Two Equal Product Subsets](../../3501-4000/3843-partition-array-into-two-equal-product-subsets/)
+- [1305. All Elements in Two Binary Search Trees](../../1001-1500/1427-all-elements-in-two-binary-search-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)

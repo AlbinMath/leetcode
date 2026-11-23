@@ -130,9 +130,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1624. Largest Substring Between Two Equal Characters](../../1501-2000/1746-largest-substring-between-two-equal-characters/)
-- [3047. Find the Largest Area of Square Inside Two Rectangles](../../3001-3500/3325-find-the-largest-area-of-square-inside-two-rectangles/)
 - [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
+- [617. Merge Two Binary Trees](../../0501-1000/0617-merge-two-binary-trees/)
+- [1768. Merge Strings Alternately](../../1501-2000/1894-merge-strings-alternately/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-merge-of-two-strings/)

@@ -121,9 +121,9 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [524. Longest Word in Dictionary through Deleting](../../0501-1000/0524-longest-word-in-dictionary-through-deleting/)
-- [720. Longest Word in Dictionary](../../0501-1000/0720-longest-word-in-dictionary/)
-- [953. Verifying an Alien Dictionary](../../0501-1000/0990-verifying-an-alien-dictionary/)
+- [208. Implement Trie (Prefix Tree)](../../0001-0500/0208-implement-trie-prefix-tree/)
+- [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
+- [232. Implement Queue using Stacks](../../0001-0500/0232-implement-queue-using-stacks/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-magic-dictionary/)

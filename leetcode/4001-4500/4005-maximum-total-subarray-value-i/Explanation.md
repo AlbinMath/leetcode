@@ -134,8 +134,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3691. Maximum Total Subarray Value II](../../4001-4500/4007-maximum-total-subarray-value-ii/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
+- [1695. Maximum Erasure Value](../../1501-2000/1813-maximum-erasure-value/)
+- [1881. Maximum Value after Insertion](../../2001-2500/2011-maximum-value-after-insertion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-subarray-value-i/)

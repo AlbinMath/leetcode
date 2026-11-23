@@ -111,8 +111,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [878. Nth Magical Number](../../0501-1000/0910-nth-magical-number/)
+- [3539. Find Sum of Array Product of Magical Sequences](../../3501-4000/3851-find-sum-of-array-product-of-magical-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/magical-string/)

@@ -114,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1754. Largest Merge Of Two Strings](../../1501-2000/1880-largest-merge-of-two-strings/)
-- [1946. Largest Number After Mutating Substring](../../2001-2500/2077-largest-number-after-mutating-substring/)
-- [2272. Substring With Largest Variance](../../2001-2500/2360-substring-with-largest-variance/)
+- [1360. Number of Days Between Two Dates](../../1001-1500/1274-number-of-days-between-two-dates/)
+- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1486-find-the-distance-value-between-two-arrays/)
+- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1501-2000/1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)

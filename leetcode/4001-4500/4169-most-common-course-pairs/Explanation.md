@@ -139,8 +139,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [819. Most Common Word](../../0501-1000/0837-most-common-word/)
-- [207. Course Schedule](../../0001-0500/0207-course-schedule/)
-- [210. Course Schedule II](../../0001-0500/0210-course-schedule-ii/)
+- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
+- [235. Lowest Common Ancestor of a Binary Search Tree](../../0001-0500/0235-lowest-common-ancestor-of-a-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-course-pairs/)

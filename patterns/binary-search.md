@@ -150,6 +150,7 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 4 | [Median of Two Sorted Arrays](../leetcode/0001-0500/0004-median-of-two-sorted-arrays/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0004-median-of-two-sorted-arrays/Explanation.md) |
+| 124 | [Binary Tree Maximum Path Sum](../leetcode/0001-0500/0124-binary-tree-maximum-path-sum/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0124-binary-tree-maximum-path-sum/Explanation.md) |
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/Explanation.md) |
 | 212 | [Word Search II](../leetcode/0001-0500/0212-word-search-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0212-word-search-ii/Explanation.md) |
 | 297 | [Serialize and Deserialize Binary Tree](../leetcode/0001-0500/0297-serialize-and-deserialize-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0297-serialize-and-deserialize-binary-tree/Explanation.md) |

@@ -128,7 +128,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2301-count-array-pairs-divisible-by-k/)
 - [1905. Count Sub Islands](../../2001-2500/2035-count-sub-islands/)
-- [2462. Total Cost to Hire K Workers](../../2501-3000/2553-total-cost-to-hire-k-workers/)
+- [3179. Find the N-th Value After K Seconds](../../3001-3500/3422-find-the-n-th-value-after-k-seconds/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/)

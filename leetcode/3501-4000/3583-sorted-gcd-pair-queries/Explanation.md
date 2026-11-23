@@ -202,8 +202,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [4010. Maximize Pair Strength Using GCD](../../4001-4500/4371-maximize-pair-strength-using-gcd/)
-- [1190. Reverse Substrings Between Each Pair of Parentheses](../../1001-1500/1298-reverse-substrings-between-each-pair-of-parentheses/)
-- [2932. Maximum Strong Pair XOR I](../../3001-3500/3193-maximum-strong-pair-xor-i/)
+- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
+- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sorted-gcd-pair-queries/)

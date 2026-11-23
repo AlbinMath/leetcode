@@ -117,9 +117,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [908. Smallest Range I](../../0501-1000/0944-smallest-range-i/)
-- [2146. K Highest Ranked Items Within a Price Range](../../2001-2500/2250-k-highest-ranked-items-within-a-price-range/)
-- [3855. Sum of K-Digit Numbers in a Range](../../4001-4500/4239-sum-of-k-digit-numbers-in-a-range/)
+- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
+- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
+- [2261. K Divisible Elements Subarrays](../../2001-2500/2339-k-divisible-elements-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)

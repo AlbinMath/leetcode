@@ -128,8 +128,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
-- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
+- [2259. Remove Digit From Number to Maximize Result](../../2001-2500/2337-remove-digit-from-number-to-maximize-result/)
+- [2109. Adding Spaces to a String](../../2001-2500/2232-adding-spaces-to-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)

@@ -129,9 +129,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1991. Find the Middle Index in Array](../../2001-2500/2102-find-the-middle-index-in-array/)
 - [845. Longest Mountain in Array](../../0501-1000/0875-longest-mountain-in-array/)
 - [941. Valid Mountain Array](../../0501-1000/0978-valid-mountain-array/)
+- [1095. Find in Mountain Array](../../1001-1500/1185-find-in-mountain-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/peak-index-in-a-mountain-array/)

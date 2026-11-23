@@ -139,7 +139,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1423. Maximum Points You Can Obtain from Cards](../../1501-2000/1538-maximum-points-you-can-obtain-from-cards/)
 - [1610. Maximum Number of Visible Points](../../1501-2000/1733-maximum-number-of-visible-points/)
-- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [1828. Queries on Number of Points Inside a Circle](../../1501-2000/1939-queries-on-number-of-points-inside-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/)

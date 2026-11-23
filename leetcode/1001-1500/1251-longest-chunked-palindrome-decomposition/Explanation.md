@@ -120,7 +120,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [409. Longest Palindrome](../../0001-0500/0409-longest-palindrome/)
 - [3503. Longest Palindrome After Substring Concatenation I](../../3501-4000/3793-longest-palindrome-after-substring-concatenation-i/)
-- [3669. Balanced K-Factor Decomposition](../../3501-4000/3947-balanced-k-factor-decomposition/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/)

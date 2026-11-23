@@ -148,9 +148,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
-- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
-- [3243. Shortest Distance After Road Addition Queries I](../../3501-4000/3517-shortest-distance-after-road-addition-queries-i/)
+- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
+- [1799. Maximize Score After N Operations](../../1501-2000/1906-maximize-score-after-n-operations/)
+- [2011. Final Value of Variable After Performing Operations](../../2001-2500/2137-final-value-of-variable-after-performing-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)

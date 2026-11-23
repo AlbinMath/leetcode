@@ -170,9 +170,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [1865. Finding Pairs With a Certain Sum](../../1501-2000/1995-finding-pairs-with-a-certain-sum/)
-- [2094. Finding 3-Digit Even Numbers](../../2001-2500/2215-finding-3-digit-even-numbers/)
 - [637. Average of Levels in Binary Tree](../../0501-1000/0637-average-of-levels-in-binary-tree/)
+- [643. Maximum Average Subarray I](../../0501-1000/0643-maximum-average-subarray-i/)
+- [805. Split Array With Same Average](../../0501-1000/0823-split-array-with-same-average/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/finding-mk-average/)

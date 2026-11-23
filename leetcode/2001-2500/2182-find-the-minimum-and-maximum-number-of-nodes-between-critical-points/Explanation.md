@@ -148,8 +148,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../../1501-2000/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
 - [1610. Maximum Number of Visible Points](../../1501-2000/1733-maximum-number-of-visible-points/)
-- [2493. Divide Nodes Into the Maximum Number of Groups](../../2501-3000/2583-divide-nodes-into-the-maximum-number-of-groups/)
 - [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2588-maximum-number-of-points-from-grid-queries/)
 
 ## LeetCode

@@ -109,9 +109,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2344. Minimum Deletions to Make Array Divisible](../../2001-2500/2423-minimum-deletions-to-make-array-divisible/)
 - [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
 - [3927. Minimize Array Sum Using Divisible Replacements](../../4001-4500/4301-minimize-array-sum-using-divisible-replacements/)
-- [2344. Minimum Deletions to Make Array Divisible](../../2001-2500/2423-minimum-deletions-to-make-array-divisible/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-sum-divisible-by-p/)

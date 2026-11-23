@@ -164,7 +164,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1793. Maximum Score of a Good Subarray](../../1501-2000/1918-maximum-score-of-a-good-subarray/)
 - [3575. Maximum Good Subtree Score](../../3501-4000/3875-maximum-good-subtree-score/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [1103. Distribute Candies to People](../../1001-1500/1195-distribute-candies-to-people/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-good-people-based-on-statements/)

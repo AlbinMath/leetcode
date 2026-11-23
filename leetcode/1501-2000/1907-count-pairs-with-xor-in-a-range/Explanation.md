@@ -159,8 +159,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [327. Count of Range Sum](../../0001-0500/0327-count-of-range-sum/)
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1501-2000/1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [1523. Count Odd Numbers in an Interval Range](../../1501-2000/1630-count-odd-numbers-in-an-interval-range/)
+- [3653. XOR After Range Multiplication Queries I](../../3501-4000/3974-xor-after-range-multiplication-queries-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)

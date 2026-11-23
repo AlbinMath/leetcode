@@ -123,7 +123,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2094. Finding 3-Digit Even Numbers](../../2001-2500/2215-finding-3-digit-even-numbers/)
 - [2310. Sum of Numbers With Units Digit K](../../1001-1500/1334-sum-of-numbers-with-units-digit-k/)
-- [3352. Count K-Reducible Numbers Less Than N](../../3501-4000/3631-count-k-reducible-numbers-less-than-n/)
+- [3483. Unique 3-Digit Even Numbers](../../3501-4000/3799-unique-3-digit-even-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)

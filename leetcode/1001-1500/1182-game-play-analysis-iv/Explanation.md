@@ -147,8 +147,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [511. Game Play Analysis I](../../1001-1500/1179-game-play-analysis-i/)
-- [1068. Product Sales Analysis I](../../1001-1500/1153-product-sales-analysis-i/)
-- [1070. Product Sales Analysis III](../../1001-1500/1155-product-sales-analysis-iii/)
+- [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
+- [55. Jump Game](../../0001-0500/0055-jump-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/game-play-analysis-iv/)

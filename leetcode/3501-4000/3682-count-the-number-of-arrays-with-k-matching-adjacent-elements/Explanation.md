@@ -139,8 +139,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2338. Count the Number of Ideal Arrays](../../2001-2500/2415-count-the-number-of-ideal-arrays/)
 - [3759. Count Elements With at Least K Greater Values](../../4001-4500/4141-count-elements-with-at-least-k-greater-values/)
+- [2338. Count the Number of Ideal Arrays](../../2001-2500/2415-count-the-number-of-ideal-arrays/)
 - [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4411-count-rotations-with-exactly-k-equal-adjacent-pairs/)
 
 ## LeetCode

@@ -127,7 +127,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1638. Count Substrings That Differ by One Character](../../1501-2000/1743-count-substrings-that-differ-by-one-character/)
 - [2135. Count Words Obtained After Adding a Letter](../../2001-2500/2256-count-words-obtained-after-adding-a-letter/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-common-words-with-one-occurrence/)

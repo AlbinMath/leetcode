@@ -118,8 +118,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [239. Sliding Window Maximum](../../0001-0500/0239-sliding-window-maximum/)
+- [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
 - [773. Sliding Puzzle](../../0501-1000/0787-sliding-puzzle/)
-- [2653. Sliding Subarray Beauty](../../2501-3000/2751-sliding-subarray-beauty/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sliding-window-median/)

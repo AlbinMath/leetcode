@@ -128,9 +128,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [374. Guess Number Higher or Lower](../../0001-0500/0374-guess-number-higher-or-lower/)
+- [375. Guess Number Higher or Lower II](../../0001-0500/0375-guess-number-higher-or-lower-ii/)
 - [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [79. Word Search](../../0001-0500/0079-word-search/)
-- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/guess-the-word/)

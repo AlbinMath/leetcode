@@ -111,8 +111,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2179. Count Good Triplets in an Array](../../2001-2500/2280-count-good-triplets-in-an-array/)
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1501-2000/1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [1448. Count Good Nodes in Binary Tree](../../1501-2000/1544-count-good-nodes-in-binary-tree/)
+- [1922. Count Good Numbers](../../2001-2500/2050-count-good-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-good-triplets/)

@@ -137,9 +137,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [57. Insert Interval](../../0001-0500/0057-insert-interval/)
+- [986. Interval List Intersections](../../1001-1500/1028-interval-list-intersections/)
+- [1124. Longest Well-Performing Interval](../../1001-1500/1219-longest-well-performing-interval/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-right-interval/)

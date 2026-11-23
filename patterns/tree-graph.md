@@ -67,6 +67,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 2680 | [Maximum OR](../leetcode/2501-3000/2730-maximum-or/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2730-maximum-or/Explanation.md) |
 | 2694 | [Event Emitter](../leetcode/2501-3000/2797-event-emitter/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2797-event-emitter/Explanation.md) |
 | 2850 | [Minimum Moves to Spread Stones Over Grid](../leetcode/3001-3500/3092-minimum-moves-to-spread-stones-over-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3092-minimum-moves-to-spread-stones-over-grid/Explanation.md) |
+| 3047 | [Find the Largest Area of Square Inside Two Rectangles](../leetcode/3001-3500/3325-find-the-largest-area-of-square-inside-two-rectangles/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3325-find-the-largest-area-of-square-inside-two-rectangles/Explanation.md) |
 | 3211 | [Generate Binary Strings Without Adjacent Zeros](../leetcode/3001-3500/3453-generate-binary-strings-without-adjacent-zeros/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3453-generate-binary-strings-without-adjacent-zeros/Explanation.md) |
 | 3243 | [Shortest Distance After Road Addition Queries I](../leetcode/3501-4000/3517-shortest-distance-after-road-addition-queries-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3517-shortest-distance-after-road-addition-queries-i/Explanation.md) |
 | 3309 | [Maximum Possible Number by Binary Concatenation](../leetcode/3501-4000/3579-maximum-possible-number-by-binary-concatenation/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3579-maximum-possible-number-by-binary-concatenation/Explanation.md) |
@@ -79,7 +80,6 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 124 | [Binary Tree Maximum Path Sum](../leetcode/0001-0500/0124-binary-tree-maximum-path-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0124-binary-tree-maximum-path-sum/Explanation.md) |
 | 282 | [Expression Add Operators](../leetcode/0001-0500/0282-expression-add-operators/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0282-expression-add-operators/Explanation.md) |
 | 761 | [Special Binary String](../leetcode/0501-1000/0763-special-binary-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0763-special-binary-string/Explanation.md) |
 | 987 | [Vertical Order Traversal of a Binary Tree](../leetcode/1001-1500/1029-vertical-order-traversal-of-a-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1029-vertical-order-traversal-of-a-binary-tree/Explanation.md) |

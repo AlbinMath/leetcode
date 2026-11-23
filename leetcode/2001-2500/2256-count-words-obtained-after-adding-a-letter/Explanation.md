@@ -140,8 +140,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
-- [2085. Count Common Words With One Occurrence](../../2001-2500/2190-count-common-words-with-one-occurrence/)
 - [2960. Count Tested Devices After Test Operations](../../3001-3500/3220-count-tested-devices-after-test-operations/)
+- [3420. Count Non-Decreasing Subarrays After K Operations](../../3501-4000/3674-count-non-decreasing-subarrays-after-k-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/)

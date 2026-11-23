@@ -105,9 +105,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1608. Special Array With X Elements Greater Than or Equal X](../../1501-2000/1730-special-array-with-x-elements-greater-than-or-equal-x/)
-- [1658. Minimum Operations to Reduce X to Zero](../../1501-2000/1776-minimum-operations-to-reduce-x-to-zero/)
-- [1779. Find Nearest Point That Has the Same X or Y Coordinate](../../1501-2000/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/)
+- [950. Reveal Cards In Increasing Order](../../0501-1000/0987-reveal-cards-in-increasing-order/)
+- [1423. Maximum Points You Can Obtain from Cards](../../1501-2000/1538-maximum-points-you-can-obtain-from-cards/)
+- [2260. Minimum Consecutive Cards to Pick Up](../../2001-2500/2338-minimum-consecutive-cards-to-pick-up/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)

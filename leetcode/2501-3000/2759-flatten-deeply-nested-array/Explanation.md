@@ -131,9 +131,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2649. Nested Array Generator](../../2501-3000/2783-nested-array-generator/)
 - [341. Flatten Nested List Iterator](../../0001-0500/0341-flatten-nested-list-iterator/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [2649. Nested Array Generator](../../2501-3000/2783-nested-array-generator/)
+- [114. Flatten Binary Tree to Linked List](../../0001-0500/0114-flatten-binary-tree-to-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flatten-deeply-nested-array/)

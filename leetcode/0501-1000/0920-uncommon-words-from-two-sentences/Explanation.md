@@ -102,9 +102,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1880. Check if Word Equals Summation of Two Words](../../2001-2500/2010-check-if-word-equals-summation-of-two-words/)
 - [2114. Maximum Number of Words Found in Sentences](../../2001-2500/2219-maximum-number-of-words-found-in-sentences/)
-- [2555. Maximize Win From Two Segments](../../2501-3000/2673-maximize-win-from-two-segments/)
-- [2605. Form Smallest Number From Two Digit Arrays](../../2501-3000/2668-form-smallest-number-from-two-digit-arrays/)
+- [2452. Words Within Two Edits of Dictionary](../../2501-3000/2550-words-within-two-edits-of-dictionary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/uncommon-words-from-two-sentences/)

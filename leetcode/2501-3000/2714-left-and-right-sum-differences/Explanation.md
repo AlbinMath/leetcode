@@ -121,7 +121,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
 - [2516. Take K of Each Character From Left and Right](../../2501-3000/2599-take-k-of-each-character-from-left-and-right/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/left-and-right-sum-differences/)

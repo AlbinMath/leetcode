@@ -115,9 +115,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [844. Backspace String Compare](../../0501-1000/0874-backspace-string-compare/)
+- [1170. Compare Strings by Frequency of the Smallest Character](../../1001-1500/1273-compare-strings-by-frequency-of-the-smallest-character/)
 - [278. First Bad Version](../../0001-0500/0278-first-bad-version/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
-- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/compare-version-numbers/)

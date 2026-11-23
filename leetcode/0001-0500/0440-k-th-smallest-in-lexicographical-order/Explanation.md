@@ -107,8 +107,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+- [1163. Last Substring in Lexicographical Order](../../1001-1500/1133-last-substring-in-lexicographical-order/)
 - [779. K-th Symbol in Grammar](../../0501-1000/0795-k-th-symbol-in-grammar/)
-- [3154. Find Number of Ways to Reach the K-th Stair](../../3001-3500/3414-find-number-of-ways-to-reach-the-k-th-stair/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)

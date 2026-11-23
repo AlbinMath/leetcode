@@ -111,7 +111,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2301-count-array-pairs-divisible-by-k/)
 - [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4411-count-rotations-with-exactly-k-equal-adjacent-pairs/)
-- [863. All Nodes Distance K in Binary Tree](../../0501-1000/0893-all-nodes-distance-k-in-binary-tree/)
+- [973. K Closest Points to Origin](../../1001-1500/1014-k-closest-points-to-origin/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-pairs-of-points-with-distance-k/)

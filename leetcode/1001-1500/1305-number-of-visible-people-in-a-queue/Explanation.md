@@ -128,7 +128,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1610. Maximum Number of Visible Points](../../1501-2000/1733-maximum-number-of-visible-points/)
 - [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../../1501-2000/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
-- [3881. Direction Assignments with Exactly K Visible People](../../4001-4500/4251-direction-assignments-with-exactly-k-visible-people/)
+- [2327. Number of People Aware of a Secret](../../2001-2500/2408-number-of-people-aware-of-a-secret/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)
