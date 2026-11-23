@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3013. Divide an Array Into Subarrays With Minimum Cost II](../../3001-3500/3260-divide-an-array-into-subarrays-with-minimum-cost-ii/)
+- [2206. Divide Array Into Equal Pairs](../../2001-2500/2308-divide-array-into-equal-pairs/)
 - [3139. Minimum Cost to Equalize Array](../../3001-3500/3402-minimum-cost-to-equalize-array/)
-- [3149. Find the Minimum Cost Array Permutation](../../3001-3500/3431-find-the-minimum-cost-array-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)

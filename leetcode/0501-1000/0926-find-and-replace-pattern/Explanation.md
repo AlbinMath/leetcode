@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3617. Find Students with Study Spiral Pattern](../../3501-4000/3961-find-students-with-study-spiral-pattern/)
 - [833. Find And Replace in String](../../0501-1000/0862-find-and-replace-in-string/)
 - [1894. Find the Student that Will Replace the Chalk](../../2001-2500/2006-find-the-student-that-will-replace-the-chalk/)
-- [3617. Find Students with Study Spiral Pattern](../../3501-4000/3961-find-students-with-study-spiral-pattern/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-and-replace-pattern/)

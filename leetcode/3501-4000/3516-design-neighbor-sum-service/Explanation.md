@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1515. Best Position for a Service Centre](../../1501-2000/1638-best-position-for-a-service-centre/)
 - [1. Two Sum](../../0001-0500/0001-two-sum/)
 - [39. Combination Sum](../../0001-0500/0039-combination-sum/)
+- [40. Combination Sum II](../../0001-0500/0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-neighbor-sum-service/)

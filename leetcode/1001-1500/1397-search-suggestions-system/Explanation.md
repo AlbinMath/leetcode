@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
-- [1396. Design Underground System](../../1501-2000/1512-design-underground-system/)
-- [1603. Design Parking System](../../1501-2000/1708-design-parking-system/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
+- [35. Search Insert Position](../../0001-0500/0035-search-insert-position/)
+- [74. Search a 2D Matrix](../../0001-0500/0074-search-a-2d-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-suggestions-system/)

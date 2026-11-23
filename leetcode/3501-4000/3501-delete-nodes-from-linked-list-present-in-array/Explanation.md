@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
 - [2487. Remove Nodes From Linked List](../../2501-3000/2573-remove-nodes-from-linked-list/)
-- [1721. Swapping Nodes in a Linked List](../../0501-1000/0528-swapping-nodes-in-a-linked-list/)
+- [237. Delete Node in a Linked List](../../0001-0500/0237-delete-node-in-a-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)

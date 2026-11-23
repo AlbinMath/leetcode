@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1147-flip-columns-for-maximum-number-of-equal-rows/)
 - [2271. Maximum White Tiles Covered by a Carpet](../../2001-2500/2359-maximum-white-tiles-covered-by-a-carpet/)
-- [1337. The K Weakest Rows in a Matrix](../../1001-1500/1463-the-k-weakest-rows-in-a-matrix/)
+- [1288. Remove Covered Intervals](../../1001-1500/1222-remove-covered-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-rows-covered-by-columns/)

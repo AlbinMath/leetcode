@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [855. Exam Room](../../0501-1000/0885-exam-room/)
-- [1349. Maximum Students Taking Exam](../../1001-1500/1471-maximum-students-taking-exam/)
-- [3709. Design Exam Scores Tracker](../../4001-4500/4059-design-exam-scores-tracker/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
+- [1659. Maximize Grid Happiness](../../1501-2000/1778-maximize-grid-happiness/)
+- [1771. Maximize Palindrome Length From Subsequences](../../1501-2000/1897-maximize-palindrome-length-from-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)

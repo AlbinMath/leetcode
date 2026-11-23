@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [943. Find the Shortest Superstring](../../0501-1000/0980-find-the-shortest-superstring/)
 - [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../../1501-2000/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [62. Unique Paths](../../0001-0500/0062-unique-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-edges-in-shortest-paths/)

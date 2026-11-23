@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1240. Tiling a Rectangle with the Fewest Squares](../../1001-1500/1361-tiling-a-rectangle-with-the-fewest-squares/)
 - [1128. Number of Equivalent Domino Pairs](../../1001-1500/1227-number-of-equivalent-domino-pairs/)
+- [1240. Tiling a Rectangle with the Fewest Squares](../../1001-1500/1361-tiling-a-rectangle-with-the-fewest-squares/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 
 ## LeetCode

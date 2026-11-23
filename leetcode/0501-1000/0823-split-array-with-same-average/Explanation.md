@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1569. Number of Ways to Reorder Array to Get Same BST](../../1501-2000/1692-number-of-ways-to-reorder-array-to-get-same-bst/)
 - [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
 - [842. Split Array into Fibonacci Sequence](../../0501-1000/0872-split-array-into-fibonacci-sequence/)
-- [2584. Split the Array to Make Coprime Products](../../2501-3000/2647-split-the-array-to-make-coprime-products/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-array-with-same-average/)

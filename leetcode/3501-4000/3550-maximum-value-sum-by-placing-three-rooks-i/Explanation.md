@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3257. Maximum Value Sum by Placing Three Rooks II](../../3501-4000/3542-maximum-value-sum-by-placing-three-rooks-ii/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
 - [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
+- [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2278-find-three-consecutive-integers-that-sum-to-a-given-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-i/)

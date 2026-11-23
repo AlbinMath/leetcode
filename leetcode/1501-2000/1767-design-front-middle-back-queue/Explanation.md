@@ -64,8 +64,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [622. Design Circular Queue](../../0501-1000/0860-design-circular-queue/)
-- [876. Middle of the Linked List](../../0501-1000/0908-middle-of-the-linked-list/)
-- [1991. Find the Middle Index in Array](../../2001-2500/2102-find-the-middle-index-in-array/)
+- [232. Implement Queue using Stacks](../../0001-0500/0232-implement-queue-using-stacks/)
+- [406. Queue Reconstruction by Height](../../0001-0500/0406-queue-reconstruction-by-height/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-front-middle-back-queue/)

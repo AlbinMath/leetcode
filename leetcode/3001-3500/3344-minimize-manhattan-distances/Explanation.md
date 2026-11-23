@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3426. Manhattan Distances of All Arrangements of Pieces](../../3501-4000/3739-manhattan-distances-of-all-arrangements-of-pieces/)
+- [834. Sum of Distances in Tree](../../0501-1000/0863-sum-of-distances-in-tree/)
 - [924. Minimize Malware Spread](../../0501-1000/0960-minimize-malware-spread/)
-- [928. Minimize Malware Spread II](../../0501-1000/0964-minimize-malware-spread-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-manhattan-distances/)

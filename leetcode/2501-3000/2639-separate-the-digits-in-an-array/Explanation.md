@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1977. Number of Ways to Separate Numbers](../../2001-2500/2091-number-of-ways-to-separate-numbers/)
 - [3454. Separate Squares II](../../3501-4000/3775-separate-squares-ii/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [258. Add Digits](../../0001-0500/0258-add-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/separate-the-digits-in-an-array/)

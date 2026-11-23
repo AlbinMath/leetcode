@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [528. Random Pick with Weight](../../0501-1000/0912-random-pick-with-weight/)
 - [710. Random Pick with Blacklist](../../0501-1000/0894-random-pick-with-blacklist/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [138. Copy List with Random Pointer](../../0001-0500/0138-copy-list-with-random-pointer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/random-pick-index/)

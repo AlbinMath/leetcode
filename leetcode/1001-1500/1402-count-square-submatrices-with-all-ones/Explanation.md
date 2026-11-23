@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1504. Count Submatrices With All Ones](../../1501-2000/1628-count-submatrices-with-all-ones/)
-- [1925. Count Square Sum Triples](../../2001-2500/2037-count-square-sum-triples/)
-- [2572. Count the Number of Square-Free Subsets](../../2501-3000/2709-count-the-number-of-square-free-subsets/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1461-count-all-valid-pickup-and-delivery-options/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)

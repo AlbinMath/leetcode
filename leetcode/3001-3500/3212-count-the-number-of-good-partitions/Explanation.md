@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2537. Count the Number of Good Subarrays](../../2501-3000/2626-count-the-number-of-good-subarrays/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
-- [1395. Count Number of Teams](../../1501-2000/1511-count-number-of-teams/)
+- [1448. Count Good Nodes in Binary Tree](../../1501-2000/1544-count-good-nodes-in-binary-tree/)
+- [1512. Number of Good Pairs](../../1501-2000/1635-number-of-good-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-good-partitions/)

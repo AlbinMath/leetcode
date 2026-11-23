@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
 - [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
-- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1228-minimum-cost-tree-from-leaf-values/)
+- [88. Merge Sorted Array](../../0001-0500/0088-merge-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-merge-sorted-lists/)

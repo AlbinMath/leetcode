@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1030. Matrix Cells in Distance Order](../../1001-1500/1094-matrix-cells-in-distance-order/)
 - [2713. Maximum Strictly Increasing Cells in a Matrix](../../2501-3000/2818-maximum-strictly-increasing-cells-in-a-matrix/)
-- [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
+- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1228-minimum-cost-tree-from-leaf-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)

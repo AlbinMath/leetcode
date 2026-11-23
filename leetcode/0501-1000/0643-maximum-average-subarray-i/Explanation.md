@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1491. Average Salary Excluding the Minimum and Maximum Salary](../../1501-2000/1584-average-salary-excluding-the-minimum-and-maximum-salary/)
 - [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
 - [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
+- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-average-subarray-i/)

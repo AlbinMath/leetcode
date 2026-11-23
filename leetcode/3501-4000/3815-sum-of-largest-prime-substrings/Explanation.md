@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3770. Largest Prime from Consecutive Prime Sum](../../4001-4500/4085-largest-prime-from-consecutive-prime-sum/)
 - [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
-- [2099. Find Subsequence of Length K With the Largest Sum](../../2001-2500/2204-find-subsequence-of-length-k-with-the-largest-sum/)
+- [1781. Sum of Beauty of All Substrings](../../1501-2000/1890-sum-of-beauty-of-all-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-largest-prime-substrings/)

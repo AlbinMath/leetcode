@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1541. Minimum Insertions to Balance a Parentheses String](../../1501-2000/1648-minimum-insertions-to-balance-a-parentheses-string/)
 - [3634. Minimum Removals to Balance Array](../../3501-4000/3958-minimum-removals-to-balance-array/)
-- [1382. Balance a Binary Search Tree](../../1001-1500/1285-balance-a-binary-search-tree/)
+- [3626. Find Stores with Inventory Imbalance](../../3501-4000/3971-find-stores-with-inventory-imbalance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-discards-to-balance-inventory/)

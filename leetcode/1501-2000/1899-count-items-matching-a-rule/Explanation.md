@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3405. Count the Number of Arrays with K Matching Adjacent Elements](../../3501-4000/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
-- [44. Wildcard Matching](../../0001-0500/0044-wildcard-matching/)
+- [1203. Sort Items by Groups Respecting Dependencies](../../1001-1500/1309-sort-items-by-groups-respecting-dependencies/)
+- [2146. K Highest Ranked Items Within a Price Range](../../2001-2500/2250-k-highest-ranked-items-within-a-price-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-items-matching-a-rule/)

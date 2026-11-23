@@ -65,7 +65,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
 - [2516. Take K of Each Character From Left and Right](../../2501-3000/2599-take-k-of-each-character-from-left-and-right/)
-- [967. Numbers With Same Consecutive Differences](../../1001-1500/1007-numbers-with-same-consecutive-differences/)
+- [1. Two Sum](../../0001-0500/0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/left-and-right-sum-differences/)

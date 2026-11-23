@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
-- [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
-- [56. Merge Intervals](../../0001-0500/0056-merge-intervals/)
+- [136. Single Number](../../0001-0500/0136-single-number/)
+- [137. Single Number II](../../0001-0500/0137-single-number-ii/)
+- [260. Single Number III](../../0001-0500/0260-single-number-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-bsts-to-create-single-bst/)

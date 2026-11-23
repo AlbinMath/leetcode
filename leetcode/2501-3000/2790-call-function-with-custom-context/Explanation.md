@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2666. Allow One Function Call](../../2501-3000/2796-allow-one-function-call/)
-- [791. Custom Sort String](../../0501-1000/0807-custom-sort-string/)
 - [396. Rotate Function](../../0001-0500/0396-rotate-function/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1645-find-a-value-of-a-mysterious-function-closest-to-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/call-function-with-custom-context/)

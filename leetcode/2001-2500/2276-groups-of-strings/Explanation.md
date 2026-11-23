@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [893. Groups of Special-Equivalent Strings](../../0501-1000/0929-groups-of-special-equivalent-strings/)
-- [830. Positions of Large Groups](../../0501-1000/0857-positions-of-large-groups/)
-- [839. Similar String Groups](../../0501-1000/0869-similar-string-groups/)
+- [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
+- [205. Isomorphic Strings](../../0001-0500/0205-isomorphic-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/groups-of-strings/)

@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
 - [2259. Remove Digit From Number to Maximize Result](../../2001-2500/2337-remove-digit-from-number-to-maximize-result/)
 - [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3233-maximize-the-number-of-partitions-after-operations/)
+- [3372. Maximize the Number of Target Nodes After Connecting Trees I](../../3501-4000/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-number-of-nice-divisors/)

@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
-- [1175. Prime Arrangements](../../1001-1500/1279-prime-arrangements/)
-- [2507. Smallest Value After Replacing With Sum of Prime Factors](../../2501-3000/2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [125. Valid Palindrome](../../0001-0500/0125-valid-palindrome/)
+- [131. Palindrome Partitioning](../../0001-0500/0131-palindrome-partitioning/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prime-palindrome/)

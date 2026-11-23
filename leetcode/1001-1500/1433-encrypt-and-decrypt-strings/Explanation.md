@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1309. Decrypt String from Alphabet to Integer Mapping](../../1001-1500/1434-decrypt-string-from-alphabet-to-integer-mapping/)
 - [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
 - [205. Isomorphic Strings](../../0001-0500/0205-isomorphic-strings/)
-- [415. Add Strings](../../0001-0500/0415-add-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/encrypt-and-decrypt-strings/)

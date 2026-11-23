@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
-- [2945. Find Maximum Non-decreasing Array Length](../../3001-3500/3211-find-maximum-non-decreasing-array-length/)
 - [3845. Maximum Subarray XOR with Bounded Range](../../4001-4500/4204-maximum-subarray-xor-with-bounded-range/)
+- [2945. Find Maximum Non-decreasing Array Length](../../3001-3500/3211-find-maximum-non-decreasing-array-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-maximum-balanced-xor-subarray-length/)

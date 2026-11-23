@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [657. Robot Return to Origin](../../0501-1000/0657-robot-return-to-origin/)
+- [1110. Delete Nodes And Return Forest](../../1001-1500/1207-delete-nodes-and-return-forest/)
 - [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
-- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/return-length-of-arguments-passed/)

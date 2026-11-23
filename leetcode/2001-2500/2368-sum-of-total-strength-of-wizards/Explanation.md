@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
-- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1892-find-total-time-spent-by-each-employee/)
-- [2234. Maximum Total Beauty of the Gardens](../../2001-2500/2330-maximum-total-beauty-of-the-gardens/)
+- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [39. Combination Sum](../../0001-0500/0039-combination-sum/)
+- [40. Combination Sum II](../../0001-0500/0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)

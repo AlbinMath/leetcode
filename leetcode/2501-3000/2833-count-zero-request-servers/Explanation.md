@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1267. Count Servers that Communicate](../../1001-1500/1396-count-servers-that-communicate/)
 - [2169. Count Operations to Obtain Zero](../../2001-2500/2288-count-operations-to-obtain-zero/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [1267. Count Servers that Communicate](../../1001-1500/1396-count-servers-that-communicate/)
+- [982. Triples with Bitwise AND Equal To Zero](../../1001-1500/1024-triples-with-bitwise-and-equal-to-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-zero-request-servers/)

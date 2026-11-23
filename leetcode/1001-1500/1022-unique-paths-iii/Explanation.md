@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [62. Unique Paths](../../0001-0500/0062-unique-paths/)
 - [63. Unique Paths II](../../0001-0500/0063-unique-paths-ii/)
-- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
+- [257. Binary Tree Paths](../../0001-0500/0257-binary-tree-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-paths-iii/)

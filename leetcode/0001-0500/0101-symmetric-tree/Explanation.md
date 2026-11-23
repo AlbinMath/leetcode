@@ -65,9 +65,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [2843.   Count Symmetric Integers](../../2501-3000/2998---count-symmetric-integers/)
 - [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
 - [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
+- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/symmetric-tree/)

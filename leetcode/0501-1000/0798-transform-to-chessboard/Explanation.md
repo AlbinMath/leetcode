@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1331. Rank Transform of an Array](../../1001-1500/1256-rank-transform-of-an-array/)
-- [1632. Rank Transform of a Matrix](../../1001-1500/1257-rank-transform-of-a-matrix/)
-- [2635. Apply Transform Over Each Element in Array](../../2501-3000/2747-apply-transform-over-each-element-in-array/)
+- [688. Knight Probability in Chessboard](../../0501-1000/0688-knight-probability-in-chessboard/)
+- [1812. Determine Color of a Chessboard Square](../../1501-2000/1920-determine-color-of-a-chessboard-square/)
+- [2056. Number of Valid Move Combinations On Chessboard](../../2001-2500/2166-number-of-valid-move-combinations-on-chessboard/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/transform-to-chessboard/)

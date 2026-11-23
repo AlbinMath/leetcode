@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2558. Take Gifts From the Richest Pile](../../2501-3000/2692-take-gifts-from-the-richest-pile/)
 - [584. Find Customer Referee](../../0501-1000/0584-find-customer-referee/)
 - [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
+- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1724-customer-who-visited-but-did-not-make-any-transactions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/richest-customer-wealth/)

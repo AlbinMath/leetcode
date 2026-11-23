@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2562. Find the Array Concatenation Value](../../2501-3000/2698-find-the-array-concatenation-value/)
 - [2945. Find Maximum Non-decreasing Array Length](../../3001-3500/3211-find-maximum-non-decreasing-array-length/)
 - [3334. Find the Maximum Factor Score of Array](../../3501-4000/3593-find-the-maximum-factor-score-of-array/)
-- [4098. Minimize the Maximum Value of GCD-Connected Array](../../4001-4500/4462-minimize-the-maximum-value-of-gcd-connected-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-maximum-sequence-value-of-array/)

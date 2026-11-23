@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
 - [2336. Smallest Number in Infinite Set](../../2001-2500/2413-smallest-number-in-infinite-set/)
-- [191. Number of 1 Bits](../../0001-0500/0191-number-of-1-bits/)
+- [865. Smallest Subtree with all the Deepest Nodes](../../0501-1000/0896-smallest-subtree-with-all-the-deepest-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-number-with-all-set-bits/)

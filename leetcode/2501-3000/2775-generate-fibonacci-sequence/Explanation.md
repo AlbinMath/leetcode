@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [842. Split Array into Fibonacci Sequence](../../0501-1000/0872-split-array-into-fibonacci-sequence/)
-- [509. Fibonacci Number](../../1001-1500/1013-fibonacci-number/)
 - [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
+- [478. Generate Random Point in a Circle](../../0501-1000/0915-generate-random-point-in-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/)

@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2625. Flatten Deeply Nested Array](../../2501-3000/2759-flatten-deeply-nested-array/)
 - [114. Flatten Binary Tree to Linked List](../../0001-0500/0114-flatten-binary-tree-to-linked-list/)
 - [430. Flatten a Multilevel Doubly Linked List](../../0501-1000/0766-flatten-a-multilevel-doubly-linked-list/)
-- [2625. Flatten Deeply Nested Array](../../2501-3000/2759-flatten-deeply-nested-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flatten-nested-list-iterator/)

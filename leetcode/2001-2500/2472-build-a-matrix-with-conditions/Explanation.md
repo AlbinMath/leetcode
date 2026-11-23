@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1737. Change Minimum Characters to Satisfy One of Three Conditions](../../1501-2000/1859-change-minimum-characters-to-satisfy-one-of-three-conditions/)
 - [1441. Build an Array With Stack Operations](../../1501-2000/1552-build-an-array-with-stack-operations/)
 - [1916. Count Ways to Build Rooms in an Ant Colony](../../1001-1500/1313-count-ways-to-build-rooms-in-an-ant-colony/)
-- [1920. Build Array from Permutation](../../2001-2500/2048-build-array-from-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/build-a-matrix-with-conditions/)

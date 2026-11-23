@@ -66,7 +66,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1394. Find Lucky Integer in an Array](../../1501-2000/1510-find-lucky-integer-in-an-array/)
 - [1985. Find the Kth Largest Integer in the Array](../../2001-2500/2113-find-the-kth-largest-integer-in-the-array/)
-- [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2220-find-all-possible-recipes-from-given-supplies/)
+- [2485. Find the Pivot Integer](../../2501-3000/2571-find-the-pivot-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)

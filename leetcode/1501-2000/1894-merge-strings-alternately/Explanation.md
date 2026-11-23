@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1754. Largest Merge Of Two Strings](../../1501-2000/1880-largest-merge-of-two-strings/)
+- [1115. Print FooBar Alternately](../../1001-1500/1187-print-foobar-alternately/)
 - [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
-- [205. Isomorphic Strings](../../0001-0500/0205-isomorphic-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-strings-alternately/)

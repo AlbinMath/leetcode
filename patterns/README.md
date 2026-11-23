@@ -6,10 +6,10 @@ A comprehensive index of LeetCode problems organized by algorithmic pattern and 
 
 | Pattern | Solved Count | Hub Link |
 |---|---|---|
-| **Array / General** | 969 problems | [Browse Array / General](./array-general.md) |
+| **Array / General** | 967 problems | [Browse Array / General](./array-general.md) |
 | **Backtracking** | 31 problems | [Browse Backtracking](./backtracking.md) |
 | **Binary Search** | 155 problems | [Browse Binary Search](./binary-search.md) |
-| **Bit Manipulation** | 200 problems | [Browse Bit Manipulation](./bit-manipulation.md) |
+| **Bit Manipulation** | 202 problems | [Browse Bit Manipulation](./bit-manipulation.md) |
 | **Database / SQL** | 88 problems | [Browse Database / SQL](./sql-database.md) |
 | **Dynamic Programming** | 74 problems | [Browse Dynamic Programming](./dynamic-programming.md) |
 | **Fast & Slow Pointers** | 10 problems | [Browse Fast & Slow Pointers](./fast-slow-pointers.md) |

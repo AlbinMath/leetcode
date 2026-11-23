@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2883. Drop Missing Data](../../3001-3500/3075-drop-missing-data/)
-- [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
-- [268. Missing Number](../../0001-0500/0268-missing-number/)
+- [733. Flood Fill](../../0501-1000/0733-flood-fill/)
+- [3537. Fill a Special Grid](../../3501-4000/3822-fill-a-special-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fill-missing-data/)

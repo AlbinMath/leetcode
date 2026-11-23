@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1793. Maximum Score of a Good Subarray](../../1501-2000/1918-maximum-score-of-a-good-subarray/)
 - [3575. Maximum Good Subtree Score](../../3501-4000/3875-maximum-good-subtree-score/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [981. Time Based Key-Value Store](../../1001-1500/1023-time-based-key-value-store/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-good-people-based-on-statements/)

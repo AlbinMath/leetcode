@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [592. Fraction Addition and Subtraction](../../0501-1000/0592-fraction-addition-and-subtraction/)
-- [583. Delete Operation for Two Strings](../../0501-1000/0583-delete-operation-for-two-strings/)
-- [1381. Design a Stack With Increment Operation](../../1001-1500/1497-design-a-stack-with-increment-operation/)
+- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
+- [866. Prime Palindrome](../../0501-1000/0897-prime-palindrome/)
+- [1175. Prime Arrangements](../../1001-1500/1279-prime-arrangements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prime-subtraction-operation/)

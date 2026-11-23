@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [526. Beautiful Arrangement](../../0501-1000/0526-beautiful-arrangement/)
 - [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
-- [336. Palindrome Pairs](../../0001-0500/0336-palindrome-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-arrangement-of-pairs/)

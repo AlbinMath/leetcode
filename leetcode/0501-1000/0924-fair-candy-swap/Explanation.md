@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [135. Candy](../../0001-0500/0135-candy/)
-- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
-- [627. Swap Sex of Employees](../../0501-1000/0627-swap-sex-of-employees/)
+- [1664. Ways to Make a Fair Array](../../1501-2000/1783-ways-to-make-a-fair-array/)
+- [2305. Fair Distribution of Cookies](../../1001-1500/1418-fair-distribution-of-cookies/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fair-candy-swap/)

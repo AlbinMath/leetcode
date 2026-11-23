@@ -63,8 +63,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1614. Maximum Nesting Depth of the Parentheses](../../1501-2000/1737-maximum-nesting-depth-of-the-parentheses/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [1614. Maximum Nesting Depth of the Parentheses](../../1501-2000/1737-maximum-nesting-depth-of-the-parentheses/)
 - [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
 
 ## LeetCode

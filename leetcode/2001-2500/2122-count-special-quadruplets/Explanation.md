@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2552. Count Increasing Quadruplets](../../2501-3000/2682-count-increasing-quadruplets/)
 - [3120. Count the Number of Special Characters I](../../3001-3500/3408-count-the-number-of-special-characters-i/)
 - [3233. Find the Count of Numbers Which Are Not Special](../../3501-4000/3507-find-the-count-of-numbers-which-are-not-special/)
-- [3404. Count Special Subsequences](../../3501-4000/3699-count-special-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-special-quadruplets/)

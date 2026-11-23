@@ -65,7 +65,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1287. Element Appearing More Than 25% In Sorted Array](../../1001-1500/1221-element-appearing-more-than-25-in-sorted-array/)
-- [1263. Minimum Moves to Move a Box to Their Target Location](../../1001-1500/1389-minimum-moves-to-move-a-box-to-their-target-location/)
+- [570. Managers with at Least 5 Direct Reports](../../0501-1000/0570-managers-with-at-least-5-direct-reports/)
 - [627. Swap Sex of Employees](../../0501-1000/0627-swap-sex-of-employees/)
 
 ## LeetCode

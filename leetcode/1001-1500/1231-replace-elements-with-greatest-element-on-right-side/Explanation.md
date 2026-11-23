@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2295. Replace Elements in an Array](../../2001-2500/2388-replace-elements-in-an-array/)
 - [199. Binary Tree Right Side View](../../0001-0500/0199-binary-tree-right-side-view/)
-- [1071. Greatest Common Divisor of Strings](../../1001-1500/1146-greatest-common-divisor-of-strings/)
+- [203. Remove Linked List Elements](../../0001-0500/0203-remove-linked-list-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)

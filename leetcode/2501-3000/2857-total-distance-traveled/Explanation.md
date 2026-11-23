@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
-- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1892-find-total-time-spent-by-each-employee/)
-- [2234. Maximum Total Beauty of the Gardens](../../2001-2500/2330-maximum-total-beauty-of-the-gardens/)
+- [72. Edit Distance](../../0001-0500/0072-edit-distance/)
+- [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-distance-traveled/)

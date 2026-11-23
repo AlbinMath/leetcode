@@ -69,9 +69,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
-- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
-- [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](../../1501-2000/1807-partitioning-into-minimum-number-of-deci-binary-numbers/)
+- [2042. Check if Numbers Are Ascending in a Sentence](../../2001-2500/2168-check-if-numbers-are-ascending-in-a-sentence/)
+- [3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](../../3001-3500/3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
+- [3233. Find the Count of Numbers Which Are Not Special](../../3501-4000/3507-find-the-count-of-numbers-which-are-not-special/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)

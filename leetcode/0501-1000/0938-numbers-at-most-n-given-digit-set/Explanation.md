@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3352. Count K-Reducible Numbers Less Than N](../../3501-4000/3631-count-k-reducible-numbers-less-than-n/)
 - [2094. Finding 3-Digit Even Numbers](../../2001-2500/2215-finding-3-digit-even-numbers/)
 - [2310. Sum of Numbers With Units Digit K](../../1001-1500/1334-sum-of-numbers-with-units-digit-k/)
-- [3352. Count K-Reducible Numbers Less Than N](../../3501-4000/3631-count-k-reducible-numbers-less-than-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)

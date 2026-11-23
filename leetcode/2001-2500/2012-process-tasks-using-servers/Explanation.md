@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1665. Minimum Initial Energy to Finish Tasks](../../1501-2000/1784-minimum-initial-energy-to-finish-tasks/)
-- [1986. Minimum Number of Work Sessions to Finish the Tasks](../../2001-2500/2114-minimum-number-of-work-sessions-to-finish-the-tasks/)
-- [2071. Maximum Number of Tasks You Can Assign](../../2001-2500/2180-maximum-number-of-tasks-you-can-assign/)
+- [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
+- [232. Implement Queue using Stacks](../../0001-0500/0232-implement-queue-using-stacks/)
+- [470. Implement Rand10() Using Rand7()](../../0501-1000/0903-implement-rand10-using-rand7/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-tasks-using-servers/)

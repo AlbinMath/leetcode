@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [194. Transpose File](../../0001-0500/0194-transpose-file/)
-- [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
-- [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
+- [1667. Fix Names in a Table](../../1501-2000/1811-fix-names-in-a-table/)
+- [827. Making A Large Island](../../0501-1000/0854-making-a-large-island/)
+- [62. Unique Paths](../../0001-0500/0062-unique-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/making-file-names-unique/)

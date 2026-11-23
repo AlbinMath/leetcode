@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2596. Check Knight Tour Configuration](../../2501-3000/2662-check-knight-tour-configuration/)
-- [1227. Airplane Seat Assignment Probability](../../1001-1500/1362-airplane-seat-assignment-probability/)
-- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1501-2000/1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
+- [782. Transform to Chessboard](../../0501-1000/0798-transform-to-chessboard/)
+- [1812. Determine Color of a Chessboard Square](../../1501-2000/1920-determine-color-of-a-chessboard-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/knight-probability-in-chessboard/)

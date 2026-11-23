@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [577. Employee Bonus](../../0501-1000/0577-employee-bonus/)
 - [761. Special Binary String](../../0501-1000/0763-special-binary-string/)
 - [893. Groups of Special-Equivalent Strings](../../0501-1000/0929-groups-of-special-equivalent-strings/)
-- [1475. Final Prices With a Special Discount in a Shop](../../1501-2000/1570-final-prices-with-a-special-discount-in-a-shop/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculate-special-bonus/)

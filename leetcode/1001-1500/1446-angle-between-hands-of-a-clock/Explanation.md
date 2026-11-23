@@ -67,9 +67,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2437. Number of Valid Clock Times](../../2501-3000/2528-number-of-valid-clock-times/)
 - [765. Couples Holding Hands](../../0501-1000/0770-couples-holding-hands/)
 - [783. Minimum Distance Between BST Nodes](../../0501-1000/0799-minimum-distance-between-bst-nodes/)
-- [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1092-maximum-difference-between-node-and-ancestor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/angle-between-hands-of-a-clock/)

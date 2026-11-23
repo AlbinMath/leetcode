@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
 - [1985. Find the Kth Largest Integer in the Array](../../2001-2500/2113-find-the-kth-largest-integer-in-the-array/)
-- [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1963-find-xor-sum-of-all-pairs-bitwise-and/)
+- [1779. Find Nearest Point That Has the Same X or Y Coordinate](../../1501-2000/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)

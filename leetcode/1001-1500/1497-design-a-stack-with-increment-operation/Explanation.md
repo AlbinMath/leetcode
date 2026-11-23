@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3806. Maximum Bitwise AND After Increment Operations](../../4001-4500/4154-maximum-bitwise-and-after-increment-operations/)
-- [3943. Number of Pairs After Increment](../../4001-4500/4076-number-of-pairs-after-increment/)
-- [583. Delete Operation for Two Strings](../../0501-1000/0583-delete-operation-for-two-strings/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [355. Design Twitter](../../0001-0500/0355-design-twitter/)
+- [622. Design Circular Queue](../../0501-1000/0860-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-a-stack-with-increment-operation/)

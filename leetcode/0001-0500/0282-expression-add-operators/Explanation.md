@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
-- [67. Add Binary](../../0001-0500/0067-add-binary/)
-- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
+- [736. Parse Lisp Expression](../../0501-1000/0736-parse-lisp-expression/)
+- [1106. Parsing A Boolean Expression](../../1001-1500/1197-parsing-a-boolean-expression/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/expression-add-operators/)

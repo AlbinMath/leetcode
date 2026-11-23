@@ -66,7 +66,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1640. Check Array Formation Through Concatenation](../../1501-2000/1760-check-array-formation-through-concatenation/)
 - [2562. Find the Array Concatenation Value](../../2501-3000/2698-find-the-array-concatenation-value/)
-- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenation-of-array/)

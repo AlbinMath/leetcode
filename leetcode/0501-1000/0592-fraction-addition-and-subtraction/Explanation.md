@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2601. Prime Subtraction Operation](../../2501-3000/2716-prime-subtraction-operation/)
 - [598. Range Addition II](../../0501-1000/0598-range-addition-ii/)
 - [3243. Shortest Distance After Road Addition Queries I](../../3501-4000/3517-shortest-distance-after-road-addition-queries-i/)
+- [3244. Shortest Distance After Road Addition Queries II](../../3501-4000/3514-shortest-distance-after-road-addition-queries-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fraction-addition-and-subtraction/)

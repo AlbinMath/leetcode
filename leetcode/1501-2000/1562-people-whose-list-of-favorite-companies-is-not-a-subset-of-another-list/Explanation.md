@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1978. Employees Whose Manager Left the Company](../../2001-2500/2127-employees-whose-manager-left-the-company/)
-- [572. Subtree of Another Tree](../../0501-1000/0572-subtree-of-another-tree/)
-- [1433. Check If a String Can Break Another String](../../1501-2000/1530-check-if-a-string-can-break-another-string/)
+- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
+- [1863. Sum of All Subset XOR Totals](../../1501-2000/1993-sum-of-all-subset-xor-totals/)
+- [2732. Find a Good Subset of the Matrix](../../2501-3000/2826-find-a-good-subset-of-the-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)

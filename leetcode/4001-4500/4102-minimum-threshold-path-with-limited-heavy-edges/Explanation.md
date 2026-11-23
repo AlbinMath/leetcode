@@ -65,7 +65,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3066. Minimum Operations to Exceed Threshold Value II](../../3001-3500/3332-minimum-operations-to-exceed-threshold-value-ii/)
+- [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../../1501-2000/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 - [931. Minimum Falling Path Sum](../../0501-1000/0967-minimum-falling-path-sum/)
 

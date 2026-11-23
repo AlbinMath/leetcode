@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1321. Restaurant Growth](../../1001-1500/1452-restaurant-growth/)
 - [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
 - [1357. Apply Discount Every n Orders](../../1001-1500/1459-apply-discount-every-n-orders/)
-- [1801. Number of Orders in the Backlog](../../1501-2000/1928-number-of-orders-in-the-backlog/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)

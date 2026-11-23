@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [177. Nth Highest Salary](../../0001-0500/0177-nth-highest-salary/)
 - [184. Department Highest Salary](../../0001-0500/0184-department-highest-salary/)
-- [1491. Average Salary Excluding the Minimum and Maximum Salary](../../1501-2000/1584-average-salary-excluding-the-minimum-and-maximum-salary/)
+- [671. Second Minimum Node In a Binary Tree](../../0501-1000/0671-second-minimum-node-in-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/second-highest-salary/)
