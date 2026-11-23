@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4411-count-rotations-with-exactly-k-equal-adjacent-pairs/)
 - [1448. Count Good Nodes in Binary Tree](../../1501-2000/1544-count-good-nodes-in-binary-tree/)
 - [1534. Count Good Triplets](../../1501-2000/1656-count-good-triplets/)
-- [1922. Count Good Numbers](../../2001-2500/2050-count-good-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-good-cyclic-rotations/)

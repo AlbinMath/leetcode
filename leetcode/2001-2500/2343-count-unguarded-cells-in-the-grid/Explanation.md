@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3529. Count Cells in Overlapping Horizontal and Vertical Substrings](../../3501-4000/3821-count-cells-in-overlapping-horizontal-and-vertical-substrings/)
 - [2617. Minimum Number of Visited Cells in a Grid](../../2501-3000/2697-minimum-number-of-visited-cells-in-a-grid/)
 - [3276. Select Cells in Grid With Maximum Score](../../3501-4000/3563-select-cells-in-grid-with-maximum-score/)
+- [3529. Count Cells in Overlapping Horizontal and Vertical Substrings](../../3501-4000/3821-count-cells-in-overlapping-horizontal-and-vertical-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2841. Maximum Sum of Almost Unique Subarray](../../2501-3000/2954-maximum-sum-of-almost-unique-subarray/)
 - [2778. Sum of Squares of Special Elements ](../../2501-3000/2844-sum-of-squares-of-special-elements-/)
 - [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../../3001-3500/3423-maximum-sum-of-subsequence-with-non-adjacent-elements/)
+- [2841. Maximum Sum of Almost Unique Subarray](../../2501-3000/2954-maximum-sum-of-almost-unique-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-unique-elements/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3510. Minimum Pair Removal to Sort Array II](../../3501-4000/3772-minimum-pair-removal-to-sort-array-ii/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
+- [4062. Transform Array Using Pair Operations](../../4001-4500/4398-transform-array-using-pair-operations/)
+- [2290. Minimum Obstacle Removal to Reach Corner](../../2001-2500/2375-minimum-obstacle-removal-to-reach-corner/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/)

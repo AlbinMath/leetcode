@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3158. Find the XOR of Numbers Which Appear Twice](../../3001-3500/3428-find-the-xor-of-numbers-which-appear-twice/)
 - [3374. First Letter Capitalization II](../../3501-4000/3711-first-letter-capitalization-ii/)
-- [747. Largest Number At Least Twice of Others](../../0501-1000/0748-largest-number-at-least-twice-of-others/)
+- [1967. Number of Strings That Appear as Substrings in Word](../../2001-2500/2099-number-of-strings-that-appear-as-substrings-in-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-letter-to-appear-twice/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1649. Create Sorted Array through Instructions](../../1501-2000/1772-create-sorted-array-through-instructions/)
 - [1929. Concatenation of Array](../../2001-2500/2058-concatenation-of-array/)
 - [2562. Find the Array Concatenation Value](../../2501-3000/2698-find-the-array-concatenation-value/)
+- [1250. Check If It Is a Good Array](../../1001-1500/1372-check-if-it-is-a-good-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-array-formation-through-concatenation/)

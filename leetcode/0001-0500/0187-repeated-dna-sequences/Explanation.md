@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3475. DNA Pattern Recognition ](../../3501-4000/3816-dna-pattern-recognition-/)
 - [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
 - [686. Repeated String Match](../../0501-1000/0686-repeated-string-match/)
-- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-dna-sequences/)

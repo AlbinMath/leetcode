@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
+- [1615. Maximal Network Rank](../../1501-2000/1738-maximal-network-rank/)
 - [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
-- [473. Matchsticks to Square](../../0001-0500/0473-matchsticks-to-square/)
-- [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximal-square/)

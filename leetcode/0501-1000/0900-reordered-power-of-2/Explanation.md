@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [717. 1-bit and 2-bit Characters](../../0501-1000/0717-1-bit-and-2-bit-characters/)
-- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1379-reconstruct-a-2-row-binary-matrix/)
 - [231. Power of Two](../../0001-0500/0231-power-of-two/)
+- [326. Power of Three](../../0001-0500/0326-power-of-three/)
+- [342. Power of Four](../../0001-0500/0342-power-of-four/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reordered-power-of-2/)

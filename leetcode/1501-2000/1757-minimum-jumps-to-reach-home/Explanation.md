@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3629. Minimum Jumps to Reach End via Prime Teleportation](../../3501-4000/3933-minimum-jumps-to-reach-end-via-prime-teleportation/)
-- [2770. Maximum Number of Jumps to Reach the Last Index](../../2501-3000/2855-maximum-number-of-jumps-to-reach-the-last-index/)
 - [1210. Minimum Moves to Reach Target with Rotations](../../1001-1500/1322-minimum-moves-to-reach-target-with-rotations/)
+- [1557. Minimum Number of Vertices to Reach All Nodes](../../1501-2000/1661-minimum-number-of-vertices-to-reach-all-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-jumps-to-reach-home/)

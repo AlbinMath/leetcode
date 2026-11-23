@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1451. Rearrange Words in a Sentence](../../1501-2000/1561-rearrange-words-in-a-sentence/)
-- [1795. Rearrange Products Table](../../1501-2000/1948-rearrange-products-table/)
-- [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../../1501-2000/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
+- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [151. Reverse Words in a String](../../0001-0500/0151-reverse-words-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-spaces-between-words/)

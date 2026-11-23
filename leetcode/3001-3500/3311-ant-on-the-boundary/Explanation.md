@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](../../3001-3500/3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
 - [1916. Count Ways to Build Rooms in an Ant Colony](../../1001-1500/1313-count-ways-to-build-rooms-in-an-ant-colony/)
+- [3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](../../3001-3500/3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 
 ## LeetCode

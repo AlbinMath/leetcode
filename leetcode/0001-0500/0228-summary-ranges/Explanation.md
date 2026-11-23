@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1587. Bank Account Summary II](../../1501-2000/1734-bank-account-summary-ii/)
 - [2104. Sum of Subarray Ranges](../../2001-2500/2227-sum-of-subarray-ranges/)
+- [1587. Bank Account Summary II](../../1501-2000/1734-bank-account-summary-ii/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 
 ## LeetCode

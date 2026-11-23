@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](../../3501-4000/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
-- [2930. Number of Strings Which Can Be Rearranged to Contain Substring](../../3001-3500/3200-number-of-strings-which-can-be-rearranged-to-contain-substring/)
 - [2201. Count Artifacts That Can Be Extracted](../../1001-1500/1312-count-artifacts-that-can-be-extracted/)
+- [2930. Number of Strings Which Can Be Rearranged to Contain Substring](../../3001-3500/3200-number-of-strings-which-can-be-rearranged-to-contain-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)

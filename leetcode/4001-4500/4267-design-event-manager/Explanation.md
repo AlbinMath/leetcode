@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1797. Design Authentication Manager](../../1501-2000/1905-design-authentication-manager/)
 - [3408. Design Task Manager](../../3501-4000/3678-design-task-manager/)
-- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [675. Cut Off Trees for Golf Event](../../0501-1000/0675-cut-off-trees-for-golf-event/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-event-manager/)

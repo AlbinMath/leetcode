@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1351. Count Negative Numbers in a Sorted Matrix](../../1001-1500/1476-count-negative-numbers-in-a-sorted-matrix/)
-- [1684. Count the Number of Consistent Strings](../../1501-2000/1786-count-the-number-of-consistent-strings/)
-- [2506. Count Pairs Of Similar Strings](../../2501-3000/2594-count-pairs-of-similar-strings/)
+- [2062. Count Vowel Substrings of a String](../../2001-2500/2186-count-vowel-substrings-of-a-string/)
+- [3305. Count of Substrings Containing Every Vowel and K Consonants I](../../3501-4000/3570-count-of-substrings-containing-every-vowel-and-k-consonants-i/)
+- [3306. Count of Substrings Containing Every Vowel and K Consonants II](../../3501-4000/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-sorted-vowel-strings/)

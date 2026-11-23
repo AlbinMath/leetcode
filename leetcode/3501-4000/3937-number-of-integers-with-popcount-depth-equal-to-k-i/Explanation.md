@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3624. Number of Integers With Popcount-Depth Equal to K II](../../3501-4000/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/)
+- [3226. Number of Bit Changes to Make Two Integers Equal](../../3501-4000/3508-number-of-bit-changes-to-make-two-integers-equal/)
 - [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
-- [2447. Number of Subarrays With GCD Equal to K](../../2501-3000/2546-number-of-subarrays-with-gcd-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-i/)

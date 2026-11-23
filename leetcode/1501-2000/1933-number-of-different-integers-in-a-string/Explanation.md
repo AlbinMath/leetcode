@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [992. Subarrays with K Different Integers](../../1001-1500/1034-subarrays-with-k-different-integers/)
-- [1434. Number of Ways to Wear Different Hats to Each Other](../../1501-2000/1531-number-of-ways-to-wear-different-hats-to-each-other/)
-- [1819. Number of Different Subsequences GCDs](../../1501-2000/1947-number-of-different-subsequences-gcds/)
+- [434. Number of Segments in a String](../../0001-0500/0434-number-of-segments-in-a-string/)
+- [806. Number of Lines To Write String](../../0501-1000/0824-number-of-lines-to-write-string/)
+- [1356. Sort Integers by The Number of 1 Bits](../../1001-1500/1458-sort-integers-by-the-number-of-1-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-different-integers-in-a-string/)

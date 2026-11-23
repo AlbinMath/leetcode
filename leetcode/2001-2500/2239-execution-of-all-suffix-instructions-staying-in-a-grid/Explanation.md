@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
-- [1260. Shift 2D Grid](../../1001-1500/1386-shift-2d-grid/)
-- [1293. Shortest Path in a Grid with Obstacles Elimination](../../1001-1500/1414-shortest-path-in-a-grid-with-obstacles-elimination/)
+- [745. Prefix and Suffix Search](../../0501-1000/0746-prefix-and-suffix-search/)
+- [1529. Minimum Suffix Flips](../../1501-2000/1652-minimum-suffix-flips/)
+- [3042. Count Prefix and Suffix Pairs I](../../3001-3500/3309-count-prefix-and-suffix-pairs-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)

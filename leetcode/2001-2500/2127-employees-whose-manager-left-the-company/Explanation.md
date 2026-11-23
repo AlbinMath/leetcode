@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](../../1501-2000/1562-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
+- [2306. Naming a Company](../../2001-2500/2390-naming-a-company/)
 - [1797. Design Authentication Manager](../../1501-2000/1905-design-authentication-manager/)
-- [1845. Seat Reservation Manager](../../1501-2000/1955-seat-reservation-manager/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-whose-manager-left-the-company/)

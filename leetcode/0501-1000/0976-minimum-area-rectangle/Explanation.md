@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [963. Minimum Area Rectangle II](../../1001-1500/1003-minimum-area-rectangle-ii/)
+- [3197. Find the Minimum Area to Cover All Ones II](../../3001-3500/3459-find-the-minimum-area-to-cover-all-ones-ii/)
 - [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
-- [850. Rectangle Area II](../../0501-1000/0880-rectangle-area-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-area-rectangle/)

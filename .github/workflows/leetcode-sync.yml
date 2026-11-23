@@ -24,21 +24,3 @@ jobs:
           destination-folder: leetcode
           verbose: true
           commit-header: "[LeetCode Sync]"
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Run Index & Metadata Generator
-        run: python scripts/generate_index.py
-        env:
-          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
-          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
-
-      - name: Commit updated indexes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md All_Problems.md metadata/ patterns/ algorithms/ data-structures/ difficulty/ languages/ leetcode/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "[LeetCode Sync] Update index and problem metadata" && git push)

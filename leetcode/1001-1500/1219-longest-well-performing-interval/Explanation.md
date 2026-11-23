@@ -64,9 +64,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [57. Insert Interval](../../0001-0500/0057-insert-interval/)
-- [436. Find Right Interval](../../0001-0500/0436-find-right-interval/)
-- [986. Interval List Intersections](../../1001-1500/1028-interval-list-intersections/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-well-performing-interval/)

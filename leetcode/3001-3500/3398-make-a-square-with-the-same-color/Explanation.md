@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1812. Determine Color of a Chessboard Square](../../1501-2000/1920-determine-color-of-a-chessboard-square/)
 - [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
-- [768. Max Chunks To Make Sorted II](../../0501-1000/0779-max-chunks-to-make-sorted-ii/)
+- [1812. Determine Color of a Chessboard Square](../../1501-2000/1920-determine-color-of-a-chessboard-square/)
+- [100. Same Tree](../../0001-0500/0100-same-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-a-square-with-the-same-color/)

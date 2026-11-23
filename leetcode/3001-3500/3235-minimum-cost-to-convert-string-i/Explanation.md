@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2977. Minimum Cost to Convert String II](../../3001-3500/3238-minimum-cost-to-convert-string-ii/)
-- [2027. Minimum Moves to Convert String](../../2001-2500/2154-minimum-moves-to-convert-string/)
 - [3864. Minimum Cost to Partition a Binary String](../../4001-4500/4192-minimum-cost-to-partition-a-binary-string/)
+- [2027. Minimum Moves to Convert String](../../2001-2500/2154-minimum-moves-to-convert-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-convert-string-i/)

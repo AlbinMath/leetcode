@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [688. Knight Probability in Chessboard](../../0501-1000/0688-knight-probability-in-chessboard/)
 - [958. Check Completeness of a Binary Tree](../../0501-1000/0998-check-completeness-of-a-binary-tree/)
+- [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1045-check-if-word-is-valid-after-substitutions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-knight-tour-configuration/)

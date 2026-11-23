@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [3206. Alternating Groups I](../../3001-3500/3463-alternating-groups-i/)
 - [3208. Alternating Groups II](../../3001-3500/3483-alternating-groups-ii/)
-- [830. Positions of Large Groups](../../0501-1000/0857-positions-of-large-groups/)
+- [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/alternating-groups-iii/)

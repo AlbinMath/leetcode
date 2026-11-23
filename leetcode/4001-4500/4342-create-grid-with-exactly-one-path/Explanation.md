@@ -65,8 +65,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3988. Create Grid With Exactly K Paths I](../../4001-4500/4343-create-grid-with-exactly-k-paths-i/)
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+- [3988. Create Grid With Exactly K Paths I](../../4001-4500/4343-create-grid-with-exactly-k-paths-i/)
 - [1293. Shortest Path in a Grid with Obstacles Elimination](../../1001-1500/1414-shortest-path-in-a-grid-with-obstacles-elimination/)
 
 ## LeetCode

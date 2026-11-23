@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [2447. Number of Subarrays With GCD Equal to K](../../2501-3000/2546-number-of-subarrays-with-gcd-equal-to-k/)
 - [2470. Number of Subarrays With LCM Equal to K](../../2501-3000/2557-number-of-subarrays-with-lcm-equal-to-k/)
-- [3179. Find the N-th Value After K Seconds](../../3001-3500/3422-find-the-n-th-value-after-k-seconds/)
+- [992. Subarrays with K Different Integers](../../1001-1500/1034-subarrays-with-k-different-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/)

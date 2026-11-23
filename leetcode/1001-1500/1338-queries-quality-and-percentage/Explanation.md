@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1633. Percentage of Users Attended a Contest](../../1501-2000/1773-percentage-of-users-attended-a-contest/)
 - [1620. Coordinate With Maximum Network Quality](../../1501-2000/1726-coordinate-with-maximum-network-quality/)
 - [2065. Maximum Path Quality of a Graph](../../2001-2500/2189-maximum-path-quality-of-a-graph/)
-- [1633. Percentage of Users Attended a Contest](../../1501-2000/1773-percentage-of-users-attended-a-contest/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queries-quality-and-percentage/)

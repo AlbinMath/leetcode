@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [676. Implement Magic Dictionary](../../0501-1000/0676-implement-magic-dictionary/)
-- [2171. Removing Minimum Number of Magic Beans](../../2001-2500/2290-removing-minimum-number-of-magic-beans/)
 - [1260. Shift 2D Grid](../../1001-1500/1386-shift-2d-grid/)
+- [1293. Shortest Path in a Grid with Obstacles Elimination](../../1001-1500/1414-shortest-path-in-a-grid-with-obstacles-elimination/)
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/magic-squares-in-grid/)

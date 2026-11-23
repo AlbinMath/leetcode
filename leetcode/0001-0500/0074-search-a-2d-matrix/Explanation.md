@@ -67,8 +67,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [240. Search a 2D Matrix II](../../0001-0500/0240-search-a-2d-matrix-ii/)
-- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
-- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
+- [304. Range Sum Query 2D - Immutable](../../0001-0500/0304-range-sum-query-2d---immutable/)
+- [1260. Shift 2D Grid](../../1001-1500/1386-shift-2d-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-a-2d-matrix/)

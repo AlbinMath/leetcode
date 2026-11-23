@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2039. The Time When the Network Becomes Idle](../../2001-2500/2151-the-time-when-the-network-becomes-idle/)
 - [931. Minimum Falling Path Sum](../../0501-1000/0967-minimum-falling-path-sum/)
 - [1289. Minimum Falling Path Sum II](../../1001-1500/1224-minimum-falling-path-sum-ii/)
+- [2039. The Time When the Network Becomes Idle](../../2001-2500/2151-the-time-when-the-network-becomes-idle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bricks-falling-when-hit/)

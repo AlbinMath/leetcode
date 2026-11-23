@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [258. Add Digits](../../0001-0500/0258-add-digits/)
-- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
-- [402. Remove K Digits](../../0001-0500/0402-remove-k-digits/)
+- [332. Reconstruct Itinerary](../../0001-0500/0332-reconstruct-itinerary/)
+- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1379-reconstruct-a-2-row-binary-matrix/)
+- [1719. Number Of Ways To Reconstruct A Tree](../../1501-2000/1820-number-of-ways-to-reconstruct-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reconstruct-original-digits-from-english/)

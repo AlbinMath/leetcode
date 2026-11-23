@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3029. Minimum Time to Revert Word to Initial State I](../../3001-3500/3297-minimum-time-to-revert-word-to-initial-state-i/)
 - [1974. Minimum Time to Type Word Using Special Typewriter](../../2001-2500/2088-minimum-time-to-type-word-using-special-typewriter/)
-- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
+- [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1443-minimum-distance-to-type-a-word-using-two-fingers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/)

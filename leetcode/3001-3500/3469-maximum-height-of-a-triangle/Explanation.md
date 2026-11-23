@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1840. Maximum Building Height](../../1501-2000/1968-maximum-building-height/)
 - [3588. Find Maximum Area of a Triangle](../../3501-4000/3868-find-maximum-area-of-a-triangle/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-height-of-a-triangle/)

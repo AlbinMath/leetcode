@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3825. Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND](../../4001-4500/4032-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/)
-- [1403. Minimum Subsequence in Non-Increasing Order](../../1501-2000/1519-minimum-subsequence-in-non-increasing-order/)
-- [1969. Minimum Non-Zero Product of the Array Elements](../../2001-2500/2100-minimum-non-zero-product-of-the-array-elements/)
+- [982. Triples with Bitwise AND Equal To Zero](../../1001-1500/1024-triples-with-bitwise-and-equal-to-zero/)
+- [1787. Make the XOR of All Segments Equal to Zero](../../1501-2000/1913-make-the-xor-of-all-segments-equal-to-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/)

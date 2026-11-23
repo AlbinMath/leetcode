@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [262. Trips and Users](../../0001-0500/0262-trips-and-users/)
 - [924. Minimize Malware Spread](../../0501-1000/0960-minimize-malware-spread/)
 - [928. Minimize Malware Spread II](../../0501-1000/0964-minimize-malware-spread-ii/)
-- [1722. Minimize Hamming Distance After Swap Operations](../../1501-2000/1840-minimize-hamming-distance-after-swap-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-total-price-of-the-trips/)

@@ -65,7 +65,7 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 ## Related Problems
 - [2509. Cycle Length Queries in a Tree](../../2501-3000/2597-cycle-length-queries-in-a-tree/)
 - [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
-- [141. Linked List Cycle](../../0001-0500/0141-linked-list-cycle/)
+- [2203. Minimum Weighted Subgraph With the Required Paths](../../2001-2500/2321-minimum-weighted-subgraph-with-the-required-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/incremental-even-weighted-cycle-queries/)

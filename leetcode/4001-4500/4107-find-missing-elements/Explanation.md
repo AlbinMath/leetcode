@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
-- [1261. Find Elements in a Contaminated Binary Tree](../../1001-1500/1387-find-elements-in-a-contaminated-binary-tree/)
 - [2028. Find Missing Observations](../../2001-2500/2155-find-missing-observations/)
+- [3471. Find the Largest Almost Missing Integer](../../3501-4000/3705-find-the-largest-almost-missing-integer/)
+- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-missing-elements/)

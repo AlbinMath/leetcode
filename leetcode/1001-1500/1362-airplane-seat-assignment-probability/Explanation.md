@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [688. Knight Probability in Chessboard](../../0501-1000/0688-knight-probability-in-chessboard/)
-- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1501-2000/1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
-- [1514. Path with Maximum Probability](../../1001-1500/1325-path-with-maximum-probability/)
+- [1386. Cinema Seat Allocation](../../1001-1500/1487-cinema-seat-allocation/)
+- [1845. Seat Reservation Manager](../../1501-2000/1955-seat-reservation-manager/)
+- [2037. Minimum Number of Moves to Seat Everyone](../../2001-2500/2148-minimum-number-of-moves-to-seat-everyone/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/airplane-seat-assignment-probability/)

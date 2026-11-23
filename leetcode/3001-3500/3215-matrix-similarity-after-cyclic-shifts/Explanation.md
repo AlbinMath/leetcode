@@ -66,7 +66,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [861. Score After Flipping Matrix](../../0501-1000/0891-score-after-flipping-matrix/)
-- [1813. Sentence Similarity III](../../1501-2000/1923-sentence-similarity-iii/)
+- [4044. Count Good Cyclic Rotations](../../4001-4500/4412-count-good-cyclic-rotations/)
 - [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
 
 ## LeetCode

@@ -74,9 +74,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [12. Integer to Roman](../../0001-0500/0012-integer-to-roman/)
-- [13. Roman to Integer](../../0001-0500/0013-roman-to-integer/)
+- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
+- [92. Reverse Linked List II](../../0001-0500/0092-reverse-linked-list-ii/)
+- [150. Evaluate Reverse Polish Notation](../../0001-0500/0150-evaluate-reverse-polish-notation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-integer/)

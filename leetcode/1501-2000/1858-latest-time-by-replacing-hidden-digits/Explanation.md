@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3114. Latest Time You Can Obtain After Replacing Characters](../../3001-3500/3361-latest-time-you-can-obtain-after-replacing-characters/)
 - [949. Largest Time for Given Digits](../../0501-1000/0986-largest-time-for-given-digits/)
-- [258. Add Digits](../../0001-0500/0258-add-digits/)
+- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)

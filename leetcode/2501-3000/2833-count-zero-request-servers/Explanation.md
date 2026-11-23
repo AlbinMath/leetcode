@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1267. Count Servers that Communicate](../../1001-1500/1396-count-servers-that-communicate/)
 - [2169. Count Operations to Obtain Zero](../../2001-2500/2288-count-operations-to-obtain-zero/)
-- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1710-find-servers-that-handled-most-number-of-requests/)
+- [38. Count and Say](../../0001-0500/0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-zero-request-servers/)

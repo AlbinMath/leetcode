@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
-- [1016. Binary String With Substrings Representing 1 To N](../../1001-1500/1065-binary-string-with-substrings-representing-1-to-n/)
-- [1461. Check If a String Contains All Binary Codes of Size K](../../1501-2000/1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
+- [1582. Special Positions in a Binary Matrix](../../1501-2000/1704-special-positions-in-a-binary-matrix/)
+- [3612. Process String with Special Operations I](../../3501-4000/3931-process-string-with-special-operations-i/)
+- [3614. Process String with Special Operations II](../../3501-4000/3939-process-string-with-special-operations-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/special-binary-string/)

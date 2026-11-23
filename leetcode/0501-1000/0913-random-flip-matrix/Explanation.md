@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2556. Disconnect Path in a Binary Matrix by at Most One Flip](../../2501-3000/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
-- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
-- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
+- [138. Copy List with Random Pointer](../../0001-0500/0138-copy-list-with-random-pointer/)
+- [382. Linked List Random Node](../../0001-0500/0382-linked-list-random-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/random-flip-matrix/)

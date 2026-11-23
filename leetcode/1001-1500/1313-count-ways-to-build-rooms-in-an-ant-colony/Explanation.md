@@ -65,7 +65,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1735. Count Ways to Make Array With Product](../../1501-2000/1836-count-ways-to-make-array-with-product/)
 - [3725. Count Ways to Choose Coprime Integers from Rows](../../4001-4500/4069-count-ways-to-choose-coprime-integers-from-rows/)
-- [3028. Ant on the Boundary](../../3001-3500/3311-ant-on-the-boundary/)
+- [841. Keys and Rooms](../../0501-1000/0871-keys-and-rooms/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
-- [1661. Average Time of Process per Machine](../../1501-2000/1801-average-time-of-process-per-machine/)
-- [1882. Process Tasks Using Servers](../../2001-2500/2012-process-tasks-using-servers/)
+- [1601. Maximum Number of Achievable Transfer Requests](../../1501-2000/1723-maximum-number-of-achievable-transfer-requests/)
+- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1710-find-servers-that-handled-most-number-of-requests/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-restricted-friend-requests/)

@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2322. Minimum Score After Removals on a Tree](../../2001-2500/2400-minimum-score-after-removals-on-a-tree/)
-- [3746. Minimum String Length After Balanced Removals](../../4001-4500/4090-minimum-string-length-after-balanced-removals/)
-- [3877. Minimum Removals to Achieve Target XOR](../../4001-4500/4097-minimum-removals-to-achieve-target-xor/)
+- [1541. Minimum Insertions to Balance a Parentheses String](../../1501-2000/1648-minimum-insertions-to-balance-a-parentheses-string/)
+- [3679.  Minimum Discards to Balance Inventory](../../3501-4000/3953--minimum-discards-to-balance-inventory/)
+- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-removals-to-balance-array/)

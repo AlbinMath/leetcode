@@ -1,7 +1,13 @@
 name: Generate LeetCode Indexes & Metadata
 
 on:
+  workflow_run:
+    workflows: ["Sync LeetCode"]
+    types:
+      - completed
   push:
+    branches:
+      - main
     paths:
       - 'leetcode/**'
       - 'scripts/**'
@@ -10,11 +16,16 @@ on:
 jobs:
   update-indexes:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     permissions:
       contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,5 +42,6 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md All_Problems.md metadata/ patterns/ algorithms/ data-structures/ difficulty/ languages/ leetcode/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update LeetCode indexes, problem metadata, and explanations" && git push)
+          git pull --rebase origin main || true
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update LeetCode indexes, problem metadata, and explanations" && git push origin main)

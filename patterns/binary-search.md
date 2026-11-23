@@ -99,6 +99,7 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 | 788 | [Rotated Digits](../leetcode/0501-1000/0804-rotated-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0804-rotated-digits/Explanation.md) |
 | 814 | [Binary Tree Pruning](../leetcode/0501-1000/0832-binary-tree-pruning/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0832-binary-tree-pruning/Explanation.md) |
 | 852 | [Peak Index in a Mountain Array](../leetcode/0501-1000/0882-peak-index-in-a-mountain-array/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0882-peak-index-in-a-mountain-array/Explanation.md) |
+| 863 | [All Nodes Distance K in Binary Tree](../leetcode/0501-1000/0893-all-nodes-distance-k-in-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0893-all-nodes-distance-k-in-binary-tree/Explanation.md) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](../leetcode/0501-1000/0925-construct-binary-tree-from-preorder-and-postorder-traversal/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0925-construct-binary-tree-from-preorder-and-postorder-traversal/Explanation.md) |
 | 894 | [All Possible Full Binary Trees](../leetcode/0501-1000/0930-all-possible-full-binary-trees/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0930-all-possible-full-binary-trees/Explanation.md) |
 | 900 | [RLE Iterator](../leetcode/0501-1000/0936-rle-iterator/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0936-rle-iterator/Explanation.md) |

@@ -72,9 +72,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [3256. Maximum Value Sum by Placing Three Rooks I](../../3501-4000/3550-maximum-value-sum-by-placing-three-rooks-i/)
-- [3257. Maximum Value Sum by Placing Three Rooks II](../../3501-4000/3542-maximum-value-sum-by-placing-three-rooks-ii/)
 - [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
+- [318. Maximum Product of Word Lengths](../../0001-0500/0318-maximum-product-of-word-lengths/)
+- [1339. Maximum Product of Splitted Binary Tree](../../1001-1500/1465-maximum-product-of-splitted-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-of-three-numbers/)

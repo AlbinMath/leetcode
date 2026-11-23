@@ -65,8 +65,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1662. Check If Two String Arrays are Equivalent](../../1501-2000/1781-check-if-two-string-arrays-are-equivalent/)
 - [1704. Determine if String Halves Are Alike](../../1501-2000/1823-determine-if-string-halves-are-alike/)
-- [2068. Check Whether Two Strings are Almost Equivalent](../../2001-2500/2177-check-whether-two-strings-are-almost-equivalent/)
 - [3327. Check if DFS Strings Are Palindromes](../../3501-4000/3603-check-if-dfs-strings-are-palindromes/)
 
 ## LeetCode

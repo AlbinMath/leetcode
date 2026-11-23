@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [88. Merge Sorted Array](../../0001-0500/0088-merge-sorted-array/)
+- [2626. Array Reduce Transformation](../../2501-3000/2761-array-reduce-transformation/)
 - [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
 - [805. Split Array With Same Average](../../0501-1000/0823-split-array-with-same-average/)
 

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2532. Time to Cross a Bridge](../../2501-3000/2642-time-to-cross-a-bridge/)
 - [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
 - [581. Shortest Unsorted Continuous Subarray](../../0501-1000/0581-shortest-unsorted-continuous-subarray/)
-- [748. Shortest Completing Word](../../0501-1000/0749-shortest-completing-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-bridge/)

@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2946. Matrix Similarity After Cyclic Shifts](../../3001-3500/3215-matrix-similarity-after-cyclic-shifts/)
 - [1451. Rearrange Words in a Sentence](../../1501-2000/1561-rearrange-words-in-a-sentence/)
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
-- [1816. Truncate Sentence](../../1501-2000/1944-truncate-sentence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sentence-similarity-iii/)

@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1647. Minimum Deletions to Make Character Frequencies Unique](../../1501-2000/1770-minimum-deletions-to-make-character-frequencies-unique/)
+- [3389. Minimum Operations to Make Character Frequencies Equal](../../3501-4000/3638-minimum-operations-to-make-character-frequencies-equal/)
 - [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
-- [581. Shortest Unsorted Continuous Subarray](../../0501-1000/0581-shortest-unsorted-continuous-subarray/)
-- [748. Shortest Completing Word](../../0501-1000/0749-shortest-completing-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/frequencies-of-shortest-supersequences/)
