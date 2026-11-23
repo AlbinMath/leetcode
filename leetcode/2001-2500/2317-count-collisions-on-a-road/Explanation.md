@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2550. Count Collisions of Monkeys on a Polygon](../../2501-3000/2680-count-collisions-of-monkeys-on-a-polygon/)
-- [3243. Shortest Distance After Road Addition Queries I](../../3501-4000/3517-shortest-distance-after-road-addition-queries-i/)
-- [3244. Shortest Distance After Road Addition Queries II](../../3501-4000/3514-shortest-distance-after-road-addition-queries-ii/)
+- [2751. Robot Collisions](../../2501-3000/2846-robot-collisions/)
+- [38. Count and Say](../../0001-0500/0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-collisions-on-a-road/)

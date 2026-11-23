@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [3979. Maximum Valid Pair Sum](../../4001-4500/4341-maximum-valid-pair-sum/)
-- [4033. Valid K-Unique Subarrays I](../../3501-4000/3988-valid-k-unique-subarrays-i/)
+- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
+- [1837. Sum of Digits in Base K](../../1501-2000/1965-sum-of-digits-in-base-k/)
+- [1945. Sum of Digits of String After Convert](../../2001-2500/2076-sum-of-digits-of-string-after-convert/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/)

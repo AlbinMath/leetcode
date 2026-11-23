@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1758. Minimum Changes To Make Alternating Binary String](../../1501-2000/1884-minimum-changes-to-make-alternating-binary-string/)
 - [1830. Minimum Number of Operations to Make String Sorted](../../1501-2000/1941-minimum-number-of-operations-to-make-string-sorted/)
-- [2471. Minimum Number of Operations to Sort a Binary Tree by Level](../../2501-3000/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
-- [3191. Minimum Operations to Make Binary Array Elements Equal to One I](../../3001-3500/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i/)
+- [1864. Minimum Number of Swaps to Make the Binary String Alternating](../../1501-2000/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/)

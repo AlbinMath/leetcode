@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3880. Minimum Absolute Difference Between Two Values](../../4001-4500/4255-minimum-absolute-difference-between-two-values/)
-- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1228-minimum-cost-tree-from-leaf-values/)
-- [1252. Cells with Odd Values in a Matrix](../../1001-1500/1378-cells-with-odd-values-in-a-matrix/)
+- [807. Max Increase to Keep City Skyline](../../0501-1000/0825-max-increase-to-keep-city-skyline/)
+- [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](../../1501-2000/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)

@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../../3001-3500/3423-maximum-sum-of-subsequence-with-non-adjacent-elements/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [3638. Maximum Balanced Shipments](../../3501-4000/3954-maximum-balanced-shipments/)
+- [3755. Find Maximum Balanced XOR Subarray Length](../../3501-4000/3946-find-maximum-balanced-xor-subarray-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-balanced-subsequence-sum/)

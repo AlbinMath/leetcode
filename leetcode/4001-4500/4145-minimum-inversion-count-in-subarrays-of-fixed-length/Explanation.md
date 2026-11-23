@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2444. Count Subarrays With Fixed Bounds](../../2501-3000/2527-count-subarrays-with-fixed-bounds/)
-- [1588. Sum of All Odd Length Subarrays](../../1501-2000/1693-sum-of-all-odd-length-subarrays/)
+- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
 - [1750. Minimum Length of String After Deleting Similar Ends](../../1501-2000/1850-minimum-length-of-string-after-deleting-similar-ends/)
 
 ## LeetCode

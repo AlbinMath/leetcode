@@ -40,4 +40,4 @@ A collection of LeetCode problems implemented in **Java** with detailed complexi
 | 3734 | [Lexicographically Smallest Palindromic Permutation Greater Than Target](../leetcode/4001-4500/4037-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard | Backtracking | O(n) | O(1) |
 | 3737 | [Count Subarrays With Majority Element I](../leetcode/4001-4500/4074-count-subarrays-with-majority-element-i/) | Medium | Monotonic Stack | O(n) | O(n) |
 | 3751 | [Total Waviness of Numbers in Range I](../leetcode/4001-4500/4057-total-waviness-of-numbers-in-range-i/) | Medium | Bit Manipulation | O(n) | O(1) |
-| 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4001-4500/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | Linked List | O(n) | O(1) |
+| 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4001-4500/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | Two Pointers | O(n) | O(1) |

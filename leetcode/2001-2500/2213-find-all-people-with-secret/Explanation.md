@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2327. Number of People Aware of a Secret](../../2001-2500/2408-number-of-people-aware-of-a-secret/)
 - [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
 - [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
-- [1397. Find All Good Strings](../../1501-2000/1513-find-all-good-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-people-with-secret/)

@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [819. Most Common Word](../../0501-1000/0837-most-common-word/)
-- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
+- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [336. Palindrome Pairs](../../0001-0500/0336-palindrome-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-course-pairs/)

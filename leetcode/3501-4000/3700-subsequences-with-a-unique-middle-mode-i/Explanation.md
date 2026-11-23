@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1930. Unique Length-3 Palindromic Subsequences](../../2001-2500/2059-unique-length-3-palindromic-subsequences/)
 - [1987. Number of Unique Good Subsequences](../../2001-2500/2115-number-of-unique-good-subsequences/)
-- [876. Middle of the Linked List](../../0501-1000/0908-middle-of-the-linked-list/)
+- [115. Distinct Subsequences](../../0001-0500/0115-distinct-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/)

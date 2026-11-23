@@ -52,3 +52,5 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 
 | 1681 | [Minimum Incompatibility](../leetcode/1501-2000/1799-minimum-incompatibility/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1799-minimum-incompatibility/Explanation.md) |
 
+| 2528 | [Maximize the Minimum Powered City](../leetcode/2501-3000/2618-maximize-the-minimum-powered-city/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2618-maximize-the-minimum-powered-city/Explanation.md) |
+

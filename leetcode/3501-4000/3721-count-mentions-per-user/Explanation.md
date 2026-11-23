@@ -1,7 +1,7 @@
 # LeetCode 3433: Count Mentions Per User
 
 **LeetCode Problem #3433 — Count Mentions Per User**
-Solve LeetCode Count Mentions Per User using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Count Mentions Per User using JavaScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Count Mentions Per User using JavaScript and Tree & Graph. This s
 | LeetCode | #3433 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,31 +20,30 @@ Solve LeetCode Count Mentions Per User using JavaScript and Tree & Graph. This s
 You are given an integer  numberOfUsers  representing the total number of users and an array  events  of size  n x 3 .
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
+1. Initialize state variables / data structure (**Dictionary / Hash Map**).
+2. Process elements sequentially using **Complement Lookup / Hash Table Frequency**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Mentions Per User**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Count Mentions Per User**. Applying **Complement Lookup / Hash Table Frequency** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Tree & Graph**
+**Hash Map**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Hash Table
+- Array
+- Complement Lookup
 
 ## Language
 JavaScript
@@ -53,21 +52,21 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1348. Tweet Counts Per Frequency](../../1001-1500/1470-tweet-counts-per-frequency/)
-- [1661. Average Time of Process per Machine](../../1501-2000/1801-average-time-of-process-per-machine/)
-- [1141. User Activity for the Past 30 Days I](../../1001-1500/1245-user-activity-for-the-past-30-days-i/)
+- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [204. Count Primes](../../0001-0500/0204-count-primes/)
+- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-mentions-per-user/)

@@ -29,6 +29,7 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 477 | [Total Hamming Distance](../leetcode/0001-0500/0477-total-hamming-distance/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 502 | [IPO](../leetcode/0501-1000/0502-ipo/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 592 | [Fraction Addition and Subtraction](../leetcode/0501-1000/0592-fraction-addition-and-subtraction/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 598 | [Range Addition II](../leetcode/0501-1000/0598-range-addition-ii/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 645 | [Set Mismatch](../leetcode/0501-1000/0645-set-mismatch/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 658 | [Find K Closest Elements](../leetcode/0501-1000/0658-find-k-closest-elements/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 677 | [Map Sum Pairs](../leetcode/0501-1000/0677-map-sum-pairs/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
@@ -38,7 +39,6 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 726 | [Number of Atoms](../leetcode/0501-1000/0726-number-of-atoms/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 736 | [Parse Lisp Expression](../leetcode/0501-1000/0736-parse-lisp-expression/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 810 | [Chalkboard XOR Game](../leetcode/0501-1000/0828-chalkboard-xor-game/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
-| 828 | [Count Unique Characters of All Substrings of a Given String](../leetcode/0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 835 | [Image Overlap](../leetcode/0501-1000/0864-image-overlap/) | Medium | Bitwise Masking & Bit Shift | O(n²) | O(1) |
 | 842 | [Split Array into Fibonacci Sequence](../leetcode/0501-1000/0872-split-array-into-fibonacci-sequence/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 869 | [Reordered Power of 2](../leetcode/0501-1000/0900-reordered-power-of-2/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
@@ -55,7 +55,6 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 1352 | [Product of the Last K Numbers](../leetcode/1001-1500/1477-product-of-the-last-k-numbers/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1354 | [Construct Target Array With Multiple Sums](../leetcode/1001-1500/1479-construct-target-array-with-multiple-sums/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1356 | [Sort Integers by The Number of 1 Bits](../leetcode/1001-1500/1458-sort-integers-by-the-number-of-1-bits/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
-| 1387 | [Sort Integers by The Power Value](../leetcode/1001-1500/1488-sort-integers-by-the-power-value/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](../leetcode/1501-2000/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1419 | [Minimum Number of Frogs Croaking](../leetcode/1501-2000/1534-minimum-number-of-frogs-croaking/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](../leetcode/1501-2000/1556-make-two-arrays-equal-by-reversing-subarrays/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
@@ -91,6 +90,8 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 1888 | [Minimum Number of Flips to Make the Binary String Alternating](../leetcode/2001-2500/2017-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1903 | [Largest Odd Number in String](../leetcode/2001-2500/2032-largest-odd-number-in-string/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1969 | [Minimum Non-Zero Product of the Array Elements](../leetcode/2001-2500/2100-minimum-non-zero-product-of-the-array-elements/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 1984 | [Minimum Difference Between Highest and Lowest of K Scores](../leetcode/2001-2500/2112-minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 1986 | [Minimum Number of Work Sessions to Finish the Tasks](../leetcode/2001-2500/2114-minimum-number-of-work-sessions-to-finish-the-tasks/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 1994 | [The Number of Good Subsets](../leetcode/2001-2500/2105-the-number-of-good-subsets/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2044 | [Count Number of Maximum Bitwise-OR Subsets](../leetcode/2001-2500/2170-count-number-of-maximum-bitwise-or-subsets/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2059 | [Minimum Operations to Convert Number](../leetcode/2001-2500/2183-minimum-operations-to-convert-number/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
@@ -103,7 +104,6 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 2166 | [Design Bitset](../leetcode/2001-2500/2285-design-bitset/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2169 | [Count Operations to Obtain Zero](../leetcode/2001-2500/2288-count-operations-to-obtain-zero/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2171 | [Removing Minimum Number of Magic Beans](../leetcode/2001-2500/2290-removing-minimum-number-of-magic-beans/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
-| 2172 | [Maximum AND Sum of Array](../leetcode/2001-2500/2291-maximum-and-sum-of-array/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2197 | [Replace Non-Coprime Numbers in Array](../leetcode/2001-2500/2307-replace-non-coprime-numbers-in-array/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2220 | [Minimum Bit Flips to Convert Number](../leetcode/2001-2500/2323-minimum-bit-flips-to-convert-number/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2260 | [Minimum Consecutive Cards to Pick Up](../leetcode/2001-2500/2338-minimum-consecutive-cards-to-pick-up/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
@@ -129,6 +129,7 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 2723 | [Add Two Promises](../leetcode/2501-3000/2859-add-two-promises/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2747 | [Count Zero Request Servers](../leetcode/2501-3000/2833-count-zero-request-servers/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2749 | [Minimum Operations to Make the Integer Zero](../leetcode/2501-3000/2837-minimum-operations-to-make-the-integer-zero/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 2761 | [Prime Pairs With Target Sum](../leetcode/2501-3000/2873-prime-pairs-with-target-sum/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2762 | [Continuous Subarrays](../leetcode/2501-3000/2868-continuous-subarrays/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2859 | [Sum of Values at Indices With K Set Bits](../leetcode/3001-3500/3093-sum-of-values-at-indices-with-k-set-bits/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 2871 | [Split Array Into Maximum Number of Subarrays](../leetcode/3001-3500/3080-split-array-into-maximum-number-of-subarrays/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
@@ -171,10 +172,13 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 3321 | [Find X-Sum of All K-Long Subarrays II](../leetcode/3501-4000/3592-find-x-sum-of-all-k-long-subarrays-ii/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3352 | [Count K-Reducible Numbers Less Than N](../leetcode/3501-4000/3631-count-k-reducible-numbers-less-than-n/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3377 | [Digit Operations to Make Two Integers Equal](../leetcode/3501-4000/3655-digit-operations-to-make-two-integers-equal/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 3413 | [Maximum Coins From K Consecutive Bags](../leetcode/3501-4000/3715-maximum-coins-from-k-consecutive-bags/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 3495 | [Minimum Operations to Make Array Elements Zero](../leetcode/3501-4000/3744-minimum-operations-to-make-array-elements-zero/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3521 | [Find Product Recommendation Pairs](../leetcode/3501-4000/3865-find-product-recommendation-pairs/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3539 | [Find Sum of Array Product of Magical Sequences](../leetcode/3501-4000/3851-find-sum-of-array-product-of-magical-sequences/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3554 | [Find Category Recommendation Pairs](../leetcode/3501-4000/3891-find-category-recommendation-pairs/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3599 | [Partition Array to Minimize XOR](../leetcode/3501-4000/3913-partition-array-to-minimize-xor/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
+| 3608 | [Minimum Time for K Connected Components](../leetcode/3501-4000/3908-minimum-time-for-k-connected-components/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3621 | [Number of Integers With Popcount-Depth Equal to K I](../leetcode/3501-4000/3937-number-of-integers-with-popcount-depth-equal-to-k-i/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3624 | [Number of Integers With Popcount-Depth Equal to K II](../leetcode/3501-4000/3941-number-of-integers-with-popcount-depth-equal-to-k-ii/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3630 | [Partition Array for Maximum XOR and AND](../leetcode/3501-4000/3882-partition-array-for-maximum-xor-and-and/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |
@@ -199,5 +203,4 @@ LeetCode problems solved using **Integer Bitmask** data structures.
 | 3950 | [Exactly One Consecutive Set Bits Pair](../leetcode/4001-4500/4307-exactly-one-consecutive-set-bits-pair/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3954 | [Sum of Compatible Numbers in Range I](../leetcode/4001-4500/4319-sum-of-compatible-numbers-in-range-i/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 3955 | [Valid Binary Strings With Cost Limit](../leetcode/4001-4500/4289-valid-binary-strings-with-cost-limit/) | Medium | Bitwise Masking & Bit Shift | O(n) | O(1) |
-| 4030 | [Check ASCII Palindromic](../leetcode/4001-4500/4381-check-ascii-palindromic/) | Easy | Bitwise Masking & Bit Shift | O(n) | O(1) |
 | 4059 | [Lexicographically Largest Power Array](../leetcode/4001-4500/4028-lexicographically-largest-power-array/) | Hard | Bitwise Masking & Bit Shift | O(n) | O(1) |

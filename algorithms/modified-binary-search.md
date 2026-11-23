@@ -69,11 +69,13 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 653 | [Two Sum IV - Input is a BST](../leetcode/0501-1000/0653-two-sum-iv---input-is-a-bst/) | Easy | Binary Search | O(n) | O(1) |
 | 655 | [Print Binary Tree](../leetcode/0501-1000/0655-print-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 669 | [Trim a Binary Search Tree](../leetcode/0501-1000/0669-trim-a-binary-search-tree/) | Medium | Binary Search | O(n) | O(1) |
+| 675 | [Cut Off Trees for Golf Event](../leetcode/0501-1000/0675-cut-off-trees-for-golf-event/) | Hard | Binary Search | O(n) | O(1) |
 | 700 | [Search in a Binary Search Tree](../leetcode/0501-1000/0783-search-in-a-binary-search-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 701 | [Insert into a Binary Search Tree](../leetcode/0501-1000/0784-insert-into-a-binary-search-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 704 | [Binary Search](../leetcode/0501-1000/0792-binary-search/) | Easy | Binary Search | O(log n) | O(1) |
 | 783 | [Minimum Distance Between BST Nodes](../leetcode/0501-1000/0799-minimum-distance-between-bst-nodes/) | Easy | Binary Search | O(n) | O(1) |
 | 788 | [Rotated Digits](../leetcode/0501-1000/0804-rotated-digits/) | Medium | Binary Search | O(n) | O(1) |
+| 804 | [Unique Morse Code Words](../leetcode/0501-1000/0822-unique-morse-code-words/) | Easy | Binary Search | O(n) | O(1) |
 | 814 | [Binary Tree Pruning](../leetcode/0501-1000/0832-binary-tree-pruning/) | Medium | Binary Search | O(n) | O(1) |
 | 819 | [Most Common Word](../leetcode/0501-1000/0837-most-common-word/) | Easy | Binary Search | O(n) | O(1) |
 | 834 | [Sum of Distances in Tree](../leetcode/0501-1000/0863-sum-of-distances-in-tree/) | Hard | Binary Search | O(n) | O(1) |
@@ -88,9 +90,11 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 912 | [Sort an Array](../leetcode/0501-1000/0948-sort-an-array/) | Medium | Binary Search | O(n) | O(1) |
 | 919 | [Complete Binary Tree Inserter](../leetcode/0501-1000/0955-complete-binary-tree-inserter/) | Medium | Binary Search | O(n) | O(1) |
 | 929 | [Unique Email Addresses](../leetcode/0501-1000/0965-unique-email-addresses/) | Easy | Binary Search | O(n) | O(1) |
+| 930 | [Binary Subarrays With Sum](../leetcode/0501-1000/0966-binary-subarrays-with-sum/) | Medium | Binary Search | O(n) | O(1) |
 | 938 | [Range Sum of BST](../leetcode/0501-1000/0975-range-sum-of-bst/) | Easy | Binary Search | O(n) | O(1) |
 | 946 | [Validate Stack Sequences](../leetcode/0501-1000/0983-validate-stack-sequences/) | Medium | Binary Search | O(n) | O(1) |
 | 951 | [Flip Equivalent Binary Trees](../leetcode/0501-1000/0988-flip-equivalent-binary-trees/) | Medium | Binary Search | O(n) | O(1) |
+| 958 | [Check Completeness of a Binary Tree](../leetcode/0501-1000/0998-check-completeness-of-a-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 965 | [Univalued Binary Tree](../leetcode/1001-1500/1005-univalued-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
 | 968 | [Binary Tree Cameras](../leetcode/1001-1500/1008-binary-tree-cameras/) | Hard | Binary Search | O(n) | O(1) |
 | 979 | [Distribute Coins in Binary Tree](../leetcode/1001-1500/1021-distribute-coins-in-binary-tree/) | Medium | Binary Search | O(n) | O(1) |
@@ -126,10 +130,12 @@ A curated selection of LeetCode problems solved using the **Modified Binary Sear
 | 1846 | [Maximum Element After Decreasing and Rearranging](../leetcode/1501-2000/1956-maximum-element-after-decreasing-and-rearranging/) | Medium | Binary Search | O(log n) | O(1) |
 | 1932 | [Merge BSTs to Create Single BST](../leetcode/2001-2500/2060-merge-bsts-to-create-single-bst/) | Hard | Binary Search | O(n) | O(1) |
 | 1980 | [Find Unique Binary String](../leetcode/2001-2500/2107-find-unique-binary-string/) | Medium | Binary Search | O(n) | O(1) |
+| 1993 | [Operations on Tree](../leetcode/2001-2500/2104-operations-on-tree/) | Medium | Binary Search | O(n) | O(1) |
 | 2022 | [Convert 1D Array Into 2D Array](../leetcode/2001-2500/2132-convert-1d-array-into-2d-array/) | Easy | Binary Search | O(n) | O(1) |
 | 2196 | [Create Binary Tree From Descriptions](../leetcode/2001-2500/2306-create-binary-tree-from-descriptions/) | Medium | Binary Search | O(n) | O(1) |
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2001-2500/2319-longest-substring-of-one-repeating-character/) | Hard | Binary Search | O(n) | O(1) |
 | 2331 | [Evaluate Boolean Binary Tree](../leetcode/2001-2500/2416-evaluate-boolean-binary-tree/) | Easy | Binary Search | O(n) | O(1) |
+| 2359 | [Find Closest Node to Given Two Nodes](../leetcode/2001-2500/2438-find-closest-node-to-given-two-nodes/) | Medium | Binary Search | O(n) | O(1) |
 | 2427 | [Number of Common Factors](../leetcode/2501-3000/2507-number-of-common-factors/) | Easy | Binary Search | O(n) | O(1) |
 | 2458 | [Height of Binary Tree After Subtree Removal Queries](../leetcode/2501-3000/2545-height-of-binary-tree-after-subtree-removal-queries/) | Hard | Binary Search | O(n) | O(1) |
 | 2476 | [Closest Nodes Queries in a Binary Search Tree](../leetcode/2501-3000/2567-closest-nodes-queries-in-a-binary-search-tree/) | Medium | Binary Search | O(n) | O(1) |

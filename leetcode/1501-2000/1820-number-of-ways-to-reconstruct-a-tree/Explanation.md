@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1519. Number of Nodes in the Sub-Tree With the Same Label](../../1501-2000/1643-number-of-nodes-in-the-sub-tree-with-the-same-label/)
-- [2471. Minimum Number of Operations to Sort a Binary Tree by Level](../../2501-3000/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
 - [1434. Number of Ways to Wear Different Hats to Each Other](../../1501-2000/1531-number-of-ways-to-wear-different-hats-to-each-other/)
+- [1444. Number of Ways of Cutting a Pizza](../../1501-2000/1555-number-of-ways-of-cutting-a-pizza/)
+- [1525. Number of Good Ways to Split a String](../../1501-2000/1632-number-of-good-ways-to-split-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/)

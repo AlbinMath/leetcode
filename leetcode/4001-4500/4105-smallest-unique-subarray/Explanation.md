@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2841. Maximum Sum of Almost Unique Subarray](../../2501-3000/2954-maximum-sum-of-almost-unique-subarray/)
-- [62. Unique Paths](../../0001-0500/0062-unique-paths/)
-- [63. Unique Paths II](../../0001-0500/0063-unique-paths-ii/)
+- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-unique-subarray/)

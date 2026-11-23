@@ -12,6 +12,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 461 | [Hamming Distance](../leetcode/0001-0500/0461-hamming-distance/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0461-hamming-distance/Explanation.md) |
 
+| 598 | [Range Addition II](../leetcode/0501-1000/0598-range-addition-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0598-range-addition-ii/Explanation.md) |
+
 | 645 | [Set Mismatch](../leetcode/0501-1000/0645-set-mismatch/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0645-set-mismatch/Explanation.md) |
 
 | 682 | [Baseball Game](../leetcode/0501-1000/0682-baseball-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0682-baseball-game/Explanation.md) |
@@ -43,6 +45,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 1863 | [Sum of All Subset XOR Totals](../leetcode/1501-2000/1993-sum-of-all-subset-xor-totals/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1993-sum-of-all-subset-xor-totals/Explanation.md) |
 
 | 1903 | [Largest Odd Number in String](../leetcode/2001-2500/2032-largest-odd-number-in-string/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2032-largest-odd-number-in-string/Explanation.md) |
+
+| 1984 | [Minimum Difference Between Highest and Lowest of K Scores](../leetcode/2001-2500/2112-minimum-difference-between-highest-and-lowest-of-k-scores/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2112-minimum-difference-between-highest-and-lowest-of-k-scores/Explanation.md) |
 
 | 2094 | [Finding 3-Digit Even Numbers](../leetcode/2001-2500/2215-finding-3-digit-even-numbers/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2215-finding-3-digit-even-numbers/Explanation.md) |
 
@@ -104,8 +108,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 3954 | [Sum of Compatible Numbers in Range I](../leetcode/4001-4500/4319-sum-of-compatible-numbers-in-range-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4319-sum-of-compatible-numbers-in-range-i/Explanation.md) |
 
-| 4030 | [Check ASCII Palindromic](../leetcode/4001-4500/4381-check-ascii-palindromic/) | Python | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4381-check-ascii-palindromic/Explanation.md) |
-
 ### Medium
 
 | # | Problem | Language | Time | Space | Explanation |
@@ -164,8 +166,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 1352 | [Product of the Last K Numbers](../leetcode/1001-1500/1477-product-of-the-last-k-numbers/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1477-product-of-the-last-k-numbers/Explanation.md) |
 
-| 1387 | [Sort Integers by The Power Value](../leetcode/1001-1500/1488-sort-integers-by-the-power-value/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1488-sort-integers-by-the-power-value/Explanation.md) |
-
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](../leetcode/1501-2000/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Python | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/Explanation.md) |
 
 | 1419 | [Minimum Number of Frogs Croaking](../leetcode/1501-2000/1534-minimum-number-of-frogs-croaking/) | Python | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1534-minimum-number-of-frogs-croaking/Explanation.md) |
@@ -197,6 +197,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 1888 | [Minimum Number of Flips to Make the Binary String Alternating](../leetcode/2001-2500/2017-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2017-minimum-number-of-flips-to-make-the-binary-string-alternating/Explanation.md) |
 
 | 1969 | [Minimum Non-Zero Product of the Array Elements](../leetcode/2001-2500/2100-minimum-non-zero-product-of-the-array-elements/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2100-minimum-non-zero-product-of-the-array-elements/Explanation.md) |
+
+| 1986 | [Minimum Number of Work Sessions to Finish the Tasks](../leetcode/2001-2500/2114-minimum-number-of-work-sessions-to-finish-the-tasks/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2114-minimum-number-of-work-sessions-to-finish-the-tasks/Explanation.md) |
 
 | 2044 | [Count Number of Maximum Bitwise-OR Subsets](../leetcode/2001-2500/2170-count-number-of-maximum-bitwise-or-subsets/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2170-count-number-of-maximum-bitwise-or-subsets/Explanation.md) |
 
@@ -246,6 +248,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 2749 | [Minimum Operations to Make the Integer Zero](../leetcode/2501-3000/2837-minimum-operations-to-make-the-integer-zero/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2837-minimum-operations-to-make-the-integer-zero/Explanation.md) |
 
+| 2761 | [Prime Pairs With Target Sum](../leetcode/2501-3000/2873-prime-pairs-with-target-sum/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2873-prime-pairs-with-target-sum/Explanation.md) |
+
 | 2762 | [Continuous Subarrays](../leetcode/2501-3000/2868-continuous-subarrays/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2868-continuous-subarrays/Explanation.md) |
 
 | 2871 | [Split Array Into Maximum Number of Subarrays](../leetcode/3001-3500/3080-split-array-into-maximum-number-of-subarrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3080-split-array-into-maximum-number-of-subarrays/Explanation.md) |
@@ -280,9 +284,13 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 3377 | [Digit Operations to Make Two Integers Equal](../leetcode/3501-4000/3655-digit-operations-to-make-two-integers-equal/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3655-digit-operations-to-make-two-integers-equal/Explanation.md) |
 
+| 3413 | [Maximum Coins From K Consecutive Bags](../leetcode/3501-4000/3715-maximum-coins-from-k-consecutive-bags/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3715-maximum-coins-from-k-consecutive-bags/Explanation.md) |
+
 | 3521 | [Find Product Recommendation Pairs](../leetcode/3501-4000/3865-find-product-recommendation-pairs/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3865-find-product-recommendation-pairs/Explanation.md) |
 
 | 3599 | [Partition Array to Minimize XOR](../leetcode/3501-4000/3913-partition-array-to-minimize-xor/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3913-partition-array-to-minimize-xor/Explanation.md) |
+
+| 3608 | [Minimum Time for K Connected Components](../leetcode/3501-4000/3908-minimum-time-for-k-connected-components/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3908-minimum-time-for-k-connected-components/Explanation.md) |
 
 | 3653 | [XOR After Range Multiplication Queries I](../leetcode/3501-4000/3974-xor-after-range-multiplication-queries-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3974-xor-after-range-multiplication-queries-i/Explanation.md) |
 
@@ -320,8 +328,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 810 | [Chalkboard XOR Game](../leetcode/0501-1000/0828-chalkboard-xor-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0828-chalkboard-xor-game/Explanation.md) |
 
-| 828 | [Count Unique Characters of All Substrings of a Given String](../leetcode/0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/Explanation.md) |
-
 | 982 | [Triples with Bitwise AND Equal To Zero](../leetcode/1001-1500/1024-triples-with-bitwise-and-equal-to-zero/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1024-triples-with-bitwise-and-equal-to-zero/Explanation.md) |
 
 | 995 | [Minimum Number of K Consecutive Bit Flips](../leetcode/1001-1500/1037-minimum-number-of-k-consecutive-bit-flips/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1037-minimum-number-of-k-consecutive-bit-flips/Explanation.md) |
@@ -358,8 +364,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 
 | 2122 | [Recover the Original Array](../leetcode/2001-2500/2241-recover-the-original-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2241-recover-the-original-array/Explanation.md) |
 
-| 2172 | [Maximum AND Sum of Array](../leetcode/2001-2500/2291-maximum-and-sum-of-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2291-maximum-and-sum-of-array/Explanation.md) |
-
 | 2197 | [Replace Non-Coprime Numbers in Array](../leetcode/2001-2500/2307-replace-non-coprime-numbers-in-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2307-replace-non-coprime-numbers-in-array/Explanation.md) |
 
 | 2354 | [Number of Excellent Pairs](../leetcode/2001-2500/2430-number-of-excellent-pairs/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2430-number-of-excellent-pairs/Explanation.md) |
@@ -381,6 +385,8 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 3321 | [Find X-Sum of All K-Long Subarrays II](../leetcode/3501-4000/3592-find-x-sum-of-all-k-long-subarrays-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3592-find-x-sum-of-all-k-long-subarrays-ii/Explanation.md) |
 
 | 3352 | [Count K-Reducible Numbers Less Than N](../leetcode/3501-4000/3631-count-k-reducible-numbers-less-than-n/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3631-count-k-reducible-numbers-less-than-n/Explanation.md) |
+
+| 3495 | [Minimum Operations to Make Array Elements Zero](../leetcode/3501-4000/3744-minimum-operations-to-make-array-elements-zero/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3744-minimum-operations-to-make-array-elements-zero/Explanation.md) |
 
 | 3539 | [Find Sum of Array Product of Magical Sequences](../leetcode/3501-4000/3851-find-sum-of-array-product-of-magical-sequences/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3851-find-sum-of-array-product-of-magical-sequences/Explanation.md) |
 

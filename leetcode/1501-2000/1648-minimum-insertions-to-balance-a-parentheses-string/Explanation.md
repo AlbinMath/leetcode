@@ -64,8 +64,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0957-minimum-add-to-make-parentheses-valid/)
-- [1249. Minimum Remove to Make Valid Parentheses](../../1001-1500/1371-minimum-remove-to-make-valid-parentheses/)
+- [3634. Minimum Removals to Balance Array](../../3501-4000/3958-minimum-removals-to-balance-array/)
+- [3679.  Minimum Discards to Balance Inventory](../../3501-4000/3953--minimum-discards-to-balance-inventory/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)

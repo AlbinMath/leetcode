@@ -54,8 +54,6 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 1266 | [Minimum Time Visiting All Points](../leetcode/1001-1500/1395-minimum-time-visiting-all-points/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1395-minimum-time-visiting-all-points/Explanation.md) |
 
-| 1299 | [Replace Elements with Greatest Element on Right Side](../leetcode/1001-1500/1231-replace-elements-with-greatest-element-on-right-side/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1231-replace-elements-with-greatest-element-on-right-side/Explanation.md) |
-
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](../leetcode/1001-1500/1434-decrypt-string-from-alphabet-to-integer-mapping/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1434-decrypt-string-from-alphabet-to-integer-mapping/Explanation.md) |
 
 | 1337 | [The K Weakest Rows in a Matrix](../leetcode/1001-1500/1463-the-k-weakest-rows-in-a-matrix/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1463-the-k-weakest-rows-in-a-matrix/Explanation.md) |
@@ -69,6 +67,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 1496 | [Path Crossing](../leetcode/1501-2000/1619-path-crossing/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1619-path-crossing/Explanation.md) |
 
 | 1534 | [Count Good Triplets](../leetcode/1501-2000/1656-count-good-triplets/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1656-count-good-triplets/Explanation.md) |
+
+| 1560 | [Most Visited Sector in  a Circular Track](../leetcode/1501-2000/1682-most-visited-sector-in--a-circular-track/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1682-most-visited-sector-in--a-circular-track/Explanation.md) |
 
 | 1572 | [Matrix Diagonal Sum](../leetcode/1501-2000/1677-matrix-diagonal-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1677-matrix-diagonal-sum/Explanation.md) |
 
@@ -131,6 +131,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 3903 | [Smallest Stable Index I](../leetcode/4001-4500/4284-smallest-stable-index-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4284-smallest-stable-index-i/Explanation.md) |
 
 | 3963 | [Create Grid With Exactly One Path](../leetcode/4001-4500/4342-create-grid-with-exactly-one-path/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4342-create-grid-with-exactly-one-path/Explanation.md) |
+
+| 4030 | [Check ASCII Palindromic](../leetcode/4001-4500/4381-check-ascii-palindromic/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4381-check-ascii-palindromic/Explanation.md) |
 
 ### Medium
 
@@ -236,15 +238,11 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 918 | [Maximum Sum Circular Subarray](../leetcode/0501-1000/0954-maximum-sum-circular-subarray/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0954-maximum-sum-circular-subarray/Explanation.md) |
 
-| 930 | [Binary Subarrays With Sum](../leetcode/0501-1000/0966-binary-subarrays-with-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0966-binary-subarrays-with-sum/Explanation.md) |
-
 | 931 | [Minimum Falling Path Sum](../leetcode/0501-1000/0967-minimum-falling-path-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0967-minimum-falling-path-sum/Explanation.md) |
 
 | 947 | [Most Stones Removed with Same Row or Column](../leetcode/0501-1000/0984-most-stones-removed-with-same-row-or-column/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0984-most-stones-removed-with-same-row-or-column/Explanation.md) |
 
 | 950 | [Reveal Cards In Increasing Order](../leetcode/0501-1000/0987-reveal-cards-in-increasing-order/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0987-reveal-cards-in-increasing-order/Explanation.md) |
-
-| 958 | [Check Completeness of a Binary Tree](../leetcode/0501-1000/0998-check-completeness-of-a-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0998-check-completeness-of-a-binary-tree/Explanation.md) |
 
 | 959 | [Regions Cut By Slashes](../leetcode/0501-1000/0999-regions-cut-by-slashes/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0999-regions-cut-by-slashes/Explanation.md) |
 
@@ -294,6 +292,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 1376 | [Time Needed to Inform All Employees](../leetcode/1001-1500/1492-time-needed-to-inform-all-employees/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1492-time-needed-to-inform-all-employees/Explanation.md) |
 
+| 1387 | [Sort Integers by The Power Value](../leetcode/1001-1500/1488-sort-integers-by-the-power-value/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1488-sort-integers-by-the-power-value/Explanation.md) |
+
 | 1391 | [Check if There is a Valid Path in a Grid](../leetcode/1501-2000/1507-check-if-there-is-a-valid-path-in-a-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1507-check-if-there-is-a-valid-path-in-a-grid/Explanation.md) |
 
 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](../leetcode/1501-2000/1553-count-triplets-that-can-form-two-arrays-of-equal-xor/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1553-count-triplets-that-can-form-two-arrays-of-equal-xor/Explanation.md) |
@@ -318,7 +318,11 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 1599 | [Maximum Profit of Operating a Centennial Wheel](../leetcode/1501-2000/1721-maximum-profit-of-operating-a-centennial-wheel/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1721-maximum-profit-of-operating-a-centennial-wheel/Explanation.md) |
 
+| 1620 | [Coordinate With Maximum Network Quality](../leetcode/1501-2000/1726-coordinate-with-maximum-network-quality/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1726-coordinate-with-maximum-network-quality/Explanation.md) |
+
 | 1631 | [Path With Minimum Effort](../leetcode/1501-2000/1753-path-with-minimum-effort/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1753-path-with-minimum-effort/Explanation.md) |
+
+| 1657 | [Determine if Two Strings Are Close](../leetcode/1501-2000/1777-determine-if-two-strings-are-close/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1777-determine-if-two-strings-are-close/Explanation.md) |
 
 | 1701 | [Average Waiting Time](../leetcode/1501-2000/1803-average-waiting-time/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1803-average-waiting-time/Explanation.md) |
 
@@ -340,11 +344,15 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 2101 | [Detonate the Maximum Bombs](../leetcode/2001-2500/2206-detonate-the-maximum-bombs/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2206-detonate-the-maximum-bombs/Explanation.md) |
 
+| 2115 | [Find All Possible Recipes from Given Supplies](../leetcode/2001-2500/2220-find-all-possible-recipes-from-given-supplies/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2220-find-all-possible-recipes-from-given-supplies/Explanation.md) |
+
 | 2120 | [Execution of All Suffix Instructions Staying in a Grid](../leetcode/2001-2500/2239-execution-of-all-suffix-instructions-staying-in-a-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2239-execution-of-all-suffix-instructions-staying-in-a-grid/Explanation.md) |
 
 | 2134 | [Minimum Swaps to Group All 1's Together II](../leetcode/2001-2500/2255-minimum-swaps-to-group-all-1s-together-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2255-minimum-swaps-to-group-all-1s-together-ii/Explanation.md) |
 
 | 2161 | [Partition Array According to Given Pivot](../leetcode/2001-2500/2265-partition-array-according-to-given-pivot/) | Java | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2265-partition-array-according-to-given-pivot/Explanation.md) |
+
+| 2162 | [Minimum Cost to Set Cooking Time](../leetcode/2001-2500/2266-minimum-cost-to-set-cooking-time/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2266-minimum-cost-to-set-cooking-time/Explanation.md) |
 
 | 2257 | [Count Unguarded Cells in the Grid](../leetcode/2001-2500/2343-count-unguarded-cells-in-the-grid/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2343-count-unguarded-cells-in-the-grid/Explanation.md) |
 
@@ -426,7 +434,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 3403 | [Find the Lexicographically Largest String From the Box I](../leetcode/3501-4000/3683-find-the-lexicographically-largest-string-from-the-box-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3683-find-the-lexicographically-largest-string-from-the-box-i/Explanation.md) |
 
-| 3433 | [Count Mentions Per User](../leetcode/3501-4000/3721-count-mentions-per-user/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3721-count-mentions-per-user/Explanation.md) |
+| 3419 | [Minimize the Maximum Edge Weight of Graph](../leetcode/3501-4000/3720-minimize-the-maximum-edge-weight-of-graph/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3720-minimize-the-maximum-edge-weight-of-graph/Explanation.md) |
 
 | 3513 | [Number of Unique XOR Triplets I](../leetcode/3501-4000/3824-number-of-unique-xor-triplets-i/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3824-number-of-unique-xor-triplets-i/Explanation.md) |
 
@@ -506,8 +514,6 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 587 | [Erect the Fence](../leetcode/0501-1000/0587-erect-the-fence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0587-erect-the-fence/Explanation.md) |
 
-| 675 | [Cut Off Trees for Golf Event](../leetcode/0501-1000/0675-cut-off-trees-for-golf-event/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0675-cut-off-trees-for-golf-event/Explanation.md) |
-
 | 685 | [Redundant Connection II](../leetcode/0501-1000/0685-redundant-connection-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0685-redundant-connection-ii/Explanation.md) |
 
 | 761 | [Special Binary String](../leetcode/0501-1000/0763-special-binary-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0763-special-binary-string/Explanation.md) |
@@ -517,6 +523,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 952 | [Largest Component Size by Common Factor](../leetcode/0501-1000/0989-largest-component-size-by-common-factor/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0989-largest-component-size-by-common-factor/Explanation.md) |
 
 | 987 | [Vertical Order Traversal of a Binary Tree](../leetcode/1001-1500/1029-vertical-order-traversal-of-a-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1029-vertical-order-traversal-of-a-binary-tree/Explanation.md) |
+
+| 1163 | [Last Substring in Lexicographical Order](../leetcode/1001-1500/1133-last-substring-in-lexicographical-order/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1133-last-substring-in-lexicographical-order/Explanation.md) |
 
 | 1192 | [Critical Connections in a Network](../leetcode/1001-1500/1300-critical-connections-in-a-network/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1300-critical-connections-in-a-network/Explanation.md) |
 
@@ -584,6 +592,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 
 | 2151 | [Maximum Good People Based on Statements](../leetcode/2001-2500/2272-maximum-good-people-based-on-statements/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2272-maximum-good-people-based-on-statements/Explanation.md) |
 
+| 2172 | [Maximum AND Sum of Array](../leetcode/2001-2500/2291-maximum-and-sum-of-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2291-maximum-and-sum-of-array/Explanation.md) |
+
 | 2179 | [Count Good Triplets in an Array](../leetcode/2001-2500/2280-count-good-triplets-in-an-array/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2280-count-good-triplets-in-an-array/Explanation.md) |
 
 | 2203 | [Minimum Weighted Subgraph With the Required Paths](../leetcode/2001-2500/2321-minimum-weighted-subgraph-with-the-required-paths/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2321-minimum-weighted-subgraph-with-the-required-paths/Explanation.md) |
@@ -629,6 +639,8 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 3003 | [Maximize the Number of Partitions After Operations](../leetcode/3001-3500/3233-maximize-the-number-of-partitions-after-operations/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3233-maximize-the-number-of-partitions-after-operations/Explanation.md) |
 
 | 3017 | [Count the Number of Houses at a Certain Distance II](../leetcode/3001-3500/3310-count-the-number-of-houses-at-a-certain-distance-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3310-count-the-number-of-houses-at-a-certain-distance-ii/Explanation.md) |
+
+| 3102 | [Minimize Manhattan Distances](../leetcode/3001-3500/3344-minimize-manhattan-distances/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3344-minimize-manhattan-distances/Explanation.md) |
 
 | 3108 | [Minimum Cost Walk in Weighted Graph](../leetcode/3001-3500/3348-minimum-cost-walk-in-weighted-graph/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3348-minimum-cost-walk-in-weighted-graph/Explanation.md) |
 

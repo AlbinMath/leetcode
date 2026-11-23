@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1123. Lowest Common Ancestor of Deepest Leaves](../../1001-1500/1218-lowest-common-ancestor-of-deepest-leaves/)
 - [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
-- [865. Smallest Subtree with all the Deepest Nodes](../../0501-1000/0896-smallest-subtree-with-all-the-deepest-nodes/)
+- [1123. Lowest Common Ancestor of Deepest Leaves](../../1001-1500/1218-lowest-common-ancestor-of-deepest-leaves/)
+- [1325. Delete Leaves With a Given Value](../../1001-1500/1450-delete-leaves-with-a-given-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/deepest-leaves-sum/)

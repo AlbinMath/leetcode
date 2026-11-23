@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 - [1524. Number of Sub-arrays With Odd Sum](../../1501-2000/1631-number-of-sub-arrays-with-odd-sum/)
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
+- [100. Same Tree](../../0001-0500/0100-same-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)

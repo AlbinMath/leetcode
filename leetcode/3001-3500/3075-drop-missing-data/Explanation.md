@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [2887. Fill Missing Data](../../3001-3500/3070-fill-missing-data/)
 - [2882. Drop Duplicate Rows](../../3001-3500/3071-drop-duplicate-rows/)
-- [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/drop-missing-data/)

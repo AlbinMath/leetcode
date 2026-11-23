@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3937. Minimum Operations to Make Array Modulo Alternating I](../../4001-4500/4300-minimum-operations-to-make-array-modulo-alternating-i/)
-- [3010. Divide an Array Into Subarrays With Minimum Cost I](../../3001-3500/3263-divide-an-array-into-subarrays-with-minimum-cost-i/)
-- [3013. Divide an Array Into Subarrays With Minimum Cost II](../../3001-3500/3260-divide-an-array-into-subarrays-with-minimum-cost-ii/)
+- [4062. Transform Array Using Pair Operations](../../4001-4500/4398-transform-array-using-pair-operations/)
+- [1827. Minimum Operations to Make the Array Increasing](../../1501-2000/1938-minimum-operations-to-make-the-array-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-transform-array-into-alternating-prime/)

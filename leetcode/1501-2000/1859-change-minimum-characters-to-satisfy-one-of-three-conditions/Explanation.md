@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1460-number-of-substrings-containing-all-three-characters/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 - [1876. Substrings of Size Three with Distinct Characters](../../1501-2000/1987-substrings-of-size-three-with-distinct-characters/)
-- [3784. Minimum Deletion Cost to Make All Characters Equal](../../4001-4500/4138-minimum-deletion-cost-to-make-all-characters-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)

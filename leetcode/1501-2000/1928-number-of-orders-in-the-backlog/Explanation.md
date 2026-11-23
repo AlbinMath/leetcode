@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
-- [1357. Apply Discount Every n Orders](../../1001-1500/1459-apply-discount-every-n-orders/)
-- [1418. Display Table of Food Orders in a Restaurant](../../1501-2000/1533-display-table-of-food-orders-in-a-restaurant/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-orders-in-the-backlog/)

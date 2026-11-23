@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [827. Making A Large Island](../../0501-1000/0854-making-a-large-island/)
-- [62. Unique Paths](../../0001-0500/0062-unique-paths/)
-- [63. Unique Paths II](../../0001-0500/0063-unique-paths-ii/)
+- [194. Transpose File](../../0001-0500/0194-transpose-file/)
+- [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
+- [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/making-file-names-unique/)

@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [4035. Maximum Valid Split Positions I](../../4001-4500/4373-maximum-valid-split-positions-i/)
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [2178. Maximum Split of Positive Even Integers](../../2001-2500/2279-maximum-split-of-positive-even-integers/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-valid-split-positions-ii/)

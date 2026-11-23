@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [572. Subtree of Another Tree](../../0501-1000/0572-subtree-of-another-tree/)
-- [1433. Check If a String Can Break Another String](../../1501-2000/1530-check-if-a-string-can-break-another-string/)
-- [2096. Step-By-Step Directions From a Binary Tree Node to Another](../../2001-2500/2217-step-by-step-directions-from-a-binary-tree-node-to-another/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [61. Rotate List](../../0001-0500/0061-rotate-list/)
+- [82. Remove Duplicates from Sorted List II](../../0001-0500/0082-remove-duplicates-from-sorted-list-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)

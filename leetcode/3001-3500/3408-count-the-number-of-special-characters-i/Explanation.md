@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1995. Count Special Quadruplets](../../2001-2500/2122-count-special-quadruplets/)
-- [2844. Minimum Operations to Make a Special Number](../../3001-3500/3046-minimum-operations-to-make-a-special-number/)
-- [3233. Find the Count of Numbers Which Are Not Special](../../3501-4000/3507-find-the-count-of-numbers-which-are-not-special/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
+- [1395. Count Number of Teams](../../1501-2000/1511-count-number-of-teams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-special-characters-i/)

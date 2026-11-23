@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1825-find-minimum-time-to-finish-all-jobs/)
-- [1277. Count Square Submatrices with All Ones](../../1001-1500/1402-count-square-submatrices-with-all-ones/)
-- [1504. Count Submatrices With All Ones](../../1501-2000/1628-count-submatrices-with-all-ones/)
+- [939. Minimum Area Rectangle](../../0501-1000/0976-minimum-area-rectangle/)
+- [963. Minimum Area Rectangle II](../../1001-1500/1003-minimum-area-rectangle-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/)

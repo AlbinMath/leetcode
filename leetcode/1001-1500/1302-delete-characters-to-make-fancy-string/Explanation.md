@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
 - [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
-- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1490-generate-a-string-with-characters-that-have-odd-counts/)
+- [1312. Minimum Insertion Steps to Make a String Palindrome](../../1001-1500/1437-minimum-insertion-steps-to-make-a-string-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)

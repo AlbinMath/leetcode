@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
-- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
-- [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
+- [463. Island Perimeter](../../0001-0500/0463-island-perimeter/)
+- [827. Making A Large Island](../../0501-1000/0854-making-a-large-island/)
+- [1568. Minimum Number of Days to Disconnect Island](../../1501-2000/1691-minimum-number-of-days-to-disconnect-island/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-area-of-island/)

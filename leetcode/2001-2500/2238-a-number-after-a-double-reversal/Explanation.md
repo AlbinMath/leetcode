@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1946. Largest Number After Mutating Substring](../../2001-2500/2077-largest-number-after-mutating-substring/)
 - [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
-- [2816. Double a Number Represented as a Linked List](../../2501-3000/2871-double-a-number-represented-as-a-linked-list/)
+- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3233-maximize-the-number-of-partitions-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/a-number-after-a-double-reversal/)

@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2567. Minimum Score by Changing Two Elements](../../2501-3000/2706-minimum-score-by-changing-two-elements/)
 - [3880. Minimum Absolute Difference Between Two Values](../../4001-4500/4255-minimum-absolute-difference-between-two-values/)
+- [2567. Minimum Score by Changing Two Elements](../../2501-3000/2706-minimum-score-by-changing-two-elements/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 
 ## LeetCode

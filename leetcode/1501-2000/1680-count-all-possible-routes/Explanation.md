@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [894. All Possible Full Binary Trees](../../0501-1000/0930-all-possible-full-binary-trees/)
-- [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2220-find-all-possible-recipes-from-given-supplies/)
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../../1501-2000/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1277. Count Square Submatrices with All Ones](../../1001-1500/1402-count-square-submatrices-with-all-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-all-possible-routes/)

@@ -64,9 +64,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2980. Check if Bitwise OR Has Trailing Zeros](../../3001-3500/3246-check-if-bitwise-or-has-trailing-zeros/)
-- [1006. Clumsy Factorial](../../1001-1500/1048-clumsy-factorial/)
 - [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
+- [283. Move Zeroes](../../0001-0500/0283-move-zeroes/)
+- [474. Ones and Zeroes](../../0001-0500/0474-ones-and-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/factorial-trailing-zeroes/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2258. Escape the Spreading Fire](../../2001-2500/2344-escape-the-spreading-fire/)
 - [827. Making A Large Island](../../0501-1000/0854-making-a-large-island/)
 - [830. Positions of Large Groups](../../0501-1000/0857-positions-of-large-groups/)
+- [1093. Statistics from a Large Sample](../../1001-1500/1183-statistics-from-a-large-sample/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/escape-a-large-maze/)

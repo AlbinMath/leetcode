@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [657. Robot Return to Origin](../../0501-1000/0657-robot-return-to-origin/)
-- [874. Walking Robot Simulation](../../0501-1000/0906-walking-robot-simulation/)
-- [2069. Walking Robot Simulation II](../../2001-2500/2178-walking-robot-simulation-ii/)
+- [478. Generate Random Point in a Circle](../../0501-1000/0915-generate-random-point-in-a-circle/)
+- [1401. Circle and Rectangle Overlapping](../../1501-2000/1501-circle-and-rectangle-overlapping/)
+- [1828. Queries on Number of Points Inside a Circle](../../1501-2000/1939-queries-on-number-of-points-inside-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/robot-bounded-in-circle/)

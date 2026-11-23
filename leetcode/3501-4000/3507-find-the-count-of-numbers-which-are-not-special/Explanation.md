@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3158. Find the XOR of Numbers Which Appear Twice](../../3001-3500/3428-find-the-xor-of-numbers-which-appear-twice/)
-- [1995. Count Special Quadruplets](../../2001-2500/2122-count-special-quadruplets/)
-- [2981. Find Longest Special Substring That Occurs Thrice I](../../3001-3500/3267-find-longest-special-substring-that-occurs-thrice-i/)
+- [1365. How Many Numbers Are Smaller Than the Current Number](../../1001-1500/1482-how-many-numbers-are-smaller-than-the-current-number/)
+- [2042. Check if Numbers Are Ascending in a Sentence](../../2001-2500/2168-check-if-numbers-are-ascending-in-a-sentence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/)

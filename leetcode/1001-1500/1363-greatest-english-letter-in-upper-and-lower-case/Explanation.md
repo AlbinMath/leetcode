@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [709. To Lower Case](../../0501-1000/0742-to-lower-case/)
 - [784. Letter Case Permutation](../../0501-1000/0800-letter-case-permutation/)
-- [273. Integer to English Words](../../0001-0500/0273-integer-to-english-words/)
+- [709. To Lower Case](../../0501-1000/0742-to-lower-case/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)

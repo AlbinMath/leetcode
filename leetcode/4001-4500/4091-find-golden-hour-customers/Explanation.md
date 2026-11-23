@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3657. Find Loyal Customers](../../4001-4500/4025-find-loyal-customers/)
 - [3716. Find Churn Risk Customers](../../4001-4500/4103-find-churn-risk-customers/)
-- [183. Customers Who Never Order](../../0001-0500/0183-customers-who-never-order/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-golden-hour-customers/)

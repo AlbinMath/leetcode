@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [187. Repeated DNA Sequences](../../0001-0500/0187-repeated-dna-sequences/)
-- [2318. Number of Distinct Roll Sequences](../../2001-2500/2404-number-of-distinct-roll-sequences/)
-- [2954. Count the Number of Infection Sequences](../../3001-3500/3224-count-the-number-of-infection-sequences/)
+- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
+- [468. Validate IP Address](../../0001-0500/0468-validate-ip-address/)
+- [1361. Validate Binary Tree Nodes](../../1001-1500/1275-validate-binary-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/validate-stack-sequences/)

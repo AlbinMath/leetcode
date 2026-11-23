@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2221. Find Triangular Sum of an Array](../../2001-2500/2324-find-triangular-sum-of-an-array/)
-- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
-- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
+- [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii---input-array-is-sorted/)
+- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/)

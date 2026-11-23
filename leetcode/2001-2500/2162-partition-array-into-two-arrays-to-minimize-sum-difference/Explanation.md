@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3566. Partition Array into Two Equal Product Subsets](../../3501-4000/3843-partition-array-into-two-equal-product-subsets/)
+- [2513. Minimize the Maximum of Two Arrays](../../2501-3000/2628-minimize-the-maximum-of-two-arrays/)
 - [3599. Partition Array to Minimize XOR](../../3501-4000/3913-partition-array-to-minimize-xor/)
-- [3069. Distribute Elements Into Two Arrays I](../../3001-3500/3347-distribute-elements-into-two-arrays-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)

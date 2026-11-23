@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1376. Time Needed to Inform All Employees](../../1001-1500/1492-time-needed-to-inform-all-employees/)
-- [2073. Time Needed to Buy Tickets](../../2001-2500/2195-time-needed-to-buy-tickets/)
-- [2385. Amount of Time for Binary Tree to Be Infected](../../2001-2500/2461-amount-of-time-for-binary-tree-to-be-infected/)
+- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
+- [761. Special Binary String](../../0501-1000/0763-special-binary-string/)
+- [1016. Binary String With Substrings Representing 1 To N](../../1001-1500/1065-binary-string-with-substrings-representing-1-to-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)

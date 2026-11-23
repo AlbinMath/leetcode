@@ -48,6 +48,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 1071 | [Greatest Common Divisor of Strings](../leetcode/1001-1500/1146-greatest-common-divisor-of-strings/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1146-greatest-common-divisor-of-strings/Explanation.md) |
 
+| 1252 | [Cells with Odd Values in a Matrix](../leetcode/1001-1500/1378-cells-with-odd-values-in-a-matrix/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1378-cells-with-odd-values-in-a-matrix/Explanation.md) |
+
 | 1800 | [Maximum Ascending Subarray Sum](../leetcode/1501-2000/1927-maximum-ascending-subarray-sum/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1927-maximum-ascending-subarray-sum/Explanation.md) |
 
 | 1967 | [Number of Strings That Appear as Substrings in Word](../leetcode/2001-2500/2099-number-of-strings-that-appear-as-substrings-in-word/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2099-number-of-strings-that-appear-as-substrings-in-word/Explanation.md) |
@@ -68,11 +70,17 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 3658 | [GCD of Odd and Even Sums](../leetcode/3501-4000/3995-gcd-of-odd-and-even-sums/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3995-gcd-of-odd-and-even-sums/Explanation.md) |
 
+| 3745 | [Maximize Expression of Three Elements](../leetcode/4001-4500/4112-maximize-expression-of-three-elements/) | Python | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4112-maximize-expression-of-three-elements/Explanation.md) |
+
+| 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4001-4500/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/Explanation.md) |
+
 ### Medium
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 2 | [Add Two Numbers](../leetcode/0001-0500/0002-add-two-numbers/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0002-add-two-numbers/Explanation.md) |
+
+| 7 | [Reverse Integer](../leetcode/0001-0500/0007-reverse-integer/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0007-reverse-integer/Explanation.md) |
 
 | 11 | [Container With Most Water](../leetcode/0001-0500/0011-container-with-most-water/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0011-container-with-most-water/Explanation.md) |
 
@@ -107,6 +115,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 430 | [Flatten a Multilevel Doubly Linked List](../leetcode/0501-1000/0766-flatten-a-multilevel-doubly-linked-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0766-flatten-a-multilevel-doubly-linked-list/Explanation.md) |
 
 | 445 | [Add Two Numbers II](../leetcode/0001-0500/0445-add-two-numbers-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0445-add-two-numbers-ii/Explanation.md) |
+
+| 519 | [Random Flip Matrix](../leetcode/0501-1000/0913-random-flip-matrix/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0913-random-flip-matrix/Explanation.md) |
 
 | 707 | [Design Linked List](../leetcode/0501-1000/0838-design-linked-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0838-design-linked-list/Explanation.md) |
 
@@ -168,8 +178,6 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 2326 | [Spiral Matrix IV](../leetcode/2001-2500/2411-spiral-matrix-iv/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2411-spiral-matrix-iv/Explanation.md) |
 
-| 2359 | [Find Closest Node to Given Two Nodes](../leetcode/2001-2500/2438-find-closest-node-to-given-two-nodes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2438-find-closest-node-to-given-two-nodes/Explanation.md) |
-
 | 2368 | [Reachable Nodes With Restrictions](../leetcode/2001-2500/2445-reachable-nodes-with-restrictions/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2445-reachable-nodes-with-restrictions/Explanation.md) |
 
 | 2374 | [Node With Highest Edge Score](../leetcode/2001-2500/2455-node-with-highest-edge-score/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2455-node-with-highest-edge-score/Explanation.md) |
@@ -195,6 +203,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 3372 | [Maximize the Number of Target Nodes After Connecting Trees I](../leetcode/3501-4000/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i/Explanation.md) |
 
 | 3503 | [Longest Palindrome After Substring Concatenation I](../leetcode/3501-4000/3793-longest-palindrome-after-substring-concatenation-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3793-longest-palindrome-after-substring-concatenation-i/Explanation.md) |
+
+| 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4001-4500/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Java | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/Explanation.md) |
 
 | 3766 | [Minimum Operations to Make Binary Palindrome](../leetcode/4001-4500/4099-minimum-operations-to-make-binary-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4099-minimum-operations-to-make-binary-palindrome/Explanation.md) |
 
@@ -222,7 +232,11 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 336 | [Palindrome Pairs](../leetcode/0001-0500/0336-palindrome-pairs/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0336-palindrome-pairs/Explanation.md) |
 
+| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](../leetcode/0001-0500/0381-insert-delete-getrandom-o1---duplicates-allowed/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0381-insert-delete-getrandom-o1---duplicates-allowed/Explanation.md) |
+
 | 479 | [Largest Palindrome Product](../leetcode/0001-0500/0479-largest-palindrome-product/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0479-largest-palindrome-product/Explanation.md) |
+
+| 493 | [Reverse Pairs](../leetcode/0001-0500/0493-reverse-pairs/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0493-reverse-pairs/Explanation.md) |
 
 | 564 | [Find the Closest Palindrome](../leetcode/0501-1000/0564-find-the-closest-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0564-find-the-closest-palindrome/Explanation.md) |
 

@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [657. Robot Return to Origin](../../0501-1000/0657-robot-return-to-origin/)
-- [874. Walking Robot Simulation](../../0501-1000/0906-walking-robot-simulation/)
-- [1041. Robot Bounded In Circle](../../1001-1500/1119-robot-bounded-in-circle/)
+- [830. Positions of Large Groups](../../0501-1000/0857-positions-of-large-groups/)
+- [839. Similar String Groups](../../0501-1000/0869-similar-string-groups/)
+- [893. Groups of Special-Equivalent Strings](../../0501-1000/0929-groups-of-special-equivalent-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-robot-groups/)

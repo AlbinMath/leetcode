@@ -64,8 +64,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1718. Construct the Lexicographically Largest Valid Sequence](../../1501-2000/1819-construct-the-lexicographically-largest-valid-sequence/)
-- [3302. Find the Lexicographically Smallest Valid Sequence](../../3501-4000/3584-find-the-lexicographically-smallest-valid-sequence/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [3302. Find the Lexicographically Smallest Valid Sequence](../../3501-4000/3584-find-the-lexicographically-smallest-valid-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-permutations-for-di-sequence/)

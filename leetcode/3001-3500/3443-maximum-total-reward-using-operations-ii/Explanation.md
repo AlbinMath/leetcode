@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3180. Maximum Total Reward Using Operations I](../../3001-3500/3442-maximum-total-reward-using-operations-i/)
-- [2317. Maximum XOR After Operations ](../../2001-2500/2402-maximum-xor-after-operations-/)
-- [3012. Minimize Length of Array Using Operations](../../3001-3500/3244-minimize-length-of-array-using-operations/)
+- [2234. Maximum Total Beauty of the Gardens](../../2001-2500/2330-maximum-total-beauty-of-the-gardens/)
+- [2285. Maximum Total Importance of Roads](../../2001-2500/2379-maximum-total-importance-of-roads/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/)

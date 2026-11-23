@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1736. Latest Time by Replacing Hidden Digits](../../1501-2000/1858-latest-time-by-replacing-hidden-digits/)
 - [1423. Maximum Points You Can Obtain from Cards](../../1501-2000/1538-maximum-points-you-can-obtain-from-cards/)
-- [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1112-find-words-that-can-be-formed-by-characters/)
+- [2507. Smallest Value After Replacing With Sum of Prime Factors](../../2501-3000/2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/)

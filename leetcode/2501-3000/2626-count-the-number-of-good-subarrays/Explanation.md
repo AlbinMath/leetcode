@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
 - [2588. Count the Number of Beautiful Subarrays](../../2501-3000/2656-count-the-number-of-beautiful-subarrays/)
-- [2970. Count the Number of Incremovable Subarrays I](../../3001-3500/3252-count-the-number-of-incremovable-subarrays-i/)
+- [2963. Count the Number of Good Partitions](../../3001-3500/3212-count-the-number-of-good-partitions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-good-subarrays/)

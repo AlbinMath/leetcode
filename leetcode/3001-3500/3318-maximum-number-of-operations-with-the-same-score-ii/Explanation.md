@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3038. Maximum Number of Operations With the Same Score I](../../3001-3500/3320-maximum-number-of-operations-with-the-same-score-i/)
-- [1319. Number of Operations to Make Network Connected](../../1001-1500/1442-number-of-operations-to-make-network-connected/)
-- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
+- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
+- [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/)

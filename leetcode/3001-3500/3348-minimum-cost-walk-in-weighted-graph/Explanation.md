@@ -65,8 +65,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2203. Minimum Weighted Subgraph With the Required Paths](../../2001-2500/2321-minimum-weighted-subgraph-with-the-required-paths/)
-- [3553. Minimum Weighted Subgraph With the Required Paths II](../../3501-4000/3853-minimum-weighted-subgraph-with-the-required-paths-ii/)
+- [1761. Minimum Degree of a Connected Trio in a Graph](../../1501-2000/1887-minimum-degree-of-a-connected-trio-in-a-graph/)
+- [3604. Minimum Time to Reach Destination in Directed Graph](../../3501-4000/3916-minimum-time-to-reach-destination-in-directed-graph/)
 - [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1228-minimum-cost-tree-from-leaf-values/)
 
 ## LeetCode

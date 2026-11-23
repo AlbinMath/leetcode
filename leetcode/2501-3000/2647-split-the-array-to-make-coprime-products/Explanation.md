@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2197. Replace Non-Coprime Numbers in Array](../../2001-2500/2307-replace-non-coprime-numbers-in-array/)
-- [3145. Find Products of Elements of Big Array](../../3001-3500/3411-find-products-of-elements-of-big-array/)
 - [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [805. Split Array With Same Average](../../0501-1000/0823-split-array-with-same-average/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)

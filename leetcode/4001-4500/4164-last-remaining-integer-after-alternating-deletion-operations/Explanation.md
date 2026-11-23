@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [2571. Minimum Operations to Reduce an Integer to 0](../../2501-3000/2710-minimum-operations-to-reduce-an-integer-to-0/)
-- [2749. Minimum Operations to Make the Integer Zero](../../2501-3000/2837-minimum-operations-to-make-the-integer-zero/)
+- [3830. Longest Alternating Subarray After Removing At Most One Element](../../4001-4500/4198-longest-alternating-subarray-after-removing-at-most-one-element/)
+- [3896. Minimum Operations to Transform Array into Alternating Prime](../../4001-4500/4277-minimum-operations-to-transform-array-into-alternating-prime/)
+- [3937. Minimum Operations to Make Array Modulo Alternating I](../../4001-4500/4300-minimum-operations-to-make-array-modulo-alternating-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/)

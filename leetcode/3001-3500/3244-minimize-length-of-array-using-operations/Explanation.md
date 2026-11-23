@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3022. Minimize OR of Remaining Elements Using Operations](../../3001-3500/3261-minimize-or-of-remaining-elements-using-operations/)
-- [4062. Transform Array Using Pair Operations](../../4001-4500/4398-transform-array-using-pair-operations/)
 - [3927. Minimize Array Sum Using Divisible Replacements](../../4001-4500/4301-minimize-array-sum-using-divisible-replacements/)
+- [4062. Transform Array Using Pair Operations](../../4001-4500/4398-transform-array-using-pair-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-length-of-array-using-operations/)

@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [287. Find the Duplicate Number](../../0001-0500/0287-find-the-duplicate-number/)
 - [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [182. Duplicate Emails](../../0001-0500/0182-duplicate-emails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-duplicate-subtrees/)

@@ -36,6 +36,7 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 706 | [Design HashMap](../leetcode/0501-1000/0817-design-hashmap/) | Easy | Hash Map | O(n) | O(n) |
 | 720 | [Longest Word in Dictionary](../leetcode/0501-1000/0720-longest-word-in-dictionary/) | Medium | Hash Map | O(n) | O(n) |
 | 748 | [Shortest Completing Word](../leetcode/0501-1000/0749-shortest-completing-word/) | Easy | Hash Map | O(n) | O(n) |
+| 828 | [Count Unique Characters of All Substrings of a Given String](../leetcode/0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/) | Hard | Hash Map | O(n) | O(n) |
 | 840 | [Magic Squares In Grid](../leetcode/0501-1000/0870-magic-squares-in-grid/) | Medium | Hash Map | O(n) | O(n) |
 | 844 | [Backspace String Compare](../leetcode/0501-1000/0874-backspace-string-compare/) | Easy | Hash Map | O(n) | O(n) |
 | 884 | [Uncommon Words from Two Sentences](../leetcode/0501-1000/0920-uncommon-words-from-two-sentences/) | Easy | Hash Map | O(n) | O(n) |
@@ -113,6 +114,7 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 3346 | [Maximum Frequency of an Element After Performing Operations I](../leetcode/3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/) | Medium | Hash Map | O(n) | O(n) |
 | 3347 | [Maximum Frequency of an Element After Performing Operations II](../leetcode/3501-4000/3640-maximum-frequency-of-an-element-after-performing-operations-ii/) | Hard | Hash Map | O(n) | O(n) |
 | 3395 | [Subsequences with a Unique Middle Mode I](../leetcode/3501-4000/3700-subsequences-with-a-unique-middle-mode-i/) | Hard | Hash Map | O(n) | O(n) |
+| 3433 | [Count Mentions Per User](../leetcode/3501-4000/3721-count-mentions-per-user/) | Medium | Hash Map | O(n) | O(n) |
 | 3434 | [Maximum Frequency After Subarray Operation](../leetcode/3501-4000/3751-maximum-frequency-after-subarray-operation/) | Medium | Hash Map | O(n) | O(n) |
 | 3435 | [Frequencies of Shortest Supersequences](../leetcode/3501-4000/3713-frequencies-of-shortest-supersequences/) | Hard | Hash Map | O(n) | O(n) |
 | 3445 | [Maximum Difference Between Even and Odd Frequency II](../leetcode/3501-4000/3761-maximum-difference-between-even-and-odd-frequency-ii/) | Hard | Hash Map | O(n) | O(n) |
@@ -125,5 +127,6 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 | 3806 | [Maximum Bitwise AND After Increment Operations](../leetcode/4001-4500/4154-maximum-bitwise-and-after-increment-operations/) | Hard | Hash Map | O(n) | O(n) |
 | 3838 | [Weighted Word Mapping](../leetcode/4001-4500/4216-weighted-word-mapping/) | Easy | Hash Map | O(n) | O(n) |
 | 3859 | [Count Subarrays With K Distinct Integers](../leetcode/4001-4500/4002-count-subarrays-with-k-distinct-integers/) | Hard | Hash Map | O(n) | O(n) |
+| 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4001-4500/4246-maximum-subarray-sum-after-at-most-k-swaps/) | Hard | Hash Map | O(n) | O(n) |
 | 4032 | [Longest Subarray With at Most K Distinct Prime Factors](../leetcode/4001-4500/4370-longest-subarray-with-at-most-k-distinct-prime-factors/) | Medium | Hash Map | O(n) | O(n) |
 | 4033 | [Valid K-Unique Subarrays I](../leetcode/3501-4000/3988-valid-k-unique-subarrays-i/) | Hard | Hash Map | O(n) | O(n) |

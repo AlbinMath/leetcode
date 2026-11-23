@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1592. Rearrange Spaces Between Words](../../1501-2000/1714-rearrange-spaces-between-words/)
 - [2047. Number of Valid Words in a Sentence](../../2001-2500/2173-number-of-valid-words-in-a-sentence/)
-- [1795. Rearrange Products Table](../../1501-2000/1948-rearrange-products-table/)
+- [1592. Rearrange Spaces Between Words](../../1501-2000/1714-rearrange-spaces-between-words/)
+- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-words-in-a-sentence/)

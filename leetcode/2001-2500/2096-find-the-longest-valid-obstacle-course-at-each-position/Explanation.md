@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 - [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
-- [1178. Number of Valid Words for Each Puzzle](../../1001-1500/1282-number-of-valid-words-for-each-puzzle/)
+- [1371. Find the Longest Substring Containing Vowels in Even Counts](../../1001-1500/1473-find-the-longest-substring-containing-vowels-in-even-counts/)
+- [1542. Find Longest Awesome Substring](../../1501-2000/1668-find-longest-awesome-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/)

@@ -1,7 +1,7 @@
 # LeetCode 2115: Find All Possible Recipes from Given Supplies
 
 **LeetCode Problem #2115 — Find All Possible Recipes from Given Supplies**
-Solve LeetCode Find All Possible Recipes from Given Supplies using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find All Possible Recipes from Given Supplies using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,41 @@ Solve LeetCode Find All Possible Recipes from Given Supplies using JavaScript an
 | LeetCode | #2115 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 You have information about  n  different recipes. You are given a string array  recipes  and a 2D string array  ingredients . The  i th   recipe has the name  recipes[i] , and you can  create  it if you have  all  the needed ingredients from  ingredients[i] . A recipe can also be an ingredient for  other  recipes, i.e.,  ingredients[i]  may contain a string that is in  recipes .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find All Possible Recipes from Given Supplies**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Find All Possible Recipes from Given Supplies**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 JavaScript
@@ -50,7 +53,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -62,9 +65,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [894. All Possible Full Binary Trees](../../0501-1000/0930-all-possible-full-binary-trees/)
-- [1162. As Far from Land as Possible](../../1001-1500/1117-as-far-from-land-as-possible/)
-- [1575. Count All Possible Routes](../../1501-2000/1680-count-all-possible-routes/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1358-find-positive-integer-solution-for-a-given-equation/)
+- [2156. Find Substring With Given Hash Value](../../2001-2500/2275-find-substring-with-given-hash-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)

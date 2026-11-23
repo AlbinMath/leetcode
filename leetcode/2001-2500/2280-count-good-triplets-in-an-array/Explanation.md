@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1534. Count Good Triplets](../../1501-2000/1656-count-good-triplets/)
-- [1250. Check If It Is a Good Array](../../1001-1500/1372-check-if-it-is-a-good-array/)
-- [1735. Count Ways to Make Array With Product](../../1501-2000/1836-count-ways-to-make-array-with-product/)
+- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1501-2000/1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [1448. Count Good Nodes in Binary Tree](../../1501-2000/1544-count-good-nodes-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-good-triplets-in-an-array/)

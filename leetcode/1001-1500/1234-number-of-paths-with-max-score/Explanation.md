@@ -75,9 +75,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [3038. Maximum Number of Operations With the Same Score I](../../3001-3500/3320-maximum-number-of-operations-with-the-same-score-i/)
-- [3040. Maximum Number of Operations With the Same Score II](../../3001-3500/3318-maximum-number-of-operations-with-the-same-score-ii/)
 - [1786. Number of Restricted Paths From First to Last Node](../../1501-2000/1912-number-of-restricted-paths-from-first-to-last-node/)
+- [2328. Number of Increasing Paths in a Grid](../../2001-2500/2409-number-of-increasing-paths-in-a-grid/)
+- [2421. Number of Good Paths](../../2501-3000/2505-number-of-good-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-paths-with-max-score/)

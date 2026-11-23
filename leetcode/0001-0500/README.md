@@ -12,7 +12,7 @@ A collection of **392** solved LeetCode problems in the range **0001-0500**.
 | 4 | [Median of Two Sorted Arrays](./0004-median-of-two-sorted-arrays/) | Hard | [Binary Search](../../patterns/binary-search.md) | JavaScript, Python | [Explanation](./0004-median-of-two-sorted-arrays/Explanation.md) |
 | 5 | [Longest Palindromic Substring](./0005-longest-palindromic-substring/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript, Python | [Explanation](./0005-longest-palindromic-substring/Explanation.md) |
 | 6 | [Zigzag Conversion](./0006-zigzag-conversion/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0006-zigzag-conversion/Explanation.md) |
-| 7 | [Reverse Integer](./0007-reverse-integer/) | Medium | [Linked List](../../patterns/linked-list.md) | JavaScript | [Explanation](./0007-reverse-integer/Explanation.md) |
+| 7 | [Reverse Integer](./0007-reverse-integer/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0007-reverse-integer/Explanation.md) |
 | 8 | [String to Integer (atoi)](./0008-string-to-integer-atoi/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0008-string-to-integer-atoi/Explanation.md) |
 | 9 | [Palindrome Number](./0009-palindrome-number/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0009-palindrome-number/Explanation.md) |
 | 10 | [Regular Expression Matching](./0010-regular-expression-matching/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | JavaScript | [Explanation](./0010-regular-expression-matching/Explanation.md) |
@@ -307,8 +307,8 @@ A collection of **392** solved LeetCode problems in the range **0001-0500**.
 | 374 | [Guess Number Higher or Lower](./0374-guess-number-higher-or-lower/) | Easy | [Array / General](../../patterns/array-general.md) | JavaScript, Python | [Explanation](./0374-guess-number-higher-or-lower/Explanation.md) |
 | 375 | [Guess Number Higher or Lower II](./0375-guess-number-higher-or-lower-ii/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0375-guess-number-higher-or-lower-ii/Explanation.md) |
 | 378 | [Kth Smallest Element in a Sorted Matrix](./0378-kth-smallest-element-in-a-sorted-matrix/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | JavaScript | [Explanation](./0378-kth-smallest-element-in-a-sorted-matrix/Explanation.md) |
-| 380 | [Insert Delete GetRandom O(1)](./0380-insert-delete-getrandom-o1/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript, Python | [Explanation](./0380-insert-delete-getrandom-o1/Explanation.md) |
-| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](./0381-insert-delete-getrandom-o1---duplicates-allowed/) | Hard | [Linked List](../../patterns/linked-list.md) | Python | [Explanation](./0381-insert-delete-getrandom-o1---duplicates-allowed/Explanation.md) |
+| 380 | [Insert Delete GetRandom O(1)](./0380-insert-delete-getrandom-o1/) | Medium | [Linked List](../../patterns/linked-list.md) | JavaScript, Python | [Explanation](./0380-insert-delete-getrandom-o1/Explanation.md) |
+| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](./0381-insert-delete-getrandom-o1---duplicates-allowed/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0381-insert-delete-getrandom-o1---duplicates-allowed/Explanation.md) |
 | 382 | [Linked List Random Node](./0382-linked-list-random-node/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0382-linked-list-random-node/Explanation.md) |
 | 383 | [Ransom Note](./0383-ransom-note/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0383-ransom-note/Explanation.md) |
 | 384 | [Shuffle an Array](./0384-shuffle-an-array/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0384-shuffle-an-array/Explanation.md) |
@@ -391,7 +391,7 @@ A collection of **392** solved LeetCode problems in the range **0001-0500**.
 | 488 | [Zuma Game](./0488-zuma-game/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0488-zuma-game/Explanation.md) |
 | 491 | [Non-decreasing Subsequences](./0491-non-decreasing-subsequences/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0491-non-decreasing-subsequences/Explanation.md) |
 | 492 | [Construct the Rectangle](./0492-construct-the-rectangle/) | Easy | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0492-construct-the-rectangle/Explanation.md) |
-| 493 | [Reverse Pairs](./0493-reverse-pairs/) | Hard | [Linked List](../../patterns/linked-list.md) | JavaScript, Python | [Explanation](./0493-reverse-pairs/Explanation.md) |
+| 493 | [Reverse Pairs](./0493-reverse-pairs/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0493-reverse-pairs/Explanation.md) |
 | 494 | [Target Sum](./0494-target-sum/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0494-target-sum/Explanation.md) |
 | 495 | [Teemo Attacking](./0495-teemo-attacking/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0495-teemo-attacking/Explanation.md) |
 | 496 | [Next Greater Element I](./0496-next-greater-element-i/) | Easy | [Monotonic Stack](../../patterns/monotonic-stack.md) | Python | [Explanation](./0496-next-greater-element-i/Explanation.md) |

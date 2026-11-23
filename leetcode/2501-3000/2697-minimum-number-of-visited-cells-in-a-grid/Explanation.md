@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [1536. Minimum Swaps to Arrange a Binary Grid](../../1501-2000/1658-minimum-swaps-to-arrange-a-binary-grid/)
 - [2257. Count Unguarded Cells in the Grid](../../2001-2500/2343-count-unguarded-cells-in-the-grid/)
+- [3276. Select Cells in Grid With Maximum Score](../../3501-4000/3563-select-cells-in-grid-with-maximum-score/)
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/)

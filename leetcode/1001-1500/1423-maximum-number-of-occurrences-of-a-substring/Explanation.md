@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1456. Maximum Number of Vowels in a Substring of Given Length](../../1501-2000/1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
 - [3090. Maximum Length Substring With Two Occurrences](../../3001-3500/3349-maximum-length-substring-with-two-occurrences/)
-- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
+- [1456. Maximum Number of Vowels in a Substring of Given Length](../../1501-2000/1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
+- [1207. Unique Number of Occurrences](../../1001-1500/1319-unique-number-of-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)

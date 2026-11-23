@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3258. Count Substrings That Satisfy K-Constraint I](../../3501-4000/3543-count-substrings-that-satisfy-k-constraint-i/)
-- [3305. Count of Substrings Containing Every Vowel and K Consonants I](../../3501-4000/3570-count-of-substrings-containing-every-vowel-and-k-consonants-i/)
-- [3306. Count of Substrings Containing Every Vowel and K Consonants II](../../3501-4000/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii/)
+- [1638. Count Substrings That Differ by One Character](../../1501-2000/1743-count-substrings-that-differ-by-one-character/)
+- [3297. Count Substrings That Can Be Rearranged to Contain a String I](../../3501-4000/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/)

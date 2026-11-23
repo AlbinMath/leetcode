@@ -20,6 +20,8 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 
 | 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1501-2000/1802-number-of-students-unable-to-eat-lunch/) | C++, JavaScript | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1802-number-of-students-unable-to-eat-lunch/Explanation.md) |
 
+| 2293 | [Min Max Game](../leetcode/2001-2500/2386-min-max-game/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2386-min-max-game/Explanation.md) |
+
 | 2460 | [Apply Operations to an Array](../leetcode/2501-3000/2551-apply-operations-to-an-array/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2551-apply-operations-to-an-array/Explanation.md) |
 
 | 2888 | [Reshape Data: Concatenate](../leetcode/3001-3500/3064-reshape-data-concatenate/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3064-reshape-data-concatenate/Explanation.md) |
@@ -63,8 +65,6 @@ A collection of LeetCode problems solved using **Stack & Queue** pattern techniq
 | 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1501-2000/1648-minimum-insertions-to-balance-a-parentheses-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1648-minimum-insertions-to-balance-a-parentheses-string/Explanation.md) |
 
 | 1670 | [Design Front Middle Back Queue](../leetcode/1501-2000/1767-design-front-middle-back-queue/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1767-design-front-middle-back-queue/Explanation.md) |
-
-| 1993 | [Operations on Tree](../leetcode/2001-2500/2104-operations-on-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2104-operations-on-tree/Explanation.md) |
 
 | 2116 | [Check if a Parentheses String Can Be Valid](../leetcode/2001-2500/2221-check-if-a-parentheses-string-can-be-valid/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2221-check-if-a-parentheses-string-can-be-valid/Explanation.md) |
 

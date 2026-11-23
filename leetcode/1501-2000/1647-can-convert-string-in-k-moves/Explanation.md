@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2027. Minimum Moves to Convert String](../../2001-2500/2154-minimum-moves-to-convert-string/)
 - [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
-- [1461. Check If a String Contains All Binary Codes of Size K](../../1501-2000/1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
+- [1433. Check If a String Can Break Another String](../../1501-2000/1530-check-if-a-string-can-break-another-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/can-convert-string-in-k-moves/)

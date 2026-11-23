@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3276. Select Cells in Grid With Maximum Score](../../3501-4000/3563-select-cells-in-grid-with-maximum-score/)
+- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
 - [1909. Remove One Element to Make the Array Strictly Increasing](../../2001-2500/2020-remove-one-element-to-make-the-array-strictly-increasing/)
-- [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](../../3001-3500/3372-longest-strictly-increasing-or-strictly-decreasing-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/)

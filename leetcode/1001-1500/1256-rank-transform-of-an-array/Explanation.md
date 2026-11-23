@@ -68,9 +68,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [1632. Rank Transform of a Matrix](../../1001-1500/1257-rank-transform-of-a-matrix/)
 - [2635. Apply Transform Over Each Element in Array](../../2501-3000/2747-apply-transform-over-each-element-in-array/)
 - [3896. Minimum Operations to Transform Array into Alternating Prime](../../4001-4500/4277-minimum-operations-to-transform-array-into-alternating-prime/)
-- [4062. Transform Array Using Pair Operations](../../4001-4500/4398-transform-array-using-pair-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-transform-of-an-array/)

@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2336. Smallest Number in Infinite Set](../../2001-2500/2413-smallest-number-in-infinite-set/)
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
-- [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
+- [2336. Smallest Number in Infinite Set](../../2001-2500/2413-smallest-number-in-infinite-set/)
+- [191. Number of 1 Bits](../../0001-0500/0191-number-of-1-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-number-with-all-set-bits/)

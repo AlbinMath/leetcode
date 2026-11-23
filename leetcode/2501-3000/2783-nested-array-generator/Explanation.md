@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2625. Flatten Deeply Nested Array](../../2501-3000/2759-flatten-deeply-nested-array/)
-- [341. Flatten Nested List Iterator](../../0001-0500/0341-flatten-nested-list-iterator/)
 - [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/nested-array-generator/)

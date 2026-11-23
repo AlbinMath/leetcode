@@ -65,8 +65,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [480. Sliding Window Median](../../0001-0500/0480-sliding-window-median/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [773. Sliding Puzzle](../../0501-1000/0787-sliding-puzzle/)
+- [2653. Sliding Subarray Beauty](../../2501-3000/2751-sliding-subarray-beauty/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sliding-window-maximum/)

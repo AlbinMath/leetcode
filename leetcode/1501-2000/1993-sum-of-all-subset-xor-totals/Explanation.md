@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1963-find-xor-sum-of-all-pairs-bitwise-and/)
 - [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
-- [2862. Maximum Element-Sum of a Complete Subset of Indices](../../3001-3500/3047-maximum-element-sum-of-a-complete-subset-of-indices/)
+- [1588. Sum of All Odd Length Subarrays](../../1501-2000/1693-sum-of-all-odd-length-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)

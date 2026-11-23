@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
-- [1315. Sum of Nodes with Even-Valued Grandparent](../../1001-1500/1243-sum-of-nodes-with-even-valued-grandparent/)
 - [2493. Divide Nodes Into the Maximum Number of Groups](../../2501-3000/2583-divide-nodes-into-the-maximum-number-of-groups/)
+- [1315. Sum of Nodes with Even-Valued Grandparent](../../1001-1500/1243-sum-of-nodes-with-even-valued-grandparent/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)

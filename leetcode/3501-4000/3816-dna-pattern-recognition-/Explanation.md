@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [187. Repeated DNA Sequences](../../0001-0500/0187-repeated-dna-sequences/)
 - [290. Word Pattern](../../0001-0500/0290-word-pattern/)
 - [456. 132 Pattern](../../0001-0500/0456-132-pattern/)
+- [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/dna-pattern-recognition/)

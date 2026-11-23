@@ -1,7 +1,7 @@
 # LeetCode 2293: Min Max Game
 
 **LeetCode Problem #2293 — Min Max Game**
-Solve LeetCode Min Max Game using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Min Max Game using JavaScript and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,38 +10,39 @@ Solve LeetCode Min Max Game using JavaScript and Array / General. This solution 
 | LeetCode | #2293 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 You are given a  0-indexed  integer array  nums  whose length is a power of  2 .
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Stack**).
+2. Process elements sequentially using **Stack Push / Pop Parsing**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Min Max Game**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Min Max Game**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Array / General**
+**Stack & Queue**
 
 ## Topics
-- Array
+- Stack
+- String Parsing
 
 ## Language
 JavaScript
@@ -50,7 +51,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -63,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3578. Count Partitions With Max-Min Difference at Most K](../../3501-4000/3835-count-partitions-with-max-min-difference-at-most-k/)
-- [155. Min Stack](../../0001-0500/0155-min-stack/)
-- [746. Min Cost Climbing Stairs](../../0501-1000/0747-min-cost-climbing-stairs/)
+- [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/min-max-game/)

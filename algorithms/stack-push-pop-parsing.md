@@ -34,11 +34,11 @@ A curated selection of LeetCode problems solved using the **Stack Push / Pop Par
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1501-2000/1737-maximum-nesting-depth-of-the-parentheses/) | Easy | Stack & Queue | O(n) | O(n) |
 | 1670 | [Design Front Middle Back Queue](../leetcode/1501-2000/1767-design-front-middle-back-queue/) | Medium | Stack & Queue | O(n) | O(n) |
 | 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1501-2000/1802-number-of-students-unable-to-eat-lunch/) | Easy | Stack & Queue | O(n) | O(n) |
-| 1993 | [Operations on Tree](../leetcode/2001-2500/2104-operations-on-tree/) | Medium | Stack & Queue | O(n) | O(n) |
 | 2116 | [Check if a Parentheses String Can Be Valid](../leetcode/2001-2500/2221-check-if-a-parentheses-string-can-be-valid/) | Medium | Stack & Queue | O(n) | O(n) |
 | 2232 | [Minimize Result by Adding Parentheses to Expression](../leetcode/2001-2500/2328-minimize-result-by-adding-parentheses-to-expression/) | Medium | Stack & Queue | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2001-2500/2349--check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack & Queue | O(n) | O(n) |
 | 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack & Queue | O(n) | O(n) |
+| 2293 | [Min Max Game](../leetcode/2001-2500/2386-min-max-game/) | Easy | Stack & Queue | O(n) | O(n) |
 | 2392 | [Build a Matrix With Conditions](../leetcode/2001-2500/2472-build-a-matrix-with-conditions/) | Hard | Stack & Queue | O(n) | O(n) |
 | 2460 | [Apply Operations to an Array](../leetcode/2501-3000/2551-apply-operations-to-an-array/) | Easy | Stack & Queue | O(n) | O(n) |
 | 2601 | [Prime Subtraction Operation](../leetcode/2501-3000/2716-prime-subtraction-operation/) | Medium | Stack & Queue | O(n) | O(n) |

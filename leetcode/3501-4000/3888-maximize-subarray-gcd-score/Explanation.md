@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1793. Maximum Score of a Good Subarray](../../1501-2000/1918-maximum-score-of-a-good-subarray/)
 - [1799. Maximize Score After N Operations](../../1501-2000/1906-maximize-score-after-n-operations/)
 - [2818. Apply Operations to Maximize Score](../../3001-3500/3001-apply-operations-to-maximize-score/)
+- [2968. Apply Operations to Maximize Frequency Score](../../3001-3500/3196-apply-operations-to-maximize-frequency-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-subarray-gcd-score/)

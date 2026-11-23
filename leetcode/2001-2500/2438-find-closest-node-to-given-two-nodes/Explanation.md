@@ -1,7 +1,7 @@
 # LeetCode 2359: Find Closest Node to Given Two Nodes
 
 **LeetCode Problem #2359 — Find Closest Node to Given Two Nodes**
-Solve LeetCode Find Closest Node to Given Two Nodes using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Find Closest Node to Given Two Nodes using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Find Closest Node to Given Two Nodes using JavaScript and Two Poi
 | LeetCode | #2359 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Two Pointer Convergence & Scanning |
-| Data Structure | Array |
-| Pattern | Two Pointers |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,30 +20,30 @@ Solve LeetCode Find Closest Node to Given Two Nodes using JavaScript and Two Poi
 You are given a  directed  graph of  n  nodes numbered from  0  to  n - 1 , where each node has  at most one  outgoing edge.
 
 ## Key Insight
-Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 We iterate through the input using **Pointer Traversal & Node Manipulation**. By maintaining state efficiently in a **Linked List**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Find Closest Node to Given Two Nodes**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+Consider the standard input for **Find Closest Node to Given Two Nodes**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Two Pointers**
+**Binary Search**
 
 ## Topics
-- Two Pointers
-- Array
-- Sorting
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 JavaScript
@@ -52,21 +52,21 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Failing to sort the array when ordering is required.
-2. Not skipping duplicate elements leading to non-unique pairs.
-3. Pointer out-of-bounds errors on edge inputs.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
-- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [2476. Closest Nodes Queries in a Binary Search Tree](../../2501-3000/2567-closest-nodes-queries-in-a-binary-search-tree/)
-- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
+- [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../../1001-1500/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
+- [3068. Find the Maximum Sum of Node Values](../../3001-3500/3307-find-the-maximum-sum-of-node-values/)
+- [3585. Find Weighted Median Node in Tree](../../3501-4000/3900-find-weighted-median-node-in-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)

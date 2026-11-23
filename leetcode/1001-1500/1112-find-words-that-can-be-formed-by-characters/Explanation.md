@@ -65,8 +65,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3011. Find if Array Can Be Sorted](../../3001-3500/3291-find-if-array-can-be-sorted/)
 - [2201. Count Artifacts That Can Be Extracted](../../1001-1500/1312-count-artifacts-that-can-be-extracted/)
+- [3011. Find if Array Can Be Sorted](../../3001-3500/3291-find-if-array-can-be-sorted/)
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](../../3501-4000/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
 
 ## LeetCode

@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [191. Number of 1 Bits](../../0001-0500/0191-number-of-1-bits/)
+- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 - [1387. Sort Integers by The Power Value](../../1001-1500/1488-sort-integers-by-the-power-value/)
-- [1805. Number of Different Integers in a String](../../1501-2000/1933-number-of-different-integers-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)

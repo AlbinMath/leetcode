@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3630. Partition Array for Maximum XOR and AND](../../3501-4000/3882-partition-array-for-maximum-xor-and-and/)
-- [2871. Split Array Into Maximum Number of Subarrays](../../3001-3500/3080-split-array-into-maximum-number-of-subarrays/)
 - [1569. Number of Ways to Reorder Array to Get Same BST](../../1501-2000/1692-number-of-ways-to-reorder-array-to-get-same-bst/)
+- [2871. Split Array Into Maximum Number of Subarrays](../../3001-3500/3080-split-array-into-maximum-number-of-subarrays/)
+- [3630. Partition Array for Maximum XOR and AND](../../3501-4000/3882-partition-array-for-maximum-xor-and-and/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)

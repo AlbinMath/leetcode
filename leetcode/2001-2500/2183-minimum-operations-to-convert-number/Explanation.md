@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](../../1001-1500/1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
-- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
-- [1806. Minimum Number of Operations to Reinitialize a Permutation](../../1501-2000/1935-minimum-number-of-operations-to-reinitialize-a-permutation/)
+- [2220. Minimum Bit Flips to Convert Number](../../2001-2500/2323-minimum-bit-flips-to-convert-number/)
+- [3542. Minimum Operations to Convert All Elements to Zero](../../3501-4000/3834-minimum-operations-to-convert-all-elements-to-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-convert-number/)

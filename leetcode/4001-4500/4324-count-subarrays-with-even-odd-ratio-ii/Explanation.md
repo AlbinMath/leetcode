@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [4011. Count Subarrays With Even Odd Ratio I](../../4001-4500/4323-count-subarrays-with-even-odd-ratio-i/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
-- [1523. Count Odd Numbers in an Interval Range](../../1501-2000/1630-count-odd-numbers-in-an-interval-range/)
+- [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
+- [975. Odd Even Jump](../../1001-1500/1017-odd-even-jump/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-ii/)

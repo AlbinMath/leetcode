@@ -74,7 +74,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
 - [318. Maximum Product of Word Lengths](../../0001-0500/0318-maximum-product-of-word-lengths/)
-- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1339. Maximum Product of Splitted Binary Tree](../../1001-1500/1465-maximum-product-of-splitted-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-of-three-numbers/)

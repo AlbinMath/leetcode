@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [904. Fruit Into Baskets](../../0501-1000/0940-fruit-into-baskets/)
-- [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2229-maximum-fruits-harvested-after-at-most-k-steps/)
-- [2944. Minimum Number of Coins for Fruits](../../3001-3500/3209-minimum-number-of-coins-for-fruits/)
+- [701. Insert into a Binary Search Tree](../../0501-1000/0784-insert-into-a-binary-search-tree/)
+- [842. Split Array into Fibonacci Sequence](../../0501-1000/0872-split-array-into-fibonacci-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fruits-into-baskets-ii/)

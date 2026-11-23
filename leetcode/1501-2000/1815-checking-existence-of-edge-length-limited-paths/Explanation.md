@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
-- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [2374. Node With Highest Edge Score](../../2001-2500/2455-node-with-highest-edge-score/)
+- [2699. Modify Graph Edge Weights](../../2501-3000/2803-modify-graph-edge-weights/)
+- [2846. Minimum Edge Weight Equilibrium Queries in a Tree](../../3001-3500/3079-minimum-edge-weight-equilibrium-queries-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)

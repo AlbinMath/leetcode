@@ -58,6 +58,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 783 | [Minimum Distance Between BST Nodes](../leetcode/0501-1000/0799-minimum-distance-between-bst-nodes/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0799-minimum-distance-between-bst-nodes/Explanation.md) |
 
+| 804 | [Unique Morse Code Words](../leetcode/0501-1000/0822-unique-morse-code-words/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0822-unique-morse-code-words/Explanation.md) |
+
 | 819 | [Most Common Word](../leetcode/0501-1000/0837-most-common-word/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0837-most-common-word/Explanation.md) |
 
 | 868 | [Binary Gap](../leetcode/0501-1000/0899-binary-gap/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0899-binary-gap/Explanation.md) |
@@ -194,9 +196,13 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 919 | [Complete Binary Tree Inserter](../leetcode/0501-1000/0955-complete-binary-tree-inserter/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0955-complete-binary-tree-inserter/Explanation.md) |
 
+| 930 | [Binary Subarrays With Sum](../leetcode/0501-1000/0966-binary-subarrays-with-sum/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0966-binary-subarrays-with-sum/Explanation.md) |
+
 | 946 | [Validate Stack Sequences](../leetcode/0501-1000/0983-validate-stack-sequences/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0983-validate-stack-sequences/Explanation.md) |
 
 | 951 | [Flip Equivalent Binary Trees](../leetcode/0501-1000/0988-flip-equivalent-binary-trees/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0988-flip-equivalent-binary-trees/Explanation.md) |
+
+| 958 | [Check Completeness of a Binary Tree](../leetcode/0501-1000/0998-check-completeness-of-a-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0998-check-completeness-of-a-binary-tree/Explanation.md) |
 
 | 979 | [Distribute Coins in Binary Tree](../leetcode/1001-1500/1021-distribute-coins-in-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1021-distribute-coins-in-binary-tree/Explanation.md) |
 
@@ -232,7 +238,11 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 1980 | [Find Unique Binary String](../leetcode/2001-2500/2107-find-unique-binary-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2107-find-unique-binary-string/Explanation.md) |
 
+| 1993 | [Operations on Tree](../leetcode/2001-2500/2104-operations-on-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2104-operations-on-tree/Explanation.md) |
+
 | 2196 | [Create Binary Tree From Descriptions](../leetcode/2001-2500/2306-create-binary-tree-from-descriptions/) | Java, Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2306-create-binary-tree-from-descriptions/Explanation.md) |
+
+| 2359 | [Find Closest Node to Given Two Nodes](../leetcode/2001-2500/2438-find-closest-node-to-given-two-nodes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2438-find-closest-node-to-given-two-nodes/Explanation.md) |
 
 | 2476 | [Closest Nodes Queries in a Binary Search Tree](../leetcode/2501-3000/2567-closest-nodes-queries-in-a-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2567-closest-nodes-queries-in-a-binary-search-tree/Explanation.md) |
 
@@ -261,6 +271,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 | 212 | [Word Search II](../leetcode/0001-0500/0212-word-search-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0212-word-search-ii/Explanation.md) |
 
 | 297 | [Serialize and Deserialize Binary Tree](../leetcode/0001-0500/0297-serialize-and-deserialize-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0297-serialize-and-deserialize-binary-tree/Explanation.md) |
+
+| 675 | [Cut Off Trees for Golf Event](../leetcode/0501-1000/0675-cut-off-trees-for-golf-event/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0675-cut-off-trees-for-golf-event/Explanation.md) |
 
 | 834 | [Sum of Distances in Tree](../leetcode/0501-1000/0863-sum-of-distances-in-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0863-sum-of-distances-in-tree/Explanation.md) |
 

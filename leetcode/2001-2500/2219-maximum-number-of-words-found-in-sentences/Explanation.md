@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1935. Maximum Number of Words You Can Type](../../1001-1500/1264-maximum-number-of-words-you-can-type/)
-- [884. Uncommon Words from Two Sentences](../../0501-1000/0920-uncommon-words-from-two-sentences/)
-- [1178. Number of Valid Words for Each Puzzle](../../1001-1500/1282-number-of-valid-words-for-each-puzzle/)
+- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
+- [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)

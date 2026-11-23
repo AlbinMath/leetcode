@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3008. Find Beautiful Indices in the Given Array II](../../3001-3500/3303-find-beautiful-indices-in-the-given-array-ii/)
 - [2089. Find Target Indices After Sorting Array](../../2001-2500/2210-find-target-indices-after-sorting-array/)
-- [3618. Split Array by Prime Indices](../../3501-4000/3936-split-array-by-prime-indices/)
+- [932. Beautiful Array](../../0501-1000/0968-beautiful-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/)

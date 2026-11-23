@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1735. Count Ways to Make Array With Product](../../1501-2000/1836-count-ways-to-make-array-with-product/)
 - [3725. Count Ways to Choose Coprime Integers from Rows](../../4001-4500/4069-count-ways-to-choose-coprime-integers-from-rows/)
-- [3028. Ant on the Boundary](../../3001-3500/3311-ant-on-the-boundary/)
+- [1441. Build an Array With Stack Operations](../../1501-2000/1552-build-an-array-with-stack-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)

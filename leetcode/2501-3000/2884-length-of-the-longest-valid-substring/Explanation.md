@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 - [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
+- [1964. Find the Longest Valid Obstacle Course at Each Position](../../2001-2500/2096-find-the-longest-valid-obstacle-course-at-each-position/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-the-longest-valid-substring/)

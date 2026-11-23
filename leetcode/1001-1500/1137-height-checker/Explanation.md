@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [420. Strong Password Checker](../../0001-0500/0420-strong-password-checker/)
 - [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
 - [406. Queue Reconstruction by Height](../../0001-0500/0406-queue-reconstruction-by-height/)
-- [1840. Maximum Building Height](../../1501-2000/1968-maximum-building-height/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/height-checker/)

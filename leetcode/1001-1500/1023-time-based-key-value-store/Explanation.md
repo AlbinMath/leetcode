@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2151. Maximum Good People Based on Statements](../../2001-2500/2272-maximum-good-people-based-on-statements/)
-- [2468. Split Message Based on Limit](../../2501-3000/2563-split-message-based-on-limit/)
 - [482. License Key Formatting](../../0001-0500/0482-license-key-formatting/)
+- [1409. Queries on a Permutation With Key](../../1501-2000/1525-queries-on-a-permutation-with-key/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/time-based-key-value-store/)

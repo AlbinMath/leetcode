@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2879. Display the First Three Rows](../../3001-3500/3065-display-the-first-three-rows/)
-- [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
-- [1357. Apply Discount Every n Orders](../../1001-1500/1459-apply-discount-every-n-orders/)
+- [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
+- [1179. Reformat Department Table](../../1001-1500/1301-reformat-department-table/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)

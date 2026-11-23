@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [2867. Count Valid Paths in a Tree](../../3001-3500/3112-count-valid-paths-in-a-tree/)
-- [4002. Count Valid Sequences](../../4001-4500/4345-count-valid-sequences/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1277. Count Square Submatrices with All Ones](../../1001-1500/1402-count-square-submatrices-with-all-ones/)
+- [1504. Count Submatrices With All Ones](../../1501-2000/1628-count-submatrices-with-all-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)

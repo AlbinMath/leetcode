@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3569. Maximize Count of Distinct Primes After Split](../../3501-4000/3878-maximize-count-of-distinct-primes-after-split/)
-- [3859. Count Subarrays With K Distinct Integers](../../4001-4500/4002-count-subarrays-with-k-distinct-integers/)
 - [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
+- [1351. Count Negative Numbers in a Sorted Matrix](../../1001-1500/1476-count-negative-numbers-in-a-sorted-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-distinct-numbers-on-board/)

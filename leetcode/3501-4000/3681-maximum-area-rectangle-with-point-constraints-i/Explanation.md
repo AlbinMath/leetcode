@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3382. Maximum Area Rectangle With Point Constraints II](../../3501-4000/3689-maximum-area-rectangle-with-point-constraints-ii/)
-- [2975. Maximum Square Area by Removing Fences From a Field](../../3001-3500/3250-maximum-square-area-by-removing-fences-from-a-field/)
-- [3588. Find Maximum Area of a Triangle](../../3501-4000/3868-find-maximum-area-of-a-triangle/)
+- [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
+- [850. Rectangle Area II](../../0501-1000/0880-rectangle-area-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i/)

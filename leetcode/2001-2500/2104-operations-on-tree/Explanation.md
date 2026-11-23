@@ -1,7 +1,7 @@
 # LeetCode 1993: Operations on Tree
 
 **LeetCode Problem #1993 — Operations on Tree**
-Solve LeetCode Operations on Tree using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Operations on Tree using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,40 @@ Solve LeetCode Operations on Tree using Python and Stack & Queue. This solution 
 | LeetCode | #1993 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Stack Push / Pop Parsing |
-| Data Structure | Stack |
-| Pattern | Stack & Queue |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 You are given a tree with  n  nodes numbered from  0  to  n - 1  in the form of a parent array  parent  where  parent[i]  is the parent of the  i th   node. The root of the tree is node  0 , so  parent[0] = -1  since it has no parent. You want to design a data structure that allows users to lock, unlock, and upgrade nodes in the tree.
 
 ## Key Insight
-Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Stack**).
-2. Process elements sequentially using **Stack Push / Pop Parsing**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Operations on Tree**. Applying **Stack Push / Pop Parsing** yields the target result step by step.
+Consider the standard input for **Operations on Tree**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Stack & Queue**
+**Binary Search**
 
 ## Topics
-- Stack
-- String Parsing
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 Python
@@ -51,21 +52,21 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [2471. Minimum Number of Operations to Sort a Binary Tree by Level](../../2501-3000/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
-- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
-- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
+- [1319. Number of Operations to Make Network Connected](../../1001-1500/1442-number-of-operations-to-make-network-connected/)
+- [1441. Build an Array With Stack Operations](../../1501-2000/1552-build-an-array-with-stack-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/operations-on-tree/)

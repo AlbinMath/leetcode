@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3955. Valid Binary Strings With Cost Limit](../../4001-4500/4289-valid-binary-strings-with-cost-limit/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
+- [777. Swap Adjacent in LR String](../../0501-1000/0793-swap-adjacent-in-lr-string/)
+- [1042. Flower Planting With No Adjacent](../../1001-1500/1120-flower-planting-with-no-adjacent/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)

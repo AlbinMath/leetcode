@@ -19,6 +19,7 @@ LeetCode problems solved using **Array / Hash Set** data structures.
 | 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2001-2500/2248-minimum-cost-of-buying-candies-with-discount/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2001-2500/2367-minimum-lines-to-represent-a-line-chart/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2501-3000/2575-minimum-cuts-to-divide-a-circle/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 2528 | [Maximize the Minimum Powered City](../leetcode/2501-3000/2618-maximize-the-minimum-powered-city/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 2540 | [Minimum Common Value](../leetcode/2501-3000/2634-minimum-common-value/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 2568 | [Minimum Impossible OR](../leetcode/2501-3000/2705-minimum-impossible-or/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 2627 | [Debounce](../leetcode/2501-3000/2743-debounce/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |

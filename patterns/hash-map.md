@@ -186,6 +186,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 3346 | [Maximum Frequency of an Element After Performing Operations I](../leetcode/3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/Explanation.md) |
 
+| 3433 | [Count Mentions Per User](../leetcode/3501-4000/3721-count-mentions-per-user/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3721-count-mentions-per-user/Explanation.md) |
+
 | 3434 | [Maximum Frequency After Subarray Operation](../leetcode/3501-4000/3751-maximum-frequency-after-subarray-operation/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3751-maximum-frequency-after-subarray-operation/Explanation.md) |
 
 | 3522 | [Calculate Score After Performing Instructions](../leetcode/3501-4000/3732-calculate-score-after-performing-instructions/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3732-calculate-score-after-performing-instructions/Explanation.md) |
@@ -207,6 +209,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 460 | [LFU Cache](../leetcode/0001-0500/0460-lfu-cache/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0460-lfu-cache/Explanation.md) |
 
 | 483 | [Smallest Good Base](../leetcode/0001-0500/0483-smallest-good-base/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0483-smallest-good-base/Explanation.md) |
+
+| 828 | [Count Unique Characters of All Substrings of a Given String](../leetcode/0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/Explanation.md) |
 
 | 895 | [Maximum Frequency Stack](../leetcode/0501-1000/0931-maximum-frequency-stack/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0931-maximum-frequency-stack/Explanation.md) |
 
@@ -255,6 +259,8 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 3806 | [Maximum Bitwise AND After Increment Operations](../leetcode/4001-4500/4154-maximum-bitwise-and-after-increment-operations/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4154-maximum-bitwise-and-after-increment-operations/Explanation.md) |
 
 | 3859 | [Count Subarrays With K Distinct Integers](../leetcode/4001-4500/4002-count-subarrays-with-k-distinct-integers/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4002-count-subarrays-with-k-distinct-integers/Explanation.md) |
+
+| 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4001-4500/4246-maximum-subarray-sum-after-at-most-k-swaps/) | C++ | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4246-maximum-subarray-sum-after-at-most-k-swaps/Explanation.md) |
 
 | 4033 | [Valid K-Unique Subarrays I](../leetcode/3501-4000/3988-valid-k-unique-subarrays-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3988-valid-k-unique-subarrays-i/Explanation.md) |
 

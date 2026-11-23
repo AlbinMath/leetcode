@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [676. Implement Magic Dictionary](../../0501-1000/0676-implement-magic-dictionary/)
 - [2171. Removing Minimum Number of Magic Beans](../../2001-2500/2290-removing-minimum-number-of-magic-beans/)
-- [1260. Shift 2D Grid](../../1001-1500/1386-shift-2d-grid/)
+- [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/magic-squares-in-grid/)

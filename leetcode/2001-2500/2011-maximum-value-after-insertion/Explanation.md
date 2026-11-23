@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1422. Maximum Score After Splitting a String](../../1501-2000/1537-maximum-score-after-splitting-a-string/)
-- [1695. Maximum Erasure Value](../../1501-2000/1813-maximum-erasure-value/)
 - [1702. Maximum Binary String After Change](../../1501-2000/1804-maximum-binary-string-after-change/)
+- [1846. Maximum Element After Decreasing and Rearranging](../../1501-2000/1956-maximum-element-after-decreasing-and-rearranging/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-after-insertion/)

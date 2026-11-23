@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [3211. Generate Binary Strings Without Adjacent Zeros](../../3001-3500/3453-generate-binary-strings-without-adjacent-zeros/)
+- [3864. Minimum Cost to Partition a Binary String](../../4001-4500/4192-minimum-cost-to-partition-a-binary-string/)
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-binary-strings-with-cost-limit/)

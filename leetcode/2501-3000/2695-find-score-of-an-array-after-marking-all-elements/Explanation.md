@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3334. Find the Maximum Factor Score of Array](../../3501-4000/3593-find-the-maximum-factor-score-of-array/)
 - [1619. Mean of Array After Removing Some Elements](../../1001-1500/1210-mean-of-array-after-removing-some-elements/)
 - [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
+- [3041. Maximize Consecutive Elements in an Array After Modification](../../3001-3500/3298-maximize-consecutive-elements-in-an-array-after-modification/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)

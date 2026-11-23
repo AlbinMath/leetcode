@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1864. Minimum Number of Swaps to Make the Binary String Alternating](../../1501-2000/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
+- [3727. Maximum Alternating Sum of Squares](../../4001-4500/4078-maximum-alternating-sum-of-squares/)
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
-- [2897. Apply Operations on Array to Maximize Sum of Squares](../../3001-3500/3153-apply-operations-on-array-to-maximize-sum-of-squares/)
-- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3501-4000/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-alternating-sum-using-swaps/)

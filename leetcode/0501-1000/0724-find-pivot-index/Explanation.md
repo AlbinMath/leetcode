@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2485. Find the Pivot Integer](../../2501-3000/2571-find-the-pivot-integer/)
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 - [1991. Find the Middle Index in Array](../../2001-2500/2102-find-the-middle-index-in-array/)
-- [2485. Find the Pivot Integer](../../2501-3000/2571-find-the-pivot-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-pivot-index/)

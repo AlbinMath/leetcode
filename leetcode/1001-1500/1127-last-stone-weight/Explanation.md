@@ -66,9 +66,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [877. Stone Game](../../0501-1000/0909-stone-game/)
-- [1140. Stone Game II](../../1001-1500/1240-stone-game-ii/)
-- [1406. Stone Game III](../../1501-2000/1522-stone-game-iii/)
+- [528. Random Pick with Weight](../../0501-1000/0912-random-pick-with-weight/)
+- [2846. Minimum Edge Weight Equilibrium Queries in a Tree](../../3001-3500/3079-minimum-edge-weight-equilibrium-queries-in-a-tree/)
+- [3419. Minimize the Maximum Edge Weight of Graph](../../3501-4000/3720-minimize-the-maximum-edge-weight-of-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-stone-weight/)

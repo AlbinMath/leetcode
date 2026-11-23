@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
 - [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1715-split-a-string-into-the-max-number-of-unique-substrings/)
-- [387. First Unique Character in a String](../../0001-0500/0387-first-unique-character-in-a-string/)
+- [1016. Binary String With Substrings Representing 1 To N](../../1001-1500/1065-binary-string-with-substrings-representing-1-to-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)

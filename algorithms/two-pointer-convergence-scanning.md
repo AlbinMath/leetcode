@@ -7,6 +7,7 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
 | 2 | [Add Two Numbers](../leetcode/0001-0500/0002-add-two-numbers/) | Medium | Two Pointers | O(n) | O(1) |
+| 7 | [Reverse Integer](../leetcode/0001-0500/0007-reverse-integer/) | Medium | Two Pointers | O(n) | O(1) |
 | 9 | [Palindrome Number](../leetcode/0001-0500/0009-palindrome-number/) | Easy | Two Pointers | O(n) | O(1) |
 | 11 | [Container With Most Water](../leetcode/0001-0500/0011-container-with-most-water/) | Medium | Two Pointers | O(n) | O(1) |
 | 21 | [Merge Two Sorted Lists](../leetcode/0001-0500/0021-merge-two-sorted-lists/) | Easy | Two Pointers | O(n) | O(1) |
@@ -37,11 +38,14 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 341 | [Flatten Nested List Iterator](../leetcode/0001-0500/0341-flatten-nested-list-iterator/) | Medium | Two Pointers | O(n) | O(1) |
 | 349 | [Intersection of Two Arrays](../leetcode/0001-0500/0349-intersection-of-two-arrays/) | Easy | Two Pointers | O(n) | O(1) |
 | 350 | [Intersection of Two Arrays II](../leetcode/0001-0500/0350-intersection-of-two-arrays-ii/) | Easy | Two Pointers | O(n) | O(1) |
+| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](../leetcode/0001-0500/0381-insert-delete-getrandom-o1---duplicates-allowed/) | Hard | Two Pointers | O(n) | O(1) |
 | 382 | [Linked List Random Node](../leetcode/0001-0500/0382-linked-list-random-node/) | Medium | Two Pointers | O(n) | O(1) |
 | 409 | [Longest Palindrome](../leetcode/0001-0500/0409-longest-palindrome/) | Easy | Two Pointers | O(n) | O(1) |
 | 430 | [Flatten a Multilevel Doubly Linked List](../leetcode/0501-1000/0766-flatten-a-multilevel-doubly-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 445 | [Add Two Numbers II](../leetcode/0001-0500/0445-add-two-numbers-ii/) | Medium | Two Pointers | O(n) | O(1) |
 | 479 | [Largest Palindrome Product](../leetcode/0001-0500/0479-largest-palindrome-product/) | Hard | Two Pointers | O(n) | O(1) |
+| 493 | [Reverse Pairs](../leetcode/0001-0500/0493-reverse-pairs/) | Hard | Two Pointers | O(n) | O(1) |
+| 519 | [Random Flip Matrix](../leetcode/0501-1000/0913-random-flip-matrix/) | Medium | Two Pointers | O(n) | O(1) |
 | 541 | [Reverse String II](../leetcode/0501-1000/0541-reverse-string-ii/) | Easy | Two Pointers | O(n) | O(1) |
 | 564 | [Find the Closest Palindrome](../leetcode/0501-1000/0564-find-the-closest-palindrome/) | Hard | Two Pointers | O(n) | O(1) |
 | 671 | [Second Minimum Node In a Binary Tree](../leetcode/0501-1000/0671-second-minimum-node-in-a-binary-tree/) | Easy | Two Pointers | O(n) | O(1) |
@@ -69,6 +73,7 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 1147 | [Longest Chunked Palindrome Decomposition](../leetcode/1001-1500/1251-longest-chunked-palindrome-decomposition/) | Hard | Two Pointers | O(n) | O(1) |
 | 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](../leetcode/1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/) | Medium | Two Pointers | O(n) | O(1) |
 | 1177 | [Can Make Palindrome from Substring](../leetcode/1001-1500/1281-can-make-palindrome-from-substring/) | Medium | Two Pointers | O(n) | O(1) |
+| 1252 | [Cells with Odd Values in a Matrix](../leetcode/1001-1500/1378-cells-with-odd-values-in-a-matrix/) | Easy | Two Pointers | O(n) | O(1) |
 | 1278 | [Palindrome Partitioning III](../leetcode/1001-1500/1403-palindrome-partitioning-iii/) | Hard | Two Pointers | O(n) | O(1) |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome](../leetcode/1001-1500/1437-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard | Two Pointers | O(n) | O(1) |
 | 1328 | [Break a Palindrome](../leetcode/1001-1500/1252-break-a-palindrome/) | Medium | Two Pointers | O(n) | O(1) |
@@ -97,7 +102,6 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 2265 | [Count Nodes Equal to Average of Subtree](../leetcode/2001-2500/2347-count-nodes-equal-to-average-of-subtree/) | Medium | Two Pointers | O(n) | O(1) |
 | 2316 | [Count Unreachable Pairs of Nodes in an Undirected Graph](../leetcode/2001-2500/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | Medium | Two Pointers | O(n) | O(1) |
 | 2326 | [Spiral Matrix IV](../leetcode/2001-2500/2411-spiral-matrix-iv/) | Medium | Two Pointers | O(n) | O(1) |
-| 2359 | [Find Closest Node to Given Two Nodes](../leetcode/2001-2500/2438-find-closest-node-to-given-two-nodes/) | Medium | Two Pointers | O(n) | O(1) |
 | 2368 | [Reachable Nodes With Restrictions](../leetcode/2001-2500/2445-reachable-nodes-with-restrictions/) | Medium | Two Pointers | O(n) | O(1) |
 | 2374 | [Node With Highest Edge Score](../leetcode/2001-2500/2455-node-with-highest-edge-score/) | Medium | Two Pointers | O(n) | O(1) |
 | 2413 | [Smallest Even Multiple](../leetcode/2001-2500/2491-smallest-even-multiple/) | Easy | Two Pointers | O(n) | O(1) |
@@ -134,6 +138,9 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 3503 | [Longest Palindrome After Substring Concatenation I](../leetcode/3501-4000/3793-longest-palindrome-after-substring-concatenation-i/) | Medium | Two Pointers | O(n) | O(1) |
 | 3646 | [Next Special Palindrome Number](../leetcode/3501-4000/3951-next-special-palindrome-number/) | Hard | Two Pointers | O(n) | O(1) |
 | 3658 | [GCD of Odd and Even Sums](../leetcode/3501-4000/3995-gcd-of-odd-and-even-sums/) | Easy | Two Pointers | O(n) | O(1) |
+| 3745 | [Maximize Expression of Three Elements](../leetcode/4001-4500/4112-maximize-expression-of-three-elements/) | Easy | Two Pointers | O(n) | O(1) |
+| 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/4001-4500/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy | Two Pointers | O(n) | O(1) |
+| 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](../leetcode/4001-4500/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium | Two Pointers | O(n) | O(1) |
 | 3766 | [Minimum Operations to Make Binary Palindrome](../leetcode/4001-4500/4099-minimum-operations-to-make-binary-palindrome/) | Medium | Two Pointers | O(n) | O(1) |
 | 3770 | [Largest Prime from Consecutive Prime Sum](../leetcode/4001-4500/4085-largest-prime-from-consecutive-prime-sum/) | Medium | Two Pointers | O(n) | O(1) |
 | 3820 | [Pythagorean Distance Nodes in a Tree](../leetcode/4001-4500/4180-pythagorean-distance-nodes-in-a-tree/) | Medium | Two Pointers | O(n) | O(1) |

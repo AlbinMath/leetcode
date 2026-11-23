@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1260. Shift 2D Grid](../../1001-1500/1386-shift-2d-grid/)
 - [1559. Detect Cycles in 2D Grid](../../1501-2000/1663-detect-cycles-in-2d-grid/)
-- [105. Construct Binary Tree from Preorder and Inorder Traversal](../../0001-0500/0105-construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [74. Search a 2D Matrix](../../0001-0500/0074-search-a-2d-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-2d-grid-matching-graph-layout/)

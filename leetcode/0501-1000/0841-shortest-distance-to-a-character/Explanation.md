@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3243. Shortest Distance After Road Addition Queries I](../../3501-4000/3517-shortest-distance-after-road-addition-queries-i/)
 - [3244. Shortest Distance After Road Addition Queries II](../../3501-4000/3514-shortest-distance-after-road-addition-queries-ii/)
-- [72. Edit Distance](../../0001-0500/0072-edit-distance/)
+- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-distance-to-a-character/)

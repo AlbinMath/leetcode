@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3764. Most Common Course Pairs](../../4001-4500/4169-most-common-course-pairs/)
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [79. Word Search](../../0001-0500/0079-word-search/)
+- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
+- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-word/)

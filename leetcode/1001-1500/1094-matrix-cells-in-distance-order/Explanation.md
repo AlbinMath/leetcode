@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1252. Cells with Odd Values in a Matrix](../../1001-1500/1378-cells-with-odd-values-in-a-matrix/)
 - [2713. Maximum Strictly Increasing Cells in a Matrix](../../2501-3000/2818-maximum-strictly-increasing-cells-in-a-matrix/)
-- [72. Edit Distance](../../0001-0500/0072-edit-distance/)
+- [102. Binary Tree Level Order Traversal](../../0001-0500/0102-binary-tree-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/matrix-cells-in-distance-order/)

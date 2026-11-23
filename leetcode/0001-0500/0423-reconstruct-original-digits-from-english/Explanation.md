@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [273. Integer to English Words](../../0001-0500/0273-integer-to-english-words/)
-- [2309. Greatest English Letter in Upper and Lower Case](../../1001-1500/1363-greatest-english-letter-in-upper-and-lower-case/)
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [258. Add Digits](../../0001-0500/0258-add-digits/)
+- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
+- [402. Remove K Digits](../../0001-0500/0402-remove-k-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reconstruct-original-digits-from-english/)

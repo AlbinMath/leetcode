@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2220-find-all-possible-recipes-from-given-supplies/)
-- [886. Possible Bipartition](../../0501-1000/0922-possible-bipartition/)
-- [894. All Possible Full Binary Trees](../../0501-1000/0930-all-possible-full-binary-trees/)
+- [3633. Earliest Finish Time for Land and Water Rides I](../../3501-4000/3965-earliest-finish-time-for-land-and-water-rides-i/)
+- [3635. Earliest Finish Time for Land and Water Rides II](../../3501-4000/3967-earliest-finish-time-for-land-and-water-rides-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/as-far-from-land-as-possible/)

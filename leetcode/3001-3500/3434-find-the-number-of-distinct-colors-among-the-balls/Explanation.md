@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1501-2000/1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
+- [2318. Number of Distinct Roll Sequences](../../2001-2500/2404-number-of-distinct-roll-sequences/)
 - [1742. Maximum Number of Balls in a Box](../../1501-2000/1844-maximum-number-of-balls-in-a-box/)
-- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/)

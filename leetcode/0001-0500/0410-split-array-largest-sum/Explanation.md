@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii---input-array-is-sorted/)
-- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
-- [805. Split Array With Same Average](../../0501-1000/0823-split-array-with-same-average/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
+- [1480. Running Sum of 1d Array](../../1501-2000/1603-running-sum-of-1d-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-array-largest-sum/)

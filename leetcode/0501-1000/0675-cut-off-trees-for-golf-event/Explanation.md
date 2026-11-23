@@ -1,7 +1,7 @@
 # LeetCode 675: Cut Off Trees for Golf Event
 
 **LeetCode Problem #675 — Cut Off Trees for Golf Event**
-Solve LeetCode Cut Off Trees for Golf Event using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Cut Off Trees for Golf Event using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,41 +10,40 @@ Solve LeetCode Cut Off Trees for Golf Event using Python and Tree & Graph. This 
 | LeetCode | #675 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem
 You are asked to cut off all the trees in a forest for a golf event. The forest is represented as an  m x n  matrix. In this matrix:
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Cut Off Trees for Golf Event**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
+Consider the standard input for **Cut Off Trees for Golf Event**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 ## Pattern
-**Tree & Graph**
+**Binary Search**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 Python
@@ -53,21 +52,21 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
-- [96. Unique Binary Search Trees](../../0001-0500/0096-unique-binary-search-trees/)
-- [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
+- [2694. Event Emitter](../../2501-3000/2797-event-emitter/)
+- [3317. Find the Number of Possible Ways for an Event](../../3501-4000/3604-find-the-number-of-possible-ways-for-an-event/)
+- [3885. Design Event Manager](../../4001-4500/4267-design-event-manager/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cut-off-trees-for-golf-event/)

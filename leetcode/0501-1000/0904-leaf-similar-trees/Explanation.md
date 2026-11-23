@@ -65,9 +65,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
-- [96. Unique Binary Search Trees](../../0001-0500/0096-unique-binary-search-trees/)
-- [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
+- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
+- [988. Smallest String Starting From Leaf](../../1001-1500/1030-smallest-string-starting-from-leaf/)
+- [1022. Sum of Root To Leaf Binary Numbers](../../1001-1500/1079-sum-of-root-to-leaf-binary-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/leaf-similar-trees/)

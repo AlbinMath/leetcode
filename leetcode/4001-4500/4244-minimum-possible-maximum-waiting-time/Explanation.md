@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [3309. Maximum Possible Number by Binary Concatenation](../../3501-4000/3579-maximum-possible-number-by-binary-concatenation/)
-- [1701. Average Waiting Time](../../1501-2000/1803-average-waiting-time/)
+- [1491. Average Salary Excluding the Minimum and Maximum Salary](../../1501-2000/1584-average-salary-excluding-the-minimum-and-maximum-salary/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2091. Removing Minimum and Maximum From Array](../../2001-2500/2212-removing-minimum-and-maximum-from-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-possible-maximum-waiting-time/)

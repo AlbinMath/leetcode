@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3963. Create Grid With Exactly One Path](../../4001-4500/4342-create-grid-with-exactly-one-path/)
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
 - [2859. Sum of Values at Indices With K Set Bits](../../3001-3500/3093-sum-of-values-at-indices-with-k-set-bits/)
+- [3370. Smallest Number With All Set Bits](../../3501-4000/3676-smallest-number-with-all-set-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/)

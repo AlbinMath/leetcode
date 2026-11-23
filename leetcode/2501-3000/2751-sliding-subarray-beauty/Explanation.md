@@ -64,9 +64,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [1781. Sum of Beauty of All Substrings](../../1501-2000/1890-sum-of-beauty-of-all-substrings/)
-- [2234. Maximum Total Beauty of the Gardens](../../2001-2500/2330-maximum-total-beauty-of-the-gardens/)
-- [2269. Find the K-Beauty of a Number](../../1001-1500/1430-find-the-k-beauty-of-a-number/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
+- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sliding-subarray-beauty/)

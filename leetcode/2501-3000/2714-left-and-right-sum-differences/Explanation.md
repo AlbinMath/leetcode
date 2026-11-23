@@ -63,9 +63,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2516. Take K of Each Character From Left and Right](../../2501-3000/2599-take-k-of-each-character-from-left-and-right/)
 - [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
-- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
+- [2516. Take K of Each Character From Left and Right](../../2501-3000/2599-take-k-of-each-character-from-left-and-right/)
+- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/left-and-right-sum-differences/)

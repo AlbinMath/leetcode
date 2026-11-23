@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3825. Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND](../../4001-4500/4032-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/)
-- [897. Increasing Order Search Tree](../../0501-1000/0933-increasing-order-search-tree/)
-- [950. Reveal Cards In Increasing Order](../../0501-1000/0987-reveal-cards-in-increasing-order/)
+- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
+- [334. Increasing Triplet Subsequence](../../0001-0500/0334-increasing-triplet-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)

@@ -75,9 +75,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [179. Largest Number](../../0001-0500/0179-largest-number/)
-- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
-- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
+- [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/)

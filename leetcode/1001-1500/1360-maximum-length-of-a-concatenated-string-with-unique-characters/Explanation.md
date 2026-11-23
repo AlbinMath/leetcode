@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1490-generate-a-string-with-characters-that-have-odd-counts/)
-- [1898. Maximum Number of Removable Characters](../../2001-2500/2027-maximum-number-of-removable-characters/)
+- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)

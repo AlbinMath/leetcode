@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1843-number-of-rectangles-that-can-form-the-largest-square/)
-- [1139. Largest 1-Bordered Square](../../1001-1500/1239-largest-1-bordered-square/)
-- [2975. Maximum Square Area by Removing Fences From a Field](../../3001-3500/3250-maximum-square-area-by-removing-fences-from-a-field/)
+- [812. Largest Triangle Area](../../0501-1000/0830-largest-triangle-area/)
+- [1637. Widest Vertical Area Between Two Points Containing No Points](../../1501-2000/1742-widest-vertical-area-between-two-points-containing-no-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](../../1501-2000/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable/)
-- [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
-- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
+- [2154. Keep Multiplying Found Values by Two](../../2001-2500/2274-keep-multiplying-found-values-by-two/)
+- [218. The Skyline Problem](../../0001-0500/0218-the-skyline-problem/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)

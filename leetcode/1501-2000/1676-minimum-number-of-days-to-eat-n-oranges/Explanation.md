@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1568. Minimum Number of Days to Disconnect Island](../../1501-2000/1691-minimum-number-of-days-to-disconnect-island/)
+- [1700. Number of Students Unable to Eat Lunch](../../1501-2000/1802-number-of-students-unable-to-eat-lunch/)
 - [957. Prison Cells After N Days](../../0501-1000/0994-prison-cells-after-n-days/)
-- [1360. Number of Days Between Two Dates](../../1001-1500/1274-number-of-days-between-two-dates/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)

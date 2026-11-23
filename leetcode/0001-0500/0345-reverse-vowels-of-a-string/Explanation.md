@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3227. Vowels Game in a String](../../3001-3500/3462-vowels-game-in-a-string/)
 - [151. Reverse Words in a String](../../0001-0500/0151-reverse-words-in-a-string/)
 - [344. Reverse String](../../0001-0500/0344-reverse-string/)
+- [541. Reverse String II](../../0501-1000/0541-reverse-string-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-vowels-of-a-string/)

@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
+- [3041. Maximize Consecutive Elements in an Array After Modification](../../3001-3500/3298-maximize-consecutive-elements-in-an-array-after-modification/)
 - [3264. Final Array State After K Multiplication Operations I](../../3501-4000/3555-final-array-state-after-k-multiplication-operations-i/)
 - [3266. Final Array State After K Multiplication Operations II](../../3501-4000/3556-final-array-state-after-k-multiplication-operations-ii/)
 

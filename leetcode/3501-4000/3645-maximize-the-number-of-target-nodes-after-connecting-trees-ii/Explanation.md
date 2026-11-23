@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3372. Maximize the Number of Target Nodes After Connecting Trees I](../../3501-4000/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i/)
 - [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3233-maximize-the-number-of-partitions-after-operations/)
-- [3203. Find Minimum Diameter After Merging Two Trees](../../3001-3500/3439-find-minimum-diameter-after-merging-two-trees/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii/)
