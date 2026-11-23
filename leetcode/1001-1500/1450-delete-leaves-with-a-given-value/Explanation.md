@@ -111,7 +111,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1663. Smallest String With A Given Numeric Value](../../1501-2000/1782-smallest-string-with-a-given-numeric-value/)
 - [2156. Find Substring With Given Hash Value](../../2001-2500/2275-find-substring-with-given-hash-value/)
-- [2500. Delete Greatest Value in Each Row](../../2501-3000/2585-delete-greatest-value-in-each-row/)
+- [3393. Count Paths With the Given XOR Value](../../3501-4000/3659-count-paths-with-the-given-xor-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-leaves-with-a-given-value/)

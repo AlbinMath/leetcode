@@ -103,8 +103,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3377. Digit Operations to Make Two Integers Equal](../../3501-4000/3655-digit-operations-to-make-two-integers-equal/)
-- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
-- [3621. Number of Integers With Popcount-Depth Equal to K I](../../3501-4000/3937-number-of-integers-with-popcount-depth-equal-to-k-i/)
+- [1460. Make Two Arrays Equal by Reversing Subarrays](../../1501-2000/1556-make-two-arrays-equal-by-reversing-subarrays/)
+- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)

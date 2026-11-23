@@ -140,7 +140,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [39. Combination Sum](../../0001-0500/0039-combination-sum/)
 - [216. Combination Sum III](../../0001-0500/0216-combination-sum-iii/)
-- [1286. Iterator for Combination](../../1001-1500/1211-iterator-for-combination/)
+- [1. Two Sum](../../0001-0500/0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/combination-sum-ii/)

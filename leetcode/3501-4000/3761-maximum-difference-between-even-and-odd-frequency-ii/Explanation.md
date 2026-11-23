@@ -135,7 +135,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1092-maximum-difference-between-node-and-ancestor/)
 - [1913. Maximum Product Difference Between Two Pairs](../../2001-2500/2042-maximum-product-difference-between-two-pairs/)
-- [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
+- [895. Maximum Frequency Stack](../../0501-1000/0931-maximum-frequency-stack/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/)

@@ -138,9 +138,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [3755. Find Maximum Balanced XOR Subarray Length](../../3501-4000/3946-find-maximum-balanced-xor-subarray-length/)
 - [3287. Find the Maximum Sequence Value of Array](../../3501-4000/3575-find-the-maximum-sequence-value-of-array/)
 - [3334. Find the Maximum Factor Score of Array](../../3501-4000/3593-find-the-maximum-factor-score-of-array/)
+- [3755. Find Maximum Balanced XOR Subarray Length](../../3501-4000/3946-find-maximum-balanced-xor-subarray-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-maximum-non-decreasing-array-length/)

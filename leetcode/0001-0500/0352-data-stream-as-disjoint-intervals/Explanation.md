@@ -144,7 +144,7 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
 - [2526. Find Consecutive Integers from a Data Stream](../../2501-3000/2620-find-consecutive-integers-from-a-data-stream/)
-- [703. Kth Largest Element in a Stream](../../0501-1000/0789-kth-largest-element-in-a-stream/)
+- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../../0501-1000/0773-logical-or-of-two-binary-grids-represented-as-quad-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)

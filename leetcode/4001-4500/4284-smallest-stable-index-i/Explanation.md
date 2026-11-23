@@ -150,7 +150,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [3904. Smallest Stable Index II](../../4001-4500/4285-smallest-stable-index-ii/)
 - [3550. Smallest Index With Digit Sum Equal to Index](../../3501-4000/3869-smallest-index-with-digit-sum-equal-to-index/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-stable-index-i/)

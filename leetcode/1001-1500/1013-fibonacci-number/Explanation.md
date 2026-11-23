@@ -104,9 +104,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [842. Split Array into Fibonacci Sequence](../../0501-1000/0872-split-array-into-fibonacci-sequence/)
-- [2648. Generate Fibonacci Sequence](../../2501-3000/2775-generate-fibonacci-sequence/)
 - [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
+- [65. Valid Number](../../0001-0500/0065-valid-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fibonacci-number/)

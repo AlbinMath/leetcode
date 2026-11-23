@@ -164,9 +164,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3407. Substring Matching Pattern](../../3501-4000/3684-substring-matching-pattern/)
 - [3076. Shortest Uncommon Substring in an Array](../../3001-3500/3356-shortest-uncommon-substring-in-an-array/)
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
+- [3407. Substring Matching Pattern](../../3501-4000/3684-substring-matching-pattern/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-matching-substring/)

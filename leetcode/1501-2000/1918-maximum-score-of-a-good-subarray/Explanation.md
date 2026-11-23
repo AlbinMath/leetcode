@@ -116,8 +116,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3575. Maximum Good Subtree Score](../../3501-4000/3875-maximum-good-subtree-score/)
-- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
-- [1422. Maximum Score After Splitting a String](../../1501-2000/1537-maximum-score-after-splitting-a-string/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)

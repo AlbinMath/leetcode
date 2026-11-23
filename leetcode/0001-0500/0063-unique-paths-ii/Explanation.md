@@ -124,7 +124,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [62. Unique Paths](../../0001-0500/0062-unique-paths/)
 - [980. Unique Paths III](../../1001-1500/1022-unique-paths-iii/)
-- [257. Binary Tree Paths](../../0001-0500/0257-binary-tree-paths/)
+- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-paths-ii/)

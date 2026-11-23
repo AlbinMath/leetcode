@@ -152,6 +152,15 @@ The repository utilizes a two-stage GitHub Actions automation workflow:
 
 ---
 
+## Automation & CI/CD Pipeline
+
+The repository utilizes a two-stage GitHub Actions automation workflow:
+
+1. **[Sync LeetCode](.github/workflows/leetcode-sync.yml):** Runs on an hourly schedule to sync new LeetCode submissions directly into `leetcode/`.
+2. **[Generate LeetCode Indexes & Metadata](.github/workflows/generate-index.yml):** Triggered automatically upon successful completion of the sync workflow (`workflow_run`). It partitions new submissions into range buckets (`0001-0500/`, `0501-1000/`, etc.), generates comprehensive `Explanation.md` files, updates `metadata/problems.json`, refreshes topic hubs, and updates [README.md](README.md) and [All_Problems.md](All_Problems.md).
+
+---
+
 ## License & Repository Information
 GitHub: [AlbinMath/leetcode](https://github.com/AlbinMath/leetcode)  
 Continuously updated as new LeetCode problems are solved.

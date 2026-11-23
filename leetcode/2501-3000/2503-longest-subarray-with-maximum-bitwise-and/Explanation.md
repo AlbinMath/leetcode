@@ -113,9 +113,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2044. Count Number of Maximum Bitwise-OR Subsets](../../2001-2500/2170-count-number-of-maximum-bitwise-or-subsets/)
-- [2411. Smallest Subarrays With Maximum Bitwise OR](../../2001-2500/2498-smallest-subarrays-with-maximum-bitwise-or/)
-- [3171. Find Subarray With Bitwise OR Closest to K](../../3001-3500/3436-find-subarray-with-bitwise-or-closest-to-k/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
+- [643. Maximum Average Subarray I](../../0501-1000/0643-maximum-average-subarray-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/)

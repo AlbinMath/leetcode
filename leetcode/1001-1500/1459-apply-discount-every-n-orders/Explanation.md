@@ -157,9 +157,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1475. Final Prices With a Special Discount in a Shop](../../1501-2000/1570-final-prices-with-a-special-discount-in-a-shop/)
-- [2144. Minimum Cost of Buying Candies With Discount](../../2001-2500/2248-minimum-cost-of-buying-candies-with-discount/)
-- [50. Pow(x, n)](../../0001-0500/0050-powx-n/)
+- [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
+- [1418. Display Table of Food Orders in a Restaurant](../../1501-2000/1533-display-table-of-food-orders-in-a-restaurant/)
+- [1801. Number of Orders in the Backlog](../../1501-2000/1928-number-of-orders-in-the-backlog/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-discount-every-n-orders/)

@@ -139,8 +139,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [819. Most Common Word](../../0501-1000/0837-most-common-word/)
-- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
-- [336. Palindrome Pairs](../../0001-0500/0336-palindrome-pairs/)
+- [207. Course Schedule](../../0001-0500/0207-course-schedule/)
+- [210. Course Schedule II](../../0001-0500/0210-course-schedule-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-course-pairs/)

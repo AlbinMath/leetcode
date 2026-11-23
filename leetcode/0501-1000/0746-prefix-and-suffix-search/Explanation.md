@@ -115,7 +115,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [3042. Count Prefix and Suffix Pairs I](../../3001-3500/3309-count-prefix-and-suffix-pairs-i/)
 - [3045. Count Prefix and Suffix Pairs II](../../3001-3500/3305-count-prefix-and-suffix-pairs-ii/)
-- [1529. Minimum Suffix Flips](../../1501-2000/1652-minimum-suffix-flips/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prefix-and-suffix-search/)

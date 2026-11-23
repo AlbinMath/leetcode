@@ -119,9 +119,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1297. Maximum Number of Occurrences of a Substring](../../1001-1500/1423-maximum-number-of-occurrences-of-a-substring/)
-- [1941. Check if All Characters Have Equal Number of Occurrences](../../2001-2500/2053-check-if-all-characters-have-equal-number-of-occurrences/)
 - [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1715-split-a-string-into-the-max-number-of-unique-substrings/)
+- [1987. Number of Unique Good Subsequences](../../2001-2500/2115-number-of-unique-good-subsequences/)
+- [2356. Number of Unique Subjects Taught by Each Teacher](../../2001-2500/2495-number-of-unique-subjects-taught-by-each-teacher/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-number-of-occurrences/)

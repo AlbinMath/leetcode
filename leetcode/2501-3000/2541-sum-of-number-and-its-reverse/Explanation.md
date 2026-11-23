@@ -94,8 +94,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3918. Sum of Primes Between Number and Its Reverse](../../4001-4500/4297-sum-of-primes-between-number-and-its-reverse/)
-- [3750. Minimum Number of Flips to Reverse Binary String](../../4001-4500/4126-minimum-number-of-flips-to-reverse-binary-string/)
 - [1074. Number of Submatrices That Sum to Target](../../1001-1500/1145-number-of-submatrices-that-sum-to-target/)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1501-2000/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-number-and-its-reverse/)

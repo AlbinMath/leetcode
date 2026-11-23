@@ -141,8 +141,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1587. Bank Account Summary II](../../1501-2000/1734-bank-account-summary-ii/)
 - [2104. Sum of Subarray Ranges](../../2001-2500/2227-sum-of-subarray-ranges/)
+- [1587. Bank Account Summary II](../../1501-2000/1734-bank-account-summary-ii/)
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 
 ## LeetCode

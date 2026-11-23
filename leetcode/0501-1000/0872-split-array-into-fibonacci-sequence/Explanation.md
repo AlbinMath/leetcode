@@ -141,8 +141,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2871. Split Array Into Maximum Number of Subarrays](../../3001-3500/3080-split-array-into-maximum-number-of-subarrays/)
-- [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1715-split-a-string-into-the-max-number-of-unique-substrings/)
-- [2022. Convert 1D Array Into 2D Array](../../2001-2500/2132-convert-1d-array-into-2d-array/)
+- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [805. Split Array With Same Average](../../0501-1000/0823-split-array-with-same-average/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)

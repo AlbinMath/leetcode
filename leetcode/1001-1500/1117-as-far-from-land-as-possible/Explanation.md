@@ -114,8 +114,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2220-find-all-possible-recipes-from-given-supplies/)
-- [886. Possible Bipartition](../../0501-1000/0922-possible-bipartition/)
-- [894. All Possible Full Binary Trees](../../0501-1000/0930-all-possible-full-binary-trees/)
+- [352. Data Stream as Disjoint Intervals](../../0001-0500/0352-data-stream-as-disjoint-intervals/)
+- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../../0501-1000/0773-logical-or-of-two-binary-grids-represented-as-quad-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/as-far-from-land-as-possible/)

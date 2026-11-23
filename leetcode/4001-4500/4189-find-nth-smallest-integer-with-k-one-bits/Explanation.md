@@ -128,7 +128,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
 - [1015. Smallest Integer Divisible by K](../../1001-1500/1064-smallest-integer-divisible-by-k/)
-- [3950. Exactly One Consecutive Set Bits Pair](../../4001-4500/4307-exactly-one-consecutive-set-bits-pair/)
+- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-nth-smallest-integer-with-k-one-bits/)

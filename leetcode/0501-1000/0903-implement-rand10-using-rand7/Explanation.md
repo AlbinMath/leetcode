@@ -114,7 +114,7 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
 - [232. Implement Queue using Stacks](../../0001-0500/0232-implement-queue-using-stacks/)
-- [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1443-minimum-distance-to-type-a-word-using-two-fingers/)
+- [208. Implement Trie (Prefix Tree)](../../0001-0500/0208-implement-trie-prefix-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-rand10-using-rand7/)

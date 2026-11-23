@@ -133,8 +133,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1250. Check If It Is a Good Array](../../1001-1500/1372-check-if-it-is-a-good-array/)
+- [1649. Create Sorted Array through Instructions](../../1501-2000/1772-create-sorted-array-through-instructions/)
 - [1752. Check if Array Is Sorted and Rotated](../../1501-2000/1878-check-if-array-is-sorted-and-rotated/)
-- [1961. Check If String Is a Prefix of Array](../../2001-2500/2093-check-if-string-is-a-prefix-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-array-formation-through-concatenation/)

@@ -116,9 +116,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [845. Longest Mountain in Array](../../0501-1000/0875-longest-mountain-in-array/)
 - [852. Peak Index in a Mountain Array](../../0501-1000/0882-peak-index-in-a-mountain-array/)
+- [1095. Find in Mountain Array](../../1001-1500/1185-find-in-mountain-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-mountain-array/)

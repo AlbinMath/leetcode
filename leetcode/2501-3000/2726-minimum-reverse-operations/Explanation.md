@@ -161,9 +161,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3750. Minimum Number of Flips to Reverse Binary String](../../4001-4500/4126-minimum-number-of-flips-to-reverse-binary-string/)
 - [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
 - [1658. Minimum Operations to Reduce X to Zero](../../1501-2000/1776-minimum-operations-to-reduce-x-to-zero/)
+- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-reverse-operations/)

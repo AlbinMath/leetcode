@@ -125,9 +125,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../../4001-4500/4135-concatenate-non-zero-digits-and-multiply-by-sum-i/)
+- [3756. Concatenate Non-Zero Digits and Multiply by Sum II](../../4001-4500/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/)
 - [205. Isomorphic Strings](../../0001-0500/0205-isomorphic-strings/)
-- [415. Add Strings](../../0001-0500/0415-add-strings/)
-- [583. Delete Operation for Two Strings](../../0501-1000/0583-delete-operation-for-two-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/multiply-strings/)

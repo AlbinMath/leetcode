@@ -126,9 +126,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2327. Number of People Aware of a Secret](../../2001-2500/2408-number-of-people-aware-of-a-secret/)
-- [3025. Find the Number of Ways to Place People I](../../3001-3500/3278-find-the-number-of-ways-to-place-people-i/)
-- [3027. Find the Number of Ways to Place People II](../../3001-3500/3277-find-the-number-of-ways-to-place-people-ii/)
+- [1610. Maximum Number of Visible Points](../../1501-2000/1733-maximum-number-of-visible-points/)
+- [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../../1501-2000/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
+- [3881. Direction Assignments with Exactly K Visible People](../../4001-4500/4251-direction-assignments-with-exactly-k-visible-people/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)

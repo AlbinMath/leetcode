@@ -118,7 +118,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1702. Maximum Binary String After Change](../../1501-2000/1804-maximum-binary-string-after-change/)
-- [861. Score After Flipping Matrix](../../0501-1000/0891-score-after-flipping-matrix/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
 - [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
 
 ## LeetCode

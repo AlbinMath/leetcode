@@ -170,9 +170,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1779. Find Nearest Point That Has the Same X or Y Coordinate](../../1501-2000/1888-find-nearest-point-that-has-the-same-x-or-y-coordinate/)
+- [4024. Nearest Available Drone](../../4001-4500/4378-nearest-available-drone/)
 - [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [80. Remove Duplicates from Sorted Array II](../../0001-0500/0080-remove-duplicates-from-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)

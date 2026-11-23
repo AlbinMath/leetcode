@@ -165,9 +165,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3343. Count Number of Balanced Permutations](../../3501-4000/3637-count-number-of-balanced-permutations/)
 - [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
 - [2302. Count Subarrays With Score Less Than K](../../2001-2500/2394-count-subarrays-with-score-less-than-k/)
+- [2444. Count Subarrays With Fixed Bounds](../../2501-3000/2527-count-subarrays-with-fixed-bounds/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-prime-gap-balanced-subarrays/)

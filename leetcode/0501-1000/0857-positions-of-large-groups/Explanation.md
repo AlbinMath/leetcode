@@ -122,9 +122,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1582. Special Positions in a Binary Matrix](../../1501-2000/1704-special-positions-in-a-binary-matrix/)
-- [4035. Maximum Valid Split Positions I](../../4001-4500/4373-maximum-valid-split-positions-i/)
-- [4037. Maximum Valid Split Positions II](../../4001-4500/4388-maximum-valid-split-positions-ii/)
+- [827. Making A Large Island](../../0501-1000/0854-making-a-large-island/)
+- [1036. Escape a Large Maze](../../1001-1500/1106-escape-a-large-maze/)
+- [1093. Statistics from a Large Sample](../../1001-1500/1183-statistics-from-a-large-sample/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/positions-of-large-groups/)

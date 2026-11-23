@@ -173,7 +173,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1815. Maximum Number of Groups Getting Fresh Donuts](../../1501-2000/1924-maximum-number-of-groups-getting-fresh-donuts/)
-- [2138. Divide a String Into Groups of Size k](../../2001-2500/2260-divide-a-string-into-groups-of-size-k/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 - [2871. Split Array Into Maximum Number of Subarrays](../../3001-3500/3080-split-array-into-maximum-number-of-subarrays/)
 
 ## LeetCode

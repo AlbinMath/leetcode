@@ -131,7 +131,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2002. Maximum Product of the Length of Two Palindromic Subsequences](../../2001-2500/2130-maximum-product-of-the-length-of-two-palindromic-subsequences/)
 - [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
-- [1771. Maximize Palindrome Length From Subsequences](../../1501-2000/1897-maximize-palindrome-length-from-subsequences/)
+- [1987. Number of Unique Good Subsequences](../../2001-2500/2115-number-of-unique-good-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)

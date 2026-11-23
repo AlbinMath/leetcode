@@ -146,8 +146,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3770. Largest Prime from Consecutive Prime Sum](../../4001-4500/4085-largest-prime-from-consecutive-prime-sum/)
+- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
 - [1781. Sum of Beauty of All Substrings](../../1501-2000/1890-sum-of-beauty-of-all-substrings/)
-- [2507. Smallest Value After Replacing With Sum of Prime Factors](../../2501-3000/2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-largest-prime-substrings/)

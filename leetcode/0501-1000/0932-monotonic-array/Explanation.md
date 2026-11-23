@@ -107,9 +107,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
+- [3250. Find the Count of Monotonic Pairs I](../../3501-4000/3535-find-the-count-of-monotonic-pairs-i/)
+- [3251. Find the Count of Monotonic Pairs II](../../3501-4000/3536-find-the-count-of-monotonic-pairs-ii/)
 - [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/monotonic-array/)

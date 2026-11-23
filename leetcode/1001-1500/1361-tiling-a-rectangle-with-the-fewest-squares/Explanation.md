@@ -127,9 +127,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
-- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
-- [977. Squares of a Sorted Array](../../1001-1500/1019-squares-of-a-sorted-array/)
+- [790. Domino and Tromino Tiling](../../0501-1000/0806-domino-and-tromino-tiling/)
+- [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
+- [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/)

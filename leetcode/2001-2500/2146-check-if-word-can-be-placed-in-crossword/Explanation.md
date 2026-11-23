@@ -129,7 +129,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2116. Check if a Parentheses String Can Be Valid](../../2001-2500/2221-check-if-a-parentheses-string-can-be-valid/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1045-check-if-word-is-valid-after-substitutions/)
+- [3011. Find if Array Can Be Sorted](../../3001-3500/3291-find-if-array-can-be-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/)

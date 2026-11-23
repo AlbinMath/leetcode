@@ -343,9 +343,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../../3501-4000/3717-minimum-operations-to-make-elements-within-k-subarrays-equal/)
 - [3666. Minimum Operations to Equalize Binary String](../../3501-4000/3983-minimum-operations-to-equalize-binary-string/)
 - [3674. Minimum Operations to Equalize Array](../../3501-4000/3998-minimum-operations-to-equalize-array/)
+- [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../../3501-4000/3717-minimum-operations-to-make-elements-within-k-subarrays-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-equalize-subarrays/)

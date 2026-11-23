@@ -137,7 +137,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3250. Find the Count of Monotonic Pairs I](../../3501-4000/3535-find-the-count-of-monotonic-pairs-i/)
-- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [1729. Find Followers Count](../../1501-2000/1877-find-followers-count/)
 - [1782. Count Pairs Of Nodes](../../1501-2000/1891-count-pairs-of-nodes/)
 
 ## LeetCode

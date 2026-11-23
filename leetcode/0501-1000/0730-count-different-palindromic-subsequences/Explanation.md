@@ -137,9 +137,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1332. Remove Palindromic Subsequences](../../1001-1500/1454-remove-palindromic-subsequences/)
-- [1819. Number of Different Subsequences GCDs](../../1501-2000/1947-number-of-different-subsequences-gcds/)
-- [1930. Unique Length-3 Palindromic Subsequences](../../2001-2500/2059-unique-length-3-palindromic-subsequences/)
+- [2842. Count K-Subsequences of a String With Maximum Beauty](../../3001-3500/3057-count-k-subsequences-of-a-string-with-maximum-beauty/)
+- [3404. Count Special Subsequences](../../3501-4000/3699-count-special-subsequences/)
+- [3677. Count Binary Palindromic Numbers](../../4001-4500/4023-count-binary-palindromic-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-different-palindromic-subsequences/)

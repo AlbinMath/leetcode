@@ -128,8 +128,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
-- [282. Expression Add Operators](../../0001-0500/0282-expression-add-operators/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)

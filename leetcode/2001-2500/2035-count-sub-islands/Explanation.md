@@ -133,9 +133,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3823-count-islands-with-total-value-divisible-by-k/)
 - [2902. Count of Sub-Multisets With Bounded Sum](../../3001-3500/3091-count-of-sub-multisets-with-bounded-sum/)
-- [200. Number of Islands](../../0001-0500/0200-number-of-islands/)
+- [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3823-count-islands-with-total-value-divisible-by-k/)
+- [38. Count and Say](../../0001-0500/0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-sub-islands/)

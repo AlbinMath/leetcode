@@ -121,9 +121,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [792. Number of Matching Subsequences](../../0501-1000/0808-number-of-matching-subsequences/)
-- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1501-2000/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
-- [1819. Number of Different Subsequences GCDs](../../1501-2000/1947-number-of-different-subsequences-gcds/)
+- [1207. Unique Number of Occurrences](../../1001-1500/1319-unique-number-of-occurrences/)
+- [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1715-split-a-string-into-the-max-number-of-unique-substrings/)
+- [1930. Unique Length-3 Palindromic Subsequences](../../2001-2500/2059-unique-length-3-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-good-subsequences/)

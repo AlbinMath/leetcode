@@ -141,8 +141,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1539. Kth Missing Positive Number](../../1501-2000/1646-kth-missing-positive-number/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [268. Missing Number](../../0001-0500/0268-missing-number/)
+- [1965. Employees With Missing Information](../../2001-2500/2110-employees-with-missing-information/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-missing-positive/)

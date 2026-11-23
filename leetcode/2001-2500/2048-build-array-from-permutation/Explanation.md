@@ -112,9 +112,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [80. Remove Duplicates from Sorted Array II](../../0001-0500/0080-remove-duplicates-from-sorted-array-ii/)
+- [3149. Find the Minimum Cost Array Permutation](../../3001-3500/3431-find-the-minimum-cost-array-permutation/)
 - [1441. Build an Array With Stack Operations](../../1501-2000/1552-build-an-array-with-stack-operations/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/build-array-from-permutation/)

@@ -115,8 +115,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3955. Valid Binary Strings With Cost Limit](../../4001-4500/4289-valid-binary-strings-with-cost-limit/)
-- [67. Add Binary](../../0001-0500/0067-add-binary/)
-- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
+- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
+- [478. Generate Random Point in a Circle](../../0501-1000/0915-generate-random-point-in-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)

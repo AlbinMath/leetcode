@@ -153,9 +153,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1661. Average Time of Process per Machine](../../1501-2000/1801-average-time-of-process-per-machine/)
 - [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
 - [355. Design Twitter](../../0001-0500/0355-design-twitter/)
-- [622. Design Circular Queue](../../0501-1000/0860-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-an-atm-machine/)

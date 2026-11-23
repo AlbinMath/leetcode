@@ -179,9 +179,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [584. Find Customer Referee](../../0501-1000/0584-find-customer-referee/)
-- [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
-- [1672. Richest Customer Wealth](../../1501-2000/1791-richest-customer-wealth/)
+- [1560. Most Visited Sector in  a Circular Track](../../1501-2000/1682-most-visited-sector-in--a-circular-track/)
+- [2617. Minimum Number of Visited Cells in a Grid](../../2501-3000/2697-minimum-number-of-visited-cells-in-a-grid/)
+- [2876. Count Visited Nodes in a Directed Graph](../../3001-3500/3140-count-visited-nodes-in-a-directed-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)

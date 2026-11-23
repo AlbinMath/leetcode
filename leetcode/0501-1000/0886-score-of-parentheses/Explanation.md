@@ -120,8 +120,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
-- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
+- [861. Score After Flipping Matrix](../../0501-1000/0891-score-after-flipping-matrix/)
+- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/score-of-parentheses/)

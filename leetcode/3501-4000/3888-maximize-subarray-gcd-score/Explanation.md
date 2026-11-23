@@ -170,7 +170,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1793. Maximum Score of a Good Subarray](../../1501-2000/1918-maximum-score-of-a-good-subarray/)
+- [4010. Maximize Pair Strength Using GCD](../../4001-4500/4371-maximize-pair-strength-using-gcd/)
 - [1799. Maximize Score After N Operations](../../1501-2000/1906-maximize-score-after-n-operations/)
 - [2818. Apply Operations to Maximize Score](../../3001-3500/3001-apply-operations-to-maximize-score/)
 

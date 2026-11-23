@@ -133,8 +133,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1501-2000/1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
-- [3160. Find the Number of Distinct Colors Among the Balls](../../3001-3500/3434-find-the-number-of-distinct-colors-among-the-balls/)
 - [2954. Count the Number of Infection Sequences](../../3001-3500/3224-count-the-number-of-infection-sequences/)
+- [3160. Find the Number of Distinct Colors Among the Balls](../../3001-3500/3434-find-the-number-of-distinct-colors-among-the-balls/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-distinct-roll-sequences/)

@@ -155,9 +155,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1904. The Number of Full Rounds You Have Played](../../2001-2500/2033-the-number-of-full-rounds-you-have-played/)
-- [1562. Find Latest Group of Size M](../../1501-2000/1684-find-latest-group-of-size-m/)
-- [1736. Latest Time by Replacing Hidden Digits](../../1501-2000/1858-latest-time-by-replacing-hidden-digits/)
+- [1706. Where Will the Ball Fall](../../1001-1500/1324-where-will-the-ball-fall/)
+- [1970. Last Day Where You Can Still Cross](../../2001-2500/2101-last-day-where-you-can-still-cross/)
+- [2940. Find Building Where Alice and Bob Can Meet](../../3001-3500/3181-find-building-where-alice-and-bob-can-meet/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/)

@@ -124,7 +124,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
 - [1200. Minimum Absolute Difference](../../1001-1500/1306-minimum-absolute-difference/)
-- [1984. Minimum Difference Between Highest and Lowest of K Scores](../../2001-2500/2112-minimum-difference-between-highest-and-lowest-of-k-scores/)
+- [1913. Maximum Product Difference Between Two Pairs](../../2001-2500/2042-maximum-product-difference-between-two-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-absolute-difference-between-two-values/)

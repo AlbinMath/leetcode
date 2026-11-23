@@ -121,9 +121,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2862. Maximum Element-Sum of a Complete Subset of Indices](../../3001-3500/3047-maximum-element-sum-of-a-complete-subset-of-indices/)
 - [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
 - [560. Subarray Sum Equals K](../../0501-1000/0560-subarray-sum-equals-k/)
+- [698. Partition to K Equal Sum Subsets](../../0501-1000/0698-partition-to-k-equal-sum-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)

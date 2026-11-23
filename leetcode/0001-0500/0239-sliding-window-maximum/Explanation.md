@@ -109,8 +109,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [480. Sliding Window Median](../../0001-0500/0480-sliding-window-median/)
-- [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
-- [773. Sliding Puzzle](../../0501-1000/0787-sliding-puzzle/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sliding-window-maximum/)

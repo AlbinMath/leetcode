@@ -103,8 +103,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1545. Find Kth Bit in Nth Binary String](../../1501-2000/1667-find-kth-bit-in-nth-binary-string/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [387. First Unique Character in a String](../../0001-0500/0387-first-unique-character-in-a-string/)
+- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
+- [96. Unique Binary Search Trees](../../0001-0500/0096-unique-binary-search-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-unique-binary-string/)

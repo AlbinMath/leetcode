@@ -125,9 +125,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [964. Least Operators to Express Number](../../1001-1500/1004-least-operators-to-express-number/)
 - [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
 - [736. Parse Lisp Expression](../../0501-1000/0736-parse-lisp-expression/)
-- [1106. Parsing A Boolean Expression](../../1001-1500/1197-parsing-a-boolean-expression/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/expression-add-operators/)

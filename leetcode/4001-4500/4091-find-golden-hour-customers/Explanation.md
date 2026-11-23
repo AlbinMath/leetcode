@@ -172,7 +172,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3657. Find Loyal Customers](../../4001-4500/4025-find-loyal-customers/)
 - [3716. Find Churn Risk Customers](../../4001-4500/4103-find-churn-risk-customers/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-golden-hour-customers/)

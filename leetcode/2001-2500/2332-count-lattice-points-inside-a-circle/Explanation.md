@@ -118,7 +118,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1828. Queries on Number of Points Inside a Circle](../../1501-2000/1939-queries-on-number-of-points-inside-a-circle/)
 - [2857. Count Pairs of Points With Distance k](../../2501-3000/2953-count-pairs-of-points-with-distance-k/)
-- [478. Generate Random Point in a Circle](../../0501-1000/0915-generate-random-point-in-a-circle/)
+- [1453. Maximum Number of Darts Inside of a Circular Dartboard](../../1501-2000/1563-maximum-number-of-darts-inside-of-a-circular-dartboard/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-lattice-points-inside-a-circle/)

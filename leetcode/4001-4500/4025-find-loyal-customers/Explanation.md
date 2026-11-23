@@ -132,7 +132,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [3705. Find Golden Hour Customers](../../4001-4500/4091-find-golden-hour-customers/)
 - [3716. Find Churn Risk Customers](../../4001-4500/4103-find-churn-risk-customers/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [183. Customers Who Never Order](../../0001-0500/0183-customers-who-never-order/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-loyal-customers/)

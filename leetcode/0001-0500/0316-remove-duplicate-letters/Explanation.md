@@ -99,9 +99,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [848. Shifting Letters](../../0501-1000/0878-shifting-letters/)
-- [917. Reverse Only Letters](../../0501-1000/0953-reverse-only-letters/)
-- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [27. Remove Element](../../0001-0500/0027-remove-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-duplicate-letters/)

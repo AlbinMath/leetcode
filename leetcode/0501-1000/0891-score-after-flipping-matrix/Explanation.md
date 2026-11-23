@@ -108,9 +108,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2946. Matrix Similarity After Cyclic Shifts](../../3001-3500/3215-matrix-similarity-after-cyclic-shifts/)
 - [1422. Maximum Score After Splitting a String](../../1501-2000/1537-maximum-score-after-splitting-a-string/)
 - [1799. Maximize Score After N Operations](../../1501-2000/1906-maximize-score-after-n-operations/)
+- [2322. Minimum Score After Removals on a Tree](../../2001-2500/2400-minimum-score-after-removals-on-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/score-after-flipping-matrix/)

@@ -104,9 +104,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [16. 3Sum Closest](../../0001-0500/0016-3sum-closest/)
-- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
-- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
+- [1390. Four Divisors](../../1001-1500/1284-four-divisors/)
+- [1808. Maximize Number of Nice Divisors](../../1501-2000/1936-maximize-number-of-nice-divisors/)
+- [1952. Three Divisors](../../2001-2500/2083-three-divisors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/closest-divisors/)

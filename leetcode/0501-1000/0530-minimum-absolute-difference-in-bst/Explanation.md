@@ -111,7 +111,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1200. Minimum Absolute Difference](../../1001-1500/1306-minimum-absolute-difference/)
 - [3880. Minimum Absolute Difference Between Two Values](../../4001-4500/4255-minimum-absolute-difference-between-two-values/)
-- [783. Minimum Distance Between BST Nodes](../../0501-1000/0799-minimum-distance-between-bst-nodes/)
+- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)

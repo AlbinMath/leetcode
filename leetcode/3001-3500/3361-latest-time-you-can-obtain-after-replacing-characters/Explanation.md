@@ -102,9 +102,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1736. Latest Time by Replacing Hidden Digits](../../1501-2000/1858-latest-time-by-replacing-hidden-digits/)
 - [1423. Maximum Points You Can Obtain from Cards](../../1501-2000/1538-maximum-points-you-can-obtain-from-cards/)
-- [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1112-find-words-that-can-be-formed-by-characters/)
+- [1736. Latest Time by Replacing Hidden Digits](../../1501-2000/1858-latest-time-by-replacing-hidden-digits/)
+- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1424-maximum-candies-you-can-get-from-boxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/)

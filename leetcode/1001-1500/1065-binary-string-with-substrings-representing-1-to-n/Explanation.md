@@ -95,7 +95,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
 - [467. Unique Substrings in Wraparound String](../../0001-0500/0467-unique-substrings-in-wraparound-string/)
-- [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
+- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)

@@ -127,9 +127,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2877. Create a DataFrame from List](../../3001-3500/3062-create-a-dataframe-from-list/)
 - [864. Shortest Path to Get All Keys](../../0501-1000/0895-shortest-path-to-get-all-keys/)
 - [1208. Get Equal Substrings Within Budget](../../1001-1500/1321-get-equal-substrings-within-budget/)
-- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1424-maximum-candies-you-can-get-from-boxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-the-size-of-a-dataframe/)

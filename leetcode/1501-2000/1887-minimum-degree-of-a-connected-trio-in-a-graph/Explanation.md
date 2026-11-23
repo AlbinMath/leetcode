@@ -149,9 +149,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [3108. Minimum Cost Walk in Weighted Graph](../../3001-3500/3348-minimum-cost-walk-in-weighted-graph/)
-- [3604. Minimum Time to Reach Destination in Directed Graph](../../3501-4000/3916-minimum-time-to-reach-destination-in-directed-graph/)
+- [3378. Count Connected Components in LCM Graph](../../3501-4000/3680-count-connected-components-in-lcm-graph/)
 - [3608. Minimum Time for K Connected Components](../../3501-4000/3908-minimum-time-for-k-connected-components/)
+- [3108. Minimum Cost Walk in Weighted Graph](../../3001-3500/3348-minimum-cost-walk-in-weighted-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)

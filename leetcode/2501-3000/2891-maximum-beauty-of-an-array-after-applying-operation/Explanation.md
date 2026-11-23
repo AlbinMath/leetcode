@@ -124,8 +124,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3434. Maximum Frequency After Subarray Operation](../../3501-4000/3751-maximum-frequency-after-subarray-operation/)
-- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
-- [1486. XOR Operation in an Array](../../1501-2000/1610-xor-operation-in-an-array/)
+- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1422. Maximum Score After Splitting a String](../../1501-2000/1537-maximum-score-after-splitting-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/)

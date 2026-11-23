@@ -135,9 +135,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
-- [1389. Create Target Array in the Given Order](../../1501-2000/1505-create-target-array-in-the-given-order/)
-- [1649. Create Sorted Array through Instructions](../../1501-2000/1772-create-sorted-array-through-instructions/)
+- [168. Excel Sheet Column Title](../../0001-0500/0168-excel-sheet-column-title/)
+- [171. Excel Sheet Column Number](../../0001-0500/0171-excel-sheet-column-number/)
+- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0984-most-stones-removed-with-same-row-or-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-a-new-column/)

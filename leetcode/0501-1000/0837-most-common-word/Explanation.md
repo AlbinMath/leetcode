@@ -117,8 +117,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3764. Most Common Course Pairs](../../4001-4500/4169-most-common-course-pairs/)
-- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
-- [235. Lowest Common Ancestor of a Binary Search Tree](../../0001-0500/0235-lowest-common-ancestor-of-a-binary-search-tree/)
+- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
+- [79. Word Search](../../0001-0500/0079-word-search/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-word/)

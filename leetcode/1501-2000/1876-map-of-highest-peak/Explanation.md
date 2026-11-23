@@ -128,9 +128,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [677. Map Sum Pairs](../../0501-1000/0677-map-sum-pairs/)
 - [162. Find Peak Element](../../0001-0500/0162-find-peak-element/)
 - [852. Peak Index in a Mountain Array](../../0501-1000/0882-peak-index-in-a-mountain-array/)
-- [677. Map Sum Pairs](../../0501-1000/0677-map-sum-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/map-of-highest-peak/)

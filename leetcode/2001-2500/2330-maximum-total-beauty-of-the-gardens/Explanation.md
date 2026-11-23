@@ -170,9 +170,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2285. Maximum Total Importance of Roads](../../2001-2500/2379-maximum-total-importance-of-roads/)
 - [2779. Maximum Beauty of an Array After Applying Operation](../../2501-3000/2891-maximum-beauty-of-an-array-after-applying-operation/)
 - [2842. Count K-Subsequences of a String With Maximum Beauty](../../3001-3500/3057-count-k-subsequences-of-a-string-with-maximum-beauty/)
-- [2285. Maximum Total Importance of Roads](../../2001-2500/2379-maximum-total-importance-of-roads/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/)

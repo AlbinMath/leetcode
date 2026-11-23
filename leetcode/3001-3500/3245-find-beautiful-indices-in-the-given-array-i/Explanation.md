@@ -131,7 +131,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3008. Find Beautiful Indices in the Given Array II](../../3001-3500/3303-find-beautiful-indices-in-the-given-array-ii/)
 - [2089. Find Target Indices After Sorting Array](../../2001-2500/2210-find-target-indices-after-sorting-array/)
-- [3618. Split Array by Prime Indices](../../3501-4000/3936-split-array-by-prime-indices/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/)

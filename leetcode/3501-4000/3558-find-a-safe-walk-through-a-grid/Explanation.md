@@ -183,9 +183,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2812. Find the Safest Path in a Grid](../../2501-3000/2914-find-the-safest-path-in-a-grid/)
 - [802. Find Eventual Safe States](../../0501-1000/0820-find-eventual-safe-states/)
-- [3108. Minimum Cost Walk in Weighted Graph](../../3001-3500/3348-minimum-cost-walk-in-weighted-graph/)
+- [2812. Find the Safest Path in a Grid](../../2501-3000/2914-find-the-safest-path-in-a-grid/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/)

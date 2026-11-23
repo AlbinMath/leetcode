@@ -137,9 +137,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [673. Number of Longest Increasing Subsequence](../../0501-1000/0673-number-of-longest-increasing-subsequence/)
 - [1301. Number of Paths with Max Score](../../1001-1500/1234-number-of-paths-with-max-score/)
 - [1786. Number of Restricted Paths From First to Last Node](../../1501-2000/1912-number-of-restricted-paths-from-first-to-last-node/)
-- [2421. Number of Good Paths](../../2501-3000/2505-number-of-good-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)

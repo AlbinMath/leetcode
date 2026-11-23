@@ -166,9 +166,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [648. Replace Words](../../0501-1000/0648-replace-words/)
-- [833. Find And Replace in String](../../0501-1000/0862-find-and-replace-in-string/)
-- [890. Find and Replace Pattern](../../0501-1000/0926-find-and-replace-pattern/)
+- [62. Unique Paths](../../0001-0500/0062-unique-paths/)
+- [63. Unique Paths II](../../0001-0500/0063-unique-paths-ii/)
+- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)

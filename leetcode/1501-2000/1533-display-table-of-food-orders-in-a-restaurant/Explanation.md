@@ -117,9 +117,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
-- [1179. Reformat Department Table](../../1001-1500/1301-reformat-department-table/)
-- [1667. Fix Names in a Table](../../1501-2000/1811-fix-names-in-a-table/)
+- [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
+- [1357. Apply Discount Every n Orders](../../1001-1500/1459-apply-discount-every-n-orders/)
+- [1801. Number of Orders in the Backlog](../../1501-2000/1928-number-of-orders-in-the-backlog/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)

@@ -119,8 +119,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
-- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
 - [1879. Minimum XOR Sum of Two Arrays](../../1501-2000/1989-minimum-xor-sum-of-two-arrays/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)

@@ -162,9 +162,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [865. Smallest Subtree with all the Deepest Nodes](../../0501-1000/0896-smallest-subtree-with-all-the-deepest-nodes/)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../../3001-3500/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
+- [3718. Smallest Missing Multiple of K](../../4001-4500/4080-smallest-missing-multiple-of-k/)
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [2500. Delete Greatest Value in Each Row](../../2501-3000/2585-delete-greatest-value-in-each-row/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)

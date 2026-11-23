@@ -127,9 +127,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
-- [2958. Length of Longest Subarray With at Most K Frequency](../../3001-3500/3225-length-of-longest-subarray-with-at-most-k-frequency/)
-- [3044. Most Frequent Prime](../../3001-3500/3314-most-frequent-prime/)
+- [3346. Maximum Frequency of an Element After Performing Operations I](../../3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/)
+- [3347. Maximum Frequency of an Element After Performing Operations II](../../3501-4000/3640-maximum-frequency-of-an-element-after-performing-operations-ii/)
+- [3591. Check if Any Element Has Prime Frequency](../../3501-4000/3914-check-if-any-element-has-prime-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)

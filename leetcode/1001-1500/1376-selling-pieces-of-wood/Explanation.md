@@ -136,9 +136,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1251. Average Selling Price](../../1001-1500/1390-average-selling-price/)
 - [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
 - [3426. Manhattan Distances of All Arrangements of Pieces](../../3501-4000/3739-manhattan-distances-of-all-arrangements-of-pieces/)
+- [1251. Average Selling Price](../../1001-1500/1390-average-selling-price/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/selling-pieces-of-wood/)

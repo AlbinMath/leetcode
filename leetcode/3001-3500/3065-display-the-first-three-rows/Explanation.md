@@ -123,9 +123,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
+- [1418. Display Table of Food Orders in a Restaurant](../../1501-2000/1533-display-table-of-food-orders-in-a-restaurant/)
+- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
+- [326. Power of Three](../../0001-0500/0326-power-of-three/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/display-the-first-three-rows/)

@@ -134,7 +134,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3346. Maximum Frequency of an Element After Performing Operations I](../../3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/)
-- [2011. Final Value of Variable After Performing Operations](../../2001-2500/2137-final-value-of-variable-after-performing-operations/)
+- [1846. Maximum Element After Decreasing and Rearranging](../../1501-2000/1956-maximum-element-after-decreasing-and-rearranging/)
 - [2317. Maximum XOR After Operations ](../../2001-2500/2402-maximum-xor-after-operations-/)
 
 ## LeetCode

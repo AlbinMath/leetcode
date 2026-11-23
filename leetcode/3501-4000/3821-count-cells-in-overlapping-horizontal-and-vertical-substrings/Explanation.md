@@ -152,9 +152,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2257. Count Unguarded Cells in the Grid](../../2001-2500/2343-count-unguarded-cells-in-the-grid/)
 - [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
 - [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1638. Count Substrings That Differ by One Character](../../1501-2000/1743-count-substrings-that-differ-by-one-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/)

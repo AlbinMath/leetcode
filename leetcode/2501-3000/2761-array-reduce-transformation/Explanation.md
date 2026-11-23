@@ -135,8 +135,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3690. Split and Merge Array Transformation](../../3501-4000/3928-split-and-merge-array-transformation/)
-- [1342. Number of Steps to Reduce a Number to Zero](../../1001-1500/1444-number-of-steps-to-reduce-a-number-to-zero/)
-- [1404. Number of Steps to Reduce a Number in Binary Representation to One](../../1501-2000/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/array-reduce-transformation/)

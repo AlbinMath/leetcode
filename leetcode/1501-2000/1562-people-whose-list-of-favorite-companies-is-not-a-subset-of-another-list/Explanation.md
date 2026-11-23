@@ -119,9 +119,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [572. Subtree of Another Tree](../../0501-1000/0572-subtree-of-another-tree/)
-- [1433. Check If a String Can Break Another String](../../1501-2000/1530-check-if-a-string-can-break-another-string/)
-- [2096. Step-By-Step Directions From a Binary Tree Node to Another](../../2001-2500/2217-step-by-step-directions-from-a-binary-tree-node-to-another/)
+- [1103. Distribute Candies to People](../../1001-1500/1195-distribute-candies-to-people/)
+- [1944. Number of Visible People in a Queue](../../1001-1500/1305-number-of-visible-people-in-a-queue/)
+- [2092. Find All People With Secret](../../2001-2500/2213-find-all-people-with-secret/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)

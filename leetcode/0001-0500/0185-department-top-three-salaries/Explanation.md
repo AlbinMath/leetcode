@@ -196,9 +196,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
-- [692. Top K Frequent Words](../../0501-1000/0692-top-k-frequent-words/)
-- [1407. Top Travellers](../../1501-2000/1541-top-travellers/)
+- [326. Power of Three](../../0001-0500/0326-power-of-three/)
+- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
+- [1050. Actors and Directors Who Cooperated At Least Three Times](../../1001-1500/1136-actors-and-directors-who-cooperated-at-least-three-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/department-top-three-salaries/)

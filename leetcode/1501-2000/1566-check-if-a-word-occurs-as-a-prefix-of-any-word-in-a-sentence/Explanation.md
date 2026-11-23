@@ -108,8 +108,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1961. Check If String Is a Prefix of Array](../../2001-2500/2093-check-if-string-is-a-prefix-of-array/)
-- [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1045-check-if-word-is-valid-after-substitutions/)
+- [2124. Check if All A's Appears Before All B's](../../2001-2500/2243-check-if-all-as-appears-before-all-bs/)
+- [1832. Check if the Sentence Is Pangram](../../1501-2000/1960-check-if-the-sentence-is-pangram/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)

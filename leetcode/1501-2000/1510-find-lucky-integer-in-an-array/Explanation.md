@@ -110,7 +110,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1985. Find the Kth Largest Integer in the Array](../../2001-2500/2113-find-the-kth-largest-integer-in-the-array/)
 - [3132. Find the Integer Added to Array II](../../3001-3500/3399-find-the-integer-added-to-array-ii/)
-- [989. Add to Array-Form of Integer](../../1001-1500/1031-add-to-array-form-of-integer/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-lucky-integer-in-an-array/)

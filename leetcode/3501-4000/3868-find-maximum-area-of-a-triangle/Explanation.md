@@ -118,9 +118,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [812. Largest Triangle Area](../../0501-1000/0830-largest-triangle-area/)
-- [3200. Maximum Height of a Triangle](../../3001-3500/3469-maximum-height-of-a-triangle/)
-- [2975. Maximum Square Area by Removing Fences From a Field](../../3001-3500/3250-maximum-square-area-by-removing-fences-from-a-field/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2744. Find Maximum Number of String Pairs](../../2501-3000/2847-find-maximum-number-of-string-pairs/)
+- [2945. Find Maximum Non-decreasing Array Length](../../3001-3500/3211-find-maximum-non-decreasing-array-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-maximum-area-of-a-triangle/)

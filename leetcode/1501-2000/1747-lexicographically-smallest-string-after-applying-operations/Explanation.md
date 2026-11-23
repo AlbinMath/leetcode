@@ -163,7 +163,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3722. Lexicographically Smallest String After Reverse](../../4001-4500/4073-lexicographically-smallest-string-after-reverse/)
 - [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../../4001-4500/4086-lexicographically-smallest-string-after-deleting-duplicate-characters/)
-- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1058-lexicographically-smallest-equivalent-string/)
+- [3461. Check If Digits Are Equal in String After Operations I](../../3501-4000/3768-check-if-digits-are-equal-in-string-after-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/)

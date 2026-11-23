@@ -118,8 +118,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
-- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
 - [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
+- [829. Consecutive Numbers Sum](../../0501-1000/0856-consecutive-numbers-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)

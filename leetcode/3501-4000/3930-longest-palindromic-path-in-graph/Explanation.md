@@ -169,9 +169,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
-- [3841. Palindromic Path Queries in a Tree](../../4001-4500/4209-palindromic-path-queries-in-a-tree/)
+- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
+- [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
+- [687. Longest Univalue Path](../../0501-1000/0687-longest-univalue-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindromic-path-in-graph/)

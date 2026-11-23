@@ -139,9 +139,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1787. Make the XOR of All Segments Equal to Zero](../../1501-2000/1913-make-the-xor-of-all-segments-equal-to-zero/)
 - [2275. Largest Combination With Bitwise AND Greater Than Zero](../../2001-2500/2356-largest-combination-with-bitwise-and-greater-than-zero/)
-- [2546. Apply Bitwise Operations to Make Strings Equal](../../2501-3000/2632-apply-bitwise-operations-to-make-strings-equal/)
-- [3702. Longest Subsequence With Non-Zero Bitwise XOR](../../4001-4500/4033-longest-subsequence-with-non-zero-bitwise-xor/)
+- [2357. Make Array Zero by Subtracting Equal Amounts](../../2001-2500/2436-make-array-zero-by-subtracting-equal-amounts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/)

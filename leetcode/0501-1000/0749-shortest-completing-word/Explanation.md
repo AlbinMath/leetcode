@@ -126,9 +126,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
-- [581. Shortest Unsorted Continuous Subarray](../../0501-1000/0581-shortest-unsorted-continuous-subarray/)
-- [821. Shortest Distance to a Character](../../0501-1000/0841-shortest-distance-to-a-character/)
+- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
+- [79. Word Search](../../0001-0500/0079-word-search/)
+- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-completing-word/)

@@ -118,9 +118,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3022. Minimize OR of Remaining Elements Using Operations](../../3001-3500/3261-minimize-or-of-remaining-elements-using-operations/)
-- [3830. Longest Alternating Subarray After Removing At Most One Element](../../4001-4500/4198-longest-alternating-subarray-after-removing-at-most-one-element/)
-- [3896. Minimum Operations to Transform Array into Alternating Prime](../../4001-4500/4277-minimum-operations-to-transform-array-into-alternating-prime/)
+- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
+- [1722. Minimize Hamming Distance After Swap Operations](../../1501-2000/1840-minimize-hamming-distance-after-swap-operations/)
+- [1799. Maximize Score After N Operations](../../1501-2000/1906-maximize-score-after-n-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/)

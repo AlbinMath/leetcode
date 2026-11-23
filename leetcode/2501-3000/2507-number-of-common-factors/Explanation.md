@@ -94,9 +94,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
-- [235. Lowest Common Ancestor of a Binary Search Tree](../../0001-0500/0235-lowest-common-ancestor-of-a-binary-search-tree/)
-- [236. Lowest Common Ancestor of a Binary Tree](../../0001-0500/0236-lowest-common-ancestor-of-a-binary-tree/)
+- [2507. Smallest Value After Replacing With Sum of Prime Factors](../../2501-3000/2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
+- [2521. Distinct Prime Factors of Product of Array](../../2501-3000/2609-distinct-prime-factors-of-product-of-array/)
+- [4032. Longest Subarray With at Most K Distinct Prime Factors](../../4001-4500/4370-longest-subarray-with-at-most-k-distinct-prime-factors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-common-factors/)

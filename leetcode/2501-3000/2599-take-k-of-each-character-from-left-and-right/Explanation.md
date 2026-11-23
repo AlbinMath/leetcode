@@ -124,9 +124,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3304. Find the K-th Character in String Game I](../../3501-4000/3600-find-the-k-th-character-in-string-game-i/)
-- [3307. Find the K-th Character in String Game II](../../3501-4000/3601-find-the-k-th-character-in-string-game-ii/)
 - [2558. Take Gifts From the Richest Pile](../../2501-3000/2692-take-gifts-from-the-richest-pile/)
+- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
+- [117. Populating Next Right Pointers in Each Node II](../../0001-0500/0117-populating-next-right-pointers-in-each-node-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)

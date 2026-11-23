@@ -102,8 +102,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [93. Restore IP Addresses](../../0001-0500/0093-restore-ip-addresses/)
+- [929. Unique Email Addresses](../../0501-1000/0965-unique-email-addresses/)
 - [301. Remove Invalid Parentheses](../../0001-0500/0301-remove-invalid-parentheses/)
-- [1169. Invalid Transactions](../../1001-1500/1272-invalid-transactions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-invalid-ip-addresses/)

@@ -116,8 +116,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [949. Largest Time for Given Digits](../../0501-1000/0986-largest-time-for-given-digits/)
-- [1700. Number of Students Unable to Eat Lunch](../../1501-2000/1802-number-of-students-unable-to-eat-lunch/)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](../../1501-2000/1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1501-2000/1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)

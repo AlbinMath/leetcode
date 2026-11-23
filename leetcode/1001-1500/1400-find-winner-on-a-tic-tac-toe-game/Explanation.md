@@ -132,9 +132,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [794. Valid Tic-Tac-Toe State](../../0501-1000/0810-valid-tic-tac-toe-state/)
 - [1535. Find the Winner of an Array Game](../../1501-2000/1657-find-the-winner-of-an-array-game/)
 - [1823. Find the Winner of the Circular Game](../../1501-2000/1951-find-the-winner-of-the-circular-game/)
+- [794. Valid Tic-Tac-Toe State](../../0501-1000/0810-valid-tic-tac-toe-state/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)

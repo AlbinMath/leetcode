@@ -234,9 +234,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [239. Sliding Window Maximum](../../0001-0500/0239-sliding-window-maximum/)
-- [480. Sliding Window Median](../../0001-0500/0480-sliding-window-median/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-window-substring/)

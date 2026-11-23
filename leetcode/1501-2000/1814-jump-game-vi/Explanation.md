@@ -121,9 +121,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [1686. Stone Game VI](../../1501-2000/1788-stone-game-vi/)
 - [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
 - [55. Jump Game](../../0001-0500/0055-jump-game/)
+- [1306. Jump Game III](../../1001-1500/1428-jump-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-vi/)

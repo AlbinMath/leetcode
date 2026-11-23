@@ -140,9 +140,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1620. Coordinate With Maximum Network Quality](../../1501-2000/1726-coordinate-with-maximum-network-quality/)
 - [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
 - [1219. Path with Maximum Gold](../../1001-1500/1331-path-with-maximum-gold/)
+- [1514. Path with Maximum Probability](../../1001-1500/1325-path-with-maximum-probability/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-path-quality-of-a-graph/)

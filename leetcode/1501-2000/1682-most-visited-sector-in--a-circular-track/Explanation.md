@@ -112,9 +112,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [622. Design Circular Queue](../../0501-1000/0860-design-circular-queue/)
-- [641. Design Circular Deque](../../0501-1000/0859-design-circular-deque/)
-- [918. Maximum Sum Circular Subarray](../../0501-1000/0954-maximum-sum-circular-subarray/)
+- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1724-customer-who-visited-but-did-not-make-any-transactions/)
+- [2617. Minimum Number of Visited Cells in a Grid](../../2501-3000/2697-minimum-number-of-visited-cells-in-a-grid/)
+- [2876. Count Visited Nodes in a Directed Graph](../../3001-3500/3140-count-visited-nodes-in-a-directed-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)

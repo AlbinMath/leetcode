@@ -103,8 +103,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
-- [180. Consecutive Numbers](../../0001-0500/0180-consecutive-numbers/)
 - [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
+- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/consecutive-numbers-sum/)

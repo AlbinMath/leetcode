@@ -188,9 +188,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
-- [2276. Count Integers in Intervals](../../2001-2500/2357-count-integers-in-intervals/)
 - [2526. Find Consecutive Integers from a Data Stream](../../2501-3000/2620-find-consecutive-integers-from-a-data-stream/)
+- [1735. Count Ways to Make Array With Product](../../1501-2000/1836-count-ways-to-make-array-with-product/)
+- [1916. Count Ways to Build Rooms in an Ant Colony](../../1001-1500/1313-count-ways-to-build-rooms-in-an-ant-colony/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-ways-to-choose-coprime-integers-from-rows/)
