@@ -1,0 +1,72 @@
+# LeetCode 1517: Find Users With Valid E-Mails
+
+**LeetCode Problem #1517 — Find Users With Valid E-Mails**
+Solve LeetCode Find Users With Valid E-Mails using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Find Users With Valid E-Mails |
+| LeetCode | #1517 |
+| Difficulty | Easy |
+| Language | SQL |
+| Algorithm | SQL Query / Relational Join & Window Function |
+| Data Structure | Relational Table |
+| Pattern | Database / SQL |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
+
+## Problem
++---------------+---------+
+
+## Key Insight
+Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+We iterate through the input using **SQL Query / Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations.
+
+## Algorithm
+1. Initialize state variables / data structure (**Relational Table**).
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Find Users With Valid E-Mails**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Database / SQL**
+
+## Topics
+- Database
+- SQL
+- Data Aggregation
+
+## Language
+SQL
+
+## Source Code
+- [solution.sql](./solution.sql)
+
+## Why This Works
+By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [1964. Find the Longest Valid Obstacle Course at Each Position](../../2001-2500/2096-find-the-longest-valid-obstacle-course-at-each-position/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [3302. Find the Lexicographically Smallest Valid Sequence](../../3501-4000/3584-find-the-lexicographically-smallest-valid-sequence/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/find-users-with-valid-e-mails/)

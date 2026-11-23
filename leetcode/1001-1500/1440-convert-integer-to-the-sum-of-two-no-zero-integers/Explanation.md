@@ -1,0 +1,71 @@
+# LeetCode 1317: Convert Integer to the Sum of Two No-Zero Integers
+
+**LeetCode Problem #1317 — Convert Integer to the Sum of Two No-Zero Integers**
+Solve LeetCode Convert Integer to the Sum of Two No-Zero Integers using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Convert Integer to the Sum of Two No-Zero Integers |
+| LeetCode | #1317 |
+| Difficulty | Easy |
+| Language | Python |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+No-Zero integer  is a positive integer that  does not contain any  0   in its decimal representation.
+
+## Key Insight
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Convert Integer to the Sum of Two No-Zero Integers**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Bit Manipulation**
+
+## Topics
+- Bit Manipulation
+- Bitwise Math
+
+## Language
+Python
+
+## Source Code
+- [solution.py](./solution.py)
+
+## Why This Works
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
+- [3670. Maximum Product of Two Integers With No Common Bits](../../3501-4000/3915-maximum-product-of-two-integers-with-no-common-bits/)
+- [3890. Integers With Multiple Sum of Two Cubes](../../4001-4500/4268-integers-with-multiple-sum-of-two-cubes/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)

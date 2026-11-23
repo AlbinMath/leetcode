@@ -1,0 +1,72 @@
+# LeetCode 1890: The Latest Login in 2020
+
+**LeetCode Problem #1890 — The Latest Login in 2020**
+Solve LeetCode The Latest Login in 2020 using SQL and Database / SQL. This solution finds the optimal result using SQL Query / Relational Join & Window Function in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | The Latest Login in 2020 |
+| LeetCode | #1890 |
+| Difficulty | Easy |
+| Language | SQL |
+| Algorithm | SQL Query / Relational Join & Window Function |
+| Data Structure | Relational Table |
+| Pattern | Database / SQL |
+| Time Complexity | O(n) |
+| Space Complexity | O(n) |
+
+## Problem
++----------------+----------+
+
+## Key Insight
+Leverage **Database / SQL** with **Relational Table** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+We iterate through the input using **SQL Query / Relational Join & Grouping**. By maintaining state efficiently in a **Relational Table**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Relational Table**).
+2. Process elements sequentially using **SQL Query / Relational Join & Window Function**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **The Latest Login in 2020**. Applying **SQL Query / Relational Join & Window Function** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+## Pattern
+**Database / SQL**
+
+## Topics
+- Database
+- SQL
+- Data Aggregation
+
+## Language
+SQL
+
+## Source Code
+- [solution.sql](./solution.sql)
+
+## Why This Works
+By utilizing **Database / SQL**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [1562. Find Latest Group of Size M](../../1501-2000/1684-find-latest-group-of-size-m/)
+- [1736. Latest Time by Replacing Hidden Digits](../../1501-2000/1858-latest-time-by-replacing-hidden-digits/)
+- [1900. The Earliest and Latest Rounds Where Players Compete](../../2001-2500/2028-the-earliest-and-latest-rounds-where-players-compete/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/the-latest-login-in-2020/)

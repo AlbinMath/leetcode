@@ -1,0 +1,72 @@
+# LeetCode 2846: Minimum Edge Weight Equilibrium Queries in a Tree
+
+**LeetCode Problem #2846 — Minimum Edge Weight Equilibrium Queries in a Tree**
+Solve LeetCode Minimum Edge Weight Equilibrium Queries in a Tree using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Minimum Edge Weight Equilibrium Queries in a Tree |
+| LeetCode | #2846 |
+| Difficulty | Hard |
+| Language | Python |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+There is an undirected tree with  n  nodes labeled from  0  to  n - 1 . You are given the integer  n  and a 2D integer array  edges  of length  n - 1 , where  edges[i] = [u i , v i , w i ]  indicates that there is an edge between nodes  u i   and  v i   with weight  w i   in the tree.
+
+## Key Insight
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
+
+## Approach
+We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Minimum Edge Weight Equilibrium Queries in a Tree**. Applying **Modified Binary Search** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Binary Search**
+
+## Topics
+- Binary Search
+- Divide and Conquer
+- Search Space
+
+## Language
+Python
+
+## Source Code
+- [solution.py](./solution.py)
+
+## Why This Works
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
+
+## Interview Notes
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
+
+## Related Problems
+- [3812. Minimum Edge Toggles on a Tree](../../4001-4500/4181-minimum-edge-toggles-on-a-tree/)
+- [3419. Minimize the Maximum Edge Weight of Graph](../../3501-4000/3720-minimize-the-maximum-edge-weight-of-graph/)
+- [111. Minimum Depth of Binary Tree](../../0001-0500/0111-minimum-depth-of-binary-tree/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/)

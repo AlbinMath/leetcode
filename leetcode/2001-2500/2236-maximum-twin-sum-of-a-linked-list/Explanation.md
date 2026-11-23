@@ -1,0 +1,72 @@
+# LeetCode 2130: Maximum Twin Sum of a Linked List
+
+**LeetCode Problem #2130 — Maximum Twin Sum of a Linked List**
+Solve LeetCode Maximum Twin Sum of a Linked List using Java, JavaScript and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Maximum Twin Sum of a Linked List |
+| LeetCode | #2130 |
+| Difficulty | Medium |
+| Language | Java, JavaScript |
+| Algorithm | Floyd Cycle Detection |
+| Data Structure | Linked List / Pointer |
+| Pattern | Fast & Slow Pointers |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+In a linked list of size  n , where  n  is  even , the  i th   node ( 0-indexed ) of the linked list is known as the  twin  of the  (n-1-i) th   node, if  0 <= i <= (n / 2) - 1 .
+
+## Key Insight
+Leverage **Fast & Slow Pointers** with **Linked List / Pointer** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+Find the middle using fast/slow pointers, reverse the second half, then iterate both halves simultaneously to compute twin sums and track the maximum.
+
+## Algorithm
+1. Initialize state variables / data structure (**Linked List / Pointer**).
+2. Process elements sequentially using **Floyd Cycle Detection**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Maximum Twin Sum of a Linked List**. Applying **Floyd Cycle Detection** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Fast & Slow Pointers**
+
+## Topics
+- Two Pointers
+- Cycle Detection
+
+## Language
+Java, JavaScript
+
+## Source Code
+- [solution.java](./solution.java)
+- [solution.js](./solution.js)
+
+## Why This Works
+By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)

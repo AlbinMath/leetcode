@@ -6,4 +6,4 @@ A collection of LeetCode problems implemented in **Rust** with detailed complexi
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---|---|---|---|---|
-| 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | Prefix Sum | O(n) | O(n) |
+| 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3001-3500/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | Prefix Sum | O(n) | O(n) |

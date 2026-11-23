@@ -1,0 +1,70 @@
+# LeetCode 1169: Invalid Transactions
+
+**LeetCode Problem #1169 — Invalid Transactions**
+Solve LeetCode Invalid Transactions using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Invalid Transactions |
+| LeetCode | #1169 |
+| Difficulty | Medium |
+| Language | Python |
+| Algorithm | In-Place Array Traversal & Index Mapping |
+| Data Structure | Array |
+| Pattern | Array / General |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+A transaction is possibly invalid if:
+
+## Key Insight
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Invalid Transactions**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Array / General**
+
+## Topics
+- Array
+
+## Language
+Python
+
+## Source Code
+- [solution.py](./solution.py)
+
+## Why This Works
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [1193. Monthly Transactions I](../../1001-1500/1317-monthly-transactions-i/)
+- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1724-customer-who-visited-but-did-not-make-any-transactions/)
+- [3220. Odd and Even Transactions](../../3501-4000/3530-odd-and-even-transactions/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/invalid-transactions/)

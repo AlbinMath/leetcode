@@ -1,0 +1,70 @@
+# LeetCode 526: Beautiful Arrangement
+
+**LeetCode Problem #526 — Beautiful Arrangement**
+Solve LeetCode Beautiful Arrangement using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Beautiful Arrangement |
+| LeetCode | #526 |
+| Difficulty | Medium |
+| Language | JavaScript |
+| Algorithm | In-Place Array Traversal & Index Mapping |
+| Data Structure | Array |
+| Pattern | Array / General |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+Suppose you have  n  integers labeled  1  through  n . A permutation of those  n  integers  perm  ( 1-indexed ) is considered a  beautiful arrangement  if for every  i  ( 1 <= i <= n ),  either  of the following is true:
+
+## Key Insight
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Beautiful Arrangement**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Array / General**
+
+## Topics
+- Array
+
+## Language
+JavaScript
+
+## Source Code
+- [solution.js](./solution.js)
+
+## Why This Works
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [2097. Valid Arrangement of Pairs](../../2001-2500/2201-valid-arrangement-of-pairs/)
+- [932. Beautiful Array](../../0501-1000/0968-beautiful-array/)
+- [2216. Minimum Deletions to Make Array Beautiful](../../1001-1500/1355-minimum-deletions-to-make-array-beautiful/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/beautiful-arrangement/)

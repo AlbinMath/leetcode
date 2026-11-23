@@ -1,0 +1,70 @@
+# LeetCode 1255: Maximum Score Words Formed by Letters
+
+**LeetCode Problem #1255 — Maximum Score Words Formed by Letters**
+Solve LeetCode Maximum Score Words Formed by Letters using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Maximum Score Words Formed by Letters |
+| LeetCode | #1255 |
+| Difficulty | Hard |
+| Language | JavaScript |
+| Algorithm | In-Place Array Traversal & Index Mapping |
+| Data Structure | Array |
+| Pattern | Array / General |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+Given a list of  words , list of  single  letters  (might be repeating) and  score  of every character.
+
+## Key Insight
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Maximum Score Words Formed by Letters**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Array / General**
+
+## Topics
+- Array
+
+## Language
+JavaScript
+
+## Source Code
+- [solution.js](./solution.js)
+
+## Why This Works
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1112-find-words-that-can-be-formed-by-characters/)
+- [1935. Maximum Number of Words You Can Type](../../1001-1500/1264-maximum-number-of-words-you-can-type/)
+- [2114. Maximum Number of Words Found in Sentences](../../2001-2500/2219-maximum-number-of-words-found-in-sentences/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)

@@ -1,0 +1,71 @@
+# LeetCode 482: License Key Formatting
+
+**LeetCode Problem #482 — License Key Formatting**
+Solve LeetCode License Key Formatting using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | License Key Formatting |
+| LeetCode | #482 |
+| Difficulty | Easy |
+| Language | JavaScript, Python |
+| Algorithm | In-Place Array Traversal & Index Mapping |
+| Data Structure | Array |
+| Pattern | Array / General |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+You are given a license key represented as a string  s  that consists of only alphanumeric characters and dashes. The string is separated into  n + 1  groups by  n  dashes. You are also given an integer  k .
+
+## Key Insight
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **License Key Formatting**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Array / General**
+
+## Topics
+- Array
+
+## Language
+JavaScript, Python
+
+## Source Code
+- [solution.js](./solution.js)
+- [solution.py](./solution.py)
+
+## Why This Works
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [981. Time Based Key-Value Store](../../1001-1500/1023-time-based-key-value-store/)
+- [1409. Queries on a Permutation With Key](../../1501-2000/1525-queries-on-a-permutation-with-key/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/license-key-formatting/)

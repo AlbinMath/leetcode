@@ -1,0 +1,71 @@
+# LeetCode 850: Rectangle Area II
+
+**LeetCode Problem #850 — Rectangle Area II**
+Solve LeetCode Rectangle Area II using Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Rectangle Area II |
+| LeetCode | #850 |
+| Difficulty | Hard |
+| Language | Python |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+You are given a 2D array of axis-aligned  rectangles . Each  rectangle[i] = [x i1 , y i1 , x i2 , y i2 ]  denotes the  i th   rectangle where  (x i1 , y i1 )  are the coordinates of the  bottom-left corner , and  (x i2 , y i2 )  are the coordinates of the  top-right corner .
+
+## Key Insight
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+We iterate through the input using **Mathematical Simulation & Modular Arithmetic**. By maintaining state efficiently in a **Primitive Types**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Primitive Types**).
+2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Rectangle Area II**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Math & Logic**
+
+## Topics
+- Math
+- Simulation
+
+## Language
+Python
+
+## Source Code
+- [solution.py](./solution.py)
+
+## Why This Works
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
+- [939. Minimum Area Rectangle](../../0501-1000/0976-minimum-area-rectangle/)
+- [963. Minimum Area Rectangle II](../../1001-1500/1003-minimum-area-rectangle-ii/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/rectangle-area-ii/)

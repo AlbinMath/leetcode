@@ -6,20 +6,21 @@ LeetCode problems solved using **Array / Hash Set** data structures.
 
 | # | Problem | Difficulty | Algorithm | Time | Space |
 |---|---|---|---|---|---|
-| 3 | [Longest Substring Without Repeating Characters](../leetcode/0003-longest-substring-without-repeating-characters/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 76 | [Minimum Window Substring](../leetcode/0076-minimum-window-substring/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 239 | [Sliding Window Maximum](../leetcode/0239-sliding-window-maximum/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 433 | [Minimum Genetic Mutation](../leetcode/0433-minimum-genetic-mutation/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 480 | [Sliding Window Median](../leetcode/0480-sliding-window-median/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 773 | [Sliding Puzzle](../leetcode/0787-sliding-puzzle/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 1681 | [Minimum Incompatibility](../leetcode/1799-minimum-incompatibility/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2367-minimum-lines-to-represent-a-line-chart/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 2627 | [Debounce](../leetcode/2743-debounce/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
-| 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 3 | [Longest Substring Without Repeating Characters](../leetcode/0001-0500/0003-longest-substring-without-repeating-characters/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 30 | [Substring with Concatenation of All Words](../leetcode/0001-0500/0030-substring-with-concatenation-of-all-words/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 76 | [Minimum Window Substring](../leetcode/0001-0500/0076-minimum-window-substring/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 239 | [Sliding Window Maximum](../leetcode/0001-0500/0239-sliding-window-maximum/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 433 | [Minimum Genetic Mutation](../leetcode/0001-0500/0433-minimum-genetic-mutation/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 480 | [Sliding Window Median](../leetcode/0001-0500/0480-sliding-window-median/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 773 | [Sliding Puzzle](../leetcode/0501-1000/0787-sliding-puzzle/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1501-2000/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1501-2000/1776-minimum-operations-to-reduce-x-to-zero/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 1681 | [Minimum Incompatibility](../leetcode/1501-2000/1799-minimum-incompatibility/) | Hard | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2001-2500/2248-minimum-cost-of-buying-candies-with-discount/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2001-2500/2367-minimum-lines-to-represent-a-line-chart/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2501-3000/2575-minimum-cuts-to-divide-a-circle/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 2540 | [Minimum Common Value](../leetcode/2501-3000/2634-minimum-common-value/) | Easy | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 2568 | [Minimum Impossible OR](../leetcode/2501-3000/2705-minimum-impossible-or/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 2627 | [Debounce](../leetcode/2501-3000/2743-debounce/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 2653 | [Sliding Subarray Beauty](../leetcode/2501-3000/2751-sliding-subarray-beauty/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3501-4000/3870-minimum-moves-to-clean-the-classroom/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |

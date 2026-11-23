@@ -8,45 +8,47 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/2248-minimum-cost-of-buying-candies-with-discount/Explanation.md) |
+| 2144 | [Minimum Cost of Buying Candies With Discount](../leetcode/2001-2500/2248-minimum-cost-of-buying-candies-with-discount/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2248-minimum-cost-of-buying-candies-with-discount/Explanation.md) |
 
-| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2575-minimum-cuts-to-divide-a-circle/) | Python | O(n) | O(1) | [Explanation](../leetcode/2575-minimum-cuts-to-divide-a-circle/Explanation.md) |
+| 2481 | [Minimum Cuts to Divide a Circle](../leetcode/2501-3000/2575-minimum-cuts-to-divide-a-circle/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2575-minimum-cuts-to-divide-a-circle/Explanation.md) |
 
-| 2540 | [Minimum Common Value](../leetcode/2634-minimum-common-value/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2634-minimum-common-value/Explanation.md) |
+| 2540 | [Minimum Common Value](../leetcode/2501-3000/2634-minimum-common-value/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2634-minimum-common-value/Explanation.md) |
 
 ### Medium
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 3 | [Longest Substring Without Repeating Characters](../leetcode/0003-longest-substring-without-repeating-characters/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0003-longest-substring-without-repeating-characters/Explanation.md) |
+| 3 | [Longest Substring Without Repeating Characters](../leetcode/0001-0500/0003-longest-substring-without-repeating-characters/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0003-longest-substring-without-repeating-characters/Explanation.md) |
 
-| 433 | [Minimum Genetic Mutation](../leetcode/0433-minimum-genetic-mutation/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0433-minimum-genetic-mutation/Explanation.md) |
+| 433 | [Minimum Genetic Mutation](../leetcode/0001-0500/0433-minimum-genetic-mutation/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0433-minimum-genetic-mutation/Explanation.md) |
 
-| 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/Explanation.md) |
+| 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](../leetcode/1501-2000/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/Explanation.md) |
 
-| 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1776-minimum-operations-to-reduce-x-to-zero/Explanation.md) |
+| 1658 | [Minimum Operations to Reduce X to Zero](../leetcode/1501-2000/1776-minimum-operations-to-reduce-x-to-zero/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1776-minimum-operations-to-reduce-x-to-zero/Explanation.md) |
 
-| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2367-minimum-lines-to-represent-a-line-chart/) | Python | O(n) | O(1) | [Explanation](../leetcode/2367-minimum-lines-to-represent-a-line-chart/Explanation.md) |
+| 2280 | [Minimum Lines to Represent a Line Chart](../leetcode/2001-2500/2367-minimum-lines-to-represent-a-line-chart/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2367-minimum-lines-to-represent-a-line-chart/Explanation.md) |
 
-| 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Python | O(n) | O(1) | [Explanation](../leetcode/2705-minimum-impossible-or/Explanation.md) |
+| 2568 | [Minimum Impossible OR](../leetcode/2501-3000/2705-minimum-impossible-or/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2705-minimum-impossible-or/Explanation.md) |
 
-| 2627 | [Debounce](../leetcode/2743-debounce/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2743-debounce/Explanation.md) |
+| 2627 | [Debounce](../leetcode/2501-3000/2743-debounce/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2743-debounce/Explanation.md) |
 
-| 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3870-minimum-moves-to-clean-the-classroom/Explanation.md) |
+| 2653 | [Sliding Subarray Beauty](../leetcode/2501-3000/2751-sliding-subarray-beauty/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2751-sliding-subarray-beauty/Explanation.md) |
+
+| 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3501-4000/3870-minimum-moves-to-clean-the-classroom/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3870-minimum-moves-to-clean-the-classroom/Explanation.md) |
 
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Python | O(n) | O(1) | [Explanation](../leetcode/0030-substring-with-concatenation-of-all-words/Explanation.md) |
+| 30 | [Substring with Concatenation of All Words](../leetcode/0001-0500/0030-substring-with-concatenation-of-all-words/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0030-substring-with-concatenation-of-all-words/Explanation.md) |
 
-| 76 | [Minimum Window Substring](../leetcode/0076-minimum-window-substring/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0076-minimum-window-substring/Explanation.md) |
+| 76 | [Minimum Window Substring](../leetcode/0001-0500/0076-minimum-window-substring/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0076-minimum-window-substring/Explanation.md) |
 
-| 239 | [Sliding Window Maximum](../leetcode/0239-sliding-window-maximum/) | Python | O(n) | O(1) | [Explanation](../leetcode/0239-sliding-window-maximum/Explanation.md) |
+| 239 | [Sliding Window Maximum](../leetcode/0001-0500/0239-sliding-window-maximum/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0239-sliding-window-maximum/Explanation.md) |
 
-| 480 | [Sliding Window Median](../leetcode/0480-sliding-window-median/) | Python | O(n) | O(1) | [Explanation](../leetcode/0480-sliding-window-median/Explanation.md) |
+| 480 | [Sliding Window Median](../leetcode/0001-0500/0480-sliding-window-median/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0480-sliding-window-median/Explanation.md) |
 
-| 773 | [Sliding Puzzle](../leetcode/0787-sliding-puzzle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0787-sliding-puzzle/Explanation.md) |
+| 773 | [Sliding Puzzle](../leetcode/0501-1000/0787-sliding-puzzle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0787-sliding-puzzle/Explanation.md) |
 
-| 1681 | [Minimum Incompatibility](../leetcode/1799-minimum-incompatibility/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1799-minimum-incompatibility/Explanation.md) |
+| 1681 | [Minimum Incompatibility](../leetcode/1501-2000/1799-minimum-incompatibility/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1799-minimum-incompatibility/Explanation.md) |
 

@@ -1,0 +1,79 @@
+# LeetCode 1288: Remove Covered Intervals
+
+**LeetCode Problem #1288 — Remove Covered Intervals**
+Solve LeetCode Remove Covered Intervals using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Remove Covered Intervals |
+| LeetCode | #1288 |
+| Difficulty | Medium |
+| Language | Java |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
+| Time Complexity | O(log n) |
+| Space Complexity | O(1) |
+
+## Problem
+Given an array  intervals  where  intervals[i] = [l i , r i ]  represent the interval  [l i , r i ) , remove all intervals that are covered by another interval in the list.
+
+## Key Insight
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
+
+## Approach
+The code uses **Sorting + Greedy**.
+
+1. **Sort:** Sort intervals by start ascending. If starts are equal, sort by end **descending**. This ensures that if two intervals share the same start, the longer one comes first.
+2. **Iterate:** Track `maxEnd` — the maximum end value seen so far. For each interval:
+   - If `interval[1] > maxEnd`: This interval is NOT covered (it extends beyond all previous intervals), so increment the `count` and update `maxEnd`.
+   - Otherwise: This interval is covered by a previous one (its end is ≤ `maxEnd`), so skip it.
+
+Time complexity is $O(N \log N)$ for sorting and space complexity is $O(\log N)$.
+
+## Algorithm
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Remove Covered Intervals**. Applying **Modified Binary Search** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(log n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Binary Search**
+
+## Topics
+- Binary Search
+- Divide and Conquer
+- Search Space
+
+## Language
+Java
+
+## Source Code
+- [solution.java](./solution.java)
+
+## Why This Works
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
+
+## Interview Notes
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
+
+## Related Problems
+- [1893. Check if All the Integers in a Range Are Covered](../../2001-2500/2005-check-if-all-the-integers-in-a-range-are-covered/)
+- [2271. Maximum White Tiles Covered by a Carpet](../../2001-2500/2359-maximum-white-tiles-covered-by-a-carpet/)
+- [2397. Maximum Rows Covered by Columns](../../2001-2500/2482-maximum-rows-covered-by-columns/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/remove-covered-intervals/)

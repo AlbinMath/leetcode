@@ -1,0 +1,72 @@
+# LeetCode 829: Consecutive Numbers Sum
+
+**LeetCode Problem #829 — Consecutive Numbers Sum**
+Solve LeetCode Consecutive Numbers Sum using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Consecutive Numbers Sum |
+| LeetCode | #829 |
+| Difficulty | Hard |
+| Language | Python |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+Given an integer  n , return  the number of ways you can write   n   as the sum of consecutive positive integers.
+
+## Key Insight
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
+
+## Approach
+We iterate through the input using **In-Place Array Traversal & Index Mapping**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Array**).
+2. Process elements sequentially using **Two Pointer Convergence & Scanning**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Consecutive Numbers Sum**. Applying **Two Pointer Convergence & Scanning** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Two Pointers**
+
+## Topics
+- Two Pointers
+- Array
+- Sorting
+
+## Language
+Python
+
+## Source Code
+- [solution.py](./solution.py)
+
+## Why This Works
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
+
+## Interview Notes
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
+
+## Related Problems
+- [180. Consecutive Numbers](../../0001-0500/0180-consecutive-numbers/)
+- [967. Numbers With Same Consecutive Differences](../../1001-1500/1007-numbers-with-same-consecutive-differences/)
+- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/consecutive-numbers-sum/)

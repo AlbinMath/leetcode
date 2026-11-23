@@ -2,6 +2,7 @@ import os
 import re
 import json
 import urllib.request
+import shutil
 
 # ---------------------------------------------------------
 # 1. Fetch official LeetCode metadata (Difficulty, Title, Slug, Frontend ID)
@@ -305,9 +306,45 @@ def get_pattern_insights(pattern, title, ds, algorithm):
     return insight, mistakes, interview
 
 # ---------------------------------------------------------
-# 7. Process Problem Folder with 100% Accurate Metadata Mapping
+# 7. Auto-Organize Flat Problems into Range Buckets
 # ---------------------------------------------------------
-def process_problem(folder_name, lc_slug_map):
+def organize_problems():
+    leetcode_dir = 'leetcode'
+    if not os.path.exists(leetcode_dir):
+        return
+    for item in sorted(os.listdir(leetcode_dir)):
+        item_path = os.path.join(leetcode_dir, item)
+        if not os.path.isdir(item_path):
+            continue
+        if re.match(r'^\d{4}-\d{4}$', item):
+            continue
+        m = re.match(r'^(\d+)-(.*)', item)
+        if m:
+            f_num = int(m.group(1))
+            lower = ((f_num - 1) // 500) * 500 + 1
+            upper = lower + 499
+            r_name = f"{lower:04d}-{upper:04d}"
+            target_dir = os.path.join(leetcode_dir, r_name)
+            os.makedirs(target_dir, exist_ok=True)
+            target_path = os.path.join(target_dir, item)
+            if os.path.exists(target_path):
+                for subfile in os.listdir(item_path):
+                    src_f = os.path.join(item_path, subfile)
+                    dst_f = os.path.join(target_path, subfile)
+                    if os.path.exists(dst_f):
+                        if os.path.isdir(dst_f):
+                            shutil.rmtree(dst_f)
+                        else:
+                            os.remove(dst_f)
+                    shutil.move(src_f, dst_f)
+                os.rmdir(item_path)
+            else:
+                shutil.move(item_path, target_path)
+
+# ---------------------------------------------------------
+# 8. Process Problem Folder with 100% Accurate Metadata Mapping
+# ---------------------------------------------------------
+def process_problem(range_folder, folder_name, lc_slug_map):
     m = re.match(r'(\d+)-(.*)', folder_name)
     if not m:
         return None
@@ -328,7 +365,7 @@ def process_problem(folder_name, lc_slug_map):
         difficulty = 'Medium'
         slug = norm_slug
 
-    path = os.path.join('leetcode', folder_name)
+    path = os.path.join('leetcode', range_folder, folder_name)
 
     sol_files = sorted([f for f in os.listdir(path) if f.startswith('solution')])
     sol_exts = [os.path.splitext(sf)[1] for sf in sol_files]
@@ -372,7 +409,8 @@ def process_problem(folder_name, lc_slug_map):
         'slug': slug,
         'difficulty': difficulty,
         'folder': folder_name,
-        'path': f"leetcode/{folder_name}",
+        'range_folder': range_folder,
+        'path': f"leetcode/{range_folder}/{folder_name}",
         'languages': languages,
         'lang_str': lang_str,
         'pattern': pattern,
@@ -394,19 +432,24 @@ def process_problem(folder_name, lc_slug_map):
     }
 
 # ---------------------------------------------------------
-# 8. Main Orchestrator & Index Generator
+# 9. Main Orchestrator & Index Generator
 # ---------------------------------------------------------
 def main():
     lc_slug_map = fetch_leetcode_metadata()
 
-    leetcode_dir = 'leetcode'
-    folders = sorted([f for f in os.listdir(leetcode_dir) if os.path.isdir(os.path.join(leetcode_dir, f))])
+    organize_problems()
 
+    leetcode_dir = 'leetcode'
     problems = []
-    for f in folders:
-        p_info = process_problem(f, lc_slug_map)
-        if p_info:
-            problems.append(p_info)
+    range_folders = sorted([d for d in os.listdir(leetcode_dir) if os.path.isdir(os.path.join(leetcode_dir, d)) and re.match(r'^\d{4}-\d{4}$', d)])
+    for r_name in range_folders:
+        r_path = os.path.join(leetcode_dir, r_name)
+        for f in sorted(os.listdir(r_path)):
+            f_path = os.path.join(r_path, f)
+            if os.path.isdir(f_path):
+                p_info = process_problem(r_name, f, lc_slug_map)
+                if p_info:
+                    problems.append(p_info)
 
     # Sort problems by official frontend Question ID
     problems.sort(key=lambda x: x['id'])
@@ -446,7 +489,7 @@ def main():
 
         rel_ids = [op['id'] for op in top_related]
         p['related_ids'] = rel_ids
-        rel_links = [f"- [{op['id']}. {op['title']}](../{op['folder']}/)" for op in top_related]
+        rel_links = [f"- [{op['id']}. {op['title']}](../../{op['range_folder']}/{op['folder']}/)" for op in top_related]
         rel_md = "\n".join(rel_links) if rel_links else "- None"
         p['related_md'] = rel_md
 
@@ -541,13 +584,38 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
     print(f"Saved metadata/problems.json ({len(problems)} problems)")
 
     # ---------------------------------------------------------
-    # 9. Generate All Hub Pages
+    # 8b. Generate Range Hubs (leetcode/README.md & leetcode/{range}/README.md)
     # ---------------------------------------------------------
-    
-    # 9a. Patterns Hubs
-    patterns_map = {}
+    ranges_summary = {}
     for p in problems:
-        patterns_map.setdefault(p['pattern'], []).append(p)
+        ranges_summary.setdefault(p['range_folder'], []).append(p)
+
+    lc_readme = """# LeetCode Solutions Directory
+
+This directory contains solved LeetCode problems partitioned into standardized range buckets (500 problems per bucket). This clean folder design ensures high browsing performance on GitHub without triggering directory truncation warnings.
+
+## Problem Range Buckets
+
+| Range | Solved Count | Directory Link |
+|---|---|---|
+"""
+    for r_name in sorted(ranges_summary.keys()):
+        cnt = len(ranges_summary[r_name])
+        lc_readme += f"| **{r_name}** | {cnt} problems | [Explore {r_name}](./{r_name}/) |\n"
+
+    lc_readme += """
+---
+
+## Navigation
+
+- **Search all problems:** [**All_Problems.md**](../All_Problems.md)
+- **Browse by algorithmic pattern:** [Patterns Hub](../patterns/)
+- **Browse by programming language:** [Languages Hub](../languages/)
+- **Machine-readable catalog:** [`metadata/problems.json`](../metadata/problems.json)
+"""
+
+    with open(os.path.join(leetcode_dir, 'README.md'), 'w', encoding='utf-8') as f:
+        f.write(lc_readme)
 
     pattern_file_names = {
         'Hash Map': 'hash-map.md',
@@ -570,6 +638,31 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
         'Trie': 'trie.md',
         'Bit Manipulation': 'bit-manipulation.md'
     }
+
+    for r_name, r_probs in ranges_summary.items():
+        r_readme = f"""# LeetCode Problems: {r_name}
+
+A collection of **{len(r_probs)}** solved LeetCode problems in the range **{r_name}**.
+
+## Problem Index
+
+| # | Problem | Difficulty | Pattern | Language | Solution |
+|---|---|---|---|---|---|
+"""
+        for p in sorted(r_probs, key=lambda x: x['id']):
+            r_readme += f"| {p['id']} | [{p['title']}](./{p['folder']}/) | {p['difficulty']} | [{p['pattern']}](../../patterns/{pattern_file_names.get(p['pattern'], 'array-general.md')}) | {p['lang_str']} | [Explanation](./{p['folder']}/Explanation.md) |\n"
+
+        with open(os.path.join(leetcode_dir, r_name, 'README.md'), 'w', encoding='utf-8') as f:
+            f.write(r_readme)
+
+    # ---------------------------------------------------------
+    # 9. Generate All Hub Pages
+    # ---------------------------------------------------------
+    
+    # 9a. Patterns Hubs
+    patterns_map = {}
+    for p in problems:
+        patterns_map.setdefault(p['pattern'], []).append(p)
 
     for pat, filename in pattern_file_names.items():
         pat_probs = patterns_map.get(pat, [])
@@ -622,7 +715,8 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
         ds_content += "| # | Problem | Difficulty | Algorithm | Time | Space |\n"
         ds_content += "|---|---|---|---|---|---|\n"
         for p in ds_probs:
-            ds_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['difficulty']} | {p['algorithm']} | {p['time']} | {p['space']} |\n"
+            algo_content_val = p['algorithm']
+            ds_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['difficulty']} | {algo_content_val} | {p['time']} | {p['space']} |\n"
         
         with open(os.path.join('data-structures', f"{slug_ds}.md"), 'w', encoding='utf-8') as f:
             f.write(ds_content)
@@ -697,7 +791,7 @@ This repository contains solved LeetCode problems with explanations, complexity 
 | **Medium** | {med_cnt}+ |
 | **Hard** | {hard_cnt}+ |
 
-> **Note on Directory Truncation:** Because this repository contains over 2,360+ solved problems, GitHub's web interface displays a truncation notice ("*Sorry, we had to truncate this directory to 1,000 files. 1,369 entries were omitted from the list.*") when browsing the `leetcode/` folder directly. You can browse the full collection seamlessly through [**All_Problems.md**](All_Problems.md) or via the categorized topic hubs below!
+> **Repository Structure:** To prevent GitHub directory truncation (which limits folder listings to 1,000 files), all 2,360+ problems are cleanly partitioned into 500-problem range buckets under [`leetcode/`](leetcode/) (`0001-0500/`, `0501-1000/`, etc.). You can browse problems directly through their range buckets or search the full directory in [**All_Problems.md**](All_Problems.md).
 
 ---
 
@@ -744,6 +838,17 @@ This repository contains solved LeetCode problems with explanations, complexity 
 - [Java Solutions](languages/java.md)
 - [SQL Solutions](languages/sql.md)
 
+### 4. By Problem Range (Directory Buckets)
+- [0001 - 0500](leetcode/0001-0500/)
+- [0501 - 1000](leetcode/0501-1000/)
+- [1001 - 1500](leetcode/1001-1500/)
+- [1501 - 2000](leetcode/1501-2000/)
+- [2001 - 2500](leetcode/2001-2500/)
+- [2501 - 3000](leetcode/2501-3000/)
+- [3001 - 3500](leetcode/3001-3500/)
+- [3501 - 4000](leetcode/3501-4000/)
+- [4001 - 4500](leetcode/4001-4500/)
+
 ---
 
 ## Complete Problem Directory
@@ -765,7 +870,17 @@ AlbinMath/leetcode
 ├── languages/            # Language-specific hubs
 ├── metadata/             # problems.json dataset
 ├── scripts/              # Automation scripts
-└── leetcode/             # Standardized problem directories
+└── leetcode/             # Range-partitioned problem directories
+    ├── README.md         # Directory index & navigation
+    ├── 0001-0500/        # Problems 1 - 500
+    ├── 0501-1000/        # Problems 501 - 1000
+    ├── 1001-1500/        # Problems 1001 - 1500
+    ├── 1501-2000/        # Problems 1501 - 2000
+    ├── 2001-2500/        # Problems 2001 - 2500
+    ├── 2501-3000/        # Problems 2501 - 3000
+    ├── 3001-3500/        # Problems 3001 - 3500
+    ├── 3501-4000/        # Problems 3501 - 4000
+    └── 4001-4500/        # Problems 4001 - 4500
 ```
 
 ---
@@ -782,10 +897,6 @@ Continuously updated as new LeetCode problems are solved.
     # ---------------------------------------------------------
     # 11. Generate All_Problems.md (Exact Requested User Format)
     # ---------------------------------------------------------
-    easy_cnt = len([p for p in problems if p['difficulty'] == 'Easy'])
-    med_cnt = len([p for p in problems if p['difficulty'] == 'Medium'])
-    hard_cnt = len([p for p in problems if p['difficulty'] == 'Hard'])
-
     all_content = f"""# LeetCode Solutions — Complete Problem Directory
 
 A continuously updated collection of **LeetCode solutions, DSA problems, algorithms, data structures, coding interview questions, and programming solutions**.
@@ -806,6 +917,18 @@ Each problem includes its **problem number, title, difficulty, algorithmic patte
 - [Easy Problems](difficulty/easy.md)
 - [Medium Problems](difficulty/medium.md)
 - [Hard Problems](difficulty/hard.md)
+
+### Browse by Range
+
+- [0001 - 0500](leetcode/0001-0500/)
+- [0501 - 1000](leetcode/0501-1000/)
+- [1001 - 1500](leetcode/1001-1500/)
+- [1501 - 2000](leetcode/1501-2000/)
+- [2001 - 2500](leetcode/2001-2500/)
+- [2501 - 3000](leetcode/2501-3000/)
+- [3001 - 3500](leetcode/3001-3500/)
+- [3501 - 4000](leetcode/3501-4000/)
+- [4001 - 4500](leetcode/4001-4500/)
 
 ### Browse by Algorithm
 

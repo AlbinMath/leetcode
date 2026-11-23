@@ -1,0 +1,72 @@
+# LeetCode 310: Minimum Height Trees
+
+**LeetCode Problem #310 — Minimum Height Trees**
+Solve LeetCode Minimum Height Trees using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Minimum Height Trees |
+| LeetCode | #310 |
+| Difficulty | Medium |
+| Language | JavaScript |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem
+A tree is an undirected graph in which any two vertices are connected by  exactly  one path. In other words, any connected graph without simple cycles is a tree.
+
+## Key Insight
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
+
+## Approach
+We iterate through the input using **Depth-First Search (DFS) / Breadth-First Search (BFS)**. By maintaining state efficiently in a **Tree / Graph / Grid**, we eliminate redundant operations and process each element in optimal time.
+
+## Algorithm
+1. Initialize state variables / data structure (**Sorted Array**).
+2. Process elements sequentially using **Modified Binary Search**.
+3. Validate boundary conditions and return optimal result.
+
+## Example
+Consider the standard input for **Minimum Height Trees**. Applying **Modified Binary Search** yields the target result step by step.
+
+## Complexity
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+## Pattern
+**Binary Search**
+
+## Topics
+- Binary Search
+- Divide and Conquer
+- Search Space
+
+## Language
+JavaScript
+
+## Source Code
+- [solution.js](./solution.js)
+
+## Why This Works
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
+
+## Interview Notes
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
+
+## Related Problems
+- [3203. Find Minimum Diameter After Merging Two Trees](../../3001-3500/3439-find-minimum-diameter-after-merging-two-trees/)
+- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/minimum-height-trees/)
