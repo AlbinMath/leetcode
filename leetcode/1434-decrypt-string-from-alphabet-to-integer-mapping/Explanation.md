@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [2390. Removing Stars From a String](../2470-removing-stars-from-a-string/)
-- [7. Reverse Integer](../0007-reverse-integer/)
+- [606. Construct String from Binary Tree](../0606-construct-string-from-binary-tree/)
+- [988. Smallest String Starting From Leaf](../1030-smallest-string-starting-from-leaf/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [973. K Closest Points to Origin](../1014-k-closest-points-to-origin/)
+- [1110. Delete Nodes And Return Forest](../1207-delete-nodes-and-return-forest/)
 - [2703. Return Length of Arguments Passed](../2820-return-length-of-arguments-passed/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [874. Walking Robot Simulation](../0906-walking-robot-simulation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/robot-return-to-origin/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [481. Magical String](../0481-magical-string/)
+- [3539. Find Sum of Array Product of Magical Sequences](../3851-find-sum-of-array-product-of-magical-sequences/)
 - [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/nth-magical-number/)

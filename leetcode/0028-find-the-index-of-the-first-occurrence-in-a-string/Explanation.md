@@ -64,7 +64,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2108. Find First Palindromic String in the Array](../2231-find-first-palindromic-string-in-the-array/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [3303. Find the Occurrence of First Almost Equal Substring](../3580-find-the-occurrence-of-first-almost-equal-substring/)
 - [387. First Unique Character in a String](../0387-first-unique-character-in-a-string/)
 
 ## LeetCode

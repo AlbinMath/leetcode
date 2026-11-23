@@ -64,9 +64,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
 - [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 - [114. Flatten Binary Tree to Linked List](../0114-flatten-binary-tree-to-linked-list/)
-- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)

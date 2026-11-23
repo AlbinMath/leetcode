@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [695. Max Area of Island](../0695-max-area-of-island/)
-- [976. Largest Perimeter Triangle](../1018-largest-perimeter-triangle/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [827. Making A Large Island](../0854-making-a-large-island/)
+- [1568. Minimum Number of Days to Disconnect Island](../1691-minimum-number-of-days-to-disconnect-island/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/island-perimeter/)

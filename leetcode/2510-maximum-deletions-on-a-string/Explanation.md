@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
 - [1422. Maximum Score After Splitting a String](../1537-maximum-score-after-splitting-a-string/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [1653. Minimum Deletions to Make String Balanced](../1756-minimum-deletions-to-make-string-balanced/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-deletions-on-a-string/)

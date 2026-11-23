@@ -82,8 +82,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3524. Find X Value of Array I](../3831-find-x-value-of-array-i/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
-- [3008. Find Beautiful Indices in the Given Array II](../3303-find-beautiful-indices-in-the-given-array-ii/)
+- [2562. Find the Array Concatenation Value](../2698-find-the-array-concatenation-value/)
+- [3287. Find the Maximum Sequence Value of Array](../3575-find-the-maximum-sequence-value-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-x-value-of-array-ii/)

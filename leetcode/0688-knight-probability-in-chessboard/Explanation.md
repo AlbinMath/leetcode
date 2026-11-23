@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1227. Airplane Seat Assignment Probability](../1362-airplane-seat-assignment-probability/)
+- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 - [1514. Path with Maximum Probability](../1325-path-with-maximum-probability/)
-- [1812. Determine Color of a Chessboard Square](../1920-determine-color-of-a-chessboard-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/knight-probability-in-chessboard/)

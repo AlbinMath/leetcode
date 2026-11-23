@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [54. Spiral Matrix](../0054-spiral-matrix/)
-- [240. Search a 2D Matrix II](../0240-search-a-2d-matrix-ii/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [885. Spiral Matrix III](../0921-spiral-matrix-iii/)
+- [2326. Spiral Matrix IV](../2411-spiral-matrix-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/spiral-matrix-ii/)

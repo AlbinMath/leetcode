@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
-- [705. Design HashSet](../0816-design-hashset/)
-- [706. Design HashMap](../0817-design-hashmap/)
+- [355. Design Twitter](../0355-design-twitter/)
+- [622. Design Circular Queue](../0860-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-browser-history/)

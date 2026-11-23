@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2. Add Two Numbers](../0002-add-two-numbers/)
+- [445. Add Two Numbers II](../0445-add-two-numbers-ii/)
 - [1. Two Sum](../0001-two-sum/)
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-two-promises/)

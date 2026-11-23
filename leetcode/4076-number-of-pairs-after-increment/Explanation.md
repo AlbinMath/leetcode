@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3806. Maximum Bitwise AND After Increment Operations](../4154-maximum-bitwise-and-after-increment-operations/)
 - [1128. Number of Equivalent Domino Pairs](../1227-number-of-equivalent-domino-pairs/)
 - [1512. Number of Good Pairs](../1635-number-of-good-pairs/)
-- [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-pairs-after-increment/)

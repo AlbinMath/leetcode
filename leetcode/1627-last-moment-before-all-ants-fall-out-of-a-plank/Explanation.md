@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2124. Check if All A's Appears Before All B's](../2243-check-if-all-as-appears-before-all-bs/)
 - [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [58. Length of Last Word](../0058-length-of-last-word/)
+- [432. All O`one Data Structure](../0432-all-oone-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)

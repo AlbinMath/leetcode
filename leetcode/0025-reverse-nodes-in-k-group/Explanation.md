@@ -1,7 +1,7 @@
 # LeetCode 25: Reverse Nodes in k-Group
 
 **LeetCode Problem #25 — Reverse Nodes in k-Group**
-Solve LeetCode Reverse Nodes in k-Group using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Reverse Nodes in k-Group using JavaScript, Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Reverse Nodes in k-Group using Python and Two Pointers. This solu
 | Problem | Reverse Nodes in k-Group |
 | LeetCode | #25 |
 | Difficulty | Hard |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,9 +46,10 @@ Consider the standard input for **Reverse Nodes in k-Group**. Applying **Two Poi
 - Sorting
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -64,9 +65,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [7. Reverse Integer](../0007-reverse-integer/)
+- [863. All Nodes Distance K in Binary Tree](../0893-all-nodes-distance-k-in-binary-tree/)
+- [2074. Reverse Nodes in Even Length Groups](../2196-reverse-nodes-in-even-length-groups/)
 - [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
-- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/)

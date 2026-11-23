@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2507. Smallest Value After Replacing With Sum of Prime Factors](../2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
-- [3828. Final Element After Subarray Deletions](../4122-final-element-after-subarray-deletions/)
-- [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
+- [3264. Final Array State After K Multiplication Operations I](../3555-final-array-state-after-k-multiplication-operations-i/)
+- [3266. Final Array State After K Multiplication Operations II](../3556-final-array-state-after-k-multiplication-operations-ii/)
+- [3346. Maximum Frequency of an Element After Performing Operations I](../3622-maximum-frequency-of-an-element-after-performing-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)

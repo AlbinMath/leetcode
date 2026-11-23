@@ -1,7 +1,7 @@
 # LeetCode 11: Container With Most Water
 
 **LeetCode Problem #11 — Container With Most Water**
-Solve LeetCode Container With Most Water using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Container With Most Water using JavaScript, Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Container With Most Water using JavaScript and Two Pointers. This
 | Problem | Container With Most Water |
 | LeetCode | #11 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -56,10 +56,11 @@ Consider the standard input for **Container With Most Water**. Applying **Two Po
 - Sorting
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -74,9 +75,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [42. Trapping Rain Water](../0042-trapping-rain-water/)
-- [365. Water and Jug Problem](../0365-water-and-jug-problem/)
-- [407. Trapping Rain Water II](../0407-trapping-rain-water-ii/)
+- [508. Most Frequent Subtree Sum](../0508-most-frequent-subtree-sum/)
+- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
+- [819. Most Common Word](../0837-most-common-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/container-with-most-water/)

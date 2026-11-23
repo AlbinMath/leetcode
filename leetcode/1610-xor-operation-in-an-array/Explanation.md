@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [421. Maximum XOR of Two Numbers in an Array](../0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1707. Maximum XOR With an Element From Array](../1826-maximum-xor-with-an-element-from-array/)
+- [2433. Find The Original Array of Prefix Xor](../2519-find-the-original-array-of-prefix-xor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/xor-operation-in-an-array/)

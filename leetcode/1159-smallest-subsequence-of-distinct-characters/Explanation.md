@@ -75,8 +75,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1876. Substrings of Size Three with Distinct Characters](../1987-substrings-of-size-three-with-distinct-characters/)
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [115. Distinct Subsequences](../0115-distinct-subsequences/)
+- [3398. Smallest Substring With Identical Characters I](../3690-smallest-substring-with-identical-characters-i/)
+- [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../4086-lexicographically-smallest-string-after-deleting-duplicate-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)

@@ -65,8 +65,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [137. Single Number II](../0137-single-number-ii/)
+- [260. Single Number III](../0260-single-number-iii/)
 - [619. Biggest Single Number](../0619-biggest-single-number/)
-- [9. Palindrome Number](../0009-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/single-number/)

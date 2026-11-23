@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1903. Largest Odd Number in String](../2032-largest-odd-number-in-string/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [3403. Find the Lexicographically Largest String From the Box I](../3683-find-the-lexicographically-largest-string-from-the-box-i/)
+- [4036. Lexicographically Largest String After Pair Transformations](../4366-lexicographically-largest-string-after-pair-transformations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/second-largest-digit-in-a-string/)

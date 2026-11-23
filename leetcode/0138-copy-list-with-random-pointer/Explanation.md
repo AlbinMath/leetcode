@@ -65,9 +65,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [382. Linked List Random Node](../0382-linked-list-random-node/)
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
 - [61. Rotate List](../0061-rotate-list/)
-- [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/)

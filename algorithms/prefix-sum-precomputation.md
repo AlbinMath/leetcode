@@ -9,6 +9,7 @@ A curated selection of LeetCode problems solved using the **Prefix Sum Precomput
 | 13 | [Roman to Integer](../leetcode/0013-roman-to-integer/) | Easy | Prefix Sum | O(n) | O(n) |
 | 14 | [Longest Common Prefix](../leetcode/0014-longest-common-prefix/) | Easy | Prefix Sum | O(n) | O(n) |
 | 744 | [Find Smallest Letter Greater Than Target](../leetcode/0745-find-smallest-letter-greater-than-target/) | Easy | Prefix Sum | O(n) | O(n) |
+| 745 | [Prefix and Suffix Search](../leetcode/0746-prefix-and-suffix-search/) | Hard | Prefix Sum | O(n) | O(n) |
 | 1018 | [Binary Prefix Divisible By 5](../leetcode/1071-binary-prefix-divisible-by-5/) | Easy | Prefix Sum | O(n) | O(n) |
 | 1291 | [Sequential Digits](../leetcode/1212-sequential-digits/) | Medium | Prefix Sum | O(n) | O(n) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1482-how-many-numbers-are-smaller-than-the-current-number/) | Easy | Prefix Sum | O(n) | O(n) |
@@ -22,6 +23,7 @@ A curated selection of LeetCode problems solved using the **Prefix Sum Precomput
 | 2000 | [Reverse Prefix of Word](../leetcode/2128-reverse-prefix-of-word/) | Easy | Prefix Sum | O(n) | O(n) |
 | 2416 | [Sum of Prefix Scores of Strings](../leetcode/2494-sum-of-prefix-scores-of-strings/) | Hard | Prefix Sum | O(n) | O(n) |
 | 2424 | [Longest Uploaded Prefix](../leetcode/2512-longest-uploaded-prefix/) | Medium | Prefix Sum | O(n) | O(n) |
+| 2433 | [Find The Original Array of Prefix Xor](../leetcode/2519-find-the-original-array-of-prefix-xor/) | Medium | Prefix Sum | O(n) | O(n) |
 | 2574 | [Left and Right Sum Differences](../leetcode/2714-left-and-right-sum-differences/) | Easy | Prefix Sum | O(n) | O(n) |
 | 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/) | Medium | Prefix Sum | O(n) | O(n) |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | Prefix Sum | O(n) | O(n) |

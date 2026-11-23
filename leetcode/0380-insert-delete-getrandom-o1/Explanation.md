@@ -1,7 +1,7 @@
 # LeetCode 380: Insert Delete GetRandom O(1)
 
 **LeetCode Problem #380 — Insert Delete GetRandom O(1)**
-Solve LeetCode Insert Delete GetRandom O(1) using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Insert Delete GetRandom O(1) using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Insert Delete GetRandom O(1) using JavaScript and Array / General
 | Problem | Insert Delete GetRandom O(1) |
 | LeetCode | #380 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Insert Delete GetRandom O(1)**. Applying **In-
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [381. Insert Delete Getrandom O1   Duplicates Allowed](../0381-insert-delete-getrandom-o1---duplicates-allowed/)
+- [381. Insert Delete GetRandom O(1) - Duplicates allowed](../0381-insert-delete-getrandom-o1---duplicates-allowed/)
 - [35. Search Insert Position](../0035-search-insert-position/)
 - [57. Insert Interval](../0057-insert-interval/)
 

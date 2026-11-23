@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [232. Implement Queue using Stacks](../0232-implement-queue-using-stacks/)
+- [310. Minimum Height Trees](../0310-minimum-height-trees/)
 - [1051. Height Checker](../1137-height-checker/)
-- [1670. Design Front Middle Back Queue](../1767-design-front-middle-back-queue/)
+- [1840. Maximum Building Height](../1968-maximum-building-height/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queue-reconstruction-by-height/)

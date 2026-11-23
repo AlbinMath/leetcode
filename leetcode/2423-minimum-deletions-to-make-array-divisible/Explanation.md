@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
-- [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
+- [2216. Minimum Deletions to Make Array Beautiful](../1355-minimum-deletions-to-make-array-beautiful/)
+- [1647. Minimum Deletions to Make Character Frequencies Unique](../1770-minimum-deletions-to-make-character-frequencies-unique/)
+- [1653. Minimum Deletions to Make String Balanced](../1756-minimum-deletions-to-make-string-balanced/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/)

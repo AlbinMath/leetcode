@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
-- [133. Clone Graph](../0133-clone-graph/)
+- [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](../2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph/)
+- [2876. Count Visited Nodes in a Directed Graph](../3140-count-visited-nodes-in-a-directed-graph/)
+- [2368. Reachable Nodes With Restrictions](../2445-reachable-nodes-with-restrictions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)

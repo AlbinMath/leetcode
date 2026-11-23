@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1928. Minimum Cost to Reach Destination in Time](../2040-minimum-cost-to-reach-destination-in-time/)
-- [671. Second Minimum Node In a Binary Tree](../0671-second-minimum-node-in-a-binary-tree/)
-- [1266. Minimum Time Visiting All Points](../1395-minimum-time-visiting-all-points/)
+- [3604. Minimum Time to Reach Destination in Directed Graph](../3916-minimum-time-to-reach-destination-in-directed-graph/)
+- [3341. Find Minimum Time to Reach Last Room I](../3627-find-minimum-time-to-reach-last-room-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)

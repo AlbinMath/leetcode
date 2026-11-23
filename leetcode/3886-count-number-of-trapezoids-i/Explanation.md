@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3120. Count the Number of Special Characters I](../3408-count-the-number-of-special-characters-i/)
 - [3625. Count Number of Trapezoids II](../3897-count-number-of-trapezoids-ii/)
+- [1248. Count Number of Nice Subarrays](../1370-count-number-of-nice-subarrays/)
 - [1395. Count Number of Teams](../1511-count-number-of-teams/)
 
 ## LeetCode

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3069. Distribute Elements Into Two Arrays I](../3347-distribute-elements-into-two-arrays-i/)
-- [350. Intersection of Two Arrays II](../0350-intersection-of-two-arrays-ii/)
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
+- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../2162-partition-array-into-two-arrays-to-minimize-sum-difference/)
+- [3566. Partition Array into Two Equal Product Subsets](../3843-partition-array-into-two-equal-product-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/)

@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [335. Self Crossing](../0335-self-crossing/)
 - [64. Minimum Path Sum](../0064-minimum-path-sum/)
-- [71. Simplify Path](../0071-simplify-path/)
-- [112. Path Sum](../0112-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-crossing/)

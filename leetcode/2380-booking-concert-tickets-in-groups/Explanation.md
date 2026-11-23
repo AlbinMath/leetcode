@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [830. Positions of Large Groups](../0857-positions-of-large-groups/)
-- [2073. Time Needed to Buy Tickets](../2195-time-needed-to-buy-tickets/)
-- [3245. Alternating Groups III](../3527-alternating-groups-iii/)
+- [839. Similar String Groups](../0869-similar-string-groups/)
+- [893. Groups of Special-Equivalent Strings](../0929-groups-of-special-equivalent-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/booking-concert-tickets-in-groups/)

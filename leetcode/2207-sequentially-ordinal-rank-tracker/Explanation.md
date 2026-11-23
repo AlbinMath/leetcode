@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2671. Frequency Tracker](../2778-frequency-tracker/)
+- [3709. Design Exam Scores Tracker](../4059-design-exam-scores-tracker/)
 - [178. Rank Scores](../0178-rank-scores/)
-- [1331. Rank Transform of an Array](../1256-rank-transform-of-an-array/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sequentially-ordinal-rank-tracker/)

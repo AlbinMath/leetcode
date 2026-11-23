@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1309. Decrypt String from Alphabet to Integer Mapping](../1434-decrypt-string-from-alphabet-to-integer-mapping/)
 - [58. Length of Last Word](../0058-length-of-last-word/)
 - [79. Word Search](../0079-word-search/)
-- [126. Word Ladder II](../0126-word-ladder-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/weighted-word-mapping/)

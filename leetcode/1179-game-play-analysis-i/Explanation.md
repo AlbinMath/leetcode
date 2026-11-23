@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [550. Game Play Analysis IV](../1182-game-play-analysis-iv/)
-- [1068. Product Sales Analysis I](../1153-product-sales-analysis-i/)
-- [1158. Market Analysis I](../1268-market-analysis-i/)
+- [45. Jump Game II](../0045-jump-game-ii/)
+- [55. Jump Game](../0055-jump-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/game-play-analysis-i/)

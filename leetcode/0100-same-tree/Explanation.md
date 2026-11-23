@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
-- [99. Recover Binary Search Tree](../0099-recover-binary-search-tree/)
+- [1519. Number of Nodes in the Sub-Tree With the Same Label](../1643-number-of-nodes-in-the-sub-tree-with-the-same-label/)
+- [805. Split Array With Same Average](../0823-split-array-with-same-average/)
+- [947. Most Stones Removed with Same Row or Column](../0984-most-stones-removed-with-same-row-or-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/same-tree/)

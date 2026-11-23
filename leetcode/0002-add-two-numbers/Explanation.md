@@ -1,7 +1,7 @@
 # LeetCode 2: Add Two Numbers
 
 **LeetCode Problem #2 — Add Two Numbers**
-Solve LeetCode Add Two Numbers using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Add Two Numbers using JavaScript, Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Add Two Numbers using Python and Two Pointers. This solution find
 | Problem | Add Two Numbers |
 | LeetCode | #2 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -54,9 +54,10 @@ Consider the standard input for **Add Two Numbers**. Applying **Two Pointer Conv
 - Sorting
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -72,9 +73,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [445. Add Two Numbers II](../0445-add-two-numbers-ii/)
+- [421. Maximum XOR of Two Numbers in an Array](../0421-maximum-xor-of-two-numbers-in-an-array/)
 - [2723. Add Two Promises](../2859-add-two-promises/)
-- [1. Two Sum](../0001-two-sum/)
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-two-numbers/)

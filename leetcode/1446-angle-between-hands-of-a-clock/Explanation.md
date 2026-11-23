@@ -68,8 +68,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
+- [1026. Maximum Difference Between Node and Ancestor](../1092-maximum-difference-between-node-and-ancestor/)
 - [1190. Reverse Substrings Between Each Pair of Parentheses](../1298-reverse-substrings-between-each-pair-of-parentheses/)
-- [1360. Number of Days Between Two Dates](../1274-number-of-days-between-two-dates/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/angle-between-hands-of-a-clock/)

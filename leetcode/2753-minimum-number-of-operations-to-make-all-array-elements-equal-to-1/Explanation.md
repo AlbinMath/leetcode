@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2997. Minimum Number of Operations to Make Array XOR Equal to K](../3249-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
+- [3191. Minimum Operations to Make Binary Array Elements Equal to One I](../3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i/)
 - [1887. Reduction Operations to Make the Array Elements Equal](../2016-reduction-operations-to-make-the-array-elements-equal/)
-- [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
-- [1318. Minimum Flips to Make a OR b Equal to c](../1441-minimum-flips-to-make-a-or-b-equal-to-c/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)

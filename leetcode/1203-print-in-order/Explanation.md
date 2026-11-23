@@ -71,9 +71,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [102. Binary Tree Level Order Traversal](../0102-binary-tree-level-order-traversal/)
-- [103. Binary Tree Zigzag Level Order Traversal](../0103-binary-tree-zigzag-level-order-traversal/)
-- [183. Customers Who Never Order](../0183-customers-who-never-order/)
+- [655. Print Binary Tree](../0655-print-binary-tree/)
+- [1115. Print FooBar Alternately](../1187-print-foobar-alternately/)
+- [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-in-order/)

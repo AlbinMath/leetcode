@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2096. Step-By-Step Directions From a Binary Tree Node to Another](../2217-step-by-step-directions-from-a-binary-tree-node-to-another/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
+- [2458. Height of Binary Tree After Subtree Removal Queries](../2545-height-of-binary-tree-after-subtree-removal-queries/)
+- [3319. K-th Largest Perfect Subtree Size in Binary Tree](../3509-k-th-largest-perfect-subtree-size-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subtree-of-another-tree/)

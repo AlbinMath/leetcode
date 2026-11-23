@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2492. Minimum Score of a Path Between Two Cities](../2582-minimum-score-of-a-path-between-two-cities/)
+- [2767. Partition String Into Minimum Beautiful Substrings](../2883-partition-string-into-minimum-beautiful-substrings/)
 - [3864. Minimum Cost to Partition a Binary String](../4192-minimum-cost-to-partition-a-binary-string/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [2322. Minimum Score After Removals on a Tree](../2400-minimum-score-after-removals-on-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-partition-score/)

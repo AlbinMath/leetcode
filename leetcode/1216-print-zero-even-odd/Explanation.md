@@ -72,8 +72,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [328. Odd Even Linked List](../0328-odd-even-linked-list/)
-- [3220. Odd and Even Transactions](../3530-odd-and-even-transactions/)
-- [3658. GCD of Odd and Even Sums](../3995-gcd-of-odd-and-even-sums/)
+- [975. Odd Even Jump](../1017-odd-even-jump/)
+- [1609. Even Odd Tree](../1731-even-odd-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-zero-even-odd/)

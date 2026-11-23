@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2857. Count Pairs of Points With Distance k](../2953-count-pairs-of-points-with-distance-k/)
 - [658. Find K Closest Elements](../0658-find-k-closest-elements/)
-- [16. 3Sum Closest](../0016-3sum-closest/)
-- [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
+- [3171. Find Subarray With Bitwise OR Closest to K](../3436-find-subarray-with-bitwise-or-closest-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/)

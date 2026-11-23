@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1587. Bank Account Summary II](../1734-bank-account-summary-ii/)
+- [2043. Simple Bank System](../2169-simple-bank-system/)
 - [1873. Calculate Special Bonus](../2024-calculate-special-bonus/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)

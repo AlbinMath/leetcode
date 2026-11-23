@@ -1,7 +1,7 @@
 # LeetCode 118: Pascal's Triangle
 
 **LeetCode Problem #118 — Pascal's Triangle**
-Solve LeetCode Pascal's Triangle using PHP, Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Pascal's Triangle using JavaScript, PHP, Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Pascal's Triangle using PHP, Python and Math & Logic. This soluti
 | Problem | Pascal's Triangle |
 | LeetCode | #118 |
 | Difficulty | Easy |
-| Language | PHP, Python |
+| Language | JavaScript, PHP, Python |
 | Algorithm | Mathematical Simulation & Modular Arithmetic |
 | Data Structure | Primitive Types |
 | Pattern | Math & Logic |
@@ -17,7 +17,7 @@ Solve LeetCode Pascal's Triangle using PHP, Python and Math & Logic. This soluti
 | Space Complexity | O(1) |
 
 ## Problem
-Given an integer  numRows , return the first numRows of  Pascal&#39;s triangle .
+You are given an integer  numRows .
 
 ## Key Insight
 Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
@@ -45,9 +45,10 @@ Consider the standard input for **Pascal's Triangle**. Applying **Mathematical S
 - Simulation
 
 ## Language
-PHP, Python
+JavaScript, PHP, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 - [solution.py](./solution.py)
 

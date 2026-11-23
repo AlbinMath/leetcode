@@ -1,7 +1,7 @@
 # LeetCode 21: Merge Two Sorted Lists
 
 **LeetCode Problem #21 — Merge Two Sorted Lists**
-Solve LeetCode Merge Two Sorted Lists using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Merge Two Sorted Lists using JavaScript, Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Merge Two Sorted Lists using Python and Two Pointers. This soluti
 | Problem | Merge Two Sorted Lists |
 | LeetCode | #21 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,9 +46,10 @@ Consider the standard input for **Merge Two Sorted Lists**. Applying **Two Point
 - Sorting
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -65,8 +66,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
+- [3801. Minimum Cost to Merge Sorted Lists](../4144-minimum-cost-to-merge-sorted-lists/)
 - [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
-- [88. Merge Sorted Array](../0088-merge-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1395. Count Number of Teams](../1511-count-number-of-teams/)
-- [1684. Count the Number of Consistent Strings](../1786-count-the-number-of-consistent-strings/)
-- [2250. Count Number of Rectangles Containing Each Point](../2333-count-number-of-rectangles-containing-each-point/)
+- [3405. Count the Number of Arrays with K Matching Adjacent Elements](../3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
+- [996. Number of Squareful Arrays](../1038-number-of-squareful-arrays/)
+- [1248. Count Number of Nice Subarrays](../1370-count-number-of-nice-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-ideal-arrays/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
-- [1960. Maximum Product of the Length of Two Palindromic Substrings](../1336-maximum-product-of-the-length-of-two-palindromic-substrings/)
-- [3536. Maximum Product of Two Digits](../3859-maximum-product-of-two-digits/)
+- [1026. Maximum Difference Between Node and Ancestor](../1092-maximum-difference-between-node-and-ancestor/)
+- [3445. Maximum Difference Between Even and Odd Frequency II](../3761-maximum-difference-between-even-and-odd-frequency-ii/)
+- [3880. Minimum Absolute Difference Between Two Values](../4255-minimum-absolute-difference-between-two-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)

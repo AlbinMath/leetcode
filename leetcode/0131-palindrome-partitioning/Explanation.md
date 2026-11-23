@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [9. Palindrome Number](../0009-palindrome-number/)
-- [125. Valid Palindrome](../0125-valid-palindrome/)
-- [214. Shortest Palindrome](../0214-shortest-palindrome/)
+- [132. Palindrome Partitioning II](../0132-palindrome-partitioning-ii/)
+- [1278. Palindrome Partitioning III](../1403-palindrome-partitioning-iii/)
+- [1745. Palindrome Partitioning IV](../1871-palindrome-partitioning-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-partitioning/)

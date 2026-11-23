@@ -8,10 +8,24 @@ import urllib.request
 # ---------------------------------------------------------
 def fetch_leetcode_metadata():
     lc_slug_map = {}
+    cache_path = os.path.join('metadata', 'leetcode_api_cache.json')
+    
+    # 1. Read session credentials from environment if available (local or CI)
+    csrf = os.environ.get('LEETCODE_CSRF_TOKEN') or os.environ.get('LEETCODE_CSRF') or ''
+    session = os.environ.get('LEETCODE_SESSION') or ''
+    
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Referer': 'https://leetcode.com'
+    }
+    if csrf and session:
+        headers['Cookie'] = f"csrftoken={csrf}; LEETCODE_SESSION={session};"
+        headers['x-csrftoken'] = csrf
+
     url = 'https://leetcode.com/api/problems/all/'
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
-        with urllib.request.urlopen(req) as resp:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode('utf-8'))
             for pair in data.get('stat_status_pairs', []):
                 stat = pair['stat']
@@ -27,8 +41,40 @@ def fetch_leetcode_metadata():
                     'difficulty': diff_str
                 }
                 lc_slug_map[slug] = info
+                norm_slug = re.sub(r'-+', '-', slug)
+                if norm_slug != slug:
+                    lc_slug_map[norm_slug] = info
+
+            if lc_slug_map and os.path.exists('metadata'):
+                try:
+                    with open(cache_path, 'w', encoding='utf-8') as f:
+                        json.dump(lc_slug_map, f, indent=2)
+                except Exception:
+                    pass
+            print(f"Successfully fetched {len(lc_slug_map)} problems from LeetCode API")
     except Exception as e:
-        print(f"Warning: Could not fetch online LeetCode data: {e}")
+        print(f"Notice: Online LeetCode API fetch ({e}). Checking local cache...")
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, 'r', encoding='utf-8') as f:
+                    lc_slug_map = json.load(f)
+                print(f"Loaded {len(lc_slug_map)} problems from {cache_path}")
+            except Exception as ce:
+                print(f"Warning: Could not read cache {cache_path}: {ce}")
+        elif os.path.exists(os.path.join('metadata', 'problems.json')):
+            try:
+                with open(os.path.join('metadata', 'problems.json'), 'r', encoding='utf-8') as f:
+                    probs = json.load(f)
+                for p in probs:
+                    lc_slug_map[p['slug']] = {
+                        'id': p['id'],
+                        'title': p['title'],
+                        'slug': p['slug'],
+                        'difficulty': p['difficulty']
+                    }
+                print(f"Loaded {len(lc_slug_map)} problems from metadata/problems.json")
+            except Exception as pe:
+                print(f"Warning: Could not read problems.json: {pe}")
     return lc_slug_map
 
 # ---------------------------------------------------------
@@ -267,9 +313,10 @@ def process_problem(folder_name, lc_slug_map):
         return None
     folder_num, raw_slug = int(m.group(1)), m.group(2)
     clean_slug = raw_slug.strip('-')
+    norm_slug = re.sub(r'-+', '-', clean_slug)
 
     # Match strictly by slug from official LeetCode metadata map to guarantee 100% accuracy
-    lc_info = lc_slug_map.get(clean_slug) or lc_slug_map.get(raw_slug)
+    lc_info = lc_slug_map.get(clean_slug) or lc_slug_map.get(norm_slug) or lc_slug_map.get(raw_slug)
     if lc_info:
         num = lc_info['id']
         title = lc_info['title']
@@ -277,9 +324,9 @@ def process_problem(folder_name, lc_slug_map):
         slug = lc_info['slug']
     else:
         num = folder_num
-        title = ' '.join(w.capitalize() for w in clean_slug.split('-'))
+        title = ' '.join(w.capitalize() for w in norm_slug.split('-'))
         difficulty = 'Medium'
-        slug = clean_slug
+        slug = norm_slug
 
     path = os.path.join('leetcode', folder_name)
 
@@ -364,27 +411,35 @@ def main():
     # Sort problems by official frontend Question ID
     problems.sort(key=lambda x: x['id'])
 
-    # Fill related problems and write standardized Explanation.md for all problems
+    # Fast related problem computation using inverted index
+    stopwords = {'a', 'an', 'the', 'of', 'in', 'to', 'with', 'and', 'or', 'is', 'at', 'on', 'by', 'for', 'ii', 'iii', 'iv', 'i'}
     for p in problems:
-        slug_words = set(p['slug'].split('-')) - {'a', 'an', 'the', 'of', 'in', 'to', 'with', 'and', 'or', 'is', 'at', 'on', 'by', 'for'}
-        keyword_matches = []
-        same_pat_matches = []
+        p['_words'] = set(re.sub(r'-+', '-', p['slug']).split('-')) - stopwords
 
-        for op in problems:
-            if op['id'] == p['id']:
-                continue
-            op_words = set(op['slug'].split('-')) - {'a', 'an', 'the', 'of', 'in', 'to', 'with', 'and', 'or', 'is', 'at', 'on', 'by', 'for'}
-            common_words = slug_words.intersection(op_words)
-            if len(common_words) >= 1:
-                keyword_matches.append((len(common_words), op))
-            elif op['pattern'] == p['pattern']:
-                same_pat_matches.append(op)
+    word_index = {}
+    pattern_map = {}
+    id_to_prob = {p['id']: p for p in problems}
 
-        keyword_matches.sort(key=lambda x: x[0], reverse=True)
-        top_related = [m[1] for m in keyword_matches[:3]]
+    for p in problems:
+        pattern_map.setdefault(p['pattern'], []).append(p)
+        for w in p['_words']:
+            word_index.setdefault(w, []).append(p)
+
+    # Fill related problems and write standardized Explanation.md for all problems
+    written_count = 0
+    for p in problems:
+        matched_scores = {}
+        for w in p['_words']:
+            for op in word_index.get(w, []):
+                if op['id'] != p['id']:
+                    matched_scores[op['id']] = matched_scores.get(op['id'], 0) + 1
+
+        sorted_matches = sorted(matched_scores.items(), key=lambda x: x[1], reverse=True)
+        top_related = [id_to_prob[mid] for mid, _ in sorted_matches[:3]]
+
         if len(top_related) < 3:
-            for op in same_pat_matches:
-                if op not in top_related:
+            for op in pattern_map.get(p['pattern'], []):
+                if op['id'] != p['id'] and op not in top_related:
                     top_related.append(op)
                     if len(top_related) == 3:
                         break
@@ -460,13 +515,25 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/{p['slug']}/)
 """
-        with open(p['expl_path'], 'w', encoding='utf-8') as f:
-            f.write(standard_expl)
+        should_write = True
+        if os.path.exists(p['expl_path']):
+            try:
+                with open(p['expl_path'], 'r', encoding='utf-8') as f:
+                    if f.read() == standard_expl:
+                        should_write = False
+            except Exception:
+                pass
+        if should_write:
+            with open(p['expl_path'], 'w', encoding='utf-8') as f:
+                f.write(standard_expl)
+            written_count += 1
+
+    print(f"Updated/generated {written_count} Explanation.md files")
 
     # Save metadata/problems.json
     clean_problems_json = []
     for p in problems:
-        cp = {k: v for k, v in p.items() if k not in ['expl_path', 'key_insight', 'approach', 'algorithm_steps', 'example_walkthrough', 'source_links', 'why_this_works', 'common_mistakes', 'interview_notes', 'related_md']}
+        cp = {k: v for k, v in p.items() if k not in ['_words', 'expl_path', 'key_insight', 'approach', 'algorithm_steps', 'example_walkthrough', 'source_links', 'why_this_works', 'common_mistakes', 'interview_notes', 'related_md']}
         clean_problems_json.append(cp)
 
     with open('metadata/problems.json', 'w', encoding='utf-8') as f:
@@ -602,6 +669,10 @@ Solve LeetCode {p['title']} using {p['lang_str']} and {p['pattern']}. This solut
     # ---------------------------------------------------------
     recent_probs = sorted(problems, key=lambda x: x['id'], reverse=True)[:15]
 
+    easy_cnt = len([p for p in problems if p['difficulty'] == 'Easy'])
+    med_cnt = len([p for p in problems if p['difficulty'] == 'Medium'])
+    hard_cnt = len([p for p in problems if p['difficulty'] == 'Hard'])
+
     readme_content = f"""# LeetCode Solutions & DSA Practice
 
 A continuously updated collection of LeetCode solutions, algorithm explanations, data structures, and coding interview patterns.
@@ -614,6 +685,19 @@ This repository contains solved LeetCode problems with explanations, complexity 
 - **Complexity Analysis:** Explicit Time and Space complexity ($O(N)$, $O(\\log N)$, $O(1)$) for every solution.
 - **Pattern & Topic Indexing:** Grouped by Binary Search, Sliding Window, Two Pointers, Hash Maps, Stacks, Trees, Graphs, Dynamic Programming, and SQL.
 - **Machine-Readable Metadata:** Structured JSON catalog available in [`metadata/problems.json`](metadata/problems.json).
+
+---
+
+## Statistics
+
+| Category | Count |
+|---|---|
+| **Total Solved** | {len(problems)}+ |
+| **Easy** | {easy_cnt}+ |
+| **Medium** | {med_cnt}+ |
+| **Hard** | {hard_cnt}+ |
+
+> **Note on Directory Truncation:** Because this repository contains over 2,360+ solved problems, GitHub's web interface displays a truncation notice ("*Sorry, we had to truncate this directory to 1,000 files. 1,369 entries were omitted from the list.*") when browsing the `leetcode/` folder directly. You can browse the full collection seamlessly through [**All_Problems.md**](All_Problems.md) or via the categorized topic hubs below!
 
 ---
 

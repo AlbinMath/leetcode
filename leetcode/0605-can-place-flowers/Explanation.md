@@ -65,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [464. Can I Win](../0464-can-i-win/)
 - [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
-- [1502. Can Make Arithmetic Progression From Sequence](../1626-can-make-arithmetic-progression-from-sequence/)
+- [1177. Can Make Palindrome from Substring](../1281-can-make-palindrome-from-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/can-place-flowers/)

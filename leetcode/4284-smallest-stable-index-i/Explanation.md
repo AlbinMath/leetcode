@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3904. Smallest Stable Index II](../4285-smallest-stable-index-ii/)
-- [908. Smallest Range I](../0944-smallest-range-i/)
-- [3345. Smallest Divisible Digit Product I](../3626-smallest-divisible-digit-product-i/)
+- [3550. Smallest Index With Digit Sum Equal to Index](../3869-smallest-index-with-digit-sum-equal-to-index/)
+- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-stable-index-i/)

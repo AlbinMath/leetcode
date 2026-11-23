@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [123. Best Time to Buy and Sell Stock III](../0123-best-time-to-buy-and-sell-stock-iii/)
-- [216. Combination Sum III](../0216-combination-sum-iii/)
-- [220. Contains Duplicate III](../0220-contains-duplicate-iii/)
+- [3206. Alternating Groups I](../3463-alternating-groups-i/)
+- [3208. Alternating Groups II](../3483-alternating-groups-ii/)
+- [830. Positions of Large Groups](../0857-positions-of-large-groups/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/alternating-groups-iii/)

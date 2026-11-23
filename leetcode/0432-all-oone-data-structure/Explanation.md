@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
 - [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
-- [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
+- [438. Find All Anagrams in a String](../0438-find-all-anagrams-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/all-oone-data-structure/)

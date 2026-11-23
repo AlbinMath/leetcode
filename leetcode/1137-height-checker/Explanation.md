@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [310. Minimum Height Trees](../0310-minimum-height-trees/)
 - [406. Queue Reconstruction by Height](../0406-queue-reconstruction-by-height/)
-- [420. Strong Password Checker](../0420-strong-password-checker/)
 - [1840. Maximum Building Height](../1968-maximum-building-height/)
 
 ## LeetCode

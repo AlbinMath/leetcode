@@ -66,9 +66,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
 - [81. Search in Rotated Sorted Array II](../0081-search-in-rotated-sorted-array-ii/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)

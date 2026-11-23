@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1846. Maximum Element After Decreasing and Rearranging](../1956-maximum-element-after-decreasing-and-rearranging/)
-- [1945. Sum of Digits of String After Convert](../2076-sum-of-digits-of-string-after-convert/)
-- [2430. Maximum Deletions on a String](../2510-maximum-deletions-on-a-string/)
+- [1702. Maximum Binary String After Change](../1804-maximum-binary-string-after-change/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [1255. Maximum Score Words Formed by Letters](../1381-maximum-score-words-formed-by-letters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)

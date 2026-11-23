@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [908. Smallest Range I](../0944-smallest-range-i/)
-- [2932. Maximum Strong Pair XOR I](../3193-maximum-strong-pair-xor-i/)
-- [3513. Number of Unique XOR Triplets I](../3824-number-of-unique-xor-triplets-i/)
+- [3655. XOR After Range Multiplication Queries II](../3975-xor-after-range-multiplication-queries-ii/)
+- [985. Sum of Even Numbers After Queries](../1027-sum-of-even-numbers-after-queries/)
+- [2317. Maximum XOR After Operations ](../2402-maximum-xor-after-operations-/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/)

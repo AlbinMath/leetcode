@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [7. Reverse Integer](../0007-reverse-integer/)
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
-- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
+- [1513. Number of Substrings With Only 1s](../1636-number-of-substrings-with-only-1s/)
+- [316. Remove Duplicate Letters](../0316-remove-duplicate-letters/)
+- [848. Shifting Letters](../0878-shifting-letters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-only-letters/)

@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [191. Number of 1 Bits](../0191-number-of-1-bits/)
-- [1002. Find Common Characters](../1044-find-common-characters/)
+- [995. Minimum Number of K Consecutive Bit Flips](../1037-minimum-number-of-k-consecutive-bit-flips/)
+- [1545. Find Kth Bit in Nth Binary String](../1667-find-kth-bit-in-nth-binary-string/)
+- [1611. Minimum One Bit Operations to Make Integers Zero](../1732-minimum-one-bit-operations-to-make-integers-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/1-bit-and-2-bit-characters/)

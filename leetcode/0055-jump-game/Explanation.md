@@ -1,7 +1,7 @@
 # LeetCode 55: Jump Game
 
 **LeetCode Problem #55 — Jump Game**
-Solve LeetCode Jump Game using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Jump Game using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Jump Game using Python and Array / General. This solution finds t
 | Problem | Jump Game |
 | LeetCode | #55 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Jump Game**. Applying **In-Place Array Travers
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

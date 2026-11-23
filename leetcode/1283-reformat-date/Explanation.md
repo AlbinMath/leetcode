@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1164. Product Price at a Given Date](../1278-product-price-at-a-given-date/)
 - [1179. Reformat Department Table](../1301-reformat-department-table/)
 - [1417. Reformat The String](../1532-reformat-the-string/)
+- [1694. Reformat Phone Number](../1812-reformat-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reformat-date/)

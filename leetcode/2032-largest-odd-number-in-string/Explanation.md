@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [434. Number of Segments in a String](../0434-number-of-segments-in-a-string/)
-- [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
-- [747. Largest Number At Least Twice of Others](../0748-largest-number-at-least-twice-of-others/)
+- [1374. Generate a String With Characters That Have Odd Counts](../1490-generate-a-string-with-characters-that-have-odd-counts/)
+- [1524. Number of Sub-arrays With Odd Sum](../1631-number-of-sub-arrays-with-odd-sum/)
+- [2595. Number of Even and Odd Bits](../2659-number-of-even-and-odd-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-odd-number-in-string/)

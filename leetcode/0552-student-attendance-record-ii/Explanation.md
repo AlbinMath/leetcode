@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [551. Student Attendance Record I](../0551-student-attendance-record-i/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
+- [1894. Find the Student that Will Replace the Chalk](../2006-find-the-student-that-will-replace-the-chalk/)
+- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/student-attendance-record-ii/)

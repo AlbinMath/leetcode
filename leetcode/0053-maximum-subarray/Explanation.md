@@ -1,7 +1,7 @@
 # LeetCode 53: Maximum Subarray
 
 **LeetCode Problem #53 — Maximum Subarray**
-Solve LeetCode Maximum Subarray using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Maximum Subarray using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Maximum Subarray using Python and Tree & Graph. This solution fin
 | Problem | Maximum Subarray |
 | LeetCode | #53 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,9 +47,10 @@ Consider the standard input for **Maximum Subarray**. Applying **Depth-First Sea
 - BFS
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

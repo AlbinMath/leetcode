@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../4135-concatenate-non-zero-digits-and-multiply-by-sum-i/)
+- [3756. Concatenate Non-Zero Digits and Multiply by Sum II](../4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/)
 - [205. Isomorphic Strings](../0205-isomorphic-strings/)
-- [415. Add Strings](../0415-add-strings/)
-- [859. Buddy Strings](../0889-buddy-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/multiply-strings/)

@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [890. Find and Replace Pattern](../0926-find-and-replace-pattern/)
 - [3421. Find Students Who Improved](../3767-find-students-who-improved/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [290. Word Pattern](../0290-word-pattern/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-students-with-study-spiral-pattern/)

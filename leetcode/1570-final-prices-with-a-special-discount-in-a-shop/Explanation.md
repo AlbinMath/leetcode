@@ -66,9 +66,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [1608. Special Array With X Elements Greater Than or Equal X](../1730-special-array-with-x-elements-greater-than-or-equal-x/)
-- [1873. Calculate Special Bonus](../2024-calculate-special-bonus/)
-- [1974. Minimum Time to Type Word Using Special Typewriter](../2088-minimum-time-to-type-word-using-special-typewriter/)
+- [1896. Minimum Cost to Change the Final Value of Expression](../2008-minimum-cost-to-change-the-final-value-of-expression/)
+- [2011. Final Value of Variable After Performing Operations](../2137-final-value-of-variable-after-performing-operations/)
+- [3264. Final Array State After K Multiplication Operations I](../3555-final-array-state-after-k-multiplication-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)

@@ -1,7 +1,7 @@
 # LeetCode 22: Generate Parentheses
 
 **LeetCode Problem #22 — Generate Parentheses**
-Solve LeetCode Generate Parentheses using C++ and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Generate Parentheses using C++, JavaScript, Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Generate Parentheses using C++ and Stack & Queue. This solution f
 | Problem | Generate Parentheses |
 | LeetCode | #22 |
 | Difficulty | Medium |
-| Language | C++ |
+| Language | C++, JavaScript, Python |
 | Algorithm | Stack Push / Pop Parsing |
 | Data Structure | Stack |
 | Pattern | Stack & Queue |
@@ -45,10 +45,12 @@ Consider the standard input for **Generate Parentheses**. Applying **Stack Push 
 - String Parsing
 
 ## Language
-C++
+C++, JavaScript, Python
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+- [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,9 +65,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [20. Valid Parentheses](../0020-valid-parentheses/)
-- [32. Longest Valid Parentheses](../0032-longest-valid-parentheses/)
-- [301. Remove Invalid Parentheses](../0301-remove-invalid-parentheses/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [478. Generate Random Point in a Circle](../0915-generate-random-point-in-a-circle/)
+- [1374. Generate a String With Characters That Have Odd Counts](../1490-generate-a-string-with-characters-that-have-odd-counts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-parentheses/)

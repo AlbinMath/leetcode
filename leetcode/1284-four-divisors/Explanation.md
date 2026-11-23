@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [342. Power of Four](../0342-power-of-four/)
 - [1362. Closest Divisors](../1276-closest-divisors/)
-- [1952. Three Divisors](../2083-three-divisors/)
+- [1808. Maximize Number of Nice Divisors](../1936-maximize-number-of-nice-divisors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/four-divisors/)

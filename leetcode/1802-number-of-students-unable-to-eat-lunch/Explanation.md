@@ -64,9 +64,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1553. Minimum Number of Days to Eat N Oranges](../1676-minimum-number-of-days-to-eat-n-oranges/)
 - [1450. Number of Students Doing Homework at a Given Time](../1560-number-of-students-doing-homework-at-a-given-time/)
 - [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)

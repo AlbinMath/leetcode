@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
-- [53. Maximum Subarray](../0053-maximum-subarray/)
-- [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
+- [627. Swap Sex of Employees](../0627-swap-sex-of-employees/)
+- [777. Swap Adjacent in LR String](../0793-swap-adjacent-in-lr-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-swap/)

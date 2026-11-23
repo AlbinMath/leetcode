@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [464. Can I Win](../0464-can-i-win/)
-- [496. Next Greater Element I](../0496-next-greater-element-i/)
-- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
+- [1169. Invalid Transactions](../1272-invalid-transactions/)
+- [1581. Customer Who Visited but Did Not Make Any Transactions](../1724-customer-who-visited-but-did-not-make-any-transactions/)
+- [3220. Odd and Even Transactions](../3530-odd-and-even-transactions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/monthly-transactions-i/)

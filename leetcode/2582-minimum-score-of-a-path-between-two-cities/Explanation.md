@@ -1,7 +1,7 @@
 # LeetCode 2492: Minimum Score of a Path Between Two Cities
 
 **LeetCode Problem #2492 — Minimum Score of a Path Between Two Cities**
-Solve LeetCode Minimum Score of a Path Between Two Cities using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Minimum Score of a Path Between Two Cities using Java, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Minimum Score of a Path Between Two Cities using Java and Tree & 
 | Problem | Minimum Score of a Path Between Two Cities |
 | LeetCode | #2492 |
 | Difficulty | Medium |
-| Language | Java |
+| Language | Java, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,10 +47,11 @@ Consider the standard input for **Minimum Score of a Path Between Two Cities**. 
 - BFS
 
 ## Language
-Java
+Java, Python
 
 ## Source Code
 - [solution.java](./solution.java)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -65,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
-- [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
+- [3880. Minimum Absolute Difference Between Two Values](../4255-minimum-absolute-difference-between-two-values/)
+- [2567. Minimum Score by Changing Two Elements](../2706-minimum-score-by-changing-two-elements/)
 - [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
 
 ## LeetCode

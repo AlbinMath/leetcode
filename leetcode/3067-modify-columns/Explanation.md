@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2699. Modify Graph Edge Weights](../2803-modify-graph-edge-weights/)
 - [944. Delete Columns to Make Sorted](../0981-delete-columns-to-make-sorted/)
-- [2885. Rename Columns](../3068-rename-columns/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
+- [955. Delete Columns to Make Sorted II](../0992-delete-columns-to-make-sorted-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/modify-columns/)

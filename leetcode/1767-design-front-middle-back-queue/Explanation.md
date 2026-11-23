@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
-- [232. Implement Queue using Stacks](../0232-implement-queue-using-stacks/)
-- [406. Queue Reconstruction by Height](../0406-queue-reconstruction-by-height/)
+- [622. Design Circular Queue](../0860-design-circular-queue/)
+- [876. Middle of the Linked List](../0908-middle-of-the-linked-list/)
+- [1991. Find the Middle Index in Array](../2102-find-the-middle-index-in-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-front-middle-back-queue/)

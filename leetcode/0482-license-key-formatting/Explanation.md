@@ -65,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [981. Time Based Key-Value Store](../1023-time-based-key-value-store/)
 - [1409. Queries on a Permutation With Key](../1525-queries-on-a-permutation-with-key/)
-- [1629. Slowest Key](../1751-slowest-key/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/license-key-formatting/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [979. Distribute Coins in Binary Tree](../1021-distribute-coins-in-binary-tree/)
 - [1561. Maximum Number of Coins You Can Get](../1683-maximum-number-of-coins-you-can-get/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [2603. Collect Coins in a Tree](../2717-collect-coins-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/arranging-coins/)

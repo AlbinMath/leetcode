@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1128. Number of Equivalent Domino Pairs](../1227-number-of-equivalent-domino-pairs/)
 - [1512. Number of Good Pairs](../1635-number-of-good-pairs/)
-- [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
+- [1530. Number of Good Leaf Nodes Pairs](../1653-number-of-good-leaf-nodes-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-pairs-satisfying-inequality/)

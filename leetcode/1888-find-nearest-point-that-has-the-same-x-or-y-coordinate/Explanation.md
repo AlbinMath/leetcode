@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
-- [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
-- [3524. Find X Value of Array I](../3831-find-x-value-of-array-i/)
+- [1738. Find Kth Largest XOR Coordinate Value](../1860-find-kth-largest-xor-coordinate-value/)
+- [3178. Find the Child Who Has the Ball After K Seconds](../3450-find-the-child-who-has-the-ball-after-k-seconds/)
+- [2998. Minimum Number of Operations to Make X and Y Equal](../3239-minimum-number-of-operations-to-make-x-and-y-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)

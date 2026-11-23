@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1606. Find Servers That Handled Most Number of Requests](../1710-find-servers-that-handled-most-number-of-requests/)
+- [2076. Process Restricted Friend Requests](../2198-process-restricted-friend-requests/)
 - [1784. Check if Binary String Has at Most One Segment of Ones](../1910-check-if-binary-string-has-at-most-one-segment-of-ones/)
-- [11. Container With Most Water](../0011-container-with-most-water/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)

@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](../1562-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
 - [1581. Customer Who Visited but Did Not Make Any Transactions](../1724-customer-who-visited-but-did-not-make-any-transactions/)
 - [2704. To Be Or Not To Be](../2813-to-be-or-not-to-be/)
-- [175. Combine Two Tables](../0175-combine-two-tables/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/not-boring-movies/)

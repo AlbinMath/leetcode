@@ -1,7 +1,7 @@
 # LeetCode 16: 3Sum Closest
 
 **LeetCode Problem #16 — 3Sum Closest**
-Solve LeetCode 3Sum Closest using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
+Solve LeetCode 3Sum Closest using JavaScript, Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode 3Sum Closest using JavaScript and Binary Search. This solution fi
 | Problem | 3Sum Closest |
 | LeetCode | #16 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -59,10 +59,11 @@ Consider the standard input for **3Sum Closest**. Applying **Modified Binary Sea
 - Search Space
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -77,7 +78,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [15. 3Sum](../0015-3sum/)
+- [564. Find the Closest Palindrome](../0564-find-the-closest-palindrome/)
 - [658. Find K Closest Elements](../0658-find-k-closest-elements/)
 - [973. K Closest Points to Origin](../1014-k-closest-points-to-origin/)
 

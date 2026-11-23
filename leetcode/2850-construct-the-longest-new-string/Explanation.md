@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [606. Construct String from Binary Tree](../0606-construct-string-from-binary-tree/)
+- [2375. Construct Smallest Number From DI String](../2456-construct-smallest-number-from-di-string/)
+- [1048. Longest String Chain](../1129-longest-string-chain/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-the-longest-new-string/)

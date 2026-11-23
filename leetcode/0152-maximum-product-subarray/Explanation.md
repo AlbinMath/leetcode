@@ -63,8 +63,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1856. Maximum Subarray Min-Product](../1985-maximum-subarray-min-product/)
 - [53. Maximum Subarray](../0053-maximum-subarray/)
-- [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
 - [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
 
 ## LeetCode

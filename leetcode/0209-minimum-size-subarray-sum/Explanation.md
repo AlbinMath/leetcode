@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
-- [560. Subarray Sum Equals K](../0560-subarray-sum-equals-k/)
-- [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
+- [2875. Minimum Size Subarray in Infinite Array](../3141-minimum-size-subarray-in-infinite-array/)
+- [3364. Minimum Positive Sum Subarray ](../3644-minimum-positive-sum-subarray-/)
+- [3795. Minimum Subarray Length With Distinct Sum At Least K](../4152-minimum-subarray-length-with-distinct-sum-at-least-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-size-subarray-sum/)

@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2353. Design a Food Rating System](../2429-design-a-food-rating-system/)
+- [1912. Design Movie Rental System](../2023-design-movie-rental-system/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
-- [176. Second Highest Salary](../0176-second-highest-salary/)
-- [177. Nth Highest Salary](../0177-nth-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/movie-rating/)

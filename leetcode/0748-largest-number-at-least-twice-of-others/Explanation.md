@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [179. Largest Number](../0179-largest-number/)
 - [586. Customer Placing the Largest Number of Orders](../0586-customer-placing-the-largest-number-of-orders/)
-- [1725. Number Of Rectangles That Can Form The Largest Square](../1843-number-of-rectangles-that-can-form-the-largest-square/)
-- [1903. Largest Odd Number in String](../2032-largest-odd-number-in-string/)
+- [964. Least Operators to Express Number](../1004-least-operators-to-express-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)

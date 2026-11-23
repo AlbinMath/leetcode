@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1448. Count Good Nodes in Binary Tree](../1544-count-good-nodes-in-binary-tree/)
-- [2265. Count Nodes Equal to Average of Subtree](../2347-count-nodes-equal-to-average-of-subtree/)
-- [2685. Count the Number of Complete Components](../2793-count-the-number-of-complete-components/)
+- [3997. Count Dominant Nodes in a Binary Tree](../4358-count-dominant-nodes-in-a-binary-tree/)
+- [919. Complete Binary Tree Inserter](../0955-complete-binary-tree-inserter/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-complete-tree-nodes/)

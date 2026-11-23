@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1178. Number of Valid Words for Each Puzzle](../1282-number-of-valid-words-for-each-puzzle/)
+- [1451. Rearrange Words in a Sentence](../1561-rearrange-words-in-a-sentence/)
 - [65. Valid Number](../0065-valid-number/)
-- [611. Valid Triangle Number](../0611-valid-triangle-number/)
-- [1935. Maximum Number of Words You Can Type](../1264-maximum-number-of-words-you-can-type/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)

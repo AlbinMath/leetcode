@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [862. Shortest Subarray with Sum at Least K](../0892-shortest-subarray-with-sum-at-least-k/)
+- [3795. Minimum Subarray Length With Distinct Sum At Least K](../4152-minimum-subarray-length-with-distinct-sum-at-least-k/)
 - [3962. Maximum Subarray Sum After at Most K Swaps](../4246-maximum-subarray-sum-after-at-most-k-swaps/)
-- [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
-- [363. Max Sum of Rectangle No Larger Than K](../0363-max-sum-of-rectangle-no-larger-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/)

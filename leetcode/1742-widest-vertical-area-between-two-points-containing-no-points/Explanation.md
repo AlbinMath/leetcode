@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1317. Convert Integer to the Sum of Two No-Zero Integers](../1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
 - [1360. Number of Days Between Two Dates](../1274-number-of-days-between-two-dates/)
 - [1385. Find the Distance Value Between Two Arrays](../1486-find-the-distance-value-between-two-arrays/)
+- [1624. Largest Substring Between Two Equal Characters](../1746-largest-substring-between-two-equal-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)

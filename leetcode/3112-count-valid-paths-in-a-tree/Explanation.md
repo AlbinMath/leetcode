@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
+- [2791. Count Paths That Can Form a Palindrome in a Tree](../2905-count-paths-that-can-form-a-palindrome-in-a-tree/)
 - [257. Binary Tree Paths](../0257-binary-tree-paths/)
-- [1448. Count Good Nodes in Binary Tree](../1544-count-good-nodes-in-binary-tree/)
+- [1457. Pseudo-Palindromic Paths in a Binary Tree](../1568-pseudo-palindromic-paths-in-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-valid-paths-in-a-tree/)

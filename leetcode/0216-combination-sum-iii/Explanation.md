@@ -65,7 +65,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [39. Combination Sum](../0039-combination-sum/)
 - [40. Combination Sum II](../0040-combination-sum-ii/)
-- [437. Path Sum III](../0437-path-sum-iii/)
+- [1286. Iterator for Combination](../1211-iterator-for-combination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/combination-sum-iii/)

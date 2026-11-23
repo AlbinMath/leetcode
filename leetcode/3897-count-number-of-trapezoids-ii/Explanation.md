@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3623. Count Number of Trapezoids I](../3886-count-number-of-trapezoids-i/)
-- [137. Single Number II](../0137-single-number-ii/)
-- [375. Guess Number Higher or Lower II](../0375-guess-number-higher-or-lower-ii/)
+- [1248. Count Number of Nice Subarrays](../1370-count-number-of-nice-subarrays/)
+- [1395. Count Number of Teams](../1511-count-number-of-teams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-trapezoids-ii/)

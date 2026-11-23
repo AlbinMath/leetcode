@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [65. Valid Number](../0065-valid-number/)
+- [1404. Number of Steps to Reduce a Number in Binary Representation to One](../1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
+- [2259. Remove Digit From Number to Maximize Result](../2337-remove-digit-from-number-to-maximize-result/)
+- [2605. Form Smallest Number From Two Digit Arrays](../2668-form-smallest-number-from-two-digit-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-digit-one/)

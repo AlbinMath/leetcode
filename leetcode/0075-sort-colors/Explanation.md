@@ -1,7 +1,7 @@
 # LeetCode 75: Sort Colors
 
 **LeetCode Problem #75 — Sort Colors**
-Solve LeetCode Sort Colors using PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Sort Colors using JavaScript, PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Sort Colors using PHP and Array / General. This solution finds th
 | Problem | Sort Colors |
 | LeetCode | #75 |
 | Difficulty | Medium |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Sort Colors**. Applying **In-Place Array Trave
 - Array
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works
@@ -64,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [147. Insertion Sort List](../0147-insertion-sort-list/)
 - [148. Sort List](../0148-sort-list/)
-- [905. Sort Array By Parity](../0941-sort-array-by-parity/)
+- [324. Wiggle Sort II](../0324-wiggle-sort-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-colors/)

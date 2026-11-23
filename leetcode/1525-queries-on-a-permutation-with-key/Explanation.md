@@ -65,7 +65,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [31. Next Permutation](../0031-next-permutation/)
 - [60. Permutation Sequence](../0060-permutation-sequence/)
-- [482. License Key Formatting](../0482-license-key-formatting/)
+- [567. Permutation in String](../0567-permutation-in-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queries-on-a-permutation-with-key/)

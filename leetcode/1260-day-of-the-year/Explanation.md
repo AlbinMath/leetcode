@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1185. Day of the Week](../1289-day-of-the-week/)
 - [1854. Maximum Population Year](../1983-maximum-population-year/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [1185. Day of the Week](../1289-day-of-the-week/)
+- [1970. Last Day Where You Can Still Cross](../2101-last-day-where-you-can-still-cross/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/day-of-the-year/)

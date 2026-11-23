@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [429. N-ary Tree Level Order Traversal](../0764-n-ary-tree-level-order-traversal/)
 - [590. N-ary Tree Postorder Traversal](../0776-n-ary-tree-postorder-traversal/)
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](../0105-construct-binary-tree-from-preorder-and-inorder-traversal/)
-- [144. Binary Tree Preorder Traversal](../0144-binary-tree-preorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)

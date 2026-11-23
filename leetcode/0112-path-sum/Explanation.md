@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [113. Path Sum II](../0113-path-sum-ii/)
 - [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
-- [437. Path Sum III](../0437-path-sum-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-sum/)

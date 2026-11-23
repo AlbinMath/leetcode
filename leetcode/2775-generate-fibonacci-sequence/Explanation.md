@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [842. Split Array into Fibonacci Sequence](../0872-split-array-into-fibonacci-sequence/)
 - [22. Generate Parentheses](../0022-generate-parentheses/)
-- [60. Permutation Sequence](../0060-permutation-sequence/)
-- [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
+- [478. Generate Random Point in a Circle](../0915-generate-random-point-in-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/)

@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3405. Count the Number of Arrays with K Matching Adjacent Elements](../3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
 - [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [38. Count and Say](../0038-count-and-say/)
 - [44. Wildcard Matching](../0044-wildcard-matching/)
 
 ## LeetCode

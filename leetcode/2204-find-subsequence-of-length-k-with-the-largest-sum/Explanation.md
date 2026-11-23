@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [363. Max Sum of Rectangle No Larger Than K](../0363-max-sum-of-rectangle-no-larger-than-k/)
-- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
-- [410. Split Array Largest Sum](../0410-split-array-largest-sum/)
+- [2030. Smallest K-Length Subsequence With Occurrences of a Letter](../2157-smallest-k-length-subsequence-with-occurrences-of-a-letter/)
+- [2813. Maximum Elegance of a K-Length Subsequence](../2894-maximum-elegance-of-a-k-length-subsequence/)
+- [2461. Maximum Sum of Distinct Subarrays With Length K](../2552-maximum-sum-of-distinct-subarrays-with-length-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)

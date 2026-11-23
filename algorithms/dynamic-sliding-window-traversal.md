@@ -22,3 +22,4 @@ A curated selection of LeetCode problems solved using the **Dynamic Sliding Wind
 | 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Medium | Sliding Window | O(n) | O(1) |
 | 2627 | [Debounce](../leetcode/2743-debounce/) | Medium | Sliding Window | O(n) | O(1) |
 | 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | Medium | Sliding Window | O(n) | O(1) |
+| 3679 | [ Minimum Discards to Balance Inventory](../leetcode/3953--minimum-discards-to-balance-inventory/) | Medium | Sliding Window | O(n) | O(1) |

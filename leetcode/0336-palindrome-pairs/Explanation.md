@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [9. Palindrome Number](../0009-palindrome-number/)
-- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
 - [125. Valid Palindrome](../0125-valid-palindrome/)
+- [131. Palindrome Partitioning](../0131-palindrome-partitioning/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-pairs/)

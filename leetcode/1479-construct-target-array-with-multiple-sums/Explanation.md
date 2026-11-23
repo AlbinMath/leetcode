@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1389. Create Target Array in the Given Order](../1505-create-target-array-in-the-given-order/)
-- [2089. Find Target Indices After Sorting Array](../2210-find-target-indices-after-sorting-array/)
+- [3314. Construct the Minimum Bitwise Array I](../3605-construct-the-minimum-bitwise-array-i/)
+- [3315. Construct the Minimum Bitwise Array II](../3611-construct-the-minimum-bitwise-array-ii/)
 - [3875. Construct Uniform Parity Array I](../4256-construct-uniform-parity-array-i/)
 
 ## LeetCode

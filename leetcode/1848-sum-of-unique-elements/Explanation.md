@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2778. Sum of Squares of Special Elements ](../2844-sum-of-squares-of-special-elements-/)
-- [1. Two Sum](../0001-two-sum/)
-- [39. Combination Sum](../0039-combination-sum/)
+- [2841. Maximum Sum of Almost Unique Subarray](../2954-maximum-sum-of-almost-unique-subarray/)
+- [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../3423-maximum-sum-of-subsequence-with-non-adjacent-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-unique-elements/)

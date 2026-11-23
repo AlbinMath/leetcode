@@ -1,7 +1,7 @@
 # LeetCode 74: Search a 2D Matrix
 
 **LeetCode Problem #74 — Search a 2D Matrix**
-Solve LeetCode Search a 2D Matrix using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Search a 2D Matrix using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Search a 2D Matrix using Python and Tree & Graph. This solution f
 | Problem | Search a 2D Matrix |
 | LeetCode | #74 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,9 +47,10 @@ Consider the standard input for **Search a 2D Matrix**. Applying **Depth-First S
 - BFS
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -66,8 +67,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [240. Search a 2D Matrix II](../0240-search-a-2d-matrix-ii/)
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
-- [35. Search Insert Position](../0035-search-insert-position/)
+- [54. Spiral Matrix](../0054-spiral-matrix/)
+- [59. Spiral Matrix II](../0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-a-2d-matrix/)

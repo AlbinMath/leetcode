@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [51. N-Queens](../0051-n-queens/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
+- [50. Pow(x, n)](../0050-powx-n/)
+- [429. N-ary Tree Level Order Traversal](../0764-n-ary-tree-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/n-queens-ii/)

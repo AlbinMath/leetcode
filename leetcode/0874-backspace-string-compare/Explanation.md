@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [87. Scramble String](../0087-scramble-string/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [165. Compare Version Numbers](../0165-compare-version-numbers/)
+- [1170. Compare Strings by Frequency of the Smallest Character](../1273-compare-strings-by-frequency-of-the-smallest-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/backspace-string-compare/)

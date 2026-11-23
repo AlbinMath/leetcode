@@ -1,7 +1,7 @@
 # LeetCode 153: Find Minimum in Rotated Sorted Array
 
 **LeetCode Problem #153 — Find Minimum in Rotated Sorted Array**
-Solve LeetCode Find Minimum in Rotated Sorted Array using C++ and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
+Solve LeetCode Find Minimum in Rotated Sorted Array using C++, JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Find Minimum in Rotated Sorted Array using C++ and Binary Search.
 | Problem | Find Minimum in Rotated Sorted Array |
 | LeetCode | #153 |
 | Difficulty | Medium |
-| Language | C++ |
+| Language | C++, JavaScript |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -55,10 +55,11 @@ Consider the standard input for **Find Minimum in Rotated Sorted Array**. Applyi
 - Search Space
 
 ## Language
-C++
+C++, JavaScript
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+- [solution.js](./solution.js)
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -75,7 +76,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 - [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [81. Search in Rotated Sorted Array II](../0081-search-in-rotated-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)

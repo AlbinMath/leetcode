@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [195. Tenth Line](../0195-tenth-line/)
-- [363. Max Sum of Rectangle No Larger Than K](../0363-max-sum-of-rectangle-no-larger-than-k/)
-- [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
+- [1232. Check If It Is a Straight Line](../1349-check-if-it-is-a-straight-line/)
+- [1621. Number of Sets of K Non-Overlapping Line Segments](../1725-number-of-sets-of-k-non-overlapping-line-segments/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-points-on-a-line/)

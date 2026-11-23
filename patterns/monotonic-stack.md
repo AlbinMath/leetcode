@@ -24,7 +24,11 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 |---|---|---|---|---|---|
 | 464 | [Can I Win](../leetcode/0464-can-i-win/) | Python | O(n) | O(n) | [Explanation](../leetcode/0464-can-i-win/Explanation.md) |
 
+| 503 | [Next Greater Element II](../leetcode/0503-next-greater-element-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0503-next-greater-element-ii/Explanation.md) |
+
 | 739 | [Daily Temperatures](../leetcode/0739-daily-temperatures/) | JavaScript, TypeScript | O(n) | O(n) | [Explanation](../leetcode/0739-daily-temperatures/Explanation.md) |
+
+| 1019 | [Next Greater Node In Linked List](../leetcode/1072-next-greater-node-in-linked-list/) | Python | O(n) | O(n) | [Explanation](../leetcode/1072-next-greater-node-in-linked-list/Explanation.md) |
 
 | 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1159-smallest-subsequence-of-distinct-characters/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1159-smallest-subsequence-of-distinct-characters/Explanation.md) |
 
@@ -38,5 +42,9 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 84 | [Largest Rectangle in Histogram](../leetcode/0084-largest-rectangle-in-histogram/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/0084-largest-rectangle-in-histogram/Explanation.md) |
+| 84 | [Largest Rectangle in Histogram](../leetcode/0084-largest-rectangle-in-histogram/) | JavaScript, TypeScript | O(n) | O(n) | [Explanation](../leetcode/0084-largest-rectangle-in-histogram/Explanation.md) |
+
+| 3250 | [Find the Count of Monotonic Pairs I](../leetcode/3535-find-the-count-of-monotonic-pairs-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3535-find-the-count-of-monotonic-pairs-i/Explanation.md) |
+
+| 3251 | [Find the Count of Monotonic Pairs II](../leetcode/3536-find-the-count-of-monotonic-pairs-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3536-find-the-count-of-monotonic-pairs-ii/Explanation.md) |
 

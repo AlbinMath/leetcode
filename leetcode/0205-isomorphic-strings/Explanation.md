@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [43. Multiply Strings](../0043-multiply-strings/)
 - [415. Add Strings](../0415-add-strings/)
-- [859. Buddy Strings](../0889-buddy-strings/)
+- [583. Delete Operation for Two Strings](../0583-delete-operation-for-two-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/isomorphic-strings/)

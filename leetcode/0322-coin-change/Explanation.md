@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [860. Lemonade Change](../0890-lemonade-change/)
-- [2886. Change Data Type](../3069-change-data-type/)
 - [3222. Find the Winning Player in Coin Game](../3511-find-the-winning-player-in-coin-game/)
+- [860. Lemonade Change](../0890-lemonade-change/)
+- [1702. Maximum Binary String After Change](../1804-maximum-binary-string-after-change/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/coin-change/)

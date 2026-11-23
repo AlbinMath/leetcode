@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1. Two Sum](../0001-two-sum/)
-- [39. Combination Sum](../0039-combination-sum/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [1314. Matrix Block Sum](../1242-matrix-block-sum/)
+- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
+- [2679. Sum in a Matrix](../2728-sum-in-a-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/matrix-diagonal-sum/)

@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3699. Number of ZigZag Arrays I](../3962-number-of-zigzag-arrays-i/)
-- [137. Single Number II](../0137-single-number-ii/)
-- [350. Intersection of Two Arrays II](../0350-intersection-of-two-arrays-ii/)
+- [996. Number of Squareful Arrays](../1038-number-of-squareful-arrays/)
+- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-zigzag-arrays-ii/)

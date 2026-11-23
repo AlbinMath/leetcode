@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [41. First Missing Positive](../0041-first-missing-positive/)
-- [268. Missing Number](../0268-missing-number/)
 - [668. Kth Smallest Number in Multiplication Table](../0668-kth-smallest-number-in-multiplication-table/)
+- [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](../1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
+- [2343. Query Kth Smallest Trimmed Number](../2422-query-kth-smallest-trimmed-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-missing-positive-number/)

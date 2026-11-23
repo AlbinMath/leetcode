@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [2068. Check Whether Two Strings are Almost Equivalent](../2177-check-whether-two-strings-are-almost-equivalent/)
-- [1437. Check If All 1's Are at Least Length K Places Away](../1548-check-if-all-1s-are-at-least-length-k-places-away/)
-- [1461. Check If a String Contains All Binary Codes of Size K](../1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
+- [3461. Check If Digits Are Equal in String After Operations I](../3768-check-if-digits-are-equal-in-string-after-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)

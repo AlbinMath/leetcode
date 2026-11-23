@@ -64,8 +64,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [31. Next Permutation](../0031-next-permutation/)
-- [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
-- [1409. Queries on a Permutation With Key](../1525-queries-on-a-permutation-with-key/)
+- [567. Permutation in String](../0567-permutation-in-string/)
+- [784. Letter Case Permutation](../0800-letter-case-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/permutation-sequence/)

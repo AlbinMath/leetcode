@@ -1,7 +1,7 @@
 # LeetCode 169: Majority Element
 
 **LeetCode Problem #169 — Majority Element**
-Solve LeetCode Majority Element using PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Majority Element using JavaScript, PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Majority Element using PHP and Array / General. This solution fin
 | Problem | Majority Element |
 | LeetCode | #169 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Majority Element**. Applying **In-Place Array 
 - Array
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [229. Majority Element II](../0229-majority-element-ii/)
 - [1157. Online Majority Element In Subarray](../1262-online-majority-element-in-subarray/)
 - [3737. Count Subarrays With Majority Element I](../4074-count-subarrays-with-majority-element-i/)
-- [3739. Count Subarrays With Majority Element II](../4075-count-subarrays-with-majority-element-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/majority-element/)

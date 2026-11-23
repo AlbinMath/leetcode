@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [434. Number of Segments in a String](../0434-number-of-segments-in-a-string/)
-- [1805. Number of Different Integers in a String](../1933-number-of-different-integers-in-a-string/)
-- [1903. Largest Odd Number in String](../2032-largest-odd-number-in-string/)
+- [1525. Number of Good Ways to Split a String](../1632-number-of-good-ways-to-split-a-string/)
+- [1573. Number of Ways to Split a String](../1678-number-of-ways-to-split-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-lines-to-write-string/)

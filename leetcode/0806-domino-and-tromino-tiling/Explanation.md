@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1128. Number of Equivalent Domino Pairs](../1227-number-of-equivalent-domino-pairs/)
+- [1240. Tiling a Rectangle with the Fewest Squares](../1361-tiling-a-rectangle-with-the-fewest-squares/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/domino-and-tromino-tiling/)

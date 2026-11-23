@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1790. Check if One String Swap Can Make Strings Equal](../1915-check-if-one-string-swap-can-make-strings-equal/)
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [1177. Can Make Palindrome from Substring](../1281-can-make-palindrome-from-substring/)
+- [1298. Maximum Candies You Can Get from Boxes](../1424-maximum-candies-you-can-get-from-boxes/)
+- [1423. Maximum Points You Can Obtain from Cards](../1538-maximum-points-you-can-obtain-from-cards/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)

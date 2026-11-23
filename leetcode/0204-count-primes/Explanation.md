@@ -66,9 +66,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3569. Maximize Count of Distinct Primes After Split](../3878-maximize-count-of-distinct-primes-after-split/)
+- [3918. Sum of Primes Between Number and Its Reverse](../4297-sum-of-primes-between-number-and-its-reverse/)
 - [38. Count and Say](../0038-count-and-say/)
-- [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
-- [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-primes/)

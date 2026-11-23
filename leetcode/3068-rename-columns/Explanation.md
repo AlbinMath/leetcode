@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [944. Delete Columns to Make Sorted](../0981-delete-columns-to-make-sorted/)
-- [2884. Modify Columns](../3067-modify-columns/)
-- [6. Zigzag Conversion](../0006-zigzag-conversion/)
+- [955. Delete Columns to Make Sorted II](../0992-delete-columns-to-make-sorted-ii/)
+- [960. Delete Columns to Make Sorted III](../1000-delete-columns-to-make-sorted-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rename-columns/)

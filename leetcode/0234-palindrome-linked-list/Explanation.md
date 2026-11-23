@@ -1,7 +1,7 @@
 # LeetCode 234: Palindrome Linked List
 
 **LeetCode Problem #234 — Palindrome Linked List**
-Solve LeetCode Palindrome Linked List using PHP and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Palindrome Linked List using JavaScript, PHP and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Palindrome Linked List using PHP and Two Pointers. This solution 
 | Problem | Palindrome Linked List |
 | LeetCode | #234 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,9 +46,10 @@ Consider the standard input for **Palindrome Linked List**. Applying **Two Point
 - Sorting
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works

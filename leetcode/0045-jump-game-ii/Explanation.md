@@ -1,7 +1,7 @@
 # LeetCode 45: Jump Game II
 
 **LeetCode Problem #45 — Jump Game II**
-Solve LeetCode Jump Game II using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Jump Game II using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Jump Game II using Python and Array / General. This solution find
 | Problem | Jump Game II |
 | LeetCode | #45 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Jump Game II**. Applying **In-Place Array Trav
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -63,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [55. Jump Game](../0055-jump-game/)
-- [1140. Stone Game II](../1240-stone-game-ii/)
 - [1306. Jump Game III](../1428-jump-game-iii/)
+- [1340. Jump Game V](../1466-jump-game-v/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-ii/)

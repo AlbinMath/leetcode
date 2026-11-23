@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [680. Valid Palindrome II](../0680-valid-palindrome-ii/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [9. Palindrome Number](../0009-palindrome-number/)
-- [20. Valid Parentheses](../0020-valid-parentheses/)
-- [32. Longest Valid Parentheses](../0032-longest-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-palindrome/)

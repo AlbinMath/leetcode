@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
 - [560. Subarray Sum Equals K](../0560-subarray-sum-equals-k/)
-- [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
+- [862. Shortest Subarray with Sum at Least K](../0892-shortest-subarray-with-sum-at-least-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindromic-subarray-sum/)

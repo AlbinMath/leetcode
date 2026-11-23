@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
-- [464. Can I Win](../0464-can-i-win/)
-- [496. Next Greater Element I](../0496-next-greater-element-i/)
+- [627. Swap Sex of Employees](../0627-swap-sex-of-employees/)
+- [1376. Time Needed to Inform All Employees](../1492-time-needed-to-inform-all-employees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/project-employees-i/)

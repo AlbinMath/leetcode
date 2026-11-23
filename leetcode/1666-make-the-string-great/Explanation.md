@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1312. Minimum Insertion Steps to Make a String Palindrome](../1437-minimum-insertion-steps-to-make-a-string-palindrome/)
+- [1653. Minimum Deletions to Make String Balanced](../1756-minimum-deletions-to-make-string-balanced/)
 - [1758. Minimum Changes To Make Alternating Binary String](../1884-minimum-changes-to-make-alternating-binary-string/)
-- [1790. Check if One String Swap Can Make Strings Equal](../1915-check-if-one-string-swap-can-make-strings-equal/)
-- [1957. Delete Characters to Make Fancy String](../1302-delete-characters-to-make-fancy-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-the-string-great/)

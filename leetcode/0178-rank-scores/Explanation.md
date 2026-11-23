@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1331. Rank Transform of an Array](../1256-rank-transform-of-an-array/)
 - [1984. Minimum Difference Between Highest and Lowest of K Scores](../2112-minimum-difference-between-highest-and-lowest-of-k-scores/)
-- [2102. Sequentially Ordinal Rank Tracker](../2207-sequentially-ordinal-rank-tracker/)
+- [2223. Sum of Scores of Built Strings](../2326-sum-of-scores-of-built-strings/)
+- [2416. Sum of Prefix Scores of Strings](../2494-sum-of-prefix-scores-of-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-scores/)

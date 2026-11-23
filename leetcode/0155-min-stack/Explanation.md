@@ -64,8 +64,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [225. Implement Stack using Queues](../0225-implement-stack-using-queues/)
-- [746. Min Cost Climbing Stairs](../0747-min-cost-climbing-stairs/)
-- [1441. Build an Array With Stack Operations](../1552-build-an-array-with-stack-operations/)
+- [895. Maximum Frequency Stack](../0931-maximum-frequency-stack/)
+- [946. Validate Stack Sequences](../0983-validate-stack-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/min-stack/)

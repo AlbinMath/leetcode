@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [530. Minimum Absolute Difference in BST](../0530-minimum-absolute-difference-in-bst/)
 - [1385. Find the Distance Value Between Two Arrays](../1486-find-the-distance-value-between-two-arrays/)
+- [1617. Count Subtrees With Max Distance Between Cities](../1740-count-subtrees-with-max-distance-between-cities/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)

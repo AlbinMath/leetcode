@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2267.  Check if There Is a Valid Parentheses String Path](../2349--check-if-there-is-a-valid-parentheses-string-path/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [2116. Check if a Parentheses String Can Be Valid](../2221-check-if-a-parentheses-string-can-be-valid/)
+- [2645. Minimum Additions to Make Valid String](../2736-minimum-additions-to-make-valid-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-parenthesis-string/)

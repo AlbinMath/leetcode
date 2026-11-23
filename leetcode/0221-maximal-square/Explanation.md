@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [85. Maximal Rectangle](../0085-maximal-rectangle/)
+- [1615. Maximal Network Rank](../1738-maximal-network-rank/)
 - [367. Valid Perfect Square](../0367-valid-perfect-square/)
-- [633. Sum of Square Numbers](../0633-sum-of-square-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximal-square/)

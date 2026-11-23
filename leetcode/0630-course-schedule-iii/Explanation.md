@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [207. Course Schedule](../0207-course-schedule/)
 - [210. Course Schedule II](../0210-course-schedule-ii/)
-- [123. Best Time to Buy and Sell Stock III](../0123-best-time-to-buy-and-sell-stock-iii/)
+- [1462. Course Schedule IV](../1558-course-schedule-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/course-schedule-iii/)

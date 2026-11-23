@@ -1,7 +1,7 @@
 # LeetCode 94: Binary Tree Inorder Traversal
 
 **LeetCode Problem #94 — Binary Tree Inorder Traversal**
-Solve LeetCode Binary Tree Inorder Traversal using PHP and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Binary Tree Inorder Traversal using JavaScript, PHP and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Binary Tree Inorder Traversal using PHP and Binary Search. This s
 | Problem | Binary Tree Inorder Traversal |
 | LeetCode | #94 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,9 +46,10 @@ Consider the standard input for **Binary Tree Inorder Traversal**. Applying **Mo
 - Search Space
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works

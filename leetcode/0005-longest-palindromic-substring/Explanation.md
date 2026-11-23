@@ -1,7 +1,7 @@
 # LeetCode 5: Longest Palindromic Substring
 
 **LeetCode Problem #5 — Longest Palindromic Substring**
-Solve LeetCode Longest Palindromic Substring using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Longest Palindromic Substring using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Longest Palindromic Substring using Python and Array / General. T
 | Problem | Longest Palindromic Substring |
 | LeetCode | #5 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -52,9 +52,10 @@ Consider the standard input for **Longest Palindromic Substring**. Applying **In
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -70,9 +71,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [516. Longest Palindromic Subsequence](../0516-longest-palindromic-subsequence/)
+- [3615. Longest Palindromic Path in Graph](../3930-longest-palindromic-path-in-graph/)
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [1044. Longest Duplicate Substring](../1122-longest-duplicate-substring/)
-- [1763. Longest Nice Substring](../1873-longest-nice-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindromic-substring/)

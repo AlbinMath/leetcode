@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1494. Parallel Courses II](../1587-parallel-courses-ii/)
+- [2050. Parallel Courses III](../2176-parallel-courses-iii/)
 - [636. Exclusive Time of Functions](../0636-exclusive-time-of-functions/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
-- [9. Palindrome Number](../0009-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/execute-asynchronous-functions-in-parallel/)

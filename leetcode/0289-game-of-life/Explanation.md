@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [45. Jump Game II](../0045-jump-game-ii/)
 - [55. Jump Game](../0055-jump-game/)
-- [292. Nim Game](../0292-nim-game/)
+- [174. Dungeon Game](../0174-dungeon-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/game-of-life/)

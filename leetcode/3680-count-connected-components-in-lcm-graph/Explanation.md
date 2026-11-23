@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2685. Count the Number of Complete Components](../2793-count-the-number-of-complete-components/)
-- [38. Count and Say](../0038-count-and-say/)
-- [133. Clone Graph](../0133-clone-graph/)
+- [1761. Minimum Degree of a Connected Trio in a Graph](../1887-minimum-degree-of-a-connected-trio-in-a-graph/)
+- [3608. Minimum Time for K Connected Components](../3908-minimum-time-for-k-connected-components/)
+- [3910. Count Connected Subgraphs with Even Node Sum](../4279-count-connected-subgraphs-with-even-node-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-connected-components-in-lcm-graph/)

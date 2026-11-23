@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1493. Longest Subarray of 1's After Deleting One Element](../1586-longest-subarray-of-1s-after-deleting-one-element/)
-- [1157. Online Majority Element In Subarray](../1262-online-majority-element-in-subarray/)
-- [1846. Maximum Element After Decreasing and Rearranging](../1956-maximum-element-after-decreasing-and-rearranging/)
+- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+- [3830. Longest Alternating Subarray After Removing At Most One Element](../4198-longest-alternating-subarray-after-removing-at-most-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/final-element-after-subarray-deletions/)

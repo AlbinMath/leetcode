@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1390. Four Divisors](../1284-four-divisors/)
 - [231. Power of Two](../0231-power-of-two/)
 - [326. Power of Three](../0326-power-of-three/)
-- [1390. Four Divisors](../1284-four-divisors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-of-four/)

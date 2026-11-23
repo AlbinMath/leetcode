@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1287. Element Appearing More Than 25% In Sorted Array](../1221-element-appearing-more-than-25-in-sorted-array/)
 - [363. Max Sum of Rectangle No Larger Than K](../0363-max-sum-of-rectangle-no-larger-than-k/)
-- [570. Managers with at Least 5 Direct Reports](../0570-managers-with-at-least-5-direct-reports/)
+- [713. Subarray Product Less Than K](../0713-subarray-product-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-earning-more-than-their-managers/)

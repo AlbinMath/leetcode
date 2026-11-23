@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
+- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
 - [54. Spiral Matrix](../0054-spiral-matrix/)
+- [59. Spiral Matrix II](../0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)

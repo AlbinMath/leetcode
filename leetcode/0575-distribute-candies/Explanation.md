@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1103. Distribute Candies to People](../1195-distribute-candies-to-people/)
-- [1431. Kids With the Greatest Number of Candies](../1528-kids-with-the-greatest-number-of-candies/)
-- [2144. Minimum Cost of Buying Candies With Discount](../2248-minimum-cost-of-buying-candies-with-discount/)
+- [2928. Distribute Candies Among Children I](../3199-distribute-candies-among-children-i/)
+- [2929. Distribute Candies Among Children II](../3201-distribute-candies-among-children-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-candies/)

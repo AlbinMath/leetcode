@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2. Add Two Numbers](../0002-add-two-numbers/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
+- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
+- [241. Different Ways to Add Parentheses](../0241-different-ways-to-add-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-binary/)

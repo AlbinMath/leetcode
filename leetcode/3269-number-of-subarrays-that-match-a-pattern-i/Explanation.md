@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3036. Number of Subarrays That Match a Pattern II](../3290-number-of-subarrays-that-match-a-pattern-ii/)
-- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../1621-number-of-subsequences-that-satisfy-the-given-sum-condition/)
-- [1725. Number Of Rectangles That Can Form The Largest Square](../1843-number-of-rectangles-that-can-form-the-largest-square/)
+- [1074. Number of Submatrices That Sum to Target](../1145-number-of-submatrices-that-sum-to-target/)
+- [1248. Count Number of Nice Subarrays](../1370-count-number-of-nice-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i/)

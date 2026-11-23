@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
-- [85. Maximal Rectangle](../0085-maximal-rectangle/)
-- [223. Rectangle Area](../0223-rectangle-area/)
+- [279. Perfect Squares](../0279-perfect-squares/)
+- [367. Valid Perfect Square](../0367-valid-perfect-square/)
+- [507. Perfect Number](../0507-perfect-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/perfect-rectangle/)

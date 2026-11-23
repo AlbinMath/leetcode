@@ -1,7 +1,7 @@
 # LeetCode 70: Climbing Stairs
 
 **LeetCode Problem #70 — Climbing Stairs**
-Solve LeetCode Climbing Stairs using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Climbing Stairs using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Climbing Stairs using Python and Array / General. This solution f
 | Problem | Climbing Stairs |
 | LeetCode | #70 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Climbing Stairs**. Applying **In-Place Array T
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -63,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [746. Min Cost Climbing Stairs](../0747-min-cost-climbing-stairs/)
+- [3693. Climbing Stairs II](../4041-climbing-stairs-ii/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/climbing-stairs/)

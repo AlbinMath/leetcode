@@ -1,7 +1,7 @@
 # LeetCode 42: Trapping Rain Water
 
 **LeetCode Problem #42 — Trapping Rain Water**
-Solve LeetCode Trapping Rain Water using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Trapping Rain Water using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Trapping Rain Water using Python and Array / General. This soluti
 | Problem | Trapping Rain Water |
 | LeetCode | #42 |
 | Difficulty | Hard |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Trapping Rain Water**. Applying **In-Place Arr
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

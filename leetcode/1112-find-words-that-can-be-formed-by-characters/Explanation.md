@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1002. Find Common Characters](../1044-find-common-characters/)
-- [1374. Generate a String With Characters That Have Odd Counts](../1490-generate-a-string-with-characters-that-have-odd-counts/)
-- [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
+- [2201. Count Artifacts That Can Be Extracted](../1312-count-artifacts-that-can-be-extracted/)
+- [3011. Find if Array Can Be Sorted](../3291-find-if-array-can-be-sorted/)
+- [3297. Count Substrings That Can Be Rearranged to Contain a String I](../3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)

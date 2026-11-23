@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 - [151. Reverse Words in a String](../0151-reverse-words-in-a-string/)
 - [344. Reverse String](../0344-reverse-string/)
+- [345. Reverse Vowels of a String](../0345-reverse-vowels-of-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-string-ii/)

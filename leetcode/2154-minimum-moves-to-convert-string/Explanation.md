@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1540. Can Convert String in K Moves](../1647-can-convert-string-in-k-moves/)
+- [2976. Minimum Cost to Convert String I](../3235-minimum-cost-to-convert-string-i/)
 - [2977. Minimum Cost to Convert String II](../3238-minimum-cost-to-convert-string-ii/)
-- [1541. Minimum Insertions to Balance a Parentheses String](../1648-minimum-insertions-to-balance-a-parentheses-string/)
-- [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-moves-to-convert-string/)

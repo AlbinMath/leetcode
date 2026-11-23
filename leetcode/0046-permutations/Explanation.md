@@ -1,7 +1,7 @@
 # LeetCode 46: Permutations
 
 **LeetCode Problem #46 — Permutations**
-Solve LeetCode Permutations using Python and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
+Solve LeetCode Permutations using JavaScript, Python and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Permutations using Python and Backtracking. This solution finds t
 | Problem | Permutations |
 | LeetCode | #46 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Backtracking Recursive Search |
 | Data Structure | Recursion Tree |
 | Pattern | Backtracking |
@@ -45,9 +45,10 @@ Consider the standard input for **Permutations**. Applying **Backtracking Recurs
 - Recursion
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -64,8 +65,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [47. Permutations II](../0047-permutations-ii/)
-- [3577. Count the Number of Computer Unlocking Permutations](../3864-count-the-number-of-computer-unlocking-permutations/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
+- [903. Valid Permutations for DI Sequence](../0939-valid-permutations-for-di-sequence/)
+- [2741. Special Permutations](../2848-special-permutations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/permutations/)

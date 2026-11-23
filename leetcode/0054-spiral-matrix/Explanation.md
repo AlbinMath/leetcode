@@ -1,7 +1,7 @@
 # LeetCode 54: Spiral Matrix
 
 **LeetCode Problem #54 — Spiral Matrix**
-Solve LeetCode Spiral Matrix using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Spiral Matrix using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Spiral Matrix using Python and Tree & Graph. This solution finds 
 | Problem | Spiral Matrix |
 | LeetCode | #54 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,9 +47,10 @@ Consider the standard input for **Spiral Matrix**. Applying **Depth-First Search
 - BFS
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -66,8 +67,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [59. Spiral Matrix II](../0059-spiral-matrix-ii/)
-- [73. Set Matrix Zeroes](../0073-set-matrix-zeroes/)
-- [74. Search a 2D Matrix](../0074-search-a-2d-matrix/)
+- [885. Spiral Matrix III](../0921-spiral-matrix-iii/)
+- [2326. Spiral Matrix IV](../2411-spiral-matrix-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/spiral-matrix/)

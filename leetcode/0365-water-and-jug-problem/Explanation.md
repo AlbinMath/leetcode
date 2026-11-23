@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [11. Container With Most Water](../0011-container-with-most-water/)
 - [42. Trapping Rain Water](../0042-trapping-rain-water/)
-- [218. The Skyline Problem](../0218-the-skyline-problem/)
+- [407. Trapping Rain Water II](../0407-trapping-rain-water-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/water-and-jug-problem/)

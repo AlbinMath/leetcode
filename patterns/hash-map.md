@@ -8,7 +8,7 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 1 | [Two Sum](../leetcode/0001-two-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-two-sum/Explanation.md) |
+| 1 | [Two Sum](../leetcode/0001-two-sum/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0001-two-sum/Explanation.md) |
 
 | 58 | [Length of Last Word](../leetcode/0058-length-of-last-word/) | Python | O(n) | O(n) | [Explanation](../leetcode/0058-length-of-last-word/Explanation.md) |
 
@@ -72,29 +72,55 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3347-distribute-elements-into-two-arrays-i/) | Go | O(n) | O(n) | [Explanation](../leetcode/3347-distribute-elements-into-two-arrays-i/Explanation.md) |
 
+| 3591 | [Check if Any Element Has Prime Frequency](../leetcode/3914-check-if-any-element-has-prime-frequency/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3914-check-if-any-element-has-prime-frequency/Explanation.md) |
+
 | 3838 | [Weighted Word Mapping](../leetcode/4216-weighted-word-mapping/) | Kotlin | O(n) | O(n) | [Explanation](../leetcode/4216-weighted-word-mapping/Explanation.md) |
 
 ### Medium
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 49 | [Group Anagrams](../leetcode/0049-group-anagrams/) | Python | O(n) | O(n) | [Explanation](../leetcode/0049-group-anagrams/Explanation.md) |
+| 49 | [Group Anagrams](../leetcode/0049-group-anagrams/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0049-group-anagrams/Explanation.md) |
 
-| 139 | [Word Break](../leetcode/0139-word-break/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0139-word-break/Explanation.md) |
+| 139 | [Word Break](../leetcode/0139-word-break/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0139-word-break/Explanation.md) |
 
 | 192 | [Word Frequency](../leetcode/0192-word-frequency/) | Shell | O(n) | O(n) | [Explanation](../leetcode/0192-word-frequency/Explanation.md) |
 
 | 211 | [Design Add and Search Words Data Structure](../leetcode/0211-design-add-and-search-words-data-structure/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0211-design-add-and-search-words-data-structure/Explanation.md) |
 
+| 395 | [Longest Substring with At Least K Repeating Characters](../leetcode/0395-longest-substring-with-at-least-k-repeating-characters/) | Python | O(n) | O(n) | [Explanation](../leetcode/0395-longest-substring-with-at-least-k-repeating-characters/Explanation.md) |
+
 | 438 | [Find All Anagrams in a String](../leetcode/0438-find-all-anagrams-in-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0438-find-all-anagrams-in-a-string/Explanation.md) |
+
+| 508 | [Most Frequent Subtree Sum](../leetcode/0508-most-frequent-subtree-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0508-most-frequent-subtree-sum/Explanation.md) |
+
+| 524 | [Longest Word in Dictionary through Deleting](../leetcode/0524-longest-word-in-dictionary-through-deleting/) | Python | O(n) | O(n) | [Explanation](../leetcode/0524-longest-word-in-dictionary-through-deleting/Explanation.md) |
+
+| 648 | [Replace Words](../leetcode/0648-replace-words/) | Python | O(n) | O(n) | [Explanation](../leetcode/0648-replace-words/Explanation.md) |
 
 | 692 | [Top K Frequent Words](../leetcode/0692-top-k-frequent-words/) | Python | O(n) | O(n) | [Explanation](../leetcode/0692-top-k-frequent-words/Explanation.md) |
 
+| 698 | [Partition to K Equal Sum Subsets](../leetcode/0698-partition-to-k-equal-sum-subsets/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0698-partition-to-k-equal-sum-subsets/Explanation.md) |
+
+| 720 | [Longest Word in Dictionary](../leetcode/0720-longest-word-in-dictionary/) | Python | O(n) | O(n) | [Explanation](../leetcode/0720-longest-word-in-dictionary/Explanation.md) |
+
 | 1115 | [Print FooBar Alternately](../leetcode/1187-print-foobar-alternately/) | Java | O(n) | O(n) | [Explanation](../leetcode/1187-print-foobar-alternately/Explanation.md) |
+
+| 1170 | [Compare Strings by Frequency of the Smallest Character](../leetcode/1273-compare-strings-by-frequency-of-the-smallest-character/) | Python | O(n) | O(n) | [Explanation](../leetcode/1273-compare-strings-by-frequency-of-the-smallest-character/Explanation.md) |
+
+| 1311 | [Get Watched Videos by Your Friends](../leetcode/1436-get-watched-videos-by-your-friends/) | Python | O(n) | O(n) | [Explanation](../leetcode/1436-get-watched-videos-by-your-friends/Explanation.md) |
 
 | 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1441-minimum-flips-to-make-a-or-b-equal-to-c/Explanation.md) |
 
-| 1386 | [Cinema Seat Allocation](../leetcode/1487-cinema-seat-allocation/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1487-cinema-seat-allocation/Explanation.md) |
+| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](../leetcode/1469-minimum-number-of-steps-to-make-two-strings-anagram/) | Python | O(n) | O(n) | [Explanation](../leetcode/1469-minimum-number-of-steps-to-make-two-strings-anagram/Explanation.md) |
+
+| 1348 | [Tweet Counts Per Frequency](../leetcode/1470-tweet-counts-per-frequency/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1470-tweet-counts-per-frequency/Explanation.md) |
+
+| 1386 | [Cinema Seat Allocation](../leetcode/1487-cinema-seat-allocation/) | C++, Python | O(n) | O(n) | [Explanation](../leetcode/1487-cinema-seat-allocation/Explanation.md) |
+
+| 1647 | [Minimum Deletions to Make Character Frequencies Unique](../leetcode/1770-minimum-deletions-to-make-character-frequencies-unique/) | Python | O(n) | O(n) | [Explanation](../leetcode/1770-minimum-deletions-to-make-character-frequencies-unique/Explanation.md) |
+
+| 1663 | [Smallest String With A Given Numeric Value](../leetcode/1782-smallest-string-with-a-given-numeric-value/) | Python | O(n) | O(n) | [Explanation](../leetcode/1782-smallest-string-with-a-given-numeric-value/Explanation.md) |
 
 | 1664 | [Ways to Make a Fair Array](../leetcode/1783-ways-to-make-a-fair-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/1783-ways-to-make-a-fair-array/Explanation.md) |
 
@@ -102,9 +128,17 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 1807 | [Evaluate the Bracket Pairs of a String](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1934-evaluate-the-bracket-pairs-of-a-string/Explanation.md) |
 
+| 1838 | [Frequency of the Most Frequent Element](../leetcode/1966-frequency-of-the-most-frequent-element/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1966-frequency-of-the-most-frequent-element/Explanation.md) |
+
+| 2080 | [Range Frequency Queries](../leetcode/1294-range-frequency-queries/) | Python | O(n) | O(n) | [Explanation](../leetcode/1294-range-frequency-queries/Explanation.md) |
+
+| 2353 | [Design a Food Rating System](../leetcode/2429-design-a-food-rating-system/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2429-design-a-food-rating-system/Explanation.md) |
+
 | 2452 | [Words Within Two Edits of Dictionary](../leetcode/2550-words-within-two-edits-of-dictionary/) | Python | O(n) | O(n) | [Explanation](../leetcode/2550-words-within-two-edits-of-dictionary/Explanation.md) |
 
 | 2622 | [Cache With Time Limit](../leetcode/2762-cache-with-time-limit/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2762-cache-with-time-limit/Explanation.md) |
+
+| 2671 | [Frequency Tracker](../leetcode/2778-frequency-tracker/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2778-frequency-tracker/Explanation.md) |
 
 | 2707 | [Extra Characters in a String](../leetcode/2755-extra-characters-in-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/2755-extra-characters-in-a-string/Explanation.md) |
 
@@ -115,6 +149,10 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 2958 | [Length of Longest Subarray With at Most K Frequency](../leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3225-length-of-longest-subarray-with-at-most-k-frequency/Explanation.md) |
 
 | 3044 | [Most Frequent Prime](../leetcode/3314-most-frequent-prime/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3314-most-frequent-prime/Explanation.md) |
+
+| 3346 | [Maximum Frequency of an Element After Performing Operations I](../leetcode/3622-maximum-frequency-of-an-element-after-performing-operations-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/3622-maximum-frequency-of-an-element-after-performing-operations-i/Explanation.md) |
+
+| 3434 | [Maximum Frequency After Subarray Operation](../leetcode/3751-maximum-frequency-after-subarray-operation/) | Python | O(n) | O(n) | [Explanation](../leetcode/3751-maximum-frequency-after-subarray-operation/Explanation.md) |
 
 ### Hard
 
@@ -128,11 +166,15 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 460 | [LFU Cache](../leetcode/0460-lfu-cache/) | Python | O(n) | O(n) | [Explanation](../leetcode/0460-lfu-cache/Explanation.md) |
 
+| 895 | [Maximum Frequency Stack](../leetcode/0931-maximum-frequency-stack/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0931-maximum-frequency-stack/Explanation.md) |
+
 | 1345 | [Jump Game IV](../leetcode/1447-jump-game-iv/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1447-jump-game-iv/Explanation.md) |
 
 | 2227 | [Encrypt and Decrypt Strings](../leetcode/1433-encrypt-and-decrypt-strings/) | Python | O(n) | O(n) | [Explanation](../leetcode/1433-encrypt-and-decrypt-strings/Explanation.md) |
 
 | 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2423-minimum-deletions-to-make-array-divisible/) | Python | O(n) | O(n) | [Explanation](../leetcode/2423-minimum-deletions-to-make-array-divisible/Explanation.md) |
+
+| 2514 | [Count Anagrams](../leetcode/2605-count-anagrams/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2605-count-anagrams/Explanation.md) |
 
 | 2584 | [Split the Array to Make Coprime Products](../leetcode/2647-split-the-array-to-make-coprime-products/) | Python | O(n) | O(n) | [Explanation](../leetcode/2647-split-the-array-to-make-coprime-products/Explanation.md) |
 
@@ -140,11 +182,23 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 
 | 2659 | [Make Array Empty](../leetcode/2765-make-array-empty/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2765-make-array-empty/Explanation.md) |
 
+| 2968 | [Apply Operations to Maximize Frequency Score](../leetcode/3196-apply-operations-to-maximize-frequency-score/) | Python | O(n) | O(n) | [Explanation](../leetcode/3196-apply-operations-to-maximize-frequency-score/Explanation.md) |
+
 | 3093 | [Longest Common Suffix Queries](../leetcode/3376-longest-common-suffix-queries/) | Python | O(n) | O(n) | [Explanation](../leetcode/3376-longest-common-suffix-queries/Explanation.md) |
+
+| 3347 | [Maximum Frequency of an Element After Performing Operations II](../leetcode/3640-maximum-frequency-of-an-element-after-performing-operations-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/3640-maximum-frequency-of-an-element-after-performing-operations-ii/Explanation.md) |
+
+| 3395 | [Subsequences with a Unique Middle Mode I](../leetcode/3700-subsequences-with-a-unique-middle-mode-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3700-subsequences-with-a-unique-middle-mode-i/Explanation.md) |
+
+| 3435 | [Frequencies of Shortest Supersequences](../leetcode/3713-frequencies-of-shortest-supersequences/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3713-frequencies-of-shortest-supersequences/Explanation.md) |
+
+| 3445 | [Maximum Difference Between Even and Odd Frequency II](../leetcode/3761-maximum-difference-between-even-and-odd-frequency-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/3761-maximum-difference-between-even-and-odd-frequency-ii/Explanation.md) |
 
 | 3636 | [Threshold Majority Queries](../leetcode/3955-threshold-majority-queries/) | Python | O(n) | O(n) | [Explanation](../leetcode/3955-threshold-majority-queries/Explanation.md) |
 
 | 3699 | [Number of ZigZag Arrays I](../leetcode/3962-number-of-zigzag-arrays-i/) | PHP | O(n) | O(n) | [Explanation](../leetcode/3962-number-of-zigzag-arrays-i/Explanation.md) |
+
+| 3859 | [Count Subarrays With K Distinct Integers](../leetcode/4002-count-subarrays-with-k-distinct-integers/) | Python | O(n) | O(n) | [Explanation](../leetcode/4002-count-subarrays-with-k-distinct-integers/Explanation.md) |
 
 | 4033 | [Valid K-Unique Subarrays I](../leetcode/3988-valid-k-unique-subarrays-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/3988-valid-k-unique-subarrays-i/Explanation.md) |
 

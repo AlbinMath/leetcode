@@ -1,7 +1,7 @@
 # LeetCode 994: Rotting Oranges
 
 **LeetCode Problem #994 — Rotting Oranges**
-Solve LeetCode Rotting Oranges using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Rotting Oranges using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Rotting Oranges using JavaScript and Array / General. This soluti
 | Problem | Rotting Oranges |
 | LeetCode | #994 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Rotting Oranges**. Applying **In-Place Array T
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1553. Minimum Number of Days to Eat N Oranges](../1676-minimum-number-of-days-to-eat-n-oranges/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 - [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../0027-remove-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotting-oranges/)

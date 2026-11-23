@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
-- [349. Intersection of Two Arrays](../0349-intersection-of-two-arrays/)
-- [350. Intersection of Two Arrays II](../0350-intersection-of-two-arrays-ii/)
+- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [3226. Number of Bit Changes to Make Two Integers Equal](../3508-number-of-bit-changes-to-make-two-integers-equal/)
+- [3377. Digit Operations to Make Two Integers Equal](../3655-digit-operations-to-make-two-integers-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/)

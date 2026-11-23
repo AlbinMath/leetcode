@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [2415. Reverse Odd Levels of Binary Tree](../2493-reverse-odd-levels-of-binary-tree/)
 - [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
 - [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
-- [99. Recover Binary Search Tree](../0099-recover-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-of-levels-in-binary-tree/)

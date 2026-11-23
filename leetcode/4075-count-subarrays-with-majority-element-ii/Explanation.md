@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3737. Count Subarrays With Majority Element I](../4074-count-subarrays-with-majority-element-i/)
-- [2916. Subarrays Distinct Element Sum of Squares II](../3139-subarrays-distinct-element-sum-of-squares-ii/)
-- [4013. Count Subarrays With Even Odd Ratio II](../4324-count-subarrays-with-even-odd-ratio-ii/)
+- [2962. Count Subarrays Where Max Element Appears at Least K Times](../3213-count-subarrays-where-max-element-appears-at-least-k-times/)
+- [169. Majority Element](../0169-majority-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/)

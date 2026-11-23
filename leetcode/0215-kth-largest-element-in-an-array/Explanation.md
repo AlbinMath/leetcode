@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1985. Find the Kth Largest Integer in the Array](../2113-find-the-kth-largest-integer-in-the-array/)
 - [703. Kth Largest Element in a Stream](../0789-kth-largest-element-in-a-stream/)
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [230. Kth Smallest Element in a BST](../0230-kth-smallest-element-in-a-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/)

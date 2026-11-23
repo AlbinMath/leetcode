@@ -64,9 +64,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [76. Minimum Window Substring](../0076-minimum-window-substring/)
+- [3503. Longest Palindrome After Substring Concatenation I](../3793-longest-palindrome-after-substring-concatenation-i/)
+- [1839. Longest Substring Of All Vowels in Order](../1967-longest-substring-of-all-vowels-in-order/)
+- [1910. Remove All Occurrences of a Substring](../2021-remove-all-occurrences-of-a-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)

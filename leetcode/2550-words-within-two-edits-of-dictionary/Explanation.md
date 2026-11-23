@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [884. Uncommon Words from Two Sentences](../0920-uncommon-words-from-two-sentences/)
 - [1880. Check if Word Equals Summation of Two Words](../2010-check-if-word-equals-summation-of-two-words/)
-- [1. Two Sum](../0001-two-sum/)
+- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)

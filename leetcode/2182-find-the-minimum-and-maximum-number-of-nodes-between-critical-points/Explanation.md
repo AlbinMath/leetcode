@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
 - [1610. Maximum Number of Visible Points](../1733-maximum-number-of-visible-points/)
-- [3020. Find the Maximum Number of Elements in Subset](../3299-find-the-maximum-number-of-elements-in-subset/)
+- [2493. Divide Nodes Into the Maximum Number of Groups](../2583-divide-nodes-into-the-maximum-number-of-groups/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)

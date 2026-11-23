@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2027. Minimum Moves to Convert String](../2154-minimum-moves-to-convert-string/)
+- [2976. Minimum Cost to Convert String I](../3235-minimum-cost-to-convert-string-i/)
 - [3864. Minimum Cost to Partition a Binary String](../4192-minimum-cost-to-partition-a-binary-string/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
+- [2027. Minimum Moves to Convert String](../2154-minimum-moves-to-convert-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/)

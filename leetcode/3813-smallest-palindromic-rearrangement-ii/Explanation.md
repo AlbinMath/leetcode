@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3517. Smallest Palindromic Rearrangement I](../3812-smallest-palindromic-rearrangement-i/)
-- [3348. Smallest Divisible Digit Product II](../3635-smallest-divisible-digit-product-ii/)
 - [3734. Lexicographically Smallest Palindromic Permutation Greater Than Target](../4037-lexicographically-smallest-palindromic-permutation-greater-than-target/)
+- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/)

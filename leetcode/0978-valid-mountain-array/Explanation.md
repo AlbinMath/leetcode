@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [845. Longest Mountain in Array](../0875-longest-mountain-in-array/)
 - [852. Peak Index in a Mountain Array](../0882-peak-index-in-a-mountain-array/)
 - [1095. Find in Mountain Array](../1185-find-in-mountain-array/)
-- [20. Valid Parentheses](../0020-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-mountain-array/)

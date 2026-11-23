@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [171. Excel Sheet Column Number](../0171-excel-sheet-column-number/)
+- [947. Most Stones Removed with Same Row or Column](../0984-most-stones-removed-with-same-row-or-column/)
 - [2352. Equal Row and Column Pairs](../2428-equal-row-and-column-pairs/)
-- [2881. Create a New Column](../3066-create-a-new-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/excel-sheet-column-title/)

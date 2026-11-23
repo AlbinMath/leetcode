@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1790. Check if One String Swap Can Make Strings Equal](../1915-check-if-one-string-swap-can-make-strings-equal/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [1525. Number of Good Ways to Split a String](../1632-number-of-good-ways-to-split-a-string/)
+- [1573. Number of Ways to Split a String](../1678-number-of-ways-to-split-a-string/)
+- [1593. Split a String Into the Max Number of Unique Substrings](../1715-split-a-string-into-the-max-number-of-unique-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-a-string-in-balanced-strings/)

@@ -14,6 +14,7 @@ A collection of LeetCode problems implemented in **Java** with detailed complexi
 | 1358 | [Number of Substrings Containing All Three Characters](../leetcode/1460-number-of-substrings-containing-all-three-characters/) | Medium | Tree & Graph | O(n) | O(n) |
 | 1563 | [Stone Game V](../leetcode/1685-stone-game-v/) | Hard | Prefix Sum | O(n) | O(n) |
 | 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1737-maximum-nesting-depth-of-the-parentheses/) | Easy | Stack & Queue | O(n) | O(n) |
+| 1829 | [Maximum XOR for Each Query](../leetcode/1940-maximum-xor-for-each-query/) | Medium | Bit Manipulation | O(n) | O(1) |
 | 1833 | [Maximum Ice Cream Bars](../leetcode/1961-maximum-ice-cream-bars/) | Medium | Binary Search | O(n) | O(1) |
 | 1846 | [Maximum Element After Decreasing and Rearranging](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/) | Medium | Binary Search | O(log n) | O(1) |
 | 1872 | [Stone Game VIII](../leetcode/2002-stone-game-viii/) | Hard | Prefix Sum | O(n) | O(n) |
@@ -23,6 +24,8 @@ A collection of LeetCode problems implemented in **Java** with detailed complexi
 | 2161 | [Partition Array According to Given Pivot](../leetcode/2265-partition-array-according-to-given-pivot/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Medium | Binary Search | O(n) | O(1) |
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Hard | Binary Search | O(n) | O(1) |
+| 2322 | [Minimum Score After Removals on a Tree](../leetcode/2400-minimum-score-after-removals-on-a-tree/) | Hard | Tree & Graph | O(n) | O(n) |
+| 2351 | [First Letter to Appear Twice](../leetcode/2427-first-letter-to-appear-twice/) | Easy | Array / General | O(n) | O(1) |
 | 2492 | [Minimum Score of a Path Between Two Cities](../leetcode/2582-minimum-score-of-a-path-between-two-cities/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2685 | [Count the Number of Complete Components](../leetcode/2793-count-the-number-of-complete-components/) | Medium | Tree & Graph | O(n) | O(n) |
 | 2812 | [Find the Safest Path in a Grid](../leetcode/2914-find-the-safest-path-in-a-grid/) | Medium | Tree & Graph | O(n) | O(n) |

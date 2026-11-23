@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
-- [3345. Smallest Divisible Digit Product I](../3626-smallest-divisible-digit-product-i/)
-- [3517. Smallest Palindromic Rearrangement I](../3812-smallest-palindromic-rearrangement-i/)
+- [201. Bitwise AND of Numbers Range](../0201-bitwise-and-of-numbers-range/)
+- [303. Range Sum Query - Immutable](../0303-range-sum-query---immutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-range-i/)

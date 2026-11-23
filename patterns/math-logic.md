@@ -8,7 +8,7 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 118 | [Pascal's Triangle](../leetcode/0118-pascals-triangle/) | PHP, Python | O(n) | O(1) | [Explanation](../leetcode/0118-pascals-triangle/Explanation.md) |
+| 118 | [Pascal's Triangle](../leetcode/0118-pascals-triangle/) | JavaScript, PHP, Python | O(n) | O(1) | [Explanation](../leetcode/0118-pascals-triangle/Explanation.md) |
 
 | 119 | [Pascal's Triangle II](../leetcode/0119-pascals-triangle-ii/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0119-pascals-triangle-ii/Explanation.md) |
 
@@ -38,9 +38,23 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 1945 | [Sum of Digits of String After Convert](../leetcode/2076-sum-of-digits-of-string-after-convert/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2076-sum-of-digits-of-string-after-convert/Explanation.md) |
 
+| 2180 | [Count Integers With Even Digit Sum](../leetcode/2298-count-integers-with-even-digit-sum/) | Python | O(n) | O(1) | [Explanation](../leetcode/2298-count-integers-with-even-digit-sum/Explanation.md) |
+
+| 2243 | [Calculate Digit Sum of a String](../leetcode/2361-calculate-digit-sum-of-a-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/2361-calculate-digit-sum-of-a-string/Explanation.md) |
+
+| 2259 | [Remove Digit From Number to Maximize Result](../leetcode/2337-remove-digit-from-number-to-maximize-result/) | Python | O(n) | O(1) | [Explanation](../leetcode/2337-remove-digit-from-number-to-maximize-result/Explanation.md) |
+
 | 2553 | [Separate the Digits in an Array](../leetcode/2639-separate-the-digits-in-an-array/) | C++ | O(n) | O(1) | [Explanation](../leetcode/2639-separate-the-digits-in-an-array/Explanation.md) |
 
+| 2605 | [Form Smallest Number From Two Digit Arrays](../leetcode/2668-form-smallest-number-from-two-digit-arrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/2668-form-smallest-number-from-two-digit-arrays/Explanation.md) |
+
+| 3174 | [Clear Digits](../leetcode/3447-clear-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/3447-clear-digits/Explanation.md) |
+
+| 3200 | [Maximum Height of a Triangle](../leetcode/3469-maximum-height-of-a-triangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/3469-maximum-height-of-a-triangle/Explanation.md) |
+
 | 3300 | [Minimum Element After Replacement With Digit Sum](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3606-minimum-element-after-replacement-with-digit-sum/Explanation.md) |
+
+| 3461 | [Check If Digits Are Equal in String After Operations I](../leetcode/3768-check-if-digits-are-equal-in-string-after-operations-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3768-check-if-digits-are-equal-in-string-after-operations-i/Explanation.md) |
 
 | 3483 | [Unique 3-Digit Even Numbers](../leetcode/3799-unique-3-digit-even-numbers/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3799-unique-3-digit-even-numbers/Explanation.md) |
 
@@ -52,7 +66,7 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 48 | [Rotate Image](../leetcode/0048-rotate-image/) | C++ | O(n²) | O(1) | [Explanation](../leetcode/0048-rotate-image/Explanation.md) |
+| 48 | [Rotate Image](../leetcode/0048-rotate-image/) | C++, JavaScript | O(n²) | O(1) | [Explanation](../leetcode/0048-rotate-image/Explanation.md) |
 
 | 120 | [Triangle](../leetcode/0120-triangle/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0120-triangle/Explanation.md) |
 
@@ -62,25 +76,47 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 289 | [Game of Life](../leetcode/0289-game-of-life/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0289-game-of-life/Explanation.md) |
 
+| 357 | [Count Numbers with Unique Digits](../leetcode/0357-count-numbers-with-unique-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0357-count-numbers-with-unique-digits/Explanation.md) |
+
+| 402 | [Remove K Digits](../leetcode/0402-remove-k-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0402-remove-k-digits/Explanation.md) |
+
+| 423 | [Reconstruct Original Digits from English](../leetcode/0423-reconstruct-original-digits-from-english/) | Python | O(n) | O(1) | [Explanation](../leetcode/0423-reconstruct-original-digits-from-english/Explanation.md) |
+
+| 497 | [Random Point in Non-overlapping Rectangles](../leetcode/0914-random-point-in-non-overlapping-rectangles/) | Python | O(n) | O(1) | [Explanation](../leetcode/0914-random-point-in-non-overlapping-rectangles/Explanation.md) |
+
 | 611 | [Valid Triangle Number](../leetcode/0611-valid-triangle-number/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0611-valid-triangle-number/Explanation.md) |
 
 | 939 | [Minimum Area Rectangle](../leetcode/0976-minimum-area-rectangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0976-minimum-area-rectangle/Explanation.md) |
 
+| 949 | [Largest Time for Given Digits](../leetcode/0986-largest-time-for-given-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0986-largest-time-for-given-digits/Explanation.md) |
+
 | 963 | [Minimum Area Rectangle II](../leetcode/1003-minimum-area-rectangle-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/1003-minimum-area-rectangle-ii/Explanation.md) |
+
+| 1041 | [Robot Bounded In Circle](../leetcode/1119-robot-bounded-in-circle/) | Python | O(n) | O(1) | [Explanation](../leetcode/1119-robot-bounded-in-circle/Explanation.md) |
 
 | 1344 | [Angle Between Hands of a Clock](../leetcode/1446-angle-between-hands-of-a-clock/) | Java | O(n) | O(1) | [Explanation](../leetcode/1446-angle-between-hands-of-a-clock/Explanation.md) |
 
 | 1401 | [Circle and Rectangle Overlapping](../leetcode/1501-circle-and-rectangle-overlapping/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1501-circle-and-rectangle-overlapping/Explanation.md) |
 
+| 1476 | [Subrectangle Queries](../leetcode/1572-subrectangle-queries/) | Python | O(n) | O(1) | [Explanation](../leetcode/1572-subrectangle-queries/Explanation.md) |
+
 | 1828 | [Queries on Number of Points Inside a Circle](../leetcode/1939-queries-on-number-of-points-inside-a-circle/) | Python | O(n) | O(1) | [Explanation](../leetcode/1939-queries-on-number-of-points-inside-a-circle/Explanation.md) |
+
+| 2001 | [Number of Pairs of Interchangeable Rectangles](../leetcode/2129-number-of-pairs-of-interchangeable-rectangles/) | Python | O(n) | O(1) | [Explanation](../leetcode/2129-number-of-pairs-of-interchangeable-rectangles/Explanation.md) |
 
 | 2249 | [Count Lattice Points Inside a Circle](../leetcode/2332-count-lattice-points-inside-a-circle/) | Python | O(n) | O(1) | [Explanation](../leetcode/2332-count-lattice-points-inside-a-circle/Explanation.md) |
 
 | 2250 | [Count Number of Rectangles Containing Each Point](../leetcode/2333-count-number-of-rectangles-containing-each-point/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2333-count-number-of-rectangles-containing-each-point/Explanation.md) |
 
+| 2310 | [Sum of Numbers With Units Digit K](../leetcode/1334-sum-of-numbers-with-units-digit-k/) | Python | O(n) | O(1) | [Explanation](../leetcode/1334-sum-of-numbers-with-units-digit-k/Explanation.md) |
+
 | 2637 | [Promise Time Limit](../leetcode/2749-promise-time-limit/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2749-promise-time-limit/Explanation.md) |
 
 | 3047 | [Find the Largest Area of Square Inside Two Rectangles](../leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles/) | Python | O(n) | O(1) | [Explanation](../leetcode/3325-find-the-largest-area-of-square-inside-two-rectangles/Explanation.md) |
+
+| 3128 | [Right Triangles](../leetcode/3388-right-triangles/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3388-right-triangles/Explanation.md) |
+
+| 3377 | [Digit Operations to Make Two Integers Equal](../leetcode/3655-digit-operations-to-make-two-integers-equal/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3655-digit-operations-to-make-two-integers-equal/Explanation.md) |
 
 | 3380 | [Maximum Area Rectangle With Point Constraints I](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3681-maximum-area-rectangle-with-point-constraints-i/Explanation.md) |
 
@@ -91,6 +127,8 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 | 3723 | [Maximize Sum of Squares of Digits](../leetcode/4084-maximize-sum-of-squares-of-digits/) | Python | O(n) | O(1) | [Explanation](../leetcode/4084-maximize-sum-of-squares-of-digits/Explanation.md) |
 
 | 3899 | [Angles of a Triangle](../leetcode/4266-angles-of-a-triangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/4266-angles-of-a-triangle/Explanation.md) |
+
+| 3969 | [Valid Subarrays With Matching Sum Digits I](../leetcode/4318-valid-subarrays-with-matching-sum-digits-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/4318-valid-subarrays-with-matching-sum-digits-i/Explanation.md) |
 
 ### Hard
 
@@ -104,13 +142,25 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 
 | 391 | [Perfect Rectangle](../leetcode/0391-perfect-rectangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0391-perfect-rectangle/Explanation.md) |
 
+| 679 | [24 Game](../leetcode/0679-24-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/0679-24-game/Explanation.md) |
+
 | 850 | [Rectangle Area II](../leetcode/0880-rectangle-area-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0880-rectangle-area-ii/Explanation.md) |
 
+| 902 | [Numbers At Most N Given Digit Set](../leetcode/0938-numbers-at-most-n-given-digit-set/) | Python | O(n) | O(1) | [Explanation](../leetcode/0938-numbers-at-most-n-given-digit-set/Explanation.md) |
+
+| 1125 | [Smallest Sufficient Team](../leetcode/1220-smallest-sufficient-team/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1220-smallest-sufficient-team/Explanation.md) |
+
+| 1240 | [Tiling a Rectangle with the Fewest Squares](../leetcode/1361-tiling-a-rectangle-with-the-fewest-squares/) | Python | O(n) | O(1) | [Explanation](../leetcode/1361-tiling-a-rectangle-with-the-fewest-squares/Explanation.md) |
+
 | 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/Explanation.md) |
+
+| 2019 | [The Score of Students Solving Math Expression](../leetcode/2147-the-score-of-students-solving-math-expression/) | Python | O(n) | O(1) | [Explanation](../leetcode/2147-the-score-of-students-solving-math-expression/Explanation.md) |
 
 | 3235 | [Check if the Rectangle Corner Is Reachable](../leetcode/3478-check-if-the-rectangle-corner-is-reachable/) | Python | O(n) | O(1) | [Explanation](../leetcode/3478-check-if-the-rectangle-corner-is-reachable/Explanation.md) |
 
 | 3348 | [Smallest Divisible Digit Product II](../leetcode/3635-smallest-divisible-digit-product-ii/) | Python, TypeScript | O(n) | O(1) | [Explanation](../leetcode/3635-smallest-divisible-digit-product-ii/Explanation.md) |
 
 | 3382 | [Maximum Area Rectangle With Point Constraints II](../leetcode/3689-maximum-area-rectangle-with-point-constraints-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3689-maximum-area-rectangle-with-point-constraints-ii/Explanation.md) |
+
+| 3463 | [Check If Digits Are Equal in String After Operations II](../leetcode/3774-check-if-digits-are-equal-in-string-after-operations-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3774-check-if-digits-are-equal-in-string-after-operations-ii/Explanation.md) |
 

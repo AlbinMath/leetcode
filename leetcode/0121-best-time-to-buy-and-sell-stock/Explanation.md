@@ -1,7 +1,7 @@
 # LeetCode 121: Best Time to Buy and Sell Stock
 
 **LeetCode Problem #121 — Best Time to Buy and Sell Stock**
-Solve LeetCode Best Time to Buy and Sell Stock using PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Best Time to Buy and Sell Stock using JavaScript, PHP, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Best Time to Buy and Sell Stock using PHP and Array / General. Th
 | Problem | Best Time to Buy and Sell Stock |
 | LeetCode | #121 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,12 @@ Consider the standard input for **Best Time to Buy and Sell Stock**. Applying **
 - Array
 
 ## Language
-PHP
+JavaScript, PHP, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3903. Smallest Stable Index I](../4284-smallest-stable-index-i/)
-- [275. H-Index II](../0275-h-index-ii/)
-- [3348. Smallest Divisible Digit Product II](../3635-smallest-divisible-digit-product-ii/)
+- [3550. Smallest Index With Digit Sum Equal to Index](../3869-smallest-index-with-digit-sum-equal-to-index/)
+- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-stable-index-ii/)

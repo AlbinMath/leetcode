@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
+- [1909. Remove One Element to Make the Array Strictly Increasing](../2020-remove-one-element-to-make-the-array-strictly-increasing/)
+- [2713. Maximum Strictly Increasing Cells in a Matrix](../2818-maximum-strictly-increasing-cells-in-a-matrix/)
+- [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](../3372-longest-strictly-increasing-or-strictly-decreasing-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/strictly-palindromic-number/)

@@ -68,9 +68,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [1986. Minimum Number of Work Sessions to Finish the Tasks](../2114-minimum-number-of-work-sessions-to-finish-the-tasks/)
+- [1723. Find Minimum Time to Finish All Jobs](../1825-find-minimum-time-to-finish-all-jobs/)
 - [3029. Minimum Time to Revert Word to Initial State I](../3297-minimum-time-to-revert-word-to-initial-state-i/)
-- [3031. Minimum Time to Revert Word to Initial State II](../3296-minimum-time-to-revert-word-to-initial-state-ii/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)

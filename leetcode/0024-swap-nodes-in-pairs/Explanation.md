@@ -1,7 +1,7 @@
 # LeetCode 24: Swap Nodes in Pairs
 
 **LeetCode Problem #24 — Swap Nodes in Pairs**
-Solve LeetCode Swap Nodes in Pairs using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Swap Nodes in Pairs using JavaScript, Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Swap Nodes in Pairs using Python and Two Pointers. This solution 
 | Problem | Swap Nodes in Pairs |
 | LeetCode | #24 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,9 +46,10 @@ Consider the standard input for **Swap Nodes in Pairs**. Applying **Two Pointer 
 - Sorting
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -64,9 +65,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
-- [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
-- [336. Palindrome Pairs](../0336-palindrome-pairs/)
+- [1530. Number of Good Leaf Nodes Pairs](../1653-number-of-good-leaf-nodes-pairs/)
+- [1782. Count Pairs Of Nodes](../1891-count-pairs-of-nodes/)
+- [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](../2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/)

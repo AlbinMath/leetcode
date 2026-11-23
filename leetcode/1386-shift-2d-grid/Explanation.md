@@ -70,9 +70,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1559. Detect Cycles in 2D Grid](../1663-detect-cycles-in-2d-grid/)
+- [3311. Construct 2D Grid Matching Graph Layout](../3578-construct-2d-grid-matching-graph-layout/)
 - [74. Search a 2D Matrix](../0074-search-a-2d-matrix/)
-- [240. Search a 2D Matrix II](../0240-search-a-2d-matrix-ii/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shift-2d-grid/)

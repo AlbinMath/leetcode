@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [321. Create Maximum Number](../0321-create-maximum-number/)
 - [414. Third Maximum Number](../0414-third-maximum-number/)
-- [1189. Maximum Number of Balloons](../1297-maximum-number-of-balloons/)
+- [1072. Flip Columns For Maximum Number of Equal Rows](../1147-flip-columns-for-maximum-number-of-equal-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-69-number/)

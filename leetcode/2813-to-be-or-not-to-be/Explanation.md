@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [620. Not Boring Movies](../0620-not-boring-movies/)
-- [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
+- [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](../1562-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
 - [1581. Customer Who Visited but Did Not Make Any Transactions](../1724-customer-who-visited-but-did-not-make-any-transactions/)
 
 ## LeetCode

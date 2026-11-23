@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [129. Sum Root to Leaf Numbers](../0129-sum-root-to-leaf-numbers/)
-- [201. Bitwise AND of Numbers Range](../0201-bitwise-and-of-numbers-range/)
-- [303. Range Sum Query   Immutable](../0303-range-sum-query---immutable/)
+- [2310. Sum of Numbers With Units Digit K](../1334-sum-of-numbers-with-units-digit-k/)
+- [2081. Sum of k-Mirror Numbers](../2202-sum-of-k-mirror-numbers/)
+- [3954. Sum of Compatible Numbers in Range I](../4319-sum-of-compatible-numbers-in-range-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-k-digit-numbers-in-a-range/)

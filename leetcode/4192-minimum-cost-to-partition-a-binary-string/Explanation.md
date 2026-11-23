@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1758. Minimum Changes To Make Alternating Binary String](../1884-minimum-changes-to-make-alternating-binary-string/)
-- [2977. Minimum Cost to Convert String II](../3238-minimum-cost-to-convert-string-ii/)
-- [111. Minimum Depth of Binary Tree](../0111-minimum-depth-of-binary-tree/)
+- [1864. Minimum Number of Swaps to Make the Binary String Alternating](../1994-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
+- [1888. Minimum Number of Flips to Make the Binary String Alternating](../2017-minimum-number-of-flips-to-make-the-binary-string-alternating/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/)

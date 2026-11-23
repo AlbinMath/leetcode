@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [14. Longest Common Prefix](../0014-longest-common-prefix/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
+- [1638. Count Substrings That Differ by One Character](../1743-count-substrings-that-differ-by-one-character/)
+- [2135. Count Words Obtained After Adding a Letter](../2256-count-words-obtained-after-adding-a-letter/)
+- [38. Count and Say](../0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-common-words-with-one-occurrence/)

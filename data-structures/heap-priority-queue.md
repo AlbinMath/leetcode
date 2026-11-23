@@ -13,6 +13,7 @@ LeetCode problems solved using **Heap / Priority Queue** data structures.
 | 352 | [Data Stream as Disjoint Intervals](../leetcode/0352-data-stream-as-disjoint-intervals/) | Hard | Min/Max Heap Priority Selection | O(n) | O(n) |
 | 435 | [Non-overlapping Intervals](../leetcode/0435-non-overlapping-intervals/) | Medium | Min/Max Heap Priority Selection | O(n) | O(n) |
 | 436 | [Find Right Interval](../leetcode/0436-find-right-interval/) | Medium | Min/Max Heap Priority Selection | O(n) | O(n) |
+| 787 | [Cheapest Flights Within K Stops](../leetcode/0803-cheapest-flights-within-k-stops/) | Medium | Min/Max Heap Priority Selection | O(n) | O(n) |
 | 986 | [Interval List Intersections](../leetcode/1028-interval-list-intersections/) | Medium | Min/Max Heap Priority Selection | O(n) | O(n) |
 | 1520 | [Maximum Number of Non-Overlapping Substrings](../leetcode/1644-maximum-number-of-non-overlapping-substrings/) | Hard | Min/Max Heap Priority Selection | O(n) | O(n) |
 | 1523 | [Count Odd Numbers in an Interval Range](../leetcode/1630-count-odd-numbers-in-an-interval-range/) | Easy | Min/Max Heap Priority Selection | O(n) | O(n) |

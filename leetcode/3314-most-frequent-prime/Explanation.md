@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [11. Container With Most Water](../0011-container-with-most-water/)
-- [347. Top K Frequent Elements](../0347-top-k-frequent-elements/)
-- [602. Friend Requests II: Who Has the Most Friends](../0602-friend-requests-ii-who-has-the-most-friends/)
+- [508. Most Frequent Subtree Sum](../0508-most-frequent-subtree-sum/)
+- [1838. Frequency of the Most Frequent Element](../1966-frequency-of-the-most-frequent-element/)
+- [4032. Longest Subarray With at Most K Distinct Prime Factors](../4370-longest-subarray-with-at-most-k-distinct-prime-factors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-frequent-prime/)

@@ -1,7 +1,7 @@
 # LeetCode 3: Longest Substring Without Repeating Characters
 
 **LeetCode Problem #3 — Longest Substring Without Repeating Characters**
-Solve LeetCode Longest Substring Without Repeating Characters using Python and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
+Solve LeetCode Longest Substring Without Repeating Characters using JavaScript, Python and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Longest Substring Without Repeating Characters using Python and S
 | Problem | Longest Substring Without Repeating Characters |
 | LeetCode | #3 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Dynamic Sliding Window Traversal |
 | Data Structure | Array / Hash Set |
 | Pattern | Sliding Window |
@@ -52,9 +52,10 @@ Consider the standard input for **Longest Substring Without Repeating Characters
 - Subarrays
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -70,9 +71,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
+- [395. Longest Substring with At Least K Repeating Characters](../0395-longest-substring-with-at-least-k-repeating-characters/)
 - [2213. Longest Substring of One Repeating Character](../2319-longest-substring-of-one-repeating-character/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [1044. Longest Duplicate Substring](../1122-longest-duplicate-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)

@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2932. Maximum Strong Pair XOR I](../3193-maximum-strong-pair-xor-i/)
-- [3382. Maximum Area Rectangle With Point Constraints II](../3689-maximum-area-rectangle-with-point-constraints-ii/)
-- [3510. Minimum Pair Removal to Sort Array II](../3772-minimum-pair-removal-to-sort-array-ii/)
+- [3979. Maximum Valid Pair Sum](../4341-maximum-valid-pair-sum/)
+- [421. Maximum XOR of Two Numbers in an Array](../0421-maximum-xor-of-two-numbers-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-strong-pair-xor-ii/)

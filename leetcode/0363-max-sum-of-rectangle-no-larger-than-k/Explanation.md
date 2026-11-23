@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
-- [560. Subarray Sum Equals K](../0560-subarray-sum-equals-k/)
-- [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
+- [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](../3240-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
+- [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)

@@ -10,13 +10,13 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 |---|---|---|---|---|---|
 | 9 | [Palindrome Number](../leetcode/0009-palindrome-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/0009-palindrome-number/Explanation.md) |
 
-| 21 | [Merge Two Sorted Lists](../leetcode/0021-merge-two-sorted-lists/) | Python | O(n) | O(1) | [Explanation](../leetcode/0021-merge-two-sorted-lists/Explanation.md) |
+| 21 | [Merge Two Sorted Lists](../leetcode/0021-merge-two-sorted-lists/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0021-merge-two-sorted-lists/Explanation.md) |
 
 | 83 | [Remove Duplicates from Sorted List](../leetcode/0083-remove-duplicates-from-sorted-list/) | PHP, Python | O(n) | O(1) | [Explanation](../leetcode/0083-remove-duplicates-from-sorted-list/Explanation.md) |
 
 | 125 | [Valid Palindrome](../leetcode/0125-valid-palindrome/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0125-valid-palindrome/Explanation.md) |
 
-| 160 | [Intersection of Two Linked Lists](../leetcode/0160-intersection-of-two-linked-lists/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0160-intersection-of-two-linked-lists/Explanation.md) |
+| 160 | [Intersection of Two Linked Lists](../leetcode/0160-intersection-of-two-linked-lists/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0160-intersection-of-two-linked-lists/Explanation.md) |
 
 | 190 | [Reverse Bits](../leetcode/0190-reverse-bits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0190-reverse-bits/Explanation.md) |
 
@@ -24,7 +24,7 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 206 | [Reverse Linked List](../leetcode/0206-reverse-linked-list/) | JavaScript, PHP, Python | O(n) | O(1) | [Explanation](../leetcode/0206-reverse-linked-list/Explanation.md) |
 
-| 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0234-palindrome-linked-list/Explanation.md) |
+| 234 | [Palindrome Linked List](../leetcode/0234-palindrome-linked-list/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0234-palindrome-linked-list/Explanation.md) |
 
 | 349 | [Intersection of Two Arrays](../leetcode/0349-intersection-of-two-arrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/0349-intersection-of-two-arrays/Explanation.md) |
 
@@ -35,6 +35,8 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 541 | [Reverse String II](../leetcode/0541-reverse-string-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0541-reverse-string-ii/Explanation.md) |
 
 | 671 | [Second Minimum Node In a Binary Tree](../leetcode/0671-second-minimum-node-in-a-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0671-second-minimum-node-in-a-binary-tree/Explanation.md) |
+
+| 680 | [Valid Palindrome II](../leetcode/0680-valid-palindrome-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0680-valid-palindrome-ii/Explanation.md) |
 
 | 693 | [Binary Number with Alternating Bits](../leetcode/0693-binary-number-with-alternating-bits/) | Python | O(n) | O(1) | [Explanation](../leetcode/0693-binary-number-with-alternating-bits/Explanation.md) |
 
@@ -58,11 +60,11 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 2 | [Add Two Numbers](../leetcode/0002-add-two-numbers/) | Python | O(n) | O(1) | [Explanation](../leetcode/0002-add-two-numbers/Explanation.md) |
+| 2 | [Add Two Numbers](../leetcode/0002-add-two-numbers/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0002-add-two-numbers/Explanation.md) |
 
-| 11 | [Container With Most Water](../leetcode/0011-container-with-most-water/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0011-container-with-most-water/Explanation.md) |
+| 11 | [Container With Most Water](../leetcode/0011-container-with-most-water/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0011-container-with-most-water/Explanation.md) |
 
-| 24 | [Swap Nodes in Pairs](../leetcode/0024-swap-nodes-in-pairs/) | Python | O(n) | O(1) | [Explanation](../leetcode/0024-swap-nodes-in-pairs/Explanation.md) |
+| 24 | [Swap Nodes in Pairs](../leetcode/0024-swap-nodes-in-pairs/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0024-swap-nodes-in-pairs/Explanation.md) |
 
 | 61 | [Rotate List](../leetcode/0061-rotate-list/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0061-rotate-list/Explanation.md) |
 
@@ -88,7 +90,17 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0896-smallest-subtree-with-all-the-deepest-nodes/Explanation.md) |
 
+| 866 | [Prime Palindrome](../leetcode/0897-prime-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/0897-prime-palindrome/Explanation.md) |
+
 | 1116 | [Print Zero Even Odd](../leetcode/1216-print-zero-even-odd/) | Java | O(n) | O(1) | [Explanation](../leetcode/1216-print-zero-even-odd/Explanation.md) |
+
+| 1177 | [Can Make Palindrome from Substring](../leetcode/1281-can-make-palindrome-from-substring/) | Python | O(n) | O(1) | [Explanation](../leetcode/1281-can-make-palindrome-from-substring/Explanation.md) |
+
+| 1328 | [Break a Palindrome](../leetcode/1252-break-a-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/1252-break-a-palindrome/Explanation.md) |
+
+| 1400 | [Construct K Palindrome Strings](../leetcode/1502-construct-k-palindrome-strings/) | Python | O(n) | O(1) | [Explanation](../leetcode/1502-construct-k-palindrome-strings/Explanation.md) |
+
+| 1616 | [Split Two Strings to Make Palindrome](../leetcode/1739-split-two-strings-to-make-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/1739-split-two-strings-to-make-palindrome/Explanation.md) |
 
 | 1786 | [Number of Restricted Paths From First to Last Node](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/) | Python | O(n) | O(1) | [Explanation](../leetcode/1912-number-of-restricted-paths-from-first-to-last-node/Explanation.md) |
 
@@ -100,15 +112,21 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 2721 | [Execute Asynchronous Functions in Parallel](../leetcode/2807-execute-asynchronous-functions-in-parallel/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2807-execute-asynchronous-functions-in-parallel/Explanation.md) |
 
+| 3503 | [Longest Palindrome After Substring Concatenation I](../leetcode/3793-longest-palindrome-after-substring-concatenation-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3793-longest-palindrome-after-substring-concatenation-i/Explanation.md) |
+
+| 3766 | [Minimum Operations to Make Binary Palindrome](../leetcode/4099-minimum-operations-to-make-binary-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/4099-minimum-operations-to-make-binary-palindrome/Explanation.md) |
+
 | 4011 | [Count Subarrays With Even Odd Ratio I](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/4323-count-subarrays-with-even-odd-ratio-i/Explanation.md) |
 
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 23 | [Merge k Sorted Lists](../leetcode/0023-merge-k-sorted-lists/) | Python | O(n) | O(1) | [Explanation](../leetcode/0023-merge-k-sorted-lists/Explanation.md) |
+| 23 | [Merge k Sorted Lists](../leetcode/0023-merge-k-sorted-lists/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0023-merge-k-sorted-lists/Explanation.md) |
 
-| 25 | [Reverse Nodes in k-Group](../leetcode/0025-reverse-nodes-in-k-group/) | Python | O(n) | O(1) | [Explanation](../leetcode/0025-reverse-nodes-in-k-group/Explanation.md) |
+| 25 | [Reverse Nodes in k-Group](../leetcode/0025-reverse-nodes-in-k-group/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0025-reverse-nodes-in-k-group/Explanation.md) |
+
+| 132 | [Palindrome Partitioning II](../leetcode/0132-palindrome-partitioning-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0132-palindrome-partitioning-ii/Explanation.md) |
 
 | 214 | [Shortest Palindrome](../leetcode/0214-shortest-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/0214-shortest-palindrome/Explanation.md) |
 
@@ -116,15 +134,35 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 
 | 479 | [Largest Palindrome Product](../leetcode/0479-largest-palindrome-product/) | Python | O(n) | O(1) | [Explanation](../leetcode/0479-largest-palindrome-product/Explanation.md) |
 
+| 564 | [Find the Closest Palindrome](../leetcode/0564-find-the-closest-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/0564-find-the-closest-palindrome/Explanation.md) |
+
 | 882 | [Reachable Nodes In Subdivided Graph](../leetcode/0918-reachable-nodes-in-subdivided-graph/) | Python | O(n) | O(1) | [Explanation](../leetcode/0918-reachable-nodes-in-subdivided-graph/Explanation.md) |
 
+| 906 | [Super Palindromes](../leetcode/0942-super-palindromes/) | Python | O(n) | O(1) | [Explanation](../leetcode/0942-super-palindromes/Explanation.md) |
+
 | 1147 | [Longest Chunked Palindrome Decomposition](../leetcode/1251-longest-chunked-palindrome-decomposition/) | Python | O(n) | O(1) | [Explanation](../leetcode/1251-longest-chunked-palindrome-decomposition/Explanation.md) |
+
+| 1278 | [Palindrome Partitioning III](../leetcode/1403-palindrome-partitioning-iii/) | Python | O(n) | O(1) | [Explanation](../leetcode/1403-palindrome-partitioning-iii/Explanation.md) |
+
+| 1312 | [Minimum Insertion Steps to Make a String Palindrome](../leetcode/1437-minimum-insertion-steps-to-make-a-string-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/1437-minimum-insertion-steps-to-make-a-string-palindrome/Explanation.md) |
+
+| 1745 | [Palindrome Partitioning IV](../leetcode/1871-palindrome-partitioning-iv/) | Python | O(n) | O(1) | [Explanation](../leetcode/1871-palindrome-partitioning-iv/Explanation.md) |
+
+| 1771 | [Maximize Palindrome Length From Subsequences](../leetcode/1897-maximize-palindrome-length-from-subsequences/) | Python | O(n) | O(1) | [Explanation](../leetcode/1897-maximize-palindrome-length-from-subsequences/Explanation.md) |
 
 | 2193 | [Minimum Number of Moves to Make Palindrome](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1356-minimum-number-of-moves-to-make-palindrome/Explanation.md) |
 
 | 2472 | [Maximum Number of Non-overlapping Palindrome Substrings](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2559-maximum-number-of-non-overlapping-palindrome-substrings/Explanation.md) |
 
+| 2791 | [Count Paths That Can Form a Palindrome in a Tree](../leetcode/2905-count-paths-that-can-form-a-palindrome-in-a-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/2905-count-paths-that-can-form-a-palindrome-in-a-tree/Explanation.md) |
+
+| 2911 | [Minimum Changes to Make K Semi-palindromes](../leetcode/2879-minimum-changes-to-make-k-semi-palindromes/) | Python | O(n) | O(1) | [Explanation](../leetcode/2879-minimum-changes-to-make-k-semi-palindromes/Explanation.md) |
+
+| 3260 | [Find the Largest Palindrome Divisible by K](../leetcode/3552-find-the-largest-palindrome-divisible-by-k/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3552-find-the-largest-palindrome-divisible-by-k/Explanation.md) |
+
 | 3327 | [Check if DFS Strings Are Palindromes](../leetcode/3603-check-if-dfs-strings-are-palindromes/) | Python | O(n) | O(1) | [Explanation](../leetcode/3603-check-if-dfs-strings-are-palindromes/Explanation.md) |
+
+| 3646 | [Next Special Palindrome Number](../leetcode/3951-next-special-palindrome-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/3951-next-special-palindrome-number/Explanation.md) |
 
 | 4013 | [Count Subarrays With Even Odd Ratio II](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/4324-count-subarrays-with-even-odd-ratio-ii/Explanation.md) |
 

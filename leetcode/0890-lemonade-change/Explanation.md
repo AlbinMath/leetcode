@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [322. Coin Change](../0322-coin-change/)
-- [2886. Change Data Type](../3069-change-data-type/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [1702. Maximum Binary String After Change](../1804-maximum-binary-string-after-change/)
+- [1737. Change Minimum Characters to Satisfy One of Three Conditions](../1859-change-minimum-characters-to-satisfy-one-of-three-conditions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lemonade-change/)

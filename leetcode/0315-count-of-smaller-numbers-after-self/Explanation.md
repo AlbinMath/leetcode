@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [728. Self Dividing Numbers](../0728-self-dividing-numbers/)
+- [357. Count Numbers with Unique Digits](../0357-count-numbers-with-unique-digits/)
 - [1351. Count Negative Numbers in a Sorted Matrix](../1476-count-negative-numbers-in-a-sorted-matrix/)
-- [1365. How Many Numbers Are Smaller Than the Current Number](../1482-how-many-numbers-are-smaller-than-the-current-number/)
+- [1523. Count Odd Numbers in an Interval Range](../1630-count-odd-numbers-in-an-interval-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)

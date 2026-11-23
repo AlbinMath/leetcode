@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [677. Map Sum Pairs](../0677-map-sum-pairs/)
 - [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
-- [1. Two Sum](../0001-two-sum/)
+- [1835. Find XOR Sum of All Pairs Bitwise AND](../1963-find-xor-sum-of-all-pairs-bitwise-and/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/)

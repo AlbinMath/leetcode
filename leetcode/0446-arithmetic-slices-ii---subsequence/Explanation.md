@@ -1,14 +1,14 @@
-# LeetCode 446: Arithmetic Slices Ii   Subsequence
+# LeetCode 446: Arithmetic Slices II - Subsequence
 
-**LeetCode Problem #446 — Arithmetic Slices Ii   Subsequence**
-Solve LeetCode Arithmetic Slices Ii   Subsequence using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
+**LeetCode Problem #446 — Arithmetic Slices II - Subsequence**
+Solve LeetCode Arithmetic Slices II - Subsequence using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Arithmetic Slices Ii   Subsequence |
+| Problem | Arithmetic Slices II - Subsequence |
 | LeetCode | #446 |
-| Difficulty | Medium |
+| Difficulty | Hard |
 | Language | Python |
 | Algorithm | Memoization & State Transition |
 | Data Structure | DP Table / Array |
@@ -31,7 +31,7 @@ We iterate through the input using **Memoization & State Transition**. By mainta
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Arithmetic Slices Ii   Subsequence**. Applying **Memoization & State Transition** yields the target result step by step.
+Consider the standard input for **Arithmetic Slices II - Subsequence**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
-- [2407. Longest Increasing Subsequence II](../2526-longest-increasing-subsequence-ii/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [413. Arithmetic Slices](../0413-arithmetic-slices/)
+- [300. Longest Increasing Subsequence](../0300-longest-increasing-subsequence/)
+- [334. Increasing Triplet Subsequence](../0334-increasing-triplet-subsequence/)
 
 ## LeetCode
-[View problem on LeetCode](https://leetcode.com/problems/arithmetic-slices-ii---subsequence/)
+[View problem on LeetCode](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)

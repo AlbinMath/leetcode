@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2416. Sum of Prefix Scores of Strings](../2494-sum-of-prefix-scores-of-strings/)
+- [712. Minimum ASCII Delete Sum for Two Strings](../0712-minimum-ascii-delete-sum-for-two-strings/)
 - [1. Two Sum](../0001-two-sum/)
-- [39. Combination Sum](../0039-combination-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-scores-of-built-strings/)

@@ -1,7 +1,7 @@
 # LeetCode 2685: Count the Number of Complete Components
 
 **LeetCode Problem #2685 — Count the Number of Complete Components**
-Solve LeetCode Count the Number of Complete Components using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Count the Number of Complete Components using Java, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Count the Number of Complete Components using Java and Tree & Gra
 | Problem | Count the Number of Complete Components |
 | LeetCode | #2685 |
 | Difficulty | Medium |
-| Language | Java |
+| Language | Java, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,10 +47,11 @@ Consider the standard input for **Count the Number of Complete Components**. App
 - BFS
 
 ## Language
-Java
+Java, Python
 
 ## Source Code
 - [solution.java](./solution.java)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -66,8 +67,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [222. Count Complete Tree Nodes](../0222-count-complete-tree-nodes/)
-- [1395. Count Number of Teams](../1511-count-number-of-teams/)
-- [1684. Count the Number of Consistent Strings](../1786-count-the-number-of-consistent-strings/)
+- [2799. Count Complete Subarrays in an Array](../2856-count-complete-subarrays-in-an-array/)
+- [2953. Count Complete Substrings](../3223-count-complete-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-complete-components/)

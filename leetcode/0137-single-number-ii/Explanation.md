@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [136. Single Number](../0136-single-number/)
-- [375. Guess Number Higher or Lower II](../0375-guess-number-higher-or-lower-ii/)
+- [260. Single Number III](../0260-single-number-iii/)
 - [619. Biggest Single Number](../0619-biggest-single-number/)
 
 ## LeetCode

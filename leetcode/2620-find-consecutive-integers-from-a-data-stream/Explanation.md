@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
-- [352. Data Stream as Disjoint Intervals](../0352-data-stream-as-disjoint-intervals/)
+- [2177. Find Three Consecutive Integers That Sum to a Given Number](../2278-find-three-consecutive-integers-that-sum-to-a-given-number/)
 - [600. Non-negative Integers without Consecutive Ones](../0600-non-negative-integers-without-consecutive-ones/)
 
 ## LeetCode

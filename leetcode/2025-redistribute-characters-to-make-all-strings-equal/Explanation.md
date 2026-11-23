@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1790. Check if One String Swap Can Make Strings Equal](../1915-check-if-one-string-swap-can-make-strings-equal/)
+- [3784. Minimum Deletion Cost to Make All Characters Equal](../4138-minimum-deletion-cost-to-make-all-characters-equal/)
+- [1787. Make the XOR of All Segments Equal to Zero](../1913-make-the-xor-of-all-segments-equal-to-zero/)
 - [1941. Check if All Characters Have Equal Number of Occurrences](../2053-check-if-all-characters-have-equal-number-of-occurrences/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)

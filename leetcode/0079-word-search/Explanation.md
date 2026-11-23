@@ -1,7 +1,7 @@
 # LeetCode 79: Word Search
 
 **LeetCode Problem #79 — Word Search**
-Solve LeetCode Word Search using PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Word Search using JavaScript, PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Word Search using PHP and Array / General. This solution finds th
 | Problem | Word Search |
 | LeetCode | #79 |
 | Difficulty | Medium |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **Word Search**. Applying **In-Place Array Trave
 - Array
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works
@@ -63,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [212. Word Search II](../0212-word-search-ii/)
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
-- [35. Search Insert Position](../0035-search-insert-position/)
+- [58. Length of Last Word](../0058-length-of-last-word/)
+- [126. Word Ladder II](../0126-word-ladder-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-search/)

@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [79. Word Search](../0079-word-search/)
-- [81. Search in Rotated Sorted Array II](../0081-search-in-rotated-sorted-array-ii/)
-- [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
+- [58. Length of Last Word](../0058-length-of-last-word/)
+- [126. Word Ladder II](../0126-word-ladder-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-search-ii/)

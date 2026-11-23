@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1561. Maximum Number of Coins You Can Get](../1683-maximum-number-of-coins-you-can-get/)
-- [2114. Maximum Number of Words Found in Sentences](../2219-maximum-number-of-words-found-in-sentences/)
-- [321. Create Maximum Number](../0321-create-maximum-number/)
+- [2071. Maximum Number of Tasks You Can Assign](../2180-maximum-number-of-tasks-you-can-assign/)
+- [1298. Maximum Candies You Can Get from Boxes](../1424-maximum-candies-you-can-get-from-boxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)

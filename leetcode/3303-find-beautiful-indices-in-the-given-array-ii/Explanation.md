@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3006. Find Beautiful Indices in the Given Array I](../3245-find-beautiful-indices-in-the-given-array-i/)
-- [154. Find Minimum in Rotated Sorted Array II](../0154-find-minimum-in-rotated-sorted-array-ii/)
 - [2089. Find Target Indices After Sorting Array](../2210-find-target-indices-after-sorting-array/)
+- [1237. Find Positive Integer Solution for a Given Equation](../1358-find-positive-integer-solution-for-a-given-equation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/)

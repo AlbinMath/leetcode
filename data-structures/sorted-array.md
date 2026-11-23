@@ -47,9 +47,11 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 338 | [Counting Bits](../leetcode/0338-counting-bits/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 347 | [Top K Frequent Elements](../leetcode/0347-top-k-frequent-elements/) | Medium | Modified Binary Search | O(n log n) | O(1) |
 | 401 | [Binary Watch](../leetcode/0401-binary-watch/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 449 | [Serialize and Deserialize BST](../leetcode/0449-serialize-and-deserialize-bst/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 501 | [Find Mode in Binary Search Tree](../leetcode/0501-find-mode-in-binary-search-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 538 | [Convert BST to Greater Tree](../leetcode/0538-convert-bst-to-greater-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 540 | [Single Element in a Sorted Array](../leetcode/0540-single-element-in-a-sorted-array/) | Medium | Modified Binary Search | O(log n) | O(1) |
 | 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Easy | Modified Binary Search | O(n) | O(1) |
@@ -57,9 +59,10 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 617 | [Merge Two Binary Trees](../leetcode/0617-merge-two-binary-trees/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
-| 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Medium | Modified Binary Search | O(n) | O(1) |
+| 653 | [Two Sum IV - Input is a BST](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 669 | [Trim a Binary Search Tree](../leetcode/0669-trim-a-binary-search-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 700 | [Search in a Binary Search Tree](../leetcode/0783-search-in-a-binary-search-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 701 | [Insert into a Binary Search Tree](../leetcode/0784-insert-into-a-binary-search-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 704 | [Binary Search](../leetcode/0792-binary-search/) | Easy | Modified Binary Search | O(log n) | O(1) |
 | 783 | [Minimum Distance Between BST Nodes](../leetcode/0799-minimum-distance-between-bst-nodes/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | Medium | Modified Binary Search | O(n) | O(1) |
@@ -71,13 +74,19 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 938 | [Range Sum of BST](../leetcode/0975-range-sum-of-bst/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 965 | [Univalued Binary Tree](../leetcode/1005-univalued-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 993 | [Cousins in Binary Tree](../leetcode/1035-cousins-in-binary-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 1008 | [Construct Binary Search Tree from Preorder Traversal](../leetcode/1050-construct-binary-search-tree-from-preorder-traversal/) | Medium | Modified Binary Search | O(n) | O(1) |
+| 1038 | [Binary Search Tree to Greater Sum Tree](../leetcode/1114-binary-search-tree-to-greater-sum-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 1161 | [Maximum Level Sum of a Binary Tree](../leetcode/1116-maximum-level-sum-of-a-binary-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
+| 1206 | [Design Skiplist](../leetcode/1337-design-skiplist/) | Hard | Modified Binary Search | O(n) | O(1) |
 | 1288 | [Remove Covered Intervals](../leetcode/1222-remove-covered-intervals/) | Medium | Modified Binary Search | O(log n) | O(1) |
 | 1290 | [Convert Binary Number in a Linked List to Integer](../leetcode/1411-convert-binary-number-in-a-linked-list-to-integer/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 1305 | [All Elements in Two Binary Search Trees](../leetcode/1427-all-elements-in-two-binary-search-trees/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 1331 | [Rank Transform of an Array](../leetcode/1256-rank-transform-of-an-array/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 1372 | [Longest ZigZag Path in a Binary Tree](../leetcode/1474-longest-zigzag-path-in-a-binary-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
+| 1373 | [Maximum Sum BST in Binary Tree](../leetcode/1475-maximum-sum-bst-in-binary-tree/) | Hard | Modified Binary Search | O(n) | O(1) |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../leetcode/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 1382 | [Balance a Binary Search Tree](../leetcode/1285-balance-a-binary-search-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 1448 | [Count Good Nodes in Binary Tree](../leetcode/1544-count-good-nodes-in-binary-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1574-maximum-product-of-two-elements-in-an-array/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | Hard | Modified Binary Search | O(n) | O(1) |
@@ -86,10 +95,13 @@ LeetCode problems solved using **Sorted Array** data structures.
 | 1752 | [Check if Array Is Sorted and Rotated](../leetcode/1878-check-if-array-is-sorted-and-rotated/) | Easy | Modified Binary Search | O(n) | O(1) |
 | 1833 | [Maximum Ice Cream Bars](../leetcode/1961-maximum-ice-cream-bars/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 1846 | [Maximum Element After Decreasing and Rearranging](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/) | Medium | Modified Binary Search | O(log n) | O(1) |
+| 1932 | [Merge BSTs to Create Single BST](../leetcode/2060-merge-bsts-to-create-single-bst/) | Hard | Modified Binary Search | O(n) | O(1) |
 | 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Hard | Modified Binary Search | O(n) | O(1) |
+| 2476 | [Closest Nodes Queries in a Binary Search Tree](../leetcode/2567-closest-nodes-queries-in-a-binary-search-tree/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 3514 | [Number of Unique XOR Triplets II](../leetcode/3820-number-of-unique-xor-triplets-ii/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 3524 | [Find X Value of Array I](../leetcode/3831-find-x-value-of-array-i/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 3525 | [Find X Value of Array II](../leetcode/3840-find-x-value-of-array-ii/) | Hard | Modified Binary Search | O(n) | O(1) |
 | 3689 | [Maximum Total Subarray Value I](../leetcode/4005-maximum-total-subarray-value-i/) | Medium | Modified Binary Search | O(n) | O(1) |
 | 3875 | [Construct Uniform Parity Array I](../leetcode/4256-construct-uniform-parity-array-i/) | Easy | Modified Binary Search | O(n) | O(1) |
+| 4021 | [Minimum Operations to Make a Rotated Palindrome I](../leetcode/4350-minimum-operations-to-make-a-rotated-palindrome-i/) | Medium | Modified Binary Search | O(n) | O(1) |

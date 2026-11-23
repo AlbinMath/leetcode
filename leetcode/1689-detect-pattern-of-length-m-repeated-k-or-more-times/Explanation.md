@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2014. Longest Subsequence Repeated k Times](../2140-longest-subsequence-repeated-k-times/)
 - [459. Repeated Substring Pattern](../0459-repeated-substring-pattern/)
 - [718. Maximum Length of Repeated Subarray](../0718-maximum-length-of-repeated-subarray/)
-- [1437. Check If All 1's Are at Least Length K Places Away](../1548-check-if-all-1s-are-at-least-length-k-places-away/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)

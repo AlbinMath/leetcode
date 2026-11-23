@@ -1,7 +1,7 @@
 # LeetCode 56: Merge Intervals
 
 **LeetCode Problem #56 — Merge Intervals**
-Solve LeetCode Merge Intervals using Python and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
+Solve LeetCode Merge Intervals using JavaScript, Python and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Merge Intervals using Python and Heap. This solution finds the op
 | Problem | Merge Intervals |
 | LeetCode | #56 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Min/Max Heap Priority Selection |
 | Data Structure | Heap / Priority Queue |
 | Pattern | Heap |
@@ -46,9 +46,10 @@ Consider the standard input for **Merge Intervals**. Applying **Min/Max Heap Pri
 - Sorting
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

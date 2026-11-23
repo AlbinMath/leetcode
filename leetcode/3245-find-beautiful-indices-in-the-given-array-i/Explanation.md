@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3008. Find Beautiful Indices in the Given Array II](../3303-find-beautiful-indices-in-the-given-array-ii/)
 - [2089. Find Target Indices After Sorting Array](../2210-find-target-indices-after-sorting-array/)
-- [3524. Find X Value of Array I](../3831-find-x-value-of-array-i/)
+- [1237. Find Positive Integer Solution for a Given Equation](../1358-find-positive-integer-solution-for-a-given-equation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/)

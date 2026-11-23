@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [137. Single Number II](../0137-single-number-ii/)
-- [375. Guess Number Higher or Lower II](../0375-guess-number-higher-or-lower-ii/)
-- [1356. Sort Integers by The Number of 1 Bits](../1458-sort-integers-by-the-number-of-1-bits/)
+- [3621. Number of Integers With Popcount-Depth Equal to K I](../3937-number-of-integers-with-popcount-depth-equal-to-k-i/)
+- [3226. Number of Bit Changes to Make Two Integers Equal](../3508-number-of-bit-changes-to-make-two-integers-equal/)
+- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-ii/)

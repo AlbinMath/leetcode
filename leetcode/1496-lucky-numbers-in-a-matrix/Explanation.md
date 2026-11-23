@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1351. Count Negative Numbers in a Sorted Matrix](../1476-count-negative-numbers-in-a-sorted-matrix/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
 - [54. Spiral Matrix](../0054-spiral-matrix/)
+- [59. Spiral Matrix II](../0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)

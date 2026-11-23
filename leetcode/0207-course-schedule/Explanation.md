@@ -1,7 +1,7 @@
 # LeetCode 207: Course Schedule
 
 **LeetCode Problem #207 — Course Schedule**
-Solve LeetCode Course Schedule using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Course Schedule using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Course Schedule using JavaScript and Array / General. This soluti
 | Problem | Course Schedule |
 | LeetCode | #207 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Course Schedule**. Applying **In-Place Array T
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [210. Course Schedule II](../0210-course-schedule-ii/)
 - [630. Course Schedule III](../0630-course-schedule-iii/)
-- [1964. Find the Longest Valid Obstacle Course at Each Position](../2096-find-the-longest-valid-obstacle-course-at-each-position/)
+- [1462. Course Schedule IV](../1558-course-schedule-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/course-schedule/)

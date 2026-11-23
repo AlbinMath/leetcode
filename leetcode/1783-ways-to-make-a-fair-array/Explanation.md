@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1735. Count Ways to Make Array With Product](../1836-count-ways-to-make-array-with-product/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../1662-minimum-numbers-of-function-calls-to-make-target-array/)
 - [1569. Number of Ways to Reorder Array to Get Same BST](../1692-number-of-ways-to-reorder-array-to-get-same-bst/)
-- [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ways-to-make-a-fair-array/)

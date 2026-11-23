@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1835. Find XOR Sum of All Pairs Bitwise AND](../1963-find-xor-sum-of-all-pairs-bitwise-and/)
 - [1588. Sum of All Odd Length Subarrays](../1693-sum-of-all-odd-length-subarrays/)
-- [2425. Bitwise XOR of All Pairings](../2533-bitwise-xor-of-all-pairings/)
-- [1. Two Sum](../0001-two-sum/)
+- [1781. Sum of Beauty of All Substrings](../1890-sum-of-beauty-of-all-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)

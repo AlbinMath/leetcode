@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [459. Repeated Substring Pattern](../0459-repeated-substring-pattern/)
-- [686. Repeated String Match](../0686-repeated-string-match/)
-- [718. Maximum Length of Repeated Subarray](../0718-maximum-length-of-repeated-subarray/)
+- [3475. DNA Pattern Recognition ](../3816-dna-pattern-recognition-/)
+- [946. Validate Stack Sequences](../0983-validate-stack-sequences/)
+- [2318. Number of Distinct Roll Sequences](../2404-number-of-distinct-roll-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-dna-sequences/)

@@ -1,7 +1,7 @@
 # LeetCode 219: Contains Duplicate II
 
 **LeetCode Problem #219 — Contains Duplicate II**
-Solve LeetCode Contains Duplicate II using PHP and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Contains Duplicate II using PHP, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Contains Duplicate II using PHP and Array / General. This solutio
 | Problem | Contains Duplicate II |
 | LeetCode | #219 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | PHP, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Contains Duplicate II**. Applying **In-Place A
 - Array
 
 ## Language
-PHP
+PHP, Python
 
 ## Source Code
 - [solution.php](./solution.php)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [217. Contains Duplicate](../0217-contains-duplicate/)
 - [220. Contains Duplicate III](../0220-contains-duplicate-iii/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [1461. Check If a String Contains All Binary Codes of Size K](../1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/contains-duplicate-ii/)

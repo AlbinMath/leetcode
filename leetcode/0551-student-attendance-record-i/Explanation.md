@@ -65,8 +65,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [552. Student Attendance Record II](../0552-student-attendance-record-ii/)
-- [464. Can I Win](../0464-can-i-win/)
-- [496. Next Greater Element I](../0496-next-greater-element-i/)
+- [1894. Find the Student that Will Replace the Chalk](../2006-find-the-student-that-will-replace-the-chalk/)
+- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/student-attendance-record-i/)

@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2003. Smallest Missing Genetic Value in Each Subtree](../2131-smallest-missing-genetic-value-in-each-subtree/)
 - [2265. Count Nodes Equal to Average of Subtree](../2347-count-nodes-equal-to-average-of-subtree/)
-- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
+- [847. Shortest Path Visiting All Nodes](../0877-shortest-path-visiting-all-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)

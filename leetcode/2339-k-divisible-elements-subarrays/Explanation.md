@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [347. Top K Frequent Elements](../0347-top-k-frequent-elements/)
-- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
-- [658. Find K Closest Elements](../0658-find-k-closest-elements/)
+- [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../3717-minimum-operations-to-make-elements-within-k-subarrays-equal/)
+- [1015. Smallest Integer Divisible by K](../1064-smallest-integer-divisible-by-k/)
+- [2183. Count Array Pairs Divisible by K](../2301-count-array-pairs-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-divisible-elements-subarrays/)

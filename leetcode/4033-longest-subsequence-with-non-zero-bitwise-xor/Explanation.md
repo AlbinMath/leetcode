@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [3825. Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND](../4032-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/)
 - [300. Longest Increasing Subsequence](../0300-longest-increasing-subsequence/)
-- [521. Longest Uncommon Subsequence I](../0521-longest-uncommon-subsequence-i/)
-- [594. Longest Harmonious Subsequence](../0594-longest-harmonious-subsequence/)
+- [516. Longest Palindromic Subsequence](../0516-longest-palindromic-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/)

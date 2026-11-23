@@ -64,8 +64,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1021. Remove Outermost Parentheses](../1078-remove-outermost-parentheses/)
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [20. Valid Parentheses](../0020-valid-parentheses/)
+- [1249. Minimum Remove to Make Valid Parentheses](../1371-minimum-remove-to-make-valid-parentheses/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-invalid-parentheses/)

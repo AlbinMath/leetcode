@@ -76,9 +76,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [44. Wildcard Matching](../0044-wildcard-matching/)
 - [282. Expression Add Operators](../0282-expression-add-operators/)
-- [1408. String Matching in an Array](../1524-string-matching-in-an-array/)
+- [736. Parse Lisp Expression](../0736-parse-lisp-expression/)
+- [1106. Parsing A Boolean Expression](../1197-parsing-a-boolean-expression/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/regular-expression-matching/)

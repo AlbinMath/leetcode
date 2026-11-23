@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [31. Next Permutation](../0031-next-permutation/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [116. Populating Next Right Pointers in Each Node](../0116-populating-next-right-pointers-in-each-node/)
+- [1019. Next Greater Node In Linked List](../1072-next-greater-node-in-linked-list/)
+- [2516. Take K of Each Character From Left and Right](../2599-take-k-of-each-character-from-left-and-right/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)

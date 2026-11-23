@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [149. Max Points on a Line](../0149-max-points-on-a-line/)
-- [223. Rectangle Area](../0223-rectangle-area/)
 - [363. Max Sum of Rectangle No Larger Than K](../0363-max-sum-of-rectangle-no-larger-than-k/)
+- [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-area-of-island/)

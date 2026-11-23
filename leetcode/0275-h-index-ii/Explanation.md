@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [274. H-Index](../0274-h-index/)
-- [3904. Smallest Stable Index II](../4285-smallest-stable-index-ii/)
 - [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [398. Random Pick Index](../0398-random-pick-index/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/h-index-ii/)

@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [477. Total Hamming Distance](../0477-total-hamming-distance/)
+- [1722. Minimize Hamming Distance After Swap Operations](../1840-minimize-hamming-distance-after-swap-operations/)
 - [72. Edit Distance](../0072-edit-distance/)
-- [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
-- [821. Shortest Distance to a Character](../0841-shortest-distance-to-a-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/hamming-distance/)

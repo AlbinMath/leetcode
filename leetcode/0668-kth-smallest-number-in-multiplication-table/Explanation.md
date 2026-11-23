@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [230. Kth Smallest Element in a BST](../0230-kth-smallest-element-in-a-bst/)
-- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
-- [1539. Kth Missing Positive Number](../1646-kth-missing-positive-number/)
+- [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](../1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
+- [2343. Query Kth Smallest Trimmed Number](../2422-query-kth-smallest-trimmed-number/)
+- [537. Complex Number Multiplication](../0537-complex-number-multiplication/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)

@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3719. Longest Balanced Subarray I](../4045-longest-balanced-subarray-i/)
-- [1493. Longest Subarray of 1's After Deleting One Element](../1586-longest-subarray-of-1s-after-deleting-one-element/)
-- [2407. Longest Increasing Subsequence II](../2526-longest-increasing-subsequence-ii/)
+- [978. Longest Turbulent Subarray](../1020-longest-turbulent-subarray/)
+- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-balanced-subarray-ii/)

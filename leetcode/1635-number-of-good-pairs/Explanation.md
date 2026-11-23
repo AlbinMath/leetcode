@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1128. Number of Equivalent Domino Pairs](../1227-number-of-equivalent-domino-pairs/)
-- [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
-- [2426. Number of Pairs Satisfying Inequality](../2513-number-of-pairs-satisfying-inequality/)
+- [1530. Number of Good Leaf Nodes Pairs](../1653-number-of-good-leaf-nodes-pairs/)
+- [1525. Number of Good Ways to Split a String](../1632-number-of-good-ways-to-split-a-string/)
+- [1987. Number of Unique Good Subsequences](../2115-number-of-unique-good-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-good-pairs/)

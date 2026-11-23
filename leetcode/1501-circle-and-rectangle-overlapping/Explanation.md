@@ -65,9 +65,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
-- [85. Maximal Rectangle](../0085-maximal-rectangle/)
-- [223. Rectangle Area](../0223-rectangle-area/)
+- [478. Generate Random Point in a Circle](../0915-generate-random-point-in-a-circle/)
+- [1041. Robot Bounded In Circle](../1119-robot-bounded-in-circle/)
+- [1828. Queries on Number of Points Inside a Circle](../1939-queries-on-number-of-points-inside-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/circle-and-rectangle-overlapping/)

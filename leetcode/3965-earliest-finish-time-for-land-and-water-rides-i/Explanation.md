@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3635. Earliest Finish Time for Land and Water Rides II](../3967-earliest-finish-time-for-land-and-water-rides-ii/)
-- [3029. Minimum Time to Revert Word to Initial State I](../3297-minimum-time-to-revert-word-to-initial-state-i/)
-- [11. Container With Most Water](../0011-container-with-most-water/)
+- [1723. Find Minimum Time to Finish All Jobs](../1825-find-minimum-time-to-finish-all-jobs/)
+- [1665. Minimum Initial Energy to Finish Tasks](../1784-minimum-initial-energy-to-finish-tasks/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/)

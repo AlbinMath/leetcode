@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3318. Find X-Sum of All K-Long Subarrays I](../3610-find-x-sum-of-all-k-long-subarrays-i/)
+- [3321. Find X-Sum of All K-Long Subarrays II](../3592-find-x-sum-of-all-k-long-subarrays-ii/)
 - [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../0027-remove-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/long-pressed-name/)

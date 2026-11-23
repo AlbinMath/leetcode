@@ -62,7 +62,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
+- [89. Gray Code](../0089-gray-code/)
 - [62. Unique Paths](../0062-unique-paths/)
 - [63. Unique Paths II](../0063-unique-paths-ii/)
 

@@ -1,7 +1,7 @@
 # LeetCode 160: Intersection of Two Linked Lists
 
 **LeetCode Problem #160 — Intersection of Two Linked Lists**
-Solve LeetCode Intersection of Two Linked Lists using PHP and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Intersection of Two Linked Lists using JavaScript, PHP and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Intersection of Two Linked Lists using PHP and Two Pointers. This
 | Problem | Intersection of Two Linked Lists |
 | LeetCode | #160 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,9 +46,10 @@ Consider the standard input for **Intersection of Two Linked Lists**. Applying *
 - Sorting
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works

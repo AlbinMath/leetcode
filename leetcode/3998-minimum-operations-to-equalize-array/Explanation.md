@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
+- [2009. Minimum Number of Operations to Make Array Continuous](../2119-minimum-number-of-operations-to-make-array-continuous/)
 - [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
-- [3762. Minimum Operations to Equalize Subarrays](../4022-minimum-operations-to-equalize-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-equalize-array/)

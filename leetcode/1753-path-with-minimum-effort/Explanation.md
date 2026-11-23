@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [64. Minimum Path Sum](../0064-minimum-path-sum/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [2492. Minimum Score of a Path Between Two Cities](../2582-minimum-score-of-a-path-between-two-cities/)
+- [931. Minimum Falling Path Sum](../0967-minimum-falling-path-sum/)
+- [1289. Minimum Falling Path Sum II](../1224-minimum-falling-path-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-with-minimum-effort/)

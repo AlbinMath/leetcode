@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [303. Range Sum Query   Immutable](../0303-range-sum-query---immutable/)
-- [307. Range Sum Query   Mutable](../0307-range-sum-query---mutable/)
-- [938. Range Sum of BST](../0975-range-sum-of-bst/)
+- [303. Range Sum Query - Immutable](../0303-range-sum-query---immutable/)
+- [304. Range Sum Query 2D - Immutable](../0304-range-sum-query-2d---immutable/)
+- [307. Range Sum Query - Mutable](../0307-range-sum-query---mutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-of-range-sum/)

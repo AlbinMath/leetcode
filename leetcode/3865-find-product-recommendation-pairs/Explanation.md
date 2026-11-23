@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3554. Find Category Recommendation Pairs](../3891-find-category-recommendation-pairs/)
-- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
 - [1913. Maximum Product Difference Between Two Pairs](../2042-maximum-product-difference-between-two-pairs/)
+- [3539. Find Sum of Array Product of Magical Sequences](../3851-find-sum-of-array-product-of-magical-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-product-recommendation-pairs/)

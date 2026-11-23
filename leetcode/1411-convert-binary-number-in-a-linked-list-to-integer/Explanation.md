@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [109. Convert Sorted List to Binary Search Tree](../0109-convert-sorted-list-to-binary-search-tree/)
 - [114. Flatten Binary Tree to Linked List](../0114-flatten-binary-tree-to-linked-list/)
-- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
+- [1367. Linked List in Binary Tree](../1484-linked-list-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)

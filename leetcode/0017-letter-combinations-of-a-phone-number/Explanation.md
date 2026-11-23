@@ -73,8 +73,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1694. Reformat Phone Number](../1812-reformat-phone-number/)
-- [9. Palindrome Number](../0009-palindrome-number/)
-- [65. Valid Number](../0065-valid-number/)
+- [2056. Number of Valid Move Combinations On Chessboard](../2166-number-of-valid-move-combinations-on-chessboard/)
+- [193. Valid Phone Numbers](../0193-valid-phone-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)

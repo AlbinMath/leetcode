@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2513. Minimize the Maximum of Two Arrays](../2628-minimize-the-maximum-of-two-arrays/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [3426. Manhattan Distances of All Arrangements of Pieces](../3739-manhattan-distances-of-all-arrangements-of-pieces/)
+- [924. Minimize Malware Spread](../0960-minimize-malware-spread/)
+- [928. Minimize Malware Spread II](../0964-minimize-malware-spread-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-manhattan-distances/)

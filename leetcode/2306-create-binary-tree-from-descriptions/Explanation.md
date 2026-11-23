@@ -1,7 +1,7 @@
 # LeetCode 2196: Create Binary Tree From Descriptions
 
 **LeetCode Problem #2196 — Create Binary Tree From Descriptions**
-Solve LeetCode Create Binary Tree From Descriptions using Java and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Create Binary Tree From Descriptions using Java, Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Create Binary Tree From Descriptions using Java and Binary Search
 | Problem | Create Binary Tree From Descriptions |
 | LeetCode | #2196 |
 | Difficulty | Medium |
-| Language | Java |
+| Language | Java, Python |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -48,10 +48,11 @@ Consider the standard input for **Create Binary Tree From Descriptions**. Applyi
 - Search Space
 
 ## Language
-Java
+Java, Python
 
 ## Source Code
 - [solution.java](./solution.java)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -68,7 +69,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](../0105-construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](../0106-construct-binary-tree-from-inorder-and-postorder-traversal/)
-- [2096. Step-By-Step Directions From a Binary Tree Node to Another](../2217-step-by-step-directions-from-a-binary-tree-node-to-another/)
+- [606. Construct String from Binary Tree](../0606-construct-string-from-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-binary-tree-from-descriptions/)

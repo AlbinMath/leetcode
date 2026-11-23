@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
+- [2841. Maximum Sum of Almost Unique Subarray](../2954-maximum-sum-of-almost-unique-subarray/)
 - [3962. Maximum Subarray Sum After at Most K Swaps](../4246-maximum-subarray-sum-after-at-most-k-swaps/)
-- [53. Maximum Subarray](../0053-maximum-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-ascending-subarray-sum/)

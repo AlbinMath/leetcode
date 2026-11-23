@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
+- [2306. Naming a Company](../2390-naming-a-company/)
+- [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](../1562-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
 - [404. Sum of Left Leaves](../0404-sum-of-left-leaves/)
-- [627. Swap Sex of Employees](../0627-swap-sex-of-employees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-whose-manager-left-the-company/)

@@ -66,7 +66,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [235. Lowest Common Ancestor of a Binary Search Tree](../0235-lowest-common-ancestor-of-a-binary-search-tree/)
 - [1123. Lowest Common Ancestor of Deepest Leaves](../1218-lowest-common-ancestor-of-deepest-leaves/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
+- [1483. Kth Ancestor of a Tree Node](../1296-kth-ancestor-of-a-tree-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)

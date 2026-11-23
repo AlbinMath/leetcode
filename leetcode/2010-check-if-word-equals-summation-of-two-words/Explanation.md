@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [1003. Check If Word Is Valid After Substitutions](../1045-check-if-word-is-valid-after-substitutions/)
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
-- [1662. Check If Two String Arrays are Equivalent](../1781-check-if-two-string-arrays-are-equivalent/)
-- [884. Uncommon Words from Two Sentences](../0920-uncommon-words-from-two-sentences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)

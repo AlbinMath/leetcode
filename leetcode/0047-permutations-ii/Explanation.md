@@ -63,9 +63,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
 - [46. Permutations](../0046-permutations/)
+- [903. Valid Permutations for DI Sequence](../0939-valid-permutations-for-di-sequence/)
+- [2741. Special Permutations](../2848-special-permutations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/permutations-ii/)

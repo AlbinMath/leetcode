@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [182. Duplicate Emails](../0182-duplicate-emails/)
 - [1948. Delete Duplicate Folders in System](../2079-delete-duplicate-folders-in-system/)
-- [217. Contains Duplicate](../0217-contains-duplicate/)
+- [3436. Find Valid Emails](../3782-find-valid-emails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-duplicate-emails/)

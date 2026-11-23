@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1377. Frog Position After T Seconds](../1493-frog-position-after-t-seconds/)
 - [45. Jump Game II](../0045-jump-game-ii/)
 - [55. Jump Game](../0055-jump-game/)
-- [1306. Jump Game III](../1428-jump-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/frog-jump/)

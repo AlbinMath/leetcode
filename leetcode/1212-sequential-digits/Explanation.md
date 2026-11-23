@@ -71,9 +71,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
 - [258. Add Digits](../0258-add-digits/)
-- [788. Rotated Digits](../0804-rotated-digits/)
-- [1281. Subtract the Product and Sum of Digits of an Integer](../1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
+- [357. Count Numbers with Unique Digits](../0357-count-numbers-with-unique-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sequential-digits/)

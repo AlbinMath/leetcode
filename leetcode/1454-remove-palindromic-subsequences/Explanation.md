@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [730. Count Different Palindromic Subsequences](../0730-count-different-palindromic-subsequences/)
+- [1930. Unique Length-3 Palindromic Subsequences](../2059-unique-length-3-palindromic-subsequences/)
+- [2002. Maximum Product of the Length of Two Palindromic Subsequences](../2130-maximum-product-of-the-length-of-two-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-palindromic-subsequences/)

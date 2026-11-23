@@ -64,9 +64,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1584. Min Cost to Connect All Points](../1706-min-cost-to-connect-all-points/)
 - [70. Climbing Stairs](../0070-climbing-stairs/)
-- [155. Min Stack](../0155-min-stack/)
-- [1217. Minimum Cost to Move Chips to The Same Position](../1329-minimum-cost-to-move-chips-to-the-same-position/)
+- [3693. Climbing Stairs II](../4041-climbing-stairs-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/)

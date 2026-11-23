@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [596. Classes With at Least 5 Students](../0596-classes-with-at-least-5-students/)
 - [181. Employees Earning More Than Their Managers](../0181-employees-earning-more-than-their-managers/)
-- [747. Largest Number At Least Twice of Others](../0748-largest-number-at-least-twice-of-others/)
+- [1018. Binary Prefix Divisible By 5](../1071-binary-prefix-divisible-by-5/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)

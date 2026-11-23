@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1200. Minimum Absolute Difference](../1306-minimum-absolute-difference/)
-- [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
-- [1984. Minimum Difference Between Highest and Lowest of K Scores](../2112-minimum-difference-between-highest-and-lowest-of-k-scores/)
+- [3880. Minimum Absolute Difference Between Two Values](../4255-minimum-absolute-difference-between-two-values/)
+- [539. Minimum Time Difference](../0539-minimum-time-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)

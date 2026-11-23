@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [199. Binary Tree Right Side View](../0199-binary-tree-right-side-view/)
-- [27. Remove Element](../0027-remove-element/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [2295. Replace Elements in an Array](../2388-replace-elements-in-an-array/)
+- [1071. Greatest Common Divisor of Strings](../1146-greatest-common-divisor-of-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)

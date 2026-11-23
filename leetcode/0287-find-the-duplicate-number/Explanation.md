@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [609. Find Duplicate File in System](../0609-find-duplicate-file-in-system/)
+- [652. Find Duplicate Subtrees](../0652-find-duplicate-subtrees/)
 - [1295. Find Numbers with Even Number of Digits](../1421-find-numbers-with-even-number-of-digits/)
-- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
-- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-duplicate-number/)

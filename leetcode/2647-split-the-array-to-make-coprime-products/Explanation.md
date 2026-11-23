@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [410. Split Array Largest Sum](../0410-split-array-largest-sum/)
-- [1664. Ways to Make a Fair Array](../1783-ways-to-make-a-fair-array/)
-- [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
+- [805. Split Array With Same Average](../0823-split-array-with-same-average/)
+- [842. Split Array into Fibonacci Sequence](../0872-split-array-into-fibonacci-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)

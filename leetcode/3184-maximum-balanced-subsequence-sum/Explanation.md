@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
-- [918. Maximum Sum Circular Subarray](../0954-maximum-sum-circular-subarray/)
-- [1161. Maximum Level Sum of a Binary Tree](../1116-maximum-level-sum-of-a-binary-tree/)
+- [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../3423-maximum-sum-of-subsequence-with-non-adjacent-elements/)
+- [1425. Constrained Subsequence Sum](../1286-constrained-subsequence-sum/)
+- [1755. Closest Subsequence Sum](../1881-closest-subsequence-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-balanced-subsequence-sum/)

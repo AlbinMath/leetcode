@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3864. Minimum Cost to Partition a Binary String](../4192-minimum-cost-to-partition-a-binary-string/)
-- [111. Minimum Depth of Binary Tree](../0111-minimum-depth-of-binary-tree/)
-- [671. Second Minimum Node In a Binary Tree](../0671-second-minimum-node-in-a-binary-tree/)
+- [1864. Minimum Number of Swaps to Make the Binary String Alternating](../1994-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
+- [1888. Minimum Number of Flips to Make the Binary String Alternating](../2017-minimum-number-of-flips-to-make-the-binary-string-alternating/)
+- [2914. Minimum Number of Changes to Make Binary String Beautiful](../3174-minimum-number-of-changes-to-make-binary-string-beautiful/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)

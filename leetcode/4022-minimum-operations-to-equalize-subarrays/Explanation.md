@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3666. Minimum Operations to Equalize Binary String](../3983-minimum-operations-to-equalize-binary-string/)
 - [3674. Minimum Operations to Equalize Array](../3998-minimum-operations-to-equalize-array/)
-- [1658. Minimum Operations to Reduce X to Zero](../1776-minimum-operations-to-reduce-x-to-zero/)
-- [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
+- [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../3717-minimum-operations-to-make-elements-within-k-subarrays-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-equalize-subarrays/)

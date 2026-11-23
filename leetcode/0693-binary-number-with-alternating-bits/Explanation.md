@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [762. Prime Number of Set Bits in Binary Representation](../0767-prime-number-of-set-bits-in-binary-representation/)
-- [191. Number of 1 Bits](../0191-number-of-1-bits/)
-- [1290. Convert Binary Number in a Linked List to Integer](../1411-convert-binary-number-in-a-linked-list-to-integer/)
+- [1864. Minimum Number of Swaps to Make the Binary String Alternating](../1994-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
+- [1888. Minimum Number of Flips to Make the Binary String Alternating](../2017-minimum-number-of-flips-to-make-the-binary-string-alternating/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-number-with-alternating-bits/)

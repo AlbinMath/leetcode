@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3025. Find the Number of Ways to Place People I](../3278-find-the-number-of-ways-to-place-people-i/)
-- [3559. Number of Ways to Assign Edge Weights II](../3842-number-of-ways-to-assign-edge-weights-ii/)
-- [137. Single Number II](../0137-single-number-ii/)
+- [3154. Find Number of Ways to Reach the K-th Stair](../3414-find-number-of-ways-to-reach-the-k-th-stair/)
+- [3317. Find the Number of Possible Ways for an Event](../3604-find-the-number-of-possible-ways-for-an-event/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/)

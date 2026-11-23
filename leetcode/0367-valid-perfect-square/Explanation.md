@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [20. Valid Parentheses](../0020-valid-parentheses/)
-- [32. Longest Valid Parentheses](../0032-longest-valid-parentheses/)
-- [36. Valid Sudoku](../0036-valid-sudoku/)
+- [3715. Sum of Perfect Square Ancestors](../3957-sum-of-perfect-square-ancestors/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [221. Maximal Square](../0221-maximal-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-perfect-square/)

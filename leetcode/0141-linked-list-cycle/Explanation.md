@@ -1,7 +1,7 @@
 # LeetCode 141: Linked List Cycle
 
 **LeetCode Problem #141 — Linked List Cycle**
-Solve LeetCode Linked List Cycle using PHP and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
+Solve LeetCode Linked List Cycle using JavaScript, PHP, Python and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Linked List Cycle using PHP and Fast & Slow Pointers. This soluti
 | Problem | Linked List Cycle |
 | LeetCode | #141 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP, Python |
 | Algorithm | Floyd Cycle Detection |
 | Data Structure | Linked List / Pointer |
 | Pattern | Fast & Slow Pointers |
@@ -45,10 +45,12 @@ Consider the standard input for **Linked List Cycle**. Applying **Floyd Cycle De
 - Cycle Detection
 
 ## Language
-PHP
+JavaScript, PHP, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

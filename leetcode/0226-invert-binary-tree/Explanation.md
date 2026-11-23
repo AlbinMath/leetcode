@@ -1,7 +1,7 @@
 # LeetCode 226: Invert Binary Tree
 
 **LeetCode Problem #226 — Invert Binary Tree**
-Solve LeetCode Invert Binary Tree using PHP and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Invert Binary Tree using JavaScript, PHP and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Invert Binary Tree using PHP and Binary Search. This solution fin
 | Problem | Invert Binary Tree |
 | LeetCode | #226 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,9 +46,10 @@ Consider the standard input for **Invert Binary Tree**. Applying **Modified Bina
 - Search Space
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works

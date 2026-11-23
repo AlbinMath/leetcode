@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3426. Manhattan Distances of All Arrangements of Pieces](../3739-manhattan-distances-of-all-arrangements-of-pieces/)
 - [762. Prime Number of Set Bits in Binary Representation](../0767-prime-number-of-set-bits-in-binary-representation/)
-- [2507. Smallest Value After Replacing With Sum of Prime Factors](../2595-smallest-value-after-replacing-with-sum-of-prime-factors/)
-- [2521. Distinct Prime Factors of Product of Array](../2609-distinct-prime-factors-of-product-of-array/)
+- [866. Prime Palindrome](../0897-prime-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prime-arrangements/)

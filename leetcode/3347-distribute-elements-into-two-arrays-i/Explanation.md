@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3072. Distribute Elements Into Two Arrays II](../3350-distribute-elements-into-two-arrays-ii/)
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
-- [349. Intersection of Two Arrays](../0349-intersection-of-two-arrays/)
+- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../2162-partition-array-into-two-arrays-to-minimize-sum-difference/)
+- [3566. Partition Array into Two Equal Product Subsets](../3843-partition-array-into-two-equal-product-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/)

@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2601. Prime Subtraction Operation](../2716-prime-subtraction-operation/)
+- [166. Fraction to Recurring Decimal](../0166-fraction-to-recurring-decimal/)
 - [598. Range Addition II](../0598-range-addition-ii/)
-- [7. Reverse Integer](../0007-reverse-integer/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fraction-addition-and-subtraction/)

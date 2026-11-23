@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [396. Rotate Function](../0396-rotate-function/)
-- [2650. Design Cancellable Function](../2788-design-cancellable-function/)
-- [2666. Allow One Function Call](../2796-allow-one-function-call/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../1645-find-a-value-of-a-mysterious-function-closest-to-target/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../1662-minimum-numbers-of-function-calls-to-make-target-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/function-composition/)

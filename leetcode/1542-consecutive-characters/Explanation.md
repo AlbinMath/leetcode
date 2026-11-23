@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
+- [1576. Replace All ?'s to Avoid Consecutive Repeating Characters](../1698-replace-all-s-to-avoid-consecutive-repeating-characters/)
+- [3970. Shortest Path With At Most K Consecutive Identical Characters](../4104-shortest-path-with-at-most-k-consecutive-identical-characters/)
 - [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
-- [180. Consecutive Numbers](../0180-consecutive-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/consecutive-characters/)

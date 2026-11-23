@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [812. Largest Triangle Area](../0830-largest-triangle-area/)
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [3020. Find the Maximum Number of Elements in Subset](../3299-find-the-maximum-number-of-elements-in-subset/)
+- [2744. Find Maximum Number of String Pairs](../2847-find-maximum-number-of-string-pairs/)
+- [2945. Find Maximum Non-decreasing Array Length](../3211-find-maximum-non-decreasing-array-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-maximum-area-of-a-triangle/)

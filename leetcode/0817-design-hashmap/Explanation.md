@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
-- [705. Design HashSet](../0816-design-hashset/)
-- [1472. Design Browser History](../1582-design-browser-history/)
+- [355. Design Twitter](../0355-design-twitter/)
+- [622. Design Circular Queue](../0860-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-hashmap/)

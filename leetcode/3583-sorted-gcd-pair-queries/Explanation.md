@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [4010. Maximize Pair Strength Using GCD](../4371-maximize-pair-strength-using-gcd/)
 - [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
 - [21. Merge Two Sorted Lists](../0021-merge-two-sorted-lists/)
-- [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sorted-gcd-pair-queries/)

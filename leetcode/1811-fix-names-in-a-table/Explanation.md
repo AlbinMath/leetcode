@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1487. Making File Names Unique](../1611-making-file-names-unique/)
 - [668. Kth Smallest Number in Multiplication Table](../0668-kth-smallest-number-in-multiplication-table/)
 - [1179. Reformat Department Table](../1301-reformat-department-table/)
-- [1795. Rearrange Products Table](../1948-rearrange-products-table/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fix-names-in-a-table/)

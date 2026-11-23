@@ -69,8 +69,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2635. Apply Transform Over Each Element in Array](../2747-apply-transform-over-each-element-in-array/)
+- [3896. Minimum Operations to Transform Array into Alternating Prime](../4277-minimum-operations-to-transform-array-into-alternating-prime/)
 - [4062. Transform Array Using Pair Operations](../4398-transform-array-using-pair-operations/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-transform-of-an-array/)

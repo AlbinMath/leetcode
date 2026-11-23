@@ -1,7 +1,7 @@
 # LeetCode 200: Number of Islands
 
 **LeetCode Problem #200 — Number of Islands**
-Solve LeetCode Number of Islands using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Number of Islands using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Number of Islands using JavaScript and Array / General. This solu
 | Problem | Number of Islands |
 | LeetCode | #200 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Number of Islands**. Applying **In-Place Array
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [65. Valid Number](../0065-valid-number/)
+- [1254. Number of Closed Islands](../1380-number-of-closed-islands/)
+- [1905. Count Sub Islands](../2035-count-sub-islands/)
+- [3619. Count Islands With Total Value Divisible by K](../3823-count-islands-with-total-value-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-islands/)

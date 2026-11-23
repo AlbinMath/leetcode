@@ -1,7 +1,7 @@
 # LeetCode 23: Merge k Sorted Lists
 
 **LeetCode Problem #23 — Merge k Sorted Lists**
-Solve LeetCode Merge k Sorted Lists using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
+Solve LeetCode Merge k Sorted Lists using JavaScript, Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Merge k Sorted Lists using Python and Two Pointers. This solution
 | Problem | Merge k Sorted Lists |
 | LeetCode | #23 |
 | Difficulty | Hard |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
 | Pattern | Two Pointers |
@@ -46,9 +46,10 @@ Consider the standard input for **Merge k Sorted Lists**. Applying **Two Pointer
 - Sorting
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -65,8 +66,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [21. Merge Two Sorted Lists](../0021-merge-two-sorted-lists/)
+- [3801. Minimum Cost to Merge Sorted Lists](../4144-minimum-cost-to-merge-sorted-lists/)
 - [88. Merge Sorted Array](../0088-merge-sorted-array/)
-- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/)

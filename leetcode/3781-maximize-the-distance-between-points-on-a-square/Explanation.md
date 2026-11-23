@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
 - [1385. Find the Distance Value Between Two Arrays](../1486-find-the-distance-value-between-two-arrays/)
-- [1637. Widest Vertical Area Between Two Points Containing No Points](../1742-widest-vertical-area-between-two-points-containing-no-points/)
+- [1617. Count Subtrees With Max Distance Between Cities](../1740-count-subtrees-with-max-distance-between-cities/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/)

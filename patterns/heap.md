@@ -18,13 +18,15 @@ A collection of LeetCode problems solved using **Heap** pattern techniques, expl
 |---|---|---|---|---|---|
 | 12 | [Integer to Roman](../leetcode/0012-integer-to-roman/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0012-integer-to-roman/Explanation.md) |
 
-| 56 | [Merge Intervals](../leetcode/0056-merge-intervals/) | Python | O(n) | O(n) | [Explanation](../leetcode/0056-merge-intervals/Explanation.md) |
+| 56 | [Merge Intervals](../leetcode/0056-merge-intervals/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0056-merge-intervals/Explanation.md) |
 
 | 57 | [Insert Interval](../leetcode/0057-insert-interval/) | Python | O(n) | O(n) | [Explanation](../leetcode/0057-insert-interval/Explanation.md) |
 
 | 435 | [Non-overlapping Intervals](../leetcode/0435-non-overlapping-intervals/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0435-non-overlapping-intervals/Explanation.md) |
 
 | 436 | [Find Right Interval](../leetcode/0436-find-right-interval/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0436-find-right-interval/Explanation.md) |
+
+| 787 | [Cheapest Flights Within K Stops](../leetcode/0803-cheapest-flights-within-k-stops/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0803-cheapest-flights-within-k-stops/Explanation.md) |
 
 | 986 | [Interval List Intersections](../leetcode/1028-interval-list-intersections/) | Python | O(n) | O(n) | [Explanation](../leetcode/1028-interval-list-intersections/Explanation.md) |
 

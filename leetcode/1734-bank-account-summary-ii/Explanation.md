@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
-- [47. Permutations II](../0047-permutations-ii/)
+- [228. Summary Ranges](../0228-summary-ranges/)
+- [1716. Calculate Money in Leetcode Bank](../1817-calculate-money-in-leetcode-bank/)
+- [2043. Simple Bank System](../2169-simple-bank-system/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bank-account-summary-ii/)

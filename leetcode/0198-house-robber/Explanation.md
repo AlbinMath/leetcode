@@ -1,7 +1,7 @@
 # LeetCode 198: House Robber
 
 **LeetCode Problem #198 — House Robber**
-Solve LeetCode House Robber using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode House Robber using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode House Robber using JavaScript and Tree & Graph. This solution fin
 | Problem | House Robber |
 | LeetCode | #198 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,10 +47,11 @@ Consider the standard input for **House Robber**. Applying **Depth-First Search 
 - BFS
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -65,9 +66,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [337. House Robber III](../0337-house-robber-iii/)
 - [6. Zigzag Conversion](../0006-zigzag-conversion/)
 - [38. Count and Say](../0038-count-and-say/)
-- [50. Pow(x, n)](../0050-powx-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/house-robber/)

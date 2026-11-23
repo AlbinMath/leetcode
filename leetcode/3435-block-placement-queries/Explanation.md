@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1314. Matrix Block Sum](../1242-matrix-block-sum/)
+- [985. Sum of Even Numbers After Queries](../1027-sum-of-even-numbers-after-queries/)
 - [1211. Queries Quality and Percentage](../1338-queries-quality-and-percentage/)
-- [1409. Queries on a Permutation With Key](../1525-queries-on-a-permutation-with-key/)
-- [1828. Queries on Number of Points Inside a Circle](../1939-queries-on-number-of-points-inside-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/block-placement-queries/)

@@ -1,7 +1,7 @@
 # LeetCode 543: Diameter of Binary Tree
 
 **LeetCode Problem #543 — Diameter of Binary Tree**
-Solve LeetCode Diameter of Binary Tree using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Diameter of Binary Tree using JavaScript, Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Diameter of Binary Tree using Python and Binary Search. This solu
 | Problem | Diameter of Binary Tree |
 | LeetCode | #543 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,9 +46,10 @@ Consider the standard input for **Diameter of Binary Tree**. Applying **Modified
 - Search Space
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works

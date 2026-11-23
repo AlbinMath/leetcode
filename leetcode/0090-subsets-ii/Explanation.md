@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
-- [47. Permutations II](../0047-permutations-ii/)
+- [78. Subsets](../0078-subsets/)
+- [698. Partition to K Equal Sum Subsets](../0698-partition-to-k-equal-sum-subsets/)
+- [916. Word Subsets](../0952-word-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subsets-ii/)

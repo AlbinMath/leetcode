@@ -8,25 +8,25 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | Python | O(log n) | O(1) | [Explanation](../leetcode/0035-search-insert-position/Explanation.md) |
+| 35 | [Search Insert Position](../leetcode/0035-search-insert-position/) | JavaScript, Python | O(log n) | O(1) | [Explanation](../leetcode/0035-search-insert-position/Explanation.md) |
 
 | 67 | [Add Binary](../leetcode/0067-add-binary/) | Python | O(n) | O(1) | [Explanation](../leetcode/0067-add-binary/Explanation.md) |
 
-| 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0094-binary-tree-inorder-traversal/Explanation.md) |
+| 94 | [Binary Tree Inorder Traversal](../leetcode/0094-binary-tree-inorder-traversal/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0094-binary-tree-inorder-traversal/Explanation.md) |
 
 | 100 | [Same Tree](../leetcode/0100-same-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0100-same-tree/Explanation.md) |
 
-| 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0101-symmetric-tree/Explanation.md) |
+| 101 | [Symmetric Tree](../leetcode/0101-symmetric-tree/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0101-symmetric-tree/Explanation.md) |
 
 | 104 | [Maximum Depth of Binary Tree](../leetcode/0104-maximum-depth-of-binary-tree/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0104-maximum-depth-of-binary-tree/Explanation.md) |
 
-| 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0108-convert-sorted-array-to-binary-search-tree/Explanation.md) |
+| 108 | [Convert Sorted Array to Binary Search Tree](../leetcode/0108-convert-sorted-array-to-binary-search-tree/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0108-convert-sorted-array-to-binary-search-tree/Explanation.md) |
 
 | 110 | [Balanced Binary Tree](../leetcode/0110-balanced-binary-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0110-balanced-binary-tree/Explanation.md) |
 
 | 111 | [Minimum Depth of Binary Tree](../leetcode/0111-minimum-depth-of-binary-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0111-minimum-depth-of-binary-tree/Explanation.md) |
 
-| 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0226-invert-binary-tree/Explanation.md) |
+| 226 | [Invert Binary Tree](../leetcode/0226-invert-binary-tree/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0226-invert-binary-tree/Explanation.md) |
 
 | 257 | [Binary Tree Paths](../leetcode/0257-binary-tree-paths/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0257-binary-tree-paths/Explanation.md) |
 
@@ -38,7 +38,7 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 530 | [Minimum Absolute Difference in BST](../leetcode/0530-minimum-absolute-difference-in-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0530-minimum-absolute-difference-in-bst/Explanation.md) |
 
-| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0543-diameter-of-binary-tree/Explanation.md) |
+| 543 | [Diameter of Binary Tree](../leetcode/0543-diameter-of-binary-tree/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0543-diameter-of-binary-tree/Explanation.md) |
 
 | 563 | [Binary Tree Tilt](../leetcode/0563-binary-tree-tilt/) | Python | O(n) | O(1) | [Explanation](../leetcode/0563-binary-tree-tilt/Explanation.md) |
 
@@ -49,6 +49,8 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 | 628 | [Maximum Product of Three Numbers](../leetcode/0628-maximum-product-of-three-numbers/) | Elixir | O(n) | O(1) | [Explanation](../leetcode/0628-maximum-product-of-three-numbers/Explanation.md) |
 
 | 637 | [Average of Levels in Binary Tree](../leetcode/0637-average-of-levels-in-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0637-average-of-levels-in-binary-tree/Explanation.md) |
+
+| 653 | [Two Sum IV - Input is a BST](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0653-two-sum-iv---input-is-a-bst/Explanation.md) |
 
 | 700 | [Search in a Binary Search Tree](../leetcode/0783-search-in-a-binary-search-tree/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0783-search-in-a-binary-search-tree/Explanation.md) |
 
@@ -86,13 +88,13 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 |---|---|---|---|---|---|
 | 15 | [3Sum](../leetcode/0015-3sum/) | JavaScript | O(log n) | O(1) | [Explanation](../leetcode/0015-3sum/Explanation.md) |
 
-| 16 | [3Sum Closest](../leetcode/0016-3sum-closest/) | JavaScript | O(log n) | O(1) | [Explanation](../leetcode/0016-3sum-closest/Explanation.md) |
+| 16 | [3Sum Closest](../leetcode/0016-3sum-closest/) | JavaScript, Python | O(log n) | O(1) | [Explanation](../leetcode/0016-3sum-closest/Explanation.md) |
 
 | 18 | [4Sum](../leetcode/0018-4sum/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0018-4sum/Explanation.md) |
 
-| 33 | [Search in Rotated Sorted Array](../leetcode/0033-search-in-rotated-sorted-array/) | C++, Python | O(log n) | O(1) | [Explanation](../leetcode/0033-search-in-rotated-sorted-array/Explanation.md) |
+| 33 | [Search in Rotated Sorted Array](../leetcode/0033-search-in-rotated-sorted-array/) | C++, JavaScript, Python | O(log n) | O(1) | [Explanation](../leetcode/0033-search-in-rotated-sorted-array/Explanation.md) |
 
-| 34 | [Find First and Last Position of Element in Sorted Array](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/) | Python | O(log n) | O(1) | [Explanation](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/Explanation.md) |
+| 34 | [Find First and Last Position of Element in Sorted Array](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/) | JavaScript, Python | O(log n) | O(1) | [Explanation](../leetcode/0034-find-first-and-last-position-of-element-in-sorted-array/Explanation.md) |
 
 | 62 | [Unique Paths](../leetcode/0062-unique-paths/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0062-unique-paths/Explanation.md) |
 
@@ -112,7 +114,7 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 114 | [Flatten Binary Tree to Linked List](../leetcode/0114-flatten-binary-tree-to-linked-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0114-flatten-binary-tree-to-linked-list/Explanation.md) |
 
-| 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/0153-find-minimum-in-rotated-sorted-array/Explanation.md) |
+| 153 | [Find Minimum in Rotated Sorted Array](../leetcode/0153-find-minimum-in-rotated-sorted-array/) | C++, JavaScript | O(log n) | O(1) | [Explanation](../leetcode/0153-find-minimum-in-rotated-sorted-array/Explanation.md) |
 
 | 162 | [Find Peak Element](../leetcode/0162-find-peak-element/) | JavaScript | O(log n) | O(1) | [Explanation](../leetcode/0162-find-peak-element/Explanation.md) |
 
@@ -132,13 +134,17 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 347 | [Top K Frequent Elements](../leetcode/0347-top-k-frequent-elements/) | Python | O(n log n) | O(1) | [Explanation](../leetcode/0347-top-k-frequent-elements/Explanation.md) |
 
-| 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0450-delete-node-in-a-bst/Explanation.md) |
+| 449 | [Serialize and Deserialize BST](../leetcode/0449-serialize-and-deserialize-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0449-serialize-and-deserialize-bst/Explanation.md) |
+
+| 450 | [Delete Node in a BST](../leetcode/0450-delete-node-in-a-bst/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0450-delete-node-in-a-bst/Explanation.md) |
+
+| 538 | [Convert BST to Greater Tree](../leetcode/0538-convert-bst-to-greater-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0538-convert-bst-to-greater-tree/Explanation.md) |
 
 | 540 | [Single Element in a Sorted Array](../leetcode/0540-single-element-in-a-sorted-array/) | JavaScript | O(log n) | O(1) | [Explanation](../leetcode/0540-single-element-in-a-sorted-array/Explanation.md) |
 
-| 653 | [Two Sum Iv   Input Is A Bst](../leetcode/0653-two-sum-iv---input-is-a-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/0653-two-sum-iv---input-is-a-bst/Explanation.md) |
-
 | 669 | [Trim a Binary Search Tree](../leetcode/0669-trim-a-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0669-trim-a-binary-search-tree/Explanation.md) |
+
+| 701 | [Insert into a Binary Search Tree](../leetcode/0784-insert-into-a-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0784-insert-into-a-binary-search-tree/Explanation.md) |
 
 | 788 | [Rotated Digits](../leetcode/0804-rotated-digits/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0804-rotated-digits/Explanation.md) |
 
@@ -146,13 +152,21 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 912 | [Sort an Array](../leetcode/0948-sort-an-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/0948-sort-an-array/Explanation.md) |
 
+| 1008 | [Construct Binary Search Tree from Preorder Traversal](../leetcode/1050-construct-binary-search-tree-from-preorder-traversal/) | Python | O(n) | O(1) | [Explanation](../leetcode/1050-construct-binary-search-tree-from-preorder-traversal/Explanation.md) |
+
+| 1038 | [Binary Search Tree to Greater Sum Tree](../leetcode/1114-binary-search-tree-to-greater-sum-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/1114-binary-search-tree-to-greater-sum-tree/Explanation.md) |
+
 | 1123 | [Lowest Common Ancestor of Deepest Leaves](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1218-lowest-common-ancestor-of-deepest-leaves/Explanation.md) |
 
 | 1161 | [Maximum Level Sum of a Binary Tree](../leetcode/1116-maximum-level-sum-of-a-binary-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1116-maximum-level-sum-of-a-binary-tree/Explanation.md) |
 
 | 1288 | [Remove Covered Intervals](../leetcode/1222-remove-covered-intervals/) | Java | O(log n) | O(1) | [Explanation](../leetcode/1222-remove-covered-intervals/Explanation.md) |
 
+| 1305 | [All Elements in Two Binary Search Trees](../leetcode/1427-all-elements-in-two-binary-search-trees/) | Python | O(n) | O(1) | [Explanation](../leetcode/1427-all-elements-in-two-binary-search-trees/Explanation.md) |
+
 | 1372 | [Longest ZigZag Path in a Binary Tree](../leetcode/1474-longest-zigzag-path-in-a-binary-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1474-longest-zigzag-path-in-a-binary-tree/Explanation.md) |
+
+| 1382 | [Balance a Binary Search Tree](../leetcode/1285-balance-a-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/1285-balance-a-binary-search-tree/Explanation.md) |
 
 | 1448 | [Count Good Nodes in Binary Tree](../leetcode/1544-count-good-nodes-in-binary-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1544-count-good-nodes-in-binary-tree/Explanation.md) |
 
@@ -160,7 +174,9 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 1846 | [Maximum Element After Decreasing and Rearranging](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/) | Java | O(log n) | O(1) | [Explanation](../leetcode/1956-maximum-element-after-decreasing-and-rearranging/Explanation.md) |
 
-| 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Java | O(n) | O(1) | [Explanation](../leetcode/2306-create-binary-tree-from-descriptions/Explanation.md) |
+| 2196 | [Create Binary Tree From Descriptions](../leetcode/2306-create-binary-tree-from-descriptions/) | Java, Python | O(n) | O(1) | [Explanation](../leetcode/2306-create-binary-tree-from-descriptions/Explanation.md) |
+
+| 2476 | [Closest Nodes Queries in a Binary Search Tree](../leetcode/2567-closest-nodes-queries-in-a-binary-search-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/2567-closest-nodes-queries-in-a-binary-search-tree/Explanation.md) |
 
 | 3514 | [Number of Unique XOR Triplets II](../leetcode/3820-number-of-unique-xor-triplets-ii/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3820-number-of-unique-xor-triplets-ii/Explanation.md) |
 
@@ -168,11 +184,13 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 3689 | [Maximum Total Subarray Value I](../leetcode/4005-maximum-total-subarray-value-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/4005-maximum-total-subarray-value-i/Explanation.md) |
 
+| 4021 | [Minimum Operations to Make a Rotated Palindrome I](../leetcode/4350-minimum-operations-to-make-a-rotated-palindrome-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/4350-minimum-operations-to-make-a-rotated-palindrome-i/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 4 | [Median of Two Sorted Arrays](../leetcode/0004-median-of-two-sorted-arrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/0004-median-of-two-sorted-arrays/Explanation.md) |
+| 4 | [Median of Two Sorted Arrays](../leetcode/0004-median-of-two-sorted-arrays/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0004-median-of-two-sorted-arrays/Explanation.md) |
 
 | 154 | [Find Minimum in Rotated Sorted Array II](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/) | C++ | O(n) | O(1) | [Explanation](../leetcode/0154-find-minimum-in-rotated-sorted-array-ii/Explanation.md) |
 
@@ -180,11 +198,17 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 
 | 297 | [Serialize and Deserialize Binary Tree](../leetcode/0297-serialize-and-deserialize-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/0297-serialize-and-deserialize-binary-tree/Explanation.md) |
 
+| 1206 | [Design Skiplist](../leetcode/1337-design-skiplist/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1337-design-skiplist/Explanation.md) |
+
+| 1373 | [Maximum Sum BST in Binary Tree](../leetcode/1475-maximum-sum-bst-in-binary-tree/) | Python | O(n) | O(1) | [Explanation](../leetcode/1475-maximum-sum-bst-in-binary-tree/Explanation.md) |
+
 | 1483 | [Kth Ancestor of a Tree Node](../leetcode/1296-kth-ancestor-of-a-tree-node/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1296-kth-ancestor-of-a-tree-node/Explanation.md) |
 
 | 1569 | [Number of Ways to Reorder Array to Get Same BST](../leetcode/1692-number-of-ways-to-reorder-array-to-get-same-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/1692-number-of-ways-to-reorder-array-to-get-same-bst/Explanation.md) |
 
 | 1665 | [Minimum Initial Energy to Finish Tasks](../leetcode/1784-minimum-initial-energy-to-finish-tasks/) | C++ | O(log n) | O(1) | [Explanation](../leetcode/1784-minimum-initial-energy-to-finish-tasks/Explanation.md) |
+
+| 1932 | [Merge BSTs to Create Single BST](../leetcode/2060-merge-bsts-to-create-single-bst/) | Python | O(n) | O(1) | [Explanation](../leetcode/2060-merge-bsts-to-create-single-bst/Explanation.md) |
 
 | 2213 | [Longest Substring of One Repeating Character](../leetcode/2319-longest-substring-of-one-repeating-character/) | Java | O(n) | O(1) | [Explanation](../leetcode/2319-longest-substring-of-one-repeating-character/Explanation.md) |
 

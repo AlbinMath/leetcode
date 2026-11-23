@@ -72,7 +72,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [877. Stone Game](../0909-stone-game/)
 - [1140. Stone Game II](../1240-stone-game-ii/)
-- [1306. Jump Game III](../1428-jump-game-iii/)
+- [1510. Stone Game IV](../1617-stone-game-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stone-game-iii/)

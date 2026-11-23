@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3014. Minimum Number of Pushes to Type Word I](../3275-minimum-number-of-pushes-to-type-word-i/)
+- [1320. Minimum Distance to Type a Word Using Two Fingers](../1443-minimum-distance-to-type-a-word-using-two-fingers/)
 - [1974. Minimum Time to Type Word Using Special Typewriter](../2088-minimum-time-to-type-word-using-special-typewriter/)
-- [3031. Minimum Time to Revert Word to Initial State II](../3296-minimum-time-to-revert-word-to-initial-state-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/)

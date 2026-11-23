@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2526. Find Consecutive Integers from a Data Stream](../2620-find-consecutive-integers-from-a-data-stream/)
-- [352. Data Stream as Disjoint Intervals](../0352-data-stream-as-disjoint-intervals/)
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
+- [2115. Find All Possible Recipes from Given Supplies](../2220-find-all-possible-recipes-from-given-supplies/)
+- [3403. Find the Lexicographically Largest String From the Box I](../3683-find-the-lexicographically-largest-string-from-the-box-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-median-from-data-stream/)

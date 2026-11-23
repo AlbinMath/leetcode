@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [45. Jump Game II](../0045-jump-game-ii/)
 - [55. Jump Game](../0055-jump-game/)
-- [289. Game of Life](../0289-game-of-life/)
+- [174. Dungeon Game](../0174-dungeon-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/chalkboard-xor-game/)

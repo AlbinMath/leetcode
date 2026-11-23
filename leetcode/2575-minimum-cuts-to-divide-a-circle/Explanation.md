@@ -64,9 +64,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [29. Divide Two Integers](../0029-divide-two-integers/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
-- [76. Minimum Window Substring](../0076-minimum-window-substring/)
+- [3010. Divide an Array Into Subarrays With Minimum Cost I](../3263-divide-an-array-into-subarrays-with-minimum-cost-i/)
+- [3013. Divide an Array Into Subarrays With Minimum Cost II](../3260-divide-an-array-into-subarrays-with-minimum-cost-ii/)
+- [478. Generate Random Point in a Circle](../0915-generate-random-point-in-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)

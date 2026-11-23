@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [712. Minimum ASCII Delete Sum for Two Strings](../0712-minimum-ascii-delete-sum-for-two-strings/)
+- [1879. Minimum XOR Sum of Two Arrays](../1989-minimum-xor-sum-of-two-arrays/)
 - [1. Two Sum](../0001-two-sum/)
-- [21. Merge Two Sorted Lists](../0021-merge-two-sorted-lists/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../0027-remove-element/)
+- [2081. Sum of k-Mirror Numbers](../2202-sum-of-k-mirror-numbers/)
+- [3412. Find Mirror Score of a String](../3634-find-mirror-score-of-a-string/)
+- [3665. Twisted Mirror Path Count](../3938-twisted-mirror-path-count/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/mirror-reflection/)

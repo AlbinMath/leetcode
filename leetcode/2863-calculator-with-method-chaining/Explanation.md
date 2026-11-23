@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2891. Method Chaining](../3063-method-chaining/)
 - [224. Basic Calculator](../0224-basic-calculator/)
-- [1. Two Sum](../0001-two-sum/)
+- [227. Basic Calculator II](../0227-basic-calculator-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculator-with-method-chaining/)

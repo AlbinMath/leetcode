@@ -64,9 +64,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [57. Insert Interval](../0057-insert-interval/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
-- [76. Minimum Window Substring](../0076-minimum-window-substring/)
+- [1769. Minimum Number of Operations to Move All Balls to Each Box](../1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
+- [1829. Maximum XOR for Each Query](../1940-maximum-xor-for-each-query/)
+- [116. Populating Next Right Pointers in Each Node](../0116-populating-next-right-pointers-in-each-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-interval-to-include-each-query/)

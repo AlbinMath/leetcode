@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [609. Find Duplicate File in System](../0609-find-duplicate-file-in-system/)
 - [196. Delete Duplicate Emails](../0196-delete-duplicate-emails/)
-- [182. Duplicate Emails](../0182-duplicate-emails/)
-- [217. Contains Duplicate](../0217-contains-duplicate/)
+- [1268. Search Suggestions System](../1397-search-suggestions-system/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-duplicate-folders-in-system/)

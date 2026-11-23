@@ -64,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1566. Detect Pattern of Length M Repeated K or More Times](../1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [3407. Substring Matching Pattern](../3684-substring-matching-pattern/)
+- [1156. Swap For Longest Repeated Character Substring](../1261-swap-for-longest-repeated-character-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-substring-pattern/)

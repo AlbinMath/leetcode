@@ -65,8 +65,8 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 
 ## Related Problems
 - [14. Longest Common Prefix](../0014-longest-common-prefix/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
+- [745. Prefix and Suffix Search](../0746-prefix-and-suffix-search/)
+- [1018. Binary Prefix Divisible By 5](../1071-binary-prefix-divisible-by-5/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/)

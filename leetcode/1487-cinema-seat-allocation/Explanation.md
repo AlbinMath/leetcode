@@ -1,7 +1,7 @@
 # LeetCode 1386: Cinema Seat Allocation
 
 **LeetCode Problem #1386 — Cinema Seat Allocation**
-Solve LeetCode Cinema Seat Allocation using C++ and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+Solve LeetCode Cinema Seat Allocation using C++, Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Cinema Seat Allocation using C++ and Hash Map. This solution find
 | Problem | Cinema Seat Allocation |
 | LeetCode | #1386 |
 | Difficulty | Medium |
-| Language | C++ |
+| Language | C++, Python |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
 | Pattern | Hash Map |
@@ -56,10 +56,11 @@ Consider the standard input for **Cinema Seat Allocation**. Applying **Complemen
 - Complement Lookup
 
 ## Language
-C++
+C++, Python
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -75,8 +76,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1227. Airplane Seat Assignment Probability](../1362-airplane-seat-assignment-probability/)
+- [1845. Seat Reservation Manager](../1955-seat-reservation-manager/)
 - [2037. Minimum Number of Moves to Seat Everyone](../2148-minimum-number-of-moves-to-seat-everyone/)
-- [1. Two Sum](../0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cinema-seat-allocation/)

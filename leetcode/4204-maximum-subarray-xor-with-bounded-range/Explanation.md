@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3755. Find Maximum Balanced XOR Subarray Length](../3946-find-maximum-balanced-xor-subarray-length/)
 - [53. Maximum Subarray](../0053-maximum-subarray/)
 - [152. Maximum Product Subarray](../0152-maximum-product-subarray/)
-- [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subarray-xor-with-bounded-range/)

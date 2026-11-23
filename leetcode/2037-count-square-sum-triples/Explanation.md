@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [327. Count of Range Sum](../0327-count-of-range-sum/)
 - [633. Sum of Square Numbers](../0633-sum-of-square-numbers/)
-- [1. Two Sum](../0001-two-sum/)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-square-sum-triples/)

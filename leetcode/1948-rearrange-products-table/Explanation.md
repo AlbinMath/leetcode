@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [668. Kth Smallest Number in Multiplication Table](../0668-kth-smallest-number-in-multiplication-table/)
 - [1045. Customers Who Bought All Products](../1135-customers-who-bought-all-products/)
-- [1179. Reformat Department Table](../1301-reformat-department-table/)
+- [1327. List the Products Ordered in a Period](../1462-list-the-products-ordered-in-a-period/)
+- [1484. Group Sold Products By The Date](../1625-group-sold-products-by-the-date/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-products-table/)

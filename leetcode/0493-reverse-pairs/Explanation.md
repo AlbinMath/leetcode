@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [7. Reverse Integer](../0007-reverse-integer/)
 - [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
+- [336. Palindrome Pairs](../0336-palindrome-pairs/)
+- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-pairs/)

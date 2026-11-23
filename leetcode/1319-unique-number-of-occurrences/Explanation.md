@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1297. Maximum Number of Occurrences of a Substring](../1423-maximum-number-of-occurrences-of-a-substring/)
 - [1941. Check if All Characters Have Equal Number of Occurrences](../2053-check-if-all-characters-have-equal-number-of-occurrences/)
-- [2356. Number of Unique Subjects Taught by Each Teacher](../2495-number-of-unique-subjects-taught-by-each-teacher/)
-- [3513. Number of Unique XOR Triplets I](../3824-number-of-unique-xor-triplets-i/)
+- [1593. Split a String Into the Max Number of Unique Substrings](../1715-split-a-string-into-the-max-number-of-unique-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-number-of-occurrences/)

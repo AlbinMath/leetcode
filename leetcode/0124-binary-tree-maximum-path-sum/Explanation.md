@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1161. Maximum Level Sum of a Binary Tree](../1116-maximum-level-sum-of-a-binary-tree/)
+- [1373. Maximum Sum BST in Binary Tree](../1475-maximum-sum-bst-in-binary-tree/)
 - [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
-- [1372. Longest ZigZag Path in a Binary Tree](../1474-longest-zigzag-path-in-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-tree-maximum-path-sum/)

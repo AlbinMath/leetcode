@@ -1,7 +1,7 @@
 # LeetCode 39: Combination Sum
 
 **LeetCode Problem #39 — Combination Sum**
-Solve LeetCode Combination Sum using Python and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
+Solve LeetCode Combination Sum using JavaScript, Python and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Combination Sum using Python and Backtracking. This solution find
 | Problem | Combination Sum |
 | LeetCode | #39 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Backtracking Recursive Search |
 | Data Structure | Recursion Tree |
 | Pattern | Backtracking |
@@ -45,9 +45,10 @@ Consider the standard input for **Combination Sum**. Applying **Backtracking Rec
 - Recursion
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -65,7 +66,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [40. Combination Sum II](../0040-combination-sum-ii/)
 - [216. Combination Sum III](../0216-combination-sum-iii/)
-- [1. Two Sum](../0001-two-sum/)
+- [1286. Iterator for Combination](../1211-iterator-for-combination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/combination-sum/)

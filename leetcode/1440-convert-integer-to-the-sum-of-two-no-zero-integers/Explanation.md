@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [371. Sum of Two Integers](../0371-sum-of-two-integers/)
-- [1. Two Sum](../0001-two-sum/)
-- [29. Divide Two Integers](../0029-divide-two-integers/)
+- [3670. Maximum Product of Two Integers With No Common Bits](../3915-maximum-product-of-two-integers-with-no-common-bits/)
+- [3890. Integers With Multiple Sum of Two Cubes](../4268-integers-with-multiple-sum-of-two-cubes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)

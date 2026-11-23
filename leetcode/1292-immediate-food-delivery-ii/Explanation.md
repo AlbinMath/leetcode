@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
-- [47. Permutations II](../0047-permutations-ii/)
+- [1418. Display Table of Food Orders in a Restaurant](../1533-display-table-of-food-orders-in-a-restaurant/)
+- [2353. Design a Food Rating System](../2429-design-a-food-rating-system/)
+- [1359. Count All Valid Pickup and Delivery Options](../1461-count-all-valid-pickup-and-delivery-options/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/immediate-food-delivery-ii/)

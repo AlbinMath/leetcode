@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
-- [3742. Maximum Path Score in a Grid](../3986-maximum-path-score-in-a-grid/)
-- [53. Maximum Subarray](../0053-maximum-subarray/)
+- [1219. Path with Maximum Gold](../1331-path-with-maximum-gold/)
+- [2065. Maximum Path Quality of a Graph](../2189-maximum-path-quality-of-a-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-with-maximum-probability/)

@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [72. Edit Distance](../0072-edit-distance/)
-- [214. Shortest Palindrome](../0214-shortest-palindrome/)
+- [3243. Shortest Distance After Road Addition Queries I](../3517-shortest-distance-after-road-addition-queries-i/)
+- [3244. Shortest Distance After Road Addition Queries II](../3514-shortest-distance-after-road-addition-queries-ii/)
 - [387. First Unique Character in a String](../0387-first-unique-character-in-a-string/)
 
 ## LeetCode

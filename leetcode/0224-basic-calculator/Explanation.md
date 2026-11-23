@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2726. Calculator with Method Chaining](../2863-calculator-with-method-chaining/)
-- [7. Reverse Integer](../0007-reverse-integer/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [227. Basic Calculator II](../0227-basic-calculator-ii/)
+- [770. Basic Calculator IV](../0781-basic-calculator-iv/)
+- [2642. Design Graph With Shortest Path Calculator](../2678-design-graph-with-shortest-path-calculator/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/basic-calculator/)

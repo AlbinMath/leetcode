@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../0027-remove-element/)
+- [675. Cut Off Trees for Golf Event](../0675-cut-off-trees-for-golf-event/)
+- [3317. Find the Number of Possible Ways for an Event](../3604-find-the-number-of-possible-ways-for-an-event/)
+- [3885. Design Event Manager](../4267-design-event-manager/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/event-emitter/)

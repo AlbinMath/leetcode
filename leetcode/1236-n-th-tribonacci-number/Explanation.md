@@ -64,9 +64,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
-- [50. Pow(x, n)](../0050-powx-n/)
+- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+- [1553. Minimum Number of Days to Eat N Oranges](../1676-minimum-number-of-days-to-eat-n-oranges/)
+- [3179. Find the N-th Value After K Seconds](../3422-find-the-n-th-value-after-k-seconds/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/n-th-tribonacci-number/)

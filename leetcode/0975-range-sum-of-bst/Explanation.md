@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [303. Range Sum Query   Immutable](../0303-range-sum-query---immutable/)
-- [307. Range Sum Query   Mutable](../0307-range-sum-query---mutable/)
-- [327. Count of Range Sum](../0327-count-of-range-sum/)
+- [303. Range Sum Query - Immutable](../0303-range-sum-query---immutable/)
+- [304. Range Sum Query 2D - Immutable](../0304-range-sum-query-2d---immutable/)
+- [307. Range Sum Query - Mutable](../0307-range-sum-query---mutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-sum-of-bst/)

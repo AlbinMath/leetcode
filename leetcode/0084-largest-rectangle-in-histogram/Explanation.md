@@ -1,7 +1,7 @@
 # LeetCode 84: Largest Rectangle in Histogram
 
 **LeetCode Problem #84 — Largest Rectangle in Histogram**
-Solve LeetCode Largest Rectangle in Histogram using TypeScript and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
+Solve LeetCode Largest Rectangle in Histogram using JavaScript, TypeScript and Monotonic Stack. This solution finds the optimal result using Monotonic Stack Filtering in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Largest Rectangle in Histogram using TypeScript and Monotonic Sta
 | Problem | Largest Rectangle in Histogram |
 | LeetCode | #84 |
 | Difficulty | Hard |
-| Language | TypeScript |
+| Language | JavaScript, TypeScript |
 | Algorithm | Monotonic Stack Filtering |
 | Data Structure | Stack |
 | Pattern | Monotonic Stack |
@@ -56,9 +56,10 @@ Consider the standard input for **Largest Rectangle in Histogram**. Applying **M
 - Array
 
 ## Language
-TypeScript
+JavaScript, TypeScript
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.ts](./solution.ts)
 
 ## Why This Works
@@ -74,9 +75,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [85. Maximal Rectangle](../0085-maximal-rectangle/)
+- [179. Largest Number](../0179-largest-number/)
 - [215. Kth Largest Element in an Array](../0215-kth-largest-element-in-an-array/)
-- [223. Rectangle Area](../0223-rectangle-area/)
+- [410. Split Array Largest Sum](../0410-split-array-largest-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/)

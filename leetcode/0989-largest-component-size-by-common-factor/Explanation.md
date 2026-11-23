@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [14. Longest Common Prefix](../0014-longest-common-prefix/)
-- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
+- [3319. K-th Largest Perfect Subtree Size in Binary Tree](../3509-k-th-largest-perfect-subtree-size-in-binary-tree/)
 - [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
+- [961. N-Repeated Element in Size 2N Array](../1001-n-repeated-element-in-size-2n-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-component-size-by-common-factor/)

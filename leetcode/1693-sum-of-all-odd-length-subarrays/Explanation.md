@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1437. Check If All 1's Are at Least Length K Places Away](../1548-check-if-all-1s-are-at-least-length-k-places-away/)
-- [1863. Sum of All Subset XOR Totals](../1993-sum-of-all-subset-xor-totals/)
-- [2099. Find Subsequence of Length K With the Largest Sum](../2204-find-subsequence-of-length-k-with-the-largest-sum/)
+- [2461. Maximum Sum of Distinct Subarrays With Length K](../2552-maximum-sum-of-distinct-subarrays-with-length-k/)
+- [2763. Sum of Imbalance Numbers of All Subarrays](../2849-sum-of-imbalance-numbers-of-all-subarrays/)
+- [3318. Find X-Sum of All K-Long Subarrays I](../3610-find-x-sum-of-all-k-long-subarrays-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)

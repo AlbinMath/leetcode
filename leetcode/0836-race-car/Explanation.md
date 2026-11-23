@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../0027-remove-element/)
+- [853. Car Fleet](../0883-car-fleet/)
+- [1094. Car Pooling](../1184-car-pooling/)
+- [1776. Car Fleet II](../1902-car-fleet-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/race-car/)

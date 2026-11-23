@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
-- [1372. Longest ZigZag Path in a Binary Tree](../1474-longest-zigzag-path-in-a-binary-tree/)
-- [3841. Palindromic Path Queries in a Tree](../4209-palindromic-path-queries-in-a-tree/)
+- [847. Shortest Path Visiting All Nodes](../0877-shortest-path-visiting-all-nodes/)
+- [864. Shortest Path to Get All Keys](../0895-shortest-path-to-get-all-keys/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-path-in-a-weighted-tree/)

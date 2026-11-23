@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1422. Maximum Score After Splitting a String](../1537-maximum-score-after-splitting-a-string/)
+- [2813. Maximum Elegance of a K-Length Subsequence](../2894-maximum-elegance-of-a-k-length-subsequence/)
 - [2926. Maximum Balanced Subsequence Sum](../3184-maximum-balanced-subsequence-sum/)
-- [3414. Maximum Score of Non-overlapping Intervals](../3562-maximum-score-of-non-overlapping-intervals/)
+- [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../3423-maximum-sum-of-subsequence-with-non-adjacent-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subsequence-score/)

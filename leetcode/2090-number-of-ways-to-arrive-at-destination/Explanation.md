@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1569. Number of Ways to Reorder Array to Get Same BST](../1692-number-of-ways-to-reorder-array-to-get-same-bst/)
-- [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
-- [3025. Find the Number of Ways to Place People I](../3278-find-the-number-of-ways-to-place-people-i/)
+- [1434. Number of Ways to Wear Different Hats to Each Other](../1531-number-of-ways-to-wear-different-hats-to-each-other/)
+- [1444. Number of Ways of Cutting a Pizza](../1555-number-of-ways-of-cutting-a-pizza/)
+- [1525. Number of Good Ways to Split a String](../1632-number-of-good-ways-to-split-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)

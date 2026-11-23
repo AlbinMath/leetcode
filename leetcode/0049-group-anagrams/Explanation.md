@@ -1,7 +1,7 @@
 # LeetCode 49: Group Anagrams
 
 **LeetCode Problem #49 — Group Anagrams**
-Solve LeetCode Group Anagrams using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+Solve LeetCode Group Anagrams using JavaScript, Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Group Anagrams using Python and Hash Map. This solution finds the
 | Problem | Group Anagrams |
 | LeetCode | #49 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
 | Pattern | Hash Map |
@@ -46,9 +46,10 @@ Consider the standard input for **Group Anagrams**. Applying **Complement Lookup
 - Complement Lookup
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -64,9 +65,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
 - [438. Find All Anagrams in a String](../0438-find-all-anagrams-in-a-string/)
-- [1399. Count Largest Group](../1500-count-largest-group/)
+- [2514. Count Anagrams](../2605-count-anagrams/)
+- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-anagrams/)

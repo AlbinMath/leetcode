@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
 - [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
-- [3723. Maximize Sum of Squares of Digits](../4084-maximize-sum-of-squares-of-digits/)
-- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
+- [2460. Apply Operations to an Array](../2551-apply-operations-to-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/)

@@ -1,7 +1,7 @@
 # LeetCode 1: Two Sum
 
 **LeetCode Problem #1 — Two Sum**
-Solve LeetCode Two Sum using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+Solve LeetCode Two Sum using JavaScript, Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Two Sum using Python and Hash Map. This solution finds the optima
 | Problem | Two Sum |
 | LeetCode | #1 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
 | Pattern | Hash Map |
@@ -49,9 +49,10 @@ Consider the standard input for **Two Sum**. Applying **Complement Lookup / Hash
 - Complement Lookup
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -67,7 +68,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
+- [167. Two Sum II - Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 - [371. Sum of Two Integers](../0371-sum-of-two-integers/)
 - [599. Minimum Index Sum of Two Lists](../0599-minimum-index-sum-of-two-lists/)
 

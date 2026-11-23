@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1562. Find Latest Group of Size M](../1684-find-latest-group-of-size-m/)
 - [1736. Latest Time by Replacing Hidden Digits](../1858-latest-time-by-replacing-hidden-digits/)
-- [175. Combine Two Tables](../0175-combine-two-tables/)
-- [176. Second Highest Salary](../0176-second-highest-salary/)
+- [1900. The Earliest and Latest Rounds Where Players Compete](../2028-the-earliest-and-latest-rounds-where-players-compete/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-latest-login-in-2020/)

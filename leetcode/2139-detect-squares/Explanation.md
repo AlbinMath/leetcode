@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [279. Perfect Squares](../0279-perfect-squares/)
 - [520. Detect Capital](../0520-detect-capital/)
-- [977. Squares of a Sorted Array](../1019-squares-of-a-sorted-array/)
+- [1559. Detect Cycles in 2D Grid](../1663-detect-cycles-in-2d-grid/)
+- [1566. Detect Pattern of Length M Repeated K or More Times](../1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/detect-squares/)

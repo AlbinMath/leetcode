@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1298. Maximum Candies You Can Get from Boxes](../1424-maximum-candies-you-can-get-from-boxes/)
 - [1935. Maximum Number of Words You Can Type](../1264-maximum-number-of-words-you-can-type/)
-- [321. Create Maximum Number](../0321-create-maximum-number/)
-- [414. Third Maximum Number](../0414-third-maximum-number/)
+- [2071. Maximum Number of Tasks You Can Assign](../2180-maximum-number-of-tasks-you-can-assign/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)

@@ -1,12 +1,12 @@
-# LeetCode 167: Two Sum Ii   Input Array Is Sorted
+# LeetCode 167: Two Sum II - Input Array Is Sorted
 
-**LeetCode Problem #167 — Two Sum Ii   Input Array Is Sorted**
-Solve LeetCode Two Sum Ii   Input Array Is Sorted using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+**LeetCode Problem #167 — Two Sum II - Input Array Is Sorted**
+Solve LeetCode Two Sum II - Input Array Is Sorted using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Two Sum Ii   Input Array Is Sorted |
+| Problem | Two Sum II - Input Array Is Sorted |
 | LeetCode | #167 |
 | Difficulty | Medium |
 | Language | JavaScript |
@@ -31,7 +31,7 @@ We iterate through the input using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Two Sum Ii   Input Array Is Sorted**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Two Sum II - Input Array Is Sorted**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [653. Two Sum Iv   Input Is A Bst](../0653-two-sum-iv---input-is-a-bst/)
-- [80. Remove Duplicates from Sorted Array II](../0080-remove-duplicates-from-sorted-array-ii/)
-- [81. Search in Rotated Sorted Array II](../0081-search-in-rotated-sorted-array-ii/)
+- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../2162-partition-array-into-two-arrays-to-minimize-sum-difference/)
+- [653. Two Sum IV - Input is a BST](../0653-two-sum-iv---input-is-a-bst/)
+- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
-[View problem on LeetCode](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/)
+[View problem on LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)

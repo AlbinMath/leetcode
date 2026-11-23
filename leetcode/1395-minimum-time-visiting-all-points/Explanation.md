@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1928. Minimum Cost to Reach Destination in Time](../2040-minimum-cost-to-reach-destination-in-time/)
-- [1974. Minimum Time to Type Word Using Special Typewriter](../2088-minimum-time-to-type-word-using-special-typewriter/)
-- [2045. Second Minimum Time to Reach Destination](../2171-second-minimum-time-to-reach-destination/)
+- [1443. Minimum Time to Collect All Apples in a Tree](../1554-minimum-time-to-collect-all-apples-in-a-tree/)
+- [1723. Find Minimum Time to Finish All Jobs](../1825-find-minimum-time-to-finish-all-jobs/)
+- [2589. Minimum Time to Complete All Tasks](../2657-minimum-time-to-complete-all-tasks/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-visiting-all-points/)

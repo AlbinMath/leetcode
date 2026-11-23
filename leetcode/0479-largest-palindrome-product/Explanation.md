@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [9. Palindrome Number](../0009-palindrome-number/)
+- [3260. Find the Largest Palindrome Divisible by K](../3552-find-the-largest-palindrome-divisible-by-k/)
 - [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
-- [125. Valid Palindrome](../0125-valid-palindrome/)
+- [179. Largest Number](../0179-largest-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-palindrome-product/)

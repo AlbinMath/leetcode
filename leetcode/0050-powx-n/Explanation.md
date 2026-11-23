@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [51. N-Queens](../0051-n-queens/)
 - [52. N-Queens II](../0052-n-queens-ii/)
-- [559. Maximum Depth of N-ary Tree](../0774-maximum-depth-of-n-ary-tree/)
+- [429. N-ary Tree Level Order Traversal](../0764-n-ary-tree-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/powx-n/)

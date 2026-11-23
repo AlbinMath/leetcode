@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1791. Find Center of Star Graph](../1916-find-center-of-star-graph/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../2349--check-if-there-is-a-valid-parentheses-string-path/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [1391. Check if There is a Valid Path in a Grid](../1507-check-if-there-is-a-valid-path-in-a-grid/)
+- [3011. Find if Array Can Be Sorted](../3291-find-if-array-can-be-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3943. Number of Pairs After Increment](../4076-number-of-pairs-after-increment/)
-- [9. Palindrome Number](../0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
+- [2816. Double a Number Represented as a Linked List](../2871-double-a-number-represented-as-a-linked-list/)
+- [1946. Largest Number After Mutating Substring](../2077-largest-number-after-mutating-substring/)
+- [2400. Number of Ways to Reach a Position After Exactly k Steps](../2477-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/a-number-after-a-double-reversal/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1658. Minimum Operations to Reduce X to Zero](../1776-minimum-operations-to-reduce-x-to-zero/)
-- [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
+- [1611. Minimum One Bit Operations to Make Integers Zero](../1732-minimum-one-bit-operations-to-make-integers-zero/)
+- [3495. Minimum Operations to Make Array Elements Zero](../3744-minimum-operations-to-make-array-elements-zero/)
+- [2571. Minimum Operations to Reduce an Integer to 0](../2710-minimum-operations-to-reduce-an-integer-to-0/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/)

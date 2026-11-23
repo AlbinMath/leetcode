@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../0773-logical-or-of-two-binary-grids-represented-as-quad-trees/)
+- [1305. All Elements in Two Binary Search Trees](../1427-all-elements-in-two-binary-search-trees/)
 - [21. Merge Two Sorted Lists](../0021-merge-two-sorted-lists/)
-- [95. Unique Binary Search Trees II](../0095-unique-binary-search-trees-ii/)
-- [96. Unique Binary Search Trees](../0096-unique-binary-search-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-two-binary-trees/)

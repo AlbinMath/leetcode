@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2183. Count Array Pairs Divisible by K](../2301-count-array-pairs-divisible-by-k/)
-- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
 - [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
+- [2206. Divide Array Into Equal Pairs](../2308-divide-array-into-equal-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-inverse-pairs-array/)

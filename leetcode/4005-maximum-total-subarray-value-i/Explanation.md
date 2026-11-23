@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3691. Maximum Total Subarray Value II](../4007-maximum-total-subarray-value-ii/)
-- [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
-- [53. Maximum Subarray](../0053-maximum-subarray/)
+- [1695. Maximum Erasure Value](../1813-maximum-erasure-value/)
+- [1881. Maximum Value after Insertion](../2011-maximum-value-after-insertion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-subarray-value-i/)

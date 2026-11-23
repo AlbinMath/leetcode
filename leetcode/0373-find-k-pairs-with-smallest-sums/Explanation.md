@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [440. K-th Smallest in Lexicographical Order](../0440-k-th-smallest-in-lexicographical-order/)
+- [3821. Find Nth Smallest Integer With K One Bits](../4189-find-nth-smallest-integer-with-k-one-bits/)
 - [629. K Inverse Pairs Array](../0629-k-inverse-pairs-array/)
-- [632. Smallest Range Covering Elements from K Lists](../0632-smallest-range-covering-elements-from-k-lists/)
+- [1679. Max Number of K-Sum Pairs](../1798-max-number-of-k-sum-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)

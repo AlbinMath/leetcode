@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [2108. Find First Palindromic String in the Array](../2231-find-first-palindromic-string-in-the-array/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [1647. Minimum Deletions to Make Character Frequencies Unique](../1770-minimum-deletions-to-make-character-frequencies-unique/)
+- [3304. Find the K-th Character in String Game I](../3600-find-the-k-th-character-in-string-game-i/)
+- [3307. Find the K-th Character in String Game II](../3601-find-the-k-th-character-in-string-game-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)

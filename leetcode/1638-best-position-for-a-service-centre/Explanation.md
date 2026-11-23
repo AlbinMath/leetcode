@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
 - [35. Search Insert Position](../0035-search-insert-position/)
-- [121. Best Time to Buy and Sell Stock](../0121-best-time-to-buy-and-sell-stock/)
+- [1217. Minimum Cost to Move Chips to The Same Position](../1329-minimum-cost-to-move-chips-to-the-same-position/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/best-position-for-a-service-centre/)

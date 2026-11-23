@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [329. Longest Increasing Path in a Matrix](../0329-longest-increasing-path-in-a-matrix/)
+- [388. Longest Absolute File Path](../0388-longest-absolute-file-path/)
 - [1372. Longest ZigZag Path in a Binary Tree](../1474-longest-zigzag-path-in-a-binary-tree/)
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-univalue-path/)

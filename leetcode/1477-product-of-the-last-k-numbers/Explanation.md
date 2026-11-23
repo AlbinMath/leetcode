@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [628. Maximum Product of Three Numbers](../0628-maximum-product-of-three-numbers/)
-- [3855. Sum of K-Digit Numbers in a Range](../4239-sum-of-k-digit-numbers-in-a-range/)
-- [2. Add Two Numbers](../0002-add-two-numbers/)
+- [713. Subarray Product Less Than K](../0713-subarray-product-less-than-k/)
+- [2081. Sum of k-Mirror Numbers](../2202-sum-of-k-mirror-numbers/)
+- [2310. Sum of Numbers With Units Digit K](../1334-sum-of-numbers-with-units-digit-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/product-of-the-last-k-numbers/)

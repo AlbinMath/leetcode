@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [328. Odd Even Linked List](../0328-odd-even-linked-list/)
+- [975. Odd Even Jump](../1017-odd-even-jump/)
 - [1116. Print Zero Even Odd](../1216-print-zero-even-odd/)
-- [3220. Odd and Even Transactions](../3530-odd-and-even-transactions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/gcd-of-odd-and-even-sums/)

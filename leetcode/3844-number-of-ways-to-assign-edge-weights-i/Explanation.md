@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3559. Number of Ways to Assign Edge Weights II](../3842-number-of-ways-to-assign-edge-weights-ii/)
-- [3025. Find the Number of Ways to Place People I](../3278-find-the-number-of-ways-to-place-people-i/)
-- [1569. Number of Ways to Reorder Array to Get Same BST](../1692-number-of-ways-to-reorder-array-to-get-same-bst/)
+- [2071. Maximum Number of Tasks You Can Assign](../2180-maximum-number-of-tasks-you-can-assign/)
+- [2699. Modify Graph Edge Weights](../2803-modify-graph-edge-weights/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/)

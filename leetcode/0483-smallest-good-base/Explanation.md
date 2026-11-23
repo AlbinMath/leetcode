@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [230. Kth Smallest Element in a BST](../0230-kth-smallest-element-in-a-bst/)
-- [373. Find K Pairs with Smallest Sums](../0373-find-k-pairs-with-smallest-sums/)
-- [440. K-th Smallest in Lexicographical Order](../0440-k-th-smallest-in-lexicographical-order/)
+- [1250. Check If It Is a Good Array](../1372-check-if-it-is-a-good-array/)
+- [1397. Find All Good Strings](../1513-find-all-good-strings/)
+- [1448. Count Good Nodes in Binary Tree](../1544-count-good-nodes-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-good-base/)

@@ -64,9 +64,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [35. Search Insert Position](../0035-search-insert-position/)
-- [380. Insert Delete GetRandom O(1)](../0380-insert-delete-getrandom-o1/)
-- [381. Insert Delete Getrandom O1   Duplicates Allowed](../0381-insert-delete-getrandom-o1---duplicates-allowed/)
+- [436. Find Right Interval](../0436-find-right-interval/)
+- [986. Interval List Intersections](../1028-interval-list-intersections/)
+- [1124. Longest Well-Performing Interval](../1219-longest-well-performing-interval/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/insert-interval/)

@@ -1,7 +1,7 @@
 # LeetCode 35: Search Insert Position
 
 **LeetCode Problem #35 — Search Insert Position**
-Solve LeetCode Search Insert Position using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
+Solve LeetCode Search Insert Position using JavaScript, Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(log n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Search Insert Position using Python and Binary Search. This solut
 | Problem | Search Insert Position |
 | LeetCode | #35 |
 | Difficulty | Easy |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,9 +46,10 @@ Consider the standard input for **Search Insert Position**. Applying **Modified 
 - Search Space
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -64,9 +65,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [33. Search in Rotated Sorted Array](../0033-search-in-rotated-sorted-array/)
+- [701. Insert into a Binary Search Tree](../0784-insert-into-a-binary-search-tree/)
 - [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [57. Insert Interval](../0057-insert-interval/)
+- [1217. Minimum Cost to Move Chips to The Same Position](../1329-minimum-cost-to-move-chips-to-the-same-position/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-insert-position/)

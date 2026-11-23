@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../0027-remove-element/)
+- [3191. Minimum Operations to Make Binary Array Elements Equal to One I](../3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i/)
+- [2713. Maximum Strictly Increasing Cells in a Matrix](../2818-maximum-strictly-increasing-cells-in-a-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)

@@ -1,7 +1,7 @@
 # LeetCode 4: Median of Two Sorted Arrays
 
 **LeetCode Problem #4 — Median of Two Sorted Arrays**
-Solve LeetCode Median of Two Sorted Arrays using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Median of Two Sorted Arrays using JavaScript, Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Median of Two Sorted Arrays using Python and Binary Search. This 
 | Problem | Median of Two Sorted Arrays |
 | LeetCode | #4 |
 | Difficulty | Hard |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -56,9 +56,10 @@ Consider the standard input for **Median of Two Sorted Arrays**. Applying **Modi
 - Search Space
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -75,7 +76,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [21. Merge Two Sorted Lists](../0021-merge-two-sorted-lists/)
-- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
+- [167. Two Sum II - Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
 - [349. Intersection of Two Arrays](../0349-intersection-of-two-arrays/)
 
 ## LeetCode

@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [84. Largest Rectangle in Histogram](../0084-largest-rectangle-in-histogram/)
-- [85. Maximal Rectangle](../0085-maximal-rectangle/)
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](../0105-construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [106. Construct Binary Tree from Inorder and Postorder Traversal](../0106-construct-binary-tree-from-inorder-and-postorder-traversal/)
+- [427. Construct Quad Tree](../0772-construct-quad-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-the-rectangle/)

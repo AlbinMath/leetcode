@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1309. Decrypt String from Alphabet to Integer Mapping](../1434-decrypt-string-from-alphabet-to-integer-mapping/)
-- [2091. Removing Minimum and Maximum From Array](../2212-removing-minimum-and-maximum-from-array/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [3170. Lexicographically Minimum String After Removing Stars](../3445-lexicographically-minimum-string-after-removing-stars/)
+- [606. Construct String from Binary Tree](../0606-construct-string-from-binary-tree/)
+- [988. Smallest String Starting From Leaf](../1030-smallest-string-starting-from-leaf/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/removing-stars-from-a-string/)

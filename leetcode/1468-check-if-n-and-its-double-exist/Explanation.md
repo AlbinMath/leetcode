@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [1003. Check If Word Is Valid After Substitutions](../1045-check-if-word-is-valid-after-substitutions/)
 - [1232. Check If It Is a Straight Line](../1349-check-if-it-is-a-straight-line/)
-- [1250. Check If It Is a Good Array](../1372-check-if-it-is-a-good-array/)
-- [1437. Check If All 1's Are at Least Length K Places Away](../1548-check-if-all-1s-are-at-least-length-k-places-away/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-n-and-its-double-exist/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../0027-remove-element/)
+- [423. Reconstruct Original Digits from English](../0423-reconstruct-original-digits-from-english/)
+- [1253. Reconstruct a 2-Row Binary Matrix](../1379-reconstruct-a-2-row-binary-matrix/)
+- [1719. Number Of Ways To Reconstruct A Tree](../1820-number-of-ways-to-reconstruct-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reconstruct-itinerary/)

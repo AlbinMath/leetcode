@@ -1,7 +1,7 @@
 # LeetCode 64: Minimum Path Sum
 
 **LeetCode Problem #64 — Minimum Path Sum**
-Solve LeetCode Minimum Path Sum using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Minimum Path Sum using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Minimum Path Sum using Python and Tree & Graph. This solution fin
 | Problem | Minimum Path Sum |
 | LeetCode | #64 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,9 +47,10 @@ Consider the standard input for **Minimum Path Sum**. Applying **Depth-First Sea
 - BFS
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -65,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [112. Path Sum](../0112-path-sum/)
-- [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
+- [931. Minimum Falling Path Sum](../0967-minimum-falling-path-sum/)
+- [1289. Minimum Falling Path Sum II](../1224-minimum-falling-path-sum-ii/)
 - [209. Minimum Size Subarray Sum](../0209-minimum-size-subarray-sum/)
 
 ## LeetCode

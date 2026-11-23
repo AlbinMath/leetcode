@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [68. Text Justification](../0068-text-justification/)
 - [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
-- [705. Design HashSet](../0816-design-hashset/)
+- [355. Design Twitter](../0355-design-twitter/)
+- [622. Design Circular Queue](../0860-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-a-text-editor/)

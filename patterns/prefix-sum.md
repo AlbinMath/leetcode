@@ -48,6 +48,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 
 | 2424 | [Longest Uploaded Prefix](../leetcode/2512-longest-uploaded-prefix/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2512-longest-uploaded-prefix/Explanation.md) |
 
+| 2433 | [Find The Original Array of Prefix Xor](../leetcode/2519-find-the-original-array-of-prefix-xor/) | Python | O(n) | O(n) | [Explanation](../leetcode/2519-find-the-original-array-of-prefix-xor/Explanation.md) |
+
 | 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2766-find-the-prefix-common-array-of-two-arrays/Explanation.md) |
 
 | 3043 | [Find the Length of the Longest Common Prefix](../leetcode/3329-find-the-length-of-the-longest-common-prefix/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3329-find-the-length-of-the-longest-common-prefix/Explanation.md) |
@@ -56,6 +58,8 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
+| 745 | [Prefix and Suffix Search](../leetcode/0746-prefix-and-suffix-search/) | Python | O(n) | O(n) | [Explanation](../leetcode/0746-prefix-and-suffix-search/Explanation.md) |
+
 | 1392 | [Longest Happy Prefix](../leetcode/1508-longest-happy-prefix/) | Python | O(n) | O(n) | [Explanation](../leetcode/1508-longest-happy-prefix/Explanation.md) |
 
 | 1563 | [Stone Game V](../leetcode/1685-stone-game-v/) | Java | O(n) | O(n) | [Explanation](../leetcode/1685-stone-game-v/Explanation.md) |

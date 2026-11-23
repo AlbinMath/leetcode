@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2285. Maximum Total Importance of Roads](../2379-maximum-total-importance-of-roads/)
 - [577. Employee Bonus](../0577-employee-bonus/)
 - [1378. Replace Employee ID With The Unique Identifier](../1509-replace-employee-id-with-the-unique-identifier/)
-- [1731. The Number of Employees Which Report to Each Employee](../1882-the-number-of-employees-which-report-to-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employee-importance/)

@@ -76,8 +76,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [115. Distinct Subsequences](../0115-distinct-subsequences/)
-- [2916. Subarrays Distinct Element Sum of Squares II](../3139-subarrays-distinct-element-sum-of-squares-ii/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [1081. Smallest Subsequence of Distinct Characters](../1159-smallest-subsequence-of-distinct-characters/)
+- [1316. Distinct Echo Substrings](../1244-distinct-echo-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-subsequences-ii/)

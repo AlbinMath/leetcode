@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [511. Game Play Analysis I](../1179-game-play-analysis-i/)
-- [1345. Jump Game IV](../1447-jump-game-iv/)
-- [1510. Stone Game IV](../1617-stone-game-iv/)
+- [45. Jump Game II](../0045-jump-game-ii/)
+- [55. Jump Game](../0055-jump-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/game-play-analysis-iv/)

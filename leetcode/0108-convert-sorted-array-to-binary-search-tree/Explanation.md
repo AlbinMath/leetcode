@@ -1,7 +1,7 @@
 # LeetCode 108: Convert Sorted Array to Binary Search Tree
 
 **LeetCode Problem #108 — Convert Sorted Array to Binary Search Tree**
-Solve LeetCode Convert Sorted Array to Binary Search Tree using PHP and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Convert Sorted Array to Binary Search Tree using JavaScript, PHP and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Convert Sorted Array to Binary Search Tree using PHP and Binary S
 | Problem | Convert Sorted Array to Binary Search Tree |
 | LeetCode | #108 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,9 +46,10 @@ Consider the standard input for **Convert Sorted Array to Binary Search Tree**. 
 - Search Space
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works

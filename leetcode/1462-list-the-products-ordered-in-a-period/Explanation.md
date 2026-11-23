@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [61. Rotate List](../0061-rotate-list/)
-- [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
+- [1656. Design an Ordered Stream](../1775-design-an-ordered-stream/)
+- [2717. Semi-Ordered Permutation](../2785-semi-ordered-permutation/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)

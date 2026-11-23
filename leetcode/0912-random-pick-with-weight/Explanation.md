@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [138. Copy List with Random Pointer](../0138-copy-list-with-random-pointer/)
-- [478. Generate Random Point in a Circle](../0915-generate-random-point-in-a-circle/)
-- [1046. Last Stone Weight](../1127-last-stone-weight/)
+- [398. Random Pick Index](../0398-random-pick-index/)
+- [710. Random Pick with Blacklist](../0894-random-pick-with-blacklist/)
+- [2260. Minimum Consecutive Cards to Pick Up](../2338-minimum-consecutive-cards-to-pick-up/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/random-pick-with-weight/)

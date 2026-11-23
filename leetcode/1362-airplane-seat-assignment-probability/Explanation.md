@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [688. Knight Probability in Chessboard](../0688-knight-probability-in-chessboard/)
-- [1386. Cinema Seat Allocation](../1487-cinema-seat-allocation/)
+- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 - [1514. Path with Maximum Probability](../1325-path-with-maximum-probability/)
 
 ## LeetCode

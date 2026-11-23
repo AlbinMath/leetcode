@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
-- [3291. Minimum Number of Valid Strings to Form Target I](../3559-minimum-number-of-valid-strings-to-form-target-i/)
-- [3292. Minimum Number of Valid Strings to Form Target II](../3557-minimum-number-of-valid-strings-to-form-target-ii/)
+- [1210. Minimum Moves to Reach Target with Rotations](../1322-minimum-moves-to-reach-target-with-rotations/)
+- [1263. Minimum Moves to Move a Box to Their Target Location](../1389-minimum-moves-to-move-a-box-to-their-target-location/)
+- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-distance-to-the-target-element/)

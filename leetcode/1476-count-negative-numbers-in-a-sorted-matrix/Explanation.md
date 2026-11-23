@@ -66,7 +66,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
-- [1380. Lucky Numbers in a Matrix](../1496-lucky-numbers-in-a-matrix/)
+- [357. Count Numbers with Unique Digits](../0357-count-numbers-with-unique-digits/)
 - [1523. Count Odd Numbers in an Interval Range](../1630-count-odd-numbers-in-an-interval-range/)
 
 ## LeetCode

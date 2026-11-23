@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
-- [83. Remove Duplicates from Sorted List](../0083-remove-duplicates-from-sorted-list/)
+- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
+- [2487. Remove Nodes From Linked List](../2573-remove-nodes-from-linked-list/)
+- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-linked-list-elements/)

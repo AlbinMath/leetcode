@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2666. Allow One Function Call](../2796-allow-one-function-call/)
 - [396. Rotate Function](../0396-rotate-function/)
-- [2629. Function Composition](../2741-function-composition/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../1645-find-a-value-of-a-mysterious-function-closest-to-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/call-function-with-custom-context/)

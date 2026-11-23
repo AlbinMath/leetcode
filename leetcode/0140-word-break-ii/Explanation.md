@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [126. Word Ladder II](../0126-word-ladder-ii/)
 - [139. Word Break](../0139-word-break/)
-- [212. Word Search II](../0212-word-search-ii/)
+- [1328. Break a Palindrome](../1252-break-a-palindrome/)
+- [1433. Check If a String Can Break Another String](../1530-check-if-a-string-can-break-another-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-break-ii/)

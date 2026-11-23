@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3753. Total Waviness of Numbers in Range II](../4128-total-waviness-of-numbers-in-range-ii/)
-- [3871. Count Commas in Range II](../4248-count-commas-in-range-ii/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
+- [592. Fraction Addition and Subtraction](../0592-fraction-addition-and-subtraction/)
+- [3243. Shortest Distance After Road Addition Queries I](../3517-shortest-distance-after-road-addition-queries-i/)
+- [3244. Shortest Distance After Road Addition Queries II](../3514-shortest-distance-after-road-addition-queries-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-addition-ii/)

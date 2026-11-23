@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3291. Minimum Number of Valid Strings to Form Target I](../3559-minimum-number-of-valid-strings-to-form-target-i/)
-- [3016. Minimum Number of Pushes to Type Word II](../3276-minimum-number-of-pushes-to-type-word-ii/)
-- [65. Valid Number](../0065-valid-number/)
+- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
+- [1639. Number of Ways to Form a Target String Given a Dictionary](../1744-number-of-ways-to-form-a-target-string-given-a-dictionary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/)

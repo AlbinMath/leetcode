@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3737. Count Subarrays With Majority Element I](../4074-count-subarrays-with-majority-element-i/)
-- [3739. Count Subarrays With Majority Element II](../4075-count-subarrays-with-majority-element-ii/)
-- [4011. Count Subarrays With Even Odd Ratio I](../4323-count-subarrays-with-even-odd-ratio-i/)
+- [3430. Maximum and Minimum Sums of at Most Size K Subarrays](../3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays/)
+- [1248. Count Number of Nice Subarrays](../1370-count-number-of-nice-subarrays/)
+- [2302. Count Subarrays With Score Less Than K](../2394-count-subarrays-with-score-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-distant-sums/)

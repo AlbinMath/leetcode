@@ -1,7 +1,7 @@
 # LeetCode 101: Symmetric Tree
 
 **LeetCode Problem #101 — Symmetric Tree**
-Solve LeetCode Symmetric Tree using PHP and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Symmetric Tree using JavaScript, PHP and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Symmetric Tree using PHP and Binary Search. This solution finds t
 | Problem | Symmetric Tree |
 | LeetCode | #101 |
 | Difficulty | Easy |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,9 +46,10 @@ Consider the standard input for **Symmetric Tree**. Applying **Modified Binary S
 - Search Space
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works
@@ -64,9 +65,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [2843.   Count Symmetric Integers](../2998---count-symmetric-integers/)
 - [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
 - [98. Validate Binary Search Tree](../0098-validate-binary-search-tree/)
-- [99. Recover Binary Search Tree](../0099-recover-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/symmetric-tree/)

@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
+- [1574. Shortest Subarray to be Removed to Make Array Sorted](../1679-shortest-subarray-to-be-removed-to-make-array-sorted/)
+- [3455. Shortest Matching Substring](../3692-shortest-matching-substring/)
 - [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode

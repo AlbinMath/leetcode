@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [4032. Longest Subarray With at Most K Distinct Prime Factors](../4370-longest-subarray-with-at-most-k-distinct-prime-factors/)
 - [238. Product of Array Except Self](../0238-product-of-array-except-self/)
 - [1464. Maximum Product of Two Elements in an Array](../1574-maximum-product-of-two-elements-in-an-array/)
-- [1735. Count Ways to Make Array With Product](../1836-count-ways-to-make-array-with-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/)

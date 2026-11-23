@@ -1,7 +1,7 @@
 # LeetCode 32: Longest Valid Parentheses
 
 **LeetCode Problem #32 — Longest Valid Parentheses**
-Solve LeetCode Longest Valid Parentheses using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Longest Valid Parentheses using JavaScript, Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Longest Valid Parentheses using Python and Stack & Queue. This so
 | Problem | Longest Valid Parentheses |
 | LeetCode | #32 |
 | Difficulty | Hard |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Stack Push / Pop Parsing |
 | Data Structure | Stack |
 | Pattern | Stack & Queue |
@@ -45,9 +45,10 @@ Consider the standard input for **Longest Valid Parentheses**. Applying **Stack 
 - String Parsing
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -63,9 +64,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [20. Valid Parentheses](../0020-valid-parentheses/)
 - [921. Minimum Add to Make Parentheses Valid](../0957-minimum-add-to-make-parentheses-valid/)
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-valid-parentheses/)

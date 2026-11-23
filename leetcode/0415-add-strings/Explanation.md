@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2. Add Two Numbers](../0002-add-two-numbers/)
 - [43. Multiply Strings](../0043-multiply-strings/)
-- [67. Add Binary](../0067-add-binary/)
+- [205. Isomorphic Strings](../0205-isomorphic-strings/)
+- [583. Delete Operation for Two Strings](../0583-delete-operation-for-two-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-strings/)

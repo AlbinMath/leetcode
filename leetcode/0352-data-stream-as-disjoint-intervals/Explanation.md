@@ -66,7 +66,7 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
 - [2526. Find Consecutive Integers from a Data Stream](../2620-find-consecutive-integers-from-a-data-stream/)
-- [56. Merge Intervals](../0056-merge-intervals/)
+- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../0773-logical-or-of-two-binary-grids-represented-as-quad-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)

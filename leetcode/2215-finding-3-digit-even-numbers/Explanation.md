@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3483. Unique 3-Digit Even Numbers](../3799-unique-3-digit-even-numbers/)
+- [985. Sum of Even Numbers After Queries](../1027-sum-of-even-numbers-after-queries/)
 - [1295. Find Numbers with Even Number of Digits](../1421-find-numbers-with-even-number-of-digits/)
-- [3855. Sum of K-Digit Numbers in a Range](../4239-sum-of-k-digit-numbers-in-a-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/finding-3-digit-even-numbers/)

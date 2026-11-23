@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1451. Rearrange Words in a Sentence](../1561-rearrange-words-in-a-sentence/)
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
-- [1832. Check if the Sentence Is Pangram](../1960-check-if-the-sentence-is-pangram/)
-- [1859. Sorting the Sentence](../1970-sorting-the-sentence/)
+- [1813. Sentence Similarity III](../1923-sentence-similarity-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/truncate-sentence/)

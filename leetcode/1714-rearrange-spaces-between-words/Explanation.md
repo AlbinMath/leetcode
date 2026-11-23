@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
-- [151. Reverse Words in a String](../0151-reverse-words-in-a-string/)
-- [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
+- [1451. Rearrange Words in a Sentence](../1561-rearrange-words-in-a-sentence/)
+- [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
+- [1026. Maximum Difference Between Node and Ancestor](../1092-maximum-difference-between-node-and-ancestor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-spaces-between-words/)

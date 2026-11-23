@@ -67,8 +67,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](../0105-construct-binary-tree-from-preorder-and-inorder-traversal/)
-- [94. Binary Tree Inorder Traversal](../0094-binary-tree-inorder-traversal/)
-- [145. Binary Tree Postorder Traversal](../0145-binary-tree-postorder-traversal/)
+- [889. Construct Binary Tree from Preorder and Postorder Traversal](../0925-construct-binary-tree-from-preorder-and-postorder-traversal/)
+- [1008. Construct Binary Search Tree from Preorder Traversal](../1050-construct-binary-search-tree-from-preorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)

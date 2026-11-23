@@ -1,7 +1,7 @@
 # LeetCode 76: Minimum Window Substring
 
 **LeetCode Problem #76 — Minimum Window Substring**
-Solve LeetCode Minimum Window Substring using PHP and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
+Solve LeetCode Minimum Window Substring using JavaScript, PHP and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Minimum Window Substring using PHP and Sliding Window. This solut
 | Problem | Minimum Window Substring |
 | LeetCode | #76 |
 | Difficulty | Hard |
-| Language | PHP |
+| Language | JavaScript, PHP |
 | Algorithm | Dynamic Sliding Window Traversal |
 | Data Structure | Array / Hash Set |
 | Pattern | Sliding Window |
@@ -46,9 +46,10 @@ Consider the standard input for **Minimum Window Substring**. Applying **Dynamic
 - Subarrays
 
 ## Language
-PHP
+JavaScript, PHP
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.php](./solution.php)
 
 ## Why This Works
@@ -64,9 +65,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
+- [239. Sliding Window Maximum](../0239-sliding-window-maximum/)
+- [480. Sliding Window Median](../0480-sliding-window-median/)
 - [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [30. Substring with Concatenation of All Words](../0030-substring-with-concatenation-of-all-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-window-substring/)

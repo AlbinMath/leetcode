@@ -1,14 +1,14 @@
-# LeetCode 381: Insert Delete Getrandom O1   Duplicates Allowed
+# LeetCode 381: Insert Delete GetRandom O(1) - Duplicates allowed
 
-**LeetCode Problem #381 — Insert Delete Getrandom O1   Duplicates Allowed**
-Solve LeetCode Insert Delete Getrandom O1   Duplicates Allowed using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+**LeetCode Problem #381 — Insert Delete GetRandom O(1) - Duplicates allowed**
+Solve LeetCode Insert Delete GetRandom O(1) - Duplicates allowed using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Insert Delete Getrandom O1   Duplicates Allowed |
+| Problem | Insert Delete GetRandom O(1) - Duplicates allowed |
 | LeetCode | #381 |
-| Difficulty | Medium |
+| Difficulty | Hard |
 | Language | Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
@@ -31,7 +31,7 @@ We iterate through the input using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Insert Delete Getrandom O1   Duplicates Allowed**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Insert Delete GetRandom O(1) - Duplicates allowed**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [380. Insert Delete GetRandom O(1)](../0380-insert-delete-getrandom-o1/)
 - [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [35. Search Insert Position](../0035-search-insert-position/)
+- [80. Remove Duplicates from Sorted Array II](../0080-remove-duplicates-from-sorted-array-ii/)
 
 ## LeetCode
-[View problem on LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1---duplicates-allowed/)
+[View problem on LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)

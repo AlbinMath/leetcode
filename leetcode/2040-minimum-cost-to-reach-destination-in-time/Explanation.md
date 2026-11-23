@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2045. Second Minimum Time to Reach Destination](../2171-second-minimum-time-to-reach-destination/)
-- [1217. Minimum Cost to Move Chips to The Same Position](../1329-minimum-cost-to-move-chips-to-the-same-position/)
-- [1266. Minimum Time Visiting All Points](../1395-minimum-time-visiting-all-points/)
+- [3604. Minimum Time to Reach Destination in Directed Graph](../3916-minimum-time-to-reach-destination-in-directed-graph/)
+- [2162. Minimum Cost to Set Cooking Time](../2266-minimum-cost-to-set-cooking-time/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)

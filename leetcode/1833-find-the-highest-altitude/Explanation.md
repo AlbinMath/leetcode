@@ -66,9 +66,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [153. Find Minimum in Rotated Sorted Array](../0153-find-minimum-in-rotated-sorted-array/)
+- [176. Second Highest Salary](../0176-second-highest-salary/)
+- [177. Nth Highest Salary](../0177-nth-highest-salary/)
+- [184. Department Highest Salary](../0184-department-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-highest-altitude/)

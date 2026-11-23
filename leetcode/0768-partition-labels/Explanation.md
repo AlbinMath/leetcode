@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [86. Partition List](../0086-partition-list/)
+- [416. Partition Equal Subset Sum](../0416-partition-equal-subset-sum/)
 - [561. Array Partition](../0561-array-partition/)
-- [2161. Partition Array According to Given Pivot](../2265-partition-array-according-to-given-pivot/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-labels/)

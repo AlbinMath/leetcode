@@ -1,7 +1,7 @@
 # LeetCode 41: First Missing Positive
 
 **LeetCode Problem #41 — First Missing Positive**
-Solve LeetCode First Missing Positive using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode First Missing Positive using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode First Missing Positive using Python and Array / General. This sol
 | Problem | First Missing Positive |
 | LeetCode | #41 |
 | Difficulty | Hard |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **First Missing Positive**. Applying **In-Place 
 - Array
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -63,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1539. Kth Missing Positive Number](../1646-kth-missing-positive-number/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [1237. Find Positive Integer Solution for a Given Equation](../1358-find-positive-integer-solution-for-a-given-equation/)
+- [1413. Minimum Value to Get Positive Step by Step Sum](../1514-minimum-value-to-get-positive-step-by-step-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-missing-positive/)

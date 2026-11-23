@@ -64,8 +64,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1070. Product Sales Analysis III](../1155-product-sales-analysis-iii/)
 - [1068. Product Sales Analysis I](../1153-product-sales-analysis-i/)
+- [1070. Product Sales Analysis III](../1155-product-sales-analysis-iii/)
 - [3564. Seasonal Sales Analysis](../3898-seasonal-sales-analysis/)
 
 ## LeetCode

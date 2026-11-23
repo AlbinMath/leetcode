@@ -1,7 +1,7 @@
 # LeetCode 51: N-Queens
 
 **LeetCode Problem #51 — N-Queens**
-Solve LeetCode N-Queens using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode N-Queens using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode N-Queens using Python and Tree & Graph. This solution finds the o
 | Problem | N-Queens |
 | LeetCode | #51 |
 | Difficulty | Hard |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,9 +47,10 @@ Consider the standard input for **N-Queens**. Applying **Depth-First Search (DFS
 - BFS
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -67,7 +68,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [52. N-Queens II](../0052-n-queens-ii/)
 - [50. Pow(x, n)](../0050-powx-n/)
-- [559. Maximum Depth of N-ary Tree](../0774-maximum-depth-of-n-ary-tree/)
+- [429. N-ary Tree Level Order Traversal](../0764-n-ary-tree-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/n-queens/)

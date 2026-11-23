@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../1662-minimum-numbers-of-function-calls-to-make-target-array/)
+- [1574. Shortest Subarray to be Removed to Make Array Sorted](../1679-shortest-subarray-to-be-removed-to-make-array-sorted/)
 - [1664. Ways to Make a Fair Array](../1783-ways-to-make-a-fair-array/)
-- [1674. Minimum Moves to Make Array Complementary](../1793-minimum-moves-to-make-array-complementary/)
-- [1735. Count Ways to Make Array With Product](../1836-count-ways-to-make-array-with-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-array-empty/)

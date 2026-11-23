@@ -22,3 +22,4 @@ LeetCode problems solved using **Array / Hash Set** data structures.
 | 2568 | [Minimum Impossible OR](../leetcode/2705-minimum-impossible-or/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 2627 | [Debounce](../leetcode/2743-debounce/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
 | 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |
+| 3679 | [ Minimum Discards to Balance Inventory](../leetcode/3953--minimum-discards-to-balance-inventory/) | Medium | Dynamic Sliding Window Traversal | O(n) | O(1) |

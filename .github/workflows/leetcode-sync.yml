@@ -32,6 +32,9 @@ jobs:
 
       - name: Run Index & Metadata Generator
         run: python scripts/generate_index.py
+        env:
+          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
 
       - name: Commit updated indexes
         run: |

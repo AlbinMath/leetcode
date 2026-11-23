@@ -1,7 +1,7 @@
 # LeetCode 93: Restore IP Addresses
 
 **LeetCode Problem #93 — Restore IP Addresses**
-Solve LeetCode Restore IP Addresses using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Restore IP Addresses using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Restore IP Addresses using JavaScript and Array / General. This s
 | Problem | Restore IP Addresses |
 | LeetCode | #93 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Restore IP Addresses**. Applying **In-Place Ar
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3451. Find Invalid IP Addresses](../3792-find-invalid-ip-addresses/)
-- [929. Unique Email Addresses](../0965-unique-email-addresses/)
+- [468. Validate IP Address](../0468-validate-ip-address/)
 - [1108. Defanging an IP Address](../1205-defanging-an-ip-address/)
 
 ## LeetCode

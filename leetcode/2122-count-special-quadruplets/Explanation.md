@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2552. Count Increasing Quadruplets](../2682-count-increasing-quadruplets/)
 - [3120. Count the Number of Special Characters I](../3408-count-the-number-of-special-characters-i/)
-- [38. Count and Say](../0038-count-and-say/)
+- [3233. Find the Count of Numbers Which Are Not Special](../3507-find-the-count-of-numbers-which-are-not-special/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-special-quadruplets/)

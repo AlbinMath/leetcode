@@ -63,9 +63,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3012. Minimize Length of Array Using Operations](../3244-minimize-length-of-array-using-operations/)
+- [3896. Minimum Operations to Transform Array into Alternating Prime](../4277-minimum-operations-to-transform-array-into-alternating-prime/)
 - [1331. Rank Transform of an Array](../1256-rank-transform-of-an-array/)
-- [1441. Build an Array With Stack Operations](../1552-build-an-array-with-stack-operations/)
-- [1827. Minimum Operations to Make the Array Increasing](../1938-minimum-operations-to-make-the-array-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/transform-array-using-pair-operations/)

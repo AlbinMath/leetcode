@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [211. Design Add and Search Words Data Structure](../0211-design-add-and-search-words-data-structure/)
-- [295. Find Median from Data Stream](../0295-find-median-from-data-stream/)
-- [352. Data Stream as Disjoint Intervals](../0352-data-stream-as-disjoint-intervals/)
+- [355. Design Twitter](../0355-design-twitter/)
+- [622. Design Circular Queue](../0860-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-an-ordered-stream/)

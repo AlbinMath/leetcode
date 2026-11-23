@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [1408. String Matching in an Array](../1524-string-matching-in-an-array/)
-- [1773. Count Items Matching a Rule](../1899-count-items-matching-a-rule/)
+- [792. Number of Matching Subsequences](../0808-number-of-matching-subsequences/)
+- [1023. Camelcase Matching](../1080-camelcase-matching/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/wildcard-matching/)

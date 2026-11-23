@@ -1,7 +1,7 @@
 # LeetCode 1492: The kth Factor of n
 
 **LeetCode Problem #1492 — The kth Factor of n**
-Solve LeetCode The kth Factor of n using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode The kth Factor of n using Kotlin, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode The kth Factor of n using Python and Array / General. This soluti
 | Problem | The kth Factor of n |
 | LeetCode | #1492 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | Kotlin, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,9 +44,10 @@ Consider the standard input for **The kth Factor of n**. Applying **In-Place Arr
 - Array
 
 ## Language
-Python
+Kotlin, Python
 
 ## Source Code
+- [solution.kt](./solution.kt)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [50. Pow(x, n)](../0050-powx-n/)
-- [51. N-Queens](../0051-n-queens/)
-- [52. N-Queens II](../0052-n-queens-ii/)
+- [215. Kth Largest Element in an Array](../0215-kth-largest-element-in-an-array/)
+- [230. Kth Smallest Element in a BST](../0230-kth-smallest-element-in-a-bst/)
+- [378. Kth Smallest Element in a Sorted Matrix](../0378-kth-smallest-element-in-a-sorted-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-kth-factor-of-n/)

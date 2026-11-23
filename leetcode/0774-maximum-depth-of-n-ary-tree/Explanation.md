@@ -65,7 +65,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [104. Maximum Depth of Binary Tree](../0104-maximum-depth-of-binary-tree/)
+- [429. N-ary Tree Level Order Traversal](../0764-n-ary-tree-level-order-traversal/)
 - [589. N-ary Tree Preorder Traversal](../0775-n-ary-tree-preorder-traversal/)
 - [590. N-ary Tree Postorder Traversal](../0776-n-ary-tree-postorder-traversal/)
 

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [24. Swap Nodes in Pairs](../0024-swap-nodes-in-pairs/)
-- [168. Excel Sheet Column Title](../0168-excel-sheet-column-title/)
-- [171. Excel Sheet Column Number](../0171-excel-sheet-column-number/)
+- [947. Most Stones Removed with Same Row or Column](../0984-most-stones-removed-with-same-row-or-column/)
+- [2482. Difference Between Ones and Zeros in Row and Column](../2606-difference-between-ones-and-zeros-in-row-and-column/)
+- [2206. Divide Array Into Equal Pairs](../2308-divide-array-into-equal-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/equal-row-and-column-pairs/)

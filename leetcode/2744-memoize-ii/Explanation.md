@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
-- [47. Permutations II](../0047-permutations-ii/)
+- [2623. Memoize](../2731-memoize/)
+- [1. Two Sum](../0001-two-sum/)
+- [49. Group Anagrams](../0049-group-anagrams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/memoize-ii/)

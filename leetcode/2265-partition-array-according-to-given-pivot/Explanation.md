@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [561. Array Partition](../0561-array-partition/)
 - [1389. Create Target Array in the Given Order](../1505-create-target-array-in-the-given-order/)
 - [3006. Find Beautiful Indices in the Given Array I](../3245-find-beautiful-indices-in-the-given-array-i/)
+- [3008. Find Beautiful Indices in the Given Array II](../3303-find-beautiful-indices-in-the-given-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-according-to-given-pivot/)

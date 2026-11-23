@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1887. Reduction Operations to Make the Array Elements Equal](../2016-reduction-operations-to-make-the-array-elements-equal/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
-- [744. Find Smallest Letter Greater Than Target](../0745-find-smallest-letter-greater-than-target/)
+- [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
+- [453. Minimum Moves to Equal Array Elements](../0453-minimum-moves-to-equal-array-elements/)
+- [462. Minimum Moves to Equal Array Elements II](../0462-minimum-moves-to-equal-array-elements-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [87. Scramble String](../0087-scramble-string/)
+- [926. Flip String to Monotone Increasing](../0962-flip-string-to-monotone-increasing/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](../3372-longest-strictly-increasing-or-strictly-decreasing-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/increasing-decreasing-string/)

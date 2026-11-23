@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [696. Count Binary Substrings](../0696-count-binary-substrings/)
-- [3529. Count Cells in Overlapping Horizontal and Vertical Substrings](../3821-count-cells-in-overlapping-horizontal-and-vertical-substrings/)
-- [8. String to Integer (atoi)](../0008-string-to-integer-atoi/)
+- [828. Count Unique Characters of All Substrings of a Given String](../0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [3297. Count Substrings That Can Be Rearranged to Contain a String I](../3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
+- [3298. Count Substrings That Can Be Rearranged to Contain a String II](../3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)

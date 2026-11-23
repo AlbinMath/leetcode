@@ -1,7 +1,7 @@
 # LeetCode 77: Combinations
 
 **LeetCode Problem #77 — Combinations**
-Solve LeetCode Combinations using PHP and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
+Solve LeetCode Combinations using PHP, Python and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Combinations using PHP and Backtracking. This solution finds the 
 | Problem | Combinations |
 | LeetCode | #77 |
 | Difficulty | Medium |
-| Language | PHP |
+| Language | PHP, Python |
 | Algorithm | Backtracking Recursive Search |
 | Data Structure | Recursion Tree |
 | Pattern | Backtracking |
@@ -45,10 +45,11 @@ Consider the standard input for **Combinations**. Applying **Backtracking Recurs
 - Recursion
 
 ## Language
-PHP
+PHP, Python
 
 ## Source Code
 - [solution.php](./solution.php)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,8 +65,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [17. Letter Combinations of a Phone Number](../0017-letter-combinations-of-a-phone-number/)
+- [2056. Number of Valid Move Combinations On Chessboard](../2166-number-of-valid-move-combinations-on-chessboard/)
 - [31. Next Permutation](../0031-next-permutation/)
-- [39. Combination Sum](../0039-combination-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/combinations/)

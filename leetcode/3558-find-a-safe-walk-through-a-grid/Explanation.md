@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [802. Find Eventual Safe States](../0820-find-eventual-safe-states/)
 - [2812. Find the Safest Path in a Grid](../2914-find-the-safest-path-in-a-grid/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [524. Longest Word in Dictionary through Deleting](../0524-longest-word-in-dictionary-through-deleting/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/)

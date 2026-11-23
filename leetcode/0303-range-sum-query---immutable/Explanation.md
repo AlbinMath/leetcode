@@ -1,14 +1,14 @@
-# LeetCode 303: Range Sum Query   Immutable
+# LeetCode 303: Range Sum Query - Immutable
 
-**LeetCode Problem #303 — Range Sum Query   Immutable**
-Solve LeetCode Range Sum Query   Immutable using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+**LeetCode Problem #303 — Range Sum Query - Immutable**
+Solve LeetCode Range Sum Query - Immutable using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Range Sum Query   Immutable |
+| Problem | Range Sum Query - Immutable |
 | LeetCode | #303 |
-| Difficulty | Medium |
+| Difficulty | Easy |
 | Language | C++ |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
@@ -31,7 +31,7 @@ We iterate through the input using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Range Sum Query   Immutable**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Range Sum Query - Immutable**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [307. Range Sum Query   Mutable](../0307-range-sum-query---mutable/)
-- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
+- [304. Range Sum Query 2D - Immutable](../0304-range-sum-query-2d---immutable/)
+- [307. Range Sum Query - Mutable](../0307-range-sum-query---mutable/)
 - [327. Count of Range Sum](../0327-count-of-range-sum/)
 
 ## LeetCode
-[View problem on LeetCode](https://leetcode.com/problems/range-sum-query---immutable/)
+[View problem on LeetCode](https://leetcode.com/problems/range-sum-query-immutable/)

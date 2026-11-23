@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [16. 3Sum Closest](../0016-3sum-closest/)
-- [658. Find K Closest Elements](../0658-find-k-closest-elements/)
-- [973. K Closest Points to Origin](../1014-k-closest-points-to-origin/)
+- [1390. Four Divisors](../1284-four-divisors/)
+- [1808. Maximize Number of Nice Divisors](../1936-maximize-number-of-nice-divisors/)
+- [1952. Three Divisors](../2083-three-divisors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/closest-divisors/)

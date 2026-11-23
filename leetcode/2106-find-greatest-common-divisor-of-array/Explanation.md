@@ -66,8 +66,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1071. Greatest Common Divisor of Strings](../1146-greatest-common-divisor-of-strings/)
-- [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
 - [2709. Greatest Common Divisor Traversal](../2827-greatest-common-divisor-traversal/)
+- [2657. Find the Prefix Common Array of Two Arrays](../2766-find-the-prefix-common-array-of-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)

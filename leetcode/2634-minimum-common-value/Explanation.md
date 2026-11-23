@@ -65,8 +65,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1413. Minimum Value to Get Positive Step by Step Sum](../1514-minimum-value-to-get-positive-step-by-step-sum/)
-- [14. Longest Common Prefix](../0014-longest-common-prefix/)
-- [64. Minimum Path Sum](../0064-minimum-path-sum/)
+- [1896. Minimum Cost to Change the Final Value of Expression](../2008-minimum-cost-to-change-the-final-value-of-expression/)
+- [3066. Minimum Operations to Exceed Threshold Value II](../3332-minimum-operations-to-exceed-threshold-value-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-common-value/)

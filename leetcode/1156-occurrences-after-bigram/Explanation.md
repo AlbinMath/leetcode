@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [315. Count of Smaller Numbers After Self](../0315-count-of-smaller-numbers-after-self/)
-- [1005. Maximize Sum Of Array After K Negations](../1047-maximize-sum-of-array-after-k-negations/)
+- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
 - [1207. Unique Number of Occurrences](../1319-unique-number-of-occurrences/)
+- [1297. Maximum Number of Occurrences of a Substring](../1423-maximum-number-of-occurrences-of-a-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/occurrences-after-bigram/)

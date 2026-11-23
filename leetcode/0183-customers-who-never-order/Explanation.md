@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1045. Customers Who Bought All Products](../1135-customers-who-bought-all-products/)
-- [102. Binary Tree Level Order Traversal](../0102-binary-tree-level-order-traversal/)
-- [103. Binary Tree Zigzag Level Order Traversal](../0103-binary-tree-zigzag-level-order-traversal/)
+- [3657. Find Loyal Customers](../4025-find-loyal-customers/)
+- [3705. Find Golden Hour Customers](../4091-find-golden-hour-customers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customers-who-never-order/)

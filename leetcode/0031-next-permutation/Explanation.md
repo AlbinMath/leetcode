@@ -1,7 +1,7 @@
 # LeetCode 31: Next Permutation
 
 **LeetCode Problem #31 — Next Permutation**
-Solve LeetCode Next Permutation using Python and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
+Solve LeetCode Next Permutation using JavaScript, Python and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Next Permutation using Python and Backtracking. This solution fin
 | Problem | Next Permutation |
 | LeetCode | #31 |
 | Difficulty | Medium |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Backtracking Recursive Search |
 | Data Structure | Recursion Tree |
 | Pattern | Backtracking |
@@ -45,9 +45,10 @@ Consider the standard input for **Next Permutation**. Applying **Backtracking Re
 - Recursion
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -63,7 +64,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [60. Permutation Sequence](../0060-permutation-sequence/)
+- [116. Populating Next Right Pointers in Each Node](../0116-populating-next-right-pointers-in-each-node/)
 - [117. Populating Next Right Pointers in Each Node II](../0117-populating-next-right-pointers-in-each-node-ii/)
 - [496. Next Greater Element I](../0496-next-greater-element-i/)
 

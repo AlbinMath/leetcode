@@ -1,7 +1,7 @@
 # LeetCode 3841: Palindromic Path Queries in a Tree
 
 **LeetCode Problem #3841 — Palindromic Path Queries in a Tree**
-Solve LeetCode Palindromic Path Queries in a Tree using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Palindromic Path Queries in a Tree using JavaScript, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Palindromic Path Queries in a Tree using Python and Tree & Graph.
 | Problem | Palindromic Path Queries in a Tree |
 | LeetCode | #3841 |
 | Difficulty | Hard |
-| Language | Python |
+| Language | JavaScript, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -47,9 +47,10 @@ Consider the standard input for **Palindromic Path Queries in a Tree**. Applying
 - BFS
 
 ## Language
-Python
+JavaScript, Python
 
 ## Source Code
+- [solution.js](./solution.js)
 - [solution.py](./solution.py)
 
 ## Why This Works
@@ -65,9 +66,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1457. Pseudo-Palindromic Paths in a Binary Tree](../1568-pseudo-palindromic-paths-in-a-binary-tree/)
+- [3615. Longest Palindromic Path in Graph](../3930-longest-palindromic-path-in-graph/)
 - [124. Binary Tree Maximum Path Sum](../0124-binary-tree-maximum-path-sum/)
-- [1372. Longest ZigZag Path in a Binary Tree](../1474-longest-zigzag-path-in-a-binary-tree/)
-- [2509. Cycle Length Queries in a Tree](../2597-cycle-length-queries-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/)

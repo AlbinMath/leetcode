@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2948. Make Lexicographically Smallest Array by Swapping Elements](../3219-make-lexicographically-smallest-array-by-swapping-elements/)
-- [3302. Find the Lexicographically Smallest Valid Sequence](../3584-find-the-lexicographically-smallest-valid-sequence/)
-- [3720. Lexicographically Smallest Permutation Greater Than Target](../4020-lexicographically-smallest-permutation-greater-than-target/)
+- [1061. Lexicographically Smallest Equivalent String](../1058-lexicographically-smallest-equivalent-string/)
+- [1625. Lexicographically Smallest String After Applying Operations](../1747-lexicographically-smallest-string-after-applying-operations/)
+- [2434. Using a Robot to Print the Lexicographically Smallest String](../2520-using-a-robot-to-print-the-lexicographically-smallest-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/)

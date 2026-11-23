@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
-- [80. Remove Duplicates from Sorted Array II](../0080-remove-duplicates-from-sorted-array-ii/)
-- [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
+- [1209. Remove All Adjacent Duplicates in String II](../1320-remove-all-adjacent-duplicates-in-string-ii/)
+- [777. Swap Adjacent in LR String](../0793-swap-adjacent-in-lr-string/)
+- [3561. Resulting String After Adjacent Removals](../3860-resulting-string-after-adjacent-removals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [468. Validate IP Address](../0468-validate-ip-address/)
 - [93. Restore IP Addresses](../0093-restore-ip-addresses/)
 - [3451. Find Invalid IP Addresses](../3792-find-invalid-ip-addresses/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/defanging-an-ip-address/)

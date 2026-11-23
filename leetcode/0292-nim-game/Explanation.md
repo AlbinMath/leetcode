@@ -1,7 +1,7 @@
 # LeetCode 292: Nim Game
 
 **LeetCode Problem #292 — Nim Game**
-Solve LeetCode Nim Game using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Nim Game using C++, Kotlin and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Nim Game using C++ and Array / General. This solution finds the o
 | Problem | Nim Game |
 | LeetCode | #292 |
 | Difficulty | Easy |
-| Language | C++ |
+| Language | C++, Kotlin |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Nim Game**. Applying **In-Place Array Traversa
 - Array
 
 ## Language
-C++
+C++, Kotlin
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+- [solution.kt](./solution.kt)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [45. Jump Game II](../0045-jump-game-ii/)
 - [55. Jump Game](../0055-jump-game/)
-- [289. Game of Life](../0289-game-of-life/)
+- [174. Dungeon Game](../0174-dungeon-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/nim-game/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](../3382-find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [287. Find the Duplicate Number](../0287-find-the-duplicate-number/)
-- [321. Create Maximum Number](../0321-create-maximum-number/)
+- [2744. Find Maximum Number of String Pairs](../2847-find-maximum-number-of-string-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/)

@@ -73,7 +73,7 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 ## Related Problems
 - [82. Remove Duplicates from Sorted List II](../0082-remove-duplicates-from-sorted-list-ii/)
 - [83. Remove Duplicates from Sorted List](../0083-remove-duplicates-from-sorted-list/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
+- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)

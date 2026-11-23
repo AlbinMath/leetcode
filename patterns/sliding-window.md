@@ -18,7 +18,7 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
-| 3 | [Longest Substring Without Repeating Characters](../leetcode/0003-longest-substring-without-repeating-characters/) | Python | O(n) | O(1) | [Explanation](../leetcode/0003-longest-substring-without-repeating-characters/Explanation.md) |
+| 3 | [Longest Substring Without Repeating Characters](../leetcode/0003-longest-substring-without-repeating-characters/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0003-longest-substring-without-repeating-characters/Explanation.md) |
 
 | 433 | [Minimum Genetic Mutation](../leetcode/0433-minimum-genetic-mutation/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0433-minimum-genetic-mutation/Explanation.md) |
 
@@ -34,13 +34,15 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 
 | 3568 | [Minimum Moves to Clean the Classroom](../leetcode/3870-minimum-moves-to-clean-the-classroom/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3870-minimum-moves-to-clean-the-classroom/Explanation.md) |
 
+| 3679 | [ Minimum Discards to Balance Inventory](../leetcode/3953--minimum-discards-to-balance-inventory/) | Python | O(n) | O(1) | [Explanation](../leetcode/3953--minimum-discards-to-balance-inventory/Explanation.md) |
+
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 30 | [Substring with Concatenation of All Words](../leetcode/0030-substring-with-concatenation-of-all-words/) | Python | O(n) | O(1) | [Explanation](../leetcode/0030-substring-with-concatenation-of-all-words/Explanation.md) |
 
-| 76 | [Minimum Window Substring](../leetcode/0076-minimum-window-substring/) | PHP | O(n) | O(1) | [Explanation](../leetcode/0076-minimum-window-substring/Explanation.md) |
+| 76 | [Minimum Window Substring](../leetcode/0076-minimum-window-substring/) | JavaScript, PHP | O(n) | O(1) | [Explanation](../leetcode/0076-minimum-window-substring/Explanation.md) |
 
 | 239 | [Sliding Window Maximum](../leetcode/0239-sliding-window-maximum/) | Python | O(n) | O(1) | [Explanation](../leetcode/0239-sliding-window-maximum/Explanation.md) |
 

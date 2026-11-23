@@ -66,7 +66,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [637. Average of Levels in Binary Tree](../0637-average-of-levels-in-binary-tree/)
 - [643. Maximum Average Subarray I](../0643-maximum-average-subarray-i/)
-- [1164. Product Price at a Given Date](../1278-product-price-at-a-given-date/)
+- [805. Split Array With Same Average](../0823-split-array-with-same-average/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-selling-price/)

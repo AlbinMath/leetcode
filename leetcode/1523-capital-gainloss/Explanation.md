@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [520. Detect Capital](../0520-detect-capital/)
+- [2477. Minimum Fuel Cost to Report to the Capital](../2568-minimum-fuel-cost-to-report-to-the-capital/)
 - [175. Combine Two Tables](../0175-combine-two-tables/)
-- [176. Second Highest Salary](../0176-second-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/capital-gainloss/)

@@ -65,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1979. Find Greatest Common Divisor of Array](../2106-find-greatest-common-divisor-of-array/)
 - [2709. Greatest Common Divisor Traversal](../2827-greatest-common-divisor-traversal/)
-- [3485. Longest Common Prefix of K Strings After Removal](../3784-longest-common-prefix-of-k-strings-after-removal/)
+- [2807. Insert Greatest Common Divisors in Linked List](../2903-insert-greatest-common-divisors-in-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/greatest-common-divisor-of-strings/)

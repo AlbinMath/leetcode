@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2916. Subarrays Distinct Element Sum of Squares II](../3139-subarrays-distinct-element-sum-of-squares-ii/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
+- [1977. Number of Ways to Separate Numbers](../2091-number-of-ways-to-separate-numbers/)
+- [2553. Separate the Digits in an Array](../2639-separate-the-digits-in-an-array/)
+- [279. Perfect Squares](../0279-perfect-squares/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/separate-squares-ii/)

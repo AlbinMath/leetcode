@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [497. Random Point in Non-overlapping Rectangles](../0914-random-point-in-non-overlapping-rectangles/)
 - [22. Generate Parentheses](../0022-generate-parentheses/)
-- [138. Copy List with Random Pointer](../0138-copy-list-with-random-pointer/)
-- [528. Random Pick with Weight](../0912-random-pick-with-weight/)
+- [1374. Generate a String With Characters That Have Odd Counts](../1490-generate-a-string-with-characters-that-have-odd-counts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-random-point-in-a-circle/)

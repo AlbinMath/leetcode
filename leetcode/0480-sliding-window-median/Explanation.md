@@ -65,8 +65,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [239. Sliding Window Maximum](../0239-sliding-window-maximum/)
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
 - [76. Minimum Window Substring](../0076-minimum-window-substring/)
+- [773. Sliding Puzzle](../0787-sliding-puzzle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sliding-window-median/)

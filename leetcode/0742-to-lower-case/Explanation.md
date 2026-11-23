@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2309. Greatest English Letter in Upper and Lower Case](../1363-greatest-english-letter-in-upper-and-lower-case/)
 - [374. Guess Number Higher or Lower](../0374-guess-number-higher-or-lower/)
 - [375. Guess Number Higher or Lower II](../0375-guess-number-higher-or-lower-ii/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/to-lower-case/)

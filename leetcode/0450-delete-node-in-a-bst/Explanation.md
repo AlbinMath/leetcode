@@ -1,7 +1,7 @@
 # LeetCode 450: Delete Node in a BST
 
 **LeetCode Problem #450 — Delete Node in a BST**
-Solve LeetCode Delete Node in a BST using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+Solve LeetCode Delete Node in a BST using JavaScript, Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Delete Node in a BST using JavaScript and Binary Search. This sol
 | Problem | Delete Node in a BST |
 | LeetCode | #450 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
 | Pattern | Binary Search |
@@ -46,10 +46,11 @@ Consider the standard input for **Delete Node in a BST**. Applying **Modified Bi
 - Search Space
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,9 +65,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [237. Delete Node in a Linked List](../0237-delete-node-in-a-linked-list/)
 - [2095. Delete the Middle Node of a Linked List](../2216-delete-the-middle-node-of-a-linked-list/)
 - [19. Remove Nth Node From End of List](../0019-remove-nth-node-from-end-of-list/)
-- [117. Populating Next Right Pointers in Each Node II](../0117-populating-next-right-pointers-in-each-node-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/)

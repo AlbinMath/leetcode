@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1070. Product Sales Analysis III](../1155-product-sales-analysis-iii/)
-- [511. Game Play Analysis I](../1179-game-play-analysis-i/)
 - [1084. Sales Analysis III](../1174-sales-analysis-iii/)
+- [3564. Seasonal Sales Analysis](../3898-seasonal-sales-analysis/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/product-sales-analysis-i/)

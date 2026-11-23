@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3689. Maximum Total Subarray Value I](../4005-maximum-total-subarray-value-i/)
+- [1491. Average Salary Excluding the Minimum and Maximum Salary](../1584-average-salary-excluding-the-minimum-and-maximum-salary/)
 - [53. Maximum Subarray](../0053-maximum-subarray/)
 - [152. Maximum Product Subarray](../0152-maximum-product-subarray/)
 

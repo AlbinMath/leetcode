@@ -1,7 +1,7 @@
 # LeetCode 128: Longest Consecutive Sequence
 
 **LeetCode Problem #128 — Longest Consecutive Sequence**
-Solve LeetCode Longest Consecutive Sequence using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Longest Consecutive Sequence using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Longest Consecutive Sequence using JavaScript and Array / General
 | Problem | Longest Consecutive Sequence |
 | LeetCode | #128 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Longest Consecutive Sequence**. Applying **In-
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -62,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
-- [14. Longest Common Prefix](../0014-longest-common-prefix/)
+- [3872. Longest Arithmetic Sequence After Changing At Most One Element](../4230-longest-arithmetic-sequence-after-changing-at-most-one-element/)
+- [180. Consecutive Numbers](../0180-consecutive-numbers/)
+- [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/)

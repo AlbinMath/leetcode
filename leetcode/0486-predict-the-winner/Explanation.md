@@ -73,8 +73,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1275. Find Winner on a Tic Tac Toe Game](../1400-find-winner-on-a-tic-tac-toe-game/)
-- [10. Regular Expression Matching](../0010-regular-expression-matching/)
-- [115. Distinct Subsequences](../0115-distinct-subsequences/)
+- [1535. Find the Winner of an Array Game](../1657-find-the-winner-of-an-array-game/)
+- [1823. Find the Winner of the Circular Game](../1951-find-the-winner-of-the-circular-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/predict-the-winner/)

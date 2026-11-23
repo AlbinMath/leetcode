@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [118. Pascal's Triangle](../0118-pascals-triangle/)
-- [40. Combination Sum II](../0040-combination-sum-ii/)
-- [45. Jump Game II](../0045-jump-game-ii/)
+- [120. Triangle](../0120-triangle/)
+- [610. Triangle Judgement](../0610-triangle-judgement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/pascals-triangle-ii/)

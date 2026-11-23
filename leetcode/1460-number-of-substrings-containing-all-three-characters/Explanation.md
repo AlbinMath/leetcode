@@ -1,7 +1,7 @@
 # LeetCode 1358: Number of Substrings Containing All Three Characters
 
 **LeetCode Problem #1358 — Number of Substrings Containing All Three Characters**
-Solve LeetCode Number of Substrings Containing All Three Characters using Java and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Number of Substrings Containing All Three Characters using Java, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Number of Substrings Containing All Three Characters using Java a
 | Problem | Number of Substrings Containing All Three Characters |
 | LeetCode | #1358 |
 | Difficulty | Medium |
-| Language | Java |
+| Language | Java, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -55,10 +55,11 @@ Consider the standard input for **Number of Substrings Containing All Three Char
 - BFS
 
 ## Language
-Java
+Java, Python
 
 ## Source Code
 - [solution.java](./solution.java)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -73,9 +74,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1876. Substrings of Size Three with Distinct Characters](../1987-substrings-of-size-three-with-distinct-characters/)
+- [828. Count Unique Characters of All Substrings of a Given String](../0855-count-unique-characters-of-all-substrings-of-a-given-string/)
 - [1941. Check if All Characters Have Equal Number of Occurrences](../2053-check-if-all-characters-have-equal-number-of-occurrences/)
-- [1520. Maximum Number of Non-Overlapping Substrings](../1644-maximum-number-of-non-overlapping-substrings/)
+- [1876. Substrings of Size Three with Distinct Characters](../1987-substrings-of-size-three-with-distinct-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)

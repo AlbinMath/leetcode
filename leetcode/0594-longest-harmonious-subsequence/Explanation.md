@@ -65,8 +65,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [300. Longest Increasing Subsequence](../0300-longest-increasing-subsequence/)
+- [516. Longest Palindromic Subsequence](../0516-longest-palindromic-subsequence/)
 - [521. Longest Uncommon Subsequence I](../0521-longest-uncommon-subsequence-i/)
-- [673. Number of Longest Increasing Subsequence](../0673-number-of-longest-increasing-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-harmonious-subsequence/)

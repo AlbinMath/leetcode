@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [658. Find K Closest Elements](../0658-find-k-closest-elements/)
-- [3020. Find the Maximum Number of Elements in Subset](../3299-find-the-maximum-number-of-elements-in-subset/)
-- [3471. Find the Largest Almost Missing Integer](../3705-find-the-largest-almost-missing-integer/)
+- [1261. Find Elements in a Contaminated Binary Tree](../1387-find-elements-in-a-contaminated-binary-tree/)
+- [2593. Find Score of an Array After Marking All Elements](../2695-find-score-of-an-array-after-marking-all-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-missing-elements/)

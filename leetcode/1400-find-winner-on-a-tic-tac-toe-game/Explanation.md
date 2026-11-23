@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3222. Find the Winning Player in Coin Game](../3511-find-the-winning-player-in-coin-game/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [794. Valid Tic-Tac-Toe State](../0810-valid-tic-tac-toe-state/)
+- [1535. Find the Winner of an Array Game](../1657-find-the-winner-of-an-array-game/)
+- [1823. Find the Winner of the Circular Game](../1951-find-the-winner-of-the-circular-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)

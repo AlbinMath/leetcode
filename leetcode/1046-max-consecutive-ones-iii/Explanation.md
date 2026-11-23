@@ -1,7 +1,7 @@
 # LeetCode 1004: Max Consecutive Ones III
 
 **LeetCode Problem #1004 — Max Consecutive Ones III**
-Solve LeetCode Max Consecutive Ones III using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Max Consecutive Ones III using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Max Consecutive Ones III using JavaScript and Array / General. Th
 | Problem | Max Consecutive Ones III |
 | LeetCode | #1004 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Max Consecutive Ones III**. Applying **In-Plac
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -64,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
 - [600. Non-negative Integers without Consecutive Ones](../0600-non-negative-integers-without-consecutive-ones/)
-- [123. Best Time to Buy and Sell Stock III](../0123-best-time-to-buy-and-sell-stock-iii/)
+- [1703. Minimum Adjacent Swaps for K Consecutive Ones](../1805-minimum-adjacent-swaps-for-k-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/)

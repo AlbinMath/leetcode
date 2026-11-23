@@ -65,8 +65,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [301. Remove Invalid Parentheses](../0301-remove-invalid-parentheses/)
+- [1169. Invalid Transactions](../1272-invalid-transactions/)
 - [3451. Find Invalid IP Addresses](../3792-find-invalid-ip-addresses/)
-- [175. Combine Two Tables](../0175-combine-two-tables/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/invalid-tweets/)

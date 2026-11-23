@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [23. Merge k Sorted Lists](../0023-merge-k-sorted-lists/)
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
-- [347. Top K Frequent Elements](../0347-top-k-frequent-elements/)
+- [3835. Count Subarrays With Cost Less Than or Equal to K](../4211-count-subarrays-with-cost-less-than-or-equal-to-k/)
+- [4046. Minimum Cost Path With At Most K Turns](../4367-minimum-cost-path-with-at-most-k-turns/)
+- [3619. Count Islands With Total Value Divisible by K](../3823-count-islands-with-total-value-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-cost-to-hire-k-workers/)

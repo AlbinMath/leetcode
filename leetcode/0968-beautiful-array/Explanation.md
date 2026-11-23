@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2216. Minimum Deletions to Make Array Beautiful](../1355-minimum-deletions-to-make-array-beautiful/)
 - [3006. Find Beautiful Indices in the Given Array I](../3245-find-beautiful-indices-in-the-given-array-i/)
 - [3008. Find Beautiful Indices in the Given Array II](../3303-find-beautiful-indices-in-the-given-array-ii/)
-- [26. Remove Duplicates from Sorted Array](../0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/beautiful-array/)

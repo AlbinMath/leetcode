@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1957. Delete Characters to Make Fancy String](../1302-delete-characters-to-make-fancy-string/)
-- [4. Median of Two Sorted Arrays](../0004-median-of-two-sorted-arrays/)
-- [21. Merge Two Sorted Lists](../0021-merge-two-sorted-lists/)
+- [955. Delete Columns to Make Sorted II](../0992-delete-columns-to-make-sorted-ii/)
+- [960. Delete Columns to Make Sorted III](../1000-delete-columns-to-make-sorted-iii/)
+- [768. Max Chunks To Make Sorted II](../0779-max-chunks-to-make-sorted-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-columns-to-make-sorted/)

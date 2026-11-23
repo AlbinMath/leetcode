@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3905. Multi Source Flood Fill](../4283-multi-source-flood-fill/)
 - [2887. Fill Missing Data](../3070-fill-missing-data/)
 - [3537. Fill a Special Grid](../3822-fill-a-special-grid/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flood-fill/)

@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [992. Subarrays with K Different Integers](../1034-subarrays-with-k-different-integers/)
 - [2261. K Divisible Elements Subarrays](../2339-k-divisible-elements-subarrays/)
-- [2913. Subarrays Distinct Element Sum of Squares I](../3163-subarrays-distinct-element-sum-of-squares-i/)
-- [3034. Number of Subarrays That Match a Pattern I](../3269-number-of-subarrays-that-match-a-pattern-i/)
+- [2302. Count Subarrays With Score Less Than K](../2394-count-subarrays-with-score-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-k-unique-subarrays-i/)

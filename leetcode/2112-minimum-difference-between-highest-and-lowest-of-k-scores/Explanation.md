@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [530. Minimum Absolute Difference in BST](../0530-minimum-absolute-difference-in-bst/)
+- [3880. Minimum Absolute Difference Between Two Values](../4255-minimum-absolute-difference-between-two-values/)
 - [783. Minimum Distance Between BST Nodes](../0799-minimum-distance-between-bst-nodes/)
-- [1200. Minimum Absolute Difference](../1306-minimum-absolute-difference/)
+- [1026. Maximum Difference Between Node and Ancestor](../1092-maximum-difference-between-node-and-ancestor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)

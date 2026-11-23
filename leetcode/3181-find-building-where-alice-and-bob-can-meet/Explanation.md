@@ -1,7 +1,7 @@
 # LeetCode 2940: Find Building Where Alice and Bob Can Meet
 
 **LeetCode Problem #2940 — Find Building Where Alice and Bob Can Meet**
-Solve LeetCode Find Building Where Alice and Bob Can Meet using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find Building Where Alice and Bob Can Meet using JavaScript, Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Find Building Where Alice and Bob Can Meet using JavaScript and A
 | Problem | Find Building Where Alice and Bob Can Meet |
 | LeetCode | #2940 |
 | Difficulty | Hard |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
 | Pattern | Array / General |
@@ -44,10 +44,11 @@ Consider the standard input for **Find Building Where Alice and Bob Can Meet**. 
 - Array
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -63,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
-- [28. Find the Index of the First Occurrence in a String](../0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [1970. Last Day Where You Can Still Cross](../2101-last-day-where-you-can-still-cross/)
+- [3011. Find if Array Can Be Sorted](../3291-find-if-array-can-be-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)

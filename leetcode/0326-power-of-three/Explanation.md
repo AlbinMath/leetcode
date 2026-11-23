@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [185. Department Top Three Salaries](../0185-department-top-three-salaries/)
 - [231. Power of Two](../0231-power-of-two/)
 - [342. Power of Four](../0342-power-of-four/)
+- [869. Reordered Power of 2](../0900-reordered-power-of-2/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-of-three/)

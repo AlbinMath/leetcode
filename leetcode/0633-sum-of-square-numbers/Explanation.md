@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [129. Sum Root to Leaf Numbers](../0129-sum-root-to-leaf-numbers/)
-- [1022. Sum of Root To Leaf Binary Numbers](../1079-sum-of-root-to-leaf-binary-numbers/)
-- [1925. Count Square Sum Triples](../2037-count-square-sum-triples/)
+- [829. Consecutive Numbers Sum](../0856-consecutive-numbers-sum/)
+- [985. Sum of Even Numbers After Queries](../1027-sum-of-even-numbers-after-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-square-numbers/)

@@ -1,14 +1,14 @@
-# LeetCode 1682: Most Visited Sector In  A Circular Track
+# LeetCode 1560: Most Visited Sector in  a Circular Track
 
-**LeetCode Problem #1682 — Most Visited Sector In  A Circular Track**
-Solve LeetCode Most Visited Sector In  A Circular Track using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+**LeetCode Problem #1560 — Most Visited Sector in  a Circular Track**
+Solve LeetCode Most Visited Sector in  a Circular Track using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Most Visited Sector In  A Circular Track |
-| LeetCode | #1682 |
-| Difficulty | Medium |
+| Problem | Most Visited Sector in  a Circular Track |
+| LeetCode | #1560 |
+| Difficulty | Easy |
 | Language | Python |
 | Algorithm | In-Place Array Traversal & Index Mapping |
 | Data Structure | Array |
@@ -31,7 +31,7 @@ We iterate through the input using **In-Place Array Traversal & Index Mapping**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Most Visited Sector In  A Circular Track**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Most Visited Sector in  a Circular Track**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [11. Container With Most Water](../0011-container-with-most-water/)
-- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
-- [303. Range Sum Query   Immutable](../0303-range-sum-query---immutable/)
+- [1581. Customer Who Visited but Did Not Make Any Transactions](../1724-customer-who-visited-but-did-not-make-any-transactions/)
+- [2617. Minimum Number of Visited Cells in a Grid](../2697-minimum-number-of-visited-cells-in-a-grid/)
+- [2876. Count Visited Nodes in a Directed Graph](../3140-count-visited-nodes-in-a-directed-graph/)
 
 ## LeetCode
-[View problem on LeetCode](https://leetcode.com/problems/most-visited-sector-in--a-circular-track/)
+[View problem on LeetCode](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)

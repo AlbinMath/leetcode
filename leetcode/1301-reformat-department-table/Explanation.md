@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [184. Department Highest Salary](../0184-department-highest-salary/)
-- [185. Department Top Three Salaries](../0185-department-top-three-salaries/)
-- [668. Kth Smallest Number in Multiplication Table](../0668-kth-smallest-number-in-multiplication-table/)
+- [1417. Reformat The String](../1532-reformat-the-string/)
+- [1507. Reformat Date](../1283-reformat-date/)
+- [1694. Reformat Phone Number](../1812-reformat-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reformat-department-table/)

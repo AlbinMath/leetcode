@@ -64,9 +64,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
+- [1178. Number of Valid Words for Each Puzzle](../1282-number-of-valid-words-for-each-puzzle/)
+- [1307. Verbal Arithmetic Puzzle](../1429-verbal-arithmetic-puzzle/)
 - [239. Sliding Window Maximum](../0239-sliding-window-maximum/)
-- [480. Sliding Window Median](../0480-sliding-window-median/)
-- [3. Longest Substring Without Repeating Characters](../0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sliding-puzzle/)

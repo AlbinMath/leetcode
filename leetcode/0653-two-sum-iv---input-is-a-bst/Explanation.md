@@ -1,14 +1,14 @@
-# LeetCode 653: Two Sum Iv   Input Is A Bst
+# LeetCode 653: Two Sum IV - Input is a BST
 
-**LeetCode Problem #653 — Two Sum Iv   Input Is A Bst**
-Solve LeetCode Two Sum Iv   Input Is A Bst using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
+**LeetCode Problem #653 — Two Sum IV - Input is a BST**
+Solve LeetCode Two Sum IV - Input is a BST using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
 |---|---|
-| Problem | Two Sum Iv   Input Is A Bst |
+| Problem | Two Sum IV - Input is a BST |
 | LeetCode | #653 |
-| Difficulty | Medium |
+| Difficulty | Easy |
 | Language | Python |
 | Algorithm | Modified Binary Search |
 | Data Structure | Sorted Array |
@@ -31,7 +31,7 @@ We iterate through the input using **Modified Binary Search**. By maintaining st
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Two Sum Iv   Input Is A Bst**. Applying **Modified Binary Search** yields the target result step by step.
+Consider the standard input for **Two Sum IV - Input is a BST**. Applying **Modified Binary Search** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [167. Two Sum Ii   Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
-- [1. Two Sum](../0001-two-sum/)
-- [303. Range Sum Query   Immutable](../0303-range-sum-query---immutable/)
+- [167. Two Sum II - Input Array Is Sorted](../0167-two-sum-ii---input-array-is-sorted/)
+- [938. Range Sum of BST](../0975-range-sum-of-bst/)
+- [1373. Maximum Sum BST in Binary Tree](../1475-maximum-sum-bst-in-binary-tree/)
 
 ## LeetCode
-[View problem on LeetCode](https://leetcode.com/problems/two-sum-iv---input-is-a-bst/)
+[View problem on LeetCode](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)

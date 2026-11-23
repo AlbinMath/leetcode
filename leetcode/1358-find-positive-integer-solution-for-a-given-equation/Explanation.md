@@ -65,7 +65,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1394. Find Lucky Integer in an Array](../1510-find-lucky-integer-in-an-array/)
-- [2156. Find Substring With Given Hash Value](../2275-find-substring-with-given-hash-value/)
+- [1985. Find the Kth Largest Integer in the Array](../2113-find-the-kth-largest-integer-in-the-array/)
 - [2485. Find the Pivot Integer](../2571-find-the-pivot-integer/)
 
 ## LeetCode

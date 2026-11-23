@@ -65,7 +65,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [150. Evaluate Reverse Polish Notation](../0150-evaluate-reverse-polish-notation/)
 - [1807. Evaluate the Bracket Pairs of a String](../1934-evaluate-the-bracket-pairs-of-a-string/)
-- [20. Valid Parentheses](../0020-valid-parentheses/)
+- [2331. Evaluate Boolean Binary Tree](../2416-evaluate-boolean-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/evaluate-division/)

@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [127. Word Ladder](../0127-word-ladder/)
-- [140. Word Break II](../0140-word-break-ii/)
-- [212. Word Search II](../0212-word-search-ii/)
+- [58. Length of Last Word](../0058-length-of-last-word/)
+- [79. Word Search](../0079-word-search/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-ladder-ii/)

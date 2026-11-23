@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2. Add Two Numbers](../0002-add-two-numbers/)
-- [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
-- [129. Sum Root to Leaf Numbers](../0129-sum-root-to-leaf-numbers/)
+- [829. Consecutive Numbers Sum](../0856-consecutive-numbers-sum/)
+- [967. Numbers With Same Consecutive Differences](../1007-numbers-with-same-consecutive-differences/)
+- [1680. Concatenation of Consecutive Binary Numbers](../1800-concatenation-of-consecutive-binary-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/consecutive-numbers/)

@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [1040. Moving Stones Until Consecutive II](../1113-moving-stones-until-consecutive-ii/)
 - [128. Longest Consecutive Sequence](../0128-longest-consecutive-sequence/)
 - [180. Consecutive Numbers](../0180-consecutive-numbers/)
-- [485. Max Consecutive Ones](../0485-max-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/moving-stones-until-consecutive/)

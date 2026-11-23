@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1036. Escape a Large Maze](../1106-escape-a-large-maze/)
-- [2286. Booking Concert Tickets in Groups](../2380-booking-concert-tickets-in-groups/)
-- [3245. Alternating Groups III](../3527-alternating-groups-iii/)
+- [839. Similar String Groups](../0869-similar-string-groups/)
+- [893. Groups of Special-Equivalent Strings](../0929-groups-of-special-equivalent-strings/)
+- [1203. Sort Items by Groups Respecting Dependencies](../1309-sort-items-by-groups-respecting-dependencies/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/positions-of-large-groups/)

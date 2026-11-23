@@ -70,9 +70,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [7. Reverse Integer](../0007-reverse-integer/)
-- [25. Reverse Nodes in k-Group](../0025-reverse-nodes-in-k-group/)
-- [92. Reverse Linked List II](../0092-reverse-linked-list-ii/)
+- [399. Evaluate Division](../0399-evaluate-division/)
+- [1807. Evaluate the Bracket Pairs of a String](../1934-evaluate-the-bracket-pairs-of-a-string/)
+- [2331. Evaluate Boolean Binary Tree](../2416-evaluate-boolean-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/)

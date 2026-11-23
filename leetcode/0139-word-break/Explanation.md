@@ -1,7 +1,7 @@
 # LeetCode 139: Word Break
 
 **LeetCode Problem #139 — Word Break**
-Solve LeetCode Word Break using JavaScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+Solve LeetCode Word Break using JavaScript, Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Word Break using JavaScript and Hash Map. This solution finds the
 | Problem | Word Break |
 | LeetCode | #139 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Complement Lookup / Hash Table Frequency |
 | Data Structure | Dictionary / Hash Map |
 | Pattern | Hash Map |
@@ -46,10 +46,11 @@ Consider the standard input for **Word Break**. Applying **Complement Lookup / H
 - Complement Lookup
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
@@ -65,8 +66,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [140. Word Break II](../0140-word-break-ii/)
-- [58. Length of Last Word](../0058-length-of-last-word/)
-- [79. Word Search](../0079-word-search/)
+- [1328. Break a Palindrome](../1252-break-a-palindrome/)
+- [1433. Check If a String Can Break Another String](../1530-check-if-a-string-can-break-another-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-break/)

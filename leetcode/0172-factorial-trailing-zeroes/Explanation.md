@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1006. Clumsy Factorial](../1048-clumsy-factorial/)
+- [2980. Check if Bitwise OR Has Trailing Zeros](../3246-check-if-bitwise-or-has-trailing-zeros/)
 - [73. Set Matrix Zeroes](../0073-set-matrix-zeroes/)
-- [283. Move Zeroes](../0283-move-zeroes/)
-- [5. Longest Palindromic Substring](../0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/factorial-trailing-zeroes/)

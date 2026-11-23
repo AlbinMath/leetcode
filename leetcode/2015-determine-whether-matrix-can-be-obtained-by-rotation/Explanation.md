@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1160. Find Words That Can Be Formed by Characters](../1112-find-words-that-can-be-formed-by-characters/)
-- [54. Spiral Matrix](../0054-spiral-matrix/)
-- [59. Spiral Matrix II](../0059-spiral-matrix-ii/)
+- [2018. Check if Word Can Be Placed In Crossword](../2146-check-if-word-can-be-placed-in-crossword/)
+- [2116. Check if a Parentheses String Can Be Valid](../2221-check-if-a-parentheses-string-can-be-valid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)

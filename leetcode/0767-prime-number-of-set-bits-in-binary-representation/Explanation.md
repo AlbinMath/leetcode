@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1404. Number of Steps to Reduce a Number in Binary Representation to One](../1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 - [693. Binary Number with Alternating Bits](../0693-binary-number-with-alternating-bits/)
-- [191. Number of 1 Bits](../0191-number-of-1-bits/)
-- [1290. Convert Binary Number in a Linked List to Integer](../1411-convert-binary-number-in-a-linked-list-to-integer/)
+- [3370. Smallest Number With All Set Bits](../3676-smallest-number-with-all-set-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)

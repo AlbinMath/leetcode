@@ -1,7 +1,7 @@
 # LeetCode 877: Stone Game
 
 **LeetCode Problem #877 — Stone Game**
-Solve LeetCode Stone Game using C++ and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Stone Game using C++, Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Stone Game using C++ and Tree & Graph. This solution finds the op
 | Problem | Stone Game |
 | LeetCode | #877 |
 | Difficulty | Medium |
-| Language | C++ |
+| Language | C++, Python |
 | Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
 | Data Structure | Tree / Graph / Grid |
 | Pattern | Tree & Graph |
@@ -49,10 +49,11 @@ Consider the standard input for **Stone Game**. Applying **Depth-First Search (D
 - BFS
 
 ## Language
-C++
+C++, Python
 
 ## Source Code
 - [solution.cpp](./solution.cpp)
+- [solution.py](./solution.py)
 
 ## Why This Works
 By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.

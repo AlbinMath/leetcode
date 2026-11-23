@@ -63,9 +63,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2267.  Check if There Is a Valid Parentheses String Path](../2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [1832. Check if the Sentence Is Pangram](../1960-check-if-the-sentence-is-pangram/)
-- [1880. Check if Word Equals Summation of Two Words](../2010-check-if-word-equals-summation-of-two-words/)
-- [1961. Check If String Is a Prefix of Array](../2093-check-if-string-is-a-prefix-of-array/)
+- [2042. Check if Numbers Are Ascending in a Sentence](../2168-check-if-numbers-are-ascending-in-a-sentence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
