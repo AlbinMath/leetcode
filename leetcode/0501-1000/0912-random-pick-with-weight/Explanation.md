@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [398. Random Pick Index](../../0001-0500/0398-random-pick-index/)
 - [710. Random Pick with Blacklist](../../0501-1000/0894-random-pick-with-blacklist/)
-- [1046. Last Stone Weight](../../1001-1500/1127-last-stone-weight/)
+- [2260. Minimum Consecutive Cards to Pick Up](../../2001-2500/2338-minimum-consecutive-cards-to-pick-up/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/random-pick-with-weight/)

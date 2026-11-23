@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
-- [172. Factorial Trailing Zeroes](../../0001-0500/0172-factorial-trailing-zeroes/)
-- [283. Move Zeroes](../../0001-0500/0283-move-zeroes/)
+- [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
+- [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
+- [1004. Max Consecutive Ones III](../../1001-1500/1046-max-consecutive-ones-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ones-and-zeroes/)

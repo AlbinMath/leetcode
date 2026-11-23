@@ -65,7 +65,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3463. Check If Digits Are Equal in String After Operations II](../../3501-4000/3774-check-if-digits-are-equal-in-string-after-operations-ii/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1662. Check If Two String Arrays are Equivalent](../../1501-2000/1781-check-if-two-string-arrays-are-equivalent/)
+- [1585. Check If String Is Transformable With Substring Sort Operations](../../1501-2000/1707-check-if-string-is-transformable-with-substring-sort-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/)

@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
-- [2516. Take K of Each Character From Left and Right](../../2501-3000/2599-take-k-of-each-character-from-left-and-right/)
+- [1797. Design Authentication Manager](../../1501-2000/1905-design-authentication-manager/)
+- [1845. Seat Reservation Manager](../../1501-2000/1955-seat-reservation-manager/)
+- [3408. Design Task Manager](../../3501-4000/3678-design-task-manager/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-whose-manager-left-the-company/)

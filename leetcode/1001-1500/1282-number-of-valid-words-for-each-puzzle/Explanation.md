@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2047. Number of Valid Words in a Sentence](../../2001-2500/2173-number-of-valid-words-in-a-sentence/)
-- [1935. Maximum Number of Words You Can Type](../../1001-1500/1264-maximum-number-of-words-you-can-type/)
-- [2114. Maximum Number of Words Found in Sentences](../../2001-2500/2219-maximum-number-of-words-found-in-sentences/)
+- [65. Valid Number](../../0001-0500/0065-valid-number/)
+- [611. Valid Triangle Number](../../0501-1000/0611-valid-triangle-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)

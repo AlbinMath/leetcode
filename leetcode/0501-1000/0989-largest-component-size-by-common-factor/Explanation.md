@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3319. K-th Largest Perfect Subtree Size in Binary Tree](../../3501-4000/3509-k-th-largest-perfect-subtree-size-in-binary-tree/)
-- [1492. The kth Factor of n](../../1501-2000/1585-the-kth-factor-of-n/)
-- [3334. Find the Maximum Factor Score of Array](../../3501-4000/3593-find-the-maximum-factor-score-of-array/)
+- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
+- [961. N-Repeated Element in Size 2N Array](../../1001-1500/1001-n-repeated-element-in-size-2n-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-component-size-by-common-factor/)

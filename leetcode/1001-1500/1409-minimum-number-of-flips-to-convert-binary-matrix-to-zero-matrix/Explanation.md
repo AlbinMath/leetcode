@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2220. Minimum Bit Flips to Convert Number](../../2001-2500/2323-minimum-bit-flips-to-convert-number/)
 - [1888. Minimum Number of Flips to Make the Binary String Alternating](../../2001-2500/2017-minimum-number-of-flips-to-make-the-binary-string-alternating/)
 - [3750. Minimum Number of Flips to Reverse Binary String](../../4001-4500/4126-minimum-number-of-flips-to-reverse-binary-string/)
+- [2220. Minimum Bit Flips to Convert Number](../../2001-2500/2323-minimum-bit-flips-to-convert-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)

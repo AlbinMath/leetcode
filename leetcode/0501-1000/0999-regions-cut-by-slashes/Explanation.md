@@ -65,8 +65,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [130. Surrounded Regions](../../0001-0500/0130-surrounded-regions/)
 - [675. Cut Off Trees for Golf Event](../../0501-1000/0675-cut-off-trees-for-golf-event/)
+- [130. Surrounded Regions](../../0001-0500/0130-surrounded-regions/)
 - [6. Zigzag Conversion](../../0001-0500/0006-zigzag-conversion/)
 
 ## LeetCode

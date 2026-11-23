@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3924. Minimum Threshold Path With Limited Heavy Edges](../../4001-4500/4102-minimum-threshold-path-with-limited-heavy-edges/)
 - [1413. Minimum Value to Get Positive Step by Step Sum](../../1501-2000/1514-minimum-value-to-get-positive-step-by-step-sum/)
-- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
+- [1896. Minimum Cost to Change the Final Value of Expression](../../2001-2500/2008-minimum-cost-to-change-the-final-value-of-expression/)
+- [2011. Final Value of Variable After Performing Operations](../../2001-2500/2137-final-value-of-variable-after-performing-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/)

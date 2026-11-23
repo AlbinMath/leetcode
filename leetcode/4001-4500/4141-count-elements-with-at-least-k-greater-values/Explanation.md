@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3405. Count the Number of Arrays with K Matching Adjacent Elements](../../3501-4000/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](../../3001-3500/3213-count-subarrays-where-max-element-appears-at-least-k-times/)
+- [3405. Count the Number of Arrays with K Matching Adjacent Elements](../../3501-4000/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
 - [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
 
 ## LeetCode

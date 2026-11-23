@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3243. Shortest Distance After Road Addition Queries I](../../3501-4000/3517-shortest-distance-after-road-addition-queries-i/)
-- [821. Shortest Distance to a Character](../../0501-1000/0841-shortest-distance-to-a-character/)
+- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
 - [1722. Minimize Hamming Distance After Swap Operations](../../1501-2000/1840-minimize-hamming-distance-after-swap-operations/)
 
 ## LeetCode

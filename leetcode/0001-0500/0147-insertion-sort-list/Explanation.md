@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [148. Sort List](../../0001-0500/0148-sort-list/)
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
-- [61. Rotate List](../../0001-0500/0061-rotate-list/)
+- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
+- [324. Wiggle Sort II](../../0001-0500/0324-wiggle-sort-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/insertion-sort-list/)

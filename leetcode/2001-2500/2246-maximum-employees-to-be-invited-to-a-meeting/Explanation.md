@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1112-find-words-that-can-be-formed-by-characters/)
+- [1574. Shortest Subarray to be Removed to Make Array Sorted](../../1501-2000/1679-shortest-subarray-to-be-removed-to-make-array-sorted/)
+- [1886. Determine Whether Matrix Can Be Obtained By Rotation](../../2001-2500/2015-determine-whether-matrix-can-be-obtained-by-rotation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)

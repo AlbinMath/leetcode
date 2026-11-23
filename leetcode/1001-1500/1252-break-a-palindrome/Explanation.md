@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [139. Word Break](../../0001-0500/0139-word-break/)
-- [140. Word Break II](../../0001-0500/0140-word-break-ii/)
-- [1433. Check If a String Can Break Another String](../../1501-2000/1530-check-if-a-string-can-break-another-string/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [125. Valid Palindrome](../../0001-0500/0125-valid-palindrome/)
+- [131. Palindrome Partitioning](../../0001-0500/0131-palindrome-partitioning/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/break-a-palindrome/)

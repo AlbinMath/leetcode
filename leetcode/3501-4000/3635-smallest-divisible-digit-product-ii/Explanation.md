@@ -65,8 +65,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3345. Smallest Divisible Digit Product I](../../3501-4000/3626-smallest-divisible-digit-product-i/)
-- [3622. Check Divisibility by Digit Sum and Product](../../3501-4000/3918-check-divisibility-by-digit-sum-and-product/)
 - [1015. Smallest Integer Divisible by K](../../1001-1500/1064-smallest-integer-divisible-by-k/)
+- [3622. Check Divisibility by Digit Sum and Product](../../3501-4000/3918-check-divisibility-by-digit-sum-and-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-ii/)

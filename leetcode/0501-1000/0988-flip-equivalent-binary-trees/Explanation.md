@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [971. Flip Binary Tree To Match Preorder Traversal](../../1001-1500/1011-flip-binary-tree-to-match-preorder-traversal/)
+- [2556. Disconnect Path in a Binary Matrix by at Most One Flip](../../2501-3000/2641-disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
 - [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
-- [96. Unique Binary Search Trees](../../0001-0500/0096-unique-binary-search-trees/)
-- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../../0501-1000/0773-logical-or-of-two-binary-grids-represented-as-quad-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flip-equivalent-binary-trees/)

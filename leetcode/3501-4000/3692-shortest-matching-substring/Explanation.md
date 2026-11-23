@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3076. Shortest Uncommon Substring in an Array](../../3001-3500/3356-shortest-uncommon-substring-in-an-array/)
 - [3407. Substring Matching Pattern](../../3501-4000/3684-substring-matching-pattern/)
-- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
+- [3076. Shortest Uncommon Substring in an Array](../../3001-3500/3356-shortest-uncommon-substring-in-an-array/)
+- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-matching-substring/)

@@ -4,129 +4,132 @@ A curated selection of LeetCode problems solved using the **Complement Lookup / 
 
 ## Problems
 
-| # | Problem | Difficulty | Pattern | Time | Space |
-|---|---|---|---|---|---|
-| 1 | [Two Sum](../leetcode/0001-0500/0001-two-sum/) | Easy | Hash Map | O(n) | O(n) |
-| 49 | [Group Anagrams](../leetcode/0001-0500/0049-group-anagrams/) | Medium | Hash Map | O(n) | O(n) |
-| 58 | [Length of Last Word](../leetcode/0001-0500/0058-length-of-last-word/) | Easy | Hash Map | O(n) | O(n) |
-| 126 | [Word Ladder II](../leetcode/0001-0500/0126-word-ladder-ii/) | Hard | Hash Map | O(n) | O(n) |
-| 127 | [Word Ladder](../leetcode/0001-0500/0127-word-ladder/) | Hard | Hash Map | O(n) | O(n) |
-| 139 | [Word Break](../leetcode/0001-0500/0139-word-break/) | Medium | Hash Map | O(n) | O(n) |
-| 140 | [Word Break II](../leetcode/0001-0500/0140-word-break-ii/) | Hard | Hash Map | O(n) | O(n) |
-| 155 | [Min Stack](../leetcode/0001-0500/0155-min-stack/) | Medium | Hash Map | O(n) | O(n) |
-| 165 | [Compare Version Numbers](../leetcode/0001-0500/0165-compare-version-numbers/) | Medium | Hash Map | O(n) | O(n) |
-| 192 | [Word Frequency](../leetcode/0001-0500/0192-word-frequency/) | Medium | Hash Map | O(n) | O(n) |
-| 211 | [Design Add and Search Words Data Structure](../leetcode/0001-0500/0211-design-add-and-search-words-data-structure/) | Medium | Hash Map | O(n) | O(n) |
-| 242 | [Valid Anagram](../leetcode/0001-0500/0242-valid-anagram/) | Easy | Hash Map | O(n) | O(n) |
-| 290 | [Word Pattern](../leetcode/0001-0500/0290-word-pattern/) | Easy | Hash Map | O(n) | O(n) |
-| 395 | [Longest Substring with At Least K Repeating Characters](../leetcode/0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium | Hash Map | O(n) | O(n) |
-| 405 | [Convert a Number to Hexadecimal](../leetcode/0001-0500/0405-convert-a-number-to-hexadecimal/) | Easy | Hash Map | O(n) | O(n) |
-| 438 | [Find All Anagrams in a String](../leetcode/0001-0500/0438-find-all-anagrams-in-a-string/) | Medium | Hash Map | O(n) | O(n) |
-| 460 | [LFU Cache](../leetcode/0001-0500/0460-lfu-cache/) | Hard | Hash Map | O(n) | O(n) |
-| 476 | [Number Complement](../leetcode/0001-0500/0476-number-complement/) | Easy | Hash Map | O(n) | O(n) |
-| 483 | [Smallest Good Base](../leetcode/0001-0500/0483-smallest-good-base/) | Hard | Hash Map | O(n) | O(n) |
-| 504 | [Base 7](../leetcode/0501-1000/0504-base-7/) | Easy | Hash Map | O(n) | O(n) |
-| 508 | [Most Frequent Subtree Sum](../leetcode/0501-1000/0508-most-frequent-subtree-sum/) | Medium | Hash Map | O(n) | O(n) |
-| 524 | [Longest Word in Dictionary through Deleting](../leetcode/0501-1000/0524-longest-word-in-dictionary-through-deleting/) | Medium | Hash Map | O(n) | O(n) |
-| 648 | [Replace Words](../leetcode/0501-1000/0648-replace-words/) | Medium | Hash Map | O(n) | O(n) |
-| 692 | [Top K Frequent Words](../leetcode/0501-1000/0692-top-k-frequent-words/) | Medium | Hash Map | O(n) | O(n) |
-| 697 | [Degree of an Array](../leetcode/0501-1000/0697-degree-of-an-array/) | Easy | Hash Map | O(n) | O(n) |
-| 698 | [Partition to K Equal Sum Subsets](../leetcode/0501-1000/0698-partition-to-k-equal-sum-subsets/) | Medium | Hash Map | O(n) | O(n) |
-| 705 | [Design HashSet](../leetcode/0501-1000/0816-design-hashset/) | Easy | Hash Map | O(n) | O(n) |
-| 706 | [Design HashMap](../leetcode/0501-1000/0817-design-hashmap/) | Easy | Hash Map | O(n) | O(n) |
-| 720 | [Longest Word in Dictionary](../leetcode/0501-1000/0720-longest-word-in-dictionary/) | Medium | Hash Map | O(n) | O(n) |
-| 748 | [Shortest Completing Word](../leetcode/0501-1000/0749-shortest-completing-word/) | Easy | Hash Map | O(n) | O(n) |
-| 828 | [Count Unique Characters of All Substrings of a Given String](../leetcode/0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/) | Hard | Hash Map | O(n) | O(n) |
-| 840 | [Magic Squares In Grid](../leetcode/0501-1000/0870-magic-squares-in-grid/) | Medium | Hash Map | O(n) | O(n) |
-| 844 | [Backspace String Compare](../leetcode/0501-1000/0874-backspace-string-compare/) | Easy | Hash Map | O(n) | O(n) |
-| 884 | [Uncommon Words from Two Sentences](../leetcode/0501-1000/0920-uncommon-words-from-two-sentences/) | Easy | Hash Map | O(n) | O(n) |
-| 895 | [Maximum Frequency Stack](../leetcode/0501-1000/0931-maximum-frequency-stack/) | Hard | Hash Map | O(n) | O(n) |
-| 905 | [Sort Array By Parity](../leetcode/0501-1000/0941-sort-array-by-parity/) | Easy | Hash Map | O(n) | O(n) |
-| 953 | [Verifying an Alien Dictionary](../leetcode/0501-1000/0990-verifying-an-alien-dictionary/) | Easy | Hash Map | O(n) | O(n) |
-| 1009 | [Complement of Base 10 Integer](../leetcode/1001-1500/1054-complement-of-base-10-integer/) | Easy | Hash Map | O(n) | O(n) |
-| 1114 | [Print in Order](../leetcode/1001-1500/1203-print-in-order/) | Easy | Hash Map | O(n) | O(n) |
-| 1115 | [Print FooBar Alternately](../leetcode/1001-1500/1187-print-foobar-alternately/) | Medium | Hash Map | O(n) | O(n) |
-| 1122 | [Relative Sort Array](../leetcode/1001-1500/1217-relative-sort-array/) | Easy | Hash Map | O(n) | O(n) |
-| 1170 | [Compare Strings by Frequency of the Smallest Character](../leetcode/1001-1500/1273-compare-strings-by-frequency-of-the-smallest-character/) | Medium | Hash Map | O(n) | O(n) |
-| 1189 | [Maximum Number of Balloons](../leetcode/1001-1500/1297-maximum-number-of-balloons/) | Easy | Hash Map | O(n) | O(n) |
-| 1311 | [Get Watched Videos by Your Friends](../leetcode/1001-1500/1436-get-watched-videos-by-your-friends/) | Medium | Hash Map | O(n) | O(n) |
-| 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1001-1500/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | Medium | Hash Map | O(n) | O(n) |
-| 1345 | [Jump Game IV](../leetcode/1001-1500/1447-jump-game-iv/) | Hard | Hash Map | O(n) | O(n) |
-| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](../leetcode/1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium | Hash Map | O(n) | O(n) |
-| 1348 | [Tweet Counts Per Frequency](../leetcode/1001-1500/1470-tweet-counts-per-frequency/) | Medium | Hash Map | O(n) | O(n) |
-| 1386 | [Cinema Seat Allocation](../leetcode/1001-1500/1487-cinema-seat-allocation/) | Medium | Hash Map | O(n) | O(n) |
-| 1389 | [Create Target Array in the Given Order](../leetcode/1501-2000/1505-create-target-array-in-the-given-order/) | Easy | Hash Map | O(n) | O(n) |
-| 1394 | [Find Lucky Integer in an Array](../leetcode/1501-2000/1510-find-lucky-integer-in-an-array/) | Easy | Hash Map | O(n) | O(n) |
-| 1525 | [Number of Good Ways to Split a String](../leetcode/1501-2000/1632-number-of-good-ways-to-split-a-string/) | Medium | Hash Map | O(n) | O(n) |
-| 1558 | [Minimum Numbers of Function Calls to Make Target Array](../leetcode/1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/) | Medium | Hash Map | O(n) | O(n) |
-| 1566 | [Detect Pattern of Length M Repeated K or More Times](../leetcode/1501-2000/1689-detect-pattern-of-length-m-repeated-k-or-more-times/) | Easy | Hash Map | O(n) | O(n) |
-| 1573 | [Number of Ways to Split a String](../leetcode/1501-2000/1678-number-of-ways-to-split-a-string/) | Medium | Hash Map | O(n) | O(n) |
-| 1636 | [Sort Array by Increasing Frequency](../leetcode/1501-2000/1741-sort-array-by-increasing-frequency/) | Easy | Hash Map | O(n) | O(n) |
-| 1639 | [Number of Ways to Form a Target String Given a Dictionary](../leetcode/1501-2000/1744-number-of-ways-to-form-a-target-string-given-a-dictionary/) | Hard | Hash Map | O(n) | O(n) |
-| 1647 | [Minimum Deletions to Make Character Frequencies Unique](../leetcode/1501-2000/1770-minimum-deletions-to-make-character-frequencies-unique/) | Medium | Hash Map | O(n) | O(n) |
-| 1663 | [Smallest String With A Given Numeric Value](../leetcode/1501-2000/1782-smallest-string-with-a-given-numeric-value/) | Medium | Hash Map | O(n) | O(n) |
-| 1664 | [Ways to Make a Fair Array](../leetcode/1501-2000/1783-ways-to-make-a-fair-array/) | Medium | Hash Map | O(n) | O(n) |
-| 1674 | [Minimum Moves to Make Array Complementary](../leetcode/1501-2000/1793-minimum-moves-to-make-array-complementary/) | Medium | Hash Map | O(n) | O(n) |
-| 1799 | [Maximize Score After N Operations](../leetcode/1501-2000/1906-maximize-score-after-n-operations/) | Hard | Hash Map | O(n) | O(n) |
-| 1807 | [Evaluate the Bracket Pairs of a String](../leetcode/1501-2000/1934-evaluate-the-bracket-pairs-of-a-string/) | Medium | Hash Map | O(n) | O(n) |
-| 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1501-2000/1938-minimum-operations-to-make-the-array-increasing/) | Easy | Hash Map | O(n) | O(n) |
-| 1838 | [Frequency of the Most Frequent Element](../leetcode/1501-2000/1966-frequency-of-the-most-frequent-element/) | Medium | Hash Map | O(n) | O(n) |
-| 1913 | [Maximum Product Difference Between Two Pairs](../leetcode/2001-2500/2042-maximum-product-difference-between-two-pairs/) | Easy | Hash Map | O(n) | O(n) |
-| 1941 | [Check if All Characters Have Equal Number of Occurrences](../leetcode/2001-2500/2053-check-if-all-characters-have-equal-number-of-occurrences/) | Easy | Hash Map | O(n) | O(n) |
-| 2011 | [Final Value of Variable After Performing Operations](../leetcode/2001-2500/2137-final-value-of-variable-after-performing-operations/) | Easy | Hash Map | O(n) | O(n) |
-| 2027 | [Minimum Moves to Convert String](../leetcode/2001-2500/2154-minimum-moves-to-convert-string/) | Easy | Hash Map | O(n) | O(n) |
-| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2001-2500/2148-minimum-number-of-moves-to-seat-everyone/) | Easy | Hash Map | O(n) | O(n) |
-| 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2001-2500/2177-check-whether-two-strings-are-almost-equivalent/) | Easy | Hash Map | O(n) | O(n) |
-| 2080 | [Range Frequency Queries](../leetcode/1001-1500/1294-range-frequency-queries/) | Medium | Hash Map | O(n) | O(n) |
-| 2102 | [Sequentially Ordinal Rank Tracker](../leetcode/2001-2500/2207-sequentially-ordinal-rank-tracker/) | Hard | Hash Map | O(n) | O(n) |
-| 2178 | [Maximum Split of Positive Even Integers](../leetcode/2001-2500/2279-maximum-split-of-positive-even-integers/) | Medium | Hash Map | O(n) | O(n) |
-| 2227 | [Encrypt and Decrypt Strings](../leetcode/1001-1500/1433-encrypt-and-decrypt-strings/) | Hard | Hash Map | O(n) | O(n) |
-| 2317 | [Maximum XOR After Operations ](../leetcode/2001-2500/2402-maximum-xor-after-operations-/) | Medium | Hash Map | O(n) | O(n) |
-| 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2001-2500/2423-minimum-deletions-to-make-array-divisible/) | Hard | Hash Map | O(n) | O(n) |
-| 2353 | [Design a Food Rating System](../leetcode/2001-2500/2429-design-a-food-rating-system/) | Medium | Hash Map | O(n) | O(n) |
-| 2438 | [Range Product Queries of Powers](../leetcode/2501-3000/2529-range-product-queries-of-powers/) | Medium | Hash Map | O(n) | O(n) |
-| 2452 | [Words Within Two Edits of Dictionary](../leetcode/2501-3000/2550-words-within-two-edits-of-dictionary/) | Medium | Hash Map | O(n) | O(n) |
-| 2514 | [Count Anagrams](../leetcode/2501-3000/2605-count-anagrams/) | Hard | Hash Map | O(n) | O(n) |
-| 2584 | [Split the Array to Make Coprime Products](../leetcode/2501-3000/2647-split-the-array-to-make-coprime-products/) | Hard | Hash Map | O(n) | O(n) |
-| 2622 | [Cache With Time Limit](../leetcode/2501-3000/2762-cache-with-time-limit/) | Medium | Hash Map | O(n) | O(n) |
-| 2630 | [Memoize II](../leetcode/2501-3000/2744-memoize-ii/) | Hard | Hash Map | O(n) | O(n) |
-| 2635 | [Apply Transform Over Each Element in Array](../leetcode/2501-3000/2747-apply-transform-over-each-element-in-array/) | Easy | Hash Map | O(n) | O(n) |
-| 2659 | [Make Array Empty](../leetcode/2501-3000/2765-make-array-empty/) | Hard | Hash Map | O(n) | O(n) |
-| 2671 | [Frequency Tracker](../leetcode/2501-3000/2778-frequency-tracker/) | Medium | Hash Map | O(n) | O(n) |
-| 2703 | [Return Length of Arguments Passed](../leetcode/2501-3000/2820-return-length-of-arguments-passed/) | Easy | Hash Map | O(n) | O(n) |
-| 2707 | [Extra Characters in a String](../leetcode/2501-3000/2755-extra-characters-in-a-string/) | Medium | Hash Map | O(n) | O(n) |
-| 2722 | [Join Two Arrays by ID](../leetcode/2501-3000/2858-join-two-arrays-by-id/) | Medium | Hash Map | O(n) | O(n) |
-| 2726 | [Calculator with Method Chaining](../leetcode/2501-3000/2863-calculator-with-method-chaining/) | Easy | Hash Map | O(n) | O(n) |
-| 2779 | [Maximum Beauty of an Array After Applying Operation](../leetcode/2501-3000/2891-maximum-beauty-of-an-array-after-applying-operation/) | Medium | Hash Map | O(n) | O(n) |
-| 2818 | [Apply Operations to Maximize Score](../leetcode/3001-3500/3001-apply-operations-to-maximize-score/) | Hard | Hash Map | O(n) | O(n) |
-| 2891 | [Method Chaining](../leetcode/3001-3500/3063-method-chaining/) | Easy | Hash Map | O(n) | O(n) |
-| 2948 | [Make Lexicographically Smallest Array by Swapping Elements](../leetcode/3001-3500/3219-make-lexicographically-smallest-array-by-swapping-elements/) | Medium | Hash Map | O(n) | O(n) |
-| 2958 | [Length of Longest Subarray With at Most K Frequency](../leetcode/3001-3500/3225-length-of-longest-subarray-with-at-most-k-frequency/) | Medium | Hash Map | O(n) | O(n) |
-| 2968 | [Apply Operations to Maximize Frequency Score](../leetcode/3001-3500/3196-apply-operations-to-maximize-frequency-score/) | Hard | Hash Map | O(n) | O(n) |
-| 2980 | [Check if Bitwise OR Has Trailing Zeros](../leetcode/3001-3500/3246-check-if-bitwise-or-has-trailing-zeros/) | Easy | Hash Map | O(n) | O(n) |
-| 3014 | [Minimum Number of Pushes to Type Word I](../leetcode/3001-3500/3275-minimum-number-of-pushes-to-type-word-i/) | Easy | Hash Map | O(n) | O(n) |
-| 3044 | [Most Frequent Prime](../leetcode/3001-3500/3314-most-frequent-prime/) | Medium | Hash Map | O(n) | O(n) |
-| 3093 | [Longest Common Suffix Queries](../leetcode/3001-3500/3376-longest-common-suffix-queries/) | Hard | Hash Map | O(n) | O(n) |
-| 3286 | [Find a Safe Walk Through a Grid](../leetcode/3501-4000/3558-find-a-safe-walk-through-a-grid/) | Medium | Hash Map | O(n) | O(n) |
-| 3291 | [Minimum Number of Valid Strings to Form Target I](../leetcode/3501-4000/3559-minimum-number-of-valid-strings-to-form-target-i/) | Medium | Hash Map | O(n) | O(n) |
-| 3292 | [Minimum Number of Valid Strings to Form Target II](../leetcode/3501-4000/3557-minimum-number-of-valid-strings-to-form-target-ii/) | Hard | Hash Map | O(n) | O(n) |
-| 3325 | [Count Substrings With K-Frequency Characters I](../leetcode/3501-4000/3502-count-substrings-with-k-frequency-characters-i/) | Medium | Hash Map | O(n) | O(n) |
-| 3346 | [Maximum Frequency of an Element After Performing Operations I](../leetcode/3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/) | Medium | Hash Map | O(n) | O(n) |
-| 3347 | [Maximum Frequency of an Element After Performing Operations II](../leetcode/3501-4000/3640-maximum-frequency-of-an-element-after-performing-operations-ii/) | Hard | Hash Map | O(n) | O(n) |
-| 3395 | [Subsequences with a Unique Middle Mode I](../leetcode/3501-4000/3700-subsequences-with-a-unique-middle-mode-i/) | Hard | Hash Map | O(n) | O(n) |
-| 3433 | [Count Mentions Per User](../leetcode/3501-4000/3721-count-mentions-per-user/) | Medium | Hash Map | O(n) | O(n) |
-| 3434 | [Maximum Frequency After Subarray Operation](../leetcode/3501-4000/3751-maximum-frequency-after-subarray-operation/) | Medium | Hash Map | O(n) | O(n) |
-| 3435 | [Frequencies of Shortest Supersequences](../leetcode/3501-4000/3713-frequencies-of-shortest-supersequences/) | Hard | Hash Map | O(n) | O(n) |
-| 3445 | [Maximum Difference Between Even and Odd Frequency II](../leetcode/3501-4000/3761-maximum-difference-between-even-and-odd-frequency-ii/) | Hard | Hash Map | O(n) | O(n) |
-| 3459 | [Length of Longest V-Shaped Diagonal Segment](../leetcode/3501-4000/3733-length-of-longest-v-shaped-diagonal-segment/) | Hard | Hash Map | O(n) | O(n) |
-| 3522 | [Calculate Score After Performing Instructions](../leetcode/3501-4000/3732-calculate-score-after-performing-instructions/) | Medium | Hash Map | O(n) | O(n) |
-| 3591 | [Check if Any Element Has Prime Frequency](../leetcode/3501-4000/3914-check-if-any-element-has-prime-frequency/) | Easy | Hash Map | O(n) | O(n) |
-| 3636 | [Threshold Majority Queries](../leetcode/3501-4000/3955-threshold-majority-queries/) | Hard | Hash Map | O(n) | O(n) |
-| 3699 | [Number of ZigZag Arrays I](../leetcode/3501-4000/3962-number-of-zigzag-arrays-i/) | Hard | Hash Map | O(n) | O(n) |
-| 3709 | [Design Exam Scores Tracker](../leetcode/4001-4500/4059-design-exam-scores-tracker/) | Medium | Hash Map | O(n) | O(n) |
-| 3806 | [Maximum Bitwise AND After Increment Operations](../leetcode/4001-4500/4154-maximum-bitwise-and-after-increment-operations/) | Hard | Hash Map | O(n) | O(n) |
-| 3838 | [Weighted Word Mapping](../leetcode/4001-4500/4216-weighted-word-mapping/) | Easy | Hash Map | O(n) | O(n) |
-| 3859 | [Count Subarrays With K Distinct Integers](../leetcode/4001-4500/4002-count-subarrays-with-k-distinct-integers/) | Hard | Hash Map | O(n) | O(n) |
-| 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4001-4500/4246-maximum-subarray-sum-after-at-most-k-swaps/) | Hard | Hash Map | O(n) | O(n) |
-| 4032 | [Longest Subarray With at Most K Distinct Prime Factors](../leetcode/4001-4500/4370-longest-subarray-with-at-most-k-distinct-prime-factors/) | Medium | Hash Map | O(n) | O(n) |
-| 4033 | [Valid K-Unique Subarrays I](../leetcode/3501-4000/3988-valid-k-unique-subarrays-i/) | Hard | Hash Map | O(n) | O(n) |
+| # | Problem | Difficulty | Pattern | Time | Space | Explanation |
+|---|---|---|---|---|---|---|
+| 1 | [Two Sum](../leetcode/0001-0500/0001-two-sum/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0001-two-sum/Explanation.md) |
+| 49 | [Group Anagrams](../leetcode/0001-0500/0049-group-anagrams/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0049-group-anagrams/Explanation.md) |
+| 58 | [Length of Last Word](../leetcode/0001-0500/0058-length-of-last-word/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0058-length-of-last-word/Explanation.md) |
+| 126 | [Word Ladder II](../leetcode/0001-0500/0126-word-ladder-ii/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0126-word-ladder-ii/Explanation.md) |
+| 127 | [Word Ladder](../leetcode/0001-0500/0127-word-ladder/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0127-word-ladder/Explanation.md) |
+| 139 | [Word Break](../leetcode/0001-0500/0139-word-break/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0139-word-break/Explanation.md) |
+| 140 | [Word Break II](../leetcode/0001-0500/0140-word-break-ii/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0140-word-break-ii/Explanation.md) |
+| 155 | [Min Stack](../leetcode/0001-0500/0155-min-stack/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0155-min-stack/Explanation.md) |
+| 165 | [Compare Version Numbers](../leetcode/0001-0500/0165-compare-version-numbers/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0165-compare-version-numbers/Explanation.md) |
+| 192 | [Word Frequency](../leetcode/0001-0500/0192-word-frequency/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0192-word-frequency/Explanation.md) |
+| 211 | [Design Add and Search Words Data Structure](../leetcode/0001-0500/0211-design-add-and-search-words-data-structure/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0211-design-add-and-search-words-data-structure/Explanation.md) |
+| 242 | [Valid Anagram](../leetcode/0001-0500/0242-valid-anagram/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0242-valid-anagram/Explanation.md) |
+| 290 | [Word Pattern](../leetcode/0001-0500/0290-word-pattern/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0290-word-pattern/Explanation.md) |
+| 395 | [Longest Substring with At Least K Repeating Characters](../leetcode/0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/Explanation.md) |
+| 405 | [Convert a Number to Hexadecimal](../leetcode/0001-0500/0405-convert-a-number-to-hexadecimal/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0405-convert-a-number-to-hexadecimal/Explanation.md) |
+| 438 | [Find All Anagrams in a String](../leetcode/0001-0500/0438-find-all-anagrams-in-a-string/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0438-find-all-anagrams-in-a-string/Explanation.md) |
+| 460 | [LFU Cache](../leetcode/0001-0500/0460-lfu-cache/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0460-lfu-cache/Explanation.md) |
+| 476 | [Number Complement](../leetcode/0001-0500/0476-number-complement/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0476-number-complement/Explanation.md) |
+| 483 | [Smallest Good Base](../leetcode/0001-0500/0483-smallest-good-base/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0483-smallest-good-base/Explanation.md) |
+| 504 | [Base 7](../leetcode/0501-1000/0504-base-7/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0504-base-7/Explanation.md) |
+| 508 | [Most Frequent Subtree Sum](../leetcode/0501-1000/0508-most-frequent-subtree-sum/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0508-most-frequent-subtree-sum/Explanation.md) |
+| 524 | [Longest Word in Dictionary through Deleting](../leetcode/0501-1000/0524-longest-word-in-dictionary-through-deleting/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0524-longest-word-in-dictionary-through-deleting/Explanation.md) |
+| 648 | [Replace Words](../leetcode/0501-1000/0648-replace-words/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0648-replace-words/Explanation.md) |
+| 692 | [Top K Frequent Words](../leetcode/0501-1000/0692-top-k-frequent-words/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0692-top-k-frequent-words/Explanation.md) |
+| 697 | [Degree of an Array](../leetcode/0501-1000/0697-degree-of-an-array/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0697-degree-of-an-array/Explanation.md) |
+| 698 | [Partition to K Equal Sum Subsets](../leetcode/0501-1000/0698-partition-to-k-equal-sum-subsets/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0698-partition-to-k-equal-sum-subsets/Explanation.md) |
+| 705 | [Design HashSet](../leetcode/0501-1000/0816-design-hashset/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0816-design-hashset/Explanation.md) |
+| 706 | [Design HashMap](../leetcode/0501-1000/0817-design-hashmap/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0817-design-hashmap/Explanation.md) |
+| 720 | [Longest Word in Dictionary](../leetcode/0501-1000/0720-longest-word-in-dictionary/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0720-longest-word-in-dictionary/Explanation.md) |
+| 748 | [Shortest Completing Word](../leetcode/0501-1000/0749-shortest-completing-word/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0749-shortest-completing-word/Explanation.md) |
+| 828 | [Count Unique Characters of All Substrings of a Given String](../leetcode/0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/Explanation.md) |
+| 840 | [Magic Squares In Grid](../leetcode/0501-1000/0870-magic-squares-in-grid/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0870-magic-squares-in-grid/Explanation.md) |
+| 844 | [Backspace String Compare](../leetcode/0501-1000/0874-backspace-string-compare/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0874-backspace-string-compare/Explanation.md) |
+| 884 | [Uncommon Words from Two Sentences](../leetcode/0501-1000/0920-uncommon-words-from-two-sentences/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0920-uncommon-words-from-two-sentences/Explanation.md) |
+| 895 | [Maximum Frequency Stack](../leetcode/0501-1000/0931-maximum-frequency-stack/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0931-maximum-frequency-stack/Explanation.md) |
+| 905 | [Sort Array By Parity](../leetcode/0501-1000/0941-sort-array-by-parity/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0941-sort-array-by-parity/Explanation.md) |
+| 953 | [Verifying an Alien Dictionary](../leetcode/0501-1000/0990-verifying-an-alien-dictionary/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0990-verifying-an-alien-dictionary/Explanation.md) |
+| 1009 | [Complement of Base 10 Integer](../leetcode/1001-1500/1054-complement-of-base-10-integer/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1054-complement-of-base-10-integer/Explanation.md) |
+| 1114 | [Print in Order](../leetcode/1001-1500/1203-print-in-order/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1203-print-in-order/Explanation.md) |
+| 1115 | [Print FooBar Alternately](../leetcode/1001-1500/1187-print-foobar-alternately/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1187-print-foobar-alternately/Explanation.md) |
+| 1122 | [Relative Sort Array](../leetcode/1001-1500/1217-relative-sort-array/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1217-relative-sort-array/Explanation.md) |
+| 1170 | [Compare Strings by Frequency of the Smallest Character](../leetcode/1001-1500/1273-compare-strings-by-frequency-of-the-smallest-character/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1273-compare-strings-by-frequency-of-the-smallest-character/Explanation.md) |
+| 1189 | [Maximum Number of Balloons](../leetcode/1001-1500/1297-maximum-number-of-balloons/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1297-maximum-number-of-balloons/Explanation.md) |
+| 1311 | [Get Watched Videos by Your Friends](../leetcode/1001-1500/1436-get-watched-videos-by-your-friends/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1436-get-watched-videos-by-your-friends/Explanation.md) |
+| 1318 | [Minimum Flips to Make a OR b Equal to c](../leetcode/1001-1500/1441-minimum-flips-to-make-a-or-b-equal-to-c/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1441-minimum-flips-to-make-a-or-b-equal-to-c/Explanation.md) |
+| 1345 | [Jump Game IV](../leetcode/1001-1500/1447-jump-game-iv/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1447-jump-game-iv/Explanation.md) |
+| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](../leetcode/1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/Explanation.md) |
+| 1348 | [Tweet Counts Per Frequency](../leetcode/1001-1500/1470-tweet-counts-per-frequency/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1470-tweet-counts-per-frequency/Explanation.md) |
+| 1386 | [Cinema Seat Allocation](../leetcode/1001-1500/1487-cinema-seat-allocation/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1487-cinema-seat-allocation/Explanation.md) |
+| 1389 | [Create Target Array in the Given Order](../leetcode/1501-2000/1505-create-target-array-in-the-given-order/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1505-create-target-array-in-the-given-order/Explanation.md) |
+| 1394 | [Find Lucky Integer in an Array](../leetcode/1501-2000/1510-find-lucky-integer-in-an-array/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1510-find-lucky-integer-in-an-array/Explanation.md) |
+| 1525 | [Number of Good Ways to Split a String](../leetcode/1501-2000/1632-number-of-good-ways-to-split-a-string/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1632-number-of-good-ways-to-split-a-string/Explanation.md) |
+| 1558 | [Minimum Numbers of Function Calls to Make Target Array](../leetcode/1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/Explanation.md) |
+| 1566 | [Detect Pattern of Length M Repeated K or More Times](../leetcode/1501-2000/1689-detect-pattern-of-length-m-repeated-k-or-more-times/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1689-detect-pattern-of-length-m-repeated-k-or-more-times/Explanation.md) |
+| 1573 | [Number of Ways to Split a String](../leetcode/1501-2000/1678-number-of-ways-to-split-a-string/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1678-number-of-ways-to-split-a-string/Explanation.md) |
+| 1636 | [Sort Array by Increasing Frequency](../leetcode/1501-2000/1741-sort-array-by-increasing-frequency/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1741-sort-array-by-increasing-frequency/Explanation.md) |
+| 1639 | [Number of Ways to Form a Target String Given a Dictionary](../leetcode/1501-2000/1744-number-of-ways-to-form-a-target-string-given-a-dictionary/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1744-number-of-ways-to-form-a-target-string-given-a-dictionary/Explanation.md) |
+| 1647 | [Minimum Deletions to Make Character Frequencies Unique](../leetcode/1501-2000/1770-minimum-deletions-to-make-character-frequencies-unique/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1770-minimum-deletions-to-make-character-frequencies-unique/Explanation.md) |
+| 1663 | [Smallest String With A Given Numeric Value](../leetcode/1501-2000/1782-smallest-string-with-a-given-numeric-value/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1782-smallest-string-with-a-given-numeric-value/Explanation.md) |
+| 1664 | [Ways to Make a Fair Array](../leetcode/1501-2000/1783-ways-to-make-a-fair-array/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1783-ways-to-make-a-fair-array/Explanation.md) |
+| 1674 | [Minimum Moves to Make Array Complementary](../leetcode/1501-2000/1793-minimum-moves-to-make-array-complementary/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1793-minimum-moves-to-make-array-complementary/Explanation.md) |
+| 1799 | [Maximize Score After N Operations](../leetcode/1501-2000/1906-maximize-score-after-n-operations/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1906-maximize-score-after-n-operations/Explanation.md) |
+| 1807 | [Evaluate the Bracket Pairs of a String](../leetcode/1501-2000/1934-evaluate-the-bracket-pairs-of-a-string/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1934-evaluate-the-bracket-pairs-of-a-string/Explanation.md) |
+| 1827 | [Minimum Operations to Make the Array Increasing](../leetcode/1501-2000/1938-minimum-operations-to-make-the-array-increasing/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1938-minimum-operations-to-make-the-array-increasing/Explanation.md) |
+| 1838 | [Frequency of the Most Frequent Element](../leetcode/1501-2000/1966-frequency-of-the-most-frequent-element/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1966-frequency-of-the-most-frequent-element/Explanation.md) |
+| 1913 | [Maximum Product Difference Between Two Pairs](../leetcode/2001-2500/2042-maximum-product-difference-between-two-pairs/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2042-maximum-product-difference-between-two-pairs/Explanation.md) |
+| 1941 | [Check if All Characters Have Equal Number of Occurrences](../leetcode/2001-2500/2053-check-if-all-characters-have-equal-number-of-occurrences/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2053-check-if-all-characters-have-equal-number-of-occurrences/Explanation.md) |
+| 2011 | [Final Value of Variable After Performing Operations](../leetcode/2001-2500/2137-final-value-of-variable-after-performing-operations/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2137-final-value-of-variable-after-performing-operations/Explanation.md) |
+| 2027 | [Minimum Moves to Convert String](../leetcode/2001-2500/2154-minimum-moves-to-convert-string/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2154-minimum-moves-to-convert-string/Explanation.md) |
+| 2037 | [Minimum Number of Moves to Seat Everyone](../leetcode/2001-2500/2148-minimum-number-of-moves-to-seat-everyone/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2148-minimum-number-of-moves-to-seat-everyone/Explanation.md) |
+| 2068 | [Check Whether Two Strings are Almost Equivalent](../leetcode/2001-2500/2177-check-whether-two-strings-are-almost-equivalent/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2177-check-whether-two-strings-are-almost-equivalent/Explanation.md) |
+| 2080 | [Range Frequency Queries](../leetcode/1001-1500/1294-range-frequency-queries/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1294-range-frequency-queries/Explanation.md) |
+| 2102 | [Sequentially Ordinal Rank Tracker](../leetcode/2001-2500/2207-sequentially-ordinal-rank-tracker/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2207-sequentially-ordinal-rank-tracker/Explanation.md) |
+| 2178 | [Maximum Split of Positive Even Integers](../leetcode/2001-2500/2279-maximum-split-of-positive-even-integers/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2279-maximum-split-of-positive-even-integers/Explanation.md) |
+| 2216 | [Minimum Deletions to Make Array Beautiful](../leetcode/1001-1500/1355-minimum-deletions-to-make-array-beautiful/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1355-minimum-deletions-to-make-array-beautiful/Explanation.md) |
+| 2227 | [Encrypt and Decrypt Strings](../leetcode/1001-1500/1433-encrypt-and-decrypt-strings/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1433-encrypt-and-decrypt-strings/Explanation.md) |
+| 2317 | [Maximum XOR After Operations ](../leetcode/2001-2500/2402-maximum-xor-after-operations-/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2402-maximum-xor-after-operations-/Explanation.md) |
+| 2344 | [Minimum Deletions to Make Array Divisible](../leetcode/2001-2500/2423-minimum-deletions-to-make-array-divisible/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2423-minimum-deletions-to-make-array-divisible/Explanation.md) |
+| 2353 | [Design a Food Rating System](../leetcode/2001-2500/2429-design-a-food-rating-system/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2429-design-a-food-rating-system/Explanation.md) |
+| 2438 | [Range Product Queries of Powers](../leetcode/2501-3000/2529-range-product-queries-of-powers/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2529-range-product-queries-of-powers/Explanation.md) |
+| 2452 | [Words Within Two Edits of Dictionary](../leetcode/2501-3000/2550-words-within-two-edits-of-dictionary/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2550-words-within-two-edits-of-dictionary/Explanation.md) |
+| 2514 | [Count Anagrams](../leetcode/2501-3000/2605-count-anagrams/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2605-count-anagrams/Explanation.md) |
+| 2584 | [Split the Array to Make Coprime Products](../leetcode/2501-3000/2647-split-the-array-to-make-coprime-products/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2647-split-the-array-to-make-coprime-products/Explanation.md) |
+| 2622 | [Cache With Time Limit](../leetcode/2501-3000/2762-cache-with-time-limit/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2762-cache-with-time-limit/Explanation.md) |
+| 2630 | [Memoize II](../leetcode/2501-3000/2744-memoize-ii/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2744-memoize-ii/Explanation.md) |
+| 2635 | [Apply Transform Over Each Element in Array](../leetcode/2501-3000/2747-apply-transform-over-each-element-in-array/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2747-apply-transform-over-each-element-in-array/Explanation.md) |
+| 2659 | [Make Array Empty](../leetcode/2501-3000/2765-make-array-empty/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2765-make-array-empty/Explanation.md) |
+| 2671 | [Frequency Tracker](../leetcode/2501-3000/2778-frequency-tracker/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2778-frequency-tracker/Explanation.md) |
+| 2703 | [Return Length of Arguments Passed](../leetcode/2501-3000/2820-return-length-of-arguments-passed/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2820-return-length-of-arguments-passed/Explanation.md) |
+| 2707 | [Extra Characters in a String](../leetcode/2501-3000/2755-extra-characters-in-a-string/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2755-extra-characters-in-a-string/Explanation.md) |
+| 2722 | [Join Two Arrays by ID](../leetcode/2501-3000/2858-join-two-arrays-by-id/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2858-join-two-arrays-by-id/Explanation.md) |
+| 2726 | [Calculator with Method Chaining](../leetcode/2501-3000/2863-calculator-with-method-chaining/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2863-calculator-with-method-chaining/Explanation.md) |
+| 2779 | [Maximum Beauty of an Array After Applying Operation](../leetcode/2501-3000/2891-maximum-beauty-of-an-array-after-applying-operation/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2891-maximum-beauty-of-an-array-after-applying-operation/Explanation.md) |
+| 2818 | [Apply Operations to Maximize Score](../leetcode/3001-3500/3001-apply-operations-to-maximize-score/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3001-apply-operations-to-maximize-score/Explanation.md) |
+| 2891 | [Method Chaining](../leetcode/3001-3500/3063-method-chaining/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3063-method-chaining/Explanation.md) |
+| 2948 | [Make Lexicographically Smallest Array by Swapping Elements](../leetcode/3001-3500/3219-make-lexicographically-smallest-array-by-swapping-elements/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3219-make-lexicographically-smallest-array-by-swapping-elements/Explanation.md) |
+| 2958 | [Length of Longest Subarray With at Most K Frequency](../leetcode/3001-3500/3225-length-of-longest-subarray-with-at-most-k-frequency/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3225-length-of-longest-subarray-with-at-most-k-frequency/Explanation.md) |
+| 2968 | [Apply Operations to Maximize Frequency Score](../leetcode/3001-3500/3196-apply-operations-to-maximize-frequency-score/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3196-apply-operations-to-maximize-frequency-score/Explanation.md) |
+| 2980 | [Check if Bitwise OR Has Trailing Zeros](../leetcode/3001-3500/3246-check-if-bitwise-or-has-trailing-zeros/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3246-check-if-bitwise-or-has-trailing-zeros/Explanation.md) |
+| 3014 | [Minimum Number of Pushes to Type Word I](../leetcode/3001-3500/3275-minimum-number-of-pushes-to-type-word-i/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3275-minimum-number-of-pushes-to-type-word-i/Explanation.md) |
+| 3044 | [Most Frequent Prime](../leetcode/3001-3500/3314-most-frequent-prime/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3314-most-frequent-prime/Explanation.md) |
+| 3093 | [Longest Common Suffix Queries](../leetcode/3001-3500/3376-longest-common-suffix-queries/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3376-longest-common-suffix-queries/Explanation.md) |
+| 3286 | [Find a Safe Walk Through a Grid](../leetcode/3501-4000/3558-find-a-safe-walk-through-a-grid/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3558-find-a-safe-walk-through-a-grid/Explanation.md) |
+| 3291 | [Minimum Number of Valid Strings to Form Target I](../leetcode/3501-4000/3559-minimum-number-of-valid-strings-to-form-target-i/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3559-minimum-number-of-valid-strings-to-form-target-i/Explanation.md) |
+| 3292 | [Minimum Number of Valid Strings to Form Target II](../leetcode/3501-4000/3557-minimum-number-of-valid-strings-to-form-target-ii/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3557-minimum-number-of-valid-strings-to-form-target-ii/Explanation.md) |
+| 3325 | [Count Substrings With K-Frequency Characters I](../leetcode/3501-4000/3502-count-substrings-with-k-frequency-characters-i/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3502-count-substrings-with-k-frequency-characters-i/Explanation.md) |
+| 3346 | [Maximum Frequency of an Element After Performing Operations I](../leetcode/3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/Explanation.md) |
+| 3347 | [Maximum Frequency of an Element After Performing Operations II](../leetcode/3501-4000/3640-maximum-frequency-of-an-element-after-performing-operations-ii/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3640-maximum-frequency-of-an-element-after-performing-operations-ii/Explanation.md) |
+| 3395 | [Subsequences with a Unique Middle Mode I](../leetcode/3501-4000/3700-subsequences-with-a-unique-middle-mode-i/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3700-subsequences-with-a-unique-middle-mode-i/Explanation.md) |
+| 3433 | [Count Mentions Per User](../leetcode/3501-4000/3721-count-mentions-per-user/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3721-count-mentions-per-user/Explanation.md) |
+| 3434 | [Maximum Frequency After Subarray Operation](../leetcode/3501-4000/3751-maximum-frequency-after-subarray-operation/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3751-maximum-frequency-after-subarray-operation/Explanation.md) |
+| 3435 | [Frequencies of Shortest Supersequences](../leetcode/3501-4000/3713-frequencies-of-shortest-supersequences/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3713-frequencies-of-shortest-supersequences/Explanation.md) |
+| 3445 | [Maximum Difference Between Even and Odd Frequency II](../leetcode/3501-4000/3761-maximum-difference-between-even-and-odd-frequency-ii/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3761-maximum-difference-between-even-and-odd-frequency-ii/Explanation.md) |
+| 3459 | [Length of Longest V-Shaped Diagonal Segment](../leetcode/3501-4000/3733-length-of-longest-v-shaped-diagonal-segment/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3733-length-of-longest-v-shaped-diagonal-segment/Explanation.md) |
+| 3522 | [Calculate Score After Performing Instructions](../leetcode/3501-4000/3732-calculate-score-after-performing-instructions/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3732-calculate-score-after-performing-instructions/Explanation.md) |
+| 3574 | [Maximize Subarray GCD Score](../leetcode/3501-4000/3888-maximize-subarray-gcd-score/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3888-maximize-subarray-gcd-score/Explanation.md) |
+| 3591 | [Check if Any Element Has Prime Frequency](../leetcode/3501-4000/3914-check-if-any-element-has-prime-frequency/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3914-check-if-any-element-has-prime-frequency/Explanation.md) |
+| 3636 | [Threshold Majority Queries](../leetcode/3501-4000/3955-threshold-majority-queries/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3955-threshold-majority-queries/Explanation.md) |
+| 3699 | [Number of ZigZag Arrays I](../leetcode/3501-4000/3962-number-of-zigzag-arrays-i/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3962-number-of-zigzag-arrays-i/Explanation.md) |
+| 3709 | [Design Exam Scores Tracker](../leetcode/4001-4500/4059-design-exam-scores-tracker/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4059-design-exam-scores-tracker/Explanation.md) |
+| 3806 | [Maximum Bitwise AND After Increment Operations](../leetcode/4001-4500/4154-maximum-bitwise-and-after-increment-operations/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4154-maximum-bitwise-and-after-increment-operations/Explanation.md) |
+| 3838 | [Weighted Word Mapping](../leetcode/4001-4500/4216-weighted-word-mapping/) | Easy | Hash Map | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4216-weighted-word-mapping/Explanation.md) |
+| 3859 | [Count Subarrays With K Distinct Integers](../leetcode/4001-4500/4002-count-subarrays-with-k-distinct-integers/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4002-count-subarrays-with-k-distinct-integers/Explanation.md) |
+| 3953 | [Maximum Score with Co-Prime Element](../leetcode/4001-4500/4182-maximum-score-with-co-prime-element/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4182-maximum-score-with-co-prime-element/Explanation.md) |
+| 3962 | [Maximum Subarray Sum After at Most K Swaps](../leetcode/4001-4500/4246-maximum-subarray-sum-after-at-most-k-swaps/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4246-maximum-subarray-sum-after-at-most-k-swaps/Explanation.md) |
+| 4032 | [Longest Subarray With at Most K Distinct Prime Factors](../leetcode/4001-4500/4370-longest-subarray-with-at-most-k-distinct-prime-factors/) | Medium | Hash Map | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4370-longest-subarray-with-at-most-k-distinct-prime-factors/Explanation.md) |
+| 4033 | [Valid K-Unique Subarrays I](../leetcode/3501-4000/3988-valid-k-unique-subarrays-i/) | Hard | Hash Map | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3988-valid-k-unique-subarrays-i/Explanation.md) |

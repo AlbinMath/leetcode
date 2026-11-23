@@ -4,15 +4,15 @@ A curated selection of LeetCode problems solved using the **Floyd Cycle Detectio
 
 ## Problems
 
-| # | Problem | Difficulty | Pattern | Time | Space |
-|---|---|---|---|---|---|
-| 19 | [Remove Nth Node From End of List](../leetcode/0001-0500/0019-remove-nth-node-from-end-of-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
-| 141 | [Linked List Cycle](../leetcode/0001-0500/0141-linked-list-cycle/) | Easy | Fast & Slow Pointers | O(n) | O(1) |
-| 142 | [Linked List Cycle II](../leetcode/0001-0500/0142-linked-list-cycle-ii/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
-| 1559 | [Detect Cycles in 2D Grid](../leetcode/1501-2000/1663-detect-cycles-in-2d-grid/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
-| 2095 | [Delete the Middle Node of a Linked List](../leetcode/2001-2500/2216-delete-the-middle-node-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
-| 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2001-2500/2236-maximum-twin-sum-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) |
-| 2360 | [Longest Cycle in a Graph](../leetcode/2001-2500/2439-longest-cycle-in-a-graph/) | Hard | Fast & Slow Pointers | O(n) | O(1) |
-| 2509 | [Cycle Length Queries in a Tree](../leetcode/2501-3000/2597-cycle-length-queries-in-a-tree/) | Hard | Fast & Slow Pointers | O(n) | O(1) |
-| 2608 | [Shortest Cycle in a Graph](../leetcode/2501-3000/2671-shortest-cycle-in-a-graph/) | Hard | Fast & Slow Pointers | O(n) | O(1) |
-| 3887 | [Incremental Even-Weighted Cycle Queries](../leetcode/4001-4500/4114-incremental-even-weighted-cycle-queries/) | Hard | Fast & Slow Pointers | O(n) | O(1) |
+| # | Problem | Difficulty | Pattern | Time | Space | Explanation |
+|---|---|---|---|---|---|---|
+| 19 | [Remove Nth Node From End of List](../leetcode/0001-0500/0019-remove-nth-node-from-end-of-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0019-remove-nth-node-from-end-of-list/Explanation.md) |
+| 141 | [Linked List Cycle](../leetcode/0001-0500/0141-linked-list-cycle/) | Easy | Fast & Slow Pointers | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0141-linked-list-cycle/Explanation.md) |
+| 142 | [Linked List Cycle II](../leetcode/0001-0500/0142-linked-list-cycle-ii/) | Medium | Fast & Slow Pointers | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0142-linked-list-cycle-ii/Explanation.md) |
+| 1559 | [Detect Cycles in 2D Grid](../leetcode/1501-2000/1663-detect-cycles-in-2d-grid/) | Medium | Fast & Slow Pointers | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1663-detect-cycles-in-2d-grid/Explanation.md) |
+| 2095 | [Delete the Middle Node of a Linked List](../leetcode/2001-2500/2216-delete-the-middle-node-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2216-delete-the-middle-node-of-a-linked-list/Explanation.md) |
+| 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2001-2500/2236-maximum-twin-sum-of-a-linked-list/) | Medium | Fast & Slow Pointers | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2236-maximum-twin-sum-of-a-linked-list/Explanation.md) |
+| 2360 | [Longest Cycle in a Graph](../leetcode/2001-2500/2439-longest-cycle-in-a-graph/) | Hard | Fast & Slow Pointers | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2439-longest-cycle-in-a-graph/Explanation.md) |
+| 2509 | [Cycle Length Queries in a Tree](../leetcode/2501-3000/2597-cycle-length-queries-in-a-tree/) | Hard | Fast & Slow Pointers | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2597-cycle-length-queries-in-a-tree/Explanation.md) |
+| 2608 | [Shortest Cycle in a Graph](../leetcode/2501-3000/2671-shortest-cycle-in-a-graph/) | Hard | Fast & Slow Pointers | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2671-shortest-cycle-in-a-graph/Explanation.md) |
+| 3887 | [Incremental Even-Weighted Cycle Queries](../leetcode/4001-4500/4114-incremental-even-weighted-cycle-queries/) | Hard | Fast & Slow Pointers | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4114-incremental-even-weighted-cycle-queries/Explanation.md) |

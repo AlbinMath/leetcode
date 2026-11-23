@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
-- [918. Maximum Sum Circular Subarray](../../0501-1000/0954-maximum-sum-circular-subarray/)
+- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
+- [1863. Sum of All Subset XOR Totals](../../1501-2000/1993-sum-of-all-subset-xor-totals/)
+- [3020. Find the Maximum Number of Elements in Subset](../../3001-3500/3299-find-the-maximum-number-of-elements-in-subset/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-element-sum-of-a-complete-subset-of-indices/)

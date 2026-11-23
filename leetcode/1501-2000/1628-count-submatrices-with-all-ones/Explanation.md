@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1277. Count Square Submatrices with All Ones](../../1001-1500/1402-count-square-submatrices-with-all-ones/)
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1461-count-all-valid-pickup-and-delivery-options/)
+- [3197. Find the Minimum Area to Cover All Ones II](../../3001-3500/3459-find-the-minimum-area-to-cover-all-ones-ii/)
+- [3234. Count the Number of Substrings With Dominant Ones](../../3001-3500/3479-count-the-number-of-substrings-with-dominant-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-submatrices-with-all-ones/)

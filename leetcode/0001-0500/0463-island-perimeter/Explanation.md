@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [976. Largest Perimeter Triangle](../../1001-1500/1018-largest-perimeter-triangle/)
 - [695. Max Area of Island](../../0501-1000/0695-max-area-of-island/)
 - [827. Making A Large Island](../../0501-1000/0854-making-a-large-island/)
-- [1568. Minimum Number of Days to Disconnect Island](../../1501-2000/1691-minimum-number-of-days-to-disconnect-island/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/island-perimeter/)

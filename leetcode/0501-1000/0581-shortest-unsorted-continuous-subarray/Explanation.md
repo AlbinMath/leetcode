@@ -62,8 +62,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [862. Shortest Subarray with Sum at Least K](../../0501-1000/0892-shortest-subarray-with-sum-at-least-k/)
 - [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1501-2000/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [862. Shortest Subarray with Sum at Least K](../../0501-1000/0892-shortest-subarray-with-sum-at-least-k/)
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](../../1501-2000/1679-shortest-subarray-to-be-removed-to-make-array-sorted/)
 
 ## LeetCode

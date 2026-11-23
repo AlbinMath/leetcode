@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2902. Count of Sub-Multisets With Bounded Sum](../../3001-3500/3091-count-of-sub-multisets-with-bounded-sum/)
 - [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3823-count-islands-with-total-value-divisible-by-k/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [2902. Count of Sub-Multisets With Bounded Sum](../../3001-3500/3091-count-of-sub-multisets-with-bounded-sum/)
+- [200. Number of Islands](../../0001-0500/0200-number-of-islands/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-sub-islands/)

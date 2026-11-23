@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3513. Number of Unique XOR Triplets I](../../3501-4000/3824-number-of-unique-xor-triplets-i/)
 - [3514. Number of Unique XOR Triplets II](../../3501-4000/3820-number-of-unique-xor-triplets-ii/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1501-2000/1553-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-arithmetic-triplets/)

@@ -1,9 +1,9 @@
-# LeetCode C# Solutions
+# LeetCode C Solutions
 
-A collection of LeetCode problems implemented in **C#** with detailed complexity analysis and explanations.
+A collection of LeetCode problems implemented in **C** with detailed complexity analysis and explanations.
 
 ## Solutions
 
-| # | Problem | Difficulty | Pattern | Time | Space |
-|---|---|---|---|---|---|
-| 3718 | [Smallest Missing Multiple of K](../leetcode/4001-4500/4080-smallest-missing-multiple-of-k/) | Easy | Prefix Sum | O(n) | O(n) |
+| # | Problem | Difficulty | Pattern | Time | Space | Explanation |
+|---|---|---|---|---|---|---|
+| 3622 | [Check Divisibility by Digit Sum and Product](../leetcode/3501-4000/3918-check-divisibility-by-digit-sum-and-product/) | Easy | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3918-check-divisibility-by-digit-sum-and-product/Explanation.md) |

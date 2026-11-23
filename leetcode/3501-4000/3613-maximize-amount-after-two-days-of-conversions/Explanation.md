@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [957. Prison Cells After N Days](../../0501-1000/0994-prison-cells-after-n-days/)
-- [1360. Number of Days Between Two Dates](../../1001-1500/1274-number-of-days-between-two-dates/)
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
+- [1799. Maximize Score After N Operations](../../1501-2000/1906-maximize-score-after-n-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions/)

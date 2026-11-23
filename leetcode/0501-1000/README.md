@@ -277,7 +277,7 @@ A collection of **342** solved LeetCode problems in the range **0501-1000**.
 | 875 | [Koko Eating Bananas](./0907-koko-eating-bananas/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0907-koko-eating-bananas/Explanation.md) |
 | 876 | [Middle of the Linked List](./0908-middle-of-the-linked-list/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0908-middle-of-the-linked-list/Explanation.md) |
 | 877 | [Stone Game](./0909-stone-game/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | C++, Python | [Explanation](./0909-stone-game/Explanation.md) |
-| 878 | [Nth Magical Number](./0910-nth-magical-number/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0910-nth-magical-number/Explanation.md) |
+| 878 | [Nth Magical Number](./0910-nth-magical-number/) | Hard | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0910-nth-magical-number/Explanation.md) |
 | 880 | [Decoded String at Index](./0916-decoded-string-at-index/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0916-decoded-string-at-index/Explanation.md) |
 | 882 | [Reachable Nodes In Subdivided Graph](./0918-reachable-nodes-in-subdivided-graph/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0918-reachable-nodes-in-subdivided-graph/Explanation.md) |
 | 883 | [Projection Area of 3D Shapes](./0919-projection-area-of-3d-shapes/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0919-projection-area-of-3d-shapes/Explanation.md) |

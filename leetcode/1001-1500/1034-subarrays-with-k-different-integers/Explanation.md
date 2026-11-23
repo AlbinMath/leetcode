@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3859. Count Subarrays With K Distinct Integers](../../4001-4500/4002-count-subarrays-with-k-distinct-integers/)
-- [1805. Number of Different Integers in a String](../../1501-2000/1933-number-of-different-integers-in-a-string/)
 - [2261. K Divisible Elements Subarrays](../../2001-2500/2339-k-divisible-elements-subarrays/)
+- [2302. Count Subarrays With Score Less Than K](../../2001-2500/2394-count-subarrays-with-score-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subarrays-with-k-different-integers/)

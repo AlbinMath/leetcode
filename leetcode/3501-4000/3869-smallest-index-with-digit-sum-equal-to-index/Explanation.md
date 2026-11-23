@@ -72,9 +72,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
 - [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
-- [698. Partition to K Equal Sum Subsets](../../0501-1000/0698-partition-to-k-equal-sum-subsets/)
+- [3903. Smallest Stable Index I](../../4001-4500/4284-smallest-stable-index-i/)
+- [3904. Smallest Stable Index II](../../4001-4500/4285-smallest-stable-index-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/)

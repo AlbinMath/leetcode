@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
-- [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1963-find-xor-sum-of-all-pairs-bitwise-and/)
-- [2419. Longest Subarray With Maximum Bitwise AND](../../2501-3000/2503-longest-subarray-with-maximum-bitwise-and/)
+- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
+- [973. K Closest Points to Origin](../../1001-1500/1014-k-closest-points-to-origin/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k/)

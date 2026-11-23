@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2812. Find the Safest Path in a Grid](../../2501-3000/2914-find-the-safest-path-in-a-grid/)
 - [802. Find Eventual Safe States](../../0501-1000/0820-find-eventual-safe-states/)
-- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
+- [3108. Minimum Cost Walk in Weighted Graph](../../3001-3500/3348-minimum-cost-walk-in-weighted-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/)

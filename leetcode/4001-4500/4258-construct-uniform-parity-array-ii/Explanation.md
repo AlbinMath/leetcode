@@ -1,7 +1,7 @@
 # LeetCode 3876: Construct Uniform Parity Array II
 
 **LeetCode Problem #3876 — Construct Uniform Parity Array II**
-Solve LeetCode Construct Uniform Parity Array II using C++ and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Construct Uniform Parity Array II using C++ and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Construct Uniform Parity Array II using C++ and Array / General. 
 | LeetCode | #3876 |
 | Difficulty | Medium |
 | Language | C++ |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -20,28 +20,29 @@ Solve LeetCode Construct Uniform Parity Array II using C++ and Array / General. 
 You are given an array  nums1  of  n   distinct  integers.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Iterative Traversal**. By maintaining state efficiently in a **Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Array**).
-2. Process elements sequentially using **In-Place Array Traversal & Index Mapping**.
+1. Initialize state variables / data structure (**Integer Bitmask**).
+2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Construct Uniform Parity Array II**. Applying **In-Place Array Traversal & Index Mapping** yields the target result step by step.
+Consider the standard input for **Construct Uniform Parity Array II**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 C++
@@ -50,7 +51,7 @@ C++
 - [solution.cpp](./solution.cpp)
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -63,8 +64,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3875. Construct Uniform Parity Array I](../../4001-4500/4256-construct-uniform-parity-array-i/)
-- [905. Sort Array By Parity](../../0501-1000/0941-sort-array-by-parity/)
-- [922. Sort Array By Parity II](../../0501-1000/0958-sort-array-by-parity-ii/)
+- [1354. Construct Target Array With Multiple Sums](../../1001-1500/1479-construct-target-array-with-multiple-sums/)
+- [3314. Construct the Minimum Bitwise Array I](../../3501-4000/3605-construct-the-minimum-bitwise-array-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-uniform-parity-array-ii/)

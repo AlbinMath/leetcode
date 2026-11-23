@@ -4,6 +4,6 @@ A collection of LeetCode problems implemented in **Swift** with detailed complex
 
 ## Solutions
 
-| # | Problem | Difficulty | Pattern | Time | Space |
-|---|---|---|---|---|---|
-| 3090 | [Maximum Length Substring With Two Occurrences](../leetcode/3001-3500/3349-maximum-length-substring-with-two-occurrences/) | Easy | Array / General | O(n) | O(1) |
+| # | Problem | Difficulty | Pattern | Time | Space | Explanation |
+|---|---|---|---|---|---|---|
+| 3090 | [Maximum Length Substring With Two Occurrences](../leetcode/3001-3500/3349-maximum-length-substring-with-two-occurrences/) | Easy | Array / General | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3349-maximum-length-substring-with-two-occurrences/Explanation.md) |

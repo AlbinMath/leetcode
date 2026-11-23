@@ -65,7 +65,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](../../1501-2000/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
-- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
+- [67. Add Binary](../../0001-0500/0067-add-binary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/circular-permutation-in-binary-representation/)

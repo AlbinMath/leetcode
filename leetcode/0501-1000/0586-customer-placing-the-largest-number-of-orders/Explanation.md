@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1801. Number of Orders in the Backlog](../../1501-2000/1928-number-of-orders-in-the-backlog/)
 - [179. Largest Number](../../0001-0500/0179-largest-number/)
 - [747. Largest Number At Least Twice of Others](../../0501-1000/0748-largest-number-at-least-twice-of-others/)
+- [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1843-number-of-rectangles-that-can-form-the-largest-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)

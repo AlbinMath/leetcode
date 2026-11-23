@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3703. Remove K-Balanced Substrings](../../4001-4500/4019-remove-k-balanced-substrings/)
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 - [1837. Sum of Digits in Base K](../../1501-2000/1965-sum-of-digits-in-base-k/)
+- [3703. Remove K-Balanced Substrings](../../4001-4500/4019-remove-k-balanced-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-k-digits/)

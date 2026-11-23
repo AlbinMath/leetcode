@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
 - [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
-- [88. Merge Sorted Array](../../0001-0500/0088-merge-sorted-array/)
+- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1228-minimum-cost-tree-from-leaf-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-merge-sorted-lists/)

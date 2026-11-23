@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1461. Check If a String Contains All Binary Codes of Size K](../../1501-2000/1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
 - [2493. Divide Nodes Into the Maximum Number of Groups](../../2501-3000/2583-divide-nodes-into-the-maximum-number-of-groups/)
-- [839. Similar String Groups](../../0501-1000/0869-similar-string-groups/)
+- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)

@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3793. Find Users with High Token Usage](../../4001-4500/4195-find-users-with-high-token-usage/)
-- [3808. Find Emotionally Consistent Users](../../4001-4500/4208-find-emotionally-consistent-users/)
-- [3832. Find Users with Persistent Behavior Patterns](../../4001-4500/4227-find-users-with-persistent-behavior-patterns/)
+- [1964. Find the Longest Valid Obstacle Course at Each Position](../../2001-2500/2096-find-the-longest-valid-obstacle-course-at-each-position/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [3302. Find the Lexicographically Smallest Valid Sequence](../../3501-4000/3584-find-the-lexicographically-smallest-valid-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-users-with-valid-e-mails/)

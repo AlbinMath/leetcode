@@ -64,9 +64,9 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
-- [2171. Removing Minimum Number of Magic Beans](../../2001-2500/2290-removing-minimum-number-of-magic-beans/)
 - [208. Implement Trie (Prefix Tree)](../../0001-0500/0208-implement-trie-prefix-tree/)
+- [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
+- [232. Implement Queue using Stacks](../../0001-0500/0232-implement-queue-using-stacks/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-magic-dictionary/)

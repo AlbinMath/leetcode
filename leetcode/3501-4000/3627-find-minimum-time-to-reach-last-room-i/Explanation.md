@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3342. Find Minimum Time to Reach Last Room II](../../3501-4000/3628-find-minimum-time-to-reach-last-room-ii/)
-- [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1825-find-minimum-time-to-finish-all-jobs/)
 - [1928. Minimum Cost to Reach Destination in Time](../../2001-2500/2040-minimum-cost-to-reach-destination-in-time/)
+- [2045. Second Minimum Time to Reach Destination](../../2001-2500/2171-second-minimum-time-to-reach-destination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/)

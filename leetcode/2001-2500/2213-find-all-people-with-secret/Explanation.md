@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2327. Number of People Aware of a Secret](../../2001-2500/2408-number-of-people-aware-of-a-secret/)
-- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
-- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
+- [3025. Find the Number of Ways to Place People I](../../3001-3500/3278-find-the-number-of-ways-to-place-people-i/)
+- [3027. Find the Number of Ways to Place People II](../../3001-3500/3277-find-the-number-of-ways-to-place-people-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-people-with-secret/)

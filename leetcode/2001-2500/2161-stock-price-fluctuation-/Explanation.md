@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
-- [122. Best Time to Buy and Sell Stock II](../../0001-0500/0122-best-time-to-buy-and-sell-stock-ii/)
-- [123. Best Time to Buy and Sell Stock III](../../0001-0500/0123-best-time-to-buy-and-sell-stock-iii/)
+- [1164. Product Price at a Given Date](../../1001-1500/1278-product-price-at-a-given-date/)
+- [1251. Average Selling Price](../../1001-1500/1390-average-selling-price/)
+- [2146. K Highest Ranked Items Within a Price Range](../../2001-2500/2250-k-highest-ranked-items-within-a-price-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stock-price-fluctuation/)

@@ -4,35 +4,34 @@ LeetCode problems solved using **Prefix Array** data structures.
 
 ## Problems
 
-| # | Problem | Difficulty | Algorithm | Time | Space |
-|---|---|---|---|---|---|
-| 13 | [Roman to Integer](../leetcode/0001-0500/0013-roman-to-integer/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 14 | [Longest Common Prefix](../leetcode/0001-0500/0014-longest-common-prefix/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 744 | [Find Smallest Letter Greater Than Target](../leetcode/0501-1000/0745-find-smallest-letter-greater-than-target/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 745 | [Prefix and Suffix Search](../leetcode/0501-1000/0746-prefix-and-suffix-search/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
-| 1015 | [Smallest Integer Divisible by K](../leetcode/1001-1500/1064-smallest-integer-divisible-by-k/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
-| 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 1291 | [Sequential Digits](../leetcode/1001-1500/1212-sequential-digits/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
-| 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1001-1500/1482-how-many-numbers-are-smaller-than-the-current-number/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 1392 | [Longest Happy Prefix](../leetcode/1501-2000/1508-longest-happy-prefix/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
-| 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](../leetcode/1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 1563 | [Stone Game V](../leetcode/1501-2000/1685-stone-game-v/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
-| 1621 | [Number of Sets of K Non-Overlapping Line Segments](../leetcode/1501-2000/1725-number-of-sets-of-k-non-overlapping-line-segments/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
-| 1871 | [Jump Game VII](../leetcode/2001-2500/2001-jump-game-vii/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
-| 1872 | [Stone Game VIII](../leetcode/2001-2500/2002-stone-game-viii/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
-| 1961 | [Check If String Is a Prefix of Array](../leetcode/2001-2500/2093-check-if-string-is-a-prefix-of-array/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 2000 | [Reverse Prefix of Word](../leetcode/2001-2500/2128-reverse-prefix-of-word/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 2003 | [Smallest Missing Genetic Value in Each Subtree](../leetcode/2001-2500/2131-smallest-missing-genetic-value-in-each-subtree/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
-| 2416 | [Sum of Prefix Scores of Strings](../leetcode/2001-2500/2494-sum-of-prefix-scores-of-strings/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
-| 2424 | [Longest Uploaded Prefix](../leetcode/2501-3000/2512-longest-uploaded-prefix/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
-| 2433 | [Find The Original Array of Prefix Xor](../leetcode/2501-3000/2519-find-the-original-array-of-prefix-xor/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
-| 2574 | [Left and Right Sum Differences](../leetcode/2501-3000/2714-left-and-right-sum-differences/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2501-3000/2766-find-the-prefix-common-array-of-two-arrays/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
-| 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3001-3500/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 3042 | [Count Prefix and Suffix Pairs I](../leetcode/3001-3500/3309-count-prefix-and-suffix-pairs-i/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 3043 | [Find the Length of the Longest Common Prefix](../leetcode/3001-3500/3329-find-the-length-of-the-longest-common-prefix/) | Medium | Prefix Sum Precomputation | O(n) | O(n) |
-| 3045 | [Count Prefix and Suffix Pairs II](../leetcode/3001-3500/3305-count-prefix-and-suffix-pairs-ii/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
-| 3471 | [Find the Largest Almost Missing Integer](../leetcode/3501-4000/3705-find-the-largest-almost-missing-integer/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 3485 | [Longest Common Prefix of K Strings After Removal](../leetcode/3501-4000/3784-longest-common-prefix-of-k-strings-after-removal/) | Hard | Prefix Sum Precomputation | O(n) | O(n) |
-| 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3501-4000/3869-smallest-index-with-digit-sum-equal-to-index/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
-| 3718 | [Smallest Missing Multiple of K](../leetcode/4001-4500/4080-smallest-missing-multiple-of-k/) | Easy | Prefix Sum Precomputation | O(n) | O(n) |
+| # | Problem | Difficulty | Algorithm | Time | Space | Explanation |
+|---|---|---|---|---|---|---|
+| 13 | [Roman to Integer](../leetcode/0001-0500/0013-roman-to-integer/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0013-roman-to-integer/Explanation.md) |
+| 14 | [Longest Common Prefix](../leetcode/0001-0500/0014-longest-common-prefix/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0014-longest-common-prefix/Explanation.md) |
+| 744 | [Find Smallest Letter Greater Than Target](../leetcode/0501-1000/0745-find-smallest-letter-greater-than-target/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0745-find-smallest-letter-greater-than-target/Explanation.md) |
+| 745 | [Prefix and Suffix Search](../leetcode/0501-1000/0746-prefix-and-suffix-search/) | Hard | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0746-prefix-and-suffix-search/Explanation.md) |
+| 1015 | [Smallest Integer Divisible by K](../leetcode/1001-1500/1064-smallest-integer-divisible-by-k/) | Medium | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1064-smallest-integer-divisible-by-k/Explanation.md) |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](../leetcode/1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/Explanation.md) |
+| 1291 | [Sequential Digits](../leetcode/1001-1500/1212-sequential-digits/) | Medium | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1212-sequential-digits/Explanation.md) |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](../leetcode/1001-1500/1482-how-many-numbers-are-smaller-than-the-current-number/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1482-how-many-numbers-are-smaller-than-the-current-number/Explanation.md) |
+| 1392 | [Longest Happy Prefix](../leetcode/1501-2000/1508-longest-happy-prefix/) | Hard | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1508-longest-happy-prefix/Explanation.md) |
+| 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](../leetcode/1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/Explanation.md) |
+| 1563 | [Stone Game V](../leetcode/1501-2000/1685-stone-game-v/) | Hard | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1685-stone-game-v/Explanation.md) |
+| 1621 | [Number of Sets of K Non-Overlapping Line Segments](../leetcode/1501-2000/1725-number-of-sets-of-k-non-overlapping-line-segments/) | Medium | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1725-number-of-sets-of-k-non-overlapping-line-segments/Explanation.md) |
+| 1871 | [Jump Game VII](../leetcode/2001-2500/2001-jump-game-vii/) | Medium | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2001-jump-game-vii/Explanation.md) |
+| 1872 | [Stone Game VIII](../leetcode/2001-2500/2002-stone-game-viii/) | Hard | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2002-stone-game-viii/Explanation.md) |
+| 1961 | [Check If String Is a Prefix of Array](../leetcode/2001-2500/2093-check-if-string-is-a-prefix-of-array/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2093-check-if-string-is-a-prefix-of-array/Explanation.md) |
+| 2003 | [Smallest Missing Genetic Value in Each Subtree](../leetcode/2001-2500/2131-smallest-missing-genetic-value-in-each-subtree/) | Hard | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2131-smallest-missing-genetic-value-in-each-subtree/Explanation.md) |
+| 2416 | [Sum of Prefix Scores of Strings](../leetcode/2001-2500/2494-sum-of-prefix-scores-of-strings/) | Hard | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2494-sum-of-prefix-scores-of-strings/Explanation.md) |
+| 2424 | [Longest Uploaded Prefix](../leetcode/2501-3000/2512-longest-uploaded-prefix/) | Medium | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2512-longest-uploaded-prefix/Explanation.md) |
+| 2433 | [Find The Original Array of Prefix Xor](../leetcode/2501-3000/2519-find-the-original-array-of-prefix-xor/) | Medium | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2519-find-the-original-array-of-prefix-xor/Explanation.md) |
+| 2574 | [Left and Right Sum Differences](../leetcode/2501-3000/2714-left-and-right-sum-differences/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2714-left-and-right-sum-differences/Explanation.md) |
+| 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2501-3000/2766-find-the-prefix-common-array-of-two-arrays/) | Medium | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2766-find-the-prefix-common-array-of-two-arrays/Explanation.md) |
+| 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](../leetcode/3001-3500/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/Explanation.md) |
+| 3042 | [Count Prefix and Suffix Pairs I](../leetcode/3001-3500/3309-count-prefix-and-suffix-pairs-i/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3309-count-prefix-and-suffix-pairs-i/Explanation.md) |
+| 3043 | [Find the Length of the Longest Common Prefix](../leetcode/3001-3500/3329-find-the-length-of-the-longest-common-prefix/) | Medium | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3329-find-the-length-of-the-longest-common-prefix/Explanation.md) |
+| 3045 | [Count Prefix and Suffix Pairs II](../leetcode/3001-3500/3305-count-prefix-and-suffix-pairs-ii/) | Hard | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3305-count-prefix-and-suffix-pairs-ii/Explanation.md) |
+| 3471 | [Find the Largest Almost Missing Integer](../leetcode/3501-4000/3705-find-the-largest-almost-missing-integer/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3705-find-the-largest-almost-missing-integer/Explanation.md) |
+| 3485 | [Longest Common Prefix of K Strings After Removal](../leetcode/3501-4000/3784-longest-common-prefix-of-k-strings-after-removal/) | Hard | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3784-longest-common-prefix-of-k-strings-after-removal/Explanation.md) |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](../leetcode/3501-4000/3869-smallest-index-with-digit-sum-equal-to-index/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3869-smallest-index-with-digit-sum-equal-to-index/Explanation.md) |
+| 3718 | [Smallest Missing Multiple of K](../leetcode/4001-4500/4080-smallest-missing-multiple-of-k/) | Easy | Prefix Sum Precomputation | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4080-smallest-missing-multiple-of-k/Explanation.md) |

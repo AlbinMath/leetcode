@@ -66,7 +66,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3229. Minimum Operations to Make Array Equal to Target](../../3001-3500/3454-minimum-operations-to-make-array-equal-to-target/)
 - [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
-- [3444. Minimum Increments for Target Multiples in an Array](../../3501-4000/3697-minimum-increments-for-target-multiples-in-an-array/)
+- [1674. Minimum Moves to Make Array Complementary](../../1501-2000/1793-minimum-moves-to-make-array-complementary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)

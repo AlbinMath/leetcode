@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
-- [65. Valid Number](../../0001-0500/0065-valid-number/)
+- [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
+- [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
+- [391. Perfect Rectangle](../../0001-0500/0391-perfect-rectangle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/perfect-number/)

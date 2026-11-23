@@ -66,8 +66,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [478. Generate Random Point in a Circle](../../0501-1000/0915-generate-random-point-in-a-circle/)
-- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1490-generate-a-string-with-characters-that-have-odd-counts/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-parentheses/)

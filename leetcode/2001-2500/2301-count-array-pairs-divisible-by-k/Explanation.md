@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [629. K Inverse Pairs Array](../../0501-1000/0629-k-inverse-pairs-array/)
 - [2857. Count Pairs of Points With Distance k](../../2501-3000/2953-count-pairs-of-points-with-distance-k/)
-- [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4411-count-rotations-with-exactly-k-equal-adjacent-pairs/)
+- [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3823-count-islands-with-total-value-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)

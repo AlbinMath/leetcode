@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4098. Minimize the Maximum Value of GCD-Connected Array](../../4001-4500/4462-minimize-the-maximum-value-of-gcd-connected-array/)
 - [905. Sort Array By Parity](../../0501-1000/0941-sort-array-by-parity/)
 - [912. Sort an Array](../../0501-1000/0948-sort-an-array/)
+- [922. Sort Array By Parity II](../../0501-1000/0958-sort-array-by-parity-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/gcd-sort-of-an-array/)

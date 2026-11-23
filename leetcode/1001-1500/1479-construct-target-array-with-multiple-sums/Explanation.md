@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1389. Create Target Array in the Given Order](../../1501-2000/1505-create-target-array-in-the-given-order/)
-- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
-- [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/)
+- [3314. Construct the Minimum Bitwise Array I](../../3501-4000/3605-construct-the-minimum-bitwise-array-i/)
+- [3315. Construct the Minimum Bitwise Array II](../../3501-4000/3611-construct-the-minimum-bitwise-array-ii/)
+- [3875. Construct Uniform Parity Array I](../../4001-4500/4256-construct-uniform-parity-array-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)

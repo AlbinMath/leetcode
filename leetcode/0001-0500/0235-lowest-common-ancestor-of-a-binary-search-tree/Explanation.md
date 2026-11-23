@@ -65,8 +65,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [236. Lowest Common Ancestor of a Binary Tree](../../0001-0500/0236-lowest-common-ancestor-of-a-binary-tree/)
-- [1123. Lowest Common Ancestor of Deepest Leaves](../../1001-1500/1218-lowest-common-ancestor-of-deepest-leaves/)
 - [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
+- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)

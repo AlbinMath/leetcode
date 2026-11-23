@@ -1,7 +1,7 @@
 # LeetCode 2000: Reverse Prefix of Word
 
 **LeetCode Problem #2000 — Reverse Prefix of Word**
-Solve LeetCode Reverse Prefix of Word using JavaScript and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
+Solve LeetCode Reverse Prefix of Word using JavaScript and Trie. This solution finds the optimal result using Prefix Tree Lookup in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Reverse Prefix of Word using JavaScript and Prefix Sum. This solu
 | LeetCode | #2000 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Prefix Sum Precomputation |
-| Data Structure | Prefix Array |
-| Pattern | Prefix Sum |
+| Algorithm | Prefix Tree Lookup |
+| Data Structure | Trie Node |
+| Pattern | Trie |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -20,29 +20,30 @@ Solve LeetCode Reverse Prefix of Word using JavaScript and Prefix Sum. This solu
 Given a  0-indexed  string  word  and a character  ch ,  reverse  the segment of  word  that starts at index  0  and ends at the index of the  first occurrence  of  ch  ( inclusive ). If the character  ch  does not exist in  word , do nothing.
 
 ## Key Insight
-Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Trie** with **Trie Node** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Prefix Sum Precomputation**. By maintaining state efficiently in a **Prefix Array**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Prefix Array**).
-2. Process elements sequentially using **Prefix Sum Precomputation**.
+1. Initialize state variables / data structure (**Trie Node**).
+2. Process elements sequentially using **Prefix Tree Lookup**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Reverse Prefix of Word**. Applying **Prefix Sum Precomputation** yields the target result step by step.
+Consider the standard input for **Reverse Prefix of Word**. Applying **Prefix Tree Lookup** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(n)
 
 ## Pattern
-**Prefix Sum**
+**Trie**
 
 ## Topics
-- Prefix Sum
-- Array
+- Trie
+- String
+- Prefix Search
 
 ## Language
 JavaScript
@@ -51,7 +52,7 @@ JavaScript
 - [solution.js](./solution.js)
 
 ## Why This Works
-By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Trie**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -64,8 +65,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1501-2000/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
-- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
-- [208. Implement Trie (Prefix Tree)](../../0001-0500/0208-implement-trie-prefix-tree/)
+- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
+- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-prefix-of-word/)

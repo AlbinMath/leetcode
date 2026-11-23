@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
-- [1964. Find the Longest Valid Obstacle Course at Each Position](../../2001-2500/2096-find-the-longest-valid-obstacle-course-at-each-position/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [1456. Maximum Number of Vowels in a Substring of Given Length](../../1501-2000/1567-maximum-number-of-vowels-in-a-substring-of-given-length/)
+- [2958. Length of Longest Subarray With at Most K Frequency](../../3001-3500/3225-length-of-longest-subarray-with-at-most-k-frequency/)
+- [3043. Find the Length of the Longest Common Prefix](../../3001-3500/3329-find-the-length-of-the-longest-common-prefix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-the-longest-valid-substring/)

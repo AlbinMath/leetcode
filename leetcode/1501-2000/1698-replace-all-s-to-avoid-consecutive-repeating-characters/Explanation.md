@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1844. Replace All Digits with Characters](../../1501-2000/1954-replace-all-digits-with-characters/)
-- [1446. Consecutive Characters](../../1501-2000/1542-consecutive-characters/)
-- [3970. Shortest Path With At Most K Consecutive Identical Characters](../../4001-4500/4104-shortest-path-with-at-most-k-consecutive-identical-characters/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1460-number-of-substrings-containing-all-three-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)

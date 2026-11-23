@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1234. Replace the Substring for Balanced String](../../1001-1500/1351-replace-the-substring-for-balanced-string/)
-- [3719. Longest Balanced Subarray I](../../4001-4500/4045-longest-balanced-subarray-i/)
-- [3721. Longest Balanced Subarray II](../../4001-4500/4047-longest-balanced-subarray-ii/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-balanced-substring-i/)

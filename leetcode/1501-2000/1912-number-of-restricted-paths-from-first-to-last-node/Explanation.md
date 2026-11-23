@@ -65,8 +65,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [797. All Paths From Source to Target](../../0501-1000/0813-all-paths-from-source-to-target/)
 - [2096. Step-By-Step Directions From a Binary Tree Node to Another](../../2001-2500/2217-step-by-step-directions-from-a-binary-tree-node-to-another/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)

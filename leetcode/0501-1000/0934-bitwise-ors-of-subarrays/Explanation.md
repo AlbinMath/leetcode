@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2411. Smallest Subarrays With Maximum Bitwise OR](../../2001-2500/2498-smallest-subarrays-with-maximum-bitwise-or/)
-- [201. Bitwise AND of Numbers Range](../../0001-0500/0201-bitwise-and-of-numbers-range/)
-- [982. Triples with Bitwise AND Equal To Zero](../../1001-1500/1024-triples-with-bitwise-and-equal-to-zero/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [930. Binary Subarrays With Sum](../../0501-1000/0966-binary-subarrays-with-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bitwise-ors-of-subarrays/)

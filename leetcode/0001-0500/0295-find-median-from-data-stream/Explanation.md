@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2526. Find Consecutive Integers from a Data Stream](../../2501-3000/2620-find-consecutive-integers-from-a-data-stream/)
-- [3134. Find the Median of the Uniqueness Array](../../3001-3500/3362-find-the-median-of-the-uniqueness-array/)
-- [3585. Find Weighted Median Node in Tree](../../3501-4000/3900-find-weighted-median-node-in-tree/)
+- [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2220-find-all-possible-recipes-from-given-supplies/)
+- [3403. Find the Lexicographically Largest String From the Box I](../../3501-4000/3683-find-the-lexicographically-largest-string-from-the-box-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-median-from-data-stream/)

@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 - [4100. Minimum Cost Path With Even XOR Parity](../../4001-4500/4431-minimum-cost-path-with-even-xor-parity/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [1293. Shortest Path in a Grid with Obstacles Elimination](../../1001-1500/1414-shortest-path-in-a-grid-with-obstacles-elimination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-xor-path-in-a-grid/)

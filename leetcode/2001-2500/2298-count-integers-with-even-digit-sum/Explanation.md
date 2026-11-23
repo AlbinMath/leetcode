@@ -1,7 +1,7 @@
 # LeetCode 2180: Count Integers With Even Digit Sum
 
 **LeetCode Problem #2180 — Count Integers With Even Digit Sum**
-Solve LeetCode Count Integers With Even Digit Sum using Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Count Integers With Even Digit Sum using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,40 @@ Solve LeetCode Count Integers With Even Digit Sum using Python and Math & Logic.
 | LeetCode | #2180 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Mathematical Simulation & Modular Arithmetic |
-| Data Structure | Primitive Types |
-| Pattern | Math & Logic |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 Given a positive integer  num , return  the number of positive integers  less than or equal to    num   whose digit sums are  even  .
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
 We iterate through the input using **Mathematical Simulation & Modular Arithmetic**. By maintaining state efficiently in a **Primitive Types**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Primitive Types**).
-2. Process elements sequentially using **Mathematical Simulation & Modular Arithmetic**.
+1. Initialize state variables / data structure (**DP Table / Array**).
+2. Process elements sequentially using **Memoization & State Transition**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Count Integers With Even Digit Sum**. Applying **Mathematical Simulation & Modular Arithmetic** yields the target result step by step.
+Consider the standard input for **Count Integers With Even Digit Sum**. Applying **Memoization & State Transition** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Math & Logic**
+**Dynamic Programming**
 
 ## Topics
-- Math
-- Simulation
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 Python
@@ -51,21 +52,21 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [3910. Count Connected Subgraphs with Even Node Sum](../../4001-4500/4279-count-connected-subgraphs-with-even-node-sum/)
-- [327. Count of Range Sum](../../0001-0500/0327-count-of-range-sum/)
-- [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
+- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
+- [1315. Sum of Nodes with Even-Valued Grandparent](../../1001-1500/1243-sum-of-nodes-with-even-valued-grandparent/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-integers-with-even-digit-sum/)

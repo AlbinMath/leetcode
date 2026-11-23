@@ -66,7 +66,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2916. Subarrays Distinct Element Sum of Squares II](../../3001-3500/3139-subarrays-distinct-element-sum-of-squares-ii/)
 - [2461. Maximum Sum of Distinct Subarrays With Length K](../../2501-3000/2552-maximum-sum-of-distinct-subarrays-with-length-k/)
-- [2778. Sum of Squares of Special Elements ](../../2501-3000/2844-sum-of-squares-of-special-elements-/)
+- [2862. Maximum Element-Sum of a Complete Subset of Indices](../../3001-3500/3047-maximum-element-sum-of-a-complete-subset-of-indices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)

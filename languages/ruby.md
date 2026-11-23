@@ -4,6 +4,6 @@ A collection of LeetCode problems implemented in **Ruby** with detailed complexi
 
 ## Solutions
 
-| # | Problem | Difficulty | Pattern | Time | Space |
-|---|---|---|---|---|---|
-| 3345 | [Smallest Divisible Digit Product I](../leetcode/3501-4000/3626-smallest-divisible-digit-product-i/) | Easy | Tree & Graph | O(n) | O(n) |
+| # | Problem | Difficulty | Pattern | Time | Space | Explanation |
+|---|---|---|---|---|---|---|
+| 3345 | [Smallest Divisible Digit Product I](../leetcode/3501-4000/3626-smallest-divisible-digit-product-i/) | Easy | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3626-smallest-divisible-digit-product-i/Explanation.md) |

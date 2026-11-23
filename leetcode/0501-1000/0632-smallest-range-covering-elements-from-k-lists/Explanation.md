@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
-- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
-- [2261. K Divisible Elements Subarrays](../../2001-2500/2339-k-divisible-elements-subarrays/)
+- [988. Smallest String Starting From Leaf](../../1001-1500/1030-smallest-string-starting-from-leaf/)
+- [2375. Construct Smallest Number From DI String](../../2001-2500/2456-construct-smallest-number-from-di-string/)
+- [2516. Take K of Each Character From Left and Right](../../2501-3000/2599-take-k-of-each-character-from-left-and-right/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)

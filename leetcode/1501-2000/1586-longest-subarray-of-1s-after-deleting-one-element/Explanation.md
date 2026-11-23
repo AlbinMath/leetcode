@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3830. Longest Alternating Subarray After Removing At Most One Element](../../4001-4500/4198-longest-alternating-subarray-after-removing-at-most-one-element/)
-- [3872. Longest Arithmetic Sequence After Changing At Most One Element](../../4001-4500/4230-longest-arithmetic-sequence-after-changing-at-most-one-element/)
 - [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3501-4000/3688-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+- [3872. Longest Arithmetic Sequence After Changing At Most One Element](../../4001-4500/4230-longest-arithmetic-sequence-after-changing-at-most-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)

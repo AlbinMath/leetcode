@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3127. Make a Square with the Same Color](../../3001-3500/3398-make-a-square-with-the-same-color/)
-- [1657. Determine if Two Strings Are Close](../../1501-2000/1777-determine-if-two-strings-are-close/)
-- [1704. Determine if String Halves Are Alike](../../1501-2000/1823-determine-if-string-halves-are-alike/)
+- [1857. Largest Color Value in a Directed Graph](../../1501-2000/1986-largest-color-value-in-a-directed-graph/)
+- [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3494. Find the Minimum Amount of Time to Brew Potions](../../3501-4000/3794-find-the-minimum-amount-of-time-to-brew-potions/)
 - [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
 - [336. Palindrome Pairs](../../0001-0500/0336-palindrome-pairs/)
-- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)

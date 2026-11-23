@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1662. Check If Two String Arrays are Equivalent](../../1501-2000/1781-check-if-two-string-arrays-are-equivalent/)
-- [1704. Determine if String Halves Are Alike](../../1501-2000/1823-determine-if-string-halves-are-alike/)
 - [2068. Check Whether Two Strings are Almost Equivalent](../../2001-2500/2177-check-whether-two-strings-are-almost-equivalent/)
+- [1704. Determine if String Halves Are Alike](../../1501-2000/1823-determine-if-string-halves-are-alike/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-if-two-strings-are-close/)

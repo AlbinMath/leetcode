@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
 - [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
 - [988. Smallest String Starting From Leaf](../../1001-1500/1030-smallest-string-starting-from-leaf/)
+- [2375. Construct Smallest Number From DI String](../../2001-2500/2456-construct-smallest-number-from-di-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)

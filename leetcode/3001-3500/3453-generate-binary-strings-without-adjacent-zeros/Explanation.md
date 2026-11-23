@@ -1,7 +1,7 @@
 # LeetCode 3211: Generate Binary Strings Without Adjacent Zeros
 
 **LeetCode Problem #3211 — Generate Binary Strings Without Adjacent Zeros**
-Solve LeetCode Generate Binary Strings Without Adjacent Zeros using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Generate Binary Strings Without Adjacent Zeros using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,39 +10,41 @@ Solve LeetCode Generate Binary Strings Without Adjacent Zeros using Python and B
 | LeetCode | #3211 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem
 You are given a positive integer  n .
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 We iterate through the input using **Bitwise Masking & Bit Shift**. By maintaining state efficiently in a **Integer Bitmask**, we eliminate redundant operations and process each element in optimal time.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Integer Bitmask**).
-2. Process elements sequentially using **Bitwise Masking & Bit Shift**.
+1. Initialize state variables / data structure (**Tree / Graph / Grid**).
+2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example
-Consider the standard input for **Generate Binary Strings Without Adjacent Zeros**. Applying **Bitwise Masking & Bit Shift** yields the target result step by step.
+Consider the standard input for **Generate Binary Strings Without Adjacent Zeros**. Applying **Depth-First Search (DFS) / Breadth-First Search (BFS)** yields the target result step by step.
 
 ## Complexity
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ## Pattern
-**Bit Manipulation**
+**Tree & Graph**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -51,7 +53,7 @@ Python
 - [solution.py](./solution.py)
 
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -64,8 +66,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3955. Valid Binary Strings With Cost Limit](../../4001-4500/4289-valid-binary-strings-with-cost-limit/)
-- [777. Swap Adjacent in LR String](../../0501-1000/0793-swap-adjacent-in-lr-string/)
-- [1042. Flower Planting With No Adjacent](../../1001-1500/1120-flower-planting-with-no-adjacent/)
+- [67. Add Binary](../../0001-0500/0067-add-binary/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)

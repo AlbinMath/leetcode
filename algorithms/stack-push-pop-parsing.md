@@ -4,44 +4,44 @@ A curated selection of LeetCode problems solved using the **Stack Push / Pop Par
 
 ## Problems
 
-| # | Problem | Difficulty | Pattern | Time | Space |
-|---|---|---|---|---|---|
-| 20 | [Valid Parentheses](../leetcode/0001-0500/0020-valid-parentheses/) | Easy | Stack & Queue | O(n) | O(n) |
-| 22 | [Generate Parentheses](../leetcode/0001-0500/0022-generate-parentheses/) | Medium | Stack & Queue | O(n) | O(n) |
-| 28 | [Find the Index of the First Occurrence in a String](../leetcode/0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Stack & Queue | O(n) | O(n) |
-| 32 | [Longest Valid Parentheses](../leetcode/0001-0500/0032-longest-valid-parentheses/) | Hard | Stack & Queue | O(n) | O(n) |
-| 150 | [Evaluate Reverse Polish Notation](../leetcode/0001-0500/0150-evaluate-reverse-polish-notation/) | Medium | Stack & Queue | O(n) | O(n) |
-| 187 | [Repeated DNA Sequences](../leetcode/0001-0500/0187-repeated-dna-sequences/) | Medium | Stack & Queue | O(n) | O(n) |
-| 241 | [Different Ways to Add Parentheses](../leetcode/0001-0500/0241-different-ways-to-add-parentheses/) | Medium | Stack & Queue | O(n) | O(n) |
-| 301 | [Remove Invalid Parentheses](../leetcode/0001-0500/0301-remove-invalid-parentheses/) | Hard | Stack & Queue | O(n) | O(n) |
-| 399 | [Evaluate Division](../leetcode/0001-0500/0399-evaluate-division/) | Medium | Stack & Queue | O(n) | O(n) |
-| 406 | [Queue Reconstruction by Height](../leetcode/0001-0500/0406-queue-reconstruction-by-height/) | Medium | Stack & Queue | O(n) | O(n) |
-| 622 | [Design Circular Queue](../leetcode/0501-1000/0860-design-circular-queue/) | Medium | Stack & Queue | O(n) | O(n) |
-| 636 | [Exclusive Time of Functions](../leetcode/0501-1000/0636-exclusive-time-of-functions/) | Medium | Stack & Queue | O(n) | O(n) |
-| 746 | [Min Cost Climbing Stairs](../leetcode/0501-1000/0747-min-cost-climbing-stairs/) | Easy | Stack & Queue | O(n) | O(n) |
-| 756 | [Pyramid Transition Matrix](../leetcode/0501-1000/0757-pyramid-transition-matrix/) | Medium | Stack & Queue | O(n) | O(n) |
-| 856 | [Score of Parentheses](../leetcode/0501-1000/0886-score-of-parentheses/) | Medium | Stack & Queue | O(n) | O(n) |
-| 899 | [Orderly Queue](../leetcode/0501-1000/0935-orderly-queue/) | Hard | Stack & Queue | O(n) | O(n) |
-| 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0501-1000/0957-minimum-add-to-make-parentheses-valid/) | Medium | Stack & Queue | O(n) | O(n) |
-| 1021 | [Remove Outermost Parentheses](../leetcode/1001-1500/1078-remove-outermost-parentheses/) | Easy | Stack & Queue | O(n) | O(n) |
-| 1111 | [Maximum Nesting Depth of Two Valid Parentheses Strings](../leetcode/1001-1500/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium | Stack & Queue | O(n) | O(n) |
-| 1172 | [Dinner Plate Stacks](../leetcode/1001-1500/1270-dinner-plate-stacks/) | Hard | Stack & Queue | O(n) | O(n) |
-| 1190 | [Reverse Substrings Between Each Pair of Parentheses](../leetcode/1001-1500/1298-reverse-substrings-between-each-pair-of-parentheses/) | Medium | Stack & Queue | O(n) | O(n) |
-| 1249 | [Minimum Remove to Make Valid Parentheses](../leetcode/1001-1500/1371-minimum-remove-to-make-valid-parentheses/) | Medium | Stack & Queue | O(n) | O(n) |
-| 1381 | [Design a Stack With Increment Operation](../leetcode/1001-1500/1497-design-a-stack-with-increment-operation/) | Medium | Stack & Queue | O(n) | O(n) |
-| 1441 | [Build an Array With Stack Operations](../leetcode/1501-2000/1552-build-an-array-with-stack-operations/) | Medium | Stack & Queue | O(n) | O(n) |
-| 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1501-2000/1648-minimum-insertions-to-balance-a-parentheses-string/) | Medium | Stack & Queue | O(n) | O(n) |
-| 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1501-2000/1737-maximum-nesting-depth-of-the-parentheses/) | Easy | Stack & Queue | O(n) | O(n) |
-| 1670 | [Design Front Middle Back Queue](../leetcode/1501-2000/1767-design-front-middle-back-queue/) | Medium | Stack & Queue | O(n) | O(n) |
-| 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1501-2000/1802-number-of-students-unable-to-eat-lunch/) | Easy | Stack & Queue | O(n) | O(n) |
-| 2116 | [Check if a Parentheses String Can Be Valid](../leetcode/2001-2500/2221-check-if-a-parentheses-string-can-be-valid/) | Medium | Stack & Queue | O(n) | O(n) |
-| 2232 | [Minimize Result by Adding Parentheses to Expression](../leetcode/2001-2500/2328-minimize-result-by-adding-parentheses-to-expression/) | Medium | Stack & Queue | O(n) | O(n) |
-| 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2001-2500/2349--check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack & Queue | O(n) | O(n) |
-| 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack & Queue | O(n) | O(n) |
-| 2293 | [Min Max Game](../leetcode/2001-2500/2386-min-max-game/) | Easy | Stack & Queue | O(n) | O(n) |
-| 2392 | [Build a Matrix With Conditions](../leetcode/2001-2500/2472-build-a-matrix-with-conditions/) | Hard | Stack & Queue | O(n) | O(n) |
-| 2460 | [Apply Operations to an Array](../leetcode/2501-3000/2551-apply-operations-to-an-array/) | Easy | Stack & Queue | O(n) | O(n) |
-| 2601 | [Prime Subtraction Operation](../leetcode/2501-3000/2716-prime-subtraction-operation/) | Medium | Stack & Queue | O(n) | O(n) |
-| 2888 | [Reshape Data: Concatenate](../leetcode/3001-3500/3064-reshape-data-concatenate/) | Easy | Stack & Queue | O(n) | O(n) |
-| 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3001-3500/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Stack & Queue | O(n) | O(n) |
-| 4062 | [Transform Array Using Pair Operations](../leetcode/4001-4500/4398-transform-array-using-pair-operations/) | Medium | Stack & Queue | O(n) | O(n) |
+| # | Problem | Difficulty | Pattern | Time | Space | Explanation |
+|---|---|---|---|---|---|---|
+| 20 | [Valid Parentheses](../leetcode/0001-0500/0020-valid-parentheses/) | Easy | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0020-valid-parentheses/Explanation.md) |
+| 22 | [Generate Parentheses](../leetcode/0001-0500/0022-generate-parentheses/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0022-generate-parentheses/Explanation.md) |
+| 28 | [Find the Index of the First Occurrence in a String](../leetcode/0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/Explanation.md) |
+| 32 | [Longest Valid Parentheses](../leetcode/0001-0500/0032-longest-valid-parentheses/) | Hard | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0032-longest-valid-parentheses/Explanation.md) |
+| 150 | [Evaluate Reverse Polish Notation](../leetcode/0001-0500/0150-evaluate-reverse-polish-notation/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0150-evaluate-reverse-polish-notation/Explanation.md) |
+| 187 | [Repeated DNA Sequences](../leetcode/0001-0500/0187-repeated-dna-sequences/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0187-repeated-dna-sequences/Explanation.md) |
+| 241 | [Different Ways to Add Parentheses](../leetcode/0001-0500/0241-different-ways-to-add-parentheses/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0241-different-ways-to-add-parentheses/Explanation.md) |
+| 301 | [Remove Invalid Parentheses](../leetcode/0001-0500/0301-remove-invalid-parentheses/) | Hard | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0301-remove-invalid-parentheses/Explanation.md) |
+| 399 | [Evaluate Division](../leetcode/0001-0500/0399-evaluate-division/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0399-evaluate-division/Explanation.md) |
+| 406 | [Queue Reconstruction by Height](../leetcode/0001-0500/0406-queue-reconstruction-by-height/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0406-queue-reconstruction-by-height/Explanation.md) |
+| 622 | [Design Circular Queue](../leetcode/0501-1000/0860-design-circular-queue/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0860-design-circular-queue/Explanation.md) |
+| 636 | [Exclusive Time of Functions](../leetcode/0501-1000/0636-exclusive-time-of-functions/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0636-exclusive-time-of-functions/Explanation.md) |
+| 746 | [Min Cost Climbing Stairs](../leetcode/0501-1000/0747-min-cost-climbing-stairs/) | Easy | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0747-min-cost-climbing-stairs/Explanation.md) |
+| 756 | [Pyramid Transition Matrix](../leetcode/0501-1000/0757-pyramid-transition-matrix/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0757-pyramid-transition-matrix/Explanation.md) |
+| 856 | [Score of Parentheses](../leetcode/0501-1000/0886-score-of-parentheses/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0886-score-of-parentheses/Explanation.md) |
+| 899 | [Orderly Queue](../leetcode/0501-1000/0935-orderly-queue/) | Hard | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0935-orderly-queue/Explanation.md) |
+| 921 | [Minimum Add to Make Parentheses Valid](../leetcode/0501-1000/0957-minimum-add-to-make-parentheses-valid/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0957-minimum-add-to-make-parentheses-valid/Explanation.md) |
+| 1021 | [Remove Outermost Parentheses](../leetcode/1001-1500/1078-remove-outermost-parentheses/) | Easy | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1078-remove-outermost-parentheses/Explanation.md) |
+| 1111 | [Maximum Nesting Depth of Two Valid Parentheses Strings](../leetcode/1001-1500/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/Explanation.md) |
+| 1172 | [Dinner Plate Stacks](../leetcode/1001-1500/1270-dinner-plate-stacks/) | Hard | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1270-dinner-plate-stacks/Explanation.md) |
+| 1190 | [Reverse Substrings Between Each Pair of Parentheses](../leetcode/1001-1500/1298-reverse-substrings-between-each-pair-of-parentheses/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1298-reverse-substrings-between-each-pair-of-parentheses/Explanation.md) |
+| 1249 | [Minimum Remove to Make Valid Parentheses](../leetcode/1001-1500/1371-minimum-remove-to-make-valid-parentheses/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1371-minimum-remove-to-make-valid-parentheses/Explanation.md) |
+| 1381 | [Design a Stack With Increment Operation](../leetcode/1001-1500/1497-design-a-stack-with-increment-operation/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1497-design-a-stack-with-increment-operation/Explanation.md) |
+| 1441 | [Build an Array With Stack Operations](../leetcode/1501-2000/1552-build-an-array-with-stack-operations/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1552-build-an-array-with-stack-operations/Explanation.md) |
+| 1541 | [Minimum Insertions to Balance a Parentheses String](../leetcode/1501-2000/1648-minimum-insertions-to-balance-a-parentheses-string/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1648-minimum-insertions-to-balance-a-parentheses-string/Explanation.md) |
+| 1614 | [Maximum Nesting Depth of the Parentheses](../leetcode/1501-2000/1737-maximum-nesting-depth-of-the-parentheses/) | Easy | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1737-maximum-nesting-depth-of-the-parentheses/Explanation.md) |
+| 1670 | [Design Front Middle Back Queue](../leetcode/1501-2000/1767-design-front-middle-back-queue/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1767-design-front-middle-back-queue/Explanation.md) |
+| 1700 | [Number of Students Unable to Eat Lunch](../leetcode/1501-2000/1802-number-of-students-unable-to-eat-lunch/) | Easy | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1802-number-of-students-unable-to-eat-lunch/Explanation.md) |
+| 2116 | [Check if a Parentheses String Can Be Valid](../leetcode/2001-2500/2221-check-if-a-parentheses-string-can-be-valid/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2221-check-if-a-parentheses-string-can-be-valid/Explanation.md) |
+| 2232 | [Minimize Result by Adding Parentheses to Expression](../leetcode/2001-2500/2328-minimize-result-by-adding-parentheses-to-expression/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2328-minimize-result-by-adding-parentheses-to-expression/Explanation.md) |
+| 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2001-2500/2349--check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2349--check-if-there-is-a-valid-parentheses-string-path/Explanation.md) |
+| 2267 | [ Check if There Is a Valid Parentheses String Path](../leetcode/2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/) | Hard | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/Explanation.md) |
+| 2293 | [Min Max Game](../leetcode/2001-2500/2386-min-max-game/) | Easy | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2386-min-max-game/Explanation.md) |
+| 2392 | [Build a Matrix With Conditions](../leetcode/2001-2500/2472-build-a-matrix-with-conditions/) | Hard | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2472-build-a-matrix-with-conditions/Explanation.md) |
+| 2460 | [Apply Operations to an Array](../leetcode/2501-3000/2551-apply-operations-to-an-array/) | Easy | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2551-apply-operations-to-an-array/Explanation.md) |
+| 2601 | [Prime Subtraction Operation](../leetcode/2501-3000/2716-prime-subtraction-operation/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2716-prime-subtraction-operation/Explanation.md) |
+| 2888 | [Reshape Data: Concatenate](../leetcode/3001-3500/3064-reshape-data-concatenate/) | Easy | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3064-reshape-data-concatenate/Explanation.md) |
+| 2897 | [Apply Operations on Array to Maximize Sum of Squares](../leetcode/3001-3500/3153-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3153-apply-operations-on-array-to-maximize-sum-of-squares/Explanation.md) |
+| 4062 | [Transform Array Using Pair Operations](../leetcode/4001-4500/4398-transform-array-using-pair-operations/) | Medium | Stack & Queue | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4398-transform-array-using-pair-operations/Explanation.md) |

@@ -64,9 +64,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [3229. Minimum Operations to Make Array Equal to Target](../../3001-3500/3454-minimum-operations-to-make-array-equal-to-target/)
 - [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
 - [3291. Minimum Number of Valid Strings to Form Target I](../../3501-4000/3559-minimum-number-of-valid-strings-to-form-target-i/)
-- [3292. Minimum Number of Valid Strings to Form Target II](../../3501-4000/3557-minimum-number-of-valid-strings-to-form-target-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/)

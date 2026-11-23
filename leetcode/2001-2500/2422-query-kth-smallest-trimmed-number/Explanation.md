@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
 - [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](../../1501-2000/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
-- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
+- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)

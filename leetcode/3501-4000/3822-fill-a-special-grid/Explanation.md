@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [761. Special Binary String](../../0501-1000/0763-special-binary-string/)
-- [893. Groups of Special-Equivalent Strings](../../0501-1000/0929-groups-of-special-equivalent-strings/)
-- [1475. Final Prices With a Special Discount in a Shop](../../1501-2000/1570-final-prices-with-a-special-discount-in-a-shop/)
+- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
+- [1260. Shift 2D Grid](../../1001-1500/1386-shift-2d-grid/)
+- [1293. Shortest Path in a Grid with Obstacles Elimination](../../1001-1500/1414-shortest-path-in-a-grid-with-obstacles-elimination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fill-a-special-grid/)

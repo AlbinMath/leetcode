@@ -4,6 +4,6 @@ A collection of LeetCode problems implemented in **Elixir** with detailed comple
 
 ## Solutions
 
-| # | Problem | Difficulty | Pattern | Time | Space |
-|---|---|---|---|---|---|
-| 628 | [Maximum Product of Three Numbers](../leetcode/0501-1000/0628-maximum-product-of-three-numbers/) | Easy | Binary Search | O(n) | O(1) |
+| # | Problem | Difficulty | Pattern | Time | Space | Explanation |
+|---|---|---|---|---|---|---|
+| 628 | [Maximum Product of Three Numbers](../leetcode/0501-1000/0628-maximum-product-of-three-numbers/) | Easy | Binary Search | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0628-maximum-product-of-three-numbers/Explanation.md) |

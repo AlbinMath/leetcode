@@ -65,7 +65,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [2317. Maximum XOR After Operations ](../../2001-2500/2402-maximum-xor-after-operations-/)
 - [3806. Maximum Bitwise AND After Increment Operations](../../4001-4500/4154-maximum-bitwise-and-after-increment-operations/)
-- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1422. Maximum Score After Splitting a String](../../1501-2000/1537-maximum-score-after-splitting-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-bitwise-xor-after-rearrangement/)

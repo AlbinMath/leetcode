@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [12. Integer to Roman](../../0001-0500/0012-integer-to-roman/)
+- [476. Number Complement](../../0001-0500/0476-number-complement/)
+- [483. Smallest Good Base](../../0001-0500/0483-smallest-good-base/)
+- [504. Base 7](../../0501-1000/0504-base-7/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/complement-of-base-10-integer/)

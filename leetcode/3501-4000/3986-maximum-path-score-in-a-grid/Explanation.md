@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3276. Select Cells in Grid With Maximum Score](../../3501-4000/3563-select-cells-in-grid-with-maximum-score/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [1219. Path with Maximum Gold](../../1001-1500/1331-path-with-maximum-gold/)
+- [1293. Shortest Path in a Grid with Obstacles Elimination](../../1001-1500/1414-shortest-path-in-a-grid-with-obstacles-elimination/)
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-path-score-in-a-grid/)

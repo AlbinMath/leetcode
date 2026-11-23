@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [455. Assign Cookies](../../0001-0500/0455-assign-cookies/)
 - [888. Fair Candy Swap](../../0501-1000/0924-fair-candy-swap/)
 - [1664. Ways to Make a Fair Array](../../1501-2000/1783-ways-to-make-a-fair-array/)
-- [455. Assign Cookies](../../0001-0500/0455-assign-cookies/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fair-distribution-of-cookies/)

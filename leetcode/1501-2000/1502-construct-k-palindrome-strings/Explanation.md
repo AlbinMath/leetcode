@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1616. Split Two Strings to Make Palindrome](../../1501-2000/1739-split-two-strings-to-make-palindrome/)
-- [3260. Find the Largest Palindrome Divisible by K](../../3501-4000/3552-find-the-largest-palindrome-divisible-by-k/)
 - [854. K-Similar Strings](../../0501-1000/0884-k-similar-strings/)
+- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+- [3260. Find the Largest Palindrome Divisible by K](../../3501-4000/3552-find-the-largest-palindrome-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-k-palindrome-strings/)

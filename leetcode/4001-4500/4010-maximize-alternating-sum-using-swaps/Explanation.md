@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1864. Minimum Number of Swaps to Make the Binary String Alternating](../../1501-2000/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
-- [3727. Maximum Alternating Sum of Squares](../../4001-4500/4078-maximum-alternating-sum-of-squares/)
-- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
+- [3551. Minimum Swaps to Sort by Digit Sum](../../3501-4000/3847-minimum-swaps-to-sort-by-digit-sum/)
+- [3962. Maximum Subarray Sum After at Most K Swaps](../../4001-4500/4246-maximum-subarray-sum-after-at-most-k-swaps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-alternating-sum-using-swaps/)

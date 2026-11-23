@@ -65,7 +65,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [217. Contains Duplicate](../../0001-0500/0217-contains-duplicate/)
 - [220. Contains Duplicate III](../../0001-0500/0220-contains-duplicate-iii/)
-- [182. Duplicate Emails](../../0001-0500/0182-duplicate-emails/)
+- [1461. Check If a String Contains All Binary Codes of Size K](../../1501-2000/1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/contains-duplicate-ii/)

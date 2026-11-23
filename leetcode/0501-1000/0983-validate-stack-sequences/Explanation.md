@@ -64,9 +64,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
-- [468. Validate IP Address](../../0001-0500/0468-validate-ip-address/)
-- [1361. Validate Binary Tree Nodes](../../1001-1500/1275-validate-binary-tree-nodes/)
+- [155. Min Stack](../../0001-0500/0155-min-stack/)
+- [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
+- [895. Maximum Frequency Stack](../../0501-1000/0931-maximum-frequency-stack/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/validate-stack-sequences/)

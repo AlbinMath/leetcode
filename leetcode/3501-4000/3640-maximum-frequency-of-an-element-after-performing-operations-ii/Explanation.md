@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3346. Maximum Frequency of an Element After Performing Operations I](../../3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/)
+- [1846. Maximum Element After Decreasing and Rearranging](../../1501-2000/1956-maximum-element-after-decreasing-and-rearranging/)
 - [2011. Final Value of Variable After Performing Operations](../../2001-2500/2137-final-value-of-variable-after-performing-operations/)
-- [3434. Maximum Frequency After Subarray Operation](../../3501-4000/3751-maximum-frequency-after-subarray-operation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii---input-array-is-sorted/)
-- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
-- [1480. Running Sum of 1d Array](../../1501-2000/1603-running-sum-of-1d-array/)
+- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
+- [1985. Find the Kth Largest Integer in the Array](../../2001-2500/2113-find-the-kth-largest-integer-in-the-array/)
+- [2099. Find Subsequence of Length K With the Largest Sum](../../2001-2500/2204-find-subsequence-of-length-k-with-the-largest-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-array-largest-sum/)

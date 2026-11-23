@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1221. Split a String in Balanced Strings](../../1001-1500/1341-split-a-string-in-balanced-strings/)
-- [1653. Minimum Deletions to Make String Balanced](../../1501-2000/1756-minimum-deletions-to-make-string-balanced/)
-- [1963. Minimum Number of Swaps to Make the String Balanced](../../2001-2500/2095-minimum-number-of-swaps-to-make-the-string-balanced/)
+- [1585. Check If String Is Transformable With Substring Sort Operations](../../1501-2000/1707-check-if-string-is-transformable-with-substring-sort-operations/)
+- [3713. Longest Balanced Substring I](../../4001-4500/4055-longest-balanced-substring-i/)
+- [833. Find And Replace in String](../../0501-1000/0862-find-and-replace-in-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)

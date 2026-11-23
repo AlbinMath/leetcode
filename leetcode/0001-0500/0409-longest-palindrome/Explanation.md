@@ -66,7 +66,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1147. Longest Chunked Palindrome Decomposition](../../1001-1500/1251-longest-chunked-palindrome-decomposition/)
 - [3503. Longest Palindrome After Substring Concatenation I](../../3501-4000/3793-longest-palindrome-after-substring-concatenation-i/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindrome/)

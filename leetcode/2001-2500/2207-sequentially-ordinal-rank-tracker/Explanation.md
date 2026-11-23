@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2671. Frequency Tracker](../../2501-3000/2778-frequency-tracker/)
+- [3709. Design Exam Scores Tracker](../../4001-4500/4059-design-exam-scores-tracker/)
 - [178. Rank Scores](../../0001-0500/0178-rank-scores/)
-- [1331. Rank Transform of an Array](../../1001-1500/1256-rank-transform-of-an-array/)
-- [1366. Rank Teams by Votes](../../1001-1500/1483-rank-teams-by-votes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sequentially-ordinal-rank-tracker/)

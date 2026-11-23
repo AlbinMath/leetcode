@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [91. Decode Ways](../../0001-0500/0091-decode-ways/)
-- [241. Different Ways to Add Parentheses](../../0001-0500/0241-different-ways-to-add-parentheses/)
-- [1434. Number of Ways to Wear Different Hats to Each Other](../../1501-2000/1531-number-of-ways-to-wear-different-hats-to-each-other/)
+- [394. Decode String](../../0001-0500/0394-decode-string/)
+- [535. Encode and Decode TinyURL](../../0501-1000/0535-encode-and-decode-tinyurl/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decode-ways-ii/)

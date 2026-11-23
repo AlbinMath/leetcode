@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3534. Path Existence Queries in a Graph II](../../3501-4000/3852-path-existence-queries-in-a-graph-ii/)
+- [3841. Palindromic Path Queries in a Tree](../../4001-4500/4209-palindromic-path-queries-in-a-tree/)
 - [1971. Find if Path Exists in Graph](../../2001-2500/2121-find-if-path-exists-in-graph/)
-- [2065. Maximum Path Quality of a Graph](../../2001-2500/2189-maximum-path-quality-of-a-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/)

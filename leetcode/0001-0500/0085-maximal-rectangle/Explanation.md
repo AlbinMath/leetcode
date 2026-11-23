@@ -63,9 +63,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
+- [1615. Maximal Network Rank](../../1501-2000/1738-maximal-network-rank/)
 - [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
-- [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
-- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximal-rectangle/)

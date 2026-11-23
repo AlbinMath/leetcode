@@ -64,8 +64,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [497. Random Point in Non-overlapping Rectangles](../../0501-1000/0914-random-point-in-non-overlapping-rectangles/)
-- [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1843-number-of-rectangles-that-can-form-the-largest-square/)
-- [2001. Number of Pairs of Interchangeable Rectangles](../../2001-2500/2129-number-of-pairs-of-interchangeable-rectangles/)
+- [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1460-number-of-substrings-containing-all-three-characters/)
+- [3305. Count of Substrings Containing Every Vowel and K Consonants I](../../3501-4000/3570-count-of-substrings-containing-every-vowel-and-k-consonants-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)

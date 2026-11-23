@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1731. The Number of Employees Which Report to Each Employee](../../1501-2000/1882-the-number-of-employees-which-report-to-each-employee/)
+- [1789. Primary Department for Each Employee](../../1501-2000/1942-primary-department-for-each-employee/)
 - [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1825-find-minimum-time-to-finish-all-jobs/)
-- [3341. Find Minimum Time to Reach Last Room I](../../3501-4000/3627-find-minimum-time-to-reach-last-room-i/)
-- [3342. Find Minimum Time to Reach Last Room II](../../3501-4000/3628-find-minimum-time-to-reach-last-room-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-total-time-spent-by-each-employee/)

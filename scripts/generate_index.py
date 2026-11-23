@@ -659,7 +659,17 @@ A collection of **{len(r_probs)}** solved LeetCode problems in the range **{r_na
     # 9. Generate All Hub Pages
     # ---------------------------------------------------------
     
-    # 9a. Patterns Hubs
+    # 9a. Clean stale hub files first to guarantee zero orphaned or outdated links
+    hub_dirs = ['patterns', 'algorithms', 'data-structures', 'difficulty', 'languages']
+    for hub_dir in hub_dirs:
+        if os.path.exists(hub_dir):
+            for fname in os.listdir(hub_dir):
+                if fname.endswith('.md'):
+                    os.remove(os.path.join(hub_dir, fname))
+        else:
+            os.makedirs(hub_dir, exist_ok=True)
+
+    # 9b. Patterns Hubs
     patterns_map = {}
     for p in problems:
         patterns_map.setdefault(p['pattern'], []).append(p)
@@ -671,57 +681,146 @@ A collection of **{len(r_probs)}** solved LeetCode problems in the range **{r_na
         pat_content += "## Problems\n\n"
 
         for diff_level in ['Easy', 'Medium', 'Hard']:
-            diff_probs = [p for p in pat_probs if p['difficulty'] == diff_level]
+            diff_probs = sorted([p for p in pat_probs if p['difficulty'] == diff_level], key=lambda x: x['id'])
             pat_content += f"### {diff_level}\n\n"
             if diff_probs:
                 pat_content += "| # | Problem | Language | Time | Space | Explanation |\n"
                 pat_content += "|---|---|---|---|---|---|\n"
                 for p in diff_probs:
-                    pat_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['lang_str']} | {p['time']} | {p['space']} | [Explanation](../{p['path']}/Explanation.md) |\n\n"
+                    pat_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['lang_str']} | {p['time']} | {p['space']} | [Explanation](../{p['path']}/Explanation.md) |\n"
+                pat_content += "\n"
             else:
                 pat_content += "*No problems logged yet under this difficulty level.*\n\n"
         
         with open(os.path.join('patterns', filename), 'w', encoding='utf-8') as f:
             f.write(pat_content)
 
-    # 9b. Algorithms Hubs
+    patterns_readme = f"""# Algorithmic Patterns Directory
+
+A comprehensive index of LeetCode problems organized by algorithmic pattern and problem-solving strategy.
+
+## Patterns Index
+
+| Pattern | Solved Count | Hub Link |
+|---|---|---|
+"""
+    for pat in sorted(pattern_file_names.keys()):
+        cnt = len(patterns_map.get(pat, []))
+        fname = pattern_file_names[pat]
+        patterns_readme += f"| **{pat}** | {cnt} problems | [Browse {pat}](./{fname}) |\n"
+
+    patterns_readme += """
+---
+
+## Navigation
+
+- **All Problems Directory:** [All_Problems.md](../All_Problems.md)
+- **Algorithms Index:** [Algorithms Hub](../algorithms/README.md)
+- **Data Structures Index:** [Data Structures Hub](../data-structures/README.md)
+- **Difficulty Index:** [Difficulty Hub](../difficulty/README.md)
+- **Languages Index:** [Languages Hub](../languages/README.md)
+"""
+    with open(os.path.join('patterns', 'README.md'), 'w', encoding='utf-8') as f:
+        f.write(patterns_readme)
+
+    # 9c. Algorithms Hubs
     algo_map = {}
     for p in problems:
         algo_map.setdefault(p['algorithm'], []).append(p)
 
-    for algo, algo_probs in algo_map.items():
+    algo_files = {}
+    for algo, algo_probs in sorted(algo_map.items()):
         slug_algo = re.sub(r'[^a-z0-9]+', '-', algo.lower()).strip('-')
+        fname = f"{slug_algo}.md"
+        algo_files[algo] = fname
         algo_content = f"# {algo} Algorithm Problems\n\n"
         algo_content += f"A curated selection of LeetCode problems solved using the **{algo}** algorithmic approach.\n\n"
         algo_content += "## Problems\n\n"
-        algo_content += "| # | Problem | Difficulty | Pattern | Time | Space |\n"
-        algo_content += "|---|---|---|---|---|---|\n"
-        for p in algo_probs:
-            algo_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['difficulty']} | {p['pattern']} | {p['time']} | {p['space']} |\n"
+        algo_content += "| # | Problem | Difficulty | Pattern | Time | Space | Explanation |\n"
+        algo_content += "|---|---|---|---|---|---|---|\n"
+        for p in sorted(algo_probs, key=lambda x: x['id']):
+            algo_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['difficulty']} | {p['pattern']} | {p['time']} | {p['space']} | [Explanation](../{p['path']}/Explanation.md) |\n"
         
-        with open(os.path.join('algorithms', f"{slug_algo}.md"), 'w', encoding='utf-8') as f:
+        with open(os.path.join('algorithms', fname), 'w', encoding='utf-8') as f:
             f.write(algo_content)
 
-    # 9c. Data Structures Hubs
+    algo_readme = f"""# Algorithms Directory
+
+A curated index of algorithmic paradigms and problem-solving approaches applied across all solved LeetCode problems.
+
+## Algorithms Index
+
+| Algorithm | Solved Count | Hub Link |
+|---|---|---|
+"""
+    for algo, fname in sorted(algo_files.items()):
+        cnt = len(algo_map[algo])
+        algo_readme += f"| **{algo}** | {cnt} problems | [Browse {algo}](./{fname}) |\n"
+
+    algo_readme += """
+---
+
+## Navigation
+
+- **All Problems Directory:** [All_Problems.md](../All_Problems.md)
+- **Patterns Index:** [Patterns Hub](../patterns/README.md)
+- **Data Structures Index:** [Data Structures Hub](../data-structures/README.md)
+- **Difficulty Index:** [Difficulty Hub](../difficulty/README.md)
+- **Languages Index:** [Languages Hub](../languages/README.md)
+"""
+    with open(os.path.join('algorithms', 'README.md'), 'w', encoding='utf-8') as f:
+        f.write(algo_readme)
+
+    # 9d. Data Structures Hubs
     ds_map = {}
     for p in problems:
         ds_map.setdefault(p['data_structure'], []).append(p)
 
-    for ds_name, ds_probs in ds_map.items():
+    ds_files = {}
+    for ds_name, ds_probs in sorted(ds_map.items()):
         slug_ds = re.sub(r'[^a-z0-9]+', '-', ds_name.lower()).strip('-')
+        fname = f"{slug_ds}.md"
+        ds_files[ds_name] = fname
         ds_content = f"# {ds_name} Data Structure Problems\n\n"
         ds_content += f"LeetCode problems solved using **{ds_name}** data structures.\n\n"
         ds_content += "## Problems\n\n"
-        ds_content += "| # | Problem | Difficulty | Algorithm | Time | Space |\n"
-        ds_content += "|---|---|---|---|---|---|\n"
-        for p in ds_probs:
+        ds_content += "| # | Problem | Difficulty | Algorithm | Time | Space | Explanation |\n"
+        ds_content += "|---|---|---|---|---|---|---|\n"
+        for p in sorted(ds_probs, key=lambda x: x['id']):
             algo_content_val = p['algorithm']
-            ds_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['difficulty']} | {algo_content_val} | {p['time']} | {p['space']} |\n"
+            ds_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['difficulty']} | {algo_content_val} | {p['time']} | {p['space']} | [Explanation](../{p['path']}/Explanation.md) |\n"
         
-        with open(os.path.join('data-structures', f"{slug_ds}.md"), 'w', encoding='utf-8') as f:
+        with open(os.path.join('data-structures', fname), 'w', encoding='utf-8') as f:
             f.write(ds_content)
 
-    # 9d. Difficulty Hubs
+    ds_readme = f"""# Data Structures Directory
+
+A comprehensive catalog of data structures utilized across all solved LeetCode problems.
+
+## Data Structures Index
+
+| Data Structure | Solved Count | Hub Link |
+|---|---|---|
+"""
+    for ds_name, fname in sorted(ds_files.items()):
+        cnt = len(ds_map[ds_name])
+        ds_readme += f"| **{ds_name}** | {cnt} problems | [Browse {ds_name}](./{fname}) |\n"
+
+    ds_readme += """
+---
+
+## Navigation
+
+- **All Problems Directory:** [All_Problems.md](../All_Problems.md)
+- **Patterns Index:** [Patterns Hub](../patterns/README.md)
+- **Algorithms Index:** [Algorithms Hub](../algorithms/README.md)
+- **Difficulty Index:** [Difficulty Hub](../difficulty/README.md)
+- **Languages Index:** [Languages Hub](../languages/README.md)
+"""
+    with open(os.path.join('data-structures', 'README.md'), 'w', encoding='utf-8') as f:
+        f.write(ds_readme)
+
+    # 9e. Difficulty Hubs
     diff_map = {'Easy': [], 'Medium': [], 'Hard': []}
     for p in problems:
         diff_map.setdefault(p['difficulty'], []).append(p)
@@ -731,32 +830,92 @@ A collection of **{len(r_probs)}** solved LeetCode problems in the range **{r_na
         d_content = f"# LeetCode {diff_key} Problems\n\n"
         d_content += f"A collection of LeetCode **{diff_key}** difficulty problems solved with step-by-step explanations, pattern categorization, and optimized source code.\n\n"
         d_content += "## Problem Index\n\n"
-        d_content += "| # | Problem | Pattern | Language | Time | Space |\n"
-        d_content += "|---|---|---|---|---|---|\n"
-        for p in d_probs:
-            d_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['pattern']} | {p['lang_str']} | {p['time']} | {p['space']} |\n"
+        d_content += "| # | Problem | Pattern | Language | Time | Space | Explanation |\n"
+        d_content += "|---|---|---|---|---|---|---|\n"
+        for p in sorted(d_probs, key=lambda x: x['id']):
+            d_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['pattern']} | {p['lang_str']} | {p['time']} | {p['space']} | [Explanation](../{p['path']}/Explanation.md) |\n"
 
         with open(os.path.join('difficulty', f"{diff_key.lower()}.md"), 'w', encoding='utf-8') as f:
             f.write(d_content)
 
-    # 9e. Languages Hubs
+    total_prob_cnt = len(problems) if problems else 1
+    diff_readme = f"""# Difficulty Directory
+
+LeetCode problems indexed by difficulty tier (Easy, Medium, Hard).
+
+## Difficulty Index
+
+| Difficulty | Solved Count | Percentage | Hub Link |
+|---|---|---|---|
+| **Easy** | {len(diff_map['Easy'])} problems | {len(diff_map['Easy']) * 100 / total_prob_cnt:.1f}% | [Browse Easy](./easy.md) |
+| **Medium** | {len(diff_map['Medium'])} problems | {len(diff_map['Medium']) * 100 / total_prob_cnt:.1f}% | [Browse Medium](./medium.md) |
+| **Hard** | {len(diff_map['Hard'])} problems | {len(diff_map['Hard']) * 100 / total_prob_cnt:.1f}% | [Browse Hard](./hard.md) |
+
+---
+
+## Navigation
+
+- **All Problems Directory:** [All_Problems.md](../All_Problems.md)
+- **Patterns Index:** [Patterns Hub](../patterns/README.md)
+- **Algorithms Index:** [Algorithms Hub](../algorithms/README.md)
+- **Data Structures Index:** [Data Structures Hub](../data-structures/README.md)
+- **Languages Index:** [Languages Hub](../languages/README.md)
+"""
+    with open(os.path.join('difficulty', 'README.md'), 'w', encoding='utf-8') as f:
+        f.write(diff_readme)
+
+    # 9f. Languages Hubs
     lang_problems_map = {}
     for p in problems:
         for lang in p['languages']:
             lang_problems_map.setdefault(lang, []).append(p)
 
-    for lang_name, l_probs in lang_problems_map.items():
-        slug_lang = re.sub(r'[^a-z0-9]+', '-', lang_name.lower()).strip('-')
+    lang_files = {}
+    lang_slug_overrides = {
+        'C++': 'cpp',
+        'C#': 'csharp'
+    }
+    for lang_name, l_probs in sorted(lang_problems_map.items()):
+        slug_lang = lang_slug_overrides.get(lang_name) or re.sub(r'[^a-z0-9]+', '-', lang_name.lower()).strip('-')
+        fname = f"{slug_lang}.md"
+        lang_files[lang_name] = fname
         l_content = f"# LeetCode {lang_name} Solutions\n\n"
         l_content += f"A collection of LeetCode problems implemented in **{lang_name}** with detailed complexity analysis and explanations.\n\n"
         l_content += "## Solutions\n\n"
-        l_content += "| # | Problem | Difficulty | Pattern | Time | Space |\n"
-        l_content += "|---|---|---|---|---|---|\n"
-        for p in l_probs:
-            l_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['difficulty']} | {p['pattern']} | {p['time']} | {p['space']} |\n"
+        l_content += "| # | Problem | Difficulty | Pattern | Time | Space | Explanation |\n"
+        l_content += "|---|---|---|---|---|---|---|\n"
+        for p in sorted(l_probs, key=lambda x: x['id']):
+            l_content += f"| {p['id']} | [{p['title']}](../{p['path']}/) | {p['difficulty']} | {p['pattern']} | {p['time']} | {p['space']} | [Explanation](../{p['path']}/Explanation.md) |\n"
 
-        with open(os.path.join('languages', f"{slug_lang}.md"), 'w', encoding='utf-8') as f:
+        with open(os.path.join('languages', fname), 'w', encoding='utf-8') as f:
             f.write(l_content)
+
+    lang_readme = f"""# Programming Languages Directory
+
+Solutions implemented across multiple programming languages.
+
+## Languages Index
+
+| Language | Solutions Count | Hub Link |
+|---|---|---|
+"""
+    for lang_name, fname in sorted(lang_files.items()):
+        cnt = len(lang_problems_map[lang_name])
+        lang_readme += f"| **{lang_name}** | {cnt} solutions | [Browse {lang_name}](./{fname}) |\n"
+
+    lang_readme += """
+---
+
+## Navigation
+
+- **All Problems Directory:** [All_Problems.md](../All_Problems.md)
+- **Patterns Index:** [Patterns Hub](../patterns/README.md)
+- **Algorithms Index:** [Algorithms Hub](../algorithms/README.md)
+- **Data Structures Index:** [Data Structures Hub](../data-structures/README.md)
+- **Difficulty Index:** [Difficulty Hub](../difficulty/README.md)
+"""
+    with open(os.path.join('languages', 'README.md'), 'w', encoding='utf-8') as f:
+        f.write(lang_readme)
 
     # ---------------------------------------------------------
     # 10. Generate Root README.md
@@ -808,7 +967,7 @@ This repository contains solved LeetCode problems with explanations, complexity 
 
 ## Navigation & Topic Hubs
 
-### 1. By Pattern
+### 1. By Pattern ([Browse All Patterns](patterns/README.md))
 - [Hash Map](patterns/hash-map.md)
 - [Two Pointers](patterns/two-pointers.md)
 - [Sliding Window](patterns/sliding-window.md)
@@ -825,12 +984,28 @@ This repository contains solved LeetCode problems with explanations, complexity 
 - [Prefix Sum](patterns/prefix-sum.md)
 - [Fast & Slow Pointers](patterns/fast-slow-pointers.md)
 
-### 2. By Difficulty
+### 2. By Algorithm ([Browse All Algorithms](algorithms/README.md))
+- [Depth-First Search (DFS) / Breadth-First Search (BFS)](algorithms/depth-first-search-dfs-breadth-first-search-bfs.md)
+- [In-Place Array Traversal & Index Mapping](algorithms/in-place-array-traversal-index-mapping.md)
+- [Modified Binary Search](algorithms/modified-binary-search.md)
+- [Two Pointer Convergence & Scanning](algorithms/two-pointer-convergence-scanning.md)
+- [Complement Lookup / Hash Table Frequency](algorithms/complement-lookup-hash-table-frequency.md)
+- [Memoization & State Transition](algorithms/memoization-state-transition.md)
+
+### 3. By Data Structure ([Browse All Data Structures](data-structures/README.md))
+- [Array](data-structures/array.md)
+- [Tree / Graph / Grid](data-structures/tree-graph-grid.md)
+- [Dictionary / Hash Map](data-structures/dictionary-hash-map.md)
+- [Sorted Array](data-structures/sorted-array.md)
+- [Stack](data-structures/stack.md)
+- [Linked List](data-structures/linked-list.md)
+
+### 4. By Difficulty ([Browse All Difficulties](difficulty/README.md))
 - [Easy Problems](difficulty/easy.md)
 - [Medium Problems](difficulty/medium.md)
 - [Hard Problems](difficulty/hard.md)
 
-### 3. By Programming Language
+### 5. By Programming Language ([Browse All Languages](languages/README.md))
 - [Python Solutions](languages/python.md)
 - [C++ Solutions](languages/cpp.md)
 - [JavaScript Solutions](languages/javascript.md)
@@ -838,7 +1013,7 @@ This repository contains solved LeetCode problems with explanations, complexity 
 - [Java Solutions](languages/java.md)
 - [SQL Solutions](languages/sql.md)
 
-### 4. By Problem Range (Directory Buckets)
+### 6. By Problem Range (Directory Buckets)
 - [0001 - 0500](leetcode/0001-0500/)
 - [0501 - 1000](leetcode/0501-1000/)
 - [1001 - 1500](leetcode/1001-1500/)
@@ -930,7 +1105,15 @@ Each problem includes its **problem number, title, difficulty, algorithmic patte
 - [3501 - 4000](leetcode/3501-4000/)
 - [4001 - 4500](leetcode/4001-4500/)
 
-### Browse by Algorithm
+### Browse by Topic & Category Hubs
+
+- [Algorithmic Patterns Directory](patterns/README.md)
+- [Algorithms Directory](algorithms/README.md)
+- [Data Structures Directory](data-structures/README.md)
+- [Difficulty Levels Directory](difficulty/README.md)
+- [Programming Languages Directory](languages/README.md)
+
+### Browse by Algorithm / Pattern
 
 - [Binary Search](patterns/binary-search.md)
 - [Sliding Window](patterns/sliding-window.md)

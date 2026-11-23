@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1358-find-positive-integer-solution-for-a-given-equation/)
-- [2156. Find Substring With Given Hash Value](../../2001-2500/2275-find-substring-with-given-hash-value/)
+- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
+- [797. All Paths From Source to Target](../../0501-1000/0813-all-paths-from-source-to-target/)
+- [1162. As Far from Land as Possible](../../1001-1500/1117-as-far-from-land-as-possible/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)

@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3405. Count the Number of Arrays with K Matching Adjacent Elements](../../3501-4000/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2301-count-array-pairs-divisible-by-k/)
 - [2857. Count Pairs of Points With Distance k](../../2501-3000/2953-count-pairs-of-points-with-distance-k/)
+- [3405. Count the Number of Arrays with K Matching Adjacent Elements](../../3501-4000/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/)

@@ -64,9 +64,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1371. Find the Longest Substring Containing Vowels in Even Counts](../../1001-1500/1473-find-the-longest-substring-containing-vowels-in-even-counts/)
+- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1490-generate-a-string-with-characters-that-have-odd-counts/)
 - [192. Word Frequency](../../0001-0500/0192-word-frequency/)
-- [895. Maximum Frequency Stack](../../0501-1000/0931-maximum-frequency-stack/)
-- [1170. Compare Strings by Frequency of the Smallest Character](../../1001-1500/1273-compare-strings-by-frequency-of-the-smallest-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tweet-counts-per-frequency/)

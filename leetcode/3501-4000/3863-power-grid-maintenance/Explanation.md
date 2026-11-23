@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [231. Power of Two](../../0001-0500/0231-power-of-two/)
-- [326. Power of Three](../../0001-0500/0326-power-of-three/)
-- [342. Power of Four](../../0001-0500/0342-power-of-four/)
+- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
+- [1260. Shift 2D Grid](../../1001-1500/1386-shift-2d-grid/)
+- [1293. Shortest Path in a Grid with Obstacles Elimination](../../1001-1500/1414-shortest-path-in-a-grid-with-obstacles-elimination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-grid-maintenance/)

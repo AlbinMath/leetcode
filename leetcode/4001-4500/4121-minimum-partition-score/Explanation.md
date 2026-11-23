@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2767. Partition String Into Minimum Beautiful Substrings](../../2501-3000/2883-partition-string-into-minimum-beautiful-substrings/)
-- [3864. Minimum Cost to Partition a Binary String](../../4001-4500/4192-minimum-cost-to-partition-a-binary-string/)
 - [2322. Minimum Score After Removals on a Tree](../../2001-2500/2400-minimum-score-after-removals-on-a-tree/)
+- [2492. Minimum Score of a Path Between Two Cities](../../2501-3000/2582-minimum-score-of-a-path-between-two-cities/)
+- [2567. Minimum Score by Changing Two Elements](../../2501-3000/2706-minimum-score-by-changing-two-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-partition-score/)

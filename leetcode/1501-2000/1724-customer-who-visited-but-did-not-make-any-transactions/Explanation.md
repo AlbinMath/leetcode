@@ -64,9 +64,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1169. Invalid Transactions](../../1001-1500/1272-invalid-transactions/)
-- [1193. Monthly Transactions I](../../1001-1500/1317-monthly-transactions-i/)
-- [3220. Odd and Even Transactions](../../3501-4000/3530-odd-and-even-transactions/)
+- [620. Not Boring Movies](../../0501-1000/0620-not-boring-movies/)
+- [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](../../1501-2000/1562-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
+- [2704. To Be Or Not To Be](../../2501-3000/2813-to-be-or-not-to-be/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)

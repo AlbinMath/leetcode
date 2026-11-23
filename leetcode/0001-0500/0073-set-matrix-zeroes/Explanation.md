@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [172. Factorial Trailing Zeroes](../../0001-0500/0172-factorial-trailing-zeroes/)
-- [283. Move Zeroes](../../0001-0500/0283-move-zeroes/)
-- [474. Ones and Zeroes](../../0001-0500/0474-ones-and-zeroes/)
+- [645. Set Mismatch](../../0501-1000/0645-set-mismatch/)
+- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
+- [902. Numbers At Most N Given Digit Set](../../0501-1000/0938-numbers-at-most-n-given-digit-set/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/set-matrix-zeroes/)

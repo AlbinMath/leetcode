@@ -64,7 +64,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2732. Find a Good Subset of the Matrix](../../2501-3000/2826-find-a-good-subset-of-the-matrix/)
 - [3272. Find the Count of Good Integers](../../3501-4000/3548-find-the-count-of-good-integers/)
-- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-good-strings/)

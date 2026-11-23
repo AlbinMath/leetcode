@@ -64,8 +64,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
-- [282. Expression Add Operators](../../0001-0500/0282-expression-add-operators/)
+- [924. Minimize Malware Spread](../../0501-1000/0960-minimize-malware-spread/)
+- [928. Minimize Malware Spread II](../../0501-1000/0964-minimize-malware-spread-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)

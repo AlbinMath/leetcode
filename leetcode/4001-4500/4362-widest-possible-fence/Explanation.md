@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [587. Erect the Fence](../../0501-1000/0587-erect-the-fence/)
 - [1637. Widest Vertical Area Between Two Points Containing No Points](../../1501-2000/1742-widest-vertical-area-between-two-points-containing-no-points/)
 - [886. Possible Bipartition](../../0501-1000/0922-possible-bipartition/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0930-all-possible-full-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/widest-possible-fence/)

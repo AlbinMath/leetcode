@@ -64,8 +64,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2871. Split Array Into Maximum Number of Subarrays](../../3001-3500/3080-split-array-into-maximum-number-of-subarrays/)
-- [2648. Generate Fibonacci Sequence](../../2501-3000/2775-generate-fibonacci-sequence/)
-- [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1715-split-a-string-into-the-max-number-of-unique-substrings/)
+- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [805. Split Array With Same Average](../../0501-1000/0823-split-array-with-same-average/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)

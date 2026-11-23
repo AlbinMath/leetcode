@@ -50,7 +50,7 @@ This repository contains solved LeetCode problems with explanations, complexity 
 
 ## Navigation & Topic Hubs
 
-### 1. By Pattern
+### 1. By Pattern ([Browse All Patterns](patterns/README.md))
 - [Hash Map](patterns/hash-map.md)
 - [Two Pointers](patterns/two-pointers.md)
 - [Sliding Window](patterns/sliding-window.md)
@@ -67,12 +67,28 @@ This repository contains solved LeetCode problems with explanations, complexity 
 - [Prefix Sum](patterns/prefix-sum.md)
 - [Fast & Slow Pointers](patterns/fast-slow-pointers.md)
 
-### 2. By Difficulty
+### 2. By Algorithm ([Browse All Algorithms](algorithms/README.md))
+- [Depth-First Search (DFS) / Breadth-First Search (BFS)](algorithms/depth-first-search-dfs-breadth-first-search-bfs.md)
+- [In-Place Array Traversal & Index Mapping](algorithms/in-place-array-traversal-index-mapping.md)
+- [Modified Binary Search](algorithms/modified-binary-search.md)
+- [Two Pointer Convergence & Scanning](algorithms/two-pointer-convergence-scanning.md)
+- [Complement Lookup / Hash Table Frequency](algorithms/complement-lookup-hash-table-frequency.md)
+- [Memoization & State Transition](algorithms/memoization-state-transition.md)
+
+### 3. By Data Structure ([Browse All Data Structures](data-structures/README.md))
+- [Array](data-structures/array.md)
+- [Tree / Graph / Grid](data-structures/tree-graph-grid.md)
+- [Dictionary / Hash Map](data-structures/dictionary-hash-map.md)
+- [Sorted Array](data-structures/sorted-array.md)
+- [Stack](data-structures/stack.md)
+- [Linked List](data-structures/linked-list.md)
+
+### 4. By Difficulty ([Browse All Difficulties](difficulty/README.md))
 - [Easy Problems](difficulty/easy.md)
 - [Medium Problems](difficulty/medium.md)
 - [Hard Problems](difficulty/hard.md)
 
-### 3. By Programming Language
+### 5. By Programming Language ([Browse All Languages](languages/README.md))
 - [Python Solutions](languages/python.md)
 - [C++ Solutions](languages/cpp.md)
 - [JavaScript Solutions](languages/javascript.md)
@@ -80,7 +96,7 @@ This repository contains solved LeetCode problems with explanations, complexity 
 - [Java Solutions](languages/java.md)
 - [SQL Solutions](languages/sql.md)
 
-### 4. By Problem Range (Directory Buckets)
+### 6. By Problem Range (Directory Buckets)
 - [0001 - 0500](leetcode/0001-0500/)
 - [0501 - 1000](leetcode/0501-1000/)
 - [1001 - 1500](leetcode/1001-1500/)

@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [2003. Smallest Missing Genetic Value in Each Subtree](../../2001-2500/2131-smallest-missing-genetic-value-in-each-subtree/)
 - [1325. Delete Leaves With a Given Value](../../1001-1500/1450-delete-leaves-with-a-given-value/)
+- [2003. Smallest Missing Genetic Value in Each Subtree](../../2001-2500/2131-smallest-missing-genetic-value-in-each-subtree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-greatest-value-in-each-row/)

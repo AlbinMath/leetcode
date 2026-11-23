@@ -65,9 +65,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
-- [2500. Delete Greatest Value in Each Row](../../2501-3000/2585-delete-greatest-value-in-each-row/)
 - [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1860-find-kth-largest-xor-coordinate-value/)
+- [2500. Delete Greatest Value in Each Row](../../2501-3000/2585-delete-greatest-value-in-each-row/)
+- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)

@@ -64,9 +64,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
+- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 - [1963. Minimum Number of Swaps to Make the String Balanced](../../2001-2500/2095-minimum-number-of-swaps-to-make-the-string-balanced/)
 - [3343. Count Number of Balanced Permutations](../../3501-4000/3637-count-number-of-balanced-permutations/)
-- [496. Next Greater Element I](../../0001-0500/0496-next-greater-element-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/next-greater-numerically-balanced-number/)

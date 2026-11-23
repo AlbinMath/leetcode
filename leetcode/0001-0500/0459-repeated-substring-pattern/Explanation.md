@@ -63,9 +63,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1566. Detect Pattern of Length M Repeated K or More Times](../../1501-2000/1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
-- [3407. Substring Matching Pattern](../../3501-4000/3684-substring-matching-pattern/)
 - [1156. Swap For Longest Repeated Character Substring](../../1001-1500/1261-swap-for-longest-repeated-character-substring/)
+- [3407. Substring Matching Pattern](../../3501-4000/3684-substring-matching-pattern/)
+- [1566. Detect Pattern of Length M Repeated K or More Times](../../1501-2000/1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-substring-pattern/)

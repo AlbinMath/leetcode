@@ -63,7 +63,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1619. Mean of Array After Removing Some Elements](../../1001-1500/1210-mean-of-array-after-removing-some-elements/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
+- [2089. Find Target Indices After Sorting Array](../../2001-2500/2210-find-target-indices-after-sorting-array/)
 - [3041. Maximize Consecutive Elements in an Array After Modification](../../3001-3500/3298-maximize-consecutive-elements-in-an-array-after-modification/)
 
 ## LeetCode

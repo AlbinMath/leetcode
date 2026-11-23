@@ -64,9 +64,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [191. Number of 1 Bits](../../0001-0500/0191-number-of-1-bits/)
-- [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
-- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
+- [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
+- [975. Odd Even Jump](../../1001-1500/1017-odd-even-jump/)
+- [1116. Print Zero Even Odd](../../1001-1500/1216-print-zero-even-odd/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-even-and-odd-bits/)

@@ -67,7 +67,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [429. N-ary Tree Level Order Traversal](../../0501-1000/0764-n-ary-tree-level-order-traversal/)
 - [589. N-ary Tree Preorder Traversal](../../0501-1000/0775-n-ary-tree-preorder-traversal/)
-- [106. Construct Binary Tree from Inorder and Postorder Traversal](../../0001-0500/0106-construct-binary-tree-from-inorder-and-postorder-traversal/)
+- [559. Maximum Depth of N-ary Tree](../../0501-1000/0774-maximum-depth-of-n-ary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)

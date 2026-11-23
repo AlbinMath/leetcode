@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [182. Duplicate Emails](../../0001-0500/0182-duplicate-emails/)
-- [196. Delete Duplicate Emails](../../0001-0500/0196-delete-duplicate-emails/)
-- [217. Contains Duplicate](../../0001-0500/0217-contains-duplicate/)
+- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1147-flip-columns-for-maximum-number-of-equal-rows/)
+- [1337. The K Weakest Rows in a Matrix](../../1001-1500/1463-the-k-weakest-rows-in-a-matrix/)
+- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1501-2000/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/drop-duplicate-rows/)

@@ -66,8 +66,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [712. Minimum ASCII Delete Sum for Two Strings](../../0501-1000/0712-minimum-ascii-delete-sum-for-two-strings/)
-- [958. Check Completeness of a Binary Tree](../../0501-1000/0998-check-completeness-of-a-binary-tree/)
+- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-ascii-palindromic/)

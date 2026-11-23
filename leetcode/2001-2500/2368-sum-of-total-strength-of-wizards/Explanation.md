@@ -62,9 +62,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2708. Maximum Strength of a Group](../../2501-3000/2754-maximum-strength-of-a-group/)
-- [4010. Maximize Pair Strength Using GCD](../../4001-4500/4371-maximize-pair-strength-using-gcd/)
 - [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [39. Combination Sum](../../0001-0500/0039-combination-sum/)
+- [40. Combination Sum II](../../0001-0500/0040-combination-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)

@@ -65,8 +65,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
-- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
-- [1407. Top Travellers](../../1501-2000/1541-top-travellers/)
+- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
+- [1838. Frequency of the Most Frequent Element](../../1501-2000/1966-frequency-of-the-most-frequent-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/top-k-frequent-words/)

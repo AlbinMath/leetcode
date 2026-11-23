@@ -63,8 +63,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3507. Minimum Pair Removal to Sort Array I](../../3501-4000/3773-minimum-pair-removal-to-sort-array-i/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
+- [905. Sort Array By Parity](../../0501-1000/0941-sort-array-by-parity/)
+- [912. Sort an Array](../../0501-1000/0948-sort-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/)

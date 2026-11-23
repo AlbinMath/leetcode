@@ -63,9 +63,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [995. Minimum Number of K Consecutive Bit Flips](../../1001-1500/1037-minimum-number-of-k-consecutive-bit-flips/)
-- [1545. Find Kth Bit in Nth Binary String](../../1501-2000/1667-find-kth-bit-in-nth-binary-string/)
-- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1732-minimum-one-bit-operations-to-make-integers-zero/)
+- [191. Number of 1 Bits](../../0001-0500/0191-number-of-1-bits/)
+- [1016. Binary String With Substrings Representing 1 To N](../../1001-1500/1065-binary-string-with-substrings-representing-1-to-n/)
+- [1139. Largest 1-Bordered Square](../../1001-1500/1239-largest-1-bordered-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/1-bit-and-2-bit-characters/)
