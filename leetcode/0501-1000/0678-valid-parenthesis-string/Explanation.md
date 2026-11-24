@@ -125,9 +125,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [2116. Check if a Parentheses String Can Be Valid](../../2001-2500/2221-check-if-a-parentheses-string-can-be-valid/)
-- [2645. Minimum Additions to Make Valid String](../../2501-3000/2736-minimum-additions-to-make-valid-string/)
+- [2116. Check if a Parentheses String Can Be Valid](../../2001-2500/2116-check-if-a-parentheses-string-can-be-valid/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2267-check-if-there-is-a-valid-parentheses-string-path/)
+- [2645. Minimum Additions to Make Valid String](../../2501-3000/2645-minimum-additions-to-make-valid-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-parenthesis-string/)

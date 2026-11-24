@@ -120,9 +120,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [833. Find And Replace in String](../../0501-1000/0862-find-and-replace-in-string/)
-- [890. Find and Replace Pattern](../../0501-1000/0926-find-and-replace-pattern/)
-- [1234. Replace the Substring for Balanced String](../../1001-1500/1351-replace-the-substring-for-balanced-string/)
+- [833. Find And Replace in String](../../0501-1000/0833-find-and-replace-in-string/)
+- [890. Find and Replace Pattern](../../0501-1000/0890-find-and-replace-pattern/)
+- [1234. Replace the Substring for Balanced String](../../1001-1500/1234-replace-the-substring-for-balanced-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-words/)

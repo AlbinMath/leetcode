@@ -140,7 +140,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [639. Decode Ways II](../../0501-1000/0639-decode-ways-ii/)
 - [241. Different Ways to Add Parentheses](../../0001-0500/0241-different-ways-to-add-parentheses/)
-- [1434. Number of Ways to Wear Different Hats to Each Other](../../1501-2000/1531-number-of-ways-to-wear-different-hats-to-each-other/)
+- [1434. Number of Ways to Wear Different Hats to Each Other](../../1001-1500/1434-number-of-ways-to-wear-different-hats-to-each-other/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decode-ways/)

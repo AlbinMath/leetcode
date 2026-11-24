@@ -130,7 +130,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [432. All O`one Data Structure](../../0001-0500/0432-all-oone-data-structure/)
 - [355. Design Twitter](../../0001-0500/0355-design-twitter/)
-- [622. Design Circular Queue](../../0501-1000/0860-design-circular-queue/)
+- [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/)

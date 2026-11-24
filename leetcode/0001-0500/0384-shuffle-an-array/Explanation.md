@@ -119,9 +119,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1470. Shuffle the Array](../../1501-2000/1580-shuffle-the-array/)
+- [1470. Shuffle the Array](../../1001-1500/1470-shuffle-the-array/)
+- [1528. Shuffle String](../../1501-2000/1528-shuffle-string/)
 - [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shuffle-an-array/)

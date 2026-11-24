@@ -153,9 +153,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1964. Find the Longest Valid Obstacle Course at Each Position](../../2001-2500/2096-find-the-longest-valid-obstacle-course-at-each-position/)
-- [2781. Length of the Longest Valid Substring](../../2501-3000/2884-length-of-the-longest-valid-substring/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0921-minimum-add-to-make-parentheses-valid/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-valid-parentheses/)

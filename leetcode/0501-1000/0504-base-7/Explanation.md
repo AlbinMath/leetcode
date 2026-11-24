@@ -106,8 +106,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [483. Smallest Good Base](../../0001-0500/0483-smallest-good-base/)
-- [1009. Complement of Base 10 Integer](../../1001-1500/1054-complement-of-base-10-integer/)
-- [1837. Sum of Digits in Base K](../../1501-2000/1965-sum-of-digits-in-base-k/)
+- [1009. Complement of Base 10 Integer](../../1001-1500/1009-complement-of-base-10-integer/)
+- [1837. Sum of Digits in Base K](../../1501-2000/1837-sum-of-digits-in-base-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/base-7/)

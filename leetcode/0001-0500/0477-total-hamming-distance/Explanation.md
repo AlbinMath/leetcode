@@ -105,9 +105,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2739. Total Distance Traveled](../../2501-3000/2857-total-distance-traveled/)
 - [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
-- [1722. Minimize Hamming Distance After Swap Operations](../../1501-2000/1840-minimize-hamming-distance-after-swap-operations/)
+- [1722. Minimize Hamming Distance After Swap Operations](../../1501-2000/1722-minimize-hamming-distance-after-swap-operations/)
+- [2739. Total Distance Traveled](../../2501-3000/2739-total-distance-traveled/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-hamming-distance/)

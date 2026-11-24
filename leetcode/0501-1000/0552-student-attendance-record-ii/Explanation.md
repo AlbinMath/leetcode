@@ -126,7 +126,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [551. Student Attendance Record I](../../0501-1000/0551-student-attendance-record-i/)
-- [1894. Find the Student that Will Replace the Chalk](../../2001-2500/2006-find-the-student-that-will-replace-the-chalk/)
+- [1894. Find the Student that Will Replace the Chalk](../../1501-2000/1894-find-the-student-that-will-replace-the-chalk/)
 - [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
 
 ## LeetCode

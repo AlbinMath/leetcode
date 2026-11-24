@@ -109,9 +109,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4105. Repeated String Match II](../../4001-4500/4094-repeated-string-match-ii/)
-- [942. DI String Match](../../0501-1000/0979-di-string-match/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [4105. Repeated String Match II](../../4001-4500/4105-repeated-string-match-ii/)
+- [942. DI String Match](../../0501-1000/0942-di-string-match/)
+- [971. Flip Binary Tree To Match Preorder Traversal](../../0501-1000/0971-flip-binary-tree-to-match-preorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-string-match/)

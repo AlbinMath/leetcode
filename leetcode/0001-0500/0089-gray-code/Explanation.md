@@ -130,7 +130,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [804. Unique Morse Code Words](../../0501-1000/0822-unique-morse-code-words/)
+- [804. Unique Morse Code Words](../../0501-1000/0804-unique-morse-code-words/)
 - [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
 - [137. Single Number II](../../0001-0500/0137-single-number-ii/)
 

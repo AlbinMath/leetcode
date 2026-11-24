@@ -145,9 +145,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3186. Maximum Total Damage With Spell Casting](../../3001-3500/3437-maximum-total-damage-with-spell-casting/)
 - [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
 - [79. Word Search](../../0001-0500/0079-word-search/)
+- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stickers-to-spell-word/)

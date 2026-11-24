@@ -98,8 +98,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](../../1501-2000/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
-- [2343. Query Kth Smallest Trimmed Number](../../2001-2500/2422-query-kth-smallest-trimmed-number/)
+- [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](../../1501-2000/1850-minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
+- [2343. Query Kth Smallest Trimmed Number](../../2001-2500/2343-query-kth-smallest-trimmed-number/)
 - [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
 
 ## LeetCode

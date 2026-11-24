@@ -104,7 +104,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [517. Super Washing Machines](../../0501-1000/0517-super-washing-machines/)
-- [906. Super Palindromes](../../0501-1000/0942-super-palindromes/)
+- [906. Super Palindromes](../../0501-1000/0906-super-palindromes/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 
 ## LeetCode

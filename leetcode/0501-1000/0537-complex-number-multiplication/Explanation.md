@@ -104,8 +104,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
-- [3264. Final Array State After K Multiplication Operations I](../../3501-4000/3555-final-array-state-after-k-multiplication-operations-i/)
-- [3266. Final Array State After K Multiplication Operations II](../../3501-4000/3556-final-array-state-after-k-multiplication-operations-ii/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/complex-number-multiplication/)

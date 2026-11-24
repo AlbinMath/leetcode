@@ -151,8 +151,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [47. Permutations II](../../0001-0500/0047-permutations-ii/)
-- [903. Valid Permutations for DI Sequence](../../0501-1000/0939-valid-permutations-for-di-sequence/)
-- [2741. Special Permutations](../../2501-3000/2848-special-permutations/)
+- [903. Valid Permutations for DI Sequence](../../0501-1000/0903-valid-permutations-for-di-sequence/)
+- [2741. Special Permutations](../../2501-3000/2741-special-permutations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/permutations/)

@@ -130,9 +130,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1022. Sum of Root To Leaf Binary Numbers](../../1001-1500/1079-sum-of-root-to-leaf-binary-numbers/)
-- [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
-- [829. Consecutive Numbers Sum](../../0501-1000/0856-consecutive-numbers-sum/)
+- [1022. Sum of Root To Leaf Binary Numbers](../../1001-1500/1022-sum-of-root-to-leaf-binary-numbers/)
+- [1080. Insufficient Nodes in Root to Leaf Paths](../../1001-1500/1080-insufficient-nodes-in-root-to-leaf-paths/)
+- [2236. Root Equals Sum of Children](../../2001-2500/2236-root-equals-sum-of-children/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-root-to-leaf-numbers/)

@@ -10,11 +10,11 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 |---|---|---|---|---|---|
 | 28 | [Find the Index of the First Occurrence in a String](../leetcode/0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/Explanation.md) |
 | 551 | [Student Attendance Record I](../leetcode/0501-1000/0551-student-attendance-record-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0551-student-attendance-record-i/Explanation.md) |
-| 896 | [Monotonic Array](../leetcode/0501-1000/0932-monotonic-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0932-monotonic-array/Explanation.md) |
-| 1021 | [Remove Outermost Parentheses](../leetcode/1001-1500/1078-remove-outermost-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1078-remove-outermost-parentheses/Explanation.md) |
-| 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1501-2000/1570-final-prices-with-a-special-discount-in-a-shop/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1570-final-prices-with-a-special-discount-in-a-shop/Explanation.md) |
-| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/3001-3500/3163-subarrays-distinct-element-sum-of-squares-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3163-subarrays-distinct-element-sum-of-squares-i/Explanation.md) |
-| 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](../leetcode/3001-3500/3372-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3372-longest-strictly-increasing-or-strictly-decreasing-subarray/Explanation.md) |
+| 896 | [Monotonic Array](../leetcode/0501-1000/0896-monotonic-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0896-monotonic-array/Explanation.md) |
+| 1021 | [Remove Outermost Parentheses](../leetcode/1001-1500/1021-remove-outermost-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1021-remove-outermost-parentheses/Explanation.md) |
+| 1475 | [Final Prices With a Special Discount in a Shop](../leetcode/1001-1500/1475-final-prices-with-a-special-discount-in-a-shop/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1475-final-prices-with-a-special-discount-in-a-shop/Explanation.md) |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](../leetcode/2501-3000/2913-subarrays-distinct-element-sum-of-squares-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2913-subarrays-distinct-element-sum-of-squares-i/Explanation.md) |
+| 3105 | [Longest Strictly Increasing or Strictly Decreasing Subarray](../leetcode/3001-3500/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/Explanation.md) |
 
 ### Medium
 
@@ -25,16 +25,16 @@ A collection of LeetCode problems solved using **Monotonic Stack** pattern techn
 | 241 | [Different Ways to Add Parentheses](../leetcode/0001-0500/0241-different-ways-to-add-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0241-different-ways-to-add-parentheses/Explanation.md) |
 | 464 | [Can I Win](../leetcode/0001-0500/0464-can-i-win/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0464-can-i-win/Explanation.md) |
 | 739 | [Daily Temperatures](../leetcode/0501-1000/0739-daily-temperatures/) | JavaScript, TypeScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0739-daily-temperatures/Explanation.md) |
-| 856 | [Score of Parentheses](../leetcode/0501-1000/0886-score-of-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0886-score-of-parentheses/Explanation.md) |
-| 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1001-1500/1159-smallest-subsequence-of-distinct-characters/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1159-smallest-subsequence-of-distinct-characters/Explanation.md) |
-| 1249 | [Minimum Remove to Make Valid Parentheses](../leetcode/1001-1500/1371-minimum-remove-to-make-valid-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1371-minimum-remove-to-make-valid-parentheses/Explanation.md) |
-| 3737 | [Count Subarrays With Majority Element I](../leetcode/4001-4500/4074-count-subarrays-with-majority-element-i/) | Java | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4074-count-subarrays-with-majority-element-i/Explanation.md) |
+| 856 | [Score of Parentheses](../leetcode/0501-1000/0856-score-of-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0856-score-of-parentheses/Explanation.md) |
+| 1081 | [Smallest Subsequence of Distinct Characters](../leetcode/1001-1500/1081-smallest-subsequence-of-distinct-characters/) | C++ | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1081-smallest-subsequence-of-distinct-characters/Explanation.md) |
+| 1249 | [Minimum Remove to Make Valid Parentheses](../leetcode/1001-1500/1249-minimum-remove-to-make-valid-parentheses/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1249-minimum-remove-to-make-valid-parentheses/Explanation.md) |
+| 3737 | [Count Subarrays With Majority Element I](../leetcode/3501-4000/3737-count-subarrays-with-majority-element-i/) | Java | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3737-count-subarrays-with-majority-element-i/Explanation.md) |
 
 ### Hard
 
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 84 | [Largest Rectangle in Histogram](../leetcode/0001-0500/0084-largest-rectangle-in-histogram/) | JavaScript, TypeScript | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0084-largest-rectangle-in-histogram/Explanation.md) |
-| 3250 | [Find the Count of Monotonic Pairs I](../leetcode/3501-4000/3535-find-the-count-of-monotonic-pairs-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3535-find-the-count-of-monotonic-pairs-i/Explanation.md) |
-| 3251 | [Find the Count of Monotonic Pairs II](../leetcode/3501-4000/3536-find-the-count-of-monotonic-pairs-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3536-find-the-count-of-monotonic-pairs-ii/Explanation.md) |
+| 3250 | [Find the Count of Monotonic Pairs I](../leetcode/3001-3500/3250-find-the-count-of-monotonic-pairs-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3250-find-the-count-of-monotonic-pairs-i/Explanation.md) |
+| 3251 | [Find the Count of Monotonic Pairs II](../leetcode/3001-3500/3251-find-the-count-of-monotonic-pairs-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3251-find-the-count-of-monotonic-pairs-ii/Explanation.md) |
 

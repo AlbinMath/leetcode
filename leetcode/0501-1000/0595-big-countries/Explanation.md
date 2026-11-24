@@ -134,7 +134,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3145. Find Products of Elements of Big Array](../../3001-3500/3411-find-products-of-elements-of-big-array/)
+- [3145. Find Products of Elements of Big Array](../../3001-3500/3145-find-products-of-elements-of-big-array/)
 - [175. Combine Two Tables](../../0001-0500/0175-combine-two-tables/)
 - [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
 

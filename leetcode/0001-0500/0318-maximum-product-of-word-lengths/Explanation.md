@@ -118,7 +118,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
 - [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
-- [1339. Maximum Product of Splitted Binary Tree](../../1001-1500/1465-maximum-product-of-splitted-binary-tree/)
+- [1339. Maximum Product of Splitted Binary Tree](../../1001-1500/1339-maximum-product-of-splitted-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-of-word-lengths/)

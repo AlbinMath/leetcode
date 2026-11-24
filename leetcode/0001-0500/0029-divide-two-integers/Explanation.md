@@ -135,8 +135,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
-- [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1440-convert-integer-to-the-sum-of-two-no-zero-integers/)
-- [3226. Number of Bit Changes to Make Two Integers Equal](../../3501-4000/3508-number-of-bit-changes-to-make-two-integers-equal/)
+- [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1317-convert-integer-to-the-sum-of-two-no-zero-integers/)
+- [3226. Number of Bit Changes to Make Two Integers Equal](../../3001-3500/3226-number-of-bit-changes-to-make-two-integers-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divide-two-integers/)

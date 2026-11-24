@@ -100,8 +100,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [132. Palindrome Partitioning II](../../0001-0500/0132-palindrome-partitioning-ii/)
-- [1278. Palindrome Partitioning III](../../1001-1500/1403-palindrome-partitioning-iii/)
-- [1745. Palindrome Partitioning IV](../../1501-2000/1871-palindrome-partitioning-iv/)
+- [1278. Palindrome Partitioning III](../../1001-1500/1278-palindrome-partitioning-iii/)
+- [1745. Palindrome Partitioning IV](../../1501-2000/1745-palindrome-partitioning-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-partitioning/)

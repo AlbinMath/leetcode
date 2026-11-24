@@ -152,7 +152,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
-- [2056. Number of Valid Move Combinations On Chessboard](../../2001-2500/2166-number-of-valid-move-combinations-on-chessboard/)
+- [2056. Number of Valid Move Combinations On Chessboard](../../2001-2500/2056-number-of-valid-move-combinations-on-chessboard/)
 - [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
 
 ## LeetCode

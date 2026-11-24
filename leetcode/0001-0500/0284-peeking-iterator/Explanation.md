@@ -146,7 +146,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [173. Binary Search Tree Iterator](../../0001-0500/0173-binary-search-tree-iterator/)
 - [341. Flatten Nested List Iterator](../../0001-0500/0341-flatten-nested-list-iterator/)
-- [900. RLE Iterator](../../0501-1000/0936-rle-iterator/)
+- [900. RLE Iterator](../../0501-1000/0900-rle-iterator/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/peeking-iterator/)

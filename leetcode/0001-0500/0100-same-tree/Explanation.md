@@ -115,9 +115,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1519. Number of Nodes in the Sub-Tree With the Same Label](../../1501-2000/1643-number-of-nodes-in-the-sub-tree-with-the-same-label/)
-- [805. Split Array With Same Average](../../0501-1000/0823-split-array-with-same-average/)
-- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0984-most-stones-removed-with-same-row-or-column/)
+- [1519. Number of Nodes in the Sub-Tree With the Same Label](../../1501-2000/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/)
+- [805. Split Array With Same Average](../../0501-1000/0805-split-array-with-same-average/)
+- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/same-tree/)

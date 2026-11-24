@@ -130,9 +130,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [981. Time Based Key-Value Store](../../1001-1500/1023-time-based-key-value-store/)
-- [1409. Queries on a Permutation With Key](../../1501-2000/1525-queries-on-a-permutation-with-key/)
-- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
+- [981. Time Based Key-Value Store](../../0501-1000/0981-time-based-key-value-store/)
+- [1409. Queries on a Permutation With Key](../../1001-1500/1409-queries-on-a-permutation-with-key/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/license-key-formatting/)

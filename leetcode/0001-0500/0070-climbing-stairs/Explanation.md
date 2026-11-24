@@ -121,8 +121,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [746. Min Cost Climbing Stairs](../../0501-1000/0747-min-cost-climbing-stairs/)
-- [3693. Climbing Stairs II](../../4001-4500/4041-climbing-stairs-ii/)
+- [746. Min Cost Climbing Stairs](../../0501-1000/0746-min-cost-climbing-stairs/)
+- [3693. Climbing Stairs II](../../3501-4000/3693-climbing-stairs-ii/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 
 ## LeetCode

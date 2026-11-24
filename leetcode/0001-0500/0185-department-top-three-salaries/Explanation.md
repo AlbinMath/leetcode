@@ -197,8 +197,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [184. Department Highest Salary](../../0001-0500/0184-department-highest-salary/)
-- [1179. Reformat Department Table](../../1001-1500/1301-reformat-department-table/)
-- [1789. Primary Department for Each Employee](../../1501-2000/1942-primary-department-for-each-employee/)
+- [1179. Reformat Department Table](../../1001-1500/1179-reformat-department-table/)
+- [1789. Primary Department for Each Employee](../../1501-2000/1789-primary-department-for-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/department-top-three-salaries/)

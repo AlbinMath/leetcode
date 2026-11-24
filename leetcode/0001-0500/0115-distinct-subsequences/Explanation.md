@@ -123,9 +123,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [940. Distinct Subsequences II](../../0501-1000/0977-distinct-subsequences-ii/)
-- [1081. Smallest Subsequence of Distinct Characters](../../1001-1500/1159-smallest-subsequence-of-distinct-characters/)
-- [1316. Distinct Echo Substrings](../../1001-1500/1244-distinct-echo-substrings/)
+- [940. Distinct Subsequences II](../../0501-1000/0940-distinct-subsequences-ii/)
+- [491. Non-decreasing Subsequences](../../0001-0500/0491-non-decreasing-subsequences/)
+- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-subsequences/)

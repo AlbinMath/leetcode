@@ -133,8 +133,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [661. Image Smoother](../../0501-1000/0661-image-smoother/)
-- [832. Flipping an Image](../../0501-1000/0861-flipping-an-image/)
-- [835. Image Overlap](../../0501-1000/0864-image-overlap/)
+- [832. Flipping an Image](../../0501-1000/0832-flipping-an-image/)
+- [835. Image Overlap](../../0501-1000/0835-image-overlap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-image/)

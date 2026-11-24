@@ -140,7 +140,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [1693. Daily Leads and Partners](../../1501-2000/1837-daily-leads-and-partners/)
+- [1693. Daily Leads and Partners](../../1501-2000/1693-daily-leads-and-partners/)
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 - [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
 

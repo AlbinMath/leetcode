@@ -110,9 +110,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1356. Sort Integers by The Number of 1 Bits](../../1001-1500/1458-sort-integers-by-the-number-of-1-bits/)
+- [1356. Sort Integers by The Number of 1 Bits](../../1001-1500/1356-sort-integers-by-the-number-of-1-bits/)
 - [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
-- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
+- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-1-bits/)

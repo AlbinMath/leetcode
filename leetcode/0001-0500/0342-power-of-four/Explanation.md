@@ -100,7 +100,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1390. Four Divisors](../../1001-1500/1284-four-divisors/)
+- [1390. Four Divisors](../../1001-1500/1390-four-divisors/)
 - [231. Power of Two](../../0001-0500/0231-power-of-two/)
 - [326. Power of Three](../../0001-0500/0326-power-of-three/)
 

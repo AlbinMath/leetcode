@@ -1,6 +1,6 @@
 # LeetCode Problems: 0001-0500
 
-A collection of **393** solved LeetCode problems in the range **0001-0500**.
+A collection of **398** solved LeetCode problems in the range **0001-0500**.
 
 ## Problem Index
 
@@ -166,7 +166,7 @@ A collection of **393** solved LeetCode problems in the range **0001-0500**.
 | 164 | [Maximum Gap](./0164-maximum-gap/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0164-maximum-gap/Explanation.md) |
 | 165 | [Compare Version Numbers](./0165-compare-version-numbers/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0165-compare-version-numbers/Explanation.md) |
 | 166 | [Fraction to Recurring Decimal](./0166-fraction-to-recurring-decimal/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0166-fraction-to-recurring-decimal/Explanation.md) |
-| 167 | [Two Sum II - Input Array Is Sorted](./0167-two-sum-ii---input-array-is-sorted/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0167-two-sum-ii---input-array-is-sorted/Explanation.md) |
+| 167 | [Two Sum II - Input Array Is Sorted](./0167-two-sum-ii-input-array-is-sorted/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0167-two-sum-ii-input-array-is-sorted/Explanation.md) |
 | 168 | [Excel Sheet Column Title](./0168-excel-sheet-column-title/) | Easy | [Array / General](../../patterns/array-general.md) | PHP | [Explanation](./0168-excel-sheet-column-title/Explanation.md) |
 | 169 | [Majority Element](./0169-majority-element/) | Easy | [Array / General](../../patterns/array-general.md) | JavaScript, PHP | [Explanation](./0169-majority-element/Explanation.md) |
 | 171 | [Excel Sheet Column Number](./0171-excel-sheet-column-number/) | Easy | [Array / General](../../patterns/array-general.md) | PHP | [Explanation](./0171-excel-sheet-column-number/Explanation.md) |
@@ -262,10 +262,10 @@ A collection of **393** solved LeetCode problems in the range **0001-0500**.
 | 299 | [Bulls and Cows](./0299-bulls-and-cows/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0299-bulls-and-cows/Explanation.md) |
 | 300 | [Longest Increasing Subsequence](./0300-longest-increasing-subsequence/) | Medium | [Binary Search](../../patterns/binary-search.md) | JavaScript | [Explanation](./0300-longest-increasing-subsequence/Explanation.md) |
 | 301 | [Remove Invalid Parentheses](./0301-remove-invalid-parentheses/) | Hard | [Backtracking](../../patterns/backtracking.md) | Python | [Explanation](./0301-remove-invalid-parentheses/Explanation.md) |
-| 303 | [Range Sum Query - Immutable](./0303-range-sum-query---immutable/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | C++ | [Explanation](./0303-range-sum-query---immutable/Explanation.md) |
-| 304 | [Range Sum Query 2D - Immutable](./0304-range-sum-query-2d---immutable/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0304-range-sum-query-2d---immutable/Explanation.md) |
+| 303 | [Range Sum Query - Immutable](./0303-range-sum-query-immutable/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | C++ | [Explanation](./0303-range-sum-query-immutable/Explanation.md) |
+| 304 | [Range Sum Query 2D - Immutable](./0304-range-sum-query-2d-immutable/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0304-range-sum-query-2d-immutable/Explanation.md) |
 | 306 | [Additive Number](./0306-additive-number/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0306-additive-number/Explanation.md) |
-| 307 | [Range Sum Query - Mutable](./0307-range-sum-query---mutable/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0307-range-sum-query---mutable/Explanation.md) |
+| 307 | [Range Sum Query - Mutable](./0307-range-sum-query-mutable/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0307-range-sum-query-mutable/Explanation.md) |
 | 310 | [Minimum Height Trees](./0310-minimum-height-trees/) | Medium | [Binary Search](../../patterns/binary-search.md) | JavaScript | [Explanation](./0310-minimum-height-trees/Explanation.md) |
 | 312 | [Burst Balloons](./0312-burst-balloons/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0312-burst-balloons/Explanation.md) |
 | 315 | [Count of Smaller Numbers After Self](./0315-count-of-smaller-numbers-after-self/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0315-count-of-smaller-numbers-after-self/Explanation.md) |
@@ -308,7 +308,7 @@ A collection of **393** solved LeetCode problems in the range **0001-0500**.
 | 375 | [Guess Number Higher or Lower II](./0375-guess-number-higher-or-lower-ii/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0375-guess-number-higher-or-lower-ii/Explanation.md) |
 | 378 | [Kth Smallest Element in a Sorted Matrix](./0378-kth-smallest-element-in-a-sorted-matrix/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0378-kth-smallest-element-in-a-sorted-matrix/Explanation.md) |
 | 380 | [Insert Delete GetRandom O(1)](./0380-insert-delete-getrandom-o1/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0380-insert-delete-getrandom-o1/Explanation.md) |
-| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](./0381-insert-delete-getrandom-o1---duplicates-allowed/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0381-insert-delete-getrandom-o1---duplicates-allowed/Explanation.md) |
+| 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](./0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0381-insert-delete-getrandom-o1-duplicates-allowed/Explanation.md) |
 | 382 | [Linked List Random Node](./0382-linked-list-random-node/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0382-linked-list-random-node/Explanation.md) |
 | 383 | [Ransom Note](./0383-ransom-note/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0383-ransom-note/Explanation.md) |
 | 384 | [Shuffle an Array](./0384-shuffle-an-array/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0384-shuffle-an-array/Explanation.md) |
@@ -347,6 +347,9 @@ A collection of **393** solved LeetCode problems in the range **0001-0500**.
 | 421 | [Maximum XOR of Two Numbers in an Array](./0421-maximum-xor-of-two-numbers-in-an-array/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0421-maximum-xor-of-two-numbers-in-an-array/Explanation.md) |
 | 423 | [Reconstruct Original Digits from English](./0423-reconstruct-original-digits-from-english/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0423-reconstruct-original-digits-from-english/Explanation.md) |
 | 424 | [Longest Repeating Character Replacement](./0424-longest-repeating-character-replacement/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0424-longest-repeating-character-replacement/Explanation.md) |
+| 427 | [Construct Quad Tree](./0427-construct-quad-tree/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0427-construct-quad-tree/Explanation.md) |
+| 429 | [N-ary Tree Level Order Traversal](./0429-n-ary-tree-level-order-traversal/) | Medium | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./0429-n-ary-tree-level-order-traversal/Explanation.md) |
+| 430 | [Flatten a Multilevel Doubly Linked List](./0430-flatten-a-multilevel-doubly-linked-list/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0430-flatten-a-multilevel-doubly-linked-list/Explanation.md) |
 | 432 | [All O`one Data Structure](./0432-all-oone-data-structure/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0432-all-oone-data-structure/Explanation.md) |
 | 433 | [Minimum Genetic Mutation](./0433-minimum-genetic-mutation/) | Medium | [Sliding Window](../../patterns/sliding-window.md) | JavaScript | [Explanation](./0433-minimum-genetic-mutation/Explanation.md) |
 | 434 | [Number of Segments in a String](./0434-number-of-segments-in-a-string/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0434-number-of-segments-in-a-string/Explanation.md) |
@@ -358,7 +361,7 @@ A collection of **393** solved LeetCode problems in the range **0001-0500**.
 | 441 | [Arranging Coins](./0441-arranging-coins/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0441-arranging-coins/Explanation.md) |
 | 443 | [String Compression](./0443-string-compression/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0443-string-compression/Explanation.md) |
 | 445 | [Add Two Numbers II](./0445-add-two-numbers-ii/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0445-add-two-numbers-ii/Explanation.md) |
-| 446 | [Arithmetic Slices II - Subsequence](./0446-arithmetic-slices-ii---subsequence/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0446-arithmetic-slices-ii---subsequence/Explanation.md) |
+| 446 | [Arithmetic Slices II - Subsequence](./0446-arithmetic-slices-ii-subsequence/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0446-arithmetic-slices-ii-subsequence/Explanation.md) |
 | 448 | [Find All Numbers Disappeared in an Array](./0448-find-all-numbers-disappeared-in-an-array/) | Easy | [Math & Logic](../../patterns/math-logic.md) | TypeScript | [Explanation](./0448-find-all-numbers-disappeared-in-an-array/Explanation.md) |
 | 449 | [Serialize and Deserialize BST](./0449-serialize-and-deserialize-bst/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0449-serialize-and-deserialize-bst/Explanation.md) |
 | 450 | [Delete Node in a BST](./0450-delete-node-in-a-bst/) | Medium | [Binary Search](../../patterns/binary-search.md) | JavaScript, Python | [Explanation](./0450-delete-node-in-a-bst/Explanation.md) |
@@ -377,11 +380,13 @@ A collection of **393** solved LeetCode problems in the range **0001-0500**.
 | 466 | [Count The Repetitions](./0466-count-the-repetitions/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0466-count-the-repetitions/Explanation.md) |
 | 467 | [Unique Substrings in Wraparound String](./0467-unique-substrings-in-wraparound-string/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0467-unique-substrings-in-wraparound-string/Explanation.md) |
 | 468 | [Validate IP Address](./0468-validate-ip-address/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0468-validate-ip-address/Explanation.md) |
+| 470 | [Implement Rand10() Using Rand7()](./0470-implement-rand10-using-rand7/) | Medium | [Trie](../../patterns/trie.md) | JavaScript | [Explanation](./0470-implement-rand10-using-rand7/Explanation.md) |
 | 472 | [Concatenated Words](./0472-concatenated-words/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0472-concatenated-words/Explanation.md) |
 | 473 | [Matchsticks to Square](./0473-matchsticks-to-square/) | Medium | [Backtracking](../../patterns/backtracking.md) | JavaScript | [Explanation](./0473-matchsticks-to-square/Explanation.md) |
 | 474 | [Ones and Zeroes](./0474-ones-and-zeroes/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0474-ones-and-zeroes/Explanation.md) |
 | 476 | [Number Complement](./0476-number-complement/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0476-number-complement/Explanation.md) |
 | 477 | [Total Hamming Distance](./0477-total-hamming-distance/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0477-total-hamming-distance/Explanation.md) |
+| 478 | [Generate Random Point in a Circle](./0478-generate-random-point-in-a-circle/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0478-generate-random-point-in-a-circle/Explanation.md) |
 | 479 | [Largest Palindrome Product](./0479-largest-palindrome-product/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0479-largest-palindrome-product/Explanation.md) |
 | 480 | [Sliding Window Median](./0480-sliding-window-median/) | Hard | [Sliding Window](../../patterns/sliding-window.md) | Python | [Explanation](./0480-sliding-window-median/Explanation.md) |
 | 481 | [Magical String](./0481-magical-string/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0481-magical-string/Explanation.md) |
@@ -396,6 +401,6 @@ A collection of **393** solved LeetCode problems in the range **0001-0500**.
 | 494 | [Target Sum](./0494-target-sum/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0494-target-sum/Explanation.md) |
 | 495 | [Teemo Attacking](./0495-teemo-attacking/) | Easy | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0495-teemo-attacking/Explanation.md) |
 | 496 | [Next Greater Element I](./0496-next-greater-element-i/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0496-next-greater-element-i/Explanation.md) |
+| 497 | [Random Point in Non-overlapping Rectangles](./0497-random-point-in-non-overlapping-rectangles/) | Medium | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./0497-random-point-in-non-overlapping-rectangles/Explanation.md) |
 | 498 | [Diagonal Traverse](./0498-diagonal-traverse/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0498-diagonal-traverse/Explanation.md) |
 | 500 | [Keyboard Row](./0500-keyboard-row/) | Easy | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./0500-keyboard-row/Explanation.md) |
-| 1643 | [Kth Smallest Instructions](./0489-kth-smallest-instructions/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0489-kth-smallest-instructions/Explanation.md) |

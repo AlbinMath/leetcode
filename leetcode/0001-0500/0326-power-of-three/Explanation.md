@@ -100,7 +100,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
 - [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
-- [1050. Actors and Directors Who Cooperated At Least Three Times](../../1001-1500/1136-actors-and-directors-who-cooperated-at-least-three-times/)
+- [1050. Actors and Directors Who Cooperated At Least Three Times](../../1001-1500/1050-actors-and-directors-who-cooperated-at-least-three-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-of-three/)

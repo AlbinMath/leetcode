@@ -110,8 +110,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1138. Alphabet Board Path](../../1001-1500/1238-alphabet-board-path/)
-- [2549. Count Distinct Numbers on Board](../../2501-3000/2679-count-distinct-numbers-on-board/)
+- [1138. Alphabet Board Path](../../1001-1500/1138-alphabet-board-path/)
+- [2549. Count Distinct Numbers on Board](../../2501-3000/2549-count-distinct-numbers-on-board/)
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 
 ## LeetCode

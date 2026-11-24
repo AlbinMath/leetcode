@@ -109,9 +109,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3171. Find Subarray With Bitwise OR Closest to K](../../3001-3500/3436-find-subarray-with-bitwise-or-closest-to-k/)
+- [3171. Find Subarray With Bitwise OR Closest to K](../../3001-3500/3171-find-subarray-with-bitwise-or-closest-to-k/)
 - [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
-- [973. K Closest Points to Origin](../../1001-1500/1014-k-closest-points-to-origin/)
+- [973. K Closest Points to Origin](../../0501-1000/0973-k-closest-points-to-origin/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-closest-elements/)

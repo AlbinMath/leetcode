@@ -17,10 +17,10 @@ This repository contains solved LeetCode problems with explanations, complexity 
 
 | Category | Count |
 |---|---|
-| **Total Solved** | 2483+ |
+| **Total Solved** | 2482+ |
 | **Easy** | 667+ |
 | **Medium** | 1198+ |
-| **Hard** | 618+ |
+| **Hard** | 617+ |
 
 > **Repository Structure:** To prevent GitHub directory truncation (which limits folder listings to 1,000 files), all 2,360+ problems are cleanly partitioned into 500-problem range buckets under [`leetcode/`](leetcode/) (`0001-0500/`, `0501-1000/`, etc.). You can browse problems directly through their range buckets or search the full directory in [**All_Problems.md**](All_Problems.md).
 
@@ -30,21 +30,21 @@ This repository contains solved LeetCode problems with explanations, complexity 
 
 | # | Problem | Difficulty | Pattern | Language | Solution |
 |---|---|---|---|---|---|
-| 4109 | [Count Valid Suffix Sorts II](leetcode/4001-4500/4454-count-valid-suffix-sorts-ii/) | Hard | [Hash Map](patterns/hash-map.md) | Python | [Explanation](leetcode/4001-4500/4454-count-valid-suffix-sorts-ii/Explanation.md) |
-| 4107 | [Count Valid Suffix Sorts I](leetcode/4001-4500/4451-count-valid-suffix-sorts-i/) | Medium | [Hash Map](patterns/hash-map.md) | JavaScript | [Explanation](leetcode/4001-4500/4451-count-valid-suffix-sorts-i/Explanation.md) |
-| 4105 | [Repeated String Match II](leetcode/4001-4500/4094-repeated-string-match-ii/) | Hard | [Math & Logic](patterns/math-logic.md) | JavaScript | [Explanation](leetcode/4001-4500/4094-repeated-string-match-ii/Explanation.md) |
-| 4104 | [Count Valid Substrings II](leetcode/4001-4500/4468-count-valid-substrings-ii/) | Medium | [Two Pointers](patterns/two-pointers.md) | C++ | [Explanation](leetcode/4001-4500/4468-count-valid-substrings-ii/Explanation.md) |
-| 4103 | [Remove Elements by Type and Color](leetcode/4001-4500/4339-remove-elements-by-type-and-color/) | Medium | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4339-remove-elements-by-type-and-color/Explanation.md) |
-| 4102 | [Count Valid Substrings I](leetcode/4001-4500/4467-count-valid-substrings-i/) | Medium | [Sliding Window](patterns/sliding-window.md) | C++ | [Explanation](leetcode/4001-4500/4467-count-valid-substrings-i/Explanation.md) |
-| 4100 | [Minimum Cost Path With Even XOR Parity](leetcode/4001-4500/4431-minimum-cost-path-with-even-xor-parity/) | Hard | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4431-minimum-cost-path-with-even-xor-parity/Explanation.md) |
-| 4098 | [Minimize the Maximum Value of GCD-Connected Array](leetcode/4001-4500/4462-minimize-the-maximum-value-of-gcd-connected-array/) | Medium | [Two Pointers](patterns/two-pointers.md) | JavaScript | [Explanation](leetcode/4001-4500/4462-minimize-the-maximum-value-of-gcd-connected-array/Explanation.md) |
-| 4067 | [Longest Subarray With Restricted Pair Sums](leetcode/3501-4000/3985-longest-subarray-with-restricted-pair-sums/) | Medium | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/3501-4000/3985-longest-subarray-with-restricted-pair-sums/Explanation.md) |
-| 4066 | [Maximum Equal Adjacent Pairs After at Most One Replacement](leetcode/4001-4500/4420-maximum-equal-adjacent-pairs-after-at-most-one-replacement/) | Medium | [Hash Map](patterns/hash-map.md) | JavaScript | [Explanation](leetcode/4001-4500/4420-maximum-equal-adjacent-pairs-after-at-most-one-replacement/Explanation.md) |
-| 4065 | [Rearrange Array by Removing Distinct Values](leetcode/4001-4500/4429-rearrange-array-by-removing-distinct-values/) | Easy | [Hash Map](patterns/hash-map.md) | Python | [Explanation](leetcode/4001-4500/4429-rearrange-array-by-removing-distinct-values/Explanation.md) |
-| 4062 | [Transform Array Using Pair Operations](leetcode/4001-4500/4398-transform-array-using-pair-operations/) | Medium | [Stack & Queue](patterns/stack-queue.md) | Python | [Explanation](leetcode/4001-4500/4398-transform-array-using-pair-operations/Explanation.md) |
-| 4059 | [Lexicographically Largest Power Array](leetcode/4001-4500/4028-lexicographically-largest-power-array/) | Hard | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4028-lexicographically-largest-power-array/Explanation.md) |
-| 4056 | [Number of Intersecting Interval Pairs I](leetcode/4001-4500/4418-number-of-intersecting-interval-pairs-i/) | Easy | [Dynamic Programming](patterns/dynamic-programming.md) | Python | [Explanation](leetcode/4001-4500/4418-number-of-intersecting-interval-pairs-i/Explanation.md) |
-| 4055 | [Count Shadow Pairs II](leetcode/4001-4500/4326-count-shadow-pairs-ii/) | Hard | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4326-count-shadow-pairs-ii/Explanation.md) |
+| 4109 | [Count Valid Suffix Sorts II](leetcode/4001-4500/4109-count-valid-suffix-sorts-ii/) | Hard | [Hash Map](patterns/hash-map.md) | Python | [Explanation](leetcode/4001-4500/4109-count-valid-suffix-sorts-ii/Explanation.md) |
+| 4107 | [Count Valid Suffix Sorts I](leetcode/4001-4500/4107-count-valid-suffix-sorts-i/) | Medium | [Hash Map](patterns/hash-map.md) | JavaScript | [Explanation](leetcode/4001-4500/4107-count-valid-suffix-sorts-i/Explanation.md) |
+| 4105 | [Repeated String Match II](leetcode/4001-4500/4105-repeated-string-match-ii/) | Hard | [Math & Logic](patterns/math-logic.md) | JavaScript | [Explanation](leetcode/4001-4500/4105-repeated-string-match-ii/Explanation.md) |
+| 4104 | [Count Valid Substrings II](leetcode/4001-4500/4104-count-valid-substrings-ii/) | Medium | [Two Pointers](patterns/two-pointers.md) | C++ | [Explanation](leetcode/4001-4500/4104-count-valid-substrings-ii/Explanation.md) |
+| 4103 | [Remove Elements by Type and Color](leetcode/4001-4500/4103-remove-elements-by-type-and-color/) | Medium | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4103-remove-elements-by-type-and-color/Explanation.md) |
+| 4102 | [Count Valid Substrings I](leetcode/4001-4500/4102-count-valid-substrings-i/) | Medium | [Sliding Window](patterns/sliding-window.md) | C++ | [Explanation](leetcode/4001-4500/4102-count-valid-substrings-i/Explanation.md) |
+| 4100 | [Minimum Cost Path With Even XOR Parity](leetcode/4001-4500/4100-minimum-cost-path-with-even-xor-parity/) | Hard | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4100-minimum-cost-path-with-even-xor-parity/Explanation.md) |
+| 4098 | [Minimize the Maximum Value of GCD-Connected Array](leetcode/4001-4500/4098-minimize-the-maximum-value-of-gcd-connected-array/) | Medium | [Two Pointers](patterns/two-pointers.md) | JavaScript | [Explanation](leetcode/4001-4500/4098-minimize-the-maximum-value-of-gcd-connected-array/Explanation.md) |
+| 4067 | [Longest Subarray With Restricted Pair Sums](leetcode/4001-4500/4067-longest-subarray-with-restricted-pair-sums/) | Medium | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4001-4500/4067-longest-subarray-with-restricted-pair-sums/Explanation.md) |
+| 4066 | [Maximum Equal Adjacent Pairs After at Most One Replacement](leetcode/4001-4500/4066-maximum-equal-adjacent-pairs-after-at-most-one-replacement/) | Medium | [Hash Map](patterns/hash-map.md) | JavaScript | [Explanation](leetcode/4001-4500/4066-maximum-equal-adjacent-pairs-after-at-most-one-replacement/Explanation.md) |
+| 4065 | [Rearrange Array by Removing Distinct Values](leetcode/4001-4500/4065-rearrange-array-by-removing-distinct-values/) | Easy | [Hash Map](patterns/hash-map.md) | Python | [Explanation](leetcode/4001-4500/4065-rearrange-array-by-removing-distinct-values/Explanation.md) |
+| 4062 | [Transform Array Using Pair Operations](leetcode/4001-4500/4062-transform-array-using-pair-operations/) | Medium | [Stack & Queue](patterns/stack-queue.md) | Python | [Explanation](leetcode/4001-4500/4062-transform-array-using-pair-operations/Explanation.md) |
+| 4059 | [Lexicographically Largest Power Array](leetcode/4001-4500/4059-lexicographically-largest-power-array/) | Hard | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4059-lexicographically-largest-power-array/Explanation.md) |
+| 4056 | [Number of Intersecting Interval Pairs I](leetcode/4001-4500/4056-number-of-intersecting-interval-pairs-i/) | Easy | [Dynamic Programming](patterns/dynamic-programming.md) | Python | [Explanation](leetcode/4001-4500/4056-number-of-intersecting-interval-pairs-i/Explanation.md) |
+| 4055 | [Count Shadow Pairs II](leetcode/4001-4500/4055-count-shadow-pairs-ii/) | Hard | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4055-count-shadow-pairs-ii/Explanation.md) |
 
 ---
 

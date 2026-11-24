@@ -100,8 +100,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [462. Minimum Moves to Equal Array Elements II](../../0001-0500/0462-minimum-moves-to-equal-array-elements-ii/)
-- [3736. Minimum Moves to Equal Array Elements III](../../4001-4500/4116-minimum-moves-to-equal-array-elements-iii/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
+- [3736. Minimum Moves to Equal Array Elements III](../../3501-4000/3736-minimum-moves-to-equal-array-elements-iii/)
+- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)

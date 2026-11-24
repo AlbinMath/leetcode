@@ -152,9 +152,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [959. Regions Cut By Slashes](../../0501-1000/0999-regions-cut-by-slashes/)
 - [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
 - [96. Unique Binary Search Trees](../../0001-0500/0096-unique-binary-search-trees/)
+- [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cut-off-trees-for-golf-event/)

@@ -139,7 +139,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [888. Fair Candy Swap](../../0501-1000/0924-fair-candy-swap/)
+- [888. Fair Candy Swap](../../0501-1000/0888-fair-candy-swap/)
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 - [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
 

@@ -109,7 +109,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1496. Path Crossing](../../1501-2000/1619-path-crossing/)
+- [1496. Path Crossing](../../1001-1500/1496-path-crossing/)
 - [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
 - [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
 

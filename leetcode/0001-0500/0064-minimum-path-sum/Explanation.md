@@ -147,8 +147,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [931. Minimum Falling Path Sum](../../0501-1000/0967-minimum-falling-path-sum/)
-- [1289. Minimum Falling Path Sum II](../../1001-1500/1224-minimum-falling-path-sum-ii/)
+- [931. Minimum Falling Path Sum](../../0501-1000/0931-minimum-falling-path-sum/)
+- [1289. Minimum Falling Path Sum II](../../1001-1500/1289-minimum-falling-path-sum-ii/)
 - [112. Path Sum](../../0001-0500/0112-path-sum/)
 
 ## LeetCode

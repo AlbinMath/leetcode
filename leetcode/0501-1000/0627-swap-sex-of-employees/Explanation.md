@@ -136,7 +136,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
 - [670. Maximum Swap](../../0501-1000/0670-maximum-swap/)
-- [777. Swap Adjacent in LR String](../../0501-1000/0793-swap-adjacent-in-lr-string/)
+- [777. Swap Adjacent in LR String](../../0501-1000/0777-swap-adjacent-in-lr-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-sex-of-employees/)

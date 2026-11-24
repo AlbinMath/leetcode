@@ -111,8 +111,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [528. Random Pick with Weight](../../0501-1000/0912-random-pick-with-weight/)
-- [710. Random Pick with Blacklist](../../0501-1000/0894-random-pick-with-blacklist/)
+- [528. Random Pick with Weight](../../0501-1000/0528-random-pick-with-weight/)
+- [710. Random Pick with Blacklist](../../0501-1000/0710-random-pick-with-blacklist/)
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode

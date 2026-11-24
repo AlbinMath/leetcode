@@ -114,8 +114,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [423. Reconstruct Original Digits from English](../../0001-0500/0423-reconstruct-original-digits-from-english/)
-- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1379-reconstruct-a-2-row-binary-matrix/)
-- [1719. Number Of Ways To Reconstruct A Tree](../../1501-2000/1820-number-of-ways-to-reconstruct-a-tree/)
+- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1253-reconstruct-a-2-row-binary-matrix/)
+- [1719. Number Of Ways To Reconstruct A Tree](../../1501-2000/1719-number-of-ways-to-reconstruct-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reconstruct-itinerary/)

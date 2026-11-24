@@ -113,7 +113,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
 - [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
-- [1004. Max Consecutive Ones III](../../1001-1500/1046-max-consecutive-ones-iii/)
+- [1004. Max Consecutive Ones III](../../1001-1500/1004-max-consecutive-ones-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ones-and-zeroes/)

@@ -110,9 +110,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [878. Nth Magical Number](../../0501-1000/0910-nth-magical-number/)
-- [3539. Find Sum of Array Product of Magical Sequences](../../3501-4000/3851-find-sum-of-array-product-of-magical-sequences/)
+- [878. Nth Magical Number](../../0501-1000/0878-nth-magical-number/)
+- [3539. Find Sum of Array Product of Magical Sequences](../../3501-4000/3539-find-sum-of-array-product-of-magical-sequences/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/magical-string/)

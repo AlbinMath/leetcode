@@ -173,8 +173,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
-- [885. Spiral Matrix III](../../0501-1000/0921-spiral-matrix-iii/)
-- [2326. Spiral Matrix IV](../../2001-2500/2411-spiral-matrix-iv/)
+- [885. Spiral Matrix III](../../0501-1000/0885-spiral-matrix-iii/)
+- [2326. Spiral Matrix IV](../../2001-2500/2326-spiral-matrix-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/spiral-matrix/)

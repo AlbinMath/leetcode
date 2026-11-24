@@ -113,8 +113,8 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3414. Maximum Score of Non-overlapping Intervals](../../3501-4000/3562-maximum-score-of-non-overlapping-intervals/)
-- [497. Random Point in Non-overlapping Rectangles](../../0501-1000/0914-random-point-in-non-overlapping-rectangles/)
+- [3414. Maximum Score of Non-overlapping Intervals](../../3001-3500/3414-maximum-score-of-non-overlapping-intervals/)
+- [497. Random Point in Non-overlapping Rectangles](../../0001-0500/0497-random-point-in-non-overlapping-rectangles/)
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
 
 ## LeetCode

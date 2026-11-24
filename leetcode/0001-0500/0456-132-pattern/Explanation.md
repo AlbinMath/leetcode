@@ -114,7 +114,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [290. Word Pattern](../../0001-0500/0290-word-pattern/)
 - [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
-- [890. Find and Replace Pattern](../../0501-1000/0926-find-and-replace-pattern/)
+- [890. Find and Replace Pattern](../../0501-1000/0890-find-and-replace-pattern/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/132-pattern/)

@@ -105,7 +105,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [207. Course Schedule](../../0001-0500/0207-course-schedule/)
 - [210. Course Schedule II](../../0001-0500/0210-course-schedule-ii/)
-- [1462. Course Schedule IV](../../1501-2000/1558-course-schedule-iv/)
+- [1462. Course Schedule IV](../../1001-1500/1462-course-schedule-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/course-schedule-iii/)

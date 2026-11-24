@@ -111,8 +111,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
-- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1645-find-a-value-of-a-mysterious-function-closest-to-target/)
-- [2359. Find Closest Node to Given Two Nodes](../../2001-2500/2438-find-closest-node-to-given-two-nodes/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1521-find-a-value-of-a-mysterious-function-closest-to-target/)
+- [2359. Find Closest Node to Given Two Nodes](../../2001-2500/2359-find-closest-node-to-given-two-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-closest-palindrome/)

@@ -201,9 +201,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1068. Product Sales Analysis I](../../1001-1500/1153-product-sales-analysis-i/)
-- [1070. Product Sales Analysis III](../../1001-1500/1155-product-sales-analysis-iii/)
-- [1084. Sales Analysis III](../../1001-1500/1174-sales-analysis-iii/)
+- [1068. Product Sales Analysis I](../../1001-1500/1068-product-sales-analysis-i/)
+- [1070. Product Sales Analysis III](../../1001-1500/1070-product-sales-analysis-iii/)
+- [1084. Sales Analysis III](../../1001-1500/1084-sales-analysis-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sales-person/)

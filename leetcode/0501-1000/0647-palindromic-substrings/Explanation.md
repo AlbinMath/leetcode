@@ -108,7 +108,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1960. Maximum Product of the Length of Two Palindromic Substrings](../../1001-1500/1336-maximum-product-of-the-length-of-two-palindromic-substrings/)
+- [1960. Maximum Product of the Length of Two Palindromic Substrings](../../1501-2000/1960-maximum-product-of-the-length-of-two-palindromic-substrings/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 - [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
 

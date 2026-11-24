@@ -105,9 +105,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2193. Minimum Number of Moves to Make Palindrome](../../1001-1500/1356-minimum-number-of-moves-to-make-palindrome/)
-- [2472. Maximum Number of Non-overlapping Palindrome Substrings](../../2501-3000/2559-maximum-number-of-non-overlapping-palindrome-substrings/)
-- [3646. Next Special Palindrome Number](../../3501-4000/3951-next-special-palindrome-number/)
+- [2193. Minimum Number of Moves to Make Palindrome](../../2001-2500/2193-minimum-number-of-moves-to-make-palindrome/)
+- [2472. Maximum Number of Non-overlapping Palindrome Substrings](../../2001-2500/2472-maximum-number-of-non-overlapping-palindrome-substrings/)
+- [3646. Next Special Palindrome Number](../../3501-4000/3646-next-special-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-number/)

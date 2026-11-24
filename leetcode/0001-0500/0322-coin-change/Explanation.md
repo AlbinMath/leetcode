@@ -111,9 +111,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [3222. Find the Winning Player in Coin Game](../../3501-4000/3511-find-the-winning-player-in-coin-game/)
-- [860. Lemonade Change](../../0501-1000/0890-lemonade-change/)
-- [1702. Maximum Binary String After Change](../../1501-2000/1804-maximum-binary-string-after-change/)
+- [3222. Find the Winning Player in Coin Game](../../3001-3500/3222-find-the-winning-player-in-coin-game/)
+- [860. Lemonade Change](../../0501-1000/0860-lemonade-change/)
+- [1702. Maximum Binary String After Change](../../1501-2000/1702-maximum-binary-string-after-change/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/coin-change/)

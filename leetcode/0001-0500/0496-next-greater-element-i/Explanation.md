@@ -124,7 +124,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [503. Next Greater Element II](../../0501-1000/0503-next-greater-element-ii/)
 - [556. Next Greater Element III](../../0501-1000/0556-next-greater-element-iii/)
-- [2454. Next Greater Element IV](../../2501-3000/2549-next-greater-element-iv/)
+- [2454. Next Greater Element IV](../../2001-2500/2454-next-greater-element-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/next-greater-element-i/)

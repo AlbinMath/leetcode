@@ -171,8 +171,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
-- [622. Design Circular Queue](../../0501-1000/0860-design-circular-queue/)
-- [641. Design Circular Deque](../../0501-1000/0859-design-circular-deque/)
+- [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
+- [641. Design Circular Deque](../../0501-1000/0641-design-circular-deque/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-twitter/)

@@ -179,7 +179,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
 - [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
-- [783. Minimum Distance Between BST Nodes](../../0501-1000/0799-minimum-distance-between-bst-nodes/)
+- [783. Minimum Distance Between BST Nodes](../../0501-1000/0783-minimum-distance-between-bst-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/edit-distance/)

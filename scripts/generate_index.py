@@ -484,38 +484,77 @@ def get_pattern_insights(pattern, title, ds, algorithm):
 # ---------------------------------------------------------
 # 7. Auto-Organize Flat Problems into Range Buckets
 # ---------------------------------------------------------
-def organize_problems():
+def organize_problems(lc_slug_map):
     leetcode_dir = 'leetcode'
     if not os.path.exists(leetcode_dir):
         return
-    for item in sorted(os.listdir(leetcode_dir)):
+
+    # Find all problem folders (both root-level if any were dropped by leetcode-sync, and inside existing range buckets)
+    problem_folders = []
+    for root, dirs, files in os.walk(leetcode_dir):
+        rel_root = os.path.relpath(root, leetcode_dir)
+        if rel_root != '.' and not re.match(r'^\d{4}-\d{4}$', rel_root):
+            continue
+        for d in list(dirs):
+            if re.match(r'^\d{4}-\d{4}$', d):
+                continue
+            m = re.match(r'^(\d+)-(.*)$', d)
+            if m:
+                problem_folders.append((os.path.join(root, d), d))
+
+    for current_path, folder_name in problem_folders:
+        m = re.match(r'^(\d+)-(.*)$', folder_name)
+        if not m:
+            continue
+        folder_num = int(m.group(1))
+        raw_slug = m.group(2).strip('-')
+        norm_slug = re.sub(r'-+', '-', raw_slug)
+
+        lc_info = lc_slug_map.get(raw_slug) or lc_slug_map.get(norm_slug) or lc_slug_map.get(raw_slug.strip('-'))
+        if lc_info:
+            f_num = lc_info['id']
+            clean_slug = lc_info['slug']
+        else:
+            f_num = folder_num
+            clean_slug = norm_slug
+
+        canonical_folder_name = f"{f_num:04d}-{clean_slug}"
+        lower = ((f_num - 1) // 500) * 500 + 1
+        upper = lower + 499
+        r_name = f"{lower:04d}-{upper:04d}"
+        target_dir = os.path.join(leetcode_dir, r_name)
+        os.makedirs(target_dir, exist_ok=True)
+        target_path = os.path.join(target_dir, canonical_folder_name)
+
+        if os.path.abspath(current_path) == os.path.abspath(target_path):
+            continue
+
+        if os.path.exists(target_path):
+            for subfile in os.listdir(current_path):
+                src_f = os.path.join(current_path, subfile)
+                dst_f = os.path.join(target_path, subfile)
+                if os.path.exists(dst_f):
+                    if os.path.isdir(dst_f):
+                        shutil.rmtree(dst_f)
+                    else:
+                        if subfile == 'Explanation.md' and os.path.exists(src_f) and os.path.getsize(dst_f) >= os.path.getsize(src_f):
+                            os.remove(src_f)
+                            continue
+                        os.remove(dst_f)
+                shutil.move(src_f, dst_f)
+            try:
+                os.rmdir(current_path)
+            except Exception:
+                pass
+        else:
+            shutil.move(current_path, target_path)
+
+    # Clean up any empty range directories
+    for item in os.listdir(leetcode_dir):
         item_path = os.path.join(leetcode_dir, item)
-        if not os.path.isdir(item_path):
-            continue
-        if re.match(r'^\d{4}-\d{4}$', item):
-            continue
-        m = re.match(r'^(\d+)-(.*)', item)
-        if m:
-            f_num = int(m.group(1))
-            lower = ((f_num - 1) // 500) * 500 + 1
-            upper = lower + 499
-            r_name = f"{lower:04d}-{upper:04d}"
-            target_dir = os.path.join(leetcode_dir, r_name)
-            os.makedirs(target_dir, exist_ok=True)
-            target_path = os.path.join(target_dir, item)
-            if os.path.exists(target_path):
-                for subfile in os.listdir(item_path):
-                    src_f = os.path.join(item_path, subfile)
-                    dst_f = os.path.join(target_path, subfile)
-                    if os.path.exists(dst_f):
-                        if os.path.isdir(dst_f):
-                            shutil.rmtree(dst_f)
-                        else:
-                            os.remove(dst_f)
-                    shutil.move(src_f, dst_f)
+        if os.path.isdir(item_path) and re.match(r'^\d{4}-\d{4}$', item):
+            if not os.listdir(item_path):
                 os.rmdir(item_path)
-            else:
-                shutil.move(item_path, target_path)
 
 # ---------------------------------------------------------
 # 8. Process Problem Folder with 100% Accurate Metadata Mapping
@@ -702,7 +741,7 @@ def process_problem(range_folder, folder_name, lc_slug_map):
 def main():
     lc_slug_map = fetch_leetcode_metadata()
 
-    organize_problems()
+    organize_problems(lc_slug_map)
 
     leetcode_dir = 'leetcode'
     problems = []

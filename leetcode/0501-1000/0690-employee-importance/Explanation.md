@@ -117,8 +117,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [577. Employee Bonus](../../0501-1000/0577-employee-bonus/)
-- [1378. Replace Employee ID With The Unique Identifier](../../1501-2000/1509-replace-employee-id-with-the-unique-identifier/)
-- [1731. The Number of Employees Which Report to Each Employee](../../1501-2000/1882-the-number-of-employees-which-report-to-each-employee/)
+- [1378. Replace Employee ID With The Unique Identifier](../../1001-1500/1378-replace-employee-id-with-the-unique-identifier/)
+- [1731. The Number of Employees Which Report to Each Employee](../../1501-2000/1731-the-number-of-employees-which-report-to-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employee-importance/)

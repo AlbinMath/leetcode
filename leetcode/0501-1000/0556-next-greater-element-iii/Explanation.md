@@ -113,7 +113,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [496. Next Greater Element I](../../0001-0500/0496-next-greater-element-i/)
 - [503. Next Greater Element II](../../0501-1000/0503-next-greater-element-ii/)
-- [2454. Next Greater Element IV](../../2501-3000/2549-next-greater-element-iv/)
+- [2454. Next Greater Element IV](../../2001-2500/2454-next-greater-element-iv/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/next-greater-element-iii/)

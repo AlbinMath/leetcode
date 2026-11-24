@@ -152,8 +152,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1410. HTML Entity Parser](../../1501-2000/1526-html-entity-parser/)
-- [1678. Goal Parser Interpretation](../../1501-2000/1797-goal-parser-interpretation/)
+- [1410. HTML Entity Parser](../../1001-1500/1410-html-entity-parser/)
+- [1678. Goal Parser Interpretation](../../1501-2000/1678-goal-parser-interpretation/)
 - [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
 
 ## LeetCode

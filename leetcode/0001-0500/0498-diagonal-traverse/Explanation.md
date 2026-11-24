@@ -131,9 +131,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1572. Matrix Diagonal Sum](../../1501-2000/1677-matrix-diagonal-sum/)
-- [2614. Prime In Diagonal](../../2501-3000/2722-prime-in-diagonal/)
-- [3459. Length of Longest V-Shaped Diagonal Segment](../../3501-4000/3733-length-of-longest-v-shaped-diagonal-segment/)
+- [1572. Matrix Diagonal Sum](../../1501-2000/1572-matrix-diagonal-sum/)
+- [2614. Prime In Diagonal](../../2501-3000/2614-prime-in-diagonal/)
+- [3459. Length of Longest V-Shaped Diagonal Segment](../../3001-3500/3459-length-of-longest-v-shaped-diagonal-segment/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/diagonal-traverse/)

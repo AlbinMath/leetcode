@@ -136,9 +136,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1275. Find Winner on a Tic Tac Toe Game](../../1001-1500/1400-find-winner-on-a-tic-tac-toe-game/)
-- [1535. Find the Winner of an Array Game](../../1501-2000/1657-find-the-winner-of-an-array-game/)
-- [1823. Find the Winner of the Circular Game](../../1501-2000/1951-find-the-winner-of-the-circular-game/)
+- [1275. Find Winner on a Tic Tac Toe Game](../../1001-1500/1275-find-winner-on-a-tic-tac-toe-game/)
+- [1535. Find the Winner of an Array Game](../../1501-2000/1535-find-the-winner-of-an-array-game/)
+- [1823. Find the Winner of the Circular Game](../../1501-2000/1823-find-the-winner-of-the-circular-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/predict-the-winner/)

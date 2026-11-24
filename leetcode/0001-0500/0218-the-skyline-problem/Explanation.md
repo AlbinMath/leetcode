@@ -206,8 +206,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [807. Max Increase to Keep City Skyline](../../0501-1000/0807-max-increase-to-keep-city-skyline/)
 - [365. Water and Jug Problem](../../0001-0500/0365-water-and-jug-problem/)
-- [807. Max Increase to Keep City Skyline](../../0501-1000/0825-max-increase-to-keep-city-skyline/)
 - [1. Two Sum](../../0001-0500/0001-two-sum/)
 
 ## LeetCode

@@ -128,8 +128,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
-- [1399. Count Largest Group](../../1001-1500/1500-count-largest-group/)
-- [1484. Group Sold Products By The Date](../../1501-2000/1625-group-sold-products-by-the-date/)
+- [1399. Count Largest Group](../../1001-1500/1399-count-largest-group/)
+- [1484. Group Sold Products By The Date](../../1001-1500/1484-group-sold-products-by-the-date/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-anagrams/)

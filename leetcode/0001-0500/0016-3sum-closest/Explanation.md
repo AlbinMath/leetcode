@@ -165,7 +165,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
 - [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
-- [973. K Closest Points to Origin](../../1001-1500/1014-k-closest-points-to-origin/)
+- [973. K Closest Points to Origin](../../0501-1000/0973-k-closest-points-to-origin/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/3sum-closest/)

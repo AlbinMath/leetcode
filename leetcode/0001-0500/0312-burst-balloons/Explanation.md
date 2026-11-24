@@ -113,7 +113,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [452. Minimum Number of Arrows to Burst Balloons](../../0001-0500/0452-minimum-number-of-arrows-to-burst-balloons/)
-- [1189. Maximum Number of Balloons](../../1001-1500/1297-maximum-number-of-balloons/)
+- [1189. Maximum Number of Balloons](../../1001-1500/1189-maximum-number-of-balloons/)
 - [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
 
 ## LeetCode

@@ -126,7 +126,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [372. Super Pow](../../0001-0500/0372-super-pow/)
-- [906. Super Palindromes](../../0501-1000/0942-super-palindromes/)
+- [906. Super Palindromes](../../0501-1000/0906-super-palindromes/)
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 
 ## LeetCode

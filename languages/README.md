@@ -8,7 +8,7 @@ Solutions implemented across multiple programming languages.
 |---|---|---|
 | **C** | 1 solutions | [Browse C](./c.md) |
 | **C#** | 1 solutions | [Browse C#](./csharp.md) |
-| **C++** | 157 solutions | [Browse C++](./cpp.md) |
+| **C++** | 156 solutions | [Browse C++](./cpp.md) |
 | **Dart** | 1 solutions | [Browse Dart](./dart.md) |
 | **Elixir** | 1 solutions | [Browse Elixir](./elixir.md) |
 | **Erlang** | 1 solutions | [Browse Erlang](./erlang.md) |

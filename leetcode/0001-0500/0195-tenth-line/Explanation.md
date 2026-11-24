@@ -77,8 +77,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
-- [1232. Check If It Is a Straight Line](../../1001-1500/1349-check-if-it-is-a-straight-line/)
-- [1621. Number of Sets of K Non-Overlapping Line Segments](../../1501-2000/1725-number-of-sets-of-k-non-overlapping-line-segments/)
+- [1232. Check If It Is a Straight Line](../../1001-1500/1232-check-if-it-is-a-straight-line/)
+- [1621. Number of Sets of K Non-Overlapping Line Segments](../../1501-2000/1621-number-of-sets-of-k-non-overlapping-line-segments/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tenth-line/)

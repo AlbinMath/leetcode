@@ -122,8 +122,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [232. Implement Queue using Stacks](../../0001-0500/0232-implement-queue-using-stacks/)
-- [622. Design Circular Queue](../../0501-1000/0860-design-circular-queue/)
-- [899. Orderly Queue](../../0501-1000/0935-orderly-queue/)
+- [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
+- [899. Orderly Queue](../../0501-1000/0899-orderly-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queue-reconstruction-by-height/)

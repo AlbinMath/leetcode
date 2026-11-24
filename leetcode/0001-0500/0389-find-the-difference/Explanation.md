@@ -101,8 +101,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2215. Find the Difference of Two Arrays](../../1001-1500/1392-find-the-difference-of-two-arrays/)
-- [3847. Find the Score Difference in a Game](../../4001-4500/4224-find-the-score-difference-in-a-game/)
+- [2215. Find the Difference of Two Arrays](../../2001-2500/2215-find-the-difference-of-two-arrays/)
+- [3847. Find the Score Difference in a Game](../../3501-4000/3847-find-the-score-difference-in-a-game/)
 - [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
 
 ## LeetCode

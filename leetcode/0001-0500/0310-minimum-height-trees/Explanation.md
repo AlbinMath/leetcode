@@ -131,9 +131,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [3203. Find Minimum Diameter After Merging Two Trees](../../3001-3500/3439-find-minimum-diameter-after-merging-two-trees/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
-- [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
+- [3203. Find Minimum Diameter After Merging Two Trees](../../3001-3500/3203-find-minimum-diameter-after-merging-two-trees/)
+- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
+- [96. Unique Binary Search Trees](../../0001-0500/0096-unique-binary-search-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-height-trees/)

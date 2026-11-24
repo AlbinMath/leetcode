@@ -106,7 +106,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1195. Fizz Buzz Multithreaded](../../1001-1500/1316-fizz-buzz-multithreaded/)
+- [1195. Fizz Buzz Multithreaded](../../1001-1500/1195-fizz-buzz-multithreaded/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 - [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 

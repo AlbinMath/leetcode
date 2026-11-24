@@ -131,8 +131,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
-- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1147-flip-columns-for-maximum-number-of-equal-rows/)
-- [1189. Maximum Number of Balloons](../../1001-1500/1297-maximum-number-of-balloons/)
+- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1072-flip-columns-for-maximum-number-of-equal-rows/)
+- [1189. Maximum Number of Balloons](../../1001-1500/1189-maximum-number-of-balloons/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-maximum-number/)

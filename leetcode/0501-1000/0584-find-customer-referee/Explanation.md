@@ -133,8 +133,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
-- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1724-customer-who-visited-but-did-not-make-any-transactions/)
-- [1672. Richest Customer Wealth](../../1501-2000/1791-richest-customer-wealth/)
+- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1581-customer-who-visited-but-did-not-make-any-transactions/)
+- [1672. Richest Customer Wealth](../../1501-2000/1672-richest-customer-wealth/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-customer-referee/)

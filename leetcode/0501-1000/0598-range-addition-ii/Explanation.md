@@ -109,8 +109,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [201. Bitwise AND of Numbers Range](../../0001-0500/0201-bitwise-and-of-numbers-range/)
-- [303. Range Sum Query - Immutable](../../0001-0500/0303-range-sum-query---immutable/)
-- [304. Range Sum Query 2D - Immutable](../../0001-0500/0304-range-sum-query-2d---immutable/)
+- [303. Range Sum Query - Immutable](../../0001-0500/0303-range-sum-query-immutable/)
+- [304. Range Sum Query 2D - Immutable](../../0001-0500/0304-range-sum-query-2d-immutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-addition-ii/)

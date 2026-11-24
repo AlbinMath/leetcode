@@ -156,9 +156,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3451. Find Invalid IP Addresses](../../3501-4000/3792-find-invalid-ip-addresses/)
-- [929. Unique Email Addresses](../../0501-1000/0965-unique-email-addresses/)
-- [468. Validate IP Address](../../0001-0500/0468-validate-ip-address/)
+- [3451. Find Invalid IP Addresses](../../3001-3500/3451-find-invalid-ip-addresses/)
+- [1416. Restore The Array](../../1001-1500/1416-restore-the-array/)
+- [929. Unique Email Addresses](../../0501-1000/0929-unique-email-addresses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/restore-ip-addresses/)

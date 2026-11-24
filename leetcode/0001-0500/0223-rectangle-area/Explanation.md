@@ -98,9 +98,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [850. Rectangle Area II](../../0501-1000/0880-rectangle-area-ii/)
-- [939. Minimum Area Rectangle](../../0501-1000/0976-minimum-area-rectangle/)
-- [963. Minimum Area Rectangle II](../../1001-1500/1003-minimum-area-rectangle-ii/)
+- [850. Rectangle Area II](../../0501-1000/0850-rectangle-area-ii/)
+- [939. Minimum Area Rectangle](../../0501-1000/0939-minimum-area-rectangle/)
+- [963. Minimum Area Rectangle II](../../0501-1000/0963-minimum-area-rectangle-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rectangle-area/)

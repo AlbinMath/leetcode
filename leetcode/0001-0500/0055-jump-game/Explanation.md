@@ -133,8 +133,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
-- [1306. Jump Game III](../../1001-1500/1428-jump-game-iii/)
-- [1340. Jump Game V](../../1001-1500/1466-jump-game-v/)
+- [1306. Jump Game III](../../1001-1500/1306-jump-game-iii/)
+- [1340. Jump Game V](../../1001-1500/1340-jump-game-v/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game/)

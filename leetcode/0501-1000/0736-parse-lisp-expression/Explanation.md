@@ -171,7 +171,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
 - [282. Expression Add Operators](../../0001-0500/0282-expression-add-operators/)
-- [1106. Parsing A Boolean Expression](../../1001-1500/1197-parsing-a-boolean-expression/)
+- [1106. Parsing A Boolean Expression](../../1001-1500/1106-parsing-a-boolean-expression/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/parse-lisp-expression/)

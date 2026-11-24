@@ -158,8 +158,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [382. Linked List Random Node](../../0001-0500/0382-linked-list-random-node/)
-- [398. Random Pick Index](../../0001-0500/0398-random-pick-index/)
-- [478. Generate Random Point in a Circle](../../0501-1000/0915-generate-random-point-in-a-circle/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [61. Rotate List](../../0001-0500/0061-rotate-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/)

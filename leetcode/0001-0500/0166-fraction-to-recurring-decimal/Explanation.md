@@ -127,8 +127,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3726. Remove Zeros in Decimal Representation](../../3501-4000/3726-remove-zeros-in-decimal-representation/)
 - [592. Fraction Addition and Subtraction](../../0501-1000/0592-fraction-addition-and-subtraction/)
-- [3726. Remove Zeros in Decimal Representation](../../4001-4500/4051-remove-zeros-in-decimal-representation/)
 - [1. Two Sum](../../0001-0500/0001-two-sum/)
 
 ## LeetCode

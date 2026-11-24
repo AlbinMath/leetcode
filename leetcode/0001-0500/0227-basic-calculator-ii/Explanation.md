@@ -134,8 +134,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [224. Basic Calculator](../../0001-0500/0224-basic-calculator/)
-- [770. Basic Calculator IV](../../0501-1000/0781-basic-calculator-iv/)
-- [2642. Design Graph With Shortest Path Calculator](../../2501-3000/2678-design-graph-with-shortest-path-calculator/)
+- [770. Basic Calculator IV](../../0501-1000/0770-basic-calculator-iv/)
+- [2642. Design Graph With Shortest Path Calculator](../../2501-3000/2642-design-graph-with-shortest-path-calculator/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/basic-calculator-ii/)

@@ -129,9 +129,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1096-maximum-sum-of-two-non-overlapping-subarrays/)
-- [3956. Maximum Sum of M Non-Overlapping Subarrays I](../../4001-4500/4123-maximum-sum-of-m-non-overlapping-subarrays-i/)
-- [3957. Maximum Sum of M Non-Overlapping Subarrays II](../../4001-4500/4125-maximum-sum-of-m-non-overlapping-subarrays-ii/)
+- [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1031-maximum-sum-of-two-non-overlapping-subarrays/)
+- [3956. Maximum Sum of M Non-Overlapping Subarrays I](../../3501-4000/3956-maximum-sum-of-m-non-overlapping-subarrays-i/)
+- [3957. Maximum Sum of M Non-Overlapping Subarrays II](../../3501-4000/3957-maximum-sum-of-m-non-overlapping-subarrays-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)

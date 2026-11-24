@@ -112,9 +112,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1250. Check If It Is a Good Array](../../1001-1500/1372-check-if-it-is-a-good-array/)
-- [1397. Find All Good Strings](../../1501-2000/1513-find-all-good-strings/)
-- [1448. Count Good Nodes in Binary Tree](../../1501-2000/1544-count-good-nodes-in-binary-tree/)
+- [1250. Check If It Is a Good Array](../../1001-1500/1250-check-if-it-is-a-good-array/)
+- [1397. Find All Good Strings](../../1001-1500/1397-find-all-good-strings/)
+- [1448. Count Good Nodes in Binary Tree](../../1001-1500/1448-count-good-nodes-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-good-base/)

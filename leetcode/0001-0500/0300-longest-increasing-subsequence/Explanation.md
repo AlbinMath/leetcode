@@ -116,7 +116,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [673. Number of Longest Increasing Subsequence](../../0501-1000/0673-number-of-longest-increasing-subsequence/)
 - [674. Longest Continuous Increasing Subsequence](../../0501-1000/0674-longest-continuous-increasing-subsequence/)
-- [2407. Longest Increasing Subsequence II](../../2501-3000/2526-longest-increasing-subsequence-ii/)
+- [2407. Longest Increasing Subsequence II](../../2001-2500/2407-longest-increasing-subsequence-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/)

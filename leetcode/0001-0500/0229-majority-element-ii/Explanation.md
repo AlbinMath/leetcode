@@ -134,8 +134,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [169. Majority Element](../../0001-0500/0169-majority-element/)
-- [1157. Online Majority Element In Subarray](../../1001-1500/1262-online-majority-element-in-subarray/)
-- [3737. Count Subarrays With Majority Element I](../../4001-4500/4074-count-subarrays-with-majority-element-i/)
+- [1157. Online Majority Element In Subarray](../../1001-1500/1157-online-majority-element-in-subarray/)
+- [3737. Count Subarrays With Majority Element I](../../3501-4000/3737-count-subarrays-with-majority-element-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/majority-element-ii/)

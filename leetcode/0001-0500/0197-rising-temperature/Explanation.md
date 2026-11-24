@@ -129,7 +129,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [778. Swim in Rising Water](../../0501-1000/0794-swim-in-rising-water/)
+- [778. Swim in Rising Water](../../0501-1000/0778-swim-in-rising-water/)
 - [175. Combine Two Tables](../../0001-0500/0175-combine-two-tables/)
 - [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
 

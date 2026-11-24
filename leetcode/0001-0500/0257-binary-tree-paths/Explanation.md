@@ -136,8 +136,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1457. Pseudo-Palindromic Paths in a Binary Tree](../../1501-2000/1568-pseudo-palindromic-paths-in-a-binary-tree/)
-- [2673. Make Costs of Paths Equal in a Binary Tree](../../2501-3000/2780-make-costs-of-paths-equal-in-a-binary-tree/)
+- [1457. Pseudo-Palindromic Paths in a Binary Tree](../../1001-1500/1457-pseudo-palindromic-paths-in-a-binary-tree/)
+- [2673. Make Costs of Paths Equal in a Binary Tree](../../2501-3000/2673-make-costs-of-paths-equal-in-a-binary-tree/)
 - [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
 
 ## LeetCode

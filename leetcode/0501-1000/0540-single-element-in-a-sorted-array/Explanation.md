@@ -114,7 +114,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [1287. Element Appearing More Than 25% In Sorted Array](../../1001-1500/1221-element-appearing-more-than-25-in-sorted-array/)
+- [1287. Element Appearing More Than 25% In Sorted Array](../../1001-1500/1287-element-appearing-more-than-25-in-sorted-array/)
 - [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode

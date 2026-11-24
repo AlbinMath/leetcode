@@ -109,9 +109,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [979. Distribute Coins in Binary Tree](../../1001-1500/1021-distribute-coins-in-binary-tree/)
-- [1561. Maximum Number of Coins You Can Get](../../1501-2000/1683-maximum-number-of-coins-you-can-get/)
-- [2603. Collect Coins in a Tree](../../2501-3000/2717-collect-coins-in-a-tree/)
+- [979. Distribute Coins in Binary Tree](../../0501-1000/0979-distribute-coins-in-binary-tree/)
+- [1561. Maximum Number of Coins You Can Get](../../1501-2000/1561-maximum-number-of-coins-you-can-get/)
+- [2603. Collect Coins in a Tree](../../2501-3000/2603-collect-coins-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/arranging-coins/)

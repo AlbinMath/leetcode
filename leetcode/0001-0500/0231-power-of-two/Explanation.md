@@ -98,7 +98,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [326. Power of Three](../../0001-0500/0326-power-of-three/)
 - [342. Power of Four](../../0001-0500/0342-power-of-four/)
-- [869. Reordered Power of 2](../../0501-1000/0900-reordered-power-of-2/)
+- [869. Reordered Power of 2](../../0501-1000/0869-reordered-power-of-2/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-of-two/)

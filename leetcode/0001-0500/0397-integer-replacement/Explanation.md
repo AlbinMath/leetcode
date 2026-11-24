@@ -111,9 +111,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [424. Longest Repeating Character Replacement](../../0001-0500/0424-longest-repeating-character-replacement/)
-- [3300. Minimum Element After Replacement With Digit Sum](../../3501-4000/3606-minimum-element-after-replacement-with-digit-sum/)
-- [4066. Maximum Equal Adjacent Pairs After at Most One Replacement](../../4001-4500/4420-maximum-equal-adjacent-pairs-after-at-most-one-replacement/)
+- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [12. Integer to Roman](../../0001-0500/0012-integer-to-roman/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/integer-replacement/)

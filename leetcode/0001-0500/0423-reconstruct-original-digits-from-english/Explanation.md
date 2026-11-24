@@ -109,9 +109,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [80. Remove Duplicates from Sorted Array II](../../0001-0500/0080-remove-duplicates-from-sorted-array-ii/)
+- [273. Integer to English Words](../../0001-0500/0273-integer-to-english-words/)
+- [2309. Greatest English Letter in Upper and Lower Case](../../2001-2500/2309-greatest-english-letter-in-upper-and-lower-case/)
+- [2122. Recover the Original Array](../../2001-2500/2122-recover-the-original-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reconstruct-original-digits-from-english/)

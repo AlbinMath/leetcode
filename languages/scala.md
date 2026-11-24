@@ -6,4 +6,4 @@ A collection of LeetCode problems implemented in **Scala** with detailed complex
 
 | # | Problem | Difficulty | Pattern | Time | Space | Explanation |
 |---|---|---|---|---|---|---|
-| 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1501-2000/1574-maximum-product-of-two-elements-in-an-array/) | Easy | Binary Search | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1574-maximum-product-of-two-elements-in-an-array/Explanation.md) |
+| 1464 | [Maximum Product of Two Elements in an Array](../leetcode/1001-1500/1464-maximum-product-of-two-elements-in-an-array/) | Easy | Binary Search | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1464-maximum-product-of-two-elements-in-an-array/Explanation.md) |

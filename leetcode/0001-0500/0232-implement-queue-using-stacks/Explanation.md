@@ -180,8 +180,8 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 
 ## Related Problems
 - [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
-- [470. Implement Rand10() Using Rand7()](../../0501-1000/0903-implement-rand10-using-rand7/)
-- [1172. Dinner Plate Stacks](../../1001-1500/1270-dinner-plate-stacks/)
+- [470. Implement Rand10() Using Rand7()](../../0001-0500/0470-implement-rand10-using-rand7/)
+- [208. Implement Trie (Prefix Tree)](../../0001-0500/0208-implement-trie-prefix-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/)

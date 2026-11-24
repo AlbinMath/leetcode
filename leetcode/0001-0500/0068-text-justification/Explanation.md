@@ -181,7 +181,7 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2296. Design a Text Editor](../../2001-2500/2389-design-a-text-editor/)
+- [2296. Design a Text Editor](../../2001-2500/2296-design-a-text-editor/)
 - [12. Integer to Roman](../../0001-0500/0012-integer-to-roman/)
 - [56. Merge Intervals](../../0001-0500/0056-merge-intervals/)
 

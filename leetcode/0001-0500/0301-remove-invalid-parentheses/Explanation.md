@@ -185,9 +185,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1021. Remove Outermost Parentheses](../../1001-1500/1078-remove-outermost-parentheses/)
-- [1249. Minimum Remove to Make Valid Parentheses](../../1001-1500/1371-minimum-remove-to-make-valid-parentheses/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
+- [1021. Remove Outermost Parentheses](../../1001-1500/1021-remove-outermost-parentheses/)
+- [1249. Minimum Remove to Make Valid Parentheses](../../1001-1500/1249-minimum-remove-to-make-valid-parentheses/)
+- [1169. Invalid Transactions](../../1001-1500/1169-invalid-transactions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-invalid-parentheses/)

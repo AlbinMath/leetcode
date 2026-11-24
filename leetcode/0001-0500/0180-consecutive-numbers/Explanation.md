@@ -127,9 +127,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [829. Consecutive Numbers Sum](../../0501-1000/0856-consecutive-numbers-sum/)
-- [967. Numbers With Same Consecutive Differences](../../1001-1500/1007-numbers-with-same-consecutive-differences/)
-- [1680. Concatenation of Consecutive Binary Numbers](../../1501-2000/1800-concatenation-of-consecutive-binary-numbers/)
+- [829. Consecutive Numbers Sum](../../0501-1000/0829-consecutive-numbers-sum/)
+- [967. Numbers With Same Consecutive Differences](../../0501-1000/0967-numbers-with-same-consecutive-differences/)
+- [1680. Concatenation of Consecutive Binary Numbers](../../1501-2000/1680-concatenation-of-consecutive-binary-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/consecutive-numbers/)

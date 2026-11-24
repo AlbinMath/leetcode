@@ -143,7 +143,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [959. Regions Cut By Slashes](../../0501-1000/0999-regions-cut-by-slashes/)
+- [959. Regions Cut By Slashes](../../0501-1000/0959-regions-cut-by-slashes/)
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 - [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
 

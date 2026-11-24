@@ -111,7 +111,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1591. Strange Printer II](../../1501-2000/1696-strange-printer-ii/)
+- [1591. Strange Printer II](../../1501-2000/1591-strange-printer-ii/)
 - [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
 - [72. Edit Distance](../../0001-0500/0072-edit-distance/)
 

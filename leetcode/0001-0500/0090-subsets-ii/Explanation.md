@@ -113,7 +113,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [78. Subsets](../../0001-0500/0078-subsets/)
 - [698. Partition to K Equal Sum Subsets](../../0501-1000/0698-partition-to-k-equal-sum-subsets/)
-- [916. Word Subsets](../../0501-1000/0952-word-subsets/)
+- [916. Word Subsets](../../0501-1000/0916-word-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subsets-ii/)

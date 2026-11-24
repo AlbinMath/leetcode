@@ -158,8 +158,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [44. Wildcard Matching](../../0001-0500/0044-wildcard-matching/)
-- [792. Number of Matching Subsequences](../../0501-1000/0808-number-of-matching-subsequences/)
-- [1023. Camelcase Matching](../../1001-1500/1080-camelcase-matching/)
+- [792. Number of Matching Subsequences](../../0501-1000/0792-number-of-matching-subsequences/)
+- [1023. Camelcase Matching](../../1001-1500/1023-camelcase-matching/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/regular-expression-matching/)

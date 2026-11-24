@@ -141,9 +141,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1530. Number of Good Leaf Nodes Pairs](../../1501-2000/1653-number-of-good-leaf-nodes-pairs/)
-- [1782. Count Pairs Of Nodes](../../1501-2000/1891-count-pairs-of-nodes/)
-- [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](../../2001-2500/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph/)
+- [1530. Number of Good Leaf Nodes Pairs](../../1501-2000/1530-number-of-good-leaf-nodes-pairs/)
+- [1782. Count Pairs Of Nodes](../../1501-2000/1782-count-pairs-of-nodes/)
+- [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](../../2001-2500/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/)

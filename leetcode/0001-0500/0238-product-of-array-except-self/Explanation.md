@@ -137,9 +137,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1464. Maximum Product of Two Elements in an Array](../../1501-2000/1574-maximum-product-of-two-elements-in-an-array/)
-- [1735. Count Ways to Make Array With Product](../../1501-2000/1836-count-ways-to-make-array-with-product/)
-- [1822. Sign of the Product of an Array](../../1501-2000/1950-sign-of-the-product-of-an-array/)
+- [1464. Maximum Product of Two Elements in an Array](../../1001-1500/1464-maximum-product-of-two-elements-in-an-array/)
+- [1735. Count Ways to Make Array With Product](../../1501-2000/1735-count-ways-to-make-array-with-product/)
+- [1822. Sign of the Product of an Array](../../1501-2000/1822-sign-of-the-product-of-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/product-of-array-except-self/)

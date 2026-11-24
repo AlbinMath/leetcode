@@ -122,7 +122,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1122. Relative Sort Array](../../1001-1500/1217-relative-sort-array/)
+- [1122. Relative Sort Array](../../1001-1500/1122-relative-sort-array/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 - [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 

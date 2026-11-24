@@ -113,8 +113,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2365. Task Scheduler II](../../2001-2500/2483-task-scheduler-ii/)
-- [3408. Design Task Manager](../../3501-4000/3678-design-task-manager/)
+- [2365. Task Scheduler II](../../2001-2500/2365-task-scheduler-ii/)
+- [3408. Design Task Manager](../../3001-3500/3408-design-task-manager/)
 - [1. Two Sum](../../0001-0500/0001-two-sum/)
 
 ## LeetCode

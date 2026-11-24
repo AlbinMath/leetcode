@@ -249,7 +249,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [460. LFU Cache](../../0001-0500/0460-lfu-cache/)
-- [2622. Cache With Time Limit](../../2501-3000/2762-cache-with-time-limit/)
+- [2622. Cache With Time Limit](../../2501-3000/2622-cache-with-time-limit/)
 - [1. Two Sum](../../0001-0500/0001-two-sum/)
 
 ## LeetCode

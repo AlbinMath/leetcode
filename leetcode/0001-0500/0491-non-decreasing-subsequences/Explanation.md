@@ -110,9 +110,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2289. Steps to Make Array Non-decreasing](../../2001-2500/2374-steps-to-make-array-non-decreasing/)
-- [2945. Find Maximum Non-decreasing Array Length](../../3001-3500/3211-find-maximum-non-decreasing-array-length/)
-- [3326. Minimum Division Operations to Make Array Non Decreasing](../../3501-4000/3607-minimum-division-operations-to-make-array-non-decreasing/)
+- [2289. Steps to Make Array Non-decreasing](../../2001-2500/2289-steps-to-make-array-non-decreasing/)
+- [2945. Find Maximum Non-decreasing Array Length](../../2501-3000/2945-find-maximum-non-decreasing-array-length/)
+- [3326. Minimum Division Operations to Make Array Non Decreasing](../../3001-3500/3326-minimum-division-operations-to-make-array-non-decreasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/non-decreasing-subsequences/)

@@ -111,7 +111,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [2415. Reverse Odd Levels of Binary Tree](../../2001-2500/2493-reverse-odd-levels-of-binary-tree/)
+- [2415. Reverse Odd Levels of Binary Tree](../../2001-2500/2415-reverse-odd-levels-of-binary-tree/)
 - [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
 - [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
 

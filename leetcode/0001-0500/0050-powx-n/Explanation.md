@@ -114,7 +114,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [51. N-Queens](../../0001-0500/0051-n-queens/)
 - [52. N-Queens II](../../0001-0500/0052-n-queens-ii/)
-- [429. N-ary Tree Level Order Traversal](../../0501-1000/0764-n-ary-tree-level-order-traversal/)
+- [429. N-ary Tree Level Order Traversal](../../0001-0500/0429-n-ary-tree-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/powx-n/)

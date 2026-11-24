@@ -102,9 +102,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1103. Distribute Candies to People](../../1001-1500/1195-distribute-candies-to-people/)
-- [2928. Distribute Candies Among Children I](../../3001-3500/3199-distribute-candies-among-children-i/)
-- [2929. Distribute Candies Among Children II](../../3001-3500/3201-distribute-candies-among-children-ii/)
+- [1103. Distribute Candies to People](../../1001-1500/1103-distribute-candies-to-people/)
+- [2928. Distribute Candies Among Children I](../../2501-3000/2928-distribute-candies-among-children-i/)
+- [2929. Distribute Candies Among Children II](../../2501-3000/2929-distribute-candies-among-children-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-candies/)

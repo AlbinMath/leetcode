@@ -123,9 +123,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [218. The Skyline Problem](../../0001-0500/0218-the-skyline-problem/)
 - [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
 - [42. Trapping Rain Water](../../0001-0500/0042-trapping-rain-water/)
+- [407. Trapping Rain Water II](../../0001-0500/0407-trapping-rain-water-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/water-and-jug-problem/)
