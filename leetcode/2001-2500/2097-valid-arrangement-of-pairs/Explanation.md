@@ -172,9 +172,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
-- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
-- [36. Valid Sudoku](../../0001-0500/0036-valid-sudoku/)
+- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [336. Palindrome Pairs](../../0001-0500/0336-palindrome-pairs/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-arrangement-of-pairs/)

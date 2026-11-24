@@ -172,8 +172,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3335. Total Characters in String After Transformations I](../../3001-3500/3335-total-characters-in-string-after-transformations-i/)
-- [4036. Lexicographically Largest String After Pair Transformations](../../4001-4500/4036-lexicographically-largest-string-after-pair-transformations/)
 - [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../../3501-4000/3816-lexicographically-smallest-string-after-deleting-duplicate-characters/)
+- [4036. Lexicographically Largest String After Pair Transformations](../../4001-4500/4036-lexicographically-largest-string-after-pair-transformations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-characters-in-string-after-transformations-ii/)

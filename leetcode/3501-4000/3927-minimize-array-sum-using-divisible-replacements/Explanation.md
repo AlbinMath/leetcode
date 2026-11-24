@@ -142,9 +142,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3012. Minimize Length of Array Using Operations](../../3001-3500/3012-minimize-length-of-array-using-operations/)
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
-- [3022. Minimize OR of Remaining Elements Using Operations](../../3001-3500/3022-minimize-or-of-remaining-elements-using-operations/)
+- [3012. Minimize Length of Array Using Operations](../../3001-3500/3012-minimize-length-of-array-using-operations/)
+- [2439. Minimize Maximum of Array](../../2001-2500/2439-minimize-maximum-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-array-sum-using-divisible-replacements/)

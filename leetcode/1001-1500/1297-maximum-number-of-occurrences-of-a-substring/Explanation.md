@@ -136,7 +136,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1456. Maximum Number of Vowels in a Substring of Given Length](../../1001-1500/1456-maximum-number-of-vowels-in-a-substring-of-given-length/)
 - [3090. Maximum Length Substring With Two Occurrences](../../3001-3500/3090-maximum-length-substring-with-two-occurrences/)
-- [1668. Maximum Repeating Substring](../../1501-2000/1668-maximum-repeating-substring/)
+- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)

@@ -151,9 +151,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1977. Number of Ways to Separate Numbers](../../1501-2000/1977-number-of-ways-to-separate-numbers/)
+- [2553. Separate the Digits in an Array](../../2501-3000/2553-separate-the-digits-in-an-array/)
 - [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
-- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
-- [977. Squares of a Sorted Array](../../0501-1000/0977-squares-of-a-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/separate-squares-ii/)

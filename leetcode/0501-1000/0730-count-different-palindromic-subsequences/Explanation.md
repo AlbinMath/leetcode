@@ -138,8 +138,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1819. Number of Different Subsequences GCDs](../../1501-2000/1819-number-of-different-subsequences-gcds/)
-- [1332. Remove Palindromic Subsequences](../../1001-1500/1332-remove-palindromic-subsequences/)
-- [1930. Unique Length-3 Palindromic Subsequences](../../1501-2000/1930-unique-length-3-palindromic-subsequences/)
+- [2842. Count K-Subsequences of a String With Maximum Beauty](../../2501-3000/2842-count-k-subsequences-of-a-string-with-maximum-beauty/)
+- [3404. Count Special Subsequences](../../3001-3500/3404-count-special-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-different-palindromic-subsequences/)

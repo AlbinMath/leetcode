@@ -166,7 +166,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2302. Count Subarrays With Score Less Than K](../../2001-2500/2302-count-subarrays-with-score-less-than-k/)
 - [3835. Count Subarrays With Cost Less Than or Equal to K](../../3501-4000/3835-count-subarrays-with-cost-less-than-or-equal-to-k/)
-- [713. Subarray Product Less Than K](../../0501-1000/0713-subarray-product-less-than-k/)
+- [2824. Count Pairs Whose Sum is Less than Target](../../2501-3000/2824-count-pairs-whose-sum-is-less-than-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-k-reducible-numbers-less-than-n/)

@@ -115,8 +115,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3955. Valid Binary Strings With Cost Limit](../../3501-4000/3955-valid-binary-strings-with-cost-limit/)
-- [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
-- [205. Isomorphic Strings](../../0001-0500/0205-isomorphic-strings/)
+- [67. Add Binary](../../0001-0500/0067-add-binary/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)

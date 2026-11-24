@@ -142,8 +142,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2197. Replace Non-Coprime Numbers in Array](../../2001-2500/2197-replace-non-coprime-numbers-in-array/)
-- [3145. Find Products of Elements of Big Array](../../3001-3500/3145-find-products-of-elements-of-big-array/)
 - [945. Minimum Increment to Make Array Unique](../../0501-1000/0945-minimum-increment-to-make-array-unique/)
+- [1187. Make Array Strictly Increasing](../../1001-1500/1187-make-array-strictly-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)

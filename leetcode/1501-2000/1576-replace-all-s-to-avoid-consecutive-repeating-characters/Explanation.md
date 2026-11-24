@@ -110,8 +110,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1844. Replace All Digits with Characters](../../1501-2000/1844-replace-all-digits-with-characters/)
-- [1446. Consecutive Characters](../../1001-1500/1446-consecutive-characters/)
-- [3970. Shortest Path With At Most K Consecutive Identical Characters](../../3501-4000/3970-shortest-path-with-at-most-k-consecutive-identical-characters/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1358-number-of-substrings-containing-all-three-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)

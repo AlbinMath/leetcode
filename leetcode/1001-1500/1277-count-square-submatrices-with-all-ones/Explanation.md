@@ -133,8 +133,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1504. Count Submatrices With All Ones](../../1501-2000/1504-count-submatrices-with-all-ones/)
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1359-count-all-valid-pickup-and-delivery-options/)
+- [1925. Count Square Sum Triples](../../1501-2000/1925-count-square-sum-triples/)
+- [2572. Count the Number of Square-Free Subsets](../../2501-3000/2572-count-the-number-of-square-free-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)

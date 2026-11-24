@@ -112,9 +112,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3139. Minimum Cost to Equalize Array](../../3001-3500/3139-minimum-cost-to-equalize-array/)
-- [3666. Minimum Operations to Equalize Binary String](../../3501-4000/3666-minimum-operations-to-equalize-binary-string/)
-- [3674. Minimum Operations to Equalize Array](../../3501-4000/3674-minimum-operations-to-equalize-array/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
+- [744. Find Smallest Letter Greater Than Target](../../0501-1000/0744-find-smallest-letter-greater-than-target/)
+- [784. Letter Case Permutation](../../0501-1000/0784-letter-case-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)

@@ -294,7 +294,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3633. Earliest Finish Time for Land and Water Rides I](../../3501-4000/3633-earliest-finish-time-for-land-and-water-rides-i/)
 - [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1723-find-minimum-time-to-finish-all-jobs/)
-- [1162. As Far from Land as Possible](../../1001-1500/1162-as-far-from-land-as-possible/)
+- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/)

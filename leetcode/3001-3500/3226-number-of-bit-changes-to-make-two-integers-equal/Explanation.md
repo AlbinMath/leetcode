@@ -103,8 +103,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3377. Digit Operations to Make Two Integers Equal](../../3001-3500/3377-digit-operations-to-make-two-integers-equal/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1347-minimum-number-of-steps-to-make-two-strings-anagram/)
 - [1460. Make Two Arrays Equal by Reversing Subarrays](../../1001-1500/1460-make-two-arrays-equal-by-reversing-subarrays/)
-- [2531. Make Number of Distinct Characters Equal](../../2501-3000/2531-make-number-of-distinct-characters-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)

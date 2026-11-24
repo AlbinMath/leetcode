@@ -135,9 +135,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [587. Erect the Fence](../../0501-1000/0587-erect-the-fence/)
 - [886. Possible Bipartition](../../0501-1000/0886-possible-bipartition/)
 - [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
-- [1162. As Far from Land as Possible](../../1001-1500/1162-as-far-from-land-as-possible/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/widest-possible-fence/)

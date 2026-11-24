@@ -146,8 +146,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
+- [1011. Capacity To Ship Packages Within D Days](../../1001-1500/1011-capacity-to-ship-packages-within-d-days/)
 - [1360. Number of Days Between Two Dates](../../1001-1500/1360-number-of-days-between-two-dates/)
-- [1553. Minimum Number of Days to Eat N Oranges](../../1501-2000/1553-minimum-number-of-days-to-eat-n-oranges/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/)

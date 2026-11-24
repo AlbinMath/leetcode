@@ -121,8 +121,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [337. House Robber III](../../0001-0500/0337-house-robber-iii/)
+- [2560. House Robber IV](../../2501-3000/2560-house-robber-iv/)
 - [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
-- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/house-robber/)

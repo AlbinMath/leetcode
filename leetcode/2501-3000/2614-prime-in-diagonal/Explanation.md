@@ -120,9 +120,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
-- [866. Prime Palindrome](../../0501-1000/0866-prime-palindrome/)
-- [1175. Prime Arrangements](../../1001-1500/1175-prime-arrangements/)
+- [498. Diagonal Traverse](../../0001-0500/0498-diagonal-traverse/)
+- [1572. Matrix Diagonal Sum](../../1501-2000/1572-matrix-diagonal-sum/)
+- [3459. Length of Longest V-Shaped Diagonal Segment](../../3001-3500/3459-length-of-longest-v-shaped-diagonal-segment/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prime-in-diagonal/)

@@ -224,7 +224,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3624. Number of Integers With Popcount-Depth Equal to K II](../../3501-4000/3624-number-of-integers-with-popcount-depth-equal-to-k-ii/)
 - [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
-- [2447. Number of Subarrays With GCD Equal to K](../../2001-2500/2447-number-of-subarrays-with-gcd-equal-to-k/)
+- [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-i/)

@@ -111,7 +111,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3843. First Element with Unique Frequency](../../3501-4000/3843-first-element-with-unique-frequency/)
-- [387. First Unique Character in a String](../../0001-0500/0387-first-unique-character-in-a-string/)
+- [2404. Most Frequent Even Element](../../2001-2500/2404-most-frequent-even-element/)
 - [3483. Unique 3-Digit Even Numbers](../../3001-3500/3483-unique-3-digit-even-numbers/)
 
 ## LeetCode

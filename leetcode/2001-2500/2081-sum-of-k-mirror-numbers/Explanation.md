@@ -166,7 +166,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2310. Sum of Numbers With Units Digit K](../../2001-2500/2310-sum-of-numbers-with-units-digit-k/)
 - [3855. Sum of K-Digit Numbers in a Range](../../3501-4000/3855-sum-of-k-digit-numbers-in-a-range/)
-- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
+- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-k-mirror-numbers/)

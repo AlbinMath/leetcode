@@ -185,7 +185,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [802. Find Eventual Safe States](../../0501-1000/0802-find-eventual-safe-states/)
 - [2812. Find the Safest Path in a Grid](../../2501-3000/2812-find-the-safest-path-in-a-grid/)
-- [524. Longest Word in Dictionary through Deleting](../../0501-1000/0524-longest-word-in-dictionary-through-deleting/)
+- [3108. Minimum Cost Walk in Weighted Graph](../../3001-3500/3108-minimum-cost-walk-in-weighted-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/)

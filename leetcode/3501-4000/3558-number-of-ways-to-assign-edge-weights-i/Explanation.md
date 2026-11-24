@@ -160,8 +160,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3559. Number of Ways to Assign Edge Weights II](../../3501-4000/3559-number-of-ways-to-assign-edge-weights-ii/)
-- [1434. Number of Ways to Wear Different Hats to Each Other](../../1001-1500/1434-number-of-ways-to-wear-different-hats-to-each-other/)
-- [1444. Number of Ways of Cutting a Pizza](../../1001-1500/1444-number-of-ways-of-cutting-a-pizza/)
+- [2699. Modify Graph Edge Weights](../../2501-3000/2699-modify-graph-edge-weights/)
+- [2071. Maximum Number of Tasks You Can Assign](../../2001-2500/2071-maximum-number-of-tasks-you-can-assign/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/)

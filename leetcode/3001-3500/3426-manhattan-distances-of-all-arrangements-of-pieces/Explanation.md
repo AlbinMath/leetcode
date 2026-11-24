@@ -174,9 +174,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3102. Minimize Manhattan Distances](../../3001-3500/3102-minimize-manhattan-distances/)
 - [3968. Maximum Manhattan Distance After All Moves](../../3501-4000/3968-maximum-manhattan-distance-after-all-moves/)
-- [834. Sum of Distances in Tree](../../0501-1000/0834-sum-of-distances-in-tree/)
+- [3102. Minimize Manhattan Distances](../../3001-3500/3102-minimize-manhattan-distances/)
+- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/manhattan-distances-of-all-arrangements-of-pieces/)

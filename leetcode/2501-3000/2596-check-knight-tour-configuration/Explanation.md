@@ -114,9 +114,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [688. Knight Probability in Chessboard](../../0501-1000/0688-knight-probability-in-chessboard/)
 - [958. Check Completeness of a Binary Tree](../../0501-1000/0958-check-completeness-of-a-binary-tree/)
 - [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1003-check-if-word-is-valid-after-substitutions/)
+- [1232. Check If It Is a Straight Line](../../1001-1500/1232-check-if-it-is-a-straight-line/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-knight-tour-configuration/)

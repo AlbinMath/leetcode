@@ -132,9 +132,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3482. Analyze Organization Hierarchy](../../3001-3500/3482-analyze-organization-hierarchy/)
 - [6. Zigzag Conversion](../../0001-0500/0006-zigzag-conversion/)
 - [3528. Unit Conversion I](../../3501-4000/3528-unit-conversion-i/)
+- [3482. Analyze Organization Hierarchy](../../3001-3500/3482-analyze-organization-hierarchy/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/analyze-subscription-conversion/)

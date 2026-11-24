@@ -139,9 +139,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 - [2006. Count Number of Pairs With Absolute Difference K](../../2001-2500/2006-count-number-of-pairs-with-absolute-difference-k/)
 - [2338. Count the Number of Ideal Arrays](../../2001-2500/2338-count-the-number-of-ideal-arrays/)
+- [3759. Count Elements With at Least K Greater Values](../../3501-4000/3759-count-elements-with-at-least-k-greater-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/)

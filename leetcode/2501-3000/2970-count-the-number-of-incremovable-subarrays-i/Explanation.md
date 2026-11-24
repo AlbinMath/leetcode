@@ -124,9 +124,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2972. Count the Number of Incremovable Subarrays II](../../2501-3000/2972-count-the-number-of-incremovable-subarrays-ii/)
 - [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
 - [2537. Count the Number of Good Subarrays](../../2501-3000/2537-count-the-number-of-good-subarrays/)
-- [2588. Count the Number of Beautiful Subarrays](../../2501-3000/2588-count-the-number-of-beautiful-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/)

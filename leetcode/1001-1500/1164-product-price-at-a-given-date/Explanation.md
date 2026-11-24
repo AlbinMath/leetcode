@@ -144,9 +144,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1484. Group Sold Products By The Date](../../1001-1500/1484-group-sold-products-by-the-date/)
-- [1507. Reformat Date](../../1501-2000/1507-reformat-date/)
-- [1251. Average Selling Price](../../1001-1500/1251-average-selling-price/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [902. Numbers At Most N Given Digit Set](../../0501-1000/0902-numbers-at-most-n-given-digit-set/)
+- [949. Largest Time for Given Digits](../../0501-1000/0949-largest-time-for-given-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/product-price-at-a-given-date/)

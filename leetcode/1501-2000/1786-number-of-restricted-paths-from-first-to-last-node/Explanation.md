@@ -140,9 +140,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [2096. Step-By-Step Directions From a Binary Tree Node to Another](../../2001-2500/2096-step-by-step-directions-from-a-binary-tree-node-to-another/)
 - [797. All Paths From Source to Target](../../0501-1000/0797-all-paths-from-source-to-target/)
-- [1301. Number of Paths with Max Score](../../1001-1500/1301-number-of-paths-with-max-score/)
-- [2328. Number of Increasing Paths in a Grid](../../2001-2500/2328-number-of-increasing-paths-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)

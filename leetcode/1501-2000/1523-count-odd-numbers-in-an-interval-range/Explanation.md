@@ -87,9 +87,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4011. Count Subarrays With Even Odd Ratio I](../../4001-4500/4011-count-subarrays-with-even-odd-ratio-i/)
-- [4013. Count Subarrays With Even Odd Ratio II](../../4001-4500/4013-count-subarrays-with-even-odd-ratio-ii/)
-- [201. Bitwise AND of Numbers Range](../../0001-0500/0201-bitwise-and-of-numbers-range/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [327. Count of Range Sum](../../0001-0500/0327-count-of-range-sum/)
+- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)

@@ -142,8 +142,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
-- [1786. Number of Restricted Paths From First to Last Node](../../1501-2000/1786-number-of-restricted-paths-from-first-to-last-node/)
-- [4067. Longest Subarray With Restricted Pair Sums](../../4001-4500/4067-longest-subarray-with-restricted-pair-sums/)
+- [1661. Average Time of Process per Machine](../../1501-2000/1661-average-time-of-process-per-machine/)
+- [1882. Process Tasks Using Servers](../../1501-2000/1882-process-tasks-using-servers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-restricted-friend-requests/)

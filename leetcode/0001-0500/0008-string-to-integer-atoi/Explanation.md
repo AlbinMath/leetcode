@@ -185,8 +185,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1309. Decrypt String from Alphabet to Integer Mapping](../../1001-1500/1309-decrypt-string-from-alphabet-to-integer-mapping/)
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
-- [12. Integer to Roman](../../0001-0500/0012-integer-to-roman/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [87. Scramble String](../../0001-0500/0087-scramble-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/string-to-integer-atoi/)

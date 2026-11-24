@@ -143,9 +143,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
-- [1162. As Far from Land as Possible](../../1001-1500/1162-as-far-from-land-as-possible/)
-- [1575. Count All Possible Routes](../../1501-2000/1575-count-all-possible-routes/)
+- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
+- [797. All Paths From Source to Target](../../0501-1000/0797-all-paths-from-source-to-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)

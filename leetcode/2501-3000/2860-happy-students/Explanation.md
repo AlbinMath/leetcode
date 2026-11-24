@@ -116,9 +116,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [596. Classes With at Least 5 Students](../../0501-1000/0596-classes-with-at-least-5-students/)
-- [1280. Students and Examinations](../../1001-1500/1280-students-and-examinations/)
-- [1349. Maximum Students Taking Exam](../../1001-1500/1349-maximum-students-taking-exam/)
+- [202. Happy Number](../../0001-0500/0202-happy-number/)
+- [1392. Longest Happy Prefix](../../1001-1500/1392-longest-happy-prefix/)
+- [1405. Longest Happy String](../../1001-1500/1405-longest-happy-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/happy-students/)

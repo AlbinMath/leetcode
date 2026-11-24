@@ -125,8 +125,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2482. Difference Between Ones and Zeros in Row and Column](../../2001-2500/2482-difference-between-ones-and-zeros-in-row-and-column/)
-- [434. Number of Segments in a String](../../0001-0500/0434-number-of-segments-in-a-string/)
-- [1621. Number of Sets of K Non-Overlapping Line Segments](../../1501-2000/1621-number-of-sets-of-k-non-overlapping-line-segments/)
+- [474. Ones and Zeroes](../../0001-0500/0474-ones-and-zeroes/)
+- [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)

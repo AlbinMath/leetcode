@@ -127,8 +127,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [478. Generate Random Point in a Circle](../../0001-0500/0478-generate-random-point-in-a-circle/)
 - [2250. Count Number of Rectangles Containing Each Point](../../2001-2500/2250-count-number-of-rectangles-containing-each-point/)
+- [478. Generate Random Point in a Circle](../../0001-0500/0478-generate-random-point-in-a-circle/)
 - [435. Non-overlapping Intervals](../../0001-0500/0435-non-overlapping-intervals/)
 
 ## LeetCode

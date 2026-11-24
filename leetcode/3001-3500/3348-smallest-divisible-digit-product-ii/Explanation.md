@@ -634,8 +634,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3345. Smallest Divisible Digit Product I](../../3001-3500/3345-smallest-divisible-digit-product-i/)
-- [2605. Form Smallest Number From Two Digit Arrays](../../2501-3000/2605-form-smallest-number-from-two-digit-arrays/)
-- [3550. Smallest Index With Digit Sum Equal to Index](../../3501-4000/3550-smallest-index-with-digit-sum-equal-to-index/)
+- [1015. Smallest Integer Divisible by K](../../1001-1500/1015-smallest-integer-divisible-by-k/)
+- [2040. Kth Smallest Product of Two Sorted Arrays](../../2001-2500/2040-kth-smallest-product-of-two-sorted-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-ii/)

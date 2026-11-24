@@ -111,9 +111,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1611-minimum-one-bit-operations-to-make-integers-zero/)
-- [1658. Minimum Operations to Reduce X to Zero](../../1501-2000/1658-minimum-operations-to-reduce-x-to-zero/)
 - [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
+- [2747. Count Zero Request Servers](../../2501-3000/2747-count-zero-request-servers/)
+- [2960. Count Tested Devices After Test Operations](../../2501-3000/2960-count-tested-devices-after-test-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-operations-to-obtain-zero/)

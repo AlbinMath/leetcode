@@ -133,7 +133,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [341. Flatten Nested List Iterator](../../0001-0500/0341-flatten-nested-list-iterator/)
 - [2649. Nested Array Generator](../../2501-3000/2649-nested-array-generator/)
-- [114. Flatten Binary Tree to Linked List](../../0001-0500/0114-flatten-binary-tree-to-linked-list/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flatten-deeply-nested-array/)

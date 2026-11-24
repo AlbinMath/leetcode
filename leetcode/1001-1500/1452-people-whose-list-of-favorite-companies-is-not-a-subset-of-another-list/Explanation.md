@@ -119,9 +119,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1978. Employees Whose Manager Left the Company](../../1501-2000/1978-employees-whose-manager-left-the-company/)
-- [1103. Distribute Candies to People](../../1001-1500/1103-distribute-candies-to-people/)
-- [1944. Number of Visible People in a Queue](../../1501-2000/1944-number-of-visible-people-in-a-queue/)
+- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
+- [1863. Sum of All Subset XOR Totals](../../1501-2000/1863-sum-of-all-subset-xor-totals/)
+- [1982. Find Array Given Subset Sums](../../1501-2000/1982-find-array-given-subset-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)

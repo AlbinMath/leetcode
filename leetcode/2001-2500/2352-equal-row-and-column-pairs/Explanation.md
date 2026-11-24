@@ -122,9 +122,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
+- [2482. Difference Between Ones and Zeros in Row and Column](../../2001-2500/2482-difference-between-ones-and-zeros-in-row-and-column/)
 - [2023. Number of Pairs of Strings With Concatenation Equal to Target](../../2001-2500/2023-number-of-pairs-of-strings-with-concatenation-equal-to-target/)
-- [2206. Divide Array Into Equal Pairs](../../2001-2500/2206-divide-array-into-equal-pairs/)
-- [3265. Count Almost Equal Pairs I](../../3001-3500/3265-count-almost-equal-pairs-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/equal-row-and-column-pairs/)

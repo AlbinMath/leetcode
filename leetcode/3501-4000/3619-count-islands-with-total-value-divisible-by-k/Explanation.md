@@ -127,8 +127,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2183-count-array-pairs-divisible-by-k/)
-- [1010. Pairs of Songs With Total Durations Divisible by 60](../../1001-1500/1010-pairs-of-songs-with-total-durations-divisible-by-60/)
-- [2462. Total Cost to Hire K Workers](../../2001-2500/2462-total-cost-to-hire-k-workers/)
+- [1905. Count Sub Islands](../../1501-2000/1905-count-sub-islands/)
+- [2006. Count Number of Pairs With Absolute Difference K](../../2001-2500/2006-count-number-of-pairs-with-absolute-difference-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/)

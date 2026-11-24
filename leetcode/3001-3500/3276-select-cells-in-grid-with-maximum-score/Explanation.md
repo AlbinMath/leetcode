@@ -123,8 +123,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3742. Maximum Path Score in a Grid](../../3501-4000/3742-maximum-path-score-in-a-grid/)
-- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1255-maximum-score-words-formed-by-letters/)
-- [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
+- [2257. Count Unguarded Cells in the Grid](../../2001-2500/2257-count-unguarded-cells-in-the-grid/)
+- [2617. Minimum Number of Visited Cells in a Grid](../../2501-3000/2617-minimum-number-of-visited-cells-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/select-cells-in-grid-with-maximum-score/)

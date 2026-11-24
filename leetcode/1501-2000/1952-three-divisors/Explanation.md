@@ -108,9 +108,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
-- [326. Power of Three](../../0001-0500/0326-power-of-three/)
-- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
+- [1362. Closest Divisors](../../1001-1500/1362-closest-divisors/)
+- [1390. Four Divisors](../../1001-1500/1390-four-divisors/)
+- [1808. Maximize Number of Nice Divisors](../../1501-2000/1808-maximize-number-of-nice-divisors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/three-divisors/)

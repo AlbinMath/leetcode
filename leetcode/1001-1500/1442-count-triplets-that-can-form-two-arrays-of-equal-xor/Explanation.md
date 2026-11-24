@@ -119,8 +119,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2791. Count Paths That Can Form a Palindrome in a Tree](../../2501-3000/2791-count-paths-that-can-form-a-palindrome-in-a-tree/)
+- [1460. Make Two Arrays Equal by Reversing Subarrays](../../1001-1500/1460-make-two-arrays-equal-by-reversing-subarrays/)
 - [1879. Minimum XOR Sum of Two Arrays](../../1501-2000/1879-minimum-xor-sum-of-two-arrays/)
-- [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1725-number-of-rectangles-that-can-form-the-largest-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)

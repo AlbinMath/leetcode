@@ -113,9 +113,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4009. Minimum Possible Maximum Waiting Time](../../4001-4500/4009-minimum-possible-maximum-waiting-time/)
 - [1661. Average Time of Process per Machine](../../1501-2000/1661-average-time-of-process-per-machine/)
-- [3168. Minimum Number of Chairs in a Waiting Room](../../3001-3500/3168-minimum-number-of-chairs-in-a-waiting-room/)
+- [4009. Minimum Possible Maximum Waiting Time](../../4001-4500/4009-minimum-possible-maximum-waiting-time/)
+- [637. Average of Levels in Binary Tree](../../0501-1000/0637-average-of-levels-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-waiting-time/)

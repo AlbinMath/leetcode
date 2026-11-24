@@ -114,9 +114,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [1901. Find a Peak Element II](../../1501-2000/1901-find-a-peak-element-ii/)
 - [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [852. Peak Index in a Mountain Array](../../0501-1000/0852-peak-index-in-a-mountain-array/)
-- [1765. Map of Highest Peak](../../1501-2000/1765-map-of-highest-peak/)
+- [27. Remove Element](../../0001-0500/0027-remove-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-peak-element/)

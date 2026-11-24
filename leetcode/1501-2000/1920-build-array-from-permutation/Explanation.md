@@ -113,8 +113,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1441. Build an Array With Stack Operations](../../1001-1500/1441-build-an-array-with-stack-operations/)
-- [3149. Find the Minimum Cost Array Permutation](../../3001-3500/3149-find-the-minimum-cost-array-permutation/)
 - [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [80. Remove Duplicates from Sorted Array II](../../0001-0500/0080-remove-duplicates-from-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/build-array-from-permutation/)

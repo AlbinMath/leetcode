@@ -132,9 +132,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1971. Find if Path Exists in Graph](../../1501-2000/1971-find-if-path-exists-in-graph/)
-- [2065. Maximum Path Quality of a Graph](../../2001-2500/2065-maximum-path-quality-of-a-graph/)
-- [2608. Shortest Cycle in a Graph](../../2501-3000/2608-shortest-cycle-in-a-graph/)
+- [847. Shortest Path Visiting All Nodes](../../0501-1000/0847-shortest-path-visiting-all-nodes/)
+- [864. Shortest Path to Get All Keys](../../0501-1000/0864-shortest-path-to-get-all-keys/)
+- [1091. Shortest Path in Binary Matrix](../../1001-1500/1091-shortest-path-in-binary-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)

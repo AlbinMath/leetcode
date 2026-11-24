@@ -140,8 +140,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [888. Fair Candy Swap](../../0501-1000/0888-fair-candy-swap/)
+- [2517. Maximum Tastiness of Candy Basket](../../2501-3000/2517-maximum-tastiness-of-candy-basket/)
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/candy/)

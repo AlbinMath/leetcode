@@ -131,7 +131,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1297. Maximum Number of Occurrences of a Substring](../../1001-1500/1297-maximum-number-of-occurrences-of-a-substring/)
 - [3090. Maximum Length Substring With Two Occurrences](../../3001-3500/3090-maximum-length-substring-with-two-occurrences/)
-- [1450. Number of Students Doing Homework at a Given Time](../../1001-1500/1450-number-of-students-doing-homework-at-a-given-time/)
+- [2790. Maximum Number of Groups With Increasing Length](../../2501-3000/2790-maximum-number-of-groups-with-increasing-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)

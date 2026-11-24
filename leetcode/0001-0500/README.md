@@ -1,6 +1,6 @@
 # LeetCode Problems: 0001-0500
 
-A collection of **398** solved LeetCode problems in the range **0001-0500**.
+A collection of **400** solved LeetCode problems in the range **0001-0500**.
 
 ## Problem Index
 
@@ -327,6 +327,7 @@ A collection of **398** solved LeetCode problems in the range **0001-0500**.
 | 397 | [Integer Replacement](./0397-integer-replacement/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0397-integer-replacement/Explanation.md) |
 | 398 | [Random Pick Index](./0398-random-pick-index/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0398-random-pick-index/Explanation.md) |
 | 399 | [Evaluate Division](./0399-evaluate-division/) | Medium | [Hash Map](../../patterns/hash-map.md) | JavaScript | [Explanation](./0399-evaluate-division/Explanation.md) |
+| 400 | [Nth Digit](./0400-nth-digit/) | Medium | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./0400-nth-digit/Explanation.md) |
 | 401 | [Binary Watch](./0401-binary-watch/) | Easy | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0401-binary-watch/Explanation.md) |
 | 402 | [Remove K Digits](./0402-remove-k-digits/) | Medium | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./0402-remove-k-digits/Explanation.md) |
 | 403 | [Frog Jump](./0403-frog-jump/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0403-frog-jump/Explanation.md) |
@@ -384,6 +385,7 @@ A collection of **398** solved LeetCode problems in the range **0001-0500**.
 | 472 | [Concatenated Words](./0472-concatenated-words/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0472-concatenated-words/Explanation.md) |
 | 473 | [Matchsticks to Square](./0473-matchsticks-to-square/) | Medium | [Backtracking](../../patterns/backtracking.md) | JavaScript | [Explanation](./0473-matchsticks-to-square/Explanation.md) |
 | 474 | [Ones and Zeroes](./0474-ones-and-zeroes/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0474-ones-and-zeroes/Explanation.md) |
+| 475 | [Heaters](./0475-heaters/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0475-heaters/Explanation.md) |
 | 476 | [Number Complement](./0476-number-complement/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0476-number-complement/Explanation.md) |
 | 477 | [Total Hamming Distance](./0477-total-hamming-distance/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0477-total-hamming-distance/Explanation.md) |
 | 478 | [Generate Random Point in a Circle](./0478-generate-random-point-in-a-circle/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0478-generate-random-point-in-a-circle/Explanation.md) |

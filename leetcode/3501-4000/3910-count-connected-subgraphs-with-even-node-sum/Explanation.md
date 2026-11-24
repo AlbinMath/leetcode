@@ -249,8 +249,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2180. Count Integers With Even Digit Sum](../../2001-2500/2180-count-integers-with-even-digit-sum/)
-- [3068. Find the Maximum Sum of Node Values](../../3001-3500/3068-find-the-maximum-sum-of-node-values/)
 - [327. Count of Range Sum](../../0001-0500/0327-count-of-range-sum/)
+- [1925. Count Square Sum Triples](../../1501-2000/1925-count-square-sum-triples/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-connected-subgraphs-with-even-node-sum/)

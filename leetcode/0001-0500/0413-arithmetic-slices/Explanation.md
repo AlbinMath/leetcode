@@ -107,8 +107,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [446. Arithmetic Slices II - Subsequence](../../0001-0500/0446-arithmetic-slices-ii-subsequence/)
+- [1027. Longest Arithmetic Subsequence](../../1001-1500/1027-longest-arithmetic-subsequence/)
 - [1307. Verbal Arithmetic Puzzle](../../1001-1500/1307-verbal-arithmetic-puzzle/)
-- [1502. Can Make Arithmetic Progression From Sequence](../../1501-2000/1502-can-make-arithmetic-progression-from-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/arithmetic-slices/)

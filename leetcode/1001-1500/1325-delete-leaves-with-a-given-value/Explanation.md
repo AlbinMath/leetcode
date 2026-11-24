@@ -110,8 +110,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1663. Smallest String With A Given Numeric Value](../../1501-2000/1663-smallest-string-with-a-given-numeric-value/)
+- [1802. Maximum Value at a Given Index in a Bounded Array](../../1501-2000/1802-maximum-value-at-a-given-index-in-a-bounded-array/)
 - [2156. Find Substring With Given Hash Value](../../2001-2500/2156-find-substring-with-given-hash-value/)
-- [2500. Delete Greatest Value in Each Row](../../2001-2500/2500-delete-greatest-value-in-each-row/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-leaves-with-a-given-value/)

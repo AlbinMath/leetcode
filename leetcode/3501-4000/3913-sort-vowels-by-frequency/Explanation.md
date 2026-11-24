@@ -157,7 +157,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
 - [1636. Sort Array by Increasing Frequency](../../1501-2000/1636-sort-array-by-increasing-frequency/)
-- [192. Word Frequency](../../0001-0500/0192-word-frequency/)
+- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-vowels-by-frequency/)

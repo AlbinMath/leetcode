@@ -150,9 +150,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [746. Min Cost Climbing Stairs](../../0501-1000/0746-min-cost-climbing-stairs/)
-- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1130-minimum-cost-tree-from-leaf-values/)
-- [1217. Minimum Cost to Move Chips to The Same Position](../../1001-1500/1217-minimum-cost-to-move-chips-to-the-same-position/)
+- [16. 3Sum Closest](../../0001-0500/0016-3sum-closest/)
+- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
+- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/closest-dessert-cost/)

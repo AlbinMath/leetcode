@@ -130,8 +130,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1791. Find Center of Star Graph](../../1501-2000/1791-find-center-of-star-graph/)
-- [2065. Maximum Path Quality of a Graph](../../2001-2500/2065-maximum-path-quality-of-a-graph/)
-- [2642. Design Graph With Shortest Path Calculator](../../2501-3000/2642-design-graph-with-shortest-path-calculator/)
+- [2812. Find the Safest Path in a Grid](../../2501-3000/2812-find-the-safest-path-in-a-grid/)
+- [3011. Find if Array Can Be Sorted](../../3001-3500/3011-find-if-array-can-be-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/)

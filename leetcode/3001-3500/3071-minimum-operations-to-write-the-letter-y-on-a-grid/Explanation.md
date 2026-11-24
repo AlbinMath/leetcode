@@ -137,8 +137,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2998. Minimum Number of Operations to Make X and Y Equal](../../2501-3000/2998-minimum-number-of-operations-to-make-x-and-y-equal/)
-- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1611-minimum-one-bit-operations-to-make-integers-zero/)
-- [1658. Minimum Operations to Reduce X to Zero](../../1501-2000/1658-minimum-operations-to-reduce-x-to-zero/)
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+- [1536. Minimum Swaps to Arrange a Binary Grid](../../1501-2000/1536-minimum-swaps-to-arrange-a-binary-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/)

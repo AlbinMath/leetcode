@@ -144,9 +144,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
-- [1913. Maximum Product Difference Between Two Pairs](../../1501-2000/1913-maximum-product-difference-between-two-pairs/)
-- [1984. Minimum Difference Between Highest and Lowest of K Scores](../../1501-2000/1984-minimum-difference-between-highest-and-lowest-of-k-scores/)
+- [1869. Longer Contiguous Segments of Ones than Zeros](../../1501-2000/1869-longer-contiguous-segments-of-ones-than-zeros/)
+- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
+- [2352. Equal Row and Column Pairs](../../2001-2500/2352-equal-row-and-column-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)

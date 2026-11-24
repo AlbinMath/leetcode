@@ -104,8 +104,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [812. Largest Triangle Area](../../0501-1000/0812-largest-triangle-area/)
-- [118. Pascal's Triangle](../../0001-0500/0118-pascals-triangle/)
-- [119. Pascal's Triangle II](../../0001-0500/0119-pascals-triangle-ii/)
+- [463. Island Perimeter](../../0001-0500/0463-island-perimeter/)
+- [1954. Minimum Garden Perimeter to Collect Enough Apples](../../1501-2000/1954-minimum-garden-perimeter-to-collect-enough-apples/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-perimeter-triangle/)

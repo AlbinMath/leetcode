@@ -145,9 +145,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2439. Minimize Maximum of Array](../../2001-2500/2439-minimize-maximum-of-array/)
 - [2513. Minimize the Maximum of Two Arrays](../../2501-3000/2513-minimize-the-maximum-of-two-arrays/)
-- [3419. Minimize the Maximum Edge Weight of Graph](../../3001-3500/3419-minimize-the-maximum-edge-weight-of-graph/)
-- [4098. Minimize the Maximum Value of GCD-Connected Array](../../4001-4500/4098-minimize-the-maximum-value-of-gcd-connected-array/)
+- [2616. Minimize the Maximum Difference of Pairs](../../2501-3000/2616-minimize-the-maximum-difference-of-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-maximum-component-cost/)

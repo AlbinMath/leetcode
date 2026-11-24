@@ -1,6 +1,6 @@
 # LeetCode Problems: 3001-3500
 
-A collection of **247** solved LeetCode problems in the range **3001-3500**.
+A collection of **248** solved LeetCode problems in the range **3001-3500**.
 
 ## Problem Index
 
@@ -40,6 +40,7 @@ A collection of **247** solved LeetCode problems in the range **3001-3500**.
 | 3045 | [Count Prefix and Suffix Pairs II](./3045-count-prefix-and-suffix-pairs-ii/) | Hard | [Prefix Sum](../../patterns/prefix-sum.md) | Python | [Explanation](./3045-count-prefix-and-suffix-pairs-ii/Explanation.md) |
 | 3046 | [Split the Array](./3046-split-the-array/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./3046-split-the-array/Explanation.md) |
 | 3047 | [Find the Largest Area of Square Inside Two Rectangles](./3047-find-the-largest-area-of-square-inside-two-rectangles/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./3047-find-the-largest-area-of-square-inside-two-rectangles/Explanation.md) |
+| 3048 | [Earliest Second to Mark Indices I](./3048-earliest-second-to-mark-indices-i/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./3048-earliest-second-to-mark-indices-i/Explanation.md) |
 | 3066 | [Minimum Operations to Exceed Threshold Value II](./3066-minimum-operations-to-exceed-threshold-value-ii/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./3066-minimum-operations-to-exceed-threshold-value-ii/Explanation.md) |
 | 3068 | [Find the Maximum Sum of Node Values](./3068-find-the-maximum-sum-of-node-values/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./3068-find-the-maximum-sum-of-node-values/Explanation.md) |
 | 3069 | [Distribute Elements Into Two Arrays I](./3069-distribute-elements-into-two-arrays-i/) | Easy | [Binary Search](../../patterns/binary-search.md) | Go | [Explanation](./3069-distribute-elements-into-two-arrays-i/Explanation.md) |
@@ -89,7 +90,7 @@ A collection of **247** solved LeetCode problems in the range **3001-3500**.
 | 3170 | [Lexicographically Minimum String After Removing Stars](./3170-lexicographically-minimum-string-after-removing-stars/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./3170-lexicographically-minimum-string-after-removing-stars/Explanation.md) |
 | 3171 | [Find Subarray With Bitwise OR Closest to K](./3171-find-subarray-with-bitwise-or-closest-to-k/) | Hard | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./3171-find-subarray-with-bitwise-or-closest-to-k/Explanation.md) |
 | 3174 | [Clear Digits](./3174-clear-digits/) | Easy | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./3174-clear-digits/Explanation.md) |
-| 3175 | [Find The First Player to win K Games in a Row](./3175-find-the-first-player-to-win-k-games-in-a-row/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./3175-find-the-first-player-to-win-k-games-in-a-row/Explanation.md) |
+| 3175 | [Find The First Player to win K Games in a Row](./3175-find-the-first-player-to-win-k-games-in-a-row/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | JavaScript | [Explanation](./3175-find-the-first-player-to-win-k-games-in-a-row/Explanation.md) |
 | 3178 | [Find the Child Who Has the Ball After K Seconds](./3178-find-the-child-who-has-the-ball-after-k-seconds/) | Easy | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./3178-find-the-child-who-has-the-ball-after-k-seconds/Explanation.md) |
 | 3179 | [Find the N-th Value After K Seconds](./3179-find-the-n-th-value-after-k-seconds/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./3179-find-the-n-th-value-after-k-seconds/Explanation.md) |
 | 3180 | [Maximum Total Reward Using Operations I](./3180-maximum-total-reward-using-operations-i/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./3180-maximum-total-reward-using-operations-i/Explanation.md) |

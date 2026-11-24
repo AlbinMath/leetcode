@@ -118,7 +118,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [1755. Closest Subsequence Sum](../../1501-2000/1755-closest-subsequence-sum/)
 - [2099. Find Subsequence of Length K With the Largest Sum](../../2001-2500/2099-find-subsequence-of-length-k-with-the-largest-sum/)
-- [2835. Minimum Operations to Form Subsequence With Target Sum](../../2501-3000/2835-minimum-operations-to-form-subsequence-with-target-sum/)
+- [2389. Longest Subsequence With Limited Sum](../../2001-2500/2389-longest-subsequence-with-limited-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/constrained-subsequence-sum/)

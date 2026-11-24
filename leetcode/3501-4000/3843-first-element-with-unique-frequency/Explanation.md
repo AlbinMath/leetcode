@@ -134,8 +134,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3866. First Unique Even Element](../../3501-4000/3866-first-unique-even-element/)
-- [387. First Unique Character in a String](../../0001-0500/0387-first-unique-character-in-a-string/)
-- [3978. Unique Middle Element](../../3501-4000/3978-unique-middle-element/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [1838. Frequency of the Most Frequent Element](../../1501-2000/1838-frequency-of-the-most-frequent-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-element-with-unique-frequency/)

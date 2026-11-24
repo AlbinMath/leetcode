@@ -129,7 +129,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2109. Adding Spaces to a String](../../2001-2500/2109-adding-spaces-to-a-string/)
 - [2135. Count Words Obtained After Adding a Letter](../../2001-2500/2135-count-words-obtained-after-adding-a-letter/)
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)

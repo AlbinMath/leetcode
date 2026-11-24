@@ -113,8 +113,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1040. Moving Stones Until Consecutive II](../../1001-1500/1040-moving-stones-until-consecutive-ii/)
-- [128. Longest Consecutive Sequence](../../0001-0500/0128-longest-consecutive-sequence/)
-- [180. Consecutive Numbers](../../0001-0500/0180-consecutive-numbers/)
+- [771. Jewels and Stones](../../0501-1000/0771-jewels-and-stones/)
+- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/moving-stones-until-consecutive/)

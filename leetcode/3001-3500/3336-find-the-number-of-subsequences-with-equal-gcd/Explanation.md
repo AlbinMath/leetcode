@@ -250,8 +250,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2447. Number of Subarrays With GCD Equal to K](../../2001-2500/2447-number-of-subarrays-with-gcd-equal-to-k/)
-- [792. Number of Matching Subsequences](../../0501-1000/0792-number-of-matching-subsequences/)
-- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1001-1500/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/)
+- [287. Find the Duplicate Number](../../0001-0500/0287-find-the-duplicate-number/)
+- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1295-find-numbers-with-even-number-of-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/)

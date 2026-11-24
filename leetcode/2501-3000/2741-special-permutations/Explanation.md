@@ -119,9 +119,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [761. Special Binary String](../../0501-1000/0761-special-binary-string/)
-- [893. Groups of Special-Equivalent Strings](../../0501-1000/0893-groups-of-special-equivalent-strings/)
-- [1475. Final Prices With a Special Discount in a Shop](../../1001-1500/1475-final-prices-with-a-special-discount-in-a-shop/)
+- [46. Permutations](../../0001-0500/0046-permutations/)
+- [47. Permutations II](../../0001-0500/0047-permutations-ii/)
+- [903. Valid Permutations for DI Sequence](../../0501-1000/0903-valid-permutations-for-di-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/special-permutations/)

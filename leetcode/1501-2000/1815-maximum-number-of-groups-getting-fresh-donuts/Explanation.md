@@ -150,9 +150,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2358. Maximum Number of Groups Entering a Competition](../../2001-2500/2358-maximum-number-of-groups-entering-a-competition/)
 - [2493. Divide Nodes Into the Maximum Number of Groups](../../2001-2500/2493-divide-nodes-into-the-maximum-number-of-groups/)
-- [3839. Number of Prefix Connected Groups](../../3501-4000/3839-number-of-prefix-connected-groups/)
-- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
+- [2790. Maximum Number of Groups With Increasing Length](../../2501-3000/2790-maximum-number-of-groups-with-increasing-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/)

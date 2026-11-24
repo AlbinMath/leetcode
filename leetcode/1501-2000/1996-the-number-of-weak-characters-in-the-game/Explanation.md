@@ -109,9 +109,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2974. Minimum Number Game](../../2501-3000/2974-minimum-number-game/)
 - [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1358-number-of-substrings-containing-all-three-characters/)
 - [1898. Maximum Number of Removable Characters](../../1501-2000/1898-maximum-number-of-removable-characters/)
+- [1941. Check if All Characters Have Equal Number of Occurrences](../../1501-2000/1941-check-if-all-characters-have-equal-number-of-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)

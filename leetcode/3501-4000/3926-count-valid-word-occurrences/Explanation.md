@@ -133,8 +133,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1003-check-if-word-is-valid-after-substitutions/)
 - [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1359-count-all-valid-pickup-and-delivery-options/)
+- [2284. Sender With Largest Word Count](../../2001-2500/2284-sender-with-largest-word-count/)
 - [2867. Count Valid Paths in a Tree](../../2501-3000/2867-count-valid-paths-in-a-tree/)
 
 ## LeetCode

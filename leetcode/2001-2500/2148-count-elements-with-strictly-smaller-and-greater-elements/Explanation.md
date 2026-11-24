@@ -100,8 +100,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3759. Count Elements With at Least K Greater Values](../../3501-4000/3759-count-elements-with-at-least-k-greater-values/)
-- [1608. Special Array With X Elements Greater Than or Equal X](../../1501-2000/1608-special-array-with-x-elements-greater-than-or-equal-x/)
-- [2334. Subarray With Elements Greater Than Varying Threshold](../../2001-2500/2334-subarray-with-elements-greater-than-varying-threshold/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [3005. Count Elements With Maximum Frequency](../../3001-3500/3005-count-elements-with-maximum-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)

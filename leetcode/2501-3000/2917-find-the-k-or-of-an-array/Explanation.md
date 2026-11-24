@@ -231,8 +231,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [532. K-diff Pairs in an Array](../../0501-1000/0532-k-diff-pairs-in-an-array/)
 - [629. K Inverse Pairs Array](../../0501-1000/0629-k-inverse-pairs-array/)
-- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-k-or-of-an-array/)

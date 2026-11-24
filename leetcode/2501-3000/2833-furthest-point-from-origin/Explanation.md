@@ -101,9 +101,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [657. Robot Return to Origin](../../0501-1000/0657-robot-return-to-origin/)
+- [973. K Closest Points to Origin](../../0501-1000/0973-k-closest-points-to-origin/)
 - [478. Generate Random Point in a Circle](../../0001-0500/0478-generate-random-point-in-a-circle/)
-- [497. Random Point in Non-overlapping Rectangles](../../0001-0500/0497-random-point-in-non-overlapping-rectangles/)
-- [1779. Find Nearest Point That Has the Same X or Y Coordinate](../../1501-2000/1779-find-nearest-point-that-has-the-same-x-or-y-coordinate/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/furthest-point-from-origin/)

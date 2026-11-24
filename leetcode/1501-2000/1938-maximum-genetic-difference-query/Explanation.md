@@ -176,8 +176,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
+- [1829. Maximum XOR for Each Query](../../1501-2000/1829-maximum-xor-for-each-query/)
 - [1913. Maximum Product Difference Between Two Pairs](../../1501-2000/1913-maximum-product-difference-between-two-pairs/)
-- [3115. Maximum Prime Difference](../../3001-3500/3115-maximum-prime-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-genetic-difference-query/)

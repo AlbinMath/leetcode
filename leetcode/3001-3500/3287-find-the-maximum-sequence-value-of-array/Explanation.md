@@ -125,9 +125,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [1802. Maximum Value at a Given Index in a Bounded Array](../../1501-2000/1802-maximum-value-at-a-given-index-in-a-bounded-array/)
 - [2562. Find the Array Concatenation Value](../../2501-3000/2562-find-the-array-concatenation-value/)
 - [3524. Find X Value of Array I](../../3501-4000/3524-find-x-value-of-array-i/)
-- [3525. Find X Value of Array II](../../3501-4000/3525-find-x-value-of-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-maximum-sequence-value-of-array/)

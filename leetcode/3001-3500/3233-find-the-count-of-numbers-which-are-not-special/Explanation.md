@@ -130,8 +130,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3158. Find the XOR of Numbers Which Appear Twice](../../3001-3500/3158-find-the-xor-of-numbers-which-appear-twice/)
-- [1995. Count Special Quadruplets](../../1501-2000/1995-count-special-quadruplets/)
-- [2981. Find Longest Special Substring That Occurs Thrice I](../../2501-3000/2981-find-longest-special-substring-that-occurs-thrice-i/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/)

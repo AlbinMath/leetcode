@@ -109,8 +109,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2584. Split the Array to Make Coprime Products](../../2501-3000/2584-split-the-array-to-make-coprime-products/)
 - [2295. Replace Elements in an Array](../../2001-2500/2295-replace-elements-in-an-array/)
+- [2584. Split the Array to Make Coprime Products](../../2501-3000/2584-split-the-array-to-make-coprime-products/)
 - [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
 
 ## LeetCode

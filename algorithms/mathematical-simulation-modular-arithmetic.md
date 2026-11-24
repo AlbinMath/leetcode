@@ -21,6 +21,7 @@ A curated selection of LeetCode problems solved using the **Mathematical Simulat
 | 357 | [Count Numbers with Unique Digits](../leetcode/0001-0500/0357-count-numbers-with-unique-digits/) | Medium | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0357-count-numbers-with-unique-digits/Explanation.md) |
 | 365 | [Water and Jug Problem](../leetcode/0001-0500/0365-water-and-jug-problem/) | Medium | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0365-water-and-jug-problem/Explanation.md) |
 | 391 | [Perfect Rectangle](../leetcode/0001-0500/0391-perfect-rectangle/) | Hard | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0391-perfect-rectangle/Explanation.md) |
+| 400 | [Nth Digit](../leetcode/0001-0500/0400-nth-digit/) | Medium | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0400-nth-digit/Explanation.md) |
 | 448 | [Find All Numbers Disappeared in an Array](../leetcode/0001-0500/0448-find-all-numbers-disappeared-in-an-array/) | Easy | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0448-find-all-numbers-disappeared-in-an-array/Explanation.md) |
 | 482 | [License Key Formatting](../leetcode/0001-0500/0482-license-key-formatting/) | Easy | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0482-license-key-formatting/Explanation.md) |
 | 485 | [Max Consecutive Ones](../leetcode/0001-0500/0485-max-consecutive-ones/) | Easy | Math & Logic | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0485-max-consecutive-ones/Explanation.md) |

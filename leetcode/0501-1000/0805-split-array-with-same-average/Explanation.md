@@ -132,7 +132,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
 - [842. Split Array into Fibonacci Sequence](../../0501-1000/0842-split-array-into-fibonacci-sequence/)
-- [2547. Minimum Cost to Split an Array](../../2501-3000/2547-minimum-cost-to-split-an-array/)
+- [1712. Ways to Split Array Into Three Subarrays](../../1501-2000/1712-ways-to-split-array-into-three-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-array-with-same-average/)

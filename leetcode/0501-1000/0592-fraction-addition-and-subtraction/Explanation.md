@@ -109,7 +109,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [2601. Prime Subtraction Operation](../../2501-3000/2601-prime-subtraction-operation/)
 - [166. Fraction to Recurring Decimal](../../0001-0500/0166-fraction-to-recurring-decimal/)
-- [598. Range Addition II](../../0501-1000/0598-range-addition-ii/)
+- [786. K-th Smallest Prime Fraction](../../0501-1000/0786-k-th-smallest-prime-fraction/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fraction-addition-and-subtraction/)

@@ -133,9 +133,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
 - [241. Different Ways to Add Parentheses](../../0001-0500/0241-different-ways-to-add-parentheses/)
 - [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
-- [992. Subarrays with K Different Integers](../../0501-1000/0992-subarrays-with-k-different-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-pair-with-different-frequencies/)

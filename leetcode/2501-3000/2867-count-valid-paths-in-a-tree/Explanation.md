@@ -204,8 +204,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2791. Count Paths That Can Form a Palindrome in a Tree](../../2501-3000/2791-count-paths-that-can-form-a-palindrome-in-a-tree/)
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
-- [257. Binary Tree Paths](../../0001-0500/0257-binary-tree-paths/)
+- [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1359-count-all-valid-pickup-and-delivery-options/)
+- [3926. Count Valid Word Occurrences](../../3501-4000/3926-count-valid-word-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-valid-paths-in-a-tree/)

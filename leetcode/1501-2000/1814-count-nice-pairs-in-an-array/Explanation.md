@@ -119,8 +119,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2183-count-array-pairs-divisible-by-k/)
-- [629. K Inverse Pairs Array](../../0501-1000/0629-k-inverse-pairs-array/)
-- [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
+- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
+- [1735. Count Ways to Make Array With Product](../../1501-2000/1735-count-ways-to-make-array-with-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-nice-pairs-in-an-array/)

@@ -125,8 +125,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [115. Distinct Subsequences](../../0001-0500/0115-distinct-subsequences/)
-- [1081. Smallest Subsequence of Distinct Characters](../../1001-1500/1081-smallest-subsequence-of-distinct-characters/)
-- [1316. Distinct Echo Substrings](../../1001-1500/1316-distinct-echo-substrings/)
+- [491. Non-decreasing Subsequences](../../0001-0500/0491-non-decreasing-subsequences/)
+- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-subsequences-ii/)

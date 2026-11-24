@@ -122,9 +122,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3335. Total Characters in String After Transformations I](../../3001-3500/3335-total-characters-in-string-after-transformations-i/)
-- [3337. Total Characters in String After Transformations II](../../3001-3500/3337-total-characters-in-string-after-transformations-ii/)
+- [3403. Find the Lexicographically Largest String From the Box I](../../3001-3500/3403-find-the-lexicographically-largest-string-from-the-box-i/)
 - [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1625-lexicographically-smallest-string-after-applying-operations/)
+- [3170. Lexicographically Minimum String After Removing Stars](../../3001-3500/3170-lexicographically-minimum-string-after-removing-stars/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/)

@@ -108,9 +108,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1110. Delete Nodes And Return Forest](../../1001-1500/1110-delete-nodes-and-return-forest/)
-- [2703. Return Length of Arguments Passed](../../2501-3000/2703-return-length-of-arguments-passed/)
-- [973. K Closest Points to Origin](../../0501-1000/0973-k-closest-points-to-origin/)
+- [874. Walking Robot Simulation](../../0501-1000/0874-walking-robot-simulation/)
+- [1041. Robot Bounded In Circle](../../1001-1500/1041-robot-bounded-in-circle/)
+- [2069. Walking Robot Simulation II](../../2001-2500/2069-walking-robot-simulation-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/robot-return-to-origin/)

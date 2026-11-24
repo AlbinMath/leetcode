@@ -100,8 +100,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2384. Largest Palindromic Number](../../2001-2500/2384-largest-palindromic-number/)
-- [1909. Remove One Element to Make the Array Strictly Increasing](../../1501-2000/1909-remove-one-element-to-make-the-array-strictly-increasing/)
-- [2148. Count Elements With Strictly Smaller and Greater Elements ](../../2001-2500/2148-count-elements-with-strictly-smaller-and-greater-elements/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/strictly-palindromic-number/)

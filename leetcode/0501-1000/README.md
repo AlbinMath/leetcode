@@ -1,6 +1,6 @@
 # LeetCode Problems: 0501-1000
 
-A collection of **376** solved LeetCode problems in the range **0501-1000**.
+A collection of **384** solved LeetCode problems in the range **0501-1000**.
 
 ## Problem Index
 
@@ -29,6 +29,7 @@ A collection of **376** solved LeetCode problems in the range **0501-1000**.
 | 528 | [Random Pick with Weight](./0528-random-pick-with-weight/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0528-random-pick-with-weight/Explanation.md) |
 | 529 | [Minesweeper](./0529-minesweeper/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0529-minesweeper/Explanation.md) |
 | 530 | [Minimum Absolute Difference in BST](./0530-minimum-absolute-difference-in-bst/) | Easy | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0530-minimum-absolute-difference-in-bst/Explanation.md) |
+| 532 | [K-diff Pairs in an Array](./0532-k-diff-pairs-in-an-array/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0532-k-diff-pairs-in-an-array/Explanation.md) |
 | 535 | [Encode and Decode TinyURL](./0535-encode-and-decode-tinyurl/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0535-encode-and-decode-tinyurl/Explanation.md) |
 | 537 | [Complex Number Multiplication](./0537-complex-number-multiplication/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0537-complex-number-multiplication/Explanation.md) |
 | 538 | [Convert BST to Greater Tree](./0538-convert-bst-to-greater-tree/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0538-convert-bst-to-greater-tree/Explanation.md) |
@@ -157,6 +158,7 @@ A collection of **376** solved LeetCode problems in the range **0501-1000**.
 | 715 | [Range Module](./0715-range-module/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0715-range-module/Explanation.md) |
 | 717 | [1-bit and 2-bit Characters](./0717-1-bit-and-2-bit-characters/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0717-1-bit-and-2-bit-characters/Explanation.md) |
 | 718 | [Maximum Length of Repeated Subarray](./0718-maximum-length-of-repeated-subarray/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0718-maximum-length-of-repeated-subarray/Explanation.md) |
+| 719 | [Find K-th Smallest Pair Distance](./0719-find-k-th-smallest-pair-distance/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0719-find-k-th-smallest-pair-distance/Explanation.md) |
 | 720 | [Longest Word in Dictionary](./0720-longest-word-in-dictionary/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0720-longest-word-in-dictionary/Explanation.md) |
 | 721 | [Accounts Merge](./0721-accounts-merge/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0721-accounts-merge/Explanation.md) |
 | 722 | [Remove Comments](./0722-remove-comments/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0722-remove-comments/Explanation.md) |
@@ -182,6 +184,7 @@ A collection of **376** solved LeetCode problems in the range **0501-1000**.
 | 749 | [Contain Virus](./0749-contain-virus/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0749-contain-virus/Explanation.md) |
 | 752 | [Open the Lock](./0752-open-the-lock/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0752-open-the-lock/Explanation.md) |
 | 753 | [Cracking the Safe](./0753-cracking-the-safe/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0753-cracking-the-safe/Explanation.md) |
+| 754 | [Reach a Number](./0754-reach-a-number/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0754-reach-a-number/Explanation.md) |
 | 756 | [Pyramid Transition Matrix](./0756-pyramid-transition-matrix/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0756-pyramid-transition-matrix/Explanation.md) |
 | 761 | [Special Binary String](./0761-special-binary-string/) | Hard | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0761-special-binary-string/Explanation.md) |
 | 762 | [Prime Number of Set Bits in Binary Representation](./0762-prime-number-of-set-bits-in-binary-representation/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0762-prime-number-of-set-bits-in-binary-representation/Explanation.md) |
@@ -202,11 +205,13 @@ A collection of **376** solved LeetCode problems in the range **0501-1000**.
 | 783 | [Minimum Distance Between BST Nodes](./0783-minimum-distance-between-bst-nodes/) | Easy | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0783-minimum-distance-between-bst-nodes/Explanation.md) |
 | 784 | [Letter Case Permutation](./0784-letter-case-permutation/) | Medium | [Backtracking](../../patterns/backtracking.md) | Python | [Explanation](./0784-letter-case-permutation/Explanation.md) |
 | 785 | [Is Graph Bipartite?](./0785-is-graph-bipartite/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0785-is-graph-bipartite/Explanation.md) |
+| 786 | [K-th Smallest Prime Fraction](./0786-k-th-smallest-prime-fraction/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0786-k-th-smallest-prime-fraction/Explanation.md) |
 | 787 | [Cheapest Flights Within K Stops](./0787-cheapest-flights-within-k-stops/) | Medium | [Heap](../../patterns/heap.md) | JavaScript | [Explanation](./0787-cheapest-flights-within-k-stops/Explanation.md) |
 | 788 | [Rotated Digits](./0788-rotated-digits/) | Medium | [Binary Search](../../patterns/binary-search.md) | C++ | [Explanation](./0788-rotated-digits/Explanation.md) |
 | 790 | [Domino and Tromino Tiling](./0790-domino-and-tromino-tiling/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | JavaScript | [Explanation](./0790-domino-and-tromino-tiling/Explanation.md) |
 | 791 | [Custom Sort String](./0791-custom-sort-string/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0791-custom-sort-string/Explanation.md) |
 | 792 | [Number of Matching Subsequences](./0792-number-of-matching-subsequences/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0792-number-of-matching-subsequences/Explanation.md) |
+| 793 | [Preimage Size of Factorial Zeroes Function](./0793-preimage-size-of-factorial-zeroes-function/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0793-preimage-size-of-factorial-zeroes-function/Explanation.md) |
 | 794 | [Valid Tic-Tac-Toe State](./0794-valid-tic-tac-toe-state/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0794-valid-tic-tac-toe-state/Explanation.md) |
 | 796 | [Rotate String](./0796-rotate-string/) | Easy | [Math & Logic](../../patterns/math-logic.md) | C++, JavaScript | [Explanation](./0796-rotate-string/Explanation.md) |
 | 797 | [All Paths From Source to Target](./0797-all-paths-from-source-to-target/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0797-all-paths-from-source-to-target/Explanation.md) |
@@ -230,6 +235,8 @@ A collection of **376** solved LeetCode problems in the range **0501-1000**.
 | 820 | [Short Encoding of Words](./0820-short-encoding-of-words/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0820-short-encoding-of-words/Explanation.md) |
 | 821 | [Shortest Distance to a Character](./0821-shortest-distance-to-a-character/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0821-shortest-distance-to-a-character/Explanation.md) |
 | 824 | [Goat Latin](./0824-goat-latin/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0824-goat-latin/Explanation.md) |
+| 825 | [Friends Of Appropriate Ages](./0825-friends-of-appropriate-ages/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0825-friends-of-appropriate-ages/Explanation.md) |
+| 826 | [Most Profit Assigning Work](./0826-most-profit-assigning-work/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0826-most-profit-assigning-work/Explanation.md) |
 | 827 | [Making A Large Island](./0827-making-a-large-island/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0827-making-a-large-island/Explanation.md) |
 | 828 | [Count Unique Characters of All Substrings of a Given String](./0828-count-unique-characters-of-all-substrings-of-a-given-string/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0828-count-unique-characters-of-all-substrings-of-a-given-string/Explanation.md) |
 | 829 | [Consecutive Numbers Sum](./0829-consecutive-numbers-sum/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0829-consecutive-numbers-sum/Explanation.md) |
@@ -282,6 +289,7 @@ A collection of **376** solved LeetCode problems in the range **0501-1000**.
 | 884 | [Uncommon Words from Two Sentences](./0884-uncommon-words-from-two-sentences/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0884-uncommon-words-from-two-sentences/Explanation.md) |
 | 885 | [Spiral Matrix III](./0885-spiral-matrix-iii/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0885-spiral-matrix-iii/Explanation.md) |
 | 886 | [Possible Bipartition](./0886-possible-bipartition/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0886-possible-bipartition/Explanation.md) |
+| 887 | [Super Egg Drop](./0887-super-egg-drop/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0887-super-egg-drop/Explanation.md) |
 | 888 | [Fair Candy Swap](./0888-fair-candy-swap/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0888-fair-candy-swap/Explanation.md) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](./0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0889-construct-binary-tree-from-preorder-and-postorder-traversal/Explanation.md) |
 | 890 | [Find and Replace Pattern](./0890-find-and-replace-pattern/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0890-find-and-replace-pattern/Explanation.md) |

@@ -141,9 +141,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
-- [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [981. Time Based Key-Value Store](../../0501-1000/0981-time-based-key-value-store/)
+- [817. Linked List Components](../../0501-1000/0817-linked-list-components/)
+- [2685. Count the Number of Complete Components](../../2501-3000/2685-count-the-number-of-complete-components/)
+- [3378. Count Connected Components in LCM Graph](../../3001-3500/3378-count-connected-components-in-lcm-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-components-with-same-value/)

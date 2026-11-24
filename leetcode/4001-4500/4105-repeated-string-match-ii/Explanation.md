@@ -125,7 +125,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [686. Repeated String Match](../../0501-1000/0686-repeated-string-match/)
 - [942. DI String Match](../../0501-1000/0942-di-string-match/)
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [187. Repeated DNA Sequences](../../0001-0500/0187-repeated-dna-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-string-match-ii/)

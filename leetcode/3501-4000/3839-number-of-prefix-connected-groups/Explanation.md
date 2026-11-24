@@ -159,8 +159,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1319. Number of Operations to Make Network Connected](../../1001-1500/1319-number-of-operations-to-make-network-connected/)
 - [1815. Maximum Number of Groups Getting Fresh Donuts](../../1501-2000/1815-maximum-number-of-groups-getting-fresh-donuts/)
+- [2358. Maximum Number of Groups Entering a Competition](../../2001-2500/2358-maximum-number-of-groups-entering-a-competition/)
 - [2493. Divide Nodes Into the Maximum Number of Groups](../../2001-2500/2493-divide-nodes-into-the-maximum-number-of-groups/)
 
 ## LeetCode

@@ -133,8 +133,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3813. Vowel-Consonant Score](../../3501-4000/3813-vowel-consonant-score/)
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
 - [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1606-find-servers-that-handled-most-number-of-requests/)
+- [1673. Find the Most Competitive Subsequence](../../1501-2000/1673-find-the-most-competitive-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/)

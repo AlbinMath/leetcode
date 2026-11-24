@@ -117,9 +117,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [2458. Height of Binary Tree After Subtree Removal Queries](../../2001-2500/2458-height-of-binary-tree-after-subtree-removal-queries/)
-- [2736. Maximum Sum Queries](../../2501-3000/2736-maximum-sum-queries/)
-- [3243. Shortest Distance After Road Addition Queries I](../../3001-3500/3243-shortest-distance-after-road-addition-queries-i/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
+- [1945. Sum of Digits of String After Convert](../../1501-2000/1945-sum-of-digits-of-string-after-convert/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)

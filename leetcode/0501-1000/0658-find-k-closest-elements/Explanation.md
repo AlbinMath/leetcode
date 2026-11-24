@@ -110,8 +110,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3171. Find Subarray With Bitwise OR Closest to K](../../3001-3500/3171-find-subarray-with-bitwise-or-closest-to-k/)
-- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
-- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
+- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
+- [973. K Closest Points to Origin](../../0501-1000/0973-k-closest-points-to-origin/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-closest-elements/)

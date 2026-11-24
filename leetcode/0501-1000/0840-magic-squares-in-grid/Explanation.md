@@ -144,9 +144,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [676. Implement Magic Dictionary](../../0501-1000/0676-implement-magic-dictionary/)
-- [2171. Removing Minimum Number of Magic Beans](../../2001-2500/2171-removing-minimum-number-of-magic-beans/)
 - [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
+- [977. Squares of a Sorted Array](../../0501-1000/0977-squares-of-a-sorted-array/)
+- [1240. Tiling a Rectangle with the Fewest Squares](../../1001-1500/1240-tiling-a-rectangle-with-the-fewest-squares/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/magic-squares-in-grid/)

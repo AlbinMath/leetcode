@@ -193,7 +193,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
 - [3325. Count Substrings With K-Frequency Characters I](../../3001-3500/3325-count-substrings-with-k-frequency-characters-i/)
-- [169. Majority Element](../../0001-0500/0169-majority-element/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/majority-frequency-characters/)

@@ -175,8 +175,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2203. Minimum Weighted Subgraph With the Required Paths](../../2001-2500/2203-minimum-weighted-subgraph-with-the-required-paths/)
-- [3789. Minimum Cost to Acquire Required Items](../../3501-4000/3789-minimum-cost-to-acquire-required-items/)
 - [3108. Minimum Cost Walk in Weighted Graph](../../3001-3500/3108-minimum-cost-walk-in-weighted-graph/)
+- [3789. Minimum Cost to Acquire Required Items](../../3501-4000/3789-minimum-cost-to-acquire-required-items/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths-ii/)

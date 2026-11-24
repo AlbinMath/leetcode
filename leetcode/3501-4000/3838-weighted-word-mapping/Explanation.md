@@ -137,9 +137,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2203. Minimum Weighted Subgraph With the Required Paths](../../2001-2500/2203-minimum-weighted-subgraph-with-the-required-paths/)
-- [3108. Minimum Cost Walk in Weighted Graph](../../3001-3500/3108-minimum-cost-walk-in-weighted-graph/)
-- [3515. Shortest Path in a Weighted Tree](../../3501-4000/3515-shortest-path-in-a-weighted-tree/)
+- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
+- [79. Word Search](../../0001-0500/0079-word-search/)
+- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/weighted-word-mapping/)

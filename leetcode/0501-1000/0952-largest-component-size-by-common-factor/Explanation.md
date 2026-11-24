@@ -141,8 +141,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3319. K-th Largest Perfect Subtree Size in Binary Tree](../../3001-3500/3319-k-th-largest-perfect-subtree-size-in-binary-tree/)
-- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
-- [235. Lowest Common Ancestor of a Binary Search Tree](../../0001-0500/0235-lowest-common-ancestor-of-a-binary-search-tree/)
+- [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
+- [179. Largest Number](../../0001-0500/0179-largest-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-component-size-by-common-factor/)

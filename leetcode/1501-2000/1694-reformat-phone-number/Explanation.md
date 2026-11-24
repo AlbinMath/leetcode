@@ -150,8 +150,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [65. Valid Number](../../0001-0500/0065-valid-number/)
+- [1179. Reformat Department Table](../../1001-1500/1179-reformat-department-table/)
+- [1417. Reformat The String](../../1001-1500/1417-reformat-the-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reformat-phone-number/)

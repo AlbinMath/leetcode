@@ -97,7 +97,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 - [445. Add Two Numbers II](../../0001-0500/0445-add-two-numbers-ii/)
-- [67. Add Binary](../../0001-0500/0067-add-binary/)
+- [1. Two Sum](../../0001-0500/0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-two-promises/)

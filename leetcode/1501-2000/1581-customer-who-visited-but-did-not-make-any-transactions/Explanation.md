@@ -179,9 +179,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [183. Customers Who Never Order](../../0001-0500/0183-customers-who-never-order/)
-- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
-- [1045. Customers Who Bought All Products](../../1001-1500/1045-customers-who-bought-all-products/)
+- [768. Max Chunks To Make Sorted II](../../0501-1000/0768-max-chunks-to-make-sorted-ii/)
+- [769. Max Chunks To Make Sorted](../../0501-1000/0769-max-chunks-to-make-sorted/)
+- [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0921-minimum-add-to-make-parentheses-valid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)

@@ -131,8 +131,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [172. Factorial Trailing Zeroes](../../0001-0500/0172-factorial-trailing-zeroes/)
+- [793. Preimage Size of Factorial Zeroes Function](../../0501-1000/0793-preimage-size-of-factorial-zeroes-function/)
 - [48. Rotate Image](../../0001-0500/0048-rotate-image/)
-- [55. Jump Game](../../0001-0500/0055-jump-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/clumsy-factorial/)

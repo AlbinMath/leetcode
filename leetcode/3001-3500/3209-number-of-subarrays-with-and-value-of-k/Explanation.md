@@ -108,7 +108,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2447. Number of Subarrays With GCD Equal to K](../../2001-2500/2447-number-of-subarrays-with-gcd-equal-to-k/)
 - [2470. Number of Subarrays With LCM Equal to K](../../2001-2500/2470-number-of-subarrays-with-lcm-equal-to-k/)
-- [995. Minimum Number of K Consecutive Bit Flips](../../0501-1000/0995-minimum-number-of-k-consecutive-bit-flips/)
+- [2283. Check if Number Has Equal Digit Count and Digit Value](../../2001-2500/2283-check-if-number-has-equal-digit-count-and-digit-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/)

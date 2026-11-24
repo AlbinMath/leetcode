@@ -114,7 +114,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1595. Minimum Cost to Connect Two Groups of Points](../../1501-2000/1595-minimum-cost-to-connect-two-groups-of-points/)
 - [746. Min Cost Climbing Stairs](../../0501-1000/0746-min-cost-climbing-stairs/)
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
+- [3784. Minimum Deletion Cost to Make All Characters Equal](../../3501-4000/3784-minimum-deletion-cost-to-make-all-characters-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/min-cost-to-connect-all-points/)

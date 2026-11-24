@@ -126,8 +126,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [372. Super Pow](../../0001-0500/0372-super-pow/)
+- [887. Super Egg Drop](../../0501-1000/0887-super-egg-drop/)
 - [906. Super Palindromes](../../0501-1000/0906-super-palindromes/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/super-washing-machines/)
