@@ -126,8 +126,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [964. Least Operators to Express Number](../../0501-1000/0964-least-operators-to-express-number/)
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
-- [736. Parse Lisp Expression](../../0501-1000/0736-parse-lisp-expression/)
+- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
+- [67. Add Binary](../../0001-0500/0067-add-binary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/expression-add-operators/)

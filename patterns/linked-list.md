@@ -6,9 +6,7 @@ A collection of LeetCode problems solved using **Linked List** pattern technique
 
 ### Easy
 
-| # | Problem | Language | Time | Space | Explanation |
-|---|---|---|---|---|---|
-| 3925 | [Concatenate Array With Reverse](../leetcode/3501-4000/3925-concatenate-array-with-reverse/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3925-concatenate-array-with-reverse/Explanation.md) |
+*No problems logged yet under this difficulty level.*
 
 ### Medium
 

@@ -107,9 +107,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1664. Ways to Make a Fair Array](../../1501-2000/1664-ways-to-make-a-fair-array/)
-- [2305. Fair Distribution of Cookies](../../2001-2500/2305-fair-distribution-of-cookies/)
 - [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [627. Swap Sex of Employees](../../0501-1000/0627-swap-sex-of-employees/)
+- [670. Maximum Swap](../../0501-1000/0670-maximum-swap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fair-candy-swap/)

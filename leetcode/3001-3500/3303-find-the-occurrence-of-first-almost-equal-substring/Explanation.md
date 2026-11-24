@@ -129,8 +129,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [3265. Count Almost Equal Pairs I](../../3001-3500/3265-count-almost-equal-pairs-i/)
-- [3267. Count Almost Equal Pairs II](../../3001-3500/3267-count-almost-equal-pairs-ii/)
+- [1624. Largest Substring Between Two Equal Characters](../../1501-2000/1624-largest-substring-between-two-equal-characters/)
+- [2831. Find the Longest Equal Subarray](../../2501-3000/2831-find-the-longest-equal-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-occurrence-of-first-almost-equal-substring/)

@@ -113,9 +113,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [342. Power of Four](../../0001-0500/0342-power-of-four/)
 - [1362. Closest Divisors](../../1001-1500/1362-closest-divisors/)
 - [1808. Maximize Number of Nice Divisors](../../1501-2000/1808-maximize-number-of-nice-divisors/)
+- [1952. Three Divisors](../../1501-2000/1952-three-divisors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/four-divisors/)

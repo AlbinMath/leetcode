@@ -109,8 +109,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2375. Construct Smallest Number From DI String](../../2001-2500/2375-construct-smallest-number-from-di-string/)
 - [686. Repeated String Match](../../0501-1000/0686-repeated-string-match/)
+- [2375. Construct Smallest Number From DI String](../../2001-2500/2375-construct-smallest-number-from-di-string/)
 - [4105. Repeated String Match II](../../4001-4500/4105-repeated-string-match-ii/)
 
 ## LeetCode

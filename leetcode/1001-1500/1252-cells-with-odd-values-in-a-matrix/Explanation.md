@@ -123,7 +123,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1030. Matrix Cells in Distance Order](../../1001-1500/1030-matrix-cells-in-distance-order/)
 - [2713. Maximum Strictly Increasing Cells in a Matrix](../../2501-3000/2713-maximum-strictly-increasing-cells-in-a-matrix/)
-- [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)

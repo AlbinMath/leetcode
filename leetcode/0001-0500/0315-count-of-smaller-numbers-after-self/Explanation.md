@@ -146,9 +146,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
-- [1351. Count Negative Numbers in a Sorted Matrix](../../1001-1500/1351-count-negative-numbers-in-a-sorted-matrix/)
-- [1523. Count Odd Numbers in an Interval Range](../../1501-2000/1523-count-odd-numbers-in-an-interval-range/)
+- [1365. How Many Numbers Are Smaller Than the Current Number](../../1001-1500/1365-how-many-numbers-are-smaller-than-the-current-number/)
+- [2148. Count Elements With Strictly Smaller and Greater Elements ](../../2001-2500/2148-count-elements-with-strictly-smaller-and-greater-elements/)
+- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)

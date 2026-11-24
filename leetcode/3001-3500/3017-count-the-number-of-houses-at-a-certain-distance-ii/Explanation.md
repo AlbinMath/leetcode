@@ -215,7 +215,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3015. Count the Number of Houses at a Certain Distance I](../../3001-3500/3015-count-the-number-of-houses-at-a-certain-distance-i/)
 - [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
-- [1395. Count Number of Teams](../../1001-1500/1395-count-number-of-teams/)
+- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii/)

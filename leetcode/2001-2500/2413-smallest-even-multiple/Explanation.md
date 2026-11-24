@@ -92,8 +92,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3718. Smallest Missing Multiple of K](../../3501-4000/3718-smallest-missing-multiple-of-k/)
-- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
-- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
+- [975. Odd Even Jump](../../0501-1000/0975-odd-even-jump/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-even-multiple/)

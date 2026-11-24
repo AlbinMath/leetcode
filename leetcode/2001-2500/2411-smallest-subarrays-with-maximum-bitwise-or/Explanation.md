@@ -126,8 +126,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
-- [898. Bitwise ORs of Subarrays](../../0501-1000/0898-bitwise-ors-of-subarrays/)
 - [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1031-maximum-sum-of-two-non-overlapping-subarrays/)
+- [2044. Count Number of Maximum Bitwise-OR Subsets](../../2001-2500/2044-count-number-of-maximum-bitwise-or-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)

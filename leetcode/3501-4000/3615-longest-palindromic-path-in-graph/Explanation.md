@@ -169,9 +169,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1971. Find if Path Exists in Graph](../../1501-2000/1971-find-if-path-exists-in-graph/)
-- [2065. Maximum Path Quality of a Graph](../../2001-2500/2065-maximum-path-quality-of-a-graph/)
-- [2360. Longest Cycle in a Graph](../../2001-2500/2360-longest-cycle-in-a-graph/)
+- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
+- [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
+- [687. Longest Univalue Path](../../0501-1000/0687-longest-univalue-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindromic-path-in-graph/)

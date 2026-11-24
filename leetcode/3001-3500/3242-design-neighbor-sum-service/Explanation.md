@@ -122,9 +122,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1515. Best Position for a Service Centre](../../1501-2000/1515-best-position-for-a-service-centre/)
 - [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
 - [355. Design Twitter](../../0001-0500/0355-design-twitter/)
+- [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-neighbor-sum-service/)

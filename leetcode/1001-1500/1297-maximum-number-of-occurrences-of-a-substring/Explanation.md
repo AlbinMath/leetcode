@@ -134,9 +134,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3090. Maximum Length Substring With Two Occurrences](../../3001-3500/3090-maximum-length-substring-with-two-occurrences/)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](../../1001-1500/1456-maximum-number-of-vowels-in-a-substring-of-given-length/)
-- [1207. Unique Number of Occurrences](../../1001-1500/1207-unique-number-of-occurrences/)
+- [3090. Maximum Length Substring With Two Occurrences](../../3001-3500/3090-maximum-length-substring-with-two-occurrences/)
+- [1668. Maximum Repeating Substring](../../1501-2000/1668-maximum-repeating-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)

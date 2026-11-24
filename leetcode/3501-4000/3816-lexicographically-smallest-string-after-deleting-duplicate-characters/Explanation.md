@@ -116,7 +116,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1625-lexicographically-smallest-string-after-applying-operations/)
 - [3722. Lexicographically Smallest String After Reverse](../../3501-4000/3722-lexicographically-smallest-string-after-reverse/)
-- [3335. Total Characters in String After Transformations I](../../3001-3500/3335-total-characters-in-string-after-transformations-i/)
+- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1061-lexicographically-smallest-equivalent-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-smallest-string-after-deleting-duplicate-characters/)

@@ -97,7 +97,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
 - [1200. Minimum Absolute Difference](../../1001-1500/1200-minimum-absolute-difference/)
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
+- [1984. Minimum Difference Between Highest and Lowest of K Scores](../../1501-2000/1984-minimum-difference-between-highest-and-lowest-of-k-scores/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-difference/)

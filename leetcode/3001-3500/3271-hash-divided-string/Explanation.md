@@ -117,9 +117,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2156. Find Substring With Given Hash Value](../../2001-2500/2156-find-substring-with-given-hash-value/)
 - [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [87. Scramble String](../../0001-0500/0087-scramble-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/hash-divided-string/)

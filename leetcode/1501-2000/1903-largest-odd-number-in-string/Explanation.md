@@ -107,8 +107,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [179. Largest Number](../../0001-0500/0179-largest-number/)
+- [434. Number of Segments in a String](../../0001-0500/0434-number-of-segments-in-a-string/)
 - [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
-- [747. Largest Number At Least Twice of Others](../../0501-1000/0747-largest-number-at-least-twice-of-others/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-odd-number-in-string/)

@@ -117,9 +117,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3962. Maximum Subarray Sum After at Most K Swaps](../../3501-4000/3962-maximum-subarray-sum-after-at-most-k-swaps/)
 - [1838. Frequency of the Most Frequent Element](../../1501-2000/1838-frequency-of-the-most-frequent-element/)
 - [2190. Most Frequent Number Following Key In an Array](../../2001-2500/2190-most-frequent-number-following-key-in-an-array/)
-- [2404. Most Frequent Even Element](../../2001-2500/2404-most-frequent-even-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-frequent-subtree-sum/)

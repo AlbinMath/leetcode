@@ -120,8 +120,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1568. Minimum Number of Days to Disconnect Island](../../1501-2000/1568-minimum-number-of-days-to-disconnect-island/)
+- [1700. Number of Students Unable to Eat Lunch](../../1501-2000/1700-number-of-students-unable-to-eat-lunch/)
 - [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
-- [1360. Number of Days Between Two Dates](../../1001-1500/1360-number-of-days-between-two-dates/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)

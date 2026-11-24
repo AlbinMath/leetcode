@@ -147,8 +147,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1662. Check If Two String Arrays are Equivalent](../../1501-2000/1662-check-if-two-string-arrays-are-equivalent/)
 - [1704. Determine if String Halves Are Alike](../../1501-2000/1704-determine-if-string-halves-are-alike/)
+- [2068. Check Whether Two Strings are Almost Equivalent](../../2001-2500/2068-check-whether-two-strings-are-almost-equivalent/)
 - [3327. Check if DFS Strings Are Palindromes](../../3001-3500/3327-check-if-dfs-strings-are-palindromes/)
 
 ## LeetCode

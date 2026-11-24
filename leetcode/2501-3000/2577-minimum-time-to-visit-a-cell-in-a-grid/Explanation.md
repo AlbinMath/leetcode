@@ -177,8 +177,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3112. Minimum Time to Visit Disappearing Nodes](../../3001-3500/3112-minimum-time-to-visit-disappearing-nodes/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [1536. Minimum Swaps to Arrange a Binary Grid](../../1501-2000/1536-minimum-swaps-to-arrange-a-binary-grid/)
+- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
+- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)

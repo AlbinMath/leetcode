@@ -125,8 +125,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2572. Count the Number of Square-Free Subsets](../../2501-3000/2572-count-the-number-of-square-free-subsets/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
-- [1395. Count Number of Teams](../../1001-1500/1395-count-number-of-teams/)
+- [2411. Smallest Subarrays With Maximum Bitwise OR](../../2001-2500/2411-smallest-subarrays-with-maximum-bitwise-or/)
+- [2419. Longest Subarray With Maximum Bitwise AND](../../2001-2500/2419-longest-subarray-with-maximum-bitwise-and/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)

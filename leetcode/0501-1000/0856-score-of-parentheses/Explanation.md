@@ -119,9 +119,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
-- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
-- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
+- [861. Score After Flipping Matrix](../../0501-1000/0861-score-after-flipping-matrix/)
+- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1255-maximum-score-words-formed-by-letters/)
+- [1301. Number of Paths with Max Score](../../1001-1500/1301-number-of-paths-with-max-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/score-of-parentheses/)

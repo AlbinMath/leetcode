@@ -139,9 +139,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2169. Count Operations to Obtain Zero](../../2001-2500/2169-count-operations-to-obtain-zero/)
 - [1267. Count Servers that Communicate](../../1001-1500/1267-count-servers-that-communicate/)
-- [982. Triples with Bitwise AND Equal To Zero](../../0501-1000/0982-triples-with-bitwise-and-equal-to-zero/)
+- [2169. Count Operations to Obtain Zero](../../2001-2500/2169-count-operations-to-obtain-zero/)
+- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1606-find-servers-that-handled-most-number-of-requests/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-zero-request-servers/)

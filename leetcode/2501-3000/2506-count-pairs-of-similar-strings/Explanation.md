@@ -121,9 +121,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [854. K-Similar Strings](../../0501-1000/0854-k-similar-strings/)
 - [1782. Count Pairs Of Nodes](../../1501-2000/1782-count-pairs-of-nodes/)
 - [1803. Count Pairs With XOR in a Range](../../1501-2000/1803-count-pairs-with-xor-in-a-range/)
-- [1814. Count Nice Pairs in an Array](../../1501-2000/1814-count-nice-pairs-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-pairs-of-similar-strings/)

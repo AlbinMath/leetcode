@@ -98,7 +98,6 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 3003 | [Maximize the Number of Partitions After Operations](../leetcode/3001-3500/3003-maximize-the-number-of-partitions-after-operations/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3003-maximize-the-number-of-partitions-after-operations/Explanation.md) |
 | 3102 | [Minimize Manhattan Distances](../leetcode/3001-3500/3102-minimize-manhattan-distances/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3102-minimize-manhattan-distances/Explanation.md) |
 | 3677 | [Count Binary Palindromic Numbers](../leetcode/3501-4000/3677-count-binary-palindromic-numbers/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3677-count-binary-palindromic-numbers/Explanation.md) |
-| 3826 | [Minimum Partition Score](../leetcode/3501-4000/3826-minimum-partition-score/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3826-minimum-partition-score/Explanation.md) |
 | 3864 | [Minimum Cost to Partition a Binary String](../leetcode/3501-4000/3864-minimum-cost-to-partition-a-binary-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3864-minimum-cost-to-partition-a-binary-string/Explanation.md) |
 | 4105 | [Repeated String Match II](../leetcode/4001-4500/4105-repeated-string-match-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4105-repeated-string-match-ii/Explanation.md) |
 

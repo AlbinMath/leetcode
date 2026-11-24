@@ -123,9 +123,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [833. Find And Replace in String](../../0501-1000/0833-find-and-replace-in-string/)
-- [3081. Replace Question Marks in String to Minimize Its Value](../../3001-3500/3081-replace-question-marks-in-string-to-minimize-its-value/)
 - [1585. Check If String Is Transformable With Substring Sort Operations](../../1501-2000/1585-check-if-string-is-transformable-with-substring-sort-operations/)
+- [3713. Longest Balanced Substring I](../../3501-4000/3713-longest-balanced-substring-i/)
+- [833. Find And Replace in String](../../0501-1000/0833-find-and-replace-in-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)

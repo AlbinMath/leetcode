@@ -152,8 +152,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [1534. Count Good Triplets](../../1501-2000/1534-count-good-triplets/)
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
-- [3583. Count Special Triplets](../../3501-4000/3583-count-special-triplets/)
+- [1250. Check If It Is a Good Array](../../1001-1500/1250-check-if-it-is-a-good-array/)
+- [1735. Count Ways to Make Array With Product](../../1501-2000/1735-count-ways-to-make-array-with-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-good-triplets-in-an-array/)

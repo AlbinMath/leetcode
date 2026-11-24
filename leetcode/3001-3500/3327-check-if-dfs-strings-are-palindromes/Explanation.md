@@ -157,9 +157,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1437. Check If All 1's Are at Least Length K Places Away](../../1001-1500/1437-check-if-all-1s-are-at-least-length-k-places-away/)
-- [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
 - [1657. Determine if Two Strings Are Close](../../1501-2000/1657-determine-if-two-strings-are-close/)
+- [1790. Check if One String Swap Can Make Strings Equal](../../1501-2000/1790-check-if-one-string-swap-can-make-strings-equal/)
+- [2068. Check Whether Two Strings are Almost Equivalent](../../2001-2500/2068-check-whether-two-strings-are-almost-equivalent/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/)

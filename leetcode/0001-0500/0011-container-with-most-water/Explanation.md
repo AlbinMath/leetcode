@@ -143,8 +143,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2349. Design a Number Container System](../../2001-2500/2349-design-a-number-container-system/)
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
-- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
+- [42. Trapping Rain Water](../../0001-0500/0042-trapping-rain-water/)
+- [365. Water and Jug Problem](../../0001-0500/0365-water-and-jug-problem/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/container-with-most-water/)

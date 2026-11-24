@@ -103,9 +103,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
-- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1295-find-numbers-with-even-number-of-digits/)
-- [2094. Finding 3-Digit Even Numbers](../../2001-2500/2094-finding-3-digit-even-numbers/)
+- [201. Bitwise AND of Numbers Range](../../0001-0500/0201-bitwise-and-of-numbers-range/)
+- [3314. Construct the Minimum Bitwise Array I](../../3001-3500/3314-construct-the-minimum-bitwise-array-i/)
+- [3315. Construct the Minimum Bitwise Array II](../../3001-3500/3315-construct-the-minimum-bitwise-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/)

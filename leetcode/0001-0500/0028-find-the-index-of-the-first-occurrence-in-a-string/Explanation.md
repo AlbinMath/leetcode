@@ -103,7 +103,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2108. Find First Palindromic String in the Array](../../2001-2500/2108-find-first-palindromic-string-in-the-array/)
 - [3303. Find the Occurrence of First Almost Equal Substring](../../3001-3500/3303-find-the-occurrence-of-first-almost-equal-substring/)
-- [724. Find Pivot Index](../../0501-1000/0724-find-pivot-index/)
+- [387. First Unique Character in a String](../../0001-0500/0387-first-unique-character-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)

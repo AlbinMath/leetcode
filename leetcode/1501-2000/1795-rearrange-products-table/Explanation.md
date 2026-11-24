@@ -141,9 +141,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1045. Customers Who Bought All Products](../../1001-1500/1045-customers-who-bought-all-products/)
-- [1327. List the Products Ordered in a Period](../../1001-1500/1327-list-the-products-ordered-in-a-period/)
-- [1484. Group Sold Products By The Date](../../1001-1500/1484-group-sold-products-by-the-date/)
+- [1451. Rearrange Words in a Sentence](../../1001-1500/1451-rearrange-words-in-a-sentence/)
+- [1592. Rearrange Spaces Between Words](../../1501-2000/1592-rearrange-spaces-between-words/)
+- [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../../1501-2000/1866-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-products-table/)

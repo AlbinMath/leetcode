@@ -119,9 +119,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [423. Reconstruct Original Digits from English](../../0001-0500/0423-reconstruct-original-digits-from-english/)
-- [2309. Greatest English Letter in Upper and Lower Case](../../2001-2500/2309-greatest-english-letter-in-upper-and-lower-case/)
 - [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [12. Integer to Roman](../../0001-0500/0012-integer-to-roman/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/integer-to-english-words/)

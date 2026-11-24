@@ -143,9 +143,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1487. Making File Names Unique](../../1001-1500/1487-making-file-names-unique/)
 - [463. Island Perimeter](../../0001-0500/0463-island-perimeter/)
 - [695. Max Area of Island](../../0501-1000/0695-max-area-of-island/)
+- [1568. Minimum Number of Days to Disconnect Island](../../1501-2000/1568-minimum-number-of-days-to-disconnect-island/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/making-a-large-island/)

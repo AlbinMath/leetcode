@@ -114,8 +114,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3541. Find Most Frequent Vowel and Consonant](../../3501-4000/3541-find-most-frequent-vowel-and-consonant/)
-- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
+- [233. Number of Digit One](../../0001-0500/0233-number-of-digit-one/)
+- [902. Numbers At Most N Given Digit Set](../../0501-1000/0902-numbers-at-most-n-given-digit-set/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-least-frequent-digit/)

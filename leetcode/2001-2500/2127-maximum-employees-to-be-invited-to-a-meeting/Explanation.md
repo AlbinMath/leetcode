@@ -152,9 +152,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1160-find-words-that-can-be-formed-by-characters/)
-- [1574. Shortest Subarray to be Removed to Make Array Sorted](../../1501-2000/1574-shortest-subarray-to-be-removed-to-make-array-sorted/)
-- [1886. Determine Whether Matrix Can Be Obtained By Rotation](../../1501-2000/1886-determine-whether-matrix-can-be-obtained-by-rotation/)
+- [181. Employees Earning More Than Their Managers](../../0001-0500/0181-employees-earning-more-than-their-managers/)
+- [627. Swap Sex of Employees](../../0501-1000/0627-swap-sex-of-employees/)
+- [1075. Project Employees I](../../1001-1500/1075-project-employees-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)

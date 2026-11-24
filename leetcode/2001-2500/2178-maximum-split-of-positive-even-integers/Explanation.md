@@ -120,7 +120,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2529. Maximum Count of Positive Integer and Negative Integer](../../2501-3000/2529-maximum-count-of-positive-integer-and-negative-integer/)
 - [2871. Split Array Into Maximum Number of Subarrays](../../2501-3000/2871-split-array-into-maximum-number-of-subarrays/)
-- [3442. Maximum Difference Between Even and Odd Frequency I](../../3001-3500/3442-maximum-difference-between-even-and-odd-frequency-i/)
+- [4035. Maximum Valid Split Positions I](../../4001-4500/4035-maximum-valid-split-positions-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)

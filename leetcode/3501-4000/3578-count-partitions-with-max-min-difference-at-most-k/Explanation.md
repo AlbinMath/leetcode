@@ -151,7 +151,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2006. Count Number of Pairs With Absolute Difference K](../../2001-2500/2006-count-number-of-pairs-with-absolute-difference-k/)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](../../2501-3000/2962-count-subarrays-where-max-element-appears-at-least-k-times/)
-- [2963. Count the Number of Good Partitions](../../2501-3000/2963-count-the-number-of-good-partitions/)
+- [2293. Min Max Game](../../2001-2500/2293-min-max-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/)

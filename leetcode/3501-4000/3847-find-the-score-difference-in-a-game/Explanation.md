@@ -130,8 +130,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [389. Find the Difference](../../0001-0500/0389-find-the-difference/)
-- [1275. Find Winner on a Tic Tac Toe Game](../../1001-1500/1275-find-winner-on-a-tic-tac-toe-game/)
-- [1535. Find the Winner of an Array Game](../../1501-2000/1535-find-the-winner-of-an-array-game/)
+- [2215. Find the Difference of Two Arrays](../../2001-2500/2215-find-the-difference-of-two-arrays/)
+- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-score-difference-in-a-game/)

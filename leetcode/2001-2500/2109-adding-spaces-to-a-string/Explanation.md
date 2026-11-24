@@ -113,9 +113,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1592. Rearrange Spaces Between Words](../../1501-2000/1592-rearrange-spaces-between-words/)
 - [2135. Count Words Obtained After Adding a Letter](../../2001-2500/2135-count-words-obtained-after-adding-a-letter/)
 - [2232. Minimize Result by Adding Parentheses to Expression](../../2001-2500/2232-minimize-result-by-adding-parentheses-to-expression/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/adding-spaces-to-a-string/)

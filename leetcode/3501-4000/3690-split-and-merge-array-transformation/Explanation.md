@@ -123,8 +123,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2626. Array Reduce Transformation](../../2501-3000/2626-array-reduce-transformation/)
-- [88. Merge Sorted Array](../../0001-0500/0088-merge-sorted-array/)
 - [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [805. Split Array With Same Average](../../0501-1000/0805-split-array-with-same-average/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-and-merge-array-transformation/)

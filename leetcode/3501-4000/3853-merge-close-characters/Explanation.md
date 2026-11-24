@@ -112,9 +112,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1657. Determine if Two Strings Are Close](../../1501-2000/1657-determine-if-two-strings-are-close/)
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 - [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
+- [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-close-characters/)

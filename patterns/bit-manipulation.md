@@ -14,7 +14,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 598 | [Range Addition II](../leetcode/0501-1000/0598-range-addition-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0598-range-addition-ii/Explanation.md) |
 | 645 | [Set Mismatch](../leetcode/0501-1000/0645-set-mismatch/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0645-set-mismatch/Explanation.md) |
 | 682 | [Baseball Game](../leetcode/0501-1000/0682-baseball-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0682-baseball-game/Explanation.md) |
-| 717 | [1-bit and 2-bit Characters](../leetcode/0501-1000/0717-1-bit-and-2-bit-characters/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0717-1-bit-and-2-bit-characters/Explanation.md) |
 | 908 | [Smallest Range I](../leetcode/0501-1000/0908-smallest-range-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0908-smallest-range-i/Explanation.md) |
 | 1137 | [N-th Tribonacci Number](../leetcode/1001-1500/1137-n-th-tribonacci-number/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1137-n-th-tribonacci-number/Explanation.md) |
 | 1175 | [Prime Arrangements](../leetcode/1001-1500/1175-prime-arrangements/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1175-prime-arrangements/Explanation.md) |

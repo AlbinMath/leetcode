@@ -107,8 +107,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
-- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
-- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
+- [3438. Find Valid Pair of Adjacent Digits in String](../../3001-3500/3438-find-valid-pair-of-adjacent-digits-in-string/)
+- [287. Find the Duplicate Number](../../0001-0500/0287-find-the-duplicate-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)

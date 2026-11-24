@@ -161,8 +161,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3963. Create Grid With Exactly One Path](../../3501-4000/3963-create-grid-with-exactly-one-path/)
+- [2328. Number of Increasing Paths in a Grid](../../2001-2500/2328-number-of-increasing-paths-in-a-grid/)
 - [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
-- [3881. Direction Assignments with Exactly K Visible People](../../3501-4000/3881-direction-assignments-with-exactly-k-visible-people/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-grid-with-exactly-k-paths-i/)

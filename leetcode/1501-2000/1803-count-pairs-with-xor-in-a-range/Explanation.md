@@ -158,9 +158,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [1782. Count Pairs Of Nodes](../../1501-2000/1782-count-pairs-of-nodes/)
+- [1814. Count Nice Pairs in an Array](../../1501-2000/1814-count-nice-pairs-in-an-array/)
 - [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1835-find-xor-sum-of-all-pairs-bitwise-and/)
-- [3393. Count Paths With the Given XOR Value](../../3001-3500/3393-count-paths-with-the-given-xor-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)

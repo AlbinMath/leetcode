@@ -132,8 +132,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [550. Game Play Analysis IV](../../0501-1000/0550-game-play-analysis-iv/)
-- [1068. Product Sales Analysis I](../../1001-1500/1068-product-sales-analysis-i/)
-- [1070. Product Sales Analysis III](../../1001-1500/1070-product-sales-analysis-iii/)
+- [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
+- [55. Jump Game](../../0001-0500/0055-jump-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/game-play-analysis-i/)

@@ -80,6 +80,7 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 3658 | [GCD of Odd and Even Sums](../leetcode/3501-4000/3658-gcd-of-odd-and-even-sums/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3658-gcd-of-odd-and-even-sums/Explanation.md) |
 | 3745 | [Maximize Expression of Three Elements](../leetcode/3501-4000/3745-maximize-expression-of-three-elements/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3745-maximize-expression-of-three-elements/Explanation.md) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../leetcode/3501-4000/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Kotlin | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/Explanation.md) |
+| 3925 | [Concatenate Array With Reverse](../leetcode/3501-4000/3925-concatenate-array-with-reverse/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3925-concatenate-array-with-reverse/Explanation.md) |
 | 4010 | [Maximize Pair Strength Using GCD](../leetcode/4001-4500/4010-maximize-pair-strength-using-gcd/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4010-maximize-pair-strength-using-gcd/Explanation.md) |
 
 ### Medium

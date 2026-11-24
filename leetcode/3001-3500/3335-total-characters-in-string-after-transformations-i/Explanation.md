@@ -109,8 +109,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3337. Total Characters in String After Transformations II](../../3001-3500/3337-total-characters-in-string-after-transformations-ii/)
-- [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../../3501-4000/3816-lexicographically-smallest-string-after-deleting-duplicate-characters/)
 - [4036. Lexicographically Largest String After Pair Transformations](../../4001-4500/4036-lexicographically-largest-string-after-pair-transformations/)
+- [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../../3501-4000/3816-lexicographically-smallest-string-after-deleting-duplicate-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/)

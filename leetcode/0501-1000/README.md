@@ -155,7 +155,7 @@ A collection of **376** solved LeetCode problems in the range **0501-1000**.
 | 713 | [Subarray Product Less Than K](./0713-subarray-product-less-than-k/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0713-subarray-product-less-than-k/Explanation.md) |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](./0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./0714-best-time-to-buy-and-sell-stock-with-transaction-fee/Explanation.md) |
 | 715 | [Range Module](./0715-range-module/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0715-range-module/Explanation.md) |
-| 717 | [1-bit and 2-bit Characters](./0717-1-bit-and-2-bit-characters/) | Easy | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0717-1-bit-and-2-bit-characters/Explanation.md) |
+| 717 | [1-bit and 2-bit Characters](./0717-1-bit-and-2-bit-characters/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0717-1-bit-and-2-bit-characters/Explanation.md) |
 | 718 | [Maximum Length of Repeated Subarray](./0718-maximum-length-of-repeated-subarray/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0718-maximum-length-of-repeated-subarray/Explanation.md) |
 | 720 | [Longest Word in Dictionary](./0720-longest-word-in-dictionary/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0720-longest-word-in-dictionary/Explanation.md) |
 | 721 | [Accounts Merge](./0721-accounts-merge/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0721-accounts-merge/Explanation.md) |

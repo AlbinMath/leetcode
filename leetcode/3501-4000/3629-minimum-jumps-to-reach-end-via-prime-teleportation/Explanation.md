@@ -209,7 +209,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1654. Minimum Jumps to Reach Home](../../1501-2000/1654-minimum-jumps-to-reach-home/)
 - [2770. Maximum Number of Jumps to Reach the Last Index](../../2501-3000/2770-maximum-number-of-jumps-to-reach-the-last-index/)
-- [3133. Minimum Array End](../../3001-3500/3133-minimum-array-end/)
+- [1210. Minimum Moves to Reach Target with Rotations](../../1001-1500/1210-minimum-moves-to-reach-target-with-rotations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/)

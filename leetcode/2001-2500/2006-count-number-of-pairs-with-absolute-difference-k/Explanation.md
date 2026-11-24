@@ -113,7 +113,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3578. Count Partitions With Max-Min Difference at Most K](../../3501-4000/3578-count-partitions-with-max-min-difference-at-most-k/)
 - [1679. Max Number of K-Sum Pairs](../../1501-2000/1679-max-number-of-k-sum-pairs/)
-- [2183. Count Array Pairs Divisible by K](../../2001-2500/2183-count-array-pairs-divisible-by-k/)
+- [2364. Count Number of Bad Pairs](../../2001-2500/2364-count-number-of-bad-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)

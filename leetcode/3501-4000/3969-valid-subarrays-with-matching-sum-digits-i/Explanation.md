@@ -128,9 +128,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3438. Find Valid Pair of Adjacent Digits in String](../../3001-3500/3438-find-valid-pair-of-adjacent-digits-in-string/)
-- [3979. Maximum Valid Pair Sum](../../3501-4000/3979-maximum-valid-pair-sum/)
-- [4033. Valid K-Unique Subarrays I](../../4001-4500/4033-valid-k-unique-subarrays-i/)
+- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1281-subtract-the-product-and-sum-of-digits-of-an-integer/)
+- [1837. Sum of Digits in Base K](../../1501-2000/1837-sum-of-digits-in-base-k/)
+- [1945. Sum of Digits of String After Convert](../../1501-2000/1945-sum-of-digits-of-string-after-convert/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/)

@@ -120,9 +120,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1179. Reformat Department Table](../../1001-1500/1179-reformat-department-table/)
-- [1507. Reformat Date](../../1501-2000/1507-reformat-date/)
-- [1694. Reformat Phone Number](../../1501-2000/1694-reformat-phone-number/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [87. Scramble String](../../0001-0500/0087-scramble-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reformat-the-string/)

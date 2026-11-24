@@ -122,7 +122,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
 - [1261. Find Elements in a Contaminated Binary Tree](../../1001-1500/1261-find-elements-in-a-contaminated-binary-tree/)
-- [2028. Find Missing Observations](../../2001-2500/2028-find-missing-observations/)
+- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-missing-elements/)

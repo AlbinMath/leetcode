@@ -129,8 +129,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1641. Count Sorted Vowel Strings](../../1501-2000/1641-count-sorted-vowel-strings/)
-- [2062. Count Vowel Substrings of a String](../../2001-2500/2062-count-vowel-substrings-of-a-string/)
+- [151. Reverse Words in a String](../../0001-0500/0151-reverse-words-in-a-string/)
+- [557. Reverse Words in a String III](../../0501-1000/0557-reverse-words-in-a-string-iii/)
 - [2085. Count Common Words With One Occurrence](../../2001-2500/2085-count-common-words-with-one-occurrence/)
 
 ## LeetCode

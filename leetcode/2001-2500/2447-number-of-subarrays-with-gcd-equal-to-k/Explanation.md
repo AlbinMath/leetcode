@@ -110,8 +110,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2470. Number of Subarrays With LCM Equal to K](../../2001-2500/2470-number-of-subarrays-with-lcm-equal-to-k/)
-- [3336. Find the Number of Subsequences With Equal GCD](../../3001-3500/3336-find-the-number-of-subsequences-with-equal-gcd/)
-- [3209. Number of Subarrays With AND Value of K](../../3001-3500/3209-number-of-subarrays-with-and-value-of-k/)
+- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+- [2997. Minimum Number of Operations to Make Array XOR Equal to K](../../2501-3000/2997-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/)

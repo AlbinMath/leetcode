@@ -233,8 +233,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3430. Maximum and Minimum Sums of at Most Size K Subarrays](../../3001-3500/3430-maximum-and-minimum-sums-of-at-most-size-k-subarrays/)
-- [3627. Maximum Median Sum of Subsequences of Size 3](../../3501-4000/3627-maximum-median-sum-of-subsequences-of-size-3/)
 - [2842. Count K-Subsequences of a String With Maximum Beauty](../../2501-3000/2842-count-k-subsequences-of-a-string-with-maximum-beauty/)
+- [3627. Maximum Median Sum of Subsequences of Size 3](../../3501-4000/3627-maximum-median-sum-of-subsequences-of-size-3/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subsequences/)

@@ -293,7 +293,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
 - [204. Count Primes](../../0001-0500/0204-count-primes/)
-- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [2549. Count Distinct Numbers on Board](../../2501-3000/2549-count-distinct-numbers-on-board/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-count-of-distinct-primes-after-split/)

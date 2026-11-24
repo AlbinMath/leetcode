@@ -116,8 +116,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [4032. Longest Subarray With at Most K Distinct Prime Factors](../../4001-4500/4032-longest-subarray-with-at-most-k-distinct-prime-factors/)
-- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
-- [1464. Maximum Product of Two Elements in an Array](../../1001-1500/1464-maximum-product-of-two-elements-in-an-array/)
+- [2053. Kth Distinct String in an Array](../../2001-2500/2053-kth-distinct-string-in-an-array/)
+- [3659. Partition Array Into K-Distinct Groups](../../3501-4000/3659-partition-array-into-k-distinct-groups/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/)

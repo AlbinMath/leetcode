@@ -127,9 +127,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
-- [952. Largest Component Size by Common Factor](../../0501-1000/0952-largest-component-size-by-common-factor/)
-- [961. N-Repeated Element in Size 2N Array](../../0501-1000/0961-n-repeated-element-in-size-2n-array/)
+- [864. Shortest Path to Get All Keys](../../0501-1000/0864-shortest-path-to-get-all-keys/)
+- [1208. Get Equal Substrings Within Budget](../../1001-1500/1208-get-equal-substrings-within-budget/)
+- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-the-size-of-a-dataframe/)

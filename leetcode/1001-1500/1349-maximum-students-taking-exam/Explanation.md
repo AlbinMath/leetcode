@@ -151,9 +151,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [855. Exam Room](../../0501-1000/0855-exam-room/)
-- [2024. Maximize the Confusion of an Exam](../../2001-2500/2024-maximize-the-confusion-of-an-exam/)
-- [3709. Design Exam Scores Tracker](../../3501-4000/3709-design-exam-scores-tracker/)
+- [596. Classes With at Least 5 Students](../../0501-1000/0596-classes-with-at-least-5-students/)
+- [1280. Students and Examinations](../../1001-1500/1280-students-and-examinations/)
+- [1450. Number of Students Doing Homework at a Given Time](../../1001-1500/1450-number-of-students-doing-homework-at-a-given-time/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-students-taking-exam/)

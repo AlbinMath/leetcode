@@ -229,9 +229,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [3979. Maximum Valid Pair Sum](../../3501-4000/3979-maximum-valid-pair-sum/)
-- [4035. Maximum Valid Split Positions I](../../4001-4500/4035-maximum-valid-split-positions-i/)
+- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
+- [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
+- [1707. Maximum XOR With an Element From Array](../../1501-2000/1707-maximum-xor-with-an-element-from-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag/)
