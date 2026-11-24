@@ -135,7 +135,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2902. Count of Sub-Multisets With Bounded Sum](../../3001-3500/3091-count-of-sub-multisets-with-bounded-sum/)
 - [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3823-count-islands-with-total-value-divisible-by-k/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [1233. Remove Sub-Folders from the Filesystem](../../1001-1500/1350-remove-sub-folders-from-the-filesystem/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-sub-islands/)

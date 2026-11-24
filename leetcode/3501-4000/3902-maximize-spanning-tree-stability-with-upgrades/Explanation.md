@@ -222,8 +222,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../../1501-2000/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+- [3605. Minimum Stability Factor of Array](../../3501-4000/3920-minimum-stability-factor-of-array/)
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1047-maximize-sum-of-array-after-k-negations/)
-- [1659. Maximize Grid Happiness](../../1501-2000/1778-maximize-grid-happiness/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/)

@@ -123,8 +123,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
-- [71. Simplify Path](../../0001-0500/0071-simplify-path/)
+- [1309. Decrypt String from Alphabet to Integer Mapping](../../1001-1500/1434-decrypt-string-from-alphabet-to-integer-mapping/)
+- [419. Battleships in a Board](../../0001-0500/0419-battleships-in-a-board/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/alphabet-board-path/)

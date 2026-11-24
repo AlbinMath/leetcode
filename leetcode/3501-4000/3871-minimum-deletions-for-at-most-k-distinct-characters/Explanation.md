@@ -127,9 +127,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3795. Minimum Subarray Length With Distinct Sum At Least K](../../4001-4500/4152-minimum-subarray-length-with-distinct-sum-at-least-k/)
+- [4032. Longest Subarray With at Most K Distinct Prime Factors](../../4001-4500/4370-longest-subarray-with-at-most-k-distinct-prime-factors/)
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [3428. Maximum and Minimum Sums of at Most Size K Subsequences](../../3501-4000/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences/)
-- [3430. Maximum and Minimum Sums of at Most Size K Subarrays](../../3501-4000/3725-maximum-and-minimum-sums-of-at-most-size-k-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/)

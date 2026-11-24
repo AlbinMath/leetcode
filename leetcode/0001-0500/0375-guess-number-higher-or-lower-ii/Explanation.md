@@ -147,8 +147,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [374. Guess Number Higher or Lower](../../0001-0500/0374-guess-number-higher-or-lower/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
+- [843. Guess the Word](../../0501-1000/0873-guess-the-word/)
+- [709. To Lower Case](../../0501-1000/0742-to-lower-case/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)

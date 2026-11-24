@@ -161,9 +161,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1523. Count Odd Numbers in an Interval Range](../../1501-2000/1630-count-odd-numbers-in-an-interval-range/)
-- [1803. Count Pairs With XOR in a Range](../../1501-2000/1907-count-pairs-with-xor-in-a-range/)
-- [1925. Count Square Sum Triples](../../2001-2500/2037-count-square-sum-triples/)
+- [303. Range Sum Query - Immutable](../../0001-0500/0303-range-sum-query---immutable/)
+- [304. Range Sum Query 2D - Immutable](../../0001-0500/0304-range-sum-query-2d---immutable/)
+- [307. Range Sum Query - Mutable](../../0001-0500/0307-range-sum-query---mutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-of-range-sum/)

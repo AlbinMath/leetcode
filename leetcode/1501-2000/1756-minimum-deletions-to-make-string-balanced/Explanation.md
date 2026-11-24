@@ -116,9 +116,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1963. Minimum Number of Swaps to Make the String Balanced](../../2001-2500/2095-minimum-number-of-swaps-to-make-the-string-balanced/)
 - [3085. Minimum Deletions to Make String K-Special](../../3001-3500/3360-minimum-deletions-to-make-string-k-special/)
-- [1312. Minimum Insertion Steps to Make a String Palindrome](../../1001-1500/1437-minimum-insertion-steps-to-make-a-string-palindrome/)
+- [1963. Minimum Number of Swaps to Make the String Balanced](../../2001-2500/2095-minimum-number-of-swaps-to-make-the-string-balanced/)
+- [1647. Minimum Deletions to Make Character Frequencies Unique](../../1501-2000/1770-minimum-deletions-to-make-character-frequencies-unique/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)

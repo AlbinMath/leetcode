@@ -113,9 +113,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [780. Reaching Points](../../0501-1000/0796-reaching-points/)
-- [973. K Closest Points to Origin](../../1001-1500/1014-k-closest-points-to-origin/)
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1395-minimum-time-visiting-all-points/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
+- [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
+- [695. Max Area of Island](../../0501-1000/0695-max-area-of-island/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-points-on-a-line/)

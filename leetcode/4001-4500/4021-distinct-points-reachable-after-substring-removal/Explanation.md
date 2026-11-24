@@ -120,9 +120,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2920. Maximum Points After Collecting Coins From All Nodes](../../3001-3500/3179-maximum-points-after-collecting-coins-from-all-nodes/)
 - [2442. Count Number of Distinct Integers After Reverse Operations](../../2501-3000/2525-count-number-of-distinct-integers-after-reverse-operations/)
 - [3569. Maximize Count of Distinct Primes After Split](../../3501-4000/3878-maximize-count-of-distinct-primes-after-split/)
+- [1946. Largest Number After Mutating Substring](../../2001-2500/2077-largest-number-after-mutating-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-points-reachable-after-substring-removal/)

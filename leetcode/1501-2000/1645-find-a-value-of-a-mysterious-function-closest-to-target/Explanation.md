@@ -112,9 +112,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
-- [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
+- [744. Find Smallest Letter Greater Than Target](../../0501-1000/0745-find-smallest-letter-greater-than-target/)
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../../1501-2000/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)

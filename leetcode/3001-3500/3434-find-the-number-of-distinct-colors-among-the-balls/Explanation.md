@@ -129,8 +129,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1501-2000/1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
-- [287. Find the Duplicate Number](../../0001-0500/0287-find-the-duplicate-number/)
-- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
+- [2318. Number of Distinct Roll Sequences](../../2001-2500/2404-number-of-distinct-roll-sequences/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2501-3000/2525-count-number-of-distinct-integers-after-reverse-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/)

@@ -122,8 +122,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1342. Number of Steps to Reduce a Number to Zero](../../1001-1500/1444-number-of-steps-to-reduce-a-number-to-zero/)
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0767-prime-number-of-set-bits-in-binary-representation/)
+- [1342. Number of Steps to Reduce a Number to Zero](../../1001-1500/1444-number-of-steps-to-reduce-a-number-to-zero/)
 - [1238. Circular Permutation in Binary Representation](../../1001-1500/1359-circular-permutation-in-binary-representation/)
 
 ## LeetCode

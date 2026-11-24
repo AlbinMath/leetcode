@@ -131,8 +131,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
 - [1413. Minimum Value to Get Positive Step by Step Sum](../../1501-2000/1514-minimum-value-to-get-positive-step-by-step-sum/)
+- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
 - [3795. Minimum Subarray Length With Distinct Sum At Least K](../../4001-4500/4152-minimum-subarray-length-with-distinct-sum-at-least-k/)
 
 ## LeetCode

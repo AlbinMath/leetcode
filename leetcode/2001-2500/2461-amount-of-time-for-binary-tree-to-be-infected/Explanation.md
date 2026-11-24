@@ -137,9 +137,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [3494. Find the Minimum Amount of Time to Brew Potions](../../3501-4000/3794-find-the-minimum-amount-of-time-to-brew-potions/)
 - [1443. Minimum Time to Collect All Apples in a Tree](../../1501-2000/1554-minimum-time-to-collect-all-apples-in-a-tree/)
 - [2380. Time Needed to Rearrange a Binary String](../../2001-2500/2464-time-needed-to-rearrange-a-binary-string/)
-- [3494. Find the Minimum Amount of Time to Brew Potions](../../3501-4000/3794-find-the-minimum-amount-of-time-to-brew-potions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)

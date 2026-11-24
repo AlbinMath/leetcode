@@ -135,8 +135,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [882. Reachable Nodes In Subdivided Graph](../../0501-1000/0918-reachable-nodes-in-subdivided-graph/)
-- [2543. Check if Point Is Reachable](../../2501-3000/2635-check-if-point-is-reachable/)
-- [2858. Minimum Edge Reversals So Every Node Is Reachable](../../3001-3500/3105-minimum-edge-reversals-so-every-node-is-reachable/)
+- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reachable-nodes-with-restrictions/)

@@ -109,8 +109,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1503. Last Moment Before All Ants Fall Out of a Plank](../../1501-2000/1627-last-moment-before-all-ants-fall-out-of-a-plank/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
+- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
+- [326. Power of Three](../../0001-0500/0326-power-of-three/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-out-of-three/)

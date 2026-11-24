@@ -126,7 +126,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2442. Count Number of Distinct Integers After Reverse Operations](../../2501-3000/2525-count-number-of-distinct-integers-after-reverse-operations/)
 - [3420. Count Non-Decreasing Subarrays After K Operations](../../3501-4000/3674-count-non-decreasing-subarrays-after-k-operations/)
-- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-tested-devices-after-test-operations/)

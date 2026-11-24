@@ -153,8 +153,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [959. Regions Cut By Slashes](../../0501-1000/0999-regions-cut-by-slashes/)
-- [2694. Event Emitter](../../2501-3000/2797-event-emitter/)
-- [3317. Find the Number of Possible Ways for an Event](../../3501-4000/3604-find-the-number-of-possible-ways-for-an-event/)
+- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
+- [96. Unique Binary Search Trees](../../0001-0500/0096-unique-binary-search-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cut-off-trees-for-golf-event/)

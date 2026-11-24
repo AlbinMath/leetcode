@@ -114,8 +114,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [497. Random Point in Non-overlapping Rectangles](../../0501-1000/0914-random-point-in-non-overlapping-rectangles/)
-- [1041. Robot Bounded In Circle](../../1001-1500/1119-robot-bounded-in-circle/)
-- [1401. Circle and Rectangle Overlapping](../../1501-2000/1501-circle-and-rectangle-overlapping/)
+- [138. Copy List with Random Pointer](../../0001-0500/0138-copy-list-with-random-pointer/)
+- [382. Linked List Random Node](../../0001-0500/0382-linked-list-random-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-random-point-in-a-circle/)

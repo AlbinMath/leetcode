@@ -113,7 +113,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [199. Binary Tree Right Side View](../../0001-0500/0199-binary-tree-right-side-view/)
 - [2295. Replace Elements in an Array](../../2001-2500/2388-replace-elements-in-an-array/)
-- [27. Remove Element](../../0001-0500/0027-remove-element/)
+- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)

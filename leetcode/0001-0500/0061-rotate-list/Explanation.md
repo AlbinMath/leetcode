@@ -147,9 +147,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [48. Rotate Image](../../0001-0500/0048-rotate-image/)
-- [189. Rotate Array](../../0001-0500/0189-rotate-array/)
-- [396. Rotate Function](../../0001-0500/0396-rotate-function/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [82. Remove Duplicates from Sorted List II](../../0001-0500/0082-remove-duplicates-from-sorted-list-ii/)
+- [83. Remove Duplicates from Sorted List](../../0001-0500/0083-remove-duplicates-from-sorted-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-list/)

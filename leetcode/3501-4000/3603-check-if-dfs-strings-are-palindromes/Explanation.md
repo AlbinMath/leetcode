@@ -158,8 +158,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1657. Determine if Two Strings Are Close](../../1501-2000/1777-determine-if-two-strings-are-close/)
-- [1790. Check if One String Swap Can Make Strings Equal](../../1501-2000/1915-check-if-one-string-swap-can-make-strings-equal/)
+- [1437. Check If All 1's Are at Least Length K Places Away](../../1501-2000/1548-check-if-all-1s-are-at-least-length-k-places-away/)
+- [1497. Check If Array Pairs Are Divisible by k](../../1501-2000/1620-check-if-array-pairs-are-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/)

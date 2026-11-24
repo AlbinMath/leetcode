@@ -99,8 +99,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1888. Minimum Number of Flips to Make the Binary String Alternating](../../2001-2500/2017-minimum-number-of-flips-to-make-the-binary-string-alternating/)
+- [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](../../1001-1500/1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
 - [1864. Minimum Number of Swaps to Make the Binary String Alternating](../../1501-2000/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
-- [2914. Minimum Number of Changes to Make Binary String Beautiful](../../3001-3500/3174-minimum-number-of-changes-to-make-binary-string-beautiful/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/)

@@ -117,9 +117,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
-- [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
-- [829. Consecutive Numbers Sum](../../0501-1000/0856-consecutive-numbers-sum/)
+- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
+- [1315. Sum of Nodes with Even-Valued Grandparent](../../1001-1500/1243-sum-of-nodes-with-even-valued-grandparent/)
+- [2094. Finding 3-Digit Even Numbers](../../2001-2500/2215-finding-3-digit-even-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)

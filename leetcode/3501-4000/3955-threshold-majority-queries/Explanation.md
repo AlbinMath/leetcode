@@ -251,9 +251,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1413-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
-- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
-- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+- [169. Majority Element](../../0001-0500/0169-majority-element/)
+- [229. Majority Element II](../../0001-0500/0229-majority-element-ii/)
+- [1157. Online Majority Element In Subarray](../../1001-1500/1262-online-majority-element-in-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/threshold-majority-queries/)

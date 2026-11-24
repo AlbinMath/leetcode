@@ -130,8 +130,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [413. Arithmetic Slices](../../0001-0500/0413-arithmetic-slices/)
-- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
-- [334. Increasing Triplet Subsequence](../../0001-0500/0334-increasing-triplet-subsequence/)
+- [1307. Verbal Arithmetic Puzzle](../../1001-1500/1429-verbal-arithmetic-puzzle/)
+- [1502. Can Make Arithmetic Progression From Sequence](../../1501-2000/1626-can-make-arithmetic-progression-from-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)

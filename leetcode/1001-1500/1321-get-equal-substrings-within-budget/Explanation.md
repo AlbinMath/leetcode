@@ -113,7 +113,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2398. Maximum Number of Robots Within Budget](../../2001-2500/2449-maximum-number-of-robots-within-budget/)
 - [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../../3501-4000/3717-minimum-operations-to-make-elements-within-k-subarrays-equal/)
-- [787. Cheapest Flights Within K Stops](../../0501-1000/0803-cheapest-flights-within-k-stops/)
+- [864. Shortest Path to Get All Keys](../../0501-1000/0895-shortest-path-to-get-all-keys/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-equal-substrings-within-budget/)

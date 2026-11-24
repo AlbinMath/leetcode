@@ -129,9 +129,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2708. Maximum Strength of a Group](../../2501-3000/2754-maximum-strength-of-a-group/)
-- [4010. Maximize Pair Strength Using GCD](../../4001-4500/4371-maximize-pair-strength-using-gcd/)
 - [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
+- [1010. Pairs of Songs With Total Durations Divisible by 60](../../1001-1500/1055-pairs-of-songs-with-total-durations-divisible-by-60/)
+- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1892-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)

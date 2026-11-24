@@ -171,8 +171,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3428. Maximum and Minimum Sums of at Most Size K Subsequences](../../3501-4000/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences/)
-- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
-- [2002. Maximum Product of the Length of Two Palindromic Subsequences](../../2001-2500/2130-maximum-product-of-the-length-of-two-palindromic-subsequences/)
+- [1191. K-Concatenation Maximum Sum](../../1001-1500/1299-k-concatenation-maximum-sum/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1360-maximum-length-of-a-concatenated-string-with-unique-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty/)

@@ -154,7 +154,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1731. The Number of Employees Which Report to Each Employee](../../1501-2000/1882-the-number-of-employees-which-report-to-each-employee/)
 - [1741. Find Total Time Spent by Each Employee](../../1501-2000/1892-find-total-time-spent-by-each-employee/)
-- [577. Employee Bonus](../../0501-1000/0577-employee-bonus/)
+- [184. Department Highest Salary](../../0001-0500/0184-department-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/primary-department-for-each-employee/)

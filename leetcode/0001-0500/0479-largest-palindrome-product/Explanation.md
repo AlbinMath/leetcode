@@ -101,8 +101,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3260. Find the Largest Palindrome Divisible by K](../../3501-4000/3552-find-the-largest-palindrome-divisible-by-k/)
-- [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
-- [179. Largest Number](../../0001-0500/0179-largest-number/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [125. Valid Palindrome](../../0001-0500/0125-valid-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-palindrome-product/)

@@ -126,8 +126,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1864. Minimum Number of Swaps to Make the Binary String Alternating](../../1501-2000/1994-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
+- [3750. Minimum Number of Flips to Reverse Binary String](../../4001-4500/4126-minimum-number-of-flips-to-reverse-binary-string/)
 - [1758. Minimum Changes To Make Alternating Binary String](../../1501-2000/1884-minimum-changes-to-make-alternating-binary-string/)
-- [2914. Minimum Number of Changes to Make Binary String Beautiful](../../3001-3500/3174-minimum-number-of-changes-to-make-binary-string-beautiful/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)

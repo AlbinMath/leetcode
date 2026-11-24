@@ -131,9 +131,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [2932. Maximum Strong Pair XOR I](../../3001-3500/3193-maximum-strong-pair-xor-i/)
-- [2935. Maximum Strong Pair XOR II](../../3001-3500/3197-maximum-strong-pair-xor-ii/)
-- [3438. Find Valid Pair of Adjacent Digits in String](../../3501-4000/3736-find-valid-pair-of-adjacent-digits-in-string/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [918. Maximum Sum Circular Subarray](../../0501-1000/0954-maximum-sum-circular-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-valid-pair-sum/)

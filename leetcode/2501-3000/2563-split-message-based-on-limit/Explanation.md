@@ -129,9 +129,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [981. Time Based Key-Value Store](../../1001-1500/1023-time-based-key-value-store/)
-- [2151. Maximum Good People Based on Statements](../../2001-2500/2272-maximum-good-people-based-on-statements/)
 - [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1501-2000/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [2182. Construct String With Repeat Limit](../../2001-2500/2300-construct-string-with-repeat-limit/)
+- [2622. Cache With Time Limit](../../2501-3000/2762-cache-with-time-limit/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-message-based-on-limit/)

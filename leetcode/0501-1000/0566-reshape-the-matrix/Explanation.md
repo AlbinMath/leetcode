@@ -114,9 +114,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2888. Reshape Data: Concatenate](../../3001-3500/3064-reshape-data-concatenate/)
-- [2889. Reshape Data: Pivot](../../3001-3500/3072-reshape-data-pivot/)
-- [2890. Reshape Data: Melt](../../3001-3500/3073-reshape-data-melt/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
+- [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reshape-the-matrix/)

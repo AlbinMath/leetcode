@@ -117,8 +117,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2997. Minimum Number of Operations to Make Array XOR Equal to K](../../3001-3500/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
-- [1887. Reduction Operations to Make the Array Elements Equal](../../2001-2500/2016-reduction-operations-to-make-the-array-elements-equal/)
-- [2546. Apply Bitwise Operations to Make Strings Equal](../../2501-3000/2632-apply-bitwise-operations-to-make-strings-equal/)
+- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+- [1608. Special Array With X Elements Greater Than or Equal X](../../1501-2000/1730-special-array-with-x-elements-greater-than-or-equal-x/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)

@@ -119,9 +119,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1370-count-number-of-nice-subarrays/)
+- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
 - [1735. Count Ways to Make Array With Product](../../1501-2000/1836-count-ways-to-make-array-with-product/)
+- [1814. Count Nice Pairs in an Array](../../1501-2000/1925-count-nice-pairs-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)

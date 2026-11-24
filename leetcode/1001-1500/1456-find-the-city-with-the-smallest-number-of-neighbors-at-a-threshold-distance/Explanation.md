@@ -139,9 +139,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1486-find-the-distance-value-between-two-arrays/)
-- [3015. Count the Number of Houses at a Certain Distance I](../../3001-3500/3271-count-the-number-of-houses-at-a-certain-distance-i/)
-- [3017. Count the Number of Houses at a Certain Distance II](../../3001-3500/3310-count-the-number-of-houses-at-a-certain-distance-ii/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
+- [744. Find Smallest Letter Greater Than Target](../../0501-1000/0745-find-smallest-letter-greater-than-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)

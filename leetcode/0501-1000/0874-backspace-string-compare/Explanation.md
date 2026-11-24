@@ -135,8 +135,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [165. Compare Version Numbers](../../0001-0500/0165-compare-version-numbers/)
-- [1170. Compare Strings by Frequency of the Smallest Character](../../1001-1500/1273-compare-strings-by-frequency-of-the-smallest-character/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/backspace-string-compare/)

@@ -186,9 +186,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
+- [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii---input-array-is-sorted/)
 - [349. Intersection of Two Arrays](../../0001-0500/0349-intersection-of-two-arrays/)
-- [350. Intersection of Two Arrays II](../../0001-0500/0350-intersection-of-two-arrays-ii/)
-- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1486-find-the-distance-value-between-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/)

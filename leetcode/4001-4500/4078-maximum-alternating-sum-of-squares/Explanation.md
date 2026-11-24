@@ -124,9 +124,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3695. Maximize Alternating Sum Using Swaps](../../4001-4500/4010-maximize-alternating-sum-using-swaps/)
-- [3701. Compute Alternating Sum](../../4001-4500/4058-compute-alternating-sum/)
 - [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [918. Maximum Sum Circular Subarray](../../0501-1000/0954-maximum-sum-circular-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-alternating-sum-of-squares/)

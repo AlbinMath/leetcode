@@ -186,7 +186,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1309. Decrypt String from Alphabet to Integer Mapping](../../1001-1500/1434-decrypt-string-from-alphabet-to-integer-mapping/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/string-to-integer-atoi/)

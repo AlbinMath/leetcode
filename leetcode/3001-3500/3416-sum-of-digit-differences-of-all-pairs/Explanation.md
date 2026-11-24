@@ -1,7 +1,7 @@
 # LeetCode 3153: Sum of Digit Differences of All Pairs
 
 **LeetCode Problem #3153 — Sum of Digit Differences of All Pairs**
-Solve LeetCode Sum of Digit Differences of All Pairs using Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Sum of Digit Differences of All Pairs using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Sum of Digit Differences of All Pairs using Python and Math & Log
 | LeetCode | #3153 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Mathematical Simulation & Modular Arithmetic |
-| Data Structure | Primitive Types |
-| Pattern | Math & Logic |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -41,7 +41,7 @@ Return the **sum** of the **digit differences** between **all** pairs of integer
 - **Explanation:** All the integers in the array are the same. So the total sum of digit differences between all pairs of integers will be 0.
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Sum of Digit Differences of All Pairs**, we observe the problem requirements and utilize the **Math & Logic** technique. We iterate through the inputs using **Mathematical Simulation & Modular Arithmetic**, leveraging a **Primitive Types** to efficiently manage state and achieve optimal complexity.
@@ -53,7 +53,7 @@ To solve **Sum of Digit Differences of All Pairs**, we observe the problem requi
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [13,23,12]`.
-2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `4`.
@@ -62,14 +62,14 @@ To solve **Sum of Digit Differences of All Pairs**, we observe the problem requi
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
-**Math & Logic**
+**Bit Manipulation**
 
 ## Topics
-- Math
-- Simulation
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 Python
@@ -96,7 +96,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -109,8 +109,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1963-find-xor-sum-of-all-pairs-bitwise-and/)
-- [677. Map Sum Pairs](../../0501-1000/0677-map-sum-pairs/)
-- [1588. Sum of All Odd Length Subarrays](../../1501-2000/1693-sum-of-all-odd-length-subarrays/)
+- [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
+- [2243. Calculate Digit Sum of a String](../../2001-2500/2361-calculate-digit-sum-of-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/)

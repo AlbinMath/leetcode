@@ -172,8 +172,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1128. Number of Equivalent Domino Pairs](../../1001-1500/1227-number-of-equivalent-domino-pairs/)
-- [1481. Least Number of Unique Integers after K Removals](../../1501-2000/1604-least-number-of-unique-integers-after-k-removals/)
 - [1512. Number of Good Pairs](../../1501-2000/1635-number-of-good-pairs/)
+- [1530. Number of Good Leaf Nodes Pairs](../../1501-2000/1653-number-of-good-leaf-nodes-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-pairs-after-increment/)

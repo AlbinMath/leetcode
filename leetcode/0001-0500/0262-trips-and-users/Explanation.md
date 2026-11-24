@@ -216,9 +216,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2646. Minimize the Total Price of the Trips](../../2501-3000/2739-minimize-the-total-price-of-the-trips/)
 - [1517. Find Users With Valid E-Mails](../../1501-2000/1664-find-users-with-valid-e-mails/)
 - [1633. Percentage of Users Attended a Contest](../../1501-2000/1773-percentage-of-users-attended-a-contest/)
+- [3793. Find Users with High Token Usage](../../4001-4500/4195-find-users-with-high-token-usage/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/trips-and-users/)

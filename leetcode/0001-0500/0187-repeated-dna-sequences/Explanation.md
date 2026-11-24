@@ -103,9 +103,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3475. DNA Pattern Recognition ](../../3501-4000/3816-dna-pattern-recognition-/)
 - [946. Validate Stack Sequences](../../0501-1000/0983-validate-stack-sequences/)
 - [2318. Number of Distinct Roll Sequences](../../2001-2500/2404-number-of-distinct-roll-sequences/)
+- [2954. Count the Number of Infection Sequences](../../3001-3500/3224-count-the-number-of-infection-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-dna-sequences/)

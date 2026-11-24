@@ -109,8 +109,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3144. Minimum Substring Partition of Equal Character Frequency](../../3001-3500/3403-minimum-substring-partition-of-equal-character-frequency/)
-- [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
-- [205. Isomorphic Strings](../../0001-0500/0205-isomorphic-strings/)
+- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)

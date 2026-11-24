@@ -107,9 +107,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [2044. Count Number of Maximum Bitwise-OR Subsets](../../2001-2500/2170-count-number-of-maximum-bitwise-or-subsets/)
+- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1358-find-positive-integer-solution-for-a-given-equation/)
 - [2178. Maximum Split of Positive Even Integers](../../2001-2500/2279-maximum-split-of-positive-even-integers/)
-- [2842. Count K-Subsequences of a String With Maximum Beauty](../../3001-3500/3057-count-k-subsequences-of-a-string-with-maximum-beauty/)
+- [2044. Count Number of Maximum Bitwise-OR Subsets](../../2001-2500/2170-count-number-of-maximum-bitwise-or-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/)

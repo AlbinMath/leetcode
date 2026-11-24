@@ -120,7 +120,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [747. Largest Number At Least Twice of Others](../../0501-1000/0748-largest-number-at-least-twice-of-others/)
 - [1481. Least Number of Unique Integers after K Removals](../../1501-2000/1604-least-number-of-unique-integers-after-k-removals/)
-- [282. Expression Add Operators](../../0001-0500/0282-expression-add-operators/)
+- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/least-operators-to-express-number/)

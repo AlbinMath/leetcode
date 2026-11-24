@@ -110,9 +110,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 - [3038. Maximum Number of Operations With the Same Score I](../../3001-3500/3320-maximum-number-of-operations-with-the-same-score-i/)
 - [3040. Maximum Number of Operations With the Same Score II](../../3001-3500/3318-maximum-number-of-operations-with-the-same-score-ii/)
+- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1895-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/)

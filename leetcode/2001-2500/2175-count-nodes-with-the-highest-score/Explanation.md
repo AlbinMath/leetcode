@@ -150,9 +150,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2302. Count Subarrays With Score Less Than K](../../2001-2500/2394-count-subarrays-with-score-less-than-k/)
+- [2374. Node With Highest Edge Score](../../2001-2500/2455-node-with-highest-edge-score/)
 - [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
-- [1448. Count Good Nodes in Binary Tree](../../1501-2000/1544-count-good-nodes-in-binary-tree/)
-- [1782. Count Pairs Of Nodes](../../1501-2000/1891-count-pairs-of-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-nodes-with-the-highest-score/)

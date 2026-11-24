@@ -128,9 +128,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [162. Find Peak Element](../../0001-0500/0162-find-peak-element/)
-- [852. Peak Index in a Mountain Array](../../0501-1000/0882-peak-index-in-a-mountain-array/)
 - [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
+- [177. Nth Highest Salary](../../0001-0500/0177-nth-highest-salary/)
+- [184. Department Highest Salary](../../0001-0500/0184-department-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/map-of-highest-peak/)

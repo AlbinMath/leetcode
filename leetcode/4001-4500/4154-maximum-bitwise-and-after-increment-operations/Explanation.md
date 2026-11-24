@@ -130,9 +130,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3849. Maximum Bitwise XOR After Rearrangement](../../4001-4500/4044-maximum-bitwise-xor-after-rearrangement/)
 - [2317. Maximum XOR After Operations ](../../2001-2500/2402-maximum-xor-after-operations-/)
 - [3035. Maximum Palindromes After Operations](../../3001-3500/3317-maximum-palindromes-after-operations/)
+- [3346. Maximum Frequency of an Element After Performing Operations I](../../3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-bitwise-and-after-increment-operations/)

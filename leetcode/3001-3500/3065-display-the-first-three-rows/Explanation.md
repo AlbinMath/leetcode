@@ -123,9 +123,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
-- [326. Power of Three](../../0001-0500/0326-power-of-three/)
-- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
+- [1418. Display Table of Food Orders in a Restaurant](../../1501-2000/1533-display-table-of-food-orders-in-a-restaurant/)
+- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1147-flip-columns-for-maximum-number-of-equal-rows/)
+- [1337. The K Weakest Rows in a Matrix](../../1001-1500/1463-the-k-weakest-rows-in-a-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/display-the-first-three-rows/)

@@ -149,7 +149,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
 - [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
-- [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
+- [1022. Sum of Root To Leaf Binary Numbers](../../1001-1500/1079-sum-of-root-to-leaf-binary-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-binary-palindromic-numbers/)

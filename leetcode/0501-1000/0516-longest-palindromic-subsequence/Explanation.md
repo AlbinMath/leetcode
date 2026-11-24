@@ -106,8 +106,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [3615. Longest Palindromic Path in Graph](../../3501-4000/3930-longest-palindromic-path-in-graph/)
 - [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
+- [521. Longest Uncommon Subsequence I](../../0501-1000/0521-longest-uncommon-subsequence-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindromic-subsequence/)

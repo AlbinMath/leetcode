@@ -145,9 +145,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2029. Stone Game IX](../../2001-2500/2156-stone-game-ix/)
 - [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
 - [55. Jump Game](../../0001-0500/0055-jump-game/)
+- [1306. Jump Game III](../../1001-1500/1428-jump-game-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jump-game-ix/)

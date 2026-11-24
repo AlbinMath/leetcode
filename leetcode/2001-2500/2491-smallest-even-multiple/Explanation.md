@@ -92,8 +92,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3718. Smallest Missing Multiple of K](../../4001-4500/4080-smallest-missing-multiple-of-k/)
-- [1354. Construct Target Array With Multiple Sums](../../1001-1500/1479-construct-target-array-with-multiple-sums/)
-- [2248. Intersection of Multiple Arrays](../../2001-2500/2331-intersection-of-multiple-arrays/)
+- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-even-multiple/)

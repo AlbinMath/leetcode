@@ -148,9 +148,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [703. Kth Largest Element in a Stream](../../0501-1000/0789-kth-largest-element-in-a-stream/)
 - [1985. Find the Kth Largest Integer in the Array](../../2001-2500/2113-find-the-kth-largest-integer-in-the-array/)
-- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [703. Kth Largest Element in a Stream](../../0501-1000/0789-kth-largest-element-in-a-stream/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/)

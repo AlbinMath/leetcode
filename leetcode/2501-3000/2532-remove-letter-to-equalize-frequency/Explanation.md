@@ -112,9 +112,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [192. Word Frequency](../../0001-0500/0192-word-frequency/)
-- [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
-- [895. Maximum Frequency Stack](../../0501-1000/0931-maximum-frequency-stack/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
+- [744. Find Smallest Letter Greater Than Target](../../0501-1000/0745-find-smallest-letter-greater-than-target/)
+- [784. Letter Case Permutation](../../0501-1000/0800-letter-case-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)

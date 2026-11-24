@@ -129,8 +129,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1461-count-all-valid-pickup-and-delivery-options/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [2867. Count Valid Paths in a Tree](../../3001-3500/3112-count-valid-paths-in-a-tree/)
-- [3926. Count Valid Word Occurrences](../../4001-4500/4293-count-valid-word-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-valid-prefixes/)

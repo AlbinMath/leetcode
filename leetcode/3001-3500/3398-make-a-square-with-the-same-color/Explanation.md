@@ -124,9 +124,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1812. Determine Color of a Chessboard Square](../../1501-2000/1920-determine-color-of-a-chessboard-square/)
 - [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
-- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
+- [1812. Determine Color of a Chessboard Square](../../1501-2000/1920-determine-color-of-a-chessboard-square/)
+- [768. Max Chunks To Make Sorted II](../../0501-1000/0779-max-chunks-to-make-sorted-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-a-square-with-the-same-color/)

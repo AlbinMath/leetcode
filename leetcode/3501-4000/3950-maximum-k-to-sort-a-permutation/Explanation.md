@@ -108,9 +108,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3942. Minimum Operations to Sort a Permutation](../../4001-4500/4184-minimum-operations-to-sort-a-permutation/)
 - [1191. K-Concatenation Maximum Sum](../../1001-1500/1299-k-concatenation-maximum-sum/)
 - [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2229-maximum-fruits-harvested-after-at-most-k-steps/)
+- [2461. Maximum Sum of Distinct Subarrays With Length K](../../2501-3000/2552-maximum-sum-of-distinct-subarrays-with-length-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/)

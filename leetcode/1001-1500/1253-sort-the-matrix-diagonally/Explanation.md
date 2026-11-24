@@ -121,9 +121,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
-- [147. Insertion Sort List](../../0001-0500/0147-insertion-sort-list/)
-- [148. Sort List](../../0001-0500/0148-sort-list/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
+- [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-the-matrix-diagonally/)

@@ -133,8 +133,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2025. Maximum Number of Ways to Partition an Array](../../2001-2500/2135-maximum-number-of-ways-to-partition-an-array/)
-- [1561. Maximum Number of Coins You Can Get](../../1501-2000/1683-maximum-number-of-coins-you-can-get/)
-- [1646. Get Maximum in Generated Array](../../1501-2000/1769-get-maximum-in-generated-array/)
+- [805. Split Array With Same Average](../../0501-1000/0823-split-array-with-same-average/)
+- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1501-2000/1577-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)

@@ -141,8 +141,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [2048. Next Greater Numerically Balanced Number](../../2001-2500/2174-next-greater-numerically-balanced-number/)
 - [2193. Minimum Number of Moves to Make Palindrome](../../1001-1500/1356-minimum-number-of-moves-to-make-palindrome/)
+- [2472. Maximum Number of Non-overlapping Palindrome Substrings](../../2501-3000/2559-maximum-number-of-non-overlapping-palindrome-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/next-special-palindrome-number/)

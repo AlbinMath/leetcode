@@ -371,9 +371,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1457. Pseudo-Palindromic Paths in a Binary Tree](../../1501-2000/1568-pseudo-palindromic-paths-in-a-binary-tree/)
-- [3615. Longest Palindromic Path in Graph](../../3501-4000/3930-longest-palindromic-path-in-graph/)
 - [2458. Height of Binary Tree After Subtree Removal Queries](../../2501-3000/2545-height-of-binary-tree-after-subtree-removal-queries/)
+- [2476. Closest Nodes Queries in a Binary Search Tree](../../2501-3000/2567-closest-nodes-queries-in-a-binary-search-tree/)
+- [2509. Cycle Length Queries in a Tree](../../2501-3000/2597-cycle-length-queries-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/)

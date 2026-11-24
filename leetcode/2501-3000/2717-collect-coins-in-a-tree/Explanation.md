@@ -151,7 +151,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [979. Distribute Coins in Binary Tree](../../1001-1500/1021-distribute-coins-in-binary-tree/)
 - [1443. Minimum Time to Collect All Apples in a Tree](../../1501-2000/1554-minimum-time-to-collect-all-apples-in-a-tree/)
-- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
+- [441. Arranging Coins](../../0001-0500/0441-arranging-coins/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/collect-coins-in-a-tree/)

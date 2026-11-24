@@ -122,8 +122,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3756. Concatenate Non-Zero Digits and Multiply by Sum II](../../4001-4500/4136-concatenate-non-zero-digits-and-multiply-by-sum-ii/)
-- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1406-subtract-the-product-and-sum-of-digits-of-an-integer/)
-- [1837. Sum of Digits in Base K](../../1501-2000/1965-sum-of-digits-in-base-k/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1096-maximum-sum-of-two-non-overlapping-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/)

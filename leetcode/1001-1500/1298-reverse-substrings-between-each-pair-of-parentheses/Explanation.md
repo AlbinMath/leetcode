@@ -130,7 +130,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3918. Sum of Primes Between Number and Its Reverse](../../4001-4500/4297-sum-of-primes-between-number-and-its-reverse/)
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [783. Minimum Distance Between BST Nodes](../../0501-1000/0799-minimum-distance-between-bst-nodes/)
+- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)

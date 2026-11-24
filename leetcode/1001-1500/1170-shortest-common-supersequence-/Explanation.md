@@ -128,9 +128,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
-- [581. Shortest Unsorted Continuous Subarray](../../0501-1000/0581-shortest-unsorted-continuous-subarray/)
-- [748. Shortest Completing Word](../../0501-1000/0749-shortest-completing-word/)
+- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
+- [235. Lowest Common Ancestor of a Binary Search Tree](../../0001-0500/0235-lowest-common-ancestor-of-a-binary-search-tree/)
+- [236. Lowest Common Ancestor of a Binary Tree](../../0001-0500/0236-lowest-common-ancestor-of-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-common-supersequence/)

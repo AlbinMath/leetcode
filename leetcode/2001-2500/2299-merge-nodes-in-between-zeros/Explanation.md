@@ -133,9 +133,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2482. Difference Between Ones and Zeros in Row and Column](../../2501-3000/2606-difference-between-ones-and-zeros-in-row-and-column/)
 - [783. Minimum Distance Between BST Nodes](../../0501-1000/0799-minimum-distance-between-bst-nodes/)
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [2482. Difference Between Ones and Zeros in Row and Column](../../2501-3000/2606-difference-between-ones-and-zeros-in-row-and-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-nodes-in-between-zeros/)

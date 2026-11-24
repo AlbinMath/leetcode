@@ -202,8 +202,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [4010. Maximize Pair Strength Using GCD](../../4001-4500/4371-maximize-pair-strength-using-gcd/)
-- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
-- [1211. Queries Quality and Percentage](../../1001-1500/1338-queries-quality-and-percentage/)
+- [1998. GCD Sort of an Array](../../2001-2500/2125-gcd-sort-of-an-array/)
+- [2447. Number of Subarrays With GCD Equal to K](../../2501-3000/2546-number-of-subarrays-with-gcd-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sorted-gcd-pair-queries/)

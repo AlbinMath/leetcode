@@ -129,9 +129,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
-- [1030. Matrix Cells in Distance Order](../../1001-1500/1094-matrix-cells-in-distance-order/)
-- [1252. Cells with Odd Values in a Matrix](../../1001-1500/1378-cells-with-odd-values-in-a-matrix/)
+- [1909. Remove One Element to Make the Array Strictly Increasing](../../2001-2500/2020-remove-one-element-to-make-the-array-strictly-increasing/)
+- [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](../../3001-3500/3372-longest-strictly-increasing-or-strictly-decreasing-subarray/)
+- [3825. Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND](../../4001-4500/4032-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/)

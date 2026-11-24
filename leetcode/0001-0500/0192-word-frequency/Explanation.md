@@ -84,9 +84,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
-- [895. Maximum Frequency Stack](../../0501-1000/0931-maximum-frequency-stack/)
-- [1170. Compare Strings by Frequency of the Smallest Character](../../1001-1500/1273-compare-strings-by-frequency-of-the-smallest-character/)
+- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
+- [79. Word Search](../../0001-0500/0079-word-search/)
+- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-frequency/)

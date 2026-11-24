@@ -139,8 +139,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3566. Partition Array into Two Equal Product Subsets](../../3501-4000/3843-partition-array-into-two-equal-product-subsets/)
-- [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii---input-array-is-sorted/)
-- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../../1501-2000/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+- [3069. Distribute Elements Into Two Arrays I](../../3001-3500/3347-distribute-elements-into-two-arrays-i/)
+- [3072. Distribute Elements Into Two Arrays II](../../3001-3500/3350-distribute-elements-into-two-arrays-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)

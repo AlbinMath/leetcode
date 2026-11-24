@@ -131,9 +131,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [2030. Smallest K-Length Subsequence With Occurrences of a Letter](../../2001-2500/2157-smallest-k-length-subsequence-with-occurrences-of-a-letter/)
-- [3398. Smallest Substring With Identical Characters I](../../3501-4000/3690-smallest-substring-with-identical-characters-i/)
-- [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../../4001-4500/4086-lexicographically-smallest-string-after-deleting-duplicate-characters/)
+- [1876. Substrings of Size Three with Distinct Characters](../../1501-2000/1987-substrings-of-size-three-with-distinct-characters/)
+- [2531. Make Number of Distinct Characters Equal](../../2501-3000/2615-make-number-of-distinct-characters-equal/)
+- [3545. Minimum Deletions for At Most K Distinct Characters](../../3501-4000/3871-minimum-deletions-for-at-most-k-distinct-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)

@@ -151,9 +151,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+- [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
+- [2343. Query Kth Smallest Trimmed Number](../../2001-2500/2422-query-kth-smallest-trimmed-number/)
 - [1557. Minimum Number of Vertices to Reach All Nodes](../../1501-2000/1661-minimum-number-of-vertices-to-reach-all-nodes/)
-- [1703. Minimum Adjacent Swaps for K Consecutive Ones](../../1501-2000/1805-minimum-adjacent-swaps-for-k-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)

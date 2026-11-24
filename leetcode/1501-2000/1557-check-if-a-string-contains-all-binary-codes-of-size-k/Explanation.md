@@ -111,8 +111,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1910-check-if-binary-string-has-at-most-one-segment-of-ones/)
 - [1437. Check If All 1's Are at Least Length K Places Away](../../1501-2000/1548-check-if-all-1s-are-at-least-length-k-places-away/)
+- [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1910-check-if-binary-string-has-at-most-one-segment-of-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)

@@ -135,9 +135,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2506. Count Pairs Of Similar Strings](../../2501-3000/2594-count-pairs-of-similar-strings/)
 - [1400. Construct K Palindrome Strings](../../1501-2000/1502-construct-k-palindrome-strings/)
 - [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+- [2506. Count Pairs Of Similar Strings](../../2501-3000/2594-count-pairs-of-similar-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-similar-strings/)

@@ -109,9 +109,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2766-find-the-prefix-common-array-of-two-arrays/)
 - [2527. Find Xor-Beauty of Array](../../2501-3000/2621-find-xor-beauty-of-array/)
-- [1961. Check If String Is a Prefix of Array](../../2001-2500/2093-check-if-string-is-a-prefix-of-array/)
+- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2766-find-the-prefix-common-array-of-two-arrays/)
+- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)

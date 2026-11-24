@@ -134,8 +134,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3866. First Unique Even Element](../../4001-4500/4252-first-unique-even-element/)
-- [387. First Unique Character in a String](../../0001-0500/0387-first-unique-character-in-a-string/)
-- [3978. Unique Middle Element](../../4001-4500/4354-unique-middle-element/)
+- [1838. Frequency of the Most Frequent Element](../../1501-2000/1966-frequency-of-the-most-frequent-element/)
+- [3346. Maximum Frequency of an Element After Performing Operations I](../../3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-element-with-unique-frequency/)

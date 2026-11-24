@@ -107,9 +107,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [950. Reveal Cards In Increasing Order](../../0501-1000/0987-reveal-cards-in-increasing-order/)
+- [1403. Minimum Subsequence in Non-Increasing Order](../../1501-2000/1519-minimum-subsequence-in-non-increasing-order/)
 - [102. Binary Tree Level Order Traversal](../../0001-0500/0102-binary-tree-level-order-traversal/)
-- [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
-- [107. Binary Tree Level Order Traversal II](../../0001-0500/0107-binary-tree-level-order-traversal-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/increasing-order-search-tree/)

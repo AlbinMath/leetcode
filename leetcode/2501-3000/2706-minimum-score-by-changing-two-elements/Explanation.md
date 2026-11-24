@@ -111,8 +111,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2492. Minimum Score of a Path Between Two Cities](../../2501-3000/2582-minimum-score-of-a-path-between-two-cities/)
-- [2322. Minimum Score After Removals on a Tree](../../2001-2500/2400-minimum-score-after-removals-on-a-tree/)
-- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2695-find-score-of-an-array-after-marking-all-elements/)
+- [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
+- [712. Minimum ASCII Delete Sum for Two Strings](../../0501-1000/0712-minimum-ascii-delete-sum-for-two-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)

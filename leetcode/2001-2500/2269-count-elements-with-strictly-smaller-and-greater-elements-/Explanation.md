@@ -98,8 +98,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3759. Count Elements With at Least K Greater Values](../../4001-4500/4141-count-elements-with-at-least-k-greater-values/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
 - [1608. Special Array With X Elements Greater Than or Equal X](../../1501-2000/1730-special-array-with-x-elements-greater-than-or-equal-x/)
-- [2334. Subarray With Elements Greater Than Varying Threshold](../../2001-2500/2419-subarray-with-elements-greater-than-varying-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)

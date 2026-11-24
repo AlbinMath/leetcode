@@ -119,7 +119,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2529. Maximum Count of Positive Integer and Negative Integer](../../2501-3000/2614-maximum-count-of-positive-integer-and-negative-integer/)
-- [2871. Split Array Into Maximum Number of Subarrays](../../3001-3500/3080-split-array-into-maximum-number-of-subarrays/)
+- [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
 - [3442. Maximum Difference Between Even and Odd Frequency I](../../3501-4000/3753-maximum-difference-between-even-and-odd-frequency-i/)
 
 ## LeetCode

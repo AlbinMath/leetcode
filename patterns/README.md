@@ -6,25 +6,25 @@ A comprehensive index of LeetCode problems organized by algorithmic pattern and 
 
 | Pattern | Solved Count | Hub Link |
 |---|---|---|
-| **Array / General** | 538 problems | [Browse Array / General](./array-general.md) |
+| **Array / General** | 484 problems | [Browse Array / General](./array-general.md) |
 | **Backtracking** | 49 problems | [Browse Backtracking](./backtracking.md) |
 | **Binary Search** | 164 problems | [Browse Binary Search](./binary-search.md) |
 | **Bit Manipulation** | 130 problems | [Browse Bit Manipulation](./bit-manipulation.md) |
 | **Database / SQL** | 88 problems | [Browse Database / SQL](./sql-database.md) |
-| **Dynamic Programming** | 132 problems | [Browse Dynamic Programming](./dynamic-programming.md) |
+| **Dynamic Programming** | 133 problems | [Browse Dynamic Programming](./dynamic-programming.md) |
 | **Fast & Slow Pointers** | 16 problems | [Browse Fast & Slow Pointers](./fast-slow-pointers.md) |
 | **Greedy** | 0 problems | [Browse Greedy](./greedy.md) |
-| **Hash Map** | 343 problems | [Browse Hash Map](./hash-map.md) |
+| **Hash Map** | 389 problems | [Browse Hash Map](./hash-map.md) |
 | **Heap** | 17 problems | [Browse Heap](./heap.md) |
 | **Linked List** | 0 problems | [Browse Linked List](./linked-list.md) |
 | **Math & Logic** | 105 problems | [Browse Math & Logic](./math-logic.md) |
 | **Monotonic Stack** | 19 problems | [Browse Monotonic Stack](./monotonic-stack.md) |
-| **Prefix Sum** | 40 problems | [Browse Prefix Sum](./prefix-sum.md) |
-| **Sliding Window** | 41 problems | [Browse Sliding Window](./sliding-window.md) |
+| **Prefix Sum** | 41 problems | [Browse Prefix Sum](./prefix-sum.md) |
+| **Sliding Window** | 42 problems | [Browse Sliding Window](./sliding-window.md) |
 | **Stack & Queue** | 179 problems | [Browse Stack & Queue](./stack-queue.md) |
-| **Tree & Graph** | 79 problems | [Browse Tree & Graph](./tree-graph.md) |
+| **Tree & Graph** | 80 problems | [Browse Tree & Graph](./tree-graph.md) |
 | **Trie** | 8 problems | [Browse Trie](./trie.md) |
-| **Two Pointers** | 535 problems | [Browse Two Pointers](./two-pointers.md) |
+| **Two Pointers** | 539 problems | [Browse Two Pointers](./two-pointers.md) |
 
 ---
 

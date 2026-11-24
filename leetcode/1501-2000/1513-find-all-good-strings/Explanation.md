@@ -145,9 +145,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2732. Find a Good Subset of the Matrix](../../2501-3000/2826-find-a-good-subset-of-the-matrix/)
+- [3272. Find the Count of Good Integers](../../3501-4000/3548-find-the-count-of-good-integers/)
 - [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1501-2000/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
-- [1897. Redistribute Characters to Make All Strings Equal](../../2001-2500/2025-redistribute-characters-to-make-all-strings-equal/)
-- [3324. Find the Sequence of Strings Appeared on the Screen](../../3501-4000/3566-find-the-sequence-of-strings-appeared-on-the-screen/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-good-strings/)

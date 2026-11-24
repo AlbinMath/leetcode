@@ -135,9 +135,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [352. Data Stream as Disjoint Intervals](../../0001-0500/0352-data-stream-as-disjoint-intervals/)
-- [435. Non-overlapping Intervals](../../0001-0500/0435-non-overlapping-intervals/)
-- [1288. Remove Covered Intervals](../../1001-1500/1222-remove-covered-intervals/)
+- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
+- [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
+- [88. Merge Sorted Array](../../0001-0500/0088-merge-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-intervals/)

@@ -298,9 +298,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [2767. Partition String Into Minimum Beautiful Substrings](../../2501-3000/2883-partition-string-into-minimum-beautiful-substrings/)
 - [3864. Minimum Cost to Partition a Binary String](../../4001-4500/4192-minimum-cost-to-partition-a-binary-string/)
-- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-string/)

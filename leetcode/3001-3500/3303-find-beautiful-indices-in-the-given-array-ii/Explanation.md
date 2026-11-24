@@ -150,8 +150,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3006. Find Beautiful Indices in the Given Array I](../../3001-3500/3245-find-beautiful-indices-in-the-given-array-i/)
-- [2089. Find Target Indices After Sorting Array](../../2001-2500/2210-find-target-indices-after-sorting-array/)
 - [1982. Find Array Given Subset Sums](../../2001-2500/2109-find-array-given-subset-sums/)
+- [2089. Find Target Indices After Sorting Array](../../2001-2500/2210-find-target-indices-after-sorting-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/)

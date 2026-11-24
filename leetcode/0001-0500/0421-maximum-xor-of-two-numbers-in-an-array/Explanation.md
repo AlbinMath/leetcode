@@ -99,9 +99,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1464. Maximum Product of Two Elements in an Array](../../1501-2000/1574-maximum-product-of-two-elements-in-an-array/)
 - [1707. Maximum XOR With an Element From Array](../../1501-2000/1826-maximum-xor-with-an-element-from-array/)
 - [3630. Partition Array for Maximum XOR and AND](../../3501-4000/3882-partition-array-for-maximum-xor-and-and/)
+- [1464. Maximum Product of Two Elements in an Array](../../1501-2000/1574-maximum-product-of-two-elements-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)

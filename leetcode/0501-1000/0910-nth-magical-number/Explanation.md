@@ -100,9 +100,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
-- [65. Valid Number](../../0001-0500/0065-valid-number/)
+- [481. Magical String](../../0001-0500/0481-magical-string/)
+- [3539. Find Sum of Array Product of Magical Sequences](../../3501-4000/3851-find-sum-of-array-product-of-magical-sequences/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/nth-magical-number/)

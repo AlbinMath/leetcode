@@ -134,9 +134,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [3820. Pythagorean Distance Nodes in a Tree](../../4001-4500/4180-pythagorean-distance-nodes-in-a-tree/)
 - [1461. Check If a String Contains All Binary Codes of Size K](../../1501-2000/1557-check-if-a-string-contains-all-binary-codes-of-size-k/)
 - [3319. K-th Largest Perfect Subtree Size in Binary Tree](../../3501-4000/3509-k-th-largest-perfect-subtree-size-in-binary-tree/)
+- [1361. Validate Binary Tree Nodes](../../1001-1500/1275-validate-binary-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)

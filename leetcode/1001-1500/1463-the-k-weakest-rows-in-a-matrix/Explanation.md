@@ -143,8 +143,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1501-2000/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
-- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1147-flip-columns-for-maximum-number-of-equal-rows/)
-- [2397. Maximum Rows Covered by Columns](../../2001-2500/2482-maximum-rows-covered-by-columns/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)

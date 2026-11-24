@@ -1,7 +1,7 @@
 # LeetCode 2182: Construct String With Repeat Limit
 
 **LeetCode Problem #2182 — Construct String With Repeat Limit**
-Solve LeetCode Construct String With Repeat Limit using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Construct String With Repeat Limit using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Construct String With Repeat Limit using Python and Array / Gener
 | LeetCode | #2182 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
-| Pattern | Array / General |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -50,7 +50,7 @@ The string is the lexicographically largest repeatLimitedString possible so we r
 Note that the string "bbabaaa" is lexicographically larger but the letter 'a' appears more than 2 times in a row, so it is not a valid repeatLimitedString.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Construct String With Repeat Limit**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -63,7 +63,7 @@ To solve **Construct String With Repeat Limit**, we observe the problem requirem
 
 ## Example Walkthrough
 1. **Input State:** We begin with `s = "cczazcc", repeatLimit = 3`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `"zzcccac"`.
@@ -80,10 +80,12 @@ Note that the string "zzcccca" is lexicographically larger but the letter 'c' ap
 - **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Array / General**
+**Two Pointers**
 
 ## Topics
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 Python
@@ -127,21 +129,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
+- [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
 - [2375. Construct Smallest Number From DI String](../../2001-2500/2456-construct-smallest-number-from-di-string/)
-- [2745. Construct the Longest New String](../../2501-3000/2850-construct-the-longest-new-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-string-with-repeat-limit/)

@@ -103,8 +103,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [378. Kth Smallest Element in a Sorted Matrix](../../0001-0500/0378-kth-smallest-element-in-a-sorted-matrix/)
-- [1380. Lucky Numbers in a Matrix](../../1001-1500/1496-lucky-numbers-in-a-matrix/)
 - [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1501-2000/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
+- [1641. Count Sorted Vowel Strings](../../1501-2000/1761-count-sorted-vowel-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)

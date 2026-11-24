@@ -1,7 +1,7 @@
 # LeetCode 3438: Find Valid Pair of Adjacent Digits in String
 
 **LeetCode Problem #3438 — Find Valid Pair of Adjacent Digits in String**
-Solve LeetCode Find Valid Pair of Adjacent Digits in String using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Find Valid Pair of Adjacent Digits in String using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Find Valid Pair of Adjacent Digits in String using JavaScript and
 | LeetCode | #3438 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Mathematical Simulation & Modular Arithmetic |
-| Data Structure | Primitive Types |
-| Pattern | Math & Logic |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -45,7 +45,7 @@ Return the first **valid pair** found in the string `s` when traversing from lef
 - **Explanation:** There are no valid adjacent pairs.
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Find Valid Pair of Adjacent Digits in String**, we observe the problem requirements and utilize the **Math & Logic** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -58,7 +58,7 @@ To solve **Find Valid Pair of Adjacent Digits in String**, we observe the proble
 
 ## Example Walkthrough
 1. **Input State:** We begin with `s = "2523533"`.
-2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `"23"`.
@@ -66,14 +66,15 @@ To solve **Find Valid Pair of Adjacent Digits in String**, we observe the proble
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Math & Logic**
+**Two Pointers**
 
 ## Topics
-- Math
-- Simulation
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 JavaScript
@@ -106,21 +107,21 @@ var findValidPair = function(s) {
 ```
 
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
-- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1629-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+- [678. Valid Parenthesis String](../../0501-1000/0678-valid-parenthesis-string/)
+- [1517. Find Users With Valid E-Mails](../../1501-2000/1664-find-users-with-valid-e-mails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)

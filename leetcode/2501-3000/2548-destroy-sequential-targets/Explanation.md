@@ -1,7 +1,7 @@
 # LeetCode 2453: Destroy Sequential Targets
 
 **LeetCode Problem #2453 — Destroy Sequential Targets**
-Solve LeetCode Destroy Sequential Targets using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Destroy Sequential Targets using Python and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Destroy Sequential Targets using Python and Array / General. This
 | LeetCode | #2453 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given a **0-indexed** array `nums` consisting of positive integers, representing targets on a number line. You are also given an integer `space`.
@@ -49,7 +49,7 @@ Since nums[0] is the minimal integer that can destroy 3 targets, we return 1.
 - **Explanation:** Whatever initial seed we select, we can only destroy 1 target. The minimal seed is nums[1].
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Destroy Sequential Targets**, we observe the problem requirements and utilize the **Array / General** technique. By maintaining a **Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
@@ -62,7 +62,7 @@ To solve **Destroy Sequential Targets**, we observe the problem requirements and
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [3,7,8,1,1,5], space = 2`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Prefix Sum Precomputation** using our **Prefix Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `1`.
@@ -72,12 +72,13 @@ It is impossible to destroy more than 5 targets, so we return nums[3].
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Prefix Array.
 
 ## Pattern
-**Array / General**
+**Prefix Sum**
 
 ## Topics
+- Prefix Sum
 - Array
 
 ## Language
@@ -99,7 +100,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -113,7 +114,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1291. Sequential Digits](../../1001-1500/1212-sequential-digits/)
 - [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../../3001-3500/3236-smallest-missing-integer-greater-than-sequential-prefix-sum/)
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [13. Roman to Integer](../../0001-0500/0013-roman-to-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/destroy-sequential-targets/)

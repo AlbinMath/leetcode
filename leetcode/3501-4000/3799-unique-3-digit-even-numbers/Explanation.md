@@ -128,8 +128,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2094. Finding 3-Digit Even Numbers](../../2001-2500/2215-finding-3-digit-even-numbers/)
-- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
-- [902. Numbers At Most N Given Digit Set](../../0501-1000/0938-numbers-at-most-n-given-digit-set/)
+- [985. Sum of Even Numbers After Queries](../../1001-1500/1027-sum-of-even-numbers-after-queries/)
+- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-3-digit-even-numbers/)

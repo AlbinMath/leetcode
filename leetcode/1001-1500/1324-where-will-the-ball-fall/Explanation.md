@@ -131,9 +131,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1503. Last Moment Before All Ants Fall Out of a Plank](../../1501-2000/1627-last-moment-before-all-ants-fall-out-of-a-plank/)
 - [1900. The Earliest and Latest Rounds Where Players Compete](../../2001-2500/2028-the-earliest-and-latest-rounds-where-players-compete/)
 - [1970. Last Day Where You Can Still Cross](../../2001-2500/2101-last-day-where-you-can-still-cross/)
-- [2940. Find Building Where Alice and Bob Can Meet](../../3001-3500/3181-find-building-where-alice-and-bob-can-meet/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/where-will-the-ball-fall/)

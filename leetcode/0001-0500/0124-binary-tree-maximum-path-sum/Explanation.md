@@ -120,7 +120,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1161. Maximum Level Sum of a Binary Tree](../../1001-1500/1116-maximum-level-sum-of-a-binary-tree/)
 - [1373. Maximum Sum BST in Binary Tree](../../1001-1500/1475-maximum-sum-bst-in-binary-tree/)
-- [1038. Binary Search Tree to Greater Sum Tree](../../1001-1500/1114-binary-search-tree-to-greater-sum-tree/)
+- [1104. Path In Zigzag Labelled Binary Tree](../../1001-1500/1194-path-in-zigzag-labelled-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-tree-maximum-path-sum/)

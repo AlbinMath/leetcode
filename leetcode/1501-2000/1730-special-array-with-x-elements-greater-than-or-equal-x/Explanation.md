@@ -122,8 +122,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
-- [453. Minimum Moves to Equal Array Elements](../../0001-0500/0453-minimum-moves-to-equal-array-elements/)
-- [462. Minimum Moves to Equal Array Elements II](../../0001-0500/0462-minimum-moves-to-equal-array-elements-ii/)
+- [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+- [2334. Subarray With Elements Greater Than Varying Threshold](../../2001-2500/2419-subarray-with-elements-greater-than-varying-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)

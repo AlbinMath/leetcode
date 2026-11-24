@@ -123,9 +123,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1926. Nearest Exit from Entrance in Maze](../../2001-2500/2038-nearest-exit-from-entrance-in-maze/)
 - [827. Making A Large Island](../../0501-1000/0854-making-a-large-island/)
 - [830. Positions of Large Groups](../../0501-1000/0857-positions-of-large-groups/)
-- [1093. Statistics from a Large Sample](../../1001-1500/1183-statistics-from-a-large-sample/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/escape-a-large-maze/)

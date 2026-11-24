@@ -124,8 +124,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3578. Count Partitions With Max-Min Difference at Most K](../../3501-4000/3835-count-partitions-with-max-min-difference-at-most-k/)
-- [155. Min Stack](../../0001-0500/0155-min-stack/)
-- [746. Min Cost Climbing Stairs](../../0501-1000/0747-min-cost-climbing-stairs/)
+- [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/min-max-game/)

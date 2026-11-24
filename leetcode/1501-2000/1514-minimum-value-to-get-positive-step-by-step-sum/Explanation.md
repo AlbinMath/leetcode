@@ -105,8 +105,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3364. Minimum Positive Sum Subarray ](../../3501-4000/3644-minimum-positive-sum-subarray-/)
-- [2379. Minimum Recolors to Get K Consecutive Black Blocks](../../2001-2500/2463-minimum-recolors-to-get-k-consecutive-black-blocks/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)

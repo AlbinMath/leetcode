@@ -116,8 +116,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2162-partition-array-into-two-arrays-to-minimize-sum-difference/)
-- [1464. Maximum Product of Two Elements in an Array](../../1501-2000/1574-maximum-product-of-two-elements-in-an-array/)
 - [2206. Divide Array Into Equal Pairs](../../2001-2500/2308-divide-array-into-equal-pairs/)
+- [3659. Partition Array Into K-Distinct Groups](../../3501-4000/3979-partition-array-into-k-distinct-groups/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/)

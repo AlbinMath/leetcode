@@ -137,9 +137,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
-- [117. Populating Next Right Pointers in Each Node II](../../0001-0500/0117-populating-next-right-pointers-in-each-node-ii/)
-- [199. Binary Tree Right Side View](../../0001-0500/0199-binary-tree-right-side-view/)
+- [57. Insert Interval](../../0001-0500/0057-insert-interval/)
+- [986. Interval List Intersections](../../1001-1500/1028-interval-list-intersections/)
+- [1124. Longest Well-Performing Interval](../../1001-1500/1219-longest-well-performing-interval/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-right-interval/)

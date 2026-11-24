@@ -87,7 +87,7 @@ A collection of **345** solved LeetCode problems in the range **0501-1000**.
 | 617 | [Merge Two Binary Trees](./0617-merge-two-binary-trees/) | Easy | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0617-merge-two-binary-trees/Explanation.md) |
 | 619 | [Biggest Single Number](./0619-biggest-single-number/) | Easy | [Database / SQL](../../patterns/sql-database.md) | SQL | [Explanation](./0619-biggest-single-number/Explanation.md) |
 | 620 | [Not Boring Movies](./0620-not-boring-movies/) | Easy | [Database / SQL](../../patterns/sql-database.md) | SQL | [Explanation](./0620-not-boring-movies/Explanation.md) |
-| 621 | [Task Scheduler](./0621-task-scheduler/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0621-task-scheduler/Explanation.md) |
+| 621 | [Task Scheduler](./0621-task-scheduler/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0621-task-scheduler/Explanation.md) |
 | 622 | [Design Circular Queue](./0860-design-circular-queue/) | Medium | [Stack & Queue](../../patterns/stack-queue.md) | JavaScript | [Explanation](./0860-design-circular-queue/Explanation.md) |
 | 623 | [Add One Row to Tree](./0623-add-one-row-to-tree/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0623-add-one-row-to-tree/Explanation.md) |
 | 626 | [Exchange Seats](./0626-exchange-seats/) | Medium | [Database / SQL](../../patterns/sql-database.md) | SQL | [Explanation](./0626-exchange-seats/Explanation.md) |
@@ -337,7 +337,7 @@ A collection of **345** solved LeetCode problems in the range **0501-1000**.
 | 942 | [DI String Match](./0979-di-string-match/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0979-di-string-match/Explanation.md) |
 | 943 | [Find the Shortest Superstring](./0980-find-the-shortest-superstring/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0980-find-the-shortest-superstring/Explanation.md) |
 | 944 | [Delete Columns to Make Sorted](./0981-delete-columns-to-make-sorted/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0981-delete-columns-to-make-sorted/Explanation.md) |
-| 945 | [Minimum Increment to Make Array Unique](./0982-minimum-increment-to-make-array-unique/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0982-minimum-increment-to-make-array-unique/Explanation.md) |
+| 945 | [Minimum Increment to Make Array Unique](./0982-minimum-increment-to-make-array-unique/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0982-minimum-increment-to-make-array-unique/Explanation.md) |
 | 946 | [Validate Stack Sequences](./0983-validate-stack-sequences/) | Medium | [Binary Search](../../patterns/binary-search.md) | JavaScript | [Explanation](./0983-validate-stack-sequences/Explanation.md) |
 | 947 | [Most Stones Removed with Same Row or Column](./0984-most-stones-removed-with-same-row-or-column/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0984-most-stones-removed-with-same-row-or-column/Explanation.md) |
 | 949 | [Largest Time for Given Digits](./0986-largest-time-for-given-digits/) | Medium | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./0986-largest-time-for-given-digits/Explanation.md) |

@@ -1,7 +1,7 @@
 # LeetCode 1054: Distant Barcodes
 
 **LeetCode Problem #1054 — Distant Barcodes**
-Solve LeetCode Distant Barcodes using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Distant Barcodes using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Distant Barcodes using Python and Array / General. This solution 
 | LeetCode | #1054 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 In a warehouse, there is a row of barcodes, where the `i^th` barcode is `barcodes[i]`.
@@ -35,7 +35,7 @@ Rearrange the barcodes so that no two adjacent barcodes are equal. You may retur
 - **Output:** `[1,3,1,3,1,2,1,2]`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
 To solve **Distant Barcodes**, we observe the problem requirements and utilize the **Array / General** technique. By maintaining a **Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
@@ -48,20 +48,22 @@ To solve **Distant Barcodes**, we observe the problem requirements and utilize t
 
 ## Example Walkthrough
 1. **Input State:** We begin with `barcodes = [1,1,1,2,2,2]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[2,1,2,1,2,1]`.
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Array / General**
+**Hash Map**
 
 ## Topics
+- Hash Table
 - Array
+- Complement Lookup
 
 ## Language
 Python
@@ -88,21 +90,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
 - [4051. Count Subarrays with Distant Sums](../../4001-4500/4317-count-subarrays-with-distant-sums/)
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [49. Group Anagrams](../../0001-0500/0049-group-anagrams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distant-barcodes/)

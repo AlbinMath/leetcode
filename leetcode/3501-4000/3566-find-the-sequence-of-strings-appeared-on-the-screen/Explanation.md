@@ -124,9 +124,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1397. Find All Good Strings](../../1501-2000/1513-find-all-good-strings/)
 - [3287. Find the Maximum Sequence Value of Array](../../3501-4000/3575-find-the-maximum-sequence-value-of-array/)
 - [3302. Find the Lexicographically Smallest Valid Sequence](../../3501-4000/3584-find-the-lexicographically-smallest-valid-sequence/)
-- [1397. Find All Good Strings](../../1501-2000/1513-find-all-good-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-sequence-of-strings-appeared-on-the-screen/)

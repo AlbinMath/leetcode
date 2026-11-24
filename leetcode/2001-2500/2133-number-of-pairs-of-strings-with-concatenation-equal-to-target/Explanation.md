@@ -1,7 +1,7 @@
 # LeetCode 2023: Number of Pairs of Strings With Concatenation Equal to Target
 
 **LeetCode Problem #2023 — Number of Pairs of Strings With Concatenation Equal to Target**
-Solve LeetCode Number of Pairs of Strings With Concatenation Equal to Target using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Number of Pairs of Strings With Concatenation Equal to Target using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Number of Pairs of Strings With Concatenation Equal to Target usi
 | LeetCode | #2023 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 Given an array of **digit** strings `nums` and a **digit** string `target`, return *the number of pairs of indices *`(i, j)`* (where *`i != j`*) such that the **concatenation** of *`nums[i] + nums[j]`* equals *`target`.
@@ -55,7 +55,7 @@ Given an array of **digit** strings `nums` and a **digit** string `target`, retu
 - (2, 1): "1" + "1"
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
 To solve **Number of Pairs of Strings With Concatenation Equal to Target**, we observe the problem requirements and utilize the **Array / General** technique. By maintaining a **Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
@@ -68,7 +68,7 @@ To solve **Number of Pairs of Strings With Concatenation Equal to Target**, we o
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = ["777","7","77","77"], target = "7777"`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `4`.
@@ -80,13 +80,15 @@ To solve **Number of Pairs of Strings With Concatenation Equal to Target**, we o
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Array / General**
+**Hash Map**
 
 ## Topics
+- Hash Table
 - Array
+- Complement Lookup
 
 ## Language
 Python
@@ -117,21 +119,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
 - [3291. Minimum Number of Valid Strings to Form Target I](../../3501-4000/3559-minimum-number-of-valid-strings-to-form-target-i/)
 - [3292. Minimum Number of Valid Strings to Form Target II](../../3501-4000/3557-minimum-number-of-valid-strings-to-form-target-ii/)
-- [1247. Minimum Swaps to Make Strings Equal](../../1001-1500/1369-minimum-swaps-to-make-strings-equal/)
+- [1074. Number of Submatrices That Sum to Target](../../1001-1500/1145-number-of-submatrices-that-sum-to-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)

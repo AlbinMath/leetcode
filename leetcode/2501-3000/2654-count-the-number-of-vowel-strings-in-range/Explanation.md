@@ -112,8 +112,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1641. Count Sorted Vowel Strings](../../1501-2000/1761-count-sorted-vowel-strings/)
 - [1684. Count the Number of Consistent Strings](../../1501-2000/1786-count-the-number-of-consistent-strings/)
+- [1641. Count Sorted Vowel Strings](../../1501-2000/1761-count-sorted-vowel-strings/)
 - [327. Count of Range Sum](../../0001-0500/0327-count-of-range-sum/)
 
 ## LeetCode

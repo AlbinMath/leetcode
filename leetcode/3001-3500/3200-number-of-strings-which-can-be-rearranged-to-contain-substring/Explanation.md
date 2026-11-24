@@ -146,7 +146,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](../../3501-4000/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
 - [3298. Count Substrings That Can Be Rearranged to Contain a String II](../../3501-4000/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)
-- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1469-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [1177. Can Make Palindrome from Substring](../../1001-1500/1281-can-make-palindrome-from-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/)

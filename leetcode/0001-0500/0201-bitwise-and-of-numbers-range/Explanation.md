@@ -102,7 +102,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1523. Count Odd Numbers in an Interval Range](../../1501-2000/1630-count-odd-numbers-in-an-interval-range/)
 - [2523. Closest Prime Numbers in Range](../../2501-3000/2610-closest-prime-numbers-in-range/)
-- [3751. Total Waviness of Numbers in Range I](../../4001-4500/4057-total-waviness-of-numbers-in-range-i/)
+- [3688. Bitwise OR of Even Numbers in an Array](../../4001-4500/4009-bitwise-or-of-even-numbers-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bitwise-and-of-numbers-range/)

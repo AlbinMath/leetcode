@@ -123,8 +123,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3855. Sum of K-Digit Numbers in a Range](../../4001-4500/4239-sum-of-k-digit-numbers-in-a-range/)
+- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
 - [201. Bitwise AND of Numbers Range](../../0001-0500/0201-bitwise-and-of-numbers-range/)
-- [303. Range Sum Query - Immutable](../../0001-0500/0303-range-sum-query---immutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/)

@@ -107,7 +107,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2186. Minimum Number of Steps to Make Two Strings Anagram II](../../2001-2500/2293-minimum-number-of-steps-to-make-two-strings-anagram-ii/)
 - [712. Minimum ASCII Delete Sum for Two Strings](../../0501-1000/0712-minimum-ascii-delete-sum-for-two-strings/)
-- [1247. Minimum Swaps to Make Strings Equal](../../1001-1500/1369-minimum-swaps-to-make-strings-equal/)
+- [1616. Split Two Strings to Make Palindrome](../../1501-2000/1739-split-two-strings-to-make-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)

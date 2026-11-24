@@ -229,7 +229,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1208-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [1599. Maximum Profit of Operating a Centennial Wheel](../../1501-2000/1721-maximum-profit-of-operating-a-centennial-wheel/)
 - [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1424-maximum-candies-you-can-get-from-boxes/)
 - [1423. Maximum Points You Can Obtain from Cards](../../1501-2000/1538-maximum-points-you-can-obtain-from-cards/)
 

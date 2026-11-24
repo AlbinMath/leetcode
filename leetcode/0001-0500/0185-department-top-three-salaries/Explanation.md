@@ -196,9 +196,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
-- [692. Top K Frequent Words](../../0501-1000/0692-top-k-frequent-words/)
-- [1407. Top Travellers](../../1501-2000/1541-top-travellers/)
+- [184. Department Highest Salary](../../0001-0500/0184-department-highest-salary/)
+- [1179. Reformat Department Table](../../1001-1500/1301-reformat-department-table/)
+- [1789. Primary Department for Each Employee](../../1501-2000/1942-primary-department-for-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/department-top-three-salaries/)

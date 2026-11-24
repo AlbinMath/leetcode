@@ -145,9 +145,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1051. Height Checker](../../1001-1500/1137-height-checker/)
 - [2932. Maximum Strong Pair XOR I](../../3001-3500/3193-maximum-strong-pair-xor-i/)
 - [2935. Maximum Strong Pair XOR II](../../3001-3500/3197-maximum-strong-pair-xor-ii/)
+- [1051. Height Checker](../../1001-1500/1137-height-checker/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/strong-password-checker/)

@@ -223,8 +223,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3689. Maximum Total Subarray Value I](../../4001-4500/4005-maximum-total-subarray-value-i/)
-- [1695. Maximum Erasure Value](../../1501-2000/1813-maximum-erasure-value/)
-- [1881. Maximum Value after Insertion](../../2001-2500/2011-maximum-value-after-insertion/)
+- [2234. Maximum Total Beauty of the Gardens](../../2001-2500/2330-maximum-total-beauty-of-the-gardens/)
+- [2285. Maximum Total Importance of Roads](../../2001-2500/2379-maximum-total-importance-of-roads/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-subarray-value-ii/)

@@ -213,9 +213,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3543. Maximum Weighted K-Edge Path](../../3501-4000/3856-maximum-weighted-k-edge-path/)
+- [3585. Find Weighted Median Node in Tree](../../3501-4000/3900-find-weighted-median-node-in-tree/)
 - [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [1104. Path In Zigzag Labelled Binary Tree](../../1001-1500/1194-path-in-zigzag-labelled-binary-tree/)
-- [1372. Longest ZigZag Path in a Binary Tree](../../1001-1500/1474-longest-zigzag-path-in-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-path-in-a-weighted-tree/)

@@ -186,7 +186,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3069. Distribute Elements Into Two Arrays I](../../3001-3500/3347-distribute-elements-into-two-arrays-i/)
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2162-partition-array-into-two-arrays-to-minimize-sum-difference/)
-- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
+- [3566. Partition Array into Two Equal Product Subsets](../../3501-4000/3843-partition-array-into-two-equal-product-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-elements-into-two-arrays-ii/)

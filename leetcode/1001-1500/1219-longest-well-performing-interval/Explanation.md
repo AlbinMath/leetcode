@@ -111,9 +111,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2011. Final Value of Variable After Performing Operations](../../2001-2500/2137-final-value-of-variable-after-performing-operations/)
-- [3080. Mark Elements on Array by Performing Queries](../../3001-3500/3306-mark-elements-on-array-by-performing-queries/)
-- [3346. Maximum Frequency of an Element After Performing Operations I](../../3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/)
+- [57. Insert Interval](../../0001-0500/0057-insert-interval/)
+- [436. Find Right Interval](../../0001-0500/0436-find-right-interval/)
+- [986. Interval List Intersections](../../1001-1500/1028-interval-list-intersections/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-well-performing-interval/)

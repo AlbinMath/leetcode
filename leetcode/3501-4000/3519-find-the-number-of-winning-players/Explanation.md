@@ -116,9 +116,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3222. Find the Winning Player in Coin Game](../../3501-4000/3511-find-the-winning-player-in-coin-game/)
+- [2225. Find Players With Zero or One Losses](../../1001-1500/1354-find-players-with-zero-or-one-losses/)
 - [287. Find the Duplicate Number](../../0001-0500/0287-find-the-duplicate-number/)
-- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1421-find-numbers-with-even-number-of-digits/)
-- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-number-of-winning-players/)

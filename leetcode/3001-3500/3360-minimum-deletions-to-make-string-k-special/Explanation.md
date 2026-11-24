@@ -123,8 +123,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1653. Minimum Deletions to Make String Balanced](../../1501-2000/1756-minimum-deletions-to-make-string-balanced/)
-- [1312. Minimum Insertion Steps to Make a String Palindrome](../../1001-1500/1437-minimum-insertion-steps-to-make-a-string-palindrome/)
 - [1647. Minimum Deletions to Make Character Frequencies Unique](../../1501-2000/1770-minimum-deletions-to-make-character-frequencies-unique/)
+- [2216. Minimum Deletions to Make Array Beautiful](../../1001-1500/1355-minimum-deletions-to-make-array-beautiful/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/)

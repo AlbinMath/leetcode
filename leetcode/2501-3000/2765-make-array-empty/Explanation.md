@@ -157,8 +157,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2870. Minimum Number of Operations to Make Array Empty](../../3001-3500/3094-minimum-number-of-operations-to-make-array-empty/)
-- [3039. Apply Operations to Make String Empty](../../3001-3500/3308-apply-operations-to-make-string-empty/)
 - [945. Minimum Increment to Make Array Unique](../../0501-1000/0982-minimum-increment-to-make-array-unique/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1662-minimum-numbers-of-function-calls-to-make-target-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-array-empty/)

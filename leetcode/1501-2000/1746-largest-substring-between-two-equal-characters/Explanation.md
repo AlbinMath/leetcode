@@ -114,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1360. Number of Days Between Two Dates](../../1001-1500/1274-number-of-days-between-two-dates/)
-- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1486-find-the-distance-value-between-two-arrays/)
-- [1637. Widest Vertical Area Between Two Points Containing No Points](../../1501-2000/1742-widest-vertical-area-between-two-points-containing-no-points/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
+- [1946. Largest Number After Mutating Substring](../../2001-2500/2077-largest-number-after-mutating-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)

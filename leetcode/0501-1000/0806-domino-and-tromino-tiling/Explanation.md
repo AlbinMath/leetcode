@@ -111,8 +111,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1240. Tiling a Rectangle with the Fewest Squares](../../1001-1500/1361-tiling-a-rectangle-with-the-fewest-squares/)
 - [1128. Number of Equivalent Domino Pairs](../../1001-1500/1227-number-of-equivalent-domino-pairs/)
+- [1240. Tiling a Rectangle with the Fewest Squares](../../1001-1500/1361-tiling-a-rectangle-with-the-fewest-squares/)
 - [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
 
 ## LeetCode

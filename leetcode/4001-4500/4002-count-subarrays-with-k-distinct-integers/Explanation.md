@@ -219,9 +219,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [992. Subarrays with K Different Integers](../../1001-1500/1034-subarrays-with-k-different-integers/)
-- [2302. Count Subarrays With Score Less Than K](../../2001-2500/2394-count-subarrays-with-score-less-than-k/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2501-3000/2525-count-number-of-distinct-integers-after-reverse-operations/)
 - [2461. Maximum Sum of Distinct Subarrays With Length K](../../2501-3000/2552-maximum-sum-of-distinct-subarrays-with-length-k/)
+- [992. Subarrays with K Different Integers](../../1001-1500/1034-subarrays-with-k-different-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-k-distinct-integers/)

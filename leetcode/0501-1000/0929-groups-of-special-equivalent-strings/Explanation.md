@@ -110,9 +110,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2068. Check Whether Two Strings are Almost Equivalent](../../2001-2500/2177-check-whether-two-strings-are-almost-equivalent/)
 - [2157. Groups of Strings](../../2001-2500/2276-groups-of-strings/)
-- [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
+- [2068. Check Whether Two Strings are Almost Equivalent](../../2001-2500/2177-check-whether-two-strings-are-almost-equivalent/)
+- [761. Special Binary String](../../0501-1000/0763-special-binary-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/groups-of-special-equivalent-strings/)

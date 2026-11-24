@@ -130,9 +130,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1566. Detect Pattern of Length M Repeated K or More Times](../../1501-2000/1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
 - [2311. Longest Binary Subsequence Less Than or Equal to K](../../2001-2500/2395-longest-binary-subsequence-less-than-or-equal-to-k/)
-- [2962. Count Subarrays Where Max Element Appears at Least K Times](../../3001-3500/3213-count-subarrays-where-max-element-appears-at-least-k-times/)
+- [1566. Detect Pattern of Length M Repeated K or More Times](../../1501-2000/1689-detect-pattern-of-length-m-repeated-k-or-more-times/)
+- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)

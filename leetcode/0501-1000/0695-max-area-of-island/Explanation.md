@@ -110,9 +110,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
-- [812. Largest Triangle Area](../../0501-1000/0830-largest-triangle-area/)
-- [850. Rectangle Area II](../../0501-1000/0880-rectangle-area-ii/)
+- [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
+- [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-area-of-island/)

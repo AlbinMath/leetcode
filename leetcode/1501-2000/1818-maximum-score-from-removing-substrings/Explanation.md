@@ -153,7 +153,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2091. Removing Minimum and Maximum From Array](../../2001-2500/2212-removing-minimum-and-maximum-from-array/)
 - [2975. Maximum Square Area by Removing Fences From a Field](../../3001-3500/3250-maximum-square-area-by-removing-fences-from-a-field/)
-- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1381-maximum-score-words-formed-by-letters/)
+- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1424-maximum-candies-you-can-get-from-boxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-from-removing-substrings/)

@@ -115,9 +115,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0855-count-unique-characters-of-all-substrings-of-a-given-string/)
 - [3258. Count Substrings That Satisfy K-Constraint I](../../3501-4000/3543-count-substrings-that-satisfy-k-constraint-i/)
 - [3261. Count Substrings That Satisfy K-Constraint II](../../3501-4000/3546-count-substrings-that-satisfy-k-constraint-ii/)
+- [3305. Count of Substrings Containing Every Vowel and K Consonants I](../../3501-4000/3570-count-of-substrings-containing-every-vowel-and-k-consonants-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/)

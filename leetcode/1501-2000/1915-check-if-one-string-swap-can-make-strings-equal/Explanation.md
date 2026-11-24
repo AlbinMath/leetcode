@@ -120,8 +120,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2349-check-if-there-is-a-valid-parentheses-string-path/)
-- [1433. Check If a String Can Break Another String](../../1501-2000/1530-check-if-a-string-can-break-another-string/)
 - [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1910-check-if-binary-string-has-at-most-one-segment-of-ones/)
+- [1433. Check If a String Can Break Another String](../../1501-2000/1530-check-if-a-string-can-break-another-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)

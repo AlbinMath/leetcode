@@ -109,8 +109,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3825. Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND](../../4001-4500/4032-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/)
-- [1827. Minimum Operations to Make the Array Increasing](../../1501-2000/1938-minimum-operations-to-make-the-array-increasing/)
-- [1969. Minimum Non-Zero Product of the Array Elements](../../2001-2500/2100-minimum-non-zero-product-of-the-array-elements/)
+- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
+- [334. Increasing Triplet Subsequence](../../0001-0500/0334-increasing-triplet-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)

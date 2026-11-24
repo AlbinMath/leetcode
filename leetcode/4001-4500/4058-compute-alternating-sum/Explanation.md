@@ -101,7 +101,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3695. Maximize Alternating Sum Using Swaps](../../4001-4500/4010-maximize-alternating-sum-using-swaps/)
 - [3727. Maximum Alternating Sum of Squares](../../4001-4500/4078-maximum-alternating-sum-of-squares/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/compute-alternating-sum/)

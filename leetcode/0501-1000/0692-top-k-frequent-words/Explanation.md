@@ -103,8 +103,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
-- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
-- [1407. Top Travellers](../../1501-2000/1541-top-travellers/)
+- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [151. Reverse Words in a String](../../0001-0500/0151-reverse-words-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/top-k-frequent-words/)

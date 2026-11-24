@@ -113,9 +113,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2044. Count Number of Maximum Bitwise-OR Subsets](../../2001-2500/2170-count-number-of-maximum-bitwise-or-subsets/)
-- [2148. Count Elements With Strictly Smaller and Greater Elements ](../../2001-2500/2269-count-elements-with-strictly-smaller-and-greater-elements-/)
-- [2529. Maximum Count of Positive Integer and Negative Integer](../../2501-3000/2614-maximum-count-of-positive-integer-and-negative-integer/)
+- [895. Maximum Frequency Stack](../../0501-1000/0931-maximum-frequency-stack/)
+- [3325. Count Substrings With K-Frequency Characters I](../../3501-4000/3502-count-substrings-with-k-frequency-characters-i/)
+- [3346. Maximum Frequency of an Element After Performing Operations I](../../3501-4000/3622-maximum-frequency-of-an-element-after-performing-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-elements-with-maximum-frequency/)

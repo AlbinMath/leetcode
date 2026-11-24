@@ -102,8 +102,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
-- [72. Edit Distance](../../0001-0500/0072-edit-distance/)
-- [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
+- [1010. Pairs of Songs With Total Durations Divisible by 60](../../1001-1500/1055-pairs-of-songs-with-total-durations-divisible-by-60/)
+- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1892-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-distance-traveled/)

@@ -102,9 +102,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
 - [180. Consecutive Numbers](../../0001-0500/0180-consecutive-numbers/)
-- [967. Numbers With Same Consecutive Differences](../../1001-1500/1007-numbers-with-same-consecutive-differences/)
-- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1267-remove-zero-sum-consecutive-nodes-from-linked-list/)
+- [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/consecutive-numbers-sum/)

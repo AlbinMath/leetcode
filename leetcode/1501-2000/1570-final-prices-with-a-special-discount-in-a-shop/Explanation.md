@@ -121,9 +121,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [761. Special Binary String](../../0501-1000/0763-special-binary-string/)
-- [893. Groups of Special-Equivalent Strings](../../0501-1000/0929-groups-of-special-equivalent-strings/)
-- [1582. Special Positions in a Binary Matrix](../../1501-2000/1704-special-positions-in-a-binary-matrix/)
+- [1896. Minimum Cost to Change the Final Value of Expression](../../2001-2500/2008-minimum-cost-to-change-the-final-value-of-expression/)
+- [2011. Final Value of Variable After Performing Operations](../../2001-2500/2137-final-value-of-variable-after-performing-operations/)
+- [3264. Final Array State After K Multiplication Operations I](../../3501-4000/3555-final-array-state-after-k-multiplication-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)

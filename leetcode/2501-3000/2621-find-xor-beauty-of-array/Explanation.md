@@ -123,8 +123,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2433. Find The Original Array of Prefix Xor](../../2501-3000/2519-find-the-original-array-of-prefix-xor/)
-- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
-- [1486. XOR Operation in an Array](../../1501-2000/1610-xor-operation-in-an-array/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-xor-beauty-of-array/)

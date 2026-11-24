@@ -128,9 +128,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [640. Solve the Equation](../../0501-1000/0640-solve-the-equation/)
-- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1358-find-positive-integer-solution-for-a-given-equation/)
 - [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
+- [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-value-of-equation/)

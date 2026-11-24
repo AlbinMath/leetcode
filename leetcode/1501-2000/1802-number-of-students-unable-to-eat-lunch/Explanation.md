@@ -176,7 +176,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1450. Number of Students Doing Homework at a Given Time](../../1501-2000/1560-number-of-students-doing-homework-at-a-given-time/)
 - [1553. Minimum Number of Days to Eat N Oranges](../../1501-2000/1676-minimum-number-of-days-to-eat-n-oranges/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [596. Classes With at Least 5 Students](../../0501-1000/0596-classes-with-at-least-5-students/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)

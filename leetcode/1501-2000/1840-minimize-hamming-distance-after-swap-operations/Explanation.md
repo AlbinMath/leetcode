@@ -150,7 +150,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
 - [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
-- [3243. Shortest Distance After Road Addition Queries I](../../3501-4000/3517-shortest-distance-after-road-addition-queries-i/)
+- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1747-lexicographically-smallest-string-after-applying-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)

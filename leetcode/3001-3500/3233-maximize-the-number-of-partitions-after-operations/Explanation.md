@@ -159,8 +159,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1799. Maximize Score After N Operations](../../1501-2000/1906-maximize-score-after-n-operations/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2501-3000/2525-count-number-of-distinct-integers-after-reverse-operations/)
 - [3372. Maximize the Number of Target Nodes After Connecting Trees I](../../3501-4000/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i/)
-- [3373. Maximize the Number of Target Nodes After Connecting Trees II](../../3501-4000/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/)

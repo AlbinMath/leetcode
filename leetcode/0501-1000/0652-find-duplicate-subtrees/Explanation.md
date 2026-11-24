@@ -121,7 +121,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [287. Find the Duplicate Number](../../0001-0500/0287-find-the-duplicate-number/)
 - [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
-- [1617. Count Subtrees With Max Distance Between Cities](../../1501-2000/1740-count-subtrees-with-max-distance-between-cities/)
+- [182. Duplicate Emails](../../0001-0500/0182-duplicate-emails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-duplicate-subtrees/)

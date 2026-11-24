@@ -118,7 +118,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1717. Maximum Score From Removing Substrings](../../1501-2000/1818-maximum-score-from-removing-substrings/)
 - [2091. Removing Minimum and Maximum From Array](../../2001-2500/2212-removing-minimum-and-maximum-from-array/)
-- [2390. Removing Stars From a String](../../2001-2500/2470-removing-stars-from-a-string/)
+- [3047. Find the Largest Area of Square Inside Two Rectangles](../../3001-3500/3325-find-the-largest-area-of-square-inside-two-rectangles/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)

@@ -163,9 +163,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1178. Number of Valid Words for Each Puzzle](../../1001-1500/1282-number-of-valid-words-for-each-puzzle/)
-- [1434. Number of Ways to Wear Different Hats to Each Other](../../1501-2000/1531-number-of-ways-to-wear-different-hats-to-each-other/)
-- [1731. The Number of Employees Which Report to Each Employee](../../1501-2000/1882-the-number-of-employees-which-report-to-each-employee/)
+- [497. Random Point in Non-overlapping Rectangles](../../0501-1000/0914-random-point-in-non-overlapping-rectangles/)
+- [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1843-number-of-rectangles-that-can-form-the-largest-square/)
+- [2001. Number of Pairs of Interchangeable Rectangles](../../2001-2500/2129-number-of-pairs-of-interchangeable-rectangles/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)

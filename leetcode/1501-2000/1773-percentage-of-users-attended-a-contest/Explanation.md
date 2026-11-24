@@ -184,9 +184,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1211. Queries Quality and Percentage](../../1001-1500/1338-queries-quality-and-percentage/)
 - [262. Trips and Users](../../0001-0500/0262-trips-and-users/)
 - [1517. Find Users With Valid E-Mails](../../1501-2000/1664-find-users-with-valid-e-mails/)
+- [3793. Find Users with High Token Usage](../../4001-4500/4195-find-users-with-high-token-usage/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)

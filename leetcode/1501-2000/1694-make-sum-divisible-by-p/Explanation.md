@@ -1,7 +1,7 @@
 # LeetCode 1590: Make Sum Divisible by P
 
 **LeetCode Problem #1590 — Make Sum Divisible by P**
-Solve LeetCode Make Sum Divisible by P using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Make Sum Divisible by P using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Make Sum Divisible by P using Python and Array / General. This so
 | LeetCode | #1590 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 Given an array of positive integers `nums`, remove the **smallest** subarray (possibly **empty**) such that the **sum** of the remaining elements is divisible by `p`. It is **not** allowed to remove the whole array.
@@ -45,7 +45,7 @@ A **subarray** is defined as a contiguous block of elements in the array.
 - **Explanation:** Here the sum is 6. which is already divisible by 3. Thus we do not need to remove anything.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
 To solve **Make Sum Divisible by P**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -57,7 +57,7 @@ To solve **Make Sum Divisible by P**, we observe the problem requirements and ut
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [3,1,4,2], p = 6`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `1`.
@@ -65,13 +65,15 @@ To solve **Make Sum Divisible by P**, we observe the problem requirements and ut
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Array / General**
+**Hash Map**
 
 ## Topics
+- Hash Table
 - Array
+- Complement Lookup
 
 ## Language
 Python
@@ -97,21 +99,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
 - [2344. Minimum Deletions to Make Array Divisible](../../2001-2500/2423-minimum-deletions-to-make-array-divisible/)
+- [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
 - [3712. Sum of Elements With Frequency Divisible by K](../../4001-4500/4068-sum-of-elements-with-frequency-divisible-by-k/)
-- [3927. Minimize Array Sum Using Divisible Replacements](../../4001-4500/4301-minimize-array-sum-using-divisible-replacements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-sum-divisible-by-p/)

@@ -106,8 +106,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3348. Smallest Divisible Digit Product II](../../3501-4000/3635-smallest-divisible-digit-product-ii/)
+- [3622. Check Divisibility by Digit Sum and Product](../../3501-4000/3918-check-divisibility-by-digit-sum-and-product/)
 - [1015. Smallest Integer Divisible by K](../../1001-1500/1064-smallest-integer-divisible-by-k/)
-- [2605. Form Smallest Number From Two Digit Arrays](../../2501-3000/2668-form-smallest-number-from-two-digit-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-divisible-digit-product-i/)

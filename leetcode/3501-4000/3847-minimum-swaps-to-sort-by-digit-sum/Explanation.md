@@ -118,8 +118,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3300. Minimum Element After Replacement With Digit Sum](../../3501-4000/3606-minimum-element-after-replacement-with-digit-sum/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
-- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
+- [2180. Count Integers With Even Digit Sum](../../2001-2500/2298-count-integers-with-even-digit-sum/)
+- [2243. Calculate Digit Sum of a String](../../2001-2500/2361-calculate-digit-sum-of-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/)

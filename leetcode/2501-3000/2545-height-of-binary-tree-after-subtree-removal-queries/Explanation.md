@@ -149,9 +149,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [2476. Closest Nodes Queries in a Binary Search Tree](../../2501-3000/2567-closest-nodes-queries-in-a-binary-search-tree/)
 - [3319. K-th Largest Perfect Subtree Size in Binary Tree](../../3501-4000/3509-k-th-largest-perfect-subtree-size-in-binary-tree/)
-- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
+- [2476. Closest Nodes Queries in a Binary Search Tree](../../2501-3000/2567-closest-nodes-queries-in-a-binary-search-tree/)
+- [3485. Longest Common Prefix of K Strings After Removal](../../3501-4000/3784-longest-common-prefix-of-k-strings-after-removal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/)

@@ -108,9 +108,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1481. Least Number of Unique Integers after K Removals](../../1501-2000/1604-least-number-of-unique-integers-after-k-removals/)
-- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3233-maximize-the-number-of-partitions-after-operations/)
 - [3569. Maximize Count of Distinct Primes After Split](../../3501-4000/3878-maximize-count-of-distinct-primes-after-split/)
+- [3859. Count Subarrays With K Distinct Integers](../../4001-4500/4002-count-subarrays-with-k-distinct-integers/)
+- [1481. Least Number of Unique Integers after K Removals](../../1501-2000/1604-least-number-of-unique-integers-after-k-removals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/)

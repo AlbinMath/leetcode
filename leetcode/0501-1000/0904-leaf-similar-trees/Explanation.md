@@ -143,9 +143,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [839. Similar String Groups](../../0501-1000/0869-similar-string-groups/)
-- [854. K-Similar Strings](../../0501-1000/0884-k-similar-strings/)
-- [1750. Minimum Length of String After Deleting Similar Ends](../../1501-2000/1850-minimum-length-of-string-after-deleting-similar-ends/)
+- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
+- [96. Unique Binary Search Trees](../../0001-0500/0096-unique-binary-search-trees/)
+- [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/leaf-similar-trees/)

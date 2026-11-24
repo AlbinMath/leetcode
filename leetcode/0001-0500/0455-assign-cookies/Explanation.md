@@ -112,9 +112,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2305. Fair Distribution of Cookies](../../1001-1500/1418-fair-distribution-of-cookies/)
 - [2071. Maximum Number of Tasks You Can Assign](../../2001-2500/2180-maximum-number-of-tasks-you-can-assign/)
 - [3558. Number of Ways to Assign Edge Weights I](../../3501-4000/3844-number-of-ways-to-assign-edge-weights-i/)
-- [3559. Number of Ways to Assign Edge Weights II](../../3501-4000/3842-number-of-ways-to-assign-edge-weights-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/assign-cookies/)

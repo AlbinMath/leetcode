@@ -100,8 +100,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2384. Largest Palindromic Number](../../2001-2500/2475-largest-palindromic-number/)
-- [1909. Remove One Element to Make the Array Strictly Increasing](../../2001-2500/2020-remove-one-element-to-make-the-array-strictly-increasing/)
-- [2148. Count Elements With Strictly Smaller and Greater Elements ](../../2001-2500/2269-count-elements-with-strictly-smaller-and-greater-elements-/)
+- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/strictly-palindromic-number/)

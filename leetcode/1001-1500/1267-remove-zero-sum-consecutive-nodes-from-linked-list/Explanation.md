@@ -123,7 +123,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [2487. Remove Nodes From Linked List](../../2501-3000/2573-remove-nodes-from-linked-list/)
 - [3217. Delete Nodes From Linked List Present in Array](../../3501-4000/3501-delete-nodes-from-linked-list-present-in-array/)
-- [2130. Maximum Twin Sum of a Linked List](../../2001-2500/2236-maximum-twin-sum-of-a-linked-list/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)

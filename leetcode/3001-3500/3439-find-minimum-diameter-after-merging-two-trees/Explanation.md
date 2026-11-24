@@ -162,9 +162,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
-- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1486-find-the-distance-value-between-two-arrays/)
+- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../../0501-1000/0773-logical-or-of-two-binary-grids-represented-as-quad-trees/)
+- [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
+- [617. Merge Two Binary Trees](../../0501-1000/0617-merge-two-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)

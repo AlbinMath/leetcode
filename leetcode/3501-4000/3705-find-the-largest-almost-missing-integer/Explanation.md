@@ -151,7 +151,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [1985. Find the Kth Largest Integer in the Array](../../2001-2500/2113-find-the-kth-largest-integer-in-the-array/)
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1358-find-positive-integer-solution-for-a-given-equation/)
+- [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1860-find-kth-largest-xor-coordinate-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-largest-almost-missing-integer/)

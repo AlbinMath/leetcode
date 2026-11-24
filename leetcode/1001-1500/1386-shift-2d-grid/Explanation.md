@@ -127,7 +127,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1559. Detect Cycles in 2D Grid](../../1501-2000/1663-detect-cycles-in-2d-grid/)
 - [3311. Construct 2D Grid Matching Graph Layout](../../3501-4000/3578-construct-2d-grid-matching-graph-layout/)
-- [840. Magic Squares In Grid](../../0501-1000/0870-magic-squares-in-grid/)
+- [4052. Cyclically Shift Rows and Columns](../../4001-4500/4416-cyclically-shift-rows-and-columns/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shift-2d-grid/)

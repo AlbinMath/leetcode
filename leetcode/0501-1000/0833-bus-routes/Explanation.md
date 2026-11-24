@@ -126,9 +126,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1204. Last Person to Fit in the Bus](../../1001-1500/1327-last-person-to-fit-in-the-bus/)
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](../../1501-2000/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [1575. Count All Possible Routes](../../1501-2000/1680-count-all-possible-routes/)
+- [1204. Last Person to Fit in the Bus](../../1001-1500/1327-last-person-to-fit-in-the-bus/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bus-routes/)

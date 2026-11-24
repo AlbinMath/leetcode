@@ -153,8 +153,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [240. Search a 2D Matrix II](../../0001-0500/0240-search-a-2d-matrix-ii/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
-- [35. Search Insert Position](../../0001-0500/0035-search-insert-position/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-a-2d-matrix/)

@@ -143,9 +143,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [102. Binary Tree Level Order Traversal](../../0001-0500/0102-binary-tree-level-order-traversal/)
-- [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
-- [107. Binary Tree Level Order Traversal II](../../0001-0500/0107-binary-tree-level-order-traversal-ii/)
+- [655. Print Binary Tree](../../0501-1000/0655-print-binary-tree/)
+- [1115. Print FooBar Alternately](../../1001-1500/1187-print-foobar-alternately/)
+- [1116. Print Zero Even Odd](../../1001-1500/1216-print-zero-even-odd/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-in-order/)

@@ -110,8 +110,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2284. Sender With Largest Word Count](../../2001-2500/2378-sender-with-largest-word-count/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
-- [204. Count Primes](../../0001-0500/0204-count-primes/)
+- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
+- [49. Group Anagrams](../../0001-0500/0049-group-anagrams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-largest-group/)

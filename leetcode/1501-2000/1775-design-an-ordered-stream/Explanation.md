@@ -109,9 +109,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1327. List the Products Ordered in a Period](../../1001-1500/1462-list-the-products-ordered-in-a-period/)
-- [2717. Semi-Ordered Permutation](../../2501-3000/2785-semi-ordered-permutation/)
-- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [355. Design Twitter](../../0001-0500/0355-design-twitter/)
+- [622. Design Circular Queue](../../0501-1000/0860-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-an-ordered-stream/)

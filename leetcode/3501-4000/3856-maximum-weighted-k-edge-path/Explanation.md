@@ -163,9 +163,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3419. Minimize the Maximum Edge Weight of Graph](../../3501-4000/3720-minimize-the-maximum-edge-weight-of-graph/)
-- [3547. Maximum Sum of Edge Values in a Graph](../../3501-4000/3845-maximum-sum-of-edge-values-in-a-graph/)
-- [3650. Minimum Cost Path with Edge Reversals](../../3501-4000/3887-minimum-cost-path-with-edge-reversals/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [1219. Path with Maximum Gold](../../1001-1500/1331-path-with-maximum-gold/)
+- [1514. Path with Maximum Probability](../../1001-1500/1325-path-with-maximum-probability/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-weighted-k-edge-path/)

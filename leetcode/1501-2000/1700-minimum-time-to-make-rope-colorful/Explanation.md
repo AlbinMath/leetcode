@@ -119,9 +119,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
 - [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0957-minimum-add-to-make-parentheses-valid/)
 - [945. Minimum Increment to Make Array Unique](../../0501-1000/0982-minimum-increment-to-make-array-unique/)
-- [1247. Minimum Swaps to Make Strings Equal](../../1001-1500/1369-minimum-swaps-to-make-strings-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)

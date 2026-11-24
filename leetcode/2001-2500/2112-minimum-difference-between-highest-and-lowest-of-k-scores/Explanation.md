@@ -107,8 +107,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3880. Minimum Absolute Difference Between Two Values](../../4001-4500/4255-minimum-absolute-difference-between-two-values/)
-- [783. Minimum Distance Between BST Nodes](../../0501-1000/0799-minimum-distance-between-bst-nodes/)
-- [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1092-maximum-difference-between-node-and-ancestor/)
+- [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
+- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)
