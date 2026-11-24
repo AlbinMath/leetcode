@@ -132,7 +132,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 1876 | [Substrings of Size Three with Distinct Characters](../leetcode/1501-2000/1876-substrings-of-size-three-with-distinct-characters/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1876-substrings-of-size-three-with-distinct-characters/Explanation.md) |
 | 1880 | [Check if Word Equals Summation of Two Words](../leetcode/1501-2000/1880-check-if-word-equals-summation-of-two-words/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1880-check-if-word-equals-summation-of-two-words/Explanation.md) |
 | 1897 | [Redistribute Characters to Make All Strings Equal](../leetcode/1501-2000/1897-redistribute-characters-to-make-all-strings-equal/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1897-redistribute-characters-to-make-all-strings-equal/Explanation.md) |
-| 1909 | [Remove One Element to Make the Array Strictly Increasing](../leetcode/1501-2000/1909-remove-one-element-to-make-the-array-strictly-increasing/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1909-remove-one-element-to-make-the-array-strictly-increasing/Explanation.md) |
 | 1925 | [Count Square Sum Triples](../leetcode/1501-2000/1925-count-square-sum-triples/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1925-count-square-sum-triples/Explanation.md) |
 | 1929 | [Concatenation of Array](../leetcode/1501-2000/1929-concatenation-of-array/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1929-concatenation-of-array/Explanation.md) |
 | 1935 | [Maximum Number of Words You Can Type](../leetcode/1501-2000/1935-maximum-number-of-words-you-can-type/) | C++ | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1935-maximum-number-of-words-you-can-type/Explanation.md) |
@@ -212,8 +211,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 3842 | [Toggle Light Bulbs](../leetcode/3501-4000/3842-toggle-light-bulbs/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3842-toggle-light-bulbs/Explanation.md) |
 | 3880 | [Minimum Absolute Difference Between Two Values](../leetcode/3501-4000/3880-minimum-absolute-difference-between-two-values/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3880-minimum-absolute-difference-between-two-values/Explanation.md) |
 | 3894 | [Traffic Signal Color](../leetcode/3501-4000/3894-traffic-signal-color/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3894-traffic-signal-color/Explanation.md) |
-| 3925 | [Concatenate Array With Reverse](../leetcode/3501-4000/3925-concatenate-array-with-reverse/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3925-concatenate-array-with-reverse/Explanation.md) |
-| 3959 | [Check Good Integer](../leetcode/3501-4000/3959-check-good-integer/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3959-check-good-integer/Explanation.md) |
 | 4020 | [Elevator Requests I](../leetcode/4001-4500/4020-elevator-requests-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4020-elevator-requests-i/Explanation.md) |
 | 4024 | [Nearest Available Drone](../leetcode/4001-4500/4024-nearest-available-drone/) | Python | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4024-nearest-available-drone/Explanation.md) |
 | 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](../leetcode/4001-4500/4043-count-rotations-with-exactly-k-equal-adjacent-pairs/) | Python | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4043-count-rotations-with-exactly-k-equal-adjacent-pairs/Explanation.md) |
@@ -249,7 +246,6 @@ A collection of LeetCode problems solved using **Array / General** pattern techn
 | 647 | [Palindromic Substrings](../leetcode/0501-1000/0647-palindromic-substrings/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0647-palindromic-substrings/Explanation.md) |
 | 649 | [Dota2 Senate](../leetcode/0501-1000/0649-dota2-senate/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0649-dota2-senate/Explanation.md) |
 | 672 | [Bulb Switcher II](../leetcode/0501-1000/0672-bulb-switcher-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0672-bulb-switcher-ii/Explanation.md) |
-| 686 | [Repeated String Match](../leetcode/0501-1000/0686-repeated-string-match/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0686-repeated-string-match/Explanation.md) |
 | 752 | [Open the Lock](../leetcode/0501-1000/0752-open-the-lock/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0752-open-the-lock/Explanation.md) |
 | 763 | [Partition Labels](../leetcode/0501-1000/0763-partition-labels/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0763-partition-labels/Explanation.md) |
 | 769 | [Max Chunks To Make Sorted](../leetcode/0501-1000/0769-max-chunks-to-make-sorted/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0769-max-chunks-to-make-sorted/Explanation.md) |

@@ -129,8 +129,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1614. Maximum Nesting Depth of the Parentheses](../../1501-2000/1614-maximum-nesting-depth-of-the-parentheses/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
-- [559. Maximum Depth of N-ary Tree](../../0501-1000/0559-maximum-depth-of-n-ary-tree/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)

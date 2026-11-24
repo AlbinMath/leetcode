@@ -138,9 +138,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [173. Binary Search Tree Iterator](../../0001-0500/0173-binary-search-tree-iterator/)
-- [284. Peeking Iterator](../../0001-0500/0284-peeking-iterator/)
-- [341. Flatten Nested List Iterator](../../0001-0500/0341-flatten-nested-list-iterator/)
+- [39. Combination Sum](../../0001-0500/0039-combination-sum/)
+- [40. Combination Sum II](../../0001-0500/0040-combination-sum-ii/)
+- [216. Combination Sum III](../../0001-0500/0216-combination-sum-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/iterator-for-combination/)

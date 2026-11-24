@@ -111,7 +111,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [2527. Find Xor-Beauty of Array](../../2501-3000/2527-find-xor-beauty-of-array/)
 - [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2657-find-the-prefix-common-array-of-two-arrays/)
-- [2122. Recover the Original Array](../../2001-2500/2122-recover-the-original-array/)
+- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)

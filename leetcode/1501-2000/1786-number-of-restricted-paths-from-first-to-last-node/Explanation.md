@@ -141,8 +141,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
-- [2096. Step-By-Step Directions From a Binary Tree Node to Another](../../2001-2500/2096-step-by-step-directions-from-a-binary-tree-node-to-another/)
+- [2770. Maximum Number of Jumps to Reach the Last Index](../../2501-3000/2770-maximum-number-of-jumps-to-reach-the-last-index/)
+- [1301. Number of Paths with Max Score](../../1001-1500/1301-number-of-paths-with-max-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)

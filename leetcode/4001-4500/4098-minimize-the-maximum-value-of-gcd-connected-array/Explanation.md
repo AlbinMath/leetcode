@@ -145,8 +145,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3287. Find the Maximum Sequence Value of Array](../../3001-3500/3287-find-the-maximum-sequence-value-of-array/)
-- [1695. Maximum Erasure Value](../../1501-2000/1695-maximum-erasure-value/)
-- [1881. Maximum Value after Insertion](../../1501-2000/1881-maximum-value-after-insertion/)
+- [1998. GCD Sort of an Array](../../1501-2000/1998-gcd-sort-of-an-array/)
+- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-maximum-value-of-gcd-connected-array/)

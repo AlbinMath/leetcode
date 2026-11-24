@@ -120,8 +120,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3655. XOR After Range Multiplication Queries II](../../3501-4000/3655-xor-after-range-multiplication-queries-ii/)
+- [1310. XOR Queries of a Subarray](../../1001-1500/1310-xor-queries-of-a-subarray/)
 - [1803. Count Pairs With XOR in a Range](../../1501-2000/1803-count-pairs-with-xor-in-a-range/)
-- [2080. Range Frequency Queries](../../2001-2500/2080-range-frequency-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/)

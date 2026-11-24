@@ -140,7 +140,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
 - [221. Maximal Square](../../0001-0500/0221-maximal-square/)
-- [178. Rank Scores](../../0001-0500/0178-rank-scores/)
+- [743. Network Delay Time](../../0501-1000/0743-network-delay-time/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximal-network-rank/)

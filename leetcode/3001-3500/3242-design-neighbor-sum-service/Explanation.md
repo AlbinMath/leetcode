@@ -123,8 +123,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1515. Best Position for a Service Centre](../../1501-2000/1515-best-position-for-a-service-centre/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [39. Combination Sum](../../0001-0500/0039-combination-sum/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [355. Design Twitter](../../0001-0500/0355-design-twitter/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-neighbor-sum-service/)

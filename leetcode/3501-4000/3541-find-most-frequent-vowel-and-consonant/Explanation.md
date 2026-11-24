@@ -133,8 +133,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
-- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1606-find-servers-that-handled-most-number-of-requests/)
-- [1673. Find the Most Competitive Subsequence](../../1501-2000/1673-find-the-most-competitive-subsequence/)
+- [1838. Frequency of the Most Frequent Element](../../1501-2000/1838-frequency-of-the-most-frequent-element/)
+- [2190. Most Frequent Number Following Key In an Array](../../2001-2500/2190-most-frequent-number-following-key-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/)

@@ -112,7 +112,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2157. Groups of Strings](../../2001-2500/2157-groups-of-strings/)
 - [2068. Check Whether Two Strings are Almost Equivalent](../../2001-2500/2068-check-whether-two-strings-are-almost-equivalent/)
-- [830. Positions of Large Groups](../../0501-1000/0830-positions-of-large-groups/)
+- [761. Special Binary String](../../0501-1000/0761-special-binary-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/groups-of-special-equivalent-strings/)

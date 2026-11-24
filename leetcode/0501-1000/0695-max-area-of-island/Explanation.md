@@ -110,9 +110,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
-- [812. Largest Triangle Area](../../0501-1000/0812-largest-triangle-area/)
-- [850. Rectangle Area II](../../0501-1000/0850-rectangle-area-ii/)
+- [463. Island Perimeter](../../0001-0500/0463-island-perimeter/)
+- [827. Making A Large Island](../../0501-1000/0827-making-a-large-island/)
+- [1568. Minimum Number of Days to Disconnect Island](../../1501-2000/1568-minimum-number-of-days-to-disconnect-island/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-area-of-island/)

@@ -149,9 +149,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../../1001-1500/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
 - [785. Is Graph Bipartite?](../../0501-1000/0785-is-graph-bipartite/)
 - [882. Reachable Nodes In Subdivided Graph](../../0501-1000/0882-reachable-nodes-in-subdivided-graph/)
+- [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](../../1501-2000/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/clone-graph/)

@@ -111,9 +111,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
-- [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
-- [1004. Max Consecutive Ones III](../../1001-1500/1004-max-consecutive-ones-iii/)
+- [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
+- [172. Factorial Trailing Zeroes](../../0001-0500/0172-factorial-trailing-zeroes/)
+- [283. Move Zeroes](../../0001-0500/0283-move-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ones-and-zeroes/)

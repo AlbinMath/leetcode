@@ -122,8 +122,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2887. Fill Missing Data](../../2501-3000/2887-fill-missing-data/)
-- [2882. Drop Duplicate Rows](../../2501-3000/2882-drop-duplicate-rows/)
 - [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/drop-missing-data/)

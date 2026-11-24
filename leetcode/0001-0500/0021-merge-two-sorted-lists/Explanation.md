@@ -140,7 +140,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
 - [3801. Minimum Cost to Merge Sorted Lists](../../3501-4000/3801-minimum-cost-to-merge-sorted-lists/)
-- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
+- [160. Intersection of Two Linked Lists](../../0001-0500/0160-intersection-of-two-linked-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/)

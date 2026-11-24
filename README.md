@@ -32,7 +32,7 @@ This repository contains solved LeetCode problems with explanations, complexity 
 |---|---|---|---|---|---|
 | 4109 | [Count Valid Suffix Sorts II](leetcode/4001-4500/4109-count-valid-suffix-sorts-ii/) | Hard | [Hash Map](patterns/hash-map.md) | Python | [Explanation](leetcode/4001-4500/4109-count-valid-suffix-sorts-ii/Explanation.md) |
 | 4107 | [Count Valid Suffix Sorts I](leetcode/4001-4500/4107-count-valid-suffix-sorts-i/) | Medium | [Hash Map](patterns/hash-map.md) | JavaScript | [Explanation](leetcode/4001-4500/4107-count-valid-suffix-sorts-i/Explanation.md) |
-| 4105 | [Repeated String Match II](leetcode/4001-4500/4105-repeated-string-match-ii/) | Hard | [Math & Logic](patterns/math-logic.md) | JavaScript | [Explanation](leetcode/4001-4500/4105-repeated-string-match-ii/Explanation.md) |
+| 4105 | [Repeated String Match II](leetcode/4001-4500/4105-repeated-string-match-ii/) | Hard | [Tree & Graph](patterns/tree-graph.md) | JavaScript | [Explanation](leetcode/4001-4500/4105-repeated-string-match-ii/Explanation.md) |
 | 4104 | [Count Valid Substrings II](leetcode/4001-4500/4104-count-valid-substrings-ii/) | Medium | [Two Pointers](patterns/two-pointers.md) | C++ | [Explanation](leetcode/4001-4500/4104-count-valid-substrings-ii/Explanation.md) |
 | 4103 | [Remove Elements by Type and Color](leetcode/4001-4500/4103-remove-elements-by-type-and-color/) | Medium | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4103-remove-elements-by-type-and-color/Explanation.md) |
 | 4102 | [Count Valid Substrings I](leetcode/4001-4500/4102-count-valid-substrings-i/) | Medium | [Sliding Window](patterns/sliding-window.md) | C++ | [Explanation](leetcode/4001-4500/4102-count-valid-substrings-i/Explanation.md) |

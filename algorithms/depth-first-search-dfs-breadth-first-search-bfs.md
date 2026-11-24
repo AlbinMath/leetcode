@@ -19,6 +19,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 547 | [Number of Provinces](../leetcode/0501-1000/0547-number-of-provinces/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0547-number-of-provinces/Explanation.md) |
 | 559 | [Maximum Depth of N-ary Tree](../leetcode/0501-1000/0559-maximum-depth-of-n-ary-tree/) | Easy | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0559-maximum-depth-of-n-ary-tree/Explanation.md) |
 | 684 | [Redundant Connection](../leetcode/0501-1000/0684-redundant-connection/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0684-redundant-connection/Explanation.md) |
+| 686 | [Repeated String Match](../leetcode/0501-1000/0686-repeated-string-match/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0686-repeated-string-match/Explanation.md) |
 | 687 | [Longest Univalue Path](../leetcode/0501-1000/0687-longest-univalue-path/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0687-longest-univalue-path/Explanation.md) |
 | 690 | [Employee Importance](../leetcode/0501-1000/0690-employee-importance/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0690-employee-importance/Explanation.md) |
 | 695 | [Max Area of Island](../leetcode/0501-1000/0695-max-area-of-island/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0695-max-area-of-island/Explanation.md) |
@@ -86,3 +87,5 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 3826 | [Minimum Partition Score](../leetcode/3501-4000/3826-minimum-partition-score/) | Hard | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3826-minimum-partition-score/Explanation.md) |
 | 3863 | [Minimum Operations to Sort a String](../leetcode/3501-4000/3863-minimum-operations-to-sort-a-string/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3863-minimum-operations-to-sort-a-string/Explanation.md) |
 | 3864 | [Minimum Cost to Partition a Binary String](../leetcode/3501-4000/3864-minimum-cost-to-partition-a-binary-string/) | Hard | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3864-minimum-cost-to-partition-a-binary-string/Explanation.md) |
+| 3959 | [Check Good Integer](../leetcode/3501-4000/3959-check-good-integer/) | Easy | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3959-check-good-integer/Explanation.md) |
+| 4105 | [Repeated String Match II](../leetcode/4001-4500/4105-repeated-string-match-ii/) | Hard | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4105-repeated-string-match-ii/Explanation.md) |

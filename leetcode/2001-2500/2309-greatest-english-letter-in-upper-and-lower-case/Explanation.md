@@ -104,7 +104,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [709. To Lower Case](../../0501-1000/0709-to-lower-case/)
 - [784. Letter Case Permutation](../../0501-1000/0784-letter-case-permutation/)
-- [273. Integer to English Words](../../0001-0500/0273-integer-to-english-words/)
+- [374. Guess Number Higher or Lower](../../0001-0500/0374-guess-number-higher-or-lower/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/)

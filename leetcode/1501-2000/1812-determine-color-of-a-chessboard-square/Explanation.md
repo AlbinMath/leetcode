@@ -105,8 +105,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3127. Make a Square with the Same Color](../../3001-3500/3127-make-a-square-with-the-same-color/)
-- [688. Knight Probability in Chessboard](../../0501-1000/0688-knight-probability-in-chessboard/)
-- [782. Transform to Chessboard](../../0501-1000/0782-transform-to-chessboard/)
+- [1857. Largest Color Value in a Directed Graph](../../1501-2000/1857-largest-color-value-in-a-directed-graph/)
+- [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)

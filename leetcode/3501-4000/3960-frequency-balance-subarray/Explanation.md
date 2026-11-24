@@ -161,7 +161,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2958. Length of Longest Subarray With at Most K Frequency](../../2501-3000/2958-length-of-longest-subarray-with-at-most-k-frequency/)
 - [3434. Maximum Frequency After Subarray Operation](../../3001-3500/3434-maximum-frequency-after-subarray-operation/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [192. Word Frequency](../../0001-0500/0192-word-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/frequency-balance-subarray/)

@@ -116,9 +116,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1827. Minimum Operations to Make the Array Increasing](../../1501-2000/1827-minimum-operations-to-make-the-array-increasing/)
+- [1909. Remove One Element to Make the Array Strictly Increasing](../../1501-2000/1909-remove-one-element-to-make-the-array-strictly-increasing/)
 - [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
-- [3913. Sort Vowels by Frequency](../../3501-4000/3913-sort-vowels-by-frequency/)
-- [905. Sort Array By Parity](../../0501-1000/0905-sort-array-by-parity/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-array-by-increasing-frequency/)

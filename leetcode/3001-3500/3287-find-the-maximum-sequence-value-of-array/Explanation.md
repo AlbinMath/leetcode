@@ -126,8 +126,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2562. Find the Array Concatenation Value](../../2501-3000/2562-find-the-array-concatenation-value/)
-- [3524. Find X Value of Array I](../../3501-4000/3524-find-x-value-of-array-i/)
-- [3525. Find X Value of Array II](../../3501-4000/3525-find-x-value-of-array-ii/)
+- [2945. Find Maximum Non-decreasing Array Length](../../2501-3000/2945-find-maximum-non-decreasing-array-length/)
+- [3334. Find the Maximum Factor Score of Array](../../3001-3500/3334-find-the-maximum-factor-score-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-maximum-sequence-value-of-array/)

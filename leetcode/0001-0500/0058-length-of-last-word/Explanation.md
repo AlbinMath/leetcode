@@ -113,9 +113,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
-- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1239-maximum-length-of-a-concatenated-string-with-unique-characters/)
-- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+- [79. Word Search](../../0001-0500/0079-word-search/)
+- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
+- [127. Word Ladder](../../0001-0500/0127-word-ladder/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-last-word/)

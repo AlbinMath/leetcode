@@ -1,7 +1,7 @@
 # LeetCode 3925: Concatenate Array With Reverse
 
 **LeetCode Problem #3925 — Concatenate Array With Reverse**
-Solve LeetCode Concatenate Array With Reverse using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Concatenate Array With Reverse using Python and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Concatenate Array With Reverse using Python and Array / General. 
 | LeetCode | #3925 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Pointer Traversal & Node Manipulation |
+| Data Structure | Linked List |
+| Pattern | Linked List |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -54,7 +54,7 @@ Return an integer array `ans`.
 - **Explanation:** The array remains the same when reversed. Thus, `ans = [1, 1]`.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Concatenate Array With Reverse**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -66,7 +66,7 @@ To solve **Concatenate Array With Reverse**, we observe the problem requirements
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [1,2,3]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Pointer Traversal & Node Manipulation** using our **Linked List**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[1,2,3,3,2,1]`.
@@ -84,13 +84,14 @@ To solve **Concatenate Array With Reverse**, we observe the problem requirements
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Linked List.
 
 ## Pattern
-**Array / General**
+**Linked List**
 
 ## Topics
-- Array
+- Linked List
+- Two Pointers
 
 ## Language
 Python
@@ -106,7 +107,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -118,9 +119,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
-- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
-- [92. Reverse Linked List II](../../0001-0500/0092-reverse-linked-list-ii/)
+- [2888. Reshape Data: Concatenate](../../2501-3000/2888-reshape-data-concatenate/)
+- [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../../3501-4000/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/)
+- [3756. Concatenate Non-Zero Digits and Multiply by Sum II](../../3501-4000/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenate-array-with-reverse/)

@@ -121,7 +121,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3859. Count Subarrays With K Distinct Integers](../../3501-4000/3859-count-subarrays-with-k-distinct-integers/)
-- [1805. Number of Different Integers in a String](../../1501-2000/1805-number-of-different-integers-in-a-string/)
+- [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
 - [2261. K Divisible Elements Subarrays](../../2001-2500/2261-k-divisible-elements-subarrays/)
 
 ## LeetCode

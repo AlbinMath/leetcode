@@ -130,7 +130,7 @@ A collection of **376** solved LeetCode problems in the range **0501-1000**.
 | 682 | [Baseball Game](./0682-baseball-game/) | Easy | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0682-baseball-game/Explanation.md) |
 | 684 | [Redundant Connection](./0684-redundant-connection/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0684-redundant-connection/Explanation.md) |
 | 685 | [Redundant Connection II](./0685-redundant-connection-ii/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0685-redundant-connection-ii/Explanation.md) |
-| 686 | [Repeated String Match](./0686-repeated-string-match/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0686-repeated-string-match/Explanation.md) |
+| 686 | [Repeated String Match](./0686-repeated-string-match/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | JavaScript | [Explanation](./0686-repeated-string-match/Explanation.md) |
 | 687 | [Longest Univalue Path](./0687-longest-univalue-path/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0687-longest-univalue-path/Explanation.md) |
 | 688 | [Knight Probability in Chessboard](./0688-knight-probability-in-chessboard/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0688-knight-probability-in-chessboard/Explanation.md) |
 | 689 | [Maximum Sum of 3 Non-Overlapping Subarrays](./0689-maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0689-maximum-sum-of-3-non-overlapping-subarrays/Explanation.md) |

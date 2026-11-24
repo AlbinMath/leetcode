@@ -139,9 +139,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2357. Make Array Zero by Subtracting Equal Amounts](../../2001-2500/2357-make-array-zero-by-subtracting-equal-amounts/)
-- [3495. Minimum Operations to Make Array Elements Zero](../../3001-3500/3495-minimum-operations-to-make-array-elements-zero/)
 - [1887. Reduction Operations to Make the Array Elements Equal](../../1501-2000/1887-reduction-operations-to-make-the-array-elements-equal/)
+- [2357. Make Array Zero by Subtracting Equal Amounts](../../2001-2500/2357-make-array-zero-by-subtracting-equal-amounts/)
+- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-array-elements-equal-to-zero/)

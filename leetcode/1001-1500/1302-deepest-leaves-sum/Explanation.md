@@ -100,9 +100,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
 - [1123. Lowest Common Ancestor of Deepest Leaves](../../1001-1500/1123-lowest-common-ancestor-of-deepest-leaves/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
+- [865. Smallest Subtree with all the Deepest Nodes](../../0501-1000/0865-smallest-subtree-with-all-the-deepest-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/deepest-leaves-sum/)

@@ -105,9 +105,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1009. Complement of Base 10 Integer](../../1001-1500/1009-complement-of-base-10-integer/)
 - [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
 - [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
-- [65. Valid Number](../../0001-0500/0065-valid-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-complement/)

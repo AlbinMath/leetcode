@@ -141,9 +141,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2642. Design Graph With Shortest Path Calculator](../../2501-3000/2642-design-graph-with-shortest-path-calculator/)
 - [2360. Longest Cycle in a Graph](../../2001-2500/2360-longest-cycle-in-a-graph/)
-- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
+- [2642. Design Graph With Shortest Path Calculator](../../2501-3000/2642-design-graph-with-shortest-path-calculator/)
+- [133. Clone Graph](../../0001-0500/0133-clone-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-cycle-in-a-graph/)

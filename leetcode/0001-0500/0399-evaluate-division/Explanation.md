@@ -153,9 +153,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3326. Minimum Division Operations to Make Array Non Decreasing](../../3001-3500/3326-minimum-division-operations-to-make-array-non-decreasing/)
 - [150. Evaluate Reverse Polish Notation](../../0001-0500/0150-evaluate-reverse-polish-notation/)
 - [1807. Evaluate the Bracket Pairs of a String](../../1501-2000/1807-evaluate-the-bracket-pairs-of-a-string/)
+- [2331. Evaluate Boolean Binary Tree](../../2001-2500/2331-evaluate-boolean-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/evaluate-division/)

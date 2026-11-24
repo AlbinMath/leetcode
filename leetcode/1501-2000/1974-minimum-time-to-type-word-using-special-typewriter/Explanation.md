@@ -140,8 +140,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1320-minimum-distance-to-type-a-word-using-two-fingers/)
-- [3029. Minimum Time to Revert Word to Initial State I](../../3001-3500/3029-minimum-time-to-revert-word-to-initial-state-i/)
-- [3031. Minimum Time to Revert Word to Initial State II](../../3001-3500/3031-minimum-time-to-revert-word-to-initial-state-ii/)
+- [3014. Minimum Number of Pushes to Type Word I](../../3001-3500/3014-minimum-number-of-pushes-to-type-word-i/)
+- [3016. Minimum Number of Pushes to Type Word II](../../3001-3500/3016-minimum-number-of-pushes-to-type-word-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)

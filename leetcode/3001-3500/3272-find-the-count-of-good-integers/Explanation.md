@@ -159,9 +159,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1448. Count Good Nodes in Binary Tree](../../1001-1500/1448-count-good-nodes-in-binary-tree/)
-- [1534. Count Good Triplets](../../1501-2000/1534-count-good-triplets/)
+- [1397. Find All Good Strings](../../1001-1500/1397-find-all-good-strings/)
 - [1729. Find Followers Count](../../1501-2000/1729-find-followers-count/)
+- [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2177-find-three-consecutive-integers-that-sum-to-a-given-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-count-of-good-integers/)

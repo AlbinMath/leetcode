@@ -103,7 +103,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3513. Number of Unique XOR Triplets I](../../3501-4000/3513-number-of-unique-xor-triplets-i/)
 - [3514. Number of Unique XOR Triplets II](../../3501-4000/3514-number-of-unique-xor-triplets-ii/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [413. Arithmetic Slices](../../0001-0500/0413-arithmetic-slices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-arithmetic-triplets/)

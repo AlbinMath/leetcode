@@ -125,7 +125,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [944. Delete Columns to Make Sorted](../../0501-1000/0944-delete-columns-to-make-sorted/)
 - [960. Delete Columns to Make Sorted III](../../0501-1000/0960-delete-columns-to-make-sorted-iii/)
-- [768. Max Chunks To Make Sorted II](../../0501-1000/0768-max-chunks-to-make-sorted-ii/)
+- [1957. Delete Characters to Make Fancy String](../../1501-2000/1957-delete-characters-to-make-fancy-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)

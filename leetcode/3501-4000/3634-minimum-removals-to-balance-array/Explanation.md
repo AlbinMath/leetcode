@@ -117,8 +117,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2856. Minimum Array Length After Pair Removals](../../2501-3000/2856-minimum-array-length-after-pair-removals/)
-- [1541. Minimum Insertions to Balance a Parentheses String](../../1501-2000/1541-minimum-insertions-to-balance-a-parentheses-string/)
-- [3679.  Minimum Discards to Balance Inventory](../../3501-4000/3679-minimum-discards-to-balance-inventory/)
+- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-removals-to-balance-array/)

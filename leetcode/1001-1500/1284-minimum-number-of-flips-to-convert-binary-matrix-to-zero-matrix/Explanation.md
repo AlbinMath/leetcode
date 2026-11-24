@@ -142,8 +142,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1888. Minimum Number of Flips to Make the Binary String Alternating](../../1501-2000/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/)
-- [3750. Minimum Number of Flips to Reverse Binary String](../../3501-4000/3750-minimum-number-of-flips-to-reverse-binary-string/)
 - [2220. Minimum Bit Flips to Convert Number](../../2001-2500/2220-minimum-bit-flips-to-convert-number/)
+- [3750. Minimum Number of Flips to Reverse Binary String](../../3501-4000/3750-minimum-number-of-flips-to-reverse-binary-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)

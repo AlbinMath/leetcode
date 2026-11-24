@@ -103,7 +103,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [657. Robot Return to Origin](../../0501-1000/0657-robot-return-to-origin/)
 - [973. K Closest Points to Origin](../../0501-1000/0973-k-closest-points-to-origin/)
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [478. Generate Random Point in a Circle](../../0001-0500/0478-generate-random-point-in-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/furthest-point-from-origin/)

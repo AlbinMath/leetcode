@@ -6,4 +6,4 @@ A curated selection of LeetCode problems solved using the **Pointer Traversal & 
 
 | # | Problem | Difficulty | Pattern | Time | Space | Explanation |
 |---|---|---|---|---|---|---|
-| 2248 | [Intersection of Multiple Arrays](../leetcode/2001-2500/2248-intersection-of-multiple-arrays/) | Easy | Linked List | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2248-intersection-of-multiple-arrays/Explanation.md) |
+| 3925 | [Concatenate Array With Reverse](../leetcode/3501-4000/3925-concatenate-array-with-reverse/) | Easy | Linked List | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3925-concatenate-array-with-reverse/Explanation.md) |

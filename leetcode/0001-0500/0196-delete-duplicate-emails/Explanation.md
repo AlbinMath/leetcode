@@ -126,9 +126,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [182. Duplicate Emails](../../0001-0500/0182-duplicate-emails/)
 - [1948. Delete Duplicate Folders in System](../../1501-2000/1948-delete-duplicate-folders-in-system/)
-- [3436. Find Valid Emails](../../3001-3500/3436-find-valid-emails/)
+- [182. Duplicate Emails](../../0001-0500/0182-duplicate-emails/)
+- [237. Delete Node in a Linked List](../../0001-0500/0237-delete-node-in-a-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-duplicate-emails/)

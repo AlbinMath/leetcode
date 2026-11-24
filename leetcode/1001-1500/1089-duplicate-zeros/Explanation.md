@@ -105,9 +105,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [182. Duplicate Emails](../../0001-0500/0182-duplicate-emails/)
-- [196. Delete Duplicate Emails](../../0001-0500/0196-delete-duplicate-emails/)
-- [217. Contains Duplicate](../../0001-0500/0217-contains-duplicate/)
+- [1869. Longer Contiguous Segments of Ones than Zeros](../../1501-2000/1869-longer-contiguous-segments-of-ones-than-zeros/)
+- [2181. Merge Nodes in Between Zeros](../../2001-2500/2181-merge-nodes-in-between-zeros/)
+- [2482. Difference Between Ones and Zeros in Row and Column](../../2001-2500/2482-difference-between-ones-and-zeros-in-row-and-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/duplicate-zeros/)

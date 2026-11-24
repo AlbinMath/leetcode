@@ -122,9 +122,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1309. Decrypt String from Alphabet to Integer Mapping](../../1001-1500/1309-decrypt-string-from-alphabet-to-integer-mapping/)
+- [419. Battleships in a Board](../../0001-0500/0419-battleships-in-a-board/)
+- [2549. Count Distinct Numbers on Board](../../2501-3000/2549-count-distinct-numbers-on-board/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
-- [71. Simplify Path](../../0001-0500/0071-simplify-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/alphabet-board-path/)

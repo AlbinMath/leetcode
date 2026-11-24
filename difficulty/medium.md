@@ -284,7 +284,7 @@ A collection of LeetCode **Medium** difficulty problems solved with step-by-step
 | 677 | [Map Sum Pairs](../leetcode/0501-1000/0677-map-sum-pairs/) | Hash Map | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0677-map-sum-pairs/Explanation.md) |
 | 678 | [Valid Parenthesis String](../leetcode/0501-1000/0678-valid-parenthesis-string/) | Two Pointers | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0678-valid-parenthesis-string/Explanation.md) |
 | 684 | [Redundant Connection](../leetcode/0501-1000/0684-redundant-connection/) | Tree & Graph | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0684-redundant-connection/Explanation.md) |
-| 686 | [Repeated String Match](../leetcode/0501-1000/0686-repeated-string-match/) | Array / General | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0686-repeated-string-match/Explanation.md) |
+| 686 | [Repeated String Match](../leetcode/0501-1000/0686-repeated-string-match/) | Tree & Graph | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0686-repeated-string-match/Explanation.md) |
 | 687 | [Longest Univalue Path](../leetcode/0501-1000/0687-longest-univalue-path/) | Tree & Graph | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0687-longest-univalue-path/Explanation.md) |
 | 688 | [Knight Probability in Chessboard](../leetcode/0501-1000/0688-knight-probability-in-chessboard/) | Dynamic Programming | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0688-knight-probability-in-chessboard/Explanation.md) |
 | 690 | [Employee Importance](../leetcode/0501-1000/0690-employee-importance/) | Tree & Graph | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0690-employee-importance/Explanation.md) |

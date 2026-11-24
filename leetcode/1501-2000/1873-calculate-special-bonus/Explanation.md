@@ -142,9 +142,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [577. Employee Bonus](../../0501-1000/0577-employee-bonus/)
 - [1716. Calculate Money in Leetcode Bank](../../1501-2000/1716-calculate-money-in-leetcode-bank/)
 - [2243. Calculate Digit Sum of a String](../../2001-2500/2243-calculate-digit-sum-of-a-string/)
-- [2303. Calculate Amount Paid in Taxes](../../2001-2500/2303-calculate-amount-paid-in-taxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculate-special-bonus/)

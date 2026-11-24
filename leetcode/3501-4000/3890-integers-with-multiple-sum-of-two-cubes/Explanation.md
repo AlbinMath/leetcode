@@ -129,7 +129,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
 - [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1317-convert-integer-to-the-sum-of-two-no-zero-integers/)
-- [29. Divide Two Integers](../../0001-0500/0029-divide-two-integers/)
+- [1. Two Sum](../../0001-0500/0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/integers-with-multiple-sum-of-two-cubes/)

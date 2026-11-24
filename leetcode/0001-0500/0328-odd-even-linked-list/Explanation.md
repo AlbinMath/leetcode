@@ -131,9 +131,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [975. Odd Even Jump](../../0501-1000/0975-odd-even-jump/)
-- [1116. Print Zero Even Odd](../../1001-1500/1116-print-zero-even-odd/)
-- [1609. Even Odd Tree](../../1501-2000/1609-even-odd-tree/)
+- [92. Reverse Linked List II](../../0001-0500/0092-reverse-linked-list-ii/)
+- [114. Flatten Binary Tree to Linked List](../../0001-0500/0114-flatten-binary-tree-to-linked-list/)
+- [141. Linked List Cycle](../../0001-0500/0141-linked-list-cycle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/odd-even-linked-list/)

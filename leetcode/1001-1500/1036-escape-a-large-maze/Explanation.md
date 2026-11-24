@@ -123,8 +123,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2258. Escape the Spreading Fire](../../2001-2500/2258-escape-the-spreading-fire/)
 - [1926. Nearest Exit from Entrance in Maze](../../1501-2000/1926-nearest-exit-from-entrance-in-maze/)
+- [2258. Escape the Spreading Fire](../../2001-2500/2258-escape-the-spreading-fire/)
 - [827. Making A Large Island](../../0501-1000/0827-making-a-large-island/)
 
 ## LeetCode

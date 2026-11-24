@@ -114,8 +114,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2115-find-all-possible-recipes-from-given-supplies/)
-- [352. Data Stream as Disjoint Intervals](../../0001-0500/0352-data-stream-as-disjoint-intervals/)
-- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../../0501-1000/0558-logical-or-of-two-binary-grids-represented-as-quad-trees/)
+- [3633. Earliest Finish Time for Land and Water Rides I](../../3501-4000/3633-earliest-finish-time-for-land-and-water-rides-i/)
+- [3635. Earliest Finish Time for Land and Water Rides II](../../3501-4000/3635-earliest-finish-time-for-land-and-water-rides-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/as-far-from-land-as-possible/)

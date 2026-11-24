@@ -251,7 +251,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [890. Find and Replace Pattern](../../0501-1000/0890-find-and-replace-pattern/)
 - [3421. Find Students Who Improved](../../3001-3500/3421-find-students-who-improved/)
-- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [290. Word Pattern](../../0001-0500/0290-word-pattern/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-students-with-study-spiral-pattern/)

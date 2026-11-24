@@ -161,9 +161,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [845. Longest Mountain in Array](../../0501-1000/0845-longest-mountain-in-array/)
-- [852. Peak Index in a Mountain Array](../../0501-1000/0852-peak-index-in-a-mountain-array/)
-- [941. Valid Mountain Array](../../0501-1000/0941-valid-mountain-array/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-in-mountain-array/)

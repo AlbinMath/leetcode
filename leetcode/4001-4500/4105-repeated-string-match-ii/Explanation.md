@@ -1,7 +1,7 @@
 # LeetCode 4105: Repeated String Match II
 
 **LeetCode Problem #4105 — Repeated String Match II**
-Solve LeetCode Repeated String Match II using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Repeated String Match II using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Repeated String Match II using JavaScript and Math & Logic. This 
 | LeetCode | #4105 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Mathematical Simulation & Modular Arithmetic |
-| Data Structure | Primitive Types |
-| Pattern | Math & Logic |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given two strings `a` and `b` consisting of lowercase English letters, and two integers `x` and `y`.
@@ -50,7 +50,7 @@ Return `true` if the string formed by repeating `b` **exactly** `y` times (`b * 
  `b * y = "cdab"` appears in `a * x = "abcdabcd"` at indices `[2..5]`. Thus, the answer is `true`.
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Repeated String Match II**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -62,7 +62,7 @@ To solve **Repeated String Match II**, we observe the problem requirements and u
 
 ## Example Walkthrough
 1. **Input State:** We begin with `a = "ab", b = "abab", x = 2, y = 1`.
-2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `true`.
@@ -72,14 +72,16 @@ To solve **Repeated String Match II**, we observe the problem requirements and u
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Math & Logic**
+**Tree & Graph**
 
 ## Topics
-- Math
-- Simulation
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 JavaScript
@@ -109,7 +111,7 @@ var repeatedStringMatch = function(a, b, x, y) {
 ```
 
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -123,7 +125,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [686. Repeated String Match](../../0501-1000/0686-repeated-string-match/)
 - [942. DI String Match](../../0501-1000/0942-di-string-match/)
-- [971. Flip Binary Tree To Match Preorder Traversal](../../0501-1000/0971-flip-binary-tree-to-match-preorder-traversal/)
+- [187. Repeated DNA Sequences](../../0001-0500/0187-repeated-dna-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-string-match-ii/)

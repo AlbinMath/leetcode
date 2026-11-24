@@ -110,7 +110,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2134. Minimum Swaps to Group All 1's Together II](../../2001-2500/2134-minimum-swaps-to-group-all-1s-together-ii/)
+- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1741-find-total-time-spent-by-each-employee/)
 - [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
 - [1141. User Activity for the Past 30 Days I](../../1001-1500/1141-user-activity-for-the-past-30-days-i/)
 

@@ -19,6 +19,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 2667 | [Create Hello World Function](../leetcode/2501-3000/2667-create-hello-world-function/) | TypeScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2667-create-hello-world-function/Explanation.md) |
 | 2885 | [Rename Columns](../leetcode/2501-3000/2885-rename-columns/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2885-rename-columns/Explanation.md) |
 | 3200 | [Maximum Height of a Triangle](../leetcode/3001-3500/3200-maximum-height-of-a-triangle/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3200-maximum-height-of-a-triangle/Explanation.md) |
+| 3959 | [Check Good Integer](../leetcode/3501-4000/3959-check-good-integer/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3959-check-good-integer/Explanation.md) |
 
 ### Medium
 
@@ -33,6 +34,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 529 | [Minesweeper](../leetcode/0501-1000/0529-minesweeper/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0529-minesweeper/Explanation.md) |
 | 547 | [Number of Provinces](../leetcode/0501-1000/0547-number-of-provinces/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0547-number-of-provinces/Explanation.md) |
 | 684 | [Redundant Connection](../leetcode/0501-1000/0684-redundant-connection/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0684-redundant-connection/Explanation.md) |
+| 686 | [Repeated String Match](../leetcode/0501-1000/0686-repeated-string-match/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0686-repeated-string-match/Explanation.md) |
 | 687 | [Longest Univalue Path](../leetcode/0501-1000/0687-longest-univalue-path/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0687-longest-univalue-path/Explanation.md) |
 | 690 | [Employee Importance](../leetcode/0501-1000/0690-employee-importance/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0690-employee-importance/Explanation.md) |
 | 695 | [Max Area of Island](../leetcode/0501-1000/0695-max-area-of-island/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0695-max-area-of-island/Explanation.md) |
@@ -98,4 +100,5 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 3677 | [Count Binary Palindromic Numbers](../leetcode/3501-4000/3677-count-binary-palindromic-numbers/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3677-count-binary-palindromic-numbers/Explanation.md) |
 | 3826 | [Minimum Partition Score](../leetcode/3501-4000/3826-minimum-partition-score/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3826-minimum-partition-score/Explanation.md) |
 | 3864 | [Minimum Cost to Partition a Binary String](../leetcode/3501-4000/3864-minimum-cost-to-partition-a-binary-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3864-minimum-cost-to-partition-a-binary-string/Explanation.md) |
+| 4105 | [Repeated String Match II](../leetcode/4001-4500/4105-repeated-string-match-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4105-repeated-string-match-ii/Explanation.md) |
 

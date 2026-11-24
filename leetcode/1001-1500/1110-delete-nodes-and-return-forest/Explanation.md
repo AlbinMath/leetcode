@@ -117,8 +117,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3217. Delete Nodes From Linked List Present in Array](../../3001-3500/3217-delete-nodes-from-linked-list-present-in-array/)
-- [657. Robot Return to Origin](../../0501-1000/0657-robot-return-to-origin/)
-- [2703. Return Length of Arguments Passed](../../2501-3000/2703-return-length-of-arguments-passed/)
+- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-nodes-and-return-forest/)

@@ -119,9 +119,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2177-find-three-consecutive-integers-that-sum-to-a-given-number/)
-- [2526. Find Consecutive Integers from a Data Stream](../../2501-3000/2526-find-consecutive-integers-from-a-data-stream/)
+- [3819. Rotate Non Negative Elements](../../3501-4000/3819-rotate-non-negative-elements/)
 - [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
+- [1004. Max Consecutive Ones III](../../1001-1500/1004-max-consecutive-ones-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)

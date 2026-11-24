@@ -186,8 +186,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
-- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
-- [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
+- [1360. Number of Days Between Two Dates](../../1001-1500/1360-number-of-days-between-two-dates/)
+- [2555. Maximize Win From Two Segments](../../2501-3000/2555-maximize-win-from-two-segments/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions/)

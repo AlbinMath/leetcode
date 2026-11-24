@@ -102,7 +102,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3238. Find the Number of Winning Players](../../3001-3500/3238-find-the-number-of-winning-players/)
+- [3175. Find The First Player to win K Games in a Row](../../3001-3500/3175-find-the-first-player-to-win-k-games-in-a-row/)
 - [1275. Find Winner on a Tic Tac Toe Game](../../1001-1500/1275-find-winner-on-a-tic-tac-toe-game/)
 - [1535. Find the Winner of an Array Game](../../1501-2000/1535-find-the-winner-of-an-array-game/)
 

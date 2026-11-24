@@ -151,9 +151,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1914. Cyclically Rotating a Grid](../../1501-2000/1914-cyclically-rotating-a-grid/)
 - [1263. Minimum Moves to Move a Box to Their Target Location](../../1001-1500/1263-minimum-moves-to-move-a-box-to-their-target-location/)
 - [1742. Maximum Number of Balls in a Box](../../1501-2000/1742-maximum-number-of-balls-in-a-box/)
-- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1769-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotating-the-box/)

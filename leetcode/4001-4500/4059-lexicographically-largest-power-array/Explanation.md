@@ -145,9 +145,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
+- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
 - [1718. Construct the Lexicographically Largest Valid Sequence](../../1501-2000/1718-construct-the-lexicographically-largest-valid-sequence/)
-- [2948. Make Lexicographically Smallest Array by Swapping Elements](../../2501-3000/2948-make-lexicographically-smallest-array-by-swapping-elements/)
-- [3403. Find the Lexicographically Largest String From the Box I](../../3001-3500/3403-find-the-lexicographically-largest-string-from-the-box-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-largest-power-array/)

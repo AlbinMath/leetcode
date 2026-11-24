@@ -105,7 +105,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [720. Longest Word in Dictionary](../../0501-1000/0720-longest-word-in-dictionary/)
 - [1493. Longest Subarray of 1's After Deleting One Element](../../1001-1500/1493-longest-subarray-of-1s-after-deleting-one-element/)
-- [676. Implement Magic Dictionary](../../0501-1000/0676-implement-magic-dictionary/)
+- [1640. Check Array Formation Through Concatenation](../../1501-2000/1640-check-array-formation-through-concatenation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)

@@ -127,7 +127,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [217. Contains Duplicate](../../0001-0500/0217-contains-duplicate/)
 - [219. Contains Duplicate II](../../0001-0500/0219-contains-duplicate-ii/)
-- [182. Duplicate Emails](../../0001-0500/0182-duplicate-emails/)
+- [1461. Check If a String Contains All Binary Codes of Size K](../../1001-1500/1461-check-if-a-string-contains-all-binary-codes-of-size-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/contains-duplicate-iii/)

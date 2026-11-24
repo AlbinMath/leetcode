@@ -171,8 +171,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2622. Cache With Time Limit](../../2501-3000/2622-cache-with-time-limit/)
-- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
-- [122. Best Time to Buy and Sell Stock II](../../0001-0500/0122-best-time-to-buy-and-sell-stock-ii/)
+- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1001-1500/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [2182. Construct String With Repeat Limit](../../2001-2500/2182-construct-string-with-repeat-limit/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/promise-time-limit/)

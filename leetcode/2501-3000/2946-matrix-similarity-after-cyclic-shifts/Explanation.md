@@ -119,7 +119,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [861. Score After Flipping Matrix](../../0501-1000/0861-score-after-flipping-matrix/)
 - [4044. Count Good Cyclic Rotations](../../4001-4500/4044-count-good-cyclic-rotations/)
-- [1813. Sentence Similarity III](../../1501-2000/1813-sentence-similarity-iii/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)
