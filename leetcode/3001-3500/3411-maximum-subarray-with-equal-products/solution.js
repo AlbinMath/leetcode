@@ -1,8 +1,4 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
-var maxLength = function(nums) {
+var maxLength = function (nums) {
     const n = nums.length;
     // Max possible lcm(1..10) * max possible gcd(1..10) = 2520 * 10
     const MAX_PRODUCT = 25200;
