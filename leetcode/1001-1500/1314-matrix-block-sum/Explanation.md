@@ -124,7 +124,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1001-1500/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
 - [1572. Matrix Diagonal Sum](../../1501-2000/1572-matrix-diagonal-sum/)
-- [2679. Sum in a Matrix](../../2501-3000/2679-sum-in-a-matrix/)
+- [1975. Maximum Matrix Sum](../../1501-2000/1975-maximum-matrix-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/matrix-block-sum/)

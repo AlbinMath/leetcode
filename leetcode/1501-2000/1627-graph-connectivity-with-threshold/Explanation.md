@@ -158,9 +158,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [133. Clone Graph](../../0001-0500/0133-clone-graph/)
-- [785. Is Graph Bipartite?](../../0501-1000/0785-is-graph-bipartite/)
-- [882. Reachable Nodes In Subdivided Graph](../../0501-1000/0882-reachable-nodes-in-subdivided-graph/)
+- [1283. Find the Smallest Divisor Given a Threshold](../../1001-1500/1283-find-the-smallest-divisor-given-a-threshold/)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/graph-connectivity-with-threshold/)

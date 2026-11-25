@@ -176,8 +176,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [3650. Minimum Cost Path with Edge Reversals](../../3501-4000/3650-minimum-cost-path-with-edge-reversals/)
-- [4003. Minimum Cost Path with Alternating Directions III](../../4001-4500/4003-minimum-cost-path-with-alternating-directions-iii/)
+- [2304. Minimum Path Cost in a Grid](../../2001-2500/2304-minimum-path-cost-in-a-grid/)
+- [3603. Minimum Cost Path with Alternating Directions II](../../3501-4000/3603-minimum-cost-path-with-alternating-directions-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-of-a-path-with-special-roads/)

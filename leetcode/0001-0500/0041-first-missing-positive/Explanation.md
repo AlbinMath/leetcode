@@ -141,8 +141,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1539. Kth Missing Positive Number](../../1501-2000/1539-kth-missing-positive-number/)
-- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1237-find-positive-integer-solution-for-a-given-equation/)
-- [1413. Minimum Value to Get Positive Step by Step Sum](../../1001-1500/1413-minimum-value-to-get-positive-step-by-step-sum/)
+- [268. Missing Number](../../0001-0500/0268-missing-number/)
+- [1965. Employees With Missing Information](../../1501-2000/1965-employees-with-missing-information/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-missing-positive/)

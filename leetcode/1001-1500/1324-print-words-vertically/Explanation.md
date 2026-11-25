@@ -116,9 +116,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3643. Flip Square Submatrix Vertically](../../3501-4000/3643-flip-square-submatrix-vertically/)
 - [655. Print Binary Tree](../../0501-1000/0655-print-binary-tree/)
 - [1114. Print in Order](../../1001-1500/1114-print-in-order/)
-- [1115. Print FooBar Alternately](../../1001-1500/1115-print-foobar-alternately/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-words-vertically/)

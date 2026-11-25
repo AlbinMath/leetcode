@@ -108,9 +108,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2965. Find Missing and Repeated Values](../../2501-3000/2965-find-missing-and-repeated-values/)
 - [3471. Find the Largest Almost Missing Integer](../../3001-3500/3471-find-the-largest-almost-missing-integer/)
 - [3731. Find Missing Elements](../../3501-4000/3731-find-missing-elements/)
-- [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-missing-observations/)

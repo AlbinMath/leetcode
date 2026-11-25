@@ -131,7 +131,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3267. Count Almost Equal Pairs II](../../3001-3500/3267-count-almost-equal-pairs-ii/)
 - [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4043-count-rotations-with-exactly-k-equal-adjacent-pairs/)
-- [1782. Count Pairs Of Nodes](../../1501-2000/1782-count-pairs-of-nodes/)
+- [3303. Find the Occurrence of First Almost Equal Substring](../../3001-3500/3303-find-the-occurrence-of-first-almost-equal-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-almost-equal-pairs-i/)

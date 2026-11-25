@@ -120,8 +120,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1796. Second Largest Digit in a String](../../1501-2000/1796-second-largest-digit-in-a-string/)
-- [2180. Count Integers With Even Digit Sum](../../2001-2500/2180-count-integers-with-even-digit-sum/)
-- [2310. Sum of Numbers With Units Digit K](../../2001-2500/2310-sum-of-numbers-with-units-digit-k/)
+- [1945. Sum of Digits of String After Convert](../../1501-2000/1945-sum-of-digits-of-string-after-convert/)
+- [4022. K-th Digit in Infinite String](../../4001-4500/4022-k-th-digit-in-infinite-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)

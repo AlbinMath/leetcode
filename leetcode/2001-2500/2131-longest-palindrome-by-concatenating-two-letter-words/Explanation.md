@@ -129,9 +129,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [409. Longest Palindrome](../../0001-0500/0409-longest-palindrome/)
-- [1147. Longest Chunked Palindrome Decomposition](../../1001-1500/1147-longest-chunked-palindrome-decomposition/)
-- [3503. Longest Palindrome After Substring Concatenation I](../../3501-4000/3503-longest-palindrome-after-substring-concatenation-i/)
+- [884. Uncommon Words from Two Sentences](../../0501-1000/0884-uncommon-words-from-two-sentences/)
+- [1616. Split Two Strings to Make Palindrome](../../1501-2000/1616-split-two-strings-to-make-palindrome/)
+- [1880. Check if Word Equals Summation of Two Words](../../1501-2000/1880-check-if-word-equals-summation-of-two-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)

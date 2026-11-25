@@ -17,10 +17,10 @@ This repository contains solved LeetCode problems with explanations, complexity 
 
 | Category | Count |
 |---|---|
-| **Total Solved** | 2587+ |
-| **Easy** | 669+ |
-| **Medium** | 1270+ |
-| **Hard** | 648+ |
+| **Total Solved** | 2644+ |
+| **Easy** | 680+ |
+| **Medium** | 1307+ |
+| **Hard** | 657+ |
 
 > **Repository Structure:** To prevent GitHub directory truncation (which limits folder listings to 1,000 files), all 2,360+ problems are cleanly partitioned into 500-problem range buckets under [`leetcode/`](leetcode/) (`0001-0500/`, `0501-1000/`, etc.). You can browse problems directly through their range buckets or search the full directory in [**All_Problems.md**](All_Problems.md).
 
@@ -42,7 +42,7 @@ This repository contains solved LeetCode problems with explanations, complexity 
 | 4067 | [Longest Subarray With Restricted Pair Sums](leetcode/4001-4500/4067-longest-subarray-with-restricted-pair-sums/) | Medium | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4001-4500/4067-longest-subarray-with-restricted-pair-sums/Explanation.md) |
 | 4066 | [Maximum Equal Adjacent Pairs After at Most One Replacement](leetcode/4001-4500/4066-maximum-equal-adjacent-pairs-after-at-most-one-replacement/) | Medium | [Hash Map](patterns/hash-map.md) | JavaScript | [Explanation](leetcode/4001-4500/4066-maximum-equal-adjacent-pairs-after-at-most-one-replacement/Explanation.md) |
 | 4065 | [Rearrange Array by Removing Distinct Values](leetcode/4001-4500/4065-rearrange-array-by-removing-distinct-values/) | Easy | [Hash Map](patterns/hash-map.md) | Python | [Explanation](leetcode/4001-4500/4065-rearrange-array-by-removing-distinct-values/Explanation.md) |
-| 4064 | [Longest Subarray Divisible by K with At Most One Negation II](leetcode/4001-4500/4064-longest-subarray-divisible-by-k-with-at-most-one-negation-ii/) | Hard | [Array / General](patterns/array-general.md) | Python | [Explanation](leetcode/4001-4500/4064-longest-subarray-divisible-by-k-with-at-most-one-negation-ii/Explanation.md) |
+| 4064 | [Longest Subarray Divisible by K with At Most One Negation II](leetcode/4001-4500/4064-longest-subarray-divisible-by-k-with-at-most-one-negation-ii/) | Hard | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4064-longest-subarray-divisible-by-k-with-at-most-one-negation-ii/Explanation.md) |
 | 4062 | [Transform Array Using Pair Operations](leetcode/4001-4500/4062-transform-array-using-pair-operations/) | Medium | [Stack & Queue](patterns/stack-queue.md) | Python | [Explanation](leetcode/4001-4500/4062-transform-array-using-pair-operations/Explanation.md) |
 | 4059 | [Lexicographically Largest Power Array](leetcode/4001-4500/4059-lexicographically-largest-power-array/) | Hard | [Two Pointers](patterns/two-pointers.md) | Python | [Explanation](leetcode/4001-4500/4059-lexicographically-largest-power-array/Explanation.md) |
 

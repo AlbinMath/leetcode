@@ -128,7 +128,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
 - [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [318. Maximum Product of Word Lengths](../../0001-0500/0318-maximum-product-of-word-lengths/)
+- [643. Maximum Average Subarray I](../../0501-1000/0643-maximum-average-subarray-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subarray-min-product/)

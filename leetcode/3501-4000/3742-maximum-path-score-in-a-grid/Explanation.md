@@ -256,9 +256,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3148. Maximum Difference Score in a Grid](../../3001-3500/3148-maximum-difference-score-in-a-grid/)
+- [3225. Maximum Score From Grid Operations](../../3001-3500/3225-maximum-score-from-grid-operations/)
 - [3276. Select Cells in Grid With Maximum Score](../../3001-3500/3276-select-cells-in-grid-with-maximum-score/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [1219. Path with Maximum Gold](../../1001-1500/1219-path-with-maximum-gold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-path-score-in-a-grid/)

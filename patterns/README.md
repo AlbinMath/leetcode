@@ -6,15 +6,15 @@ A comprehensive index of LeetCode problems organized by algorithmic pattern and 
 
 | Pattern | Solved Count | Hub Link |
 |---|---|---|
-| **Array / General** | 543 problems | [Browse Array / General](./array-general.md) |
+| **Array / General** | 546 problems | [Browse Array / General](./array-general.md) |
 | **Backtracking** | 49 problems | [Browse Backtracking](./backtracking.md) |
-| **Binary Search** | 167 problems | [Browse Binary Search](./binary-search.md) |
-| **Bit Manipulation** | 129 problems | [Browse Bit Manipulation](./bit-manipulation.md) |
+| **Binary Search** | 168 problems | [Browse Binary Search](./binary-search.md) |
+| **Bit Manipulation** | 131 problems | [Browse Bit Manipulation](./bit-manipulation.md) |
 | **Database / SQL** | 88 problems | [Browse Database / SQL](./sql-database.md) |
-| **Dynamic Programming** | 140 problems | [Browse Dynamic Programming](./dynamic-programming.md) |
+| **Dynamic Programming** | 141 problems | [Browse Dynamic Programming](./dynamic-programming.md) |
 | **Fast & Slow Pointers** | 16 problems | [Browse Fast & Slow Pointers](./fast-slow-pointers.md) |
 | **Greedy** | 0 problems | [Browse Greedy](./greedy.md) |
-| **Hash Map** | 397 problems | [Browse Hash Map](./hash-map.md) |
+| **Hash Map** | 399 problems | [Browse Hash Map](./hash-map.md) |
 | **Heap** | 17 problems | [Browse Heap](./heap.md) |
 | **Linked List** | 0 problems | [Browse Linked List](./linked-list.md) |
 | **Math & Logic** | 106 problems | [Browse Math & Logic](./math-logic.md) |
@@ -22,9 +22,9 @@ A comprehensive index of LeetCode problems organized by algorithmic pattern and 
 | **Prefix Sum** | 41 problems | [Browse Prefix Sum](./prefix-sum.md) |
 | **Sliding Window** | 43 problems | [Browse Sliding Window](./sliding-window.md) |
 | **Stack & Queue** | 178 problems | [Browse Stack & Queue](./stack-queue.md) |
-| **Tree & Graph** | 90 problems | [Browse Tree & Graph](./tree-graph.md) |
+| **Tree & Graph** | 125 problems | [Browse Tree & Graph](./tree-graph.md) |
 | **Trie** | 8 problems | [Browse Trie](./trie.md) |
-| **Two Pointers** | 556 problems | [Browse Two Pointers](./two-pointers.md) |
+| **Two Pointers** | 569 problems | [Browse Two Pointers](./two-pointers.md) |
 
 ---
 

@@ -194,9 +194,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [4032. Longest Subarray With at Most K Distinct Prime Factors](../../4001-4500/4032-longest-subarray-with-at-most-k-distinct-prime-factors/)
 - [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
 - [1838. Frequency of the Most Frequent Element](../../1501-2000/1838-frequency-of-the-most-frequent-element/)
+- [2190. Most Frequent Number Following Key In an Array](../../2001-2500/2190-most-frequent-number-following-key-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-frequent-prime/)

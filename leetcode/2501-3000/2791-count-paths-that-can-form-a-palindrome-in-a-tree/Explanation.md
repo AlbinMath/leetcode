@@ -131,7 +131,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1725-number-of-rectangles-that-can-form-the-largest-square/)
-- [2201. Count Artifacts That Can Be Extracted](../../2001-2500/2201-count-artifacts-that-can-be-extracted/)
+- [3184. Count Pairs That Form a Complete Day I](../../3001-3500/3184-count-pairs-that-form-a-complete-day-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree/)

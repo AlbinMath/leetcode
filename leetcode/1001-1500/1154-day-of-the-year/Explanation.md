@@ -94,9 +94,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1854. Maximum Population Year](../../1501-2000/1854-maximum-population-year/)
 - [1185. Day of the Week](../../1001-1500/1185-day-of-the-week/)
 - [1970. Last Day Where You Can Still Cross](../../1501-2000/1970-last-day-where-you-can-still-cross/)
-- [3184. Count Pairs That Form a Complete Day I](../../3001-3500/3184-count-pairs-that-form-a-complete-day-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/day-of-the-year/)

@@ -115,8 +115,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2213. Longest Substring of One Repeating Character](../../2001-2500/2213-longest-substring-of-one-repeating-character/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
+- [2014. Longest Subsequence Repeated k Times](../../2001-2500/2014-longest-subsequence-repeated-k-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)

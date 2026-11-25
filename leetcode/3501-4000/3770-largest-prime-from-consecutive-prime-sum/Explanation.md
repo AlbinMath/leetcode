@@ -152,7 +152,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1171-remove-zero-sum-consecutive-nodes-from-linked-list/)
 - [3556. Sum of Largest Prime Substrings](../../3501-4000/3556-sum-of-largest-prime-substrings/)
-- [829. Consecutive Numbers Sum](../../0501-1000/0829-consecutive-numbers-sum/)
+- [1090. Largest Values From Labels](../../1001-1500/1090-largest-values-from-labels/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/)

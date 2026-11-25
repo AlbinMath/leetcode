@@ -113,7 +113,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [528. Random Pick with Weight](../../0501-1000/0528-random-pick-with-weight/)
 - [710. Random Pick with Blacklist](../../0501-1000/0710-random-pick-with-blacklist/)
-- [2260. Minimum Consecutive Cards to Pick Up](../../2001-2500/2260-minimum-consecutive-cards-to-pick-up/)
+- [138. Copy List with Random Pointer](../../0001-0500/0138-copy-list-with-random-pointer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/random-pick-index/)

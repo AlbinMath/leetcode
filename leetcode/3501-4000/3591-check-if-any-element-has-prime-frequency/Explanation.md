@@ -124,9 +124,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1001-1500/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
 - [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1784-check-if-binary-string-has-at-most-one-segment-of-ones/)
 - [2283. Check if Number Has Equal Digit Count and Digit Value](../../2001-2500/2283-check-if-number-has-equal-digit-count-and-digit-value/)
-- [2980. Check if Bitwise OR Has Trailing Zeros](../../2501-3000/2980-check-if-bitwise-or-has-trailing-zeros/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/)

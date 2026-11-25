@@ -207,7 +207,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
 - [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
-- [88. Merge Sorted Array](../../0001-0500/0088-merge-sorted-array/)
+- [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-merge-sorted-lists/)

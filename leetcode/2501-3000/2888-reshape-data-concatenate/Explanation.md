@@ -97,7 +97,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [2889. Reshape Data: Pivot](../../2501-3000/2889-reshape-data-pivot/)
 - [2890. Reshape Data: Melt](../../2501-3000/2890-reshape-data-melt/)
-- [566. Reshape the Matrix](../../0501-1000/0566-reshape-the-matrix/)
+- [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../../3501-4000/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reshape-data-concatenate/)

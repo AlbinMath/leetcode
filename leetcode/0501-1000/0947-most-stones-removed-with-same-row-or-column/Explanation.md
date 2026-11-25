@@ -137,9 +137,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1605. Find Valid Matrix Given Row and Column Sums](../../1501-2000/1605-find-valid-matrix-given-row-and-column-sums/)
+- [2133. Check if Every Row and Column Contains All Numbers](../../2001-2500/2133-check-if-every-row-and-column-contains-all-numbers/)
 - [2352. Equal Row and Column Pairs](../../2001-2500/2352-equal-row-and-column-pairs/)
-- [2482. Difference Between Ones and Zeros in Row and Column](../../2001-2500/2482-difference-between-ones-and-zeros-in-row-and-column/)
-- [500. Keyboard Row](../../0001-0500/0500-keyboard-row/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)

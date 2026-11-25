@@ -173,7 +173,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1716. Calculate Money in Leetcode Bank](../../1501-2000/1716-calculate-money-in-leetcode-bank/)
 - [2043. Simple Bank System](../../2001-2500/2043-simple-bank-system/)
-- [228. Summary Ranges](../../0001-0500/0228-summary-ranges/)
+- [2125. Number of Laser Beams in a Bank](../../2001-2500/2125-number-of-laser-beams-in-a-bank/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bank-account-summary-ii/)

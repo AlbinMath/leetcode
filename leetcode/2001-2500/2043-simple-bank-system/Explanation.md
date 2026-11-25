@@ -155,9 +155,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1587. Bank Account Summary II](../../1501-2000/1587-bank-account-summary-ii/)
-- [1716. Calculate Money in Leetcode Bank](../../1501-2000/1716-calculate-money-in-leetcode-bank/)
 - [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
+- [1268. Search Suggestions System](../../1001-1500/1268-search-suggestions-system/)
+- [1396. Design Underground System](../../1001-1500/1396-design-underground-system/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/simple-bank-system/)

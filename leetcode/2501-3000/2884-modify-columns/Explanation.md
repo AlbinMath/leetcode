@@ -126,8 +126,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2699. Modify Graph Edge Weights](../../2501-3000/2699-modify-graph-edge-weights/)
+- [3033. Modify the Matrix](../../3001-3500/3033-modify-the-matrix/)
 - [944. Delete Columns to Make Sorted](../../0501-1000/0944-delete-columns-to-make-sorted/)
-- [955. Delete Columns to Make Sorted II](../../0501-1000/0955-delete-columns-to-make-sorted-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/modify-columns/)

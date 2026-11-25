@@ -1,7 +1,7 @@
 # LeetCode 2283: Check if Number Has Equal Digit Count and Digit Value
 
 **LeetCode Problem #2283 — Check if Number Has Equal Digit Count and Digit Value**
-Solve LeetCode Check if Number Has Equal Digit Count and Digit Value using Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Check if Number Has Equal Digit Count and Digit Value using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Check if Number Has Equal Digit Count and Digit Value using Pytho
 | LeetCode | #2283 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Mathematical Simulation & Modular Arithmetic |
-| Data Structure | Primitive Types |
-| Pattern | Math & Logic |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -45,7 +45,7 @@ num[2] = '0'. The digit 2 occurs zero times in num.
 The indices 0 and 1 both violate the condition, so return false.
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Check if Number Has Equal Digit Count and Digit Value**, we observe the problem requirements and utilize the **Math & Logic** technique. We iterate through the inputs using **Mathematical Simulation & Modular Arithmetic**, leveraging a **Primitive Types** to efficiently manage state and achieve optimal complexity.
@@ -57,7 +57,7 @@ To solve **Check if Number Has Equal Digit Count and Digit Value**, we observe t
 
 ## Example Walkthrough
 1. **Input State:** We begin with `num = "1210"`.
-2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `true`.
@@ -69,14 +69,14 @@ The condition holds true for every index in "1210", so return true.
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
-**Math & Logic**
+**Bit Manipulation**
 
 ## Topics
-- Math
-- Simulation
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 Python
@@ -100,7 +100,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -113,8 +113,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1941. Check if All Characters Have Equal Number of Occurrences](../../1501-2000/1941-check-if-all-characters-have-equal-number-of-occurrences/)
-- [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1784-check-if-binary-string-has-at-most-one-segment-of-ones/)
-- [2980. Check if Bitwise OR Has Trailing Zeros](../../2501-3000/2980-check-if-bitwise-or-has-trailing-zeros/)
+- [1790. Check if One String Swap Can Make Strings Equal](../../1501-2000/1790-check-if-one-string-swap-can-make-strings-equal/)
+- [3461. Check If Digits Are Equal in String After Operations I](../../3001-3500/3461-check-if-digits-are-equal-in-string-after-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)

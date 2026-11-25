@@ -122,8 +122,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+- [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](../../1501-2000/1850-minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
 - [995. Minimum Number of K Consecutive Bit Flips](../../0501-1000/0995-minimum-number-of-k-consecutive-bit-flips/)
-- [2379. Minimum Recolors to Get K Consecutive Black Blocks](../../2001-2500/2379-minimum-recolors-to-get-k-consecutive-black-blocks/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)

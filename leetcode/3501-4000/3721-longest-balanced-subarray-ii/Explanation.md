@@ -149,8 +149,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3719. Longest Balanced Subarray I](../../3501-4000/3719-longest-balanced-subarray-i/)
-- [978. Longest Turbulent Subarray](../../0501-1000/0978-longest-turbulent-subarray/)
-- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1001-1500/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [3713. Longest Balanced Substring I](../../3501-4000/3713-longest-balanced-substring-i/)
+- [3755. Find Maximum Balanced XOR Subarray Length](../../3501-4000/3755-find-maximum-balanced-xor-subarray-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-balanced-subarray-ii/)

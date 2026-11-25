@@ -114,8 +114,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3702. Longest Subsequence With Non-Zero Bitwise XOR](../../3501-4000/3702-longest-subsequence-with-non-zero-bitwise-xor/)
+- [1403. Minimum Subsequence in Non-Increasing Order](../../1001-1500/1403-minimum-subsequence-in-non-increasing-order/)
 - [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
-- [673. Number of Longest Increasing Subsequence](../../0501-1000/0673-number-of-longest-increasing-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/)

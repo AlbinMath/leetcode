@@ -138,7 +138,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [434. Number of Segments in a String](../../0001-0500/0434-number-of-segments-in-a-string/)
 - [806. Number of Lines To Write String](../../0501-1000/0806-number-of-lines-to-write-string/)
-- [1525. Number of Good Ways to Split a String](../../1501-2000/1525-number-of-good-ways-to-split-a-string/)
+- [1356. Sort Integers by The Number of 1 Bits](../../1001-1500/1356-sort-integers-by-the-number-of-1-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-different-integers-in-a-string/)

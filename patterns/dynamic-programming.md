@@ -89,6 +89,7 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 3877 | [Minimum Removals to Achieve Target XOR](../leetcode/3501-4000/3877-minimum-removals-to-achieve-target-xor/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3877-minimum-removals-to-achieve-target-xor/Explanation.md) |
 | 3882 | [Minimum XOR Path in a Grid](../leetcode/3501-4000/3882-minimum-xor-path-in-a-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3882-minimum-xor-path-in-a-grid/Explanation.md) |
 | 3979 | [Maximum Valid Pair Sum](../leetcode/3501-4000/3979-maximum-valid-pair-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3979-maximum-valid-pair-sum/Explanation.md) |
+| 4016 | [Maximum Area of Two Non-Overlapping Square Submatrices](../leetcode/4001-4500/4016-maximum-area-of-two-non-overlapping-square-submatrices/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4016-maximum-area-of-two-non-overlapping-square-submatrices/Explanation.md) |
 | 4057 | [Number of Intersecting Interval Pairs II](../leetcode/4001-4500/4057-number-of-intersecting-interval-pairs-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4057-number-of-intersecting-interval-pairs-ii/Explanation.md) |
 
 ### Hard

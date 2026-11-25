@@ -115,8 +115,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3955. Valid Binary Strings With Cost Limit](../../3501-4000/3955-valid-binary-strings-with-cost-limit/)
-- [777. Swap Adjacent in LR String](../../0501-1000/0777-swap-adjacent-in-lr-string/)
-- [1042. Flower Planting With No Adjacent](../../1001-1500/1042-flower-planting-with-no-adjacent/)
+- [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
+- [205. Isomorphic Strings](../../0001-0500/0205-isomorphic-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)

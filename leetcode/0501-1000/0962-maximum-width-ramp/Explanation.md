@@ -108,8 +108,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [662. Maximum Width of Binary Tree](../../0501-1000/0662-maximum-width-of-binary-tree/)
+- [2639. Find the Width of Columns of a Grid](../../2501-3000/2639-find-the-width-of-columns-of-a-grid/)
 - [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-width-ramp/)

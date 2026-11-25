@@ -126,9 +126,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1371. Find the Longest Substring Containing Vowels in Even Counts](../../1001-1500/1371-find-the-longest-substring-containing-vowels-in-even-counts/)
-- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1374-generate-a-string-with-characters-that-have-odd-counts/)
 - [1661. Average Time of Process per Machine](../../1501-2000/1661-average-time-of-process-per-machine/)
+- [3433. Count Mentions Per User](../../3001-3500/3433-count-mentions-per-user/)
+- [1371. Find the Longest Substring Containing Vowels in Even Counts](../../1001-1500/1371-find-the-longest-substring-containing-vowels-in-even-counts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tweet-counts-per-frequency/)

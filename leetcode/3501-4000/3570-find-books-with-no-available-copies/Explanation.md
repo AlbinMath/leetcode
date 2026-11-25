@@ -151,8 +151,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3642. Find Books with Polarized Opinions](../../3501-4000/3642-find-books-with-polarized-opinions/)
-- [999. Available Captures for Rook](../../0501-1000/0999-available-captures-for-rook/)
-- [4024. Nearest Available Drone](../../4001-4500/4024-nearest-available-drone/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
+- [1042. Flower Planting With No Adjacent](../../1001-1500/1042-flower-planting-with-no-adjacent/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-books-with-no-available-copies/)

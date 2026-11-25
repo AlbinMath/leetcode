@@ -172,9 +172,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1141. User Activity for the Past 30 Days I](../../1001-1500/1141-user-activity-for-the-past-30-days-i/)
 - [1348. Tweet Counts Per Frequency](../../1001-1500/1348-tweet-counts-per-frequency/)
 - [1661. Average Time of Process per Machine](../../1501-2000/1661-average-time-of-process-per-machine/)
+- [38. Count and Say](../../0001-0500/0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-mentions-per-user/)

@@ -102,7 +102,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [905. Sort Array By Parity](../../0501-1000/0905-sort-array-by-parity/)
 - [922. Sort Array By Parity II](../../0501-1000/0922-sort-array-by-parity-ii/)
-- [3875. Construct Uniform Parity Array I](../../3501-4000/3875-construct-uniform-parity-array-i/)
+- [1331. Rank Transform of an Array](../../1001-1500/1331-rank-transform-of-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/transform-array-by-parity/)

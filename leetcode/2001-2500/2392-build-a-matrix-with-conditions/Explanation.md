@@ -156,9 +156,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
-- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
-- [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
+- [1737. Change Minimum Characters to Satisfy One of Three Conditions](../../1501-2000/1737-change-minimum-characters-to-satisfy-one-of-three-conditions/)
+- [3122. Minimum Number of Operations to Satisfy Conditions](../../3001-3500/3122-minimum-number-of-operations-to-satisfy-conditions/)
+- [3142. Check if Grid Satisfies Conditions](../../3001-3500/3142-check-if-grid-satisfies-conditions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/build-a-matrix-with-conditions/)

@@ -108,9 +108,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [973. K Closest Points to Origin](../../0501-1000/0973-k-closest-points-to-origin/)
-- [2833. Furthest Point From Origin](../../2501-3000/2833-furthest-point-from-origin/)
 - [874. Walking Robot Simulation](../../0501-1000/0874-walking-robot-simulation/)
+- [1041. Robot Bounded In Circle](../../1001-1500/1041-robot-bounded-in-circle/)
+- [2069. Walking Robot Simulation II](../../2001-2500/2069-walking-robot-simulation-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/robot-return-to-origin/)

@@ -184,8 +184,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [802. Find Eventual Safe States](../../0501-1000/0802-find-eventual-safe-states/)
+- [2639. Find the Width of Columns of a Grid](../../2501-3000/2639-find-the-width-of-columns-of-a-grid/)
 - [2812. Find the Safest Path in a Grid](../../2501-3000/2812-find-the-safest-path-in-a-grid/)
-- [753. Cracking the Safe](../../0501-1000/0753-cracking-the-safe/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/)

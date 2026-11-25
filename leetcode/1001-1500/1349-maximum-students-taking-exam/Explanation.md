@@ -151,9 +151,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [855. Exam Room](../../0501-1000/0855-exam-room/)
+- [2024. Maximize the Confusion of an Exam](../../2001-2500/2024-maximize-the-confusion-of-an-exam/)
+- [3709. Design Exam Scores Tracker](../../3501-4000/3709-design-exam-scores-tracker/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-students-taking-exam/)

@@ -149,7 +149,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1773. Count Items Matching a Rule](../../1501-2000/1773-count-items-matching-a-rule/)
 - [2146. K Highest Ranked Items Within a Price Range](../../2001-2500/2146-k-highest-ranked-items-within-a-price-range/)
-- [3789. Minimum Cost to Acquire Required Items](../../3501-4000/3789-minimum-cost-to-acquire-required-items/)
+- [2931. Maximum Spending After Buying Items](../../2501-3000/2931-maximum-spending-after-buying-items/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)

@@ -136,7 +136,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1736. Latest Time by Replacing Hidden Digits](../../1501-2000/1736-latest-time-by-replacing-hidden-digits/)
 - [3114. Latest Time You Can Obtain After Replacing Characters](../../3001-3500/3114-latest-time-you-can-obtain-after-replacing-characters/)
-- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
+- [1562. Find Latest Group of Size M](../../1501-2000/1562-find-latest-group-of-size-m/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-latest-time-to-catch-a-bus/)

@@ -95,9 +95,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3536. Maximum Product of Two Digits](../../3501-4000/3536-maximum-product-of-two-digits/)
-- [3539. Find Sum of Array Product of Magical Sequences](../../3501-4000/3539-find-sum-of-array-product-of-magical-sequences/)
-- [3622. Check Divisibility by Digit Sum and Product](../../3501-4000/3622-check-divisibility-by-digit-sum-and-product/)
+- [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1317-convert-integer-to-the-sum-of-two-no-zero-integers/)
+- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+- [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../../2501-3000/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)

@@ -115,9 +115,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2243. Calculate Digit Sum of a String](../../2001-2500/2243-calculate-digit-sum-of-a-string/)
-- [4022. K-th Digit in Infinite String](../../4001-4500/4022-k-th-digit-in-infinite-string/)
 - [1903. Largest Odd Number in String](../../1501-2000/1903-largest-odd-number-in-string/)
+- [2243. Calculate Digit Sum of a String](../../2001-2500/2243-calculate-digit-sum-of-a-string/)
+- [3403. Find the Lexicographically Largest String From the Box I](../../3001-3500/3403-find-the-lexicographically-largest-string-from-the-box-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/second-largest-digit-in-a-string/)

@@ -102,9 +102,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [396. Rotate Function](../../0001-0500/0396-rotate-function/)
-- [793. Preimage Size of Factorial Zeroes Function](../../0501-1000/0793-preimage-size-of-factorial-zeroes-function/)
-- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1521-find-a-value-of-a-mysterious-function-closest-to-target/)
+- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
+- [1389. Create Target Array in the Given Order](../../1001-1500/1389-create-target-array-in-the-given-order/)
+- [1649. Create Sorted Array through Instructions](../../1501-2000/1649-create-sorted-array-through-instructions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-hello-world-function/)

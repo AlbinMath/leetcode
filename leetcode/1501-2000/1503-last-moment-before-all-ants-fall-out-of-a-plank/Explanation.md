@@ -120,8 +120,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2124. Check if All A's Appears Before All B's](../../2001-2500/2124-check-if-all-as-appears-before-all-bs/)
-- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
-- [432. All O`one Data Structure](../../0001-0500/0432-all-oone-data-structure/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)

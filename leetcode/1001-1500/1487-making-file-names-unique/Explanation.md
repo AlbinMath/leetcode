@@ -133,8 +133,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [827. Making A Large Island](../../0501-1000/0827-making-a-large-island/)
-- [1667. Fix Names in a Table](../../1501-2000/1667-fix-names-in-a-table/)
-- [62. Unique Paths](../../0001-0500/0062-unique-paths/)
+- [194. Transpose File](../../0001-0500/0194-transpose-file/)
+- [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/making-file-names-unique/)

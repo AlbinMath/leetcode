@@ -144,7 +144,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1835-find-xor-sum-of-all-pairs-bitwise-and/)
 - [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
-- [1588. Sum of All Odd Length Subarrays](../../1501-2000/1588-sum-of-all-odd-length-subarrays/)
+- [2862. Maximum Element-Sum of a Complete Subset of Indices](../../2501-3000/2862-maximum-element-sum-of-a-complete-subset-of-indices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)

@@ -149,9 +149,9 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
-- [745. Prefix and Suffix Search](../../0501-1000/0745-prefix-and-suffix-search/)
-- [1018. Binary Prefix Divisible By 5](../../1001-1500/1018-binary-prefix-divisible-by-5/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
+- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
+- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/)

@@ -136,8 +136,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3514. Number of Unique XOR Triplets II](../../3501-4000/3514-number-of-unique-xor-triplets-ii/)
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
-- [2367. Number of Arithmetic Triplets](../../2001-2500/2367-number-of-arithmetic-triplets/)
+- [1207. Unique Number of Occurrences](../../1001-1500/1207-unique-number-of-occurrences/)
+- [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-xor-triplets-i/)

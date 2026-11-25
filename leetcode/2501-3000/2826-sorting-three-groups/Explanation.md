@@ -105,7 +105,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1859. Sorting the Sentence](../../1501-2000/1859-sorting-the-sentence/)
 - [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
-- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
+- [830. Positions of Large Groups](../../0501-1000/0830-positions-of-large-groups/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sorting-three-groups/)

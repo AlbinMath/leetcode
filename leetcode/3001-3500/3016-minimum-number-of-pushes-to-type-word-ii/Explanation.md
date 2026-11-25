@@ -155,8 +155,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3014. Minimum Number of Pushes to Type Word I](../../3001-3500/3014-minimum-number-of-pushes-to-type-word-i/)
+- [3137. Minimum Number of Operations to Make Word K-Periodic](../../3001-3500/3137-minimum-number-of-operations-to-make-word-k-periodic/)
 - [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1320-minimum-distance-to-type-a-word-using-two-fingers/)
-- [1974. Minimum Time to Type Word Using Special Typewriter](../../1501-2000/1974-minimum-time-to-type-word-using-special-typewriter/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/)

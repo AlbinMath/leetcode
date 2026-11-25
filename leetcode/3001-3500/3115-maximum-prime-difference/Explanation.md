@@ -111,9 +111,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3953. Maximum Score with Co-Prime Element](../../3501-4000/3953-maximum-score-with-co-prime-element/)
 - [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
 - [1913. Maximum Product Difference Between Two Pairs](../../1501-2000/1913-maximum-product-difference-between-two-pairs/)
+- [1938. Maximum Genetic Difference Query](../../1501-2000/1938-maximum-genetic-difference-query/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-prime-difference/)

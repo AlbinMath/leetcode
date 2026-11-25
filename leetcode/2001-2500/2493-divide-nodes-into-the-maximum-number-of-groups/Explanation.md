@@ -172,9 +172,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2138. Divide a String Into Groups of Size k](../../2001-2500/2138-divide-a-string-into-groups-of-size-k/)
 - [1815. Maximum Number of Groups Getting Fresh Donuts](../../1501-2000/1815-maximum-number-of-groups-getting-fresh-donuts/)
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2358. Maximum Number of Groups Entering a Competition](../../2001-2500/2358-maximum-number-of-groups-entering-a-competition/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/)

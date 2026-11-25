@@ -131,7 +131,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [413. Arithmetic Slices](../../0001-0500/0413-arithmetic-slices/)
 - [1027. Longest Arithmetic Subsequence](../../1001-1500/1027-longest-arithmetic-subsequence/)
-- [1307. Verbal Arithmetic Puzzle](../../1001-1500/1307-verbal-arithmetic-puzzle/)
+- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)

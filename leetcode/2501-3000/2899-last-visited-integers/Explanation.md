@@ -140,9 +140,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1560. Most Visited Sector in  a Circular Track](../../1501-2000/1560-most-visited-sector-in-a-circular-track/)
-- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1581-customer-who-visited-but-did-not-make-any-transactions/)
-- [2617. Minimum Number of Visited Cells in a Grid](../../2501-3000/2617-minimum-number-of-visited-cells-in-a-grid/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
+- [1046. Last Stone Weight](../../1001-1500/1046-last-stone-weight/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-visited-integers/)

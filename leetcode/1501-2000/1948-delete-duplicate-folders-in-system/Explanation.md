@@ -180,7 +180,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [196. Delete Duplicate Emails](../../0001-0500/0196-delete-duplicate-emails/)
 - [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
-- [237. Delete Node in a Linked List](../../0001-0500/0237-delete-node-in-a-linked-list/)
+- [182. Duplicate Emails](../../0001-0500/0182-duplicate-emails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-duplicate-folders-in-system/)
