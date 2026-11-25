@@ -131,9 +131,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [523. Continuous Subarray Sum](../../0501-1000/0523-continuous-subarray-sum/)
 - [581. Shortest Unsorted Continuous Subarray](../../0501-1000/0581-shortest-unsorted-continuous-subarray/)
 - [674. Longest Continuous Increasing Subsequence](../../0501-1000/0674-longest-continuous-increasing-subsequence/)
-- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1001-1500/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/continuous-subarrays/)

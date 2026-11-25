@@ -120,9 +120,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 - [3988. Create Grid With Exactly K Paths I](../../3501-4000/3988-create-grid-with-exactly-k-paths-i/)
-- [2556. Disconnect Path in a Binary Matrix by at Most One Flip](../../2501-3000/2556-disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+- [1293. Shortest Path in a Grid with Obstacles Elimination](../../1001-1500/1293-shortest-path-in-a-grid-with-obstacles-elimination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-grid-with-exactly-one-path/)

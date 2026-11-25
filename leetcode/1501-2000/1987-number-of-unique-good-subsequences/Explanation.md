@@ -122,8 +122,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [792. Number of Matching Subsequences](../../0501-1000/0792-number-of-matching-subsequences/)
-- [1207. Unique Number of Occurrences](../../1001-1500/1207-unique-number-of-occurrences/)
-- [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1001-1500/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/)
+- [1819. Number of Different Subsequences GCDs](../../1501-2000/1819-number-of-different-subsequences-gcds/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-unique-good-subsequences/)

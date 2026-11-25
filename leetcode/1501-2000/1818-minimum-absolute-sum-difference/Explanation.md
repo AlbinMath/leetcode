@@ -138,7 +138,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
 - [1200. Minimum Absolute Difference](../../1001-1500/1200-minimum-absolute-difference/)
-- [2333. Minimum Sum of Squared Difference](../../2001-2500/2333-minimum-sum-of-squared-difference/)
+- [1906. Minimum Absolute Difference Queries](../../1501-2000/1906-minimum-absolute-difference-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-absolute-sum-difference/)

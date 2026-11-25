@@ -1,7 +1,7 @@
 # LeetCode 1878: Get Biggest Three Rhombus Sums in a Grid
 
 **LeetCode Problem #1878 — Get Biggest Three Rhombus Sums in a Grid**
-Solve LeetCode Get Biggest Three Rhombus Sums in a Grid using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Get Biggest Three Rhombus Sums in a Grid using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Get Biggest Three Rhombus Sums in a Grid using Python and Tree & 
 | LeetCode | #1878 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -54,7 +54,7 @@ Return *the biggest three **distinct rhombus sums** in the *`grid`* in **descend
 - **Explanation:** All three possible rhombus sums are the same, so return [7].
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Get Biggest Three Rhombus Sums in a Grid**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
@@ -66,7 +66,7 @@ To solve **Get Biggest Three Rhombus Sums in a Grid**, we observe the problem re
 
 ## Example Walkthrough
 1. **Input State:** We begin with `grid = [[3,4,5,1,3],[3,3,4,2,3],[20,30,200,40,10],[1,5,5,4,1],[4,3,2,2,5]]`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[228,216,211]`.
@@ -77,16 +77,14 @@ To solve **Get Biggest Three Rhombus Sums in a Grid**, we observe the problem re
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -119,7 +117,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -131,9 +129,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [619. Biggest Single Number](../../0501-1000/0619-biggest-single-number/)
-- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
-- [1354. Construct Target Array With Multiple Sums](../../1001-1500/1354-construct-target-array-with-multiple-sums/)
+- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
+- [326. Power of Three](../../0001-0500/0326-power-of-three/)
+- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)

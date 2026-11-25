@@ -116,8 +116,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
+- [446. Arithmetic Slices II - Subsequence](../../0001-0500/0446-arithmetic-slices-ii-subsequence/)
 - [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
-- [521. Longest Uncommon Subsequence I](../../0501-1000/0521-longest-uncommon-subsequence-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-arithmetic-subsequence/)

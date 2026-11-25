@@ -124,7 +124,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
 - [1985. Find the Kth Largest Integer in the Array](../../1501-2000/1985-find-the-kth-largest-integer-in-the-array/)
-- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
+- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)

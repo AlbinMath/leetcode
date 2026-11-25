@@ -114,7 +114,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
+- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1385-find-the-distance-value-between-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)

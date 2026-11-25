@@ -122,8 +122,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1030. Matrix Cells in Distance Order](../../1001-1500/1030-matrix-cells-in-distance-order/)
-- [2713. Maximum Strictly Increasing Cells in a Matrix](../../2501-3000/2713-maximum-strictly-increasing-cells-in-a-matrix/)
 - [2373. Largest Local Values in a Matrix](../../2001-2500/2373-largest-local-values-in-a-matrix/)
+- [2713. Maximum Strictly Increasing Cells in a Matrix](../../2501-3000/2713-maximum-strictly-increasing-cells-in-a-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)

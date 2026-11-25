@@ -17,10 +17,10 @@ This repository contains solved LeetCode problems with explanations, complexity 
 
 | Category | Count |
 |---|---|
-| **Total Solved** | 2644+ |
-| **Easy** | 680+ |
-| **Medium** | 1307+ |
-| **Hard** | 657+ |
+| **Total Solved** | 2705+ |
+| **Easy** | 684+ |
+| **Medium** | 1350+ |
+| **Hard** | 671+ |
 
 > **Repository Structure:** To prevent GitHub directory truncation (which limits folder listings to 1,000 files), all 2,360+ problems are cleanly partitioned into 500-problem range buckets under [`leetcode/`](leetcode/) (`0001-0500/`, `0501-1000/`, etc.). You can browse problems directly through their range buckets or search the full directory in [**All_Problems.md**](All_Problems.md).
 

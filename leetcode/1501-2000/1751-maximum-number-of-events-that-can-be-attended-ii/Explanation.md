@@ -115,8 +115,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1561. Maximum Number of Coins You Can Get](../../1501-2000/1561-maximum-number-of-coins-you-can-get/)
-- [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1725-number-of-rectangles-that-can-form-the-largest-square/)
 - [1935. Maximum Number of Words You Can Type](../../1501-2000/1935-maximum-number-of-words-you-can-type/)
+- [2071. Maximum Number of Tasks You Can Assign](../../2001-2500/2071-maximum-number-of-tasks-you-can-assign/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)

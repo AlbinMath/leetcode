@@ -103,9 +103,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
+- [2406. Divide Intervals Into Minimum Number of Groups](../../2001-2500/2406-divide-intervals-into-minimum-number-of-groups/)
 - [3010. Divide an Array Into Subarrays With Minimum Cost I](../../3001-3500/3010-divide-an-array-into-subarrays-with-minimum-cost-i/)
 - [3013. Divide an Array Into Subarrays With Minimum Cost II](../../3001-3500/3013-divide-an-array-into-subarrays-with-minimum-cost-ii/)
-- [29. Divide Two Integers](../../0001-0500/0029-divide-two-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)

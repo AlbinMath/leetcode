@@ -130,8 +130,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1031-maximum-sum-of-two-non-overlapping-subarrays/)
+- [1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](../../1501-2000/1546-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
 - [3956. Maximum Sum of M Non-Overlapping Subarrays I](../../3501-4000/3956-maximum-sum-of-m-non-overlapping-subarrays-i/)
-- [3957. Maximum Sum of M Non-Overlapping Subarrays II](../../3501-4000/3957-maximum-sum-of-m-non-overlapping-subarrays-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)

@@ -117,8 +117,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1371. Find the Longest Substring Containing Vowels in Even Counts](../../1001-1500/1371-find-the-longest-substring-containing-vowels-in-even-counts/)
-- [1163. Last Substring in Lexicographical Order](../../1001-1500/1163-last-substring-in-lexicographical-order/)
-- [1456. Maximum Number of Vowels in a Substring of Given Length](../../1001-1500/1456-maximum-number-of-vowels-in-a-substring-of-given-length/)
+- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [1910. Remove All Occurrences of a Substring](../../1501-2000/1910-remove-all-occurrences-of-a-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/)

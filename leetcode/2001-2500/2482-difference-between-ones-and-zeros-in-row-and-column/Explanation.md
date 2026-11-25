@@ -144,9 +144,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1869. Longer Contiguous Segments of Ones than Zeros](../../1501-2000/1869-longer-contiguous-segments-of-ones-than-zeros/)
+- [2181. Merge Nodes in Between Zeros](../../2001-2500/2181-merge-nodes-in-between-zeros/)
 - [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
-- [1605. Find Valid Matrix Given Row and Column Sums](../../1501-2000/1605-find-valid-matrix-given-row-and-column-sums/)
-- [2133. Check if Every Row and Column Contains All Numbers](../../2001-2500/2133-check-if-every-row-and-column-contains-all-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)

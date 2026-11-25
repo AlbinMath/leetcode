@@ -120,9 +120,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1946. Largest Number After Mutating Substring](../../1501-2000/1946-largest-number-after-mutating-substring/)
 - [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
-- [2458. Height of Binary Tree After Subtree Removal Queries](../../2001-2500/2458-height-of-binary-tree-after-subtree-removal-queries/)
+- [3569. Maximize Count of Distinct Primes After Split](../../3501-4000/3569-maximize-count-of-distinct-primes-after-split/)
+- [1946. Largest Number After Mutating Substring](../../1501-2000/1946-largest-number-after-mutating-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-points-reachable-after-substring-removal/)

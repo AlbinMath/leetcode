@@ -1,7 +1,7 @@
 # LeetCode 3402: Minimum Operations to Make Columns Strictly Increasing
 
 **LeetCode Problem #3402 — Minimum Operations to Make Columns Strictly Increasing**
-Solve LeetCode Minimum Operations to Make Columns Strictly Increasing using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Minimum Operations to Make Columns Strictly Increasing using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Minimum Operations to Make Columns Strictly Increasing using Pyth
 | LeetCode | #3402 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -44,7 +44,7 @@ Return the **minimum** number of operations needed to make all columns of `grid`
  To make the `2^nd` column strictly increasing, we can apply 2 operations on `grid[1][2]`.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Minimum Operations to Make Columns Strictly Increasing**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -56,7 +56,7 @@ To solve **Minimum Operations to Make Columns Strictly Increasing**, we observe 
 
 ## Example Walkthrough
 1. **Input State:** We begin with `grid = [[3,2],[1,3],[3,4],[0,1]]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `15`.
@@ -65,13 +65,14 @@ To solve **Minimum Operations to Make Columns Strictly Increasing**, we observe 
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 Python
@@ -99,7 +100,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -113,7 +114,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1827. Minimum Operations to Make the Array Increasing](../../1501-2000/1827-minimum-operations-to-make-the-array-increasing/)
 - [2111. Minimum Operations to Make the Array K-Increasing](../../2001-2500/2111-minimum-operations-to-make-the-array-k-increasing/)
-- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1611-minimum-one-bit-operations-to-make-integers-zero/)
+- [1187. Make Array Strictly Increasing](../../1001-1500/1187-make-array-strictly-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/)

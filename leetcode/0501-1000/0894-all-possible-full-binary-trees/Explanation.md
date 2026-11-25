@@ -136,8 +136,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1305. All Elements in Two Binary Search Trees](../../1001-1500/1305-all-elements-in-two-binary-search-trees/)
-- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
-- [96. Unique Binary Search Trees](../../0001-0500/0096-unique-binary-search-trees/)
+- [3129. Find All Possible Stable Binary Arrays I](../../3001-3500/3129-find-all-possible-stable-binary-arrays-i/)
+- [3130. Find All Possible Stable Binary Arrays II](../../3001-3500/3130-find-all-possible-stable-binary-arrays-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/all-possible-full-binary-trees/)

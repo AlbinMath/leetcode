@@ -115,9 +115,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3001-3500/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
 - [3551. Minimum Swaps to Sort by Digit Sum](../../3501-4000/3551-minimum-swaps-to-sort-by-digit-sum/)
-- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
+- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3001-3500/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+- [4066. Maximum Equal Adjacent Pairs After at Most One Replacement](../../4001-4500/4066-maximum-equal-adjacent-pairs-after-at-most-one-replacement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)

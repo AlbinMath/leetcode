@@ -136,8 +136,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2304. Minimum Path Cost in a Grid](../../2001-2500/2304-minimum-path-cost-in-a-grid/)
-- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1611-minimum-one-bit-operations-to-make-integers-zero/)
-- [3191. Minimum Operations to Make Binary Array Elements Equal to One I](../../3001-3500/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i/)
+- [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0921-minimum-add-to-make-parentheses-valid/)
+- [1249. Minimum Remove to Make Valid Parentheses](../../1001-1500/1249-minimum-remove-to-make-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)

@@ -158,8 +158,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
-- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2657-find-the-prefix-common-array-of-two-arrays/)
 - [3485. Longest Common Prefix of K Strings After Removal](../../3001-3500/3485-longest-common-prefix-of-k-strings-after-removal/)
+- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2657-find-the-prefix-common-array-of-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/)

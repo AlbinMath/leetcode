@@ -195,8 +195,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3421. Find Students Who Improved](../../3001-3500/3421-find-students-who-improved/)
+- [2477. Minimum Fuel Cost to Report to the Capital](../../2001-2500/2477-minimum-fuel-cost-to-report-to-the-capital/)
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-drivers-with-improved-fuel-efficiency/)

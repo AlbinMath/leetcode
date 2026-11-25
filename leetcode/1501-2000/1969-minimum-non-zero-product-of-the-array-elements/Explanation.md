@@ -115,8 +115,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3495. Minimum Operations to Make Array Elements Zero](../../3001-3500/3495-minimum-operations-to-make-array-elements-zero/)
+- [2772. Apply Operations to Make All Array Elements Equal to Zero](../../2501-3000/2772-apply-operations-to-make-all-array-elements-equal-to-zero/)
 - [3354. Make Array Elements Equal to Zero](../../3001-3500/3354-make-array-elements-equal-to-zero/)
-- [3542. Minimum Operations to Convert All Elements to Zero](../../3501-4000/3542-minimum-operations-to-convert-all-elements-to-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/)

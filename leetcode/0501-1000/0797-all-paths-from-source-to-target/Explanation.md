@@ -114,7 +114,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1786. Number of Restricted Paths From First to Last Node](../../1501-2000/1786-number-of-restricted-paths-from-first-to-last-node/)
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../../1001-1500/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2115-find-all-possible-recipes-from-given-supplies/)
 - [2920. Maximum Points After Collecting Coins From All Nodes](../../2501-3000/2920-maximum-points-after-collecting-coins-from-all-nodes/)
 

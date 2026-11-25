@@ -127,9 +127,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1643. Kth Smallest Instructions](../../1501-2000/1643-kth-smallest-instructions/)
-- [1649. Create Sorted Array through Instructions](../../1501-2000/1649-create-sorted-array-through-instructions/)
-- [3522. Calculate Score After Performing Instructions](../../3501-4000/3522-calculate-score-after-performing-instructions/)
+- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [432. All O`one Data Structure](../../0001-0500/0432-all-oone-data-structure/)
+- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)

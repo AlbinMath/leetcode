@@ -131,9 +131,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 - [1900. The Earliest and Latest Rounds Where Players Compete](../../1501-2000/1900-the-earliest-and-latest-rounds-where-players-compete/)
 - [1970. Last Day Where You Can Still Cross](../../1501-2000/1970-last-day-where-you-can-still-cross/)
-- [2940. Find Building Where Alice and Bob Can Meet](../../2501-3000/2940-find-building-where-alice-and-bob-can-meet/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/where-will-the-ball-fall/)

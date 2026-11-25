@@ -139,8 +139,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3091-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
-- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
-- [2818. Apply Operations to Maximize Score](../../2501-3000/2818-apply-operations-to-maximize-score/)
+- [2460. Apply Operations to an Array](../../2001-2500/2460-apply-operations-to-an-array/)
+- [2772. Apply Operations to Make All Array Elements Equal to Zero](../../2501-3000/2772-apply-operations-to-make-all-array-elements-equal-to-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/)

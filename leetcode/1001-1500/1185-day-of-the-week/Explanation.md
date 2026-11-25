@@ -103,8 +103,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1154. Day of the Year](../../1001-1500/1154-day-of-the-year/)
+- [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](../../1501-2000/1744-can-you-eat-your-favorite-candy-on-your-favorite-day/)
 - [1970. Last Day Where You Can Still Cross](../../1501-2000/1970-last-day-where-you-can-still-cross/)
-- [3184. Count Pairs That Form a Complete Day I](../../3001-3500/3184-count-pairs-that-form-a-complete-day-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/day-of-the-week/)

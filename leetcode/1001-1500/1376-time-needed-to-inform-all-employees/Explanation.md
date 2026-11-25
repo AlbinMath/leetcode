@@ -123,9 +123,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2073. Time Needed to Buy Tickets](../../2001-2500/2073-time-needed-to-buy-tickets/)
-- [2380. Time Needed to Rearrange a Binary String](../../2001-2500/2380-time-needed-to-rearrange-a-binary-string/)
 - [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
+- [1443. Minimum Time to Collect All Apples in a Tree](../../1001-1500/1443-minimum-time-to-collect-all-apples-in-a-tree/)
+- [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1723-find-minimum-time-to-finish-all-jobs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/time-needed-to-inform-all-employees/)

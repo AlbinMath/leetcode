@@ -97,8 +97,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
+- [1000. Minimum Cost to Merge Stones](../../0501-1000/1000-minimum-cost-to-merge-stones/)
 - [1033. Moving Stones Until Consecutive](../../1001-1500/1033-moving-stones-until-consecutive/)
-- [1040. Moving Stones Until Consecutive II](../../1001-1500/1040-moving-stones-until-consecutive-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/jewels-and-stones/)

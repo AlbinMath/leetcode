@@ -35,10 +35,13 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 | 2424 | [Longest Uploaded Prefix](../leetcode/2001-2500/2424-longest-uploaded-prefix/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2424-longest-uploaded-prefix/Explanation.md) |
 | 2433 | [Find The Original Array of Prefix Xor](../leetcode/2001-2500/2433-find-the-original-array-of-prefix-xor/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2433-find-the-original-array-of-prefix-xor/Explanation.md) |
 | 2453 | [Destroy Sequential Targets](../leetcode/2001-2500/2453-destroy-sequential-targets/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2453-destroy-sequential-targets/Explanation.md) |
+| 2587 | [Rearrange Array to Maximize Prefix Score](../leetcode/2501-3000/2587-rearrange-array-to-maximize-prefix-score/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2587-rearrange-array-to-maximize-prefix-score/Explanation.md) |
+| 2640 | [Find the Score of All Prefixes of an Array](../leetcode/2501-3000/2640-find-the-score-of-all-prefixes-of-an-array/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2640-find-the-score-of-all-prefixes-of-an-array/Explanation.md) |
 | 2657 | [Find the Prefix Common Array of Two Arrays](../leetcode/2501-3000/2657-find-the-prefix-common-array-of-two-arrays/) | C++ | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2657-find-the-prefix-common-array-of-two-arrays/Explanation.md) |
 | 3043 | [Find the Length of the Longest Common Prefix](../leetcode/3001-3500/3043-find-the-length-of-the-longest-common-prefix/) | C++ | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3043-find-the-length-of-the-longest-common-prefix/Explanation.md) |
 | 3652 | [Best Time to Buy and Sell Stock using Strategy](../leetcode/3501-4000/3652-best-time-to-buy-and-sell-stock-using-strategy/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3652-best-time-to-buy-and-sell-stock-using-strategy/Explanation.md) |
 | 3839 | [Number of Prefix Connected Groups](../leetcode/3501-4000/3839-number-of-prefix-connected-groups/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3839-number-of-prefix-connected-groups/Explanation.md) |
+| 3933 | [Largest Local Values in a Matrix II](../leetcode/3501-4000/3933-largest-local-values-in-a-matrix-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3933-largest-local-values-in-a-matrix-ii/Explanation.md) |
 | 3984 | [Divisible Game](../leetcode/3501-4000/3984-divisible-game/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3984-divisible-game/Explanation.md) |
 
 ### Hard
@@ -50,6 +53,7 @@ A collection of LeetCode problems solved using **Prefix Sum** pattern techniques
 | 1563 | [Stone Game V](../leetcode/1501-2000/1563-stone-game-v/) | Java | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1563-stone-game-v/Explanation.md) |
 | 1872 | [Stone Game VIII](../leetcode/1501-2000/1872-stone-game-viii/) | Java | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1872-stone-game-viii/Explanation.md) |
 | 2003 | [Smallest Missing Genetic Value in Each Subtree](../leetcode/2001-2500/2003-smallest-missing-genetic-value-in-each-subtree/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2003-smallest-missing-genetic-value-in-each-subtree/Explanation.md) |
+| 2132 | [Stamping the Grid](../leetcode/2001-2500/2132-stamping-the-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2132-stamping-the-grid/Explanation.md) |
 | 2179 | [Count Good Triplets in an Array](../leetcode/2001-2500/2179-count-good-triplets-in-an-array/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2179-count-good-triplets-in-an-array/Explanation.md) |
 | 2416 | [Sum of Prefix Scores of Strings](../leetcode/2001-2500/2416-sum-of-prefix-scores-of-strings/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2416-sum-of-prefix-scores-of-strings/Explanation.md) |
 | 2528 | [Maximize the Minimum Powered City](../leetcode/2501-3000/2528-maximize-the-minimum-powered-city/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2528-maximize-the-minimum-powered-city/Explanation.md) |

@@ -139,8 +139,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
 - [1283. Find the Smallest Divisor Given a Threshold](../../1001-1500/1283-find-the-smallest-divisor-given-a-threshold/)
+- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
 - [287. Find the Duplicate Number](../../0001-0500/0287-find-the-duplicate-number/)
 
 ## LeetCode

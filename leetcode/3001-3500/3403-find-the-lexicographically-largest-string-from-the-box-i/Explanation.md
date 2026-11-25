@@ -113,8 +113,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [4036. Lexicographically Largest String After Pair Transformations](../../4001-4500/4036-lexicographically-largest-string-after-pair-transformations/)
-- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
-- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
+- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1061-lexicographically-smallest-equivalent-string/)
+- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1625-lexicographically-smallest-string-after-applying-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/)

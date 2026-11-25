@@ -1,6 +1,6 @@
 # LeetCode Problems: 0501-1000
 
-A collection of **384** solved LeetCode problems in the range **0501-1000**.
+A collection of **390** solved LeetCode problems in the range **0501-1000**.
 
 ## Problem Index
 
@@ -24,7 +24,9 @@ A collection of **384** solved LeetCode problems in the range **0501-1000**.
 | 520 | [Detect Capital](./0520-detect-capital/) | Easy | [Array / General](../../patterns/array-general.md) | JavaScript, Python | [Explanation](./0520-detect-capital/Explanation.md) |
 | 521 | [Longest Uncommon Subsequence I](./0521-longest-uncommon-subsequence-i/) | Easy | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0521-longest-uncommon-subsequence-i/Explanation.md) |
 | 522 | [Longest Uncommon Subsequence II](./0522-longest-uncommon-subsequence-ii/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0522-longest-uncommon-subsequence-ii/Explanation.md) |
+| 523 | [Continuous Subarray Sum](./0523-continuous-subarray-sum/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0523-continuous-subarray-sum/Explanation.md) |
 | 524 | [Longest Word in Dictionary through Deleting](./0524-longest-word-in-dictionary-through-deleting/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0524-longest-word-in-dictionary-through-deleting/Explanation.md) |
+| 525 | [Contiguous Array](./0525-contiguous-array/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0525-contiguous-array/Explanation.md) |
 | 526 | [Beautiful Arrangement](./0526-beautiful-arrangement/) | Medium | [Backtracking](../../patterns/backtracking.md) | JavaScript | [Explanation](./0526-beautiful-arrangement/Explanation.md) |
 | 528 | [Random Pick with Weight](./0528-random-pick-with-weight/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0528-random-pick-with-weight/Explanation.md) |
 | 529 | [Minesweeper](./0529-minesweeper/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0529-minesweeper/Explanation.md) |
@@ -215,6 +217,7 @@ A collection of **384** solved LeetCode problems in the range **0501-1000**.
 | 794 | [Valid Tic-Tac-Toe State](./0794-valid-tic-tac-toe-state/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0794-valid-tic-tac-toe-state/Explanation.md) |
 | 796 | [Rotate String](./0796-rotate-string/) | Easy | [Math & Logic](../../patterns/math-logic.md) | C++, JavaScript | [Explanation](./0796-rotate-string/Explanation.md) |
 | 797 | [All Paths From Source to Target](./0797-all-paths-from-source-to-target/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0797-all-paths-from-source-to-target/Explanation.md) |
+| 798 | [Smallest Rotation with Highest Score](./0798-smallest-rotation-with-highest-score/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0798-smallest-rotation-with-highest-score/Explanation.md) |
 | 802 | [Find Eventual Safe States](./0802-find-eventual-safe-states/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0802-find-eventual-safe-states/Explanation.md) |
 | 803 | [Bricks Falling When Hit](./0803-bricks-falling-when-hit/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0803-bricks-falling-when-hit/Explanation.md) |
 | 804 | [Unique Morse Code Words](./0804-unique-morse-code-words/) | Easy | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0804-unique-morse-code-words/Explanation.md) |
@@ -226,6 +229,7 @@ A collection of **384** solved LeetCode problems in the range **0501-1000**.
 | 810 | [Chalkboard XOR Game](./0810-chalkboard-xor-game/) | Hard | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0810-chalkboard-xor-game/Explanation.md) |
 | 811 | [Subdomain Visit Count](./0811-subdomain-visit-count/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0811-subdomain-visit-count/Explanation.md) |
 | 812 | [Largest Triangle Area](./0812-largest-triangle-area/) | Easy | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./0812-largest-triangle-area/Explanation.md) |
+| 813 | [Largest Sum of Averages](./0813-largest-sum-of-averages/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0813-largest-sum-of-averages/Explanation.md) |
 | 814 | [Binary Tree Pruning](./0814-binary-tree-pruning/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0814-binary-tree-pruning/Explanation.md) |
 | 815 | [Bus Routes](./0815-bus-routes/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0815-bus-routes/Explanation.md) |
 | 816 | [Ambiguous Coordinates](./0816-ambiguous-coordinates/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0816-ambiguous-coordinates/Explanation.md) |
@@ -236,7 +240,7 @@ A collection of **384** solved LeetCode problems in the range **0501-1000**.
 | 821 | [Shortest Distance to a Character](./0821-shortest-distance-to-a-character/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0821-shortest-distance-to-a-character/Explanation.md) |
 | 824 | [Goat Latin](./0824-goat-latin/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0824-goat-latin/Explanation.md) |
 | 825 | [Friends Of Appropriate Ages](./0825-friends-of-appropriate-ages/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0825-friends-of-appropriate-ages/Explanation.md) |
-| 826 | [Most Profit Assigning Work](./0826-most-profit-assigning-work/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0826-most-profit-assigning-work/Explanation.md) |
+| 826 | [Most Profit Assigning Work](./0826-most-profit-assigning-work/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0826-most-profit-assigning-work/Explanation.md) |
 | 827 | [Making A Large Island](./0827-making-a-large-island/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0827-making-a-large-island/Explanation.md) |
 | 828 | [Count Unique Characters of All Substrings of a Given String](./0828-count-unique-characters-of-all-substrings-of-a-given-string/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0828-count-unique-characters-of-all-substrings-of-a-given-string/Explanation.md) |
 | 829 | [Consecutive Numbers Sum](./0829-consecutive-numbers-sum/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0829-consecutive-numbers-sum/Explanation.md) |
@@ -367,6 +371,7 @@ A collection of **384** solved LeetCode problems in the range **0501-1000**.
 | 971 | [Flip Binary Tree To Match Preorder Traversal](./0971-flip-binary-tree-to-match-preorder-traversal/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0971-flip-binary-tree-to-match-preorder-traversal/Explanation.md) |
 | 972 | [Equal Rational Numbers](./0972-equal-rational-numbers/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0972-equal-rational-numbers/Explanation.md) |
 | 973 | [K Closest Points to Origin](./0973-k-closest-points-to-origin/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0973-k-closest-points-to-origin/Explanation.md) |
+| 974 | [Subarray Sums Divisible by K](./0974-subarray-sums-divisible-by-k/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0974-subarray-sums-divisible-by-k/Explanation.md) |
 | 975 | [Odd Even Jump](./0975-odd-even-jump/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0975-odd-even-jump/Explanation.md) |
 | 976 | [Largest Perimeter Triangle](./0976-largest-perimeter-triangle/) | Easy | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./0976-largest-perimeter-triangle/Explanation.md) |
 | 977 | [Squares of a Sorted Array](./0977-squares-of-a-sorted-array/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0977-squares-of-a-sorted-array/Explanation.md) |
@@ -390,3 +395,4 @@ A collection of **384** solved LeetCode problems in the range **0501-1000**.
 | 997 | [Find the Town Judge](./0997-find-the-town-judge/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0997-find-the-town-judge/Explanation.md) |
 | 998 | [Maximum Binary Tree II](./0998-maximum-binary-tree-ii/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0998-maximum-binary-tree-ii/Explanation.md) |
 | 999 | [Available Captures for Rook](./0999-available-captures-for-rook/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0999-available-captures-for-rook/Explanation.md) |
+| 1000 | [Minimum Cost to Merge Stones](./1000-minimum-cost-to-merge-stones/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1000-minimum-cost-to-merge-stones/Explanation.md) |

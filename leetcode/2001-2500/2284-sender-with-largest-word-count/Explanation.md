@@ -127,9 +127,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3926. Count Valid Word Occurrences](../../3501-4000/3926-count-valid-word-occurrences/)
 - [1399. Count Largest Group](../../1001-1500/1399-count-largest-group/)
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
+- [3926. Count Valid Word Occurrences](../../3501-4000/3926-count-valid-word-occurrences/)
+- [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sender-with-largest-word-count/)

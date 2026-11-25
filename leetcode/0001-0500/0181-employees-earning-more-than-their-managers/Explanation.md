@@ -125,8 +125,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1287. Element Appearing More Than 25% In Sorted Array](../../1001-1500/1287-element-appearing-more-than-25-in-sorted-array/)
-- [1263. Minimum Moves to Move a Box to Their Target Location](../../1001-1500/1263-minimum-moves-to-move-a-box-to-their-target-location/)
-- [2545. Sort the Students by Their Kth Score](../../2501-3000/2545-sort-the-students-by-their-kth-score/)
+- [1566. Detect Pattern of Length M Repeated K or More Times](../../1501-2000/1566-detect-pattern-of-length-m-repeated-k-or-more-times/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-earning-more-than-their-managers/)

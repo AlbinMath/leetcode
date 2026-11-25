@@ -152,8 +152,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2968. Apply Operations to Maximize Frequency Score](../../2501-3000/2968-apply-operations-to-maximize-frequency-score/)
-- [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
 - [2897. Apply Operations on Array to Maximize Sum of Squares](../../2501-3000/2897-apply-operations-on-array-to-maximize-sum-of-squares/)
+- [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-operations-to-maximize-score/)

@@ -1,7 +1,7 @@
 # LeetCode 2428: Maximum Sum of an Hourglass
 
 **LeetCode Problem #2428 — Maximum Sum of an Hourglass**
-Solve LeetCode Maximum Sum of an Hourglass using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Maximum Sum of an Hourglass using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Maximum Sum of an Hourglass using Python and Array / General. Thi
 | LeetCode | #2428 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given an `m x n` integer matrix `grid`.
@@ -43,7 +43,7 @@ Return *the **maximum** sum of the elements of an hourglass*.
 - **Explanation:** There is only one hourglass in the matrix, with the sum: 1 + 2 + 3 + 5 + 7 + 8 + 9 = 35.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Maximum Sum of an Hourglass**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -55,7 +55,7 @@ To solve **Maximum Sum of an Hourglass**, we observe the problem requirements an
 
 ## Example Walkthrough
 1. **Input State:** We begin with `grid = [[6,2,1,3],[4,2,1,5],[9,2,8,7],[4,1,2,9]]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `30`.
@@ -63,13 +63,16 @@ To solve **Maximum Sum of an Hourglass**, we observe the problem requirements an
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -97,7 +100,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

@@ -133,7 +133,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1876. Substrings of Size Three with Distinct Characters](../../1501-2000/1876-substrings-of-size-three-with-distinct-characters/)
 - [2531. Make Number of Distinct Characters Equal](../../2501-3000/2531-make-number-of-distinct-characters-equal/)
-- [3398. Smallest Substring With Identical Characters I](../../3001-3500/3398-smallest-substring-with-identical-characters-i/)
+- [3545. Minimum Deletions for At Most K Distinct Characters](../../3501-4000/3545-minimum-deletions-for-at-most-k-distinct-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)

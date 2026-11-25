@@ -113,7 +113,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
 - [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
-- [2447. Number of Subarrays With GCD Equal to K](../../2001-2500/2447-number-of-subarrays-with-gcd-equal-to-k/)
+- [1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](../../1501-2000/1546-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-centered-subarrays/)

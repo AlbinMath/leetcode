@@ -146,8 +146,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [733. Flood Fill](../../0501-1000/0733-flood-fill/)
+- [1488. Avoid Flood in The City](../../1001-1500/1488-avoid-flood-in-the-city/)
 - [797. All Paths From Source to Target](../../0501-1000/0797-all-paths-from-source-to-target/)
-- [2887. Fill Missing Data](../../2501-3000/2887-fill-missing-data/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/multi-source-flood-fill/)

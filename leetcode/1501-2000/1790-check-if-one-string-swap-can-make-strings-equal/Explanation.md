@@ -119,9 +119,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3461. Check If Digits Are Equal in String After Operations I](../../3001-3500/3461-check-if-digits-are-equal-in-string-after-operations-i/)
-- [3463. Check If Digits Are Equal in String After Operations II](../../3001-3500/3463-check-if-digits-are-equal-in-string-after-operations-ii/)
+- [1433. Check If a String Can Break Another String](../../1001-1500/1433-check-if-a-string-can-break-another-string/)
 - [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1784-check-if-binary-string-has-at-most-one-segment-of-ones/)
+- [2116. Check if a Parentheses String Can Be Valid](../../2001-2500/2116-check-if-a-parentheses-string-can-be-valid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)

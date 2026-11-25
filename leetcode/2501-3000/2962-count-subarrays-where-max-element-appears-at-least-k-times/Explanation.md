@@ -109,8 +109,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2302. Count Subarrays With Score Less Than K](../../2001-2500/2302-count-subarrays-with-score-less-than-k/)
+- [2488. Count Subarrays With Median K](../../2001-2500/2488-count-subarrays-with-median-k/)
 - [3070. Count Submatrices with Top-Left Element and Sum Less Than k](../../3001-3500/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/)
-- [3420. Count Non-Decreasing Subarrays After K Operations](../../3001-3500/3420-count-non-decreasing-subarrays-after-k-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)

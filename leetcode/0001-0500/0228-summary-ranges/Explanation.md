@@ -141,9 +141,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2104. Sum of Subarray Ranges](../../2001-2500/2104-sum-of-subarray-ranges/)
-- [3281. Maximize Score of Numbers in Ranges](../../3001-3500/3281-maximize-score-of-numbers-in-ranges/)
 - [1587. Bank Account Summary II](../../1501-2000/1587-bank-account-summary-ii/)
+- [2104. Sum of Subarray Ranges](../../2001-2500/2104-sum-of-subarray-ranges/)
+- [2559. Count Vowel Strings in Ranges](../../2501-3000/2559-count-vowel-strings-in-ranges/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/summary-ranges/)

@@ -168,8 +168,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3962. Maximum Subarray Sum After at Most K Swaps](../../3501-4000/3962-maximum-subarray-sum-after-at-most-k-swaps/)
-- [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
-- [2322. Minimum Score After Removals on a Tree](../../2001-2500/2322-minimum-score-after-removals-on-a-tree/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-segment-sum-after-removals/)

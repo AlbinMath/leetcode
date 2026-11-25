@@ -162,9 +162,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
+- [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](../../1501-2000/1744-can-you-eat-your-favorite-candy-on-your-favorite-day/)
 - [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
-- [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
-- [1561. Maximum Number of Coins You Can Get](../../1501-2000/1561-maximum-number-of-coins-you-can-get/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-day-where-you-can-still-cross/)

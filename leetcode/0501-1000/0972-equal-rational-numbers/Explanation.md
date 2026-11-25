@@ -139,9 +139,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
-- [453. Minimum Moves to Equal Array Elements](../../0001-0500/0453-minimum-moves-to-equal-array-elements/)
-- [462. Minimum Moves to Equal Array Elements II](../../0001-0500/0462-minimum-moves-to-equal-array-elements-ii/)
+- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
+- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
+- [165. Compare Version Numbers](../../0001-0500/0165-compare-version-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/equal-rational-numbers/)

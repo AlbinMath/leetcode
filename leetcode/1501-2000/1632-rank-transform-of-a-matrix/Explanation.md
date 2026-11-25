@@ -188,8 +188,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1331. Rank Transform of an Array](../../1001-1500/1331-rank-transform-of-an-array/)
-- [178. Rank Scores](../../0001-0500/0178-rank-scores/)
-- [1366. Rank Teams by Votes](../../1001-1500/1366-rank-teams-by-votes/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-transform-of-a-matrix/)

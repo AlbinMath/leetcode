@@ -142,9 +142,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1959. Minimum Total Space Wasted With K Resizing Operations](../../1501-2000/1959-minimum-total-space-wasted-with-k-resizing-operations/)
 - [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1130-minimum-cost-tree-from-leaf-values/)
 - [2091. Removing Minimum and Maximum From Array](../../2001-2500/2091-removing-minimum-and-maximum-from-array/)
-- [3858. Minimum Bitwise OR From Grid](../../3501-4000/3858-minimum-bitwise-or-from-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-space-wasted-from-packaging/)

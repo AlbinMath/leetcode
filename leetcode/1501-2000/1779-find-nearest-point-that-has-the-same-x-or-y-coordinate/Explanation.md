@@ -121,9 +121,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1160-find-words-that-can-be-formed-by-characters/)
-- [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../../1001-1500/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
-- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1606-find-servers-that-handled-most-number-of-requests/)
+- [2998. Minimum Number of Operations to Make X and Y Equal](../../2501-3000/2998-minimum-number-of-operations-to-make-x-and-y-equal/)
+- [3212. Count Submatrices With Equal Frequency of X and Y](../../3001-3500/3212-count-submatrices-with-equal-frequency-of-x-and-y/)
+- [3178. Find the Child Who Has the Ball After K Seconds](../../3001-3500/3178-find-the-child-who-has-the-ball-after-k-seconds/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)

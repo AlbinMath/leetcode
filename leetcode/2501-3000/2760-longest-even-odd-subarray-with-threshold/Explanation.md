@@ -129,9 +129,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
-- [975. Odd Even Jump](../../0501-1000/0975-odd-even-jump/)
-- [1116. Print Zero Even Odd](../../1001-1500/1116-print-zero-even-odd/)
+- [978. Longest Turbulent Subarray](../../0501-1000/0978-longest-turbulent-subarray/)
+- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1001-1500/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [1493. Longest Subarray of 1's After Deleting One Element](../../1001-1500/1493-longest-subarray-of-1s-after-deleting-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/)

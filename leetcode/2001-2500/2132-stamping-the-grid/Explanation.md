@@ -1,7 +1,7 @@
 # LeetCode 2132: Stamping the Grid
 
 **LeetCode Problem #2132 — Stamping the Grid**
-Solve LeetCode Stamping the Grid using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Stamping the Grid using Python and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Stamping the Grid using Python and Tree & Graph. This solution fi
 | LeetCode | #2132 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -50,7 +50,7 @@ Return `true` *if it is possible to fit the stamps while following the given res
 - **Explanation:** There is no way to fit the stamps onto all the empty cells without the stamps going outside the grid.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Stamping the Grid**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
@@ -62,7 +62,7 @@ To solve **Stamping the Grid**, we observe the problem requirements and utilize 
 
 ## Example Walkthrough
 1. **Input State:** We begin with `grid = [[1,0,0,0],[1,0,0,0],[1,0,0,0],[1,0,0,0],[1,0,0,0]], stampHeight = 4, stampWidth = 3`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Prefix Sum Precomputation** using our **Prefix Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `true`.
@@ -70,16 +70,14 @@ To solve **Stamping the Grid**, we observe the problem requirements and utilize 
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Prefix Array.
 
 ## Pattern
-**Tree & Graph**
+**Prefix Sum**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Prefix Sum
+- Array
 
 ## Language
 Python
@@ -123,7 +121,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

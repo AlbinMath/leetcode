@@ -140,7 +140,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
 - [184. Department Highest Salary](../../0001-0500/0184-department-highest-salary/)
-- [1732. Find the Highest Altitude](../../1501-2000/1732-find-the-highest-altitude/)
+- [1491. Average Salary Excluding the Minimum and Maximum Salary](../../1001-1500/1491-average-salary-excluding-the-minimum-and-maximum-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/nth-highest-salary/)

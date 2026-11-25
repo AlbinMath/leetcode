@@ -118,9 +118,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2914. Minimum Number of Changes to Make Binary String Beautiful](../../2501-3000/2914-minimum-number-of-changes-to-make-binary-string-beautiful/)
 - [1864. Minimum Number of Swaps to Make the Binary String Alternating](../../1501-2000/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
 - [1888. Minimum Number of Flips to Make the Binary String Alternating](../../1501-2000/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/)
+- [2914. Minimum Number of Changes to Make Binary String Beautiful](../../2501-3000/2914-minimum-number-of-changes-to-make-binary-string-beautiful/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)

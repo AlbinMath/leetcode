@@ -230,9 +230,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
+- [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [532. K-diff Pairs in an Array](../../0501-1000/0532-k-diff-pairs-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-k-or-of-an-array/)

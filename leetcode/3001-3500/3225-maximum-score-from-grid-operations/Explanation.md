@@ -1,7 +1,7 @@
 # LeetCode 3225: Maximum Score From Grid Operations
 
 **LeetCode Problem #3225 — Maximum Score From Grid Operations**
-Solve LeetCode Maximum Score From Grid Operations using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Maximum Score From Grid Operations using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Maximum Score From Grid Operations using Python and Tree & Graph.
 | LeetCode | #3225 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -40,7 +40,7 @@ Return the **maximum** score that can be achieved after some number of operation
 - **Explanation:** We perform operations on 1, 2, and 3 down to rows 1, 4, and 0, respectively. The score of the resulting grid is `grid[0][0] + grid[1][0] + grid[2][1] + grid[4][1] + grid[1][3] + grid[2][3] + grid[3][3] + grid[4][3] + grid[0][4]` which is equal to 94.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
 To solve **Maximum Score From Grid Operations**, we observe the problem requirements and utilize the **Tree & Graph** technique. We decompose the problem into overlapping subproblems using a **Tree / Graph / Grid**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
@@ -53,7 +53,7 @@ To solve **Maximum Score From Grid Operations**, we observe the problem requirem
 
 ## Example Walkthrough
 1. **Input State:** We begin with `grid = [[0,0,0,0,0],[0,0,3,0,0],[0,1,0,0,0],[5,0,0,3,0],[0,0,0,0,2]]`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `11`.
@@ -61,16 +61,15 @@ To solve **Maximum Score From Grid Operations**, we observe the problem requirem
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Tree & Graph**
+**Dynamic Programming**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 Python
@@ -129,16 +128,16 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [1717. Maximum Score From Removing Substrings](../../1501-2000/1717-maximum-score-from-removing-substrings/)

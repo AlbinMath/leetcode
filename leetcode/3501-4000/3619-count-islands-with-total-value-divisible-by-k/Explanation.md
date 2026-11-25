@@ -127,8 +127,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2183-count-array-pairs-divisible-by-k/)
+- [2218. Maximum Value of K Coins From Piles](../../2001-2500/2218-maximum-value-of-k-coins-from-piles/)
 - [2283. Check if Number Has Equal Digit Count and Digit Value](../../2001-2500/2283-check-if-number-has-equal-digit-count-and-digit-value/)
-- [3179. Find the N-th Value After K Seconds](../../3001-3500/3179-find-the-n-th-value-after-k-seconds/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/)

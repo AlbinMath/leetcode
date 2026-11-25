@@ -120,7 +120,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [4016. Maximum Area of Two Non-Overlapping Square Submatrices](../../4001-4500/4016-maximum-area-of-two-non-overlapping-square-submatrices/)
 - [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1725-number-of-rectangles-that-can-form-the-largest-square/)
-- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1385-find-the-distance-value-between-two-arrays/)
+- [812. Largest Triangle Area](../../0501-1000/0812-largest-triangle-area/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/)

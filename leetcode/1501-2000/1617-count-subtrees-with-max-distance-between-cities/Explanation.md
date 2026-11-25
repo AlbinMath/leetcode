@@ -150,9 +150,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2492. Minimum Score of a Path Between Two Cities](../../2001-2500/2492-minimum-score-of-a-path-between-two-cities/)
-- [2857. Count Pairs of Points With Distance k](../../2501-3000/2857-count-pairs-of-points-with-distance-k/)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](../../2501-3000/2962-count-subarrays-where-max-element-appears-at-least-k-times/)
+- [3578. Count Partitions With Max-Min Difference at Most K](../../3501-4000/3578-count-partitions-with-max-min-difference-at-most-k/)
+- [783. Minimum Distance Between BST Nodes](../../0501-1000/0783-minimum-distance-between-bst-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)

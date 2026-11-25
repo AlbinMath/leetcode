@@ -1,7 +1,7 @@
 # LeetCode 3363: Find the Maximum Number of Fruits Collected
 
 **LeetCode Problem #3363 — Find the Maximum Number of Fruits Collected**
-Solve LeetCode Find the Maximum Number of Fruits Collected using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find the Maximum Number of Fruits Collected using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Find the Maximum Number of Fruits Collected using Python and Arra
 | LeetCode | #3363 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
-| Pattern | Array / General |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -63,7 +63,7 @@ Return the **maximum** number of fruits the children can collect from the dungeo
  In total they collect `1 + 1 + 1 + 1 = 4` fruits.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Find the Maximum Number of Fruits Collected**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -76,7 +76,7 @@ To solve **Find the Maximum Number of Fruits Collected**, we observe the problem
 
 ## Example Walkthrough
 1. **Input State:** We begin with `fruits = [[1,2,3,4],[5,6,8,7],[9,10,11,12],[13,14,15,16]]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `100`.
@@ -95,10 +95,12 @@ To solve **Find the Maximum Number of Fruits Collected**, we observe the problem
 - **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Array / General**
+**Two Pointers**
 
 ## Topics
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 Python
@@ -143,16 +145,16 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)

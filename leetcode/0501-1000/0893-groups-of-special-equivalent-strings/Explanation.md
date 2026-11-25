@@ -112,7 +112,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2068. Check Whether Two Strings are Almost Equivalent](../../2001-2500/2068-check-whether-two-strings-are-almost-equivalent/)
 - [2157. Groups of Strings](../../2001-2500/2157-groups-of-strings/)
-- [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
+- [951. Flip Equivalent Binary Trees](../../0501-1000/0951-flip-equivalent-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/groups-of-special-equivalent-strings/)

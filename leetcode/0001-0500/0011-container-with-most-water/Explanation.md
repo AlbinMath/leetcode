@@ -142,9 +142,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
-- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
-- [819. Most Common Word](../../0501-1000/0819-most-common-word/)
+- [42. Trapping Rain Water](../../0001-0500/0042-trapping-rain-water/)
+- [365. Water and Jug Problem](../../0001-0500/0365-water-and-jug-problem/)
+- [407. Trapping Rain Water II](../../0001-0500/0407-trapping-rain-water-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/container-with-most-water/)

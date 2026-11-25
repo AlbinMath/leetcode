@@ -1,7 +1,7 @@
 # LeetCode 3643: Flip Square Submatrix Vertically
 
 **LeetCode Problem #3643 — Flip Square Submatrix Vertically**
-Solve LeetCode Flip Square Submatrix Vertically using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Flip Square Submatrix Vertically using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Flip Square Submatrix Vertically using Python and Tree & Graph. T
 | LeetCode | #3643 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -46,7 +46,7 @@ Return the updated matrix.
 - **Explanation:** The diagram above shows the grid before and after the transformation.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Flip Square Submatrix Vertically**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
@@ -58,7 +58,7 @@ To solve **Flip Square Submatrix Vertically**, we observe the problem requiremen
 
 ## Example Walkthrough
 1. **Input State:** We begin with `grid = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]] , x = 1, y = 0, k = 3`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[[1,2,3,4],[13,14,15,8],[9,10,11,12],[5,6,7,16]]`.
@@ -66,16 +66,14 @@ To solve **Flip Square Submatrix Vertically**, we observe the problem requiremen
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -94,7 +92,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -106,9 +104,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1324. Print Words Vertically](../../1001-1500/1324-print-words-vertically/)
-- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
-- [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
+- [1727. Largest Submatrix With Rearrangements](../../1501-2000/1727-largest-submatrix-with-rearrangements/)
+- [3567. Minimum Absolute Difference in Sliding Submatrix](../../3501-4000/3567-minimum-absolute-difference-in-sliding-submatrix/)
+- [519. Random Flip Matrix](../../0501-1000/0519-random-flip-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flip-square-submatrix-vertically/)

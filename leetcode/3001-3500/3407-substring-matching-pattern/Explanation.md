@@ -106,9 +106,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3455. Shortest Matching Substring](../../3001-3500/3455-shortest-matching-substring/)
 - [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
+- [3455. Shortest Matching Substring](../../3001-3500/3455-shortest-matching-substring/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/substring-matching-pattern/)

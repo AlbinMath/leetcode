@@ -1,7 +1,7 @@
 # LeetCode 3797: Count Routes to Climb a Rectangular Grid
 
 **LeetCode Problem #3797 — Count Routes to Climb a Rectangular Grid**
-Solve LeetCode Count Routes to Climb a Rectangular Grid using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Count Routes to Climb a Rectangular Grid using Python and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Count Routes to Climb a Rectangular Grid using Python and Tree & 
 | LeetCode | #3797 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Dynamic Sliding Window Traversal |
+| Data Structure | Array / Hash Set |
+| Pattern | Sliding Window |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem Statement
 You are given a string array `grid` of size `n`, where each string `grid[i]` has length `m`. The character `grid[i][j]` is one of the following symbols:
@@ -90,7 +90,7 @@ Return an integer denoting the number of such routes. Since the answer may be ve
 21
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Maintain a dynamic contiguous window with two pointers (`left` and `right`), expanding to include new elements and shrinking when window invariants are violated.
 
 ## Approach
 To solve **Count Routes to Climb a Rectangular Grid**, we observe the problem requirements and utilize the **Tree & Graph** technique. We perform a recursive Depth-First Search (DFS) traversal. The algorithm handles base cases at leaf nodes and aggregates results from subtrees back up to the root.
@@ -103,7 +103,7 @@ To solve **Count Routes to Climb a Rectangular Grid**, we observe the problem re
 
 ## Example Walkthrough
 1. **Input State:** We begin with `grid = ["..","#."], d = 1`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Dynamic Sliding Window Traversal** using our **Array / Hash Set**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `2`.
@@ -125,16 +125,15 @@ To solve **Count Routes to Climb a Rectangular Grid**, we observe the problem re
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Hash Set.
 
 ## Pattern
-**Tree & Graph**
+**Sliding Window**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Sliding Window
+- Two Pointers
+- Subarrays
 
 ## Language
 Python
@@ -188,16 +187,16 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Sliding Window**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Shrinking the window too late or missing invalid state checks.
+2. Forgetting to update window metrics (e.g. char counts) during contraction.
+3. Misinterpreting fixed vs variable window requirements.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Two-pointer window management, state tracking, and contiguous subarray analysis.
+- **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
 - [1575. Count All Possible Routes](../../1501-2000/1575-count-all-possible-routes/)

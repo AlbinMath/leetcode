@@ -112,9 +112,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [57. Insert Interval](../../0001-0500/0057-insert-interval/)
-- [436. Find Right Interval](../../0001-0500/0436-find-right-interval/)
-- [1124. Longest Well-Performing Interval](../../1001-1500/1124-longest-well-performing-interval/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [61. Rotate List](../../0001-0500/0061-rotate-list/)
+- [82. Remove Duplicates from Sorted List II](../../0001-0500/0082-remove-duplicates-from-sorted-list-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/interval-list-intersections/)

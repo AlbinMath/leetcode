@@ -153,8 +153,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2131. Longest Palindrome by Concatenating Two Letter Words](../../2001-2500/2131-longest-palindrome-by-concatenating-two-letter-words/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 - [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-letter-card-game/)

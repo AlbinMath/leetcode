@@ -166,8 +166,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1031-maximum-sum-of-two-non-overlapping-subarrays/)
-- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../../1001-1500/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [2054. Two Best Non-Overlapping Events](../../2001-2500/2054-two-best-non-overlapping-events/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [1520. Maximum Number of Non-Overlapping Substrings](../../1501-2000/1520-maximum-number-of-non-overlapping-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/)

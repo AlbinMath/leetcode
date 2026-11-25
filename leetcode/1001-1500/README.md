@@ -1,6 +1,6 @@
 # LeetCode Problems: 1001-1500
 
-A collection of **321** solved LeetCode problems in the range **1001-1500**.
+A collection of **323** solved LeetCode problems in the range **1001-1500**.
 
 ## Problem Index
 
@@ -71,6 +71,7 @@ A collection of **321** solved LeetCode problems in the range **1001-1500**.
 | 1104 | [Path In Zigzag Labelled Binary Tree](./1104-path-in-zigzag-labelled-binary-tree/) | Medium | [Stack & Queue](../../patterns/stack-queue.md) | JavaScript | [Explanation](./1104-path-in-zigzag-labelled-binary-tree/Explanation.md) |
 | 1106 | [Parsing A Boolean Expression](./1106-parsing-a-boolean-expression/) | Hard | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./1106-parsing-a-boolean-expression/Explanation.md) |
 | 1108 | [Defanging an IP Address](./1108-defanging-an-ip-address/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1108-defanging-an-ip-address/Explanation.md) |
+| 1109 | [Corporate Flight Bookings](./1109-corporate-flight-bookings/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1109-corporate-flight-bookings/Explanation.md) |
 | 1110 | [Delete Nodes And Return Forest](./1110-delete-nodes-and-return-forest/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./1110-delete-nodes-and-return-forest/Explanation.md) |
 | 1111 | [Maximum Nesting Depth of Two Valid Parentheses Strings](./1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium | [Stack & Queue](../../patterns/stack-queue.md) | C++ | [Explanation](./1111-maximum-nesting-depth-of-two-valid-parentheses-strings/Explanation.md) |
 | 1114 | [Print in Order](./1114-print-in-order/) | Easy | [Hash Map](../../patterns/hash-map.md) | Java | [Explanation](./1114-print-in-order/Explanation.md) |
@@ -274,6 +275,7 @@ A collection of **321** solved LeetCode problems in the range **1001-1500**.
 | 1417 | [Reformat The String](./1417-reformat-the-string/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./1417-reformat-the-string/Explanation.md) |
 | 1418 | [Display Table of Food Orders in a Restaurant](./1418-display-table-of-food-orders-in-a-restaurant/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./1418-display-table-of-food-orders-in-a-restaurant/Explanation.md) |
 | 1419 | [Minimum Number of Frogs Croaking](./1419-minimum-number-of-frogs-croaking/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./1419-minimum-number-of-frogs-croaking/Explanation.md) |
+| 1420 | [Build Array Where You Can Find The Maximum Exactly K Comparisons](./1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | Hard | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/Explanation.md) |
 | 1422 | [Maximum Score After Splitting a String](./1422-maximum-score-after-splitting-a-string/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1422-maximum-score-after-splitting-a-string/Explanation.md) |
 | 1423 | [Maximum Points You Can Obtain from Cards](./1423-maximum-points-you-can-obtain-from-cards/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./1423-maximum-points-you-can-obtain-from-cards/Explanation.md) |
 | 1425 | [Constrained Subsequence Sum](./1425-constrained-subsequence-sum/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | JavaScript | [Explanation](./1425-constrained-subsequence-sum/Explanation.md) |

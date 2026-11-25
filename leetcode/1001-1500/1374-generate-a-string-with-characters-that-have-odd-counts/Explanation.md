@@ -97,9 +97,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1903. Largest Odd Number in String](../../1501-2000/1903-largest-odd-number-in-string/)
+- [1941. Check if All Characters Have Equal Number of Occurrences](../../1501-2000/1941-check-if-all-characters-have-equal-number-of-occurrences/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
 - [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1160-find-words-that-can-be-formed-by-characters/)
-- [2800. Shortest String That Contains Three Strings](../../2501-3000/2800-shortest-string-that-contains-three-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)

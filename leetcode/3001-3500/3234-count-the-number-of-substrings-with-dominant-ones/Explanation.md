@@ -208,8 +208,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1759. Count Number of Homogenous Substrings](../../1501-2000/1759-count-number-of-homogenous-substrings/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
-- [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1358-number-of-substrings-containing-all-three-characters/)
+- [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/)

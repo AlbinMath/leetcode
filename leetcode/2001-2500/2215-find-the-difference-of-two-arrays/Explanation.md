@@ -105,7 +105,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1385-find-the-distance-value-between-two-arrays/)
 - [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../../1001-1500/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
+- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2657-find-the-prefix-common-array-of-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-difference-of-two-arrays/)

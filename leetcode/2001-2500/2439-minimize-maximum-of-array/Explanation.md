@@ -117,7 +117,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [4098. Minimize the Maximum Value of GCD-Connected Array](../../4001-4500/4098-minimize-the-maximum-value-of-gcd-connected-array/)
 - [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
-- [1464. Maximum Product of Two Elements in an Array](../../1001-1500/1464-maximum-product-of-two-elements-in-an-array/)
+- [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-maximum-of-array/)

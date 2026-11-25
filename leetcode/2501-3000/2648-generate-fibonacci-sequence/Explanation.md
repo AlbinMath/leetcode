@@ -111,7 +111,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [842. Split Array into Fibonacci Sequence](../../0501-1000/0842-split-array-into-fibonacci-sequence/)
 - [509. Fibonacci Number](../../0501-1000/0509-fibonacci-number/)
-- [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
+- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/)

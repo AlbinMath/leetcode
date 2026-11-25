@@ -111,9 +111,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2381. Shifting Letters II](../../2001-2500/2381-shifting-letters-ii/)
 - [316. Remove Duplicate Letters](../../0001-0500/0316-remove-duplicate-letters/)
 - [917. Reverse Only Letters](../../0501-1000/0917-reverse-only-letters/)
-- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1255-maximum-score-words-formed-by-letters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shifting-letters/)

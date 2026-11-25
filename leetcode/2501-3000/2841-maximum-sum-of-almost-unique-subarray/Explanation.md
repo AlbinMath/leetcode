@@ -123,7 +123,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [918. Maximum Sum Circular Subarray](../../0501-1000/0918-maximum-sum-circular-subarray/)
 - [1800. Maximum Ascending Subarray Sum](../../1501-2000/1800-maximum-ascending-subarray-sum/)
-- [3962. Maximum Subarray Sum After at Most K Swaps](../../3501-4000/3962-maximum-subarray-sum-after-at-most-k-swaps/)
+- [3026. Maximum Good Subarray Sum](../../3001-3500/3026-maximum-good-subarray-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/)

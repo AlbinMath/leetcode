@@ -127,9 +127,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2772. Apply Operations to Make All Array Elements Equal to Zero](../../2501-3000/2772-apply-operations-to-make-all-array-elements-equal-to-zero/)
 - [2897. Apply Operations on Array to Maximize Sum of Squares](../../2501-3000/2897-apply-operations-on-array-to-maximize-sum-of-squares/)
 - [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3091-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
-- [1441. Build an Array With Stack Operations](../../1001-1500/1441-build-an-array-with-stack-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-operations-to-an-array/)

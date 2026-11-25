@@ -125,8 +125,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1954. Minimum Garden Perimeter to Collect Enough Apples](../../1501-2000/1954-minimum-garden-perimeter-to-collect-enough-apples/)
+- [2391. Minimum Amount of Time to Collect Garbage](../../2001-2500/2391-minimum-amount-of-time-to-collect-garbage/)
 - [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
-- [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1723-find-minimum-time-to-finish-all-jobs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)

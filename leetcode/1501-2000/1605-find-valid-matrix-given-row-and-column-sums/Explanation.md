@@ -1,7 +1,7 @@
 # LeetCode 1605: Find Valid Matrix Given Row and Column Sums
 
 **LeetCode Problem #1605 — Find Valid Matrix Given Row and Column Sums**
-Solve LeetCode Find Valid Matrix Given Row and Column Sums using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Find Valid Matrix Given Row and Column Sums using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Find Valid Matrix Given Row and Column Sums using Python and Tree
 | LeetCode | #1605 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -48,7 +48,7 @@ Another possible matrix is: [[1,2],
  [2,0,8]]`
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Find Valid Matrix Given Row and Column Sums**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
@@ -60,7 +60,7 @@ To solve **Find Valid Matrix Given Row and Column Sums**, we observe the problem
 
 ## Example Walkthrough
 1. **Input State:** We begin with `rowSum = [3,8], colSum = [4,7]`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[[3,0],
@@ -75,16 +75,14 @@ Another possible matrix is: [[1,2],
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -110,7 +108,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -123,8 +121,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1982. Find Array Given Subset Sums](../../1501-2000/1982-find-array-given-subset-sums/)
-- [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
+- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1253-reconstruct-a-2-row-binary-matrix/)
+- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1001-1500/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)

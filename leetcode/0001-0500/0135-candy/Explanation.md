@@ -140,8 +140,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [888. Fair Candy Swap](../../0501-1000/0888-fair-candy-swap/)
+- [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](../../1501-2000/1744-can-you-eat-your-favorite-candy-on-your-favorite-day/)
 - [2517. Maximum Tastiness of Candy Basket](../../2501-3000/2517-maximum-tastiness-of-candy-basket/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/candy/)

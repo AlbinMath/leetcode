@@ -109,8 +109,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
-- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
-- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
+- [1979. Find Greatest Common Divisor of Array](../../1501-2000/1979-find-greatest-common-divisor-of-array/)
+- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1237-find-positive-integer-solution-for-a-given-equation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)

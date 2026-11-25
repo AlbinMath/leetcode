@@ -118,7 +118,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2027. Minimum Moves to Convert String](../../2001-2500/2027-minimum-moves-to-convert-string/)
 - [3086. Minimum Moves to Pick K Ones](../../3001-3500/3086-minimum-moves-to-pick-k-ones/)
-- [1433. Check If a String Can Break Another String](../../1001-1500/1433-check-if-a-string-can-break-another-string/)
+- [1945. Sum of Digits of String After Convert](../../1501-2000/1945-sum-of-digits-of-string-after-convert/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/can-convert-string-in-k-moves/)

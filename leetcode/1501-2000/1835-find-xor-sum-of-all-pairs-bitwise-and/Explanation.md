@@ -108,8 +108,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3318. Find X-Sum of All K-Long Subarrays I](../../3001-3500/3318-find-x-sum-of-all-k-long-subarrays-i/)
-- [3321. Find X-Sum of All K-Long Subarrays II](../../3001-3500/3321-find-x-sum-of-all-k-long-subarrays-ii/)
+- [1863. Sum of All Subset XOR Totals](../../1501-2000/1863-sum-of-all-subset-xor-totals/)
+- [2425. Bitwise XOR of All Pairings](../../2001-2500/2425-bitwise-xor-of-all-pairings/)
 - [3153. Sum of Digit Differences of All Pairs](../../3001-3500/3153-sum-of-digit-differences-of-all-pairs/)
 
 ## LeetCode

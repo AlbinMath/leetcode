@@ -133,7 +133,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3291. Minimum Number of Valid Strings to Form Target I](../../3001-3500/3291-minimum-number-of-valid-strings-to-form-target-i/)
 - [3292. Minimum Number of Valid Strings to Form Target II](../../3001-3500/3292-minimum-number-of-valid-strings-to-form-target-ii/)
-- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1072-flip-columns-for-maximum-number-of-equal-rows/)
+- [3309. Maximum Possible Number by Binary Concatenation](../../3001-3500/3309-maximum-possible-number-by-binary-concatenation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)

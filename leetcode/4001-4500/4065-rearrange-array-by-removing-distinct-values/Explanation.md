@@ -195,7 +195,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1619. Mean of Array After Removing Some Elements](../../1501-2000/1619-mean-of-array-after-removing-some-elements/)
 - [2091. Removing Minimum and Maximum From Array](../../2001-2500/2091-removing-minimum-and-maximum-from-array/)
-- [2149. Rearrange Array Elements by Sign](../../2001-2500/2149-rearrange-array-elements-by-sign/)
+- [2053. Kth Distinct String in an Array](../../2001-2500/2053-kth-distinct-string-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/)

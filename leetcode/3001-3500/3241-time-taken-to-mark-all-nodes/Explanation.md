@@ -224,9 +224,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
-- [1376. Time Needed to Inform All Employees](../../1001-1500/1376-time-needed-to-inform-all-employees/)
-- [1443. Minimum Time to Collect All Apples in a Tree](../../1001-1500/1443-minimum-time-to-collect-all-apples-in-a-tree/)
+- [847. Shortest Path Visiting All Nodes](../../0501-1000/0847-shortest-path-visiting-all-nodes/)
+- [863. All Nodes Distance K in Binary Tree](../../0501-1000/0863-all-nodes-distance-k-in-binary-tree/)
+- [865. Smallest Subtree with all the Deepest Nodes](../../0501-1000/0865-smallest-subtree-with-all-the-deepest-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/time-taken-to-mark-all-nodes/)

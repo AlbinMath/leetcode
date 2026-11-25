@@ -122,7 +122,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 - [1557. Minimum Number of Vertices to Reach All Nodes](../../1501-2000/1557-minimum-number-of-vertices-to-reach-all-nodes/)
-- [1742. Maximum Number of Balls in a Box](../../1501-2000/1742-maximum-number-of-balls-in-a-box/)
+- [2602. Minimum Operations to Make All Array Elements Equal](../../2501-3000/2602-minimum-operations-to-make-all-array-elements-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)

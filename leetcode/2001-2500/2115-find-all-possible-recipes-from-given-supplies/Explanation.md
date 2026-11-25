@@ -143,9 +143,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
-- [797. All Paths From Source to Target](../../0501-1000/0797-all-paths-from-source-to-target/)
-- [1162. As Far from Land as Possible](../../1001-1500/1162-as-far-from-land-as-possible/)
+- [3129. Find All Possible Stable Binary Arrays I](../../3001-3500/3129-find-all-possible-stable-binary-arrays-i/)
+- [3130. Find All Possible Stable Binary Arrays II](../../3001-3500/3130-find-all-possible-stable-binary-arrays-ii/)
+- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)

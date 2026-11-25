@@ -114,7 +114,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1684. Count the Number of Consistent Strings](../../1501-2000/1684-count-the-number-of-consistent-strings/)
 - [1641. Count Sorted Vowel Strings](../../1501-2000/1641-count-sorted-vowel-strings/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
+- [2559. Count Vowel Strings in Ranges](../../2501-3000/2559-count-vowel-strings-in-ranges/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)

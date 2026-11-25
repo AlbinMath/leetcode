@@ -182,7 +182,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
 - [3821. Find Nth Smallest Integer With K One Bits](../../3501-4000/3821-find-nth-smallest-integer-with-k-one-bits/)
-- [1605. Find Valid Matrix Given Row and Column Sums](../../1501-2000/1605-find-valid-matrix-given-row-and-column-sums/)
+- [532. K-diff Pairs in an Array](../../0501-1000/0532-k-diff-pairs-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)

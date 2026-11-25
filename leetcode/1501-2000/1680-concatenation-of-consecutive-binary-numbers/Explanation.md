@@ -104,9 +104,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3309. Maximum Possible Number by Binary Concatenation](../../3001-3500/3309-maximum-possible-number-by-binary-concatenation/)
 - [1022. Sum of Root To Leaf Binary Numbers](../../1001-1500/1022-sum-of-root-to-leaf-binary-numbers/)
 - [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](../../1501-2000/1689-partitioning-into-minimum-number-of-deci-binary-numbers/)
+- [3309. Maximum Possible Number by Binary Concatenation](../../3001-3500/3309-maximum-possible-number-by-binary-concatenation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)

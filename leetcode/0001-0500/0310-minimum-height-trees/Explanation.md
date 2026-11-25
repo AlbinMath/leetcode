@@ -133,7 +133,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3203. Find Minimum Diameter After Merging Two Trees](../../3001-3500/3203-find-minimum-diameter-after-merging-two-trees/)
 - [3296. Minimum Number of Seconds to Make Mountain Height Zero](../../3001-3500/3296-minimum-number-of-seconds-to-make-mountain-height-zero/)
-- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
+- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-height-trees/)

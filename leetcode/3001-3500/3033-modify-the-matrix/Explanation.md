@@ -1,7 +1,7 @@
 # LeetCode 3033: Modify the Matrix
 
 **LeetCode Problem #3033 — Modify the Matrix**
-Solve LeetCode Modify the Matrix using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Modify the Matrix using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Modify the Matrix using Python and Tree & Graph. This solution fi
 | LeetCode | #3033 |
 | Difficulty | Easy |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -42,7 +42,7 @@ Return *the matrix* `answer`.
 - **Explanation:** The diagram above shows the elements that are changed (in blue).
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Modify the Matrix**, we observe the problem requirements and utilize the **Tree & Graph** technique. We conduct a structured Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, tracking visited nodes to process connections without cycles.
@@ -54,7 +54,7 @@ To solve **Modify the Matrix**, we observe the problem requirements and utilize 
 
 ## Example Walkthrough
 1. **Input State:** We begin with `matrix = [[1,2,-1],[4,-1,6],[7,8,9]]`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[[1,2,9],[4,8,6],[7,8,9]]`.
@@ -64,16 +64,14 @@ To solve **Modify the Matrix**, we observe the problem requirements and utilize 
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -98,7 +96,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -110,9 +108,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2699. Modify Graph Edge Weights](../../2501-3000/2699-modify-graph-edge-weights/)
+- [2884. Modify Columns](../../2501-3000/2884-modify-columns/)
 - [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
-- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
-- [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/modify-the-matrix/)

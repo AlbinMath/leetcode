@@ -1,7 +1,7 @@
 # LeetCode 1504: Count Submatrices With All Ones
 
 **LeetCode Problem #1504 — Count Submatrices With All Ones**
-Solve LeetCode Count Submatrices With All Ones using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
+Solve LeetCode Count Submatrices With All Ones using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Count Submatrices With All Ones using Python and Stack & Queue. T
 | LeetCode | #1504 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Stack Push / Pop Parsing |
-| Data Structure | Stack |
-| Pattern | Stack & Queue |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -47,7 +47,7 @@ There is 1 rectangle of side 3x2.
 Total number of rectangles = 8 + 5 + 2 + 4 + 2 + 2 + 1 = 24.
 
 ## Key Insight
-Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
 To solve **Count Submatrices With All Ones**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -59,7 +59,7 @@ To solve **Count Submatrices With All Ones**, we observe the problem requirement
 
 ## Example Walkthrough
 1. **Input State:** We begin with `mat = [[1,0,1],[1,1,0],[1,1,0]]`.
-2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `13`.
@@ -72,14 +72,15 @@ Total number of rectangles = 6 + 2 + 3 + 1 + 1 = 13.
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Stack & Queue**
+**Hash Map**
 
 ## Topics
-- Stack
-- String Parsing
+- Hash Table
+- Array
+- Complement Lookup
 
 ## Language
 Python
@@ -118,21 +119,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
 - [1277. Count Square Submatrices with All Ones](../../1001-1500/1277-count-square-submatrices-with-all-ones/)
-- [3070. Count Submatrices with Top-Left Element and Sum Less Than k](../../3001-3500/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/)
-- [3212. Count Submatrices With Equal Frequency of X and Y](../../3001-3500/3212-count-submatrices-with-equal-frequency-of-x-and-y/)
+- [3195. Find the Minimum Area to Cover All Ones I](../../3001-3500/3195-find-the-minimum-area-to-cover-all-ones-i/)
+- [3197. Find the Minimum Area to Cover All Ones II](../../3001-3500/3197-find-the-minimum-area-to-cover-all-ones-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-submatrices-with-all-ones/)

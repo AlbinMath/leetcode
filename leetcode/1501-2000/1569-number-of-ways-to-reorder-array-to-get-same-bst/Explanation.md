@@ -133,8 +133,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2025. Maximum Number of Ways to Partition an Array](../../2001-2500/2025-maximum-number-of-ways-to-partition-an-array/)
+- [2270. Number of Ways to Split Array](../../2001-2500/2270-number-of-ways-to-split-array/)
 - [1434. Number of Ways to Wear Different Hats to Each Other](../../1001-1500/1434-number-of-ways-to-wear-different-hats-to-each-other/)
-- [1444. Number of Ways of Cutting a Pizza](../../1001-1500/1444-number-of-ways-of-cutting-a-pizza/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)

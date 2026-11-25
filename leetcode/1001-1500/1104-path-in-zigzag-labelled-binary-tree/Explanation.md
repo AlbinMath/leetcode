@@ -104,8 +104,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1372. Longest ZigZag Path in a Binary Tree](../../1001-1500/1372-longest-zigzag-path-in-a-binary-tree/)
-- [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
 - [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)

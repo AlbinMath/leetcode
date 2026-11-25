@@ -131,7 +131,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1718. Construct the Lexicographically Largest Valid Sequence](../../1501-2000/1718-construct-the-lexicographically-largest-valid-sequence/)
 - [3302. Find the Lexicographically Smallest Valid Sequence](../../3001-3500/3302-find-the-lexicographically-smallest-valid-sequence/)
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [46. Permutations](../../0001-0500/0046-permutations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-permutations-for-di-sequence/)

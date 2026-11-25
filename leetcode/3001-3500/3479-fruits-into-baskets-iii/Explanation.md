@@ -1,7 +1,7 @@
 # LeetCode 3479: Fruits Into Baskets III
 
 **LeetCode Problem #3479 — Fruits Into Baskets III**
-Solve LeetCode Fruits Into Baskets III using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Fruits Into Baskets III using Python and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Fruits Into Baskets III using Python and Tree & Graph. This solut
 | LeetCode | #3479 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem Statement
 You are given two arrays of integers, `fruits` and `baskets`, each of length `n`, where `fruits[i]` represents the **quantity** of the `i^th` type of fruit, and `baskets[j]` represents the **capacity** of the `j^th` basket.
@@ -54,7 +54,7 @@ Return the number of fruit types that remain unplaced after all possible allocat
  Since all fruits are successfully placed, we return 0.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 To solve **Fruits Into Baskets III**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -66,7 +66,7 @@ To solve **Fruits Into Baskets III**, we observe the problem requirements and ut
 
 ## Example Walkthrough
 1. **Input State:** We begin with `fruits = [4,2,5], baskets = [3,5,4]`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `1`.
@@ -79,16 +79,15 @@ To solve **Fruits Into Baskets III**, we observe the problem requirements and ut
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
-**Tree & Graph**
+**Binary Search**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 Python
@@ -134,21 +133,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [3477. Fruits Into Baskets II](../../3001-3500/3477-fruits-into-baskets-ii/)
 - [904. Fruit Into Baskets](../../0501-1000/0904-fruit-into-baskets/)
-- [701. Insert into a Binary Search Tree](../../0501-1000/0701-insert-into-a-binary-search-tree/)
+- [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2106-maximum-fruits-harvested-after-at-most-k-steps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fruits-into-baskets-iii/)

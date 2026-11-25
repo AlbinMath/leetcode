@@ -1,7 +1,7 @@
 # LeetCode 2141: Maximum Running Time of N Computers
 
 **LeetCode Problem #2141 — Maximum Running Time of N Computers**
-Solve LeetCode Maximum Running Time of N Computers using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Maximum Running Time of N Computers using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Maximum Running Time of N Computers using Python and Array / Gene
 | LeetCode | #2141 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You have `n` computers. You are given the integer `n` and a **0-indexed** integer array `batteries` where the `i^th` battery can **run** a computer for `batteries[i]` minutes. You are interested in running **all** `n` computers **simultaneously** using the given batteries.
@@ -48,7 +48,7 @@ After another minute, battery 1 and battery 3 are also drained so the first and 
 We can run the two computers simultaneously for at most 2 minutes, so we return 2.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Maximum Running Time of N Computers**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -60,7 +60,7 @@ To solve **Maximum Running Time of N Computers**, we observe the problem require
 
 ## Example Walkthrough
 1. **Input State:** We begin with `n = 2, batteries = [3,3,3]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `4`.
@@ -72,13 +72,16 @@ We can run the two computers simultaneously for at most 4 minutes, so we return 
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -99,7 +102,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

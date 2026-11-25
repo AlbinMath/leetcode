@@ -118,9 +118,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [812. Largest Triangle Area](../../0501-1000/0812-largest-triangle-area/)
-- [3200. Maximum Height of a Triangle](../../3001-3500/3200-maximum-height-of-a-triangle/)
+- [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2576. Find the Maximum Number of Marked Indices](../../2501-3000/2576-find-the-maximum-number-of-marked-indices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-maximum-area-of-a-triangle/)

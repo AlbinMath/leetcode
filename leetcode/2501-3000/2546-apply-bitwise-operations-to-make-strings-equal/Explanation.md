@@ -100,9 +100,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2772. Apply Operations to Make All Array Elements Equal to Zero](../../2501-3000/2772-apply-operations-to-make-all-array-elements-equal-to-zero/)
 - [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3091-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
 - [1247. Minimum Swaps to Make Strings Equal](../../1001-1500/1247-minimum-swaps-to-make-strings-equal/)
-- [1790. Check if One String Swap Can Make Strings Equal](../../1501-2000/1790-check-if-one-string-swap-can-make-strings-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)

@@ -129,9 +129,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3712. Sum of Elements With Frequency Divisible by K](../../3501-4000/3712-sum-of-elements-with-frequency-divisible-by-k/)
 - [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../../3501-4000/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/)
-- [1015. Smallest Integer Divisible by K](../../1001-1500/1015-smallest-integer-divisible-by-k/)
+- [3712. Sum of Elements With Frequency Divisible by K](../../3501-4000/3712-sum-of-elements-with-frequency-divisible-by-k/)
+- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-divisible-elements-subarrays/)

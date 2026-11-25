@@ -163,8 +163,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1793. Maximum Score of a Good Subarray](../../1501-2000/1793-maximum-score-of-a-good-subarray/)
+- [3026. Maximum Good Subarray Sum](../../3001-3500/3026-maximum-good-subarray-sum/)
 - [3575. Maximum Good Subtree Score](../../3501-4000/3575-maximum-good-subtree-score/)
-- [981. Time Based Key-Value Store](../../0501-1000/0981-time-based-key-value-store/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-good-people-based-on-statements/)

@@ -126,9 +126,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
-- [1408. String Matching in an Array](../../1001-1500/1408-string-matching-in-an-array/)
-- [1961. Check If String Is a Prefix of Array](../../1501-2000/1961-check-if-string-is-a-prefix-of-array/)
+- [2521. Distinct Prime Factors of Product of Array](../../2501-3000/2521-distinct-prime-factors-of-product-of-array/)
+- [3659. Partition Array Into K-Distinct Groups](../../3501-4000/3659-partition-array-into-k-distinct-groups/)
+- [4065. Rearrange Array by Removing Distinct Values](../../4001-4500/4065-rearrange-array-by-removing-distinct-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-distinct-string-in-an-array/)

@@ -111,7 +111,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [979. Distribute Coins in Binary Tree](../../0501-1000/0979-distribute-coins-in-binary-tree/)
 - [1561. Maximum Number of Coins You Can Get](../../1501-2000/1561-maximum-number-of-coins-you-can-get/)
-- [2603. Collect Coins in a Tree](../../2501-3000/2603-collect-coins-in-a-tree/)
+- [2218. Maximum Value of K Coins From Piles](../../2001-2500/2218-maximum-value-of-k-coins-from-piles/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/arranging-coins/)

@@ -129,8 +129,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [413. Arithmetic Slices](../../0001-0500/0413-arithmetic-slices/)
 - [1027. Longest Arithmetic Subsequence](../../1001-1500/1027-longest-arithmetic-subsequence/)
+- [413. Arithmetic Slices](../../0001-0500/0413-arithmetic-slices/)
 - [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
 
 ## LeetCode

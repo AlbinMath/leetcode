@@ -109,9 +109,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2493. Divide Nodes Into the Maximum Number of Groups](../../2001-2500/2493-divide-nodes-into-the-maximum-number-of-groups/)
-- [3659. Partition Array Into K-Distinct Groups](../../3501-4000/3659-partition-array-into-k-distinct-groups/)
 - [1461. Check If a String Contains All Binary Codes of Size K](../../1001-1500/1461-check-if-a-string-contains-all-binary-codes-of-size-k/)
+- [3659. Partition Array Into K-Distinct Groups](../../3501-4000/3659-partition-array-into-k-distinct-groups/)
+- [2406. Divide Intervals Into Minimum Number of Groups](../../2001-2500/2406-divide-intervals-into-minimum-number-of-groups/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)

@@ -140,7 +140,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
 - [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
-- [754. Reach a Number](../../0501-1000/0754-reach-a-number/)
+- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1072-flip-columns-for-maximum-number-of-equal-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/)

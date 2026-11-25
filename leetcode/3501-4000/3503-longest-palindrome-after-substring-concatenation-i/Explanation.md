@@ -116,9 +116,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1493. Longest Subarray of 1's After Deleting One Element](../../1001-1500/1493-longest-subarray-of-1s-after-deleting-one-element/)
-- [1946. Largest Number After Mutating Substring](../../1501-2000/1946-largest-number-after-mutating-substring/)
-- [3485. Longest Common Prefix of K Strings After Removal](../../3001-3500/3485-longest-common-prefix-of-k-strings-after-removal/)
+- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-i/)

@@ -128,8 +128,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1855. Maximum Distance Between a Pair of Values](../../1501-2000/1855-maximum-distance-between-a-pair-of-values/)
 - [3918. Sum of Primes Between Number and Its Reverse](../../3501-4000/3918-sum-of-primes-between-number-and-its-reverse/)
+- [1855. Maximum Distance Between a Pair of Values](../../1501-2000/1855-maximum-distance-between-a-pair-of-values/)
 - [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
 
 ## LeetCode

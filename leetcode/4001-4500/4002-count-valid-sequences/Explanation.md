@@ -250,9 +250,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1359-count-all-valid-pickup-and-delivery-options/)
-- [2867. Count Valid Paths in a Tree](../../2501-3000/2867-count-valid-paths-in-a-tree/)
+- [2145. Count the Hidden Sequences](../../2001-2500/2145-count-the-hidden-sequences/)
 - [2954. Count the Number of Infection Sequences](../../2501-3000/2954-count-the-number-of-infection-sequences/)
+- [3850. Count Sequences to K](../../3501-4000/3850-count-sequences-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-valid-sequences/)

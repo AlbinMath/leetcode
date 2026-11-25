@@ -102,9 +102,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
 - [1736. Latest Time by Replacing Hidden Digits](../../1501-2000/1736-latest-time-by-replacing-hidden-digits/)
-- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
+- [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
+- [2507. Smallest Value After Replacing With Sum of Prime Factors](../../2501-3000/2507-smallest-value-after-replacing-with-sum-of-prime-factors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/)

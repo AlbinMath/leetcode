@@ -166,7 +166,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [1534. Count Good Triplets](../../1501-2000/1534-count-good-triplets/)
-- [1995. Count Special Quadruplets](../../1501-2000/1995-count-special-quadruplets/)
+- [2179. Count Good Triplets in an Array](../../2001-2500/2179-count-good-triplets-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-special-triplets/)

@@ -118,8 +118,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [861. Score After Flipping Matrix](../../0501-1000/0861-score-after-flipping-matrix/)
-- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
-- [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/)

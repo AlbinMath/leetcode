@@ -121,8 +121,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2375. Construct Smallest Number From DI String](../../2001-2500/2375-construct-smallest-number-from-di-string/)
-- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
 - [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
+- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1061-lexicographically-smallest-equivalent-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-string-starting-from-leaf/)

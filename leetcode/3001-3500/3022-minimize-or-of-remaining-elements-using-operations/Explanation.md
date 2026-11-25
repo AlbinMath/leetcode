@@ -130,8 +130,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3012. Minimize Length of Array Using Operations](../../3001-3500/3012-minimize-length-of-array-using-operations/)
-- [3180. Maximum Total Reward Using Operations I](../../3001-3500/3180-maximum-total-reward-using-operations-i/)
-- [3181. Maximum Total Reward Using Operations II](../../3001-3500/3181-maximum-total-reward-using-operations-ii/)
+- [1887. Reduction Operations to Make the Array Elements Equal](../../1501-2000/1887-reduction-operations-to-make-the-array-elements-equal/)
+- [1981. Minimize the Difference Between Target and Chosen Elements](../../1501-2000/1981-minimize-the-difference-between-target-and-chosen-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/)

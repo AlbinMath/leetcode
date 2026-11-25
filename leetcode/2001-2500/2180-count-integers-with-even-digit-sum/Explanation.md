@@ -94,9 +94,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [3432. Count Partitions with Even Sum Difference](../../3001-3500/3432-count-partitions-with-even-sum-difference/)
 - [3910. Count Connected Subgraphs with Even Node Sum](../../3501-4000/3910-count-connected-subgraphs-with-even-node-sum/)
 - [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
-- [1315. Sum of Nodes with Even-Valued Grandparent](../../1001-1500/1315-sum-of-nodes-with-even-valued-grandparent/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-integers-with-even-digit-sum/)

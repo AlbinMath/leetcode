@@ -142,9 +142,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
-- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
-- [108. Convert Sorted Array to Binary Search Tree](../../0001-0500/0108-convert-sorted-array-to-binary-search-tree/)
+- [863. All Nodes Distance K in Binary Tree](../../0501-1000/0863-all-nodes-distance-k-in-binary-tree/)
+- [1361. Validate Binary Tree Nodes](../../1001-1500/1361-validate-binary-tree-nodes/)
+- [1448. Count Good Nodes in Binary Tree](../../1001-1500/1448-count-good-nodes-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)

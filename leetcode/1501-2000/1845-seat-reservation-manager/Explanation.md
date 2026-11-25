@@ -156,9 +156,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1227. Airplane Seat Assignment Probability](../../1001-1500/1227-airplane-seat-assignment-probability/)
-- [1386. Cinema Seat Allocation](../../1001-1500/1386-cinema-seat-allocation/)
-- [2037. Minimum Number of Moves to Seat Everyone](../../2001-2500/2037-minimum-number-of-moves-to-seat-everyone/)
+- [1797. Design Authentication Manager](../../1501-2000/1797-design-authentication-manager/)
+- [1978. Employees Whose Manager Left the Company](../../1501-2000/1978-employees-whose-manager-left-the-company/)
+- [3408. Design Task Manager](../../3001-3500/3408-design-task-manager/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/seat-reservation-manager/)

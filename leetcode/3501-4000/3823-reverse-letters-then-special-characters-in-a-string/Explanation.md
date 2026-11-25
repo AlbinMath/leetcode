@@ -135,9 +135,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [761. Special Binary String](../../0501-1000/0761-special-binary-string/)
-- [3085. Minimum Deletions to Make String K-Special](../../3001-3500/3085-minimum-deletions-to-make-string-k-special/)
-- [3120. Count the Number of Special Characters I](../../3001-3500/3120-count-the-number-of-special-characters-i/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1239-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1374-generate-a-string-with-characters-that-have-odd-counts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/)

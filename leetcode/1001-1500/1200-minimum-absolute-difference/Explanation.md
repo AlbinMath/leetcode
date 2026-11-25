@@ -102,7 +102,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
 - [1818. Minimum Absolute Sum Difference](../../1501-2000/1818-minimum-absolute-sum-difference/)
-- [2817. Minimum Absolute Difference Between Elements With Constraint](../../2501-3000/2817-minimum-absolute-difference-between-elements-with-constraint/)
+- [1906. Minimum Absolute Difference Queries](../../1501-2000/1906-minimum-absolute-difference-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-absolute-difference/)

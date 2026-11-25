@@ -1,7 +1,7 @@
 # LeetCode 3933: Largest Local Values in a Matrix II
 
 **LeetCode Problem #3933 — Largest Local Values in a Matrix II**
-Solve LeetCode Largest Local Values in a Matrix II using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Largest Local Values in a Matrix II using Python and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Largest Local Values in a Matrix II using Python and Tree & Graph
 | LeetCode | #3933 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -64,7 +64,7 @@ Return an integer denoting the number of **local maximums** in `matrix`.
 - **Explanation:** All cells have the same value. Therefore, no cell considers another cell with a greater value, so all 4 cells are local maximums.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Largest Local Values in a Matrix II**, we observe the problem requirements and utilize the **Tree & Graph** technique. By maintaining a **Tree / Graph / Grid**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
@@ -77,7 +77,7 @@ To solve **Largest Local Values in a Matrix II**, we observe the problem require
 
 ## Example Walkthrough
 1. **Input State:** We begin with `matrix = [[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,2,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Prefix Sum Precomputation** using our **Prefix Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `1`.
@@ -89,16 +89,14 @@ To solve **Largest Local Values in a Matrix II**, we observe the problem require
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Prefix Array.
 
 ## Pattern
-**Tree & Graph**
+**Prefix Sum**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Prefix Sum
+- Array
 
 ## Language
 Python
@@ -149,7 +147,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

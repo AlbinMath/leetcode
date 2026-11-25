@@ -118,8 +118,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
+- [2587. Rearrange Array to Maximize Prefix Score](../../2501-3000/2587-rearrange-array-to-maximize-prefix-score/)
 - [2818. Apply Operations to Maximize Score](../../2501-3000/2818-apply-operations-to-maximize-score/)
-- [2968. Apply Operations to Maximize Frequency Score](../../2501-3000/2968-apply-operations-to-maximize-frequency-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/)

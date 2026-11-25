@@ -111,8 +111,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3843. First Element with Unique Frequency](../../3501-4000/3843-first-element-with-unique-frequency/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 - [2404. Most Frequent Even Element](../../2001-2500/2404-most-frequent-even-element/)
-- [3483. Unique 3-Digit Even Numbers](../../3001-3500/3483-unique-3-digit-even-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/first-unique-even-element/)

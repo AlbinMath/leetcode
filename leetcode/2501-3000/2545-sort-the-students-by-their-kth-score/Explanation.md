@@ -1,7 +1,7 @@
 # LeetCode 2545: Sort the Students by Their Kth Score
 
 **LeetCode Problem #2545 — Sort the Students by Their Kth Score**
-Solve LeetCode Sort the Students by Their Kth Score using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Sort the Students by Their Kth Score using Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Sort the Students by Their Kth Score using Python and Array / Gen
 | LeetCode | #2545 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -48,7 +48,7 @@ Return *the matrix after sorting it.*
 - The student with index 0 scored 3 in exam 0, which is the lowest score, so they got second place.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Sort the Students by Their Kth Score**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -60,7 +60,7 @@ To solve **Sort the Students by Their Kth Score**, we observe the problem requir
 
 ## Example Walkthrough
 1. **Input State:** We begin with `score = [[10,6,9,1],[7,5,11,2],[4,8,3,15]], k = 2`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[[7,5,11,2],[10,6,9,1],[4,8,3,15]]`.
@@ -71,13 +71,14 @@ To solve **Sort the Students by Their Kth Score**, we observe the problem requir
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 Python
@@ -94,7 +95,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -107,8 +108,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2019. The Score of Students Solving Math Expression](../../2001-2500/2019-the-score-of-students-solving-math-expression/)
-- [596. Classes With at Least 5 Students](../../0501-1000/0596-classes-with-at-least-5-students/)
-- [1280. Students and Examinations](../../1001-1500/1280-students-and-examinations/)
+- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
+- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)

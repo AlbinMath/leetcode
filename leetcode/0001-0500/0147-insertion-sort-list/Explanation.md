@@ -107,8 +107,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [148. Sort List](../../0001-0500/0148-sort-list/)
-- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
-- [324. Wiggle Sort II](../../0001-0500/0324-wiggle-sort-ii/)
+- [1312. Minimum Insertion Steps to Make a String Palindrome](../../1001-1500/1312-minimum-insertion-steps-to-make-a-string-palindrome/)
+- [1881. Maximum Value after Insertion](../../1501-2000/1881-maximum-value-after-insertion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/insertion-sort-list/)

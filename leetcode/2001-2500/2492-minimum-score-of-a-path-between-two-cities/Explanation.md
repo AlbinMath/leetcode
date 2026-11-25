@@ -186,7 +186,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2567. Minimum Score by Changing Two Elements](../../2501-3000/2567-minimum-score-by-changing-two-elements/)
 - [3880. Minimum Absolute Difference Between Two Values](../../3501-4000/3880-minimum-absolute-difference-between-two-values/)
-- [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
+- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)

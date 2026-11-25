@@ -164,9 +164,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [29. Divide Two Integers](../../0001-0500/0029-divide-two-integers/)
-- [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
-- [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
+- [424. Longest Repeating Character Replacement](../../0001-0500/0424-longest-repeating-character-replacement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-repeating-integers/)

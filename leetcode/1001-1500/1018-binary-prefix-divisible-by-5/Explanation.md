@@ -107,9 +107,9 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1010. Pairs of Songs With Total Durations Divisible by 60](../../1001-1500/1010-pairs-of-songs-with-total-durations-divisible-by-60/)
-- [1015. Smallest Integer Divisible by K](../../1001-1500/1015-smallest-integer-divisible-by-k/)
-- [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
+- [67. Add Binary](../../0001-0500/0067-add-binary/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
+- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-prefix-divisible-by-5/)

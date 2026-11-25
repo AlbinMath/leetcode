@@ -105,7 +105,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3475. DNA Pattern Recognition ](../../3001-3500/3475-dna-pattern-recognition/)
 - [946. Validate Stack Sequences](../../0501-1000/0946-validate-stack-sequences/)
-- [2318. Number of Distinct Roll Sequences](../../2001-2500/2318-number-of-distinct-roll-sequences/)
+- [2145. Count the Hidden Sequences](../../2001-2500/2145-count-the-hidden-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-dna-sequences/)

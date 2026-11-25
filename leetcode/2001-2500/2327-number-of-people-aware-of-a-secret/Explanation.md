@@ -128,9 +128,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2092. Find All People With Secret](../../2001-2500/2092-find-all-people-with-secret/)
 - [1944. Number of Visible People in a Queue](../../1501-2000/1944-number-of-visible-people-in-a-queue/)
 - [3025. Find the Number of Ways to Place People I](../../3001-3500/3025-find-the-number-of-ways-to-place-people-i/)
-- [3027. Find the Number of Ways to Place People II](../../3001-3500/3027-find-the-number-of-ways-to-place-people-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)

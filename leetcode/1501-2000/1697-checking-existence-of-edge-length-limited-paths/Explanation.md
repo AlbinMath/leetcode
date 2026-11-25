@@ -145,9 +145,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
-- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1239-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [2374. Node With Highest Edge Score](../../2001-2500/2374-node-with-highest-edge-score/)
+- [2699. Modify Graph Edge Weights](../../2501-3000/2699-modify-graph-edge-weights/)
+- [2846. Minimum Edge Weight Equilibrium Queries in a Tree](../../2501-3000/2846-minimum-edge-weight-equilibrium-queries-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)

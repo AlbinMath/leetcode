@@ -149,9 +149,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1608. Special Array With X Elements Greater Than or Equal X](../../1501-2000/1608-special-array-with-x-elements-greater-than-or-equal-x/)
 - [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](../../1001-1500/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
-- [2148. Count Elements With Strictly Smaller and Greater Elements ](../../2001-2500/2148-count-elements-with-strictly-smaller-and-greater-elements/)
+- [1608. Special Array With X Elements Greater Than or Equal X](../../1501-2000/1608-special-array-with-x-elements-greater-than-or-equal-x/)
+- [744. Find Smallest Letter Greater Than Target](../../0501-1000/0744-find-smallest-letter-greater-than-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/)

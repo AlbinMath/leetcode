@@ -130,9 +130,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [135. Candy](../../0001-0500/0135-candy/)
-- [888. Fair Candy Swap](../../0501-1000/0888-fair-candy-swap/)
 - [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)

@@ -125,8 +125,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
-- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
-- [349. Intersection of Two Arrays](../../0001-0500/0349-intersection-of-two-arrays/)
+- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1031-maximum-sum-of-two-non-overlapping-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/)

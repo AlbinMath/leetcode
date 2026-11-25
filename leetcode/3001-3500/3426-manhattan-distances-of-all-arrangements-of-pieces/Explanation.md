@@ -176,7 +176,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3102. Minimize Manhattan Distances](../../3001-3500/3102-minimize-manhattan-distances/)
 - [3968. Maximum Manhattan Distance After All Moves](../../3501-4000/3968-maximum-manhattan-distance-after-all-moves/)
-- [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
+- [3443. Maximum Manhattan Distance After K Changes](../../3001-3500/3443-maximum-manhattan-distance-after-k-changes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/manhattan-distances-of-all-arrangements-of-pieces/)

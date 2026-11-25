@@ -216,8 +216,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3558. Number of Ways to Assign Edge Weights I](../../3501-4000/3558-number-of-ways-to-assign-edge-weights-i/)
+- [2699. Modify Graph Edge Weights](../../2501-3000/2699-modify-graph-edge-weights/)
 - [1434. Number of Ways to Wear Different Hats to Each Other](../../1001-1500/1434-number-of-ways-to-wear-different-hats-to-each-other/)
-- [1444. Number of Ways of Cutting a Pizza](../../1001-1500/1444-number-of-ways-of-cutting-a-pizza/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/)

@@ -14,10 +14,10 @@ Solutions implemented across multiple programming languages.
 | **Erlang** | 1 solutions | [Browse Erlang](./erlang.md) |
 | **Go** | 1 solutions | [Browse Go](./go.md) |
 | **Java** | 35 solutions | [Browse Java](./java.md) |
-| **JavaScript** | 696 solutions | [Browse JavaScript](./javascript.md) |
+| **JavaScript** | 750 solutions | [Browse JavaScript](./javascript.md) |
 | **Kotlin** | 15 solutions | [Browse Kotlin](./kotlin.md) |
 | **PHP** | 59 solutions | [Browse PHP](./php.md) |
-| **Python** | 1671 solutions | [Browse Python](./python.md) |
+| **Python** | 1678 solutions | [Browse Python](./python.md) |
 | **Racket** | 1 solutions | [Browse Racket](./racket.md) |
 | **Ruby** | 1 solutions | [Browse Ruby](./ruby.md) |
 | **Rust** | 1 solutions | [Browse Rust](./rust.md) |

@@ -168,9 +168,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [831. Masking Personal Information](../../0501-1000/0831-masking-personal-information/)
 - [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
 - [268. Missing Number](../../0001-0500/0268-missing-number/)
+- [1539. Kth Missing Positive Number](../../1501-2000/1539-kth-missing-positive-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-with-missing-information/)

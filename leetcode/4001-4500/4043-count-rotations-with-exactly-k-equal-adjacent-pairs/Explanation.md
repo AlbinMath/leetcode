@@ -128,9 +128,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3265. Count Almost Equal Pairs I](../../3001-3500/3265-count-almost-equal-pairs-i/)
-- [3267. Count Almost Equal Pairs II](../../3001-3500/3267-count-almost-equal-pairs-ii/)
-- [3835. Count Subarrays With Cost Less Than or Equal to K](../../3501-4000/3835-count-subarrays-with-cost-less-than-or-equal-to-k/)
+- [2006. Count Number of Pairs With Absolute Difference K](../../2001-2500/2006-count-number-of-pairs-with-absolute-difference-k/)
+- [2183. Count Array Pairs Divisible by K](../../2001-2500/2183-count-array-pairs-divisible-by-k/)
+- [2857. Count Pairs of Points With Distance k](../../2501-3000/2857-count-pairs-of-points-with-distance-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/)

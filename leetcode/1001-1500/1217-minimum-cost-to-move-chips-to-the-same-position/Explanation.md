@@ -115,7 +115,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1263. Minimum Moves to Move a Box to Their Target Location](../../1001-1500/1263-minimum-moves-to-move-a-box-to-their-target-location/)
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1769-minimum-number-of-operations-to-move-all-balls-to-each-box/)
-- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1130-minimum-cost-tree-from-leaf-values/)
+- [1000. Minimum Cost to Merge Stones](../../0501-1000/1000-minimum-cost-to-merge-stones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)

@@ -110,9 +110,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1741-find-total-time-spent-by-each-employee/)
 - [38. Count and Say](../../0001-0500/0038-count-and-say/)
 - [204. Count Primes](../../0001-0500/0204-count-primes/)
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-days-spent-together/)

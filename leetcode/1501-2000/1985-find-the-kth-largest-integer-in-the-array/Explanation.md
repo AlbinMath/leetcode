@@ -116,8 +116,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1394. Find Lucky Integer in an Array](../../1001-1500/1394-find-lucky-integer-in-an-array/)
-- [3132. Find the Integer Added to Array II](../../3001-3500/3132-find-the-integer-added-to-array-ii/)
+- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
+- [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1738-find-kth-largest-xor-coordinate-value/)
 - [3471. Find the Largest Almost Missing Integer](../../3001-3500/3471-find-the-largest-almost-missing-integer/)
 
 ## LeetCode

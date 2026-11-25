@@ -115,8 +115,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [692. Top K Frequent Words](../../0501-1000/0692-top-k-frequent-words/)
-- [3070. Count Submatrices with Top-Left Element and Sum Less Than k](../../3001-3500/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/)
 - [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
+- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/top-k-frequent-elements/)

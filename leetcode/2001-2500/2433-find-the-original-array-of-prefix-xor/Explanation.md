@@ -109,8 +109,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2657-find-the-prefix-common-array-of-two-arrays/)
 - [2527. Find Xor-Beauty of Array](../../2501-3000/2527-find-xor-beauty-of-array/)
+- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2657-find-the-prefix-common-array-of-two-arrays/)
 - [2122. Recover the Original Array](../../2001-2500/2122-recover-the-original-array/)
 
 ## LeetCode

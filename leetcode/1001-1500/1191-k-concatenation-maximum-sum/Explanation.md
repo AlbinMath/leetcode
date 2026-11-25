@@ -105,7 +105,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2461. Maximum Sum of Distinct Subarrays With Length K](../../2001-2500/2461-maximum-sum-of-distinct-subarrays-with-length-k/)
 - [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](../../3001-3500/3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
-- [3462. Maximum Sum With at Most K Elements](../../3001-3500/3462-maximum-sum-with-at-most-k-elements/)
+- [3381. Maximum Subarray Sum With Length Divisible by K](../../3001-3500/3381-maximum-subarray-sum-with-length-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-concatenation-maximum-sum/)

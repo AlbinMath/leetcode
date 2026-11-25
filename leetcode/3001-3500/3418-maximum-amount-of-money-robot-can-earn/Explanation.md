@@ -1,7 +1,7 @@
 # LeetCode 3418: Maximum Amount of Money Robot Can Earn
 
 **LeetCode Problem #3418 — Maximum Amount of Money Robot Can Earn**
-Solve LeetCode Maximum Amount of Money Robot Can Earn using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Maximum Amount of Money Robot Can Earn using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Maximum Amount of Money Robot Can Earn using Python and Array / G
 | LeetCode | #3418 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given an `m x n` grid. A robot starts at the top-left corner of the grid `(0, 0)` and wants to reach the bottom-right corner `(m - 1, n - 1)`. The robot can move either right or down at any point in time.
@@ -61,7 +61,7 @@ Return the **maximum** profit the robot can gain on the route.
  Move to `(1, 2)`, gaining the final `10` coins (total coins = `30 + 10 = 40`).
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
 To solve **Maximum Amount of Money Robot Can Earn**, we observe the problem requirements and utilize the **Array / General** technique. We decompose the problem into overlapping subproblems using a **Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
@@ -74,7 +74,7 @@ To solve **Maximum Amount of Money Robot Can Earn**, we observe the problem requ
 
 ## Example Walkthrough
 1. **Input State:** We begin with `coins = [[0,1,-1],[1,-2,3],[2,-3,4]]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `8`.
@@ -89,13 +89,15 @@ To solve **Maximum Amount of Money Robot Can Earn**, we observe the problem requ
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Array / General**
+**Dynamic Programming**
 
 ## Topics
-- Array
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 Python
@@ -142,21 +144,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [3332. Maximum Points Tourist Can Earn](../../3001-3500/3332-maximum-points-tourist-can-earn/)
 - [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
-- [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
+- [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/)

@@ -133,9 +133,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [89. Gray Code](../../0001-0500/0089-gray-code/)
-- [62. Unique Paths](../../0001-0500/0062-unique-paths/)
-- [63. Unique Paths II](../../0001-0500/0063-unique-paths-ii/)
+- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [151. Reverse Words in a String](../../0001-0500/0151-reverse-words-in-a-string/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-morse-code-words/)

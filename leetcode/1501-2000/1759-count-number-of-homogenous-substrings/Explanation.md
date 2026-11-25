@@ -125,8 +125,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3234. Count the Number of Substrings With Dominant Ones](../../3001-3500/3234-count-the-number-of-substrings-with-dominant-ones/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
-- [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1358-number-of-substrings-containing-all-three-characters/)
+- [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-homogenous-substrings/)

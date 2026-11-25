@@ -149,9 +149,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3432. Count Partitions with Even Sum Difference](../../3001-3500/3432-count-partitions-with-even-sum-difference/)
 - [2006. Count Number of Pairs With Absolute Difference K](../../2001-2500/2006-count-number-of-pairs-with-absolute-difference-k/)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](../../2501-3000/2962-count-subarrays-where-max-element-appears-at-least-k-times/)
-- [1984. Minimum Difference Between Highest and Lowest of K Scores](../../1501-2000/1984-minimum-difference-between-highest-and-lowest-of-k-scores/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/)

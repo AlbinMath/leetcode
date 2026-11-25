@@ -132,8 +132,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1787. Make the XOR of All Segments Equal to Zero](../../1501-2000/1787-make-the-xor-of-all-segments-equal-to-zero/)
+- [2772. Apply Operations to Make All Array Elements Equal to Zero](../../2501-3000/2772-apply-operations-to-make-all-array-elements-equal-to-zero/)
 - [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1611-minimum-one-bit-operations-to-make-integers-zero/)
-- [2357. Make Array Zero by Subtracting Equal Amounts](../../2001-2500/2357-make-array-zero-by-subtracting-equal-amounts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)

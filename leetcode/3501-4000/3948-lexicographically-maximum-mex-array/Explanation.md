@@ -153,9 +153,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2948. Make Lexicographically Smallest Array by Swapping Elements](../../2501-3000/2948-make-lexicographically-smallest-array-by-swapping-elements/)
+- [4059. Lexicographically Largest Power Array](../../4001-4500/4059-lexicographically-largest-power-array/)
 - [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
-- [1464. Maximum Product of Two Elements in an Array](../../1001-1500/1464-maximum-product-of-two-elements-in-an-array/)
-- [1646. Get Maximum in Generated Array](../../1501-2000/1646-get-maximum-in-generated-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-maximum-mex-array/)

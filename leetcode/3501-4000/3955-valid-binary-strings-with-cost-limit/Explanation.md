@@ -146,7 +146,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/)
-- [3211. Generate Binary Strings Without Adjacent Zeros](../../3001-3500/3211-generate-binary-strings-without-adjacent-zeros/)
+- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 - [3291. Minimum Number of Valid Strings to Form Target I](../../3001-3500/3291-minimum-number-of-valid-strings-to-form-target-i/)
 
 ## LeetCode

@@ -105,9 +105,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2772. Apply Operations to Make All Array Elements Equal to Zero](../../2501-3000/2772-apply-operations-to-make-all-array-elements-equal-to-zero/)
 - [3354. Make Array Elements Equal to Zero](../../3001-3500/3354-make-array-elements-equal-to-zero/)
 - [1787. Make the XOR of All Segments Equal to Zero](../../1501-2000/1787-make-the-xor-of-all-segments-equal-to-zero/)
-- [3495. Minimum Operations to Make Array Elements Zero](../../3001-3500/3495-minimum-operations-to-make-array-elements-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)
