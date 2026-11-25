@@ -138,8 +138,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3312. Sorted GCD Pair Queries](../../3001-3500/3312-sorted-gcd-pair-queries/)
-- [3574. Maximize Subarray GCD Score](../../3501-4000/3574-maximize-subarray-gcd-score/)
 - [3480. Maximize Subarrays After Removing One Conflicting Pair](../../3001-3500/3480-maximize-subarrays-after-removing-one-conflicting-pair/)
+- [4062. Transform Array Using Pair Operations](../../4001-4500/4062-transform-array-using-pair-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-pair-strength-using-gcd/)

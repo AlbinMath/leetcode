@@ -114,7 +114,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [440. K-th Smallest in Lexicographical Order](../../0001-0500/0440-k-th-smallest-in-lexicographical-order/)
 - [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
-- [779. K-th Symbol in Grammar](../../0501-1000/0779-k-th-symbol-in-grammar/)
+- [3911. K-th Smallest Remaining Even Integer in Subarray Queries](../../3501-4000/3911-k-th-smallest-remaining-even-integer-in-subarray-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-th-smallest-prime-fraction/)

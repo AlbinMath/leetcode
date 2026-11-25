@@ -118,7 +118,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
 - [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1738-find-kth-largest-xor-coordinate-value/)
-- [3471. Find the Largest Almost Missing Integer](../../3001-3500/3471-find-the-largest-almost-missing-integer/)
+- [1394. Find Lucky Integer in an Array](../../1001-1500/1394-find-lucky-integer-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)

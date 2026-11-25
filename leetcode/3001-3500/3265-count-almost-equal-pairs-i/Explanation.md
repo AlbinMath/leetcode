@@ -131,7 +131,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3267. Count Almost Equal Pairs II](../../3001-3500/3267-count-almost-equal-pairs-ii/)
 - [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4043-count-rotations-with-exactly-k-equal-adjacent-pairs/)
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [1782. Count Pairs Of Nodes](../../1501-2000/1782-count-pairs-of-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-almost-equal-pairs-i/)

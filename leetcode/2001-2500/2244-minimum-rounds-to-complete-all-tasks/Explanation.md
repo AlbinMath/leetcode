@@ -115,8 +115,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2589. Minimum Time to Complete All Tasks](../../2501-3000/2589-minimum-time-to-complete-all-tasks/)
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
-- [1443. Minimum Time to Collect All Apples in a Tree](../../1001-1500/1443-minimum-time-to-collect-all-apples-in-a-tree/)
+- [3733. Minimum Time to Complete All Deliveries](../../3501-4000/3733-minimum-time-to-complete-all-deliveries/)
+- [1665. Minimum Initial Energy to Finish Tasks](../../1501-2000/1665-minimum-initial-energy-to-finish-tasks/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)

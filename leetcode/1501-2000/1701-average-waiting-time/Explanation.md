@@ -115,7 +115,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1661. Average Time of Process per Machine](../../1501-2000/1661-average-time-of-process-per-machine/)
 - [4009. Minimum Possible Maximum Waiting Time](../../4001-4500/4009-minimum-possible-maximum-waiting-time/)
-- [637. Average of Levels in Binary Tree](../../0501-1000/0637-average-of-levels-in-binary-tree/)
+- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-waiting-time/)

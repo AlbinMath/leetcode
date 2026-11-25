@@ -1,7 +1,7 @@
 # LeetCode 1760: Minimum Limit of Balls in a Bag
 
 **LeetCode Problem #1760 — Minimum Limit of Balls in a Bag**
-Solve LeetCode Minimum Limit of Balls in a Bag using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Minimum Limit of Balls in a Bag using Python and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Minimum Limit of Balls in a Bag using Python and Array / General.
 | LeetCode | #1760 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Dynamic Sliding Window Traversal |
+| Data Structure | Array / Hash Set |
+| Pattern | Sliding Window |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -45,7 +45,7 @@ Return *the minimum possible penalty after performing the operations*.
 - **Explanation:** - Divide the bag with 8 balls into two bags of sizes 4 and 4. [2,4,
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Maintain a dynamic contiguous window with two pointers (`left` and `right`), expanding to include new elements and shrinking when window invariants are violated.
 
 ## Approach
 To solve **Minimum Limit of Balls in a Bag**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -57,7 +57,7 @@ To solve **Minimum Limit of Balls in a Bag**, we observe the problem requirement
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [9], maxOperations = 2`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Dynamic Sliding Window Traversal** using our **Array / Hash Set**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `3`.
@@ -65,13 +65,15 @@ To solve **Minimum Limit of Balls in a Bag**, we observe the problem requirement
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Hash Set.
 
 ## Pattern
-**Array / General**
+**Sliding Window**
 
 ## Topics
-- Array
+- Sliding Window
+- Two Pointers
+- Subarrays
 
 ## Language
 Python
@@ -100,21 +102,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Sliding Window**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Shrinking the window too late or missing invalid state checks.
+2. Forgetting to update window metrics (e.g. char counts) during contraction.
+3. Misinterpreting fixed vs variable window requirements.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Two-pointer window management, state tracking, and contiguous subarray analysis.
+- **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1769-minimum-number-of-operations-to-move-all-balls-to-each-box/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
-- [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
+- [3824. Minimum K to Reduce Array Within Limit](../../3501-4000/3824-minimum-k-to-reduce-array-within-limit/)
+- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1001-1500/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)

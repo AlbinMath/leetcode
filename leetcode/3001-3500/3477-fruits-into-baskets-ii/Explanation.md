@@ -132,9 +132,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [3479. Fruits Into Baskets III](../../3001-3500/3479-fruits-into-baskets-iii/)
 - [904. Fruit Into Baskets](../../0501-1000/0904-fruit-into-baskets/)
 - [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2106-maximum-fruits-harvested-after-at-most-k-steps/)
-- [2944. Minimum Number of Coins for Fruits](../../2501-3000/2944-minimum-number-of-coins-for-fruits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fruits-into-baskets-ii/)

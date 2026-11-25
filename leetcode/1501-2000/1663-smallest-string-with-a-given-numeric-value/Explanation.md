@@ -102,9 +102,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1325. Delete Leaves With a Given Value](../../1001-1500/1325-delete-leaves-with-a-given-value/)
-- [1802. Maximum Value at a Given Index in a Bounded Array](../../1501-2000/1802-maximum-value-at-a-given-index-in-a-bounded-array/)
-- [2003. Smallest Missing Genetic Value in Each Subtree](../../2001-2500/2003-smallest-missing-genetic-value-in-each-subtree/)
+- [988. Smallest String Starting From Leaf](../../0501-1000/0988-smallest-string-starting-from-leaf/)
+- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1061-lexicographically-smallest-equivalent-string/)
+- [1202. Smallest String With Swaps](../../1001-1500/1202-smallest-string-with-swaps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)

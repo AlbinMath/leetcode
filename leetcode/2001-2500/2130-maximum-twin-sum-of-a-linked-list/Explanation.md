@@ -182,8 +182,8 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 
 ## Related Problems
 - [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1171-remove-zero-sum-consecutive-nodes-from-linked-list/)
-- [92. Reverse Linked List II](../../0001-0500/0092-reverse-linked-list-ii/)
-- [114. Flatten Binary Tree to Linked List](../../0001-0500/0114-flatten-binary-tree-to-linked-list/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)

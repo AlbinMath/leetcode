@@ -300,7 +300,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2767. Partition String Into Minimum Beautiful Substrings](../../2501-3000/2767-partition-string-into-minimum-beautiful-substrings/)
 - [3864. Minimum Cost to Partition a Binary String](../../3501-4000/3864-minimum-cost-to-partition-a-binary-string/)
-- [86. Partition List](../../0001-0500/0086-partition-list/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-string/)

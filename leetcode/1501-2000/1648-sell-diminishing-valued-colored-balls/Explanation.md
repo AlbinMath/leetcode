@@ -1,7 +1,7 @@
 # LeetCode 1648: Sell Diminishing-Valued Colored Balls
 
 **LeetCode Problem #1648 — Sell Diminishing-Valued Colored Balls**
-Solve LeetCode Sell Diminishing-Valued Colored Balls using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Sell Diminishing-Valued Colored Balls using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Sell Diminishing-Valued Colored Balls using Python and Array / Ge
 | LeetCode | #1648 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You have an `inventory` of different colored balls, and there is a customer that wants `orders` balls of **any** color.
@@ -44,7 +44,7 @@ The maximum total value is 2 + 5 + 4 + 3 = 14.
 The maximum total value is 3 + 2 + 5 + 4 + 3 + 2 = 19.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
 To solve **Sell Diminishing-Valued Colored Balls**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -56,7 +56,7 @@ To solve **Sell Diminishing-Valued Colored Balls**, we observe the problem requi
 
 ## Example Walkthrough
 1. **Input State:** We begin with `inventory = [2,5], orders = 4`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `14`.
@@ -65,13 +65,15 @@ The maximum total value is 2 + 5 + 4 + 3 = 14.
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Array / General**
+**Dynamic Programming**
 
 ## Topics
-- Array
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 Python
@@ -112,21 +114,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
-- [1315. Sum of Nodes with Even-Valued Grandparent](../../1001-1500/1315-sum-of-nodes-with-even-valued-grandparent/)
-- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1001-1500/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
+- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
+- [122. Best Time to Buy and Sell Stock II](../../0001-0500/0122-best-time-to-buy-and-sell-stock-ii/)
+- [123. Best Time to Buy and Sell Stock III](../../0001-0500/0123-best-time-to-buy-and-sell-stock-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)

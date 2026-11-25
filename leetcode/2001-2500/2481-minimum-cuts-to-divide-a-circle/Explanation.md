@@ -105,7 +105,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 ## Related Problems
 - [3010. Divide an Array Into Subarrays With Minimum Cost I](../../3001-3500/3010-divide-an-array-into-subarrays-with-minimum-cost-i/)
 - [3013. Divide an Array Into Subarrays With Minimum Cost II](../../3001-3500/3013-divide-an-array-into-subarrays-with-minimum-cost-ii/)
-- [29. Divide Two Integers](../../0001-0500/0029-divide-two-integers/)
+- [478. Generate Random Point in a Circle](../../0001-0500/0478-generate-random-point-in-a-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/)

@@ -108,8 +108,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii-input-array-is-sorted/)
-- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1001-1500/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
-- [1574. Shortest Subarray to be Removed to Make Array Sorted](../../1501-2000/1574-shortest-subarray-to-be-removed-to-make-array-sorted/)
+- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
+- [303. Range Sum Query - Immutable](../../0001-0500/0303-range-sum-query-immutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)

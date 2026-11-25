@@ -128,9 +128,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1413. Minimum Value to Get Positive Step by Step Sum](../../1001-1500/1413-minimum-value-to-get-positive-step-by-step-sum/)
-- [1663. Smallest String With A Given Numeric Value](../../1501-2000/1663-smallest-string-with-a-given-numeric-value/)
-- [1881. Maximum Value after Insertion](../../1501-2000/1881-maximum-value-after-insertion/)
+- [786. K-th Smallest Prime Fraction](../../0501-1000/0786-k-th-smallest-prime-fraction/)
+- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1001-1500/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
+- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1625-lexicographically-smallest-string-after-applying-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/)

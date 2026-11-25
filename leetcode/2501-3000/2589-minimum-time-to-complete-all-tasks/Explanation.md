@@ -145,8 +145,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2244. Minimum Rounds to Complete All Tasks](../../2001-2500/2244-minimum-rounds-to-complete-all-tasks/)
+- [3733. Minimum Time to Complete All Deliveries](../../3501-4000/3733-minimum-time-to-complete-all-deliveries/)
 - [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
-- [1443. Minimum Time to Collect All Apples in a Tree](../../1001-1500/1443-minimum-time-to-collect-all-apples-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-complete-all-tasks/)

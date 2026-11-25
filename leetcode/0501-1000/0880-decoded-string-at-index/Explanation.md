@@ -138,8 +138,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [4039. Sum of Decoded Numbers](../../4001-4500/4039-sum-of-decoded-numbers/)
 - [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [87. Scramble String](../../0001-0500/0087-scramble-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decoded-string-at-index/)

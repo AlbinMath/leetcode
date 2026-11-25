@@ -116,7 +116,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3234. Count the Number of Substrings With Dominant Ones](../../3001-3500/3234-count-the-number-of-substrings-with-dominant-ones/)
 - [3997. Count Dominant Nodes in a Binary Tree](../../3501-4000/3997-count-dominant-nodes-in-a-binary-tree/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-dominant-indices/)

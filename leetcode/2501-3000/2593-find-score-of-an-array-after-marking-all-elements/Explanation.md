@@ -131,9 +131,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
-- [2150. Find All Lonely Numbers in the Array](../../2001-2500/2150-find-all-lonely-numbers-in-the-array/)
-- [2602. Minimum Operations to Make All Array Elements Equal](../../2501-3000/2602-minimum-operations-to-make-all-array-elements-equal/)
+- [1619. Mean of Array After Removing Some Elements](../../1501-2000/1619-mean-of-array-after-removing-some-elements/)
+- [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
+- [3041. Maximize Consecutive Elements in an Array After Modification](../../3001-3500/3041-maximize-consecutive-elements-in-an-array-after-modification/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)

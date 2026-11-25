@@ -100,9 +100,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3688. Bitwise OR of Even Numbers in an Array](../../3501-4000/3688-bitwise-or-of-even-numbers-in-an-array/)
 - [1523. Count Odd Numbers in an Interval Range](../../1501-2000/1523-count-odd-numbers-in-an-interval-range/)
 - [2523. Closest Prime Numbers in Range](../../2501-3000/2523-closest-prime-numbers-in-range/)
-- [3688. Bitwise OR of Even Numbers in an Array](../../3501-4000/3688-bitwise-or-of-even-numbers-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bitwise-and-of-numbers-range/)

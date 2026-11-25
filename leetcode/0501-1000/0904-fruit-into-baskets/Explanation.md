@@ -129,8 +129,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3477. Fruits Into Baskets II](../../3001-3500/3477-fruits-into-baskets-ii/)
+- [3479. Fruits Into Baskets III](../../3001-3500/3479-fruits-into-baskets-iii/)
 - [701. Insert into a Binary Search Tree](../../0501-1000/0701-insert-into-a-binary-search-tree/)
-- [842. Split Array into Fibonacci Sequence](../../0501-1000/0842-split-array-into-fibonacci-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fruit-into-baskets/)

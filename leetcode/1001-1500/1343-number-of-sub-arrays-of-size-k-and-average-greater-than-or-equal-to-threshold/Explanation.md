@@ -106,7 +106,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 ## Related Problems
 - [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](../../3001-3500/3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
 - [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3091-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
-- [2311. Longest Binary Subsequence Less Than or Equal to K](../../2001-2500/2311-longest-binary-subsequence-less-than-or-equal-to-k/)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)

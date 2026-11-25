@@ -182,8 +182,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2841. Maximum Sum of Almost Unique Subarray](../../2501-3000/2841-maximum-sum-of-almost-unique-subarray/)
-- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
-- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [3911. K-th Smallest Remaining Even Integer in Subarray Queries](../../3501-4000/3911-k-th-smallest-remaining-even-integer-in-subarray-queries/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-unique-subarray/)

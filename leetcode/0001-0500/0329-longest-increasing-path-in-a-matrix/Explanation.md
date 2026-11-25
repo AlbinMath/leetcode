@@ -115,9 +115,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1091. Shortest Path in Binary Matrix](../../1001-1500/1091-shortest-path-in-binary-matrix/)
-- [2556. Disconnect Path in a Binary Matrix by at Most One Flip](../../2501-3000/2556-disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)
-- [2713. Maximum Strictly Increasing Cells in a Matrix](../../2501-3000/2713-maximum-strictly-increasing-cells-in-a-matrix/)
+- [3288. Length of the Longest Increasing Path](../../3001-3500/3288-length-of-the-longest-increasing-path/)
+- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
+- [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)

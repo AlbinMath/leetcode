@@ -1,7 +1,7 @@
 # LeetCode 1461: Check If a String Contains All Binary Codes of Size K
 
 **LeetCode Problem #1461 — Check If a String Contains All Binary Codes of Size K**
-Solve LeetCode Check If a String Contains All Binary Codes of Size K using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Check If a String Contains All Binary Codes of Size K using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Check If a String Contains All Binary Codes of Size K using Pytho
 | LeetCode | #1461 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 Given a binary string `s` and an integer `k`, return `true` *if every binary code of length* `k` *is a substring of* `s`. Otherwise, return `false`.
@@ -41,7 +41,7 @@ Given a binary string `s` and an integer `k`, return `true` *if every binary cod
 - **Explanation:** The binary code "00" is of length 2 and does not exist in the array.
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Check If a String Contains All Binary Codes of Size K**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
@@ -53,7 +53,7 @@ To solve **Check If a String Contains All Binary Codes of Size K**, we observe t
 
 ## Example Walkthrough
 1. **Input State:** We begin with `s = "00110110", k = 2`.
-2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `true`.
@@ -61,14 +61,16 @@ To solve **Check If a String Contains All Binary Codes of Size K**, we observe t
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Bit Manipulation**
+**Tree & Graph**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -98,7 +100,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -110,8 +112,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1437. Check If All 1's Are at Least Length K Places Away](../../1001-1500/1437-check-if-all-1s-are-at-least-length-k-places-away/)
 - [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1784-check-if-binary-string-has-at-most-one-segment-of-ones/)
+- [1437. Check If All 1's Are at Least Length K Places Away](../../1001-1500/1437-check-if-all-1s-are-at-least-length-k-places-away/)
 - [863. All Nodes Distance K in Binary Tree](../../0501-1000/0863-all-nodes-distance-k-in-binary-tree/)
 
 ## LeetCode

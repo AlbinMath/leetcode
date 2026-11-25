@@ -103,9 +103,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1859. Sorting the Sentence](../../1501-2000/1859-sorting-the-sentence/)
+- [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
 - [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
-- [326. Power of Three](../../0001-0500/0326-power-of-three/)
-- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sorting-three-groups/)

@@ -136,9 +136,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [592. Fraction Addition and Subtraction](../../0501-1000/0592-fraction-addition-and-subtraction/)
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
 - [786. K-th Smallest Prime Fraction](../../0501-1000/0786-k-th-smallest-prime-fraction/)
+- [866. Prime Palindrome](../../0501-1000/0866-prime-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prime-subtraction-operation/)

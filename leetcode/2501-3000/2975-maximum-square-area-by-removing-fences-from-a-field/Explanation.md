@@ -116,9 +116,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [4016. Maximum Area of Two Non-Overlapping Square Submatrices](../../4001-4500/4016-maximum-area-of-two-non-overlapping-square-submatrices/)
 - [1717. Maximum Score From Removing Substrings](../../1501-2000/1717-maximum-score-from-removing-substrings/)
 - [2091. Removing Minimum and Maximum From Array](../../2001-2500/2091-removing-minimum-and-maximum-from-array/)
-- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)

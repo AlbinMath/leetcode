@@ -117,7 +117,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2027. Minimum Moves to Convert String](../../2001-2500/2027-minimum-moves-to-convert-string/)
-- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1001-1500/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+- [3086. Minimum Moves to Pick K Ones](../../3001-3500/3086-minimum-moves-to-pick-k-ones/)
 - [1433. Check If a String Can Break Another String](../../1001-1500/1433-check-if-a-string-can-break-another-string/)
 
 ## LeetCode

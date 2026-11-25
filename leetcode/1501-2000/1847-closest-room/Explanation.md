@@ -1,7 +1,7 @@
 # LeetCode 1847: Closest Room
 
 **LeetCode Problem #1847 — Closest Room**
-Solve LeetCode Closest Room using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Closest Room using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Closest Room using Python and Array / General. This solution find
 | LeetCode | #1847 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
-| Pattern | Array / General |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -54,7 +54,7 @@ Query = [2,4]: Room numbers 1 and 3 both have sizes of at least 4. The answer is
 Query = [2,5]: Room number 3 is the only room with a size of at least 5. The answer is 3.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Closest Room**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -67,7 +67,7 @@ To solve **Closest Room**, we observe the problem requirements and utilize the *
 
 ## Example Walkthrough
 1. **Input State:** We begin with `rooms = [[2,2],[1,2],[3,2]], queries = [[3,1],[3,3],[5,2]]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[3,-1,3]`.
@@ -81,10 +81,12 @@ Query = [5,2]: Room number 3 is the closest as abs(3 - 5) = 2, and its size of 2
 - **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Array / General**
+**Two Pointers**
 
 ## Topics
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 Python
@@ -129,21 +131,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [16. 3Sum Closest](../../0001-0500/0016-3sum-closest/)
-- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
-- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
+- [855. Exam Room](../../0501-1000/0855-exam-room/)
+- [3168. Minimum Number of Chairs in a Waiting Room](../../3001-3500/3168-minimum-number-of-chairs-in-a-waiting-room/)
+- [3341. Find Minimum Time to Reach Last Room I](../../3001-3500/3341-find-minimum-time-to-reach-last-room-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/closest-room/)

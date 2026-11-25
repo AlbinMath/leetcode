@@ -107,9 +107,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [869. Reordered Power of 2](../../0501-1000/0869-reordered-power-of-2/)
+- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1253-reconstruct-a-2-row-binary-matrix/)
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
-- [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/1-bit-and-2-bit-characters/)

@@ -126,9 +126,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [50. Pow(x, n)](../../0001-0500/0050-powx-n/)
-- [51. N-Queens](../../0001-0500/0051-n-queens/)
-- [52. N-Queens II](../../0001-0500/0052-n-queens-ii/)
+- [952. Largest Component Size by Common Factor](../../0501-1000/0952-largest-component-size-by-common-factor/)
+- [3334. Find the Maximum Factor Score of Array](../../3001-3500/3334-find-the-maximum-factor-score-of-array/)
+- [3605. Minimum Stability Factor of Array](../../3501-4000/3605-minimum-stability-factor-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-kth-factor-of-n/)

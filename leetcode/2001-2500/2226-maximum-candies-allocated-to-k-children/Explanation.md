@@ -107,9 +107,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
 - [2928. Distribute Candies Among Children I](../../2501-3000/2928-distribute-candies-among-children-i/)
 - [2929. Distribute Candies Among Children II](../../2501-3000/2929-distribute-candies-among-children-ii/)
+- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/)

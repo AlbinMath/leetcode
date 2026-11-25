@@ -138,9 +138,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
-- [204. Count Primes](../../0001-0500/0204-count-primes/)
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
+- [830. Positions of Large Groups](../../0501-1000/0830-positions-of-large-groups/)
+- [839. Similar String Groups](../../0501-1000/0839-similar-string-groups/)
+- [893. Groups of Special-Equivalent Strings](../../0501-1000/0893-groups-of-special-equivalent-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-robot-groups/)

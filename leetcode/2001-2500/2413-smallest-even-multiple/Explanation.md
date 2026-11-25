@@ -91,9 +91,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3911. K-th Smallest Remaining Even Integer in Subarray Queries](../../3501-4000/3911-k-th-smallest-remaining-even-integer-in-subarray-queries/)
 - [3718. Smallest Missing Multiple of K](../../3501-4000/3718-smallest-missing-multiple-of-k/)
 - [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
-- [975. Odd Even Jump](../../0501-1000/0975-odd-even-jump/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-even-multiple/)

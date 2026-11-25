@@ -157,9 +157,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [50. Pow(x, n)](../../0001-0500/0050-powx-n/)
-- [51. N-Queens](../../0001-0500/0051-n-queens/)
-- [52. N-Queens II](../../0001-0500/0052-n-queens-ii/)
+- [2858. Minimum Edge Reversals So Every Node Is Reachable](../../2501-3000/2858-minimum-edge-reversals-so-every-node-is-reachable/)
+- [3305. Count of Substrings Containing Every Vowel and K Consonants I](../../3001-3500/3305-count-of-substrings-containing-every-vowel-and-k-consonants-i/)
+- [3306. Count of Substrings Containing Every Vowel and K Consonants II](../../3001-3500/3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-discount-every-n-orders/)

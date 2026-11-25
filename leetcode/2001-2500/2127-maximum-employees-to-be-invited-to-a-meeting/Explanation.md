@@ -154,7 +154,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1751. Maximum Number of Events That Can Be Attended II](../../1501-2000/1751-maximum-number-of-events-that-can-be-attended-ii/)
 - [2402. Meeting Rooms III](../../2001-2500/2402-meeting-rooms-iii/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [4068. Maximize Meeting Earnings with Idle Gaps](../../4001-4500/4068-maximize-meeting-earnings-with-idle-gaps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)

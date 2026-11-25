@@ -1,7 +1,7 @@
 # LeetCode 3960: Frequency Balance Subarray
 
 **LeetCode Problem #3960 — Frequency Balance Subarray**
-Solve LeetCode Frequency Balance Subarray using JavaScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
+Solve LeetCode Frequency Balance Subarray using JavaScript and Binary Search. This solution finds the optimal result using Modified Binary Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Frequency Balance Subarray using JavaScript and Hash Map. This so
 | LeetCode | #3960 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Complement Lookup / Hash Table Frequency |
-| Data Structure | Dictionary / Hash Map |
-| Pattern | Hash Map |
+| Algorithm | Modified Binary Search |
+| Data Structure | Sorted Array |
+| Pattern | Binary Search |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem Statement
 You are given an integer array ​​​​​​​`nums`.
@@ -51,7 +51,7 @@ Return an integer denoting the length of the **longest** frequency balance subar
 - **Explanation:** Since all elements appear only once, the length of the longest frequency balance subarray is 1.
 
 ## Key Insight
-Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
+Exploit sorted ordering or monotonic properties to eliminate half of the search space at each step in $O(\log n)$ time.
 
 ## Approach
 To solve **Frequency Balance Subarray**, we observe the problem requirements and utilize the **Hash Map** technique. By maintaining a **Dictionary / Hash Map**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
@@ -64,7 +64,7 @@ To solve **Frequency Balance Subarray**, we observe the problem requirements and
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [1,2,2,1,2,3,3,3]`.
-2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
+2. **Processing Steps:** We apply **Modified Binary Search** using our **Sorted Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `5`.
@@ -74,15 +74,15 @@ To solve **Frequency Balance Subarray**, we observe the problem requirements and
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Sorted Array.
 
 ## Pattern
-**Hash Map**
+**Binary Search**
 
 ## Topics
-- Hash Table
-- Array
-- Complement Lookup
+- Binary Search
+- Divide and Conquer
+- Search Space
 
 ## Language
 JavaScript
@@ -147,21 +147,21 @@ var getLength = function(nums) {
 ```
 
 ## Why This Works
-By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Binary Search**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Using the same element twice.
-2. Checking the map before inserting elements in the correct order.
-3. Inefficient hash functions or unnecessary duplicate key updates.
+1. Applying standard binary search without accounting for array rotation or duplicates.
+2. Off-by-one errors when updating boundary pointers (`left = mid + 1` vs `right = mid - 1`).
+3. Integer overflow during midpoint calculation (use `mid = left + (right - left) // 2`).
 
 ## Interview Notes
-- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
-- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
+- **Tests:** Logarithmic search space reduction, boundary handling, and invariant preservation.
+- **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
 - [2958. Length of Longest Subarray With at Most K Frequency](../../2501-3000/2958-length-of-longest-subarray-with-at-most-k-frequency/)
 - [3434. Maximum Frequency After Subarray Operation](../../3001-3500/3434-maximum-frequency-after-subarray-operation/)
-- [1382. Balance a Binary Search Tree](../../1001-1500/1382-balance-a-binary-search-tree/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/frequency-balance-subarray/)

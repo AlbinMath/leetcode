@@ -121,9 +121,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2117. Abbreviating the Product of a Range](../../2001-2500/2117-abbreviating-the-product-of-a-range/)
 - [2080. Range Frequency Queries](../../2001-2500/2080-range-frequency-queries/)
 - [3653. XOR After Range Multiplication Queries I](../../3501-4000/3653-xor-after-range-multiplication-queries-i/)
-- [3655. XOR After Range Multiplication Queries II](../../3501-4000/3655-xor-after-range-multiplication-queries-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-product-queries-of-powers/)

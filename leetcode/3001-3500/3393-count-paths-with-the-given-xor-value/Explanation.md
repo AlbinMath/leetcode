@@ -155,8 +155,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1738-find-kth-largest-xor-coordinate-value/)
 - [1803. Count Pairs With XOR in a Range](../../1501-2000/1803-count-pairs-with-xor-in-a-range/)
 
 ## LeetCode

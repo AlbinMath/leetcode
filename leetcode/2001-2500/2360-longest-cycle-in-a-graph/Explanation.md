@@ -122,9 +122,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2608. Shortest Cycle in a Graph](../../2501-3000/2608-shortest-cycle-in-a-graph/)
 - [3615. Longest Palindromic Path in Graph](../../3501-4000/3615-longest-palindromic-path-in-graph/)
-- [133. Clone Graph](../../0001-0500/0133-clone-graph/)
+- [2608. Shortest Cycle in a Graph](../../2501-3000/2608-shortest-cycle-in-a-graph/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-cycle-in-a-graph/)

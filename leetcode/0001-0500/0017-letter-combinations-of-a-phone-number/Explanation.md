@@ -128,7 +128,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2056. Number of Valid Move Combinations On Chessboard](../../2001-2500/2056-number-of-valid-move-combinations-on-chessboard/)
 - [1694. Reformat Phone Number](../../1501-2000/1694-reformat-phone-number/)
-- [744. Find Smallest Letter Greater Than Target](../../0501-1000/0744-find-smallest-letter-greater-than-target/)
+- [77. Combinations](../../0001-0500/0077-combinations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)

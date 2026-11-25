@@ -183,7 +183,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [2856. Minimum Array Length After Pair Removals](../../2501-3000/2856-minimum-array-length-after-pair-removals/)
 - [3746. Minimum String Length After Balanced Removals](../../3501-4000/3746-minimum-string-length-after-balanced-removals/)
-- [111. Minimum Depth of Binary Tree](../../0001-0500/0111-minimum-depth-of-binary-tree/)
+- [861. Score After Flipping Matrix](../../0501-1000/0861-score-after-flipping-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/)

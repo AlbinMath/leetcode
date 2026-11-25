@@ -159,8 +159,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [4052. Cyclically Shift Rows and Columns](../../4001-4500/4052-cyclically-shift-rows-and-columns/)
-- [1861. Rotating the Box](../../1501-2000/1861-rotating-the-box/)
 - [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
+- [1260. Shift 2D Grid](../../1001-1500/1260-shift-2d-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cyclically-rotating-a-grid/)

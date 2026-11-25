@@ -172,7 +172,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2170. Minimum Operations to Make the Array Alternating](../../2001-2500/2170-minimum-operations-to-make-the-array-alternating/)
 - [3937. Minimum Operations to Make Array Modulo Alternating I](../../3501-4000/3937-minimum-operations-to-make-array-modulo-alternating-i/)
-- [3010. Divide an Array Into Subarrays With Minimum Cost I](../../3001-3500/3010-divide-an-array-into-subarrays-with-minimum-cost-i/)
+- [1827. Minimum Operations to Make the Array Increasing](../../1501-2000/1827-minimum-operations-to-make-the-array-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-transform-array-into-alternating-prime/)

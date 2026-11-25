@@ -163,8 +163,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [4109. Count Valid Suffix Sorts II](../../4001-4500/4109-count-valid-suffix-sorts-ii/)
-- [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1359-count-all-valid-pickup-and-delivery-options/)
-- [2867. Count Valid Paths in a Tree](../../2501-3000/2867-count-valid-paths-in-a-tree/)
+- [3042. Count Prefix and Suffix Pairs I](../../3001-3500/3042-count-prefix-and-suffix-pairs-i/)
+- [3045. Count Prefix and Suffix Pairs II](../../3001-3500/3045-count-prefix-and-suffix-pairs-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-valid-suffix-sorts-i/)

@@ -125,8 +125,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2482. Difference Between Ones and Zeros in Row and Column](../../2001-2500/2482-difference-between-ones-and-zeros-in-row-and-column/)
-- [474. Ones and Zeroes](../../0001-0500/0474-ones-and-zeroes/)
-- [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
+- [181. Employees Earning More Than Their Managers](../../0001-0500/0181-employees-earning-more-than-their-managers/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)

@@ -117,7 +117,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1031-maximum-sum-of-two-non-overlapping-subarrays/)
 - [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../../1001-1500/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-- [435. Non-overlapping Intervals](../../0001-0500/0435-non-overlapping-intervals/)
+- [4016. Maximum Area of Two Non-Overlapping Square Submatrices](../../4001-4500/4016-maximum-area-of-two-non-overlapping-square-submatrices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-best-non-overlapping-events/)

@@ -102,7 +102,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [349. Intersection of Two Arrays](../../0001-0500/0349-intersection-of-two-arrays/)
 - [350. Intersection of Two Arrays II](../../0001-0500/0350-intersection-of-two-arrays-ii/)
-- [1354. Construct Target Array With Multiple Sums](../../1001-1500/1354-construct-target-array-with-multiple-sums/)
+- [160. Intersection of Two Linked Lists](../../0001-0500/0160-intersection-of-two-linked-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/intersection-of-multiple-arrays/)

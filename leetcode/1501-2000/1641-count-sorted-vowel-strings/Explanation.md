@@ -108,8 +108,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2586. Count the Number of Vowel Strings in Range](../../2501-3000/2586-count-the-number-of-vowel-strings-in-range/)
-- [1351. Count Negative Numbers in a Sorted Matrix](../../1001-1500/1351-count-negative-numbers-in-a-sorted-matrix/)
 - [1684. Count the Number of Consistent Strings](../../1501-2000/1684-count-the-number-of-consistent-strings/)
+- [2506. Count Pairs Of Similar Strings](../../2501-3000/2506-count-pairs-of-similar-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-sorted-vowel-strings/)

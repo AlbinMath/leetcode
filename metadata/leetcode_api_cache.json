@@ -5,6 +5,12 @@
     "slug": "count-dominant-elements",
     "difficulty": "Easy"
   },
+  "minimum-operations-to-make-mountain-array-ii": {
+    "id": 4124,
+    "title": "Minimum Operations to Make Mountain Array II",
+    "slug": "minimum-operations-to-make-mountain-array-ii",
+    "difficulty": "Hard"
+  },
   "assign-umbrella-on-rainy-days": {
     "id": 4116,
     "title": "Assign Umbrella on Rainy Days",

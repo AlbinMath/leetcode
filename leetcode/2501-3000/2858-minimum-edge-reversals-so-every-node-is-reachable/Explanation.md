@@ -164,7 +164,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3650. Minimum Cost Path with Edge Reversals](../../3501-4000/3650-minimum-cost-path-with-edge-reversals/)
-- [671. Second Minimum Node In a Binary Tree](../../0501-1000/0671-second-minimum-node-in-a-binary-tree/)
+- [4053. Minimum Operations to Make Every Element Palindromic](../../4001-4500/4053-minimum-operations-to-make-every-element-palindromic/)
 - [2374. Node With Highest Edge Score](../../2001-2500/2374-node-with-highest-edge-score/)
 
 ## LeetCode

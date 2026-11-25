@@ -112,8 +112,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [172. Factorial Trailing Zeroes](../../0001-0500/0172-factorial-trailing-zeroes/)
-- [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
-- [283. Move Zeroes](../../0001-0500/0283-move-zeroes/)
+- [396. Rotate Function](../../0001-0500/0396-rotate-function/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1521-find-a-value-of-a-mysterious-function-closest-to-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/)

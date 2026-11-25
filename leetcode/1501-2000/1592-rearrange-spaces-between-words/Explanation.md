@@ -142,8 +142,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1451. Rearrange Words in a Sentence](../../1001-1500/1451-rearrange-words-in-a-sentence/)
-- [1795. Rearrange Products Table](../../1501-2000/1795-rearrange-products-table/)
-- [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../../1501-2000/1866-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
+- [2109. Adding Spaces to a String](../../2001-2500/2109-adding-spaces-to-a-string/)
+- [783. Minimum Distance Between BST Nodes](../../0501-1000/0783-minimum-distance-between-bst-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-spaces-between-words/)

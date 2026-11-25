@@ -149,7 +149,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3006. Find Beautiful Indices in the Given Array I](../../3001-3500/3006-find-beautiful-indices-in-the-given-array-i/)
 - [3008. Find Beautiful Indices in the Given Array II](../../3001-3500/3008-find-beautiful-indices-in-the-given-array-ii/)
-- [2732. Find a Good Subset of the Matrix](../../2501-3000/2732-find-a-good-subset-of-the-matrix/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-array-given-subset-sums/)

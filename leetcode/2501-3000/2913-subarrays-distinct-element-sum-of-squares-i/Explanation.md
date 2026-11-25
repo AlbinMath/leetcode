@@ -133,7 +133,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2916. Subarrays Distinct Element Sum of Squares II](../../2501-3000/2916-subarrays-distinct-element-sum-of-squares-ii/)
 - [2461. Maximum Sum of Distinct Subarrays With Length K](../../2001-2500/2461-maximum-sum-of-distinct-subarrays-with-length-k/)
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [2778. Sum of Squares of Special Elements ](../../2501-3000/2778-sum-of-squares-of-special-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/)

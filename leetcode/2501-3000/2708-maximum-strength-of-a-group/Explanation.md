@@ -103,9 +103,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2281. Sum of Total Strength of Wizards](../../2001-2500/2281-sum-of-total-strength-of-wizards/)
-- [4010. Maximize Pair Strength Using GCD](../../4001-4500/4010-maximize-pair-strength-using-gcd/)
 - [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-strength-of-a-group/)

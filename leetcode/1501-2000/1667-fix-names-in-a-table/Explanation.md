@@ -118,9 +118,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1487. Making File Names Unique](../../1001-1500/1487-making-file-names-unique/)
 - [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
 - [1179. Reformat Department Table](../../1001-1500/1179-reformat-department-table/)
+- [1418. Display Table of Food Orders in a Restaurant](../../1001-1500/1418-display-table-of-food-orders-in-a-restaurant/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fix-names-in-a-table/)

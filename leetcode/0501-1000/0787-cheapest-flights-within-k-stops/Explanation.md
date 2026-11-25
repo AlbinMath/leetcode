@@ -126,7 +126,7 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [2146. K Highest Ranked Items Within a Price Range](../../2001-2500/2146-k-highest-ranked-items-within-a-price-range/)
 - [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../../3501-4000/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/)
-- [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
+- [3824. Minimum K to Reduce Array Within Limit](../../3501-4000/3824-minimum-k-to-reduce-array-within-limit/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cheapest-flights-within-k-stops/)

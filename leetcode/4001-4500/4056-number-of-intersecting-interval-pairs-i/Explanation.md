@@ -125,9 +125,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [4057. Number of Intersecting Interval Pairs II](../../4001-4500/4057-number-of-intersecting-interval-pairs-ii/)
 - [1128. Number of Equivalent Domino Pairs](../../1001-1500/1128-number-of-equivalent-domino-pairs/)
 - [1512. Number of Good Pairs](../../1501-2000/1512-number-of-good-pairs/)
-- [1530. Number of Good Leaf Nodes Pairs](../../1501-2000/1530-number-of-good-leaf-nodes-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-intersecting-interval-pairs-i/)

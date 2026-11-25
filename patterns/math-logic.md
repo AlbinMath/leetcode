@@ -102,6 +102,7 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 | 3899 | [Angles of a Triangle](../leetcode/3501-4000/3899-angles-of-a-triangle/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3899-angles-of-a-triangle/Explanation.md) |
 | 3968 | [Maximum Manhattan Distance After All Moves](../leetcode/3501-4000/3968-maximum-manhattan-distance-after-all-moves/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3968-maximum-manhattan-distance-after-all-moves/Explanation.md) |
 | 3969 | [Valid Subarrays With Matching Sum Digits I](../leetcode/3501-4000/3969-valid-subarrays-with-matching-sum-digits-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3969-valid-subarrays-with-matching-sum-digits-i/Explanation.md) |
+| 4022 | [K-th Digit in Infinite String](../leetcode/4001-4500/4022-k-th-digit-in-infinite-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4022-k-th-digit-in-infinite-string/Explanation.md) |
 
 ### Hard
 

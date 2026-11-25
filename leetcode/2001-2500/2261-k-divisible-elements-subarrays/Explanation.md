@@ -131,7 +131,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../../3501-4000/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/)
 - [3712. Sum of Elements With Frequency Divisible by K](../../3501-4000/3712-sum-of-elements-with-frequency-divisible-by-k/)
-- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
+- [992. Subarrays with K Different Integers](../../0501-1000/0992-subarrays-with-k-different-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-divisible-elements-subarrays/)

@@ -135,9 +135,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [151. Reverse Words in a String](../../0001-0500/0151-reverse-words-in-a-string/)
-- [344. Reverse String](../../0001-0500/0344-reverse-string/)
-- [345. Reverse Vowels of a String](../../0001-0500/0345-reverse-vowels-of-a-string/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1239-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1374-generate-a-string-with-characters-that-have-odd-counts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/)

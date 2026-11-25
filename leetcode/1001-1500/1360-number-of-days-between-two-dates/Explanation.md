@@ -93,8 +93,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1347-minimum-number-of-steps-to-make-two-strings-anagram/)
-- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1385-find-the-distance-value-between-two-arrays/)
 - [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1001-1500/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
+- [1482. Minimum Number of Days to Make m Bouquets](../../1001-1500/1482-minimum-number-of-days-to-make-m-bouquets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-days-between-two-dates/)

@@ -103,8 +103,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
-- [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
-- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
+- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
+- [1838. Frequency of the Most Frequent Element](../../1501-2000/1838-frequency-of-the-most-frequent-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/top-k-frequent-words/)

@@ -134,8 +134,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2438. Range Product Queries of Powers](../../2001-2500/2438-range-product-queries-of-powers/)
-- [201. Bitwise AND of Numbers Range](../../0001-0500/0201-bitwise-and-of-numbers-range/)
-- [303. Range Sum Query - Immutable](../../0001-0500/0303-range-sum-query-immutable/)
+- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
+- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/abbreviating-the-product-of-a-range/)

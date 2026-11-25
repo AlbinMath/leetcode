@@ -90,8 +90,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [191. Number of 1 Bits](../../0001-0500/0191-number-of-1-bits/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
-- [1387. Sort Integers by The Power Value](../../1001-1500/1387-sort-integers-by-the-power-value/)
+- [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
+- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)

@@ -134,9 +134,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3824. Minimum K to Reduce Array Within Limit](../../3501-4000/3824-minimum-k-to-reduce-array-within-limit/)
+- [3356. Zero Array Transformation II](../../3001-3500/3356-zero-array-transformation-ii/)
 - [3690. Split and Merge Array Transformation](../../3501-4000/3690-split-and-merge-array-transformation/)
-- [1342. Number of Steps to Reduce a Number to Zero](../../1001-1500/1342-number-of-steps-to-reduce-a-number-to-zero/)
-- [1404. Number of Steps to Reduce a Number in Binary Representation to One](../../1001-1500/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/array-reduce-transformation/)

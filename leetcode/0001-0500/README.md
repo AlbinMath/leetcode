@@ -385,7 +385,7 @@ A collection of **400** solved LeetCode problems in the range **0001-0500**.
 | 472 | [Concatenated Words](./0472-concatenated-words/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0472-concatenated-words/Explanation.md) |
 | 473 | [Matchsticks to Square](./0473-matchsticks-to-square/) | Medium | [Backtracking](../../patterns/backtracking.md) | JavaScript | [Explanation](./0473-matchsticks-to-square/Explanation.md) |
 | 474 | [Ones and Zeroes](./0474-ones-and-zeroes/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0474-ones-and-zeroes/Explanation.md) |
-| 475 | [Heaters](./0475-heaters/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0475-heaters/Explanation.md) |
+| 475 | [Heaters](./0475-heaters/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0475-heaters/Explanation.md) |
 | 476 | [Number Complement](./0476-number-complement/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0476-number-complement/Explanation.md) |
 | 477 | [Total Hamming Distance](./0477-total-hamming-distance/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0477-total-hamming-distance/Explanation.md) |
 | 478 | [Generate Random Point in a Circle](./0478-generate-random-point-in-a-circle/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0478-generate-random-point-in-a-circle/Explanation.md) |

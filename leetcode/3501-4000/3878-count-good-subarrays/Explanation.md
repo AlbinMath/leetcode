@@ -239,7 +239,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2537. Count the Number of Good Subarrays](../../2501-3000/2537-count-the-number-of-good-subarrays/)
 - [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
-- [1448. Count Good Nodes in Binary Tree](../../1001-1500/1448-count-good-nodes-in-binary-tree/)
+- [2302. Count Subarrays With Score Less Than K](../../2001-2500/2302-count-subarrays-with-score-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-good-subarrays/)

@@ -17,7 +17,7 @@ Solutions implemented across multiple programming languages.
 | **JavaScript** | 696 solutions | [Browse JavaScript](./javascript.md) |
 | **Kotlin** | 15 solutions | [Browse Kotlin](./kotlin.md) |
 | **PHP** | 59 solutions | [Browse PHP](./php.md) |
-| **Python** | 1580 solutions | [Browse Python](./python.md) |
+| **Python** | 1614 solutions | [Browse Python](./python.md) |
 | **Racket** | 1 solutions | [Browse Racket](./racket.md) |
 | **Ruby** | 1 solutions | [Browse Ruby](./ruby.md) |
 | **Rust** | 1 solutions | [Browse Rust](./rust.md) |

@@ -29,7 +29,7 @@ A collection of **384** solved LeetCode problems in the range **0501-1000**.
 | 528 | [Random Pick with Weight](./0528-random-pick-with-weight/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0528-random-pick-with-weight/Explanation.md) |
 | 529 | [Minesweeper](./0529-minesweeper/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0529-minesweeper/Explanation.md) |
 | 530 | [Minimum Absolute Difference in BST](./0530-minimum-absolute-difference-in-bst/) | Easy | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0530-minimum-absolute-difference-in-bst/Explanation.md) |
-| 532 | [K-diff Pairs in an Array](./0532-k-diff-pairs-in-an-array/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0532-k-diff-pairs-in-an-array/Explanation.md) |
+| 532 | [K-diff Pairs in an Array](./0532-k-diff-pairs-in-an-array/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0532-k-diff-pairs-in-an-array/Explanation.md) |
 | 535 | [Encode and Decode TinyURL](./0535-encode-and-decode-tinyurl/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0535-encode-and-decode-tinyurl/Explanation.md) |
 | 537 | [Complex Number Multiplication](./0537-complex-number-multiplication/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0537-complex-number-multiplication/Explanation.md) |
 | 538 | [Convert BST to Greater Tree](./0538-convert-bst-to-greater-tree/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0538-convert-bst-to-greater-tree/Explanation.md) |
@@ -289,7 +289,7 @@ A collection of **384** solved LeetCode problems in the range **0501-1000**.
 | 884 | [Uncommon Words from Two Sentences](./0884-uncommon-words-from-two-sentences/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0884-uncommon-words-from-two-sentences/Explanation.md) |
 | 885 | [Spiral Matrix III](./0885-spiral-matrix-iii/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0885-spiral-matrix-iii/Explanation.md) |
 | 886 | [Possible Bipartition](./0886-possible-bipartition/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0886-possible-bipartition/Explanation.md) |
-| 887 | [Super Egg Drop](./0887-super-egg-drop/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0887-super-egg-drop/Explanation.md) |
+| 887 | [Super Egg Drop](./0887-super-egg-drop/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0887-super-egg-drop/Explanation.md) |
 | 888 | [Fair Candy Swap](./0888-fair-candy-swap/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0888-fair-candy-swap/Explanation.md) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](./0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0889-construct-binary-tree-from-preorder-and-postorder-traversal/Explanation.md) |
 | 890 | [Find and Replace Pattern](./0890-find-and-replace-pattern/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0890-find-and-replace-pattern/Explanation.md) |

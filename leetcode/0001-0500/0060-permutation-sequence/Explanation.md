@@ -111,9 +111,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [128. Longest Consecutive Sequence](../../0001-0500/0128-longest-consecutive-sequence/)
-- [842. Split Array into Fibonacci Sequence](../../0501-1000/0842-split-array-into-fibonacci-sequence/)
-- [903. Valid Permutations for DI Sequence](../../0501-1000/0903-valid-permutations-for-di-sequence/)
+- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
+- [567. Permutation in String](../../0501-1000/0567-permutation-in-string/)
+- [784. Letter Case Permutation](../../0501-1000/0784-letter-case-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/permutation-sequence/)

@@ -118,8 +118,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2778. Sum of Squares of Special Elements ](../../2501-3000/2778-sum-of-squares-of-special-elements/)
+- [2841. Maximum Sum of Almost Unique Subarray](../../2501-3000/2841-maximum-sum-of-almost-unique-subarray/)
 - [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../../3001-3500/3165-maximum-sum-of-subsequence-with-non-adjacent-elements/)
-- [3712. Sum of Elements With Frequency Divisible by K](../../3501-4000/3712-sum-of-elements-with-frequency-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-unique-elements/)

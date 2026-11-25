@@ -146,7 +146,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3547. Maximum Sum of Edge Values in a Graph](../../3501-4000/3547-maximum-sum-of-edge-values-in-a-graph/)
 - [1791. Find Center of Star Graph](../../1501-2000/1791-find-center-of-star-graph/)
-- [2065. Maximum Path Quality of a Graph](../../2001-2500/2065-maximum-path-quality-of-a-graph/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-star-sum-of-a-graph/)

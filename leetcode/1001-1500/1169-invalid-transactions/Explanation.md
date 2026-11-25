@@ -121,9 +121,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [301. Remove Invalid Parentheses](../../0001-0500/0301-remove-invalid-parentheses/)
-- [1683. Invalid Tweets](../../1501-2000/1683-invalid-tweets/)
-- [3451. Find Invalid IP Addresses](../../3001-3500/3451-find-invalid-ip-addresses/)
+- [1193. Monthly Transactions I](../../1001-1500/1193-monthly-transactions-i/)
+- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1581-customer-who-visited-but-did-not-make-any-transactions/)
+- [3220. Odd and Even Transactions](../../3001-3500/3220-odd-and-even-transactions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/invalid-transactions/)

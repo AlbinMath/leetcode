@@ -154,9 +154,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1130-minimum-cost-tree-from-leaf-values/)
-- [1217. Minimum Cost to Move Chips to The Same Position](../../1001-1500/1217-minimum-cost-to-move-chips-to-the-same-position/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+- [2203. Minimum Weighted Subgraph With the Required Paths](../../2001-2500/2203-minimum-weighted-subgraph-with-the-required-paths/)
+- [3553. Minimum Weighted Subgraph With the Required Paths II](../../3501-4000/3553-minimum-weighted-subgraph-with-the-required-paths-ii/)
+- [1761. Minimum Degree of a Connected Trio in a Graph](../../1501-2000/1761-minimum-degree-of-a-connected-trio-in-a-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/)

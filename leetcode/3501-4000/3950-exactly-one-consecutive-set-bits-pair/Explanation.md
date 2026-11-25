@@ -94,9 +94,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3963. Create Grid With Exactly One Path](../../3501-4000/3963-create-grid-with-exactly-one-path/)
 - [3480. Maximize Subarrays After Removing One Conflicting Pair](../../3001-3500/3480-maximize-subarrays-after-removing-one-conflicting-pair/)
 - [3821. Find Nth Smallest Integer With K One Bits](../../3501-4000/3821-find-nth-smallest-integer-with-k-one-bits/)
+- [3963. Create Grid With Exactly One Path](../../3501-4000/3963-create-grid-with-exactly-one-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/)

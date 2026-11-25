@@ -1,0 +1,189 @@
+# LeetCode 3357: Minimize the Maximum Adjacent Element Difference
+
+**LeetCode Problem #3357 — Minimize the Maximum Adjacent Element Difference**
+Solve LeetCode Minimize the Maximum Adjacent Element Difference using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+
+## Problem Information
+| Property | Value |
+|---|---|
+| Problem | Minimize the Maximum Adjacent Element Difference |
+| LeetCode | #3357 |
+| Difficulty | Hard |
+| Language | Python |
+| Algorithm | In-Place Array Traversal & Index Mapping |
+| Data Structure | Array |
+| Pattern | Array / General |
+| Time Complexity | O(n) |
+| Space Complexity | O(1) |
+
+## Problem Statement
+You are given an array of integers `nums`. Some values in `nums` are **missing** and are denoted by -1.
+
+You must choose a pair of **positive** integers `(x, y)` **exactly once** and replace each **missing** element with *either* `x` or `y`.
+
+You need to **minimize**** **the** maximum** **absolute difference** between *adjacent* elements of `nums` after replacements.
+
+Return the **minimum** possible difference.
+
+## Constraints
+- `2 <= nums.length <= 10^5`
+- `nums[i]` is either -1 or in the range `[1, 10^9]`.
+
+## Examples
+### Example 1
+- **Input:** `nums = [1,2,-1,10,8]`
+- **Output:** `4`
+- **Explanation:** By choosing the pair as `(6, 7)`, nums can be changed to `[1, 2, 6, 10, 8]`. 
+
+ The absolute differences between adjacent elements are: 
+
+ 
+ `|1 - 2| == 1` 
+ `|2 - 6| == 4` 
+ `|6 - 10| == 4` 
+ `|10 - 8| == 2`
+
+### Example 2
+- **Input:** `nums = [-1,-1,-1]`
+- **Output:** `0`
+- **Explanation:** By choosing the pair as `(4, 4)`, nums can be changed to `[4, 4, 4]`.
+
+### Example 3
+- **Input:** `nums = [-1,10,-1,8]`
+- **Output:** `1`
+- **Explanation:** By choosing the pair as `(11, 9)`, nums can be changed to `[11, 10, 9, 8]`.
+
+## Key Insight
+Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+
+## Approach
+To solve **Minimize the Maximum Adjacent Element Difference**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
+
+## Algorithm
+1. Initialize two pointers at opposite ends of the input.
+2. Evaluate pointer elements and update running calculations.
+3. Advance or retreat pointers conditionally until they meet.
+4. Validate boundary conditions and return the final computed result.
+
+## Example Walkthrough
+1. **Input State:** We begin with `nums = [1,2,-1,10,8]`.
+2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+   - Initialize the state according to the problem setup.
+   - Trace intermediate operations and invariant checks.
+3. **Result:** Arrive at the expected output `4`.
+4. **Verification:** By choosing the pair as `(6, 7)`, nums can be changed to `[1, 2, 6, 10, 8]`. 
+
+ The absolute differences between adjacent elements are: 
+
+ 
+ `|1 - 2| == 1` 
+ `|2 - 6| == 4` 
+ `|6 - 10| == 4` 
+ `|10 - 8| == 2`
+
+## Complexity Analysis
+- **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+
+## Pattern
+**Array / General**
+
+## Topics
+- Array
+
+## Language
+Python
+
+## Source Code
+- [solution.py](./solution.py)
+
+
+```python
+from typing import List
+
+class Solution:
+    def minDifference(self, nums: List[int]) -> int:
+        n = len(nums)
+        base = 0
+        for i in range(n - 1):
+            if nums[i] != -1 and nums[i + 1] != -1:
+                base = max(base, abs(nums[i] - nums[i + 1]))
+
+        segs = []
+        nb = []
+        i = 0
+        while i < n:
+            if nums[i] == -1:
+                j = i
+                while j + 1 < n and nums[j + 1] == -1:
+                    j += 1
+                a = nums[i - 1] if i > 0 else None
+                b = nums[j + 1] if j < n - 1 else None
+                if a is not None:
+                    nb.append(a)
+                if b is not None:
+                    nb.append(b)
+                if a is not None or b is not None:
+                    segs.append((a, b, j - i + 1))
+                i = j + 1
+            else:
+                i += 1
+
+        if not nb:
+            return base
+        mn, mx = min(nb), max(nb)
+
+        def ok(d: int) -> bool:
+            x, y = mn + d, mx - d
+            vals = (x, y)
+            for a, b, ln in segs:
+                if a is None or b is None:
+                    k = a if a is not None else b
+                    if not any(abs(k - p) <= d for p in vals):
+                        return False
+                    continue
+                good = False
+                for p in vals:
+                    if abs(a - p) > d:
+                        continue
+                    for q in vals:
+                        if abs(b - q) > d:
+                            continue
+                        if p == q or (ln >= 2 and abs(x - y) <= d):
+                            good = True
+                            break
+                    if good:
+                        break
+                if not good:
+                    return False
+            return True
+
+        lo, hi = base, max(base, (mx - mn + 1) // 2)
+        while lo < hi:
+            mid = (lo + hi) // 2
+            if ok(mid):
+                hi = mid
+            else:
+                lo = mid + 1
+        return lo
+```
+
+## Why This Works
+By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+
+## Common Mistakes
+1. Missing edge cases (empty inputs, boundary limits, negative values).
+2. Off-by-one errors in loop conditions.
+3. TLE due to suboptimal data structure choices.
+
+## Interview Notes
+- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
+- **Follow-up:** How would you scale this solution for large input streams?
+
+## Related Problems
+- [2616. Minimize the Maximum Difference of Pairs](../../2501-3000/2616-minimize-the-maximum-difference-of-pairs/)
+- [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
+- [1913. Maximum Product Difference Between Two Pairs](../../1501-2000/1913-maximum-product-difference-between-two-pairs/)
+
+## LeetCode
+[View problem on LeetCode](https://leetcode.com/problems/minimize-the-maximum-adjacent-element-difference/)

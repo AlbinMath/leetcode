@@ -137,8 +137,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2261. K Divisible Elements Subarrays](../../2001-2500/2261-k-divisible-elements-subarrays/)
-- [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
-- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
+- [560. Subarray Sum Equals K](../../0501-1000/0560-subarray-sum-equals-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/)

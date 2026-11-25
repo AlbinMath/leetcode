@@ -128,8 +128,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3411. Maximum Subarray With Equal Products](../../3001-3500/3411-maximum-subarray-with-equal-products/)
-- [1045. Customers Who Bought All Products](../../1001-1500/1045-customers-who-bought-all-products/)
-- [1327. List the Products Ordered in a Period](../../1001-1500/1327-list-the-products-ordered-in-a-period/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)

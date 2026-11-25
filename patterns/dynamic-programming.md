@@ -64,10 +64,12 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](../leetcode/1001-1500/1315-sum-of-nodes-with-even-valued-grandparent/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1315-sum-of-nodes-with-even-valued-grandparent/Explanation.md) |
 | 1423 | [Maximum Points You Can Obtain from Cards](../leetcode/1001-1500/1423-maximum-points-you-can-obtain-from-cards/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1423-maximum-points-you-can-obtain-from-cards/Explanation.md) |
 | 1641 | [Count Sorted Vowel Strings](../leetcode/1501-2000/1641-count-sorted-vowel-strings/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1641-count-sorted-vowel-strings/Explanation.md) |
+| 1648 | [Sell Diminishing-Valued Colored Balls](../leetcode/1501-2000/1648-sell-diminishing-valued-colored-balls/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1648-sell-diminishing-valued-colored-balls/Explanation.md) |
 | 1690 | [Stone Game VII](../leetcode/1501-2000/1690-stone-game-vii/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1690-stone-game-vii/Explanation.md) |
 | 1947 | [Maximum Compatibility Score Sum](../leetcode/1501-2000/1947-maximum-compatibility-score-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1947-maximum-compatibility-score-sum/Explanation.md) |
 | 1958 | [Check if Move is Legal](../leetcode/1501-2000/1958-check-if-move-is-legal/) | Python | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1958-check-if-move-is-legal/Explanation.md) |
 | 1986 | [Minimum Number of Work Sessions to Finish the Tasks](../leetcode/1501-2000/1986-minimum-number-of-work-sessions-to-finish-the-tasks/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1986-minimum-number-of-work-sessions-to-finish-the-tasks/Explanation.md) |
+| 2008 | [Maximum Earnings From Taxi](../leetcode/2001-2500/2008-maximum-earnings-from-taxi/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2008-maximum-earnings-from-taxi/Explanation.md) |
 | 2201 | [Count Artifacts That Can Be Extracted](../leetcode/2001-2500/2201-count-artifacts-that-can-be-extracted/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2201-count-artifacts-that-can-be-extracted/Explanation.md) |
 | 2311 | [Longest Binary Subsequence Less Than or Equal to K](../leetcode/2001-2500/2311-longest-binary-subsequence-less-than-or-equal-to-k/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2311-longest-binary-subsequence-less-than-or-equal-to-k/Explanation.md) |
 | 2555 | [Maximize Win From Two Segments](../leetcode/2501-3000/2555-maximize-win-from-two-segments/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2555-maximize-win-from-two-segments/Explanation.md) |
@@ -87,6 +89,7 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 3877 | [Minimum Removals to Achieve Target XOR](../leetcode/3501-4000/3877-minimum-removals-to-achieve-target-xor/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3877-minimum-removals-to-achieve-target-xor/Explanation.md) |
 | 3882 | [Minimum XOR Path in a Grid](../leetcode/3501-4000/3882-minimum-xor-path-in-a-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3882-minimum-xor-path-in-a-grid/Explanation.md) |
 | 3979 | [Maximum Valid Pair Sum](../leetcode/3501-4000/3979-maximum-valid-pair-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3979-maximum-valid-pair-sum/Explanation.md) |
+| 4057 | [Number of Intersecting Interval Pairs II](../leetcode/4001-4500/4057-number-of-intersecting-interval-pairs-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4057-number-of-intersecting-interval-pairs-ii/Explanation.md) |
 
 ### Hard
 
@@ -138,7 +141,6 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 2421 | [Number of Good Paths](../leetcode/2001-2500/2421-number-of-good-paths/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2421-number-of-good-paths/Explanation.md) |
 | 2430 | [Maximum Deletions on a String](../leetcode/2001-2500/2430-maximum-deletions-on-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2430-maximum-deletions-on-a-string/Explanation.md) |
 | 2547 | [Minimum Cost to Split an Array](../leetcode/2501-3000/2547-minimum-cost-to-split-an-array/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2547-minimum-cost-to-split-an-array/Explanation.md) |
-| 2565 | [Subsequence With the Minimum Score](../leetcode/2501-3000/2565-subsequence-with-the-minimum-score/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2565-subsequence-with-the-minimum-score/Explanation.md) |
 | 2646 | [Minimize the Total Price of the Trips](../leetcode/2501-3000/2646-minimize-the-total-price-of-the-trips/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2646-minimize-the-total-price-of-the-trips/Explanation.md) |
 | 2813 | [Maximum Elegance of a K-Length Subsequence](../leetcode/2501-3000/2813-maximum-elegance-of-a-k-length-subsequence/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2813-maximum-elegance-of-a-k-length-subsequence/Explanation.md) |
 | 2842 | [Count K-Subsequences of a String With Maximum Beauty](../leetcode/2501-3000/2842-count-k-subsequences-of-a-string-with-maximum-beauty/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2842-count-k-subsequences-of-a-string-with-maximum-beauty/Explanation.md) |
@@ -155,4 +157,5 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 3886 | [Sum of Sortable Integers](../leetcode/3501-4000/3886-sum-of-sortable-integers/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3886-sum-of-sortable-integers/Explanation.md) |
 | 3901 | [Good Subsequence Queries](../leetcode/3501-4000/3901-good-subsequence-queries/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3901-good-subsequence-queries/Explanation.md) |
 | 3957 | [Maximum Sum of M Non-Overlapping Subarrays II](../leetcode/3501-4000/3957-maximum-sum-of-m-non-overlapping-subarrays-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3957-maximum-sum-of-m-non-overlapping-subarrays-ii/Explanation.md) |
+| 4068 | [Maximize Meeting Earnings with Idle Gaps](../leetcode/4001-4500/4068-maximize-meeting-earnings-with-idle-gaps/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4068-maximize-meeting-earnings-with-idle-gaps/Explanation.md) |
 

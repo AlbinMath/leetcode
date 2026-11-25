@@ -130,8 +130,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3158. Find the XOR of Numbers Which Appear Twice](../../3001-3500/3158-find-the-xor-of-numbers-which-appear-twice/)
-- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
-- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
+- [1365. How Many Numbers Are Smaller Than the Current Number](../../1001-1500/1365-how-many-numbers-are-smaller-than-the-current-number/)
+- [2042. Check if Numbers Are Ascending in a Sentence](../../2001-2500/2042-check-if-numbers-are-ascending-in-a-sentence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/)

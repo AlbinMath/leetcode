@@ -153,8 +153,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [240. Search a 2D Matrix II](../../0001-0500/0240-search-a-2d-matrix-ii/)
-- [304. Range Sum Query 2D - Immutable](../../0001-0500/0304-range-sum-query-2d-immutable/)
-- [1260. Shift 2D Grid](../../1001-1500/1260-shift-2d-grid/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
+- [35. Search Insert Position](../../0001-0500/0035-search-insert-position/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-a-2d-matrix/)

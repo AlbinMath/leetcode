@@ -1,7 +1,7 @@
 # LeetCode 1855: Maximum Distance Between a Pair of Values
 
 **LeetCode Problem #1855 — Maximum Distance Between a Pair of Values**
-Solve LeetCode Maximum Distance Between a Pair of Values using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Maximum Distance Between a Pair of Values using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Maximum Distance Between a Pair of Values using Python and Array 
 | LeetCode | #1855 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
-| Pattern | Array / General |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -50,7 +50,7 @@ The maximum distance is 1 with pair (0,1).
 The maximum distance is 2 with pair (2,4).
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Maximum Distance Between a Pair of Values**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -63,7 +63,7 @@ To solve **Maximum Distance Between a Pair of Values**, we observe the problem r
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums1 = [55,30,5,4,2], nums2 = [100,20,10,10,5]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `2`.
@@ -75,10 +75,12 @@ The maximum distance is 2 with pair (2,4).
 - **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Array / General**
+**Two Pointers**
 
 ## Topics
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 Python
@@ -103,21 +105,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [783. Minimum Distance Between BST Nodes](../../0501-1000/0783-minimum-distance-between-bst-nodes/)
-- [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
-- [1190. Reverse Substrings Between Each Pair of Parentheses](../../1001-1500/1190-reverse-substrings-between-each-pair-of-parentheses/)
+- [3068. Find the Maximum Sum of Node Values](../../3001-3500/3068-find-the-maximum-sum-of-node-values/)
+- [3547. Maximum Sum of Edge Values in a Graph](../../3501-4000/3547-maximum-sum-of-edge-values-in-a-graph/)
+- [3880. Minimum Absolute Difference Between Two Values](../../3501-4000/3880-minimum-absolute-difference-between-two-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/)

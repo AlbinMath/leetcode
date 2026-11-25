@@ -96,9 +96,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
-- [177. Nth Highest Salary](../../0001-0500/0177-nth-highest-salary/)
-- [878. Nth Magical Number](../../0501-1000/0878-nth-magical-number/)
+- [233. Number of Digit One](../../0001-0500/0233-number-of-digit-one/)
+- [902. Numbers At Most N Given Digit Set](../../0501-1000/0902-numbers-at-most-n-given-digit-set/)
+- [1796. Second Largest Digit in a String](../../1501-2000/1796-second-largest-digit-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/nth-digit/)

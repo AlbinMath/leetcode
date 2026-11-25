@@ -118,7 +118,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1828. Queries on Number of Points Inside a Circle](../../1501-2000/1828-queries-on-number-of-points-inside-a-circle/)
 - [2857. Count Pairs of Points With Distance k](../../2501-3000/2857-count-pairs-of-points-with-distance-k/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [3143. Maximum Points Inside the Square](../../3001-3500/3143-maximum-points-inside-the-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-lattice-points-inside-a-circle/)

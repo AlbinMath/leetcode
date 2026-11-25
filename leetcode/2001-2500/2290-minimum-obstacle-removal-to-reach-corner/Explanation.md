@@ -127,9 +127,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3507. Minimum Pair Removal to Sort Array I](../../3501-4000/3507-minimum-pair-removal-to-sort-array-i/)
+- [3510. Minimum Pair Removal to Sort Array II](../../3501-4000/3510-minimum-pair-removal-to-sort-array-ii/)
 - [1210. Minimum Moves to Reach Target with Rotations](../../1001-1500/1210-minimum-moves-to-reach-target-with-rotations/)
-- [1557. Minimum Number of Vertices to Reach All Nodes](../../1501-2000/1557-minimum-number-of-vertices-to-reach-all-nodes/)
-- [1654. Minimum Jumps to Reach Home](../../1501-2000/1654-minimum-jumps-to-reach-home/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)

@@ -118,9 +118,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3795. Minimum Subarray Length With Distinct Sum At Least K](../../3501-4000/3795-minimum-subarray-length-with-distinct-sum-at-least-k/)
 - [3095. Shortest Subarray With OR at Least K I](../../3001-3500/3095-shortest-subarray-with-or-at-least-k-i/)
 - [3097. Shortest Subarray With OR at Least K II](../../3001-3500/3097-shortest-subarray-with-or-at-least-k-ii/)
-- [3795. Minimum Subarray Length With Distinct Sum At Least K](../../3501-4000/3795-minimum-subarray-length-with-distinct-sum-at-least-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)

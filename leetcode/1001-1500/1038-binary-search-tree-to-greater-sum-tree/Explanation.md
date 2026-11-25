@@ -114,9 +114,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
-- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
-- [108. Convert Sorted Array to Binary Search Tree](../../0001-0500/0108-convert-sorted-array-to-binary-search-tree/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [1161. Maximum Level Sum of a Binary Tree](../../1001-1500/1161-maximum-level-sum-of-a-binary-tree/)
+- [1373. Maximum Sum BST in Binary Tree](../../1001-1500/1373-maximum-sum-bst-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)

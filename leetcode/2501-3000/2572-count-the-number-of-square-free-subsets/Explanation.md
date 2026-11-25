@@ -144,8 +144,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2044. Count Number of Maximum Bitwise-OR Subsets](../../2001-2500/2044-count-number-of-maximum-bitwise-or-subsets/)
-- [1277. Count Square Submatrices with All Ones](../../1001-1500/1277-count-square-submatrices-with-all-ones/)
-- [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1725-number-of-rectangles-that-can-form-the-largest-square/)
+- [1994. The Number of Good Subsets](../../1501-2000/1994-the-number-of-good-subsets/)
+- [2597. The Number of Beautiful Subsets](../../2501-3000/2597-the-number-of-beautiful-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-square-free-subsets/)

@@ -116,9 +116,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [546. Remove Boxes](../../0501-1000/0546-remove-boxes/)
-- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
-- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1001-1500/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
+- [1117. Building H2O](../../1001-1500/1117-building-h2o/)
+- [1840. Maximum Building Height](../../1501-2000/1840-maximum-building-height/)
+- [2940. Find Building Where Alice and Bob Can Meet](../../2501-3000/2940-find-building-where-alice-and-bob-can-meet/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/building-boxes/)

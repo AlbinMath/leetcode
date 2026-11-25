@@ -278,9 +278,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [858. Mirror Reflection](../../0501-1000/0858-mirror-reflection/)
-- [2081. Sum of k-Mirror Numbers](../../2001-2500/2081-sum-of-k-mirror-numbers/)
-- [3412. Find Mirror Score of a String](../../3001-3500/3412-find-mirror-score-of-a-string/)
+- [72. Edit Distance](../../0001-0500/0072-edit-distance/)
+- [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
+- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/mirror-frequency-distance/)

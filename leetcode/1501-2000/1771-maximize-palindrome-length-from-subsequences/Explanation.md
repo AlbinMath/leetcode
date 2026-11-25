@@ -122,9 +122,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2259. Remove Digit From Number to Maximize Result](../../2001-2500/2259-remove-digit-from-number-to-maximize-result/)
-- [2555. Maximize Win From Two Segments](../../2501-3000/2555-maximize-win-from-two-segments/)
 - [1930. Unique Length-3 Palindromic Subsequences](../../1501-2000/1930-unique-length-3-palindromic-subsequences/)
+- [2002. Maximum Product of the Length of Two Palindromic Subsequences](../../2001-2500/2002-maximum-product-of-the-length-of-two-palindromic-subsequences/)
+- [1177. Can Make Palindrome from Substring](../../1001-1500/1177-can-make-palindrome-from-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-palindrome-length-from-subsequences/)

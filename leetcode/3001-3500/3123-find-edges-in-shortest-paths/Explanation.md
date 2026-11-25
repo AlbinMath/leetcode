@@ -166,7 +166,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [943. Find the Shortest Superstring](../../0501-1000/0943-find-the-shortest-superstring/)
 - [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../../1001-1500/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
-- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-edges-in-shortest-paths/)

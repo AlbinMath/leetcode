@@ -132,9 +132,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
-- [61. Rotate List](../../0001-0500/0061-rotate-list/)
-- [82. Remove Duplicates from Sorted List II](../../0001-0500/0082-remove-duplicates-from-sorted-list-ii/)
+- [937. Reorder Data in Log Files](../../0501-1000/0937-reorder-data-in-log-files/)
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../../1001-1500/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- [1569. Number of Ways to Reorder Array to Get Same BST](../../1501-2000/1569-number-of-ways-to-reorder-array-to-get-same-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reorder-list/)

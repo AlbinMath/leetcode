@@ -116,7 +116,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3222. Find the Winning Player in Coin Game](../../3001-3500/3222-find-the-winning-player-in-coin-game/)
+- [2225. Find Players With Zero or One Losses](../../2001-2500/2225-find-players-with-zero-or-one-losses/)
 - [287. Find the Duplicate Number](../../0001-0500/0287-find-the-duplicate-number/)
 - [1295. Find Numbers with Even Number of Digits](../../1001-1500/1295-find-numbers-with-even-number-of-digits/)
 

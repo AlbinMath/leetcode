@@ -131,8 +131,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2398. Maximum Number of Robots Within Budget](../../2001-2500/2398-maximum-number-of-robots-within-budget/)
+- [3661. Maximum Walls Destroyed by Robots](../../3501-4000/3661-maximum-walls-destroyed-by-robots/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/movement-of-robots/)

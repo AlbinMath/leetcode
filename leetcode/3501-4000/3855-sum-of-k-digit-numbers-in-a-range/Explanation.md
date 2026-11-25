@@ -112,8 +112,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2310. Sum of Numbers With Units Digit K](../../2001-2500/2310-sum-of-numbers-with-units-digit-k/)
-- [3954. Sum of Compatible Numbers in Range I](../../3501-4000/3954-sum-of-compatible-numbers-in-range-i/)
 - [2081. Sum of k-Mirror Numbers](../../2001-2500/2081-sum-of-k-mirror-numbers/)
+- [3954. Sum of Compatible Numbers in Range I](../../3501-4000/3954-sum-of-compatible-numbers-in-range-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-k-digit-numbers-in-a-range/)

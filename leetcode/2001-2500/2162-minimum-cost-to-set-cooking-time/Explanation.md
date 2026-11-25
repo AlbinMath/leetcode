@@ -150,8 +150,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1928. Minimum Cost to Reach Destination in Time](../../1501-2000/1928-minimum-cost-to-reach-destination-in-time/)
-- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1130-minimum-cost-tree-from-leaf-values/)
-- [1217. Minimum Cost to Move Chips to The Same Position](../../1001-1500/1217-minimum-cost-to-move-chips-to-the-same-position/)
+- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
+- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-set-cooking-time/)

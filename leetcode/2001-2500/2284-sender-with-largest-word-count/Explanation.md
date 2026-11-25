@@ -129,7 +129,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1399. Count Largest Group](../../1001-1500/1399-count-largest-group/)
 - [3926. Count Valid Word Occurrences](../../3501-4000/3926-count-valid-word-occurrences/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sender-with-largest-word-count/)

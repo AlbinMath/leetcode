@@ -121,7 +121,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2730. Find the Longest Semi-Repetitive Substring](../../2501-3000/2730-find-the-longest-semi-repetitive-substring/)
 - [2911. Minimum Changes to Make K Semi-palindromes](../../2501-3000/2911-minimum-changes-to-make-k-semi-palindromes/)
-- [1327. List the Products Ordered in a Period](../../1001-1500/1327-list-the-products-ordered-in-a-period/)
+- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/semi-ordered-permutation/)

@@ -138,9 +138,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
-- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
-- [743. Network Delay Time](../../0501-1000/0743-network-delay-time/)
+- [178. Rank Scores](../../0001-0500/0178-rank-scores/)
+- [1331. Rank Transform of an Array](../../1001-1500/1331-rank-transform-of-an-array/)
+- [1366. Rank Teams by Votes](../../1001-1500/1366-rank-teams-by-votes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximal-network-rank/)

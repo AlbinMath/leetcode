@@ -167,7 +167,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [4046. Minimum Cost Path With At Most K Turns](../../4001-4500/4046-minimum-cost-path-with-at-most-k-turns/)
 - [3545. Minimum Deletions for At Most K Distinct Characters](../../3501-4000/3545-minimum-deletions-for-at-most-k-distinct-characters/)
-- [847. Shortest Path Visiting All Nodes](../../0501-1000/0847-shortest-path-visiting-all-nodes/)
+- [995. Minimum Number of K Consecutive Bit Flips](../../0501-1000/0995-minimum-number-of-k-consecutive-bit-flips/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/)

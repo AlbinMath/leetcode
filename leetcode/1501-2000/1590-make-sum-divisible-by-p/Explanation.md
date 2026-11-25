@@ -111,9 +111,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2344. Minimum Deletions to Make Array Divisible](../../2001-2500/2344-minimum-deletions-to-make-array-divisible/)
 - [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3091-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
 - [3712. Sum of Elements With Frequency Divisible by K](../../3501-4000/3712-sum-of-elements-with-frequency-divisible-by-k/)
+- [3927. Minimize Array Sum Using Divisible Replacements](../../3501-4000/3927-minimize-array-sum-using-divisible-replacements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-sum-divisible-by-p/)

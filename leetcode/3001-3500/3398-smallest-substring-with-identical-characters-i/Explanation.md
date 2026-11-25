@@ -130,9 +130,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3399. Smallest Substring With Identical Characters II](../../3001-3500/3399-smallest-substring-with-identical-characters-ii/)
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 - [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
-- [1081. Smallest Subsequence of Distinct Characters](../../1001-1500/1081-smallest-subsequence-of-distinct-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-substring-with-identical-characters-i/)

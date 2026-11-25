@@ -111,9 +111,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [4031. Find All Numbers Disappeared in an Array II](../../4001-4500/4031-find-all-numbers-disappeared-in-an-array-ii/)
 - [2150. Find All Lonely Numbers in the Array](../../2001-2500/2150-find-all-lonely-numbers-in-the-array/)
 - [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
-- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)

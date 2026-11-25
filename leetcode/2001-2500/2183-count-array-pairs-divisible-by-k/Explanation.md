@@ -109,8 +109,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
-- [1814. Count Nice Pairs in an Array](../../1501-2000/1814-count-nice-pairs-in-an-array/)
-- [2006. Count Number of Pairs With Absolute Difference K](../../2001-2500/2006-count-number-of-pairs-with-absolute-difference-k/)
+- [532. K-diff Pairs in an Array](../../0501-1000/0532-k-diff-pairs-in-an-array/)
+- [629. K Inverse Pairs Array](../../0501-1000/0629-k-inverse-pairs-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)

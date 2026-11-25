@@ -163,9 +163,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3515. Shortest Path in a Weighted Tree](../../3501-4000/3515-shortest-path-in-a-weighted-tree/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [1219. Path with Maximum Gold](../../1001-1500/1219-path-with-maximum-gold/)
+- [1191. K-Concatenation Maximum Sum](../../1001-1500/1191-k-concatenation-maximum-sum/)
+- [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2106-maximum-fruits-harvested-after-at-most-k-steps/)
+- [2226. Maximum Candies Allocated to K Children](../../2001-2500/2226-maximum-candies-allocated-to-k-children/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-weighted-k-edge-path/)

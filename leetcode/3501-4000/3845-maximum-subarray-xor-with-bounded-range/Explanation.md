@@ -167,8 +167,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3755. Find Maximum Balanced XOR Subarray Length](../../3501-4000/3755-find-maximum-balanced-xor-subarray-length/)
-- [1508. Range Sum of Sorted Subarray Sums](../../1501-2000/1508-range-sum-of-sorted-subarray-sums/)
-- [1803. Count Pairs With XOR in a Range](../../1501-2000/1803-count-pairs-with-xor-in-a-range/)
+- [1802. Maximum Value at a Given Index in a Bounded Array](../../1501-2000/1802-maximum-value-at-a-given-index-in-a-bounded-array/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subarray-xor-with-bounded-range/)

@@ -135,8 +135,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [203. Remove Linked List Elements](../../0001-0500/0203-remove-linked-list-elements/)
 - [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
+- [203. Remove Linked List Elements](../../0001-0500/0203-remove-linked-list-elements/)
 - [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1320-minimum-distance-to-type-a-word-using-two-fingers/)
 
 ## LeetCode

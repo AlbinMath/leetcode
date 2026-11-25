@@ -124,8 +124,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1977. Number of Ways to Separate Numbers](../../1501-2000/1977-number-of-ways-to-separate-numbers/)
+- [3453. Separate Squares I](../../3001-3500/3453-separate-squares-i/)
 - [3454. Separate Squares II](../../3001-3500/3454-separate-squares-ii/)
-- [258. Add Digits](../../0001-0500/0258-add-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/separate-the-digits-in-an-array/)

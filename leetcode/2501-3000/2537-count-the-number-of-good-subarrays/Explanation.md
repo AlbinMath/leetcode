@@ -120,9 +120,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
-- [2588. Count the Number of Beautiful Subarrays](../../2501-3000/2588-count-the-number-of-beautiful-subarrays/)
 - [2963. Count the Number of Good Partitions](../../2501-3000/2963-count-the-number-of-good-partitions/)
+- [3878. Count Good Subarrays](../../3501-4000/3878-count-good-subarrays/)
+- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-good-subarrays/)

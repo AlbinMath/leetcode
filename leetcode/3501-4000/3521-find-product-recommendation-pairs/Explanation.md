@@ -168,8 +168,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3554. Find Category Recommendation Pairs](../../3501-4000/3554-find-category-recommendation-pairs/)
-- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
-- [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1835-find-xor-sum-of-all-pairs-bitwise-and/)
+- [1913. Maximum Product Difference Between Two Pairs](../../1501-2000/1913-maximum-product-difference-between-two-pairs/)
+- [3539. Find Sum of Array Product of Magical Sequences](../../3501-4000/3539-find-sum-of-array-product-of-magical-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-product-recommendation-pairs/)

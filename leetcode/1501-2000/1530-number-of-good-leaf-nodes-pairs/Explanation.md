@@ -133,8 +133,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1512. Number of Good Pairs](../../1501-2000/1512-number-of-good-pairs/)
-- [1080. Insufficient Nodes in Root to Leaf Paths](../../1001-1500/1080-insufficient-nodes-in-root-to-leaf-paths/)
-- [1448. Count Good Nodes in Binary Tree](../../1001-1500/1448-count-good-nodes-in-binary-tree/)
+- [1128. Number of Equivalent Domino Pairs](../../1001-1500/1128-number-of-equivalent-domino-pairs/)
+- [1519. Number of Nodes in the Sub-Tree With the Same Label](../../1501-2000/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)

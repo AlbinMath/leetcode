@@ -130,8 +130,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2920. Maximum Points After Collecting Coins From All Nodes](../../2501-3000/2920-maximum-points-after-collecting-coins-from-all-nodes/)
-- [1561. Maximum Number of Coins You Can Get](../../1501-2000/1561-maximum-number-of-coins-you-can-get/)
-- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
+- [995. Minimum Number of K Consecutive Bit Flips](../../0501-1000/0995-minimum-number-of-k-consecutive-bit-flips/)
+- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1171-remove-zero-sum-consecutive-nodes-from-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags/)

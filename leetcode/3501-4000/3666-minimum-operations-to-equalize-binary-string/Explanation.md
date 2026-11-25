@@ -150,9 +150,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3674. Minimum Operations to Equalize Array](../../3501-4000/3674-minimum-operations-to-equalize-array/)
-- [3762. Minimum Operations to Equalize Subarrays](../../3501-4000/3762-minimum-operations-to-equalize-subarrays/)
-- [1758. Minimum Changes To Make Alternating Binary String](../../1501-2000/1758-minimum-changes-to-make-alternating-binary-string/)
+- [1830. Minimum Number of Operations to Make String Sorted](../../1501-2000/1830-minimum-number-of-operations-to-make-string-sorted/)
+- [2471. Minimum Number of Operations to Sort a Binary Tree by Level](../../2001-2500/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
+- [3191. Minimum Operations to Make Binary Array Elements Equal to One I](../../3001-3500/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/)

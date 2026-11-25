@@ -173,9 +173,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3003-maximize-the-number-of-partitions-after-operations/)
 - [2818. Apply Operations to Maximize Score](../../2501-3000/2818-apply-operations-to-maximize-score/)
 - [2968. Apply Operations to Maximize Frequency Score](../../2501-3000/2968-apply-operations-to-maximize-frequency-score/)
-- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3003-maximize-the-number-of-partitions-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-score-after-n-operations/)

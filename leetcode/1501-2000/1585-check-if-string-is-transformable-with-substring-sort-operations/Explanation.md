@@ -129,7 +129,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3461. Check If Digits Are Equal in String After Operations I](../../3001-3500/3461-check-if-digits-are-equal-in-string-after-operations-i/)
 - [3463. Check If Digits Are Equal in String After Operations II](../../3001-3500/3463-check-if-digits-are-equal-in-string-after-operations-ii/)
-- [1433. Check If a String Can Break Another String](../../1001-1500/1433-check-if-a-string-can-break-another-string/)
+- [3863. Minimum Operations to Sort a String](../../3501-4000/3863-minimum-operations-to-sort-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)

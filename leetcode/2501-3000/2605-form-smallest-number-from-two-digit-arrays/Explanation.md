@@ -96,9 +96,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [2040. Kth Smallest Product of Two Sorted Arrays](../../2001-2500/2040-kth-smallest-product-of-two-sorted-arrays/)
 - [2375. Construct Smallest Number From DI String](../../2001-2500/2375-construct-smallest-number-from-di-string/)
+- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)

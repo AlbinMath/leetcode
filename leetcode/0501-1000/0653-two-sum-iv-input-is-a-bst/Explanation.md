@@ -105,8 +105,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii-input-array-is-sorted/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
+- [938. Range Sum of BST](../../0501-1000/0938-range-sum-of-bst/)
+- [1373. Maximum Sum BST in Binary Tree](../../1001-1500/1373-maximum-sum-bst-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)

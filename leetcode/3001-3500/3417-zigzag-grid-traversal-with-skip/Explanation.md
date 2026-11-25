@@ -126,7 +126,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
 - [3552. Grid Teleportation Traversal](../../3501-4000/3552-grid-teleportation-traversal/)
-- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
+- [6. Zigzag Conversion](../../0001-0500/0006-zigzag-conversion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/)

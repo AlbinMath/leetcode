@@ -137,8 +137,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [701. Insert into a Binary Search Tree](../../0501-1000/0701-insert-into-a-binary-search-tree/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [1217. Minimum Cost to Move Chips to The Same Position](../../1001-1500/1217-minimum-cost-to-move-chips-to-the-same-position/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
+- [74. Search a 2D Matrix](../../0001-0500/0074-search-a-2d-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/search-insert-position/)

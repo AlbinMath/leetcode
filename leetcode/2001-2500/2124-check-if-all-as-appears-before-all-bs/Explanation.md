@@ -97,9 +97,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1001-1500/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
 - [1437. Check If All 1's Are at Least Length K Places Away](../../1001-1500/1437-check-if-all-1s-are-at-least-length-k-places-away/)
 - [1461. Check If a String Contains All Binary Codes of Size K](../../1001-1500/1461-check-if-a-string-contains-all-binary-codes-of-size-k/)
-- [1893. Check if All the Integers in a Range Are Covered](../../1501-2000/1893-check-if-all-the-integers-in-a-range-are-covered/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)

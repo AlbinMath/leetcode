@@ -147,8 +147,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [111. Minimum Depth of Binary Tree](../../0001-0500/0111-minimum-depth-of-binary-tree/)
-- [501. Find Mode in Binary Search Tree](../../0501-1000/0501-find-mode-in-binary-search-tree/)
+- [3600. Maximize Spanning Tree Stability with Upgrades](../../3501-4000/3600-maximize-spanning-tree-stability-with-upgrades/)
+- [3123. Find Edges in Shortest Paths](../../3001-3500/3123-find-edges-in-shortest-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)

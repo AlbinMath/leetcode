@@ -127,9 +127,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2109. Adding Spaces to a String](../../2001-2500/2109-adding-spaces-to-a-string/)
-- [2135. Count Words Obtained After Adding a Letter](../../2001-2500/2135-count-words-obtained-after-adding-a-letter/)
 - [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
+- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)

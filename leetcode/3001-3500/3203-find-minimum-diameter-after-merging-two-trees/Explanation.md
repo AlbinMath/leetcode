@@ -162,9 +162,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../../0501-1000/0558-logical-or-of-two-binary-grids-represented-as-quad-trees/)
-- [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
-- [617. Merge Two Binary Trees](../../0501-1000/0617-merge-two-binary-trees/)
+- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+- [1750. Minimum Length of String After Deleting Similar Ends](../../1501-2000/1750-minimum-length-of-string-after-deleting-similar-ends/)
+- [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/)

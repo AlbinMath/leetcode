@@ -144,7 +144,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
 - [3012. Minimize Length of Array Using Operations](../../3001-3500/3012-minimize-length-of-array-using-operations/)
-- [2439. Minimize Maximum of Array](../../2001-2500/2439-minimize-maximum-of-array/)
+- [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii-input-array-is-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-array-sum-using-divisible-replacements/)

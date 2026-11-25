@@ -118,9 +118,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3755. Find Maximum Balanced XOR Subarray Length](../../3501-4000/3755-find-maximum-balanced-xor-subarray-length/)
-- [3845. Maximum Subarray XOR with Bounded Range](../../3501-4000/3845-maximum-subarray-xor-with-bounded-range/)
 - [2564. Substring XOR Queries](../../2501-3000/2564-substring-xor-queries/)
+- [3653. XOR After Range Multiplication Queries I](../../3501-4000/3653-xor-after-range-multiplication-queries-i/)
+- [3655. XOR After Range Multiplication Queries II](../../3501-4000/3655-xor-after-range-multiplication-queries-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/xor-queries-of-a-subarray/)

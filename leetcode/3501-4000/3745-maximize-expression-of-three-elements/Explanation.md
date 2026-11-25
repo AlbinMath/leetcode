@@ -101,7 +101,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2934. Minimum Operations to Maximize Last Elements in Arrays](../../2501-3000/2934-minimum-operations-to-maximize-last-elements-in-arrays/)
 - [3041. Maximize Consecutive Elements in an Array After Modification](../../3001-3500/3041-maximize-consecutive-elements-in-an-array-after-modification/)
-- [203. Remove Linked List Elements](../../0001-0500/0203-remove-linked-list-elements/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-expression-of-three-elements/)

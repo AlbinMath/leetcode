@@ -171,9 +171,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [228. Summary Ranges](../../0001-0500/0228-summary-ranges/)
 - [1716. Calculate Money in Leetcode Bank](../../1501-2000/1716-calculate-money-in-leetcode-bank/)
 - [2043. Simple Bank System](../../2001-2500/2043-simple-bank-system/)
+- [228. Summary Ranges](../../0001-0500/0228-summary-ranges/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bank-account-summary-ii/)

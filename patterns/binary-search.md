@@ -145,6 +145,7 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 | 3524 | [Find X Value of Array I](../leetcode/3501-4000/3524-find-x-value-of-array-i/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3524-find-x-value-of-array-i/Explanation.md) |
 | 3679 | [ Minimum Discards to Balance Inventory](../leetcode/3501-4000/3679-minimum-discards-to-balance-inventory/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3679-minimum-discards-to-balance-inventory/Explanation.md) |
 | 3689 | [Maximum Total Subarray Value I](../leetcode/3501-4000/3689-maximum-total-subarray-value-i/) | Java | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3689-maximum-total-subarray-value-i/Explanation.md) |
+| 3960 | [Frequency Balance Subarray](../leetcode/3501-4000/3960-frequency-balance-subarray/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3960-frequency-balance-subarray/Explanation.md) |
 | 4021 | [Minimum Operations to Make a Rotated Palindrome I](../leetcode/4001-4500/4021-minimum-operations-to-make-a-rotated-palindrome-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/4001-4500/4021-minimum-operations-to-make-a-rotated-palindrome-i/Explanation.md) |
 
 ### Hard

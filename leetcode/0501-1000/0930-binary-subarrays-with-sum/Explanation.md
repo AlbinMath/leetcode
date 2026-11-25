@@ -110,9 +110,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [1022. Sum of Root To Leaf Binary Numbers](../../1001-1500/1022-sum-of-root-to-leaf-binary-numbers/)
-- [1038. Binary Search Tree to Greater Sum Tree](../../1001-1500/1038-binary-search-tree-to-greater-sum-tree/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [1031. Maximum Sum of Two Non-Overlapping Subarrays](../../1001-1500/1031-maximum-sum-of-two-non-overlapping-subarrays/)
+- [1588. Sum of All Odd Length Subarrays](../../1501-2000/1588-sum-of-all-odd-length-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-subarrays-with-sum/)

@@ -170,9 +170,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1793. Maximum Score of a Good Subarray](../../1501-2000/1793-maximum-score-of-a-good-subarray/)
 - [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
 - [2818. Apply Operations to Maximize Score](../../2501-3000/2818-apply-operations-to-maximize-score/)
+- [2968. Apply Operations to Maximize Frequency Score](../../2501-3000/2968-apply-operations-to-maximize-frequency-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-subarray-gcd-score/)
