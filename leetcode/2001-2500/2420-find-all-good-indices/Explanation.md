@@ -130,8 +130,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1397. Find All Good Strings](../../1001-1500/1397-find-all-good-strings/)
-- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
-- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
+- [2100. Find Good Days to Rob the Bank](../../2001-2500/2100-find-good-days-to-rob-the-bank/)
+- [2732. Find a Good Subset of the Matrix](../../2501-3000/2732-find-a-good-subset-of-the-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-good-indices/)

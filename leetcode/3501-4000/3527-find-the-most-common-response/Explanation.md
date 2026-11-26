@@ -128,8 +128,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [819. Most Common Word](../../0501-1000/0819-most-common-word/)
-- [1002. Find Common Characters](../../1001-1500/1002-find-common-characters/)
-- [1979. Find Greatest Common Divisor of Array](../../1501-2000/1979-find-greatest-common-divisor-of-array/)
+- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1606-find-servers-that-handled-most-number-of-requests/)
+- [1673. Find the Most Competitive Subsequence](../../1501-2000/1673-find-the-most-competitive-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-most-common-response/)

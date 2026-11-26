@@ -121,9 +121,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2501. Longest Square Streak in an Array](../../2501-3000/2501-longest-square-streak-in-an-array/)
 - [852. Peak Index in a Mountain Array](../../0501-1000/0852-peak-index-in-a-mountain-array/)
 - [941. Valid Mountain Array](../../0501-1000/0941-valid-mountain-array/)
+- [1095. Find in Mountain Array](../../1001-1500/1095-find-in-mountain-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-mountain-in-array/)

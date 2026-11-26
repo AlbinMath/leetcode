@@ -101,9 +101,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
-- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
-- [1351. Count Negative Numbers in a Sorted Matrix](../../1001-1500/1351-count-negative-numbers-in-a-sorted-matrix/)
+- [1448. Count Good Nodes in Binary Tree](../../1001-1500/1448-count-good-nodes-in-binary-tree/)
+- [1534. Count Good Triplets](../../1501-2000/1534-count-good-triplets/)
+- [1711. Count Good Meals](../../1501-2000/1711-count-good-meals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-good-numbers/)

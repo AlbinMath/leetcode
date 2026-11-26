@@ -172,8 +172,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3318. Find X-Sum of All K-Long Subarrays I](../../3001-3500/3318-find-x-sum-of-all-k-long-subarrays-i/)
-- [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1835-find-xor-sum-of-all-pairs-bitwise-and/)
 - [2099. Find Subsequence of Length K With the Largest Sum](../../2001-2500/2099-find-subsequence-of-length-k-with-the-largest-sum/)
+- [2461. Maximum Sum of Distinct Subarrays With Length K](../../2001-2500/2461-maximum-sum-of-distinct-subarrays-with-length-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/)

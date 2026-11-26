@@ -104,9 +104,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1727. Largest Submatrix With Rearrangements](../../1501-2000/1727-largest-submatrix-with-rearrangements/)
-- [3567. Minimum Absolute Difference in Sliding Submatrix](../../3501-4000/3567-minimum-absolute-difference-in-sliding-submatrix/)
-- [519. Random Flip Matrix](../../0501-1000/0519-random-flip-matrix/)
+- [1324. Print Words Vertically](../../1001-1500/1324-print-words-vertically/)
+- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
+- [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flip-square-submatrix-vertically/)

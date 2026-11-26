@@ -121,8 +121,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2744. Find Maximum Number of String Pairs](../../2501-3000/2744-find-maximum-number-of-string-pairs/)
 - [2025. Maximum Number of Ways to Partition an Array](../../2001-2500/2025-maximum-number-of-ways-to-partition-an-array/)
+- [2744. Find Maximum Number of String Pairs](../../2501-3000/2744-find-maximum-number-of-string-pairs/)
 - [2871. Split Array Into Maximum Number of Subarrays](../../2501-3000/2871-split-array-into-maximum-number-of-subarrays/)
 
 ## LeetCode

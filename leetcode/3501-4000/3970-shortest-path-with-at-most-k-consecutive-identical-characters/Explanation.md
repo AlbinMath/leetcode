@@ -167,7 +167,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3545. Minimum Deletions for At Most K Distinct Characters](../../3501-4000/3545-minimum-deletions-for-at-most-k-distinct-characters/)
 - [4046. Minimum Cost Path With At Most K Turns](../../4001-4500/4046-minimum-cost-path-with-at-most-k-turns/)
-- [3398. Smallest Substring With Identical Characters I](../../3001-3500/3398-smallest-substring-with-identical-characters-i/)
+- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/)

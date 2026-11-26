@@ -115,7 +115,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2344. Minimum Deletions to Make Array Divisible](../../2001-2500/2344-minimum-deletions-to-make-array-divisible/)
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](../../2501-3000/2914-minimum-number-of-changes-to-make-binary-string-beautiful/)
-- [945. Minimum Increment to Make Array Unique](../../0501-1000/0945-minimum-increment-to-make-array-unique/)
+- [1647. Minimum Deletions to Make Character Frequencies Unique](../../1501-2000/1647-minimum-deletions-to-make-character-frequencies-unique/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/)

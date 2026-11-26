@@ -193,8 +193,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3179. Find the N-th Value After K Seconds](../../3001-3500/3179-find-the-n-th-value-after-k-seconds/)
-- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
-- [1377. Frog Position After T Seconds](../../1001-1500/1377-frog-position-after-t-seconds/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/)

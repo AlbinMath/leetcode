@@ -115,9 +115,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [1743. Restore the Array From Adjacent Pairs](../../1501-2000/1743-restore-the-array-from-adjacent-pairs/)
 - [93. Restore IP Addresses](../../0001-0500/0093-restore-ip-addresses/)
 - [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/restore-the-array/)

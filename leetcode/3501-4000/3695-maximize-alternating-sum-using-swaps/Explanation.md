@@ -168,9 +168,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
-- [2897. Apply Operations on Array to Maximize Sum of Squares](../../2501-3000/2897-apply-operations-on-array-to-maximize-sum-of-squares/)
-- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3001-3500/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+- [1864. Minimum Number of Swaps to Make the Binary String Alternating](../../1501-2000/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
+- [3701. Compute Alternating Sum](../../3501-4000/3701-compute-alternating-sum/)
+- [3727. Maximum Alternating Sum of Squares](../../3501-4000/3727-maximum-alternating-sum-of-squares/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-alternating-sum-using-swaps/)

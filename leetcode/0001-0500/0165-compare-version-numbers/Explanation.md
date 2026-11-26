@@ -115,9 +115,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [278. First Bad Version](../../0001-0500/0278-first-bad-version/)
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 - [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
-- [180. Consecutive Numbers](../../0001-0500/0180-consecutive-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/compare-version-numbers/)

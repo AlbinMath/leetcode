@@ -226,9 +226,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
-- [1211. Queries Quality and Percentage](../../1001-1500/1211-queries-quality-and-percentage/)
-- [1310. XOR Queries of a Subarray](../../1001-1500/1310-xor-queries-of-a-subarray/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [125. Valid Palindrome](../../0001-0500/0125-valid-palindrome/)
+- [131. Palindrome Partitioning](../../0001-0500/0131-palindrome-partitioning/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-rearrangement-queries/)

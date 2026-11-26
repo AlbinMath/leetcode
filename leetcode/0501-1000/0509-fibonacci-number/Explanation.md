@@ -105,8 +105,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [842. Split Array into Fibonacci Sequence](../../0501-1000/0842-split-array-into-fibonacci-sequence/)
+- [873. Length of Longest Fibonacci Subsequence](../../0501-1000/0873-length-of-longest-fibonacci-subsequence/)
 - [2648. Generate Fibonacci Sequence](../../2501-3000/2648-generate-fibonacci-sequence/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fibonacci-number/)

@@ -130,7 +130,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2503-maximum-number-of-points-from-grid-queries/)
 - [2684. Maximum Number of Moves in a Grid](../../2501-3000/2684-maximum-number-of-moves-in-a-grid/)
-- [2328. Number of Increasing Paths in a Grid](../../2001-2500/2328-number-of-increasing-paths-in-a-grid/)
+- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/)

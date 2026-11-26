@@ -140,9 +140,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3644. Maximum K to Sort a Permutation](../../3501-4000/3644-maximum-k-to-sort-a-permutation/)
-- [2064. Minimized Maximum of Products Distributed to Any Store](../../2001-2500/2064-minimized-maximum-of-products-distributed-to-any-store/)
 - [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [918. Maximum Sum Circular Subarray](../../0501-1000/0918-maximum-sum-circular-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/)

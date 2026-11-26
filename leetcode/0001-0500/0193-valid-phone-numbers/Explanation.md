@@ -80,8 +80,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3465. Find Products with Valid Serial Numbers](../../3001-3500/3465-find-products-with-valid-serial-numbers/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
-- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
+- [1694. Reformat Phone Number](../../1501-2000/1694-reformat-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-phone-numbers/)

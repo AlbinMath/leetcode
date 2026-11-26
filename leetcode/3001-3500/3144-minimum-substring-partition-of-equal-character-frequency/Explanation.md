@@ -118,8 +118,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3389. Minimum Operations to Make Character Frequencies Equal](../../3001-3500/3389-minimum-operations-to-make-character-frequencies-equal/)
-- [1170. Compare Strings by Frequency of the Smallest Character](../../1001-1500/1170-compare-strings-by-frequency-of-the-smallest-character/)
-- [3212. Count Submatrices With Equal Frequency of X and Y](../../3001-3500/3212-count-submatrices-with-equal-frequency-of-x-and-y/)
+- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
+- [698. Partition to K Equal Sum Subsets](../../0501-1000/0698-partition-to-k-equal-sum-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)

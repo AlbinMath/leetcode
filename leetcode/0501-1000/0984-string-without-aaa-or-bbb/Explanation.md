@@ -108,9 +108,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
-- [3211. Generate Binary Strings Without Adjacent Zeros](../../3001-3500/3211-generate-binary-strings-without-adjacent-zeros/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [87. Scramble String](../../0001-0500/0087-scramble-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/string-without-aaa-or-bbb/)

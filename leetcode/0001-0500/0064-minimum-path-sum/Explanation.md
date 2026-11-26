@@ -149,7 +149,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [931. Minimum Falling Path Sum](../../0501-1000/0931-minimum-falling-path-sum/)
 - [1289. Minimum Falling Path Sum II](../../1001-1500/1289-minimum-falling-path-sum-ii/)
-- [112. Path Sum](../../0001-0500/0112-path-sum/)
+- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-path-sum/)

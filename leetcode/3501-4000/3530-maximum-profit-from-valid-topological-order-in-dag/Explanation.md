@@ -229,9 +229,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1235. Maximum Profit in Job Scheduling](../../1001-1500/1235-maximum-profit-in-job-scheduling/)
-- [1599. Maximum Profit of Operating a Centennial Wheel](../../1501-2000/1599-maximum-profit-of-operating-a-centennial-wheel/)
 - [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
+- [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
+- [1707. Maximum XOR With an Element From Array](../../1501-2000/1707-maximum-xor-with-an-element-from-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag/)

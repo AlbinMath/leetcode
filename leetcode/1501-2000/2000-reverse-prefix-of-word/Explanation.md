@@ -115,8 +115,8 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 
 ## Related Problems
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1001-1500/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
-- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
+- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
+- [79. Word Search](../../0001-0500/0079-word-search/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-prefix-of-word/)

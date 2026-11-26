@@ -103,9 +103,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3619-count-islands-with-total-value-divisible-by-k/)
 - [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2183-count-array-pairs-divisible-by-k/)
+- [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3619-count-islands-with-total-value-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)

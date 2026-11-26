@@ -148,7 +148,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3265. Count Almost Equal Pairs I](../../3001-3500/3265-count-almost-equal-pairs-i/)
 - [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4043-count-rotations-with-exactly-k-equal-adjacent-pairs/)
-- [3303. Find the Occurrence of First Almost Equal Substring](../../3001-3500/3303-find-the-occurrence-of-first-almost-equal-substring/)
+- [1782. Count Pairs Of Nodes](../../1501-2000/1782-count-pairs-of-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-almost-equal-pairs-ii/)

@@ -139,8 +139,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3305. Count of Substrings Containing Every Vowel and K Consonants I](../../3001-3500/3305-count-of-substrings-containing-every-vowel-and-k-consonants-i/)
-- [2062. Count Vowel Substrings of a String](../../2001-2500/2062-count-vowel-substrings-of-a-string/)
 - [3258. Count Substrings That Satisfy K-Constraint I](../../3001-3500/3258-count-substrings-that-satisfy-k-constraint-i/)
+- [3261. Count Substrings That Satisfy K-Constraint II](../../3001-3500/3261-count-substrings-that-satisfy-k-constraint-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/)

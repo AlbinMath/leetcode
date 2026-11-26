@@ -104,7 +104,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2482. Difference Between Ones and Zeros in Row and Column](../../2001-2500/2482-difference-between-ones-and-zeros-in-row-and-column/)
 - [3228. Maximum Number of Operations to Move Ones to the End](../../3001-3500/3228-maximum-number-of-operations-to-move-ones-to-the-end/)
-- [500. Keyboard Row](../../0001-0500/0500-keyboard-row/)
+- [474. Ones and Zeroes](../../0001-0500/0474-ones-and-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/row-with-maximum-ones/)

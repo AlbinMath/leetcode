@@ -208,9 +208,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1521-find-a-value-of-a-mysterious-function-closest-to-target/)
 - [3449. Maximize the Minimum Game Score](../../3001-3500/3449-maximize-the-minimum-game-score/)
-- [396. Rotate Function](../../0001-0500/0396-rotate-function/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1521-find-a-value-of-a-mysterious-function-closest-to-target/)
+- [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)

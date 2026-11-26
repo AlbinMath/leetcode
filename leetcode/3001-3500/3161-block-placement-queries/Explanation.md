@@ -250,9 +250,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1314. Matrix Block Sum](../../1001-1500/1314-matrix-block-sum/)
+- [4038. Count Integers Appearing in a Single Block](../../4001-4500/4038-count-integers-appearing-in-a-single-block/)
 - [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
-- [1211. Queries Quality and Percentage](../../1001-1500/1211-queries-quality-and-percentage/)
-- [1310. XOR Queries of a Subarray](../../1001-1500/1310-xor-queries-of-a-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/block-placement-queries/)

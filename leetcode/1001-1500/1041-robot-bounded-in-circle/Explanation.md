@@ -154,9 +154,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [478. Generate Random Point in a Circle](../../0001-0500/0478-generate-random-point-in-a-circle/)
-- [1401. Circle and Rectangle Overlapping](../../1001-1500/1401-circle-and-rectangle-overlapping/)
-- [1828. Queries on Number of Points Inside a Circle](../../1501-2000/1828-queries-on-number-of-points-inside-a-circle/)
+- [1802. Maximum Value at a Given Index in a Bounded Array](../../1501-2000/1802-maximum-value-at-a-given-index-in-a-bounded-array/)
+- [2902. Count of Sub-Multisets With Bounded Sum](../../2501-3000/2902-count-of-sub-multisets-with-bounded-sum/)
+- [3845. Maximum Subarray XOR with Bounded Range](../../3501-4000/3845-maximum-subarray-xor-with-bounded-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/robot-bounded-in-circle/)

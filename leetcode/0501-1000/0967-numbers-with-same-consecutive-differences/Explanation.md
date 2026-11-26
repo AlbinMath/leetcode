@@ -107,7 +107,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [180. Consecutive Numbers](../../0001-0500/0180-consecutive-numbers/)
 - [829. Consecutive Numbers Sum](../../0501-1000/0829-consecutive-numbers-sum/)
-- [1680. Concatenation of Consecutive Binary Numbers](../../1501-2000/1680-concatenation-of-consecutive-binary-numbers/)
+- [1296. Divide Array in Sets of K Consecutive Numbers](../../1001-1500/1296-divide-array-in-sets-of-k-consecutive-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)

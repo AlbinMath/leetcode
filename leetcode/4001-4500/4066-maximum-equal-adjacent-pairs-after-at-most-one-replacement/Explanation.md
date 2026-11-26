@@ -136,7 +136,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2106-maximum-fruits-harvested-after-at-most-k-steps/)
+- [4043. Count Rotations With Exactly K Equal Adjacent Pairs](../../4001-4500/4043-count-rotations-with-exactly-k-equal-adjacent-pairs/)
 - [3628. Maximum Number of Subsequences After One Inserting](../../3501-4000/3628-maximum-number-of-subsequences-after-one-inserting/)
 
 ## LeetCode

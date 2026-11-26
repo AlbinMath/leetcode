@@ -130,5 +130,4 @@ A collection of LeetCode problems solved using **Math & Logic** pattern techniqu
 | 3317 | [Find the Number of Possible Ways for an Event](../leetcode/3001-3500/3317-find-the-number-of-possible-ways-for-an-event/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3317-find-the-number-of-possible-ways-for-an-event/Explanation.md) |
 | 3378 | [Count Connected Components in LCM Graph](../leetcode/3001-3500/3378-count-connected-components-in-lcm-graph/) | Python | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3378-count-connected-components-in-lcm-graph/Explanation.md) |
 | 3463 | [Check If Digits Are Equal in String After Operations II](../leetcode/3001-3500/3463-check-if-digits-are-equal-in-string-after-operations-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3463-check-if-digits-are-equal-in-string-after-operations-ii/Explanation.md) |
-| 3883 | [Count Non Decreasing Arrays With Given Digit Sums](../leetcode/3501-4000/3883-count-non-decreasing-arrays-with-given-digit-sums/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3883-count-non-decreasing-arrays-with-given-digit-sums/Explanation.md) |
 

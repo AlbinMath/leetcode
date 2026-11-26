@@ -106,8 +106,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1530. Number of Good Leaf Nodes Pairs](../../1501-2000/1530-number-of-good-leaf-nodes-pairs/)
+- [1128. Number of Equivalent Domino Pairs](../../1001-1500/1128-number-of-equivalent-domino-pairs/)
 - [1525. Number of Good Ways to Split a String](../../1501-2000/1525-number-of-good-ways-to-split-a-string/)
-- [1987. Number of Unique Good Subsequences](../../1501-2000/1987-number-of-unique-good-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-good-pairs/)

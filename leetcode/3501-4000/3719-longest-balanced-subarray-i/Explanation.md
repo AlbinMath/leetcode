@@ -116,8 +116,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3721. Longest Balanced Subarray II](../../3501-4000/3721-longest-balanced-subarray-ii/)
-- [3713. Longest Balanced Substring I](../../3501-4000/3713-longest-balanced-substring-i/)
-- [3714. Longest Balanced Substring II](../../3501-4000/3714-longest-balanced-substring-ii/)
+- [978. Longest Turbulent Subarray](../../0501-1000/0978-longest-turbulent-subarray/)
+- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1001-1500/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-balanced-subarray-i/)

@@ -75,9 +75,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [867. Transpose Matrix](../../0501-1000/0867-transpose-matrix/)
 - [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
 - [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
+- [1487. Making File Names Unique](../../1001-1500/1487-making-file-names-unique/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/transpose-file/)

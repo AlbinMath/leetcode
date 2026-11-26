@@ -104,8 +104,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3475. DNA Pattern Recognition ](../../3001-3500/3475-dna-pattern-recognition/)
-- [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
-- [686. Repeated String Match](../../0501-1000/0686-repeated-string-match/)
+- [946. Validate Stack Sequences](../../0501-1000/0946-validate-stack-sequences/)
+- [2145. Count the Hidden Sequences](../../2001-2500/2145-count-the-hidden-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-dna-sequences/)

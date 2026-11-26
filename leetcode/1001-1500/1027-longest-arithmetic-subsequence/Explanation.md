@@ -115,9 +115,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
+- [1218. Longest Arithmetic Subsequence of Given Difference](../../1001-1500/1218-longest-arithmetic-subsequence-of-given-difference/)
 - [446. Arithmetic Slices II - Subsequence](../../0001-0500/0446-arithmetic-slices-ii-subsequence/)
-- [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
+- [3872. Longest Arithmetic Sequence After Changing At Most One Element](../../3501-4000/3872-longest-arithmetic-sequence-after-changing-at-most-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-arithmetic-subsequence/)

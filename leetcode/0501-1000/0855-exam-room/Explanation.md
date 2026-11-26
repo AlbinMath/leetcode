@@ -163,9 +163,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1847. Closest Room](../../1501-2000/1847-closest-room/)
-- [3168. Minimum Number of Chairs in a Waiting Room](../../3001-3500/3168-minimum-number-of-chairs-in-a-waiting-room/)
-- [3341. Find Minimum Time to Reach Last Room I](../../3001-3500/3341-find-minimum-time-to-reach-last-room-i/)
+- [1349. Maximum Students Taking Exam](../../1001-1500/1349-maximum-students-taking-exam/)
+- [2024. Maximize the Confusion of an Exam](../../2001-2500/2024-maximize-the-confusion-of-an-exam/)
+- [3709. Design Exam Scores Tracker](../../3501-4000/3709-design-exam-scores-tracker/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/exam-room/)

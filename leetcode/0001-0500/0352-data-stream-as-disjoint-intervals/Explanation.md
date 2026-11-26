@@ -144,7 +144,7 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
 - [2526. Find Consecutive Integers from a Data Stream](../../2501-3000/2526-find-consecutive-integers-from-a-data-stream/)
-- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [703. Kth Largest Element in a Stream](../../0501-1000/0703-kth-largest-element-in-a-stream/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)

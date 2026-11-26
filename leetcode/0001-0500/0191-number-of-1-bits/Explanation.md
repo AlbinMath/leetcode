@@ -111,8 +111,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1356. Sort Integers by The Number of 1 Bits](../../1001-1500/1356-sort-integers-by-the-number-of-1-bits/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 - [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
+- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-1-bits/)

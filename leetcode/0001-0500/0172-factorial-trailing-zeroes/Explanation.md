@@ -116,8 +116,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [793. Preimage Size of Factorial Zeroes Function](../../0501-1000/0793-preimage-size-of-factorial-zeroes-function/)
-- [2245. Maximum Trailing Zeros in a Cornered Path](../../2001-2500/2245-maximum-trailing-zeros-in-a-cornered-path/)
-- [2980. Check if Bitwise OR Has Trailing Zeros](../../2501-3000/2980-check-if-bitwise-or-has-trailing-zeros/)
+- [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
+- [283. Move Zeroes](../../0001-0500/0283-move-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/factorial-trailing-zeroes/)

@@ -146,8 +146,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3463. Check If Digits Are Equal in String After Operations II](../../3001-3500/3463-check-if-digits-are-equal-in-string-after-operations-ii/)
-- [1790. Check if One String Swap Can Make Strings Equal](../../1501-2000/1790-check-if-one-string-swap-can-make-strings-equal/)
 - [1585. Check If String Is Transformable With Substring Sort Operations](../../1501-2000/1585-check-if-string-is-transformable-with-substring-sort-operations/)
+- [1662. Check If Two String Arrays are Equivalent](../../1501-2000/1662-check-if-two-string-arrays-are-equivalent/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/)

@@ -156,9 +156,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
-- [1310. XOR Queries of a Subarray](../../1001-1500/1310-xor-queries-of-a-subarray/)
-- [1409. Queries on a Permutation With Key](../../1001-1500/1409-queries-on-a-permutation-with-key/)
+- [1633. Percentage of Users Attended a Contest](../../1501-2000/1633-percentage-of-users-attended-a-contest/)
+- [1620. Coordinate With Maximum Network Quality](../../1501-2000/1620-coordinate-with-maximum-network-quality/)
+- [2065. Maximum Path Quality of a Graph](../../2001-2500/2065-maximum-path-quality-of-a-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queries-quality-and-percentage/)

@@ -134,7 +134,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [3254. Find the Power of K-Size Subarrays I](../../3001-3500/3254-find-the-power-of-k-size-subarrays-i/)
 - [3255. Find the Power of K-Size Subarrays II](../../3001-3500/3255-find-the-power-of-k-size-subarrays-ii/)
-- [1736. Latest Time by Replacing Hidden Digits](../../1501-2000/1736-latest-time-by-replacing-hidden-digits/)
+- [1282. Group the People Given the Group Size They Belong To](../../1001-1500/1282-group-the-people-given-the-group-size-they-belong-to/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-latest-group-of-size-m/)

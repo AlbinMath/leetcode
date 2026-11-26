@@ -136,9 +136,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [724. Find Pivot Index](../../0501-1000/0724-find-pivot-index/)
-- [1991. Find the Middle Index in Array](../../1501-2000/1991-find-the-middle-index-in-array/)
+- [3755. Find Maximum Balanced XOR Subarray Length](../../3501-4000/3755-find-maximum-balanced-xor-subarray-length/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-smallest-balanced-index/)

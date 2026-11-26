@@ -264,7 +264,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 - [3309. Maximum Possible Number by Binary Concatenation](../../3001-3500/3309-maximum-possible-number-by-binary-concatenation/)
-- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
+- [1701. Average Waiting Time](../../1501-2000/1701-average-waiting-time/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-possible-maximum-waiting-time/)

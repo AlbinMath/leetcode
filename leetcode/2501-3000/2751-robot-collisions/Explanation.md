@@ -134,9 +134,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2211. Count Collisions on a Road](../../2001-2500/2211-count-collisions-on-a-road/)
-- [2550. Count Collisions of Monkeys on a Polygon](../../2501-3000/2550-count-collisions-of-monkeys-on-a-polygon/)
 - [657. Robot Return to Origin](../../0501-1000/0657-robot-return-to-origin/)
+- [874. Walking Robot Simulation](../../0501-1000/0874-walking-robot-simulation/)
+- [1041. Robot Bounded In Circle](../../1001-1500/1041-robot-bounded-in-circle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/robot-collisions/)

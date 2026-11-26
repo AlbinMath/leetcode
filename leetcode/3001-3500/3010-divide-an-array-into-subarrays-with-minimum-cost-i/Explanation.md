@@ -113,7 +113,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3013. Divide an Array Into Subarrays With Minimum Cost II](../../3001-3500/3013-divide-an-array-into-subarrays-with-minimum-cost-ii/)
 - [3500. Minimum Cost to Divide Array Into Subarrays](../../3001-3500/3500-minimum-cost-to-divide-array-into-subarrays/)
-- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
+- [2448. Minimum Cost to Make Array Equal](../../2001-2500/2448-minimum-cost-to-make-array-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)

@@ -197,9 +197,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [3900. Longest Balanced Substring After One Swap](../../3501-4000/3900-longest-balanced-substring-after-one-swap/)
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 - [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
-- [424. Longest Repeating Character Replacement](../../0001-0500/0424-longest-repeating-character-replacement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-substring-of-one-repeating-character/)

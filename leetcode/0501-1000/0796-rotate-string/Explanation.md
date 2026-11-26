@@ -119,9 +119,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [87. Scramble String](../../0001-0500/0087-scramble-string/)
+- [48. Rotate Image](../../0001-0500/0048-rotate-image/)
+- [61. Rotate List](../../0001-0500/0061-rotate-list/)
+- [189. Rotate Array](../../0001-0500/0189-rotate-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rotate-string/)

@@ -115,9 +115,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1657. Determine if Two Strings Are Close](../../1501-2000/1657-determine-if-two-strings-are-close/)
 - [1662. Check If Two String Arrays are Equivalent](../../1501-2000/1662-check-if-two-string-arrays-are-equivalent/)
 - [3461. Check If Digits Are Equal in String After Operations I](../../3001-3500/3461-check-if-digits-are-equal-in-string-after-operations-i/)
+- [3463. Check If Digits Are Equal in String After Operations II](../../3001-3500/3463-check-if-digits-are-equal-in-string-after-operations-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-if-string-halves-are-alike/)

@@ -152,8 +152,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3147. Taking Maximum Energy From the Mystic Dungeon](../../3001-3500/3147-taking-maximum-energy-from-the-mystic-dungeon/)
-- [596. Classes With at Least 5 Students](../../0501-1000/0596-classes-with-at-least-5-students/)
-- [1280. Students and Examinations](../../1001-1500/1280-students-and-examinations/)
+- [855. Exam Room](../../0501-1000/0855-exam-room/)
+- [2024. Maximize the Confusion of an Exam](../../2001-2500/2024-maximize-the-confusion-of-an-exam/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-students-taking-exam/)

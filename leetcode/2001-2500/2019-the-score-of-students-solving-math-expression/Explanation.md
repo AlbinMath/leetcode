@@ -175,8 +175,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2545. Sort the Students by Their Kth Score](../../2501-3000/2545-sort-the-students-by-their-kth-score/)
-- [596. Classes With at Least 5 Students](../../0501-1000/0596-classes-with-at-least-5-students/)
-- [1280. Students and Examinations](../../1001-1500/1280-students-and-examinations/)
+- [798. Smallest Rotation with Highest Score](../../0501-1000/0798-smallest-rotation-with-highest-score/)
+- [856. Score of Parentheses](../../0501-1000/0856-score-of-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-score-of-students-solving-math-expression/)

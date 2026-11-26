@@ -97,8 +97,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
-- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
+- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
+- [335. Self Crossing](../../0001-0500/0335-self-crossing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/self-dividing-numbers/)

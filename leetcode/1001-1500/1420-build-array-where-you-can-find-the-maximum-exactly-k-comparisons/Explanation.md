@@ -141,8 +141,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2917. Find the K-or of an Array](../../2501-3000/2917-find-the-k-or-of-an-array/)
-- [2945. Find Maximum Non-decreasing Array Length](../../2501-3000/2945-find-maximum-non-decreasing-array-length/)
-- [3011. Find if Array Can Be Sorted](../../3001-3500/3011-find-if-array-can-be-sorted/)
+- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
+- [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)

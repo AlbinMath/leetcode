@@ -169,7 +169,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
 - [49. Group Anagrams](../../0001-0500/0049-group-anagrams/)
-- [1399. Count Largest Group](../../1001-1500/1399-count-largest-group/)
+- [1282. Group the People Given the Group Size They Belong To](../../1001-1500/1282-group-the-people-given-the-group-size-they-belong-to/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-by/)

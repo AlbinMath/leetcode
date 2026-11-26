@@ -139,7 +139,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2045. Second Minimum Time to Reach Destination](../../2001-2500/2045-second-minimum-time-to-reach-destination/)
 - [3604. Minimum Time to Reach Destination in Directed Graph](../../3501-4000/3604-minimum-time-to-reach-destination-in-directed-graph/)
-- [3341. Find Minimum Time to Reach Last Room I](../../3001-3500/3341-find-minimum-time-to-reach-last-room-i/)
+- [2162. Minimum Cost to Set Cooking Time](../../2001-2500/2162-minimum-cost-to-set-cooking-time/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)

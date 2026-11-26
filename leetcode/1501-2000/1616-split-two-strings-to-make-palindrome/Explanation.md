@@ -119,7 +119,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1347-minimum-number-of-steps-to-make-two-strings-anagram/)
 - [2186. Minimum Number of Steps to Make Two Strings Anagram II](../../2001-2500/2186-minimum-number-of-steps-to-make-two-strings-anagram-ii/)
-- [583. Delete Operation for Two Strings](../../0501-1000/0583-delete-operation-for-two-strings/)
+- [1221. Split a String in Balanced Strings](../../1001-1500/1221-split-a-string-in-balanced-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)

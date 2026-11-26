@@ -108,9 +108,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
 - [2207. Maximize Number of Subsequences in a String](../../2001-2500/2207-maximize-number-of-subsequences-in-a-string/)
 - [2259. Remove Digit From Number to Maximize Result](../../2001-2500/2259-remove-digit-from-number-to-maximize-result/)
-- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3003-maximize-the-number-of-partitions-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-number-of-nice-divisors/)

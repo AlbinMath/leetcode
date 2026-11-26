@@ -121,8 +121,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [806. Number of Lines To Write String](../../0501-1000/0806-number-of-lines-to-write-string/)
-- [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
-- [195. Tenth Line](../../0001-0500/0195-tenth-line/)
+- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/)

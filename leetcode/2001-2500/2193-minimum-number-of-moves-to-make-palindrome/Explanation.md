@@ -136,9 +136,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1674. Minimum Moves to Make Array Complementary](../../1501-2000/1674-minimum-moves-to-make-array-complementary/)
-- [2037. Minimum Number of Moves to Seat Everyone](../../2001-2500/2037-minimum-number-of-moves-to-seat-everyone/)
-- [1312. Minimum Insertion Steps to Make a String Palindrome](../../1001-1500/1312-minimum-insertion-steps-to-make-a-string-palindrome/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1347-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [1482. Minimum Number of Days to Make m Bouquets](../../1001-1500/1482-minimum-number-of-days-to-make-m-bouquets/)
+- [1671. Minimum Number of Removals to Make Mountain Array](../../1501-2000/1671-minimum-number-of-removals-to-make-mountain-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)

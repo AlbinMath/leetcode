@@ -149,9 +149,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [454. 4Sum II](../../0001-0500/0454-4sum-ii/)
 - [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
 - [15. 3Sum](../../0001-0500/0015-3sum/)
-- [16. 3Sum Closest](../../0001-0500/0016-3sum-closest/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/4sum/)

@@ -117,7 +117,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3026. Maximum Good Subarray Sum](../../3001-3500/3026-maximum-good-subarray-sum/)
 - [3575. Maximum Good Subtree Score](../../3501-4000/3575-maximum-good-subtree-score/)
-- [2151. Maximum Good People Based on Statements](../../2001-2500/2151-maximum-good-people-based-on-statements/)
+- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)

@@ -115,9 +115,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1090. Largest Values From Labels](../../1001-1500/1090-largest-values-from-labels/)
-- [3117. Minimum Sum of Values by Dividing Array](../../3001-3500/3117-minimum-sum-of-values-by-dividing-array/)
-- [3785. Minimum Swaps to Avoid Forbidden Values](../../3501-4000/3785-minimum-swaps-to-avoid-forbidden-values/)
+- [988. Smallest String Starting From Leaf](../../0501-1000/0988-smallest-string-starting-from-leaf/)
+- [105. Construct Binary Tree from Preorder and Inorder Traversal](../../0001-0500/0105-construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [106. Construct Binary Tree from Inorder and Postorder Traversal](../../0001-0500/0106-construct-binary-tree-from-inorder-and-postorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)

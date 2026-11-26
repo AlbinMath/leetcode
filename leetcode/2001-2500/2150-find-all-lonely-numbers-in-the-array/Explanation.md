@@ -115,7 +115,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
 - [4031. Find All Numbers Disappeared in an Array II](../../4001-4500/4031-find-all-numbers-disappeared-in-an-array-ii/)
-- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
+- [442. Find All Duplicates in an Array](../../0001-0500/0442-find-all-duplicates-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)

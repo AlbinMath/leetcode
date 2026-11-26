@@ -122,8 +122,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [442. Find All Duplicates in an Array](../../0001-0500/0442-find-all-duplicates-in-an-array/)
 - [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
-- [1397. Find All Good Strings](../../1001-1500/1397-find-all-good-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-groups-of-farmland/)

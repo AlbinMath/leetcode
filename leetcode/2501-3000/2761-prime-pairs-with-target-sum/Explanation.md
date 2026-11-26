@@ -131,8 +131,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2824. Count Pairs Whose Sum is Less than Target](../../2501-3000/2824-count-pairs-whose-sum-is-less-than-target/)
-- [494. Target Sum](../../0001-0500/0494-target-sum/)
 - [677. Map Sum Pairs](../../0501-1000/0677-map-sum-pairs/)
+- [1679. Max Number of K-Sum Pairs](../../1501-2000/1679-max-number-of-k-sum-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prime-pairs-with-target-sum/)

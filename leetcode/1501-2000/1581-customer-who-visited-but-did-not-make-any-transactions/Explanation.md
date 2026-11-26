@@ -179,9 +179,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1169. Invalid Transactions](../../1001-1500/1169-invalid-transactions/)
-- [1193. Monthly Transactions I](../../1001-1500/1193-monthly-transactions-i/)
-- [3220. Odd and Even Transactions](../../3001-3500/3220-odd-and-even-transactions/)
+- [183. Customers Who Never Order](../../0001-0500/0183-customers-who-never-order/)
+- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
+- [1045. Customers Who Bought All Products](../../1001-1500/1045-customers-who-bought-all-products/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)

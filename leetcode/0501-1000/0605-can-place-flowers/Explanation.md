@@ -134,9 +134,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2251. Number of Flowers in Full Bloom](../../2001-2500/2251-number-of-flowers-in-full-bloom/)
 - [464. Can I Win](../../0001-0500/0464-can-i-win/)
 - [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1160-find-words-that-can-be-formed-by-characters/)
-- [1177. Can Make Palindrome from Substring](../../1001-1500/1177-can-make-palindrome-from-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/can-place-flowers/)

@@ -120,7 +120,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
 - [3418. Maximum Amount of Money Robot Can Earn](../../3001-3500/3418-maximum-amount-of-money-robot-can-earn/)
-- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
+- [1610. Maximum Number of Visible Points](../../1501-2000/1610-maximum-number-of-visible-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-points-tourist-can-earn/)

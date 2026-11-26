@@ -141,8 +141,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2220. Minimum Bit Flips to Convert Number](../../2001-2500/2220-minimum-bit-flips-to-convert-number/)
 - [1888. Minimum Number of Flips to Make the Binary String Alternating](../../1501-2000/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/)
+- [2220. Minimum Bit Flips to Convert Number](../../2001-2500/2220-minimum-bit-flips-to-convert-number/)
 - [3239. Minimum Number of Flips to Make Binary Grid Palindromic I](../../3001-3500/3239-minimum-number-of-flips-to-make-binary-grid-palindromic-i/)
 
 ## LeetCode

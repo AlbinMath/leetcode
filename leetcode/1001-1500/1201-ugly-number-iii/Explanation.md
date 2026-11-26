@@ -118,8 +118,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [263. Ugly Number](../../0001-0500/0263-ugly-number/)
+- [264. Ugly Number II](../../0001-0500/0264-ugly-number-ii/)
 - [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ugly-number-iii/)

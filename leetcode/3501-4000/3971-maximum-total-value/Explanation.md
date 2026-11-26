@@ -173,7 +173,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3689. Maximum Total Subarray Value I](../../3501-4000/3689-maximum-total-subarray-value-i/)
 - [3691. Maximum Total Subarray Value II](../../3501-4000/3691-maximum-total-subarray-value-ii/)
-- [2234. Maximum Total Beauty of the Gardens](../../2001-2500/2234-maximum-total-beauty-of-the-gardens/)
+- [1695. Maximum Erasure Value](../../1501-2000/1695-maximum-erasure-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-value/)

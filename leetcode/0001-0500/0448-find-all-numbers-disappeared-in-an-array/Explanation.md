@@ -113,7 +113,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [4031. Find All Numbers Disappeared in an Array II](../../4001-4500/4031-find-all-numbers-disappeared-in-an-array-ii/)
 - [2150. Find All Lonely Numbers in the Array](../../2001-2500/2150-find-all-lonely-numbers-in-the-array/)
-- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
+- [442. Find All Duplicates in an Array](../../0001-0500/0442-find-all-duplicates-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)

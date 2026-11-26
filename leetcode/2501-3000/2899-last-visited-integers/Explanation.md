@@ -140,9 +140,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1560. Most Visited Sector in  a Circular Track](../../1501-2000/1560-most-visited-sector-in-a-circular-track/)
-- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1581-customer-who-visited-but-did-not-make-any-transactions/)
-- [2617. Minimum Number of Visited Cells in a Grid](../../2501-3000/2617-minimum-number-of-visited-cells-in-a-grid/)
+- [29. Divide Two Integers](../../0001-0500/0029-divide-two-integers/)
+- [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
+- [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-visited-integers/)

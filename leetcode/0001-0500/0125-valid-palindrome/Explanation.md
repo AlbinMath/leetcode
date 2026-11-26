@@ -127,8 +127,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [680. Valid Palindrome II](../../0501-1000/0680-valid-palindrome-ii/)
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
-- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [131. Palindrome Partitioning](../../0001-0500/0131-palindrome-partitioning/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-palindrome/)

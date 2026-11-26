@@ -139,8 +139,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3566. Partition Array into Two Equal Product Subsets](../../3501-4000/3566-partition-array-into-two-equal-product-subsets/)
-- [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii-input-array-is-sorted/)
-- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2657-find-the-prefix-common-array-of-two-arrays/)
+- [2215. Find the Difference of Two Arrays](../../2001-2500/2215-find-the-difference-of-two-arrays/)
+- [3599. Partition Array to Minimize XOR](../../3501-4000/3599-partition-array-to-minimize-xor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)

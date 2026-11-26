@@ -138,9 +138,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [4066. Maximum Equal Adjacent Pairs After at Most One Replacement](../../4001-4500/4066-maximum-equal-adjacent-pairs-after-at-most-one-replacement/)
 - [819. Most Common Word](../../0501-1000/0819-most-common-word/)
 - [3527. Find the Most Common Response](../../3501-4000/3527-find-the-most-common-response/)
+- [4066. Maximum Equal Adjacent Pairs After at Most One Replacement](../../4001-4500/4066-maximum-equal-adjacent-pairs-after-at-most-one-replacement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-course-pairs/)

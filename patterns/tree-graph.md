@@ -40,6 +40,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 695 | [Max Area of Island](../leetcode/0501-1000/0695-max-area-of-island/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0695-max-area-of-island/Explanation.md) |
 | 785 | [Is Graph Bipartite?](../leetcode/0501-1000/0785-is-graph-bipartite/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0785-is-graph-bipartite/Explanation.md) |
 | 797 | [All Paths From Source to Target](../leetcode/0501-1000/0797-all-paths-from-source-to-target/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0797-all-paths-from-source-to-target/Explanation.md) |
+| 823 | [Binary Trees With Factors](../leetcode/0501-1000/0823-binary-trees-with-factors/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0823-binary-trees-with-factors/Explanation.md) |
 | 826 | [Most Profit Assigning Work](../leetcode/0501-1000/0826-most-profit-assigning-work/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0826-most-profit-assigning-work/Explanation.md) |
 | 841 | [Keys and Rooms](../leetcode/0501-1000/0841-keys-and-rooms/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0841-keys-and-rooms/Explanation.md) |
 | 877 | [Stone Game](../leetcode/0501-1000/0877-stone-game/) | C++, Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0877-stone-game/Explanation.md) |
@@ -112,6 +113,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 761 | [Special Binary String](../leetcode/0501-1000/0761-special-binary-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0761-special-binary-string/Explanation.md) |
 | 987 | [Vertical Order Traversal of a Binary Tree](../leetcode/0501-1000/0987-vertical-order-traversal-of-a-binary-tree/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0987-vertical-order-traversal-of-a-binary-tree/Explanation.md) |
 | 996 | [Number of Squareful Arrays](../leetcode/0501-1000/0996-number-of-squareful-arrays/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0996-number-of-squareful-arrays/Explanation.md) |
+| 1001 | [Grid Illumination](../leetcode/1001-1500/1001-grid-illumination/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1001-grid-illumination/Explanation.md) |
 | 1192 | [Critical Connections in a Network](../leetcode/1001-1500/1192-critical-connections-in-a-network/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1192-critical-connections-in-a-network/Explanation.md) |
 | 1377 | [Frog Position After T Seconds](../leetcode/1001-1500/1377-frog-position-after-t-seconds/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1377-frog-position-after-t-seconds/Explanation.md) |
 | 1505 | [Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../leetcode/1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/Explanation.md) |

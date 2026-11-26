@@ -114,9 +114,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2097. Valid Arrangement of Pairs](../../2001-2500/2097-valid-arrangement-of-pairs/)
 - [932. Beautiful Array](../../0501-1000/0932-beautiful-array/)
 - [2070. Most Beautiful Item for Each Query](../../2001-2500/2070-most-beautiful-item-for-each-query/)
-- [2216. Minimum Deletions to Make Array Beautiful](../../2001-2500/2216-minimum-deletions-to-make-array-beautiful/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/beautiful-arrangement/)

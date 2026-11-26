@@ -156,8 +156,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [375. Guess Number Higher or Lower II](../../0001-0500/0375-guess-number-higher-or-lower-ii/)
-- [843. Guess the Word](../../0501-1000/0843-guess-the-word/)
-- [709. To Lower Case](../../0501-1000/0709-to-lower-case/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/guess-number-higher-or-lower/)

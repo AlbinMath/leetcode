@@ -117,8 +117,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2778. Sum of Squares of Special Elements ](../../2501-3000/2778-sum-of-squares-of-special-elements/)
 - [2841. Maximum Sum of Almost Unique Subarray](../../2501-3000/2841-maximum-sum-of-almost-unique-subarray/)
+- [2778. Sum of Squares of Special Elements ](../../2501-3000/2778-sum-of-squares-of-special-elements/)
 - [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../../3001-3500/3165-maximum-sum-of-subsequence-with-non-adjacent-elements/)
 
 ## LeetCode

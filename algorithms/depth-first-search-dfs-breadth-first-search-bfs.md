@@ -27,6 +27,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 761 | [Special Binary String](../leetcode/0501-1000/0761-special-binary-string/) | Hard | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0761-special-binary-string/Explanation.md) |
 | 785 | [Is Graph Bipartite?](../leetcode/0501-1000/0785-is-graph-bipartite/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0785-is-graph-bipartite/Explanation.md) |
 | 797 | [All Paths From Source to Target](../leetcode/0501-1000/0797-all-paths-from-source-to-target/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0797-all-paths-from-source-to-target/Explanation.md) |
+| 823 | [Binary Trees With Factors](../leetcode/0501-1000/0823-binary-trees-with-factors/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0823-binary-trees-with-factors/Explanation.md) |
 | 826 | [Most Profit Assigning Work](../leetcode/0501-1000/0826-most-profit-assigning-work/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0826-most-profit-assigning-work/Explanation.md) |
 | 841 | [Keys and Rooms](../leetcode/0501-1000/0841-keys-and-rooms/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0841-keys-and-rooms/Explanation.md) |
 | 877 | [Stone Game](../leetcode/0501-1000/0877-stone-game/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0877-stone-game/Explanation.md) |
@@ -37,6 +38,7 @@ A curated selection of LeetCode problems solved using the **Depth-First Search (
 | 994 | [Rotting Oranges](../leetcode/0501-1000/0994-rotting-oranges/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0994-rotting-oranges/Explanation.md) |
 | 996 | [Number of Squareful Arrays](../leetcode/0501-1000/0996-number-of-squareful-arrays/) | Hard | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0996-number-of-squareful-arrays/Explanation.md) |
 | 998 | [Maximum Binary Tree II](../leetcode/0501-1000/0998-maximum-binary-tree-ii/) | Medium | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0998-maximum-binary-tree-ii/Explanation.md) |
+| 1001 | [Grid Illumination](../leetcode/1001-1500/1001-grid-illumination/) | Hard | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1001-grid-illumination/Explanation.md) |
 | 1022 | [Sum of Root To Leaf Binary Numbers](../leetcode/1001-1500/1022-sum-of-root-to-leaf-binary-numbers/) | Easy | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1022-sum-of-root-to-leaf-binary-numbers/Explanation.md) |
 | 1192 | [Critical Connections in a Network](../leetcode/1001-1500/1192-critical-connections-in-a-network/) | Hard | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1192-critical-connections-in-a-network/Explanation.md) |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](../leetcode/1001-1500/1217-minimum-cost-to-move-chips-to-the-same-position/) | Easy | Tree & Graph | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1217-minimum-cost-to-move-chips-to-the-same-position/Explanation.md) |

@@ -123,8 +123,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [659. Split Array into Consecutive Subsequences](../../0501-1000/0659-split-array-into-consecutive-subsequences/)
 - [805. Split Array With Same Average](../../0501-1000/0805-split-array-with-same-average/)
-- [842. Split Array into Fibonacci Sequence](../../0501-1000/0842-split-array-into-fibonacci-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-and-merge-array-transformation/)

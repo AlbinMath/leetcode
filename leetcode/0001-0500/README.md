@@ -1,6 +1,6 @@
 # LeetCode Problems: 0001-0500
 
-A collection of **400** solved LeetCode problems in the range **0001-0500**.
+A collection of **405** solved LeetCode problems in the range **0001-0500**.
 
 ## Problem Index
 
@@ -244,6 +244,7 @@ A collection of **400** solved LeetCode problems in the range **0001-0500**.
 | 260 | [Single Number III](./0260-single-number-iii/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0260-single-number-iii/Explanation.md) |
 | 262 | [Trips and Users](./0262-trips-and-users/) | Hard | [Database / SQL](../../patterns/sql-database.md) | SQL | [Explanation](./0262-trips-and-users/Explanation.md) |
 | 263 | [Ugly Number](./0263-ugly-number/) | Easy | [Array / General](../../patterns/array-general.md) | PHP, Python | [Explanation](./0263-ugly-number/Explanation.md) |
+| 264 | [Ugly Number II](./0264-ugly-number-ii/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0264-ugly-number-ii/Explanation.md) |
 | 268 | [Missing Number](./0268-missing-number/) | Easy | [Array / General](../../patterns/array-general.md) | PHP | [Explanation](./0268-missing-number/Explanation.md) |
 | 273 | [Integer to English Words](./0273-integer-to-english-words/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0273-integer-to-english-words/Explanation.md) |
 | 274 | [H-Index](./0274-h-index/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0274-h-index/Explanation.md) |
@@ -360,17 +361,21 @@ A collection of **400** solved LeetCode problems in the range **0001-0500**.
 | 438 | [Find All Anagrams in a String](./0438-find-all-anagrams-in-a-string/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0438-find-all-anagrams-in-a-string/Explanation.md) |
 | 440 | [K-th Smallest in Lexicographical Order](./0440-k-th-smallest-in-lexicographical-order/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0440-k-th-smallest-in-lexicographical-order/Explanation.md) |
 | 441 | [Arranging Coins](./0441-arranging-coins/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0441-arranging-coins/Explanation.md) |
+| 442 | [Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0442-find-all-duplicates-in-an-array/Explanation.md) |
 | 443 | [String Compression](./0443-string-compression/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0443-string-compression/Explanation.md) |
 | 445 | [Add Two Numbers II](./0445-add-two-numbers-ii/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0445-add-two-numbers-ii/Explanation.md) |
 | 446 | [Arithmetic Slices II - Subsequence](./0446-arithmetic-slices-ii-subsequence/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0446-arithmetic-slices-ii-subsequence/Explanation.md) |
+| 447 | [Number of Boomerangs](./0447-number-of-boomerangs/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0447-number-of-boomerangs/Explanation.md) |
 | 448 | [Find All Numbers Disappeared in an Array](./0448-find-all-numbers-disappeared-in-an-array/) | Easy | [Math & Logic](../../patterns/math-logic.md) | TypeScript | [Explanation](./0448-find-all-numbers-disappeared-in-an-array/Explanation.md) |
 | 449 | [Serialize and Deserialize BST](./0449-serialize-and-deserialize-bst/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0449-serialize-and-deserialize-bst/Explanation.md) |
 | 450 | [Delete Node in a BST](./0450-delete-node-in-a-bst/) | Medium | [Binary Search](../../patterns/binary-search.md) | JavaScript, Python | [Explanation](./0450-delete-node-in-a-bst/Explanation.md) |
 | 451 | [Sort Characters By Frequency](./0451-sort-characters-by-frequency/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0451-sort-characters-by-frequency/Explanation.md) |
 | 452 | [Minimum Number of Arrows to Burst Balloons](./0452-minimum-number-of-arrows-to-burst-balloons/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | JavaScript | [Explanation](./0452-minimum-number-of-arrows-to-burst-balloons/Explanation.md) |
 | 453 | [Minimum Moves to Equal Array Elements](./0453-minimum-moves-to-equal-array-elements/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0453-minimum-moves-to-equal-array-elements/Explanation.md) |
+| 454 | [4Sum II](./0454-4sum-ii/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0454-4sum-ii/Explanation.md) |
 | 455 | [Assign Cookies](./0455-assign-cookies/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0455-assign-cookies/Explanation.md) |
 | 456 | [132 Pattern](./0456-132-pattern/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0456-132-pattern/Explanation.md) |
+| 457 | [Circular Array Loop](./0457-circular-array-loop/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0457-circular-array-loop/Explanation.md) |
 | 458 | [Poor Pigs](./0458-poor-pigs/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0458-poor-pigs/Explanation.md) |
 | 459 | [Repeated Substring Pattern](./0459-repeated-substring-pattern/) | Easy | [Array / General](../../patterns/array-general.md) | JavaScript, Python | [Explanation](./0459-repeated-substring-pattern/Explanation.md) |
 | 460 | [LFU Cache](./0460-lfu-cache/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0460-lfu-cache/Explanation.md) |

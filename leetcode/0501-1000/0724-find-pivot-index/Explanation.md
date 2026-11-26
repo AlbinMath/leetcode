@@ -144,7 +144,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 - [1991. Find the Middle Index in Array](../../1501-2000/1991-find-the-middle-index-in-array/)
-- [3862. Find the Smallest Balanced Index](../../3501-4000/3862-find-the-smallest-balanced-index/)
+- [2485. Find the Pivot Integer](../../2001-2500/2485-find-the-pivot-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-pivot-index/)

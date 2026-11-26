@@ -153,8 +153,8 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 
 ## Related Problems
 - [237. Delete Node in a Linked List](../../0001-0500/0237-delete-node-in-a-linked-list/)
-- [3217. Delete Nodes From Linked List Present in Array](../../3001-3500/3217-delete-nodes-from-linked-list-present-in-array/)
 - [382. Linked List Random Node](../../0001-0500/0382-linked-list-random-node/)
+- [1019. Next Greater Node In Linked List](../../1001-1500/1019-next-greater-node-in-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)

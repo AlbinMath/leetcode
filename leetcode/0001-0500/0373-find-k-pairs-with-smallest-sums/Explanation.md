@@ -182,7 +182,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
 - [3821. Find Nth Smallest Integer With K One Bits](../../3501-4000/3821-find-nth-smallest-integer-with-k-one-bits/)
-- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
+- [440. K-th Smallest in Lexicographical Order](../../0001-0500/0440-k-th-smallest-in-lexicographical-order/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)

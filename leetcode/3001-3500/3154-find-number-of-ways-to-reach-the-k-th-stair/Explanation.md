@@ -167,7 +167,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
 - [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
-- [2269. Find the K-Beauty of a Number](../../2001-2500/2269-find-the-k-beauty-of-a-number/)
+- [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../../1501-2000/1866-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair/)

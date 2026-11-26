@@ -150,7 +150,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [733. Flood Fill](../../0501-1000/0733-flood-fill/)
 - [3905. Multi Source Flood Fill](../../3501-4000/3905-multi-source-flood-fill/)
-- [1576. Replace All ?'s to Avoid Consecutive Repeating Characters](../../1501-2000/1576-replace-all-s-to-avoid-consecutive-repeating-characters/)
+- [807. Max Increase to Keep City Skyline](../../0501-1000/0807-max-increase-to-keep-city-skyline/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/avoid-flood-in-the-city/)

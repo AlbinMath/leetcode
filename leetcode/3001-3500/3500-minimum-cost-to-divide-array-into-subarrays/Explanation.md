@@ -1,7 +1,7 @@
 # LeetCode 3500: Minimum Cost to Divide Array Into Subarrays
 
 **LeetCode Problem #3500 — Minimum Cost to Divide Array Into Subarrays**
-Solve LeetCode Minimum Cost to Divide Array Into Subarrays using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Minimum Cost to Divide Array Into Subarrays using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Minimum Cost to Divide Array Into Subarrays using Python and Arra
 | LeetCode | #3500 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given two integer arrays, `nums` and `cost`, of the same size, and an integer `k`.
@@ -54,7 +54,7 @@ Return the **minimum** total cost possible from any valid division.
  The cost of the third subarray `[12, 1]` is `(4 + 8 + 5 + 1 + 14 + 2 + 2 + 12 + 1 + 7 * 3) * (1 + 2) = 210`.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
 To solve **Minimum Cost to Divide Array Into Subarrays**, we observe the problem requirements and utilize the **Array / General** technique. We decompose the problem into overlapping subproblems using a **Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
@@ -67,7 +67,7 @@ To solve **Minimum Cost to Divide Array Into Subarrays**, we observe the problem
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [3,1,4], cost = [4,6,6], k = 1`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `110`.
@@ -79,13 +79,15 @@ To solve **Minimum Cost to Divide Array Into Subarrays**, we observe the problem
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Array / General**
+**Dynamic Programming**
 
 ## Topics
-- Array
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 Python
@@ -119,21 +121,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [3010. Divide an Array Into Subarrays With Minimum Cost I](../../3001-3500/3010-divide-an-array-into-subarrays-with-minimum-cost-i/)
 - [3013. Divide an Array Into Subarrays With Minimum Cost II](../../3001-3500/3013-divide-an-array-into-subarrays-with-minimum-cost-ii/)
-- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
+- [2448. Minimum Cost to Make Array Equal](../../2001-2500/2448-minimum-cost-to-make-array-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-divide-array-into-subarrays/)

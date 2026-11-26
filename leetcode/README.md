@@ -6,10 +6,10 @@ This directory contains solved LeetCode problems partitioned into standardized r
 
 | Range | Solved Count | Directory Link |
 |---|---|---|
-| **0001-0500** | 400 problems | [Explore 0001-0500](./0001-0500/) |
-| **0501-1000** | 390 problems | [Explore 0501-1000](./0501-1000/) |
-| **1001-1500** | 323 problems | [Explore 1001-1500](./1001-1500/) |
-| **1501-2000** | 356 problems | [Explore 1501-2000](./1501-2000/) |
+| **0001-0500** | 405 problems | [Explore 0001-0500](./0001-0500/) |
+| **0501-1000** | 399 problems | [Explore 0501-1000](./0501-1000/) |
+| **1001-1500** | 329 problems | [Explore 1001-1500](./1001-1500/) |
+| **1501-2000** | 363 problems | [Explore 1501-2000](./1501-2000/) |
 | **2001-2500** | 308 problems | [Explore 2001-2500](./2001-2500/) |
 | **2501-3000** | 282 problems | [Explore 2501-3000](./2501-3000/) |
 | **3001-3500** | 297 problems | [Explore 3001-3500](./3001-3500/) |

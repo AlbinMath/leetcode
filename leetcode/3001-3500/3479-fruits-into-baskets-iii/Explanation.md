@@ -147,7 +147,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3477. Fruits Into Baskets II](../../3001-3500/3477-fruits-into-baskets-ii/)
 - [904. Fruit Into Baskets](../../0501-1000/0904-fruit-into-baskets/)
-- [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2106-maximum-fruits-harvested-after-at-most-k-steps/)
+- [659. Split Array into Consecutive Subsequences](../../0501-1000/0659-split-array-into-consecutive-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fruits-into-baskets-iii/)

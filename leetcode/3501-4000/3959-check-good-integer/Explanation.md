@@ -114,7 +114,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1250. Check If It Is a Good Array](../../1001-1500/1250-check-if-it-is-a-good-array/)
 - [2784. Check if Array is Good](../../2501-3000/2784-check-if-array-is-good/)
-- [958. Check Completeness of a Binary Tree](../../0501-1000/0958-check-completeness-of-a-binary-tree/)
+- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-good-integer/)

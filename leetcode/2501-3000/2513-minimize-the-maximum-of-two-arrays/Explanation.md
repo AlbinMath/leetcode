@@ -125,8 +125,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
-- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
-- [349. Intersection of Two Arrays](../../0001-0500/0349-intersection-of-two-arrays/)
+- [2439. Minimize Maximum of Array](../../2001-2500/2439-minimize-maximum-of-array/)
+- [2616. Minimize the Maximum Difference of Pairs](../../2501-3000/2616-minimize-the-maximum-difference-of-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/)

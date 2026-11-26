@@ -133,9 +133,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [936. Stamping The Sequence](../../0501-1000/0936-stamping-the-sequence/)
 - [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
-- [1260. Shift 2D Grid](../../1001-1500/1260-shift-2d-grid/)
-- [1293. Shortest Path in a Grid with Obstacles Elimination](../../1001-1500/1293-shortest-path-in-a-grid-with-obstacles-elimination/)
+- [1001. Grid Illumination](../../1001-1500/1001-grid-illumination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stamping-the-grid/)

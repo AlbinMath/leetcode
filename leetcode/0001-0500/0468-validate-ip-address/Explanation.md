@@ -136,8 +136,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1108. Defanging an IP Address](../../1001-1500/1108-defanging-an-ip-address/)
-- [93. Restore IP Addresses](../../0001-0500/0093-restore-ip-addresses/)
-- [3451. Find Invalid IP Addresses](../../3001-3500/3451-find-invalid-ip-addresses/)
+- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
+- [946. Validate Stack Sequences](../../0501-1000/0946-validate-stack-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/validate-ip-address/)

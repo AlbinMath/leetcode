@@ -125,9 +125,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3461. Check If Digits Are Equal in String After Operations I](../../3001-3500/3461-check-if-digits-are-equal-in-string-after-operations-i/)
-- [3463. Check If Digits Are Equal in String After Operations II](../../3001-3500/3463-check-if-digits-are-equal-in-string-after-operations-ii/)
 - [1391. Check if There is a Valid Path in a Grid](../../1001-1500/1391-check-if-there-is-a-valid-path-in-a-grid/)
+- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1001-1500/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
+- [1880. Check if Word Equals Summation of Two Words](../../1501-2000/1880-check-if-word-equals-summation-of-two-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)

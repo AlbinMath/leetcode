@@ -136,9 +136,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2261. K Divisible Elements Subarrays](../../2001-2500/2261-k-divisible-elements-subarrays/)
 - [2435. Paths in Matrix Whose Sum Is Divisible by K](../../2001-2500/2435-paths-in-matrix-whose-sum-is-divisible-by-k/)
 - [3381. Maximum Subarray Sum With Length Divisible by K](../../3001-3500/3381-maximum-subarray-sum-with-length-divisible-by-k/)
-- [3462. Maximum Sum With at Most K Elements](../../3001-3500/3462-maximum-sum-with-at-most-k-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/)

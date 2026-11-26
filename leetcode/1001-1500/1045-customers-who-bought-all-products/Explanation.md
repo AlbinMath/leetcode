@@ -153,8 +153,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [183. Customers Who Never Order](../../0001-0500/0183-customers-who-never-order/)
-- [3657. Find Loyal Customers](../../3501-4000/3657-find-loyal-customers/)
-- [3705. Find Golden Hour Customers](../../3501-4000/3705-find-golden-hour-customers/)
+- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
+- [1050. Actors and Directors Who Cooperated At Least Three Times](../../1001-1500/1050-actors-and-directors-who-cooperated-at-least-three-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customers-who-bought-all-products/)

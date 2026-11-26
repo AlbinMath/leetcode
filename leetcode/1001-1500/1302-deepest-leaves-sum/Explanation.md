@@ -102,7 +102,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
 - [1123. Lowest Common Ancestor of Deepest Leaves](../../1001-1500/1123-lowest-common-ancestor-of-deepest-leaves/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [1325. Delete Leaves With a Given Value](../../1001-1500/1325-delete-leaves-with-a-given-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/deepest-leaves-sum/)

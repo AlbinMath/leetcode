@@ -118,9 +118,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2180. Count Integers With Even Digit Sum](../../2001-2500/2180-count-integers-with-even-digit-sum/)
-- [2554. Maximum Number of Integers to Choose From a Range I](../../2501-3000/2554-maximum-number-of-integers-to-choose-from-a-range-i/)
-- [3670. Maximum Product of Two Integers With No Common Bits](../../3501-4000/3670-maximum-product-of-two-integers-with-no-common-bits/)
+- [2871. Split Array Into Maximum Number of Subarrays](../../2501-3000/2871-split-array-into-maximum-number-of-subarrays/)
+- [3788. Maximum Score of a Split](../../3501-4000/3788-maximum-score-of-a-split/)
+- [4035. Maximum Valid Split Positions I](../../4001-4500/4035-maximum-valid-split-positions-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)

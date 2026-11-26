@@ -136,9 +136,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
-- [786. K-th Smallest Prime Fraction](../../0501-1000/0786-k-th-smallest-prime-fraction/)
-- [866. Prime Palindrome](../../0501-1000/0866-prime-palindrome/)
+- [583. Delete Operation for Two Strings](../../0501-1000/0583-delete-operation-for-two-strings/)
+- [1381. Design a Stack With Increment Operation](../../1001-1500/1381-design-a-stack-with-increment-operation/)
+- [1486. XOR Operation in an Array](../../1001-1500/1486-xor-operation-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/prime-subtraction-operation/)

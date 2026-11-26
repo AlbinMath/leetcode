@@ -118,7 +118,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
 - [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2177-find-three-consecutive-integers-that-sum-to-a-given-number/)
-- [352. Data Stream as Disjoint Intervals](../../0001-0500/0352-data-stream-as-disjoint-intervals/)
+- [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1171-remove-zero-sum-consecutive-nodes-from-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/)

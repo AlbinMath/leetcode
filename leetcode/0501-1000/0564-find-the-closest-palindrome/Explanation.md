@@ -110,9 +110,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3260. Find the Largest Palindrome Divisible by K](../../3001-3500/3260-find-the-largest-palindrome-divisible-by-k/)
 - [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
 - [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1521-find-a-value-of-a-mysterious-function-closest-to-target/)
+- [2359. Find Closest Node to Given Two Nodes](../../2001-2500/2359-find-closest-node-to-given-two-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-closest-palindrome/)

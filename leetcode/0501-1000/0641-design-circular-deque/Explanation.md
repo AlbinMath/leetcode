@@ -194,8 +194,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
-- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
-- [355. Design Twitter](../../0001-0500/0355-design-twitter/)
+- [457. Circular Array Loop](../../0001-0500/0457-circular-array-loop/)
+- [918. Maximum Sum Circular Subarray](../../0501-1000/0918-maximum-sum-circular-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-circular-deque/)

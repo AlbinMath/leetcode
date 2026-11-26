@@ -108,8 +108,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3880. Minimum Absolute Difference Between Two Values](../../3501-4000/3880-minimum-absolute-difference-between-two-values/)
-- [2114. Maximum Number of Words Found in Sentences](../../2001-2500/2114-maximum-number-of-words-found-in-sentences/)
-- [1090. Largest Values From Labels](../../1001-1500/1090-largest-values-from-labels/)
+- [807. Max Increase to Keep City Skyline](../../0501-1000/0807-max-increase-to-keep-city-skyline/)
+- [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](../../1501-2000/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)

@@ -119,9 +119,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3962. Maximum Subarray Sum After at Most K Swaps](../../3501-4000/3962-maximum-subarray-sum-after-at-most-k-swaps/)
+- [4058. Maximum Pulse Value After One Subarray Rotation](../../4001-4500/4058-maximum-pulse-value-after-one-subarray-rotation/)
 - [3346. Maximum Frequency of an Element After Performing Operations I](../../3001-3500/3346-maximum-frequency-of-an-element-after-performing-operations-i/)
-- [3347. Maximum Frequency of an Element After Performing Operations II](../../3001-3500/3347-maximum-frequency-of-an-element-after-performing-operations-ii/)
-- [2779. Maximum Beauty of an Array After Applying Operation](../../2501-3000/2779-maximum-beauty-of-an-array-after-applying-operation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-frequency-after-subarray-operation/)

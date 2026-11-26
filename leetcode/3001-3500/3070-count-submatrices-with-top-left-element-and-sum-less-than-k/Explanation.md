@@ -111,9 +111,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2824. Count Pairs Whose Sum is Less than Target](../../2501-3000/2824-count-pairs-whose-sum-is-less-than-target/)
-- [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](../../3001-3500/3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
 - [2302. Count Subarrays With Score Less Than K](../../2001-2500/2302-count-subarrays-with-score-less-than-k/)
+- [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](../../3001-3500/3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
+- [3352. Count K-Reducible Numbers Less Than N](../../3001-3500/3352-count-k-reducible-numbers-less-than-n/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)

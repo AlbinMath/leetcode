@@ -113,9 +113,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1349. Maximum Students Taking Exam](../../1001-1500/1349-maximum-students-taking-exam/)
 - [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
 - [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
-- [1707. Maximum XOR With an Element From Array](../../1501-2000/1707-maximum-xor-with-an-element-from-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/)

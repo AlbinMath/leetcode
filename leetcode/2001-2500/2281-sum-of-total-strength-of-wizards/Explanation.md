@@ -129,9 +129,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [39. Combination Sum](../../0001-0500/0039-combination-sum/)
-- [40. Combination Sum II](../../0001-0500/0040-combination-sum-ii/)
+- [2708. Maximum Strength of a Group](../../2501-3000/2708-maximum-strength-of-a-group/)
+- [3077. Maximum Strength of K Disjoint Subarrays](../../3001-3500/3077-maximum-strength-of-k-disjoint-subarrays/)
+- [4008. Minimum Initial Strength to Defeat All Monsters](../../4001-4500/4008-minimum-initial-strength-to-defeat-all-monsters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)

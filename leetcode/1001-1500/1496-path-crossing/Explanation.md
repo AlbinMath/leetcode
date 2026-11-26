@@ -112,9 +112,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [335. Self Crossing](../../0001-0500/0335-self-crossing/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 - [71. Simplify Path](../../0001-0500/0071-simplify-path/)
+- [112. Path Sum](../../0001-0500/0112-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-crossing/)

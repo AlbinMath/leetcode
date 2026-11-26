@@ -178,9 +178,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
-- [1010. Pairs of Songs With Total Durations Divisible by 60](../../1001-1500/1010-pairs-of-songs-with-total-durations-divisible-by-60/)
-- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1741-find-total-time-spent-by-each-employee/)
+- [924. Minimize Malware Spread](../../0501-1000/0924-minimize-malware-spread/)
+- [928. Minimize Malware Spread II](../../0501-1000/0928-minimize-malware-spread-ii/)
+- [1722. Minimize Hamming Distance After Swap Operations](../../1501-2000/1722-minimize-hamming-distance-after-swap-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-total-price-of-the-trips/)

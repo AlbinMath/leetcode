@@ -113,7 +113,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [378. Kth Smallest Element in a Sorted Matrix](../../0001-0500/0378-kth-smallest-element-in-a-sorted-matrix/)
 - [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
-- [703. Kth Largest Element in a Stream](../../0501-1000/0703-kth-largest-element-in-a-stream/)
+- [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)

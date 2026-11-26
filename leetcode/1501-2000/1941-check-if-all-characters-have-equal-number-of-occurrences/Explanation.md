@@ -118,7 +118,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2283. Check if Number Has Equal Digit Count and Digit Value](../../2001-2500/2283-check-if-number-has-equal-digit-count-and-digit-value/)
 - [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1358-number-of-substrings-containing-all-three-characters/)
-- [1897. Redistribute Characters to Make All Strings Equal](../../1501-2000/1897-redistribute-characters-to-make-all-strings-equal/)
+- [2531. Make Number of Distinct Characters Equal](../../2501-3000/2531-make-number-of-distinct-characters-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)

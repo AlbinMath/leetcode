@@ -138,8 +138,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1332. Remove Palindromic Subsequences](../../1001-1500/1332-remove-palindromic-subsequences/)
+- [1819. Number of Different Subsequences GCDs](../../1501-2000/1819-number-of-different-subsequences-gcds/)
 - [1930. Unique Length-3 Palindromic Subsequences](../../1501-2000/1930-unique-length-3-palindromic-subsequences/)
-- [2002. Maximum Product of the Length of Two Palindromic Subsequences](../../2001-2500/2002-maximum-product-of-the-length-of-two-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-different-palindromic-subsequences/)

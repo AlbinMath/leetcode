@@ -127,8 +127,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1754. Largest Merge Of Two Strings](../../1501-2000/1754-largest-merge-of-two-strings/)
-- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
-- [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
+- [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
+- [205. Isomorphic Strings](../../0001-0500/0205-isomorphic-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-strings-alternately/)

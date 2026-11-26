@@ -166,9 +166,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [873. Length of Longest Fibonacci Subsequence](../../0501-1000/0873-length-of-longest-fibonacci-subsequence/)
 - [2781. Length of the Longest Valid Substring](../../2501-3000/2781-length-of-the-longest-valid-substring/)
 - [2958. Length of Longest Subarray With at Most K Frequency](../../2501-3000/2958-length-of-longest-subarray-with-at-most-k-frequency/)
-- [3043. Find the Length of the Longest Common Prefix](../../3001-3500/3043-find-the-length-of-the-longest-common-prefix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/)

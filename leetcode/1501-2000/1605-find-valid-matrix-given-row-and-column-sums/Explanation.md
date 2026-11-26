@@ -121,8 +121,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1982. Find Array Given Subset Sums](../../1501-2000/1982-find-array-given-subset-sums/)
-- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1253-reconstruct-a-2-row-binary-matrix/)
-- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1001-1500/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [3883. Count Non Decreasing Arrays With Given Digit Sums](../../3501-4000/3883-count-non-decreasing-arrays-with-given-digit-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)

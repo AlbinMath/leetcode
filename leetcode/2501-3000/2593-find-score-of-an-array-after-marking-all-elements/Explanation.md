@@ -132,8 +132,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2640. Find the Score of All Prefixes of an Array](../../2501-3000/2640-find-the-score-of-all-prefixes-of-an-array/)
-- [1619. Mean of Array After Removing Some Elements](../../1501-2000/1619-mean-of-array-after-removing-some-elements/)
-- [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
+- [3334. Find the Maximum Factor Score of Array](../../3001-3500/3334-find-the-maximum-factor-score-of-array/)
+- [442. Find All Duplicates in an Array](../../0001-0500/0442-find-all-duplicates-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/)

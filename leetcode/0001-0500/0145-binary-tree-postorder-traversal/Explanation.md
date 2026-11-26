@@ -139,7 +139,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](../../0001-0500/0106-construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [889. Construct Binary Tree from Preorder and Postorder Traversal](../../0501-1000/0889-construct-binary-tree-from-preorder-and-postorder-traversal/)
-- [590. N-ary Tree Postorder Traversal](../../0501-1000/0590-n-ary-tree-postorder-traversal/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-tree-postorder-traversal/)

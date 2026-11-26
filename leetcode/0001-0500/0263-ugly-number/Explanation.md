@@ -130,9 +130,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [264. Ugly Number II](../../0001-0500/0264-ugly-number-ii/)
 - [1201. Ugly Number III](../../1001-1500/1201-ugly-number-iii/)
 - [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ugly-number/)

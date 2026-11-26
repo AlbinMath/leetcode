@@ -112,9 +112,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
-- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
+- [457. Circular Array Loop](../../0001-0500/0457-circular-array-loop/)
+- [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
+- [641. Design Circular Deque](../../0501-1000/0641-design-circular-deque/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)

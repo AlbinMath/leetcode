@@ -128,9 +128,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
-- [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
-- [784. Letter Case Permutation](../../0501-1000/0784-letter-case-permutation/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [87. Scramble String](../../0001-0500/0087-scramble-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/permutation-in-string/)

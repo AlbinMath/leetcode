@@ -181,8 +181,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3048. Earliest Second to Mark Indices I](../../3001-3500/3048-earliest-second-to-mark-indices-i/)
-- [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
-- [2420. Find All Good Indices](../../2001-2500/2420-find-all-good-indices/)
+- [1900. The Earliest and Latest Rounds Where Players Compete](../../1501-2000/1900-the-earliest-and-latest-rounds-where-players-compete/)
+- [3633. Earliest Finish Time for Land and Water Rides I](../../3501-4000/3633-earliest-finish-time-for-land-and-water-rides-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-second-to-mark-indices-ii/)

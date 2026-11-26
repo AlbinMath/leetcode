@@ -109,9 +109,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1302. Deepest Leaves Sum](../../1001-1500/1302-deepest-leaves-sum/)
 - [2574. Left and Right Sum Differences](../../2501-3000/2574-left-and-right-sum-differences/)
 - [3070. Count Submatrices with Top-Left Element and Sum Less Than k](../../3001-3500/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/)
+- [1302. Deepest Leaves Sum](../../1001-1500/1302-deepest-leaves-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-left-leaves/)

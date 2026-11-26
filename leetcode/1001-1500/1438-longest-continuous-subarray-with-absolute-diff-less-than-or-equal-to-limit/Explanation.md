@@ -148,8 +148,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2311. Longest Binary Subsequence Less Than or Equal to K](../../2001-2500/2311-longest-binary-subsequence-less-than-or-equal-to-k/)
-- [713. Subarray Product Less Than K](../../0501-1000/0713-subarray-product-less-than-k/)
 - [2831. Find the Longest Equal Subarray](../../2501-3000/2831-find-the-longest-equal-subarray/)
+- [713. Subarray Product Less Than K](../../0501-1000/0713-subarray-product-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)

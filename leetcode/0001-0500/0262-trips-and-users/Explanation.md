@@ -218,7 +218,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1517. Find Users With Valid E-Mails](../../1501-2000/1517-find-users-with-valid-e-mails/)
 - [1633. Percentage of Users Attended a Contest](../../1501-2000/1633-percentage-of-users-attended-a-contest/)
-- [3793. Find Users with High Token Usage](../../3501-4000/3793-find-users-with-high-token-usage/)
+- [1817. Finding the Users Active Minutes](../../1501-2000/1817-finding-the-users-active-minutes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/trips-and-users/)

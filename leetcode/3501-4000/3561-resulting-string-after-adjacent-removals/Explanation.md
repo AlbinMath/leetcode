@@ -118,8 +118,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3746. Minimum String Length After Balanced Removals](../../3501-4000/3746-minimum-string-length-after-balanced-removals/)
-- [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
-- [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
+- [777. Swap Adjacent in LR String](../../0501-1000/0777-swap-adjacent-in-lr-string/)
+- [1047. Remove All Adjacent Duplicates In String](../../1001-1500/1047-remove-all-adjacent-duplicates-in-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/resulting-string-after-adjacent-removals/)

@@ -1,7 +1,7 @@
 # LeetCode 2554: Maximum Number of Integers to Choose From a Range I
 
 **LeetCode Problem #2554 — Maximum Number of Integers to Choose From a Range I**
-Solve LeetCode Maximum Number of Integers to Choose From a Range I using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Maximum Number of Integers to Choose From a Range I using Python and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Maximum Number of Integers to Choose From a Range I using Python 
 | LeetCode | #2554 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Bitwise Masking & Bit Shift |
+| Data Structure | Integer Bitmask |
+| Pattern | Bit Manipulation |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -50,7 +50,7 @@ Return *the **maximum** number of integers you can choose following the mentione
 They are from the range [1, 7], all did not appear in banned, and their sum is 28, which did not exceed maxSum.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Maximum Number of Integers to Choose From a Range I**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -62,7 +62,7 @@ To solve **Maximum Number of Integers to Choose From a Range I**, we observe the
 
 ## Example Walkthrough
 1. **Input State:** We begin with `banned = [1,6,5], n = 5, maxSum = 6`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `2`.
@@ -71,13 +71,14 @@ To solve **Maximum Number of Integers to Choose From a Range I**, we observe the
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
 
 ## Pattern
-**Array / General**
+**Bit Manipulation**
 
 ## Topics
-- Array
+- Bit Manipulation
+- Bitwise Math
 
 ## Language
 Python
@@ -96,7 +97,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -108,9 +109,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3725. Count Ways to Choose Coprime Integers from Rows](../../3501-4000/3725-count-ways-to-choose-coprime-integers-from-rows/)
 - [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2503-maximum-number-of-points-from-grid-queries/)
-- [1356. Sort Integers by The Number of 1 Bits](../../1001-1500/1356-sort-integers-by-the-number-of-1-bits/)
+- [3725. Count Ways to Choose Coprime Integers from Rows](../../3501-4000/3725-count-ways-to-choose-coprime-integers-from-rows/)
+- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/)

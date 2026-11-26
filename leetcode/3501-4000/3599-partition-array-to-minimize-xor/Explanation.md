@@ -155,7 +155,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
 - [3630. Partition Array for Maximum XOR and AND](../../3501-4000/3630-partition-array-for-maximum-xor-and-and/)
-- [561. Array Partition](../../0501-1000/0561-array-partition/)
+- [2429. Minimize XOR](../../2001-2500/2429-minimize-xor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-to-minimize-xor/)

@@ -123,8 +123,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2883. Drop Missing Data](../../2501-3000/2883-drop-missing-data/)
-- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
-- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
+- [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
+- [268. Missing Number](../../0001-0500/0268-missing-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fill-missing-data/)
