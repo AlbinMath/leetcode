@@ -122,8 +122,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2537. Count the Number of Good Subarrays](../../2501-3000/2537-count-the-number-of-good-subarrays/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
-- [1395. Count Number of Teams](../../1001-1500/1395-count-number-of-teams/)
+- [2478. Number of Beautiful Partitions](../../2001-2500/2478-number-of-beautiful-partitions/)
+- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3003-maximize-the-number-of-partitions-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-good-partitions/)

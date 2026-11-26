@@ -108,8 +108,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3880. Minimum Absolute Difference Between Two Values](../../3501-4000/3880-minimum-absolute-difference-between-two-values/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
+- [2114. Maximum Number of Words Found in Sentences](../../2001-2500/2114-maximum-number-of-words-found-in-sentences/)
+- [1090. Largest Values From Labels](../../1001-1500/1090-largest-values-from-labels/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)

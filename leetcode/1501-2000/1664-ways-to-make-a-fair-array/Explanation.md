@@ -130,8 +130,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1735. Count Ways to Make Array With Product](../../1501-2000/1735-count-ways-to-make-array-with-product/)
-- [945. Minimum Increment to Make Array Unique](../../0501-1000/0945-minimum-increment-to-make-array-unique/)
-- [1187. Make Array Strictly Increasing](../../1001-1500/1187-make-array-strictly-increasing/)
+- [1569. Number of Ways to Reorder Array to Get Same BST](../../1501-2000/1569-number-of-ways-to-reorder-array-to-get-same-bst/)
+- [1712. Ways to Split Array Into Three Subarrays](../../1501-2000/1712-ways-to-split-array-into-three-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ways-to-make-a-fair-array/)

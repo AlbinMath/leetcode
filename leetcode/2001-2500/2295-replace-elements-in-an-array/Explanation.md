@@ -123,7 +123,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [453. Minimum Moves to Equal Array Elements](../../0001-0500/0453-minimum-moves-to-equal-array-elements/)
 - [462. Minimum Moves to Equal Array Elements II](../../0001-0500/0462-minimum-moves-to-equal-array-elements-ii/)
-- [1464. Maximum Product of Two Elements in an Array](../../1001-1500/1464-maximum-product-of-two-elements-in-an-array/)
+- [1299. Replace Elements with Greatest Element on Right Side](../../1001-1500/1299-replace-elements-with-greatest-element-on-right-side/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-elements-in-an-array/)

@@ -143,9 +143,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1237-find-positive-integer-solution-for-a-given-equation/)
-- [1283. Find the Smallest Divisor Given a Threshold](../../1001-1500/1283-find-the-smallest-divisor-given-a-threshold/)
-- [1605. Find Valid Matrix Given Row and Column Sums](../../1501-2000/1605-find-valid-matrix-given-row-and-column-sums/)
+- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
+- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
+- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1521-find-a-value-of-a-mysterious-function-closest-to-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)

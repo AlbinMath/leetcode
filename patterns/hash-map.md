@@ -12,6 +12,7 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 58 | [Length of Last Word](../leetcode/0001-0500/0058-length-of-last-word/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0058-length-of-last-word/Explanation.md) |
 | 242 | [Valid Anagram](../leetcode/0001-0500/0242-valid-anagram/) | PHP | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0242-valid-anagram/Explanation.md) |
 | 290 | [Word Pattern](../leetcode/0001-0500/0290-word-pattern/) | C++ | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0290-word-pattern/Explanation.md) |
+| 387 | [First Unique Character in a String](../leetcode/0001-0500/0387-first-unique-character-in-a-string/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0387-first-unique-character-in-a-string/Explanation.md) |
 | 405 | [Convert a Number to Hexadecimal](../leetcode/0001-0500/0405-convert-a-number-to-hexadecimal/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0405-convert-a-number-to-hexadecimal/Explanation.md) |
 | 476 | [Number Complement](../leetcode/0001-0500/0476-number-complement/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0476-number-complement/Explanation.md) |
 | 496 | [Next Greater Element I](../leetcode/0001-0500/0496-next-greater-element-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0496-next-greater-element-i/Explanation.md) |
@@ -272,6 +273,7 @@ A collection of LeetCode problems solved using **Hash Map** pattern techniques, 
 | 3433 | [Count Mentions Per User](../leetcode/3001-3500/3433-count-mentions-per-user/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3433-count-mentions-per-user/Explanation.md) |
 | 3434 | [Maximum Frequency After Subarray Operation](../leetcode/3001-3500/3434-maximum-frequency-after-subarray-operation/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3434-maximum-frequency-after-subarray-operation/Explanation.md) |
 | 3446 | [Sort Matrix by Diagonals](../leetcode/3001-3500/3446-sort-matrix-by-diagonals/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3446-sort-matrix-by-diagonals/Explanation.md) |
+| 3462 | [Maximum Sum With at Most K Elements](../leetcode/3001-3500/3462-maximum-sum-with-at-most-k-elements/) | Python | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3462-maximum-sum-with-at-most-k-elements/Explanation.md) |
 | 3484 | [Design Spreadsheet](../leetcode/3001-3500/3484-design-spreadsheet/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3484-design-spreadsheet/Explanation.md) |
 | 3522 | [Calculate Score After Performing Instructions](../leetcode/3501-4000/3522-calculate-score-after-performing-instructions/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3522-calculate-score-after-performing-instructions/Explanation.md) |
 | 3527 | [Find the Most Common Response](../leetcode/3501-4000/3527-find-the-most-common-response/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3527-find-the-most-common-response/Explanation.md) |

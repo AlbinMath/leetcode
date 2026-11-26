@@ -145,9 +145,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [62. Unique Paths](../../0001-0500/0062-unique-paths/)
-- [63. Unique Paths II](../../0001-0500/0063-unique-paths-ii/)
-- [257. Binary Tree Paths](../../0001-0500/0257-binary-tree-paths/)
+- [2389. Longest Subsequence With Limited Sum](../../2001-2500/2389-longest-subsequence-with-limited-sum/)
+- [3924. Minimum Threshold Path With Limited Heavy Edges](../../3501-4000/3924-minimum-threshold-path-with-limited-heavy-edges/)
+- [3977. Minimum Time to Reach Target With Limited Power](../../3501-4000/3977-minimum-time-to-reach-target-with-limited-power/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)

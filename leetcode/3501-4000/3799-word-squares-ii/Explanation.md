@@ -114,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [79. Word Search](../../0001-0500/0079-word-search/)
-- [126. Word Ladder II](../../0001-0500/0126-word-ladder-ii/)
+- [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
+- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
+- [977. Squares of a Sorted Array](../../0501-1000/0977-squares-of-a-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-squares-ii/)

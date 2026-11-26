@@ -137,9 +137,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1828. Queries on Number of Points Inside a Circle](../../1501-2000/1828-queries-on-number-of-points-inside-a-circle/)
 - [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
-- [1610. Maximum Number of Visible Points](../../1501-2000/1610-maximum-number-of-visible-points/)
+- [2554. Maximum Number of Integers to Choose From a Range I](../../2501-3000/2554-maximum-number-of-integers-to-choose-from-a-range-i/)
+- [2920. Maximum Points After Collecting Coins From All Nodes](../../2501-3000/2920-maximum-points-after-collecting-coins-from-all-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/)

@@ -168,9 +168,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3868. Minimum Cost to Equalize Arrays Using Swaps](../../3501-4000/3868-minimum-cost-to-equalize-arrays-using-swaps/)
-- [3927. Minimize Array Sum Using Divisible Replacements](../../3501-4000/3927-minimize-array-sum-using-divisible-replacements/)
-- [4010. Maximize Pair Strength Using GCD](../../4001-4500/4010-maximize-pair-strength-using-gcd/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
+- [2897. Apply Operations on Array to Maximize Sum of Squares](../../2501-3000/2897-apply-operations-on-array-to-maximize-sum-of-squares/)
+- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3001-3500/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-alternating-sum-using-swaps/)

@@ -329,7 +329,7 @@ A collection of **390** solved LeetCode problems in the range **0501-1000**.
 | 923 | [3Sum With Multiplicity](./0923-3sum-with-multiplicity/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0923-3sum-with-multiplicity/Explanation.md) |
 | 924 | [Minimize Malware Spread](./0924-minimize-malware-spread/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0924-minimize-malware-spread/Explanation.md) |
 | 925 | [Long Pressed Name](./0925-long-pressed-name/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0925-long-pressed-name/Explanation.md) |
-| 926 | [Flip String to Monotone Increasing](./0926-flip-string-to-monotone-increasing/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0926-flip-string-to-monotone-increasing/Explanation.md) |
+| 926 | [Flip String to Monotone Increasing](./0926-flip-string-to-monotone-increasing/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0926-flip-string-to-monotone-increasing/Explanation.md) |
 | 928 | [Minimize Malware Spread II](./0928-minimize-malware-spread-ii/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0928-minimize-malware-spread-ii/Explanation.md) |
 | 929 | [Unique Email Addresses](./0929-unique-email-addresses/) | Easy | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0929-unique-email-addresses/Explanation.md) |
 | 930 | [Binary Subarrays With Sum](./0930-binary-subarrays-with-sum/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0930-binary-subarrays-with-sum/Explanation.md) |

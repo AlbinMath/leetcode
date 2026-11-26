@@ -116,8 +116,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3001-3500/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+- [3654. Minimum Sum After Divisible Sum Deletions](../../3501-4000/3654-minimum-sum-after-divisible-sum-deletions/)
 - [3551. Minimum Swaps to Sort by Digit Sum](../../3501-4000/3551-minimum-swaps-to-sort-by-digit-sum/)
-- [1493. Longest Subarray of 1's After Deleting One Element](../../1001-1500/1493-longest-subarray-of-1s-after-deleting-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)

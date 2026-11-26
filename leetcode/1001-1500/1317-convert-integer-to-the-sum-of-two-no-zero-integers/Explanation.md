@@ -104,8 +104,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3670. Maximum Product of Two Integers With No Common Bits](../../3501-4000/3670-maximum-product-of-two-integers-with-no-common-bits/)
 - [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
+- [3670. Maximum Product of Two Integers With No Common Bits](../../3501-4000/3670-maximum-product-of-two-integers-with-no-common-bits/)
 - [3890. Integers With Multiple Sum of Two Cubes](../../3501-4000/3890-integers-with-multiple-sum-of-two-cubes/)
 
 ## LeetCode

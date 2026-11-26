@@ -191,9 +191,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 - [1656. Design an Ordered Stream](../../1501-2000/1656-design-an-ordered-stream/)
 - [2717. Semi-Ordered Permutation](../../2501-3000/2717-semi-ordered-permutation/)
+- [2873. Maximum Value of an Ordered Triplet I](../../2501-3000/2873-maximum-value-of-an-ordered-triplet-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)

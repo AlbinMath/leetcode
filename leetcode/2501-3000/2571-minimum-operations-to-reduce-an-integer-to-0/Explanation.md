@@ -121,7 +121,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1658. Minimum Operations to Reduce X to Zero](../../1501-2000/1658-minimum-operations-to-reduce-x-to-zero/)
 - [2749. Minimum Operations to Make the Integer Zero](../../2501-3000/2749-minimum-operations-to-make-the-integer-zero/)
-- [3824. Minimum K to Reduce Array Within Limit](../../3501-4000/3824-minimum-k-to-reduce-array-within-limit/)
+- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)

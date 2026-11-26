@@ -162,9 +162,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1806. Minimum Number of Operations to Reinitialize a Permutation](../../1501-2000/1806-minimum-number-of-operations-to-reinitialize-a-permutation/)
 - [2471. Minimum Number of Operations to Sort a Binary Tree by Level](../../2001-2500/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
 - [3863. Minimum Operations to Sort a String](../../3501-4000/3863-minimum-operations-to-sort-a-string/)
+- [1806. Minimum Number of Operations to Reinitialize a Permutation](../../1501-2000/1806-minimum-number-of-operations-to-reinitialize-a-permutation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/)

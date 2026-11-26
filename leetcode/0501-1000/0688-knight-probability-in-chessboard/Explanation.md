@@ -118,9 +118,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [2596. Check Knight Tour Configuration](../../2501-3000/2596-check-knight-tour-configuration/)
 - [782. Transform to Chessboard](../../0501-1000/0782-transform-to-chessboard/)
 - [1812. Determine Color of a Chessboard Square](../../1501-2000/1812-determine-color-of-a-chessboard-square/)
+- [2056. Number of Valid Move Combinations On Chessboard](../../2001-2500/2056-number-of-valid-move-combinations-on-chessboard/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/knight-probability-in-chessboard/)

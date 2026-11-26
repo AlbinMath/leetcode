@@ -128,9 +128,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3918. Sum of Primes Between Number and Its Reverse](../../3501-4000/3918-sum-of-primes-between-number-and-its-reverse/)
 - [1855. Maximum Distance Between a Pair of Values](../../1501-2000/1855-maximum-distance-between-a-pair-of-values/)
-- [467. Unique Substrings in Wraparound String](../../0001-0500/0467-unique-substrings-in-wraparound-string/)
+- [3918. Sum of Primes Between Number and Its Reverse](../../3501-4000/3918-sum-of-primes-between-number-and-its-reverse/)
+- [783. Minimum Distance Between BST Nodes](../../0501-1000/0783-minimum-distance-between-bst-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)

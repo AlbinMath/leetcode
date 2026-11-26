@@ -136,7 +136,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1482. Minimum Number of Days to Make m Bouquets](../../1001-1500/1482-minimum-number-of-days-to-make-m-bouquets/)
 - [1553. Minimum Number of Days to Eat N Oranges](../../1501-2000/1553-minimum-number-of-days-to-eat-n-oranges/)
-- [1360. Number of Days Between Two Dates](../../1001-1500/1360-number-of-days-between-two-dates/)
+- [452. Minimum Number of Arrows to Burst Balloons](../../0001-0500/0452-minimum-number-of-arrows-to-burst-balloons/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/)

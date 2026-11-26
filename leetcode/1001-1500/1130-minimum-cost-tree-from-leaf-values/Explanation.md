@@ -115,9 +115,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1000. Minimum Cost to Merge Stones](../../0501-1000/1000-minimum-cost-to-merge-stones/)
-- [1217. Minimum Cost to Move Chips to The Same Position](../../1001-1500/1217-minimum-cost-to-move-chips-to-the-same-position/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+- [1090. Largest Values From Labels](../../1001-1500/1090-largest-values-from-labels/)
+- [3117. Minimum Sum of Values by Dividing Array](../../3001-3500/3117-minimum-sum-of-values-by-dividing-array/)
+- [3785. Minimum Swaps to Avoid Forbidden Values](../../3501-4000/3785-minimum-swaps-to-avoid-forbidden-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)

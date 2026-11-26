@@ -210,7 +210,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1521-find-a-value-of-a-mysterious-function-closest-to-target/)
 - [3449. Maximize the Minimum Game Score](../../3001-3500/3449-maximize-the-minimum-game-score/)
-- [1706. Where Will the Ball Fall](../../1501-2000/1706-where-will-the-ball-fall/)
+- [396. Rotate Function](../../0001-0500/0396-rotate-function/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)

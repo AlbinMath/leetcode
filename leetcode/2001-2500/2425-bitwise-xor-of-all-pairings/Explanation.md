@@ -107,8 +107,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1835-find-xor-sum-of-all-pairs-bitwise-and/)
-- [2683. Neighboring Bitwise XOR](../../2501-3000/2683-neighboring-bitwise-xor/)
-- [3702. Longest Subsequence With Non-Zero Bitwise XOR](../../3501-4000/3702-longest-subsequence-with-non-zero-bitwise-xor/)
+- [1787. Make the XOR of All Segments Equal to Zero](../../1501-2000/1787-make-the-xor-of-all-segments-equal-to-zero/)
+- [1863. Sum of All Subset XOR Totals](../../1501-2000/1863-sum-of-all-subset-xor-totals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)

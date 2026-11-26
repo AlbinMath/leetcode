@@ -103,9 +103,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2618. Check if Object Instance of Class](../../2501-3000/2618-check-if-object-instance-of-class/)
-- [2705. Compact Object](../../2501-3000/2705-compact-object/)
 - [2659. Make Array Empty](../../2501-3000/2659-make-array-empty/)
+- [2870. Minimum Number of Operations to Make Array Empty](../../2501-3000/2870-minimum-number-of-operations-to-make-array-empty/)
+- [3039. Apply Operations to Make String Empty](../../3001-3500/3039-apply-operations-to-make-string-empty/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/is-object-empty/)

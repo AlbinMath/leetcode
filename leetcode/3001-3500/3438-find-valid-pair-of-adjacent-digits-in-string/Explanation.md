@@ -119,9 +119,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
-- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
+- [777. Swap Adjacent in LR String](../../0501-1000/0777-swap-adjacent-in-lr-string/)
+- [1047. Remove All Adjacent Duplicates In String](../../1001-1500/1047-remove-all-adjacent-duplicates-in-string/)
+- [1209. Remove All Adjacent Duplicates in String II](../../1001-1500/1209-remove-all-adjacent-duplicates-in-string-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)

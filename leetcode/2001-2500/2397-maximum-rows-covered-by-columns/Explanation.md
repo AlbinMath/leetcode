@@ -140,8 +140,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1072-flip-columns-for-maximum-number-of-equal-rows/)
+- [4052. Cyclically Shift Rows and Columns](../../4001-4500/4052-cyclically-shift-rows-and-columns/)
 - [2271. Maximum White Tiles Covered by a Carpet](../../2001-2500/2271-maximum-white-tiles-covered-by-a-carpet/)
-- [3989. Maximum Consistent Columns in a Grid](../../3501-4000/3989-maximum-consistent-columns-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-rows-covered-by-columns/)

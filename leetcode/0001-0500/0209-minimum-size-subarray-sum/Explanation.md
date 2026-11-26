@@ -110,9 +110,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [2875. Minimum Size Subarray in Infinite Array](../../2501-3000/2875-minimum-size-subarray-in-infinite-array/)
 - [3364. Minimum Positive Sum Subarray ](../../3001-3500/3364-minimum-positive-sum-subarray/)
 - [3795. Minimum Subarray Length With Distinct Sum At Least K](../../3501-4000/3795-minimum-subarray-length-with-distinct-sum-at-least-k/)
+- [2875. Minimum Size Subarray in Infinite Array](../../2501-3000/2875-minimum-size-subarray-in-infinite-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-size-subarray-sum/)

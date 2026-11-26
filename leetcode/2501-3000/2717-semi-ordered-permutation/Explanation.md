@@ -119,9 +119,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
-- [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
-- [567. Permutation in String](../../0501-1000/0567-permutation-in-string/)
+- [1327. List the Products Ordered in a Period](../../1001-1500/1327-list-the-products-ordered-in-a-period/)
+- [1656. Design an Ordered Stream](../../1501-2000/1656-design-an-ordered-stream/)
+- [2873. Maximum Value of an Ordered Triplet I](../../2501-3000/2873-maximum-value-of-an-ordered-triplet-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/semi-ordered-permutation/)

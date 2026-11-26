@@ -6,9 +6,9 @@ LeetCode problems indexed by difficulty tier (Easy, Medium, Hard).
 
 | Difficulty | Solved Count | Percentage | Hub Link |
 |---|---|---|---|
-| **Easy** | 684 problems | 25.3% | [Browse Easy](./easy.md) |
-| **Medium** | 1350 problems | 49.9% | [Browse Medium](./medium.md) |
-| **Hard** | 671 problems | 24.8% | [Browse Hard](./hard.md) |
+| **Easy** | 685 problems | 25.1% | [Browse Easy](./easy.md) |
+| **Medium** | 1363 problems | 50.0% | [Browse Medium](./medium.md) |
+| **Hard** | 676 problems | 24.8% | [Browse Hard](./hard.md) |
 
 ---
 

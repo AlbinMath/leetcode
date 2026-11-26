@@ -104,8 +104,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [524. Longest Word in Dictionary through Deleting](../../0501-1000/0524-longest-word-in-dictionary-through-deleting/)
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
-- [79. Word Search](../../0001-0500/0079-word-search/)
+- [676. Implement Magic Dictionary](../../0501-1000/0676-implement-magic-dictionary/)
+- [953. Verifying an Alien Dictionary](../../0501-1000/0953-verifying-an-alien-dictionary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-word-in-dictionary/)

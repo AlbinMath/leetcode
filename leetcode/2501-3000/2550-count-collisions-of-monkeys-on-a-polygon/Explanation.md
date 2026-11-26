@@ -103,7 +103,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2211. Count Collisions on a Road](../../2001-2500/2211-count-collisions-on-a-road/)
-- [2751. Robot Collisions](../../2501-3000/2751-robot-collisions/)
+- [2971. Find Polygon With the Largest Perimeter](../../2501-3000/2971-find-polygon-with-the-largest-perimeter/)
 - [38. Count and Say](../../0001-0500/0038-count-and-say/)
 
 ## LeetCode

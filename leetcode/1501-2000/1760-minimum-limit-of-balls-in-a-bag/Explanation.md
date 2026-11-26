@@ -116,7 +116,7 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1769-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 - [3824. Minimum K to Reduce Array Within Limit](../../3501-4000/3824-minimum-k-to-reduce-array-within-limit/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1001-1500/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)

@@ -130,9 +130,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3411. Maximum Subarray With Equal Products](../../3001-3500/3411-maximum-subarray-with-equal-products/)
 - [1589. Maximum Sum Obtained of Any Permutation](../../1501-2000/1589-maximum-sum-obtained-of-any-permutation/)
-- [981. Time Based Key-Value Store](../../0501-1000/0981-time-based-key-value-store/)
+- [3411. Maximum Subarray With Equal Products](../../3001-3500/3411-maximum-subarray-with-equal-products/)
+- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1001-1500/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)

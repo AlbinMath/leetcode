@@ -147,8 +147,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1160-find-words-that-can-be-formed-by-characters/)
-- [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
-- [1717. Maximum Score From Removing Substrings](../../1501-2000/1717-maximum-score-from-removing-substrings/)
+- [1935. Maximum Number of Words You Can Type](../../1501-2000/1935-maximum-number-of-words-you-can-type/)
+- [2114. Maximum Number of Words Found in Sentences](../../2001-2500/2114-maximum-number-of-words-found-in-sentences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)

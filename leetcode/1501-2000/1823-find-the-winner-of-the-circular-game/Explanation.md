@@ -125,9 +125,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2682. Find the Losers of the Circular Game](../../2501-3000/2682-find-the-losers-of-the-circular-game/)
 - [1275. Find Winner on a Tic Tac Toe Game](../../1001-1500/1275-find-winner-on-a-tic-tac-toe-game/)
 - [1535. Find the Winner of an Array Game](../../1501-2000/1535-find-the-winner-of-an-array-game/)
-- [2682. Find the Losers of the Circular Game](../../2501-3000/2682-find-the-losers-of-the-circular-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)

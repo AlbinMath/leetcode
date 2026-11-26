@@ -124,9 +124,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [327. Count of Range Sum](../../0001-0500/0327-count-of-range-sum/)
-- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
-- [1523. Count Odd Numbers in an Interval Range](../../1501-2000/1523-count-odd-numbers-in-an-interval-range/)
+- [440. K-th Smallest in Lexicographical Order](../../0001-0500/0440-k-th-smallest-in-lexicographical-order/)
+- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
+- [779. K-th Symbol in Grammar](../../0501-1000/0779-k-th-symbol-in-grammar/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-k-th-roots-in-a-range/)

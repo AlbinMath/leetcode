@@ -135,7 +135,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3691. Maximum Total Subarray Value II](../../3501-4000/3691-maximum-total-subarray-value-ii/)
 - [3971. Maximum Total Value](../../3501-4000/3971-maximum-total-value/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [4058. Maximum Pulse Value After One Subarray Rotation](../../4001-4500/4058-maximum-pulse-value-after-one-subarray-rotation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-subarray-value-i/)

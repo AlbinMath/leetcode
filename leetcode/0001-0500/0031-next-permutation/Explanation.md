@@ -166,9 +166,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
-- [567. Permutation in String](../../0501-1000/0567-permutation-in-string/)
-- [784. Letter Case Permutation](../../0501-1000/0784-letter-case-permutation/)
+- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
+- [117. Populating Next Right Pointers in Each Node II](../../0001-0500/0117-populating-next-right-pointers-in-each-node-ii/)
+- [496. Next Greater Element I](../../0001-0500/0496-next-greater-element-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/next-permutation/)

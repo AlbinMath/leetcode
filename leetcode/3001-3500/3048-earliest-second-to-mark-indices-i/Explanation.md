@@ -174,8 +174,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3049. Earliest Second to Mark Indices II](../../3001-3500/3049-earliest-second-to-mark-indices-ii/)
-- [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
-- [671. Second Minimum Node In a Binary Tree](../../0501-1000/0671-second-minimum-node-in-a-binary-tree/)
+- [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
+- [2420. Find All Good Indices](../../2001-2500/2420-find-all-good-indices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-second-to-mark-indices-i/)

@@ -148,7 +148,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3903. Smallest Stable Index I](../../3501-4000/3903-smallest-stable-index-i/)
 - [3550. Smallest Index With Digit Sum Equal to Index](../../3501-4000/3550-smallest-index-with-digit-sum-equal-to-index/)
-- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
+- [3862. Find the Smallest Balanced Index](../../3501-4000/3862-find-the-smallest-balanced-index/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-stable-index-ii/)

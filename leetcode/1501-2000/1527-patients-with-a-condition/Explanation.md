@@ -130,8 +130,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1001-1500/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/)
 - [3586. Find COVID Recovery Patients](../../3501-4000/3586-find-covid-recovery-patients/)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1001-1500/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/)
 - [175. Combine Two Tables](../../0001-0500/0175-combine-two-tables/)
 
 ## LeetCode

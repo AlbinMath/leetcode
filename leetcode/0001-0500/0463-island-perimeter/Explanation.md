@@ -119,9 +119,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [695. Max Area of Island](../../0501-1000/0695-max-area-of-island/)
-- [827. Making A Large Island](../../0501-1000/0827-making-a-large-island/)
-- [1568. Minimum Number of Days to Disconnect Island](../../1501-2000/1568-minimum-number-of-days-to-disconnect-island/)
+- [976. Largest Perimeter Triangle](../../0501-1000/0976-largest-perimeter-triangle/)
+- [1954. Minimum Garden Perimeter to Collect Enough Apples](../../1501-2000/1954-minimum-garden-perimeter-to-collect-enough-apples/)
+- [2971. Find Polygon With the Largest Perimeter](../../2501-3000/2971-find-polygon-with-the-largest-perimeter/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/island-perimeter/)

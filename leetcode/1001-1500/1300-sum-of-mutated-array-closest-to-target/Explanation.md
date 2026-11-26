@@ -112,9 +112,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1521. Find a Value of a Mysterious Function Closest to Target](../../1501-2000/1521-find-a-value-of-a-mysterious-function-closest-to-target/)
+- [1755. Closest Subsequence Sum](../../1501-2000/1755-closest-subsequence-sum/)
 - [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii-input-array-is-sorted/)
-- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
-- [494. Target Sum](../../0001-0500/0494-target-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)

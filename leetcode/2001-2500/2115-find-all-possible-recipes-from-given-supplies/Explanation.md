@@ -145,7 +145,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3129. Find All Possible Stable Binary Arrays I](../../3001-3500/3129-find-all-possible-stable-binary-arrays-i/)
 - [3130. Find All Possible Stable Binary Arrays II](../../3001-3500/3130-find-all-possible-stable-binary-arrays-ii/)
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)

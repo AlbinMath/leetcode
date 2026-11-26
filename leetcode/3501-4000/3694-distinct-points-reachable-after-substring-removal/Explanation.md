@@ -121,8 +121,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1946. Largest Number After Mutating Substring](../../1501-2000/1946-largest-number-after-mutating-substring/)
-- [3503. Longest Palindrome After Substring Concatenation I](../../3501-4000/3503-longest-palindrome-after-substring-concatenation-i/)
-- [2920. Maximum Points After Collecting Coins From All Nodes](../../2501-3000/2920-maximum-points-after-collecting-coins-from-all-nodes/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
+- [2458. Height of Binary Tree After Subtree Removal Queries](../../2001-2500/2458-height-of-binary-tree-after-subtree-removal-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distinct-points-reachable-after-substring-removal/)

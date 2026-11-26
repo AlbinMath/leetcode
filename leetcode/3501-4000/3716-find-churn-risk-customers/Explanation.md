@@ -177,7 +177,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3657. Find Loyal Customers](../../3501-4000/3657-find-loyal-customers/)
 - [3705. Find Golden Hour Customers](../../3501-4000/3705-find-golden-hour-customers/)
-- [183. Customers Who Never Order](../../0001-0500/0183-customers-who-never-order/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-churn-risk-customers/)

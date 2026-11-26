@@ -123,7 +123,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [2487. Remove Nodes From Linked List](../../2001-2500/2487-remove-nodes-from-linked-list/)
 - [3217. Delete Nodes From Linked List Present in Array](../../3001-3500/3217-delete-nodes-from-linked-list-present-in-array/)
-- [203. Remove Linked List Elements](../../0001-0500/0203-remove-linked-list-elements/)
+- [3770. Largest Prime from Consecutive Prime Sum](../../3501-4000/3770-largest-prime-from-consecutive-prime-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)

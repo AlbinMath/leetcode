@@ -145,9 +145,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2478. Number of Beautiful Partitions](../../2001-2500/2478-number-of-beautiful-partitions/)
-- [2588. Count the Number of Beautiful Subarrays](../../2501-3000/2588-count-the-number-of-beautiful-subarrays/)
-- [2597. The Number of Beautiful Subsets](../../2501-3000/2597-the-number-of-beautiful-subsets/)
+- [1128. Number of Equivalent Domino Pairs](../../1001-1500/1128-number-of-equivalent-domino-pairs/)
+- [1512. Number of Good Pairs](../../1501-2000/1512-number-of-good-pairs/)
+- [1530. Number of Good Leaf Nodes Pairs](../../1501-2000/1530-number-of-good-leaf-nodes-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-beautiful-pairs/)

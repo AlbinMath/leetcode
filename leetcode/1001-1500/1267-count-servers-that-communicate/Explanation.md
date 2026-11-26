@@ -113,9 +113,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1606-find-servers-that-handled-most-number-of-requests/)
-- [2747. Count Zero Request Servers](../../2501-3000/2747-count-zero-request-servers/)
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1606-find-servers-that-handled-most-number-of-requests/)
+- [1638. Count Substrings That Differ by One Character](../../1501-2000/1638-count-substrings-that-differ-by-one-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-servers-that-communicate/)

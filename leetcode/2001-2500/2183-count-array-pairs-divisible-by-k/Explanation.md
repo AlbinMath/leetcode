@@ -108,9 +108,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3729. Count Distinct Subarrays Divisible by K in Sorted Array](../../3501-4000/3729-count-distinct-subarrays-divisible-by-k-in-sorted-array/)
 - [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
-- [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3619-count-islands-with-total-value-divisible-by-k/)
-- [532. K-diff Pairs in an Array](../../0501-1000/0532-k-diff-pairs-in-an-array/)
+- [1814. Count Nice Pairs in an Array](../../1501-2000/1814-count-nice-pairs-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)

@@ -121,9 +121,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
-- [3370. Smallest Number With All Set Bits](../../3001-3500/3370-smallest-number-with-all-set-bits/)
-- [3950. Exactly One Consecutive Set Bits Pair](../../3501-4000/3950-exactly-one-consecutive-set-bits-pair/)
+- [3068. Find the Maximum Sum of Node Values](../../3001-3500/3068-find-the-maximum-sum-of-node-values/)
+- [3117. Minimum Sum of Values by Dividing Array](../../3001-3500/3117-minimum-sum-of-values-by-dividing-array/)
+- [3547. Maximum Sum of Edge Values in a Graph](../../3501-4000/3547-maximum-sum-of-edge-values-in-a-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/)

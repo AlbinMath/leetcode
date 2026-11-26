@@ -154,9 +154,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
 - [1995. Count Special Quadruplets](../../1501-2000/1995-count-special-quadruplets/)
-- [3120. Count the Number of Special Characters I](../../3001-3500/3120-count-the-number-of-special-characters-i/)
-- [3233. Find the Count of Numbers Which Are Not Special](../../3001-3500/3233-find-the-count-of-numbers-which-are-not-special/)
+- [2842. Count K-Subsequences of a String With Maximum Beauty](../../2501-3000/2842-count-k-subsequences-of-a-string-with-maximum-beauty/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-special-subsequences/)

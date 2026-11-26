@@ -128,7 +128,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1072-flip-columns-for-maximum-number-of-equal-rows/)
 - [2397. Maximum Rows Covered by Columns](../../2001-2500/2397-maximum-rows-covered-by-columns/)
-- [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2503-maximum-number-of-points-from-grid-queries/)
+- [2639. Find the Width of Columns of a Grid](../../2501-3000/2639-find-the-width-of-columns-of-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-consistent-columns-in-a-grid/)

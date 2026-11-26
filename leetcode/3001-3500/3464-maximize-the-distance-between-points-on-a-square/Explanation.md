@@ -148,7 +148,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3143. Maximum Points Inside the Square](../../3001-3500/3143-maximum-points-inside-the-square/)
+- [3920. Maximize Fixed Points After Deletions](../../3501-4000/3920-maximize-fixed-points-after-deletions/)
 - [783. Minimum Distance Between BST Nodes](../../0501-1000/0783-minimum-distance-between-bst-nodes/)
 - [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1385-find-the-distance-value-between-two-arrays/)
 

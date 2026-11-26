@@ -176,7 +176,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3239. Minimum Number of Flips to Make Binary Grid Palindromic I](../../3001-3500/3239-minimum-number-of-flips-to-make-binary-grid-palindromic-i/)
 - [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](../../3001-3500/3240-minimum-number-of-flips-to-make-binary-grid-palindromic-ii/)
-- [2257. Count Unguarded Cells in the Grid](../../2001-2500/2257-count-unguarded-cells-in-the-grid/)
+- [452. Minimum Number of Arrows to Burst Balloons](../../0001-0500/0452-minimum-number-of-arrows-to-burst-balloons/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/)

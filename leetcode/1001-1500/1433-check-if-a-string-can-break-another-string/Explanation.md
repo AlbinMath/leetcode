@@ -100,7 +100,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1790. Check if One String Swap Can Make Strings Equal](../../1501-2000/1790-check-if-one-string-swap-can-make-strings-equal/)
 - [2116. Check if a Parentheses String Can Be Valid](../../2001-2500/2116-check-if-a-parentheses-string-can-be-valid/)
-- [1461. Check If a String Contains All Binary Codes of Size K](../../1001-1500/1461-check-if-a-string-contains-all-binary-codes-of-size-k/)
+- [2018. Check if Word Can Be Placed In Crossword](../../2001-2500/2018-check-if-word-can-be-placed-in-crossword/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-a-string-can-break-another-string/)

@@ -108,9 +108,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3578. Count Partitions With Max-Min Difference at Most K](../../3501-4000/3578-count-partitions-with-max-min-difference-at-most-k/)
 - [3070. Count Submatrices with Top-Left Element and Sum Less Than k](../../3001-3500/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/)
 - [3737. Count Subarrays With Majority Element I](../../3501-4000/3737-count-subarrays-with-majority-element-i/)
-- [3739. Count Subarrays With Majority Element II](../../3501-4000/3739-count-subarrays-with-majority-element-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)

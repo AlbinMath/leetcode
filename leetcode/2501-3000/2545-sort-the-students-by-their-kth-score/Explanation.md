@@ -108,8 +108,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2019. The Score of Students Solving Math Expression](../../2001-2500/2019-the-score-of-students-solving-math-expression/)
-- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
-- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
+- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
+- [147. Insertion Sort List](../../0001-0500/0147-insertion-sort-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)

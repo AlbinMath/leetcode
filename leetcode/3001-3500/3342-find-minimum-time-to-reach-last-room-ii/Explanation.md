@@ -174,8 +174,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3341. Find Minimum Time to Reach Last Room I](../../3001-3500/3341-find-minimum-time-to-reach-last-room-i/)
-- [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1723-find-minimum-time-to-finish-all-jobs/)
-- [3494. Find the Minimum Amount of Time to Brew Potions](../../3001-3500/3494-find-the-minimum-amount-of-time-to-brew-potions/)
+- [1928. Minimum Cost to Reach Destination in Time](../../1501-2000/1928-minimum-cost-to-reach-destination-in-time/)
+- [2045. Second Minimum Time to Reach Destination](../../2001-2500/2045-second-minimum-time-to-reach-destination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/)

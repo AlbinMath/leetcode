@@ -134,9 +134,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1297. Maximum Number of Occurrences of a Substring](../../1001-1500/1297-maximum-number-of-occurrences-of-a-substring/)
-- [1456. Maximum Number of Vowels in a Substring of Given Length](../../1001-1500/1456-maximum-number-of-vowels-in-a-substring-of-given-length/)
-- [1624. Largest Substring Between Two Equal Characters](../../1501-2000/1624-largest-substring-between-two-equal-characters/)
+- [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
+- [2119. A Number After a Double Reversal](../../2001-2500/2119-a-number-after-a-double-reversal/)
+- [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-number-after-mutating-substring/)

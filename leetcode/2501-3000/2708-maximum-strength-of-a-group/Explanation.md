@@ -104,8 +104,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3077. Maximum Strength of K Disjoint Subarrays](../../3001-3500/3077-maximum-strength-of-k-disjoint-subarrays/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [2281. Sum of Total Strength of Wizards](../../2001-2500/2281-sum-of-total-strength-of-wizards/)
+- [4008. Minimum Initial Strength to Defeat All Monsters](../../4001-4500/4008-minimum-initial-strength-to-defeat-all-monsters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-strength-of-a-group/)

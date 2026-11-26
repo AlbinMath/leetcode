@@ -141,8 +141,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2047. Number of Valid Words in a Sentence](../../2001-2500/2047-number-of-valid-words-in-a-sentence/)
-- [65. Valid Number](../../0001-0500/0065-valid-number/)
-- [611. Valid Triangle Number](../../0501-1000/0611-valid-triangle-number/)
+- [1935. Maximum Number of Words You Can Type](../../1501-2000/1935-maximum-number-of-words-you-can-type/)
+- [2114. Maximum Number of Words Found in Sentences](../../2001-2500/2114-maximum-number-of-words-found-in-sentences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)

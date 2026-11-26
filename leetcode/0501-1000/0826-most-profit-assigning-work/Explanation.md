@@ -115,9 +115,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1986. Minimum Number of Work Sessions to Finish the Tasks](../../1501-2000/1986-minimum-number-of-work-sessions-to-finish-the-tasks/)
 - [1235. Maximum Profit in Job Scheduling](../../1001-1500/1235-maximum-profit-in-job-scheduling/)
 - [1599. Maximum Profit of Operating a Centennial Wheel](../../1501-2000/1599-maximum-profit-of-operating-a-centennial-wheel/)
-- [2830. Maximize the Profit as the Salesman](../../2501-3000/2830-maximize-the-profit-as-the-salesman/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-profit-assigning-work/)

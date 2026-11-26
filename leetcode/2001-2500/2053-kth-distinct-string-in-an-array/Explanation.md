@@ -126,8 +126,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
 - [1408. String Matching in an Array](../../1001-1500/1408-string-matching-in-an-array/)
+- [1545. Find Kth Bit in Nth Binary String](../../1501-2000/1545-find-kth-bit-in-nth-binary-string/)
 - [1961. Check If String Is a Prefix of Array](../../1501-2000/1961-check-if-string-is-a-prefix-of-array/)
 
 ## LeetCode

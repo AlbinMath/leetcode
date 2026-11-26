@@ -191,8 +191,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2637. Promise Time Limit](../../2501-3000/2637-promise-time-limit/)
-- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1001-1500/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
-- [1760. Minimum Limit of Balls in a Bag](../../1501-2000/1760-minimum-limit-of-balls-in-a-bag/)
+- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
+- [122. Best Time to Buy and Sell Stock II](../../0001-0500/0122-best-time-to-buy-and-sell-stock-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cache-with-time-limit/)

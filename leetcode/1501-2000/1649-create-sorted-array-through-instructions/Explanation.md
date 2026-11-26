@@ -172,8 +172,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1640. Check Array Formation Through Concatenation](../../1501-2000/1640-check-array-formation-through-concatenation/)
-- [1389. Create Target Array in the Given Order](../../1001-1500/1389-create-target-array-in-the-given-order/)
 - [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-sorted-array-through-instructions/)

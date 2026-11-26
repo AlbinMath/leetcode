@@ -173,8 +173,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1701. Average Waiting Time](../../1501-2000/1701-average-waiting-time/)
-- [1348. Tweet Counts Per Frequency](../../1001-1500/1348-tweet-counts-per-frequency/)
-- [3433. Count Mentions Per User](../../3001-3500/3433-count-mentions-per-user/)
+- [1882. Process Tasks Using Servers](../../1501-2000/1882-process-tasks-using-servers/)
+- [2076. Process Restricted Friend Requests](../../2001-2500/2076-process-restricted-friend-requests/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-time-of-process-per-machine/)

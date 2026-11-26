@@ -147,8 +147,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
-- [1457. Pseudo-Palindromic Paths in a Binary Tree](../../1001-1500/1457-pseudo-palindromic-paths-in-a-binary-tree/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [3123. Find Edges in Shortest Paths](../../3001-3500/3123-find-edges-in-shortest-paths/)
+- [3924. Minimum Threshold Path With Limited Heavy Edges](../../3501-4000/3924-minimum-threshold-path-with-limited-heavy-edges/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)

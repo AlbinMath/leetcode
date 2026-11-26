@@ -136,9 +136,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1071. Greatest Common Divisor of Strings](../../1001-1500/1071-greatest-common-divisor-of-strings/)
-- [1299. Replace Elements with Greatest Element on Right Side](../../1001-1500/1299-replace-elements-with-greatest-element-on-right-side/)
-- [1979. Find Greatest Common Divisor of Array](../../1501-2000/1979-find-greatest-common-divisor-of-array/)
+- [575. Distribute Candies](../../0501-1000/0575-distribute-candies/)
+- [1103. Distribute Candies to People](../../1001-1500/1103-distribute-candies-to-people/)
+- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)

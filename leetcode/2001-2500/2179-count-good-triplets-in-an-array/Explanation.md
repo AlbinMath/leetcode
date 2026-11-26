@@ -153,7 +153,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [1534. Count Good Triplets](../../1501-2000/1534-count-good-triplets/)
 - [1250. Check If It Is a Good Array](../../1001-1500/1250-check-if-it-is-a-good-array/)
-- [1735. Count Ways to Make Array With Product](../../1501-2000/1735-count-ways-to-make-array-with-product/)
+- [1448. Count Good Nodes in Binary Tree](../../1001-1500/1448-count-good-nodes-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-good-triplets-in-an-array/)

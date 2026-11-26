@@ -113,9 +113,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3806. Maximum Bitwise AND After Increment Operations](../../3501-4000/3806-maximum-bitwise-and-after-increment-operations/)
 - [2317. Maximum XOR After Operations ](../../2001-2500/2317-maximum-xor-after-operations/)
-- [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1835-find-xor-sum-of-all-pairs-bitwise-and/)
+- [3806. Maximum Bitwise AND After Increment Operations](../../3501-4000/3806-maximum-bitwise-and-after-increment-operations/)
+- [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-bitwise-xor-after-rearrangement/)

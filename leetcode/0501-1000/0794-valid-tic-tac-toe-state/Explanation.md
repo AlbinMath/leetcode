@@ -143,8 +143,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1275. Find Winner on a Tic Tac Toe Game](../../1001-1500/1275-find-winner-on-a-tic-tac-toe-game/)
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
-- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
+- [3029. Minimum Time to Revert Word to Initial State I](../../3001-3500/3029-minimum-time-to-revert-word-to-initial-state-i/)
+- [3031. Minimum Time to Revert Word to Initial State II](../../3001-3500/3031-minimum-time-to-revert-word-to-initial-state-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-tic-tac-toe-state/)

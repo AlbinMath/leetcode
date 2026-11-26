@@ -154,8 +154,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3130. Find All Possible Stable Binary Arrays II](../../3001-3500/3130-find-all-possible-stable-binary-arrays-ii/)
-- [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2115-find-all-possible-recipes-from-given-supplies/)
 - [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
+- [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2115-find-all-possible-recipes-from-given-supplies/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/)

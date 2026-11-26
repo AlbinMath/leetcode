@@ -140,7 +140,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
 - [184. Department Highest Salary](../../0001-0500/0184-department-highest-salary/)
-- [798. Smallest Rotation with Highest Score](../../0501-1000/0798-smallest-rotation-with-highest-score/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/nth-highest-salary/)

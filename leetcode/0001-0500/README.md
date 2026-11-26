@@ -314,7 +314,7 @@ A collection of **400** solved LeetCode problems in the range **0001-0500**.
 | 384 | [Shuffle an Array](./0384-shuffle-an-array/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0384-shuffle-an-array/Explanation.md) |
 | 385 | [Mini Parser](./0385-mini-parser/) | Medium | [Stack & Queue](../../patterns/stack-queue.md) | JavaScript | [Explanation](./0385-mini-parser/Explanation.md) |
 | 386 | [Lexicographical Numbers](./0386-lexicographical-numbers/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0386-lexicographical-numbers/Explanation.md) |
-| 387 | [First Unique Character in a String](./0387-first-unique-character-in-a-string/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0387-first-unique-character-in-a-string/Explanation.md) |
+| 387 | [First Unique Character in a String](./0387-first-unique-character-in-a-string/) | Easy | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0387-first-unique-character-in-a-string/Explanation.md) |
 | 388 | [Longest Absolute File Path](./0388-longest-absolute-file-path/) | Medium | [Stack & Queue](../../patterns/stack-queue.md) | JavaScript | [Explanation](./0388-longest-absolute-file-path/Explanation.md) |
 | 389 | [Find the Difference](./0389-find-the-difference/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0389-find-the-difference/Explanation.md) |
 | 390 | [Elimination Game](./0390-elimination-game/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0390-elimination-game/Explanation.md) |

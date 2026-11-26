@@ -118,9 +118,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [826. Most Profit Assigning Work](../../0501-1000/0826-most-profit-assigning-work/)
-- [1235. Maximum Profit in Job Scheduling](../../1001-1500/1235-maximum-profit-in-job-scheduling/)
-- [1599. Maximum Profit of Operating a Centennial Wheel](../../1501-2000/1599-maximum-profit-of-operating-a-centennial-wheel/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
+- [1659. Maximize Grid Happiness](../../1501-2000/1659-maximize-grid-happiness/)
+- [1771. Maximize Palindrome Length From Subsequences](../../1501-2000/1771-maximize-palindrome-length-from-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)

@@ -106,9 +106,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [179. Largest Number](../../0001-0500/0179-largest-number/)
-- [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
-- [747. Largest Number At Least Twice of Others](../../0501-1000/0747-largest-number-at-least-twice-of-others/)
+- [434. Number of Segments in a String](../../0001-0500/0434-number-of-segments-in-a-string/)
+- [806. Number of Lines To Write String](../../0501-1000/0806-number-of-lines-to-write-string/)
+- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1374-generate-a-string-with-characters-that-have-odd-counts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-odd-number-in-string/)

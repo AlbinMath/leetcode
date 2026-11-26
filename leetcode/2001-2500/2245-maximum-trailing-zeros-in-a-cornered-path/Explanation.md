@@ -157,9 +157,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2980. Check if Bitwise OR Has Trailing Zeros](../../2501-3000/2980-check-if-bitwise-or-has-trailing-zeros/)
 - [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
 - [1219. Path with Maximum Gold](../../1001-1500/1219-path-with-maximum-gold/)
+- [1514. Path with Maximum Probability](../../1501-2000/1514-path-with-maximum-probability/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path/)

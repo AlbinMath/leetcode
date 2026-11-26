@@ -102,9 +102,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1283. Find the Smallest Divisor Given a Threshold](../../1001-1500/1283-find-the-smallest-divisor-given-a-threshold/)
-- [1325. Delete Leaves With a Given Value](../../1001-1500/1325-delete-leaves-with-a-given-value/)
+- [988. Smallest String Starting From Leaf](../../0501-1000/0988-smallest-string-starting-from-leaf/)
+- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1061-lexicographically-smallest-equivalent-string/)
+- [1202. Smallest String With Swaps](../../1001-1500/1202-smallest-string-with-swaps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)

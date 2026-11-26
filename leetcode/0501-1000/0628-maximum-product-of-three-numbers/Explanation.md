@@ -123,9 +123,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1352. Product of the Last K Numbers](../../1001-1500/1352-product-of-the-last-k-numbers/)
 - [3256. Maximum Value Sum by Placing Three Rooks I](../../3001-3500/3256-maximum-value-sum-by-placing-three-rooks-i/)
-- [3257. Maximum Value Sum by Placing Three Rooks II](../../3001-3500/3257-maximum-value-sum-by-placing-three-rooks-ii/)
-- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-of-three-numbers/)

@@ -144,9 +144,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2588. Count the Number of Beautiful Subarrays](../../2501-3000/2588-count-the-number-of-beautiful-subarrays/)
-- [2597. The Number of Beautiful Subsets](../../2501-3000/2597-the-number-of-beautiful-subsets/)
-- [2748. Number of Beautiful Pairs](../../2501-3000/2748-number-of-beautiful-pairs/)
+- [2963. Count the Number of Good Partitions](../../2501-3000/2963-count-the-number-of-good-partitions/)
+- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3003-maximize-the-number-of-partitions-after-operations/)
+- [3811. Number of Alternating XOR Partitions](../../3501-4000/3811-number-of-alternating-xor-partitions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-beautiful-partitions/)

@@ -121,9 +121,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2149. Rearrange Array Elements by Sign](../../2001-2500/2149-rearrange-array-elements-by-sign/)
 - [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
 - [1464. Maximum Product of Two Elements in an Array](../../1001-1500/1464-maximum-product-of-two-elements-in-an-array/)
-- [1735. Count Ways to Make Array With Product](../../1501-2000/1735-count-ways-to-make-array-with-product/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sign-of-the-product-of-an-array/)

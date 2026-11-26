@@ -165,7 +165,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [237. Delete Node in a Linked List](../../0001-0500/0237-delete-node-in-a-linked-list/)
 - [2095. Delete the Middle Node of a Linked List](../../2001-2500/2095-delete-the-middle-node-of-a-linked-list/)
-- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
+- [196. Delete Duplicate Emails](../../0001-0500/0196-delete-duplicate-emails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/)

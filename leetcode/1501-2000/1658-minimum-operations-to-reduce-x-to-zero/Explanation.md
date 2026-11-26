@@ -141,8 +141,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [2998. Minimum Number of Operations to Make X and Y Equal](../../2501-3000/2998-minimum-number-of-operations-to-make-x-and-y-equal/)
-- [2571. Minimum Operations to Reduce an Integer to 0](../../2501-3000/2571-minimum-operations-to-reduce-an-integer-to-0/)
 - [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1611-minimum-one-bit-operations-to-make-integers-zero/)
+- [2571. Minimum Operations to Reduce an Integer to 0](../../2501-3000/2571-minimum-operations-to-reduce-an-integer-to-0/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)

@@ -120,9 +120,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
+- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
+- [92. Reverse Linked List II](../../0001-0500/0092-reverse-linked-list-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenate-array-with-reverse/)

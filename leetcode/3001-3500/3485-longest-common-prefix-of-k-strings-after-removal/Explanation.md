@@ -204,7 +204,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
 - [3043. Find the Length of the Longest Common Prefix](../../3001-3500/3043-find-the-length-of-the-longest-common-prefix/)
-- [1071. Greatest Common Divisor of Strings](../../1001-1500/1071-greatest-common-divisor-of-strings/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-common-prefix-of-k-strings-after-removal/)

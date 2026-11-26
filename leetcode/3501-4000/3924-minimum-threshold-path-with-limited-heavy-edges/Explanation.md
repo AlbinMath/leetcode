@@ -220,8 +220,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3977. Minimum Time to Reach Target With Limited Power](../../3501-4000/3977-minimum-time-to-reach-target-with-limited-power/)
+- [3066. Minimum Operations to Exceed Threshold Value II](../../3001-3500/3066-minimum-operations-to-exceed-threshold-value-ii/)
 - [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../../1001-1500/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-threshold-path-with-limited-heavy-edges/)

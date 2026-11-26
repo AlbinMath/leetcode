@@ -278,9 +278,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [72. Edit Distance](../../0001-0500/0072-edit-distance/)
-- [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
-- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
+- [192. Word Frequency](../../0001-0500/0192-word-frequency/)
+- [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
+- [895. Maximum Frequency Stack](../../0501-1000/0895-maximum-frequency-stack/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/mirror-frequency-distance/)

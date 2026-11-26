@@ -153,9 +153,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1661. Average Time of Process per Machine](../../1501-2000/1661-average-time-of-process-per-machine/)
-- [2076. Process Restricted Friend Requests](../../2001-2500/2076-process-restricted-friend-requests/)
-- [3612. Process String with Special Operations I](../../3501-4000/3612-process-string-with-special-operations-i/)
+- [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
+- [232. Implement Queue using Stacks](../../0001-0500/0232-implement-queue-using-stacks/)
+- [470. Implement Rand10() Using Rand7()](../../0001-0500/0470-implement-rand10-using-rand7/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-tasks-using-servers/)

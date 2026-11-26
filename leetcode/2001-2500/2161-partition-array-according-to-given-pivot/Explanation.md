@@ -134,9 +134,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [561. Array Partition](../../0501-1000/0561-array-partition/)
 - [1389. Create Target Array in the Given Order](../../1001-1500/1389-create-target-array-in-the-given-order/)
 - [1802. Maximum Value at a Given Index in a Bounded Array](../../1501-2000/1802-maximum-value-at-a-given-index-in-a-bounded-array/)
-- [1982. Find Array Given Subset Sums](../../1501-2000/1982-find-array-given-subset-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-according-to-given-pivot/)

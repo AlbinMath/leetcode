@@ -112,8 +112,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
-- [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
+- [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1558-minimum-numbers-of-function-calls-to-make-target-array/)
+- [2836. Maximize Value of Function in a Ball Passing Game](../../2501-3000/2836-maximize-value-of-function-in-a-ball-passing-game/)
 - [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
 
 ## LeetCode

@@ -1,6 +1,6 @@
 # LeetCode Problems: 3001-3500
 
-A collection of **296** solved LeetCode problems in the range **3001-3500**.
+A collection of **297** solved LeetCode problems in the range **3001-3500**.
 
 ## Problem Index
 
@@ -277,7 +277,7 @@ A collection of **296** solved LeetCode problems in the range **3001-3500**.
 | 3455 | [Shortest Matching Substring](./3455-shortest-matching-substring/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./3455-shortest-matching-substring/Explanation.md) |
 | 3459 | [Length of Longest V-Shaped Diagonal Segment](./3459-length-of-longest-v-shaped-diagonal-segment/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./3459-length-of-longest-v-shaped-diagonal-segment/Explanation.md) |
 | 3461 | [Check If Digits Are Equal in String After Operations I](./3461-check-if-digits-are-equal-in-string-after-operations-i/) | Easy | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./3461-check-if-digits-are-equal-in-string-after-operations-i/Explanation.md) |
-| 3462 | [Maximum Sum With at Most K Elements](./3462-maximum-sum-with-at-most-k-elements/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./3462-maximum-sum-with-at-most-k-elements/Explanation.md) |
+| 3462 | [Maximum Sum With at Most K Elements](./3462-maximum-sum-with-at-most-k-elements/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./3462-maximum-sum-with-at-most-k-elements/Explanation.md) |
 | 3463 | [Check If Digits Are Equal in String After Operations II](./3463-check-if-digits-are-equal-in-string-after-operations-ii/) | Hard | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./3463-check-if-digits-are-equal-in-string-after-operations-ii/Explanation.md) |
 | 3464 | [Maximize the Distance Between Points on a Square](./3464-maximize-the-distance-between-points-on-a-square/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./3464-maximize-the-distance-between-points-on-a-square/Explanation.md) |
 | 3465 | [Find Products with Valid Serial Numbers](./3465-find-products-with-valid-serial-numbers/) | Easy | [Database / SQL](../../patterns/sql-database.md) | SQL | [Explanation](./3465-find-products-with-valid-serial-numbers/Explanation.md) |
@@ -302,3 +302,4 @@ A collection of **296** solved LeetCode problems in the range **3001-3500**.
 | 3497 | [Analyze Subscription Conversion ](./3497-analyze-subscription-conversion/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./3497-analyze-subscription-conversion/Explanation.md) |
 | 3498 | [Reverse Degree of a String](./3498-reverse-degree-of-a-string/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./3498-reverse-degree-of-a-string/Explanation.md) |
 | 3499 | [Maximize Active Section with Trade I](./3499-maximize-active-section-with-trade-i/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | C++ | [Explanation](./3499-maximize-active-section-with-trade-i/Explanation.md) |
+| 3500 | [Minimum Cost to Divide Array Into Subarrays](./3500-minimum-cost-to-divide-array-into-subarrays/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./3500-minimum-cost-to-divide-array-into-subarrays/Explanation.md) |

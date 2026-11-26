@@ -112,8 +112,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1358-number-of-substrings-containing-all-three-characters/)
+- [1737. Change Minimum Characters to Satisfy One of Three Conditions](../../1501-2000/1737-change-minimum-characters-to-satisfy-one-of-three-conditions/)
 - [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1316. Distinct Echo Substrings](../../1001-1500/1316-distinct-echo-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)

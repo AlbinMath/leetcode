@@ -121,8 +121,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1982. Find Array Given Subset Sums](../../1501-2000/1982-find-array-given-subset-sums/)
-- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1237-find-positive-integer-solution-for-a-given-equation/)
-- [1283. Find the Smallest Divisor Given a Threshold](../../1001-1500/1283-find-the-smallest-divisor-given-a-threshold/)
+- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1253-reconstruct-a-2-row-binary-matrix/)
+- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1001-1500/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)

@@ -119,7 +119,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2589. Minimum Time to Complete All Tasks](../../2501-3000/2589-minimum-time-to-complete-all-tasks/)
 - [3733. Minimum Time to Complete All Deliveries](../../3501-4000/3733-minimum-time-to-complete-all-deliveries/)
-- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
+- [2244. Minimum Rounds to Complete All Tasks](../../2001-2500/2244-minimum-rounds-to-complete-all-tasks/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-complete-trips/)

@@ -152,7 +152,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [743. Network Delay Time](../../0501-1000/0743-network-delay-time/)
 - [4068. Maximize Meeting Earnings with Idle Gaps](../../4001-4500/4068-maximize-meeting-earnings-with-idle-gaps/)
-- [803. Bricks Falling When Hit](../../0501-1000/0803-bricks-falling-when-hit/)
+- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)

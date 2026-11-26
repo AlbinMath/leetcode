@@ -124,7 +124,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1916. Count Ways to Build Rooms in an Ant Colony](../../1501-2000/1916-count-ways-to-build-rooms-in-an-ant-colony/)
 - [3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](../../3001-3500/3113-find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
-- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
+- [3728. Stable Subarrays With Equal Boundary and Interior Sum](../../3501-4000/3728-stable-subarrays-with-equal-boundary-and-interior-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ant-on-the-boundary/)

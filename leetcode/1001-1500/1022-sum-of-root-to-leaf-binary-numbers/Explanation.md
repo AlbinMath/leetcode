@@ -120,7 +120,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
 - [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
+- [930. Binary Subarrays With Sum](../../0501-1000/0930-binary-subarrays-with-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)

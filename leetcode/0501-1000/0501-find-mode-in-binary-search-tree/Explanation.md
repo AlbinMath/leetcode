@@ -130,9 +130,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1261. Find Elements in a Contaminated Binary Tree](../../1001-1500/1261-find-elements-in-a-contaminated-binary-tree/)
-- [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../../1001-1500/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
 - [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
+- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
+- [108. Convert Sorted Array to Binary Search Tree](../../0001-0500/0108-convert-sorted-array-to-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-mode-in-binary-search-tree/)

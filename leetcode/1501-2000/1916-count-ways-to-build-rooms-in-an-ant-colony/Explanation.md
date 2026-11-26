@@ -162,7 +162,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1735. Count Ways to Make Array With Product](../../1501-2000/1735-count-ways-to-make-array-with-product/)
 - [3725. Count Ways to Choose Coprime Integers from Rows](../../3501-4000/3725-count-ways-to-choose-coprime-integers-from-rows/)
-- [91. Decode Ways](../../0001-0500/0091-decode-ways/)
+- [3981. Count Distinct Ways to Form Target from Two Strings](../../3501-4000/3981-count-distinct-ways-to-form-target-from-two-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)

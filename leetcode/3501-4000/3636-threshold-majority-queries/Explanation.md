@@ -251,9 +251,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
-- [1211. Queries Quality and Percentage](../../1001-1500/1211-queries-quality-and-percentage/)
-- [1310. XOR Queries of a Subarray](../../1001-1500/1310-xor-queries-of-a-subarray/)
+- [169. Majority Element](../../0001-0500/0169-majority-element/)
+- [229. Majority Element II](../../0001-0500/0229-majority-element-ii/)
+- [1157. Online Majority Element In Subarray](../../1001-1500/1157-online-majority-element-in-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/threshold-majority-queries/)

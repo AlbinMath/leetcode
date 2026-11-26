@@ -114,7 +114,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2249. Count Lattice Points Inside a Circle](../../2001-2500/2249-count-lattice-points-inside-a-circle/)
 - [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2503-maximum-number-of-points-from-grid-queries/)
-- [1610. Maximum Number of Visible Points](../../1501-2000/1610-maximum-number-of-visible-points/)
+- [1453. Maximum Number of Darts Inside of a Circular Dartboard](../../1001-1500/1453-maximum-number-of-darts-inside-of-a-circular-dartboard/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)

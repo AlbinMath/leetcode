@@ -120,8 +120,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1130-minimum-cost-tree-from-leaf-values/)
-- [3403. Find the Lexicographically Largest String From the Box I](../../3001-3500/3403-find-the-lexicographically-largest-string-from-the-box-i/)
-- [3770. Largest Prime from Consecutive Prime Sum](../../3501-4000/3770-largest-prime-from-consecutive-prime-sum/)
+- [2373. Largest Local Values in a Matrix](../../2001-2500/2373-largest-local-values-in-a-matrix/)
+- [3933. Largest Local Values in a Matrix II](../../3501-4000/3933-largest-local-values-in-a-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-values-from-labels/)

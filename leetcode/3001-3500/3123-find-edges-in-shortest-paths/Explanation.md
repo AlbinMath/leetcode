@@ -164,8 +164,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [943. Find the Shortest Superstring](../../0501-1000/0943-find-the-shortest-superstring/)
 - [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../../1001-1500/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+- [943. Find the Shortest Superstring](../../0501-1000/0943-find-the-shortest-superstring/)
 - [62. Unique Paths](../../0001-0500/0062-unique-paths/)
 
 ## LeetCode

@@ -225,9 +225,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2322. Minimum Score After Removals on a Tree](../../2001-2500/2322-minimum-score-after-removals-on-a-tree/)
-- [2492. Minimum Score of a Path Between Two Cities](../../2001-2500/2492-minimum-score-of-a-path-between-two-cities/)
+- [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
 - [2528. Maximize the Minimum Powered City](../../2501-3000/2528-maximize-the-minimum-powered-city/)
+- [2587. Rearrange Array to Maximize Prefix Score](../../2501-3000/2587-rearrange-array-to-maximize-prefix-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-minimum-game-score/)

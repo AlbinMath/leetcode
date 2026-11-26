@@ -123,9 +123,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3828. Final Element After Subarray Deletions](../../3501-4000/3828-final-element-after-subarray-deletions/)
-- [2920. Maximum Points After Collecting Coins From All Nodes](../../2501-3000/2920-maximum-points-after-collecting-coins-from-all-nodes/)
-- [3464. Maximize the Distance Between Points on a Square](../../3001-3500/3464-maximize-the-distance-between-points-on-a-square/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
+- [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
+- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3003-maximize-the-number-of-partitions-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-fixed-points-after-deletions/)

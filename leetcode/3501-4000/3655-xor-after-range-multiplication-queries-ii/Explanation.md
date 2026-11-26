@@ -147,8 +147,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3653. XOR After Range Multiplication Queries I](../../3501-4000/3653-xor-after-range-multiplication-queries-i/)
-- [3264. Final Array State After K Multiplication Operations I](../../3001-3500/3264-final-array-state-after-k-multiplication-operations-i/)
-- [3266. Final Array State After K Multiplication Operations II](../../3001-3500/3266-final-array-state-after-k-multiplication-operations-ii/)
+- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
+- [2317. Maximum XOR After Operations ](../../2001-2500/2317-maximum-xor-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/)

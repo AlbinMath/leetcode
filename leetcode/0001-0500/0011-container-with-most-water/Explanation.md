@@ -142,9 +142,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2349. Design a Number Container System](../../2001-2500/2349-design-a-number-container-system/)
 - [42. Trapping Rain Water](../../0001-0500/0042-trapping-rain-water/)
 - [365. Water and Jug Problem](../../0001-0500/0365-water-and-jug-problem/)
-- [407. Trapping Rain Water II](../../0001-0500/0407-trapping-rain-water-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/container-with-most-water/)

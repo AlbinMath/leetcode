@@ -144,8 +144,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3017. Count the Number of Houses at a Certain Distance II](../../3001-3500/3017-count-the-number-of-houses-at-a-certain-distance-ii/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
 - [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+- [1617. Count Subtrees With Max Distance Between Cities](../../1501-2000/1617-count-subtrees-with-max-distance-between-cities/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/)

@@ -125,8 +125,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2572. Count the Number of Square-Free Subsets](../../2501-3000/2572-count-the-number-of-square-free-subsets/)
-- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
-- [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
+- [1994. The Number of Good Subsets](../../1501-2000/1994-the-number-of-good-subsets/)
+- [2597. The Number of Beautiful Subsets](../../2501-3000/2597-the-number-of-beautiful-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/)

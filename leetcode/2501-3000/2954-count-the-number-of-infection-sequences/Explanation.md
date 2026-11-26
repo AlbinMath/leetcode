@@ -139,9 +139,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2145. Count the Hidden Sequences](../../2001-2500/2145-count-the-hidden-sequences/)
-- [2318. Number of Distinct Roll Sequences](../../2001-2500/2318-number-of-distinct-roll-sequences/)
-- [3850. Count Sequences to K](../../3501-4000/3850-count-sequences-to-k/)
+- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
+- [1395. Count Number of Teams](../../1001-1500/1395-count-number-of-teams/)
+- [1684. Count the Number of Consistent Strings](../../1501-2000/1684-count-the-number-of-consistent-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-infection-sequences/)

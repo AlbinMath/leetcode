@@ -44,6 +44,7 @@ A collection of LeetCode problems solved using **Tree & Graph** pattern techniqu
 | 841 | [Keys and Rooms](../leetcode/0501-1000/0841-keys-and-rooms/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0841-keys-and-rooms/Explanation.md) |
 | 877 | [Stone Game](../leetcode/0501-1000/0877-stone-game/) | C++, Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0877-stone-game/Explanation.md) |
 | 893 | [Groups of Special-Equivalent Strings](../leetcode/0501-1000/0893-groups-of-special-equivalent-strings/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0893-groups-of-special-equivalent-strings/Explanation.md) |
+| 926 | [Flip String to Monotone Increasing](../leetcode/0501-1000/0926-flip-string-to-monotone-increasing/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0926-flip-string-to-monotone-increasing/Explanation.md) |
 | 959 | [Regions Cut By Slashes](../leetcode/0501-1000/0959-regions-cut-by-slashes/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0959-regions-cut-by-slashes/Explanation.md) |
 | 994 | [Rotting Oranges](../leetcode/0501-1000/0994-rotting-oranges/) | JavaScript, Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0994-rotting-oranges/Explanation.md) |
 | 998 | [Maximum Binary Tree II](../leetcode/0501-1000/0998-maximum-binary-tree-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0998-maximum-binary-tree-ii/Explanation.md) |

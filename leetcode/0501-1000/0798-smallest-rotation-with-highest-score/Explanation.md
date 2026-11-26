@@ -128,7 +128,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2049. Count Nodes With the Highest Score](../../2001-2500/2049-count-nodes-with-the-highest-score/)
 - [2374. Node With Highest Edge Score](../../2001-2500/2374-node-with-highest-edge-score/)
-- [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
+- [1886. Determine Whether Matrix Can Be Obtained By Rotation](../../1501-2000/1886-determine-whether-matrix-can-be-obtained-by-rotation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-rotation-with-highest-score/)

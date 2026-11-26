@@ -111,8 +111,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [4058. Maximum Pulse Value After One Subarray Rotation](../../4001-4500/4058-maximum-pulse-value-after-one-subarray-rotation/)
 - [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
-- [1695. Maximum Erasure Value](../../1501-2000/1695-maximum-erasure-value/)
 - [1702. Maximum Binary String After Change](../../1501-2000/1702-maximum-binary-string-after-change/)
 
 ## LeetCode

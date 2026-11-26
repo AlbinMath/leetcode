@@ -168,7 +168,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [2934. Minimum Operations to Maximize Last Elements in Arrays](../../2501-3000/2934-minimum-operations-to-maximize-last-elements-in-arrays/)
 - [3449. Maximize the Minimum Game Score](../../3001-3500/3449-maximize-the-minimum-game-score/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [3891. Minimum Increase to Maximize Special Indices](../../3501-4000/3891-minimum-increase-to-maximize-special-indices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-minimum-powered-city/)

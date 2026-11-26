@@ -130,9 +130,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3361. Shift Distance Between Two Strings](../../3001-3500/3361-shift-distance-between-two-strings/)
 - [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../../1001-1500/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 - [2215. Find the Difference of Two Arrays](../../2001-2500/2215-find-the-difference-of-two-arrays/)
-- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2657-find-the-prefix-common-array-of-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
