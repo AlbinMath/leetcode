@@ -125,7 +125,7 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 ## Related Problems
 - [301. Remove Invalid Parentheses](../../0001-0500/0301-remove-invalid-parentheses/)
 - [1249. Minimum Remove to Make Valid Parentheses](../../1001-1500/1249-minimum-remove-to-make-valid-parentheses/)
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-outermost-parentheses/)

@@ -129,9 +129,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1594. Maximum Non Negative Product in a Matrix](../../1501-2000/1594-maximum-non-negative-product-in-a-matrix/)
-- [1975. Maximum Matrix Sum](../../1501-2000/1975-maximum-matrix-sum/)
-- [2790. Maximum Number of Groups With Increasing Length](../../2501-3000/2790-maximum-number-of-groups-with-increasing-length/)
+- [1030. Matrix Cells in Distance Order](../../1001-1500/1030-matrix-cells-in-distance-order/)
+- [1252. Cells with Odd Values in a Matrix](../../1001-1500/1252-cells-with-odd-values-in-a-matrix/)
+- [3276. Select Cells in Grid With Maximum Score](../../3001-3500/3276-select-cells-in-grid-with-maximum-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/)

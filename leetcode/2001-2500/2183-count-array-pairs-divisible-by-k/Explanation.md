@@ -109,8 +109,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
+- [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3619-count-islands-with-total-value-divisible-by-k/)
 - [532. K-diff Pairs in an Array](../../0501-1000/0532-k-diff-pairs-in-an-array/)
-- [629. K Inverse Pairs Array](../../0501-1000/0629-k-inverse-pairs-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)

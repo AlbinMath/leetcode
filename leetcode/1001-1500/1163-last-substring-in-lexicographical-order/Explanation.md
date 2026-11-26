@@ -103,9 +103,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1839. Longest Substring Of All Vowels in Order](../../1501-2000/1839-longest-substring-of-all-vowels-in-order/)
 - [440. K-th Smallest in Lexicographical Order](../../0001-0500/0440-k-th-smallest-in-lexicographical-order/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [1839. Longest Substring Of All Vowels in Order](../../1501-2000/1839-longest-substring-of-all-vowels-in-order/)
+- [386. Lexicographical Numbers](../../0001-0500/0386-lexicographical-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-substring-in-lexicographical-order/)

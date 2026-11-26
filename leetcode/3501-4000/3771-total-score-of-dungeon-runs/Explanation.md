@@ -143,7 +143,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [174. Dungeon Game](../../0001-0500/0174-dungeon-game/)
 - [3147. Taking Maximum Energy From the Mystic Dungeon](../../3001-3500/3147-taking-maximum-energy-from-the-mystic-dungeon/)
-- [798. Smallest Rotation with Highest Score](../../0501-1000/0798-smallest-rotation-with-highest-score/)
+- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-score-of-dungeon-runs/)

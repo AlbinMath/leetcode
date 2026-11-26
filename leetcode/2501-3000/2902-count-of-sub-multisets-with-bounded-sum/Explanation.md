@@ -130,9 +130,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [327. Count of Range Sum](../../0001-0500/0327-count-of-range-sum/)
 - [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](../../1001-1500/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 - [1524. Number of Sub-arrays With Odd Sum](../../1501-2000/1524-number-of-sub-arrays-with-odd-sum/)
-- [1905. Count Sub Islands](../../1501-2000/1905-count-sub-islands/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-of-sub-multisets-with-bounded-sum/)

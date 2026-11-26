@@ -229,7 +229,7 @@ A collection of **390** solved LeetCode problems in the range **0501-1000**.
 | 810 | [Chalkboard XOR Game](./0810-chalkboard-xor-game/) | Hard | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0810-chalkboard-xor-game/Explanation.md) |
 | 811 | [Subdomain Visit Count](./0811-subdomain-visit-count/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0811-subdomain-visit-count/Explanation.md) |
 | 812 | [Largest Triangle Area](./0812-largest-triangle-area/) | Easy | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./0812-largest-triangle-area/Explanation.md) |
-| 813 | [Largest Sum of Averages](./0813-largest-sum-of-averages/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0813-largest-sum-of-averages/Explanation.md) |
+| 813 | [Largest Sum of Averages](./0813-largest-sum-of-averages/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0813-largest-sum-of-averages/Explanation.md) |
 | 814 | [Binary Tree Pruning](./0814-binary-tree-pruning/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0814-binary-tree-pruning/Explanation.md) |
 | 815 | [Bus Routes](./0815-bus-routes/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0815-bus-routes/Explanation.md) |
 | 816 | [Ambiguous Coordinates](./0816-ambiguous-coordinates/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0816-ambiguous-coordinates/Explanation.md) |
@@ -298,7 +298,7 @@ A collection of **390** solved LeetCode problems in the range **0501-1000**.
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](./0889-construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0889-construct-binary-tree-from-preorder-and-postorder-traversal/Explanation.md) |
 | 890 | [Find and Replace Pattern](./0890-find-and-replace-pattern/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0890-find-and-replace-pattern/Explanation.md) |
 | 892 | [Surface Area of 3D Shapes](./0892-surface-area-of-3d-shapes/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0892-surface-area-of-3d-shapes/Explanation.md) |
-| 893 | [Groups of Special-Equivalent Strings](./0893-groups-of-special-equivalent-strings/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0893-groups-of-special-equivalent-strings/Explanation.md) |
+| 893 | [Groups of Special-Equivalent Strings](./0893-groups-of-special-equivalent-strings/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0893-groups-of-special-equivalent-strings/Explanation.md) |
 | 894 | [All Possible Full Binary Trees](./0894-all-possible-full-binary-trees/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0894-all-possible-full-binary-trees/Explanation.md) |
 | 895 | [Maximum Frequency Stack](./0895-maximum-frequency-stack/) | Hard | [Hash Map](../../patterns/hash-map.md) | JavaScript | [Explanation](./0895-maximum-frequency-stack/Explanation.md) |
 | 896 | [Monotonic Array](./0896-monotonic-array/) | Easy | [Monotonic Stack](../../patterns/monotonic-stack.md) | Python | [Explanation](./0896-monotonic-array/Explanation.md) |
@@ -395,4 +395,4 @@ A collection of **390** solved LeetCode problems in the range **0501-1000**.
 | 997 | [Find the Town Judge](./0997-find-the-town-judge/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0997-find-the-town-judge/Explanation.md) |
 | 998 | [Maximum Binary Tree II](./0998-maximum-binary-tree-ii/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | Python | [Explanation](./0998-maximum-binary-tree-ii/Explanation.md) |
 | 999 | [Available Captures for Rook](./0999-available-captures-for-rook/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0999-available-captures-for-rook/Explanation.md) |
-| 1000 | [Minimum Cost to Merge Stones](./1000-minimum-cost-to-merge-stones/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./1000-minimum-cost-to-merge-stones/Explanation.md) |
+| 1000 | [Minimum Cost to Merge Stones](./1000-minimum-cost-to-merge-stones/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./1000-minimum-cost-to-merge-stones/Explanation.md) |

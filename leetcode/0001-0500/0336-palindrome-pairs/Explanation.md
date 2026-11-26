@@ -124,9 +124,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [125. Valid Palindrome](../../0001-0500/0125-valid-palindrome/)
-- [131. Palindrome Partitioning](../../0001-0500/0131-palindrome-partitioning/)
+- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [493. Reverse Pairs](../../0001-0500/0493-reverse-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-pairs/)

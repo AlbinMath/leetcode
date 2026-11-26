@@ -107,9 +107,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [653. Two Sum IV - Input is a BST](../../0501-1000/0653-two-sum-iv-input-is-a-bst/)
-- [1373. Maximum Sum BST in Binary Tree](../../1001-1500/1373-maximum-sum-bst-in-binary-tree/)
 - [303. Range Sum Query - Immutable](../../0001-0500/0303-range-sum-query-immutable/)
+- [304. Range Sum Query 2D - Immutable](../../0001-0500/0304-range-sum-query-2d-immutable/)
+- [307. Range Sum Query - Mutable](../../0001-0500/0307-range-sum-query-mutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-sum-of-bst/)

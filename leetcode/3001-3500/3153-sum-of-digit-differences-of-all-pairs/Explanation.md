@@ -109,8 +109,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1835-find-xor-sum-of-all-pairs-bitwise-and/)
-- [1588. Sum of All Odd Length Subarrays](../../1501-2000/1588-sum-of-all-odd-length-subarrays/)
-- [1781. Sum of Beauty of All Substrings](../../1501-2000/1781-sum-of-beauty-of-all-substrings/)
+- [677. Map Sum Pairs](../../0501-1000/0677-map-sum-pairs/)
+- [1679. Max Number of K-Sum Pairs](../../1501-2000/1679-max-number-of-k-sum-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/)

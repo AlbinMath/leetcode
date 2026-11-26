@@ -106,9 +106,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3325. Count Substrings With K-Frequency Characters I](../../3001-3500/3325-count-substrings-with-k-frequency-characters-i/)
-- [3692. Majority Frequency Characters](../../3501-4000/3692-majority-frequency-characters/)
 - [1636. Sort Array by Increasing Frequency](../../1501-2000/1636-sort-array-by-increasing-frequency/)
+- [3913. Sort Vowels by Frequency](../../3501-4000/3913-sort-vowels-by-frequency/)
+- [3325. Count Substrings With K-Frequency Characters I](../../3001-3500/3325-count-substrings-with-k-frequency-characters-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-characters-by-frequency/)

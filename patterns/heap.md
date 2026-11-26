@@ -23,6 +23,9 @@ A collection of LeetCode problems solved using **Heap** pattern techniques, expl
 | 787 | [Cheapest Flights Within K Stops](../leetcode/0501-1000/0787-cheapest-flights-within-k-stops/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0787-cheapest-flights-within-k-stops/Explanation.md) |
 | 986 | [Interval List Intersections](../leetcode/0501-1000/0986-interval-list-intersections/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0986-interval-list-intersections/Explanation.md) |
 | 1124 | [Longest Well-Performing Interval](../leetcode/1001-1500/1124-longest-well-performing-interval/) | Python | O(n) | O(n) | [Explanation](../leetcode/1001-1500/1124-longest-well-performing-interval/Explanation.md) |
+| 2121 | [Intervals Between Identical Elements](../leetcode/2001-2500/2121-intervals-between-identical-elements/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2121-intervals-between-identical-elements/Explanation.md) |
+| 2406 | [Divide Intervals Into Minimum Number of Groups](../leetcode/2001-2500/2406-divide-intervals-into-minimum-number-of-groups/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2406-divide-intervals-into-minimum-number-of-groups/Explanation.md) |
+| 3147 | [Taking Maximum Energy From the Mystic Dungeon](../leetcode/3001-3500/3147-taking-maximum-energy-from-the-mystic-dungeon/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3001-3500/3147-taking-maximum-energy-from-the-mystic-dungeon/Explanation.md) |
 
 ### Hard
 

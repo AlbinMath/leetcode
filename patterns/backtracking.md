@@ -66,6 +66,7 @@ A collection of LeetCode problems solved using **Backtracking** pattern techniqu
 | 3149 | [Find the Minimum Cost Array Permutation](../leetcode/3001-3500/3149-find-the-minimum-cost-array-permutation/) | Python | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3149-find-the-minimum-cost-array-permutation/Explanation.md) |
 | 3343 | [Count Number of Balanced Permutations](../leetcode/3001-3500/3343-count-number-of-balanced-permutations/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3343-count-number-of-balanced-permutations/Explanation.md) |
 | 3470 | [Permutations IV](../leetcode/3001-3500/3470-permutations-iv/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3470-permutations-iv/Explanation.md) |
+| 3486 | [Longest Special Path II](../leetcode/3001-3500/3486-longest-special-path-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3486-longest-special-path-ii/Explanation.md) |
 | 3715 | [Sum of Perfect Square Ancestors](../leetcode/3501-4000/3715-sum-of-perfect-square-ancestors/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3715-sum-of-perfect-square-ancestors/Explanation.md) |
 | 3734 | [Lexicographically Smallest Palindromic Permutation Greater Than Target](../leetcode/3501-4000/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Java | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/Explanation.md) |
 

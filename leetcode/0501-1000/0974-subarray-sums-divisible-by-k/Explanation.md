@@ -101,9 +101,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2607. Make K-Subarray Sums Equal](../../2501-3000/2607-make-k-subarray-sums-equal/)
 - [3381. Maximum Subarray Sum With Length Divisible by K](../../3001-3500/3381-maximum-subarray-sum-with-length-divisible-by-k/)
 - [4064. Longest Subarray Divisible by K with At Most One Negation II](../../4001-4500/4064-longest-subarray-divisible-by-k-with-at-most-one-negation-ii/)
+- [2607. Make K-Subarray Sums Equal](../../2501-3000/2607-make-k-subarray-sums-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subarray-sums-divisible-by-k/)

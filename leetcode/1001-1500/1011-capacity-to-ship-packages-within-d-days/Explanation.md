@@ -138,8 +138,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3814. Maximum Capacity Within Budget](../../3501-4000/3814-maximum-capacity-within-budget/)
-- [787. Cheapest Flights Within K Stops](../../0501-1000/0787-cheapest-flights-within-k-stops/)
-- [1208. Get Equal Substrings Within Budget](../../1001-1500/1208-get-equal-substrings-within-budget/)
+- [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
+- [1141. User Activity for the Past 30 Days I](../../1001-1500/1141-user-activity-for-the-past-30-days-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)

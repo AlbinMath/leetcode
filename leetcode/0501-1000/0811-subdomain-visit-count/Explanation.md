@@ -116,9 +116,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2577. Minimum Time to Visit a Cell In a Grid](../../2501-3000/2577-minimum-time-to-visit-a-cell-in-a-grid/)
-- [3112. Minimum Time to Visit Disappearing Nodes](../../3001-3500/3112-minimum-time-to-visit-disappearing-nodes/)
 - [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [204. Count Primes](../../0001-0500/0204-count-primes/)
+- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subdomain-visit-count/)

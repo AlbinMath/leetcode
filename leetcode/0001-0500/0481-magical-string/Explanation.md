@@ -110,9 +110,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [878. Nth Magical Number](../../0501-1000/0878-nth-magical-number/)
+- [3539. Find Sum of Array Product of Magical Sequences](../../3501-4000/3539-find-sum-of-array-product-of-magical-sequences/)
 - [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [87. Scramble String](../../0001-0500/0087-scramble-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/magical-string/)

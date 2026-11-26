@@ -98,9 +98,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [231. Power of Two](../../0001-0500/0231-power-of-two/)
-- [342. Power of Four](../../0001-0500/0342-power-of-four/)
-- [869. Reordered Power of 2](../../0501-1000/0869-reordered-power-of-2/)
+- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
+- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
+- [1050. Actors and Directors Who Cooperated At Least Three Times](../../1001-1500/1050-actors-and-directors-who-cooperated-at-least-three-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-of-three/)

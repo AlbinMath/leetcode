@@ -143,9 +143,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1417. Reformat The String](../../1001-1500/1417-reformat-the-string/)
-- [1507. Reformat Date](../../1501-2000/1507-reformat-date/)
-- [1694. Reformat Phone Number](../../1501-2000/1694-reformat-phone-number/)
+- [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
+- [1418. Display Table of Food Orders in a Restaurant](../../1001-1500/1418-display-table-of-food-orders-in-a-restaurant/)
+- [1667. Fix Names in a Table](../../1501-2000/1667-fix-names-in-a-table/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reformat-department-table/)

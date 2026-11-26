@@ -158,9 +158,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
 - [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
 - [3372. Maximize the Number of Target Nodes After Connecting Trees I](../../3001-3500/3372-maximize-the-number-of-target-nodes-after-connecting-trees-i/)
-- [3373. Maximize the Number of Target Nodes After Connecting Trees II](../../3001-3500/3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/)

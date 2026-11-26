@@ -107,9 +107,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
-- [523. Continuous Subarray Sum](../../0501-1000/0523-continuous-subarray-sum/)
-- [560. Subarray Sum Equals K](../../0501-1000/0560-subarray-sum-equals-k/)
+- [303. Range Sum Query - Immutable](../../0001-0500/0303-range-sum-query-immutable/)
+- [304. Range Sum Query 2D - Immutable](../../0001-0500/0304-range-sum-query-2d-immutable/)
+- [307. Range Sum Query - Mutable](../../0001-0500/0307-range-sum-query-mutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)

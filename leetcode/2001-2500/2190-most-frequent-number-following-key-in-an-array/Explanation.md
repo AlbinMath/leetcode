@@ -120,8 +120,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
-- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1606-find-servers-that-handled-most-number-of-requests/)
 - [1838. Frequency of the Most Frequent Element](../../1501-2000/1838-frequency-of-the-most-frequent-element/)
+- [2404. Most Frequent Even Element](../../2001-2500/2404-most-frequent-even-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/)

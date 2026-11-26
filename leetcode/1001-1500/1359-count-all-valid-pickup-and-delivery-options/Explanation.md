@@ -106,9 +106,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1277. Count Square Submatrices with All Ones](../../1001-1500/1277-count-square-submatrices-with-all-ones/)
-- [1504. Count Submatrices With All Ones](../../1501-2000/1504-count-submatrices-with-all-ones/)
+- [2867. Count Valid Paths in a Tree](../../2501-3000/2867-count-valid-paths-in-a-tree/)
+- [3926. Count Valid Word Occurrences](../../3501-4000/3926-count-valid-word-occurrences/)
+- [4002. Count Valid Sequences](../../4001-4500/4002-count-valid-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)

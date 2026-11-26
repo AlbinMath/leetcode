@@ -139,7 +139,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3695. Maximize Alternating Sum Using Swaps](../../3501-4000/3695-maximize-alternating-sum-using-swaps/)
 - [4062. Transform Array Using Pair Operations](../../4001-4500/4062-transform-array-using-pair-operations/)
-- [3480. Maximize Subarrays After Removing One Conflicting Pair](../../3001-3500/3480-maximize-subarrays-after-removing-one-conflicting-pair/)
+- [3312. Sorted GCD Pair Queries](../../3001-3500/3312-sorted-gcd-pair-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-pair-strength-using-gcd/)

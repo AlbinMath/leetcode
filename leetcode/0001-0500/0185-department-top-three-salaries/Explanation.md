@@ -196,9 +196,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [184. Department Highest Salary](../../0001-0500/0184-department-highest-salary/)
-- [1179. Reformat Department Table](../../1001-1500/1179-reformat-department-table/)
-- [1789. Primary Department for Each Employee](../../1501-2000/1789-primary-department-for-each-employee/)
+- [326. Power of Three](../../0001-0500/0326-power-of-three/)
+- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
+- [1050. Actors and Directors Who Cooperated At Least Three Times](../../1001-1500/1050-actors-and-directors-who-cooperated-at-least-three-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/department-top-three-salaries/)

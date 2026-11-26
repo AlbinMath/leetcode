@@ -115,7 +115,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3510. Minimum Pair Removal to Sort Array II](../../3501-4000/3510-minimum-pair-removal-to-sort-array-ii/)
 - [2856. Minimum Array Length After Pair Removals](../../2501-3000/2856-minimum-array-length-after-pair-removals/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [905. Sort Array By Parity](../../0501-1000/0905-sort-array-by-parity/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/)

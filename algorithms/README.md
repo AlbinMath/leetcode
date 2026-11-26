@@ -6,24 +6,23 @@ A curated index of algorithmic paradigms and problem-solving approaches applied 
 
 | Algorithm | Solved Count | Hub Link |
 |---|---|---|
-| **Backtracking Recursive Search** | 50 problems | [Browse Backtracking Recursive Search](./backtracking-recursive-search.md) |
-| **Bitwise Masking & Bit Shift** | 134 problems | [Browse Bitwise Masking & Bit Shift](./bitwise-masking-bit-shift.md) |
-| **Complement Lookup / Hash Table Frequency** | 402 problems | [Browse Complement Lookup / Hash Table Frequency](./complement-lookup-hash-table-frequency.md) |
+| **Backtracking Recursive Search** | 51 problems | [Browse Backtracking Recursive Search](./backtracking-recursive-search.md) |
+| **Bitwise Masking & Bit Shift** | 132 problems | [Browse Bitwise Masking & Bit Shift](./bitwise-masking-bit-shift.md) |
+| **Complement Lookup / Hash Table Frequency** | 408 problems | [Browse Complement Lookup / Hash Table Frequency](./complement-lookup-hash-table-frequency.md) |
 | **Depth-First Search (DFS) / Breadth-First Search (BFS)** | 107 problems | [Browse Depth-First Search (DFS) / Breadth-First Search (BFS)](./depth-first-search-dfs-breadth-first-search-bfs.md) |
-| **Dynamic Sliding Window Traversal** | 44 problems | [Browse Dynamic Sliding Window Traversal](./dynamic-sliding-window-traversal.md) |
+| **Dynamic Sliding Window Traversal** | 46 problems | [Browse Dynamic Sliding Window Traversal](./dynamic-sliding-window-traversal.md) |
 | **Floyd Cycle Detection** | 16 problems | [Browse Floyd Cycle Detection](./floyd-cycle-detection.md) |
-| **Greedy Choice Strategy** | 3 problems | [Browse Greedy Choice Strategy](./greedy-choice-strategy.md) |
-| **In-Place Array Traversal & Index Mapping** | 580 problems | [Browse In-Place Array Traversal & Index Mapping](./in-place-array-traversal-index-mapping.md) |
-| **Mathematical Simulation & Modular Arithmetic** | 107 problems | [Browse Mathematical Simulation & Modular Arithmetic](./mathematical-simulation-modular-arithmetic.md) |
-| **Memoization & State Transition** | 152 problems | [Browse Memoization & State Transition](./memoization-state-transition.md) |
-| **Min/Max Heap Priority Selection** | 17 problems | [Browse Min/Max Heap Priority Selection](./min-max-heap-priority-selection.md) |
+| **In-Place Array Traversal & Index Mapping** | 543 problems | [Browse In-Place Array Traversal & Index Mapping](./in-place-array-traversal-index-mapping.md) |
+| **Mathematical Simulation & Modular Arithmetic** | 112 problems | [Browse Mathematical Simulation & Modular Arithmetic](./mathematical-simulation-modular-arithmetic.md) |
+| **Memoization & State Transition** | 161 problems | [Browse Memoization & State Transition](./memoization-state-transition.md) |
+| **Min/Max Heap Priority Selection** | 20 problems | [Browse Min/Max Heap Priority Selection](./min-max-heap-priority-selection.md) |
 | **Modified Binary Search** | 169 problems | [Browse Modified Binary Search](./modified-binary-search.md) |
 | **Monotonic Stack Filtering** | 19 problems | [Browse Monotonic Stack Filtering](./monotonic-stack-filtering.md) |
-| **Prefix Sum Precomputation** | 45 problems | [Browse Prefix Sum Precomputation](./prefix-sum-precomputation.md) |
+| **Prefix Sum Precomputation** | 46 problems | [Browse Prefix Sum Precomputation](./prefix-sum-precomputation.md) |
 | **Prefix Tree Lookup** | 8 problems | [Browse Prefix Tree Lookup](./prefix-tree-lookup.md) |
 | **SQL Query / Relational Join & Window Function** | 88 problems | [Browse SQL Query / Relational Join & Window Function](./sql-query-relational-join-window-function.md) |
-| **Stack Push / Pop Parsing** | 192 problems | [Browse Stack Push / Pop Parsing](./stack-push-pop-parsing.md) |
-| **Two Pointer Convergence & Scanning** | 572 problems | [Browse Two Pointer Convergence & Scanning](./two-pointer-convergence-scanning.md) |
+| **Stack Push / Pop Parsing** | 194 problems | [Browse Stack Push / Pop Parsing](./stack-push-pop-parsing.md) |
+| **Two Pointer Convergence & Scanning** | 585 problems | [Browse Two Pointer Convergence & Scanning](./two-pointer-convergence-scanning.md) |
 
 ---
 

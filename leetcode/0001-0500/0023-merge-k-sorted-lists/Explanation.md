@@ -183,7 +183,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
 - [3801. Minimum Cost to Merge Sorted Lists](../../3501-4000/3801-minimum-cost-to-merge-sorted-lists/)
-- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
+- [88. Merge Sorted Array](../../0001-0500/0088-merge-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/)

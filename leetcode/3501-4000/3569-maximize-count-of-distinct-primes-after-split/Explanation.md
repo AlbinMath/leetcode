@@ -292,8 +292,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
-- [2549. Count Distinct Numbers on Board](../../2501-3000/2549-count-distinct-numbers-on-board/)
-- [3694. Distinct Points Reachable After Substring Removal](../../3501-4000/3694-distinct-points-reachable-after-substring-removal/)
+- [204. Count Primes](../../0001-0500/0204-count-primes/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-count-of-distinct-primes-after-split/)

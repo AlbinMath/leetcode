@@ -98,7 +98,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
 - [2336. Smallest Number in Infinite Set](../../2001-2500/2336-smallest-number-in-infinite-set/)
-- [865. Smallest Subtree with all the Deepest Nodes](../../0501-1000/0865-smallest-subtree-with-all-the-deepest-nodes/)
+- [2859. Sum of Values at Indices With K Set Bits](../../2501-3000/2859-sum-of-values-at-indices-with-k-set-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-number-with-all-set-bits/)

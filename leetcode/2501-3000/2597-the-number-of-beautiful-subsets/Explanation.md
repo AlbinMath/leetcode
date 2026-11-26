@@ -129,9 +129,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1994. The Number of Good Subsets](../../1501-2000/1994-the-number-of-good-subsets/)
-- [2044. Count Number of Maximum Bitwise-OR Subsets](../../2001-2500/2044-count-number-of-maximum-bitwise-or-subsets/)
-- [2572. Count the Number of Square-Free Subsets](../../2501-3000/2572-count-the-number-of-square-free-subsets/)
+- [2478. Number of Beautiful Partitions](../../2001-2500/2478-number-of-beautiful-partitions/)
+- [2588. Count the Number of Beautiful Subarrays](../../2501-3000/2588-count-the-number-of-beautiful-subarrays/)
+- [2748. Number of Beautiful Pairs](../../2501-3000/2748-number-of-beautiful-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-number-of-beautiful-subsets/)

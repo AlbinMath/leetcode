@@ -131,8 +131,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3399. Smallest Substring With Identical Characters II](../../3001-3500/3399-smallest-substring-with-identical-characters-ii/)
+- [3970. Shortest Path With At Most K Consecutive Identical Characters](../../3501-4000/3970-shortest-path-with-at-most-k-consecutive-identical-characters/)
 - [1081. Smallest Subsequence of Distinct Characters](../../1001-1500/1081-smallest-subsequence-of-distinct-characters/)
-- [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../../3501-4000/3816-lexicographically-smallest-string-after-deleting-duplicate-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-substring-with-identical-characters-i/)

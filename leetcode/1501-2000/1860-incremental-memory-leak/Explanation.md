@@ -112,8 +112,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3887. Incremental Even-Weighted Cycle Queries](../../3501-4000/3887-incremental-even-weighted-cycle-queries/)
 - [2502. Design Memory Allocator](../../2501-3000/2502-design-memory-allocator/)
+- [3887. Incremental Even-Weighted Cycle Queries](../../3501-4000/3887-incremental-even-weighted-cycle-queries/)
 - [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
 
 ## LeetCode

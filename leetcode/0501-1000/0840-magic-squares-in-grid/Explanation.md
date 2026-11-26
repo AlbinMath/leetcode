@@ -144,9 +144,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1260. Shift 2D Grid](../../1001-1500/1260-shift-2d-grid/)
-- [1293. Shortest Path in a Grid with Obstacles Elimination](../../1001-1500/1293-shortest-path-in-a-grid-with-obstacles-elimination/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+- [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
+- [977. Squares of a Sorted Array](../../0501-1000/0977-squares-of-a-sorted-array/)
+- [1240. Tiling a Rectangle with the Fewest Squares](../../1001-1500/1240-tiling-a-rectangle-with-the-fewest-squares/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/magic-squares-in-grid/)

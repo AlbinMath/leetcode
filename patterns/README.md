@@ -6,25 +6,25 @@ A comprehensive index of LeetCode problems organized by algorithmic pattern and 
 
 | Pattern | Solved Count | Hub Link |
 |---|---|---|
-| **Array / General** | 580 problems | [Browse Array / General](./array-general.md) |
-| **Backtracking** | 50 problems | [Browse Backtracking](./backtracking.md) |
+| **Array / General** | 543 problems | [Browse Array / General](./array-general.md) |
+| **Backtracking** | 51 problems | [Browse Backtracking](./backtracking.md) |
 | **Binary Search** | 169 problems | [Browse Binary Search](./binary-search.md) |
-| **Bit Manipulation** | 134 problems | [Browse Bit Manipulation](./bit-manipulation.md) |
+| **Bit Manipulation** | 132 problems | [Browse Bit Manipulation](./bit-manipulation.md) |
 | **Database / SQL** | 88 problems | [Browse Database / SQL](./sql-database.md) |
-| **Dynamic Programming** | 152 problems | [Browse Dynamic Programming](./dynamic-programming.md) |
+| **Dynamic Programming** | 161 problems | [Browse Dynamic Programming](./dynamic-programming.md) |
 | **Fast & Slow Pointers** | 16 problems | [Browse Fast & Slow Pointers](./fast-slow-pointers.md) |
-| **Greedy** | 3 problems | [Browse Greedy](./greedy.md) |
-| **Hash Map** | 402 problems | [Browse Hash Map](./hash-map.md) |
-| **Heap** | 17 problems | [Browse Heap](./heap.md) |
+| **Greedy** | 0 problems | [Browse Greedy](./greedy.md) |
+| **Hash Map** | 408 problems | [Browse Hash Map](./hash-map.md) |
+| **Heap** | 20 problems | [Browse Heap](./heap.md) |
 | **Linked List** | 0 problems | [Browse Linked List](./linked-list.md) |
-| **Math & Logic** | 107 problems | [Browse Math & Logic](./math-logic.md) |
+| **Math & Logic** | 112 problems | [Browse Math & Logic](./math-logic.md) |
 | **Monotonic Stack** | 19 problems | [Browse Monotonic Stack](./monotonic-stack.md) |
-| **Prefix Sum** | 45 problems | [Browse Prefix Sum](./prefix-sum.md) |
-| **Sliding Window** | 44 problems | [Browse Sliding Window](./sliding-window.md) |
-| **Stack & Queue** | 192 problems | [Browse Stack & Queue](./stack-queue.md) |
+| **Prefix Sum** | 46 problems | [Browse Prefix Sum](./prefix-sum.md) |
+| **Sliding Window** | 46 problems | [Browse Sliding Window](./sliding-window.md) |
+| **Stack & Queue** | 194 problems | [Browse Stack & Queue](./stack-queue.md) |
 | **Tree & Graph** | 107 problems | [Browse Tree & Graph](./tree-graph.md) |
 | **Trie** | 8 problems | [Browse Trie](./trie.md) |
-| **Two Pointers** | 572 problems | [Browse Two Pointers](./two-pointers.md) |
+| **Two Pointers** | 585 problems | [Browse Two Pointers](./two-pointers.md) |
 
 ---
 

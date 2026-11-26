@@ -108,8 +108,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1370. Increasing Decreasing String](../../1001-1500/1370-increasing-decreasing-string/)
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [519. Random Flip Matrix](../../0501-1000/0519-random-flip-matrix/)
+- [951. Flip Equivalent Binary Trees](../../0501-1000/0951-flip-equivalent-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flip-string-to-monotone-increasing/)

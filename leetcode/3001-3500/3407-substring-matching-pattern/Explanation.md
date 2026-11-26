@@ -108,7 +108,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
 - [3455. Shortest Matching Substring](../../3001-3500/3455-shortest-matching-substring/)
-- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [290. Word Pattern](../../0001-0500/0290-word-pattern/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/substring-matching-pattern/)

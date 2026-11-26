@@ -6,20 +6,19 @@ A comprehensive catalog of data structures utilized across all solved LeetCode p
 
 | Data Structure | Solved Count | Hub Link |
 |---|---|---|
-| **Array** | 1152 problems | [Browse Array](./array.md) |
-| **Array / Hash Set** | 44 problems | [Browse Array / Hash Set](./array-hash-set.md) |
-| **Array / Priority Queue** | 3 problems | [Browse Array / Priority Queue](./array-priority-queue.md) |
-| **DP Table / Array** | 152 problems | [Browse DP Table / Array](./dp-table-array.md) |
-| **Dictionary / Hash Map** | 402 problems | [Browse Dictionary / Hash Map](./dictionary-hash-map.md) |
-| **Heap / Priority Queue** | 17 problems | [Browse Heap / Priority Queue](./heap-priority-queue.md) |
-| **Integer Bitmask** | 134 problems | [Browse Integer Bitmask](./integer-bitmask.md) |
+| **Array** | 1128 problems | [Browse Array](./array.md) |
+| **Array / Hash Set** | 46 problems | [Browse Array / Hash Set](./array-hash-set.md) |
+| **DP Table / Array** | 161 problems | [Browse DP Table / Array](./dp-table-array.md) |
+| **Dictionary / Hash Map** | 408 problems | [Browse Dictionary / Hash Map](./dictionary-hash-map.md) |
+| **Heap / Priority Queue** | 20 problems | [Browse Heap / Priority Queue](./heap-priority-queue.md) |
+| **Integer Bitmask** | 132 problems | [Browse Integer Bitmask](./integer-bitmask.md) |
 | **Linked List / Pointer** | 16 problems | [Browse Linked List / Pointer](./linked-list-pointer.md) |
-| **Prefix Array** | 45 problems | [Browse Prefix Array](./prefix-array.md) |
-| **Primitive Types** | 107 problems | [Browse Primitive Types](./primitive-types.md) |
-| **Recursion Tree** | 50 problems | [Browse Recursion Tree](./recursion-tree.md) |
+| **Prefix Array** | 46 problems | [Browse Prefix Array](./prefix-array.md) |
+| **Primitive Types** | 112 problems | [Browse Primitive Types](./primitive-types.md) |
+| **Recursion Tree** | 51 problems | [Browse Recursion Tree](./recursion-tree.md) |
 | **Relational Table** | 88 problems | [Browse Relational Table](./relational-table.md) |
 | **Sorted Array** | 169 problems | [Browse Sorted Array](./sorted-array.md) |
-| **Stack** | 211 problems | [Browse Stack](./stack.md) |
+| **Stack** | 213 problems | [Browse Stack](./stack.md) |
 | **Tree / Graph / Grid** | 107 problems | [Browse Tree / Graph / Grid](./tree-graph-grid.md) |
 | **Trie Node** | 8 problems | [Browse Trie Node](./trie-node.md) |
 

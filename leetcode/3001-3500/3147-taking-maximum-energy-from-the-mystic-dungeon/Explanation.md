@@ -1,7 +1,7 @@
 # LeetCode 3147: Taking Maximum Energy From the Mystic Dungeon
 
 **LeetCode Problem #3147 — Taking Maximum Energy From the Mystic Dungeon**
-Solve LeetCode Taking Maximum Energy From the Mystic Dungeon using JavaScript and Greedy. This solution finds the optimal result using Greedy Choice Strategy in O(n) time.
+Solve LeetCode Taking Maximum Energy From the Mystic Dungeon using JavaScript and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Taking Maximum Energy From the Mystic Dungeon using JavaScript an
 | LeetCode | #3147 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Greedy Choice Strategy |
-| Data Structure | Array / Priority Queue |
-| Pattern | Greedy |
+| Algorithm | Min/Max Heap Priority Selection |
+| Data Structure | Heap / Priority Queue |
+| Pattern | Heap |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 In a mystic dungeon, `n` magicians are standing in a line. Each magician has an attribute that gives you energy. Some magicians can give you negative energy, which means taking energy from you.
@@ -44,7 +44,7 @@ You are given an array `energy` and an integer `k`. Return the **maximum** possi
 - **Explanation:** We can gain a total energy of -1 by starting from magician 2.
 
 ## Key Insight
-Leverage **Greedy** with **Array / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Taking Maximum Energy From the Mystic Dungeon**, we observe the problem requirements and utilize the **Greedy** technique. We iterate through the inputs using **Greedy Choice Strategy**, leveraging a **Array / Priority Queue** to efficiently manage state and achieve optimal complexity.
@@ -56,7 +56,7 @@ To solve **Taking Maximum Energy From the Mystic Dungeon**, we observe the probl
 
 ## Example Walkthrough
 1. **Input State:** We begin with `energy = [5,2,-10,-5,1], k = 3`.
-2. **Processing Steps:** We apply **Greedy Choice Strategy** using our **Array / Priority Queue**:
+2. **Processing Steps:** We apply **Min/Max Heap Priority Selection** using our **Heap / Priority Queue**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `3`.
@@ -64,13 +64,14 @@ To solve **Taking Maximum Energy From the Mystic Dungeon**, we observe the probl
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Priority Queue.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Heap / Priority Queue.
 
 ## Pattern
-**Greedy**
+**Heap**
 
 ## Topics
-- Greedy
+- Heap
+- Priority Queue
 - Sorting
 
 ## Language
@@ -100,7 +101,7 @@ var maximumEnergy = function(energy, k) {
 ```
 
 ## Why This Works
-By utilizing **Greedy**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -112,8 +113,8 @@ By utilizing **Greedy**, each element is processed efficiently, ensuring optimal
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
 - [1349. Maximum Students Taking Exam](../../1001-1500/1349-maximum-students-taking-exam/)
+- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
 - [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
 
 ## LeetCode

@@ -1,7 +1,7 @@
 # LeetCode 2121: Intervals Between Identical Elements
 
 **LeetCode Problem #2121 — Intervals Between Identical Elements**
-Solve LeetCode Intervals Between Identical Elements using JavaScript and Greedy. This solution finds the optimal result using Greedy Choice Strategy in O(n) time.
+Solve LeetCode Intervals Between Identical Elements using JavaScript and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Intervals Between Identical Elements using JavaScript and Greedy.
 | LeetCode | #2121 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Greedy Choice Strategy |
-| Data Structure | Array / Priority Queue |
-| Pattern | Greedy |
+| Algorithm | Min/Max Heap Priority Selection |
+| Data Structure | Heap / Priority Queue |
+| Pattern | Heap |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given a **0-indexed** array of `n` integers `arr`.
@@ -51,7 +51,7 @@ Return *an array* `intervals` *of length* `n` *where* `intervals[i]` *is **the s
 - Index 3: Two more 10s are found at indices 0 and 2. |3 - 0| + |3 - 2| = 4
 
 ## Key Insight
-Leverage **Greedy** with **Array / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Intervals Between Identical Elements**, we observe the problem requirements and utilize the **Greedy** technique. By maintaining a **Array / Priority Queue**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
@@ -64,7 +64,7 @@ To solve **Intervals Between Identical Elements**, we observe the problem requir
 
 ## Example Walkthrough
 1. **Input State:** We begin with `arr = [2,1,3,1,2,3,3]`.
-2. **Processing Steps:** We apply **Greedy Choice Strategy** using our **Array / Priority Queue**:
+2. **Processing Steps:** We apply **Min/Max Heap Priority Selection** using our **Heap / Priority Queue**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[4,2,7,2,4,4,5]`.
@@ -78,13 +78,14 @@ To solve **Intervals Between Identical Elements**, we observe the problem requir
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Priority Queue.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Heap / Priority Queue.
 
 ## Pattern
-**Greedy**
+**Heap**
 
 ## Topics
-- Greedy
+- Heap
+- Priority Queue
 - Sorting
 
 ## Language
@@ -126,7 +127,7 @@ var getDistances = function(arr) {
 ```
 
 ## Why This Works
-By utilizing **Greedy**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -140,7 +141,7 @@ By utilizing **Greedy**, each element is processed efficiently, ensuring optimal
 ## Related Problems
 - [1981. Minimize the Difference Between Target and Chosen Elements](../../1501-2000/1981-minimize-the-difference-between-target-and-chosen-elements/)
 - [2817. Minimum Absolute Difference Between Elements With Constraint](../../2501-3000/2817-minimum-absolute-difference-between-elements-with-constraint/)
-- [203. Remove Linked List Elements](../../0001-0500/0203-remove-linked-list-elements/)
+- [3398. Smallest Substring With Identical Characters I](../../3001-3500/3398-smallest-substring-with-identical-characters-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/intervals-between-identical-elements/)

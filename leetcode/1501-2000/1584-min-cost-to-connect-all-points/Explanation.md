@@ -114,7 +114,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1595. Minimum Cost to Connect Two Groups of Points](../../1501-2000/1595-minimum-cost-to-connect-two-groups-of-points/)
 - [746. Min Cost Climbing Stairs](../../0501-1000/0746-min-cost-climbing-stairs/)
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
+- [1937. Maximum Number of Points with Cost](../../1501-2000/1937-maximum-number-of-points-with-cost/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/min-cost-to-connect-all-points/)

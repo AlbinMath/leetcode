@@ -143,7 +143,7 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 ## Related Problems
 - [2360. Longest Cycle in a Graph](../../2001-2500/2360-longest-cycle-in-a-graph/)
 - [2642. Design Graph With Shortest Path Calculator](../../2501-3000/2642-design-graph-with-shortest-path-calculator/)
-- [141. Linked List Cycle](../../0001-0500/0141-linked-list-cycle/)
+- [133. Clone Graph](../../0001-0500/0133-clone-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-cycle-in-a-graph/)

@@ -118,9 +118,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [352. Data Stream as Disjoint Intervals](../../0001-0500/0352-data-stream-as-disjoint-intervals/)
-- [558. Logical OR of Two Binary Grids Represented as Quad-Trees](../../0501-1000/0558-logical-or-of-two-binary-grids-represented-as-quad-trees/)
-- [1162. As Far from Land as Possible](../../1001-1500/1162-as-far-from-land-as-possible/)
+- [826. Most Profit Assigning Work](../../0501-1000/0826-most-profit-assigning-work/)
+- [1235. Maximum Profit in Job Scheduling](../../1001-1500/1235-maximum-profit-in-job-scheduling/)
+- [1599. Maximum Profit of Operating a Centennial Wheel](../../1501-2000/1599-maximum-profit-of-operating-a-centennial-wheel/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-profit-as-the-salesman/)

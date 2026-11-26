@@ -140,8 +140,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [797. All Paths From Source to Target](../../0501-1000/0797-all-paths-from-source-to-target/)
 - [1301. Number of Paths with Max Score](../../1001-1500/1301-number-of-paths-with-max-score/)
-- [2259. Remove Digit From Number to Maximize Result](../../2001-2500/2259-remove-digit-from-number-to-maximize-result/)
 - [2328. Number of Increasing Paths in a Grid](../../2001-2500/2328-number-of-increasing-paths-in-a-grid/)
 
 ## LeetCode

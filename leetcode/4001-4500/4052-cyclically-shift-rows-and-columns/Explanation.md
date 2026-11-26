@@ -113,7 +113,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1072-flip-columns-for-maximum-number-of-equal-rows/)
 - [2397. Maximum Rows Covered by Columns](../../2001-2500/2397-maximum-rows-covered-by-columns/)
-- [944. Delete Columns to Make Sorted](../../0501-1000/0944-delete-columns-to-make-sorted/)
+- [1914. Cyclically Rotating a Grid](../../1501-2000/1914-cyclically-rotating-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cyclically-shift-rows-and-columns/)

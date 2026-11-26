@@ -185,9 +185,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
 - [1360. Number of Days Between Two Dates](../../1001-1500/1360-number-of-days-between-two-dates/)
 - [2555. Maximize Win From Two Segments](../../2501-3000/2555-maximize-win-from-two-segments/)
-- [3203. Find Minimum Diameter After Merging Two Trees](../../3001-3500/3203-find-minimum-diameter-after-merging-two-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions/)

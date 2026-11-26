@@ -147,7 +147,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1235. Maximum Profit in Job Scheduling](../../1001-1500/1235-maximum-profit-in-job-scheduling/)
 - [3530. Maximum Profit from Valid Topological Order in DAG](../../3501-4000/3530-maximum-profit-from-valid-topological-order-in-dag/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [826. Most Profit Assigning Work](../../0501-1000/0826-most-profit-assigning-work/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/)

@@ -107,8 +107,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2124. Check if All A's Appears Before All B's](../../2001-2500/2124-check-if-all-as-appears-before-all-bs/)
 - [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1003-check-if-word-is-valid-after-substitutions/)
-- [1832. Check if the Sentence Is Pangram](../../1501-2000/1832-check-if-the-sentence-is-pangram/)
 - [1880. Check if Word Equals Summation of Two Words](../../1501-2000/1880-check-if-word-equals-summation-of-two-words/)
 
 ## LeetCode

@@ -179,9 +179,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [768. Max Chunks To Make Sorted II](../../0501-1000/0768-max-chunks-to-make-sorted-ii/)
-- [769. Max Chunks To Make Sorted](../../0501-1000/0769-max-chunks-to-make-sorted/)
-- [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0921-minimum-add-to-make-parentheses-valid/)
+- [1169. Invalid Transactions](../../1001-1500/1169-invalid-transactions/)
+- [1193. Monthly Transactions I](../../1001-1500/1193-monthly-transactions-i/)
+- [3220. Odd and Even Transactions](../../3001-3500/3220-odd-and-even-transactions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)

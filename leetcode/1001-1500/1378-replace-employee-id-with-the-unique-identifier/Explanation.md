@@ -167,8 +167,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [2722. Join Two Arrays by ID](../../2501-3000/2722-join-two-arrays-by-id/)
-- [648. Replace Words](../../0501-1000/0648-replace-words/)
-- [833. Find And Replace in String](../../0501-1000/0833-find-and-replace-in-string/)
+- [62. Unique Paths](../../0001-0500/0062-unique-paths/)
+- [63. Unique Paths II](../../0001-0500/0063-unique-paths-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)

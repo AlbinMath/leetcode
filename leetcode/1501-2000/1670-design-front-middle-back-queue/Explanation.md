@@ -172,8 +172,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
-- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
-- [355. Design Twitter](../../0001-0500/0355-design-twitter/)
+- [876. Middle of the Linked List](../../0501-1000/0876-middle-of-the-linked-list/)
+- [1991. Find the Middle Index in Array](../../1501-2000/1991-find-the-middle-index-in-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-front-middle-back-queue/)

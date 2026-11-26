@@ -103,8 +103,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3180. Maximum Total Reward Using Operations I](../../3001-3500/3180-maximum-total-reward-using-operations-i/)
+- [1959. Minimum Total Space Wasted With K Resizing Operations](../../1501-2000/1959-minimum-total-space-wasted-with-k-resizing-operations/)
 - [2234. Maximum Total Beauty of the Gardens](../../2001-2500/2234-maximum-total-beauty-of-the-gardens/)
-- [2285. Maximum Total Importance of Roads](../../2001-2500/2285-maximum-total-importance-of-roads/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/)

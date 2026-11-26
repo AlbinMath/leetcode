@@ -125,8 +125,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
-- [67. Add Binary](../../0001-0500/0067-add-binary/)
+- [66. Plus One](../../0001-0500/0066-plus-one/)
+- [233. Number of Digit One](../../0001-0500/0233-number-of-digit-one/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-one-row-to-tree/)

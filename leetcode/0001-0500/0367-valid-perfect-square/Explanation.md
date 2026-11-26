@@ -112,8 +112,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3715. Sum of Perfect Square Ancestors](../../3501-4000/3715-sum-of-perfect-square-ancestors/)
-- [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
-- [391. Perfect Rectangle](../../0001-0500/0391-perfect-rectangle/)
+- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
+- [473. Matchsticks to Square](../../0001-0500/0473-matchsticks-to-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-perfect-square/)

@@ -151,8 +151,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [743. Network Delay Time](../../0501-1000/0743-network-delay-time/)
+- [4068. Maximize Meeting Earnings with Idle Gaps](../../4001-4500/4068-maximize-meeting-earnings-with-idle-gaps/)
 - [803. Bricks Falling When Hit](../../0501-1000/0803-bricks-falling-when-hit/)
-- [1192. Critical Connections in a Network](../../1001-1500/1192-critical-connections-in-a-network/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)
