@@ -118,8 +118,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3541. Find Most Frequent Vowel and Consonant](../../3501-4000/3541-find-most-frequent-vowel-and-consonant/)
-- [966. Vowel Spellchecker](../../0501-1000/0966-vowel-spellchecker/)
-- [1641. Count Sorted Vowel Strings](../../1501-2000/1641-count-sorted-vowel-strings/)
+- [798. Smallest Rotation with Highest Score](../../0501-1000/0798-smallest-rotation-with-highest-score/)
+- [856. Score of Parentheses](../../0501-1000/0856-score-of-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/vowel-consonant-score/)

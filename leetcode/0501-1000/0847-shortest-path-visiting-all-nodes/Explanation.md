@@ -132,8 +132,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [864. Shortest Path to Get All Keys](../../0501-1000/0864-shortest-path-to-get-all-keys/)
-- [1091. Shortest Path in Binary Matrix](../../1001-1500/1091-shortest-path-in-binary-matrix/)
-- [1129. Shortest Path with Alternating Colors](../../1001-1500/1129-shortest-path-with-alternating-colors/)
+- [863. All Nodes Distance K in Binary Tree](../../0501-1000/0863-all-nodes-distance-k-in-binary-tree/)
+- [865. Smallest Subtree with all the Deepest Nodes](../../0501-1000/0865-smallest-subtree-with-all-the-deepest-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)

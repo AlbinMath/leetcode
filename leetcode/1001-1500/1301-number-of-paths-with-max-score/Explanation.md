@@ -225,9 +225,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](../../1501-2000/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable/)
-- [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1593-split-a-string-into-the-max-number-of-unique-substrings/)
-- [1679. Max Number of K-Sum Pairs](../../1501-2000/1679-max-number-of-k-sum-pairs/)
+- [3038. Maximum Number of Operations With the Same Score I](../../3001-3500/3038-maximum-number-of-operations-with-the-same-score-i/)
+- [3040. Maximum Number of Operations With the Same Score II](../../3001-3500/3040-maximum-number-of-operations-with-the-same-score-ii/)
+- [3282. Reach End of Array With Max Score](../../3001-3500/3282-reach-end-of-array-with-max-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-paths-with-max-score/)

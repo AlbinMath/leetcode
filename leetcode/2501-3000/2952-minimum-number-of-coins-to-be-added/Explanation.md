@@ -122,8 +122,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2944. Minimum Number of Coins for Fruits](../../2501-3000/2944-minimum-number-of-coins-for-fruits/)
-- [1353. Maximum Number of Events That Can Be Attended](../../1001-1500/1353-maximum-number-of-events-that-can-be-attended/)
-- [1751. Maximum Number of Events That Can Be Attended II](../../1501-2000/1751-maximum-number-of-events-that-can-be-attended-ii/)
+- [1561. Maximum Number of Coins You Can Get](../../1501-2000/1561-maximum-number-of-coins-you-can-get/)
+- [2973. Find Number of Coins to Place in Tree Nodes](../../2501-3000/2973-find-number-of-coins-to-place-in-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/)

@@ -112,8 +112,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
-- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
-- [560. Subarray Sum Equals K](../../0501-1000/0560-subarray-sum-equals-k/)
+- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
+- [973. K Closest Points to Origin](../../0501-1000/0973-k-closest-points-to-origin/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k/)

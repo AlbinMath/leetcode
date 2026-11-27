@@ -143,8 +143,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2865. Beautiful Towers I](../../2501-3000/2865-beautiful-towers-i/)
-- [3301. Maximize the Total Height of Unique Towers](../../3001-3500/3301-maximize-the-total-height-of-unique-towers/)
 - [526. Beautiful Arrangement](../../0501-1000/0526-beautiful-arrangement/)
+- [667. Beautiful Arrangement II](../../0501-1000/0667-beautiful-arrangement-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/beautiful-towers-ii/)

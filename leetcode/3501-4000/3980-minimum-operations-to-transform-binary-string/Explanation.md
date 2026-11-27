@@ -146,7 +146,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [3666. Minimum Operations to Equalize Binary String](../../3501-4000/3666-minimum-operations-to-equalize-binary-string/)
 - [3675. Minimum Operations to Transform String](../../3501-4000/3675-minimum-operations-to-transform-string/)
-- [1830. Minimum Number of Operations to Make String Sorted](../../1501-2000/1830-minimum-number-of-operations-to-make-string-sorted/)
+- [1758. Minimum Changes To Make Alternating Binary String](../../1501-2000/1758-minimum-changes-to-make-alternating-binary-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-transform-binary-string/)

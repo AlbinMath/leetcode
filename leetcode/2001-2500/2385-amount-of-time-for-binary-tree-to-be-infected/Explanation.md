@@ -137,9 +137,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
-- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
-- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
+- [1443. Minimum Time to Collect All Apples in a Tree](../../1001-1500/1443-minimum-time-to-collect-all-apples-in-a-tree/)
+- [2335. Minimum Amount of Time to Fill Cups](../../2001-2500/2335-minimum-amount-of-time-to-fill-cups/)
+- [2380. Time Needed to Rearrange a Binary String](../../2001-2500/2380-time-needed-to-rearrange-a-binary-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)

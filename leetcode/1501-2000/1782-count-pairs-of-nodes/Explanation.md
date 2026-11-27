@@ -166,8 +166,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](../../2001-2500/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/)
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
-- [1448. Count Good Nodes in Binary Tree](../../1001-1500/1448-count-good-nodes-in-binary-tree/)
+- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [1530. Number of Good Leaf Nodes Pairs](../../1501-2000/1530-number-of-good-leaf-nodes-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-pairs-of-nodes/)

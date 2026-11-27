@@ -109,8 +109,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2696. Minimum String Length After Removing Substrings](../../2501-3000/2696-minimum-string-length-after-removing-substrings/)
+- [2390. Removing Stars From a String](../../2001-2500/2390-removing-stars-from-a-string/)
 - [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1625-lexicographically-smallest-string-after-applying-operations/)
-- [2734. Lexicographically Smallest String After Substring Operation](../../2501-3000/2734-lexicographically-smallest-string-after-substring-operation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/)

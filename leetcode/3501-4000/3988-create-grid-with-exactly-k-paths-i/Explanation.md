@@ -161,8 +161,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3963. Create Grid With Exactly One Path](../../3501-4000/3963-create-grid-with-exactly-one-path/)
-- [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
-- [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
+- [2328. Number of Increasing Paths in a Grid](../../2001-2500/2328-number-of-increasing-paths-in-a-grid/)
+- [2435. Paths in Matrix Whose Sum Is Divisible by K](../../2001-2500/2435-paths-in-matrix-whose-sum-is-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-grid-with-exactly-k-paths-i/)

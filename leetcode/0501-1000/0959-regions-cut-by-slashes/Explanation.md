@@ -145,9 +145,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [130. Surrounded Regions](../../0001-0500/0130-surrounded-regions/)
 - [675. Cut Off Trees for Golf Event](../../0501-1000/0675-cut-off-trees-for-golf-event/)
 - [1547. Minimum Cost to Cut a Stick](../../1501-2000/1547-minimum-cost-to-cut-a-stick/)
+- [3394. Check if Grid can be Cut into Sections](../../3001-3500/3394-check-if-grid-can-be-cut-into-sections/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/regions-cut-by-slashes/)

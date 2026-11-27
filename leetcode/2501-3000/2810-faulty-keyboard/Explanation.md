@@ -134,8 +134,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [500. Keyboard Row](../../0001-0500/0500-keyboard-row/)
+- [650. 2 Keys Keyboard](../../0501-1000/0650-2-keys-keyboard/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/faulty-keyboard/)

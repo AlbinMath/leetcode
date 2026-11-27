@@ -121,8 +121,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1330. Reverse Subarray To Maximize Array Value](../../1001-1500/1330-reverse-subarray-to-maximize-array-value/)
-- [2888. Reshape Data: Concatenate](../../2501-3000/2888-reshape-data-concatenate/)
-- [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../../3501-4000/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/)
+- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
+- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenate-array-with-reverse/)

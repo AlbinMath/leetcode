@@ -104,9 +104,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
-- [147. Insertion Sort List](../../0001-0500/0147-insertion-sort-list/)
-- [148. Sort List](../../0001-0500/0148-sort-list/)
+- [881. Boats to Save People](../../0501-1000/0881-boats-to-save-people/)
+- [1103. Distribute Candies to People](../../1001-1500/1103-distribute-candies-to-people/)
+- [1282. Group the People Given the Group Size They Belong To](../../1001-1500/1282-group-the-people-given-the-group-size-they-belong-to/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-the-people/)

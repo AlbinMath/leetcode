@@ -123,9 +123,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [4023. Elevator Requests II](../../4001-4500/4023-elevator-requests-ii/)
 - [4027. Elevator Requests III](../../4001-4500/4027-elevator-requests-iii/)
 - [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
-- [1601. Maximum Number of Achievable Transfer Requests](../../1501-2000/1601-maximum-number-of-achievable-transfer-requests/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/elevator-requests-i/)

@@ -226,8 +226,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3075. Maximize Happiness of Selected Children](../../3001-3500/3075-maximize-happiness-of-selected-children/)
-- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
-- [1001. Grid Illumination](../../1001-1500/1001-grid-illumination/)
+- [2943. Maximize Area of Square Hole in Grid](../../2501-3000/2943-maximize-area-of-square-hole-in-grid/)
+- [849. Maximize Distance to Closest Person](../../0501-1000/0849-maximize-distance-to-closest-person/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-grid-happiness/)

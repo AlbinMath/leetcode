@@ -139,7 +139,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
-- [1785. Minimum Elements to Add to Form a Given Sum](../../1501-2000/1785-minimum-elements-to-add-to-form-a-given-sum/)
+- [3229. Minimum Operations to Make Array Equal to Target](../../3001-3500/3229-minimum-operations-to-make-array-equal-to-target/)
 - [3291. Minimum Number of Valid Strings to Form Target I](../../3001-3500/3291-minimum-number-of-valid-strings-to-form-target-i/)
 
 ## LeetCode

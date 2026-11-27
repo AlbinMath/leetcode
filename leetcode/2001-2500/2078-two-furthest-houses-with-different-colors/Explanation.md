@@ -124,9 +124,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3015. Count the Number of Houses at a Certain Distance I](../../3001-3500/3015-count-the-number-of-houses-at-a-certain-distance-i/)
-- [3017. Count the Number of Houses at a Certain Distance II](../../3001-3500/3017-count-the-number-of-houses-at-a-certain-distance-ii/)
-- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
+- [1931. Painting a Grid With Three Different Colors](../../1501-2000/1931-painting-a-grid-with-three-different-colors/)
+- [241. Different Ways to Add Parentheses](../../0001-0500/0241-different-ways-to-add-parentheses/)
+- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)

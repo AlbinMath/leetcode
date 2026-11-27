@@ -172,8 +172,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
-- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
-- [355. Design Twitter](../../0001-0500/0355-design-twitter/)
+- [232. Implement Queue using Stacks](../../0001-0500/0232-implement-queue-using-stacks/)
+- [406. Queue Reconstruction by Height](../../0001-0500/0406-queue-reconstruction-by-height/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-front-middle-back-queue/)

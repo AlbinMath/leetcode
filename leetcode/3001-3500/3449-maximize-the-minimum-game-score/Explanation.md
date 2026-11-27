@@ -225,9 +225,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2836. Maximize Value of Function in a Ball Passing Game](../../2501-3000/2836-maximize-value-of-function-in-a-ball-passing-game/)
-- [2974. Minimum Number Game](../../2501-3000/2974-minimum-number-game/)
-- [3847. Find the Score Difference in a Game](../../3501-4000/3847-find-the-score-difference-in-a-game/)
+- [1039. Minimum Score Triangulation of Polygon](../../1001-1500/1039-minimum-score-triangulation-of-polygon/)
+- [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
+- [2139. Minimum Moves to Reach Target Score](../../2001-2500/2139-minimum-moves-to-reach-target-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-minimum-game-score/)

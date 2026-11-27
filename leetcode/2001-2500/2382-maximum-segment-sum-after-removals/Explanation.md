@@ -168,8 +168,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3002. Maximum Size of a Set After Removals](../../3001-3500/3002-maximum-size-of-a-set-after-removals/)
+- [3367. Maximize Sum of Weights after Edge Removals](../../3001-3500/3367-maximize-sum-of-weights-after-edge-removals/)
 - [3487. Maximum Unique Subarray Sum After Deletion](../../3001-3500/3487-maximum-unique-subarray-sum-after-deletion/)
-- [3962. Maximum Subarray Sum After at Most K Swaps](../../3501-4000/3962-maximum-subarray-sum-after-at-most-k-swaps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-segment-sum-after-removals/)

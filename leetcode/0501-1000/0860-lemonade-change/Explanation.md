@@ -116,8 +116,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [322. Coin Change](../../0001-0500/0322-coin-change/)
+- [518. Coin Change II](../../0501-1000/0518-coin-change-ii/)
 - [1702. Maximum Binary String After Change](../../1501-2000/1702-maximum-binary-string-after-change/)
-- [1737. Change Minimum Characters to Satisfy One of Three Conditions](../../1501-2000/1737-change-minimum-characters-to-satisfy-one-of-three-conditions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lemonade-change/)

@@ -131,8 +131,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
+- [583. Delete Operation for Two Strings](../../0501-1000/0583-delete-operation-for-two-strings/)
 - [617. Merge Two Binary Trees](../../0501-1000/0617-merge-two-binary-trees/)
-- [1768. Merge Strings Alternately](../../1501-2000/1768-merge-strings-alternately/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-merge-of-two-strings/)

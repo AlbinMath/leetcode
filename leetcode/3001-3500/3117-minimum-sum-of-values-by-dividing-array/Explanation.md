@@ -170,8 +170,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2208. Minimum Operations to Halve Array Sum](../../2001-2500/2208-minimum-operations-to-halve-array-sum/)
+- [2809. Minimum Time to Make Array Sum At Most x](../../2501-3000/2809-minimum-time-to-make-array-sum-at-most-x/)
 - [2829. Determine the Minimum Sum of a k-avoiding Array](../../2501-3000/2829-determine-the-minimum-sum-of-a-k-avoiding-array/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/)

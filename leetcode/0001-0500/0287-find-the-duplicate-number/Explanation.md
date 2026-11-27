@@ -109,9 +109,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [609. Find Duplicate File in System](../../0501-1000/0609-find-duplicate-file-in-system/)
+- [652. Find Duplicate Subtrees](../../0501-1000/0652-find-duplicate-subtrees/)
 - [1295. Find Numbers with Even Number of Digits](../../1001-1500/1295-find-numbers-with-even-number-of-digits/)
-- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
-- [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](../../1001-1500/1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-duplicate-number/)

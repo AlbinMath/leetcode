@@ -112,8 +112,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
+- [2616. Minimize the Maximum Difference of Pairs](../../2501-3000/2616-minimize-the-maximum-difference-of-pairs/)
 - [3442. Maximum Difference Between Even and Odd Frequency I](../../3001-3500/3442-maximum-difference-between-even-and-odd-frequency-i/)
-- [3445. Maximum Difference Between Even and Odd Frequency II](../../3001-3500/3445-maximum-difference-between-even-and-odd-frequency-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)

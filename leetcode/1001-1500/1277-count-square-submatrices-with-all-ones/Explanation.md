@@ -1,7 +1,7 @@
 # LeetCode 1277: Count Square Submatrices with All Ones
 
 **LeetCode Problem #1277 — Count Square Submatrices with All Ones**
-Solve LeetCode Count Square Submatrices with All Ones using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
+Solve LeetCode Count Square Submatrices with All Ones using JavaScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Count Square Submatrices with All Ones using JavaScript and Dynam
 | LeetCode | #1277 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Memoization & State Transition |
-| Data Structure | DP Table / Array |
-| Pattern | Dynamic Programming |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -47,7 +47,7 @@ Given a `m * n` matrix of ones and zeros, return how many **square** submatrices
 There is
 
 ## Key Insight
-Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
 To solve **Count Square Submatrices with All Ones**, we observe the problem requirements and utilize the **Array / General** technique. We decompose the problem into overlapping subproblems using a **Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
@@ -65,7 +65,7 @@ To solve **Count Square Submatrices with All Ones**, we observe the problem requ
  [1,1,1,1],
  [0,1,1,1]
 ]`.
-2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `15`.
@@ -73,15 +73,15 @@ To solve **Count Square Submatrices with All Ones**, we observe the problem requ
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Dynamic Programming**
+**Hash Map**
 
 ## Topics
-- Dynamic Programming
-- Memoization
-- State Transition
+- Hash Table
+- Array
+- Complement Lookup
 
 ## Language
 JavaScript
@@ -120,16 +120,16 @@ var countSquares = function(matrix) {
 ```
 
 ## Why This Works
-By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Incorrect base case initialization.
-2. Flawed state transition equation.
-3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
-- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
 - [1504. Count Submatrices With All Ones](../../1501-2000/1504-count-submatrices-with-all-ones/)

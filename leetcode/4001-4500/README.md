@@ -1,6 +1,6 @@
 # LeetCode Problems: 4001-4500
 
-A collection of **58** solved LeetCode problems in the range **4001-4500**.
+A collection of **59** solved LeetCode problems in the range **4001-4500**.
 
 ## Problem Index
 
@@ -16,15 +16,16 @@ A collection of **58** solved LeetCode problems in the range **4001-4500**.
 | 4011 | [Count Subarrays With Even Odd Ratio I](./4011-count-subarrays-with-even-odd-ratio-i/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./4011-count-subarrays-with-even-odd-ratio-i/Explanation.md) |
 | 4012 | [Count of Unfinished Tasks After Each Shift](./4012-count-of-unfinished-tasks-after-each-shift/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./4012-count-of-unfinished-tasks-after-each-shift/Explanation.md) |
 | 4013 | [Count Subarrays With Even Odd Ratio II](./4013-count-subarrays-with-even-odd-ratio-ii/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./4013-count-subarrays-with-even-odd-ratio-ii/Explanation.md) |
-| 4014 | [Minimum Total Price After Applying Discounts](./4014-minimum-total-price-after-applying-discounts/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./4014-minimum-total-price-after-applying-discounts/Explanation.md) |
+| 4014 | [Minimum Total Price After Applying Discounts](./4014-minimum-total-price-after-applying-discounts/) | Medium | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./4014-minimum-total-price-after-applying-discounts/Explanation.md) |
 | 4016 | [Maximum Area of Two Non-Overlapping Square Submatrices](./4016-maximum-area-of-two-non-overlapping-square-submatrices/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./4016-maximum-area-of-two-non-overlapping-square-submatrices/Explanation.md) |
 | 4017 | [Peaks in Array II](./4017-peaks-in-array-ii/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./4017-peaks-in-array-ii/Explanation.md) |
 | 4020 | [Elevator Requests I](./4020-elevator-requests-i/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./4020-elevator-requests-i/Explanation.md) |
 | 4021 | [Minimum Operations to Make a Rotated Palindrome I](./4021-minimum-operations-to-make-a-rotated-palindrome-i/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./4021-minimum-operations-to-make-a-rotated-palindrome-i/Explanation.md) |
 | 4022 | [K-th Digit in Infinite String](./4022-k-th-digit-in-infinite-string/) | Medium | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./4022-k-th-digit-in-infinite-string/Explanation.md) |
+| 4023 | [Elevator Requests II](./4023-elevator-requests-ii/) | Hard | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./4023-elevator-requests-ii/Explanation.md) |
 | 4024 | [Nearest Available Drone](./4024-nearest-available-drone/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./4024-nearest-available-drone/Explanation.md) |
-| 4025 | [Minimize the Maximum Waiting Time at Synchronized Traffic Lights](./4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/Explanation.md) |
-| 4026 | [Maximum Gap Between Stations](./4026-maximum-gap-between-stations/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./4026-maximum-gap-between-stations/Explanation.md) |
+| 4025 | [Minimize the Maximum Waiting Time at Synchronized Traffic Lights](./4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/) | Medium | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/Explanation.md) |
+| 4026 | [Maximum Gap Between Stations](./4026-maximum-gap-between-stations/) | Medium | [Math & Logic](../../patterns/math-logic.md) | JavaScript | [Explanation](./4026-maximum-gap-between-stations/Explanation.md) |
 | 4027 | [Elevator Requests III](./4027-elevator-requests-iii/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./4027-elevator-requests-iii/Explanation.md) |
 | 4030 | [Check ASCII Palindromic](./4030-check-ascii-palindromic/) | Easy | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./4030-check-ascii-palindromic/Explanation.md) |
 | 4031 | [Find All Numbers Disappeared in an Array II](./4031-find-all-numbers-disappeared-in-an-array-ii/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./4031-find-all-numbers-disappeared-in-an-array-ii/Explanation.md) |

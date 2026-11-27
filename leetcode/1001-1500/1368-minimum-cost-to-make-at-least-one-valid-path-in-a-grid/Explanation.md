@@ -136,8 +136,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2304. Minimum Path Cost in a Grid](../../2001-2500/2304-minimum-path-cost-in-a-grid/)
-- [2087. Minimum Cost Homecoming of a Robot in a Grid](../../2001-2500/2087-minimum-cost-homecoming-of-a-robot-in-a-grid/)
-- [2448. Minimum Cost to Make Array Equal](../../2001-2500/2448-minimum-cost-to-make-array-equal/)
+- [1391. Check if There is a Valid Path in a Grid](../../1001-1500/1391-check-if-there-is-a-valid-path-in-a-grid/)
+- [2033. Minimum Operations to Make a Uni-Value Grid](../../2001-2500/2033-minimum-operations-to-make-a-uni-value-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)

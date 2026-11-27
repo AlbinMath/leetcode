@@ -135,7 +135,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [227. Basic Calculator II](../../0001-0500/0227-basic-calculator-ii/)
 - [770. Basic Calculator IV](../../0501-1000/0770-basic-calculator-iv/)
-- [2642. Design Graph With Shortest Path Calculator](../../2501-3000/2642-design-graph-with-shortest-path-calculator/)
+- [991. Broken Calculator](../../0501-1000/0991-broken-calculator/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/basic-calculator/)

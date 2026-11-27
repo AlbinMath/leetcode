@@ -1,7 +1,7 @@
 # LeetCode 3952: Maximum Total Value of Covered Indices
 
 **LeetCode Problem #3952 — Maximum Total Value of Covered Indices**
-Solve LeetCode Maximum Total Value of Covered Indices using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Maximum Total Value of Covered Indices using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Maximum Total Value of Covered Indices using JavaScript and Array
 | LeetCode | #3952 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
+| Algorithm | Two Pointer Convergence & Scanning |
 | Data Structure | Array |
-| Pattern | Array / General |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -57,7 +57,7 @@ Return an integer denoting the **maximum total value** of `nums` at the covered 
  The covered indices are `[0, 2]`, so the total value is `nums[0] + nums[2] = 9 + 5 = 14`.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Maximum Total Value of Covered Indices**, we observe the problem requirements and utilize the **Array / General** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -70,7 +70,7 @@ To solve **Maximum Total Value of Covered Indices**, we observe the problem requ
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [9,2,6,1], s = "0101"`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `15`.
@@ -84,10 +84,12 @@ To solve **Maximum Total Value of Covered Indices**, we observe the problem requ
 - **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Array / General**
+**Two Pointers**
 
 ## Topics
+- Two Pointers
 - Array
+- Sorting
 
 ## Language
 JavaScript
@@ -132,16 +134,16 @@ var maxTotal = function(nums, s) {
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [3689. Maximum Total Subarray Value I](../../3501-4000/3689-maximum-total-subarray-value-i/)

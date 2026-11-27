@@ -177,7 +177,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2763. Sum of Imbalance Numbers of All Subarrays](../../2501-3000/2763-sum-of-imbalance-numbers-of-all-subarrays/)
+- [3679.  Minimum Discards to Balance Inventory](../../3501-4000/3679-minimum-discards-to-balance-inventory/)
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 - [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 

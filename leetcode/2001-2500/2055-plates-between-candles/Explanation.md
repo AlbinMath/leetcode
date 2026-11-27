@@ -114,7 +114,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [783. Minimum Distance Between BST Nodes](../../0501-1000/0783-minimum-distance-between-bst-nodes/)
 - [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
-- [1190. Reverse Substrings Between Each Pair of Parentheses](../../1001-1500/1190-reverse-substrings-between-each-pair-of-parentheses/)
+- [1184. Distance Between Bus Stops](../../1001-1500/1184-distance-between-bus-stops/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/plates-between-candles/)

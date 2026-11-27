@@ -137,8 +137,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1312. Minimum Insertion Steps to Make a String Palindrome](../../1001-1500/1312-minimum-insertion-steps-to-make-a-string-palindrome/)
-- [3766. Minimum Operations to Make Binary Palindrome](../../3501-4000/3766-minimum-operations-to-make-binary-palindrome/)
-- [4021. Minimum Operations to Make a Rotated Palindrome I](../../4001-4500/4021-minimum-operations-to-make-a-rotated-palindrome-i/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1347-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [1482. Minimum Number of Days to Make m Bouquets](../../1001-1500/1482-minimum-number-of-days-to-make-m-bouquets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)

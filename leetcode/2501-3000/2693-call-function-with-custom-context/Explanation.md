@@ -134,8 +134,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2666. Allow One Function Call](../../2501-3000/2666-allow-one-function-call/)
-- [791. Custom Sort String](../../0501-1000/0791-custom-sort-string/)
 - [396. Rotate Function](../../0001-0500/0396-rotate-function/)
+- [793. Preimage Size of Factorial Zeroes Function](../../0501-1000/0793-preimage-size-of-factorial-zeroes-function/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/call-function-with-custom-context/)

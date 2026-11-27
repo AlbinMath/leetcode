@@ -185,8 +185,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1211. Queries Quality and Percentage](../../1001-1500/1211-queries-quality-and-percentage/)
-- [1353. Maximum Number of Events That Can Be Attended](../../1001-1500/1353-maximum-number-of-events-that-can-be-attended/)
-- [1751. Maximum Number of Events That Can Be Attended II](../../1501-2000/1751-maximum-number-of-events-that-can-be-attended-ii/)
+- [262. Trips and Users](../../0001-0500/0262-trips-and-users/)
+- [1517. Find Users With Valid E-Mails](../../1501-2000/1517-find-users-with-valid-e-mails/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)

@@ -120,9 +120,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [213. House Robber II](../../0001-0500/0213-house-robber-ii/)
 - [337. House Robber III](../../0001-0500/0337-house-robber-iii/)
 - [2560. House Robber IV](../../2501-3000/2560-house-robber-iv/)
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/house-robber/)

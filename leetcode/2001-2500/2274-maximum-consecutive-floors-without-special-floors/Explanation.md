@@ -1,7 +1,7 @@
 # LeetCode 2274: Maximum Consecutive Floors Without Special Floors
 
 **LeetCode Problem #2274 — Maximum Consecutive Floors Without Special Floors**
-Solve LeetCode Maximum Consecutive Floors Without Special Floors using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Maximum Consecutive Floors Without Special Floors using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Maximum Consecutive Floors Without Special Floors using JavaScrip
 | LeetCode | #2274 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -44,7 +44,7 @@ Therefore, we return the maximum number which is 3 floors.
 - **Explanation:** Every floor rented is a special floor, so we return 0.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Maximum Consecutive Floors Without Special Floors**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -56,7 +56,7 @@ To solve **Maximum Consecutive Floors Without Special Floors**, we observe the p
 
 ## Example Walkthrough
 1. **Input State:** We begin with `bottom = 2, top = 9, special = [4,6]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `3`.
@@ -68,13 +68,14 @@ Therefore, we return the maximum number which is 3 floors.
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 JavaScript
@@ -105,7 +106,7 @@ var maxConsecutive = function(bottom, top, special) {
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -117,9 +118,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
 - [1798. Maximum Number of Consecutive Values You Can Make](../../1501-2000/1798-maximum-number-of-consecutive-values-you-can-make/)
 - [3413. Maximum Coins From K Consecutive Bags](../../3001-3500/3413-maximum-coins-from-k-consecutive-bags/)
-- [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/)

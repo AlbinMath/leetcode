@@ -109,9 +109,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
-- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
-- [1296. Divide Array in Sets of K Consecutive Numbers](../../1001-1500/1296-divide-array-in-sets-of-k-consecutive-numbers/)
+- [665. Non-decreasing Array](../../0501-1000/0665-non-decreasing-array/)
+- [1969. Minimum Non-Zero Product of the Array Elements](../../1501-2000/1969-minimum-non-zero-product-of-the-array-elements/)
+- [2289. Steps to Make Array Non-decreasing](../../2001-2500/2289-steps-to-make-array-non-decreasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/)

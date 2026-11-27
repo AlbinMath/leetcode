@@ -239,7 +239,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 - [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1160-find-words-that-can-be-formed-by-characters/)
-- [3011. Find if Array Can Be Sorted](../../3001-3500/3011-find-if-array-can-be-sorted/)
+- [1642. Furthest Building You Can Reach](../../1501-2000/1642-furthest-building-you-can-reach/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/)

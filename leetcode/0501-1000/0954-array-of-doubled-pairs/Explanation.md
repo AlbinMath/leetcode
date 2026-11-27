@@ -104,9 +104,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2007. Find Original Array From Doubled Array](../../2001-2500/2007-find-original-array-from-doubled-array/)
 - [532. K-diff Pairs in an Array](../../0501-1000/0532-k-diff-pairs-in-an-array/)
 - [629. K Inverse Pairs Array](../../0501-1000/0629-k-inverse-pairs-array/)
-- [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/array-of-doubled-pairs/)

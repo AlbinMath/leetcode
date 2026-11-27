@@ -149,9 +149,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [855. Exam Room](../../0501-1000/0855-exam-room/)
-- [1349. Maximum Students Taking Exam](../../1001-1500/1349-maximum-students-taking-exam/)
-- [2024. Maximize the Confusion of an Exam](../../2001-2500/2024-maximize-the-confusion-of-an-exam/)
+- [178. Rank Scores](../../0001-0500/0178-rank-scores/)
+- [1984. Minimum Difference Between Highest and Lowest of K Scores](../../1501-2000/1984-minimum-difference-between-highest-and-lowest-of-k-scores/)
+- [2223. Sum of Scores of Built Strings](../../2001-2500/2223-sum-of-scores-of-built-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-exam-scores-tracker/)

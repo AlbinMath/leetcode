@@ -114,9 +114,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1904. The Number of Full Rounds You Have Played](../../1501-2000/1904-the-number-of-full-rounds-you-have-played/)
 - [2136. Earliest Possible Day of Full Bloom](../../2001-2500/2136-earliest-possible-day-of-full-bloom/)
-- [605. Can Place Flowers](../../0501-1000/0605-can-place-flowers/)
+- [1904. The Number of Full Rounds You Have Played](../../1501-2000/1904-the-number-of-full-rounds-you-have-played/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-flowers-in-full-bloom/)

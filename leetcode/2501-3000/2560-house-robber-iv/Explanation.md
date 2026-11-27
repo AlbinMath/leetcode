@@ -134,8 +134,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [198. House Robber](../../0001-0500/0198-house-robber/)
+- [213. House Robber II](../../0001-0500/0213-house-robber-ii/)
 - [337. House Robber III](../../0001-0500/0337-house-robber-iii/)
-- [6. Zigzag Conversion](../../0001-0500/0006-zigzag-conversion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/house-robber-iv/)

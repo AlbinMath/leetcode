@@ -110,8 +110,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1734. Decode XORed Permutation](../../1501-2000/1734-decode-xored-permutation/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
+- [91. Decode Ways](../../0001-0500/0091-decode-ways/)
+- [394. Decode String](../../0001-0500/0394-decode-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decode-xored-array/)

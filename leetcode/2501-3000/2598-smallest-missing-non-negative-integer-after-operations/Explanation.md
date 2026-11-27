@@ -1,7 +1,7 @@
 # LeetCode 2598: Smallest Missing Non-negative Integer After Operations
 
 **LeetCode Problem #2598 — Smallest Missing Non-negative Integer After Operations**
-Solve LeetCode Smallest Missing Non-negative Integer After Operations using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Smallest Missing Non-negative Integer After Operations using Python and Prefix Sum. This solution finds the optimal result using Prefix Sum Precomputation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Smallest Missing Non-negative Integer After Operations using Pyth
 | LeetCode | #2598 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Prefix Sum Precomputation |
+| Data Structure | Prefix Array |
+| Pattern | Prefix Sum |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given a **0-indexed** integer array `nums` and an integer `value`.
@@ -47,7 +47,7 @@ Return *the maximum MEX of *`nums`* after applying the mentioned operation **any
 - subtract value from nums[2] once to make nums = [1,-10,
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Prefix Sum** with **Prefix Array** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Smallest Missing Non-negative Integer After Operations**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -59,7 +59,7 @@ To solve **Smallest Missing Non-negative Integer After Operations**, we observe 
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [1,-10,7,13,6,8], value = 5`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Prefix Sum Precomputation** using our **Prefix Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `4`.
@@ -68,12 +68,13 @@ To solve **Smallest Missing Non-negative Integer After Operations**, we observe 
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Prefix Array.
 
 ## Pattern
-**Array / General**
+**Prefix Sum**
 
 ## Topics
+- Prefix Sum
 - Array
 
 ## Language
@@ -101,7 +102,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Prefix Sum**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -115,7 +116,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](../../2501-3000/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/)
 - [3782. Last Remaining Integer After Alternating Deletion Operations](../../3501-4000/3782-last-remaining-integer-after-alternating-deletion-operations/)
-- [3420. Count Non-Decreasing Subarrays After K Operations](../../3001-3500/3420-count-non-decreasing-subarrays-after-k-operations/)
+- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1625-lexicographically-smallest-string-after-applying-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/)

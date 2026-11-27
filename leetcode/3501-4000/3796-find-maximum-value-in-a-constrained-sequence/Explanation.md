@@ -1,7 +1,7 @@
 # LeetCode 3796: Find Maximum Value in a Constrained Sequence
 
 **LeetCode Problem #3796 — Find Maximum Value in a Constrained Sequence**
-Solve LeetCode Find Maximum Value in a Constrained Sequence using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Find Maximum Value in a Constrained Sequence using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Find Maximum Value in a Constrained Sequence using JavaScript and
 | LeetCode | #3796 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given an integer `n`, a 2D integer array `restrictions`, and an integer array `diff` of length `n - 1`. Your task is to construct a sequence of length `n`, denoted by `a[0], a[1], ..., a[n - 1]`, such that it satisfies the following conditions:
@@ -51,7 +51,7 @@ Return an integer denoting the **largest** value present in such an optimal sequ
 - **Explanation:** The sequence `a = [0, 3, 3, 2, 6, 8, 11, 12]` satisfies the given
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Find Maximum Value in a Constrained Sequence**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -63,7 +63,7 @@ To solve **Find Maximum Value in a Constrained Sequence**, we observe the proble
 
 ## Example Walkthrough
 1. **Input State:** We begin with `n = 10, restrictions = [[3,1],[8,1]], diff = [2,2,3,1,4,5,1,1,2]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `6`.
@@ -71,13 +71,16 @@ To solve **Find Maximum Value in a Constrained Sequence**, we observe the proble
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 JavaScript
@@ -121,7 +124,7 @@ var findMaxVal = function(n, restrictions, diff) {
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -135,7 +138,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3287. Find the Maximum Sequence Value of Array](../../3001-3500/3287-find-the-maximum-sequence-value-of-array/)
 - [3993. Maximum Value of an Alternating Sequence](../../3501-4000/3993-maximum-value-of-an-alternating-sequence/)
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
+- [2242. Maximum Score of a Node Sequence](../../2001-2500/2242-maximum-score-of-a-node-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-maximum-value-in-a-constrained-sequence/)

@@ -127,9 +127,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [56. Merge Intervals](../../0001-0500/0056-merge-intervals/)
-- [352. Data Stream as Disjoint Intervals](../../0001-0500/0352-data-stream-as-disjoint-intervals/)
-- [435. Non-overlapping Intervals](../../0001-0500/0435-non-overlapping-intervals/)
+- [1893. Check if All the Integers in a Range Are Covered](../../1501-2000/1893-check-if-all-the-integers-in-a-range-are-covered/)
+- [2271. Maximum White Tiles Covered by a Carpet](../../2001-2500/2271-maximum-white-tiles-covered-by-a-carpet/)
+- [2397. Maximum Rows Covered by Columns](../../2001-2500/2397-maximum-rows-covered-by-columns/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-covered-intervals/)

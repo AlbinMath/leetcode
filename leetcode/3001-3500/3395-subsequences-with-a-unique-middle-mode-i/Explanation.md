@@ -193,9 +193,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3978. Unique Middle Element](../../3501-4000/3978-unique-middle-element/)
 - [1930. Unique Length-3 Palindromic Subsequences](../../1501-2000/1930-unique-length-3-palindromic-subsequences/)
 - [1987. Number of Unique Good Subsequences](../../1501-2000/1987-number-of-unique-good-subsequences/)
-- [3978. Unique Middle Element](../../3501-4000/3978-unique-middle-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/)

@@ -128,9 +128,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
 - [2042. Check if Numbers Are Ascending in a Sentence](../../2001-2500/2042-check-if-numbers-are-ascending-in-a-sentence/)
 - [3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](../../3001-3500/3113-find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
-- [3233. Find the Count of Numbers Which Are Not Special](../../3001-3500/3233-find-the-count-of-numbers-which-are-not-special/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)

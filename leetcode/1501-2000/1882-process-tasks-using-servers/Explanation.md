@@ -153,9 +153,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1665. Minimum Initial Energy to Finish Tasks](../../1501-2000/1665-minimum-initial-energy-to-finish-tasks/)
-- [1986. Minimum Number of Work Sessions to Finish the Tasks](../../1501-2000/1986-minimum-number-of-work-sessions-to-finish-the-tasks/)
-- [2071. Maximum Number of Tasks You Can Assign](../../2001-2500/2071-maximum-number-of-tasks-you-can-assign/)
+- [1661. Average Time of Process per Machine](../../1501-2000/1661-average-time-of-process-per-machine/)
+- [2076. Process Restricted Friend Requests](../../2001-2500/2076-process-restricted-friend-requests/)
+- [3612. Process String with Special Operations I](../../3501-4000/3612-process-string-with-special-operations-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/process-tasks-using-servers/)

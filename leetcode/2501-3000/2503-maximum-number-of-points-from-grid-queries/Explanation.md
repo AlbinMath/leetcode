@@ -138,8 +138,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1828. Queries on Number of Points Inside a Circle](../../1501-2000/1828-queries-on-number-of-points-inside-a-circle/)
-- [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
-- [2554. Maximum Number of Integers to Choose From a Range I](../../2501-3000/2554-maximum-number-of-integers-to-choose-from-a-range-i/)
+- [2658. Maximum Number of Fish in a Grid](../../2501-3000/2658-maximum-number-of-fish-in-a-grid/)
+- [2684. Maximum Number of Moves in a Grid](../../2501-3000/2684-maximum-number-of-moves-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/)

@@ -116,8 +116,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3288. Length of the Longest Increasing Path](../../3001-3500/3288-length-of-the-longest-increasing-path/)
+- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
 - [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
-- [687. Longest Univalue Path](../../0501-1000/0687-longest-univalue-path/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)

@@ -116,7 +116,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1957. Delete Characters to Make Fancy String](../../1501-2000/1957-delete-characters-to-make-fancy-string/)
 - [2486. Append Characters to String to Make Subsequence](../../2001-2500/2486-append-characters-to-string-to-make-subsequence/)
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [3365. Rearrange K Substrings to Form Target String](../../3001-3500/3365-rearrange-k-substrings-to-form-target-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-characters-to-make-target-string/)

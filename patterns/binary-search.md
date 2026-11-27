@@ -52,6 +52,7 @@ A collection of LeetCode problems solved using **Binary Search** pattern techniq
 | 2427 | [Number of Common Factors](../leetcode/2001-2500/2427-number-of-common-factors/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2427-number-of-common-factors/Explanation.md) |
 | 2529 | [Maximum Count of Positive Integer and Negative Integer](../leetcode/2501-3000/2529-maximum-count-of-positive-integer-and-negative-integer/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2529-maximum-count-of-positive-integer-and-negative-integer/Explanation.md) |
 | 3069 | [Distribute Elements Into Two Arrays I](../leetcode/3001-3500/3069-distribute-elements-into-two-arrays-i/) | Go | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3069-distribute-elements-into-two-arrays-i/Explanation.md) |
+| 3074 | [Apple Redistribution into Boxes](../leetcode/3001-3500/3074-apple-redistribution-into-boxes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3074-apple-redistribution-into-boxes/Explanation.md) |
 | 3477 | [Fruits Into Baskets II](../leetcode/3001-3500/3477-fruits-into-baskets-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3477-fruits-into-baskets-ii/Explanation.md) |
 | 3875 | [Construct Uniform Parity Array I](../leetcode/3501-4000/3875-construct-uniform-parity-array-i/) | C++ | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3875-construct-uniform-parity-array-i/Explanation.md) |
 

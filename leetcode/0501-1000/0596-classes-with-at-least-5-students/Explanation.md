@@ -139,8 +139,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [570. Managers with at Least 5 Direct Reports](../../0501-1000/0570-managers-with-at-least-5-direct-reports/)
+- [1018. Binary Prefix Divisible By 5](../../1001-1500/1018-binary-prefix-divisible-by-5/)
 - [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
-- [747. Largest Number At Least Twice of Others](../../0501-1000/0747-largest-number-at-least-twice-of-others/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/classes-with-at-least-5-students/)

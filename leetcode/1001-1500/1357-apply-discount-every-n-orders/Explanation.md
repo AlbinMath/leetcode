@@ -157,9 +157,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2460. Apply Operations to an Array](../../2001-2500/2460-apply-operations-to-an-array/)
-- [2546. Apply Bitwise Operations to Make Strings Equal](../../2501-3000/2546-apply-bitwise-operations-to-make-strings-equal/)
-- [2635. Apply Transform Over Each Element in Array](../../2501-3000/2635-apply-transform-over-each-element-in-array/)
+- [50. Pow(x, n)](../../0001-0500/0050-powx-n/)
+- [51. N-Queens](../../0001-0500/0051-n-queens/)
+- [52. N-Queens II](../../0001-0500/0052-n-queens-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-discount-every-n-orders/)

@@ -120,8 +120,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3405. Count the Number of Arrays with K Matching Adjacent Elements](../../3001-3500/3405-count-the-number-of-arrays-with-k-matching-adjacent-elements/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
-- [204. Count Primes](../../0001-0500/0204-count-primes/)
+- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
+- [44. Wildcard Matching](../../0001-0500/0044-wildcard-matching/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-items-matching-a-rule/)

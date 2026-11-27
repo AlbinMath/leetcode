@@ -121,9 +121,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
-- [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
-- [567. Permutation in String](../../0501-1000/0567-permutation-in-string/)
+- [482. License Key Formatting](../../0001-0500/0482-license-key-formatting/)
+- [981. Time Based Key-Value Store](../../0501-1000/0981-time-based-key-value-store/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/queries-on-a-permutation-with-key/)

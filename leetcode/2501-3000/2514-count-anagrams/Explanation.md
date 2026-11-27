@@ -147,9 +147,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
-- [204. Count Primes](../../0001-0500/0204-count-primes/)
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
+- [49. Group Anagrams](../../0001-0500/0049-group-anagrams/)
+- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [2273. Find Resultant Array After Removing Anagrams](../../2001-2500/2273-find-resultant-array-after-removing-anagrams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-anagrams/)

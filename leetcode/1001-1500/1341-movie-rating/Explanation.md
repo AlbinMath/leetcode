@@ -212,8 +212,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1912. Design Movie Rental System](../../1501-2000/1912-design-movie-rental-system/)
 - [2353. Design a Food Rating System](../../2001-2500/2353-design-a-food-rating-system/)
+- [1912. Design Movie Rental System](../../1501-2000/1912-design-movie-rental-system/)
 - [175. Combine Two Tables](../../0001-0500/0175-combine-two-tables/)
 
 ## LeetCode

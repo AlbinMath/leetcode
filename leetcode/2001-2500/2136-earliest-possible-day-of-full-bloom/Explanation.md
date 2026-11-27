@@ -1,7 +1,7 @@
 # LeetCode 2136: Earliest Possible Day of Full Bloom
 
 **LeetCode Problem #2136 — Earliest Possible Day of Full Bloom**
-Solve LeetCode Earliest Possible Day of Full Bloom using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Earliest Possible Day of Full Bloom using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Earliest Possible Day of Full Bloom using Python and Array / Gene
 | LeetCode | #2136 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You have `n` flower seeds. Every seed must be planted first before it can begin to grow, then bloom. Planting a seed takes time and so does the growth of a seed. You are given two **0-indexed** integer arrays `plantTime` and `growTime`, of length `n` each:
@@ -60,7 +60,7 @@ Thus, on day 9, all the seeds are blooming.
 Thus, on day 2, all the seeds are blooming.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Earliest Possible Day of Full Bloom**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -72,7 +72,7 @@ To solve **Earliest Possible Day of Full Bloom**, we observe the problem require
 
 ## Example Walkthrough
 1. **Input State:** We begin with `plantTime = [1,4,3], growTime = [2,3,1]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `9`.
@@ -85,13 +85,16 @@ Thus, on day 9, all the seeds are blooming.
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -115,7 +118,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -127,9 +130,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
 - [2251. Number of Flowers in Full Bloom](../../2001-2500/2251-number-of-flowers-in-full-bloom/)
-- [1900. The Earliest and Latest Rounds Where Players Compete](../../1501-2000/1900-the-earliest-and-latest-rounds-where-players-compete/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
+- [1154. Day of the Year](../../1001-1500/1154-day-of-the-year/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)

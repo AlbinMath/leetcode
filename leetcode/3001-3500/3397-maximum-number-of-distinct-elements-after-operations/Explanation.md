@@ -1,7 +1,7 @@
 # LeetCode 3397: Maximum Number of Distinct Elements After Operations
 
 **LeetCode Problem #3397 — Maximum Number of Distinct Elements After Operations**
-Solve LeetCode Maximum Number of Distinct Elements After Operations using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Maximum Number of Distinct Elements After Operations using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Maximum Number of Distinct Elements After Operations using JavaSc
 | LeetCode | #3397 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -42,7 +42,7 @@ Return the **maximum** possible number of **distinct** elements in `nums` after 
 - **Explanation:** By adding -1 to `nums[0]` and 1 to `nums[1]`, `nums` changes to `[3, 5, 4, 4]`.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Maximum Number of Distinct Elements After Operations**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -54,7 +54,7 @@ To solve **Maximum Number of Distinct Elements After Operations**, we observe th
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [1,2,2,3,3,4], k = 2`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `6`.
@@ -62,13 +62,14 @@ To solve **Maximum Number of Distinct Elements After Operations**, we observe th
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 JavaScript
@@ -100,7 +101,7 @@ var maxDistinctElements = function(nums, k) {
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -113,7 +114,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
-- [2317. Maximum XOR After Operations ](../../2001-2500/2317-maximum-xor-after-operations/)
+- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
 - [3020. Find the Maximum Number of Elements in Subset](../../3001-3500/3020-find-the-maximum-number-of-elements-in-subset/)
 
 ## LeetCode

@@ -1,7 +1,7 @@
 # LeetCode 3107: Minimum Operations to Make Median of Array Equal to K
 
 **LeetCode Problem #3107 — Minimum Operations to Make Median of Array Equal to K**
-Solve LeetCode Minimum Operations to Make Median of Array Equal to K using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Minimum Operations to Make Median of Array Equal to K using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Minimum Operations to Make Median of Array Equal to K using JavaS
 | LeetCode | #3107 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -45,7 +45,7 @@ The median of an array is defined as the middle element of the array when it is 
 - **Explanation:** The median of the array is already equal to `k`.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Minimum Operations to Make Median of Array Equal to K**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -57,7 +57,7 @@ To solve **Minimum Operations to Make Median of Array Equal to K**, we observe t
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [2,5,6,8,5], k = 4`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `2`.
@@ -65,13 +65,14 @@ To solve **Minimum Operations to Make Median of Array Equal to K**, we observe t
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 JavaScript
@@ -110,7 +111,7 @@ var minOperationsToMakeMedianK = function(nums, k) {
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -123,8 +124,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2997. Minimum Number of Operations to Make Array XOR Equal to K](../../2501-3000/2997-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
+- [1551. Minimum Operations to Make Array Equal](../../1501-2000/1551-minimum-operations-to-make-array-equal/)
 - [2111. Minimum Operations to Make the Array K-Increasing](../../2001-2500/2111-minimum-operations-to-make-the-array-k-increasing/)
-- [2541. Minimum Operations to Make Array Equal II](../../2501-3000/2541-minimum-operations-to-make-array-equal-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/)

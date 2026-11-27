@@ -103,9 +103,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [2350. Shortest Impossible Sequence of Rolls](../../2001-2500/2350-shortest-impossible-sequence-of-rolls/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 - [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
+- [111. Minimum Depth of Binary Tree](../../0001-0500/0111-minimum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-impossible-or/)

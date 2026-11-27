@@ -158,9 +158,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [789. Escape The Ghosts](../../0501-1000/0789-escape-the-ghosts/)
 - [1036. Escape a Large Maze](../../1001-1500/1036-escape-a-large-maze/)
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/escape-the-spreading-fire/)

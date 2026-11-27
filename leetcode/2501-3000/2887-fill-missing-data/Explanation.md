@@ -123,8 +123,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2883. Drop Missing Data](../../2501-3000/2883-drop-missing-data/)
-- [733. Flood Fill](../../0501-1000/0733-flood-fill/)
-- [2335. Minimum Amount of Time to Fill Cups](../../2001-2500/2335-minimum-amount-of-time-to-fill-cups/)
+- [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
+- [268. Missing Number](../../0001-0500/0268-missing-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fill-missing-data/)

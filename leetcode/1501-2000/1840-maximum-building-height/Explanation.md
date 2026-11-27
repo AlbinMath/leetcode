@@ -1,7 +1,7 @@
 # LeetCode 1840: Maximum Building Height
 
 **LeetCode Problem #1840 — Maximum Building Height**
-Solve LeetCode Maximum Building Height using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Maximum Building Height using Python and Stack & Queue. This solution finds the optimal result using Stack Push / Pop Parsing in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Maximum Building Height using Python and Tree & Graph. This solut
 | LeetCode | #1840 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Stack Push / Pop Parsing |
+| Data Structure | Stack |
+| Pattern | Stack & Queue |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -58,7 +58,7 @@ We can build the buildings with heights [0,1,2,3,4,5], and the tallest building 
 We can build the buildings with heights [0,1,2,3,3,4,4,5,4,3], and the tallest building has a height of 5.
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Stack & Queue** with **Stack** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 The code uses **two-pass constraint propagation**.
@@ -72,13 +72,13 @@ The code uses **two-pass constraint propagation**.
 Time complexity is $O(M \log M)$ where $M$ is the number of restrictions, and space complexity is $O(M)$.
 
 ## Algorithm
-1. Initialize state variables / data structure (**Tree / Graph / Grid**).
-2. Process elements sequentially using **Depth-First Search (DFS) / Breadth-First Search (BFS)**.
+1. Initialize state variables / data structure (**Stack**).
+2. Process elements sequentially using **Stack Push / Pop Parsing**.
 3. Validate boundary conditions and return optimal result.
 
 ## Example Walkthrough
 1. **Input State:** We begin with `n = 5, restrictions = [[2,1],[4,1]]`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Stack Push / Pop Parsing** using our **Stack**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `2`.
@@ -87,16 +87,14 @@ We can build the buildings with heights [0,1,2,1,2], and the tallest building ha
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Stack.
 
 ## Pattern
-**Tree & Graph**
+**Stack & Queue**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Stack
+- String Parsing
 
 ## Language
 Python
@@ -171,7 +169,7 @@ class Solution(object):
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Stack & Queue**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -185,7 +183,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1691. Maximum Height by Stacking Cuboids ](../../1501-2000/1691-maximum-height-by-stacking-cuboids/)
 - [3200. Maximum Height of a Triangle](../../3001-3500/3200-maximum-height-of-a-triangle/)
-- [1117. Building H2O](../../1001-1500/1117-building-h2o/)
+- [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-building-height/)

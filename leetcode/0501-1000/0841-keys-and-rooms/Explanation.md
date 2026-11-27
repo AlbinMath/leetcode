@@ -123,8 +123,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1916. Count Ways to Build Rooms in an Ant Colony](../../1501-2000/1916-count-ways-to-build-rooms-in-an-ant-colony/)
+- [1997. First Day Where You Have Been in All the Rooms](../../1501-2000/1997-first-day-where-you-have-been-in-all-the-rooms/)
 - [2402. Meeting Rooms III](../../2001-2500/2402-meeting-rooms-iii/)
-- [864. Shortest Path to Get All Keys](../../0501-1000/0864-shortest-path-to-get-all-keys/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/keys-and-rooms/)

@@ -141,9 +141,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
-- [659. Split Array into Consecutive Subsequences](../../0501-1000/0659-split-array-into-consecutive-subsequences/)
-- [805. Split Array With Same Average](../../0501-1000/0805-split-array-with-same-average/)
+- [945. Minimum Increment to Make Array Unique](../../0501-1000/0945-minimum-increment-to-make-array-unique/)
+- [1144. Decrease Elements To Make Array Zigzag](../../1001-1500/1144-decrease-elements-to-make-array-zigzag/)
+- [1187. Make Array Strictly Increasing](../../1001-1500/1187-make-array-strictly-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)

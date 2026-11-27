@@ -134,9 +134,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3497. Analyze Subscription Conversion ](../../3001-3500/3497-analyze-subscription-conversion/)
+- [3528. Unit Conversion I](../../3501-4000/3528-unit-conversion-i/)
 - [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
-- [1104. Path In Zigzag Labelled Binary Tree](../../1001-1500/1104-path-in-zigzag-labelled-binary-tree/)
-- [1144. Decrease Elements To Make Array Zigzag](../../1001-1500/1144-decrease-elements-to-make-array-zigzag/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/zigzag-conversion/)

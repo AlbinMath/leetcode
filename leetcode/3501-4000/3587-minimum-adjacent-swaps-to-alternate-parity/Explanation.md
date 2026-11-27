@@ -1,7 +1,7 @@
 # LeetCode 3587: Minimum Adjacent Swaps to Alternate Parity
 
 **LeetCode Problem #3587 — Minimum Adjacent Swaps to Alternate Parity**
-Solve LeetCode Minimum Adjacent Swaps to Alternate Parity using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Minimum Adjacent Swaps to Alternate Parity using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Minimum Adjacent Swaps to Alternate Parity using JavaScript and A
 | LeetCode | #3587 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Mathematical Simulation & Modular Arithmetic |
+| Data Structure | Primitive Types |
+| Pattern | Math & Logic |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -58,7 +58,7 @@ If it is impossible to rearrange `nums` such that no two adjacent elements have 
 - **Explanation:** No valid arrangement is possible. Thus, the answer is -1.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Minimum Adjacent Swaps to Alternate Parity**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -70,7 +70,7 @@ To solve **Minimum Adjacent Swaps to Alternate Parity**, we observe the problem 
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [2,4,6,5,7]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `3`.
@@ -82,13 +82,14 @@ To solve **Minimum Adjacent Swaps to Alternate Parity**, we observe the problem 
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
 
 ## Pattern
-**Array / General**
+**Math & Logic**
 
 ## Topics
-- Array
+- Math
+- Simulation
 
 ## Language
 JavaScript
@@ -134,7 +135,7 @@ var minSwaps = function(nums) {
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

@@ -131,7 +131,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [151. Reverse Words in a String](../../0001-0500/0151-reverse-words-in-a-string/)
 - [557. Reverse Words in a String III](../../0501-1000/0557-reverse-words-in-a-string-iii/)
-- [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
+- [2085. Count Common Words With One Occurrence](../../2001-2500/2085-count-common-words-with-one-occurrence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-words-with-same-vowel-count/)

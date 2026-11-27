@@ -100,8 +100,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1502. Can Make Arithmetic Progression From Sequence](../../1501-2000/1502-can-make-arithmetic-progression-from-sequence/)
-- [2930. Number of Strings Which Can Be Rearranged to Contain Substring](../../2501-3000/2930-number-of-strings-which-can-be-rearranged-to-contain-substring/)
-- [3503. Longest Palindrome After Substring Concatenation I](../../3501-4000/3503-longest-palindrome-after-substring-concatenation-i/)
+- [1312. Minimum Insertion Steps to Make a String Palindrome](../../1001-1500/1312-minimum-insertion-steps-to-make-a-string-palindrome/)
+- [1616. Split Two Strings to Make Palindrome](../../1501-2000/1616-split-two-strings-to-make-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/can-make-palindrome-from-substring/)

@@ -136,9 +136,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [3397. Maximum Number of Distinct Elements After Operations](../../3001-3500/3397-maximum-number-of-distinct-elements-after-operations/)
 - [3732. Maximum Product of Three Elements After One Replacement](../../3501-4000/3732-maximum-product-of-three-elements-after-one-replacement/)
 - [4058. Maximum Pulse Value After One Subarray Rotation](../../4001-4500/4058-maximum-pulse-value-after-one-subarray-rotation/)
+- [4066. Maximum Equal Adjacent Pairs After at Most One Replacement](../../4001-4500/4066-maximum-equal-adjacent-pairs-after-at-most-one-replacement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting/)

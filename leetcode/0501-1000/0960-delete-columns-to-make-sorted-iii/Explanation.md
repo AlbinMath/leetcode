@@ -119,7 +119,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [944. Delete Columns to Make Sorted](../../0501-1000/0944-delete-columns-to-make-sorted/)
 - [955. Delete Columns to Make Sorted II](../../0501-1000/0955-delete-columns-to-make-sorted-ii/)
-- [3402. Minimum Operations to Make Columns Strictly Increasing](../../3001-3500/3402-minimum-operations-to-make-columns-strictly-increasing/)
+- [1957. Delete Characters to Make Fancy String](../../1501-2000/1957-delete-characters-to-make-fancy-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/)

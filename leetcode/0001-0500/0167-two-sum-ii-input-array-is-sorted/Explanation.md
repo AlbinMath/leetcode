@@ -124,8 +124,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1685. Sum of Absolute Differences in a Sorted Array](../../1501-2000/1685-sum-of-absolute-differences-in-a-sorted-array/)
-- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
 - [653. Two Sum IV - Input is a BST](../../0501-1000/0653-two-sum-iv-input-is-a-bst/)
+- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)

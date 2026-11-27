@@ -123,8 +123,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3011. Find if Array Can Be Sorted](../../3001-3500/3011-find-if-array-can-be-sorted/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
+- [768. Max Chunks To Make Sorted II](../../0501-1000/0768-max-chunks-to-make-sorted-ii/)
+- [769. Max Chunks To Make Sorted](../../0501-1000/0769-max-chunks-to-make-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)

@@ -114,9 +114,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1707. Maximum XOR With an Element From Array](../../1501-2000/1707-maximum-xor-with-an-element-from-array/)
-- [1846. Maximum Element After Decreasing and Rearranging](../../1501-2000/1846-maximum-element-after-decreasing-and-rearranging/)
-- [2913. Subarrays Distinct Element Sum of Squares I](../../2501-3000/2913-subarrays-distinct-element-sum-of-squares-i/)
+- [2576. Find the Maximum Number of Marked Indices](../../2501-3000/2576-find-the-maximum-number-of-marked-indices/)
+- [2859. Sum of Values at Indices With K Set Bits](../../2501-3000/2859-sum-of-values-at-indices-with-k-set-bits/)
+- [3952. Maximum Total Value of Covered Indices](../../3501-4000/3952-maximum-total-value-of-covered-indices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-element-sum-of-a-complete-subset-of-indices/)

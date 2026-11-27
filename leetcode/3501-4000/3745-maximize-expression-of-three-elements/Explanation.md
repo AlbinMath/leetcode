@@ -99,9 +99,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3732. Maximum Product of Three Elements After One Replacement](../../3501-4000/3732-maximum-product-of-three-elements-after-one-replacement/)
 - [2934. Minimum Operations to Maximize Last Elements in Arrays](../../2501-3000/2934-minimum-operations-to-maximize-last-elements-in-arrays/)
 - [3041. Maximize Consecutive Elements in an Array After Modification](../../3001-3500/3041-maximize-consecutive-elements-in-an-array-after-modification/)
-- [3684. Maximize Sum of At Most K Distinct Elements](../../3501-4000/3684-maximize-sum-of-at-most-k-distinct-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-expression-of-three-elements/)

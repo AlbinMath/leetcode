@@ -98,9 +98,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1089. Duplicate Zeros](../../1001-1500/1089-duplicate-zeros/)
-- [1869. Longer Contiguous Segments of Ones than Zeros](../../1501-2000/1869-longer-contiguous-segments-of-ones-than-zeros/)
-- [2181. Merge Nodes in Between Zeros](../../2001-2500/2181-merge-nodes-in-between-zeros/)
+- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
+- [1238. Circular Permutation in Binary Representation](../../1001-1500/1238-circular-permutation-in-binary-representation/)
+- [1404. Number of Steps to Reduce a Number in Binary Representation to One](../../1001-1500/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-zeros-in-decimal-representation/)

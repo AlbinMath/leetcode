@@ -100,9 +100,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1911. Maximum Alternating Subsequence Sum](../../1501-2000/1911-maximum-alternating-subsequence-sum/)
 - [3695. Maximize Alternating Sum Using Swaps](../../3501-4000/3695-maximize-alternating-sum-using-swaps/)
 - [3727. Maximum Alternating Sum of Squares](../../3501-4000/3727-maximum-alternating-sum-of-squares/)
-- [693. Binary Number with Alternating Bits](../../0501-1000/0693-binary-number-with-alternating-bits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/compute-alternating-sum/)

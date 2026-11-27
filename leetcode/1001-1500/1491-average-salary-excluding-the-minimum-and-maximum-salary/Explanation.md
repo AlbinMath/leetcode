@@ -101,7 +101,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [643. Maximum Average Subarray I](../../0501-1000/0643-maximum-average-subarray-i/)
 - [1792. Maximum Average Pass Ratio](../../1501-2000/1792-maximum-average-pass-ratio/)
-- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2256. Minimum Average Difference](../../2001-2500/2256-minimum-average-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)

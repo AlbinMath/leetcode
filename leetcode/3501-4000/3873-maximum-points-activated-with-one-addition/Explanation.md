@@ -186,9 +186,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
-- [1610. Maximum Number of Visible Points](../../1501-2000/1610-maximum-number-of-visible-points/)
-- [1937. Maximum Number of Points with Cost](../../1501-2000/1937-maximum-number-of-points-with-cost/)
+- [1186. Maximum Subarray Sum with One Deletion](../../1001-1500/1186-maximum-subarray-sum-with-one-deletion/)
+- [3628. Maximum Number of Subsequences After One Inserting](../../3501-4000/3628-maximum-number-of-subsequences-after-one-inserting/)
+- [3732. Maximum Product of Three Elements After One Replacement](../../3501-4000/3732-maximum-product-of-three-elements-after-one-replacement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-points-activated-with-one-addition/)

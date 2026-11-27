@@ -121,8 +121,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [114. Flatten Binary Tree to Linked List](../../0001-0500/0114-flatten-binary-tree-to-linked-list/)
-- [341. Flatten Nested List Iterator](../../0001-0500/0341-flatten-nested-list-iterator/)
 - [92. Reverse Linked List II](../../0001-0500/0092-reverse-linked-list-ii/)
+- [141. Linked List Cycle](../../0001-0500/0141-linked-list-cycle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)

@@ -105,9 +105,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [915. Partition Array into Disjoint Intervals](../../0501-1000/0915-partition-array-into-disjoint-intervals/)
 - [1013. Partition Array Into Three Parts With Equal Sum](../../1001-1500/1013-partition-array-into-three-parts-with-equal-sum/)
-- [2025. Maximum Number of Ways to Partition an Array](../../2001-2500/2025-maximum-number-of-ways-to-partition-an-array/)
-- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
+- [1043. Partition Array for Maximum Sum](../../1001-1500/1043-partition-array-for-maximum-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/array-partition/)

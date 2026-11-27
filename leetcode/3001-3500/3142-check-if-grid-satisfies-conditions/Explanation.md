@@ -101,8 +101,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1391. Check if There is a Valid Path in a Grid](../../1001-1500/1391-check-if-there-is-a-valid-path-in-a-grid/)
+- [3394. Check if Grid can be Cut into Sections](../../3001-3500/3394-check-if-grid-can-be-cut-into-sections/)
 - [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1003-check-if-word-is-valid-after-substitutions/)
-- [1232. Check If It Is a Straight Line](../../1001-1500/1232-check-if-it-is-a-straight-line/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-grid-satisfies-conditions/)

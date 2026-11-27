@@ -124,9 +124,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [833. Find And Replace in String](../../0501-1000/0833-find-and-replace-in-string/)
-- [890. Find and Replace Pattern](../../0501-1000/0890-find-and-replace-pattern/)
 - [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1160-find-words-that-can-be-formed-by-characters/)
+- [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../../1001-1500/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
+- [1606. Find Servers That Handled Most Number of Requests](../../1501-2000/1606-find-servers-that-handled-most-number-of-requests/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/)

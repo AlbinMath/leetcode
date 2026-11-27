@@ -123,7 +123,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [221. Maximal Square](../../0001-0500/0221-maximal-square/)
 - [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
-- [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
+- [593. Valid Square](../../0501-1000/0593-valid-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/matchsticks-to-square/)

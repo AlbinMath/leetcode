@@ -108,9 +108,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [100. Same Tree](../../0001-0500/0100-same-tree/)
-- [805. Split Array With Same Average](../../0501-1000/0805-split-array-with-same-average/)
-- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
+- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
+- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
+- [318. Maximum Product of Word Lengths](../../0001-0500/0318-maximum-product-of-word-lengths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tuple-with-same-product/)

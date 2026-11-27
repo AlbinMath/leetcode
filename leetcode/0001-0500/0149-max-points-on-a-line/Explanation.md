@@ -113,9 +113,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [195. Tenth Line](../../0001-0500/0195-tenth-line/)
-- [1232. Check If It Is a Straight Line](../../1001-1500/1232-check-if-it-is-a-straight-line/)
-- [1621. Number of Sets of K Non-Overlapping Line Segments](../../1501-2000/1621-number-of-sets-of-k-non-overlapping-line-segments/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
+- [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
+- [695. Max Area of Island](../../0501-1000/0695-max-area-of-island/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-points-on-a-line/)

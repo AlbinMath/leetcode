@@ -143,9 +143,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [945. Minimum Increment to Make Array Unique](../../0501-1000/0945-minimum-increment-to-make-array-unique/)
-- [2536. Increment Submatrices by One](../../2501-3000/2536-increment-submatrices-by-one/)
-- [3806. Maximum Bitwise AND After Increment Operations](../../3501-4000/3806-maximum-bitwise-and-after-increment-operations/)
+- [155. Min Stack](../../0001-0500/0155-min-stack/)
+- [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
+- [895. Maximum Frequency Stack](../../0501-1000/0895-maximum-frequency-stack/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-a-stack-with-increment-operation/)

@@ -128,9 +128,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1851. Minimum Interval to Include Each Query](../../1501-2000/1851-minimum-interval-to-include-each-query/)
-- [2070. Most Beautiful Item for Each Query](../../2001-2500/2070-most-beautiful-item-for-each-query/)
 - [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1707. Maximum XOR With an Element From Array](../../1501-2000/1707-maximum-xor-with-an-element-from-array/)
+- [2317. Maximum XOR After Operations ](../../2001-2500/2317-maximum-xor-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-xor-for-each-query/)

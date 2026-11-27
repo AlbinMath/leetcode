@@ -195,9 +195,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2565. Subsequence With the Minimum Score](../../2501-3000/2565-subsequence-with-the-minimum-score/)
-- [2813. Maximum Elegance of a K-Length Subsequence](../../2501-3000/2813-maximum-elegance-of-a-k-length-subsequence/)
-- [2926. Maximum Balanced Subsequence Sum](../../2501-3000/2926-maximum-balanced-subsequence-sum/)
+- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1255-maximum-score-words-formed-by-letters/)
+- [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
+- [1537. Get the Maximum Score](../../1501-2000/1537-get-the-maximum-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subsequence-score/)

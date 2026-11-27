@@ -133,9 +133,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [890. Find and Replace Pattern](../../0501-1000/0890-find-and-replace-pattern/)
 - [1234. Replace the Substring for Balanced String](../../1001-1500/1234-replace-the-substring-for-balanced-string/)
+- [1894. Find the Student that Will Replace the Chalk](../../1501-2000/1894-find-the-student-that-will-replace-the-chalk/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-and-replace-in-string/)

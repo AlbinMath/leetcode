@@ -126,9 +126,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
-- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
-- [378. Kth Smallest Element in a Sorted Matrix](../../0001-0500/0378-kth-smallest-element-in-a-sorted-matrix/)
+- [50. Pow(x, n)](../../0001-0500/0050-powx-n/)
+- [51. N-Queens](../../0001-0500/0051-n-queens/)
+- [52. N-Queens II](../../0001-0500/0052-n-queens-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-kth-factor-of-n/)

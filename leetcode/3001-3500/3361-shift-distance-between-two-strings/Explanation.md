@@ -135,7 +135,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1385-find-the-distance-value-between-two-arrays/)
 - [783. Minimum Distance Between BST Nodes](../../0501-1000/0783-minimum-distance-between-bst-nodes/)
-- [1360. Number of Days Between Two Dates](../../1001-1500/1360-number-of-days-between-two-dates/)
+- [1184. Distance Between Bus Stops](../../1001-1500/1184-distance-between-bus-stops/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shift-distance-between-two-strings/)

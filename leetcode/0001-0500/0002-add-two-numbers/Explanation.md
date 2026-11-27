@@ -165,8 +165,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [445. Add Two Numbers II](../../0001-0500/0445-add-two-numbers-ii/)
-- [2723. Add Two Promises](../../2501-3000/2723-add-two-promises/)
 - [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1073. Adding Two Negabinary Numbers](../../1001-1500/1073-adding-two-negabinary-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-two-numbers/)

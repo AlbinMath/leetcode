@@ -139,7 +139,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1840. Maximum Building Height](../../1501-2000/1840-maximum-building-height/)
 - [3200. Maximum Height of a Triangle](../../3001-3500/3200-maximum-height-of-a-triangle/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)

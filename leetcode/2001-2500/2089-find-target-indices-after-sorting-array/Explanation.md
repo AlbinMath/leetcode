@@ -106,9 +106,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2273. Find Resultant Array After Removing Anagrams](../../2001-2500/2273-find-resultant-array-after-removing-anagrams/)
-- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
 - [3006. Find Beautiful Indices in the Given Array I](../../3001-3500/3006-find-beautiful-indices-in-the-given-array-i/)
+- [3008. Find Beautiful Indices in the Given Array II](../../3001-3500/3008-find-beautiful-indices-in-the-given-array-ii/)
+- [2273. Find Resultant Array After Removing Anagrams](../../2001-2500/2273-find-resultant-array-after-removing-anagrams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-target-indices-after-sorting-array/)

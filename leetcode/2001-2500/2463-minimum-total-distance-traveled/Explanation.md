@@ -1,7 +1,7 @@
 # LeetCode 2463: Minimum Total Distance Traveled
 
 **LeetCode Problem #2463 — Minimum Total Distance Traveled**
-Solve LeetCode Minimum Total Distance Traveled using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Minimum Total Distance Traveled using JavaScript and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Minimum Total Distance Traveled using JavaScript and Array / Gene
 | LeetCode | #2463 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Memoization & State Transition |
+| Data Structure | DP Table / Array |
+| Pattern | Dynamic Programming |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 There are some robots and factories on the X-axis. You are given an integer array `robot` where `robot[i]` is the position of the `i^th` robot. You are also given a 2D integer array `factory` where `factory[j] = [position_j, limit_j]` indicates that `position_j` is the position of the `j^th` factory and that the `j^th` factory can repair at most `limit_j` robots.
@@ -65,7 +65,7 @@ The limit of the second factory is 1, and it fixed 1 robot.
 The total distance is |2 - 1| + |(-2) - (-1)| = 2. It can be shown that we cannot achieve a better total distance than 2.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
 
 ## Approach
 To solve **Minimum Total Distance Traveled**, we observe the problem requirements and utilize the **Array / General** technique. We decompose the problem into overlapping subproblems using a **Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
@@ -78,7 +78,7 @@ To solve **Minimum Total Distance Traveled**, we observe the problem requirement
 
 ## Example Walkthrough
 1. **Input State:** We begin with `robot = [0,4,6], factory = [[2,2],[6,2]]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `4`.
@@ -92,13 +92,15 @@ The total distance is |2 - 0| + |2 - 4| + |6 - 6| = 4. It can be shown that we c
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
 
 ## Pattern
-**Array / General**
+**Dynamic Programming**
 
 ## Topics
-- Array
+- Dynamic Programming
+- Memoization
+- State Transition
 
 ## Language
 JavaScript
@@ -145,16 +147,16 @@ var minimumTotalDistance = function(robot, factory) {
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Incorrect base case initialization.
+2. Flawed state transition equation.
+3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
+- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
 - [2739. Total Distance Traveled](../../2501-3000/2739-total-distance-traveled/)

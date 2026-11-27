@@ -171,8 +171,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [857. Minimum Cost to Hire K Workers](../../0501-1000/0857-minimum-cost-to-hire-k-workers/)
+- [983. Minimum Cost For Tickets](../../0501-1000/0983-minimum-cost-for-tickets/)
 - [1000. Minimum Cost to Merge Stones](../../0501-1000/1000-minimum-cost-to-merge-stones/)
-- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1130-minimum-cost-tree-from-leaf-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)

@@ -157,8 +157,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3332. Maximum Points Tourist Can Earn](../../3001-3500/3332-maximum-points-tourist-can-earn/)
-- [2591. Distribute Money to Maximum Children](../../2501-3000/2591-distribute-money-to-maximum-children/)
 - [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
+- [1353. Maximum Number of Events That Can Be Attended](../../1001-1500/1353-maximum-number-of-events-that-can-be-attended/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/)

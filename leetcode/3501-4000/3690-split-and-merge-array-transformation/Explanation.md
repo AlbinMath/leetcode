@@ -122,9 +122,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [88. Merge Sorted Array](../../0001-0500/0088-merge-sorted-array/)
-- [2789. Largest Element in an Array after Merge Operations](../../2501-3000/2789-largest-element-in-an-array-after-merge-operations/)
-- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [2626. Array Reduce Transformation](../../2501-3000/2626-array-reduce-transformation/)
+- [3355. Zero Array Transformation I](../../3001-3500/3355-zero-array-transformation-i/)
+- [3356. Zero Array Transformation II](../../3001-3500/3356-zero-array-transformation-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-and-merge-array-transformation/)

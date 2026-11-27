@@ -226,9 +226,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3517. Smallest Palindromic Rearrangement I](../../3501-4000/3517-smallest-palindromic-rearrangement-i/)
-- [3518. Smallest Palindromic Rearrangement II](../../3501-4000/3518-smallest-palindromic-rearrangement-ii/)
-- [3849. Maximum Bitwise XOR After Rearrangement](../../3501-4000/3849-maximum-bitwise-xor-after-rearrangement/)
+- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
+- [1211. Queries Quality and Percentage](../../1001-1500/1211-queries-quality-and-percentage/)
+- [1310. XOR Queries of a Subarray](../../1001-1500/1310-xor-queries-of-a-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-rearrangement-queries/)

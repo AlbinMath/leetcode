@@ -131,9 +131,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2858. Minimum Edge Reversals So Every Node Is Reachable](../../2501-3000/2858-minimum-edge-reversals-so-every-node-is-reachable/)
-- [2242. Maximum Score of a Node Sequence](../../2001-2500/2242-maximum-score-of-a-node-sequence/)
 - [798. Smallest Rotation with Highest Score](../../0501-1000/0798-smallest-rotation-with-highest-score/)
+- [2049. Count Nodes With the Highest Score](../../2001-2500/2049-count-nodes-with-the-highest-score/)
+- [2242. Maximum Score of a Node Sequence](../../2001-2500/2242-maximum-score-of-a-node-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/node-with-highest-edge-score/)

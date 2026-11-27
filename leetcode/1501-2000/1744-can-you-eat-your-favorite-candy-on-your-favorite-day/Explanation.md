@@ -138,8 +138,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [1970. Last Day Where You Can Still Cross](../../1501-2000/1970-last-day-where-you-can-still-cross/)
+- [1997. First Day Where You Have Been in All the Rooms](../../1501-2000/1997-first-day-where-you-have-been-in-all-the-rooms/)
 - [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
-- [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)

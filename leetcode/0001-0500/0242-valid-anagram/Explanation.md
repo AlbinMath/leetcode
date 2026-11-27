@@ -114,9 +114,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
-- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
-- [36. Valid Sudoku](../../0001-0500/0036-valid-sudoku/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1347-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [2186. Minimum Number of Steps to Make Two Strings Anagram II](../../2001-2500/2186-minimum-number-of-steps-to-make-two-strings-anagram-ii/)
+- [3138. Minimum Length of Anagram Concatenation](../../3001-3500/3138-minimum-length-of-anagram-concatenation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-anagram/)

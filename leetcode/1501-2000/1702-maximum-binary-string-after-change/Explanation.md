@@ -121,9 +121,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3781. Maximum Score After Binary Swaps](../../3501-4000/3781-maximum-score-after-binary-swaps/)
 - [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [3781. Maximum Score After Binary Swaps](../../3501-4000/3781-maximum-score-after-binary-swaps/)
+- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-binary-string-after-change/)

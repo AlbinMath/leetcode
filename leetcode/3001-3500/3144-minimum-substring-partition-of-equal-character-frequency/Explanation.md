@@ -118,8 +118,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3389. Minimum Operations to Make Character Frequencies Equal](../../3001-3500/3389-minimum-operations-to-make-character-frequencies-equal/)
-- [1156. Swap For Longest Repeated Character Substring](../../1001-1500/1156-swap-for-longest-repeated-character-substring/)
 - [1170. Compare Strings by Frequency of the Smallest Character](../../1001-1500/1170-compare-strings-by-frequency-of-the-smallest-character/)
+- [1224. Maximum Equal Frequency](../../1001-1500/1224-maximum-equal-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)

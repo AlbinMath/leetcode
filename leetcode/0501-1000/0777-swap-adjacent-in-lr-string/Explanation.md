@@ -129,9 +129,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1790. Check if One String Swap Can Make Strings Equal](../../1501-2000/1790-check-if-one-string-swap-can-make-strings-equal/)
+- [3216. Lexicographically Smallest String After a Swap](../../3001-3500/3216-lexicographically-smallest-string-after-a-swap/)
 - [1047. Remove All Adjacent Duplicates In String](../../1001-1500/1047-remove-all-adjacent-duplicates-in-string/)
-- [1209. Remove All Adjacent Duplicates in String II](../../1001-1500/1209-remove-all-adjacent-duplicates-in-string-ii/)
-- [3438. Find Valid Pair of Adjacent Digits in String](../../3001-3500/3438-find-valid-pair-of-adjacent-digits-in-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-adjacent-in-lr-string/)

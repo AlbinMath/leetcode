@@ -147,8 +147,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3653. XOR After Range Multiplication Queries I](../../3501-4000/3653-xor-after-range-multiplication-queries-i/)
-- [3264. Final Array State After K Multiplication Operations I](../../3001-3500/3264-final-array-state-after-k-multiplication-operations-i/)
-- [3266. Final Array State After K Multiplication Operations II](../../3001-3500/3266-final-array-state-after-k-multiplication-operations-ii/)
+- [1310. XOR Queries of a Subarray](../../1001-1500/1310-xor-queries-of-a-subarray/)
+- [1803. Count Pairs With XOR in a Range](../../1501-2000/1803-count-pairs-with-xor-in-a-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/)

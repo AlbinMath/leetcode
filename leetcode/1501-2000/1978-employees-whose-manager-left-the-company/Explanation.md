@@ -137,9 +137,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
-- [2516. Take K of Each Character From Left and Right](../../2501-3000/2516-take-k-of-each-character-from-left-and-right/)
+- [181. Employees Earning More Than Their Managers](../../0001-0500/0181-employees-earning-more-than-their-managers/)
+- [627. Swap Sex of Employees](../../0501-1000/0627-swap-sex-of-employees/)
+- [1075. Project Employees I](../../1001-1500/1075-project-employees-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-whose-manager-left-the-company/)

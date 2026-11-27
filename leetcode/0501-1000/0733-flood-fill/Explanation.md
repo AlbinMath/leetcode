@@ -133,8 +133,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3905. Multi Source Flood Fill](../../3501-4000/3905-multi-source-flood-fill/)
+- [1488. Avoid Flood in The City](../../1001-1500/1488-avoid-flood-in-the-city/)
 - [2335. Minimum Amount of Time to Fill Cups](../../2001-2500/2335-minimum-amount-of-time-to-fill-cups/)
-- [2887. Fill Missing Data](../../2501-3000/2887-fill-missing-data/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flood-fill/)

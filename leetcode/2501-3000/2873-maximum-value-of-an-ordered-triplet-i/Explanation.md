@@ -116,8 +116,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2874. Maximum Value of an Ordered Triplet II](../../2501-3000/2874-maximum-value-of-an-ordered-triplet-ii/)
+- [1131. Maximum of Absolute Value Expression](../../1001-1500/1131-maximum-of-absolute-value-expression/)
 - [1695. Maximum Erasure Value](../../1501-2000/1695-maximum-erasure-value/)
-- [1802. Maximum Value at a Given Index in a Bounded Array](../../1501-2000/1802-maximum-value-at-a-given-index-in-a-bounded-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/)

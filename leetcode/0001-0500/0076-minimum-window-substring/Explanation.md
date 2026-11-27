@@ -235,8 +235,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3144. Minimum Substring Partition of Equal Character Frequency](../../3001-3500/3144-minimum-substring-partition-of-equal-character-frequency/)
-- [239. Sliding Window Maximum](../../0001-0500/0239-sliding-window-maximum/)
-- [480. Sliding Window Median](../../0001-0500/0480-sliding-window-median/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-window-substring/)

@@ -96,7 +96,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [3432. Count Partitions with Even Sum Difference](../../3001-3500/3432-count-partitions-with-even-sum-difference/)
 - [3910. Count Connected Subgraphs with Even Node Sum](../../3501-4000/3910-count-connected-subgraphs-with-even-node-sum/)
-- [2094. Finding 3-Digit Even Numbers](../../2001-2500/2094-finding-3-digit-even-numbers/)
+- [327. Count of Range Sum](../../0001-0500/0327-count-of-range-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-integers-with-even-digit-sum/)

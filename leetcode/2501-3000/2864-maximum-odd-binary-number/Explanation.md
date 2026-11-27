@@ -108,8 +108,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3309. Maximum Possible Number by Binary Concatenation](../../3001-3500/3309-maximum-possible-number-by-binary-concatenation/)
-- [1524. Number of Sub-arrays With Odd Sum](../../1501-2000/1524-number-of-sub-arrays-with-odd-sum/)
-- [1903. Largest Odd Number in String](../../1501-2000/1903-largest-odd-number-in-string/)
+- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-odd-binary-number/)

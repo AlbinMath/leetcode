@@ -109,9 +109,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2580. Count Ways to Group Overlapping Ranges](../../2501-3000/2580-count-ways-to-group-overlapping-ranges/)
 - [2284. Sender With Largest Word Count](../../2001-2500/2284-sender-with-largest-word-count/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
-- [204. Count Primes](../../0001-0500/0204-count-primes/)
+- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-largest-group/)

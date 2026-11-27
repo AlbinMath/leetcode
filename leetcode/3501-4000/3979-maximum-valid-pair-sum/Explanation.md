@@ -132,8 +132,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1877. Minimize Maximum Pair Sum in Array](../../1501-2000/1877-minimize-maximum-pair-sum-in-array/)
-- [646. Maximum Length of Pair Chain](../../0501-1000/0646-maximum-length-of-pair-chain/)
-- [1855. Maximum Distance Between a Pair of Values](../../1501-2000/1855-maximum-distance-between-a-pair-of-values/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [3438. Find Valid Pair of Adjacent Digits in String](../../3001-3500/3438-find-valid-pair-of-adjacent-digits-in-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-valid-pair-sum/)

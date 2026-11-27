@@ -1,7 +1,7 @@
 # LeetCode 3781: Maximum Score After Binary Swaps
 
 **LeetCode Problem #3781 — Maximum Score After Binary Swaps**
-Solve LeetCode Maximum Score After Binary Swaps using JavaScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Maximum Score After Binary Swaps using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Maximum Score After Binary Swaps using JavaScript and Bit Manipul
 | LeetCode | #3781 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -50,7 +50,7 @@ Return an integer denoting the **maximum possible score** you can achieve.
 - **Explanation:** There are no `'1'` characters in `s`, so no swaps can be performed. The score remains 0.
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Maximum Score After Binary Swaps**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -63,7 +63,7 @@ To solve **Maximum Score After Binary Swaps**, we observe the problem requiremen
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [2,1,5,2,3], s = "01010"`.
-2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `7`.
@@ -78,14 +78,15 @@ To solve **Maximum Score After Binary Swaps**, we observe the problem requiremen
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Bit Manipulation**
+**Two Pointers**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 JavaScript
@@ -159,21 +160,21 @@ var maximumScore = function(nums, s) {
 ```
 
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3962. Maximum Subarray Sum After at Most K Swaps](../../3501-4000/3962-maximum-subarray-sum-after-at-most-k-swaps/)
-- [1702. Maximum Binary String After Change](../../1501-2000/1702-maximum-binary-string-after-change/)
 - [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
+- [1702. Maximum Binary String After Change](../../1501-2000/1702-maximum-binary-string-after-change/)
+- [3962. Maximum Subarray Sum After at Most K Swaps](../../3501-4000/3962-maximum-subarray-sum-after-at-most-k-swaps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-after-binary-swaps/)

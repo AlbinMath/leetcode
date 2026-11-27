@@ -135,8 +135,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2231. Largest Number After Digit Swaps by Parity](../../2001-2500/2231-largest-number-after-digit-swaps-by-parity/)
-- [179. Largest Number](../../0001-0500/0179-largest-number/)
-- [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
+- [1297. Maximum Number of Occurrences of a Substring](../../1001-1500/1297-maximum-number-of-occurrences-of-a-substring/)
+- [1456. Maximum Number of Vowels in a Substring of Given Length](../../1001-1500/1456-maximum-number-of-vowels-in-a-substring-of-given-length/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-number-after-mutating-substring/)

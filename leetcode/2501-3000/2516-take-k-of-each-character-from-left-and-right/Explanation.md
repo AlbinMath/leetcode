@@ -126,7 +126,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
 - [117. Populating Next Right Pointers in Each Node II](../../0001-0500/0117-populating-next-right-pointers-in-each-node-ii/)
-- [2574. Left and Right Sum Differences](../../2501-3000/2574-left-and-right-sum-differences/)
+- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)

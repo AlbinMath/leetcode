@@ -105,9 +105,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1608. Special Array With X Elements Greater Than or Equal X](../../1501-2000/1608-special-array-with-x-elements-greater-than-or-equal-x/)
 - [1748. Sum of Unique Elements](../../1501-2000/1748-sum-of-unique-elements/)
 - [1785. Minimum Elements to Add to Form a Given Sum](../../1501-2000/1785-minimum-elements-to-add-to-form-a-given-sum/)
+- [2656. Maximum Sum With Exactly K Elements ](../../2501-3000/2656-maximum-sum-with-exactly-k-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-squares-of-special-elements/)

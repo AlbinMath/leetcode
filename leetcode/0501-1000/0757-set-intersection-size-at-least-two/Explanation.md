@@ -1,7 +1,7 @@
 # LeetCode 757: Set Intersection Size At Least Two
 
 **LeetCode Problem #757 — Set Intersection Size At Least Two**
-Solve LeetCode Set Intersection Size At Least Two using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Set Intersection Size At Least Two using Python and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Set Intersection Size At Least Two using Python and Array / Gener
 | LeetCode | #757 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Pointer Traversal & Node Manipulation |
+| Data Structure | Linked List |
+| Pattern | Linked List |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -50,7 +50,7 @@ It can be shown that there cannot be any containing array of size 2.
 It can be shown that there cannot be any containing array of size 4.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Set Intersection Size At Least Two**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -62,7 +62,7 @@ To solve **Set Intersection Size At Least Two**, we observe the problem requirem
 
 ## Example Walkthrough
 1. **Input State:** We begin with `intervals = [[1,3],[3,7],[8,9]]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Pointer Traversal & Node Manipulation** using our **Linked List**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `5`.
@@ -71,13 +71,14 @@ It can be shown that there cannot be any containing array of size 4.
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Linked List.
 
 ## Pattern
-**Array / General**
+**Linked List**
 
 ## Topics
-- Array
+- Linked List
+- Two Pointers
 
 ## Language
 Python
@@ -110,7 +111,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -122,9 +123,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3002. Maximum Size of a Set After Removals](../../3001-3500/3002-maximum-size-of-a-set-after-removals/)
 - [160. Intersection of Two Linked Lists](../../0001-0500/0160-intersection-of-two-linked-lists/)
 - [349. Intersection of Two Arrays](../../0001-0500/0349-intersection-of-two-arrays/)
+- [350. Intersection of Two Arrays II](../../0001-0500/0350-intersection-of-two-arrays-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/set-intersection-size-at-least-two/)

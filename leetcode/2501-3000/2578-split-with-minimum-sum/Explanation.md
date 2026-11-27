@@ -107,7 +107,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
 - [2547. Minimum Cost to Split an Array](../../2501-3000/2547-minimum-cost-to-split-an-array/)
-- [3698. Split Array With Minimum Difference](../../3501-4000/3698-split-array-with-minimum-difference/)
+- [2780. Minimum Index of a Valid Split](../../2501-3000/2780-minimum-index-of-a-valid-split/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-with-minimum-sum/)

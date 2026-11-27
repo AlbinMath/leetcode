@@ -193,9 +193,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1471. The k Strongest Values in an Array](../../1001-1500/1471-the-k-strongest-values-in-an-array/)
+- [2149. Rearrange Array Elements by Sign](../../2001-2500/2149-rearrange-array-elements-by-sign/)
+- [2587. Rearrange Array to Maximize Prefix Score](../../2501-3000/2587-rearrange-array-to-maximize-prefix-score/)
 - [1619. Mean of Array After Removing Some Elements](../../1501-2000/1619-mean-of-array-after-removing-some-elements/)
-- [2053. Kth Distinct String in an Array](../../2001-2500/2053-kth-distinct-string-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/)

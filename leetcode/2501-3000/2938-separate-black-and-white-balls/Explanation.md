@@ -118,9 +118,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1001-1500/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
-- [1552. Magnetic Force Between Two Balls](../../1501-2000/1552-magnetic-force-between-two-balls/)
-- [1648. Sell Diminishing-Valued Colored Balls](../../1501-2000/1648-sell-diminishing-valued-colored-balls/)
+- [1977. Number of Ways to Separate Numbers](../../1501-2000/1977-number-of-ways-to-separate-numbers/)
+- [2553. Separate the Digits in an Array](../../2501-3000/2553-separate-the-digits-in-an-array/)
+- [3453. Separate Squares I](../../3001-3500/3453-separate-squares-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/separate-black-and-white-balls/)

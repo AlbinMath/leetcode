@@ -108,8 +108,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
-- [2172. Maximum AND Sum of Array](../../2001-2500/2172-maximum-and-sum-of-array/)
 - [2439. Minimize Maximum of Array](../../2001-2500/2439-minimize-maximum-of-array/)
+- [3927. Minimize Array Sum Using Divisible Replacements](../../3501-4000/3927-minimize-array-sum-using-divisible-replacements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)

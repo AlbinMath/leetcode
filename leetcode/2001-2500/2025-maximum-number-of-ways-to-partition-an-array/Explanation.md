@@ -136,7 +136,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1569. Number of Ways to Reorder Array to Get Same BST](../../1501-2000/1569-number-of-ways-to-reorder-array-to-get-same-bst/)
 - [2270. Number of Ways to Split Array](../../2001-2500/2270-number-of-ways-to-split-array/)
-- [2294. Partition Array Such That Maximum Difference Is K](../../2001-2500/2294-partition-array-such-that-maximum-difference-is-k/)
+- [2341. Maximum Number of Pairs in Array](../../2001-2500/2341-maximum-number-of-pairs-in-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)

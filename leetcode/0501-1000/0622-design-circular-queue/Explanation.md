@@ -177,7 +177,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [641. Design Circular Deque](../../0501-1000/0641-design-circular-deque/)
 - [1670. Design Front Middle Back Queue](../../1501-2000/1670-design-front-middle-back-queue/)
-- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
+- [457. Circular Array Loop](../../0001-0500/0457-circular-array-loop/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-circular-queue/)

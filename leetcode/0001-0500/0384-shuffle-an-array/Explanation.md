@@ -120,8 +120,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1470. Shuffle the Array](../../1001-1500/1470-shuffle-the-array/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
+- [870. Advantage Shuffle](../../0501-1000/0870-advantage-shuffle/)
+- [1528. Shuffle String](../../1501-2000/1528-shuffle-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shuffle-an-array/)

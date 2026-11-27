@@ -110,9 +110,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1741-find-total-time-spent-by-each-employee/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
-- [204. Count Primes](../../0001-0500/0204-count-primes/)
+- [3169. Count Days Without Meetings](../../3001-3500/3169-count-days-without-meetings/)
+- [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
+- [1011. Capacity To Ship Packages Within D Days](../../1001-1500/1011-capacity-to-ship-packages-within-d-days/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-days-spent-together/)

@@ -161,7 +161,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3720. Lexicographically Smallest Permutation Greater Than Target](../../3501-4000/3720-lexicographically-smallest-permutation-greater-than-target/)
 - [3734. Lexicographically Smallest Palindromic Permutation Greater Than Target](../../3501-4000/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/)
-- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1061-lexicographically-smallest-equivalent-string/)
+- [1074. Number of Submatrices That Sum to Target](../../1001-1500/1074-number-of-submatrices-that-sum-to-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/)

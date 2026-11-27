@@ -133,8 +133,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1512. Number of Good Pairs](../../1501-2000/1512-number-of-good-pairs/)
-- [1080. Insufficient Nodes in Root to Leaf Paths](../../1001-1500/1080-insufficient-nodes-in-root-to-leaf-paths/)
 - [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [1080. Insufficient Nodes in Root to Leaf Paths](../../1001-1500/1080-insufficient-nodes-in-root-to-leaf-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)

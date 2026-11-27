@@ -123,9 +123,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1221. Split a String in Balanced Strings](../../1001-1500/1221-split-a-string-in-balanced-strings/)
-- [1653. Minimum Deletions to Make String Balanced](../../1501-2000/1653-minimum-deletions-to-make-string-balanced/)
-- [1963. Minimum Number of Swaps to Make the String Balanced](../../1501-2000/1963-minimum-number-of-swaps-to-make-the-string-balanced/)
+- [1585. Check If String Is Transformable With Substring Sort Operations](../../1501-2000/1585-check-if-string-is-transformable-with-substring-sort-operations/)
+- [2734. Lexicographically Smallest String After Substring Operation](../../2501-3000/2734-lexicographically-smallest-string-after-substring-operation/)
+- [3713. Longest Balanced Substring I](../../3501-4000/3713-longest-balanced-substring-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)

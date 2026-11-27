@@ -119,9 +119,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2809. Minimum Time to Make Array Sum At Most x](../../2501-3000/2809-minimum-time-to-make-array-sum-at-most-x/)
 - [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
 - [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
-- [1443. Minimum Time to Collect All Apples in a Tree](../../1001-1500/1443-minimum-time-to-collect-all-apples-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)

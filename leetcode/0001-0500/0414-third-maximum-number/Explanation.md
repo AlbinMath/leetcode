@@ -130,8 +130,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
+- [795. Number of Subarrays with Bounded Maximum](../../0501-1000/0795-number-of-subarrays-with-bounded-maximum/)
 - [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1072-flip-columns-for-maximum-number-of-equal-rows/)
-- [1189. Maximum Number of Balloons](../../1001-1500/1189-maximum-number-of-balloons/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/third-maximum-number/)

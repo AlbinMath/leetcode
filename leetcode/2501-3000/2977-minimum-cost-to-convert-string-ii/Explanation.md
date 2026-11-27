@@ -176,8 +176,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2976. Minimum Cost to Convert String I](../../2501-3000/2976-minimum-cost-to-convert-string-i/)
-- [3864. Minimum Cost to Partition a Binary String](../../3501-4000/3864-minimum-cost-to-partition-a-binary-string/)
 - [2027. Minimum Moves to Convert String](../../2001-2500/2027-minimum-moves-to-convert-string/)
+- [3864. Minimum Cost to Partition a Binary String](../../3501-4000/3864-minimum-cost-to-partition-a-binary-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/)

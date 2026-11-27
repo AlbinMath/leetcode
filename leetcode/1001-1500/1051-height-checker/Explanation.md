@@ -116,9 +116,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [420. Strong Password Checker](../../0001-0500/0420-strong-password-checker/)
 - [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
 - [406. Queue Reconstruction by Height](../../0001-0500/0406-queue-reconstruction-by-height/)
+- [1691. Maximum Height by Stacking Cuboids ](../../1501-2000/1691-maximum-height-by-stacking-cuboids/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/height-checker/)

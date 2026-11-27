@@ -140,9 +140,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1717. Maximum Score From Removing Substrings](../../1501-2000/1717-maximum-score-from-removing-substrings/)
-- [1753. Maximum Score From Removing Stones](../../1501-2000/1753-maximum-score-from-removing-stones/)
+- [1770. Maximum Score from Performing Multiplication Operations](../../1501-2000/1770-maximum-score-from-performing-multiplication-operations/)
 - [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2503-maximum-number-of-points-from-grid-queries/)
+- [3148. Maximum Difference Score in a Grid](../../3001-3500/3148-maximum-difference-score-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-from-grid-operations/)

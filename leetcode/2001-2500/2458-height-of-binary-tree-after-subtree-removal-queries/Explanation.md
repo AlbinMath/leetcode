@@ -151,7 +151,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [2476. Closest Nodes Queries in a Binary Search Tree](../../2001-2500/2476-closest-nodes-queries-in-a-binary-search-tree/)
 - [3319. K-th Largest Perfect Subtree Size in Binary Tree](../../3001-3500/3319-k-th-largest-perfect-subtree-size-in-binary-tree/)
-- [3485. Longest Common Prefix of K Strings After Removal](../../3001-3500/3485-longest-common-prefix-of-k-strings-after-removal/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/)

@@ -164,8 +164,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2744. Find Maximum Number of String Pairs](../../2501-3000/2744-find-maximum-number-of-string-pairs/)
-- [150. Evaluate Reverse Polish Notation](../../0001-0500/0150-evaluate-reverse-polish-notation/)
-- [399. Evaluate Division](../../0001-0500/0399-evaluate-division/)
+- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [336. Palindrome Pairs](../../0001-0500/0336-palindrome-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/)

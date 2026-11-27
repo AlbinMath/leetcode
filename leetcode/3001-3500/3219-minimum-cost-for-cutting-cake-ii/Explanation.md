@@ -161,7 +161,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3218. Minimum Cost for Cutting Cake I](../../3001-3500/3218-minimum-cost-for-cutting-cake-i/)
 - [857. Minimum Cost to Hire K Workers](../../0501-1000/0857-minimum-cost-to-hire-k-workers/)
-- [1000. Minimum Cost to Merge Stones](../../0501-1000/1000-minimum-cost-to-merge-stones/)
+- [983. Minimum Cost For Tickets](../../0501-1000/0983-minimum-cost-for-tickets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/)

@@ -208,8 +208,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1654. Minimum Jumps to Reach Home](../../1501-2000/1654-minimum-jumps-to-reach-home/)
-- [1824. Minimum Sideway Jumps](../../1501-2000/1824-minimum-sideway-jumps/)
-- [2770. Maximum Number of Jumps to Reach the Last Index](../../2501-3000/2770-maximum-number-of-jumps-to-reach-the-last-index/)
+- [3896. Minimum Operations to Transform Array into Alternating Prime](../../3501-4000/3896-minimum-operations-to-transform-array-into-alternating-prime/)
+- [1210. Minimum Moves to Reach Target with Rotations](../../1001-1500/1210-minimum-moves-to-reach-target-with-rotations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/)

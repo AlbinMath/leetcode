@@ -117,7 +117,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2879. Display the First Three Rows](../../2501-3000/2879-display-the-first-three-rows/)
+- [1321. Restaurant Growth](../../1001-1500/1321-restaurant-growth/)
 - [1174. Immediate Food Delivery II](../../1001-1500/1174-immediate-food-delivery-ii/)
 - [2086. Minimum Number of Food Buckets to Feed the Hamsters](../../2001-2500/2086-minimum-number-of-food-buckets-to-feed-the-hamsters/)
 

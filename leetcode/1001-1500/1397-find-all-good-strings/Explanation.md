@@ -146,8 +146,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2420. Find All Good Indices](../../2001-2500/2420-find-all-good-indices/)
-- [2100. Find Good Days to Rob the Bank](../../2001-2500/2100-find-good-days-to-rob-the-bank/)
-- [2732. Find a Good Subset of the Matrix](../../2501-3000/2732-find-a-good-subset-of-the-matrix/)
+- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [442. Find All Duplicates in an Array](../../0001-0500/0442-find-all-duplicates-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-good-strings/)

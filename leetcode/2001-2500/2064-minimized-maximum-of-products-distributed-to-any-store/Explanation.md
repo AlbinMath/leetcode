@@ -131,8 +131,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1589. Maximum Sum Obtained of Any Permutation](../../1501-2000/1589-maximum-sum-obtained-of-any-permutation/)
+- [1749. Maximum Absolute Sum of Any Subarray](../../1501-2000/1749-maximum-absolute-sum-of-any-subarray/)
 - [3411. Maximum Subarray With Equal Products](../../3001-3500/3411-maximum-subarray-with-equal-products/)
-- [981. Time Based Key-Value Store](../../0501-1000/0981-time-based-key-value-store/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)

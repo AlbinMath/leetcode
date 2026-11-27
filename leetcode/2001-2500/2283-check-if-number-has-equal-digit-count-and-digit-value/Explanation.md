@@ -113,8 +113,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1941. Check if All Characters Have Equal Number of Occurrences](../../1501-2000/1941-check-if-all-characters-have-equal-number-of-occurrences/)
-- [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1784-check-if-binary-string-has-at-most-one-segment-of-ones/)
 - [1790. Check if One String Swap Can Make Strings Equal](../../1501-2000/1790-check-if-one-string-swap-can-make-strings-equal/)
+- [2840. Check if Strings Can be Made Equal With Operations II](../../2501-3000/2840-check-if-strings-can-be-made-equal-with-operations-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/)

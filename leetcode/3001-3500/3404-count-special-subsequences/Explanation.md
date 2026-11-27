@@ -154,8 +154,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1955. Count Number of Special Subsequences](../../1501-2000/1955-count-number-of-special-subsequences/)
 - [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
-- [1995. Count Special Quadruplets](../../1501-2000/1995-count-special-quadruplets/)
 - [2842. Count K-Subsequences of a String With Maximum Beauty](../../2501-3000/2842-count-k-subsequences-of-a-string-with-maximum-beauty/)
 
 ## LeetCode

@@ -132,8 +132,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2817. Minimum Absolute Difference Between Elements With Constraint](../../2501-3000/2817-minimum-absolute-difference-between-elements-with-constraint/)
-- [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
-- [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](../../1501-2000/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves/)
+- [3774. Absolute Difference Between Maximum and Minimum K Elements](../../3501-4000/3774-absolute-difference-between-maximum-and-minimum-k-elements/)
+- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/)

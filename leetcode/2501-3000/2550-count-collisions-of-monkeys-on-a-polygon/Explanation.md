@@ -103,8 +103,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2211. Count Collisions on a Road](../../2001-2500/2211-count-collisions-on-a-road/)
+- [1039. Minimum Score Triangulation of Polygon](../../1001-1500/1039-minimum-score-triangulation-of-polygon/)
 - [2971. Find Polygon With the Largest Perimeter](../../2501-3000/2971-find-polygon-with-the-largest-perimeter/)
-- [38. Count and Say](../../0001-0500/0038-count-and-say/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)

@@ -6,15 +6,15 @@ This directory contains solved LeetCode problems partitioned into standardized r
 
 | Range | Solved Count | Directory Link |
 |---|---|---|
-| **0001-0500** | 407 problems | [Explore 0001-0500](./0001-0500/) |
-| **0501-1000** | 411 problems | [Explore 0501-1000](./0501-1000/) |
-| **1001-1500** | 350 problems | [Explore 1001-1500](./1001-1500/) |
-| **1501-2000** | 386 problems | [Explore 1501-2000](./1501-2000/) |
+| **0001-0500** | 412 problems | [Explore 0001-0500](./0001-0500/) |
+| **0501-1000** | 434 problems | [Explore 0501-1000](./0501-1000/) |
+| **1001-1500** | 374 problems | [Explore 1001-1500](./1001-1500/) |
+| **1501-2000** | 397 problems | [Explore 1501-2000](./1501-2000/) |
 | **2001-2500** | 348 problems | [Explore 2001-2500](./2001-2500/) |
-| **2501-3000** | 312 problems | [Explore 2501-3000](./2501-3000/) |
-| **3001-3500** | 316 problems | [Explore 3001-3500](./3001-3500/) |
-| **3501-4000** | 343 problems | [Explore 3501-4000](./3501-4000/) |
-| **4001-4500** | 58 problems | [Explore 4001-4500](./4001-4500/) |
+| **2501-3000** | 323 problems | [Explore 2501-3000](./2501-3000/) |
+| **3001-3500** | 324 problems | [Explore 3001-3500](./3001-3500/) |
+| **3501-4000** | 352 problems | [Explore 3501-4000](./3501-4000/) |
+| **4001-4500** | 59 problems | [Explore 4001-4500](./4001-4500/) |
 
 ---
 

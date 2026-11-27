@@ -139,8 +139,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3801. Minimum Cost to Merge Sorted Lists](../../3501-4000/3801-minimum-cost-to-merge-sorted-lists/)
+- [3538. Merge Operations for Minimum Travel Time](../../3501-4000/3538-merge-operations-for-minimum-travel-time/)
 - [857. Minimum Cost to Hire K Workers](../../0501-1000/0857-minimum-cost-to-hire-k-workers/)
-- [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1130-minimum-cost-tree-from-leaf-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-merge-stones/)

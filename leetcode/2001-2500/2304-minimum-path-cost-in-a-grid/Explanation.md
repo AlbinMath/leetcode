@@ -124,8 +124,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [2087. Minimum Cost Homecoming of a Robot in a Grid](../../2001-2500/2087-minimum-cost-homecoming-of-a-robot-in-a-grid/)
 - [2662. Minimum Cost of a Path With Special Roads](../../2501-3000/2662-minimum-cost-of-a-path-with-special-roads/)
+- [3603. Minimum Cost Path with Alternating Directions II](../../3501-4000/3603-minimum-cost-path-with-alternating-directions-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-path-cost-in-a-grid/)

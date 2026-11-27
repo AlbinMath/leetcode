@@ -142,7 +142,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2048. Next Greater Numerically Balanced Number](../../2001-2500/2048-next-greater-numerically-balanced-number/)
 - [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [2193. Minimum Number of Moves to Make Palindrome](../../2001-2500/2193-minimum-number-of-moves-to-make-palindrome/)
+- [1955. Count Number of Special Subsequences](../../1501-2000/1955-count-number-of-special-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/next-special-palindrome-number/)

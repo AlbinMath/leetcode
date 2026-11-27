@@ -131,8 +131,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [804. Unique Morse Code Words](../../0501-1000/0804-unique-morse-code-words/)
+- [3606. Coupon Code Validator](../../3501-4000/3606-coupon-code-validator/)
 - [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [137. Single Number II](../../0001-0500/0137-single-number-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/gray-code/)

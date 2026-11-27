@@ -101,8 +101,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](../../1001-1500/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
+- [3628. Maximum Number of Subsequences After One Inserting](../../3501-4000/3628-maximum-number-of-subsequences-after-one-inserting/)
 - [2160. Minimum Sum of Four Digit Number After Splitting Digits](../../2001-2500/2160-minimum-sum-of-four-digit-number-after-splitting-digits/)
-- [2231. Largest Number After Digit Swaps by Parity](../../2001-2500/2231-largest-number-after-digit-swaps-by-parity/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-digit-one/)

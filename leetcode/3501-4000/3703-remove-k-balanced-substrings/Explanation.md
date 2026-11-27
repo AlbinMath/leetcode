@@ -179,9 +179,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3669. Balanced K-Factor Decomposition](../../3501-4000/3669-balanced-k-factor-decomposition/)
 - [402. Remove K Digits](../../0001-0500/0402-remove-k-digits/)
 - [2522. Partition String Into Substrings With Values at Most K](../../2501-3000/2522-partition-string-into-substrings-with-values-at-most-k/)
+- [3258. Count Substrings That Satisfy K-Constraint I](../../3001-3500/3258-count-substrings-that-satisfy-k-constraint-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-k-balanced-substrings/)

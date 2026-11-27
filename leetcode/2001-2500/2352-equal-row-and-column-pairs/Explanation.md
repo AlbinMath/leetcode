@@ -123,8 +123,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
+- [1007. Minimum Domino Rotations For Equal Row](../../1001-1500/1007-minimum-domino-rotations-for-equal-row/)
 - [1605. Find Valid Matrix Given Row and Column Sums](../../1501-2000/1605-find-valid-matrix-given-row-and-column-sums/)
-- [2133. Check if Every Row and Column Contains All Numbers](../../2001-2500/2133-check-if-every-row-and-column-contains-all-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/equal-row-and-column-pairs/)

@@ -126,9 +126,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1186. Maximum Subarray Sum with One Deletion](../../1001-1500/1186-maximum-subarray-sum-with-one-deletion/)
+- [1749. Maximum Absolute Sum of Any Subarray](../../1501-2000/1749-maximum-absolute-sum-of-any-subarray/)
 - [1800. Maximum Ascending Subarray Sum](../../1501-2000/1800-maximum-ascending-subarray-sum/)
-- [2841. Maximum Sum of Almost Unique Subarray](../../2501-3000/2841-maximum-sum-of-almost-unique-subarray/)
-- [3026. Maximum Good Subarray Sum](../../3001-3500/3026-maximum-good-subarray-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-sum-circular-subarray/)

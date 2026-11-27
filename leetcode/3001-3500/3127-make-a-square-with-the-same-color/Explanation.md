@@ -126,7 +126,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1812. Determine Color of a Chessboard Square](../../1501-2000/1812-determine-color-of-a-chessboard-square/)
 - [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
-- [1857. Largest Color Value in a Directed Graph](../../1501-2000/1857-largest-color-value-in-a-directed-graph/)
+- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-a-square-with-the-same-color/)

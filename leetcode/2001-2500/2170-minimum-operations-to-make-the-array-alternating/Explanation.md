@@ -124,7 +124,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3854. Minimum Operations to Make Array Parity Alternating](../../3501-4000/3854-minimum-operations-to-make-array-parity-alternating/)
 - [3937. Minimum Operations to Make Array Modulo Alternating I](../../3501-4000/3937-minimum-operations-to-make-array-modulo-alternating-i/)
-- [3896. Minimum Operations to Transform Array into Alternating Prime](../../3501-4000/3896-minimum-operations-to-transform-array-into-alternating-prime/)
+- [1551. Minimum Operations to Make Array Equal](../../1501-2000/1551-minimum-operations-to-make-array-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)

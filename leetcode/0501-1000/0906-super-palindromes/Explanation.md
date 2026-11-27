@@ -123,9 +123,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [372. Super Pow](../../0001-0500/0372-super-pow/)
-- [517. Super Washing Machines](../../0501-1000/0517-super-washing-machines/)
-- [887. Super Egg Drop](../../0501-1000/0887-super-egg-drop/)
+- [2911. Minimum Changes to Make K Semi-palindromes](../../2501-3000/2911-minimum-changes-to-make-k-semi-palindromes/)
+- [3035. Maximum Palindromes After Operations](../../3001-3500/3035-maximum-palindromes-after-operations/)
+- [3327. Check if DFS Strings Are Palindromes](../../3001-3500/3327-check-if-dfs-strings-are-palindromes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/super-palindromes/)

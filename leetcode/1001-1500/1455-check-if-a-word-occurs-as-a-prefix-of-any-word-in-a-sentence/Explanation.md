@@ -107,9 +107,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1832. Check if the Sentence Is Pangram](../../1501-2000/1832-check-if-the-sentence-is-pangram/)
-- [2042. Check if Numbers Are Ascending in a Sentence](../../2001-2500/2042-check-if-numbers-are-ascending-in-a-sentence/)
+- [3591. Check if Any Element Has Prime Frequency](../../3501-4000/3591-check-if-any-element-has-prime-frequency/)
 - [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1003-check-if-word-is-valid-after-substitutions/)
+- [1880. Check if Word Equals Summation of Two Words](../../1501-2000/1880-check-if-word-equals-summation-of-two-words/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)

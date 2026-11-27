@@ -149,9 +149,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [87. Scramble String](../../0001-0500/0087-scramble-string/)
+- [91. Decode Ways](../../0001-0500/0091-decode-ways/)
+- [535. Encode and Decode TinyURL](../../0501-1000/0535-encode-and-decode-tinyurl/)
+- [639. Decode Ways II](../../0501-1000/0639-decode-ways-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decode-string/)

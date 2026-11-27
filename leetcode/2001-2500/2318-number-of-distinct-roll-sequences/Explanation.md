@@ -132,9 +132,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [2954. Count the Number of Infection Sequences](../../2501-3000/2954-count-the-number-of-infection-sequences/)
 - [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1001-1500/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 - [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
+- [2465. Number of Distinct Averages](../../2001-2500/2465-number-of-distinct-averages/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-distinct-roll-sequences/)

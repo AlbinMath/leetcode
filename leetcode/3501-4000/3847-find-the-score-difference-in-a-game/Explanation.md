@@ -129,8 +129,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [389. Find the Difference](../../0001-0500/0389-find-the-difference/)
-- [2215. Find the Difference of Two Arrays](../../2001-2500/2215-find-the-difference-of-two-arrays/)
+- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
+- [2640. Find the Score of All Prefixes of an Array](../../2501-3000/2640-find-the-score-of-all-prefixes-of-an-array/)
 - [3148. Maximum Difference Score in a Grid](../../3001-3500/3148-maximum-difference-score-in-a-grid/)
 
 ## LeetCode

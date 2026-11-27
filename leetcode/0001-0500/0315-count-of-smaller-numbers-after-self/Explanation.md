@@ -146,9 +146,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [728. Self Dividing Numbers](../../0501-1000/0728-self-dividing-numbers/)
 - [1365. How Many Numbers Are Smaller Than the Current Number](../../1001-1500/1365-how-many-numbers-are-smaller-than-the-current-number/)
 - [2148. Count Elements With Strictly Smaller and Greater Elements ](../../2001-2500/2148-count-elements-with-strictly-smaller-and-greater-elements/)
+- [728. Self Dividing Numbers](../../0501-1000/0728-self-dividing-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)

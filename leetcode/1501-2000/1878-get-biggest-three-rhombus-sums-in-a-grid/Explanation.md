@@ -129,9 +129,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
-- [326. Power of Three](../../0001-0500/0326-power-of-three/)
-- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
+- [1931. Painting a Grid With Three Different Colors](../../1501-2000/1931-painting-a-grid-with-three-different-colors/)
+- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
+- [1001. Grid Illumination](../../1001-1500/1001-grid-illumination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)

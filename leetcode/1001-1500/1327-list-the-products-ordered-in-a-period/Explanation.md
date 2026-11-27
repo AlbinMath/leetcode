@@ -191,9 +191,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
-- [61. Rotate List](../../0001-0500/0061-rotate-list/)
-- [82. Remove Duplicates from Sorted List II](../../0001-0500/0082-remove-duplicates-from-sorted-list-ii/)
+- [1045. Customers Who Bought All Products](../../1001-1500/1045-customers-who-bought-all-products/)
+- [1484. Group Sold Products By The Date](../../1001-1500/1484-group-sold-products-by-the-date/)
+- [1757. Recyclable and Low Fat Products](../../1501-2000/1757-recyclable-and-low-fat-products/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)

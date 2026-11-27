@@ -131,9 +131,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
-- [898. Bitwise ORs of Subarrays](../../0501-1000/0898-bitwise-ors-of-subarrays/)
-- [930. Binary Subarrays With Sum](../../0501-1000/0930-binary-subarrays-with-sum/)
+- [523. Continuous Subarray Sum](../../0501-1000/0523-continuous-subarray-sum/)
+- [581. Shortest Unsorted Continuous Subarray](../../0501-1000/0581-shortest-unsorted-continuous-subarray/)
+- [674. Longest Continuous Increasing Subsequence](../../0501-1000/0674-longest-continuous-increasing-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/continuous-subarrays/)

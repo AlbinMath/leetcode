@@ -132,9 +132,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
-- [1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](../../1001-1500/1465-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
-- [1702. Maximum Binary String After Change](../../1501-2000/1702-maximum-binary-string-after-change/)
+- [2600. K Items With the Maximum Sum](../../2501-3000/2600-k-items-with-the-maximum-sum/)
+- [3946. Maximum Number of Items From Sale I](../../3501-4000/3946-maximum-number-of-items-from-sale-i/)
+- [3947. Maximum Number of Items From Sale II](../../3501-4000/3947-maximum-number-of-items-from-sale-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-spending-after-buying-items/)

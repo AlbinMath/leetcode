@@ -202,8 +202,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [4010. Maximize Pair Strength Using GCD](../../4001-4500/4010-maximize-pair-strength-using-gcd/)
-- [646. Maximum Length of Pair Chain](../../0501-1000/0646-maximum-length-of-pair-chain/)
-- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
+- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
+- [1211. Queries Quality and Percentage](../../1001-1500/1211-queries-quality-and-percentage/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sorted-gcd-pair-queries/)

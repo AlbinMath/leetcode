@@ -1,7 +1,7 @@
 # LeetCode 2164: Sort Even and Odd Indices Independently
 
 **LeetCode Problem #2164 — Sort Even and Odd Indices Independently**
-Solve LeetCode Sort Even and Odd Indices Independently using JavaScript and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Sort Even and Odd Indices Independently using JavaScript and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Sort Even and Odd Indices Independently using JavaScript and Arra
 | LeetCode | #2164 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Pointer Traversal & Node Manipulation |
+| Data Structure | Linked List |
+| Pattern | Linked List |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -48,7 +48,7 @@ So, nums changes from [4,
 The resultant array formed is [2,1], which is the same as the initial array.
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Sort Even and Odd Indices Independently**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -60,7 +60,7 @@ To solve **Sort Even and Odd Indices Independently**, we observe the problem req
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [4,1,2,3]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Pointer Traversal & Node Manipulation** using our **Linked List**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[2,3,4,1]`.
@@ -69,13 +69,14 @@ So, nums changes from [4,
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Linked List.
 
 ## Pattern
-**Array / General**
+**Linked List**
 
 ## Topics
-- Array
+- Linked List
+- Two Pointers
 
 ## Language
 JavaScript
@@ -110,7 +111,7 @@ var sortEvenOdd = function(nums) {
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -122,9 +123,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [4099. Minimum Operations to Sort With Locked Indices](../../4001-4500/4099-minimum-operations-to-sort-with-locked-indices/)
 - [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
 - [975. Odd Even Jump](../../0501-1000/0975-odd-even-jump/)
-- [1116. Print Zero Even Odd](../../1001-1500/1116-print-zero-even-odd/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)

@@ -102,9 +102,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
 - [429. N-ary Tree Level Order Traversal](../../0001-0500/0429-n-ary-tree-level-order-traversal/)
 - [589. N-ary Tree Preorder Traversal](../../0501-1000/0589-n-ary-tree-preorder-traversal/)
+- [590. N-ary Tree Postorder Traversal](../../0501-1000/0590-n-ary-tree-postorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)

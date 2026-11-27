@@ -117,9 +117,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [501. Find Mode in Binary Search Tree](../../0501-1000/0501-find-mode-in-binary-search-tree/)
 - [671. Second Minimum Node In a Binary Tree](../../0501-1000/0671-second-minimum-node-in-a-binary-tree/)
-- [2096. Step-By-Step Directions From a Binary Tree Node to Another](../../2001-2500/2096-step-by-step-directions-from-a-binary-tree-node-to-another/)
-- [3585. Find Weighted Median Node in Tree](../../3501-4000/3585-find-weighted-median-node-in-tree/)
+- [1261. Find Elements in a Contaminated Binary Tree](../../1001-1500/1261-find-elements-in-a-contaminated-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)

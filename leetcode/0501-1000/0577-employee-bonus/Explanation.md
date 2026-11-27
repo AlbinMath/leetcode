@@ -159,9 +159,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1873. Calculate Special Bonus](../../1501-2000/1873-calculate-special-bonus/)
 - [690. Employee Importance](../../0501-1000/0690-employee-importance/)
 - [1378. Replace Employee ID With The Unique Identifier](../../1001-1500/1378-replace-employee-id-with-the-unique-identifier/)
-- [1731. The Number of Employees Which Report to Each Employee](../../1501-2000/1731-the-number-of-employees-which-report-to-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employee-bonus/)

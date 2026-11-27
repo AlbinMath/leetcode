@@ -92,9 +92,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1385-find-the-distance-value-between-two-arrays/)
-- [1552. Magnetic Force Between Two Balls](../../1501-2000/1552-magnetic-force-between-two-balls/)
-- [1624. Largest Substring Between Two Equal Characters](../../1501-2000/1624-largest-substring-between-two-equal-characters/)
+- [1482. Minimum Number of Days to Make m Bouquets](../../1001-1500/1482-minimum-number-of-days-to-make-m-bouquets/)
+- [1553. Minimum Number of Days to Eat N Oranges](../../1501-2000/1553-minimum-number-of-days-to-eat-n-oranges/)
+- [1568. Minimum Number of Days to Disconnect Island](../../1501-2000/1568-minimum-number-of-days-to-disconnect-island/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-days-between-two-dates/)

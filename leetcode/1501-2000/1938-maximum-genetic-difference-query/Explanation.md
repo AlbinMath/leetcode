@@ -175,9 +175,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1829. Maximum XOR for Each Query](../../1501-2000/1829-maximum-xor-for-each-query/)
 - [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
 - [1913. Maximum Product Difference Between Two Pairs](../../1501-2000/1913-maximum-product-difference-between-two-pairs/)
-- [2294. Partition Array Such That Maximum Difference Is K](../../2001-2500/2294-partition-array-such-that-maximum-difference-is-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-genetic-difference-query/)

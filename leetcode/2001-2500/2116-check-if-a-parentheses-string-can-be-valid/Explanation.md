@@ -145,7 +145,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2267.  Check if There Is a Valid Parentheses String Path](../../2001-2500/2267-check-if-there-is-a-valid-parentheses-string-path/)
 - [2018. Check if Word Can Be Placed In Crossword](../../2001-2500/2018-check-if-word-can-be-placed-in-crossword/)
-- [1433. Check If a String Can Break Another String](../../1001-1500/1433-check-if-a-string-can-break-another-string/)
+- [2840. Check if Strings Can be Made Equal With Operations II](../../2501-3000/2840-check-if-strings-can-be-made-equal-with-operations-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)

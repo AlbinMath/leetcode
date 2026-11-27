@@ -1,7 +1,7 @@
 # LeetCode 3897: Maximum Value of Concatenated Binary Segments
 
 **LeetCode Problem #3897 — Maximum Value of Concatenated Binary Segments**
-Solve LeetCode Maximum Value of Concatenated Binary Segments using JavaScript and Bit Manipulation. This solution finds the optimal result using Bitwise Masking & Bit Shift in O(n) time.
+Solve LeetCode Maximum Value of Concatenated Binary Segments using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Maximum Value of Concatenated Binary Segments using JavaScript an
 | LeetCode | #3897 |
 | Difficulty | Hard |
 | Language | JavaScript |
-| Algorithm | Bitwise Masking & Bit Shift |
-| Data Structure | Integer Bitmask |
-| Pattern | Bit Manipulation |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given two integer arrays `nums1` and `nums0`, each of size `n`.
@@ -57,7 +57,7 @@ Since the result can be very large, return the answer **modulo** `10^9 + 7`.
  The binary number `"1111000"` has value 120 which is the maximum possible value.
 
 ## Key Insight
-Leverage **Bit Manipulation** with **Integer Bitmask** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Maximum Value of Concatenated Binary Segments**, we observe the problem requirements and utilize the **Bit Manipulation** technique. We employ bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`) to directly manipulate bits in constant time without allocating dynamic auxiliary structures.
@@ -69,7 +69,7 @@ To solve **Maximum Value of Concatenated Binary Segments**, we observe the probl
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums1 = [1,2], nums0 = [1,0]`.
-2. **Processing Steps:** We apply **Bitwise Masking & Bit Shift** using our **Integer Bitmask**:
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `14`.
@@ -80,14 +80,16 @@ To solve **Maximum Value of Concatenated Binary Segments**, we observe the probl
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Integer Bitmask.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Bit Manipulation**
+**Tree & Graph**
 
 ## Topics
-- Bit Manipulation
-- Bitwise Math
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 JavaScript
@@ -181,7 +183,7 @@ var maxValue = function(nums1, nums0) {
 ```
 
 ## Why This Works
-By utilizing **Bit Manipulation**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -193,9 +195,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [654. Maximum Binary Tree](../../0501-1000/0654-maximum-binary-tree/)
+- [1131. Maximum of Absolute Value Expression](../../1001-1500/1131-maximum-of-absolute-value-expression/)
+- [1695. Maximum Erasure Value](../../1501-2000/1695-maximum-erasure-value/)
+- [1802. Maximum Value at a Given Index in a Bounded Array](../../1501-2000/1802-maximum-value-at-a-given-index-in-a-bounded-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-of-concatenated-binary-segments/)

@@ -108,9 +108,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1900. The Earliest and Latest Rounds Where Players Compete](../../1501-2000/1900-the-earliest-and-latest-rounds-where-players-compete/)
-- [2225. Find Players With Zero or One Losses](../../2001-2500/2225-find-players-with-zero-or-one-losses/)
-- [2491. Divide Players Into Teams of Equal Skill](../../2001-2500/2491-divide-players-into-teams-of-equal-skill/)
+- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
+- [44. Wildcard Matching](../../0001-0500/0044-wildcard-matching/)
+- [792. Number of Matching Subsequences](../../0501-1000/0792-number-of-matching-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)

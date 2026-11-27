@@ -133,9 +133,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2521. Distinct Prime Factors of Product of Array](../../2501-3000/2521-distinct-prime-factors-of-product-of-array/)
-- [3896. Minimum Operations to Transform Array into Alternating Prime](../../3501-4000/3896-minimum-operations-to-transform-array-into-alternating-prime/)
-- [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
+- [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [659. Split Array into Consecutive Subsequences](../../0501-1000/0659-split-array-into-consecutive-subsequences/)
+- [805. Split Array With Same Average](../../0501-1000/0805-split-array-with-same-average/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-array-by-prime-indices/)

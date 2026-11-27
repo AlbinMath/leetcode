@@ -112,9 +112,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3419. Minimize the Maximum Edge Weight of Graph](../../3001-3500/3419-minimize-the-maximum-edge-weight-of-graph/)
 - [2497. Maximum Star Sum of a Graph](../../2001-2500/2497-maximum-star-sum-of-a-graph/)
 - [3068. Find the Maximum Sum of Node Values](../../3001-3500/3068-find-the-maximum-sum-of-node-values/)
+- [3419. Minimize the Maximum Edge Weight of Graph](../../3001-3500/3419-minimize-the-maximum-edge-weight-of-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-sum-of-edge-values-in-a-graph/)

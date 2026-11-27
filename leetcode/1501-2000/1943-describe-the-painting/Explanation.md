@@ -146,9 +146,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1931. Painting a Grid With Three Different Colors](../../1501-2000/1931-painting-a-grid-with-three-different-colors/)
 - [1. Two Sum](../../0001-0500/0001-two-sum/)
 - [49. Group Anagrams](../../0001-0500/0049-group-anagrams/)
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/describe-the-painting/)

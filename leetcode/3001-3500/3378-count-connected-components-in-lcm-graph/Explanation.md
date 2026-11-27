@@ -115,9 +115,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1761. Minimum Degree of a Connected Trio in a Graph](../../1501-2000/1761-minimum-degree-of-a-connected-trio-in-a-graph/)
-- [3608. Minimum Time for K Connected Components](../../3501-4000/3608-minimum-time-for-k-connected-components/)
-- [3910. Count Connected Subgraphs with Even Node Sum](../../3501-4000/3910-count-connected-subgraphs-with-even-node-sum/)
+- [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](../../2001-2500/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph/)
+- [2685. Count the Number of Complete Components](../../2501-3000/2685-count-the-number-of-complete-components/)
+- [2876. Count Visited Nodes in a Directed Graph](../../2501-3000/2876-count-visited-nodes-in-a-directed-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-connected-components-in-lcm-graph/)

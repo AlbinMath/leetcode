@@ -107,9 +107,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3703. Remove K-Balanced Substrings](../../3501-4000/3703-remove-k-balanced-substrings/)
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 - [1837. Sum of Digits in Base K](../../1501-2000/1837-sum-of-digits-in-base-k/)
+- [3703. Remove K-Balanced Substrings](../../3501-4000/3703-remove-k-balanced-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-k-digits/)

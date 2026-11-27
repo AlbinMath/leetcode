@@ -125,9 +125,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [313. Super Ugly Number](../../0001-0500/0313-super-ugly-number/)
 - [372. Super Pow](../../0001-0500/0372-super-pow/)
 - [887. Super Egg Drop](../../0501-1000/0887-super-egg-drop/)
-- [906. Super Palindromes](../../0501-1000/0906-super-palindromes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/super-washing-machines/)

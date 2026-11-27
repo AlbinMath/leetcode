@@ -126,7 +126,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1946. Largest Number After Mutating Substring](../../1501-2000/1946-largest-number-after-mutating-substring/)
 - [2160. Minimum Sum of Four Digit Number After Splitting Digits](../../2001-2500/2160-minimum-sum-of-four-digit-number-after-splitting-digits/)
-- [179. Largest Number](../../0001-0500/0179-largest-number/)
+- [3587. Minimum Adjacent Swaps to Alternate Parity](../../3501-4000/3587-minimum-adjacent-swaps-to-alternate-parity/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)

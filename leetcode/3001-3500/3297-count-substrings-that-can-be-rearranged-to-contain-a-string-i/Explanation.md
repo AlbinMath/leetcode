@@ -124,8 +124,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3298. Count Substrings That Can Be Rearranged to Contain a String II](../../3001-3500/3298-count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)
-- [2201. Count Artifacts That Can Be Extracted](../../2001-2500/2201-count-artifacts-that-can-be-extracted/)
 - [2930. Number of Strings Which Can Be Rearranged to Contain Substring](../../2501-3000/2930-number-of-strings-which-can-be-rearranged-to-contain-substring/)
+- [2201. Count Artifacts That Can Be Extracted](../../2001-2500/2201-count-artifacts-that-can-be-extracted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/)

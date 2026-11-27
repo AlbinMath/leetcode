@@ -118,7 +118,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
 - [3913. Sort Vowels by Frequency](../../3501-4000/3913-sort-vowels-by-frequency/)
-- [905. Sort Array By Parity](../../0501-1000/0905-sort-array-by-parity/)
+- [1187. Make Array Strictly Increasing](../../1001-1500/1187-make-array-strictly-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-array-by-increasing-frequency/)

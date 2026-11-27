@@ -114,7 +114,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3981. Count Distinct Ways to Form Target from Two Strings](../../3501-4000/3981-count-distinct-ways-to-form-target-from-two-strings/)
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../../1001-1500/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [1786. Number of Restricted Paths From First to Last Node](../../1501-2000/1786-number-of-restricted-paths-from-first-to-last-node/)
 - [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2115-find-all-possible-recipes-from-given-supplies/)
 

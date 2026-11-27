@@ -103,8 +103,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [347. Top K Frequent Elements](../../0001-0500/0347-top-k-frequent-elements/)
+- [2512. Reward Top K Students](../../2501-3000/2512-reward-top-k-students/)
 - [3070. Count Submatrices with Top-Left Element and Sum Less Than k](../../3001-3500/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/)
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/top-k-frequent-words/)

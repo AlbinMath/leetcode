@@ -276,8 +276,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3720. Lexicographically Smallest Permutation Greater Than Target](../../3501-4000/3720-lexicographically-smallest-permutation-greater-than-target/)
-- [3752. Lexicographically Smallest Negated Permutation that Sums to Target](../../3501-4000/3752-lexicographically-smallest-negated-permutation-that-sums-to-target/)
 - [744. Find Smallest Letter Greater Than Target](../../0501-1000/0744-find-smallest-letter-greater-than-target/)
+- [3752. Lexicographically Smallest Negated Permutation that Sums to Target](../../3501-4000/3752-lexicographically-smallest-negated-permutation-that-sums-to-target/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/)

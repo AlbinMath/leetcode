@@ -159,7 +159,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
 - [2897. Apply Operations on Array to Maximize Sum of Squares](../../2501-3000/2897-apply-operations-on-array-to-maximize-sum-of-squares/)
-- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3001-3500/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+- [3367. Maximize Sum of Weights after Edge Removals](../../3001-3500/3367-maximize-sum-of-weights-after-edge-removals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-sum-of-device-ratings/)

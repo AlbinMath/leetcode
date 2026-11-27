@@ -172,9 +172,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1043. Partition Array for Maximum Sum](../../1001-1500/1043-partition-array-for-maximum-sum/)
 - [2025. Maximum Number of Ways to Partition an Array](../../2001-2500/2025-maximum-number-of-ways-to-partition-an-array/)
 - [2294. Partition Array Such That Maximum Difference Is K](../../2001-2500/2294-partition-array-such-that-maximum-difference-is-k/)
-- [3630. Partition Array for Maximum XOR and AND](../../3501-4000/3630-partition-array-for-maximum-xor-and-and/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-partition-factor/)

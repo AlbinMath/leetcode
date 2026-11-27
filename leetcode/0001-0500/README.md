@@ -1,6 +1,6 @@
 # LeetCode Problems: 0001-0500
 
-A collection of **407** solved LeetCode problems in the range **0001-0500**.
+A collection of **412** solved LeetCode problems in the range **0001-0500**.
 
 ## Problem Index
 
@@ -210,6 +210,7 @@ A collection of **407** solved LeetCode problems in the range **0001-0500**.
 | 210 | [Course Schedule II](./0210-course-schedule-ii/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0210-course-schedule-ii/Explanation.md) |
 | 211 | [Design Add and Search Words Data Structure](./0211-design-add-and-search-words-data-structure/) | Medium | [Hash Map](../../patterns/hash-map.md) | JavaScript | [Explanation](./0211-design-add-and-search-words-data-structure/Explanation.md) |
 | 212 | [Word Search II](./0212-word-search-ii/) | Hard | [Binary Search](../../patterns/binary-search.md) | JavaScript | [Explanation](./0212-word-search-ii/Explanation.md) |
+| 213 | [House Robber II](./0213-house-robber-ii/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | JavaScript | [Explanation](./0213-house-robber-ii/Explanation.md) |
 | 214 | [Shortest Palindrome](./0214-shortest-palindrome/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0214-shortest-palindrome/Explanation.md) |
 | 215 | [Kth Largest Element in an Array](./0215-kth-largest-element-in-an-array/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0215-kth-largest-element-in-an-array/Explanation.md) |
 | 216 | [Combination Sum III](./0216-combination-sum-iii/) | Medium | [Backtracking](../../patterns/backtracking.md) | JavaScript | [Explanation](./0216-combination-sum-iii/Explanation.md) |
@@ -267,8 +268,10 @@ A collection of **407** solved LeetCode problems in the range **0001-0500**.
 | 304 | [Range Sum Query 2D - Immutable](./0304-range-sum-query-2d-immutable/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0304-range-sum-query-2d-immutable/Explanation.md) |
 | 306 | [Additive Number](./0306-additive-number/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0306-additive-number/Explanation.md) |
 | 307 | [Range Sum Query - Mutable](./0307-range-sum-query-mutable/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0307-range-sum-query-mutable/Explanation.md) |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown](./0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0309-best-time-to-buy-and-sell-stock-with-cooldown/Explanation.md) |
 | 310 | [Minimum Height Trees](./0310-minimum-height-trees/) | Medium | [Binary Search](../../patterns/binary-search.md) | JavaScript | [Explanation](./0310-minimum-height-trees/Explanation.md) |
 | 312 | [Burst Balloons](./0312-burst-balloons/) | Hard | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0312-burst-balloons/Explanation.md) |
+| 313 | [Super Ugly Number](./0313-super-ugly-number/) | Medium | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0313-super-ugly-number/Explanation.md) |
 | 315 | [Count of Smaller Numbers After Self](./0315-count-of-smaller-numbers-after-self/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0315-count-of-smaller-numbers-after-self/Explanation.md) |
 | 316 | [Remove Duplicate Letters](./0316-remove-duplicate-letters/) | Medium | [Stack & Queue](../../patterns/stack-queue.md) | Python | [Explanation](./0316-remove-duplicate-letters/Explanation.md) |
 | 318 | [Maximum Product of Word Lengths](./0318-maximum-product-of-word-lengths/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0318-maximum-product-of-word-lengths/Explanation.md) |
@@ -290,6 +293,7 @@ A collection of **407** solved LeetCode problems in the range **0001-0500**.
 | 338 | [Counting Bits](./0338-counting-bits/) | Easy | [Binary Search](../../patterns/binary-search.md) | C++, JavaScript | [Explanation](./0338-counting-bits/Explanation.md) |
 | 341 | [Flatten Nested List Iterator](./0341-flatten-nested-list-iterator/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0341-flatten-nested-list-iterator/Explanation.md) |
 | 342 | [Power of Four](./0342-power-of-four/) | Easy | [Bit Manipulation](../../patterns/bit-manipulation.md) | Python | [Explanation](./0342-power-of-four/Explanation.md) |
+| 343 | [Integer Break](./0343-integer-break/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0343-integer-break/Explanation.md) |
 | 344 | [Reverse String](./0344-reverse-string/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0344-reverse-string/Explanation.md) |
 | 345 | [Reverse Vowels of a String](./0345-reverse-vowels-of-a-string/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0345-reverse-vowels-of-a-string/Explanation.md) |
 | 347 | [Top K Frequent Elements](./0347-top-k-frequent-elements/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0347-top-k-frequent-elements/Explanation.md) |
@@ -302,13 +306,14 @@ A collection of **407** solved LeetCode problems in the range **0001-0500**.
 | 363 | [Max Sum of Rectangle No Larger Than K](./0363-max-sum-of-rectangle-no-larger-than-k/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0363-max-sum-of-rectangle-no-larger-than-k/Explanation.md) |
 | 365 | [Water and Jug Problem](./0365-water-and-jug-problem/) | Medium | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./0365-water-and-jug-problem/Explanation.md) |
 | 367 | [Valid Perfect Square](./0367-valid-perfect-square/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0367-valid-perfect-square/Explanation.md) |
-| 368 | [Largest Divisible Subset](./0368-largest-divisible-subset/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0368-largest-divisible-subset/Explanation.md) |
+| 368 | [Largest Divisible Subset](./0368-largest-divisible-subset/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | JavaScript | [Explanation](./0368-largest-divisible-subset/Explanation.md) |
 | 371 | [Sum of Two Integers](./0371-sum-of-two-integers/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0371-sum-of-two-integers/Explanation.md) |
 | 372 | [Super Pow](./0372-super-pow/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0372-super-pow/Explanation.md) |
 | 373 | [Find K Pairs with Smallest Sums](./0373-find-k-pairs-with-smallest-sums/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0373-find-k-pairs-with-smallest-sums/Explanation.md) |
 | 374 | [Guess Number Higher or Lower](./0374-guess-number-higher-or-lower/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0374-guess-number-higher-or-lower/Explanation.md) |
 | 375 | [Guess Number Higher or Lower II](./0375-guess-number-higher-or-lower-ii/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0375-guess-number-higher-or-lower-ii/Explanation.md) |
 | 376 | [Wiggle Subsequence](./0376-wiggle-subsequence/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0376-wiggle-subsequence/Explanation.md) |
+| 377 | [Combination Sum IV](./0377-combination-sum-iv/) | Medium | [Backtracking](../../patterns/backtracking.md) | Python | [Explanation](./0377-combination-sum-iv/Explanation.md) |
 | 378 | [Kth Smallest Element in a Sorted Matrix](./0378-kth-smallest-element-in-a-sorted-matrix/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0378-kth-smallest-element-in-a-sorted-matrix/Explanation.md) |
 | 380 | [Insert Delete GetRandom O(1)](./0380-insert-delete-getrandom-o1/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0380-insert-delete-getrandom-o1/Explanation.md) |
 | 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](./0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0381-insert-delete-getrandom-o1-duplicates-allowed/Explanation.md) |

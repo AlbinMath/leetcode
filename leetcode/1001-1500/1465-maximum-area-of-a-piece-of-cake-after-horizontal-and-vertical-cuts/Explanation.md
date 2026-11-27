@@ -114,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3529. Count Cells in Overlapping Horizontal and Vertical Substrings](../../3501-4000/3529-count-cells-in-overlapping-horizontal-and-vertical-substrings/)
 - [1637. Widest Vertical Area Between Two Points Containing No Points](../../1501-2000/1637-widest-vertical-area-between-two-points-containing-no-points/)
 - [2975. Maximum Square Area by Removing Fences From a Field](../../2501-3000/2975-maximum-square-area-by-removing-fences-from-a-field/)
+- [3380. Maximum Area Rectangle With Point Constraints I](../../3001-3500/3380-maximum-area-rectangle-with-point-constraints-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)

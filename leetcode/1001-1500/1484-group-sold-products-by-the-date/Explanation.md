@@ -146,9 +146,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
-- [49. Group Anagrams](../../0001-0500/0049-group-anagrams/)
-- [1282. Group the People Given the Group Size They Belong To](../../1001-1500/1282-group-the-people-given-the-group-size-they-belong-to/)
+- [1045. Customers Who Bought All Products](../../1001-1500/1045-customers-who-bought-all-products/)
+- [1327. List the Products Ordered in a Period](../../1001-1500/1327-list-the-products-ordered-in-a-period/)
+- [1757. Recyclable and Low Fat Products](../../1501-2000/1757-recyclable-and-low-fat-products/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-sold-products-by-the-date/)

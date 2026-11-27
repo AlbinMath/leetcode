@@ -95,8 +95,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [151. Reverse Words in a String](../../0001-0500/0151-reverse-words-in-a-string/)
+- [3775. Reverse Words With Same Vowel Count](../../3501-4000/3775-reverse-words-with-same-vowel-count/)
 - [344. Reverse String](../../0001-0500/0344-reverse-string/)
-- [345. Reverse Vowels of a String](../../0001-0500/0345-reverse-vowels-of-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-words-in-a-string-iii/)

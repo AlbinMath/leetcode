@@ -159,9 +159,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3022. Minimize OR of Remaining Elements Using Operations](../../3001-3500/3022-minimize-or-of-remaining-elements-using-operations/)
 - [3927. Minimize Array Sum Using Divisible Replacements](../../3501-4000/3927-minimize-array-sum-using-divisible-replacements/)
 - [4062. Transform Array Using Pair Operations](../../4001-4500/4062-transform-array-using-pair-operations/)
-- [3022. Minimize OR of Remaining Elements Using Operations](../../3001-3500/3022-minimize-or-of-remaining-elements-using-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-length-of-array-using-operations/)

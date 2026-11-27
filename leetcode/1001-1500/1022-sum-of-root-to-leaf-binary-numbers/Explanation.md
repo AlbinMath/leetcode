@@ -119,8 +119,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
-- [1080. Insufficient Nodes in Root to Leaf Paths](../../1001-1500/1080-insufficient-nodes-in-root-to-leaf-paths/)
-- [2236. Root Equals Sum of Children](../../2001-2500/2236-root-equals-sum-of-children/)
+- [633. Sum of Square Numbers](../../0501-1000/0633-sum-of-square-numbers/)
+- [829. Consecutive Numbers Sum](../../0501-1000/0829-consecutive-numbers-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)

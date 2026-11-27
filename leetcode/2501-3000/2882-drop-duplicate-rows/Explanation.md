@@ -128,9 +128,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1072-flip-columns-for-maximum-number-of-equal-rows/)
-- [1337. The K Weakest Rows in a Matrix](../../1001-1500/1337-the-k-weakest-rows-in-a-matrix/)
-- [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](../../1001-1500/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
+- [887. Super Egg Drop](../../0501-1000/0887-super-egg-drop/)
+- [1884. Egg Drop With 2 Eggs and N Floors](../../1501-2000/1884-egg-drop-with-2-eggs-and-n-floors/)
+- [2883. Drop Missing Data](../../2501-3000/2883-drop-missing-data/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/drop-duplicate-rows/)

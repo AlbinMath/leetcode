@@ -120,9 +120,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2178. Maximum Split of Positive Even Integers](../../2001-2500/2178-maximum-split-of-positive-even-integers/)
-- [2871. Split Array Into Maximum Number of Subarrays](../../2501-3000/2871-split-array-into-maximum-number-of-subarrays/)
-- [4035. Maximum Valid Split Positions I](../../4001-4500/4035-maximum-valid-split-positions-i/)
+- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1255-maximum-score-words-formed-by-letters/)
+- [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
+- [1537. Get the Maximum Score](../../1501-2000/1537-get-the-maximum-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-of-a-split/)

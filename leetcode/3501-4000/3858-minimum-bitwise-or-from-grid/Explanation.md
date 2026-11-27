@@ -119,9 +119,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3314. Construct the Minimum Bitwise Array I](../../3001-3500/3314-construct-the-minimum-bitwise-array-i/)
+- [3315. Construct the Minimum Bitwise Array II](../../3001-3500/3315-construct-the-minimum-bitwise-array-ii/)
 - [1130. Minimum Cost Tree From Leaf Values](../../1001-1500/1130-minimum-cost-tree-from-leaf-values/)
-- [1889. Minimum Space Wasted From Packaging](../../1501-2000/1889-minimum-space-wasted-from-packaging/)
-- [2091. Removing Minimum and Maximum From Array](../../2001-2500/2091-removing-minimum-and-maximum-from-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-bitwise-or-from-grid/)

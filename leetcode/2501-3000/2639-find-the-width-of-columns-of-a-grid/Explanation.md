@@ -105,9 +105,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3989. Maximum Consistent Columns in a Grid](../../3501-4000/3989-maximum-consistent-columns-in-a-grid/)
 - [2812. Find the Safest Path in a Grid](../../2501-3000/2812-find-the-safest-path-in-a-grid/)
 - [3030. Find the Grid of Region Average](../../3001-3500/3030-find-the-grid-of-region-average/)
+- [3286. Find a Safe Walk Through a Grid](../../3001-3500/3286-find-a-safe-walk-through-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)

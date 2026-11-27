@@ -102,9 +102,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [601. Human Traffic of Stadium](../../0501-1000/0601-human-traffic-of-stadium/)
+- [4025. Minimize the Maximum Waiting Time at Synchronized Traffic Lights](../../4001-4500/4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/)
 - [1812. Determine Color of a Chessboard Square](../../1501-2000/1812-determine-color-of-a-chessboard-square/)
-- [1857. Largest Color Value in a Directed Graph](../../1501-2000/1857-largest-color-value-in-a-directed-graph/)
-- [2038. Remove Colored Pieces if Both Neighbors are the Same Color](../../2001-2500/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/traffic-signal-color/)

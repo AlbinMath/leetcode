@@ -119,9 +119,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1295-find-numbers-with-even-number-of-digits/)
-- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [1945. Sum of Digits of String After Convert](../../1501-2000/1945-sum-of-digits-of-string-after-convert/)
+- [777. Swap Adjacent in LR String](../../0501-1000/0777-swap-adjacent-in-lr-string/)
+- [1047. Remove All Adjacent Duplicates In String](../../1001-1500/1047-remove-all-adjacent-duplicates-in-string/)
+- [1209. Remove All Adjacent Duplicates in String II](../../1001-1500/1209-remove-all-adjacent-duplicates-in-string-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)

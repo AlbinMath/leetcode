@@ -109,9 +109,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [149. Max Points on a Line](../../0001-0500/0149-max-points-on-a-line/)
-- [780. Reaching Points](../../0501-1000/0780-reaching-points/)
-- [973. K Closest Points to Origin](../../0501-1000/0973-k-closest-points-to-origin/)
+- [1074. Number of Submatrices That Sum to Target](../../1001-1500/1074-number-of-submatrices-that-sum-to-target/)
+- [1160. Find Words That Can Be Formed by Characters](../../1001-1500/1160-find-words-that-can-be-formed-by-characters/)
+- [1222. Queens That Can Attack the King](../../1001-1500/1222-queens-that-can-attack-the-king/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/points-that-intersect-with-cars/)

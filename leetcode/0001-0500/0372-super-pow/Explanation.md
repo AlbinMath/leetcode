@@ -103,9 +103,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [313. Super Ugly Number](../../0001-0500/0313-super-ugly-number/)
 - [517. Super Washing Machines](../../0501-1000/0517-super-washing-machines/)
 - [887. Super Egg Drop](../../0501-1000/0887-super-egg-drop/)
-- [906. Super Palindromes](../../0501-1000/0906-super-palindromes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/super-pow/)

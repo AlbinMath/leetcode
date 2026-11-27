@@ -122,9 +122,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3283. Maximum Number of Moves to Kill All Pawns](../../3001-3500/3283-maximum-number-of-moves-to-kill-all-pawns/)
 - [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2503-maximum-number-of-points-from-grid-queries/)
 - [2658. Maximum Number of Fish in a Grid](../../2501-3000/2658-maximum-number-of-fish-in-a-grid/)
-- [3283. Maximum Number of Moves to Kill All Pawns](../../3001-3500/3283-maximum-number-of-moves-to-kill-all-pawns/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)

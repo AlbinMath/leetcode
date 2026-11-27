@@ -170,9 +170,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [207. Course Schedule](../../0001-0500/0207-course-schedule/)
-- [210. Course Schedule II](../../0001-0500/0210-course-schedule-ii/)
-- [630. Course Schedule III](../../0501-1000/0630-course-schedule-iii/)
+- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
+- [478. Generate Random Point in a Circle](../../0001-0500/0478-generate-random-point-in-a-circle/)
+- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1374-generate-a-string-with-characters-that-have-odd-counts/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-schedule/)

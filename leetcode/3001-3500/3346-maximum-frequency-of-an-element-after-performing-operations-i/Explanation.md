@@ -134,8 +134,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3347. Maximum Frequency of an Element After Performing Operations II](../../3001-3500/3347-maximum-frequency-of-an-element-after-performing-operations-ii/)
+- [3434. Maximum Frequency After Subarray Operation](../../3001-3500/3434-maximum-frequency-after-subarray-operation/)
 - [1846. Maximum Element After Decreasing and Rearranging](../../1501-2000/1846-maximum-element-after-decreasing-and-rearranging/)
-- [2789. Largest Element in an Array after Merge Operations](../../2501-3000/2789-largest-element-in-an-array-after-merge-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/)

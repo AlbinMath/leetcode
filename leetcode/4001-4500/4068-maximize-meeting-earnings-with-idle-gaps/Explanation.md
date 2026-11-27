@@ -141,9 +141,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [2008. Maximum Earnings From Taxi](../../2001-2500/2008-maximum-earnings-from-taxi/)
+- [2039. The Time When the Network Becomes Idle](../../2001-2500/2039-the-time-when-the-network-becomes-idle/)
+- [849. Maximize Distance to Closest Person](../../0501-1000/0849-maximize-distance-to-closest-person/)
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
-- [1330. Reverse Subarray To Maximize Array Value](../../1001-1500/1330-reverse-subarray-to-maximize-array-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-meeting-earnings-with-idle-gaps/)

@@ -116,9 +116,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [372. Super Pow](../../0001-0500/0372-super-pow/)
-- [517. Super Washing Machines](../../0501-1000/0517-super-washing-machines/)
-- [906. Super Palindromes](../../0501-1000/0906-super-palindromes/)
+- [1884. Egg Drop With 2 Eggs and N Floors](../../1501-2000/1884-egg-drop-with-2-eggs-and-n-floors/)
+- [2882. Drop Duplicate Rows](../../2501-3000/2882-drop-duplicate-rows/)
+- [2883. Drop Missing Data](../../2501-3000/2883-drop-missing-data/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/super-egg-drop/)

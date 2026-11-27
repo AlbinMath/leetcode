@@ -124,8 +124,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2476. Closest Nodes Queries in a Binary Search Tree](../../2001-2500/2476-closest-nodes-queries-in-a-binary-search-tree/)
-- [27. Remove Element](../../0001-0500/0027-remove-element/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [16. 3Sum Closest](../../0001-0500/0016-3sum-closest/)
+- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/closest-equal-element-queries/)

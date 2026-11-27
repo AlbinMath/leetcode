@@ -110,9 +110,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1131. Maximum of Absolute Value Expression](../../1001-1500/1131-maximum-of-absolute-value-expression/)
 - [1802. Maximum Value at a Given Index in a Bounded Array](../../1501-2000/1802-maximum-value-at-a-given-index-in-a-bounded-array/)
 - [1881. Maximum Value after Insertion](../../1501-2000/1881-maximum-value-after-insertion/)
-- [2218. Maximum Value of K Coins From Piles](../../2001-2500/2218-maximum-value-of-k-coins-from-piles/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-erasure-value/)

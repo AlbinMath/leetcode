@@ -109,8 +109,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3800. Minimum Cost to Make Two Binary Strings Equal](../../3501-4000/3800-minimum-cost-to-make-two-binary-strings-equal/)
-- [1864. Minimum Number of Swaps to Make the Binary String Alternating](../../1501-2000/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
-- [1963. Minimum Number of Swaps to Make the String Balanced](../../1501-2000/1963-minimum-number-of-swaps-to-make-the-string-balanced/)
+- [801. Minimum Swaps To Make Sequences Increasing](../../0501-1000/0801-minimum-swaps-to-make-sequences-increasing/)
+- [1318. Minimum Flips to Make a OR b Equal to c](../../1001-1500/1318-minimum-flips-to-make-a-or-b-equal-to-c/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)

@@ -103,8 +103,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [263. Ugly Number](../../0001-0500/0263-ugly-number/)
+- [313. Super Ugly Number](../../0001-0500/0313-super-ugly-number/)
 - [1201. Ugly Number III](../../1001-1500/1201-ugly-number-iii/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/ugly-number-ii/)

@@ -130,8 +130,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2897. Apply Operations on Array to Maximize Sum of Squares](../../2501-3000/2897-apply-operations-on-array-to-maximize-sum-of-squares/)
-- [2778. Sum of Squares of Special Elements ](../../2501-3000/2778-sum-of-squares-of-special-elements/)
-- [2913. Subarrays Distinct Element Sum of Squares I](../../2501-3000/2913-subarrays-distinct-element-sum-of-squares-i/)
+- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1281-subtract-the-product-and-sum-of-digits-of-an-integer/)
+- [1837. Sum of Digits in Base K](../../1501-2000/1837-sum-of-digits-in-base-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/)

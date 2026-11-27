@@ -290,7 +290,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3517. Smallest Palindromic Rearrangement I](../../3501-4000/3517-smallest-palindromic-rearrangement-i/)
 - [3734. Lexicographically Smallest Palindromic Permutation Greater Than Target](../../3501-4000/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/)
-- [2983. Palindrome Rearrangement Queries](../../2501-3000/2983-palindrome-rearrangement-queries/)
+- [230. Kth Smallest Element in a BST](../../0001-0500/0230-kth-smallest-element-in-a-bst/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/)

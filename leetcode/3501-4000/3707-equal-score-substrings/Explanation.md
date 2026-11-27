@@ -114,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1208. Get Equal Substrings Within Budget](../../1001-1500/1208-get-equal-substrings-within-budget/)
 - [1717. Maximum Score From Removing Substrings](../../1501-2000/1717-maximum-score-from-removing-substrings/)
-- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
+- [1208. Get Equal Substrings Within Budget](../../1001-1500/1208-get-equal-substrings-within-budget/)
+- [798. Smallest Rotation with Highest Score](../../0501-1000/0798-smallest-rotation-with-highest-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/equal-score-substrings/)

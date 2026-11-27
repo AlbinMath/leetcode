@@ -158,9 +158,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2011. Final Value of Variable After Performing Operations](../../2001-2500/2011-final-value-of-variable-after-performing-operations/)
-- [3346. Maximum Frequency of an Element After Performing Operations I](../../3001-3500/3346-maximum-frequency-of-an-element-after-performing-operations-i/)
-- [3347. Maximum Frequency of an Element After Performing Operations II](../../3001-3500/3347-maximum-frequency-of-an-element-after-performing-operations-ii/)
+- [861. Score After Flipping Matrix](../../0501-1000/0861-score-after-flipping-matrix/)
+- [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
+- [1770. Maximum Score from Performing Multiplication Operations](../../1501-2000/1770-maximum-score-from-performing-multiplication-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculate-score-after-performing-instructions/)

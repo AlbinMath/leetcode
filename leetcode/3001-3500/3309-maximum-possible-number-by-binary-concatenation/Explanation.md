@@ -104,8 +104,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2864. Maximum Odd Binary Number](../../2501-3000/2864-maximum-odd-binary-number/)
-- [1191. K-Concatenation Maximum Sum](../../1001-1500/1191-k-concatenation-maximum-sum/)
-- [1680. Concatenation of Consecutive Binary Numbers](../../1501-2000/1680-concatenation-of-consecutive-binary-numbers/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
+- [2959. Number of Possible Sets of Closing Branches](../../2501-3000/2959-number-of-possible-sets-of-closing-branches/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/)

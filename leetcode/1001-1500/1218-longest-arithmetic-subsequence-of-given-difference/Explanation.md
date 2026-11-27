@@ -112,7 +112,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1027. Longest Arithmetic Subsequence](../../1001-1500/1027-longest-arithmetic-subsequence/)
 - [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
-- [446. Arithmetic Slices II - Subsequence](../../0001-0500/0446-arithmetic-slices-ii-subsequence/)
+- [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)

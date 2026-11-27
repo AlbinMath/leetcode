@@ -119,9 +119,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2516. Take K of Each Character From Left and Right](../../2501-3000/2516-take-k-of-each-character-from-left-and-right/)
 - [404. Sum of Left Leaves](../../0001-0500/0404-sum-of-left-leaves/)
-- [1685. Sum of Absolute Differences in a Sorted Array](../../1501-2000/1685-sum-of-absolute-differences-in-a-sorted-array/)
+- [2516. Take K of Each Character From Left and Right](../../2501-3000/2516-take-k-of-each-character-from-left-and-right/)
+- [3070. Count Submatrices with Top-Left Element and Sum Less Than k](../../3001-3500/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/left-and-right-sum-differences/)

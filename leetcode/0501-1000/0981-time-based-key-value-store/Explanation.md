@@ -142,9 +142,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2064. Minimized Maximum of Products Distributed to Any Store](../../2001-2500/2064-minimized-maximum-of-products-distributed-to-any-store/)
-- [2151. Maximum Good People Based on Statements](../../2001-2500/2151-maximum-good-people-based-on-statements/)
-- [2468. Split Message Based on Limit](../../2001-2500/2468-split-message-based-on-limit/)
+- [482. License Key Formatting](../../0001-0500/0482-license-key-formatting/)
+- [1409. Queries on a Permutation With Key](../../1001-1500/1409-queries-on-a-permutation-with-key/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/time-based-key-value-store/)

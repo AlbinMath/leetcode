@@ -107,9 +107,9 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [570. Managers with at Least 5 Direct Reports](../../0501-1000/0570-managers-with-at-least-5-direct-reports/)
-- [596. Classes With at Least 5 Students](../../0501-1000/0596-classes-with-at-least-5-students/)
-- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
+- [1375. Number of Times Binary String Is Prefix-Aligned](../../1001-1500/1375-number-of-times-binary-string-is-prefix-aligned/)
+- [368. Largest Divisible Subset](../../0001-0500/0368-largest-divisible-subset/)
+- [974. Subarray Sums Divisible by K](../../0501-1000/0974-subarray-sums-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-prefix-divisible-by-5/)

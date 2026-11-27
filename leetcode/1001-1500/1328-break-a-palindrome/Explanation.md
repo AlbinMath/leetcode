@@ -108,7 +108,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [139. Word Break](../../0001-0500/0139-word-break/)
 - [140. Word Break II](../../0001-0500/0140-word-break-ii/)
-- [1433. Check If a String Can Break Another String](../../1001-1500/1433-check-if-a-string-can-break-another-string/)
+- [343. Integer Break](../../0001-0500/0343-integer-break/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/break-a-palindrome/)

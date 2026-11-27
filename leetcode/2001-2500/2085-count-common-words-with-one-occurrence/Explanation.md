@@ -125,9 +125,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1638. Count Substrings That Differ by One Character](../../1501-2000/1638-count-substrings-that-differ-by-one-character/)
 - [2135. Count Words Obtained After Adding a Letter](../../2001-2500/2135-count-words-obtained-after-adding-a-letter/)
 - [3775. Reverse Words With Same Vowel Count](../../3501-4000/3775-reverse-words-with-same-vowel-count/)
+- [1638. Count Substrings That Differ by One Character](../../1501-2000/1638-count-substrings-that-differ-by-one-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-common-words-with-one-occurrence/)

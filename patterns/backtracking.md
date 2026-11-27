@@ -29,6 +29,7 @@ A collection of LeetCode problems solved using **Backtracking** pattern techniqu
 | 93 | [Restore IP Addresses](../leetcode/0001-0500/0093-restore-ip-addresses/) | JavaScript, Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0093-restore-ip-addresses/Explanation.md) |
 | 113 | [Path Sum II](../leetcode/0001-0500/0113-path-sum-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0113-path-sum-ii/Explanation.md) |
 | 216 | [Combination Sum III](../leetcode/0001-0500/0216-combination-sum-iii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0216-combination-sum-iii/Explanation.md) |
+| 377 | [Combination Sum IV](../leetcode/0001-0500/0377-combination-sum-iv/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0377-combination-sum-iv/Explanation.md) |
 | 437 | [Path Sum III](../leetcode/0001-0500/0437-path-sum-iii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0437-path-sum-iii/Explanation.md) |
 | 473 | [Matchsticks to Square](../leetcode/0001-0500/0473-matchsticks-to-square/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0473-matchsticks-to-square/Explanation.md) |
 | 526 | [Beautiful Arrangement](../leetcode/0501-1000/0526-beautiful-arrangement/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0526-beautiful-arrangement/Explanation.md) |
@@ -63,6 +64,7 @@ A collection of LeetCode problems solved using **Backtracking** pattern techniqu
 | 126 | [Word Ladder II](../leetcode/0001-0500/0126-word-ladder-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0126-word-ladder-ii/Explanation.md) |
 | 301 | [Remove Invalid Parentheses](../leetcode/0001-0500/0301-remove-invalid-parentheses/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0301-remove-invalid-parentheses/Explanation.md) |
 | 903 | [Valid Permutations for DI Sequence](../leetcode/0501-1000/0903-valid-permutations-for-di-sequence/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0903-valid-permutations-for-di-sequence/Explanation.md) |
+| 1220 | [Count Vowels Permutation](../leetcode/1001-1500/1220-count-vowels-permutation/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1220-count-vowels-permutation/Explanation.md) |
 | 2056 | [Number of Valid Move Combinations On Chessboard](../leetcode/2001-2500/2056-number-of-valid-move-combinations-on-chessboard/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2056-number-of-valid-move-combinations-on-chessboard/Explanation.md) |
 | 3116 | [Kth Smallest Amount With Single Denomination Combination](../leetcode/3001-3500/3116-kth-smallest-amount-with-single-denomination-combination/) | Java | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3116-kth-smallest-amount-with-single-denomination-combination/Explanation.md) |
 | 3149 | [Find the Minimum Cost Array Permutation](../leetcode/3001-3500/3149-find-the-minimum-cost-array-permutation/) | Python | O(n) | O(1) | [Explanation](../leetcode/3001-3500/3149-find-the-minimum-cost-array-permutation/Explanation.md) |
