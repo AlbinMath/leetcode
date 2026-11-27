@@ -119,8 +119,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2791. Count Paths That Can Form a Palindrome in a Tree](../../2501-3000/2791-count-paths-that-can-form-a-palindrome-in-a-tree/)
-- [2201. Count Artifacts That Can Be Extracted](../../2001-2500/2201-count-artifacts-that-can-be-extracted/)
-- [3184. Count Pairs That Form a Complete Day I](../../3001-3500/3184-count-pairs-that-form-a-complete-day-i/)
+- [1460. Make Two Arrays Equal by Reversing Subarrays](../../1001-1500/1460-make-two-arrays-equal-by-reversing-subarrays/)
+- [1879. Minimum XOR Sum of Two Arrays](../../1501-2000/1879-minimum-xor-sum-of-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)

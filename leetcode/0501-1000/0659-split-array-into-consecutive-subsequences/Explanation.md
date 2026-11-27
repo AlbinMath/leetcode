@@ -1,7 +1,7 @@
 # LeetCode 659: Split Array into Consecutive Subsequences
 
 **LeetCode Problem #659 — Split Array into Consecutive Subsequences**
-Solve LeetCode Split Array into Consecutive Subsequences using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
+Solve LeetCode Split Array into Consecutive Subsequences using Python and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Split Array into Consecutive Subsequences using Python and Dynami
 | LeetCode | #659 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Memoization & State Transition |
-| Data Structure | DP Table / Array |
-| Pattern | Dynamic Programming |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
 | Space Complexity | O(n) |
 
@@ -52,7 +52,7 @@ A **subsequence** of an array is a new array that is formed from the original ar
 - **Explanation:** It is impossible to split nums into consecutive increasing subsequences of length 3 or more.
 
 ## Key Insight
-Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
 To solve **Split Array into Consecutive Subsequences**, we observe the problem requirements and utilize the **Dynamic Programming** technique. By maintaining a **DP Table / Array**, we can store elements and their corresponding indices or frequencies. This allows us to look up complements or past values in $O(1)$ time instead of scanning through nested iterations.
@@ -65,7 +65,7 @@ To solve **Split Array into Consecutive Subsequences**, we observe the problem r
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [1,2,3,3,4,5]`.
-2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `true`.
@@ -74,15 +74,15 @@ To solve **Split Array into Consecutive Subsequences**, we observe the problem r
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Dynamic Programming**
+**Hash Map**
 
 ## Topics
-- Dynamic Programming
-- Memoization
-- State Transition
+- Hash Table
+- Array
+- Complement Lookup
 
 ## Language
 Python
@@ -119,16 +119,16 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Incorrect base case initialization.
-2. Flawed state transition equation.
-3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
-- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
 - [842. Split Array into Fibonacci Sequence](../../0501-1000/0842-split-array-into-fibonacci-sequence/)

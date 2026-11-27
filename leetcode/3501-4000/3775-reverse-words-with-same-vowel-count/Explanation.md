@@ -131,7 +131,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1641. Count Sorted Vowel Strings](../../1501-2000/1641-count-sorted-vowel-strings/)
 - [2062. Count Vowel Substrings of a String](../../2001-2500/2062-count-vowel-substrings-of-a-string/)
-- [2085. Count Common Words With One Occurrence](../../2001-2500/2085-count-common-words-with-one-occurrence/)
+- [2559. Count Vowel Strings in Ranges](../../2501-3000/2559-count-vowel-strings-in-ranges/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-words-with-same-vowel-count/)

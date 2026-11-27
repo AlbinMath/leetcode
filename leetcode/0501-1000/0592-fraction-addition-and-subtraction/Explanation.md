@@ -107,9 +107,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [166. Fraction to Recurring Decimal](../../0001-0500/0166-fraction-to-recurring-decimal/)
-- [786. K-th Smallest Prime Fraction](../../0501-1000/0786-k-th-smallest-prime-fraction/)
-- [2601. Prime Subtraction Operation](../../2501-3000/2601-prime-subtraction-operation/)
+- [598. Range Addition II](../../0501-1000/0598-range-addition-ii/)
+- [3243. Shortest Distance After Road Addition Queries I](../../3001-3500/3243-shortest-distance-after-road-addition-queries-i/)
+- [3244. Shortest Distance After Road Addition Queries II](../../3001-3500/3244-shortest-distance-after-road-addition-queries-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fraction-addition-and-subtraction/)

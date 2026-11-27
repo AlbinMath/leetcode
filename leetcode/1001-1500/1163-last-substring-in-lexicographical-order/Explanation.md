@@ -105,7 +105,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [440. K-th Smallest in Lexicographical Order](../../0001-0500/0440-k-th-smallest-in-lexicographical-order/)
 - [1839. Longest Substring Of All Vowels in Order](../../1501-2000/1839-longest-substring-of-all-vowels-in-order/)
-- [102. Binary Tree Level Order Traversal](../../0001-0500/0102-binary-tree-level-order-traversal/)
+- [386. Lexicographical Numbers](../../0001-0500/0386-lexicographical-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-substring-in-lexicographical-order/)

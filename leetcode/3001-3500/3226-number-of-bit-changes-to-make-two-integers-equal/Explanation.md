@@ -103,8 +103,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3377. Digit Operations to Make Two Integers Equal](../../3001-3500/3377-digit-operations-to-make-two-integers-equal/)
-- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1347-minimum-number-of-steps-to-make-two-strings-anagram/)
-- [1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers](../../1501-2000/1577-number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)
+- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1611-minimum-one-bit-operations-to-make-integers-zero/)
+- [3621. Number of Integers With Popcount-Depth Equal to K I](../../3501-4000/3621-number-of-integers-with-popcount-depth-equal-to-k-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)

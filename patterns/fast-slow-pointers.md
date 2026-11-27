@@ -22,6 +22,7 @@ A collection of LeetCode problems solved using **Fast & Slow Pointers** pattern 
 | 143 | [Reorder List](../leetcode/0001-0500/0143-reorder-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0143-reorder-list/Explanation.md) |
 | 148 | [Sort List](../leetcode/0001-0500/0148-sort-list/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0148-sort-list/Explanation.md) |
 | 287 | [Find the Duplicate Number](../leetcode/0001-0500/0287-find-the-duplicate-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0287-find-the-duplicate-number/Explanation.md) |
+| 457 | [Circular Array Loop](../leetcode/0001-0500/0457-circular-array-loop/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0457-circular-array-loop/Explanation.md) |
 | 1559 | [Detect Cycles in 2D Grid](../leetcode/1501-2000/1559-detect-cycles-in-2d-grid/) | Python | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1559-detect-cycles-in-2d-grid/Explanation.md) |
 | 2095 | [Delete the Middle Node of a Linked List](../leetcode/2001-2500/2095-delete-the-middle-node-of-a-linked-list/) | Java, JavaScript | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2095-delete-the-middle-node-of-a-linked-list/Explanation.md) |
 | 2130 | [Maximum Twin Sum of a Linked List](../leetcode/2001-2500/2130-maximum-twin-sum-of-a-linked-list/) | Java, JavaScript | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2130-maximum-twin-sum-of-a-linked-list/Explanation.md) |

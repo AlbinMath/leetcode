@@ -132,7 +132,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1979. Find Greatest Common Divisor of Array](../../1501-2000/1979-find-greatest-common-divisor-of-array/)
 - [2709. Greatest Common Divisor Traversal](../../2501-3000/2709-greatest-common-divisor-traversal/)
-- [3485. Longest Common Prefix of K Strings After Removal](../../3001-3500/3485-longest-common-prefix-of-k-strings-after-removal/)
+- [2807. Insert Greatest Common Divisors in Linked List](../../2501-3000/2807-insert-greatest-common-divisors-in-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/greatest-common-divisor-of-strings/)

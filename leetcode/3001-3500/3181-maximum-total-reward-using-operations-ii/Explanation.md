@@ -103,8 +103,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3180. Maximum Total Reward Using Operations I](../../3001-3500/3180-maximum-total-reward-using-operations-i/)
-- [1959. Minimum Total Space Wasted With K Resizing Operations](../../1501-2000/1959-minimum-total-space-wasted-with-k-resizing-operations/)
-- [2317. Maximum XOR After Operations ](../../2001-2500/2317-maximum-xor-after-operations/)
+- [3012. Minimize Length of Array Using Operations](../../3001-3500/3012-minimize-length-of-array-using-operations/)
+- [3022. Minimize OR of Remaining Elements Using Operations](../../3001-3500/3022-minimize-or-of-remaining-elements-using-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-reward-using-operations-ii/)

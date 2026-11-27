@@ -132,9 +132,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1929. Concatenation of Array](../../1501-2000/1929-concatenation-of-array/)
+- [2562. Find the Array Concatenation Value](../../2501-3000/2562-find-the-array-concatenation-value/)
 - [1250. Check If It Is a Good Array](../../1001-1500/1250-check-if-it-is-a-good-array/)
-- [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
-- [1752. Check if Array Is Sorted and Rotated](../../1501-2000/1752-check-if-array-is-sorted-and-rotated/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-array-formation-through-concatenation/)

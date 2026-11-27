@@ -112,9 +112,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [192. Word Frequency](../../0001-0500/0192-word-frequency/)
-- [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
-- [895. Maximum Frequency Stack](../../0501-1000/0895-maximum-frequency-stack/)
+- [3139. Minimum Cost to Equalize Array](../../3001-3500/3139-minimum-cost-to-equalize-array/)
+- [3666. Minimum Operations to Equalize Binary String](../../3501-4000/3666-minimum-operations-to-equalize-binary-string/)
+- [3674. Minimum Operations to Equalize Array](../../3501-4000/3674-minimum-operations-to-equalize-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)

@@ -191,9 +191,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1656. Design an Ordered Stream](../../1501-2000/1656-design-an-ordered-stream/)
-- [2717. Semi-Ordered Permutation](../../2501-3000/2717-semi-ordered-permutation/)
-- [2873. Maximum Value of an Ordered Triplet I](../../2501-3000/2873-maximum-value-of-an-ordered-triplet-i/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [61. Rotate List](../../0001-0500/0061-rotate-list/)
+- [82. Remove Duplicates from Sorted List II](../../0001-0500/0082-remove-duplicates-from-sorted-list-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)

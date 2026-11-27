@@ -139,7 +139,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [673. Number of Longest Increasing Subsequence](../../0501-1000/0673-number-of-longest-increasing-subsequence/)
 - [2790. Maximum Number of Groups With Increasing Length](../../2501-3000/2790-maximum-number-of-groups-with-increasing-length/)
-- [1301. Number of Paths with Max Score](../../1001-1500/1301-number-of-paths-with-max-score/)
+- [2503. Maximum Number of Points From Grid Queries](../../2501-3000/2503-maximum-number-of-points-from-grid-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/)

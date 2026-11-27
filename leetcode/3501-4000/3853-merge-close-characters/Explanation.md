@@ -114,9 +114,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1657. Determine if Two Strings Are Close](../../1501-2000/1657-determine-if-two-strings-are-close/)
 - [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
 - [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
+- [56. Merge Intervals](../../0001-0500/0056-merge-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-close-characters/)

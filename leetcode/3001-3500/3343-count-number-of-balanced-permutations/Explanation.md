@@ -192,8 +192,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3577. Count the Number of Computer Unlocking Permutations](../../3501-4000/3577-count-the-number-of-computer-unlocking-permutations/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
-- [1395. Count Number of Teams](../../1001-1500/1395-count-number-of-teams/)
+- [1963. Minimum Number of Swaps to Make the String Balanced](../../1501-2000/1963-minimum-number-of-swaps-to-make-the-string-balanced/)
+- [2048. Next Greater Numerically Balanced Number](../../2001-2500/2048-next-greater-numerically-balanced-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-balanced-permutations/)

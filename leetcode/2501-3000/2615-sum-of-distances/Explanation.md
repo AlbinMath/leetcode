@@ -133,8 +133,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [834. Sum of Distances in Tree](../../0501-1000/0834-sum-of-distances-in-tree/)
-- [3102. Minimize Manhattan Distances](../../3001-3500/3102-minimize-manhattan-distances/)
-- [3426. Manhattan Distances of All Arrangements of Pieces](../../3001-3500/3426-manhattan-distances-of-all-arrangements-of-pieces/)
+- [1. Two Sum](../../0001-0500/0001-two-sum/)
+- [39. Combination Sum](../../0001-0500/0039-combination-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-distances/)

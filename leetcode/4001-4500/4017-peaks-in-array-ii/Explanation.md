@@ -223,8 +223,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3187. Peaks in Array](../../3001-3500/3187-peaks-in-array/)
+- [2951. Find the Peaks](../../2501-3000/2951-find-the-peaks/)
 - [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/peaks-in-array-ii/)

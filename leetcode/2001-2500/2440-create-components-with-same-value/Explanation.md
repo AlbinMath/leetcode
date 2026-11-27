@@ -141,9 +141,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [817. Linked List Components](../../0501-1000/0817-linked-list-components/)
-- [2685. Count the Number of Complete Components](../../2501-3000/2685-count-the-number-of-complete-components/)
-- [3378. Count Connected Components in LCM Graph](../../3001-3500/3378-count-connected-components-in-lcm-graph/)
+- [100. Same Tree](../../0001-0500/0100-same-tree/)
+- [805. Split Array With Same Average](../../0501-1000/0805-split-array-with-same-average/)
+- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-components-with-same-value/)

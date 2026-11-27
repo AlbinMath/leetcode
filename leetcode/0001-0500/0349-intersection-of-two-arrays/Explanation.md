@@ -91,8 +91,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [350. Intersection of Two Arrays II](../../0001-0500/0350-intersection-of-two-arrays-ii/)
-- [160. Intersection of Two Linked Lists](../../0001-0500/0160-intersection-of-two-linked-lists/)
-- [2248. Intersection of Multiple Arrays](../../2001-2500/2248-intersection-of-multiple-arrays/)
+- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
+- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1385-find-the-distance-value-between-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/intersection-of-two-arrays/)

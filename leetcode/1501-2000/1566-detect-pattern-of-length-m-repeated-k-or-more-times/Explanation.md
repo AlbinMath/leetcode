@@ -119,7 +119,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2014. Longest Subsequence Repeated k Times](../../2001-2500/2014-longest-subsequence-repeated-k-times/)
 - [3473. Sum of K Subarrays With Length at Least M](../../3001-3500/3473-sum-of-k-subarrays-with-length-at-least-m/)
-- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1001-1500/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+- [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)

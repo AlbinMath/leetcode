@@ -120,7 +120,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [747. Largest Number At Least Twice of Others](../../0501-1000/0747-largest-number-at-least-twice-of-others/)
 - [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [282. Expression Add Operators](../../0001-0500/0282-expression-add-operators/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/least-operators-to-express-number/)

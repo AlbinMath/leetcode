@@ -127,9 +127,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
-- [65. Valid Number](../../0001-0500/0065-valid-number/)
+- [1587. Bank Account Summary II](../../1501-2000/1587-bank-account-summary-ii/)
+- [1716. Calculate Money in Leetcode Bank](../../1501-2000/1716-calculate-money-in-leetcode-bank/)
+- [2043. Simple Bank System](../../2001-2500/2043-simple-bank-system/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)

@@ -134,9 +134,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [3630. Partition Array for Maximum XOR and AND](../../3501-4000/3630-partition-array-for-maximum-xor-and-and/)
 - [1569. Number of Ways to Reorder Array to Get Same BST](../../1501-2000/1569-number-of-ways-to-reorder-array-to-get-same-bst/)
 - [2270. Number of Ways to Split Array](../../2001-2500/2270-number-of-ways-to-split-array/)
-- [2341. Maximum Number of Pairs in Array](../../2001-2500/2341-maximum-number-of-pairs-in-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)

@@ -99,8 +99,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [166. Fraction to Recurring Decimal](../../0001-0500/0166-fraction-to-recurring-decimal/)
-- [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
-- [1238. Circular Permutation in Binary Representation](../../1001-1500/1238-circular-permutation-in-binary-representation/)
+- [1089. Duplicate Zeros](../../1001-1500/1089-duplicate-zeros/)
+- [1869. Longer Contiguous Segments of Ones than Zeros](../../1501-2000/1869-longer-contiguous-segments-of-ones-than-zeros/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-zeros-in-decimal-representation/)

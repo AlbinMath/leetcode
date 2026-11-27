@@ -120,7 +120,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3287. Find the Maximum Sequence Value of Array](../../3001-3500/3287-find-the-maximum-sequence-value-of-array/)
 - [4098. Minimize the Maximum Value of GCD-Connected Array](../../4001-4500/4098-minimize-the-maximum-value-of-gcd-connected-array/)
-- [852. Peak Index in a Mountain Array](../../0501-1000/0852-peak-index-in-a-mountain-array/)
+- [3845. Maximum Subarray XOR with Bounded Range](../../3501-4000/3845-maximum-subarray-xor-with-bounded-range/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)

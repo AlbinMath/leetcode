@@ -114,8 +114,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3823. Reverse Letters Then Special Characters in a String](../../3501-4000/3823-reverse-letters-then-special-characters-in-a-string/)
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
-- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
+- [1513. Number of Substrings With Only 1s](../../1501-2000/1513-number-of-substrings-with-only-1s/)
+- [316. Remove Duplicate Letters](../../0001-0500/0316-remove-duplicate-letters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-only-letters/)

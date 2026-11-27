@@ -118,7 +118,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1585. Check If String Is Transformable With Substring Sort Operations](../../1501-2000/1585-check-if-string-is-transformable-with-substring-sort-operations/)
 - [3863. Minimum Operations to Sort a String](../../3501-4000/3863-minimum-operations-to-sort-a-string/)
-- [2693. Call Function with Custom Context](../../2501-3000/2693-call-function-with-custom-context/)
+- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/custom-sort-string/)

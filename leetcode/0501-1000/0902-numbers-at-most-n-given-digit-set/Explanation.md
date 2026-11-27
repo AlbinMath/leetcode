@@ -122,8 +122,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3352. Count K-Reducible Numbers Less Than N](../../3001-3500/3352-count-k-reducible-numbers-less-than-n/)
-- [3883. Count Non Decreasing Arrays With Given Digit Sums](../../3501-4000/3883-count-non-decreasing-arrays-with-given-digit-sums/)
 - [2094. Finding 3-Digit Even Numbers](../../2001-2500/2094-finding-3-digit-even-numbers/)
+- [2310. Sum of Numbers With Units Digit K](../../2001-2500/2310-sum-of-numbers-with-units-digit-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)

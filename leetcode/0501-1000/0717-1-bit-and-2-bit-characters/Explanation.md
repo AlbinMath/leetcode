@@ -107,9 +107,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [869. Reordered Power of 2](../../0501-1000/0869-reordered-power-of-2/)
-- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1253-reconstruct-a-2-row-binary-matrix/)
-- [995. Minimum Number of K Consecutive Bit Flips](../../0501-1000/0995-minimum-number-of-k-consecutive-bit-flips/)
+- [191. Number of 1 Bits](../../0001-0500/0191-number-of-1-bits/)
+- [1016. Binary String With Substrings Representing 1 To N](../../1001-1500/1016-binary-string-with-substrings-representing-1-to-n/)
+- [1139. Largest 1-Bordered Square](../../1001-1500/1139-largest-1-bordered-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/1-bit-and-2-bit-characters/)

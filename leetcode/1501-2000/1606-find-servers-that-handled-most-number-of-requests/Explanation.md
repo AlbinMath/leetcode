@@ -143,8 +143,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2177-find-three-consecutive-integers-that-sum-to-a-given-number/)
-- [287. Find the Duplicate Number](../../0001-0500/0287-find-the-duplicate-number/)
-- [1074. Number of Submatrices That Sum to Target](../../1001-1500/1074-number-of-submatrices-that-sum-to-target/)
+- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
+- [1601. Maximum Number of Achievable Transfer Requests](../../1501-2000/1601-maximum-number-of-achievable-transfer-requests/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)

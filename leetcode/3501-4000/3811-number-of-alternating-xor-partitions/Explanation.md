@@ -132,9 +132,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2478. Number of Beautiful Partitions](../../2001-2500/2478-number-of-beautiful-partitions/)
-- [2963. Count the Number of Good Partitions](../../2501-3000/2963-count-the-number-of-good-partitions/)
-- [3003. Maximize the Number of Partitions After Operations](../../3001-3500/3003-maximize-the-number-of-partitions-after-operations/)
+- [2997. Minimum Number of Operations to Make Array XOR Equal to K](../../2501-3000/2997-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
+- [3513. Number of Unique XOR Triplets I](../../3501-4000/3513-number-of-unique-xor-triplets-i/)
+- [3514. Number of Unique XOR Triplets II](../../3501-4000/3514-number-of-unique-xor-triplets-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-alternating-xor-partitions/)

@@ -75,7 +75,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 462 | [Minimum Moves to Equal Array Elements II](../leetcode/0001-0500/0462-minimum-moves-to-equal-array-elements-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0462-minimum-moves-to-equal-array-elements-ii/Explanation.md) |
 | 477 | [Total Hamming Distance](../leetcode/0001-0500/0477-total-hamming-distance/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0477-total-hamming-distance/Explanation.md) |
 | 592 | [Fraction Addition and Subtraction](../leetcode/0501-1000/0592-fraction-addition-and-subtraction/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0592-fraction-addition-and-subtraction/Explanation.md) |
-| 781 | [Rabbits in Forest](../leetcode/0501-1000/0781-rabbits-in-forest/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0781-rabbits-in-forest/Explanation.md) |
 | 835 | [Image Overlap](../leetcode/0501-1000/0835-image-overlap/) | JavaScript | O(n²) | O(1) | [Explanation](../leetcode/0501-1000/0835-image-overlap/Explanation.md) |
 | 898 | [Bitwise ORs of Subarrays](../leetcode/0501-1000/0898-bitwise-ors-of-subarrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0898-bitwise-ors-of-subarrays/Explanation.md) |
 | 973 | [K Closest Points to Origin](../leetcode/0501-1000/0973-k-closest-points-to-origin/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0973-k-closest-points-to-origin/Explanation.md) |

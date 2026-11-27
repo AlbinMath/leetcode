@@ -251,8 +251,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2526. Find Consecutive Integers from a Data Stream](../../2501-3000/2526-find-consecutive-integers-from-a-data-stream/)
-- [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2115-find-all-possible-recipes-from-given-supplies/)
-- [3403. Find the Lexicographically Largest String From the Box I](../../3001-3500/3403-find-the-lexicographically-largest-string-from-the-box-i/)
+- [3134. Find the Median of the Uniqueness Array](../../3001-3500/3134-find-the-median-of-the-uniqueness-array/)
+- [3585. Find Weighted Median Node in Tree](../../3501-4000/3585-find-weighted-median-node-in-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-median-from-data-stream/)

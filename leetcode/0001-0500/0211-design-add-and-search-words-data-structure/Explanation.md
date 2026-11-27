@@ -129,8 +129,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [432. All O`one Data Structure](../../0001-0500/0432-all-oone-data-structure/)
-- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
-- [151. Reverse Words in a String](../../0001-0500/0151-reverse-words-in-a-string/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
+- [35. Search Insert Position](../../0001-0500/0035-search-insert-position/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/)

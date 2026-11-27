@@ -124,8 +124,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2476. Closest Nodes Queries in a Binary Search Tree](../../2001-2500/2476-closest-nodes-queries-in-a-binary-search-tree/)
-- [16. 3Sum Closest](../../0001-0500/0016-3sum-closest/)
-- [564. Find the Closest Palindrome](../../0501-1000/0564-find-the-closest-palindrome/)
+- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
+- [1211. Queries Quality and Percentage](../../1001-1500/1211-queries-quality-and-percentage/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/closest-equal-element-queries/)

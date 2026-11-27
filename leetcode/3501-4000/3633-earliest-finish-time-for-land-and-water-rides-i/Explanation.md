@@ -220,7 +220,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3635. Earliest Finish Time for Land and Water Rides II](../../3501-4000/3635-earliest-finish-time-for-land-and-water-rides-ii/)
 - [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1723-find-minimum-time-to-finish-all-jobs/)
-- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
+- [1900. The Earliest and Latest Rounds Where Players Compete](../../1501-2000/1900-the-earliest-and-latest-rounds-where-players-compete/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/)

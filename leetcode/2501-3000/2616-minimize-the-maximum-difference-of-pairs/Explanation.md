@@ -125,9 +125,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3357. Minimize the Maximum Adjacent Element Difference](../../3001-3500/3357-minimize-the-maximum-adjacent-element-difference/)
 - [1913. Maximum Product Difference Between Two Pairs](../../1501-2000/1913-maximum-product-difference-between-two-pairs/)
-- [1981. Minimize the Difference Between Target and Chosen Elements](../../1501-2000/1981-minimize-the-difference-between-target-and-chosen-elements/)
+- [3357. Minimize the Maximum Adjacent Element Difference](../../3001-3500/3357-minimize-the-maximum-adjacent-element-difference/)
+- [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)

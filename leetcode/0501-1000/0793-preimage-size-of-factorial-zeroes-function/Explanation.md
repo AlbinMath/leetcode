@@ -112,8 +112,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [172. Factorial Trailing Zeroes](../../0001-0500/0172-factorial-trailing-zeroes/)
-- [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
-- [283. Move Zeroes](../../0001-0500/0283-move-zeroes/)
+- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
+- [952. Largest Component Size by Common Factor](../../0501-1000/0952-largest-component-size-by-common-factor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/)

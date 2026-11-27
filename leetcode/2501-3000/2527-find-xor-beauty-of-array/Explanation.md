@@ -123,8 +123,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2433. Find The Original Array of Prefix Xor](../../2001-2500/2433-find-the-original-array-of-prefix-xor/)
-- [2269. Find the K-Beauty of a Number](../../2001-2500/2269-find-the-k-beauty-of-a-number/)
-- [2779. Maximum Beauty of an Array After Applying Operation](../../2501-3000/2779-maximum-beauty-of-an-array-after-applying-operation/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-xor-beauty-of-array/)

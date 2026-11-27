@@ -132,9 +132,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1282. Group the People Given the Group Size They Belong To](../../1001-1500/1282-group-the-people-given-the-group-size-they-belong-to/)
 - [3254. Find the Power of K-Size Subarrays I](../../3001-3500/3254-find-the-power-of-k-size-subarrays-i/)
 - [3255. Find the Power of K-Size Subarrays II](../../3001-3500/3255-find-the-power-of-k-size-subarrays-ii/)
-- [1282. Group the People Given the Group Size They Belong To](../../1001-1500/1282-group-the-people-given-the-group-size-they-belong-to/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-latest-group-of-size-m/)

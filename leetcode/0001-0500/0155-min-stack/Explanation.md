@@ -142,9 +142,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [746. Min Cost Climbing Stairs](../../0501-1000/0746-min-cost-climbing-stairs/)
-- [1584. Min Cost to Connect All Points](../../1501-2000/1584-min-cost-to-connect-all-points/)
-- [1856. Maximum Subarray Min-Product](../../1501-2000/1856-maximum-subarray-min-product/)
+- [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
+- [895. Maximum Frequency Stack](../../0501-1000/0895-maximum-frequency-stack/)
+- [946. Validate Stack Sequences](../../0501-1000/0946-validate-stack-sequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/min-stack/)

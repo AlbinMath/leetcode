@@ -114,7 +114,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [4105. Repeated String Match II](../../4001-4500/4105-repeated-string-match-ii/)
 - [942. DI String Match](../../0501-1000/0942-di-string-match/)
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [971. Flip Binary Tree To Match Preorder Traversal](../../0501-1000/0971-flip-binary-tree-to-match-preorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/repeated-string-match/)

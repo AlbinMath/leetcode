@@ -127,9 +127,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [2514. Count Anagrams](../../2501-3000/2514-count-anagrams/)
 - [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
-- [1282. Group the People Given the Group Size They Belong To](../../1001-1500/1282-group-the-people-given-the-group-size-they-belong-to/)
-- [1399. Count Largest Group](../../1001-1500/1399-count-largest-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-anagrams/)

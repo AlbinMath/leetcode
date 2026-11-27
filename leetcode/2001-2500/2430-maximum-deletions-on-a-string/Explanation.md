@@ -131,7 +131,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1239-maximum-length-of-a-concatenated-string-with-unique-characters/)
 - [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
-- [1653. Minimum Deletions to Make String Balanced](../../1501-2000/1653-minimum-deletions-to-make-string-balanced/)
+- [1702. Maximum Binary String After Change](../../1501-2000/1702-maximum-binary-string-after-change/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-deletions-on-a-string/)

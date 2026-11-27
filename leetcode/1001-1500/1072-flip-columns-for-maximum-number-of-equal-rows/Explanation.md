@@ -123,7 +123,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](../../3001-3500/3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
 - [2397. Maximum Rows Covered by Columns](../../2001-2500/2397-maximum-rows-covered-by-columns/)
-- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
+- [1224. Maximum Equal Frequency](../../1001-1500/1224-maximum-equal-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/)

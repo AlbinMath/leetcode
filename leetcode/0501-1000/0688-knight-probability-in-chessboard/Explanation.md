@@ -119,8 +119,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2596. Check Knight Tour Configuration](../../2501-3000/2596-check-knight-tour-configuration/)
-- [782. Transform to Chessboard](../../0501-1000/0782-transform-to-chessboard/)
-- [1812. Determine Color of a Chessboard Square](../../1501-2000/1812-determine-color-of-a-chessboard-square/)
+- [1227. Airplane Seat Assignment Probability](../../1001-1500/1227-airplane-seat-assignment-probability/)
+- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1001-1500/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/knight-probability-in-chessboard/)

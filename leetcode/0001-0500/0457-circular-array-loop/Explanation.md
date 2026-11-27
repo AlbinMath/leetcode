@@ -1,7 +1,7 @@
 # LeetCode 457: Circular Array Loop
 
 **LeetCode Problem #457 — Circular Array Loop**
-Solve LeetCode Circular Array Loop using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Circular Array Loop using Python and Fast & Slow Pointers. This solution finds the optimal result using Floyd Cycle Detection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Circular Array Loop using Python and Array / General. This soluti
 | LeetCode | #457 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Floyd Cycle Detection |
+| Data Structure | Linked List / Pointer |
+| Pattern | Fast & Slow Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -57,7 +57,7 @@ The only cycle is of size 1, so we return false.
 We can see the cycle 0 --> 1 --> 0 --> ..., and while it is of size > 1, it has a node jumping forward and a node jumping backward, so
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Fast & Slow Pointers** with **Linked List / Pointer** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Circular Array Loop**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -69,7 +69,7 @@ To solve **Circular Array Loop**, we observe the problem requirements and utiliz
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [2,-1,1,2,2]`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Floyd Cycle Detection** using our **Linked List / Pointer**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `true`.
@@ -78,13 +78,14 @@ We can see the cycle 0 --> 2 --> 3 --> 0 --> ..., and all of its nodes are white
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Linked List / Pointer.
 
 ## Pattern
-**Array / General**
+**Fast & Slow Pointers**
 
 ## Topics
-- Array
+- Two Pointers
+- Cycle Detection
 
 ## Language
 Python
@@ -139,7 +140,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Fast & Slow Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

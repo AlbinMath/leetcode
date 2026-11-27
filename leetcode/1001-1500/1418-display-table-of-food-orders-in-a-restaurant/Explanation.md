@@ -118,8 +118,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1321. Restaurant Growth](../../1001-1500/1321-restaurant-growth/)
-- [1174. Immediate Food Delivery II](../../1001-1500/1174-immediate-food-delivery-ii/)
-- [2353. Design a Food Rating System](../../2001-2500/2353-design-a-food-rating-system/)
+- [2879. Display the First Three Rows](../../2501-3000/2879-display-the-first-three-rows/)
+- [668. Kth Smallest Number in Multiplication Table](../../0501-1000/0668-kth-smallest-number-in-multiplication-table/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/)

@@ -115,9 +115,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1393. Capital Gain/Loss](../../1001-1500/1393-capital-gainloss/)
+- [2477. Minimum Fuel Cost to Report to the Capital](../../2001-2500/2477-minimum-fuel-cost-to-report-to-the-capital/)
 - [1559. Detect Cycles in 2D Grid](../../1501-2000/1559-detect-cycles-in-2d-grid/)
-- [1566. Detect Pattern of Length M Repeated K or More Times](../../1501-2000/1566-detect-pattern-of-length-m-repeated-k-or-more-times/)
-- [2013. Detect Squares](../../2001-2500/2013-detect-squares/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/detect-capital/)

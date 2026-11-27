@@ -179,7 +179,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [402. Remove K Digits](../../0001-0500/0402-remove-k-digits/)
+- [3669. Balanced K-Factor Decomposition](../../3501-4000/3669-balanced-k-factor-decomposition/)
 - [3258. Count Substrings That Satisfy K-Constraint I](../../3001-3500/3258-count-substrings-that-satisfy-k-constraint-i/)
 - [3261. Count Substrings That Satisfy K-Constraint II](../../3001-3500/3261-count-substrings-that-satisfy-k-constraint-ii/)
 

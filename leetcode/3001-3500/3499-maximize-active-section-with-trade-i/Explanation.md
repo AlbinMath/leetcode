@@ -176,8 +176,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3501. Maximize Active Section with Trade II](../../3501-4000/3501-maximize-active-section-with-trade-ii/)
+- [1817. Finding the Users Active Minutes](../../1501-2000/1817-finding-the-users-active-minutes/)
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
-- [1659. Maximize Grid Happiness](../../1501-2000/1659-maximize-grid-happiness/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-active-section-with-trade-i/)

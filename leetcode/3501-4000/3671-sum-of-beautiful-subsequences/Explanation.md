@@ -356,7 +356,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1001-1500/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/)
 - [3627. Maximum Median Sum of Subsequences of Size 3](../../3501-4000/3627-maximum-median-sum-of-subsequences-of-size-3/)
-- [115. Distinct Subsequences](../../0001-0500/0115-distinct-subsequences/)
+- [526. Beautiful Arrangement](../../0501-1000/0526-beautiful-arrangement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-beautiful-subsequences/)

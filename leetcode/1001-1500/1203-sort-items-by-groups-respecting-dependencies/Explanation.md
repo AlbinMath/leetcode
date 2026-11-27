@@ -147,9 +147,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
-- [147. Insertion Sort List](../../0001-0500/0147-insertion-sort-list/)
-- [148. Sort List](../../0001-0500/0148-sort-list/)
+- [1773. Count Items Matching a Rule](../../1501-2000/1773-count-items-matching-a-rule/)
+- [2146. K Highest Ranked Items Within a Price Range](../../2001-2500/2146-k-highest-ranked-items-within-a-price-range/)
+- [2931. Maximum Spending After Buying Items](../../2501-3000/2931-maximum-spending-after-buying-items/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/)

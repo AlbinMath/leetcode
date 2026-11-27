@@ -115,9 +115,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3567. Minimum Absolute Difference in Sliding Submatrix](../../3501-4000/3567-minimum-absolute-difference-in-sliding-submatrix/)
-- [3643. Flip Square Submatrix Vertically](../../3501-4000/3643-flip-square-submatrix-vertically/)
 - [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
+- [179. Largest Number](../../0001-0500/0179-largest-number/)
+- [215. Kth Largest Element in an Array](../../0001-0500/0215-kth-largest-element-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)

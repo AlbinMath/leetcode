@@ -27,7 +27,6 @@ A curated selection of LeetCode problems solved using the **Bitwise Masking & Bi
 | 598 | [Range Addition II](../leetcode/0501-1000/0598-range-addition-ii/) | Easy | Bit Manipulation | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0598-range-addition-ii/Explanation.md) |
 | 645 | [Set Mismatch](../leetcode/0501-1000/0645-set-mismatch/) | Easy | Bit Manipulation | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0645-set-mismatch/Explanation.md) |
 | 682 | [Baseball Game](../leetcode/0501-1000/0682-baseball-game/) | Easy | Bit Manipulation | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0682-baseball-game/Explanation.md) |
-| 781 | [Rabbits in Forest](../leetcode/0501-1000/0781-rabbits-in-forest/) | Medium | Bit Manipulation | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0781-rabbits-in-forest/Explanation.md) |
 | 810 | [Chalkboard XOR Game](../leetcode/0501-1000/0810-chalkboard-xor-game/) | Hard | Bit Manipulation | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0810-chalkboard-xor-game/Explanation.md) |
 | 835 | [Image Overlap](../leetcode/0501-1000/0835-image-overlap/) | Medium | Bit Manipulation | O(n²) | O(1) | [Explanation](../leetcode/0501-1000/0835-image-overlap/Explanation.md) |
 | 878 | [Nth Magical Number](../leetcode/0501-1000/0878-nth-magical-number/) | Hard | Bit Manipulation | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0878-nth-magical-number/Explanation.md) |

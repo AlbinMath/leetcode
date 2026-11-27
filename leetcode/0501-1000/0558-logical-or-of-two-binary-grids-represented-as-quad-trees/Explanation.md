@@ -165,7 +165,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [617. Merge Two Binary Trees](../../0501-1000/0617-merge-two-binary-trees/)
 - [1305. All Elements in Two Binary Search Trees](../../1001-1500/1305-all-elements-in-two-binary-search-trees/)
-- [3203. Find Minimum Diameter After Merging Two Trees](../../3001-3500/3203-find-minimum-diameter-after-merging-two-trees/)
+- [2816. Double a Number Represented as a Linked List](../../2501-3000/2816-double-a-number-represented-as-a-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)

@@ -122,9 +122,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [839. Similar String Groups](../../0501-1000/0839-similar-string-groups/)
-- [893. Groups of Special-Equivalent Strings](../../0501-1000/0893-groups-of-special-equivalent-strings/)
-- [1203. Sort Items by Groups Respecting Dependencies](../../1001-1500/1203-sort-items-by-groups-respecting-dependencies/)
+- [827. Making A Large Island](../../0501-1000/0827-making-a-large-island/)
+- [1036. Escape a Large Maze](../../1001-1500/1036-escape-a-large-maze/)
+- [1093. Statistics from a Large Sample](../../1001-1500/1093-statistics-from-a-large-sample/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/positions-of-large-groups/)

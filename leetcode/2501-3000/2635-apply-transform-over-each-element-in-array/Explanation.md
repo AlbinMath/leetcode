@@ -112,9 +112,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2460. Apply Operations to an Array](../../2001-2500/2460-apply-operations-to-an-array/)
-- [2772. Apply Operations to Make All Array Elements Equal to Zero](../../2501-3000/2772-apply-operations-to-make-all-array-elements-equal-to-zero/)
-- [2897. Apply Operations on Array to Maximize Sum of Squares](../../2501-3000/2897-apply-operations-on-array-to-maximize-sum-of-squares/)
+- [1331. Rank Transform of an Array](../../1001-1500/1331-rank-transform-of-an-array/)
+- [3467. Transform Array by Parity](../../3001-3500/3467-transform-array-by-parity/)
+- [3896. Minimum Operations to Transform Array into Alternating Prime](../../3501-4000/3896-minimum-operations-to-transform-array-into-alternating-prime/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-transform-over-each-element-in-array/)

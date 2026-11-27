@@ -119,9 +119,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3296. Minimum Number of Seconds to Make Mountain Height Zero](../../3001-3500/3296-minimum-number-of-seconds-to-make-mountain-height-zero/)
 - [2009. Minimum Number of Operations to Make Array Continuous](../../2001-2500/2009-minimum-number-of-operations-to-make-array-continuous/)
 - [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
-- [2870. Minimum Number of Operations to Make Array Empty](../../2501-3000/2870-minimum-number-of-operations-to-make-array-empty/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/)

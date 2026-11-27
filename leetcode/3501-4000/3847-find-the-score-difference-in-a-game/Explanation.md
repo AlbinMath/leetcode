@@ -129,9 +129,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
-- [2640. Find the Score of All Prefixes of an Array](../../2501-3000/2640-find-the-score-of-all-prefixes-of-an-array/)
-- [3148. Maximum Difference Score in a Grid](../../3001-3500/3148-maximum-difference-score-in-a-grid/)
+- [1275. Find Winner on a Tic Tac Toe Game](../../1001-1500/1275-find-winner-on-a-tic-tac-toe-game/)
+- [1535. Find the Winner of an Array Game](../../1501-2000/1535-find-the-winner-of-an-array-game/)
+- [1823. Find the Winner of the Circular Game](../../1501-2000/1823-find-the-winner-of-the-circular-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-score-difference-in-a-game/)

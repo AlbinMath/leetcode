@@ -361,11 +361,11 @@ A collection of **405** solved LeetCode problems in the range **0001-0500**.
 | 438 | [Find All Anagrams in a String](./0438-find-all-anagrams-in-a-string/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0438-find-all-anagrams-in-a-string/Explanation.md) |
 | 440 | [K-th Smallest in Lexicographical Order](./0440-k-th-smallest-in-lexicographical-order/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0440-k-th-smallest-in-lexicographical-order/Explanation.md) |
 | 441 | [Arranging Coins](./0441-arranging-coins/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0441-arranging-coins/Explanation.md) |
-| 442 | [Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0442-find-all-duplicates-in-an-array/Explanation.md) |
+| 442 | [Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0442-find-all-duplicates-in-an-array/Explanation.md) |
 | 443 | [String Compression](./0443-string-compression/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0443-string-compression/Explanation.md) |
 | 445 | [Add Two Numbers II](./0445-add-two-numbers-ii/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0445-add-two-numbers-ii/Explanation.md) |
 | 446 | [Arithmetic Slices II - Subsequence](./0446-arithmetic-slices-ii-subsequence/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0446-arithmetic-slices-ii-subsequence/Explanation.md) |
-| 447 | [Number of Boomerangs](./0447-number-of-boomerangs/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0447-number-of-boomerangs/Explanation.md) |
+| 447 | [Number of Boomerangs](./0447-number-of-boomerangs/) | Medium | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0447-number-of-boomerangs/Explanation.md) |
 | 448 | [Find All Numbers Disappeared in an Array](./0448-find-all-numbers-disappeared-in-an-array/) | Easy | [Math & Logic](../../patterns/math-logic.md) | TypeScript | [Explanation](./0448-find-all-numbers-disappeared-in-an-array/Explanation.md) |
 | 449 | [Serialize and Deserialize BST](./0449-serialize-and-deserialize-bst/) | Medium | [Binary Search](../../patterns/binary-search.md) | Python | [Explanation](./0449-serialize-and-deserialize-bst/Explanation.md) |
 | 450 | [Delete Node in a BST](./0450-delete-node-in-a-bst/) | Medium | [Binary Search](../../patterns/binary-search.md) | JavaScript, Python | [Explanation](./0450-delete-node-in-a-bst/Explanation.md) |
@@ -375,7 +375,7 @@ A collection of **405** solved LeetCode problems in the range **0001-0500**.
 | 454 | [4Sum II](./0454-4sum-ii/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0454-4sum-ii/Explanation.md) |
 | 455 | [Assign Cookies](./0455-assign-cookies/) | Easy | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0455-assign-cookies/Explanation.md) |
 | 456 | [132 Pattern](./0456-132-pattern/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0456-132-pattern/Explanation.md) |
-| 457 | [Circular Array Loop](./0457-circular-array-loop/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0457-circular-array-loop/Explanation.md) |
+| 457 | [Circular Array Loop](./0457-circular-array-loop/) | Medium | [Fast & Slow Pointers](../../patterns/fast-slow-pointers.md) | Python | [Explanation](./0457-circular-array-loop/Explanation.md) |
 | 458 | [Poor Pigs](./0458-poor-pigs/) | Hard | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0458-poor-pigs/Explanation.md) |
 | 459 | [Repeated Substring Pattern](./0459-repeated-substring-pattern/) | Easy | [Array / General](../../patterns/array-general.md) | JavaScript, Python | [Explanation](./0459-repeated-substring-pattern/Explanation.md) |
 | 460 | [LFU Cache](./0460-lfu-cache/) | Hard | [Hash Map](../../patterns/hash-map.md) | Python | [Explanation](./0460-lfu-cache/Explanation.md) |

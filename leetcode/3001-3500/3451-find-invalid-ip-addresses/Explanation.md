@@ -102,8 +102,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [93. Restore IP Addresses](../../0001-0500/0093-restore-ip-addresses/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [301. Remove Invalid Parentheses](../../0001-0500/0301-remove-invalid-parentheses/)
+- [1169. Invalid Transactions](../../1001-1500/1169-invalid-transactions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-invalid-ip-addresses/)

@@ -169,9 +169,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [2132. Stamping the Grid](../../2001-2500/2132-stamping-the-grid/)
 - [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
 - [128. Longest Consecutive Sequence](../../0001-0500/0128-longest-consecutive-sequence/)
+- [842. Split Array into Fibonacci Sequence](../../0501-1000/0842-split-array-into-fibonacci-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stamping-the-sequence/)

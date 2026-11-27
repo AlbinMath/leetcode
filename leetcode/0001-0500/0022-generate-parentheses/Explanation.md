@@ -165,9 +165,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [478. Generate Random Point in a Circle](../../0001-0500/0478-generate-random-point-in-a-circle/)
-- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1374-generate-a-string-with-characters-that-have-odd-counts/)
-- [2648. Generate Fibonacci Sequence](../../2501-3000/2648-generate-fibonacci-sequence/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
+- [241. Different Ways to Add Parentheses](../../0001-0500/0241-different-ways-to-add-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-parentheses/)

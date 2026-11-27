@@ -108,9 +108,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [201. Bitwise AND of Numbers Range](../../0001-0500/0201-bitwise-and-of-numbers-range/)
-- [303. Range Sum Query - Immutable](../../0001-0500/0303-range-sum-query-immutable/)
-- [304. Range Sum Query 2D - Immutable](../../0001-0500/0304-range-sum-query-2d-immutable/)
+- [592. Fraction Addition and Subtraction](../../0501-1000/0592-fraction-addition-and-subtraction/)
+- [3243. Shortest Distance After Road Addition Queries I](../../3001-3500/3243-shortest-distance-after-road-addition-queries-i/)
+- [3244. Shortest Distance After Road Addition Queries II](../../3001-3500/3244-shortest-distance-after-road-addition-queries-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/range-addition-ii/)

@@ -124,8 +124,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3814. Maximum Capacity Within Budget](../../3501-4000/3814-maximum-capacity-within-budget/)
-- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
-- [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
+- [1208. Get Equal Substrings Within Budget](../../1001-1500/1208-get-equal-substrings-within-budget/)
+- [3661. Maximum Walls Destroyed by Robots](../../3501-4000/3661-maximum-walls-destroyed-by-robots/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-robots-within-budget/)

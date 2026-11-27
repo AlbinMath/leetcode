@@ -138,9 +138,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
-- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
+- [239. Sliding Window Maximum](../../0001-0500/0239-sliding-window-maximum/)
+- [480. Sliding Window Median](../../0001-0500/0480-sliding-window-median/)
+- [773. Sliding Puzzle](../../0501-1000/0773-sliding-puzzle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sliding-subarray-beauty/)

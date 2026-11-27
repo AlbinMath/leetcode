@@ -128,7 +128,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1750. Minimum Length of String After Deleting Similar Ends](../../1501-2000/1750-minimum-length-of-string-after-deleting-similar-ends/)
 - [2138. Divide a String Into Groups of Size k](../../2001-2500/2138-divide-a-string-into-groups-of-size-k/)
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [854. K-Similar Strings](../../0501-1000/0854-k-similar-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/similar-string-groups/)

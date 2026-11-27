@@ -111,9 +111,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2295. Replace Elements in an Array](../../2001-2500/2295-replace-elements-in-an-array/)
 - [199. Binary Tree Right Side View](../../0001-0500/0199-binary-tree-right-side-view/)
-- [648. Replace Words](../../0501-1000/0648-replace-words/)
+- [2295. Replace Elements in an Array](../../2001-2500/2295-replace-elements-in-an-array/)
+- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)

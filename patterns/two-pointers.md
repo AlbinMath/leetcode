@@ -139,6 +139,7 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 419 | [Battleships in a Board](../leetcode/0001-0500/0419-battleships-in-a-board/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0419-battleships-in-a-board/Explanation.md) |
 | 427 | [Construct Quad Tree](../leetcode/0001-0500/0427-construct-quad-tree/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0427-construct-quad-tree/Explanation.md) |
 | 430 | [Flatten a Multilevel Doubly Linked List](../leetcode/0001-0500/0430-flatten-a-multilevel-doubly-linked-list/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0430-flatten-a-multilevel-doubly-linked-list/Explanation.md) |
+| 442 | [Find All Duplicates in an Array](../leetcode/0001-0500/0442-find-all-duplicates-in-an-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0442-find-all-duplicates-in-an-array/Explanation.md) |
 | 445 | [Add Two Numbers II](../leetcode/0001-0500/0445-add-two-numbers-ii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0445-add-two-numbers-ii/Explanation.md) |
 | 454 | [4Sum II](../leetcode/0001-0500/0454-4sum-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0454-4sum-ii/Explanation.md) |
 | 456 | [132 Pattern](../leetcode/0001-0500/0456-132-pattern/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0456-132-pattern/Explanation.md) |
@@ -171,6 +172,7 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 855 | [Exam Room](../leetcode/0501-1000/0855-exam-room/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0855-exam-room/Explanation.md) |
 | 865 | [Smallest Subtree with all the Deepest Nodes](../leetcode/0501-1000/0865-smallest-subtree-with-all-the-deepest-nodes/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0865-smallest-subtree-with-all-the-deepest-nodes/Explanation.md) |
 | 866 | [Prime Palindrome](../leetcode/0501-1000/0866-prime-palindrome/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0866-prime-palindrome/Explanation.md) |
+| 873 | [Length of Longest Fibonacci Subsequence](../leetcode/0501-1000/0873-length-of-longest-fibonacci-subsequence/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0873-length-of-longest-fibonacci-subsequence/Explanation.md) |
 | 875 | [Koko Eating Bananas](../leetcode/0501-1000/0875-koko-eating-bananas/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0875-koko-eating-bananas/Explanation.md) |
 | 885 | [Spiral Matrix III](../leetcode/0501-1000/0885-spiral-matrix-iii/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0885-spiral-matrix-iii/Explanation.md) |
 | 907 | [Sum of Subarray Minimums](../leetcode/0501-1000/0907-sum-of-subarray-minimums/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0907-sum-of-subarray-minimums/Explanation.md) |
@@ -254,6 +256,7 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 1905 | [Count Sub Islands](../leetcode/1501-2000/1905-count-sub-islands/) | Python | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1905-count-sub-islands/Explanation.md) |
 | 1906 | [Minimum Absolute Difference Queries](../leetcode/1501-2000/1906-minimum-absolute-difference-queries/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1906-minimum-absolute-difference-queries/Explanation.md) |
 | 1926 | [Nearest Exit from Entrance in Maze](../leetcode/1501-2000/1926-nearest-exit-from-entrance-in-maze/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1926-nearest-exit-from-entrance-in-maze/Explanation.md) |
+| 1942 | [The Number of the Smallest Unoccupied Chair](../leetcode/1501-2000/1942-the-number-of-the-smallest-unoccupied-chair/) | Python | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1942-the-number-of-the-smallest-unoccupied-chair/Explanation.md) |
 | 1946 | [Largest Number After Mutating Substring](../leetcode/1501-2000/1946-largest-number-after-mutating-substring/) | Python | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1946-largest-number-after-mutating-substring/Explanation.md) |
 | 1976 | [Number of Ways to Arrive at Destination](../leetcode/1501-2000/1976-number-of-ways-to-arrive-at-destination/) | Python | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1976-number-of-ways-to-arrive-at-destination/Explanation.md) |
 | 1992 | [Find All Groups of Farmland](../leetcode/1501-2000/1992-find-all-groups-of-farmland/) | Python | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1992-find-all-groups-of-farmland/Explanation.md) |

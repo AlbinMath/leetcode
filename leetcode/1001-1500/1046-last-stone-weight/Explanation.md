@@ -137,9 +137,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [877. Stone Game](../../0501-1000/0877-stone-game/)
-- [1140. Stone Game II](../../1001-1500/1140-stone-game-ii/)
-- [1406. Stone Game III](../../1001-1500/1406-stone-game-iii/)
+- [528. Random Pick with Weight](../../0501-1000/0528-random-pick-with-weight/)
+- [2846. Minimum Edge Weight Equilibrium Queries in a Tree](../../2501-3000/2846-minimum-edge-weight-equilibrium-queries-in-a-tree/)
+- [3419. Minimize the Maximum Edge Weight of Graph](../../3001-3500/3419-minimize-the-maximum-edge-weight-of-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-stone-weight/)
