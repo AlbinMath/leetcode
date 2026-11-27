@@ -132,7 +132,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [712. Minimum ASCII Delete Sum for Two Strings](../../0501-1000/0712-minimum-ascii-delete-sum-for-two-strings/)
 - [1879. Minimum XOR Sum of Two Arrays](../../1501-2000/1879-minimum-xor-sum-of-two-arrays/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](../../2501-3000/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)

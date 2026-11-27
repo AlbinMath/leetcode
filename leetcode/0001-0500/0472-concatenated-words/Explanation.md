@@ -125,7 +125,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1239-maximum-length-of-a-concatenated-string-with-unique-characters/)
 - [3533. Concatenated Divisibility](../../3501-4000/3533-concatenated-divisibility/)
-- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [3897. Maximum Value of Concatenated Binary Segments](../../3501-4000/3897-maximum-value-of-concatenated-binary-segments/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenated-words/)

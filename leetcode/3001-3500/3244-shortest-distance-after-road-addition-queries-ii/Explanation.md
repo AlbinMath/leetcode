@@ -161,8 +161,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3243. Shortest Distance After Road Addition Queries I](../../3001-3500/3243-shortest-distance-after-road-addition-queries-i/)
-- [821. Shortest Distance to a Character](../../0501-1000/0821-shortest-distance-to-a-character/)
 - [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
+- [2458. Height of Binary Tree After Subtree Removal Queries](../../2001-2500/2458-height-of-binary-tree-after-subtree-removal-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-ii/)

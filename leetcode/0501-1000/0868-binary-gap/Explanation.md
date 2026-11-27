@@ -119,7 +119,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [164. Maximum Gap](../../0001-0500/0164-maximum-gap/)
 - [3589. Count Prime-Gap Balanced Subarrays](../../3501-4000/3589-count-prime-gap-balanced-subarrays/)
-- [67. Add Binary](../../0001-0500/0067-add-binary/)
+- [4026. Maximum Gap Between Stations](../../4001-4500/4026-maximum-gap-between-stations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-gap/)

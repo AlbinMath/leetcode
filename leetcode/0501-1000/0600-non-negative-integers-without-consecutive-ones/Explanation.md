@@ -119,9 +119,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [485. Max Consecutive Ones](../../0001-0500/0485-max-consecutive-ones/)
-- [1004. Max Consecutive Ones III](../../1001-1500/1004-max-consecutive-ones-iii/)
-- [1703. Minimum Adjacent Swaps for K Consecutive Ones](../../1501-2000/1703-minimum-adjacent-swaps-for-k-consecutive-ones/)
+- [1594. Maximum Non Negative Product in a Matrix](../../1501-2000/1594-maximum-non-negative-product-in-a-matrix/)
+- [2598. Smallest Missing Non-negative Integer After Operations](../../2501-3000/2598-smallest-missing-non-negative-integer-after-operations/)
+- [3819. Rotate Non Negative Elements](../../3501-4000/3819-rotate-non-negative-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)

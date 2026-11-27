@@ -225,9 +225,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
-- [1771. Maximize Palindrome Length From Subsequences](../../1501-2000/1771-maximize-palindrome-length-from-subsequences/)
-- [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
+- [3075. Maximize Happiness of Selected Children](../../3001-3500/3075-maximize-happiness-of-selected-children/)
+- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
+- [1001. Grid Illumination](../../1001-1500/1001-grid-illumination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-grid-happiness/)

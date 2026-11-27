@@ -121,7 +121,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
 - [1615. Maximal Network Rank](../../1501-2000/1615-maximal-network-rank/)
-- [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
+- [2530. Maximal Score After Applying K Operations](../../2501-3000/2530-maximal-score-after-applying-k-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximal-square/)

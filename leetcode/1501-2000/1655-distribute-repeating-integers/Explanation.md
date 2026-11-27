@@ -164,9 +164,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [575. Distribute Candies](../../0501-1000/0575-distribute-candies/)
-- [979. Distribute Coins in Binary Tree](../../0501-1000/0979-distribute-coins-in-binary-tree/)
-- [1103. Distribute Candies to People](../../1001-1500/1103-distribute-candies-to-people/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
+- [424. Longest Repeating Character Replacement](../../0001-0500/0424-longest-repeating-character-replacement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-repeating-integers/)

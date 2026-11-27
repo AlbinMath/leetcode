@@ -171,8 +171,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2170. Minimum Operations to Make the Array Alternating](../../2001-2500/2170-minimum-operations-to-make-the-array-alternating/)
+- [3854. Minimum Operations to Make Array Parity Alternating](../../3501-4000/3854-minimum-operations-to-make-array-parity-alternating/)
 - [3937. Minimum Operations to Make Array Modulo Alternating I](../../3501-4000/3937-minimum-operations-to-make-array-modulo-alternating-i/)
-- [4062. Transform Array Using Pair Operations](../../4001-4500/4062-transform-array-using-pair-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-transform-array-into-alternating-prime/)

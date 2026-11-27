@@ -104,7 +104,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1971. Find if Path Exists in Graph](../../1501-2000/1971-find-if-path-exists-in-graph/)
 - [2497. Maximum Star Sum of a Graph](../../2001-2500/2497-maximum-star-sum-of-a-graph/)
-- [133. Clone Graph](../../0001-0500/0133-clone-graph/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-center-of-star-graph/)

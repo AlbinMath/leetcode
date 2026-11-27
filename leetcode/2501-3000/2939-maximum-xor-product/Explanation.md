@@ -118,7 +118,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
 - [318. Maximum Product of Word Lengths](../../0001-0500/0318-maximum-product-of-word-lengths/)
-- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-xor-product/)

@@ -143,7 +143,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [453. Minimum Moves to Equal Array Elements](../../0001-0500/0453-minimum-moves-to-equal-array-elements/)
 - [462. Minimum Moves to Equal Array Elements II](../../0001-0500/0462-minimum-moves-to-equal-array-elements-ii/)
-- [1464. Maximum Product of Two Elements in an Array](../../1001-1500/1464-maximum-product-of-two-elements-in-an-array/)
+- [1144. Decrease Elements To Make Array Zigzag](../../1001-1500/1144-decrease-elements-to-make-array-zigzag/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/mark-elements-on-array-by-performing-queries/)

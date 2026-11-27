@@ -125,7 +125,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1171. Remove Zero Sum Consecutive Nodes from Linked List](../../1001-1500/1171-remove-zero-sum-consecutive-nodes-from-linked-list/)
 - [2487. Remove Nodes From Linked List](../../2001-2500/2487-remove-nodes-from-linked-list/)
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [4103. Remove Elements by Type and Color](../../4001-4500/4103-remove-elements-by-type-and-color/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-linked-list-elements/)

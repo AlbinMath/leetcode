@@ -111,9 +111,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [1007. Minimum Domino Rotations For Equal Row](../../1001-1500/1007-minimum-domino-rotations-for-equal-row/)
 - [1128. Number of Equivalent Domino Pairs](../../1001-1500/1128-number-of-equivalent-domino-pairs/)
 - [1240. Tiling a Rectangle with the Fewest Squares](../../1001-1500/1240-tiling-a-rectangle-with-the-fewest-squares/)
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/domino-and-tromino-tiling/)

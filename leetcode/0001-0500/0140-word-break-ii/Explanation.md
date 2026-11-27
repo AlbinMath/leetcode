@@ -120,8 +120,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [139. Word Break](../../0001-0500/0139-word-break/)
-- [1328. Break a Palindrome](../../1001-1500/1328-break-a-palindrome/)
-- [1433. Check If a String Can Break Another String](../../1001-1500/1433-check-if-a-string-can-break-another-string/)
+- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
+- [79. Word Search](../../0001-0500/0079-word-search/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/word-break-ii/)

@@ -202,7 +202,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3968. Maximum Manhattan Distance After All Moves](../../3501-4000/3968-maximum-manhattan-distance-after-all-moves/)
 - [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2106-maximum-fruits-harvested-after-at-most-k-steps/)
-- [3962. Maximum Subarray Sum After at Most K Swaps](../../3501-4000/3962-maximum-subarray-sum-after-at-most-k-swaps/)
+- [2233. Maximum Product After K Increments](../../2001-2500/2233-maximum-product-after-k-increments/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/)

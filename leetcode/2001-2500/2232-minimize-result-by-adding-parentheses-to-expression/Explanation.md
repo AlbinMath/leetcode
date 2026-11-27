@@ -127,9 +127,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2259. Remove Digit From Number to Maximize Result](../../2001-2500/2259-remove-digit-from-number-to-maximize-result/)
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
-- [282. Expression Add Operators](../../0001-0500/0282-expression-add-operators/)
+- [924. Minimize Malware Spread](../../0501-1000/0924-minimize-malware-spread/)
+- [928. Minimize Malware Spread II](../../0501-1000/0928-minimize-malware-spread-ii/)
+- [1675. Minimize Deviation in Array](../../1501-2000/1675-minimize-deviation-in-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)

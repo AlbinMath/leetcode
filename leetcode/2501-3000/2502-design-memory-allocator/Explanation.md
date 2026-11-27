@@ -144,9 +144,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1860. Incremental Memory Leak](../../1501-2000/1860-incremental-memory-leak/)
 - [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
 - [355. Design Twitter](../../0001-0500/0355-design-twitter/)
-- [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-memory-allocator/)

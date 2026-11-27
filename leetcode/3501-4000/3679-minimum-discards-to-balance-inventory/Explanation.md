@@ -143,7 +143,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1541. Minimum Insertions to Balance a Parentheses String](../../1501-2000/1541-minimum-insertions-to-balance-a-parentheses-string/)
 - [3634. Minimum Removals to Balance Array](../../3501-4000/3634-minimum-removals-to-balance-array/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [3776. Minimum Moves to Balance Circular Array](../../3501-4000/3776-minimum-moves-to-balance-circular-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-discards-to-balance-inventory/)

@@ -109,8 +109,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [1835. Find XOR Sum of All Pairs Bitwise AND](../../1501-2000/1835-find-xor-sum-of-all-pairs-bitwise-and/)
-- [1685. Sum of Absolute Differences in a Sorted Array](../../1501-2000/1685-sum-of-absolute-differences-in-a-sorted-array/)
-- [2574. Left and Right Sum Differences](../../2501-3000/2574-left-and-right-sum-differences/)
+- [2160. Minimum Sum of Four Digit Number After Splitting Digits](../../2001-2500/2160-minimum-sum-of-four-digit-number-after-splitting-digits/)
+- [2180. Count Integers With Even Digit Sum](../../2001-2500/2180-count-integers-with-even-digit-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/)

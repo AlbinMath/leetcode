@@ -258,8 +258,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3969. Valid Subarrays With Matching Sum Digits I](../../3501-4000/3969-valid-subarrays-with-matching-sum-digits-i/)
 - [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
+- [3969. Valid Subarrays With Matching Sum Digits I](../../3501-4000/3969-valid-subarrays-with-matching-sum-digits-i/)
 - [992. Subarrays with K Different Integers](../../0501-1000/0992-subarrays-with-k-different-integers/)
 
 ## LeetCode

@@ -150,7 +150,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1061-lexicographically-smallest-equivalent-string/)
 - [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1625-lexicographically-smallest-string-after-applying-operations/)
-- [2904. Shortest and Lexicographically Smallest Beautiful String](../../2501-3000/2904-shortest-and-lexicographically-smallest-beautiful-string/)
+- [2663. Lexicographically Smallest Beautiful String](../../2501-3000/2663-lexicographically-smallest-beautiful-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)

@@ -140,7 +140,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2302. Count Subarrays With Score Less Than K](../../2001-2500/2302-count-subarrays-with-score-less-than-k/)
 - [2488. Count Subarrays With Median K](../../2001-2500/2488-count-subarrays-with-median-k/)
-- [2962. Count Subarrays Where Max Element Appears at Least K Times](../../2501-3000/2962-count-subarrays-where-max-element-appears-at-least-k-times/)
+- [2530. Maximal Score After Applying K Operations](../../2501-3000/2530-maximal-score-after-applying-k-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/)

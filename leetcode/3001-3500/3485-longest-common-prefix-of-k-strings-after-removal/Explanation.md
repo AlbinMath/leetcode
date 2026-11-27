@@ -204,7 +204,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 ## Related Problems
 - [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
 - [3043. Find the Length of the Longest Common Prefix](../../3001-3500/3043-find-the-length-of-the-longest-common-prefix/)
-- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
+- [2458. Height of Binary Tree After Subtree Removal Queries](../../2001-2500/2458-height-of-binary-tree-after-subtree-removal-queries/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-common-prefix-of-k-strings-after-removal/)

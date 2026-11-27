@@ -172,9 +172,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2327. Number of People Aware of a Secret](../../2001-2500/2327-number-of-people-aware-of-a-secret/)
 - [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
 - [442. Find All Duplicates in an Array](../../0001-0500/0442-find-all-duplicates-in-an-array/)
-- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-people-with-secret/)

@@ -1,6 +1,6 @@
 # LeetCode Problems: 0001-0500
 
-A collection of **405** solved LeetCode problems in the range **0001-0500**.
+A collection of **407** solved LeetCode problems in the range **0001-0500**.
 
 ## Problem Index
 
@@ -302,11 +302,13 @@ A collection of **405** solved LeetCode problems in the range **0001-0500**.
 | 363 | [Max Sum of Rectangle No Larger Than K](./0363-max-sum-of-rectangle-no-larger-than-k/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0363-max-sum-of-rectangle-no-larger-than-k/Explanation.md) |
 | 365 | [Water and Jug Problem](./0365-water-and-jug-problem/) | Medium | [Math & Logic](../../patterns/math-logic.md) | Python | [Explanation](./0365-water-and-jug-problem/Explanation.md) |
 | 367 | [Valid Perfect Square](./0367-valid-perfect-square/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0367-valid-perfect-square/Explanation.md) |
+| 368 | [Largest Divisible Subset](./0368-largest-divisible-subset/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0368-largest-divisible-subset/Explanation.md) |
 | 371 | [Sum of Two Integers](./0371-sum-of-two-integers/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0371-sum-of-two-integers/Explanation.md) |
 | 372 | [Super Pow](./0372-super-pow/) | Medium | [Array / General](../../patterns/array-general.md) | Python | [Explanation](./0372-super-pow/Explanation.md) |
 | 373 | [Find K Pairs with Smallest Sums](./0373-find-k-pairs-with-smallest-sums/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0373-find-k-pairs-with-smallest-sums/Explanation.md) |
 | 374 | [Guess Number Higher or Lower](./0374-guess-number-higher-or-lower/) | Easy | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0374-guess-number-higher-or-lower/Explanation.md) |
 | 375 | [Guess Number Higher or Lower II](./0375-guess-number-higher-or-lower-ii/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0375-guess-number-higher-or-lower-ii/Explanation.md) |
+| 376 | [Wiggle Subsequence](./0376-wiggle-subsequence/) | Medium | [Dynamic Programming](../../patterns/dynamic-programming.md) | Python | [Explanation](./0376-wiggle-subsequence/Explanation.md) |
 | 378 | [Kth Smallest Element in a Sorted Matrix](./0378-kth-smallest-element-in-a-sorted-matrix/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0378-kth-smallest-element-in-a-sorted-matrix/Explanation.md) |
 | 380 | [Insert Delete GetRandom O(1)](./0380-insert-delete-getrandom-o1/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0380-insert-delete-getrandom-o1/Explanation.md) |
 | 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](./0381-insert-delete-getrandom-o1-duplicates-allowed/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0381-insert-delete-getrandom-o1-duplicates-allowed/Explanation.md) |

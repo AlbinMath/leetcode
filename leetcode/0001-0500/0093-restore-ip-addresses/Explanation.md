@@ -157,8 +157,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3451. Find Invalid IP Addresses](../../3001-3500/3451-find-invalid-ip-addresses/)
-- [929. Unique Email Addresses](../../0501-1000/0929-unique-email-addresses/)
-- [468. Validate IP Address](../../0001-0500/0468-validate-ip-address/)
+- [1416. Restore The Array](../../1001-1500/1416-restore-the-array/)
+- [1743. Restore the Array From Adjacent Pairs](../../1501-2000/1743-restore-the-array-from-adjacent-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/restore-ip-addresses/)

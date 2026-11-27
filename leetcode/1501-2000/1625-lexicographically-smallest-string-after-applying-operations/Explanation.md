@@ -161,9 +161,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3722. Lexicographically Smallest String After Reverse](../../3501-4000/3722-lexicographically-smallest-string-after-reverse/)
-- [3816. Lexicographically Smallest String After Deleting Duplicate Characters](../../3501-4000/3816-lexicographically-smallest-string-after-deleting-duplicate-characters/)
-- [1061. Lexicographically Smallest Equivalent String](../../1001-1500/1061-lexicographically-smallest-equivalent-string/)
+- [3106. Lexicographically Smallest String After Operations With Constraint](../../3001-3500/3106-lexicographically-smallest-string-after-operations-with-constraint/)
+- [2734. Lexicographically Smallest String After Substring Operation](../../2501-3000/2734-lexicographically-smallest-string-after-substring-operation/)
+- [3216. Lexicographically Smallest String After a Swap](../../3001-3500/3216-lexicographically-smallest-string-after-a-swap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/)

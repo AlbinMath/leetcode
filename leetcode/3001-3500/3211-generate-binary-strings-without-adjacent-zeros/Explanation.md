@@ -114,9 +114,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3800. Minimum Cost to Make Two Binary Strings Equal](../../3501-4000/3800-minimum-cost-to-make-two-binary-strings-equal/)
 - [3955. Valid Binary Strings With Cost Limit](../../3501-4000/3955-valid-binary-strings-with-cost-limit/)
-- [67. Add Binary](../../0001-0500/0067-add-binary/)
-- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
+- [43. Multiply Strings](../../0001-0500/0043-multiply-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)

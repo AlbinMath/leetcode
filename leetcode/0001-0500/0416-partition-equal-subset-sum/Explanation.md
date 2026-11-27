@@ -116,8 +116,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [698. Partition to K Equal Sum Subsets](../../0501-1000/0698-partition-to-k-equal-sum-subsets/)
+- [1013. Partition Array Into Three Parts With Equal Sum](../../1001-1500/1013-partition-array-into-three-parts-with-equal-sum/)
 - [3546. Equal Sum Grid Partition I](../../3501-4000/3546-equal-sum-grid-partition-i/)
-- [3548. Equal Sum Grid Partition II](../../3501-4000/3548-equal-sum-grid-partition-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-equal-subset-sum/)

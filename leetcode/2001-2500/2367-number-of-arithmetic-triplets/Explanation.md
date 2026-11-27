@@ -101,9 +101,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2475. Number of Unequal Triplets in Array](../../2001-2500/2475-number-of-unequal-triplets-in-array/)
 - [3513. Number of Unique XOR Triplets I](../../3501-4000/3513-number-of-unique-xor-triplets-i/)
 - [3514. Number of Unique XOR Triplets II](../../3501-4000/3514-number-of-unique-xor-triplets-ii/)
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-arithmetic-triplets/)

@@ -127,9 +127,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [413. Arithmetic Slices](../../0001-0500/0413-arithmetic-slices/)
-- [446. Arithmetic Slices II - Subsequence](../../0001-0500/0446-arithmetic-slices-ii-subsequence/)
-- [1027. Longest Arithmetic Subsequence](../../1001-1500/1027-longest-arithmetic-subsequence/)
+- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [898. Bitwise ORs of Subarrays](../../0501-1000/0898-bitwise-ors-of-subarrays/)
+- [930. Binary Subarrays With Sum](../../0501-1000/0930-binary-subarrays-with-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/arithmetic-subarrays/)

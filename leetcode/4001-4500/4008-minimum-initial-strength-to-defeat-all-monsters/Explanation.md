@@ -160,9 +160,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
-- [1443. Minimum Time to Collect All Apples in a Tree](../../1001-1500/1443-minimum-time-to-collect-all-apples-in-a-tree/)
-- [1557. Minimum Number of Vertices to Reach All Nodes](../../1501-2000/1557-minimum-number-of-vertices-to-reach-all-nodes/)
+- [1665. Minimum Initial Energy to Finish Tasks](../../1501-2000/1665-minimum-initial-energy-to-finish-tasks/)
+- [3029. Minimum Time to Revert Word to Initial State I](../../3001-3500/3029-minimum-time-to-revert-word-to-initial-state-i/)
+- [3031. Minimum Time to Revert Word to Initial State II](../../3001-3500/3031-minimum-time-to-revert-word-to-initial-state-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-initial-strength-to-defeat-all-monsters/)

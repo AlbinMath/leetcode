@@ -144,8 +144,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1487. Making File Names Unique](../../1001-1500/1487-making-file-names-unique/)
-- [463. Island Perimeter](../../0001-0500/0463-island-perimeter/)
-- [695. Max Area of Island](../../0501-1000/0695-max-area-of-island/)
+- [830. Positions of Large Groups](../../0501-1000/0830-positions-of-large-groups/)
+- [1036. Escape a Large Maze](../../1001-1500/1036-escape-a-large-maze/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/making-a-large-island/)

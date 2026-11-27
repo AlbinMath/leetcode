@@ -164,7 +164,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
 - [177. Nth Highest Salary](../../0001-0500/0177-nth-highest-salary/)
-- [185. Department Top Three Salaries](../../0001-0500/0185-department-top-three-salaries/)
+- [798. Smallest Rotation with Highest Score](../../0501-1000/0798-smallest-rotation-with-highest-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/department-highest-salary/)

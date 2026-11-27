@@ -143,7 +143,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [2008. Maximum Earnings From Taxi](../../2001-2500/2008-maximum-earnings-from-taxi/)
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
-- [1659. Maximize Grid Happiness](../../1501-2000/1659-maximize-grid-happiness/)
+- [1330. Reverse Subarray To Maximize Array Value](../../1001-1500/1330-reverse-subarray-to-maximize-array-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-meeting-earnings-with-idle-gaps/)

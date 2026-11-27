@@ -110,8 +110,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1413. Minimum Value to Get Positive Step by Step Sum](../../1001-1500/1413-minimum-value-to-get-positive-step-by-step-sum/)
+- [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](../../1501-2000/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 - [1896. Minimum Cost to Change the Final Value of Expression](../../1501-2000/1896-minimum-cost-to-change-the-final-value-of-expression/)
-- [2033. Minimum Operations to Make a Uni-Value Grid](../../2001-2500/2033-minimum-operations-to-make-a-uni-value-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-common-value/)

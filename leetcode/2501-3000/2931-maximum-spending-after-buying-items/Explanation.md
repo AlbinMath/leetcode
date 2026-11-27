@@ -133,8 +133,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
+- [1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](../../1001-1500/1465-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
 - [1702. Maximum Binary String After Change](../../1501-2000/1702-maximum-binary-string-after-change/)
-- [1846. Maximum Element After Decreasing and Rearranging](../../1501-2000/1846-maximum-element-after-decreasing-and-rearranging/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-spending-after-buying-items/)

@@ -129,9 +129,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [39. Combination Sum](../../0001-0500/0039-combination-sum/)
-- [40. Combination Sum II](../../0001-0500/0040-combination-sum-ii/)
+- [3974. Maximum Total Sum of K Selected Elements](../../3501-4000/3974-maximum-total-sum-of-k-selected-elements/)
+- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
+- [1010. Pairs of Songs With Total Durations Divisible by 60](../../1001-1500/1010-pairs-of-songs-with-total-durations-divisible-by-60/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)

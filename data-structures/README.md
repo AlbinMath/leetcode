@@ -6,20 +6,20 @@ A comprehensive catalog of data structures utilized across all solved LeetCode p
 
 | Data Structure | Solved Count | Hub Link |
 |---|---|---|
-| **Array** | 1139 problems | [Browse Array](./array.md) |
+| **Array** | 1289 problems | [Browse Array](./array.md) |
 | **Array / Hash Set** | 46 problems | [Browse Array / Hash Set](./array-hash-set.md) |
-| **DP Table / Array** | 167 problems | [Browse DP Table / Array](./dp-table-array.md) |
-| **Dictionary / Hash Map** | 433 problems | [Browse Dictionary / Hash Map](./dictionary-hash-map.md) |
+| **DP Table / Array** | 172 problems | [Browse DP Table / Array](./dp-table-array.md) |
+| **Dictionary / Hash Map** | 435 problems | [Browse Dictionary / Hash Map](./dictionary-hash-map.md) |
 | **Heap / Priority Queue** | 20 problems | [Browse Heap / Priority Queue](./heap-priority-queue.md) |
-| **Integer Bitmask** | 133 problems | [Browse Integer Bitmask](./integer-bitmask.md) |
+| **Integer Bitmask** | 142 problems | [Browse Integer Bitmask](./integer-bitmask.md) |
 | **Linked List / Pointer** | 17 problems | [Browse Linked List / Pointer](./linked-list-pointer.md) |
 | **Prefix Array** | 46 problems | [Browse Prefix Array](./prefix-array.md) |
-| **Primitive Types** | 112 problems | [Browse Primitive Types](./primitive-types.md) |
-| **Recursion Tree** | 51 problems | [Browse Recursion Tree](./recursion-tree.md) |
+| **Primitive Types** | 118 problems | [Browse Primitive Types](./primitive-types.md) |
+| **Recursion Tree** | 53 problems | [Browse Recursion Tree](./recursion-tree.md) |
 | **Relational Table** | 88 problems | [Browse Relational Table](./relational-table.md) |
-| **Sorted Array** | 170 problems | [Browse Sorted Array](./sorted-array.md) |
-| **Stack** | 213 problems | [Browse Stack](./stack.md) |
-| **Tree / Graph / Grid** | 108 problems | [Browse Tree / Graph / Grid](./tree-graph-grid.md) |
+| **Sorted Array** | 171 problems | [Browse Sorted Array](./sorted-array.md) |
+| **Stack** | 214 problems | [Browse Stack](./stack.md) |
+| **Tree / Graph / Grid** | 112 problems | [Browse Tree / Graph / Grid](./tree-graph-grid.md) |
 | **Trie Node** | 8 problems | [Browse Trie Node](./trie-node.md) |
 
 ---

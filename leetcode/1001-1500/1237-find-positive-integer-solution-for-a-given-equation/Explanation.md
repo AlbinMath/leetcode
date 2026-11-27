@@ -141,9 +141,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1394. Find Lucky Integer in an Array](../../1001-1500/1394-find-lucky-integer-in-an-array/)
-- [1985. Find the Kth Largest Integer in the Array](../../1501-2000/1985-find-the-kth-largest-integer-in-the-array/)
-- [2485. Find the Pivot Integer](../../2001-2500/2485-find-the-pivot-integer/)
+- [1283. Find the Smallest Divisor Given a Threshold](../../1001-1500/1283-find-the-smallest-divisor-given-a-threshold/)
+- [1605. Find Valid Matrix Given Row and Column Sums](../../1501-2000/1605-find-valid-matrix-given-row-and-column-sums/)
+- [1982. Find Array Given Subset Sums](../../1501-2000/1982-find-array-given-subset-sums/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/)

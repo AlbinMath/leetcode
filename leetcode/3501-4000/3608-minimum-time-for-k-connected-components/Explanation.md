@@ -159,7 +159,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1761. Minimum Degree of a Connected Trio in a Graph](../../1501-2000/1761-minimum-degree-of-a-connected-trio-in-a-graph/)
 - [3378. Count Connected Components in LCM Graph](../../3001-3500/3378-count-connected-components-in-lcm-graph/)
-- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
+- [857. Minimum Cost to Hire K Workers](../../0501-1000/0857-minimum-cost-to-hire-k-workers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-for-k-connected-components/)

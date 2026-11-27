@@ -101,9 +101,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2463. Minimum Total Distance Traveled](../../2001-2500/2463-minimum-total-distance-traveled/)
 - [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
 - [1010. Pairs of Songs With Total Durations Divisible by 60](../../1001-1500/1010-pairs-of-songs-with-total-durations-divisible-by-60/)
-- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1741-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-distance-traveled/)

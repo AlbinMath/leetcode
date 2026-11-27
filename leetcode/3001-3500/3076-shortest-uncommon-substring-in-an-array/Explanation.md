@@ -114,7 +114,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](../../1501-2000/1574-shortest-subarray-to-be-removed-to-make-array-sorted/)
 - [3455. Shortest Matching Substring](../../3001-3500/3455-shortest-matching-substring/)
-- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/)

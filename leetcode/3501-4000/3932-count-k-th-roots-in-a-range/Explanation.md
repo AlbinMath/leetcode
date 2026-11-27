@@ -125,8 +125,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [440. K-th Smallest in Lexicographical Order](../../0001-0500/0440-k-th-smallest-in-lexicographical-order/)
+- [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
 - [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
-- [779. K-th Symbol in Grammar](../../0501-1000/0779-k-th-symbol-in-grammar/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-k-th-roots-in-a-range/)

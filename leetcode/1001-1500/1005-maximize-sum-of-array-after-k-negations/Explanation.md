@@ -114,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2897. Apply Operations on Array to Maximize Sum of Squares](../../2501-3000/2897-apply-operations-on-array-to-maximize-sum-of-squares/)
-- [3041. Maximize Consecutive Elements in an Array After Modification](../../3001-3500/3041-maximize-consecutive-elements-in-an-array-after-modification/)
-- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3001-3500/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
+- [2202. Maximize the Topmost Element After K Moves](../../2001-2500/2202-maximize-the-topmost-element-after-k-moves/)
+- [2386. Find the K-Sum of an Array](../../2001-2500/2386-find-the-k-sum-of-an-array/)
+- [2829. Determine the Minimum Sum of a k-avoiding Array](../../2501-3000/2829-determine-the-minimum-sum-of-a-k-avoiding-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)

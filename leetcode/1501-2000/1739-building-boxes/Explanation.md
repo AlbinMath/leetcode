@@ -117,8 +117,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1117. Building H2O](../../1001-1500/1117-building-h2o/)
+- [1642. Furthest Building You Can Reach](../../1501-2000/1642-furthest-building-you-can-reach/)
 - [1840. Maximum Building Height](../../1501-2000/1840-maximum-building-height/)
-- [2940. Find Building Where Alice and Bob Can Meet](../../2501-3000/2940-find-building-where-alice-and-bob-can-meet/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/building-boxes/)

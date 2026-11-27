@@ -129,8 +129,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [2957. Remove Adjacent Almost-Equal Characters](../../2501-3000/2957-remove-adjacent-almost-equal-characters/)
 - [3265. Count Almost Equal Pairs I](../../3001-3500/3265-count-almost-equal-pairs-i/)
-- [3267. Count Almost Equal Pairs II](../../3001-3500/3267-count-almost-equal-pairs-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-occurrence-of-first-almost-equal-substring/)

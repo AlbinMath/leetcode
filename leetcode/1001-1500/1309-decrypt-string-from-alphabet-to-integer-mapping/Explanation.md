@@ -114,7 +114,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
 - [988. Smallest String Starting From Leaf](../../0501-1000/0988-smallest-string-starting-from-leaf/)
-- [2375. Construct Smallest Number From DI String](../../2001-2500/2375-construct-smallest-number-from-di-string/)
+- [1432. Max Difference You Can Get From Changing an Integer](../../1001-1500/1432-max-difference-you-can-get-from-changing-an-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)

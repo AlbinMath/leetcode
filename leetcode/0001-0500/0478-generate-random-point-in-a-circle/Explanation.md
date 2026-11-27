@@ -114,8 +114,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [497. Random Point in Non-overlapping Rectangles](../../0001-0500/0497-random-point-in-non-overlapping-rectangles/)
-- [1779. Find Nearest Point That Has the Same X or Y Coordinate](../../1501-2000/1779-find-nearest-point-that-has-the-same-x-or-y-coordinate/)
-- [2250. Count Number of Rectangles Containing Each Point](../../2001-2500/2250-count-number-of-rectangles-containing-each-point/)
+- [1041. Robot Bounded In Circle](../../1001-1500/1041-robot-bounded-in-circle/)
+- [1401. Circle and Rectangle Overlapping](../../1001-1500/1401-circle-and-rectangle-overlapping/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-random-point-in-a-circle/)

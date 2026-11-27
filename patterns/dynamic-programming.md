@@ -21,6 +21,7 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 2389 | [Longest Subsequence With Limited Sum](../leetcode/2001-2500/2389-longest-subsequence-with-limited-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2389-longest-subsequence-with-limited-sum/Explanation.md) |
 | 2889 | [Reshape Data: Pivot](../leetcode/2501-3000/2889-reshape-data-pivot/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2889-reshape-data-pivot/Explanation.md) |
 | 2890 | [Reshape Data: Melt](../leetcode/2501-3000/2890-reshape-data-melt/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2890-reshape-data-melt/Explanation.md) |
+| 2900 | [Longest Unequal Adjacent Groups Subsequence I](../leetcode/2501-3000/2900-longest-unequal-adjacent-groups-subsequence-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2900-longest-unequal-adjacent-groups-subsequence-i/Explanation.md) |
 | 2951 | [Find the Peaks](../leetcode/2501-3000/2951-find-the-peaks/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2951-find-the-peaks/Explanation.md) |
 | 3903 | [Smallest Stable Index I](../leetcode/3501-4000/3903-smallest-stable-index-i/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3903-smallest-stable-index-i/Explanation.md) |
 | 4056 | [Number of Intersecting Interval Pairs I](../leetcode/4001-4500/4056-number-of-intersecting-interval-pairs-i/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4056-number-of-intersecting-interval-pairs-i/Explanation.md) |
@@ -38,6 +39,7 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 322 | [Coin Change](../leetcode/0001-0500/0322-coin-change/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0322-coin-change/Explanation.md) |
 | 334 | [Increasing Triplet Subsequence](../leetcode/0001-0500/0334-increasing-triplet-subsequence/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0334-increasing-triplet-subsequence/Explanation.md) |
 | 375 | [Guess Number Higher or Lower II](../leetcode/0001-0500/0375-guess-number-higher-or-lower-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0375-guess-number-higher-or-lower-ii/Explanation.md) |
+| 376 | [Wiggle Subsequence](../leetcode/0001-0500/0376-wiggle-subsequence/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0376-wiggle-subsequence/Explanation.md) |
 | 416 | [Partition Equal Subset Sum](../leetcode/0001-0500/0416-partition-equal-subset-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0416-partition-equal-subset-sum/Explanation.md) |
 | 474 | [Ones and Zeroes](../leetcode/0001-0500/0474-ones-and-zeroes/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0474-ones-and-zeroes/Explanation.md) |
 | 478 | [Generate Random Point in a Circle](../leetcode/0001-0500/0478-generate-random-point-in-a-circle/) | Python | O(n) | O(n) | [Explanation](../leetcode/0001-0500/0478-generate-random-point-in-a-circle/Explanation.md) |
@@ -78,6 +80,7 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 2207 | [Maximize Number of Subsequences in a String](../leetcode/2001-2500/2207-maximize-number-of-subsequences-in-a-string/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2207-maximize-number-of-subsequences-in-a-string/Explanation.md) |
 | 2304 | [Minimum Path Cost in a Grid](../leetcode/2001-2500/2304-minimum-path-cost-in-a-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2304-minimum-path-cost-in-a-grid/Explanation.md) |
 | 2311 | [Longest Binary Subsequence Less Than or Equal to K](../leetcode/2001-2500/2311-longest-binary-subsequence-less-than-or-equal-to-k/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2311-longest-binary-subsequence-less-than-or-equal-to-k/Explanation.md) |
+| 2486 | [Append Characters to String to Make Subsequence](../leetcode/2001-2500/2486-append-characters-to-string-to-make-subsequence/) | Python | O(n) | O(n) | [Explanation](../leetcode/2001-2500/2486-append-characters-to-string-to-make-subsequence/Explanation.md) |
 | 2555 | [Maximize Win From Two Segments](../leetcode/2501-3000/2555-maximize-win-from-two-segments/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2555-maximize-win-from-two-segments/Explanation.md) |
 | 2761 | [Prime Pairs With Target Sum](../leetcode/2501-3000/2761-prime-pairs-with-target-sum/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2761-prime-pairs-with-target-sum/Explanation.md) |
 | 2767 | [Partition String Into Minimum Beautiful Substrings](../leetcode/2501-3000/2767-partition-string-into-minimum-beautiful-substrings/) | Python | O(n) | O(n) | [Explanation](../leetcode/2501-3000/2767-partition-string-into-minimum-beautiful-substrings/Explanation.md) |
@@ -102,6 +105,7 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 3877 | [Minimum Removals to Achieve Target XOR](../leetcode/3501-4000/3877-minimum-removals-to-achieve-target-xor/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3877-minimum-removals-to-achieve-target-xor/Explanation.md) |
 | 3882 | [Minimum XOR Path in a Grid](../leetcode/3501-4000/3882-minimum-xor-path-in-a-grid/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3882-minimum-xor-path-in-a-grid/Explanation.md) |
 | 3979 | [Maximum Valid Pair Sum](../leetcode/3501-4000/3979-maximum-valid-pair-sum/) | Python | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3979-maximum-valid-pair-sum/Explanation.md) |
+| 3998 | [Transform Binary String Using Subsequence Sort](../leetcode/3501-4000/3998-transform-binary-string-using-subsequence-sort/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/3501-4000/3998-transform-binary-string-using-subsequence-sort/Explanation.md) |
 | 4016 | [Maximum Area of Two Non-Overlapping Square Submatrices](../leetcode/4001-4500/4016-maximum-area-of-two-non-overlapping-square-submatrices/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4016-maximum-area-of-two-non-overlapping-square-submatrices/Explanation.md) |
 | 4057 | [Number of Intersecting Interval Pairs II](../leetcode/4001-4500/4057-number-of-intersecting-interval-pairs-ii/) | Python | O(n) | O(n) | [Explanation](../leetcode/4001-4500/4057-number-of-intersecting-interval-pairs-ii/Explanation.md) |
 
@@ -122,6 +126,7 @@ A collection of LeetCode problems solved using **Dynamic Programming** pattern t
 | 741 | [Cherry Pickup](../leetcode/0501-1000/0741-cherry-pickup/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0741-cherry-pickup/Explanation.md) |
 | 805 | [Split Array With Same Average](../leetcode/0501-1000/0805-split-array-with-same-average/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0805-split-array-with-same-average/Explanation.md) |
 | 818 | [Race Car](../leetcode/0501-1000/0818-race-car/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0818-race-car/Explanation.md) |
+| 891 | [Sum of Subsequence Widths](../leetcode/0501-1000/0891-sum-of-subsequence-widths/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0891-sum-of-subsequence-widths/Explanation.md) |
 | 920 | [Number of Music Playlists](../leetcode/0501-1000/0920-number-of-music-playlists/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0920-number-of-music-playlists/Explanation.md) |
 | 940 | [Distinct Subsequences II](../leetcode/0501-1000/0940-distinct-subsequences-ii/) | JavaScript | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0940-distinct-subsequences-ii/Explanation.md) |
 | 960 | [Delete Columns to Make Sorted III](../leetcode/0501-1000/0960-delete-columns-to-make-sorted-iii/) | Python | O(n) | O(n) | [Explanation](../leetcode/0501-1000/0960-delete-columns-to-make-sorted-iii/Explanation.md) |

@@ -183,9 +183,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1691. Maximum Height by Stacking Cuboids ](../../1501-2000/1691-maximum-height-by-stacking-cuboids/)
 - [3200. Maximum Height of a Triangle](../../3001-3500/3200-maximum-height-of-a-triangle/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [1117. Building H2O](../../1001-1500/1117-building-h2o/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-building-height/)

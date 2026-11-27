@@ -117,9 +117,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
-- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
-- [334. Increasing Triplet Subsequence](../../0001-0500/0334-increasing-triplet-subsequence/)
+- [777. Swap Adjacent in LR String](../../0501-1000/0777-swap-adjacent-in-lr-string/)
+- [1042. Flower Planting With No Adjacent](../../1001-1500/1042-flower-planting-with-no-adjacent/)
+- [1047. Remove All Adjacent Duplicates In String](../../1001-1500/1047-remove-all-adjacent-duplicates-in-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/)

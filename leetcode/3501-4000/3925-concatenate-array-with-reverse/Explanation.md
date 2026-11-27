@@ -120,9 +120,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1330. Reverse Subarray To Maximize Array Value](../../1001-1500/1330-reverse-subarray-to-maximize-array-value/)
 - [2888. Reshape Data: Concatenate](../../2501-3000/2888-reshape-data-concatenate/)
 - [3754. Concatenate Non-Zero Digits and Multiply by Sum I](../../3501-4000/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/)
-- [3756. Concatenate Non-Zero Digits and Multiply by Sum II](../../3501-4000/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/concatenate-array-with-reverse/)

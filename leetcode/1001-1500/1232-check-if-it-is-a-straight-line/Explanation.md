@@ -98,8 +98,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1250. Check If It Is a Good Array](../../1001-1500/1250-check-if-it-is-a-good-array/)
+- [2811. Check if it is Possible to Split Array](../../2501-3000/2811-check-if-it-is-possible-to-split-array/)
 - [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1003-check-if-word-is-valid-after-substitutions/)
-- [1346. Check If N and Its Double Exist](../../1001-1500/1346-check-if-n-and-its-double-exist/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-it-is-a-straight-line/)

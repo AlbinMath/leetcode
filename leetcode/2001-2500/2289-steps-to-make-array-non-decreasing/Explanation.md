@@ -109,7 +109,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3326. Minimum Division Operations to Make Array Non Decreasing](../../3001-3500/3326-minimum-division-operations-to-make-array-non-decreasing/)
 - [3523. Make Array Non-decreasing](../../3501-4000/3523-make-array-non-decreasing/)
-- [2945. Find Maximum Non-decreasing Array Length](../../2501-3000/2945-find-maximum-non-decreasing-array-length/)
+- [3914. Minimum Operations to Make Array Non Decreasing](../../3501-4000/3914-minimum-operations-to-make-array-non-decreasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)

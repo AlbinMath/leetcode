@@ -232,7 +232,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2913. Subarrays Distinct Element Sum of Squares I](../../2501-3000/2913-subarrays-distinct-element-sum-of-squares-i/)
 - [2461. Maximum Sum of Distinct Subarrays With Length K](../../2001-2500/2461-maximum-sum-of-distinct-subarrays-with-length-k/)
-- [3729. Count Distinct Subarrays Divisible by K in Sorted Array](../../3501-4000/3729-count-distinct-subarrays-divisible-by-k-in-sorted-array/)
+- [2862. Maximum Element-Sum of a Complete Subset of Indices](../../2501-3000/2862-maximum-element-sum-of-a-complete-subset-of-indices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/)

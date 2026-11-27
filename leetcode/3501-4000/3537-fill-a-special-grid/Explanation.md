@@ -148,9 +148,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [761. Special Binary String](../../0501-1000/0761-special-binary-string/)
-- [893. Groups of Special-Equivalent Strings](../../0501-1000/0893-groups-of-special-equivalent-strings/)
-- [1475. Final Prices With a Special Discount in a Shop](../../1001-1500/1475-final-prices-with-a-special-discount-in-a-shop/)
+- [733. Flood Fill](../../0501-1000/0733-flood-fill/)
+- [2335. Minimum Amount of Time to Fill Cups](../../2001-2500/2335-minimum-amount-of-time-to-fill-cups/)
+- [2887. Fill Missing Data](../../2501-3000/2887-fill-missing-data/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fill-a-special-grid/)

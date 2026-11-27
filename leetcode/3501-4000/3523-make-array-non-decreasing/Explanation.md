@@ -115,7 +115,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2289. Steps to Make Array Non-decreasing](../../2001-2500/2289-steps-to-make-array-non-decreasing/)
 - [3326. Minimum Division Operations to Make Array Non Decreasing](../../3001-3500/3326-minimum-division-operations-to-make-array-non-decreasing/)
-- [2945. Find Maximum Non-decreasing Array Length](../../2501-3000/2945-find-maximum-non-decreasing-array-length/)
+- [3914. Minimum Operations to Make Array Non Decreasing](../../3501-4000/3914-minimum-operations-to-make-array-non-decreasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-array-non-decreasing/)

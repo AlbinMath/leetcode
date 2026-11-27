@@ -120,9 +120,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2028. Find Missing Observations](../../2001-2500/2028-find-missing-observations/)
-- [2965. Find Missing and Repeated Values](../../2501-3000/2965-find-missing-and-repeated-values/)
-- [3471. Find the Largest Almost Missing Integer](../../3001-3500/3471-find-the-largest-almost-missing-integer/)
+- [658. Find K Closest Elements](../../0501-1000/0658-find-k-closest-elements/)
+- [1261. Find Elements in a Contaminated Binary Tree](../../1001-1500/1261-find-elements-in-a-contaminated-binary-tree/)
+- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-missing-elements/)

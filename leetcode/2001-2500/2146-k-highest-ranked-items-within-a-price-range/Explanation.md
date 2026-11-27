@@ -182,7 +182,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1984. Minimum Difference Between Highest and Lowest of K Scores](../../1501-2000/1984-minimum-difference-between-highest-and-lowest-of-k-scores/)
 - [632. Smallest Range Covering Elements from K Lists](../../0501-1000/0632-smallest-range-covering-elements-from-k-lists/)
-- [3855. Sum of K-Digit Numbers in a Range](../../3501-4000/3855-sum-of-k-digit-numbers-in-a-range/)
+- [787. Cheapest Flights Within K Stops](../../0501-1000/0787-cheapest-flights-within-k-stops/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)

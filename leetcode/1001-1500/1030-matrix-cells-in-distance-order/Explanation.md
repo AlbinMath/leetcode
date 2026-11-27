@@ -119,7 +119,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [1252. Cells with Odd Values in a Matrix](../../1001-1500/1252-cells-with-odd-values-in-a-matrix/)
 - [2713. Maximum Strictly Increasing Cells in a Matrix](../../2501-3000/2713-maximum-strictly-increasing-cells-in-a-matrix/)
-- [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
+- [102. Binary Tree Level Order Traversal](../../0001-0500/0102-binary-tree-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/matrix-cells-in-distance-order/)

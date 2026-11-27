@@ -115,7 +115,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2068. Check Whether Two Strings are Almost Equivalent](../../2001-2500/2068-check-whether-two-strings-are-almost-equivalent/)
 - [2157. Groups of Strings](../../2001-2500/2157-groups-of-strings/)
-- [761. Special Binary String](../../0501-1000/0761-special-binary-string/)
+- [951. Flip Equivalent Binary Trees](../../0501-1000/0951-flip-equivalent-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/groups-of-special-equivalent-strings/)

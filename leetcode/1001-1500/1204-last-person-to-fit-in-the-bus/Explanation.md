@@ -165,8 +165,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [607. Sales Person](../../0501-1000/0607-sales-person/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
+- [815. Bus Routes](../../0501-1000/0815-bus-routes/)
+- [2332. The Latest Time to Catch a Bus](../../2001-2500/2332-the-latest-time-to-catch-a-bus/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)

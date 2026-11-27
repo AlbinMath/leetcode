@@ -134,7 +134,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1827. Minimum Operations to Make the Array Increasing](../../1501-2000/1827-minimum-operations-to-make-the-array-increasing/)
 - [2997. Minimum Number of Operations to Make Array XOR Equal to K](../../2501-3000/2997-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
-- [3402. Minimum Operations to Make Columns Strictly Increasing](../../3001-3500/3402-minimum-operations-to-make-columns-strictly-increasing/)
+- [3107. Minimum Operations to Make Median of Array Equal to K](../../3001-3500/3107-minimum-operations-to-make-median-of-array-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/)

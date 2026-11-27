@@ -153,8 +153,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [183. Customers Who Never Order](../../0001-0500/0183-customers-who-never-order/)
-- [1327. List the Products Ordered in a Period](../../1001-1500/1327-list-the-products-ordered-in-a-period/)
-- [1484. Group Sold Products By The Date](../../1001-1500/1484-group-sold-products-by-the-date/)
+- [3657. Find Loyal Customers](../../3501-4000/3657-find-loyal-customers/)
+- [3705. Find Golden Hour Customers](../../3501-4000/3705-find-golden-hour-customers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customers-who-bought-all-products/)

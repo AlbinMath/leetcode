@@ -125,7 +125,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 - [2213. Longest Substring of One Repeating Character](../../2001-2500/2213-longest-substring-of-one-repeating-character/)
-- [424. Longest Repeating Character Replacement](../../0001-0500/0424-longest-repeating-character-replacement/)
+- [862. Shortest Subarray with Sum at Least K](../../0501-1000/0862-shortest-subarray-with-sum-at-least-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)

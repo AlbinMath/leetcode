@@ -136,8 +136,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
-- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
-- [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
+- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
+- [2957. Remove Adjacent Almost-Equal Characters](../../2501-3000/2957-remove-adjacent-almost-equal-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)

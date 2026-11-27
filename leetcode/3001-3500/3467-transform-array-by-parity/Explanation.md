@@ -100,9 +100,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [905. Sort Array By Parity](../../0501-1000/0905-sort-array-by-parity/)
-- [922. Sort Array By Parity II](../../0501-1000/0922-sort-array-by-parity-ii/)
-- [3875. Construct Uniform Parity Array I](../../3501-4000/3875-construct-uniform-parity-array-i/)
+- [1331. Rank Transform of an Array](../../1001-1500/1331-rank-transform-of-an-array/)
+- [2635. Apply Transform Over Each Element in Array](../../2501-3000/2635-apply-transform-over-each-element-in-array/)
+- [3576. Transform Array to All Equal Elements](../../3501-4000/3576-transform-array-to-all-equal-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/transform-array-by-parity/)

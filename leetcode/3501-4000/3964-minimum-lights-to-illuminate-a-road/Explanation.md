@@ -139,9 +139,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [4025. Minimize the Maximum Waiting Time at Synchronized Traffic Lights](../../4001-4500/4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/)
 - [2211. Count Collisions on a Road](../../2001-2500/2211-count-collisions-on-a-road/)
 - [3243. Shortest Distance After Road Addition Queries I](../../3001-3500/3243-shortest-distance-after-road-addition-queries-i/)
-- [3244. Shortest Distance After Road Addition Queries II](../../3001-3500/3244-shortest-distance-after-road-addition-queries-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-lights-to-illuminate-a-road/)

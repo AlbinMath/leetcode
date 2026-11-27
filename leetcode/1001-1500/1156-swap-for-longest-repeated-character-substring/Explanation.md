@@ -114,9 +114,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3900. Longest Balanced Substring After One Swap](../../3501-4000/3900-longest-balanced-substring-after-one-swap/)
 - [2213. Longest Substring of One Repeating Character](../../2001-2500/2213-longest-substring-of-one-repeating-character/)
-- [459. Repeated Substring Pattern](../../0001-0500/0459-repeated-substring-pattern/)
+- [3900. Longest Balanced Substring After One Swap](../../3501-4000/3900-longest-balanced-substring-after-one-swap/)
+- [424. Longest Repeating Character Replacement](../../0001-0500/0424-longest-repeating-character-replacement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)

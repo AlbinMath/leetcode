@@ -111,9 +111,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1587. Bank Account Summary II](../../1501-2000/1587-bank-account-summary-ii/)
-- [2043. Simple Bank System](../../2001-2500/2043-simple-bank-system/)
-- [2100. Find Good Days to Rob the Bank](../../2001-2500/2100-find-good-days-to-rob-the-bank/)
+- [1873. Calculate Special Bonus](../../1501-2000/1873-calculate-special-bonus/)
+- [2243. Calculate Digit Sum of a String](../../2001-2500/2243-calculate-digit-sum-of-a-string/)
+- [2303. Calculate Amount Paid in Taxes](../../2001-2500/2303-calculate-amount-paid-in-taxes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)

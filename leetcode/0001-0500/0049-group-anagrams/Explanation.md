@@ -128,8 +128,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [2273. Find Resultant Array After Removing Anagrams](../../2001-2500/2273-find-resultant-array-after-removing-anagrams/)
 - [2514. Count Anagrams](../../2501-3000/2514-count-anagrams/)
-- [25. Reverse Nodes in k-Group](../../0001-0500/0025-reverse-nodes-in-k-group/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-anagrams/)

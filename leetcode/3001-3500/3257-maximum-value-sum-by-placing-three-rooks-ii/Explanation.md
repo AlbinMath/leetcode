@@ -145,8 +145,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3256. Maximum Value Sum by Placing Three Rooks I](../../3001-3500/3256-maximum-value-sum-by-placing-three-rooks-i/)
+- [3780. Maximum Sum of Three Numbers Divisible by Three](../../3501-4000/3780-maximum-sum-of-three-numbers-divisible-by-three/)
 - [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
-- [2177. Find Three Consecutive Integers That Sum to a Given Number](../../2001-2500/2177-find-three-consecutive-integers-that-sum-to-a-given-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/)

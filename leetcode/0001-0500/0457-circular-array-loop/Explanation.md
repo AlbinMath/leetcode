@@ -152,9 +152,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3776. Minimum Moves to Balance Circular Array](../../3501-4000/3776-minimum-moves-to-balance-circular-array/)
 - [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
 - [641. Design Circular Deque](../../0501-1000/0641-design-circular-deque/)
-- [918. Maximum Sum Circular Subarray](../../0501-1000/0918-maximum-sum-circular-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/circular-array-loop/)

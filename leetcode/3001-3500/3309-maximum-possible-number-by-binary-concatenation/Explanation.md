@@ -103,9 +103,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
-- [2959. Number of Possible Sets of Closing Branches](../../2501-3000/2959-number-of-possible-sets-of-closing-branches/)
-- [3129. Find All Possible Stable Binary Arrays I](../../3001-3500/3129-find-all-possible-stable-binary-arrays-i/)
+- [2864. Maximum Odd Binary Number](../../2501-3000/2864-maximum-odd-binary-number/)
+- [1191. K-Concatenation Maximum Sum](../../1001-1500/1191-k-concatenation-maximum-sum/)
+- [1680. Concatenation of Consecutive Binary Numbers](../../1501-2000/1680-concatenation-of-consecutive-binary-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/)

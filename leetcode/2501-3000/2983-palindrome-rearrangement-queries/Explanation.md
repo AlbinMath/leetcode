@@ -226,9 +226,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [125. Valid Palindrome](../../0001-0500/0125-valid-palindrome/)
-- [131. Palindrome Partitioning](../../0001-0500/0131-palindrome-partitioning/)
+- [3517. Smallest Palindromic Rearrangement I](../../3501-4000/3517-smallest-palindromic-rearrangement-i/)
+- [3518. Smallest Palindromic Rearrangement II](../../3501-4000/3518-smallest-palindromic-rearrangement-ii/)
+- [3849. Maximum Bitwise XOR After Rearrangement](../../3501-4000/3849-maximum-bitwise-xor-after-rearrangement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/palindrome-rearrangement-queries/)

@@ -113,9 +113,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [434. Number of Segments in a String](../../0001-0500/0434-number-of-segments-in-a-string/)
 - [792. Number of Matching Subsequences](../../0501-1000/0792-number-of-matching-subsequences/)
-- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1001-1500/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/)
-- [1771. Maximize Palindrome Length From Subsequences](../../1501-2000/1771-maximize-palindrome-length-from-subsequences/)
+- [806. Number of Lines To Write String](../../0501-1000/0806-number-of-lines-to-write-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)

@@ -129,9 +129,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1275. Find Winner on a Tic Tac Toe Game](../../1001-1500/1275-find-winner-on-a-tic-tac-toe-game/)
-- [1535. Find the Winner of an Array Game](../../1501-2000/1535-find-the-winner-of-an-array-game/)
-- [1823. Find the Winner of the Circular Game](../../1501-2000/1823-find-the-winner-of-the-circular-game/)
+- [389. Find the Difference](../../0001-0500/0389-find-the-difference/)
+- [2215. Find the Difference of Two Arrays](../../2001-2500/2215-find-the-difference-of-two-arrays/)
+- [3148. Maximum Difference Score in a Grid](../../3001-3500/3148-maximum-difference-score-in-a-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-score-difference-in-a-game/)

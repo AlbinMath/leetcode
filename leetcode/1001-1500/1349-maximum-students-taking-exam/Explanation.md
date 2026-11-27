@@ -152,8 +152,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3147. Taking Maximum Energy From the Mystic Dungeon](../../3001-3500/3147-taking-maximum-energy-from-the-mystic-dungeon/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
+- [855. Exam Room](../../0501-1000/0855-exam-room/)
+- [2024. Maximize the Confusion of an Exam](../../2001-2500/2024-maximize-the-confusion-of-an-exam/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-students-taking-exam/)

@@ -148,9 +148,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3900. Longest Balanced Substring After One Swap](../../3501-4000/3900-longest-balanced-substring-after-one-swap/)
 - [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
 - [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
+- [3243. Shortest Distance After Road Addition Queries I](../../3001-3500/3243-shortest-distance-after-road-addition-queries-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)

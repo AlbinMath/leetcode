@@ -118,8 +118,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
+- [757. Set Intersection Size At Least Two](../../0501-1000/0757-set-intersection-size-at-least-two/)
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
-- [902. Numbers At Most N Given Digit Set](../../0501-1000/0902-numbers-at-most-n-given-digit-set/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/set-mismatch/)

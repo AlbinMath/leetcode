@@ -169,9 +169,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [2208. Minimum Operations to Halve Array Sum](../../2001-2500/2208-minimum-operations-to-halve-array-sum/)
+- [2829. Determine the Minimum Sum of a k-avoiding Array](../../2501-3000/2829-determine-the-minimum-sum-of-a-k-avoiding-array/)
 - [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
-- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/)

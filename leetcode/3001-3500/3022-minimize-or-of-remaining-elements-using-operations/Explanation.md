@@ -131,7 +131,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [3012. Minimize Length of Array Using Operations](../../3001-3500/3012-minimize-length-of-array-using-operations/)
 - [3782. Last Remaining Integer After Alternating Deletion Operations](../../3501-4000/3782-last-remaining-integer-after-alternating-deletion-operations/)
-- [3180. Maximum Total Reward Using Operations I](../../3001-3500/3180-maximum-total-reward-using-operations-i/)
+- [1722. Minimize Hamming Distance After Swap Operations](../../1501-2000/1722-minimize-hamming-distance-after-swap-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/)

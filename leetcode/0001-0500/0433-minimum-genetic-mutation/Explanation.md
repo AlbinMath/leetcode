@@ -139,9 +139,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
+- [1938. Maximum Genetic Difference Query](../../1501-2000/1938-maximum-genetic-difference-query/)
+- [2003. Smallest Missing Genetic Value in Each Subtree](../../2001-2500/2003-smallest-missing-genetic-value-in-each-subtree/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
-- [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
-- [111. Minimum Depth of Binary Tree](../../0001-0500/0111-minimum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-genetic-mutation/)

@@ -125,7 +125,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1830. Minimum Number of Operations to Make String Sorted](../../1501-2000/1830-minimum-number-of-operations-to-make-string-sorted/)
 - [2009. Minimum Number of Operations to Make Array Continuous](../../2001-2500/2009-minimum-number-of-operations-to-make-array-continuous/)
-- [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
+- [2449. Minimum Number of Operations to Make Arrays Similar](../../2001-2500/2449-minimum-number-of-operations-to-make-arrays-similar/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)

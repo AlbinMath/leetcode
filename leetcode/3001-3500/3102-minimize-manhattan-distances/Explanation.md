@@ -139,8 +139,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3426. Manhattan Distances of All Arrangements of Pieces](../../3001-3500/3426-manhattan-distances-of-all-arrangements-of-pieces/)
-- [3443. Maximum Manhattan Distance After K Changes](../../3001-3500/3443-maximum-manhattan-distance-after-k-changes/)
-- [3968. Maximum Manhattan Distance After All Moves](../../3501-4000/3968-maximum-manhattan-distance-after-all-moves/)
+- [924. Minimize Malware Spread](../../0501-1000/0924-minimize-malware-spread/)
+- [928. Minimize Malware Spread II](../../0501-1000/0928-minimize-malware-spread-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-manhattan-distances/)

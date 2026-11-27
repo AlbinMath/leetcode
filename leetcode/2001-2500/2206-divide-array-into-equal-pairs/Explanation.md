@@ -107,9 +107,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1013. Partition Array Into Three Parts With Equal Sum](../../1001-1500/1013-partition-array-into-three-parts-with-equal-sum/)
+- [2966. Divide Array Into Arrays With Max Difference](../../2501-3000/2966-divide-array-into-arrays-with-max-difference/)
 - [3010. Divide an Array Into Subarrays With Minimum Cost I](../../3001-3500/3010-divide-an-array-into-subarrays-with-minimum-cost-i/)
-- [3013. Divide an Array Into Subarrays With Minimum Cost II](../../3001-3500/3013-divide-an-array-into-subarrays-with-minimum-cost-ii/)
-- [3500. Minimum Cost to Divide Array Into Subarrays](../../3001-3500/3500-minimum-cost-to-divide-array-into-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divide-array-into-equal-pairs/)

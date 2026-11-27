@@ -141,7 +141,7 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 ## Related Problems
 - [1981. Minimize the Difference Between Target and Chosen Elements](../../1501-2000/1981-minimize-the-difference-between-target-and-chosen-elements/)
 - [2817. Minimum Absolute Difference Between Elements With Constraint](../../2501-3000/2817-minimum-absolute-difference-between-elements-with-constraint/)
-- [783. Minimum Distance Between BST Nodes](../../0501-1000/0783-minimum-distance-between-bst-nodes/)
+- [56. Merge Intervals](../../0001-0500/0056-merge-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/intervals-between-identical-elements/)

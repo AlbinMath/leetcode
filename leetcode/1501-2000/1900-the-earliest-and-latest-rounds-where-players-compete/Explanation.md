@@ -155,9 +155,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [2136. Earliest Possible Day of Full Bloom](../../2001-2500/2136-earliest-possible-day-of-full-bloom/)
 - [3048. Earliest Second to Mark Indices I](../../3001-3500/3048-earliest-second-to-mark-indices-i/)
 - [3049. Earliest Second to Mark Indices II](../../3001-3500/3049-earliest-second-to-mark-indices-ii/)
-- [3633. Earliest Finish Time for Land and Water Rides I](../../3501-4000/3633-earliest-finish-time-for-land-and-water-rides-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/)

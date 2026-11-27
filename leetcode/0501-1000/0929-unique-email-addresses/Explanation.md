@@ -121,9 +121,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [93. Restore IP Addresses](../../0001-0500/0093-restore-ip-addresses/)
-- [3451. Find Invalid IP Addresses](../../3001-3500/3451-find-invalid-ip-addresses/)
 - [62. Unique Paths](../../0001-0500/0062-unique-paths/)
+- [63. Unique Paths II](../../0001-0500/0063-unique-paths-ii/)
+- [95. Unique Binary Search Trees II](../../0001-0500/0095-unique-binary-search-trees-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-email-addresses/)

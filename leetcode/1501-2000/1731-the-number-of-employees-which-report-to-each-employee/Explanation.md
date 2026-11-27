@@ -158,9 +158,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2930. Number of Strings Which Can Be Rearranged to Contain Substring](../../2501-3000/2930-number-of-strings-which-can-be-rearranged-to-contain-substring/)
 - [1741. Find Total Time Spent by Each Employee](../../1501-2000/1741-find-total-time-spent-by-each-employee/)
 - [1789. Primary Department for Each Employee](../../1501-2000/1789-primary-department-for-each-employee/)
+- [1953. Maximum Number of Weeks for Which You Can Work](../../1501-2000/1953-maximum-number-of-weeks-for-which-you-can-work/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/)

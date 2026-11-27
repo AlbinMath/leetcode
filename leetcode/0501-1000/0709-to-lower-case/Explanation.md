@@ -91,8 +91,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2309. Greatest English Letter in Upper and Lower Case](../../2001-2500/2309-greatest-english-letter-in-upper-and-lower-case/)
-- [784. Letter Case Permutation](../../0501-1000/0784-letter-case-permutation/)
 - [374. Guess Number Higher or Lower](../../0001-0500/0374-guess-number-higher-or-lower/)
+- [375. Guess Number Higher or Lower II](../../0001-0500/0375-guess-number-higher-or-lower-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/to-lower-case/)

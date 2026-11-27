@@ -123,9 +123,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [258. Add Digits](../../0001-0500/0258-add-digits/)
-- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
-- [402. Remove K Digits](../../0001-0500/0402-remove-k-digits/)
+- [1977. Number of Ways to Separate Numbers](../../1501-2000/1977-number-of-ways-to-separate-numbers/)
+- [2938. Separate Black and White Balls](../../2501-3000/2938-separate-black-and-white-balls/)
+- [3453. Separate Squares I](../../3001-3500/3453-separate-squares-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/separate-the-digits-in-an-array/)

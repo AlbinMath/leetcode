@@ -151,8 +151,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3894. Traffic Signal Color](../../3501-4000/3894-traffic-signal-color/)
+- [4025. Minimize the Maximum Waiting Time at Synchronized Traffic Lights](../../4001-4500/4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/)
 - [175. Combine Two Tables](../../0001-0500/0175-combine-two-tables/)
-- [176. Second Highest Salary](../../0001-0500/0176-second-highest-salary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/human-traffic-of-stadium/)

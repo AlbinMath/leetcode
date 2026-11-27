@@ -111,8 +111,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1370. Increasing Decreasing String](../../1001-1500/1370-increasing-decreasing-string/)
-- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
-- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
+- [738. Monotone Increasing Digits](../../0501-1000/0738-monotone-increasing-digits/)
+- [519. Random Flip Matrix](../../0501-1000/0519-random-flip-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flip-string-to-monotone-increasing/)

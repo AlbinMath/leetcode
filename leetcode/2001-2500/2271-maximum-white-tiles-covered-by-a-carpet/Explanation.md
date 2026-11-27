@@ -138,8 +138,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2397. Maximum Rows Covered by Columns](../../2001-2500/2397-maximum-rows-covered-by-columns/)
+- [3952. Maximum Total Value of Covered Indices](../../3501-4000/3952-maximum-total-value-of-covered-indices/)
 - [2209. Minimum White Tiles After Covering With Carpets](../../2001-2500/2209-minimum-white-tiles-after-covering-with-carpets/)
-- [1288. Remove Covered Intervals](../../1001-1500/1288-remove-covered-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)

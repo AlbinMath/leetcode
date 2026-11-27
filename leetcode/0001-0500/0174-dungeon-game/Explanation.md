@@ -116,9 +116,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [3147. Taking Maximum Energy From the Mystic Dungeon](../../3001-3500/3147-taking-maximum-energy-from-the-mystic-dungeon/)
+- [3771. Total Score of Dungeon Runs](../../3501-4000/3771-total-score-of-dungeon-runs/)
 - [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
-- [55. Jump Game](../../0001-0500/0055-jump-game/)
-- [289. Game of Life](../../0001-0500/0289-game-of-life/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/dungeon-game/)

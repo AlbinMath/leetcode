@@ -303,9 +303,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
-- [1211. Queries Quality and Percentage](../../1001-1500/1211-queries-quality-and-percentage/)
-- [1310. XOR Queries of a Subarray](../../1001-1500/1310-xor-queries-of-a-subarray/)
+- [483. Smallest Good Base](../../0001-0500/0483-smallest-good-base/)
+- [1250. Check If It Is a Good Array](../../1001-1500/1250-check-if-it-is-a-good-array/)
+- [1397. Find All Good Strings](../../1001-1500/1397-find-all-good-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/good-subsequence-queries/)

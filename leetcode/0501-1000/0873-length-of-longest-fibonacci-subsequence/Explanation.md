@@ -121,9 +121,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
-- [516. Longest Palindromic Subsequence](../../0501-1000/0516-longest-palindromic-subsequence/)
-- [521. Longest Uncommon Subsequence I](../../0501-1000/0521-longest-uncommon-subsequence-i/)
+- [2030. Smallest K-Length Subsequence With Occurrences of a Letter](../../2001-2500/2030-smallest-k-length-subsequence-with-occurrences-of-a-letter/)
+- [2099. Find Subsequence of Length K With the Largest Sum](../../2001-2500/2099-find-subsequence-of-length-k-with-the-largest-sum/)
+- [2781. Length of the Longest Valid Substring](../../2501-3000/2781-length-of-the-longest-valid-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)

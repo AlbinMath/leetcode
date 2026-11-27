@@ -112,8 +112,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2866. Beautiful Towers II](../../2501-3000/2866-beautiful-towers-ii/)
+- [3301. Maximize the Total Height of Unique Towers](../../3001-3500/3301-maximize-the-total-height-of-unique-towers/)
 - [526. Beautiful Arrangement](../../0501-1000/0526-beautiful-arrangement/)
-- [932. Beautiful Array](../../0501-1000/0932-beautiful-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/beautiful-towers-i/)

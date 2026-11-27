@@ -118,9 +118,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2180. Count Integers With Even Digit Sum](../../2001-2500/2180-count-integers-with-even-digit-sum/)
-- [3442. Maximum Difference Between Even and Odd Frequency I](../../3001-3500/3442-maximum-difference-between-even-and-odd-frequency-i/)
-- [3445. Maximum Difference Between Even and Odd Frequency II](../../3001-3500/3445-maximum-difference-between-even-and-odd-frequency-ii/)
+- [2871. Split Array Into Maximum Number of Subarrays](../../2501-3000/2871-split-array-into-maximum-number-of-subarrays/)
+- [3788. Maximum Score of a Split](../../3501-4000/3788-maximum-score-of-a-split/)
+- [4035. Maximum Valid Split Positions I](../../4001-4500/4035-maximum-valid-split-positions-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)

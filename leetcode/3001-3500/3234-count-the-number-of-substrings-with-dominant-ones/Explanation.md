@@ -208,8 +208,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1759. Count Number of Homogenous Substrings](../../1501-2000/1759-count-number-of-homogenous-substrings/)
-- [1277. Count Square Submatrices with All Ones](../../1001-1500/1277-count-square-submatrices-with-all-ones/)
-- [1504. Count Submatrices With All Ones](../../1501-2000/1504-count-submatrices-with-all-ones/)
+- [3833. Count Dominant Indices](../../3501-4000/3833-count-dominant-indices/)
+- [3997. Count Dominant Nodes in a Binary Tree](../../3501-4000/3997-count-dominant-nodes-in-a-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/)

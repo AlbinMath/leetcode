@@ -190,9 +190,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
-- [2799. Count Complete Subarrays in an Array](../../2501-3000/2799-count-complete-subarrays-in-an-array/)
-- [2953. Count Complete Substrings](../../2501-3000/2953-count-complete-substrings/)
+- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
+- [1395. Count Number of Teams](../../1001-1500/1395-count-number-of-teams/)
+- [1684. Count the Number of Consistent Strings](../../1501-2000/1684-count-the-number-of-consistent-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-complete-components/)

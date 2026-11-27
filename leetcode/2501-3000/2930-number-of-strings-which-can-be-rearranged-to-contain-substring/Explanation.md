@@ -146,7 +146,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [3297. Count Substrings That Can Be Rearranged to Contain a String I](../../3001-3500/3297-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
 - [3298. Count Substrings That Can Be Rearranged to Contain a String II](../../3001-3500/3298-count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)
-- [1751. Maximum Number of Events That Can Be Attended II](../../1501-2000/1751-maximum-number-of-events-that-can-be-attended-ii/)
+- [1353. Maximum Number of Events That Can Be Attended](../../1001-1500/1353-maximum-number-of-events-that-can-be-attended/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/)

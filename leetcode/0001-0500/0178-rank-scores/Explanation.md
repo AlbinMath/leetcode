@@ -137,9 +137,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1331. Rank Transform of an Array](../../1001-1500/1331-rank-transform-of-an-array/)
-- [1366. Rank Teams by Votes](../../1001-1500/1366-rank-teams-by-votes/)
-- [1615. Maximal Network Rank](../../1501-2000/1615-maximal-network-rank/)
+- [1984. Minimum Difference Between Highest and Lowest of K Scores](../../1501-2000/1984-minimum-difference-between-highest-and-lowest-of-k-scores/)
+- [2223. Sum of Scores of Built Strings](../../2001-2500/2223-sum-of-scores-of-built-strings/)
+- [2416. Sum of Prefix Scores of Strings](../../2001-2500/2416-sum-of-prefix-scores-of-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-scores/)

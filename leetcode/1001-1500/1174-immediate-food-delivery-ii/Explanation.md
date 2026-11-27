@@ -151,9 +151,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1418. Display Table of Food Orders in a Restaurant](../../1001-1500/1418-display-table-of-food-orders-in-a-restaurant/)
-- [2353. Design a Food Rating System](../../2001-2500/2353-design-a-food-rating-system/)
 - [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1359-count-all-valid-pickup-and-delivery-options/)
+- [1418. Display Table of Food Orders in a Restaurant](../../1001-1500/1418-display-table-of-food-orders-in-a-restaurant/)
+- [2086. Minimum Number of Food Buckets to Feed the Hamsters](../../2001-2500/2086-minimum-number-of-food-buckets-to-feed-the-hamsters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/immediate-food-delivery-ii/)

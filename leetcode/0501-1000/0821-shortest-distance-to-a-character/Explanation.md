@@ -118,7 +118,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3243. Shortest Distance After Road Addition Queries I](../../3001-3500/3243-shortest-distance-after-road-addition-queries-i/)
 - [3244. Shortest Distance After Road Addition Queries II](../../3001-3500/3244-shortest-distance-after-road-addition-queries-ii/)
-- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
+- [387. First Unique Character in a String](../../0001-0500/0387-first-unique-character-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-distance-to-a-character/)

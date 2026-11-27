@@ -130,8 +130,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2002. Maximum Product of the Length of Two Palindromic Subsequences](../../2001-2500/2002-maximum-product-of-the-length-of-two-palindromic-subsequences/)
-- [3483. Unique 3-Digit Even Numbers](../../3001-3500/3483-unique-3-digit-even-numbers/)
-- [3627. Maximum Median Sum of Subsequences of Size 3](../../3501-4000/3627-maximum-median-sum-of-subsequences-of-size-3/)
+- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
+- [1332. Remove Palindromic Subsequences](../../1001-1500/1332-remove-palindromic-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/)

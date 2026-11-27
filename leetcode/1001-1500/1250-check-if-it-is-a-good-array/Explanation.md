@@ -104,8 +104,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2784. Check if Array is Good](../../2501-3000/2784-check-if-array-is-good/)
+- [2811. Check if it is Possible to Split Array](../../2501-3000/2811-check-if-it-is-possible-to-split-array/)
 - [1232. Check If It Is a Straight Line](../../1001-1500/1232-check-if-it-is-a-straight-line/)
-- [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-it-is-a-good-array/)

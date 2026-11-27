@@ -117,7 +117,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [257. Binary Tree Paths](../../0001-0500/0257-binary-tree-paths/)
 - [2673. Make Costs of Paths Equal in a Binary Tree](../../2501-3000/2673-make-costs-of-paths-equal-in-a-binary-tree/)
-- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
+- [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../../1001-1500/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)

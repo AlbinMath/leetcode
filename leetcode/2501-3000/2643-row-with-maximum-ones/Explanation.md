@@ -102,9 +102,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3228. Maximum Number of Operations to Move Ones to the End](../../3001-3500/3228-maximum-number-of-operations-to-move-ones-to-the-end/)
 - [2482. Difference Between Ones and Zeros in Row and Column](../../2001-2500/2482-difference-between-ones-and-zeros-in-row-and-column/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [3228. Maximum Number of Operations to Move Ones to the End](../../3001-3500/3228-maximum-number-of-operations-to-move-ones-to-the-end/)
+- [474. Ones and Zeroes](../../0001-0500/0474-ones-and-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/row-with-maximum-ones/)

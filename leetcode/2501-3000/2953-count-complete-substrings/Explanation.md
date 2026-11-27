@@ -139,8 +139,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
-- [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [2685. Count the Number of Complete Components](../../2501-3000/2685-count-the-number-of-complete-components/)
+- [2799. Count Complete Subarrays in an Array](../../2501-3000/2799-count-complete-subarrays-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-complete-substrings/)

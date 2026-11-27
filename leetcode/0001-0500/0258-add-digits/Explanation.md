@@ -100,9 +100,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
-- [402. Remove K Digits](../../0001-0500/0402-remove-k-digits/)
-- [423. Reconstruct Original Digits from English](../../0001-0500/0423-reconstruct-original-digits-from-english/)
+- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
+- [67. Add Binary](../../0001-0500/0067-add-binary/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-digits/)

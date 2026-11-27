@@ -160,9 +160,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3310. Remove Methods From Project](../../3001-3500/3310-remove-methods-from-project/)
 - [181. Employees Earning More Than Their Managers](../../0001-0500/0181-employees-earning-more-than-their-managers/)
 - [627. Swap Sex of Employees](../../0501-1000/0627-swap-sex-of-employees/)
-- [1376. Time Needed to Inform All Employees](../../1001-1500/1376-time-needed-to-inform-all-employees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/project-employees-i/)

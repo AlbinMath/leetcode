@@ -114,9 +114,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [559. Maximum Depth of N-ary Tree](../../0501-1000/0559-maximum-depth-of-n-ary-tree/)
 - [3439. Reschedule Meetings for Maximum Free Time I](../../3001-3500/3439-reschedule-meetings-for-maximum-free-time-i/)
 - [3440. Reschedule Meetings for Maximum Free Time II](../../3001-3500/3440-reschedule-meetings-for-maximum-free-time-ii/)
+- [4009. Minimum Possible Maximum Waiting Time](../../4001-4500/4009-minimum-possible-maximum-waiting-time/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-running-time-of-n-computers/)

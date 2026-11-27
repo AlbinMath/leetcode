@@ -136,7 +136,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3962. Maximum Subarray Sum After at Most K Swaps](../../3501-4000/3962-maximum-subarray-sum-after-at-most-k-swaps/)
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [3428. Maximum and Minimum Sums of at Most Size K Subsequences](../../3001-3500/3428-maximum-and-minimum-sums-of-at-most-size-k-subsequences/)
+- [2233. Maximum Product After K Increments](../../2001-2500/2233-maximum-product-after-k-increments/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)

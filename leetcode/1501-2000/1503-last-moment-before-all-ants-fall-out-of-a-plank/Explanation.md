@@ -121,7 +121,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2124. Check if All A's Appears Before All B's](../../2001-2500/2124-check-if-all-as-appears-before-all-bs/)
 - [1706. Where Will the Ball Fall](../../1501-2000/1706-where-will-the-ball-fall/)
-- [30. Substring with Concatenation of All Words](../../0001-0500/0030-substring-with-concatenation-of-all-words/)
+- [2032. Two Out of Three](../../2001-2500/2032-two-out-of-three/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)

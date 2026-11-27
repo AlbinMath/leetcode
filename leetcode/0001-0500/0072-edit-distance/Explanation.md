@@ -179,7 +179,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
 - [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
-- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
+- [624. Maximum Distance in Arrays](../../0501-1000/0624-maximum-distance-in-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/edit-distance/)

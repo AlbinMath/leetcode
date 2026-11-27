@@ -112,9 +112,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1581-customer-who-visited-but-did-not-make-any-transactions/)
-- [2617. Minimum Number of Visited Cells in a Grid](../../2501-3000/2617-minimum-number-of-visited-cells-in-a-grid/)
-- [2876. Count Visited Nodes in a Directed Graph](../../2501-3000/2876-count-visited-nodes-in-a-directed-graph/)
+- [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
+- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
+- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-visited-sector-in-a-circular-track/)

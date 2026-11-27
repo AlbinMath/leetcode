@@ -166,7 +166,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3076. Shortest Uncommon Substring in an Array](../../3001-3500/3076-shortest-uncommon-substring-in-an-array/)
 - [3407. Substring Matching Pattern](../../3001-3500/3407-substring-matching-pattern/)
-- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-matching-substring/)

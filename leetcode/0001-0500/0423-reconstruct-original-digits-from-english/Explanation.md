@@ -109,9 +109,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2007. Find Original Array From Doubled Array](../../2001-2500/2007-find-original-array-from-doubled-array/)
 - [258. Add Digits](../../0001-0500/0258-add-digits/)
 - [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
-- [402. Remove K Digits](../../0001-0500/0402-remove-k-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reconstruct-original-digits-from-english/)

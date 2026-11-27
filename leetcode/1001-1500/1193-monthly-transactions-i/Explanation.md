@@ -133,7 +133,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1169. Invalid Transactions](../../1001-1500/1169-invalid-transactions/)
 - [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1581-customer-who-visited-but-did-not-make-any-transactions/)
-- [3220. Odd and Even Transactions](../../3001-3500/3220-odd-and-even-transactions/)
+- [2412. Minimum Money Required Before Transactions](../../2001-2500/2412-minimum-money-required-before-transactions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/monthly-transactions-i/)

@@ -221,7 +221,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1260. Shift 2D Grid](../../1001-1500/1260-shift-2d-grid/)
 - [1559. Detect Cycles in 2D Grid](../../1501-2000/1559-detect-cycles-in-2d-grid/)
-- [74. Search a 2D Matrix](../../0001-0500/0074-search-a-2d-matrix/)
+- [133. Clone Graph](../../0001-0500/0133-clone-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-2d-grid-matching-graph-layout/)

@@ -146,9 +146,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
+- [2007. Find Original Array From Doubled Array](../../2001-2500/2007-find-original-array-from-doubled-array/)
 - [2433. Find The Original Array of Prefix Xor](../../2001-2500/2433-find-the-original-array-of-prefix-xor/)
-- [99. Recover Binary Search Tree](../../0001-0500/0099-recover-binary-search-tree/)
-- [1028. Recover a Tree From Preorder Traversal](../../1001-1500/1028-recover-a-tree-from-preorder-traversal/)
+- [423. Reconstruct Original Digits from English](../../0001-0500/0423-reconstruct-original-digits-from-english/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/recover-the-original-array/)

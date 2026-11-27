@@ -147,7 +147,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1403. Minimum Subsequence in Non-Increasing Order](../../1001-1500/1403-minimum-subsequence-in-non-increasing-order/)
 - [1713. Minimum Operations to Make a Subsequence](../../1501-2000/1713-minimum-operations-to-make-a-subsequence/)
-- [2322. Minimum Score After Removals on a Tree](../../2001-2500/2322-minimum-score-after-removals-on-a-tree/)
+- [2542. Maximum Subsequence Score](../../2501-3000/2542-maximum-subsequence-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subsequence-with-the-minimum-score/)

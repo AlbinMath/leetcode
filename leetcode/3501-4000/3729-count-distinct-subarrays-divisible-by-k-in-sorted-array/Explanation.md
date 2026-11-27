@@ -127,9 +127,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3859. Count Subarrays With K Distinct Integers](../../3501-4000/3859-count-subarrays-with-k-distinct-integers/)
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2183-count-array-pairs-divisible-by-k/)
-- [2461. Maximum Sum of Distinct Subarrays With Length K](../../2001-2500/2461-maximum-sum-of-distinct-subarrays-with-length-k/)
+- [3859. Count Subarrays With K Distinct Integers](../../3501-4000/3859-count-subarrays-with-k-distinct-integers/)
+- [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-distinct-subarrays-divisible-by-k-in-sorted-array/)

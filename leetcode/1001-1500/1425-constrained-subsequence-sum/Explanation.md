@@ -116,9 +116,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [891. Sum of Subsequence Widths](../../0501-1000/0891-sum-of-subsequence-widths/)
 - [1755. Closest Subsequence Sum](../../1501-2000/1755-closest-subsequence-sum/)
 - [2099. Find Subsequence of Length K With the Largest Sum](../../2001-2500/2099-find-subsequence-of-length-k-with-the-largest-sum/)
-- [2389. Longest Subsequence With Limited Sum](../../2001-2500/2389-longest-subsequence-with-limited-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/constrained-subsequence-sum/)

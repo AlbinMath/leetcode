@@ -298,9 +298,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2405. Optimal Partition of String](../../2001-2500/2405-optimal-partition-of-string/)
+- [2522. Partition String Into Substrings With Values at Most K](../../2501-3000/2522-partition-string-into-substrings-with-values-at-most-k/)
 - [2767. Partition String Into Minimum Beautiful Substrings](../../2501-3000/2767-partition-string-into-minimum-beautiful-substrings/)
-- [3864. Minimum Cost to Partition a Binary String](../../3501-4000/3864-minimum-cost-to-partition-a-binary-string/)
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-string/)

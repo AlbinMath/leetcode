@@ -110,7 +110,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 - [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
-- [3211. Generate Binary Strings Without Adjacent Zeros](../../3001-3500/3211-generate-binary-strings-without-adjacent-zeros/)
+- [2274. Maximum Consecutive Floors Without Special Floors](../../2001-2500/2274-maximum-consecutive-floors-without-special-floors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/string-without-aaa-or-bbb/)

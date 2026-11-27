@@ -132,7 +132,7 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 ## Related Problems
 - [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](../../1001-1500/1452-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
 - [1581. Customer Who Visited but Did Not Make Any Transactions](../../1501-2000/1581-customer-who-visited-but-did-not-make-any-transactions/)
-- [2704. To Be Or Not To Be](../../2501-3000/2704-to-be-or-not-to-be/)
+- [1968. Array With Elements Not Equal to Average of Neighbors](../../1501-2000/1968-array-with-elements-not-equal-to-average-of-neighbors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/not-boring-movies/)

@@ -128,8 +128,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
+- [757. Set Intersection Size At Least Two](../../0501-1000/0757-set-intersection-size-at-least-two/)
 - [793. Preimage Size of Factorial Zeroes Function](../../0501-1000/0793-preimage-size-of-factorial-zeroes-function/)
-- [952. Largest Component Size by Common Factor](../../0501-1000/0952-largest-component-size-by-common-factor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-the-size-of-a-dataframe/)

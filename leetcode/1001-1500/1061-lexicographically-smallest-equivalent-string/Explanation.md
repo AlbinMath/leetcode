@@ -143,7 +143,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1625-lexicographically-smallest-string-after-applying-operations/)
 - [2434. Using a Robot to Print the Lexicographically Smallest String](../../2001-2500/2434-using-a-robot-to-print-the-lexicographically-smallest-string/)
-- [2904. Shortest and Lexicographically Smallest Beautiful String](../../2501-3000/2904-shortest-and-lexicographically-smallest-beautiful-string/)
+- [2663. Lexicographically Smallest Beautiful String](../../2501-3000/2663-lexicographically-smallest-beautiful-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/)

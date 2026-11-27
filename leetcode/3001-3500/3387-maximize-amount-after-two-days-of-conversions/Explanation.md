@@ -187,7 +187,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
 - [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
-- [2555. Maximize Win From Two Segments](../../2501-3000/2555-maximize-win-from-two-segments/)
+- [2202. Maximize the Topmost Element After K Moves](../../2001-2500/2202-maximize-the-topmost-element-after-k-moves/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions/)

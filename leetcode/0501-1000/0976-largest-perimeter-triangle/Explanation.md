@@ -105,7 +105,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [812. Largest Triangle Area](../../0501-1000/0812-largest-triangle-area/)
 - [2971. Find Polygon With the Largest Perimeter](../../2501-3000/2971-find-polygon-with-the-largest-perimeter/)
-- [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
+- [118. Pascal's Triangle](../../0001-0500/0118-pascals-triangle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-perimeter-triangle/)

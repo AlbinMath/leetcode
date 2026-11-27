@@ -133,8 +133,8 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
-- [1019. Next Greater Node In Linked List](../../1001-1500/1019-next-greater-node-in-linked-list/)
 - [2516. Take K of Each Character From Left and Right](../../2501-3000/2516-take-k-of-each-character-from-left-and-right/)
+- [1019. Next Greater Node In Linked List](../../1001-1500/1019-next-greater-node-in-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)

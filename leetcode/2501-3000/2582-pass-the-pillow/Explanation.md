@@ -103,9 +103,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1792. Maximum Average Pass Ratio](../../1501-2000/1792-maximum-average-pass-ratio/)
 - [48. Rotate Image](../../0001-0500/0048-rotate-image/)
 - [55. Jump Game](../../0001-0500/0055-jump-game/)
-- [118. Pascal's Triangle](../../0001-0500/0118-pascals-triangle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/pass-the-pillow/)

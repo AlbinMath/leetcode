@@ -145,9 +145,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1642. Furthest Building You Can Reach](../../1501-2000/1642-furthest-building-you-can-reach/)
 - [1739. Building Boxes](../../1501-2000/1739-building-boxes/)
 - [1840. Maximum Building Height](../../1501-2000/1840-maximum-building-height/)
-- [2940. Find Building Where Alice and Bob Can Meet](../../2501-3000/2940-find-building-where-alice-and-bob-can-meet/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/building-h2o/)
