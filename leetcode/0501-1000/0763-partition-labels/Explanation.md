@@ -103,9 +103,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1090. Largest Values From Labels](../../1001-1500/1090-largest-values-from-labels/)
 - [86. Partition List](../../0001-0500/0086-partition-list/)
 - [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
-- [561. Array Partition](../../0501-1000/0561-array-partition/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-labels/)

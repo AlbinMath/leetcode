@@ -1,7 +1,7 @@
 # LeetCode 1458: Max Dot Product of Two Subsequences
 
 **LeetCode Problem #1458 — Max Dot Product of Two Subsequences**
-Solve LeetCode Max Dot Product of Two Subsequences using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
+Solve LeetCode Max Dot Product of Two Subsequences using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Max Dot Product of Two Subsequences using Python and Dynamic Prog
 | LeetCode | #1458 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Memoization & State Transition |
-| Data Structure | DP Table / Array |
-| Pattern | Dynamic Programming |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem Statement
 Given two arrays `nums1` and ` nums2 ` .
@@ -47,7 +47,7 @@ Their dot product is (3*7) = 21.
 Their dot product is -1.
 
 ## Key Insight
-Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Max Dot Product of Two Subsequences**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -60,7 +60,7 @@ To solve **Max Dot Product of Two Subsequences**, we observe the problem require
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums1 = [2,1,-2,5], nums2 = [3,0,-6]`.
-2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `18`.
@@ -69,15 +69,15 @@ Their dot product is (2*3 + (-2)*(-6)) = 18.
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Dynamic Programming**
+**Two Pointers**
 
 ## Topics
-- Dynamic Programming
-- Memoization
-- State Transition
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 Python
@@ -111,16 +111,16 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Incorrect base case initialization.
-2. Flawed state transition equation.
-3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
-- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [2002. Maximum Product of the Length of Two Palindromic Subsequences](../../2001-2500/2002-maximum-product-of-the-length-of-two-palindromic-subsequences/)

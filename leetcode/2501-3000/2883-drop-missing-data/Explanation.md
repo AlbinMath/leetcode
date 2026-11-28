@@ -122,8 +122,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [2887. Fill Missing Data](../../2501-3000/2887-fill-missing-data/)
-- [41. First Missing Positive](../../0001-0500/0041-first-missing-positive/)
-- [268. Missing Number](../../0001-0500/0268-missing-number/)
+- [887. Super Egg Drop](../../0501-1000/0887-super-egg-drop/)
+- [1884. Egg Drop With 2 Eggs and N Floors](../../1501-2000/1884-egg-drop-with-2-eggs-and-n-floors/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/drop-missing-data/)

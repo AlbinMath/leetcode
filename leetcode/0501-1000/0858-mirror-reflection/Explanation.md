@@ -101,9 +101,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3769. Sort Integers by Binary Reflection](../../3501-4000/3769-sort-integers-by-binary-reflection/)
 - [2081. Sum of k-Mirror Numbers](../../2001-2500/2081-sum-of-k-mirror-numbers/)
 - [3412. Find Mirror Score of a String](../../3001-3500/3412-find-mirror-score-of-a-string/)
+- [3665. Twisted Mirror Path Count](../../3501-4000/3665-twisted-mirror-path-count/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/mirror-reflection/)

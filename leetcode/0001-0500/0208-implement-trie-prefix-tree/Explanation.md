@@ -149,9 +149,9 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [225. Implement Stack using Queues](../../0001-0500/0225-implement-stack-using-queues/)
-- [232. Implement Queue using Stacks](../../0001-0500/0232-implement-queue-using-stacks/)
-- [470. Implement Rand10() Using Rand7()](../../0001-0500/0470-implement-rand10-using-rand7/)
+- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
+- [745. Prefix and Suffix Search](../../0501-1000/0745-prefix-and-suffix-search/)
+- [1018. Binary Prefix Divisible By 5](../../1001-1500/1018-binary-prefix-divisible-by-5/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/)

@@ -194,8 +194,8 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [52. N-Queens II](../../0001-0500/0052-n-queens-ii/)
+- [1222. Queens That Can Attack the King](../../1001-1500/1222-queens-that-can-attack-the-king/)
 - [50. Pow(x, n)](../../0001-0500/0050-powx-n/)
-- [429. N-ary Tree Level Order Traversal](../../0001-0500/0429-n-ary-tree-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/n-queens/)

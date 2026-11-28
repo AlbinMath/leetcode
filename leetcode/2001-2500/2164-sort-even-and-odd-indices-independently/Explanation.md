@@ -1,7 +1,7 @@
 # LeetCode 2164: Sort Even and Odd Indices Independently
 
 **LeetCode Problem #2164 — Sort Even and Odd Indices Independently**
-Solve LeetCode Sort Even and Odd Indices Independently using JavaScript and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
+Solve LeetCode Sort Even and Odd Indices Independently using JavaScript and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Sort Even and Odd Indices Independently using JavaScript and Link
 | LeetCode | #2164 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Pointer Traversal & Node Manipulation |
-| Data Structure | Linked List |
-| Pattern | Linked List |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -48,7 +48,7 @@ So, nums changes from [4,
 The resultant array formed is [2,1], which is the same as the initial array.
 
 ## Key Insight
-Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Sort Even and Odd Indices Independently**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -60,7 +60,7 @@ To solve **Sort Even and Odd Indices Independently**, we observe the problem req
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [4,1,2,3]`.
-2. **Processing Steps:** We apply **Pointer Traversal & Node Manipulation** using our **Linked List**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[2,3,4,1]`.
@@ -69,14 +69,15 @@ So, nums changes from [4,
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Linked List.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Linked List**
+**Two Pointers**
 
 ## Topics
-- Linked List
 - Two Pointers
+- Array
+- Sorting
 
 ## Language
 JavaScript
@@ -111,16 +112,16 @@ var sortEvenOdd = function(nums) {
 ```
 
 ## Why This Works
-By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [4099. Minimum Operations to Sort With Locked Indices](../../4001-4500/4099-minimum-operations-to-sort-with-locked-indices/)

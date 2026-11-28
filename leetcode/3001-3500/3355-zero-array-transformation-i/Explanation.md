@@ -113,7 +113,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3356. Zero Array Transformation II](../../3001-3500/3356-zero-array-transformation-ii/)
 - [3362. Zero Array Transformation III](../../3001-3500/3362-zero-array-transformation-iii/)
-- [2626. Array Reduce Transformation](../../2501-3000/2626-array-reduce-transformation/)
+- [1969. Minimum Non-Zero Product of the Array Elements](../../1501-2000/1969-minimum-non-zero-product-of-the-array-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/zero-array-transformation-i/)

@@ -141,8 +141,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2047. Number of Valid Words in a Sentence](../../2001-2500/2047-number-of-valid-words-in-a-sentence/)
-- [1434. Number of Ways to Wear Different Hats to Each Other](../../1001-1500/1434-number-of-ways-to-wear-different-hats-to-each-other/)
-- [1731. The Number of Employees Which Report to Each Employee](../../1501-2000/1731-the-number-of-employees-which-report-to-each-employee/)
+- [65. Valid Number](../../0001-0500/0065-valid-number/)
+- [611. Valid Triangle Number](../../0501-1000/0611-valid-triangle-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)

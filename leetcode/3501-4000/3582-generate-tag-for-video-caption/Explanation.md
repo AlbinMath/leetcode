@@ -112,9 +112,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [22. Generate Parentheses](../../0001-0500/0022-generate-parentheses/)
-- [478. Generate Random Point in a Circle](../../0001-0500/0478-generate-random-point-in-a-circle/)
-- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1374-generate-a-string-with-characters-that-have-odd-counts/)
+- [1024. Video Stitching](../../1001-1500/1024-video-stitching/)
+- [2456. Most Popular Video Creator](../../2001-2500/2456-most-popular-video-creator/)
+- [591. Tag Validator](../../0501-1000/0591-tag-validator/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-tag-for-video-caption/)

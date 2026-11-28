@@ -199,9 +199,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [1575. Count All Possible Routes](../../1501-2000/1575-count-all-possible-routes/)
 - [2257. Count Unguarded Cells in the Grid](../../2001-2500/2257-count-unguarded-cells-in-the-grid/)
-- [815. Bus Routes](../../0501-1000/0815-bus-routes/)
+- [1575. Count All Possible Routes](../../1501-2000/1575-count-all-possible-routes/)
+- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-routes-to-climb-a-rectangular-grid/)

@@ -138,9 +138,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2302. Count Subarrays With Score Less Than K](../../2001-2500/2302-count-subarrays-with-score-less-than-k/)
-- [2488. Count Subarrays With Median K](../../2001-2500/2488-count-subarrays-with-median-k/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
 - [2530. Maximal Score After Applying K Operations](../../2501-3000/2530-maximal-score-after-applying-k-operations/)
+- [2598. Smallest Missing Non-negative Integer After Operations](../../2501-3000/2598-smallest-missing-non-negative-integer-after-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/)

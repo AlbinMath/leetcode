@@ -112,7 +112,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2106-maximum-fruits-harvested-after-at-most-k-steps/)
 - [3443. Maximum Manhattan Distance After K Changes](../../3001-3500/3443-maximum-manhattan-distance-after-k-changes/)
-- [3962. Maximum Subarray Sum After at Most K Swaps](../../3501-4000/3962-maximum-subarray-sum-after-at-most-k-swaps/)
+- [3732. Maximum Product of Three Elements After One Replacement](../../3501-4000/3732-maximum-product-of-three-elements-after-one-replacement/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-after-k-increments/)

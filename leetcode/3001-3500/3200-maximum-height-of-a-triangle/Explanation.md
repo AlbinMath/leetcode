@@ -114,9 +114,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3588. Find Maximum Area of a Triangle](../../3501-4000/3588-find-maximum-area-of-a-triangle/)
 - [1691. Maximum Height by Stacking Cuboids ](../../1501-2000/1691-maximum-height-by-stacking-cuboids/)
 - [1840. Maximum Building Height](../../1501-2000/1840-maximum-building-height/)
+- [3588. Find Maximum Area of a Triangle](../../3501-4000/3588-find-maximum-area-of-a-triangle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-height-of-a-triangle/)

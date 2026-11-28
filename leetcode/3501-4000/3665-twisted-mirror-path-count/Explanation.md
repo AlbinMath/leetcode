@@ -217,9 +217,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
-- [71. Simplify Path](../../0001-0500/0071-simplify-path/)
-- [112. Path Sum](../../0001-0500/0112-path-sum/)
+- [858. Mirror Reflection](../../0501-1000/0858-mirror-reflection/)
+- [2081. Sum of k-Mirror Numbers](../../2001-2500/2081-sum-of-k-mirror-numbers/)
+- [3412. Find Mirror Score of a String](../../3001-3500/3412-find-mirror-score-of-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/twisted-mirror-path-count/)

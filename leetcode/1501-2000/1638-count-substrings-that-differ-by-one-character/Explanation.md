@@ -136,9 +136,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3084. Count Substrings Starting and Ending with Given Character](../../3001-3500/3084-count-substrings-starting-and-ending-with-given-character/)
 - [3258. Count Substrings That Satisfy K-Constraint I](../../3001-3500/3258-count-substrings-that-satisfy-k-constraint-i/)
 - [3261. Count Substrings That Satisfy K-Constraint II](../../3001-3500/3261-count-substrings-that-satisfy-k-constraint-ii/)
-- [3297. Count Substrings That Can Be Rearranged to Contain a String I](../../3001-3500/3297-count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/)

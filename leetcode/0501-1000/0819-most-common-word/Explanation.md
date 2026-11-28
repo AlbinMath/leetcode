@@ -118,7 +118,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3527. Find the Most Common Response](../../3501-4000/3527-find-the-most-common-response/)
 - [3764. Most Common Course Pairs](../../3501-4000/3764-most-common-course-pairs/)
-- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
+- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-common-word/)

@@ -128,8 +128,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [2404. Most Frequent Even Element](../../2001-2500/2404-most-frequent-even-element/)
+- [2958. Length of Longest Subarray With at Most K Frequency](../../2501-3000/2958-length-of-longest-subarray-with-at-most-k-frequency/)
 - [3346. Maximum Frequency of an Element After Performing Operations I](../../3001-3500/3346-maximum-frequency-of-an-element-after-performing-operations-i/)
-- [3347. Maximum Frequency of an Element After Performing Operations II](../../3001-3500/3347-maximum-frequency-of-an-element-after-performing-operations-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)

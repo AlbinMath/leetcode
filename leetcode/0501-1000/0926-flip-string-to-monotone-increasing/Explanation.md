@@ -110,9 +110,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [738. Monotone Increasing Digits](../../0501-1000/0738-monotone-increasing-digits/)
 - [1370. Increasing Decreasing String](../../1001-1500/1370-increasing-decreasing-string/)
-- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
+- [738. Monotone Increasing Digits](../../0501-1000/0738-monotone-increasing-digits/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/flip-string-to-monotone-increasing/)

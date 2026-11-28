@@ -127,9 +127,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [790. Domino and Tromino Tiling](../../0501-1000/0790-domino-and-tromino-tiling/)
 - [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
 - [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
-- [223. Rectangle Area](../../0001-0500/0223-rectangle-area/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/)

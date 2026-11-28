@@ -34,7 +34,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 2614 | [Prime In Diagonal](../leetcode/2501-3000/2614-prime-in-diagonal/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2614-prime-in-diagonal/Explanation.md) |
 | 2723 | [Add Two Promises](../leetcode/2501-3000/2723-add-two-promises/) | TypeScript | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2723-add-two-promises/Explanation.md) |
 | 2859 | [Sum of Values at Indices With K Set Bits](../leetcode/2501-3000/2859-sum-of-values-at-indices-with-k-set-bits/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2859-sum-of-values-at-indices-with-k-set-bits/Explanation.md) |
-| 2864 | [Maximum Odd Binary Number](../leetcode/2501-3000/2864-maximum-odd-binary-number/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2864-maximum-odd-binary-number/Explanation.md) |
 | 2880 | [Select Data](../leetcode/2501-3000/2880-select-data/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2880-select-data/Explanation.md) |
 | 2883 | [Drop Missing Data](../leetcode/2501-3000/2883-drop-missing-data/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2883-drop-missing-data/Explanation.md) |
 | 2886 | [Change Data Type](../leetcode/2501-3000/2886-change-data-type/) | Python | O(n) | O(1) | [Explanation](../leetcode/2501-3000/2886-change-data-type/Explanation.md) |
@@ -53,7 +52,6 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 3701 | [Compute Alternating Sum](../leetcode/3501-4000/3701-compute-alternating-sum/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3701-compute-alternating-sum/Explanation.md) |
 | 3726 | [Remove Zeros in Decimal Representation](../leetcode/3501-4000/3726-remove-zeros-in-decimal-representation/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3726-remove-zeros-in-decimal-representation/Explanation.md) |
 | 3750 | [Minimum Number of Flips to Reverse Binary String](../leetcode/3501-4000/3750-minimum-number-of-flips-to-reverse-binary-string/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3750-minimum-number-of-flips-to-reverse-binary-string/Explanation.md) |
-| 3769 | [Sort Integers by Binary Reflection](../leetcode/3501-4000/3769-sort-integers-by-binary-reflection/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3769-sort-integers-by-binary-reflection/Explanation.md) |
 | 3827 | [Count Monobit Integers](../leetcode/3501-4000/3827-count-monobit-integers/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3827-count-monobit-integers/Explanation.md) |
 | 3950 | [Exactly One Consecutive Set Bits Pair](../leetcode/3501-4000/3950-exactly-one-consecutive-set-bits-pair/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3950-exactly-one-consecutive-set-bits-pair/Explanation.md) |
 | 3954 | [Sum of Compatible Numbers in Range I](../leetcode/3501-4000/3954-sum-of-compatible-numbers-in-range-i/) | Python | O(n) | O(1) | [Explanation](../leetcode/3501-4000/3954-sum-of-compatible-numbers-in-range-i/Explanation.md) |
@@ -77,14 +75,13 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | 453 | [Minimum Moves to Equal Array Elements](../leetcode/0001-0500/0453-minimum-moves-to-equal-array-elements/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0453-minimum-moves-to-equal-array-elements/Explanation.md) |
 | 462 | [Minimum Moves to Equal Array Elements II](../leetcode/0001-0500/0462-minimum-moves-to-equal-array-elements-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0462-minimum-moves-to-equal-array-elements-ii/Explanation.md) |
 | 477 | [Total Hamming Distance](../leetcode/0001-0500/0477-total-hamming-distance/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0477-total-hamming-distance/Explanation.md) |
-| 518 | [Coin Change II](../leetcode/0501-1000/0518-coin-change-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0518-coin-change-ii/Explanation.md) |
 | 592 | [Fraction Addition and Subtraction](../leetcode/0501-1000/0592-fraction-addition-and-subtraction/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0592-fraction-addition-and-subtraction/Explanation.md) |
+| 650 | [2 Keys Keyboard](../leetcode/0501-1000/0650-2-keys-keyboard/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0650-2-keys-keyboard/Explanation.md) |
 | 795 | [Number of Subarrays with Bounded Maximum](../leetcode/0501-1000/0795-number-of-subarrays-with-bounded-maximum/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0795-number-of-subarrays-with-bounded-maximum/Explanation.md) |
 | 835 | [Image Overlap](../leetcode/0501-1000/0835-image-overlap/) | JavaScript | O(n²) | O(1) | [Explanation](../leetcode/0501-1000/0835-image-overlap/Explanation.md) |
 | 898 | [Bitwise ORs of Subarrays](../leetcode/0501-1000/0898-bitwise-ors-of-subarrays/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0898-bitwise-ors-of-subarrays/Explanation.md) |
 | 910 | [Smallest Range II](../leetcode/0501-1000/0910-smallest-range-ii/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0910-smallest-range-ii/Explanation.md) |
 | 973 | [K Closest Points to Origin](../leetcode/0501-1000/0973-k-closest-points-to-origin/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0973-k-closest-points-to-origin/Explanation.md) |
-| 1043 | [Partition Array for Maximum Sum](../leetcode/1001-1500/1043-partition-array-for-maximum-sum/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1043-partition-array-for-maximum-sum/Explanation.md) |
 | 1073 | [Adding Two Negabinary Numbers](../leetcode/1001-1500/1073-adding-two-negabinary-numbers/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1073-adding-two-negabinary-numbers/Explanation.md) |
 | 1310 | [XOR Queries of a Subarray](../leetcode/1001-1500/1310-xor-queries-of-a-subarray/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1310-xor-queries-of-a-subarray/Explanation.md) |
 | 1352 | [Product of the Last K Numbers](../leetcode/1001-1500/1352-product-of-the-last-k-numbers/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1352-product-of-the-last-k-numbers/Explanation.md) |
@@ -152,6 +149,7 @@ A collection of LeetCode problems solved using **Bit Manipulation** pattern tech
 | # | Problem | Language | Time | Space | Explanation |
 |---|---|---|---|---|---|
 | 810 | [Chalkboard XOR Game](../leetcode/0501-1000/0810-chalkboard-xor-game/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0810-chalkboard-xor-game/Explanation.md) |
+| 857 | [Minimum Cost to Hire K Workers](../leetcode/0501-1000/0857-minimum-cost-to-hire-k-workers/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0857-minimum-cost-to-hire-k-workers/Explanation.md) |
 | 878 | [Nth Magical Number](../leetcode/0501-1000/0878-nth-magical-number/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0878-nth-magical-number/Explanation.md) |
 | 1330 | [Reverse Subarray To Maximize Array Value](../leetcode/1001-1500/1330-reverse-subarray-to-maximize-array-value/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1330-reverse-subarray-to-maximize-array-value/Explanation.md) |
 | 1526 | [Minimum Number of Increments on Subarrays to Form a Target Array](../leetcode/1501-2000/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Python | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/Explanation.md) |

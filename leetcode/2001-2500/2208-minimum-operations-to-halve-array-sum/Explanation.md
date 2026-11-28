@@ -130,9 +130,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1551. Minimum Operations to Make Array Equal](../../1501-2000/1551-minimum-operations-to-make-array-equal/)
 - [1775. Equal Sum Arrays With Minimum Number of Operations](../../1501-2000/1775-equal-sum-arrays-with-minimum-number-of-operations/)
-- [2809. Minimum Time to Make Array Sum At Most x](../../2501-3000/2809-minimum-time-to-make-array-sum-at-most-x/)
-- [2829. Determine the Minimum Sum of a k-avoiding Array](../../2501-3000/2829-determine-the-minimum-sum-of-a-k-avoiding-array/)
+- [1827. Minimum Operations to Make the Array Increasing](../../1501-2000/1827-minimum-operations-to-make-the-array-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/)

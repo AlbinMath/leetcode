@@ -249,9 +249,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3421. Find Students Who Improved](../../3001-3500/3421-find-students-who-improved/)
 - [890. Find and Replace Pattern](../../0501-1000/0890-find-and-replace-pattern/)
-- [596. Classes With at Least 5 Students](../../0501-1000/0596-classes-with-at-least-5-students/)
+- [3421. Find Students Who Improved](../../3001-3500/3421-find-students-who-improved/)
+- [290. Word Pattern](../../0001-0500/0290-word-pattern/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-students-with-study-spiral-pattern/)

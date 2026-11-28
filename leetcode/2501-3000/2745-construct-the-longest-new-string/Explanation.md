@@ -100,9 +100,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
 - [1048. Longest String Chain](../../1001-1500/1048-longest-string-chain/)
 - [1405. Longest Happy String](../../1001-1500/1405-longest-happy-string/)
-- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-the-longest-new-string/)

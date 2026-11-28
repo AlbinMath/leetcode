@@ -109,8 +109,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3780. Maximum Sum of Three Numbers Divisible by Three](../../3501-4000/3780-maximum-sum-of-three-numbers-divisible-by-three/)
-- [1590. Make Sum Divisible by P](../../1501-2000/1590-make-sum-divisible-by-p/)
-- [2435. Paths in Matrix Whose Sum Is Divisible by K](../../2001-2500/2435-paths-in-matrix-whose-sum-is-divisible-by-k/)
+- [1013. Partition Array Into Three Parts With Equal Sum](../../1001-1500/1013-partition-array-into-three-parts-with-equal-sum/)
+- [1780. Check if Number is a Sum of Powers of Three](../../1501-2000/1780-check-if-number-is-a-sum-of-powers-of-three/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/greatest-sum-divisible-by-three/)

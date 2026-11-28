@@ -1,7 +1,7 @@
 # LeetCode 576: Out of Boundary Paths
 
 **LeetCode Problem #576 — Out of Boundary Paths**
-Solve LeetCode Out of Boundary Paths using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Out of Boundary Paths using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Out of Boundary Paths using Python and Tree & Graph. This solutio
 | LeetCode | #576 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem Statement
 There is an `m x n` grid with a ball. The ball is initially at the position `[startRow, startColumn]`. You are allowed to move the ball to one of the four adjacent cells in the grid (possibly out of the grid crossing the grid boundary). You can apply **at most** `maxMove` moves to the ball.
@@ -37,7 +37,7 @@ Given the five integers `m`, `n`, `maxMove`, `startRow`, `startColumn`, return t
 - **Output:** `12`
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Out of Boundary Paths**, we observe the problem requirements and utilize the **Tree & Graph** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -50,23 +50,22 @@ To solve **Out of Boundary Paths**, we observe the problem requirements and util
 
 ## Example Walkthrough
 1. **Input State:** We begin with `m = 2, n = 2, maxMove = 2, startRow = 0, startColumn = 0`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `6`.
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Tree & Graph**
+**Two Pointers**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 Python
@@ -100,21 +99,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3028. Ant on the Boundary](../../3001-3500/3028-ant-on-the-boundary/)
-- [3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](../../3001-3500/3113-find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
-- [3728. Stable Subarrays With Equal Boundary and Interior Sum](../../3501-4000/3728-stable-subarrays-with-equal-boundary-and-interior-sum/)
+- [1503. Last Moment Before All Ants Fall Out of a Plank](../../1501-2000/1503-last-moment-before-all-ants-fall-out-of-a-plank/)
+- [2032. Two Out of Three](../../2001-2500/2032-two-out-of-three/)
+- [62. Unique Paths](../../0001-0500/0062-unique-paths/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/out-of-boundary-paths/)

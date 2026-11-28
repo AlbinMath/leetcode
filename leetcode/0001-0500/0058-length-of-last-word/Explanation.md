@@ -113,9 +113,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [1046. Last Stone Weight](../../1001-1500/1046-last-stone-weight/)
-- [1049. Last Stone Weight II](../../1001-1500/1049-last-stone-weight-ii/)
+- [646. Maximum Length of Pair Chain](../../0501-1000/0646-maximum-length-of-pair-chain/)
+- [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
+- [873. Length of Longest Fibonacci Subsequence](../../0501-1000/0873-length-of-longest-fibonacci-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-last-word/)

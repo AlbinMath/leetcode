@@ -118,9 +118,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2209. Minimum White Tiles After Covering With Carpets](../../2001-2500/2209-minimum-white-tiles-after-covering-with-carpets/)
+- [2271. Maximum White Tiles Covered by a Carpet](../../2001-2500/2271-maximum-white-tiles-covered-by-a-carpet/)
 - [1977. Number of Ways to Separate Numbers](../../1501-2000/1977-number-of-ways-to-separate-numbers/)
-- [2553. Separate the Digits in an Array](../../2501-3000/2553-separate-the-digits-in-an-array/)
-- [3453. Separate Squares I](../../3001-3500/3453-separate-squares-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/separate-black-and-white-balls/)

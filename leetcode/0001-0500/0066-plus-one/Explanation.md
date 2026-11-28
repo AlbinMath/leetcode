@@ -114,9 +114,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [764. Largest Plus Sign](../../0501-1000/0764-largest-plus-sign/)
 - [233. Number of Digit One](../../0001-0500/0233-number-of-digit-one/)
 - [623. Add One Row to Tree](../../0501-1000/0623-add-one-row-to-tree/)
-- [1053. Previous Permutation With One Swap](../../1001-1500/1053-previous-permutation-with-one-swap/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/plus-one/)

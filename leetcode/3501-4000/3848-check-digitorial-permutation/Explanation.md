@@ -140,9 +140,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [958. Check Completeness of a Binary Tree](../../0501-1000/0958-check-completeness-of-a-binary-tree/)
-- [1003. Check If Word Is Valid After Substitutions](../../1001-1500/1003-check-if-word-is-valid-after-substitutions/)
-- [1232. Check If It Is a Straight Line](../../1001-1500/1232-check-if-it-is-a-straight-line/)
+- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
+- [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
+- [567. Permutation in String](../../0501-1000/0567-permutation-in-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-digitorial-permutation/)

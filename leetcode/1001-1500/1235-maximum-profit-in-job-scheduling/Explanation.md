@@ -119,7 +119,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1599. Maximum Profit of Operating a Centennial Wheel](../../1501-2000/1599-maximum-profit-of-operating-a-centennial-wheel/)
 - [3530. Maximum Profit from Valid Topological Order in DAG](../../3501-4000/3530-maximum-profit-from-valid-topological-order-in-dag/)
-- [826. Most Profit Assigning Work](../../0501-1000/0826-most-profit-assigning-work/)
+- [1029. Two City Scheduling](../../1001-1500/1029-two-city-scheduling/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)

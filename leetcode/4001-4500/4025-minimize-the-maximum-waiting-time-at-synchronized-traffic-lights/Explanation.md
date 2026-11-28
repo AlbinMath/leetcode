@@ -159,8 +159,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [4009. Minimum Possible Maximum Waiting Time](../../4001-4500/4009-minimum-possible-maximum-waiting-time/)
-- [1701. Average Waiting Time](../../1501-2000/1701-average-waiting-time/)
-- [2141. Maximum Running Time of N Computers](../../2001-2500/2141-maximum-running-time-of-n-computers/)
+- [1877. Minimize Maximum Pair Sum in Array](../../1501-2000/1877-minimize-maximum-pair-sum-in-array/)
+- [2439. Minimize Maximum of Array](../../2001-2500/2439-minimize-maximum-of-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/)

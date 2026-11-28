@@ -117,9 +117,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [60. Permutation Sequence](../../0001-0500/0060-permutation-sequence/)
-- [128. Longest Consecutive Sequence](../../0001-0500/0128-longest-consecutive-sequence/)
-- [842. Split Array into Fibonacci Sequence](../../0501-1000/0842-split-array-into-fibonacci-sequence/)
+- [214. Shortest Palindrome](../../0001-0500/0214-shortest-palindrome/)
+- [581. Shortest Unsorted Continuous Subarray](../../0501-1000/0581-shortest-unsorted-continuous-subarray/)
+- [748. Shortest Completing Word](../../0501-1000/0748-shortest-completing-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/)

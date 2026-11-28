@@ -94,8 +94,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2910. Minimum Number of Groups to Create a Valid Assignment](../../2501-3000/2910-minimum-number-of-groups-to-create-a-valid-assignment/)
-- [688. Knight Probability in Chessboard](../../0501-1000/0688-knight-probability-in-chessboard/)
-- [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](../../1001-1500/1467-probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
+- [1386. Cinema Seat Allocation](../../1001-1500/1386-cinema-seat-allocation/)
+- [1845. Seat Reservation Manager](../../1501-2000/1845-seat-reservation-manager/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/airplane-seat-assignment-probability/)

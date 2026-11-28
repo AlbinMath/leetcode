@@ -155,9 +155,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
-- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
-- [74. Search a 2D Matrix](../../0001-0500/0074-search-a-2d-matrix/)
+- [172. Factorial Trailing Zeroes](../../0001-0500/0172-factorial-trailing-zeroes/)
+- [283. Move Zeroes](../../0001-0500/0283-move-zeroes/)
+- [474. Ones and Zeroes](../../0001-0500/0474-ones-and-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/set-matrix-zeroes/)

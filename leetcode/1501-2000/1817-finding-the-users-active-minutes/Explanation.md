@@ -122,9 +122,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [262. Trips and Users](../../0001-0500/0262-trips-and-users/)
-- [1517. Find Users With Valid E-Mails](../../1501-2000/1517-find-users-with-valid-e-mails/)
-- [1633. Percentage of Users Attended a Contest](../../1501-2000/1633-percentage-of-users-attended-a-contest/)
+- [1825. Finding MK Average](../../1501-2000/1825-finding-mk-average/)
+- [1865. Finding Pairs With a Certain Sum](../../1501-2000/1865-finding-pairs-with-a-certain-sum/)
+- [2094. Finding 3-Digit Even Numbers](../../2001-2500/2094-finding-3-digit-even-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/finding-the-users-active-minutes/)

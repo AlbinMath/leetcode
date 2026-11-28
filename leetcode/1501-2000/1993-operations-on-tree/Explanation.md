@@ -180,8 +180,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [2471. Minimum Number of Operations to Sort a Binary Tree by Level](../../2001-2500/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/)
-- [1319. Number of Operations to Make Network Connected](../../1001-1500/1319-number-of-operations-to-make-network-connected/)
-- [1441. Build an Array With Stack Operations](../../1001-1500/1441-build-an-array-with-stack-operations/)
+- [94. Binary Tree Inorder Traversal](../../0001-0500/0094-binary-tree-inorder-traversal/)
+- [98. Validate Binary Search Tree](../../0001-0500/0098-validate-binary-search-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/operations-on-tree/)

@@ -120,9 +120,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
-- [55. Jump Game](../../0001-0500/0055-jump-game/)
-- [174. Dungeon Game](../../0001-0500/0174-dungeon-game/)
+- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
+- [1001. Grid Illumination](../../1001-1500/1001-grid-illumination/)
+- [1260. Shift 2D Grid](../../1001-1500/1260-shift-2d-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/grid-game/)

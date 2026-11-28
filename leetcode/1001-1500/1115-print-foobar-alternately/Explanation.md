@@ -156,9 +156,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1768. Merge Strings Alternately](../../1501-2000/1768-merge-strings-alternately/)
 - [655. Print Binary Tree](../../0501-1000/0655-print-binary-tree/)
 - [1114. Print in Order](../../1001-1500/1114-print-in-order/)
-- [1116. Print Zero Even Odd](../../1001-1500/1116-print-zero-even-odd/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/print-foobar-alternately/)

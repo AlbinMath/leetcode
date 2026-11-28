@@ -107,9 +107,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2766. Relocate Marbles](../../2501-3000/2766-relocate-marbles/)
 - [2279. Maximum Bags With Full Capacity of Rocks](../../2001-2500/2279-maximum-bags-with-full-capacity-of-rocks/)
 - [3413. Maximum Coins From K Consecutive Bags](../../3001-3500/3413-maximum-coins-from-k-consecutive-bags/)
-- [2766. Relocate Marbles](../../2501-3000/2766-relocate-marbles/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/put-marbles-in-bags/)

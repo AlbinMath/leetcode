@@ -112,8 +112,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1679. Max Number of K-Sum Pairs](../../1501-2000/1679-max-number-of-k-sum-pairs/)
-- [2183. Count Array Pairs Divisible by K](../../2001-2500/2183-count-array-pairs-divisible-by-k/)
-- [2857. Count Pairs of Points With Distance k](../../2501-3000/2857-count-pairs-of-points-with-distance-k/)
+- [2364. Count Number of Bad Pairs](../../2001-2500/2364-count-number-of-bad-pairs/)
+- [2563. Count the Number of Fair Pairs](../../2501-3000/2563-count-the-number-of-fair-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)

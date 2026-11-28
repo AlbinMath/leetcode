@@ -225,9 +225,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1039. Minimum Score Triangulation of Polygon](../../1001-1500/1039-minimum-score-triangulation-of-polygon/)
 - [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
-- [2139. Minimum Moves to Reach Target Score](../../2001-2500/2139-minimum-moves-to-reach-target-score/)
+- [2528. Maximize the Minimum Powered City](../../2501-3000/2528-maximize-the-minimum-powered-city/)
+- [2587. Rearrange Array to Maximize Prefix Score](../../2501-3000/2587-rearrange-array-to-maximize-prefix-score/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-minimum-game-score/)

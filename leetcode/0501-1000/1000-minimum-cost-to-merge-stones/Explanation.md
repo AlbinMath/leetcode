@@ -139,7 +139,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3801. Minimum Cost to Merge Sorted Lists](../../3501-4000/3801-minimum-cost-to-merge-sorted-lists/)
-- [3538. Merge Operations for Minimum Travel Time](../../3501-4000/3538-merge-operations-for-minimum-travel-time/)
+- [2850. Minimum Moves to Spread Stones Over Grid](../../2501-3000/2850-minimum-moves-to-spread-stones-over-grid/)
 - [857. Minimum Cost to Hire K Workers](../../0501-1000/0857-minimum-cost-to-hire-k-workers/)
 
 ## LeetCode

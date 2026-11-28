@@ -180,9 +180,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2600. K Items With the Maximum Sum](../../2501-3000/2600-k-items-with-the-maximum-sum/)
 - [787. Cheapest Flights Within K Stops](../../0501-1000/0787-cheapest-flights-within-k-stops/)
 - [3505. Minimum Operations to Make Elements Within K Subarrays Equal](../../3501-4000/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/)
+- [3824. Minimum K to Reduce Array Within Limit](../../3501-4000/3824-minimum-k-to-reduce-array-within-limit/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/)

@@ -1,7 +1,7 @@
 # LeetCode 1931: Painting a Grid With Three Different Colors
 
 **LeetCode Problem #1931 — Painting a Grid With Three Different Colors**
-Solve LeetCode Painting a Grid With Three Different Colors using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
+Solve LeetCode Painting a Grid With Three Different Colors using Python and Backtracking. This solution finds the optimal result using Backtracking Recursive Search in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Painting a Grid With Three Different Colors using Python and Tree
 | LeetCode | #1931 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
-| Data Structure | Tree / Graph / Grid |
-| Pattern | Tree & Graph |
+| Algorithm | Backtracking Recursive Search |
+| Data Structure | Recursion Tree |
+| Pattern | Backtracking |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem Statement
 You are given two integers `m` and `n`. Consider an `m x n` grid where each cell is initially white. You can paint each cell **red**, **green**, or **blue**. All cells **must** be painted.
@@ -41,7 +41,7 @@ Return* the number of ways to color the grid with **no two adjacent cells having
 - **Output:** `580986`
 
 ## Key Insight
-Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Backtracking** with **Recursion Tree** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Painting a Grid With Three Different Colors**, we observe the problem requirements and utilize the **Tree & Graph** technique. We decompose the problem into overlapping subproblems using a **Tree / Graph / Grid**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
@@ -54,7 +54,7 @@ To solve **Painting a Grid With Three Different Colors**, we observe the problem
 
 ## Example Walkthrough
 1. **Input State:** We begin with `m = 1, n = 1`.
-2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
+2. **Processing Steps:** We apply **Backtracking Recursive Search** using our **Recursion Tree**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `3`.
@@ -62,16 +62,14 @@ To solve **Painting a Grid With Three Different Colors**, we observe the problem
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Recursion Tree.
 
 ## Pattern
-**Tree & Graph**
+**Backtracking**
 
 ## Topics
-- Tree
-- Graph
-- DFS
-- BFS
+- Backtracking
+- Recursion
 
 ## Language
 Python
@@ -121,7 +119,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Backtracking**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -133,9 +131,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2078. Two Furthest Houses With Different Colors](../../2001-2500/2078-two-furthest-houses-with-different-colors/)
 - [1878. Get Biggest Three Rhombus Sums in a Grid](../../1501-2000/1878-get-biggest-three-rhombus-sums-in-a-grid/)
-- [241. Different Ways to Add Parentheses](../../0001-0500/0241-different-ways-to-add-parentheses/)
+- [2078. Two Furthest Houses With Different Colors](../../2001-2500/2078-two-furthest-houses-with-different-colors/)
+- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/painting-a-grid-with-three-different-colors/)

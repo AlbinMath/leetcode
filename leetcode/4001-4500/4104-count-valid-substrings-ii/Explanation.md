@@ -167,8 +167,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [4102. Count Valid Substrings I](../../4001-4500/4102-count-valid-substrings-i/)
-- [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1359-count-all-valid-pickup-and-delivery-options/)
-- [2867. Count Valid Paths in a Tree](../../2501-3000/2867-count-valid-paths-in-a-tree/)
+- [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
+- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-valid-substrings-ii/)

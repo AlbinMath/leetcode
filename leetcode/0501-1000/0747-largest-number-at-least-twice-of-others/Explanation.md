@@ -103,9 +103,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [179. Largest Number](../../0001-0500/0179-largest-number/)
-- [586. Customer Placing the Largest Number of Orders](../../0501-1000/0586-customer-placing-the-largest-number-of-orders/)
 - [964. Least Operators to Express Number](../../0501-1000/0964-least-operators-to-express-number/)
+- [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
+- [179. Largest Number](../../0001-0500/0179-largest-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)

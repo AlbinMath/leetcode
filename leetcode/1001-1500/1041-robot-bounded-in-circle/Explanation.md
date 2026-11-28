@@ -154,9 +154,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [795. Number of Subarrays with Bounded Maximum](../../0501-1000/0795-number-of-subarrays-with-bounded-maximum/)
-- [1802. Maximum Value at a Given Index in a Bounded Array](../../1501-2000/1802-maximum-value-at-a-given-index-in-a-bounded-array/)
-- [2902. Count of Sub-Multisets With Bounded Sum](../../2501-3000/2902-count-of-sub-multisets-with-bounded-sum/)
+- [657. Robot Return to Origin](../../0501-1000/0657-robot-return-to-origin/)
+- [874. Walking Robot Simulation](../../0501-1000/0874-walking-robot-simulation/)
+- [2069. Walking Robot Simulation II](../../2001-2500/2069-walking-robot-simulation-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/robot-bounded-in-circle/)

@@ -116,8 +116,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2767. Partition String Into Minimum Beautiful Substrings](../../2501-3000/2767-partition-string-into-minimum-beautiful-substrings/)
-- [2138. Divide a String Into Groups of Size k](../../2001-2500/2138-divide-a-string-into-groups-of-size-k/)
-- [3365. Rearrange K Substrings to Form Target String](../../3001-3500/3365-rearrange-k-substrings-to-form-target-string/)
+- [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1593-split-a-string-into-the-max-number-of-unique-substrings/)
+- [1849. Splitting a String Into Descending Consecutive Values](../../1501-2000/1849-splitting-a-string-into-descending-consecutive-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/)

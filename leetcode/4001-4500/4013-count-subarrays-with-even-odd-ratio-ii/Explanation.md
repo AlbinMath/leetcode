@@ -314,8 +314,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [4011. Count Subarrays With Even Odd Ratio I](../../4001-4500/4011-count-subarrays-with-even-odd-ratio-i/)
-- [328. Odd Even Linked List](../../0001-0500/0328-odd-even-linked-list/)
-- [975. Odd Even Jump](../../0501-1000/0975-odd-even-jump/)
+- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
+- [1588. Sum of All Odd Length Subarrays](../../1501-2000/1588-sum-of-all-odd-length-subarrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-ii/)

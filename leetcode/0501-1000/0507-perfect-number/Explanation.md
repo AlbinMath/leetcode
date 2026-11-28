@@ -107,8 +107,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3649. Number of Perfect Pairs](../../3501-4000/3649-number-of-perfect-pairs/)
-- [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
-- [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
+- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/perfect-number/)

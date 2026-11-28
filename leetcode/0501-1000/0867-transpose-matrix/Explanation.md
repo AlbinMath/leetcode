@@ -101,9 +101,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [194. Transpose File](../../0001-0500/0194-transpose-file/)
 - [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
 - [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
+- [73. Set Matrix Zeroes](../../0001-0500/0073-set-matrix-zeroes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/transpose-matrix/)

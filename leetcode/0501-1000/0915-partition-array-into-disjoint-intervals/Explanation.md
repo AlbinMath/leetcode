@@ -1,7 +1,7 @@
 # LeetCode 915: Partition Array into Disjoint Intervals
 
 **LeetCode Problem #915 — Partition Array into Disjoint Intervals**
-Solve LeetCode Partition Array into Disjoint Intervals using Python and Greedy. This solution finds the optimal result using Greedy Choice Strategy in O(n) time.
+Solve LeetCode Partition Array into Disjoint Intervals using Python and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Partition Array into Disjoint Intervals using Python and Greedy. 
 | LeetCode | #915 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Greedy Choice Strategy |
-| Data Structure | Array / Priority Queue |
-| Pattern | Greedy |
+| Algorithm | Min/Max Heap Priority Selection |
+| Data Structure | Heap / Priority Queue |
+| Pattern | Heap |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 Given an integer array `nums`, partition it into two (contiguous) subarrays `left` and `right` so that:
@@ -44,7 +44,7 @@ Test cases are generated such that partitioning exists.
 - **Explanation:** left = [1,1,1,0], right = [6,12]
 
 ## Key Insight
-Leverage **Greedy** with **Array / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Partition Array into Disjoint Intervals**, we observe the problem requirements and utilize the **Greedy** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -57,7 +57,7 @@ To solve **Partition Array into Disjoint Intervals**, we observe the problem req
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [5,0,3,8,6]`.
-2. **Processing Steps:** We apply **Greedy Choice Strategy** using our **Array / Priority Queue**:
+2. **Processing Steps:** We apply **Min/Max Heap Priority Selection** using our **Heap / Priority Queue**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `3`.
@@ -65,13 +65,14 @@ To solve **Partition Array into Disjoint Intervals**, we observe the problem req
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Priority Queue.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Heap / Priority Queue.
 
 ## Pattern
-**Greedy**
+**Heap**
 
 ## Topics
-- Greedy
+- Heap
+- Priority Queue
 - Sorting
 
 ## Language
@@ -98,7 +99,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Greedy**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

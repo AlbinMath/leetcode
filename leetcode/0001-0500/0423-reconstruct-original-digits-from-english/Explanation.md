@@ -110,8 +110,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2007. Find Original Array From Doubled Array](../../2001-2500/2007-find-original-array-from-doubled-array/)
-- [332. Reconstruct Itinerary](../../0001-0500/0332-reconstruct-itinerary/)
-- [1253. Reconstruct a 2-Row Binary Matrix](../../1001-1500/1253-reconstruct-a-2-row-binary-matrix/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reconstruct-original-digits-from-english/)

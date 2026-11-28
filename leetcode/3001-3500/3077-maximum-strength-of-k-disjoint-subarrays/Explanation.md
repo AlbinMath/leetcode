@@ -136,7 +136,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [2461. Maximum Sum of Distinct Subarrays With Length K](../../2001-2500/2461-maximum-sum-of-distinct-subarrays-with-length-k/)
 - [3430. Maximum and Minimum Sums of at Most Size K Subarrays](../../3001-3500/3430-maximum-and-minimum-sums-of-at-most-size-k-subarrays/)
-- [2708. Maximum Strength of a Group](../../2501-3000/2708-maximum-strength-of-a-group/)
+- [3458. Select K Disjoint Special Substrings](../../3001-3500/3458-select-k-disjoint-special-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/)

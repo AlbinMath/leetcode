@@ -183,9 +183,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [231. Power of Two](../../0001-0500/0231-power-of-two/)
-- [326. Power of Three](../../0001-0500/0326-power-of-three/)
-- [342. Power of Four](../../0001-0500/0342-power-of-four/)
+- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
+- [1001. Grid Illumination](../../1001-1500/1001-grid-illumination/)
+- [1260. Shift 2D Grid](../../1001-1500/1260-shift-2d-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-grid-maintenance/)

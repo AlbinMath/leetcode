@@ -100,9 +100,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1390. Four Divisors](../../1001-1500/1390-four-divisors/)
+- [2160. Minimum Sum of Four Digit Number After Splitting Digits](../../2001-2500/2160-minimum-sum-of-four-digit-number-after-splitting-digits/)
 - [231. Power of Two](../../0001-0500/0231-power-of-two/)
-- [326. Power of Three](../../0001-0500/0326-power-of-three/)
-- [869. Reordered Power of 2](../../0501-1000/0869-reordered-power-of-2/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/power-of-four/)

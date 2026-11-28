@@ -114,9 +114,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1582. Special Positions in a Binary Matrix](../../1501-2000/1582-special-positions-in-a-binary-matrix/)
-- [3085. Minimum Deletions to Make String K-Special](../../3001-3500/3085-minimum-deletions-to-make-string-k-special/)
-- [3612. Process String with Special Operations I](../../3501-4000/3612-process-string-with-special-operations-i/)
+- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
+- [1016. Binary String With Substrings Representing 1 To N](../../1001-1500/1016-binary-string-with-substrings-representing-1-to-n/)
+- [1375. Number of Times Binary String Is Prefix-Aligned](../../1001-1500/1375-number-of-times-binary-string-is-prefix-aligned/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/special-binary-string/)

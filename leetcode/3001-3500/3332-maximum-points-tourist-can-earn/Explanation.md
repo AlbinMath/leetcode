@@ -118,8 +118,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [3418. Maximum Amount of Money Robot Can Earn](../../3001-3500/3418-maximum-amount-of-money-robot-can-earn/)
 - [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
+- [3418. Maximum Amount of Money Robot Can Earn](../../3001-3500/3418-maximum-amount-of-money-robot-can-earn/)
 - [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
 
 ## LeetCode

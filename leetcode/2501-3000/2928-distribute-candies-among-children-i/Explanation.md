@@ -105,8 +105,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2929. Distribute Candies Among Children II](../../2501-3000/2929-distribute-candies-among-children-ii/)
-- [2226. Maximum Candies Allocated to K Children](../../2001-2500/2226-maximum-candies-allocated-to-k-children/)
-- [2591. Distribute Money to Maximum Children](../../2501-3000/2591-distribute-money-to-maximum-children/)
+- [575. Distribute Candies](../../0501-1000/0575-distribute-candies/)
+- [1103. Distribute Candies to People](../../1001-1500/1103-distribute-candies-to-people/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-candies-among-children-i/)

@@ -98,8 +98,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1461. Check If a String Contains All Binary Codes of Size K](../../1001-1500/1461-check-if-a-string-contains-all-binary-codes-of-size-k/)
+- [2042. Check if Numbers Are Ascending in a Sentence](../../2001-2500/2042-check-if-numbers-are-ascending-in-a-sentence/)
 - [1437. Check If All 1's Are at Least Length K Places Away](../../1001-1500/1437-check-if-all-1s-are-at-least-length-k-places-away/)
-- [1893. Check if All the Integers in a Range Are Covered](../../1501-2000/1893-check-if-all-the-integers-in-a-range-are-covered/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)

@@ -193,7 +193,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1797. Design Authentication Manager](../../1501-2000/1797-design-authentication-manager/)
 - [3885. Design Event Manager](../../3501-4000/3885-design-event-manager/)
-- [1845. Seat Reservation Manager](../../1501-2000/1845-seat-reservation-manager/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-task-manager/)

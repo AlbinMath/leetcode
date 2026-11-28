@@ -104,9 +104,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3133. Minimum Array End](../../3001-3500/3133-minimum-array-end/)
-- [3629. Minimum Jumps to Reach End via Prime Teleportation](../../3501-4000/3629-minimum-jumps-to-reach-end-via-prime-teleportation/)
-- [2139. Minimum Moves to Reach Target Score](../../2001-2500/2139-minimum-moves-to-reach-target-score/)
+- [2587. Rearrange Array to Maximize Prefix Score](../../2501-3000/2587-rearrange-array-to-maximize-prefix-score/)
+- [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
+- [2640. Find the Score of All Prefixes of an Array](../../2501-3000/2640-find-the-score-of-all-prefixes-of-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reach-end-of-array-with-max-score/)

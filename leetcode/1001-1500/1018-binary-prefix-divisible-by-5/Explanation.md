@@ -108,8 +108,8 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 
 ## Related Problems
 - [1375. Number of Times Binary String Is Prefix-Aligned](../../1001-1500/1375-number-of-times-binary-string-is-prefix-aligned/)
-- [368. Largest Divisible Subset](../../0001-0500/0368-largest-divisible-subset/)
-- [974. Subarray Sums Divisible by K](../../0501-1000/0974-subarray-sums-divisible-by-k/)
+- [14. Longest Common Prefix](../../0001-0500/0014-longest-common-prefix/)
+- [208. Implement Trie (Prefix Tree)](../../0001-0500/0208-implement-trie-prefix-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/binary-prefix-divisible-by-5/)

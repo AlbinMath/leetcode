@@ -125,8 +125,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2341. Maximum Number of Pairs in Array](../../2001-2500/2341-maximum-number-of-pairs-in-array/)
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2341. Maximum Number of Pairs in Array](../../2001-2500/2341-maximum-number-of-pairs-in-array/)
 - [2576. Find the Maximum Number of Marked Indices](../../2501-3000/2576-find-the-maximum-number-of-marked-indices/)
 
 ## LeetCode

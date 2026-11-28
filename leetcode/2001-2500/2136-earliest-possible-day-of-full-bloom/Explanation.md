@@ -130,9 +130,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2251. Number of Flowers in Full Bloom](../../2001-2500/2251-number-of-flowers-in-full-bloom/)
 - [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
-- [1154. Day of the Year](../../1001-1500/1154-day-of-the-year/)
+- [2251. Number of Flowers in Full Bloom](../../2001-2500/2251-number-of-flowers-in-full-bloom/)
+- [886. Possible Bipartition](../../0501-1000/0886-possible-bipartition/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)

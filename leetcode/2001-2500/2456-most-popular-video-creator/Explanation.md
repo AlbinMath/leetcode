@@ -160,9 +160,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1024. Video Stitching](../../1001-1500/1024-video-stitching/)
+- [3582. Generate Tag for Video Caption](../../3501-4000/3582-generate-tag-for-video-caption/)
 - [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
-- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
-- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-popular-video-creator/)

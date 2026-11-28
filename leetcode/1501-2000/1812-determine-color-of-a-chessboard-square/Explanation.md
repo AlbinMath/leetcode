@@ -105,8 +105,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3127. Make a Square with the Same Color](../../3001-3500/3127-make-a-square-with-the-same-color/)
-- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
-- [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
+- [688. Knight Probability in Chessboard](../../0501-1000/0688-knight-probability-in-chessboard/)
+- [782. Transform to Chessboard](../../0501-1000/0782-transform-to-chessboard/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)

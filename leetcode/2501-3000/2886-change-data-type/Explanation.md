@@ -119,9 +119,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1320-minimum-distance-to-type-a-word-using-two-fingers/)
-- [1935. Maximum Number of Words You Can Type](../../1501-2000/1935-maximum-number-of-words-you-can-type/)
-- [1974. Minimum Time to Type Word Using Special Typewriter](../../1501-2000/1974-minimum-time-to-type-word-using-special-typewriter/)
+- [322. Coin Change](../../0001-0500/0322-coin-change/)
+- [518. Coin Change II](../../0501-1000/0518-coin-change-ii/)
+- [860. Lemonade Change](../../0501-1000/0860-lemonade-change/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/change-data-type/)

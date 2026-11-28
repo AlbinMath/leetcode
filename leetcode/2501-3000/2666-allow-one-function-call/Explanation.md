@@ -111,8 +111,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2693. Call Function with Custom Context](../../2501-3000/2693-call-function-with-custom-context/)
-- [66. Plus One](../../0001-0500/0066-plus-one/)
-- [233. Number of Digit One](../../0001-0500/0233-number-of-digit-one/)
+- [396. Rotate Function](../../0001-0500/0396-rotate-function/)
+- [793. Preimage Size of Factorial Zeroes Function](../../0501-1000/0793-preimage-size-of-factorial-zeroes-function/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/allow-one-function-call/)

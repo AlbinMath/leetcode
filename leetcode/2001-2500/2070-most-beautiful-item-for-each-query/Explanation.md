@@ -131,7 +131,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1829. Maximum XOR for Each Query](../../1501-2000/1829-maximum-xor-for-each-query/)
 - [1851. Minimum Interval to Include Each Query](../../1501-2000/1851-minimum-interval-to-include-each-query/)
-- [116. Populating Next Right Pointers in Each Node](../../0001-0500/0116-populating-next-right-pointers-in-each-node/)
+- [303. Range Sum Query - Immutable](../../0001-0500/0303-range-sum-query-immutable/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-beautiful-item-for-each-query/)

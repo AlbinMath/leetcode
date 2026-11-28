@@ -113,7 +113,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [3507. Minimum Pair Removal to Sort Array I](../../3501-4000/3507-minimum-pair-removal-to-sort-array-i/)
 - [3510. Minimum Pair Removal to Sort Array II](../../3501-4000/3510-minimum-pair-removal-to-sort-array-ii/)
-- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [3927. Minimize Array Sum Using Divisible Replacements](../../3501-4000/3927-minimize-array-sum-using-divisible-replacements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/)

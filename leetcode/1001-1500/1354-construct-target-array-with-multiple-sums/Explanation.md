@@ -187,9 +187,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1982. Find Array Given Subset Sums](../../1501-2000/1982-find-array-given-subset-sums/)
-- [3752. Lexicographically Smallest Negated Permutation that Sums to Target](../../3501-4000/3752-lexicographically-smallest-negated-permutation-that-sums-to-target/)
 - [1300. Sum of Mutated Array Closest to Target](../../1001-1500/1300-sum-of-mutated-array-closest-to-target/)
+- [1389. Create Target Array in the Given Order](../../1001-1500/1389-create-target-array-in-the-given-order/)
+- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)

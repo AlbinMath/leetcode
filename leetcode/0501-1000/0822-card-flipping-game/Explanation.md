@@ -103,8 +103,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3664. Two-Letter Card Game](../../3501-4000/3664-two-letter-card-game/)
+- [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](../../1501-2000/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 - [832. Flipping an Image](../../0501-1000/0832-flipping-an-image/)
-- [861. Score After Flipping Matrix](../../0501-1000/0861-score-after-flipping-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/card-flipping-game/)

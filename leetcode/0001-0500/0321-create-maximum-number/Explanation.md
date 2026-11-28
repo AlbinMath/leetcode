@@ -130,9 +130,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2910. Minimum Number of Groups to Create a Valid Assignment](../../2501-3000/2910-minimum-number-of-groups-to-create-a-valid-assignment/)
 - [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
 - [795. Number of Subarrays with Bounded Maximum](../../0501-1000/0795-number-of-subarrays-with-bounded-maximum/)
+- [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1072-flip-columns-for-maximum-number-of-equal-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/create-maximum-number/)

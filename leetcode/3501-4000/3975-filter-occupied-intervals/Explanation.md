@@ -1,7 +1,7 @@
 # LeetCode 3975: Filter Occupied Intervals
 
 **LeetCode Problem #3975 — Filter Occupied Intervals**
-Solve LeetCode Filter Occupied Intervals using JavaScript and Greedy. This solution finds the optimal result using Greedy Choice Strategy in O(n) time.
+Solve LeetCode Filter Occupied Intervals using JavaScript and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Filter Occupied Intervals using JavaScript and Greedy. This solut
 | LeetCode | #3975 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Greedy Choice Strategy |
-| Data Structure | Array / Priority Queue |
-| Pattern | Greedy |
+| Algorithm | Min/Max Heap Priority Selection |
+| Data Structure | Heap / Priority Queue |
+| Pattern | Heap |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given a 2D integer array `occupiedIntervals`, where `occupiedIntervals[i] = [start_i, end_i]` represents a time interval during which you are occupied. Each interval starts at `start_i` and ends at `end_i`, **inclusive**. These intervals may **overlap**.
@@ -47,7 +47,7 @@ Return the **remaining** occupied intervals in **sorted** order. The returned in
  Excluding the free interval `[3, 8]` results in `[1, 2]`.
 
 ## Key Insight
-Leverage **Greedy** with **Array / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Filter Occupied Intervals**, we observe the problem requirements and utilize the **Greedy** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -60,7 +60,7 @@ To solve **Filter Occupied Intervals**, we observe the problem requirements and 
 
 ## Example Walkthrough
 1. **Input State:** We begin with `occupiedIntervals = [[2,6],[4,8],[10,10],[10,12],[14,16]], freeStart = 7, freeEnd = 11`.
-2. **Processing Steps:** We apply **Greedy Choice Strategy** using our **Array / Priority Queue**:
+2. **Processing Steps:** We apply **Min/Max Heap Priority Selection** using our **Heap / Priority Queue**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[[2,6],[12,12],[14,16]]`.
@@ -69,13 +69,14 @@ To solve **Filter Occupied Intervals**, we observe the problem requirements and 
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Priority Queue.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Heap / Priority Queue.
 
 ## Pattern
-**Greedy**
+**Heap**
 
 ## Topics
-- Greedy
+- Heap
+- Priority Queue
 - Sorting
 
 ## Language
@@ -120,7 +121,7 @@ var filterOccupiedIntervals = function(occupiedIntervals, freeStart, freeEnd) {
 ```
 
 ## Why This Works
-By utilizing **Greedy**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -132,9 +133,9 @@ By utilizing **Greedy**, each element is processed efficiently, ensuring optimal
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1333. Filter Restaurants by Vegan-Friendly, Price and Distance](../../1001-1500/1333-filter-restaurants-by-vegan-friendly-price-and-distance/)
-- [2634. Filter Elements from Array](../../2501-3000/2634-filter-elements-from-array/)
 - [56. Merge Intervals](../../0001-0500/0056-merge-intervals/)
+- [352. Data Stream as Disjoint Intervals](../../0001-0500/0352-data-stream-as-disjoint-intervals/)
+- [435. Non-overlapping Intervals](../../0001-0500/0435-non-overlapping-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/filter-occupied-intervals/)

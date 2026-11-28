@@ -105,9 +105,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [376. Wiggle Subsequence](../../0001-0500/0376-wiggle-subsequence/)
 - [75. Sort Colors](../../0001-0500/0075-sort-colors/)
 - [147. Insertion Sort List](../../0001-0500/0147-insertion-sort-list/)
+- [148. Sort List](../../0001-0500/0148-sort-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/wiggle-sort-ii/)

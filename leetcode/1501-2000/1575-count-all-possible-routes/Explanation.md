@@ -138,9 +138,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1466. Reorder Routes to Make All Paths Lead to the City Zero](../../1001-1500/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
-- [3797. Count Routes to Climb a Rectangular Grid](../../3501-4000/3797-count-routes-to-climb-a-rectangular-grid/)
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
+- [2115. Find All Possible Recipes from Given Supplies](../../2001-2500/2115-find-all-possible-recipes-from-given-supplies/)
+- [3129. Find All Possible Stable Binary Arrays I](../../3001-3500/3129-find-all-possible-stable-binary-arrays-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-all-possible-routes/)

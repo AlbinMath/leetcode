@@ -140,9 +140,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../../1001-1500/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 - [743. Network Delay Time](../../0501-1000/0743-network-delay-time/)
-- [1319. Number of Operations to Make Network Connected](../../1001-1500/1319-number-of-operations-to-make-network-connected/)
-- [1615. Maximal Network Rank](../../1501-2000/1615-maximal-network-rank/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/critical-connections-in-a-network/)

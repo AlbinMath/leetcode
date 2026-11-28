@@ -150,9 +150,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [37. Sudoku Solver](../../0001-0500/0037-sudoku-solver/)
 - [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
 - [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
+- [65. Valid Number](../../0001-0500/0065-valid-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-sudoku/)

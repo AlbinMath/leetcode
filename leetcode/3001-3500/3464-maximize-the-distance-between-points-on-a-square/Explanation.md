@@ -148,9 +148,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [849. Maximize Distance to Closest Person](../../0501-1000/0849-maximize-distance-to-closest-person/)
-- [2943. Maximize Area of Square Hole in Grid](../../2501-3000/2943-maximize-area-of-square-hole-in-grid/)
-- [3767. Maximize Points After Choosing K Tasks](../../3501-4000/3767-maximize-points-after-choosing-k-tasks/)
+- [1637. Widest Vertical Area Between Two Points Containing No Points](../../1501-2000/1637-widest-vertical-area-between-two-points-containing-no-points/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2857. Count Pairs of Points With Distance k](../../2501-3000/2857-count-pairs-of-points-with-distance-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/)

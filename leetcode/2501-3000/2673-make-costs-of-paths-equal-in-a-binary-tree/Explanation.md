@@ -127,9 +127,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [257. Binary Tree Paths](../../0001-0500/0257-binary-tree-paths/)
-- [1457. Pseudo-Palindromic Paths in a Binary Tree](../../1001-1500/1457-pseudo-palindromic-paths-in-a-binary-tree/)
 - [3191. Minimum Operations to Make Binary Array Elements Equal to One I](../../3001-3500/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i/)
+- [3192. Minimum Operations to Make Binary Array Elements Equal to One II](../../3001-3500/3192-minimum-operations-to-make-binary-array-elements-equal-to-one-ii/)
+- [3800. Minimum Cost to Make Two Binary Strings Equal](../../3501-4000/3800-minimum-cost-to-make-two-binary-strings-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)

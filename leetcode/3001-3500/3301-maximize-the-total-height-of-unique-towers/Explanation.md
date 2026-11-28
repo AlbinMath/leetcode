@@ -117,9 +117,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2865. Beautiful Towers I](../../2501-3000/2865-beautiful-towers-i/)
+- [2866. Beautiful Towers II](../../2501-3000/2866-beautiful-towers-ii/)
 - [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
-- [1010. Pairs of Songs With Total Durations Divisible by 60](../../1001-1500/1010-pairs-of-songs-with-total-durations-divisible-by-60/)
-- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1741-find-total-time-spent-by-each-employee/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-total-height-of-unique-towers/)

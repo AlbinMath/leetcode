@@ -150,8 +150,8 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [1045. Customers Who Bought All Products](../../1001-1500/1045-customers-who-bought-all-products/)
-- [3657. Find Loyal Customers](../../3501-4000/3657-find-loyal-customers/)
-- [3705. Find Golden Hour Customers](../../3501-4000/3705-find-golden-hour-customers/)
+- [102. Binary Tree Level Order Traversal](../../0001-0500/0102-binary-tree-level-order-traversal/)
+- [103. Binary Tree Zigzag Level Order Traversal](../../0001-0500/0103-binary-tree-zigzag-level-order-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customers-who-never-order/)

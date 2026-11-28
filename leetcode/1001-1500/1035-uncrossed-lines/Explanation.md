@@ -1,7 +1,7 @@
 # LeetCode 1035: Uncrossed Lines
 
 **LeetCode Problem #1035 — Uncrossed Lines**
-Solve LeetCode Uncrossed Lines using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
+Solve LeetCode Uncrossed Lines using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Uncrossed Lines using Python and Dynamic Programming. This soluti
 | LeetCode | #1035 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Memoization & State Transition |
-| Data Structure | DP Table / Array |
-| Pattern | Dynamic Programming |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem Statement
 You are given two integer arrays `nums1` and `nums2`. We write the integers of `nums1` and `nums2` (in the order they are given) on two separate horizontal lines.
@@ -48,7 +48,7 @@ We cannot draw 3 uncrossed lines, because the line from nums1[1] = 4 to nums2[2]
 - **Output:** `2`
 
 ## Key Insight
-Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Uncrossed Lines**, we observe the problem requirements and utilize the **Dynamic Programming** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -61,7 +61,7 @@ To solve **Uncrossed Lines**, we observe the problem requirements and utilize th
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums1 = [1,4,2], nums2 = [1,2,4]`.
-2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `2`.
@@ -70,15 +70,15 @@ We cannot draw 3 uncrossed lines, because the line from nums1[1] = 4 to nums2[2]
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Dynamic Programming**
+**Two Pointers**
 
 ## Topics
-- Dynamic Programming
-- Memoization
-- State Transition
+- Two Pointers
+- Array
+- Sorting
 
 ## Language
 Python
@@ -110,21 +110,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Incorrect base case initialization.
-2. Flawed state transition equation.
-3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
-- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
 - [806. Number of Lines To Write String](../../0501-1000/0806-number-of-lines-to-write-string/)
 - [2280. Minimum Lines to Represent a Line Chart](../../2001-2500/2280-minimum-lines-to-represent-a-line-chart/)
-- [10. Regular Expression Matching](../../0001-0500/0010-regular-expression-matching/)
+- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/uncrossed-lines/)

@@ -193,7 +193,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3115. Maximum Prime Difference](../../3001-3500/3115-maximum-prime-difference/)
 - [3591. Check if Any Element Has Prime Frequency](../../3501-4000/3591-check-if-any-element-has-prime-frequency/)
-- [1707. Maximum XOR With an Element From Array](../../1501-2000/1707-maximum-xor-with-an-element-from-array/)
+- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1255-maximum-score-words-formed-by-letters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-with-co-prime-element/)

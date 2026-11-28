@@ -141,7 +141,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
-- [2770. Maximum Number of Jumps to Reach the Last Index](../../2501-3000/2770-maximum-number-of-jumps-to-reach-the-last-index/)
+- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
 - [797. All Paths From Source to Target](../../0501-1000/0797-all-paths-from-source-to-target/)
 
 ## LeetCode

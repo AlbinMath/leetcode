@@ -105,8 +105,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
-- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
-- [473. Matchsticks to Square](../../0001-0500/0473-matchsticks-to-square/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-square/)

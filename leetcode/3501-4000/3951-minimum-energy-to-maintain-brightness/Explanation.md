@@ -1,7 +1,7 @@
 # LeetCode 3951: Minimum Energy to Maintain Brightness
 
 **LeetCode Problem #3951 — Minimum Energy to Maintain Brightness**
-Solve LeetCode Minimum Energy to Maintain Brightness using JavaScript and Greedy. This solution finds the optimal result using Greedy Choice Strategy in O(n) time.
+Solve LeetCode Minimum Energy to Maintain Brightness using JavaScript and Heap. This solution finds the optimal result using Min/Max Heap Priority Selection in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Minimum Energy to Maintain Brightness using JavaScript and Greedy
 | LeetCode | #3951 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Greedy Choice Strategy |
-| Data Structure | Array / Priority Queue |
-| Pattern | Greedy |
+| Algorithm | Min/Max Heap Priority Selection |
+| Data Structure | Heap / Priority Queue |
+| Pattern | Heap |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given an integer `n`, representing `n` light bulbs arranged in a line and indexed from 0 to `n - 1`.
@@ -60,7 +60,7 @@ Return an integer denoting the **minimum** total energy required.
  The total energy is `1 * 4 = 4`.
 
 ## Key Insight
-Leverage **Greedy** with **Array / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Heap** with **Heap / Priority Queue** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Minimum Energy to Maintain Brightness**, we observe the problem requirements and utilize the **Greedy** technique. We place two pointers at key reference points (typically start and end) and advance them inward based on condition evaluations. This linear convergence avoids quadratic comparisons.
@@ -73,7 +73,7 @@ To solve **Minimum Energy to Maintain Brightness**, we observe the problem requi
 
 ## Example Walkthrough
 1. **Input State:** We begin with `n = 5, brightness = 5, intervals = [[6,12]]`.
-2. **Processing Steps:** We apply **Greedy Choice Strategy** using our **Array / Priority Queue**:
+2. **Processing Steps:** We apply **Min/Max Heap Priority Selection** using our **Heap / Priority Queue**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `14`.
@@ -84,13 +84,14 @@ To solve **Minimum Energy to Maintain Brightness**, we observe the problem requi
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Priority Queue.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Heap / Priority Queue.
 
 ## Pattern
-**Greedy**
+**Heap**
 
 ## Topics
-- Greedy
+- Heap
+- Priority Queue
 - Sorting
 
 ## Language
@@ -131,7 +132,7 @@ var minEnergy = function(n, brightness, intervals) {
 ```
 
 ## Why This Works
-By utilizing **Greedy**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Heap**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).

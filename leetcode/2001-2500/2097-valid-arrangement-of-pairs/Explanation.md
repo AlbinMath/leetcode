@@ -172,9 +172,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [526. Beautiful Arrangement](../../0501-1000/0526-beautiful-arrangement/)
-- [667. Beautiful Arrangement II](../../0501-1000/0667-beautiful-arrangement-ii/)
-- [24. Swap Nodes in Pairs](../../0001-0500/0024-swap-nodes-in-pairs/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
+- [32. Longest Valid Parentheses](../../0001-0500/0032-longest-valid-parentheses/)
+- [36. Valid Sudoku](../../0001-0500/0036-valid-sudoku/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/valid-arrangement-of-pairs/)

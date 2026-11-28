@@ -136,8 +136,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [587. Erect the Fence](../../0501-1000/0587-erect-the-fence/)
-- [1637. Widest Vertical Area Between Two Points Containing No Points](../../1501-2000/1637-widest-vertical-area-between-two-points-containing-no-points/)
 - [886. Possible Bipartition](../../0501-1000/0886-possible-bipartition/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/widest-possible-fence/)

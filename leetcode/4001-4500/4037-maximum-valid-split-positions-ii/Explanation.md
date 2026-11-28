@@ -290,7 +290,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [4035. Maximum Valid Split Positions I](../../4001-4500/4035-maximum-valid-split-positions-i/)
-- [2178. Maximum Split of Positive Even Integers](../../2001-2500/2178-maximum-split-of-positive-even-integers/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 - [2780. Minimum Index of a Valid Split](../../2501-3000/2780-minimum-index-of-a-valid-split/)
 
 ## LeetCode

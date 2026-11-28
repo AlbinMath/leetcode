@@ -122,7 +122,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
 - [2588. Count the Number of Beautiful Subarrays](../../2501-3000/2588-count-the-number-of-beautiful-subarrays/)
-- [2970. Count the Number of Incremovable Subarrays I](../../2501-3000/2970-count-the-number-of-incremovable-subarrays-i/)
+- [2963. Count the Number of Good Partitions](../../2501-3000/2963-count-the-number-of-good-partitions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-good-subarrays/)

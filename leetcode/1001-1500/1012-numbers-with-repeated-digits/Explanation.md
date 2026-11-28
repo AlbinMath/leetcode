@@ -115,7 +115,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
 - [1295. Find Numbers with Even Number of Digits](../../1001-1500/1295-find-numbers-with-even-number-of-digits/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
+- [258. Add Digits](../../0001-0500/0258-add-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/numbers-with-repeated-digits/)

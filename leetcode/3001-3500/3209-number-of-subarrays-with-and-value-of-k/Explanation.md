@@ -108,7 +108,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2447. Number of Subarrays With GCD Equal to K](../../2001-2500/2447-number-of-subarrays-with-gcd-equal-to-k/)
 - [2470. Number of Subarrays With LCM Equal to K](../../2001-2500/2470-number-of-subarrays-with-lcm-equal-to-k/)
-- [992. Subarrays with K Different Integers](../../0501-1000/0992-subarrays-with-k-different-integers/)
+- [795. Number of Subarrays with Bounded Maximum](../../0501-1000/0795-number-of-subarrays-with-bounded-maximum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k/)

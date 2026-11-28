@@ -1,7 +1,7 @@
 # LeetCode 1669: Merge In Between Linked Lists
 
 **LeetCode Problem #1669 — Merge In Between Linked Lists**
-Solve LeetCode Merge In Between Linked Lists using Python and Linked List. This solution finds the optimal result using Pointer Traversal & Node Manipulation in O(n) time.
+Solve LeetCode Merge In Between Linked Lists using Python and Two Pointers. This solution finds the optimal result using Two Pointer Convergence & Scanning in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,9 +10,9 @@ Solve LeetCode Merge In Between Linked Lists using Python and Linked List. This 
 | LeetCode | #1669 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | Pointer Traversal & Node Manipulation |
-| Data Structure | Linked List |
-| Pattern | Linked List |
+| Algorithm | Two Pointer Convergence & Scanning |
+| Data Structure | Array |
+| Pattern | Two Pointers |
 | Time Complexity | O(n) |
 | Space Complexity | O(1) |
 
@@ -42,7 +42,7 @@ The blue edges and nodes in the following figure indicate the result:
 - **Explanation:** The blue edges and nodes in the above figure indicate the result.
 
 ## Key Insight
-Leverage **Linked List** with **Linked List** to process inputs efficiently and achieve optimal time and space complexity.
+Use two pointers moving toward each other or in parallel to process elements in a single pass without quadratic nested loops.
 
 ## Approach
 To solve **Merge In Between Linked Lists**, we observe the problem requirements and utilize the **Linked List** technique. We iterate through the inputs using **Pointer Traversal & Node Manipulation**, leveraging a **Linked List** to efficiently manage state and achieve optimal complexity.
@@ -54,7 +54,7 @@ To solve **Merge In Between Linked Lists**, we observe the problem requirements 
 
 ## Example Walkthrough
 1. **Input State:** We begin with `list1 = [10,1,13,6,9,5], a = 3, b = 4, list2 = [1000000,1000001,1000002]`.
-2. **Processing Steps:** We apply **Pointer Traversal & Node Manipulation** using our **Linked List**:
+2. **Processing Steps:** We apply **Two Pointer Convergence & Scanning** using our **Array**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `[10,1,13,1000000,1000001,1000002,5]`.
@@ -62,14 +62,15 @@ To solve **Merge In Between Linked Lists**, we observe the problem requirements 
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Linked List.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
 
 ## Pattern
-**Linked List**
+**Two Pointers**
 
 ## Topics
-- Linked List
 - Two Pointers
+- Array
+- Sorting
 
 ## Language
 Python
@@ -102,21 +103,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Linked List**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Two Pointers**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Failing to sort the array when ordering is required.
+2. Not skipping duplicate elements leading to non-unique pairs.
+3. Pointer out-of-bounds errors on edge inputs.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** In-place array traversal, duplicate elimination, and pointer convergence.
+- **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
-- [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
+- [160. Intersection of Two Linked Lists](../../0001-0500/0160-intersection-of-two-linked-lists/)
 - [2181. Merge Nodes in Between Zeros](../../2001-2500/2181-merge-nodes-in-between-zeros/)
+- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-in-between-linked-lists/)

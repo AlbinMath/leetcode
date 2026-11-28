@@ -138,9 +138,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1491. Average Salary Excluding the Minimum and Maximum Salary](../../1001-1500/1491-average-salary-excluding-the-minimum-and-maximum-salary/)
+- [3194. Minimum Average of Smallest and Largest Elements](../../3001-3500/3194-minimum-average-of-smallest-and-largest-elements/)
 - [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
-- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
-- [1200. Minimum Absolute Difference](../../1001-1500/1200-minimum-absolute-difference/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-average-difference/)

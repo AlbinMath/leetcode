@@ -251,8 +251,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1359. Count All Valid Pickup and Delivery Options](../../1001-1500/1359-count-all-valid-pickup-and-delivery-options/)
-- [2145. Count the Hidden Sequences](../../2001-2500/2145-count-the-hidden-sequences/)
 - [2867. Count Valid Paths in a Tree](../../2501-3000/2867-count-valid-paths-in-a-tree/)
+- [3926. Count Valid Word Occurrences](../../3501-4000/3926-count-valid-word-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-valid-sequences/)

@@ -131,9 +131,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1456. Maximum Number of Vowels in a Substring of Given Length](../../1001-1500/1456-maximum-number-of-vowels-in-a-substring-of-given-length/)
 - [1815. Maximum Number of Groups Getting Fresh Donuts](../../1501-2000/1815-maximum-number-of-groups-getting-fresh-donuts/)
 - [2358. Maximum Number of Groups Entering a Competition](../../2001-2500/2358-maximum-number-of-groups-entering-a-competition/)
-- [2493. Divide Nodes Into the Maximum Number of Groups](../../2001-2500/2493-divide-nodes-into-the-maximum-number-of-groups/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/)

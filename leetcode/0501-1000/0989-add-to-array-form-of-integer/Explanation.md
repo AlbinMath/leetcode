@@ -113,8 +113,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1449. Form Largest Integer With Digits That Add up to Target](../../1001-1500/1449-form-largest-integer-with-digits-that-add-up-to-target/)
-- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](../../1501-2000/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
-- [1764. Form Array by Concatenating Subarrays of Another Array](../../1501-2000/1764-form-array-by-concatenating-subarrays-of-another-array/)
+- [1394. Find Lucky Integer in an Array](../../1001-1500/1394-find-lucky-integer-in-an-array/)
+- [1985. Find the Kth Largest Integer in the Array](../../1501-2000/1985-find-the-kth-largest-integer-in-the-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/add-to-array-form-of-integer/)

@@ -125,8 +125,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1250. Check If It Is a Good Array](../../1001-1500/1250-check-if-it-is-a-good-array/)
-- [1232. Check If It Is a Straight Line](../../1001-1500/1232-check-if-it-is-a-straight-line/)
 - [1497. Check If Array Pairs Are Divisible by k](../../1001-1500/1497-check-if-array-pairs-are-divisible-by-k/)
+- [1752. Check if Array Is Sorted and Rotated](../../1501-2000/1752-check-if-array-is-sorted-and-rotated/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-it-is-possible-to-split-array/)

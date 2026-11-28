@@ -113,9 +113,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
-- [643. Maximum Average Subarray I](../../0501-1000/0643-maximum-average-subarray-i/)
+- [978. Longest Turbulent Subarray](../../0501-1000/0978-longest-turbulent-subarray/)
+- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../../1001-1500/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [1493. Longest Subarray of 1's After Deleting One Element](../../1001-1500/1493-longest-subarray-of-1s-after-deleting-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/)

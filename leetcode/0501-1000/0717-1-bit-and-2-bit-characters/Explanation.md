@@ -107,9 +107,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [995. Minimum Number of K Consecutive Bit Flips](../../0501-1000/0995-minimum-number-of-k-consecutive-bit-flips/)
-- [1545. Find Kth Bit in Nth Binary String](../../1501-2000/1545-find-kth-bit-in-nth-binary-string/)
-- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1611-minimum-one-bit-operations-to-make-integers-zero/)
+- [191. Number of 1 Bits](../../0001-0500/0191-number-of-1-bits/)
+- [1016. Binary String With Substrings Representing 1 To N](../../1001-1500/1016-binary-string-with-substrings-representing-1-to-n/)
+- [1139. Largest 1-Bordered Square](../../1001-1500/1139-largest-1-bordered-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/1-bit-and-2-bit-characters/)

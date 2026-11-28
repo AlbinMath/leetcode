@@ -251,8 +251,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2224. Minimum Number of Operations to Convert Time](../../2001-2500/2224-minimum-number-of-operations-to-convert-time/)
-- [1000. Minimum Cost to Merge Stones](../../0501-1000/1000-minimum-cost-to-merge-stones/)
-- [2789. Largest Element in an Array after Merge Operations](../../2501-3000/2789-largest-element-in-an-array-after-merge-operations/)
+- [1551. Minimum Operations to Make Array Equal](../../1501-2000/1551-minimum-operations-to-make-array-equal/)
+- [1611. Minimum One Bit Operations to Make Integers Zero](../../1501-2000/1611-minimum-one-bit-operations-to-make-integers-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-operations-for-minimum-travel-time/)

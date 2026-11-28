@@ -144,8 +144,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3534. Path Existence Queries in a Graph II](../../3501-4000/3534-path-existence-queries-in-a-graph-ii/)
+- [3841. Palindromic Path Queries in a Tree](../../3501-4000/3841-palindromic-path-queries-in-a-tree/)
 - [1971. Find if Path Exists in Graph](../../1501-2000/1971-find-if-path-exists-in-graph/)
-- [2065. Maximum Path Quality of a Graph](../../2001-2500/2065-maximum-path-quality-of-a-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/)

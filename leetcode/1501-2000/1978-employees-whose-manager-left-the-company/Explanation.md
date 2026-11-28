@@ -137,9 +137,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [181. Employees Earning More Than Their Managers](../../0001-0500/0181-employees-earning-more-than-their-managers/)
-- [627. Swap Sex of Employees](../../0501-1000/0627-swap-sex-of-employees/)
-- [1075. Project Employees I](../../1001-1500/1075-project-employees-i/)
+- [1797. Design Authentication Manager](../../1501-2000/1797-design-authentication-manager/)
+- [1845. Seat Reservation Manager](../../1501-2000/1845-seat-reservation-manager/)
+- [3408. Design Task Manager](../../3001-3500/3408-design-task-manager/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/employees-whose-manager-left-the-company/)

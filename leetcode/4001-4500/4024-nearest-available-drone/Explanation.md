@@ -121,9 +121,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [999. Available Captures for Rook](../../0501-1000/0999-available-captures-for-rook/)
-- [3570. Find Books with No Available Copies](../../3501-4000/3570-find-books-with-no-available-copies/)
 - [1779. Find Nearest Point That Has the Same X or Y Coordinate](../../1501-2000/1779-find-nearest-point-that-has-the-same-x-or-y-coordinate/)
+- [1926. Nearest Exit from Entrance in Maze](../../1501-2000/1926-nearest-exit-from-entrance-in-maze/)
+- [999. Available Captures for Rook](../../0501-1000/0999-available-captures-for-rook/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/nearest-available-drone/)

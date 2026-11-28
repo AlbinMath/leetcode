@@ -130,9 +130,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
 - [583. Delete Operation for Two Strings](../../0501-1000/0583-delete-operation-for-two-strings/)
-- [617. Merge Two Binary Trees](../../0501-1000/0617-merge-two-binary-trees/)
+- [712. Minimum ASCII Delete Sum for Two Strings](../../0501-1000/0712-minimum-ascii-delete-sum-for-two-strings/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-merge-of-two-strings/)

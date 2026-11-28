@@ -127,8 +127,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1594. Maximum Non Negative Product in a Matrix](../../1501-2000/1594-maximum-non-negative-product-in-a-matrix/)
-- [152. Maximum Product Subarray](../../0001-0500/0152-maximum-product-subarray/)
-- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-product-matrix/)

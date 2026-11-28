@@ -110,7 +110,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2386. Find the K-Sum of an Array](../../2001-2500/2386-find-the-k-sum-of-an-array/)
 - [3539. Find Sum of Array Product of Magical Sequences](../../3501-4000/3539-find-sum-of-array-product-of-magical-sequences/)
-- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [167. Two Sum II - Input Array Is Sorted](../../0001-0500/0167-two-sum-ii-input-array-is-sorted/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-triangular-sum-of-an-array/)

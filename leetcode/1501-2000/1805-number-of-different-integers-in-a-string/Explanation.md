@@ -136,9 +136,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [992. Subarrays with K Different Integers](../../0501-1000/0992-subarrays-with-k-different-integers/)
-- [1434. Number of Ways to Wear Different Hats to Each Other](../../1001-1500/1434-number-of-ways-to-wear-different-hats-to-each-other/)
-- [1819. Number of Different Subsequences GCDs](../../1501-2000/1819-number-of-different-subsequences-gcds/)
+- [434. Number of Segments in a String](../../0001-0500/0434-number-of-segments-in-a-string/)
+- [806. Number of Lines To Write String](../../0501-1000/0806-number-of-lines-to-write-string/)
+- [1375. Number of Times Binary String Is Prefix-Aligned](../../1001-1500/1375-number-of-times-binary-string-is-prefix-aligned/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-different-integers-in-a-string/)

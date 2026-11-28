@@ -120,9 +120,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [3332. Maximum Points Tourist Can Earn](../../3001-3500/3332-maximum-points-tourist-can-earn/)
-- [3418. Maximum Amount of Money Robot Can Earn](../../3001-3500/3418-maximum-amount-of-money-robot-can-earn/)
 - [196. Delete Duplicate Emails](../../0001-0500/0196-delete-duplicate-emails/)
+- [237. Delete Node in a Linked List](../../0001-0500/0237-delete-node-in-a-linked-list/)
+- [380. Insert Delete GetRandom O(1)](../../0001-0500/0380-insert-delete-getrandom-o1/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-and-earn/)

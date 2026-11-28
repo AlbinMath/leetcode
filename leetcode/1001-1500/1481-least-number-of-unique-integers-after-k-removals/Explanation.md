@@ -104,8 +104,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
 - [3621. Number of Integers With Popcount-Depth Equal to K I](../../3501-4000/3621-number-of-integers-with-popcount-depth-equal-to-k-i/)
-- [3624. Number of Integers With Popcount-Depth Equal to K II](../../3501-4000/3624-number-of-integers-with-popcount-depth-equal-to-k-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)

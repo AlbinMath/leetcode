@@ -156,9 +156,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1737. Change Minimum Characters to Satisfy One of Three Conditions](../../1501-2000/1737-change-minimum-characters-to-satisfy-one-of-three-conditions/)
-- [3122. Minimum Number of Operations to Satisfy Conditions](../../3001-3500/3122-minimum-number-of-operations-to-satisfy-conditions/)
-- [3142. Check if Grid Satisfies Conditions](../../3001-3500/3142-check-if-grid-satisfies-conditions/)
+- [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
+- [1441. Build an Array With Stack Operations](../../1001-1500/1441-build-an-array-with-stack-operations/)
+- [1916. Count Ways to Build Rooms in an Ant Colony](../../1501-2000/1916-count-ways-to-build-rooms-in-an-ant-colony/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/build-a-matrix-with-conditions/)

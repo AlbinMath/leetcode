@@ -210,7 +210,7 @@ A collection of **412** solved LeetCode problems in the range **0001-0500**.
 | 210 | [Course Schedule II](./0210-course-schedule-ii/) | Medium | [Array / General](../../patterns/array-general.md) | JavaScript | [Explanation](./0210-course-schedule-ii/Explanation.md) |
 | 211 | [Design Add and Search Words Data Structure](./0211-design-add-and-search-words-data-structure/) | Medium | [Hash Map](../../patterns/hash-map.md) | JavaScript | [Explanation](./0211-design-add-and-search-words-data-structure/Explanation.md) |
 | 212 | [Word Search II](./0212-word-search-ii/) | Hard | [Binary Search](../../patterns/binary-search.md) | JavaScript | [Explanation](./0212-word-search-ii/Explanation.md) |
-| 213 | [House Robber II](./0213-house-robber-ii/) | Medium | [Tree & Graph](../../patterns/tree-graph.md) | JavaScript | [Explanation](./0213-house-robber-ii/Explanation.md) |
+| 213 | [House Robber II](./0213-house-robber-ii/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript | [Explanation](./0213-house-robber-ii/Explanation.md) |
 | 214 | [Shortest Palindrome](./0214-shortest-palindrome/) | Hard | [Two Pointers](../../patterns/two-pointers.md) | Python | [Explanation](./0214-shortest-palindrome/Explanation.md) |
 | 215 | [Kth Largest Element in an Array](./0215-kth-largest-element-in-an-array/) | Medium | [Two Pointers](../../patterns/two-pointers.md) | JavaScript, Python | [Explanation](./0215-kth-largest-element-in-an-array/Explanation.md) |
 | 216 | [Combination Sum III](./0216-combination-sum-iii/) | Medium | [Backtracking](../../patterns/backtracking.md) | JavaScript | [Explanation](./0216-combination-sum-iii/Explanation.md) |

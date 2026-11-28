@@ -119,9 +119,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [85. Maximal Rectangle](../../0001-0500/0085-maximal-rectangle/)
-- [1615. Maximal Network Rank](../../1501-2000/1615-maximal-network-rank/)
-- [2530. Maximal Score After Applying K Operations](../../2501-3000/2530-maximal-score-after-applying-k-operations/)
+- [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
+- [473. Matchsticks to Square](../../0001-0500/0473-matchsticks-to-square/)
+- [593. Valid Square](../../0501-1000/0593-valid-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximal-square/)

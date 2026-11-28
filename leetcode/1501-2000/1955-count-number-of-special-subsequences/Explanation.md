@@ -116,9 +116,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [3404. Count Special Subsequences](../../3001-3500/3404-count-special-subsequences/)
 - [3120. Count the Number of Special Characters I](../../3001-3500/3120-count-the-number-of-special-characters-i/)
-- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
+- [3404. Count Special Subsequences](../../3001-3500/3404-count-special-subsequences/)
+- [792. Number of Matching Subsequences](../../0501-1000/0792-number-of-matching-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-special-subsequences/)

@@ -140,9 +140,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2048. Next Greater Numerically Balanced Number](../../2001-2500/2048-next-greater-numerically-balanced-number/)
 - [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
 - [1955. Count Number of Special Subsequences](../../1501-2000/1955-count-number-of-special-subsequences/)
+- [2048. Next Greater Numerically Balanced Number](../../2001-2500/2048-next-greater-numerically-balanced-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/next-special-palindrome-number/)

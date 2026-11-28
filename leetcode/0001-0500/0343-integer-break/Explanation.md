@@ -99,9 +99,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [139. Word Break](../../0001-0500/0139-word-break/)
-- [140. Word Break II](../../0001-0500/0140-word-break-ii/)
-- [1328. Break a Palindrome](../../1001-1500/1328-break-a-palindrome/)
+- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
+- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [12. Integer to Roman](../../0001-0500/0012-integer-to-roman/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/integer-break/)

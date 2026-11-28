@@ -133,8 +133,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1187. Make Array Strictly Increasing](../../1001-1500/1187-make-array-strictly-increasing/)
+- [3402. Minimum Operations to Make Columns Strictly Increasing](../../3001-3500/3402-minimum-operations-to-make-columns-strictly-increasing/)
 - [1827. Minimum Operations to Make the Array Increasing](../../1501-2000/1827-minimum-operations-to-make-the-array-increasing/)
-- [2111. Minimum Operations to Make the Array K-Increasing](../../2001-2500/2111-minimum-operations-to-make-the-array-k-increasing/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)

@@ -121,8 +121,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
-- [976. Largest Perimeter Triangle](../../0501-1000/0976-largest-perimeter-triangle/)
 - [1738. Find Kth Largest XOR Coordinate Value](../../1501-2000/1738-find-kth-largest-xor-coordinate-value/)
+- [1985. Find the Kth Largest Integer in the Array](../../1501-2000/1985-find-the-kth-largest-integer-in-the-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/)

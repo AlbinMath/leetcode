@@ -112,9 +112,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1375. Number of Times Binary String Is Prefix-Aligned](../../1001-1500/1375-number-of-times-binary-string-is-prefix-aligned/)
 - [65. Valid Number](../../0001-0500/0065-valid-number/)
 - [611. Valid Triangle Number](../../0501-1000/0611-valid-triangle-number/)
-- [1178. Number of Valid Words for Each Puzzle](../../1001-1500/1178-number-of-valid-words-for-each-puzzle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-valid-clock-times/)

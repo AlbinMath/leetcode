@@ -131,7 +131,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1994. The Number of Good Subsets](../../1501-2000/1994-the-number-of-good-subsets/)
 - [2044. Count Number of Maximum Bitwise-OR Subsets](../../2001-2500/2044-count-number-of-maximum-bitwise-or-subsets/)
-- [2478. Number of Beautiful Partitions](../../2001-2500/2478-number-of-beautiful-partitions/)
+- [2572. Count the Number of Square-Free Subsets](../../2501-3000/2572-count-the-number-of-square-free-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-number-of-beautiful-subsets/)

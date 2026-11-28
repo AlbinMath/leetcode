@@ -113,7 +113,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [643. Maximum Average Subarray I](../../0501-1000/0643-maximum-average-subarray-i/)
 - [1491. Average Salary Excluding the Minimum and Maximum Salary](../../1001-1500/1491-average-salary-excluding-the-minimum-and-maximum-salary/)
-- [4011. Count Subarrays With Even Odd Ratio I](../../4001-4500/4011-count-subarrays-with-even-odd-ratio-i/)
+- [637. Average of Levels in Binary Tree](../../0501-1000/0637-average-of-levels-in-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-average-pass-ratio/)

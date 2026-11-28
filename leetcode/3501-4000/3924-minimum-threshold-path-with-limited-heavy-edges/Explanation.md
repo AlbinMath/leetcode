@@ -219,7 +219,7 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [3066. Minimum Operations to Exceed Threshold Value II](../../3001-3500/3066-minimum-operations-to-exceed-threshold-value-ii/)
+- [3977. Minimum Time to Reach Target With Limited Power](../../3501-4000/3977-minimum-time-to-reach-target-with-limited-power/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 - [931. Minimum Falling Path Sum](../../0501-1000/0931-minimum-falling-path-sum/)
 

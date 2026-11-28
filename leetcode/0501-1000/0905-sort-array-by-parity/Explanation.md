@@ -103,8 +103,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [922. Sort Array By Parity II](../../0501-1000/0922-sort-array-by-parity-ii/)
-- [912. Sort an Array](../../0501-1000/0912-sort-an-array/)
-- [1122. Relative Sort Array](../../1001-1500/1122-relative-sort-array/)
+- [3467. Transform Array by Parity](../../3001-3500/3467-transform-array-by-parity/)
+- [3854. Minimum Operations to Make Array Parity Alternating](../../3501-4000/3854-minimum-operations-to-make-array-parity-alternating/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-array-by-parity/)

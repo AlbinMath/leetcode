@@ -230,8 +230,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3645. Maximum Total from Optimal Activation Order](../../3501-4000/3645-maximum-total-from-optimal-activation-order/)
-- [1235. Maximum Profit in Job Scheduling](../../1001-1500/1235-maximum-profit-in-job-scheduling/)
-- [1599. Maximum Profit of Operating a Centennial Wheel](../../1501-2000/1599-maximum-profit-of-operating-a-centennial-wheel/)
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](../../1001-1500/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/)
+- [3979. Maximum Valid Pair Sum](../../3501-4000/3979-maximum-valid-pair-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag/)

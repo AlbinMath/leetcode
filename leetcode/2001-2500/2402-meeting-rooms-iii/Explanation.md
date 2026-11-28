@@ -153,9 +153,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [841. Keys and Rooms](../../0501-1000/0841-keys-and-rooms/)
-- [1916. Count Ways to Build Rooms in an Ant Colony](../../1501-2000/1916-count-ways-to-build-rooms-in-an-ant-colony/)
-- [1997. First Day Where You Have Been in All the Rooms](../../1501-2000/1997-first-day-where-you-have-been-in-all-the-rooms/)
+- [1883. Minimum Skips to Arrive at Meeting On Time](../../1501-2000/1883-minimum-skips-to-arrive-at-meeting-on-time/)
+- [2127. Maximum Employees to Be Invited to a Meeting](../../2001-2500/2127-maximum-employees-to-be-invited-to-a-meeting/)
+- [4068. Maximize Meeting Earnings with Idle Gaps](../../4001-4500/4068-maximize-meeting-earnings-with-idle-gaps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/meeting-rooms-iii/)

@@ -112,9 +112,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [324. Wiggle Sort II](../../0001-0500/0324-wiggle-sort-ii/)
 - [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
 - [334. Increasing Triplet Subsequence](../../0001-0500/0334-increasing-triplet-subsequence/)
+- [392. Is Subsequence](../../0001-0500/0392-is-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/wiggle-subsequence/)

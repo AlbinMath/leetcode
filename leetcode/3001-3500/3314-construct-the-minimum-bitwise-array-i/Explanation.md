@@ -113,8 +113,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 
 ## Related Problems
 - [3315. Construct the Minimum Bitwise Array II](../../3001-3500/3315-construct-the-minimum-bitwise-array-ii/)
-- [3688. Bitwise OR of Even Numbers in an Array](../../3501-4000/3688-bitwise-or-of-even-numbers-in-an-array/)
-- [3858. Minimum Bitwise OR From Grid](../../3501-4000/3858-minimum-bitwise-or-from-grid/)
+- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/)

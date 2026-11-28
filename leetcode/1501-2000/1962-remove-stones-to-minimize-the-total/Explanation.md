@@ -117,8 +117,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2646. Minimize the Total Price of the Trips](../../2501-3000/2646-minimize-the-total-price-of-the-trips/)
-- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
-- [1010. Pairs of Songs With Total Durations Divisible by 60](../../1001-1500/1010-pairs-of-songs-with-total-durations-divisible-by-60/)
+- [771. Jewels and Stones](../../0501-1000/0771-jewels-and-stones/)
+- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)

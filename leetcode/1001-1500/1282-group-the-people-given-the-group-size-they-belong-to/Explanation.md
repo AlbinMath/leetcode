@@ -109,8 +109,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1562. Find Latest Group of Size M](../../1501-2000/1562-find-latest-group-of-size-m/)
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [902. Numbers At Most N Given Digit Set](../../0501-1000/0902-numbers-at-most-n-given-digit-set/)
+- [881. Boats to Save People](../../0501-1000/0881-boats-to-save-people/)
+- [1103. Distribute Candies to People](../../1001-1500/1103-distribute-candies-to-people/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)

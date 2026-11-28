@@ -129,8 +129,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [432. All O`one Data Structure](../../0001-0500/0432-all-oone-data-structure/)
-- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
-- [35. Search Insert Position](../../0001-0500/0035-search-insert-position/)
+- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
+- [352. Data Stream as Disjoint Intervals](../../0001-0500/0352-data-stream-as-disjoint-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/)

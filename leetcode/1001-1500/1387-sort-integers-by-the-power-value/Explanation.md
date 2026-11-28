@@ -132,7 +132,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1356. Sort Integers by The Number of 1 Bits](../../1001-1500/1356-sort-integers-by-the-number-of-1-bits/)
 - [3769. Sort Integers by Binary Reflection](../../3501-4000/3769-sort-integers-by-binary-reflection/)
-- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
+- [29. Divide Two Integers](../../0001-0500/0029-divide-two-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-integers-by-the-power-value/)

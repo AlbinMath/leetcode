@@ -120,7 +120,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [3569. Maximize Count of Distinct Primes After Split](../../3501-4000/3569-maximize-count-of-distinct-primes-after-split/)
 - [3684. Maximize Sum of At Most K Distinct Elements](../../3501-4000/3684-maximize-sum-of-at-most-k-distinct-elements/)
-- [334. Increasing Triplet Subsequence](../../0001-0500/0334-increasing-triplet-subsequence/)
+- [115. Distinct Subsequences](../../0001-0500/0115-distinct-subsequences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-ysum-by-picking-a-triplet-of-distinct-xvalues/)

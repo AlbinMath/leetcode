@@ -128,8 +128,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1281-subtract-the-product-and-sum-of-digits-of-an-integer/)
-- [1780. Check if Number is a Sum of Powers of Three](../../1501-2000/1780-check-if-number-is-a-sum-of-powers-of-three/)
-- [2160. Minimum Sum of Four Digit Number After Splitting Digits](../../2001-2500/2160-minimum-sum-of-four-digit-number-after-splitting-digits/)
+- [3345. Smallest Divisible Digit Product I](../../3001-3500/3345-smallest-divisible-digit-product-i/)
+- [3348. Smallest Divisible Digit Product II](../../3001-3500/3348-smallest-divisible-digit-product-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/)

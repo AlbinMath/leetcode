@@ -129,9 +129,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [413. Arithmetic Slices](../../0001-0500/0413-arithmetic-slices/)
 - [1027. Longest Arithmetic Subsequence](../../1001-1500/1027-longest-arithmetic-subsequence/)
 - [1218. Longest Arithmetic Subsequence of Given Difference](../../1001-1500/1218-longest-arithmetic-subsequence-of-given-difference/)
-- [413. Arithmetic Slices](../../0001-0500/0413-arithmetic-slices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)

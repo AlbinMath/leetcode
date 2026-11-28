@@ -129,9 +129,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [72. Edit Distance](../../0001-0500/0072-edit-distance/)
-- [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
-- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
+- [2634. Filter Elements from Array](../../2501-3000/2634-filter-elements-from-array/)
+- [3975. Filter Occupied Intervals](../../3501-4000/3975-filter-occupied-intervals/)
+- [1164. Product Price at a Given Date](../../1001-1500/1164-product-price-at-a-given-date/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)

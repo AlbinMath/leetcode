@@ -130,8 +130,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2379. Minimum Recolors to Get K Consecutive Black Blocks](../../2001-2500/2379-minimum-recolors-to-get-k-consecutive-black-blocks/)
-- [2938. Separate Black and White Balls](../../2501-3000/2938-separate-black-and-white-balls/)
 - [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
+- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-black-blocks/)

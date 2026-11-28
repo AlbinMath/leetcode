@@ -203,7 +203,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [2221. Find Triangular Sum of an Array](../../2001-2500/2221-find-triangular-sum-of-an-array/)
 - [2386. Find the K-Sum of an Array](../../2001-2500/2386-find-the-k-sum-of-an-array/)
-- [238. Product of Array Except Self](../../0001-0500/0238-product-of-array-except-self/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/)
