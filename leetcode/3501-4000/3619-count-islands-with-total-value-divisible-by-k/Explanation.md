@@ -128,7 +128,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2183. Count Array Pairs Divisible by K](../../2001-2500/2183-count-array-pairs-divisible-by-k/)
 - [3729. Count Distinct Subarrays Divisible by K in Sorted Array](../../3501-4000/3729-count-distinct-subarrays-divisible-by-k-in-sorted-array/)
-- [1010. Pairs of Songs With Total Durations Divisible by 60](../../1001-1500/1010-pairs-of-songs-with-total-durations-divisible-by-60/)
+- [2218. Maximum Value of K Coins From Piles](../../2001-2500/2218-maximum-value-of-k-coins-from-piles/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/)

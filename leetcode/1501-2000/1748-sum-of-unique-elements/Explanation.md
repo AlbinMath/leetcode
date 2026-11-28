@@ -118,8 +118,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1304. Find N Unique Integers Sum up to Zero](../../1001-1500/1304-find-n-unique-integers-sum-up-to-zero/)
-- [1785. Minimum Elements to Add to Form a Given Sum](../../1501-2000/1785-minimum-elements-to-add-to-form-a-given-sum/)
-- [2656. Maximum Sum With Exactly K Elements ](../../2501-3000/2656-maximum-sum-with-exactly-k-elements/)
+- [2841. Maximum Sum of Almost Unique Subarray](../../2501-3000/2841-maximum-sum-of-almost-unique-subarray/)
+- [3487. Maximum Unique Subarray Sum After Deletion](../../3001-3500/3487-maximum-unique-subarray-sum-after-deletion/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-unique-elements/)

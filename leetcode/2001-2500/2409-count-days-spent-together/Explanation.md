@@ -111,8 +111,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3169. Count Days Without Meetings](../../3001-3500/3169-count-days-without-meetings/)
-- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1741-find-total-time-spent-by-each-employee/)
-- [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
+- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [204. Count Primes](../../0001-0500/0204-count-primes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-days-spent-together/)

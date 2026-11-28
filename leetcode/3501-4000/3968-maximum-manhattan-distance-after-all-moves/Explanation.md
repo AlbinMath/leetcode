@@ -145,8 +145,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3443. Maximum Manhattan Distance After K Changes](../../3001-3500/3443-maximum-manhattan-distance-after-k-changes/)
-- [3283. Maximum Number of Moves to Kill All Pawns](../../3001-3500/3283-maximum-number-of-moves-to-kill-all-pawns/)
 - [2920. Maximum Points After Collecting Coins From All Nodes](../../2501-3000/2920-maximum-points-after-collecting-coins-from-all-nodes/)
+- [3283. Maximum Number of Moves to Kill All Pawns](../../3001-3500/3283-maximum-number-of-moves-to-kill-all-pawns/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-manhattan-distance-after-all-moves/)

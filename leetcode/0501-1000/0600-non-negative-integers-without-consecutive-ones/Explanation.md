@@ -119,9 +119,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2274. Maximum Consecutive Floors Without Special Floors](../../2001-2500/2274-maximum-consecutive-floors-without-special-floors/)
 - [1594. Maximum Non Negative Product in a Matrix](../../1501-2000/1594-maximum-non-negative-product-in-a-matrix/)
 - [2598. Smallest Missing Non-negative Integer After Operations](../../2501-3000/2598-smallest-missing-non-negative-integer-after-operations/)
-- [3819. Rotate Non Negative Elements](../../3501-4000/3819-rotate-non-negative-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)

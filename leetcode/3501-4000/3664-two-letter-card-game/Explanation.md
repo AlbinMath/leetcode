@@ -154,7 +154,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2131. Longest Palindrome by Concatenating Two Letter Words](../../2001-2500/2131-longest-palindrome-by-concatenating-two-letter-words/)
 - [822. Card Flipping Game](../../0501-1000/0822-card-flipping-game/)
-- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
+- [1. Two Sum](../../0001-0500/0001-two-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-letter-card-game/)

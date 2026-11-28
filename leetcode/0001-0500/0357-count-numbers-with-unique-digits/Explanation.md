@@ -97,9 +97,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [3483. Unique 3-Digit Even Numbers](../../3001-3500/3483-unique-3-digit-even-numbers/)
 - [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [1012. Numbers With Repeated Digits](../../1001-1500/1012-numbers-with-repeated-digits/)
+- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1295-find-numbers-with-even-number-of-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-numbers-with-unique-digits/)

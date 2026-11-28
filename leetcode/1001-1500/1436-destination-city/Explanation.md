@@ -107,9 +107,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1928. Minimum Cost to Reach Destination in Time](../../1501-2000/1928-minimum-cost-to-reach-destination-in-time/)
-- [1976. Number of Ways to Arrive at Destination](../../1501-2000/1976-number-of-ways-to-arrive-at-destination/)
-- [2045. Second Minimum Time to Reach Destination](../../2001-2500/2045-second-minimum-time-to-reach-destination/)
+- [807. Max Increase to Keep City Skyline](../../0501-1000/0807-max-increase-to-keep-city-skyline/)
+- [1029. Two City Scheduling](../../1001-1500/1029-two-city-scheduling/)
+- [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](../../1001-1500/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/destination-city/)

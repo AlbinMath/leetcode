@@ -111,9 +111,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2749. Minimum Operations to Make the Integer Zero](../../2501-3000/2749-minimum-operations-to-make-the-integer-zero/)
 - [2216. Minimum Deletions to Make Array Beautiful](../../2001-2500/2216-minimum-deletions-to-make-array-beautiful/)
 - [2914. Minimum Number of Changes to Make Binary String Beautiful](../../2501-3000/2914-minimum-number-of-changes-to-make-binary-string-beautiful/)
-- [2749. Minimum Operations to Make the Integer Zero](../../2501-3000/2749-minimum-operations-to-make-the-integer-zero/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/)

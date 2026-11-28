@@ -106,8 +106,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1608. Special Array With X Elements Greater Than or Equal X](../../1501-2000/1608-special-array-with-x-elements-greater-than-or-equal-x/)
-- [1748. Sum of Unique Elements](../../1501-2000/1748-sum-of-unique-elements/)
-- [1785. Minimum Elements to Add to Form a Given Sum](../../1501-2000/1785-minimum-elements-to-add-to-form-a-given-sum/)
+- [2897. Apply Operations on Array to Maximize Sum of Squares](../../2501-3000/2897-apply-operations-on-array-to-maximize-sum-of-squares/)
+- [2913. Subarrays Distinct Element Sum of Squares I](../../2501-3000/2913-subarrays-distinct-element-sum-of-squares-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-squares-of-special-elements/)

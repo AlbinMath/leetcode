@@ -125,7 +125,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
 - [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
-- [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
+- [673. Number of Longest Increasing Subsequence](../../0501-1000/0673-number-of-longest-increasing-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/length-of-the-longest-increasing-path/)

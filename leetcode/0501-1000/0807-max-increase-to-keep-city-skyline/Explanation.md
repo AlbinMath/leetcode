@@ -130,8 +130,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](../../1501-2000/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable/)
-- [2154. Keep Multiplying Found Values by Two](../../2001-2500/2154-keep-multiplying-found-values-by-two/)
-- [3891. Minimum Increase to Maximize Special Indices](../../3501-4000/3891-minimum-increase-to-maximize-special-indices/)
+- [218. The Skyline Problem](../../0001-0500/0218-the-skyline-problem/)
+- [1029. Two City Scheduling](../../1001-1500/1029-two-city-scheduling/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)

@@ -179,8 +179,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2099. Find Subsequence of Length K With the Largest Sum](../../2001-2500/2099-find-subsequence-of-length-k-with-the-largest-sum/)
-- [891. Sum of Subsequence Widths](../../0501-1000/0891-sum-of-subsequence-widths/)
 - [1304. Find N Unique Integers Sum up to Zero](../../1001-1500/1304-find-n-unique-integers-sum-up-to-zero/)
+- [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](../../1001-1500/1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-sum-of-subsequence-powers/)

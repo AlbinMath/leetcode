@@ -157,8 +157,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2398. Maximum Number of Robots Within Budget](../../2001-2500/2398-maximum-number-of-robots-within-budget/)
+- [2731. Movement of Robots](../../2501-3000/2731-movement-of-robots/)
 - [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
-- [104. Maximum Depth of Binary Tree](../../0001-0500/0104-maximum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-walls-destroyed-by-robots/)

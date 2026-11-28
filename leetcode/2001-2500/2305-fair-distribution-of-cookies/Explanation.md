@@ -133,9 +133,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [455. Assign Cookies](../../0001-0500/0455-assign-cookies/)
 - [888. Fair Candy Swap](../../0501-1000/0888-fair-candy-swap/)
 - [1664. Ways to Make a Fair Array](../../1501-2000/1664-ways-to-make-a-fair-array/)
+- [2563. Count the Number of Fair Pairs](../../2501-3000/2563-count-the-number-of-fair-pairs/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/fair-distribution-of-cookies/)

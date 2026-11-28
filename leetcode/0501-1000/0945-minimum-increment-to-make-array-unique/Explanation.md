@@ -107,7 +107,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1551. Minimum Operations to Make Array Equal](../../1501-2000/1551-minimum-operations-to-make-array-equal/)
 - [1558. Minimum Numbers of Function Calls to Make Target Array](../../1501-2000/1558-minimum-numbers-of-function-calls-to-make-target-array/)
-- [1647. Minimum Deletions to Make Character Frequencies Unique](../../1501-2000/1647-minimum-deletions-to-make-character-frequencies-unique/)
+- [1671. Minimum Number of Removals to Make Mountain Array](../../1501-2000/1671-minimum-number-of-removals-to-make-mountain-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-increment-to-make-array-unique/)

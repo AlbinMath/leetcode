@@ -164,9 +164,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [29. Divide Two Integers](../../0001-0500/0029-divide-two-integers/)
-- [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
-- [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
+- [575. Distribute Candies](../../0501-1000/0575-distribute-candies/)
+- [979. Distribute Coins in Binary Tree](../../0501-1000/0979-distribute-coins-in-binary-tree/)
+- [1103. Distribute Candies to People](../../1001-1500/1103-distribute-candies-to-people/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/distribute-repeating-integers/)

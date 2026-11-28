@@ -149,9 +149,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1889. Minimum Space Wasted From Packaging](../../1501-2000/1889-minimum-space-wasted-from-packaging/)
 - [2111. Minimum Operations to Make the Array K-Increasing](../../2001-2500/2111-minimum-operations-to-make-the-array-k-increasing/)
 - [2997. Minimum Number of Operations to Make Array XOR Equal to K](../../2501-3000/2997-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
+- [3107. Minimum Operations to Make Median of Array Equal to K](../../3001-3500/3107-minimum-operations-to-make-median-of-array-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations/)

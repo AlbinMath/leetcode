@@ -137,9 +137,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2559. Count Vowel Strings in Ranges](../../2501-3000/2559-count-vowel-strings-in-ranges/)
 - [1735. Count Ways to Make Array With Product](../../1501-2000/1735-count-ways-to-make-array-with-product/)
 - [1916. Count Ways to Build Rooms in an Ant Colony](../../1501-2000/1916-count-ways-to-build-rooms-in-an-ant-colony/)
-- [3725. Count Ways to Choose Coprime Integers from Rows](../../3501-4000/3725-count-ways-to-choose-coprime-integers-from-rows/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/)

@@ -116,8 +116,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [160. Intersection of Two Linked Lists](../../0001-0500/0160-intersection-of-two-linked-lists/)
-- [2181. Merge Nodes in Between Zeros](../../2001-2500/2181-merge-nodes-in-between-zeros/)
 - [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
+- [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-in-between-linked-lists/)

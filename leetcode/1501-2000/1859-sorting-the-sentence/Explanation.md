@@ -124,9 +124,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [969. Pancake Sorting](../../0501-1000/0969-pancake-sorting/)
-- [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
-- [2826. Sorting Three Groups](../../2501-3000/2826-sorting-three-groups/)
+- [1451. Rearrange Words in a Sentence](../../1001-1500/1451-rearrange-words-in-a-sentence/)
+- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1001-1500/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
+- [1813. Sentence Similarity III](../../1501-2000/1813-sentence-similarity-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sorting-the-sentence/)

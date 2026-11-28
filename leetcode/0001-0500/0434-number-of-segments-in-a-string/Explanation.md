@@ -100,9 +100,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1621. Number of Sets of K Non-Overlapping Line Segments](../../1501-2000/1621-number-of-sets-of-k-non-overlapping-line-segments/)
 - [806. Number of Lines To Write String](../../0501-1000/0806-number-of-lines-to-write-string/)
 - [1375. Number of Times Binary String Is Prefix-Aligned](../../1001-1500/1375-number-of-times-binary-string-is-prefix-aligned/)
-- [1525. Number of Good Ways to Split a String](../../1501-2000/1525-number-of-good-ways-to-split-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-segments-in-a-string/)

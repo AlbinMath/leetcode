@@ -141,9 +141,9 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 - **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
-- [4025. Minimize the Maximum Waiting Time at Synchronized Traffic Lights](../../4001-4500/4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 - [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
+- [111. Minimum Depth of Binary Tree](../../0001-0500/0111-minimum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-lights-to-illuminate-a-road/)

@@ -117,9 +117,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2865. Beautiful Towers I](../../2501-3000/2865-beautiful-towers-i/)
-- [2866. Beautiful Towers II](../../2501-3000/2866-beautiful-towers-ii/)
-- [477. Total Hamming Distance](../../0001-0500/0477-total-hamming-distance/)
+- [310. Minimum Height Trees](../../0001-0500/0310-minimum-height-trees/)
+- [406. Queue Reconstruction by Height](../../0001-0500/0406-queue-reconstruction-by-height/)
+- [1051. Height Checker](../../1001-1500/1051-height-checker/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-the-total-height-of-unique-towers/)

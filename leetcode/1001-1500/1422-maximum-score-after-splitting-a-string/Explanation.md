@@ -119,7 +119,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1702. Maximum Binary String After Change](../../1501-2000/1702-maximum-binary-string-after-change/)
 - [3781. Maximum Score After Binary Swaps](../../3501-4000/3781-maximum-score-after-binary-swaps/)
-- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1239-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [861. Score After Flipping Matrix](../../0501-1000/0861-score-after-flipping-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)

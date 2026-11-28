@@ -108,9 +108,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
 - [371. Sum of Two Integers](../../0001-0500/0371-sum-of-two-integers/)
-- [992. Subarrays with K Different Integers](../../0501-1000/0992-subarrays-with-k-different-integers/)
-- [1304. Find N Unique Integers Sum up to Zero](../../1001-1500/1304-find-n-unique-integers-sum-up-to-zero/)
+- [560. Subarray Sum Equals K](../../0501-1000/0560-subarray-sum-equals-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)

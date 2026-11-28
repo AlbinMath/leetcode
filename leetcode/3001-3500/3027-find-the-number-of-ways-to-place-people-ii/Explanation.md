@@ -131,8 +131,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3025. Find the Number of Ways to Place People I](../../3001-3500/3025-find-the-number-of-ways-to-place-people-i/)
-- [1269. Number of Ways to Stay in the Same Place After Some Steps](../../1001-1500/1269-number-of-ways-to-stay-in-the-same-place-after-some-steps/)
 - [2973. Find Number of Coins to Place in Tree Nodes](../../2501-3000/2973-find-number-of-coins-to-place-in-tree-nodes/)
+- [3154. Find Number of Ways to Reach the K-th Stair](../../3001-3500/3154-find-number-of-ways-to-reach-the-k-th-stair/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/)

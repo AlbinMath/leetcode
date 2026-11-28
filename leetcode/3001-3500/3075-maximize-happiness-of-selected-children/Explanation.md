@@ -122,8 +122,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1659. Maximize Grid Happiness](../../1501-2000/1659-maximize-grid-happiness/)
-- [3974. Maximum Total Sum of K Selected Elements](../../3501-4000/3974-maximum-total-sum-of-k-selected-elements/)
 - [2226. Maximum Candies Allocated to K Children](../../2001-2500/2226-maximum-candies-allocated-to-k-children/)
+- [2236. Root Equals Sum of Children](../../2001-2500/2236-root-equals-sum-of-children/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-happiness-of-selected-children/)

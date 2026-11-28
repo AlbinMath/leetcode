@@ -108,8 +108,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1013. Partition Array Into Three Parts With Equal Sum](../../1001-1500/1013-partition-array-into-three-parts-with-equal-sum/)
-- [2491. Divide Players Into Teams of Equal Skill](../../2001-2500/2491-divide-players-into-teams-of-equal-skill/)
-- [3566. Partition Array into Two Equal Product Subsets](../../3501-4000/3566-partition-array-into-two-equal-product-subsets/)
+- [2966. Divide Array Into Arrays With Max Difference](../../2501-3000/2966-divide-array-into-arrays-with-max-difference/)
+- [3010. Divide an Array Into Subarrays With Minimum Cost I](../../3001-3500/3010-divide-an-array-into-subarrays-with-minimum-cost-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divide-array-into-equal-pairs/)

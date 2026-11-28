@@ -148,9 +148,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [783. Minimum Distance Between BST Nodes](../../0501-1000/0783-minimum-distance-between-bst-nodes/)
 - [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](../../1001-1500/1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 - [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](../../1001-1500/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+- [2576. Find the Maximum Number of Marked Indices](../../2501-3000/2576-find-the-maximum-number-of-marked-indices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)

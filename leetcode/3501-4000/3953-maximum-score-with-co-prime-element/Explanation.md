@@ -191,9 +191,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3115. Maximum Prime Difference](../../3001-3500/3115-maximum-prime-difference/)
-- [3591. Check if Any Element Has Prime Frequency](../../3501-4000/3591-check-if-any-element-has-prime-frequency/)
-- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1255-maximum-score-words-formed-by-letters/)
+- [1707. Maximum XOR With an Element From Array](../../1501-2000/1707-maximum-xor-with-an-element-from-array/)
+- [1846. Maximum Element After Decreasing and Rearranging](../../1501-2000/1846-maximum-element-after-decreasing-and-rearranging/)
+- [2862. Maximum Element-Sum of a Complete Subset of Indices](../../2501-3000/2862-maximum-element-sum-of-a-complete-subset-of-indices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-with-co-prime-element/)

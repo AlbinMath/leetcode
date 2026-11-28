@@ -103,9 +103,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [9. Palindrome Number](../../0001-0500/0009-palindrome-number/)
-- [17. Letter Combinations of a Phone Number](../../0001-0500/0017-letter-combinations-of-a-phone-number/)
-- [65. Valid Number](../../0001-0500/0065-valid-number/)
+- [363. Max Sum of Rectangle No Larger Than K](../../0001-0500/0363-max-sum-of-rectangle-no-larger-than-k/)
+- [1042. Flower Planting With No Adjacent](../../1001-1500/1042-flower-planting-with-no-adjacent/)
+- [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1317-convert-integer-to-the-sum-of-two-no-zero-integers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/)

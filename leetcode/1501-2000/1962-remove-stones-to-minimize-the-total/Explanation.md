@@ -117,8 +117,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2646. Minimize the Total Price of the Trips](../../2501-3000/2646-minimize-the-total-price-of-the-trips/)
-- [771. Jewels and Stones](../../0501-1000/0771-jewels-and-stones/)
-- [947. Most Stones Removed with Same Row or Column](../../0501-1000/0947-most-stones-removed-with-same-row-or-column/)
+- [924. Minimize Malware Spread](../../0501-1000/0924-minimize-malware-spread/)
+- [928. Minimize Malware Spread II](../../0501-1000/0928-minimize-malware-spread-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)

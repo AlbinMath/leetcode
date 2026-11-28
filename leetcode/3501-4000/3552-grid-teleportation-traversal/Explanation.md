@@ -145,8 +145,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3417. Zigzag Grid Traversal With Skip](../../3001-3500/3417-zigzag-grid-traversal-with-skip/)
+- [3629. Minimum Jumps to Reach End via Prime Teleportation](../../3501-4000/3629-minimum-jumps-to-reach-end-via-prime-teleportation/)
 - [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
-- [1001. Grid Illumination](../../1001-1500/1001-grid-illumination/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/grid-teleportation-traversal/)

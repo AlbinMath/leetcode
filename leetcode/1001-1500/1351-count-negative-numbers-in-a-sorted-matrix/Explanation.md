@@ -102,9 +102,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1594. Maximum Non Negative Product in a Matrix](../../1501-2000/1594-maximum-non-negative-product-in-a-matrix/)
-- [2529. Maximum Count of Positive Integer and Negative Integer](../../2501-3000/2529-maximum-count-of-positive-integer-and-negative-integer/)
 - [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
+- [1380. Lucky Numbers in a Matrix](../../1001-1500/1380-lucky-numbers-in-a-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)

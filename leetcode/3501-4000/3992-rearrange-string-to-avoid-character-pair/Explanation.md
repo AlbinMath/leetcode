@@ -118,8 +118,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [387. First Unique Character in a String](../../0001-0500/0387-first-unique-character-in-a-string/)
-- [2287. Rearrange Characters to Make Target String](../../2001-2500/2287-rearrange-characters-to-make-target-string/)
-- [2380. Time Needed to Rearrange a Binary String](../../2001-2500/2380-time-needed-to-rearrange-a-binary-string/)
+- [3304. Find the K-th Character in String Game I](../../3001-3500/3304-find-the-k-th-character-in-string-game-i/)
+- [3307. Find the K-th Character in String Game II](../../3001-3500/3307-find-the-k-th-character-in-string-game-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/)

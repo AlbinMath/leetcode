@@ -465,6 +465,7 @@ A collection of LeetCode problems solved using **Two Pointers** pattern techniqu
 | 887 | [Super Egg Drop](../leetcode/0501-1000/0887-super-egg-drop/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0887-super-egg-drop/Explanation.md) |
 | 902 | [Numbers At Most N Given Digit Set](../leetcode/0501-1000/0902-numbers-at-most-n-given-digit-set/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0902-numbers-at-most-n-given-digit-set/Explanation.md) |
 | 906 | [Super Palindromes](../leetcode/0501-1000/0906-super-palindromes/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0906-super-palindromes/Explanation.md) |
+| 927 | [Three Equal Parts](../leetcode/0501-1000/0927-three-equal-parts/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0927-three-equal-parts/Explanation.md) |
 | 943 | [Find the Shortest Superstring](../leetcode/0501-1000/0943-find-the-shortest-superstring/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0943-find-the-shortest-superstring/Explanation.md) |
 | 975 | [Odd Even Jump](../leetcode/0501-1000/0975-odd-even-jump/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0975-odd-even-jump/Explanation.md) |
 | 992 | [Subarrays with K Different Integers](../leetcode/0501-1000/0992-subarrays-with-k-different-integers/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0992-subarrays-with-k-different-integers/Explanation.md) |

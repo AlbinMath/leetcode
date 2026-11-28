@@ -150,8 +150,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1928. Minimum Cost to Reach Destination in Time](../../1501-2000/1928-minimum-cost-to-reach-destination-in-time/)
+- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
 - [857. Minimum Cost to Hire K Workers](../../0501-1000/0857-minimum-cost-to-hire-k-workers/)
-- [983. Minimum Cost For Tickets](../../0501-1000/0983-minimum-cost-for-tickets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-set-cooking-time/)

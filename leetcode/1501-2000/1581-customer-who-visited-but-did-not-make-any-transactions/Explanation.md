@@ -179,9 +179,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1001-1500/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
-- [1589. Maximum Sum Obtained of Any Permutation](../../1501-2000/1589-maximum-sum-obtained-of-any-permutation/)
-- [1749. Maximum Absolute Sum of Any Subarray](../../1501-2000/1749-maximum-absolute-sum-of-any-subarray/)
+- [1560. Most Visited Sector in  a Circular Track](../../1501-2000/1560-most-visited-sector-in-a-circular-track/)
+- [2617. Minimum Number of Visited Cells in a Grid](../../2501-3000/2617-minimum-number-of-visited-cells-in-a-grid/)
+- [2876. Count Visited Nodes in a Directed Graph](../../2501-3000/2876-count-visited-nodes-in-a-directed-graph/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)

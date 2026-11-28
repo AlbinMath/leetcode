@@ -114,8 +114,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [403. Frog Jump](../../0001-0500/0403-frog-jump/)
+- [1377. Frog Position After T Seconds](../../1001-1500/1377-frog-position-after-t-seconds/)
 - [45. Jump Game II](../../0001-0500/0045-jump-game-ii/)
-- [55. Jump Game](../../0001-0500/0055-jump-game/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/frog-jump-ii/)

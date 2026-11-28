@@ -113,9 +113,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
-- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [87. Scramble String](../../0001-0500/0087-scramble-string/)
+- [1592. Rearrange Spaces Between Words](../../1501-2000/1592-rearrange-spaces-between-words/)
+- [1073. Adding Two Negabinary Numbers](../../1001-1500/1073-adding-two-negabinary-numbers/)
+- [2135. Count Words Obtained After Adding a Letter](../../2001-2500/2135-count-words-obtained-after-adding-a-letter/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/adding-spaces-to-a-string/)

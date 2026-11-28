@@ -124,9 +124,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [3002. Maximum Size of a Set After Removals](../../3001-3500/3002-maximum-size-of-a-set-after-removals/)
 - [160. Intersection of Two Linked Lists](../../0001-0500/0160-intersection-of-two-linked-lists/)
 - [349. Intersection of Two Arrays](../../0001-0500/0349-intersection-of-two-arrays/)
-- [350. Intersection of Two Arrays II](../../0001-0500/0350-intersection-of-two-arrays-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/set-intersection-size-at-least-two/)

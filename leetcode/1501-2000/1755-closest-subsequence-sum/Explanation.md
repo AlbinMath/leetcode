@@ -173,9 +173,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1300. Sum of Mutated Array Closest to Target](../../1001-1500/1300-sum-of-mutated-array-closest-to-target/)
 - [891. Sum of Subsequence Widths](../../0501-1000/0891-sum-of-subsequence-widths/)
 - [1425. Constrained Subsequence Sum](../../1001-1500/1425-constrained-subsequence-sum/)
+- [1911. Maximum Alternating Subsequence Sum](../../1501-2000/1911-maximum-alternating-subsequence-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/closest-subsequence-sum/)

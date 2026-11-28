@@ -141,9 +141,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [89. Gray Code](../../0001-0500/0089-gray-code/)
-- [804. Unique Morse Code Words](../../0501-1000/0804-unique-morse-code-words/)
 - [591. Tag Validator](../../0501-1000/0591-tag-validator/)
+- [3921. Score Validator](../../3501-4000/3921-score-validator/)
+- [89. Gray Code](../../0001-0500/0089-gray-code/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/coupon-code-validator/)

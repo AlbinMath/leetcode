@@ -121,7 +121,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1405. Longest Happy String](../../1001-1500/1405-longest-happy-string/)
 - [2745. Construct the Longest New String](../../2501-3000/2745-construct-the-longest-new-string/)
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [646. Maximum Length of Pair Chain](../../0501-1000/0646-maximum-length-of-pair-chain/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-string-chain/)

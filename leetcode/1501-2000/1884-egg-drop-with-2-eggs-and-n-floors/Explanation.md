@@ -108,8 +108,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [887. Super Egg Drop](../../0501-1000/0887-super-egg-drop/)
+- [2274. Maximum Consecutive Floors Without Special Floors](../../2001-2500/2274-maximum-consecutive-floors-without-special-floors/)
 - [2882. Drop Duplicate Rows](../../2501-3000/2882-drop-duplicate-rows/)
-- [2883. Drop Missing Data](../../2501-3000/2883-drop-missing-data/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/)

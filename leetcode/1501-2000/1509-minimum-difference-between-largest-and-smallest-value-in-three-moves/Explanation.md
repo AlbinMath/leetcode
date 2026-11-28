@@ -123,7 +123,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [1984. Minimum Difference Between Highest and Lowest of K Scores](../../1501-2000/1984-minimum-difference-between-highest-and-lowest-of-k-scores/)
 - [2817. Minimum Absolute Difference Between Elements With Constraint](../../2501-3000/2817-minimum-absolute-difference-between-elements-with-constraint/)
-- [3194. Minimum Average of Smallest and Largest Elements](../../3001-3500/3194-minimum-average-of-smallest-and-largest-elements/)
+- [3774. Absolute Difference Between Maximum and Minimum K Elements](../../3501-4000/3774-absolute-difference-between-maximum-and-minimum-k-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)

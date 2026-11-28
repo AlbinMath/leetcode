@@ -99,7 +99,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [713. Subarray Product Less Than K](../../0501-1000/0713-subarray-product-less-than-k/)
+- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
 - [1296. Divide Array in Sets of K Consecutive Numbers](../../1001-1500/1296-divide-array-in-sets-of-k-consecutive-numbers/)
 - [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](../../1001-1500/1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 

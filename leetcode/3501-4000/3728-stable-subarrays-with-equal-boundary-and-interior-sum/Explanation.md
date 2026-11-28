@@ -121,9 +121,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3748. Count Stable Subarrays](../../3501-4000/3748-count-stable-subarrays/)
 - [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
 - [698. Partition to K Equal Sum Subsets](../../0501-1000/0698-partition-to-k-equal-sum-subsets/)
+- [1013. Partition Array Into Three Parts With Equal Sum](../../1001-1500/1013-partition-array-into-three-parts-with-equal-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum/)

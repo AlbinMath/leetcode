@@ -53,6 +53,7 @@ A collection of LeetCode problems solved using **Sliding Window** pattern techni
 | 480 | [Sliding Window Median](../leetcode/0001-0500/0480-sliding-window-median/) | Python | O(n) | O(1) | [Explanation](../leetcode/0001-0500/0480-sliding-window-median/Explanation.md) |
 | 773 | [Sliding Puzzle](../leetcode/0501-1000/0773-sliding-puzzle/) | Python | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0773-sliding-puzzle/Explanation.md) |
 | 936 | [Stamping The Sequence](../leetcode/0501-1000/0936-stamping-the-sequence/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0936-stamping-the-sequence/Explanation.md) |
+| 1335 | [Minimum Difficulty of a Job Schedule](../leetcode/1001-1500/1335-minimum-difficulty-of-a-job-schedule/) | Python | O(n) | O(1) | [Explanation](../leetcode/1001-1500/1335-minimum-difficulty-of-a-job-schedule/Explanation.md) |
 | 1681 | [Minimum Incompatibility](../leetcode/1501-2000/1681-minimum-incompatibility/) | JavaScript | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1681-minimum-incompatibility/Explanation.md) |
 | 1825 | [Finding MK Average](../leetcode/1501-2000/1825-finding-mk-average/) | Python | O(n) | O(1) | [Explanation](../leetcode/1501-2000/1825-finding-mk-average/Explanation.md) |
 | 2156 | [Find Substring With Given Hash Value](../leetcode/2001-2500/2156-find-substring-with-given-hash-value/) | Python | O(n) | O(1) | [Explanation](../leetcode/2001-2500/2156-find-substring-with-given-hash-value/Explanation.md) |

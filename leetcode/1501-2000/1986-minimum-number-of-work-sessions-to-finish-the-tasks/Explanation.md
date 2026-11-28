@@ -166,8 +166,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1665. Minimum Initial Energy to Finish Tasks](../../1501-2000/1665-minimum-initial-energy-to-finish-tasks/)
-- [452. Minimum Number of Arrows to Burst Balloons](../../0001-0500/0452-minimum-number-of-arrows-to-burst-balloons/)
-- [871. Minimum Number of Refueling Stops](../../0501-1000/0871-minimum-number-of-refueling-stops/)
+- [1953. Maximum Number of Weeks for Which You Can Work](../../1501-2000/1953-maximum-number-of-weeks-for-which-you-can-work/)
+- [2071. Maximum Number of Tasks You Can Assign](../../2001-2500/2071-maximum-number-of-tasks-you-can-assign/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)

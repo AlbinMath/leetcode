@@ -118,9 +118,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [118. Pascal's Triangle](../../0001-0500/0118-pascals-triangle/)
-- [119. Pascal's Triangle II](../../0001-0500/0119-pascals-triangle-ii/)
-- [120. Triangle](../../0001-0500/0120-triangle/)
+- [1320. Minimum Distance to Type a Word Using Two Fingers](../../1001-1500/1320-minimum-distance-to-type-a-word-using-two-fingers/)
+- [1935. Maximum Number of Words You Can Type](../../1501-2000/1935-maximum-number-of-words-you-can-type/)
+- [1974. Minimum Time to Type Word Using Special Typewriter](../../1501-2000/1974-minimum-time-to-type-word-using-special-typewriter/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/type-of-triangle/)

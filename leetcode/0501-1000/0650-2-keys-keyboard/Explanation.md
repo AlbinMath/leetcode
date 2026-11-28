@@ -106,8 +106,8 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [841. Keys and Rooms](../../0501-1000/0841-keys-and-rooms/)
-- [864. Shortest Path to Get All Keys](../../0501-1000/0864-shortest-path-to-get-all-keys/)
+- [500. Keyboard Row](../../0001-0500/0500-keyboard-row/)
+- [2810. Faulty Keyboard](../../2501-3000/2810-faulty-keyboard/)
 - [717. 1-bit and 2-bit Characters](../../0501-1000/0717-1-bit-and-2-bit-characters/)
 
 ## LeetCode

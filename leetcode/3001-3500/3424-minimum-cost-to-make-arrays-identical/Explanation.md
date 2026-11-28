@@ -126,8 +126,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2499. Minimum Total Cost to Make Arrays Unequal](../../2001-2500/2499-minimum-total-cost-to-make-arrays-unequal/)
-- [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
-- [2448. Minimum Cost to Make Array Equal](../../2001-2500/2448-minimum-cost-to-make-array-equal/)
+- [2449. Minimum Number of Operations to Make Arrays Similar](../../2001-2500/2449-minimum-number-of-operations-to-make-arrays-similar/)
+- [3868. Minimum Cost to Equalize Arrays Using Swaps](../../3501-4000/3868-minimum-cost-to-equalize-arrays-using-swaps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-make-arrays-identical/)

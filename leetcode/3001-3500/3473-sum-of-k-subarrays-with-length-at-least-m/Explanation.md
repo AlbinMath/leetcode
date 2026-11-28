@@ -136,9 +136,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3795. Minimum Subarray Length With Distinct Sum At Least K](../../3501-4000/3795-minimum-subarray-length-with-distinct-sum-at-least-k/)
 - [2461. Maximum Sum of Distinct Subarrays With Length K](../../2001-2500/2461-maximum-sum-of-distinct-subarrays-with-length-k/)
-- [862. Shortest Subarray with Sum at Least K](../../0501-1000/0862-shortest-subarray-with-sum-at-least-k/)
+- [3795. Minimum Subarray Length With Distinct Sum At Least K](../../3501-4000/3795-minimum-subarray-length-with-distinct-sum-at-least-k/)
+- [1566. Detect Pattern of Length M Repeated K or More Times](../../1501-2000/1566-detect-pattern-of-length-m-repeated-k-or-more-times/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/)

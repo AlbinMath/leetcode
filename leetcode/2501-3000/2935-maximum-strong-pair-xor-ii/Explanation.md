@@ -140,8 +140,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2932. Maximum Strong Pair XOR I](../../2501-3000/2932-maximum-strong-pair-xor-i/)
-- [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
-- [1707. Maximum XOR With an Element From Array](../../1501-2000/1707-maximum-xor-with-an-element-from-array/)
+- [646. Maximum Length of Pair Chain](../../0501-1000/0646-maximum-length-of-pair-chain/)
+- [1855. Maximum Distance Between a Pair of Values](../../1501-2000/1855-maximum-distance-between-a-pair-of-values/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-strong-pair-xor-ii/)

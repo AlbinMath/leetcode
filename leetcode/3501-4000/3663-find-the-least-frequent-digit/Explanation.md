@@ -114,8 +114,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3541. Find Most Frequent Vowel and Consonant](../../3501-4000/3541-find-most-frequent-vowel-and-consonant/)
-- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
-- [570. Managers with at Least 5 Direct Reports](../../0501-1000/0570-managers-with-at-least-5-direct-reports/)
+- [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-least-frequent-digit/)

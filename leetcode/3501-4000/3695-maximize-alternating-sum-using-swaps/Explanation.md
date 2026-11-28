@@ -169,8 +169,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1864. Minimum Number of Swaps to Make the Binary String Alternating](../../1501-2000/1864-minimum-number-of-swaps-to-make-the-binary-string-alternating/)
-- [1911. Maximum Alternating Subsequence Sum](../../1501-2000/1911-maximum-alternating-subsequence-sum/)
-- [3701. Compute Alternating Sum](../../3501-4000/3701-compute-alternating-sum/)
+- [3551. Minimum Swaps to Sort by Digit Sum](../../3501-4000/3551-minimum-swaps-to-sort-by-digit-sum/)
+- [3868. Minimum Cost to Equalize Arrays Using Swaps](../../3501-4000/3868-minimum-cost-to-equalize-arrays-using-swaps/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-alternating-sum-using-swaps/)

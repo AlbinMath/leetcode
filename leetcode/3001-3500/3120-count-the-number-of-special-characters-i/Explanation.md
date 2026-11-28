@@ -120,8 +120,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1955. Count Number of Special Subsequences](../../1501-2000/1955-count-number-of-special-subsequences/)
-- [1248. Count Number of Nice Subarrays](../../1001-1500/1248-count-number-of-nice-subarrays/)
-- [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1358-number-of-substrings-containing-all-three-characters/)
+- [1995. Count Special Quadruplets](../../1501-2000/1995-count-special-quadruplets/)
+- [2844. Minimum Operations to Make a Special Number](../../2501-3000/2844-minimum-operations-to-make-a-special-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-the-number-of-special-characters-i/)

@@ -118,7 +118,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [453. Minimum Moves to Equal Array Elements](../../0001-0500/0453-minimum-moves-to-equal-array-elements/)
 - [462. Minimum Moves to Equal Array Elements II](../../0001-0500/0462-minimum-moves-to-equal-array-elements-ii/)
-- [1210. Minimum Moves to Reach Target with Rotations](../../1001-1500/1210-minimum-moves-to-reach-target-with-rotations/)
+- [1247. Minimum Swaps to Make Strings Equal](../../1001-1500/1247-minimum-swaps-to-make-strings-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)

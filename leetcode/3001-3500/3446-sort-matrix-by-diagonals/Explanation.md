@@ -140,8 +140,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1329. Sort the Matrix Diagonally](../../1001-1500/1329-sort-the-matrix-diagonally/)
-- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
-- [147. Insertion Sort List](../../0001-0500/0147-insertion-sort-list/)
+- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
+- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-matrix-by-diagonals/)

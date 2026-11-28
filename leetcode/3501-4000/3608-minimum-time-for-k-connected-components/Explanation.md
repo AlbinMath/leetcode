@@ -157,9 +157,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3378. Count Connected Components in LCM Graph](../../3001-3500/3378-count-connected-components-in-lcm-graph/)
-- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
 - [857. Minimum Cost to Hire K Workers](../../0501-1000/0857-minimum-cost-to-hire-k-workers/)
+- [995. Minimum Number of K Consecutive Bit Flips](../../0501-1000/0995-minimum-number-of-k-consecutive-bit-flips/)
+- [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](../../1001-1500/1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-for-k-connected-components/)

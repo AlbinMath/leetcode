@@ -115,7 +115,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [2462. Total Cost to Hire K Workers](../../2001-2500/2462-total-cost-to-hire-k-workers/)
 - [4046. Minimum Cost Path With At Most K Turns](../../4001-4500/4046-minimum-cost-path-with-at-most-k-turns/)
-- [983. Minimum Cost For Tickets](../../0501-1000/0983-minimum-cost-for-tickets/)
+- [995. Minimum Number of K Consecutive Bit Flips](../../0501-1000/0995-minimum-number-of-k-consecutive-bit-flips/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)

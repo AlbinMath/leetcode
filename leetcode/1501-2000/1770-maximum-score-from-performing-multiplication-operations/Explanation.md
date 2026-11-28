@@ -124,8 +124,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3225. Maximum Score From Grid Operations](../../3001-3500/3225-maximum-score-from-grid-operations/)
-- [3038. Maximum Number of Operations With the Same Score I](../../3001-3500/3038-maximum-number-of-operations-with-the-same-score-i/)
-- [3040. Maximum Number of Operations With the Same Score II](../../3001-3500/3040-maximum-number-of-operations-with-the-same-score-ii/)
+- [1717. Maximum Score From Removing Substrings](../../1501-2000/1717-maximum-score-from-removing-substrings/)
+- [1753. Maximum Score From Removing Stones](../../1501-2000/1753-maximum-score-from-removing-stones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/)

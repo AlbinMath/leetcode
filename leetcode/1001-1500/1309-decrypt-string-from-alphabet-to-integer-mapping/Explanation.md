@@ -112,9 +112,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
 - [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
 - [988. Smallest String Starting From Leaf](../../0501-1000/0988-smallest-string-starting-from-leaf/)
+- [1432. Max Difference You Can Get From Changing an Integer](../../1001-1500/1432-max-difference-you-can-get-from-changing-an-integer/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)

@@ -112,9 +112,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1784-check-if-binary-string-has-at-most-one-segment-of-ones/)
 - [1437. Check If All 1's Are at Least Length K Places Away](../../1001-1500/1437-check-if-all-1s-are-at-least-length-k-places-away/)
 - [2133. Check if Every Row and Column Contains All Numbers](../../2001-2500/2133-check-if-every-row-and-column-contains-all-numbers/)
+- [1784. Check if Binary String Has at Most One Segment of Ones](../../1501-2000/1784-check-if-binary-string-has-at-most-one-segment-of-ones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)

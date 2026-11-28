@@ -125,8 +125,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2944. Minimum Number of Coins for Fruits](../../2501-3000/2944-minimum-number-of-coins-for-fruits/)
-- [452. Minimum Number of Arrows to Burst Balloons](../../0001-0500/0452-minimum-number-of-arrows-to-burst-balloons/)
-- [871. Minimum Number of Refueling Stops](../../0501-1000/0871-minimum-number-of-refueling-stops/)
+- [1561. Maximum Number of Coins You Can Get](../../1501-2000/1561-maximum-number-of-coins-you-can-get/)
+- [2973. Find Number of Coins to Place in Tree Nodes](../../2501-3000/2973-find-number-of-coins-to-place-in-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/)

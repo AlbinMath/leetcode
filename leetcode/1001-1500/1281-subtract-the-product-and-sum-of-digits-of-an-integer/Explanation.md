@@ -95,9 +95,9 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1317-convert-integer-to-the-sum-of-two-no-zero-integers/)
 - [1449. Form Largest Integer With Digits That Add up to Target](../../1001-1500/1449-form-largest-integer-with-digits-that-add-up-to-target/)
 - [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
-- [1837. Sum of Digits in Base K](../../1501-2000/1837-sum-of-digits-in-base-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)

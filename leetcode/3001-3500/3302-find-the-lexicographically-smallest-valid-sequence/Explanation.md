@@ -174,8 +174,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1718. Construct the Lexicographically Largest Valid Sequence](../../1501-2000/1718-construct-the-lexicographically-largest-valid-sequence/)
-- [903. Valid Permutations for DI Sequence](../../0501-1000/0903-valid-permutations-for-di-sequence/)
-- [1517. Find Users With Valid E-Mails](../../1501-2000/1517-find-users-with-valid-e-mails/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/)

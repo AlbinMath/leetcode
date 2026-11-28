@@ -118,7 +118,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [3120. Count the Number of Special Characters I](../../3001-3500/3120-count-the-number-of-special-characters-i/)
 - [3404. Count Special Subsequences](../../3001-3500/3404-count-special-subsequences/)
-- [792. Number of Matching Subsequences](../../0501-1000/0792-number-of-matching-subsequences/)
+- [1995. Count Special Quadruplets](../../1501-2000/1995-count-special-quadruplets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-special-subsequences/)

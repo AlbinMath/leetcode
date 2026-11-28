@@ -117,9 +117,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
-- [795. Number of Subarrays with Bounded Maximum](../../0501-1000/0795-number-of-subarrays-with-bounded-maximum/)
-- [898. Bitwise ORs of Subarrays](../../0501-1000/0898-bitwise-ors-of-subarrays/)
+- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
+- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
+- [334. Increasing Triplet Subsequence](../../0001-0500/0334-increasing-triplet-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/)

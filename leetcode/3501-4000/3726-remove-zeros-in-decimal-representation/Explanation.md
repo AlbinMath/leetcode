@@ -98,9 +98,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [166. Fraction to Recurring Decimal](../../0001-0500/0166-fraction-to-recurring-decimal/)
 - [762. Prime Number of Set Bits in Binary Representation](../../0501-1000/0762-prime-number-of-set-bits-in-binary-representation/)
 - [1238. Circular Permutation in Binary Representation](../../1001-1500/1238-circular-permutation-in-binary-representation/)
-- [1404. Number of Steps to Reduce a Number in Binary Representation to One](../../1001-1500/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-zeros-in-decimal-representation/)

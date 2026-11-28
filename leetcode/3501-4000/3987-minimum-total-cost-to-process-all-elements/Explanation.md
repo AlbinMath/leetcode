@@ -120,9 +120,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2499. Minimum Total Cost to Make Arrays Unequal](../../2001-2500/2499-minimum-total-cost-to-make-arrays-unequal/)
 - [2602. Minimum Operations to Make All Array Elements Equal](../../2501-3000/2602-minimum-operations-to-make-all-array-elements-equal/)
 - [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](../../2501-3000/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1/)
+- [2712. Minimum Cost to Make All Characters Equal](../../2501-3000/2712-minimum-cost-to-make-all-characters-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-total-cost-to-process-all-elements/)

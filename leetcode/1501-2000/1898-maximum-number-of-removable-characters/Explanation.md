@@ -130,9 +130,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [321. Create Maximum Number](../../0001-0500/0321-create-maximum-number/)
-- [414. Third Maximum Number](../../0001-0500/0414-third-maximum-number/)
-- [795. Number of Subarrays with Bounded Maximum](../../0501-1000/0795-number-of-subarrays-with-bounded-maximum/)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](../../1001-1500/1239-maximum-length-of-a-concatenated-string-with-unique-characters/)
+- [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1358-number-of-substrings-containing-all-three-characters/)
+- [1941. Check if All Characters Have Equal Number of Occurrences](../../1501-2000/1941-check-if-all-characters-have-equal-number-of-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-number-of-removable-characters/)

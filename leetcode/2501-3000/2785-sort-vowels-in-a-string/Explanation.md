@@ -121,8 +121,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [345. Reverse Vowels of a String](../../0001-0500/0345-reverse-vowels-of-a-string/)
-- [791. Custom Sort String](../../0501-1000/0791-custom-sort-string/)
-- [1585. Check If String Is Transformable With Substring Sort Operations](../../1501-2000/1585-check-if-string-is-transformable-with-substring-sort-operations/)
+- [3227. Vowels Game in a String](../../3001-3500/3227-vowels-game-in-a-string/)
+- [3913. Sort Vowels by Frequency](../../3501-4000/3913-sort-vowels-by-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-vowels-in-a-string/)

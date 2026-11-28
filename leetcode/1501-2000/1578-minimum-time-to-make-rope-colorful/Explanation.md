@@ -120,8 +120,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2809. Minimum Time to Make Array Sum At Most x](../../2501-3000/2809-minimum-time-to-make-array-sum-at-most-x/)
-- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
 - [801. Minimum Swaps To Make Sequences Increasing](../../0501-1000/0801-minimum-swaps-to-make-sequences-increasing/)
+- [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0921-minimum-add-to-make-parentheses-valid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)

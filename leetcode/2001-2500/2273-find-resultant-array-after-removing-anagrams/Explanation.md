@@ -124,9 +124,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1619. Mean of Array After Removing Some Elements](../../1501-2000/1619-mean-of-array-after-removing-some-elements/)
 - [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
 - [2593. Find Score of an Array After Marking All Elements](../../2501-3000/2593-find-score-of-an-array-after-marking-all-elements/)
+- [1619. Mean of Array After Removing Some Elements](../../1501-2000/1619-mean-of-array-after-removing-some-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)

@@ -135,8 +135,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1338. Reduce Array Size to The Half](../../1001-1500/1338-reduce-array-size-to-the-half/)
-- [3824. Minimum K to Reduce Array Within Limit](../../3501-4000/3824-minimum-k-to-reduce-array-within-limit/)
 - [3355. Zero Array Transformation I](../../3001-3500/3355-zero-array-transformation-i/)
+- [3356. Zero Array Transformation II](../../3001-3500/3356-zero-array-transformation-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/array-reduce-transformation/)

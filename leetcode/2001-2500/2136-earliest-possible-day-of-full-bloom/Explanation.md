@@ -132,7 +132,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
 - [2251. Number of Flowers in Full Bloom](../../2001-2500/2251-number-of-flowers-in-full-bloom/)
-- [886. Possible Bipartition](../../0501-1000/0886-possible-bipartition/)
+- [1900. The Earliest and Latest Rounds Where Players Compete](../../1501-2000/1900-the-earliest-and-latest-rounds-where-players-compete/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)

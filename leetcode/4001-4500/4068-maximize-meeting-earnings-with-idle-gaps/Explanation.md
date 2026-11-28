@@ -141,9 +141,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
+- [2039. The Time When the Network Becomes Idle](../../2001-2500/2039-the-time-when-the-network-becomes-idle/)
 - [1883. Minimum Skips to Arrive at Meeting On Time](../../1501-2000/1883-minimum-skips-to-arrive-at-meeting-on-time/)
 - [2127. Maximum Employees to Be Invited to a Meeting](../../2001-2500/2127-maximum-employees-to-be-invited-to-a-meeting/)
-- [2402. Meeting Rooms III](../../2001-2500/2402-meeting-rooms-iii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-meeting-earnings-with-idle-gaps/)

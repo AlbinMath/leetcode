@@ -156,7 +156,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1955. Count Number of Special Subsequences](../../1501-2000/1955-count-number-of-special-subsequences/)
 - [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
-- [2842. Count K-Subsequences of a String With Maximum Beauty](../../2501-3000/2842-count-k-subsequences-of-a-string-with-maximum-beauty/)
+- [1995. Count Special Quadruplets](../../1501-2000/1995-count-special-quadruplets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-special-subsequences/)

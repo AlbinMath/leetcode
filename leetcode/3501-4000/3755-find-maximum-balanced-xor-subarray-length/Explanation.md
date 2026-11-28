@@ -109,7 +109,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3845. Maximum Subarray XOR with Bounded Range](../../3501-4000/3845-maximum-subarray-xor-with-bounded-range/)
+- [2945. Find Maximum Non-decreasing Array Length](../../2501-3000/2945-find-maximum-non-decreasing-array-length/)
 - [718. Maximum Length of Repeated Subarray](../../0501-1000/0718-maximum-length-of-repeated-subarray/)
 - [1567. Maximum Length of Subarray With Positive Product](../../1501-2000/1567-maximum-length-of-subarray-with-positive-product/)
 

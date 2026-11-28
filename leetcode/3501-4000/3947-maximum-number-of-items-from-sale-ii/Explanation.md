@@ -1,7 +1,7 @@
 # LeetCode 3947: Maximum Number of Items From Sale II
 
 **LeetCode Problem #3947 — Maximum Number of Items From Sale II**
-Solve LeetCode Maximum Number of Items From Sale II using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Maximum Number of Items From Sale II using JavaScript, Python and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -9,7 +9,7 @@ Solve LeetCode Maximum Number of Items From Sale II using JavaScript and Math & 
 | Problem | Maximum Number of Items From Sale II |
 | LeetCode | #3947 |
 | Difficulty | Medium |
-| Language | JavaScript |
+| Language | JavaScript, Python |
 | Algorithm | Mathematical Simulation & Modular Arithmetic |
 | Data Structure | Primitive Types |
 | Pattern | Math & Logic |
@@ -90,12 +90,14 @@ To solve **Maximum Number of Items From Sale II**, we observe the problem requir
 - Simulation
 
 ## Language
-JavaScript
+JavaScript, Python
 
 ## Source Code
 - [solution.js](./solution.js)
+- [solution.py](./solution.py)
 
 
+### JavaScript
 ```javascript
 var maximumSaleItems = function(items, budget) {
     const n = items.length;
@@ -144,6 +146,41 @@ var maximumSaleItems = function(items, budget) {
 
     return answer;
 };
+```
+
+### Python
+```python
+from collections import defaultdict
+
+class Solution:
+    def maximumSaleItems(self, items, budget):
+        n = len(items)
+        cnt = [0] * (n + 1)
+        for f, p in items:
+            cnt[f] += 1
+        M = [0] * (n + 1)
+        for f in range(1, n + 1):
+            M[f] = sum(cnt[f::f])          # harmonic sieve, O(n log n)
+        pmin = min(p for _, p in items)
+
+        groups = defaultdict(int)
+        for f, p in items:
+            d = M[f] - 1
+            if d > 0:
+                groups[p] += d
+
+        R = budget
+        total = 0
+        for p in sorted(groups):
+            if p > 2 * pmin:
+                break
+            t = min(groups[p], R // p)
+            total += 2 * t
+            R -= t * p
+            if t < groups[p]:
+                break
+        total += R // pmin
+        return total
 ```
 
 ## Why This Works

@@ -122,7 +122,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [3257. Maximum Value Sum by Placing Three Rooks II](../../3001-3500/3257-maximum-value-sum-by-placing-three-rooks-ii/)
 - [3780. Maximum Sum of Three Numbers Divisible by Three](../../3501-4000/3780-maximum-sum-of-three-numbers-divisible-by-three/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-i/)

@@ -129,9 +129,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [803. Bricks Falling When Hit](../../0501-1000/0803-bricks-falling-when-hit/)
-- [931. Minimum Falling Path Sum](../../0501-1000/0931-minimum-falling-path-sum/)
-- [1289. Minimum Falling Path Sum II](../../1001-1500/1289-minimum-falling-path-sum-ii/)
+- [279. Perfect Squares](../../0001-0500/0279-perfect-squares/)
+- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
+- [977. Squares of a Sorted Array](../../0501-1000/0977-squares-of-a-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/falling-squares/)

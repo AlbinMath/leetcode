@@ -114,7 +114,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3287. Find the Maximum Sequence Value of Array](../../3001-3500/3287-find-the-maximum-sequence-value-of-array/)
 - [3796. Find Maximum Value in a Constrained Sequence](../../3501-4000/3796-find-maximum-value-in-a-constrained-sequence/)
-- [2242. Maximum Score of a Node Sequence](../../2001-2500/2242-maximum-score-of-a-node-sequence/)
+- [1131. Maximum of Absolute Value Expression](../../1001-1500/1131-maximum-of-absolute-value-expression/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-of-an-alternating-sequence/)

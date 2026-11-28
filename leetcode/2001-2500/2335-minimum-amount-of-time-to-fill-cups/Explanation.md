@@ -118,7 +118,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2391. Minimum Amount of Time to Collect Garbage](../../2001-2500/2391-minimum-amount-of-time-to-collect-garbage/)
 - [3494. Find the Minimum Amount of Time to Brew Potions](../../3001-3500/3494-find-the-minimum-amount-of-time-to-brew-potions/)
-- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
+- [2385. Amount of Time for Binary Tree to Be Infected](../../2001-2500/2385-amount-of-time-for-binary-tree-to-be-infected/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/)

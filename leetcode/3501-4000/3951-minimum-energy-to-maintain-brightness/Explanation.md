@@ -145,8 +145,8 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 
 ## Related Problems
 - [1665. Minimum Initial Energy to Finish Tasks](../../1501-2000/1665-minimum-initial-energy-to-finish-tasks/)
-- [3147. Taking Maximum Energy From the Mystic Dungeon](../../3001-3500/3147-taking-maximum-energy-from-the-mystic-dungeon/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
+- [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-energy-to-maintain-brightness/)

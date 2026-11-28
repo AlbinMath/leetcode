@@ -116,7 +116,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3800. Minimum Cost to Make Two Binary Strings Equal](../../3501-4000/3800-minimum-cost-to-make-two-binary-strings-equal/)
 - [3955. Valid Binary Strings With Cost Limit](../../3501-4000/3955-valid-binary-strings-with-cost-limit/)
-- [777. Swap Adjacent in LR String](../../0501-1000/0777-swap-adjacent-in-lr-string/)
+- [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/)

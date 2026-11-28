@@ -122,8 +122,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3446. Sort Matrix by Diagonals](../../3001-3500/3446-sort-matrix-by-diagonals/)
-- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
-- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
+- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
+- [147. Insertion Sort List](../../0001-0500/0147-insertion-sort-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-the-matrix-diagonally/)

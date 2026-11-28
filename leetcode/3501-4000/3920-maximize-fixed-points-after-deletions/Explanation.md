@@ -124,8 +124,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3767. Maximize Points After Choosing K Tasks](../../3501-4000/3767-maximize-points-after-choosing-k-tasks/)
-- [3654. Minimum Sum After Divisible Sum Deletions](../../3501-4000/3654-minimum-sum-after-divisible-sum-deletions/)
-- [3828. Final Element After Subarray Deletions](../../3501-4000/3828-final-element-after-subarray-deletions/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
+- [1799. Maximize Score After N Operations](../../1501-2000/1799-maximize-score-after-n-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-fixed-points-after-deletions/)

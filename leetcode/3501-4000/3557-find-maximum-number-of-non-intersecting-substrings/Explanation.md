@@ -124,7 +124,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1520. Maximum Number of Non-Overlapping Substrings](../../1501-2000/1520-maximum-number-of-non-overlapping-substrings/)
 - [2472. Maximum Number of Non-overlapping Palindrome Substrings](../../2001-2500/2472-maximum-number-of-non-overlapping-palindrome-substrings/)
-- [1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](../../1501-2000/1546-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings/)

@@ -130,9 +130,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1968. Array With Elements Not Equal to Average of Neighbors](../../1501-2000/1968-array-with-elements-not-equal-to-average-of-neighbors/)
-- [1569. Number of Ways to Reorder Array to Get Same BST](../../1501-2000/1569-number-of-ways-to-reorder-array-to-get-same-bst/)
 - [410. Split Array Largest Sum](../../0001-0500/0410-split-array-largest-sum/)
+- [659. Split Array into Consecutive Subsequences](../../0501-1000/0659-split-array-into-consecutive-subsequences/)
+- [842. Split Array into Fibonacci Sequence](../../0501-1000/0842-split-array-into-fibonacci-sequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-array-with-same-average/)

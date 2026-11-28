@@ -114,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2904. Shortest and Lexicographically Smallest Beautiful String](../../2501-3000/2904-shortest-and-lexicographically-smallest-beautiful-string/)
 - [1221. Split a String in Balanced Strings](../../1001-1500/1221-split-a-string-in-balanced-strings/)
-- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1374-generate-a-string-with-characters-that-have-odd-counts/)
+- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1001-1500/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+- [1790. Check if One String Swap Can Make Strings Equal](../../1501-2000/1790-check-if-one-string-swap-can-make-strings-equal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/shortest-string-that-contains-three-strings/)

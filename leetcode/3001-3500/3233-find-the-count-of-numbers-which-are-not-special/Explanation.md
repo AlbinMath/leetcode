@@ -130,8 +130,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3158. Find the XOR of Numbers Which Appear Twice](../../3001-3500/3158-find-the-xor-of-numbers-which-appear-twice/)
-- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
-- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
+- [448. Find All Numbers Disappeared in an Array](../../0001-0500/0448-find-all-numbers-disappeared-in-an-array/)
+- [1295. Find Numbers with Even Number of Digits](../../1001-1500/1295-find-numbers-with-even-number-of-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/)

@@ -145,7 +145,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [1525. Number of Good Ways to Split a String](../../1501-2000/1525-number-of-good-ways-to-split-a-string/)
 - [1573. Number of Ways to Split a String](../../1501-2000/1573-number-of-ways-to-split-a-string/)
-- [3365. Rearrange K Substrings to Form Target String](../../3001-3500/3365-rearrange-k-substrings-to-form-target-string/)
+- [3981. Count Distinct Ways to Form Target from Two Strings](../../3501-4000/3981-count-distinct-ways-to-form-target-from-two-strings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)

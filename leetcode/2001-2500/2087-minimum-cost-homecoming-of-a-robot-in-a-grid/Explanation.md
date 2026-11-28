@@ -125,7 +125,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1368. Minimum Cost to Make at Least One Valid Path in a Grid](../../1001-1500/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 - [2304. Minimum Path Cost in a Grid](../../2001-2500/2304-minimum-path-cost-in-a-grid/)
-- [857. Minimum Cost to Hire K Workers](../../0501-1000/0857-minimum-cost-to-hire-k-workers/)
+- [1536. Minimum Swaps to Arrange a Binary Grid](../../1501-2000/1536-minimum-swaps-to-arrange-a-binary-grid/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)

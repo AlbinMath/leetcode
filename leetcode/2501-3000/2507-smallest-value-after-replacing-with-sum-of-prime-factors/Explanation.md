@@ -129,8 +129,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](../../2501-3000/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros/)
-- [786. K-th Smallest Prime Fraction](../../0501-1000/0786-k-th-smallest-prime-fraction/)
-- [2521. Distinct Prime Factors of Product of Array](../../2501-3000/2521-distinct-prime-factors-of-product-of-array/)
+- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/)

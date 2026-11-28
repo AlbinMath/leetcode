@@ -117,9 +117,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2657-find-the-prefix-common-array-of-two-arrays/)
 - [1071. Greatest Common Divisor of Strings](../../1001-1500/1071-greatest-common-divisor-of-strings/)
 - [2709. Greatest Common Divisor Traversal](../../2501-3000/2709-greatest-common-divisor-traversal/)
-- [2657. Find the Prefix Common Array of Two Arrays](../../2501-3000/2657-find-the-prefix-common-array-of-two-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)

@@ -96,9 +96,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [976. Largest Perimeter Triangle](../../0501-1000/0976-largest-perimeter-triangle/)
-- [3588. Find Maximum Area of a Triangle](../../3501-4000/3588-find-maximum-area-of-a-triangle/)
 - [3047. Find the Largest Area of Square Inside Two Rectangles](../../3001-3500/3047-find-the-largest-area-of-square-inside-two-rectangles/)
+- [3588. Find Maximum Area of a Triangle](../../3501-4000/3588-find-maximum-area-of-a-triangle/)
+- [976. Largest Perimeter Triangle](../../0501-1000/0976-largest-perimeter-triangle/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-triangle-area/)

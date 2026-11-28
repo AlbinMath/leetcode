@@ -162,7 +162,7 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
+- [865. Smallest Subtree with all the Deepest Nodes](../../0501-1000/0865-smallest-subtree-with-all-the-deepest-nodes/)
 - [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](../../1501-2000/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 - [1663. Smallest String With A Given Numeric Value](../../1501-2000/1663-smallest-string-with-a-given-numeric-value/)
 

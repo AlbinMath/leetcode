@@ -165,8 +165,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3113. Find the Number of Subarrays Where Boundary Elements Are Maximum](../../3001-3500/3113-find-the-number-of-subarrays-where-boundary-elements-are-maximum/)
-- [3397. Maximum Number of Distinct Elements After Operations](../../3001-3500/3397-maximum-number-of-distinct-elements-after-operations/)
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2576. Find the Maximum Number of Marked Indices](../../2501-3000/2576-find-the-maximum-number-of-marked-indices/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/)

@@ -101,9 +101,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [483. Smallest Good Base](../../0001-0500/0483-smallest-good-base/)
-- [504. Base 7](../../0501-1000/0504-base-7/)
-- [1009. Complement of Base 10 Integer](../../1001-1500/1009-complement-of-base-10-integer/)
+- [108. Convert Sorted Array to Binary Search Tree](../../0001-0500/0108-convert-sorted-array-to-binary-search-tree/)
+- [109. Convert Sorted List to Binary Search Tree](../../0001-0500/0109-convert-sorted-list-to-binary-search-tree/)
+- [405. Convert a Number to Hexadecimal](../../0001-0500/0405-convert-a-number-to-hexadecimal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/convert-to-base-2/)

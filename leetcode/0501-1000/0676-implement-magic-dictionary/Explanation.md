@@ -121,9 +121,9 @@ By utilizing **Trie**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [524. Longest Word in Dictionary through Deleting](../../0501-1000/0524-longest-word-in-dictionary-through-deleting/)
-- [720. Longest Word in Dictionary](../../0501-1000/0720-longest-word-in-dictionary/)
-- [953. Verifying an Alien Dictionary](../../0501-1000/0953-verifying-an-alien-dictionary/)
+- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
+- [1895. Largest Magic Square](../../1501-2000/1895-largest-magic-square/)
+- [2171. Removing Minimum Number of Magic Beans](../../2001-2500/2171-removing-minimum-number-of-magic-beans/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/implement-magic-dictionary/)

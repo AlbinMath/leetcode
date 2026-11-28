@@ -113,9 +113,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2587. Rearrange Array to Maximize Prefix Score](../../2501-3000/2587-rearrange-array-to-maximize-prefix-score/)
-- [4065. Rearrange Array by Removing Distinct Values](../../4001-4500/4065-rearrange-array-by-removing-distinct-values/)
 - [453. Minimum Moves to Equal Array Elements](../../0001-0500/0453-minimum-moves-to-equal-array-elements/)
+- [462. Minimum Moves to Equal Array Elements II](../../0001-0500/0462-minimum-moves-to-equal-array-elements-ii/)
+- [1144. Decrease Elements To Make Array Zigzag](../../1001-1500/1144-decrease-elements-to-make-array-zigzag/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearrange-array-elements-by-sign/)

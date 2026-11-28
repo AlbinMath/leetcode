@@ -294,9 +294,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [1015. Smallest Integer Divisible by K](../../1001-1500/1015-smallest-integer-divisible-by-k/)
+- [3821. Find Nth Smallest Integer With K One Bits](../../3501-4000/3821-find-nth-smallest-integer-with-k-one-bits/)
 - [440. K-th Smallest in Lexicographical Order](../../0001-0500/0440-k-th-smallest-in-lexicographical-order/)
-- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
-- [786. K-th Smallest Prime Fraction](../../0501-1000/0786-k-th-smallest-prime-fraction/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/k-th-smallest-remaining-even-integer-in-subarray-queries/)

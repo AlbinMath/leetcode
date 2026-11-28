@@ -171,7 +171,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3461. Check If Digits Are Equal in String After Operations I](../../3001-3500/3461-check-if-digits-are-equal-in-string-after-operations-i/)
 - [1585. Check If String Is Transformable With Substring Sort Operations](../../1501-2000/1585-check-if-string-is-transformable-with-substring-sort-operations/)
-- [1662. Check If Two String Arrays are Equivalent](../../1501-2000/1662-check-if-two-string-arrays-are-equivalent/)
+- [2840. Check if Strings Can be Made Equal With Operations II](../../2501-3000/2840-check-if-strings-can-be-made-equal-with-operations-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-ii/)

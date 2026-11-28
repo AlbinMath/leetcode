@@ -151,8 +151,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2139. Minimum Moves to Reach Target Score](../../2001-2500/2139-minimum-moves-to-reach-target-score/)
-- [1263. Minimum Moves to Move a Box to Their Target Location](../../1001-1500/1263-minimum-moves-to-move-a-box-to-their-target-location/)
 - [3810. Minimum Operations to Reach Target Array](../../3501-4000/3810-minimum-operations-to-reach-target-array/)
+- [3977. Minimum Time to Reach Target With Limited Power](../../3501-4000/3977-minimum-time-to-reach-target-with-limited-power/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/)

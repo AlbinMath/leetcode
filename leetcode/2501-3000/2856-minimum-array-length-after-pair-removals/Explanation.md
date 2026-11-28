@@ -117,7 +117,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3746. Minimum String Length After Balanced Removals](../../3501-4000/3746-minimum-string-length-after-balanced-removals/)
 - [1671. Minimum Number of Removals to Make Mountain Array](../../1501-2000/1671-minimum-number-of-removals-to-make-mountain-array/)
-- [1750. Minimum Length of String After Deleting Similar Ends](../../1501-2000/1750-minimum-length-of-string-after-deleting-similar-ends/)
+- [3507. Minimum Pair Removal to Sort Array I](../../3501-4000/3507-minimum-pair-removal-to-sort-array-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-array-length-after-pair-removals/)

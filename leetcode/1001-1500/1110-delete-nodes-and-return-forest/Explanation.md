@@ -117,8 +117,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3217. Delete Nodes From Linked List Present in Array](../../3001-3500/3217-delete-nodes-from-linked-list-present-in-array/)
-- [781. Rabbits in Forest](../../0501-1000/0781-rabbits-in-forest/)
-- [657. Robot Return to Origin](../../0501-1000/0657-robot-return-to-origin/)
+- [196. Delete Duplicate Emails](../../0001-0500/0196-delete-duplicate-emails/)
+- [237. Delete Node in a Linked List](../../0001-0500/0237-delete-node-in-a-linked-list/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/delete-nodes-and-return-forest/)

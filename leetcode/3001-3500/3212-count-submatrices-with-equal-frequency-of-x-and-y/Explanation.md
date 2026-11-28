@@ -123,7 +123,7 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 ## Related Problems
 - [2998. Minimum Number of Operations to Make X and Y Equal](../../2501-3000/2998-minimum-number-of-operations-to-make-x-and-y-equal/)
 - [1224. Maximum Equal Frequency](../../1001-1500/1224-maximum-equal-frequency/)
-- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](../../1001-1500/1442-count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [3005. Count Elements With Maximum Frequency](../../3001-3500/3005-count-elements-with-maximum-frequency/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/)

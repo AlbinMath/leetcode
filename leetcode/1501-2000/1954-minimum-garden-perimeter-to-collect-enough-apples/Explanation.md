@@ -120,8 +120,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1443. Minimum Time to Collect All Apples in a Tree](../../1001-1500/1443-minimum-time-to-collect-all-apples-in-a-tree/)
-- [3928. Minimum Cost to Buy Apples II](../../3501-4000/3928-minimum-cost-to-buy-apples-ii/)
-- [1326. Minimum Number of Taps to Open to Water a Garden](../../1001-1500/1326-minimum-number-of-taps-to-open-to-water-a-garden/)
+- [2391. Minimum Amount of Time to Collect Garbage](../../2001-2500/2391-minimum-amount-of-time-to-collect-garbage/)
+- [2869. Minimum Operations to Collect Elements](../../2501-3000/2869-minimum-operations-to-collect-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)

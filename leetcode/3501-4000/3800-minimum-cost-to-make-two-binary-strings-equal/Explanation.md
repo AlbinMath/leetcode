@@ -158,9 +158,9 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2448. Minimum Cost to Make Array Equal](../../2001-2500/2448-minimum-cost-to-make-array-equal/)
-- [2712. Minimum Cost to Make All Characters Equal](../../2501-3000/2712-minimum-cost-to-make-all-characters-equal/)
-- [3784. Minimum Deletion Cost to Make All Characters Equal](../../3501-4000/3784-minimum-deletion-cost-to-make-all-characters-equal/)
+- [1347. Minimum Number of Steps to Make Two Strings Anagram](../../1001-1500/1347-minimum-number-of-steps-to-make-two-strings-anagram/)
+- [2186. Minimum Number of Steps to Make Two Strings Anagram II](../../2001-2500/2186-minimum-number-of-steps-to-make-two-strings-anagram-ii/)
+- [3191. Minimum Operations to Make Binary Array Elements Equal to One I](../../3001-3500/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-make-two-binary-strings-equal/)

@@ -116,8 +116,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3170. Lexicographically Minimum String After Removing Stars](../../3001-3500/3170-lexicographically-minimum-string-after-removing-stars/)
-- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
-- [988. Smallest String Starting From Leaf](../../0501-1000/0988-smallest-string-starting-from-leaf/)
+- [1717. Maximum Score From Removing Substrings](../../1501-2000/1717-maximum-score-from-removing-substrings/)
+- [1753. Maximum Score From Removing Stones](../../1501-2000/1753-maximum-score-from-removing-stones/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/removing-stars-from-a-string/)

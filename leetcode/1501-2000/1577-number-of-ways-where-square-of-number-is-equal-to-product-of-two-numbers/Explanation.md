@@ -125,9 +125,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1977. Number of Ways to Separate Numbers](../../1501-2000/1977-number-of-ways-to-separate-numbers/)
 - [3226. Number of Bit Changes to Make Two Integers Equal](../../3001-3500/3226-number-of-bit-changes-to-make-two-integers-equal/)
 - [3566. Partition Array into Two Equal Product Subsets](../../3501-4000/3566-partition-array-into-two-equal-product-subsets/)
-- [1977. Number of Ways to Separate Numbers](../../1501-2000/1977-number-of-ways-to-separate-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)

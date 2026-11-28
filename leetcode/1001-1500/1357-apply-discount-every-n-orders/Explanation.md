@@ -157,9 +157,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2133. Check if Every Row and Column Contains All Numbers](../../2001-2500/2133-check-if-every-row-and-column-contains-all-numbers/)
-- [2858. Minimum Edge Reversals So Every Node Is Reachable](../../2501-3000/2858-minimum-edge-reversals-so-every-node-is-reachable/)
-- [3305. Count of Substrings Containing Every Vowel and K Consonants I](../../3001-3500/3305-count-of-substrings-containing-every-vowel-and-k-consonants-i/)
+- [1475. Final Prices With a Special Discount in a Shop](../../1001-1500/1475-final-prices-with-a-special-discount-in-a-shop/)
+- [2144. Minimum Cost of Buying Candies With Discount](../../2001-2500/2144-minimum-cost-of-buying-candies-with-discount/)
+- [2460. Apply Operations to an Array](../../2001-2500/2460-apply-operations-to-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/apply-discount-every-n-orders/)

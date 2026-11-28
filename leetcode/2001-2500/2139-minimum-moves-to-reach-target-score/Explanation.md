@@ -121,8 +121,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [1210. Minimum Moves to Reach Target with Rotations](../../1001-1500/1210-minimum-moves-to-reach-target-with-rotations/)
-- [1263. Minimum Moves to Move a Box to Their Target Location](../../1001-1500/1263-minimum-moves-to-move-a-box-to-their-target-location/)
 - [3810. Minimum Operations to Reach Target Array](../../3501-4000/3810-minimum-operations-to-reach-target-array/)
+- [3977. Minimum Time to Reach Target With Limited Power](../../3501-4000/3977-minimum-time-to-reach-target-with-limited-power/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)

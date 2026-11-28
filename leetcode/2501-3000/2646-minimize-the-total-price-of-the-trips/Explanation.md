@@ -180,7 +180,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [1962. Remove Stones to Minimize the Total](../../1501-2000/1962-remove-stones-to-minimize-the-total/)
 - [4014. Minimum Total Price After Applying Discounts](../../4001-4500/4014-minimum-total-price-after-applying-discounts/)
-- [262. Trips and Users](../../0001-0500/0262-trips-and-users/)
+- [924. Minimize Malware Spread](../../0501-1000/0924-minimize-malware-spread/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimize-the-total-price-of-the-trips/)

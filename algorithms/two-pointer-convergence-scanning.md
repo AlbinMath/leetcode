@@ -169,6 +169,7 @@ A curated selection of LeetCode problems solved using the **Two Pointer Converge
 | 907 | [Sum of Subarray Minimums](../leetcode/0501-1000/0907-sum-of-subarray-minimums/) | Medium | Two Pointers | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0907-sum-of-subarray-minimums/Explanation.md) |
 | 917 | [Reverse Only Letters](../leetcode/0501-1000/0917-reverse-only-letters/) | Easy | Two Pointers | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0917-reverse-only-letters/Explanation.md) |
 | 923 | [3Sum With Multiplicity](../leetcode/0501-1000/0923-3sum-with-multiplicity/) | Medium | Two Pointers | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0923-3sum-with-multiplicity/Explanation.md) |
+| 927 | [Three Equal Parts](../leetcode/0501-1000/0927-three-equal-parts/) | Hard | Two Pointers | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0927-three-equal-parts/Explanation.md) |
 | 934 | [Shortest Bridge](../leetcode/0501-1000/0934-shortest-bridge/) | Medium | Two Pointers | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0934-shortest-bridge/Explanation.md) |
 | 941 | [Valid Mountain Array](../leetcode/0501-1000/0941-valid-mountain-array/) | Easy | Two Pointers | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0941-valid-mountain-array/Explanation.md) |
 | 943 | [Find the Shortest Superstring](../leetcode/0501-1000/0943-find-the-shortest-superstring/) | Hard | Two Pointers | O(n) | O(1) | [Explanation](../leetcode/0501-1000/0943-find-the-shortest-superstring/Explanation.md) |

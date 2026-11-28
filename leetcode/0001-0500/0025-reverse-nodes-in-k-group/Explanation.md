@@ -171,7 +171,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [2074. Reverse Nodes in Even Length Groups](../../2001-2500/2074-reverse-nodes-in-even-length-groups/)
 - [863. All Nodes Distance K in Binary Tree](../../0501-1000/0863-all-nodes-distance-k-in-binary-tree/)
-- [7. Reverse Integer](../../0001-0500/0007-reverse-integer/)
+- [49. Group Anagrams](../../0001-0500/0049-group-anagrams/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/)

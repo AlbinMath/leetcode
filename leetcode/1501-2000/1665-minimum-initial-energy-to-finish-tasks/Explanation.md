@@ -150,8 +150,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1986. Minimum Number of Work Sessions to Finish the Tasks](../../1501-2000/1986-minimum-number-of-work-sessions-to-finish-the-tasks/)
-- [1723. Find Minimum Time to Finish All Jobs](../../1501-2000/1723-find-minimum-time-to-finish-all-jobs/)
-- [2244. Minimum Rounds to Complete All Tasks](../../2001-2500/2244-minimum-rounds-to-complete-all-tasks/)
+- [3951. Minimum Energy to Maintain Brightness](../../3501-4000/3951-minimum-energy-to-maintain-brightness/)
+- [3029. Minimum Time to Revert Word to Initial State I](../../3001-3500/3029-minimum-time-to-revert-word-to-initial-state-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)

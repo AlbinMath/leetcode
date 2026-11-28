@@ -174,8 +174,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3049. Earliest Second to Mark Indices II](../../3001-3500/3049-earliest-second-to-mark-indices-ii/)
-- [3080. Mark Elements on Array by Performing Queries](../../3001-3500/3080-mark-elements-on-array-by-performing-queries/)
-- [3241. Time Taken to Mark All Nodes](../../3001-3500/3241-time-taken-to-mark-all-nodes/)
+- [2089. Find Target Indices After Sorting Array](../../2001-2500/2089-find-target-indices-after-sorting-array/)
+- [2164. Sort Even and Odd Indices Independently](../../2001-2500/2164-sort-even-and-odd-indices-independently/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/earliest-second-to-mark-indices-i/)

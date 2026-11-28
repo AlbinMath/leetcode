@@ -111,9 +111,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1464. Maximum Product of Two Elements in an Array](../../1001-1500/1464-maximum-product-of-two-elements-in-an-array/)
-- [1960. Maximum Product of the Length of Two Palindromic Substrings](../../1501-2000/1960-maximum-product-of-the-length-of-two-palindromic-substrings/)
-- [2002. Maximum Product of the Length of Two Palindromic Subsequences](../../2001-2500/2002-maximum-product-of-the-length-of-two-palindromic-subsequences/)
+- [1026. Maximum Difference Between Node and Ancestor](../../1001-1500/1026-maximum-difference-between-node-and-ancestor/)
+- [3442. Maximum Difference Between Even and Odd Frequency I](../../3001-3500/3442-maximum-difference-between-even-and-odd-frequency-i/)
+- [3445. Maximum Difference Between Even and Odd Frequency II](../../3001-3500/3445-maximum-difference-between-even-and-odd-frequency-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)

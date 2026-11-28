@@ -133,9 +133,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1879. Minimum XOR Sum of Two Arrays](../../1501-2000/1879-minimum-xor-sum-of-two-arrays/)
 - [1775. Equal Sum Arrays With Minimum Number of Operations](../../1501-2000/1775-equal-sum-arrays-with-minimum-number-of-operations/)
-- [599. Minimum Index Sum of Two Lists](../../0501-1000/0599-minimum-index-sum-of-two-lists/)
+- [1879. Minimum XOR Sum of Two Arrays](../../1501-2000/1879-minimum-xor-sum-of-two-arrays/)
+- [2160. Minimum Sum of Four Digit Number After Splitting Digits](../../2001-2500/2160-minimum-sum-of-four-digit-number-after-splitting-digits/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/)

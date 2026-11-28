@@ -158,9 +158,9 @@ By utilizing **Database / SQL**, each element is processed efficiently, ensuring
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1741. Find Total Time Spent by Each Employee](../../1501-2000/1741-find-total-time-spent-by-each-employee/)
+- [1789. Primary Department for Each Employee](../../1501-2000/1789-primary-department-for-each-employee/)
 - [1178. Number of Valid Words for Each Puzzle](../../1001-1500/1178-number-of-valid-words-for-each-puzzle/)
-- [1434. Number of Ways to Wear Different Hats to Each Other](../../1001-1500/1434-number-of-ways-to-wear-different-hats-to-each-other/)
-- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1769-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/)

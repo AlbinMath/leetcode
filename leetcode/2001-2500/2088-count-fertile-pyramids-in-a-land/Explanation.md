@@ -136,9 +136,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1162. As Far from Land as Possible](../../1001-1500/1162-as-far-from-land-as-possible/)
-- [3633. Earliest Finish Time for Land and Water Rides I](../../3501-4000/3633-earliest-finish-time-for-land-and-water-rides-i/)
-- [3635. Earliest Finish Time for Land and Water Rides II](../../3501-4000/3635-earliest-finish-time-for-land-and-water-rides-ii/)
+- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [204. Count Primes](../../0001-0500/0204-count-primes/)
+- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-fertile-pyramids-in-a-land/)

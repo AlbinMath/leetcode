@@ -125,9 +125,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1048. Longest String Chain](../../1001-1500/1048-longest-string-chain/)
+- [1392. Longest Happy Prefix](../../1001-1500/1392-longest-happy-prefix/)
 - [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1001-1500/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
-- [2745. Construct the Longest New String](../../2501-3000/2745-construct-the-longest-new-string/)
+- [1048. Longest String Chain](../../1001-1500/1048-longest-string-chain/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-happy-string/)

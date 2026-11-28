@@ -127,9 +127,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [19. Remove Nth Node From End of List](../../0001-0500/0019-remove-nth-node-from-end-of-list/)
-- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
-- [27. Remove Element](../../0001-0500/0027-remove-element/)
+- [1893. Check if All the Integers in a Range Are Covered](../../1501-2000/1893-check-if-all-the-integers-in-a-range-are-covered/)
+- [2271. Maximum White Tiles Covered by a Carpet](../../2001-2500/2271-maximum-white-tiles-covered-by-a-carpet/)
+- [2397. Maximum Rows Covered by Columns](../../2001-2500/2397-maximum-rows-covered-by-columns/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-covered-intervals/)

@@ -144,9 +144,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1959. Minimum Total Space Wasted With K Resizing Operations](../../1501-2000/1959-minimum-total-space-wasted-with-k-resizing-operations/)
-- [2463. Minimum Total Distance Traveled](../../2001-2500/2463-minimum-total-distance-traveled/)
-- [2499. Minimum Total Cost to Make Arrays Unequal](../../2001-2500/2499-minimum-total-cost-to-make-arrays-unequal/)
+- [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](../../1501-2000/1505-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1625-lexicographically-smallest-string-after-applying-operations/)
+- [1750. Minimum Length of String After Deleting Similar Ends](../../1501-2000/1750-minimum-length-of-string-after-deleting-similar-ends/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/)

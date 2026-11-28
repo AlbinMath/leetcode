@@ -137,9 +137,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3767. Maximize Points After Choosing K Tasks](../../3501-4000/3767-maximize-points-after-choosing-k-tasks/)
 - [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
 - [2135. Count Words Obtained After Adding a Letter](../../2001-2500/2135-count-words-obtained-after-adding-a-letter/)
+- [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-of-unfinished-tasks-after-each-shift/)

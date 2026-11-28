@@ -129,9 +129,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [153. Find Minimum in Rotated Sorted Array](../../0001-0500/0153-find-minimum-in-rotated-sorted-array/)
+- [154. Find Minimum in Rotated Sorted Array II](../../0001-0500/0154-find-minimum-in-rotated-sorted-array-ii/)
 - [2448. Minimum Cost to Make Array Equal](../../2001-2500/2448-minimum-cost-to-make-array-equal/)
-- [2547. Minimum Cost to Split an Array](../../2501-3000/2547-minimum-cost-to-split-an-array/)
-- [2967. Minimum Cost to Make Array Equalindromic](../../2501-3000/2967-minimum-cost-to-make-array-equalindromic/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-minimum-cost-array-permutation/)

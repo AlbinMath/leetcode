@@ -124,8 +124,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](../../1001-1500/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
+- [2816. Double a Number Represented as a Linked List](../../2501-3000/2816-double-a-number-represented-as-a-linked-list/)
 - [3014. Minimum Number of Pushes to Type Word I](../../3001-3500/3014-minimum-number-of-pushes-to-type-word-i/)
-- [3016. Minimum Number of Pushes to Type Word II](../../3001-3500/3016-minimum-number-of-pushes-to-type-word-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)

@@ -1,7 +1,7 @@
 # LeetCode 1792: Maximum Average Pass Ratio
 
 **LeetCode Problem #1792 — Maximum Average Pass Ratio**
-Solve LeetCode Maximum Average Pass Ratio using Python and Array / General. This solution finds the optimal result using In-Place Array Traversal & Index Mapping in O(n) time.
+Solve LeetCode Maximum Average Pass Ratio using Python and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Maximum Average Pass Ratio using Python and Array / General. This
 | LeetCode | #1792 |
 | Difficulty | Medium |
 | Language | Python |
-| Algorithm | In-Place Array Traversal & Index Mapping |
-| Data Structure | Array |
-| Pattern | Array / General |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 There is a school that has classes of students and each class will be having a final exam. You are given a 2D integer array `classes`, where `classes[i] = [pass_i, total_i]`. You know beforehand that in the `i^th` class, there are `total_i` total students, but only `pass_i` number of students will pass the exam.
@@ -42,7 +42,7 @@ Return *the **maximum** possible average pass ratio after assigning the *`extraS
 - **Output:** `0.53485`
 
 ## Key Insight
-Leverage **Array / General** with **Array** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Maximum Average Pass Ratio**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -54,7 +54,7 @@ To solve **Maximum Average Pass Ratio**, we observe the problem requirements and
 
 ## Example Walkthrough
 1. **Input State:** We begin with `classes = [[1,2],[3,5],[2,2]], `extraStudents` = 2`.
-2. **Processing Steps:** We apply **In-Place Array Traversal & Index Mapping** using our **Array**:
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `0.78333`.
@@ -62,13 +62,16 @@ To solve **Maximum Average Pass Ratio**, we observe the problem requirements and
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Array / General**
+**Tree & Graph**
 
 ## Topics
-- Array
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 Python
@@ -99,7 +102,7 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Array / General**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -113,7 +116,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [643. Maximum Average Subarray I](../../0501-1000/0643-maximum-average-subarray-i/)
 - [1491. Average Salary Excluding the Minimum and Maximum Salary](../../1001-1500/1491-average-salary-excluding-the-minimum-and-maximum-salary/)
-- [637. Average of Levels in Binary Tree](../../0501-1000/0637-average-of-levels-in-binary-tree/)
+- [2582. Pass the Pillow](../../2501-3000/2582-pass-the-pillow/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-average-pass-ratio/)

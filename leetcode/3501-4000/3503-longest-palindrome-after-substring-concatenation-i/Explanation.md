@@ -117,8 +117,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3900. Longest Balanced Substring After One Swap](../../3501-4000/3900-longest-balanced-substring-after-one-swap/)
-- [409. Longest Palindrome](../../0001-0500/0409-longest-palindrome/)
-- [1147. Longest Chunked Palindrome Decomposition](../../1001-1500/1147-longest-chunked-palindrome-decomposition/)
+- [1493. Longest Subarray of 1's After Deleting One Element](../../1001-1500/1493-longest-subarray-of-1s-after-deleting-one-element/)
+- [1946. Largest Number After Mutating Substring](../../1501-2000/1946-largest-number-after-mutating-substring/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-i/)

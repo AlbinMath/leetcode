@@ -296,8 +296,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3980. Minimum Operations to Transform Binary String](../../3501-4000/3980-minimum-operations-to-transform-binary-string/)
-- [606. Construct String from Binary Tree](../../0501-1000/0606-construct-string-from-binary-tree/)
-- [761. Special Binary String](../../0501-1000/0761-special-binary-string/)
+- [3675. Minimum Operations to Transform String](../../3501-4000/3675-minimum-operations-to-transform-string/)
+- [4062. Transform Array Using Pair Operations](../../4001-4500/4062-transform-array-using-pair-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/)

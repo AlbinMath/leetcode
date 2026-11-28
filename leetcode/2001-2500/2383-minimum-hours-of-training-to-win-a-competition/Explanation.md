@@ -133,9 +133,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [464. Can I Win](../../0001-0500/0464-can-i-win/)
-- [2555. Maximize Win From Two Segments](../../2501-3000/2555-maximize-win-from-two-segments/)
-- [3175. Find The First Player to win K Games in a Row](../../3001-3500/3175-find-the-first-player-to-win-k-games-in-a-row/)
+- [2212. Maximum Points in an Archery Competition](../../2001-2500/2212-maximum-points-in-an-archery-competition/)
+- [2358. Maximum Number of Groups Entering a Competition](../../2001-2500/2358-maximum-number-of-groups-entering-a-competition/)
+- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)

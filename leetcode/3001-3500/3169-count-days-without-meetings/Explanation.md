@@ -118,8 +118,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2409. Count Days Spent Together](../../2001-2500/2409-count-days-spent-together/)
-- [957. Prison Cells After N Days](../../0501-1000/0957-prison-cells-after-n-days/)
-- [1011. Capacity To Ship Packages Within D Days](../../1001-1500/1011-capacity-to-ship-packages-within-d-days/)
+- [38. Count and Say](../../0001-0500/0038-count-and-say/)
+- [204. Count Primes](../../0001-0500/0204-count-primes/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-days-without-meetings/)

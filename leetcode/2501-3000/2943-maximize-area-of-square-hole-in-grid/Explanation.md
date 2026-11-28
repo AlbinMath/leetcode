@@ -136,9 +136,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1659. Maximize Grid Happiness](../../1501-2000/1659-maximize-grid-happiness/)
 - [2975. Maximum Square Area by Removing Fences From a Field](../../2501-3000/2975-maximum-square-area-by-removing-fences-from-a-field/)
 - [3047. Find the Largest Area of Square Inside Two Rectangles](../../3001-3500/3047-find-the-largest-area-of-square-inside-two-rectangles/)
+- [3464. Maximize the Distance Between Points on a Square](../../3001-3500/3464-maximize-the-distance-between-points-on-a-square/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/)

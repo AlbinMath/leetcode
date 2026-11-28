@@ -138,9 +138,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3920. Maximize Fixed Points After Deletions](../../3501-4000/3920-maximize-fixed-points-after-deletions/)
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
 - [2202. Maximize the Topmost Element After K Moves](../../2001-2500/2202-maximize-the-topmost-element-after-k-moves/)
+- [3920. Maximize Fixed Points After Deletions](../../3501-4000/3920-maximize-fixed-points-after-deletions/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/)

@@ -122,9 +122,9 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 - **Follow-up:** How does performance change if the array contains duplicate elements?
 
 ## Related Problems
-- [1632. Rank Transform of a Matrix](../../1501-2000/1632-rank-transform-of-a-matrix/)
 - [2635. Apply Transform Over Each Element in Array](../../2501-3000/2635-apply-transform-over-each-element-in-array/)
 - [3467. Transform Array by Parity](../../3001-3500/3467-transform-array-by-parity/)
+- [3576. Transform Array to All Equal Elements](../../3501-4000/3576-transform-array-to-all-equal-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rank-transform-of-an-array/)

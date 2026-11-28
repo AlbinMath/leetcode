@@ -104,8 +104,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3001-3500/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
-- [1207. Unique Number of Occurrences](../../1001-1500/1207-unique-number-of-occurrences/)
-- [1297. Maximum Number of Occurrences of a Substring](../../1001-1500/1297-maximum-number-of-occurrences-of-a-substring/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [861. Score After Flipping Matrix](../../0501-1000/0861-score-after-flipping-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/occurrences-after-bigram/)

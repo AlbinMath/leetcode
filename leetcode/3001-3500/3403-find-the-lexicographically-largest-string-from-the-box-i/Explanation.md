@@ -114,7 +114,7 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 ## Related Problems
 - [4036. Lexicographically Largest String After Pair Transformations](../../4001-4500/4036-lexicographically-largest-string-after-pair-transformations/)
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
-- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [295. Find Median from Data Stream](../../0001-0500/0295-find-median-from-data-stream/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/)

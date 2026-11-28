@@ -153,9 +153,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [121. Best Time to Buy and Sell Stock](../../0001-0500/0121-best-time-to-buy-and-sell-stock/)
-- [122. Best Time to Buy and Sell Stock II](../../0001-0500/0122-best-time-to-buy-and-sell-stock-ii/)
-- [123. Best Time to Buy and Sell Stock III](../../0001-0500/0123-best-time-to-buy-and-sell-stock-iii/)
+- [1164. Product Price at a Given Date](../../1001-1500/1164-product-price-at-a-given-date/)
+- [1251. Average Selling Price](../../1001-1500/1251-average-selling-price/)
+- [1333. Filter Restaurants by Vegan-Friendly, Price and Distance](../../1001-1500/1333-filter-restaurants-by-vegan-friendly-price-and-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/stock-price-fluctuation/)

@@ -116,8 +116,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2160. Minimum Sum of Four Digit Number After Splitting Digits](../../2001-2500/2160-minimum-sum-of-four-digit-number-after-splitting-digits/)
+- [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3001-3500/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
 - [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](../../2501-3000/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros/)
-- [3551. Minimum Swaps to Sort by Digit Sum](../../3501-4000/3551-minimum-swaps-to-sort-by-digit-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)

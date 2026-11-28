@@ -118,9 +118,9 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1155. Number of Dice Rolls With Target Sum](../../1001-1500/1155-number-of-dice-rolls-with-target-sum/)
-- [2318. Number of Distinct Roll Sequences](../../2001-2500/2318-number-of-distinct-roll-sequences/)
 - [874. Walking Robot Simulation](../../0501-1000/0874-walking-robot-simulation/)
+- [2069. Walking Robot Simulation II](../../2001-2500/2069-walking-robot-simulation-ii/)
+- [1155. Number of Dice Rolls With Target Sum](../../1001-1500/1155-number-of-dice-rolls-with-target-sum/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/dice-roll-simulation/)

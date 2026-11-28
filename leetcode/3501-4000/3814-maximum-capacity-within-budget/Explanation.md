@@ -130,8 +130,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2398. Maximum Number of Robots Within Budget](../../2001-2500/2398-maximum-number-of-robots-within-budget/)
-- [1011. Capacity To Ship Packages Within D Days](../../1001-1500/1011-capacity-to-ship-packages-within-d-days/)
 - [2279. Maximum Bags With Full Capacity of Rocks](../../2001-2500/2279-maximum-bags-with-full-capacity-of-rocks/)
+- [1011. Capacity To Ship Packages Within D Days](../../1001-1500/1011-capacity-to-ship-packages-within-d-days/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-capacity-within-budget/)

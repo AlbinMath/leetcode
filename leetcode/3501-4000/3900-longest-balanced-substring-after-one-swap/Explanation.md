@@ -123,9 +123,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3713. Longest Balanced Substring I](../../3501-4000/3713-longest-balanced-substring-i/)
-- [3714. Longest Balanced Substring II](../../3501-4000/3714-longest-balanced-substring-ii/)
-- [1156. Swap For Longest Repeated Character Substring](../../1001-1500/1156-swap-for-longest-repeated-character-substring/)
+- [1493. Longest Subarray of 1's After Deleting One Element](../../1001-1500/1493-longest-subarray-of-1s-after-deleting-one-element/)
+- [3503. Longest Palindrome After Substring Concatenation I](../../3501-4000/3503-longest-palindrome-after-substring-concatenation-i/)
+- [3830. Longest Alternating Subarray After Removing At Most One Element](../../3501-4000/3830-longest-alternating-subarray-after-removing-at-most-one-element/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-balanced-substring-after-one-swap/)

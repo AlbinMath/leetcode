@@ -263,8 +263,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [4025. Minimize the Maximum Waiting Time at Synchronized Traffic Lights](../../4001-4500/4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/)
-- [539. Minimum Time Difference](../../0501-1000/0539-minimum-time-difference/)
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
+- [1701. Average Waiting Time](../../1501-2000/1701-average-waiting-time/)
+- [3168. Minimum Number of Chairs in a Waiting Room](../../3001-3500/3168-minimum-number-of-chairs-in-a-waiting-room/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-possible-maximum-waiting-time/)

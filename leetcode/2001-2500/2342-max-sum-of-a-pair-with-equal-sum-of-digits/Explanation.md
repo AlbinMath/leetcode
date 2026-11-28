@@ -125,9 +125,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
-- [698. Partition to K Equal Sum Subsets](../../0501-1000/0698-partition-to-k-equal-sum-subsets/)
-- [1013. Partition Array Into Three Parts With Equal Sum](../../1001-1500/1013-partition-array-into-three-parts-with-equal-sum/)
+- [1281. Subtract the Product and Sum of Digits of an Integer](../../1001-1500/1281-subtract-the-product-and-sum-of-digits-of-an-integer/)
+- [1837. Sum of Digits in Base K](../../1501-2000/1837-sum-of-digits-in-base-k/)
+- [1945. Sum of Digits of String After Convert](../../1501-2000/1945-sum-of-digits-of-string-after-convert/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)

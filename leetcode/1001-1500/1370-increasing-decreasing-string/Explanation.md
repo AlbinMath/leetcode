@@ -132,7 +132,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [926. Flip String to Monotone Increasing](../../0501-1000/0926-flip-string-to-monotone-increasing/)
 - [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](../../3001-3500/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/)
-- [8. String to Integer (atoi)](../../0001-0500/0008-string-to-integer-atoi/)
+- [300. Longest Increasing Subsequence](../../0001-0500/0300-longest-increasing-subsequence/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/increasing-decreasing-string/)

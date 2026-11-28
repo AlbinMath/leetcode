@@ -155,9 +155,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2785. Sort Vowels in a String](../../2501-3000/2785-sort-vowels-in-a-string/)
 - [451. Sort Characters By Frequency](../../0001-0500/0451-sort-characters-by-frequency/)
 - [1636. Sort Array by Increasing Frequency](../../1501-2000/1636-sort-array-by-increasing-frequency/)
-- [2785. Sort Vowels in a String](../../2501-3000/2785-sort-vowels-in-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-vowels-by-frequency/)

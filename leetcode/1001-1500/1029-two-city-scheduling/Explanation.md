@@ -115,9 +115,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1235. Maximum Profit in Job Scheduling](../../1001-1500/1235-maximum-profit-in-job-scheduling/)
 - [1. Two Sum](../../0001-0500/0001-two-sum/)
 - [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
+- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-city-scheduling/)

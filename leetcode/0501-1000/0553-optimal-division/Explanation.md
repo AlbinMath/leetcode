@@ -109,9 +109,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [399. Evaluate Division](../../0001-0500/0399-evaluate-division/)
-- [3326. Minimum Division Operations to Make Array Non Decreasing](../../3001-3500/3326-minimum-division-operations-to-make-array-non-decreasing/)
 - [2405. Optimal Partition of String](../../2001-2500/2405-optimal-partition-of-string/)
+- [3645. Maximum Total from Optimal Activation Order](../../3501-4000/3645-maximum-total-from-optimal-activation-order/)
+- [399. Evaluate Division](../../0001-0500/0399-evaluate-division/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/optimal-division/)

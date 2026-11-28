@@ -253,8 +253,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [3530. Maximum Profit from Valid Topological Order in DAG](../../3501-4000/3530-maximum-profit-from-valid-topological-order-in-dag/)
-- [2234. Maximum Total Beauty of the Gardens](../../2001-2500/2234-maximum-total-beauty-of-the-gardens/)
-- [2285. Maximum Total Importance of Roads](../../2001-2500/2285-maximum-total-importance-of-roads/)
+- [1298. Maximum Candies You Can Get from Boxes](../../1001-1500/1298-maximum-candies-you-can-get-from-boxes/)
+- [1423. Maximum Points You Can Obtain from Cards](../../1001-1500/1423-maximum-points-you-can-obtain-from-cards/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-total-from-optimal-activation-order/)

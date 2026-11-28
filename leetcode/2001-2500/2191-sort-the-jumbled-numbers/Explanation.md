@@ -138,9 +138,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [75. Sort Colors](../../0001-0500/0075-sort-colors/)
-- [147. Insertion Sort List](../../0001-0500/0147-insertion-sort-list/)
-- [148. Sort List](../../0001-0500/0148-sort-list/)
+- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
+- [129. Sum Root to Leaf Numbers](../../0001-0500/0129-sum-root-to-leaf-numbers/)
+- [165. Compare Version Numbers](../../0001-0500/0165-compare-version-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sort-the-jumbled-numbers/)

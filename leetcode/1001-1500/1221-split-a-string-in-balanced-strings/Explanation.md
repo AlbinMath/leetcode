@@ -114,9 +114,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1234. Replace the Substring for Balanced String](../../1001-1500/1234-replace-the-substring-for-balanced-string/)
-- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1001-1500/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
 - [1525. Number of Good Ways to Split a String](../../1501-2000/1525-number-of-good-ways-to-split-a-string/)
+- [1573. Number of Ways to Split a String](../../1501-2000/1573-number-of-ways-to-split-a-string/)
+- [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1593-split-a-string-into-the-max-number-of-unique-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/split-a-string-in-balanced-strings/)

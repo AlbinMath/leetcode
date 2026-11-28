@@ -117,8 +117,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1884. Egg Drop With 2 Eggs and N Floors](../../1501-2000/1884-egg-drop-with-2-eggs-and-n-floors/)
-- [2882. Drop Duplicate Rows](../../2501-3000/2882-drop-duplicate-rows/)
-- [2883. Drop Missing Data](../../2501-3000/2883-drop-missing-data/)
+- [313. Super Ugly Number](../../0001-0500/0313-super-ugly-number/)
+- [372. Super Pow](../../0001-0500/0372-super-pow/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/super-egg-drop/)

@@ -115,9 +115,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1846. Maximum Element After Decreasing and Rearranging](../../1501-2000/1846-maximum-element-after-decreasing-and-rearranging/)
 - [2106. Maximum Fruits Harvested After at Most K Steps](../../2001-2500/2106-maximum-fruits-harvested-after-at-most-k-steps/)
 - [2944. Minimum Number of Coins for Fruits](../../2501-3000/2944-minimum-number-of-coins-for-fruits/)
+- [3363. Find the Maximum Number of Fruits Collected](../../3001-3500/3363-find-the-maximum-number-of-fruits-collected/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/rearranging-fruits/)

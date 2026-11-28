@@ -121,7 +121,7 @@ By utilizing **Bit Manipulation**, each element is processed efficiently, ensuri
 ## Related Problems
 - [1482. Minimum Number of Days to Make m Bouquets](../../1001-1500/1482-minimum-number-of-days-to-make-m-bouquets/)
 - [1568. Minimum Number of Days to Disconnect Island](../../1501-2000/1568-minimum-number-of-days-to-disconnect-island/)
-- [452. Minimum Number of Arrows to Burst Balloons](../../0001-0500/0452-minimum-number-of-arrows-to-burst-balloons/)
+- [1700. Number of Students Unable to Eat Lunch](../../1501-2000/1700-number-of-students-unable-to-eat-lunch/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)

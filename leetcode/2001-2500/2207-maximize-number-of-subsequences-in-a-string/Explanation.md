@@ -114,8 +114,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [434. Number of Segments in a String](../../0001-0500/0434-number-of-segments-in-a-string/)
+- [792. Number of Matching Subsequences](../../0501-1000/0792-number-of-matching-subsequences/)
 - [806. Number of Lines To Write String](../../0501-1000/0806-number-of-lines-to-write-string/)
-- [1375. Number of Times Binary String Is Prefix-Aligned](../../1001-1500/1375-number-of-times-binary-string-is-prefix-aligned/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)

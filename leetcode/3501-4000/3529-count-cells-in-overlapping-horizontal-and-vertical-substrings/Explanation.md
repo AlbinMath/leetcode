@@ -152,7 +152,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [2257. Count Unguarded Cells in the Grid](../../2001-2500/2257-count-unguarded-cells-in-the-grid/)
+- [1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](../../1001-1500/1465-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
 - [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
 - [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
 

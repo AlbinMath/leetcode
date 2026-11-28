@@ -164,8 +164,8 @@ By utilizing **Binary Search**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [497. Random Point in Non-overlapping Rectangles](../../0001-0500/0497-random-point-in-non-overlapping-rectangles/)
-- [1358. Number of Substrings Containing All Three Characters](../../1001-1500/1358-number-of-substrings-containing-all-three-characters/)
-- [3305. Count of Substrings Containing Every Vowel and K Consonants I](../../3001-3500/3305-count-of-substrings-containing-every-vowel-and-k-consonants-i/)
+- [1725. Number Of Rectangles That Can Form The Largest Square](../../1501-2000/1725-number-of-rectangles-that-can-form-the-largest-square/)
+- [2001. Number of Pairs of Interchangeable Rectangles](../../2001-2500/2001-number-of-pairs-of-interchangeable-rectangles/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/)

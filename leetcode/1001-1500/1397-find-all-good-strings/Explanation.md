@@ -146,8 +146,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2420. Find All Good Indices](../../2001-2500/2420-find-all-good-indices/)
-- [1415. The k-th Lexicographical String of All Happy Strings of Length n](../../1001-1500/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
-- [1897. Redistribute Characters to Make All Strings Equal](../../1501-2000/1897-redistribute-characters-to-make-all-strings-equal/)
+- [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
+- [442. Find All Duplicates in an Array](../../0001-0500/0442-find-all-duplicates-in-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-all-good-strings/)

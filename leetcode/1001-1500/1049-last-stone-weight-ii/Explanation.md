@@ -122,8 +122,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [1046. Last Stone Weight](../../1001-1500/1046-last-stone-weight/)
-- [877. Stone Game](../../0501-1000/0877-stone-game/)
-- [1140. Stone Game II](../../1001-1500/1140-stone-game-ii/)
+- [34. Find First and Last Position of Element in Sorted Array](../../0001-0500/0034-find-first-and-last-position-of-element-in-sorted-array/)
+- [58. Length of Last Word](../../0001-0500/0058-length-of-last-word/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-stone-weight-ii/)

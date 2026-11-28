@@ -125,8 +125,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [1931. Painting a Grid With Three Different Colors](../../1501-2000/1931-painting-a-grid-with-three-different-colors/)
-- [1. Two Sum](../../0001-0500/0001-two-sum/)
-- [2. Add Two Numbers](../../0001-0500/0002-add-two-numbers/)
+- [3015. Count the Number of Houses at a Certain Distance I](../../3001-3500/3015-count-the-number-of-houses-at-a-certain-distance-i/)
+- [3017. Count the Number of Houses at a Certain Distance II](../../3001-3500/3017-count-the-number-of-houses-at-a-certain-distance-ii/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)

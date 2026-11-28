@@ -111,9 +111,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2626. Array Reduce Transformation](../../2501-3000/2626-array-reduce-transformation/)
-- [3824. Minimum K to Reduce Array Within Limit](../../3501-4000/3824-minimum-k-to-reduce-array-within-limit/)
 - [961. N-Repeated Element in Size 2N Array](../../0501-1000/0961-n-repeated-element-in-size-2n-array/)
+- [2626. Array Reduce Transformation](../../2501-3000/2626-array-reduce-transformation/)
+- [2875. Minimum Size Subarray in Infinite Array](../../2501-3000/2875-minimum-size-subarray-in-infinite-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reduce-array-size-to-the-half/)

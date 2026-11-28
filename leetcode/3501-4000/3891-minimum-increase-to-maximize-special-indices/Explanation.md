@@ -147,9 +147,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [3919. Minimum Cost to Move Between Indices](../../3501-4000/3919-minimum-cost-to-move-between-indices/)
+- [4099. Minimum Operations to Sort With Locked Indices](../../4001-4500/4099-minimum-operations-to-sort-with-locked-indices/)
 - [1974. Minimum Time to Type Word Using Special Typewriter](../../1501-2000/1974-minimum-time-to-type-word-using-special-typewriter/)
-- [2528. Maximize the Minimum Powered City](../../2501-3000/2528-maximize-the-minimum-powered-city/)
-- [2662. Minimum Cost of a Path With Special Roads](../../2501-3000/2662-minimum-cost-of-a-path-with-special-roads/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-increase-to-maximize-special-indices/)

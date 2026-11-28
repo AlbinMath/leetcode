@@ -116,7 +116,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 - **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
 
 ## Related Problems
-- [1178. Number of Valid Words for Each Puzzle](../../1001-1500/1178-number-of-valid-words-for-each-puzzle/)
+- [241. Different Ways to Add Parentheses](../../0001-0500/0241-different-ways-to-add-parentheses/)
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](../../1001-1500/1269-number-of-ways-to-stay-in-the-same-place-after-some-steps/)
 - [1411. Number of Ways to Paint N × 3 Grid](../../1001-1500/1411-number-of-ways-to-paint-n-3-grid/)
 

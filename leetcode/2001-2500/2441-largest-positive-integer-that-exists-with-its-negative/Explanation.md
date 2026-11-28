@@ -107,9 +107,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2529. Maximum Count of Positive Integer and Negative Integer](../../2501-3000/2529-maximum-count-of-positive-integer-and-negative-integer/)
 - [1449. Form Largest Integer With Digits That Add up to Target](../../1001-1500/1449-form-largest-integer-with-digits-that-add-up-to-target/)
-- [2598. Smallest Missing Non-negative Integer After Operations](../../2501-3000/2598-smallest-missing-non-negative-integer-after-operations/)
+- [2529. Maximum Count of Positive Integer and Negative Integer](../../2501-3000/2529-maximum-count-of-positive-integer-and-negative-integer/)
+- [1237. Find Positive Integer Solution for a Given Equation](../../1001-1500/1237-find-positive-integer-solution-for-a-given-equation/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/)

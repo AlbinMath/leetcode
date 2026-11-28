@@ -117,9 +117,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1317. Convert Integer to the Sum of Two No-Zero Integers](../../1001-1500/1317-convert-integer-to-the-sum-of-two-no-zero-integers/)
-- [1360. Number of Days Between Two Dates](../../1001-1500/1360-number-of-days-between-two-dates/)
-- [1385. Find the Distance Value Between Two Arrays](../../1001-1500/1385-find-the-distance-value-between-two-arrays/)
+- [1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](../../1001-1500/1465-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
+- [1595. Minimum Cost to Connect Two Groups of Points](../../1501-2000/1595-minimum-cost-to-connect-two-groups-of-points/)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)

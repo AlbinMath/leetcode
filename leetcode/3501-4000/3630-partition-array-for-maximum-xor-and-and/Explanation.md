@@ -178,8 +178,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [421. Maximum XOR of Two Numbers in an Array](../../0001-0500/0421-maximum-xor-of-two-numbers-in-an-array/)
+- [1043. Partition Array for Maximum Sum](../../1001-1500/1043-partition-array-for-maximum-sum/)
 - [1707. Maximum XOR With an Element From Array](../../1501-2000/1707-maximum-xor-with-an-element-from-array/)
-- [3599. Partition Array to Minimize XOR](../../3501-4000/3599-partition-array-to-minimize-xor/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-for-maximum-xor-and-and/)

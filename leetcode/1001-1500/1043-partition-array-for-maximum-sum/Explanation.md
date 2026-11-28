@@ -109,7 +109,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [1013. Partition Array Into Three Parts With Equal Sum](../../1001-1500/1013-partition-array-into-three-parts-with-equal-sum/)
 - [1877. Minimize Maximum Pair Sum in Array](../../1501-2000/1877-minimize-maximum-pair-sum-in-array/)
-- [2035. Partition Array Into Two Arrays to Minimize Sum Difference](../../2001-2500/2035-partition-array-into-two-arrays-to-minimize-sum-difference/)
+- [2025. Maximum Number of Ways to Partition an Array](../../2001-2500/2025-maximum-number-of-ways-to-partition-an-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/partition-array-for-maximum-sum/)

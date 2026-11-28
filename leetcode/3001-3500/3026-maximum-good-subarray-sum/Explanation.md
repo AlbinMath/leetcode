@@ -126,9 +126,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [1793. Maximum Score of a Good Subarray](../../1501-2000/1793-maximum-score-of-a-good-subarray/)
 - [918. Maximum Sum Circular Subarray](../../0501-1000/0918-maximum-sum-circular-subarray/)
 - [1186. Maximum Subarray Sum with One Deletion](../../1001-1500/1186-maximum-subarray-sum-with-one-deletion/)
-- [1749. Maximum Absolute Sum of Any Subarray](../../1501-2000/1749-maximum-absolute-sum-of-any-subarray/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-good-subarray-sum/)

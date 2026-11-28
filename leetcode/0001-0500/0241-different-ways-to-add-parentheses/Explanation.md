@@ -130,9 +130,9 @@ By utilizing **Monotonic Stack**, each element is processed efficiently, ensurin
 - **Follow-up:** How do you handle circular array boundaries?
 
 ## Related Problems
-- [1434. Number of Ways to Wear Different Hats to Each Other](../../1001-1500/1434-number-of-ways-to-wear-different-hats-to-each-other/)
 - [921. Minimum Add to Make Parentheses Valid](../../0501-1000/0921-minimum-add-to-make-parentheses-valid/)
-- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
+- [1434. Number of Ways to Wear Different Hats to Each Other](../../1001-1500/1434-number-of-ways-to-wear-different-hats-to-each-other/)
+- [20. Valid Parentheses](../../0001-0500/0020-valid-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/different-ways-to-add-parentheses/)

@@ -105,9 +105,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1450. Number of Students Doing Homework at a Given Time](../../1001-1500/1450-number-of-students-doing-homework-at-a-given-time/)
-- [4000. Largest Integer With Given Digit Sum](../../3501-4000/4000-largest-integer-with-given-digit-sum/)
+- [1449. Form Largest Integer With Digits That Add up to Target](../../1001-1500/1449-form-largest-integer-with-digits-that-add-up-to-target/)
 - [1736. Latest Time by Replacing Hidden Digits](../../1501-2000/1736-latest-time-by-replacing-hidden-digits/)
+- [1450. Number of Students Doing Homework at a Given Time](../../1001-1500/1450-number-of-students-doing-homework-at-a-given-time/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-time-for-given-digits/)

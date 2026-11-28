@@ -137,8 +137,8 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [387. First Unique Character in a String](../../0001-0500/0387-first-unique-character-in-a-string/)
-- [467. Unique Substrings in Wraparound String](../../0001-0500/0467-unique-substrings-in-wraparound-string/)
+- [1374. Generate a String With Characters That Have Odd Counts](../../1001-1500/1374-generate-a-string-with-characters-that-have-odd-counts/)
+- [1898. Maximum Number of Removable Characters](../../1501-2000/1898-maximum-number-of-removable-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)

@@ -184,8 +184,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [3486. Longest Special Path II](../../3001-3500/3486-longest-special-path-ii/)
-- [329. Longest Increasing Path in a Matrix](../../0001-0500/0329-longest-increasing-path-in-a-matrix/)
-- [388. Longest Absolute File Path](../../0001-0500/0388-longest-absolute-file-path/)
+- [2662. Minimum Cost of a Path With Special Roads](../../2501-3000/2662-minimum-cost-of-a-path-with-special-roads/)
+- [2981. Find Longest Special Substring That Occurs Thrice I](../../2501-3000/2981-find-longest-special-substring-that-occurs-thrice-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-special-path/)

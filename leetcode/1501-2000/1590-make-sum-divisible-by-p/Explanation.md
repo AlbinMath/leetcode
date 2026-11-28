@@ -111,9 +111,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [2344. Minimum Deletions to Make Array Divisible](../../2001-2500/2344-minimum-deletions-to-make-array-divisible/)
+- [1262. Greatest Sum Divisible by Three](../../1001-1500/1262-greatest-sum-divisible-by-three/)
+- [2435. Paths in Matrix Whose Sum Is Divisible by K](../../2001-2500/2435-paths-in-matrix-whose-sum-is-divisible-by-k/)
 - [2809. Minimum Time to Make Array Sum At Most x](../../2501-3000/2809-minimum-time-to-make-array-sum-at-most-x/)
-- [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3091-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-sum-divisible-by-p/)

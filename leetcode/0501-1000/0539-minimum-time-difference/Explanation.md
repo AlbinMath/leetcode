@@ -95,9 +95,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
-- [1443. Minimum Time to Collect All Apples in a Tree](../../1001-1500/1443-minimum-time-to-collect-all-apples-in-a-tree/)
-- [1578. Minimum Time to Make Rope Colorful](../../1501-2000/1578-minimum-time-to-make-rope-colorful/)
+- [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
+- [1200. Minimum Absolute Difference](../../1001-1500/1200-minimum-absolute-difference/)
+- [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](../../1501-2000/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-time-difference/)

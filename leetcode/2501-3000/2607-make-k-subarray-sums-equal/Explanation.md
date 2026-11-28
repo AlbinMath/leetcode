@@ -123,9 +123,9 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [974. Subarray Sums Divisible by K](../../0501-1000/0974-subarray-sums-divisible-by-k/)
 - [2997. Minimum Number of Operations to Make Array XOR Equal to K](../../2501-3000/2997-minimum-number-of-operations-to-make-array-xor-equal-to-k/)
 - [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](../../3001-3500/3091-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/)
-- [3107. Minimum Operations to Make Median of Array Equal to K](../../3001-3500/3107-minimum-operations-to-make-median-of-array-equal-to-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/make-k-subarray-sums-equal/)

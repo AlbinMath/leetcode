@@ -115,9 +115,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [3026. Maximum Good Subarray Sum](../../3001-3500/3026-maximum-good-subarray-sum/)
 - [3575. Maximum Good Subtree Score](../../3501-4000/3575-maximum-good-subtree-score/)
-- [53. Maximum Subarray](../../0001-0500/0053-maximum-subarray/)
+- [3026. Maximum Good Subarray Sum](../../3001-3500/3026-maximum-good-subarray-sum/)
+- [1255. Maximum Score Words Formed by Letters](../../1001-1500/1255-maximum-score-words-formed-by-letters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)

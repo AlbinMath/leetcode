@@ -127,8 +127,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1594. Maximum Non Negative Product in a Matrix](../../1501-2000/1594-maximum-non-negative-product-in-a-matrix/)
-- [54. Spiral Matrix](../../0001-0500/0054-spiral-matrix/)
-- [59. Spiral Matrix II](../../0001-0500/0059-spiral-matrix-ii/)
+- [105. Construct Binary Tree from Preorder and Inorder Traversal](../../0001-0500/0105-construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [106. Construct Binary Tree from Inorder and Postorder Traversal](../../0001-0500/0106-construct-binary-tree-from-inorder-and-postorder-traversal/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/construct-product-matrix/)

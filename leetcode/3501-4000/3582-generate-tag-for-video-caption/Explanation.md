@@ -112,9 +112,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [591. Tag Validator](../../0501-1000/0591-tag-validator/)
 - [1024. Video Stitching](../../1001-1500/1024-video-stitching/)
 - [2456. Most Popular Video Creator](../../2001-2500/2456-most-popular-video-creator/)
-- [591. Tag Validator](../../0501-1000/0591-tag-validator/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/generate-tag-for-video-caption/)

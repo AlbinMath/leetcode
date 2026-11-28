@@ -130,8 +130,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1931. Painting a Grid With Three Different Colors](../../1501-2000/1931-painting-a-grid-with-three-different-colors/)
-- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
-- [1001. Grid Illumination](../../1001-1500/1001-grid-illumination/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [974. Subarray Sums Divisible by K](../../0501-1000/0974-subarray-sums-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)

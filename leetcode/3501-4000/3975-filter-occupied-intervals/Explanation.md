@@ -133,9 +133,9 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1333. Filter Restaurants by Vegan-Friendly, Price and Distance](../../1001-1500/1333-filter-restaurants-by-vegan-friendly-price-and-distance/)
+- [2634. Filter Elements from Array](../../2501-3000/2634-filter-elements-from-array/)
 - [56. Merge Intervals](../../0001-0500/0056-merge-intervals/)
-- [352. Data Stream as Disjoint Intervals](../../0001-0500/0352-data-stream-as-disjoint-intervals/)
-- [435. Non-overlapping Intervals](../../0001-0500/0435-non-overlapping-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/filter-occupied-intervals/)

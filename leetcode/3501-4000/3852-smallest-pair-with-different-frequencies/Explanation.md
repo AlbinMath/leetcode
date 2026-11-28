@@ -134,8 +134,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
-- [241. Different Ways to Add Parentheses](../../0001-0500/0241-different-ways-to-add-parentheses/)
-- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
+- [646. Maximum Length of Pair Chain](../../0501-1000/0646-maximum-length-of-pair-chain/)
+- [1014. Best Sightseeing Pair](../../1001-1500/1014-best-sightseeing-pair/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/smallest-pair-with-different-frequencies/)

@@ -118,8 +118,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [3464. Maximize the Distance Between Points on a Square](../../3001-3500/3464-maximize-the-distance-between-points-on-a-square/)
-- [607. Sales Person](../../0501-1000/0607-sales-person/)
-- [1204. Last Person to Fit in the Bus](../../1001-1500/1204-last-person-to-fit-in-the-bus/)
+- [72. Edit Distance](../../0001-0500/0072-edit-distance/)
+- [461. Hamming Distance](../../0001-0500/0461-hamming-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximize-distance-to-closest-person/)

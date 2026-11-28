@@ -113,8 +113,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2920. Maximum Points After Collecting Coins From All Nodes](../../2501-3000/2920-maximum-points-after-collecting-coins-from-all-nodes/)
 - [2706. Buy Two Chocolates](../../2501-3000/2706-buy-two-chocolates/)
+- [2920. Maximum Points After Collecting Coins From All Nodes](../../2501-3000/2920-maximum-points-after-collecting-coins-from-all-nodes/)
 - [5. Longest Palindromic Substring](../../0001-0500/0005-longest-palindromic-substring/)
 
 ## LeetCode

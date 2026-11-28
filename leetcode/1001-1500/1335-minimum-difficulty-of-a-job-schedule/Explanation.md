@@ -1,7 +1,7 @@
 # LeetCode 1335: Minimum Difficulty of a Job Schedule
 
 **LeetCode Problem #1335 — Minimum Difficulty of a Job Schedule**
-Solve LeetCode Minimum Difficulty of a Job Schedule using Python and Dynamic Programming. This solution finds the optimal result using Memoization & State Transition in O(n) time.
+Solve LeetCode Minimum Difficulty of a Job Schedule using Python and Sliding Window. This solution finds the optimal result using Dynamic Sliding Window Traversal in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Minimum Difficulty of a Job Schedule using Python and Dynamic Pro
 | LeetCode | #1335 |
 | Difficulty | Hard |
 | Language | Python |
-| Algorithm | Memoization & State Transition |
-| Data Structure | DP Table / Array |
-| Pattern | Dynamic Programming |
+| Algorithm | Dynamic Sliding Window Traversal |
+| Data Structure | Array / Hash Set |
+| Pattern | Sliding Window |
 | Time Complexity | O(n) |
-| Space Complexity | O(n) |
+| Space Complexity | O(1) |
 
 ## Problem Statement
 You want to schedule a list of jobs in `d` days. Jobs are dependent (i.e To work on the `i^th` job, you have to finish all the jobs `j` where `0 <= j < i`).
@@ -49,7 +49,7 @@ The difficulty of the schedule = 6 + 1 = 7
 - **Explanation:** The schedule is one job per day. total difficulty will be 3.
 
 ## Key Insight
-Break down the main problem into overlapping subproblems, storing optimal intermediate states in a DP table or memoization array to avoid re-computation.
+Maintain a dynamic contiguous window with two pointers (`left` and `right`), expanding to include new elements and shrinking when window invariants are violated.
 
 ## Approach
 To solve **Minimum Difficulty of a Job Schedule**, we observe the problem requirements and utilize the **Array / General** technique. We decompose the problem into overlapping subproblems using a **Array**. Optimal intermediate states are saved so that each subproblem is solved exactly once.
@@ -62,7 +62,7 @@ To solve **Minimum Difficulty of a Job Schedule**, we observe the problem requir
 
 ## Example Walkthrough
 1. **Input State:** We begin with `jobDifficulty = [6,5,4,3,2,1], d = 2`.
-2. **Processing Steps:** We apply **Memoization & State Transition** using our **DP Table / Array**:
+2. **Processing Steps:** We apply **Dynamic Sliding Window Traversal** using our **Array / Hash Set**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `7`.
@@ -72,15 +72,15 @@ The difficulty of the schedule = 6 + 1 = 7
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for DP Table / Array.
+- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Array / Hash Set.
 
 ## Pattern
-**Dynamic Programming**
+**Sliding Window**
 
 ## Topics
-- Dynamic Programming
-- Memoization
-- State Transition
+- Sliding Window
+- Two Pointers
+- Subarrays
 
 ## Language
 Python
@@ -115,21 +115,21 @@ class Solution:
 ```
 
 ## Why This Works
-By utilizing **Dynamic Programming**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Sliding Window**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Incorrect base case initialization.
-2. Flawed state transition equation.
-3. Storing unnecessary state leading to Memory Limit Exceeded (MLE).
+1. Shrinking the window too late or missing invalid state checks.
+2. Forgetting to update window metrics (e.g. char counts) during contraction.
+3. Misinterpreting fixed vs variable window requirements.
 
 ## Interview Notes
-- **Tests:** Subproblem decomposition, state transition logic, and space optimization.
-- **Follow-up:** Can space complexity be reduced from $O(n^2)$ to $O(n)$ or $O(1)$?
+- **Tests:** Two-pointer window management, state tracking, and contiguous subarray analysis.
+- **Follow-up:** How do you handle non-positive integer values in subarray sum windows?
 
 ## Related Problems
+- [1235. Maximum Profit in Job Scheduling](../../1001-1500/1235-maximum-profit-in-job-scheduling/)
 - [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
 - [76. Minimum Window Substring](../../0001-0500/0076-minimum-window-substring/)
-- [111. Minimum Depth of Binary Tree](../../0001-0500/0111-minimum-depth-of-binary-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)

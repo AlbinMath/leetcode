@@ -147,8 +147,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [2952. Minimum Number of Coins to be Added](../../2501-3000/2952-minimum-number-of-coins-to-be-added/)
-- [452. Minimum Number of Arrows to Burst Balloons](../../0001-0500/0452-minimum-number-of-arrows-to-burst-balloons/)
-- [871. Minimum Number of Refueling Stops](../../0501-1000/0871-minimum-number-of-refueling-stops/)
+- [3363. Find the Maximum Number of Fruits Collected](../../3001-3500/3363-find-the-maximum-number-of-fruits-collected/)
+- [1561. Maximum Number of Coins You Can Get](../../1501-2000/1561-maximum-number-of-coins-you-can-get/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)

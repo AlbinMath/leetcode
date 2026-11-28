@@ -150,8 +150,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [807. Max Increase to Keep City Skyline](../../0501-1000/0807-max-increase-to-keep-city-skyline/)
-- [2259. Remove Digit From Number to Maximize Result](../../2001-2500/2259-remove-digit-from-number-to-maximize-result/)
 - [1301. Number of Paths with Max Score](../../1001-1500/1301-number-of-paths-with-max-score/)
+- [1593. Split a String Into the Max Number of Unique Substrings](../../1501-2000/1593-split-a-string-into-the-max-number-of-unique-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)

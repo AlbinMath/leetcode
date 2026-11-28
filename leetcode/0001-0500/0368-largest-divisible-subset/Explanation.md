@@ -128,8 +128,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3260. Find the Largest Palindrome Divisible by K](../../3001-3500/3260-find-the-largest-palindrome-divisible-by-k/)
-- [416. Partition Equal Subset Sum](../../0001-0500/0416-partition-equal-subset-sum/)
-- [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](../../1001-1500/1452-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
+- [84. Largest Rectangle in Histogram](../../0001-0500/0084-largest-rectangle-in-histogram/)
+- [179. Largest Number](../../0001-0500/0179-largest-number/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/largest-divisible-subset/)

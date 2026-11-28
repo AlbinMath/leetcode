@@ -112,7 +112,7 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [1790. Check if One String Swap Can Make Strings Equal](../../1501-2000/1790-check-if-one-string-swap-can-make-strings-equal/)
 - [3900. Longest Balanced Substring After One Swap](../../3501-4000/3900-longest-balanced-substring-after-one-swap/)
-- [31. Next Permutation](../../0001-0500/0031-next-permutation/)
+- [66. Plus One](../../0001-0500/0066-plus-one/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/previous-permutation-with-one-swap/)

@@ -147,9 +147,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [730. Count Different Palindromic Subsequences](../../0501-1000/0730-count-different-palindromic-subsequences/)
-- [1457. Pseudo-Palindromic Paths in a Binary Tree](../../1001-1500/1457-pseudo-palindromic-paths-in-a-binary-tree/)
-- [3239. Minimum Number of Flips to Make Binary Grid Palindromic I](../../3001-3500/3239-minimum-number-of-flips-to-make-binary-grid-palindromic-i/)
+- [315. Count of Smaller Numbers After Self](../../0001-0500/0315-count-of-smaller-numbers-after-self/)
+- [357. Count Numbers with Unique Digits](../../0001-0500/0357-count-numbers-with-unique-digits/)
+- [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-binary-palindromic-numbers/)

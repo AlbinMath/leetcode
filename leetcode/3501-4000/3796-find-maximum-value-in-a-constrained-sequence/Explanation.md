@@ -138,7 +138,7 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3287. Find the Maximum Sequence Value of Array](../../3001-3500/3287-find-the-maximum-sequence-value-of-array/)
 - [3993. Maximum Value of an Alternating Sequence](../../3501-4000/3993-maximum-value-of-an-alternating-sequence/)
-- [2242. Maximum Score of a Node Sequence](../../2001-2500/2242-maximum-score-of-a-node-sequence/)
+- [513. Find Bottom Left Tree Value](../../0501-1000/0513-find-bottom-left-tree-value/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-maximum-value-in-a-constrained-sequence/)

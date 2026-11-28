@@ -130,9 +130,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [839. Similar String Groups](../../0501-1000/0839-similar-string-groups/)
-- [854. K-Similar Strings](../../0501-1000/0854-k-similar-strings/)
-- [872. Leaf-Similar Trees](../../0501-1000/0872-leaf-similar-trees/)
+- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
+- [23. Merge k Sorted Lists](../../0001-0500/0023-merge-k-sorted-lists/)
+- [56. Merge Intervals](../../0001-0500/0056-merge-intervals/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/merge-similar-items/)

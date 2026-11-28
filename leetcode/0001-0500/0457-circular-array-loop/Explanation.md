@@ -153,8 +153,8 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 
 ## Related Problems
 - [3776. Minimum Moves to Balance Circular Array](../../3501-4000/3776-minimum-moves-to-balance-circular-array/)
-- [622. Design Circular Queue](../../0501-1000/0622-design-circular-queue/)
-- [641. Design Circular Deque](../../0501-1000/0641-design-circular-deque/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/circular-array-loop/)

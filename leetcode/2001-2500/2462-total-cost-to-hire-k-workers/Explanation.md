@@ -228,7 +228,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [857. Minimum Cost to Hire K Workers](../../0501-1000/0857-minimum-cost-to-hire-k-workers/)
 - [1959. Minimum Total Space Wasted With K Resizing Operations](../../1501-2000/1959-minimum-total-space-wasted-with-k-resizing-operations/)
-- [2499. Minimum Total Cost to Make Arrays Unequal](../../2001-2500/2499-minimum-total-cost-to-make-arrays-unequal/)
+- [3619. Count Islands With Total Value Divisible by K](../../3501-4000/3619-count-islands-with-total-value-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/total-cost-to-hire-k-workers/)

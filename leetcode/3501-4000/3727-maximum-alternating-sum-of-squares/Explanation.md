@@ -125,8 +125,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1911. Maximum Alternating Subsequence Sum](../../1501-2000/1911-maximum-alternating-subsequence-sum/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
-- [689. Maximum Sum of 3 Non-Overlapping Subarrays](../../0501-1000/0689-maximum-sum-of-3-non-overlapping-subarrays/)
+- [2778. Sum of Squares of Special Elements ](../../2501-3000/2778-sum-of-squares-of-special-elements/)
+- [2897. Apply Operations on Array to Maximize Sum of Squares](../../2501-3000/2897-apply-operations-on-array-to-maximize-sum-of-squares/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-alternating-sum-of-squares/)

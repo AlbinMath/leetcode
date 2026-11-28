@@ -113,9 +113,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [780. Reaching Points](../../0501-1000/0780-reaching-points/)
-- [973. K Closest Points to Origin](../../0501-1000/0973-k-closest-points-to-origin/)
-- [1266. Minimum Time Visiting All Points](../../1001-1500/1266-minimum-time-visiting-all-points/)
+- [195. Tenth Line](../../0001-0500/0195-tenth-line/)
+- [1232. Check If It Is a Straight Line](../../1001-1500/1232-check-if-it-is-a-straight-line/)
+- [1621. Number of Sets of K Non-Overlapping Line Segments](../../1501-2000/1621-number-of-sets-of-k-non-overlapping-line-segments/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/max-points-on-a-line/)

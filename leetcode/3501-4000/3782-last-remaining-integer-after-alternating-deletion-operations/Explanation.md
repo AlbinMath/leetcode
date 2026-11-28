@@ -119,8 +119,8 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 
 ## Related Problems
 - [2598. Smallest Missing Non-negative Integer After Operations](../../2501-3000/2598-smallest-missing-non-negative-integer-after-operations/)
-- [2170. Minimum Operations to Make the Array Alternating](../../2001-2500/2170-minimum-operations-to-make-the-array-alternating/)
-- [3830. Longest Alternating Subarray After Removing At Most One Element](../../3501-4000/3830-longest-alternating-subarray-after-removing-at-most-one-element/)
+- [3487. Maximum Unique Subarray Sum After Deletion](../../3001-3500/3487-maximum-unique-subarray-sum-after-deletion/)
+- [1625. Lexicographically Smallest String After Applying Operations](../../1501-2000/1625-lexicographically-smallest-string-after-applying-operations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/)

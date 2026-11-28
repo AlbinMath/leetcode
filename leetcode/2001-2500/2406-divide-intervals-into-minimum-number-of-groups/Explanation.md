@@ -156,8 +156,8 @@ By utilizing **Heap**, each element is processed efficiently, ensuring optimal p
 
 ## Related Problems
 - [2493. Divide Nodes Into the Maximum Number of Groups](../../2001-2500/2493-divide-nodes-into-the-maximum-number-of-groups/)
-- [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](../../1501-2000/1689-partitioning-into-minimum-number-of-deci-binary-numbers/)
-- [2910. Minimum Number of Groups to Create a Valid Assignment](../../2501-3000/2910-minimum-number-of-groups-to-create-a-valid-assignment/)
+- [2138. Divide a String Into Groups of Size k](../../2001-2500/2138-divide-a-string-into-groups-of-size-k/)
+- [3010. Divide an Array Into Subarrays With Minimum Cost I](../../3001-3500/3010-divide-an-array-into-subarrays-with-minimum-cost-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)

@@ -138,9 +138,9 @@ By utilizing **Fast & Slow Pointers**, each element is processed efficiently, en
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3887. Incremental Even-Weighted Cycle Queries](../../3501-4000/3887-incremental-even-weighted-cycle-queries/)
 - [2458. Height of Binary Tree After Subtree Removal Queries](../../2001-2500/2458-height-of-binary-tree-after-subtree-removal-queries/)
 - [2476. Closest Nodes Queries in a Binary Search Tree](../../2001-2500/2476-closest-nodes-queries-in-a-binary-search-tree/)
+- [2846. Minimum Edge Weight Equilibrium Queries in a Tree](../../2501-3000/2846-minimum-edge-weight-equilibrium-queries-in-a-tree/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/cycle-length-queries-in-a-tree/)

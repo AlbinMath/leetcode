@@ -179,9 +179,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [1621. Number of Sets of K Non-Overlapping Line Segments](../../1501-2000/1621-number-of-sets-of-k-non-overlapping-line-segments/)
 - [3309. Maximum Possible Number by Binary Concatenation](../../3001-3500/3309-maximum-possible-number-by-binary-concatenation/)
 - [3317. Find the Number of Possible Ways for an Event](../../3001-3500/3317-find-the-number-of-possible-ways-for-an-event/)
-- [1621. Number of Sets of K Non-Overlapping Line Segments](../../1501-2000/1621-number-of-sets-of-k-non-overlapping-line-segments/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-possible-sets-of-closing-branches/)

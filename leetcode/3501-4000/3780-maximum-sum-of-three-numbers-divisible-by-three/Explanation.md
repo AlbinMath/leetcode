@@ -153,8 +153,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
-- [3256. Maximum Value Sum by Placing Three Rooks I](../../3001-3500/3256-maximum-value-sum-by-placing-three-rooks-i/)
-- [3257. Maximum Value Sum by Placing Three Rooks II](../../3001-3500/3257-maximum-value-sum-by-placing-three-rooks-ii/)
+- [1262. Greatest Sum Divisible by Three](../../1001-1500/1262-greatest-sum-divisible-by-three/)
+- [3381. Maximum Subarray Sum With Length Divisible by K](../../3001-3500/3381-maximum-subarray-sum-with-length-divisible-by-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-sum-of-three-numbers-divisible-by-three/)

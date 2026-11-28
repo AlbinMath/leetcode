@@ -133,8 +133,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [1504. Count Submatrices With All Ones](../../1501-2000/1504-count-submatrices-with-all-ones/)
-- [3070. Count Submatrices with Top-Left Element and Sum Less Than k](../../3001-3500/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/)
-- [3212. Count Submatrices With Equal Frequency of X and Y](../../3001-3500/3212-count-submatrices-with-equal-frequency-of-x-and-y/)
+- [1925. Count Square Sum Triples](../../1501-2000/1925-count-square-sum-triples/)
+- [2572. Count the Number of Square-Free Subsets](../../2501-3000/2572-count-the-number-of-square-free-subsets/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)

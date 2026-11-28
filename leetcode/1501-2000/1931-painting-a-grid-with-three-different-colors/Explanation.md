@@ -131,9 +131,9 @@ By utilizing **Backtracking**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1878. Get Biggest Three Rhombus Sums in a Grid](../../1501-2000/1878-get-biggest-three-rhombus-sums-in-a-grid/)
 - [2078. Two Furthest Houses With Different Colors](../../2001-2500/2078-two-furthest-houses-with-different-colors/)
-- [840. Magic Squares In Grid](../../0501-1000/0840-magic-squares-in-grid/)
+- [1878. Get Biggest Three Rhombus Sums in a Grid](../../1501-2000/1878-get-biggest-three-rhombus-sums-in-a-grid/)
+- [241. Different Ways to Add Parentheses](../../0001-0500/0241-different-ways-to-add-parentheses/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/painting-a-grid-with-three-different-colors/)

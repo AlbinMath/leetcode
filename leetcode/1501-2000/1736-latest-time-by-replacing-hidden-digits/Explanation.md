@@ -117,8 +117,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3114. Latest Time You Can Obtain After Replacing Characters](../../3001-3500/3114-latest-time-you-can-obtain-after-replacing-characters/)
-- [2332. The Latest Time to Catch a Bus](../../2001-2500/2332-the-latest-time-to-catch-a-bus/)
 - [949. Largest Time for Given Digits](../../0501-1000/0949-largest-time-for-given-digits/)
+- [2332. The Latest Time to Catch a Bus](../../2001-2500/2332-the-latest-time-to-catch-a-bus/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)

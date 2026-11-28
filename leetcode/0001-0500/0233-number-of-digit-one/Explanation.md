@@ -100,9 +100,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1404. Number of Steps to Reduce a Number in Binary Representation to One](../../1001-1500/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 - [2160. Minimum Sum of Four Digit Number After Splitting Digits](../../2001-2500/2160-minimum-sum-of-four-digit-number-after-splitting-digits/)
 - [2231. Largest Number After Digit Swaps by Parity](../../2001-2500/2231-largest-number-after-digit-swaps-by-parity/)
+- [2259. Remove Digit From Number to Maximize Result](../../2001-2500/2259-remove-digit-from-number-to-maximize-result/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/number-of-digit-one/)

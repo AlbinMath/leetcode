@@ -119,8 +119,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [845. Longest Mountain in Array](../../0501-1000/0845-longest-mountain-in-array/)
-- [221. Maximal Square](../../0001-0500/0221-maximal-square/)
-- [367. Valid Perfect Square](../../0001-0500/0367-valid-perfect-square/)
+- [26. Remove Duplicates from Sorted Array](../../0001-0500/0026-remove-duplicates-from-sorted-array/)
+- [33. Search in Rotated Sorted Array](../../0001-0500/0033-search-in-rotated-sorted-array/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-square-streak-in-an-array/)

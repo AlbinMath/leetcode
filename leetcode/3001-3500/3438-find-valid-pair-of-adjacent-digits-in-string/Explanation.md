@@ -121,7 +121,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [28. Find the Index of the First Occurrence in a String](../../0001-0500/0028-find-the-index-of-the-first-occurrence-in-a-string/)
 - [438. Find All Anagrams in a String](../../0001-0500/0438-find-all-anagrams-in-a-string/)
-- [678. Valid Parenthesis String](../../0501-1000/0678-valid-parenthesis-string/)
+- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)

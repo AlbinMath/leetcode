@@ -170,8 +170,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2382. Maximum Segment Sum After Removals](../../2001-2500/2382-maximum-segment-sum-after-removals/)
 - [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
+- [2382. Maximum Segment Sum After Removals](../../2001-2500/2382-maximum-segment-sum-after-removals/)
 - [3410. Maximize Subarray Sum After Removing All Occurrences of One Element](../../3001-3500/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element/)
 
 ## LeetCode

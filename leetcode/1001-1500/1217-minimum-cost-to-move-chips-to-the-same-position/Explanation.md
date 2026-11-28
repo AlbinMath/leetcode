@@ -114,8 +114,8 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [3919. Minimum Cost to Move Between Indices](../../3501-4000/3919-minimum-cost-to-move-between-indices/)
-- [857. Minimum Cost to Hire K Workers](../../0501-1000/0857-minimum-cost-to-hire-k-workers/)
-- [983. Minimum Cost For Tickets](../../0501-1000/0983-minimum-cost-for-tickets/)
+- [1263. Minimum Moves to Move a Box to Their Target Location](../../1001-1500/1263-minimum-moves-to-move-a-box-to-their-target-location/)
+- [1769. Minimum Number of Operations to Move All Balls to Each Box](../../1501-2000/1769-minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)

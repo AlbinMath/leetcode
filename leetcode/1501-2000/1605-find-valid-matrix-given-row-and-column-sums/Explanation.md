@@ -121,8 +121,8 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 
 ## Related Problems
 - [1982. Find Array Given Subset Sums](../../1501-2000/1982-find-array-given-subset-sums/)
-- [1517. Find Users With Valid E-Mails](../../1501-2000/1517-find-users-with-valid-e-mails/)
-- [1964. Find the Longest Valid Obstacle Course at Each Position](../../1501-2000/1964-find-the-longest-valid-obstacle-course-at-each-position/)
+- [373. Find K Pairs with Smallest Sums](../../0001-0500/0373-find-k-pairs-with-smallest-sums/)
+- [515. Find Largest Value in Each Tree Row](../../0501-1000/0515-find-largest-value-in-each-tree-row/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)

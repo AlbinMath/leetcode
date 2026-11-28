@@ -187,9 +187,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](../../2001-2500/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 - [3025. Find the Number of Ways to Place People I](../../3001-3500/3025-find-the-number-of-ways-to-place-people-i/)
 - [3027. Find the Number of Ways to Place People II](../../3001-3500/3027-find-the-number-of-ways-to-place-people-ii/)
-- [1519. Number of Nodes in the Sub-Tree With the Same Label](../../1501-2000/1519-number-of-nodes-in-the-sub-tree-with-the-same-label/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/)

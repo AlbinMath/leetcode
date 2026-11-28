@@ -143,7 +143,7 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 ## Related Problems
 - [2888. Reshape Data: Concatenate](../../2501-3000/2888-reshape-data-concatenate/)
 - [2890. Reshape Data: Melt](../../2501-3000/2890-reshape-data-melt/)
-- [566. Reshape the Matrix](../../0501-1000/0566-reshape-the-matrix/)
+- [211. Design Add and Search Words Data Structure](../../0001-0500/0211-design-add-and-search-words-data-structure/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/reshape-data-pivot/)

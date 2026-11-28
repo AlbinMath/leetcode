@@ -177,9 +177,9 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 - **Follow-up:** Can this approach be extended to 3Sum or 4Sum variants?
 
 ## Related Problems
-- [1669. Merge In Between Linked Lists](../../1501-2000/1669-merge-in-between-linked-lists/)
-- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
 - [349. Intersection of Two Arrays](../../0001-0500/0349-intersection-of-two-arrays/)
+- [350. Intersection of Two Arrays II](../../0001-0500/0350-intersection-of-two-arrays-ii/)
+- [757. Set Intersection Size At Least Two](../../0501-1000/0757-set-intersection-size-at-least-two/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/)

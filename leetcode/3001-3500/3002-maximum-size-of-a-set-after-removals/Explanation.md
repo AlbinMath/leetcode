@@ -1,7 +1,7 @@
 # LeetCode 3002: Maximum Size of a Set After Removals
 
 **LeetCode Problem #3002 — Maximum Size of a Set After Removals**
-Solve LeetCode Maximum Size of a Set After Removals using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Maximum Size of a Set After Removals using JavaScript and Tree & Graph. This solution finds the optimal result using Depth-First Search (DFS) / Breadth-First Search (BFS) in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Maximum Size of a Set After Removals using JavaScript and Math & 
 | LeetCode | #3002 |
 | Difficulty | Medium |
 | Language | JavaScript |
-| Algorithm | Mathematical Simulation & Modular Arithmetic |
-| Data Structure | Primitive Types |
-| Pattern | Math & Logic |
+| Algorithm | Depth-First Search (DFS) / Breadth-First Search (BFS) |
+| Data Structure | Tree / Graph / Grid |
+| Pattern | Tree & Graph |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given two **0-indexed** integer arrays `nums1` and `nums2` of even length `n`.
@@ -49,7 +49,7 @@ It can be shown that 5 is the maximum possible size of the set s after the remov
 It can be shown that 6 is the maximum possible size of the set s after the removals.
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
+Leverage **Tree & Graph** with **Tree / Graph / Grid** to process inputs efficiently and achieve optimal time and space complexity.
 
 ## Approach
 To solve **Maximum Size of a Set After Removals**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -61,7 +61,7 @@ To solve **Maximum Size of a Set After Removals**, we observe the problem requir
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums1 = [1,2,1,2], nums2 = [1,1,1,1]`.
-2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+2. **Processing Steps:** We apply **Depth-First Search (DFS) / Breadth-First Search (BFS)** using our **Tree / Graph / Grid**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `2`.
@@ -70,14 +70,16 @@ It can be shown that 2 is the maximum possible size of the set s after the remov
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Tree / Graph / Grid.
 
 ## Pattern
-**Math & Logic**
+**Tree & Graph**
 
 ## Topics
-- Math
-- Simulation
+- Tree
+- Graph
+- DFS
+- BFS
 
 ## Language
 JavaScript
@@ -102,7 +104,7 @@ var maximumSetSize = function(nums1, nums2) {
 ```
 
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Tree & Graph**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
 1. Missing edge cases (empty inputs, boundary limits, negative values).
@@ -115,8 +117,8 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [2382. Maximum Segment Sum After Removals](../../2001-2500/2382-maximum-segment-sum-after-removals/)
-- [1481. Least Number of Unique Integers after K Removals](../../1001-1500/1481-least-number-of-unique-integers-after-k-removals/)
-- [2322. Minimum Score After Removals on a Tree](../../2001-2500/2322-minimum-score-after-removals-on-a-tree/)
+- [757. Set Intersection Size At Least Two](../../0501-1000/0757-set-intersection-size-at-least-two/)
+- [1422. Maximum Score After Splitting a String](../../1001-1500/1422-maximum-score-after-splitting-a-string/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-size-of-a-set-after-removals/)

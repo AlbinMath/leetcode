@@ -118,7 +118,7 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 ## Related Problems
 - [2712. Minimum Cost to Make All Characters Equal](../../2501-3000/2712-minimum-cost-to-make-all-characters-equal/)
 - [3784. Minimum Deletion Cost to Make All Characters Equal](../../3501-4000/3784-minimum-deletion-cost-to-make-all-characters-equal/)
-- [1247. Minimum Swaps to Make Strings Equal](../../1001-1500/1247-minimum-swaps-to-make-strings-equal/)
+- [1941. Check if All Characters Have Equal Number of Occurrences](../../1501-2000/1941-check-if-all-characters-have-equal-number-of-occurrences/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)

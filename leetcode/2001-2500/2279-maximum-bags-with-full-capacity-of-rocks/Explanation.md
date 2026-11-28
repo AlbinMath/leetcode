@@ -118,9 +118,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [3814. Maximum Capacity Within Budget](../../3501-4000/3814-maximum-capacity-within-budget/)
 - [3413. Maximum Coins From K Consecutive Bags](../../3001-3500/3413-maximum-coins-from-k-consecutive-bags/)
-- [1011. Capacity To Ship Packages Within D Days](../../1001-1500/1011-capacity-to-ship-packages-within-d-days/)
+- [3814. Maximum Capacity Within Budget](../../3501-4000/3814-maximum-capacity-within-budget/)
+- [894. All Possible Full Binary Trees](../../0501-1000/0894-all-possible-full-binary-trees/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)

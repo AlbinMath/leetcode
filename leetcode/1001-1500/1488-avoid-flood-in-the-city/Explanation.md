@@ -148,9 +148,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [1576. Replace All ?'s to Avoid Consecutive Repeating Characters](../../1501-2000/1576-replace-all-s-to-avoid-consecutive-repeating-characters/)
-- [3785. Minimum Swaps to Avoid Forbidden Values](../../3501-4000/3785-minimum-swaps-to-avoid-forbidden-values/)
-- [3992. Rearrange String to Avoid Character Pair](../../3501-4000/3992-rearrange-string-to-avoid-character-pair/)
+- [733. Flood Fill](../../0501-1000/0733-flood-fill/)
+- [3905. Multi Source Flood Fill](../../3501-4000/3905-multi-source-flood-fill/)
+- [807. Max Increase to Keep City Skyline](../../0501-1000/0807-max-increase-to-keep-city-skyline/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/avoid-flood-in-the-city/)

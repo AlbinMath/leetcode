@@ -111,9 +111,9 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 - **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
-- [3395. Subsequences with a Unique Middle Mode I](../../3001-3500/3395-subsequences-with-a-unique-middle-mode-i/)
 - [3843. First Element with Unique Frequency](../../3501-4000/3843-first-element-with-unique-frequency/)
 - [3866. First Unique Even Element](../../3501-4000/3866-first-unique-even-element/)
+- [3395. Subsequences with a Unique Middle Mode I](../../3001-3500/3395-subsequences-with-a-unique-middle-mode-i/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/unique-middle-element/)

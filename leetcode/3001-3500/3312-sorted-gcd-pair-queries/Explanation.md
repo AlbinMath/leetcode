@@ -202,8 +202,8 @@ By utilizing **Prefix Sum**, each element is processed efficiently, ensuring opt
 
 ## Related Problems
 - [4010. Maximize Pair Strength Using GCD](../../4001-4500/4010-maximize-pair-strength-using-gcd/)
-- [4. Median of Two Sorted Arrays](../../0001-0500/0004-median-of-two-sorted-arrays/)
-- [21. Merge Two Sorted Lists](../../0001-0500/0021-merge-two-sorted-lists/)
+- [646. Maximum Length of Pair Chain](../../0501-1000/0646-maximum-length-of-pair-chain/)
+- [719. Find K-th Smallest Pair Distance](../../0501-1000/0719-find-k-th-smallest-pair-distance/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/sorted-gcd-pair-queries/)

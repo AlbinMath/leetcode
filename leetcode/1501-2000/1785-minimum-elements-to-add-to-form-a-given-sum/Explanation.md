@@ -100,8 +100,8 @@ By utilizing **Hash Map**, each element is processed efficiently, ensuring optim
 
 ## Related Problems
 - [2835. Minimum Operations to Form Subsequence With Target Sum](../../2501-3000/2835-minimum-operations-to-form-subsequence-with-target-sum/)
-- [64. Minimum Path Sum](../../0001-0500/0064-minimum-path-sum/)
-- [209. Minimum Size Subarray Sum](../../0001-0500/0209-minimum-size-subarray-sum/)
+- [1498. Number of Subsequences That Satisfy the Given Sum Condition](../../1001-1500/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/)
+- [1639. Number of Ways to Form a Target String Given a Dictionary](../../1501-2000/1639-number-of-ways-to-form-a-target-string-given-a-dictionary/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/)

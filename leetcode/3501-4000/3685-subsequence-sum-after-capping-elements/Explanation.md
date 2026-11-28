@@ -133,8 +133,8 @@ By utilizing **Dynamic Programming**, each element is processed efficiently, ens
 
 ## Related Problems
 - [3165. Maximum Sum of Subsequence With Non-adjacent Elements](../../3001-3500/3165-maximum-sum-of-subsequence-with-non-adjacent-elements/)
-- [1619. Mean of Array After Removing Some Elements](../../1501-2000/1619-mean-of-array-after-removing-some-elements/)
-- [1748. Sum of Unique Elements](../../1501-2000/1748-sum-of-unique-elements/)
+- [985. Sum of Even Numbers After Queries](../../0501-1000/0985-sum-of-even-numbers-after-queries/)
+- [1005. Maximize Sum Of Array After K Negations](../../1001-1500/1005-maximize-sum-of-array-after-k-negations/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/subsequence-sum-after-capping-elements/)

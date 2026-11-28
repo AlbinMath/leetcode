@@ -131,7 +131,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3774. Absolute Difference Between Maximum and Minimum K Elements](../../3501-4000/3774-absolute-difference-between-maximum-and-minimum-k-elements/)
 - [3880. Minimum Absolute Difference Between Two Values](../../3501-4000/3880-minimum-absolute-difference-between-two-values/)
-- [530. Minimum Absolute Difference in BST](../../0501-1000/0530-minimum-absolute-difference-in-bst/)
+- [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](../../1501-2000/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)

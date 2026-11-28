@@ -138,9 +138,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
+- [222. Count Complete Tree Nodes](../../0001-0500/0222-count-complete-tree-nodes/)
 - [696. Count Binary Substrings](../../0501-1000/0696-count-binary-substrings/)
 - [828. Count Unique Characters of All Substrings of a Given String](../../0501-1000/0828-count-unique-characters-of-all-substrings-of-a-given-string/)
-- [1638. Count Substrings That Differ by One Character](../../1501-2000/1638-count-substrings-that-differ-by-one-character/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-complete-substrings/)

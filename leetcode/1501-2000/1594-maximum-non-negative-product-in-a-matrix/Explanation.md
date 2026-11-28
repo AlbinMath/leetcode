@@ -128,9 +128,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [600. Non-negative Integers without Consecutive Ones](../../0501-1000/0600-non-negative-integers-without-consecutive-ones/)
 - [1351. Count Negative Numbers in a Sorted Matrix](../../1001-1500/1351-count-negative-numbers-in-a-sorted-matrix/)
-- [2529. Maximum Count of Positive Integer and Negative Integer](../../2501-3000/2529-maximum-count-of-positive-integer-and-negative-integer/)
+- [1975. Maximum Matrix Sum](../../1501-2000/1975-maximum-matrix-sum/)
+- [2713. Maximum Strictly Increasing Cells in a Matrix](../../2501-3000/2713-maximum-strictly-increasing-cells-in-a-matrix/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/)

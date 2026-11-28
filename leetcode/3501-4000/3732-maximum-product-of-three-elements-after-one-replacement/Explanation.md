@@ -122,7 +122,7 @@ By utilizing **Math & Logic**, each element is processed efficiently, ensuring o
 
 ## Related Problems
 - [4066. Maximum Equal Adjacent Pairs After at Most One Replacement](../../4001-4500/4066-maximum-equal-adjacent-pairs-after-at-most-one-replacement/)
-- [1464. Maximum Product of Two Elements in an Array](../../1001-1500/1464-maximum-product-of-two-elements-in-an-array/)
+- [2233. Maximum Product After K Increments](../../2001-2500/2233-maximum-product-after-k-increments/)
 - [3397. Maximum Number of Distinct Elements After Operations](../../3001-3500/3397-maximum-number-of-distinct-elements-after-operations/)
 
 ## LeetCode

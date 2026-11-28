@@ -146,7 +146,7 @@ By utilizing **Two Pointers**, each element is processed efficiently, ensuring o
 ## Related Problems
 - [3256. Maximum Value Sum by Placing Three Rooks I](../../3001-3500/3256-maximum-value-sum-by-placing-three-rooks-i/)
 - [3780. Maximum Sum of Three Numbers Divisible by Three](../../3501-4000/3780-maximum-sum-of-three-numbers-divisible-by-three/)
-- [124. Binary Tree Maximum Path Sum](../../0001-0500/0124-binary-tree-maximum-path-sum/)
+- [628. Maximum Product of Three Numbers](../../0501-1000/0628-maximum-product-of-three-numbers/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/)

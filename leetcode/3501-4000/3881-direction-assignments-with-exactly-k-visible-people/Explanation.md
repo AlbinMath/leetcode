@@ -166,9 +166,9 @@ By utilizing **Array / General**, each element is processed efficiently, ensurin
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1944. Number of Visible People in a Queue](../../1501-2000/1944-number-of-visible-people-in-a-queue/)
-- [1866. Number of Ways to Rearrange Sticks With K Sticks Visible](../../1501-2000/1866-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
 - [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](../../1001-1500/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
+- [2400. Number of Ways to Reach a Position After Exactly k Steps](../../2001-2500/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/)
+- [2656. Maximum Sum With Exactly K Elements ](../../2501-3000/2656-maximum-sum-with-exactly-k-elements/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/direction-assignments-with-exactly-k-visible-people/)

@@ -220,8 +220,8 @@ By utilizing **Sliding Window**, each element is processed efficiently, ensuring
 
 ## Related Problems
 - [3729. Count Distinct Subarrays Divisible by K in Sorted Array](../../3501-4000/3729-count-distinct-subarrays-divisible-by-k-in-sorted-array/)
-- [992. Subarrays with K Different Integers](../../0501-1000/0992-subarrays-with-k-different-integers/)
 - [2442. Count Number of Distinct Integers After Reverse Operations](../../2001-2500/2442-count-number-of-distinct-integers-after-reverse-operations/)
+- [2461. Maximum Sum of Distinct Subarrays With Length K](../../2001-2500/2461-maximum-sum-of-distinct-subarrays-with-length-k/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/count-subarrays-with-k-distinct-integers/)

@@ -1,7 +1,7 @@
 # LeetCode 3411: Maximum Subarray With Equal Products
 
 **LeetCode Problem #3411 — Maximum Subarray With Equal Products**
-Solve LeetCode Maximum Subarray With Equal Products using JavaScript and Math & Logic. This solution finds the optimal result using Mathematical Simulation & Modular Arithmetic in O(n) time.
+Solve LeetCode Maximum Subarray With Equal Products using JavaScript and Hash Map. This solution finds the optimal result using Complement Lookup / Hash Table Frequency in O(n) time.
 
 ## Problem Information
 | Property | Value |
@@ -10,11 +10,11 @@ Solve LeetCode Maximum Subarray With Equal Products using JavaScript and Math & 
 | LeetCode | #3411 |
 | Difficulty | Easy |
 | Language | JavaScript |
-| Algorithm | Mathematical Simulation & Modular Arithmetic |
-| Data Structure | Primitive Types |
-| Pattern | Math & Logic |
+| Algorithm | Complement Lookup / Hash Table Frequency |
+| Data Structure | Dictionary / Hash Map |
+| Pattern | Hash Map |
 | Time Complexity | O(n) |
-| Space Complexity | O(1) |
+| Space Complexity | O(n) |
 
 ## Problem Statement
 You are given an array of **positive** integers `nums`.
@@ -47,7 +47,7 @@ Return the length of the **longest** **product equivalent** subarray of `nums`.
 - **Output:** `5`
 
 ## Key Insight
-Leverage **Math & Logic** with **Primitive Types** to process inputs efficiently and achieve optimal time and space complexity.
+Store previously seen elements or their frequencies in a hash map to achieve instant $O(1)$ lookup rather than nested $O(n^2)$ iterations.
 
 ## Approach
 To solve **Maximum Subarray With Equal Products**, we observe the problem requirements and utilize the **Array / General** technique. We iterate through the inputs using **In-Place Array Traversal & Index Mapping**, leveraging a **Array** to efficiently manage state and achieve optimal complexity.
@@ -59,7 +59,7 @@ To solve **Maximum Subarray With Equal Products**, we observe the problem requir
 
 ## Example Walkthrough
 1. **Input State:** We begin with `nums = [1,2,1,2,1,1,1]`.
-2. **Processing Steps:** We apply **Mathematical Simulation & Modular Arithmetic** using our **Primitive Types**:
+2. **Processing Steps:** We apply **Complement Lookup / Hash Table Frequency** using our **Dictionary / Hash Map**:
    - Initialize the state according to the problem setup.
    - Trace intermediate operations and invariant checks.
 3. **Result:** Arrive at the expected output `5`.
@@ -67,14 +67,15 @@ To solve **Maximum Subarray With Equal Products**, we observe the problem requir
 
 ## Complexity Analysis
 - **Time Complexity:** O(n) — The algorithm processes input elements in optimal amortized time.
-- **Space Complexity:** O(1) — Memory footprint corresponds to auxiliary storage for Primitive Types.
+- **Space Complexity:** O(n) — Memory footprint corresponds to auxiliary storage for Dictionary / Hash Map.
 
 ## Pattern
-**Math & Logic**
+**Hash Map**
 
 ## Topics
-- Math
-- Simulation
+- Hash Table
+- Array
+- Complement Lookup
 
 ## Language
 JavaScript
@@ -126,21 +127,21 @@ var maxLength = function (nums) {
 ```
 
 ## Why This Works
-By utilizing **Math & Logic**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
+By utilizing **Hash Map**, each element is processed efficiently, ensuring optimal performance while avoiding unnecessary re-computations.
 
 ## Common Mistakes
-1. Missing edge cases (empty inputs, boundary limits, negative values).
-2. Off-by-one errors in loop conditions.
-3. TLE due to suboptimal data structure choices.
+1. Using the same element twice.
+2. Checking the map before inserting elements in the correct order.
+3. Inefficient hash functions or unnecessary duplicate key updates.
 
 ## Interview Notes
-- **Tests:** Fundamental DSA concepts, problem analysis, and edge-case handling.
-- **Follow-up:** How would you scale this solution for large input streams?
+- **Tests:** Hash map usage, complement/frequency lookup, and $O(n)$ time optimization.
+- **Follow-up:** Can you solve the problem in $O(1)$ extra space if the input array is sorted?
 
 ## Related Problems
+- [2064. Minimized Maximum of Products Distributed to Any Store](../../2001-2500/2064-minimized-maximum-of-products-distributed-to-any-store/)
 - [1072. Flip Columns For Maximum Number of Equal Rows](../../1001-1500/1072-flip-columns-for-maximum-number-of-equal-rows/)
 - [1224. Maximum Equal Frequency](../../1001-1500/1224-maximum-equal-frequency/)
-- [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](../../1001-1500/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/maximum-subarray-with-equal-products/)

@@ -135,9 +135,9 @@ By utilizing **Stack & Queue**, each element is processed efficiently, ensuring 
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [2900. Longest Unequal Adjacent Groups Subsequence I](../../2501-3000/2900-longest-unequal-adjacent-groups-subsequence-i/)
-- [2957. Remove Adjacent Almost-Equal Characters](../../2501-3000/2957-remove-adjacent-almost-equal-characters/)
 - [3. Longest Substring Without Repeating Characters](../../0001-0500/0003-longest-substring-without-repeating-characters/)
+- [395. Longest Substring with At Least K Repeating Characters](../../0001-0500/0395-longest-substring-with-at-least-k-repeating-characters/)
+- [2957. Remove Adjacent Almost-Equal Characters](../../2501-3000/2957-remove-adjacent-almost-equal-characters/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)

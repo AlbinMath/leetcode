@@ -115,9 +115,9 @@ By utilizing **Tree & Graph**, each element is processed efficiently, ensuring o
 - **Follow-up:** How would you scale this solution for large input streams?
 
 ## Related Problems
-- [1953. Maximum Number of Weeks for Which You Can Work](../../1501-2000/1953-maximum-number-of-weeks-for-which-you-can-work/)
-- [1986. Minimum Number of Work Sessions to Finish the Tasks](../../1501-2000/1986-minimum-number-of-work-sessions-to-finish-the-tasks/)
 - [11. Container With Most Water](../../0001-0500/0011-container-with-most-water/)
+- [508. Most Frequent Subtree Sum](../../0501-1000/0508-most-frequent-subtree-sum/)
+- [602. Friend Requests II: Who Has the Most Friends](../../0501-1000/0602-friend-requests-ii-who-has-the-most-friends/)
 
 ## LeetCode
 [View problem on LeetCode](https://leetcode.com/problems/most-profit-assigning-work/)
